@@ -412,7 +412,7 @@ class Miner(object):
         self.results["monthly_closed_PRs"] = 0
         self.results["monthly_merged_PRs"] = 0
         self.results["monthly_PR_mergers"] = 0
-        self.results["monthly_PR_comments"] = 0  # comments from open + closed issues
+        self.results["monthly_PR_comments"] = 0  # comments from open and closed issues
 
         for i in range(len(self.results)):
             if i != len(self.results) - 1:
