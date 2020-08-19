@@ -5,8 +5,6 @@ import pdb
 import glob 
 import subprocess 
 import shutil
-from datetime import timezone
-from datetime import datetime
 
 def get_repo_names(src,token_idx, token_num):
     res = []
@@ -100,9 +98,8 @@ def get_commits_stats_from_clone_repo(src):
         temp = comm.split("_")
         commit_id = temp[0]
         one = {"commit_id": commit_id}
-        one["committed_at"] = datetime.strptime(temp[1], '%Y-%m-%d %H:%M:%S %z').astimezone(tz = timezone.utc).replace(tzinfo = None)
+        one["committed_at"] = temp[1]
         try:
-            #FIXME: This method of extracting committer_id does not work in case of merge commits as second line is Merge info
             commit_message = subprocess.check_output(["git", "show", str(commit_id)])
             commits = commit_message.decode("utf-8").split("\n")
             one["committer_id"] = commits[1][8:] #Author: Andy Ross <andrew.j.ross@intel.com>, remove Author
