@@ -141,61 +141,36 @@ class Miner:
             #commits_dates = get_commits_from_clone_repo(self.repo_name)
             #stats = retreieve_commits(commits_dates) # get commits dates by clone repo
             stats = retrieve_commits()
-        pdb.set_trace()
+        #pdb.set_trace()
         stats_pd = pd.DataFrame.from_records(stats)
         stats_pd.committed_at = stats_pd.committed_at.astype("datetime64[ns]")
         #stats_pd['committer_domain'] = stats_pd.apply(lambda row: get_committer_domain(row['committer_id']), axis = 1)
         #stats_pd['committer_domain'] = stats_pd.apply(lambda row: print('row = ' + str(row)), axis = 1)
-#        start_date, end_date = (
-#            str(stats_pd.committed_at.min())[:7],
-#            str(stats_pd.committed_at.max())[:7],
-#        )  # i.e, 2019-09
-       
-#        new_pd = pd.DataFrame(
-#            {"dates": pd.date_range(start=start_date, end=end_date, freq="MS")}
-#        )
-#        new_pd["monthly_commits"] = 0
-#        new_pd["monthly_commit_comments"] = 0
-#        new_pd["monthly_contributors"] = 0
-        
-        # fmt:off
-#        for i in range(len(new_pd)):
-#            if i != len(new_pd) - 1:
-#                mask = (stats_pd.committed_at >= new_pd.dates[i]) & (
-#                    stats_pd.committed_at < new_pd.dates[i + 1]
-#                )
-#            else:
-#                mask = stats_pd.committed_at >= new_pd.dates[i]
-#            # new_pd.at[i, "monthly_commit_comments"] = sum(stats_pd[mask].commit_comment)
-#            new_pd.at[i, "monthly_commits"] = len(stats_pd[mask])
-#            new_pd.at[i, "monthly_contributors"] = len(stats_pd[mask].committer_id.unique())
-#            if self.debug_counts:
-#                print(stats_pd[mask].committer_id.unique())
-        # fmt:on
 
-        self.results['contributors'] = 0
-        self.results['commits'] = 0
-        self.results['new_contributors'] = 0
-        self.results['new_contributor_domains'] = 0
+        self.results['number_of_contributors'] = 0
+        self.results['number_of_commits'] = 0
+        self.results['number_of_new_contributors'] = 0
+        self.results['number_of_contributor-domains'] = 0 #TODO
+        self.results['number_of_new_contributor-domains'] = 0
 
         current_contributors = set()
         current_contributor_domains = set()
         for i in range(len(self.results)):
             if i == 0:
-                mask = stats_pd.committed_at <= self.results.committed_at[i]
+                mask = stats_pd.committed_at <= self.results.date[i]
             else:
-                mask = (stats_pd.committed_at <= self.results.committed_at[i]) & (
-                        stats_pd.committed_at > self.results.committed_at[i-1]
+                mask = (stats_pd.committed_at <= self.results.date[i]) & (
+                        stats_pd.committed_at > self.results.date[i-1]
                 )
             commit_pd = stats_pd[mask]
-            self.results.at[i, 'contributors'] = commit_pd['committer_id'].nunique()
-            self.results.at[i, 'commits'] = commit_pd.shape[0]
+            self.results.at[i, 'number_of_contributors'] = commit_pd['committer_id'].nunique()
+            self.results.at[i, 'number_of_commits'] = commit_pd.shape[0]
             new_contributors = commit_pd[~commit_pd['committer_id'].isin(current_contributors)]['committer_id'].drop_duplicates()
             new_contributor_domains = commit_pd[~commit_pd['committer_domain'].isin(current_contributor_domains)]['committer_domain'].drop_duplicates()
             #print(new_contributors)
             #print('new contributors count = ' + str(new_contributors.count()))
-            self.results.at[i, 'new_contributors'] = new_contributors.count()
-            self.results.at[i, 'new_contributor_domains'] = new_contributor_domains.count()
+            self.results.at[i, 'number_of_new_contributors'] = new_contributors.count()
+            self.results.at[i, 'number_of_new_contributor-domains'] = new_contributor_domains.count()
             current_contributors.update(new_contributors.tolist())
             current_contributor_domains.update(new_contributor_domains.tolist())
 
@@ -219,12 +194,13 @@ class Miner:
         Get releases for this repo
         """
         def multi_releases(release):
-            one = {"release_id": str(release.id)}
+            one = {"release": str(release.id)}
             one['title'] = release.title
             one['tag_name'] = release.tag_name
             commit = self.tag_map[release.tag_name]
             one['commit_id'] = commit.sha
-            one['committed_at'] = commit.commit.author.date.astimezone(tz = timezone.utc).replace(tzinfo = None)
+            #one['committed_at'] = commit.commit.author.date.astimezone(tz = timezone.utc).replace(tzinfo = None)
+            one['date'] = commit.commit.author.date.astimezone(tz = timezone.utc).replace(tzinfo = None)
             return one
 
         # Get tags data
@@ -234,16 +210,16 @@ class Miner:
 
         all_releases = self.repo.get_releases()
         stats = self._get_results_by_threading(multi_releases, all_releases)
-        stats_pd = pd.DataFrame.from_records(stats).sort_values(by='committed_at', ignore_index = True)
-        stats_pd['days since last release'] = 0
+        stats_pd = pd.DataFrame.from_records(stats).sort_values(by='date', ignore_index = True)
+        stats_pd['days_since_last_release'] = 0
 
         for i in range(len(stats_pd)):
             if (i == 0):
-                stats_pd.at[i, 'days since last release'] = 0
+                stats_pd.at[i, 'days_since_last_release'] = 0
             else:
-                stats_pd.at[i, 'days since last release'] = (stats_pd.at[i, 'committed_at'] - stats_pd.at[i - 1, 'committed_at']).days
+                stats_pd.at[i, 'days_since_last_release'] = (stats_pd.at[i, 'date'] - stats_pd.at[i - 1, 'date']).days
 
-        #stats_pd.committed_at = stats_pd.committed_at.astype("datetime64[ns]")
+        #stats_pd.date = stats_pd.date.astype("datetime64[ns]")
         print(stats_pd)
         self.results = stats_pd.copy()
         csv_file_name = f"{self.repo_name.split('/')[-1]}_releases.csv"
@@ -459,11 +435,11 @@ class Miner:
         stats_pd.closed_at = stats_pd.closed_at.astype("datetime64[ns]", errors="ignore")
         stats_pd.merged_at = stats_pd.merged_at.astype("datetime64[ns]", errors="ignore")
 
-        self.results["open_PRs"] = 0
-        self.results["closed_PRs"] = 0
-        self.results["merged_PRs"] = 0
-        self.results["PR_mergers"] = 0
-        self.results["PR_comments"] = 0  # comments from open + closed issues
+        self.results["number_of_open_PRs"] = 0
+        self.results["number_of_closed_PRs"] = 0
+        self.results["number_of_merged_PRs"] = 0
+        #self.results["PR_mergers"] = 0
+        self.results["number_of_PR_comments"] = 0  # comments from open + closed issues
 
 #        for i in range(len(self.results)):
 #            if i != len(self.results) - 1:
@@ -491,13 +467,13 @@ class Miner:
 #                merged_mask = (stats_pd.closed_at >= self.results.dates[i]) & (
 #                    stats_pd.merged
 #                )
-#            self.results.at[i, "open_PRs"] = len(stats_pd[open_mask])
-#            self.results.at[i, "closed_PRs"] = len(stats_pd[closed_mask])
-#            self.results.at[i, "merged_PRs"] = len(stats_pd[merged_mask])
+#            self.results.at[i, "number_of_open_PRs"] = len(stats_pd[open_mask])
+#            self.results.at[i, "number_of_closed_PRs"] = len(stats_pd[closed_mask])
+#            self.results.at[i, "number_of_merged_PRs"] = len(stats_pd[merged_mask])
 #            self.results.at[i, "PR_mergers"] = len(
 #                stats_pd[merged_mask].merged_by.unique()
 #            )
-#            self.results.at[i, "PR_comments"] = (
+#            self.results.at[i, "number_of_PR_comments"] = (
 #                sum(stats_pd[open_mask].comments)
 #                + sum(stats_pd[closed_mask].comments)
 #                + sum(stats_pd[merged_mask].comments)
@@ -505,38 +481,38 @@ class Miner:
 
         for i in range(len(self.results)):
             if (i == 0):
-                open_mask = stats_pd.created_at <= self.results.committed_at[i]
+                open_mask = stats_pd.created_at <= self.results.date[i]
                 closed_mask = (
-                        (stats_pd.closed_at <= self.results.committed_at[i])
+                        (stats_pd.closed_at <= self.results.date[i])
                         & (stats_pd.state == "closed")
                         & (stats_pd.merged == False)
                 )
-                merged_mask = (stats_pd.closed_at <= self.results.committed_at[i]) & (
+                merged_mask = (stats_pd.closed_at <= self.results.date[i]) & (
                     stats_pd.merged
                 )
             else:
-                open_mask = (stats_pd.created_at <= self.results.committed_at[i]) & (
-                        stats_pd.created_at > self.results.committed_at[i-1]
+                open_mask = (stats_pd.created_at <= self.results.date[i]) & (
+                        stats_pd.created_at > self.results.date[i-1]
                 )
                 closed_mask = (
-                        (stats_pd.closed_at <= self.results.committed_at[i])
-                        & (stats_pd.closed_at > self.results.committed_at[i-1])
+                        (stats_pd.closed_at <= self.results.date[i])
+                        & (stats_pd.closed_at > self.results.date[i-1])
                         & (stats_pd.state == "closed")
                         & (stats_pd.merged == False)
                 )
                 merged_mask = (
-                        (stats_pd.closed_at <= self.results.committed_at[i])
-                        & (stats_pd.closed_at > self.results.committed_at[i-1])
+                        (stats_pd.closed_at <= self.results.date[i])
+                        & (stats_pd.closed_at > self.results.date[i-1])
                         & (stats_pd.merged)
                 )
 
-            self.results.at[i, "open_PRs"] = len(stats_pd[open_mask])
-            self.results.at[i, "closed_PRs"] = len(stats_pd[closed_mask])
-            self.results.at[i, "merged_PRs"] = len(stats_pd[merged_mask])
-            self.results.at[i, "PR_mergers"] = len(
-                stats_pd[merged_mask].merged_by.unique()
-            )
-            self.results.at[i, "PR_comments"] = (
+            self.results.at[i, "number_of_open_PRs"] = len(stats_pd[open_mask])
+            self.results.at[i, "number_of_closed_PRs"] = len(stats_pd[closed_mask])
+            self.results.at[i, "number_of_merged_PRs"] = len(stats_pd[merged_mask])
+#            self.results.at[i, "PR_mergers"] = len(
+#                stats_pd[merged_mask].merged_by.unique()
+#            )
+            self.results.at[i, "number_of_PR_comments"] = (
                 sum(stats_pd[open_mask].comments)
                 + sum(stats_pd[closed_mask].comments)
                 + sum(stats_pd[merged_mask].comments)
@@ -584,7 +560,7 @@ _token= {
         "kewen": "4dd5721c02aef780fc7e5a52e131111301822162",
         "huy": "138525460717398b423d46cc85f21c8d200ac44a",
         "george": "246a80dd48724eaddfc140845851b18c43089c1f",
-        "rishabh": "886b53555061bd171b2d4c2a1969507603d63600"}
+        "rishabh": "f62c019a02e987d4813c397c487a8a7588c9ac99"}
 
 if __name__ == "__main__":
     if len(sys.argv) != 2:
@@ -598,7 +574,7 @@ if __name__ == "__main__":
     print(f"total repos: {val}")
     print(f"token_idx: {token_idx}")
     token = list(_token.values())[token_idx]
-    pdb.set_trace()
+    #pdb.set_trace()
     for repo_name in sorted(repo_names):
         sub_name = repo_name.split("/")[-1]
         if  sub_name in existing_results:
