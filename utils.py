@@ -20,6 +20,7 @@ def get_repo_names(src,token_idx, token_num):
     if len(out) < token_num:
         return out 
     else:
+        res.append(out[token_idx])
         for i in range(token_idx, len(out), token_num):
             if i + token_num < len(out):
                 res.append(out[i + token_num])

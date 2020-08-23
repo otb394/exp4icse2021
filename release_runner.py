@@ -45,9 +45,10 @@ class Miner:
         self.use_clone=use_clone
         self.commits_stats_from_clone = commits_stats_from_clone
 
-    def get_rate_limit(self, func_name, quota_need):
+    def get_rate_limit(self, func_name, quota_need, isPrint = False):
         remaining = self.g.rate_limiting
-        print(f"{self.repo_name}, Running {func_name}, Rate limit: {remaining}")
+        if (isPrint):
+            print(f"{self.repo_name}, Running {func_name}, Rate limit: {remaining}")
         
         start = time.time()
         while self.g.rate_limiting[0] < quota_need:
@@ -60,12 +61,19 @@ class Miner:
             print(f"Wait {elapse/60} minutes!")
 
     def get_data(self, repo_name, debug=True):
+        print('Requests remaining = ' + str(self.g.rate_limiting[0]))
         self.repo_name = repo_name
         self.output_folder = self._create_output_folder()
         self.repo = self.g.get_repo(repo_name)
         
-        actions = [self._get_releases, self._get_commits, 
-                   self._get_pull_requests, self.save_results]
+        actions = [self._fetch_commit_data, self._get_releases, self._add_commits_data_to_results, 
+                   self._get_pull_requests, self._get_issues, self._get_stargazers, 
+                   self._get_forks, self.save_results]
+#        actions = [self._fetch_commit_data, self._get_releases, self._add_commits_data_to_results, 
+#                   self._get_pull_requests, self._get_issues, self._get_stargazers, 
+#                   self._get_forks, self._get_watchers, self.save_results]
+#        actions = [self._get_releases, self._get_commits, 
+#                   self._get_pull_requests, self.save_results]
 
         for act in actions:
             act()
@@ -81,7 +89,7 @@ class Miner:
         return a list containing all results.
         """
         num_workers = self.num_workers
-        if func.__name__ not in  ["multi_pulls","multi_commits", "multi_watchers"]:
+        if func.__name__ not in  ["multi_pulls","multi_commits", "multi_watchers", "multi_releases"]:
             num_workers = 1;
         if self.debug_counts:
             p = ThPool(num_workers)
@@ -91,13 +99,15 @@ class Miner:
             stats = []
             start = time.time()
             for i in range(int(params.totalCount/self.batch_size)+1):
-                if self.num_workers != 1 and  i != 0 and (i+1)*self.batch_size % 800==0:
-                    print("Sleep 30 sec")
-                    sleep(30)
+#                if self.num_workers != 1 and  i != 0 and (i+1)*self.batch_size % 800==0:
+#                    print("Sleep 30 sec")
+#                    sleep(30)
                 p = ThPool(num_workers)
+                self.get_rate_limit(str(func.__name__), 50, True)
                 temp = p.map(func, params[i*self.batch_size:(i+1)*self.batch_size])
                 stats += temp
             print(f"{self.repo_name}, {func.__name__} takes: {round(time.time()-start,3)} secs" )
+            print('Requests remaining = ' + str(self.g.rate_limiting[0]))
         return stats
 
     def _create_output_folder(self):
@@ -105,15 +115,19 @@ class Miner:
         os.makedirs(result_path, exist_ok=True)
         return result_path
 
-    # @profile
-    def _get_commits(self):  
+    def _fetch_commit_data(self):
         """
-        Get commits activity grouped by week. 
+        Get commits activity grouped by release. 
         """
         #def retreieve_commits(commits_dates):
         def retrieve_commits():
             stats = []
-            for commit in self.repo.get_commits():
+            commits = self.repo.get_commits()
+            print('Got commits paginated list')
+            self.commit_hash_map = dict()
+            i = 0
+            for commit in commits:
+                self.get_rate_limit('_fetch_commit_data', 10, (i % 100 == 0))
                 one = {"commit_id": commit.sha}
                 #one["committer_id"] = commit.author.login if commit.author else "None"
                 one["committer_id"] = commit.commit.author.email if (commit.commit.author and commit.commit.author.email) else 'None'
@@ -122,7 +136,9 @@ class Miner:
                 one["committed_at"] = commit.commit.author.date.astimezone(tz = timezone.utc).replace(tzinfo = None)
                 one['committer_domain'] = extract_domain_from_email(commit.commit.author.email) \
                         if (commit.commit.author and commit.commit.author.email) else "None"
+                self.commit_hash_map[one['commit_id']] = one['committed_at']
                 stats.append(one)
+                i = i + 1
             return stats
 
         def extract_domain_from_email(email_id):
@@ -134,7 +150,7 @@ class Miner:
                 domain = "None"
             return domain
        
-        print('Entering get commits')
+        print('Entering fetch commits')
         if self.commits_stats_from_clone:
             stats = get_commits_stats_from_clone_repo(self.repo_name)
         else:
@@ -144,17 +160,72 @@ class Miner:
         #pdb.set_trace()
         stats_pd = pd.DataFrame.from_records(stats)
         stats_pd.committed_at = stats_pd.committed_at.astype("datetime64[ns]")
+
+        csv_file_name = f"{self.repo_name.split('/')[-1]}_commits_and_comments.csv"
+        path = os.path.join(self.output_folder, csv_file_name)
+        stats_pd.to_csv(
+            path,
+            index=False,
+            columns=["commit_id", "committer_id", "committed_at", "committer_domain"],
+        )
+        self.commit_stats = stats_pd
+        print('Requests remaining = ' + str(self.g.rate_limiting[0]))
+
+
+    # @profile
+    def _add_commits_data_to_results(self):  
+    #def _get_commits(self):  
+        """
+        Get commits activity grouped by release. 
+        """
+        #def retreieve_commits(commits_dates):
+#        def retrieve_commits():
+#            stats = []
+#            commits = self.repo.get_commits()
+#            print('Got commits paginated list')
+#            for commit in commits:
+#                one = {"commit_id": commit.sha}
+#                #one["committer_id"] = commit.author.login if commit.author else "None"
+#                one["committer_id"] = commit.commit.author.email if (commit.commit.author and commit.commit.author.email) else 'None'
+#
+#                #one["committed_at"] = commits_dates[commit.sha][0]
+#                one["committed_at"] = commit.commit.author.date.astimezone(tz = timezone.utc).replace(tzinfo = None)
+#                one['committer_domain'] = extract_domain_from_email(commit.commit.author.email) \
+#                        if (commit.commit.author and commit.commit.author.email) else "None"
+#                stats.append(one)
+#            return stats
+#
+#        def extract_domain_from_email(email_id):
+#            try:
+#                domain = re.match(r'.*@(.*)', email_id).group(1)
+##                print('Email id = ' + str(email_id))
+##                print('domain = ' + str(domain))
+#            except:
+#                domain = "None"
+#            return domain
+#       
+#        print('Entering get commits')
+#        if self.commits_stats_from_clone:
+#            stats = get_commits_stats_from_clone_repo(self.repo_name)
+#        else:
+#            #commits_dates = get_commits_from_clone_repo(self.repo_name)
+#            #stats = retreieve_commits(commits_dates) # get commits dates by clone repo
+#            stats = retrieve_commits()
+#        #pdb.set_trace()
+#        stats_pd = pd.DataFrame.from_records(stats)
+#        stats_pd.committed_at = stats_pd.committed_at.astype("datetime64[ns]")
         #stats_pd['committer_domain'] = stats_pd.apply(lambda row: get_committer_domain(row['committer_id']), axis = 1)
         #stats_pd['committer_domain'] = stats_pd.apply(lambda row: print('row = ' + str(row)), axis = 1)
 
         self.results['number_of_contributors'] = 0
         self.results['number_of_commits'] = 0
         self.results['number_of_new_contributors'] = 0
-        self.results['number_of_contributor-domains'] = 0 #TODO
+        self.results['number_of_contributor-domains'] = 0
         self.results['number_of_new_contributor-domains'] = 0
 
         current_contributors = set()
         current_contributor_domains = set()
+        stats_pd = self.commit_stats
         for i in range(len(self.results)):
             if i == 0:
                 mask = stats_pd.committed_at <= self.results.date[i]
@@ -164,6 +235,7 @@ class Miner:
                 )
             commit_pd = stats_pd[mask]
             self.results.at[i, 'number_of_contributors'] = commit_pd['committer_id'].nunique()
+            self.results.at[i, 'number_of_contributor-domains'] = commit_pd['committer_domain'].nunique()
             self.results.at[i, 'number_of_commits'] = commit_pd.shape[0]
             new_contributors = commit_pd[~commit_pd['committer_id'].isin(current_contributors)]['committer_id'].drop_duplicates()
             new_contributor_domains = commit_pd[~commit_pd['committer_domain'].isin(current_contributor_domains)]['committer_domain'].drop_duplicates()
@@ -175,13 +247,14 @@ class Miner:
             current_contributor_domains.update(new_contributor_domains.tolist())
 
 #        self.results = new_pd.copy()
-        csv_file_name = f"{self.repo_name.split('/')[-1]}_commits_and_comments.csv"
-        path = os.path.join(self.output_folder, csv_file_name)
-        stats_pd.to_csv(
-            path,
-            index=False,
-            columns=["commit_id", "committer_id", "committed_at", "committer_domain"],
-        )
+#        csv_file_name = f"{self.repo_name.split('/')[-1]}_commits_and_comments.csv"
+#        path = os.path.join(self.output_folder, csv_file_name)
+#        stats_pd.to_csv(
+#            path,
+#            index=False,
+#            columns=["commit_id", "committer_id", "committed_at", "committer_domain"],
+#        )
+        print('Requests remaining = ' + str(self.g.rate_limiting[0]))
 
     def _create_tag_map(self):
         tag_map = dict()
@@ -195,12 +268,17 @@ class Miner:
         """
         def multi_releases(release):
             one = {"release": str(release.id)}
-            one['title'] = release.title
+            #one['title'] = release.title
             one['tag_name'] = release.tag_name
             commit = self.tag_map[release.tag_name]
-            one['commit_id'] = commit.sha
+            sha = commit.sha
+            one['commit_id'] = sha
             #one['committed_at'] = commit.commit.author.date.astimezone(tz = timezone.utc).replace(tzinfo = None)
-            one['date'] = commit.commit.author.date.astimezone(tz = timezone.utc).replace(tzinfo = None)
+            #one['date'] = commit.commit.author.date.astimezone(tz = timezone.utc).replace(tzinfo = None) #This might be making an API call
+            if (sha in self.commit_hash_map):
+                one['date'] = self.commit_hash_map[sha]
+            else:
+                one['date'] = commit.commit.author.date.astimezone(tz = timezone.utc).replace(tzinfo = None)
             return one
 
         # Get tags data
@@ -228,6 +306,7 @@ class Miner:
                 path,
                 index=False
         )
+        print('Requests remaining = ' + str(self.g.rate_limiting[0]))
 
     # @profile
     def _get_issues(self, state="all"):  # Total time: 1.4058 s for debug
@@ -252,6 +331,7 @@ class Miner:
             return one
 
         all_issues = self.repo.get_issues(state=state)
+        print('All issues count = ' + str(all_issues.totalCount))
         stats = self._get_results_by_threading(multi_issues, all_issues)
 
         stats_pd = pd.DataFrame.from_records(stats)
@@ -260,32 +340,46 @@ class Miner:
             "datetime64[ns]", errors="ignore"
         )
 
-        self.results["monthly_open_issues"] = 0
-        self.results["monthly_closed_issues"] = 0
-        self.results["monthly_issue_comments"] = 0  # comments from open + closed issues
+        self.results["number_of_open_issues"] = 0
+        self.results["number_of_closed_issues"] = 0
+        self.results["number_of_issue_comments"] = 0  # comments from open + closed issues
 
         for i in range(len(self.results)):
-            if i != len(self.results) - 1:
+            if i == 0:
+                open_mask = (stats_pd.created_at <= self.results.date[i]) & (stats_pd.state == 'open')
+                closed_mask = (stats_pd.closed_at <= self.results.date[i]) & (stats_pd.state == 'closed')
+            else:
                 open_mask = (
-                    (stats_pd.created_at >= self.results.dates[i])
-                    & (stats_pd.created_at < self.results.dates[i + 1])
-                    & (stats_pd.state == "open")
+                        (stats_pd.created_at <= self.results.date[i]) 
+                        & (stats_pd.created_at > self.results.date[i-1]) 
+                        & (stats_pd.state == 'open')
                 )
                 closed_mask = (
-                    (stats_pd.closed_at >= self.results.dates[i])
-                    & (stats_pd.closed_at < self.results.dates[i + 1])
-                    & (stats_pd.state == "closed")
+                            (stats_pd.closed_at <= self.results.date[i]) 
+                            & (stats_pd.closed_at > self.results.date[i-1]) 
+                            & (stats_pd.state == 'closed')
                 )
-            else:
-                open_mask = (stats_pd.created_at >= self.results.dates[i]) & (
-                    stats_pd.state == "open"
-                )
-                closed_mask = (stats_pd.closed_at >= self.results.dates[i]) & (
-                    stats_pd.state == "closed"
-                )
-            self.results.at[i, "monthly_open_issues"] = len(stats_pd[open_mask])
-            self.results.at[i, "monthly_closed_issues"] = len(stats_pd[closed_mask])
-            self.results.at[i, "monthly_issue_comments"] = sum(
+#            if i != len(self.results) - 1:
+#                open_mask = (
+#                    (stats_pd.created_at >= self.results.dates[i])
+#                    & (stats_pd.created_at < self.results.dates[i + 1])
+#                    & (stats_pd.state == "open")
+#                )
+#                closed_mask = (
+#                    (stats_pd.closed_at >= self.results.dates[i])
+#                    & (stats_pd.closed_at < self.results.dates[i + 1])
+#                    & (stats_pd.state == "closed")
+#                )
+#            else:
+#                open_mask = (stats_pd.created_at >= self.results.dates[i]) & (
+#                    stats_pd.state == "open"
+#                )
+#                closed_mask = (stats_pd.closed_at >= self.results.dates[i]) & (
+#                    stats_pd.state == "closed"
+#                )
+            self.results.at[i, "number_of_open_issues"] = len(stats_pd[open_mask])
+            self.results.at[i, "number_of_closed_issues"] = len(stats_pd[closed_mask])
+            self.results.at[i, "number_of_issue_comments"] = sum(
                 stats_pd[open_mask].comments
             ) + sum(
                 stats_pd[closed_mask].comments
@@ -299,12 +393,15 @@ class Miner:
     # @profile
     def _get_stargazers(self):  # Total time: 0.811028 s for debug
         """
-        Get monthly stargazers and update it in self.results, will finally save to .csv file
+        Get release wise stargazers and update it in self.results, will finally save to .csv file
         """
+        print('Entering collection of stars')
         stargazer = self.repo.get_stargazers_with_dates()
         stats = []
         counts = self.debug_counts
+        temp_counter = 0
         for star in stargazer:
+            self.get_rate_limit('_get_stargazers', 10, (temp_counter % 100 == 0))
             if self.debug_counts:
                 counts -= 1
                 if counts == 0:
@@ -312,23 +409,32 @@ class Miner:
             one = {"user_id": star.user.login}
             one["starred_at"] = star.starred_at
             stats.append(one)
+            temp_counter = temp_counter + 1
         
         stats_pd = pd.DataFrame.from_records(stats)
         stats_pd.sort_values(by=["starred_at"])
         
-        self.results["monthly_stargazer"] = 0
+        self.results["number_of_stargazers"] = 0
         for i in range(len(self.results)):
-            if i != len(self.results) - 1:
-                mask = (stats_pd.starred_at >= self.results.dates[i]) & (
-                    stats_pd.starred_at < self.results.dates[i + 1]
-                )
+            if i == 0:
+                mask = stats_pd.starred_at <= self.results.date[i]
             else:
-                mask = stats_pd.starred_at >= self.results.dates[i]
-            self.results.at[i, "monthly_stargazer"] = len(stats_pd[mask])
+                mask = (
+                           (stats_pd.starred_at <= self.results.date[i])
+                           & (stats_pd.starred_at > self.results.date[i-1])
+                )
+#            if i != len(self.results) - 1:
+#                mask = (stats_pd.starred_at >= self.results.dates[i]) & (
+#                    stats_pd.starred_at < self.results.dates[i + 1]
+#                )
+#            else:
+#                mask = stats_pd.starred_at >= self.results.dates[i]
+            self.results.at[i, "number_of_stargazers"] = len(stats_pd[mask])
         
         csv_file_name = f"{self.repo_name.split('/')[-1]}_stargazer.csv"
         path = os.path.join(self.output_folder, csv_file_name)
         stats_pd.to_csv(path, index=False, columns=["starred_at", "user_id"])
+        print('Requests remaining = ' + str(self.g.rate_limiting[0]))
 
     # @profile
     def _get_forks(self):  # Total time: 2.84025 s for debug
@@ -350,15 +456,22 @@ class Miner:
         stats_pd = pd.DataFrame.from_records(stats)
         stats_pd.sort_values(by=["created_at"])
 
-        self.results["monthly_forks"] = 0
+        self.results["number_of_forks"] = 0
         for i in range(len(self.results)):
-            if i != len(self.results) - 1:
-                mask = (stats_pd.created_at >= self.results.dates[i]) & (
-                    stats_pd.created_at < self.results.dates[i + 1]
-                )
+            if i == 0:
+                mask = stats_pd.created_at <= self.results.date[i]
             else:
-                mask = stats_pd.created_at >= self.results.dates[i]
-            self.results.at[i, "monthly_forks"] = len(stats_pd[mask])
+                mask = (
+                           (stats_pd.created_at <= self.results.date[i])
+                           & (stats_pd.created_at > self.results.date[i-1])
+                )
+#            if i != len(self.results) - 1:
+#                mask = (stats_pd.created_at >= self.results.dates[i]) & (
+#                    stats_pd.created_at < self.results.dates[i + 1]
+#                )
+#            else:
+#                mask = stats_pd.created_at >= self.results.dates[i]
+            self.results.at[i, "number_of_forks"] = len(stats_pd[mask])
         
         csv_file_name = f"{self.repo_name.split('/')[-1]}_forks.csv"
         path = os.path.join(self.output_folder, csv_file_name)
@@ -384,15 +497,22 @@ class Miner:
         stats_pd = pd.DataFrame.from_records(stats)
         stats_pd.sort_values(by=["created_at"])
 
-        self.results["monthly_watchers"] = 0
+        self.results["number_of_watchers"] = 0
         for i in range(len(self.results)):
-            if i != len(self.results) - 1:
-                mask = (stats_pd.created_at >= self.results.dates[i]) & (
-                    stats_pd.created_at < self.results.dates[i + 1]
-                )
+            if i == 0:
+                mask = stats_pd.created_at <= self.results.date[i]
             else:
-                mask = stats_pd.created_at >= self.results.dates[i]
-            self.results.at[i, "monthly_watchers"]= len(stats_pd[mask])
+                mask = (
+                        (stats_pd.created_at <= self.results.date[i])
+                        & (stats_pd.created_at > self.results.date[i-1])
+                )
+#            if i != len(self.results) - 1:
+#                mask = (stats_pd.created_at >= self.results.dates[i]) & (
+#                    stats_pd.created_at < self.results.dates[i + 1]
+#                )
+#            else:
+#                mask = stats_pd.created_at >= self.results.dates[i]
+            self.results.at[i, "number_of_watchers"]= len(stats_pd[mask])
         
         csv_file_name = f"{self.repo_name.split('/')[-1]}_watchers.csv"
         path = os.path.join(self.output_folder, csv_file_name)
@@ -409,13 +529,14 @@ class Miner:
         """
         print('Entering get pull requests')
         pulls = self.repo.get_pulls(state=state, sort="created", base="master")
+        print('Pulls are here')
         stats = []
 
         def multi_pulls(pr):
             one = {"id": str(pr.number)}
             one["state"] = pr.state
             ## FIXME pr.comments line takes 91.4% time of this function, this will call API once!
-            one["comments"] = (pr.comments)
+            #one["comments"] = (pr.comments)
             one["created_at"] = str(pr.created_at)
             # set not closed pr date to 1970-01-01 for calcualte monthly stats
             one["closed_at"] = (
@@ -426,7 +547,7 @@ class Miner:
             one["merged_at"] = (
                 str(pr.merged_at) if pr.merged_at else str(pd.to_datetime(1))
             )
-            one["merged_by"] = str(pr.merged_by.login) if pr.merged_by else None
+            #one["merged_by"] = str(pr.merged_by.login) if pr.merged_by else None
             return one
 
         stats = self._get_results_by_threading(multi_pulls, pulls)
@@ -439,7 +560,7 @@ class Miner:
         self.results["number_of_closed_PRs"] = 0
         self.results["number_of_merged_PRs"] = 0
         #self.results["PR_mergers"] = 0
-        self.results["number_of_PR_comments"] = 0  # comments from open + closed issues
+        #self.results["number_of_PR_comments"] = 0  # comments from open + closed issues
 
 #        for i in range(len(self.results)):
 #            if i != len(self.results) - 1:
@@ -512,11 +633,11 @@ class Miner:
 #            self.results.at[i, "PR_mergers"] = len(
 #                stats_pd[merged_mask].merged_by.unique()
 #            )
-            self.results.at[i, "number_of_PR_comments"] = (
-                sum(stats_pd[open_mask].comments)
-                + sum(stats_pd[closed_mask].comments)
-                + sum(stats_pd[merged_mask].comments)
-            )  # num of comments on open + closed + merged PRs.
+#            self.results.at[i, "number_of_PR_comments"] = (
+#                sum(stats_pd[open_mask].comments)
+#                + sum(stats_pd[closed_mask].comments)
+#                + sum(stats_pd[merged_mask].comments)
+#            )  # num of comments on open + closed + merged PRs.
         
         csv_file_name = f"{self.repo_name.split('/')[-1]}_pr.csv"
         path = os.path.join(self.output_folder, csv_file_name)
@@ -527,53 +648,33 @@ class Miner:
                 "closed_at",
                 "merged_at",
                 "state",
-                "comments",
+#                "comments",
                 "merged"
             ]
         )
 
-
-# _token = {
-#         # "Suvodeep":"39999cfb6286be00d52c663d0383894eaf552337",
-#           "Patrick":"ce8f0a7f1e35efaae2e53372cb9db3cc370983a4",
-#           "Amrit":"57b854031d4433381cf37d8f965e2d384c094977",
-#           "Joy":"9461c672a98b594e3ddb026c1750a09ab9a0dac0",
-#           "Zhe":"4f9c8e0a228eb99cd18a04b6388e6a3b2ea656c9",
-#           "Shrikanth":"ac1192c48d6235f0b9ca4342051324600f34e2b8",
-#           "tim":"7381db723d2576391ba0295de48d215b11eba731",
-#           "George":"4a24b6afcc1a3334348e166379175c3515c2bd80",
-#           "Rui":"573c5887db367d2384dbdd19052bc33ba7e2bacc",
-#           "Rishabh":"bcddf7453cb063663c3a3fab081ff0e747b2758b"}
-
-_token= {
-        "A":"f2e075347cd12545ab6ebedbc473a270a199f12d",
-        "B":"aee73d28f7ac28bd881fa4fbbff45cc5cd02d2a8",
-        "C":"43cfe4bcf383d476ed266c14d9444f14b922a961",
-        "D":"db4f930fae768bfa46a3136f031d6afcfcddca0e",
-        "E":"290955a490001b8a86e342a2c04af0583cbe0d07",
-        "F":"78ff4388ac5df1561c5a8a41d37fc3054809d5d4",
-        "G":"8f82bbe21a57f80301e92b36dc1c6463113fdc47",
-        "H":"3c91d12e625860ca41a10fa9b08165ebd23bed0f",
-        "I":"a0bd6ab71e9b1d4f7a47a6e408f5d0a987c6e37b",
-        "J":"0f650cd2a885ed5bb8fe78ddd5dce0f749b99cab",
-        "zhe": "8b471082f6fa8e5f2238da37666beea3f948b881",
-        "kewen": "4dd5721c02aef780fc7e5a52e131111301822162",
-        "huy": "138525460717398b423d46cc85f21c8d200ac44a",
-        "george": "246a80dd48724eaddfc140845851b18c43089c1f",
-        "rishabh": "f62c019a02e987d4813c397c487a8a7588c9ac99"}
 
 if __name__ == "__main__":
     if len(sys.argv) != 2:
         assert("Pass token index!")
     token_idx = int(sys.argv[1])
     #repo_names = get_repo_names("./data/repo_linux.csv", token_idx, len(_token))
-    repo_names = get_repo_names("./data/repo_list.csv", token_idx, len(_token))
+    path = 'tokens.txt'
+    tokens = []
+    with open(path, 'r') as f:
+        for token in f:
+            #print('token = ' + str(token))
+            tokens.append(str(token).strip())
+    #print(tokens)
+#    repo_names = get_repo_names("./data/repo_list.csv", token_idx, len(_token))
+    repo_names = get_repo_names("./data/repo_list.csv", token_idx, len(tokens))
     existing_results = get_existing_results("./results/")
    
     val = len(repo_names)
     print(f"total repos: {val}")
     print(f"token_idx: {token_idx}")
-    token = list(_token.values())[token_idx]
+#    token = list(_token.values())[token_idx]
+    token = tokens[token_idx]
     #pdb.set_trace()
     for repo_name in sorted(repo_names):
         sub_name = repo_name.split("/")[-1]
@@ -583,7 +684,7 @@ if __name__ == "__main__":
         if check_in_problem_repo(repo_name):
             # print(f"{repo_name} has a problem, found in problem_repo.txt, skipping...")
             continue
-        miner = Miner(token, debug=False, commits_stats_from_clone=False)
+        miner = Miner(token, debug=False, commits_stats_from_clone=False, num_workers = 4)
         if miner.g.rate_limiting[0] < QUOTA_LIMIT:
             # sleep(random.choice(random_time))
             print(f"{repo_name}: token is not ready...")
@@ -595,7 +696,8 @@ if __name__ == "__main__":
             error_message = miner.get_data(repo_name)
         except Exception:
             write_problem_repo(repo_name)
-            print(f"{miner.repo_name} has errors...")
+            #print(f"{miner.repo_name} has errors...")
+            print(f"{repo_name} has errors...")
             traceback.print_exc()
             continue
 
