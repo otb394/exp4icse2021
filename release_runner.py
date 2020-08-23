@@ -653,11 +653,7 @@ class Miner:
             ]
         )
 
-
-if __name__ == "__main__":
-    if len(sys.argv) != 2:
-        assert("Pass token index!")
-    token_idx = int(sys.argv[1])
+def run(token_idx):
     #repo_names = get_repo_names("./data/repo_linux.csv", token_idx, len(_token))
     path = 'tokens.txt'
     tokens = []
@@ -701,4 +697,11 @@ if __name__ == "__main__":
             traceback.print_exc()
             continue
 
+
+
+if __name__ == "__main__":
+    if len(sys.argv) != 2:
+        assert("Pass token index!")
+    token_idx = int(sys.argv[1])
+    run(token_idx)
 
