@@ -89,8 +89,8 @@ class Miner:
         return a list containing all results.
         """
         num_workers = self.num_workers
-        if func.__name__ not in  ["multi_pulls","multi_commits", "multi_watchers", "multi_releases"]:
-            num_workers = 1;
+#        if func.__name__ not in  ["multi_pulls","multi_commits", "multi_watchers", "multi_releases"]:
+#            num_workers = 1;
         if self.debug_counts:
             p = ThPool(num_workers)
             pool_args = params[: self.debug_counts]
@@ -321,11 +321,14 @@ class Miner:
             one = {"id": str(issue.number)}
             one["state"] = issue.state
             one["comments"] = issue.comments
-            one["created_at"] = str(issue._created_at.value)
+            #one["created_at"] = str(issue._created_at.value)
+            one["created_at"] = issue.created_at.astimezone(tz = timezone.utc).replace(tzinfo = None)
             one["closed_at"] = (
-                str(issue._closed_at.value)
-                if issue._closed_at.value
-                else str(pd.to_datetime(1))
+                #str(issue._closed_at.value)
+                issue.closed_at.astimezone(tz = timezone.utc).replace(tzinfo = None)
+                if issue.closed_at
+                else pd.to_datetime(1)
+                #else str(pd.to_datetime(1))
             )  # set not closed issue date to 1970-01-01 for calcualte monthly closed issues.
             one["title"] = str(issue.title)
             return one
@@ -335,10 +338,10 @@ class Miner:
         stats = self._get_results_by_threading(multi_issues, all_issues)
 
         stats_pd = pd.DataFrame.from_records(stats)
-        stats_pd.created_at = stats_pd.created_at.astype("datetime64[ns]")
-        stats_pd.closed_at = stats_pd.closed_at.astype(
-            "datetime64[ns]", errors="ignore"
-        )
+#        stats_pd.created_at = stats_pd.created_at.astype("datetime64[ns]")
+#        stats_pd.closed_at = stats_pd.closed_at.astype(
+#            "datetime64[ns]", errors="ignore"
+#        )
 
         self.results["number_of_open_issues"] = 0
         self.results["number_of_closed_issues"] = 0
@@ -407,7 +410,7 @@ class Miner:
                 if counts == 0:
                     break
             one = {"user_id": star.user.login}
-            one["starred_at"] = star.starred_at
+            one["starred_at"] = star.starred_at.astimezone(tz = timezone.utc).replace(tzinfo = None) if star.starred_at else None
             stats.append(one)
             temp_counter = temp_counter + 1
         
@@ -450,7 +453,7 @@ class Miner:
                 if counts == 0:
                     break
             one = {"user_id": fork.owner.login}
-            one["created_at"] = fork.created_at
+            one["created_at"] = fork.created_at.astimezone(tz = timezone.utc).replace(tzinfo = None) if fork.created_at else None
             stats.append(one)
         
         stats_pd = pd.DataFrame.from_records(stats)
@@ -488,7 +491,7 @@ class Miner:
         def multi_watchers(watcher):
             one = {"user_id": watcher.login}
             # created_at line takes 79.0% time of this function
-            one["created_at"] = watcher.created_at 
+            one["created_at"] = watcher.created_at.astimezone(tz = timezone.utc).replace(tzinfo = None) if watcher.created_at else None
             return one  
 
         watchers = self.repo.get_subscribers() # <---- this was wrong, not get_watchers!!
@@ -537,17 +540,20 @@ class Miner:
             one["state"] = pr.state
             ## FIXME pr.comments line takes 91.4% time of this function, this will call API once!
             #one["comments"] = (pr.comments)
-            one["created_at"] = str(pr.created_at)
+            one["created_at"] = str(pr.created_at.astimezone(tz = timezone.utc).replace(tzinfo = None))
             # set not closed pr date to 1970-01-01 for calcualte monthly stats
             one["closed_at"] = (
-                str(pr.closed_at) if pr.closed_at else str(pd.to_datetime(1))
+                str(pr.closed_at.astimezone(tz = timezone.utc).replace(tzinfo = None)) if pr.closed_at else str(pd.to_datetime(1))
             )
-            one["merged"] = bool(pr._merged.value)
+
             # set not merged pr date to 1970-01-01 for calcualte monthly stats.
             one["merged_at"] = (
-                str(pr.merged_at) if pr.merged_at else str(pd.to_datetime(1))
+                str(pr.merged_at.astimezone(tz = timezone.utc).replace(tzinfo = None)) if pr.merged_at else str(pd.to_datetime(1))
             )
             #one["merged_by"] = str(pr.merged_by.login) if pr.merged_by else None
+
+            #one["merged"] = bool(pr._merged.value)
+            one["merged"] = True if pr.merged_at else False
             return one
 
         stats = self._get_results_by_threading(multi_pulls, pulls)
