@@ -36,7 +36,7 @@ QUOTA_LIMIT = 100
 
 
 class Miner:
-    def __init__(self, user_token, debug=False, num_workers=1, batch_size=200, use_clone=True, commits_stats_from_clone=True):
+    def __init__(self, user_token, debug=False, num_workers=1, batch_size=200, use_clone=True, commits_stats_from_clone=True, token_idx = 0):
         self.g = Github(user_token, per_page=100)
         self.debug_counts = 200 if debug else 0
         self.results = None
@@ -44,16 +44,17 @@ class Miner:
         self.batch_size = batch_size
         self.use_clone=use_clone
         self.commits_stats_from_clone = commits_stats_from_clone
+        self.token_idx = token_idx
 
     def get_rate_limit(self, func_name, quota_need, isPrint = False):
         remaining = self.g.rate_limiting
         if (isPrint):
-            print(f"{self.repo_name}, Running {func_name}, Rate limit: {remaining}")
+            print(f"Token idx {self.token_idx}, {self.repo_name}, Running {func_name}, Rate limit: {remaining}")
         
         start = time.time()
         while self.g.rate_limiting[0] < quota_need:
             delay = random.choice(random_time)
-            print(f"{self.repo_name},  Delay {delay} sec")
+            print(f"Token idx {self.token_idx}, {self.repo_name},  Delay {delay} sec")
             sleep(delay) 
 
         elapse = time.time() - start
@@ -61,7 +62,7 @@ class Miner:
             print(f"Wait {elapse/60} minutes!")
 
     def get_data(self, repo_name, debug=True):
-        print('Requests remaining = ' + str(self.g.rate_limiting[0]))
+        print('Requests remaining = ' + str(self.g.rate_limiting[0]) + ' for token idx: ' + str(self.token_idx))
         self.repo_name = repo_name
         self.output_folder = self._create_output_folder()
         self.repo = self.g.get_repo(repo_name)
@@ -107,7 +108,8 @@ class Miner:
                 temp = p.map(func, params[i*self.batch_size:(i+1)*self.batch_size])
                 stats += temp
             print(f"{self.repo_name}, {func.__name__} takes: {round(time.time()-start,3)} secs" )
-            print('Requests remaining = ' + str(self.g.rate_limiting[0]))
+            print('Requests remaining = ' + str(self.g.rate_limiting[0]) + ' for token idx: ' + str(self.token_idx))
+#            print('Requests remaining = ' + str(self.g.rate_limiting[0]))
         return stats
 
     def _create_output_folder(self):
@@ -150,7 +152,7 @@ class Miner:
                 domain = "None"
             return domain
        
-        print('Entering fetch commits')
+        print(f'Entering fetch commits for {self.repo_name}')
         if self.commits_stats_from_clone:
             stats = get_commits_stats_from_clone_repo(self.repo_name)
         else:
@@ -169,7 +171,8 @@ class Miner:
             columns=["commit_id", "committer_id", "committed_at", "committer_domain"],
         )
         self.commit_stats = stats_pd
-        print('Requests remaining = ' + str(self.g.rate_limiting[0]))
+#        print('Requests remaining = ' + str(self.g.rate_limiting[0]))
+        print('Requests remaining = ' + str(self.g.rate_limiting[0]) + ' for token idx: ' + str(self.token_idx))
 
 
     # @profile
@@ -254,7 +257,8 @@ class Miner:
 #            index=False,
 #            columns=["commit_id", "committer_id", "committed_at", "committer_domain"],
 #        )
-        print('Requests remaining = ' + str(self.g.rate_limiting[0]))
+        print('Requests remaining = ' + str(self.g.rate_limiting[0]) + ' for token idx: ' + str(self.token_idx))
+#        print('Requests remaining = ' + str(self.g.rate_limiting[0]))
 
     def _create_tag_map(self):
         tag_map = dict()
@@ -282,7 +286,7 @@ class Miner:
             return one
 
         # Get tags data
-        print('Entering get_release')
+        print(f'Entering get_release for {self.repo_name}')
         self.tags = self.repo.get_tags()
         self.tag_map = self._create_tag_map()
 
@@ -306,7 +310,8 @@ class Miner:
                 path,
                 index=False
         )
-        print('Requests remaining = ' + str(self.g.rate_limiting[0]))
+        print('Requests remaining = ' + str(self.g.rate_limiting[0]) + ' for token idx: ' + str(self.token_idx))
+#        print('Requests remaining = ' + str(self.g.rate_limiting[0]))
 
     # @profile
     def _get_issues(self, state="all"):  # Total time: 1.4058 s for debug
@@ -334,7 +339,7 @@ class Miner:
             return one
 
         all_issues = self.repo.get_issues(state=state)
-        print('All issues count = ' + str(all_issues.totalCount))
+        print('All issues count for ' + str(self.repo_name) + ' = ' + str(all_issues.totalCount))
         stats = self._get_results_by_threading(multi_issues, all_issues)
 
         stats_pd = pd.DataFrame.from_records(stats)
@@ -398,7 +403,7 @@ class Miner:
         """
         Get release wise stargazers and update it in self.results, will finally save to .csv file
         """
-        print('Entering collection of stars')
+        print(f'Entering collection of stars for {self.repo_name}')
         stargazer = self.repo.get_stargazers_with_dates()
         stats = []
         counts = self.debug_counts
@@ -437,7 +442,8 @@ class Miner:
         csv_file_name = f"{self.repo_name.split('/')[-1]}_stargazer.csv"
         path = os.path.join(self.output_folder, csv_file_name)
         stats_pd.to_csv(path, index=False, columns=["starred_at", "user_id"])
-        print('Requests remaining = ' + str(self.g.rate_limiting[0]))
+        print('Requests remaining = ' + str(self.g.rate_limiting[0]) + ' for token idx: ' + str(self.token_idx))
+#        print('Requests remaining = ' + str(self.g.rate_limiting[0]))
 
     # @profile
     def _get_forks(self):  # Total time: 2.84025 s for debug
@@ -530,9 +536,9 @@ class Miner:
         PR_id, state(open/closed), comments, created_at, closed_at, merged, merged_at,
 
         """
-        print('Entering get pull requests')
+        print(f'Entering get pull requests for {self.repo_name}')
         pulls = self.repo.get_pulls(state=state, sort="created", base="master")
-        print('Pulls are here')
+#        print('Pulls are here')
         stats = []
 
         def multi_pulls(pr):
@@ -686,7 +692,7 @@ def run(token_idx):
         if check_in_problem_repo(repo_name):
             # print(f"{repo_name} has a problem, found in problem_repo.txt, skipping...")
             continue
-        miner = Miner(token, debug=False, commits_stats_from_clone=False, num_workers = 3)
+        miner = Miner(token, debug=False, commits_stats_from_clone=False, num_workers = 3, token_idx = token_idx)
         if miner.g.rate_limiting[0] < QUOTA_LIMIT:
             # sleep(random.choice(random_time))
             print(f"{repo_name}: token is not ready...")
