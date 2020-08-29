@@ -686,7 +686,7 @@ def run(token_idx):
         if check_in_problem_repo(repo_name):
             # print(f"{repo_name} has a problem, found in problem_repo.txt, skipping...")
             continue
-        miner = Miner(token, debug=False, commits_stats_from_clone=False, num_workers = 4)
+        miner = Miner(token, debug=False, commits_stats_from_clone=False, num_workers = 3)
         if miner.g.rate_limiting[0] < QUOTA_LIMIT:
             # sleep(random.choice(random_time))
             print(f"{repo_name}: token is not ready...")
