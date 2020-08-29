@@ -349,13 +349,13 @@ class Miner:
 
         for i in range(len(self.results)):
             if i == 0:
-                open_mask = (stats_pd.created_at <= self.results.date[i]) & (stats_pd.state == 'open')
+                open_mask = (stats_pd.created_at <= self.results.date[i]) #& (stats_pd.state == 'open')
                 closed_mask = (stats_pd.closed_at <= self.results.date[i]) & (stats_pd.state == 'closed')
             else:
                 open_mask = (
                         (stats_pd.created_at <= self.results.date[i]) 
-                        & (stats_pd.created_at > self.results.date[i-1]) 
-                        & (stats_pd.state == 'open')
+                        & (stats_pd.created_at > self.results.date[i-1])
+#                        & (stats_pd.state == 'open')
                 )
                 closed_mask = (
                             (stats_pd.closed_at <= self.results.date[i]) 
