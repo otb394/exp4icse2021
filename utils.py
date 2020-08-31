@@ -17,14 +17,17 @@ def get_repo_names(src,token_idx, token_num):
         file_format = src.split(".")[-1]
         raise ValueError(f"{file_format} format doesn't support!")
     
-    if len(out) < token_num:
-        return out 
-    else:
-        res.append(out[token_idx])
-        for i in range(token_idx, len(out), token_num):
-            if i + token_num < len(out):
-                res.append(out[i + token_num])
-        return res
+    for i in range(token_idx, len(out), token_num):
+        res.append(out[i])
+    return res
+#    if len(out) < token_num:
+#        return out
+#    else:
+#        res.append(out[token_idx])
+#        for i in range(token_idx, len(out), token_num):
+#            if i + token_num < len(out):
+#                res.append(out[i + token_num])
+#        return res
 
 def get_repo_names_json(src):
     ret = []

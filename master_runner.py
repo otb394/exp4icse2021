@@ -1,5 +1,6 @@
 from multiprocessing import Pool
-from release_runner import run
+#from release_runner import run
+from monthly_runner_v3 import run
 
 path = 'tokens.txt'
 number_of_tokens = 0

@@ -30,7 +30,7 @@ import numpy as np
 from datetime import timezone
 import re
 
-OUTPUT_PATH = "./results/"
+OUTPUT_PATH = "./monthly_results/"
 random_time = [60, 179, 110, 80, 200, 250, 300, 400]
 QUOTA_LIMIT = 100
 
@@ -67,9 +67,12 @@ class Miner:
         self.output_folder = self._create_output_folder()
         self.repo = self.g.get_repo(repo_name)
         
-        actions = [self._fetch_commit_data, self._get_releases, self._add_commits_data_to_results, 
+        actions = [self._fetch_commit_data, self._add_commits_data_to_results, 
                    self._get_pull_requests, self._get_issues, self._get_stargazers, 
                    self._get_forks, self.save_results]
+#        actions = [self._fetch_commit_data, self._get_releases, self._add_commits_data_to_results, 
+#                   self._get_pull_requests, self._get_issues, self._get_stargazers, 
+#                   self._get_forks, self.save_results]
 #        actions = [self._fetch_commit_data, self._get_releases, self._add_commits_data_to_results, 
 #                   self._get_pull_requests, self._get_issues, self._get_stargazers, 
 #                   self._get_forks, self._get_watchers, self.save_results]
@@ -81,7 +84,7 @@ class Miner:
 
     def save_results(self):
         self.results.to_csv(
-            OUTPUT_PATH + f"{self.repo_name.split('/')[-1]}_by_release.csv", index=False
+            OUTPUT_PATH + f"{self.repo_name.split('/')[-1]}_monthly.csv", index=False
         )
    
     def _get_results_by_threading(self, func, params):
@@ -119,7 +122,7 @@ class Miner:
 
     def _fetch_commit_data(self):
         """
-        Get commits activity grouped by release. 
+        Get commits activity grouped by month.
         """
         #def retreieve_commits(commits_dates):
         def retrieve_commits():
@@ -179,7 +182,7 @@ class Miner:
     def _add_commits_data_to_results(self):  
     #def _get_commits(self):  
         """
-        Get commits activity grouped by release. 
+        Get commits activity grouped by month.
         """
         #def retreieve_commits(commits_dates):
 #        def retrieve_commits():
@@ -220,6 +223,17 @@ class Miner:
         #stats_pd['committer_domain'] = stats_pd.apply(lambda row: get_committer_domain(row['committer_id']), axis = 1)
         #stats_pd['committer_domain'] = stats_pd.apply(lambda row: print('row = ' + str(row)), axis = 1)
 
+        stats_pd = self.commit_stats
+
+        start_date, end_date = (
+            str(stats_pd.committed_at.min())[:7],
+            str(stats_pd.committed_at.max())[:7],
+        )  # i.e, 2019-09
+       
+        self.results = pd.DataFrame(
+            {"dates": pd.date_range(start=start_date, end=end_date, freq="MS")}
+        )
+
         self.results['number_of_contributors'] = 0
         self.results['number_of_commits'] = 0
         self.results['number_of_new_contributors'] = 0
@@ -230,12 +244,18 @@ class Miner:
         current_contributor_domains = set()
         stats_pd = self.commit_stats
         for i in range(len(self.results)):
-            if i == 0:
-                mask = stats_pd.committed_at <= self.results.date[i]
-            else:
-                mask = (stats_pd.committed_at <= self.results.date[i]) & (
-                        stats_pd.committed_at > self.results.date[i-1]
+            if i != len(self.results) - 1:
+                mask = (stats_pd.committed_at >= self.results.dates[i]) & (
+                    stats_pd.committed_at < self.results.dates[i + 1]
                 )
+            else:
+                mask = stats_pd.committed_at >= self.results.dates[i]
+#            if i == 0:
+#                mask = stats_pd.committed_at <= self.results.date[i]
+#            else:
+#                mask = (stats_pd.committed_at <= self.results.date[i]) & (
+#                        stats_pd.committed_at > self.results.date[i-1]
+#                )
             commit_pd = stats_pd[mask]
             self.results.at[i, 'number_of_contributors'] = commit_pd['committer_id'].nunique()
             self.results.at[i, 'number_of_contributor-domains'] = commit_pd['committer_domain'].nunique()
@@ -353,38 +373,36 @@ class Miner:
         self.results["number_of_issue_comments"] = 0  # comments from open + closed issues
 
         for i in range(len(self.results)):
-            if i == 0:
-                open_mask = (stats_pd.created_at <= self.results.date[i]) #& (stats_pd.state == 'open')
-                closed_mask = (stats_pd.closed_at <= self.results.date[i]) & (stats_pd.state == 'closed')
-            else:
-                open_mask = (
-                        (stats_pd.created_at <= self.results.date[i]) 
-                        & (stats_pd.created_at > self.results.date[i-1])
-#                        & (stats_pd.state == 'open')
-                )
-                closed_mask = (
-                            (stats_pd.closed_at <= self.results.date[i]) 
-                            & (stats_pd.closed_at > self.results.date[i-1]) 
-                            & (stats_pd.state == 'closed')
-                )
-#            if i != len(self.results) - 1:
+#            if i == 0:
+#                open_mask = (stats_pd.created_at <= self.results.date[i])
+#                closed_mask = (stats_pd.closed_at <= self.results.date[i]) & (stats_pd.state == 'closed')
+#            else:
 #                open_mask = (
-#                    (stats_pd.created_at >= self.results.dates[i])
-#                    & (stats_pd.created_at < self.results.dates[i + 1])
-#                    & (stats_pd.state == "open")
+#                        (stats_pd.created_at <= self.results.date[i]) 
+#                        & (stats_pd.created_at > self.results.date[i-1])
 #                )
 #                closed_mask = (
-#                    (stats_pd.closed_at >= self.results.dates[i])
-#                    & (stats_pd.closed_at < self.results.dates[i + 1])
-#                    & (stats_pd.state == "closed")
+#                            (stats_pd.closed_at <= self.results.date[i]) 
+#                            & (stats_pd.closed_at > self.results.date[i-1]) 
+#                            & (stats_pd.state == 'closed')
 #                )
-#            else:
-#                open_mask = (stats_pd.created_at >= self.results.dates[i]) & (
-#                    stats_pd.state == "open"
-#                )
-#                closed_mask = (stats_pd.closed_at >= self.results.dates[i]) & (
-#                    stats_pd.state == "closed"
-#                )
+
+            if i != len(self.results) - 1:
+                open_mask = (
+                    (stats_pd.created_at >= self.results.dates[i])
+                    & (stats_pd.created_at < self.results.dates[i + 1])
+                )
+                closed_mask = (
+                    (stats_pd.closed_at >= self.results.dates[i])
+                    & (stats_pd.closed_at < self.results.dates[i + 1])
+                    & (stats_pd.state == "closed")
+                )
+            else:
+                open_mask = (stats_pd.created_at >= self.results.dates[i])
+                closed_mask = (stats_pd.closed_at >= self.results.dates[i]) & (
+                    stats_pd.state == "closed"
+                )
+
             self.results.at[i, "number_of_open_issues"] = len(stats_pd[open_mask])
             self.results.at[i, "number_of_closed_issues"] = len(stats_pd[closed_mask])
             self.results.at[i, "number_of_issue_comments"] = sum(
@@ -401,7 +419,7 @@ class Miner:
     # @profile
     def _get_stargazers(self):  # Total time: 0.811028 s for debug
         """
-        Get release wise stargazers and update it in self.results, will finally save to .csv file
+        Get monthly stargazers and update it in self.results, will finally save to .csv file
         """
         print(f'Entering collection of stars for {self.repo_name}')
         stargazer = self.repo.get_stargazers_with_dates()
@@ -424,19 +442,20 @@ class Miner:
         
         self.results["number_of_stargazers"] = 0
         for i in range(len(self.results)):
-            if i == 0:
-                mask = stats_pd.starred_at <= self.results.date[i]
-            else:
-                mask = (
-                           (stats_pd.starred_at <= self.results.date[i])
-                           & (stats_pd.starred_at > self.results.date[i-1])
-                )
-#            if i != len(self.results) - 1:
-#                mask = (stats_pd.starred_at >= self.results.dates[i]) & (
-#                    stats_pd.starred_at < self.results.dates[i + 1]
-#                )
+#            if i == 0:
+#                mask = stats_pd.starred_at <= self.results.date[i]
 #            else:
-#                mask = stats_pd.starred_at >= self.results.dates[i]
+#                mask = (
+#                           (stats_pd.starred_at <= self.results.date[i])
+#                           & (stats_pd.starred_at > self.results.date[i-1])
+#                )
+            if i != len(self.results) - 1:
+                mask = (stats_pd.starred_at >= self.results.dates[i]) & (
+                    stats_pd.starred_at < self.results.dates[i + 1]
+                )
+            else:
+                mask = stats_pd.starred_at >= self.results.dates[i]
+
             self.results.at[i, "number_of_stargazers"] = len(stats_pd[mask])
         
         csv_file_name = f"{self.repo_name.split('/')[-1]}_stargazer.csv"
@@ -467,19 +486,21 @@ class Miner:
 
         self.results["number_of_forks"] = 0
         for i in range(len(self.results)):
-            if i == 0:
-                mask = stats_pd.created_at <= self.results.date[i]
-            else:
-                mask = (
-                           (stats_pd.created_at <= self.results.date[i])
-                           & (stats_pd.created_at > self.results.date[i-1])
-                )
-#            if i != len(self.results) - 1:
-#                mask = (stats_pd.created_at >= self.results.dates[i]) & (
-#                    stats_pd.created_at < self.results.dates[i + 1]
-#                )
+#            if i == 0:
+#                mask = stats_pd.created_at <= self.results.date[i]
 #            else:
-#                mask = stats_pd.created_at >= self.results.dates[i]
+#                mask = (
+#                           (stats_pd.created_at <= self.results.date[i])
+#                           & (stats_pd.created_at > self.results.date[i-1])
+#                )
+
+            if i != len(self.results) - 1:
+                mask = (stats_pd.created_at >= self.results.dates[i]) & (
+                    stats_pd.created_at < self.results.dates[i + 1]
+                )
+            else:
+                mask = stats_pd.created_at >= self.results.dates[i]
+
             self.results.at[i, "number_of_forks"] = len(stats_pd[mask])
         
         csv_file_name = f"{self.repo_name.split('/')[-1]}_forks.csv"
@@ -508,19 +529,21 @@ class Miner:
 
         self.results["number_of_watchers"] = 0
         for i in range(len(self.results)):
-            if i == 0:
-                mask = stats_pd.created_at <= self.results.date[i]
-            else:
-                mask = (
-                        (stats_pd.created_at <= self.results.date[i])
-                        & (stats_pd.created_at > self.results.date[i-1])
-                )
-#            if i != len(self.results) - 1:
-#                mask = (stats_pd.created_at >= self.results.dates[i]) & (
-#                    stats_pd.created_at < self.results.dates[i + 1]
-#                )
+#            if i == 0:
+#                mask = stats_pd.created_at <= self.results.date[i]
 #            else:
-#                mask = stats_pd.created_at >= self.results.dates[i]
+#                mask = (
+#                        (stats_pd.created_at <= self.results.date[i])
+#                        & (stats_pd.created_at > self.results.date[i-1])
+#                )
+
+            if i != len(self.results) - 1:
+                mask = (stats_pd.created_at >= self.results.dates[i]) & (
+                    stats_pd.created_at < self.results.dates[i + 1]
+                )
+            else:
+                mask = stats_pd.created_at >= self.results.dates[i]
+
             self.results.at[i, "number_of_watchers"]= len(stats_pd[mask])
         
         csv_file_name = f"{self.repo_name.split('/')[-1]}_watchers.csv"
@@ -574,35 +597,35 @@ class Miner:
         #self.results["PR_mergers"] = 0
         #self.results["number_of_PR_comments"] = 0  # comments from open + closed issues
 
-#        for i in range(len(self.results)):
-#            if i != len(self.results) - 1:
-#                open_mask = (stats_pd.created_at >= self.results.dates[i]) & (
-#                    stats_pd.created_at < self.results.dates[i + 1]
-#                )
-#                closed_mask = (
-#                    (stats_pd.closed_at >= self.results.dates[i])
-#                    & (stats_pd.closed_at < self.results.dates[i + 1])
-#                    & (stats_pd.state == "closed")
-#                    & (stats_pd.merged == False)
-#                )  # all merged PR's state = close, so have to get rid of merged.
-#                merged_mask = (
-#                    (stats_pd.closed_at >= self.results.dates[i])
-#                    & (stats_pd.closed_at < self.results.dates[i + 1])
-#                    & (stats_pd.merged)
-#                )
-#            else:
-#                open_mask = stats_pd.created_at >= self.results.dates[i]
-#                closed_mask = (
-#                    (stats_pd.closed_at >= self.results.dates[i])
-#                    & (stats_pd.state == "closed")
-#                    & (stats_pd.merged == False)
-#                )
-#                merged_mask = (stats_pd.closed_at >= self.results.dates[i]) & (
-#                    stats_pd.merged
-#                )
-#            self.results.at[i, "number_of_open_PRs"] = len(stats_pd[open_mask])
-#            self.results.at[i, "number_of_closed_PRs"] = len(stats_pd[closed_mask])
-#            self.results.at[i, "number_of_merged_PRs"] = len(stats_pd[merged_mask])
+        for i in range(len(self.results)):
+            if i != len(self.results) - 1:
+                open_mask = (stats_pd.created_at >= self.results.dates[i]) & (
+                    stats_pd.created_at < self.results.dates[i + 1]
+                )
+                closed_mask = (
+                    (stats_pd.closed_at >= self.results.dates[i])
+                    & (stats_pd.closed_at < self.results.dates[i + 1])
+                    & (stats_pd.state == "closed")
+                    & (stats_pd.merged == False)
+                )  # all merged PR's state = close, so have to get rid of merged.
+                merged_mask = (
+                    (stats_pd.closed_at >= self.results.dates[i])
+                    & (stats_pd.closed_at < self.results.dates[i + 1])
+                    & (stats_pd.merged)
+                )
+            else:
+                open_mask = stats_pd.created_at >= self.results.dates[i]
+                closed_mask = (
+                    (stats_pd.closed_at >= self.results.dates[i])
+                    & (stats_pd.state == "closed")
+                    & (stats_pd.merged == False)
+                )
+                merged_mask = (stats_pd.closed_at >= self.results.dates[i]) & (
+                    stats_pd.merged
+                )
+            self.results.at[i, "number_of_open_PRs"] = len(stats_pd[open_mask])
+            self.results.at[i, "number_of_closed_PRs"] = len(stats_pd[closed_mask])
+            self.results.at[i, "number_of_merged_PRs"] = len(stats_pd[merged_mask])
 #            self.results.at[i, "PR_mergers"] = len(
 #                stats_pd[merged_mask].merged_by.unique()
 #            )
@@ -612,36 +635,36 @@ class Miner:
 #                + sum(stats_pd[merged_mask].comments)
 #            )  # num of comments on open + closed + merged PRs.
 
-        for i in range(len(self.results)):
-            if (i == 0):
-                open_mask = stats_pd.created_at <= self.results.date[i]
-                closed_mask = (
-                        (stats_pd.closed_at <= self.results.date[i])
-                        & (stats_pd.state == "closed")
-                        & (stats_pd.merged == False)
-                )
-                merged_mask = (stats_pd.closed_at <= self.results.date[i]) & (
-                    stats_pd.merged
-                )
-            else:
-                open_mask = (stats_pd.created_at <= self.results.date[i]) & (
-                        stats_pd.created_at > self.results.date[i-1]
-                )
-                closed_mask = (
-                        (stats_pd.closed_at <= self.results.date[i])
-                        & (stats_pd.closed_at > self.results.date[i-1])
-                        & (stats_pd.state == "closed")
-                        & (stats_pd.merged == False)
-                )
-                merged_mask = (
-                        (stats_pd.closed_at <= self.results.date[i])
-                        & (stats_pd.closed_at > self.results.date[i-1])
-                        & (stats_pd.merged)
-                )
-
-            self.results.at[i, "number_of_open_PRs"] = len(stats_pd[open_mask])
-            self.results.at[i, "number_of_closed_PRs"] = len(stats_pd[closed_mask])
-            self.results.at[i, "number_of_merged_PRs"] = len(stats_pd[merged_mask])
+#        for i in range(len(self.results)):
+#            if (i == 0):
+#                open_mask = stats_pd.created_at <= self.results.date[i]
+#                closed_mask = (
+#                        (stats_pd.closed_at <= self.results.date[i])
+#                        & (stats_pd.state == "closed")
+#                        & (stats_pd.merged == False)
+#                )
+#                merged_mask = (stats_pd.closed_at <= self.results.date[i]) & (
+#                    stats_pd.merged
+#                )
+#            else:
+#                open_mask = (stats_pd.created_at <= self.results.date[i]) & (
+#                        stats_pd.created_at > self.results.date[i-1]
+#                )
+#                closed_mask = (
+#                        (stats_pd.closed_at <= self.results.date[i])
+#                        & (stats_pd.closed_at > self.results.date[i-1])
+#                        & (stats_pd.state == "closed")
+#                        & (stats_pd.merged == False)
+#                )
+#                merged_mask = (
+#                        (stats_pd.closed_at <= self.results.date[i])
+#                        & (stats_pd.closed_at > self.results.date[i-1])
+#                        & (stats_pd.merged)
+#                )
+#
+#            self.results.at[i, "number_of_open_PRs"] = len(stats_pd[open_mask])
+#            self.results.at[i, "number_of_closed_PRs"] = len(stats_pd[closed_mask])
+#            self.results.at[i, "number_of_merged_PRs"] = len(stats_pd[merged_mask])
 #            self.results.at[i, "PR_mergers"] = len(
 #                stats_pd[merged_mask].merged_by.unique()
 #            )
