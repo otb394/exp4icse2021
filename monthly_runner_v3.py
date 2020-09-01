@@ -109,6 +109,7 @@ class Miner:
 #                    sleep(30)
                 p = ThPool(num_workers)
                 self.get_rate_limit(str(func.__name__), 50, True)
+                print(f'start [{i*self.batch_size}] and end [{(i + 1) * self.batch_size}]')
                 temp = p.map(func, params[i*self.batch_size:(i+1)*self.batch_size])
                 stats += temp
             print(f"{self.repo_name}, {func.__name__} takes: {round(time.time()-start,3)} secs" )
