@@ -100,13 +100,16 @@ class Miner:
         else:
             stats = []
             start = time.time()
+            totalCount = params.totalCount
             for i in range(int(params.totalCount/self.batch_size)+1):
 #                if self.num_workers != 1 and  i != 0 and (i+1)*self.batch_size % 800==0:
 #                    print("Sleep 30 sec")
 #                    sleep(30)
                 p = ThPool(num_workers)
                 self.get_rate_limit(str(func.__name__), 50, True)
-                temp = p.map(func, params[i*self.batch_size:(i+1)*self.batch_size])
+                print(f'[start: {i*self.batch_size}] [end: {(i + 1) * self.batch_size}] [totalCount: {params.totalCount}]')
+                endIndex = min((i+1) * self.batch_size, totalCount)
+                temp = p.map(func, params[i*self.batch_size:endIndex])
                 stats += temp
             print(f"{self.repo_name}, {func.__name__} takes: {round(time.time()-start,3)} secs" )
             print('Requests remaining = ' + str(self.g.rate_limiting[0]) + ' for token idx: ' + str(self.token_idx))
@@ -162,7 +165,7 @@ class Miner:
             #stats = retreieve_commits(commits_dates) # get commits dates by clone repo
             stats = retrieve_commits()
         #pdb.set_trace()
-        stats_pd = pd.DataFrame.from_records(stats)
+        stats_pd = pd.DataFrame.from_records(stats, columns=["commit_id", "committer_id", "committed_at", "committer_domain"])
         stats_pd.committed_at = stats_pd.committed_at.astype("datetime64[ns]")
 
         csv_file_name = f"{self.repo_name.split('/')[-1]}_commits_and_comments.csv"
@@ -294,7 +297,7 @@ class Miner:
 
         all_releases = self.repo.get_releases()
         stats = self._get_results_by_threading(multi_releases, all_releases)
-        stats_pd = pd.DataFrame.from_records(stats).sort_values(by='date', ignore_index = True)
+        stats_pd = pd.DataFrame.from_records(stats, columns=['release', 'tag_name', 'commit_id', 'date']).sort_values(by='date', ignore_index = True)
         stats_pd['days_since_last_release'] = 0
 
         for i in range(len(stats_pd)):
@@ -344,7 +347,7 @@ class Miner:
         print('All issues count for ' + str(self.repo_name) + ' = ' + str(all_issues.totalCount))
         stats = self._get_results_by_threading(multi_issues, all_issues)
 
-        stats_pd = pd.DataFrame.from_records(stats)
+        stats_pd = pd.DataFrame.from_records(stats, columns=['id', 'state', 'comments', 'created_at', 'closed_at', 'title'])
 #        stats_pd.created_at = stats_pd.created_at.astype("datetime64[ns]")
 #        stats_pd.closed_at = stats_pd.closed_at.astype(
 #            "datetime64[ns]", errors="ignore"
@@ -421,7 +424,7 @@ class Miner:
             stats.append(one)
             temp_counter = temp_counter + 1
         
-        stats_pd = pd.DataFrame.from_records(stats)
+        stats_pd = pd.DataFrame.from_records(stats, columns=["starred_at", "user_id"])
         stats_pd.sort_values(by=["starred_at"])
         
         self.results["number_of_stargazers"] = 0
@@ -469,7 +472,7 @@ class Miner:
             stats.append(one)
             temp_counter = temp_counter + 1
         
-        stats_pd = pd.DataFrame.from_records(stats)
+        stats_pd = pd.DataFrame.from_records(stats, columns=["created_at", "user_id"])
         stats_pd.sort_values(by=["created_at"])
 
         self.results["number_of_forks"] = 0
@@ -511,7 +514,7 @@ class Miner:
         watchers = self.repo.get_subscribers() # <---- this was wrong, not get_watchers!!
         stats = self._get_results_by_threading(multi_watchers, watchers)
         
-        stats_pd = pd.DataFrame.from_records(stats)
+        stats_pd = pd.DataFrame.from_records(stats, columns=["created_at", "user_id"])
         stats_pd.sort_values(by=["created_at"])
 
         self.results["number_of_watchers"] = 0
@@ -571,7 +574,17 @@ class Miner:
             return one
 
         stats = self._get_results_by_threading(multi_pulls, pulls)
-        stats_pd = pd.DataFrame.from_records(stats)
+        stats_pd = pd.DataFrame.from_records(stats,
+                       columns=[
+                           "id",
+                           "created_at",
+                           "closed_at",
+                           "merged_at",
+                           "state",
+            #               "comments",
+                           "merged"
+                       ]
+                   )
         stats_pd.created_at = stats_pd.created_at.astype("datetime64[ns]")
         stats_pd.closed_at = stats_pd.closed_at.astype("datetime64[ns]", errors="ignore")
         stats_pd.merged_at = stats_pd.merged_at.astype("datetime64[ns]", errors="ignore")
