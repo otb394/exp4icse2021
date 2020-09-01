@@ -125,6 +125,14 @@ class Miner:
         os.makedirs(result_path, exist_ok=True)
         return result_path
 
+    def read_existing_data(file_name):
+        path = os.path.join(self.output_folder, csv_file_name)
+        if (os.path.isfile(path)):
+            return pd.read_csv(path)
+        else:
+            return None
+
+
     def _fetch_commit_data(self):
         """
         Get commits activity grouped by month.
@@ -161,25 +169,29 @@ class Miner:
             return domain
        
         print(f'Entering fetch commits for {self.repo_name}')
-        if self.commits_stats_from_clone:
-            stats = get_commits_stats_from_clone_repo(self.repo_name)
-        else:
-            #commits_dates = get_commits_from_clone_repo(self.repo_name)
-            #stats = retreieve_commits(commits_dates) # get commits dates by clone repo
-            stats = retrieve_commits()
-        #pdb.set_trace()
-        stats_pd = pd.DataFrame.from_records(stats, columns=["commit_id", "committer_id", "committed_at", "committer_domain"])
-        stats_pd.committed_at = stats_pd.committed_at.astype("datetime64[ns]")
-
         csv_file_name = f"{self.repo_name.split('/')[-1]}_commits_and_comments.csv"
-        path = os.path.join(self.output_folder, csv_file_name)
-        stats_pd.to_csv(
-            path,
-            index=False,
-            columns=["commit_id", "committer_id", "committed_at", "committer_domain"],
-        )
-        self.commit_stats = stats_pd
-#        print('Requests remaining = ' + str(self.g.rate_limiting[0]))
+        stats_pd = read_existing_data(csv_file_name)
+        if stats_pd:
+            self.commit_stats = stats_pd
+        else:
+            if self.commits_stats_from_clone:
+                stats = get_commits_stats_from_clone_repo(self.repo_name)
+            else:
+                #commits_dates = get_commits_from_clone_repo(self.repo_name)
+                #stats = retreieve_commits(commits_dates) # get commits dates by clone repo
+                stats = retrieve_commits()
+            #pdb.set_trace()
+            stats_pd = pd.DataFrame.from_records(stats, columns=["commit_id", "committer_id", "committed_at", "committer_domain"])
+            stats_pd.committed_at = stats_pd.committed_at.astype("datetime64[ns]")
+
+            path = os.path.join(self.output_folder, csv_file_name)
+            stats_pd.to_csv(
+                path,
+                index=False,
+                columns=["commit_id", "committer_id", "committed_at", "committer_domain"],
+            )
+            self.commit_stats = stats_pd
+    #        print('Requests remaining = ' + str(self.g.rate_limiting[0]))
         print('Requests remaining = ' + str(self.g.rate_limiting[0]) + ' for token idx: ' + str(self.token_idx))
 
 
