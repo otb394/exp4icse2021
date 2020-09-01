@@ -103,6 +103,7 @@ class Miner:
         else:
             stats = []
             start = time.time()
+            totalCount = params.totalCount
             for i in range(int(params.totalCount/self.batch_size)+1):
 #                if self.num_workers != 1 and  i != 0 and (i+1)*self.batch_size % 800==0:
 #                    print("Sleep 30 sec")
@@ -110,7 +111,8 @@ class Miner:
                 p = ThPool(num_workers)
                 self.get_rate_limit(str(func.__name__), 50, True)
                 print(f'[start: {i*self.batch_size}] [end: {(i + 1) * self.batch_size}] [totalCount: {params.totalCount}]')
-                temp = p.map(func, params[i*self.batch_size:(i+1)*self.batch_size])
+                endIndex = min((i+1) * self.batch_size, totalCount)
+                temp = p.map(func, params[i*self.batch_size:endIndex])
                 stats += temp
             print(f"{self.repo_name}, {func.__name__} takes: {round(time.time()-start,3)} secs" )
             print('Requests remaining = ' + str(self.g.rate_limiting[0]) + ' for token idx: ' + str(self.token_idx))
