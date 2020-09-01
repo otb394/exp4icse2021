@@ -26,7 +26,7 @@ with open('data/repo_list.csv', 'r') as f:
     for repo in f:
         all_repos.append(repo.strip())
 
-remaining_repos = [x for x in all_repos if x[19:].split('/')[1] not in repos]
+remaining_repos = [x for x in all_repos if x[19:].split('/')[1] not in repos and x[19:].replace('/', '-') not in repos]
 
 with open('remaining_repos.txt', 'w') as f:
     for repo in remaining_repos:

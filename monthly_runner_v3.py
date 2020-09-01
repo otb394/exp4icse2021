@@ -84,7 +84,8 @@ class Miner:
 
     def save_results(self):
         self.results.to_csv(
-            OUTPUT_PATH + f"{self.repo_name.split('/')[-1]}_monthly.csv", index=False
+            OUTPUT_PATH + f"{self.repo_name.replace('/','-')}_monthly.csv", index=False
+#            OUTPUT_PATH + f"{self.repo_name.split('/')[-1]}_monthly.csv", index=False
         )
    
     def _get_results_by_threading(self, func, params):
@@ -116,7 +117,8 @@ class Miner:
         return stats
 
     def _create_output_folder(self):
-        result_path = OUTPUT_PATH + self.repo_name.split("/")[-1]
+        result_path = OUTPUT_PATH + self.repo_name.replace("/", '-')
+#        result_path = OUTPUT_PATH + self.repo_name.split("/")[-1]
         os.makedirs(result_path, exist_ok=True)
         return result_path
 
@@ -324,7 +326,7 @@ class Miner:
         #stats_pd.date = stats_pd.date.astype("datetime64[ns]")
         print(stats_pd)
         self.results = stats_pd.copy()
-        csv_file_name = f"{self.repo_name.split('/')[-1]}_releases.csv"
+        csv_file_name = f"{self.repo_name.replace('/','-')}_releases.csv"
         path = os.path.join(self.output_folder, csv_file_name)
         stats_pd.to_csv(
                 path,
@@ -718,7 +720,7 @@ def run(token_idx):
     for repo_name in sorted(repo_names):
         print(f'Repo {repo_name} fetched using token {token_idx}')
         sub_name = repo_name.split("/")[-1]
-        if  sub_name in existing_results:
+        if  sub_name in existing_results or repo_name.replace('/','-') in existing_results:
             # print(f"{repo_name} exists, skipping...")
             continue 
         if check_in_problem_repo(repo_name):

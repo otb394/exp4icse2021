@@ -81,7 +81,8 @@ class Miner:
 
     def save_results(self):
         self.results.to_csv(
-            OUTPUT_PATH + f"{self.repo_name.split('/')[-1]}_by_release.csv", index=False
+            OUTPUT_PATH + f"{self.repo_name.replace('/','-')}_by_release.csv", index=False
+#            OUTPUT_PATH + f"{self.repo_name.split('/')[-1]}_by_release.csv", index=False
         )
    
     def _get_results_by_threading(self, func, params):
@@ -113,7 +114,8 @@ class Miner:
         return stats
 
     def _create_output_folder(self):
-        result_path = OUTPUT_PATH + self.repo_name.split("/")[-1]
+        result_path = OUTPUT_PATH + self.repo_name.replace("/", '-')
+#        result_path = OUTPUT_PATH + self.repo_name.split("/")[-1]
         os.makedirs(result_path, exist_ok=True)
         return result_path
 
@@ -445,7 +447,8 @@ class Miner:
         print('Requests remaining = ' + str(self.g.rate_limiting[0]) + ' for token idx: ' + str(self.token_idx))
 #        print('Requests remaining = ' + str(self.g.rate_limiting[0]))
 
-    # @profile
+    # TODO: What does the time here signify? Should it be the time at which the fork was created? or should it be the fork repository was created?
+    # Wait, will they be same?
     def _get_forks(self):  # Total time: 2.84025 s for debug
         """
         Get monthly forks and update it in self.results, will finally save to .csv file
@@ -453,7 +456,10 @@ class Miner:
         forks = self.repo.get_forks()
         stats = []
         counts = self.debug_counts
+        temp_counter = 0
+        print(f'Number of forks for {self.repo_name} = {forks.totalCount}')
         for fork in forks:  # this line takes 90.1% time of this function
+            self.get_rate_limit('_get_forks', 10, (temp_counter % 100 == 0))
             if self.debug_counts:
                 counts -= 1
                 if counts == 0:
@@ -461,6 +467,7 @@ class Miner:
             one = {"user_id": fork.owner.login}
             one["created_at"] = fork.created_at.astimezone(tz = timezone.utc).replace(tzinfo = None) if fork.created_at else None
             stats.append(one)
+            temp_counter = temp_counter + 1
         
         stats_pd = pd.DataFrame.from_records(stats)
         stats_pd.sort_values(by=["created_at"])
@@ -485,6 +492,7 @@ class Miner:
         csv_file_name = f"{self.repo_name.split('/')[-1]}_forks.csv"
         path = os.path.join(self.output_folder, csv_file_name)
         stats_pd.to_csv(path, index=False, columns=["created_at", "user_id"])
+        print('Requests remaining = ' + str(self.g.rate_limiting[0]) + ' for token idx: ' + str(self.token_idx))
 
     # @profile
     def _get_watchers(self):  # Total time: 4.25912 s for debug before multithread=
@@ -688,7 +696,7 @@ def run(token_idx):
     for repo_name in sorted(repo_names):
         print(f'Repo {repo_name} fetched using token {token_idx}')
         sub_name = repo_name.split("/")[-1]
-        if  sub_name in existing_results:
+        if  sub_name in existing_results or repo_name.replace('/','-') in existing_results:
             # print(f"{repo_name} exists, skipping...")
             continue 
         if check_in_problem_repo(repo_name):
