@@ -582,7 +582,7 @@ class Miner:
 
         """
         print(f'Entering get pull requests for {self.repo_name}')
-        pulls = self.repo.get_pulls(state=state, sort="created", base="master")
+        pulls = self.repo.get_pulls(state=state, sort="created")#, base="master")
         totalCount = pulls.totalCount
         print(f'Number of pull requests for {self.repo_name} = {totalCount}')
 #        print('Pulls are here')
@@ -611,7 +611,6 @@ class Miner:
                 temp_counter = temp_counter + 1
             return ret
 
-
         def multi_pulls(pr):
             one = {"id": str(pr.number)}
             one["state"] = pr.state
@@ -633,8 +632,8 @@ class Miner:
             one["merged"] = True if pr.merged_at else False
             return one
 
-#        stats = self._get_results_by_threading(multi_pulls, pulls)
-        stats = sequential_pull(pulls)
+        stats = self._get_results_by_threading(multi_pulls, pulls)
+#        stats = sequential_pull(pulls)
         stats_pd = pd.DataFrame.from_records(stats,
                        columns=[
                            "id",
