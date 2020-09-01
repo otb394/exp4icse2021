@@ -125,8 +125,8 @@ class Miner:
         os.makedirs(result_path, exist_ok=True)
         return result_path
 
-    def read_existing_data(file_name):
-        path = os.path.join(self.output_folder, csv_file_name)
+    def _read_existing_data(self, file_name):
+        path = os.path.join(self.output_folder, file_name)
         if (os.path.isfile(path)):
             return pd.read_csv(path)
         else:
@@ -170,7 +170,7 @@ class Miner:
        
         print(f'Entering fetch commits for {self.repo_name}')
         csv_file_name = f"{self.repo_name.split('/')[-1]}_commits_and_comments.csv"
-        stats_pd = read_existing_data(csv_file_name)
+        stats_pd = self._read_existing_data(csv_file_name)
         if stats_pd:
             self.commit_stats = stats_pd
         else:
