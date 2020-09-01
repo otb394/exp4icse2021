@@ -586,7 +586,31 @@ class Miner:
         totalCount = pulls.totalCount
         print(f'Number of pull requests for {self.repo_name} = {totalCount}')
 #        print('Pulls are here')
-        stats = []
+        def sequential_pull(pull_list):
+            ret = []
+            temp_counter = 0
+            for pr in pull_list:
+                self.get_rate_limit('_get_pull_requests', 10, (temp_counter % 100 == 0))
+                one = {"id": str(pr.number)}
+                one["state"] = pr.state
+                ## FIXME pr.comments line takes 91.4% time of this function, this will call API once!
+                #one["comments"] = (pr.comments)
+                one["created_at"] = str(pr.created_at.astimezone(tz = timezone.utc).replace(tzinfo = None))
+                # set not closed pr date to 1970-01-01 for calcualte monthly stats
+                one["closed_at"] = (
+                    str(pr.closed_at.astimezone(tz = timezone.utc).replace(tzinfo = None)) if pr.closed_at else str(pd.to_datetime(1))
+                )
+                # set not merged pr date to 1970-01-01 for calcualte monthly stats.
+                one["merged_at"] = (
+                    str(pr.merged_at.astimezone(tz = timezone.utc).replace(tzinfo = None)) if pr.merged_at else str(pd.to_datetime(1))
+                )
+                #one["merged_by"] = str(pr.merged_by.login) if pr.merged_by else None
+                #one["merged"] = bool(pr._merged.value)
+                one["merged"] = True if pr.merged_at else False
+                ret.append(one)
+                temp_counter = temp_counter + 1
+            return ret
+
 
         def multi_pulls(pr):
             one = {"id": str(pr.number)}
@@ -609,7 +633,8 @@ class Miner:
             one["merged"] = True if pr.merged_at else False
             return one
 
-        stats = self._get_results_by_threading(multi_pulls, pulls)
+#        stats = self._get_results_by_threading(multi_pulls, pulls)
+        stats = sequential_pull(pulls)
         stats_pd = pd.DataFrame.from_records(stats,
                        columns=[
                            "id",
