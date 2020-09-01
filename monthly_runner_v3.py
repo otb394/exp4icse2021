@@ -573,6 +573,7 @@ class Miner:
         """
         print(f'Entering get pull requests for {self.repo_name}')
         pulls = self.repo.get_pulls(state=state, sort="created", base="master")
+        print(f'Number of pull requests for {self.repo_name} = {pulls.totalCount}')
 #        print('Pulls are here')
         stats = []
 
