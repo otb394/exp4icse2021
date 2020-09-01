@@ -1,0 +1,958 @@
+id,created_at,closed_at,state,comments,title
+957,2020-08-28 19:32:08.000000000,2020-08-28 19:51:07.000000000,closed,0,Minor SwiftFormat update
+956,2020-08-28 19:05:58.000000000,2020-08-28 19:51:27.000000000,closed,2,Pod updates for alpha 19.
+955,2020-08-27 20:37:28.000000000,2020-08-28 20:22:52.000000000,closed,1,iOS Background fetchs with gRPC-Swift
+954,2020-08-27 14:30:46.000000000,2020-08-27 15:30:46.000000000,closed,0,Update NIO version to 2.22.0 and NIOHTTP2 to 1.14.1.
+953,2020-08-25 13:08:25.000000000,2020-08-25 14:39:46.000000000,closed,0,Move idle handler state to closed on channelInactive
+952,2020-08-24 16:11:49.000000000,2020-08-24 16:44:39.000000000,closed,0,Import SwiftProtobuf in generated code
+951,2020-08-24 14:34:38.000000000,2020-08-24 16:44:39.000000000,closed,0,NO “import SwiftProtobuf” in xxx.grpc.swift if using  wrappers
+950,2020-08-24 14:14:25.000000000,2020-08-24 16:11:15.000000000,closed,0,Tolerate idling from the active state
+949,2020-08-22 02:18:16.000000000,2020-08-27 16:08:20.000000000,closed,8,crash in alpha 17
+948,2020-08-21 14:39:37.000000000,2020-08-24 10:30:11.000000000,closed,0,Fix perf benchmarks
+947,2020-08-21 11:38:20.000000000,2020-08-21 11:39:05.000000000,closed,1,Feat/update grpc 1.0.0 alpha.18
+946,2020-08-19 15:02:59.000000000,2020-08-20 06:03:15.000000000,closed,1,can change call style?
+945,2020-08-19 12:48:53.000000000,2020-08-19 17:17:59.000000000,closed,3,Allow the gRPC module name to be customised when generating code
+944,2020-08-19 12:41:10.000000000,2020-08-19 13:38:03.000000000,closed,0,Update the Podspecs to alpha18.
+943,2020-08-19 12:35:05.000000000,2020-08-19 13:17:58.000000000,closed,0,"Update README for the latest Pod version, add support for auto-updating."
+942,2020-08-18 16:34:09.000000000,2020-08-18 18:31:48.000000000,closed,0,Make 'GRPCStatus.Code' an enum
+941,2020-08-16 21:46:58.000000000,1970-01-01 00:00:00.000000001,open,7,[DO NOT MERGE] Add tracing instrumentation
+940,2020-08-15 08:33:18.000000000,2020-08-17 17:38:05.000000000,closed,3,Update quick-start.md
+939,2020-08-14 20:50:25.000000000,1970-01-01 00:00:00.000000001,open,2,"How can I set `maxReceiveMessageLength`, `maxSendMessageLength` and other `Channel.Argument` options (used in v0.x) in the swift-grpc v1.0.0-alpha.XX"
+938,2020-08-14 18:29:54.000000000,2020-08-18 16:03:53.000000000,closed,0,Log some HTTP/2 information
+937,2020-08-14 05:26:50.000000000,2020-08-19 11:49:09.000000000,closed,1,Github Sponsorships
+936,2020-08-12 19:50:02.000000000,2020-08-12 20:36:17.000000000,closed,0,Disable new swiftformat rule
+935,2020-08-12 18:30:20.000000000,2020-08-12 19:44:10.000000000,closed,1,Avoid unnecessary arrays.
+934,2020-08-11 14:43:36.000000000,2020-08-11 15:46:05.000000000,closed,0,Pin the SwiftFormat version in CI
+933,2020-08-11 13:07:44.000000000,2020-08-11 14:42:24.000000000,closed,0,Fix a few incorrect source locations in logs
+932,2020-08-10 18:15:51.000000000,2020-08-10 18:52:52.000000000,closed,0,Reduce cost of responding to unary calls.
+931,2020-08-10 17:57:07.000000000,2020-08-10 18:50:06.000000000,closed,0,Pre-cache the services by name dictionary.
+930,2020-08-10 17:19:39.000000000,2020-08-10 18:53:07.000000000,closed,0,"Revert ""Don't specify a custom module name when generating Podspecs (#916)"""
+929,2020-08-10 17:08:59.000000000,2020-08-11 12:13:49.000000000,closed,1,Add .swiftformat and apply a lint check in CI
+928,2020-08-10 15:27:32.000000000,1970-01-01 00:00:00.000000001,open,4,No such module `GRPC`
+927,2020-08-10 13:25:36.000000000,2020-08-10 16:14:00.000000000,closed,0,Tolerate missing content-type header for trailers-only responses
+926,2020-08-07 21:08:35.000000000,2020-08-10 16:14:00.000000000,closed,1,grpc-swift replaces server reported error with internal error
+925,2020-08-07 16:28:56.000000000,2020-08-07 17:01:51.000000000,closed,0,Don't construct unnecessary buffers.
+924,2020-08-07 15:10:56.000000000,2020-08-07 16:18:23.000000000,closed,3,Improve performance of routing inbound RPCs
+923,2020-08-06 20:13:25.000000000,2020-08-07 19:11:35.000000000,closed,0,Add a 'preflight check' stage to CI
+922,2020-08-06 19:54:37.000000000,2020-08-07 11:58:48.000000000,closed,0,Update to SwiftNIO HTTP/2 1.13.0
+921,2020-08-06 13:33:10.000000000,2020-08-07 10:02:48.000000000,closed,7,Error with Swift Package Manager
+920,2020-08-05 20:18:11.000000000,2020-08-06 12:50:26.000000000,closed,0,Switch a `numericCast` to the required type
+919,2020-08-05 12:57:19.000000000,2020-08-05 12:59:11.000000000,closed,0,Update docs and CI to reflect our 'main' branch
+918,2020-08-05 12:52:28.000000000,2020-08-05 12:58:54.000000000,closed,0,Update cgrpc branch so documentation points users to main
+917,2020-08-04 15:03:10.000000000,2020-08-04 17:35:24.000000000,closed,0,Mitigate zero-length writes issue.
+916,2020-08-03 13:38:35.000000000,2020-08-03 14:20:58.000000000,closed,0,Don't specify a custom module name when generating Podspecs
+915,2020-07-31 20:33:53.000000000,2020-08-05 12:17:48.000000000,closed,3,Conflict using Firestore and gRPC-Swift pods
+914,2020-07-31 13:17:48.000000000,2020-07-31 15:35:09.000000000,closed,2,Fix an ObjC memory consumption increase as the app runs.
+913,2020-07-30 12:32:54.000000000,2020-07-31 12:24:03.000000000,closed,3,Certificate Transparency Support?
+912,2020-07-28 10:45:35.000000000,2020-08-07 11:58:48.000000000,closed,12,"concurrent requests cause StreamIDTooSmall error, channel state becomes transientFailure"
+911,2020-07-27 16:14:17.000000000,2020-07-28 15:56:36.000000000,closed,0,Add a server debug channel initializer
+910,2020-07-27 13:14:17.000000000,2020-07-27 13:52:49.000000000,closed,1,Update QUESTION.md
+909,2020-07-27 09:15:17.000000000,2020-07-27 13:31:39.000000000,closed,16,Can't generate grpc plugin correctly
+908,2020-07-24 14:03:26.000000000,2020-07-24 19:14:41.000000000,closed,0,Add a client debugging initializer and PCAP debugging example
+907,2020-07-23 18:34:22.000000000,2020-07-24 13:29:33.000000000,closed,0,Reduce code duplication between builders and configuration
+906,2020-07-22 18:52:22.000000000,2020-07-23 12:05:03.000000000,closed,0,Remove some unnecessary CoWs
+905,2020-07-22 13:02:12.000000000,2020-07-22 13:29:23.000000000,closed,0,Fix license header check
+904,2020-07-21 01:25:06.000000000,1970-01-01 00:00:00.000000001,open,3,Backpressure support with Swift Combine
+903,2020-07-20 18:55:52.000000000,2020-07-20 19:09:04.000000000,closed,0,Capture logs in tests
+902,2020-07-20 17:13:54.000000000,2020-07-20 18:35:40.000000000,closed,0,Allow loggers to be passed in
+901,2020-07-18 07:36:08.000000000,2020-08-04 17:35:24.000000000,closed,24,Only one ServerStreamingCall can response when Clientconnection built on NIOTSEventLoopGroup
+900,2020-07-17 13:54:52.000000000,2020-07-20 13:09:10.000000000,closed,1,How to get 100 items
+899,2020-07-17 09:25:24.000000000,2020-07-17 15:22:36.000000000,closed,3,Send HTTPProtocolVersion from Client
+898,2020-07-16 17:24:39.000000000,2020-07-16 17:58:14.000000000,closed,0,Update our Podspecs for 1.0a17.
+897,2020-07-16 14:25:27.000000000,2020-07-16 17:34:20.000000000,closed,4,"GRPC Communications don't work, keep getting WRONG_VERSION_NUMBER"
+896,2020-07-15 19:05:20.000000000,2020-07-15 19:27:36.000000000,closed,0,NetworkPreference.best should be POSIX on older platforms
+895,2020-07-15 18:52:24.000000000,2020-07-15 19:27:36.000000000,closed,9,Fatal error - macOS 10.13.6 - Crashes on PlatformSupport.makeEventLoopGroup(loopCount:networkPreference:logger:)
+894,2020-07-15 16:47:52.000000000,2020-07-15 18:32:26.000000000,closed,0,Add back GRPCPayload support for server handlers
+893,2020-07-15 16:29:31.000000000,2020-07-15 17:42:27.000000000,closed,0,Tolerate receiving pings when `permitWithoutCalls` is disabled
+892,2020-07-15 00:36:25.000000000,2020-07-15 13:26:36.000000000,closed,2,Multiple streaming calls in parallel
+891,2020-07-14 17:05:46.000000000,2020-07-16 13:38:07.000000000,closed,4,Support gRPC map
+890,2020-07-14 15:21:33.000000000,2020-07-14 16:30:08.000000000,closed,0,Reduce input size in some tests
+889,2020-07-14 14:18:38.000000000,2020-07-14 16:37:25.000000000,closed,1,Support protobuf separately to `GRPCPayload` for the client
+888,2020-07-13 17:02:46.000000000,2020-07-14 12:38:23.000000000,closed,0,Alter the documented requirements of `MessageSerializer`
+887,2020-07-12 12:13:55.000000000,2020-07-13 13:47:43.000000000,closed,5,Set iOS deployment target
+886,2020-07-10 18:04:44.000000000,2020-07-13 13:23:29.000000000,closed,0,Remove the requirement that messages conform to GRPCPayload on the server
+885,2020-07-10 14:37:30.000000000,2020-07-10 15:32:14.000000000,closed,1,Remove the requirement that messages conform to GRPCPayload on the server
+884,2020-07-08 17:28:39.000000000,2020-07-08 17:48:54.000000000,closed,4,Duplication of library code
+883,2020-07-07 18:27:59.000000000,2020-07-08 09:54:29.000000000,closed,3,FakeUnaryResponse sendMessage differs from real world implementation
+882,2020-07-07 17:09:29.000000000,2020-07-07 20:03:49.000000000,closed,0,Fix incorrect documentation for certificate verification on the server builder
+881,2020-07-06 20:18:12.000000000,2020-07-07 13:43:44.000000000,closed,0,Allow separate generation of test clients
+880,2020-07-06 17:15:41.000000000,2020-07-07 13:50:40.000000000,closed,0,Remove GRPCStreamType public enum
+879,2020-07-06 16:48:22.000000000,2020-07-07 13:43:27.000000000,closed,1,Generate conformance when message are nested
+878,2020-07-06 16:27:42.000000000,2020-07-07 13:43:44.000000000,closed,4,Add ability to put generated test clients into separate files from their production equivalents
+877,2020-07-06 15:12:21.000000000,2020-07-07 13:51:28.000000000,closed,4,Nested messages don't have conformance to `GRPCProtobufPayload` generated
+876,2020-07-06 15:09:12.000000000,2020-07-06 15:13:19.000000000,closed,0,Remove 'nio' tag from Issue templates
+875,2020-07-06 14:01:37.000000000,2020-07-06 14:37:20.000000000,closed,0,Avoid a double-idle in the idle handler.
+874,2020-07-03 18:09:03.000000000,2020-07-07 13:55:34.000000000,closed,7,ConnectionManager crash
+873,2020-07-03 13:25:00.000000000,2020-07-22 14:18:59.000000000,closed,0,Continuing #762: Added trailing HTTPHeaders for custom error reporting
+872,2020-07-03 13:17:44.000000000,2020-07-03 16:30:39.000000000,closed,4,Add a script to generate a bundle of plugins for CocoaPods
+871,2020-07-02 13:45:07.000000000,2020-07-02 16:09:34.000000000,closed,0,Remove warning from a now-redundant try
+870,2020-07-01 15:21:51.000000000,2020-07-03 13:14:23.000000000,closed,1,Provide the codegen with an option to generate test clients
+869,2020-07-01 13:47:51.000000000,2020-07-03 16:09:31.000000000,closed,2,Add Generation of gRPC-Swift.podspec
+868,2020-06-30 23:43:38.000000000,2020-07-16 12:26:29.000000000,closed,5,Echo Example doesn't enforce client cert TLS requirements?
+867,2020-06-30 20:07:14.000000000,2020-07-01 12:23:21.000000000,closed,0,Replace Compression option enum with a struct
+866,2020-06-30 19:39:00.000000000,2020-07-07 10:43:24.000000000,closed,1,"Turn Network{Implementation,Preference} enums into structs"
+865,2020-06-30 18:14:01.000000000,2020-06-30 20:15:01.000000000,closed,1,Require generated client protocols to accept `CallOptions`
+864,2020-06-29 19:23:26.000000000,2020-06-30 16:13:06.000000000,closed,0,Provide a 'FakeChannel'
+863,2020-06-29 15:09:12.000000000,2020-07-27 12:43:46.000000000,closed,39,GRPC is scalable or not
+862,2020-06-26 11:37:44.000000000,2020-07-01 12:37:19.000000000,closed,2,Make `ClientConnectionKeepalive` and `ServerConnectionKeepalive` `Hashable`
+861,2020-06-25 19:37:24.000000000,2020-06-26 11:24:14.000000000,closed,0,Replace 'ConnectionTarget' enum with a struct
+860,2020-06-25 19:18:51.000000000,2020-06-29 11:10:39.000000000,closed,0,Allow users to choose a policy for starting RPCs
+859,2020-06-25 17:52:30.000000000,2020-06-25 20:19:47.000000000,closed,0,Provide errors to failed client promises rather than a status
+858,2020-06-25 13:37:33.000000000,2020-06-25 14:49:15.000000000,closed,0,Update license check and generated code
+857,2020-06-24 18:39:11.000000000,1970-01-01 00:00:00.000000001,open,0,Pay back some technical debt on the codegen
+856,2020-06-24 18:22:45.000000000,2020-06-24 19:19:41.000000000,closed,2,Refactor some of the client code generation
+855,2020-06-24 18:08:08.000000000,2020-06-26 15:45:06.000000000,closed,0,Provide 'fake' responses for generated test clients
+854,2020-06-23 18:58:32.000000000,1970-01-01 00:00:00.000000001,open,13,Requests failing after going to background
+853,2020-06-20 17:45:05.000000000,2020-06-21 20:44:42.000000000,closed,1,watchOS support?
+852,2020-06-19 16:33:22.000000000,1970-01-01 00:00:00.000000001,open,15,Cgrpc keeps crashing randomly
+851,2020-06-19 15:21:50.000000000,2020-06-22 12:10:58.000000000,closed,2,fix Examples/Google pod install failed
+850,2020-06-18 23:21:02.000000000,2020-07-10 19:09:33.000000000,closed,5,Add keepalive handlers
+849,2020-06-18 19:56:08.000000000,2020-06-22 13:38:30.000000000,closed,0,Allow the connectivity state delegate queue to be specified
+848,2020-06-18 17:58:54.000000000,2020-06-24 13:47:33.000000000,closed,1,Stop sending requests in call init
+847,2020-06-18 14:59:11.000000000,2020-06-18 16:13:31.000000000,closed,0,Avoid race condition when scheduling a timeout
+846,2020-06-17 19:00:43.000000000,1970-01-01 00:00:00.000000001,open,11,Undefined Symbol Errors
+845,2020-06-17 16:32:26.000000000,2020-06-17 21:00:14.000000000,closed,3,Add default user-agent to header if customMetadata doesn't have one
+844,2020-06-17 12:59:08.000000000,1970-01-01 00:00:00.000000001,open,3,Support NIOTSNetworkEvents.WaitingForConnectivity
+843,2020-06-17 02:22:51.000000000,2020-06-25 01:20:41.000000000,closed,7,Keep-Alive and HTTP2 pings
+842,2020-06-16 19:39:39.000000000,2020-06-16 20:31:19.000000000,closed,1,Allow deadlines or timeouts to be set on RPCs
+841,2020-06-15 14:34:53.000000000,2020-06-15 15:33:57.000000000,closed,0,Make language more inclusive
+840,2020-06-11 13:54:57.000000000,2020-06-12 11:48:28.000000000,closed,2,Add 'isOk' to GRPCStatus
+839,2020-06-11 13:44:02.000000000,2020-06-11 14:13:15.000000000,closed,0,Turn the RequestIDProvider enum into a struct
+838,2020-06-10 20:19:54.000000000,2020-06-10 22:08:37.000000000,closed,0,"Update dependencies, rebuild .podspec files"
+837,2020-06-10 17:46:35.000000000,2020-06-10 19:22:54.000000000,closed,0,Generate conformances files containing a message are passed to the plugin
+836,2020-06-10 16:30:52.000000000,2020-06-25 09:23:20.000000000,closed,6,GRPCStatus and Error States
+835,2020-06-10 13:14:05.000000000,2020-06-10 20:00:37.000000000,closed,7,Update CocoaPods for alpha13.
+834,2020-06-10 12:25:12.000000000,2020-06-16 11:58:00.000000000,closed,0,Provide an internal transport abstraction for client rpcs
+833,2020-06-09 16:36:14.000000000,2020-06-09 17:02:46.000000000,closed,0,Ignore additional state changes after expecations have been met
+832,2020-06-09 15:08:09.000000000,2020-06-09 17:03:19.000000000,closed,1,Update CI
+831,2020-06-09 13:35:21.000000000,2020-06-17 12:59:36.000000000,closed,12,Detecting request failure when offline/no connection
+830,2020-06-09 05:16:19.000000000,2020-06-18 23:17:42.000000000,closed,3,Add workflow to deploy podspecs once a release is created
+829,2020-06-09 01:40:56.000000000,1970-01-01 00:00:00.000000001,open,11,Automate Podspec deployment with Github action
+828,2020-06-08 22:08:52.000000000,2020-06-10 11:38:54.000000000,closed,11,Updated Dependencies to use latest
+827,2020-06-08 17:48:18.000000000,2020-06-08 18:34:17.000000000,closed,0,Cache CI dependencies
+826,2020-06-06 16:54:02.000000000,2020-06-08 20:43:31.000000000,closed,1,workaround SR-12939
+825,2020-06-05 16:54:41.000000000,2020-06-08 10:54:08.000000000,closed,0,Revert #782 and suppress warnings
+824,2020-06-05 16:44:03.000000000,2020-06-08 14:35:53.000000000,closed,0,Make idle timeout configurable
+823,2020-06-05 15:45:54.000000000,2020-06-08 12:43:46.000000000,closed,3,"SpeechToText example does not compile due to ""Type 'Google_Protobuf_Empty' does not conform to protocol 'GRPCPayload'"""
+822,2020-06-05 15:24:51.000000000,2020-06-09 11:11:57.000000000,closed,7,Archive Failing on Xcode 11.4 / 11.5
+821,2020-06-04 19:39:53.000000000,2020-06-12 11:48:28.000000000,closed,2,"Consider internalising the convenience ""commonly used"" statuses"
+820,2020-06-04 18:17:37.000000000,2020-06-11 13:58:16.000000000,closed,2,`swift run --repl` fails
+819,2020-06-04 01:33:32.000000000,2020-06-09 00:55:32.000000000,closed,13,Best Practices for iOS
+818,2020-06-01 14:00:44.000000000,2020-06-03 20:26:12.000000000,closed,1,Add a server-idle handler
+817,2020-05-31 06:16:36.000000000,2020-07-02 19:56:03.000000000,closed,4,Clarify where `make plugins` is intended to be run from
+816,2020-05-28 21:25:03.000000000,2020-05-29 21:41:40.000000000,closed,2,How to set metadata to a service?
+815,2020-05-27 16:44:55.000000000,2020-05-27 18:59:44.000000000,closed,0,Fix up test using connectivity state delegate
+814,2020-05-27 12:50:12.000000000,2020-05-27 14:50:32.000000000,closed,1,Add high level differences between 1.x and 0.y to README
+813,2020-05-26 19:02:28.000000000,2020-05-27 12:09:57.000000000,closed,4,How do you get a status code from an error?
+812,2020-05-26 16:51:43.000000000,2020-05-29 12:25:43.000000000,closed,0,Update GitHub issue templates
+811,2020-05-26 14:53:10.000000000,2020-05-26 16:07:02.000000000,closed,1,Provide conformance for messages provided by SwiftProtobuf
+810,2020-05-26 12:22:44.000000000,2020-05-26 12:26:27.000000000,closed,1,protoc-gen-swiftgrpc: program not found or is not executable
+809,2020-05-25 15:11:42.000000000,2020-05-25 15:27:55.000000000,closed,4,ld: framework not found GRPCClient
+808,2020-05-22 13:52:19.000000000,1970-01-01 00:00:00.000000001,open,4,"Should we document ""moving from CgRPC to NIO"" in the README?"
+807,2020-05-22 13:03:45.000000000,2020-05-22 13:59:48.000000000,closed,0,Update Cocoapods to 0.11.0.
+806,2020-05-22 11:42:52.000000000,2020-05-22 12:17:23.000000000,closed,3,Update our issue templates
+805,2020-05-21 23:14:47.000000000,2020-05-22 13:59:48.000000000,closed,14,Error in imports in the generated files (iOS).
+804,2020-05-21 21:42:51.000000000,2020-05-22 12:26:46.000000000,closed,2,Update CgRPC to v1.24.3
+803,2020-05-20 21:25:18.000000000,2020-05-22 13:04:30.000000000,closed,4,Security Issue in 0.10.0 dependency
+802,2020-05-20 17:53:15.000000000,2020-08-17 14:16:30.000000000,closed,12,Include Plugins in Cocoapods checkout
+801,2020-05-20 14:34:04.000000000,2020-05-26 16:11:36.000000000,closed,11,Conformance to GRPCProtobufPayload generates wrong code when using `ProtoPathModuleMappings` option
+800,2020-05-18 19:20:59.000000000,2020-06-24 18:09:44.000000000,closed,5,[draft] client test stubs
+799,2020-05-15 18:20:27.000000000,2020-06-08 16:40:27.000000000,closed,1,"Run tests with TSAN where available, add macOS CI for Swift 5.2"
+798,2020-05-15 16:12:59.000000000,2020-05-21 13:24:22.000000000,closed,4,Rewrite client connection management
+797,2020-05-14 15:01:35.000000000,2020-05-14 16:18:40.000000000,closed,0,docs: add ProtoPathModuleMappings to the plugin options list
+796,2020-05-14 13:55:20.000000000,2020-05-14 20:51:09.000000000,closed,0,do not add own module import in generated code
+795,2020-05-14 13:13:25.000000000,2020-05-14 16:18:40.000000000,closed,5,gen-grpc-swift: allow generating code in different modules
+794,2020-05-14 12:20:13.000000000,2020-05-14 13:21:45.000000000,closed,0,grpc-swift: generate only requested files
+793,2020-05-13 21:19:24.000000000,2020-05-14 10:19:25.000000000,closed,5,Release missing on CocoaPods
+792,2020-05-13 19:09:30.000000000,2020-05-13 20:08:03.000000000,closed,0,Update build_podspecs script and re-run
+791,2020-05-13 18:07:47.000000000,2020-05-13 19:26:12.000000000,closed,1,Log errors from the server channel.
+790,2020-05-13 15:05:27.000000000,2020-05-13 16:12:56.000000000,closed,0,Fix pushing CocoaPods.
+789,2020-05-13 14:35:08.000000000,2020-05-14 12:02:19.000000000,closed,8,CGRPCZlib podspec have wrong LICENSE filename
+788,2020-05-12 04:44:44.000000000,2020-05-12 12:27:30.000000000,closed,3,Cannot connect to bidirectional stream 
+787,2020-05-11 21:11:13.000000000,2020-06-08 16:51:09.000000000,closed,2,flaky test: GRPCTests.FunctionalTestsAnonymousClientNIOTS testBidirectionalStreamingBatched
+786,2020-05-09 03:47:43.000000000,2020-06-02 12:07:02.000000000,closed,4,Make HTTP/2 flow control window size configurable for clients and servers
+785,2020-05-08 13:29:15.000000000,1970-01-01 00:00:00.000000001,open,5,Call Interceptor functionality
+784,2020-05-07 14:48:33.000000000,2020-05-11 14:20:42.000000000,closed,0,Add a retry limit to ConnectionBackoff
+783,2020-05-06 13:28:06.000000000,2020-05-11 14:20:41.000000000,closed,3,Limit retry count on connection transientFailure
+782,2020-05-04 20:07:41.000000000,2020-05-04 20:32:25.000000000,closed,0,Suppress #file/#filePath warnings on recent compilers
+781,2020-05-04 11:12:20.000000000,2020-05-04 14:15:03.000000000,closed,3,Discard excess read bytes in LengthPrefixedMessageReader.
+780,2020-05-04 10:15:24.000000000,2020-07-03 13:22:53.000000000,closed,4,Mocking the Client Service 
+779,2020-05-02 01:28:32.000000000,2020-05-04 14:15:03.000000000,closed,9,"Streaming rate drops, ByteBuffer reallocs increases"
+778,2020-04-30 16:24:44.000000000,2020-06-01 13:34:53.000000000,closed,3,Redundant GRPCProtobufPayload conformance
+777,2020-04-30 15:49:55.000000000,2020-05-06 18:20:34.000000000,closed,13,Using NIOTSEventLoopGroup results in connection error
+776,2020-04-29 16:39:28.000000000,2020-05-15 17:36:25.000000000,closed,4,Bidirectional Streaming iOS Example
+775,2020-04-18 20:32:54.000000000,2020-04-20 12:20:34.000000000,closed,0,Provide Pod Specific Descriptions and Script Cleanup
+774,2020-04-13 22:52:49.000000000,2020-04-14 12:22:36.000000000,closed,1,Bump version to 1.0.0-alpha.11
+773,2020-04-09 16:16:13.000000000,2020-04-09 16:20:59.000000000,closed,1,Access custom Metadata on Server
+772,2020-04-08 08:01:14.000000000,2020-04-24 01:46:38.000000000,closed,4,Update gRPC-Swift macOS deployment target to match SwiftNIOHTTP2 & SwiftNIOTransportServices
+771,2020-04-08 07:53:42.000000000,2020-04-08 22:12:54.000000000,closed,4,CocoaPods validation failure
+770,2020-04-06 15:37:00.000000000,2020-04-06 23:55:00.000000000,closed,4,Support for custom ChannelHandlers
+769,2020-03-31 19:00:32.000000000,2020-03-31 19:07:13.000000000,closed,0,Point build badge to master branch
+768,2020-03-29 08:59:25.000000000,1970-01-01 00:00:00.000000001,open,9,Question: Server Reflection Support?
+767,2020-03-27 19:05:39.000000000,2020-04-09 01:00:48.000000000,closed,3,Contribution for CocoaPods Support on NIO implementation
+766,2020-03-26 02:50:13.000000000,2020-04-07 12:03:53.000000000,closed,9,Question: Integrating Performance Monitoring & Request Timing
+765,2020-03-25 19:14:33.000000000,2020-03-25 19:18:49.000000000,closed,0,Change Swift 5.2 development to release for CI
+764,2020-03-24 21:46:29.000000000,2020-04-07 18:00:05.000000000,closed,11,Add Cocoapod Support for SwiftGRPC
+763,2020-03-24 21:24:13.000000000,1970-01-01 00:00:00.000000001,open,0,Lower level API with manual flow control support
+762,2020-03-24 19:39:11.000000000,2020-07-03 16:03:11.000000000,closed,10,Added trailing HTTPHeaders for custom error reporting
+761,2020-03-24 15:59:54.000000000,2020-03-24 16:02:14.000000000,closed,2,Remove required platforms from SPM
+760,2020-03-24 14:31:35.000000000,2020-03-24 14:58:59.000000000,closed,1,Added .git ending for `swift-log`
+759,2020-03-23 02:32:02.000000000,2020-03-25 13:19:59.000000000,closed,6,How to get the error status with details
+758,2020-03-21 00:43:58.000000000,2020-06-01 13:34:40.000000000,closed,3,CallOptions custom timeout bug
+757,2020-03-19 17:34:58.000000000,2020-06-08 16:40:26.000000000,closed,1,Enable TSAN in tests
+756,2020-03-19 17:32:00.000000000,2020-06-08 16:51:30.000000000,closed,1,threading issue in/shown by GRPCTests.ClientConnectionBackoffTests testClientEventuallyConnects
+755,2020-03-19 17:29:59.000000000,2020-03-19 19:14:31.000000000,closed,1,Update README.md
+754,2020-03-19 17:14:01.000000000,2020-03-19 19:14:29.000000000,closed,0,Update CI to point to master
+753,2020-03-19 17:11:43.000000000,2020-03-19 17:12:37.000000000,closed,0,Revert #745 on master.
+752,2020-03-17 20:46:48.000000000,2020-03-17 21:42:23.000000000,closed,0,Add a server builder
+751,2020-03-17 13:30:23.000000000,2020-03-18 04:35:25.000000000,closed,11,Getting `cardinalityViolation` and `isOnClosedChannel` when trying to send new request
+750,2020-03-13 17:25:10.000000000,2020-03-13 18:27:31.000000000,closed,0,Update CI
+749,2020-03-13 17:20:48.000000000,2020-03-13 17:32:11.000000000,closed,0,Update README with Swift 5.2 dependency instructions
+748,2020-03-13 16:58:33.000000000,2020-03-13 17:22:44.000000000,closed,0,Replace usage of ClientConnection.init with builders
+747,2020-03-13 12:10:14.000000000,2020-03-13 14:55:49.000000000,closed,5,[nio] Initialize generic GRPCClient
+746,2020-03-12 21:41:55.000000000,1970-01-01 00:00:00.000000001,open,4,Metadata.add Memory Leak
+745,2020-03-12 21:32:22.000000000,2020-03-19 16:59:50.000000000,closed,1,Add a notice to the nio branch
+744,2020-03-12 21:19:24.000000000,2020-03-19 16:59:33.000000000,closed,0,"Redirect users to master, update build-badge to point to the cgrpc br…"
+743,2020-03-11 19:50:20.000000000,2020-03-13 13:39:07.000000000,closed,1,Generate documentation from proto comments
+742,2020-03-10 15:51:09.000000000,2020-03-11 14:35:33.000000000,closed,7,Q about syncShutdownGracefully
+741,2020-03-09 22:24:30.000000000,2020-03-10 22:17:23.000000000,closed,1,Pause and resume streaming?
+740,2020-03-09 16:51:30.000000000,2020-03-10 22:19:21.000000000,closed,5,Avoid generating multiple conformances to GRPCProtobufPayload
+739,2020-03-08 09:06:47.000000000,2020-03-10 05:51:25.000000000,closed,3,Using `*.crt` file as Certificate using `nio` branch
+738,2020-03-07 14:56:05.000000000,2020-03-10 22:19:35.000000000,closed,1,GRPCProtobufPayload issue with import proto in another proto
+737,2020-03-07 14:14:22.000000000,2020-03-07 17:20:38.000000000,closed,1,Remove init() method from generated struts from message
+736,2020-03-06 20:13:17.000000000,2020-03-06 20:57:25.000000000,closed,1,Rename generated clients from FooServiceClient to FooClient
+735,2020-03-06 17:54:07.000000000,2020-03-10 22:17:44.000000000,closed,2,Service naming
+734,2020-03-04 15:36:54.000000000,2020-03-04 16:21:35.000000000,closed,0,Update Swift 5.2 development build
+733,2020-03-03 22:09:21.000000000,2020-03-06 19:15:56.000000000,closed,0,Configure client connections with a builder
+732,2020-03-01 20:39:40.000000000,2020-03-02 18:54:26.000000000,closed,16,Using `nio` branch: `module 'SwiftProtobuf' has a minimum deployment target of iOS 13.2`
+731,2020-02-28 19:40:03.000000000,2020-02-28 19:47:37.000000000,closed,0,Add SSWG badge to README
+730,2020-02-28 19:31:34.000000000,2020-03-06 19:41:06.000000000,closed,0,Normalize user-provided headers
+729,2020-02-27 21:33:20.000000000,2020-02-28 18:02:47.000000000,closed,1,Add a decompression limit
+728,2020-02-26 18:40:52.000000000,2020-02-26 18:52:00.000000000,closed,0,Update Swift development version in CI
+727,2020-02-25 18:43:08.000000000,2020-02-26 15:37:22.000000000,closed,1,Put the client connection behind a protocol
+726,2020-02-19 15:06:30.000000000,1970-01-01 00:00:00.000000001,open,0,Archiving with xcodebuild fails
+725,2020-02-18 14:09:08.000000000,2020-03-19 17:17:29.000000000,closed,2,TCP connection seems closed after one successful GRPC call
+724,2020-02-15 20:29:06.000000000,2020-02-24 15:30:18.000000000,closed,1,Fixed basic tutorial typo
+723,2020-02-14 12:38:55.000000000,1970-01-01 00:00:00.000000001,open,5,Certificate pinning with NIO?
+722,2020-02-12 22:30:49.000000000,2020-03-06 19:41:33.000000000,closed,4,Setting CallOptions.customMetadata doesn't lowercase the set headers
+721,2020-02-12 12:35:41.000000000,2020-02-24 15:56:17.000000000,closed,16,Swift Package Manager 5.1.0 missing SwiftGRPC on Import
+720,2020-02-10 16:15:53.000000000,2020-02-10 16:56:51.000000000,closed,2,Use metadata in log messages
+719,2020-02-07 22:23:34.000000000,2020-02-10 18:40:38.000000000,closed,2,Add tests for custom payloads
+718,2020-02-07 18:50:42.000000000,2020-02-07 19:26:10.000000000,closed,0,Update CI versions
+717,2020-02-06 19:26:05.000000000,2020-02-06 22:59:37.000000000,closed,0,Reorder some of the server logic.
+716,2020-02-06 14:47:27.000000000,2020-02-06 18:06:00.000000000,closed,3,"TLS handshake completed, no protocol negotiated"
+715,2020-01-31 03:04:39.000000000,2020-02-03 14:27:57.000000000,closed,1,Support for Cronet in grpc-swift
+714,2020-01-30 19:46:05.000000000,2020-02-10 18:56:13.000000000,closed,0,Support compression on the server
+713,2020-01-30 19:16:53.000000000,2020-01-31 13:11:00.000000000,closed,0,Update minimum NIO version
+712,2020-01-29 10:11:11.000000000,1970-01-01 00:00:00.000000001,open,7,How to prevent sending request after an error occurred?
+711,2020-01-28 15:51:00.000000000,1970-01-01 00:00:00.000000001,open,7,Production readiness and 1.0 version tagging
+710,2020-01-28 12:55:17.000000000,2020-02-04 17:00:24.000000000,closed,6,Adds the ability to use different payloads
+709,2020-01-25 23:12:37.000000000,2020-01-27 15:15:27.000000000,closed,1,New ios framework error
+708,2020-01-24 22:59:45.000000000,2020-02-04 18:15:27.000000000,closed,5,Add support for Flatbuffers
+707,2020-01-24 21:01:37.000000000,2020-01-29 17:53:00.000000000,closed,3,Add support for compression on the client
+706,2020-01-23 16:37:37.000000000,2020-06-03 20:26:12.000000000,closed,1,Close client connection when it becomes idle
+705,2020-01-23 16:05:57.000000000,2020-01-24 15:52:03.000000000,closed,2,How to suspend receiving from ServerStreamingCall on iOS app?
+704,2020-01-23 15:11:19.000000000,2020-01-23 15:27:16.000000000,closed,0,Update Swift 5.2 development build
+703,2020-01-22 20:38:18.000000000,2020-01-27 15:15:08.000000000,closed,3,is using grpc swift in a binary ios framework a supported  use case
+702,2020-01-17 14:25:07.000000000,2020-01-21 14:30:30.000000000,closed,1,Fix bug with BoringSSLError.invalidSNIName exception
+701,2020-01-16 15:11:33.000000000,2020-01-16 15:35:09.000000000,closed,0,Update alpha version in docs
+700,2020-01-16 00:26:40.000000000,2020-01-17 01:03:02.000000000,closed,7,nio error  too many files open
+699,2020-01-15 21:47:55.000000000,2020-01-15 22:18:21.000000000,closed,0,Document how to create certificates/private keys from a string
+698,2020-01-15 15:34:52.000000000,2020-01-15 15:45:30.000000000,closed,2,Update Swift 5.2 development snapshot.
+697,2020-01-15 09:57:51.000000000,2020-01-20 10:29:21.000000000,closed,2,"NIO: example for using secure connection (cert from string, adding metadata)"
+696,2020-01-13 16:45:25.000000000,2020-01-13 17:18:32.000000000,closed,0,Add supported platforms to Package.swift
+695,2020-01-13 15:46:14.000000000,2020-01-13 18:28:59.000000000,closed,4,Remove fix-project-settings.rb references from Makefile
+694,2020-01-12 20:46:36.000000000,2020-01-15 10:20:52.000000000,closed,3,grpc: no transport security set
+693,2020-01-11 16:55:05.000000000,2020-02-07 19:12:28.000000000,closed,4,[nio] minor issue with project initialization
+692,2020-01-08 22:40:25.000000000,2020-01-09 14:38:50.000000000,closed,1,Remove outdated examples/documentation
+691,2020-01-08 19:38:34.000000000,2020-01-09 14:38:19.000000000,closed,1,Update CI to run Swift 5.2 development snapshot
+690,2020-01-08 18:33:58.000000000,2020-01-09 14:38:57.000000000,closed,0,"Rename asGRPCStatus() to makeGRPCStatus(), add documentation."
+689,2020-01-08 17:03:58.000000000,2020-01-08 18:30:32.000000000,closed,0,Make GRPCTimeout extensible and add documentation.
+688,2020-01-08 17:00:32.000000000,2020-01-08 18:41:48.000000000,closed,0,Simplify compression representation.
+687,2020-01-08 16:53:53.000000000,2020-01-08 16:58:13.000000000,closed,1,[NIO] SwiftPM Xcode
+686,2020-01-07 22:18:27.000000000,2020-01-07 22:18:49.000000000,closed,0,Fixup license checking script
+685,2020-01-07 20:56:57.000000000,2020-01-07 22:45:48.000000000,closed,2,Updating TLSVerificationHandler
+684,2020-01-06 12:20:49.000000000,2020-01-08 06:40:54.000000000,closed,6,Cant find protoc-gen-grpc-swift when upgrading to NIO branch.
+683,2020-01-03 21:36:57.000000000,1970-01-01 00:00:00.000000001,open,27,error: missing required module 'CNIOAtomics' 
+682,2019-12-21 00:27:26.000000000,2020-01-08 15:47:06.000000000,closed,1,SwiftGrpc Swift Package Manager compile fix
+681,2019-12-20 17:38:06.000000000,2019-12-20 21:59:40.000000000,closed,1,"Fix typo in the ""grpc-exp"" ALPN name"
+680,2019-12-20 16:51:22.000000000,2020-01-08 15:20:33.000000000,closed,11,[tls] negotiating application protocol invalid
+679,2019-12-20 01:57:28.000000000,2019-12-20 06:46:29.000000000,closed,2,migrating from .0.10 to 1.0.0-alpha.6
+678,2019-12-20 00:33:09.000000000,2019-12-20 06:46:55.000000000,closed,0,im unable to get the example to compile on 1.0.0-alpha.8 
+677,2019-12-19 20:39:05.000000000,2020-01-06 17:01:32.000000000,closed,2,Add toggle for time-sensitive tests.
+676,2019-12-19 19:51:28.000000000,2019-12-19 20:39:24.000000000,closed,0,log channel readiness and eventloop for debugging
+675,2019-12-19 19:37:35.000000000,2019-12-19 21:15:14.000000000,closed,0,Make GRPCClientUserEvent internal
+674,2019-12-19 19:36:29.000000000,2019-12-19 21:15:25.000000000,closed,0,Make LengthPrefixedMessageReader internal
+673,2019-12-19 19:33:17.000000000,2019-12-20 21:00:50.000000000,closed,0,Make LengthPrefixedMessageWriter internal
+672,2019-12-19 19:31:56.000000000,2019-12-19 22:15:49.000000000,closed,0,Make server request/response parts internal
+671,2019-12-19 19:23:39.000000000,2019-12-19 20:44:12.000000000,closed,0,Make client request/response parts internal
+670,2019-12-19 18:59:53.000000000,2019-12-19 20:43:59.000000000,closed,0,Use most recent Swift versions in CI
+669,2019-12-19 18:56:24.000000000,2020-01-08 15:59:16.000000000,closed,6,Make gRPC error types extensible
+668,2019-12-18 16:18:41.000000000,2019-12-18 17:13:44.000000000,closed,1,Update README.md
+667,2019-12-17 14:29:19.000000000,2019-12-18 16:26:15.000000000,closed,4,SPM question
+666,2019-12-16 17:34:56.000000000,2019-12-16 19:53:49.000000000,closed,0,Make header names internal
+665,2019-12-16 17:33:09.000000000,2019-12-16 19:54:09.000000000,closed,0,Make GRPCApplicationProtocolIdentifier internal
+664,2019-12-16 17:31:16.000000000,2019-12-16 22:56:10.000000000,closed,0,Make WebCORSHandler internal
+663,2019-12-16 17:29:34.000000000,2020-02-07 22:26:49.000000000,closed,0,Make Server*ResponseCallContextImpl internal
+662,2019-12-16 17:19:21.000000000,2019-12-16 22:55:34.000000000,closed,3,Make GRPCClientChannelHandler underscore internal
+661,2019-12-16 17:16:46.000000000,2019-12-16 21:27:59.000000000,closed,1,Make HTTPProtocolSwitcher internal
+660,2019-12-16 17:14:29.000000000,2019-12-16 21:27:38.000000000,closed,0,Make GRPCServerCodec internal
+659,2019-12-16 17:12:15.000000000,2019-12-16 21:27:12.000000000,closed,0,Make TLSVerificationHandler internal
+658,2019-12-16 17:09:30.000000000,2019-12-16 21:26:41.000000000,closed,2,Make DelegatingErrorHandler underscored-internal
+657,2019-12-16 16:59:43.000000000,2019-12-16 22:56:42.000000000,closed,2,Make server CallHandlers more internal
+656,2019-12-14 14:12:30.000000000,2019-12-20 15:51:10.000000000,closed,1,"Attempt to build a maintain request, but just receive response once"
+655,2019-12-12 20:38:16.000000000,1970-01-01 00:00:00.000000001,open,0,Ubuntu 19.10/swift 5.1 build failure
+654,2019-12-11 17:06:07.000000000,2019-12-11 21:11:43.000000000,closed,0,Allow client error delegate to have a logger injected
+653,2019-12-11 15:44:45.000000000,2019-12-11 16:54:32.000000000,closed,4,Reduce allocations in the GRPCClientStateMachine
+652,2019-12-11 02:03:15.000000000,2019-12-11 23:05:28.000000000,closed,6,PlatformSupport - Thread 1: signal SIGABRT
+651,2019-12-10 20:38:31.000000000,2019-12-10 21:24:08.000000000,closed,0,Don't log at info level
+650,2019-12-10 20:15:13.000000000,2019-12-10 20:50:05.000000000,closed,0,Ignore SSL unclean shutdown errors
+649,2019-12-10 19:32:22.000000000,2019-12-10 19:44:41.000000000,closed,0,Update dependencies
+648,2019-12-09 19:57:28.000000000,2020-01-06 17:31:25.000000000,closed,3,Metadata binary value support
+647,2019-12-09 15:57:21.000000000,2019-12-09 16:43:01.000000000,closed,0,Build protoc plugins in release mode
+646,2019-12-04 02:41:12.000000000,1970-01-01 00:00:00.000000001,open,0,Still getting memory crashes in NSOperationQueue (QOS: UNSPECIFIED) EXC_BAD_ACCESS 0x0000000000000000
+645,2019-12-02 20:34:11.000000000,2019-12-04 16:29:33.000000000,closed,5,Implement status message encoding and decoding without Foundation
+644,2019-12-02 20:28:11.000000000,2019-12-03 20:57:03.000000000,closed,1,Percent encoding benchmark
+643,2019-12-02 15:53:13.000000000,2019-12-04 15:06:34.000000000,closed,2,Fix compile issues in Google/NaturalLanguage
+642,2019-11-30 11:37:47.000000000,2019-12-19 20:39:59.000000000,closed,6,Examples/Google/NaturalLanguage does not compile
+641,2019-11-29 22:25:15.000000000,2019-12-02 15:54:41.000000000,closed,0,Refactor benchmarks to be more flexible
+640,2019-11-25 14:42:40.000000000,2019-11-25 15:29:09.000000000,closed,0,Update minimum required version of SwiftNIO SSL
+639,2019-11-24 20:09:12.000000000,2020-02-10 18:46:07.000000000,closed,4,NIO: Custom encoder / decoder for proto messages
+638,2019-11-21 17:01:36.000000000,2020-02-10 18:41:31.000000000,closed,0,Decode SwiftProtobuf messages with ContiguousBytes
+637,2019-11-20 13:20:19.000000000,2019-11-26 16:30:20.000000000,closed,1,Correctly set the authority to the host rather than scheme
+636,2019-11-16 15:35:23.000000000,2020-07-27 13:55:05.000000000,closed,7,[nio] Provide option to return additional trailing metadata in ServerErrorDelegate.transformRequestHandlerError
+635,2019-11-15 04:15:01.000000000,2019-11-15 05:54:23.000000000,closed,2,Add an configuration option to switch between HTTP & HPACK headers
+634,2019-11-13 19:44:49.000000000,2019-11-14 00:09:23.000000000,closed,1,Require a lock to access the connectivity state delegate
+633,2019-11-13 19:29:13.000000000,2019-11-13 23:20:14.000000000,closed,1,Inline service name into the generated path
+632,2019-11-13 18:58:08.000000000,2019-11-13 23:19:54.000000000,closed,0,Reduce logging verbosity
+631,2019-11-13 17:34:05.000000000,2019-11-21 13:47:29.000000000,closed,2,Retain the client call in async calls until we have received a response.
+630,2019-11-13 16:35:24.000000000,2019-11-13 18:19:30.000000000,closed,1,Fix a crash when hitting a timeout while waiting for the next call.
+629,2019-11-13 15:35:56.000000000,2019-11-13 16:24:31.000000000,closed,0,Update CI to use more recent Swift versions
+628,2019-11-13 14:50:57.000000000,2020-06-11 19:45:23.000000000,closed,4,Should we reduce the amount of generated code?
+627,2019-11-13 14:48:29.000000000,2020-03-19 17:18:33.000000000,closed,4,Delete the Examples folder?
+626,2019-11-12 23:32:04.000000000,1970-01-01 00:00:00.000000001,open,3,[nio] think about API too offload protobuf decoding/encoding onto a separate thread
+625,2019-11-12 19:30:15.000000000,2019-11-13 15:35:01.000000000,closed,2,Update the client to use the new state machine backed channel handler
+624,2019-11-12 14:30:04.000000000,2019-11-13 13:36:56.000000000,closed,3,Client Streaming response handling when server calls onComplete by itself
+623,2019-11-09 06:05:38.000000000,2019-11-10 08:48:54.000000000,closed,3,[nio] Crash within swift-nio causing issues.
+622,2019-11-08 16:08:06.000000000,2019-11-21 16:57:54.000000000,closed,0,"[nio] TSan data race reported in ""GRPCTests.ClientConnectionBackoffTests testClientEventuallyConnects"""
+621,2019-11-06 20:48:23.000000000,2020-01-06 19:55:52.000000000,closed,5,"[nio] at least under TSan, flaky test GRPCTests.FunctionalTestsAnonymousClientNIOTS testBidirectionalStreamingLotsOfMessagesBatched"
+620,2019-11-06 18:45:51.000000000,2019-11-13 15:10:20.000000000,closed,3,Add a deprecation notice and plan
+619,2019-11-02 01:12:11.000000000,2019-11-13 16:38:57.000000000,closed,6,Getting memory crashes in NSOperationQueue  (QOS: UNSPECIFIED) EXC_BAD_ACCESS 0x0000000000000000
+618,2019-10-30 17:18:20.000000000,2019-11-05 18:28:31.000000000,closed,1,Use string comparison instead of regex in the HTTPProtocolSwitcher
+617,2019-10-30 01:03:52.000000000,2019-11-01 13:18:45.000000000,closed,1,[feature] HTTP/JSON Transcoding
+616,2019-10-28 14:50:44.000000000,2020-03-19 17:05:20.000000000,closed,0,Rebuild the Carthage project again.
+615,2019-10-28 12:54:13.000000000,2020-01-08 18:50:35.000000000,closed,15,0.10.0 build fails using Carthage
+614,2019-10-25 19:24:01.000000000,2020-03-19 17:15:15.000000000,closed,1,swift grpc Watch OS 6
+613,2019-10-24 16:16:47.000000000,2019-10-25 13:17:54.000000000,closed,11,Rebuild the Carthage project with Swift 5 for gRPC-Core 1.23.
+612,2019-10-24 16:10:43.000000000,2019-10-25 13:25:37.000000000,closed,0,"Update the Podspec for v0.10, with gRPC-Core 1.23 and Swift 5."
+611,2019-10-16 15:39:52.000000000,2020-03-19 17:16:49.000000000,closed,7,[nio] Provide support for gzip compression?
+610,2019-10-14 13:55:34.000000000,2019-10-28 20:18:19.000000000,closed,4,support Swift 5.1 on Linux
+609,2019-10-10 00:51:36.000000000,2019-10-25 18:01:06.000000000,closed,11,Build carthage-project on Xcode11
+608,2019-10-09 16:52:23.000000000,2019-10-10 13:39:56.000000000,closed,0,Workaround for SR-11564
+607,2019-10-09 10:53:15.000000000,2020-04-23 13:50:26.000000000,closed,2,Archiving for macOS Catalyst fails
+606,2019-10-09 10:23:12.000000000,2019-10-09 18:29:51.000000000,closed,3,Error in Podspec makes 0.9.1 version to fail when installing through cocoapods
+605,2019-10-08 01:39:02.000000000,2019-10-10 13:54:35.000000000,closed,16,EXC_BAD_INSTRUCTION in GRPC.ClientResponseChannelHandler.performTimeout
+604,2019-10-07 04:02:06.000000000,2019-10-10 19:19:26.000000000,closed,4,Carthage Build Fails
+603,2019-10-04 22:06:05.000000000,2019-10-07 19:21:43.000000000,closed,2,Is it possible update the Metadata values?
+602,2019-10-03 17:32:28.000000000,2019-10-07 12:51:03.000000000,closed,1,Reduce logging in the message reader
+601,2019-10-01 19:25:50.000000000,2019-10-25 13:26:26.000000000,closed,4,Provide a channel handler using the client state machine
+600,2019-09-30 19:19:39.000000000,2019-10-01 14:00:14.000000000,closed,1,Fix up markdown
+599,2019-09-30 14:04:00.000000000,1970-01-01 00:00:00.000000001,open,4,[feature] Client waiting for end-of-rpc is clunky
+598,2019-09-27 20:16:34.000000000,2019-09-30 15:10:42.000000000,closed,4,Add a RouteGuide example and tutorial
+597,2019-09-27 18:12:53.000000000,2020-03-13 18:25:24.000000000,closed,0,[feature] Generate RPC documentation from .proto source comments
+596,2019-09-27 14:57:08.000000000,2019-09-27 15:28:27.000000000,closed,2,Fix interoperability tests.
+595,2019-09-27 13:19:54.000000000,2019-09-27 13:21:27.000000000,closed,0,"Add/update GOVERNANCE.md, CODE-OF-CONDUCT.md and CONTRIBUTING.md"
+594,2019-09-27 01:13:16.000000000,2019-09-27 02:48:33.000000000,closed,0,"Add/update GOVERNANCE.md, CODE-OF-CONDUCT.md and CONTRIBUTING.md"
+593,2019-09-26 13:57:55.000000000,2019-09-27 15:01:37.000000000,closed,4,"Use ""swift run"" for interop tests in CI"
+592,2019-09-26 00:05:36.000000000,2019-09-26 13:24:01.000000000,closed,0,Remove unexported executables from products
+591,2019-09-25 23:41:38.000000000,2019-09-26 13:24:24.000000000,closed,1,Product names are not prefixed with GRPC
+590,2019-09-25 19:48:50.000000000,2019-09-27 16:31:16.000000000,closed,2,Add HelloWorld example
+589,2019-09-23 21:22:09.000000000,2019-09-24 12:06:35.000000000,closed,1,Add missing environment variable for interop tests
+588,2019-09-23 19:34:18.000000000,2019-09-23 20:17:19.000000000,closed,1,Run CI on Swift 5.1 and Swift 5.0
+587,2019-09-23 19:01:37.000000000,2019-09-23 20:17:06.000000000,closed,1,License header checking script
+586,2019-09-18 21:15:02.000000000,2019-09-19 12:53:58.000000000,closed,0,import FoundationNetworking if possible
+585,2019-09-17 20:29:15.000000000,2019-09-18 17:43:21.000000000,closed,1,Fix deprecation warnings
+584,2019-09-17 19:50:13.000000000,2019-09-17 20:07:29.000000000,closed,1,Rename the plugin: protoc-gen-swiftgrpc -> protoc-gen-grpc-swift
+583,2019-09-13 09:09:16.000000000,2019-09-17 19:28:36.000000000,closed,10,Swift 5 support
+582,2019-09-12 03:23:34.000000000,1970-01-01 00:00:00.000000001,open,7,[feature] In-process Transport
+581,2019-09-11 15:00:01.000000000,2020-02-07 19:07:54.000000000,closed,1,NIO Server does not correctly handle content-type
+580,2019-09-09 16:11:24.000000000,2019-09-24 19:10:56.000000000,closed,2,RPC state machine for client
+579,2019-09-06 18:23:30.000000000,2020-04-23 12:37:00.000000000,closed,1,Updated Dockerfile and docs
+578,2019-09-05 11:52:32.000000000,2019-09-05 13:36:39.000000000,closed,1,Explain platform support in the readme.
+577,2019-09-05 05:36:33.000000000,2019-09-05 11:49:22.000000000,closed,3,Does gRPC work on a macOS app?
+576,2019-09-04 13:15:23.000000000,2019-09-04 13:39:20.000000000,closed,2,Add MAINTAINERS.md. (#564)
+575,2019-09-03 15:19:44.000000000,2019-09-05 13:38:26.000000000,closed,3,Updated Dockerfile
+574,2019-09-03 14:48:18.000000000,2020-06-11 19:46:13.000000000,closed,8,Docker documentation is stale and inconsistent
+573,2019-09-03 13:00:29.000000000,2019-09-03 13:25:29.000000000,closed,2,Update minimum Swift NIO version
+572,2019-08-30 17:50:12.000000000,2019-09-02 19:42:06.000000000,closed,7,Separate trailers from GRPCStatus
+571,2019-08-30 15:20:45.000000000,2019-08-30 16:51:06.000000000,closed,1,Update Travis script
+570,2019-08-29 20:56:35.000000000,2019-08-30 14:47:39.000000000,closed,2,Replace Commander usage with our own CLI parsing
+569,2019-08-28 15:15:27.000000000,2019-08-28 15:56:01.000000000,closed,1,Allow timeouts to be rounded so they may comply with the spec
+568,2019-08-28 14:29:03.000000000,2019-08-28 15:32:49.000000000,closed,2,Update Swift packages
+567,2019-08-27 18:40:28.000000000,2019-08-28 13:50:09.000000000,closed,4,"Split the Echo example into model, implementation and runtime"
+566,2019-08-27 13:53:39.000000000,2019-09-09 17:21:51.000000000,closed,1,[NIO] Unexpected hangs on iOS 13 (17A5572a)
+565,2019-08-27 04:50:25.000000000,2019-11-13 16:58:18.000000000,closed,2,Errors not being passed for streaming services
+564,2019-08-26 23:56:49.000000000,2019-09-03 22:37:48.000000000,closed,2,Add MAINTAINERS.md
+563,2019-08-25 10:42:14.000000000,2019-09-02 17:37:00.000000000,closed,14,Update vendored gRPC-core to v1.23.0
+562,2019-08-22 19:05:58.000000000,2019-08-23 11:18:04.000000000,closed,0,Always use the same event loop for a client connection
+561,2019-08-22 14:25:01.000000000,2019-08-27 15:58:38.000000000,closed,1,Update CI to run interoperability tests.
+560,2019-08-21 19:05:46.000000000,2019-08-22 14:24:35.000000000,closed,0,Update CI to run interoperability tests.
+559,2019-08-20 13:55:33.000000000,2019-08-20 14:04:51.000000000,closed,0,Bump required version of NIOSSL
+558,2019-08-19 20:55:26.000000000,2019-08-20 11:33:15.000000000,closed,0,Update linux/mac versions for CI
+557,2019-08-19 19:42:15.000000000,2019-08-20 13:14:23.000000000,closed,1,Add the connection backoff interop test
+556,2019-08-19 16:32:14.000000000,2019-08-19 17:04:14.000000000,closed,0,Move generated interoperability test models to their own target.
+555,2019-08-16 16:33:34.000000000,2019-08-16 17:32:19.000000000,closed,1,Use protoToModuleMappings in input/output names.
+554,2019-08-15 20:26:29.000000000,2019-08-19 13:10:50.000000000,closed,2,Make the backoff infinite
+553,2019-08-15 18:02:46.000000000,2019-08-16 18:09:02.000000000,closed,4,Use protoToModuleMappings in input/output names.
+552,2019-08-15 17:08:38.000000000,2019-08-16 13:17:56.000000000,closed,2,Use a bi-directional stream to receive continuous data updates
+551,2019-08-15 16:38:19.000000000,2019-08-19 13:54:42.000000000,closed,1,Fix thread-safety issue in tests
+550,2019-08-15 03:00:09.000000000,2019-12-20 15:52:48.000000000,closed,1,GRPC connecting over Tor
+549,2019-08-14 13:58:05.000000000,2019-08-14 14:33:46.000000000,closed,0,Disable logging in tests for CI only
+548,2019-08-14 12:46:04.000000000,2019-08-14 12:48:02.000000000,closed,0,Update minimum HTTP/2 version
+547,2019-08-13 17:33:28.000000000,2019-08-19 13:02:02.000000000,closed,1,Add Server logging
+546,2019-08-13 13:21:10.000000000,2019-08-13 13:24:48.000000000,closed,1,Fix typos in README
+545,2019-08-12 18:52:57.000000000,2019-08-12 20:38:48.000000000,closed,9,"Xcode build error BoringSSL-GRPC ""use of undeclared identifier 'SSL_get_secure_renegotiation_support'; did you mean 'GRPC_SHADOW_SSL_get_secure_renegotiation_support'?"""
+544,2019-08-12 17:17:57.000000000,2019-08-12 17:57:49.000000000,closed,0,Remove unused 'serverHandler' parameter for generated server code
+543,2019-08-06 14:11:49.000000000,2020-04-23 12:36:49.000000000,closed,3,Notify state change for initial state
+542,2019-08-05 18:37:14.000000000,2019-08-06 13:02:08.000000000,closed,5,SwiftGrpc crashes on iOS simulator
+541,2019-08-05 17:45:16.000000000,2019-08-09 23:13:47.000000000,closed,5,iOS support 1.0.0-alpha.2
+540,2019-08-05 14:57:50.000000000,2019-08-05 15:28:21.000000000,closed,1,generated grpc.swift failed
+539,2019-08-02 18:29:00.000000000,1970-01-01 00:00:00.000000001,open,0,[nio] Provide more flexibility for server streaming contexts to send messages
+538,2019-08-02 17:34:42.000000000,2019-08-05 16:39:26.000000000,closed,6,Add sendMessages and flush to StreamingRequestClientCall
+537,2019-08-01 18:44:58.000000000,2019-08-06 13:24:39.000000000,closed,1,[nio] StreamingRequestClientCall should have a flush() / sendMessages()
+536,2019-07-31 14:21:03.000000000,2019-08-27 13:22:50.000000000,closed,12,How to make self signed certificate work with ios
+535,2019-07-30 10:43:30.000000000,2019-07-30 12:48:45.000000000,closed,5,Fix building for 32-bit architectures. Fix Int overflow.
+534,2019-07-29 23:11:53.000000000,2019-07-30 12:49:03.000000000,closed,4,"Archive failed in Xcode 11 (""nio"" package added) with arithmetic operations overflow."
+533,2019-07-29 11:27:40.000000000,2019-07-29 19:05:32.000000000,closed,7,Disable static stdlib linking.
+532,2019-07-28 00:48:28.000000000,2019-07-29 22:28:54.000000000,closed,3,Linking issues when running 'make plugin'
+531,2019-07-26 13:39:42.000000000,2019-07-26 14:06:00.000000000,closed,0,Fix typo in metadata key for server-hostname
+530,2019-07-26 02:37:51.000000000,1970-01-01 00:00:00.000000001,open,5,Callback not getting called from ClientNetworkMonitor cellularDidChange method
+529,2019-07-25 18:58:07.000000000,2019-07-25 21:47:18.000000000,closed,3,Delay marking connection as .ready until receiving initial settings f…
+528,2019-07-24 19:03:52.000000000,2019-07-25 19:38:25.000000000,closed,2,Fallback to the hostname for TLS if a hostname override isn't provided
+527,2019-07-24 15:25:06.000000000,2019-07-24 16:53:53.000000000,closed,0,Unset connectivity delegate during tearDown in connectivity tests
+526,2019-07-24 14:09:04.000000000,2020-03-19 17:17:53.000000000,closed,28,"[discussion] Deprecating ""SwiftGRPC"" / switching to the NIO version"
+525,2019-07-23 21:53:44.000000000,2019-11-13 18:19:29.000000000,closed,1,EXC_BAD_ACCESS after queue timeout
+524,2019-07-23 20:45:15.000000000,2019-07-24 10:21:36.000000000,closed,0,Use EmbeddedChannel for client timeout tests
+523,2019-07-23 17:27:36.000000000,2019-07-25 19:37:32.000000000,closed,3,Delay creating event observers for client streaming calls
+522,2019-07-23 14:05:28.000000000,2019-07-24 18:16:29.000000000,closed,0,Rename GRPCNIO to PlatformSupport
+521,2019-07-23 13:49:30.000000000,2019-07-24 18:16:04.000000000,closed,3,Make recording state in tests thread-safe
+520,2019-07-22 20:57:33.000000000,2019-07-25 21:50:29.000000000,closed,9,Client streaming RPC implementation: Cannot call context.responsePromise.fail() outside of the EventLoopFuture
+519,2019-07-22 18:48:12.000000000,2019-07-25 21:50:34.000000000,closed,1,NIO client declares itself as `.ready` too soon
+518,2019-07-22 17:55:59.000000000,2019-07-23 14:08:10.000000000,closed,4,avoid conformance error surfacing when SwiftUI Preview builds tests
+517,2019-07-21 21:51:56.000000000,2019-07-27 23:04:31.000000000,closed,19,nio: sni hostname should default to client host
+516,2019-07-21 04:55:30.000000000,2020-04-23 12:37:06.000000000,closed,6,Add Speech-to-Text sample to illustrate one way to call a bidirectional streaming API.
+515,2019-07-16 18:42:32.000000000,2019-07-25 21:53:20.000000000,closed,4,generated files import SwiftGRPC even when depending on SwiftGRPCNIO
+514,2019-07-16 14:25:35.000000000,2019-07-19 16:40:03.000000000,closed,10, Add client-side logging with swift-log
+513,2019-07-12 18:29:50.000000000,2019-07-15 13:23:22.000000000,closed,0,Provide restricted TLS configurations
+512,2019-07-12 17:21:51.000000000,2019-07-12 18:18:26.000000000,closed,0,Fix typo in UnaryRequestChannelHandler
+511,2019-07-11 18:00:48.000000000,2019-11-13 16:59:52.000000000,closed,3,Invalid host  set in :authority
+510,2019-07-10 17:53:26.000000000,2019-07-12 10:33:50.000000000,closed,0,Better handle client connectivity state.
+509,2019-07-10 17:36:16.000000000,2019-07-10 17:36:59.000000000,closed,0,Remove '###' from git commit template section headers
+508,2019-07-09 17:26:01.000000000,2019-07-09 18:34:45.000000000,closed,0,Provide a git commit template.
+507,2019-07-05 19:55:02.000000000,2019-07-16 03:51:32.000000000,closed,13,0.9.1 fails to build with Carthage
+506,2019-07-04 19:30:09.000000000,2019-07-09 17:14:37.000000000,closed,1,Remove `onNext` from connectivity state delegate
+505,2019-07-04 18:03:54.000000000,2019-07-04 19:37:38.000000000,closed,0,Add missing copyright headers
+504,2019-07-03 19:24:37.000000000,2019-07-05 11:24:48.000000000,closed,1,Revert to Apache 2.0 license verbatim [skip ci]
+503,2019-07-03 15:06:29.000000000,2019-07-03 16:52:32.000000000,closed,0,Use `expectedFulfillmentCount` since it is now available on Linux
+502,2019-07-03 12:22:05.000000000,2019-12-20 15:53:27.000000000,closed,6,Compatibility with macOS 10.15 Catalina?
+501,2019-07-03 11:43:14.000000000,2019-07-05 11:24:23.000000000,closed,1,Fix two memory leaks and update a link in the README.
+500,2019-07-03 11:10:58.000000000,2019-07-03 20:40:44.000000000,closed,0,Add a swift_versions flag to the Podspec.
+499,2019-07-03 11:10:07.000000000,2019-07-03 20:40:20.000000000,closed,0,Fix a compiler warning.
+498,2019-07-03 01:04:15.000000000,2019-07-05 11:24:39.000000000,closed,4,Revert to Apache 2.0 license verbatim [skip ci]
+497,2019-07-02 14:45:32.000000000,2019-07-22 12:23:52.000000000,closed,13,Trying to connect an http1.x server
+496,2019-07-01 13:45:44.000000000,2019-07-05 11:31:47.000000000,closed,0,Update Podspec to 0.9.1
+495,2019-06-28 18:55:43.000000000,2019-07-03 11:39:34.000000000,closed,3,Releasing for Carthage
+494,2019-06-27 11:13:54.000000000,2019-06-30 08:35:40.000000000,closed,0,Update the test certificates and increase their validity to 10 years.
+493,2019-06-26 12:13:41.000000000,2019-07-01 13:44:19.000000000,closed,1,fix carthage install
+492,2019-06-21 19:52:44.000000000,2019-07-26 13:21:10.000000000,closed,1,☂️ Issue Checklist for GRPC v1.0
+491,2019-06-21 19:23:36.000000000,2019-06-21 19:30:31.000000000,closed,0,Update README
+490,2019-06-20 13:28:37.000000000,2019-06-21 11:44:57.000000000,closed,0,Add Server.Configuration
+489,2019-06-19 18:39:00.000000000,2019-06-21 19:37:06.000000000,closed,0,Add automatic reconnect to the client connection.
+488,2019-06-18 18:04:42.000000000,1970-01-01 00:00:00.000000001,open,0,Channel connectivityState crash after shutdown
+487,2019-06-17 13:19:54.000000000,2019-06-18 10:49:56.000000000,closed,0,Call renaming
+486,2019-06-14 16:27:30.000000000,2019-06-17 12:44:07.000000000,closed,1,Tidy up and add comments to Package.swift
+485,2019-06-14 15:11:44.000000000,2019-06-18 12:55:24.000000000,closed,2,Add support for NIOTransportServices
+484,2019-06-13 17:59:32.000000000,2019-06-13 19:42:48.000000000,closed,2,Add missing bracket in NaturalLanguage example
+483,2019-06-13 13:09:50.000000000,2019-06-18 10:50:12.000000000,closed,2,Update README for NIO based implementation
+482,2019-06-11 17:32:50.000000000,2019-06-17 12:33:05.000000000,closed,2,"Drop ""GRPC"" prefix on a bunch of types"
+481,2019-06-10 19:35:59.000000000,2019-06-11 13:10:07.000000000,closed,0,Add AnyServiceClient
+480,2019-06-10 17:47:18.000000000,2019-06-11 16:39:40.000000000,closed,0,Add connection backoff
+479,2019-06-06 18:56:19.000000000,2019-06-07 11:43:17.000000000,closed,0,Remove old GRPCClientConnection.start API
+478,2019-06-06 02:16:59.000000000,2020-01-08 22:47:44.000000000,closed,28,"Xcode11Beta:  Import of C++ module 'BoringSSL' appears within extern ""C"" language linkage specification"
+477,2019-06-05 16:47:21.000000000,2019-06-06 18:16:52.000000000,closed,3,Refactor the client connection for easier creation.
+476,2019-05-31 19:07:40.000000000,2019-06-03 14:13:57.000000000,closed,0,Reduce allocations with NIOAny
+475,2019-05-29 20:10:42.000000000,2019-05-31 17:03:09.000000000,closed,1,Enable TCP_NODELAY for client connections.
+474,2019-05-27 19:55:11.000000000,2019-05-27 20:08:43.000000000,closed,4,Capital letters in Metadata
+473,2019-05-25 20:41:39.000000000,2019-05-27 13:24:23.000000000,closed,1,Update README.md for examples to point to correct folders
+472,2019-05-24 19:50:52.000000000,2019-05-28 20:10:26.000000000,closed,1,Rename SwiftGRPC to GRPC
+471,2019-05-24 17:59:30.000000000,2019-05-28 16:28:26.000000000,closed,0,Refactor client channel handlers into request and response handlers
+470,2019-05-23 19:28:04.000000000,2019-05-24 13:04:53.000000000,closed,2,Don't remove status and message from trailing metadata
+469,2019-05-23 18:54:40.000000000,2019-05-24 11:27:53.000000000,closed,0,Update makeRequestHead to use add(contentsOf:)
+468,2019-05-23 18:32:31.000000000,2019-05-24 13:08:24.000000000,closed,2,Update codegen to include only NIO implementation.
+467,2019-05-23 15:04:52.000000000,2019-05-23 17:50:47.000000000,closed,3,Add a performance test runner and benchmarks
+466,2019-05-21 10:45:23.000000000,2019-07-03 11:52:34.000000000,closed,2,Does these libraries support GRPCS .. Secure GRPC connection . How to do it .. Just adding secure certificates enough ?
+465,2019-05-20 16:42:42.000000000,2019-05-22 12:21:42.000000000,closed,8,Remove CgRPC implementation
+464,2019-05-16 20:11:46.000000000,2019-08-27 13:23:11.000000000,closed,4,How I suppose to manage the `channel.timeout` when I get `.deadlineExceeded`
+463,2019-05-14 15:47:16.000000000,2019-05-28 16:27:58.000000000,closed,2,Getting initialMetadata at the beginning of streaming
+462,2019-05-09 13:39:13.000000000,1970-01-01 00:00:00.000000001,open,3,Server timeouts in the NIO implementation
+461,2019-05-09 13:24:36.000000000,2019-05-09 13:25:14.000000000,closed,0,Fix documentation and typo.
+460,2019-05-08 19:09:11.000000000,2019-05-09 10:43:37.000000000,closed,0,Better map HTTP status codes to GRPC status codes
+459,2019-05-08 18:27:56.000000000,2019-05-09 13:15:31.000000000,closed,0,Use user events for timing out and cancelling client calls
+458,2019-05-07 08:08:06.000000000,2019-05-07 13:29:30.000000000,closed,2,Support tvos for cocoapods
+457,2019-05-05 06:55:19.000000000,2020-03-19 17:08:13.000000000,closed,4,"Proposal to introduce a ""PendingCall"" type"
+456,2019-05-03 13:43:30.000000000,2019-05-08 16:42:50.000000000,closed,3,Add a client error delegate
+455,2019-05-02 19:12:10.000000000,2019-05-03 10:21:18.000000000,closed,0,Remove unnecessary dependency on SwiftGRPC in SwiftGRPCNIO tests
+454,2019-05-01 19:37:44.000000000,2020-01-08 22:48:03.000000000,closed,5,"Are we ready to rename SwiftGRPCNIO to ""GRPC""?"
+453,2019-05-01 16:57:03.000000000,2019-05-06 11:45:03.000000000,closed,0,Batch requests in testUnaryLotsOfRequests
+452,2019-05-01 14:32:21.000000000,2019-07-03 11:53:00.000000000,closed,1,Creating a connection with TLS is difficult with GRPCSwiftNIO
+451,2019-04-30 20:22:44.000000000,2019-05-07 15:22:53.000000000,closed,3,Fail calls on closed connections.
+450,2019-04-30 19:47:34.000000000,2019-05-06 11:46:41.000000000,closed,0,Avoids linking nghttp2 in Carthage project
+449,2019-04-30 16:57:41.000000000,2019-05-06 11:59:25.000000000,closed,5,Carthage not working for version 0.8.2 and beyond
+448,2019-04-28 02:42:09.000000000,2019-05-06 11:44:22.000000000,closed,2,Add sample Google API call using SwiftGRPCNIO.
+447,2019-04-26 20:53:46.000000000,2019-04-26 21:13:04.000000000,closed,1,Fix libtool warning when compiling with bazel
+446,2019-04-26 09:53:25.000000000,2019-05-07 15:21:39.000000000,closed,7,Support tvOS
+445,2019-04-23 14:40:43.000000000,2019-04-23 15:44:53.000000000,closed,1,Diagrams for client connection and client call pipelines.
+444,2019-04-18 21:04:24.000000000,2019-04-18 23:40:43.000000000,closed,1,Bump version to 0.9.0
+443,2019-04-18 18:17:01.000000000,2019-04-23 13:33:15.000000000,closed,0,Verify TLS/ALPN were successful before returning a connection
+442,2019-04-18 15:09:47.000000000,2019-04-25 14:18:43.000000000,closed,3,Various fixes found during interop testing
+441,2019-04-18 12:53:13.000000000,2019-04-18 22:42:17.000000000,closed,3,Try de-flaking testMultipleConnectivityObserversAreCalled.
+440,2019-04-18 04:56:52.000000000,2019-04-18 21:02:39.000000000,closed,6,Update SwiftProtobuf to 1.5.0
+439,2019-04-17 18:20:44.000000000,2019-04-18 12:44:53.000000000,closed,3,Don't store state from ClientBootstrap.channelInitializer
+438,2019-04-17 16:38:31.000000000,2019-05-06 11:59:18.000000000,closed,3,NIO client: ClientBootstrap.channelInitializer can be called multiple times
+437,2019-04-17 15:15:04.000000000,2020-01-06 19:56:00.000000000,closed,2,some tests are timing sensitive and they usually fail for me in docker
+436,2019-04-17 13:44:15.000000000,2019-04-18 12:45:06.000000000,closed,0,Add interoperability tests to XCTest
+435,2019-04-17 13:23:05.000000000,2019-04-17 15:51:21.000000000,closed,2,Decrease a few timeouts in the hopes of fixing a test flake.
+434,2019-04-16 22:22:44.000000000,2019-04-17 16:53:24.000000000,closed,2,redefinition of module 'openssl' error
+433,2019-04-16 17:01:07.000000000,2019-04-17 13:17:11.000000000,closed,0,Interoperability tests CLI
+432,2019-04-16 13:05:32.000000000,2019-04-16 15:13:42.000000000,closed,1,Document missing tests and server features
+431,2019-04-16 12:36:13.000000000,2019-04-16 15:13:57.000000000,closed,0,Several NIO test fixes
+430,2019-04-15 22:07:27.000000000,2019-05-06 11:58:54.000000000,closed,14,gprpc-swift tests stuck (docker)
+429,2019-04-12 17:31:52.000000000,2019-04-16 12:56:29.000000000,closed,3,Add gRPC interoperability tests
+428,2019-04-12 15:04:30.000000000,2019-04-12 16:40:14.000000000,closed,0,Add interoperability test provider.
+427,2019-04-12 13:39:25.000000000,2019-04-12 14:37:40.000000000,closed,0,"Interoperability tests target, protos and generated code"
+426,2019-04-11 21:19:38.000000000,2019-04-16 20:33:53.000000000,closed,4,"Run CI on both Swift 4.2 and 5, and fix Swift 5 warning"
+425,2019-04-11 19:54:23.000000000,2019-04-12 13:40:01.000000000,closed,2,gRPC interoperability tests
+424,2019-04-10 15:11:09.000000000,2019-04-12 21:47:12.000000000,closed,0,Change the `swiftc` argument to use static Swift libraries.
+423,2019-04-08 13:32:12.000000000,2019-04-08 17:35:48.000000000,closed,1,Ask `ServerErrorDelegate` to transform status/response promise failures before returning them to the client.
+422,2019-04-04 17:04:23.000000000,2019-04-08 13:08:46.000000000,closed,6,Allow users to fulfill status promises with `GRPCStatusTransformable` errors.
+421,2019-04-02 04:05:51.000000000,2019-04-02 20:34:34.000000000,closed,0,Allow clients to make calls via factory methods
+420,2019-04-01 23:19:06.000000000,2019-04-02 17:51:18.000000000,closed,0,Enable macOS CI
+419,2019-04-01 23:13:40.000000000,2019-04-02 20:33:58.000000000,closed,1,SR-10128 workaround
+418,2019-03-29 20:54:48.000000000,2019-04-01 18:41:57.000000000,closed,0,Rename GRPCClient to GRPCClientConnection
+417,2019-03-29 06:59:48.000000000,2019-04-11 05:33:00.000000000,closed,21,Update vendored gRPC-core to v1.19.1
+416,2019-03-28 21:55:04.000000000,2019-04-12 21:47:11.000000000,closed,5,swift 5 make plugin not working 
+415,2019-03-28 02:43:24.000000000,2019-03-28 20:19:26.000000000,closed,2,Disable iOS 12 cellular connectivity monitor by default
+414,2019-03-26 15:06:16.000000000,2019-03-26 15:32:20.000000000,closed,0,Update to release versions of Swift 5 and NIO
+413,2019-03-22 21:19:14.000000000,2019-03-25 13:51:03.000000000,closed,0,"Generate Linux tests using ""swift test --generate-linuxmain"""
+412,2019-03-22 18:54:00.000000000,2019-03-22 19:21:30.000000000,closed,0,"Remove unnecessary ""#if swift"" code paths"
+411,2019-03-21 21:45:35.000000000,2019-03-22 19:27:25.000000000,closed,1,TLS Tests
+410,2019-03-21 14:45:16.000000000,1970-01-01 00:00:00.000000001,open,11,Create equivalents of `ClientTestExample` and `ServerTestExample` for SwiftGRPC-NIO
+409,2019-03-21 13:15:21.000000000,2019-03-21 20:45:01.000000000,closed,4,Temporarily disable `NIOClientTimeoutTests.testBidirectionalStreamingTimeoutAfterSending` on Linux for now
+408,2019-03-21 05:44:13.000000000,2019-03-21 11:35:16.000000000,closed,0,Use FileHandle instead of io.swift.
+407,2019-03-19 18:56:23.000000000,2019-03-19 19:44:42.000000000,closed,1,Update Echo certificate and key
+406,2019-03-19 18:49:36.000000000,2019-03-20 14:32:22.000000000,closed,3,Add TLS to the NIO implementation
+405,2019-03-15 21:17:23.000000000,2019-03-18 19:34:35.000000000,closed,2,Update CI for Swift 5
+404,2019-03-15 20:21:50.000000000,2019-03-18 19:34:13.000000000,closed,5,NIO2 / Swift 5 update
+403,2019-03-14 16:40:31.000000000,2019-03-14 17:29:01.000000000,closed,0,Generate client test stubs in a dedicated section.
+402,2019-03-13 01:39:42.000000000,2019-03-15 13:23:30.000000000,closed,7,Allow generating test stubs separately from the client implementation
+401,2019-03-12 22:41:07.000000000,2019-03-14 15:52:37.000000000,closed,8,Add public init to client call unary stubs.
+400,2019-03-12 09:24:23.000000000,2019-03-30 06:14:53.000000000,closed,6,swift-nio-http2 causing conflicting requirements
+399,2019-03-11 18:43:19.000000000,2019-03-11 20:26:49.000000000,closed,0,Mark unary async calls as @discardableResult.
+398,2019-03-09 18:45:34.000000000,2019-03-11 18:36:11.000000000,closed,0,Generate ClientCallUnary test stubs.
+397,2019-03-08 15:21:52.000000000,2019-03-15 16:32:20.000000000,closed,11,Rewrite LengthPrefixedMessageReader and tests
+396,2019-03-08 01:01:35.000000000,2019-03-09 04:24:53.000000000,closed,0,Add/update scripts for vendoring dependencies
+395,2019-03-06 21:13:42.000000000,2019-03-08 15:06:41.000000000,closed,3,Fix crashes due to mismatching responses sent to the channel when event observer factories fail.
+394,2019-03-06 19:30:26.000000000,2019-03-06 21:15:09.000000000,closed,3,Add public factory methods for CallResult.
+393,2019-03-05 18:27:30.000000000,2019-03-18 19:34:51.000000000,closed,1,Update `Package.swift` to use NIOHTTP2's `nghttp2-support-branch`.
+392,2019-03-05 15:43:50.000000000,2019-03-06 21:16:49.000000000,closed,4,Enforce request cardinality for unary-request calls also for the case of zero request messages being sent.
+391,2019-03-04 23:13:37.000000000,2019-03-05 22:51:23.000000000,closed,0,Call `.writeAndFlush` in two more places
+390,2019-03-04 17:00:58.000000000,2019-03-12 21:10:39.000000000,closed,10,Split package for CgRPC and NIO variants
+389,2019-03-03 20:46:51.000000000,2019-03-04 15:31:38.000000000,closed,1,Refactor some properties shared by all server-side call contexts into a common `ServerCallContext` protocol …
+388,2019-03-01 21:34:27.000000000,2020-03-19 17:08:18.000000000,closed,2,How to debug internalError: GOAWAY
+387,2019-03-01 10:14:33.000000000,2019-03-01 23:57:57.000000000,closed,3,Add ClientNetworkMonitor for tracking network changes
+386,2019-02-28 22:33:34.000000000,2019-02-28 22:49:12.000000000,closed,0,Clean up gRPC.swift
+385,2019-02-28 11:03:26.000000000,2019-07-24 10:24:33.000000000,closed,3,Release 0.7.0 Make Error
+384,2019-02-26 23:49:38.000000000,2019-02-28 20:36:16.000000000,closed,0,Add ability to manually shut down channels
+383,2019-02-26 22:21:32.000000000,2019-02-28 19:54:31.000000000,closed,2,Update releasing instructions
+382,2019-02-26 19:36:49.000000000,2019-07-03 14:50:36.000000000,closed,2,NIOServerWebTests cause a fatal error on Linux CI
+381,2019-02-25 22:26:25.000000000,2019-07-24 10:24:22.000000000,closed,3,the NIO backends should close the Channel if an error is received in the last ChannelHandler
+380,2019-02-25 20:12:11.000000000,2019-02-26 23:20:49.000000000,closed,2,Refactor channel connectivity to avoid multiple spin loops
+379,2019-02-25 01:51:54.000000000,2019-02-25 20:00:08.000000000,closed,2,Run ChannelCrashTests on Linux/CI
+378,2019-02-25 00:08:04.000000000,2019-03-21 20:45:48.000000000,closed,2,Implement async client test stub methods
+377,2019-02-24 13:05:39.000000000,2020-03-19 17:08:21.000000000,closed,11,iOS bitcode compilation error (via Carthage)
+376,2019-02-23 22:52:13.000000000,2019-02-25 13:07:54.000000000,closed,0,Move ConnectivityState to new file & update initializer
+375,2019-02-23 22:36:54.000000000,2019-02-25 21:22:15.000000000,closed,0,Make ConnectivityObserver class final
+374,2019-02-23 02:23:22.000000000,2020-03-19 17:08:24.000000000,closed,8,protoc-gen-swiftgrpc avoids writing empty files when .proto files lack service definitions. Should it?
+373,2019-02-23 01:00:45.000000000,2019-07-03 11:27:59.000000000,closed,7,Poorly-formed requests crash the NIO server
+372,2019-02-22 14:24:43.000000000,2019-02-25 20:01:24.000000000,closed,1,Store the root certificates as a multi-line string literal.
+371,2019-02-20 21:56:34.000000000,2019-02-28 14:02:09.000000000,closed,19,Comments/cleanup to Package.swift.
+370,2019-02-15 22:48:56.000000000,2019-03-02 00:18:52.000000000,closed,8,Update CocoaPods & Carthage for 0.8.0 release
+369,2019-02-14 23:42:51.000000000,2019-02-26 15:25:50.000000000,closed,4,Fix channel credentials memory leak in shims
+368,2019-02-14 22:36:20.000000000,2019-02-14 23:25:40.000000000,closed,2,Improve memory management in Channel
+367,2019-02-12 23:06:17.000000000,2019-02-15 14:07:53.000000000,closed,2,Update SwiftProtobuf to 1.3.1
+366,2019-02-07 00:56:48.000000000,2019-02-07 00:57:34.000000000,closed,0,[Auto Generation Script]add generate qb code
+365,2019-01-31 23:28:23.000000000,2019-07-03 11:30:25.000000000,closed,1,Unable to build 0.7.0 on Linux
+364,2019-01-30 17:07:38.000000000,2019-02-26 21:31:12.000000000,closed,5,Improve error handling in NIO server.
+363,2019-01-30 14:40:29.000000000,2019-02-19 14:23:06.000000000,closed,3,Proposal to fix #362.
+362,2019-01-29 20:40:31.000000000,2019-02-19 14:23:08.000000000,closed,1,Why I can't use default root certificates when I create a channel with client certificates and key?
+361,2019-01-27 14:47:10.000000000,2019-01-29 09:31:06.000000000,closed,2,Even after 0.7.0 is released Cocoapods still lists 0.6.0
+360,2019-01-17 23:03:15.000000000,2019-02-14 20:53:38.000000000,closed,6,XCode 10.1 + Carthage support
+359,2019-01-16 17:32:56.000000000,2019-01-21 19:36:52.000000000,closed,4,How to add custom meta data
+358,2019-01-16 11:40:26.000000000,2019-04-11 14:10:03.000000000,closed,21,Feature/support tvos
+357,2019-01-14 21:23:37.000000000,2019-03-01 21:13:55.000000000,closed,15,First pass implementation of NIO client
+356,2019-01-13 11:39:04.000000000,2019-02-15 22:45:41.000000000,closed,5,Allow client to specify metadata per call
+355,2019-01-11 10:57:41.000000000,2019-01-13 12:02:53.000000000,closed,5,Add RxSwift option to protoc-gen-swiftgrpc
+354,2019-01-09 20:48:37.000000000,2019-03-01 21:13:55.000000000,closed,3,Add client support for SwiftGRPCNIO
+353,2019-01-05 00:47:43.000000000,2020-03-19 17:08:30.000000000,closed,5,can't access initial metadata before completion of ClientCallServerStreaming
+352,2019-01-03 19:56:40.000000000,2019-01-06 18:40:48.000000000,closed,5,Upgrade swift-nio to 1.12
+351,2019-01-03 17:31:47.000000000,2019-01-03 21:03:26.000000000,closed,1,"Allow ""FileNaming"" option to be set via CLI"
+350,2018-12-30 08:26:47.000000000,2019-02-23 00:31:39.000000000,closed,30,Add gRPC Web support.
+349,2018-12-22 22:10:17.000000000,2018-12-22 23:10:08.000000000,closed,0,Bump podspec to 0.7.0
+348,2018-12-22 09:10:08.000000000,2019-02-28 09:32:44.000000000,closed,7,Release 0.6.0 Make Error
+347,2018-12-21 23:16:44.000000000,2018-12-22 13:09:04.000000000,closed,3,Support proto-gen-swift's proto-to-module mapping.
+346,2018-12-21 20:59:54.000000000,2018-12-21 21:07:14.000000000,closed,0,Update Linux build documentation
+345,2018-12-21 14:31:32.000000000,2019-01-11 15:17:42.000000000,closed,0,iOS request after reopening appear 'os error unavailable'
+344,2018-12-20 18:37:20.000000000,2018-12-20 23:25:00.000000000,closed,0,Add libnghttp2 depdendency to Docker image (#338)
+343,2018-12-19 15:05:34.000000000,2018-12-19 17:51:14.000000000,closed,2,Client stops receiving message from a server stream after first message.
+342,2018-12-13 19:14:43.000000000,2018-12-14 18:57:18.000000000,closed,6,Failed to create subchannel
+341,2018-12-09 19:58:38.000000000,2018-12-10 14:03:25.000000000,closed,1,Add environment flag for BoringSSL/OpenSSL on MacOS
+340,2018-12-06 06:20:24.000000000,2019-07-05 11:24:23.000000000,closed,3,Memory Leak in ServiceClientBase.init(address:secure:arguments:)
+339,2018-12-04 16:53:34.000000000,2019-02-25 00:13:08.000000000,closed,10,ServiceTestStub methods not implemented
+338,2018-12-04 16:44:59.000000000,2019-01-09 20:05:07.000000000,closed,1,Docker image is missing libnghttp2
+337,2018-12-03 17:01:21.000000000,2019-03-02 00:50:08.000000000,closed,19,Stream stops receiving messages after changing connection from Wifi to Cellular
+336,2018-11-21 02:45:24.000000000,2018-11-22 03:19:26.000000000,closed,4,[WIP] Add support for Carthage through xcodegen
+335,2018-11-15 07:18:54.000000000,2018-11-16 21:06:21.000000000,closed,0,Remove .swift-version file
+334,2018-11-14 20:12:25.000000000,2018-11-16 21:06:21.000000000,closed,2,.swiftversion should maybe not be versioned
+333,2018-11-13 23:52:38.000000000,2020-03-19 17:08:50.000000000,closed,3,Make call completion thread configurable
+332,2018-11-12 04:50:03.000000000,2019-07-03 11:20:19.000000000,closed,5,Support TVOS
+331,2018-11-10 02:05:56.000000000,2018-11-10 03:04:04.000000000,closed,1,Add support for RPC status
+330,2018-11-09 08:14:07.000000000,2019-11-13 16:51:49.000000000,closed,10,A very unstable error
+329,2018-11-07 14:19:07.000000000,2019-02-14 23:04:46.000000000,closed,43,Carthage not working for 0.5.1 & 0.6.0
+328,2018-11-05 00:58:57.000000000,2018-11-07 18:27:02.000000000,closed,2,Fix crash during Channel with subscription is destroying
+327,2018-11-05 00:46:35.000000000,2018-11-07 18:27:16.000000000,closed,0,Crash during Channel destroying
+326,2018-10-30 16:38:38.000000000,2018-11-01 19:42:39.000000000,closed,8,Client stops before end of stream
+325,2018-10-30 02:42:45.000000000,2018-10-31 06:18:04.000000000,closed,3,Provider crashes if not polled ??
+324,2018-10-24 17:54:21.000000000,2020-03-19 17:09:20.000000000,closed,0,How to measure transfer speed
+323,2018-10-22 13:19:38.000000000,2018-10-22 23:06:18.000000000,closed,0,Improve the documentation on building the `protoc` plugins and add a `make plugin` option.
+322,2018-10-21 00:20:08.000000000,2019-02-23 02:11:44.000000000,closed,15,protoc-gen-swiftgrpc: program not found or is not executable
+321,2018-10-19 06:29:22.000000000,2020-02-07 19:04:19.000000000,closed,0,protoc-gen-swiftgrpc does not have FileNaming option  
+320,2018-10-18 05:56:29.000000000,2018-10-18 05:58:29.000000000,closed,1,"E1018  - os_error"":""Permission denied"" "
+319,2018-10-17 03:27:56.000000000,2018-10-19 23:26:56.000000000,closed,6,Using SwiftGRPC + Firebase pods produces errors
+318,2018-10-16 20:14:29.000000000,2018-10-22 23:05:28.000000000,closed,0,Minor tweaks in preparation for SwiftGRPCNIO.
+317,2018-10-16 19:35:58.000000000,2018-10-16 20:41:40.000000000,closed,10,"When channel status is ready, the receive method return an exception: callError(unsuccessful, status unknown)"
+316,2018-10-16 15:46:04.000000000,2018-10-22 23:03:41.000000000,closed,0,Transmission type parameters for sync/async code generation
+315,2018-10-13 06:48:52.000000000,2018-10-13 06:58:41.000000000,closed,2,Client Certificates
+314,2018-10-11 12:45:15.000000000,2018-10-11 14:22:26.000000000,closed,4,dyld: Symbol not found: __T0Bi64_WV
+313,2018-10-09 07:08:18.000000000,2018-10-10 03:18:42.000000000,closed,2,How do you guys deal with Provider needing to make a async call before responding to client
+312,2018-09-28 21:20:02.000000000,2020-03-19 17:09:28.000000000,closed,2,Watchos Support
+311,2018-09-18 08:00:35.000000000,2018-09-18 19:39:47.000000000,closed,0,Replace absolute path in generated xcodeproj
+310,2018-09-11 20:01:10.000000000,2018-09-12 10:05:32.000000000,closed,1,Docs/add question template
+309,2018-09-10 21:44:03.000000000,2018-10-04 12:00:15.000000000,closed,11,Can not generated service code from .proto
+308,2018-09-10 21:04:13.000000000,2018-09-18 21:05:52.000000000,closed,8,Add Package.swift for Swift 4.2
+307,2018-09-10 12:48:14.000000000,2018-09-11 20:44:16.000000000,closed,0,Add io.grpc. prefix to bundle identifier
+306,2018-09-05 12:18:06.000000000,2018-09-10 03:43:47.000000000,closed,1,Tweak Echo Readme
+305,2018-09-04 19:08:35.000000000,2018-09-10 03:43:02.000000000,closed,1,docs: add issue template for bug reporting.
+304,2018-09-03 12:55:20.000000000,2019-07-03 11:44:56.000000000,closed,12,CERTIFICATE_VERIFY_FAILED with CA signed certificate
+303,2018-09-03 11:46:06.000000000,2018-09-04 18:26:03.000000000,closed,0,Cut a 0.6.0 release due to the breaking changes in SwiftProtobuf 1.1
+302,2018-09-01 10:59:59.000000000,2018-09-04 18:26:03.000000000,closed,4,Type 'Foo' does not conform to protocol '_MessageImplementationBase'
+301,2018-08-30 04:31:39.000000000,2018-08-30 21:15:45.000000000,closed,2,Using SwiftGRPC from the Swift REPL
+300,2018-08-28 15:24:28.000000000,2018-09-03 21:35:33.000000000,closed,0,Several fixes to the example projects.
+299,2018-08-27 18:53:00.000000000,2018-08-27 19:09:16.000000000,closed,3,Add Access Level to TestStubs
+298,2018-08-24 09:17:59.000000000,2018-08-24 18:09:27.000000000,closed,1,Update CLA link to point to CNCF CLA.
+297,2018-08-21 21:35:55.000000000,2018-08-22 10:55:25.000000000,closed,1,Update SwiftProtobuf to 1.1.1
+296,2018-08-21 20:21:26.000000000,2018-08-22 10:56:25.000000000,closed,0,Remove Linux RUNME.sh script
+295,2018-08-18 20:24:22.000000000,2018-08-19 23:07:16.000000000,closed,0,Fix -Wstrict-prototypes warning
+294,2018-08-18 20:23:23.000000000,2018-08-19 23:07:16.000000000,closed,1,-Wstrict-prototypes warning when using CocoaPods
+293,2018-08-18 19:54:55.000000000,2018-08-19 23:06:22.000000000,closed,3,Bump podspec to 0.5.1
+292,2018-08-16 14:00:10.000000000,2018-08-19 23:05:06.000000000,closed,0,Project patch script rework.
+291,2018-08-16 13:43:27.000000000,2018-08-19 23:05:06.000000000,closed,5,Missing CFBundleVersion keys cause App Store submission errors
+290,2018-08-16 12:56:16.000000000,2018-08-19 23:03:49.000000000,closed,0,"CI improvements: faster, log folding"
+289,2018-08-15 18:01:51.000000000,2018-08-16 11:30:21.000000000,closed,6,fix: lock deps to exact versions
+288,2018-08-15 17:36:18.000000000,2018-08-16 11:30:21.000000000,closed,0,Swift Protobuf breaking changes
+287,2018-08-14 12:21:44.000000000,2018-08-14 18:25:16.000000000,closed,1,Fix cgrpc xcodeproj
+286,2018-08-13 20:31:31.000000000,2018-08-13 21:09:00.000000000,closed,2,"Add ""Releasing"" section for CocoaPods to the ReadMe"
+285,2018-08-13 17:59:37.000000000,2018-08-15 10:12:47.000000000,closed,9,Swift Client Lets Encrypt CERTIFICATE_VERIFY_FAILED
+284,2018-08-13 00:48:28.000000000,2018-08-13 20:18:56.000000000,closed,0,Carthage: support from iOS 9.0 
+283,2018-08-12 00:59:26.000000000,2018-08-12 21:49:23.000000000,closed,1,[README] Update the link to the Echo sample project.
+282,2018-08-09 17:53:35.000000000,2018-08-12 21:52:06.000000000,closed,25,Enable carthage
+281,2018-08-05 16:37:34.000000000,2018-11-27 00:23:09.000000000,closed,20,First implementation of gRPC based on SwiftNIO
+280,2018-08-04 19:28:38.000000000,2019-11-13 18:19:29.000000000,closed,16,Segmentation fault: 11
+279,2018-08-02 10:28:30.000000000,2018-08-13 20:56:00.000000000,closed,11,There is no 0.5.0 version in Cocoapods' specs
+278,2018-07-31 19:38:53.000000000,2019-07-03 11:46:24.000000000,closed,6,How to troubleshoot ALPN check failure?
+277,2018-07-30 23:19:16.000000000,2018-08-08 08:27:28.000000000,closed,3,Allow gRPC to connect with Google Credentials
+276,2018-07-26 22:04:49.000000000,2019-07-03 16:52:52.000000000,closed,3,Implement special_status_message interop test
+275,2018-07-24 09:55:07.000000000,2018-07-24 14:55:37.000000000,closed,24,Can't install on Mac OS High Sierra 10.13.5
+274,2018-07-21 09:51:31.000000000,2018-07-21 20:51:11.000000000,closed,4,Remove CzLib from dependencies
+273,2018-07-20 17:09:05.000000000,2018-09-10 03:43:47.000000000,closed,5,building EchoXcode example
+272,2018-07-19 10:35:05.000000000,2018-08-22 12:34:05.000000000,closed,18,missing required module 'CgRPC'
+271,2018-07-18 12:09:40.000000000,2018-07-18 17:10:21.000000000,closed,21,Stream closes prematurely 
+270,2018-07-18 04:03:46.000000000,2018-08-22 12:40:08.000000000,closed,2,Static Pod Library support
+269,2018-07-16 23:25:44.000000000,2018-07-17 02:07:32.000000000,closed,5,Error after updating the client
+268,2018-07-14 18:17:37.000000000,2020-03-19 17:14:21.000000000,closed,5,FR: Add an official swift-grpc image in Docker Cloud
+267,2018-07-14 18:07:50.000000000,2018-07-16 08:26:08.000000000,closed,2,Update Dockerfile
+266,2018-07-13 23:15:48.000000000,2018-07-16 08:26:47.000000000,closed,1,"add ""make project"""
+265,2018-07-13 22:16:40.000000000,2018-07-14 05:41:29.000000000,closed,2,Empty Optional when calling receive()
+264,2018-07-12 23:57:52.000000000,2018-07-13 01:03:33.000000000,closed,3,Build errors with Cocoapods
+263,2018-07-05 05:04:10.000000000,2019-07-03 11:47:30.000000000,closed,11,Send a status with initial metadata
+262,2018-07-04 06:06:47.000000000,2018-07-04 15:16:22.000000000,closed,4,Use of undeclared type 'ServiceProvider'
+261,2018-07-03 08:07:22.000000000,2018-07-04 03:24:18.000000000,closed,1,Create ServerStatus.swift
+260,2018-06-22 15:38:43.000000000,2018-08-17 12:03:45.000000000,closed,3,Question: Is this production-ready?
+259,2018-06-21 03:21:43.000000000,2019-07-03 11:45:20.000000000,closed,2,"Secure Channel with hostname override fails to connect, ""invalid host set"""
+258,2018-06-20 00:22:58.000000000,2018-11-10 03:04:04.000000000,closed,16,Metadata error
+257,2018-06-19 04:37:26.000000000,2018-06-19 04:37:42.000000000,closed,0,Bored of SSL
+256,2018-06-18 18:31:48.000000000,2018-06-19 19:32:44.000000000,closed,2,Fix trailing metadata corruption if accessed after the original has been deallocated
+255,2018-06-12 18:19:21.000000000,2018-06-13 19:10:19.000000000,closed,0,"For service servers, replace inheritance with composition"
+254,2018-06-11 20:21:33.000000000,2018-06-13 05:29:40.000000000,closed,0,Added requited designation to allow to create ServiceClient dynamically
+253,2018-06-08 07:10:53.000000000,2019-07-03 11:46:21.000000000,closed,2,Network.framework
+252,2018-06-07 16:13:54.000000000,2018-06-13 04:35:07.000000000,closed,2,Make ChannelArgument extensible with custom values.
+251,2018-06-07 15:56:30.000000000,2018-06-07 23:18:45.000000000,closed,0,Make the build commands less verbose.
+250,2018-06-06 22:55:11.000000000,2018-06-07 01:42:08.000000000,closed,5,Add tests to demonstrate security issues
+249,2018-06-06 18:28:29.000000000,2018-06-13 20:26:40.000000000,closed,6,Add support for passing custom root certificates
+248,2018-06-04 21:14:53.000000000,2018-06-08 10:14:12.000000000,closed,2,Should we move the CgRPC package into the gRPC repository?
+247,2018-06-04 21:07:22.000000000,2018-06-15 01:52:26.000000000,closed,6,Expose Google Credentials
+246,2018-06-04 14:55:05.000000000,2018-06-04 18:49:21.000000000,closed,2,Fix building with a clean Xcode and add a CI run to ensure just that.
+245,2018-06-04 07:51:37.000000000,2018-06-07 23:18:07.000000000,closed,1,Update Google sample for recent API changes.
+244,2018-06-02 00:37:53.000000000,2018-06-19 19:12:45.000000000,closed,40,Add support for TLS mutual auth
+243,2018-06-01 18:43:04.000000000,2019-07-03 11:50:43.000000000,closed,3,pRPC support
+242,2018-06-01 00:55:34.000000000,2018-06-01 00:55:51.000000000,closed,0,Expose Google Credentials
+241,2018-05-30 22:44:59.000000000,2018-05-30 23:22:29.000000000,closed,2,Swift 4.1 / 4.2 beta
+240,2018-05-30 01:18:34.000000000,2019-12-12 23:28:50.000000000,closed,10,Add homebrew formula for plugins
+239,2018-05-29 15:56:37.000000000,2018-06-04 18:49:23.000000000,closed,11,Update CgRPC to v1.12.0 and BoringSSL to 10.0.4 (I guess?)
+238,2018-05-29 14:27:44.000000000,2018-06-04 04:19:44.000000000,closed,0,Link CgRPC with openssl instead of BoringSSL under Linux
+237,2018-05-28 02:35:37.000000000,2018-06-04 04:14:15.000000000,closed,0,Add a few channel arguments
+236,2018-05-27 16:26:51.000000000,2018-08-28 15:06:37.000000000,closed,3,"Update is needed for the example ""EchoXcode"" for secure Service"
+235,2018-05-25 21:54:41.000000000,2020-03-19 17:07:50.000000000,closed,20,Support for client interceptors
+234,2018-05-24 10:31:15.000000000,2018-11-04 16:28:28.000000000,closed,37,Cannot authenticate via API key
+233,2018-05-22 20:40:09.000000000,2018-05-27 01:09:57.000000000,closed,5,Add timeout argument to makeCall
+232,2018-05-16 19:58:46.000000000,2018-05-17 06:50:39.000000000,closed,1,Bump podspec to 0.4.3
+231,2018-05-14 10:54:49.000000000,2018-08-22 12:38:13.000000000,closed,23,Protoc-generated swift files not compatible with SwiftGrpc (CocoaPods)
+230,2018-05-12 21:11:01.000000000,2018-05-12 23:51:34.000000000,closed,1,Add server/client codegen options to protoc
+229,2018-05-08 13:46:15.000000000,2018-05-20 09:33:52.000000000,closed,0,Replace `Metadata.description` with `Metadata.dictionaryRepresentation.description`
+228,2018-05-06 01:15:27.000000000,2018-05-08 08:16:00.000000000,closed,1,Streamline the interface of the server-side response handling code
+227,2018-05-05 22:37:16.000000000,2018-05-06 20:48:27.000000000,closed,1,Spin up dedicated queues (and thus threads) for most operations
+226,2018-05-04 19:41:46.000000000,2018-05-05 03:54:29.000000000,closed,1,Fix broken link
+225,2018-05-03 20:09:19.000000000,2018-05-05 03:58:12.000000000,closed,1,Finalize adding channel arguments
+224,2018-05-03 00:11:27.000000000,2018-05-03 08:48:07.000000000,closed,1,Update to cocoapods example
+223,2018-05-01 13:21:13.000000000,2018-05-27 15:59:39.000000000,closed,5,Missing implementation after generating grpc files
+222,2018-05-01 01:26:12.000000000,2018-05-01 07:31:34.000000000,closed,0,Cocoapods-based sample that calls the Google Natural Language API.
+221,2018-04-27 17:49:06.000000000,2018-04-27 19:55:24.000000000,closed,7,Require `zlib` dependency only for non-Apple platforms
+220,2018-04-26 18:51:35.000000000,2018-04-27 21:47:54.000000000,closed,8,`swift-nio-zlib-support` pulls in incompatible version of `ncurses`
+219,2018-04-25 16:02:16.000000000,2018-04-26 09:49:01.000000000,closed,0,Make the test stubs thread safe.
+218,2018-04-24 03:14:26.000000000,2018-08-22 12:35:45.000000000,closed,16,Manual integration - does not work for iOS
+217,2018-04-21 15:51:13.000000000,2018-04-26 09:48:27.000000000,closed,0,Fix a few memory leaks related to unreleased slices in observers and metadata arrays
+216,2018-04-20 01:40:36.000000000,2018-04-20 19:17:14.000000000,closed,0,Update dependency list in README
+215,2018-04-20 00:24:49.000000000,2018-04-20 00:31:43.000000000,closed,0,Add casts to fix warnings about ints used as void *.
+214,2018-04-19 23:26:31.000000000,2018-04-19 23:45:53.000000000,closed,0,Update ReadMe to include CocoaPods info
+213,2018-04-18 23:35:22.000000000,2018-04-19 21:32:30.000000000,closed,4,"Fix a few problems found running ""pod spec lint""."
+212,2018-04-17 03:56:58.000000000,2018-06-19 19:12:45.000000000,closed,4,Unable to configure tls mutual auth with current API
+211,2018-04-16 22:57:11.000000000,2018-04-16 23:54:43.000000000,closed,0,Update podspec to v0.4.1 for core v1.11.0
+210,2018-04-16 22:42:28.000000000,2018-04-16 22:57:25.000000000,closed,3,Update podspec to v0.4.1 for core v1.11.0
+209,2018-04-13 01:39:18.000000000,2018-04-13 01:39:27.000000000,closed,0,Update version in SwiftGRPC.podspec.
+208,2018-04-12 20:19:36.000000000,2018-04-12 20:50:14.000000000,closed,6,Replace vendored dependencies with cocoapods?
+207,2018-04-12 19:51:24.000000000,2018-04-13 01:36:17.000000000,closed,9,Fix SwiftGRPC.podspec
+206,2018-04-11 19:13:04.000000000,2018-04-11 20:01:36.000000000,closed,2,--swiftgrpc_opt=Visibility=Public is broken
+205,2018-04-10 15:02:41.000000000,2018-08-22 12:36:16.000000000,closed,13,"Make failed on High Sierra (10.13.4), Xcode 9.1, version 0.3.3"
+204,2018-04-06 20:41:11.000000000,2018-04-06 20:50:26.000000000,closed,0,Add DerivedData/ to .gitignore
+203,2018-04-06 20:36:23.000000000,2018-04-06 21:01:37.000000000,closed,1,Add ServiceClient tests for shared channels
+202,2018-04-06 00:53:41.000000000,2018-04-06 19:41:54.000000000,closed,3,Support for Channel specification on ServiceClient
+201,2018-04-05 20:07:05.000000000,2018-04-17 19:10:28.000000000,closed,2,Add a `timeout` option to blocking `send()` and `receive()` calls
+200,2018-04-05 03:17:21.000000000,2018-04-06 19:41:54.000000000,closed,4,Support for Channel specification on ServiceClient.init
+199,2018-04-02 08:51:34.000000000,2018-05-05 03:58:14.000000000,closed,17,Add channel arguments
+198,2018-03-30 05:26:29.000000000,2019-02-28 22:50:17.000000000,closed,2,How do I close the connection?
+197,2018-03-28 13:22:05.000000000,2018-03-28 19:28:30.000000000,closed,4,How do I unit test my client?
+196,2018-03-27 03:14:43.000000000,2018-05-27 01:02:50.000000000,closed,9,Implement connectivity state property and observers
+195,2018-03-22 17:52:05.000000000,2018-03-23 08:24:45.000000000,closed,0,"Make the `metadata`, `host` and `timeout` properties on the `ServiceClient` protocol writable"
+194,2018-03-22 10:44:48.000000000,2018-04-06 19:32:50.000000000,closed,5,[Improvement] Rewrite protoc-gen-swiftgrpc with Stencil
+193,2018-03-21 22:10:54.000000000,2018-08-28 14:33:35.000000000,closed,1,make clean recursive call when directory does not exist
+192,2018-03-21 00:59:38.000000000,2018-05-28 02:16:17.000000000,closed,1,Expose keep alive configuration
+191,2018-03-20 13:25:36.000000000,2018-03-20 20:16:22.000000000,closed,0,A bit of cleanup
+190,2018-03-19 23:35:05.000000000,2019-02-15 22:45:41.000000000,closed,2,Allow client to specify metadata per call
+189,2018-03-19 20:43:41.000000000,2020-03-19 17:07:28.000000000,closed,3,Further improvements
+188,2018-03-19 19:25:56.000000000,2018-03-19 22:41:24.000000000,closed,10,Two important fixes (and possibly more improvements)
+187,2018-03-18 10:00:33.000000000,2018-03-21 02:43:02.000000000,closed,0,Only lower-case the first character of method names in generated clients.
+186,2018-03-14 04:54:59.000000000,2018-05-28 02:15:51.000000000,closed,12,Thoughts on adding support for connectivity state
+185,2018-03-13 08:42:27.000000000,2018-08-28 14:38:17.000000000,closed,3,"Don't return ""ok"" when an operation group fails."
+184,2018-03-12 16:13:22.000000000,2018-03-17 23:43:19.000000000,closed,5,This week's improvements
+183,2018-03-11 10:54:08.000000000,2018-03-13 09:29:45.000000000,closed,8,Added tests for server & bi-directional streaming
+182,2018-03-10 04:18:36.000000000,2018-03-10 04:48:17.000000000,closed,1,move examples under Sources/Examples
+181,2018-03-09 22:43:31.000000000,2018-03-09 22:49:17.000000000,closed,0,Minor file reorganization in Sources/SwiftGRPC
+180,2018-03-08 21:15:47.000000000,2018-03-09 22:28:11.000000000,closed,0, Fix the Podspec by only including `Sources/SwiftGRPC/*.swift`
+179,2018-03-08 17:51:01.000000000,2018-03-08 20:11:20.000000000,closed,3,Missing SwiftProtobufPluginLibrary import in generated code
+178,2018-03-08 13:44:52.000000000,2018-03-09 22:21:36.000000000,closed,1,Add support for running CI on macOS as well
+177,2018-03-07 16:31:34.000000000,2018-03-09 22:11:02.000000000,closed,0,Rename main target to `SwiftGRPC`
+176,2018-03-07 16:24:53.000000000,2018-03-09 22:11:01.000000000,closed,0,Move the Echo and Simple PackageManager examples into the main package
+175,2018-03-07 15:01:06.000000000,2018-03-09 22:00:36.000000000,closed,0,Migrate Package.swift to the Swift 4.0 manifest format
+174,2018-03-07 07:27:24.000000000,2019-07-03 11:46:44.000000000,closed,1,Support alternate proto-over-HTTP1 runtime (aka grpc-web) for constrained environments.
+173,2018-03-06 23:54:55.000000000,2018-03-09 21:59:08.000000000,closed,1,Make `Handler.sendResponse` and `.receiveMessage` call through to the corresponding methods on `Call`
+172,2018-03-06 16:49:56.000000000,2019-04-28 19:48:19.000000000,closed,32,Idea: Add a SwiftNIO-based server implementation
+171,2018-03-06 16:46:31.000000000,2018-03-09 22:53:11.000000000,closed,2,Suggestion: Move the examples from `Examples/` to `Sources/`
+170,2018-03-06 16:40:29.000000000,2018-03-09 21:43:36.000000000,closed,1,Add a first set of XCTest-based tests
+169,2018-03-06 16:34:23.000000000,2018-03-07 07:12:13.000000000,closed,0,Replace calls to `DispatchSemaphore.wait(timeout: DispatchTime.distantFuture)` with just `.wait()`
+168,2018-03-06 16:30:59.000000000,2018-03-07 07:11:25.000000000,closed,0,Improve the example tests
+167,2018-03-06 16:22:43.000000000,2018-03-07 07:09:36.000000000,closed,0,Remove the current working directoy from the Travis PATH environment variable
+166,2018-03-06 16:21:31.000000000,2018-03-07 07:09:02.000000000,closed,0,Add the new protobuf plugin binaries to .gitignore and to `make clean`
+165,2018-03-04 09:56:36.000000000,2018-03-09 22:48:03.000000000,closed,0,Runtime simplifications.
+164,2018-03-04 08:13:20.000000000,2018-03-04 08:38:03.000000000,closed,0,Move protoc-gen-swiftgrpc plugin to main Sources directory.
+163,2018-03-04 06:48:42.000000000,2018-03-04 07:04:05.000000000,closed,0,Template-free code generation.
+162,2018-03-02 10:23:12.000000000,2018-03-04 01:18:21.000000000,closed,0,Test with debug builds.
+161,2018-03-01 18:03:42.000000000,2018-03-09 22:08:21.000000000,closed,7,Add a first batch of XCTest-based tests covering the generated code
+160,2018-03-01 15:00:08.000000000,2018-03-06 16:41:22.000000000,closed,5,Some experiments to investigate test flakes under Linux
+159,2018-03-01 14:14:37.000000000,2018-03-01 20:29:52.000000000,closed,0,"Make `gRPC.version` and `.gStandsFor` non-optional again, as those can safely be forcibly unwrapped"
+158,2018-03-01 05:17:43.000000000,2018-04-02 08:42:49.000000000,closed,0,Add support for customized user agent
+157,2018-03-01 04:30:54.000000000,2018-03-02 10:16:54.000000000,closed,0,Improve test synchronization.
+156,2018-03-01 02:11:42.000000000,2018-03-10 04:50:12.000000000,closed,2,We should run CI tests both on Linux and macOS environments
+155,2018-02-28 18:20:18.000000000,2018-03-01 04:01:30.000000000,closed,10,Extract most generated code into generic runtime support classes
+154,2018-02-28 11:47:46.000000000,2018-02-28 22:30:27.000000000,closed,5,"Add functional testing of the Echo example to the top-level ""make test""."
+153,2018-02-28 10:38:33.000000000,2018-02-28 11:23:22.000000000,closed,0,Update Xcode samples and fix Echo streaming samples to properly handle completion.
+152,2018-02-28 09:25:21.000000000,2018-02-28 09:57:39.000000000,closed,0,Update examples to build with the current version of SwiftGRPC.
+151,2018-02-28 06:29:31.000000000,2018-02-28 06:36:12.000000000,closed,2,Fix code generator and samples for latest gRPC API.
+150,2018-02-28 03:36:11.000000000,2018-10-13 06:45:52.000000000,closed,5,ECDSA not supported?
+149,2018-02-28 02:02:31.000000000,2018-02-28 08:22:55.000000000,closed,0,Also call `shutdown` in `Handler.sendStatus`
+148,2018-02-27 22:31:56.000000000,2018-02-28 08:32:43.000000000,closed,0,"When queuing messages for sending, store the original ""send"" error handler alongside them"
+147,2018-02-27 11:18:38.000000000,2018-02-28 06:06:15.000000000,closed,1,Send status on client for streaming calls
+146,2018-02-26 22:26:29.000000000,2018-03-17 18:12:19.000000000,closed,4,Expose `Server.stop` and `Server.onCompletion` in generated code
+145,2018-02-26 17:27:03.000000000,2018-02-28 06:00:50.000000000,closed,0,Two more minor warning fixes
+144,2018-02-26 02:25:43.000000000,2018-03-14 05:14:12.000000000,closed,2,Calls always return OK for streaming RPCs
+143,2018-02-24 15:42:22.000000000,2018-02-28 09:56:57.000000000,closed,2,grpc.swift generation
+142,2018-02-24 00:00:42.000000000,2018-02-28 06:00:26.000000000,closed,0,Add the option to generate code for services that do not provide a package name.
+141,2018-02-23 23:51:33.000000000,2018-02-28 05:59:07.000000000,closed,1,Add some free methods as static members to a `gRPC` class instead
+140,2018-02-23 23:42:17.000000000,2018-02-28 05:42:12.000000000,closed,0,Make CI verify that runtime library+generated code are matching
+139,2018-02-23 23:06:03.000000000,2018-02-28 05:40:32.000000000,closed,1,Create a first version of a Podspec that seems to be working
+138,2018-02-23 23:00:47.000000000,2018-02-28 20:55:02.000000000,closed,2,"Make most completion blocks optional, so that clients don't need to pass them"
+137,2018-02-23 22:01:13.000000000,2018-02-28 05:35:08.000000000,closed,1,Make more variables `let` and use `Mutex.synchronize` instead of `Mutex.lock()+unlock()` in a few more cases for consistency
+136,2018-02-23 21:51:38.000000000,2018-02-26 09:45:23.000000000,closed,0,Avoid using `NSMutableSet` in `Server`
+135,2018-02-23 21:45:06.000000000,2018-02-26 09:44:56.000000000,closed,0,Minor function argument cleanup in the plugin and warning fix
+134,2018-02-23 21:34:06.000000000,2018-05-29 18:28:43.000000000,closed,4,Should we use `gpr_malloc` in the C shim and/or double-check it for memory leaks?
+133,2018-02-23 21:30:29.000000000,2018-02-26 09:43:58.000000000,closed,0,Improve metadata handling
+132,2018-02-23 19:21:24.000000000,2018-02-26 09:37:35.000000000,closed,0,Remove a few occasions of implicitly unwrapped optionals/explicit optional unwrapping
+131,2018-02-23 15:51:02.000000000,2018-02-23 16:11:30.000000000,closed,2,Generated Files Disparity
+130,2018-02-23 00:04:35.000000000,2018-05-28 02:14:04.000000000,closed,4,User-Agent in Metadata
+129,2018-02-22 23:38:25.000000000,2018-02-23 05:31:20.000000000,closed,1,"Remove ""Plugin/Sources/protoc-gen-swiftgrpc/templates.swift"" from source control"
+128,2018-02-22 23:35:31.000000000,2018-02-23 05:20:53.000000000,closed,0,"Rename ""include/CgRPC.h"" to ""include/cgrpc.h"""
+127,2018-02-22 23:31:34.000000000,2018-02-28 13:29:59.000000000,closed,2,Fix a similar set of warnings in the vendored gRPC code
+126,2018-02-22 23:28:45.000000000,2018-02-23 05:20:16.000000000,closed,0,Fix a few compiler warnings in the CgRPC shim
+125,2018-02-22 22:14:34.000000000,2018-02-23 05:19:06.000000000,closed,0,Code cleanup (mostly cosmetic)
+124,2018-02-22 21:15:32.000000000,2018-02-28 05:33:46.000000000,closed,6,Extract the interface of generated code into protocols for better testability
+123,2018-02-20 19:24:23.000000000,2018-03-22 12:59:51.000000000,closed,2,How to send errors back to the client?
+122,2018-02-20 19:05:23.000000000,2018-03-08 14:36:29.000000000,closed,1,Suggestion: Drop the package name requirement from the code generator
+121,2018-02-20 18:24:42.000000000,2018-03-22 13:00:05.000000000,closed,2,Is it intentional that service names are lowercased?
+120,2018-02-20 16:20:58.000000000,2018-03-22 12:59:49.000000000,closed,4,What's the best practice for testing SwiftGRPC clients/servers?
+119,2018-02-19 21:24:11.000000000,2018-02-19 21:39:43.000000000,closed,2,Codegen is broken by `1ac79549`
+118,2018-02-19 17:13:04.000000000,2018-02-20 05:33:38.000000000,closed,1,Upgrade the vendored version of gRPC to 1.7.3.
+117,2018-02-18 05:39:49.000000000,2018-02-20 05:38:25.000000000,closed,1,Travis + docker update
+116,2018-02-17 20:36:25.000000000,2018-02-20 05:41:41.000000000,closed,1,make template Session inheritable
+115,2018-02-17 09:29:41.000000000,2018-02-20 05:40:21.000000000,closed,0,Let services to manipulate timeout without knowing its channel
+114,2018-02-11 11:08:04.000000000,2018-02-16 21:28:33.000000000,closed,1,Finalize classes
+113,2018-02-10 22:20:47.000000000,2018-06-19 19:36:08.000000000,closed,5,Channel Args support for swift client?
+112,2018-02-08 14:10:33.000000000,2018-02-11 04:12:01.000000000,closed,1,Add document comment for throw functions
+111,2018-02-08 10:57:31.000000000,2018-04-13 01:36:17.000000000,closed,19,Cocoapods Support?
+110,2018-02-04 03:32:22.000000000,2018-02-04 04:04:21.000000000,closed,0,Improve generated code and Swift usage.
+109,2018-02-02 00:40:47.000000000,2018-02-02 05:07:38.000000000,closed,1,Update protoc compiler in Docker image and make it smaller
+108,2018-02-01 07:21:26.000000000,2018-02-02 05:06:29.000000000,closed,1,make return completion when event is GRPC_QUEUE_SHUTDOWN at Completio…
+107,2018-01-31 08:08:14.000000000,2018-01-31 09:08:31.000000000,closed,1,call completion when GRPC_CALL_OK in Call.swift
+106,2018-01-29 05:13:27.000000000,2018-08-22 12:40:19.000000000,closed,2,How to get this working with iOS project
+105,2018-01-29 01:30:14.000000000,2018-01-29 05:07:48.000000000,closed,1,Why build protoc-gen-swift also?
+104,2018-01-25 04:00:11.000000000,2018-01-30 22:02:57.000000000,closed,3,Question: Using server streaming without generated code.
+103,2018-01-23 23:51:31.000000000,2018-08-28 14:21:36.000000000,closed,9,Client initializer interface compliance
+102,2018-01-19 17:09:24.000000000,2018-02-07 19:51:17.000000000,closed,2,How can we run multiple services?
+101,2018-01-13 11:03:17.000000000,2018-01-30 22:44:38.000000000,closed,1,Make g_stands_for() available from Swift.
+100,2018-01-03 00:46:05.000000000,2018-01-04 13:57:39.000000000,closed,4,How to fix build errors on a iOS project?
+99,2017-12-30 12:16:18.000000000,2018-08-13 20:38:05.000000000,closed,6,Upgrading vendored CgRPC
+98,2017-12-30 11:39:25.000000000,2017-12-30 11:45:55.000000000,closed,0,Use .grpc.swift extension for generated files.
+97,2017-12-22 22:16:00.000000000,2017-12-22 22:16:18.000000000,closed,0,Datastore example improvements
+96,2017-12-20 14:40:39.000000000,2019-07-03 11:51:00.000000000,closed,5,Channel gets deinitialized on main thread
+95,2017-12-16 02:03:40.000000000,2017-12-28 04:36:06.000000000,closed,2,missing underscores
+94,2017-12-15 02:11:28.000000000,2017-12-23 04:18:01.000000000,closed,2,Fix gRPC Swift generation when files have same package
+93,2017-12-15 00:40:51.000000000,2017-12-23 04:18:01.000000000,closed,2,*.client.pb.swift missing services
+92,2017-12-13 17:52:51.000000000,2018-03-24 00:22:27.000000000,closed,13,Unary callback never executed
+91,2017-12-08 20:45:30.000000000,2017-12-09 01:33:30.000000000,closed,1,gRPC unresolved errors
+90,2017-12-02 00:26:59.000000000,2017-12-30 23:16:51.000000000,closed,1,Error in generated echo client
+89,2017-12-02 00:20:26.000000000,2017-12-23 04:24:10.000000000,closed,1,Xcode 9.1 crash with Echo example project
+88,2017-11-15 13:15:51.000000000,2020-03-19 17:07:23.000000000,closed,3,Consider throwing an error on non-success status code in unary call
+87,2017-11-14 13:07:06.000000000,2017-12-14 22:53:25.000000000,closed,0,Package check should be optional for files without services
+86,2017-11-06 16:28:32.000000000,2019-07-03 11:48:23.000000000,closed,3,Question: Is it safe to use this in iOS?
+85,2017-11-03 06:37:05.000000000,2017-12-28 04:51:17.000000000,closed,2,Request: private var channel: Channel -> {{ access }} var channel: Channel
+84,2017-10-29 20:47:21.000000000,2018-08-28 14:34:02.000000000,closed,3,Trouble connecting to servers using LetsEncrypt certificates
+83,2017-10-28 03:30:27.000000000,2017-12-14 22:56:08.000000000,closed,2,Fix typo in README
+82,2017-10-26 12:25:03.000000000,2019-02-26 04:30:34.000000000,closed,1,Call dropped by load balancing policy
+81,2017-10-25 07:09:59.000000000,2017-11-07 04:13:21.000000000,closed,1,Add Cancel to Call
+80,2017-10-24 13:46:51.000000000,2017-11-07 04:11:32.000000000,closed,2,Improve compile with optimizations
+79,2017-10-05 16:32:12.000000000,2017-10-07 20:35:31.000000000,closed,10,How can we use this on iOS?
+78,2017-10-01 19:38:57.000000000,2017-10-03 20:58:32.000000000,closed,2,Stream does not stream. (tooManyOperations | GRPC_CALL_ERROR_TOO_MANY_OPERATIONS).
+77,2017-09-30 23:50:38.000000000,2017-09-30 23:50:51.000000000,closed,0,Update podspec for Swift 3 / fix boringssl
+76,2017-09-30 02:49:14.000000000,2018-06-19 19:35:27.000000000,closed,3,Added some changes to create a channel for a GRPC server which takes 3 certs as input..
+75,2017-09-28 22:41:51.000000000,2018-08-13 20:38:57.000000000,closed,4,"No ability to provide  pem_root_cert, pem_private_key and pem_cert_chain "
+74,2017-09-25 18:33:19.000000000,2018-08-28 18:21:25.000000000,closed,3,Swift options & swift_prefix ignored?
+73,2017-09-23 10:58:13.000000000,2017-09-28 23:39:00.000000000,closed,4,Support for Protocol Buffers Well-Known Types
+72,2017-09-13 19:32:58.000000000,2017-09-29 01:20:27.000000000,closed,1,Update .swift-version to 4.0
+71,2017-09-02 07:38:44.000000000,2017-09-02 07:42:02.000000000,closed,0,Update vendored gRPC to 1.4.5
+70,2017-09-01 16:15:09.000000000,2017-09-24 12:18:39.000000000,closed,0,Update swift-protobuf dependency version to 0.9.904
+69,2017-08-23 13:52:29.000000000,2017-08-31 23:00:29.000000000,closed,0,update protoc to last version 3.4.0
+68,2017-08-21 03:50:48.000000000,2017-09-03 03:58:52.000000000,closed,7,Unable to find library gRPC when linking [Swift 4]
+67,2017-08-21 03:36:45.000000000,2018-08-28 14:40:17.000000000,closed,2,Delayed error response when network connection is not available
+66,2017-08-16 02:13:30.000000000,2017-09-02 22:00:47.000000000,closed,2,Crash on ev_poll_posix.c :: pollset_reset
+65,2017-08-05 05:45:39.000000000,2017-09-02 21:53:54.000000000,closed,7,included shim incompatible with current gRPC head
+64,2017-08-04 07:39:58.000000000,2017-08-31 23:00:44.000000000,closed,0,Fix conditional statement for Ubuntu
+63,2017-08-03 08:44:39.000000000,2020-03-19 17:07:20.000000000,closed,4,Bazel Support
+62,2017-07-11 09:19:24.000000000,2017-09-28 23:33:52.000000000,closed,2,Allows passing \'--swiftgrpc_opt=Visibility=Public\' to protoc to cha…
+61,2017-06-20 17:17:32.000000000,2017-06-21 14:31:37.000000000,closed,2,Add support for case iteration in SwiftProtobuf.Enum 
+60,2017-06-16 05:11:49.000000000,2017-06-25 17:45:34.000000000,closed,0,Update Echo sample path
+59,2017-06-11 22:16:19.000000000,2017-06-12 14:08:15.000000000,closed,5,Unable to generate client & server
+58,2017-06-08 13:09:55.000000000,2017-06-09 03:56:24.000000000,closed,1,License statement in READM.md seems incorrect
+57,2017-06-02 22:33:08.000000000,2017-06-02 22:43:06.000000000,closed,0,"Relicense to Apache 2, change owners to ""the gRPC Authors""."
+56,2017-05-31 00:55:55.000000000,2017-05-31 00:57:46.000000000,closed,2,"Change access level for generated classes and methods to ""internal"""
+55,2017-05-26 01:17:33.000000000,2017-06-25 18:13:28.000000000,closed,5,Why is public visibility required for the source generated from the protos?
+54,2017-05-09 03:05:52.000000000,2017-05-10 01:15:06.000000000,closed,2,README doesn't mention the required plugin
+53,2017-05-06 13:30:30.000000000,2018-08-28 14:37:02.000000000,closed,2,Nested proto message error
+52,2017-05-06 02:24:00.000000000,2017-05-09 00:56:04.000000000,closed,3,SSL Authentication for Google (already have OAauth2 token)
+51,2017-04-30 02:22:05.000000000,2018-01-30 22:43:47.000000000,closed,2,tiny defect - filename generated for service seem to overwrite each other
+50,2017-04-29 05:24:48.000000000,2017-04-29 12:09:43.000000000,closed,2,"Swift Compiler error: ""Method cannot be declared public"""
+49,2017-04-28 00:44:09.000000000,2017-06-06 01:12:17.000000000,closed,8,rpc stream: Swift Compiler error
+48,2017-04-27 17:12:43.000000000,2019-10-02 08:11:51.000000000,closed,3,Integration Test Parity with Java grpc - for consideration
+47,2017-04-26 19:33:26.000000000,2017-04-27 02:44:04.000000000,closed,1,(Tensorflow) Service layer class generation - Method can not be declared public because its result uses an internal type.
+46,2017-04-26 02:05:14.000000000,2017-04-26 19:42:46.000000000,closed,0,Fix font weight formatting in OVERVIEW.md
+45,2017-04-25 07:09:31.000000000,2018-04-13 01:36:17.000000000,closed,16,Support for pod.
+44,2017-04-21 01:59:09.000000000,2018-08-14 18:25:15.000000000,closed,10,"Xcode project configuration issues - modules, headers, etc."
+43,2017-04-18 02:07:10.000000000,2017-04-18 03:05:03.000000000,closed,3,Swift3.1
+42,2017-04-06 18:49:56.000000000,2017-04-08 22:56:50.000000000,closed,0,Updates to Runme.sh
+41,2017-04-01 00:53:38.000000000,2017-04-20 23:18:09.000000000,closed,12,Swift 3.1 Support
+40,2017-03-28 02:32:26.000000000,2017-04-08 22:55:54.000000000,closed,0,Clean up pbxproj
+39,2017-03-28 01:58:54.000000000,2017-04-14 02:52:19.000000000,closed,4,Fix inconsistency in proto message naming convention
+38,2017-03-28 01:58:14.000000000,2020-03-19 17:07:11.000000000,closed,1,"Inconsistency in proto message naming convention, too many underscores"
+37,2017-03-25 03:03:54.000000000,2018-08-28 14:35:49.000000000,closed,3,Could not build Objective-C module 'BoringSSL'
+36,2017-03-23 06:57:42.000000000,2017-04-08 22:55:17.000000000,closed,0,Explicitly specify protoc plugin in Plugin test target
+35,2017-03-21 23:45:56.000000000,2017-03-22 00:52:22.000000000,closed,4,Fix Echo example and improve instructions
+34,2017-03-14 02:34:21.000000000,2017-04-08 22:53:44.000000000,closed,0,Changed String init to use Linux friendly implementation
+33,2017-03-12 11:41:15.000000000,2019-07-24 10:24:51.000000000,closed,9,Support for flatbuffers needed
+32,2017-03-06 11:33:29.000000000,2017-04-20 23:51:55.000000000,closed,4,Building Xcode examples
+31,2017-01-28 00:13:18.000000000,2017-04-26 20:44:40.000000000,closed,1,No truly asynchronous APIs in generated code
+30,2017-01-28 00:10:56.000000000,2017-02-28 03:19:26.000000000,closed,1,Async generated APIs
+29,2017-01-28 00:08:00.000000000,2019-07-03 11:51:34.000000000,closed,0,OperationGroup tag generation could be unsynchronised.
+28,2017-01-28 00:05:44.000000000,2018-08-28 14:33:47.000000000,closed,3,Message queue limit should be exposed + default to infinity.
+27,2017-01-28 00:01:58.000000000,2020-03-19 17:07:10.000000000,closed,1,O(n^2) message queue
+26,2017-01-28 00:00:21.000000000,2020-03-19 17:07:08.000000000,closed,1,Too coarse callMutex.
+25,2017-01-27 23:56:35.000000000,2018-08-13 20:37:01.000000000,closed,3,API design guidelines not followed
+24,2017-01-27 23:55:50.000000000,2017-02-28 03:21:17.000000000,closed,1,Rule of thumb: no prints
+23,2017-01-27 23:53:58.000000000,2018-08-28 14:32:34.000000000,closed,1,Errors sending messages aren't exposed to the client
+22,2017-01-27 23:53:03.000000000,2018-08-28 14:29:06.000000000,closed,1,Unprotected concurrent access to writing flag
+21,2017-01-27 23:50:49.000000000,2017-02-28 03:46:07.000000000,closed,2,NSCondition.wait()s can wake up spuriously
+20,2017-01-27 23:49:51.000000000,2018-08-28 14:36:26.000000000,closed,4,More flexible secure channel constructor is needed
+19,2017-01-27 21:04:25.000000000,2018-08-28 14:42:40.000000000,closed,4,Call message queue cannot be closed safely
+18,2017-01-24 00:58:39.000000000,2020-03-19 17:14:13.000000000,closed,3,Prepare Docker image for Swift gRPC development
+17,2017-01-19 22:39:29.000000000,2017-01-24 00:57:24.000000000,closed,1,Build gRPC Core and BoringSSL with the Swift Package Manager
+16,2017-01-14 06:09:51.000000000,2017-02-20 23:25:50.000000000,closed,2,Update the plugin to use an official version of Stencil.
+15,2017-01-14 05:26:47.000000000,2017-01-26 21:48:49.000000000,closed,2,Create a Travis Continuous integration for testing
+14,2017-01-11 22:40:25.000000000,2020-03-19 17:07:04.000000000,closed,5,Metadata access needed throughout the API
+13,2017-01-11 22:24:20.000000000,2018-08-22 12:33:47.000000000,closed,52,Carthage Support
+12,2017-01-09 07:02:45.000000000,2017-04-20 23:54:19.000000000,closed,11,Echo sample broken (problems building grpc core on MacOS)
+11,2017-01-08 07:02:26.000000000,2018-04-13 01:36:17.000000000,closed,1,Cocoapods build configuration (Podspec is broken)
+10,2017-01-08 02:01:44.000000000,2020-03-19 17:07:05.000000000,closed,2,Robust error handling
+9,2017-01-07 08:43:43.000000000,2017-01-24 23:18:15.000000000,closed,1,Bundle code generation templates with or inside the plugin
+8,2016-12-02 22:23:25.000000000,2016-12-10 03:18:56.000000000,closed,0,"Crash, Speech example not functional iOS 10 / iPhone 7 - SSL?"
+7,2016-11-15 04:38:02.000000000,2020-03-19 17:14:00.000000000,closed,2,Complete API Overview Document
+6,2016-10-26 06:52:10.000000000,2016-11-29 00:46:43.000000000,closed,6,gRPC on Docker ubuntu 14.04
+5,2016-10-26 03:50:06.000000000,2018-04-18 19:42:33.000000000,closed,6,Define 1.0 release requirements.
+4,2016-10-26 03:34:54.000000000,2017-01-07 08:34:24.000000000,closed,2,Extend Echo sample to exercise all streaming cases.
+3,2016-10-26 03:29:03.000000000,2019-07-03 11:49:58.000000000,closed,1,Pass gRPC interoperability tests.
+2,2016-10-26 03:26:46.000000000,2017-01-07 08:32:08.000000000,closed,11,Develop code generation for gRPC Services.
+1,2016-10-26 03:25:29.000000000,2016-11-13 11:58:21.000000000,closed,3,Resolve missing Grand Central Dispatch support on Linux.

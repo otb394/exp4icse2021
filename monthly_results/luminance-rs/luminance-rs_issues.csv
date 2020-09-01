@@ -1,0 +1,446 @@
+id,created_at,closed_at,state,comments,title
+445,2020-08-30 18:21:21.000000000,1970-01-01 00:00:00.000000001,open,0,luminance-sdl2 cannot be pushed due to failing sdl2 crate
+444,2020-08-28 17:42:19.000000000,2020-08-30 16:59:05.000000000,closed,0,[all] Prepare for luminance-0.42.
+443,2020-08-25 23:28:08.000000000,2020-08-26 00:21:08.000000000,closed,0,Enhancement/442 uniform type mismatch webgl
+442,2020-08-25 03:37:41.000000000,2020-08-26 00:21:08.000000000,closed,0,Take into account the presence of D* in uniforms in luminance-webgl
+441,2020-08-18 23:02:05.000000000,1970-01-01 00:00:00.000000001,open,0,Simplify the mess that is Tess.
+440,2020-08-18 22:59:18.000000000,1970-01-01 00:00:00.000000001,open,0,Documentation is lacking on the backend side of the luminance crate.
+439,2020-08-18 22:57:53.000000000,1970-01-01 00:00:00.000000001,open,0,DepthSlot is implemented on (); it’s hard to find.
+438,2020-08-18 21:49:05.000000000,1970-01-01 00:00:00.000000001,open,0,Figure out why polymorphic typed client code is hard
+437,2020-08-18 03:37:19.000000000,2020-08-18 15:30:45.000000000,closed,0,Fix incorrectly set mutable buffer slices. 
+436,2020-08-16 22:51:37.000000000,2020-08-18 15:30:44.000000000,closed,4,luminance_webgl: Tess::vertices_mut() returns a slice of the wrong size
+435,2020-08-09 17:36:49.000000000,2020-08-11 02:36:27.000000000,closed,2,luminance-glfw: events_rx queue does not yield any events
+434,2020-08-08 21:59:38.000000000,1970-01-01 00:00:00.000000001,open,2,luminance_webgl: setting uniform mat4 gives runtime size error
+433,2020-08-08 16:37:51.000000000,2020-08-10 15:37:00.000000000,closed,0,"Cleanup workspace’s default-members, integration tests and CI."
+432,2020-08-05 22:13:11.000000000,2020-08-22 16:45:28.000000000,closed,2,Bow to clippy
+431,2020-08-05 19:45:34.000000000,2020-08-05 20:13:30.000000000,closed,0,Use destructuring syntax to make example easier to read
+430,2020-08-05 17:49:42.000000000,2020-08-05 20:43:23.000000000,closed,0,Support f64 in shader (luminance-gl only so far)
+429,2020-08-05 17:47:52.000000000,2020-08-05 18:28:08.000000000,closed,1,Fix grammar/typo in comment in WebGL example
+428,2020-08-01 23:33:02.000000000,2020-08-10 15:37:02.000000000,closed,2,luminance-examples-web build fails
+427,2020-07-31 08:47:48.000000000,1970-01-01 00:00:00.000000001,open,1,HtmlCanvasElements are always resized when mounted
+426,2020-07-31 08:15:21.000000000,1970-01-01 00:00:00.000000001,open,2,Allow binding multiple HtmlCanvasElements
+425,2020-07-28 04:05:19.000000000,2020-07-28 13:23:01.000000000,closed,0,[luminance-front] Prepare luminance-front-0.2.2.
+424,2020-07-28 02:54:57.000000000,2020-07-28 04:03:35.000000000,closed,0,[luminance-front] Add missing UniformInterface re-export.
+423,2020-07-27 15:18:57.000000000,2020-07-27 15:31:15.000000000,closed,0,[luminance-front] Prepare 0.2.1.
+422,2020-07-25 17:42:00.000000000,2020-07-27 13:35:23.000000000,closed,1,Preserve the default type for Tess and TessBuilder.
+421,2020-07-24 14:24:21.000000000,2020-07-24 15:33:16.000000000,closed,0,Release/luminance 0.41
+420,2020-07-24 02:11:25.000000000,2020-07-24 13:38:50.000000000,closed,0,Fix/418 doc links
+419,2020-07-23 17:40:59.000000000,2020-07-23 19:11:34.000000000,closed,0,Add support for pipeline errors.
+418,2020-07-23 17:34:56.000000000,2020-07-25 03:37:13.000000000,closed,0,Update dead links in documentation
+417,2020-07-23 16:32:51.000000000,2020-07-23 19:17:40.000000000,closed,1,Small tweaks to README.md
+416,2020-07-21 22:47:35.000000000,2020-07-25 03:37:32.000000000,closed,0,Allow users to return their own error types in the pipeline gates
+415,2020-07-21 13:58:57.000000000,2020-07-23 13:41:18.000000000,closed,1,Fix the GraphicsContext design issue in luminance-front.
+414,2020-07-21 12:34:19.000000000,2020-07-23 13:41:18.000000000,closed,1,Some luminance-front types pass the crate::Backend to a position where a GraphicsContext is expected
+413,2020-07-21 02:10:48.000000000,2020-07-21 02:36:50.000000000,closed,2,[luminance-examples] Add the skybox example.
+412,2020-07-20 22:48:46.000000000,2020-07-21 00:54:56.000000000,closed,0,[luminance] Add #[derive(Debug)] on TextureBinding.
+411,2020-07-20 22:48:43.000000000,2020-07-21 02:05:27.000000000,closed,0,Example/cubemaps
+410,2020-07-18 03:32:57.000000000,1970-01-01 00:00:00.000000001,open,1,[luminance-glutin] Re-export of glutin removed
+409,2020-07-17 17:09:58.000000000,2020-07-18 12:37:22.000000000,closed,2,Provide an example of Vertex definition without luminance-derive
+408,2020-07-17 03:25:35.000000000,1970-01-01 00:00:00.000000001,open,0,Compute shaders
+407,2020-07-15 22:04:53.000000000,2020-07-15 22:36:29.000000000,closed,0,Support for enabling / disabling depth writes
+406,2020-07-15 21:21:37.000000000,2020-07-15 21:37:02.000000000,closed,0,[luminance-gl] Make GLState visible from the outer world.
+405,2020-07-15 21:16:10.000000000,1970-01-01 00:00:00.000000001,open,0,Document luminance-gl
+404,2020-07-15 20:52:14.000000000,2020-07-15 21:02:30.000000000,closed,0,Fix/render state field vis
+403,2020-07-15 19:09:10.000000000,2020-07-15 20:42:26.000000000,closed,0,"[luminance-glutin, luminance-examples] Exposes EventLoop when creating the surface."
+402,2020-07-15 18:33:23.000000000,2020-07-15 18:49:24.000000000,closed,0,[luminance-glfw] Remove re-exporting symbols from glfw.
+401,2020-07-14 01:51:14.000000000,2020-07-15 20:42:32.000000000,closed,1,There doesn't seem to be a way to make a fullscreen window with luminance-glutin
+400,2020-07-13 05:41:58.000000000,2020-07-21 22:46:31.000000000,closed,2,Allow disabling depth writes when rendering
+399,2020-07-12 09:19:30.000000000,1970-01-01 00:00:00.000000001,open,4,WIP: Add ability to scissor geometry via RenderState
+398,2020-07-12 07:05:57.000000000,2020-07-13 13:57:04.000000000,closed,1,Fix a pointer bug in the BufferSlice/BufferSliceMut transmute implementations
+397,2020-07-12 07:03:17.000000000,2020-07-13 13:57:04.000000000,closed,4,Pointer bug with BufferSlice/BufferSliceMut in GL33 and WebGL
+396,2020-07-12 03:21:32.000000000,2020-07-12 03:46:26.000000000,closed,0,[luminance-examples] Add a new example to dynamically mutate vertices on the GPU.
+395,2020-07-11 17:49:41.000000000,2020-07-11 18:02:20.000000000,closed,0,"[luminance, luminance-examples] Update documentation to rename TessSlice into TessView."
+394,2020-07-11 14:02:56.000000000,2020-07-15 20:42:53.000000000,closed,0,"Add a binary that uses the vertices(), vertices_mut(), indices(), indices_mut(), instances() and instances_mut()"
+393,2020-07-11 07:16:46.000000000,2020-07-11 13:48:47.000000000,closed,3,Fix Interleaved/Deinterleaved typos in VertexSliceBackend/InstanceSliceBackend implementations
+392,2020-07-11 07:07:55.000000000,2020-07-15 20:43:06.000000000,closed,3,Tess::instances() and Tess::instances_mut() cannot be called due to rustc error
+391,2020-07-10 17:17:56.000000000,2020-07-10 17:29:27.000000000,closed,0,Fix/cleanup
+390,2020-07-10 17:17:06.000000000,2020-07-16 21:20:55.000000000,closed,1,Release/luminance 0.40
+389,2020-07-10 00:23:03.000000000,2020-07-11 22:30:46.000000000,closed,3,Enable WebGL extensions to support floating-point texture filtering #388
+388,2020-07-09 23:42:56.000000000,2020-07-12 00:45:31.000000000,closed,3,WebGl2RenderingContext requires extensions to enable floating-point texture filtering
+387,2020-07-09 17:45:58.000000000,2020-07-09 17:57:29.000000000,closed,0,Add luminance-glyph is in the list of dependent crates on the front README.
+386,2020-07-09 07:48:46.000000000,2020-07-11 15:19:24.000000000,closed,2,"Implement type-safe texture uploads for f32, u8-32, and i8-32"
+385,2020-07-09 07:10:58.000000000,2020-07-12 02:19:28.000000000,closed,0,WebGL Float Textures cannot be uploaded
+384,2020-07-08 20:11:08.000000000,2020-07-08 23:17:38.000000000,closed,4,Support for custom glVertexAttribDivisors
+383,2020-07-07 16:29:17.000000000,2020-07-09 17:45:46.000000000,closed,0,Feature/luminance examples web
+382,2020-07-07 12:40:45.000000000,1970-01-01 00:00:00.000000001,open,0,Add a fixture to demonstrate #360
+381,2020-07-04 03:40:35.000000000,2020-07-04 14:28:07.000000000,closed,4,Return TextureError::UnsupportedPixelFormat if the WebGL Pixel Format does not exist. #364
+380,2020-07-03 18:00:03.000000000,2020-07-07 03:22:43.000000000,closed,1,Add luminance-web-sys
+379,2020-07-03 15:01:43.000000000,2020-07-03 17:10:43.000000000,closed,0,Misc/update readme contributing
+378,2020-07-03 14:39:10.000000000,2020-07-03 15:01:54.000000000,closed,0,[gl33] Fix potential double-free on the GPU when a Program doesn’t link.
+377,2020-07-02 17:25:56.000000000,2020-07-02 18:13:46.000000000,closed,0,"Cleanup errors (adding helper methods, use field-variant, etc.)"
+376,2020-06-29 14:10:49.000000000,2020-06-29 20:11:13.000000000,closed,0,Enhance texture unit caching to prevent switching texture units when no texture bind would occur
+375,2020-06-29 03:36:25.000000000,2020-06-29 20:10:27.000000000,closed,0,Update glfw requirement from 0.37 to 0.39
+374,2020-06-27 16:19:49.000000000,2020-06-29 14:11:41.000000000,closed,2,MRT doesn’t work anymore
+373,2020-06-27 15:57:24.000000000,2020-06-27 19:15:31.000000000,closed,0,"Add luminance-sdl2’s ""bundled"" feature. #371"
+372,2020-06-26 00:59:57.000000000,2020-06-28 22:13:51.000000000,closed,5,Fix framebuffers with multiple color slots
+371,2020-06-25 13:58:22.000000000,2020-06-27 15:57:09.000000000,closed,2,SDL2 linking is borken on Archlinux
+370,2020-06-22 20:18:25.000000000,2020-06-24 02:31:43.000000000,closed,0,Feature/luminance platform
+369,2020-06-22 16:22:04.000000000,2020-06-22 17:40:26.000000000,closed,0,Misc/cleanup
+368,2020-06-22 15:59:04.000000000,2020-06-22 16:05:00.000000000,closed,0,Support for WebGL2 pipelines
+367,2020-06-19 13:45:39.000000000,2020-06-19 17:51:29.000000000,closed,0,Misc/ci backends
+366,2020-06-12 02:57:48.000000000,2020-07-02 18:13:58.000000000,closed,0,Simplify error building by adding methods to turn String into impl Into<String> (for instance)
+365,2020-06-12 02:56:58.000000000,2020-06-18 01:06:26.000000000,closed,0,Initial work on WebGL shader support.
+364,2020-06-11 01:02:44.000000000,2020-07-04 14:29:12.000000000,closed,0,Remove unwrap in texture code in the WebGL2 backend
+363,2020-06-10 17:44:31.000000000,2020-06-29 03:36:29.000000000,closed,2,Update glfw requirement from 0.37 to 0.38
+362,2020-06-08 14:05:01.000000000,2020-06-08 14:16:03.000000000,closed,0,Rename GL33::generate_texture as GL33::create_texture.
+361,2020-06-08 01:35:33.000000000,2020-06-08 01:47:16.000000000,closed,0,WebGL2 framebuffer support
+360,2020-06-04 02:36:54.000000000,1970-01-01 00:00:00.000000001,open,3,New framebuffer broken after dropping another framebuffer on Windows
+359,2020-05-31 19:51:59.000000000,2020-05-31 22:40:19.000000000,closed,0,"Fix OpenGL 3.3 texture code, especially regarding reserving textures for framebuffers."
+358,2020-05-31 19:33:47.000000000,2020-05-31 19:49:38.000000000,closed,0,Implement texture support for the WebGL2 backend.
+357,2020-05-31 19:22:50.000000000,2020-05-31 19:32:50.000000000,closed,0,Fix WebGL tessellation coding style (unbinding).
+356,2020-05-25 09:10:30.000000000,2020-05-25 17:05:11.000000000,closed,0,Update sdl2 requirement from 0.33 to 0.34
+355,2020-05-24 19:51:09.000000000,2020-07-11 18:02:10.000000000,closed,0,Update the luminance ecosystem in the README to add the newly added crates
+354,2020-05-21 18:38:34.000000000,2020-05-24 16:58:02.000000000,closed,0,Feature/webgl tess
+353,2020-05-12 03:43:04.000000000,2020-05-12 03:55:57.000000000,closed,0,Fix Tessellation code regarding interleaved and deinterleaved memory.
+352,2020-05-11 03:05:14.000000000,2020-05-11 03:22:30.000000000,closed,0,"Big rework of the Tess (both builders, abstraction and backend code)"
+351,2020-05-09 16:23:54.000000000,2020-05-10 22:07:42.000000000,closed,6,error: failed to run custom build command for `glfw-sys v3.3.2` 
+350,2020-05-04 09:42:56.000000000,2020-06-03 13:58:24.000000000,closed,6,Support separate rgb/alpha for blending equations and factors. #296
+349,2020-04-26 22:47:05.000000000,2020-04-26 22:47:15.000000000,closed,0,Simulate persistent buffer mapping on OpenGL.
+348,2020-04-24 10:42:48.000000000,2020-04-25 23:58:23.000000000,closed,0,implement std::error::Error for errors in all crates
+347,2020-04-18 20:41:11.000000000,2020-04-18 22:36:47.000000000,closed,0,Add support for buffers when adding data into tessellations.
+346,2020-04-17 23:27:15.000000000,2020-04-18 18:20:24.000000000,closed,0,Remove destroy_* from the backend interface and move the Drop implementors in backends
+345,2020-04-17 00:44:32.000000000,2020-04-18 20:27:34.000000000,closed,2,Remove destroy_* from the backend interface and move Drop into the backend crates
+344,2020-04-15 05:03:47.000000000,2020-04-20 03:43:04.000000000,closed,0,WebGL buffer implementation.
+343,2020-04-15 04:30:33.000000000,2020-06-03 13:58:57.000000000,closed,2,Implement std::error::Error for all errors.
+342,2020-04-15 04:24:32.000000000,1970-01-01 00:00:00.000000001,open,0,luminance-glutin lost CursorMode support
+341,2020-04-15 04:13:23.000000000,2020-05-12 03:57:02.000000000,closed,0,Review luminance-gl Buffer::clear implementation
+340,2020-04-15 04:09:28.000000000,2020-04-15 04:15:00.000000000,closed,0,Make the backend interface of buffers Copy friendly.
+339,2020-04-14 18:41:29.000000000,2020-05-24 18:19:44.000000000,closed,2,Resetting cached GL state
+338,2020-04-13 17:45:51.000000000,2020-04-13 17:55:11.000000000,closed,0,Cleanup/various
+337,2020-04-13 04:30:18.000000000,1970-01-01 00:00:00.000000001,open,0,Ensure casting &[T] to &[u8] is not a UB in the luminance-webgl backend
+336,2020-04-12 19:29:41.000000000,2020-06-29 22:19:36.000000000,closed,0,Remove the gl.rs file from luminance/
+335,2020-04-11 21:31:38.000000000,2020-04-24 17:56:53.000000000,closed,4,API simplification
+334,2020-04-11 20:20:10.000000000,2020-04-11 20:34:41.000000000,closed,0,Misc/cleanup
+333,2020-04-07 00:40:59.000000000,2020-07-07 13:06:08.000000000,closed,8,Selectively resetting cached graphics state
+332,2020-04-06 22:30:58.000000000,2020-04-13 05:07:03.000000000,closed,0,Convert Framebuffer into its slots
+331,2020-04-06 21:02:52.000000000,2020-04-06 21:04:36.000000000,closed,1,Feature request: Deconstruct Framebuffer into its slots
+330,2020-04-06 16:26:05.000000000,2020-04-15 04:17:21.000000000,closed,1,Update glfw requirement from 0.36 to 0.37
+329,2020-04-06 16:25:44.000000000,2020-04-09 22:30:00.000000000,closed,0,Update glutin requirement from 0.23 to 0.24
+328,2020-04-06 16:23:28.000000000,2020-04-06 16:24:35.000000000,closed,1,Your .dependabot/config.yml contained invalid details
+327,2020-04-06 16:21:38.000000000,2020-04-06 16:24:35.000000000,closed,0,Dependabot can't resolve your Rust dependency files
+326,2020-04-06 16:20:59.000000000,2020-04-06 16:24:35.000000000,closed,0,Dependabot can't resolve your Rust dependency files
+325,2020-04-06 16:20:58.000000000,2020-04-06 16:24:35.000000000,closed,0,Dependabot can't resolve your Rust dependency files
+324,2020-04-06 14:53:08.000000000,2020-04-06 14:53:52.000000000,closed,0,Doc/logo integration
+323,2020-04-06 13:56:30.000000000,2020-04-06 13:56:48.000000000,closed,0,Logo
+322,2020-04-05 17:01:15.000000000,2020-04-06 16:19:40.000000000,closed,1,Your .dependabot/config.yml contained invalid details
+321,2020-04-05 16:19:21.000000000,2020-04-05 16:27:58.000000000,closed,0,Document the new luminance!
+320,2020-04-05 15:36:04.000000000,2020-04-05 17:01:14.000000000,closed,0,Add dependabot configuration.
+319,2020-03-29 17:24:23.000000000,2020-05-24 19:49:15.000000000,closed,8,Add luminance-sdl2 backend.
+318,2020-03-29 17:16:02.000000000,2020-04-12 17:41:44.000000000,closed,2,What's the purpose of having backend-specific TessBuilders?
+317,2020-03-29 03:37:15.000000000,1970-01-01 00:00:00.000000001,open,0,Buffer mapping should check if returned mapped pointers are ≠ ptr::null()
+316,2020-03-15 21:20:25.000000000,2020-04-06 00:28:50.000000000,closed,3,Replace square calls with bitwise left shifts. #301
+315,2020-03-15 20:49:27.000000000,2020-03-15 20:51:04.000000000,closed,1,Rewrite check_types_match with a macro_rules. #312
+314,2020-03-15 06:35:24.000000000,2020-03-15 22:48:41.000000000,closed,0,Backend design implementation
+313,2020-03-08 23:51:11.000000000,2020-04-11 04:14:12.000000000,closed,0,Make Program first type variable inferred.
+312,2020-03-02 05:13:56.000000000,2020-04-11 04:08:17.000000000,closed,0,Rewrite check_types_match with a macro_rules
+311,2020-03-02 04:58:36.000000000,1970-01-01 00:00:00.000000001,open,0,Re-introduce cubemap arrays
+310,2020-02-26 10:40:30.000000000,2020-04-24 17:57:21.000000000,closed,8,"Implement std::error::Error if the ""std"" feature is enabled"
+309,2020-02-26 05:07:53.000000000,1970-01-01 00:00:00.000000001,open,2,Incorrect data uploaded using VertexSemantics
+308,2020-02-24 22:57:29.000000000,2020-02-25 02:46:46.000000000,closed,0,"Remove Layering, Layerable and Flat types"
+307,2020-02-24 21:19:34.000000000,2020-02-25 02:47:38.000000000,closed,1,Moving from ControlFlow::Poll to ControlFlow::Wait
+306,2020-02-22 21:33:18.000000000,2020-02-23 18:52:43.000000000,closed,1,Updated luminance-glutin
+305,2020-02-18 12:50:57.000000000,2020-04-15 04:10:11.000000000,closed,1,Review allocation scheme in OpenGL objects
+304,2020-02-16 01:01:26.000000000,1970-01-01 00:00:00.000000001,open,4,Segmentation fault in Drop impls when missing GL context
+303,2020-02-12 17:31:51.000000000,2020-04-10 19:22:23.000000000,closed,0,Find a logo
+302,2020-02-07 03:22:46.000000000,1970-01-01 00:00:00.000000001,open,0,Add support for array in uniforms
+301,2020-02-02 18:16:27.000000000,2020-04-06 00:29:19.000000000,closed,1,Replace square calls to bitwise left shifts while generating mipmaps
+300,2020-01-24 05:26:24.000000000,2020-04-13 05:07:03.000000000,closed,3,Add ability to decouple texture from framebuffer
+299,2020-01-19 00:49:53.000000000,2020-03-15 20:51:04.000000000,closed,0,Add a macro to implement check_types_match
+298,2020-01-17 23:46:53.000000000,2020-01-21 01:19:15.000000000,closed,4,X Error caused by GlfwSurface.poll_events
+297,2020-01-16 19:15:50.000000000,2020-04-15 04:31:27.000000000,closed,1,Multiwin
+296,2020-01-15 18:54:17.000000000,2020-06-03 13:58:43.000000000,closed,0,Add support of separated blending
+295,2020-01-14 18:41:59.000000000,1970-01-01 00:00:00.000000001,open,6,Enable GraphicsState to swap when multiple OpenGL contexts exists
+294,2020-01-10 05:27:36.000000000,1970-01-01 00:00:00.000000001,open,5,Allow access to window handle in luminance-windowing
+293,2020-01-09 00:25:32.000000000,2020-01-09 01:17:04.000000000,closed,0,Add GlutinSurface::from_builders.
+292,2020-01-07 19:28:53.000000000,2020-01-07 19:50:46.000000000,closed,0,Make semantics’ variant generated types public and deref—ed.
+291,2020-01-07 06:59:20.000000000,2020-02-23 19:04:54.000000000,closed,11,RFC: Implement array textures
+290,2020-01-06 20:35:00.000000000,2020-01-06 20:47:28.000000000,closed,0,Implement Display for GlutinError.
+289,2020-01-05 22:37:28.000000000,2020-01-05 23:31:46.000000000,closed,0,Add `rx` to dependent projects
+288,2020-01-04 20:52:34.000000000,1970-01-01 00:00:00.000000001,open,0,Const fn vertex creation
+287,2020-01-04 17:59:16.000000000,2020-01-04 20:12:54.000000000,closed,0,Prepare release of luminance-0.38
+286,2020-01-04 06:54:44.000000000,2020-01-04 07:37:07.000000000,closed,0,Add sRGB pixel formats.
+285,2020-01-04 04:51:31.000000000,2020-01-04 05:48:50.000000000,closed,0,Add support of setting samplers when creating framebuffers.
+284,2020-01-03 20:11:02.000000000,2020-01-03 20:50:51.000000000,closed,2,Add BGRA pixel format
+283,2020-01-03 00:53:17.000000000,2020-01-03 00:58:30.000000000,closed,0,Fix/state tracker
+282,2020-01-03 00:24:05.000000000,2020-01-03 00:41:48.000000000,closed,0,Add support for sRGB linearization.
+281,2020-01-02 22:07:25.000000000,2020-01-02 23:43:41.000000000,closed,0,Feature/pipeline state
+280,2020-01-02 21:11:34.000000000,2020-01-03 01:00:08.000000000,closed,0,Add gamma ramp as part of the render state
+279,2020-01-02 19:30:53.000000000,2020-01-03 01:00:23.000000000,closed,0,Allow not to clean framebuffers buffers when running a pipeline
+278,2019-12-30 17:10:35.000000000,1970-01-01 00:00:00.000000001,open,3,uniform type validation fails with mesa / old graphics card
+277,2019-12-22 20:32:15.000000000,2020-04-11 04:13:00.000000000,closed,0,Backend-ize buffers
+276,2019-12-22 18:40:25.000000000,1970-01-01 00:00:00.000000001,open,0,Implement OpenGL ES shading uniforms
+275,2019-12-22 18:40:03.000000000,1970-01-01 00:00:00.000000001,open,0,Implement OpenGL ES shading programs
+274,2019-12-22 18:39:50.000000000,1970-01-01 00:00:00.000000001,open,0,Implement OpenGL ES shading stages
+273,2019-12-22 18:39:32.000000000,1970-01-01 00:00:00.000000001,open,0,Implement OpenGL ES tessellations
+272,2019-12-22 18:39:18.000000000,1970-01-01 00:00:00.000000001,open,0,Implement OpenGL ES framebuffers
+271,2019-12-22 18:39:08.000000000,1970-01-01 00:00:00.000000001,open,0,Implement OpenGL ES textures
+270,2019-12-22 18:38:40.000000000,2020-06-22 16:22:42.000000000,closed,0,Implement WebGL tessellation gates support
+269,2019-12-22 18:38:24.000000000,2020-06-22 16:22:31.000000000,closed,0,Implement WebGL render gates support
+268,2019-12-22 18:37:57.000000000,2020-06-22 16:22:33.000000000,closed,0,Implement WebGL shading gates support
+267,2019-12-22 18:35:52.000000000,2020-04-11 04:12:42.000000000,closed,0,Backend-ize pipelines
+266,2019-12-22 18:35:36.000000000,2020-04-11 04:12:13.000000000,closed,0,Backend-ize shading gates
+265,2019-12-22 17:57:51.000000000,2020-04-11 04:13:02.000000000,closed,0,Backend-ize render gates
+264,2019-12-22 17:57:24.000000000,2020-04-11 04:12:14.000000000,closed,0,Backend-ize tessellation gates
+263,2019-12-22 17:56:34.000000000,2020-04-11 04:12:09.000000000,closed,1,Backend-ize shader uniforms
+262,2019-12-22 17:56:12.000000000,2020-04-11 04:12:44.000000000,closed,0,Backend-ize shader programs
+261,2019-12-22 17:54:49.000000000,2020-04-11 04:12:56.000000000,closed,0,Backend-ize shader stages
+260,2019-12-22 17:08:20.000000000,2020-04-11 04:12:54.000000000,closed,0,Backend-ize tessellations
+259,2019-12-22 17:07:59.000000000,2020-04-11 04:12:11.000000000,closed,0,Backend-ize framebuffers
+258,2019-12-22 17:07:43.000000000,2020-04-11 04:12:58.000000000,closed,0,Backend-ize textures
+257,2019-12-22 17:07:12.000000000,1970-01-01 00:00:00.000000001,open,0,Implement OpenGL ES buffers
+256,2019-12-19 01:13:58.000000000,1970-01-01 00:00:00.000000001,open,2,Rename Tess into something less confusing
+255,2019-12-11 23:41:55.000000000,1970-01-01 00:00:00.000000001,open,6,surface.poll_events() is always one or zero events per frame
+254,2019-12-05 21:49:06.000000000,1970-01-01 00:00:00.000000001,open,1,Write an example that uses hardware tessellation (i.e. tessellation shaders)
+253,2019-12-04 05:30:38.000000000,2020-07-25 18:40:40.000000000,closed,2,Set cursor position
+252,2019-11-28 04:11:55.000000000,2019-12-04 18:36:37.000000000,closed,0,Tessellation shader
+251,2019-11-24 17:10:14.000000000,2019-12-22 17:06:30.000000000,closed,1,Finish shader migration to the new crate backend system.
+250,2019-11-24 01:45:26.000000000,2019-11-24 01:47:02.000000000,closed,0,(pr) Revert Uniformable::TY to Uniformable::ty().
+249,2019-11-16 04:49:49.000000000,2020-04-15 04:25:03.000000000,closed,4,Grab & set position of cursor in luminance_glutin
+248,2019-11-15 20:33:24.000000000,1970-01-01 00:00:00.000000001,open,2,Add support for range instances in TessSliceIndex
+247,2019-11-11 07:59:50.000000000,2020-08-18 03:40:00.000000000,closed,2,glfw::Modifiers not exported?
+246,2019-11-08 21:21:16.000000000,1970-01-01 00:00:00.000000001,open,2,"GLFW wait_event results in ""not responding"" on Win10"
+245,2019-11-08 21:18:17.000000000,2020-08-05 20:43:22.000000000,closed,7,f64 support in Uniform
+244,2019-11-04 15:43:01.000000000,2019-11-05 04:41:58.000000000,closed,2,Re-export `glutin::MouseButton` in `luminance-glutin`
+243,2019-11-02 03:13:57.000000000,1970-01-01 00:00:00.000000001,open,0,"Use sealed traits for ColorPixel, DepthPixel and RenderablePixel (and remove unsafe annotation)"
+242,2019-10-29 06:47:49.000000000,2020-07-25 18:46:51.000000000,closed,8,UniformWarning(Inactive) is not ignored
+241,2019-10-29 04:10:18.000000000,2020-01-04 20:13:52.000000000,closed,4,Support for sRGB textures and framebuffers.
+240,2019-10-23 04:41:20.000000000,2019-10-23 10:15:47.000000000,closed,1,feature: add displacement map example
+239,2019-10-17 19:32:37.000000000,2019-10-17 19:42:53.000000000,closed,0,Fix CI for macOSX.
+238,2019-10-16 01:01:28.000000000,2019-11-24 17:09:45.000000000,closed,2,Crates vs. feature flags
+237,2019-10-12 16:38:49.000000000,2019-10-12 22:43:53.000000000,closed,1,Update glfw version in luminance-glfw
+236,2019-10-08 19:27:52.000000000,2020-06-22 16:22:38.000000000,closed,0,Implement WebGL pipeline support
+235,2019-10-08 19:27:34.000000000,2020-06-08 01:47:30.000000000,closed,0,Implement WebGL framebuffers
+234,2019-10-08 19:27:04.000000000,2020-07-25 18:43:39.000000000,closed,0,"Implement WebGL shader stages, programs and uniforms"
+233,2019-10-08 19:26:43.000000000,2020-06-07 17:42:50.000000000,closed,0,Implement WebGL textures
+232,2019-10-08 19:26:24.000000000,2020-07-25 18:43:36.000000000,closed,0,Implement WebGL buffers
+231,2019-10-08 19:26:11.000000000,2019-12-22 17:08:38.000000000,closed,2,Move all gl-specific code out of pipelines
+230,2019-10-01 14:04:19.000000000,2020-06-19 17:46:07.000000000,closed,0,"set_primitive_restart_index should take the type of index, not u32"
+229,2019-09-29 20:13:39.000000000,2019-09-29 20:20:07.000000000,closed,0,Release/luminance 0.37
+228,2019-09-29 19:53:39.000000000,2019-09-29 19:53:46.000000000,closed,0,Release/luminance 0.37
+227,2019-09-29 03:52:49.000000000,2019-09-29 19:51:32.000000000,closed,0,Cubemaps have 2D faces
+226,2019-09-29 03:27:29.000000000,2019-09-29 19:51:32.000000000,closed,1,Cubemap wants too many pixels
+225,2019-09-29 03:03:19.000000000,2019-09-29 03:11:40.000000000,closed,0,Feature/render state depth comparison
+224,2019-09-20 14:28:04.000000000,2019-09-20 14:32:14.000000000,closed,0,Add the log-errors feature flag to luminance-glfw.
+223,2019-09-20 14:15:42.000000000,2019-09-20 14:37:40.000000000,closed,0,Release/luminance 0.36
+222,2019-09-18 17:11:10.000000000,2019-09-18 18:22:15.000000000,closed,0,Add support for struct-tuple as vertex type. #166 
+221,2019-09-17 18:43:48.000000000,2019-09-17 18:58:43.000000000,closed,0,Fix luminance-derive’s Semantics for empty structs. #192
+220,2019-09-16 22:10:06.000000000,2019-09-16 23:39:37.000000000,closed,0,"Add ::new methods for user vertex types, so that they don’t have to do it."
+219,2019-09-13 21:48:36.000000000,2019-09-13 22:32:49.000000000,closed,1,Update README.md
+218,2019-09-13 20:08:26.000000000,2019-09-14 01:42:10.000000000,closed,5,"Add TessGate::builder(), to support dynamic Tess construction"
+217,2019-09-12 22:00:37.000000000,2019-09-12 22:17:44.000000000,closed,0,Release/luminance 0.35
+216,2019-09-12 20:56:13.000000000,2019-09-12 21:58:59.000000000,closed,0,Implement safe pipelines. #195
+215,2019-09-11 17:53:21.000000000,2019-09-11 17:57:49.000000000,closed,0,Release/next
+214,2019-09-11 17:30:28.000000000,2019-09-11 17:53:00.000000000,closed,0,Add support for Surface::back_buffer.
+213,2019-09-11 00:25:18.000000000,2019-09-11 16:49:29.000000000,closed,0,Fix tessellations corruptions from previous dropped short-living tess…
+212,2019-09-10 21:34:49.000000000,2019-09-11 17:57:50.000000000,closed,11,TessGate::render() calls produce no output after Tess::drop() has been called
+211,2019-09-10 17:37:04.000000000,2019-09-10 18:49:34.000000000,closed,0,Change TessGate::render so that it’s now polymorphic in the TessSlice…
+210,2019-09-10 17:24:00.000000000,2019-09-10 17:35:23.000000000,closed,0,Swap the arguments of the binary closure passed to ShadingGate::shade…
+209,2019-09-07 15:11:56.000000000,1970-01-01 00:00:00.000000001,open,1,You use luminance? Get a link to your project on the front README!
+208,2019-09-06 18:34:34.000000000,2019-09-06 18:40:40.000000000,closed,0,Add support for specifying the number of instances to render within T…
+207,2019-09-03 16:44:01.000000000,2019-09-03 16:52:12.000000000,closed,0,Texture rework & luminance-0.32
+206,2019-09-03 13:16:14.000000000,2019-09-03 13:25:15.000000000,closed,0,Deprecate RGB pixel formats. #201
+205,2019-09-01 18:43:35.000000000,2019-09-01 19:19:02.000000000,closed,0,Feature/snorm pixel fmt
+204,2019-09-01 03:27:58.000000000,2019-09-01 03:28:11.000000000,closed,0,Make upload texels to textures a failible operation. #200
+203,2019-09-01 02:25:13.000000000,2019-09-01 02:48:12.000000000,closed,0,Fix the 06-texture example.
+202,2019-09-01 02:22:17.000000000,2019-09-01 19:19:11.000000000,closed,0,Rework pixel format code so that we can support SNORM
+201,2019-09-01 02:20:34.000000000,2019-09-03 16:45:05.000000000,closed,0,Remove RGB pixel format support
+200,2019-09-01 02:19:30.000000000,2019-09-01 04:32:14.000000000,closed,0,Implement texture’s size check
+199,2019-09-01 02:12:59.000000000,2019-09-03 16:44:49.000000000,closed,1,Rework textures
+198,2019-09-01 00:27:35.000000000,2019-09-01 02:11:10.000000000,closed,0,First test with actions.
+197,2019-08-29 15:31:03.000000000,2019-09-10 17:37:19.000000000,closed,0,TessGate::render should take a T: Into<TessSlice>
+196,2019-08-29 15:24:50.000000000,2019-09-10 17:37:16.000000000,closed,0,Swap the arguments in the ShadingGate::shade’s closure
+195,2019-08-28 16:12:45.000000000,2019-09-13 04:12:52.000000000,closed,1,"Introduce lifetimes in pipeline, shading_gate, etc."
+194,2019-08-28 03:37:47.000000000,2019-09-17 00:03:46.000000000,closed,0,Implement VertexGenerated::new
+193,2019-08-28 03:11:21.000000000,2019-09-17 01:55:14.000000000,closed,0,"Note that vertex semantics must be Clone, Copy and Debug"
+192,2019-08-28 03:08:41.000000000,2019-09-18 00:13:40.000000000,closed,0,Check for empty vertex semantics
+191,2019-08-26 22:14:15.000000000,2019-08-27 13:35:07.000000000,closed,1,Drive by typo fix!
+190,2019-08-26 18:33:32.000000000,2019-09-11 18:18:32.000000000,closed,0,Move Framebuffer::back_buffer into a Surface
+189,2019-08-24 17:50:53.000000000,2019-09-11 21:42:32.000000000,closed,17,Texture example seems broken MacOs
+188,2019-08-24 01:40:31.000000000,2020-07-25 18:43:30.000000000,closed,3,[Question] Text rendering library?
+187,2019-08-23 14:46:23.000000000,2019-08-23 15:45:52.000000000,closed,0,Release/luminance 0.31
+186,2019-08-22 16:38:44.000000000,2019-08-22 17:28:32.000000000,closed,0,Misc/changelog
+185,2019-08-21 19:39:01.000000000,2019-08-23 14:46:08.000000000,closed,0,Update documentation of the tess module
+184,2019-08-21 19:07:21.000000000,2019-08-23 14:13:45.000000000,closed,0,Update changelog
+183,2019-08-21 14:25:10.000000000,2019-08-21 16:32:24.000000000,closed,0,Remove std::mem::uninitialized references. #181
+182,2019-08-21 12:41:26.000000000,2019-08-21 13:30:49.000000000,closed,0,Enable #![deny(missing_docs)] for luminance-glutin.
+181,2019-08-20 21:18:08.000000000,2019-08-21 16:58:47.000000000,closed,0,Remove the use of std::mem::uninitialized
+180,2019-08-20 21:16:19.000000000,2019-08-21 12:09:23.000000000,closed,0,Add #![deny(missing_docs)] on luminance-glfw. #167
+179,2019-08-20 21:11:54.000000000,2019-08-21 12:09:16.000000000,closed,0,Add #![deny(missing_docs)] on luminance-windowing.
+178,2019-08-20 20:59:55.000000000,2019-08-20 21:36:14.000000000,closed,0,Add #![deny(missing_docs)] on luminance-derive. #167
+177,2019-08-20 19:53:17.000000000,2019-08-20 20:46:00.000000000,closed,0,Set #![deny(missing_docs)] on luminance. #167
+176,2019-08-20 16:51:45.000000000,2020-06-19 17:46:20.000000000,closed,0,"Offer the possibility to slice-map tessellation buffers (vertex, index, instance) by using indexing"
+175,2019-08-20 16:14:47.000000000,2019-08-20 17:29:15.000000000,closed,0,Update Cargo.toml configurations for Rust 2018.
+174,2019-08-20 16:05:20.000000000,2019-08-20 17:29:00.000000000,closed,0,Migrate luminance-glfw to Rust edition 2018. #171
+173,2019-08-20 01:22:59.000000000,2020-01-04 05:49:06.000000000,closed,6,More control over framebuffer slots
+172,2019-08-19 18:13:50.000000000,2019-08-20 02:25:13.000000000,closed,0,Add luminance-glutin
+171,2019-08-19 16:30:58.000000000,2019-08-20 21:02:11.000000000,closed,0,Migrate luminance-glfw to Rust 2018
+170,2019-08-19 14:15:54.000000000,2019-08-19 16:23:56.000000000,closed,0,"Implement TessSliceIndex{Range{,To}Inclusive<usize>> for Tess. #145"
+169,2019-08-19 13:46:09.000000000,2019-08-19 14:16:03.000000000,closed,0,Fix/repr c vertex
+168,2019-08-19 13:37:37.000000000,2020-01-02 21:29:19.000000000,closed,1,Don’t forget to update the documentation prior to release 1.0.
+167,2019-08-19 13:37:24.000000000,2019-08-21 12:41:55.000000000,closed,1,Enable #![deny(missing_docs)].
+166,2019-08-19 12:58:13.000000000,2019-09-18 18:26:06.000000000,closed,0,Add support for struct-tuple (1 field) for Vertex derive
+165,2019-08-17 22:33:08.000000000,2019-08-20 16:05:38.000000000,closed,3,Glutin Support
+164,2019-08-14 14:46:12.000000000,1970-01-01 00:00:00.000000001,open,0,Investigate non-user-based uniform blocks
+163,2019-08-14 03:30:28.000000000,2019-08-14 05:09:21.000000000,closed,0,Update front README.
+162,2019-08-13 20:50:51.000000000,2019-08-14 03:18:03.000000000,closed,0,"Is @eijebong tout beurre going to be happy, for once?"
+161,2019-08-13 20:32:43.000000000,1970-01-01 00:00:00.000000001,open,0,Add example on how to use UBOs
+160,2019-08-13 20:28:28.000000000,1970-01-01 00:00:00.000000001,open,7,Create a uniform block trait for inner types
+159,2019-08-13 20:27:19.000000000,1970-01-01 00:00:00.000000001,open,0,Provide the #[uniform_block] proc-macro
+158,2019-08-12 14:27:20.000000000,1970-01-01 00:00:00.000000001,open,3,Provide a safe way to implement UniformBlock
+157,2019-08-12 14:20:12.000000000,2019-08-13 22:01:18.000000000,closed,0,Misc/doc
+156,2019-08-08 18:16:33.000000000,2019-08-08 18:45:33.000000000,closed,0,Add full support for normalized integral vertex attributes. #155
+155,2019-08-08 16:47:02.000000000,2019-08-12 14:29:29.000000000,closed,0,Support normalized vertex attributes
+154,2019-08-08 16:14:30.000000000,2019-08-08 16:42:17.000000000,closed,0,Add all sub-projects READMEs.
+153,2019-08-07 13:34:00.000000000,2019-08-07 17:50:55.000000000,closed,2,Split pixel storage format from pixel sampling format
+152,2019-08-07 13:12:47.000000000,1970-01-01 00:00:00.000000001,open,0,Implement shader outputs check
+151,2019-08-07 12:35:25.000000000,2019-08-07 13:15:40.000000000,closed,0,Fix/pixel components
+150,2019-08-04 00:25:34.000000000,2019-08-07 18:33:38.000000000,closed,3,Implement unsigned byte formats
+149,2019-08-04 00:10:53.000000000,2019-08-04 13:50:56.000000000,closed,1,Update glfw to 0.31
+148,2019-08-03 00:39:26.000000000,2019-08-19 13:07:51.000000000,closed,1,Decide what to do with integral vertex attribute and shader conversion
+147,2019-08-02 17:51:56.000000000,2019-08-03 01:35:32.000000000,closed,0,Dynamic editing of Surface’s properties and 3-enum cursor mode
+146,2019-08-02 17:26:00.000000000,2019-08-03 01:35:24.000000000,closed,0,Doc/enhance
+145,2019-08-02 17:10:16.000000000,2019-08-19 16:24:23.000000000,closed,1,"Add support for Tess::slice(&self, _: *Inclusive)"
+144,2019-08-02 12:29:07.000000000,1970-01-01 00:00:00.000000001,open,3,Make a macro to create pipeline more easily
+143,2019-08-01 14:32:17.000000000,2019-08-01 16:11:25.000000000,closed,0,"Add Tess::{as_index_slice,as_index_slice_mut}. #113"
+142,2019-08-01 14:19:24.000000000,2019-08-01 17:52:57.000000000,closed,0,"Make Dimensionable::zero_offset() a constant, Dimensionable::ZERO_OFF…"
+141,2019-08-01 14:12:12.000000000,2019-08-01 15:39:31.000000000,closed,0,"In luminance, move shader/mod.rs to shader.rs. #128"
+140,2019-08-01 14:09:36.000000000,2019-08-01 17:02:15.000000000,closed,0,Switch to GenMipmaps instead of bool for encoding mipmaps generation.…
+139,2019-08-01 13:57:24.000000000,2019-08-01 15:39:08.000000000,closed,0,Remove rustfmt shitness.
+138,2019-08-01 13:52:25.000000000,1970-01-01 00:00:00.000000001,open,0,Uniform type mismatch check is currently not implemented for array types!
+137,2019-08-01 13:47:44.000000000,2019-08-01 17:53:30.000000000,closed,0,MIpmap generation shouldn’t be boolean-based but enum-based
+136,2019-08-01 13:45:08.000000000,2019-08-01 17:53:23.000000000,closed,0,"Dimensionable’s one/zero should be associated types, not functions"
+135,2019-08-01 13:37:53.000000000,2019-08-08 16:42:09.000000000,closed,0,"pixel_components should return Option<usize>, not usize"
+134,2019-07-31 19:14:50.000000000,2019-08-01 12:59:20.000000000,closed,0,Use cargo-sync-readme in the CI.
+133,2019-07-31 19:07:32.000000000,2019-07-31 19:35:48.000000000,closed,0,Rename the type_name -> wrapper in the luminance-derive proc-macro Se…
+132,2019-07-31 18:51:45.000000000,2019-07-31 19:05:14.000000000,closed,0,Bring all the nice candies minus backends
+131,2019-07-30 22:03:27.000000000,2019-07-31 13:02:54.000000000,closed,0,Add missing parenthesis in comment
+130,2019-07-30 20:18:34.000000000,2019-07-31 13:14:12.000000000,closed,4,"Update dependencies, and fix warnings"
+129,2019-07-28 01:43:25.000000000,2019-07-30 12:10:53.000000000,closed,1,Fix a typo
+128,2019-06-12 12:37:55.000000000,2019-08-01 17:53:27.000000000,closed,0,Remove all mod.rs and replace by x.rs
+127,2019-06-11 11:55:42.000000000,2019-08-03 01:36:11.000000000,closed,0,Introduce a way to edit on the fly a Surface properties
+126,2019-06-11 11:52:49.000000000,2019-08-03 01:36:07.000000000,closed,3,Replace the boolean for changing the cursor to a 3-value enum
+125,2019-06-09 01:58:34.000000000,2019-07-31 17:10:52.000000000,closed,2,Add samples to WindowOpt - #91
+124,2019-06-04 20:20:09.000000000,2019-08-03 01:36:03.000000000,closed,8,Dynamically show/hide the mouse cursor
+123,2019-05-24 12:21:13.000000000,2019-05-24 13:08:41.000000000,closed,0,Add luminance-1.0 design doc.
+122,2019-04-26 17:37:45.000000000,2019-08-01 13:02:28.000000000,closed,2,Ensure all drivers’s Err associated types are constrained by Display
+121,2019-03-31 21:34:43.000000000,2019-08-01 13:04:57.000000000,closed,1,Clean Framebuffer::back_buffer associated type (use [u32; 2] instead).
+120,2019-03-28 18:06:39.000000000,2019-08-20 16:06:25.000000000,closed,9,OpenBSD: GLFW needs to be built without vulkan feature
+119,2019-03-28 16:54:37.000000000,2019-03-28 23:27:41.000000000,closed,3,luminance-derive on crates.io?
+118,2019-03-27 18:25:39.000000000,2019-03-28 03:30:57.000000000,closed,0,Implement #[derive(UniformInterface)].
+117,2019-03-26 01:57:55.000000000,2019-03-26 02:49:55.000000000,closed,0,"Replace all occurrences of *::{Enabled,Disabled} by *::{On,Off}."
+116,2019-03-25 22:54:42.000000000,2019-03-25 23:56:46.000000000,closed,0,Migrate luminance to edition 2018.
+115,2019-03-25 18:59:55.000000000,2019-03-25 19:27:50.000000000,closed,0,Features/explicitly bound vertex attrib location
+114,2019-03-19 22:42:13.000000000,2019-03-25 22:04:44.000000000,closed,4,Vertex instancing regression
+113,2019-03-16 21:54:02.000000000,2019-08-01 17:53:25.000000000,closed,0,Add a way to map via slices index buffers
+112,2019-03-10 16:12:17.000000000,2019-03-10 18:31:21.000000000,closed,0,Enhance the CI testing.
+111,2019-03-10 16:01:21.000000000,2019-03-10 18:04:26.000000000,closed,0,Fix vertex instancing.
+110,2019-03-09 01:34:23.000000000,2019-03-17 18:29:43.000000000,closed,5,[RFC] Support different types for the index buffer.
+109,2019-03-07 21:32:01.000000000,2019-03-10 16:06:39.000000000,closed,3,All sampler uniforms to be generic over texture format
+108,2019-03-07 14:40:47.000000000,2019-08-01 17:53:34.000000000,closed,0,Cleanup pixel code
+107,2019-03-07 08:57:42.000000000,2019-03-10 16:06:39.000000000,closed,2,"Make uniform interfaces consume sampler type, rather than pixel format"
+106,2019-03-07 08:51:18.000000000,2019-03-07 14:39:35.000000000,closed,4,Add support for the R11FG11FB10F pixel format
+105,2019-03-06 23:35:42.000000000,2019-03-25 22:04:55.000000000,closed,3,Bind the vertex attrib location when creating shaders
+104,2019-03-06 23:30:31.000000000,2019-03-07 00:12:12.000000000,closed,0,Add support for vertex instancing and proc-macros.
+103,2019-03-01 03:21:39.000000000,2019-03-01 03:24:54.000000000,closed,1,New vertex arrays might not be correctly set
+102,2019-02-08 21:31:28.000000000,2019-02-09 17:05:36.000000000,closed,0,Implement deinterleaved tessellations.
+101,2019-02-02 20:49:05.000000000,1970-01-01 00:00:00.000000001,open,1,Enrich the type of vertex attributes
+100,2019-02-02 20:46:21.000000000,2019-03-01 21:53:11.000000000,closed,1,Can we change the definition of `VertexFormat` to a slice?
+99,2019-02-02 20:44:17.000000000,2019-03-28 03:33:26.000000000,closed,2,Proc-macro: UniformInterface
+98,2019-02-02 20:43:17.000000000,2019-03-11 03:18:36.000000000,closed,1,Proc-macro: Vertex
+97,2019-02-02 20:41:53.000000000,1970-01-01 00:00:00.000000001,open,1,Support guard: maximum number of attributes per vertex
+96,2019-02-02 19:57:22.000000000,1970-01-01 00:00:00.000000001,open,8,Does luminance supports OpenGL 2.1?
+95,2019-02-02 18:35:04.000000000,2020-04-11 04:09:09.000000000,closed,3,Re-introduce backends
+94,2019-02-02 18:32:59.000000000,2019-03-25 23:57:30.000000000,closed,0,Deinterleaving support in tessellations
+93,2019-01-30 18:25:31.000000000,2019-01-31 04:10:00.000000000,closed,1,Prepare 1.0.0.
+92,2019-01-29 02:54:27.000000000,2019-01-29 23:07:26.000000000,closed,0,Feature/dynamic uniforms
+91,2018-11-30 19:24:24.000000000,2019-08-03 01:35:58.000000000,closed,0,Extra hints for the window constructor
+90,2018-11-29 07:03:05.000000000,2018-11-29 07:20:27.000000000,closed,0,Feature/better framebuffers
+89,2018-11-28 17:30:07.000000000,2018-11-28 18:27:31.000000000,closed,0,Fix the CI script.
+88,2018-09-11 00:45:26.000000000,2018-09-11 01:50:10.000000000,closed,0,Enhance the documentation of texture types vs. GLSL sampler types.
+87,2018-09-10 19:11:09.000000000,2018-09-11 01:50:10.000000000,closed,1,Matching shader uniform types with texture types.
+86,2018-08-13 04:51:06.000000000,2018-11-29 02:45:23.000000000,closed,1,"Add the ""std"" feature gate."
+85,2018-07-26 19:46:37.000000000,2018-07-26 21:07:42.000000000,closed,0,0.30.
+84,2018-07-26 02:37:48.000000000,2018-07-26 14:07:17.000000000,closed,0,Feature/easier uni iface
+83,2018-07-12 19:33:01.000000000,2018-07-13 14:26:44.000000000,closed,0,0.29.
+82,2018-07-11 01:03:10.000000000,2018-07-12 13:51:50.000000000,closed,0,Add Program::adapt.
+81,2018-07-02 23:37:48.000000000,2018-07-03 01:20:49.000000000,closed,1,Uniform typecheck
+80,2018-06-29 17:35:53.000000000,2018-06-29 17:44:21.000000000,closed,1,Remove const_fn.
+79,2018-06-27 02:16:13.000000000,2018-06-27 02:29:46.000000000,closed,0,Enhanced errors
+78,2018-06-26 18:54:35.000000000,2018-06-27 00:32:00.000000000,closed,0,Disable face culling by default.
+77,2018-06-26 18:49:24.000000000,2018-06-27 00:31:10.000000000,closed,0,Rename Framebuffer::default into Framebuffer::back_buffer.
+76,2018-06-26 18:44:27.000000000,2018-06-27 00:29:16.000000000,closed,0,We now track framebuffer binding in the graphics state correctly.
+75,2018-06-26 18:33:13.000000000,2018-06-27 00:27:17.000000000,closed,0,Use pub(crate) for some functions to hide them from the public interf…
+74,2018-06-26 18:28:50.000000000,2018-06-28 02:29:21.000000000,closed,0,"Consider using an algebraic type for encoding pixel size (8, 16, 32)"
+73,2018-06-26 18:23:32.000000000,2018-06-27 00:24:12.000000000,closed,0,Made BoundBuffer and BoundTexture types easier to use.
+72,2018-06-25 13:34:04.000000000,2018-06-26 02:22:25.000000000,closed,3,Tentative to allow shaders code to provide opengl version
+71,2018-06-25 12:59:58.000000000,2018-06-26 02:21:31.000000000,closed,2,Offscreen example does not compile
+70,2018-06-23 01:28:06.000000000,2018-06-23 01:30:57.000000000,closed,0,Replace TessRender with TessSlice.
+69,2018-06-21 00:14:21.000000000,2018-06-27 00:29:16.000000000,closed,1,We still bind the default framebuffer
+68,2018-06-20 16:42:12.000000000,2018-06-24 23:45:48.000000000,closed,7,Uniform detection behavior is different with/without using the geometry shader
+67,2018-06-20 04:23:10.000000000,2018-06-21 03:01:07.000000000,closed,0,Samples
+66,2018-06-20 01:21:38.000000000,2018-06-23 01:30:57.000000000,closed,0,Add a trait for indexing Tess and generate TessRender
+65,2018-06-19 13:47:56.000000000,2018-06-27 00:30:04.000000000,closed,12,Difference of behavior of the program between Framebuffer::default(..) and Frambuffer::new(..)
+64,2018-06-13 03:18:35.000000000,2018-06-27 02:29:46.000000000,closed,0,Enhance the Error and Display impls
+63,2018-05-27 20:33:09.000000000,2018-06-12 02:47:09.000000000,closed,0,GraphicsContext and GraphicsState
+62,2018-05-23 13:04:46.000000000,2018-06-13 02:01:51.000000000,closed,0,impl Drop for RawBuffer
+61,2018-04-22 17:02:27.000000000,2018-06-27 00:32:00.000000000,closed,0,Disable culling as default
+60,2018-04-21 22:15:41.000000000,2018-04-23 21:50:01.000000000,closed,5,Cannot get basic triangle drawn
+59,2018-04-06 02:07:26.000000000,2018-06-12 02:59:59.000000000,closed,0,OpenGL object creation must be done via a thread-bound object
+58,2018-03-26 18:09:53.000000000,2018-03-28 20:19:37.000000000,closed,0,Update the README to add crates comparisons.
+57,2018-03-20 17:35:51.000000000,2018-03-20 17:55:11.000000000,closed,0,Fix a bug with uniform buffers not correctly reified in the Uniformab…
+56,2018-03-18 04:37:58.000000000,2018-03-18 04:43:43.000000000,closed,0,Add TessRender::one_slice.
+55,2018-03-15 18:47:18.000000000,2018-07-03 01:20:49.000000000,closed,9,black textures
+54,2018-03-13 15:45:03.000000000,2018-03-18 04:44:00.000000000,closed,5,render arbitrary slice of a Tess
+53,2018-02-10 21:10:20.000000000,2018-02-11 03:03:55.000000000,closed,0,Better uniforms
+52,2017-12-20 18:35:34.000000000,2018-06-27 00:27:17.000000000,closed,0,Hide some functions from the interface with pub(crate)
+51,2017-12-18 17:26:37.000000000,2018-04-06 02:21:24.000000000,closed,2,Potential bug: Gpu binding in “most nested” closure might produce indesirable effects
+50,2017-12-18 16:22:50.000000000,2018-06-27 00:24:12.000000000,closed,2,Change the BoundBuffer type variables
+49,2017-12-11 16:35:25.000000000,2017-12-11 16:37:16.000000000,closed,0,Add more pixel formats.
+48,2017-11-10 03:01:57.000000000,2017-11-10 03:04:44.000000000,closed,0,Render state
+47,2017-11-09 01:39:22.000000000,2017-11-10 04:04:17.000000000,closed,5,How to cull faces?
+46,2017-10-12 15:28:12.000000000,2017-10-12 15:30:07.000000000,closed,0,Add a Gitter chat badge to README.md
+45,2017-10-02 15:22:00.000000000,2017-10-02 16:38:57.000000000,closed,1,Implement Display and Error for error types.
+44,2017-09-15 22:43:25.000000000,2019-03-25 23:57:35.000000000,closed,12,instanced attributes ?
+43,2017-09-13 04:25:17.000000000,2017-09-13 12:20:59.000000000,closed,2,Add references to online documentation.
+42,2017-09-10 18:15:50.000000000,2017-09-10 18:18:39.000000000,closed,0,Easier program interface
+41,2017-08-20 00:01:11.000000000,2017-08-20 16:32:25.000000000,closed,2,MRT is broken with more than two textures
+40,2017-08-14 19:28:42.000000000,2017-08-15 02:36:14.000000000,closed,0,Cleanup
+39,2017-08-05 22:15:39.000000000,2017-08-05 22:59:50.000000000,closed,0,Updated the documentation.
+38,2017-07-29 16:33:11.000000000,2018-06-24 23:41:19.000000000,closed,23,Examples
+37,2017-04-10 01:32:38.000000000,2017-04-10 12:18:43.000000000,closed,2,Close #34
+36,2017-03-30 19:40:37.000000000,2017-05-09 18:23:21.000000000,closed,2,Get typed Program back
+35,2017-03-24 01:40:47.000000000,2017-04-20 18:18:07.000000000,closed,0,Optimize pipeline allocation
+34,2017-02-13 19:01:10.000000000,2017-04-20 18:17:56.000000000,closed,0,Use Into<Option<T>> instead of Option<T> as function arguments
+33,2017-02-12 04:03:46.000000000,2017-02-13 21:28:16.000000000,closed,0,Rewrite the whole documentation
+32,2017-02-09 19:22:18.000000000,2017-04-20 18:17:47.000000000,closed,0,Change tuples into arrays for Texture::Dim and Texture::Offset
+31,2017-01-12 20:39:31.000000000,2017-01-23 04:20:09.000000000,closed,1,Merge luminance-gl into luminance
+30,2017-01-12 04:09:01.000000000,2017-01-12 19:08:48.000000000,closed,1,Vertex attributes specification depend on alignment while it shouldn’t
+29,2017-01-06 04:08:32.000000000,2017-01-12 20:16:02.000000000,closed,0,The sem map should be updated in the OpenGL backend
+28,2017-01-04 21:43:12.000000000,2017-01-23 04:22:34.000000000,closed,0,Framebuffer get_status shouldn’t allocate anything
+27,2016-12-10 20:57:07.000000000,2018-06-28 02:41:08.000000000,closed,0,unsafe traits
+26,2016-12-05 02:23:35.000000000,2017-08-19 23:59:37.000000000,closed,0,Check whether we really need to unbind stuff in the OpenGL backends
+25,2016-11-29 21:21:18.000000000,2017-02-13 19:07:03.000000000,closed,0,"Have {Color,Depth}Slot in luminance pub interface"
+24,2016-11-29 18:22:51.000000000,2016-12-12 16:42:09.000000000,closed,0,Rename Tessellation Tess?
+23,2016-09-26 19:00:05.000000000,2018-06-12 02:59:36.000000000,closed,1,State caching
+22,2016-09-22 15:43:22.000000000,2016-11-29 18:21:58.000000000,closed,0,Add support for attributeless renders
+21,2016-09-21 03:13:23.000000000,2016-09-21 18:52:41.000000000,closed,1,Shall we actually support the concept of “backends”?
+20,2016-09-20 17:34:16.000000000,2017-01-30 05:29:57.000000000,closed,5,Uniform blocks
+19,2016-09-18 21:45:11.000000000,2016-10-04 13:05:33.000000000,closed,0,"We need Deref<Target=Texture<C, L, D, P>> for Slot<C, L, D, P>"
+18,2016-09-12 15:40:03.000000000,2016-09-21 18:55:57.000000000,closed,0,Multi textures support in shaders
+17,2016-09-06 19:32:04.000000000,2016-12-12 16:24:09.000000000,closed,0,create_texture_storage() return should be used
+16,2016-09-05 00:30:47.000000000,2016-09-05 12:46:09.000000000,closed,2,fixed some clippy warnings
+15,2016-08-25 15:52:31.000000000,2016-09-02 01:31:49.000000000,closed,1,ProgramWarning for uniforms
+14,2016-08-22 16:01:09.000000000,2016-08-25 15:52:48.000000000,closed,1,Unused uniform semantics
+13,2016-08-22 13:43:56.000000000,2016-08-25 15:53:55.000000000,closed,9,What shall we do with shader languages?
+12,2016-08-15 18:05:43.000000000,2017-03-24 01:41:27.000000000,closed,1,"Dump <L, D, P> in texture.rs"
+11,2016-08-05 13:22:13.000000000,2016-08-22 15:22:17.000000000,closed,0,Replace u32 by usize in texture.rs
+10,2016-06-23 14:23:35.000000000,2016-08-05 13:22:56.000000000,closed,0,ColorSlot might not need to depend on C (only its methods)
+9,2016-06-16 22:52:45.000000000,2016-08-22 15:25:34.000000000,closed,3,Renderable pixel formats
+8,2016-06-01 17:38:05.000000000,2016-06-23 01:47:35.000000000,closed,0,Use std::marker instead of core::marker.
+7,2016-05-20 16:47:12.000000000,2016-08-25 15:54:39.000000000,closed,0,Relax trait bounds everywhere
+6,2016-05-11 16:32:53.000000000,2016-05-20 16:48:17.000000000,closed,0,We cannot pass uniforms to commands anymore!
+5,2016-05-04 23:33:19.000000000,2016-05-06 17:14:48.000000000,closed,1,Use current batch for crates.io
+4,2016-04-27 17:54:07.000000000,2016-06-16 22:54:28.000000000,closed,0,Expanding Uniform’s types is hard
+3,2016-04-08 13:00:06.000000000,2016-05-08 19:30:45.000000000,closed,0,"Remove R, W, RW…"
+2,2016-03-29 16:27:38.000000000,2017-04-20 18:05:37.000000000,closed,0,Tuple implementations based on Chain could be rewritten with static sizes
+1,2016-03-28 21:41:08.000000000,2016-08-22 17:32:15.000000000,closed,0,Dynamic reification of static uniform types is missing

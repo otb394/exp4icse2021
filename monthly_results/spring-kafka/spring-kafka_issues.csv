@@ -1,0 +1,1579 @@
+id,created_at,closed_at,state,comments,title
+1581,2020-08-31 07:03:18.000000000,2020-08-31 16:47:33.000000000,closed,1,How @KafkaListener design to multithread consume on different partitions
+1580,2020-08-30 01:40:47.000000000,1970-01-01 00:00:00.000000001,open,3,Update samples to setup kafka simply
+1579,2020-08-28 00:52:30.000000000,2020-08-28 01:29:45.000000000,closed,0,Topic Provisioning - default partitions/replicas
+1578,2020-08-27 20:11:12.000000000,2020-08-27 21:02:11.000000000,closed,0,Fix Shutdown Race Causing Test Delays
+1577,2020-08-27 18:21:16.000000000,2020-08-27 18:27:15.000000000,closed,0,"Fix Request/Reply with ConsumerRecord<?, ?>"
+1576,2020-08-26 21:35:15.000000000,2020-08-26 21:56:46.000000000,closed,0,Transactions Doc Polishing
+1575,2020-08-24 19:58:55.000000000,2020-08-24 21:23:23.000000000,closed,1,Seek Improvements
+1574,2020-08-22 01:04:03.000000000,2020-08-22 16:24:27.000000000,closed,2,idleBetweenPollIfNecessary does a thread sleep and shouldn't
+1573,2020-08-21 01:18:51.000000000,2020-08-26 00:48:53.000000000,closed,12,Json (de)serialization configuration improvements
+1572,2020-08-19 16:47:51.000000000,2020-08-19 18:12:53.000000000,closed,0,fix references to producerPerConsumerPartition
+1571,2020-08-17 22:40:57.000000000,2020-08-17 22:59:58.000000000,closed,1,GH-1569: Add Message Listener Advice Chain
+1570,2020-08-17 20:21:29.000000000,2020-08-17 20:43:00.000000000,closed,0,GH-1565: ErrorHandlingDeserializer Extensions
+1569,2020-08-17 19:24:51.000000000,2020-08-17 22:59:58.000000000,closed,0,Advice chain for listeners like in spring-amqp
+1568,2020-08-17 03:38:34.000000000,2020-08-17 17:20:08.000000000,closed,0,Add ConversionException in FailedRecordProcessor.classifier to skip retrying
+1567,2020-08-16 16:37:43.000000000,2020-08-16 19:38:56.000000000,closed,4,Single Consumer for topic with multiple partitions not reading messages
+1566,2020-08-16 09:08:07.000000000,2020-08-17 17:20:07.000000000,closed,4,Add `ConversionException` in `FailedRecordProcessor.classifier` to skip retrying
+1565,2020-08-15 14:45:51.000000000,2020-08-17 20:42:59.000000000,closed,1,Subclass of ErrorHandlingDeserializer not detected (inconsostent behaviour)
+1564,2020-08-14 19:56:47.000000000,2020-08-17 19:33:47.000000000,closed,1,Fix idleBetweenPolls max value calculation
+1563,2020-08-14 16:57:25.000000000,2020-08-14 17:39:06.000000000,closed,0,EmbeddedKafka.partitions() is ignored in EmbeddedKafkaCondition
+1562,2020-08-13 22:02:46.000000000,1970-01-01 00:00:00.000000001,open,1,GH-1549: Auto-Detect Type Mappings [DO NOT MERGE]
+1561,2020-08-12 01:45:24.000000000,2020-08-12 04:13:08.000000000,closed,0,Remove ProducerListener Deprecations
+1560,2020-08-04 22:22:05.000000000,2020-08-05 21:39:24.000000000,closed,0,FailedRecordProcessors - selectable BackOff
+1559,2020-08-04 18:44:53.000000000,2020-08-05 21:39:23.000000000,closed,0,FailedRecordTracker - consider adding a mechanism to select the BackOff by topic
+1558,2020-08-04 01:43:14.000000000,2020-08-04 20:30:32.000000000,closed,1,FailedRecordProcessor Polishing
+1557,2020-08-03 18:53:03.000000000,2020-08-03 19:32:45.000000000,closed,1,DARP - Make commitRecovered true by default
+1556,2020-08-01 01:05:46.000000000,2020-08-02 17:31:42.000000000,closed,0,GH-1552: Support more consumer properties override
+1555,2020-07-31 20:19:03.000000000,2020-07-31 23:29:31.000000000,closed,2,GH-1554: Partition wildcard for initial offsets
+1554,2020-07-31 18:26:48.000000000,2020-07-31 23:29:31.000000000,closed,0,@PartitionOffset Improvement
+1553,2020-07-31 17:57:28.000000000,2020-07-31 23:29:33.000000000,closed,0,Call ConsumerSeekAware.onPartitionsAssigned() for Manual Assignments
+1552,2020-07-31 10:52:48.000000000,2020-08-02 17:31:41.000000000,closed,3,Consumer properties set on ConcurrentKafkaListenerContainerFactory are silently ignored
+1551,2020-07-29 01:54:36.000000000,2020-07-29 18:04:18.000000000,closed,0,GH-1550: DefaultKafkaHeaderMapper - trust arrays
+1550,2020-07-28 12:07:51.000000000,2020-07-29 18:04:18.000000000,closed,0,DefaultKafkaHeaderMapper - should allow arrays of String by default
+1549,2020-07-27 23:33:33.000000000,1970-01-01 00:00:00.000000001,open,4,Add annotation for id class mapping
+1548,2020-07-27 21:11:18.000000000,2020-07-27 21:24:02.000000000,closed,1,GH-1547: Reset BackOff State on Recovery Failure
+1547,2020-07-27 11:51:23.000000000,2020-07-27 21:24:02.000000000,closed,0,Reset retry state in recoverer of SeekToCurrentErrorHandler
+1546,2020-07-24 23:42:04.000000000,2020-07-25 00:41:31.000000000,closed,0,ReplyingKTemplate Handle DeserializationException
+1545,2020-07-24 18:07:16.000000000,2020-07-24 18:40:56.000000000,closed,0,GH-1451: Exactly Once Semantics Mode BETA Default
+1544,2020-07-24 10:57:22.000000000,2020-07-24 19:18:56.000000000,closed,3,Update scalaVersion to 2.13
+1543,2020-07-24 10:42:44.000000000,2020-07-24 17:28:42.000000000,closed,3,Make the example compile
+1541,2020-07-20 23:39:39.000000000,2020-08-04 22:44:01.000000000,closed,4,kafka stream error
+1540,2020-07-20 21:50:32.000000000,2020-07-20 22:46:42.000000000,closed,1,GH-1538: Embedded broker get results for addTopics
+1539,2020-07-20 18:55:15.000000000,2020-07-24 23:48:14.000000000,closed,2,FIX: KafkaMessageListenerContainer#processTimestampSeeks offsetsForTimes method can return map with null values
+1538,2020-07-18 16:59:48.000000000,2020-07-20 22:46:42.000000000,closed,4,Allow for checking the status of a topic just being created
+1537,2020-07-18 03:01:11.000000000,2020-08-04 22:45:27.000000000,closed,6,Spring boot 2.3.0.RELEASE did not work with spring-kafka 2.5.0 on java 11
+1536,2020-07-16 23:25:11.000000000,1970-01-01 00:00:00.000000001,open,1,Periodically Refresh Micrometer Meters
+1535,2020-07-16 13:30:22.000000000,2020-07-16 17:57:14.000000000,closed,1,Allow inject RecordFilterStrategy
+1534,2020-07-14 00:38:21.000000000,2020-07-15 01:08:29.000000000,closed,3,Wording changes
+1533,2020-07-13 09:43:49.000000000,2020-08-04 22:46:19.000000000,closed,5,Spring transaction not rollback when open kafka transaction 
+1532,2020-07-11 21:33:22.000000000,2020-07-13 18:45:54.000000000,closed,3,GH-1531: fixed NPE in MicrometerHolder during app shutdown
+1531,2020-07-11 21:20:17.000000000,2020-07-13 22:22:11.000000000,closed,1,Spring-Kafka with Micrometer throws NullPointerException during app shutdown
+1530,2020-07-07 16:30:38.000000000,2020-07-07 18:23:41.000000000,closed,0,Fix documentation
+1529,2020-07-04 17:06:54.000000000,2020-07-07 18:16:22.000000000,closed,4,Kafka Consumer not able to read all message after offset commit (error=OFFSET_OUT_OF_RANGE)
+1528,2020-07-02 20:44:51.000000000,2020-07-02 21:38:32.000000000,closed,0,GH-1527: Add Support for Transaction Properties
+1527,2020-07-02 07:58:08.000000000,2020-07-02 21:38:32.000000000,closed,4,Transaction timeout is not configurable in KafkaMessageListenerContainer
+1526,2020-06-30 01:10:34.000000000,2020-06-30 05:00:23.000000000,closed,2,"Spring Boot AutoConfiguration not working with ""acks"" value as ""all"""
+1525,2020-06-25 22:09:40.000000000,2020-06-25 22:24:10.000000000,closed,0,GH-1522: Commit recovered record with MANUAL Acks
+1524,2020-06-25 21:03:42.000000000,2020-06-25 22:08:36.000000000,closed,0,GH-1519: Fix @SendTo on @KafkaHandler
+1523,2020-06-25 19:42:22.000000000,2020-06-26 19:03:54.000000000,closed,2,GH-1520: Add Producer/Consumer Post Processors
+1522,2020-06-25 18:47:46.000000000,2020-06-25 22:24:10.000000000,closed,3,Very slow performance using SeekToCurrentErrorHandler with manual_immediate ack-mode
+1521,2020-06-25 18:22:31.000000000,2020-06-25 18:23:05.000000000,closed,0,Very slow performance using SeekToCurrentErrorHandler with manual_immediate ack-mode
+1520,2020-06-25 18:11:29.000000000,2020-06-26 19:03:54.000000000,closed,0,Add producer/consumer decorators
+1519,2020-06-25 18:06:18.000000000,2020-06-25 22:08:35.000000000,closed,0,Fix @ReplyTo on @KafkaHandler
+1518,2020-06-25 01:49:42.000000000,2020-07-16 20:37:54.000000000,closed,0,Remove SIK Chapter 
+1517,2020-06-21 20:05:41.000000000,2020-06-22 19:19:59.000000000,closed,0,Fix ConsumerSeekCallback Javadocs
+1516,2020-06-20 15:19:10.000000000,2020-06-20 19:55:42.000000000,closed,1,DeadLetterPublishingRecoverer stopped working after upgrading to Spring Kafka 2.5.2.RELEASE
+1515,2020-06-19 19:30:03.000000000,2020-06-19 19:59:09.000000000,closed,0,GH-1501: StreamsBuilderFB.Listener Improvement
+1514,2020-06-18 00:15:39.000000000,2020-06-18 00:36:59.000000000,closed,0,Gradle 6.5; Support Building With Java 14
+1513,2020-06-17 23:07:48.000000000,1970-01-01 00:00:00.000000001,open,0,"JsonDeserializer Type Resolution Improvements - javadoc, minor changes"
+1512,2020-06-17 23:03:31.000000000,2020-06-17 23:05:59.000000000,closed,3,"JsonDeserializer Type Resolution Improvements - javadoc, minor fixes"
+1511,2020-06-17 21:03:15.000000000,2020-06-17 22:11:27.000000000,closed,0,GH-1508: Fix DefaultARProcessor for EOSMode.BETA
+1510,2020-06-17 16:58:20.000000000,2020-06-17 21:59:28.000000000,closed,1,GH-1509 Support nested BatchListenerFailedException in RecoveringBatchErrorHandler
+1509,2020-06-17 16:56:02.000000000,2020-06-18 07:23:40.000000000,closed,0,Support nested BatchListenerFailedException in RecoveringBatchErrorHandler
+1508,2020-06-17 02:55:10.000000000,2020-06-17 22:11:26.000000000,closed,0,Clearer methods for enabling commit recovered in DefaultAfterRollbackProcessor
+1507,2020-06-16 21:15:34.000000000,2020-06-17 18:20:12.000000000,closed,0,JsonDeserializer Type Resolution Improvements
+1506,2020-06-16 00:07:10.000000000,2020-06-17 18:20:12.000000000,closed,3,Json de-serialization strategy configured per topic
+1505,2020-06-12 18:51:59.000000000,2020-06-15 18:20:31.000000000,closed,4,Fixed typos in readme
+1504,2020-06-12 09:57:49.000000000,2020-06-15 19:36:07.000000000,closed,1,Spring kafka consumer Re-reading the batch again again for long time (6-7 hours)
+1503,2020-06-12 07:14:50.000000000,2020-06-16 02:19:56.000000000,closed,2,Separate transactionIdPrefix for transactions started by a listener container
+1502,2020-06-11 19:09:19.000000000,2020-06-11 20:12:14.000000000,closed,2,GH-1501: Add Micrometer Support for KafkaStreams
+1501,2020-06-11 01:25:21.000000000,2020-06-19 19:59:08.000000000,closed,1,Add Micrometer for KafkaStreams
+1500,2020-06-08 23:52:49.000000000,2020-06-09 19:16:50.000000000,closed,0,GH-1499: Option to suppress ConsumerRecord logging
+1499,2020-06-08 21:46:42.000000000,2020-06-09 19:16:50.000000000,closed,1,Add an option to truncate ConsumerRecord in ERROR logs
+1498,2020-06-07 16:30:31.000000000,2020-06-07 18:39:17.000000000,closed,1,Corrects two typos
+1497,2020-05-30 00:24:46.000000000,2020-06-01 20:05:42.000000000,closed,1,GH-1496: Handle RetriableCommitFailedException
+1496,2020-05-29 19:20:30.000000000,2020-06-01 20:05:42.000000000,closed,0,Check for RetriableCommitFailedException
+1495,2020-05-28 19:50:01.000000000,2020-05-28 22:14:46.000000000,closed,1,GH-1494: Fix NPE in DeadLetterPublishingRecoverer
+1494,2020-05-28 04:51:16.000000000,2020-05-28 22:14:46.000000000,closed,2,DeadLetterPublishingRecoverer fails with NPE that causes infinite loop when message value is null
+1493,2020-05-26 00:45:00.000000000,2020-05-26 00:50:03.000000000,closed,1,Fetch offset is out of range for partition resetting offset
+1492,2020-05-22 17:53:32.000000000,2020-05-22 20:10:59.000000000,closed,4,Support keys in Delegating(De)Serializer
+1491,2020-05-21 21:29:50.000000000,2020-05-21 21:47:50.000000000,closed,0,Delegating(De)Serializer Improvements
+1489,2020-05-20 17:35:59.000000000,1970-01-01 00:00:00.000000001,open,0,Document testing best practices
+1488,2020-05-15 00:21:21.000000000,2020-05-15 17:33:08.000000000,closed,1,GH-1487: @KafkaListener Meta-Annotation on Class
+1487,2020-05-14 16:25:58.000000000,2020-05-15 17:33:08.000000000,closed,1,Meta-Annotation support at class level for KafkaListener
+1486,2020-05-13 21:59:40.000000000,2020-05-13 22:06:36.000000000,closed,1,GH-1485: Option to suppress single client.id
+1485,2020-05-13 17:38:02.000000000,2020-05-13 22:00:12.000000000,closed,4,"let the suffix """" when concurrency is 1"
+1484,2020-05-11 21:39:50.000000000,2020-05-12 00:22:43.000000000,closed,0,GH-1483: Trust target class sub-packages
+1483,2020-05-11 20:40:08.000000000,2020-05-12 00:22:43.000000000,closed,0,Support trusting sub-packages in the Json deserializer
+1482,2020-05-11 14:37:47.000000000,1970-01-01 00:00:00.000000001,open,2,Allow update of retention.ms during topic modification via NewTopic
+1481,2020-05-09 00:15:16.000000000,2020-05-11 20:57:00.000000000,closed,0,GH-1479: ConsumerRecordMetadata
+1480,2020-05-08 17:31:55.000000000,1970-01-01 00:00:00.000000001,open,2,Abort consumer retries when listenercontainer is stopped
+1479,2020-05-07 21:14:43.000000000,2020-05-11 20:57:00.000000000,closed,1,Default KafkaHandler Cannot Access Headers
+1478,2020-05-05 23:12:51.000000000,2020-05-06 00:06:23.000000000,closed,1,Add getAssignmentsByClientId() to containers
+1477,2020-05-05 01:41:29.000000000,2020-05-05 21:37:20.000000000,closed,0,Fix fatal early return from onPartitionsAssigned
+1476,2020-05-04 21:48:17.000000000,2020-05-04 23:13:22.000000000,closed,0,GH-1475: Add KafkaSendCallback
+1475,2020-05-03 20:44:19.000000000,2020-05-04 23:13:21.000000000,closed,0,Add a specialized ListenableFutureCallback
+1474,2020-05-02 09:00:33.000000000,2020-05-03 01:21:20.000000000,closed,2,Problem with @EmbeddedKafka and java 14
+1473,2020-05-02 01:21:34.000000000,2020-05-02 23:41:17.000000000,closed,0,Don't commit on assignment with existing commit
+1472,2020-05-01 21:13:18.000000000,2020-05-01 23:33:39.000000000,closed,7,Fix commit on assignment for earliest setting
+1471,2020-05-01 19:05:33.000000000,2020-05-01 20:45:03.000000000,closed,6,Manage log.dir in the EmbeddedKafkaBroker
+1470,2020-04-29 01:17:06.000000000,2020-04-29 19:34:57.000000000,closed,0,Decorate exceptions for AfterRollbackProcessor
+1469,2020-04-28 21:01:54.000000000,2020-04-28 21:14:38.000000000,closed,1,Upgrade Asciidoctor
+1468,2020-04-28 02:35:22.000000000,2020-04-28 02:53:56.000000000,closed,0,Support switching bootstrap servers at runtime
+1467,2020-04-27 23:40:07.000000000,2020-04-28 02:51:36.000000000,closed,0,Json Type Determination Using Methods
+1466,2020-04-27 19:26:04.000000000,2020-04-27 19:38:25.000000000,closed,1,Close thread bound producers after reset
+1465,2020-04-27 18:38:42.000000000,2020-04-27 19:21:33.000000000,closed,1,Prevent EmbeddedKafkaBroker exiting the JVM
+1464,2020-04-24 00:28:42.000000000,2020-04-24 00:52:43.000000000,closed,0,Easier management of Producer/Consumer Listeners
+1463,2020-04-23 19:49:03.000000000,2020-04-23 19:58:52.000000000,closed,0,Upgrade spring-doc-resources
+1462,2020-04-22 21:53:36.000000000,2020-04-23 00:47:11.000000000,closed,0,GH-1461: Configurable log level for EH Exceptions
+1461,2020-04-22 18:32:14.000000000,2020-04-23 00:47:11.000000000,closed,3,When there are retries left on ErrorHandler no ERROR should be logged
+1460,2020-04-21 21:49:38.000000000,2020-04-22 19:30:35.000000000,closed,0,Producer/Consumer Factory Listeners and Micrometer
+1459,2020-04-20 22:22:02.000000000,2020-04-21 23:17:29.000000000,closed,1,Java & reference doc of Spring Kafka has a spelling typo for KafkaStreamBrancher
+1458,2020-04-19 20:09:49.000000000,2020-04-19 20:33:40.000000000,closed,1,Add JsonJdk8Deserializer
+1457,2020-04-18 01:54:16.000000000,2020-04-27 21:05:46.000000000,closed,1,Configure ParseStringDeserializer with Properties
+1456,2020-04-17 23:17:44.000000000,2020-04-18 00:12:47.000000000,closed,0,Fix new package tangle
+1455,2020-04-17 21:10:08.000000000,2020-04-17 22:40:08.000000000,closed,0,Change Default Error Handlers
+1454,2020-04-17 19:26:52.000000000,2020-04-17 20:59:31.000000000,closed,1,Fix commits on partition revocation
+1453,2020-04-16 23:03:19.000000000,2020-04-17 01:09:33.000000000,closed,0,GH-1430: Polishing; Copy Remaining Properties
+1452,2020-04-16 21:22:20.000000000,2020-04-16 21:38:40.000000000,closed,0,GH-1445: Handle RebalanceInProgressException
+1451,2020-04-16 20:43:22.000000000,2020-07-24 18:40:55.000000000,closed,0,Switch EOSMode default to BETA
+1450,2020-04-16 18:24:19.000000000,2020-04-16 20:47:52.000000000,closed,3,GH-1443: Add support for new EOS BETA
+1449,2020-04-16 02:05:34.000000000,2020-04-16 18:16:20.000000000,closed,0,Upgrade to kafka-clients 2.5.0
+1448,2020-04-16 00:30:22.000000000,2020-04-16 18:04:37.000000000,closed,1,Fix assigned partitions with cooperative rebalance
+1447,2020-04-14 01:27:29.000000000,2020-04-15 00:48:02.000000000,closed,3,GH-1446: Support Static Group Membership
+1446,2020-04-13 22:42:34.000000000,2020-04-15 00:48:02.000000000,closed,0,Support Static Membership
+1445,2020-04-13 22:21:42.000000000,2020-04-16 21:38:40.000000000,closed,0,Add support for new RabalanceInProgressException
+1444,2020-04-11 10:06:35.000000000,2020-04-14 22:43:36.000000000,closed,5,Fix streams docs
+1443,2020-04-11 03:26:00.000000000,2020-04-16 20:47:52.000000000,closed,0,Add EOSMode
+1442,2020-04-10 22:09:18.000000000,2020-04-10 23:35:44.000000000,closed,0,GH-1441: Close producer after fatal send error
+1441,2020-04-09 22:05:16.000000000,2020-04-10 23:35:44.000000000,closed,1,Close delegate producer after OutOfOrderSequenceException and UnknownProducerIdException
+1440,2020-04-09 05:34:48.000000000,2020-04-09 06:16:08.000000000,closed,1,Reactive kafka commit retry has no backoff
+1439,2020-04-08 12:48:37.000000000,2020-07-17 21:27:05.000000000,closed,3,Spring Kafka does not read configuration properties as expected
+1438,2020-04-07 20:02:20.000000000,2020-04-07 21:26:10.000000000,closed,4,GH-1437: Check for immediate failure on send
+1437,2020-04-07 19:30:52.000000000,2020-04-07 21:26:10.000000000,closed,0,Check For FutureFailure on send (future.isDone())
+1436,2020-04-06 20:46:10.000000000,2020-04-07 19:54:24.000000000,closed,0,GH-1435: Add RecoveringBatchErrorHandler
+1435,2020-04-03 23:01:11.000000000,2020-04-07 19:54:24.000000000,closed,0,Add BatchListenerFailedException
+1434,2020-04-03 21:01:56.000000000,2020-04-03 22:57:38.000000000,closed,1,Change Default for KafkaProperties.missingTopicsFatal to false
+1433,2020-04-01 19:03:01.000000000,2020-04-02 01:40:19.000000000,closed,2,Fixing documentation: KafkaTemplate#send(V data) doesn't exists
+1432,2020-03-31 01:02:10.000000000,2020-03-31 21:40:13.000000000,closed,0,Add RoutingKafkaTemplate
+1431,2020-03-30 22:14:01.000000000,2020-03-30 23:33:48.000000000,closed,0,GH-1430: Support Producer Property Overrides
+1430,2020-03-30 19:32:02.000000000,2020-03-30 23:33:48.000000000,closed,0,Support Producer Config Overrides in KafkaTemplate
+1429,2020-03-28 01:57:13.000000000,2020-03-29 19:13:44.000000000,closed,0,Update samples to use current Boot autoconfigure
+1428,2020-03-27 01:28:27.000000000,2020-03-27 03:38:57.000000000,closed,0,Polish transaction synchronization test
+1427,2020-03-26 22:15:17.000000000,2020-03-26 23:45:34.000000000,closed,0,"GH-1370: Container props: Polish, Defaults, Docs"
+1426,2020-03-26 00:21:21.000000000,2020-03-29 19:14:17.000000000,closed,0,Change default test consumer config a.o.r=earliest
+1425,2020-03-25 18:28:42.000000000,2020-03-25 20:00:20.000000000,closed,2,GH-1424: Abort delivery on ProducerFencedException
+1424,2020-03-25 17:27:48.000000000,2020-03-25 20:00:20.000000000,closed,4,Remaining records should not be processed after catching ProducerFencedException in transactional non batch processing
+1423,2020-03-23 21:34:24.000000000,2020-03-23 22:24:55.000000000,closed,0,Don't populate a null RECEIVED_MESSAGE_KEY
+1422,2020-03-23 20:11:25.000000000,2020-03-23 20:49:45.000000000,closed,0,SIK Docs - flushExpression
+1421,2020-03-23 13:22:54.000000000,2020-03-23 21:55:30.000000000,closed,3,Kafka Streams Store Health Indicator
+1420,2020-03-20 23:26:55.000000000,2020-03-20 23:47:30.000000000,closed,2,Support `flush()` with send(Message<?>)
+1419,2020-03-17 19:45:52.000000000,2020-03-17 20:10:53.000000000,closed,0,Container Refactoring
+1418,2020-03-17 02:55:02.000000000,2020-04-18 00:40:54.000000000,closed,6,FEATURE: ToStringSerializer
+1417,2020-03-16 21:42:03.000000000,2020-03-16 21:56:26.000000000,closed,0,Fix manual acks with transactions
+1416,2020-03-13 19:20:14.000000000,2020-03-13 22:47:24.000000000,closed,1,Improve subBatchPerPartition
+1415,2020-03-10 20:10:48.000000000,2020-03-10 20:58:08.000000000,closed,2,GH-1414: ConcurrentMLC Fix ConcurrentModification
+1414,2020-03-10 19:27:00.000000000,2020-03-10 20:58:08.000000000,closed,3,ConcurrentMessageListenerContainer might throw java.util.ConcurrentModificationException 
+1413,2020-03-10 18:27:05.000000000,2020-03-10 19:41:30.000000000,closed,0,Remove deprecations
+1412,2020-03-10 01:51:11.000000000,2020-03-10 17:23:07.000000000,closed,0,GH-1366: Add Micrometer timers to KafkaTemplate
+1411,2020-03-09 20:43:05.000000000,2020-03-09 21:59:20.000000000,closed,0,DeadLetterPublishingRecoverer improvements
+1410,2020-03-07 01:42:27.000000000,2020-03-07 03:58:28.000000000,closed,1,GH-1382: RetryingBatchErrorHandler
+1409,2020-03-06 21:43:49.000000000,2020-03-06 22:01:10.000000000,closed,1,ClassCastException while processing  message header
+1408,2020-03-06 19:01:27.000000000,1970-01-01 00:00:00.000000001,open,1,Perform rollback processing on ProducerFencedException when it is caused by the same thread
+1407,2020-03-05 23:43:53.000000000,2020-03-06 00:45:07.000000000,closed,1,Fix Gradle Deprecations
+1406,2020-03-05 03:15:39.000000000,2020-03-05 03:22:12.000000000,closed,0,GH-1399: Reply Message<?> Headers
+1405,2020-03-04 23:30:13.000000000,2020-03-04 23:57:33.000000000,closed,0,GH-1402: Container retries delivery attempt header
+1404,2020-03-04 01:12:31.000000000,2020-03-04 01:45:23.000000000,closed,4,Use Spring Gradle Enterprise Conventions Plugin
+1403,2020-03-03 21:29:26.000000000,2020-03-04 03:07:11.000000000,closed,0,GH-1397: Channel doc polishing
+1402,2020-03-03 20:54:09.000000000,2020-03-04 23:57:33.000000000,closed,0,Populate kafka_deliveryAttempt when possible
+1401,2020-02-29 22:06:26.000000000,2020-03-03 00:40:13.000000000,closed,0,GH-1400: Expose topology from StreamsBuilder
+1400,2020-02-29 21:29:15.000000000,2020-03-03 00:40:13.000000000,closed,0,Expose the topology object created in StreamsBuilderFactoryBean
+1399,2020-02-25 22:41:42.000000000,2020-03-05 03:22:11.000000000,closed,0,@KafkaListener reply type Message<?> improvement
+1398,2020-02-25 02:47:27.000000000,2020-02-25 04:03:06.000000000,closed,0,GH-1397: Docs for S-I-K Channels
+1397,2020-02-25 01:59:22.000000000,2020-02-25 04:03:06.000000000,closed,0,Add docs for SIK channels
+1396,2020-02-20 21:11:04.000000000,2020-02-20 21:31:27.000000000,closed,0,GH-1388: DeadLetterPR: Don't start a Tx if allowed
+1395,2020-02-20 12:13:03.000000000,2020-04-29 00:38:35.000000000,closed,8,Add property resolver to Kafka listener post processor
+1394,2020-02-20 01:33:23.000000000,2020-02-20 01:39:49.000000000,closed,0,GH-1353: Clarify AckMode with transactions
+1393,2020-02-20 01:15:48.000000000,2020-02-20 01:59:19.000000000,closed,4,Replace JIRA ticket with GitHub issue in the contribution guidelines
+1392,2020-02-20 00:48:01.000000000,2020-02-20 00:50:06.000000000,closed,0,GH-1385: JsonDeserializer - trim trusted packages
+1391,2020-02-20 00:32:23.000000000,2020-02-20 00:38:44.000000000,closed,0,GH-1386: Fix StreamsBuilder customization
+1390,2020-02-19 22:51:24.000000000,2020-02-19 23:55:01.000000000,closed,0,GH-1388: Support non-Tx with a Tx Template
+1389,2020-02-19 20:54:27.000000000,2020-02-19 21:05:19.000000000,closed,0,Fix BatchToRecordAdapter
+1388,2020-02-19 19:57:37.000000000,2020-02-20 21:31:26.000000000,closed,3,Consider supporting non-transactional producer in a transactional template
+1387,2020-02-17 16:38:57.000000000,2020-02-17 20:50:23.000000000,closed,4,Expose valueSerializer and valueDeserializer (and key) as beans.
+1386,2020-02-14 21:14:04.000000000,2020-02-20 00:38:43.000000000,closed,3,Kafka Streams - Problem defining state store by using KafkaStreamsInfrastructureCustomizer
+1385,2020-02-14 18:44:04.000000000,2020-02-20 00:50:05.000000000,closed,0,Trim trusted package named in the JsonDeserializer
+1384,2020-02-13 11:40:14.000000000,2020-02-13 19:09:29.000000000,closed,2,java.lang.ExceptionInInitializerError
+1383,2020-02-12 16:00:54.000000000,2020-02-12 20:10:22.000000000,closed,3,Doc typo fix
+1382,2020-02-11 15:17:50.000000000,2020-03-07 03:58:28.000000000,closed,6,SeekToCurrentBatchErrorHandler infinite retry
+1381,2020-02-10 12:57:38.000000000,2020-02-11 01:15:22.000000000,closed,5,2.3.x
+1380,2020-02-09 03:14:15.000000000,2020-02-11 01:23:47.000000000,closed,4,Make ZK client timeouts configurable
+1379,2020-02-09 03:01:46.000000000,2020-02-09 03:12:21.000000000,closed,2,Make ZK client timeouts configurable
+1378,2020-02-05 00:56:29.000000000,2020-02-05 01:24:32.000000000,closed,1,GH-1369: Fix Fenced Consumer-based Producers
+1377,2020-02-04 19:24:04.000000000,2020-02-04 19:57:51.000000000,closed,1,GH-1376: Fix ContainerCustomizer
+1376,2020-02-04 19:08:36.000000000,2020-02-04 19:57:51.000000000,closed,0,Container Customizer is not called for @KafkaListener
+1375,2020-02-04 11:47:13.000000000,2020-02-04 19:49:04.000000000,closed,3,Fix typo in reference adoc
+1374,2020-02-04 11:33:24.000000000,2020-02-04 20:47:06.000000000,closed,1,Typo fix in reference document
+1373,2020-02-03 20:49:28.000000000,2020-02-03 21:30:10.000000000,closed,1,GH-1354: Fix default BackOff with deprecated CTOR
+1372,2020-01-30 21:14:45.000000000,2020-04-01 18:49:12.000000000,closed,1,Change default AssignmentCommitOption
+1371,2020-01-30 19:47:30.000000000,2020-01-30 21:21:15.000000000,closed,3,GH-1370: Opt. commit current offsets on assignment
+1370,2020-01-29 21:56:44.000000000,2020-01-30 21:21:15.000000000,closed,5,On Partitions Assignment need of transaction-ability 
+1369,2020-01-29 18:39:21.000000000,2020-02-05 01:24:32.000000000,closed,19,"Spring kafka should handle some fatal exceptions like InvalidPidMappingException, UnknownProducerIdException."
+1368,2020-01-28 23:51:03.000000000,2020-01-29 00:09:24.000000000,closed,0,GH-1356: Add BatchToRecordAdapter
+1367,2020-01-28 22:29:24.000000000,2020-07-17 21:27:54.000000000,closed,4,Spring Kafka stops after group coordinator is lost
+1366,2020-01-27 09:05:47.000000000,2020-03-10 17:23:07.000000000,closed,1,Support Micrometer metrics for Kafka Producers
+1365,2020-01-22 23:17:21.000000000,2020-01-23 02:03:39.000000000,closed,1,GH-1353: Fix sleep with BatchListener nack
+1364,2020-01-22 20:11:30.000000000,2020-01-22 20:46:16.000000000,closed,0,GH-681: Fix docs/deprecations for ProducerListener
+1363,2020-01-22 15:30:36.000000000,2020-01-23 02:03:39.000000000,closed,0,"Sleep value passed to acknowledgment.nack() method is ignored when using ""batch"" listener"
+1362,2020-01-22 14:07:59.000000000,2020-01-24 02:18:11.000000000,closed,15,GH-1362: Add the possibility of adding custom HandlerMethodArgumentResolver
+1361,2020-01-22 00:49:02.000000000,2020-01-24 02:18:13.000000000,closed,2,Add the possibility of adding custom HandlerMethodArgumentResolver
+1360,2020-01-21 22:28:39.000000000,2020-01-21 23:28:23.000000000,closed,1,GH-1358: KTU.getRecords() - add minRecords option
+1359,2020-01-21 20:14:50.000000000,2020-01-23 19:10:18.000000000,closed,3,Document more explicitly that (de)serialization config properties have no effect when instances are provided
+1358,2020-01-21 14:36:23.000000000,2020-01-21 23:28:23.000000000,closed,1,Improving KafkaTestUtil getRecords method functionality
+1357,2020-01-19 07:02:55.000000000,2020-01-29 02:00:40.000000000,closed,4,SpringBootVersion 2.2.2.RELEASE can't use spring-kafka default
+1356,2020-01-16 20:55:29.000000000,2020-01-29 00:09:24.000000000,closed,0,Single record listener backed with a BatchListener
+1355,2020-01-15 22:19:33.000000000,2020-08-04 22:53:07.000000000,closed,1,Recoverer in AfterRollbackProcessor
+1354,2020-01-15 22:14:48.000000000,2020-02-03 21:30:10.000000000,closed,3,AfterRollbackProcessor and default FixedBackOff
+1353,2020-01-15 21:23:08.000000000,2020-02-20 01:39:49.000000000,closed,2,Improve AckMode documentation
+1352,2020-01-14 19:47:14.000000000,2020-07-17 21:29:30.000000000,closed,6,EmbeddedKafka - multiple embedded topics
+1351,2020-01-14 17:08:59.000000000,2020-01-15 05:47:00.000000000,closed,2,JsonDeserializer ability to use method argument type as deserializer type
+1350,2020-01-13 19:56:23.000000000,2020-01-13 20:45:10.000000000,closed,0,GH-1236: Add Streams infrastructure customizer
+1349,2020-01-11 12:14:33.000000000,2020-01-11 12:22:17.000000000,closed,0,Consider to add MessageConverter for ReplyingKafkaTemplate.sendAndReceive support 
+1348,2020-01-08 19:24:07.000000000,2020-01-08 20:40:39.000000000,closed,2,GH-1347: Fix @EmbeddedKafka with count > 1
+1347,2020-01-08 05:06:30.000000000,2020-01-08 20:40:39.000000000,closed,2,"IllegalArgumentException thrown with error description ""a port must be provided for each instance"" when @EmbeddedKafka contains more than one broker without provide a ports tag"
+1346,2020-01-08 01:05:24.000000000,2020-07-17 21:30:29.000000000,closed,18,DefaultKafkaHeaderMapper no longer adding data type for String data type
+1345,2019-12-31 21:20:53.000000000,2020-01-01 00:53:37.000000000,closed,0,GH-1344: Enable updateCopyrights onlyIf grgit
+1344,2019-12-31 14:06:46.000000000,2020-01-01 00:53:36.000000000,closed,3,A problem occurred evaluating root project 'spring-kafka-dist'.
+1343,2019-12-26 09:03:37.000000000,2019-12-26 19:18:40.000000000,closed,0,Fix return type in streams docs
+1342,2019-12-25 21:59:22.000000000,2019-12-26 07:40:57.000000000,closed,2,kafka 2.4 dependencies
+1341,2019-12-20 22:25:02.000000000,2019-12-21 01:20:15.000000000,closed,1,GH-1340: Support returning a collection
+1340,2019-12-20 20:13:42.000000000,2019-12-21 01:20:15.000000000,closed,0,@KL - Add an option to return `List<Foo>` as a single record.
+1339,2019-12-19 22:24:47.000000000,2019-12-19 22:29:29.000000000,closed,0,Add reset() to ProducerFactory
+1338,2019-12-18 00:30:06.000000000,2019-12-18 00:40:15.000000000,closed,1,GH-1319: Agg. Replying Template improvement
+1337,2019-12-17 23:35:33.000000000,2019-12-18 21:29:14.000000000,closed,10,GH-1336: Introduce authExceptionRetryInterval to retry on auth errors
+1336,2019-12-17 18:37:47.000000000,2019-12-18 21:25:18.000000000,closed,2,Allow denied authorization decisions to be retried
+1335,2019-12-17 03:38:31.000000000,2019-12-17 04:12:31.000000000,closed,3,[GH-1334] Pause consumer for 30 seconds on TopicAuthorizationException
+1334,2019-12-17 03:31:27.000000000,2019-12-17 23:37:10.000000000,closed,7,Log spam for consumers without READ authorization
+1333,2019-12-14 01:10:38.000000000,2019-12-14 01:44:43.000000000,closed,0,Warn for non-String consumer property overrides
+1332,2019-12-13 20:00:09.000000000,2019-12-13 20:54:07.000000000,closed,3,GH-1331: KMLC - treat auth. exceptions as fatal
+1331,2019-12-13 12:14:39.000000000,2019-12-13 20:54:07.000000000,closed,5,Spring Kafka : Producing too many repetitive logs when hitting org.apache.kafka.common.errors.GroupAuthorizationException
+1330,2019-12-10 21:00:28.000000000,2019-12-10 21:01:19.000000000,closed,0,KTU.producerProps doc polishing
+1329,2019-12-10 20:29:06.000000000,2019-12-10 20:38:22.000000000,closed,0,Deprecate KTU.senderProps()
+1328,2019-12-10 08:29:58.000000000,2019-12-10 20:50:21.000000000,closed,9,Fix wrong method name in docs
+1327,2019-12-07 03:36:43.000000000,2019-12-10 00:15:54.000000000,closed,1,KafkaListenerEndpointRegistry isRunning state is incorrect after calling stop(Runnable)
+1326,2019-12-04 12:05:15.000000000,2020-04-13 18:45:13.000000000,closed,4,Spring Kafka Streams - Processor API
+1325,2019-12-04 00:50:29.000000000,2019-12-04 01:18:39.000000000,closed,0,GH-1321: Add intercept before Tx option
+1324,2019-12-03 21:25:57.000000000,2019-12-03 21:53:51.000000000,closed,0,GH-1323: s-k-test remove hard AssertJ dependency
+1323,2019-12-03 18:42:27.000000000,2019-12-03 21:53:50.000000000,closed,2,Is it possible to use `spring-kafka-test` without AssertJ?
+1322,2019-12-02 14:53:21.000000000,2019-12-03 12:28:44.000000000,closed,2,Interceptor Improvement : BatchRecordInterceptor for Batch Record Consumers 
+1321,2019-11-28 13:53:46.000000000,2019-12-04 01:18:39.000000000,closed,1,Improvement proposal - RecordInterceptor for transactional consumer
+1320,2019-11-21 22:05:29.000000000,2019-11-21 22:34:59.000000000,closed,3,Have (De)Serializer classes look for ObjectMappers in the application context before constructing its own objectMapper
+1319,2019-11-20 22:20:05.000000000,2019-12-18 00:40:15.000000000,closed,2,Add validation function to aggregating template
+1318,2019-11-19 22:30:40.000000000,2019-11-20 02:44:26.000000000,closed,8,ValidatingReplyingKafkaTemplate
+1317,2019-11-18 22:18:51.000000000,1970-01-01 00:00:00.000000001,open,3,Add parameter names to default object mapper
+1316,2019-11-18 21:23:14.000000000,2019-12-17 21:58:18.000000000,closed,2,Upgrade to 2.4 clients
+1315,2019-11-16 00:43:59.000000000,2019-11-18 21:19:36.000000000,closed,5,Add default header patterns to SimpleKafkaHeaderMapper
+1314,2019-11-14 19:44:28.000000000,2019-11-14 23:45:38.000000000,closed,2,missingTopicsFatal false by default
+1313,2019-11-14 07:46:50.000000000,2019-11-14 09:32:18.000000000,closed,4,【Enhancement】start ConcurrentMessageListenerContainer in a seperated thread and keep retrying.
+1312,2019-11-14 00:21:54.000000000,2019-11-14 00:35:49.000000000,closed,3,Kafka properties for multiple producers
+1311,2019-11-13 22:10:08.000000000,2019-11-13 22:23:49.000000000,closed,0,GH-1309: Fix NPE when no syncCommitTimeout set
+1310,2019-11-13 19:32:32.000000000,2019-11-18 21:44:56.000000000,closed,6,SimpleKafkaHeaderMapper does not use default patterns
+1309,2019-11-13 17:15:12.000000000,2019-11-13 22:23:48.000000000,closed,3,NullPointerException in CommitSync class through SeekToCurrentErrorHandler
+1308,2019-11-13 01:28:07.000000000,2019-11-13 02:14:09.000000000,closed,0,Add ContainerCustomizer
+1307,2019-11-09 00:27:52.000000000,2019-11-09 00:32:40.000000000,closed,0,ConsumerSeekAware Improvement
+1306,2019-11-08 20:26:07.000000000,2019-11-08 21:01:19.000000000,closed,0,Don't delay batch offset commits
+1305,2019-11-08 16:19:25.000000000,2020-01-13 19:58:15.000000000,closed,7,Proposal: Support Kafka Streams Topology customizer
+1304,2019-11-08 01:09:35.000000000,2019-11-08 02:45:03.000000000,closed,1,GH-1299: Add AssertJ keyValue Condition
+1303,2019-11-07 22:52:42.000000000,2019-11-07 23:58:39.000000000,closed,0,GH-1293: Fix KafkaTestUtils.getSingleRecord()
+1302,2019-11-07 21:06:59.000000000,2019-11-07 23:07:07.000000000,closed,0,GH-1301: Make DefKafkaHMapper backward compatible
+1301,2019-11-07 03:40:31.000000000,2019-11-07 23:07:07.000000000,closed,0,Fix DefaultKafkaHeaderMapper for backwards compatibility
+1300,2019-11-05 22:45:32.000000000,2019-11-05 22:48:56.000000000,closed,1,please help me
+1299,2019-11-05 16:45:01.000000000,2019-11-08 02:45:03.000000000,closed,1,key and value AssertJ conditions cannot be combined using allOf due to type errors
+1298,2019-11-05 14:31:18.000000000,2019-11-05 18:18:55.000000000,closed,1,Kafka Listener stop getting messages after longtime consumer
+1297,2019-11-05 12:22:45.000000000,2019-11-05 18:16:51.000000000,closed,1,spring kafka config in bootstrap.yml can not work
+1296,2019-11-05 04:31:06.000000000,1970-01-01 00:00:00.000000001,open,1,Consider to add Producer and Consumer Factories for CloudEvents Kafka support
+1295,2019-11-05 03:50:06.000000000,2019-11-05 04:23:07.000000000,closed,0,GH-1294: Fix mapping empty String header values
+1294,2019-11-05 02:35:22.000000000,2019-11-05 04:23:07.000000000,closed,9,"""Could not decode json type"" exception when a string property has empty value"
+1293,2019-11-04 22:16:31.000000000,2019-11-07 23:58:38.000000000,closed,0,Improve KafkaTestUtils.getSingleRecord()
+1292,2019-11-04 07:59:27.000000000,2019-11-12 18:51:51.000000000,closed,5,How to enable at-most-once with spring-kafka
+1291,2019-11-02 02:36:09.000000000,2019-11-07 23:20:15.000000000,closed,0,Fix events documentation
+1290,2019-11-01 19:12:29.000000000,2019-11-01 19:15:12.000000000,closed,0,GH-1289: STCEH - Fix IndexOutOfBoundsException
+1289,2019-11-01 18:13:49.000000000,2019-11-01 19:15:12.000000000,closed,4,strange exception
+1288,2019-10-30 00:34:47.000000000,2019-10-30 17:40:19.000000000,closed,1,GH-1287: Detect mis-configured deserialization
+1287,2019-10-29 22:34:57.000000000,2019-10-30 17:40:19.000000000,closed,8,Infinite Loop when consuming Invalid messages - SerializationException
+1286,2019-10-29 21:37:42.000000000,2020-04-29 00:50:33.000000000,closed,6,Spring kafka 1270 alternative
+1285,2019-10-29 00:00:43.000000000,2019-10-29 00:09:54.000000000,closed,0,Deprecate ZkClient in embedded broker
+1284,2019-10-28 21:40:51.000000000,2019-10-28 23:35:29.000000000,closed,2,GH-1283: Unique client.id for each producer
+1283,2019-10-28 21:04:51.000000000,2019-10-28 23:35:29.000000000,closed,0,Add clientIdPrefix to DKPF
+1282,2019-10-25 18:18:26.000000000,2019-10-25 18:22:21.000000000,closed,3,Remove unnecessary implements statement
+1281,2019-10-24 23:17:40.000000000,2019-10-29 21:38:17.000000000,closed,7,fix for #1270
+1280,2019-10-21 22:02:58.000000000,2019-10-21 22:41:47.000000000,closed,0,GH-1278: Zombie Fencing with Batch Listener
+1279,2019-10-21 14:27:26.000000000,2019-10-22 17:31:02.000000000,closed,15,`spring.kafka.jaas.enabled` not working
+1278,2019-10-19 00:25:07.000000000,2019-10-21 22:41:47.000000000,closed,0,Batch Listener - Support Zombie Fencing
+1277,2019-10-18 22:15:13.000000000,2019-12-17 22:53:03.000000000,closed,0,Change default GenericErrorHandler.isAckAfterHandle to true
+1276,2019-10-18 21:40:23.000000000,2019-10-18 21:43:50.000000000,closed,0,GH-1274: Fix STCEH Deprecated CTOR
+1275,2019-10-18 20:28:13.000000000,2019-10-18 23:21:36.000000000,closed,3,GH-1273: Fix offset commit after recovery
+1274,2019-10-18 18:14:40.000000000,2019-10-18 21:43:50.000000000,closed,5,RuntimeExceptions do not cause a reseek and retry as they used to do in previous version
+1273,2019-10-18 17:39:00.000000000,2019-10-18 23:21:36.000000000,closed,0,Auto ack a recovered record
+1272,2019-10-17 22:32:50.000000000,2019-10-17 22:50:52.000000000,closed,0,GH-1271: Allow consumption of DLT published record
+1271,2019-10-17 20:38:42.000000000,2019-10-31 21:50:13.000000000,closed,1,Cannot use a listener container to receive from a DLT record published due to a deserialization exception
+1270,2019-10-17 17:46:29.000000000,2020-05-12 19:12:25.000000000,closed,2,DefaultKafkaProducerFactory logging out of place ?
+1269,2019-10-15 23:15:52.000000000,2019-10-15 23:21:13.000000000,closed,1,Fix typo around NRCEvent properties
+1268,2019-10-14 20:30:17.000000000,2019-10-14 20:58:07.000000000,closed,0,Test Travis EG build scan [DO NOT MERGE]
+1267,2019-10-14 17:34:35.000000000,2019-10-14 18:02:08.000000000,closed,0,Add opt-in integration with Gradle's build scans
+1266,2019-10-11 17:16:24.000000000,2019-10-15 19:04:52.000000000,closed,2,ErrorHandler - Failed Recovery Still Commits Kafka Events
+1265,2019-10-11 01:44:33.000000000,2019-10-11 01:59:20.000000000,closed,1,Exception Bug in KafkaMessageListenerContainer.java
+1264,2019-10-04 20:27:26.000000000,2019-10-15 18:27:06.000000000,closed,3,Bug: Upgrade to v2.3.0.RELEASE throws nested exception at runtime
+1263,2019-10-04 19:23:29.000000000,2019-10-04 23:39:50.000000000,closed,0,GH-1260: Add exception classification to DARP
+1262,2019-10-03 22:15:15.000000000,2019-10-03 22:19:52.000000000,closed,0,GH-1259: Failed recovery with no retry
+1261,2019-10-03 20:02:22.000000000,2019-10-03 20:32:56.000000000,closed,1,GH-1259: Handle Failed Record Recovery
+1260,2019-10-03 18:51:46.000000000,2019-10-04 23:39:49.000000000,closed,0,Add BinaryExceptionClassifier to DefaultAfterRollbackProcessor
+1259,2019-10-03 18:49:48.000000000,2019-10-03 20:32:56.000000000,closed,0,Exception in recoverer with DefaultAfterRollbackProcessor still commit the offset
+1258,2019-10-03 11:03:36.000000000,2019-10-03 15:25:30.000000000,closed,6,java.lang.NoClassDefFoundError: org/springframework/core/log/LogAccessor on spring-kafka 2.3.0
+1257,2019-10-02 18:18:40.000000000,2019-10-02 18:36:14.000000000,closed,0,Upgrade samples
+1256,2019-10-01 01:21:32.000000000,2019-10-01 17:55:13.000000000,closed,0,GH-1225: @KL - skip conversion when not needed
+1255,2019-09-30 21:23:29.000000000,2019-09-30 21:51:56.000000000,closed,0,GH-1254: Configurable Embedded Zookeeper Port
+1254,2019-09-30 19:01:15.000000000,2019-09-30 21:51:56.000000000,closed,2,EmbeddedKafka does not support specifying zookeeper port
+1253,2019-09-27 21:58:31.000000000,2019-09-27 22:07:01.000000000,closed,0,GH-1252: Add more consumer lifecycle events
+1252,2019-09-27 16:29:42.000000000,2019-09-27 22:07:01.000000000,closed,2,no errors are reported when it is not possible to honor a @KafkaListener
+1251,2019-09-27 11:14:23.000000000,2019-09-27 18:43:14.000000000,closed,1,ERROR o.s.i.handler.LoggingHandler - org.springframework.messaging.converter.MessageConversionException: Cannot convert from [[B] to [java.lang.String] for GenericMessage [payload=byte[3]
+1250,2019-09-27 01:39:55.000000000,2019-09-27 18:54:44.000000000,closed,0,DefaultKafkaHeaderMapper Improvement
+1249,2019-09-26 18:33:09.000000000,2019-09-26 18:52:35.000000000,closed,1,GH-1247: Only wake consumer while polling
+1248,2019-09-26 18:00:19.000000000,2019-09-26 18:15:44.000000000,closed,2,Fix new Sonar smells
+1247,2019-09-26 16:43:05.000000000,2019-09-26 18:52:35.000000000,closed,2,WakeupException after calling KafkaListenerEndpointRegistry#stop
+1246,2019-09-24 17:09:31.000000000,2019-09-27 20:24:23.000000000,closed,1,Upgrade to Jackson 2.10
+1245,2019-09-24 01:06:14.000000000,2019-09-24 05:13:11.000000000,closed,0,GH-1244: ReplyingKTemplate reply timeout per send
+1244,2019-09-23 18:12:42.000000000,2019-09-24 05:13:11.000000000,closed,3,Support request based reply timeout in ReplyingKafkaTemplate
+1243,2019-09-21 07:58:30.000000000,2019-09-24 16:29:59.000000000,closed,9,Spring-Kafka 2.x.x does not publish NonResponsiveConsumerEvent when broker not responding
+1242,2019-09-21 01:06:26.000000000,2019-09-23 17:10:17.000000000,closed,0,Add Micrometer Timers to the KMLContainer
+1241,2019-09-18 19:19:18.000000000,2019-09-18 21:10:41.000000000,closed,0,Upgrade dependencies
+1240,2019-09-17 20:25:08.000000000,2019-09-18 17:00:55.000000000,closed,0,Pull Up Consumer Properties
+1239,2019-09-17 01:00:31.000000000,2019-09-17 01:57:13.000000000,closed,0,GH-1234: Fix FailedRecordTracker
+1238,2019-09-17 01:00:26.000000000,2019-09-17 01:57:48.000000000,closed,0,GH-1234: Fix FailedRecordTracker [2.2.x]
+1237,2019-09-16 11:07:56.000000000,2019-09-18 04:56:48.000000000,closed,9,FailedRecordTracker cannot handle multiple failed records from different partitions -> can cause infinite loop
+1236,2019-09-14 02:47:07.000000000,2020-01-13 20:45:10.000000000,closed,10,Kafka Streams create store support
+1235,2019-09-13 16:14:24.000000000,2019-09-13 17:21:49.000000000,closed,2,Upgrade kafka-client
+1234,2019-09-13 11:18:06.000000000,2019-09-17 01:57:13.000000000,closed,7,SeekToCurrentErrorHandler with exponential backoff - potential infinite loop
+1233,2019-09-12 22:05:00.000000000,2019-09-12 22:09:29.000000000,closed,2,GH-1231: KafkaTestUtils Enhancements
+1232,2019-09-11 16:01:52.000000000,2019-09-11 17:21:53.000000000,closed,3,SeekToCurrentErrorHandler maxFailures doesn't work when concurrency level is less than partition number
+1231,2019-09-10 17:54:42.000000000,2019-09-12 22:09:29.000000000,closed,2,Add utility for checking latest offset in KafkaTestUtils
+1230,2019-09-10 12:45:57.000000000,2019-09-11 06:14:02.000000000,closed,2,Coordinator selected invalid assignment protocol: null 
+1229,2019-09-09 12:17:59.000000000,2019-09-10 17:39:32.000000000,closed,3,Kafka messages reprocessing
+1228,2019-09-05 23:42:50.000000000,2019-09-06 00:34:02.000000000,closed,4,KafkaStreamsConfiguration converts all values to String
+1227,2019-09-05 00:18:24.000000000,2019-09-05 01:03:46.000000000,closed,4,Fixes https://github.com/spring-projects/spring-kafka/issues/1226 
+1226,2019-09-04 22:43:29.000000000,2019-09-05 01:03:48.000000000,closed,2,"Fix ""Mapping Types"" code snippet "
+1225,2019-09-04 15:49:21.000000000,2019-10-01 17:55:13.000000000,closed,10,KafkaListener does not try to resolve type for ConsumerRecord
+1224,2019-08-30 12:13:13.000000000,2019-08-30 17:58:11.000000000,closed,0,typo fix!
+1223,2019-08-29 21:39:48.000000000,2019-08-29 21:41:56.000000000,closed,2,This is not the correct coordinator/ co-ordinator unaware of this member
+1222,2019-08-29 19:56:50.000000000,2019-08-29 20:10:49.000000000,closed,0,GH-1219: Assert no retry with batch listener
+1221,2019-08-29 13:27:57.000000000,2019-08-29 19:19:43.000000000,closed,2,@KafkaListener groupId property is not working
+1220,2019-08-28 01:08:03.000000000,2019-08-28 01:13:07.000000000,closed,0,GH-1210: Javadoc/Doc Polishing
+1219,2019-08-28 00:08:38.000000000,2019-08-29 20:10:48.000000000,closed,0,Add an assertion when RetryTemplate is configured with BatchMessageListener
+1218,2019-08-27 20:36:04.000000000,2019-08-27 23:53:13.000000000,closed,1,Avoid BeanDefinitionOverrideEx with EnableKafka
+1217,2019-08-27 00:37:20.000000000,2019-08-27 23:51:49.000000000,closed,0,GH-1210: Add nack capability to MANUAL AckModes
+1216,2019-08-26 23:52:32.000000000,2019-09-06 17:19:53.000000000,closed,0,Move Transactions to a top-level section
+1215,2019-08-26 10:41:14.000000000,2019-08-26 10:44:13.000000000,closed,0,streamsbuilder
+1214,2019-08-26 10:27:32.000000000,2019-08-26 17:13:28.000000000,closed,0,streambuilder
+1213,2019-08-24 00:46:36.000000000,2019-08-26 19:35:23.000000000,closed,1,TopicBuilder Improvements
+1212,2019-08-23 21:54:02.000000000,2019-08-23 22:11:34.000000000,closed,0,Convert all tests to JUnit 5
+1211,2019-08-22 16:26:27.000000000,2019-08-22 16:28:19.000000000,closed,2,getting exception Invalid transition attempted from state ABORTING_TRANSACTION to state IN_TRANSACTION
+1210,2019-08-22 11:28:59.000000000,2019-08-27 23:51:49.000000000,closed,13,Support requeue operation in KafkaMessageListenerContainer
+1209,2019-08-21 19:15:23.000000000,2019-08-21 19:41:58.000000000,closed,2,Try/Catch around error recovery [Backport]
+1208,2019-08-21 18:36:30.000000000,2019-08-21 19:41:11.000000000,closed,0,Try/Catch around error recovery
+1207,2019-08-21 06:18:23.000000000,2019-08-21 07:44:37.000000000,closed,0,Get org.apache.kafka.streams.errors.InvalidStateStoreException event if state is RUNNING
+1206,2019-08-19 22:35:22.000000000,2019-08-19 23:21:39.000000000,closed,0,GH-1203: Extract ContainerProperties Super Class
+1205,2019-08-19 20:50:42.000000000,2019-08-19 20:52:13.000000000,closed,0,GH-1204: SIK docs for transactions
+1204,2019-08-19 19:54:11.000000000,2019-08-19 20:52:13.000000000,closed,0,Document Consumer and Producer-Initiated Transactions in SI Outbound Adapter
+1203,2019-08-19 18:54:23.000000000,2019-08-19 23:21:39.000000000,closed,0,Extract ConsumerProperties super class from the ContainerProperties for common options for MessageSource
+1202,2019-08-17 00:53:07.000000000,2019-08-17 01:20:43.000000000,closed,0,GH-1196: Polishing after backports
+1201,2019-08-17 00:52:38.000000000,2019-08-17 01:20:17.000000000,closed,0,GH-1196: Use close(Duration) instead of close() [22x]
+1200,2019-08-17 00:52:13.000000000,2019-08-17 01:10:22.000000000,closed,0,GH-1196: Use close(Duration) instead of close() [21x]
+1199,2019-08-17 00:51:46.000000000,2019-08-17 01:07:39.000000000,closed,0,GH-1196: Use close(Duration) instead of close() [13x]
+1198,2019-08-17 00:26:30.000000000,2019-08-19 18:14:38.000000000,closed,0,GH-1186: Add `idleBetweenPolls` container option
+1197,2019-08-16 21:16:13.000000000,2019-08-16 22:28:27.000000000,closed,2,Use close(Duration) instead of close()
+1196,2019-08-16 18:57:05.000000000,2019-08-16 22:28:27.000000000,closed,0,Use close with timeout in KafkaTemplate
+1195,2019-08-14 19:42:57.000000000,2019-08-15 23:27:06.000000000,closed,0,Upgrade Jackson version and use BOM for deps
+1194,2019-08-14 16:46:11.000000000,2019-11-18 21:40:23.000000000,closed,4,removed StreamsConfig dependency from StreamsBuilderFactoryBean
+1193,2019-08-13 21:12:27.000000000,2019-08-15 20:03:26.000000000,closed,0,Embeded broker - automatically set num.partitions
+1192,2019-08-12 14:37:32.000000000,2019-08-12 17:11:03.000000000,closed,2,Wait some time before retrying 
+1191,2019-08-07 20:30:31.000000000,2019-08-07 21:08:48.000000000,closed,7,Do not unset the message id and message timestamp from incoming message headers
+1190,2019-08-07 18:49:38.000000000,2019-09-12 21:21:16.000000000,closed,2,ErrorHandlingDeserializer2 works with KafkaAvroDeserializer
+1189,2019-08-07 16:57:43.000000000,1970-01-01 00:00:00.000000001,open,3,Asynchronous server-side processing in a request/reply scenario
+1188,2019-08-06 17:16:47.000000000,2019-08-07 01:04:09.000000000,closed,1,Kafka listener for han
+1187,2019-08-06 17:16:45.000000000,2019-08-06 17:26:04.000000000,closed,0,Kafka listener for handling list of Jason 
+1186,2019-08-02 01:05:57.000000000,2019-08-19 18:14:38.000000000,closed,3,Add pollDelay container property
+1185,2019-08-01 23:06:26.000000000,2019-08-19 18:14:03.000000000,closed,3,Add BackOff to SeekToCurrent components
+1184,2019-08-01 17:34:39.000000000,1970-01-01 00:00:00.000000001,open,2,Add a test case for ReactiveKafkaConsumerTemplate.receiveExactlyOnce
+1183,2019-08-01 11:40:34.000000000,2019-08-01 16:51:54.000000000,closed,1,Update assert messages to supplier messages
+1182,2019-07-31 22:02:38.000000000,2019-08-01 23:17:06.000000000,closed,2,GH-1171: Custom headers for ReplyingKafkaTemplate
+1181,2019-07-30 16:33:55.000000000,2019-07-30 17:07:53.000000000,closed,1,Spring Kafka Consumer Stops Consuming Messages After Kafka Restart
+1180,2019-07-27 01:35:01.000000000,2019-10-15 18:25:12.000000000,closed,2,"Long polling with FETCH_MAX_WAIT_MS_CONFIG get Error sending fetch request (sessionId=INVALID, epoch=INITIAL) to node 0: org.apache.kafka.common.errors.DisconnectException"
+1179,2019-07-26 10:26:19.000000000,2019-08-08 07:21:50.000000000,closed,2,"Springboot Application run failed.ThreadPoolTaskExecutor,mongo,rabbitmq,tomcat were all closed,but kafka is still alive."
+1178,2019-07-26 09:49:51.000000000,2019-07-26 11:29:32.000000000,closed,0,"Springboot Application run failed.ThreadPoolTaskExecutor,mongo,rabbitmq,tomcat were all closed,but kafka is still alive."
+1177,2019-07-24 04:38:23.000000000,2019-07-25 09:48:38.000000000,closed,2,Ability to change dead letter topic name in DeadLetterPublishingRecoverer
+1176,2019-07-23 20:13:04.000000000,2019-07-26 00:51:34.000000000,closed,2,package java.net should be included in the DEFAULT_TRUSTED_PACKAGES
+1175,2019-07-23 19:21:49.000000000,1970-01-01 00:00:00.000000001,open,1,JsonMappingException thrown when BinderHeaderMapper tries to deserialize a list of values retrieved by key Allow
+1174,2019-07-22 22:05:31.000000000,2019-07-22 23:19:46.000000000,closed,2,Use `@Configuration(proxyBeanMethods=false)`
+1173,2019-07-22 21:01:59.000000000,2019-07-22 21:06:17.000000000,closed,0,Set bootstrap servers property in @EmbeddedKafka
+1172,2019-07-22 18:12:51.000000000,2019-07-22 18:59:56.000000000,closed,1,Bump to the latest BUILD-SNAPSHOTs
+1171,2019-07-19 23:09:00.000000000,2019-08-01 23:17:06.000000000,closed,8,ReplyingKafkaTemplate supports message headers only from spring-kafka
+1169,2019-07-18 18:53:08.000000000,2019-07-18 19:16:35.000000000,closed,1,GH-1168: Fix sendOffsets in local transaction
+1168,2019-07-18 17:23:17.000000000,2019-07-18 19:16:35.000000000,closed,0,Bug - KafkaTemplate.sendOffsetsToTransaction() doesn't work in executeInTransaction
+1167,2019-07-16 21:56:29.000000000,2019-07-17 23:43:54.000000000,closed,3,GH-1158: Fix TopicPartitionInitialOff. Deprecation
+1166,2019-07-12 22:47:16.000000000,2019-07-13 01:36:11.000000000,closed,0,KMLC: Avoid many casts to ConsumerSeekAware
+1165,2019-07-12 13:47:47.000000000,2019-10-15 18:26:06.000000000,closed,2,Error Cannot connect to broker
+1164,2019-07-12 02:04:06.000000000,2019-07-12 21:19:58.000000000,closed,0,Add seek helper abstract class
+1163,2019-07-11 20:10:40.000000000,2019-07-12 01:36:43.000000000,closed,0,ConsumerSeekAware: Add seek to time stamp
+1162,2019-07-10 22:28:55.000000000,2019-11-18 21:43:53.000000000,closed,1,Remove StreamsConfig References in StreamsBuilderFactoryBean
+1161,2019-07-10 21:56:03.000000000,2019-07-10 22:24:24.000000000,closed,0,GH-1159: SBFB: Fully deprecate StreamsConfig
+1160,2019-07-10 20:25:16.000000000,2019-07-10 22:33:07.000000000,closed,0,GH-1158: Deprecate TopicPartitionInitialOffset
+1159,2019-07-10 20:20:03.000000000,2019-07-10 22:24:24.000000000,closed,1,SBFB - Deprecate StreamsConfig Setter
+1158,2019-07-10 19:03:48.000000000,2019-07-17 23:43:31.000000000,closed,0,Deprecate TopicPartitionInitialOffset
+1157,2019-07-10 19:01:47.000000000,2019-07-10 19:28:13.000000000,closed,0,Add relative seek to ConsumerSeekCallback
+1156,2019-07-08 18:18:45.000000000,2019-07-08 18:24:49.000000000,closed,1,Can you please add some document for Spring Kafka using Confluent Avro Deserialization?
+1155,2019-07-08 12:46:51.000000000,2019-07-09 23:51:35.000000000,closed,4,Use StreamsBuilder#build(Properties) to allow topology optimization
+1154,2019-07-04 16:32:47.000000000,2019-07-05 17:32:35.000000000,closed,1,testing.adoc example fix
+1153,2019-07-03 01:02:15.000000000,2019-07-03 01:20:32.000000000,closed,0,Add RetryingDeserializer
+1152,2019-07-02 18:19:18.000000000,2019-07-02 19:37:31.000000000,closed,0,GH-1151: Doc: Clarify Stateful Retry Recovery
+1151,2019-07-02 17:51:26.000000000,2019-07-02 19:37:31.000000000,closed,0,Document recovery needs when combining SeekToCurrentErrorHandler with stateful retry
+1150,2019-07-02 01:17:48.000000000,2019-07-02 02:04:39.000000000,closed,1,AckMode.MANUAL_IMMEDIATE - wake Consumer
+1149,2019-06-28 18:05:04.000000000,2019-07-31 23:36:39.000000000,closed,2,Kafka Batch/Ack/Pause
+1148,2019-06-27 22:39:30.000000000,2019-06-27 23:01:21.000000000,closed,0,GH-1144: Fix @EmbeddedKafka with @SpringBootTest
+1147,2019-06-27 20:14:23.000000000,2019-06-27 20:37:15.000000000,closed,1,GH-1145: Backport NPE Fix
+1146,2019-06-27 20:08:39.000000000,2019-06-27 20:36:34.000000000,closed,1,GH-1144: Doc. @EmbeddedKafka property limitation
+1145,2019-06-27 15:32:32.000000000,2019-06-27 21:32:24.000000000,closed,4,getAssignedPartitions() returns null
+1144,2019-06-27 09:34:34.000000000,2019-06-27 23:01:21.000000000,closed,32,EmbeddedKafka broken when using placeholder properties for topics
+1143,2019-06-26 23:40:58.000000000,2019-06-27 00:56:51.000000000,closed,1,GH-1142: Add CompositeRecordInterceptor
+1142,2019-06-26 19:17:52.000000000,2019-06-27 00:56:51.000000000,closed,6,Support to accept more than one RecordInterceptors in AbstractKafkaListenerContainerFactory 
+1141,2019-06-25 00:39:45.000000000,2019-06-28 00:56:02.000000000,closed,5,GH-1125 Handle deserialization errors by using FailedDeserialization POJO
+1140,2019-06-24 21:43:54.000000000,2019-06-24 21:53:29.000000000,closed,0,GH-1139: Json Serialization: Add Fluent API
+1139,2019-06-22 01:46:55.000000000,2019-06-24 21:53:29.000000000,closed,0,Json (De)Serializer Fluent API
+1138,2019-06-21 23:39:28.000000000,2019-06-22 01:27:06.000000000,closed,3,GH-1137: Fix Json Type Headers for KStream
+1137,2019-06-21 22:47:27.000000000,2019-06-22 01:27:05.000000000,closed,0,JsonSerializer: Ensure there is only one set of type information headers
+1136,2019-06-21 22:12:51.000000000,2019-06-22 00:07:44.000000000,closed,4,Issues to run Spring-Kafka version 1.3.9 with Kafka client 0.10.2.2
+1135,2019-06-21 21:42:29.000000000,2019-06-22 00:04:38.000000000,closed,3,GH-1134: Fix `stop(Runnable)` usage
+1134,2019-06-21 21:20:24.000000000,2019-06-22 00:04:38.000000000,closed,10,KafkaListenerEndpointRegistry.stop(Runnable) does not call callback when there are no containers to stop
+1133,2019-06-21 14:45:47.000000000,2019-06-21 18:29:36.000000000,closed,2,Add a JSON Array SerDe
+1132,2019-06-21 11:45:04.000000000,2019-06-21 14:46:07.000000000,closed,0,Add JSON array serde
+1131,2019-06-21 11:29:09.000000000,2019-06-28 09:38:07.000000000,closed,4,the groupId property for @KafkaListener is invalid
+1130,2019-06-20 23:08:57.000000000,2019-06-21 00:23:18.000000000,closed,5,GH-1129: Add JacksonMimeTypeModule
+1129,2019-06-20 21:51:18.000000000,2019-06-21 00:23:18.000000000,closed,2,A MimeTypeSerializer to store MimeType as a string in JSON is needed.
+1128,2019-06-20 01:43:20.000000000,2019-06-24 23:55:15.000000000,closed,7,GH-1080 allow supplier functions for Serializers and Deserializers
+1127,2019-06-18 20:36:50.000000000,2019-06-18 23:17:04.000000000,closed,0,GH-1126: Add delegating Serializer/Deserializer
+1126,2019-06-18 17:06:13.000000000,2019-06-18 23:17:04.000000000,closed,0,Add Delegating(De)Serializer
+1125,2019-06-17 23:55:51.000000000,2019-06-28 00:52:58.000000000,closed,3,When calling to `ErrorHandlingDeserializer2.failedDeserializationFunction` pass also the topic
+1124,2019-06-17 21:20:50.000000000,2019-06-17 21:57:13.000000000,closed,2,How can i use 'org.springframework.kafka.listener.RecordInterceptor' to intercept a message
+1123,2019-06-14 00:14:31.000000000,1970-01-01 00:00:00.000000001,open,4,Reactive @KafkaListener [DO NOT MERGE]
+1122,2019-06-12 18:30:37.000000000,2019-06-12 18:38:20.000000000,closed,1,GH-1121: Fix KTU.getSingleRecord()
+1121,2019-06-12 14:24:14.000000000,2019-06-12 18:38:20.000000000,closed,1,KafkaTestUtils.getSingleRecord() asserts on all records instead of the specified topic
+1120,2019-06-12 01:12:31.000000000,2020-07-17 21:31:27.000000000,closed,3,Embedded Kafka always uses plaintext for communicating to brokers
+1119,2019-06-11 23:46:18.000000000,2019-06-12 00:28:01.000000000,closed,1,GH-1118: Add RecordInterceptor
+1118,2019-06-11 20:57:06.000000000,2019-06-12 00:28:01.000000000,closed,9,How do I custom consumer Interceptor for one record
+1117,2019-06-09 22:04:18.000000000,2019-06-12 16:44:56.000000000,closed,6,Addressing issue GH-1080
+1116,2019-06-09 00:47:14.000000000,2019-06-10 20:34:03.000000000,closed,0,Add `nohttp` Gradle plugin
+1115,2019-06-07 19:05:17.000000000,2019-06-11 18:47:57.000000000,closed,3,Add TopologyTestDriver support
+1114,2019-06-06 16:13:37.000000000,2019-06-06 16:57:50.000000000,closed,2,Reset Embedded Kafka Broker After Each Test Method
+1113,2019-06-04 12:47:35.000000000,2019-06-04 17:14:34.000000000,closed,1,GH-1111 Propagate the CMLC paused state on start
+1112,2019-06-03 23:07:43.000000000,2019-06-03 23:18:15.000000000,closed,5,Fix re-pausing consumer after a rebalance
+1111,2019-06-03 19:37:11.000000000,2019-06-03 23:18:14.000000000,closed,6,Starting paused `ConcurrentMessageListenerContainer` results in messages being consumed
+1110,2019-06-03 19:36:08.000000000,2019-06-03 20:52:20.000000000,closed,0,GH-1109: Remove deprecated KafkaEmbedded
+1109,2019-06-03 13:47:24.000000000,2019-06-03 20:52:20.000000000,closed,5,"KafkaTestUtils uses EmbeddedKafkaRule, impossible to use with JUnit5"
+1108,2019-05-31 22:02:02.000000000,2019-05-31 22:24:15.000000000,closed,1,GH-1107: Improved JUnit5 Support
+1107,2019-05-30 17:17:54.000000000,2019-05-31 22:24:15.000000000,closed,5,Provide a JUnit 5 extension equivalent of EmbeddedKafkaRule
+1106,2019-05-23 20:18:14.000000000,2019-05-24 11:59:30.000000000,closed,2,Configuring a Kafka Streams app using properties/yaml only
+1105,2019-05-21 00:19:21.000000000,2019-05-29 00:38:44.000000000,closed,0,GH-1101: Overide transactionIdPrefix
+1104,2019-05-20 21:59:54.000000000,2019-06-07 18:27:28.000000000,closed,2,start application context without connection to broker
+1103,2019-05-20 20:35:52.000000000,2019-05-28 22:29:18.000000000,closed,0,GH-1102: Fix KLEndpointRegistry SmartLifecycle
+1102,2019-05-20 18:00:16.000000000,2019-05-28 22:29:18.000000000,closed,0,KafkaListenerEndpointRegistry should use its own lifecycle state
+1101,2019-05-18 19:53:58.000000000,2019-05-29 00:38:44.000000000,closed,0,Allow transactional.id override by KafkaTemplate
+1100,2019-05-18 05:37:50.000000000,2019-05-18 17:04:35.000000000,closed,0,(docs): fixed some small errors
+1099,2019-05-17 12:00:45.000000000,2019-05-17 18:18:23.000000000,closed,1,Couldn't trigger the kafka listener method?
+1098,2019-05-16 20:15:40.000000000,2019-05-16 21:14:37.000000000,closed,0,Doc: Add Tx Synchronization Example
+1097,2019-05-15 19:57:36.000000000,2019-05-15 22:41:45.000000000,closed,0,Fix deprecations and warnings
+1096,2019-05-15 19:16:10.000000000,2019-05-15 23:18:40.000000000,closed,0,GH-1095: Add thread-bound producers
+1095,2019-05-14 14:28:50.000000000,2019-05-15 23:18:40.000000000,closed,1,DefaultKafkaProducerFactory - add threadLocalProducer option
+1094,2019-05-14 01:35:19.000000000,2019-05-14 18:28:10.000000000,closed,0,Add Tip for Assigning All Partitions Manually
+1093,2019-05-08 20:23:07.000000000,2019-05-08 20:38:31.000000000,closed,0,ConsumerSeekAware default implementations
+1092,2019-05-07 19:15:16.000000000,2019-05-07 19:18:10.000000000,closed,0,Add missingTopicsFatal to container factory
+1091,2019-05-07 16:13:16.000000000,2019-05-07 17:23:53.000000000,closed,1,Failed to produce message and Transaction Rollback not working - org.apache.kafka.common.errors.ProducerFencedException
+1090,2019-05-07 01:23:53.000000000,2019-05-07 23:33:53.000000000,closed,1,KafkaStreams <-> Spring Messaging
+1089,2019-05-06 22:29:57.000000000,2019-05-06 23:11:34.000000000,closed,1,HeaderEnricher: Add test using stream test utils
+1088,2019-05-06 21:30:23.000000000,2019-05-06 22:16:47.000000000,closed,0,Add Streams HeaderEnricher
+1087,2019-05-06 19:11:35.000000000,2019-05-06 20:33:15.000000000,closed,0,Add streams and streams test utils as test deps
+1086,2019-05-04 11:17:50.000000000,2019-05-04 19:15:18.000000000,closed,1,Set isolation.level = read_committed in Spring Kafka (Spring Boot version 1.5.18 and spring Kafka version 1.3.8)
+1085,2019-05-03 16:01:02.000000000,2019-05-10 21:47:35.000000000,closed,3,Update ErrorHandlingDeserializer2.java
+1084,2019-05-03 10:43:03.000000000,2019-05-06 20:33:15.000000000,closed,7,Add dependency of correct version kafka-streams-test-utils
+1083,2019-05-02 22:07:47.000000000,2019-05-06 23:46:51.000000000,closed,0,GH-1082: Dead Letter Streams Deserialization
+1082,2019-05-02 17:32:02.000000000,2019-05-06 23:46:50.000000000,closed,12,Add Kafka Stream exception handlers that push to DLQ
+1081,2019-05-02 04:30:50.000000000,2019-05-04 06:29:46.000000000,closed,4,Why: Use LogAccessor for logging
+1080,2019-04-27 19:01:05.000000000,2019-06-24 23:54:22.000000000,closed,10,DefaultConsumerFactory designed to use single deserializer instances shared across multiple consumers
+1079,2019-04-27 16:56:33.000000000,2019-04-29 18:00:46.000000000,closed,1,Minor fixes and improvements
+1078,2019-04-26 21:02:19.000000000,2019-04-26 22:21:17.000000000,closed,1,Use LogAccessor for logging
+1077,2019-04-25 21:39:53.000000000,2019-04-25 23:38:25.000000000,closed,2,Fix typos in the `AbstractKafkaHeaderMapper`
+1076,2019-04-24 19:43:37.000000000,2019-04-24 21:06:44.000000000,closed,0,GH-1074: Use AdminClient to check topic presence
+1075,2019-04-22 21:10:34.000000000,2019-04-23 21:06:53.000000000,closed,0,JsonMessageConverter Polishing
+1074,2019-04-21 18:45:44.000000000,2019-04-24 21:06:44.000000000,closed,0,Use AdminClient instead of Consumer to check topics exist
+1073,2019-04-20 17:40:23.000000000,2019-04-20 20:18:37.000000000,closed,2,typo correction
+1072,2019-04-20 00:27:25.000000000,2019-04-24 18:28:53.000000000,closed,1,GH-998: AggregatingReplyingKafkaTemplate
+1071,2019-04-17 20:59:27.000000000,2019-04-18 01:54:26.000000000,closed,0,SIK 3.2 Docs
+1070,2019-04-17 19:32:27.000000000,2019-04-18 20:03:07.000000000,closed,1,Update SI Chapter with new 3.2 features.
+1069,2019-04-15 22:47:15.000000000,2019-04-15 22:49:32.000000000,closed,1,Use empty array in toArray call.
+1068,2019-04-13 00:57:27.000000000,2019-04-13 01:51:24.000000000,closed,1,GH-1066: Protect against null Headers
+1067,2019-04-12 06:06:09.000000000,2019-04-12 06:20:01.000000000,closed,0,why CloseSafeProducer#close method do nothing in case cache is null ?
+1066,2019-04-12 01:26:29.000000000,2019-04-13 01:51:23.000000000,closed,14,Null Headers - NPE
+1065,2019-04-11 23:26:49.000000000,2019-04-12 00:19:10.000000000,closed,0,GH-1008: Use `transactional.id` config as a prefix
+1064,2019-04-11 22:35:19.000000000,2019-04-11 23:38:53.000000000,closed,1,GH-1059: Add SpEL support for KafkaListener.id()
+1063,2019-04-11 18:59:22.000000000,2019-04-11 19:04:06.000000000,closed,0,Fix close producers after a rebalance
+1062,2019-04-11 18:58:12.000000000,2019-04-11 19:03:40.000000000,closed,0,Fix close producers after a rebalance
+1061,2019-04-05 23:42:57.000000000,2019-04-06 00:12:39.000000000,closed,0,Fix Sonar issue
+1060,2019-04-05 01:32:24.000000000,1970-01-01 00:00:00.000000001,open,3,Reactive ReplyingKafkaTemplate
+1059,2019-04-04 13:40:46.000000000,2019-04-11 23:38:53.000000000,closed,6,@KafkaListener id SpEL expression is not being evaluated
+1058,2019-04-03 18:52:48.000000000,2019-04-04 16:42:19.000000000,closed,4,NoClassDefFound for EmbeddedBroker with Scala 2.12
+1057,2019-04-01 19:04:02.000000000,2019-04-02 00:32:52.000000000,closed,4,Unexpected behavior while transaction rollback 
+1056,2019-04-01 19:03:25.000000000,2019-04-01 21:20:33.000000000,closed,0,GH-1055: Add TypeReference support to JsonDeser
+1055,2019-03-31 21:30:08.000000000,2019-04-01 21:20:32.000000000,closed,3,JsonDeserializer constructor with TypeReference argument
+1054,2019-03-30 00:28:45.000000000,2019-04-02 17:12:03.000000000,closed,1,Add EnhancedLogFactory
+1053,2019-03-28 20:30:31.000000000,2019-03-29 18:46:25.000000000,closed,0,GH-680: Use enhanced ObjectMapper by default
+1052,2019-03-26 13:40:38.000000000,2019-03-26 19:48:03.000000000,closed,0,URL Cleanup
+1051,2019-03-26 13:40:31.000000000,2019-03-26 20:32:56.000000000,closed,0,URL Cleanup
+1050,2019-03-26 13:40:22.000000000,2019-03-26 20:30:32.000000000,closed,0,URL Cleanup
+1049,2019-03-26 13:40:13.000000000,2019-03-26 20:23:12.000000000,closed,0,URL Cleanup
+1048,2019-03-26 13:40:01.000000000,2019-03-26 20:17:56.000000000,closed,0,URL Cleanup
+1047,2019-03-26 13:39:52.000000000,2019-03-26 20:17:00.000000000,closed,0,URL Cleanup
+1046,2019-03-26 13:39:44.000000000,2019-03-26 20:15:29.000000000,closed,0,URL Cleanup
+1045,2019-03-26 13:39:36.000000000,2019-03-26 20:13:59.000000000,closed,0,URL Cleanup
+1044,2019-03-26 09:49:25.000000000,2019-03-26 20:10:47.000000000,closed,1,URL Cleanup
+1043,2019-03-26 09:49:17.000000000,2019-03-26 20:08:28.000000000,closed,0,URL Cleanup
+1042,2019-03-26 09:49:10.000000000,2019-03-26 20:08:19.000000000,closed,0,URL Cleanup
+1041,2019-03-26 09:49:02.000000000,2019-03-26 20:08:08.000000000,closed,0,URL Cleanup
+1040,2019-03-26 09:48:53.000000000,2019-03-26 20:07:55.000000000,closed,0,URL Cleanup
+1039,2019-03-26 09:48:46.000000000,2019-03-26 20:07:43.000000000,closed,0,URL Cleanup
+1038,2019-03-26 09:48:39.000000000,2019-03-26 19:53:00.000000000,closed,1,URL Cleanup
+1037,2019-03-26 05:07:42.000000000,2019-03-26 07:27:43.000000000,closed,0,URL Cleanup
+1036,2019-03-26 05:07:34.000000000,2019-03-26 07:27:43.000000000,closed,0,URL Cleanup
+1035,2019-03-26 05:07:26.000000000,2019-03-26 07:27:42.000000000,closed,0,URL Cleanup
+1034,2019-03-26 05:07:17.000000000,2019-03-26 07:27:42.000000000,closed,0,URL Cleanup
+1033,2019-03-26 05:07:09.000000000,2019-03-26 07:27:42.000000000,closed,0,URL Cleanup
+1032,2019-03-26 05:06:59.000000000,2019-03-26 07:27:43.000000000,closed,0,URL Cleanup
+1031,2019-03-26 05:06:51.000000000,2019-03-26 07:27:43.000000000,closed,0,URL Cleanup
+1030,2019-03-26 01:35:03.000000000,2019-03-27 20:37:02.000000000,closed,0,GH-1026: Support KafkaHeaders.GROUP_ID
+1029,2019-03-25 22:05:32.000000000,2019-03-25 22:06:39.000000000,closed,0,GH-1027: Set ackOnError to false by default
+1028,2019-03-25 21:06:00.000000000,2019-03-25 21:22:45.000000000,closed,0,Bump kafka-clients to 2.2.0
+1027,2019-03-24 20:06:11.000000000,2019-03-25 22:06:39.000000000,closed,0,Set ackOnError to false by default
+1026,2019-03-23 20:17:53.000000000,2019-03-27 20:37:02.000000000,closed,0,Add an option to enhance the Headers to contain the consumer's group id
+1025,2019-03-23 20:03:49.000000000,2019-03-25 21:23:16.000000000,closed,0,Add group.id to container info logs
+1024,2019-03-22 20:30:07.000000000,2019-03-22 20:32:05.000000000,closed,1,GH-1014: Fix setSyncCommits Javadocs
+1023,2019-03-22 00:28:57.000000000,2019-03-22 02:51:48.000000000,closed,2,URL Cleanup
+1022,2019-03-22 00:28:47.000000000,2019-03-22 02:59:16.000000000,closed,1,URL Cleanup
+1021,2019-03-22 00:28:38.000000000,2019-03-22 02:59:34.000000000,closed,0,URL Cleanup
+1020,2019-03-22 00:28:30.000000000,2019-03-22 02:59:44.000000000,closed,0,URL Cleanup
+1019,2019-03-22 00:28:22.000000000,2019-03-22 02:59:56.000000000,closed,0,URL Cleanup
+1018,2019-03-22 00:28:12.000000000,2019-03-22 03:00:05.000000000,closed,0,URL Cleanup
+1017,2019-03-22 00:28:03.000000000,2019-03-22 03:06:44.000000000,closed,0,URL Cleanup
+1016,2019-03-22 00:27:55.000000000,2019-03-22 03:00:50.000000000,closed,0,URL Cleanup
+1015,2019-03-22 00:27:48.000000000,2019-03-22 03:01:04.000000000,closed,2,URL Cleanup
+1014,2019-03-21 23:35:01.000000000,2019-03-22 20:32:05.000000000,closed,1,ContainerProperties setSyncCommits javadoc
+1013,2019-03-21 21:50:26.000000000,2019-03-22 02:40:09.000000000,closed,1,GH-1012 Allow raw Strings in default header mapper
+1012,2019-03-21 18:44:06.000000000,2019-03-22 02:40:09.000000000,closed,0,Configure spring-kafka to disable JSON encoding for specific headers
+1011,2019-03-21 05:09:00.000000000,2019-03-21 05:32:44.000000000,closed,0,URL Cleanup
+1010,2019-03-20 07:41:21.000000000,2019-03-20 18:58:49.000000000,closed,1,URL Cleanup
+1009,2019-03-19 19:53:00.000000000,2019-03-19 19:53:17.000000000,closed,2,Spring 5 compatibility issue fix
+1008,2019-03-19 11:12:52.000000000,2019-04-12 00:19:10.000000000,closed,1,ProducerConfig.TRANSACTIONAL_ID_CONFIG and ProducerFactory.transactionIdPrefix overlapping ?
+1007,2019-03-16 20:53:42.000000000,2019-03-16 20:58:43.000000000,closed,0,URL Cleanup
+1006,2019-03-16 20:53:35.000000000,2019-03-16 20:58:34.000000000,closed,0,URL Cleanup
+1005,2019-03-16 20:53:29.000000000,2019-03-16 20:58:25.000000000,closed,0,URL Cleanup
+1004,2019-03-16 20:53:23.000000000,2019-03-16 20:58:09.000000000,closed,0,URL Cleanup
+1003,2019-03-16 20:53:16.000000000,2019-03-16 20:57:59.000000000,closed,0,URL Cleanup
+1002,2019-03-16 20:53:09.000000000,2019-03-16 20:57:44.000000000,closed,0,URL Cleanup
+1001,2019-03-16 20:53:01.000000000,2019-03-16 20:57:29.000000000,closed,0,URL Cleanup
+1000,2019-03-16 20:52:55.000000000,2019-03-16 20:57:19.000000000,closed,0,URL Cleanup
+999,2019-03-15 18:15:21.000000000,2019-03-18 19:17:25.000000000,closed,12,Blocked threads by Kafka consumers in thread dumps
+998,2019-03-15 00:06:52.000000000,2019-04-24 18:28:30.000000000,closed,5,Handle multiple responses with ReplyingKafkaTemplate
+997,2019-03-14 01:53:40.000000000,2019-03-14 19:51:27.000000000,closed,0,Improve container test coverage
+996,2019-03-14 01:45:20.000000000,2019-03-14 02:55:42.000000000,closed,1,GH-995: Close ObjectOutputStream in EHD2
+995,2019-03-13 17:37:44.000000000,2019-03-13 23:19:13.000000000,closed,3,Memory leak in ErrorHandlingDeserializer2 ?
+994,2019-03-11 18:20:45.000000000,2019-03-16 00:17:16.000000000,closed,1,GH-990: Polishing
+993,2019-03-09 19:33:44.000000000,2019-03-11 18:38:40.000000000,closed,3,GH-992: Fix SeekToCurrent zero retries
+992,2019-03-09 18:21:42.000000000,2019-03-11 18:38:40.000000000,closed,0,DefaultAfterRollbackProcessor support 0 retries
+991,2019-03-08 21:45:08.000000000,2019-03-08 22:55:19.000000000,closed,1,GH-990: Run AfterRollbackProcessor in Tx
+990,2019-03-08 19:35:26.000000000,2019-03-08 22:55:19.000000000,closed,0,Option to commit offsets when publishing to dead letter topic.
+989,2019-03-06 10:44:57.000000000,2019-03-06 20:50:07.000000000,closed,1,URL Cleanup
+988,2019-03-05 02:58:20.000000000,2019-03-05 04:26:43.000000000,closed,0,GH-987: DeserializationException and dead-letters
+987,2019-03-04 19:26:03.000000000,2019-03-05 04:26:43.000000000,closed,0,DeadLetterPublishingRecoverer should decode DeserialziationException
+986,2019-03-01 20:16:53.000000000,2019-03-01 21:31:15.000000000,closed,0,GH-983: Seek remaining records
+985,2019-03-01 14:59:37.000000000,2019-03-01 19:13:16.000000000,closed,1,Kafka 2.1.1 - Useless warnings - The configuration 'admin.retries' was supplied but isn't a known config.
+984,2019-03-01 02:50:14.000000000,2019-03-01 03:04:20.000000000,closed,0,GH-983: Add exception classifier to the Seeking EH
+983,2019-02-28 22:57:45.000000000,2019-03-01 21:31:15.000000000,closed,1,Add a BinaryExceptionClassifier (spring-retry) to SeekToCurrentErrorHandler
+982,2019-02-28 21:29:56.000000000,2019-02-28 21:50:48.000000000,closed,0,GH-981: Add StreamsBuilderFactoryBeanCustomizer
+981,2019-02-28 16:21:58.000000000,2019-02-28 21:50:48.000000000,closed,3,Provide configurer for StreamsBuilderFactoryBean
+980,2019-02-28 03:17:40.000000000,2019-02-28 03:26:00.000000000,closed,0,Add TopicBuilder
+979,2019-02-27 08:00:42.000000000,2019-03-29 23:29:19.000000000,closed,3,Spring Kafka filter not filtering consumer record
+978,2019-02-26 07:51:26.000000000,2019-03-29 23:30:21.000000000,closed,6,Spring boot 2.1.3 & spring-kafka application run is fail？？？？
+977,2019-02-26 07:14:27.000000000,2019-04-24 22:27:50.000000000,closed,2,"I'd like pause kafka consumer ,then do something and continue  consumer. But I finded I can't stop  all partitions. "
+976,2019-02-26 01:28:50.000000000,2019-02-27 23:05:05.000000000,closed,2,GH-945: enable.auto.commit=false by default
+975,2019-02-25 23:48:48.000000000,2019-02-26 00:23:32.000000000,closed,1,GH-974 Batch listeners replace KafkaNull with null
+974,2019-02-25 21:58:19.000000000,2019-02-26 00:23:32.000000000,closed,1,Spring Kafka doesn't returns null for Tombstone records during batch processing
+973,2019-02-23 21:51:35.000000000,2019-02-25 21:30:51.000000000,closed,1,Fix Consumer Property Overrides
+972,2019-02-23 02:00:03.000000000,2019-02-25 23:21:25.000000000,closed,1,GH-781: Add commitSyncTimeout container property
+971,2019-02-22 21:45:44.000000000,2019-02-22 22:13:57.000000000,closed,1,GH-970: Add getGroupId() to containers
+970,2019-02-22 16:50:26.000000000,2019-02-22 22:13:57.000000000,closed,6,Add getGroupId() to MessageListenerContainer
+969,2019-02-21 21:40:11.000000000,2019-02-21 21:59:38.000000000,closed,0,GH-897 Docs: wiring Producer/Consumer interceptors
+968,2019-02-17 04:12:45.000000000,2019-04-24 22:28:44.000000000,closed,19,SeekToCurrentErrorHandler doesn't work with statefulRetry
+967,2019-02-16 15:30:11.000000000,2019-02-20 22:39:46.000000000,closed,3,Fix some typos.
+966,2019-02-16 01:48:51.000000000,2019-02-16 03:24:17.000000000,closed,3,GH-950: Always wrap listener exception in LEFE
+965,2019-02-16 01:30:03.000000000,2019-02-16 01:55:19.000000000,closed,0,Remove uses of deprec. Extended(Des|S)erializer
+964,2019-02-14 09:40:18.000000000,2019-04-24 22:29:05.000000000,closed,2,Adjust Kafka concurrency during runtime
+963,2019-02-14 02:29:15.000000000,2019-02-14 03:24:51.000000000,closed,0,Fix default deserializer getters
+962,2019-02-12 23:32:00.000000000,2019-02-12 23:51:36.000000000,closed,1,Fix ErrorHandler for Consumer Errors
+961,2019-02-12 22:51:54.000000000,2019-02-13 05:04:48.000000000,closed,0,GH-960: Seek-to-Current - commit recovered offset
+960,2019-02-12 22:23:35.000000000,2019-02-13 05:04:47.000000000,closed,0,SeekToCurrentErrorHandler - commit offset of recovered records
+959,2019-02-08 22:51:17.000000000,2019-02-08 23:32:50.000000000,closed,0,GH-946: Detect Unnecessary Replying Template
+958,2019-02-08 21:58:34.000000000,2019-02-08 22:11:57.000000000,closed,1,fix outdated references to DEFAULT_STREAMS_CONFIG_BEAN_NAME
+957,2019-02-08 21:20:29.000000000,2019-02-08 23:35:34.000000000,closed,0,@KafkaListener Consumer Property Overrides
+956,2019-02-06 21:12:48.000000000,2019-02-06 21:16:51.000000000,closed,0,Fix race condition in test case
+955,2019-02-01 02:56:41.000000000,2019-02-02 21:56:11.000000000,closed,1,Update to the build file to modernize the docs
+954,2019-02-01 02:07:41.000000000,2019-02-01 02:11:06.000000000,closed,0,Improve Javadocs for Topic Patterns
+953,2019-01-31 22:06:05.000000000,2019-02-01 00:56:25.000000000,closed,4,Editing pass for spring-kafka
+952,2019-01-31 20:48:27.000000000,2019-01-31 21:06:50.000000000,closed,3,producer transactions hanging on commitTransaction / abortTransaction if broker fails
+951,2019-01-30 01:43:41.000000000,2019-01-30 03:27:01.000000000,closed,0,GH-948: Decorate LEFE for batch listeners
+950,2019-01-30 01:11:54.000000000,2019-02-16 03:24:17.000000000,closed,0,Resolve TODO in KMLC
+949,2019-01-30 00:34:08.000000000,2019-01-30 00:56:07.000000000,closed,0,GH-948: Enhance LEFException with group.id
+948,2019-01-29 22:28:27.000000000,2019-01-30 00:56:07.000000000,closed,4,"Multi consumer (group) support SeekToCurrentErrorHandler, FailedRecordTracker & DeadLetterPublishingRecoverer?"
+947,2019-01-28 14:56:53.000000000,2019-01-28 18:37:25.000000000,closed,4,Fix typo in KafkaListenerErrorHandler class description
+946,2019-01-27 07:05:55.000000000,2019-02-08 23:32:49.000000000,closed,0,Reject configuration of a ReplyingKafkaTemplate in the container factory replyTemplate property
+945,2019-01-24 22:36:05.000000000,2019-02-27 23:04:43.000000000,closed,0,Consider disabling auto-commit by default
+944,2019-01-24 16:31:21.000000000,2019-01-24 18:34:45.000000000,closed,1,Kafka consumer doesn't commit messages after revoke leadership on broker
+943,2019-01-19 01:04:53.000000000,2019-01-22 19:59:05.000000000,closed,0,GH-942: KafkaAdmin Improvements
+942,2019-01-18 18:41:30.000000000,2019-01-22 19:59:04.000000000,closed,5,TopicExistsException printed - causing lots of noise in logs
+941,2019-01-17 20:08:27.000000000,2019-02-08 22:37:23.000000000,closed,10,Distribute topics across consumer threads for consumer which are listening list of topics
+940,2019-01-17 19:28:20.000000000,2019-01-17 19:49:19.000000000,closed,1,Polish doc
+939,2019-01-16 20:41:15.000000000,2019-01-17 00:31:44.000000000,closed,2,Add option to receive an empty list (or ConsumerRecords) when a poll returns no records
+938,2019-01-16 09:40:10.000000000,2019-02-08 23:46:00.000000000,closed,2,Disable @KafkaListener or Topic Reading
+937,2019-01-16 00:03:46.000000000,2019-01-16 02:15:22.000000000,closed,0,GH-787: Fix upper-bounds for generics
+936,2019-01-15 05:31:56.000000000,2019-01-22 21:06:21.000000000,closed,7,A method-chaining way to build branches for Streams API topology
+935,2019-01-14 21:46:55.000000000,2019-01-15 21:42:39.000000000,closed,1,Specify the port with annotation #917
+934,2019-01-13 16:44:22.000000000,2019-01-14 20:18:08.000000000,closed,3,Updated README.md code of conduct link
+933,2019-01-13 14:26:16.000000000,2019-01-13 21:31:52.000000000,closed,1,Upgrade kafkaVersion in build.gradle from 2.0.1 to 2.1.0
+932,2019-01-12 18:08:40.000000000,2019-04-11 21:27:51.000000000,closed,4,GH-928: ZooKeeperServer with an auto deletable data directory
+931,2019-01-11 14:38:17.000000000,2019-01-15 18:55:40.000000000,closed,5,Stateful retry and multiple topics
+930,2019-01-10 20:14:12.000000000,2019-01-10 22:09:22.000000000,closed,4,Better type handling for JsonSerde / JsonDeserializer constructors
+929,2019-01-10 18:48:39.000000000,2019-01-10 19:27:14.000000000,closed,0,GH-926: Fix error handler detection
+928,2019-01-09 21:07:12.000000000,2019-04-11 21:29:07.000000000,closed,5,EmbeddedKafkaRule does not delete temporary directories
+927,2019-01-09 02:24:43.000000000,2019-01-09 19:54:41.000000000,closed,0,GH-926: Always Detect ErrorHandlingDeserializer2
+926,2019-01-08 23:17:57.000000000,2019-01-09 19:54:41.000000000,closed,1,ErrorHandlingJsonSerializer2 configuration shortcoming
+925,2019-01-04 12:04:24.000000000,2019-01-18 07:06:27.000000000,closed,2,Use both BatchListener and ReplyTemplate are not working.
+924,2019-01-04 01:11:43.000000000,1970-01-01 00:00:00.000000001,open,0,Added custom serializer example
+923,2019-01-03 19:41:39.000000000,2019-01-03 21:08:47.000000000,closed,0,JsonDeserializer Header Removal Polishing
+922,2019-01-03 01:02:31.000000000,2019-01-03 02:33:36.000000000,closed,3,GH-916: Fix RemainingRecordsErrorHandler
+921,2019-01-02 23:07:45.000000000,2019-01-02 23:48:06.000000000,closed,0,GH-915: Fix JSON default object mapper config
+920,2019-01-02 00:31:13.000000000,1970-01-01 00:00:00.000000001,open,11,Topic-based retry support
+919,2019-01-01 21:50:06.000000000,2019-01-17 00:51:55.000000000,closed,4,Meta-Annotation for @KafkaListener not working.
+918,2018-12-29 07:34:14.000000000,2018-12-29 21:22:35.000000000,closed,3,Transaction usage
+917,2018-12-28 12:28:26.000000000,2019-01-15 21:42:42.000000000,closed,2,Specify the port with annotation
+916,2018-12-28 01:01:59.000000000,2019-01-03 02:33:36.000000000,closed,1,Remaining records not passed to RemainingRecordsErrorHandler 
+915,2018-12-27 18:40:33.000000000,2019-01-02 23:48:06.000000000,closed,1,ObjectMapper initialized inside JsonDeserializer ignores default configuration
+914,2018-12-27 14:35:10.000000000,2019-04-24 22:29:25.000000000,closed,6,How to create custom annotation using @KafkaListener to seek from latest offset always. 
+913,2018-12-20 02:43:23.000000000,2018-12-20 19:29:10.000000000,closed,0,NonTrustedHeaderType header propagation
+912,2018-12-20 01:43:49.000000000,2018-12-20 02:04:08.000000000,closed,0,SI Outbound result channel docs
+911,2018-12-18 21:26:11.000000000,2018-12-18 21:47:33.000000000,closed,0,GH-908: Don't cache dedicated consumer producers [back port]
+910,2018-12-18 01:35:37.000000000,2018-12-18 03:15:59.000000000,closed,0,GH-906: @KafkaListener Javadoc Improvements
+909,2018-12-18 01:06:51.000000000,2018-12-18 03:31:24.000000000,closed,7,GH-908: Don't cache dedicated consumer producers
+908,2018-12-17 19:55:42.000000000,2018-12-18 03:31:24.000000000,closed,2,Do not add container producers to the general producer cache.
+907,2018-12-17 14:40:43.000000000,2019-04-24 22:29:43.000000000,closed,6,"Getting ""Invalid transition attempted from state IN_TRANSACTION to state IN_TRANSACTION"""
+906,2018-12-17 12:05:35.000000000,2018-12-18 03:15:59.000000000,closed,6,Random generated group id
+905,2018-12-17 07:09:05.000000000,2018-12-17 07:23:48.000000000,closed,1,Spring kafka error Caused by: java.lang.ClassNotFoundException: org.springframework.kafka.transaction.KafkaAwareTransactionManager
+904,2018-12-14 23:12:03.000000000,2018-12-14 23:20:15.000000000,closed,1,Process errorHandler in class level KafkaListener
+903,2018-12-14 18:55:48.000000000,2018-12-14 21:04:07.000000000,closed,7,No Partition/Offset-Information in ErrorHandler if records is null/empty
+902,2018-12-13 00:38:30.000000000,2018-12-13 00:46:02.000000000,closed,0,Sonar fix
+901,2018-12-10 20:35:12.000000000,2018-12-11 02:20:24.000000000,closed,1,GH-900: Use correct txId for initial commit
+900,2018-12-10 19:25:11.000000000,2018-12-11 02:20:24.000000000,closed,0,Initial Commit in onPartitionsAssigned has wrong transactional id
+899,2018-12-07 03:06:34.000000000,2018-12-07 20:07:23.000000000,closed,0,GH-894: Use context CL in the JsonSerializer
+898,2018-12-06 11:46:51.000000000,2018-12-06 18:54:12.000000000,closed,1,Not able to read the same message again when i do not commit offset.
+897,2018-12-05 23:00:02.000000000,2019-02-21 21:59:38.000000000,closed,8,Document how to wire other beans in Spring Kafka producer/consumer interceptor
+896,2018-12-04 06:12:47.000000000,2018-12-04 07:53:30.000000000,closed,1,Add a missing closing pointy bracket in doc
+895,2018-12-03 00:41:54.000000000,2018-12-03 21:36:38.000000000,closed,0,Polish Replying Template config with Boot
+894,2018-11-30 20:54:01.000000000,2018-12-07 20:07:22.000000000,closed,12,Spring kafka 2.2 type mappings class loader mismatch
+893,2018-11-30 01:23:34.000000000,2018-11-30 01:50:07.000000000,closed,2,GH-892: Reinstate `MimeTypeJsonDeserializer`
+892,2018-11-30 00:50:14.000000000,2018-11-30 01:49:46.000000000,closed,0,Reinstate MimeTypeJsonDeserializer
+891,2018-11-28 19:51:03.000000000,2018-11-28 20:13:12.000000000,closed,1,Fix NPE in InvocationResult's toString
+890,2018-11-27 22:29:58.000000000,2018-11-27 22:52:06.000000000,closed,3,Application doesn't bootup if Kafka Fails to connect to broker
+889,2018-11-27 20:26:54.000000000,2019-02-16 01:55:18.000000000,closed,1,Remove usage of Extended(De)serializer
+888,2018-11-27 14:43:59.000000000,2018-11-27 20:20:05.000000000,closed,3,Appendix to override kafka-clients is missing in latest 2.2.x docs
+887,2018-11-27 02:27:49.000000000,2018-11-27 03:49:53.000000000,closed,0,GH-878: Polishing - Fix new tangle
+886,2018-11-21 20:36:44.000000000,2018-11-21 20:52:44.000000000,closed,0,GH-885: Restore infinite retries STCEH
+885,2018-11-21 14:06:32.000000000,2018-11-21 20:52:44.000000000,closed,3,"Add additional error handler to allow previous, non-skipping behaviour"
+884,2018-11-21 01:14:42.000000000,2019-01-04 18:59:11.000000000,closed,7,Listener gets duplicated records with 2.2.0
+883,2018-11-20 01:35:20.000000000,2018-11-20 01:53:45.000000000,closed,0,GH-854: Docs about Filtering Batch adapter
+882,2018-11-19 20:02:38.000000000,2018-11-19 23:57:03.000000000,closed,1,GH-881: Null check in closeProducers()
+881,2018-11-19 19:51:09.000000000,2018-11-19 23:57:03.000000000,closed,0,NPE in container.closeProducers()
+880,2018-11-19 00:56:02.000000000,2018-11-19 23:37:52.000000000,closed,0,Add Docs for @SpringBootTest
+879,2018-11-18 03:25:30.000000000,2018-11-20 01:31:20.000000000,closed,0,GH-878: Add parent container to container events
+878,2018-11-16 21:56:59.000000000,2018-11-20 01:31:20.000000000,closed,2,ListenerContainerIdleEvent is not published with parent container
+877,2018-11-16 01:38:06.000000000,2019-01-03 01:30:16.000000000,closed,5,Fully asynchronous publishing to kafka
+876,2018-11-15 17:49:41.000000000,2018-11-19 07:25:24.000000000,closed,3,Failed to start bean 'org.springframework.kafka.config.internalKafkaListenerEndpointRegistry'; nested exception is org.apache.kafka.common.errors.TimeoutException: Timeout expired while fetching topic metadata
+875,2018-11-13 09:51:41.000000000,2019-01-03 01:31:01.000000000,closed,2,"When I configured the security protocol of the kafka service as SASL_SSL, the bound port failed."
+874,2018-11-12 14:26:15.000000000,2018-11-17 00:28:23.000000000,closed,2,GH-869: fixed NPE in case of array target types
+873,2018-11-11 10:44:08.000000000,2018-11-12 19:58:23.000000000,closed,0,Sonar: Resolve remaining code smells
+872,2018-11-10 03:36:03.000000000,2018-11-10 03:49:57.000000000,closed,0,"Sonar: Fix classes with B,C maintainability"
+871,2018-11-09 21:36:42.000000000,2018-11-09 23:43:49.000000000,closed,0,Address several Sonar issues
+870,2018-11-09 21:10:09.000000000,2018-11-09 21:13:09.000000000,closed,0,GH-867: Add ConsumerStoppingEvent
+869,2018-11-09 14:38:06.000000000,2018-11-17 00:28:26.000000000,closed,4,JsonDeserializer raises NPE if targetType is an array
+868,2018-11-09 10:48:12.000000000,2018-11-09 18:56:46.000000000,closed,3,"Received exception when fetching the next record from ssKPITopic-0. If needed, please seek past the record to continue consumption."
+867,2018-11-09 05:21:10.000000000,2018-11-09 21:13:09.000000000,closed,0,Add ConsumerStoppingEvent
+866,2018-11-09 02:21:47.000000000,2018-11-09 02:31:43.000000000,closed,0,Address various Sonar issues
+865,2018-11-07 04:14:51.000000000,2018-11-07 19:47:38.000000000,closed,0,GH-850: Stop container on error
+864,2018-11-07 03:21:13.000000000,2018-11-07 20:50:19.000000000,closed,1,GH-842: Fix NPEs in KafkaListenerAnnotationBPP
+863,2018-11-06 23:11:09.000000000,2018-11-06 23:13:18.000000000,closed,0,GH-859: Fix nested transactions [1.3.x backport]
+862,2018-11-06 15:28:28.000000000,2018-11-06 19:57:41.000000000,closed,2,Documentation about using the SeekToCurrentErrorHandler in Spring Kafka 2.2 is wrong
+861,2018-11-06 11:19:42.000000000,2019-01-03 01:31:41.000000000,closed,2, When does the Kafka plan support message trace?
+860,2018-11-06 04:28:29.000000000,2018-11-06 22:41:22.000000000,closed,2,GH-859: Fix nested transactions
+859,2018-11-06 04:22:38.000000000,2018-11-06 22:41:22.000000000,closed,0,Nested transactions broken
+858,2018-11-06 04:20:31.000000000,2018-11-07 02:44:42.000000000,closed,1,GH-855: Dead letter publisher and transactions
+857,2018-11-05 23:48:53.000000000,2018-11-06 20:00:05.000000000,closed,1,GH-853: Type Safe ErrorHandlingDeserializer
+856,2018-11-05 22:04:18.000000000,2018-11-06 00:11:17.000000000,closed,0,Add Samples
+855,2018-11-05 21:33:51.000000000,2018-11-07 02:44:42.000000000,closed,0,DeadLetterPublishingRecoverer and transaction synchronization
+854,2018-11-05 17:52:22.000000000,2018-11-27 03:12:16.000000000,closed,3,RecordFilterStrategy is not called for listeners consuming ConsumerRecord
+853,2018-11-05 15:27:41.000000000,2018-11-06 20:00:05.000000000,closed,2,Type safety with ErrorHandlingDeserializer
+852,2018-11-05 12:22:28.000000000,2018-11-06 19:44:15.000000000,closed,3,Is there a demo of spring-kafka 2.2.0.RELEASE?
+851,2018-11-02 20:32:43.000000000,2018-11-03 03:53:33.000000000,closed,1,Log TX Exceptions
+850,2018-11-02 12:39:22.000000000,2018-11-07 19:47:38.000000000,closed,4,ListenerConsumer doesn't handle JVM Error exception.
+849,2018-11-02 00:04:59.000000000,2018-11-02 00:15:28.000000000,closed,1,GH-847: Support placeholders in @SendTo
+848,2018-11-01 21:35:39.000000000,2018-11-01 21:59:50.000000000,closed,1,SpringBoot Kotlin with Kafka utilizing @SendTo does not properly work with Springs- Kotlin property substitution
+847,2018-11-01 21:32:04.000000000,2018-11-02 00:15:28.000000000,closed,2,Spring Kotlin with Kafka utilizing @SendTo does not properly work with Springs- Kotlin property substitution
+846,2018-11-01 07:57:44.000000000,2018-11-01 17:39:06.000000000,closed,0,Polish InvocationResult.toString()
+845,2018-10-30 22:52:37.000000000,2018-10-30 23:05:01.000000000,closed,1,ErrorHandlingDeserializer add Headers to DeserializationException
+844,2018-10-30 20:18:52.000000000,2018-10-30 23:55:43.000000000,closed,6,GH-843: Make `ErrorHandlingDeserializer` as generic one
+843,2018-10-30 18:22:10.000000000,2018-10-30 23:55:42.000000000,closed,1,ErrorHandlingDeserializer and types
+842,2018-10-30 14:19:16.000000000,2018-11-07 20:50:19.000000000,closed,1,NPE that hides real error when trying to create IllegalStateException on annotation processing
+841,2018-10-28 15:00:23.000000000,2018-10-29 18:13:21.000000000,closed,3,GH-840: Fix typos in documentation of Filtering Messages and Retrying Deliveries
+840,2018-10-28 01:48:34.000000000,2018-10-29 18:13:21.000000000,closed,0,Reference to inexistent listener adapters in documentation
+839,2018-10-27 00:32:20.000000000,2018-10-27 04:16:50.000000000,closed,0,Clarify listener endpoint registry bean
+838,2018-10-26 19:40:42.000000000,2018-10-26 19:41:58.000000000,closed,0,GH-834: Remove transactional producers [backport]
+837,2018-10-26 18:44:46.000000000,2018-10-26 18:59:16.000000000,closed,0,GH-835: LCF: check error handler is the right type
+836,2018-10-26 18:15:24.000000000,2018-10-26 19:01:36.000000000,closed,1,GH-834: Remove transactional producers
+835,2018-10-26 17:20:21.000000000,2018-10-26 18:59:16.000000000,closed,0,Assert the correct error handler type in the container factory
+834,2018-10-26 02:24:26.000000000,2018-10-26 19:01:36.000000000,closed,0,Clean up transactional producers
+833,2018-10-25 19:41:07.000000000,2018-10-25 19:42:54.000000000,closed,2,Fix DEBUG error message about reply topics
+832,2018-10-25 01:39:49.000000000,2018-10-25 17:28:45.000000000,closed,0,Update documentation on KafkaListener annotation
+831,2018-10-24 21:03:58.000000000,2018-10-24 22:03:57.000000000,closed,1,Embedded broker support different partition counts
+830,2018-10-24 07:54:35.000000000,2018-10-25 19:25:26.000000000,closed,8,Invalid topic exception for multiple topics in ReplyingKafkaTemplate
+829,2018-10-23 14:33:03.000000000,2018-10-23 18:54:37.000000000,closed,9,Since 2.1 -> failed to resolve class name. Class not found 
+828,2018-10-18 22:39:55.000000000,2018-10-18 22:45:17.000000000,closed,1,"Doc polishing, remove connectionFactory"
+827,2018-10-17 00:48:28.000000000,2018-11-08 00:04:43.000000000,closed,3,Batch Listener max poll records reverts back single record
+826,2018-10-15 22:49:25.000000000,2018-10-16 00:26:02.000000000,closed,0,GH-811: Configurable Reply Headers
+825,2018-10-13 00:01:43.000000000,2018-10-13 00:09:28.000000000,closed,0,@KafkaListener Add BytesToStringConverter
+824,2018-10-12 20:47:36.000000000,2018-10-12 22:02:14.000000000,closed,1,GH-816: Simplify Validator configuration
+823,2018-10-12 00:59:31.000000000,2018-10-12 01:01:24.000000000,closed,1,GH-813: Re-pause a paused consumer after rebalance
+822,2018-10-10 02:07:21.000000000,2018-10-10 18:02:58.000000000,closed,0,InvocationResult possible NPE
+821,2018-10-10 01:41:12.000000000,2018-10-10 18:02:13.000000000,closed,3,InvocationResult: possible NPE fix
+820,2018-10-05 00:37:03.000000000,2018-10-05 00:42:04.000000000,closed,0,INT-4536: SIK Tombstones Docs
+819,2018-10-04 17:43:06.000000000,2018-10-19 19:11:47.000000000,closed,12,Feature to receive the list of new messages at a given poll intervals
+818,2018-10-03 01:37:34.000000000,2018-10-10 18:35:43.000000000,closed,0,KafkaStreamsConfiguration Conversion
+817,2018-10-01 22:11:44.000000000,2018-10-01 23:46:39.000000000,closed,0,GH-812: Support @AliasFor in @KafkaListener meta
+816,2018-10-01 20:41:36.000000000,2018-10-12 22:02:14.000000000,closed,9,Validating Spring Kafka Payloads
+815,2018-10-01 18:46:06.000000000,2018-10-04 12:52:51.000000000,closed,6,JsonDeserializer not supported for both key and value: value is deserialized as key
+814,2018-10-01 18:12:57.000000000,2018-10-01 20:42:38.000000000,closed,1,Support Validation in @KafkaListener
+813,2018-09-26 23:20:34.000000000,2018-10-12 01:01:24.000000000,closed,8,Rebalancing while KafkaMessageListenerContainer is paused prevent it from being paused again after the rebalance
+812,2018-09-25 14:27:57.000000000,2018-10-01 23:46:39.000000000,closed,0,Missing Support for @AliasFor in meta-annotations for @KafkaListener
+811,2018-09-21 11:23:31.000000000,2018-10-16 00:26:02.000000000,closed,2,The headers are not sent back by @SendTo 
+810,2018-09-21 01:39:40.000000000,2018-10-04 17:28:23.000000000,closed,2,Provide setter method for CleanupConfig in StreamsBuilderFactoryBean
+809,2018-09-20 23:36:56.000000000,2018-09-20 23:51:12.000000000,closed,0,GH-784: Doc polishing
+808,2018-09-20 03:12:17.000000000,2018-09-21 05:45:49.000000000,closed,2,On ConsumerAwareRebalanceListener - illegalStateException: No current assignment for partition
+807,2018-09-14 16:57:00.000000000,2018-09-14 17:02:14.000000000,closed,1,How to get kafka consumer metric?
+806,2018-09-14 06:52:04.000000000,2018-09-17 05:25:36.000000000,closed,2,Expose KafkaConsumer offsetsForTimes
+805,2018-09-12 21:14:42.000000000,2018-09-12 21:56:08.000000000,closed,1,IS-804: Implement hashCode and equals for EmbeddedKafkaContextCustomizer
+804,2018-09-12 17:37:50.000000000,2018-09-12 21:56:10.000000000,closed,9,Implement methods hashCode and equals in EmbeddedKafkaContextCustomizer
+803,2018-09-11 22:25:04.000000000,2018-09-11 22:53:58.000000000,closed,0,Fix Package Tangle
+802,2018-09-08 01:18:40.000000000,2018-09-08 01:26:16.000000000,closed,0,GH-800: Fix Zombie Fencing
+801,2018-09-07 23:13:28.000000000,2018-09-07 23:55:58.000000000,closed,2,GH-800: Fix Zombie Fencing
+800,2018-09-07 20:50:38.000000000,2018-09-07 23:55:58.000000000,closed,2,transactional.id per topic/partition
+799,2018-09-07 05:54:58.000000000,2018-09-07 06:12:04.000000000,closed,0,Fix @since tag for setRemoveTypeHeaders()
+798,2018-09-05 01:26:22.000000000,2018-09-05 20:00:28.000000000,closed,6,Seek capability for Springboot 1.5.15 and Spring Kafka 1.3.5 moving forward with new data in topic/partition
+797,2018-09-04 22:56:35.000000000,2018-09-04 23:02:37.000000000,closed,0,GH-794: Json Deserializer - remove type headers
+796,2018-09-04 18:31:33.000000000,2018-09-04 19:01:27.000000000,closed,1,"kafka-Serializer/Deserializer config not work if i put it in boostrap.yml,but worked in application.yml"
+795,2018-08-30 18:39:30.000000000,2018-09-14 21:54:15.000000000,closed,3,failing deserialization causes unexpected behaviour in `SeekToCurrentErrorHandler`
+794,2018-08-30 13:49:57.000000000,2018-09-04 23:02:37.000000000,closed,13,Incorrect message headers after upgrade to kafka 2.0.0 / spring-kafka 2.2.0.M2
+793,2018-08-29 18:41:13.000000000,2018-08-29 19:02:02.000000000,closed,1,Doc: Partition Assignment
+792,2018-08-28 20:30:14.000000000,2018-08-28 20:50:17.000000000,closed,0,SeekToCurrentErrorHandler and Recovery
+791,2018-08-25 21:02:08.000000000,2018-08-27 20:36:03.000000000,closed,0,Refactor KafkaAwareTransactionManager
+790,2018-08-23 18:36:51.000000000,2018-08-23 19:10:32.000000000,closed,1,Add ISSUE_TEMPLATE.md
+789,2018-08-22 00:30:29.000000000,2018-08-22 01:19:34.000000000,closed,0,GH-786: DKPF: ContextStoppedEvent
+788,2018-08-21 10:17:13.000000000,2019-01-16 00:04:10.000000000,closed,7,GH-787: use upper-bounded wildcard in RecordFilterStrategy
+787,2018-08-20 19:19:35.000000000,2019-01-16 02:15:22.000000000,closed,3,RecordFilterStrategy don't allow to use child classes of the record value
+786,2018-08-20 19:17:33.000000000,2018-08-22 01:19:34.000000000,closed,0,DKPF: Consider removing Lifecycle
+785,2018-08-20 18:56:05.000000000,2018-08-20 20:24:06.000000000,closed,5,Polish KafkaTemplate.executeInTransaction()
+784,2018-08-20 05:50:49.000000000,2018-09-20 23:51:12.000000000,closed,0,how to configure exactly once processing?
+783,2018-08-17 11:10:45.000000000,2018-08-18 17:31:00.000000000,closed,3,GH-780: Allow using kafka-client 2.0.x with KafkaEmbedded
+782,2018-08-16 08:08:59.000000000,2018-08-20 18:25:02.000000000,closed,1,Getting a callback when no events returned from a poll (Required for pause/resume)
+781,2018-08-14 20:49:53.000000000,2019-02-25 23:21:25.000000000,closed,5,Add commitSyncDuration
+780,2018-08-14 18:09:31.000000000,2018-08-18 18:16:23.000000000,closed,3,Backport Kafka client 2.0.0 in branch 2.1.x
+779,2018-08-14 14:18:48.000000000,2018-08-14 14:50:40.000000000,closed,1,"autoStartup attribute of KafkaListener only exists in version 2.2, how do we use this for 2.1x version?"
+778,2018-08-14 08:15:01.000000000,2018-08-20 19:18:41.000000000,closed,5,GH-777: Change DefaultKafkaProducerFactory running state to false when stop it
+777,2018-08-14 06:59:28.000000000,2018-08-20 19:16:13.000000000,closed,2,DefaultKafkaProducerFactory.stop() doesn't change running state
+776,2018-08-09 21:51:17.000000000,2018-08-13 23:17:40.000000000,closed,2,Add KafkaStreamsConfiguration
+775,2018-08-09 18:38:17.000000000,2018-08-09 18:58:42.000000000,closed,1,GH-774: Rethrow e in KT.executeInTransaction()
+774,2018-08-09 17:24:50.000000000,2018-08-09 18:58:42.000000000,closed,1,KafkaTemplate.executeInTransaction() does not throw exception 
+773,2018-08-08 17:42:59.000000000,2018-08-08 19:40:27.000000000,closed,0,2.0.0 (Streams) Doc Polishing
+772,2018-08-08 12:07:28.000000000,2018-08-20 19:40:08.000000000,closed,6,Container exception java.lang.IllegalStateException: Coordinator selected invalid assignment protocol: null
+771,2018-08-07 19:19:32.000000000,2018-08-07 23:50:01.000000000,closed,0,GH-767: Add DeadLetterPublishingRecoverer
+770,2018-08-06 17:53:41.000000000,2018-08-07 18:10:01.000000000,closed,1,GH-769: Add JSON Type Mapping Property
+769,2018-08-06 02:47:57.000000000,2018-08-07 18:09:37.000000000,closed,0,Add Type Mapping Info Properties for Json(De)Serializer
+768,2018-08-05 23:18:52.000000000,2018-08-07 18:09:37.000000000,closed,0,Support Type Precedence in the JSON Deserializer
+767,2018-08-05 22:48:13.000000000,2018-08-07 23:50:00.000000000,closed,0,Add DeadLetterPublishingRecoverer
+766,2018-08-03 23:31:48.000000000,2018-08-07 04:08:34.000000000,closed,0,Add recovery to SeekToCurrentErrorHandler
+765,2018-08-03 21:43:00.000000000,2018-08-03 22:49:40.000000000,closed,0,GH-762: ConsumerStoppedEvent
+764,2018-08-03 20:01:52.000000000,2018-08-07 04:08:33.000000000,closed,0,"GH-763: DefaultAfterRollbackProcessor, SeekToCurrrentErrorHandler: recovery"
+763,2018-08-03 17:33:21.000000000,2018-08-07 04:08:32.000000000,closed,0,Add Stateful AfterRollbackProcessor
+762,2018-08-03 01:38:09.000000000,2018-08-03 22:49:40.000000000,closed,0,Publish ConsumerThreadStoppedEvent
+761,2018-08-02 18:47:58.000000000,2018-08-02 19:15:44.000000000,closed,0,@NonNullApi for core package
+760,2018-08-02 18:28:38.000000000,2018-08-02 19:14:49.000000000,closed,5,Add wrapper task
+759,2018-07-31 22:42:36.000000000,2018-07-31 22:54:59.000000000,closed,0,GH-756: Doc polishing for the previous commit
+758,2018-07-31 21:40:55.000000000,2018-07-31 22:20:51.000000000,closed,0,"GH-756: Add concurrency, autoStartup to @KL"
+757,2018-07-31 18:45:09.000000000,2018-08-02 18:06:02.000000000,closed,0,Upgrade to Apache Kafka 2.0.0
+756,2018-07-31 10:02:22.000000000,2018-07-31 22:20:51.000000000,closed,0,@KafkaListener - add concurrency to override the container factory setting
+755,2018-07-31 05:01:21.000000000,2018-09-14 22:03:18.000000000,closed,3,Supports topic name as targetType of JsonDeserializer
+754,2018-07-26 11:56:29.000000000,2018-07-26 17:39:41.000000000,closed,1,Improve exception handling for producer transaction commit / rollback
+753,2018-07-26 11:55:15.000000000,2018-07-26 17:39:18.000000000,closed,0,Transactional producer exception handling issues
+752,2018-07-25 23:35:20.000000000,2018-07-26 00:03:22.000000000,closed,1,Upgrade to Gradle 4.9
+751,2018-07-23 12:48:18.000000000,2019-03-29 23:27:03.000000000,closed,2,JsonSerializer and JsonDeserializer don't search for jackson modules
+750,2018-07-20 15:35:06.000000000,2018-07-20 18:07:48.000000000,closed,0,Valid class names in KafkaListenerEndpointRegistry customization docs
+749,2018-07-20 11:58:22.000000000,2018-07-20 19:44:15.000000000,closed,4,"Add ""clientId"" in @KafkaListener"
+748,2018-07-20 11:44:20.000000000,1970-01-01 00:00:00.000000001,open,1,`onMessage` methods in *MessageListener should allow for checked exception throwing
+747,2018-07-20 07:29:13.000000000,2018-07-20 17:49:55.000000000,closed,1,Kafka transaction problem
+746,2018-07-19 18:18:29.000000000,2018-08-02 23:14:53.000000000,closed,3,ConsumerSeekAware.registerSeekCallback is not partition aware
+745,2018-07-19 16:44:36.000000000,2018-07-19 19:36:50.000000000,closed,0,Merge assertion conditions into one in MessagingMessageListenerAdapter
+744,2018-07-18 20:38:47.000000000,2018-07-19 20:04:58.000000000,closed,0,GH-739: Custom (De)Serializer Doc Improvement
+743,2018-07-18 02:36:54.000000000,2018-07-26 18:01:46.000000000,closed,8,GH-732: Refactor KafkaEmbedded for JUnit 5
+742,2018-07-15 21:19:12.000000000,2018-08-02 00:17:20.000000000,closed,14,Pausing/Resuming Listener Containers - avoiding a rebalance if group management is being used
+741,2018-07-15 11:20:47.000000000,2018-09-22 16:43:56.000000000,closed,3,"spring.kafka.listener.concurrency large than partition count, is that any problem?"
+740,2018-07-13 12:13:55.000000000,2018-07-13 20:09:59.000000000,closed,3,How to fail execution when Kafka server is not available?
+739,2018-07-12 21:15:55.000000000,2018-07-19 20:04:58.000000000,closed,3,Add support for serializing JSR 310 time types
+738,2018-07-12 00:09:47.000000000,2018-07-12 00:17:15.000000000,closed,0,GH-650: Pause/Resume doc example
+737,2018-07-11 23:05:33.000000000,2018-07-12 00:58:19.000000000,closed,4,Using @SendTo where ReplyingKafkaTemplate is only used for tests?
+736,2018-07-11 22:39:01.000000000,2018-07-11 22:51:10.000000000,closed,0,GH-723: Relax reply template generic types
+735,2018-07-11 22:01:42.000000000,2018-07-11 22:08:31.000000000,closed,0,GH-734: MimeType headers as String
+734,2018-07-11 18:06:08.000000000,2018-07-11 22:08:31.000000000,closed,0,Convert MediaType/MimeType headers toString()
+733,2018-07-09 22:44:54.000000000,2018-07-10 22:43:08.000000000,closed,1,GH-731: Replying template improvements
+732,2018-07-09 13:23:46.000000000,2018-07-26 16:38:10.000000000,closed,14,Add support for JUnit 5 extension.
+731,2018-07-08 11:36:09.000000000,2018-07-10 22:43:08.000000000,closed,2,ReplyingKafkaTemplate scalability restrictions
+730,2018-07-07 13:26:40.000000000,2018-07-07 20:09:27.000000000,closed,2,How I should set multiplate deserializers?
+729,2018-07-06 19:41:30.000000000,2018-07-10 01:07:12.000000000,closed,1,GH-725: Fix return Collection<Message<?>>
+728,2018-07-06 15:10:09.000000000,2018-07-07 00:30:13.000000000,closed,5,auto-offset-reset and boostrap-servers applications properties not respected
+727,2018-07-06 13:26:57.000000000,2018-07-06 18:54:45.000000000,closed,7,How should I send/receive protobuf message?
+726,2018-07-05 21:40:44.000000000,2018-07-10 01:06:48.000000000,closed,0,Allow empty @SendTo with Message<?> return type
+725,2018-07-05 21:15:57.000000000,2018-07-10 01:06:48.000000000,closed,5,Support `@SendTo` (replying) for log-compacted topics
+724,2018-07-05 20:57:18.000000000,2018-07-10 22:47:01.000000000,closed,0,Add ErrorHandlingDeserializer
+723,2018-07-03 16:05:11.000000000,2018-07-11 22:51:10.000000000,closed,1,Relaxing replying `KafkaTemplate` in `AbstractKafkaListenerContainerFactory`
+722,2018-07-02 23:51:07.000000000,2018-08-02 18:06:02.000000000,closed,1,Upgrade to Kafka 2.0.0
+721,2018-07-02 12:01:52.000000000,2018-07-02 19:59:33.000000000,closed,1,Exclude Spring 4.X dependency
+720,2018-07-01 02:29:34.000000000,2018-07-01 07:34:26.000000000,closed,2,Stopping ConcurrentMessageListenerContainer in 1.3.5
+719,2018-06-29 18:35:02.000000000,2018-07-02 19:59:34.000000000,closed,6,Spring 5 support for spring-kafka-test
+718,2018-06-28 12:48:52.000000000,2018-07-06 13:19:34.000000000,closed,7,kafka consumer in the container  stopped get message from broker at sometime 
+717,2018-06-26 20:10:55.000000000,2018-06-26 20:26:24.000000000,closed,1,GH-716: Null Payload Doc Improvements
+716,2018-06-26 15:39:15.000000000,2018-06-26 20:26:24.000000000,closed,4,KafkaNull and custom deserializer confusing stacktrace (documentation)
+715,2018-06-26 09:43:12.000000000,2018-06-26 10:05:06.000000000,closed,0,error during JRMP connection establishment
+714,2018-06-22 12:19:30.000000000,2018-06-22 19:40:25.000000000,closed,3,Inner class name be a logger name can not config level
+713,2018-06-21 19:20:04.000000000,2019-04-03 17:05:04.000000000,closed,4,Single embedded kafka as mvn/gradle plugin
+712,2018-06-21 18:20:05.000000000,2018-06-21 18:43:06.000000000,closed,2,spring for kafka should i use zookeeper client manage node?
+711,2018-06-19 20:20:05.000000000,2018-09-13 23:39:59.000000000,closed,6,Kafka streams exactly once delivery
+710,2018-06-16 22:33:05.000000000,2018-06-18 21:21:34.000000000,closed,7,Cannot load keystore when running java -jar *.jar spring boot application
+709,2018-06-14 03:17:09.000000000,2018-06-15 17:58:28.000000000,closed,1,Guide for Spring Kafka 
+708,2018-06-13 22:27:03.000000000,2018-06-13 22:33:25.000000000,closed,0,Fix varargs warn for CompositeProducerListener
+707,2018-06-13 21:03:47.000000000,2018-06-13 22:31:54.000000000,closed,1,GH-686: Handle tombstones in Json Ser/Deser
+706,2018-06-13 20:57:48.000000000,2018-06-13 21:57:52.000000000,closed,1,GH-690: Propagate AfterRollbackProcessor to child
+705,2018-06-12 13:24:11.000000000,2018-06-12 17:26:11.000000000,closed,2,Kafka producers throwing TimeoutExceptions
+704,2018-06-11 16:14:17.000000000,2018-06-12 16:59:24.000000000,closed,7,JPATransactionManager commit Kafka producer.
+703,2018-06-09 00:05:16.000000000,2018-06-12 01:29:27.000000000,closed,1,"GH-701: Support ConsumerRecords<?, ?> (@Klistener)"
+702,2018-06-08 21:21:52.000000000,2018-06-08 23:10:37.000000000,closed,1,Add licence and notice to all artifacts
+701,2018-06-01 19:13:45.000000000,2018-06-12 01:29:05.000000000,closed,1,Enable Batch KafkaListener to allow ConsumerRecords as a parameter
+700,2018-06-01 04:06:02.000000000,2018-06-01 19:00:43.000000000,closed,2,"GH-699 showing issue with batch listener, along with fix"
+699,2018-06-01 03:06:43.000000000,2018-06-01 18:52:29.000000000,closed,3,KafkaListener annotation for batch consumption does not work with Kotlin
+698,2018-05-31 17:35:50.000000000,2018-05-31 18:41:09.000000000,closed,2,AfterRollbackProcessor called with all unprocessed records in case of a Record Listener
+697,2018-05-30 19:52:20.000000000,2018-05-30 20:46:11.000000000,closed,0,GH-696: Add missingTopicsFatal container property
+696,2018-05-30 13:31:11.000000000,2018-05-30 20:46:11.000000000,closed,3,Gracefully react to UNKNOWN_TOPIC_OR_PARTITION
+695,2018-05-29 02:58:03.000000000,2018-05-29 23:55:14.000000000,closed,1,GH-691: Add CompositeProducerListener
+694,2018-05-25 20:43:42.000000000,2018-05-30 22:17:40.000000000,closed,2,GH-693: Add BytesJsonMessageConverter
+693,2018-05-25 17:39:58.000000000,2018-05-30 22:17:40.000000000,closed,0,Support Bytes in StringJsonMessageConverter
+692,2018-05-25 12:09:55.000000000,2018-05-29 02:16:59.000000000,closed,1,"ProducerListener: onSuccess, onError should have Headers as method's argument"
+691,2018-05-24 08:50:29.000000000,2018-05-29 23:55:14.000000000,closed,2,ProducerListener: add CompositeProducerListener or list of ProducerListener
+690,2018-05-24 00:39:39.000000000,2018-06-13 21:57:52.000000000,closed,2,Custom AfterRollbackProcessor not invoked with ConcurrentMessageListenerContainer
+689,2018-05-23 16:12:59.000000000,2018-05-24 06:47:12.000000000,closed,2,How about do the producer set max.request.size in application.properties?
+688,2018-05-22 23:46:41.000000000,2018-05-22 23:54:53.000000000,closed,0,Polishing for previous commit
+687,2018-05-22 21:45:03.000000000,2018-05-22 21:49:06.000000000,closed,1,Emit WARN log for @SendTo with void return
+686,2018-05-22 17:58:03.000000000,2018-06-13 22:31:54.000000000,closed,1,NPE in JsonSerializer on template.send if key is null
+685,2018-05-21 20:09:18.000000000,2018-05-21 22:38:19.000000000,closed,1,GH-683: Fix Transactions with ErrorHandler [2.1.x]
+684,2018-05-21 20:08:42.000000000,2018-05-21 22:37:17.000000000,closed,0,GH-683: Fix Transactions with ErrorHandler
+683,2018-05-21 17:07:33.000000000,2018-05-21 22:37:17.000000000,closed,6,Transaction not getting committed when error handler is invoked
+682,2018-05-21 15:40:40.000000000,2018-05-21 18:30:23.000000000,closed,3,Spring-kafka-test:1.3.5.RELEASE doesn't compatible with kafka-client:1.0.1
+681,2018-05-18 15:48:18.000000000,2018-05-23 18:12:40.000000000,closed,12,Add methods receiving ProducerRecord to ProducerListener
+680,2018-05-18 13:36:17.000000000,2019-03-29 18:46:25.000000000,closed,11,Add option to JsonSerializer to use Spring primary ObjectMapper bean 
+679,2018-05-16 23:08:45.000000000,2018-05-16 23:49:43.000000000,closed,0,Container factory doc polishing
+678,2018-05-16 20:51:39.000000000,2018-06-13 20:45:52.000000000,closed,5,Typo fix for addTopics and doWtihAdmin @since - 2.1.6 not 2.1
+677,2018-05-15 01:32:50.000000000,2018-05-16 19:06:14.000000000,closed,4,GH-676: KafkaEmbeddedHolder - creating and adding topics.
+676,2018-05-14 16:30:13.000000000,2018-05-16 19:06:13.000000000,closed,4,KafkaEmbeddedHolder - topic created but not added.
+675,2018-05-12 01:12:32.000000000,2018-05-14 17:57:40.000000000,closed,0,SIKGH-204: Support auto config for all containers
+674,2018-05-09 23:17:49.000000000,2018-05-10 21:17:02.000000000,closed,1,Resolve a couple TODOs
+673,2018-05-08 16:10:54.000000000,2018-05-08 19:03:48.000000000,closed,10,Spring Kafka Test with scala 2.12
+672,2018-05-08 04:54:19.000000000,2018-05-08 17:02:35.000000000,closed,5,Safe use of batch listener?
+671,2018-05-05 00:28:56.000000000,2018-05-07 19:06:53.000000000,closed,5,GH-666: Refactor KafkaEmbedded to expose admin and addTopics()
+670,2018-05-04 21:17:17.000000000,2018-05-04 21:18:08.000000000,closed,0,Improve exception message with jar mismatch
+669,2018-05-04 19:56:10.000000000,2018-05-04 20:52:22.000000000,closed,1,GH-667: Fix BatchErrorHandler for generic errors [2.1.x]
+668,2018-05-04 19:55:26.000000000,2018-05-04 20:52:04.000000000,closed,0,GH-667: Fix BatchErrorHandler for generic errors
+667,2018-05-04 12:46:13.000000000,2018-05-04 20:52:04.000000000,closed,2,KafkaMessageListenerContainer.handleConsumerError will never use batchErrorHandler
+666,2018-05-04 01:02:45.000000000,2018-05-07 19:06:53.000000000,closed,8,Single shared KafkaEmbedded is all JUnit tests
+665,2018-05-02 05:00:37.000000000,2018-05-02 17:17:27.000000000,closed,2,Possible to set key in StreamsBuilder
+664,2018-05-02 00:23:56.000000000,2018-05-02 01:50:12.000000000,closed,0,Docs to 2.2 - Kafka/SF versions
+663,2018-04-28 01:43:56.000000000,2018-05-01 00:35:34.000000000,closed,0,Add Kotlin test case
+662,2018-04-24 01:19:16.000000000,2018-04-24 01:22:41.000000000,closed,1,GH-661: Close Producer after beginTransaction fail
+661,2018-04-23 20:55:39.000000000,2018-04-24 01:24:37.000000000,closed,0,Invalid transition attempted from state IN_TRANSACTION to state IN_TRANSACTION after broker bounce
+660,2018-04-23 18:38:22.000000000,2018-05-11 23:05:28.000000000,closed,9,The producer attempted to use a producer id which is not currently assigned to its transactional id
+659,2018-04-19 23:00:32.000000000,2018-04-20 17:48:43.000000000,closed,1,GH-656: Fix seek on rollback [Backport]
+658,2018-04-19 20:40:22.000000000,2018-04-19 22:40:48.000000000,closed,1,GH-656: Fix seek on rollback
+657,2018-04-19 15:42:20.000000000,2018-04-19 22:20:24.000000000,closed,1,KafkaMessageListenerContainer.doInvokeBatchListener()
+656,2018-04-18 22:52:35.000000000,2018-04-19 22:20:24.000000000,closed,0,Transaction Improvements
+655,2018-04-18 21:21:58.000000000,2018-04-18 22:02:40.000000000,closed,0,"Upgrade to Gradle 4.7 and others, build polishing"
+654,2018-04-18 18:21:28.000000000,2018-04-18 18:29:18.000000000,closed,2,GH-652: JsonSerializer add null check for Headers
+653,2018-04-18 15:50:09.000000000,2018-04-19 21:07:24.000000000,closed,6,When running multiple test methods the first method finishes and the second one stucks
+652,2018-04-18 11:17:48.000000000,2018-04-18 18:29:17.000000000,closed,3,NullPointerException in AbstractJavaTypeMapper
+651,2018-04-16 19:39:31.000000000,2018-04-16 20:37:11.000000000,closed,5,KBGH-356: Fix thread naming with no bean name
+650,2018-04-16 15:42:11.000000000,2018-07-12 00:17:15.000000000,closed,3,How to pause/resume on Listener ?
+649,2018-04-14 09:28:36.000000000,2018-04-16 03:51:21.000000000,closed,2,Question about KafkaTemplate and KafkaTransactionManager.
+648,2018-04-14 00:26:46.000000000,2018-04-14 00:29:08.000000000,closed,1,GH-646: Avoid sync when no transaction
+647,2018-04-13 22:53:27.000000000,2018-04-14 00:03:17.000000000,closed,1,GH-646: Transaction Improvements
+646,2018-04-13 20:18:29.000000000,2018-04-14 00:03:17.000000000,closed,0,Detect that a send() operation is being performed when no transaction exists
+645,2018-04-13 18:44:21.000000000,2018-05-11 23:06:09.000000000,closed,13,Sending message from transactional Kafka listener: Invalid transition attempted from state IN_TRANSACTION to state IN_TRANSACTION
+644,2018-04-10 03:18:41.000000000,2018-04-10 04:59:59.000000000,closed,4,SpEL not supported for containerFactory on KafkaListener annotation ?
+643,2018-04-05 23:29:00.000000000,2018-04-05 23:45:58.000000000,closed,1,Spring Kafka vs. Spring Cloud Stream
+642,2018-04-04 15:03:15.000000000,2018-04-04 19:45:18.000000000,closed,0,ConcurrentMessageListenerContainerTests testAckOnErrorManualImmediate fails intermittently
+641,2018-04-04 00:27:02.000000000,2018-04-10 21:02:42.000000000,closed,6,GH-550: master to 2.2; fix tangles
+640,2018-04-03 22:05:25.000000000,2018-04-10 21:02:14.000000000,closed,0,Update kafka version to 1.1.0
+639,2018-04-03 18:50:16.000000000,2018-04-03 19:52:22.000000000,closed,3,GH-637: Fix spurious nonresponsive consumer events
+638,2018-04-03 15:01:26.000000000,2018-09-13 23:41:12.000000000,closed,12,Kafka Listener stop getting messages after sometime
+637,2018-04-03 08:30:20.000000000,2018-04-03 19:52:22.000000000,closed,2,Spring Kafka - Consumers Detecting Broker Unavailable
+636,2018-04-02 19:13:34.000000000,2018-04-11 22:34:56.000000000,closed,1,Update LogAdjuster to Log4j2
+635,2018-04-02 19:12:37.000000000,2018-04-03 00:23:54.000000000,closed,1,GH-634: 1.1.0 Client compatibility
+634,2018-04-02 18:07:41.000000000,2018-04-03 00:23:54.000000000,closed,3,Updating Kafka 1.0.1 -> Kafka 1.1.0 causes compilation error in Spring-Kafka-Test.
+633,2018-04-02 16:54:59.000000000,2018-04-02 17:09:32.000000000,closed,1,Change log-compaction url
+632,2018-03-30 22:47:02.000000000,2018-03-31 00:32:06.000000000,closed,0,GH-631: Fail fast with missing required group.id
+631,2018-03-30 18:33:01.000000000,2018-03-31 00:32:05.000000000,closed,0,Container should fail fast when no group.id provided
+630,2018-03-30 13:22:04.000000000,2018-03-30 18:32:50.000000000,closed,2,Fix typo
+629,2018-03-30 03:59:28.000000000,2018-03-30 18:33:42.000000000,closed,2,innvokeRecordListenerInTx method name
+628,2018-03-29 01:34:40.000000000,2018-04-06 20:30:15.000000000,closed,13,"If I don't acknowledge a message, will the next poll() use the current offset in manual ackmode?"
+627,2018-03-28 03:37:22.000000000,2018-09-13 23:42:12.000000000,closed,8,Message Handler per consumer for ConcurrencyLevel >1
+626,2018-03-27 13:15:08.000000000,2018-03-27 17:01:46.000000000,closed,4,Caused by: java.lang.ClassNotFoundException: org.apache.kafka.common.header.Headers
+625,2018-03-27 10:07:22.000000000,2018-04-03 00:12:24.000000000,closed,3,Add KafkaStreams customizers and wrapper configurer for StreamsBuilderFactoryBean.
+624,2018-03-26 21:15:44.000000000,2018-03-26 21:29:27.000000000,closed,3,GH-623: Fix AckMode.COUNT
+623,2018-03-26 19:00:15.000000000,2018-03-26 21:29:27.000000000,closed,1,processCommits method and this.count
+622,2018-03-26 14:24:39.000000000,2018-09-13 23:44:39.000000000,closed,5,Message Converter is not being set
+621,2018-03-25 16:24:09.000000000,2018-04-03 00:09:22.000000000,closed,2,Add StateRestoreListener customization.
+620,2018-03-23 07:39:22.000000000,2018-03-27 00:43:52.000000000,closed,1,GH-618: Add StreamsBuilderFactoryBean#getStreamsConfig
+619,2018-03-22 21:16:59.000000000,2018-03-22 22:32:51.000000000,closed,1,GH-566: Ack Concurrency Issue
+618,2018-03-22 07:34:02.000000000,2018-03-27 00:43:53.000000000,closed,3,Expose application.id / StreamsConfig from StreamsBuilderFactoryBean
+617,2018-03-21 23:56:46.000000000,2018-03-21 23:59:21.000000000,closed,0,GH-597: Add default impls for listener methods
+616,2018-03-21 23:12:24.000000000,2018-03-22 00:57:43.000000000,closed,0,GH-614: Fix general consumer error handling
+615,2018-03-21 22:45:11.000000000,2019-04-24 22:30:44.000000000,closed,1,Collapse ErrorHandler and BatchErrorHandler interface hierarchies into a single interface for each
+614,2018-03-21 21:55:10.000000000,2018-03-22 00:57:43.000000000,closed,0,Fix container calling the wrong error handler method
+613,2018-03-21 19:33:23.000000000,2018-03-21 21:43:50.000000000,closed,0,GH-609: Pause/resume polishing; events
+612,2018-03-21 10:09:40.000000000,2018-03-21 19:11:33.000000000,closed,1,Handler listener process failure
+611,2018-03-21 10:00:34.000000000,2018-03-21 18:09:45.000000000,closed,7,Unable to find way to re-initialize @KafkaListener annotated method.
+610,2018-03-21 04:02:24.000000000,2018-03-23 13:13:02.000000000,closed,4,Using Json for both key and value when sending to a topic results in erreneous record headers
+609,2018-03-21 03:05:59.000000000,2018-03-21 21:43:50.000000000,closed,3,Unable to read the 'paused' state of a AbstractMessageListenerContainer
+608,2018-03-19 22:50:22.000000000,2018-03-20 02:56:36.000000000,closed,2,Upgrade to kafka 1.0.1
+607,2018-03-19 21:33:02.000000000,1970-01-01 00:00:00.000000001,open,8,Support for KafkaProxy for @KafkaListener
+606,2018-03-19 20:10:54.000000000,2018-03-20 19:24:02.000000000,closed,28,Setup SASL_SSL in yaml
+605,2018-03-19 17:38:38.000000000,2018-03-21 23:20:08.000000000,closed,2,Polish
+604,2018-03-19 06:13:31.000000000,2018-03-19 16:55:33.000000000,closed,3,Allow setting MAX_POLL_INTERVAL_MS_CONFIG using KafkaProperties.Consumer
+603,2018-03-16 22:30:19.000000000,2018-03-17 04:55:33.000000000,closed,0,GH-601: @KafkaListener: Support List<Message<Foo>>
+602,2018-03-16 15:28:07.000000000,2018-09-13 23:45:11.000000000,closed,2,Slow on Listener
+601,2018-03-16 10:36:37.000000000,2018-03-17 04:55:33.000000000,closed,1,StringJsonMessageConverter doesn't work with List<Message<PO>>
+600,2018-03-06 22:10:11.000000000,2018-03-07 00:15:29.000000000,closed,1,GH-599: Fix initial seek
+599,2018-03-06 04:32:07.000000000,2018-03-07 00:15:29.000000000,closed,0,Initial Seek when group management is not used is broken
+598,2018-03-06 03:17:21.000000000,2018-05-10 21:16:55.000000000,closed,0,Add default implementation for all ConsumerFactory.createConsumer() methods
+597,2018-03-06 02:45:18.000000000,2018-03-21 23:59:21.000000000,closed,0,Add default methods to ConsumerAwareRebalanceListenerAdapter
+596,2018-03-06 02:31:18.000000000,2018-03-06 02:51:22.000000000,closed,0,Support JUnit5 in tests
+595,2018-03-02 14:08:58.000000000,2018-03-16 17:56:43.000000000,closed,8,catch exceptions thrown from container error handler
+594,2018-03-01 13:32:40.000000000,2018-09-13 23:46:00.000000000,closed,9,Losing messages when restarting ConcurrentMessageListenerContainer
+593,2018-03-01 03:33:49.000000000,2018-03-21 23:55:30.000000000,closed,4,spring kafka test does not work with JUnit 5
+592,2018-02-28 03:13:36.000000000,2018-02-28 03:26:48.000000000,closed,1,Reactor : Spring Kafka
+591,2018-02-25 23:15:12.000000000,2018-02-26 21:27:41.000000000,closed,0,Transaction Tests Polishing
+590,2018-02-25 20:22:31.000000000,2018-02-26 21:05:07.000000000,closed,7,"Working, minimal, up-to-date, KafkaEmbedded sample"
+589,2018-02-23 19:17:24.000000000,2018-02-26 03:26:43.000000000,closed,5,KafkaEmbedded does not create topic for KTable when aggregated
+588,2018-02-23 13:42:34.000000000,2018-02-23 19:23:35.000000000,closed,0,Add a missing InterruptedException handling
+587,2018-02-23 05:47:36.000000000,2018-02-23 07:55:11.000000000,closed,5,kafkaListener partitions loadbalance 
+586,2018-02-22 16:32:22.000000000,2018-02-23 10:10:02.000000000,closed,4,ConsumerRecord  Instance more and more
+585,2018-02-22 12:18:27.000000000,2018-02-22 19:47:07.000000000,closed,10,@KafkaListener is not async? 
+584,2018-02-22 00:36:11.000000000,2018-02-22 03:34:16.000000000,closed,0,SIKGH-198: Add pause/resume to Listener Containers
+583,2018-02-20 22:29:27.000000000,2018-02-21 01:15:36.000000000,closed,0,GH-582: Use a truly random port in KafkaEmbedded
+582,2018-02-20 09:43:35.000000000,2018-02-21 01:15:35.000000000,closed,0,Update KafkaEmbedded so that Kafka itself can grab a random port
+581,2018-02-20 01:07:31.000000000,2018-02-22 02:23:53.000000000,closed,4,EmbeddedKafka too many exceptions.
+580,2018-02-19 21:00:38.000000000,2018-02-21 05:02:16.000000000,closed,7,Question about transaction.id.prefix
+579,2018-02-19 19:39:14.000000000,2018-02-22 06:52:19.000000000,closed,5,MessageConversionException if use @Payload and @Header
+578,2018-02-17 21:26:07.000000000,2018-02-17 22:05:17.000000000,closed,1,MessagingMessageConverter Extension Points for Keys
+577,2018-02-17 01:04:42.000000000,2018-02-21 03:32:27.000000000,closed,0,GH-563: Add default @KafkaHandler
+576,2018-02-16 23:01:04.000000000,2018-02-21 03:53:30.000000000,closed,0,Add ChainedKafkaTransactionManager
+575,2018-02-16 19:20:24.000000000,2018-02-17 01:50:31.000000000,closed,16,Transaction And RetryTemplate
+574,2018-02-15 19:46:42.000000000,2018-02-15 20:18:57.000000000,closed,4,Marking the coordinator dead
+573,2018-02-15 02:36:04.000000000,2018-02-15 02:51:10.000000000,closed,0,Embedded Kafka SeekToBeginning if needed
+572,2018-02-14 22:25:31.000000000,2018-02-14 22:53:38.000000000,closed,0,More tracing and debug logging
+571,2018-02-14 04:06:26.000000000,2018-02-14 04:13:37.000000000,closed,0,Expose KafkaTemplate.transactional accessor
+570,2018-02-14 02:53:50.000000000,2018-02-14 04:02:23.000000000,closed,0,GH-566: Use ConcurrentMaps for offset management
+569,2018-02-13 23:16:50.000000000,2018-02-14 00:20:03.000000000,closed,0,GH-568: S-I-K Gateways Documentation
+568,2018-02-13 21:03:13.000000000,2018-02-14 00:20:03.000000000,closed,0,Add S-I-K Gateway Docs
+567,2018-02-13 05:04:51.000000000,2018-02-22 03:17:28.000000000,closed,2,#561 -  Cannot use JsonSerde for both key and value serialization in a stream
+566,2018-02-12 21:30:40.000000000,2018-03-22 22:32:51.000000000,closed,2,KafkaMLC - make addOffsets() thread-safe
+565,2018-02-11 00:09:29.000000000,2018-02-11 02:44:24.000000000,closed,2,Spring Kafka 2.1.2 NoSuchMethodError: org.springframework.util.Assert.state
+564,2018-02-10 06:57:25.000000000,2018-03-15 22:46:07.000000000,closed,12,rename constant DEFAULT_VALUE_TYPE to keep the same with DEFAULT_KEY_TYPE
+563,2018-02-08 00:09:03.000000000,2018-02-21 03:32:27.000000000,closed,0,Add isDefault to @KafkaHandler
+562,2018-02-07 14:08:00.000000000,2018-02-08 14:00:05.000000000,closed,2,Kafka dependency version 1.0.x : missing class to launch tests
+561,2018-02-07 07:18:32.000000000,2018-02-22 03:17:30.000000000,closed,5,Cannot use JsonSerde for both key and value serialization in a stream
+560,2018-02-07 01:02:16.000000000,2018-02-07 01:57:12.000000000,closed,1,More Spring Integration Kafka Support
+559,2018-02-06 17:43:18.000000000,2019-03-06 23:07:18.000000000,closed,31,Provide a Reactive alternative to KafkaOperations and KafkaTemplate
+558,2018-02-05 21:38:00.000000000,2018-02-06 00:52:31.000000000,closed,2,Unable to configure KafkaSSL Support
+557,2018-02-05 18:53:39.000000000,2018-02-05 19:01:31.000000000,closed,0,Fix sample code in javadoc of EnableKafkaStreams
+556,2018-02-03 23:59:52.000000000,2018-02-05 21:32:17.000000000,closed,1,Resolve property placeholders in EmbeddedKafka topics
+555,2018-02-03 23:41:20.000000000,2018-02-05 21:31:42.000000000,closed,0,Resolve property placeholders in EmbeddedKafka topics
+554,2018-02-03 21:02:27.000000000,2018-02-05 22:05:29.000000000,closed,0,Replying template - add getter for reply topic(s)
+553,2018-02-02 14:53:53.000000000,2018-02-03 09:37:07.000000000,closed,6,Is there any plan for supporting configuring kafka client interceptors in KafkaProperties?
+552,2018-02-02 03:32:43.000000000,2018-02-02 20:20:08.000000000,closed,0,Support stateful retry
+551,2018-02-01 23:40:41.000000000,2018-02-02 04:31:01.000000000,closed,0,GH-548: StreamsBuilderFactoryBean enhancements
+550,2018-02-01 19:51:37.000000000,2018-04-10 21:02:14.000000000,closed,0,Fix Tangles
+549,2018-01-31 15:30:37.000000000,2018-01-31 20:59:30.000000000,closed,3,Management of MessageListener and KafkaMessageListenerContainer
+548,2018-01-31 02:26:22.000000000,2018-02-02 04:31:02.000000000,closed,1,Make StreamsConfig customizable in StreamsBuilderFactoryBean
+547,2018-01-30 23:46:32.000000000,2018-01-30 23:57:44.000000000,closed,0,Fix @SendTo Runtime SpEL Detection
+546,2018-01-30 20:58:35.000000000,2018-02-22 19:53:33.000000000,closed,9,How to pause and resume a slow @KafkaListener?  
+545,2018-01-29 01:42:10.000000000,2018-01-29 23:42:47.000000000,closed,2,GH-537: Configurable log level for offset commits
+544,2018-01-26 21:25:16.000000000,2018-02-03 00:08:20.000000000,closed,8,KafkaTemplate Request/Reply
+543,2018-01-26 02:24:52.000000000,2018-01-29 20:51:54.000000000,closed,6,Configurable KafkaStreams cleanup execution
+542,2018-01-26 02:18:37.000000000,2018-02-02 04:31:45.000000000,closed,1,Configurable KafkaStreams cleanup
+541,2018-01-25 00:08:45.000000000,2018-09-13 23:46:20.000000000,closed,2,failed to get offset by time
+540,2018-01-23 17:31:44.000000000,2018-01-24 22:44:20.000000000,closed,6,Spring Kafka does not work properly inside openjdk:9-jdk-slim docker image
+539,2018-01-21 21:09:39.000000000,2018-01-24 01:04:41.000000000,closed,0,EmbeddedKafka.consumeFromAnEmbeddedTopic should wait for partitions to be assigned
+538,2018-01-21 21:09:22.000000000,2018-01-24 01:11:00.000000000,closed,5,Wait for partitions to be assigned when consuming from embedded topics
+537,2018-01-21 15:45:45.000000000,2018-01-29 23:40:42.000000000,closed,2,can i print some log when a message has done?  
+536,2018-01-16 01:52:51.000000000,2018-01-16 19:48:07.000000000,closed,4,Seeking to offset (which is bigger than messages count in partition) causes processing messages from beginning
+535,2018-01-15 16:03:12.000000000,2018-01-15 22:04:54.000000000,closed,13,Add spring configuration property for trusted-packages in serializer/JsonDeserializer.java
+534,2018-01-14 23:41:07.000000000,2018-01-18 03:47:33.000000000,closed,0,Support local bean reference in @KafkaListener
+533,2018-01-11 05:51:17.000000000,2018-01-11 19:08:47.000000000,closed,2,Dynamically creating Listeners at runtime
+532,2018-01-10 13:53:18.000000000,2018-01-10 20:25:02.000000000,closed,1,fix Doc's description
+531,2017-12-28 20:23:08.000000000,2017-12-28 23:30:25.000000000,closed,3,The type org.springframework.messaging.Message cannot be resolved. It is indirectly referenced from required .class files
+530,2017-12-26 18:50:02.000000000,2017-12-26 19:12:25.000000000,closed,0,Apply addTargetPackageToTrusted() consistently in JsonDeserializer
+529,2017-12-21 22:24:12.000000000,2017-12-21 23:36:05.000000000,closed,2,Add an option to log container properties
+528,2017-12-20 19:06:45.000000000,2018-01-05 19:44:54.000000000,closed,5,527: Replace DefaultFormattingConversionService with Bean
+527,2017-12-20 17:06:05.000000000,2018-01-05 19:44:55.000000000,closed,1,KafkaHandlerMethodFactoryAdapter: Replace DefaultFormattingConversionService with ConversionService Bean
+526,2017-12-19 18:20:19.000000000,2017-12-19 19:08:45.000000000,closed,1,org.apache.kafka.common.errors.GroupAuthorizationException while trying to consume messages
+525,2017-12-19 01:15:51.000000000,2017-12-20 23:03:54.000000000,closed,0,GH-518: Add clientIdPrefix to @KafkaListener
+524,2017-12-18 22:09:59.000000000,2017-12-19 02:02:02.000000000,closed,5,GH-522: Fix NPE in listener container
+523,2017-12-18 20:26:57.000000000,2017-12-18 20:47:27.000000000,closed,0,Remove unnecessary logging guards
+522,2017-12-14 12:31:49.000000000,2017-12-19 02:02:01.000000000,closed,4,Nullpointer in spring-kafka
+521,2017-12-13 23:03:57.000000000,2017-12-13 23:05:54.000000000,closed,1,Polish
+520,2017-12-13 21:33:30.000000000,2017-12-13 21:35:42.000000000,closed,0,Introduce an intermediate variable for topicNameToTopic.get(n)
+519,2017-12-13 19:00:37.000000000,2017-12-13 19:19:46.000000000,closed,2,Producer config settings of KafkaTemplate not used in @SendTo
+518,2017-12-13 18:40:53.000000000,2017-12-20 23:03:54.000000000,closed,1,Overide the client.id property for consumer factory in @KafkaListener
+517,2017-12-12 08:37:51.000000000,2017-12-12 08:49:47.000000000,closed,2,How to terminate the app when an `@KafkaListener` throws an exception?
+516,2017-12-12 08:01:03.000000000,2017-12-12 15:38:32.000000000,closed,6,enable-auto-commit: false is ignored (auto-commit stays enabled)
+515,2017-12-11 21:01:32.000000000,2017-12-13 03:00:07.000000000,closed,5,Fix for consumer committing old offsets on rebalance
+514,2017-12-11 15:51:42.000000000,2017-12-12 16:37:25.000000000,closed,2,transactional messages sent even tx is rolled back
+513,2017-12-11 15:29:03.000000000,2017-12-12 18:36:55.000000000,closed,4,producer transactions hanging sometimes
+512,2017-12-11 00:22:22.000000000,2017-12-12 22:49:56.000000000,closed,1,Fix KafkaAdminBadContextTests
+511,2017-12-10 20:57:50.000000000,2017-12-13 02:55:40.000000000,closed,1,Consumer committing old offsets on rebalance
+510,2017-12-08 16:09:54.000000000,2017-12-09 00:52:22.000000000,closed,4,how to config request.timeout.ms
+509,2017-12-05 08:55:10.000000000,2017-12-12 23:20:48.000000000,closed,12,Improve JsonDeserializer to keep compatibility
+508,2017-12-04 12:38:48.000000000,2018-01-21 15:36:07.000000000,closed,6,some topic not joined group when net is disconnect
+507,2017-12-01 18:26:19.000000000,2018-01-13 02:25:05.000000000,closed,10,Introduced support for Spring Data projection based message binding.
+506,2017-12-01 15:15:20.000000000,2017-12-01 23:35:43.000000000,closed,2,How to create multiple producer factories with different bootstrap servers?
+505,2017-12-01 02:40:30.000000000,2017-12-01 02:41:30.000000000,closed,0,Fix NPE when Jackson not present
+504,2017-11-30 23:48:35.000000000,2017-12-01 00:22:17.000000000,closed,2,Fix Mocking in EnableKafkaIntegrationTests
+503,2017-11-30 23:11:27.000000000,2017-11-30 23:27:34.000000000,closed,0,GH-501: Fix transactions with AckMode.RECORD
+502,2017-11-30 22:59:11.000000000,2017-11-30 23:27:11.000000000,closed,4,GH-501: Fix transactions with AckMode.RECORD
+501,2017-11-30 22:32:30.000000000,2017-12-01 03:23:38.000000000,closed,0,Fix transactions with AckMode.RECORD
+500,2017-11-30 02:55:21.000000000,2017-12-01 00:13:28.000000000,closed,0,GH-479: Update Kafka Streams API and Docs
+499,2017-11-29 23:37:00.000000000,2017-11-30 22:25:35.000000000,closed,6,GH-451: Add Container Stopping Error Handlers
+498,2017-11-29 19:19:49.000000000,2017-11-29 20:44:29.000000000,closed,1,GH-475 Fix Listener Container SmartLifecycle phase
+497,2017-11-29 14:59:40.000000000,2018-02-22 19:55:04.000000000,closed,5,Lost messages and messed up offsets
+496,2017-11-28 19:09:05.000000000,2017-11-28 20:07:50.000000000,closed,1,Set default value for noPollThreshold
+495,2017-11-28 06:22:31.000000000,2017-11-28 22:09:55.000000000,closed,2,GH-493: Transactional producer factory - set enable.idempotence to tr…
+494,2017-11-28 00:37:25.000000000,2017-11-30 00:01:14.000000000,closed,2,GH-492: JSON Improvements
+493,2017-11-27 05:51:41.000000000,2017-11-28 22:08:55.000000000,closed,3,Transactional producer factory - set enable.idempotence to true by default
+492,2017-11-24 19:57:22.000000000,2017-11-30 00:00:51.000000000,closed,1,StringJsonMessageConverter: Add type and/or type mapping information to Headers
+491,2017-11-23 22:34:53.000000000,2017-11-28 20:18:58.000000000,closed,6,Update KafkaMessageListenerContainer.java
+490,2017-11-22 21:50:55.000000000,2017-12-13 18:36:56.000000000,closed,2,"Allow different type for replyTemplate in AbstractKafkaListenerContainerFactory<K, V>"
+489,2017-11-20 19:12:25.000000000,2017-11-29 02:24:36.000000000,closed,7,If kafak transaction fails unable to rollback DB
+488,2017-11-17 21:49:58.000000000,2017-11-17 23:52:29.000000000,closed,1,GH-487: Support payload conversion for batches
+487,2017-11-17 20:06:51.000000000,2017-11-17 23:47:03.000000000,closed,2,Add support to consume POJOs with batch listener
+486,2017-11-17 20:04:42.000000000,2017-11-17 21:47:15.000000000,closed,1,GH-485: Fix multi listener method @KafkaListener
+485,2017-11-17 15:05:49.000000000,2017-11-17 21:47:14.000000000,closed,2,No method found for class when using @Nonnull annotation
+484,2017-11-17 01:34:32.000000000,2017-11-17 02:10:12.000000000,closed,3,GH-483: Add KafkaAdmin operationTimeout
+483,2017-11-17 01:25:11.000000000,2017-11-17 02:08:26.000000000,closed,0,Add operationTimeout to KafkaAdmin
+482,2017-11-17 00:47:08.000000000,2017-11-17 21:11:56.000000000,closed,3,Spring boot auto-configure transaction id prefix
+481,2017-11-17 00:19:42.000000000,2017-11-17 01:20:36.000000000,closed,0,GH-480: KafkaAdmin - increase partitions
+480,2017-11-16 23:14:43.000000000,2017-11-17 01:20:36.000000000,closed,0,AdminClient now supports increasing partitions
+479,2017-11-15 01:59:26.000000000,2017-12-01 00:13:28.000000000,closed,8,Update Bean factories names according to changes released in kafka 1.0
+478,2017-11-14 21:03:32.000000000,2017-11-14 21:26:58.000000000,closed,4,Backport transaction support to 1.3.x branch
+477,2017-11-10 03:05:29.000000000,2017-11-10 03:28:13.000000000,closed,0,Version 1.3.1 doesn't work with Kafka Client 1.0.0
+476,2017-11-09 23:29:14.000000000,2017-11-10 00:07:20.000000000,closed,1,GH-452: Add SI Java DSL samples to Docs
+475,2017-11-09 00:39:21.000000000,2017-11-29 20:44:29.000000000,closed,4,Kafkalistener consumes messages before spring application starts 
+474,2017-11-03 21:24:22.000000000,2017-11-08 20:14:47.000000000,closed,4,GH-470: Add SeekToCurrentErrorHandler
+473,2017-11-02 22:33:04.000000000,2017-11-03 00:13:15.000000000,closed,1,Fix NPE in events when no assigned topics
+472,2017-11-02 21:42:10.000000000,2017-11-02 22:15:40.000000000,closed,2,GH-471: KafkaEmbedded compatibility with 1.0.0
+471,2017-11-02 20:15:57.000000000,2017-11-09 23:46:02.000000000,closed,5,Backport 'Upgrade to kafka-clients 1.0.0' to 1.3.x branch
+470,2017-11-02 20:10:04.000000000,2017-11-08 20:14:47.000000000,closed,2,Discard remaining records if an error handler throws an exception
+469,2017-11-02 19:14:22.000000000,2017-11-02 19:36:55.000000000,closed,5,Upgrade to kafka-clients 1.0.0
+468,2017-11-02 03:00:54.000000000,2017-11-02 19:36:33.000000000,closed,0,Update master to 2.1 and create 2.0.x; master to use kafka-clients 1.0.0
+467,2017-11-02 02:49:02.000000000,2017-11-02 18:04:30.000000000,closed,1,GH-466: Add NonResponsiveConsumerEvent
+466,2017-11-02 01:39:22.000000000,2017-11-02 18:04:29.000000000,closed,0,Add NonResponsiveConsumerEvent
+465,2017-11-01 17:31:53.000000000,2017-11-03 00:17:14.000000000,closed,10,multiple KStreamBuilderFactoryBean for multiple KStream instances not working
+464,2017-10-24 10:06:04.000000000,2017-10-24 19:13:04.000000000,closed,1,GH-463: Expose EmbeddedZookeeper zookeeper.connect into system proper…
+463,2017-10-24 08:59:03.000000000,2017-10-24 19:12:33.000000000,closed,0,Expose EmbeddedZookeeper zookeeper.connect into system properties
+462,2017-10-20 18:55:38.000000000,2017-10-20 18:59:44.000000000,closed,1,Polish
+461,2017-10-20 18:01:50.000000000,2018-02-22 20:08:53.000000000,closed,5,spring-kafka-test doesn't work on Linux
+460,2017-10-15 19:40:17.000000000,2018-08-10 17:02:52.000000000,closed,24,How to create Consumer listeners dynamically?
+459,2017-10-12 07:23:31.000000000,2018-09-13 23:46:43.000000000,closed,2,"why the BatchErrorHandler extends GenericErrorHandler<ConsumerRecords<?, ?>> ranther than GenericErrorHandler<List<ConsumerRecords<?, ?>>>"
+458,2017-10-11 18:55:13.000000000,2018-09-13 23:47:28.000000000,closed,2,Provide opportunity to control time of EndpointRegistration
+457,2017-10-11 11:40:39.000000000,2018-09-13 23:48:39.000000000,closed,11,Concurrency setting is not reflected in number of container consumer and listener threads
+456,2017-10-10 20:27:05.000000000,2018-02-22 22:54:54.000000000,closed,3,Add Consumer Lag Mechanism to KafkaAdmin
+455,2017-10-10 08:25:53.000000000,2017-10-11 19:55:37.000000000,closed,8,Spring Kafka Transaction - Rollback unsuccessful
+454,2017-10-10 01:50:22.000000000,2017-10-10 17:18:25.000000000,closed,3,Spring Kafka 2.0.0 fails with Kafka Streams in Alpine
+453,2017-10-09 23:27:48.000000000,2017-10-09 23:28:51.000000000,closed,0,Allow templating SpEL in @KafkaListener
+452,2017-10-09 21:36:20.000000000,2017-11-10 00:07:20.000000000,closed,0,Add DSL Examples to SI Chapter
+451,2017-10-09 02:01:10.000000000,2017-11-30 22:25:08.000000000,closed,9,Provide option for stopping consumption on error
+450,2017-10-07 14:35:07.000000000,2017-10-11 16:41:46.000000000,closed,4,application.properties config used even if different file specified
+449,2017-10-05 17:53:07.000000000,2017-10-05 17:55:44.000000000,closed,2,GH-448: Ignore .DS_Store on MacOS platform
+448,2017-10-05 17:50:45.000000000,2017-10-05 17:55:44.000000000,closed,0,Ignore .DS_Store on MacOS platform
+447,2017-10-05 01:09:41.000000000,2017-10-06 23:31:35.000000000,closed,10,GH-446: Resolve property placeholders in the brokerProperties attribute.
+446,2017-10-05 01:07:10.000000000,2017-10-06 23:30:40.000000000,closed,0,Support property placeholder resolution in `EmbeddedKafka` `brokerProperties`
+445,2017-10-05 00:56:32.000000000,2017-10-06 23:41:33.000000000,closed,4,GH-444: Adds a `disabled` attribute to EmbeddedKafka
+444,2017-10-05 00:52:48.000000000,2017-10-06 23:42:02.000000000,closed,1,Support disabling `@EmbeddedKafka` in sub-classes
+443,2017-10-02 11:21:03.000000000,2017-10-02 11:58:54.000000000,closed,4,Boot Initializr (2.0.0.M3) spring-kafka project is missing spring-retry
+442,2017-09-28 21:39:19.000000000,2017-09-28 21:43:11.000000000,closed,3,GH-397: Error Handling Docs
+441,2017-09-28 19:17:24.000000000,2017-09-28 19:25:53.000000000,closed,3,Update java doc
+440,2017-09-28 16:52:33.000000000,2017-09-28 21:07:48.000000000,closed,1,GH-439: Container Lifecycle Fixes
+439,2017-09-28 13:13:18.000000000,2017-09-28 20:58:49.000000000,closed,1,Is it ok to call AbstractMessageListenerContainer#stop() multiple times?
+438,2017-09-28 01:03:40.000000000,2017-09-28 21:11:51.000000000,closed,1,GH-424: Add MimeType JSON Deserializer
+437,2017-09-27 19:44:36.000000000,2017-09-27 19:52:41.000000000,closed,0,Add Manifest Properties including Jigsaw Module
+436,2017-09-27 13:31:25.000000000,2018-09-13 23:49:11.000000000,closed,5,Is there a way to safely use RetryTemplate and ErrorHandler together when AckMode=Record?
+435,2017-09-27 11:34:29.000000000,2017-09-27 15:30:30.000000000,closed,2,re consume message after kafka broker restart
+434,2017-09-23 01:47:22.000000000,2017-09-23 15:20:41.000000000,closed,2,2.0.0RC1 Lambda expression and spring incompatibility 
+433,2017-09-22 17:05:42.000000000,2018-01-12 18:50:14.000000000,closed,30,Invalid transition attempted from state IN_TRANSACTION to state IN_TRANSACTION
+432,2017-09-22 14:03:14.000000000,2017-09-27 16:29:15.000000000,closed,2,Not able to find a way to override ConsumerRebalanceListener method
+431,2017-09-22 00:31:55.000000000,2017-09-26 18:54:33.000000000,closed,4,A way to access the current offset of a consumer
+430,2017-09-21 22:01:09.000000000,2017-09-22 13:34:51.000000000,closed,2,Multiple consumers with various deserializers
+429,2017-09-20 22:41:49.000000000,2018-02-22 20:26:24.000000000,closed,7,Producer does not handle broker leader change
+428,2017-09-20 15:07:48.000000000,2017-09-27 19:52:41.000000000,closed,0,JDK9 Module Names
+427,2017-09-20 13:55:50.000000000,2017-09-20 18:55:32.000000000,closed,3,Set syncCommit to false in async manual commit test
+426,2017-09-20 13:43:47.000000000,2017-09-20 13:46:21.000000000,closed,2,Set sync commit to false in async manual commit test.
+425,2017-09-20 13:34:24.000000000,2017-09-20 18:52:44.000000000,closed,0,Test Failed on 1.2.x: ConcurrentMessageListenerContainerTests.testManualCommitExisting
+424,2017-09-19 19:38:05.000000000,2017-09-28 21:09:13.000000000,closed,0,Header Mapper and MimeType
+423,2017-09-19 07:42:26.000000000,2017-09-19 14:04:11.000000000,closed,1,Polish
+422,2017-09-18 17:22:22.000000000,2018-02-22 19:58:24.000000000,closed,11,"Spring Kafka, log4j 1.2.16 -> build problem."
+421,2017-09-16 00:36:08.000000000,2017-09-28 20:32:17.000000000,closed,1,GH-416: Add KafkaHeaders.RECORD_METADATA constant
+420,2017-09-16 00:06:29.000000000,2017-09-16 00:23:10.000000000,closed,1,GH-418: KafkaAdmin Improvements
+419,2017-09-15 19:59:35.000000000,2017-09-15 20:08:49.000000000,closed,1,Topics created automatically?
+418,2017-09-15 19:36:35.000000000,2017-09-16 00:21:20.000000000,closed,1,KafkaAdmin - Don't Open Connection if No NewTopic Beans in Application Context
+417,2017-09-13 18:45:48.000000000,2017-09-14 18:17:09.000000000,closed,14,Question: how can i stop consumers from consuming?
+416,2017-09-11 20:36:19.000000000,2017-09-28 20:32:08.000000000,closed,0,Add KafkaHeaders.RECORD_METADATA
+415,2017-09-08 01:27:00.000000000,2017-09-08 01:29:30.000000000,closed,0,Fix What's New [1.3.x]
+414,2017-09-08 01:26:36.000000000,2017-09-08 01:29:04.000000000,closed,0,What's New Fixes
+413,2017-09-07 22:37:27.000000000,2017-09-08 00:59:16.000000000,closed,0,GH-400: Improve Producer Config sample in the Doc
+412,2017-09-07 22:35:25.000000000,2017-09-07 22:47:58.000000000,closed,2,GH-411: Use AdminClient to Provision Test Topics
+411,2017-09-07 20:53:12.000000000,2017-09-07 22:47:58.000000000,closed,0,Change KafkaEmbedded to Use AdminClient for Topic Creation
+410,2017-09-07 20:37:33.000000000,2017-09-07 20:53:11.000000000,closed,3,Allow An Explicit Port for EmbeddedKafka
+409,2017-09-05 19:31:59.000000000,2017-09-05 21:00:35.000000000,closed,4,GH-405: Fix AckMode.RECORD
+408,2017-09-05 18:52:09.000000000,2018-02-22 20:05:19.000000000,closed,2,Not working spring configuration
+407,2017-09-05 17:41:00.000000000,2017-09-06 20:34:05.000000000,closed,3,InferredType determination not working if using @KafkaHandler annotation and StringJsonMessageConverter
+406,2017-09-04 19:13:25.000000000,2017-09-05 18:08:32.000000000,closed,3,Spring Boot 2.0.0.M3 project using spring-kafka requires spring-tx
+405,2017-08-30 20:41:06.000000000,2017-09-05 20:59:56.000000000,closed,0,Ack After Each Record with RECORD AckMode
+404,2017-08-28 00:52:54.000000000,2017-09-01 20:49:25.000000000,closed,1,ConsumerSeekAware broken with upgrade from 1.1.5 to 1.1.6 #403
+403,2017-08-27 22:43:43.000000000,2017-09-01 20:51:10.000000000,closed,6,ConsumerSeekAware broken with upgrade from 1.1.5 to 1.1.6 
+402,2017-08-25 17:11:43.000000000,2017-09-07 21:29:38.000000000,closed,4,Add API to access consumer metrics.
+401,2017-08-25 15:06:27.000000000,2017-09-07 21:23:58.000000000,closed,5,Add api to accesss consumer metrics
+400,2017-08-23 11:41:22.000000000,2017-09-08 00:59:16.000000000,closed,1,Reference Manual 
+399,2017-08-22 18:37:15.000000000,2017-08-23 01:11:31.000000000,closed,3,High CPU-load when broker is down
+398,2017-08-21 17:24:45.000000000,2017-08-21 19:02:37.000000000,closed,5,Multiple Listeners throws javax.management.InstanceAlreadyExistsException
+397,2017-08-19 01:47:32.000000000,2017-09-28 21:43:11.000000000,closed,0,Add SIK Documentation For Error Handling
+396,2017-08-14 20:26:51.000000000,2017-08-16 00:29:11.000000000,closed,2,GH-395: Document Async Template Usage
+395,2017-08-14 20:20:49.000000000,2017-08-16 00:29:11.000000000,closed,0,Add Documentation for Async Template Usage
+394,2017-08-12 01:07:45.000000000,2017-08-14 20:19:08.000000000,closed,2,GH-352: Add General send() with ProducerRecord
+393,2017-08-11 01:58:07.000000000,2017-08-14 20:28:08.000000000,closed,0,GH-388: Add KafkaAdmin (Declarative Topic Create) [1.3.x Backport]
+392,2017-08-10 21:28:35.000000000,2017-08-11 00:37:26.000000000,closed,1,GH-390: GH-391: Header Mapper Fixes
+391,2017-08-10 20:02:08.000000000,2017-08-10 23:47:10.000000000,closed,0,BatchMessagingMessageConverter Doesn't Map Kafka Headers
+390,2017-08-10 19:34:57.000000000,2017-08-10 23:47:09.000000000,closed,0,MessagingMessageConverter has a hard dependency on Jackson Via the Header Mapper
+389,2017-08-09 21:55:19.000000000,2017-08-10 19:25:10.000000000,closed,1,GH-388: Add KafkaAdmin (Declarative Topic Create)
+388,2017-08-09 20:10:13.000000000,2017-08-18 21:15:49.000000000,closed,2,Add KafkaAdmin
+387,2017-08-09 18:59:00.000000000,2017-08-09 22:52:34.000000000,closed,4,GH-373: Transaction Synchronization
+386,2017-08-08 23:59:34.000000000,2017-09-08 16:47:02.000000000,closed,19,Spring Kakfa Thread pool in listerner
+385,2017-08-08 21:40:18.000000000,2017-08-08 22:11:45.000000000,closed,0,GH-342: Allow KLErrorHandler to Return a Result
+384,2017-08-08 19:50:31.000000000,2017-08-08 21:20:17.000000000,closed,4,Spring Boot 2.0.0.M3 project using Kafka requires spring-retry
+383,2017-08-08 19:37:14.000000000,2017-08-08 20:13:06.000000000,closed,4,GH-378: @KafkaListener: Fix Group Id When No id
+382,2017-08-07 20:23:40.000000000,2017-08-08 20:44:19.000000000,closed,1,Create 1.3 Branch
+381,2017-08-01 01:12:52.000000000,2017-08-02 00:46:46.000000000,closed,2,GH-380: Add timeout parameter to record-getting test utils
+380,2017-08-01 01:06:36.000000000,2017-08-02 00:46:46.000000000,closed,1,Adding a timeout parameter to record-getting test utils
+379,2017-07-31 03:14:08.000000000,2017-08-01 00:08:02.000000000,closed,10,Controlling Offset
+378,2017-07-28 19:12:42.000000000,2017-08-08 20:13:06.000000000,closed,0,Reconsider consumer group generation
+377,2017-07-25 14:42:58.000000000,2017-07-27 16:15:42.000000000,closed,4,Problem with Retrying deliveries when the application is DiscoveryClient
+376,2017-07-23 22:58:27.000000000,2017-07-25 00:00:52.000000000,closed,4,Minimum spring framework version
+375,2017-07-19 01:37:06.000000000,2017-07-19 02:44:02.000000000,closed,3,GH-362: Transactional Container Polishing
+374,2017-07-19 00:58:23.000000000,2017-07-19 01:10:13.000000000,closed,0,GH-362: Fix Race Condition in TxContainerTests
+373,2017-07-17 23:42:50.000000000,2017-08-09 22:52:04.000000000,closed,0,Support External TX Manager and Transaction Synchronization
+372,2017-07-17 14:03:44.000000000,2017-07-20 22:28:07.000000000,closed,1,documentation glitch on KafkaTemplate
+371,2017-07-17 12:02:26.000000000,2017-07-17 18:05:10.000000000,closed,2,point docs to current version instead of 1.0.0-SNAPSHOT
+370,2017-07-15 05:43:43.000000000,2018-02-22 20:03:37.000000000,closed,5,Controlling listener at runtime
+369,2017-07-14 17:18:50.000000000,2017-07-22 00:02:09.000000000,closed,6,Add a hook to allow the user to pass in additional properties to be applied when creating the embedded broker instance(s)
+368,2017-07-14 04:58:57.000000000,2018-09-13 23:47:48.000000000,closed,2,Slow batch acknowledging listeners
+367,2017-07-13 22:04:49.000000000,2017-07-19 21:13:35.000000000,closed,0,GH-365: Document KafkaStreams access & close time
+366,2017-07-13 14:49:21.000000000,2017-07-13 17:20:03.000000000,closed,1,ClassNotFoundException: org.springframework.kafka.security.jaas.KafkaJaasLoginModuleInitializer
+365,2017-07-13 12:04:11.000000000,2017-07-19 21:13:35.000000000,closed,2,Document how to implement Kafka Streams Interactive Queries
+364,2017-07-12 17:26:38.000000000,2017-07-21 20:39:49.000000000,closed,4,ClassCastException when using setGenericErrorHandler
+363,2017-07-07 00:58:12.000000000,2017-07-18 20:57:15.000000000,closed,2,GH-362: Add 0.11 Transaction Support
+362,2017-07-06 20:14:51.000000000,2017-07-18 20:56:15.000000000,closed,8,Add Support For Transactions
+361,2017-07-05 23:02:00.000000000,2017-07-06 00:18:29.000000000,closed,7,Enabling @KafkaListener to take in variable topic names from application.yml file
+360,2017-07-05 17:32:43.000000000,2017-07-06 18:09:25.000000000,closed,3,GH-359: Fatal NoOffsetForPartitionException
+359,2017-07-05 15:15:12.000000000,2017-07-05 20:08:48.000000000,closed,2,Spring kafka does not support LinkedIn large message consumers
+358,2017-06-29 11:17:36.000000000,2017-08-08 20:48:08.000000000,closed,5,Adding support for direct control over Consumer pause/resume
+357,2017-06-28 18:11:33.000000000,2017-07-31 17:41:47.000000000,closed,5,"Issues : stack_trace"":""javax.management.InstanceAlreadyExistsException:   kafka.consumer:type=app-info "
+356,2017-06-28 00:21:34.000000000,2017-06-28 00:40:29.000000000,closed,0,GH-355: Detect Misconfigured Manual @KafkaListener
+355,2017-06-27 23:51:06.000000000,2017-06-28 00:40:29.000000000,closed,0,Detect Mismatched Manual Ack Configuration with KafaListener
+354,2017-06-24 18:38:23.000000000,2017-07-19 23:21:54.000000000,closed,4,GH-352: Add HeaderMapper for 0.11.0.0 Headers
+353,2017-06-22 21:12:59.000000000,2017-06-22 22:20:32.000000000,closed,6,Multiple group in one spring app
+352,2017-06-22 19:10:26.000000000,2017-08-14 20:26:50.000000000,closed,2,Add Support for Message Headers (KIP-82)
+351,2017-06-21 13:03:15.000000000,2017-06-26 07:05:48.000000000,closed,6,Why 'messageConverter' only worked in method of `send(Message<?> message) `?
+350,2017-06-16 14:13:53.000000000,2017-06-19 12:16:09.000000000,closed,3,Consumer get stuck ocassionally on rebalancing
+349,2017-06-13 14:26:18.000000000,2017-06-13 17:13:30.000000000,closed,1,Fixed the typo
+348,2017-06-07 23:38:46.000000000,2017-06-08 17:33:16.000000000,closed,5,spring-kafka depends on unrelease springframework core libs
+347,2017-06-07 02:45:44.000000000,2017-06-07 04:53:39.000000000,closed,1,spring.io API documentation links aren't updated correctly
+346,2017-06-07 00:14:06.000000000,2017-06-07 00:36:20.000000000,closed,1,Example should include use of @Rule to ensure clean shutdown GH-345
+345,2017-06-07 00:09:27.000000000,2017-06-07 05:47:22.000000000,closed,6,KafkaEmbedded without @Rule/after() can cause build failures with System.exit
+344,2017-06-06 18:26:31.000000000,2017-06-09 00:41:11.000000000,closed,5,fix getHighestOffsetRecords for ack
+343,2017-06-06 12:25:27.000000000,2017-06-06 17:16:11.000000000,closed,2,How to handle kerberos authenticated machines where data has to be sent
+342,2017-06-06 03:41:56.000000000,2017-08-08 22:11:45.000000000,closed,0,Listener Error Handler When No @SendTo
+341,2017-06-05 22:02:13.000000000,2017-06-05 23:28:36.000000000,closed,1,GH-335: Fix Class Cast with Batch Filter [1.x.x]
+340,2017-06-05 20:16:28.000000000,2017-06-05 20:41:18.000000000,closed,1,GH-338: Add Timeout To Producer Close
+339,2017-06-05 17:36:41.000000000,2017-06-05 21:44:16.000000000,closed,0,GH-335: Fix Class Cast with Batch Filter
+338,2017-06-05 16:36:06.000000000,2017-06-05 20:41:17.000000000,closed,1,DefaultKafkaProducerFactory: add timeout to KafkaProducer.close()
+337,2017-06-05 16:27:35.000000000,2017-06-05 17:45:24.000000000,closed,0,Fix typo
+336,2017-06-05 14:29:01.000000000,2017-06-05 17:53:49.000000000,closed,2,"please help me ,spring kafka @KafkaListener support placeholder as follow?"
+335,2017-06-05 11:23:37.000000000,2017-06-05 21:44:16.000000000,closed,1,Filtering Messages don't support batch listener when using @KafkaListener
+334,2017-06-04 04:49:44.000000000,2017-06-05 00:39:53.000000000,closed,7,@KafkaListener conditional support
+333,2017-06-03 19:47:30.000000000,2017-06-05 17:37:27.000000000,closed,2,use value-deserializer: org.springframework.kafka.support.serializer.JsonDeserializer occurs error
+332,2017-06-03 07:33:02.000000000,2017-06-03 08:02:32.000000000,closed,0,"Typo : javadoc fix, receied changed to received"
+331,2017-06-03 07:22:10.000000000,2017-06-03 08:01:38.000000000,closed,3,Typo : Remove duplicate KafkaHeaders
+330,2017-06-03 02:32:11.000000000,2017-06-06 02:05:51.000000000,closed,6,Batch listener error handler cannot hold comsumer records
+329,2017-06-02 01:45:54.000000000,2017-06-06 02:06:33.000000000,closed,2,GH-328: Add Consumer-Aware Error Handlers
+328,2017-06-01 22:29:54.000000000,2017-06-06 02:05:50.000000000,closed,0,Add ConsumerAwareKafkaListenerErrorHandler
+327,2017-06-01 22:28:21.000000000,2017-06-01 23:05:35.000000000,closed,2,GH-325: Consumer with Batch and @KafkaListener
+326,2017-06-01 21:56:53.000000000,2017-06-01 22:00:26.000000000,closed,0,Fix Broken null-check for client.id
+325,2017-06-01 21:35:26.000000000,2017-06-01 23:05:35.000000000,closed,0,ConsumerAware @KafkaListener with Batch Listener
+324,2017-06-01 20:09:39.000000000,2017-06-01 21:12:11.000000000,closed,1,GH-323: Fix ConsumerSeekAware and BatchListener
+323,2017-06-01 19:21:26.000000000,2017-06-01 21:12:11.000000000,closed,9,Why not to support registerSeekCallback and onPartitionsAssigned to batchListener?
+322,2017-05-31 21:38:56.000000000,2017-12-01 02:07:07.000000000,closed,1,Reactive PoC Initial Commit [DO NOT MERGE]
+321,2017-05-29 22:24:34.000000000,2017-05-30 21:45:45.000000000,closed,1,GH-319: Add Acknowledgment to Retry Context [1.x]
+320,2017-05-29 21:50:42.000000000,2017-05-30 21:44:38.000000000,closed,0,GH-319: Add Ack and Consumer to Retry Context
+319,2017-05-29 18:22:08.000000000,2017-05-30 21:44:38.000000000,closed,4,How to acknowledge from RecoveryCallback
+318,2017-05-18 16:30:31.000000000,2017-07-05 11:50:22.000000000,closed,5,support storing offsets outside kafka
+317,2017-05-16 14:01:03.000000000,2017-07-19 21:13:35.000000000,closed,0,[KStreamBuilderFactoryBean] add timeout to kafkaStreams.close() call
+316,2017-05-15 18:02:49.000000000,2017-05-15 18:26:19.000000000,closed,2,[Question] KafkaMessageListenerContainer: Deserialization exception results in ListenerConsumer stuck in loop
+315,2017-05-15 16:42:28.000000000,2017-05-15 20:22:28.000000000,closed,0,GH-313: Prepare: Rename @KafkaListener.group
+314,2017-05-15 01:53:33.000000000,2017-05-15 20:12:07.000000000,closed,1,GH-313: Configure group.id on @KafkaListener
+313,2017-05-14 21:51:02.000000000,2017-05-15 20:11:36.000000000,closed,0,Provide a Mechanism to set the group.id on @KafkaListener
+312,2017-05-10 20:20:28.000000000,2017-05-10 20:53:21.000000000,closed,0,GH-201: Polishing - enum for ControlFlag Values
+311,2017-05-10 15:57:00.000000000,2017-05-10 17:47:50.000000000,closed,1,GH-308: KStreamBuilderFB Polishing
+310,2017-05-09 21:19:29.000000000,2017-05-10 18:34:57.000000000,closed,6,GH-201: Add Support for Kerberos Configuration
+309,2017-05-09 20:06:38.000000000,2017-05-09 22:07:46.000000000,closed,1,GH-308: KafkaStreams options on KStreamBuilderFB
+308,2017-05-09 20:00:02.000000000,2017-05-09 22:07:46.000000000,closed,0,Expose some KafkaStreams setters delegation in the KStreamBuilderFactoryBean
+307,2017-05-09 19:48:41.000000000,2017-05-09 20:37:55.000000000,closed,1,GH-304: Add ConsumerAwareRebalanceListener
+306,2017-05-09 14:53:28.000000000,2017-05-09 20:08:11.000000000,closed,3,2.0.0.M1 depends on Spring Framework 5.0.0.BUILD-SNAPSHOT
+305,2017-05-02 18:15:32.000000000,2017-05-02 23:04:52.000000000,closed,14,Added getter for KafkaStreams in order to get QueryableState
+304,2017-04-29 16:10:56.000000000,2017-05-09 20:37:24.000000000,closed,1,Access consumer from ConsumerRebalanceListener in Spring Kafka
+303,2017-04-27 20:00:52.000000000,2017-04-27 20:01:53.000000000,closed,0,Add KafkaHeaders.RAW_DATA
+302,2017-04-27 06:44:25.000000000,2017-04-27 19:11:53.000000000,closed,5,Add JsonSerde
+301,2017-04-27 06:14:25.000000000,2017-04-27 19:05:47.000000000,closed,0,Add `Serde` support for serialization and deserialization
+300,2017-04-27 02:39:51.000000000,2017-04-27 03:21:15.000000000,closed,1,"GH-280: Polishing: Consumer Message Header, Docs"
+299,2017-04-26 09:46:48.000000000,2017-04-26 17:55:33.000000000,closed,1,Move setting listenerType outside while loop
+298,2017-04-26 02:16:02.000000000,2017-04-26 04:32:20.000000000,closed,3,Change to RecoveryCallback<? extends Object>
+297,2017-04-25 20:58:25.000000000,2017-04-26 05:26:10.000000000,closed,10,GH-295: Unique client.id for Concurrent Container
+296,2017-04-25 19:31:32.000000000,2017-04-25 21:12:06.000000000,closed,0,GH-280: Polishing - Restore ackDiscarded
+295,2017-04-25 15:58:44.000000000,2017-04-26 05:26:41.000000000,closed,1,Concurrent Container and client.id
+294,2017-04-21 22:20:51.000000000,2017-04-26 19:04:02.000000000,closed,4,GH-194: Make `KafkaEmbedded` as a bean
+293,2017-04-19 10:10:11.000000000,2017-04-20 22:07:02.000000000,closed,5,Ack on error with manual ack
+292,2017-04-19 10:09:55.000000000,2017-04-20 21:50:46.000000000,closed,0,AckOnError invokes commits with manual acknowledge mode.
+291,2017-04-18 19:39:54.000000000,2017-04-18 19:49:09.000000000,closed,1,Change RecoveryCallback from <Void> to <Object>
+290,2017-04-18 19:12:10.000000000,2017-04-18 19:20:31.000000000,closed,2,How to get a topic name from a message?
+289,2017-04-14 21:23:57.000000000,2017-04-18 23:44:54.000000000,closed,2,GH-288: Fix autoCommit Default Return Value
+288,2017-04-14 20:54:34.000000000,2017-04-18 23:44:54.000000000,closed,2,Consumer Factory Has the Wrong Default for isAutoCommit
+287,2017-04-14 01:52:27.000000000,2017-04-20 01:54:52.000000000,closed,1,GH-286: Support @SendTo on @KafkaListener
+286,2017-04-13 18:54:24.000000000,2017-04-20 01:54:19.000000000,closed,0,Support @SendTo (with no value) on @KafkaListener
+285,2017-04-13 06:50:54.000000000,2017-04-13 19:31:28.000000000,closed,0,Polish Javadoc
+284,2017-04-12 11:20:00.000000000,2017-04-13 19:44:51.000000000,closed,3,Adds errorHandler property to KafkaListener
+283,2017-04-12 04:33:50.000000000,2017-05-09 18:23:27.000000000,closed,2,Offset commit by spring-kafka causes custom `onPartitionRevoked` not to be called in manual ack mode
+282,2017-04-10 21:09:06.000000000,2017-04-20 00:11:47.000000000,closed,1,GH-280: Add Consumer-Aware Listeners
+281,2017-04-08 01:23:43.000000000,2017-04-10 21:07:14.000000000,closed,1,Explanation for MessageListener/MessageListenerContainer
+280,2017-04-07 23:59:05.000000000,2017-04-20 00:11:21.000000000,closed,2,Add ConsumerAwareMessageListener
+279,2017-04-07 23:41:06.000000000,2017-04-08 01:05:17.000000000,closed,3,GH-276: Rip out ListenerInvoker
+278,2017-04-07 23:12:34.000000000,2018-04-10 21:02:14.000000000,closed,3,Update to Log4j2
+277,2017-04-07 22:16:34.000000000,2017-04-07 22:30:00.000000000,closed,1,Fix Executor Documentation
+276,2017-04-07 21:56:21.000000000,2017-04-08 01:03:56.000000000,closed,0,Remove Listener Task Executor
+275,2017-04-06 23:13:15.000000000,2017-04-07 01:12:48.000000000,closed,1,Fix Stubbing in Tests
+274,2017-04-06 20:18:09.000000000,2017-04-06 20:23:15.000000000,closed,0,GH-262: Use compute... for Acks Reduction
+273,2017-04-05 16:33:46.000000000,2017-04-13 18:57:02.000000000,closed,2,Auto commit doesn't work with kafka 0.9-0.10.0.1 when handlers spend too much time
+272,2017-04-05 14:02:05.000000000,2017-04-05 17:15:08.000000000,closed,2,could I control messages size for consumer?
+271,2017-04-05 00:45:25.000000000,2017-04-05 22:06:09.000000000,closed,1,GH-224: Add Seek to Beginning/End
+270,2017-04-04 23:38:34.000000000,2017-04-05 04:50:27.000000000,closed,1,GH-255: Add Boot App to Quick Start
+269,2017-04-04 19:48:37.000000000,2017-04-05 04:58:09.000000000,closed,1,GH-268: Defer Manual Commits Until After Listener
+268,2017-04-04 18:49:55.000000000,2017-04-05 04:58:09.000000000,closed,0,Manual Acks in RebalanceListener Are Not Committed
+267,2017-04-01 20:22:01.000000000,2017-04-06 19:46:21.000000000,closed,4,GH-262: In a batch only commit highest offset for each partition  Fix…
+266,2017-04-01 19:52:23.000000000,2017-04-05 04:54:48.000000000,closed,2,GH-265: Improved Default Thread Naming
+265,2017-04-01 17:28:47.000000000,2017-04-05 04:54:30.000000000,closed,0,Shorten Default Thread Names
+264,2017-04-01 00:02:00.000000000,2017-04-04 01:14:58.000000000,closed,1,GH-244: Update to Kafka 0.10.2.0
+263,2017-03-31 06:06:28.000000000,2017-03-31 19:19:00.000000000,closed,9,GH-262: In a batch only commit highest offset for each partition  Fix…
+262,2017-03-31 00:43:37.000000000,2017-03-31 19:20:19.000000000,closed,4,BatchListener commits for every record in the batch instead of last one.
+261,2017-03-30 17:17:16.000000000,2017-03-30 19:07:00.000000000,closed,13,@KafkaListener listener skipped when multiple declared
+260,2017-03-30 10:19:31.000000000,2017-03-31 06:13:10.000000000,closed,2,JsonDeserializer unable to deserialize Java8 objects
+259,2017-03-30 00:48:44.000000000,2017-03-30 01:11:54.000000000,closed,1,AckOnError Javadoc Polishing
+258,2017-03-29 16:30:56.000000000,2017-07-07 00:59:32.000000000,closed,5,Support for Producer Transactions
+257,2017-03-27 19:57:28.000000000,2017-03-27 20:29:07.000000000,closed,2,Consume messages and start processor threads
+256,2017-03-25 00:26:02.000000000,2017-04-13 19:44:22.000000000,closed,0,Add errorHandler to @KafkaListener
+255,2017-03-17 01:22:31.000000000,2017-04-05 04:49:57.000000000,closed,0,Add a Boot Sample to the Quick Start
+254,2017-03-16 23:16:01.000000000,2018-09-13 23:49:53.000000000,closed,7,Multiple consumer records being printed
+253,2017-03-13 11:11:16.000000000,2017-05-09 18:27:37.000000000,closed,4,Kafka Test with TestNG
+252,2017-03-12 17:08:34.000000000,2017-04-05 13:58:52.000000000,closed,2,DEBUG org.apache.kafka.common.network.Selector - Connection with /10.4.100.206 disconnected
+251,2017-03-08 01:01:27.000000000,2017-04-01 07:59:04.000000000,closed,3,Question about ConcurrentMessageListenerContainer
+250,2017-03-07 21:19:18.000000000,2017-04-10 21:08:14.000000000,closed,9,Add section to spring-docs detailing how to configure a MessageListenerContainer with a MessageListener
+249,2017-03-07 21:16:11.000000000,2017-04-05 04:49:58.000000000,closed,3,Please add links to spring-docs resources
+248,2017-03-07 06:39:54.000000000,2017-03-08 19:29:16.000000000,closed,13,SetPollTimeOut and HeartBeat 
+247,2017-03-03 20:04:37.000000000,2017-03-27 13:50:47.000000000,closed,8,@KafkaListener doesn't use concurrent consumers
+246,2017-03-03 07:28:26.000000000,2017-04-05 19:07:40.000000000,closed,2,Seeking to a specific offset using ConcurrentMessageListenerContainer with ConsumerSeekAware 
+245,2017-03-02 12:27:47.000000000,2017-08-08 20:48:50.000000000,closed,1,spring-kafka 1.0.5 create listener thread when rebalance every time
+244,2017-02-23 23:09:40.000000000,2017-04-04 01:14:39.000000000,closed,0,Upgrade to Apache Kafka 0.10.2
+243,2017-02-23 16:13:33.000000000,2017-02-23 18:51:43.000000000,closed,1,Kafka version support confusion
+242,2017-02-22 22:16:08.000000000,2017-02-24 19:16:44.000000000,closed,6,How to manually set the offset value in Spring Kafka Listener ?
+241,2017-02-21 22:31:53.000000000,2017-02-22 23:06:05.000000000,closed,8,Support for timestamps in Kafka Template
+240,2017-02-14 08:43:08.000000000,2017-09-29 17:45:06.000000000,closed,7,"@KafkaListener doesn't supports injection for List<ConsumerRecord<K, V>>"
+239,2017-02-09 14:24:13.000000000,2017-05-09 19:37:44.000000000,closed,4,@SendToKafka to send out messages to kafka topics.
+238,2017-02-09 07:08:10.000000000,2017-03-15 01:39:54.000000000,closed,14,Add KStreams support
+237,2017-02-08 18:16:09.000000000,2017-05-09 19:58:04.000000000,closed,1,Kafka Consumer issue in 1.1.1.RELEASE
+236,2017-02-07 11:28:21.000000000,2017-02-07 12:21:47.000000000,closed,7,java.lang.IllegalStateException: Another endpoint is already registered with id
+235,2017-02-04 00:11:09.000000000,2017-02-04 01:15:59.000000000,closed,1,GH-230: Commit batch acks properly
+234,2017-02-04 00:05:45.000000000,2017-02-04 00:13:17.000000000,closed,4,GH-209: Avoid allocations from Method.getParameterTypes() in MessagingMessageListenerAdapter
+233,2017-02-03 23:41:00.000000000,2017-02-04 00:56:54.000000000,closed,2,GH-232: Do not cache produce in the KafkaTemplate
+232,2017-02-03 06:20:07.000000000,2017-02-04 00:46:07.000000000,closed,0,KafkaTemplate: Don't Cache the Producer
+231,2017-02-03 04:50:03.000000000,2017-04-05 19:08:02.000000000,closed,2,How to handle multi region replicated cluster?
+230,2017-02-03 04:33:27.000000000,2017-02-04 01:15:59.000000000,closed,0,Cannot make Batch receiver to automatically commit offsets.
+229,2017-02-01 18:24:45.000000000,2017-02-01 19:29:07.000000000,closed,0,Move to Spring IO Cairo
+228,2017-01-28 10:24:28.000000000,2017-02-02 04:41:09.000000000,closed,3,Kafka producer code is unable to reconnect after broker restart
+227,2017-01-22 19:17:16.000000000,2017-02-22 23:06:35.000000000,closed,2,add a KafkaTemplate send() method with argument for timestamp
+226,2017-01-21 03:49:20.000000000,2017-09-29 18:03:01.000000000,closed,1,Cache Class Metadata in KafkaListenerAnnotationBeanPostProcessor
+225,2017-01-19 15:17:49.000000000,2017-01-19 18:43:14.000000000,closed,1,"""current"" on docs.spring.io doesn't link to most recent version"
+224,2017-01-17 12:02:36.000000000,2017-04-05 22:04:29.000000000,closed,6,How can I seek the consumer to the end
+223,2017-01-16 21:29:12.000000000,2017-03-15 01:26:27.000000000,closed,6,support for Kafka Streams DSL
+222,2017-01-06 22:15:07.000000000,2017-01-06 23:04:46.000000000,closed,0,GH-221: Fix KafkaListenerBPP.resolveAsString()
+221,2017-01-06 21:19:30.000000000,2017-01-06 23:04:46.000000000,closed,15,KafkaListener SpEL support for array of topics
+220,2017-01-05 20:04:40.000000000,2017-01-05 22:58:56.000000000,closed,4,Bootstrap broker disconnected errors with 1.1.2-RELEASE
+219,2017-01-04 20:54:00.000000000,2017-01-04 21:44:30.000000000,closed,0,Compatibility with Boot 1.5
+218,2016-12-14 20:11:23.000000000,2016-12-19 19:57:55.000000000,closed,1,GH-217: Fix obsolete docs and race condition
+217,2016-12-14 19:14:19.000000000,2016-12-19 19:57:55.000000000,closed,0,Incorrect Configuration in the SI Section
+216,2016-12-13 20:54:42.000000000,2016-12-13 21:23:30.000000000,closed,0,GH-215: Fix `quick-tour.adoc` sample obsolete code
+215,2016-12-13 19:35:50.000000000,2016-12-13 21:23:30.000000000,closed,2,"Implementation of waitListening(""foo"") ?"
+214,2016-12-11 03:21:03.000000000,2016-12-12 19:53:19.000000000,closed,0,"GH-213: Fix sample inconsistency in ""quick tour"""
+213,2016-12-10 20:15:10.000000000,2016-12-12 19:53:19.000000000,closed,2,"Very, Very Quick demo has a bug"
+212,2016-12-07 01:37:48.000000000,2016-12-07 08:44:47.000000000,closed,2,Spring kafka for 0.10
+211,2016-12-05 17:34:01.000000000,2016-12-08 13:40:08.000000000,closed,6,Warning in application logs with Spring Kafka when Kafka topic is not configured properly
+210,2016-12-03 22:38:18.000000000,2017-04-05 19:08:45.000000000,closed,18,Kafka creates a lot of major GC
+209,2016-12-02 01:50:11.000000000,2017-02-04 00:13:17.000000000,closed,0,Avoid allocations from Method.getParameterTypes() in MessagingMessageListenerAdapter
+208,2016-11-29 10:36:44.000000000,2017-04-05 19:09:18.000000000,closed,2,message not consumer if exception happen inside deserializer 
+207,2016-11-27 02:12:50.000000000,2016-11-28 22:59:23.000000000,closed,4,Spring Kafka is not working with Spring 3.0.5.RELEASE
+206,2016-11-18 23:45:38.000000000,2016-11-19 00:05:19.000000000,closed,0,Upgrade to Kafka-0.10.1.0 and others
+205,2016-11-18 05:46:10.000000000,2016-11-18 22:24:30.000000000,closed,4,Missing item in documentation
+204,2016-11-18 05:18:29.000000000,2016-11-18 09:14:21.000000000,closed,10,Possible performance issues with Spring Kafka 
+203,2016-11-10 21:10:03.000000000,2017-09-19 22:40:14.000000000,closed,18,No error for failure to connect to broker
+202,2016-11-09 19:19:36.000000000,2016-11-10 00:48:25.000000000,closed,23,Concurrency on partitions 
+201,2016-11-04 23:42:40.000000000,2017-05-10 18:34:34.000000000,closed,1,Move support for Kerberos from Spring Cloud Stream Kafka Binder to Spring Kafka
+200,2016-11-03 05:40:15.000000000,2016-11-04 22:50:24.000000000,closed,13,GH-199: Do not wakeup consumer after queueing ack
+199,2016-11-01 06:02:26.000000000,2016-11-04 22:42:04.000000000,closed,9,Rebalance triggered under load
+198,2016-10-20 19:48:35.000000000,2016-10-20 22:19:38.000000000,closed,5,ConcurrentMessageListenerContainerTests testAckOnErrorRecord fails intermittently
+197,2016-10-20 01:00:23.000000000,2016-10-20 01:09:33.000000000,closed,1,GH-196: Revert to assertJ 2.5.0 - IO Compatibility
+196,2016-10-20 00:17:42.000000000,2016-10-20 01:09:10.000000000,closed,7,Platform Brussels build fails with NoSuchMethodErrors due to use of AssertJ 3.4
+195,2016-10-18 11:33:24.000000000,2016-10-18 19:01:12.000000000,closed,11,"if my consumer block, it will always consume。"
+194,2016-10-13 13:02:48.000000000,2020-05-01 20:45:03.000000000,closed,68,replication-offset-checkpoint.tmp (No such file or directory)
+193,2016-10-12 23:57:26.000000000,2016-10-13 00:20:54.000000000,closed,0,GH-192: KafkaEmbedded Lifecycle Methods to Public
+192,2016-10-12 23:46:22.000000000,2016-10-13 00:20:54.000000000,closed,4,KafkaEmbedded before/ after are protected
+191,2016-10-07 22:47:31.000000000,2016-10-10 20:41:14.000000000,closed,1,GH-189: Document `@EnableKafka`
+190,2016-10-07 04:18:47.000000000,2019-08-01 00:06:48.000000000,closed,9,Autoconfiguration for Kafka Infrastructure classes and profile support for CF
+189,2016-10-06 23:34:45.000000000,2016-10-10 20:40:55.000000000,closed,1,There is no any description about @EnableKafka
+188,2016-10-03 18:14:39.000000000,2016-10-05 22:35:13.000000000,closed,0,SI PayloadType Docs
+187,2016-09-21 21:52:01.000000000,2016-09-22 00:54:46.000000000,closed,1,GH-185: Dont Populate Ack for Non-Manual Ack Modes - 1.0.x BackPort
+186,2016-09-21 21:26:43.000000000,2016-09-22 00:44:00.000000000,closed,1,GH-185: Dont Populate Ack for Non-Manual Ack Modes
+185,2016-09-21 20:31:41.000000000,2016-09-22 00:43:20.000000000,closed,0,Suppress Acknowledgment for Non-Manual Modes
+184,2016-09-19 18:30:56.000000000,2017-04-05 19:09:55.000000000,closed,9,Partitions  are not created on @KafkaListener Annotation
+183,2016-09-09 19:22:29.000000000,2016-09-09 21:25:05.000000000,closed,1,Update doc
+182,2016-09-08 01:56:17.000000000,2016-09-08 02:11:29.000000000,closed,0,SIKGH-141: Docs for s-i-k Batch Support
+181,2016-09-07 17:40:14.000000000,2016-09-07 19:04:46.000000000,closed,1,GH-180: KafkaTemplate Improvements
+180,2016-09-07 16:54:56.000000000,2016-09-07 19:04:22.000000000,closed,0,Add KafkaTemplate execute with ProducerCallback
+179,2016-08-31 18:23:55.000000000,2016-09-15 21:54:14.000000000,closed,2,@EnableKafka in Spring throws an exception
+178,2016-08-31 01:17:10.000000000,2016-09-06 20:29:45.000000000,closed,0,Fix race condition in test on offset commits
+177,2016-08-26 20:31:31.000000000,2016-08-30 01:24:19.000000000,closed,2,GH-174: Support Batch with @KafkaListener
+176,2016-08-25 23:35:25.000000000,2016-08-26 01:14:35.000000000,closed,1,GH-175: Fix Acknowledgment with @KafkaListener
+175,2016-08-25 23:20:36.000000000,2016-08-26 01:13:45.000000000,closed,0,Batch Listener Broke @KafkaListener with Acknowledgment Parameter
+174,2016-08-25 22:28:16.000000000,2016-08-30 01:23:37.000000000,closed,4,Add support for @KafkaListener to handle batching 
+173,2016-08-24 00:52:42.000000000,2016-08-31 00:21:15.000000000,closed,12,GH-129: Implement Consumer Seek
+172,2016-08-23 14:22:14.000000000,2016-08-24 16:53:07.000000000,closed,4,Spring Kafka 1.0.3 is incompatible with Spring Boot 1.4.0
+171,2016-08-22 20:25:26.000000000,2016-08-23 01:00:52.000000000,closed,1,Restore ErrorHandler Setter
+170,2016-08-19 20:08:58.000000000,2016-08-19 20:13:04.000000000,closed,1,Get Acknowledgment on sink from source to commit offsets manually 
+169,2016-08-16 19:51:42.000000000,2016-08-17 02:41:54.000000000,closed,5,GH-142: Add Batch Listeners
+168,2016-08-15 16:02:38.000000000,2016-08-15 18:30:46.000000000,closed,2,Support for the autoStartup configuration.
+167,2016-08-12 20:19:33.000000000,2016-08-12 21:47:27.000000000,closed,1,GH-164: Document Log Compaction Support
+166,2016-08-11 23:34:21.000000000,2016-08-16 19:48:33.000000000,closed,13,GH-142: Add Batch Listeners
+165,2016-08-11 09:04:42.000000000,2016-08-11 17:32:33.000000000,closed,1,why i only receive from a partition?
+164,2016-08-09 00:19:40.000000000,2016-08-12 21:33:26.000000000,closed,2,Support null Payload in Multi-Method @KafkaListener
+163,2016-08-05 02:44:50.000000000,2016-08-10 03:33:12.000000000,closed,35,GH-160: IllegalArgumentException: Payload must not be null
+162,2016-08-04 04:26:09.000000000,2016-08-08 20:18:02.000000000,closed,4,GH-161; Memory Leak with autoCommit
+161,2016-08-03 13:04:09.000000000,2016-08-08 20:16:26.000000000,closed,3,"The topic records shouldn't are added to ""acks"" queue when the ""autoCommit"" setted true in the class  KafkaMessageListenerContainer<K, V>"
+160,2016-08-02 11:18:58.000000000,2016-08-10 03:32:42.000000000,closed,5,IllegalArgumentException: Payload must not be null
+159,2016-07-30 01:14:11.000000000,2016-08-15 20:15:01.000000000,closed,2,Use `kafka-clients:$kafkaVersion:test` dependency
+158,2016-07-29 22:58:31.000000000,2016-07-30 01:09:33.000000000,closed,1,GH-157: Move ContainerTestUtils to s-k-test
+157,2016-07-29 16:40:32.000000000,2016-07-30 00:52:58.000000000,closed,3,Move ContainerTestUtils to spring-kafka-test?
+156,2016-07-28 22:19:04.000000000,2019-08-01 00:05:40.000000000,closed,0,Investigate Rebalance Issue in testSimple
+155,2016-07-22 02:43:37.000000000,2016-07-28 23:24:20.000000000,closed,1,GH-154: Copy ContainerProperties in the Container
+154,2016-07-21 23:22:03.000000000,2016-07-28 23:24:10.000000000,closed,3,AbstractMessageListenerContainer(ContainerProperties containerProperties) Should Clone the ContainerProperties
+153,2016-07-21 01:05:10.000000000,2016-07-21 01:57:18.000000000,closed,5,Change KafkaHeaders.PARTITION_ID value to partition
+152,2016-07-16 03:31:34.000000000,2019-08-01 00:09:11.000000000,closed,15,Support for at-most-once delivery with manual acknowledgement
+151,2016-07-15 23:49:36.000000000,2016-07-20 02:42:03.000000000,closed,3,GH-150: Don't eat errors in `AbstractAdaptableML`
+150,2016-07-15 14:35:14.000000000,2016-07-20 02:39:32.000000000,closed,1,AdaptableMLA.onMessage(cr) Eats Exceptions; Should Throw to Container
+149,2016-07-12 18:54:21.000000000,2016-07-14 20:13:18.000000000,closed,4,GH-148: Initial Offsets Relative to Current
+148,2016-07-12 15:43:18.000000000,2016-07-14 20:12:46.000000000,closed,0,Add Initial Offset Option Relative to the Current Committed Offset
+147,2016-07-12 14:49:11.000000000,2016-07-12 21:48:59.000000000,closed,1,GH-146: Fix TopicPartition Negative Reset
+146,2016-07-12 12:47:49.000000000,2016-07-12 21:46:41.000000000,closed,0,Relative Initial Offset Needs Adjustment
+145,2016-07-11 18:49:52.000000000,2016-07-12 16:38:04.000000000,closed,3,GH-140: Commit in the beginning of the main loop
+144,2016-07-11 02:23:09.000000000,2016-07-11 18:01:09.000000000,closed,2,Need working example of Listener (Not test)
+143,2016-07-10 02:58:42.000000000,2016-07-10 06:18:50.000000000,closed,2,Question regarding the invokeListener()
+142,2016-07-10 02:49:27.000000000,2016-08-17 02:41:11.000000000,closed,6,Support bulk processing of messages
+141,2016-07-07 19:08:42.000000000,2016-07-08 04:33:00.000000000,closed,6,ACKs being committed in MANUAL ackMode without acknowledge method being called
+140,2016-07-07 10:44:12.000000000,2016-07-12 16:35:20.000000000,closed,9,Kafka offsets are not commited when Container pollTimeout >> ListenerInvoker recordsPollTimeout
+139,2016-07-07 00:14:52.000000000,2016-07-11 18:52:58.000000000,closed,3,GH-135: Fix BATCH Acks
+138,2016-07-06 00:40:57.000000000,2016-07-06 01:22:25.000000000,closed,3,GH-134: Ignore flush() if 'producer' is not inititalized yet
+137,2016-07-05 22:43:16.000000000,2016-07-06 00:36:43.000000000,closed,4,GH-134: Ignore flush() if 'producer' is not inititalized yet
+136,2016-07-05 18:42:06.000000000,2016-07-05 20:01:54.000000000,closed,1,GH-135: Fix Acks
+135,2016-07-05 10:13:01.000000000,2016-07-05 20:00:34.000000000,closed,4,Kafka offsets not commited
+134,2016-07-03 12:46:54.000000000,2016-07-06 01:21:05.000000000,closed,18,how to close temple when programmer is stop?
+133,2016-07-01 17:32:56.000000000,2016-07-08 04:35:09.000000000,closed,3,Missing Maven Dependencies
+132,2016-07-01 14:07:37.000000000,2016-07-01 18:28:21.000000000,closed,21,how can i set consumer's topic by code
+131,2016-06-30 20:15:17.000000000,2016-06-30 23:39:13.000000000,closed,4,GH-118: Rework Manual AckMode
+130,2016-06-30 18:49:17.000000000,2016-06-30 19:10:15.000000000,closed,10,Expected release date?
+129,2016-06-29 15:56:14.000000000,2016-08-31 00:20:51.000000000,closed,1,Consider Exposing Runtime Seek
+128,2016-06-23 23:36:32.000000000,2016-06-29 19:00:27.000000000,closed,2,GH-124: Validate `ackCount` and `ackTime`
+127,2016-06-23 13:38:12.000000000,2019-08-01 00:14:46.000000000,closed,6,Exposing the Kafka Yammer metrics to Spring Boot Actuator
+126,2016-06-19 00:41:47.000000000,2016-06-23 22:02:14.000000000,closed,21,Question: want to stop consuming messages upon fatal error
+125,2016-06-18 02:14:32.000000000,2016-06-20 20:12:18.000000000,closed,1,Move the placement of manual ack handling
+124,2016-06-18 00:34:12.000000000,2016-06-29 18:59:46.000000000,closed,3,Consider providing some default values for `ackTime` and `ackCount`
+123,2016-06-17 21:18:54.000000000,2016-06-17 21:52:09.000000000,closed,1,What is Listener (s) type?
+122,2016-06-16 19:33:06.000000000,2016-06-16 21:41:21.000000000,closed,1,Fix race condition in the `KafkaMessageLCTests`
+121,2016-06-15 13:05:14.000000000,2016-07-28 22:18:22.000000000,closed,2,Using 10.0.0.0 version of Kafka instead of 0.9
+120,2016-06-14 15:16:37.000000000,2016-07-28 22:16:26.000000000,closed,7,spring-kafka and kafka-client 0.10
+119,2016-06-09 20:02:46.000000000,2018-02-22 20:16:22.000000000,closed,4,A Way of knowing the consumption status of a consumerGroup
+118,2016-06-09 18:55:35.000000000,2016-06-30 23:38:12.000000000,closed,8,How MANUAL_IMMEDIATE[_SYNC] really works?
+117,2016-06-09 18:23:11.000000000,2016-06-20 20:11:42.000000000,closed,8,double acks when using acknowledgingMessageListener
+116,2016-06-07 23:54:12.000000000,2016-06-08 03:36:40.000000000,closed,1,GH-115: S-I-K Documentation
+115,2016-06-07 23:19:13.000000000,2016-06-08 03:36:09.000000000,closed,0,Add S-I-K Chapter
+114,2016-06-04 01:06:55.000000000,2016-06-04 03:06:29.000000000,closed,8,GH-112: Commit offsets even when fetch is paused
+113,2016-06-04 00:59:21.000000000,2016-06-04 01:08:06.000000000,closed,4,GH-110: Commit offsets even when fetch is paused
+112,2016-06-04 00:49:47.000000000,2016-06-04 03:05:36.000000000,closed,3,Commit offsets while consumer is paused
+111,2016-06-03 01:30:08.000000000,2016-06-03 20:05:02.000000000,closed,10,GH-89: Add support for `seek` from the beginning
+110,2016-06-02 09:59:59.000000000,2016-06-02 23:01:18.000000000,closed,0,"When not in auto-commit mode, commit the initial positions on assignment"
+109,2016-06-02 06:57:02.000000000,2016-06-02 23:09:06.000000000,closed,2,GH-108 Allow for stopping the invoker in the middle of a batch
+108,2016-06-02 06:55:30.000000000,2016-06-02 23:25:15.000000000,closed,1,Allow the invoker to stop in the middle of the batch
+107,2016-06-02 06:23:28.000000000,2016-06-02 19:03:10.000000000,closed,1,Add `ackOnError` and fix some ack commit issues
+106,2016-06-02 01:07:32.000000000,2016-06-02 20:30:42.000000000,closed,5,GH-105: Externalize Retry
+105,2016-06-01 22:15:24.000000000,2016-06-02 20:30:17.000000000,closed,0,Extract RetryTemplate to Listener Adapters
+104,2016-06-01 22:08:02.000000000,2016-06-02 00:50:26.000000000,closed,4,GH-101: Rename DeDup Classes/Interfaces to Filter
+103,2016-06-01 21:29:34.000000000,2016-06-01 22:41:57.000000000,closed,6,GH-89: Add support for `seek` from the beginning
+102,2016-06-01 20:21:47.000000000,2016-06-01 21:39:44.000000000,closed,1,GH-99 Idle Container Events
+101,2016-05-31 16:56:52.000000000,2016-06-02 00:49:55.000000000,closed,6,Question: Why DeDuplicationStrategy class is so specific?
+100,2016-05-30 15:02:17.000000000,2016-06-01 01:55:29.000000000,closed,2,can i some app use same gourpid and consumer all topic message
+99,2016-05-29 19:53:30.000000000,2016-06-01 21:39:18.000000000,closed,2,How can I know when no records were consumed by Consumer.poll()?
+98,2016-05-28 03:58:14.000000000,2016-05-31 18:04:16.000000000,closed,6,ErrorHandler method is not set
+97,2016-05-28 00:40:24.000000000,2016-06-02 06:23:43.000000000,closed,1,[Review only] GH-87 Add support for `ackOnError`
+96,2016-05-27 21:24:59.000000000,2016-05-27 21:54:03.000000000,closed,1,GH-95: Fix @TopicPartition Array Resolution
+95,2016-05-27 21:08:53.000000000,2016-05-27 21:53:40.000000000,closed,4,How i can configure many partitions @TopicPartition#partitions over property place holder?
+94,2016-05-27 20:41:23.000000000,2016-05-27 21:03:18.000000000,closed,1,GH-93: Resolve Placeholder in @TopicPartition
+93,2016-05-27 20:04:16.000000000,2016-05-27 21:03:08.000000000,closed,0,@TopicPartition#partitions doesn't support property place holders and SpEL expressions
+92,2016-05-25 15:54:28.000000000,2016-06-01 01:56:07.000000000,closed,4,How can i use producer and consumer connection pooling?
+91,2016-05-24 17:27:42.000000000,2016-06-01 19:45:34.000000000,closed,16,GH-84: Pause/Resume
+90,2016-05-18 19:39:59.000000000,2016-05-18 23:01:43.000000000,closed,8,GH-88: Stop using slf4j instead of commons-logging to follow common approach
+89,2016-05-18 18:28:18.000000000,2016-06-03 20:05:02.000000000,closed,2,how can i set offset by myself
+88,2016-05-18 12:20:37.000000000,2016-05-18 22:55:23.000000000,closed,4,"MINOR: Replace ""org.apache.commons.logging"" with ""org.slf4j"""
+87,2016-05-17 22:15:44.000000000,2016-06-02 19:02:39.000000000,closed,0,Consider Adding autoCommitOnError
+86,2016-05-17 22:09:18.000000000,2016-05-17 22:13:19.000000000,closed,1,Listener Errors
+85,2016-05-17 03:41:03.000000000,2016-06-01 19:46:29.000000000,closed,7,ISSUE-84: Pause consumer if message listener can't accept message
+84,2016-05-17 01:26:50.000000000,2016-06-01 19:45:13.000000000,closed,23,Flow control support
+83,2016-05-16 20:27:58.000000000,2016-05-17 02:33:45.000000000,closed,5,GH-80: Add DeDuplication Listener Adapters
+82,2016-05-15 11:04:37.000000000,2019-08-01 00:16:01.000000000,closed,5,Issues with Spring Framework code format conventions
+81,2016-05-15 01:10:49.000000000,2016-05-17 22:23:53.000000000,closed,11,GH-79: Easy POJO to JSON serialization (and back)
+80,2016-05-14 10:48:02.000000000,2016-05-17 02:31:20.000000000,closed,5,Message duplication after ConsumerRebalancing
+79,2016-05-14 10:23:16.000000000,2016-05-17 22:25:27.000000000,closed,3,Easy POJO to JSON serialization (and back)
+78,2016-05-13 20:06:57.000000000,2016-05-13 21:08:25.000000000,closed,3,GH-75: ContainerFactory Improvements
+77,2016-05-13 19:29:57.000000000,2016-05-13 22:25:28.000000000,closed,7,GH-76: Resolve Template Ambiguity with String Keys
+76,2016-05-13 16:37:21.000000000,2016-05-13 22:25:09.000000000,closed,0,Disambiguate KafkaTemplate Methods
+75,2016-05-13 16:35:33.000000000,2016-05-13 21:08:25.000000000,closed,0,"Add CommitCallback, SyncCommits to Container Factory"
+74,2016-05-12 23:42:10.000000000,2016-05-13 02:20:09.000000000,closed,1,GH-62; commitSync() By Default
+73,2016-05-12 21:49:50.000000000,2016-05-12 23:33:04.000000000,closed,1,GH-71: Remove GS Collections from -test
+72,2016-05-12 21:24:36.000000000,2016-05-13 02:20:09.000000000,closed,0,Allow injection of a CommitCallback
+71,2016-05-12 21:23:55.000000000,2016-05-12 23:33:04.000000000,closed,0,Remove gs Collections Dependency (only in -test).
+70,2016-05-12 19:17:15.000000000,2016-05-12 23:50:00.000000000,closed,7,Can't get KafkaEmbedded's port when application context loads
+69,2016-05-11 23:06:51.000000000,2016-05-14 07:37:20.000000000,closed,4,Kafka DSL - Manual Commit with Message
+68,2016-05-11 01:50:20.000000000,2016-05-12 01:15:49.000000000,closed,1,GH-61-1: User defined serializer and deserializer injection
+67,2016-05-09 10:08:36.000000000,2016-05-10 21:26:12.000000000,closed,8,GH66: Added ConsumerRebalanceListener injection feature
+66,2016-05-08 05:01:51.000000000,2016-05-10 21:25:46.000000000,closed,7,Externally subscribe to ConsumerRebalanceListener
+65,2016-05-07 20:31:29.000000000,2016-05-11 01:52:43.000000000,closed,6,GH 61: User defined serializer and deserializer injection
+64,2016-05-06 20:43:09.000000000,2016-05-09 20:26:01.000000000,closed,1,GH-63: Add AckMode.MANUAL_IMMEDIATE_SYNC
+63,2016-05-06 09:55:34.000000000,2016-05-09 20:25:42.000000000,closed,1,Is there way to commitSync() in Spring Kafka on Consumer side?
+62,2016-05-06 09:53:33.000000000,2016-05-13 02:20:09.000000000,closed,8,"When using AckMode.MANUAL_IMMEDIATE, ack always fails for existing few messages on topic."
+61,2016-05-05 20:35:15.000000000,2016-05-12 01:13:59.000000000,closed,7,How do we inject user defined Key/Value serializer/deserializer objects?
+60,2016-04-14 18:31:33.000000000,2016-04-14 18:43:55.000000000,closed,3,M2 does not compile in 1.7 due to 1.8 annotation
+59,2016-04-14 07:18:35.000000000,2016-04-20 11:49:21.000000000,closed,5,Cant get message
+58,2016-04-09 00:13:05.000000000,2016-05-09 20:25:42.000000000,closed,0,Fix Reference QuickStart
+57,2016-04-04 20:10:00.000000000,2016-04-06 02:15:15.000000000,closed,4,GH-56: Change Template to return ListenableFuture
+56,2016-04-04 18:18:16.000000000,2016-04-06 02:14:06.000000000,closed,0,KafkaTemplate - Return ListenableFuture; Remove syncSend methods
+55,2016-04-02 01:10:06.000000000,2016-04-02 01:39:57.000000000,closed,0,GH-53: Fix @KafkaListener autoStartup
+54,2016-04-02 01:04:07.000000000,2016-04-04 18:17:22.000000000,closed,0,Add AsyncKafkaTemplate Returning ListenableFuture
+53,2016-04-01 17:40:25.000000000,2016-04-02 01:39:57.000000000,closed,0,Fix @KafkaListener autoStartup
+52,2016-04-01 03:43:49.000000000,2016-04-02 00:24:12.000000000,closed,2,GH-49: Add MessageConversion and JSON
+51,2016-03-31 23:59:04.000000000,2016-04-01 00:27:14.000000000,closed,0,GH-48: More Test Utilities
+50,2016-03-31 22:52:12.000000000,2016-04-01 00:33:44.000000000,closed,9,GH-42: Ignore Bridged Methods
+49,2016-03-31 21:23:17.000000000,2016-04-02 00:23:50.000000000,closed,0,Add MessageConverter Support
+48,2016-03-31 01:52:08.000000000,2016-04-01 00:27:14.000000000,closed,0,Move Consumer Test Utility Methods to s-k-test
+47,2016-03-31 01:39:26.000000000,2016-03-31 18:15:52.000000000,closed,3,GH-45: Add RECEIVED... Headers
+46,2016-03-30 20:51:59.000000000,2016-03-31 00:25:07.000000000,closed,5,GH-39-44: Template Changes
+45,2016-03-30 20:34:18.000000000,2016-03-31 18:15:25.000000000,closed,0,Consider Adding KafkaHeaders.RECEIVED_* Headers
+44,2016-03-30 17:56:29.000000000,2016-03-31 00:24:47.000000000,closed,0,Change Template convertAndSend... to just send...
+43,2016-03-30 13:15:34.000000000,2019-03-06 23:05:54.000000000,closed,30,Provide a Reactive alternative to KafkaOperations and KafkaTemplate
+42,2016-03-24 21:37:56.000000000,2016-04-01 00:33:20.000000000,closed,0,Ignore Bridge Methods
+41,2016-03-17 23:39:36.000000000,2016-03-18 01:13:00.000000000,closed,2,Sonar Build Broken Since #22 Was Merged
+40,2016-03-15 02:10:57.000000000,2016-03-15 04:03:47.000000000,closed,4,Upgrade to Sonarqube plugin
+39,2016-03-12 02:45:50.000000000,2016-03-31 00:24:47.000000000,closed,0,Add KafkaTemplate Methods
+38,2016-03-11 07:39:21.000000000,2016-03-11 19:11:55.000000000,closed,2,Fix JavaDocs and ALL Checkstyle rules
+37,2016-03-11 01:54:47.000000000,2016-03-11 04:26:04.000000000,closed,1,GH-36: Port ProducerListener from S-I-K
+36,2016-03-11 01:21:32.000000000,2016-03-11 04:25:39.000000000,closed,0,Add ProducerListener to KafkaTemplate
+35,2016-03-11 00:19:46.000000000,2016-03-11 01:27:52.000000000,closed,0,GH-33: Use Consumer/Producer Constants in Tests
+34,2016-03-11 00:05:36.000000000,2016-03-11 01:55:43.000000000,closed,3,GH-29: Migrate to AssertJ. Enable its check rule
+33,2016-03-11 00:03:21.000000000,2016-03-11 01:27:52.000000000,closed,0,Replace Config Literals with Constants
+32,2016-03-10 22:53:10.000000000,2016-03-11 02:46:08.000000000,closed,2,GH-31: Initial Docs
+31,2016-03-10 22:00:37.000000000,2016-03-11 02:45:30.000000000,closed,0,Add First Cut Documentation
+30,2016-03-10 21:43:39.000000000,2016-03-10 23:50:51.000000000,closed,3,GH-28: Remove ContainerOffsetResetStrategy
+29,2016-03-10 21:35:17.000000000,2016-03-11 01:43:45.000000000,closed,0,Migrate to AssertJ
+28,2016-03-10 21:11:28.000000000,2016-03-10 23:50:10.000000000,closed,0,Remove ContainerOffsetResetStrategy
+27,2016-03-10 20:40:57.000000000,2016-03-10 21:44:11.000000000,closed,0,Fix Sonar Violations
+26,2016-03-10 02:48:22.000000000,2016-03-10 23:17:00.000000000,closed,7,Provide more Checkstyle rules and their fixes
+25,2016-03-09 04:13:34.000000000,2016-03-09 23:59:45.000000000,closed,4,GH-24: Enable > 1 Partitions in @TopicPartition
+24,2016-03-09 03:22:41.000000000,2016-03-09 23:59:01.000000000,closed,0,@TopicPartition:partition -> partitions
+23,2016-03-09 01:14:38.000000000,2016-03-09 02:38:23.000000000,closed,3,GH-4: Fix Tangles
+22,2016-03-08 20:07:09.000000000,2016-03-15 04:02:33.000000000,closed,1,Update SonarRunner
+21,2016-03-08 08:48:00.000000000,2016-03-08 20:16:36.000000000,closed,2,GH-13: Add checkstype and fix as much as possible
+20,2016-03-08 04:16:07.000000000,2016-03-10 18:45:25.000000000,closed,3,GH-3:  Fix race condition in the partitions test 
+19,2016-03-08 03:54:06.000000000,2016-03-08 19:15:26.000000000,closed,2,GH-17: Add Travis struts
+18,2016-03-08 02:27:17.000000000,2016-03-08 03:27:35.000000000,closed,1,Polishing
+17,2016-03-08 02:10:10.000000000,2016-03-08 19:15:07.000000000,closed,0,Add Travis PR Build Check
+16,2016-03-08 02:08:33.000000000,2016-03-08 02:53:41.000000000,closed,2,GH-8: Shared KafkaProducer
+15,2016-03-08 01:50:57.000000000,2016-03-08 22:32:45.000000000,closed,1,GH-10: Add Sync Template Methods
+14,2016-03-07 23:46:11.000000000,2016-03-08 03:10:51.000000000,closed,2,Fix MANUAL_IMMEDIATE
+13,2016-03-07 22:22:50.000000000,2016-03-08 20:16:06.000000000,closed,0,Add CheckStyle
+12,2016-03-04 05:07:52.000000000,2016-03-08 03:10:25.000000000,closed,0,KafkaMessageListenerContainer: MANUAL_IMMEDIATE isn't IMMEDIATE
+11,2016-03-04 04:39:39.000000000,2016-03-08 03:10:26.000000000,closed,0,KafkaMessageListenerContainer: MANUAL offsets concerns
+10,2016-03-03 04:08:13.000000000,2016-03-08 22:32:23.000000000,closed,0,Consider adding an option/methods for synchronous send to `KafkaTemplate`
+9,2016-03-03 03:30:40.000000000,2019-08-01 00:16:39.000000000,closed,4,Offset Management support?
+8,2016-03-03 03:17:07.000000000,2016-03-08 02:53:23.000000000,closed,1,Create a Shared Producer in the DefaultKafkaProducerFactory
+7,2016-03-03 03:11:53.000000000,2016-03-08 03:27:20.000000000,closed,1,Typo in the `AbstractKafkaListenerContainerFactory.initializeContainer` JavaDoc
+6,2016-03-03 03:01:13.000000000,2016-03-08 03:27:19.000000000,closed,0,Restrict @TopicPartition just only for the annotation attributes.
+5,2016-03-03 02:52:17.000000000,2016-03-09 02:37:59.000000000,closed,3,Move `Endpoint` classes from the `listener` to the `config` package
+4,2016-03-03 00:17:13.000000000,2016-03-09 02:37:58.000000000,closed,0,Fix packages and classes tangles
+3,2016-03-03 00:10:58.000000000,2016-03-10 18:45:25.000000000,closed,2,ConcurrentMessageListenerContainerTests.testDefinedPartitions() fails on Windows
+2,2016-03-02 23:33:01.000000000,2016-03-08 00:08:36.000000000,closed,0,GH-1: Add Contribution Guidelines
+1,2016-03-02 23:15:17.000000000,2016-03-08 00:08:36.000000000,closed,0,Add Contribution Guidelines

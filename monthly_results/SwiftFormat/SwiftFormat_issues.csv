@@ -1,0 +1,726 @@
+id,created_at,closed_at,state,comments,title
+727,2020-08-31 11:25:14.000000000,1970-01-01 00:00:00.000000001,open,2,Extend organizeDeclarations to mark protocol conformance extensions
+726,2020-08-30 20:19:09.000000000,2020-08-30 21:00:01.000000000,closed,2,Update organzieDeclarations rule to only validate comments at the top level of a type body
+725,2020-08-30 13:04:01.000000000,2020-08-31 12:13:47.000000000,closed,1,Assertion failure in redundantSelf rule when using organizeDeclarations
+724,2020-08-30 00:51:40.000000000,2020-08-30 01:51:50.000000000,closed,1,More organizeDeclarations improvements
+723,2020-08-29 22:00:45.000000000,2020-08-29 23:55:03.000000000,closed,2,Clean up print statement that prints newlines while formatting
+722,2020-08-29 21:53:20.000000000,2020-08-31 12:14:02.000000000,closed,1,Incorrect `isStartOfClosure(at:)` result for property observer block after executed closure
+721,2020-08-29 21:44:33.000000000,2020-08-31 12:14:13.000000000,closed,0,0.46 printing out a bunch of newlines while formatting
+720,2020-08-29 14:32:39.000000000,2020-08-29 23:59:24.000000000,closed,2,Allow continuation of lines in the configuration file
+717,2020-08-29 01:16:56.000000000,2020-08-29 01:34:45.000000000,closed,0,Updated from 44 to 46 and now opening braces are on a newline
+716,2020-08-28 06:29:58.000000000,2020-08-28 14:18:01.000000000,closed,0,Update organizeDeclarations rule to correctly parse more cases of instancePropertyWithBody
+715,2020-08-27 18:05:41.000000000,2020-08-28 00:36:50.000000000,closed,1,Update organizeDeclarations rule to parse open declarations properly
+714,2020-08-27 14:41:59.000000000,2020-08-28 00:23:30.000000000,closed,2,Xcode Extension - Fixes restoring of selections in Xcode 12
+713,2020-08-27 09:43:47.000000000,2020-08-28 17:48:23.000000000,closed,4,Switch @unknown case not formatted properly
+712,2020-08-26 21:46:23.000000000,2020-08-27 01:46:48.000000000,closed,0,Fix issue where organizeDeclarations rule would inadvertently move comments at the end of a section
+711,2020-08-26 04:54:00.000000000,2020-08-26 10:53:30.000000000,closed,0,Update organizeDeclarations rule to support class properties
+710,2020-08-25 20:28:08.000000000,2020-08-25 23:16:02.000000000,closed,0,Update organizeDeclarations to handle struct computed properties correctly
+709,2020-08-25 16:00:15.000000000,2020-08-27 14:18:36.000000000,closed,3,Add a search bar to filter rules
+708,2020-08-24 23:04:26.000000000,2020-08-25 02:33:30.000000000,closed,1,Update organizeDeclarations rule to not reorder struct properties that affect synthesized member-wise initializers
+707,2020-08-23 22:46:20.000000000,2020-08-24 14:43:00.000000000,closed,7,Bug fixes and improvements for organizeDeclarations rule
+706,2020-08-20 17:48:37.000000000,2020-08-21 00:01:04.000000000,closed,0,Add Redundant type rule
+705,2020-08-19 22:41:01.000000000,1970-01-01 00:00:00.000000001,open,5,SwiftFormat is disabled in Xcode 12 Beta 5
+704,2020-08-19 22:34:44.000000000,2020-08-19 23:02:41.000000000,closed,1,[Bug] Nested enums breaks with multiline cases
+703,2020-08-19 22:07:17.000000000,2020-08-19 22:55:17.000000000,closed,1,Fix bugs in the organizeDeclarations rule and remove rewritesEntireFile flag
+702,2020-08-12 06:25:25.000000000,1970-01-01 00:00:00.000000001,open,1,`indent` rule also indents `where` clause
+701,2020-08-12 00:56:56.000000000,2020-08-16 11:43:43.000000000,closed,11,Add organizeDeclarations rule
+700,2020-08-11 19:49:02.000000000,2020-08-20 03:00:19.000000000,closed,3,Added initCoderUnavailable rule
+699,2020-08-11 09:49:15.000000000,2020-08-12 04:12:36.000000000,closed,5,"""yodaConditions"" shouldn't apply to asymmetric operators"
+698,2020-08-09 01:39:28.000000000,2020-08-09 13:42:21.000000000,closed,2,sortedImports borkage
+697,2020-08-08 02:54:50.000000000,2020-08-09 13:42:36.000000000,closed,5,Incorrect indent introduced in 0.45.3
+696,2020-08-07 21:04:02.000000000,2020-08-07 22:17:52.000000000,closed,3,Transforming trailing braces
+695,2020-08-07 20:42:20.000000000,2020-08-08 02:47:01.000000000,closed,4,Please keep old versions published on brew
+694,2020-08-06 02:58:44.000000000,1970-01-01 00:00:00.000000001,open,3,[Regression] preferKeyPath option introduces compile time issue
+693,2020-08-04 21:05:52.000000000,2020-08-06 08:57:42.000000000,closed,1,added at-first wrapping option
+692,2020-08-04 20:16:10.000000000,1970-01-01 00:00:00.000000001,open,4,Wrap after-first should always wrap after the first argument/parameter
+691,2020-08-04 20:10:14.000000000,2020-08-14 01:51:01.000000000,closed,0,Add rule for multiline switch cases
+690,2020-08-04 20:09:35.000000000,2020-08-08 12:33:13.000000000,closed,4,'else' in multi-line 'guard' statement loses indentation
+689,2020-08-04 17:52:16.000000000,1970-01-01 00:00:00.000000001,open,5,Running swift format 0.45 in the build phase lint's the .build folder in the BuildTools folder and ignores the rules set by .swiftformat
+688,2020-08-04 10:20:13.000000000,2020-08-08 12:34:09.000000000,closed,3,linerange issues
+687,2020-08-03 15:30:49.000000000,2020-08-04 01:40:15.000000000,closed,6,Unexpected class/static func after update to 0.45.2
+686,2020-08-03 12:27:09.000000000,2020-08-14 01:47:17.000000000,closed,2,Add rule for multiline enum cases
+685,2020-08-02 01:39:03.000000000,2020-08-02 02:19:29.000000000,closed,0,Xcode extension ignores swiftformat:options directives
+684,2020-08-02 01:26:42.000000000,2020-08-08 12:34:23.000000000,closed,1,FileHeader rule replaces comment directives at start of file
+683,2020-08-01 22:41:49.000000000,2020-08-16 19:50:29.000000000,closed,2,[Discussion] New file / type organization rules
+682,2020-07-31 10:45:35.000000000,2020-08-01 19:32:29.000000000,closed,3,backquote will be removed (using `init`)
+681,2020-07-30 06:09:05.000000000,2020-08-28 17:48:46.000000000,closed,10,0.45 loses parameter indentation after closure
+680,2020-07-30 06:05:09.000000000,1970-01-01 00:00:00.000000001,open,2,0.45 indentation indents aligned generic parameters
+679,2020-07-30 05:44:15.000000000,2020-08-05 21:57:58.000000000,closed,11,preferKeyPath breaks compound closures
+678,2020-07-23 19:21:05.000000000,2020-08-04 01:40:30.000000000,closed,7,redundantSelf removing non-redundant selfs
+677,2020-07-23 17:32:27.000000000,1970-01-01 00:00:00.000000001,open,1,Add a sponsor button to GitHub page
+676,2020-07-20 00:59:19.000000000,2020-07-21 01:37:24.000000000,closed,1,Improve attributes rule with additional test cases
+675,2020-07-19 23:30:13.000000000,2020-07-19 23:39:07.000000000,closed,11,Add rule for wrapping @ attributes on function and type declarations
+674,2020-07-19 22:05:00.000000000,2020-07-19 23:29:29.000000000,closed,2,Don't orphan a guard statement's else keyword when formatting with wrapMultilineConditionalBraces
+673,2020-07-19 13:18:54.000000000,2020-07-25 11:55:22.000000000,closed,9,Update Credits
+672,2020-07-17 02:36:56.000000000,2020-07-17 03:41:58.000000000,closed,5,Add wrapMultilineConditionalBraces rule
+671,2020-07-17 02:11:45.000000000,2020-07-17 02:33:53.000000000,closed,1,Revert #668
+670,2020-07-16 13:07:18.000000000,2020-08-09 13:42:55.000000000,closed,14,Running pre-commit hook from Xcode
+669,2020-07-15 21:48:42.000000000,2020-07-25 11:51:43.000000000,closed,5,Xcode 12 on macOS 11 support
+668,2020-07-14 05:06:37.000000000,2020-07-17 02:05:41.000000000,closed,4,Add wrapMultilineConditionalBraces rule
+667,2020-07-12 21:59:49.000000000,2020-07-17 01:36:43.000000000,closed,7,Double-indent trailing closure bodies when using --closingparen same-line
+666,2020-07-11 22:27:36.000000000,2020-07-12 03:27:58.000000000,closed,2,Keep internal / external parameter labels on the same line
+665,2020-07-10 02:48:08.000000000,2020-07-30 05:03:14.000000000,closed,8,Unexpected behavior for indent rule
+664,2020-07-10 01:59:36.000000000,2020-07-12 04:26:37.000000000,closed,1,Unexpected indentation behavior for wrapArguments rule
+663,2020-07-07 03:30:08.000000000,2020-07-08 08:31:51.000000000,closed,3,redundantSelf incorrectly removes self when the property is shadowed
+662,2020-07-06 17:54:25.000000000,2020-07-12 21:38:39.000000000,closed,1,Indentation of trailing closure not in line with start of closure.
+661,2020-07-03 15:39:56.000000000,2020-07-30 05:04:20.000000000,closed,3,redundantReturn doesn't seem to work in Xcode extension
+660,2020-06-26 04:16:07.000000000,2020-06-26 11:46:02.000000000,closed,4,swiftformat --rules gives a list that doesn't match what SwiftFormat app puts into a config file; confusing.
+659,2020-06-26 03:50:09.000000000,1970-01-01 00:00:00.000000001,open,5,enhancement: option to not change indentation of line with only a comment 
+658,2020-06-24 01:35:19.000000000,2020-06-27 14:56:51.000000000,closed,1,Enhance app icon
+657,2020-06-21 04:28:31.000000000,2020-07-02 03:18:01.000000000,closed,4,How to fix block parameter indentation?
+656,2020-06-19 03:45:41.000000000,2020-07-02 03:18:27.000000000,closed,3,isStartOfClosure incorrectly treats some functions as closures
+655,2020-06-19 03:43:57.000000000,2020-06-23 04:00:43.000000000,closed,1,redundantBackticks breaks `get` inside subscript
+654,2020-06-18 00:57:54.000000000,2020-06-23 01:47:51.000000000,closed,2,Propose macOS app icon
+653,2020-06-12 13:10:14.000000000,2020-06-23 04:01:25.000000000,closed,3,Old SwiftFormat for Xcode.app version 0.44.10 in newer zip archives
+652,2020-06-11 01:43:06.000000000,2020-07-02 03:18:42.000000000,closed,2,Unexpected `spaceInsideBraces` spacing instead of newline
+651,2020-06-11 01:29:35.000000000,2020-07-02 03:18:56.000000000,closed,1,Unexpected `wrap` with long string
+650,2020-06-11 00:44:10.000000000,2020-07-02 03:19:09.000000000,closed,1,Unexpected `wrap` with long string initializer
+649,2020-06-11 00:37:13.000000000,2020-07-12 12:17:48.000000000,closed,1,Unexpected indent with comment and `wrap`
+648,2020-06-11 00:35:07.000000000,2020-07-12 21:38:54.000000000,closed,4,Unexpected multiline string format with `wrap`
+647,2020-06-11 00:29:13.000000000,2020-07-02 03:19:41.000000000,closed,2,Unexpected generic wrapping with `wrap`
+646,2020-06-11 00:21:07.000000000,2020-07-02 03:19:56.000000000,closed,1,Unexpected reformatting with `wrap`
+645,2020-06-10 19:49:37.000000000,1970-01-01 00:00:00.000000001,open,2,WrapArguments/Parameters before-first -> after-first -> before-first Causing Unexpected Changes
+644,2020-06-10 16:41:36.000000000,1970-01-01 00:00:00.000000001,open,0,Ignore .swiftformat files above file when using explicit --config
+643,2020-06-10 11:19:24.000000000,2020-07-30 05:04:53.000000000,closed,3,SwiftLint's number_separator rule conflict
+642,2020-06-10 00:33:25.000000000,2020-07-30 05:05:11.000000000,closed,2,--allman true does not move brace
+641,2020-06-10 00:06:49.000000000,1970-01-01 00:00:00.000000001,open,3,SpaceInsideParens
+640,2020-06-08 12:49:43.000000000,2020-07-12 21:40:38.000000000,closed,14,"Header template var ""created"" not correctly replaced when using pre-commit hook"
+639,2020-06-06 01:45:42.000000000,2020-06-23 04:01:42.000000000,closed,3,"Avoid raising ""Malformed .swift-version file"" error"
+638,2020-06-04 23:43:18.000000000,2020-06-23 04:02:00.000000000,closed,3,SwiftFormat does semantically not equivalent rewrite from `(#file)` to `#file`
+637,2020-06-03 22:42:08.000000000,2020-08-01 19:33:51.000000000,closed,11,Exception for braces on same line
+636,2020-05-29 21:36:18.000000000,2020-05-31 18:14:01.000000000,closed,7,SwiftFormat does semantically not equal translations
+635,2020-05-29 20:30:19.000000000,2020-05-31 18:16:41.000000000,closed,4,SwiftFormat Adding Extra Indentation to Empty Array
+634,2020-05-27 04:43:22.000000000,2020-05-28 01:36:01.000000000,closed,2,Fixed an indentation issue that occurred in 0.44.8 and later.
+633,2020-05-27 00:32:08.000000000,2020-05-28 02:48:36.000000000,closed,0,Bump activesupport from 5.2.1 to 6.0.3.1
+632,2020-05-21 04:50:47.000000000,2020-05-23 04:41:46.000000000,closed,3,Max width produces a failure when trying to wrap specific lines that have long text
+631,2020-05-20 04:38:47.000000000,1970-01-01 00:00:00.000000001,open,1,[Feature Request] Ability to preserve just generic arguments
+630,2020-05-19 19:47:51.000000000,1970-01-01 00:00:00.000000001,open,1,"Feature Request: Accept a wider range of ""TODO""/""FIXME"" tokens"
+629,2020-05-18 23:57:37.000000000,2020-05-23 04:41:59.000000000,closed,1,Unexpected format with `wrapArguments`
+628,2020-05-18 17:43:22.000000000,2020-05-23 04:42:11.000000000,closed,2,CommandLine.swift:744:17: warning: 'init(contentsOf:)' is deprecated
+627,2020-05-15 16:31:37.000000000,2020-05-23 04:42:23.000000000,closed,2,Formatting breaks code
+626,2020-05-15 01:06:35.000000000,2020-05-23 04:42:32.000000000,closed,1,Blank lines and compiler conditionals
+625,2020-05-09 00:19:51.000000000,2020-05-14 12:41:07.000000000,closed,1,Named enum case `let` issue
+624,2020-05-09 00:15:18.000000000,2020-05-14 12:40:56.000000000,closed,1,`if case` broken code
+623,2020-05-08 00:07:06.000000000,1970-01-01 00:00:00.000000001,open,8,Sorting enum values alphabetically
+622,2020-05-06 05:02:47.000000000,2020-08-02 21:00:38.000000000,closed,3,Indent code in trailing closure
+621,2020-05-05 03:52:50.000000000,2020-05-06 01:41:15.000000000,closed,1,Request: redundantNilInit should preserve nil initialization for struct properties
+620,2020-05-05 00:08:38.000000000,2020-05-06 01:40:41.000000000,closed,2,"Bug: wrap with ""maxwidth"" prefers wrapping before dot-accessors rather than wrapping arguments/parameters & after assignment operator"
+619,2020-05-04 18:50:34.000000000,2020-05-06 01:42:09.000000000,closed,3,Multiline comments formatting breaks with 0.44.8
+618,2020-05-03 02:11:28.000000000,2020-05-14 12:42:49.000000000,closed,11,Feature: configurable modifier ordering...
+617,2020-04-28 12:32:02.000000000,2020-05-28 02:59:00.000000000,closed,2,Update instructions for git pre-commit hook
+616,2020-04-28 10:15:10.000000000,2020-05-01 12:52:03.000000000,closed,2,Shouldn't this error message to be rewritten?
+615,2020-04-27 23:13:09.000000000,2020-05-01 12:52:16.000000000,closed,3,"Bug: wrap with ""maxwidth"" prefers wrapping before dot-accessors rather than wrapping arguments/parameters & after assignment operator"
+614,2020-04-23 06:58:21.000000000,2020-05-01 12:52:28.000000000,closed,6,Crash when running SwiftFormat
+613,2020-04-22 12:56:26.000000000,2020-05-01 12:52:39.000000000,closed,4,Infinite formatting with a multi-line interpolated string
+612,2020-04-21 21:48:09.000000000,1970-01-01 00:00:00.000000001,open,0,Feature request: Support Whitesmith style braces indentation
+611,2020-04-16 17:43:44.000000000,1970-01-01 00:00:00.000000001,open,4,Incorrect indentation formatting space vs tabs Xcode extension vs CLI
+610,2020-04-16 17:29:36.000000000,2020-05-01 12:52:51.000000000,closed,1,Indent rule fires on empty lines before trimwhitespace gets the chance
+609,2020-04-16 12:37:26.000000000,2020-05-01 12:53:01.000000000,closed,3,Commented out comments can produce infinite formatting. 
+608,2020-04-15 18:41:54.000000000,2020-07-12 20:51:15.000000000,closed,3,Can't set shortcut in XCode
+607,2020-04-14 12:03:49.000000000,2020-05-01 12:53:13.000000000,closed,2,"After format closure, then compile failed"
+606,2020-04-14 01:13:11.000000000,2020-04-25 11:50:49.000000000,closed,7,A couple files in project are indented and outdented over and over again
+605,2020-04-05 17:10:19.000000000,2020-04-25 12:46:34.000000000,closed,2,Add full Text Settings option location in README
+604,2020-04-05 16:43:54.000000000,2020-04-25 12:46:11.000000000,closed,1,Added missing punctuation in README
+603,2020-04-05 16:25:55.000000000,2020-04-25 12:44:59.000000000,closed,1,Fixed inconsistent Swift references casing
+602,2020-04-05 16:14:38.000000000,2020-05-01 12:53:22.000000000,closed,1,Missed case by the unusedArguments rule when linting
+601,2020-04-05 00:18:38.000000000,2020-04-05 01:11:50.000000000,closed,1,Added optional secondary command for the run script phase
+600,2020-04-04 22:49:40.000000000,2020-04-04 23:07:09.000000000,closed,1,Make indent option value consistent with the CLI help
+599,2020-04-04 22:13:35.000000000,2020-04-04 22:26:02.000000000,closed,1,Fix typo
+598,2020-04-04 21:57:53.000000000,2020-04-04 23:09:28.000000000,closed,5,Fix incorrect wrapparameters example
+597,2020-04-04 21:51:14.000000000,2020-04-04 23:07:44.000000000,closed,3,Fix missing newline
+596,2020-04-04 00:55:25.000000000,2020-04-05 03:22:58.000000000,closed,2,property wrappers require an initialization (cannot strip nils) (version 0.44.6)
+595,2020-04-03 22:31:32.000000000,2020-07-30 05:31:44.000000000,closed,5,Feature Request: Smart Tabs
+594,2020-04-03 19:28:52.000000000,2020-05-23 04:44:08.000000000,closed,25,"""Failed to format any files"" on second run with --config option"
+593,2020-04-01 11:31:07.000000000,2020-04-04 22:26:36.000000000,closed,3,Fix incorrect sample code
+592,2020-03-31 21:51:07.000000000,1970-01-01 00:00:00.000000001,open,5,Rule to disable redundantReturn for returning closures.
+591,2020-03-31 06:17:29.000000000,2020-08-12 04:19:28.000000000,closed,2,separate rules for function braces vs control flow braces
+590,2020-03-30 20:54:26.000000000,2020-04-01 01:19:47.000000000,closed,3,Build error manifest parse error
+589,2020-03-30 20:10:04.000000000,2020-03-31 12:20:07.000000000,closed,1,Fix mixed indentation in code example
+588,2020-03-30 13:19:37.000000000,2020-04-01 02:23:02.000000000,closed,4,format.sh warnings at building project
+587,2020-03-28 08:06:50.000000000,2020-03-30 00:38:55.000000000,closed,1,VSCode --disable patternlet not working
+586,2020-03-27 04:21:14.000000000,2020-03-31 12:21:27.000000000,closed,1,Update Swift Package Manager instructions
+585,2020-03-26 06:05:10.000000000,2020-03-26 11:18:40.000000000,closed,1,redundantBackticks: Remove redundant raw values for escaped reserved words
+584,2020-03-25 07:10:05.000000000,2020-07-30 05:32:29.000000000,closed,6,Request: Replace { $0.property } with (\.property) in Swift 5.2
+583,2020-03-24 14:15:11.000000000,1970-01-01 00:00:00.000000001,open,3,Blank line only after top-level braces
+582,2020-03-23 13:47:42.000000000,2020-04-05 03:23:15.000000000,closed,1,Inconsistent formatting of closures after switch
+581,2020-03-23 13:11:17.000000000,2020-03-23 16:01:05.000000000,closed,2,Rules time out when running swiftformat with swift run
+580,2020-03-20 20:42:53.000000000,2020-03-21 02:34:52.000000000,closed,3,Filelist argument
+579,2020-03-17 15:54:23.000000000,2020-03-21 00:24:49.000000000,closed,3,Fixed the cause of not performing `indexOfLastSignificantKeyword()` logic
+578,2020-03-17 11:48:17.000000000,2020-03-17 11:55:44.000000000,closed,2,"NSMapTable/NSHashTable/NSPointerArray  format wrong, when check empty."
+577,2020-03-13 10:18:22.000000000,2020-03-21 13:40:01.000000000,closed,9,[CRASH] - Timeout when many closures exist in function
+576,2020-03-11 13:26:07.000000000,2020-03-21 00:24:08.000000000,closed,1,"Update hook for format only "".swift"" files"
+575,2020-03-10 22:46:39.000000000,2020-03-11 05:13:43.000000000,closed,2,duplicateImports rule wiped out @testable import
+574,2020-03-09 21:10:56.000000000,2020-03-11 05:13:57.000000000,closed,2,"Braces not formatted with switches containing tuples, extensions, or ""required init"" function."
+573,2020-03-05 10:50:52.000000000,2020-03-06 12:27:02.000000000,closed,1,Fixed bug in `indexOfLastSignificantKeyword()` logic
+572,2020-02-28 02:36:17.000000000,1970-01-01 00:00:00.000000001,open,3,trailingCommas does not handle nested arrays
+571,2020-02-27 18:57:08.000000000,2020-03-06 12:32:02.000000000,closed,4,addOperator not valid in config file
+570,2020-02-27 16:33:33.000000000,2020-03-11 05:14:30.000000000,closed,6,Small indentation regression in 0.44.4
+569,2020-02-21 10:27:42.000000000,2020-02-27 14:22:57.000000000,closed,1,propertyWrappers nested in another type are not handled correctly
+568,2020-02-21 06:43:44.000000000,2020-04-01 02:27:48.000000000,closed,1,Crash when exactly two \n chars in --header
+567,2020-02-21 00:24:35.000000000,2020-02-27 14:23:12.000000000,closed,1,redundantReturn leaves empty line 
+566,2020-02-19 22:51:44.000000000,2020-02-20 00:00:01.000000000,closed,3,Add option for enforcing a specific style of multiline array/dictionary
+565,2020-02-18 21:46:16.000000000,2020-02-27 14:23:28.000000000,closed,6,"Braces Not Being Formatted for Structs, Extensions, or if-statements"
+564,2020-02-15 04:42:30.000000000,2020-02-20 05:42:11.000000000,closed,2,Incorrect formatting behavior for redundantReturn rule
+563,2020-02-12 18:35:52.000000000,1970-01-01 00:00:00.000000001,open,2,formatter breaks code where there is a double completion block as param
+562,2020-02-11 14:47:17.000000000,2020-02-20 05:42:43.000000000,closed,3,Indent rule creates compile error on multi-line string arguments
+561,2020-02-08 11:00:55.000000000,2020-03-11 05:16:05.000000000,closed,2,Indentation breaks when having protocol conformances on multiple lines
+560,2020-02-07 00:03:20.000000000,1970-01-01 00:00:00.000000001,open,1,Option to prefer a single space in emptyBraces
+559,2020-02-06 15:50:47.000000000,1970-01-01 00:00:00.000000001,open,6,wrapArguments doesn't work
+558,2020-02-06 04:27:36.000000000,2020-02-23 18:12:40.000000000,closed,3,Redundant self rule can break String extensions using methods from NSString extensions
+557,2020-02-05 12:29:00.000000000,2020-02-05 14:14:04.000000000,closed,2,redundantReturn doesn't support functions and getters
+556,2020-02-04 17:04:46.000000000,2020-02-27 14:24:11.000000000,closed,2,redundantReturn removes return statement when it shouldn't
+555,2020-02-04 11:36:13.000000000,2020-02-27 04:59:45.000000000,closed,3,"""error: Failed to format any files."" on second run"
+554,2020-02-02 17:18:09.000000000,2020-02-03 04:06:22.000000000,closed,6,--allman false doesn't work for computed properties
+553,2020-01-31 19:40:39.000000000,1970-01-01 00:00:00.000000001,open,3,expand lines if less than max width
+552,2020-01-31 16:17:34.000000000,2020-05-01 12:53:34.000000000,closed,1,Spacing issues in documentation
+551,2020-01-28 19:37:27.000000000,2020-08-05 22:08:31.000000000,closed,1,Pre Commit script fails if the file has a folder with a spaces in it.
+550,2020-01-28 19:29:43.000000000,2020-01-28 21:13:39.000000000,closed,1,Disables wrap parameters for image and color literals due to Xcode bug
+549,2020-01-28 05:09:11.000000000,2020-02-03 04:08:02.000000000,closed,5,Crash when using `--maxwidth` on long function line
+548,2020-01-28 04:35:58.000000000,2020-03-11 05:17:20.000000000,closed,1,Fixes enum case spacing but not comment spacing
+547,2020-01-28 04:33:16.000000000,2020-02-03 04:08:38.000000000,closed,2,Removing `.map` parens breaks build with `?`
+546,2020-01-27 21:22:26.000000000,2020-02-03 04:09:06.000000000,closed,3,private and file private var braces
+545,2020-01-25 18:27:43.000000000,2020-01-26 21:53:56.000000000,closed,4,Error:    #if(iOS) formatted into #ifiOS
+544,2020-01-24 04:58:56.000000000,2020-01-26 21:54:11.000000000,closed,5,Formatting enum comparison fails
+543,2020-01-24 04:42:17.000000000,1970-01-01 00:00:00.000000001,open,0,imports are not formated very well when there are empty lines
+542,2020-01-24 01:23:15.000000000,1970-01-01 00:00:00.000000001,open,4,else placement for guard
+541,2020-01-23 23:48:33.000000000,2020-01-26 21:54:33.000000000,closed,3,Inline disable all still applies wrap and wrapArugements with --maxwidth
+540,2020-01-22 01:02:39.000000000,2020-01-26 21:54:48.000000000,closed,2,False positive in redundantFileprivate rule when using type inference with initializers
+539,2020-01-18 17:01:38.000000000,2020-01-19 19:40:51.000000000,closed,2,Is this expected behavior of --nospaceoperators?
+538,2020-01-16 10:29:34.000000000,2020-08-09 13:43:16.000000000,closed,2,Double/no indentation when closure and parentheses on same line
+537,2020-01-16 10:09:12.000000000,2020-03-06 19:40:00.000000000,closed,2,Corner case for spaceInsideComments
+536,2020-01-16 01:06:28.000000000,2020-08-12 04:16:11.000000000,closed,1,xcodeindentation should not indent second line of type declaration
+535,2020-01-16 00:28:59.000000000,2020-01-28 22:23:52.000000000,closed,7,Wrap should ignore color & image literals
+534,2020-01-15 03:11:07.000000000,2020-01-16 03:45:23.000000000,closed,9,Refactor Wrap Logic
+533,2020-01-14 12:44:55.000000000,2020-01-16 04:28:55.000000000,closed,1,redundantSelf removes required self in capture when contained in if/guard let
+532,2020-01-14 11:13:24.000000000,2020-01-26 21:55:26.000000000,closed,9,Illegal instruction: 4 error in version 0.43.5
+531,2020-01-11 15:59:29.000000000,2020-01-11 15:59:34.000000000,closed,0,github action support
+530,2020-01-11 02:26:30.000000000,2020-01-12 21:17:35.000000000,closed,1,Prefer wrapping arguments instead of return type
+529,2020-01-10 04:36:16.000000000,2020-01-12 19:58:44.000000000,closed,3,Separate options for Wrapping func args and params
+528,2020-01-09 10:12:32.000000000,2020-01-09 13:57:59.000000000,closed,4,Fix indent with return and = keyword
+527,2020-01-09 06:48:48.000000000,2020-01-09 13:40:12.000000000,closed,2,Fix wrapping to return type when return type has a tuple in it.
+526,2020-01-08 08:28:23.000000000,2020-01-08 23:53:04.000000000,closed,3,Wrap maxWidth function return at ->
+525,2020-01-07 02:25:58.000000000,2020-01-09 13:57:59.000000000,closed,3,Indent incorrect with chaining function call
+524,2020-01-07 02:12:25.000000000,2020-01-12 21:17:35.000000000,closed,14,Wrap maxWidth should respect wrapArguments
+523,2020-01-03 17:01:59.000000000,1970-01-01 00:00:00.000000001,open,7,Allow user to customize additional variable names to be replaced by self with the strongifiedSelf rule
+522,2020-01-03 15:56:05.000000000,2020-01-04 16:15:26.000000000,closed,2,Default in switch case is removed
+521,2020-01-03 15:53:08.000000000,1970-01-01 00:00:00.000000001,open,1,"Can we add an option so that strongifiedSelf also replaces ss, sSelf, strongSelf, etc with self?"
+520,2020-01-02 16:17:30.000000000,2020-01-03 00:43:35.000000000,closed,5,"Inconsistent whitespace in multi-line, error: Failed to format any files on 2nd run."
+519,2020-01-02 15:28:47.000000000,2020-01-03 00:43:56.000000000,closed,2,--nospaceoperators does not accept open range
+518,2020-01-01 21:26:41.000000000,2020-01-03 15:36:05.000000000,closed,7,“SwiftFormat for Xcode.app” can’t be opened because Apple cannot check it for malicious software.
+517,2019-12-24 12:30:38.000000000,2019-12-28 05:49:55.000000000,closed,4,Problem with andOperator in SwiftUI
+516,2019-12-23 15:30:06.000000000,2019-12-23 16:59:58.000000000,closed,3,weird line break behavior
+515,2019-12-19 12:44:23.000000000,2019-12-22 22:54:16.000000000,closed,2,Indentation regression in 0.43.0 when var/let type is specified
+514,2019-12-12 22:13:50.000000000,2019-12-14 05:35:48.000000000,closed,2,"Fix typeSugar to handle redundant Swift namespace reference for Array, Dictionary or Optional"
+513,2019-12-10 14:50:19.000000000,1970-01-01 00:00:00.000000001,open,6,blank-lines option for indent rule.
+512,2019-12-06 19:32:07.000000000,2020-08-09 13:48:53.000000000,closed,5,.swiftformat not discovered when reading from stdin
+511,2019-12-03 19:37:36.000000000,2019-12-19 02:25:17.000000000,closed,3,Explicit self being removed in closure argument when result assigned to var
+510,2019-12-03 13:33:41.000000000,2020-01-01 04:48:06.000000000,closed,2,[Enhancement] Prefer to keep entire statement intact when wrapping closure
+509,2019-12-01 03:35:23.000000000,2019-12-28 05:50:38.000000000,closed,2,Comment inden gets messed up in some places
+508,2019-11-30 17:07:19.000000000,2019-12-02 04:02:15.000000000,closed,3,Use SPM for Xcode Build Phase
+507,2019-11-29 17:42:15.000000000,2019-12-01 20:50:57.000000000,closed,5,`blankLinesAtStartOfScope` rule in disabled list is not being disabled.
+506,2019-11-27 12:54:58.000000000,2019-11-27 13:56:16.000000000,closed,2,Documentation fix: redundantObjc example code
+505,2019-11-26 08:38:40.000000000,2019-11-27 14:19:47.000000000,closed,2,maxwidth adding trailing comma to Dictionary type sugar syntax
+504,2019-11-25 13:19:34.000000000,2019-11-26 03:27:40.000000000,closed,2,maxwidth wraps arguments inside string interpolation
+503,2019-11-22 16:20:19.000000000,2019-11-22 23:39:41.000000000,closed,1,Xcode Extension - Adds support for swift package manifest files
+502,2019-11-22 16:07:08.000000000,2019-11-22 23:39:41.000000000,closed,0,Xcode Extension - Support formatting package manifest files
+501,2019-11-17 17:13:43.000000000,1970-01-01 00:00:00.000000001,open,1,Incorrect indentation of closure with multiline capture list
+500,2019-11-17 17:03:13.000000000,2020-01-10 19:36:16.000000000,closed,2,Indentation after type attribute is incorrect
+499,2019-11-17 17:01:36.000000000,2019-11-24 16:29:24.000000000,closed,1,Indentation after `in` of for-loop is incorrect
+498,2019-11-17 16:31:39.000000000,2019-11-24 16:29:39.000000000,closed,1,`is` operator is not indented properly
+497,2019-11-17 16:11:10.000000000,2019-11-24 16:29:48.000000000,closed,1,Cannot format multiline string with escaped triple double quotes
+496,2019-11-17 16:05:40.000000000,2019-11-24 16:29:58.000000000,closed,1,Comment closer is deleted if multiline comments is between a class name and its body
+495,2019-11-02 19:39:50.000000000,2020-08-28 17:49:26.000000000,closed,2,Multi-line function calls wrongly formatted
+494,2019-10-28 21:47:12.000000000,2019-11-24 16:30:28.000000000,closed,5,Xcode source editor extension not visible in System Preferences - Extensions
+493,2019-10-24 10:17:25.000000000,2019-10-29 03:14:01.000000000,closed,2,redundantFileprivate incorrectly applied
+492,2019-10-22 17:22:35.000000000,2019-10-29 03:14:27.000000000,closed,1,Remove header option - removes comments on top Package.swift files
+491,2019-10-21 22:30:21.000000000,1970-01-01 00:00:00.000000001,open,7,MARK formatting for Xcode 11
+490,2019-10-20 22:02:48.000000000,1970-01-01 00:00:00.000000001,open,5,Add multiline function chains rule
+489,2019-10-20 21:44:12.000000000,2019-10-29 03:20:14.000000000,closed,5,Return removed catch let block
+488,2019-10-18 14:19:50.000000000,2019-11-24 16:31:08.000000000,closed,1,Error should be shown and execution aborted when adding an unknown option in .swiftformat file
+487,2019-10-16 08:25:28.000000000,1970-01-01 00:00:00.000000001,open,7,Loss of selection / move of selection to end of file is unfortunate
+486,2019-10-15 22:44:57.000000000,1970-01-01 00:00:00.000000001,open,0,Xcode 10+ and parallel executing build phases
+485,2019-10-01 14:30:35.000000000,2019-12-19 02:30:47.000000000,closed,6,Prevent users from doing stupid things
+484,2019-09-27 16:32:34.000000000,2019-10-29 03:20:40.000000000,closed,5,Problem with andOperator in ViewBuilder in SwiftUI
+483,2019-09-26 18:23:04.000000000,1970-01-01 00:00:00.000000001,open,2,Indent nested ternary expressions
+482,2019-09-19 09:03:12.000000000,2019-09-21 02:14:43.000000000,closed,3,Swift 5.1 compiler crash
+481,2019-09-08 20:39:06.000000000,2019-12-28 05:54:35.000000000,closed,3,Feature Request: print filenames in lint mode
+480,2019-09-05 14:17:30.000000000,2020-03-06 12:45:35.000000000,closed,0,Facing issue in Xcode 10.2 
+479,2019-08-30 18:23:47.000000000,2019-10-11 21:55:57.000000000,closed,3,hoistPatternLet ignoring patterns with _
+478,2019-08-30 06:18:16.000000000,2019-09-21 02:15:07.000000000,closed,2,SwiftFormat wrongly transforming `fileprivate` into `private`
+477,2019-08-27 01:56:18.000000000,2019-08-27 21:51:04.000000000,closed,2,Fix --quiet preventing .raw output
+476,2019-08-27 01:49:11.000000000,2019-08-27 21:51:04.000000000,closed,0,`print` with `.raw` type is silenced by `--quiet`
+475,2019-08-26 11:51:26.000000000,2020-08-09 10:58:09.000000000,closed,2,Linebreak before opening brace in multiline `if`
+474,2019-08-14 13:47:43.000000000,2019-09-05 17:42:50.000000000,closed,2,Unknown option --xcodeindentation 
+473,2019-08-09 17:55:54.000000000,1970-01-01 00:00:00.000000001,open,0,Aligning Assignments
+472,2019-08-08 21:35:04.000000000,2019-09-10 18:32:26.000000000,closed,4,Rules that breaking long lines in different lines?
+471,2019-08-02 18:38:14.000000000,1970-01-01 00:00:00.000000001,open,2,wrapArguments impacts tuple
+470,2019-07-29 14:56:18.000000000,2020-05-23 04:45:12.000000000,closed,5,No eligible files found error when all checked files are ignored
+469,2019-07-29 14:30:26.000000000,2020-08-30 02:37:11.000000000,closed,3,Feature Request: redundantType
+468,2019-07-25 01:16:50.000000000,2020-05-28 02:56:31.000000000,closed,2,Fix bug where CLI would only consider first error in array
+467,2019-07-25 01:05:20.000000000,2020-08-02 21:06:14.000000000,closed,3,CLI: Providing only invalid files to CLI causes confusing output
+466,2019-07-23 16:49:14.000000000,2019-11-22 13:59:06.000000000,closed,1,Expand remove redundant return statements to functions and comp. properties in Swift 5.1
+465,2019-07-18 15:37:25.000000000,2019-07-30 03:09:56.000000000,closed,1,Remove redundant nil inits should exclude @propertyWrapper variables
+464,2019-07-16 22:57:45.000000000,2020-03-23 23:56:20.000000000,closed,1,Options for blanklinesaroundmark
+463,2019-07-15 13:00:23.000000000,2019-11-22 13:59:43.000000000,closed,3,header option should not remove swift version statement in Package.swift files
+462,2019-07-14 03:57:14.000000000,2019-07-30 03:10:56.000000000,closed,0,ctig
+461,2019-07-10 23:48:02.000000000,1970-01-01 00:00:00.000000001,open,1,brace on separate line?
+460,2019-07-08 11:46:47.000000000,2019-07-08 12:09:29.000000000,closed,1,--lint doesn't return a code
+459,2019-07-06 16:07:22.000000000,2019-07-30 03:09:29.000000000,closed,1,redundantParens rule broke generics which has parentheses as a generic param
+458,2019-07-02 11:25:51.000000000,2019-07-19 11:50:45.000000000,closed,2,Small change to ReadMe to explain how to keep SwiftFormat on the late…
+457,2019-06-28 03:33:54.000000000,2019-12-28 05:55:26.000000000,closed,1,Swift 5.1: Generic Function Builders trigger rule spaceAroundOperators
+456,2019-06-26 08:18:24.000000000,2019-07-19 11:50:22.000000000,closed,2,Fix up markdown syntax
+455,2019-06-25 13:52:04.000000000,2019-11-23 03:09:17.000000000,closed,6,Xcode output for  for --lint option
+454,2019-06-25 04:17:49.000000000,2020-01-07 14:04:47.000000000,closed,2,Rule timed out when running large parallel builds.
+453,2019-06-24 22:32:45.000000000,2019-07-18 22:08:50.000000000,closed,3,Bugfix - Xcode indentation guard first line
+452,2019-06-22 03:30:58.000000000,2019-06-23 15:00:57.000000000,closed,3,bugfix - xcode indentation breaks `if case let` indentation
+451,2019-06-21 19:01:36.000000000,2019-06-24 01:35:37.000000000,closed,2,Broken result
+450,2019-06-20 11:27:07.000000000,2019-06-24 01:35:51.000000000,closed,2,Removed empty lines in multiline string literals
+449,2019-06-17 17:29:56.000000000,2019-06-20 12:16:19.000000000,closed,1,Fixed `redundantObjc` rule for fileprivate members
+448,2019-06-12 21:47:28.000000000,2019-06-24 01:36:11.000000000,closed,1,Empty braces in a chain removes too much whitespace
+447,2019-06-11 23:16:16.000000000,2019-12-28 05:56:32.000000000,closed,1,'Swiftformat for Xcode' doesn't install into Xcode via Mac OS 10.15Beta
+446,2019-06-11 00:31:19.000000000,2019-06-24 01:37:57.000000000,closed,3,Empty files trigger a timeout warning
+445,2019-06-03 09:10:36.000000000,2019-06-24 01:38:21.000000000,closed,3,header option {file} is replaced by the directory name
+444,2019-06-02 22:51:11.000000000,2019-06-20 12:15:27.000000000,closed,2,"Fix ""--header {file}"" bug: {file} tag replaced with project directory, not file name."
+443,2019-05-29 13:14:41.000000000,2019-06-12 13:15:40.000000000,closed,2,Help！！！-----This question is about Xcode build phase 
+442,2019-05-29 03:33:27.000000000,2019-06-20 11:55:25.000000000,closed,9,Xcode style indentation for guards and enums
+441,2019-05-29 02:02:13.000000000,2019-06-24 01:39:13.000000000,closed,2,Extra header added when import directly follows header
+440,2019-05-28 01:20:19.000000000,2019-05-28 01:20:30.000000000,closed,1,Accidental post
+439,2019-05-14 15:29:32.000000000,2019-05-28 01:38:29.000000000,closed,2,Bug:  Array.count format to Array.isEmpty
+438,2019-05-14 12:26:24.000000000,2019-05-28 01:52:36.000000000,closed,2,Problems with redundantObjc rule
+437,2019-05-14 07:40:40.000000000,2019-06-12 13:16:54.000000000,closed,2,This question is about Xcode build phase
+436,2019-05-14 06:37:05.000000000,2019-05-14 06:43:29.000000000,closed,0,  This question is about Xcode build phase
+435,2019-05-13 12:08:34.000000000,2019-05-28 01:52:58.000000000,closed,2,"Removed ""self."" on redundantSelf with init-only option."
+434,2019-05-09 04:49:06.000000000,2019-05-09 05:27:55.000000000,closed,1,Enhanced `File headers` is broken
+433,2019-05-09 04:45:33.000000000,2019-05-09 05:14:38.000000000,closed,2,Fixes enhanced `fileHeader` rule
+432,2019-05-09 00:27:11.000000000,2019-05-28 01:57:29.000000000,closed,3,Corner case issue with --redundantSelf
+431,2019-05-06 16:59:05.000000000,1970-01-01 00:00:00.000000001,open,2,Start classes / structs with newlines
+430,2019-05-05 09:58:16.000000000,2019-05-09 05:11:16.000000000,closed,2,Fix extra newline when printing content to stdout
+429,2019-05-04 20:39:26.000000000,2019-05-09 05:11:16.000000000,closed,1,[Bug] Extra newline at end of file from stdin
+428,2019-05-03 18:52:35.000000000,2019-06-12 13:18:27.000000000,closed,4,Formatter introduces breaking trailing closure syntax for specific function signatures
+427,2019-05-03 13:47:10.000000000,2019-05-28 02:05:06.000000000,closed,3,"removes ""self"" within closures"
+426,2019-05-03 11:42:16.000000000,1970-01-01 00:00:00.000000001,open,7,SwiftFormat searching parent folders for .swiftformat (how to prevent?)
+425,2019-05-01 21:15:29.000000000,2020-08-30 02:41:42.000000000,closed,4,Rule Suggestion: Add @unavailable to compiler-suggested trivial init(coder:) implementation
+424,2019-04-30 15:30:12.000000000,2019-05-02 12:14:11.000000000,closed,8,Xcode build phase not working on Xcode 10.2 and swift 5
+423,2019-04-24 00:20:34.000000000,2019-06-12 13:20:03.000000000,closed,5,Invalid self. added to enums associated values
+422,2019-04-18 19:25:07.000000000,2020-03-06 12:50:32.000000000,closed,5,Doesn't work with latest Xcode 10.2
+421,2019-04-17 13:49:41.000000000,2020-01-12 19:58:44.000000000,closed,5,Split wrapArguments to separate function declaration and implementation 
+420,2019-04-15 06:14:21.000000000,2019-04-15 14:20:10.000000000,closed,6,added test for self-insert in case let
+419,2019-04-12 12:23:52.000000000,2019-12-03 19:22:49.000000000,closed,2,Proposal: default file to current directory
+418,2019-04-12 09:32:41.000000000,2019-04-12 11:28:11.000000000,closed,1,don't add self in front of parameter names
+417,2019-04-12 07:54:42.000000000,2019-04-12 22:01:10.000000000,closed,3,redundantSelf rule inserts self before the parameter name
+416,2019-04-11 19:56:05.000000000,2019-04-12 22:02:00.000000000,closed,3,andOperator rule breaks where condition on repeat block
+415,2019-04-11 17:21:31.000000000,2019-04-12 22:02:25.000000000,closed,3,Incorrect change of postfix operator causes code to break
+414,2019-04-11 15:10:01.000000000,2019-04-12 22:03:01.000000000,closed,1,Fileprivate break classes
+413,2019-04-11 11:16:49.000000000,2019-04-11 13:57:30.000000000,closed,1,Feature Request: Files listed after formatted
+412,2019-04-10 22:59:20.000000000,2019-04-17 01:25:21.000000000,closed,16,"Command line tool fails to compile/run: dyld not found in ""formatCode"" build phase, image not found"
+411,2019-04-09 18:37:45.000000000,2020-08-06 03:00:07.000000000,closed,3,Unbalanced curly brackets
+410,2019-04-09 13:38:47.000000000,2019-04-10 22:02:30.000000000,closed,4,Bug: Problems with --operatorfunc spaced
+409,2019-04-07 02:10:04.000000000,2020-01-01 04:58:05.000000000,closed,7,Feature request: Allow space around operators to be disabled independently of delimiters
+408,2019-04-07 01:52:40.000000000,1970-01-01 00:00:00.000000001,open,2,Feature request: Please allow consecutive spaces prior to a trailing comment.
+407,2019-04-07 01:32:09.000000000,2020-03-11 13:27:51.000000000,closed,3,Bug: Problems with —blankLinesBetweenScopes and --self insert
+406,2019-04-05 02:22:13.000000000,1970-01-01 00:00:00.000000001,open,26,Is there a way to enforce Allman bracing in closures AND functions/classes/structs?
+405,2019-04-04 01:32:53.000000000,1970-01-01 00:00:00.000000001,open,2,autoreplace XCTAssertTrue() with XCTAssert()
+404,2019-04-03 20:57:44.000000000,2019-04-09 01:44:43.000000000,closed,2,redundantSelf not working in file that contains switch with nested conditional compilation
+403,2019-03-29 16:23:40.000000000,2019-04-09 01:46:19.000000000,closed,2,Misaligned condition compilation and comments in switch statement
+402,2019-03-29 06:33:11.000000000,2019-04-09 01:45:34.000000000,closed,3,Bug: `greater-than` formatted
+401,2019-03-27 13:31:11.000000000,2019-03-27 17:16:16.000000000,closed,3,Support Swift 5
+400,2019-03-26 04:34:14.000000000,2019-04-12 20:53:43.000000000,closed,3,Preserve case-differing imports
+399,2019-03-22 07:25:03.000000000,1970-01-01 00:00:00.000000001,open,4,New Rule Suggestion: Specify number of blank lines between ...
+398,2019-03-22 04:34:03.000000000,2019-03-23 14:06:59.000000000,closed,2,redundantParens removes required parentheses for Selectors
+397,2019-03-20 16:33:22.000000000,2019-03-23 14:07:10.000000000,closed,3,yodaConditions rule breaks with keypaths
+396,2019-03-20 16:32:55.000000000,2019-03-23 14:07:24.000000000,closed,4,Support repeated `--disable` options
+395,2019-03-20 16:12:59.000000000,2019-03-21 02:25:59.000000000,closed,3,Update Rules.md to add timestamp of strong/weak IBOutlet advice
+394,2019-03-20 15:32:43.000000000,2019-03-23 14:08:25.000000000,closed,2,disable trailingClosures as default?
+393,2019-03-19 10:05:34.000000000,2019-03-20 01:34:15.000000000,closed,3,redundantFileprivate breaks visibility of synthesised struct init methods
+392,2019-03-19 07:10:41.000000000,2019-03-20 01:34:25.000000000,closed,2,yodaConditions breaks expressions with ternary operator
+391,2019-03-19 07:02:13.000000000,2019-03-20 01:34:39.000000000,closed,5,redundantFileprivate breaks public protocol conformances in (file)private types
+390,2019-03-18 23:12:22.000000000,2019-03-19 05:55:18.000000000,closed,3,Swift format breaks array subscript equality comparison
+389,2019-03-18 20:10:04.000000000,2019-03-19 05:55:58.000000000,closed,3,redundantParens removes required parentheses for closures preceding nil-coalescing operators
+388,2019-03-18 15:04:37.000000000,2019-03-19 05:56:20.000000000,closed,5,operater format problem
+387,2019-03-18 13:30:58.000000000,1970-01-01 00:00:00.000000001,open,0,Feature request: unusedVariables rule.
+386,2019-03-18 12:34:52.000000000,2019-03-19 05:56:43.000000000,closed,3,redundantParens removes required parentheses around nested cast + subscript expressions
+385,2019-03-18 10:11:28.000000000,2019-03-19 05:57:03.000000000,closed,2,redundantParens removes required parentheses for closure parameters with explicitly omitted parameter labels
+384,2019-03-18 09:56:49.000000000,2019-03-19 05:57:18.000000000,closed,3,redundantObjc: @objc on nested types still needed with @objcMembers
+383,2019-03-18 08:50:42.000000000,2019-03-19 05:57:32.000000000,closed,5,New yodaConditions rule broken
+382,2019-03-18 07:44:51.000000000,2019-03-19 05:58:21.000000000,closed,9,"anyObjectProtocol  is not working, version 0.40.0"
+381,2019-03-16 12:51:58.000000000,2019-03-16 14:46:35.000000000,closed,3,Incorrect format with PHPhotoLibrary.shared().performChanges
+380,2019-03-16 03:14:26.000000000,2019-03-16 03:26:06.000000000,closed,2,Fix dark mode
+379,2019-03-13 14:56:20.000000000,1970-01-01 00:00:00.000000001,open,2,"Multiline Parameters: all on one line, or all on new line"
+378,2019-03-06 08:06:18.000000000,1970-01-01 00:00:00.000000001,open,2,Create .swiftformat config from a .swiftlint.yml or a .swiftlint.auto.yml file
+377,2019-03-06 08:04:47.000000000,2019-12-28 06:05:28.000000000,closed,3,Add number of lines before auto formatting using wrapArguments
+376,2019-03-04 17:17:45.000000000,1970-01-01 00:00:00.000000001,open,4,Feature request: specify files by project+scheme
+375,2019-03-04 10:12:11.000000000,1970-01-01 00:00:00.000000001,open,2,Feature Request: Use companion app to configure option not use by the Xcode extension
+374,2019-03-01 19:20:45.000000000,2019-03-03 20:45:57.000000000,closed,2,exclude option from config file is ignored when run for single file with githook
+373,2019-02-25 04:11:33.000000000,2019-02-25 12:39:24.000000000,closed,4,Settings from configuration app no longer reflect in Xcode Source Editor Extension
+372,2019-02-20 01:50:54.000000000,2019-03-08 01:59:03.000000000,closed,15,Group options with associated rule #353 
+371,2019-02-15 11:18:16.000000000,2019-02-15 12:09:50.000000000,closed,2,Functions sorting in object
+370,2019-02-15 09:26:26.000000000,2019-02-16 01:02:49.000000000,closed,3,Rule hoistPatternLet moving let to previous lines
+369,2019-02-15 06:42:14.000000000,2019-02-15 13:04:35.000000000,closed,1,Associate . swiftformat file format with the SwiftFormat for Xcode
+368,2019-02-15 05:01:23.000000000,2019-03-03 20:54:53.000000000,closed,2,No eligible files found error when the only file to check is also ignored
+367,2019-02-15 03:31:38.000000000,2019-02-16 01:03:22.000000000,closed,3,Array+Indices typealias
+366,2019-02-15 03:24:15.000000000,2019-02-15 03:32:55.000000000,closed,2,isEmpty is broken
+365,2019-02-15 01:33:02.000000000,2019-02-15 06:39:07.000000000,closed,3,Associate . swiftformat file format with the SwiftFormat for Xcode
+364,2019-02-14 22:21:02.000000000,2020-05-01 12:53:56.000000000,closed,7,Wrong order of specifiers
+363,2019-02-14 18:18:47.000000000,2019-02-15 02:40:38.000000000,closed,4,Erroneous removal of parentheses 
+362,2019-02-14 17:34:52.000000000,2019-02-15 02:41:15.000000000,closed,2,0.39.1 wrong multiline string literal indentation
+361,2019-02-13 22:16:40.000000000,2019-03-03 20:56:29.000000000,closed,4,disable isEmpty rule as default
+360,2019-02-13 18:15:38.000000000,2019-02-14 05:07:36.000000000,closed,4,"indent rule for """""" text blocks"
+359,2019-02-12 20:02:11.000000000,2019-02-14 17:58:43.000000000,closed,4,XAlign 
+358,2019-02-12 15:50:49.000000000,2019-02-12 23:09:36.000000000,closed,2,Fix mistakes in `Rules.md` file.
+357,2019-02-11 23:20:32.000000000,2019-02-14 05:07:56.000000000,closed,3,reduntantParens does not strip all parens
+356,2019-02-10 18:48:51.000000000,2019-02-10 19:53:22.000000000,closed,2,Explicitly enable rules
+355,2019-02-10 01:49:43.000000000,2019-03-07 14:51:04.000000000,closed,2,Rule request: Normalize comments
+354,2019-02-09 11:43:28.000000000,2019-02-09 17:01:32.000000000,closed,3,testFileHeaderCreationYearReplacement() failing
+353,2019-02-08 02:11:17.000000000,2019-02-21 10:09:45.000000000,closed,9,Group options with their associated rules in SwiftFormat for Xcode app
+352,2019-02-06 17:17:59.000000000,2019-02-06 19:44:08.000000000,closed,3,`isEmpty` rule being applied to `foo.count == 0` or `foo.count > 0` when foo is NSOrderedSet
+351,2019-02-03 04:14:20.000000000,2019-02-03 16:16:13.000000000,closed,3,Fix `testDoubleWildcardMatchesDirectorySlash()`
+350,2019-02-02 11:54:05.000000000,2019-02-04 14:10:32.000000000,closed,3,Tests are failing on `master`
+349,2019-01-31 23:44:31.000000000,2019-02-01 14:32:53.000000000,closed,3,Add Integration Section with AppleScript to Readme
+348,2019-01-24 19:49:46.000000000,2019-01-25 16:18:20.000000000,closed,2,redundantSelf does not work in XCode Extension
+347,2019-01-24 15:46:42.000000000,2019-01-25 00:01:27.000000000,closed,2,False positive in a compute property with tuple
+346,2019-01-23 01:11:42.000000000,2019-01-23 03:07:26.000000000,closed,5,Return keyword removed when it should not after latest update
+345,2019-01-21 05:29:37.000000000,2019-12-28 06:07:03.000000000,closed,4,Feature request: Support reporter output for --lint option
+344,2019-01-20 04:09:13.000000000,2019-01-20 05:13:11.000000000,closed,2,Formatting issue with documentation
+343,2019-01-17 07:21:02.000000000,2019-11-24 16:41:26.000000000,closed,6,Non-optional backticks removed from KeyPath
+342,2019-01-16 05:04:02.000000000,2019-01-17 14:30:52.000000000,closed,4,New closure behavior?
+341,2019-01-09 11:23:33.000000000,2019-01-19 17:09:12.000000000,closed,1,Indent fails when method-chaining
+340,2019-01-07 11:14:16.000000000,2019-01-25 16:55:40.000000000,closed,3,Xcode Extension stop working after latest Upgrade
+339,2019-01-04 14:04:39.000000000,2019-01-19 17:08:20.000000000,closed,3,SwiftFormat deletes comments without warning
+338,2019-01-01 01:53:29.000000000,2019-01-01 08:01:54.000000000,closed,5,My installation is corrupted
+337,2018-12-31 03:33:25.000000000,2019-01-01 22:33:27.000000000,closed,18,SwiftFormat crashes on launch due to invalid signature
+336,2018-12-30 05:03:27.000000000,1970-01-01 00:00:00.000000001,open,2,Alternative config format
+335,2018-12-18 14:09:59.000000000,2018-12-18 15:27:52.000000000,closed,3,Bug in new rule to change `if foo.count == 0 {}` to `if foo.isEmpty {}`
+334,2018-12-17 17:48:34.000000000,2018-12-17 18:22:02.000000000,closed,2,Fixed stdout vs stderr tty detection
+333,2018-12-17 16:13:17.000000000,2019-03-15 13:15:44.000000000,closed,3,Fix grammar in --help messages
+332,2018-12-17 14:58:14.000000000,2018-12-17 15:05:19.000000000,closed,3,Rename the test target to not clash with other 'test' targets
+331,2018-12-10 16:28:24.000000000,2018-12-13 19:38:51.000000000,closed,9,What `Illegal instruction:` means?
+330,2018-12-10 07:28:57.000000000,2018-12-15 05:16:40.000000000,closed,7,What is the exact syntax of globs in --exclude option?
+329,2018-12-10 07:20:09.000000000,2019-01-01 22:34:11.000000000,closed,22,Using globs in config file significantly slows down SwiftFormat
+328,2018-12-10 07:15:58.000000000,2018-12-11 06:27:47.000000000,closed,5,SwiftFormat doesn't detect .swiftformat config
+327,2018-12-09 00:29:35.000000000,2018-12-10 19:01:16.000000000,closed,2,indentcase bug
+326,2018-12-02 20:15:49.000000000,1970-01-01 00:00:00.000000001,open,1,blankLinesAtStartOfScope for closures with arguments next to the opening bracket
+325,2018-11-28 04:03:56.000000000,2018-11-28 20:22:21.000000000,closed,2,Opening angle-bracket for generic type mistakenly parsed as less-than?
+324,2018-11-25 21:30:11.000000000,2018-11-25 21:40:20.000000000,closed,2,"Renames the app to ""swiftformat"" when coming in via SPM"
+323,2018-11-20 06:06:52.000000000,2018-11-21 00:34:39.000000000,closed,5,Add option to group @testable imports at the top or bottom
+322,2018-11-20 02:25:26.000000000,2018-11-23 15:40:22.000000000,closed,6,Remove all in UserDefaults associated with the group on reset to default
+321,2018-11-13 15:02:10.000000000,2018-11-23 19:13:09.000000000,closed,4,Parsing issue with Void as parameter
+320,2018-11-07 18:10:42.000000000,2019-01-19 17:10:35.000000000,closed,8,Opt-out of nested `beforeFirst` behaviour
+319,2018-10-25 10:39:07.000000000,2018-11-23 19:13:37.000000000,closed,1,ifdef gets indented incorrectly if you have comments after #endif
+318,2018-10-18 13:10:25.000000000,1970-01-01 00:00:00.000000001,open,4,Disable indentation in multi-line if statements
+317,2018-10-16 16:38:34.000000000,1970-01-01 00:00:00.000000001,open,2,Rule request: Order class properties and methods by access control value
+316,2018-10-14 20:48:34.000000000,2018-12-15 01:24:28.000000000,closed,5,Replace double ampersand with comma #315
+315,2018-10-11 23:04:36.000000000,2018-12-15 05:17:31.000000000,closed,11,Replace double ampersand with comma 
+314,2018-10-11 22:30:00.000000000,2019-01-30 05:50:22.000000000,closed,2,Remove unnecessary back ticks
+313,2018-10-06 15:59:32.000000000,2018-10-11 13:21:22.000000000,closed,6,a case report: CIVector.init
+312,2018-10-06 15:53:17.000000000,2018-10-11 17:30:49.000000000,closed,6,a case report: for combining String and #macro with '+' literal while using as a parameter.
+311,2018-10-05 01:36:09.000000000,2018-10-05 02:14:50.000000000,closed,3,Remove space in Readme
+310,2018-09-28 15:08:48.000000000,2018-09-29 02:14:01.000000000,closed,4,Don't apply strongOutlets to delegates
+309,2018-09-28 12:42:13.000000000,2018-09-29 23:47:09.000000000,closed,5,Breaks statements like `self.view = view`
+308,2018-09-28 01:10:57.000000000,2018-09-29 02:36:33.000000000,closed,4,Extend `--wrapCollections beforeFirst` to nested collections
+307,2018-09-27 18:52:09.000000000,2018-09-27 18:53:38.000000000,closed,2,Remove extra space in `--exclude` config example
+306,2018-09-19 09:44:03.000000000,2019-11-23 18:10:58.000000000,closed,2,Is there a way to change the closing parenthesis/curly bracket indentation?
+305,2018-09-18 04:00:36.000000000,2018-09-22 08:50:08.000000000,closed,6,empty blocks are formatted as {}
+304,2018-09-12 00:16:10.000000000,2018-09-13 15:12:12.000000000,closed,2,Adding config options to rule descriptions.
+303,2018-09-11 23:10:47.000000000,2018-09-12 00:17:04.000000000,closed,1,How do I actually use this?
+302,2018-09-05 22:36:15.000000000,2018-09-08 11:03:11.000000000,closed,6,Required parentheses stripped away from function types
+301,2018-09-03 05:32:32.000000000,2018-09-05 17:34:42.000000000,closed,1,Add glob support in list of excluded files
+300,2018-09-03 05:24:22.000000000,2018-09-05 17:37:17.000000000,closed,5,Add silent/quiet option for command line tool
+299,2018-09-03 00:42:46.000000000,1970-01-01 00:00:00.000000001,open,2,Initializing from a metatype value must reference 'init' explicitly
+298,2018-09-02 21:42:46.000000000,2018-09-05 17:41:51.000000000,closed,4,Formatter gets stuck on function imports from a module
+297,2018-09-02 14:48:51.000000000,2018-09-03 00:56:28.000000000,closed,2,Omit unrequired parameter for Mint install
+296,2018-08-30 01:37:46.000000000,2018-08-30 20:21:31.000000000,closed,4,Exclude directory with a space
+295,2018-08-25 19:07:46.000000000,2018-08-26 14:28:44.000000000,closed,3,Rf develop newline at swiftformat eof
+294,2018-08-24 15:13:47.000000000,2019-11-24 16:43:33.000000000,closed,6,Wraparguments for wrong formatted function not working
+293,2018-08-23 00:51:58.000000000,2018-09-05 17:42:27.000000000,closed,2,.swiftformat file should end with a linefeed in all configurations
+292,2018-08-20 14:10:30.000000000,2018-08-21 22:09:27.000000000,closed,4,Linebreaks before ending parenthesis in function calls should be a rule
+291,2018-08-13 23:15:58.000000000,2018-08-21 21:30:51.000000000,closed,9,How to share swiftformat rules and options between collaborators on a project?
+290,2018-08-13 19:38:28.000000000,2018-08-21 22:11:40.000000000,closed,6,Errors have ANSI color even when stderr is not a terminal
+289,2018-08-10 15:49:29.000000000,2018-08-13 12:24:00.000000000,closed,5,Clarify some options in doc and in command line help
+288,2018-08-09 00:54:20.000000000,2018-08-13 12:24:30.000000000,closed,3,Error on install via homebrew
+287,2018-08-02 15:37:36.000000000,2018-08-05 12:45:48.000000000,closed,1,Enum cases named a Swift keyword get misinterpreted
+286,2018-07-30 21:40:24.000000000,2018-08-01 14:31:18.000000000,closed,6,Rule `todos` applied to `where` keyword.
+285,2018-07-29 21:17:16.000000000,2018-08-01 13:48:35.000000000,closed,3,Unable to install specific SwiftFormat version via brew
+284,2018-07-27 12:56:47.000000000,2018-07-30 12:28:37.000000000,closed,5,Using multi line string literal for Help
+283,2018-07-27 02:59:58.000000000,2018-07-30 14:37:56.000000000,closed,3,#imageLiteral handling bug
+282,2018-07-26 18:21:15.000000000,2018-07-27 13:13:01.000000000,closed,4,Use placeholder app icon
+281,2018-07-26 09:28:02.000000000,2018-07-30 14:38:07.000000000,closed,2,Cannot parse #if/#endif in enum
+280,2018-07-25 00:09:44.000000000,2018-07-25 02:09:27.000000000,closed,2,redundantParens broke optional completion closure 
+279,2018-07-23 10:20:58.000000000,2018-07-23 17:36:09.000000000,closed,2,Fixed custom operator tokenisation
+278,2018-07-21 21:09:22.000000000,2018-07-30 14:38:38.000000000,closed,3,FormatCommandError error 0 in Playgrounds #56
+277,2018-07-20 10:23:53.000000000,2018-07-23 17:36:09.000000000,closed,4,Custom operators parsing
+276,2018-07-19 17:42:07.000000000,2018-10-11 17:31:09.000000000,closed,6,Generic enums with type constraints fail to parse
+275,2018-07-18 22:42:27.000000000,2018-07-19 23:50:08.000000000,closed,6,Parenthesis around 'if condition' getting removed upon formatting 
+274,2018-07-16 15:17:03.000000000,2020-08-09 10:51:07.000000000,closed,1,Can I set up blankLinesAtStartOfScope?
+273,2018-07-13 19:11:09.000000000,2018-07-16 14:09:51.000000000,closed,6,Add support for swiftformat:enable:all and swiftformat:disable:all
+272,2018-07-10 21:13:45.000000000,2018-07-11 13:31:38.000000000,closed,2,Add lint option
+271,2018-07-10 12:55:50.000000000,2018-07-25 02:13:46.000000000,closed,1,Non-zero exit code on error
+270,2018-07-06 20:50:05.000000000,2018-07-11 13:33:54.000000000,closed,1,Fix broken link in README
+269,2018-07-05 14:04:31.000000000,2018-07-24 00:44:16.000000000,closed,1,redundant parens not removed around tuple argument
+268,2018-07-04 17:19:46.000000000,2018-07-05 12:05:30.000000000,closed,2,Error: Parentheses removed from closure call via positional index (tuple)
+267,2018-07-04 00:54:19.000000000,2018-07-25 02:09:09.000000000,closed,7,--dryrun option has no return value
+266,2018-06-30 14:50:20.000000000,2018-07-02 17:32:21.000000000,closed,1,Passing != to a function
+265,2018-06-28 23:01:10.000000000,2018-07-23 18:55:50.000000000,closed,1,Add instructions to run SwiftFormat locally
+264,2018-06-08 18:30:32.000000000,2018-06-25 12:29:53.000000000,closed,1,"Losing file history and can't ""undo"" and changes"
+263,2018-05-24 03:56:35.000000000,2018-06-25 12:31:32.000000000,closed,1,Unwanted whitespace inserted between carrot brackets
+262,2018-05-22 12:02:18.000000000,2018-07-24 00:44:48.000000000,closed,3,Cannot activate the Xcode extension
+261,2018-05-21 20:20:10.000000000,1970-01-01 00:00:00.000000001,open,12,Add `insertBlankLineAtStartOfScope` rule
+260,2018-05-21 20:01:21.000000000,2018-05-26 21:52:55.000000000,closed,3,Rename `insertBlankLines` and `removeBlankLines`  rules for clarity
+259,2018-05-18 21:01:51.000000000,2018-06-25 12:30:57.000000000,closed,5,SwiftFormat inserts self where local variable shadows class instance method
+258,2018-05-11 13:26:01.000000000,2018-05-14 21:30:50.000000000,closed,1,Add failing test for header doc and fileHeader rule
+257,2018-05-07 17:03:40.000000000,2018-05-10 11:41:51.000000000,closed,1,Handle absolute paths
+256,2018-05-02 23:24:53.000000000,1970-01-01 00:00:00.000000001,open,6,Plug in/Extension architecture
+255,2018-05-01 22:09:50.000000000,1970-01-01 00:00:00.000000001,open,0,Need a rule for adding a blank line between consecutive cases in a switch block
+254,2018-05-01 06:09:53.000000000,1970-01-01 00:00:00.000000001,open,2,Rule request: Ability to force a blank line at the start of scope
+253,2018-04-30 21:11:33.000000000,2018-05-10 13:13:29.000000000,closed,8,@testable is being removed from imports in test files
+252,2018-04-21 20:39:55.000000000,2018-06-22 00:22:05.000000000,closed,2,Build fase not working
+251,2018-04-20 02:46:41.000000000,2018-08-21 21:34:36.000000000,closed,1,How to Disable [Key : Second Line Value] Alignment?
+250,2018-04-19 15:31:15.000000000,2018-05-10 11:44:06.000000000,closed,1,Excluding deleted swift files from pre-commit hook
+249,2018-04-17 00:54:18.000000000,2018-04-17 11:49:20.000000000,closed,3,Export SwiftFormat for SPM
+248,2018-04-16 07:30:38.000000000,2018-04-19 13:21:28.000000000,closed,0,Reorder of defaulted parameters
+247,2018-04-14 19:01:51.000000000,2018-04-17 12:11:29.000000000,closed,1,Add integration with pre-commit tool
+246,2018-04-14 17:23:10.000000000,2018-04-17 15:20:16.000000000,closed,2,Standard Output
+245,2018-04-14 17:22:06.000000000,2020-08-04 01:42:18.000000000,closed,5,Partial formatting
+244,2018-04-14 17:18:55.000000000,2018-08-05 12:46:19.000000000,closed,3,One liner
+243,2018-04-13 13:35:17.000000000,1970-01-01 00:00:00.000000001,open,6,Rule to indent multiline strings
+242,2018-04-11 18:11:34.000000000,2018-05-18 11:52:13.000000000,closed,5,Header strip deletes documentation
+241,2018-04-06 23:17:51.000000000,2018-04-18 12:02:06.000000000,closed,2,Whitespace between try!/try? and .init() Removed
+240,2018-04-06 01:26:32.000000000,2019-02-05 06:59:44.000000000,closed,6,Linux support?
+239,2018-04-04 12:37:46.000000000,1970-01-01 00:00:00.000000001,open,2,Separate indentation rules for closures
+238,2018-03-28 18:31:32.000000000,2018-04-10 10:19:16.000000000,closed,7,Add support for Swift Package Manager
+237,2018-03-22 19:07:06.000000000,2018-07-03 20:09:06.000000000,closed,1,Code and comments between imports getting deleted
+236,2018-03-21 02:16:35.000000000,2018-08-21 21:35:03.000000000,closed,2,Special Xcode UITesting markup is modified by SwiftFormat
+235,2018-03-11 19:11:13.000000000,2018-03-16 12:54:25.000000000,closed,2,sortedimports: code between imports gets deleted
+234,2018-03-08 16:01:44.000000000,2018-06-25 12:32:42.000000000,closed,3,Wrong indentation of conditional compilation blocks around switch cases
+233,2018-03-06 16:30:24.000000000,2018-03-07 18:11:01.000000000,closed,2,Failed to format some mathmatic function
+232,2018-03-05 21:08:29.000000000,2018-06-25 12:34:11.000000000,closed,3,spaceAroundOperators and wildcard
+231,2018-03-01 02:16:51.000000000,2018-03-06 01:14:59.000000000,closed,2,Use libSyntax?
+230,2018-02-27 10:39:27.000000000,2018-03-16 02:02:07.000000000,closed,3,swiftformat 0.26.1 redundantReturn confused by if #available
+229,2018-02-26 11:10:28.000000000,2018-02-26 23:00:56.000000000,closed,4,unusedArguments adds an underscore to closure argument types
+228,2018-02-23 22:55:48.000000000,2018-07-05 21:13:53.000000000,closed,11,Allow option configuration for the Xcode Extension #216
+227,2018-02-21 21:32:20.000000000,2018-02-22 02:14:34.000000000,closed,2,--inferoptions returns options which are deprecated
+226,2018-02-21 08:26:34.000000000,2018-02-22 02:15:15.000000000,closed,3,redundantParens removes required parentheses for function call after #selector
+225,2018-02-21 08:01:40.000000000,2018-02-22 02:15:32.000000000,closed,1,`redundantParens` removes required parentheses for tuples of closure value.
+224,2018-02-21 07:58:42.000000000,2018-02-22 02:15:43.000000000,closed,1,`duplicateImports` breaks with more complicated import statements
+223,2018-02-21 00:26:06.000000000,2020-05-28 02:59:00.000000000,closed,12,Recommended git hook commits unstaged changes if file has staged lines
+222,2018-02-20 15:34:52.000000000,2018-02-20 15:37:51.000000000,closed,2,fix typo in insertlines
+221,2018-02-20 14:38:25.000000000,2018-02-20 23:27:42.000000000,closed,4,SwiftFormat screws up override init
+220,2018-02-15 23:40:11.000000000,2018-02-20 23:28:38.000000000,closed,1,Some header rule exception variations don't work
+219,2018-02-13 09:09:59.000000000,1970-01-01 00:00:00.000000001,open,2,Indent comments within blocks
+218,2018-02-10 22:05:12.000000000,2018-02-10 22:30:30.000000000,closed,2,Allow Communication between the Xcode Extension and Companion App
+217,2018-02-09 22:28:44.000000000,2018-02-23 18:29:30.000000000,closed,4,WIP: Don't Merge: Exploration for #216
+216,2018-02-07 22:53:12.000000000,2018-07-30 14:40:09.000000000,closed,6,Allow option configuration for the Xcode Extension
+215,2018-02-07 18:45:12.000000000,2018-02-11 01:52:38.000000000,closed,3,Remove duplicated imports
+214,2018-02-05 22:09:14.000000000,2018-02-05 22:27:46.000000000,closed,2,--insertlines --removelines 
+213,2018-02-01 13:13:53.000000000,2018-02-01 14:04:45.000000000,closed,2,Xcode Source Editor Extension installation issue
+212,2018-02-01 08:01:36.000000000,2018-02-01 13:40:31.000000000,closed,8,AppKit changes for the wrapper app
+211,2018-01-30 04:44:54.000000000,2018-02-01 06:03:24.000000000,closed,5,WIP: Xcode Extension: Possible to enable / disable Rules to be apply
+210,2018-01-29 15:47:56.000000000,2018-02-02 03:04:53.000000000,closed,1,[FEATURE REQUEST] blankLinesAtBeginningOfScope
+209,2018-01-14 23:37:13.000000000,2018-02-02 03:05:07.000000000,closed,3,"Unable to ignore comments, adding indents to empty commented lines"
+208,2018-01-11 17:30:44.000000000,2018-01-13 01:12:04.000000000,closed,3,Inconsistent whitespace in multi-line string literal
+207,2018-01-04 06:45:39.000000000,2020-07-31 02:30:33.000000000,closed,4,{ } don't align properly with --allman when used as function arguments
+206,2017-12-28 08:59:03.000000000,2020-07-31 02:34:11.000000000,closed,6,Rule to force position of else statement in multiline guard statements
+205,2017-12-27 05:36:14.000000000,2017-12-27 07:51:07.000000000,closed,1,`redundantSelf` false positive when capturing self in escaping autoclosure
+204,2017-12-25 13:25:56.000000000,2018-01-13 01:12:20.000000000,closed,2,README mistakes
+203,2017-12-21 22:15:11.000000000,2018-04-28 21:26:39.000000000,closed,0,Add --no-ansi option
+202,2017-12-21 21:09:29.000000000,2017-12-21 21:11:35.000000000,closed,1,Add instructions for danger-swiftformat
+201,2017-12-16 03:09:23.000000000,2017-12-19 04:39:53.000000000,closed,2,"Fix ""exclusive accesses"" violations"
+200,2017-12-14 19:15:30.000000000,2018-07-11 14:20:12.000000000,closed,5,Added preserving wrap mode
+199,2017-11-29 03:35:06.000000000,2018-07-30 14:40:48.000000000,closed,4,Grouping for fraction digits
+198,2017-11-28 20:42:38.000000000,2018-08-23 20:18:27.000000000,closed,5,Split wrapArguments to separate function declaration and implementation
+197,2017-11-28 05:46:25.000000000,2019-02-05 06:51:07.000000000,closed,1,"Add ""whitelist"" of methods that use @autoclosure in order to stop removing ""self"""
+196,2017-11-27 13:33:59.000000000,2017-11-30 05:26:09.000000000,closed,2,Option to force // MARK styling
+195,2017-11-23 18:07:41.000000000,2017-11-24 22:50:43.000000000,closed,2,Update README.md
+194,2017-11-23 14:03:55.000000000,2017-11-24 22:50:26.000000000,closed,2,Add sortedImports rule
+193,2017-11-22 12:10:12.000000000,2017-11-25 03:59:17.000000000,closed,4,Placeholder for 3 possible Issues
+192,2017-11-19 04:33:35.000000000,2017-11-20 05:03:00.000000000,closed,3,Issue with parenthesis and bool condition
+191,2017-11-15 21:29:30.000000000,1970-01-01 00:00:00.000000001,open,3,Continuation indent for class/struct
+190,2017-11-15 00:27:51.000000000,2017-11-20 05:04:45.000000000,closed,4,"""self"" incorrectly stripped from expression inside autoclosure"
+189,2017-11-14 21:38:56.000000000,2017-11-20 04:45:06.000000000,closed,1,Howto indent with tab?
+188,2017-11-09 14:10:15.000000000,2017-11-10 23:43:18.000000000,closed,1,Error remove nil inside Codable struct
+187,2017-10-31 15:07:25.000000000,2020-07-31 02:37:58.000000000,closed,4,Add an Option to indent method's closing brace if the last param is an array or closure
+186,2017-10-31 10:47:43.000000000,2019-11-23 18:06:10.000000000,closed,1,`indent` Rule: .flatMap on new line unindents unexpectedly
+185,2017-10-30 01:29:27.000000000,2017-11-10 23:43:35.000000000,closed,4,Swift 4 dictionary default failure
+184,2017-10-29 11:51:34.000000000,1970-01-01 00:00:00.000000001,open,0,Rule Suggestion: blankLinesAtEndOfScope --insert option
+183,2017-10-28 02:48:07.000000000,2018-04-13 16:50:22.000000000,closed,14,Build with Swift PM
+182,2017-10-18 00:41:35.000000000,2017-10-22 20:30:22.000000000,closed,3,"""hoistPatternLet"" inserts ""let"" keyword before ""import"""
+181,2017-10-17 01:35:21.000000000,2019-02-05 06:58:42.000000000,closed,7,Comment indentation in switch statement
+180,2017-10-10 20:37:01.000000000,2017-10-12 02:16:16.000000000,closed,3,"Spacing around ranges edge case with =, results in invalid code"
+179,2017-10-06 12:04:39.000000000,2017-10-08 20:18:58.000000000,closed,3,Swift 4's key paths not supported
+178,2017-09-27 15:49:18.000000000,2018-04-13 16:50:22.000000000,closed,4,Build with Swift Package Manager
+177,2017-09-27 14:39:43.000000000,2017-11-30 17:48:22.000000000,closed,5,Add dry mode
+176,2017-09-20 14:29:02.000000000,2017-09-21 18:10:21.000000000,closed,3,Invalid formatting using the inline let pattern
+175,2017-09-09 00:45:49.000000000,2018-08-21 13:18:57.000000000,closed,5,Log skipped files
+174,2017-09-07 20:05:18.000000000,2020-08-04 01:40:53.000000000,closed,11,"--trimwhitespace ""nonblank-lines"" add spaces, while it shouldn't"
+173,2017-09-07 01:46:03.000000000,2017-10-22 19:26:01.000000000,closed,1,Whitespace and extra line at end of file
+172,2017-09-06 20:36:17.000000000,1970-01-01 00:00:00.000000001,open,1,"Improve space after if let foo = ..., let bar = ..., "
+171,2017-09-04 15:43:14.000000000,2017-09-04 20:34:03.000000000,closed,0,Update README.md - Fix git pre-commit hook whitespace issue
+170,2017-08-28 21:58:48.000000000,2017-09-04 22:35:45.000000000,closed,2,Swift 4 build errors
+169,2017-08-24 16:02:23.000000000,2017-09-04 22:36:18.000000000,closed,2,Failure to build on macOS 10.13 with Xcode 9
+168,2017-08-24 00:41:04.000000000,2017-09-04 20:33:06.000000000,closed,1,False negative when inserting `self.`
+167,2017-08-21 02:08:13.000000000,2017-08-21 21:27:33.000000000,closed,3,Insert `self.` false positive
+166,2017-08-20 15:23:14.000000000,2017-09-04 22:35:22.000000000,closed,3,Fixing build issue in Xcode 9 beta 5
+165,2017-08-11 14:21:02.000000000,2017-10-27 16:51:00.000000000,closed,1,Improve spaceAroundComments
+164,2017-08-01 21:27:09.000000000,2018-08-03 14:56:16.000000000,closed,2,Rules readme fixes
+163,2017-08-01 21:05:10.000000000,2019-11-24 16:46:52.000000000,closed,1,Make examples more easily readable
+162,2017-07-31 19:42:16.000000000,2017-08-21 11:28:40.000000000,closed,6,Update README.md
+161,2017-07-31 19:40:17.000000000,2017-08-21 11:28:40.000000000,closed,2,cocoapods integration instructions not correct.
+160,2017-07-28 23:25:37.000000000,2017-07-31 12:03:33.000000000,closed,6,Changing text in multiline strings
+159,2017-07-28 20:07:37.000000000,2017-07-28 20:14:11.000000000,closed,2,Cannot disable rules
+158,2017-07-13 15:44:55.000000000,2017-07-13 15:55:16.000000000,closed,4,SwiftFormat as lint-only tool
+157,2017-07-12 21:59:42.000000000,2017-07-31 12:03:41.000000000,closed,2,Comment before closure at beginning of line removed
+156,2017-07-11 00:50:33.000000000,1970-01-01 00:00:00.000000001,open,2,Reverse trailing closure rule
+155,2017-07-05 18:49:40.000000000,2020-05-28 03:01:01.000000000,closed,3,pre-commit script commits unstaged changes
+154,2017-07-03 10:21:32.000000000,2017-07-03 23:23:34.000000000,closed,2,Incorrectly inserts space into array slice syntax.
+153,2017-07-01 20:11:20.000000000,2017-07-03 23:24:00.000000000,closed,4,README.md/rules/semicolons/3rd example no change
+152,2017-07-01 14:32:49.000000000,2017-10-27 16:51:36.000000000,closed,2,switch indentation
+151,2017-06-30 18:27:02.000000000,2017-07-03 23:24:21.000000000,closed,2,Self option adds self to type(of:) 
+150,2017-06-26 20:33:04.000000000,2017-06-29 21:16:30.000000000,closed,1,Type.init sometimes removed when it is needed
+149,2017-06-25 18:17:31.000000000,2018-05-03 21:49:56.000000000,closed,3,Rule Suggestion: Remove Blank Lines After {
+148,2017-06-19 17:34:27.000000000,2017-06-20 17:42:58.000000000,closed,1,Remove explicit .init
+147,2017-06-08 14:52:44.000000000,2017-07-08 13:26:51.000000000,closed,7,Inconsistent while formatting method with single argument.
+146,2017-06-08 13:47:13.000000000,2017-06-08 13:53:04.000000000,closed,1,Fix for the pre-commit grep
+145,2017-06-07 06:14:36.000000000,2017-06-08 07:25:42.000000000,closed,2,Format on save?
+144,2017-06-06 18:20:56.000000000,2017-06-20 21:27:59.000000000,closed,2,pre-commit hook example does not work for paths with spaces
+143,2017-06-05 11:02:59.000000000,2017-06-20 21:28:21.000000000,closed,3,Comment in protocol list changes indentation
+142,2017-06-02 03:32:13.000000000,2017-11-30 05:27:57.000000000,closed,3,File and/or line level exclusions
+141,2017-05-30 17:48:37.000000000,2017-05-31 17:21:47.000000000,closed,2,spaceAroundParens removes space between closure type and capture list.
+140,2017-05-24 16:49:55.000000000,2017-05-31 17:21:23.000000000,closed,9,Adds line break to if when 2. argument is in parentess 
+139,2017-05-18 00:49:43.000000000,2017-05-18 09:04:56.000000000,closed,3,"Add check for Pointer Function call ""&"" for spaceAroundOperator."
+138,2017-05-15 20:55:47.000000000,2017-05-31 17:22:12.000000000,closed,3,"spaceAroundOperators adds space in front of ""&"" in pointer function calls"
+137,2017-05-11 18:17:51.000000000,2017-05-14 15:54:51.000000000,closed,1,This resolves parentheses removal issue in case`for condition where method() {}`
+136,2017-05-11 15:21:50.000000000,2017-05-14 23:26:05.000000000,closed,3,Error when formatting syntax related to `for condition where method() {}`
+135,2017-05-05 16:36:55.000000000,2017-05-14 23:25:18.000000000,closed,2,`nil` is not redundant when initializing lazy properties
+134,2017-05-04 17:20:07.000000000,2020-01-02 20:33:44.000000000,closed,6,Question: Why is the Xcode Source Editor Extension not in brew
+133,2017-05-04 10:26:48.000000000,2020-07-31 03:05:53.000000000,closed,6,Adding SwiftFormat to Swift Source Compatibility Test Suite
+132,2017-05-03 22:53:10.000000000,2020-01-01 04:58:36.000000000,closed,3,`redundantSelf` rule adding backticks to method name if it's same as keyword
+131,2017-04-29 20:56:57.000000000,2018-02-02 03:07:29.000000000,closed,29,How can I change settings in Xcode plugin?
+130,2017-04-26 18:45:36.000000000,2017-06-20 21:28:56.000000000,closed,3,Request: Remove explicit .init when possible
+129,2017-04-24 15:48:10.000000000,2017-04-27 01:09:08.000000000,closed,3,with --self insert: decomposing associated value with same name as member var causes confusion
+128,2017-04-07 12:26:10.000000000,2017-04-07 12:55:34.000000000,closed,1,"Add to README: diff view to rules, table of contents, wording polish"
+127,2017-04-06 18:26:39.000000000,2018-08-03 14:48:22.000000000,closed,10,Add --config to pass config file from command line
+126,2017-04-06 00:13:46.000000000,2018-09-11 01:09:11.000000000,closed,13,Removing necessary explicit reference to self in autoclosures.
+125,2017-04-03 22:00:29.000000000,2017-04-04 17:54:19.000000000,closed,4,Excluded files
+124,2017-03-29 10:51:30.000000000,2017-03-30 21:15:59.000000000,closed,3,SwiftFormat does not handle nested enum in case
+123,2017-03-28 04:13:07.000000000,2017-03-28 21:44:05.000000000,closed,3,--self insert breaks code in some use cases
+122,2017-03-25 02:39:04.000000000,2017-03-28 21:45:11.000000000,closed,4,Confusing how to enable/disable certain rules
+121,2017-03-23 11:52:44.000000000,2017-03-23 15:56:43.000000000,closed,6,Associated enum formatting issue
+120,2017-03-23 09:21:48.000000000,2017-03-24 22:53:56.000000000,closed,10,redundantSelf not working all the time
+119,2017-03-18 05:14:50.000000000,2019-12-01 20:50:36.000000000,closed,9,Support line length limits
+118,2017-03-18 00:02:46.000000000,2017-03-18 01:54:31.000000000,closed,1,Wrong removal of self 
+117,2017-03-17 23:48:05.000000000,2017-10-27 16:52:06.000000000,closed,2,Opposite of `elseOnSameLine`?
+116,2017-03-17 07:24:27.000000000,2017-03-18 03:18:42.000000000,closed,4,Add detailed instructions for installing as pod 
+115,2017-03-16 14:17:12.000000000,2017-03-18 01:54:54.000000000,closed,2,`--patternlet inline` generates invalid code
+114,2017-03-16 14:14:35.000000000,2017-03-30 21:16:20.000000000,closed,7,Removed backtick causes compiler to fail
+113,2017-03-16 12:13:28.000000000,2017-03-18 01:55:36.000000000,closed,2,self. removed where necessary (v0.26.2)
+112,2017-03-15 22:34:27.000000000,2017-03-18 01:55:44.000000000,closed,2,"space following ""<?>"" is removed"
+111,2017-03-15 18:07:22.000000000,2017-03-15 18:42:07.000000000,closed,3,Add --exclude so that you can exclude files/folders from being formatted
+110,2017-03-15 05:29:42.000000000,2017-03-24 22:59:16.000000000,closed,2,0.26.1 :  redundantself flag 
+109,2017-03-15 02:24:14.000000000,2017-03-15 03:02:54.000000000,closed,0,added tvOS to podspec
+108,2017-03-15 01:07:07.000000000,2017-03-15 11:21:03.000000000,closed,1,removal of non-redundant return
+107,2017-03-14 21:56:09.000000000,1970-01-01 00:00:00.000000001,open,3,EditorConfig support
+106,2017-03-14 21:16:51.000000000,2017-03-15 11:21:12.000000000,closed,1,0.26.1 removes required self in case of ambiguous variable names
+105,2017-03-14 03:23:54.000000000,2017-03-14 12:57:15.000000000,closed,1,0.26 deletes self where it is required
+104,2017-03-13 21:41:42.000000000,2017-03-13 22:13:55.000000000,closed,2,Return keyword is removed when it should not.
+103,2017-03-11 04:35:07.000000000,2017-03-11 05:39:08.000000000,closed,0,Fix README typos and indentations
+102,2017-03-09 16:48:01.000000000,2017-03-09 23:27:52.000000000,closed,1,Backtick is removed for `Self`
+101,2017-03-09 15:20:56.000000000,2017-03-09 22:37:21.000000000,closed,1,Update README for numberFormatting
+100,2017-03-09 04:02:25.000000000,2017-03-09 23:28:30.000000000,closed,6,Removal of Non-redundant return
+99,2017-03-08 07:15:34.000000000,2017-03-08 23:46:53.000000000,closed,4,unusedArguments should implicitly bypass required initializers
+98,2017-03-07 17:56:07.000000000,1970-01-01 00:00:00.000000001,open,2,Remove multiple spaces in comments
+97,2017-02-28 19:07:26.000000000,2017-02-28 20:29:07.000000000,closed,2,Using arguments as a build phase in Xcode project
+96,2017-02-24 08:38:06.000000000,2017-02-28 23:27:35.000000000,closed,3,Add an instruction to install the CLI tool via CocoaPods.
+95,2017-02-24 05:58:59.000000000,2017-02-24 06:27:42.000000000,closed,3,Spurious unscore added
+94,2017-02-21 23:34:47.000000000,2017-03-01 00:09:42.000000000,closed,6,Nested switch statements
+93,2017-02-15 19:17:39.000000000,2017-02-16 14:05:20.000000000,closed,1,Stripping used closure parameters (part 2)
+92,2017-02-14 22:55:24.000000000,2017-02-16 05:14:25.000000000,closed,4,Include swiftformat binary.
+91,2017-02-14 10:02:24.000000000,2017-02-16 14:05:46.000000000,closed,3,Support Cocoapods Installation
+90,2017-02-13 19:38:23.000000000,2017-02-14 01:37:38.000000000,closed,1,Indentation of empty lines different from Xcode default
+89,2017-02-12 01:39:22.000000000,2017-02-13 01:37:38.000000000,closed,2,trailingCommas rule gets applied to a dictionary's type declaration
+88,2017-02-08 05:15:49.000000000,2017-02-09 23:21:32.000000000,closed,13,allman style not working
+87,2017-02-03 02:41:25.000000000,2017-02-09 23:20:03.000000000,closed,2,Unix piping doesn't seem to work
+86,2017-01-26 13:25:06.000000000,2017-01-27 00:38:03.000000000,closed,3,unusedArguments removes necessary parameter types and names in closures
+85,2017-01-19 14:56:10.000000000,2017-01-19 23:50:46.000000000,closed,2,Warning on '#!/usr/bin/swift' lines in swift scripts
+84,2017-01-19 14:22:49.000000000,2017-01-19 23:51:37.000000000,closed,3,Extension crashes Xcode when there is nothing to change
+83,2017-01-16 21:45:36.000000000,2017-01-19 05:24:14.000000000,closed,4,Handling unusedArguments in delegate methods
+82,2017-01-15 21:08:11.000000000,2017-01-15 21:50:56.000000000,closed,2,Compile error after applying format in generic type of UnsafePointer
+81,2017-01-13 02:47:46.000000000,2017-01-14 06:50:19.000000000,closed,2,[Q] Console coloring
+80,2017-01-11 08:54:08.000000000,2017-01-14 06:50:31.000000000,closed,3,Stripping used closure parameters (version 0.23)
+79,2017-01-09 22:37:13.000000000,2017-01-19 04:58:01.000000000,closed,2,weird unusedArguments replacement
+78,2017-01-05 18:30:13.000000000,2017-01-09 23:34:17.000000000,closed,2,SwiftFormat crashes with `illegal hardware instruction`
+77,2017-01-05 18:22:20.000000000,2017-01-09 23:34:04.000000000,closed,1,Errors on `enumerateSwiftFiles` are reported on the top-level directory
+76,2017-01-03 10:34:24.000000000,2017-01-04 00:31:45.000000000,closed,4,removes whitespace around inequality operator with repeated if statements
+75,2016-12-24 05:23:48.000000000,2018-08-05 12:56:03.000000000,closed,6,Config File
+74,2016-12-21 01:29:43.000000000,2017-03-14 01:39:16.000000000,closed,2,Add --verbose option
+73,2016-12-20 04:28:49.000000000,2016-12-20 05:35:41.000000000,closed,4,Missing space after paren removal from if statement starting with `!` operator
+72,2016-12-19 21:07:00.000000000,2016-12-20 05:48:20.000000000,closed,2,swiftformat adds unnecessary space after `?` in ternary operator expression
+71,2016-12-14 17:01:21.000000000,2016-12-15 04:55:58.000000000,closed,2,Allman style braces from command line
+70,2016-12-01 21:14:53.000000000,2016-12-03 04:11:05.000000000,closed,1,Swiftformat strips space between while loop and condition
+69,2016-11-30 01:18:23.000000000,2018-08-05 13:01:54.000000000,closed,7,Configure extension options without rebuilding
+68,2016-11-29 02:00:24.000000000,2016-12-01 21:54:50.000000000,closed,4,Can't install as an extension
+67,2016-11-28 16:08:38.000000000,2016-12-03 04:12:31.000000000,closed,6,Replaces symlinks with contents of the linked file
+66,2016-11-24 02:24:48.000000000,2017-12-21 21:12:55.000000000,closed,7,How to run on a CI?
+65,2016-11-23 18:47:17.000000000,2016-12-03 02:45:18.000000000,closed,0,Add Homebrew installation instruction
+64,2016-11-17 05:19:56.000000000,2016-11-17 14:01:54.000000000,closed,1,"if parenthesis, missing space formatting"
+63,2016-11-11 10:14:10.000000000,2016-11-11 14:13:55.000000000,closed,3,Closure Indenting
+62,2016-11-11 09:52:11.000000000,2016-11-11 14:14:16.000000000,closed,1,redundentParens error
+61,2016-11-09 16:39:42.000000000,2016-11-10 02:19:20.000000000,closed,2,Tokenizer splitting ..< when a comment follows
+60,2016-11-08 07:18:51.000000000,2016-11-09 04:47:57.000000000,closed,5,No header comments
+59,2016-11-08 05:47:58.000000000,2016-11-23 18:49:39.000000000,closed,2,Distribution Through Homebrew
+58,2016-11-07 20:21:45.000000000,2016-11-09 04:48:14.000000000,closed,3,Xcode generated availability check gets unnecessary whitespace
+57,2016-11-07 09:10:37.000000000,2016-11-09 04:49:15.000000000,closed,4,Extra space in generics II
+56,2016-11-04 11:01:36.000000000,2016-11-10 02:19:39.000000000,closed,1,Not Support for Playground
+55,2016-11-03 10:31:58.000000000,2016-11-03 22:31:22.000000000,closed,1,Incorrect formatting of `(Void) throws -> Void`
+54,2016-11-03 10:13:53.000000000,2016-11-03 22:31:33.000000000,closed,1,"Extra whitespace inserted into `Array<Array<Dictionary<String, Int>>>`"
+53,2016-11-03 10:05:11.000000000,2016-11-03 22:31:41.000000000,closed,1,Extra space inserted into `@autoclosure(escaping)`
+52,2016-11-03 07:18:13.000000000,2016-11-03 22:44:23.000000000,closed,3,Extra space in generic operators
+51,2016-11-01 19:28:23.000000000,2016-11-02 21:28:57.000000000,closed,0,Allow multiple files/folders as input on command line
+50,2016-10-22 11:51:01.000000000,2020-04-04 15:16:08.000000000,closed,7,Colon alignment for method arguments
+49,2016-10-18 00:15:47.000000000,2016-10-18 03:43:55.000000000,closed,6,SwiftFormat adds a comma at the end of array
+48,2016-10-17 23:00:27.000000000,2016-10-27 22:46:27.000000000,closed,2,Customizable SwiftFormat rules
+47,2016-10-14 21:47:22.000000000,2016-10-27 22:48:17.000000000,closed,1,Change indent rule: Keep indentation level of empty lines as the context around
+46,2016-10-14 16:24:54.000000000,2016-10-17 01:37:26.000000000,closed,2,Is preprocessing CLI arguments really necessary?
+45,2016-10-13 19:58:15.000000000,2016-10-14 11:52:19.000000000,closed,1,Fix missing space after closure attributes
+44,2016-10-13 19:46:55.000000000,2016-10-14 12:04:29.000000000,closed,1,Space after @escaping
+43,2016-10-11 08:36:50.000000000,2016-10-14 12:04:15.000000000,closed,3,Fragment option is swallowing trailing newlines
+42,2016-10-07 21:40:53.000000000,2016-10-22 01:48:47.000000000,closed,4,Multi param method calls indent doesn't match Xcode
+41,2016-10-06 23:33:53.000000000,2016-10-09 00:14:50.000000000,closed,4,Fragment support
+40,2016-10-06 06:00:21.000000000,2016-10-09 02:18:11.000000000,closed,6,Formatting of code fragments
+39,2016-10-05 13:55:06.000000000,2016-10-17 21:37:53.000000000,closed,12,Xcode source editor extension
+38,2016-10-05 04:11:31.000000000,2016-10-05 17:32:46.000000000,closed,2,Optional nill
+37,2016-10-05 03:40:53.000000000,2016-10-09 02:33:35.000000000,closed,9,Multi-line guard statement indentation
+36,2016-10-04 20:22:39.000000000,2016-10-04 21:00:53.000000000,closed,0,Fixed typo in README.md
+35,2016-10-04 17:32:34.000000000,2016-10-04 21:50:15.000000000,closed,1,More fun with indentation in closures
+34,2016-10-04 17:24:32.000000000,2016-10-04 21:49:47.000000000,closed,1,Enforce space between [* self] and parameters in closures
+33,2016-10-03 07:37:48.000000000,2016-10-04 14:10:09.000000000,closed,7,Incorrect indenting of closures
+32,2016-09-22 12:26:09.000000000,2016-09-25 02:52:53.000000000,closed,7,Incorrectly transforming documentation comments to code block documentation
+31,2016-09-16 22:17:06.000000000,2016-10-27 22:48:58.000000000,closed,3,Suggestion - Rules Configuration
+30,2016-09-16 07:09:15.000000000,2016-09-16 21:11:26.000000000,closed,3,The following configuration fails to be parsed.
+29,2016-09-15 00:20:14.000000000,2016-09-15 03:13:34.000000000,closed,1,"If ""default"" appears at the end of a line, the following one is indented."
+28,2016-09-14 20:28:55.000000000,2016-09-14 21:30:31.000000000,closed,3,Filemanager's default interfers with switch's default.
+27,2016-09-13 12:24:41.000000000,2016-09-13 14:50:22.000000000,closed,2,Newline bellow struct and class declaration
+26,2016-09-10 22:32:13.000000000,2016-09-12 21:25:35.000000000,closed,2,a bug about blankLinesBetweenScopes
+25,2016-09-10 22:00:01.000000000,2016-09-10 22:33:11.000000000,closed,4,Is it possbile to add an option for trailingCommas
+24,2016-09-09 10:38:43.000000000,2016-09-09 21:14:31.000000000,closed,2,"Swiftformat fails for ""case x is [String: String]:"""
+23,2016-09-08 09:32:46.000000000,2016-09-08 11:56:42.000000000,closed,2,Commas keep being appended for this array configuration.
+22,2016-09-06 15:18:26.000000000,2016-09-07 23:59:56.000000000,closed,7,Add support for directories with spaces in names
+21,2016-09-01 15:29:35.000000000,2016-09-01 23:15:29.000000000,closed,2,Suggest git hook
+20,2016-09-01 13:38:30.000000000,2016-09-08 00:00:53.000000000,closed,9,[Suggestion] Empty Line Inside Out-Most Brackets Rule
+19,2016-08-30 14:58:14.000000000,2016-08-30 16:07:47.000000000,closed,2,Suggest git hook
+18,2016-08-30 08:54:55.000000000,2016-08-30 10:41:00.000000000,closed,1,README.md improvement
+17,2016-08-29 18:34:24.000000000,2016-09-01 01:02:02.000000000,closed,2,Multiple newlines and EOF
+16,2016-08-29 09:28:32.000000000,2016-09-01 01:02:53.000000000,closed,3,..< and .. should no space
+15,2016-08-29 09:13:49.000000000,2016-08-29 12:18:14.000000000,closed,2,Formatting issues
+14,2016-08-27 21:16:40.000000000,2016-08-29 01:24:46.000000000,closed,2,Objc imported selector has unnecessary spacing after formatting
+13,2016-08-27 21:10:46.000000000,2016-08-29 01:24:40.000000000,closed,1,SwiftFormat removes space before enum case inside a closure
+12,2016-08-27 21:05:41.000000000,2016-08-29 01:24:32.000000000,closed,1,tuple binding has unexpected formatting
+11,2016-08-26 19:30:37.000000000,2016-08-27 02:53:37.000000000,closed,3,Reformat corrupted code
+10,2016-08-26 12:33:04.000000000,2016-08-27 02:36:08.000000000,closed,4,Callbacks Indentation Made Worse
+9,2016-08-26 00:50:36.000000000,2016-08-26 03:27:57.000000000,closed,2,Double wrapped optionals using dot notation not formatted correctly
+8,2016-08-25 20:36:46.000000000,2016-08-25 22:55:24.000000000,closed,2,-f option for Run Script in automate section of the README?
+7,2016-08-24 18:25:47.000000000,2016-08-24 21:31:40.000000000,closed,4,Generics type explicitly declared for a variable does not seems formatted correctly
+6,2016-08-23 16:24:38.000000000,2016-08-23 22:27:26.000000000,closed,1,Multiline logic statement gets wrong indentation if a line is commented
+5,2016-08-23 14:37:19.000000000,2016-08-23 22:28:53.000000000,closed,1,Optional generic closing > is treated as an operator
+4,2016-08-23 07:59:55.000000000,2016-08-23 22:28:42.000000000,closed,3,Comments do not get placed after brace when converting to KRN style braces
+3,2016-08-23 01:38:53.000000000,2016-08-23 02:52:52.000000000,closed,2,Suggestion: Allow private(set) formatting as Apple suggest it in the docs ?
+2,2016-08-23 01:36:46.000000000,2016-08-23 22:26:22.000000000,closed,5,Wrong spacing when specifying a type for a generic parameter
+1,2016-08-23 01:32:13.000000000,2016-08-23 02:53:09.000000000,closed,2,Wrong indenting level of if case 

@@ -1,0 +1,1532 @@
+id,created_at,closed_at,state,comments,title
+1532,2020-08-30 06:38:58.000000000,1970-01-01 00:00:00.000000001,open,1,Move panic payload state from Machine to Thread
+1531,2020-08-29 08:17:09.000000000,2020-08-29 15:42:27.000000000,closed,4,Test cargo miri target selection
+1530,2020-08-27 11:28:24.000000000,2020-08-27 11:50:07.000000000,closed,6,rustup
+1529,2020-08-27 11:21:25.000000000,2020-08-27 11:39:16.000000000,closed,2,Fix heap allocator test
+1528,2020-08-27 10:37:33.000000000,2020-08-27 10:59:13.000000000,closed,4,add encoding_rs OOB arithmetic to trophy case
+1527,2020-08-27 01:22:24.000000000,2020-08-27 11:07:25.000000000,closed,3,ManuallyDrop::new -> forget where possible
+1526,2020-08-26 16:52:19.000000000,2020-08-26 18:08:04.000000000,closed,7,Miri checks `ptr.read()` but not dereferencing a pointer (*ptr)
+1525,2020-08-26 04:06:17.000000000,2020-08-28 11:26:25.000000000,closed,6,Support --test/--bin/--lib in cargo-miri
+1524,2020-08-24 12:07:07.000000000,2020-08-24 12:29:57.000000000,closed,4,rustup; account for ptr_offset_from stabilization
+1523,2020-08-22 20:09:19.000000000,2020-08-22 20:29:50.000000000,closed,4,tweak test matrix
+1522,2020-08-22 16:32:23.000000000,2020-08-22 16:56:24.000000000,closed,4,emphasize that some flags are unsound to use
+1521,2020-08-21 12:54:28.000000000,2020-08-21 21:24:17.000000000,closed,4,Bump cargo_metadata to 0.11
+1520,2020-08-20 12:13:42.000000000,2020-08-20 12:50:13.000000000,closed,7,avoid promotion in alignment test to get different alignment on each try
+1519,2020-08-20 10:12:41.000000000,1970-01-01 00:00:00.000000001,open,17,"Feature Request: flag to disable ""inbounds"" check on inbounds pointer arithmetic"
+1518,2020-08-20 09:22:45.000000000,2020-08-21 11:27:51.000000000,closed,8,Remove byteorder dependency
+1517,2020-08-18 12:12:56.000000000,2020-08-18 12:55:17.000000000,closed,4,forgot to add alignment test loop in one test
+1516,2020-08-17 00:21:23.000000000,1970-01-01 00:00:00.000000001,open,8,Tests with `harness = false` aren't run
+1515,2020-08-16 23:07:49.000000000,2020-08-16 23:17:24.000000000,closed,2,Cargo env vars aren't set
+1514,2020-08-16 23:02:05.000000000,1970-01-01 00:00:00.000000001,open,0,`env::current_dir()` is not updated for non-root packages in a workspace
+1513,2020-08-16 20:32:24.000000000,2020-08-17 20:49:41.000000000,closed,23,add option to use force_int for alignment check
+1512,2020-08-16 17:55:30.000000000,1970-01-01 00:00:00.000000001,open,1,"""cargo miri test"" ignores ""required-features"""
+1511,2020-08-15 18:55:13.000000000,1970-01-01 00:00:00.000000001,open,0,Implement dup and close for stdin/stdout/stderr
+1510,2020-08-13 16:00:30.000000000,2020-08-13 17:32:21.000000000,closed,8,fix Stderr::as_file_handle error message
+1509,2020-08-13 13:36:17.000000000,2020-08-13 16:25:19.000000000,closed,5,Remove lifetime from FileDescriptor trait
+1508,2020-08-12 23:29:25.000000000,2020-08-13 00:44:37.000000000,closed,6,False positive around mem::forget and ManuallyDrop (or the `replace_with` crate has UB)
+1507,2020-08-11 13:39:53.000000000,2020-08-12 11:44:11.000000000,closed,4,Bump for rustc changes
+1506,2020-08-10 12:24:37.000000000,2020-08-10 12:49:33.000000000,closed,4,make sure opening a file fails with isolation enabled
+1505,2020-08-10 12:23:13.000000000,1970-01-01 00:00:00.000000001,open,12,Miri stdout is buffered and stdin in always empty
+1504,2020-08-10 11:07:40.000000000,2020-08-13 11:08:56.000000000,closed,9,add test for unused ill-formed constant
+1503,2020-08-09 20:18:56.000000000,2020-08-10 11:37:09.000000000,closed,6,accept some post-monomorphization errors
+1502,2020-08-08 17:24:39.000000000,2020-08-08 17:49:20.000000000,closed,4,fs: move isolation handling to inside trait
+1501,2020-08-08 13:44:03.000000000,2020-08-08 16:50:47.000000000,closed,4,Bubble up errors from FileDescriptor::as_file_handle
+1500,2020-08-08 12:28:01.000000000,2020-08-08 16:28:08.000000000,closed,8,rustup
+1499,2020-08-05 20:54:22.000000000,1970-01-01 00:00:00.000000001,open,6,Support more file operations on stdin/stdout/stderr
+1498,2020-08-05 15:38:56.000000000,2020-08-05 16:04:10.000000000,closed,4,rustup
+1497,2020-08-04 08:59:41.000000000,2020-08-04 20:06:21.000000000,closed,5,"Add `impl FileDescriptor` for stdin, stdout, stderr"
+1496,2020-08-03 16:24:57.000000000,2020-08-03 16:49:53.000000000,closed,4,rustup; inner_deref has been stabilized
+1495,2020-08-01 19:38:58.000000000,2020-08-03 20:16:18.000000000,closed,18,"Add FileDescriptor trait to abstract fn's on File's and Stdin,Stdout,Stderr"
+1494,2020-07-31 22:47:23.000000000,2020-08-01 16:43:05.000000000,closed,4,test unwinding past topmost frame of a stack
+1493,2020-07-31 20:30:31.000000000,2020-07-31 21:50:57.000000000,closed,7,test track_caller on trait objects
+1492,2020-07-30 20:32:33.000000000,2020-07-30 20:58:35.000000000,closed,4,Rustup
+1491,2020-07-29 20:24:31.000000000,2020-07-29 20:49:55.000000000,closed,4,only check-build the dummy xargo project
+1490,2020-07-28 16:01:16.000000000,2020-07-29 16:53:45.000000000,closed,4,rustup for new folder layout
+1489,2020-07-27 15:12:53.000000000,2020-07-28 02:50:22.000000000,closed,4,Adjust for new rustc alloc ID handling and deallocate thread-local statics
+1488,2020-07-26 14:15:04.000000000,2020-07-28 02:50:22.000000000,closed,2,"When do thread-local dtors execute relative to thread blocked on ""join""?"
+1487,2020-07-23 20:35:24.000000000,2020-07-28 01:56:27.000000000,closed,16,Miri rename undef uninit
+1486,2020-07-23 18:04:39.000000000,2020-08-04 20:06:21.000000000,closed,4,De-duplicate read/write code for stdin/out and other FDs
+1485,2020-07-23 17:55:32.000000000,2020-07-25 12:26:12.000000000,closed,7, Miri: use extern fn to expose interpreter operations to program; fix leak checker on Windows
+1484,2020-07-23 12:41:22.000000000,2020-07-23 13:05:59.000000000,closed,4,rustup
+1483,2020-07-18 19:59:08.000000000,2020-07-18 20:23:05.000000000,closed,4,set errno on stdout write failure
+1482,2020-07-18 15:01:08.000000000,2020-07-23 13:39:00.000000000,closed,7,Remove unreachable intrinsic
+1481,2020-07-17 04:22:08.000000000,1970-01-01 00:00:00.000000001,open,4,Improve memory leak identification
+1480,2020-07-16 16:31:25.000000000,2020-07-17 16:28:41.000000000,closed,16,fix non-fatal diagnostics stacktraces
+1479,2020-07-16 14:17:08.000000000,2020-07-16 14:42:14.000000000,closed,4,fs: remove an unnecessary intermediate cast
+1478,2020-07-15 12:09:50.000000000,2020-07-15 12:34:40.000000000,closed,4,make cfg(miri) greppable
+1477,2020-07-15 10:42:41.000000000,2020-07-15 11:07:42.000000000,closed,4,rustup; fix Windows TLS
+1476,2020-07-15 09:17:11.000000000,2020-07-20 02:43:57.000000000,closed,13,[question] isolation + threadlocal + test selection with miri
+1475,2020-07-11 22:57:11.000000000,2020-07-11 23:23:11.000000000,closed,4,test casting a dangling ptr back from an int
+1474,2020-07-11 13:07:47.000000000,2020-07-11 13:33:34.000000000,closed,4,go back to using canonicalize()
+1473,2020-07-09 15:20:30.000000000,2020-07-09 20:01:27.000000000,closed,6,Early exit if program doesn't contain a main function
+1472,2020-07-09 14:46:19.000000000,2020-07-09 15:28:08.000000000,closed,8,better way to get an absolute path
+1471,2020-07-09 11:00:09.000000000,2020-07-09 11:25:10.000000000,closed,4,"on Windows, strip the '\\?\' prefix from the canonical path"
+1470,2020-07-08 13:05:50.000000000,2020-07-08 14:27:10.000000000,closed,8,we cannot track all machine memory any more due to int-ptr-casts
+1469,2020-07-05 22:01:34.000000000,2020-07-05 22:28:41.000000000,closed,4,support relative XARGO_RUST_SRC
+1468,2020-07-05 15:45:26.000000000,2020-07-08 01:24:50.000000000,closed,4,Test uninit memory validation
+1467,2020-07-05 13:48:27.000000000,2020-07-07 22:30:02.000000000,closed,5,ICE around validation of `bool` and `char`
+1466,2020-07-03 13:19:51.000000000,2020-07-03 13:45:02.000000000,closed,4,set --target when building miri
+1465,2020-07-02 23:00:49.000000000,2020-07-03 10:30:54.000000000,closed,4,Remove likely and unlikely from intrinsics shim
+1464,2020-07-02 12:48:27.000000000,2020-07-02 13:14:30.000000000,closed,4,rustup
+1463,2020-07-02 12:04:43.000000000,2020-07-02 17:22:33.000000000,closed,9,add option to track call IDs
+1462,2020-06-28 22:40:42.000000000,2020-06-28 23:05:12.000000000,closed,4,fix some ignore-windows comments
+1461,2020-06-28 12:06:03.000000000,2020-06-28 15:22:34.000000000,closed,10,Implement rwlocks on Windows
+1460,2020-06-27 15:22:59.000000000,2020-06-27 15:49:54.000000000,closed,4,Re-organize platform-specific shims
+1459,2020-06-27 13:58:14.000000000,2020-06-27 14:37:20.000000000,closed,4,supply our own implementation of the CTFE pointer comparison intrinsics
+1458,2020-06-26 22:36:42.000000000,2020-06-26 23:00:50.000000000,closed,4,bump Rust
+1457,2020-06-25 13:35:12.000000000,2020-06-25 14:08:29.000000000,closed,4,rustup
+1456,2020-06-22 16:52:17.000000000,2020-07-07 22:30:02.000000000,closed,21,ICE when calling mem::uninitialized for an enum with 256 variants.
+1455,2020-06-22 13:39:05.000000000,2020-06-22 15:32:38.000000000,closed,11,Rustup
+1454,2020-06-20 16:35:54.000000000,2020-06-20 17:00:13.000000000,closed,4,Test raw_ptr macro
+1453,2020-06-20 13:49:14.000000000,2020-06-20 14:13:00.000000000,closed,4,bump Rust
+1452,2020-06-18 00:46:19.000000000,2020-07-09 20:01:27.000000000,closed,1,cargo-miri panic's on no_main binaries
+1451,2020-06-15 19:38:55.000000000,2020-06-15 20:04:55.000000000,closed,4,rustup
+1450,2020-06-15 12:58:55.000000000,2020-06-15 13:24:32.000000000,closed,4,rustup
+1449,2020-06-14 00:40:56.000000000,2020-06-14 22:07:46.000000000,closed,5,Alignment Woes and False Positives
+1448,2020-06-13 13:31:21.000000000,2020-06-13 13:55:16.000000000,closed,4,rustup; and a bit of UnsafeCell detection refactoring
+1447,2020-06-12 12:18:00.000000000,2020-06-12 12:43:38.000000000,closed,4,rustup
+1446,2020-06-10 12:56:14.000000000,2020-06-10 13:22:06.000000000,closed,4,rustup
+1445,2020-06-09 01:31:17.000000000,2020-06-09 03:52:00.000000000,closed,4,Add a case to list of 'StackedBorrows violations'
+1444,2020-06-03 11:41:26.000000000,2020-06-03 12:05:56.000000000,closed,4,"rustup, and adjust timing tests"
+1443,2020-06-01 21:24:48.000000000,2020-06-01 21:58:58.000000000,closed,4,rustup
+1442,2020-05-31 12:30:41.000000000,2020-05-31 13:10:18.000000000,closed,4,"rustup, adjust error message"
+1441,2020-05-31 00:54:48.000000000,2020-05-31 15:01:29.000000000,closed,4,Synchronization primitive cleanup
+1440,2020-05-30 20:47:13.000000000,2020-06-01 04:40:44.000000000,closed,4,test WTF8 encoding corner cases
+1439,2020-05-29 12:01:29.000000000,2020-05-29 12:26:50.000000000,closed,4,str_strip is stable
+1438,2020-05-28 11:19:21.000000000,2020-05-28 11:43:04.000000000,closed,4,rustup
+1437,2020-05-28 10:52:29.000000000,2020-05-28 11:15:40.000000000,closed,4,use strip_prefix where it makes sense
+1436,2020-05-28 09:56:21.000000000,2020-07-18 19:20:32.000000000,closed,14,Handle `read`s on STDIN
+1435,2020-05-25 12:44:46.000000000,2020-05-25 13:10:53.000000000,closed,4,better error when using FDs 0-2 the wrong way
+1434,2020-05-25 12:05:36.000000000,2020-07-18 19:20:32.000000000,closed,11,stdin cannot be read
+1433,2020-05-25 11:46:12.000000000,2020-05-25 12:23:15.000000000,closed,8,macOS does not have pthread_condattr_setclock/getclock 
+1432,2020-05-24 21:21:07.000000000,2020-05-24 21:43:43.000000000,closed,4,use helper method to compute size of int type
+1431,2020-05-24 16:00:55.000000000,2020-05-24 16:24:01.000000000,closed,4,rustup
+1430,2020-05-24 14:03:43.000000000,2020-05-24 14:36:26.000000000,closed,4,add interesting unsizing test
+1429,2020-05-23 18:31:21.000000000,2020-05-23 18:54:08.000000000,closed,4,test discriminant_value intrinsic
+1428,2020-05-22 13:56:50.000000000,2020-05-22 15:44:05.000000000,closed,6,verify the size of all shim arguments
+1427,2020-05-22 12:30:22.000000000,2020-05-22 13:22:17.000000000,closed,4,"rustup, and now we also need to install llvm-tools"
+1426,2020-05-22 12:14:47.000000000,2020-05-24 17:09:59.000000000,closed,5,unset RUSTC_WRAPPER for xargo invocation
+1425,2020-05-22 11:01:05.000000000,2020-05-22 11:24:26.000000000,closed,4,rustup
+1424,2020-05-22 01:06:43.000000000,2020-05-22 01:49:00.000000000,closed,8,prepare Dlsym system for dynamic symbols on Windows
+1423,2020-05-21 18:33:47.000000000,2020-05-21 18:58:59.000000000,closed,4,rustup
+1422,2020-05-21 13:25:50.000000000,2020-05-28 17:27:42.000000000,closed,25,Move cargo-miri into separate package
+1421,2020-05-20 20:22:09.000000000,2020-05-24 17:09:59.000000000,closed,5,cargo-miri does not work with sccache
+1420,2020-05-20 02:01:52.000000000,2020-05-20 02:24:30.000000000,closed,4,rustup
+1419,2020-05-19 21:14:30.000000000,2020-05-25 11:25:49.000000000,closed,11,Fix UB checking for Mutex misusage
+1418,2020-05-18 07:25:45.000000000,2020-06-09 13:13:39.000000000,closed,39,Add file sync shims
+1417,2020-05-17 13:20:54.000000000,2020-05-17 13:53:20.000000000,closed,4,fix libstd rebuilds due to RUSTFLAGS changes
+1416,2020-05-17 12:18:18.000000000,1970-01-01 00:00:00.000000001,open,8,cargo miri: parse arguments (more) like corresponding cargo commands
+1415,2020-05-17 12:12:32.000000000,2020-05-17 12:36:34.000000000,closed,4,add test suite filter example to README and 'cargo miri --help'
+1414,2020-05-16 23:57:24.000000000,2020-05-17 12:17:53.000000000,closed,9,miri can't run single tests
+1413,2020-05-16 13:30:37.000000000,2020-05-16 13:54:25.000000000,closed,4,use new rustc_driver::catch_with_exit_code
+1412,2020-05-15 13:25:35.000000000,2020-05-30 11:51:33.000000000,closed,4,Remove pointer arithmetic intrinsics
+1411,2020-05-14 21:21:36.000000000,2020-05-14 21:52:06.000000000,closed,4,test Linux on macOS host
+1410,2020-05-11 14:12:03.000000000,2020-05-17 13:53:20.000000000,closed,1,Strange libstd rebuilds
+1409,2020-05-11 12:54:35.000000000,2020-05-11 13:22:55.000000000,closed,4,compiletest: no need to call rustc here
+1408,2020-05-11 02:10:34.000000000,2020-05-11 02:35:20.000000000,closed,4,"fix some comments, and run_compiler return type"
+1407,2020-05-11 01:49:39.000000000,2020-05-11 14:39:37.000000000,closed,29,Share CI code between Travis and AppVeyor
+1406,2020-05-10 20:48:43.000000000,2020-05-10 21:28:21.000000000,closed,8,cargo-miri: never invoke rustc
+1405,2020-05-09 14:25:21.000000000,2020-05-09 16:31:05.000000000,closed,6,make Miri work in rustc bootstrap stage 0
+1404,2020-05-09 13:46:39.000000000,2020-05-09 14:29:25.000000000,closed,6,re-do cargo-miri host/target detection logic to match rustbuild
+1403,2020-05-09 12:15:33.000000000,2020-05-09 12:37:25.000000000,closed,4,"bump Rust, fix for renames"
+1402,2020-05-08 19:01:32.000000000,2020-05-10 12:53:40.000000000,closed,4,Update to rustc changes
+1401,2020-05-08 11:56:10.000000000,2020-05-08 12:19:32.000000000,closed,4,fix cargo-miri intercepting --help/--version arguments
+1400,2020-05-08 01:59:45.000000000,2020-05-08 02:23:51.000000000,closed,4,rustup
+1399,2020-05-07 14:34:41.000000000,2020-05-07 14:36:36.000000000,closed,2,2020-05-06 nightly ships with miri but miri fails
+1398,2020-05-07 10:39:30.000000000,2020-05-07 11:05:43.000000000,closed,4,rustup; fix error messages
+1397,2020-05-07 06:42:59.000000000,2020-05-07 13:46:02.000000000,closed,4,Add two more TiKV bugs to trophy case
+1396,2020-05-07 00:47:21.000000000,2020-05-07 01:27:20.000000000,closed,4,copy some float cast tests from rustc
+1395,2020-05-06 01:47:06.000000000,2020-05-24 01:09:00.000000000,closed,2,Convert posix scripts to bash
+1394,2020-05-05 18:49:29.000000000,2020-05-05 19:12:33.000000000,closed,4,fs shim: check that mode is default
+1393,2020-05-05 14:21:33.000000000,2020-05-05 14:44:09.000000000,closed,4,Make sure we check argument count everywhere and argument size for non-stub shims
+1392,2020-05-04 11:43:20.000000000,2020-05-04 12:18:08.000000000,closed,7,Windows lock primitives: check that we are truly single-threaded
+1391,2020-05-03 22:16:20.000000000,2020-05-24 03:02:37.000000000,closed,9,also enable overflow checks in Cargo.toml
+1390,2020-05-03 14:49:24.000000000,2020-05-03 15:50:18.000000000,closed,12,"Make spin_loop yield, and a panicking thread test"
+1389,2020-05-03 14:27:37.000000000,2020-08-01 06:47:56.000000000,closed,0,ICE when panicking in stack's main frame
+1388,2020-05-03 14:16:58.000000000,1970-01-01 00:00:00.000000001,open,3,Miri hangs in spin loops forever
+1387,2020-05-03 14:10:47.000000000,2020-05-03 14:30:42.000000000,closed,4,"bump Rust, fix warnings"
+1386,2020-05-02 13:08:49.000000000,2020-05-02 14:02:57.000000000,closed,4,trophy case: consistent wording (X doing Y)
+1385,2020-05-02 13:01:00.000000000,2020-05-02 13:21:54.000000000,closed,4,rustup
+1384,2020-05-02 04:17:07.000000000,2020-05-02 04:38:21.000000000,closed,4,rustup for fixed error messages
+1383,2020-05-02 01:34:51.000000000,2020-05-02 13:41:30.000000000,closed,4,Add another tikv stacked borrowing error to trophy case
+1382,2020-05-01 17:36:03.000000000,2020-08-13 11:08:56.000000000,closed,5,Detect erroneous constants post-monomorphization
+1381,2020-05-01 16:44:15.000000000,2020-05-01 17:05:59.000000000,closed,4,rustup; fix for changed error messages
+1380,2020-05-01 12:30:05.000000000,2020-05-01 12:51:56.000000000,closed,4,"rustup, adjust error messages"
+1379,2020-04-30 21:40:12.000000000,2020-04-30 22:02:45.000000000,closed,4,make sure macos function has 'macos' in its name
+1378,2020-04-30 12:20:02.000000000,2020-04-30 12:41:32.000000000,closed,4,more helpful error on workspaces
+1377,2020-04-30 04:04:05.000000000,2020-04-30 13:03:16.000000000,closed,4,Add servo_arc to trophy case
+1376,2020-04-29 22:55:23.000000000,2020-05-05 10:47:04.000000000,closed,2,miri doesn't error on `transmute` between non `repr(C)` types
+1375,2020-04-28 12:30:50.000000000,2020-04-28 12:52:15.000000000,closed,4,rustup for more LocalDefId changes
+1374,2020-04-27 18:48:49.000000000,2020-05-22 19:32:01.000000000,closed,4,InvalidUndefBytes: Update to match rustc changes
+1373,2020-04-27 14:33:40.000000000,2020-04-27 15:16:34.000000000,closed,4,rename tests: undefined -> uninit
+1372,2020-04-27 13:24:15.000000000,1970-01-01 00:00:00.000000001,open,0,Detect data races
+1371,2020-04-27 13:15:44.000000000,1970-01-01 00:00:00.000000001,open,10,Support detached threads still running when the main thread exits
+1370,2020-04-27 08:09:32.000000000,2020-04-27 14:54:56.000000000,closed,4,Add test to verify that argument size mismatch throws UB
+1369,2020-04-27 01:36:55.000000000,2020-07-28 02:50:22.000000000,closed,4,Properly deallocate thread locals
+1368,2020-04-25 17:00:02.000000000,2020-04-26 01:41:13.000000000,closed,9,Add miri trophy for LazyArray::swap (ink! PR)
+1367,2020-04-25 16:51:16.000000000,1970-01-01 00:00:00.000000001,open,14,Stacked borrows analysis is super-linear
+1366,2020-04-25 13:13:18.000000000,2020-04-25 13:38:15.000000000,closed,7,fix exit code on rustc errors
+1365,2020-04-25 12:50:05.000000000,1970-01-01 00:00:00.000000001,open,8,Evaluate whether we can make miri a rustc backend
+1364,2020-04-24 20:30:09.000000000,2020-04-25 17:20:04.000000000,closed,13,Confusing stacked borrows violation
+1363,2020-04-24 16:37:08.000000000,2020-04-25 13:59:52.000000000,closed,4,Add miri specific attributes to selectively turn errors into warnings
+1362,2020-04-24 08:24:24.000000000,2020-05-25 11:25:50.000000000,closed,12,Add sync primitives
+1361,2020-04-24 02:54:16.000000000,2020-04-24 03:16:05.000000000,closed,4,rustup
+1360,2020-04-23 21:40:43.000000000,2020-04-24 13:38:52.000000000,closed,8,Miri test fails with thread_local storage
+1359,2020-04-23 21:20:54.000000000,2020-04-23 21:44:25.000000000,closed,4,test suite: rely on CARGO_BIN_EXE_ env vars
+1358,2020-04-23 19:48:19.000000000,2020-04-23 22:05:43.000000000,closed,12,Disable interactive prompts in CI
+1357,2020-04-23 13:51:10.000000000,2020-04-23 22:05:43.000000000,closed,1,Skip interactive prompts if `CI` environment variable is set
+1356,2020-04-23 06:38:48.000000000,2020-04-23 13:40:45.000000000,closed,4,Add ryu and tikv to trophy case
+1355,2020-04-22 06:18:40.000000000,2020-04-27 14:54:56.000000000,closed,6,Calling a C function with a wrong type from Miri results in panic
+1354,2020-04-22 06:38:53.000000000,2020-04-27 13:54:34.000000000,closed,13,Print hex dump of alloc on reading undef bytes
+1353,2020-04-22 06:27:58.000000000,2020-04-23 01:31:14.000000000,closed,4,Implement ftruncate64/ftruncate for File::set_len
+1352,2020-04-20 12:03:32.000000000,2020-04-25 13:38:15.000000000,closed,4,Miri has exit code 0 on typeck failure
+1351,2020-04-19 11:21:54.000000000,2020-04-19 11:58:31.000000000,closed,8,"note source of float cast test values, and some more UB tests"
+1350,2020-04-18 23:25:53.000000000,2020-04-18 23:50:57.000000000,closed,2,Leak checker doesn't see through AtomicPtr
+1349,2020-04-18 19:55:00.000000000,2020-04-18 20:16:30.000000000,closed,4,use pre-computed layouts some more
+1348,2020-04-18 15:58:01.000000000,2020-04-23 02:05:09.000000000,closed,4,Stacked Borrows: alignment does not matter
+1347,2020-04-18 15:08:14.000000000,2020-04-18 15:27:42.000000000,closed,4,rename test_cast -> test_both_cast to make purpose clearer
+1346,2020-04-18 04:07:44.000000000,2020-04-18 11:39:04.000000000,closed,8,Test that we enforce dynamic layout properties (not just static ones of sized prefix)
+1345,2020-04-18 01:59:55.000000000,2020-04-18 02:04:39.000000000,closed,3,Running `cargo miri test` in a github action hangs with no output
+1344,2020-04-17 16:19:52.000000000,2020-04-17 16:40:35.000000000,closed,4,rustup for FieldsShape::Primitive
+1343,2020-04-17 13:04:09.000000000,2020-04-17 13:27:07.000000000,closed,5,test #[derive] on packed struct
+1342,2020-04-17 08:33:11.000000000,2020-04-19 19:11:52.000000000,closed,8,Handle std::sync::atomic::spin_loop_hint()
+1341,2020-04-16 20:36:31.000000000,2020-04-16 23:28:39.000000000,closed,7,ReadBytesAsPointer is always supported
+1340,2020-04-16 13:46:33.000000000,1970-01-01 00:00:00.000000001,open,3,Add option to flag uninitialized integers as UB
+1339,2020-04-16 11:37:11.000000000,2020-04-23 02:05:08.000000000,closed,1,Unaligned raw references are considered UB
+1338,2020-04-16 11:25:52.000000000,2020-04-16 12:07:28.000000000,closed,4,Cleanup some run-pass tests
+1337,2020-04-15 20:00:45.000000000,2020-04-15 20:31:05.000000000,closed,4,test some so-far untested intrinsics
+1336,2020-04-15 14:42:28.000000000,2020-04-15 15:55:30.000000000,closed,5,tighten Instance sanity check
+1335,2020-04-15 04:44:25.000000000,2020-04-20 13:10:32.000000000,closed,12,Move the stack to the evaluator. (no-op PR for 70598)
+1334,2020-04-15 03:03:18.000000000,2020-04-15 20:09:39.000000000,closed,8,add deallocation tracking
+1333,2020-04-14 12:25:24.000000000,2020-04-14 13:30:21.000000000,closed,4,Make sure we find many failures even with other checks disabled
+1332,2020-04-13 19:58:13.000000000,2020-04-14 12:21:01.000000000,closed,11,Add option to disable alignment check
+1331,2020-04-13 19:50:19.000000000,2020-04-14 14:52:35.000000000,closed,7,Implement `mach_timebase_info` for macOS
+1330,2020-04-13 19:33:25.000000000,2020-04-15 15:02:58.000000000,closed,7,retag return place
+1329,2020-04-13 13:30:28.000000000,2020-04-13 20:03:45.000000000,closed,4,note Miri's leak check abilities and that they are disabled on Windows
+1328,2020-04-13 11:19:08.000000000,2020-04-13 11:40:02.000000000,closed,4,"for alignment errors, note that there might be false positives"
+1327,2020-04-13 02:44:43.000000000,2020-04-13 03:03:58.000000000,closed,4,rustup
+1326,2020-04-13 01:12:10.000000000,2020-04-14 12:21:01.000000000,closed,0,Allow ignoring alignment violations
+1325,2020-04-12 14:03:53.000000000,2020-04-18 12:33:08.000000000,closed,10,implement float_to_int_unchecked
+1324,2020-04-12 13:07:00.000000000,2020-04-12 13:25:40.000000000,closed,4,organize intrinsics in groups
+1323,2020-04-12 12:33:03.000000000,2020-04-12 12:59:15.000000000,closed,4,avoid a bunch of as_ref/as_mut
+1322,2020-04-12 12:09:13.000000000,2020-04-12 12:27:37.000000000,closed,4,avoid ref in matches
+1321,2020-04-11 13:38:32.000000000,2020-04-11 23:09:13.000000000,closed,4,Even more float cast tests
+1320,2020-04-11 13:05:00.000000000,2020-04-11 22:39:06.000000000,closed,6,compile-fail test organization
+1319,2020-04-11 11:17:12.000000000,2020-04-11 22:11:35.000000000,closed,18,add push_str issue to trophy case
+1318,2020-04-11 01:58:33.000000000,2020-07-25 12:26:12.000000000,closed,9,Leak checker misses pointers cast to integer
+1317,2020-04-11 01:00:37.000000000,2020-04-11 01:49:47.000000000,closed,3,Awaiting on Pin<Box<dyn Future>> causes ICE
+1316,2020-04-10 16:57:55.000000000,2020-04-10 17:18:00.000000000,closed,4,bump compiletest
+1315,2020-04-10 12:35:01.000000000,2020-04-10 12:54:57.000000000,closed,4,Housekeeping
+1314,2020-04-09 02:41:08.000000000,2020-04-15 20:09:39.000000000,closed,3,Extend track alloc id to show deallocations
+1313,2020-04-08 17:18:06.000000000,2020-04-08 17:56:08.000000000,closed,4,add EbrCell to trophy case
+1312,2020-04-07 21:48:00.000000000,1970-01-01 00:00:00.000000001,open,3,"""cargo miri"" has slightly different non-UTF-8 output than ""cargo run"""
+1311,2020-04-07 20:23:32.000000000,1970-01-01 00:00:00.000000001,open,5,miri test is painful to use with CARGO_TARGET_DIR set
+1310,2020-04-07 18:13:50.000000000,2020-04-07 19:05:56.000000000,closed,4,prefer float assoc consts over std module
+1309,2020-04-07 01:43:30.000000000,2020-04-07 21:45:19.000000000,closed,12,Running Miri on Playground does not error when printing non-UTF-8 output
+1308,2020-04-06 11:37:29.000000000,2020-04-10 21:28:58.000000000,closed,14,More explicit build instructions
+1307,2020-04-05 21:14:36.000000000,2020-04-05 21:37:22.000000000,closed,4,also test push_str ptr stability (the original report)
+1306,2020-04-05 20:13:16.000000000,2020-04-10 21:28:58.000000000,closed,1,Confused by build instructions concealing the actual build step
+1305,2020-04-05 18:53:39.000000000,2020-04-05 20:09:00.000000000,closed,5,Replace last_entry with last_key_value
+1304,2020-04-05 12:21:40.000000000,2020-04-10 13:48:59.000000000,closed,5,"add empty line before backtrace, to separate it from help text"
+1303,2020-04-04 21:36:48.000000000,2020-04-05 10:55:38.000000000,closed,5,tweak README
+1302,2020-04-04 16:24:39.000000000,2020-07-25 12:26:12.000000000,closed,3,Enable leak checker on Windows
+1301,2020-04-04 15:41:16.000000000,2020-04-07 21:56:30.000000000,closed,4,memory reachable through globals is not a leak
+1300,2020-04-04 14:09:11.000000000,2020-04-04 19:08:08.000000000,closed,4,Rust bootstrap sysroot now has src in the same place as rust-src
+1299,2020-04-03 02:07:00.000000000,2020-04-03 02:28:37.000000000,closed,5,rustup for import changes
+1298,2020-04-03 01:13:03.000000000,2020-05-05 13:31:33.000000000,closed,12,Check that shims are called with the correct number of arguments
+1297,2020-04-02 17:17:14.000000000,2020-04-02 18:35:02.000000000,closed,4,correct factual mistake in Windows message
+1296,2020-04-02 13:45:43.000000000,2020-04-02 15:57:43.000000000,closed,8,rustup for AllocRef changes
+1295,2020-04-02 11:50:37.000000000,2020-04-02 12:23:12.000000000,closed,4,set CARGO_INCREMENTAL=0 on CI
+1294,2020-04-02 04:50:20.000000000,2020-04-03 10:57:27.000000000,closed,4,Add support for 'std::time::Instant' in Windows
+1293,2020-04-02 03:51:23.000000000,2020-04-04 20:48:44.000000000,closed,7,Update readme to make supported code clearer
+1292,2020-04-01 22:34:43.000000000,2020-04-01 22:57:51.000000000,closed,4,sanity check time values a bit more
+1291,2020-04-01 22:24:07.000000000,2020-04-03 10:57:27.000000000,closed,0,Windows: cannot create Instants
+1290,2020-04-01 21:40:46.000000000,2020-04-01 22:22:21.000000000,closed,4,Rustup
+1289,2020-04-01 13:36:01.000000000,2020-04-04 20:48:44.000000000,closed,4,Readme.md - should list what miri doesn't support
+1288,2020-03-31 19:52:37.000000000,2020-04-14 14:52:35.000000000,closed,4,macOS: cannot subtract Instants (mach_timebase_info not implemented)
+1287,2020-03-31 19:50:51.000000000,2020-03-31 20:30:00.000000000,closed,7,test subtracting SystemTime and Instant
+1286,2020-03-31 19:31:15.000000000,2020-04-01 21:59:33.000000000,closed,8,Implement 'GetSystemTimeAsFileTime' shim for Windows
+1285,2020-03-31 14:03:04.000000000,2020-04-01 11:35:15.000000000,closed,10,Cargo test miri fails on macos 10.15.4 intermittent IO error while iterating directory
+1284,2020-03-31 08:42:26.000000000,2020-04-30 20:45:53.000000000,closed,18,Implement basic support for concurrency (Linux/macos only)
+1283,2020-03-31 00:56:05.000000000,2020-04-02 11:54:50.000000000,closed,4,Make backtrace function names and spans match up
+1282,2020-03-31 00:14:35.000000000,2020-03-31 00:48:15.000000000,closed,4,rustup; fix Windows env var memory type
+1281,2020-03-30 13:08:33.000000000,2020-03-30 13:31:19.000000000,closed,4,adjust for librustc rename; reduce 'extern crate' to rustc crates
+1280,2020-03-30 12:23:47.000000000,2020-03-30 12:46:44.000000000,closed,4,rustup; fix for TyLayout rename
+1279,2020-03-30 02:11:45.000000000,2020-03-30 20:14:44.000000000,closed,4,Add support for OpenOptions::create_new()/O_EXCL
+1278,2020-03-29 22:52:36.000000000,2020-03-30 03:04:45.000000000,closed,4,make 'fn convert_path_separator' to take 'Cow<>' as argument
+1277,2020-03-29 12:01:58.000000000,2020-03-29 12:23:02.000000000,closed,4,rustup
+1276,2020-03-28 20:48:20.000000000,2020-03-28 22:37:07.000000000,closed,4,Construct Scalar with precise sizes
+1275,2020-03-28 18:48:27.000000000,2020-03-28 19:53:42.000000000,closed,4,move OsStr helpers to a separate file
+1274,2020-03-28 18:47:10.000000000,2020-03-28 19:08:31.000000000,closed,4,fix float test comments and test a few more int->float casts
+1273,2020-03-28 17:33:43.000000000,2020-03-28 17:54:38.000000000,closed,4,"we don't deallocate the environ global, so leave it in the machine"
+1272,2020-03-28 14:45:12.000000000,2020-05-05 13:31:32.000000000,closed,7,Check number of arguments for shims
+1271,2020-03-28 14:08:39.000000000,2020-03-28 14:28:33.000000000,closed,4,env shim: make sure we clean up all the memory we allocate
+1270,2020-03-28 13:30:23.000000000,2020-03-30 22:21:46.000000000,closed,5,miri build script: use incremental builds
+1269,2020-03-28 13:07:54.000000000,2020-03-28 14:03:19.000000000,closed,4,run Windows TLS dtor function
+1268,2020-03-28 02:39:03.000000000,2020-03-29 21:40:52.000000000,closed,13,Windows shims for GetCurrentDirectoryW/SetCurrentDirectoryW
+1267,2020-03-27 22:40:42.000000000,2020-03-28 12:16:49.000000000,closed,6,implement TLS cleanup for macOS
+1266,2020-03-27 08:18:31.000000000,2020-03-27 15:59:00.000000000,closed,4,Change helper fn 'write_os_str_to_wide_str'
+1265,2020-03-26 22:26:09.000000000,2020-03-28 18:40:11.000000000,closed,4,test floating point casting better
+1264,2020-03-26 19:02:46.000000000,2020-04-18 12:33:08.000000000,closed,25,Support unsafe float-to-int casts
+1263,2020-03-26 15:09:49.000000000,2020-03-28 14:56:42.000000000,closed,6,Limit shims to libstd where possible
+1262,2020-03-26 03:12:26.000000000,2020-03-26 03:34:11.000000000,closed,4,rustup; get rid of some try_from that are no longer needed
+1261,2020-03-25 14:45:13.000000000,2020-03-25 15:34:52.000000000,closed,8,cross-running windows-gnu should now also work
+1260,2020-03-25 12:32:44.000000000,2020-03-25 13:00:09.000000000,closed,4,Implement unreachable intrinsic
+1259,2020-03-25 12:10:17.000000000,2020-03-25 12:30:00.000000000,closed,4,"rustup, adjust for renames"
+1258,2020-03-24 11:29:10.000000000,2020-03-24 11:54:00.000000000,closed,4,Rustup
+1257,2020-03-24 02:54:56.000000000,2020-03-24 03:20:30.000000000,closed,4,Rustup
+1256,2020-03-23 23:12:34.000000000,2020-03-24 11:27:34.000000000,closed,6,helper functions for env_var emulation in Windows
+1255,2020-03-23 22:45:02.000000000,2020-03-23 23:08:22.000000000,closed,4,fix conditional compilation condition for os_str <-> bytes conversion
+1254,2020-03-23 21:19:01.000000000,2020-03-25 13:00:09.000000000,closed,0,"Implement ""unreachable"" intrinsic"
+1253,2020-03-23 16:02:53.000000000,2020-04-05 20:49:46.000000000,closed,4,test Vec::extend
+1252,2020-03-23 13:34:36.000000000,2020-03-23 13:55:08.000000000,closed,4,bump Rust; HashMap should now work on macOS even with isolation
+1251,2020-03-22 23:08:20.000000000,2020-03-24 17:37:35.000000000,closed,59,cross-test on a Windows host
+1250,2020-03-22 22:50:40.000000000,2020-03-23 02:52:28.000000000,closed,10,give some context in error messages
+1249,2020-03-22 02:18:12.000000000,2020-03-22 12:23:28.000000000,closed,4,Cross-test targets
+1248,2020-03-21 20:55:20.000000000,2020-03-21 21:30:23.000000000,closed,7,detect UB: overflow in copy/write_bytes
+1247,2020-03-21 15:53:10.000000000,2020-03-21 16:30:06.000000000,closed,8,call error location was fixed by rustup
+1246,2020-03-20 21:39:41.000000000,2020-03-20 22:16:10.000000000,closed,7,[question] aliasing rules with DropGuard
+1245,2020-03-20 13:34:56.000000000,2020-03-20 13:52:30.000000000,closed,4,rustup
+1244,2020-03-20 02:19:32.000000000,2020-03-20 19:18:05.000000000,closed,4,README updates
+1243,2020-03-20 02:02:10.000000000,2020-03-20 19:45:04.000000000,closed,5,implement Instant::now
+1242,2020-03-19 22:28:36.000000000,2020-03-20 19:45:03.000000000,closed,0,Instant::now (CLOCK_MONOTONIC) not supported
+1241,2020-03-19 18:51:10.000000000,2020-03-21 14:12:01.000000000,closed,23,whitelist platforms where panicking should work
+1240,2020-03-19 05:17:20.000000000,1970-01-01 00:00:00.000000001,open,10,Miri should catch uses of slice::from_raw_parts on uninitialized memory
+1239,2020-03-18 15:23:01.000000000,2020-03-18 16:37:33.000000000,closed,5,Abort instead of panic on asserting intrinsics
+1238,2020-03-18 14:21:09.000000000,2020-03-18 14:53:50.000000000,closed,4,move repeated run of test suite (without and with MIR optimizations) out of compiletest
+1237,2020-03-18 00:11:51.000000000,2020-03-18 00:34:00.000000000,closed,4,rustup; remove no longer existing intrinsics
+1236,2020-03-17 21:22:29.000000000,1970-01-01 00:00:00.000000001,open,2,Use clippy to avoid unchecked casts and arithmetic
+1235,2020-03-17 18:22:26.000000000,2020-03-17 18:43:46.000000000,closed,5,avoid using unchecked casts or arithmetic
+1234,2020-03-17 16:33:09.000000000,2020-03-21 21:30:23.000000000,closed,3,Miri does not detect size overflow in `copy`/`copy_nonoverlapping`/`write_bytes`
+1233,2020-03-17 00:33:36.000000000,2020-03-17 00:55:48.000000000,closed,4,rustup
+1232,2020-03-16 12:59:23.000000000,2020-03-16 13:18:52.000000000,closed,4,rustup
+1231,2020-03-16 02:08:31.000000000,2020-03-16 02:30:00.000000000,closed,4,Minor typo fix
+1230,2020-03-15 18:16:57.000000000,2020-03-15 18:34:17.000000000,closed,4,Cargo.toml: group all dependencies together
+1229,2020-03-14 20:48:29.000000000,2020-03-16 08:23:31.000000000,closed,10,Write Windows batch script version of 'miri' script?
+1228,2020-03-14 15:05:39.000000000,2020-03-14 15:23:24.000000000,closed,4,fix typo and deduplicate comment
+1227,2020-03-14 14:58:00.000000000,2020-03-15 14:42:00.000000000,closed,7,adjust Miri to needs of changed unwinding strategy
+1226,2020-03-14 12:27:59.000000000,2020-03-14 12:46:01.000000000,closed,4,"rustup, fix for intrinsic rename and transmute error change"
+1225,2020-03-13 21:57:06.000000000,2020-03-28 00:02:33.000000000,closed,29,Add shims for env var emulation in Windows
+1224,2020-03-13 00:21:28.000000000,2020-03-13 00:45:37.000000000,closed,4,refactor handling of diverging intrinsics/foreign functions
+1223,2020-03-12 23:49:06.000000000,2020-03-13 00:11:20.000000000,closed,4,"rustup, test Abort terminator"
+1222,2020-03-12 00:13:45.000000000,2020-03-18 16:37:33.000000000,closed,5,"Abort in ""assert_*"" intrinsics"
+1221,2020-03-11 23:41:19.000000000,2020-03-12 00:28:58.000000000,closed,4,Rustup
+1220,2020-03-11 17:00:27.000000000,2020-03-11 23:38:02.000000000,closed,11,Bump rust-version to latest
+1219,2020-03-09 12:40:13.000000000,2020-03-19 11:59:50.000000000,closed,5,rustup for error reform
+1218,2020-03-08 23:01:38.000000000,2020-03-08 23:19:38.000000000,closed,4,properly panic in panic_if_uninhabited and align_offset shims
+1217,2020-03-08 20:55:00.000000000,2020-03-08 21:21:22.000000000,closed,4,move environ place to EnvVars
+1216,2020-03-08 20:21:51.000000000,2020-03-08 20:53:15.000000000,closed,4,move environ init to update_environ
+1215,2020-03-08 19:50:43.000000000,2020-03-08 20:34:40.000000000,closed,4,readme: mention the leaks we found
+1214,2020-03-08 19:42:25.000000000,2020-03-08 20:16:01.000000000,closed,4,bump dependencies
+1213,2020-03-08 17:35:16.000000000,2020-03-12 21:11:37.000000000,closed,15,rm custom `intrinsics::discriminant_value`
+1212,2020-03-06 18:32:58.000000000,2020-03-06 18:57:20.000000000,closed,4,expand clock and fs tests a bit
+1211,2020-03-06 14:46:35.000000000,2020-03-06 15:07:27.000000000,closed,4,README: add another bug Miri found
+1210,2020-03-06 13:28:21.000000000,2020-03-09 20:30:19.000000000,closed,4,rustup: adjust error message
+1209,2020-03-06 13:19:12.000000000,2020-03-06 16:33:05.000000000,closed,4,Add option to print when an AllocId gets created
+1208,2020-03-04 23:27:06.000000000,2020-03-08 19:57:34.000000000,closed,12,Environ shim
+1207,2020-03-04 21:49:17.000000000,1970-01-01 00:00:00.000000001,open,8,Support for custom allocator in miri
+1206,2020-03-04 17:02:16.000000000,2020-03-04 17:21:54.000000000,closed,5,finally stop using min/max_value and the integer modules
+1205,2020-03-04 14:30:29.000000000,2020-03-04 15:01:17.000000000,closed,4,downgrade serde_json to match rustc workspace
+1204,2020-03-04 12:54:35.000000000,2020-03-04 14:41:00.000000000,closed,12,bump Rust
+1203,2020-03-03 19:02:43.000000000,2020-03-03 19:25:50.000000000,closed,4,try even harder to catch invalid generator fields
+1202,2020-03-03 02:36:34.000000000,2020-03-03 03:00:22.000000000,closed,4,"switch extern_statics map to symbols, and use FxHashMap everywhere"
+1201,2020-03-03 00:18:06.000000000,2020-03-03 02:32:31.000000000,closed,4,Rename XARGO env var to XARGO_CHECK
+1200,2020-03-02 15:08:46.000000000,2020-03-10 13:12:32.000000000,closed,1,Replace HashMap/HashSet by FxHashMap/FxHashSet
+1199,2020-03-02 01:24:23.000000000,2020-03-02 01:41:59.000000000,closed,4,cargo-miri: fix trailing indent in xargo files
+1198,2020-03-01 16:49:02.000000000,2020-03-25 15:34:51.000000000,closed,2,Support (almost) arbitrary foreign architectures
+1197,2020-03-01 14:30:56.000000000,2020-03-01 14:48:23.000000000,closed,4,Rustup
+1196,2020-02-29 23:47:07.000000000,2020-03-01 01:16:10.000000000,closed,10,Remove incorrect try_lock from Windows critical section shim
+1195,2020-02-29 17:29:25.000000000,2020-02-29 17:46:59.000000000,closed,4,rustup
+1194,2020-02-28 14:01:51.000000000,2020-02-28 14:22:20.000000000,closed,4,avoid Scalar::to_bits
+1193,2020-02-25 22:12:43.000000000,2020-02-26 04:38:48.000000000,closed,7,rustup
+1192,2020-02-24 20:25:35.000000000,2020-02-26 18:12:08.000000000,closed,4,add an option to disable Stacked Borrows
+1191,2020-02-24 02:45:52.000000000,2020-02-24 03:04:41.000000000,closed,4,cargo update
+1190,2020-02-24 02:36:23.000000000,2020-03-02 13:24:35.000000000,closed,5,Canonical AllocID
+1189,2020-02-23 22:55:29.000000000,2020-02-23 23:30:27.000000000,closed,4,some foreign_items cleanup
+1188,2020-02-22 00:07:25.000000000,2020-02-22 00:27:36.000000000,closed,4,dont overwrite bootstrap flags
+1187,2020-02-21 14:30:51.000000000,2020-02-21 15:27:07.000000000,closed,8,fix for const-prop lint changes
+1186,2020-02-21 14:29:11.000000000,2020-02-21 14:30:30.000000000,closed,0,Rustup
+1185,2020-02-21 12:35:22.000000000,2020-02-22 16:23:47.000000000,closed,4,fix README
+1184,2020-02-21 08:59:21.000000000,2020-02-21 12:55:26.000000000,closed,4,Test error case of std::fs::rename
+1183,2020-02-21 02:55:04.000000000,2020-02-26 18:12:08.000000000,closed,0,Add option to disable Stacked Borrows but keep validation
+1182,2020-02-20 15:10:01.000000000,2020-02-20 15:30:59.000000000,closed,4,rustup
+1181,2020-02-20 04:31:21.000000000,2020-03-28 14:56:42.000000000,closed,1,Confusing false positives and negatives calling `mmap`
+1180,2020-02-19 15:14:52.000000000,2020-02-19 15:39:04.000000000,closed,4,Slight refactoring of FS test
+1179,2020-02-19 13:15:29.000000000,2020-02-19 14:28:25.000000000,closed,4,bump Rust (no changes needed)
+1178,2020-02-18 13:33:16.000000000,2020-03-02 18:12:02.000000000,closed,4,adjust for rustc changes
+1177,2020-02-16 18:02:33.000000000,2020-02-16 18:23:13.000000000,closed,4,Make sure we evaluate debug assertions in local crate and libstd
+1176,2020-02-16 16:38:49.000000000,2020-02-17 03:07:48.000000000,closed,4,update Readme
+1175,2020-02-15 06:12:22.000000000,2020-03-04 21:51:36.000000000,closed,7,Disabling the out-of-bounds validator
+1174,2020-02-14 13:00:39.000000000,2020-02-14 13:33:04.000000000,closed,4,Rustup
+1173,2020-02-13 02:26:03.000000000,2020-02-13 22:12:17.000000000,closed,2,Unable to run individual binaries with cargo-miri when multiple binaries exist
+1172,2020-02-13 01:52:22.000000000,2020-02-13 02:25:44.000000000,closed,8,Rustup
+1171,2020-02-11 17:25:40.000000000,2020-02-12 14:09:16.000000000,closed,1,support for global C initializers
+1170,2020-02-09 18:55:06.000000000,1970-01-01 00:00:00.000000001,open,7,Allow foreign rust functions
+1169,2020-02-07 17:48:24.000000000,2020-02-07 18:42:15.000000000,closed,12,rustup; fix generator test
+1168,2020-02-06 15:25:14.000000000,2020-02-06 15:45:10.000000000,closed,4,Rustup
+1167,2020-02-03 02:24:13.000000000,2020-02-23 22:23:06.000000000,closed,18,Reorganize shims by platform
+1166,2020-02-02 18:48:00.000000000,2020-02-02 18:49:22.000000000,closed,0,bump Rust
+1165,2020-02-02 14:48:06.000000000,2020-02-02 19:08:23.000000000,closed,4,Bump rustc
+1164,2020-01-31 15:38:46.000000000,2020-01-31 16:45:19.000000000,closed,4,rely on improved cargo install
+1163,2020-01-30 17:30:58.000000000,2020-01-31 04:11:53.000000000,closed,8,Test raw-ptr-cast without reborrow
+1162,2020-01-29 02:56:46.000000000,2020-01-29 03:18:18.000000000,closed,4,test track_caller with fn ptrs
+1161,2020-01-28 22:16:08.000000000,2020-02-23 22:23:06.000000000,closed,10,Refactor `shim` module by platform
+1160,2020-01-27 21:04:57.000000000,2020-01-29 08:11:48.000000000,closed,3,Import `Alloc` and `Layout` explicitly
+1159,2020-01-27 05:29:09.000000000,2020-02-08 19:13:05.000000000,closed,4,Add shim for seeking files
+1158,2020-01-27 05:02:51.000000000,2020-02-15 01:46:24.000000000,closed,10,Add shim for rename
+1157,2020-01-27 04:25:46.000000000,2020-04-06 18:17:45.000000000,closed,28,Add shims for RwLock::try_read/RwLock::try_write
+1156,2020-01-27 04:20:09.000000000,2020-02-19 14:08:57.000000000,closed,9,Add F_DUPFD/F_DUPFD_CLOEXEC to fcntl shim
+1155,2020-01-27 02:56:33.000000000,2020-01-30 02:44:06.000000000,closed,6,Add no-op shim for posix_fadvise
+1154,2020-01-26 23:52:49.000000000,2020-01-30 03:20:53.000000000,closed,5,Rename `Alloc` to `AllocRef`
+1153,2020-01-26 22:07:00.000000000,2020-01-26 22:27:26.000000000,closed,4,bump rustc
+1152,2020-01-26 09:31:58.000000000,2020-02-26 19:38:09.000000000,closed,19,Add directory-related shims
+1151,2020-01-26 09:24:30.000000000,2020-01-31 03:20:36.000000000,closed,14,Add support for AT_EMPTY_PATH to statx shim
+1150,2020-01-25 06:04:42.000000000,2020-01-26 01:36:49.000000000,closed,10,"Shim intrinsics::atomic_singlethreadfence, etc."
+1149,2020-01-19 21:04:07.000000000,2020-01-19 21:24:50.000000000,closed,4,slice_patterns is stable now
+1148,2020-01-18 20:23:54.000000000,2020-01-28 21:52:28.000000000,closed,6,Document miri can only be installed on nightly
+1147,2020-01-16 01:15:00.000000000,2020-03-02 20:21:54.000000000,closed,18,Environ shim
+1146,2020-01-15 23:36:01.000000000,2020-01-16 00:01:43.000000000,closed,4,Rustup
+1145,2020-01-14 09:07:12.000000000,2020-01-14 13:21:56.000000000,closed,4,Update .gitattributes
+1144,2020-01-09 15:21:27.000000000,2020-01-09 16:02:18.000000000,closed,8,test that unwrap gets us the right panic location
+1143,2020-01-07 02:30:25.000000000,2020-01-10 22:51:20.000000000,closed,8,Add shim for symbolic link creation
+1142,2020-01-07 02:06:09.000000000,2020-01-07 13:41:29.000000000,closed,4,Rustup
+1141,2020-01-06 15:38:58.000000000,2020-01-06 16:01:23.000000000,closed,4,remove no-longer-needed allow(const_err)
+1140,2020-01-06 14:44:51.000000000,2020-01-08 01:42:08.000000000,closed,6,no longer test 32bit macOS
+1139,2020-01-02 19:58:01.000000000,2020-01-02 20:17:53.000000000,closed,4,note a FIXME
+1138,2020-01-02 07:35:32.000000000,2020-01-02 16:12:19.000000000,closed,4,Bump rustc version to fix miri
+1137,2020-01-02 03:58:14.000000000,2020-01-06 14:44:54.000000000,closed,9,Update panic machinery to match #[track_caller] changes.
+1136,2020-01-01 14:17:17.000000000,2020-02-24 19:09:24.000000000,closed,16,Use 'cargo check' to build the sysroot and target crate
+1135,2020-01-01 13:26:33.000000000,2020-01-01 19:58:10.000000000,closed,5,Rustup
+1134,2019-12-31 16:11:57.000000000,2019-12-31 16:38:34.000000000,closed,4,test macOS hashmap
+1133,2019-12-29 16:39:05.000000000,2019-12-29 16:57:56.000000000,closed,4,compile-fail tests work with optimizations now
+1132,2019-12-28 18:39:03.000000000,2019-12-28 19:33:12.000000000,closed,9,Use Scalar::to_u16
+1131,2019-12-28 06:42:23.000000000,2019-12-31 00:47:21.000000000,closed,4,Add helper 'alloc_os_str_as_c_str' and use it in env_var emulation
+1130,2019-12-27 18:40:07.000000000,2019-12-31 16:19:09.000000000,closed,4,Ignore close errors in read-only files.
+1129,2019-12-24 21:02:26.000000000,2019-12-27 13:59:46.000000000,closed,13,add stat shim for macos
+1128,2019-12-24 15:47:21.000000000,2019-12-24 16:06:21.000000000,closed,4,use new try_from methods
+1127,2019-12-24 06:19:07.000000000,2020-01-09 17:08:20.000000000,closed,9,Add a scheme for emitting errors without halting interpretation
+1126,2019-12-24 02:42:09.000000000,2020-02-16 18:23:13.000000000,closed,2,Build Miri's libstd with debug assertions
+1125,2019-12-23 21:45:36.000000000,2019-12-23 22:14:48.000000000,closed,4,support main functions with Result return type
+1124,2019-12-22 22:13:44.000000000,2019-12-23 22:45:41.000000000,closed,10,disable sysroot checks for distributed binaries
+1123,2019-12-22 21:32:21.000000000,1970-01-01 00:00:00.000000001,open,0,Figure out a way to do name resolution in value vs type namespace
+1122,2019-12-18 18:50:19.000000000,2020-03-28 15:02:45.000000000,closed,11,Stacked borrow implementation of miri may mistreat statics since they aren't places anymore
+1121,2019-12-22 14:07:00.000000000,2019-12-24 03:23:36.000000000,closed,20,Rustup to rustc 1.42.0-nightly (005cf38f7 2019-12-22)
+1120,2019-12-22 00:30:20.000000000,2019-12-29 16:16:47.000000000,closed,8,Problems with instalation miri: cargo no such subcommand: `miri`
+1119,2019-12-21 16:01:02.000000000,2019-12-21 16:31:14.000000000,closed,3,References aliasing is not detected in some cases
+1118,2019-12-21 15:54:26.000000000,2019-12-23 17:15:40.000000000,closed,18,Run rustfmt
+1117,2019-12-21 15:45:23.000000000,2019-12-21 16:45:18.000000000,closed,8,Rustup to rustc 1.42.0-nightly (9ff30a781 2019-12-21)
+1116,2019-12-21 00:30:59.000000000,2019-12-23 22:14:48.000000000,closed,2,Miri Panic: Miri initialziation error: miri does not support main functions without `fn()` type signatures
+1115,2019-12-15 16:24:19.000000000,2019-12-15 16:42:57.000000000,closed,4,the never type got de-stabilized again; adjust tests
+1114,2019-12-13 19:38:53.000000000,2019-12-27 19:09:13.000000000,closed,7,Remove all uses of `to_ptr`
+1113,2019-12-13 17:20:18.000000000,2019-12-14 16:24:48.000000000,closed,4,add test for sketchy vtable
+1112,2019-12-12 11:54:00.000000000,2019-12-14 03:56:25.000000000,closed,6,Miri panics on sketchy code
+1111,2019-12-08 15:24:30.000000000,2019-12-08 18:59:31.000000000,closed,4,Updated CI config to reflect deprecation of rustup uninstall
+1110,2019-12-08 15:18:54.000000000,2019-12-08 18:37:34.000000000,closed,4,Updated README to reflect deprecation of rustup install
+1109,2019-12-08 15:07:22.000000000,2019-12-08 15:26:10.000000000,closed,4,add caller_location tests to Miri
+1108,2019-12-08 14:33:10.000000000,2019-12-08 14:51:42.000000000,closed,4,rustup
+1107,2019-12-08 05:46:05.000000000,2019-12-08 06:04:54.000000000,closed,4,"bump Rust, fix error messages"
+1106,2019-12-07 17:45:37.000000000,2019-12-07 23:22:21.000000000,closed,14,add flag to ignore memory leaks
+1105,2019-12-07 15:43:58.000000000,2019-12-07 20:22:43.000000000,closed,8,better way to ignore tests in Miri
+1104,2019-12-06 13:32:12.000000000,2019-12-06 14:36:52.000000000,closed,4,update README
+1103,2019-12-06 12:26:18.000000000,2019-12-06 12:46:54.000000000,closed,4,avoid recompiling Miri on install
+1102,2019-12-05 03:31:56.000000000,2019-12-05 03:53:48.000000000,closed,4,rustup for find_fn rename
+1101,2019-12-04 20:48:54.000000000,2019-12-22 22:20:41.000000000,closed,5,Add statx shim for linux target
+1100,2019-12-04 14:44:18.000000000,2019-12-04 15:05:12.000000000,closed,4,rename helper methods a bit
+1099,2019-12-04 13:59:55.000000000,2019-12-04 14:38:33.000000000,closed,4,tweak and use OsStr interfaces
+1098,2019-12-04 10:51:29.000000000,2019-12-28 05:56:00.000000000,closed,13,Add helper `alloc_os_str_as_c_str` and use it in env_var emulation
+1097,2019-12-03 21:38:10.000000000,2019-12-03 22:01:49.000000000,closed,4,bump Rust for exact_div fix
+1096,2019-12-03 12:22:57.000000000,2019-12-03 13:09:03.000000000,closed,4,Rustup
+1095,2019-12-03 12:19:20.000000000,2019-12-03 12:21:41.000000000,closed,4,adjust for MIR body cache changes
+1094,2019-12-03 06:21:16.000000000,2019-12-03 12:48:28.000000000,closed,4,Rustup for `BodyCache` changes
+1093,2019-12-02 15:08:20.000000000,2019-12-04 04:01:39.000000000,closed,4,use throw_machine_stop macro
+1092,2019-12-02 13:14:39.000000000,2019-12-02 13:34:46.000000000,closed,4,Rustup
+1091,2019-12-01 16:57:29.000000000,2019-12-01 17:17:16.000000000,closed,4,run-test: make sure the sysroot building output does not distort our tests
+1090,2019-11-30 23:06:24.000000000,2019-12-15 16:42:53.000000000,closed,2,Miri panics on unsound Pin code
+1089,2019-11-30 14:32:21.000000000,2019-11-30 14:52:28.000000000,closed,4,test should_panic checking the panic string
+1088,2019-11-30 14:19:35.000000000,2019-12-01 14:48:12.000000000,closed,4,fix for GlobalCtxt changes
+1087,2019-11-30 14:07:49.000000000,2019-12-01 19:44:56.000000000,closed,4,add toolchain mgmt script
+1086,2019-11-30 12:58:27.000000000,2019-11-30 14:20:55.000000000,closed,1,Bump Rust
+1085,2019-11-30 01:38:28.000000000,2019-11-30 01:58:49.000000000,closed,4,avoid injected_panic_runtime which is going away
+1084,2019-11-30 00:21:48.000000000,2019-12-02 21:15:22.000000000,closed,10,proper support for `Assert` MIR terminators
+1083,2019-11-29 13:26:37.000000000,2019-11-29 15:48:43.000000000,closed,4,Add and use helper function for calling a machine function and passing it some arguments
+1082,2019-11-28 23:18:43.000000000,2019-12-01 15:25:15.000000000,closed,9,test more panics
+1081,2019-11-28 17:56:42.000000000,2019-12-06 13:36:38.000000000,closed,10,argument-less `const fn` do not get properly executed
+1080,2019-11-28 14:39:55.000000000,2019-12-10 19:11:30.000000000,closed,8,Add a scheme to find the place where an id was destroyed
+1079,2019-11-28 04:22:13.000000000,2019-12-02 20:06:32.000000000,closed,4,Test diverging closure coercion
+1078,2019-11-26 18:29:24.000000000,2019-11-26 18:54:46.000000000,closed,4,cargo update
+1077,2019-11-26 03:01:08.000000000,2019-11-27 13:53:03.000000000,closed,8,adjust for goto_block refactoring
+1076,2019-11-25 19:11:10.000000000,2019-11-25 19:34:40.000000000,closed,4,test closure-to-fn-ptr coercions a bit more
+1075,2019-11-25 19:10:22.000000000,2019-12-02 16:43:16.000000000,closed,4,"Running diverging closure coerced to fn ptr fails: ""invalid use of NULL pointer"""
+1074,2019-11-25 00:32:53.000000000,2020-08-17 20:49:41.000000000,closed,9,Add option to allow exploiting intprcast alignment
+1073,2019-11-24 14:26:11.000000000,2019-11-24 15:13:19.000000000,closed,4,beef up catch_panic test
+1072,2019-11-23 14:39:32.000000000,2019-11-24 23:23:00.000000000,closed,4,cargo-miri: support locally built rustc
+1071,2019-11-23 13:28:02.000000000,2019-11-30 06:08:40.000000000,closed,8,Throwing a panic via core::panic reports memory leak
+1070,2019-11-23 02:47:16.000000000,2019-12-02 21:15:22.000000000,closed,1,"""Built-in"" panics (e.g. OOB array access) cannot be caught"
+1069,2019-11-22 22:12:36.000000000,2019-11-22 22:39:53.000000000,closed,4,typo
+1068,2019-11-22 13:50:40.000000000,2019-11-22 14:15:00.000000000,closed,4,rustup for never stabilization
+1067,2019-11-22 03:34:24.000000000,2019-11-22 14:43:41.000000000,closed,4,"Add acos, asin, and atan foreign functions"
+1066,2019-11-20 23:39:06.000000000,2019-11-21 00:03:46.000000000,closed,4,slice matching overflow got fixed
+1065,2019-11-20 03:26:51.000000000,2019-11-21 00:43:50.000000000,closed,6,Propagate the return code from the `start` lang item
+1064,2019-11-20 02:45:53.000000000,2019-11-21 00:43:50.000000000,closed,1,Unwinding panics have wrong exit code
+1063,2019-11-20 02:44:24.000000000,2019-11-20 03:11:36.000000000,closed,4,rename panic=abort tests to panic_abort
+1062,2019-11-20 00:40:32.000000000,2019-11-20 01:05:48.000000000,closed,5,generalize readme
+1061,2019-11-19 22:05:30.000000000,2019-11-19 22:08:07.000000000,closed,1,Update suggested nightly version
+1060,2019-11-18 19:11:48.000000000,2019-11-18 19:39:25.000000000,closed,4,bump compiletest; remove unused feature
+1059,2019-11-17 23:51:47.000000000,2020-06-28 15:22:33.000000000,closed,9,Add support for panics on Windows
+1058,2019-11-17 20:09:34.000000000,1970-01-01 00:00:00.000000001,open,0,Add support for abort panics
+1057,2019-11-17 15:01:38.000000000,2020-02-24 19:09:23.000000000,closed,12,"Build dependencies without codegen (""cargo check"") where possible"
+1056,2019-11-17 13:54:49.000000000,2019-11-17 14:13:43.000000000,closed,4,use new isize_max method in FS accesses
+1055,2019-11-16 13:00:52.000000000,2019-11-17 13:40:57.000000000,closed,12,minimal rustup for panic changes
+1054,2019-11-15 20:00:10.000000000,2019-11-15 20:25:47.000000000,closed,4,"test-cargo-miri: cargo update, re-enable windows num_cpus test"
+1053,2019-11-14 15:16:37.000000000,2019-11-14 15:44:26.000000000,closed,4,remove no-longer-needed zero checks
+1052,2019-11-14 14:25:27.000000000,2019-11-14 14:48:51.000000000,closed,4,fix ICE due to dangling pointers in Stacked Borrows
+1051,2019-11-14 03:35:56.000000000,2019-11-14 03:54:00.000000000,closed,2,Merge PR and bors CI configurations
+1050,2019-11-13 09:18:26.000000000,2019-11-14 14:48:51.000000000,closed,5,ICE: validity checks should have excluded dangling/unaligned pointer
+1049,2019-11-13 07:19:59.000000000,2019-11-13 15:04:21.000000000,closed,5,Implment intrinsics::copysignf32 and intrinsics::copysignf64
+1048,2019-11-12 20:19:52.000000000,2019-11-17 15:02:26.000000000,closed,48,Rustup for panic changes
+1047,2019-11-12 01:26:20.000000000,2019-11-12 01:48:45.000000000,closed,4,rustup
+1046,2019-11-09 20:16:07.000000000,2019-11-13 15:04:21.000000000,closed,2,intrinsics::copysignf32 is not implemented
+1045,2019-11-09 02:16:35.000000000,2019-11-09 03:15:57.000000000,closed,4,support inline asm
+1044,2019-11-09 02:08:41.000000000,2019-11-09 02:43:41.000000000,closed,4,rustup
+1043,2019-11-08 18:14:15.000000000,2019-11-08 21:26:19.000000000,closed,8,Cache rustup-toolchain-install-master again
+1042,2019-11-08 18:02:25.000000000,2019-11-08 19:47:05.000000000,closed,3,WIP NOP change
+1041,2019-11-08 16:50:57.000000000,2019-11-08 22:49:14.000000000,closed,9,bump Rust just a bit
+1040,2019-11-07 13:44:28.000000000,2019-11-08 23:31:32.000000000,closed,24,rustup
+1039,2019-11-07 13:07:03.000000000,2019-11-07 14:08:59.000000000,closed,7,"More tests for dyn trait (in particular, unsized receivers)"
+1038,2019-11-07 12:43:31.000000000,1970-01-01 00:00:00.000000001,open,4,Implement arbitrary-self dynamic method receivers
+1037,2019-11-06 08:07:30.000000000,2019-11-06 19:28:58.000000000,closed,4,error code E0080 is no longer printed with MIRI error message
+1036,2019-11-05 15:05:44.000000000,2019-11-05 16:20:43.000000000,closed,4,add an interesting run-pass stacked borrows example
+1035,2019-11-05 09:42:23.000000000,2019-11-06 19:28:58.000000000,closed,5,Miri evaluation errors show up with error code E0080
+1034,2019-11-05 09:30:20.000000000,1970-01-01 00:00:00.000000001,open,5,Improve handling of failed operations in isolation mode
+1033,2019-11-05 03:00:57.000000000,1970-01-01 00:00:00.000000001,open,12,Support generating backtraces in emulated code
+1032,2019-11-04 17:32:05.000000000,2019-11-06 01:01:32.000000000,closed,4,test offset_from
+1031,2019-11-04 16:19:34.000000000,2019-11-06 15:35:06.000000000,closed,8,Refactor ptr_offset_inbounds
+1030,2019-11-04 15:18:12.000000000,2019-11-04 15:54:37.000000000,closed,4,update comment re: not using higher mir-opt-level
+1029,2019-11-03 19:40:03.000000000,2019-11-03 20:15:17.000000000,closed,4,calling panic_if_uninhabited is not actually UB
+1028,2019-11-02 14:52:47.000000000,2019-11-02 15:29:07.000000000,closed,4,use Place API instead of Allocation API
+1027,2019-10-30 18:06:10.000000000,2019-10-30 19:07:40.000000000,closed,4,fix typo
+1026,2019-10-30 13:17:16.000000000,2019-10-30 14:07:55.000000000,closed,4,rustup for span in intrinsic emulation
+1025,2019-10-28 02:12:04.000000000,2019-10-28 15:52:40.000000000,closed,4,Bump dependencies
+1024,2019-10-26 11:33:46.000000000,2019-10-26 12:09:25.000000000,closed,4,rustup for projection interning
+1023,2019-10-25 22:26:27.000000000,2019-10-25 23:11:58.000000000,closed,4,test align_to example
+1022,2019-10-24 18:31:14.000000000,2019-11-14 04:19:22.000000000,closed,7,Fix unchecked memory access for files
+1021,2019-10-24 15:13:07.000000000,2019-10-24 20:00:07.000000000,closed,11,Adjust for rustc-dev
+1020,2019-10-24 12:33:12.000000000,2019-10-24 13:18:13.000000000,closed,4,compiletest-nightly should work again
+1019,2019-10-24 12:16:35.000000000,2019-10-24 12:53:52.000000000,closed,7,rustup: more flexible write_bytes
+1018,2019-10-23 18:34:35.000000000,2019-10-23 19:11:25.000000000,closed,4,rustup; fix debugging
+1017,2019-10-23 12:32:44.000000000,2019-10-23 13:23:23.000000000,closed,4,cargo update cargo-miri-test
+1016,2019-10-23 12:31:38.000000000,2019-10-23 12:58:21.000000000,closed,4,Rustup
+1015,2019-10-22 15:11:34.000000000,2019-10-22 16:05:41.000000000,closed,4,AppVeyor: abort early if a job fails
+1014,2019-10-22 12:14:06.000000000,2019-10-22 15:41:13.000000000,closed,11,rustup: fix for write_bytes and new union rules
+1013,2019-10-21 17:47:53.000000000,1970-01-01 00:00:00.000000001,open,2,Implement file system access for Windows
+1012,2019-10-21 15:31:54.000000000,2019-10-21 16:13:24.000000000,closed,4,bump Rust (no changes needed)
+1011,2019-10-21 15:25:13.000000000,2019-10-21 15:50:08.000000000,closed,4,add some missing trailing full stops that slipped through review
+1010,2019-10-21 12:26:38.000000000,2019-10-21 13:15:50.000000000,closed,7,"when xargo is manually specified, don't try to upgrade it"
+1009,2019-10-20 14:21:13.000000000,2019-10-20 14:43:19.000000000,closed,4,use expect_none and unwrap_none where it makes sense
+1008,2019-10-19 18:37:36.000000000,2019-10-19 19:10:14.000000000,closed,10,print sysroot without any escaping
+1007,2019-10-19 14:42:11.000000000,2019-11-14 04:19:22.000000000,closed,6,Some direct memory accesses lack bounds-checks
+1006,2019-10-19 14:39:57.000000000,2019-10-19 15:14:09.000000000,closed,4,audit our bounds checks
+1005,2019-10-18 13:33:49.000000000,2019-10-18 18:32:07.000000000,closed,12,cleanup now that borrow checker knows memory is a field
+1004,2019-10-18 06:13:40.000000000,2019-10-18 12:49:57.000000000,closed,5,Use memory field instead of memory()
+1003,2019-10-17 21:57:23.000000000,2019-10-17 22:39:34.000000000,closed,1,experiment with rustc-dev component
+1002,2019-10-16 23:45:32.000000000,2019-10-17 00:30:31.000000000,closed,8,better error when using cargo-miri in a workspace
+1001,2019-10-16 17:03:14.000000000,1970-01-01 00:00:00.000000001,open,7,cargo-miri does not support workspaces
+1000,2019-10-16 12:03:07.000000000,2019-10-16 13:19:01.000000000,closed,10,install minimal profile by default
+999,2019-10-16 11:56:08.000000000,2019-12-31 16:19:09.000000000,closed,25,macOS: Implement stat64 to get rid of the termcap hack
+998,2019-10-15 13:04:13.000000000,2019-10-15 14:00:33.000000000,closed,8,explain our shell encoding
+997,2019-10-15 02:36:03.000000000,2020-04-01 21:59:32.000000000,closed,1,Implement `GetSystemTimeAsFileTime` shim for Windows
+996,2019-10-15 01:22:00.000000000,2019-10-16 12:42:39.000000000,closed,7,Add function to error with enabled isolation
+995,2019-10-14 11:40:21.000000000,2019-10-14 12:27:54.000000000,closed,8,add lockfile
+994,2019-10-14 01:31:58.000000000,2019-10-14 16:54:36.000000000,closed,8,Fix for rustc and compiletest changes
+993,2019-10-14 01:19:20.000000000,2019-10-23 21:21:05.000000000,closed,13,Add OsString from/to bytes helper functions
+992,2019-10-13 23:48:43.000000000,2019-10-14 17:21:22.000000000,closed,16,Check that fs errors have the proper kind
+991,2019-10-13 05:58:44.000000000,2019-10-21 13:43:01.000000000,closed,8,Change the last OS error location to a place
+990,2019-10-12 19:51:32.000000000,2019-10-12 20:37:56.000000000,closed,6,hopefully harmless Rust bump
+989,2019-10-12 01:57:32.000000000,2019-10-24 12:08:54.000000000,closed,1,OsString helpers
+988,2019-10-12 01:02:25.000000000,2019-10-12 01:25:30.000000000,closed,6,use temp_dir for FS test
+987,2019-10-11 14:32:03.000000000,2019-10-16 12:18:00.000000000,closed,9,Error when there is an unsupported flag for opening a file
+986,2019-10-11 12:47:21.000000000,2019-10-16 12:42:38.000000000,closed,4,"Factor ""X not available when isolation disabled"" into common function"
+985,2019-10-11 12:33:35.000000000,2019-10-11 13:27:44.000000000,closed,10,Avoid using the tests folder for the file manipulation test
+984,2019-10-11 12:14:13.000000000,2019-10-12 20:12:30.000000000,closed,14,Rustup for rustc-dev
+983,2019-10-11 10:51:17.000000000,2019-10-11 18:03:20.000000000,closed,13,Various fixes to the file related shims
+982,2019-10-09 15:01:42.000000000,2019-10-09 15:26:56.000000000,closed,4,bump to latest nightly
+981,2019-10-09 12:29:36.000000000,2019-10-09 12:56:57.000000000,closed,4,also test AcqRel fence
+980,2019-10-06 01:19:39.000000000,2019-10-15 12:58:29.000000000,closed,23,change cargo-miri.rs to fix issue #978
+979,2019-10-05 13:13:09.000000000,2019-10-05 19:46:15.000000000,closed,8,Add missing atomic_fence intrinsics as nops
+978,2019-10-05 04:05:53.000000000,2019-10-15 12:58:28.000000000,closed,9,Need to fix 'miri' bash script for Windows powershell users
+977,2019-10-03 19:33:57.000000000,2019-10-08 17:49:59.000000000,closed,7,Move last error into memory
+976,2019-10-03 18:34:34.000000000,2019-10-08 20:47:38.000000000,closed,4,Add unlink shim to delete files
+975,2019-10-02 22:39:17.000000000,2019-10-15 12:22:26.000000000,closed,13,Add clock_gettime shim
+974,2019-10-02 18:33:44.000000000,1970-01-01 00:00:00.000000001,open,2,Make stacked borrow failures easier to debug
+973,2019-10-01 20:07:13.000000000,2019-10-02 18:49:14.000000000,closed,4,Enable file writing
+972,2019-10-01 01:52:39.000000000,2019-10-05 19:46:15.000000000,closed,6,Support atomic_fence instrinstic
+971,2019-09-29 20:32:58.000000000,2019-09-29 21:50:25.000000000,closed,4,bump rust even more
+970,2019-09-29 19:44:23.000000000,2019-09-29 21:15:19.000000000,closed,8,more align_offset tests
+969,2019-09-29 19:31:25.000000000,2019-09-29 19:55:06.000000000,closed,4,fix test failure from diagnostics change
+968,2019-09-28 22:09:47.000000000,2019-09-28 22:29:40.000000000,closed,4,error[E0433]: failed to resolve: could not find `Kind` in `subst`
+967,2019-09-28 20:11:03.000000000,2019-09-28 20:37:46.000000000,closed,4,cargo update for test-cargo-miri
+966,2019-09-28 19:36:34.000000000,2019-09-28 20:00:11.000000000,closed,4,sync AppVeyor CI script with Travis
+965,2019-09-28 18:40:48.000000000,2019-09-28 19:22:24.000000000,closed,8,rustup
+964,2019-09-28 18:38:15.000000000,2019-09-28 18:39:45.000000000,closed,0,rustup
+963,2019-09-26 11:42:21.000000000,2019-09-28 09:18:44.000000000,closed,29,Update to latest nightly
+962,2019-09-25 10:13:15.000000000,2019-10-01 20:05:31.000000000,closed,5,Add shims for file handling
+961,2019-09-25 03:20:23.000000000,2019-11-03 14:52:04.000000000,closed,4,Use the upstream `exact_div` implementation
+960,2019-09-24 23:54:05.000000000,2019-09-25 03:03:26.000000000,closed,5,Add `chdir` shim
+959,2019-09-22 12:03:39.000000000,2019-09-23 17:20:40.000000000,closed,2,Add is_const_eval intrinsic
+958,2019-09-18 20:39:17.000000000,2019-09-24 21:04:17.000000000,closed,5,Add getcwd shim
+957,2019-09-17 20:48:55.000000000,2019-09-28 22:59:58.000000000,closed,7,Fixes for align_offset
+956,2019-09-17 14:32:10.000000000,2019-09-18 13:47:28.000000000,closed,4,rustup for retag rename
+955,2019-09-17 00:23:33.000000000,2019-09-17 00:51:38.000000000,closed,4,remove libstd backtrace work-around
+954,2019-09-16 01:29:40.000000000,2019-09-16 11:56:55.000000000,closed,5,update for rustc changes
+953,2019-09-14 15:42:40.000000000,2019-09-14 17:07:04.000000000,closed,4,add CONTRIBUTING guide
+952,2019-09-14 15:06:02.000000000,2019-09-14 15:30:32.000000000,closed,4,temporarily enable backtrace feature
+951,2019-09-14 08:05:04.000000000,2019-09-15 15:47:07.000000000,closed,8,Place projection field is now Box<[PlaceElem<'tcx>]>
+950,2019-09-13 20:22:13.000000000,2019-09-13 20:29:59.000000000,closed,1,Compile hashbrown fails with unresolved import `crate::sys_common::backtrace`
+949,2019-09-13 12:40:02.000000000,2019-09-14 16:06:54.000000000,closed,4,factor ask-to-run-command into helper function
+948,2019-09-12 14:50:32.000000000,2019-09-13 13:06:49.000000000,closed,5,Bump byteorder and remove no-op feature
+947,2019-09-11 20:34:10.000000000,2019-09-12 16:22:26.000000000,closed,4,bump rand dependency
+946,2019-09-11 19:14:11.000000000,2019-09-11 19:54:02.000000000,closed,4,fix async test
+945,2019-09-09 20:56:26.000000000,2019-09-16 20:35:23.000000000,closed,11,Use libcore's align_offset
+944,2019-09-09 15:00:55.000000000,2019-09-09 15:35:56.000000000,closed,4,Rustup to 1.39.0-nightly (1e869133b 2019-09-09)
+943,2019-09-09 14:37:50.000000000,2019-09-09 15:10:42.000000000,closed,4,Re-enable run-pass tests with optimizations enabled
+942,2019-09-08 14:13:03.000000000,2019-09-08 17:52:21.000000000,closed,4,Rustup
+941,2019-09-02 18:13:53.000000000,2019-09-02 19:22:02.000000000,closed,4,rustup
+940,2019-09-01 15:14:06.000000000,2020-04-07 21:56:30.000000000,closed,22,don't report memory leaks for static data
+939,2019-08-30 16:16:51.000000000,2019-08-30 16:48:11.000000000,closed,2,update Rust (to reproduce ICE)
+938,2019-08-30 00:14:08.000000000,2019-08-30 02:33:35.000000000,closed,4,Rewrite alloc_env_var
+937,2019-08-29 13:11:17.000000000,2019-08-29 20:14:19.000000000,closed,6,Fix cargo-miri with disabled isolation
+936,2019-08-29 11:18:39.000000000,2019-08-29 11:30:42.000000000,closed,7,Support for std::env::vars() (and ::vars_os)
+935,2019-08-29 02:37:56.000000000,2019-08-29 12:36:51.000000000,closed,10,Exclude environment variables from host communication
+934,2019-08-29 01:53:05.000000000,2019-08-29 01:53:27.000000000,closed,0,Add flag to blackist environment variables
+933,2019-08-29 00:25:02.000000000,2019-10-16 20:40:58.000000000,closed,9,`cargo miri test -- -Zmiri-disable-isolation` fails
+932,2019-08-28 23:12:41.000000000,1970-01-01 00:00:00.000000001,open,10,Support `is_x86_feature_detected!()`
+931,2019-08-28 20:46:37.000000000,2019-08-29 11:06:01.000000000,closed,4,Stacked Borrows: don't read from memory during retagging
+930,2019-08-28 11:17:12.000000000,2019-08-29 00:58:41.000000000,closed,14,test that build scripts do not run in Miri
+929,2019-08-27 20:37:16.000000000,2019-08-31 11:18:07.000000000,closed,4,test too big slice
+928,2019-08-27 20:21:38.000000000,2019-09-09 18:27:13.000000000,closed,2,Add MemoryExtra to find_foreign_static
+927,2019-08-27 17:13:13.000000000,2019-08-27 17:42:32.000000000,closed,4,explicitly enable getrandom/std feature
+926,2019-08-27 10:32:58.000000000,2019-08-27 11:47:05.000000000,closed,10,rustup
+925,2019-08-27 00:21:30.000000000,2019-08-27 20:30:51.000000000,closed,5,Write name and value for each env var
+924,2019-08-26 22:54:03.000000000,2019-08-26 23:19:33.000000000,closed,4,decrease getrandom version
+923,2019-08-26 22:44:27.000000000,2019-10-21 17:46:49.000000000,closed,2,Miri does not support file system access
+922,2019-08-26 21:44:52.000000000,2019-08-26 22:44:09.000000000,closed,4,bump Rust and xargo
+921,2019-08-26 21:39:06.000000000,2019-08-26 22:09:55.000000000,closed,4,cargo update
+920,2019-08-26 17:43:01.000000000,2019-08-26 18:21:55.000000000,closed,3,Error during `cargo miri setup` with `nightly-2019-08-26`
+919,2019-08-25 16:57:12.000000000,2019-08-29 19:46:22.000000000,closed,4,test for invalid wide raw ptr
+918,2019-08-24 16:21:19.000000000,2019-08-29 19:01:03.000000000,closed,5,Report null fat raw pointers
+917,2019-08-24 01:31:47.000000000,2019-08-27 14:40:44.000000000,closed,6,change flag name: enable-communication -> disable-isolation
+916,2019-08-23 03:16:19.000000000,2019-08-25 08:26:25.000000000,closed,3,Miri incorrectly rejects pointer-as-bytes access with `cttz`
+915,2019-08-21 11:07:49.000000000,2019-08-21 11:35:24.000000000,closed,4,bump Rust
+914,2019-08-19 19:46:44.000000000,2019-08-23 14:25:32.000000000,closed,10,Use host's rng when communication is enabled
+913,2019-08-18 13:35:29.000000000,2019-08-18 16:02:12.000000000,closed,7,test some new uninit APIs
+912,2019-08-18 13:16:21.000000000,2019-08-18 13:39:29.000000000,closed,4,fix test failure due to my own lint
+911,2019-08-18 09:43:47.000000000,2019-08-18 10:11:24.000000000,closed,4,Adjust for typed binops
+910,2019-08-17 11:23:17.000000000,1970-01-01 00:00:00.000000001,open,5,Should have option to report progress
+909,2019-08-15 13:15:18.000000000,2019-08-15 14:13:28.000000000,closed,7,deny warnings on CI
+908,2019-08-15 13:00:23.000000000,2019-08-15 13:03:57.000000000,closed,4,Rename check_in_alloc to check_inbounds_alloc
+907,2019-08-15 00:45:44.000000000,2019-08-15 13:11:07.000000000,closed,4,Move env shims to its own module
+906,2019-08-13 11:29:21.000000000,2019-08-13 15:56:56.000000000,closed,4,make TLS state private to TLS module
+905,2019-08-13 02:17:00.000000000,2019-09-18 13:23:40.000000000,closed,4,Stub out pthread_rwlock_trywrlock and pthread_rwlock_tryrdlock
+904,2019-08-12 10:26:33.000000000,2019-08-12 10:51:26.000000000,closed,4,it's called RUSTC_CTFE_BACKTRACE now
+903,2019-08-10 23:20:08.000000000,2019-09-20 11:25:10.000000000,closed,4,fix discriminant handling
+902,2019-08-09 21:54:11.000000000,2019-08-10 13:56:19.000000000,closed,4,use apfloat for ldexp
+901,2019-08-09 21:22:56.000000000,2019-08-09 21:45:46.000000000,closed,4,test that even &Cell must be dereferencable
+900,2019-08-09 13:34:09.000000000,2019-08-09 16:08:13.000000000,closed,4,local rustc builds now also need a sysroot built
+899,2019-08-09 13:02:53.000000000,2019-08-10 00:28:19.000000000,closed,4,More generator tests
+898,2019-08-09 00:23:35.000000000,2019-08-09 01:37:46.000000000,closed,4,Use ldexp from cmath instead
+897,2019-08-08 21:34:55.000000000,2019-08-08 22:03:47.000000000,closed,4,bump xargo version
+896,2019-08-08 03:57:51.000000000,2019-08-09 12:53:29.000000000,closed,5,"Add generator, async tests with uninhabited saved local"
+895,2019-08-07 12:25:11.000000000,2019-08-07 17:11:14.000000000,closed,4,"Revert ""uninit intrinsic is gone"""
+894,2019-08-06 23:48:49.000000000,2019-08-14 23:22:37.000000000,closed,13,Enable env communication
+893,2019-08-06 22:52:37.000000000,2019-08-07 01:11:14.000000000,closed,4,mention that we get the toolchain right
+892,2019-08-06 17:08:31.000000000,2019-08-07 01:11:14.000000000,closed,3,Does Miri install into the correct rustup toolchain if it's not the default?
+891,2019-08-06 14:51:09.000000000,2019-08-06 15:14:20.000000000,closed,6,test-cargo-miri: cargo update
+890,2019-08-06 10:06:24.000000000,2019-08-06 10:52:35.000000000,closed,4,go back to released xargo (the experiment is done)
+889,2019-08-05 17:50:25.000000000,2019-08-05 18:18:33.000000000,closed,4,rustup
+888,2019-08-05 12:47:20.000000000,2019-08-05 13:23:00.000000000,closed,4,fix for latest rustc
+887,2019-08-04 21:36:45.000000000,2019-08-04 21:57:55.000000000,closed,4,README: add getrandom bug
+886,2019-08-04 18:52:45.000000000,2019-08-05 01:23:19.000000000,closed,9,Shim 'libc::getrandom' in addition to 'libc::syscall(libc::SYS_getrandom)'
+885,2019-08-04 18:25:50.000000000,2019-08-05 00:33:51.000000000,closed,6,Add misssing 'roundf32' and 'roundf64' intrinsics
+884,2019-08-04 16:53:11.000000000,2019-08-05 00:12:02.000000000,closed,11,Allowing passing a null pointer to getrandom() when length is 0
+883,2019-08-04 16:49:39.000000000,2019-08-04 17:18:55.000000000,closed,4,gen_random helper: move ptr argument to front
+882,2019-08-04 12:10:28.000000000,2019-08-04 12:48:41.000000000,closed,4,install xargo from git temporarily
+881,2019-08-03 22:31:49.000000000,2019-08-03 23:35:35.000000000,closed,8,adjust for rustc changes
+880,2019-08-03 19:07:00.000000000,2019-08-03 19:53:11.000000000,closed,7,annotate some unwraps with better messages
+879,2019-08-03 15:54:50.000000000,2019-08-03 16:25:27.000000000,closed,4,also let bootstrap tell us where to find xargo
+878,2019-08-03 12:27:07.000000000,2019-08-03 13:03:39.000000000,closed,4,Rustup for error changes
+877,2019-08-02 22:42:54.000000000,2019-08-03 20:35:21.000000000,closed,4,Add shim for ldexp
+876,2019-08-02 22:22:10.000000000,2019-08-04 13:17:03.000000000,closed,4,check that atomics are sufficiently aligned
+875,2019-08-02 20:03:54.000000000,2019-08-02 21:04:31.000000000,closed,4,honor CARGO env var (for rustc bootstrap)
+874,2019-08-02 16:27:13.000000000,2019-08-02 16:51:36.000000000,closed,4,test dangling ZST deref
+873,2019-08-02 11:54:48.000000000,2019-10-25 23:11:57.000000000,closed,4,Make pointer::align_offset exploit allocation alignment
+872,2019-08-02 11:25:28.000000000,2019-08-02 12:08:36.000000000,closed,4,Make Retag shallow
+871,2019-07-31 17:31:13.000000000,2019-08-09 01:10:10.000000000,closed,4,Cleanup after rustc bootstrap tests Miri with a separate libstd
+870,2019-07-31 17:17:57.000000000,2019-08-02 12:42:32.000000000,closed,5,Prepare Miri for rustc bootstrap building a separate libstd for it
+869,2019-07-31 15:48:23.000000000,2019-07-31 16:16:28.000000000,closed,4,test suite: be fine with warnings when running on rustc CI
+868,2019-07-31 11:45:00.000000000,2019-07-31 12:33:36.000000000,closed,4,Remove `await_macro`
+867,2019-07-30 19:05:41.000000000,2019-07-31 01:52:24.000000000,closed,10,README: move CI remark down to CI section
+866,2019-07-30 14:25:58.000000000,1970-01-01 00:00:00.000000001,open,2,intptrcast (with many different seeds) does not explore all possible executions
+865,2019-07-30 13:24:33.000000000,2019-07-30 14:11:33.000000000,closed,4,README: call out more clearly what we do not test
+864,2019-07-28 22:17:00.000000000,2019-12-15 17:43:42.000000000,closed,6,"Consider doing only a ""check"" build of libstd"
+863,2019-07-28 14:32:39.000000000,2019-08-15 13:37:38.000000000,closed,4,adjust tests for eager pointer checks on deref
+862,2019-07-28 13:23:40.000000000,2019-07-29 15:27:45.000000000,closed,17,bump Rust
+861,2019-07-28 12:15:11.000000000,2019-07-28 13:21:53.000000000,closed,8,bump Rust (no changes needed)
+860,2019-07-27 00:50:26.000000000,2019-07-27 01:15:26.000000000,closed,4,bump Rust
+859,2019-07-26 12:22:10.000000000,2019-08-16 01:17:22.000000000,closed,5,travis: do not install cargo from master
+858,2019-07-26 12:15:13.000000000,2019-07-26 12:40:23.000000000,closed,4,bump Rust
+857,2019-07-25 21:39:20.000000000,2019-07-25 22:10:07.000000000,closed,4,link to UB definition
+856,2019-07-24 22:43:49.000000000,2019-08-03 17:37:18.000000000,closed,9,Adjust for ptr_op changes
+855,2019-07-24 18:46:00.000000000,2019-12-31 16:03:21.000000000,closed,3,Make CI fail if there are warnings
+854,2019-07-24 18:28:21.000000000,2019-07-24 19:18:50.000000000,closed,4,build: Warn if not use 2018 idioms
+853,2019-07-24 16:19:01.000000000,2019-07-24 22:46:31.000000000,closed,4,readme: move flags and env vars up above dev
+852,2019-07-24 04:46:37.000000000,2019-07-24 17:34:52.000000000,closed,10, build: Fix build after rust-lang/rust#60951 
+851,2019-07-24 01:29:35.000000000,2019-07-24 12:50:32.000000000,closed,8,enable Intrptrcast by default
+850,2019-07-23 06:20:34.000000000,2019-08-03 13:51:04.000000000,closed,3,Surprising impact of unused &mut
+849,2019-07-21 13:56:25.000000000,2019-07-21 14:27:25.000000000,closed,5,bump rust
+848,2019-07-21 00:39:06.000000000,2019-07-21 01:14:40.000000000,closed,4,disable some compile-fail tests for rustc
+847,2019-07-19 19:36:48.000000000,2019-07-19 20:29:37.000000000,closed,8,fix for rustc_driver change
+846,2019-07-19 16:37:19.000000000,1970-01-01 00:00:00.000000001,open,1,Pre-commit githook for enforcing coding style
+845,2019-07-17 10:33:57.000000000,1970-01-01 00:00:00.000000001,open,1,Miri performs byte-level copies instead of typed copies
+844,2019-07-17 05:25:39.000000000,2019-07-17 18:42:09.000000000,closed,3,Printing a raw pointer fails in miri
+843,2019-07-16 20:40:01.000000000,2019-07-16 21:26:42.000000000,closed,4,fix compile-fail tests for latest rustc
+842,2019-07-16 18:43:34.000000000,2019-07-16 19:59:10.000000000,closed,1,-Zmiri-seed doesn't work on macOS
+841,2019-07-15 19:10:01.000000000,1970-01-01 00:00:00.000000001,open,17,"Make force_ptr a total operation, and ptr-to-int-casts not require extra machine state"
+840,2019-07-14 11:34:23.000000000,2019-07-14 13:18:56.000000000,closed,7,update README about what we do not support
+839,2019-07-13 17:18:40.000000000,2019-07-14 11:55:31.000000000,closed,4,avoid unnecessary allocation
+838,2019-07-13 14:17:21.000000000,2019-07-13 14:41:43.000000000,closed,2,Can't compile miri on windows
+837,2019-07-13 12:51:25.000000000,2019-08-20 18:47:03.000000000,closed,4,test arrray try_from (interesting const generic usage)
+836,2019-07-13 12:23:57.000000000,2019-07-13 12:48:02.000000000,closed,4,test some const-generic-using methods
+835,2019-07-13 04:10:51.000000000,2019-07-13 16:45:53.000000000,closed,2,Allow other tests to run when a test fails
+834,2019-07-12 02:57:43.000000000,2019-07-13 16:54:00.000000000,closed,5,Give a useful error message if user gives invalid random seed
+833,2019-07-11 20:42:24.000000000,2019-07-11 21:32:07.000000000,closed,9,reenable all tests on Windows
+832,2019-07-10 11:32:28.000000000,2019-07-10 12:12:53.000000000,closed,4,bump rustc
+831,2019-07-10 06:57:10.000000000,2019-07-10 11:30:19.000000000,closed,4,Remove SliceConcatExt import
+830,2019-07-06 16:25:53.000000000,2019-07-11 19:47:29.000000000,closed,9,Fix validation and reborrowing of integer pointers
+829,2019-07-06 11:38:49.000000000,2019-07-06 13:20:09.000000000,closed,11,use beta cargo for CI builds
+828,2019-07-05 23:55:32.000000000,2019-07-06 15:07:28.000000000,closed,3,CI: Change back to stable toolchain
+827,2019-07-05 23:07:30.000000000,2019-07-06 14:25:18.000000000,closed,35,Remove stable cargo feature `default-run`
+826,2019-07-05 20:45:51.000000000,2019-07-06 14:02:17.000000000,closed,4,uninit intrinsic is gone
+825,2019-07-05 11:57:14.000000000,2019-07-06 00:30:31.000000000,closed,4,"avoid Scalar::is_null_ptr, it is going away"
+824,2019-07-05 10:38:19.000000000,2019-07-06 13:40:51.000000000,closed,5,"use Memory::read_c_str, avoid a few to_ptr"
+823,2019-07-05 01:17:33.000000000,2019-12-31 16:01:45.000000000,closed,5,Check Pin guarantees at runtime
+822,2019-07-04 01:12:58.000000000,2019-07-04 13:28:01.000000000,closed,4,move tls.rs into shims module
+821,2019-07-03 21:52:58.000000000,2019-08-09 01:37:46.000000000,closed,9,Missing cmath function: ldexp
+820,2019-07-03 12:49:49.000000000,2019-07-03 22:34:43.000000000,closed,4,Make most tests work with Intptrcast
+819,2019-07-02 15:03:12.000000000,2019-07-02 15:46:25.000000000,closed,4,fix outdated test name: overalign -> align
+818,2019-07-02 11:51:37.000000000,2019-07-02 12:15:55.000000000,closed,4,add another bug we found to the list
+817,2019-07-02 11:04:40.000000000,2019-07-06 03:15:08.000000000,closed,5,"align small malloc-allocations even less, and test that we do"
+816,2019-07-01 13:06:28.000000000,2019-07-01 17:13:24.000000000,closed,10,be explicit about our line endings
+815,2019-07-01 02:25:17.000000000,2019-07-02 02:00:23.000000000,closed,4,don't call Memory::get without checking the pointer first
+814,2019-07-01 01:25:11.000000000,2019-07-01 18:09:13.000000000,closed,8,move find_fn (which is not specific to foreign items) out of foreign_item
+813,2019-07-01 00:58:56.000000000,2019-09-18 13:24:45.000000000,closed,6,[WIP] Support for automatically shimming dynamic libraries
+812,2019-06-30 23:32:59.000000000,2019-07-06 03:15:08.000000000,closed,4,Figure out rules for minimal alignment of system allocator
+811,2019-06-30 21:13:53.000000000,1970-01-01 00:00:00.000000001,open,1,Miri should support concurrency
+810,2019-06-30 20:15:33.000000000,2019-08-10 18:36:52.000000000,closed,1,MIRI_BACKTRACE=1 shows unrelated backtraces
+809,2019-06-30 18:56:45.000000000,2019-07-01 01:50:23.000000000,closed,33,use intptrcast for heap_allocator test; then it should work on Windows
+808,2019-06-30 18:46:49.000000000,2019-07-06 13:00:45.000000000,closed,6,use Dlsym support to implement getentropy (and better thread spawn error)
+807,2019-06-30 18:45:49.000000000,2019-06-30 19:07:04.000000000,closed,4,better name for a test: threads -> sync
+806,2019-06-30 18:31:32.000000000,2019-06-30 19:28:00.000000000,closed,4,Fix `unused_must_use` inside `Box`
+805,2019-06-30 17:38:15.000000000,2019-06-30 18:00:13.000000000,closed,4,move shims (foreign items and intrinsics) into submodule
+804,2019-06-30 13:05:39.000000000,2019-06-30 14:48:46.000000000,closed,6,fix comparing function pointers with intptrcast
+803,2019-06-29 22:24:52.000000000,2019-07-06 01:08:52.000000000,closed,28,Add tests for Intptrcast when doing explicit casts
+802,2019-06-29 15:49:41.000000000,2019-06-29 16:13:26.000000000,closed,4,some lib.rs refactoring
+801,2019-06-29 15:37:02.000000000,2019-06-30 13:10:52.000000000,closed,8,support num_cpus crate and test that
+800,2019-06-29 15:02:53.000000000,2019-12-31 16:04:07.000000000,closed,23,Plan for external communication / isolation
+799,2019-06-29 13:15:53.000000000,2019-07-06 12:04:39.000000000,closed,6,Initialize MemoryExtra with StdRng
+798,2019-06-28 22:42:30.000000000,2019-06-28 23:06:49.000000000,closed,4,test pointer string formatting
+797,2019-06-28 20:50:03.000000000,1970-01-01 00:00:00.000000001,open,6,Enable Miri to emit warnings without halting execution
+796,2019-06-28 13:30:50.000000000,2019-06-28 13:57:12.000000000,closed,4,bump rand to released 0.7
+795,2019-06-28 12:17:36.000000000,2019-06-29 17:19:43.000000000,closed,7,tweak inttoptr allocation behavior
+794,2019-06-28 11:13:09.000000000,2019-06-28 11:38:23.000000000,closed,4,ptr-to-int alignment sanity check
+793,2019-06-28 05:48:32.000000000,2019-06-28 10:52:37.000000000,closed,4,Show usage if run without arguments
+792,2019-06-26 22:15:47.000000000,2019-06-29 13:16:21.000000000,closed,5,Initialize MemoryExtra with StdRng
+791,2019-06-26 01:39:11.000000000,2019-06-29 17:19:43.000000000,closed,4,Addresses are unintentionally aligned
+790,2019-06-25 12:06:12.000000000,2019-06-25 12:57:58.000000000,closed,10,README: add snippet for running Miri on CI
+789,2019-06-25 01:37:39.000000000,2019-07-06 13:00:44.000000000,closed,6,dlsym not implemented for: __pthread_get_minstack
+788,2019-06-24 13:52:09.000000000,1970-01-01 00:00:00.000000001,open,4,suppressions support
+787,2019-06-23 22:20:06.000000000,2019-06-25 02:38:54.000000000,closed,4,adjust for refactored memory pointer checks
+786,2019-06-22 16:28:32.000000000,2019-06-29 14:49:05.000000000,closed,8,Lazy or eager ptr/int casts?
+785,2019-06-22 16:01:27.000000000,2019-07-26 10:54:59.000000000,closed,12,(When) Should we do intptrcast (and other opt-in features) per default?
+784,2019-06-22 13:13:51.000000000,2019-06-22 13:49:31.000000000,closed,4,also run tests for cron jobs
+783,2019-06-22 13:05:30.000000000,2019-06-22 14:28:41.000000000,closed,4,fix compilation with latest rustc
+782,2019-06-21 23:48:49.000000000,2019-06-22 00:09:22.000000000,closed,4,add a failing test where an immovable generator gets moved
+781,2019-06-21 23:14:02.000000000,2020-04-06 18:17:44.000000000,closed,1,Our pthreads shims don't check for reentrancy
+780,2019-06-21 22:56:30.000000000,2019-06-21 23:21:23.000000000,closed,9,adapt CI for bors
+779,2019-06-21 18:50:11.000000000,2019-06-26 19:18:31.000000000,closed,12,Implement intptrcast methods
+778,2019-06-21 04:00:54.000000000,2019-06-21 15:20:23.000000000,closed,0,Update tag methods to match Machine changes
+777,2019-06-20 17:36:14.000000000,2019-06-21 11:00:21.000000000,closed,4,bump Rust
+776,2019-06-16 13:11:48.000000000,2019-06-17 13:12:13.000000000,closed,1," implement unchecked_{add,sub,mul} intrinsics "
+775,2019-06-16 11:50:05.000000000,2019-06-16 12:10:54.000000000,closed,0,Rustup
+774,2019-06-15 01:17:37.000000000,2019-06-20 23:36:59.000000000,closed,11,Fix project dirs path
+773,2019-06-14 23:31:34.000000000,2019-06-16 11:50:52.000000000,closed,8,Fix wrong lifetime of TyCtxt
+772,2019-06-14 13:16:49.000000000,2019-06-14 16:28:38.000000000,closed,7,Fix sysroot handling
+771,2019-06-13 22:23:34.000000000,2019-06-16 13:10:27.000000000,closed,5,Add more missing math functions
+770,2019-06-13 22:21:55.000000000,2019-06-13 22:25:14.000000000,closed,5,Error on test that should panic in num-complex
+769,2019-06-13 10:52:49.000000000,2019-06-13 11:50:55.000000000,closed,0,Rustup
+768,2019-06-13 06:10:23.000000000,2019-06-13 18:10:42.000000000,closed,30,"Cannot build ""backtrace"" with locally-compiled rustc on macOS: expected enum `std::os::raw::c_void`, found enum `libc::c_void`"
+767,2019-06-10 15:02:26.000000000,2019-06-10 19:52:56.000000000,closed,0,fix for rustc rename mir -> body
+766,2019-06-09 16:33:05.000000000,2019-06-11 12:23:40.000000000,closed,1,Sysroot consistency check
+765,2019-06-09 00:15:17.000000000,2019-06-09 01:00:46.000000000,closed,0,rustup for EvalResult rename
+764,2019-06-08 14:52:12.000000000,2019-06-11 22:06:01.000000000,closed,1,implement min and max floating point intrinsics
+763,2019-06-06 06:42:05.000000000,2019-06-13 00:56:54.000000000,closed,24,[WIP] Implement cbrt and hypot function calls
+762,2019-06-04 07:15:40.000000000,2019-08-26 22:44:37.000000000,closed,8,foreign function getcwd not implemented
+761,2019-06-03 08:28:08.000000000,2019-06-06 11:23:43.000000000,closed,10,Add a test for the new `type_name` intrinsic.
+760,2019-06-03 06:56:17.000000000,2019-06-03 11:09:21.000000000,closed,0,Bump cargo_metadata and directories dependencies
+759,2019-06-01 12:05:11.000000000,2019-06-01 12:25:38.000000000,closed,0,rustup for ... deprecation
+758,2019-05-31 21:25:14.000000000,2019-05-31 22:21:37.000000000,closed,2,Integer overflow in rotate_left
+757,2019-05-31 21:05:58.000000000,2019-06-04 15:45:14.000000000,closed,0,test for no-validation-only failure
+756,2019-05-31 18:53:27.000000000,2020-03-08 19:57:33.000000000,closed,14,Cannot list environment variables
+755,2019-05-31 18:34:57.000000000,2019-06-03 14:14:53.000000000,closed,2,remove too expensive debug assertion
+754,2019-05-31 17:59:52.000000000,2019-06-04 15:45:14.000000000,closed,2,ICE with validation disabled
+752,2019-05-30 13:03:01.000000000,2019-05-30 14:39:02.000000000,closed,0,Rustup
+751,2019-05-29 21:36:42.000000000,2019-05-30 01:46:34.000000000,closed,0,test weak_into_raw
+750,2019-05-29 14:59:12.000000000,2019-05-29 17:52:57.000000000,closed,6,try to make the Windows CI not rebuild Miri
+749,2019-05-29 11:31:22.000000000,2019-05-29 12:56:37.000000000,closed,0,fix for rustc changes
+748,2019-05-28 21:29:18.000000000,2019-06-03 01:00:46.000000000,closed,0,Tag static/const allocations
+747,2019-05-28 21:04:52.000000000,2019-05-29 14:58:32.000000000,closed,1,miri build script: support building miri in debug mode;  avoid rebuilding Miri on CI
+746,2019-05-27 20:50:53.000000000,2019-05-27 22:56:15.000000000,closed,0,fix for latest rustc
+745,2019-05-27 15:05:21.000000000,2019-05-28 10:38:09.000000000,closed,7,add Miri build script
+744,2019-05-26 16:48:16.000000000,2019-05-29 02:02:34.000000000,closed,1,"update for rustc Scalar changes, test for pointer wrapping ICE"
+743,2019-05-25 04:13:12.000000000,1970-01-01 00:00:00.000000001,open,2,Allow passing through ioctls
+742,2019-05-24 12:10:39.000000000,2019-05-24 16:13:25.000000000,closed,0,add more bugs we found to README; use consistent printing in Stacked Borrows
+741,2019-05-23 17:55:35.000000000,2019-05-23 18:28:19.000000000,closed,0,use prettier printing
+740,2019-05-23 13:03:39.000000000,2019-05-23 14:37:56.000000000,closed,0,hopefully improve error message a bit
+739,2019-05-21 18:37:46.000000000,1970-01-01 00:00:00.000000001,open,20,Reuse cargo's binary selection in `cargo miri`
+738,2019-05-21 17:42:19.000000000,2019-05-21 19:21:10.000000000,closed,0,test for new read rules
+737,2019-05-21 01:15:25.000000000,2019-06-12 16:51:19.000000000,closed,3,Use directories crate to compute config/cache directories
+736,2019-05-20 12:55:38.000000000,2019-05-21 11:57:44.000000000,closed,0,prepare for MaybeUninit stabilization
+735,2019-05-20 12:46:51.000000000,2019-05-20 12:51:22.000000000,closed,1,prepare for feature name changing
+734,2019-05-20 11:32:34.000000000,2019-05-20 13:10:21.000000000,closed,0,expand explanation of how we treat validity invariants
+733,2019-05-20 00:26:53.000000000,2019-05-20 13:10:21.000000000,closed,3,ManuallyDrop isn't inheriting validity invariant
+732,2019-05-19 16:00:05.000000000,2019-05-20 00:42:34.000000000,closed,0,fix typo
+731,2019-05-19 12:20:52.000000000,2019-05-19 15:53:31.000000000,closed,0,Use `drain` instead of manually rolling it ourselves
+730,2019-05-17 21:42:48.000000000,2019-05-18 01:57:35.000000000,closed,0,nits
+729,2019-05-17 02:27:23.000000000,2019-05-19 12:18:48.000000000,closed,0,Update to planned rustc changes
+728,2019-05-15 17:19:52.000000000,2019-05-15 20:12:46.000000000,closed,0,make printing return place less verbose
+727,2019-05-15 14:16:42.000000000,2019-05-17 18:29:16.000000000,closed,8,test and support two-phase reborrows of raw pointers
+726,2019-05-11 13:04:10.000000000,2019-05-13 12:48:09.000000000,closed,0,rename per-location aprt of reborowing to 'granting'
+725,2019-05-10 10:05:52.000000000,2019-05-10 13:40:24.000000000,closed,0,switch back to upstream xargo
+724,2019-05-07 18:27:27.000000000,2019-05-07 18:43:49.000000000,closed,2,Comparing pointers into different allocations
+723,2019-05-04 13:28:00.000000000,2019-05-15 11:29:26.000000000,closed,1,Rustup
+722,2019-05-03 02:51:06.000000000,1970-01-01 00:00:00.000000001,open,65,Compilation to WASM?
+721,2019-05-02 15:08:31.000000000,2019-05-04 13:15:56.000000000,closed,3,macOS now uses SecRandomCopyBytes for us
+720,2019-05-01 22:46:16.000000000,2019-05-02 11:09:15.000000000,closed,0,fix for latest Rust
+719,2019-04-30 22:19:27.000000000,2019-04-30 23:14:42.000000000,closed,0,add arielby's example
+718,2019-04-30 15:55:48.000000000,2019-04-30 22:03:17.000000000,closed,0,SharedReadOnly reborrows are never weak
+717,2019-04-28 01:33:26.000000000,2019-04-28 01:59:45.000000000,closed,0,Update cargo_metadata to 0.7
+716,2019-04-27 20:22:22.000000000,2019-04-27 20:45:22.000000000,closed,0,fix HeapFree return value
+715,2019-04-27 20:00:19.000000000,2019-04-27 20:16:29.000000000,closed,1,try harder to make this test ICE on Windows
+714,2019-04-26 11:09:47.000000000,2019-04-26 15:29:39.000000000,closed,0,trophy case: add rand
+713,2019-04-24 18:51:14.000000000,2019-05-21 18:38:21.000000000,closed,4,`cargo miri setup` is failing due to rustc-std-workspace-alloc
+712,2019-04-24 00:00:37.000000000,2019-04-24 11:55:56.000000000,closed,1,bump Rust
+711,2019-04-23 23:43:20.000000000,2019-04-24 11:53:33.000000000,closed,2,trying to implement type erasure causes type validation error in miri.
+710,2019-04-22 00:36:15.000000000,2019-04-22 02:27:23.000000000,closed,0,Travis: test cargo miri on foreign arch
+709,2019-04-21 23:37:45.000000000,2019-04-22 13:32:13.000000000,closed,0,implement SecRandomCopyBytes for macOS RNG
+708,2019-04-21 16:04:04.000000000,2019-04-21 19:22:39.000000000,closed,0,"test System/Global allocator API: alloc_zeroed, realloc"
+707,2019-04-21 15:39:32.000000000,2020-03-28 03:45:10.000000000,closed,19,Implement environment variable emulation on Windows
+706,2019-04-20 16:54:53.000000000,2019-04-26 10:55:16.000000000,closed,9,"no mir for ""std::rt::lang_start_internal"""
+705,2019-04-20 15:54:19.000000000,1970-01-01 00:00:00.000000001,open,2,cargo-miri has problems with spaces in sysroot
+704,2019-04-19 21:56:14.000000000,2019-04-21 14:23:55.000000000,closed,0,Hopefully make it a bit easier to develop on Miri
+703,2019-04-19 20:31:16.000000000,2019-04-19 21:56:48.000000000,closed,0,bump compiletest
+702,2019-04-19 19:38:59.000000000,2019-04-22 18:41:36.000000000,closed,7,implement exit
+701,2019-04-19 12:09:47.000000000,2019-06-12 21:16:09.000000000,closed,3,test rand a bit more
+700,2019-04-19 12:03:33.000000000,1970-01-01 00:00:00.000000001,open,0,"""cargo miri test"" ignores ""test = false"""
+699,2019-04-19 10:46:51.000000000,2019-04-19 11:55:45.000000000,closed,0,test another version of 'creating a shared ref must not leak the Unique'
+698,2019-04-18 16:46:01.000000000,2019-04-19 01:29:27.000000000,closed,0,test that creating a 2nd mutable ref from a NonNull invalidates the first
+697,2019-04-18 16:42:37.000000000,2019-04-20 02:38:41.000000000,closed,0,add LinkedList test and mention the bug Miri found there
+696,2019-04-18 03:23:22.000000000,2019-04-18 19:21:05.000000000,closed,4,Add `realloc`
+695,2019-04-17 17:30:07.000000000,2019-04-18 12:15:38.000000000,closed,2,Stacked borrows 2 (alpha 1)
+694,2019-04-17 10:20:26.000000000,2019-04-17 11:23:47.000000000,closed,0,document -Zmiri-seed
+693,2019-04-17 05:12:30.000000000,2019-11-20 02:32:19.000000000,closed,56,Support unwinding after a panic
+692,2019-04-16 21:26:56.000000000,2019-04-17 09:42:44.000000000,closed,3,Fix 0-sized getrandom and thread_rng()
+691,2019-04-16 19:49:06.000000000,2019-04-16 22:52:56.000000000,closed,0,"be pragmatic about ptr-int comparisons, for now"
+690,2019-04-14 12:30:35.000000000,2019-04-14 12:52:13.000000000,closed,0,rustup
+689,2019-04-13 01:19:10.000000000,2019-04-13 02:20:31.000000000,closed,0,lower rand version requirement
+688,2019-04-13 00:17:18.000000000,2019-04-13 01:13:30.000000000,closed,0,rustup
+687,2019-04-12 14:32:59.000000000,2019-04-12 15:39:20.000000000,closed,0,rustup
+686,2019-04-12 01:19:06.000000000,2019-12-31 16:38:34.000000000,closed,13,Implement libstd HashMap seeding on OS X
+685,2019-04-11 17:53:13.000000000,2019-04-19 21:56:48.000000000,closed,2,Our test suite ignores ICEs
+684,2019-04-08 17:58:04.000000000,2019-04-21 14:23:55.000000000,closed,13,tests fail without MIRI_SYSROOT
+683,2019-04-08 02:47:22.000000000,2019-04-10 11:20:33.000000000,closed,8,Implement non-deterministc mode
+682,2019-04-08 01:34:43.000000000,2019-04-08 01:58:14.000000000,closed,0,Update compiletest
+681,2019-04-07 22:54:22.000000000,2019-04-08 15:14:44.000000000,closed,9,Add `calloc`
+680,2019-04-07 22:26:23.000000000,2019-04-12 01:18:44.000000000,closed,0,test calling Box<dyn FnOnce>
+679,2019-04-07 19:03:18.000000000,2019-04-08 15:14:44.000000000,closed,1,constant evaluation error: Calling `std::alloc::System::alloc_zeroed` fails
+678,2019-04-07 12:58:39.000000000,2019-04-07 13:19:54.000000000,closed,0,compiletest env var cleanup
+677,2019-04-07 00:12:04.000000000,2019-04-07 00:43:06.000000000,closed,0,temporarily ignore async fn test
+676,2019-04-06 13:29:39.000000000,2019-04-06 14:37:53.000000000,closed,1,AppVeyor: ignore already existing rustup-toolchain-install-master
+675,2019-04-06 13:06:44.000000000,2019-04-20 21:25:34.000000000,closed,8,"""cargo miri run"" fails: cannot alloc memory for unsized type"
+674,2019-04-05 17:37:23.000000000,2019-04-06 20:54:03.000000000,closed,1,Use edition flag for 2phase test
+673,2019-04-04 13:21:57.000000000,2019-04-05 00:34:47.000000000,closed,1,use rustup-toolchain-install-master for CI
+672,2019-04-03 12:48:27.000000000,2019-04-03 16:50:03.000000000,closed,0,Update to rustc nightly
+671,2019-03-31 02:01:06.000000000,2019-04-06 17:00:14.000000000,closed,8,Add alternative for how to install if a change in nightly broke the rustup component
+670,2019-03-29 00:33:19.000000000,2019-08-15 12:49:38.000000000,closed,2,Support for accessing host environment variables
+669,2019-03-28 14:48:02.000000000,2019-03-28 15:58:09.000000000,closed,0,fixed environment
+668,2019-03-27 13:01:57.000000000,2019-03-30 15:50:12.000000000,closed,5,Renames `EvalContext` to `InterpretCx`
+667,2019-03-27 02:43:53.000000000,2019-07-10 02:09:33.000000000,closed,17,can't call foreign functions from cmath (libm)
+666,2019-03-26 13:08:31.000000000,2019-03-26 14:36:54.000000000,closed,0,explain Miri limitations
+665,2019-03-26 01:57:16.000000000,2019-03-26 03:20:23.000000000,closed,0,update README to suggest installing Miri as a component
+664,2019-03-20 13:10:13.000000000,2019-03-21 16:07:52.000000000,closed,2,Pin old compiletest
+663,2019-03-18 16:31:16.000000000,2019-03-18 21:05:05.000000000,closed,1,remove stabilized feature
+662,2019-03-18 08:01:02.000000000,1970-01-01 00:00:00.000000001,open,8,SIMD instructions are not supported
+661,2019-03-18 07:55:15.000000000,2019-03-18 14:10:05.000000000,closed,3,type validation failed: encountered undefined address
+660,2019-03-10 20:53:52.000000000,2019-03-10 21:21:54.000000000,closed,0,README: mention --exclude-should-panic
+659,2019-03-10 14:44:29.000000000,2019-03-11 16:20:18.000000000,closed,6,Use the new rustc interface
+658,2019-03-08 17:24:51.000000000,2019-11-20 02:32:19.000000000,closed,1,Miri should support unwinding after a panic
+657,2019-03-08 14:51:10.000000000,2019-03-08 17:07:23.000000000,closed,1,expand README
+656,2019-03-08 01:07:50.000000000,2019-03-08 17:07:23.000000000,closed,8,"Installation instructions in the readme ""incomplete"""
+655,2019-03-07 23:17:20.000000000,2019-03-08 17:25:37.000000000,closed,3,hashbrown try_reserve test fails under miri
+654,2019-03-07 23:15:18.000000000,1970-01-01 00:00:00.000000001,open,2,Miri is very slow
+653,2019-03-07 23:01:04.000000000,2019-06-29 15:09:03.000000000,closed,19,Figure out a story for non-determinism and external communication
+652,2019-03-06 14:39:57.000000000,2019-03-10 20:54:41.000000000,closed,1,Pass `--exclude-should-panic` in cargo miri test
+651,2019-03-01 19:18:32.000000000,2019-03-01 20:25:18.000000000,closed,0,Rustup
+650,2019-03-01 13:16:44.000000000,2019-03-01 13:55:05.000000000,closed,0,the stable part of compiletest_rs is enough
+649,2019-03-01 00:25:58.000000000,2019-06-07 11:47:29.000000000,closed,3,Move Windows CI to Azure
+648,2019-02-27 15:39:19.000000000,2019-02-27 16:14:24.000000000,closed,0,avoid [..]
+647,2019-02-26 23:01:27.000000000,2019-03-02 13:31:05.000000000,closed,6,Place::Local(x) is now Place::Base(PlaceBase::Local(x))
+646,2019-02-25 15:40:45.000000000,2019-02-26 16:28:15.000000000,closed,4,use copy_op directly insteadof write_scalar
+645,2019-02-25 13:48:10.000000000,2019-02-25 14:32:56.000000000,closed,0,test using the Global allocator trait to alloc/free a Box
+644,2019-02-24 13:19:39.000000000,2019-02-24 21:24:08.000000000,closed,0,Remove test of two-phase borrows in match
+643,2019-02-24 01:18:21.000000000,2019-12-01 14:02:23.000000000,closed,7,Should be able to change stack limit
+642,2019-02-23 15:32:14.000000000,2019-02-23 17:21:37.000000000,closed,2,Update some links
+641,2019-02-23 14:07:16.000000000,2019-10-18 12:13:08.000000000,closed,25,Can't call foreign function: clock_gettime
+640,2019-02-21 21:56:52.000000000,2019-02-21 22:03:44.000000000,closed,2,Make it possible to do cargo miri setup without forced reinstall of xargo
+639,2019-02-18 17:46:23.000000000,2019-02-18 17:55:11.000000000,closed,5,"Is it possible to use miri as standalone interpreter for independent *.rs files? If yes, how?"
+638,2019-02-18 15:05:35.000000000,2019-02-18 19:07:46.000000000,closed,11,Slow speed or normal?
+637,2019-02-17 16:10:27.000000000,2019-02-18 02:52:28.000000000,closed,9,we can't have profiles because we are also in the rustc worksapce
+636,2019-02-16 10:59:16.000000000,2019-02-16 13:31:58.000000000,closed,11,miri test and #[should_panic]
+635,2019-02-16 06:52:36.000000000,2019-02-27 00:22:32.000000000,closed,16,Various cosmetic improvements
+634,2019-02-15 14:43:45.000000000,2019-02-15 17:20:55.000000000,closed,2,List some bugs that we found
+633,2019-02-14 06:07:13.000000000,2019-02-14 13:06:52.000000000,closed,1,Miri does not know about niches
+632,2019-02-13 21:48:33.000000000,2019-02-14 00:30:03.000000000,closed,1,implement and test posix_memalign
+631,2019-02-13 21:22:45.000000000,2019-02-24 20:25:47.000000000,closed,0,test BTree a bit more
+630,2019-02-13 16:10:27.000000000,2019-02-13 17:17:41.000000000,closed,0,skip installing rust-src if XARGO_RUST_SRC is set
+629,2019-02-12 14:58:26.000000000,2019-02-12 17:02:50.000000000,closed,0,Rename things away from 'Shr'
+628,2019-02-11 22:11:57.000000000,2019-02-23 15:26:39.000000000,closed,11,Apparent mutable aliasing detected in one case but not in another
+627,2019-02-11 14:03:40.000000000,2019-02-11 16:57:03.000000000,closed,0,TIL that you can also use .appveyor.yml
+626,2019-02-09 19:53:45.000000000,2019-02-13 15:12:40.000000000,closed,2,test padding in format strings
+625,2019-02-09 17:10:03.000000000,2019-02-09 17:30:12.000000000,closed,0,fix (un)likely intrinsics
+624,2019-02-08 23:22:59.000000000,2019-02-10 19:11:56.000000000,closed,0,implement passing arguments to the interpreted program
+623,2019-02-08 20:29:02.000000000,2019-02-15 14:01:35.000000000,closed,1,Fix comparing fat pointers
+622,2019-02-08 20:11:55.000000000,1970-01-01 00:00:00.000000001,open,0,Support aux builds in test suite
+621,2019-02-08 16:13:55.000000000,2019-02-08 17:58:40.000000000,closed,0,make bash more strict
+620,2019-02-08 14:42:23.000000000,2019-02-08 16:14:16.000000000,closed,0,we don't need to flush stderr
+619,2019-02-07 23:30:22.000000000,2019-02-08 13:47:40.000000000,closed,3,flush stdout/stderr to make sure it appears on the screen
+618,2019-02-07 19:46:34.000000000,2019-02-07 22:03:47.000000000,closed,0,Fix cargo miri test on lib crates
+617,2019-02-07 18:46:29.000000000,2019-02-07 19:27:08.000000000,closed,0,update docs
+616,2019-02-07 17:03:54.000000000,2019-02-07 18:44:15.000000000,closed,0,"Fix cargo miri on unit tests, refactor it a bit, set rust flag instead of feature flag"
+615,2019-02-07 15:21:48.000000000,2019-04-18 12:15:37.000000000,closed,3,MaybeUninit+Cell results in constant evaluation error: Location is not frozen long enough
+614,2019-02-06 18:53:53.000000000,2019-02-15 14:01:35.000000000,closed,1,internal compiler error: Got a fat pointer where a scalar was expected
+613,2019-02-06 18:05:36.000000000,1970-01-01 00:00:00.000000001,open,2,Allocator does not properly report OOM
+612,2019-02-06 17:56:45.000000000,2019-02-07 20:35:43.000000000,closed,4,cargo miri test does not support dev-dependencies on in-crate tests
+611,2019-02-06 15:49:07.000000000,2019-02-14 12:59:59.000000000,closed,0,test mutable string slice indexing
+610,2019-02-06 15:42:23.000000000,2019-02-06 17:55:18.000000000,closed,1,Support panic_impl and atomic_nand
+609,2019-02-05 19:03:46.000000000,2019-02-06 01:54:22.000000000,closed,0,update development instructions in README
+608,2019-02-02 03:27:52.000000000,2019-03-10 14:49:30.000000000,closed,5,[WIP] Use the new rustc interface
+607,2019-01-30 17:22:06.000000000,2019-02-01 14:01:38.000000000,closed,1,Try out more email notifications
+606,2019-01-30 15:51:36.000000000,2019-01-30 16:58:18.000000000,closed,0,Rustup
+605,2019-01-30 15:44:15.000000000,2019-02-23 15:27:56.000000000,closed,1,Proper email notifications for Travis cron jobs
+604,2019-01-28 13:20:35.000000000,2019-01-28 13:45:15.000000000,closed,0,Rustup
+603,2019-01-26 03:06:05.000000000,2019-08-17 14:27:30.000000000,closed,1,[WIP] Interpret tokio
+602,2019-01-25 19:47:01.000000000,1970-01-01 00:00:00.000000001,open,14,Cannot run Tokio (epoll_create1 not supported)
+601,2019-01-25 12:59:28.000000000,2019-01-25 19:51:05.000000000,closed,0,remove outdated comment
+600,2019-01-22 20:46:29.000000000,2019-01-22 23:32:07.000000000,closed,0,Expose `AllocId`s for priroda
+599,2019-01-21 21:29:33.000000000,2019-01-21 23:11:25.000000000,closed,0,Update to latest rustc master
+598,2019-01-07 15:23:28.000000000,2019-01-07 16:27:14.000000000,closed,0,implement panic_if_uninhabited intrinsic
+597,2019-01-05 19:41:35.000000000,2019-01-08 13:16:59.000000000,closed,5,rewrite range map
+596,2019-01-04 19:45:30.000000000,2019-01-05 18:41:07.000000000,closed,0,move env var stuff out of the miri lib
+595,2019-01-04 14:16:17.000000000,2019-01-05 17:00:29.000000000,closed,0,test some more 2PB stuff
+594,2019-01-01 20:44:39.000000000,2019-08-17 14:27:44.000000000,closed,3,[WIP] memfd and mmap
+593,2018-12-30 13:31:26.000000000,2019-01-08 13:16:59.000000000,closed,21,memory leak deserializing Vec with serde
+592,2018-12-28 22:18:29.000000000,2018-12-28 23:03:44.000000000,closed,0,README: fix install command
+591,2018-12-28 20:19:16.000000000,2019-02-23 15:31:17.000000000,closed,12,miri can't access foreign statics
+590,2018-12-26 20:23:29.000000000,2018-12-26 21:43:52.000000000,closed,0,add test for offseting fn ptr
+589,2018-12-26 17:17:33.000000000,2018-12-26 18:28:26.000000000,closed,0,use memory::check_bounds_ptr for offset check
+588,2018-12-26 15:26:32.000000000,2018-12-27 17:09:06.000000000,closed,0,bump env_logger
+587,2018-12-25 17:30:10.000000000,2018-12-26 15:24:30.000000000,closed,0,Fix comparing function pointers
+586,2018-12-23 18:13:37.000000000,2018-12-25 04:12:39.000000000,closed,0,fix for infallible allocation
+585,2018-12-22 20:08:12.000000000,2018-12-22 20:29:32.000000000,closed,0,fix test for latest nightly
+584,2018-12-21 13:36:14.000000000,1970-01-01 00:00:00.000000001,open,19,`cargo miri test` does not run doc-tests
+583,2018-12-19 22:20:10.000000000,2018-12-20 01:54:56.000000000,closed,2,WIP: enable Travis Windows build
+582,2018-12-19 18:02:37.000000000,2019-08-02 16:51:36.000000000,closed,3,miri is too permissive around ZSTs
+581,2018-12-19 17:19:57.000000000,2018-12-25 17:30:27.000000000,closed,1,Properly compare unequal function pointers
+580,2018-12-19 15:14:07.000000000,2018-12-19 15:38:55.000000000,closed,0,Cargo miri tweaks and test that we can exclude tests
+579,2018-12-19 13:51:47.000000000,2019-08-09 20:31:01.000000000,closed,3,Add foreign functions for reconfiguring miri at evaluation time
+578,2018-12-18 23:53:00.000000000,2018-12-19 20:28:28.000000000,closed,3,Test cargo-miri on Windows
+577,2018-12-18 22:22:19.000000000,2019-01-08 17:46:39.000000000,closed,1,Better error messages when comparing fn ptrs
+576,2018-12-17 14:13:48.000000000,2018-12-18 22:05:01.000000000,closed,1,Adjust tests for funciton pointer changes
+575,2018-12-17 08:37:03.000000000,2018-12-17 18:38:27.000000000,closed,0,Add rustc-workspace-hack.
+574,2018-12-14 00:27:17.000000000,2018-12-18 22:35:46.000000000,closed,3,fix for latest nightly
+573,2018-12-12 21:04:14.000000000,2018-12-13 00:27:35.000000000,closed,1,use RUSTC_WRAPPER for the cargo hook
+572,2018-12-12 17:00:16.000000000,2018-12-21 13:56:12.000000000,closed,0,Treat ref-to-raw cast like a reborrow: do a special kind of retag
+571,2018-12-12 15:48:22.000000000,2018-12-12 16:59:58.000000000,closed,1,treat ref-to-raw cast like a reborrow: do a special kind of retag
+570,2018-12-12 15:05:15.000000000,2018-12-12 16:21:08.000000000,closed,0,"do not auto-detect the targets in the sysroot, instead specify target manually through env var"
+569,2018-12-12 05:14:52.000000000,2018-12-13 00:27:35.000000000,closed,1,use RUSTC_WRAPPER instead of overriding RUSTC
+568,2018-12-11 18:33:29.000000000,2018-12-11 19:21:44.000000000,closed,0,"Cleanup: Avoid repeating signatures, get rid of to_bytes hack"
+567,2018-12-10 16:03:28.000000000,2019-05-08 18:38:24.000000000,closed,1,Bad interaction of RUSTFLAGS and cargo miri
+566,2018-12-10 14:06:50.000000000,2018-12-10 17:43:30.000000000,closed,3,"Support building and running with full MIR on foreign architectures, drop support for missing MIR"
+565,2018-12-07 22:02:17.000000000,2018-12-07 22:37:10.000000000,closed,0,add FIXME test for coercing &mut to *const
+564,2018-12-07 13:11:34.000000000,2018-12-08 15:07:23.000000000,closed,2,"Support two-phase borrows, and other rustup"
+563,2018-12-03 14:52:44.000000000,2019-04-05 00:34:47.000000000,closed,3,Travis macOS cache broken?
+562,2018-12-03 13:35:58.000000000,1970-01-01 00:00:00.000000001,open,0,Add some flag to not report the libstd boilerplate in MIRI_LOG
+561,2018-12-02 21:19:15.000000000,2018-12-03 13:13:12.000000000,closed,1,We don't need no whitelist
+560,2018-12-02 18:04:12.000000000,2018-12-02 18:45:12.000000000,closed,0,build libstd with minimal features
+559,2018-12-02 15:15:05.000000000,2018-12-03 15:48:41.000000000,closed,0,remove/fix outdated FIXMEs in tests
+558,2018-12-02 14:30:25.000000000,2018-12-02 14:46:12.000000000,closed,0,do not even look for cargo metadata in 'cargo miri setup'
+557,2018-12-02 14:20:12.000000000,2018-12-03 14:49:13.000000000,closed,1,fix mutability gap: do not allow shared mutation when creating frozen reference
+556,2018-11-30 21:10:35.000000000,2018-12-02 17:29:14.000000000,closed,1,Skip testing targets that don't ship libstd
+555,2018-11-30 13:25:58.000000000,2018-12-01 16:02:52.000000000,closed,3,update README to first describe the usual user setup
+554,2018-11-28 13:36:05.000000000,2018-12-07 13:12:52.000000000,closed,2,Support two-phase borrows
+553,2018-11-28 12:13:52.000000000,2018-11-30 12:00:03.000000000,closed,4,Stacked Borrow: Barriers
+552,2018-11-27 19:28:32.000000000,2018-11-27 20:14:29.000000000,closed,2,Pointer comparison of live non-heap allocations is suspicious
+551,2018-11-27 19:15:05.000000000,2020-03-28 15:18:43.000000000,closed,1,Enable validation everywhere
+550,2018-11-27 19:08:55.000000000,2018-12-19 00:03:55.000000000,closed,0,Fix cargo miri test
+549,2018-11-27 18:49:33.000000000,2018-11-27 20:05:06.000000000,closed,0,fix README install instructions
+548,2018-11-27 18:31:10.000000000,2018-11-28 12:12:47.000000000,closed,3,Stacked Borrows: Barriers
+547,2018-11-27 15:07:21.000000000,2018-11-28 12:10:50.000000000,closed,1,std::ptr no longer needs whitelisting
+546,2018-11-27 12:03:33.000000000,2020-08-20 13:52:53.000000000,closed,1,cargo miri: be more like a proper CLI app
+545,2018-11-26 20:11:57.000000000,2018-11-28 14:24:23.000000000,closed,3,Expose some things for priroda
+544,2018-11-26 19:32:10.000000000,2018-11-26 22:06:55.000000000,closed,2,"do not use 'let _', it is strange"
+543,2018-11-25 21:18:05.000000000,2018-11-27 18:22:46.000000000,closed,4,Automatically build libstd
+542,2018-11-25 14:06:15.000000000,2019-08-03 13:53:10.000000000,closed,2,Support two-phase borrows
+541,2018-11-23 13:47:20.000000000,2018-11-24 18:06:22.000000000,closed,0,fix for new Align type
+540,2018-11-21 20:09:14.000000000,2018-11-21 23:31:22.000000000,closed,8,test that we support partial invalidation of mutable references
+539,2018-11-21 19:45:12.000000000,2018-11-21 20:52:37.000000000,closed,2,"on a deref, check that we are not using a mutable ref with a frozen tag"
+538,2018-11-21 17:42:33.000000000,2018-11-22 12:50:57.000000000,closed,0,remove stabilized feature flag
+537,2018-11-21 13:52:57.000000000,2018-11-21 15:15:01.000000000,closed,0,bump Rust
+536,2018-11-20 19:23:16.000000000,2018-11-26 15:52:45.000000000,closed,0,test self-referential generator
+535,2018-11-20 18:16:18.000000000,2018-11-20 19:00:23.000000000,closed,0,Use edition 2018 for tests
+534,2018-11-20 13:14:41.000000000,2018-12-20 03:27:15.000000000,closed,1,Implement stdout for Windows
+533,2018-11-20 03:00:44.000000000,2018-11-20 14:40:56.000000000,closed,1,"port cargo-miri-test to 2018 edition, mostly to test that that works with cargo miri"
+532,2018-11-19 19:40:53.000000000,2019-02-23 15:28:32.000000000,closed,13,Test whether self-referential futures are compatible with stacked borrows
+531,2018-11-19 13:44:28.000000000,1970-01-01 00:00:00.000000001,open,1,Stacked Borrows: Show stacktrace of when an item was popped
+530,2018-11-17 18:49:56.000000000,2018-11-18 13:10:29.000000000,closed,0,AppVeyor: consistently use --all-features
+529,2018-11-17 16:30:56.000000000,2018-11-17 18:48:42.000000000,closed,1,benchmarks: make them build again
+528,2018-11-17 09:21:20.000000000,2018-11-17 20:57:10.000000000,closed,2,"""Location is not frozen long enough"" in bytes crate"
+527,2018-11-17 01:14:49.000000000,2018-11-17 01:41:48.000000000,closed,1,fix cargo invocation in the readme
+526,2018-11-16 15:16:27.000000000,2018-11-20 14:16:59.000000000,closed,1,Retagging: Recurse into compound values
+525,2018-11-16 12:55:25.000000000,2018-11-16 13:41:35.000000000,closed,0,remove type system tests
+524,2018-11-15 14:09:40.000000000,2018-11-16 14:48:12.000000000,closed,10,"Stacked Borrows beautififcation, update for EscapeToRaw"
+523,2018-11-15 13:23:56.000000000,2018-11-20 12:30:46.000000000,closed,2,"update for changed FrameInfo, do not print span for all frames"
+522,2018-11-14 20:04:15.000000000,2018-11-15 13:13:38.000000000,closed,0,update for memory_deallocated moving to AllocExtra
+521,2018-11-14 12:51:22.000000000,2020-04-02 11:54:49.000000000,closed,1,Better stack traces
+520,2018-11-14 12:49:16.000000000,2019-03-26 03:20:23.000000000,closed,34,Make miri easier to install
+519,2018-11-13 21:42:53.000000000,2018-11-26 13:47:00.000000000,closed,0,Update to Memory -> Allocation method move
+518,2018-11-13 17:31:09.000000000,2018-11-14 13:11:33.000000000,closed,1,add a description of what miri can do for you
+517,2018-11-13 00:21:09.000000000,2018-11-13 13:14:11.000000000,closed,0,cargo miri test currently does not work
+516,2018-11-11 14:13:26.000000000,2018-11-12 16:39:38.000000000,closed,1,Rc should be fixed
+515,2018-11-09 15:48:36.000000000,2018-11-09 22:33:45.000000000,closed,0,use custom test runner so that we can get proper test filtering
+514,2018-11-07 14:41:29.000000000,2018-11-08 12:26:01.000000000,closed,0,bump rust
+513,2018-11-06 21:50:27.000000000,2018-11-09 00:22:55.000000000,closed,1,"New Stacked Borrows, now with better support for interior mutability"
+512,2018-11-06 12:53:36.000000000,2018-11-08 12:37:26.000000000,closed,0,Rc should pass validation now
+511,2018-11-05 20:01:27.000000000,1970-01-01 00:00:00.000000001,open,9,Building a REPL on top of miri
+510,2018-11-05 12:54:35.000000000,2018-11-05 21:02:39.000000000,closed,0,"rustup: value -> immediate, by-value HasLayout, edition 2018"
+509,2018-11-04 14:22:01.000000000,2018-11-04 15:57:13.000000000,closed,0,fix for latest nightly
+508,2018-11-03 17:01:08.000000000,2019-08-02 16:14:58.000000000,closed,5,Do we need even more agressive validation?
+507,2018-11-03 15:25:26.000000000,2018-11-03 16:47:42.000000000,closed,4,test that we check the layout constraints as early as we can
+506,2018-11-01 12:17:36.000000000,2018-11-03 15:04:18.000000000,closed,2,Rustup for retagging
+505,2018-11-01 12:01:29.000000000,2018-11-01 12:15:59.000000000,closed,0,rustup for Retagging
+504,2018-11-01 11:59:10.000000000,2018-11-01 15:16:15.000000000,closed,0,use crate:: imports where appropriate
+503,2018-10-31 14:05:25.000000000,2018-10-31 16:02:39.000000000,closed,0,Reject atomic arithmetic on non-integer types
+502,2018-10-31 13:18:38.000000000,2018-10-31 14:19:13.000000000,closed,0,Improve debug env var handling
+501,2018-10-30 14:28:11.000000000,2018-10-30 18:29:46.000000000,closed,3,rewrite cargo-miri test in Python
+500,2018-10-30 13:14:37.000000000,2018-10-30 13:41:36.000000000,closed,0,WIP: test Travis
+499,2018-10-29 14:52:03.000000000,2018-10-30 12:23:00.000000000,closed,1,MIR optimization level 3 works again :)
+498,2018-10-29 12:11:40.000000000,2018-10-29 13:04:41.000000000,closed,1,Update for generate_stacktrace return type change
+497,2018-10-28 15:36:01.000000000,2018-10-29 12:03:42.000000000,closed,2,Update for generate_stacktrace return type change
+496,2018-10-26 05:32:29.000000000,2018-10-29 21:59:45.000000000,closed,4,Debugging help
+495,2018-10-25 15:01:58.000000000,2018-10-25 15:31:18.000000000,closed,0,Avoid using is_null
+494,2018-10-24 17:33:42.000000000,2018-10-24 20:01:39.000000000,closed,1,update README
+493,2018-10-23 23:16:52.000000000,2018-11-12 12:55:35.000000000,closed,2,Update to allocation method PR
+492,2018-10-23 15:12:51.000000000,2018-10-30 14:05:57.000000000,closed,2,Stacked Borrows NG
+491,2018-10-22 11:11:52.000000000,2018-10-22 11:43:26.000000000,closed,0,WIP: Rustup3
+490,2018-10-22 10:50:40.000000000,2018-10-22 11:42:25.000000000,closed,0,Rustup
+489,2018-10-19 20:26:17.000000000,2018-11-09 22:33:45.000000000,closed,0,"Find a way to bypass the libtest harness, and use test arguments for our own filtering"
+488,2018-10-19 12:11:57.000000000,2018-10-19 15:47:56.000000000,closed,5,Automatically use start-fn if we have all the MIR
+487,2018-10-17 19:54:32.000000000,2018-10-22 22:42:59.000000000,closed,0,Rustup: Stacked Borrows
+486,2018-10-17 12:14:55.000000000,2018-11-14 12:45:21.000000000,closed,4,`cargo miri` doesn't work very well
+485,2018-10-16 22:11:12.000000000,2018-10-18 12:00:20.000000000,closed,1,add some comments to clarify command-line argument munging in #482
+484,2018-10-16 19:59:31.000000000,2018-10-16 20:35:08.000000000,closed,0,Test with opt levels 0 and 1
+483,2018-10-15 22:46:54.000000000,2018-10-24 17:07:23.000000000,closed,4,improve README instructions for using `rustup` and for compiling separate crates
+482,2018-10-15 22:38:52.000000000,2018-10-16 13:49:00.000000000,closed,4,cargo-miri: support running unit tests for libraries as well as test binaries
+481,2018-10-15 11:33:12.000000000,2018-10-15 15:23:21.000000000,closed,1,run tests with optimized MIR
+480,2018-10-15 10:29:01.000000000,2019-12-29 16:39:39.000000000,closed,30,Enable MIR optimizations in test suite again
+479,2018-10-15 08:13:32.000000000,2018-12-19 00:03:55.000000000,closed,8,`cargo miri test` no longer correctly detects tests
+478,2018-10-14 13:47:51.000000000,2018-10-14 14:04:59.000000000,closed,0,make rustc-tests a binary in the main project
+477,2018-10-12 13:02:11.000000000,2018-10-12 14:26:40.000000000,closed,1,Validate more things
+476,2018-10-12 11:08:33.000000000,2018-10-12 11:31:10.000000000,closed,0,atomics wrap around on overflow
+475,2018-10-12 11:06:46.000000000,2019-08-04 13:17:03.000000000,closed,0,Check atomic access alignment requirements
+474,2018-10-11 15:15:47.000000000,2018-10-11 15:36:44.000000000,closed,0,Enable enforcing the validity invariant per default
+473,2018-10-11 11:30:11.000000000,2018-10-14 13:29:14.000000000,closed,0,rustup: Update for rustc validation fixes
+472,2018-10-10 12:54:48.000000000,2018-10-11 11:30:30.000000000,closed,0,WIP: Update for rustc validation fixes
+471,2018-10-09 22:18:23.000000000,2018-10-10 11:09:09.000000000,closed,0,update to vergen 3
+470,2018-10-08 12:30:02.000000000,2018-10-10 13:28:33.000000000,closed,4,only allow 0-offset on integer pointers
+469,2018-10-06 20:33:24.000000000,2018-10-08 10:18:11.000000000,closed,0,ensure that we cannot use (wrapping_)offset to go from an int ptr to a real ptr
+468,2018-10-05 20:10:10.000000000,2018-10-11 11:15:35.000000000,closed,0,update for ptr provenance
+467,2018-10-05 20:09:56.000000000,2018-10-10 12:03:23.000000000,closed,0,rustup; test for return type mismatch
+466,2018-10-02 11:26:40.000000000,2018-10-02 12:00:32.000000000,closed,0,rustup
+465,2018-10-01 14:53:25.000000000,2018-10-08 18:05:22.000000000,closed,0,[do not merge] Travis macOS weirdness
+464,2018-10-01 14:05:40.000000000,2018-10-01 15:09:38.000000000,closed,2,update CI
+463,2018-10-01 10:48:41.000000000,2018-12-18 22:23:29.000000000,closed,1,Consider not allowing fn ptr comparison
+462,2018-09-30 19:35:39.000000000,2018-10-01 11:19:46.000000000,closed,0,remove needs_drop impl
+461,2018-09-29 21:40:05.000000000,2018-09-29 22:02:32.000000000,closed,0,fix test for latest rustc
+460,2018-09-23 11:15:36.000000000,2018-09-25 00:57:59.000000000,closed,0,Test mutating a non-mut static with interior mutability
+459,2018-09-20 14:25:18.000000000,2018-09-25 01:34:34.000000000,closed,0,Rustup
+458,2018-09-20 03:02:25.000000000,2018-09-20 03:31:34.000000000,closed,0,Move TLS data to machine data
+457,2018-09-17 20:06:56.000000000,2018-09-22 11:53:49.000000000,closed,0,test for interestingly aligned field access
+456,2018-09-17 11:20:25.000000000,2018-09-17 12:01:44.000000000,closed,0,fix test for rustup
+455,2018-09-16 17:20:59.000000000,2018-09-16 17:37:53.000000000,closed,2,cargo miri: show version number
+454,2018-09-16 16:19:20.000000000,2018-09-16 16:21:57.000000000,closed,1,add test by eddyb
+453,2018-09-15 19:15:10.000000000,2018-09-18 11:05:59.000000000,closed,2,ZST pointers and pointer equality
+452,2018-09-14 17:22:02.000000000,2018-09-16 17:37:53.000000000,closed,6,Enhance version to include SHA and date
+451,2018-09-06 18:10:24.000000000,2018-09-15 15:52:21.000000000,closed,8,Remove unchecked_shr/shl from intrinsics
+450,2018-09-05 21:08:43.000000000,1970-01-01 00:00:00.000000001,open,12,Evaluate global constructors (life before main)
+449,2018-08-31 16:04:31.000000000,2019-08-03 13:54:42.000000000,closed,6,Teach miri about unsized locals
+448,2018-08-30 22:35:01.000000000,2018-09-01 14:28:57.000000000,closed,6,Removed transmute from intrinsic.rs
+447,2018-08-30 15:40:56.000000000,2019-08-15 08:24:54.000000000,closed,3,"Check that offset is not too big, check projection offset to be inbounds"
+446,2018-08-30 13:09:06.000000000,2018-09-17 11:15:38.000000000,closed,0,Strictly enforce pointer validity even for zero-sized accesses
+445,2018-08-30 12:46:19.000000000,2018-09-01 13:46:02.000000000,closed,2,Rustup
+444,2018-08-30 12:30:15.000000000,2018-08-31 10:32:33.000000000,closed,1,Unignore a bunch of tests that actually work
+443,2018-08-30 11:42:59.000000000,2020-03-28 12:16:48.000000000,closed,6,Fix TLS dtor + memory leaks on macOS
+442,2018-08-30 10:59:34.000000000,2020-03-28 14:03:18.000000000,closed,1,Fix (TLS?) memory leaks on Windows
+441,2018-08-26 15:24:53.000000000,2018-09-16 16:22:04.000000000,closed,1,Fix calling a `FnOnce` as `fn`
+440,2018-08-23 11:59:57.000000000,1970-01-01 00:00:00.000000001,open,10,Symbolic execution support
+439,2018-08-21 13:02:41.000000000,2018-08-30 12:31:06.000000000,closed,2,Fix memory leaks
+438,2018-08-19 22:24:43.000000000,2018-12-20 03:29:59.000000000,closed,1,Implement unsized rvalues
+437,2018-08-17 18:26:49.000000000,2018-09-16 16:35:04.000000000,closed,1,mplace_field should use ptr_offset_inbounds
+436,2018-08-17 18:15:41.000000000,2018-09-16 16:14:03.000000000,closed,2,What does get_bytes_mut do to partial relocations?
+435,2018-08-16 17:14:44.000000000,2018-09-16 16:34:12.000000000,closed,4,No more unsized places
+434,2018-08-16 12:31:41.000000000,2018-08-30 12:31:06.000000000,closed,6,rustup for big refactor; kill most of validation
+433,2018-08-15 20:16:26.000000000,2018-09-17 11:15:38.000000000,closed,3,Revisit NOP cases for intrinsics
+432,2018-08-14 21:40:21.000000000,2018-08-29 00:16:41.000000000,closed,11,AppVeyor permissions
+431,2018-08-14 13:11:18.000000000,2018-08-15 11:24:01.000000000,closed,7,"Allow remainder on pointers, reenable packed-structs test"
+430,2018-08-14 12:16:45.000000000,2019-06-21 23:26:36.000000000,closed,9,Use bors for merging PRs
+429,2018-08-14 11:43:20.000000000,2018-08-14 12:15:56.000000000,closed,0,Cargo miri test
+428,2018-08-14 02:55:07.000000000,2018-08-14 11:37:08.000000000,closed,0,document and fully use rust-toolchain file
+427,2018-08-14 02:27:12.000000000,2019-10-14 12:27:54.000000000,closed,6,Add Cargo.lock
+426,2018-08-10 11:46:23.000000000,2018-08-14 11:37:08.000000000,closed,7,"Test against master, not nightly -- or pin nightly"
+425,2018-08-07 17:23:04.000000000,2018-08-14 22:09:55.000000000,closed,8,Rustup
+424,2018-08-02 14:17:45.000000000,2018-08-02 15:19:12.000000000,closed,0,remove dependency on lazy_static and regex by getting rid of some dead validation hack
+423,2018-08-02 10:20:46.000000000,2018-08-02 13:10:37.000000000,closed,0,mem(r)chr is working in miri now
+422,2018-08-01 18:35:33.000000000,2018-08-02 22:11:04.000000000,closed,3,"Revert ""Disable blood letting edge features"""
+421,2018-07-31 22:29:41.000000000,2018-08-01 18:27:40.000000000,closed,4,make sure that StorageDead invalidates the backing store
+420,2018-07-30 18:39:38.000000000,2018-09-16 16:50:09.000000000,closed,1,Use code from CTFE where available
+419,2018-07-30 16:49:48.000000000,2018-07-31 22:27:19.000000000,closed,0,clarify error message when sysroot was not found
+418,2018-07-30 02:00:34.000000000,2020-05-21 13:28:25.000000000,closed,3,Make cargo-miri not link against librustc (through libmiri)
+417,2018-07-27 13:26:17.000000000,2020-03-23 02:52:27.000000000,closed,9,Improve error message: Unsupported operation vs. undefined behavior
+416,2018-07-26 20:31:25.000000000,2018-08-14 02:01:32.000000000,closed,3,Enable hex printer in cargo-miri-test
+415,2018-07-26 18:47:40.000000000,2018-07-26 20:27:45.000000000,closed,0,test `cargo miri` output
+414,2018-07-26 18:45:36.000000000,2018-08-14 12:15:56.000000000,closed,0,Fix `cargo miri test`
+413,2018-07-25 19:28:36.000000000,2018-07-25 20:11:28.000000000,closed,2,Produce the exit codes that compiletest expects
+412,2018-07-24 17:55:38.000000000,2018-07-24 19:24:22.000000000,closed,7,crates.io
+411,2018-07-22 11:49:38.000000000,2018-07-22 14:23:37.000000000,closed,1,use default-run
+410,2018-07-17 00:29:03.000000000,2018-07-17 11:12:48.000000000,closed,0,fix for latest rust nightly
+409,2018-07-16 11:16:14.000000000,2018-07-16 12:26:28.000000000,closed,1,Hack branch for miri do not delete until merged
+408,2018-07-16 10:41:01.000000000,2018-07-16 11:19:10.000000000,closed,0,Rustup
+407,2018-07-16 01:17:47.000000000,2018-07-16 11:53:59.000000000,closed,0,update rustc build instructions to mention keep-stage
+406,2018-07-15 23:05:02.000000000,2018-07-15 23:24:43.000000000,closed,1,handle all foreign items like we handle C ABI shims
+405,2018-07-15 16:51:02.000000000,2018-08-16 17:37:28.000000000,closed,5,drop field of vtable cannot ever be null
+404,2018-07-15 13:41:09.000000000,2018-07-15 14:57:27.000000000,closed,3,make sure we show error messages even when we cannot show span
+403,2018-07-14 13:02:36.000000000,2018-07-14 13:41:59.000000000,closed,3,refine rustc build instructions
+402,2018-07-14 12:23:00.000000000,2018-09-16 16:31:13.000000000,closed,8,Use `rustc_target` for function call ABI compatibility check
+401,2018-07-13 18:29:21.000000000,2018-07-16 14:04:32.000000000,closed,3,run fullMIR tests in appveyor
+400,2018-07-12 17:01:57.000000000,2018-07-12 17:29:04.000000000,closed,0,put everything into a single test to fix interleaved output mess
+399,2018-07-12 16:25:47.000000000,2018-07-12 17:02:16.000000000,closed,0,update debugging instructions in the README
+398,2018-07-12 13:04:21.000000000,2018-07-12 14:05:27.000000000,closed,3,testsuite: Improve sysroot and fullmir handling
+397,2018-07-12 12:19:58.000000000,2018-07-12 13:33:52.000000000,closed,0,bump outdated dependencies
+396,2018-07-12 01:50:53.000000000,2018-07-15 14:57:27.000000000,closed,0,Error message details missing when showing stack trace
+395,2018-07-11 23:17:01.000000000,2018-07-12 13:00:46.000000000,closed,3,Test suite work
+394,2018-07-11 21:40:56.000000000,2018-07-12 02:01:14.000000000,closed,0,document -Zmiri-start-fn; make its logic more clear
+393,2018-07-11 19:56:00.000000000,2018-07-11 23:23:04.000000000,closed,0,stop producing binaries
+392,2018-07-11 19:43:18.000000000,2018-07-11 19:59:05.000000000,closed,0,fix deprecation warning: use dirs crate for home_dir
+391,2018-07-10 19:34:27.000000000,2018-07-11 12:53:17.000000000,closed,0,Clippy fixes
+390,2018-07-02 20:05:41.000000000,2018-07-02 20:11:53.000000000,closed,1,Rustup
+389,2018-07-02 20:03:05.000000000,2018-07-02 20:04:20.000000000,closed,0,Rustup
+388,2018-07-02 16:19:21.000000000,2018-07-11 12:53:19.000000000,closed,2,Rustup
+387,2018-06-30 05:02:07.000000000,2018-07-13 11:24:33.000000000,closed,8,"Implement `Eq`, `Clone` and `Hash` for MemoryData and Evaluator"
+386,2018-06-29 15:13:00.000000000,2018-06-29 17:01:11.000000000,closed,3,Rustup
+385,2018-06-12 09:31:19.000000000,2018-06-12 17:28:21.000000000,closed,0,Add missing pub
+384,2018-06-11 20:50:44.000000000,2018-06-11 21:38:39.000000000,closed,0,Split create_ecx out of eval_main
+383,2018-06-10 13:25:02.000000000,2018-06-10 19:24:47.000000000,closed,0,Rustup to rustc 1.28.0-nightly (2a0062974 2018-06-09)
+382,2018-06-05 20:37:59.000000000,2018-08-30 12:31:06.000000000,closed,5,Fix remaining compile-fail tests
+381,2018-06-05 12:46:36.000000000,2018-07-30 11:08:53.000000000,closed,3,Update to rustc sanity check branch
+380,2018-06-03 18:28:02.000000000,2018-06-03 18:47:49.000000000,closed,0,Rustup
+379,2018-06-01 12:52:50.000000000,2018-06-03 15:08:52.000000000,closed,1,Rustup
+378,2018-05-13 15:20:08.000000000,2018-06-01 14:48:47.000000000,closed,13,Rustup to rustc 1.28.0-nightly (952f344cd 2018-05-18)
+377,2018-05-11 11:40:34.000000000,2018-05-11 12:08:37.000000000,closed,0,Rustup to 1.27.0-nightly (acd3871ba 2018-05-10)
+376,2018-05-09 18:06:08.000000000,2018-06-05 20:37:23.000000000,closed,11,Fix a couple of compile-fail tests
+375,2018-05-09 17:15:04.000000000,2018-05-09 18:12:06.000000000,closed,0,cargo cache was messing up xargo/miri install
+374,2018-05-09 16:37:52.000000000,2018-05-09 17:04:35.000000000,closed,0,Cleanups
+373,2018-05-07 12:39:43.000000000,2018-05-07 12:48:44.000000000,closed,0,Alloc api fix and tmp disable validation_op because of ICE
+372,2018-05-04 02:29:49.000000000,2018-05-07 12:48:27.000000000,closed,3,Fixed build for latest nightly (again)
+371,2018-05-04 00:59:51.000000000,2018-05-04 02:31:13.000000000,closed,0,Minor fix to get build working on nightly
+370,2018-05-01 22:30:57.000000000,2018-05-02 00:13:53.000000000,closed,2,Fixed build for latest rust master
+369,2018-05-01 20:14:41.000000000,2018-05-01 22:28:18.000000000,closed,2,Fixed build for latest nightly
+368,2018-05-01 13:12:30.000000000,2018-05-09 16:30:12.000000000,closed,11,Rustup
+367,2018-05-01 13:07:37.000000000,2018-05-01 13:11:46.000000000,closed,1,Rustup to rustc 1.27.0-nightly (79252ff4e 2018-04-29)
+366,2018-04-05 06:26:05.000000000,2018-07-11 23:20:34.000000000,closed,3,typo
+365,2018-03-26 09:47:23.000000000,2018-03-26 12:35:56.000000000,closed,2,Remove conservative_impl_trait feature
+364,2018-03-17 21:58:53.000000000,2018-04-13 18:12:57.000000000,closed,9,Rustup
+363,2018-02-26 13:17:05.000000000,2018-02-26 14:18:12.000000000,closed,2,unreadable_literal triggers for valid scientific notation
+362,2018-01-29 22:16:45.000000000,2018-01-29 23:11:15.000000000,closed,2,Say this was merged into rustc
+361,2018-01-07 03:03:21.000000000,2018-04-13 18:12:36.000000000,closed,4,WIP rustup
+360,2018-01-07 02:51:41.000000000,2018-05-11 15:51:06.000000000,closed,1,add iter_any test
+359,2017-12-17 06:51:16.000000000,2018-05-09 16:30:13.000000000,closed,0,[LOCKSTEP UPGRADE #45525] stop using Instance::def_ty
+358,2017-12-16 09:57:38.000000000,2017-12-16 15:38:51.000000000,closed,0,Remove the [workspace] section.
+357,2017-12-15 15:02:41.000000000,2018-07-11 23:23:04.000000000,closed,3,miri builds binaries
+356,2017-10-11 03:36:35.000000000,2018-07-11 18:07:59.000000000,closed,9,`cargo build` fails
+355,2017-10-06 19:15:53.000000000,2017-12-15 14:27:59.000000000,closed,12,Use the core miri from rustc
+354,2017-09-30 11:07:33.000000000,2017-09-30 13:22:05.000000000,closed,1,update README.md
+353,2017-09-30 10:55:43.000000000,2017-09-30 12:46:02.000000000,closed,1,update trans_fulfill_obligation call signature
+352,2017-09-27 15:27:24.000000000,2018-08-15 11:24:01.000000000,closed,1,Accesses to fields with packed type fail alignment check
+351,2017-09-25 18:22:22.000000000,2017-09-27 23:46:41.000000000,closed,2,Call exchange_malloc for box stmt
+350,2017-09-22 15:28:58.000000000,2017-09-22 15:49:00.000000000,closed,0,get rid of ad-hoc inhabitedness test
+349,2017-09-21 21:50:57.000000000,2017-09-22 15:49:31.000000000,closed,4,use the new `is_ty_uninhabited_from_all_modules` helper
+348,2017-09-19 15:28:01.000000000,2017-09-19 18:23:19.000000000,closed,1,update compiletest
+347,2017-09-18 13:11:44.000000000,2017-09-18 15:56:13.000000000,closed,2,README: show AppVeyor status
+346,2017-09-18 00:02:36.000000000,2017-09-18 13:12:54.000000000,closed,1,Only run appveyor on the master branch and on PRs
+345,2017-09-16 17:09:53.000000000,2017-09-17 17:35:35.000000000,closed,5,Add Appveyor
+344,2017-09-16 15:30:25.000000000,2017-09-16 15:49:01.000000000,closed,0,get rid of the --miri_host_target hack
+343,2017-09-16 14:38:38.000000000,2017-09-16 15:09:28.000000000,closed,0,use ui test mode rather than mir-opt
+342,2017-09-16 13:46:24.000000000,2017-09-16 14:31:37.000000000,closed,1,"validation: check that int, float etc. are not undef"
+341,2017-09-15 17:07:39.000000000,2017-09-15 17:45:34.000000000,closed,0,Use rustc's APFloat impl instead of interpreter host floats
+340,2017-09-15 15:03:32.000000000,2017-09-15 16:14:47.000000000,closed,0,Remove `#[linkage(foo)]` statics from core miri
+339,2017-09-15 10:58:53.000000000,2017-09-15 11:22:19.000000000,closed,0,"Storage{Live,Dead} in generators got fixed"
+338,2017-09-14 12:50:09.000000000,2018-08-14 02:00:38.000000000,closed,4,get `cargo miri` to work with a full mir libstd
+337,2017-09-14 11:55:53.000000000,2017-09-14 13:00:46.000000000,closed,0,rustup
+336,2017-09-13 16:40:59.000000000,2017-09-13 20:32:40.000000000,closed,3,Valiation: Identify write locks using an abstract lvalue
+335,2017-09-13 15:47:14.000000000,2017-09-13 16:36:53.000000000,closed,0,Rustup
+334,2017-09-12 17:00:17.000000000,2017-09-17 18:08:23.000000000,closed,19,Windows support in the test suite + appveyor
+333,2017-09-11 13:02:42.000000000,2017-09-11 13:17:21.000000000,closed,0,Use correct rustc in rust's CI
+332,2017-09-08 21:12:15.000000000,2017-09-09 14:15:34.000000000,closed,8,rustup
+331,2017-09-06 15:22:59.000000000,2018-08-14 02:00:07.000000000,closed,5,Validation and inlining don't work together
+330,2017-09-06 12:12:44.000000000,2017-09-06 12:51:55.000000000,closed,13,Rustup
+329,2017-09-04 18:03:42.000000000,2017-09-08 11:40:20.000000000,closed,26,Rustup
+328,2017-09-04 06:40:24.000000000,2017-09-04 14:37:23.000000000,closed,1,update for upstream rename: CodeExtent -> Scope
+327,2017-09-02 15:00:38.000000000,2017-09-04 14:59:42.000000000,closed,0,update backtrace to newly released version
+326,2017-09-02 04:46:12.000000000,2017-09-04 06:41:20.000000000,closed,2,"issue-5917 test fails with ""dangling pointer was dereferenced"""
+325,2017-09-01 14:40:09.000000000,2017-09-04 15:21:54.000000000,closed,3,Update compiletest
+324,2017-09-01 14:27:49.000000000,2017-09-04 15:49:19.000000000,closed,9,Implement `align_offset` intrinsic and thus enabling `from_utf8`
+323,2017-08-30 14:47:10.000000000,2017-08-30 21:00:52.000000000,closed,0,Rustup (generator support)
+322,2017-08-29 18:53:00.000000000,2017-08-29 19:31:38.000000000,closed,0,test new From instances for Rc
+321,2017-08-29 16:44:01.000000000,2018-08-13 22:39:45.000000000,closed,1,Unify field access
+320,2017-08-29 14:27:05.000000000,2017-08-29 16:38:08.000000000,closed,0,some more things found in the rustc test suite
+319,2017-08-29 13:33:58.000000000,2017-08-29 14:26:03.000000000,closed,0,Get some more rustc tests working
+318,2017-08-29 11:57:06.000000000,2017-08-29 12:38:40.000000000,closed,0,Fix panic in subslice patterns of arrays (fixes #276)
+317,2017-08-28 20:09:55.000000000,2020-03-01 16:49:24.000000000,closed,3,"Try out lld, so we can cross-build dependencies for arbitrary targets"
+316,2017-08-28 16:10:17.000000000,2017-08-28 18:11:49.000000000,closed,0,Fix relocation copying in overlapping copies
+315,2017-08-27 20:21:47.000000000,2017-08-28 17:37:00.000000000,closed,5,Enable more validation tests
+314,2017-08-26 21:55:34.000000000,2017-08-26 22:29:04.000000000,closed,0,use rustc version of fulfill_obligation now that we can
+313,2017-08-26 18:05:15.000000000,2017-08-28 18:11:49.000000000,closed,6,ReadBytesAsPointer error in std::collections::BTreeSet
+312,2017-08-26 14:52:39.000000000,2017-08-26 15:50:59.000000000,closed,0,"update compiletest, use tempdir"
+311,2017-08-25 21:36:55.000000000,2017-08-29 11:53:35.000000000,closed,5,Memory API refactoring
+310,2017-08-25 01:52:25.000000000,2017-08-25 14:19:24.000000000,closed,9,Simplify dropping by reusing `eval_fn_call`
+309,2017-08-24 16:44:58.000000000,2017-08-25 01:50:47.000000000,closed,5,Refactoring: Couple values and types into an object when passed around together
+308,2017-08-23 19:47:29.000000000,2017-08-23 20:08:54.000000000,closed,0,rustup
+307,2017-08-23 18:56:43.000000000,2017-08-23 20:08:54.000000000,closed,0,implement built-in Clone 
+306,2017-08-19 18:39:25.000000000,2017-08-24 17:30:24.000000000,closed,2,Handle closures in get_field_ty
+305,2017-08-16 20:25:26.000000000,2017-08-26 15:50:59.000000000,closed,3,"Spurious test failure: ""error: linking with `cc` failed"""
+304,2017-08-14 01:55:48.000000000,2017-08-24 17:30:24.000000000,closed,1,"error: ""can't handle type: TyClosure"""
+303,2017-08-13 20:17:22.000000000,2017-08-16 14:37:37.000000000,closed,3,Many tests fail with: tried to access a dead local variable
+302,2017-08-11 20:14:29.000000000,2017-08-12 21:11:19.000000000,closed,0,enable a test that waited for a rustc fix
+301,2017-08-11 00:58:30.000000000,2017-08-24 11:14:36.000000000,closed,6,More validation tests
+300,2017-08-10 20:32:24.000000000,2017-08-11 11:39:37.000000000,closed,4,Get the test suite working inside the rustc test suite
+299,2017-08-10 19:49:57.000000000,2017-08-10 20:27:58.000000000,closed,3,rustfmt
+298,2017-08-10 02:51:52.000000000,2018-08-14 01:53:18.000000000,closed,14,Find a way to get the normalized unerased type of a local
+297,2017-08-10 02:49:20.000000000,2017-08-10 12:18:55.000000000,closed,1,Validation update
+296,2017-08-10 02:43:44.000000000,2017-09-13 20:32:40.000000000,closed,1,Lifetimes are unsuited as write lock identifiers
+295,2017-08-09 20:05:45.000000000,2017-08-09 23:54:07.000000000,closed,2,Don't rebuild miri even if nothing changed
+294,2017-08-09 18:15:34.000000000,2017-08-09 22:16:00.000000000,closed,1,Make cargo_miri a feature
+293,2017-08-09 05:10:42.000000000,2017-08-09 22:16:00.000000000,closed,4,Compile without serde
+292,2017-08-08 19:08:20.000000000,2017-08-09 18:06:15.000000000,closed,3,Prepare for splitting off static alloc ids from local alloc ids
+291,2017-08-08 00:53:11.000000000,2017-08-08 01:45:29.000000000,closed,0,make xargo/build.sh more cross-platform
+290,2017-08-08 00:46:22.000000000,2017-08-10 12:18:55.000000000,closed,1,Add unit tests for RangeMap
+289,2017-08-07 23:38:31.000000000,2017-08-07 23:57:15.000000000,closed,0,Update for Rust nightly
+288,2017-08-07 22:32:35.000000000,2017-08-08 00:44:21.000000000,closed,9,Re-do memory locking
+287,2017-08-07 15:41:54.000000000,2017-08-08 00:26:48.000000000,closed,9,Upstream nits
+286,2017-08-04 20:07:22.000000000,2017-08-05 09:02:52.000000000,closed,3,Update MIR validation and test it
+285,2017-08-04 19:54:17.000000000,2019-03-08 20:33:32.000000000,closed,11,separate static from local allocations
+284,2017-08-04 14:46:54.000000000,2017-08-04 16:31:14.000000000,closed,1,"Rust reorders fields, but miri uses the order from the source files"
+283,2017-08-04 09:36:31.000000000,2017-08-05 18:29:45.000000000,closed,2,Backtrace performance
+282,2017-08-03 19:36:28.000000000,1970-01-01 00:00:00.000000001,open,2,dogfooding miri
+281,2017-08-03 02:30:13.000000000,2017-08-03 22:39:31.000000000,closed,2,fix size_of_val on unsized tuples
+280,2017-08-02 19:00:46.000000000,2017-08-04 01:02:30.000000000,closed,10,Produce backtraces for miri internals
+279,2017-08-02 15:36:37.000000000,2018-08-14 01:59:31.000000000,closed,18,block merging on passing CI
+278,2017-08-02 14:57:17.000000000,2017-08-02 15:09:05.000000000,closed,0,Process untagged unions
+277,2017-08-01 03:54:21.000000000,2017-08-01 04:14:38.000000000,closed,0,fix for latest nightly
+276,2017-07-31 18:46:48.000000000,2017-08-29 12:38:41.000000000,closed,0,slice patterns with statically known subslice length panic
+275,2017-07-28 18:01:32.000000000,2017-08-02 11:30:14.000000000,closed,2,The Machine ™
+274,2017-07-27 10:45:31.000000000,2017-07-31 14:41:29.000000000,closed,10,make force_allocation handle packed ByValPair
+273,2017-07-26 04:03:46.000000000,2017-07-26 09:46:40.000000000,closed,0,Test that &* of a dangling (and even unaligned) ptr is okay
+272,2017-07-25 12:50:52.000000000,2017-07-27 01:37:53.000000000,closed,6,Mir validate
+271,2017-07-23 17:03:04.000000000,2018-10-01 10:53:57.000000000,closed,7,Use functions from rustc to simplify our layout and type operations.
+270,2017-07-23 01:09:51.000000000,2017-07-27 00:12:41.000000000,closed,0,Make this a workspace so 'cargo build --all' in the root works
+269,2017-07-21 17:00:45.000000000,2017-07-22 11:52:47.000000000,closed,0,Remove unused `IntoValTyPair` hack
+268,2017-07-21 15:44:22.000000000,2017-08-02 11:30:14.000000000,closed,15,Split up miri into the librustc_mir and bin parts
+267,2017-07-21 01:04:53.000000000,2017-07-24 13:31:26.000000000,closed,11,Fix ptr-int-casts
+266,2017-07-21 00:23:27.000000000,2017-07-21 11:46:51.000000000,closed,3,Always test alignment in memory.rs
+265,2017-07-20 18:06:39.000000000,2017-07-21 00:08:02.000000000,closed,6,Also test optimized MIR
+264,2017-07-20 15:59:01.000000000,2017-07-20 22:00:20.000000000,closed,0,Reduce the usage of global paths
+263,2017-07-20 10:00:52.000000000,2019-02-23 15:39:05.000000000,closed,2,review all early aborts
+262,2017-07-20 07:33:41.000000000,2017-07-20 16:13:22.000000000,closed,1,remove ad-hoc 'never' type check in read_lvalue
+261,2017-07-20 01:00:18.000000000,2017-07-20 16:13:22.000000000,closed,5,Handling of `!`
+260,2017-07-19 23:59:35.000000000,2017-07-20 18:07:08.000000000,closed,5,Split up test suite
+259,2017-07-19 22:33:37.000000000,2017-07-20 09:09:53.000000000,closed,18,No longer check aligment and non-NULLness on `&`
+258,2017-07-19 19:32:37.000000000,2017-07-21 14:32:45.000000000,closed,25,Prep miri repository for rustc merger
+257,2017-07-19 13:06:48.000000000,2017-07-19 13:40:44.000000000,closed,0,Export types and functions needed by priroda
+256,2017-07-19 01:23:02.000000000,2017-07-21 00:08:02.000000000,closed,7,Update comments in main re: when which optimizations are run
+255,2017-07-19 00:56:40.000000000,2017-07-19 01:16:42.000000000,closed,0,use libstd methods for floating-point <-> bytes conversion
+254,2017-07-19 00:51:49.000000000,2017-07-19 01:34:10.000000000,closed,0,"Remove reundant dangling checks in {r,d}eallocate"
+253,2017-07-18 13:10:58.000000000,2018-05-11 13:52:13.000000000,closed,5,Try running miri on osx
+252,2017-07-18 10:03:18.000000000,2018-08-14 01:55:01.000000000,closed,5,Cannot run with libstd MIR on macOS due to stack guards
+251,2017-07-15 00:06:37.000000000,2017-08-04 01:02:30.000000000,closed,2,Provide inner (miri) backtraces
+250,2017-07-14 21:58:04.000000000,2018-08-14 12:44:18.000000000,closed,3,Packed struct access alignment failure
+249,2017-07-14 00:22:25.000000000,2017-07-14 23:28:07.000000000,closed,2,lvalue: refactoring to permit applying a mir projection to a miri lvalue
+248,2017-07-13 06:31:20.000000000,2017-07-13 13:43:25.000000000,closed,0,Memory::read_ptr has to check for relocations on the edges
+247,2017-07-13 04:56:23.000000000,2017-07-14 10:30:30.000000000,closed,1,Re-do packed memory accesses
+246,2017-07-13 01:26:02.000000000,2017-07-13 04:46:30.000000000,closed,3,Refactor memory::Entry into general memory range handling
+245,2017-07-12 16:54:34.000000000,2017-07-18 16:09:15.000000000,closed,4,Ensure that it is not possible to explicitly free stack memory
+244,2017-07-12 16:47:01.000000000,2017-07-26 09:46:40.000000000,closed,6,is `&*some_dangling_ptr` legal?
+243,2017-07-12 12:37:30.000000000,2017-07-14 00:07:03.000000000,closed,0,Get rid of magic numbers
+242,2017-07-12 11:35:54.000000000,2017-07-12 12:40:03.000000000,closed,0,Add tests for #113
+241,2017-07-12 11:04:14.000000000,2017-07-12 13:02:03.000000000,closed,0,Produce `ConstInt` from a `def_id` for rustc
+240,2017-07-12 10:25:10.000000000,1970-01-01 00:00:00.000000001,open,0,Coverage
+239,2017-07-12 04:24:52.000000000,2017-07-12 10:03:23.000000000,closed,0,hooking mmap is no longer needed
+238,2017-07-11 21:27:43.000000000,2017-07-12 11:08:08.000000000,closed,0,Add little script to build libstd
+237,2017-07-11 00:35:52.000000000,2017-07-11 11:39:53.000000000,closed,8,"Update for allcator API, simplify reallocate"
+236,2017-07-04 16:39:58.000000000,2017-07-11 17:03:15.000000000,closed,6,Use a wrapper type to differentiate between `PrimVal` and pointers
+235,2017-07-04 07:58:12.000000000,2017-07-04 10:38:22.000000000,closed,0,Implement some missing intrinsics
+234,2017-07-04 03:49:52.000000000,2017-07-05 21:54:55.000000000,closed,4,Make Reallocate & Deallocate less permissive
+233,2017-07-04 00:59:02.000000000,2017-07-04 10:32:47.000000000,closed,3,Fix transmute on ByValPair
+232,2017-07-03 16:18:08.000000000,2017-07-04 11:50:55.000000000,closed,0,Only check pointers when dereferencing
+231,2017-06-30 20:08:14.000000000,2017-07-01 14:44:40.000000000,closed,1,update compiletest dependency
+230,2017-06-29 21:13:24.000000000,2017-06-29 22:44:49.000000000,closed,3,get cargo-miri to work
+229,2017-06-29 21:12:59.000000000,2017-06-29 22:44:49.000000000,closed,0,cargo-miri does not work for crates with any dependencies
+228,2017-06-29 19:01:02.000000000,2017-07-04 11:50:55.000000000,closed,4,`let x = *Box::new(());` tries to write to integer pointer
+227,2017-06-29 17:33:44.000000000,2017-07-04 10:32:47.000000000,closed,8,transmute on `ByValPair` is wrong if field sizes of source and target don't match
+226,2017-06-29 06:03:22.000000000,2017-06-29 17:03:12.000000000,closed,5,update for upstream changes to TyFnDef
+225,2017-06-28 22:37:57.000000000,2017-06-29 01:08:03.000000000,closed,1,cast -> transmute
+224,2017-06-28 17:28:24.000000000,1970-01-01 00:00:00.000000001,open,40,implement intptrcast model
+223,2017-06-28 15:39:19.000000000,2017-06-29 17:40:07.000000000,closed,1,Reinstate `eval_and_read_lvalue` optimizations
+222,2017-06-28 11:41:34.000000000,2017-06-29 01:08:58.000000000,closed,1,Address comments to previous PR
+221,2017-06-28 05:34:43.000000000,2017-06-28 10:46:03.000000000,closed,1,update tests for new error message
+220,2017-06-27 15:42:47.000000000,2017-06-28 12:15:36.000000000,closed,7,Remove the `field` field from `Lvalue::Local`
+219,2017-06-27 10:21:58.000000000,2017-08-28 19:11:14.000000000,closed,7,Miri allows writing to immutable locals and heap allocs
+218,2017-06-26 20:01:19.000000000,2017-06-27 10:22:22.000000000,closed,4,Initial work towards checking const eval rules in miri
+217,2017-06-26 11:03:35.000000000,2017-09-15 17:45:34.000000000,closed,9,Add ctfe mode
+216,2017-06-26 04:00:36.000000000,2017-07-14 00:07:04.000000000,closed,3,cannot run with libstd MIR on macOS
+215,2017-06-24 14:47:21.000000000,2017-06-24 14:59:41.000000000,closed,0,Make zst compile-fail tests more readable
+214,2017-06-24 02:13:25.000000000,2017-07-05 21:54:55.000000000,closed,3,Reallocate/Deallocate is too permissive
+213,2017-06-24 00:02:53.000000000,2017-06-24 15:08:45.000000000,closed,3,check all methods on PrimVal for undef correctness
+212,2017-06-23 17:50:46.000000000,2017-06-24 00:19:38.000000000,closed,6,Remove the zst allocation
+211,2017-06-23 15:28:00.000000000,2018-12-10 17:43:29.000000000,closed,8,Drop support for missing MIR
+210,2017-06-23 07:15:02.000000000,2017-06-24 22:39:58.000000000,closed,12,Change how pointer casts work
+209,2017-06-23 01:43:35.000000000,2017-06-23 09:18:26.000000000,closed,2,Make HashMap insertion work
+208,2017-06-23 01:04:46.000000000,2017-06-24 22:39:58.000000000,closed,0,Be more careful when doing integer-to-pointer casts
+207,2017-06-22 12:46:30.000000000,2017-06-22 12:49:35.000000000,closed,0,update xargo usage example for new location of vecs.rs
+206,2017-06-22 08:47:37.000000000,2017-06-22 13:25:06.000000000,closed,1,Pointer Arithmetic
+205,2017-06-22 01:29:45.000000000,2017-06-22 11:01:38.000000000,closed,0,run fullmir tests against rustc; add output explaining what is being tested
+204,2017-06-22 01:10:10.000000000,2017-06-26 11:04:43.000000000,closed,41,Handle ZST pointer alignment properly
+203,2017-06-22 01:06:27.000000000,2017-06-23 01:45:26.000000000,closed,7,Allow any offset on integer and ZST pointers
+202,2017-06-22 01:03:23.000000000,2018-12-10 17:43:30.000000000,closed,17,Run MIR-libstd tests for other architectures
+201,2017-06-21 18:36:16.000000000,2017-06-22 16:16:45.000000000,closed,0,"""Support"" more libc functions"
+200,2017-06-21 10:59:26.000000000,2017-06-21 18:22:16.000000000,closed,3,Get rid of the integer allocation (Round 2)
+199,2017-06-20 14:41:07.000000000,2017-06-20 14:59:14.000000000,closed,0,handle EndRegion as no-op
+198,2017-06-20 02:11:08.000000000,2017-06-20 08:42:37.000000000,closed,1,update compiletest and remove obsolete comment
+197,2017-06-19 15:30:16.000000000,2017-06-21 10:57:37.000000000,closed,8,Get rid of the integer allocation
+196,2017-06-15 01:06:42.000000000,1970-01-01 00:00:00.000000001,open,1,Find a way to test MIR code that rustc won't emit
+195,2017-06-13 02:25:36.000000000,2017-06-13 10:14:02.000000000,closed,0,"Test the Rc::{into,from}_raw roundtrip"
+194,2017-06-12 08:16:18.000000000,2017-06-12 10:06:40.000000000,closed,0,Enable a test that was accidentally left disabled
+193,2017-06-12 08:05:40.000000000,2017-06-12 10:05:14.000000000,closed,1,Rustup 1.4 fixed the permissions of the extracted files
+192,2017-06-11 04:41:05.000000000,2017-06-11 05:39:33.000000000,closed,0,update for latest nightly rustc
+191,2017-06-08 22:24:02.000000000,2017-06-08 22:33:28.000000000,closed,1,un-ignore a test that actually works
+190,2017-06-08 17:20:38.000000000,2017-09-04 15:49:19.000000000,closed,13,ReadPointerAsBytes error in ::std::str::from_utf8()
+189,2017-06-08 02:52:24.000000000,2017-06-21 10:57:37.000000000,closed,41,Get rid of integer allocation
+188,2017-06-08 02:40:58.000000000,2017-06-08 23:34:31.000000000,closed,2,Bail out on overflow
+187,2017-06-06 17:49:58.000000000,2017-06-06 19:47:05.000000000,closed,1,fix issue 184 by marking the destination as a packed struct
+186,2017-06-06 05:52:20.000000000,2017-06-06 18:25:19.000000000,closed,13,fix issue 184 by forcing transmute's argument to have an allocation
+185,2017-06-06 02:32:27.000000000,2017-06-06 13:01:50.000000000,closed,4,Various pointer-related things
+184,2017-06-06 00:39:24.000000000,2017-06-06 19:47:04.000000000,closed,6,u64 -> [u8; 8] transmute triggers spurious alignment error
+183,2017-06-04 21:36:25.000000000,2017-06-06 20:45:03.000000000,closed,6,"""offset"" intrinsic should check the bounds, ""arith_offset"" must take element size into account"
+182,2017-06-04 17:44:58.000000000,2017-06-09 13:57:49.000000000,closed,2,internal compiler error on atomic_xchg::<Trait>()
+181,2017-06-04 17:29:45.000000000,2018-10-31 16:02:38.000000000,closed,3,"atomic_xadd::<f64> fails with rustc, succeeds with miri"
+180,2017-06-03 05:49:07.000000000,2017-06-22 00:58:21.000000000,closed,16,Support tests to be run only with MIR-libstd
+179,2017-06-03 05:01:41.000000000,2017-06-03 09:54:06.000000000,closed,0,update for upstream ParamEnv changes
+178,2017-06-03 03:58:35.000000000,2017-06-08 23:34:31.000000000,closed,6,overflowing-rsh-6.rs fails when run with -O
+177,2017-06-02 04:29:16.000000000,2017-06-06 01:40:02.000000000,closed,22,remove our array drop glue and use rustc's instead
+176,2017-06-01 04:57:30.000000000,2017-06-02 08:54:13.000000000,closed,9,"interpret StorageLive & StorageDead, and check dead stack slots are not used"
+175,2017-05-31 22:31:43.000000000,2017-05-31 22:40:50.000000000,closed,0,remove unneeded '-gnu' suffix from compiletest ignore directives
+174,2017-05-31 22:23:22.000000000,2017-06-01 01:24:39.000000000,closed,9,run test suite also against libstd with full MIR 
+173,2017-05-31 18:49:51.000000000,2017-05-31 19:36:10.000000000,closed,0,fix thread-local-no-dtor test on MacOS and ignore it on Windows
+172,2017-05-30 17:29:48.000000000,2017-05-30 17:58:26.000000000,closed,2,update for latest nightly rustc
+171,2017-05-25 02:41:54.000000000,2017-05-31 10:24:16.000000000,closed,28,Work with MIR-libstd
+170,2017-05-24 07:41:52.000000000,2017-05-24 10:06:24.000000000,closed,1,update for upstream changes with ty::ParamEnv
+169,2017-05-23 21:37:08.000000000,2017-05-24 10:07:24.000000000,closed,2,fix 'cargo run' in README
+168,2017-05-21 23:55:00.000000000,2017-05-21 23:57:53.000000000,closed,0,implement __rust_allocate_zeroed C ABI function
+167,2017-05-13 15:15:27.000000000,2017-05-13 15:29:31.000000000,closed,0,update for latest rustc
+166,2017-05-10 13:32:25.000000000,2018-08-14 01:55:33.000000000,closed,6,cargo run requires --bin
+165,2017-05-09 18:35:28.000000000,2017-05-09 18:42:54.000000000,closed,2,"Update Cargo.toml, fix for build error (see #164)"
+164,2017-05-09 18:28:13.000000000,2017-05-09 18:45:27.000000000,closed,2,Update Cargo.toml because byteorder dependency got deleted from github
+163,2017-05-04 19:43:28.000000000,2017-05-05 13:25:57.000000000,closed,1,Rustup to rustc 1.19.0-nightly (2d4ed8e0c 2017-05-03)
+162,2017-05-02 12:46:03.000000000,2017-05-02 13:24:11.000000000,closed,0,Update to rustc 1.19.0-nightly (777ee2079 2017-05-01)
+161,2017-04-26 14:16:41.000000000,2017-04-26 14:48:16.000000000,closed,0,Address clippy lints
+160,2017-04-25 19:09:20.000000000,2017-04-25 19:18:20.000000000,closed,0,Also test subdirectories of `rust/src/test/run-pass`
+159,2017-04-23 21:46:45.000000000,2017-04-23 21:54:55.000000000,closed,0,update for latest rustc nightly
+158,2017-04-06 22:17:42.000000000,2017-04-21 17:20:56.000000000,closed,2,miri doesn't build
+157,2017-03-31 13:11:00.000000000,2017-04-21 17:21:33.000000000,closed,7,miri happily dereferences `*const !` and continues
+156,2017-03-23 18:46:28.000000000,2017-04-21 15:23:38.000000000,closed,10,Use rustc generated shims instead of interpreter hacks
+155,2017-03-23 03:01:15.000000000,2017-03-23 06:45:13.000000000,closed,0,remove feature opt-ins that are no longer needed
+154,2017-03-21 20:10:21.000000000,2017-03-22 00:00:39.000000000,closed,1,partially update for latest rustc nightly
+153,2017-03-17 13:59:59.000000000,2017-04-21 17:22:14.000000000,closed,3,Peephole optimization [2/n]: represent aggregates with only two fields as ByValPair
+152,2017-03-14 17:27:46.000000000,2017-03-15 00:35:52.000000000,closed,5,Intrinsics and overflow
+151,2017-03-14 17:26:32.000000000,2017-03-15 00:35:52.000000000,closed,0,Bitshift overflow doesn't panic
+150,2017-03-14 16:17:20.000000000,1970-01-01 00:00:00.000000001,open,0,Running miri on the run-fail test suite of rustc
+149,2017-03-14 05:09:00.000000000,2017-03-14 05:13:16.000000000,closed,0,fix argument order on check_align()
+148,2017-03-14 03:51:07.000000000,2017-03-14 04:59:23.000000000,closed,2,implement the write_bytes() intrinsic
+147,2017-02-28 16:35:13.000000000,2017-03-14 20:49:41.000000000,closed,2,rustup to rustc 1.17.0-nightly (60a0edc6c 2017-02-26)
+146,2017-02-24 17:19:52.000000000,2017-03-14 20:57:03.000000000,closed,7,[Peephole Optimization 1/n] Don't allocate for structs with a single primval field
+145,2017-02-24 16:41:09.000000000,2017-02-24 17:14:05.000000000,closed,0,drop zst fields of null pointer optimized structs and enums
+144,2017-02-24 15:27:44.000000000,2017-02-24 15:57:07.000000000,closed,0,move all code accessing vtable internals into the `trait` module
+143,2017-02-24 14:40:30.000000000,2017-02-24 15:04:40.000000000,closed,0,rustup
+142,2017-02-14 21:51:15.000000000,2017-02-24 15:05:42.000000000,closed,0,Memleak
+141,2017-02-14 21:23:42.000000000,2017-02-24 07:06:13.000000000,closed,1,fix a bug in drop code of structs with unsized fields
+140,2017-02-13 18:19:04.000000000,2017-02-24 07:00:40.000000000,closed,2,deduplicate field access logic
+139,2017-02-10 20:36:23.000000000,2017-02-11 02:29:55.000000000,closed,0,lvalue references into fields of ValPair locals
+138,2017-02-10 18:35:08.000000000,2017-02-10 19:27:36.000000000,closed,0,refactor lvalue field projection handling to prepare for fewer `force_allocation`s
+137,2017-02-10 13:35:14.000000000,2017-02-10 14:05:47.000000000,closed,1,autogenerate markdown for rustc test suite result
+136,2017-02-09 23:29:23.000000000,2017-02-10 13:03:14.000000000,closed,0,refactor drop glue and fix Box<Box<Struct>> as Box<Trait>
+135,2017-02-09 20:26:42.000000000,2017-02-24 15:05:42.000000000,closed,5,miri doesn't drop values moved into closures with `let _ = x`
+134,2017-02-09 19:54:14.000000000,2017-02-09 19:59:15.000000000,closed,1,typo
+133,2017-02-09 19:52:08.000000000,2017-02-10 21:03:03.000000000,closed,1,substs order of drop impl from `impl` and not from the type
+132,2017-02-09 19:08:42.000000000,2017-02-09 19:37:24.000000000,closed,1,"we cannot panic, thus `panicking` always returns false"
+131,2017-02-09 18:59:27.000000000,1970-01-01 00:00:00.000000001,open,20,&A as *const _ == &A as *const _ not guaranteed for `const A`
+130,2017-02-09 17:35:13.000000000,2017-02-10 16:29:43.000000000,closed,1,`<i32 as Foo>::ID` takes `Foo::ID` instead of ID from the `impl Foo for i32`
+129,2017-02-09 17:26:26.000000000,2017-02-10 13:03:14.000000000,closed,1,drop in `Box<Box<T>>` as `Box<Trait>` broken
+128,2017-02-09 15:16:46.000000000,2017-02-09 19:35:16.000000000,closed,2,fix size of dst in size_of_val intrinsic
+127,2017-02-09 14:38:39.000000000,2017-02-09 15:14:47.000000000,closed,1,"ignore `print!`, turn `panic!` into a EvalError"
+126,2017-02-09 13:42:54.000000000,2017-02-09 13:57:23.000000000,closed,1,1 > -1
+125,2017-02-09 12:38:38.000000000,2017-02-09 13:46:59.000000000,closed,0,compute the offset of dst fields by checking the vtable
+124,2017-02-09 12:17:54.000000000,2017-02-24 15:57:07.000000000,closed,2,refactor vtables
+123,2017-02-08 22:19:21.000000000,2017-02-09 13:46:59.000000000,closed,11,wrong field access on unsized types
+122,2017-02-08 19:34:02.000000000,2017-02-08 22:21:29.000000000,closed,2,prevent more deallocations of statics
+121,2017-02-07 23:23:55.000000000,2017-02-08 13:41:11.000000000,closed,0,fix `static mut` dealloc or freeze
+120,2017-02-07 22:50:59.000000000,2017-02-08 13:41:11.000000000,closed,2,recursive static initialization is broken
+119,2017-02-07 22:42:48.000000000,2017-04-21 15:23:37.000000000,closed,1,bad substs for tuple-like constructor function pointer
+118,2017-02-07 22:12:31.000000000,2017-02-08 13:41:11.000000000,closed,5,"`static mut`s deallocate their sub-allocations, making their pointers dangle"
+117,2017-02-07 21:53:05.000000000,2017-02-07 21:58:06.000000000,closed,0,fix some leftover u128 errors
+116,2017-02-07 21:42:40.000000000,2017-02-07 21:43:42.000000000,closed,0,fix drop impls for clike enums
+115,2017-02-07 15:06:50.000000000,2017-02-07 18:49:51.000000000,closed,8,fix turning function items into closure trait objects
+114,2017-02-07 14:58:44.000000000,2017-02-07 18:49:51.000000000,closed,0,multi-argument closure virtual calls are broken
+113,2017-02-06 20:23:36.000000000,2017-07-12 12:40:03.000000000,closed,0,ByValPair <-> ByVal transmutes can cause Miri to panic
+112,2017-02-06 20:02:05.000000000,2017-02-07 18:49:51.000000000,closed,0,"fn pointer as closure trait object ""bad VtableFnPointer fn_ty: fn()"""
+111,2017-02-06 19:59:49.000000000,2017-02-07 18:49:51.000000000,closed,0,"fn item as closure trait object ""index out of bounds"""
+110,2017-02-03 19:48:49.000000000,2017-02-04 04:22:03.000000000,closed,0,rustup
+109,2017-02-02 16:59:49.000000000,2017-02-04 04:22:41.000000000,closed,0,add docs for `cargo miri`
+108,2017-01-30 13:20:55.000000000,2017-02-04 04:47:47.000000000,closed,1,implement packed struct field access
+107,2017-01-29 12:22:39.000000000,2017-02-04 04:20:06.000000000,closed,2,TyCtxt's map renamed to hir
+106,2017-01-26 14:42:24.000000000,2019-06-09 16:26:26.000000000,closed,16,Document necessary environment variables for use without rustup
+105,2017-01-25 21:57:23.000000000,2018-03-20 05:12:46.000000000,closed,12,upstream to rustc
+104,2017-01-24 17:29:44.000000000,2017-01-29 04:42:55.000000000,closed,4,add cargo-miri subcommand
+103,2017-01-18 17:29:45.000000000,2017-01-29 16:27:29.000000000,closed,2,allow using tuple variant names as function handles
+102,2017-01-14 18:05:42.000000000,2017-01-14 23:59:33.000000000,closed,0,rustup to 2017-01-12
+101,2017-01-12 18:23:03.000000000,2017-01-13 04:05:00.000000000,closed,0,various small fixes
+100,2017-01-12 13:19:37.000000000,2017-01-12 15:35:37.000000000,closed,0,allow the use of tuple struct constructors as functions
+99,2017-01-12 12:46:03.000000000,2017-01-12 13:14:42.000000000,closed,1,various travis cleanups + run miri tests on travis against 4 major targets
+98,2017-01-12 12:32:07.000000000,2017-01-12 12:40:38.000000000,closed,1,rustup (i128)
+97,2016-12-17 06:13:17.000000000,2016-12-17 06:44:40.000000000,closed,6,"Revert ""Revert ""rustup to rustc 1.15.0-dev (ace092f56 2016-12-13)"""""
+96,2016-12-15 17:54:41.000000000,2017-01-12 15:25:57.000000000,closed,13,tuple struct constructors and uninitialized fields
+95,2016-12-15 17:36:58.000000000,2016-12-19 12:54:08.000000000,closed,2,moving of uninitialized memory
+94,2016-12-15 14:16:46.000000000,2016-12-15 14:20:52.000000000,closed,0,"Revert ""rustup to rustc 1.15.0-dev (ace092f56 2016-12-13)"""
+93,2016-12-14 21:07:34.000000000,2016-12-15 14:10:58.000000000,closed,3,rustup to rustc 1.15.0-dev (ace092f56 2016-12-13)
+92,2016-12-08 12:26:49.000000000,2017-01-13 04:05:00.000000000,closed,0,Add tests for untagged unions
+91,2016-12-06 22:25:47.000000000,2016-12-07 14:12:04.000000000,closed,2,rustup and small fixes
+90,2016-12-06 19:45:40.000000000,2017-02-08 13:41:10.000000000,closed,0,immutable static with raw pointer to mutable static makes mutable static immutable
+89,2016-11-27 12:29:13.000000000,2016-11-28 08:09:39.000000000,closed,1,Remove PrimValKind field from PrimVal.
+88,2016-11-19 12:34:09.000000000,2016-11-19 13:10:36.000000000,closed,0,don't freeze globals twice
+87,2016-11-18 16:56:18.000000000,2016-11-19 13:10:02.000000000,closed,0,replace most uses of `usize` with `u64`
+86,2016-11-17 21:26:26.000000000,2016-11-19 11:59:00.000000000,closed,0,abort on huge repeat expressions
+85,2016-11-17 18:57:53.000000000,2016-11-19 11:43:18.000000000,closed,1,deallocate all locals on function exit and transitively freeze constants through pointers
+84,2016-11-17 15:32:12.000000000,2016-11-17 23:40:26.000000000,closed,0,rustup
+83,2016-11-17 15:05:47.000000000,2016-11-19 11:43:18.000000000,closed,0,only the outer most value is frozen in constants
+82,2016-11-17 15:03:31.000000000,2016-11-19 11:59:00.000000000,closed,0,large repeat expressions don't adhere to the execution limit
+81,2016-11-10 23:20:53.000000000,2016-11-17 09:06:24.000000000,closed,5,"ensure that integers cast to pointers will never point at a valid alloc, not even the zst alloc"
+80,2016-11-05 07:02:01.000000000,2016-11-06 14:56:25.000000000,closed,4,Read discriminant as a signed integer.
+79,2016-11-05 06:14:24.000000000,2016-11-06 14:29:14.000000000,closed,3,Box is deallocated before drop impl is run
+78,2016-11-04 21:21:41.000000000,2016-11-06 14:56:25.000000000,closed,1,reading invalid discriminant in derived `PartialOrd` impl
+77,2016-11-04 21:18:33.000000000,2016-11-17 09:06:24.000000000,closed,0,triggering `assume` in a small example that rustc compiles fine
+76,2016-11-04 21:15:44.000000000,2016-11-17 09:06:24.000000000,closed,0,handle small optimized `Option` values
+75,2016-11-04 20:59:23.000000000,2016-11-06 14:29:14.000000000,closed,2,implement more drop stuff
+74,2016-11-03 20:38:21.000000000,2016-11-04 12:26:23.000000000,closed,3,call user defined drop impls
+73,2016-11-03 13:38:54.000000000,2016-11-04 07:55:07.000000000,closed,0,rustup to rustc 1.14.0-nightly (7c69b0d5a 2016-11-01)
+72,2016-11-02 02:26:46.000000000,2016-11-02 02:59:24.000000000,closed,3,rustup to rustc 1.14.0-nightly (3f4408347 2016-10-27)
+71,2016-11-01 04:05:06.000000000,2016-11-02 02:59:24.000000000,closed,0,Update miri for the latest nightly
+70,2016-10-31 20:38:03.000000000,2016-11-01 04:02:06.000000000,closed,0,README.md: Fix logging environment variable name
+69,2016-10-21 17:50:08.000000000,2016-10-21 21:06:19.000000000,closed,0,don't force allocations for most casts
+68,2016-10-20 12:05:01.000000000,2016-10-21 14:08:20.000000000,closed,2,priroda requirements + static impl
+67,2016-09-30 12:54:35.000000000,2016-10-04 03:40:02.000000000,closed,0,fix multi field enum variants and some intrinsics + rustup
+66,2016-09-29 18:53:22.000000000,2017-02-04 14:04:49.000000000,closed,1,handle packed structs
+65,2016-09-28 20:23:50.000000000,2016-09-28 21:53:40.000000000,closed,0,small fixes
+64,2016-09-27 19:03:06.000000000,2016-09-27 23:11:39.000000000,closed,4,Bugfixes
+63,2016-09-26 21:01:58.000000000,2016-09-27 23:11:40.000000000,closed,0,Match on char panics
+62,2016-09-26 20:28:41.000000000,2016-09-27 23:11:39.000000000,closed,5,Eval error with Rc
+61,2016-09-26 13:38:15.000000000,2016-11-19 13:10:02.000000000,closed,0,check all uses of `usize` and `isize` in miri
+60,2016-09-23 17:49:36.000000000,2016-09-27 12:46:57.000000000,closed,1,some more cleanups getting rid of intermediate allocations and bad fat ptr assumptions
+59,2016-09-22 15:03:57.000000000,2016-09-24 04:07:02.000000000,closed,4,enable A<Struct> -> A<Trait> downcasting where `A<Trait>` is a fat pointer
+58,2016-09-21 18:02:16.000000000,2016-09-21 18:16:08.000000000,closed,0,only split the Fn* arguments in case of closures and function pointers
+57,2016-09-20 16:17:16.000000000,2016-09-21 17:29:08.000000000,closed,1,fix enum down casting and backtrace panics
+56,2016-09-15 18:15:39.000000000,2016-09-16 12:36:09.000000000,closed,0,various things that allow miri to crash less and execute more code
+55,2016-09-15 18:06:47.000000000,1970-01-01 00:00:00.000000001,open,46,running miri on rustc's test suite (run-pass)
+54,2016-09-13 15:09:33.000000000,2016-09-14 05:21:20.000000000,closed,1,Clippy and `assume` intrinsic implementation
+53,2016-09-10 17:18:18.000000000,2016-09-11 13:17:58.000000000,closed,4,Detect modifications of immutable memory
+52,2016-09-09 17:45:06.000000000,2016-09-11 04:18:13.000000000,closed,1,Vtable
+51,2016-09-08 15:06:27.000000000,2016-09-11 13:17:58.000000000,closed,0,Forbid modification of constant memory and vtables
+50,2016-09-07 20:37:38.000000000,2016-09-08 13:12:36.000000000,closed,6,implement more casts
+49,2016-09-07 18:48:57.000000000,2017-06-02 08:54:13.000000000,closed,5,use `StorageLive` and `StorageDead` to allocate/deallocate stack memory
+48,2016-09-07 14:49:09.000000000,2016-09-07 15:03:17.000000000,closed,0,change the block and stmt position after a function call returns
+47,2016-09-06 18:18:49.000000000,2016-09-07 12:53:34.000000000,closed,0,replace all `unreachable!` and `panic!` calls with `bug!`
+46,2016-09-06 18:05:11.000000000,2016-09-07 12:16:46.000000000,closed,1,rustup to rustc 1.13.0-nightly (91f057de3 2016-09-04)
+45,2016-08-17 10:34:59.000000000,2016-09-11 13:18:57.000000000,closed,0,Implement trait object vtables.
+44,2016-07-07 15:20:27.000000000,2016-07-26 03:24:15.000000000,closed,6,Alignment
+43,2016-07-05 15:24:41.000000000,2016-07-07 13:35:03.000000000,closed,4,"limit stack size, memory size and execution time"
+42,2016-07-05 11:28:29.000000000,2016-07-07 12:27:03.000000000,closed,0,implement floats by running the ops on the host architecture
+41,2016-06-30 18:42:53.000000000,2016-07-02 02:39:47.000000000,closed,2,optimize all ZST allocations into one single allocation
+40,2016-06-29 19:20:01.000000000,2016-06-30 13:40:43.000000000,closed,2,things priroda needs to be public or changed
+39,2016-06-29 19:08:40.000000000,2016-06-29 22:35:42.000000000,closed,0,use the item path printer that prints user friendly textual paths
+38,2016-06-28 17:07:14.000000000,2016-06-28 22:30:18.000000000,closed,0,don't execute the first statement of a constant/static/promoted right away
+37,2016-06-24 03:52:11.000000000,2016-07-07 13:35:03.000000000,closed,1,Add configurable resource limits
+36,2016-06-23 17:46:31.000000000,2016-06-26 01:00:53.000000000,closed,1,Use target byte order instead of host byteorder
+35,2016-06-22 13:36:37.000000000,2016-07-07 12:27:03.000000000,closed,1,Support floating point types f32 and f64
+34,2016-06-21 18:25:37.000000000,2016-06-23 12:22:54.000000000,closed,3,use ty::layout::Size and ty::layout::TargetDataLayout
+33,2016-06-21 12:07:23.000000000,2017-01-28 16:07:07.000000000,closed,11,"add checks to the `transmute` intrinsic to only allow ""safe"" transmutes"
+32,2016-06-20 21:20:06.000000000,2016-09-07 12:53:33.000000000,closed,0,Use rustc's compiler error macros.
+31,2016-06-20 14:35:20.000000000,2016-06-21 11:55:38.000000000,closed,5,implement char handling
+30,2016-06-19 10:26:50.000000000,2016-06-21 11:55:38.000000000,closed,0,Implement the char primitive type.
+29,2016-06-19 10:23:32.000000000,2016-07-26 03:25:17.000000000,closed,0,`Memory` should use the target data layout information from rustc 
+28,2016-06-17 17:23:36.000000000,2016-06-20 21:20:54.000000000,closed,7,cleanup overflow binop code
+27,2016-06-15 18:03:07.000000000,2016-06-16 23:03:41.000000000,closed,4,create a miri-pass test that allows us to run miri for arbitrary targets
+26,2016-06-15 07:49:34.000000000,2016-09-11 13:18:38.000000000,closed,0,Implement the rest of the possible casts
+25,2016-06-15 07:19:02.000000000,2017-02-24 17:14:05.000000000,closed,3,Handle recursive field drop and user-defined destructors
+24,2016-06-14 12:35:33.000000000,2016-06-15 15:05:50.000000000,closed,1,Typesafe fn calls
+23,2016-06-14 12:05:21.000000000,2016-06-15 15:04:26.000000000,closed,6,"don't use `#[miri_run]` anymore, but execute the `main` function"
+22,2016-06-14 09:32:58.000000000,2016-06-15 15:05:50.000000000,closed,3,Function pointers need to be checked against their original types
+21,2016-06-10 20:10:02.000000000,2016-06-13 22:19:53.000000000,closed,3,Function pointers
+20,2016-06-10 13:04:52.000000000,2016-06-10 19:54:22.000000000,closed,4,various fixes and refactorings
+19,2016-06-07 17:07:28.000000000,2016-07-02 02:39:47.000000000,closed,7,optimize zst to not require an actual allocation
+18,2016-06-01 20:57:16.000000000,2016-06-10 07:13:20.000000000,closed,23,Hold the state
+17,2016-06-01 20:22:36.000000000,1970-01-01 00:00:00.000000001,open,5,fast mode and tracing mode
+16,2016-06-01 19:29:43.000000000,2016-06-01 20:48:27.000000000,closed,4,use the `log` crate + `env_logger`
+15,2016-05-31 14:11:10.000000000,2016-06-01 17:44:18.000000000,closed,2,4 byte pointers + tests
+14,2016-05-30 16:27:17.000000000,2016-06-17 12:03:33.000000000,closed,6,debugging/stepping
+13,2016-05-30 16:10:33.000000000,2016-05-30 23:01:11.000000000,closed,2,benchmarks
+12,2016-05-14 09:16:14.000000000,2016-05-14 09:18:19.000000000,closed,2,fix tuple example in slides
+11,2016-05-01 02:06:20.000000000,1970-01-01 00:00:00.000000001,open,14,Consider using libffi to allow for external calls
+10,2016-04-29 08:01:49.000000000,2016-04-29 21:48:00.000000000,closed,5,Fixed some clippy warnings
+9,2016-04-22 16:41:03.000000000,2016-04-22 23:54:26.000000000,closed,2,various testing improvements
+8,2016-04-22 14:56:09.000000000,2016-05-09 05:52:37.000000000,closed,2,slice indexing broken
+7,2016-04-22 12:35:13.000000000,2016-04-22 12:46:34.000000000,closed,1,use compiletest_rs
+6,2016-04-16 20:46:17.000000000,2016-04-23 01:48:22.000000000,closed,6,Rustfmt some code (WIP)
+5,2016-04-15 18:52:12.000000000,2016-04-15 23:54:22.000000000,closed,0,Fix travis stuff
+4,2016-04-15 02:34:41.000000000,2016-04-15 03:39:21.000000000,closed,2,There's no mir in My Mir
+3,2016-04-14 14:38:07.000000000,2016-04-15 12:33:40.000000000,closed,3,Run Tests on Travis
+2,2016-04-14 02:16:24.000000000,2016-04-14 14:03:53.000000000,closed,6,Update to Rust Nightly 2016-04-11
+1,2016-02-10 21:30:00.000000000,2016-04-12 19:30:58.000000000,closed,11,Allow `box` allocations

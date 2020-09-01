@@ -1,0 +1,994 @@
+id,created_at,closed_at,state,comments,title
+1000,2020-08-28 21:00:41.000000000,1970-01-01 00:00:00.000000001,open,2,Payload type errors on bootstrapper
+999,2020-08-26 15:38:20.000000000,1970-01-01 00:00:00.000000001,open,4,Proposal: Closable Transport
+998,2020-08-25 23:19:40.000000000,2020-08-25 23:32:04.000000000,closed,0,chore: update go-multiaddr
+997,2020-08-25 15:06:51.000000000,2020-08-26 06:55:44.000000000,closed,0,How to get net.Conn's RemoteAddr() with go-libp2p
+996,2020-08-23 20:21:03.000000000,2020-08-24 19:41:09.000000000,closed,8,IPNS over pubsub loses resolve after 24 hours
+995,2020-08-19 22:04:52.000000000,2020-08-19 22:14:42.000000000,closed,1,fix tests
+994,2020-08-19 09:10:29.000000000,2020-08-19 10:54:42.000000000,closed,0,chore: update deps
+993,2020-08-17 16:52:55.000000000,2020-08-19 09:10:56.000000000,closed,1,chore: update go-multiaddr
+992,2020-08-17 15:45:46.000000000,1970-01-01 00:00:00.000000001,open,3,host.Close() or cancelling context does not terminate listeners
+991,2020-08-17 07:47:00.000000000,1970-01-01 00:00:00.000000001,open,0,Unspecified initial firing of event.EvtLocalAddressesUpdated
+990,2020-08-11 17:08:17.000000000,2020-08-20 20:55:51.000000000,closed,1,Added parsing of IPv6 addresses for incoming mDNS requests
+989,2020-08-04 13:24:04.000000000,2020-08-04 13:27:07.000000000,closed,1,function call loop between AutoNAT and basic host
+988,2020-08-03 21:43:27.000000000,2020-08-03 22:33:22.000000000,closed,0,Bump Autonat version & validate fixed call loop in `.Addrs`
+987,2020-08-03 21:31:51.000000000,2020-08-03 21:51:00.000000000,closed,0,fix: use the correct external address when NAT port-mapping
+986,2020-07-30 15:53:12.000000000,2020-07-30 16:03:23.000000000,closed,0,upgrade go-libp2p-circuit to v0.3.1.
+985,2020-07-30 13:35:16.000000000,2020-07-30 15:42:58.000000000,closed,0,upgrade deps + interoperable uvarint delimited writer/reader.
+984,2020-07-24 21:25:52.000000000,1970-01-01 00:00:00.000000001,open,0,Automatic publishing of observable addresses in small networks
+983,2020-07-23 11:47:45.000000000,2020-07-25 01:57:25.000000000,closed,1,"fix host can be dialed by autonat public addr, but lost the public addr to announce"
+982,2020-07-17 21:42:58.000000000,1970-01-01 00:00:00.000000001,open,0,Run tests on go-libp2p-examples for release branches
+981,2020-07-15 21:02:49.000000000,2020-08-28 20:46:08.000000000,closed,3,Problem with kademlia dht
+979,2020-07-14 19:59:38.000000000,1970-01-01 00:00:00.000000001,open,0,Deprecating the DHT Public Key namespace
+978,2020-07-11 19:34:25.000000000,2020-07-30 20:40:55.000000000,closed,1,Logging issue in go-libp2p
+977,2020-07-07 01:58:32.000000000,1970-01-01 00:00:00.000000001,open,1,Identify Push does not emit eventbus events
+976,2020-07-03 00:08:52.000000000,1970-01-01 00:00:00.000000001,open,4,Use newer PeerID as CID representation
+975,2020-07-02 20:30:47.000000000,2020-07-02 23:18:05.000000000,closed,5,PeerID Encoding/Decoding is inconsistent with specs
+974,2020-07-02 09:07:28.000000000,2020-07-08 03:41:46.000000000,closed,0,Fix address advertisement bugs
+973,2020-07-02 09:02:18.000000000,1970-01-01 00:00:00.000000001,open,5,Libp2p fails to determine default route on FreeBSD
+972,2020-06-25 01:22:39.000000000,2020-08-19 22:23:35.000000000,closed,15,Switch from SECIO to Noise
+971,2020-06-23 03:35:16.000000000,2020-06-23 21:22:00.000000000,closed,0,fix: avoid a close deadlock in the natmanager
+970,2020-06-16 22:39:39.000000000,2020-06-16 22:45:29.000000000,closed,0,upgrade core + swarm; add ID() on mock conns and streams.
+969,2020-06-15 12:10:34.000000000,1970-01-01 00:00:00.000000001,open,6,fix-AutoRelay-background
+968,2020-06-10 10:06:47.000000000,1970-01-01 00:00:00.000000001,open,1,failed to dial ID: all dials failed or no good addresses between Linux
+967,2020-06-10 02:38:56.000000000,2020-06-10 02:59:43.000000000,closed,0,chore: update deps
+966,2020-06-10 02:30:02.000000000,2020-06-10 03:05:57.000000000,closed,0,fix(nat): use the right addresses when nat port mapping
+965,2020-06-05 21:07:07.000000000,2020-06-05 21:45:04.000000000,closed,0,Fix peer handler race
+964,2020-06-05 19:00:52.000000000,1970-01-01 00:00:00.000000001,open,1,experimental introspection support -- Project Phantom Drift PoC
+963,2020-06-04 18:27:53.000000000,2020-06-05 21:41:18.000000000,closed,3,Fix peer handler panic bug caused by connection races
+962,2020-06-04 15:44:18.000000000,2020-06-04 20:46:02.000000000,closed,0,update go-libp2p-circuit
+961,2020-06-04 15:15:41.000000000,2020-06-24 00:18:52.000000000,closed,2,"Panic, seems that peerHandler is nil"
+960,2020-06-04 07:46:48.000000000,2020-06-05 02:08:02.000000000,closed,2,optimize numInbound count
+959,2020-06-03 23:46:06.000000000,2020-06-04 00:22:47.000000000,closed,0,gomod: update dependencies
+958,2020-06-02 17:37:58.000000000,2020-06-04 03:11:54.000000000,closed,2,Chunking large Identify responses with Signed Records
+957,2020-06-02 01:50:51.000000000,2020-08-19 22:23:35.000000000,closed,0,Support noise by default
+956,2020-05-29 18:20:25.000000000,2020-05-29 18:25:05.000000000,closed,0,Fixed compilation error due to net.Notify
+955,2020-05-29 15:20:23.000000000,2020-06-04 03:12:38.000000000,closed,2,Upgrade identify protocols with smaller size for Signed records
+954,2020-05-28 08:58:16.000000000,2020-06-24 00:19:17.000000000,closed,6,Identify message too big
+953,2020-05-28 03:24:54.000000000,2020-05-28 06:14:34.000000000,closed,0,fix: remove old addresses in identify immediately
+952,2020-05-21 10:02:47.000000000,2020-05-21 10:32:30.000000000,closed,1,Fix flaky TestIdentifyPushOnAddrChange
+951,2020-05-21 08:26:48.000000000,1970-01-01 00:00:00.000000001,open,0,Remove Connection Gater from transport constructors that take an Upgrader
+950,2020-05-20 23:13:18.000000000,2020-05-21 10:32:51.000000000,closed,3,Flaky TestIdentifyPushOnAddrChange
+949,2020-05-20 22:53:23.000000000,2020-05-21 02:32:58.000000000,closed,2,fix: group observations by zeroing port
+948,2020-05-20 22:09:31.000000000,2020-05-20 22:23:34.000000000,closed,0,fix: fix connection gater in transport constructor
+947,2020-05-20 15:26:33.000000000,1970-01-01 00:00:00.000000001,open,1,Tracking issue: libp2p introspection support (proof-of-concept)
+946,2020-05-20 14:31:01.000000000,2020-05-20 19:27:32.000000000,closed,0,make the {F=>f}iltersConnectionGater private.
+945,2020-05-20 13:41:10.000000000,2020-05-20 21:28:38.000000000,closed,0,Fix potential flakiness in TestIDService
+944,2020-05-20 09:29:19.000000000,2020-05-21 08:12:54.000000000,closed,2,TestIDService is flaky
+943,2020-05-20 05:11:44.000000000,2020-05-20 05:37:41.000000000,closed,0,fix: don't try to marshal a nil record
+942,2020-05-20 00:38:44.000000000,2020-05-20 00:51:20.000000000,closed,0,fix: don't leak a goroutine if a peer connects and immediately disconnects
+941,2020-05-19 22:22:50.000000000,2020-05-20 05:10:58.000000000,closed,1,add test to demo missing peer records after listen
+940,2020-05-19 21:18:09.000000000,2020-05-19 21:19:01.000000000,closed,1,identify error: latest peer record does not exist
+939,2020-05-19 21:17:13.000000000,2020-05-20 05:37:41.000000000,closed,4,Panic with signed peer records in go-lib2p v0.9.0
+938,2020-05-19 16:27:04.000000000,1970-01-01 00:00:00.000000001,open,0,TestObsAddrSet is flaky
+937,2020-05-19 16:06:57.000000000,2020-05-19 16:23:27.000000000,closed,0,release v0.9.0: upgrade dependencies.
+936,2020-05-18 16:16:12.000000000,2020-05-29 18:16:59.000000000,closed,6,Filter Interface Addresses
+935,2020-05-18 15:21:45.000000000,2020-05-19 16:27:00.000000000,closed,1,build(deps): bump github.com/libp2p/go-libp2p-core from 0.5.5 to 0.5.6
+934,2020-05-18 12:16:16.000000000,2020-05-19 11:46:55.000000000,closed,1,Disable generation of Signed peer record for Mockenets
+933,2020-05-17 03:23:26.000000000,2020-06-23 21:22:00.000000000,closed,3,Deadlock on host.Close()
+932,2020-05-17 01:41:59.000000000,2020-05-19 16:31:47.000000000,closed,4,Upgrading only patch version breaks build
+931,2020-05-15 20:59:45.000000000,2020-05-19 16:02:36.000000000,closed,2,Connection gating: adapt QUIC transport
+930,2020-05-15 20:39:39.000000000,1970-01-01 00:00:00.000000001,open,0,Connection gating: default gater implementations
+929,2020-05-15 17:27:39.000000000,2020-05-19 16:28:15.000000000,closed,1,Flaky tests on master
+928,2020-05-15 15:19:57.000000000,2020-05-15 20:13:03.000000000,closed,1,build(deps): bump github.com/libp2p/go-maddr-filter from 0.0.5 to 0.1.0
+927,2020-05-15 15:19:30.000000000,2020-05-15 20:13:03.000000000,closed,1,build(deps): bump github.com/libp2p/go-libp2p-core from 0.5.3 to 0.5.5
+926,2020-05-15 15:19:05.000000000,2020-05-15 20:13:03.000000000,closed,1,build(deps): bump github.com/multiformats/go-multiaddr from 0.2.1 to 0.2.2
+925,2020-05-15 00:17:20.000000000,1970-01-01 00:00:00.000000001,open,0,Dialback Protocol
+924,2020-05-14 15:22:40.000000000,2020-05-15 15:19:33.000000000,closed,1,build(deps): bump github.com/libp2p/go-libp2p-core from 0.5.3 to 0.5.4
+923,2020-05-14 15:22:14.000000000,2020-05-15 20:13:02.000000000,closed,1,build(deps): bump github.com/libp2p/go-libp2p-peerstore from 0.2.3 to 0.2.4
+922,2020-05-13 06:56:43.000000000,2020-05-14 15:54:11.000000000,closed,2,various identify fixes and nits
+921,2020-05-12 18:49:39.000000000,2020-05-12 20:24:42.000000000,closed,1,Fix compilation
+920,2020-05-12 16:43:51.000000000,1970-01-01 00:00:00.000000001,open,0,migrate to CircleCI
+919,2020-05-12 16:17:03.000000000,2020-05-12 20:24:59.000000000,closed,2,fix a compilation error introduced in 077a818.
+918,2020-05-12 15:19:19.000000000,2020-05-13 09:24:16.000000000,closed,1,build(deps): bump github.com/libp2p/go-libp2p-blankhost from 0.1.4 to 0.1.6
+917,2020-05-12 14:50:05.000000000,2020-05-20 10:09:46.000000000,closed,1,Filter observed addresses
+916,2020-05-11 19:49:36.000000000,2020-05-12 16:39:43.000000000,closed,4,Connectivity issues
+915,2020-05-11 15:24:47.000000000,2020-05-12 15:19:23.000000000,closed,1,build(deps): bump github.com/libp2p/go-libp2p-blankhost from 0.1.4 to 0.1.5
+914,2020-05-10 17:09:32.000000000,2020-05-13 05:31:11.000000000,closed,2,fix: SignedPeerRecord now expects pointer to envelope
+913,2020-05-07 21:18:44.000000000,1970-01-01 00:00:00.000000001,open,0,Set a maximum address record size of 4KiB in 5h3 peerstore (generate/consume)
+912,2020-05-07 21:16:24.000000000,1970-01-01 00:00:00.000000001,open,0,Trim address sets (in the peerstore itself) with more than 10 addresses per transport
+911,2020-05-07 21:06:12.000000000,2020-05-29 18:25:32.000000000,closed,8,Filter advertised interface addresses
+910,2020-05-07 20:58:52.000000000,2020-05-20 13:02:45.000000000,closed,3,Filter advertised observed addresses
+909,2020-05-07 10:02:45.000000000,2020-05-07 10:53:06.000000000,closed,1,Update id.go
+908,2020-05-05 21:38:48.000000000,1970-01-01 00:00:00.000000001,open,2,Remove deprecated Warning/Warningf log calls
+907,2020-05-04 10:34:52.000000000,2020-05-13 09:20:38.000000000,closed,5,"Remove race between ID, Push & Delta"
+906,2020-04-30 15:22:52.000000000,2020-05-15 20:13:02.000000000,closed,1,build(deps): bump github.com/multiformats/go-multiaddr-net from 0.1.4 to 0.1.5
+905,2020-04-30 15:22:30.000000000,2020-05-13 09:24:20.000000000,closed,1,build(deps): bump github.com/libp2p/go-libp2p-core from 0.5.2 to 0.5.3
+904,2020-04-30 15:22:25.000000000,2020-05-15 20:13:01.000000000,closed,1,build(deps): bump github.com/libp2p/go-libp2p-autonat from 0.2.2 to 0.2.3
+903,2020-04-30 09:19:53.000000000,2020-06-24 00:22:11.000000000,closed,5,"Pipelined identify protocol ""negotiation"""
+902,2020-04-28 06:30:03.000000000,2020-04-28 06:49:46.000000000,closed,3,Data race in limiter.go 
+901,2020-04-27 15:27:50.000000000,2020-04-28 06:45:24.000000000,closed,0,build(deps): bump github.com/libp2p/go-libp2p-circuit from 0.2.1 to 0.2.2
+900,2020-04-27 02:41:46.000000000,1970-01-01 00:00:00.000000001,open,0,Merge AutoNAT with the ObservedAddressManager
+899,2020-04-25 09:58:33.000000000,2020-04-25 10:58:02.000000000,closed,0,fix: keep observed addrs alive as long as their associated connections are alive
+898,2020-04-25 05:46:32.000000000,2020-04-25 07:08:25.000000000,closed,2,fix: refactor logic for identifying connections
+897,2020-04-24 12:12:59.000000000,1970-01-01 00:00:00.000000001,open,0,Premarshal signed addresses records for self 
+896,2020-04-23 15:22:44.000000000,2020-04-28 06:45:32.000000000,closed,0,build(deps): bump github.com/libp2p/go-libp2p-discovery from 0.3.0 to 0.4.0
+895,2020-04-23 15:22:15.000000000,2020-04-28 06:45:43.000000000,closed,0,build(deps): bump github.com/libp2p/go-ws-transport from 0.3.0 to 0.3.1
+894,2020-04-23 11:48:02.000000000,1970-01-01 00:00:00.000000001,open,1,mdns doesn't working on windows
+893,2020-04-22 15:21:01.000000000,2020-04-28 06:46:14.000000000,closed,0,build(deps): bump github.com/libp2p/go-stream-muxer-multistream from 0.2.0 to 0.3.0
+892,2020-04-22 15:20:38.000000000,2020-04-28 06:45:52.000000000,closed,0,build(deps): bump github.com/libp2p/go-conn-security-multistream from 0.1.0 to 0.2.0
+891,2020-04-21 21:21:32.000000000,2020-04-21 21:39:27.000000000,closed,0,build(deps): bump github.com/ipfs/go-log from 1.0.3 to 1.0.4
+890,2020-04-20 14:40:17.000000000,1970-01-01 00:00:00.000000001,open,0,Re-enable write coalescing in yamux and mplex
+889,2020-04-17 22:31:57.000000000,2020-04-17 22:55:37.000000000,closed,0,fix: reduce log level of a noisy log line
+888,2020-04-17 06:26:02.000000000,2020-04-17 07:02:59.000000000,closed,0,[discovery] missing defer .Stop on ticker
+887,2020-04-15 00:38:46.000000000,2020-04-15 00:55:03.000000000,closed,2,deprioritize unspecified addresses in mock connections
+886,2020-04-14 14:20:52.000000000,2020-04-14 20:12:31.000000000,closed,5,Swarm is producing a connection with remote IP the unspecified IPv6 address
+885,2020-04-14 16:22:56.000000000,2020-06-05 15:50:09.000000000,closed,2,introspection support: implement host.IntrospectableHost and wire up the introspector
+884,2020-04-13 22:16:29.000000000,2020-04-13 22:37:52.000000000,closed,0,feat: support TLS by default
+883,2020-04-13 10:38:30.000000000,1970-01-01 00:00:00.000000001,open,5,Peer Blacklisting
+882,2020-04-10 23:20:52.000000000,2020-04-13 21:45:42.000000000,closed,0,Expose option for setting autonat throttling
+881,2020-04-09 20:35:46.000000000,2020-05-15 20:31:03.000000000,closed,0,implement connection gating at the top level
+880,2020-04-09 15:20:24.000000000,2020-04-09 20:16:51.000000000,closed,0,build(deps): bump github.com/libp2p/go-libp2p-autonat from 0.2.1 to 0.2.2
+879,2020-04-09 10:08:45.000000000,2020-06-24 00:21:50.000000000,closed,1,Libp2p does not recover due to dial backoff and context deadline exceeded
+878,2020-04-07 23:34:59.000000000,2020-04-09 20:28:21.000000000,closed,3,Clearer naming of nat override options
+877,2020-04-07 15:43:33.000000000,2020-04-09 20:36:15.000000000,closed,1,Connection Gating in a libp2p node
+876,2020-04-07 15:20:38.000000000,2020-04-28 06:46:38.000000000,closed,0,build(deps): bump github.com/libp2p/go-libp2p-peerstore from 0.2.2 to 0.2.3
+875,2020-04-07 13:15:59.000000000,1970-01-01 00:00:00.000000001,open,4,make the swarm implementation configurable.
+874,2020-04-07 12:05:02.000000000,2020-04-09 20:28:21.000000000,closed,1,Rename WithReachability option
+873,2020-04-06 20:29:58.000000000,1970-01-01 00:00:00.000000001,open,2,Stateless events on the bus
+872,2020-04-06 17:32:12.000000000,2020-05-19 16:27:15.000000000,closed,14,Connection Gating
+871,2020-04-06 15:22:04.000000000,2020-04-07 04:55:52.000000000,closed,0,build(deps): bump github.com/stretchr/testify from 1.4.0 to 1.5.1
+870,2020-04-05 19:46:46.000000000,2020-04-06 02:13:49.000000000,closed,8,ConnManager should be able to create connections
+869,2020-04-03 10:02:41.000000000,2020-04-03 10:19:32.000000000,closed,2,chore: update deps again
+868,2020-04-03 07:53:51.000000000,1970-01-01 00:00:00.000000001,open,0,Run the transport test suite
+867,2020-04-03 03:44:14.000000000,2020-04-03 04:10:25.000000000,closed,2,disable write coalescing
+866,2020-04-02 13:31:33.000000000,1970-01-01 00:00:00.000000001,open,4,"Staticcheck Should Be Considered For ""All"" Repository CI Processes"
+865,2020-04-01 16:49:38.000000000,2020-04-06 10:04:46.000000000,closed,3,Remove goprocess from Host
+864,2020-04-01 11:00:13.000000000,1970-01-01 00:00:00.000000001,open,1,Emit Peer Protocol updated when Identify completes
+863,2020-04-01 05:30:06.000000000,1970-01-01 00:00:00.000000001,open,5,EvtLocalAddressesUpdated event is difficult to use correctly
+862,2020-03-31 20:50:13.000000000,2020-04-06 10:32:38.000000000,closed,3,Racy use of goprocess in host constructor
+861,2020-03-30 15:20:24.000000000,2020-03-31 00:48:49.000000000,closed,0,build(deps): bump github.com/libp2p/go-libp2p-peerstore from 0.2.1 to 0.2.2
+860,2020-03-30 11:40:17.000000000,1970-01-01 00:00:00.000000001,open,3,Fire `EvtPeerProtocolsUpdated` when identify completes.
+859,2020-03-27 15:21:36.000000000,2020-03-27 20:54:29.000000000,closed,0,build(deps): bump github.com/libp2p/go-libp2p-yamux from 0.2.5 to 0.2.6
+858,2020-03-27 04:11:50.000000000,2020-05-13 04:25:49.000000000,closed,19,Sudden stall at 100% CPU
+857,2020-03-27 01:08:06.000000000,1970-01-01 00:00:00.000000001,open,0,Submit libp2p to oss-fuzz
+856,2020-03-25 23:13:30.000000000,2020-03-25 23:28:24.000000000,closed,0,chore: update deps
+855,2020-03-25 15:21:18.000000000,2020-03-25 22:37:08.000000000,closed,0,build(deps): bump github.com/ipfs/go-log from 1.0.2 to 1.0.3
+854,2020-03-25 04:00:20.000000000,1970-01-01 00:00:00.000000001,open,3,Flaky TestLocalhostAddrFiltering
+853,2020-03-25 03:49:43.000000000,2020-03-25 03:59:01.000000000,closed,1,fix: set the private key when constructing the autonat service
+852,2020-03-24 23:03:52.000000000,1970-01-01 00:00:00.000000001,open,1,Per-request event bus
+851,2020-03-24 22:40:59.000000000,2020-03-25 01:29:22.000000000,closed,0,Signal address change
+850,2020-03-24 01:30:14.000000000,2020-03-24 01:39:24.000000000,closed,0,fix multiple issues in the mock tests
+849,2020-03-23 03:03:32.000000000,2020-03-23 03:18:14.000000000,closed,0,fix: minimal autonat dialer
+848,2020-03-20 19:47:20.000000000,2020-03-25 09:37:05.000000000,closed,0,Change CheckForAddressChanges to SignalAddressChange
+847,2020-03-19 17:36:12.000000000,2020-03-20 17:24:02.000000000,closed,0,Local addr updated event
+846,2020-03-19 08:32:13.000000000,2020-03-19 08:36:38.000000000,closed,0,chore: update yamux
+845,2020-03-18 05:27:10.000000000,2020-04-11 00:34:20.000000000,closed,2,Clarify subsystem configuration structure
+844,2020-03-18 01:51:32.000000000,1970-01-01 00:00:00.000000001,open,0,TestLocalhostAddrFilteirng failed
+843,2020-03-17 15:18:57.000000000,2020-03-18 01:49:57.000000000,closed,0,build(deps): bump github.com/libp2p/go-libp2p-yamux from 0.2.2 to 0.2.4
+842,2020-03-16 15:22:58.000000000,2020-03-16 22:17:14.000000000,closed,1,build(deps): bump github.com/libp2p/go-libp2p-yamux from 0.2.2 to 0.2.3
+841,2020-03-14 02:59:31.000000000,2020-04-06 06:05:46.000000000,closed,12,Address filtering is semi-broken
+840,2020-03-13 17:10:06.000000000,1970-01-01 00:00:00.000000001,open,0,Pass the eventbus to the Swarm constructor
+839,2020-03-13 09:22:20.000000000,1970-01-01 00:00:00.000000001,open,0,Stress Test
+838,2020-03-11 15:18:40.000000000,2020-03-11 20:27:15.000000000,closed,0,build(deps): bump github.com/multiformats/go-multiaddr-net from 0.1.2 to 0.1.3
+837,2020-03-10 22:51:49.000000000,1970-01-01 00:00:00.000000001,open,0,EventBus subscribe/emit options are inconvenient to use
+836,2020-03-10 04:17:13.000000000,2020-03-10 04:31:31.000000000,closed,1,feat(mock): reliable notifications
+835,2020-03-09 18:42:17.000000000,2020-03-09 19:02:15.000000000,closed,0,doc(options): fix autorelay documentation
+834,2020-03-09 15:20:46.000000000,2020-03-09 18:18:26.000000000,closed,0,build(deps): bump github.com/libp2p/go-libp2p-peerstore from 0.1.4 to 0.2.0
+833,2020-03-09 15:20:14.000000000,2020-03-09 18:41:57.000000000,closed,2,build(deps): bump github.com/libp2p/go-libp2p-mplex from 0.2.1 to 0.2.2
+832,2020-03-09 15:19:46.000000000,2020-03-09 18:19:11.000000000,closed,0,build(deps): bump github.com/libp2p/go-libp2p-yamux from 0.2.1 to 0.2.2
+831,2020-03-07 03:17:28.000000000,1970-01-01 00:00:00.000000001,open,0,Clock / Mock time
+830,2020-03-06 16:18:49.000000000,2020-03-07 11:59:22.000000000,closed,1,build(deps): bump github.com/libp2p/go-libp2p-core from 0.3.1 to 0.4.0
+829,2020-03-04 16:31:43.000000000,1970-01-01 00:00:00.000000001,open,6,Proposal: Round 2 of repo consolidation
+828,2020-03-04 02:30:31.000000000,2020-03-04 02:43:09.000000000,closed,1,Javascript version of ParsePubKey
+827,2020-03-03 19:58:42.000000000,2020-03-07 11:53:14.000000000,closed,0,docs: Update the README
+826,2020-03-03 19:37:00.000000000,2020-03-03 22:40:35.000000000,closed,0,docs: uniform comment sentences
+825,2020-03-03 15:35:52.000000000,2020-03-04 07:23:09.000000000,closed,6,Address is not right when using 0.0.0.0 in windows 10
+824,2020-03-03 11:24:49.000000000,1970-01-01 00:00:00.000000001,open,2,Measure and address network churn
+823,2020-03-03 07:42:06.000000000,2020-05-19 16:33:50.000000000,closed,7,The Identify/push/delta protocols are async and racy
+822,2020-03-03 05:21:55.000000000,2020-03-03 05:37:26.000000000,closed,2,fix(identify): aggregate protocol updates in the background instead of blocking
+821,2020-03-03 05:02:26.000000000,2020-03-03 05:38:40.000000000,closed,1,Identify delta blocks
+820,2020-03-03 04:52:28.000000000,2020-03-07 11:52:42.000000000,closed,0,fix: remove an unnecessary goroutine
+819,2020-03-03 04:49:57.000000000,1970-01-01 00:00:00.000000001,open,0,We should emit protocol change events whenever we change the protocols
+818,2020-03-02 18:24:52.000000000,1970-01-01 00:00:00.000000001,open,0,[DHT] Don't add peers to the routing table who falsely advertise the DHT protocol
+817,2020-03-02 16:21:19.000000000,2020-03-07 11:59:34.000000000,closed,0,build(deps): bump github.com/multiformats/go-multiaddr from 0.2.0 to 0.2.1
+816,2020-03-02 05:27:13.000000000,1970-01-01 00:00:00.000000001,open,2,Recursive dialing can block
+815,2020-02-28 21:29:42.000000000,2020-03-07 06:07:10.000000000,closed,0,Use of mux.ErrReset in mocknet
+814,2020-02-28 20:53:34.000000000,2020-03-07 06:16:58.000000000,closed,1,Respect mux.ErrReset in all Multiplexer implementations.
+813,2020-02-28 16:46:55.000000000,2020-03-13 17:10:57.000000000,closed,7,Emit EvtPeerConnectednessChanged on the eventbus
+812,2020-02-28 12:51:58.000000000,2020-04-03 01:19:22.000000000,closed,1,[Kbucket] Cache the transformed peerId
+811,2020-02-28 10:52:30.000000000,1970-01-01 00:00:00.000000001,open,0,AutoRelay should be constructable via a Discoverer
+810,2020-02-28 10:44:28.000000000,2020-03-07 11:51:54.000000000,closed,1,EnableAutoRelay should work without ContentRouting if there are StaticRelays defined
+809,2020-02-28 00:36:52.000000000,1970-01-01 00:00:00.000000001,open,1,[AutoNAT client] Refactor how we manage AutoNAT server addresses
+808,2020-02-27 22:17:10.000000000,1970-01-01 00:00:00.000000001,open,0,[Kbucket] Better address management for candidate peers
+807,2020-02-27 08:41:35.000000000,2020-03-21 03:53:18.000000000,closed,2,Trigger Autorelay on NAT events
+806,2020-02-27 04:31:51.000000000,1970-01-01 00:00:00.000000001,open,0,Autorelay should listen to AutoNat events rather than polling
+805,2020-02-26 21:41:20.000000000,2020-02-28 05:06:00.000000000,closed,7,Docs on pkg.go are from 2018 (and docs for other packages are also out of date)
+804,2020-02-26 20:00:20.000000000,1970-01-01 00:00:00.000000001,open,0,Model address provenance and expose in peerstore
+803,2020-02-26 04:23:46.000000000,2020-05-10 23:05:17.000000000,closed,6,Private & Public DHTs
+802,2020-02-25 18:32:11.000000000,1970-01-01 00:00:00.000000001,open,0,[Peerstore] Event driven peerstore
+801,2020-02-25 18:11:03.000000000,1970-01-01 00:00:00.000000001,open,0,Migrate Swarm notifications to the Eventbus
+800,2020-02-25 17:44:52.000000000,1970-01-01 00:00:00.000000001,open,2,[Peerstore] Pin/Unpin interface for peerstore
+799,2020-02-21 22:44:08.000000000,1970-01-01 00:00:00.000000001,open,0,Reconsider filtering localhost addresses in identify
+798,2020-02-20 22:01:15.000000000,1970-01-01 00:00:00.000000001,open,0,[DHT] Support accelerated lookups to reduce the number of dials we need to perform for a lookup
+797,2020-02-20 21:58:52.000000000,1970-01-01 00:00:00.000000001,open,4,[DHT] Prefer low latency peers to reduce query times
+796,2020-02-20 10:26:38.000000000,2020-03-07 11:58:48.000000000,closed,0,"change PrivateNetwork to accept a PSK, update constructor magic"
+795,2020-02-19 08:20:16.000000000,2020-03-10 06:57:09.000000000,closed,8,use private network key instead of protector interface as a libp2p.Option
+794,2020-02-12 10:34:34.000000000,2020-02-12 14:38:36.000000000,closed,0,Make routed host introspectable
+793,2020-02-11 14:13:17.000000000,1970-01-01 00:00:00.000000001,open,0,"Model ""address scopes"" in signed peer records"
+792,2020-02-10 22:16:55.000000000,2020-05-20 21:18:20.000000000,closed,2,(Long-lived branch): Introspection capability for go-libp2p
+791,2020-02-10 21:05:25.000000000,2020-06-05 19:26:32.000000000,closed,1,introspection: reformulate host options.
+790,2020-02-10 21:02:23.000000000,2020-06-05 19:26:21.000000000,closed,1,Introspection: constructor options and BasicHost capabilities
+789,2020-02-07 17:02:41.000000000,1970-01-01 00:00:00.000000001,open,2,The Autonat manager should test the public IP with the tcp/udp listen ports
+788,2020-02-06 16:19:18.000000000,2020-02-06 20:36:47.000000000,closed,0,build(deps): bump github.com/multiformats/go-multiaddr-net from 0.1.1 to 0.1.2
+787,2020-02-05 20:14:47.000000000,2020-02-05 23:05:38.000000000,closed,1,chore(ci): fix a flaky test
+786,2020-02-05 16:20:23.000000000,2020-02-05 20:24:23.000000000,closed,0,build(deps): bump github.com/ipfs/go-cid from 0.0.4 to 0.0.5
+785,2020-02-05 16:19:59.000000000,2020-02-05 18:46:43.000000000,closed,0,build(deps): bump github.com/multiformats/go-multistream from 0.1.0 to 0.1.1
+784,2020-02-04 21:07:42.000000000,1970-01-01 00:00:00.000000001,open,2,FindPeer Design Review
+783,2020-01-31 23:30:14.000000000,2020-02-27 21:39:41.000000000,closed,2,Network forming for DHT testing
+782,2020-01-27 19:52:56.000000000,1970-01-01 00:00:00.000000001,open,1,Don’t add NAT’d peers to the Routing Table
+781,2020-01-24 21:26:13.000000000,1970-01-01 00:00:00.000000001,open,1,Improve Dialing
+780,2020-01-24 21:23:33.000000000,2020-03-10 19:56:02.000000000,closed,4,Multiple DHTs
+779,2020-01-24 21:14:22.000000000,2020-04-07 10:36:43.000000000,closed,20,Ensure DHT clients remain discoverable
+778,2020-01-24 20:51:18.000000000,2020-03-02 18:27:10.000000000,closed,8,Don’t join DHT when behind a NAT
+777,2020-01-24 20:31:39.000000000,1970-01-01 00:00:00.000000001,open,2,Reliable AutoNat
+776,2020-01-23 20:46:00.000000000,2020-05-20 20:04:45.000000000,closed,2,Signed Peer Records
+775,2020-01-23 16:18:13.000000000,1970-01-01 00:00:00.000000001,open,2,Libp2p introspection
+774,2020-01-22 15:05:55.000000000,2020-02-10 22:14:38.000000000,closed,2,BasicHost changes for introspection
+773,2018-09-25 19:25:56.000000000,1970-01-01 00:00:00.000000001,open,4,DHT should be part of `go-libp2p` instead of `go-ipfs`
+772,2016-03-05 05:53:29.000000000,1970-01-01 00:00:00.000000001,open,1,improve code coverage
+771,2020-01-15 15:47:07.000000000,2020-01-16 06:30:59.000000000,closed,0,enable non-public address port mapping announcement
+770,2020-01-15 00:45:16.000000000,2020-02-21 22:45:27.000000000,closed,1,identify: emit events; filter out loopback addresses
+769,2020-01-13 15:54:19.000000000,2020-01-16 06:30:59.000000000,closed,1,port mapping issue with nat behind nat
+768,2020-01-03 22:16:07.000000000,2020-01-07 20:15:12.000000000,closed,0,fix: demote stream deadline errors to debug logs
+767,2019-12-27 16:20:01.000000000,2019-12-30 16:19:40.000000000,closed,0,Dependabot can't parse your go.mod
+766,2019-12-20 13:23:35.000000000,2019-12-20 19:25:16.000000000,closed,2,l2p什么时候能支持
+765,2019-12-17 17:10:14.000000000,2019-12-17 17:16:54.000000000,closed,0,chore(dep): update go-ws-transport
+764,2019-12-16 19:53:44.000000000,2019-12-16 23:37:26.000000000,closed,0,feat(host): recursively resolve addresses
+763,2019-12-16 16:22:20.000000000,2019-12-17 16:35:35.000000000,closed,0,build(deps): bump github.com/ipfs/go-cid from 0.0.3 to 0.0.4
+762,2019-12-12 16:20:46.000000000,2019-12-17 16:34:13.000000000,closed,0,build(deps): bump github.com/libp2p/go-libp2p-core from 0.2.5 to 0.3.0
+761,2019-12-11 21:37:51.000000000,1970-01-01 00:00:00.000000001,open,7,Design blueprint for signed peer records
+760,2019-12-11 16:35:58.000000000,2019-12-11 18:54:29.000000000,closed,0,build(deps): bump github.com/multiformats/go-multiaddr from 0.1.2 to 0.2.0
+759,2019-12-10 08:18:16.000000000,1970-01-01 00:00:00.000000001,open,1,stream multiplexers don't provide a stream limit
+758,2019-12-07 02:38:58.000000000,2019-12-07 02:47:27.000000000,closed,0,ci: bump go to 1.13
+757,2018-11-15 01:26:21.000000000,1970-01-01 00:00:00.000000001,open,0,Round-trip additional fields in public keys.
+756,2018-03-23 03:01:28.000000000,2019-12-09 01:54:54.000000000,closed,4,Accurate Metrics
+755,2018-10-25 02:29:52.000000000,2020-07-28 14:49:27.000000000,closed,11,Use raw multihashes for providers
+754,2019-12-06 22:42:52.000000000,2019-12-07 01:47:53.000000000,closed,0,build(deps): bump github.com/libp2p/go-libp2p-testing from 0.1.0 to 0.1.1
+753,2019-12-06 22:42:30.000000000,2019-12-07 02:52:58.000000000,closed,0,build(deps): bump github.com/multiformats/go-multiaddr from 0.1.1 to 0.1.2
+752,2019-12-06 22:42:07.000000000,2019-12-07 02:53:11.000000000,closed,0,build(deps): bump github.com/libp2p/go-libp2p-core from 0.2.4 to 0.2.5
+751,2019-12-06 22:41:47.000000000,2019-12-07 07:19:18.000000000,closed,1,build(deps): bump github.com/libp2p/go-libp2p-discovery from 0.1.0 to 0.2.0
+750,2019-04-19 00:18:05.000000000,1970-01-01 00:00:00.000000001,open,3,host.Connect will say it is connected to a peer even when it is not
+749,2019-12-04 00:00:14.000000000,1970-01-01 00:00:00.000000001,open,0,Document how to disable reuseport
+748,2019-11-21 23:37:34.000000000,2019-11-21 23:46:08.000000000,closed,0,update go-libp2p-nat to v0.0.5
+747,2019-11-21 23:10:03.000000000,2020-04-30 09:36:32.000000000,closed,19,exchange signed routing records in identify
+746,2019-11-21 20:52:04.000000000,2019-11-24 03:05:49.000000000,closed,1,Fix #745.
+745,2019-11-21 19:21:14.000000000,2019-11-24 03:13:46.000000000,closed,2,Need to know if a stream handler was set.
+744,2019-11-20 22:32:52.000000000,2019-12-16 23:37:26.000000000,closed,0,Recursive dnsaddr resolution.
+743,2019-11-18 21:38:08.000000000,2019-11-18 22:57:43.000000000,closed,0,small grammar fixes and updates to readme
+742,2019-11-13 02:44:53.000000000,2019-11-13 16:40:57.000000000,closed,0,fix(identify): announce localhost as long as one side of the connection is local
+741,2019-11-12 08:45:02.000000000,2019-11-24 03:06:06.000000000,closed,0,Allow to restrict who can listen on a Relay.
+740,2019-11-05 16:15:03.000000000,2019-11-05 16:35:17.000000000,closed,1,Identify: Make activation threshold configurable
+739,2019-11-05 14:40:57.000000000,2019-11-05 15:52:33.000000000,closed,1,"why i use go mod, but it dosn't work"
+738,2019-11-02 05:25:53.000000000,1970-01-01 00:00:00.000000001,open,0,NewStream should obey the context on protocol negotiation
+736,2019-11-01 19:30:18.000000000,2019-12-07 02:52:43.000000000,closed,3,Upgrade all go-libp2p-* modules to go1.13
+735,2019-10-31 14:55:03.000000000,1970-01-01 00:00:00.000000001,open,0,Added utp transport
+734,2019-10-29 11:07:04.000000000,1970-01-01 00:00:00.000000001,open,0,Fix/remove deprecated logging
+733,2019-10-29 03:44:56.000000000,2019-10-29 05:25:41.000000000,closed,0,chore(dep): update libp2p-core and protobuf
+732,2019-10-25 14:35:07.000000000,1970-01-01 00:00:00.000000001,open,6,Simultaneous connection opening with TCP+TLS
+731,2019-10-06 15:20:56.000000000,2019-10-06 18:02:51.000000000,closed,2,readme: add instructions for bypassing default gomod proxy.
+730,2019-10-05 07:07:08.000000000,2019-10-06 18:02:51.000000000,closed,1,Can't build tutorial from the website
+729,2019-10-02 04:14:43.000000000,2019-10-02 07:12:42.000000000,closed,2,Host.SetStreamHandler before/after Host.Connect has different behavior
+728,2019-09-29 17:05:01.000000000,1970-01-01 00:00:00.000000001,open,6,Does dht.FindProviders() have bug?
+727,2019-09-25 22:32:09.000000000,2019-09-25 22:40:43.000000000,closed,0,dep: update
+726,2019-09-20 21:40:03.000000000,2019-12-07 07:47:52.000000000,closed,1,Add bridged chats
+725,2019-09-19 18:07:15.000000000,2019-11-16 05:59:22.000000000,closed,1,Can we run a bootstrap node Behind a NAT
+724,2019-09-18 23:08:39.000000000,2019-09-20 01:11:50.000000000,closed,0,dep: update go-libp2p-circuit
+723,2019-09-18 01:28:34.000000000,2019-09-20 02:42:36.000000000,closed,8,conn.RemoteMultiaddr returning incomplete multiaddress for relayed connections
+722,2019-09-14 13:35:23.000000000,2019-09-30 19:20:12.000000000,closed,12,Why didn't you provide the method of getting external IP address?
+721,2019-09-12 20:44:41.000000000,2019-09-29 09:53:21.000000000,closed,4,Gossipsub messages not reaching all subscribers to that topic
+720,2019-09-11 02:48:20.000000000,2019-09-13 14:55:33.000000000,closed,0,readme: remove waffle link.
+719,2019-09-11 01:45:10.000000000,2019-09-11 02:46:07.000000000,closed,0,Update link to go-libp2p-tls in README.md
+718,2019-09-06 04:19:29.000000000,1970-01-01 00:00:00.000000001,open,1,Close the peerstore
+717,2019-09-05 03:27:02.000000000,2019-09-05 15:08:16.000000000,closed,2,Add Filters option
+716,2019-09-04 23:19:01.000000000,1970-01-01 00:00:00.000000001,open,2,"If we don't observe an address for 10 minutes, we stop announcing it."
+715,2019-09-03 19:58:47.000000000,1970-01-01 00:00:00.000000001,open,0,Known Memory Leaks
+714,2019-08-28 14:48:54.000000000,1970-01-01 00:00:00.000000001,open,1,Make LibP2PVersion configurable and dedup with UserAgent
+713,2019-08-26 20:33:03.000000000,1970-01-01 00:00:00.000000001,open,1,Use of ActivationThresh should be documented somewhere
+712,2019-08-26 15:43:29.000000000,1970-01-01 00:00:00.000000001,open,3,Implement support for simultaneous open
+711,2019-08-26 15:41:33.000000000,1970-01-01 00:00:00.000000001,open,0,Implement support for simultaneous open
+710,2019-08-25 13:53:52.000000000,2020-05-12 16:01:50.000000000,closed,10,"use TLS by default, secio as a fallback"
+709,2019-08-24 00:13:07.000000000,2019-08-24 19:02:41.000000000,closed,0,dep: upgrade eventbus to v0.1.0
+708,2019-08-21 22:04:01.000000000,2019-08-21 22:20:03.000000000,closed,0,dep: update go-libp2p-swarm
+707,2019-08-21 20:01:14.000000000,1970-01-01 00:00:00.000000001,open,0,Adding utility functions for Discovery interface
+706,2019-08-16 23:35:31.000000000,2019-08-24 18:42:52.000000000,closed,0,use new constructor for insecure transport
+705,2019-08-16 14:01:46.000000000,2020-01-17 18:22:16.000000000,closed,11,options to configure static relays for autorelay
+704,2019-08-15 13:18:41.000000000,2019-08-28 20:04:38.000000000,closed,3,Do basic host have a quantity control for remote-opened connection? 
+703,2019-08-14 09:47:56.000000000,1970-01-01 00:00:00.000000001,open,0,Pass peer private key to insecure transport
+702,2019-08-13 05:49:06.000000000,2019-08-28 20:02:42.000000000,closed,1,better user-agent handling
+701,2019-08-11 07:37:24.000000000,1970-01-01 00:00:00.000000001,open,0,Need a record validator interface that handles equality
+700,2019-08-08 23:48:42.000000000,1970-01-01 00:00:00.000000001,open,2,Protobuf Makefiles should work on Windows
+699,2019-08-06 07:49:30.000000000,1970-01-01 00:00:00.000000001,open,3,Dealing with QUIC version updates
+698,2019-08-06 00:06:37.000000000,2019-08-21 19:36:04.000000000,closed,2,Persistence with PubSub
+697,2019-08-02 23:03:13.000000000,2019-08-03 03:34:51.000000000,closed,3,"Update deps, mocknet tests"
+696,2019-08-02 22:12:30.000000000,2019-08-02 22:28:29.000000000,closed,0,autorelay: ensure candidate relays can hop
+695,2019-08-01 04:56:30.000000000,2019-08-02 22:28:29.000000000,closed,1,AutoRelay should check CanHop before it announces a peer as a relay
+694,2019-07-31 02:40:22.000000000,2020-05-20 20:03:01.000000000,closed,13,95% of DHT find provider requests are trying to find relays
+693,2019-07-26 20:35:49.000000000,2019-09-25 21:01:36.000000000,closed,0,chore: port issue templates from go-ipfs
+692,2019-07-26 14:30:23.000000000,2019-08-01 11:51:53.000000000,closed,7,How to get get the public IP and the external port of a peer when it connected to a bootstrap node
+690,2019-07-25 01:59:44.000000000,2019-07-25 02:20:05.000000000,closed,2,What are the real use cases can we try to solve with libp2p?
+689,2019-07-25 01:57:35.000000000,2019-07-25 02:19:53.000000000,closed,1,How can we share the files between the peer nodes?
+688,2019-07-23 08:09:00.000000000,1970-01-01 00:00:00.000000001,open,5,QUIC's roadmap to stable
+687,2019-07-23 04:38:53.000000000,1970-01-01 00:00:00.000000001,open,0,Steal NAT traversal/mapping code from syncthing
+686,2019-07-22 06:24:27.000000000,2019-07-22 15:36:03.000000000,closed,2,[identify/delta] protocol change has race condition
+685,2019-07-22 04:42:51.000000000,2019-07-22 16:46:15.000000000,closed,0,Avoid unnecessary conversions
+684,2019-07-22 04:41:35.000000000,2019-07-22 16:45:38.000000000,closed,0,Simplify increments
+683,2019-07-22 04:40:13.000000000,2019-07-22 16:46:46.000000000,closed,1,Added missing error check in test
+682,2019-07-22 04:39:14.000000000,2019-07-22 16:45:03.000000000,closed,0,Removed ineffectual assignments
+681,2019-07-22 04:36:27.000000000,2019-07-22 16:44:48.000000000,closed,0,Make use of time.Until & time.Since
+680,2019-07-22 04:34:45.000000000,2019-07-22 16:44:25.000000000,closed,0,Fixed typos
+679,2019-07-14 23:01:18.000000000,2019-07-15 05:21:47.000000000,closed,2,WIP - Provide private key to insecure.New()
+678,2019-07-14 13:22:33.000000000,2019-07-15 04:34:13.000000000,closed,4,"Seems private key is needed when creating a new transport, whereas the `insecure.New` function lacks that as an argument.."
+677,2019-07-12 19:51:41.000000000,1970-01-01 00:00:00.000000001,open,0,Revamp go-libp2p Release Flow
+676,2019-07-12 17:18:29.000000000,1970-01-01 00:00:00.000000001,open,21,Proposal: consolidating issue tracking from 50+ repos to top-level repo
+674,2019-07-10 17:54:36.000000000,2019-07-12 15:52:15.000000000,closed,0,Fix racy and failing test cases
+673,2019-07-10 16:58:21.000000000,1970-01-01 00:00:00.000000001,open,0,mocknet should allow host customization via options
+672,2019-07-05 04:55:25.000000000,2019-07-12 15:52:15.000000000,closed,0,TestStreamStress doesn't wait for the test to finish
+671,2019-07-05 04:53:58.000000000,2019-07-12 15:52:15.000000000,closed,0,TestStreamStress failing with race detector
+670,2019-07-05 04:53:05.000000000,1970-01-01 00:00:00.000000001,open,0,Notification tests are broken due to identify push
+669,2019-07-04 23:42:50.000000000,2019-07-05 03:52:46.000000000,closed,1,fix: use the goprocess for closing
+668,2019-07-04 21:38:02.000000000,2019-07-05 03:52:45.000000000,closed,0,[Regression] libp2p host cannot be closed more than once (panic)
+667,2019-07-02 23:27:18.000000000,2019-07-23 02:42:40.000000000,closed,1,mdns: always use interface addresses
+666,2019-06-30 17:20:31.000000000,1970-01-01 00:00:00.000000001,open,5,Reconsider local network timeout
+665,2019-06-28 19:53:58.000000000,2020-06-05 20:39:04.000000000,closed,0,identify: cache the encoded public key
+664,2019-06-28 12:54:15.000000000,1970-01-01 00:00:00.000000001,open,5,"if we already have a peers key, don't bother checking identify for it"
+663,2019-06-27 00:52:26.000000000,2019-06-27 13:50:53.000000000,closed,1,cannot make
+661,2019-06-26 18:11:40.000000000,2019-06-27 16:14:36.000000000,closed,0,update package table after -core refactor
+660,2019-06-26 17:53:06.000000000,2019-06-26 20:58:59.000000000,closed,0,identify: emit events on completion/failure.
+659,2019-06-19 19:57:43.000000000,2019-06-24 17:44:48.000000000,closed,21,"integrate the event bus, handle protocol update events, make identify emit deltas"
+658,2019-06-15 16:52:24.000000000,2019-07-12 03:01:09.000000000,closed,1,mdns browser (lookup)
+657,2019-06-14 00:18:27.000000000,2019-06-25 20:45:23.000000000,closed,10,identify: Update addr advertise logic to exclude localhost addrs selectively
+656,2019-06-13 22:15:46.000000000,2019-06-14 00:23:51.000000000,closed,0,basic_host: ensure we close correctly when the context is canceled
+655,2019-06-08 02:43:09.000000000,2019-06-12 12:10:42.000000000,closed,0,Add go-libp2p-gostream and go-libp2p-http to readme
+654,2019-06-01 07:37:07.000000000,2019-06-01 07:45:10.000000000,closed,0,fix: update to non-coalescing yamux
+653,2019-05-31 17:08:44.000000000,1970-01-01 00:00:00.000000001,open,31,RFC: Local event bus
+652,2019-05-31 00:33:56.000000000,2019-06-06 10:08:36.000000000,closed,2,Figure out why MDNS is announcing port 4001
+651,2019-05-30 13:07:58.000000000,1970-01-01 00:00:00.000000001,open,4,Support Direct Connection Upgrade through Relay
+650,2019-05-25 07:10:07.000000000,2019-05-25 07:55:59.000000000,closed,1,go get go-libp2p
+649,2019-05-25 03:40:55.000000000,2019-05-27 17:38:16.000000000,closed,3,NOTICE: Refactor in progress — refrain from updating dependencies
+648,2019-05-25 03:35:06.000000000,2019-05-25 04:11:40.000000000,closed,4,Consolidate abstractions and core types into go-libp2p-core (#28)
+647,2019-05-25 00:34:58.000000000,2019-05-25 07:51:24.000000000,closed,5,"go get -u fails with go 1.12.5, win64"
+646,2019-05-24 10:32:33.000000000,1970-01-01 00:00:00.000000001,open,8,Keyspace/Kbucket packages
+645,2019-05-23 15:22:51.000000000,2019-06-12 12:38:02.000000000,closed,3,make: dep: Command not found make: *** [Makefile:8: deps] Error 127
+644,2019-05-23 04:32:37.000000000,2019-12-07 03:27:21.000000000,closed,4,Write coalescing breaks against buggy secio 
+643,2019-05-22 23:18:04.000000000,2019-07-02 23:27:40.000000000,closed,5,Dial backoff
+642,2019-05-22 06:51:22.000000000,2019-05-22 07:22:23.000000000,closed,1,dep: import go-smux-* into the libp2p org
+641,2019-05-22 03:35:38.000000000,2019-05-22 04:12:10.000000000,closed,0,dep: update go-smux-*
+640,2019-05-22 03:26:35.000000000,2019-05-22 07:22:23.000000000,closed,3,libp2p cannot build
+639,2019-05-21 15:04:31.000000000,2019-05-21 15:15:11.000000000,closed,1,Close the connection manager
+638,2019-05-17 23:21:42.000000000,1970-01-01 00:00:00.000000001,open,15,[WIP] Self dialing
+637,2019-05-17 23:09:42.000000000,2019-05-17 23:17:08.000000000,closed,0,Frequent Relay Advertisements
+636,2019-05-17 14:54:52.000000000,2019-05-17 14:57:11.000000000,closed,1,version name
+635,2019-05-17 04:58:53.000000000,1970-01-01 00:00:00.000000001,open,1,Resource Manager proposal
+634,2019-05-15 12:01:43.000000000,1970-01-01 00:00:00.000000001,open,5,Multiple connection pruning
+633,2019-05-11 21:08:24.000000000,2020-04-20 14:36:41.000000000,closed,2,Write coalescing
+632,2019-05-10 02:18:48.000000000,2019-05-10 02:21:56.000000000,closed,0,dep: update goprocess
+631,2019-05-09 16:29:26.000000000,2019-05-16 18:34:14.000000000,closed,5,[Contest] libp2p+noise: Win a Data Terra Nemo’19 conference ticket!
+630,2019-05-09 12:34:22.000000000,1970-01-01 00:00:00.000000001,open,3,identify push needs to only send updated information
+629,2019-05-09 01:38:57.000000000,2019-05-09 01:51:00.000000000,closed,0,"dep: update multihash, multiaddr, and peer"
+628,2019-05-08 19:34:14.000000000,1970-01-01 00:00:00.000000001,open,5,Release process for go-libp2p and modules
+627,2019-05-08 02:54:07.000000000,2019-05-08 03:31:13.000000000,closed,0,test: disable flaky autorelay test in CI
+626,2019-05-08 02:48:53.000000000,2019-05-09 01:01:02.000000000,closed,2,ping: return a stream of results
+625,2019-05-07 23:10:44.000000000,2019-05-08 02:17:26.000000000,closed,3,dep: update goprocess
+624,2019-05-07 22:34:38.000000000,2019-05-07 22:58:22.000000000,closed,0,Use cancelable background context in identify
+623,2019-05-07 02:41:32.000000000,1970-01-01 00:00:00.000000001,open,8,Implement new MDNS spec
+622,2019-05-03 23:31:09.000000000,2019-05-04 00:03:13.000000000,closed,0,gomod: update go-libp2p-crypto
+621,2019-05-03 15:52:53.000000000,1970-01-01 00:00:00.000000001,open,2,Continuous integration and nightly builds
+620,2019-05-02 21:00:17.000000000,2020-06-05 21:57:57.000000000,closed,1,As a developer I can filter/blacklist peers
+619,2019-05-02 20:35:25.000000000,2019-05-02 20:38:32.000000000,closed,0,gomod: update go-libp2p-circuit
+618,2019-05-01 00:02:19.000000000,1970-01-01 00:00:00.000000001,open,2,Alias in commonly used types
+617,2019-04-30 23:15:21.000000000,1970-01-01 00:00:00.000000001,open,6,Memoize listen addresses
+616,2019-04-30 20:06:14.000000000,2019-04-30 20:08:43.000000000,closed,0,update go-multistream
+615,2019-04-28 23:45:32.000000000,2019-04-28 23:48:45.000000000,closed,0,dep: update peerstore and secio
+614,2019-04-28 11:39:21.000000000,2019-04-28 11:44:44.000000000,closed,0,gomod: update go-libp2p-peerstore
+613,2019-04-26 14:25:19.000000000,2019-04-26 14:28:53.000000000,closed,1,add a peer to relays list if it has relay-hop tag
+612,2019-04-26 14:23:01.000000000,2020-06-12 21:28:51.000000000,closed,10,Proposal: auto-add relay peer on connection
+611,2019-04-26 12:40:56.000000000,2019-04-26 12:48:20.000000000,closed,0,update upgraders to maybe fix a concurrent connection write issue
+610,2019-04-25 21:13:51.000000000,2019-04-25 21:16:59.000000000,closed,0,"gomod: update go-libp2p-swarm, go-libp2p-peerstore"
+609,2019-04-22 21:27:26.000000000,2019-04-22 21:51:54.000000000,closed,0,avoid intermediate allocation in relayAddrs
+608,2019-04-22 20:50:07.000000000,2019-04-22 21:04:19.000000000,closed,1,cache relayAddrs for a short period of time
+607,2019-04-22 20:46:40.000000000,2019-04-22 21:01:57.000000000,closed,0,dep: update secio
+606,2019-04-21 01:24:18.000000000,2019-04-22 20:20:17.000000000,closed,0,autorelay: break findRelays into multiple functions and avoid the goto
+605,2019-04-19 17:21:17.000000000,1970-01-01 00:00:00.000000001,open,8,Proposal: introducing sqlite as a datastore
+604,2019-04-18 05:05:27.000000000,2019-04-18 21:32:37.000000000,closed,0,chore: improve nil option tests
+603,2019-04-18 03:32:26.000000000,2019-04-18 04:12:35.000000000,closed,0,constructor: allow nil options
+602,2019-04-17 00:46:10.000000000,2019-05-27 17:39:22.000000000,closed,13,Consolidate libp2p abstractions and core types
+601,2019-04-17 00:10:33.000000000,2019-05-27 01:55:47.000000000,closed,0,Consolidate abstractions and core types into go-libp2p-core
+600,2019-04-16 11:47:04.000000000,2019-04-16 11:50:46.000000000,closed,0,gomod: update go-libp2p-discovery
+599,2019-04-15 15:17:31.000000000,2019-04-16 22:15:32.000000000,closed,7,Replace peer addresses in identify
+598,2019-04-13 23:37:24.000000000,2019-04-21 00:46:21.000000000,closed,14,autorelay: curtail addrsplosion
+597,2019-04-13 15:02:43.000000000,2019-04-19 21:07:38.000000000,closed,12,Periodically schedule identify push if the address set has changed
+596,2019-04-12 21:59:47.000000000,2019-04-12 22:03:50.000000000,closed,0,gomod: update go-libp2p-peerstore
+595,2019-04-12 21:29:51.000000000,2019-04-12 21:31:25.000000000,closed,0,dep: update go-libp2p-nat again
+594,2019-04-12 11:52:04.000000000,2019-04-12 11:55:28.000000000,closed,0,gomod: update go-libp2p-circuit
+593,2019-04-12 09:14:06.000000000,2019-04-12 09:47:14.000000000,closed,1,dep: update go-libp2p-nat
+592,2019-04-12 09:03:29.000000000,2019-04-12 09:05:44.000000000,closed,2,AutoRelay is too aggressive
+591,2019-04-11 18:33:37.000000000,2019-04-11 21:38:12.000000000,closed,0,Deprecate gx in readme & link to workspace repo
+590,2019-04-11 00:13:29.000000000,2019-04-11 00:17:28.000000000,closed,1,Respect nodial option in routed host
+589,2019-04-10 23:31:04.000000000,2019-04-12 00:59:50.000000000,closed,18,Remove gx support from builds
+588,2019-04-10 12:17:19.000000000,2019-04-12 08:58:07.000000000,closed,4,which go-libp2p version should I use for go 1.10.3
+587,2019-04-10 11:41:43.000000000,2019-04-10 11:44:17.000000000,closed,0,update go-libp2p-autonat
+586,2019-04-09 22:52:10.000000000,2019-04-09 22:53:44.000000000,closed,0,fix panic in observed address activation check
+585,2019-04-09 14:21:35.000000000,2019-04-09 21:41:25.000000000,closed,1,Improve observed address handling
+584,2019-04-09 06:19:59.000000000,2019-04-09 21:41:25.000000000,closed,2,Address observations should be dropped when overloaded
+583,2019-04-09 06:13:09.000000000,2019-04-09 11:47:25.000000000,closed,1,identify: avoid parsing/printing multiaddrs
+582,2019-04-09 03:08:53.000000000,2019-04-09 05:39:10.000000000,closed,1,move things outside of the lock in obsaddr
+581,2019-04-08 20:06:14.000000000,2019-04-08 20:10:04.000000000,closed,0,gomod: update go-libp2p-circuit
+580,2019-04-06 01:36:37.000000000,2019-04-06 01:41:59.000000000,closed,0,Fix broken link in README.md
+579,2019-04-06 01:25:42.000000000,2019-04-16 22:15:32.000000000,closed,4,Identify should _replace_ addresses
+578,2019-04-06 01:18:53.000000000,2019-04-06 19:53:38.000000000,closed,3,relay: turn autorelay into a service and always filter out relay addresses
+577,2019-04-06 01:14:43.000000000,2019-04-08 21:20:10.000000000,closed,1,identify: be more careful about the addresses we store
+576,2019-04-06 01:10:05.000000000,2019-04-06 19:36:32.000000000,closed,0,chore: fail in the libp2p constructor if we fail to store the key
+575,2019-04-06 00:28:46.000000000,1970-01-01 00:00:00.000000001,open,3,Relay Swarm
+574,2019-04-05 22:06:07.000000000,2019-04-06 00:47:16.000000000,closed,3,identify: only store _reported_ multiaddrs
+573,2019-04-05 12:54:08.000000000,2019-04-06 07:50:42.000000000,closed,1,Upgrader security handshake exception
+572,2019-04-04 11:47:30.000000000,2019-04-04 11:51:13.000000000,closed,0,dep: update transports
+571,2019-04-04 00:35:52.000000000,2019-04-04 11:48:15.000000000,closed,0,Link to docs & discuss in readme
+570,2019-04-03 13:04:23.000000000,2019-04-04 11:22:08.000000000,closed,2,Reduce autorelay boot delay and correctly handle private->public transition
+569,2019-03-28 13:29:58.000000000,2019-04-01 14:19:26.000000000,closed,1,how to build my  rendez-vous server
+568,2019-03-28 06:20:29.000000000,2019-03-28 11:55:13.000000000,closed,0,reduce nat error level
+567,2019-03-28 05:24:29.000000000,2019-03-30 13:36:55.000000000,closed,4,the PeerInfo got from FindPeers has EMPTY Addrs.
+566,2019-03-27 22:25:47.000000000,2019-06-30 09:37:03.000000000,closed,2,Is it possible to broadcast messages(anonymously)?
+565,2019-03-21 01:50:19.000000000,2019-03-25 21:59:08.000000000,closed,0,Drop GX Support
+564,2019-03-19 21:33:18.000000000,1970-01-01 00:00:00.000000001,open,0,Swarm.InterfaceListenAddresses returns an error when we're not listening on anything
+563,2019-03-18 16:29:47.000000000,2019-03-18 17:44:00.000000000,closed,1,relay: simplify declaration of multiaddr var
+562,2019-03-15 18:52:01.000000000,2019-03-15 20:42:49.000000000,closed,0,Remove jenkins column from package table
+561,2019-03-14 07:05:00.000000000,2019-03-15 22:14:21.000000000,closed,0,Fix UDP listen on a Unspecified Address and Dial from the Unspecified Address
+560,2019-03-12 16:13:55.000000000,2019-04-26 23:26:36.000000000,closed,7,How to disable transport reuse?
+559,2019-03-09 00:39:36.000000000,2020-04-29 19:10:00.000000000,closed,1,Use AutoNAT even if AutoRelay is disabled
+558,2019-03-08 23:59:41.000000000,2019-03-09 23:47:39.000000000,closed,1,identify: open stream via host
+557,2019-03-07 18:20:57.000000000,2019-03-07 18:21:08.000000000,closed,0,gx publish 6.0.41
+556,2019-03-07 16:51:54.000000000,2019-03-07 16:55:23.000000000,closed,0,update go-smux-yamux dependency
+555,2019-03-07 08:23:20.000000000,2019-03-07 09:20:19.000000000,closed,0,Fix typos in p2p/net/README.md
+554,2019-03-07 05:07:47.000000000,1970-01-01 00:00:00.000000001,open,1,Update install instructions to use go mod
+553,2019-03-07 04:57:42.000000000,1970-01-01 00:00:00.000000001,open,0,Trigger identify push when NAT addresses change.
+552,2019-03-07 02:08:01.000000000,2019-03-07 05:08:16.000000000,closed,4,broken changes in /libp2p/go-libp2p/p2p/host/basic/
+551,2019-03-06 23:54:50.000000000,2019-03-06 23:55:53.000000000,closed,1,dep: update autonat
+550,2019-03-06 16:39:50.000000000,2019-03-06 16:43:37.000000000,closed,0,gx publish 6.0.40
+549,2019-03-06 11:44:03.000000000,2019-03-07 04:59:28.000000000,closed,1,better nat mapping
+548,2019-03-05 08:08:03.000000000,2019-03-05 08:41:56.000000000,closed,2,Question: How to understand number of currently connected peers?
+547,2019-03-04 15:42:25.000000000,2019-03-05 07:28:54.000000000,closed,3,Does observed addrs really useful in the case of symmetric nat?
+546,2019-03-02 05:24:32.000000000,2019-03-07 00:02:39.000000000,closed,3,Data race related to AutoRelay/AutoNAT
+545,2019-03-02 05:13:58.000000000,2019-03-02 05:26:03.000000000,closed,1,add gomod support // tag v0.0.1.
+544,2019-02-28 01:02:48.000000000,2019-02-28 01:41:13.000000000,closed,0,gx: updates for go-ipfs 0.4.19-rc2
+543,2019-02-27 01:23:42.000000000,2019-02-27 01:32:13.000000000,closed,0,gx: update go-multiaddr
+542,2019-02-26 22:05:13.000000000,2019-02-26 22:56:46.000000000,closed,0,gx: update go-libp2p-peer
+541,2019-02-21 09:33:10.000000000,2019-02-21 09:49:42.000000000,closed,0,gx: update go-cid
+540,2019-02-20 04:24:19.000000000,1970-01-01 00:00:00.000000001,open,2,Reduce package sprawl
+539,2019-02-15 09:36:04.000000000,2019-02-16 06:43:12.000000000,closed,1,Resolve addrs with P2P instead of IPFS
+538,2019-02-15 03:28:32.000000000,2019-09-27 13:27:35.000000000,closed,9,AutoNAT discovery time is unexpectedly long
+537,2019-02-15 01:49:57.000000000,2020-06-19 21:52:41.000000000,closed,2,Too many routing addresses?
+536,2019-02-14 23:39:24.000000000,2019-02-14 23:40:28.000000000,closed,1,gx publish 6.0.33
+535,2019-02-14 23:20:37.000000000,2019-02-14 23:26:00.000000000,closed,0,Fixed race conditions in mock package mock_stream and mock_conn
+534,2019-02-14 22:28:03.000000000,2019-02-14 23:01:08.000000000,closed,0,increase initial relay advertisement delay to 30s
+533,2019-02-14 17:00:51.000000000,2019-02-15 11:40:24.000000000,closed,3,Race condition in mock_conn 
+532,2019-02-12 23:05:29.000000000,2019-02-12 23:06:58.000000000,closed,0,gx publish 6.0.32
+531,2019-02-12 13:57:01.000000000,2019-02-12 23:01:46.000000000,closed,2,Use PeerRouting in autorelay to find relay peer addresses
+530,2019-02-08 05:06:35.000000000,2019-02-08 06:10:19.000000000,closed,0,gx update go-libp2p-peer
+529,2019-02-06 15:14:16.000000000,1970-01-01 00:00:00.000000001,open,8,build chat-with-rendezvous by gomobile
+528,2019-02-01 22:25:16.000000000,1970-01-01 00:00:00.000000001,open,2,More Thorough Autorelay Tests
+527,2019-01-30 12:08:45.000000000,2019-02-11 22:09:31.000000000,closed,5,question about NAT
+526,2019-01-29 16:19:26.000000000,1970-01-01 00:00:00.000000001,open,2,System-wide configuration tree
+525,2019-01-25 05:45:23.000000000,2019-02-11 22:10:17.000000000,closed,1,Make dialer limits configurable
+524,2019-01-24 04:12:28.000000000,1970-01-01 00:00:00.000000001,open,8,Import naming convention
+523,2019-01-23 15:17:06.000000000,1970-01-01 00:00:00.000000001,open,2,Select relays based on latency
+522,2019-01-20 15:20:18.000000000,1970-01-01 00:00:00.000000001,open,18,Metrics instrumentation
+521,2019-01-16 09:52:22.000000000,2019-01-23 05:19:46.000000000,closed,1,questions about chat-with-rendezvous 
+520,2019-01-14 07:58:01.000000000,1970-01-01 00:00:00.000000001,open,7,Updating usage docs for relay/autorelay
+519,2019-01-12 08:49:24.000000000,1970-01-01 00:00:00.000000001,open,8,I use quic transmission，but sometimes quic will close all network connections.
+518,2019-01-10 22:24:13.000000000,1970-01-01 00:00:00.000000001,open,8,Option to force autorelay without probing autonat
+517,2019-01-10 12:56:25.000000000,2019-01-10 13:02:58.000000000,closed,0,docs: update broken links in NEWS.md
+516,2019-01-06 11:16:43.000000000,2019-01-07 05:53:47.000000000,closed,0,how to create my own bootstrap peer?
+515,2019-01-04 09:13:40.000000000,2019-01-04 09:28:35.000000000,closed,2,Use go-libp2p and  all it's packages without gx
+514,2019-01-03 13:55:52.000000000,2019-01-06 11:26:09.000000000,closed,2,does libp2p have gossiping related feature?
+513,2018-12-31 01:39:58.000000000,2019-08-05 17:36:34.000000000,closed,4,mdns: Grab lock on service entry before reading it
+512,2018-12-21 18:44:12.000000000,2018-12-21 19:00:13.000000000,closed,0,autorelay.go uses undefined functions
+511,2018-12-21 14:20:07.000000000,2018-12-22 00:47:35.000000000,closed,2,don't advertise the raw public address in autorelay
+510,2018-12-21 04:32:51.000000000,2018-12-22 00:47:35.000000000,closed,12,Autorelay is announcing a bare-IP multiaddr
+509,2018-12-20 22:50:29.000000000,1970-01-01 00:00:00.000000001,open,0,Avoid dialing unspecified relay addresses
+508,2018-12-19 20:41:55.000000000,2018-12-19 21:43:57.000000000,closed,10,Cannot build v6.0.29 (go-libp2p/p2p/host/relay)
+507,2018-12-19 10:16:32.000000000,2018-12-19 10:28:04.000000000,closed,0,mock: export ratelimiter as RateLimiter
+506,2018-12-19 04:04:57.000000000,2018-12-19 06:47:12.000000000,closed,1,readme: remove duplicate repo entries in README and package-list.json
+505,2018-12-19 01:05:01.000000000,2018-12-19 02:06:59.000000000,closed,7,Setting up connections with ED25519 keys much slower than it used to be
+504,2018-12-19 00:15:25.000000000,2018-12-19 00:25:40.000000000,closed,2,gx publish 6.0.29
+503,2018-12-12 04:22:11.000000000,1970-01-01 00:00:00.000000001,open,8,go-libp2p Q1 2019 OKRs
+502,2018-12-10 15:12:00.000000000,2019-01-23 05:26:25.000000000,closed,1,Question : Does libp2p limit the number of connections a peer can have given that nodes discovered via DHT random walks are unbounded ?
+501,2018-12-06 11:55:13.000000000,1970-01-01 00:00:00.000000001,open,7,Question: Routing enabled based on protocol?
+500,2018-12-04 15:11:09.000000000,2018-12-05 20:36:48.000000000,closed,0,explicit option to enable autorelay
+499,2018-12-04 06:33:58.000000000,2018-12-04 22:29:24.000000000,closed,1,Which peer serves a request if multiple peers have the content ?
+498,2018-11-30 16:28:50.000000000,2018-12-04 03:40:04.000000000,closed,1,suppressing error msg for NoSecurity option
+497,2018-11-30 16:17:21.000000000,2018-11-30 16:18:09.000000000,closed,1,Merge pull request #3 from libp2p/master
+496,2018-11-30 09:25:54.000000000,2020-06-05 19:41:40.000000000,closed,7,"use TLS as default security, and secio as a fallback"
+495,2018-11-29 15:26:07.000000000,2018-12-05 20:36:17.000000000,closed,1,Add delay in initial relay advertisement to allow the dht time to bootstrap
+494,2018-11-28 06:41:54.000000000,2018-11-28 07:28:44.000000000,closed,0,fix contributing link in README
+493,2018-11-27 09:23:10.000000000,2018-12-08 03:48:45.000000000,closed,6,ERROR net/identi: did not have own public key in Peerstore
+492,2018-11-24 12:13:32.000000000,1970-01-01 00:00:00.000000001,open,7,question: how can I use customized privKey and pubKey generation and signing scheme?
+491,2018-11-23 21:23:33.000000000,2018-12-05 13:58:14.000000000,closed,13,Question: Arbitrary number of Peers per Host ... possible?
+490,2018-11-21 12:22:34.000000000,1970-01-01 00:00:00.000000001,open,11,[WIP] UDP-based NAT hole-punching
+489,2018-11-21 05:00:05.000000000,1970-01-01 00:00:00.000000001,open,0,Security argument for SECIO?
+488,2018-11-20 12:05:07.000000000,2018-11-24 12:10:48.000000000,closed,2,question: how to create fake multiaddr without `/ipfs` info?
+487,2018-11-19 15:30:38.000000000,2018-11-20 13:48:15.000000000,closed,6,How do I test autorelay?
+486,2018-11-18 03:04:13.000000000,2018-11-21 01:07:05.000000000,closed,3,Problems writing to peer outputs conditionally
+485,2018-11-16 17:16:37.000000000,2018-11-16 17:16:48.000000000,closed,0,Fix badges and links on README.md
+484,2018-11-15 01:24:10.000000000,1970-01-01 00:00:00.000000001,open,4,Somehow combine go-libp2p-crypto and go-libp2p-peer
+483,2018-11-13 15:53:48.000000000,2018-11-13 22:11:57.000000000,closed,1,go-libp2p example make deps not work
+482,2018-11-12 15:35:44.000000000,2018-11-21 05:20:46.000000000,closed,7,Build failure after `gx-go link go-libp2p`
+481,2018-11-11 00:07:29.000000000,2018-11-11 00:32:10.000000000,closed,1,gx publish 6.0.27
+480,2018-11-09 00:10:00.000000000,2018-11-09 22:26:17.000000000,closed,0,mocknet: fix NewStream and self dials
+479,2018-11-08 23:54:35.000000000,2018-11-09 22:25:52.000000000,closed,0,deflake identify test
+478,2018-11-08 23:26:48.000000000,2018-11-09 22:25:52.000000000,closed,1,Identify test failure
+477,2018-11-08 23:15:53.000000000,1970-01-01 00:00:00.000000001,open,4,Autorelay test is flaky
+476,2018-11-08 04:42:45.000000000,2018-11-08 23:49:20.000000000,closed,0,mocknet: use peer ID in peer address
+475,2018-11-08 03:34:31.000000000,1970-01-01 00:00:00.000000001,open,10,Improved Connection Manager
+474,2018-11-07 15:59:43.000000000,2018-11-08 06:38:43.000000000,closed,3,how to hold a connection for a long time
+473,2018-11-06 02:33:45.000000000,2018-11-08 23:49:20.000000000,closed,2,net/mock index out of range panic
+472,2018-11-06 00:32:08.000000000,1970-01-01 00:00:00.000000001,open,0,Interface refactors once auto-relay PR merged
+471,2018-11-06 00:30:26.000000000,2018-11-06 03:19:54.000000000,closed,1,Slight refactor of auto-relay interfaces
+470,2018-11-04 17:53:53.000000000,2018-11-06 02:07:07.000000000,closed,1,"error in ""make"" command in go-libp2p"
+469,2018-11-04 02:48:15.000000000,1970-01-01 00:00:00.000000001,open,1,mDNS response
+468,2018-11-02 03:47:55.000000000,1970-01-01 00:00:00.000000001,open,1,Benchmarks?
+467,2018-10-29 21:28:23.000000000,1970-01-01 00:00:00.000000001,open,33,Host/Service interface design
+466,2018-10-29 07:36:15.000000000,2019-01-23 06:08:50.000000000,closed,2,"dht.sendMessage(ctx, p, pmes)"
+465,2018-10-25 00:00:07.000000000,2018-10-25 00:00:22.000000000,closed,0,*really* fix the race in mock
+464,2018-10-24 23:42:37.000000000,2018-10-24 23:45:36.000000000,closed,0,fix a data-race in the mock net
+463,2018-10-24 19:44:54.000000000,2018-10-24 19:45:46.000000000,closed,0,fix buggy addr equal in test
+462,2018-10-24 18:40:04.000000000,2018-10-24 19:59:06.000000000,closed,0,switch to DisablePing instead of PingCustom
+461,2018-10-24 18:02:34.000000000,2018-10-24 18:35:24.000000000,closed,0,don't disconnect on protocol version mismatch
+460,2018-10-23 22:05:48.000000000,2018-10-27 01:21:36.000000000,closed,11,Hardcode public IP in peer
+459,2018-10-23 18:42:26.000000000,2018-10-24 18:51:28.000000000,closed,4,InfoFromP2pAddr unable to parse Multiaddr from Host
+458,2018-10-19 13:40:38.000000000,2018-10-23 13:33:08.000000000,closed,1,Add ping service in basic host and libp2p constructor option (enabled by default)
+457,2018-10-19 00:30:00.000000000,2018-10-19 02:56:16.000000000,closed,0,package-list: fix pubsub link
+456,2018-10-18 19:58:58.000000000,2018-10-18 22:45:26.000000000,closed,0,update package list for discovery and autonat
+455,2018-10-18 18:24:24.000000000,2018-10-18 18:35:28.000000000,closed,0,gx: update go-libp2p-circuit
+454,2018-10-17 18:09:56.000000000,2018-11-06 13:03:22.000000000,closed,30,autorelay
+453,2018-10-17 17:58:04.000000000,2018-10-18 19:17:06.000000000,closed,0,Add go-libp2p-gorpc to package list.
+452,2018-10-17 15:40:24.000000000,1970-01-01 00:00:00.000000001,open,10,Listen on insecure transport has no peerID
+451,2018-10-10 13:05:09.000000000,2018-10-10 13:06:27.000000000,closed,0,fix README info for pubsub
+450,2018-10-08 06:54:16.000000000,1970-01-01 00:00:00.000000001,open,0,The urls for the go-libp2p impl's need a refresh
+449,2018-10-06 00:03:54.000000000,2018-10-18 19:45:19.000000000,closed,0,fix relay-specific address dialing in routed host
+448,2018-10-05 23:34:32.000000000,2018-10-18 19:45:19.000000000,closed,2,Dialing specific relay addresses through routed hosts
+447,2018-10-05 11:25:20.000000000,1970-01-01 00:00:00.000000001,open,0,Investigate protocol mux failures
+446,2018-10-04 15:21:42.000000000,1970-01-01 00:00:00.000000001,open,6,discovery module
+445,2018-10-04 11:30:48.000000000,1970-01-01 00:00:00.000000001,open,9,Reduce dependency footprint
+444,2018-10-03 11:35:00.000000000,2018-11-06 13:03:22.000000000,closed,6,autorelay module
+443,2018-10-01 11:38:09.000000000,2018-10-05 04:41:03.000000000,closed,7,downgrade protocol mux failure log to debug
+442,2018-10-01 05:40:39.000000000,1970-01-01 00:00:00.000000001,open,1,Avoid tracking observed addresses for ephemeral source ports
+441,2018-09-28 12:33:26.000000000,2018-10-18 18:39:06.000000000,closed,12,Enable relay by default in New
+440,2018-09-28 08:21:52.000000000,2018-10-18 18:39:06.000000000,closed,2,Add relay dialer and listener (not hop) to the default libp2p constructor
+439,2018-09-27 14:34:06.000000000,1970-01-01 00:00:00.000000001,open,9,Discuss: Consolidating dependencies and utils
+438,2018-09-27 00:53:07.000000000,1970-01-01 00:00:00.000000001,open,13,Connection Suspension
+437,2018-09-26 23:53:25.000000000,1970-01-01 00:00:00.000000001,open,1,Gateway relay option
+436,2018-09-26 09:06:13.000000000,1970-01-01 00:00:00.000000001,open,46,Segregate routable and non-routable networks
+435,2018-09-25 21:00:17.000000000,1970-01-01 00:00:00.000000001,open,10,Optimize Yamux
+433,2018-09-25 13:29:24.000000000,1970-01-01 00:00:00.000000001,open,3,Proposal for NAT UDP hole-punching
+432,2018-09-23 12:20:53.000000000,2018-09-25 21:00:41.000000000,closed,6,[Question] stream write data slow
+431,2018-09-21 23:02:06.000000000,2020-06-26 22:01:18.000000000,closed,6,[Question] libp2p build for mobile
+430,2018-09-21 06:35:13.000000000,2018-09-21 19:31:43.000000000,closed,0,Delete extra comments
+429,2018-09-18 22:43:19.000000000,2018-09-18 23:00:55.000000000,closed,1,Go-lang required version
+428,2018-09-18 21:15:32.000000000,2019-03-07 04:59:28.000000000,closed,5,Handle `/quic` and `/ws` in NAT mappings
+427,2018-09-18 07:35:19.000000000,2018-10-01 05:38:44.000000000,closed,14,Track more info for observed addresses
+426,2018-09-18 01:01:47.000000000,2018-09-18 01:05:40.000000000,closed,0,gx: update go-libp2p-nat
+425,2018-09-15 23:52:48.000000000,2020-01-16 23:39:52.000000000,closed,23,2018 Q4 OKR Planning
+424,2018-09-15 18:49:07.000000000,2018-09-18 21:31:47.000000000,closed,2,Maybe we need a ICE implementation for libp2p.
+423,2018-09-14 13:04:07.000000000,2018-09-14 13:09:26.000000000,closed,0,Just repair spelling mistake
+422,2018-09-12 21:03:15.000000000,2018-09-12 21:10:02.000000000,closed,0,Just repair spelling mistake
+421,2018-09-11 03:15:35.000000000,1970-01-01 00:00:00.000000001,open,0,Remove unreachable addresses from the observed address list.
+420,2018-09-11 02:52:45.000000000,2018-09-11 03:01:56.000000000,closed,0,always remove connection from identify service map
+419,2018-09-11 02:39:46.000000000,2018-09-11 03:01:56.000000000,closed,1,Memory leak in identify if opening a stream fails.
+418,2018-09-10 16:37:46.000000000,2018-09-11 06:13:38.000000000,closed,4,communication between both NATS
+417,2018-09-09 20:23:00.000000000,1970-01-01 00:00:00.000000001,open,1,Places where IPFS names or types are leaking into libp2p
+416,2018-09-08 04:09:40.000000000,2018-10-01 05:38:44.000000000,closed,0,Keep more information when tracking observed addresses (in identify)
+415,2018-09-08 04:07:45.000000000,2018-09-18 00:54:09.000000000,closed,0,Try mapping the internal port as the external port
+414,2018-09-08 01:37:45.000000000,2018-09-08 17:52:26.000000000,closed,9,Latest Peerstore Commit Broke Default.go
+413,2018-09-07 12:46:50.000000000,2018-09-14 09:52:53.000000000,closed,1,What does host.NewStream() really do in TCP level in details ?
+412,2018-09-07 12:09:43.000000000,2018-09-14 03:04:10.000000000,closed,1,Deduplicate addresses of host output
+411,2018-09-07 07:59:00.000000000,2019-04-24 04:36:27.000000000,closed,11,Sync observed addresses with port mapping configs
+410,2018-09-05 22:27:22.000000000,1970-01-01 00:00:00.000000001,open,2,Add a bootstrap service
+409,2018-09-01 22:02:31.000000000,1970-01-01 00:00:00.000000001,open,0,Rethink overriding defaults in the constructors
+408,2018-08-30 16:38:00.000000000,2018-09-03 01:33:40.000000000,closed,1,"use the new DisableLogging mdns option, don't turn off logging globally"
+407,2018-08-30 16:02:12.000000000,2018-09-06 16:12:32.000000000,closed,6,"implement ping/2.0.0, which uses a new stream for every ping"
+406,2018-08-30 11:25:36.000000000,2018-08-31 21:35:18.000000000,closed,8,I need help o(╥﹏╥)o
+405,2018-08-25 00:18:23.000000000,2018-08-27 21:39:03.000000000,closed,6,remove some packages from the package table
+404,2018-08-24 22:50:22.000000000,2018-08-24 23:37:46.000000000,closed,1,README: fix go-libp2p-blankhost row
+403,2018-08-22 15:19:29.000000000,2018-08-24 22:21:39.000000000,closed,14,feat: use package-table
+402,2018-08-22 12:49:16.000000000,2018-09-01 21:58:19.000000000,closed,2,make deps doesn't work
+401,2018-08-21 04:34:02.000000000,2018-09-01 21:58:50.000000000,closed,1,Test duplicate transports
+400,2018-08-21 04:11:40.000000000,2018-08-21 20:49:29.000000000,closed,2,Ensure duplicate transports are filtered
+399,2018-08-17 00:14:00.000000000,1970-01-01 00:00:00.000000001,open,1,Disable NAT port mapping when not applicable
+398,2018-08-16 22:19:32.000000000,2018-08-28 03:17:33.000000000,closed,0,add options for disabling the default listen address/transports
+397,2018-08-15 14:39:44.000000000,2018-08-15 21:31:01.000000000,closed,1,Fix a typo in doc
+396,2018-08-15 14:24:47.000000000,2018-10-26 17:03:58.000000000,closed,31,Yamux + secio data race
+395,2018-08-15 07:21:50.000000000,2018-08-16 20:37:25.000000000,closed,5,Issue #370 Check if empty peer ID
+394,2018-08-14 03:54:47.000000000,2018-08-16 21:43:41.000000000,closed,0,"Revert ""Merge pull request #386 from libp2p/fix/correct-external-addr"""
+393,2018-08-10 13:11:11.000000000,2018-11-09 22:26:36.000000000,closed,8,PeerInfo UnMarshal Error
+392,2018-08-09 10:49:52.000000000,2018-09-03 01:33:40.000000000,closed,2,don't turn off logging
+391,2018-08-09 06:03:19.000000000,2018-09-06 16:12:46.000000000,closed,4,use a separate stream for every ping
+390,2018-08-09 01:06:28.000000000,2018-08-09 05:09:14.000000000,closed,0,update gogo protobuf
+389,2018-08-09 00:38:41.000000000,2018-08-16 21:44:22.000000000,closed,0,mock stream fixes
+388,2018-08-08 22:50:01.000000000,2018-08-16 21:43:59.000000000,closed,1,reset when we fail in identify
+387,2018-08-05 21:28:34.000000000,2018-08-06 20:24:46.000000000,closed,0,docs: Document defaults #382
+386,2018-08-03 01:21:12.000000000,2018-08-07 01:52:27.000000000,closed,0,"when we do a nat port mapping, explicitly remember the mapped address"
+385,2018-07-30 23:31:34.000000000,2018-07-31 00:19:14.000000000,closed,1,[muxer] set mplex version to 6.7.0
+384,2018-07-30 17:53:17.000000000,2018-07-31 00:19:14.000000000,closed,3,mplex protocol version match
+383,2018-07-29 02:09:18.000000000,1970-01-01 00:00:00.000000001,open,3,Nat traversal port selection
+382,2018-07-28 02:22:37.000000000,1970-01-01 00:00:00.000000001,open,0,Document defaults
+381,2018-07-27 22:50:32.000000000,2018-07-27 23:36:10.000000000,closed,1,extract libp2p examples to go-libp2p-examples
+380,2018-07-27 21:55:30.000000000,2018-08-21 09:22:23.000000000,closed,5,always reset ping streams when done
+379,2018-07-25 22:53:21.000000000,2018-07-30 15:48:47.000000000,closed,9,Extending chat example to support peer discovery
+378,2018-07-25 20:26:17.000000000,2018-07-28 02:21:47.000000000,closed,5,Added a Default listener
+377,2018-07-25 07:27:17.000000000,2018-07-28 02:22:06.000000000,closed,4,Default listeners
+376,2018-07-23 23:42:11.000000000,1970-01-01 00:00:00.000000001,open,3,Be smarter when using MDNS
+375,2018-07-23 17:59:58.000000000,2019-12-04 20:12:57.000000000,closed,64,NAT Traversal in chat example
+374,2018-07-16 19:53:39.000000000,1970-01-01 00:00:00.000000001,open,1,Libp2p does not recover from interface being temporally down
+373,2018-07-12 15:25:29.000000000,2018-07-13 18:17:41.000000000,closed,1,switch to google's uuid library
+372,2018-07-11 21:15:28.000000000,2018-07-13 18:18:01.000000000,closed,1,Replace package satori/go.uuid
+371,2018-07-03 23:35:42.000000000,2018-09-18 21:38:56.000000000,closed,8,Golang Visual Studio Code Extensions Don't Work
+370,2018-06-30 10:32:13.000000000,2018-08-16 20:36:13.000000000,closed,1,print better error when trying to open stream to empty peer ID
+369,2018-06-29 01:58:14.000000000,2018-08-28 04:41:42.000000000,closed,0,Add Stat to mock net conns and streams
+368,2018-06-26 15:06:23.000000000,2018-09-07 23:16:59.000000000,closed,3,Query regarding echo example
+367,2018-06-26 00:11:23.000000000,2018-06-26 03:00:33.000000000,closed,6,Error in using dependencies
+366,2018-06-24 22:03:55.000000000,1970-01-01 00:00:00.000000001,open,3,Routed hosts should search for new addresses if the available adresses do not work issue#351
+365,2018-06-23 13:09:21.000000000,2018-06-26 06:11:41.000000000,closed,2,Add Go standard dep support for libp2p
+364,2018-06-21 00:34:38.000000000,1970-01-01 00:00:00.000000001,open,2,The Switch
+363,2018-06-18 03:20:49.000000000,2018-06-18 03:31:15.000000000,closed,1,Cannot go get -u github.com/libp2p/go-libp2p/p2p/discovery
+362,2018-06-16 13:21:23.000000000,2018-07-21 03:59:58.000000000,closed,1,[question] are peer ids authenticated?
+361,2018-06-16 03:28:03.000000000,2018-06-16 12:06:45.000000000,closed,2,"ZeroPrefixLen(id []byte) will always return j * 8 + 7, j=non-zero-index-of-1(id)?"
+360,2018-06-16 01:30:31.000000000,2018-06-16 03:09:39.000000000,closed,0,reduce error to warning and log the error
+359,2018-06-13 15:01:58.000000000,1970-01-01 00:00:00.000000001,open,7,"Getting ""(default failure)"" when connecting to DHT bootstrap node"
+358,2018-06-13 00:54:08.000000000,2018-06-13 21:48:33.000000000,closed,1,improve error message in libp2p reflection-based transport option
+357,2018-06-12 23:39:36.000000000,2018-06-13 01:53:04.000000000,closed,0,function cannot be formatted as string
+356,2018-06-12 12:24:55.000000000,1970-01-01 00:00:00.000000001,open,0,Don't accounce deprecated addresses to the network
+355,2018-06-11 19:21:57.000000000,1970-01-01 00:00:00.000000001,open,5,go get github.com/whyrusleeping/gx error
+354,2018-06-11 17:44:07.000000000,2018-06-12 07:39:03.000000000,closed,4,make deps doesn't work
+353,2018-06-11 06:59:40.000000000,1970-01-01 00:00:00.000000001,open,13,How to use udp instead of tcp in multiaddress
+352,2018-06-09 21:23:40.000000000,2018-06-14 22:44:07.000000000,closed,0,check for connectedness using Connectedness
+351,2018-06-09 21:17:42.000000000,1970-01-01 00:00:00.000000001,open,3,RoutedHost should search for addrs when none of the addrs we tried worked
+350,2018-06-09 04:35:30.000000000,1970-01-01 00:00:00.000000001,open,0,Shared-memory Transport
+349,2018-06-06 16:56:03.000000000,2018-06-07 02:50:28.000000000,closed,1,add a link to options.go in the host example
+348,2018-06-06 16:39:06.000000000,2018-06-06 16:51:25.000000000,closed,0,update README of the host example
+347,2018-06-06 13:13:19.000000000,2018-06-15 03:06:48.000000000,closed,5,[WIP] Add a draft write-up for the release
+346,2018-06-06 04:37:05.000000000,2018-06-07 08:54:40.000000000,closed,3,Add test which demonstrates how Mocknet latency works
+345,2018-06-05 18:53:19.000000000,2018-08-28 03:46:58.000000000,closed,7,add information to connections about origin
+344,2018-06-04 21:01:14.000000000,2018-06-04 21:05:47.000000000,closed,0,gx publish 5.0.21
+343,2018-06-04 20:26:14.000000000,2018-06-04 20:34:35.000000000,closed,0,gx publish 5.0.20
+342,2018-06-04 15:04:47.000000000,2018-06-04 16:36:58.000000000,closed,0,Gx/update yulghf
+341,2018-06-04 12:59:48.000000000,2018-06-10 01:58:12.000000000,closed,2,Yamux -race issues -> Update yamux from upstream
+340,2018-06-04 00:23:44.000000000,2018-06-06 17:04:24.000000000,closed,5,[Feature Request] Common Stream handler for dialler and listener
+339,2018-06-03 19:34:22.000000000,1970-01-01 00:00:00.000000001,open,15,"very large number of ""protocol mux failed: connection reset"" errors"
+338,2018-06-03 09:06:32.000000000,2018-07-06 06:05:21.000000000,closed,2,gx deps creates multiple dependencies of same library
+337,2018-06-01 19:36:14.000000000,2018-06-01 19:46:12.000000000,closed,0,gx publish 5.0.18
+336,2018-06-01 03:23:14.000000000,2018-06-12 18:17:09.000000000,closed,5,Integration Testing Spec
+335,2018-05-29 14:06:26.000000000,2018-05-29 14:30:52.000000000,closed,2,gx: update go-multistream
+334,2018-05-27 19:03:07.000000000,2018-05-29 13:48:55.000000000,closed,1,Remove go-metrics from package.json
+333,2018-05-24 18:15:16.000000000,2018-06-06 16:51:25.000000000,closed,5,Host example README out of sync with code
+332,2018-05-24 03:00:45.000000000,2018-09-10 21:20:27.000000000,closed,12,Add updated chat example with tor transport
+331,2018-05-24 01:00:58.000000000,2018-06-07 04:41:07.000000000,closed,4,Add configured transports to swarm
+330,2018-05-22 18:33:06.000000000,1970-01-01 00:00:00.000000001,open,3,custom signature scheme: dial attempt failed: proto: can't skip unknown wire type 6 for crypto_pb.PublicKey
+329,2018-05-12 02:03:20.000000000,2018-05-12 13:21:40.000000000,closed,4,crypto.GenerateKeyPair returns 32bytes pub key
+328,2018-05-09 22:28:59.000000000,1970-01-01 00:00:00.000000001,open,20,Peer dialing to self
+327,2018-05-08 07:51:56.000000000,1970-01-01 00:00:00.000000001,open,2,libp2p.NoSecurity in echo example refactoring
+326,2018-05-07 07:41:57.000000000,2018-05-11 11:40:02.000000000,closed,2,Updated host example README to match code
+325,2018-05-04 22:20:02.000000000,2019-01-10 07:38:40.000000000,closed,23,peer discovery fail
+324,2018-05-03 13:59:10.000000000,1970-01-01 00:00:00.000000001,open,7,"[feature request] Could you add a ""port forwarding"" example?"
+323,2018-04-28 09:42:24.000000000,2018-05-02 09:59:52.000000000,closed,1,make deps connection refused
+322,2018-04-25 23:51:57.000000000,1970-01-01 00:00:00.000000001,open,0,Local DHT?
+321,2018-04-24 19:01:10.000000000,2018-05-02 15:25:38.000000000,closed,4,dep vendoring
+320,2018-04-23 09:10:52.000000000,2018-06-07 20:57:34.000000000,closed,1,NAPT or UPNP?
+319,2018-04-23 07:25:20.000000000,1970-01-01 00:00:00.000000001,open,6,How is the chat example P2P
+318,2018-04-20 04:44:50.000000000,2018-04-23 09:14:33.000000000,closed,2,Speeding up DHT and Discovery
+317,2018-04-19 04:10:18.000000000,2018-04-19 05:44:54.000000000,closed,0,GX/Go Package Error when building
+316,2018-04-17 12:35:43.000000000,1970-01-01 00:00:00.000000001,open,2,Is Relay(circuit) transparent to application?
+315,2018-04-16 03:57:39.000000000,2018-04-16 18:32:58.000000000,closed,5,Bootsrapper Nodes
+314,2018-04-15 19:26:36.000000000,2018-04-16 09:35:52.000000000,closed,0,Discovery
+313,2018-04-15 18:51:25.000000000,2018-04-16 18:33:12.000000000,closed,0,incompatibilities inside of the website
+312,2018-04-15 06:28:11.000000000,2018-04-21 12:44:06.000000000,closed,13," How to achieve punching behind nat or firewall, Is there an example?"
+311,2018-04-15 00:48:21.000000000,2018-04-15 08:42:26.000000000,closed,15,Chat Example
+310,2018-04-12 18:21:56.000000000,2018-04-13 13:40:09.000000000,closed,3,make deps doesn't work
+309,2018-04-12 15:05:42.000000000,1970-01-01 00:00:00.000000001,open,2,first steps in using go-libp2p
+308,2018-04-10 20:12:22.000000000,2018-05-13 21:27:51.000000000,closed,5,[question] can I prevent peer's from connecting?
+307,2018-04-09 16:12:03.000000000,2018-04-11 14:03:22.000000000,closed,9,Newbie problem building chat example as standalone
+306,2018-03-27 22:47:25.000000000,2018-03-27 23:55:47.000000000,closed,0,misc: downgrade a warning to info
+305,2018-03-27 22:44:27.000000000,2018-03-27 22:50:03.000000000,closed,0,Create Jenkinsfile
+304,2018-03-26 19:38:39.000000000,1970-01-01 00:00:00.000000001,open,20,Bootstrapping bundle
+303,2018-03-21 14:54:07.000000000,2018-03-21 15:13:05.000000000,closed,1,*basic.BasicHost does not implement host.Host
+302,2018-03-20 21:31:59.000000000,1970-01-01 00:00:00.000000001,open,9,Examples/bootstrapping railing
+301,2018-03-19 20:14:55.000000000,2018-06-07 20:57:25.000000000,closed,1,Why do we need msgio.pool ? replace msgio with delimited?
+300,2018-03-13 14:54:04.000000000,1970-01-01 00:00:00.000000001,open,3,Chat example
+299,2018-03-13 08:25:04.000000000,2018-06-06 11:28:36.000000000,closed,4,refactor for transport changes
+298,2018-03-12 14:24:43.000000000,2018-07-27 23:31:43.000000000,closed,1,Update README.md
+297,2018-03-08 22:11:00.000000000,2018-06-07 20:44:51.000000000,closed,4,Transport + Swarm refactor
+296,2018-03-07 00:13:45.000000000,1970-01-01 00:00:00.000000001,open,1,Missing documentation
+295,2018-03-05 21:03:57.000000000,2018-03-07 03:13:04.000000000,closed,7,5.0.15 issue with go-reuseport
+294,2018-03-04 15:32:44.000000000,2018-03-05 17:40:27.000000000,closed,2,libp2p on gitter
+293,2018-03-04 13:32:36.000000000,2018-03-10 06:47:56.000000000,closed,0,added NAT traversal option and constructor test
+292,2018-03-03 04:06:02.000000000,2019-02-20 04:26:51.000000000,closed,3,Break examples out into a new repo
+291,2018-03-03 04:02:00.000000000,2018-03-03 04:08:46.000000000,closed,0,fix CI and gx
+290,2018-03-02 16:35:02.000000000,2018-03-14 21:53:09.000000000,closed,6,Use NAT traversal option in host - is it possible?
+289,2018-03-02 10:02:29.000000000,2018-03-03 02:42:04.000000000,closed,1,Fix contributing link
+288,2018-03-01 11:31:32.000000000,1970-01-01 00:00:00.000000001,open,6,Can we create tcp connection pool easily using libp2p?
+287,2018-03-01 05:48:07.000000000,1970-01-01 00:00:00.000000001,open,0,libp2p.New returns a host. Meaning users have to import a different package
+286,2018-02-27 21:48:24.000000000,1970-01-01 00:00:00.000000001,open,12,(socks) proxy support
+285,2018-02-27 10:57:09.000000000,2019-05-07 02:32:33.000000000,closed,12,discovery: swap mdns lib for grandcat/zeroconf
+284,2018-02-27 01:43:44.000000000,2018-03-04 03:58:02.000000000,closed,6,"Added example ""chat"" with README"
+283,2018-02-26 14:10:53.000000000,1970-01-01 00:00:00.000000001,open,8,More demos like js-libp2p ???
+282,2018-02-25 00:25:44.000000000,2018-03-03 14:41:18.000000000,closed,3,Example with mdns discovery
+281,2018-02-22 20:40:20.000000000,2018-02-22 21:55:21.000000000,closed,16,Mulit-protocol app with protobufs
+280,2018-02-22 04:18:49.000000000,2018-02-23 00:13:40.000000000,closed,14,Mulit-protocol app with protobufs
+279,2018-02-21 03:56:31.000000000,1970-01-01 00:00:00.000000001,open,3,Tracking: refactor + transports effort
+278,2018-02-19 20:10:21.000000000,2018-07-28 23:26:49.000000000,closed,12,Example of echo server using routed hosts with local and ipfs bootstrap
+277,2018-02-16 23:17:14.000000000,1970-01-01 00:00:00.000000001,open,0,starting up a new node is slow
+276,2018-02-16 15:28:58.000000000,2018-02-16 22:26:54.000000000,closed,0,Update go-detect-race to latest packaged version and location
+275,2018-02-15 17:55:32.000000000,1970-01-01 00:00:00.000000001,open,9,Echo example with Routed host
+274,2018-02-15 14:53:45.000000000,1970-01-01 00:00:00.000000001,open,5,Ability to ban connections from a peer
+273,2018-02-15 08:52:18.000000000,1970-01-01 00:00:00.000000001,open,1,echo example with go1.9.2 darwin/amd64
+272,2018-02-14 20:07:59.000000000,2018-02-15 00:34:19.000000000,closed,2,Skip TestMdnsDiscovery
+271,2018-02-08 05:29:51.000000000,1970-01-01 00:00:00.000000001,open,1,TestMdnsDiscovery fails
+270,2018-02-01 23:50:46.000000000,2018-07-21 03:57:02.000000000,closed,1,Please Git tag releases
+269,2018-01-28 10:15:15.000000000,2018-01-28 10:57:01.000000000,closed,0,make the identify test less racy
+268,2018-01-27 19:56:14.000000000,2018-01-28 01:51:35.000000000,closed,1,add link to example implementation
+267,2018-01-27 13:56:22.000000000,2018-01-28 10:10:56.000000000,closed,1,mDNS discovery starts announcing right away
+266,2018-01-22 06:01:30.000000000,2018-01-22 06:33:23.000000000,closed,6,bad golang package name
+265,2018-01-20 10:53:17.000000000,2018-01-20 11:57:16.000000000,closed,0,fix peerstore apocalypse redux
+264,2018-01-18 16:22:17.000000000,2018-01-28 10:16:03.000000000,closed,4,Added default muxer in case when none was provided.
+263,2018-01-14 19:50:34.000000000,2018-01-29 17:09:41.000000000,closed,12,"""invalid memory address or nil pointer dereference"" in `echo` example"
+262,2018-01-05 22:06:47.000000000,1970-01-01 00:00:00.000000001,open,4,dial attempt failed: bind: address already in use
+261,2018-01-05 08:20:55.000000000,2018-01-07 04:35:56.000000000,closed,1,gx: update go-libp2p-peerstore
+260,2017-12-29 20:15:39.000000000,2017-12-29 21:45:32.000000000,closed,0,Fixed typo.
+259,2017-12-26 13:14:58.000000000,2018-01-28 12:41:53.000000000,closed,1,Please provide more examples
+258,2017-12-25 07:54:18.000000000,2017-12-28 06:18:05.000000000,closed,6,Echo example: yamux potentially broken
+257,2017-12-14 08:06:23.000000000,2019-05-07 02:41:48.000000000,closed,8,Switch mdns library
+256,2017-12-13 22:54:20.000000000,2018-01-28 10:10:56.000000000,closed,0,mDNS discovery should start announcing right away
+255,2017-12-13 22:53:35.000000000,1970-01-01 00:00:00.000000001,open,0,BasicHost.Addrs() should only include interfaces that are UP
+254,2017-12-13 22:52:24.000000000,1970-01-01 00:00:00.000000001,open,0,mDNS discovery announces ephemeral ports
+253,2017-12-13 20:10:44.000000000,1970-01-01 00:00:00.000000001,open,2,mDNS discovery announces on the wrong interface
+252,2017-12-10 01:35:37.000000000,2018-06-12 22:04:24.000000000,closed,1,Update Protobuf
+251,2017-12-04 11:06:36.000000000,2017-12-05 05:52:03.000000000,closed,0,gx: update go-multihash
+250,2017-12-01 11:35:26.000000000,1970-01-01 00:00:00.000000001,open,6,Messages Concatenated Unexpectedly 
+249,2017-11-27 23:08:50.000000000,2018-02-22 04:09:46.000000000,closed,6,Added an example for a multi-protocol app using strongly typed data and protobufs
+248,2017-11-27 08:47:14.000000000,2017-12-04 05:52:02.000000000,closed,10,examples:https-proxy:on a separate machine
+247,2017-11-24 12:46:49.000000000,2017-11-24 12:53:30.000000000,closed,0,github.com/libp2p/go-msgio error
+246,2017-11-21 02:13:46.000000000,2017-11-21 03:11:03.000000000,closed,0,update gx deps
+245,2017-11-17 06:05:41.000000000,2017-11-19 21:59:35.000000000,closed,5,"Fix ""go vet"" errors."
+244,2017-11-17 05:44:34.000000000,2017-12-05 05:57:44.000000000,closed,3,Update Travis CI to use new test script and go 1.9.x
+243,2017-11-16 00:31:45.000000000,2018-03-07 13:01:59.000000000,closed,4,Announce and discover peers over simple UDP broadcasts
+242,2017-11-15 00:16:11.000000000,2017-11-15 02:18:56.000000000,closed,0,gx publish 5.0.6
+241,2017-11-04 23:07:13.000000000,2018-01-08 01:41:59.000000000,closed,11,first hack at a nice libp2p constructor
+240,2017-10-31 13:53:47.000000000,2017-11-02 17:57:52.000000000,closed,5,make deps not work.
+239,2017-10-19 18:54:45.000000000,2017-10-19 19:09:14.000000000,closed,0,gx: update go-peerstream
+238,2017-10-15 18:35:07.000000000,1970-01-01 00:00:00.000000001,open,11,"""disconnect"" protocol/message"
+237,2017-10-06 16:27:37.000000000,2017-10-06 16:47:29.000000000,closed,0,Connmgr updates
+236,2017-10-04 16:45:52.000000000,2017-10-05 17:51:20.000000000,closed,1,Better buffering
+235,2017-10-04 16:43:51.000000000,2017-12-12 03:05:31.000000000,closed,2,Metrics shouldn't slow us down
+234,2017-09-27 19:07:17.000000000,1970-01-01 00:00:00.000000001,open,2,C-libp2p
+233,2017-09-24 20:03:54.000000000,2017-09-29 17:54:52.000000000,closed,3,allow tag to be passed into NewMdnsService
+232,2017-09-21 13:14:13.000000000,2017-09-21 15:27:36.000000000,closed,0,basic_host: fix warning message
+231,2017-09-14 10:07:39.000000000,2017-09-14 20:39:00.000000000,closed,0,make sure to not drop writes on close
+230,2017-09-14 03:08:27.000000000,2017-09-14 03:44:51.000000000,closed,0,update go-stream-muxer
+229,2017-09-11 04:20:35.000000000,2020-03-03 11:23:51.000000000,closed,1,libp2p-host doesn't build
+228,2017-09-08 18:25:35.000000000,2017-09-08 20:08:20.000000000,closed,1,Protocol Multiplexing Example: Fixing build instruction so copy and pasting from the Readme works
+227,2017-09-07 19:34:39.000000000,1970-01-01 00:00:00.000000001,open,2,Quick question about Ed25519 with the libp2p-host example 
+226,2017-09-06 03:14:31.000000000,2017-09-06 03:29:31.000000000,closed,0,gx: update go-ws-transport
+225,2017-09-05 18:57:57.000000000,2017-09-06 12:56:49.000000000,closed,1,Update README.md
+224,2017-09-03 21:10:49.000000000,2017-09-04 16:13:42.000000000,closed,1,Fix the go get command.
+223,2017-08-31 04:46:57.000000000,2017-09-01 06:07:03.000000000,closed,0,examples/echo: recommend -secio
+222,2017-08-29 07:49:00.000000000,1970-01-01 00:00:00.000000001,open,18,Implement peer-discovery interface
+221,2017-08-29 07:44:16.000000000,2017-08-29 08:29:36.000000000,closed,0,"gx: update go-cid, go-multibase, base32"
+220,2017-08-28 23:06:30.000000000,2017-08-29 00:41:15.000000000,closed,0,gx: update base32
+219,2017-08-24 22:18:31.000000000,2017-09-04 16:13:42.000000000,closed,6,trying to make and run libp2p-host example results in error
+218,2017-08-23 18:27:08.000000000,2017-08-23 23:46:50.000000000,closed,0,gx: update go-reuseport
+217,2017-08-20 22:40:32.000000000,1970-01-01 00:00:00.000000001,open,0,pull mdns out as its own separate package
+216,2017-08-19 20:20:31.000000000,2017-08-22 00:11:48.000000000,closed,4,Summer cleaning
+215,2017-08-19 20:05:44.000000000,2017-09-01 06:07:02.000000000,closed,1,"Is ""ERROR net/identi.."" expected in the echo example?"
+214,2017-08-17 02:47:01.000000000,2017-08-17 03:22:11.000000000,closed,0,gx: update go-testutil
+213,2017-08-04 14:58:19.000000000,2017-08-04 20:47:48.000000000,closed,1,Made the image render inline
+212,2017-08-01 07:01:58.000000000,2017-08-01 09:51:20.000000000,closed,0,gx: update go-testutil
+211,2017-07-28 01:51:57.000000000,2017-08-07 07:19:54.000000000,closed,1,tests: update test cases to act like go-peerstream 1.7.0
+210,2017-07-24 21:28:15.000000000,2017-08-03 01:46:13.000000000,closed,4,Circuit Relay integration with basic_host
+209,2017-07-21 18:50:31.000000000,1970-01-01 00:00:00.000000001,open,6,Circuit Relay Integration
+208,2017-07-21 14:32:09.000000000,2017-07-23 10:32:45.000000000,closed,0,RoutedHost: NewStream ensures we have the means to connect to the peer
+207,2017-07-21 14:30:37.000000000,2017-07-23 10:32:45.000000000,closed,5,RoutedHost.NewStream should ensure we have the means to connect to the peer
+206,2017-07-21 05:42:58.000000000,2017-08-31 04:48:01.000000000,closed,1,Code Example for Issue 205
+205,2017-07-19 02:31:15.000000000,2017-12-01 11:34:15.000000000,closed,5,Routed Host Hangs
+204,2017-07-12 10:32:02.000000000,2017-07-12 11:22:01.000000000,closed,0,Feat/connmgr
+203,2017-06-30 12:03:22.000000000,2017-08-22 13:19:31.000000000,closed,5,Remote example
+202,2017-06-26 20:11:23.000000000,1970-01-01 00:00:00.000000001,open,11,Libp2p tutorials and demos
+201,2017-06-06 05:08:36.000000000,2017-06-06 05:16:39.000000000,closed,1,"gx: update go-addr-util, go-libp2p-swarm"
+200,2017-06-06 04:38:32.000000000,2017-06-06 04:53:38.000000000,closed,0,Remove old dependency on ws-transport
+199,2017-06-03 15:37:22.000000000,2017-06-06 18:59:09.000000000,closed,3,Publicize NAT manager struct
+198,2017-06-01 08:15:54.000000000,1970-01-01 00:00:00.000000001,open,2,How to install deps?
+197,2017-05-31 03:35:47.000000000,2017-05-31 23:56:41.000000000,closed,1,basichost: refactor BasicHost construction
+196,2017-05-29 17:08:03.000000000,2017-05-31 04:12:10.000000000,closed,1,basichost: allow overriding Addrs()
+195,2017-05-27 07:14:47.000000000,2017-05-28 01:10:53.000000000,closed,4,gx: update go-libp2p-peerstore
+194,2017-05-14 04:56:00.000000000,1970-01-01 00:00:00.000000001,open,0,Lampshade crypto channel
+193,2017-05-14 04:29:04.000000000,1970-01-01 00:00:00.000000001,open,13,KCP transport (reliable UDP)
+192,2017-04-26 21:17:30.000000000,2017-04-26 22:37:13.000000000,closed,0,typo
+191,2017-04-23 02:07:57.000000000,2017-04-25 01:01:28.000000000,closed,2,Improve ObservedAddrSet behaviour
+190,2017-04-22 21:57:39.000000000,2017-07-24 21:29:27.000000000,closed,1,WIP: relay integration
+189,2017-04-11 12:21:09.000000000,2017-08-07 07:19:01.000000000,closed,6,"Resolve /dns4, /dns6, /dnsaddr multiaddrs"
+188,2017-03-31 18:15:08.000000000,1970-01-01 00:00:00.000000001,open,33,Support for WebRTC transport
+187,2017-03-17 23:16:36.000000000,2017-03-22 23:30:45.000000000,closed,1,"add first tutorial, showing creation of a host"
+186,2017-03-15 23:13:41.000000000,2018-02-16 14:52:15.000000000,closed,1,go-libp2p documentation effort
+185,2017-03-15 20:05:30.000000000,2017-03-30 21:08:46.000000000,closed,4,Libp2p examples
+184,2017-03-12 06:39:49.000000000,2017-03-14 11:51:23.000000000,closed,3,Remove relay protocol (and roadmap.md)
+183,2017-03-07 10:20:49.000000000,2017-08-19 21:28:11.000000000,closed,5,Echo demo
+182,2017-03-02 08:31:02.000000000,2017-08-19 21:03:00.000000000,closed,11,Bring interfaces back here
+181,2017-02-22 18:38:50.000000000,2017-03-09 07:31:50.000000000,closed,0,"more imports cleanup, another dup."
+180,2017-02-21 23:46:41.000000000,2017-02-22 00:26:33.000000000,closed,0,"imports cleanup, remove dup"
+179,2017-02-21 22:42:52.000000000,2017-09-01 06:07:02.000000000,closed,1,example/echo docs improvement re securing identity
+178,2017-02-16 18:44:41.000000000,2017-04-03 19:05:46.000000000,closed,0,gx publish 4.3.10
+177,2017-02-08 21:27:30.000000000,2017-02-10 22:07:35.000000000,closed,5,Website down?
+176,2017-01-17 19:13:59.000000000,1970-01-01 00:00:00.000000001,open,13,mdns is squating on host hostname
+175,2017-01-16 15:29:49.000000000,1970-01-01 00:00:00.000000001,open,5,Extract the basic host into its own repo
+174,2017-01-16 15:05:56.000000000,2017-08-31 04:33:59.000000000,closed,5,Can I install go-libp2p using gx?
+173,2017-01-10 20:26:37.000000000,2017-01-10 20:52:42.000000000,closed,0,fix multistream import paths
+172,2017-01-08 18:45:34.000000000,1970-01-01 00:00:00.000000001,open,4,Cannot find packages when running example
+171,2017-01-06 21:45:12.000000000,2017-08-19 21:24:49.000000000,closed,1,Build failure with 4.3.2 (basic_host)
+170,2017-01-05 01:30:59.000000000,2017-01-06 19:09:16.000000000,closed,1,update go-multistream and use negotiateLazy 
+169,2016-12-26 16:08:19.000000000,2016-12-26 21:30:46.000000000,closed,5,identify: make agent version mutable
+168,2016-12-17 06:28:19.000000000,2017-01-05 19:38:27.000000000,closed,7,"if protocol selection fails, reset remembered protocols"
+167,2016-11-28 07:29:27.000000000,2016-11-28 11:48:47.000000000,closed,0,gx publish 4.3.0
+166,2016-11-26 12:51:43.000000000,2016-11-26 13:06:01.000000000,closed,0,update go-datastore bubbled through libp2p packages
+165,2016-11-25 22:57:18.000000000,2016-11-29 10:28:59.000000000,closed,0,gx update-tree go-cid go-libp2p-interface-pnet
+164,2016-11-25 02:43:51.000000000,2017-08-19 21:24:15.000000000,closed,4,Echo example with secio is broken
+163,2016-11-24 21:24:27.000000000,2016-11-25 14:24:54.000000000,closed,1,Fix echo example Readme
+162,2016-11-24 16:02:30.000000000,1970-01-01 00:00:00.000000001,open,1,Changelog for go-libp2p
+161,2016-11-23 22:27:37.000000000,2016-11-23 23:07:33.000000000,closed,0,gx update-tree go-cid go-datastore go-libp2p-interface-pnet
+160,2016-11-23 10:11:26.000000000,2016-11-23 22:24:59.000000000,closed,0,update go-libp2p-swarm
+159,2016-11-19 04:12:21.000000000,2016-11-23 09:27:52.000000000,closed,4,address protocol downgrade bug
+158,2016-11-18 09:21:22.000000000,2017-08-19 21:23:17.000000000,closed,2,Failed to run example file
+157,2016-11-17 15:20:47.000000000,1970-01-01 00:00:00.000000001,open,14,Transport implementations and roadmap
+156,2016-11-17 14:29:55.000000000,2016-11-17 14:40:31.000000000,closed,3,List all dependencies with gx deps
+155,2016-11-17 07:20:23.000000000,2016-11-18 01:09:38.000000000,closed,1,Extract netutil to its own package
+154,2016-11-16 22:25:40.000000000,2016-11-17 02:43:51.000000000,closed,1,Update deps for Priv Networks
+153,2016-11-11 18:16:18.000000000,2016-11-17 15:15:29.000000000,closed,2,Run all tests
+152,2016-11-10 16:32:22.000000000,2016-11-11 01:41:02.000000000,closed,2,Improve echo example
+151,2016-11-10 05:27:04.000000000,2016-11-11 01:38:26.000000000,closed,1,make bandwidth metrics optional
+150,2016-11-10 00:46:32.000000000,2016-11-11 06:05:44.000000000,closed,1,add negotiate timeout option to basichost
+149,2016-11-09 05:20:11.000000000,2016-11-28 23:26:50.000000000,closed,4,Could not run example host
+148,2016-11-09 02:19:58.000000000,2016-11-10 00:00:02.000000000,closed,5,update dependencies and add deadline methods to streams
+147,2016-11-06 23:05:46.000000000,2017-08-19 21:20:50.000000000,closed,2,Stateless Computing with libp2p
+146,2016-11-06 08:55:07.000000000,2016-11-10 00:01:26.000000000,closed,0,Update examples
+145,2016-11-06 07:38:32.000000000,2016-11-10 00:01:26.000000000,closed,3,Examples broken
+144,2016-11-06 05:06:04.000000000,2016-11-06 05:10:20.000000000,closed,0,update to go-smux-multistream with negotiate timeouts
+143,2016-11-06 04:03:25.000000000,2016-11-06 04:09:18.000000000,closed,2,make sure to always close streams when youre done with them
+142,2016-11-06 03:38:15.000000000,1970-01-01 00:00:00.000000001,open,3,basichost can remember invalid protocol preference
+141,2016-11-04 01:57:03.000000000,2016-11-04 05:55:12.000000000,closed,0,update packages to add support for getStreams
+140,2016-10-27 19:15:44.000000000,2016-11-02 15:53:28.000000000,closed,4,tcp.go:196: d.rd.DialContext undefined (type reuseport.Dialer has no field or method DialContext
+139,2016-10-25 04:18:57.000000000,2016-10-26 01:41:56.000000000,closed,0,extract NAT traversal code to its own lib
+138,2016-10-25 01:36:16.000000000,2016-11-28 22:24:32.000000000,closed,7,"Intermittent ""context deadline exceeded"" when no deadline set"
+137,2016-10-12 20:49:07.000000000,2018-07-23 21:57:42.000000000,closed,3,Dialer.Dial takes remote peerID but does not confirm that it is peer that it connected to
+136,2016-10-11 18:55:57.000000000,2018-09-11 19:50:42.000000000,closed,2,Relay should report dial failures
+135,2016-10-05 23:17:51.000000000,2016-10-05 23:31:14.000000000,closed,2,Fix/relay import
+134,2016-10-05 21:35:16.000000000,2016-10-05 21:57:15.000000000,closed,0,extract libp2p-swarm
+133,2016-10-05 11:59:32.000000000,2016-10-25 04:47:22.000000000,closed,3,Readme.md: point to the right location for examples.
+132,2016-10-05 08:18:38.000000000,2016-10-05 08:36:27.000000000,closed,0,update deps
+131,2016-10-05 08:03:48.000000000,2016-10-05 08:09:12.000000000,closed,0,Feat/extracting 4
+130,2016-10-05 00:52:41.000000000,2016-10-05 01:04:12.000000000,closed,0,extract net interface and metrics
+129,2016-10-04 23:50:04.000000000,2016-10-05 00:22:02.000000000,closed,0,"extract conn, addr-util, and testutil"
+128,2016-10-04 08:43:05.000000000,2016-10-04 08:55:46.000000000,closed,0,extract protocol and maddr-filter
+127,2016-10-03 22:29:32.000000000,1970-01-01 00:00:00.000000001,open,0,Punching NAT behind PPPoE does't work
+126,2016-10-03 22:07:52.000000000,2016-10-03 22:41:25.000000000,closed,1,switch to using stdlib context package
+125,2016-09-30 21:30:05.000000000,2016-10-12 01:20:07.000000000,closed,0,Update README URLs based on HTTP redirects
+124,2016-09-30 00:42:11.000000000,2016-10-03 22:43:21.000000000,closed,2,Update go-reuseport
+123,2016-09-29 17:34:08.000000000,2016-09-29 22:58:57.000000000,closed,0,Fix locking issue introduced in 90eeff42fcd
+122,2016-09-29 08:30:32.000000000,2016-11-28 23:45:28.000000000,closed,1,host tests timed out
+121,2016-09-29 04:57:28.000000000,2016-09-30 04:28:00.000000000,closed,2,update mdns to version with fixed race condition
+120,2016-09-28 23:31:10.000000000,2016-11-03 00:31:22.000000000,closed,1,Race in dial
+119,2016-09-28 18:59:05.000000000,2018-07-10 00:39:52.000000000,closed,2,Update README URLs based on HTTP redirects
+118,2016-09-27 03:23:09.000000000,2016-09-27 03:35:41.000000000,closed,0,Update multiformats imports
+117,2016-09-25 16:19:37.000000000,2016-09-26 06:20:15.000000000,closed,0,split tcp transports out of the base package
+116,2016-09-23 13:07:31.000000000,2016-09-28 16:51:57.000000000,closed,3,"Update go-reuseport, publish 3.5.4"
+115,2016-09-20 09:04:27.000000000,2016-09-20 19:08:35.000000000,closed,0,don't block on DiscoverHandler
+114,2016-09-16 09:34:15.000000000,2016-09-16 23:11:27.000000000,closed,2,conn/dial: implement contextDial up the stack
+113,2016-09-15 21:23:44.000000000,2016-09-16 21:51:04.000000000,closed,0,Fix libp2p spec link
+112,2016-09-14 23:53:12.000000000,1970-01-01 00:00:00.000000001,open,4,InterfaceListenAddresses called way too often
+111,2016-09-13 23:45:50.000000000,1970-01-01 00:00:00.000000001,open,4,NAT Traversal testing
+110,2016-09-13 23:19:22.000000000,1970-01-01 00:00:00.000000001,open,1,Handling connection helpers
+109,2016-09-13 23:11:56.000000000,2018-09-11 19:52:40.000000000,closed,3,External gateway detection seems off
+108,2016-09-12 02:38:50.000000000,2016-09-12 03:16:57.000000000,closed,0,identify: send + consume public keys too
+107,2016-09-08 21:03:31.000000000,2016-09-16 23:12:07.000000000,closed,3,Improve swarm dial sync code
+106,2016-09-06 17:50:14.000000000,1970-01-01 00:00:00.000000001,open,0,more context wiring
+105,2016-09-06 03:29:41.000000000,2020-04-08 17:18:59.000000000,closed,2,Unsure about Connecting behaviour
+104,2016-09-06 01:48:56.000000000,2016-09-07 01:59:53.000000000,closed,0,swarm: externalize secio handshake errors
+103,2016-09-06 01:35:20.000000000,2016-09-13 23:12:27.000000000,closed,1,secio errors don't get surfaced to dialer
+102,2016-09-06 00:33:58.000000000,2016-09-07 01:54:57.000000000,closed,0,swarm: add optimized method for checking connectedness to peer
+101,2016-09-05 19:34:37.000000000,2016-09-05 19:53:49.000000000,closed,1,Update go-libp2p-peerstore to 1.2.4
+100,2016-09-04 20:52:58.000000000,2017-08-31 05:28:39.000000000,closed,1,TestConnHandler is flaky
+99,2016-09-04 19:14:28.000000000,2016-09-04 19:20:15.000000000,closed,1,swarm: pass in stream muxer on construct
+98,2016-09-03 21:45:22.000000000,2016-09-04 06:24:02.000000000,closed,1,"Bump 'go-libp2p-loggables', 'go-libp2p-secio', '*-transport', and 'go-libp2p-peerstore'"
+97,2016-09-03 20:41:46.000000000,2016-09-04 06:09:39.000000000,closed,1,Feat/just tcp example
+96,2016-08-27 03:04:31.000000000,2016-12-12 05:25:07.000000000,closed,2,add listing method to backoff for eventual api access
+95,2016-08-26 20:18:26.000000000,2016-09-15 02:38:15.000000000,closed,20,Retry NAT punching without duration on mapping failure
+94,2016-08-25 01:23:59.000000000,2016-08-25 23:20:45.000000000,closed,9,Update go-nat
+93,2016-08-25 00:47:19.000000000,2016-08-25 23:20:45.000000000,closed,0,update NAT library
+92,2016-08-19 23:36:49.000000000,1970-01-01 00:00:00.000000001,open,0,abuse upnp to do local peer discovery
+91,2016-08-19 02:45:43.000000000,2016-09-18 16:41:08.000000000,closed,0,swarm: add deadline for connection setup
+90,2016-08-18 04:33:40.000000000,1970-01-01 00:00:00.000000001,open,3,Allow peerstore to write to a go-datastore
+89,2016-08-17 23:47:35.000000000,2016-08-23 08:15:49.000000000,closed,8,Feat/protocol prefs
+88,2016-08-17 19:58:22.000000000,2016-08-18 01:14:29.000000000,closed,1,Update README.md
+87,2016-08-17 02:05:08.000000000,2016-08-18 03:48:41.000000000,closed,0,p2p/net/swarm: improve code coverage
+86,2016-08-17 00:12:42.000000000,2016-08-17 21:58:55.000000000,closed,4,p2p/host: expose multistream function matching and add semver func
+85,2016-08-16 19:06:34.000000000,2016-08-16 23:28:21.000000000,closed,0,update multistream deps with new match func changes
+84,2016-08-10 20:49:53.000000000,2016-08-11 08:47:22.000000000,closed,0,update multistream deps and fix code to work with new changes
+83,2016-08-09 21:20:59.000000000,1970-01-01 00:00:00.000000001,open,11,Hit >80% code coverage on all libp2p packages
+82,2016-08-08 19:36:58.000000000,1970-01-01 00:00:00.000000001,open,3,Implement (finish) circuit switching relay
+81,2016-08-08 16:25:15.000000000,2016-08-08 19:30:01.000000000,closed,10,Build Failure: Running gx install hangs fetching ipfs objects
+80,2016-08-04 16:47:48.000000000,2016-08-18 03:51:21.000000000,closed,0,lint: fixed a bunch of issues reported by gometalinter
+79,2016-07-31 04:12:27.000000000,1970-01-01 00:00:00.000000001,open,7,Do Not Merge: review and discuss adding tor onion transport
+78,2016-07-30 08:39:09.000000000,2016-07-30 14:23:57.000000000,closed,1,"No buildable Go source files when running ""go get"""
+77,2016-07-27 13:37:28.000000000,2016-07-27 13:40:48.000000000,closed,1,Ran gosimple (github.com/dominikh/go-simple) on go-libp2p
+76,2016-07-04 00:28:51.000000000,2016-07-04 23:14:56.000000000,closed,1,expose backoff manager in swarm
+75,2016-06-27 23:32:25.000000000,2016-09-14 02:33:13.000000000,closed,1,changes for compatability testing with js-ipfs
+74,2016-06-27 21:27:41.000000000,2016-06-28 03:11:22.000000000,closed,1,Fix logging in id.go
+73,2016-06-23 21:50:20.000000000,2016-06-24 20:35:56.000000000,closed,0,Feature/update go log
+72,2016-06-21 21:45:57.000000000,2017-08-23 22:07:28.000000000,closed,5,Standardized Readme
+71,2016-06-17 23:35:23.000000000,2016-11-03 00:11:02.000000000,closed,1,Updated specs link
+70,2016-06-15 23:45:56.000000000,2016-06-16 00:01:45.000000000,closed,0,update transport lib to only use utp when explcitly enabled
+69,2016-06-15 22:14:30.000000000,2016-06-15 23:46:02.000000000,closed,1,fix minor race condition in nat detection code
+68,2016-06-14 00:29:54.000000000,1970-01-01 00:00:00.000000001,open,0,decrease dial concurrency when LOW_MEM flag set
+67,2016-06-13 01:12:19.000000000,2016-06-13 04:59:51.000000000,closed,1,add hosts example
+66,2016-06-12 03:51:28.000000000,2017-08-19 21:42:52.000000000,closed,4,p2p/net/swarm: Fails to build due to dependency vendoring dependencies
+65,2016-06-11 03:50:22.000000000,2016-06-11 21:26:27.000000000,closed,0,update utp dependency and publish 3.3.3
+64,2016-06-10 19:21:40.000000000,1970-01-01 00:00:00.000000001,open,14,Example projects that use libp2p
+63,2016-06-02 00:43:13.000000000,2016-06-02 01:16:19.000000000,closed,1,fix consumption of observed remote addrs
+62,2016-06-01 23:45:16.000000000,2016-06-02 00:41:02.000000000,closed,1,gx publish version 3.3.0
+61,2016-06-01 22:49:19.000000000,2016-06-01 23:26:03.000000000,closed,2,revert yamux back to my patch pending hashicorp/yamux#30
+60,2016-06-01 03:26:22.000000000,2016-06-01 05:30:23.000000000,closed,0,split peerstore from peer package
+59,2016-05-31 04:48:02.000000000,2016-05-31 08:52:45.000000000,closed,0,update to official yamux fixes
+58,2016-05-30 23:41:33.000000000,2016-05-31 00:07:39.000000000,closed,3,don't leak goroutines when pings complete
+57,2016-05-25 18:44:28.000000000,2016-05-31 08:53:50.000000000,closed,1,Ping command creates a lot of goroutines
+56,2016-05-23 22:43:11.000000000,2016-08-22 14:53:19.000000000,closed,14,Moving DHT into libp2p from ipfs
+55,2016-05-17 19:26:28.000000000,2016-05-31 08:57:27.000000000,closed,0,add examples link to the readme
+54,2016-05-17 08:41:25.000000000,2016-05-17 21:09:49.000000000,closed,0,update new peerstore changes
+53,2016-05-17 02:30:11.000000000,2016-08-27 02:06:50.000000000,closed,2,add in experimental websocket support
+52,2016-05-16 21:37:32.000000000,2016-05-16 22:20:39.000000000,closed,0,gx publish version 3.2.1
+51,2016-05-16 18:45:36.000000000,2016-05-16 23:18:11.000000000,closed,2,Update id.go
+50,2016-05-16 05:58:52.000000000,2016-05-16 09:22:33.000000000,closed,0,yamux patches to help mitigate hanging issue
+49,2016-05-15 10:46:41.000000000,2016-05-15 11:05:56.000000000,closed,0,"close wait channel in all cases, not just success"
+48,2016-05-13 23:59:57.000000000,2016-05-14 00:33:17.000000000,closed,0,"update muxers, includes yamux deadlock fix"
+47,2016-05-11 00:19:13.000000000,2016-05-11 02:41:28.000000000,closed,0,update go-multiaddr and go-stream-muxer deps
+46,2016-05-06 07:38:39.000000000,2016-05-06 22:25:51.000000000,closed,0,add env var for overriding muxer prefs
+45,2016-04-29 03:02:14.000000000,1970-01-01 00:00:00.000000001,open,6,Connection Closing
+44,2016-04-27 23:17:34.000000000,2016-04-28 02:52:44.000000000,closed,0,add a read deadline for the multistream select on dial
+43,2016-04-27 21:15:19.000000000,2016-04-27 21:29:00.000000000,closed,0,recursive dependency update of utp lib
+42,2016-04-26 00:34:33.000000000,2018-09-18 21:02:08.000000000,closed,18,libp2p reuse
+41,2016-04-26 00:30:34.000000000,2018-08-31 01:07:32.000000000,closed,2,libp2p spec link in CONTRIBUTE is a broken link.
+40,2016-04-17 08:14:51.000000000,2016-04-28 00:34:21.000000000,closed,1,Publish 3.0.0
+39,2016-04-15 06:41:28.000000000,2016-04-17 08:13:11.000000000,closed,0,Bump to 2.0.3
+38,2016-04-15 03:48:27.000000000,2016-06-01 22:41:26.000000000,closed,3,refactor swarm dialing logic
+37,2016-04-12 10:29:03.000000000,2016-04-12 20:11:50.000000000,closed,1,Deps/cleanup
+36,2016-04-11 09:59:48.000000000,2016-04-13 07:46:34.000000000,closed,4,"Fix address filtering for /ip6, add tests"
+35,2016-04-10 10:12:27.000000000,2016-04-11 22:16:46.000000000,closed,5,Handle incoming conns in their own goroutines
+34,2016-04-09 00:09:52.000000000,2018-07-18 17:09:07.000000000,closed,18,abstraction for transport level streams
+33,2016-04-06 22:18:11.000000000,2016-04-07 00:48:16.000000000,closed,0,add multistream select to select which crypto to use
+32,2016-04-05 22:11:14.000000000,2019-02-20 07:48:15.000000000,closed,2,mocknet flaky under stress
+31,2016-04-03 02:05:19.000000000,2019-02-20 04:34:36.000000000,closed,2,mocknet newStream notification issue
+30,2016-03-28 21:24:48.000000000,2016-04-11 06:22:18.000000000,closed,0,Allow users to override the IPFS API address when fetching dependencies
+29,2016-03-24 11:05:12.000000000,2016-09-14 09:54:56.000000000,closed,1,Build failure (gx dependencies)
+28,2016-03-19 18:20:04.000000000,2016-03-19 21:16:08.000000000,closed,0,"fix #27, bad link"
+27,2016-03-16 22:10:34.000000000,2016-03-19 21:16:08.000000000,closed,1,"404-error for ""The IPFS Network Spec, which grew into libp2p"""
+26,2016-03-16 00:53:43.000000000,2017-03-15 16:19:50.000000000,closed,1,swap out metrics lib
+25,2016-03-08 12:18:30.000000000,2016-03-09 07:18:33.000000000,closed,0,switch to new version of go-stream-muxer
+23,2016-03-05 05:29:33.000000000,2019-02-20 04:33:12.000000000,closed,2,TestRateLimiting random failure
+22,2016-03-05 00:00:51.000000000,2016-03-05 05:49:02.000000000,closed,1,Add fallback dialer
+21,2016-03-04 03:56:22.000000000,2016-03-04 04:16:46.000000000,closed,1,use multiaddr format to do validation of addresses
+20,2016-03-04 02:10:09.000000000,2016-03-04 03:53:49.000000000,closed,0,update version of go-multiaddr
+19,2016-03-03 13:32:17.000000000,2016-03-16 22:38:35.000000000,closed,5,Set of examples
+18,2016-03-03 02:11:48.000000000,2019-02-20 04:30:46.000000000,closed,2,logger subsystems are off
+17,2016-02-22 20:43:22.000000000,2016-09-28 16:08:42.000000000,closed,2,Update README URLs based on HTTP redirects
+16,2016-02-17 05:16:18.000000000,2016-02-17 09:00:23.000000000,closed,0,make travis install gx deps
+15,2016-02-17 04:38:27.000000000,2016-02-18 10:10:46.000000000,closed,1,add remote multiaddr from active connection to peerstore
+14,2016-02-17 00:57:38.000000000,2016-02-17 01:02:14.000000000,closed,0,Remove superfluous square bracket
+13,2016-01-30 06:46:10.000000000,2016-01-30 09:52:33.000000000,closed,1,Leave overflow logic to go-msgio
+12,2015-11-27 04:34:06.000000000,2016-03-03 13:19:06.000000000,closed,0,WIP: getting interop between js and go swarm
+11,2015-11-27 04:19:26.000000000,2016-09-14 21:52:45.000000000,closed,4,Can we add vendor to .gitignore?
+10,2015-11-27 03:39:20.000000000,2016-04-05 23:38:50.000000000,closed,1,You could open a issue :P
+9,2015-11-24 22:20:09.000000000,2016-04-05 23:38:31.000000000,closed,1,go-ipfs cleanup
+8,2015-11-20 05:22:18.000000000,2015-11-20 07:57:51.000000000,closed,2,make new stream calls accept a context
+7,2015-11-19 20:23:09.000000000,2017-08-19 20:47:39.000000000,closed,1,Nov 18 sync up notes
+6,2015-11-18 21:45:37.000000000,2015-11-24 04:40:12.000000000,closed,2,docs/roadmap
+5,2015-11-18 00:13:15.000000000,2015-11-19 15:31:55.000000000,closed,0,add more information to the readme
+4,2015-11-17 23:01:34.000000000,2015-11-19 20:18:33.000000000,closed,0,bench test fails
+3,2015-11-17 23:00:55.000000000,2015-11-19 09:11:03.000000000,closed,5,missed deps
+2,2015-10-02 01:39:51.000000000,2015-10-02 14:28:43.000000000,closed,0,Update README.md
+1,2015-10-01 03:26:14.000000000,2015-11-19 09:11:15.000000000,closed,6,make it build

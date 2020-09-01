@@ -1,0 +1,1294 @@
+id,created_at,closed_at,state,comments,title
+1293,2020-08-22 07:54:12.000000000,2020-08-23 21:10:12.000000000,closed,1,It seems like nng_pipe_notify() also works on req/rep and pair mode
+1292,2020-08-18 23:35:34.000000000,2020-08-21 11:14:41.000000000,closed,3,Add snprintf wrapper if MSC_VER is less than 1900
+1291,2020-08-18 23:22:31.000000000,2020-08-21 11:15:09.000000000,closed,2,MSVC1800 does not like mixing macro variable names and suffixes
+1290,2020-08-17 11:34:52.000000000,2020-08-18 19:53:25.000000000,closed,3,Single-threaded nng-based applications?
+1289,2020-08-17 02:25:26.000000000,2020-08-17 18:31:38.000000000,closed,0,zerotier should have it's own copy of the id hashing code
+1288,2020-08-17 02:23:31.000000000,2020-08-17 18:31:38.000000000,closed,0,id allocation can overallocate
+1287,2020-08-16 01:27:28.000000000,2020-08-17 18:31:38.000000000,closed,1,This moves to a lock-free idhash.  (The caller must supply the lock.)
+1286,2020-08-14 00:16:50.000000000,2020-08-18 23:20:35.000000000,closed,6,Fixes for MSVC1800
+1285,2020-08-12 10:08:39.000000000,2020-08-18 19:53:16.000000000,closed,1,Question: udp work on two different port
+1284,2020-08-12 07:07:32.000000000,1970-01-01 00:00:00.000000001,open,1,nng_push0_open sometimes blocking
+1283,2020-08-09 19:32:50.000000000,1970-01-01 00:00:00.000000001,open,1,Consider moving the ZeroTier transport to a separate plugin
+1282,2020-08-09 14:29:23.000000000,2020-08-15 21:39:59.000000000,closed,4,UDP: nng_aio_result failed
+1281,2020-08-09 05:38:01.000000000,2020-08-09 07:12:10.000000000,closed,1,Threadname
+1280,2020-08-09 01:53:15.000000000,2020-08-09 03:41:00.000000000,closed,1,fixes #1279 Add support for ws4:// and ws6:// style websocket urls
+1279,2020-08-09 01:43:25.000000000,2020-08-09 03:41:00.000000000,closed,0,Add support for ws4:// and ws6:// style websocket urls
+1278,2020-08-08 22:04:27.000000000,2020-08-08 22:28:03.000000000,closed,1,fixes #1275 Test timeouts on FreeBSD
+1277,2020-08-08 21:34:24.000000000,2020-08-09 03:41:00.000000000,closed,0,FreeBSD errors due to bad v4 vs. v6 assumptions
+1276,2020-08-08 00:31:04.000000000,2020-08-08 02:19:23.000000000,closed,0,Prefix all tests with PROJECT_NAME
+1275,2020-08-04 22:24:53.000000000,2020-08-08 22:28:02.000000000,closed,2,Test timeouts on FreeBSD
+1274,2020-08-04 03:44:45.000000000,2020-08-08 22:08:26.000000000,closed,6,Massive message loss with Pair v1 Polyamorous
+1273,2020-08-03 10:40:24.000000000,2020-08-15 21:18:25.000000000,closed,2,win_io.c  line 64l nni_win_io_init  71 line
+1272,2020-08-02 23:40:01.000000000,2020-08-04 22:26:40.000000000,closed,7,Fix build on FreeBSD
+1271,2020-08-02 23:15:26.000000000,2020-08-02 23:16:43.000000000,closed,0,Manual page updates for v1.3.2
+1270,2020-08-02 20:58:44.000000000,2020-08-02 22:59:52.000000000,closed,0,Move web page publication tool to main branch
+1269,2020-08-02 13:01:46.000000000,2020-08-02 13:01:58.000000000,closed,0,Changes for tip
+1268,2020-07-28 06:58:55.000000000,2020-07-28 07:09:14.000000000,closed,1,Bug1247
+1267,2020-07-28 06:51:42.000000000,2020-07-28 07:09:14.000000000,closed,0,testutil cannot use ipc names on Windows
+1266,2020-07-27 03:50:52.000000000,2020-07-28 06:16:07.000000000,closed,3,fixes #844 WebSocket wildcard host errors
+1265,2020-07-26 22:50:59.000000000,2020-07-26 23:00:29.000000000,closed,1,fixes #1232 EVFILT_USER is not available on NetBSD
+1264,2020-07-26 22:00:41.000000000,2020-07-26 22:12:33.000000000,closed,1,fixes #1235 framing error in SSL/TLS
+1263,2020-07-26 01:20:00.000000000,2020-07-26 01:25:09.000000000,closed,3,WSL Ubuntu 20.04 nothing works?
+1262,2020-07-10 17:23:22.000000000,2020-07-24 18:42:56.000000000,closed,1,Print-friendly documentation
+1261,2020-07-09 16:27:19.000000000,1970-01-01 00:00:00.000000001,open,3,Add a nng_stream example paired with a socket server on win/linux
+1260,2020-07-07 14:14:56.000000000,2020-07-26 00:28:13.000000000,closed,2,nng_msg_alloc and size parameter
+1259,2020-07-06 22:20:49.000000000,2020-07-07 02:13:13.000000000,closed,1,Print NNG configuring message to STATUS mode.
+1258,2020-06-25 23:41:58.000000000,2020-06-30 17:35:54.000000000,closed,6,Socket closed unexpectedly
+1257,2020-06-16 22:10:45.000000000,2020-06-16 22:22:11.000000000,closed,1,fix #1252
+1256,2020-06-15 21:54:30.000000000,2020-06-15 22:15:52.000000000,closed,1,Support NNG_OPT_IPC_PEER_PID on modern macOS systems
+1255,2020-06-15 21:49:33.000000000,2020-06-15 22:15:52.000000000,closed,0,macOS support for NNG_OPT_IPC_PEER_PID
+1254,2020-06-10 02:49:25.000000000,2020-06-10 06:17:45.000000000,closed,4,aio lifetime best practice?
+1253,2020-06-08 23:08:33.000000000,2020-06-08 23:24:48.000000000,closed,3,"(android, termux, unix) nng_stream_get_addr anomaly"
+1252,2020-06-07 17:55:49.000000000,2020-06-16 22:22:11.000000000,closed,0,nng_msg_clear also clears the header
+1251,2020-06-07 14:28:44.000000000,2020-07-26 22:02:36.000000000,closed,1,build nng for android 
+1250,2020-05-31 16:43:38.000000000,2020-06-04 12:41:18.000000000,closed,5,TLS auth fails with certificate signed by unknown authority
+1249,2020-05-30 20:58:04.000000000,2020-05-31 00:15:51.000000000,closed,2,AIO with message replaced.
+1248,2020-05-26 06:25:13.000000000,2020-05-26 09:33:38.000000000,closed,1,fix typo in nng_cv_wait example
+1247,2020-05-25 18:01:52.000000000,2020-08-14 11:37:09.000000000,closed,12,nng_close deadlock with bus socket
+1246,2020-05-25 03:21:42.000000000,2020-05-25 17:56:48.000000000,closed,1,fixes #1241 SIGSEGV in RepReq's rep0 recv - use after free
+1245,2020-05-24 09:56:27.000000000,2020-05-24 22:58:37.000000000,closed,1,fixes #1230 NNG_OPT_RECONNMAXT zero does not prevent exponential back…
+1244,2020-05-24 06:04:29.000000000,2020-05-24 09:42:25.000000000,closed,1,fixes #1239 Use after free in tls
+1243,2020-05-24 03:43:46.000000000,2020-05-24 04:29:55.000000000,closed,2,Tests for sending large amounts of data over NNG TLS streams.
+1242,2020-05-18 05:28:42.000000000,2020-07-28 07:09:14.000000000,closed,1,EADDRINUSE is not reported on Win32
+1241,2020-05-11 02:52:20.000000000,2020-05-25 17:56:48.000000000,closed,39,SIGSEGV in RepReq's rep0 recv - use after free
+1240,2020-05-09 02:49:31.000000000,2020-05-11 02:52:28.000000000,closed,3,Clarification on ReqRep's NNG_OPT_REQ_RESENDTIME behaviour
+1239,2020-05-07 09:16:57.000000000,2020-05-24 09:42:25.000000000,closed,4,Use after free in tls
+1238,2020-05-07 09:09:05.000000000,2020-05-18 09:38:27.000000000,closed,3,fixes #1236 Deadlock triggered on nng_close
+1237,2020-05-03 23:40:41.000000000,2020-05-05 09:22:29.000000000,closed,0,atomic library check is backwards
+1236,2020-04-27 06:08:30.000000000,2020-05-18 09:38:27.000000000,closed,18,Deadlock triggered on nng_close
+1235,2020-04-16 15:26:54.000000000,2020-07-26 22:12:34.000000000,closed,20,framing error in SSL/TLS
+1234,2020-04-13 18:32:24.000000000,2020-04-13 20:06:05.000000000,closed,0,Fix message realloc test off by one str comparison
+1233,2020-04-13 08:46:16.000000000,2020-05-26 09:36:09.000000000,closed,5,fixes #1007 nngcat should accept data from stdin
+1232,2020-04-12 11:00:01.000000000,2020-07-26 23:00:29.000000000,closed,3,EVFILT_USER is not available on NetBSD
+1231,2020-04-04 16:07:29.000000000,2020-04-13 20:07:51.000000000,closed,1,Question
+1230,2020-04-02 14:11:27.000000000,2020-05-24 22:58:36.000000000,closed,1,NNG_OPT_RECONNMAXT zero does not prevent exponential back-off
+1229,2020-03-30 13:00:09.000000000,2020-05-23 05:40:21.000000000,closed,0,Add Vcpkg instructions
+1228,2020-03-29 21:40:27.000000000,2020-03-29 21:53:19.000000000,closed,1,fixes #1225 atomic check operation fails with android cross toolchain
+1227,2020-03-29 10:53:44.000000000,2020-03-29 20:01:52.000000000,closed,2,question
+1226,2020-03-28 20:46:47.000000000,1970-01-01 00:00:00.000000001,open,1,task threads should be created on demand
+1225,2020-03-25 16:43:10.000000000,2020-03-29 21:53:19.000000000,closed,11,atomic check operation fails with android cross toolchain
+1224,2020-03-19 18:48:29.000000000,2020-07-28 06:16:07.000000000,closed,6,wss fails on IPV6 address
+1223,2020-03-18 10:23:57.000000000,2020-03-29 21:37:23.000000000,closed,3,build nng with ndk in visual studio
+1222,2020-03-16 17:02:23.000000000,2020-03-29 22:01:54.000000000,closed,10,platforms support nng
+1221,2020-03-12 13:44:28.000000000,2020-03-28 20:47:44.000000000,closed,7,CMake support is inconsistent and causes build failure
+1220,2020-03-09 14:59:31.000000000,2020-03-11 00:03:32.000000000,closed,2,pub/sub : nothing received with nng_sub0_open()
+1219,2020-03-09 13:31:46.000000000,2020-05-18 09:38:27.000000000,closed,13,nng_close occasionally hang on Windows
+1218,2020-03-04 22:37:47.000000000,2020-03-15 13:41:39.000000000,closed,1,Online Documentation claims 1.2.5 is latest
+1217,2020-03-02 18:32:24.000000000,2020-03-28 20:52:45.000000000,closed,0,Fix type and object access when adding local interfaces.
+1216,2020-03-02 14:12:41.000000000,2020-03-15 10:30:31.000000000,closed,2,nng 1.2.6 nng_version  mistake
+1215,2020-03-02 04:52:23.000000000,1970-01-01 00:00:00.000000001,open,0,Desire support for matrixSSL
+1214,2020-03-01 20:50:06.000000000,1970-01-01 00:00:00.000000001,open,9,zerotier transport via ad-hoch networks
+1213,2020-02-28 13:47:18.000000000,2020-03-01 10:25:30.000000000,closed,24, memory leak ( I am not sure if it was by nng)
+1212,2020-02-27 17:49:46.000000000,2020-02-28 23:50:36.000000000,closed,11,Link Errors for nng in vs2019
+1211,2020-02-27 09:03:53.000000000,2020-02-27 10:07:58.000000000,closed,2,Inlineheader
+1210,2020-02-26 22:26:21.000000000,2020-02-27 10:15:37.000000000,closed,3,Undefined reference to InterlockedAddNoFence (mingw64)
+1209,2020-02-26 10:05:08.000000000,2020-02-26 10:17:39.000000000,closed,1,fixes #1201 Unexpected error return code: NNG_ENOMEM
+1208,2020-02-25 09:43:56.000000000,2020-02-26 10:41:51.000000000,closed,7,Edited
+1207,2020-02-24 19:04:47.000000000,2020-02-24 19:29:46.000000000,closed,2,fixes #1202 More than 120 threads was started by NNG
+1206,2020-02-24 06:31:32.000000000,2020-02-25 12:06:41.000000000,closed,0,Document TLS engine support
+1205,2020-02-20 23:22:36.000000000,2020-02-24 18:37:05.000000000,closed,4,Make include guards unique
+1204,2020-02-20 20:08:45.000000000,2020-02-24 06:11:51.000000000,closed,6,Closing rep socket triggered reqRecv callback and program crashed 
+1203,2020-02-20 09:08:15.000000000,2020-02-24 06:08:24.000000000,closed,1,fixes #1005 TLS 1.3 support
+1202,2020-02-17 13:16:05.000000000,2020-02-24 19:29:46.000000000,closed,4,More than 120 threads was started by NNG
+1201,2020-02-17 01:09:07.000000000,2020-02-26 10:17:39.000000000,closed,8,Unexpected error return code: NNG_ENOMEM
+1200,2020-02-16 09:34:35.000000000,1970-01-01 00:00:00.000000001,open,3,Shouldn't nng_http_server_stop be synchronous?
+1199,2020-02-16 03:17:29.000000000,2020-02-24 20:17:11.000000000,closed,1,Update comments in http.h
+1198,2020-02-14 23:18:10.000000000,2020-02-15 03:12:26.000000000,closed,9,nng_http_conn_read() causes crash
+1197,2020-02-14 05:25:40.000000000,2020-02-14 09:17:52.000000000,closed,1,Fix error checks
+1196,2020-02-14 04:38:17.000000000,2020-02-14 20:18:54.000000000,closed,1,Added atomic check for building on ARMs
+1195,2020-02-14 04:34:51.000000000,2020-02-14 20:18:54.000000000,closed,0,Build on Raspberry PI (ATOM cpu) fails during linking (references to atomic operations)
+1194,2020-02-11 19:30:07.000000000,2020-02-14 09:21:10.000000000,closed,1,Fix typos in comments
+1193,2020-02-09 01:48:50.000000000,2020-02-25 13:45:54.000000000,closed,2,Initial support for configuring TLS versions.
+1192,2020-02-08 10:36:25.000000000,2020-02-08 21:44:47.000000000,closed,1,Survey occasionally does not cancel properly.
+1191,2020-02-08 02:56:56.000000000,2020-02-09 01:49:26.000000000,closed,2,Problems building for QNX
+1190,2020-02-07 08:15:34.000000000,2020-02-08 08:07:30.000000000,closed,1,fixes #1189 Extract and deprecate polyamorous mode
+1189,2020-02-07 08:12:51.000000000,2020-02-08 08:07:30.000000000,closed,0,Extract and deprecate polyamorous mode
+1188,2020-02-06 14:15:32.000000000,2020-02-06 14:42:33.000000000,closed,1,Survnomq
+1187,2020-02-06 11:43:49.000000000,2020-02-06 12:05:04.000000000,closed,1,inline the pipe aios for pair0
+1186,2020-02-06 10:51:32.000000000,2020-02-06 10:56:20.000000000,closed,2,fixes #1182 v1.2.5 build fails gcc 4.8
+1185,2020-02-06 10:32:24.000000000,2020-02-06 10:43:50.000000000,closed,1,fixes #1180 use of inline strdup in a few places
+1184,2020-02-06 01:54:29.000000000,2020-02-06 11:34:46.000000000,closed,4,Fix possible use after free
+1183,2020-02-05 13:19:10.000000000,2020-02-05 13:42:08.000000000,closed,1,Survey test rewrite.
+1182,2020-02-03 03:20:31.000000000,2020-02-06 10:56:20.000000000,closed,0,v1.2.5 build fails gcc 4.8
+1181,2020-02-01 13:39:03.000000000,2020-02-01 20:36:00.000000000,closed,0,Fix stats build error.
+1180,2020-01-30 22:56:29.000000000,2020-02-25 12:52:33.000000000,closed,4,use of inline strdup instances in a few places
+1179,2020-01-29 08:55:49.000000000,2020-02-01 20:36:43.000000000,closed,2,Build issue when NNG_ENABLE_STATS is OFF
+1178,2020-01-28 11:44:32.000000000,2020-03-29 21:33:28.000000000,closed,2,should use gcc atomics if present
+1177,2020-01-27 21:28:10.000000000,2020-01-28 11:43:38.000000000,closed,5,Issues building for QNX
+1176,2020-01-24 23:28:04.000000000,2020-01-28 01:54:06.000000000,closed,3,Unable to build latest
+1175,2020-01-23 17:20:09.000000000,1970-01-01 00:00:00.000000001,open,5,nng_listen occasionally fails when reusing ipc socket on Windows
+1174,2020-01-21 21:27:38.000000000,1970-01-01 00:00:00.000000001,open,2,use github actions to autopublish doc updates
+1173,2020-01-21 21:26:29.000000000,2020-08-02 20:51:41.000000000,closed,2,consider libasciidoc for doc generation
+1172,2020-01-21 21:23:54.000000000,1970-01-01 00:00:00.000000001,open,1,nni_aio_lk is white hot
+1171,2020-01-21 12:51:11.000000000,2020-02-27 10:07:58.000000000,closed,2,message header could be inlined in the message structure
+1170,2020-01-21 12:35:41.000000000,2020-01-21 12:48:55.000000000,closed,1,fixes #1169 survey and xsurvey could use message cloning
+1169,2020-01-21 12:26:50.000000000,2020-01-21 12:48:55.000000000,closed,0,survey and xsurvey could use message cloning
+1168,2020-01-21 12:24:13.000000000,2020-01-21 12:31:13.000000000,closed,0,Make nngcat bash scripts executable
+1167,2020-01-21 11:11:18.000000000,2020-08-09 20:39:47.000000000,closed,0,zerotier needs a chkopt
+1166,2020-01-21 10:53:03.000000000,2020-01-21 11:11:57.000000000,closed,3,fixes #1162 req_test needs to have better retry tests
+1165,2020-01-21 10:52:44.000000000,2020-01-21 11:03:45.000000000,closed,1,raw REQ does not use sticky routing
+1164,2020-01-21 05:05:02.000000000,2020-01-21 08:32:49.000000000,closed,1,fixes #1163 compat tests are very brittle
+1163,2020-01-21 01:03:29.000000000,2020-01-21 08:32:48.000000000,closed,0,compat tests are very brittle
+1162,2020-01-21 00:38:54.000000000,2020-01-21 11:11:57.000000000,closed,0,req_test needs to have better retry tests
+1161,2020-01-21 00:07:27.000000000,2020-01-21 01:05:16.000000000,closed,1,fixes #1159 inproc could skip message queue
+1160,2020-01-20 20:46:58.000000000,2020-01-21 12:48:55.000000000,closed,0,Consider limiting maximum hop count to 15
+1159,2020-01-20 20:40:03.000000000,2020-01-21 01:05:16.000000000,closed,1,inproc could skip message queue
+1158,2020-01-20 13:21:18.000000000,2020-01-28 11:43:10.000000000,closed,4,Feature/uri length ordering
+1157,2020-01-20 09:24:35.000000000,2020-01-21 03:33:11.000000000,closed,1,fixes #1156 Message cloning could help reduce copies a lot
+1156,2020-01-20 09:00:11.000000000,2020-01-21 03:33:11.000000000,closed,0,Message cloning could help reduce copies a lot
+1155,2020-01-20 08:36:10.000000000,2020-01-20 08:56:44.000000000,closed,1,fixes #1154 perf programs could use options to select different proto…
+1154,2020-01-20 08:08:59.000000000,2020-01-20 08:56:44.000000000,closed,0,perf programs could use options to select different protocols
+1153,2020-01-19 22:41:50.000000000,2020-01-19 23:07:04.000000000,closed,1,fixes #1145 nng_msg options should be removed
+1152,2020-01-19 21:42:24.000000000,2020-01-19 22:26:35.000000000,closed,1,fixes #1151 minor pairv1 optimizations possible
+1151,2020-01-19 20:18:17.000000000,2020-01-19 22:26:35.000000000,closed,2,minor pairv1 optimizations possible
+1150,2020-01-19 13:55:11.000000000,2020-01-20 06:35:36.000000000,closed,5,Add access-control-allow-origin header to http server response for ha…
+1149,2020-01-19 11:38:02.000000000,2020-03-29 22:33:10.000000000,closed,7,resolv test failed on alpine linux image
+1148,2020-01-19 10:33:21.000000000,2020-01-19 19:45:54.000000000,closed,4,How to build Docker image?
+1147,2020-01-19 07:20:53.000000000,2020-01-19 19:38:31.000000000,closed,5,Some questions about pub/sub.
+1146,2020-01-19 03:38:01.000000000,2020-01-19 19:46:57.000000000,closed,1,fixes #1142 raw mode use of message headers is inconsistent
+1145,2020-01-19 01:53:45.000000000,2020-01-19 23:07:04.000000000,closed,0,nng_msg options should be removed
+1144,2020-01-19 00:30:47.000000000,2020-01-19 00:46:33.000000000,closed,1,TTL reads could be fewer.
+1143,2020-01-18 23:50:28.000000000,2020-01-19 00:12:06.000000000,closed,1,Msgheader
+1142,2020-01-17 10:27:07.000000000,2020-01-19 19:46:56.000000000,closed,1,raw mode use of message headers is inconsistent
+1141,2020-01-16 21:29:49.000000000,2020-01-21 20:33:31.000000000,closed,0,"nng_http_client_transact(), chunked encoding"
+1140,2020-01-16 15:23:10.000000000,2020-01-19 07:29:53.000000000,closed,6,Fix URI test that fails on all non-base URIs
+1139,2020-01-16 11:17:19.000000000,2020-01-17 09:50:05.000000000,closed,1,RESPOND needs to use atomic for TTL.
+1138,2020-01-14 13:49:53.000000000,2020-01-16 21:32:54.000000000,closed,4,Closing nng_aio in aio callback
+1137,2020-01-14 13:47:23.000000000,2020-01-16 14:54:49.000000000,closed,2,Do Bus/Survey no longer support NNG_OPT_LOCADDR?
+1136,2020-01-14 08:32:53.000000000,2020-01-14 08:42:20.000000000,closed,1,XSURVEY test suite added.
+1135,2020-01-14 06:28:48.000000000,2020-01-14 07:13:55.000000000,closed,1,Remove the old PUB/SUB tests.
+1134,2020-01-13 12:14:03.000000000,2020-01-28 12:20:16.000000000,closed,0,CMake should use nng.h to determine SOVERSION etc.
+1133,2020-01-13 12:04:48.000000000,2020-01-13 12:20:15.000000000,closed,1,Subtest
+1132,2020-01-13 12:00:23.000000000,2020-01-13 12:20:15.000000000,closed,1,Masking error in LMQ leads to corruption
+1131,2020-01-13 05:36:50.000000000,2020-01-13 12:30:03.000000000,closed,1,(openindiana) compile error
+1130,2020-01-12 05:26:50.000000000,2020-01-12 23:11:21.000000000,closed,1,Test coverage improvements for REQ.
+1129,2020-01-12 02:18:06.000000000,2020-01-12 03:27:53.000000000,closed,1,XREQ and others race on TTL.
+1128,2020-01-11 19:18:23.000000000,2020-01-24 13:03:24.000000000,closed,2,Wrong link to latest docs in old versions
+1127,2020-01-10 14:46:38.000000000,2020-02-25 13:02:48.000000000,closed,2,nng_ctx_send() does not handle data set via nng_aio_set_iov()
+1126,2020-01-09 13:53:06.000000000,2020-08-17 18:31:39.000000000,closed,1,consider removing lock from idhash
+1125,2020-01-09 12:58:32.000000000,2020-01-09 13:46:03.000000000,closed,1,fixes #1124 data race on ttl in xrep
+1124,2020-01-09 11:29:36.000000000,2020-01-09 13:46:03.000000000,closed,0,data race on ttl in xrep
+1123,2020-01-09 11:05:09.000000000,2020-01-09 11:27:29.000000000,closed,1,fixes #1121 reconnect test failures (Darwin?)
+1122,2020-01-09 10:27:56.000000000,2020-02-24 19:08:49.000000000,closed,1,surveyttl test seems fragile
+1121,2020-01-09 10:27:16.000000000,2020-01-09 11:27:29.000000000,closed,0,reconnect test failures (Darwin?)
+1120,2020-01-09 10:10:48.000000000,2020-01-09 10:28:22.000000000,closed,1,fixes #1094 Consider in-lining task and aio
+1119,2020-01-08 21:38:34.000000000,2020-01-09 14:26:28.000000000,closed,5,Re-using buffers when sending messages
+1118,2020-01-06 10:14:02.000000000,2020-01-06 20:46:41.000000000,closed,1,fixes #1117 task structures should be inlined
+1117,2020-01-06 10:12:58.000000000,2020-01-06 20:46:41.000000000,closed,0,task structures should be inlined
+1116,2020-01-06 09:40:46.000000000,2020-01-06 09:52:12.000000000,closed,0,task_reap can be eliminated
+1115,2020-01-06 06:33:45.000000000,2020-01-06 09:52:12.000000000,closed,1,no more task_reap.
+1114,2020-01-06 06:20:23.000000000,2020-01-06 06:25:51.000000000,closed,1,Build fails if stats are disabled.
+1113,2020-01-06 04:23:53.000000000,2020-01-09 09:27:04.000000000,closed,2,Taskreap (WIP)
+1112,2020-01-06 02:22:09.000000000,2020-01-06 02:55:24.000000000,closed,0,POSIX pollq finalizers could be simpler
+1111,2020-01-06 00:23:48.000000000,2020-01-06 02:55:24.000000000,closed,1,Changes to the posix poller to ensure that fini is always safe.
+1110,2020-01-05 01:44:03.000000000,2020-01-05 02:39:13.000000000,closed,1,fixes #1096 inline all 16 iovs in aio (also consider reducing -- to 8?)
+1109,2020-01-05 00:12:00.000000000,2020-01-05 02:39:13.000000000,closed,0,clocks can be off by a lot with sanitizer
+1108,2020-01-04 23:29:02.000000000,2020-01-05 00:17:06.000000000,closed,1,"fixes #1105 pollable can be inlined, and use atomics"
+1107,2020-01-04 07:04:47.000000000,2020-01-04 07:18:56.000000000,closed,1,fixes #1104 move allocation of protocol objects to common core
+1106,2020-01-04 05:53:58.000000000,2020-01-04 23:33:41.000000000,closed,2,Aioclean WIP
+1105,2020-01-04 02:12:13.000000000,2020-01-05 00:17:06.000000000,closed,0,"pollable can be inlined, and use atomics"
+1104,2020-01-04 00:00:57.000000000,2020-01-04 07:18:56.000000000,closed,0,move allocation of protocol objects to common core
+1103,2020-01-03 23:56:29.000000000,2020-01-04 07:18:56.000000000,closed,0,respondent could inline backtrace
+1102,2020-01-03 11:29:16.000000000,2020-01-03 11:37:30.000000000,closed,1,More REP protocol coverage tests.
+1101,2020-01-03 10:34:57.000000000,2020-02-24 19:09:05.000000000,closed,1,surveyctx test is racy
+1100,2020-01-03 09:54:16.000000000,2020-01-03 11:10:23.000000000,closed,1,fixes #1099 Should inline backtrace buffer in REP
+1099,2020-01-03 09:48:53.000000000,2020-01-03 11:10:23.000000000,closed,0,Should inline backtrace buffer in REP
+1098,2020-01-03 09:47:11.000000000,2020-01-21 12:48:56.000000000,closed,2,Maximum maxTTL should be compile time defined
+1097,2020-01-03 08:34:55.000000000,2020-01-05 02:39:13.000000000,closed,1,aio prov_data not used at all
+1096,2020-01-03 08:26:04.000000000,2020-01-05 02:39:12.000000000,closed,1,inline all 16 iovs in aio (also consider reducing -- to 8?)
+1095,2020-01-03 08:02:45.000000000,1970-01-01 00:00:00.000000001,open,0,Need to cover Windows 32 bit in our CI pipeline
+1094,2020-01-03 07:59:44.000000000,2020-01-09 10:28:21.000000000,closed,1,Consider in-lining task and aio
+1093,2020-01-03 07:17:33.000000000,2020-01-03 07:22:28.000000000,closed,1,GitHub actions need to run on pull requests too.
+1092,2020-01-03 07:04:04.000000000,2020-01-03 07:09:20.000000000,closed,7,Fixes broken win32 build.
+1091,2020-01-03 06:48:57.000000000,2020-01-03 07:05:17.000000000,closed,1,fixes #1090 nni_strlcat is unused
+1090,2020-01-02 20:39:37.000000000,2020-01-03 07:05:17.000000000,closed,0,nni_strlcat is unused
+1089,2020-01-02 12:02:34.000000000,2020-01-02 12:20:57.000000000,closed,1,fixes #1088 REP protocol does not signal SENDFD properly
+1088,2020-01-02 11:58:52.000000000,2020-01-02 12:20:57.000000000,closed,0,REP protocol does not signal SENDFD properly
+1087,2020-01-02 10:56:54.000000000,1970-01-01 00:00:00.000000001,open,0,CMakeLists structural improvements desired
+1086,2020-01-02 10:54:40.000000000,2020-01-21 01:28:37.000000000,closed,5,spin locks can help
+1085,2020-01-02 07:03:43.000000000,2020-01-02 07:14:41.000000000,closed,2,fixes #1083 Random number improvements
+1084,2020-01-01 14:33:30.000000000,2020-01-01 22:37:38.000000000,closed,0,Add error message for NNG_ECONNSHUT
+1083,2020-01-01 07:31:55.000000000,2020-01-02 07:14:41.000000000,closed,0,Random number improvements
+1082,2020-01-01 07:24:11.000000000,2020-01-01 22:16:13.000000000,closed,1,fixes #1081 Use after free possible in stats
+1081,2020-01-01 04:09:04.000000000,2020-01-01 22:16:12.000000000,closed,0,Use after free possible in stats
+1080,2020-01-01 04:07:53.000000000,2020-01-01 22:16:13.000000000,closed,0,Desire better way to access statistics for NNG objects
+1079,2019-12-31 04:06:08.000000000,2019-12-31 06:10:47.000000000,closed,0,Use after free panic in tcp_dialer
+1078,2019-12-31 03:21:42.000000000,2019-12-31 06:10:46.000000000,closed,1,fixes #1075 WebSocket heap use after free
+1077,2019-12-30 14:39:20.000000000,2019-12-31 00:55:30.000000000,closed,3,Fix/nng enable stats
+1076,2019-12-30 14:28:10.000000000,2019-12-30 14:40:26.000000000,closed,0,Add nng_http_server_get_address to cmake for generation of docs
+1075,2019-12-30 13:47:48.000000000,2019-12-31 06:10:46.000000000,closed,2,WebSocket heap use after free
+1074,2019-12-30 11:46:26.000000000,2019-12-30 13:26:03.000000000,closed,1,Online documentation is out of date
+1073,2019-12-30 11:40:46.000000000,2019-12-30 13:31:58.000000000,closed,0,Bump minor version
+1072,2019-12-30 11:38:48.000000000,2019-12-30 12:00:39.000000000,closed,1,fixes #1071 tran_chkopt can be cleaned up
+1071,2019-12-30 10:00:09.000000000,1970-01-01 00:00:00.000000001,open,2,tran_chkopt can be cleaned up
+1070,2019-12-30 05:52:01.000000000,2019-12-30 10:09:09.000000000,closed,1,fixes #1059 compat_tcp test sometimes times out
+1069,2019-12-30 03:42:40.000000000,2019-12-30 04:28:33.000000000,closed,1,fixes #1064 Potential deadlock in statistics code
+1068,2019-12-30 03:41:26.000000000,2019-12-30 04:28:34.000000000,closed,0,Wssfile test sometimes fails with wrong error code
+1067,2019-12-30 02:56:48.000000000,2019-12-30 05:50:10.000000000,closed,1,Potential deadlock in statistics code
+1066,2019-12-29 23:18:13.000000000,2019-12-29 23:34:47.000000000,closed,1,Asan
+1065,2019-12-29 23:10:02.000000000,2019-12-29 23:34:47.000000000,closed,1,resolver leaks work structures
+1064,2019-12-29 02:22:10.000000000,1970-01-01 00:00:00.000000001,open,1,Want coverage for Windows pipeline
+1063,2019-12-29 02:19:33.000000000,2019-12-30 04:28:33.000000000,closed,0,Include sanitizer runs in CI
+1062,2019-12-29 01:02:39.000000000,2019-12-29 02:02:54.000000000,closed,0,Windows client connections cannot get NNG_OPT_LOCADDR
+1061,2019-12-28 23:57:28.000000000,2019-12-29 02:02:54.000000000,closed,1,fixes #986 ws_read_finish_str free invalid pointer
+1060,2019-12-28 12:44:01.000000000,2019-12-30 11:39:14.000000000,closed,7,Add http server method for getting port number
+1059,2019-12-28 09:46:41.000000000,2019-12-30 10:09:09.000000000,closed,1,compat_tcp test sometimes times out
+1058,2019-12-28 09:27:53.000000000,2019-12-28 09:40:34.000000000,closed,1,Ged/bug1057
+1057,2019-12-28 08:31:52.000000000,2019-12-28 09:40:34.000000000,closed,0,reqpoll test fails (bad test logic) sometimes
+1056,2019-12-28 07:19:30.000000000,2019-12-28 08:17:55.000000000,closed,1,Ged/wssfile
+1055,2019-12-28 04:58:41.000000000,2019-12-28 05:30:21.000000000,closed,1,fixes #1042 testutil.h could offer better test failure diagnosis
+1054,2019-12-28 00:32:42.000000000,2019-12-28 01:00:07.000000000,closed,1,Fix codecov ignore paths.
+1053,2019-12-27 15:24:50.000000000,2019-12-28 01:38:42.000000000,closed,2,Attempt at improved coverage for Darwin and mbedTLS.
+1052,2019-12-27 14:08:02.000000000,2019-12-27 14:28:06.000000000,closed,0,fixes #1051 nni_ntop is unused
+1051,2019-12-27 14:02:37.000000000,2019-12-27 14:28:06.000000000,closed,0,nni_ntop is unused
+1050,2019-12-27 10:01:07.000000000,2019-12-27 12:56:48.000000000,closed,1,fixes #1031 Code coverage is busted
+1049,2019-12-27 07:10:21.000000000,2019-12-27 08:57:19.000000000,closed,1,fixes #940 httpclient Timeout can succeed in cloud
+1048,2019-12-27 06:10:05.000000000,1970-01-01 00:00:00.000000001,open,0,nng_aio reuse error messages are unhelpful
+1047,2019-12-27 05:25:19.000000000,2019-12-27 06:06:46.000000000,closed,1,Reference count TCP dialers. (WIP)
+1046,2019-12-27 05:00:43.000000000,2019-12-27 05:24:36.000000000,closed,0,Various clang tidy fixups in the POSIX pollers.
+1045,2019-12-26 13:14:29.000000000,2019-12-28 01:39:11.000000000,closed,5,Add possibility to use mbedtls cmake target if available
+1044,2019-12-26 10:24:17.000000000,2019-12-27 09:01:34.000000000,closed,0,Httpclientfix (WIP)
+1043,2019-12-25 22:48:47.000000000,2019-12-25 23:20:56.000000000,closed,0,fixes #1040 Convert rest of the protocols to new CMake infra
+1042,2019-12-25 22:48:35.000000000,2019-12-28 05:30:21.000000000,closed,1,testutil.h could offer better test failure diagnosis
+1041,2019-12-25 17:14:30.000000000,1970-01-01 00:00:00.000000001,open,8,Abstract socket address for IPC
+1040,2019-12-25 03:44:13.000000000,2019-12-25 23:20:56.000000000,closed,0,Convert rest of the protocols to new CMake infra
+1039,2019-12-25 03:02:42.000000000,2019-12-25 03:29:36.000000000,closed,0,fixes #1038 Linux should use getentropy or getrandom
+1038,2019-12-25 03:00:40.000000000,2019-12-25 03:29:36.000000000,closed,0,Linux should use getentropy or getrandom
+1037,2019-12-24 14:02:43.000000000,2019-12-27 06:06:46.000000000,closed,6,http client crashes (pthread lock bugs)
+1036,2019-12-24 13:42:55.000000000,2019-12-24 14:09:49.000000000,closed,0,Forgot to change the semver for v1.2!!
+1035,2019-12-24 13:31:05.000000000,2019-12-24 13:53:27.000000000,closed,0,Convey is awkward -- consider acutest.h
+1034,2019-12-24 13:27:51.000000000,2019-12-24 13:53:27.000000000,closed,0,POSIX atomic handing default case is busted
+1033,2019-12-22 13:39:49.000000000,1970-01-01 00:00:00.000000001,open,5,Consider using libdispatch on macOS
+1032,2019-12-22 13:37:22.000000000,2019-12-24 13:53:27.000000000,closed,0,Figure out Darwin bustedness
+1031,2019-12-22 13:35:13.000000000,2019-12-27 12:56:48.000000000,closed,0,Code coverage is busted
+1030,2019-12-21 23:23:13.000000000,2019-12-24 13:53:27.000000000,closed,0,WIP: Start of work moving towards simpler acutest.h
+1029,2019-12-18 20:40:06.000000000,2020-02-14 20:20:09.000000000,closed,3,Problem building nng for Raspberry Pi4
+1028,2019-12-16 10:25:21.000000000,2020-03-28 20:58:27.000000000,closed,3,add demo/reqrep into automatic Cmake build
+1027,2019-12-12 18:10:40.000000000,2019-12-12 18:21:18.000000000,closed,0,"New badge styles, badges for lgtm and workflows."
+1026,2019-12-12 10:32:05.000000000,2019-12-27 05:25:38.000000000,closed,0,Attempt to fix clock on macOS
+1025,2019-12-12 07:59:50.000000000,2019-12-12 10:30:50.000000000,closed,0,Initial swag at GitHub actions.
+1024,2019-12-11 09:36:56.000000000,2019-12-11 09:54:07.000000000,closed,1,Complaints found by automated CI.
+1023,2019-12-10 20:38:16.000000000,2019-12-11 08:20:09.000000000,closed,0,Fix typo in websocket/CMakeLists.txt
+1022,2019-12-04 20:45:05.000000000,1970-01-01 00:00:00.000000001,open,4,Support tcp6 link local addresses
+1021,2019-12-01 21:12:04.000000000,1970-01-01 00:00:00.000000001,open,3,Feature Request: Serving Files directly from a zip file...
+1020,2019-12-01 21:05:47.000000000,1970-01-01 00:00:00.000000001,open,1,Feature Request: ACME letsencrypt support
+1019,2019-11-27 15:43:14.000000000,2019-11-29 10:39:51.000000000,closed,4,Can u give us a async client for IPC req/rep mode
+1018,2019-11-27 11:15:23.000000000,2019-12-27 06:08:46.000000000,closed,13,nng library panic
+1017,2019-11-19 16:44:08.000000000,2019-12-12 06:57:35.000000000,closed,1,Add nng manual to sponsoring options
+1016,2019-11-12 01:59:09.000000000,2020-01-21 08:40:26.000000000,closed,6,Question regarding thread count
+1015,2019-11-11 01:31:04.000000000,2020-05-24 22:57:27.000000000,closed,3,Add support for clang-format custom target
+1014,2019-11-11 00:30:12.000000000,1970-01-01 00:00:00.000000001,open,3,Add support for Clang-Tidy
+1013,2019-11-10 18:52:42.000000000,2019-11-12 10:01:54.000000000,closed,0,fixes #1004 Warning found by clang --analyze
+1012,2019-11-10 18:26:02.000000000,2019-11-10 18:50:01.000000000,closed,1,Use sizeof ws_url in snprintf to avoid overflow warning
+1011,2019-11-10 17:14:35.000000000,2019-11-10 18:29:47.000000000,closed,2,snprintf argument overflow in ws test code
+1010,2019-11-07 06:17:34.000000000,2019-11-08 16:09:08.000000000,closed,1,building with make (without cmake)
+1009,2019-11-04 02:28:18.000000000,2019-11-04 20:03:54.000000000,closed,1,change www.example.com SHA1 hash (document was updated 2019-10-17)
+1008,2019-11-04 02:11:46.000000000,2019-11-04 20:03:54.000000000,closed,4,httpclient test should not rely on SHA1 hash of www.example.com response body
+1007,2019-11-03 00:09:56.000000000,2020-05-26 09:36:10.000000000,closed,2,nngcat should accept --data or --file over stdin
+1006,2019-10-26 22:54:01.000000000,1970-01-01 00:00:00.000000001,open,17,Can we provide a way for applications to know when system calls were interrupted (the EINTR case)
+1005,2019-10-26 05:00:06.000000000,2020-02-24 06:08:24.000000000,closed,11,TLS 1.3 support
+1004,2019-10-25 21:51:57.000000000,2019-11-12 10:01:53.000000000,closed,1,Warning found by clang --analyze 
+1003,2019-10-24 07:59:22.000000000,2019-10-24 18:34:12.000000000,closed,3,why there is no a new release version since last release (2018.10)?
+1002,2019-10-21 09:57:30.000000000,2019-12-22 13:32:18.000000000,closed,8,Build with mbedtls having error
+1001,2019-10-09 09:38:04.000000000,2019-10-09 09:42:44.000000000,closed,0,nng repeatly send msg to nanomsg  under reqrep mode
+1000,2019-10-08 12:56:21.000000000,2019-10-26 16:17:04.000000000,closed,2,Any tls+tcp transport example ?
+999,2019-10-06 00:38:35.000000000,2019-11-10 18:49:12.000000000,closed,1,NNG_OPT_SUB_SUBSCRIBE: nng_setopt vs nng_setopt_string
+998,2019-10-03 17:59:01.000000000,2019-12-11 21:49:22.000000000,closed,5,How could I write a async server using nng?
+997,2019-09-26 03:12:13.000000000,2019-11-03 23:24:48.000000000,closed,10,Add option to SUB0 protocol to prefer newer messages when queue is full
+996,2019-09-16 09:43:05.000000000,2019-09-23 01:06:09.000000000,closed,1,[Question] How to do service discovery across different machines?
+995,2019-09-12 22:07:36.000000000,2019-10-24 18:35:00.000000000,closed,3,pair1 with NNG_OPT_PAIR1_POLY always discards datas(event one pair and tiny datas) when sending
+994,2019-09-06 18:56:55.000000000,2019-09-06 21:35:03.000000000,closed,1,nng cmake with ccache
+993,2019-09-04 19:23:25.000000000,2019-09-23 18:26:41.000000000,closed,2,"aoi callbacks to  c++ classes, inspiration wanted "
+992,2019-08-28 20:36:29.000000000,2019-09-23 01:20:02.000000000,closed,5,Crash - panic
+991,2019-08-26 10:55:34.000000000,2019-09-23 01:26:25.000000000,closed,2,Can nng support raw socket (without protocol)?
+990,2019-08-25 00:52:35.000000000,2019-08-25 02:08:00.000000000,closed,1,How to implement async pair
+989,2019-08-20 15:29:14.000000000,2019-09-23 01:23:00.000000000,closed,2,Errors when compiling for iOS platform
+988,2019-08-20 01:58:39.000000000,2019-08-25 02:09:27.000000000,closed,1,[Q] Stability of master branch
+987,2019-08-19 18:24:54.000000000,2019-09-23 17:53:17.000000000,closed,1,Memory leak in ipc_dialer_dial (Windows) 
+986,2019-08-15 06:51:18.000000000,2019-12-29 02:02:53.000000000,closed,16, ws_read_finish_str  free invalid pointer
+985,2019-08-13 00:00:26.000000000,2019-09-26 15:41:00.000000000,closed,0,fixes some typos in documentation
+984,2019-08-12 23:54:00.000000000,2019-09-23 18:21:16.000000000,closed,0,fixes condition for the nng_rep_open_raw macro
+983,2019-08-12 10:10:58.000000000,2019-08-12 19:07:08.000000000,closed,2,how does the server detect network status changes?
+982,2019-08-12 06:01:20.000000000,2019-08-12 19:04:42.000000000,closed,0,fixes #976 websocket stream calls incorrect completion callback
+981,2019-08-10 06:30:45.000000000,2019-09-25 05:50:18.000000000,closed,10,fixes #970 TCP connections through docker-proxy do not reconnect
+980,2019-08-10 05:42:13.000000000,2019-08-11 21:17:36.000000000,closed,1,fixes #979 ZeroTier fails with zero recvmax
+979,2019-08-10 05:38:45.000000000,2019-08-11 21:17:37.000000000,closed,0,ZeroTier fails with zero recvmax
+978,2019-08-10 05:24:47.000000000,1970-01-01 00:00:00.000000001,open,0,Revisit ZeroTier window size
+977,2019-08-09 19:03:39.000000000,2019-09-23 18:27:30.000000000,closed,3,nng_setopt_size for send buffer
+976,2019-08-09 07:22:43.000000000,2019-08-12 19:04:43.000000000,closed,9,websocket stream calls incorrect completion callback
+975,2019-08-08 09:29:59.000000000,2019-08-10 04:44:05.000000000,closed,1,nng_http_res_alloc does not init status code properly
+974,2019-08-06 18:09:07.000000000,2019-08-10 05:26:27.000000000,closed,1,Set a rcvmax for ZeroTier transport if 0
+973,2019-07-29 15:57:34.000000000,2020-03-28 20:55:51.000000000,closed,2,Fix/prototypes
+972,2019-07-29 11:47:55.000000000,1970-01-01 00:00:00.000000001,open,9,Very slow pull/push performance compared to ZMQ
+971,2019-07-18 07:36:09.000000000,2019-07-20 21:18:52.000000000,closed,1,fixes #954 large message fails with no error message
+970,2019-07-13 01:12:15.000000000,2019-09-25 05:50:18.000000000,closed,10,TCP connections through docker-proxy do not reconnect
+969,2019-07-11 11:37:48.000000000,2019-07-18 06:33:25.000000000,closed,1,CMake : export target to current build scope
+968,2019-07-05 10:45:23.000000000,2019-07-22 05:22:37.000000000,closed,9,Websocket stream data lost (maybe iov not rewrite)
+967,2019-07-03 11:45:32.000000000,2019-07-04 05:44:34.000000000,closed,2,aio in nng_stream can get msg?
+966,2019-07-01 13:48:46.000000000,1970-01-01 00:00:00.000000001,open,7,BUS example does not work (Windows)
+965,2019-06-28 07:55:39.000000000,2019-06-30 04:28:58.000000000,closed,0,fixes #956 pthread_atfork error on Arm processor
+964,2019-06-27 01:52:52.000000000,2019-06-27 20:21:46.000000000,closed,1,Is there any example of using nng_pairSocket?
+963,2019-06-19 08:30:22.000000000,2019-06-28 07:01:56.000000000,closed,0,Remove redundant <sys/time.h> include.
+962,2019-06-18 11:05:14.000000000,2019-06-19 14:10:24.000000000,closed,3,PR: NNG Julia binding
+961,2019-06-13 06:51:32.000000000,1970-01-01 00:00:00.000000001,open,8,Fixes surprising possible ordering of nng_pipe_notify events.
+960,2019-06-10 20:24:36.000000000,2020-08-09 07:12:10.000000000,closed,2,NNG threads inherit application thread name
+959,2019-06-04 19:34:38.000000000,2019-06-06 20:00:48.000000000,closed,4,Are there any examples for implementing a broker with nng
+958,2019-03-29 07:44:54.000000000,2019-06-28 07:47:08.000000000,closed,3,Can't run ipc protocol on Android phone
+957,2019-05-31 20:39:52.000000000,2019-06-06 21:09:18.000000000,closed,11,Invalid URL
+956,2019-05-29 19:12:16.000000000,2019-06-30 04:28:59.000000000,closed,7,pthread_atfork error on Arm processor
+955,2019-05-29 08:16:37.000000000,2019-06-28 07:48:29.000000000,closed,2,Is there an example of using a nng secure websocket to connect to a non nng based websocket server ?  
+954,2019-05-28 20:23:37.000000000,2019-07-20 21:18:53.000000000,closed,7,large message fails with no error message
+953,2019-05-26 05:11:47.000000000,2019-05-28 17:46:04.000000000,closed,2,How to complie nng by cmake for support tls in windows?
+952,2019-05-23 15:16:08.000000000,2019-06-05 17:54:29.000000000,closed,1,fix compile error
+951,2019-05-22 15:15:09.000000000,2019-10-24 18:36:33.000000000,closed,1,Add center broker for nng tcp:)
+950,2019-05-20 03:44:48.000000000,2019-05-20 05:54:51.000000000,closed,2,Simply reap logic slightly.
+949,2019-05-20 02:49:41.000000000,2019-05-20 03:43:28.000000000,closed,1,fixes #948 TLS listener leaks underlying TCP stream listener
+948,2019-05-20 02:48:11.000000000,2019-05-20 03:43:28.000000000,closed,0,TLS listener leaks underlying TCP stream listener
+947,2019-05-20 01:35:01.000000000,2019-05-20 01:56:56.000000000,closed,0,fix #946 Use after free in TLS
+946,2019-05-20 01:33:14.000000000,2019-05-20 01:56:56.000000000,closed,0,Use after free in TLS
+945,2019-05-19 23:34:56.000000000,2019-05-20 00:00:51.000000000,closed,0,fixes #937 Memory Leak in wsstream
+944,2019-05-18 00:35:36.000000000,2019-05-18 00:53:52.000000000,closed,1,Fix for http chunked transfer
+943,2019-05-17 19:22:21.000000000,1970-01-01 00:00:00.000000001,open,1,ZeroTier transport changes
+942,2019-05-17 06:00:10.000000000,2019-12-12 07:27:20.000000000,closed,18,nng_recv blocked with NNG_FLAG_NONBLOCK enabled in qt gui program
+941,2019-05-16 12:23:06.000000000,1970-01-01 00:00:00.000000001,open,2,nng not work correctly in libdill environment
+940,2019-05-13 03:34:03.000000000,2019-12-27 08:57:19.000000000,closed,8, httpclient Timeout can succeed in cloud
+939,2019-05-11 06:24:02.000000000,2019-05-18 00:54:25.000000000,closed,1,Add uint64 to generated legacy nng_setopt_* functions.
+938,2019-05-08 19:13:58.000000000,2019-05-20 02:29:56.000000000,closed,7,document limitations between polling fds and contexts
+937,2019-05-08 11:17:30.000000000,2019-05-20 00:00:51.000000000,closed,1, Memory Leak in wsstream
+936,2019-04-28 10:41:59.000000000,2019-05-19 22:59:59.000000000,closed,0,fixes #923 #935 RECVBUF/SENDBUF has variable type
+935,2019-04-26 04:58:23.000000000,2019-05-19 22:59:59.000000000,closed,1,"nng_setopt_size with NNG_OPT_RECVBUF/NNG_OPT_SENDBUF fails with ""Incorrect type"" on req0 and rep0 sockets"
+934,2019-04-25 05:11:26.000000000,2019-04-25 05:11:55.000000000,closed,0,idhash should be a bit more robust
+933,2019-04-24 04:03:52.000000000,2019-04-25 03:59:03.000000000,closed,2,Any plain to support kcp and pgm transport
+932,2019-04-24 03:18:12.000000000,2019-04-25 03:39:29.000000000,closed,2,fixes #931 nng_ctx_send can block forever
+931,2019-04-23 02:24:29.000000000,2019-04-25 03:39:29.000000000,closed,2,Call to `nng_ctx_send` blocks forever.
+930,2019-04-19 01:42:59.000000000,2019-04-19 20:24:32.000000000,closed,2,Using pair is possible to limit the size of messages
+929,2019-04-18 23:08:26.000000000,2019-05-20 02:08:59.000000000,closed,3,Non CMake Build script
+928,2019-04-17 15:18:07.000000000,2020-08-13 10:48:03.000000000,closed,12,nng can't nng_close() running on FreeBSD 12.0
+927,2019-04-16 22:24:41.000000000,2019-04-25 03:40:34.000000000,closed,0,set txn->client in nni_http_transact
+926,2019-04-16 19:24:04.000000000,1970-01-01 00:00:00.000000001,open,3,pkg-config file
+925,2019-04-16 18:06:37.000000000,1970-01-01 00:00:00.000000001,open,1,HTTPS client hangs when required client certificates are not supplied
+924,2019-04-16 08:38:58.000000000,2019-04-16 10:10:46.000000000,closed,0,Fix ARC4RANDOM define mismatch
+923,2019-04-12 10:20:13.000000000,2019-05-19 22:59:59.000000000,closed,4,"in master branch,  NNG_OPT_RECVBUF parameter change to some type other than int ?"
+922,2019-04-12 09:10:00.000000000,2019-04-12 09:24:52.000000000,closed,0,fixes #915 Memory Leak in pub
+921,2019-04-10 17:27:32.000000000,2019-04-12 08:41:01.000000000,closed,0,"Wrong Title of document about ""nng_msg_set_pipe.3.adoc"""
+920,2019-04-10 04:54:22.000000000,2019-04-12 08:31:08.000000000,closed,2,fixes #919 Polling on subscriber socket recvfd seems broken
+919,2019-04-10 04:51:16.000000000,2019-04-12 08:31:09.000000000,closed,0,Polling on subscriber socket recvfd seems broken
+918,2019-04-10 01:22:27.000000000,2019-05-20 03:37:48.000000000,closed,13,nng_fini hangs with simple http server
+917,2019-04-09 13:49:51.000000000,2019-04-09 13:54:03.000000000,closed,0,Multiple Threads spawned with pthread 
+916,2019-04-03 18:56:18.000000000,2019-04-08 06:12:07.000000000,closed,0,Tuning zt transport ping
+915,2019-04-02 11:16:21.000000000,2019-04-12 09:24:52.000000000,closed,5,Memory Leak in pub
+914,2019-03-30 09:41:38.000000000,1970-01-01 00:00:00.000000001,open,6,websocket stream mode should support TEXT
+913,2019-03-26 12:23:00.000000000,2019-03-26 19:53:00.000000000,closed,1,Drop idempotence requirement from req/rep
+912,2019-03-26 08:05:55.000000000,2019-04-12 07:23:08.000000000,closed,8,nng IPC unable to reach the limit
+911,2019-03-13 11:52:57.000000000,2019-03-13 12:15:40.000000000,closed,0,fixes #815 Eliminate socket filters on message queues
+910,2019-03-13 10:54:43.000000000,2019-03-13 11:12:32.000000000,closed,0,fixes #907 WebSocket ephemeral port cannot be reused
+909,2019-03-12 13:30:55.000000000,2019-03-13 07:01:28.000000000,closed,2,nng_msg_dup correctly duplicates pipe (mentioned in #862)
+908,2019-03-12 07:46:53.000000000,2019-03-13 11:59:39.000000000,closed,3,Does the websocket mode server support normal client connections?
+907,2019-03-12 05:48:46.000000000,2019-03-13 11:12:33.000000000,closed,5,WebSocket ephemeral port cannot be reused
+906,2019-03-08 18:54:03.000000000,2019-03-08 21:31:52.000000000,closed,0,fix zt_pipe_getopt
+905,2019-03-05 10:50:22.000000000,2019-03-10 10:37:47.000000000,closed,1,Small typo. error in HTTP msg
+904,2019-03-03 13:17:03.000000000,2019-03-03 23:52:42.000000000,closed,1,fixes #903 Stream get_string implementation missing
+903,2019-03-03 13:11:28.000000000,2019-03-03 23:52:42.000000000,closed,0,Stream get_string implementation missing
+902,2019-03-03 12:39:50.000000000,2019-04-08 06:13:45.000000000,closed,8,fixes #901 get/set function naming consistency
+901,2019-03-03 12:36:59.000000000,2019-04-08 06:13:45.000000000,closed,2,Stream get/set functions naming consistency
+900,2019-02-28 15:40:41.000000000,2019-03-02 23:42:06.000000000,closed,1,Question about raw vs. cooked REQ socket message body sizes
+899,2019-02-27 10:12:13.000000000,1970-01-01 00:00:00.000000001,open,0,Need PATRICIA trie for SUB
+898,2019-02-27 00:18:40.000000000,2019-02-27 10:10:41.000000000,closed,2,pipe events and read events
+897,2019-02-25 21:41:23.000000000,2019-02-27 10:16:09.000000000,closed,0,Subperf2
+896,2019-02-25 15:50:41.000000000,2019-02-27 10:40:42.000000000,closed,1,undefined reference to `nng_inproc_register()'
+895,2019-02-24 19:42:20.000000000,2019-02-25 11:44:27.000000000,closed,3,fixes #894 nng_pipe_notify could use nng_pipe_ev typedef instead of int
+894,2019-02-24 19:38:35.000000000,2019-02-25 11:44:26.000000000,closed,0,nng_pipe_notify could use nng_pipe_ev typedef instead of int
+893,2019-02-24 12:38:02.000000000,2019-02-27 10:16:33.000000000,closed,1,This makes sub use contexts.
+892,2019-02-24 07:21:37.000000000,2019-02-24 07:22:22.000000000,closed,0,remove statistics from message queues
+891,2019-02-24 00:48:42.000000000,2019-02-24 01:11:55.000000000,closed,0,Need to handle more getaddrinfo() error codes
+890,2019-02-24 00:41:57.000000000,2019-02-24 01:11:56.000000000,closed,0,Windows mingw interlocked exchange not quite right
+889,2019-02-21 15:15:15.000000000,2019-02-21 15:16:59.000000000,closed,0,Official nugget package.
+888,2019-02-21 11:21:07.000000000,2019-02-24 01:11:55.000000000,closed,0,Negofix
+887,2019-02-21 08:41:24.000000000,2019-02-22 06:24:28.000000000,closed,2,Options docs proposal
+886,2019-02-21 08:17:16.000000000,2019-02-21 08:38:05.000000000,closed,1,Fixes manpage typos
+885,2019-02-18 17:35:03.000000000,2019-02-18 22:32:08.000000000,closed,3,Bus protocol stops accepting new connections
+884,2019-02-18 13:03:01.000000000,2019-02-18 22:47:02.000000000,closed,1,add -fPIC to please the linker
+883,2019-02-18 11:06:54.000000000,2019-02-18 11:11:58.000000000,closed,0,fixes #882 websocket stream mode doesn't copy received data
+882,2019-02-18 11:04:27.000000000,2019-02-18 11:11:58.000000000,closed,0,websocket stream mode doesn't copy received data
+881,2019-02-17 23:26:19.000000000,2019-02-17 23:53:45.000000000,closed,0,Fix857
+880,2019-02-17 23:17:53.000000000,2019-02-17 23:26:54.000000000,closed,0,fixes #871 panic when sharing rep between threads
+879,2019-02-17 00:20:13.000000000,2019-02-17 08:23:07.000000000,closed,0,Desire NNG_OPT_TCP_BOUND_PORT
+878,2019-02-16 02:40:04.000000000,2019-02-20 07:26:33.000000000,closed,26,always see 1% message drop on listener
+877,2019-02-15 22:01:13.000000000,2019-02-15 23:37:52.000000000,closed,2,Fix bug #868
+876,2019-02-15 02:00:03.000000000,2019-02-15 05:16:52.000000000,closed,0,Corrected function name
+875,2019-02-15 01:59:35.000000000,2019-02-15 05:16:52.000000000,closed,0,man page for nng_sub_open should use nng_sub0_open_raw for raw mode in DESCRIPTION section
+874,2019-02-15 01:37:04.000000000,2019-02-17 22:41:33.000000000,closed,14,How to get socket fd to use with nn_setsockopt and nn_getsockopt 
+873,2019-02-11 12:04:31.000000000,2019-02-17 08:23:06.000000000,closed,0,fixes #872 create unified nng_stream API
+872,2019-02-11 12:01:07.000000000,2019-02-17 08:23:06.000000000,closed,1,create unified nng_stream API
+871,2019-02-09 09:24:46.000000000,2019-02-17 23:26:55.000000000,closed,6,panic when sharing rep between threads
+870,2019-02-08 12:28:26.000000000,2019-02-11 11:53:22.000000000,closed,4,fixes #867 doc references to non-existant NNG_OPT_LINGER
+869,2019-02-08 09:15:43.000000000,2019-02-18 12:02:29.000000000,closed,2,"nng_http_handler_set_tree fails match if path is ""/"" "
+868,2019-02-05 13:24:08.000000000,2019-02-15 23:37:52.000000000,closed,5,Build failed on MinGW (mingw-w64) nng 1.1.1
+867,2019-02-01 11:41:48.000000000,2019-02-11 11:53:22.000000000,closed,0,Doc references to non-existant NNG_OPT_LINGER
+866,2019-01-28 07:58:53.000000000,2019-02-18 22:40:23.000000000,closed,3,Nng-rust repo
+865,2019-01-27 13:33:48.000000000,1970-01-01 00:00:00.000000001,open,2,Question about behavior of nng_thread_destroy(NULL)
+864,2019-01-24 11:00:30.000000000,1970-01-01 00:00:00.000000001,open,0,Can you add an example of using HTTPS requests?
+863,2019-01-21 17:31:26.000000000,1970-01-01 00:00:00.000000001,open,1,[request] socket activation
+862,2019-01-18 13:37:54.000000000,2019-03-13 17:39:00.000000000,closed,17,Pair v1 Polyamorous misdirected messages
+861,2019-01-15 19:59:16.000000000,2019-07-07 00:34:14.000000000,closed,0,Man pages need to use .adoc suffix
+860,2019-01-15 10:55:16.000000000,2019-01-15 19:56:14.000000000,closed,1,fixes typos in stat man pages
+859,2019-01-15 09:28:03.000000000,2019-01-15 09:42:46.000000000,closed,0,fixes #858 Document the TLS public API
+858,2019-01-15 09:26:55.000000000,2019-01-15 09:42:46.000000000,closed,0,Document the TLS public API
+857,2019-01-11 19:46:36.000000000,2019-02-17 23:53:45.000000000,closed,3,NNG_OPT_REQ_RESENDTIME does not honor NNG_DURATION_INFINITE
+856,2019-01-07 16:23:24.000000000,2019-01-07 18:38:14.000000000,closed,2,"More Information on ""no blocking allowed"""
+855,2019-01-07 16:18:44.000000000,2019-06-28 08:03:07.000000000,closed,8,Feature Request: Setup and teardown functions for nng spawned threads
+854,2019-01-07 07:10:19.000000000,2019-01-07 07:23:47.000000000,closed,0,Various minor corrections to TCP man pages
+853,2019-01-07 04:44:27.000000000,2019-01-07 04:53:06.000000000,closed,0,Move IPC options to nng.h
+852,2019-01-07 01:11:35.000000000,2019-01-07 01:48:53.000000000,closed,0,Eliminate pipe p_options and use new style getopt
+851,2019-01-07 01:08:23.000000000,1970-01-01 00:00:00.000000001,open,7,TLS listener/dialer should handshake
+850,2019-01-06 05:39:01.000000000,2019-01-07 01:48:52.000000000,closed,0,Pubtls
+849,2019-01-06 05:07:43.000000000,2019-01-06 05:37:10.000000000,closed,0,TCP option handling not quite right
+848,2019-01-04 18:59:30.000000000,2019-02-24 01:11:55.000000000,closed,3,server hang waiting for client handshake
+847,2019-01-04 07:57:00.000000000,2019-01-07 01:48:53.000000000,closed,0,Define public TLS API
+846,2019-01-04 07:52:24.000000000,2019-01-07 07:23:47.000000000,closed,0,Document IPC public API
+845,2019-01-04 07:51:40.000000000,2019-01-07 01:48:53.000000000,closed,1,TCP public API doc updates
+844,2019-01-02 17:10:47.000000000,2020-07-28 06:16:06.000000000,closed,4,WebSocket WebSocket wildcard host errors
+843,2019-01-02 07:10:15.000000000,2019-01-02 07:25:56.000000000,closed,0,fixes #837 ipcsupp occasional test failure
+842,2019-01-01 23:50:14.000000000,2019-01-01 23:52:49.000000000,closed,0,remove the cmake handing for source_group
+841,2019-01-01 11:43:43.000000000,2019-01-02 00:30:11.000000000,closed,1,Calling nng_stats_get() before creating socket panics
+840,2019-01-01 11:41:00.000000000,2019-02-27 10:42:23.000000000,closed,6,Question: Using NNG with libevent
+839,2019-01-01 06:18:32.000000000,2019-01-07 01:48:53.000000000,closed,1,TCP listener_start API should use constant sockaddr
+838,2019-01-01 06:16:03.000000000,2019-01-01 12:33:52.000000000,closed,0,fixes #825 TCP public API should use generic setopt/getopt
+837,2019-01-01 03:47:17.000000000,2019-01-02 07:25:56.000000000,closed,0,ipcsupp occasional test failure
+836,2019-01-01 03:34:07.000000000,2019-01-01 03:46:30.000000000,closed,0,inproc and IPC options (834 and 835)
+835,2019-01-01 03:23:19.000000000,2019-01-01 03:46:30.000000000,closed,0,inproc should use new option API
+834,2019-01-01 03:18:48.000000000,2019-01-01 03:46:30.000000000,closed,0,Simplify IPC internal API & update consumers
+833,2018-12-29 10:25:30.000000000,2018-12-29 10:50:11.000000000,closed,0,nng_listener_listen and nng_listen ignore the flags
+832,2018-12-29 10:14:05.000000000,2018-12-30 03:22:53.000000000,closed,0,Unify option handling (draft).
+831,2018-12-29 10:12:39.000000000,2018-12-30 03:22:54.000000000,closed,0,"Unify option structures, o_type is unused"
+830,2018-12-28 14:29:01.000000000,2019-02-18 11:10:14.000000000,closed,5,Possible to retrieve the port used for WebSocket
+829,2018-12-28 12:10:02.000000000,2018-12-29 10:50:11.000000000,closed,0,nn_dial function annotation  in nng.h   
+828,2018-12-27 15:08:38.000000000,2018-12-28 07:43:27.000000000,closed,3,"MSVC2015  nng-1.1.1  cmake only win32 project, not x64 project "
+827,2018-12-25 08:20:58.000000000,2018-12-29 10:15:16.000000000,closed,1,Remove the typed accessors... 
+826,2018-12-24 23:06:49.000000000,1970-01-01 00:00:00.000000001,open,0,Shmem support for API consistency
+825,2018-12-23 07:51:50.000000000,2019-01-01 12:33:53.000000000,closed,0,TCP public API should use generic setopt/getopt
+824,2018-12-23 07:43:05.000000000,2018-12-23 08:23:27.000000000,closed,0,fixes #823 Define public IPC
+823,2018-12-23 07:38:28.000000000,2018-12-23 08:23:28.000000000,closed,0,Define public IPC API
+822,2018-12-22 23:21:23.000000000,1970-01-01 00:00:00.000000001,open,5,"Expose ""device"" functionality as part of a NNG application (like nngcat or similar)"
+821,2018-12-19 09:28:21.000000000,2019-02-18 11:36:18.000000000,closed,11,http_server crash when using url without hostname
+820,2018-12-18 06:38:33.000000000,2018-12-23 07:54:17.000000000,closed,0,Fix eventfd configuration bug.
+819,2018-12-17 07:47:14.000000000,2018-12-19 10:49:06.000000000,closed,5,Does nng support https request ?
+818,2018-12-14 16:59:47.000000000,2018-12-16 22:03:47.000000000,closed,2,Accessing ws transport headers when using device forwarder! 
+817,2018-12-13 20:53:09.000000000,2018-12-17 00:00:48.000000000,closed,2,demo/rest  does not work
+816,2018-12-13 12:41:27.000000000,2018-12-16 22:08:26.000000000,closed,4,Can not recvie msg header
+815,2018-12-12 11:39:31.000000000,2019-03-13 12:15:40.000000000,closed,3,Eliminate socket filters on message queues
+814,2018-12-12 11:37:53.000000000,2020-02-06 14:42:33.000000000,closed,0,mq_get_error should go
+813,2018-12-12 10:26:17.000000000,2018-12-12 11:36:34.000000000,closed,0,fixes #812 message queue put_error unused
+812,2018-12-12 10:22:24.000000000,2018-12-12 11:36:34.000000000,closed,0,message queue put_error unused
+811,2018-12-10 06:12:49.000000000,2018-12-16 21:55:08.000000000,closed,3,fixes #769 How to limit worker threads
+810,2018-12-08 07:30:21.000000000,2018-12-12 10:10:00.000000000,closed,3,"The toplevel sets threads already, not needed here."
+809,2018-12-04 00:19:12.000000000,2018-12-04 00:24:00.000000000,closed,1,[question] How do you build a dynamic library?
+808,2018-12-03 12:49:43.000000000,1970-01-01 00:00:00.000000001,open,11,Very slow PAIR performance compared to nanomsg
+807,2018-12-02 20:09:12.000000000,2018-12-02 22:32:29.000000000,closed,0,added option --msgpack to static nng_optspec opts to match documentation
+806,2018-11-29 16:03:12.000000000,2018-11-29 21:23:24.000000000,closed,1,Only include http_public if http is enabled
+805,2018-11-28 05:58:27.000000000,2018-11-28 05:59:16.000000000,closed,0,Bad cross reference in nng_stat_value page
+804,2018-11-28 05:31:18.000000000,2018-11-28 05:48:46.000000000,closed,0,fixes #680 Public TCP API
+803,2018-11-27 06:21:08.000000000,1970-01-01 00:00:00.000000001,open,0,consider using BUILD_INTERFACE to configure Windows header options
+802,2018-11-27 06:19:25.000000000,2018-11-28 05:51:40.000000000,closed,0,wrong description in nng_http_client_connect/EADDRINVAL
+801,2018-11-23 20:38:09.000000000,2018-11-23 21:30:50.000000000,closed,0,fixes #799 Compile error on Windows with disabled stats
+800,2018-11-23 06:02:17.000000000,2018-11-28 05:55:13.000000000,closed,2,sockimpl.h and posix_aio.h missing in build system
+799,2018-11-23 05:41:10.000000000,2018-11-23 21:30:51.000000000,closed,5,Compile error on Windows with disabled stats
+798,2018-11-22 22:37:18.000000000,2018-11-23 01:30:33.000000000,closed,0,Incdir
+797,2018-10-09 19:49:24.000000000,2018-12-17 00:03:22.000000000,closed,13,Duplicate receipts of messages this.sock.on(data)
+796,2018-11-20 17:32:54.000000000,2018-11-23 01:31:22.000000000,closed,14,allow to use nng in combination with other projects depending on nng in add_subdirectory scenarios
+795,2018-11-19 19:12:41.000000000,2018-11-19 19:54:37.000000000,closed,1,"Allow nng to be consumed in ""add_subdirectory"" scenarios"
+794,2018-11-16 21:02:15.000000000,2018-11-16 21:10:23.000000000,closed,0,nng bug report URL wrong
+793,2018-11-16 10:47:26.000000000,2019-07-11 03:40:13.000000000,closed,20,pthread_mutex_lock panic
+792,2018-11-14 23:39:59.000000000,2018-11-15 00:06:06.000000000,closed,0,Update the minor and patch versions
+791,2018-11-14 23:36:58.000000000,2018-11-15 00:06:06.000000000,closed,1,Incorrect MINOR and PATCH versions
+790,2018-11-14 20:28:30.000000000,2018-11-17 22:25:51.000000000,closed,5,Fix thread crash on websocket ping
+789,2018-11-14 20:24:27.000000000,2018-11-17 22:25:51.000000000,closed,0,Websocket ping request deadlock
+788,2018-11-13 22:26:24.000000000,2019-07-18 07:19:42.000000000,closed,28,PUB/SUB Multi-Message Handling
+787,2018-11-11 19:19:14.000000000,2018-12-17 00:16:45.000000000,closed,7,httpclient test failed!
+786,2018-11-10 23:02:17.000000000,2018-11-28 05:49:33.000000000,closed,6,"can nng work with external event loops (libevent, libev based system) ? "
+785,2018-11-10 08:39:23.000000000,2018-11-10 08:48:27.000000000,closed,0,fixes #784 convey uses langinfo not available on QNX
+784,2018-11-10 08:19:11.000000000,2018-11-10 08:48:28.000000000,closed,0,convey uses langinfo not available on QNX
+783,2018-11-10 08:18:09.000000000,2018-11-10 08:38:37.000000000,closed,0,fixes #782 stat namespace collision on QNX
+782,2018-11-10 08:16:03.000000000,2018-11-10 08:38:38.000000000,closed,0,stat namespace collision on QNX
+781,2018-11-09 19:41:55.000000000,1970-01-01 00:00:00.000000001,open,3,Give tutorials on how to implement common ZMQ patterns
+780,2018-11-08 16:18:49.000000000,2018-11-09 01:07:58.000000000,closed,3,travis-ci cmake fails with `No VERSION specified...`
+779,2018-11-06 07:11:16.000000000,2018-11-06 07:21:14.000000000,closed,0,Bump ABI version for v1.1
+778,2018-11-06 06:39:53.000000000,2018-11-06 07:10:14.000000000,closed,0,nng_http_handler_set_tree link bad
+777,2018-11-06 06:23:15.000000000,2018-11-06 07:10:13.000000000,closed,0,fixes #456 TLS configuration object hold
+776,2018-11-06 06:22:31.000000000,2018-11-06 07:10:13.000000000,closed,0,Configuration of mbedTLS should warn about license
+775,2018-11-06 04:20:10.000000000,2018-11-06 05:21:08.000000000,closed,0,fixes #577 target library dependencies should be public
+774,2018-11-03 07:58:24.000000000,2018-11-03 21:15:19.000000000,closed,0,fixes #682 Support for Chunked Transfer Coding
+773,2018-11-03 07:53:42.000000000,1970-01-01 00:00:00.000000001,open,0,HTTP server should support client chunked transfers
+772,2018-11-02 10:47:02.000000000,2018-11-02 10:48:00.000000000,closed,0,ineffectual assignment in aio_init
+771,2018-11-02 06:56:30.000000000,2018-11-02 10:42:49.000000000,closed,0,fixes #766 NNG asserts when setting socket name
+770,2018-11-02 06:42:57.000000000,2018-11-02 06:44:50.000000000,closed,0,Assertion in NNG TLS layer
+769,2018-11-02 04:07:45.000000000,2018-12-16 21:55:09.000000000,closed,5,How to limit worker threads
+768,2018-11-01 05:03:41.000000000,2018-11-01 05:11:02.000000000,closed,0,fixes #767 Want tunable stack size
+767,2018-11-01 05:01:30.000000000,2018-11-01 05:11:03.000000000,closed,0,Want tunable stack size
+766,2018-10-30 15:32:19.000000000,2018-11-02 10:42:49.000000000,closed,1,NNG asserts when setting socket name
+765,2018-10-27 08:38:04.000000000,2018-10-27 08:43:09.000000000,closed,0,fixes #763 buffer overrun in options test
+764,2018-10-27 08:27:16.000000000,2018-10-27 08:36:50.000000000,closed,0,fixes #755 zerotier transport segfaults on alpine linux
+763,2018-10-26 08:18:18.000000000,2018-10-27 08:43:09.000000000,closed,1,buffer overrun in options test
+762,2018-10-24 21:20:04.000000000,2019-02-27 10:16:10.000000000,closed,16,Pub/Sub very slow compared with nanomsg
+761,2018-10-24 06:05:21.000000000,2018-10-24 06:21:34.000000000,closed,1,idhash work to factor in upper bits is pointless
+760,2018-10-23 00:53:50.000000000,2018-11-03 20:25:26.000000000,closed,3,List of known bindings
+759,2018-10-22 18:32:13.000000000,2018-10-22 18:36:24.000000000,closed,1,Build failed on MinGW (msys2-x86_64)
+758,2018-10-22 18:17:09.000000000,2018-10-24 16:24:03.000000000,closed,19,Build failed on MinGW (msys2-x86_64)
+757,2018-10-19 04:32:58.000000000,2018-10-19 05:48:14.000000000,closed,2,Windows IO completion ports (what is your secret sauce?)
+756,2018-10-17 20:00:07.000000000,2018-10-23 15:32:21.000000000,closed,4,fixes warning for comparing signed and unsigned
+755,2018-10-16 19:40:33.000000000,2018-10-27 08:36:51.000000000,closed,12,zerotier transport segfaults on alpine linux
+754,2018-10-16 17:07:13.000000000,2018-10-18 11:59:28.000000000,closed,2,fix #751
+753,2018-10-16 02:29:42.000000000,2018-10-16 04:09:52.000000000,closed,2,Question about mutex in aio callback function
+752,2018-10-14 11:56:07.000000000,2018-10-15 18:35:51.000000000,closed,2,Small fix
+751,2018-10-14 11:51:12.000000000,2019-02-18 12:13:42.000000000,closed,8,http server directory handler
+750,2018-10-13 11:00:07.000000000,1970-01-01 00:00:00.000000001,open,5,http server file upload support
+749,2018-10-12 13:51:57.000000000,2018-10-12 21:29:12.000000000,closed,0,Fix win file type
+748,2018-10-11 08:32:16.000000000,2018-10-11 22:20:12.000000000,closed,3,sub0 nng_msg_header_len always got zero length with a binary message body
+747,2018-10-09 06:36:16.000000000,2018-12-16 21:56:47.000000000,closed,12,Allow recv_maxsize to be set after calling listen() on listener.
+746,2018-10-08 00:06:32.000000000,2018-10-08 00:14:14.000000000,closed,0,fixes #745 HTTP server redirect handler
+745,2018-10-07 20:29:04.000000000,2018-10-08 00:14:15.000000000,closed,0,HTTP server redirect handler
+744,2018-10-07 20:27:25.000000000,2018-10-17 11:21:14.000000000,closed,1,ZeroTier should not create node until first referenced
+743,2018-10-07 10:28:57.000000000,2018-10-08 06:02:18.000000000,closed,2,Documentation needs to update
+742,2018-10-07 07:07:47.000000000,2018-10-12 21:30:36.000000000,closed,4,Small fix
+741,2018-10-04 15:39:14.000000000,2019-04-16 22:39:22.000000000,closed,16,"On nng_sub0, receive notification also when filtered message"
+740,2018-10-03 09:46:10.000000000,2018-10-03 10:25:47.000000000,closed,1,Small fix
+739,2018-09-30 08:57:52.000000000,2018-09-30 09:09:46.000000000,closed,0,fixes #738 http server needs a way to collect request entity data
+738,2018-09-30 08:55:15.000000000,2018-09-30 09:09:46.000000000,closed,0,http server needs a way to collect request entity data
+737,2018-09-28 13:18:22.000000000,2018-10-07 20:20:17.000000000,closed,8,Make an alternative interface without hidden shared state
+736,2018-09-25 15:54:11.000000000,2018-09-25 16:21:18.000000000,closed,1,Make nng available as tarballs
+735,2018-09-23 05:32:13.000000000,2018-09-25 02:00:53.000000000,closed,0,Configuring ZeroTier for a unified build is too hard
+734,2018-09-22 03:32:45.000000000,2018-09-22 03:37:00.000000000,closed,1,ZeroTier port discrimination busted
+733,2018-09-21 00:15:37.000000000,2018-09-21 02:28:39.000000000,closed,0,fix cmake target include directory exporting
+732,2018-09-19 04:03:21.000000000,2018-09-19 19:20:15.000000000,closed,0,Update docs for `nng_dial` and `nng_listen`
+731,2018-09-18 03:07:36.000000000,2018-09-19 19:20:15.000000000,closed,6,Invalid URL reports NNG_EINVAL instead of NNG_EADDRINVAL
+730,2018-09-16 18:37:25.000000000,1970-01-01 00:00:00.000000001,open,6,Support schannel on windows
+729,2018-09-16 08:39:08.000000000,2018-09-19 19:20:54.000000000,closed,3,Fix minor typos in the docs.
+728,2018-09-16 07:32:09.000000000,2018-09-17 03:09:26.000000000,closed,6,How to implement work queue server?
+727,2018-09-15 15:28:12.000000000,1970-01-01 00:00:00.000000001,open,4,http server benchmark.
+726,2018-09-15 09:50:14.000000000,2018-09-15 11:13:57.000000000,closed,2,API to increase max receive size
+725,2018-09-15 08:54:05.000000000,2018-09-16 00:30:06.000000000,closed,1,Only free in nng_send() if we succeed.
+724,2018-09-14 08:54:26.000000000,2018-12-16 21:56:47.000000000,closed,7,`NNG_RECVMAXSZ` option can be disregarded if `nng_listen()` happens before `nng_setopt(...)`.
+723,2018-09-13 05:24:30.000000000,2018-09-16 00:42:31.000000000,closed,1,"""ninja install"" step missing from Quick Start in README"
+722,2018-09-12 23:53:42.000000000,2018-09-13 00:01:54.000000000,closed,0,Httpreset
+721,2018-09-12 23:49:29.000000000,2018-09-13 00:01:54.000000000,closed,0,stale #if 0 block in stats.h
+720,2018-09-12 23:28:26.000000000,2018-09-13 00:01:54.000000000,closed,0,fix for #715 still not right
+719,2018-09-12 23:25:26.000000000,2018-09-13 00:01:54.000000000,closed,0,calculation of buffer size is incorrect in http
+718,2018-09-12 23:21:41.000000000,2018-09-13 00:01:54.000000000,closed,0,http_transact is still not right
+717,2018-09-12 23:17:38.000000000,2018-09-13 00:01:54.000000000,closed,0,need nng_http_req_reset and nng_http_res_reset
+716,2018-09-11 02:20:46.000000000,2018-09-11 02:32:19.000000000,closed,0,fixes #715 nng_opts_parse() uses const incorrectly
+715,2018-09-11 02:20:01.000000000,2018-09-11 02:32:20.000000000,closed,0,nng_opts_parse() uses const incorrectly
+714,2018-09-10 19:54:57.000000000,2018-09-10 19:57:00.000000000,closed,0,Incomplete reset of RES/REQ breaks http_transact
+713,2018-09-09 23:45:41.000000000,2018-09-10 00:07:36.000000000,closed,0,stats warnings from Windows
+712,2018-09-09 23:44:49.000000000,2018-09-10 00:07:36.000000000,closed,0,windows nni_atomic_set64 should not return value
+711,2018-09-09 23:33:51.000000000,2018-09-10 00:07:35.000000000,closed,0,fixes #710 idhash has nasty performance bug
+710,2018-09-09 23:30:21.000000000,2018-09-10 00:07:36.000000000,closed,0,idhash has nasty performance bug
+709,2018-09-09 21:26:25.000000000,2018-09-10 00:07:35.000000000,closed,0,idhash bug on duplicate add
+708,2018-09-09 17:30:13.000000000,2018-09-09 21:19:16.000000000,closed,1,Small changes
+707,2018-09-07 17:38:13.000000000,2018-09-07 17:38:36.000000000,closed,0,ZeroTier pipe logic could be condensed
+706,2018-09-06 12:02:47.000000000,2018-09-10 19:57:46.000000000,closed,3,Is it possible to add function to publish message to a specific topic?
+705,2018-09-04 07:16:43.000000000,1970-01-01 00:00:00.000000001,open,0,Need ZeroTier stats
+704,2018-09-04 07:03:24.000000000,1970-01-01 00:00:00.000000001,open,0,Need SURVEYOR stats
+703,2018-09-04 07:03:13.000000000,1970-01-01 00:00:00.000000001,open,0,Need PUB/SUB stats
+702,2018-09-04 07:03:01.000000000,1970-01-01 00:00:00.000000001,open,0,Need REQ/REP stats
+701,2018-09-04 07:02:44.000000000,2019-02-24 01:11:56.000000000,closed,0,Need TLS stats
+700,2018-09-04 07:02:21.000000000,1970-01-01 00:00:00.000000001,open,0,Need websocket stats
+699,2018-09-04 07:02:08.000000000,2019-02-24 01:11:55.000000000,closed,0,Need IPC stats
+698,2018-09-04 07:01:58.000000000,2019-02-24 01:11:55.000000000,closed,0,Need TCP stats
+697,2018-09-02 06:16:09.000000000,2018-09-02 07:29:24.000000000,closed,2,Make docs for old versions and tip point to the correct page
+696,2018-09-01 23:01:38.000000000,2018-09-04 07:00:57.000000000,closed,0,Stats - work in progress
+695,2018-09-01 08:16:12.000000000,2018-09-09 16:42:05.000000000,closed,3,Async Req Server: Question
+694,2018-09-01 00:39:24.000000000,2018-09-01 00:53:16.000000000,closed,0,fixes #693 Failed dial results in hard spin
+693,2018-09-01 00:22:22.000000000,2018-09-01 00:53:16.000000000,closed,1,Failed dial results in hard spin
+692,2018-08-31 22:27:47.000000000,2018-08-31 22:44:11.000000000,closed,0,fixes #691 Desire 16 and 64 bit message manipulators
+691,2018-08-31 22:11:33.000000000,2018-08-31 22:44:12.000000000,closed,1,Desire 16 and 64 bit message manipulators
+690,2018-08-31 20:50:37.000000000,2018-08-31 20:52:37.000000000,closed,0,Zerotier listener LOCADDR property wanted
+689,2018-08-31 02:14:47.000000000,2018-08-31 02:52:07.000000000,closed,0,Webclient
+688,2018-08-31 02:11:07.000000000,2018-08-31 02:52:07.000000000,closed,0,Dangling link in nng_aio_begin()
+687,2018-08-31 00:06:34.000000000,2018-08-31 02:52:07.000000000,closed,2,POLLHUP is problematic on macOS too...
+686,2018-08-30 21:55:06.000000000,2018-08-31 02:52:07.000000000,closed,1,strtoull() not present on Windows
+685,2018-08-30 19:25:19.000000000,2018-08-30 19:40:09.000000000,closed,1,fixes #684 CentOS 5 broken -- has epoll but not eventfd
+684,2018-08-30 19:19:27.000000000,2018-08-30 19:40:09.000000000,closed,0,CentOS 5 broken -- has epoll but not eventfd
+683,2018-08-29 21:44:30.000000000,2018-08-29 21:45:14.000000000,closed,0,atomic 64 stuff broken on pre-C11 stacks
+682,2018-08-29 10:20:56.000000000,2018-11-03 21:15:19.000000000,closed,1,Support for Chunked Transfer Coding
+681,2018-08-29 10:14:50.000000000,2018-08-31 02:52:08.000000000,closed,0,HTTP convenience GET method desired...
+680,2018-08-29 10:03:29.000000000,2018-11-28 05:48:46.000000000,closed,0,Public TCP API
+679,2018-08-29 10:02:04.000000000,2018-08-29 10:24:51.000000000,closed,0,fixes #678 local binding for TLS+TCP sockets
+678,2018-08-29 10:00:11.000000000,2018-08-29 10:24:51.000000000,closed,0,local binding for TLS+TCP sockets
+677,2018-08-29 03:29:52.000000000,2018-08-29 09:37:39.000000000,closed,0,Issues/634
+676,2018-08-27 22:23:40.000000000,2018-08-28 02:58:38.000000000,closed,1,Fix673
+675,2018-08-27 22:16:26.000000000,1970-01-01 00:00:00.000000001,open,0,wren binding desired
+674,2018-08-27 21:03:19.000000000,2018-08-28 02:58:39.000000000,closed,0,want 64-bit atomics (for stats)
+673,2018-08-27 21:01:54.000000000,2018-08-28 02:58:39.000000000,closed,0,transports could benefit from access to upper layer
+672,2018-08-27 18:18:13.000000000,2018-08-27 19:22:04.000000000,closed,0,fixes #608 Add TCP support to specify local network interface
+671,2018-08-22 07:19:28.000000000,1970-01-01 00:00:00.000000001,open,1,php language binding
+670,2018-08-21 03:19:13.000000000,2018-08-21 03:29:59.000000000,closed,0,Winudp
+669,2018-08-21 03:16:28.000000000,2018-08-21 03:29:59.000000000,closed,0,pipe.c type conversion warning
+668,2018-08-21 03:15:03.000000000,2018-08-21 03:29:59.000000000,closed,0,Remove the old win_event stuff
+667,2018-08-20 22:13:13.000000000,2018-08-20 23:08:04.000000000,closed,0,"fixes #506 AIO ""providers"" need a way to call nni_aio_schedule."
+666,2018-08-20 20:11:32.000000000,2018-08-20 20:41:47.000000000,closed,0,fixes #664 aio cancellation could be better
+665,2018-08-20 19:52:02.000000000,2018-08-21 03:29:59.000000000,closed,0,Convert Windows UDP to raw IOCP
+664,2018-08-20 18:46:24.000000000,2018-08-20 20:41:48.000000000,closed,0,aio cancellation could be better
+663,2018-08-20 18:03:51.000000000,2018-08-20 18:14:22.000000000,closed,0,Fix662
+662,2018-08-20 17:31:17.000000000,2018-08-20 18:14:24.000000000,closed,0,Configuring without HTTP fails
+661,2018-08-20 04:19:11.000000000,2018-08-20 05:57:09.000000000,closed,0,fixes #638 Race condition detected in websocket
+660,2018-08-20 03:38:35.000000000,2018-08-20 03:49:21.000000000,closed,0,fixes #653 Weird connect failures in dialer (multistress)
+659,2018-08-19 09:04:44.000000000,2018-08-19 19:12:16.000000000,closed,3,"fixed compilation error on OpenBSD, missing sockpeercred "
+658,2018-08-19 08:49:48.000000000,2018-08-19 08:52:50.000000000,closed,0," fixed compilation error on OpenBSD, missing sockpeercred added"
+657,2018-08-19 08:37:13.000000000,2018-08-19 08:45:15.000000000,closed,1,"fixed compilation error on OpenBSD, missing sockpeercred added as nng…"
+656,2018-08-16 08:44:44.000000000,2018-08-16 08:59:53.000000000,closed,0,Don't connect/remove IPC sockets unless bind fails
+655,2018-08-15 08:44:03.000000000,2018-08-16 08:59:53.000000000,closed,0,fixes #654 use aio for synchronous connect
+654,2018-08-15 08:43:06.000000000,2018-08-16 08:59:53.000000000,closed,0,use aio for synchronous connect
+653,2018-08-14 17:50:16.000000000,2018-08-20 03:49:22.000000000,closed,5,Weird connect failures in dialer (multistress)
+652,2018-08-14 16:55:15.000000000,2018-08-14 17:23:01.000000000,closed,1,dial has no timeout with UNIX domain sockets
+651,2018-08-14 15:19:13.000000000,2018-08-20 05:57:09.000000000,closed,0,Use after free in websocket
+650,2018-08-14 13:58:43.000000000,2018-08-14 14:09:15.000000000,closed,0,fixes #645 remove start from ZeroTier transport
+649,2018-08-14 10:33:50.000000000,2018-08-14 17:23:00.000000000,closed,0,fixes #648 REQ protocol can hang on close
+648,2018-08-14 09:30:05.000000000,2018-08-14 17:23:01.000000000,closed,2,REQ protocol can hang on close
+647,2018-08-13 13:46:22.000000000,2018-08-14 09:26:36.000000000,closed,1,IPC and TCP fixes from rewrite
+646,2018-08-13 13:39:38.000000000,2018-08-14 09:26:36.000000000,closed,0,fixes #644 remove start from TLS code
+645,2018-08-13 09:28:05.000000000,2018-08-14 14:09:15.000000000,closed,0,remove start from ZeroTier transport
+644,2018-08-13 09:19:35.000000000,2018-08-14 09:26:36.000000000,closed,0,remove start from TLS code
+643,2018-08-13 09:18:26.000000000,2018-08-13 09:27:09.000000000,closed,0,fixes #639 Memory leak in http client
+642,2018-08-12 08:42:11.000000000,2018-08-12 19:38:12.000000000,closed,0,fixes #615 IPC close on Windows leaves handle open
+641,2018-08-11 20:20:18.000000000,2018-08-11 22:07:25.000000000,closed,0,fixes #640 IPC leaks found
+640,2018-08-11 20:13:49.000000000,2018-08-11 22:07:26.000000000,closed,0,IPC leaks found
+639,2018-08-10 07:54:54.000000000,2018-08-13 09:27:09.000000000,closed,0,Memory leak in http client
+638,2018-08-10 07:53:43.000000000,2018-08-20 05:57:10.000000000,closed,0,Race condition detected in websocket
+637,2018-08-09 22:54:57.000000000,2018-08-11 18:21:48.000000000,closed,1,Documentation Inconsistencies
+636,2018-08-09 19:01:11.000000000,2018-08-11 18:21:48.000000000,closed,0,Bugs in nng_cv_until man page
+635,2018-08-09 08:57:30.000000000,2018-08-27 21:07:53.000000000,closed,10,fixes #634 test/tls and test/wssfile failures
+634,2018-08-09 08:14:39.000000000,2018-08-29 09:37:39.000000000,closed,6,"tests/tls and tests/wssfile fail the ""Valid verify works"" test in v1.0.0+"
+633,2018-08-08 09:26:25.000000000,2018-08-13 09:15:49.000000000,closed,0,Fix632
+632,2018-08-08 07:04:46.000000000,2018-08-13 09:15:49.000000000,closed,0,TCP start elimination
+631,2018-08-08 01:19:13.000000000,2018-08-10 07:58:30.000000000,closed,0,fixes #630 IPC start elimination
+630,2018-08-08 01:16:32.000000000,2018-08-10 07:58:31.000000000,closed,0,IPC start elimination
+629,2018-08-07 15:31:02.000000000,2018-08-07 15:42:42.000000000,closed,0,fixes #628 Hang in closing REQ
+628,2018-08-07 15:29:04.000000000,2018-08-07 15:42:43.000000000,closed,0,Hang in closing REQ
+627,2018-08-07 11:38:46.000000000,2018-08-07 11:56:17.000000000,closed,0,fixes #620 Stress tests are too stressful in CI/CD
+626,2018-08-07 06:40:07.000000000,2018-08-07 06:49:06.000000000,closed,0,fixes #625 aio->a_stop/aio_begin may be too severe
+625,2018-08-07 00:30:01.000000000,2018-08-07 06:49:06.000000000,closed,0,aio->a_stop/aio_begin may be too severe
+624,2018-08-07 00:04:20.000000000,2018-08-07 00:21:41.000000000,closed,0,fixes #623 nni_aio_stop could be better
+623,2018-08-06 23:56:15.000000000,2018-08-07 00:21:41.000000000,closed,0,nni_aio_stop  could be better
+622,2018-08-06 22:52:40.000000000,2018-08-06 23:53:41.000000000,closed,2,incorrect assumptions about malloc(0)
+621,2018-08-06 22:28:48.000000000,2018-08-06 23:53:40.000000000,closed,0,fixes #611 Memory Leaks under Windows
+620,2018-08-06 22:19:04.000000000,2018-08-07 11:56:17.000000000,closed,0,Stress tests are too stressful in CI/CD
+619,2018-08-06 21:49:51.000000000,2018-08-06 22:08:03.000000000,closed,0,fixes #612 demo/raw needs updating to use raw socket constructor
+618,2018-08-06 20:35:44.000000000,2018-08-06 22:09:38.000000000,closed,0,Doc: Quick Start
+617,2018-08-06 00:04:24.000000000,2018-08-06 21:51:05.000000000,closed,1,fixes #615 IPC close on Windows leaves handle open
+616,2018-08-05 19:50:50.000000000,2018-08-20 04:18:45.000000000,closed,1,Race condition closing between header & body
+615,2018-08-05 18:59:08.000000000,2018-08-12 19:38:12.000000000,closed,2,IPC close on Windows leaves handle open
+614,2018-08-02 18:36:35.000000000,1970-01-01 00:00:00.000000001,open,11,Porting nng to NuttX
+613,2018-08-01 05:50:11.000000000,2018-08-05 23:55:12.000000000,closed,0,Transtart
+612,2018-07-31 02:48:15.000000000,2018-08-06 22:08:04.000000000,closed,1,demo/raw needs updating to use raw socket constructor
+611,2018-07-31 01:27:37.000000000,2018-08-06 23:53:41.000000000,closed,5,Memory Leaks under Windows
+610,2018-07-30 10:42:06.000000000,2018-08-20 18:15:30.000000000,closed,5,Dealing with NNG_ENOTSUP in socket.c
+609,2018-07-27 18:05:34.000000000,2020-01-21 20:59:43.000000000,closed,6,NNG to FreeRTOS
+608,2018-07-27 05:45:43.000000000,2018-08-27 19:22:04.000000000,closed,3,Add TCP support to specify local network interface
+607,2018-07-24 17:15:41.000000000,2018-07-24 18:55:05.000000000,closed,0,Added QNX support
+606,2018-07-21 00:45:42.000000000,2018-07-24 18:57:40.000000000,closed,0,fixes #605 NNI_ALLOC_STRUCT/NNI_ALLOC_STRUCTS should zero memory
+605,2018-07-21 00:13:22.000000000,2018-07-24 18:57:41.000000000,closed,0,NNI_ALLOC_STRUCT/NNI_ALLOC_STRUCTS should zero memory
+604,2018-07-21 00:11:40.000000000,2018-07-21 00:15:02.000000000,closed,0,pipe free does not finalize cv
+603,2018-07-20 10:33:29.000000000,2018-07-20 11:13:09.000000000,closed,3,[Question] is nng production ready?
+602,2018-07-19 00:51:52.000000000,2018-07-23 19:38:44.000000000,closed,13,reqrep demo does not work under QNX
+601,2018-07-19 00:21:56.000000000,2018-07-19 03:14:02.000000000,closed,0,pipe destroy can fail to close pipe
+600,2018-07-18 09:17:58.000000000,2018-07-19 03:14:01.000000000,closed,0,fixes #595 mutex leak and other minor errors in TCP
+599,2018-07-18 09:17:36.000000000,2018-08-14 17:23:00.000000000,closed,0,nng_dial sync should not return until added to socket
+598,2018-07-18 09:09:07.000000000,2018-07-19 03:14:01.000000000,closed,0,TLS and TCP listeners could support NNG_OPT_LOCADDR
+597,2018-07-18 08:59:38.000000000,2018-07-19 03:14:01.000000000,closed,0,macOS could support PEER PID
+596,2018-07-17 04:12:25.000000000,2018-07-19 03:14:01.000000000,closed,0,POSIX IPC should move away from pipedesc/epdesc
+595,2018-07-17 04:08:12.000000000,2018-07-19 03:14:02.000000000,closed,1,mutex leak and other minor errors in TCP
+594,2018-07-16 22:12:49.000000000,2018-07-19 03:14:01.000000000,closed,0,"Windows IPC should use ""new style"" win_io code."
+593,2018-07-14 22:25:24.000000000,2018-07-17 03:33:05.000000000,closed,1,Posixdialer
+592,2018-07-13 21:50:16.000000000,2018-07-16 22:06:43.000000000,closed,1,reqctx test has a race
+591,2018-07-13 21:01:27.000000000,2018-07-16 22:07:04.000000000,closed,1,incorrect reuse of server instances by websocket
+590,2018-07-13 20:40:11.000000000,2018-07-14 03:38:40.000000000,closed,10,nng_close stuck indefinitely
+589,2018-07-13 04:41:24.000000000,2018-07-16 22:07:24.000000000,closed,1,tsan found races
+588,2018-07-12 22:09:14.000000000,2018-07-19 03:59:35.000000000,closed,2,Winio
+587,2018-07-10 13:26:38.000000000,2018-10-27 08:52:32.000000000,closed,2,How would you recommed implementing server side filtering for pub/sub
+586,2018-07-10 05:01:50.000000000,2018-07-16 22:05:39.000000000,closed,1,Windows IO completion port work could be better
+585,2018-07-09 21:29:40.000000000,2018-07-13 04:42:33.000000000,closed,2,Tcpsep2
+584,2018-07-07 07:22:38.000000000,2018-07-07 08:14:45.000000000,closed,1,Use after-free in websocket
+583,2018-07-07 06:56:01.000000000,2018-07-07 08:14:45.000000000,closed,0,stress tests can starve completion
+582,2018-07-07 03:34:14.000000000,2018-07-07 08:14:44.000000000,closed,0,transport tests should run even with dynamic linking
+581,2018-07-07 03:32:27.000000000,2018-07-07 08:14:44.000000000,closed,0,nni_idhash could use 32-bit variant
+580,2018-07-07 03:30:51.000000000,2018-07-07 08:14:44.000000000,closed,0,Fixpipe4
+579,2018-07-06 20:38:04.000000000,2018-07-06 20:40:55.000000000,closed,0,Use ids for pipe listener and dialer
+578,2018-07-05 23:28:48.000000000,2018-07-05 23:40:43.000000000,closed,0,fixes #576 IPC listen unlinks UNIX socket on failure
+577,2018-07-05 22:31:33.000000000,2018-11-06 05:21:09.000000000,closed,3,target library dependencies should be public
+576,2018-07-05 22:17:58.000000000,2018-07-05 23:40:44.000000000,closed,1,IPC listen unlinks UNIX socket on failure
+575,2018-07-04 20:48:39.000000000,2018-07-04 20:50:22.000000000,closed,1,kqueue spins hard
+574,2018-07-04 19:12:56.000000000,2018-07-04 20:55:53.000000000,closed,0,nng_close should indicate warning against transmit truncation
+573,2018-07-04 05:59:57.000000000,2018-07-04 06:02:43.000000000,closed,0,atomic flags could help
+572,2018-07-04 03:33:18.000000000,2018-07-04 06:02:43.000000000,closed,0,Several locking errors found
+571,2018-07-04 03:14:01.000000000,2018-07-04 06:02:43.000000000,closed,0,Fixpipe2
+570,2018-07-03 05:57:05.000000000,2018-07-04 19:11:35.000000000,closed,13,nng_recv deadlock on client side in repreq/pair0/pair1 mode?
+569,2018-07-03 02:12:25.000000000,2018-07-09 21:30:04.000000000,closed,1,TCP separation & enhancements.
+568,2018-07-03 00:15:21.000000000,2018-07-07 08:14:44.000000000,closed,0,Want a single reader/write lock on socket child objects
+567,2018-07-02 23:50:49.000000000,2018-07-03 00:07:20.000000000,closed,0,fixes #564 Race regression caused by#522
+566,2018-07-02 23:42:49.000000000,2018-07-06 20:42:35.000000000,closed,0,Windows iov resubmit routine is not used.
+565,2018-07-02 23:42:07.000000000,2018-07-03 00:07:20.000000000,closed,0,Option getting should validate sizes more aggressively
+564,2018-07-02 23:40:17.000000000,2018-07-03 00:07:20.000000000,closed,1,Race regression caused by#522
+563,2018-07-02 23:38:21.000000000,2018-07-03 00:07:20.000000000,closed,0,Reconnect timeouts should be settable on dialers
+562,2018-07-02 23:37:05.000000000,2018-07-03 00:07:20.000000000,closed,0,pipe test is fragile
+561,2018-07-02 21:48:55.000000000,2018-07-02 23:02:46.000000000,closed,6,Excessive Warnings building for Android
+560,2018-06-30 19:04:49.000000000,1970-01-01 00:00:00.000000001,open,18,higher latency than zmq with small message
+559,2018-06-30 06:47:56.000000000,2018-06-30 07:51:22.000000000,closed,2,"is there a ""connected"" event or callback or status?"
+558,2018-06-30 02:11:17.000000000,1970-01-01 00:00:00.000000001,open,0,bind operation (in transports) could be asynchronous
+557,2018-06-29 23:15:30.000000000,2018-07-03 20:08:00.000000000,closed,7,Messages received via subscriber via tcp are comming in short with garbage after first bytes
+556,2018-06-28 18:32:45.000000000,2018-06-28 19:36:49.000000000,closed,1,nni_url_parse does not handle ipc and inproc specially
+555,2018-06-28 17:00:45.000000000,2018-06-30 06:46:15.000000000,closed,4,could not a lot of big data buffer
+554,2018-06-28 16:26:49.000000000,2018-07-04 13:27:59.000000000,closed,5,Compile error with gcc on cygwin : /usr/include/w32api/winsock2.h:995:34: error: conflicting types for ‘select’
+553,2018-06-27 05:12:59.000000000,2018-06-28 04:31:55.000000000,closed,0,Splitpea
+552,2018-06-26 04:21:25.000000000,2018-06-26 04:27:37.000000000,closed,0,man pages do not document NNG_ETIMEDOUT
+551,2018-06-24 18:02:40.000000000,2018-06-29 09:55:05.000000000,closed,5,Multiple Publishers & subscribers
+550,2018-06-21 00:26:01.000000000,2018-06-24 17:52:12.000000000,closed,19,Link Errors with VS2017 (I think it is something simple)
+549,2018-06-16 00:43:19.000000000,2019-12-30 13:26:48.000000000,closed,1,codecov not working?
+548,2018-06-15 23:51:50.000000000,2018-06-16 00:40:52.000000000,closed,0,fixes #539 Feature request: customizable http error page
+547,2018-06-15 21:36:27.000000000,2018-06-15 21:39:07.000000000,closed,2,Need to reset HTTP entity body
+546,2018-06-15 02:52:08.000000000,2018-06-15 03:05:42.000000000,closed,0,fixes #545 uaio assertion error in ws
+545,2018-06-15 02:39:56.000000000,2018-06-15 03:05:42.000000000,closed,0,uaio assertion error in ws
+544,2018-06-15 00:29:52.000000000,2018-06-15 02:17:26.000000000,closed,0,fixes #518 Panic in compat_ws -- use after free?
+543,2018-06-14 17:55:56.000000000,1970-01-01 00:00:00.000000001,open,1,feature request: logging
+542,2018-06-14 05:07:29.000000000,2018-06-14 05:21:35.000000000,closed,0,fixes #540 nni_ep_opttype serves no purpose
+541,2018-06-14 02:37:18.000000000,2018-08-20 18:14:24.000000000,closed,0,inproc does not honor maxrecvsize option
+540,2018-06-13 17:39:06.000000000,2018-06-14 05:21:35.000000000,closed,0,nni_ep_opttype serves no purpose
+539,2018-06-13 15:58:07.000000000,2018-06-16 00:40:52.000000000,closed,4,Feature request: customizable http error page
+538,2018-06-13 04:38:21.000000000,2018-06-14 05:21:35.000000000,closed,0,setopt should have an explicit chkopt routine
+537,2018-06-13 04:21:09.000000000,2018-06-14 05:21:35.000000000,closed,0,Internal TCP API needs better name separation
+536,2018-06-12 23:17:58.000000000,2018-06-12 23:51:42.000000000,closed,0,fixes #535 aio->a_closed and aio->a_stop could be consolidated
+535,2018-06-12 22:47:17.000000000,2018-06-12 23:51:42.000000000,closed,0,aio->a_closed and aio->a_stop could be consolidated
+534,2018-06-12 21:38:05.000000000,2018-06-12 22:33:19.000000000,closed,0,fixes #533 nni_aio_begin should not dispatch task on NNG_ECLOSED.
+533,2018-06-12 21:34:05.000000000,2018-06-12 22:33:19.000000000,closed,0,nni_aio_begin should not dispatch task on NNG_ECLOSED.
+532,2018-06-12 21:12:12.000000000,2018-06-12 21:26:15.000000000,closed,0,fixes #527 http_res_set_reason crash in example
+531,2018-06-12 20:19:24.000000000,2018-08-20 18:36:55.000000000,closed,1,aio cancellation routines could return result
+530,2018-06-12 20:03:35.000000000,1970-01-01 00:00:00.000000001,open,3,POSIX pollqs should scale horizontally
+529,2018-06-12 19:38:57.000000000,2018-06-12 20:00:17.000000000,closed,0,fixes #32 autoscale based on CPUs available
+528,2018-06-12 19:11:44.000000000,2018-06-14 17:56:01.000000000,closed,2,open for discussion: http server module
+527,2018-06-12 13:50:54.000000000,2018-06-12 21:26:16.000000000,closed,1,http_res_set_reason crash in example
+526,2018-06-11 22:54:02.000000000,2018-06-12 02:09:00.000000000,closed,0,Noepstop
+525,2018-06-11 22:33:23.000000000,2018-06-12 02:09:00.000000000,closed,1,posix nni_plat_tcp_ep_init should not mark mode unused
+524,2018-06-11 22:06:50.000000000,2018-06-14 05:21:35.000000000,closed,0,"Option types should be ""typed"""
+523,2018-06-11 21:44:42.000000000,2018-07-16 22:04:46.000000000,closed,2,dialers could support multiple outstanding dial requests
+522,2018-06-11 20:37:55.000000000,2018-06-28 04:31:55.000000000,closed,0,Separate out the endpoint plumbing
+521,2018-06-11 17:43:13.000000000,2018-06-12 02:09:00.000000000,closed,2,ep_stop is not actually used
+520,2018-06-09 17:49:57.000000000,1970-01-01 00:00:00.000000001,open,1,Any chance nodejs bindings exist for this?
+519,2018-06-09 04:10:57.000000000,2018-06-09 20:22:50.000000000,closed,0,fixes #511 Want to be able to have deferred destroy of tasks and aios
+518,2018-06-09 01:58:19.000000000,2018-06-15 02:17:26.000000000,closed,7,Panic in compat_ws -- use after free?
+517,2018-06-09 01:49:41.000000000,2018-06-09 01:51:24.000000000,closed,0,nng_recv needs to document NNG_FLAG_NONBLOCK
+516,2018-06-09 01:29:25.000000000,2018-06-09 01:44:45.000000000,closed,0,"fixes #509 We need ""relative"" IPC URLs"
+515,2018-06-09 01:11:18.000000000,2018-06-09 01:28:58.000000000,closed,2,Ninja build & test fails in nngcat tests
+514,2018-06-08 22:41:47.000000000,2018-06-08 22:46:37.000000000,closed,0,Need documentation updates for 1.0
+513,2018-06-08 19:43:28.000000000,1970-01-01 00:00:00.000000001,open,1,EtherType 901 should be registered with IEEE 
+512,2018-06-08 19:36:07.000000000,2018-06-08 20:44:35.000000000,closed,2,ZeroTier can use master branch of ZeroTierOne now
+511,2018-06-08 06:03:15.000000000,2018-06-09 20:22:50.000000000,closed,0,Want to be able to have deferred destroy of tasks and aios
+510,2018-06-08 05:31:12.000000000,2018-06-08 22:47:31.000000000,closed,0,HTTP and TLS man pages refer to private symbols
+509,2018-06-07 06:09:22.000000000,2018-06-09 01:44:45.000000000,closed,0,"We need ""relative"" IPC URLs"
+508,2018-06-06 00:52:21.000000000,2018-06-08 18:13:55.000000000,closed,7,nng_aio_free blocks during callback
+507,2018-06-05 03:51:54.000000000,2018-06-05 04:25:09.000000000,closed,3,aio cancellation function should take opaque pointer as arg
+506,2018-06-05 03:24:51.000000000,2018-08-20 23:08:05.000000000,closed,5,"AIO ""providers"" need a way to call nni_aio_schedule.  "
+505,2018-06-04 21:56:49.000000000,2018-06-04 22:16:03.000000000,closed,0,Adding sys/stat.h to src/platform/posix/posix_aio.h for building with…
+504,2018-06-02 10:31:33.000000000,2018-06-08 22:46:36.000000000,closed,0,Readme and doc updates for release
+503,2018-06-01 21:39:02.000000000,2018-06-09 02:46:14.000000000,closed,1,nng_recv missing description of NNG_FLAG_NONBLOCK
+502,2018-06-01 21:10:56.000000000,2018-06-01 23:45:27.000000000,closed,0,fixes #496 nngcat tests fail in Xcode build
+501,2018-05-31 01:13:07.000000000,2018-05-31 04:17:23.000000000,closed,0,Fix499
+500,2018-05-31 00:28:17.000000000,2018-07-13 04:06:39.000000000,closed,2,Stop using fprintf on Win32 -- use OutputDebugString instead
+499,2018-05-31 00:16:19.000000000,2018-05-31 04:17:24.000000000,closed,0,Eliminate the unused nni_plat_home_dir...
+498,2018-05-30 23:02:00.000000000,2018-05-30 23:17:50.000000000,closed,0,fixes #477 Android NDK build configuration
+497,2018-05-30 06:17:58.000000000,1970-01-01 00:00:00.000000001,open,9,Implement SecureTransport option for SSL/TLS
+496,2018-05-30 05:23:21.000000000,2018-06-01 23:45:27.000000000,closed,1,nngcat tests fail in Xcode build
+495,2018-05-30 03:21:04.000000000,2018-05-30 05:22:17.000000000,closed,0,SEE ALSO should use [align=left]
+494,2018-05-30 03:20:25.000000000,2018-05-30 05:22:17.000000000,closed,0,ERRORS section should use [horizontal]
+493,2018-05-30 03:06:20.000000000,2018-05-30 03:16:47.000000000,closed,0,This gathers up a bunch of improvements aimed at hardening the code base.
+492,2018-05-30 02:57:55.000000000,2018-05-30 03:16:48.000000000,closed,0,Numerous memory leaks found with sanitizer
+491,2018-05-30 02:47:43.000000000,2018-05-31 01:10:49.000000000,closed,1,"Remove the ""convey"" meta test"
+490,2018-05-30 02:46:37.000000000,2018-05-30 03:16:48.000000000,closed,0,posix_epdesc use-after-free bug
+489,2018-05-30 02:42:34.000000000,2018-05-30 03:16:48.000000000,closed,0,Sanitizer based testing would help
+488,2018-05-25 23:35:36.000000000,2018-05-30 03:16:47.000000000,closed,0,pthread mutex initializer could be simpler
+487,2018-05-25 19:20:08.000000000,2018-05-25 23:32:07.000000000,closed,0,fixes #486 Revisit SOVERSION and VERSION
+486,2018-05-25 07:04:28.000000000,2018-05-25 23:32:07.000000000,closed,0,Revisit SOVERSION and VERSION
+485,2018-05-25 07:02:43.000000000,2018-05-25 23:32:07.000000000,closed,0,Honor BUILD_SHARED_LIBS
+484,2018-05-25 02:40:32.000000000,2018-05-30 03:16:48.000000000,closed,1,crashes in websocket transport
+483,2018-05-25 02:05:03.000000000,2018-05-25 23:32:07.000000000,closed,0,Don't expose private symbols in shared library
+482,2018-05-25 02:03:05.000000000,2018-05-25 19:20:44.000000000,closed,1,Build changes... work in progress.. not for integration
+481,2018-05-23 07:42:59.000000000,2018-05-25 23:32:07.000000000,closed,0,Export CMake target
+480,2018-05-23 07:25:18.000000000,1970-01-01 00:00:00.000000001,open,0,"RDMA support (RoCE, Infiniband, etc.)"
+479,2018-05-23 07:08:26.000000000,1970-01-01 00:00:00.000000001,open,2,Windows OneCore and UWP compilation
+478,2018-05-23 07:06:59.000000000,2020-05-24 21:08:41.000000000,closed,1,vcpkg support?
+477,2018-05-23 07:05:38.000000000,2018-05-30 23:17:51.000000000,closed,2,Android NDK build configuration
+476,2018-05-22 21:32:25.000000000,2018-05-22 22:19:39.000000000,closed,0,Crank the library ABI version
+475,2018-05-22 21:31:17.000000000,2018-05-22 22:17:01.000000000,closed,0,fixes #474 websocket listen on ws://*:<x> fails
+474,2018-05-22 19:30:46.000000000,2018-05-22 22:17:01.000000000,closed,0,websocket listen on ws://*:<x> fails
+473,2018-05-22 08:14:28.000000000,2018-05-22 08:27:49.000000000,closed,0,Bug 460 is too aggressive
+472,2018-05-22 06:13:25.000000000,2018-05-22 08:27:48.000000000,closed,0,Test for pub/sub fails due to not waiting long enough
+471,2018-05-22 03:48:51.000000000,2018-05-22 08:27:49.000000000,closed,0,Linux resolver truncates port number silently
+470,2018-05-22 02:57:14.000000000,2018-05-22 08:28:48.000000000,closed,0,fixes #469 SO_REUSEADDR should be enabled
+469,2018-05-22 02:50:23.000000000,2018-05-22 08:27:48.000000000,closed,0,SO_REUSEADDR should be enabled
+468,2018-05-22 02:44:01.000000000,2018-05-22 08:27:48.000000000,closed,0,TCP nodelay and keepalive should start usable
+467,2018-05-22 02:42:04.000000000,2018-05-22 08:27:48.000000000,closed,0,NN_RCVMAXSZ option does not work (compat)
+466,2018-05-22 00:30:22.000000000,2018-05-22 00:51:29.000000000,closed,0,Compathdrs
+465,2018-05-21 22:01:38.000000000,2018-05-22 08:27:48.000000000,closed,0,Support NN_OPT_TCPNODELAY (compat)
+464,2018-05-21 21:48:19.000000000,2018-05-22 22:17:00.000000000,closed,0,Support NN_WS_MSG_TYPE option (compat)
+463,2018-05-20 19:58:11.000000000,2018-05-20 20:27:13.000000000,closed,0,fixes #462 mode_t missing during compilation
+462,2018-05-20 19:52:21.000000000,2018-05-20 20:27:14.000000000,closed,2,mode_t missing during compilation
+461,2018-05-19 22:04:58.000000000,2019-02-27 10:16:09.000000000,closed,1,Context support for SUB
+460,2018-05-19 21:36:32.000000000,2018-05-22 00:54:59.000000000,closed,0,fixes #459 SUB should be more aggressive about discarding messages
+459,2018-05-19 20:58:37.000000000,2018-05-22 00:55:00.000000000,closed,3,SUB should be more aggressive about discarding messages
+458,2018-05-19 09:31:52.000000000,2018-05-20 08:42:34.000000000,closed,0,Improve man page section descriptions.
+457,2018-05-19 09:29:28.000000000,2018-05-22 00:51:29.000000000,closed,0,Create stub headers for compatibility
+456,2018-05-18 21:38:14.000000000,2018-11-06 07:10:14.000000000,closed,0,TLS configuration object hold
+455,2018-05-18 21:17:53.000000000,2018-05-18 21:19:32.000000000,closed,0,publish script for man pages needs updates
+454,2018-05-18 08:46:22.000000000,2018-05-18 08:55:40.000000000,closed,0,Taskfix
+453,2018-05-18 07:32:55.000000000,2018-05-18 07:41:48.000000000,closed,0,fixes #452 Want tcp6:// and tcp4:// to constrain IP family
+452,2018-05-18 07:18:42.000000000,2018-05-18 07:41:48.000000000,closed,0,Want tcp6:// and tcp4:// to constrain IP family
+451,2018-05-18 05:33:11.000000000,2018-05-18 08:55:40.000000000,closed,0,task finalization could be better/smarter (resolver)
+450,2018-05-17 23:58:06.000000000,2018-05-18 06:30:59.000000000,closed,0,fixes #449 Want more flexible pipe events
+449,2018-05-17 23:53:41.000000000,2018-05-18 06:30:59.000000000,closed,0,Want more flexible pipe events
+448,2018-05-17 08:47:54.000000000,2018-05-17 21:03:56.000000000,closed,0,fixes #441 Unintentional semantic in bus protocol
+447,2018-05-17 08:12:33.000000000,2018-05-17 08:19:40.000000000,closed,0,fixes #445 crash in taskq_thread
+446,2018-05-17 02:07:47.000000000,2020-02-26 10:09:14.000000000,closed,3,stress tests should work around tcp port conflicts
+445,2018-05-16 23:32:02.000000000,2018-05-17 08:19:41.000000000,closed,10,crash in taskq_thread
+444,2018-05-16 23:13:11.000000000,2018-05-19 09:23:44.000000000,closed,0,Stop looking for asciidoctor by default
+443,2018-05-16 22:13:32.000000000,2018-05-17 02:08:32.000000000,closed,2,Buffer overrun in panic()
+442,2018-05-16 21:53:44.000000000,2018-05-16 23:05:55.000000000,closed,1,Attempt to switch to clang 6 on xenial.
+441,2018-05-16 21:15:27.000000000,2018-05-17 21:03:56.000000000,closed,1,Unintentional semantic in bus protocol
+440,2018-05-16 20:33:35.000000000,2018-05-16 21:06:40.000000000,closed,0,leak in bus protocol
+439,2018-05-16 06:23:55.000000000,2018-05-16 21:05:27.000000000,closed,1,fixes #430 Unable to build in MSYS + Win-builds
+438,2018-05-16 05:44:31.000000000,2018-05-16 21:05:27.000000000,closed,0,Consider dropping AI_V4MAPPED
+437,2018-05-16 05:08:26.000000000,2018-05-16 05:20:47.000000000,closed,1,fixes #436 fix for 429 incomplete (ws ep crash)
+436,2018-05-16 03:04:09.000000000,2018-05-16 05:20:47.000000000,closed,1,fix for 429 incomplete (ws ep crash)
+435,2018-05-16 02:46:20.000000000,2018-05-16 02:47:55.000000000,closed,1,More endpoint termination hardening.
+434,2018-05-15 23:38:12.000000000,2018-05-16 00:54:36.000000000,closed,1,fixes #433 tasks can leak
+433,2018-05-15 23:36:42.000000000,2018-05-16 00:54:36.000000000,closed,0,tasks can leak
+432,2018-05-15 23:01:58.000000000,2018-05-15 23:23:50.000000000,closed,1,fixes #431 hang in taskq_wait
+431,2018-05-15 22:32:16.000000000,2018-05-15 23:23:50.000000000,closed,1,hang in taskq_wait
+430,2018-05-15 21:56:36.000000000,2018-05-16 21:05:27.000000000,closed,4,Unable to build in MSYS + Win-builds
+429,2018-05-15 20:33:48.000000000,2018-05-15 23:23:50.000000000,closed,1,async websocket reap leads to crash
+428,2018-05-15 11:19:00.000000000,2018-05-15 12:47:13.000000000,closed,1,fixes #419 want to nni_aio_stop without blocking
+427,2018-05-11 00:01:16.000000000,2018-05-15 04:59:48.000000000,closed,2,Tasksync - THIS PR IS NOT TO BE MERGED
+426,2018-05-09 23:35:16.000000000,2018-05-15 04:59:49.000000000,closed,1,synchronous completion can lead to panic
+425,2018-05-09 23:20:17.000000000,2018-05-10 00:41:40.000000000,closed,1,fixes #424 reqstress low frequency crash
+424,2018-05-09 23:19:12.000000000,2018-05-10 00:41:41.000000000,closed,0,reqstress low frequency crash
+423,2018-05-09 23:14:48.000000000,2018-05-10 00:41:41.000000000,closed,0,desire tunable stress time and pressure in stress tests
+422,2018-05-09 22:51:34.000000000,2018-05-09 23:12:39.000000000,closed,1,nng_aio_fini_cb() could go away
+421,2018-05-09 03:47:04.000000000,2018-05-15 04:59:49.000000000,closed,1,pipe close race condition/duplicate destroy
+420,2018-05-08 23:00:41.000000000,2018-05-17 02:10:02.000000000,closed,2,fixes #419 want to nni_aio_stop without blocking
+419,2018-05-08 07:17:30.000000000,2018-05-15 12:47:14.000000000,closed,2,want to nni_aio_stop without blocking
+418,2018-05-08 05:04:14.000000000,2018-05-08 06:16:28.000000000,closed,2,Fix double unlock in nni_posix_pollq_fini
+417,2018-05-08 04:04:18.000000000,2018-05-08 04:39:49.000000000,closed,0,nngcat truncates input files to 4k
+416,2018-05-08 03:51:53.000000000,2018-05-08 04:39:49.000000000,closed,1,transports do not permit unlimited message size with 0
+415,2018-05-08 03:51:01.000000000,2018-05-22 22:17:01.000000000,closed,1,websocket does not honor recv maxsize
+414,2018-05-08 02:26:29.000000000,2018-05-08 04:39:49.000000000,closed,1,fixes #413 desire --count option for nngcat
+413,2018-05-08 01:46:15.000000000,2018-05-08 04:39:49.000000000,closed,0,desire --count option for nngcat
+412,2018-05-07 15:44:48.000000000,2018-05-07 17:47:01.000000000,closed,1,Do not include files you won't need
+411,2018-05-07 03:41:11.000000000,2018-05-15 04:59:49.000000000,closed,0,epoll_implementation could be smarter
+410,2018-05-07 03:38:20.000000000,2018-05-15 04:59:48.000000000,closed,0,kqueue implementation could be smarter
+409,2018-05-07 02:28:27.000000000,2018-05-07 02:38:34.000000000,closed,2,Illumos2
+408,2018-05-06 23:39:17.000000000,2018-05-07 02:37:47.000000000,closed,2,Portev
+407,2018-05-06 22:20:23.000000000,2018-05-07 02:38:36.000000000,closed,0,illumos getegid wrong
+406,2018-05-06 22:11:47.000000000,2018-05-07 02:38:36.000000000,closed,0,nni_idhash_count is dead code
+405,2018-05-06 22:08:18.000000000,2018-05-07 02:38:36.000000000,closed,0,warning: newline not last character in file
+404,2018-05-06 22:07:38.000000000,2018-05-07 02:38:36.000000000,closed,0,idhash typedef redeclared
+403,2018-05-06 22:04:36.000000000,2018-05-07 02:38:35.000000000,closed,0,syntax error in posix_tcp - attempt to return void
+402,2018-05-06 21:57:49.000000000,2018-05-07 02:38:35.000000000,closed,0,getpeerucred needs a NULL initialized ucred
+401,2018-05-06 21:19:31.000000000,2018-05-07 02:38:34.000000000,closed,0,timer overflow error in convey
+400,2018-05-06 21:17:58.000000000,2018-05-07 09:36:47.000000000,closed,3,Some resolvers take a long time with garbage addresses
+399,2018-05-05 22:13:23.000000000,2018-05-07 02:38:35.000000000,closed,3,Cannot use SVR4.2 specific msghdr
+398,2018-05-05 22:11:33.000000000,2018-05-07 02:38:10.000000000,closed,2,Illumos build stuff
+397,2018-05-05 22:06:02.000000000,2018-05-07 02:38:35.000000000,closed,0,Need to cast zoneid
+396,2018-05-05 22:02:50.000000000,2018-05-07 02:38:34.000000000,closed,0,illumos doesn't build  (missing NNG_PLATFORM_POSIX ON)
+395,2018-05-05 22:02:05.000000000,2018-05-07 02:38:35.000000000,closed,0,sun is predefined on illumos/Solaris
+394,2018-05-05 22:01:20.000000000,2018-05-07 02:38:35.000000000,closed,0,alloca needs to #include <alloca.h>
+393,2018-05-05 21:42:25.000000000,2018-05-07 02:38:36.000000000,closed,1,panic on illumos - epoll assertion error
+392,2018-05-04 01:30:47.000000000,2018-05-04 02:15:42.000000000,closed,1,fixes #383 Would like peerid for IPC
+391,2018-05-03 06:53:40.000000000,2018-05-03 17:42:22.000000000,closed,1,Pipeevent
+390,2018-05-03 01:44:17.000000000,2018-05-03 17:42:22.000000000,closed,1,panic in reqstress websocket
+389,2018-05-01 23:30:25.000000000,2018-05-03 17:42:23.000000000,closed,0,Need pipe notification callbacks
+388,2018-05-01 08:42:21.000000000,2018-05-01 23:55:51.000000000,closed,1,fixes #381 Want comparators for various types
+387,2018-05-01 05:34:02.000000000,2018-05-01 06:02:24.000000000,closed,0,Document that IPC paths must be absolute
+386,2018-05-01 02:26:20.000000000,2018-05-01 05:31:35.000000000,closed,2,fixes #385 Need NN_IPC_SEC_ATTR
+385,2018-05-01 02:25:23.000000000,2018-05-01 05:32:14.000000000,closed,1,Need NN_IPC_SEC_ATTR
+384,2018-05-01 00:05:57.000000000,2018-05-01 02:09:33.000000000,closed,0,Add NN_PROTOCOL and related
+383,2018-04-30 23:00:35.000000000,2018-05-04 02:15:42.000000000,closed,0,Would like peerid for IPC
+382,2018-04-30 22:18:09.000000000,2018-04-30 23:22:04.000000000,closed,0,Permissions support for IPC on POSIX
+381,2018-04-30 20:36:09.000000000,2018-05-01 23:55:51.000000000,closed,1,Want comparators for various types
+380,2018-04-30 20:27:26.000000000,2018-04-30 23:22:04.000000000,closed,1,Secattr
+379,2018-04-28 23:41:19.000000000,2018-04-29 07:43:49.000000000,closed,1,httpbin.org no longer accepts clear HTTP
+378,2018-04-28 01:16:19.000000000,2018-04-29 07:43:49.000000000,closed,1,Add nonblocking test (test case for bug 346).
+377,2018-04-27 04:09:33.000000000,2018-04-27 06:18:51.000000000,closed,1,Noint
+376,2018-04-27 00:57:16.000000000,2018-04-27 01:20:33.000000000,closed,1,fixes #105 Want NNG_OPT_TCP_NODELAY option
+375,2018-04-26 23:27:23.000000000,2018-04-27 06:18:51.000000000,closed,0,integer types are error prone
+374,2018-04-26 01:14:26.000000000,2018-04-26 05:54:45.000000000,closed,1,fixes #373 inproc_thr sometimes fails with connection refused
+373,2018-04-26 00:15:03.000000000,2018-04-26 05:54:45.000000000,closed,0,inproc_thr sometimes fails with connection refused
+372,2018-04-25 21:57:35.000000000,2018-04-25 22:11:58.000000000,closed,1,fixes #347 Legacy option NN_SNDBUF and NN_RCVBUF in bytes not messages
+371,2018-04-25 03:40:42.000000000,2018-04-25 06:54:05.000000000,closed,1,Cppcheck
+370,2018-04-25 03:00:26.000000000,2018-04-25 03:08:40.000000000,closed,0,Appveyorcleanup
+369,2018-04-25 02:33:46.000000000,2018-04-25 02:52:39.000000000,closed,1,fixes #364 kill off nni_msgq_set_best_effort()
+368,2018-04-25 01:52:51.000000000,2018-04-25 02:28:56.000000000,closed,0,context options could be empty
+367,2018-04-25 01:47:29.000000000,2018-04-25 03:08:41.000000000,closed,0,Kill off Travis CI finally
+366,2018-04-25 01:44:57.000000000,2018-04-25 03:08:40.000000000,closed,0,Cache ninja-build for AppVeyor
+365,2018-04-25 01:43:22.000000000,2018-04-25 03:08:40.000000000,closed,0,Probably we don't need asciidoctor at build time
+364,2018-04-24 20:32:52.000000000,2018-04-25 02:52:40.000000000,closed,0,kill off nni_msgq_set_best_effort()
+363,2018-04-24 20:31:13.000000000,2018-04-25 02:28:56.000000000,closed,0,context option plumbing missing
+362,2018-04-24 08:37:00.000000000,2018-04-25 02:28:56.000000000,closed,0,nni_msgq does not signal pollable on certain events
+361,2018-04-24 04:47:24.000000000,2018-04-25 02:28:56.000000000,closed,0,nng_send_aio should check for NULL message
+360,2018-04-24 04:46:27.000000000,2018-04-25 02:28:56.000000000,closed,0,core should nng_aio_begin before nng_aio_finish_error
+359,2018-04-24 01:00:41.000000000,2018-04-25 02:28:55.000000000,closed,1,This provides a basic implementation for Surveyor & Respondent contexts
+358,2018-04-21 05:52:24.000000000,2018-07-07 08:16:33.000000000,closed,1,consider idhash_freeze & thaw
+357,2018-04-19 07:48:15.000000000,2018-04-20 18:58:59.000000000,closed,1,"Nonblocking -refactoring -- work in progress, not for merging"
+356,2018-04-18 02:44:47.000000000,2018-04-18 03:03:05.000000000,closed,1,fixes #355 Possible use after free in REP
+355,2018-04-18 02:37:39.000000000,2018-04-18 03:03:05.000000000,closed,0,Possible use after free in REP
+354,2018-04-17 04:35:19.000000000,2020-01-21 03:42:47.000000000,closed,17,macOS pthread locks *hurt*
+353,2018-04-16 22:49:30.000000000,2018-04-17 07:58:49.000000000,closed,1,fixes #344 nn_poll() legacy API missing
+352,2018-04-15 06:21:05.000000000,2018-05-15 04:59:48.000000000,closed,4,aio lock is burning hot
+351,2018-04-15 02:10:19.000000000,2018-04-15 07:18:03.000000000,closed,1,Fix350
+350,2018-04-15 02:09:15.000000000,2018-04-15 07:18:04.000000000,closed,0,Incorrect compat error code from nn_setsockopt
+349,2018-04-15 00:01:28.000000000,2018-04-15 00:11:49.000000000,closed,1,fixes #308 Close can block
+348,2018-04-14 22:01:45.000000000,2018-05-08 04:39:49.000000000,closed,0,nngcat should have switch to adjust maximum receive size
+347,2018-04-14 21:49:08.000000000,2018-04-25 22:11:58.000000000,closed,0,Legacy option NN_SNDBUF and NN_RCVBUF in bytes not messages
+346,2018-04-14 10:48:29.000000000,2018-04-20 18:58:59.000000000,closed,39,nng_recv() sometimes acts on null `msg` pointer
+345,2018-04-14 09:35:56.000000000,2018-04-15 00:13:58.000000000,closed,2,fixes bad address tests in tcp and tls
+344,2018-04-14 02:58:43.000000000,2018-04-17 07:58:49.000000000,closed,3,nn_poll() legacy API missing
+343,2018-04-12 22:57:24.000000000,2018-04-13 02:37:22.000000000,closed,1,Use contexts for new async demo.
+342,2018-04-12 19:34:55.000000000,2018-04-25 02:28:56.000000000,closed,0,Want Surveyor/Respondent context support
+341,2018-04-11 23:56:26.000000000,2018-04-11 23:58:41.000000000,closed,1,Want REST API gateway demo
+340,2018-04-11 22:14:07.000000000,2018-08-21 03:31:53.000000000,closed,1,Add http_handle_aio handler
+339,2018-04-11 02:25:38.000000000,2018-07-16 22:05:59.000000000,closed,1,Windows iocp could use synchronous completions
+338,2018-04-11 02:20:43.000000000,2018-04-11 02:56:25.000000000,closed,0,possible SIGPIPE on Linux
+337,2018-04-10 01:12:39.000000000,2018-04-11 02:56:25.000000000,closed,0,compat_reqrep test too fragile
+336,2018-04-10 00:38:37.000000000,2018-04-11 02:56:25.000000000,closed,0,inproc queue depths are too long
+335,2018-04-06 02:41:18.000000000,2018-04-11 02:56:25.000000000,closed,1,eventfd seems unreliable on Linux (Ubuntu 17.10)
+334,2018-04-05 00:46:04.000000000,2018-04-11 02:56:25.000000000,closed,0,Separate context for state machines from sockets
+333,2018-04-04 23:39:41.000000000,2018-04-05 00:14:09.000000000,closed,1,fixes #331 replace NNG_OPT_RAW option with constructor
+332,2018-04-04 22:09:05.000000000,2018-04-04 22:40:38.000000000,closed,1,fixes #329 type checking not done for setopt
+331,2018-04-04 21:43:33.000000000,2018-04-05 00:14:09.000000000,closed,2,replace NNG_OPT_RAW option with constructor
+330,2018-04-04 20:43:30.000000000,2018-04-04 21:24:35.000000000,closed,1,fixes #324 nni_aio_set_synch leads to race condition
+329,2018-04-04 20:41:03.000000000,2018-04-04 22:40:39.000000000,closed,0,type checking not done for setopt
+328,2018-04-04 20:02:26.000000000,2018-04-20 21:59:52.000000000,closed,1,QueryPerformanceCounter is *expensive*
+327,2018-04-04 19:54:55.000000000,2018-04-04 21:24:35.000000000,closed,0,move nni_clock() operations to outside the nni_aio_lk.
+326,2018-04-04 19:45:09.000000000,2018-05-15 04:59:48.000000000,closed,1,consider nni_taskq_exec_synch()
+325,2018-04-04 19:42:31.000000000,2018-04-04 21:24:35.000000000,closed,0,synchronous aio completion crash
+324,2018-04-04 19:35:10.000000000,2018-04-04 21:24:35.000000000,closed,0,nni_aio_set_synch leads to race condition
+323,2018-03-31 03:16:27.000000000,2018-03-31 03:53:11.000000000,closed,0,aio's iov may be reused
+322,2018-03-31 02:17:11.000000000,2018-03-31 03:53:11.000000000,closed,1,epoll implementation is racy
+321,2018-03-31 01:05:41.000000000,2018-03-31 03:53:10.000000000,closed,1,fixes #315 WebSocket message handling errors
+320,2018-03-30 22:45:20.000000000,2018-03-30 23:39:28.000000000,closed,1,Perf2
+319,2018-03-30 22:00:12.000000000,1970-01-01 00:00:00.000000001,open,1,Could use an nn_list_node_remove_nocheck()
+318,2018-03-30 21:17:33.000000000,2018-03-30 23:39:28.000000000,closed,0,Assertion on macOS -- kevent() returns EINPROGRESS.
+317,2018-03-30 21:10:12.000000000,2018-03-30 23:39:29.000000000,closed,0,"TLS, TCP, and IPC should support multiple outstanding ops"
+316,2018-03-30 21:07:02.000000000,2018-03-30 23:39:28.000000000,closed,0,nni_aio_set_synch() usually doesn't do anything
+315,2018-03-30 21:05:48.000000000,2018-03-31 03:53:11.000000000,closed,0,WebSocket message handling errors
+314,2018-03-29 04:19:05.000000000,2018-04-12 19:28:40.000000000,closed,1,REP drops outbound messages under load
+313,2018-03-26 22:37:43.000000000,1970-01-01 00:00:00.000000001,open,0,REP cooked mode could be smarter
+312,2018-03-26 22:08:07.000000000,2018-03-31 03:54:57.000000000,closed,0,idhash_walk stuff can be removed
+311,2018-03-26 20:08:28.000000000,2018-04-11 02:56:25.000000000,closed,1,Ctx
+310,2018-03-26 19:17:19.000000000,2019-12-12 07:14:17.000000000,closed,18,Windows version runs poorly in VM with only one core
+309,2018-03-23 14:30:27.000000000,2018-03-23 17:09:11.000000000,closed,1,Need to create zt home for dialer
+308,2018-03-21 22:28:35.000000000,2018-04-15 00:11:50.000000000,closed,2,Close can block
+307,2018-03-21 12:45:57.000000000,2018-04-15 00:13:05.000000000,closed,2,fixes #306 Linger should be passed down to TCP sockets.
+306,2018-03-21 12:43:31.000000000,2018-04-15 00:14:58.000000000,closed,1,Linger should be passed down to TCP sockets.
+305,2018-03-21 06:03:30.000000000,2018-03-21 06:55:27.000000000,closed,1,fixes #301 String option handling for getopt
+304,2018-03-20 21:24:36.000000000,2018-05-08 06:44:20.000000000,closed,2,perf tool exits too quickly on throughput client
+303,2018-03-20 20:59:08.000000000,2018-04-14 22:51:25.000000000,closed,0,Flesh out compatible API docs
+302,2018-03-20 20:53:31.000000000,2018-03-20 20:57:02.000000000,closed,0,nng_dialer/listener/pipe_getopt_sockaddr desired
+301,2018-03-20 20:51:25.000000000,2018-03-21 06:55:27.000000000,closed,0,String option handling for getopt
+300,2018-03-20 20:47:02.000000000,1970-01-01 00:00:00.000000001,open,0,Consider adding BearSSL
+299,2018-03-20 06:21:19.000000000,2018-03-20 20:57:01.000000000,closed,1,Strongly typed options
+298,2018-03-19 07:45:04.000000000,2018-03-19 08:23:07.000000000,closed,1,Fixes option stuff.
+297,2018-03-18 23:48:18.000000000,2018-03-19 08:23:08.000000000,closed,0,nng_listener/dialer_close does not validate mode
+296,2018-03-18 23:27:19.000000000,2018-03-20 20:57:02.000000000,closed,0,Typed options should validate option type
+295,2018-03-18 04:24:03.000000000,2018-03-19 08:23:07.000000000,closed,0,boolean options should use C99 bool type
+294,2018-03-17 22:49:23.000000000,2018-03-18 04:29:50.000000000,closed,1,rename nng_zerotier_xxx to nng_zt_xxx
+293,2018-03-17 22:48:25.000000000,2018-03-19 08:23:08.000000000,closed,0,nng_listener_getopt doc needs updating
+292,2018-03-16 18:48:34.000000000,2018-03-20 01:26:31.000000000,closed,4,Proposed small fixes to align .h headers and implementations
+291,2018-03-15 03:54:56.000000000,2018-03-15 04:17:30.000000000,closed,1,Sunset
+290,2018-03-15 03:11:51.000000000,2018-03-15 04:17:31.000000000,closed,0,sockaddr improvements
+289,2018-03-15 00:05:25.000000000,2018-03-15 04:17:30.000000000,closed,0,nng_sockaddr could just be a union
+288,2018-03-14 14:32:20.000000000,2018-03-14 18:30:22.000000000,closed,0,Add a missing ` in the doc
+287,2018-03-14 03:45:54.000000000,2018-03-18 04:22:20.000000000,closed,1,"remove NNG_OPT_DOMAIN, NNG_OPT_PROTOCOL, and NNG_OPT_TRANSPORT"
+286,2018-03-14 01:01:45.000000000,2018-03-17 19:55:09.000000000,closed,0,nng_pair0_open (and all others) need man page
+285,2018-03-14 01:00:19.000000000,2018-03-19 08:23:07.000000000,closed,1,nng_setopt_ptr MIA
+284,2018-03-13 05:42:48.000000000,2018-03-13 05:43:50.000000000,closed,0,want async demo
+283,2018-03-13 04:53:42.000000000,2018-03-13 05:41:59.000000000,closed,1,nng_sleep_aio should honor aio timeout.
+282,2018-03-13 02:15:32.000000000,2018-03-13 02:24:58.000000000,closed,1,fixes #281 desire nng_sleep_aio()
+281,2018-03-13 01:27:32.000000000,2018-03-13 02:24:58.000000000,closed,0,desire nng_sleep_aio()
+280,2018-03-11 05:57:21.000000000,2018-07-16 22:06:21.000000000,closed,3,TCP abstraction improvements
+279,2018-03-11 05:55:25.000000000,2018-03-17 19:55:09.000000000,closed,0,consider restructuring man sections
+278,2018-03-11 04:53:47.000000000,2018-03-11 06:50:50.000000000,closed,1,Fix276
+277,2018-03-11 03:36:48.000000000,2018-03-12 23:00:30.000000000,closed,1,circle ci: add workflows for linux clang and gcc builds
+276,2018-03-11 01:50:53.000000000,2018-03-11 06:50:50.000000000,closed,0,decouple NNG and zerotier definitions
+275,2018-03-10 07:26:51.000000000,2018-03-19 08:23:07.000000000,closed,1,nng_pipe_getopt_ptr() missing?
+274,2018-03-10 07:25:13.000000000,2018-05-18 21:34:11.000000000,closed,2,nng_msg_set_pipe should cause a pipe hold
+273,2018-03-09 00:43:33.000000000,2018-03-09 01:21:22.000000000,closed,1,Fix272
+272,2018-03-08 06:29:14.000000000,2018-03-09 01:21:22.000000000,closed,1,pollfd test fails on AppVeyor
+271,2018-03-08 06:27:25.000000000,2018-03-08 06:34:57.000000000,closed,0,Ztconn
+270,2018-03-07 10:49:35.000000000,2018-03-08 03:13:39.000000000,closed,1,ci: dump failure details on test failure
+269,2018-03-06 15:35:32.000000000,2018-03-08 06:34:57.000000000,closed,17,nngcat unreliable with ZeroTier transport
+268,2018-03-06 07:48:07.000000000,2018-03-06 08:40:02.000000000,closed,1,fixes #265 nngcat should support persistent ZT nodes
+267,2018-03-06 06:29:02.000000000,2018-03-06 08:40:02.000000000,closed,0,zerotier transport should lock ZT_HOME
+266,2018-03-05 15:53:21.000000000,2018-03-06 07:51:26.000000000,closed,1,Update Zerotier transport URI documentation
+265,2018-03-05 09:05:25.000000000,2018-03-06 08:40:02.000000000,closed,4,nngcat should support persistent ZT nodes
+264,2018-03-05 08:58:14.000000000,2018-03-16 02:43:51.000000000,closed,11,epoll: add epoll-based pollq implementation
+263,2018-03-05 06:06:30.000000000,2018-03-05 09:02:22.000000000,closed,1,fixes #262 NNG_OPT_URL should be resolved
+262,2018-03-05 03:38:55.000000000,2018-03-05 09:02:22.000000000,closed,0,NNG_OPT_URL should be resolved
+261,2018-03-04 04:27:03.000000000,2018-03-05 01:59:41.000000000,closed,0,kqueue: add license info
+260,2018-03-03 23:25:47.000000000,2018-03-05 09:06:24.000000000,closed,4,nngcat should support ZeroTier transport
+259,2018-03-03 23:00:28.000000000,2018-03-05 08:01:21.000000000,closed,3,update ZeroTier transport man page to account for URI change
+258,2018-03-03 22:50:39.000000000,2018-03-05 02:39:38.000000000,closed,2,ZeroTier URI Format documentation change
+257,2018-03-03 22:40:53.000000000,2018-03-06 04:42:46.000000000,closed,3,uint64_t -> volatile int64_t zerotier transport
+256,2018-03-03 21:20:22.000000000,2018-03-06 07:52:01.000000000,closed,1,uint64_t -> int64_t  compile warnings ZeroTier transport
+255,2018-03-03 06:13:59.000000000,2018-03-03 06:25:31.000000000,closed,1,Isolate TLS functions into separate tls.h header file.
+254,2018-03-03 01:20:40.000000000,2018-03-03 08:04:06.000000000,closed,0,nngcat should have a --version option
+253,2018-03-03 00:42:17.000000000,1970-01-01 00:00:00.000000001,open,1,nngcat should support --pass or something
+252,2018-03-01 06:35:36.000000000,2018-03-02 21:50:03.000000000,closed,1,fixes #247 nngcat needs TLS options
+251,2018-02-28 20:20:23.000000000,1970-01-01 00:00:00.000000001,open,0,nngcat should initialize transports explicitly
+250,2018-02-28 20:19:32.000000000,2018-03-01 05:28:50.000000000,closed,0,nngcat may not build if protocols are missing
+249,2018-02-28 20:18:35.000000000,2018-05-08 04:39:49.000000000,closed,0,nngcat needs test cases
+248,2018-02-28 20:17:38.000000000,1970-01-01 00:00:00.000000001,open,0,nngcat should probably support argv[0] proto selection
+247,2018-02-28 20:15:22.000000000,2018-03-02 21:50:03.000000000,closed,0,nngcat needs TLS options
+246,2018-02-28 20:13:43.000000000,2018-03-01 04:26:21.000000000,closed,0,Need nngcat man page
+245,2018-02-28 03:57:26.000000000,2018-02-28 20:13:18.000000000,closed,1,Initial swag at nngcat.
+244,2018-02-24 03:50:24.000000000,2018-02-24 04:21:30.000000000,closed,1,Move compatibility header so that <nanomsg/nn.h> works.
+243,2018-02-22 09:15:06.000000000,2018-02-22 23:43:59.000000000,closed,0,Modularize HTTP headers somewhat.
+242,2018-02-22 00:11:26.000000000,2018-02-22 00:32:32.000000000,closed,1,Fixes for POSIX pollq structure.
+241,2018-02-21 22:52:13.000000000,2018-02-21 23:03:12.000000000,closed,1,Introduce 'porting layer' Public API.
+240,2018-02-20 07:55:27.000000000,2018-02-28 20:13:18.000000000,closed,3,nngcat is MIA
+239,2018-02-19 23:18:58.000000000,2018-02-20 04:39:54.000000000,closed,5,"Please clarify impact of trademark on ""nng"" and ""nanomsg"""
+238,2018-02-19 21:18:07.000000000,2018-02-20 00:28:54.000000000,closed,2,REP0 documention is unclear
+237,2018-02-17 21:22:37.000000000,2018-03-03 01:19:32.000000000,closed,5,Adding version definitions
+236,2018-02-16 07:59:09.000000000,2018-02-16 09:48:53.000000000,closed,1,Simply posix pollq architecture somewhat.
+235,2018-02-15 03:51:58.000000000,2018-02-15 07:29:16.000000000,closed,1,fixes #234 Investigate enabling more verbose compiler warnings
+234,2018-02-09 06:38:29.000000000,2018-02-15 07:29:16.000000000,closed,0,Investigate enabling more verbose compiler warnings
+233,2018-02-09 03:18:23.000000000,2018-02-09 07:56:41.000000000,closed,1,fixes #171 Refactor aio to use generic data fields
+232,2018-02-07 05:28:33.000000000,2018-08-20 23:14:39.000000000,closed,2,Add cancellation support to HTTP handler API
+231,2018-02-07 05:23:34.000000000,2018-02-07 05:27:00.000000000,closed,0,Need nng_aio_finish routine
+230,2018-02-05 23:28:55.000000000,1970-01-01 00:00:00.000000001,open,5,Investigate QUIC transport
+229,2018-02-05 23:27:39.000000000,2018-02-05 23:48:04.000000000,closed,1,fixes #228 aio iov should have larger limits (dynamically allocated)
+228,2018-02-05 23:26:47.000000000,2018-02-05 23:48:04.000000000,closed,0,aio iov should have larger limits (dynamically allocated)
+227,2018-02-02 05:49:53.000000000,2018-02-02 09:08:28.000000000,closed,1,fixes #174 Define public HTTP client API
+226,2018-01-30 07:38:42.000000000,2018-02-02 05:17:03.000000000,closed,1,Httpredux
+225,2018-01-24 22:45:52.000000000,2018-01-24 23:14:32.000000000,closed,1,fixes #222 Public URL API
+224,2018-01-24 18:26:02.000000000,2018-02-08 05:04:34.000000000,closed,7,"Windows pipe name restrictions, unicode"
+223,2018-01-24 18:10:40.000000000,2018-01-26 22:24:33.000000000,closed,3,Double definition of -DNNG_PLATFORM_POSIX for Darwin platform
+222,2018-01-24 11:03:57.000000000,2018-01-24 23:14:33.000000000,closed,0,Public URL API
+221,2018-01-23 06:14:40.000000000,2018-01-23 09:42:34.000000000,closed,0,zerotier URL format changes
+220,2018-01-23 03:21:30.000000000,2018-01-23 06:12:37.000000000,closed,1,fixes #219 transports should take URL structure instead of string add…
+219,2018-01-22 13:34:03.000000000,2018-01-23 06:12:37.000000000,closed,0,transports should take URL structure instead of string address
+218,2018-01-22 11:19:00.000000000,2018-01-22 13:31:00.000000000,closed,1,Fix217
+217,2018-01-21 01:17:41.000000000,2018-01-22 13:31:00.000000000,closed,3,URL canonicalization needs work
+216,2018-01-21 01:14:22.000000000,2018-01-21 04:44:19.000000000,closed,0,"HTTP server side API refactoring, directory serving support"
+215,2018-01-20 06:16:53.000000000,2018-01-21 04:44:19.000000000,closed,1,Refactor HTTP server API.
+214,2018-01-18 11:50:40.000000000,2018-01-20 06:15:58.000000000,closed,1,fixes #211 Restore handling of '*' in URL logic
+213,2018-01-17 23:16:25.000000000,2018-01-17 23:28:13.000000000,closed,1,fixes #209 NNG_OPT_TLS_VERIFIED is busted
+212,2018-01-17 23:14:31.000000000,2018-01-17 23:28:13.000000000,closed,0,Eliminate a_endpt member of aio
+211,2018-01-17 23:12:03.000000000,2018-01-20 06:15:58.000000000,closed,0,Restore handling of '*' in URL logic
+210,2018-01-17 23:09:30.000000000,2018-01-17 23:28:13.000000000,closed,0,Want NNG_OPT_TLS_* options for TLS transport
+209,2018-01-17 23:08:52.000000000,2018-01-17 23:28:14.000000000,closed,0,NNG_OPT_TLS_VERIFIED is busted
+208,2018-01-17 21:28:49.000000000,2018-08-14 17:23:00.000000000,closed,1,pipe start should occur before connect / accept
+207,2018-01-17 01:12:29.000000000,2018-01-17 04:48:55.000000000,closed,0,fixes #206 Want NNG_OPT_TLS_VERIFIED option
+206,2018-01-17 01:11:39.000000000,2018-01-17 04:48:55.000000000,closed,0,Want NNG_OPT_TLS_VERIFIED option
+205,2018-01-16 05:45:11.000000000,2018-01-16 21:44:05.000000000,closed,2,url: fix typo
+204,2018-01-16 03:43:38.000000000,2018-03-02 21:58:29.000000000,closed,29,kqueue: add kqueue-based pollq implementation
+203,2018-01-13 00:40:03.000000000,2018-01-16 22:06:21.000000000,closed,1,Tlsfiles
+202,2018-01-11 19:47:06.000000000,2018-03-12 23:00:30.000000000,closed,5,Complete transition to Circle CI
+201,2018-01-11 09:20:53.000000000,2018-01-16 22:06:21.000000000,closed,0,TLS configuration should support files for certificates and keys
+200,2018-01-11 09:19:19.000000000,2018-01-11 19:45:29.000000000,closed,1,Walkdir
+199,2018-01-10 08:02:35.000000000,2018-01-10 08:07:26.000000000,closed,0,fixes #186 Suggested API changes for nng TLS certs
+198,2018-01-10 02:12:38.000000000,2018-01-10 02:25:25.000000000,closed,0,Fix196
+197,2018-01-10 01:02:41.000000000,2018-01-10 02:25:25.000000000,closed,1,surveyor documentation (man pages) incorrect
+196,2018-01-10 01:02:16.000000000,2018-01-10 02:25:25.000000000,closed,0,surveyor pattern hangs after second survey
+195,2018-01-05 10:10:58.000000000,2018-01-06 00:57:14.000000000,closed,1,"Fix some more leaks, add a generic URL parser."
+194,2018-01-04 02:06:10.000000000,2018-01-05 00:34:29.000000000,closed,1,Fix leaks on send.
+193,2018-01-03 23:29:08.000000000,2018-01-03 23:45:54.000000000,closed,1,Wshang
+192,2018-01-03 06:39:42.000000000,1970-01-01 00:00:00.000000001,open,1,Websocket should send PINGs sometimes
+191,2018-01-03 04:34:24.000000000,2018-01-03 06:19:58.000000000,closed,1,Several HTTP problems found
+190,2018-01-03 02:31:33.000000000,2018-01-03 06:19:58.000000000,closed,1,Morehttp
+189,2018-01-02 23:48:21.000000000,2018-01-03 00:11:24.000000000,closed,0,Websocket subprotocol not sent or checked.
+188,2018-01-02 23:24:25.000000000,2018-01-02 23:44:25.000000000,closed,0,Wssfix
+187,2018-01-02 11:12:57.000000000,2018-01-02 13:14:46.000000000,closed,0,"Fix HTTP sconn race, and compile bugs introduced."
+186,2018-01-02 06:40:57.000000000,2018-01-10 08:07:26.000000000,closed,1,Suggested API changes for nng TLS certs
+185,2017-12-31 01:18:13.000000000,2017-12-31 08:06:13.000000000,closed,1,Https
+184,2017-12-29 12:49:34.000000000,2017-12-29 12:58:20.000000000,closed,0,Fix158
+183,2017-12-29 06:31:26.000000000,2017-12-29 07:00:55.000000000,closed,1,CI updates.
+182,2017-12-29 05:05:09.000000000,2017-12-29 05:42:12.000000000,closed,0,Winfix
+181,2017-12-28 05:36:06.000000000,2017-12-28 06:18:11.000000000,closed,0,fixes #180 add websocket header properties
+180,2017-12-28 05:32:11.000000000,2017-12-28 06:18:11.000000000,closed,0,add websocket header properties
+179,2017-12-27 21:35:59.000000000,2018-07-16 22:05:14.000000000,closed,5,DNS resolution should be done at connect time
+178,2017-12-27 10:54:13.000000000,1970-01-01 00:00:00.000000001,open,2,Consider updates to the websocket transport protocol
+177,2017-12-27 10:51:38.000000000,1970-01-01 00:00:00.000000001,open,4,Consider SOCKS5 proxy support
+176,2017-12-27 10:51:10.000000000,1970-01-01 00:00:00.000000001,open,0,Desire support for HTTP proxies
+175,2017-12-27 10:50:24.000000000,2020-01-03 08:05:49.000000000,closed,1,Define public websocket API
+174,2017-12-27 10:49:40.000000000,2018-02-02 09:08:28.000000000,closed,0,Define public HTTP client API
+173,2017-12-27 10:47:50.000000000,2018-02-02 05:17:03.000000000,closed,0,Define public HTTP server API
+172,2017-12-27 10:46:39.000000000,2017-12-29 09:53:17.000000000,closed,0,HTTP and websocket need better conditional inclusion
+171,2017-12-27 10:44:58.000000000,2018-02-09 07:56:41.000000000,closed,2,Refactor aio to use generic data fields
+170,2017-12-27 10:43:46.000000000,2018-07-07 08:14:45.000000000,closed,2,Make more use of reaper
+169,2017-12-27 10:42:11.000000000,2017-12-28 07:13:59.000000000,closed,0,document websocket transport
+168,2017-12-27 10:36:30.000000000,1970-01-01 00:00:00.000000001,open,4,[request] UDP transport
+167,2017-12-27 10:35:08.000000000,1970-01-01 00:00:00.000000001,open,9,[request] scatter gather writes
+166,2017-12-27 05:28:06.000000000,2017-12-31 08:06:13.000000000,closed,0,Websocket TLS mapping
+165,2017-12-27 05:27:01.000000000,2017-12-27 05:38:31.000000000,closed,0,Add address properties for websocket pipes
+164,2017-12-27 05:23:23.000000000,2017-12-27 05:38:31.000000000,closed,1,Add support for obtaining address properties from websocket.
+163,2017-12-27 02:06:57.000000000,2017-12-27 04:39:00.000000000,closed,1,Websock2
+162,2017-12-12 16:47:07.000000000,2017-12-12 20:50:58.000000000,closed,3,Fix cut'n'paste typo
+161,2017-11-28 01:16:23.000000000,2017-11-28 03:38:38.000000000,closed,2,fixes #160 Convert TLS url from tls:// to tls+tcp://
+160,2017-11-28 00:24:13.000000000,2017-11-28 03:38:39.000000000,closed,0,Convert TLS url from tls:// to tls+tcp://
+159,2017-11-27 02:16:30.000000000,2017-12-27 05:24:45.000000000,closed,4,How to start getting involved
+158,2017-11-23 18:03:43.000000000,2017-12-29 12:57:19.000000000,closed,1,nni_plat_init: undefined return value if called from two threads
+157,2017-11-19 00:20:17.000000000,2017-11-21 13:31:59.000000000,closed,2,Tls
+156,2017-11-14 10:11:11.000000000,2017-11-14 10:41:28.000000000,closed,1,fixes #154 underlyng TCP & IPC transports should support partial recv…
+155,2017-11-14 10:09:46.000000000,2017-11-14 10:41:28.000000000,closed,0,POSIX TCP & IPC could avoid a lot of context switches
+154,2017-11-14 10:08:01.000000000,2017-11-14 10:41:29.000000000,closed,0,underlyng TCP & IPC transports should support partial recv/send
+153,2017-11-07 00:21:28.000000000,2017-11-07 00:27:15.000000000,closed,3,"DLL integration not re-entrant, not thread-safe"
+152,2017-11-06 10:58:07.000000000,2017-11-06 12:46:41.000000000,closed,2,Add multiprotocol/multitransport stress test.
+151,2017-11-05 02:41:32.000000000,2017-11-06 10:15:34.000000000,closed,24,Running multiple Bus tests causes error code 3
+150,2017-11-05 01:57:16.000000000,2017-11-06 10:43:31.000000000,closed,33,IPC error during Bus tests
+149,2017-11-04 23:36:43.000000000,2017-11-04 23:39:36.000000000,closed,0,remove AUTHOR section from man pages
+148,2017-11-04 04:50:48.000000000,2017-11-04 23:35:40.000000000,closed,0,man pages for req/rep protocol needed
+147,2017-11-04 04:48:58.000000000,2017-11-04 04:50:36.000000000,closed,0,surveyor protocol needs NNG_OPT_MAXTTL
+146,2017-11-04 04:47:53.000000000,2017-11-04 04:50:37.000000000,closed,0,man pages for surveyor protocol needed
+145,2017-11-04 04:47:37.000000000,1970-01-01 00:00:00.000000001,open,2,enforce maxttl in survey and req
+144,2017-11-04 00:54:03.000000000,2017-11-04 02:11:02.000000000,closed,4,What is nng_aio exactly?
+143,2017-11-03 03:07:41.000000000,2017-11-03 03:13:11.000000000,closed,0,"Protocols and transports should be ""configurable"""
+142,2017-11-02 23:57:57.000000000,2017-11-03 03:13:10.000000000,closed,2,Protover
+141,2017-11-02 04:53:56.000000000,2017-11-03 03:03:34.000000000,closed,5,Message body/header 32-bit unsigned int endianness
+140,2017-11-01 17:47:31.000000000,2017-11-01 19:09:11.000000000,closed,11,Please sort out your includes
+139,2017-11-01 17:19:36.000000000,2017-11-01 21:13:09.000000000,closed,4,Add nni_protocol and nni_peer
+138,2017-10-31 11:50:26.000000000,2017-10-31 21:24:29.000000000,closed,1,fixes #137 Remove public access to numeric protocols
+137,2017-10-31 11:46:54.000000000,2017-10-31 21:24:29.000000000,closed,0,Remove public access to numeric protocols
+136,2017-10-27 02:43:28.000000000,2017-10-31 01:04:58.000000000,closed,1,consider eliminating nng_shutdown
+135,2017-10-26 22:17:42.000000000,2017-10-27 00:01:45.000000000,closed,2,fixes #46 make device() use aios directly
+134,2017-10-26 04:32:14.000000000,2017-10-26 05:32:26.000000000,closed,1,Useraio2
+133,2017-10-25 02:27:36.000000000,2017-10-25 03:30:10.000000000,closed,1,fixes #132 Implement saner notification for file descriptors
+132,2017-10-25 02:22:48.000000000,2017-10-25 03:30:10.000000000,closed,0,Implement saner notification for file descriptors
+131,2017-10-24 19:34:26.000000000,2017-10-24 19:43:26.000000000,closed,3,Message pipe (in-)subordination
+130,2017-10-24 03:15:57.000000000,2017-10-24 19:13:25.000000000,closed,1,fixes #112 Need to move some stuff from socket to message queues
+129,2017-10-22 22:42:56.000000000,2017-10-22 22:49:01.000000000,closed,2,Chop/trim is over eager by +1
+128,2017-10-22 00:43:22.000000000,2017-10-23 23:24:03.000000000,closed,11,IPv6 transport testing nni_plat_udp_open returning garbage return value
+127,2017-10-21 06:51:46.000000000,2017-10-23 19:50:27.000000000,closed,7,Bad format TCP address causes null pointer exception
+126,2017-10-21 01:56:33.000000000,2017-10-21 03:18:22.000000000,closed,21,INFINITE lock during IPC listen/dial unit tests
+125,2017-10-20 17:05:45.000000000,2017-10-20 22:27:09.000000000,closed,7,Pair unit testing now blocks after duration changes
+124,2017-10-20 16:49:26.000000000,2017-10-20 22:23:37.000000000,closed,5,Timeout options should still be uint64_t
+123,2017-10-20 05:20:22.000000000,2017-10-20 05:20:52.000000000,closed,0,latency tests with wrong message size
+122,2017-10-20 02:46:22.000000000,2017-10-20 04:57:45.000000000,closed,2,fixes #84 Consider using msec for durations
+121,2017-10-19 22:04:42.000000000,2017-10-19 23:35:31.000000000,closed,6,TCPv6 port number fails to parse
+120,2017-10-19 20:22:34.000000000,2017-10-19 21:15:20.000000000,closed,2,nng_sockaddr options initialized with garbage data
+119,2017-10-18 19:37:51.000000000,2017-10-18 23:09:14.000000000,closed,28,nng_sockaddr_in6 should support 32-bit and 16-bit unionized fields
+118,2017-10-18 00:47:48.000000000,2017-10-18 23:58:10.000000000,closed,7,TCP6 transport testing utilizes nni_* internals
+117,2017-10-17 23:22:41.000000000,2017-10-21 01:09:09.000000000,closed,61,Reproducing IPC transport unit tests causing INFINITE lock wait
+116,2017-10-17 05:23:37.000000000,2017-10-18 23:18:58.000000000,closed,7,Add missing ::nng_pipe_getopt_usec implementation
+115,2017-10-13 04:12:27.000000000,2017-10-13 06:58:29.000000000,closed,3,"Following the BDD-style reconnect tests, nng_sendmsg fails to receive the message"
+114,2017-10-12 14:50:34.000000000,2017-10-19 01:07:00.000000000,closed,1,docs: Major differences and motivation vs. nanomsg
+113,2017-10-12 13:57:08.000000000,2017-10-13 07:02:29.000000000,closed,5,CBOR to the transport layer
+112,2017-10-11 02:20:26.000000000,2017-10-24 19:13:25.000000000,closed,2,Need to move some stuff from socket to message queues
+111,2017-10-10 22:27:57.000000000,2017-10-10 22:51:05.000000000,closed,1,fixes #110 Cancellation race in ZeroTier
+110,2017-10-10 22:26:19.000000000,2017-10-10 22:51:05.000000000,closed,0,Cancellation race in ZeroTier
+109,2017-10-10 05:10:33.000000000,2017-10-10 22:24:26.000000000,closed,1,Moons
+108,2017-10-09 21:22:24.000000000,2017-10-10 04:14:32.000000000,closed,1,Storageapi
+107,2017-10-08 08:21:11.000000000,2017-12-27 05:25:44.000000000,closed,6,couple questions
+106,2017-10-06 23:33:16.000000000,2018-04-27 01:20:33.000000000,closed,1,TCP keepalive tuning
+105,2017-10-06 23:32:45.000000000,2018-04-27 01:20:33.000000000,closed,1,Want NNG_OPT_TCP_NODELAY option
+104,2017-10-06 23:30:52.000000000,1970-01-01 00:00:00.000000001,open,1,Need RCVPRIO and SNDPRIO options
+103,2017-10-06 23:29:27.000000000,1970-01-01 00:00:00.000000001,open,6,Need NN_IPV4ONLY option (NNG_OPT_IPV4ONLY)
+102,2017-10-04 07:29:36.000000000,2017-10-06 08:29:52.000000000,closed,1,Improve UDP test coverage.
+101,2017-10-04 07:02:17.000000000,2017-10-21 08:42:04.000000000,closed,1,Inconsistent byte orders in nng_sockaddr
+100,2017-10-03 23:58:03.000000000,2017-10-04 00:38:45.000000000,closed,1,fixes #99 Still seeing segfaults in pair1 (rarely)
+99,2017-10-03 08:42:28.000000000,2017-10-04 00:38:45.000000000,closed,3,Still seeing segfaults in pair1 (rarely)
+98,2017-10-03 04:33:57.000000000,2017-10-03 20:48:38.000000000,closed,1,Added TCP socket address properties on pipes.
+97,2017-10-03 02:45:48.000000000,2017-10-03 03:13:21.000000000,closed,2,Ztaddrs
+96,2017-10-01 05:05:46.000000000,2017-10-01 05:23:55.000000000,closed,0,Validate reconnect works after pipe close.
+95,2017-09-30 06:41:08.000000000,2017-10-01 04:59:12.000000000,closed,1,Windows UDP support.
+94,2017-09-29 02:16:26.000000000,2017-09-29 02:18:30.000000000,closed,0,don't allocate ZT send frame on stack
+93,2017-09-28 21:48:00.000000000,2017-09-29 02:18:30.000000000,closed,0,ZT physicalMTU parameter vanished
+92,2017-09-28 20:00:17.000000000,2017-10-10 22:24:26.000000000,closed,4,Support ZT federations (moons)
+91,2017-09-28 19:57:32.000000000,2017-09-29 03:21:46.000000000,closed,1,pair1 segfault seen
+90,2017-09-28 05:51:15.000000000,2018-05-18 21:31:06.000000000,closed,1,Need better scoping for some options
+89,2017-09-28 05:46:36.000000000,2017-10-01 05:00:31.000000000,closed,1,ZeroTier needs UDP on Windows
+88,2017-09-28 05:45:55.000000000,2017-09-28 19:50:16.000000000,closed,1,fixes #85 Protocols need to set msg pipe
+87,2017-09-28 02:14:50.000000000,2017-09-28 02:48:41.000000000,closed,1,Optstr
+86,2017-09-27 01:53:35.000000000,1970-01-01 00:00:00.000000001,open,0,Consider introducing the STAR protocol from mangos
+85,2017-09-27 01:53:10.000000000,2017-09-28 19:50:16.000000000,closed,0,Protocols need to set msg pipe
+84,2017-09-27 01:50:29.000000000,2017-10-20 04:57:46.000000000,closed,0,Consider using msec for durations
+83,2017-09-26 23:59:25.000000000,2017-09-27 00:50:52.000000000,closed,2,ZeroTier transport implementation (work funded by Capitar IT Group BV)
+82,2017-09-26 21:17:45.000000000,2017-09-26 23:47:13.000000000,closed,6,"Add C++ test program, proving C++ consumers work."
+81,2017-09-22 23:43:27.000000000,2017-09-23 00:20:15.000000000,closed,1,Merges
+80,2017-09-18 22:02:17.000000000,2017-10-04 08:18:32.000000000,closed,7,Moved (renamed) source files to src directory and updated CMake files
+79,2017-09-18 17:00:41.000000000,2017-09-18 21:03:23.000000000,closed,5,Rename (moved) files into single src directory
+78,2017-08-26 11:40:31.000000000,2020-01-21 22:47:29.000000000,closed,3,atomics may be faster than locks
+77,2017-08-26 11:39:02.000000000,2017-08-28 23:26:26.000000000,closed,2,Strings
+76,2017-08-25 01:21:36.000000000,2017-08-25 07:06:49.000000000,closed,1,"Eliminate legacy option settings, provide easier option IDs."
+75,2017-08-23 23:55:50.000000000,2017-08-24 08:16:06.000000000,closed,1,Implement dynamic option numbering.
+74,2017-08-22 23:23:06.000000000,2017-08-23 00:30:41.000000000,closed,1,Support 64-bit IDs.
+73,2017-08-21 10:40:59.000000000,2017-08-21 21:22:37.000000000,closed,1,Resolv
+72,2017-08-19 05:04:24.000000000,2017-08-24 08:16:29.000000000,closed,1,Dynamic option numbering desired.
+71,2017-08-19 01:53:41.000000000,2017-08-21 18:16:46.000000000,closed,1,Add new errnos we might need.
+70,2017-08-18 11:06:37.000000000,2017-08-18 12:58:13.000000000,closed,2,Endpoint API completely implemented.
+69,2017-08-17 22:51:08.000000000,2017-08-18 00:44:33.000000000,closed,1,fixes #39 Transport ops vector should be versioned
+68,2017-08-16 13:44:30.000000000,2017-08-17 05:37:39.000000000,closed,2,Sync nofail
+67,2017-08-15 02:37:08.000000000,2017-08-15 03:52:01.000000000,closed,1,Epstuff2
+66,2017-08-15 00:44:12.000000000,2017-08-15 00:47:06.000000000,closed,0,Make pipe and endpoint structures private
+65,2017-08-14 21:14:54.000000000,2017-08-15 00:47:57.000000000,closed,2,Epstuff
+64,2017-08-12 23:34:51.000000000,2020-01-21 21:21:58.000000000,closed,13,Performance needs work
+63,2017-08-12 23:33:49.000000000,2017-08-15 03:52:01.000000000,closed,0,NNG_FLAG_SYNCH should be the default
+62,2017-08-12 23:30:49.000000000,2017-08-15 00:47:06.000000000,closed,0,Endpoint close should be synchronous
+61,2017-08-12 21:19:32.000000000,2017-08-12 22:15:18.000000000,closed,1,Tests
+60,2017-08-12 04:04:53.000000000,2017-08-12 05:24:45.000000000,closed,1,Add tests to validate backpressure vs best effort for pairv1.
+59,2017-08-12 03:16:18.000000000,2017-08-12 03:30:31.000000000,closed,1,Pairv1
+58,2017-08-11 23:43:29.000000000,2017-08-12 01:19:58.000000000,closed,1,pairv1 polyamorous mode + fixes
+57,2017-08-11 19:30:32.000000000,2017-08-11 19:59:34.000000000,closed,1,Leaking poll fds.
+56,2017-08-11 17:41:35.000000000,2017-08-11 19:29:09.000000000,closed,1,Use updated gcov tool.
+55,2017-08-11 05:45:29.000000000,2017-08-11 09:48:16.000000000,closed,2,Unify the msg API.
+54,2017-08-10 11:19:21.000000000,2017-08-10 11:29:44.000000000,closed,1,Thundering herd kills performance.
+53,2017-08-10 06:09:15.000000000,2017-08-10 10:08:30.000000000,closed,0,fixes #47 compat_reqttls fails sometimes
+52,2017-08-10 03:14:57.000000000,2017-08-10 04:19:31.000000000,closed,1,fixes #48 tcp sometimes fails to get a port
+51,2017-08-09 13:37:00.000000000,2017-08-09 21:21:59.000000000,closed,1,"fixes #44 open protocol by ""name"" (symbol) instead number"
+50,2017-08-09 07:06:47.000000000,2017-08-11 04:14:44.000000000,closed,1,Add new PAIR_V1 protocol.
+49,2017-08-09 06:41:41.000000000,2017-08-12 23:28:40.000000000,closed,1,consider abandoning macOS on travis
+48,2017-08-09 06:38:52.000000000,2017-08-10 04:19:31.000000000,closed,0,tcp sometimes fails to get a port
+47,2017-08-09 06:37:20.000000000,2017-08-10 10:08:30.000000000,closed,2,compat_reqttls fails sometimes
+46,2017-08-09 06:33:57.000000000,2017-10-27 00:01:46.000000000,closed,0,make device() use aios directly
+45,2017-08-09 06:32:00.000000000,2017-10-26 05:32:26.000000000,closed,0,expose aio to applications
+44,2017-08-09 06:21:22.000000000,2017-08-09 21:21:59.000000000,closed,0,"open protocol by ""name"" (symbol) instead number"
+43,2017-08-09 06:15:04.000000000,2017-08-11 17:42:21.000000000,closed,1,Convert string/errno statements into a table
+42,2017-08-09 06:13:23.000000000,2017-08-09 07:06:21.000000000,closed,1,fixes #37 Make transports pluggable
+41,2017-08-09 06:12:56.000000000,2017-08-21 21:22:37.000000000,closed,0,Move DNS out of tcp transport
+40,2017-08-09 06:11:27.000000000,2017-08-26 11:42:51.000000000,closed,3,Address determinations should be via nng_sockaddr
+39,2017-08-09 06:10:50.000000000,2017-08-18 00:44:33.000000000,closed,0,Transport ops vector should be versioned
+38,2017-08-09 00:49:12.000000000,2017-08-09 21:21:59.000000000,closed,0,"Make protocols ""pluggable"", or at least optional"
+37,2017-08-09 00:46:47.000000000,2017-08-09 07:06:21.000000000,closed,1,Make transports pluggable
+36,2017-08-08 23:59:25.000000000,2018-05-18 21:32:04.000000000,closed,1,Add event ports for illumos
+35,2017-08-08 23:58:55.000000000,2018-03-02 23:27:36.000000000,closed,6,Add kqueue support for Darwin/BSD
+34,2017-08-08 23:56:40.000000000,1970-01-01 00:00:00.000000001,open,0,Timer priority list improvements
+33,2017-08-08 23:41:37.000000000,2018-03-16 02:43:51.000000000,closed,1,Add epoll() support on Linux
+32,2017-08-08 23:41:15.000000000,2018-06-12 20:00:18.000000000,closed,3,autoscale based on CPUs available
+31,2017-08-08 23:05:01.000000000,2017-08-09 00:12:45.000000000,closed,2,"Updates to Travis CI configuration, serialize testing (TCP)."
+30,2017-08-08 21:03:48.000000000,2017-08-08 22:30:49.000000000,closed,1,Add new PAIR_V1 protocol.
+29,2017-08-05 08:27:19.000000000,2017-08-05 10:00:36.000000000,closed,0,Refactor AIO logic to close numerous races and reduce complexity.
+28,2017-07-21 02:42:32.000000000,2017-07-21 13:10:29.000000000,closed,2,Occasional orphaned pipe or endpoint?
+27,2017-07-19 08:39:46.000000000,2017-07-20 00:43:22.000000000,closed,0,Double free found in stress testing
+26,2017-07-18 05:34:23.000000000,1970-01-01 00:00:00.000000001,open,2,Consider making Windows use threadpools
+25,2017-07-18 04:40:56.000000000,2017-09-27 01:51:14.000000000,closed,1,Consider a heap/priority queue for the aio timeouts
+24,2017-07-18 04:38:45.000000000,1970-01-01 00:00:00.000000001,open,1,Eliminate the separate timer
+23,2017-07-18 04:37:41.000000000,2017-08-10 10:08:30.000000000,closed,1,Restore the old idhash logic for sockets
+22,2017-07-18 04:35:52.000000000,2018-03-30 23:39:29.000000000,closed,2,Consider using synchronous completions sometimes
+21,2017-07-18 04:32:04.000000000,2017-07-19 07:25:12.000000000,closed,0,Crash in IPC (POSIX)
+20,2017-07-17 11:41:50.000000000,2017-07-17 11:42:40.000000000,closed,2,udp
+19,2017-01-27 10:18:51.000000000,2017-01-27 14:21:24.000000000,closed,1,"Device (nng_device(), nn_device()) implementation"
+18,2017-01-20 03:18:57.000000000,2017-01-20 14:19:35.000000000,closed,0,Sockets should be uint32_t's (handles) not pointers.
+17,2017-01-19 02:33:27.000000000,2017-01-20 03:16:24.000000000,closed,1,pipeline leaks a pipe
+16,2017-01-16 06:56:11.000000000,1970-01-01 00:00:00.000000001,open,4,Add other UNIX systems
+15,2017-01-16 06:47:34.000000000,1970-01-01 00:00:00.000000001,open,2,FreeRTOS support
+14,2017-01-16 06:46:53.000000000,1970-01-01 00:00:00.000000001,open,0,SSH based transport
+13,2017-01-16 06:45:52.000000000,2018-04-25 22:27:56.000000000,closed,6,Documentation for the API
+12,2017-01-16 06:45:01.000000000,2017-01-19 07:32:19.000000000,closed,0,SURVEY hang in Travis
+11,2017-01-16 06:43:56.000000000,1970-01-01 00:00:00.000000001,open,0,Priority queue based scheduling for REQ and PUSH
+10,2017-01-16 06:43:13.000000000,2017-01-24 22:30:07.000000000,closed,1,REQ round-robin load-balancing
+9,2017-01-16 06:41:34.000000000,2017-10-06 23:32:09.000000000,closed,6,nanomsg compatibility layer
+8,2017-01-16 06:39:56.000000000,2017-08-26 11:41:32.000000000,closed,1,Complete the endpoint API
+7,2017-01-16 06:38:38.000000000,2017-10-01 05:05:32.000000000,closed,3,Close pipe by ID
+6,2017-01-16 06:37:36.000000000,2018-04-30 23:22:04.000000000,closed,0,Security attributes support
+5,2017-01-16 06:36:57.000000000,2017-10-03 20:48:38.000000000,closed,2,Address properties
+4,2017-01-16 06:36:29.000000000,2018-09-04 07:00:57.000000000,closed,0,Statistics support
+3,2017-01-16 06:36:00.000000000,2017-11-21 13:31:59.000000000,closed,4,TLS transport
+2,2017-01-16 06:35:26.000000000,2017-12-27 04:39:00.000000000,closed,2,Websocket transport
+1,2017-01-16 06:34:11.000000000,2017-01-24 22:30:34.000000000,closed,1,Introduce event framework

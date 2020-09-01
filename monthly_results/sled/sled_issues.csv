@@ -1,0 +1,1158 @@
+id,created_at,closed_at,state,comments,title
+1157,2020-08-29 13:25:54.000000000,1970-01-01 00:00:00.000000001,open,0,"Make IVec writable and sequentially readable (extend_from_slice, io::Write, io::Read, etc.)"
+1156,2020-08-26 14:14:20.000000000,2020-08-26 14:24:03.000000000,closed,0,Update rand_distr requirement from 0.2.2 to 0.3.0
+1155,2020-08-25 22:18:40.000000000,1970-01-01 00:00:00.000000001,open,1,"can't trap, handle the error using `?` when creating a new tree after deliberately modifying the db"
+1154,2020-08-25 17:13:25.000000000,2020-08-29 10:31:24.000000000,closed,2,Question: Is Sled multi-process safe?
+1153,2020-08-25 15:52:19.000000000,2020-08-29 10:34:25.000000000,closed,2,Recommended tree amount per database
+1152,2020-08-23 00:44:16.000000000,1970-01-01 00:00:00.000000001,open,5,Transactions are deadlocking at insert_inner
+1151,2020-08-22 20:17:56.000000000,1970-01-01 00:00:00.000000001,open,0,implement Send for Iter
+1150,2020-08-22 19:20:51.000000000,1970-01-01 00:00:00.000000001,open,0,bitonic adaptive radix trie for various pid tracking
+1149,2020-08-22 15:35:53.000000000,2020-08-22 16:07:42.000000000,closed,0,Cut 0.34.3
+1148,2020-08-22 13:22:29.000000000,1970-01-01 00:00:00.000000001,open,3," future cannot be sent between threads safely, probably due Send not being implemented in iter methods"
+1147,2020-08-21 04:19:54.000000000,2020-08-21 12:26:34.000000000,closed,2,"db.insert returns None after insert succees, maybe a bug"
+1146,2020-08-18 11:55:04.000000000,2020-08-22 15:33:49.000000000,closed,2,Added TransactionalTree::generate_id()
+1145,2020-08-17 20:41:24.000000000,1970-01-01 00:00:00.000000001,open,0,SegmentAccountant::initial_segments should not panic on broken recording
+1144,2020-08-17 02:53:34.000000000,1970-01-01 00:00:00.000000001,open,0,Read-only capability on DB and Tree operations
+1143,2020-08-15 14:29:38.000000000,1970-01-01 00:00:00.000000001,open,4,Range scans in transactional context
+1142,2020-08-11 08:31:49.000000000,2020-08-21 12:38:07.000000000,closed,3,A shared trate for Tree and TransactionTree
+1141,2020-08-09 02:11:28.000000000,1970-01-01 00:00:00.000000001,open,0,Doc/code mismatch
+1140,2020-08-03 08:00:10.000000000,2020-08-03 11:30:48.000000000,closed,2,Questions on durability
+1139,2020-08-03 01:20:22.000000000,1970-01-01 00:00:00.000000001,open,2,Calling generate_id() in a transaction blocks
+1138,2020-07-29 23:03:28.000000000,1970-01-01 00:00:00.000000001,open,0,zstd dictionary support
+1137,2020-07-29 11:45:31.000000000,2020-07-29 12:01:33.000000000,closed,0,update clippy configuration
+1136,2020-07-28 14:36:41.000000000,2020-07-28 15:15:35.000000000,closed,0,Cut 0.34.1 with a new TransactionalTrees::flush method
+1135,2020-07-28 14:05:59.000000000,1970-01-01 00:00:00.000000001,open,0,Replace no_metrics anti-feature with metrics positive feature
+1134,2020-07-26 20:11:05.000000000,1970-01-01 00:00:00.000000001,open,3,Calling flush inside a transaction deadlocks
+1133,2020-07-23 13:25:21.000000000,2020-07-29 13:13:27.000000000,closed,0,0.34.2 - avoid sorting batch pegs
+1132,2020-07-23 12:48:25.000000000,2020-07-23 13:04:34.000000000,closed,0,0.34
+1131,2020-07-23 12:19:09.000000000,2020-07-23 12:42:15.000000000,closed,0,safer transactions
+1130,2020-07-21 19:23:03.000000000,2020-07-22 21:24:12.000000000,closed,0,Remove trivial array_init dependency
+1129,2020-07-19 18:22:06.000000000,2020-07-23 06:40:05.000000000,closed,6,Add IVec::zeroed(len)
+1128,2020-07-15 12:37:07.000000000,2020-07-15 13:00:19.000000000,closed,0,Cut 0.33. Fix atomicity bug in Tree::pop_min and Tree::pop_max
+1127,2020-07-15 01:19:16.000000000,2020-07-15 13:03:10.000000000,closed,2,pop_min and pop_max don't seem to be atomic when used from multiple threads
+1126,2020-07-14 21:41:13.000000000,2020-07-15 12:21:09.000000000,closed,1,metrics: fix log_reservation_attempts subtract overflow
+1125,2020-07-14 16:35:54.000000000,2020-07-14 17:33:27.000000000,closed,0,Make the backtrace crate optional for faster compile times
+1124,2020-07-13 16:36:25.000000000,1970-01-01 00:00:00.000000001,open,0,page heap
+1123,2020-07-13 08:58:49.000000000,2020-07-13 13:14:06.000000000,closed,3,async/await support
+1122,2020-07-12 23:55:48.000000000,1970-01-01 00:00:00.000000001,open,2,Feature Request: IVec::zeroed(capacity)
+1121,2020-07-12 14:34:01.000000000,2020-07-12 14:44:03.000000000,closed,0,Cut 0.32.1
+1120,2020-07-12 13:59:56.000000000,2020-07-12 14:21:26.000000000,closed,0,Fix use-after-free bug in IVec::as_mut caused by missing ref keyword on Copy type
+1119,2020-07-09 12:19:17.000000000,2020-07-15 13:15:58.000000000,closed,1,Expiring keys
+1118,2020-07-08 16:27:27.000000000,2020-07-08 18:36:03.000000000,closed,0,Reduce the number of atomic operations required to perform dynamic concurrency control
+1117,2020-07-03 21:57:09.000000000,2020-07-04 18:51:52.000000000,closed,2,Make Db::drop_tree parameters match open_tree parameters.
+1116,2020-07-03 16:44:26.000000000,2020-07-03 17:50:32.000000000,closed,0,add IVec::subslice for creating zero-copy subsliced IVecs
+1115,2020-07-03 15:01:53.000000000,2020-07-03 15:15:21.000000000,closed,1,optimize some memory orderings
+1114,2020-07-01 19:24:36.000000000,1970-01-01 00:00:00.000000001,open,0,An alternative fuzzer
+1113,2020-06-30 13:40:53.000000000,2020-06-30 14:02:55.000000000,closed,0,Add tree child loop detection and assert that no tree references from parents point to children that do not exist in the next layer down
+1112,2020-06-29 04:16:31.000000000,1970-01-01 00:00:00.000000001,open,5,WASM Support
+1111,2020-06-24 14:13:09.000000000,2020-06-24 14:22:45.000000000,closed,0,Update parking_lot requirement from 0.10.2 to 0.11.0
+1110,2020-06-23 09:05:44.000000000,2020-07-06 08:13:02.000000000,closed,0,Mockable I/O
+1109,2020-06-22 09:13:26.000000000,2020-07-02 14:31:35.000000000,closed,10,Memory leak using db.iter()
+1108,2020-06-22 04:29:16.000000000,2020-07-03 15:55:32.000000000,closed,4,Conversion of boxed slices to Arc and IVec
+1107,2020-06-22 01:04:17.000000000,2020-07-03 15:55:32.000000000,closed,2,From<Box<[u8]>> for IVec
+1106,2020-06-21 20:15:42.000000000,2020-06-21 20:26:52.000000000,closed,0,documentation improvements
+1105,2020-06-20 20:55:05.000000000,2020-06-20 21:04:20.000000000,closed,0,Cut version 0.32.0
+1104,2020-06-20 20:22:12.000000000,2020-06-20 20:32:11.000000000,closed,0,Extract crash chance constant
+1103,2020-06-20 20:12:29.000000000,2020-06-20 20:23:28.000000000,closed,0,Add two new failpoints for disk IO in segment accountant
+1102,2020-06-14 16:19:18.000000000,2020-06-20 20:23:20.000000000,closed,1,Removed unused code in TransactionalTree:stage()
+1101,2020-06-12 20:08:10.000000000,2020-06-20 20:10:35.000000000,closed,0,Flush out more crash bugs with configurable process exit chance from debug_delay
+1100,2020-06-12 13:03:23.000000000,1970-01-01 00:00:00.000000001,open,1,Additional remove functions
+1099,2020-06-11 13:34:06.000000000,2020-06-11 14:02:58.000000000,closed,0,concurrent crash tests
+1098,2020-06-10 23:44:10.000000000,2020-06-11 00:41:42.000000000,closed,0,serialize new page allocations with the incrementing of the page counter. closes #1073
+1097,2020-06-07 21:16:04.000000000,2020-06-09 11:16:16.000000000,closed,1,"copy_from_slice: unsafe, private; pad allocation"
+1096,2020-06-06 15:25:22.000000000,2020-06-07 18:30:22.000000000,closed,2,Custom Arc without weak count to reduce memory usage
+1095,2020-06-05 15:39:03.000000000,2020-06-05 18:14:33.000000000,closed,1,runtime memory improvements
+1094,2020-06-05 14:36:43.000000000,2020-06-05 18:14:20.000000000,closed,1,Fixed few issues with Transactional API
+1093,2020-06-04 13:30:09.000000000,1970-01-01 00:00:00.000000001,open,1,pointer swizzling-based memory usage reduction
+1092,2020-06-03 12:23:27.000000000,2020-06-03 12:32:29.000000000,closed,1,refactor shutdown logic. clear some deprecated items. properly spin-up the flusher thread on the BSDs
+1091,2020-06-03 12:07:21.000000000,2020-06-03 12:08:16.000000000,closed,0,Add threadpool barrier to block on in-flight IO operations
+1090,2020-06-01 22:30:14.000000000,2020-06-02 02:15:05.000000000,closed,2,deadlock in code after threadpool replacement
+1089,2020-06-01 13:19:30.000000000,2020-06-01 13:29:42.000000000,closed,1,avoid two races in the fuzzy checkpointing code
+1088,2020-06-01 00:44:32.000000000,2020-06-01 12:55:03.000000000,closed,2,[978] Fuzzy checkpointing
+1087,2020-05-31 21:28:20.000000000,2020-05-31 21:41:34.000000000,closed,0,Add helper for converting from a Page to a PageState for fuzzy checkpointing
+1086,2020-05-31 20:28:20.000000000,2020-05-31 20:55:35.000000000,closed,1,Allow stabilization to happen up to the beginning of the lowest write…
+1085,2020-05-30 21:37:12.000000000,2020-06-20 21:28:26.000000000,closed,1,missing key in crash batch test
+1084,2020-05-30 20:58:11.000000000,2020-06-01 13:10:05.000000000,closed,0,tune threadpool
+1083,2020-05-30 07:42:54.000000000,2020-05-30 20:59:10.000000000,closed,4,Drop mutex earlier to fix no-threads configuration
+1082,2020-05-28 17:46:26.000000000,1970-01-01 00:00:00.000000001,open,0,Sled Best Practices
+1081,2020-05-26 16:15:18.000000000,2020-05-26 16:24:55.000000000,closed,0,Cut 0.32.0-rc1
+1080,2020-05-25 17:25:10.000000000,2020-05-25 17:49:23.000000000,closed,0,Update changelog and apply clippy changes after new transaction improvement
+1079,2020-05-24 21:46:43.000000000,2020-05-25 17:19:13.000000000,closed,2,Implemented Transactional for [Tree] and [&Tree]
+1078,2020-05-24 18:34:22.000000000,2020-05-24 19:13:41.000000000,closed,3,Default method of making multi-tree transaction is very rigid (uses t…
+1077,2020-05-23 13:24:34.000000000,1970-01-01 00:00:00.000000001,open,3,ALICE-like write permuter
+1076,2020-05-21 03:32:10.000000000,2020-06-30 16:20:44.000000000,closed,3,Port AtomicU64 to compile for MIPS
+1075,2020-05-20 20:31:26.000000000,2020-05-21 19:18:37.000000000,closed,2,Tidy up README
+1074,2020-05-20 17:00:34.000000000,2020-05-21 19:18:37.000000000,closed,0,README update: use concrete values 
+1073,2020-05-19 18:52:59.000000000,2020-06-11 00:41:44.000000000,closed,2,PageCache::allocate race condition
+1072,2020-05-19 14:00:13.000000000,1970-01-01 00:00:00.000000001,open,2,panic reduction
+1071,2020-05-19 06:41:34.000000000,2020-05-19 12:34:42.000000000,closed,1,Fix histogram test
+1070,2020-05-19 05:44:39.000000000,2020-07-01 00:52:24.000000000,closed,12,MIPS support
+1069,2020-05-16 20:45:35.000000000,2020-05-16 20:53:45.000000000,closed,1,Fix threadpool churn issue
+1068,2020-05-15 15:15:38.000000000,2020-05-15 15:23:55.000000000,closed,0,prep for tx overhaul
+1067,2020-05-15 02:47:20.000000000,2020-05-15 11:27:36.000000000,closed,0,Small cleanups
+1066,2020-05-12 13:52:42.000000000,2020-05-13 08:31:51.000000000,closed,0,Enable the async flusher for the BSDs
+1065,2020-05-11 18:47:11.000000000,1970-01-01 00:00:00.000000001,open,2,impl From<T: serde::Serialize> for IVec
+1064,2020-05-11 18:44:35.000000000,1970-01-01 00:00:00.000000001,open,0,"IVec::view_as<'de, T: serde::Deserialize<'de>> method"
+1063,2020-05-11 13:09:43.000000000,2020-05-11 13:28:18.000000000,closed,0,Use more permissive initial file setup. Use less bug-prone mutable PathBuf manipulation
+1062,2020-05-07 14:12:57.000000000,2020-05-07 14:21:19.000000000,closed,0,Update color-backtrace requirement from 0.3.0 to 0.4.0
+1061,2020-05-07 05:07:33.000000000,1970-01-01 00:00:00.000000001,open,1,Re-keying a database ended up using considerably more disk storage (~50%)
+1060,2020-05-07 03:54:24.000000000,2020-05-07 13:15:13.000000000,closed,1,Need a well defined way to define a schema version
+1059,2020-05-06 14:01:51.000000000,1970-01-01 00:00:00.000000001,open,0,safer units of measure
+1058,2020-05-06 12:52:20.000000000,2020-05-06 13:05:26.000000000,closed,0,Have OneShot return an Option on Future::poll to more correctly signal completion
+1057,2020-05-06 12:24:01.000000000,2020-05-06 12:33:51.000000000,closed,0,Remove buggy read-only mode
+1056,2020-05-06 11:57:26.000000000,2020-05-06 12:07:32.000000000,closed,0,Continue with blob gc if an unexpected file is discovered
+1055,2020-05-05 08:53:59.000000000,1970-01-01 00:00:00.000000001,open,9,Unsupported SledError when trying to connect to DB
+1054,2020-05-05 05:48:05.000000000,2020-05-06 12:25:42.000000000,closed,1,Panic when db is read_only
+1053,2020-05-04 05:38:34.000000000,2020-05-06 11:35:49.000000000,closed,1,Fix rare deadlock from failpoint test in make_stable()
+1052,2020-05-03 19:35:51.000000000,2020-05-06 11:39:46.000000000,closed,1,Trigger failpoints randomly on calls after set
+1051,2020-05-01 19:27:34.000000000,2020-05-01 19:27:40.000000000,closed,0,Use multiple github issue templates
+1050,2020-04-29 22:56:31.000000000,2020-05-06 12:53:36.000000000,closed,4,polling watch_prefix panics
+1049,2020-04-29 11:55:32.000000000,1970-01-01 00:00:00.000000001,open,1,lineage-driven fault injection
+1048,2020-04-29 11:51:59.000000000,2020-05-06 13:08:22.000000000,closed,0,set failpoints that trigger after multiple hits
+1047,2020-04-27 15:26:37.000000000,2020-04-27 20:16:59.000000000,closed,0,Don't unwrap as often in doctests
+1046,2020-04-27 02:37:45.000000000,2020-04-27 12:55:02.000000000,closed,1,Rewrite Debug implementation for StackVec
+1045,2020-04-27 02:16:21.000000000,2020-04-27 14:44:04.000000000,closed,1,Use of uninitialized memory in Debug impl for StackVec
+1044,2020-04-25 00:03:06.000000000,2020-04-26 16:51:03.000000000,closed,4,refactor to avoid UB references
+1043,2020-04-24 17:34:42.000000000,2020-04-24 18:18:10.000000000,closed,0,make subscriber naming consistent with public Subscriber type
+1042,2020-04-24 17:09:34.000000000,2020-04-24 17:17:13.000000000,closed,0,Support Rust versions 1.37 and up
+1041,2020-04-24 01:22:44.000000000,2020-05-26 03:06:45.000000000,closed,1,safety-critical recovery approach
+1040,2020-04-21 10:24:17.000000000,2020-04-23 18:40:47.000000000,closed,1,Fully initialize the end of IO buffers
+1039,2020-04-20 19:08:07.000000000,2020-04-20 20:00:12.000000000,closed,4,"panic: cannot find pid 6 in view_for_key, looking for key"
+1038,2020-04-20 17:55:15.000000000,1970-01-01 00:00:00.000000001,open,2,Database size on FreeBSD seems to balloon
+1037,2020-04-20 15:40:15.000000000,2020-04-24 16:16:03.000000000,closed,0,Initial sketch for async subscription
+1036,2020-04-18 09:57:03.000000000,1970-01-01 00:00:00.000000001,open,6,OOM while traversing large database.
+1035,2020-04-16 19:00:24.000000000,2020-04-24 16:18:51.000000000,closed,6,Feature request: non-blocking version of watch_prefix
+1034,2020-04-16 02:01:27.000000000,1970-01-01 00:00:00.000000001,open,1,Is there any way to suppress the creation of __sled__default?
+1033,2020-04-14 16:42:29.000000000,2020-05-16 20:53:52.000000000,closed,0,threadpool too aggressive about spinning down threads
+1032,2020-04-13 08:32:03.000000000,2020-04-23 18:40:47.000000000,closed,0,Segment padding uninitialized memory problems
+1031,2020-04-12 20:21:25.000000000,2020-04-12 21:07:47.000000000,closed,0,Make StackVec non-generic and always work with CacheInfo as the stored item
+1030,2020-04-10 01:57:41.000000000,2020-04-24 16:42:37.000000000,closed,8,Various code cleanup things
+1029,2020-04-06 06:39:57.000000000,2020-04-06 15:23:38.000000000,closed,2,`UnabortableTransactionError` is not exported
+1028,2020-04-05 06:12:28.000000000,1970-01-01 00:00:00.000000001,open,1,The system needs to work without the snapshot having last_lid or last_lsn
+1027,2020-04-04 07:08:03.000000000,2020-06-30 16:47:09.000000000,closed,9,FFI Improvements
+1026,2020-03-30 10:44:05.000000000,2020-03-30 20:13:32.000000000,closed,1,How to handle database migrations?
+1025,2020-03-27 14:52:05.000000000,2020-04-02 11:04:23.000000000,closed,1,implement stateful merge operators
+1024,2020-03-24 14:53:21.000000000,2020-03-24 15:15:25.000000000,closed,0,separate node keys and values
+1023,2020-03-20 21:59:53.000000000,2020-03-20 22:44:02.000000000,closed,0,Remove rand dependencies from debug_delay
+1022,2020-03-20 21:21:04.000000000,2020-04-02 11:04:23.000000000,closed,2,Feature: stateful merge operators
+1021,2020-03-20 16:53:29.000000000,2020-03-20 21:44:18.000000000,closed,1,"cleanups, more clippy lints, replace fail crate with stale deps with simple internal impl"
+1020,2020-03-16 00:27:58.000000000,2020-03-17 12:54:20.000000000,closed,2,Doc modules
+1019,2020-03-13 22:07:21.000000000,2020-03-13 22:16:28.000000000,closed,0,stackvec segment ops
+1018,2020-03-13 18:02:56.000000000,2020-03-13 19:24:03.000000000,closed,0,Skip some basic runtime assertions when not running in test mode
+1017,2020-03-13 17:32:15.000000000,2020-03-13 17:47:21.000000000,closed,0,auto-tune subscription effort
+1016,2020-03-13 16:23:42.000000000,2020-03-13 17:05:05.000000000,closed,0,"power of 2 cache sizes, segmented lock-free queue for lower memory flat combining on cache accesses"
+1015,2020-03-13 03:35:33.000000000,2020-03-13 12:25:33.000000000,closed,1,Change transaction `apply_batch` to take argument by-reference.
+1014,2020-03-12 16:13:42.000000000,2020-03-13 17:05:05.000000000,closed,0,reduce cache size information to power-of-two
+1013,2020-03-10 14:11:25.000000000,2020-03-13 12:25:58.000000000,closed,1,Change the api of transaction apply_batch
+1012,2020-03-08 17:33:24.000000000,2020-03-08 18:52:36.000000000,closed,0,address max key
+1011,2020-03-07 22:24:25.000000000,2020-03-07 22:55:43.000000000,closed,0,reuse io buffers for rolled segments
+1010,2020-03-06 15:14:50.000000000,2020-03-06 20:15:50.000000000,closed,0,std error for cas errors
+1009,2020-03-06 03:31:26.000000000,2020-03-06 15:30:23.000000000,closed,4,Feature request: implement `std::error::Error` on `CompareAndSwapError`
+1008,2020-03-04 14:23:25.000000000,2020-03-04 14:46:07.000000000,closed,0,stress tuning
+1007,2020-03-03 22:01:32.000000000,2020-03-03 22:10:42.000000000,closed,0,hardwire segment cleanup threshold for now
+1006,2020-03-03 17:40:21.000000000,2020-03-03 22:04:08.000000000,closed,2,Feature request: 'remove_garbage'
+1005,2020-03-03 17:30:29.000000000,2020-03-03 20:30:55.000000000,closed,2,What precisely is a snapshot?
+1004,2020-03-03 17:25:39.000000000,2020-03-03 20:32:58.000000000,closed,2,Feature request: add a 'user' directory within the database
+1003,2020-03-02 16:01:31.000000000,2020-03-03 14:25:10.000000000,closed,0,Remove SegmentMode and redundant log tests
+1002,2020-02-29 18:51:33.000000000,2020-02-29 19:06:22.000000000,closed,0,Adjust PageTable max sizes to cut memory usage by a bit
+1001,2020-02-29 18:36:37.000000000,2020-02-29 18:46:40.000000000,closed,0,Better test cache and segment sizes
+1000,2020-02-29 15:17:32.000000000,2020-02-29 16:36:02.000000000,closed,1,"Improve docs, rearrange some publicly-facing types"
+999,2020-02-29 11:45:03.000000000,1970-01-01 00:00:00.000000001,open,3,Minor API proposal: change `From` to `Into`
+998,2020-02-29 04:00:48.000000000,2020-02-29 14:08:34.000000000,closed,1,add fallback when `libc::sync_file_range` is not supported
+997,2020-02-28 20:26:49.000000000,2020-05-11 15:05:23.000000000,closed,1,Anyone using this with Ruby yet?
+996,2020-02-28 15:13:05.000000000,2020-02-28 15:23:52.000000000,closed,0,Update zerocopy requirement from 0.2.8 to 0.3.0
+995,2020-02-27 15:07:53.000000000,2020-03-03 20:20:46.000000000,closed,0,use a vec for storing pagestate in the snapshot. 
+994,2020-02-27 12:53:54.000000000,2020-02-27 14:40:31.000000000,closed,0,small cleanups
+993,2020-02-26 22:19:21.000000000,2020-02-27 00:49:56.000000000,closed,1,Add zerocopy example showing how to work with structured data without deserialization
+992,2020-02-26 15:22:42.000000000,2020-02-27 00:50:08.000000000,closed,0,IVec mutable access
+991,2020-02-26 15:11:10.000000000,1970-01-01 00:00:00.000000001,open,0,transaction/batch-aware subscribers
+990,2020-02-26 15:05:24.000000000,1970-01-01 00:00:00.000000001,open,0,fold the Lru linked list into the PageTable
+989,2020-02-26 14:55:00.000000000,1970-01-01 00:00:00.000000001,open,0,keyspace fuse / split
+988,2020-02-24 21:58:12.000000000,2020-02-25 13:33:28.000000000,closed,3,Built-in support for easy-to-setup replication
+987,2020-02-24 21:52:17.000000000,2020-02-25 13:32:59.000000000,closed,9,ACID & strict serializability versus best effort on a per request basis
+986,2020-02-24 18:01:38.000000000,1970-01-01 00:00:00.000000001,open,14,High memory usage when using 'many tiny objects'
+985,2020-02-23 19:15:16.000000000,2020-02-23 19:44:38.000000000,closed,1,Set up github actions to use more tests
+984,2020-02-23 18:55:41.000000000,2020-02-23 19:13:17.000000000,closed,1,How to close DB?
+983,2020-02-23 12:20:08.000000000,2020-05-11 15:02:43.000000000,closed,1,batch crash bug 1
+982,2020-02-22 19:53:28.000000000,2020-02-23 13:04:01.000000000,closed,1,Initial cargo-c support
+981,2020-02-22 15:00:50.000000000,2020-02-23 12:40:48.000000000,closed,0,Mark all batch segments as blocked on the end of the batch in mark_peg
+980,2020-02-22 14:56:13.000000000,2020-02-23 12:40:48.000000000,closed,0,mark all segments between the beginning and end of the peg as being pegged
+979,2020-02-22 13:55:45.000000000,2020-02-22 14:51:08.000000000,closed,0,Track max segment pegs in the SegmentAccountant. 
+978,2020-02-22 13:38:53.000000000,1970-01-01 00:00:00.000000001,open,0,fuzzy checkpointing
+977,2020-02-22 13:30:30.000000000,2020-02-22 14:51:08.000000000,closed,1,stable offset needs to account for log pegs
+976,2020-02-22 06:00:16.000000000,2020-05-11 15:05:47.000000000,closed,10,"Database size, memory and performance issues when used with 'criner'"
+975,2020-02-21 18:33:10.000000000,2020-02-21 18:46:02.000000000,closed,0,Reduce default segment size to 512kb. Simplify configuration
+974,2020-02-21 13:37:18.000000000,2020-02-21 14:19:05.000000000,closed,0,Remove reallocation in Lru promotion
+973,2020-02-20 17:30:46.000000000,1970-01-01 00:00:00.000000001,open,0,lock-free radix set for storing page IDs
+972,2020-02-20 17:08:19.000000000,2020-02-20 17:39:44.000000000,closed,1,use fixed-size Copy on-stack Vec for storing CacheInfo with fewer allocations
+971,2020-02-17 15:46:31.000000000,2020-02-17 16:27:42.000000000,closed,0,file truncation improvements
+970,2020-02-17 15:30:40.000000000,2020-02-21 18:46:02.000000000,closed,1,evaluate dropping segment size to 256k or lower
+969,2020-02-16 14:45:01.000000000,2020-02-17 15:11:15.000000000,closed,1,add transaction layer- new feature
+968,2020-02-15 00:40:40.000000000,2020-02-15 22:11:57.000000000,closed,15,Use SHA3-256 for checksum
+967,2020-02-14 19:35:48.000000000,2020-05-11 15:03:06.000000000,closed,1,possible segment optimistic rewrite bug
+966,2020-02-14 18:18:07.000000000,2020-02-14 18:47:36.000000000,closed,0,Fix race condition in the CC upgrade path
+965,2020-02-14 17:23:23.000000000,2020-02-14 17:39:19.000000000,closed,0,dynamically enable concurrency control when it actually is needed
+964,2020-02-14 16:27:26.000000000,2020-02-14 21:25:56.000000000,closed,1,Use crossbeam-epoch instead of RwLock to reduce contention on the log reservation path
+963,2020-02-14 15:21:45.000000000,2020-02-14 15:50:48.000000000,closed,0,remove runtime snapshotting
+962,2020-02-12 15:03:22.000000000,2020-02-12 15:44:01.000000000,closed,0,use memcmp for key comparisons
+961,2020-02-12 03:30:33.000000000,2020-02-12 05:10:58.000000000,closed,1,significant contention reduction for file GC
+960,2020-02-12 02:57:42.000000000,2020-02-12 03:23:32.000000000,closed,0,simple memory tuning
+959,2020-02-11 17:40:25.000000000,2020-02-12 01:57:46.000000000,closed,1,file GC-related refactoring
+958,2020-02-11 00:49:14.000000000,2020-02-29 19:20:48.000000000,closed,3,"`Db::generate_id` errors with ""Function not implemented"" in `0.31.0`"
+957,2020-02-11 00:02:28.000000000,2020-02-29 14:08:34.000000000,closed,8,`sled::open` hangs if db path does not exist
+956,2020-02-10 19:06:46.000000000,2020-02-10 19:29:36.000000000,closed,0,Add leak test
+955,2020-02-09 14:46:18.000000000,2020-02-09 15:06:25.000000000,closed,0,small cleanups
+954,2020-02-08 01:16:25.000000000,2020-05-11 15:03:22.000000000,closed,1,LSN-related crash bug 
+953,2020-02-07 20:11:32.000000000,2020-02-20 18:20:38.000000000,closed,6,Add OS agnostic crash tests
+952,2020-02-06 14:29:16.000000000,2020-02-10 19:41:55.000000000,closed,1,segment accounting tune-up
+951,2020-02-05 11:00:55.000000000,2020-02-08 00:06:36.000000000,closed,4,Make using the 'compression' feature easier
+950,2020-02-04 23:47:25.000000000,1970-01-01 00:00:00.000000001,open,6,Sled is *awesome*!
+949,2020-01-31 15:01:10.000000000,2020-01-31 15:15:13.000000000,closed,0,"Fix MAX_MSG_HEADER_LEN to be 32, accounting for max varint len"
+948,2020-01-31 02:53:22.000000000,2020-01-31 03:04:54.000000000,closed,0,Cut 0.31 which includes a large number of IO improvements
+947,2020-01-31 02:15:59.000000000,2020-01-31 02:37:36.000000000,closed,0,read optimizations. closes #268. closes #944.
+946,2020-01-30 20:23:07.000000000,2020-01-30 20:53:36.000000000,closed,9,use rio for io_uring workloads
+945,2020-01-30 19:30:03.000000000,2020-01-30 21:09:22.000000000,closed,2,"Future plans, or, is sled the ninja of the database world?"
+944,2020-01-30 15:07:47.000000000,2020-01-31 02:37:38.000000000,closed,0,"perform read_message in usually 1 read, using read_exact_or_eof"
+943,2020-01-30 14:13:31.000000000,2020-01-30 16:07:23.000000000,closed,2,use varints for message headers
+942,2020-01-29 18:26:03.000000000,2020-02-20 19:13:03.000000000,closed,2,Add new Medium IVec variant for data between 22 and 2048 bytes long.
+941,2020-01-29 01:41:41.000000000,2020-01-30 21:18:07.000000000,closed,1,"best way to work around ""cannot infer type for `E`"" in transaction API"
+940,2020-01-27 14:55:36.000000000,2020-01-27 15:11:33.000000000,closed,0,add compression ratio test from Mrmaxmeier. remove temporary doctest directories.
+939,2020-01-27 14:34:01.000000000,2020-01-27 14:52:55.000000000,closed,0,use streaming decompression to avoid monster allocations. fixes #938.
+938,2020-01-26 20:40:22.000000000,2020-01-27 14:42:55.000000000,closed,4,Compression feature allocates lots of memory when decompressing both low and high entropy data
+937,2020-01-24 18:47:31.000000000,2020-06-30 16:58:52.000000000,closed,16,Miri support
+936,2020-01-24 13:04:55.000000000,2020-01-26 19:20:23.000000000,closed,0,Bump windows and macos testing versions on azure
+935,2020-01-22 22:07:43.000000000,2020-01-23 13:06:14.000000000,closed,0,iobuf/io_uring: async fsync is not an option
+934,2020-01-20 16:32:32.000000000,2020-01-20 17:05:11.000000000,closed,2,release linearizing mutexes before notifying condvars
+933,2020-01-20 11:39:09.000000000,2020-01-20 16:37:05.000000000,closed,0,pagecache/io_uring/drop: complete ops before exit
+932,2020-01-17 13:56:03.000000000,2020-01-17 14:39:55.000000000,closed,0,merge reader.rs into logger.rs
+931,2020-01-17 12:01:50.000000000,2020-01-17 14:19:52.000000000,closed,0,pagecache/io_uring/drain_cqe: submit can return nothing
+930,2020-01-16 21:40:30.000000000,2020-01-16 21:40:37.000000000,closed,0,Add maintenance status badge
+929,2020-01-14 12:09:38.000000000,2020-01-14 14:14:18.000000000,closed,1,Link to import/export docs where README.md mentions manual migrations
+928,2020-01-12 17:20:27.000000000,2020-01-12 17:57:51.000000000,closed,3,Use sync_file_range instead of a full fsync in write_to_log
+927,2020-01-12 06:36:10.000000000,2020-01-12 06:59:54.000000000,closed,0,Add SQLite-style varint support. Closes #906.
+926,2020-01-06 02:22:33.000000000,1970-01-01 00:00:00.000000001,open,10,Doubt about the recovery process
+925,2020-01-04 13:03:54.000000000,2020-01-07 03:55:04.000000000,closed,1,fix warning: `description` is deprecated since 1.41.0: use the Display impl or to_string() 
+924,2019-12-30 01:52:56.000000000,2020-01-13 02:39:07.000000000,closed,1,fsync batching
+923,2019-12-29 01:27:39.000000000,2019-12-29 18:40:54.000000000,closed,1,Miscellaneous cleanups in src/pagecache/segment.rs
+922,2019-12-29 00:40:43.000000000,2019-12-29 18:40:15.000000000,closed,1,Fix deprecation warning in new test
+921,2019-12-29 00:05:12.000000000,2019-12-29 18:37:29.000000000,closed,2,Use seek_read/seek_write on Windows
+920,2019-12-28 22:51:19.000000000,2020-04-24 02:36:54.000000000,closed,1,[WIP] Add batches to failpoint quickcheck test
+919,2019-12-27 16:24:01.000000000,2019-12-27 17:36:06.000000000,closed,0,Documentation-only release of 0.30.3 to improve import/export docs
+918,2019-12-27 15:42:36.000000000,2019-12-27 15:57:01.000000000,closed,0,Add sled::open function more similar to fs::open. Cut 0.30.2. Improve import/export docs
+917,2019-12-27 10:14:17.000000000,2019-12-27 16:23:53.000000000,closed,1,Add test for CPU usage with no DB operations
+916,2019-12-27 00:01:24.000000000,2019-12-27 00:20:10.000000000,closed,0,remove Segment's removed set
+915,2019-12-25 07:22:15.000000000,2019-12-25 07:55:46.000000000,closed,1,"Remove Pio trait, use bare functions"
+914,2019-12-24 18:28:08.000000000,2019-12-27 05:48:38.000000000,closed,4,When set Config read_only. open sled db error.
+913,2019-12-19 00:50:48.000000000,1970-01-01 00:00:00.000000001,open,1,Consider having export not panic
+912,2019-12-18 23:42:46.000000000,2020-02-29 16:36:27.000000000,closed,1,Consider exposing `transaction::TransactionalTrees`
+911,2019-12-18 01:16:28.000000000,2019-12-27 16:23:53.000000000,closed,2,measure cpu instructions for the null workload in CI test
+910,2019-12-18 00:55:11.000000000,2019-12-18 01:08:35.000000000,closed,1,Fix bug with threadpool workers. Closes #909.
+909,2019-12-17 10:40:28.000000000,2019-12-18 01:08:36.000000000,closed,2,Use 200% CPU when idle (0.30).
+908,2019-12-14 22:13:39.000000000,1970-01-01 00:00:00.000000001,open,1,Transactional on a tuple of trees is not generic
+907,2019-12-13 22:05:27.000000000,2019-12-13 22:21:51.000000000,closed,0,0.30
+906,2019-12-13 15:49:54.000000000,2020-01-12 06:59:55.000000000,closed,0,varint serialization
+905,2019-12-13 01:50:50.000000000,2019-12-13 02:28:38.000000000,closed,0,debug failpoints
+904,2019-12-12 23:05:27.000000000,2019-12-13 00:05:39.000000000,closed,0,Add better support for zero-allocation serialization
+903,2019-12-11 08:38:13.000000000,2019-12-14 15:33:44.000000000,closed,17,Cannot shutdown sled from Windows Service
+902,2019-12-11 00:37:01.000000000,2019-12-12 15:26:55.000000000,closed,1,no serde
+901,2019-12-09 15:07:13.000000000,2019-12-09 19:56:02.000000000,closed,0,Refactor threadpool implementation
+900,2019-12-09 14:25:13.000000000,2019-12-09 19:56:36.000000000,closed,0,threadpool refactor
+899,2019-12-02 12:05:43.000000000,2020-01-22 22:00:31.000000000,closed,5,io_uring: io_uring_setup syscall returns ENOMEM
+898,2019-12-01 23:06:42.000000000,2019-12-12 15:31:05.000000000,closed,8,remove serde
+897,2019-12-01 23:04:46.000000000,2020-05-11 15:04:06.000000000,closed,0,optimistic concurrency control & correct batch implementation
+896,2019-12-01 21:50:42.000000000,2019-12-01 22:47:33.000000000,closed,0,"add some criterion benchmarks for bulk loading, crud, and initial db opening"
+895,2019-11-26 15:14:18.000000000,2019-11-26 15:26:29.000000000,closed,0,Update parking_lot requirement from 0.9.0 to 0.10.0
+894,2019-11-20 02:18:30.000000000,2019-11-29 20:35:47.000000000,closed,0,zero segments after writing new snapshot. Closes #893
+893,2019-11-20 01:56:11.000000000,2019-11-29 20:35:48.000000000,closed,0,file zeroing during recovery should happen after the generated snapshot is written
+892,2019-11-19 04:33:15.000000000,1970-01-01 00:00:00.000000001,open,0,SegmentAccountant::next lock-free fast-path
+891,2019-11-19 04:29:13.000000000,2020-02-14 21:45:20.000000000,closed,2,use flat-combining for SegmentAccountant mark_replace/mark_link/deactivate/stabilize
+890,2019-11-19 02:10:52.000000000,2019-11-19 03:04:20.000000000,closed,0,"debug cache, use flat-combining for speeding up cache maintenance"
+889,2019-11-16 18:46:32.000000000,2019-11-16 18:59:47.000000000,closed,0,add rss info for linux on stress2
+888,2019-11-16 04:25:54.000000000,2019-11-17 19:04:17.000000000,closed,3,WIP failpoints in blob_io.rs
+887,2019-11-15 04:05:31.000000000,2019-11-15 04:27:16.000000000,closed,0,avoid stalling on sa next
+886,2019-11-15 02:09:38.000000000,2019-11-29 20:01:58.000000000,closed,6,WIP: io_uring: minor updates
+885,2019-11-13 15:13:11.000000000,2019-11-13 15:24:29.000000000,closed,0,Update color-backtrace requirement from 0.2.3 to 0.3.0
+884,2019-11-10 22:12:23.000000000,2019-11-13 05:28:36.000000000,closed,0,[WIP] rcu node
+883,2019-11-10 22:11:16.000000000,2019-11-11 07:10:06.000000000,closed,0,Add size_on_disk method to Db. Closes #337.
+882,2019-11-09 20:00:39.000000000,1970-01-01 00:00:00.000000001,open,0,Meta and Counter should just use a special internal Tree
+881,2019-11-07 15:13:58.000000000,2019-11-07 15:50:01.000000000,closed,0,Update crossbeam-epoch requirement from 0.7.2 to 0.8.0
+880,2019-11-07 15:13:25.000000000,2019-11-07 15:31:36.000000000,closed,0,Update crossbeam-channel requirement from 0.3.9 to 0.4.0
+879,2019-11-07 15:12:59.000000000,2019-11-07 16:08:11.000000000,closed,1,Update crossbeam-utils requirement from 0.6.6 to 0.7.0
+878,2019-11-06 14:09:48.000000000,2019-11-06 14:30:05.000000000,closed,0,clippy cleanup
+877,2019-11-04 02:43:23.000000000,2019-11-06 13:31:05.000000000,closed,2,io_uring: async segment write path
+876,2019-11-01 22:52:23.000000000,2019-11-01 23:08:21.000000000,closed,1,config open is too long
+875,2019-11-01 15:53:29.000000000,2019-11-01 16:17:33.000000000,closed,0,"Add new `create_new` option to `Config`, allowing the user to specify…"
+874,2019-10-29 14:16:23.000000000,2019-10-29 14:28:25.000000000,closed,0,Update env_logger requirement from 0.6.2 to 0.7.1
+873,2019-10-26 02:15:08.000000000,2019-10-26 02:44:46.000000000,closed,0,additional clippy lints
+872,2019-10-25 18:32:55.000000000,2019-11-04 02:41:31.000000000,closed,0,[WIP] simple io_uring implementation
+871,2019-10-19 16:03:15.000000000,2019-10-26 02:14:52.000000000,closed,0,[wip] debug node traversal issue
+870,2019-10-19 14:22:34.000000000,2019-11-01 15:24:44.000000000,closed,1,prefix-encoding or suffix-truncation-related infinite search bug
+869,2019-10-18 13:40:02.000000000,2019-10-19 15:47:15.000000000,closed,0,"Enable several additional lints for clippy, including all cast checks"
+868,2019-10-18 10:44:30.000000000,2019-10-18 11:38:42.000000000,closed,0,Prevent cloning of the possibly huge Snapshot by removing the Clone impl
+867,2019-10-17 22:09:19.000000000,2019-10-17 22:34:43.000000000,closed,2,recovery refactor and debugging. closes #851. closes #860.
+866,2019-10-17 02:51:22.000000000,2019-10-17 15:19:05.000000000,closed,1,Sister project using sled:  kvdbd
+865,2019-10-16 23:57:25.000000000,2019-10-16 23:57:34.000000000,closed,0,Update doc logo
+864,2019-10-16 19:35:10.000000000,2019-10-16 20:10:11.000000000,closed,0,Fix README location in Cargo.toml
+863,2019-10-16 19:13:35.000000000,2019-10-16 19:30:44.000000000,closed,0,Cut version 0.29
+862,2019-10-15 11:49:59.000000000,2019-10-15 12:07:33.000000000,closed,0,clarify transactions
+861,2019-10-15 03:31:10.000000000,2019-10-15 11:36:54.000000000,closed,0,Allow errors to be passed through aborts. Allow 69 tables to engage in a single unholy transaction
+860,2019-10-13 18:12:11.000000000,2019-10-17 22:34:44.000000000,closed,3,Failed assertion in Flusher thread
+859,2019-10-12 03:56:23.000000000,2019-10-14 16:56:10.000000000,closed,2,"Macro, impl Transactional on more tuples of trees"
+858,2019-10-11 23:16:56.000000000,2019-10-14 16:56:54.000000000,closed,1,Add Transactional impl over 3-tuple of &Tree.
+857,2019-10-11 14:25:21.000000000,1970-01-01 00:00:00.000000001,open,0,RunningConfig should be merged fully into Context
+856,2019-10-10 23:55:11.000000000,2019-10-11 00:22:02.000000000,closed,0,add link and replace errors randomly during tests. closes #849
+855,2019-10-10 21:51:14.000000000,2019-11-01 16:20:08.000000000,closed,3,Feature request: Some way of checking if a path points to a sled database
+854,2019-10-09 21:05:36.000000000,2019-10-09 21:25:05.000000000,closed,0,small cleanups
+853,2019-10-09 20:19:24.000000000,2019-10-09 20:50:59.000000000,closed,0,non-generic pagecache
+852,2019-10-09 19:36:26.000000000,2019-10-09 19:53:23.000000000,closed,0,Simplify PageTable to be clearly grow-only
+851,2019-10-09 16:04:34.000000000,2020-05-11 15:03:44.000000000,closed,2,Batch + Crash double recovery bug
+850,2019-10-07 19:07:10.000000000,1970-01-01 00:00:00.000000001,open,1,Atomically delete prefix
+849,2019-10-07 17:58:11.000000000,2019-10-11 00:22:02.000000000,closed,2,add probabilistic cas failures
+848,2019-10-06 08:09:56.000000000,2019-10-08 23:33:47.000000000,closed,0,clippy for pull requests
+847,2019-10-06 03:28:13.000000000,2019-10-06 04:50:38.000000000,closed,1,Big configuration rework
+846,2019-10-05 21:46:54.000000000,2019-10-05 22:29:29.000000000,closed,0,rustfmt
+845,2019-10-05 21:26:36.000000000,2019-10-05 22:23:16.000000000,closed,2,Storing complex datatypes
+844,2019-10-04 18:36:06.000000000,2019-10-04 18:58:10.000000000,closed,0,checksum method for Tree and Db
+843,2019-10-04 16:47:00.000000000,2019-10-05 20:58:15.000000000,closed,1,add checksum method to Tree and Db
+842,2019-10-02 06:43:45.000000000,2019-10-02 07:24:20.000000000,closed,0,rustfmt
+841,2019-10-02 02:40:05.000000000,2019-10-02 06:17:09.000000000,closed,1,tree node optimizations
+840,2019-10-01 21:38:17.000000000,2019-10-01 21:38:28.000000000,closed,0,small removal of empty modules
+839,2019-09-26 06:59:53.000000000,2019-10-05 21:13:10.000000000,closed,1,Wiki page documenting limits
+838,2019-09-24 21:46:25.000000000,2019-10-01 22:33:55.000000000,closed,9,"tree::cas -> tree::compare_and_swap, CAS_OK, CompareAndSwapResult/Error"
+837,2019-09-24 16:20:20.000000000,2019-09-24 16:38:25.000000000,closed,0,Update env_logger requirement from 0.6.2 to 0.7.0
+836,2019-09-22 19:34:06.000000000,2019-10-01 21:34:39.000000000,closed,1,[wip] fully-compressed Arc-Node
+835,2019-09-21 23:40:02.000000000,2019-09-22 05:35:00.000000000,closed,0,Don't constantly recompute common prefix length for every compared child on tree traversal
+834,2019-09-21 22:54:22.000000000,2019-09-21 23:31:55.000000000,closed,0,use rdtscp on metrics to reduce overhead
+833,2019-09-21 02:59:05.000000000,2019-09-21 19:48:07.000000000,closed,1,Tree::cas documentation clarification
+832,2019-09-20 21:33:43.000000000,2019-09-20 21:52:26.000000000,closed,1,new cas error and cas renamed to compare_and_swap
+831,2019-09-19 21:19:16.000000000,2019-09-20 01:50:46.000000000,closed,2,further code improvements related to basic db primitives naming
+830,2019-09-19 21:08:47.000000000,2019-09-19 22:34:41.000000000,closed,0,minor cleanups
+829,2019-09-19 15:10:41.000000000,2019-09-19 16:03:40.000000000,closed,2,Remove io_buf_size and page_consolidation_threshold from ConfigBuilder
+828,2019-09-18 14:57:19.000000000,2019-09-19 15:17:09.000000000,closed,2,"extract sys_limits, improve few code moments, save basic data to p_config"
+827,2019-09-17 22:57:33.000000000,2019-09-18 00:26:20.000000000,closed,0,a few cleanups
+826,2019-09-16 23:46:53.000000000,2019-09-17 00:41:50.000000000,closed,0,Move integration tests into their idiomatic location
+825,2019-09-16 16:13:52.000000000,2019-09-16 16:44:40.000000000,closed,4,Update crdts requirement from 1.3 to 2.0
+824,2019-09-15 15:08:27.000000000,2019-09-15 17:38:40.000000000,closed,0,"huge refactor merging crates, simplify overall project layout"
+823,2019-09-13 13:37:15.000000000,2019-10-01 18:00:42.000000000,closed,6,IO error opening database causes panic
+822,2019-09-13 00:26:59.000000000,2019-09-18 09:47:05.000000000,closed,4,Persisted Config
+821,2019-09-12 18:17:36.000000000,2019-09-18 01:59:37.000000000,closed,1,Indicate the MSRV on the README and CI enforce
+820,2019-09-11 12:06:50.000000000,2019-10-05 22:46:14.000000000,closed,1,compare and swap refactor
+819,2019-09-11 01:32:09.000000000,2019-09-11 01:50:00.000000000,closed,0,"fix iteration and prefix-encoding bug, quickly release 0.28 to include fix"
+818,2019-09-10 16:20:52.000000000,2020-03-17 12:54:43.000000000,closed,2,move all wiki pages into doc module
+817,2019-09-09 20:07:09.000000000,2019-09-12 12:10:50.000000000,closed,5,remove some code duplication
+816,2019-09-09 14:15:25.000000000,2020-02-14 21:46:17.000000000,closed,1,add segment usage statistics to metrics print-out
+815,2019-09-09 02:14:02.000000000,2019-09-12 11:39:44.000000000,closed,1,Further improvements to failpoint test
+814,2019-09-08 19:38:01.000000000,2019-09-08 23:19:49.000000000,closed,0,merge historian into pagecache
+813,2019-09-08 19:09:25.000000000,2019-09-08 19:26:18.000000000,closed,0,Cut sled 0.27.0 and pagecache 0.19.2
+812,2019-09-08 13:50:42.000000000,2019-09-08 16:20:12.000000000,closed,1,Implement std::error::Error for TransactionError
+811,2019-09-08 05:01:44.000000000,2019-09-11 01:53:43.000000000,closed,6,Sled randomly stucks
+810,2019-09-07 19:51:01.000000000,2019-10-15 11:40:56.000000000,closed,15,Tree::transaction API prevents error forwarding
+809,2019-09-07 19:28:11.000000000,2019-09-08 16:20:12.000000000,closed,0,TransactionError does not implement std::error::Error
+808,2019-09-07 18:57:12.000000000,2019-09-07 19:22:47.000000000,closed,0,bump ivec cutoff
+807,2019-09-07 18:33:29.000000000,2019-09-08 19:04:39.000000000,closed,3,Flush operation in failpoint tests
+806,2019-09-07 15:01:52.000000000,2019-09-07 15:17:57.000000000,closed,0,debug_delay env call should be cached due to env mutex
+805,2019-09-07 14:24:29.000000000,2019-09-07 15:17:56.000000000,closed,0,Never block on the SA mutex when stabilizing segments. Fixes #804. Fixes #806.
+804,2019-09-07 14:06:04.000000000,2019-09-07 15:17:57.000000000,closed,0,SA deadlock
+803,2019-09-06 23:35:15.000000000,2019-12-01 23:08:25.000000000,closed,1,optimistic concurrency control for transactions & batches
+802,2019-09-06 11:52:32.000000000,2020-02-03 15:49:00.000000000,closed,6,[WIP] typed Trees
+801,2019-09-06 08:25:06.000000000,2019-09-17 01:23:53.000000000,closed,1,Add crash recovery test for atomic batches. Closes #779
+800,2019-09-05 14:53:05.000000000,2019-09-17 01:22:09.000000000,closed,0,use caching on azure
+799,2019-09-05 14:22:42.000000000,2019-09-05 14:48:22.000000000,closed,0,use platform-independent subdirectory code
+798,2019-09-04 14:22:09.000000000,2019-09-06 16:55:21.000000000,closed,1,[wip] [test] catch full lock time conflict
+797,2019-09-04 13:52:02.000000000,2019-09-04 15:10:08.000000000,closed,0,use pid for tmp file on all systems
+796,2019-09-03 20:41:16.000000000,2019-09-03 21:31:45.000000000,closed,2,fix some ds mod warns and refactor it a little #795
+795,2019-09-03 20:30:14.000000000,2019-09-03 20:30:49.000000000,closed,0,fix some ds mod warns and refactor it a little
+794,2019-09-03 12:16:57.000000000,2019-09-03 12:38:50.000000000,closed,0,aesthetic updates
+793,2019-09-02 23:18:45.000000000,2019-09-03 00:17:34.000000000,closed,0,Add flush_async method which returns a Future of the flush operation eventually completing
+792,2019-08-31 23:46:33.000000000,2019-09-02 23:22:20.000000000,closed,4,fix all clippy warns
+791,2019-08-30 07:36:28.000000000,2019-08-30 12:23:10.000000000,closed,1,Add check to transaction test after writers finish
+790,2019-08-30 07:07:50.000000000,2019-08-30 11:30:55.000000000,closed,1,Rename Event variants
+789,2019-08-29 18:36:12.000000000,2019-08-30 00:54:25.000000000,closed,1,limit cache size to the cgroup memory limit on linux
+788,2019-08-29 18:27:50.000000000,2019-08-30 11:07:42.000000000,closed,1,fix cross-compile script to print a platform which broke the build
+787,2019-08-29 13:50:56.000000000,2019-09-09 14:08:55.000000000,closed,2,Refactor tree to avoid clones and modifications of immutable members
+786,2019-08-29 12:18:11.000000000,2020-05-11 15:04:42.000000000,closed,6,disk space blowup
+785,2019-08-29 11:46:51.000000000,2019-08-30 11:30:55.000000000,closed,0,Rename Event variants to match BTreeMap Insert and Remove
+784,2019-08-27 21:28:27.000000000,2019-08-27 21:59:49.000000000,closed,0,Cut 0.26.2
+783,2019-08-27 20:53:59.000000000,2020-02-23 19:15:33.000000000,closed,4,[blocked on github actions stability] Add github actions testing
+782,2019-08-27 19:40:24.000000000,2019-08-27 20:03:35.000000000,closed,0,Update rand and quickcheck deps
+781,2019-08-27 19:10:57.000000000,2019-08-27 20:54:52.000000000,closed,0,0.26.1
+780,2019-08-27 16:22:06.000000000,2019-08-27 16:59:40.000000000,closed,0,Address race condition on open_tree
+779,2019-08-27 14:50:37.000000000,2019-09-19 20:39:47.000000000,closed,1,add atomic batch crash test
+778,2019-08-26 23:32:00.000000000,2019-08-29 18:35:17.000000000,closed,2,limit cache size by cgroup memory limit
+777,2019-08-26 15:38:03.000000000,2019-08-27 19:42:02.000000000,closed,2,Update quickcheck requirement from 0.8 to 0.9
+776,2019-08-24 01:00:08.000000000,2019-08-26 12:37:41.000000000,closed,4,"remove 'a, replace deprecated calls, print last error if failed to lock db on open"
+775,2019-08-24 00:42:53.000000000,2019-08-24 00:54:47.000000000,closed,0,"remove unnec 'a, replace deprecated calls in examples, print last err when fail to exc lock db on open"
+774,2019-08-23 20:58:49.000000000,2019-08-25 17:26:36.000000000,closed,1,remove code duplication in pagecache::config::verify_snapshot
+773,2019-08-22 19:57:23.000000000,2019-08-26 13:04:35.000000000,closed,1,Fix All CRLF line separators into LF.
+772,2019-08-21 10:55:18.000000000,2019-08-22 16:20:55.000000000,closed,0,general cleanups
+771,2019-08-21 02:26:49.000000000,2019-08-21 03:14:29.000000000,closed,0,Only use threads on platforms we know definitely support them
+770,2019-08-20 13:28:42.000000000,2020-05-11 15:07:39.000000000,closed,7,"typed Trees, letting users avoid deserialization "
+769,2019-08-19 23:18:25.000000000,2019-08-19 23:41:29.000000000,closed,0,cut 0.26
+768,2019-08-19 22:29:50.000000000,2019-08-19 23:18:52.000000000,closed,1,Optimize Tree::merge
+767,2019-08-19 22:29:15.000000000,2019-08-19 23:19:15.000000000,closed,1,More aggressively gc segments
+766,2019-08-19 22:28:12.000000000,2019-08-19 23:19:40.000000000,closed,1,cleanup subscription
+765,2019-08-19 10:43:09.000000000,2019-08-20 11:12:01.000000000,closed,5,Clippy: Pass params as references where possible
+764,2019-08-19 02:18:38.000000000,2019-10-18 11:49:33.000000000,closed,2,Add Open Collective links
+763,2019-08-18 19:17:35.000000000,2019-08-19 22:57:19.000000000,closed,3,simple multi-Tree serializable transactions
+762,2019-08-17 08:55:16.000000000,2019-08-18 19:09:18.000000000,closed,1,Some fixes for Clippy pedantic lints
+761,2019-08-15 23:50:06.000000000,2019-08-16 15:25:06.000000000,closed,1,Fix some of the clippy advices
+760,2019-08-15 20:05:32.000000000,2019-10-11 12:06:43.000000000,closed,4,pedantic clippy cleanup
+759,2019-08-15 14:22:09.000000000,2019-08-15 14:52:03.000000000,closed,0,cut 0.25
+758,2019-08-15 12:39:41.000000000,1970-01-01 00:00:00.000000001,open,1,quiescence required during crash testing to avoid false positives
+757,2019-08-14 14:19:50.000000000,2019-08-15 14:17:02.000000000,closed,1,Avoid encoding keys that are already encoded
+756,2019-08-14 13:41:35.000000000,2019-08-15 14:22:56.000000000,closed,0,Update README.md
+755,2019-08-14 01:36:55.000000000,2019-08-14 02:01:05.000000000,closed,0,Perform deferred segment sweeping properly. Closes #751
+754,2019-08-13 16:12:30.000000000,2019-10-11 12:07:16.000000000,closed,2,Storing large values
+753,2019-08-12 19:09:09.000000000,2019-08-13 15:16:15.000000000,closed,0,"Address some clippy feedback, update README, add race detection"
+752,2019-08-12 18:39:49.000000000,2019-08-12 19:07:46.000000000,closed,0,"Remove pagecache's Tx struct, using just a raw crossbeam Guard now"
+751,2019-08-12 16:38:08.000000000,2019-08-14 02:01:06.000000000,closed,0,disk space leak on master
+750,2019-08-12 14:56:40.000000000,2019-08-12 15:57:23.000000000,closed,1,Update jemallocator requirement from 0.1 to 0.3
+749,2019-08-11 23:04:44.000000000,2019-08-12 16:34:37.000000000,closed,0,bump up a few dependencies
+748,2019-08-10 21:57:50.000000000,2019-08-11 22:30:42.000000000,closed,0,reduce dependencies
+747,2019-08-10 21:20:11.000000000,2019-08-10 22:33:55.000000000,closed,0,Create SECURITY.md
+746,2019-08-07 23:28:23.000000000,2019-08-08 12:02:25.000000000,closed,0,reduce deps
+745,2019-08-06 13:58:56.000000000,2019-08-07 11:14:23.000000000,closed,1,add dyn for boxed traits
+744,2019-08-06 12:08:15.000000000,2019-08-08 18:52:18.000000000,closed,5,Flusher should be a trait and the current implementation should be a BackgroundThreadFlusher
+743,2019-08-06 00:27:42.000000000,2019-08-12 15:56:58.000000000,closed,5,tests panics randomly
+742,2019-08-05 21:15:06.000000000,2019-08-06 10:28:24.000000000,closed,1,replace db::start_default with db::open
+741,2019-08-05 19:03:46.000000000,1970-01-01 00:00:00.000000001,open,7,Provide CFFI/PyO3 bindings for Python
+740,2019-08-04 16:38:52.000000000,2019-08-05 03:10:23.000000000,closed,0,migrate fully to azure
+739,2019-08-04 15:58:21.000000000,2019-08-04 16:10:00.000000000,closed,1,Reimplement merge operator functionality on top of a CAS 
+738,2019-08-04 15:18:13.000000000,2019-08-04 15:30:39.000000000,closed,0,Set up CI with Azure Pipelines
+737,2019-08-04 13:54:58.000000000,2019-08-04 15:44:42.000000000,closed,0,simplify configuration
+736,2019-08-03 14:17:39.000000000,2019-08-04 01:19:16.000000000,closed,0,Simplify size handling
+735,2019-08-03 02:35:39.000000000,2019-08-03 03:22:23.000000000,closed,0,add atomic pop_max and pop_min functions to Tree
+734,2019-08-03 02:18:42.000000000,2019-08-03 05:02:31.000000000,closed,0,several nice optimizations and refactors
+733,2019-07-31 14:57:08.000000000,2019-07-31 17:22:22.000000000,closed,0,"simplify the Materializer trait, remove a lot of trait bounds in PageCache"
+732,2019-07-30 12:25:12.000000000,2019-07-30 12:58:18.000000000,closed,0,don't gc when read-only
+731,2019-07-26 14:07:43.000000000,2019-07-26 19:06:06.000000000,closed,1,Deprecate Tree::set and replace it by Tree::insert
+730,2019-07-26 13:54:37.000000000,2019-07-26 18:05:12.000000000,closed,1,Deprecate Tree::del and replace it by Tree::remove
+729,2019-07-26 11:34:40.000000000,2019-07-26 18:05:12.000000000,closed,0,"rename del to remove, add deprecated pass-through from del to remove"
+728,2019-07-26 11:32:12.000000000,2019-07-26 19:06:05.000000000,closed,0,"rename set to insert, add deprecated pass-through from set to insert"
+727,2019-07-25 12:06:12.000000000,2019-07-28 23:26:34.000000000,closed,0,a collection of optimizations in preparation for a release
+726,2019-07-25 01:55:58.000000000,2019-07-25 02:14:38.000000000,closed,4,don't scan through empty pagetable entries on Drop because it's assumed to be dense
+725,2019-07-25 00:25:53.000000000,2019-07-25 01:17:33.000000000,closed,1,optimize startup
+724,2019-07-24 17:35:00.000000000,2019-07-24 17:57:04.000000000,closed,0,import export meta
+723,2019-07-23 02:22:41.000000000,2019-07-24 23:38:09.000000000,closed,0,debug crash recovery issue. closes #722
+722,2019-07-21 18:12:27.000000000,2019-07-24 23:38:11.000000000,closed,0,crash safety issue
+721,2019-07-21 14:20:21.000000000,2019-07-21 15:07:28.000000000,closed,3,test optimizations
+720,2019-07-21 14:13:24.000000000,2020-02-14 21:50:49.000000000,closed,1,per-db metrics
+719,2019-07-21 03:50:55.000000000,2019-07-25 01:31:28.000000000,closed,1,try to remove the write in IoBufs::start
+718,2019-07-21 00:43:46.000000000,1970-01-01 00:00:00.000000001,open,0,add write amplification test to event log
+717,2019-07-21 00:16:32.000000000,2019-07-21 15:28:43.000000000,closed,3,consolidation bug 
+716,2019-07-20 21:28:53.000000000,2019-07-21 18:10:29.000000000,closed,0,[wip] optimize writepath
+715,2019-07-20 12:13:19.000000000,2019-07-20 12:33:02.000000000,closed,0,segment size in cache entry. closes #712.
+714,2019-07-18 19:29:10.000000000,2019-07-18 19:36:03.000000000,closed,1,switch IoBufs::iobuf from RwLock to crossbeam::ShardedLock 
+713,2019-07-18 16:49:02.000000000,2019-07-18 18:53:12.000000000,closed,0,Create FUNDING.yml
+712,2019-07-17 22:09:30.000000000,2019-07-20 12:33:03.000000000,closed,0,log size-aware cache entry
+711,2019-07-17 14:37:56.000000000,2019-10-06 04:51:22.000000000,closed,0,change open methods to be a bit more similar to the std::fs equivalents
+710,2019-07-16 17:39:42.000000000,2019-07-16 18:34:37.000000000,closed,0,properly hold the interval mutex before notifying the interval condvar
+709,2019-07-16 13:05:55.000000000,2019-07-16 18:52:56.000000000,closed,1,interval_updated condvar must only be notified while holding intervals mutex
+708,2019-07-15 16:42:54.000000000,2019-07-15 22:32:48.000000000,closed,1,Use fail 0.3 in failpoint property tests
+707,2019-07-15 14:21:27.000000000,2019-07-15 16:36:33.000000000,closed,2,Update fail requirement from 0.2.1 to 0.3.0
+706,2019-07-15 13:16:40.000000000,2019-07-15 16:35:00.000000000,closed,1,cargo/pagecache: update to fail 0.3
+705,2019-07-04 20:46:28.000000000,2019-07-04 21:12:59.000000000,closed,0,Remove hashbrown now that it's in 1.36
+704,2019-07-02 14:23:50.000000000,2019-08-01 15:20:54.000000000,closed,2,Update rand requirement from 0.6 to 0.7
+703,2019-06-30 20:14:17.000000000,2019-07-02 11:20:45.000000000,closed,1,Use next_back in the Iterator last method
+702,2019-06-29 17:06:26.000000000,2019-06-29 23:01:52.000000000,closed,3,Introduce the Tree scan_prefix method
+701,2019-06-28 12:54:07.000000000,2019-07-08 02:05:16.000000000,closed,0,large free segment tracking refactor. closes #430
+700,2019-06-27 23:10:40.000000000,2019-06-27 23:39:22.000000000,closed,0,no logged update
+699,2019-06-26 14:18:09.000000000,2019-06-27 22:45:08.000000000,closed,0,Flatten log messages. Closes #646.
+698,2019-06-26 01:32:36.000000000,2019-06-26 01:34:58.000000000,closed,0,Update the crdt example because the sled version was old and Tree refactored into Db.
+697,2019-06-25 14:23:16.000000000,2019-06-26 00:34:28.000000000,closed,0,Update color-backtrace requirement from 0.1.3 to 0.2.0
+696,2019-06-23 23:50:57.000000000,2019-06-24 11:36:13.000000000,closed,0,flexible iobufs. Closes #678. Closes #689.
+695,2019-06-23 19:43:51.000000000,2019-06-23 22:22:57.000000000,closed,0,Rudimentary Batch update support
+694,2019-06-20 14:32:17.000000000,2019-06-23 19:44:39.000000000,closed,1,Check the compilation of examples in travis-ci
+693,2019-06-17 22:34:52.000000000,2019-06-17 22:35:26.000000000,closed,0,Update rand_hc requirement from 0.1.0 to 0.2.0
+692,2019-06-16 22:33:45.000000000,2019-06-16 22:57:05.000000000,closed,0,fix up event log and turn it back on during tests
+691,2019-06-16 18:31:36.000000000,2019-06-16 18:49:50.000000000,closed,0,Check space amp on tree and pagecache quickcheck tests
+690,2019-06-16 17:48:24.000000000,2019-06-16 18:22:51.000000000,closed,0,"Add methods for tracking space amplification, check it when using event_log"
+689,2019-06-16 15:48:29.000000000,2019-06-24 11:36:15.000000000,closed,0,replace complex iobuf logic with simple rust types
+688,2019-06-16 12:28:44.000000000,2019-08-04 17:11:22.000000000,closed,1,flaky basic_pagecache_recovery test
+687,2019-06-16 01:33:15.000000000,2019-06-16 02:12:07.000000000,closed,0,debug merge races
+686,2019-06-15 00:04:02.000000000,2019-06-15 01:14:42.000000000,closed,0,"When we fail to get a page that may have been freed, load the next page by key instead of by pid"
+685,2019-06-14 11:32:57.000000000,2019-08-30 11:34:22.000000000,closed,2,"on linux, detect if a cgroup memory limit is in place and bound cache based on that"
+684,2019-06-14 00:51:35.000000000,2019-06-14 01:12:15.000000000,closed,0,An important message from our sponsors
+683,2019-06-13 18:46:06.000000000,2019-06-13 19:06:50.000000000,closed,0,Update hashbrown requirement from 0.4.0 to 0.5.0
+682,2019-06-12 19:34:33.000000000,2019-06-17 23:48:09.000000000,closed,1,Update rand_hc requirement from 0.1.0 to 0.2.0
+681,2019-06-12 15:11:51.000000000,2019-06-13 19:23:27.000000000,closed,0,debug merge race
+680,2019-06-12 14:45:58.000000000,2019-06-14 02:49:00.000000000,closed,0,Remove SegmentTrailer. Closes #645.
+679,2019-06-12 13:31:41.000000000,2019-10-05 23:35:42.000000000,closed,5,move persisted config into the pagecache itself
+678,2019-06-12 12:49:18.000000000,2019-06-24 11:36:15.000000000,closed,0,"Allocate IO buffers via a FILO, not a ring buffer"
+677,2019-06-11 19:18:59.000000000,2019-06-11 23:52:41.000000000,closed,0,Actually check set return values in quickcheck
+676,2019-06-11 16:19:23.000000000,2019-06-11 18:21:17.000000000,closed,0,"major refactor of page handling, iteration, tree merges"
+675,2019-06-10 18:37:41.000000000,2019-06-11 02:25:54.000000000,closed,2,Relax the some Tree methods to accept FnMut functions
+674,2019-06-10 14:28:14.000000000,2019-06-11 01:55:43.000000000,closed,0,Use alloc_zeroed so we can skip setting child pointers to 0 manually
+673,2019-06-08 15:12:30.000000000,2019-06-08 16:38:09.000000000,closed,0,Directly allocate nodes on the heap
+672,2019-06-08 13:58:23.000000000,2019-06-08 19:11:03.000000000,closed,3,Fix the stack overflow in the PageTable creation
+671,2019-05-31 18:09:59.000000000,2019-05-31 18:31:10.000000000,closed,0,Update hashbrown requirement from 0.3.0 to 0.4.0
+670,2019-05-29 22:18:53.000000000,2019-05-29 23:13:07.000000000,closed,1,Avoid pointer chasing in the PageTable
+669,2019-05-28 17:54:23.000000000,2019-06-06 16:39:09.000000000,closed,4,Question regarding opening trees
+668,2019-05-24 14:10:09.000000000,2020-02-20 18:47:18.000000000,closed,1,tree page enumerator
+667,2019-05-24 14:09:51.000000000,2019-06-24 12:37:43.000000000,closed,1,space amplification tests
+666,2019-05-24 14:08:55.000000000,1970-01-01 00:00:00.000000001,open,1,failpoints on disk reads
+665,2019-05-24 03:24:34.000000000,2019-05-28 12:21:16.000000000,closed,1,add order explanation and example to `Tree::get_gt` for multi byte keys
+664,2019-05-21 22:44:24.000000000,2019-05-22 00:39:13.000000000,closed,0,Merging nodes
+663,2019-05-20 20:18:26.000000000,2019-05-23 02:30:53.000000000,closed,11,"Future plans question: delta-state CRDTs, synchronization, sneakernet protocol"
+662,2019-05-20 07:13:21.000000000,2019-05-23 13:18:02.000000000,closed,3,Is `sled::Db` unwind safe?
+661,2019-05-20 03:28:03.000000000,2019-05-22 00:45:23.000000000,closed,1,unclear how keys are orderd for multi byte keys 
+660,2019-05-14 18:13:42.000000000,2019-05-15 15:29:24.000000000,closed,1,Fix Ferrous Logo
+659,2019-05-12 21:57:31.000000000,2019-08-12 16:35:11.000000000,closed,3,Make Tree opening more configurable
+658,2019-05-12 12:42:46.000000000,2019-05-12 13:23:22.000000000,closed,0,Bump sled to 0.24
+657,2019-05-11 23:06:18.000000000,2019-05-12 11:34:07.000000000,closed,0,Fix bug in 32-bit systems with improperly handling new IO buffers. Closes #656
+656,2019-05-10 07:24:17.000000000,2019-05-12 12:45:50.000000000,closed,5,Hanging on x86
+655,2019-05-08 16:19:10.000000000,2019-05-11 18:01:12.000000000,closed,0,Add initial skeleton for pagecache-based transactions
+654,2019-05-04 19:12:47.000000000,2019-05-05 05:31:41.000000000,closed,1,Writing in sled in not durable
+653,2019-05-03 21:41:58.000000000,2019-05-04 01:10:36.000000000,closed,1,Update README.md
+652,2019-05-03 21:25:24.000000000,2019-05-03 21:45:54.000000000,closed,0,Ensure that merge_operator is set before writing a merge operation. Closes #651.
+651,2019-05-03 08:51:54.000000000,2019-05-03 21:45:56.000000000,closed,1,drop tree on dirty db needs merge operators
+650,2019-05-01 22:14:48.000000000,2019-05-03 21:19:32.000000000,closed,5,Add OpenDb trait and impl it for AsRef<Path> #521
+649,2019-04-28 21:03:09.000000000,2019-05-16 16:15:51.000000000,closed,3,Rewrite the Iter types
+648,2019-04-28 20:59:24.000000000,2019-04-30 18:32:08.000000000,closed,0,update more types from usize to u64. dramatically lower cache contention
+647,2019-04-28 19:37:39.000000000,2019-04-28 19:58:27.000000000,closed,0,"Add pin_log method to the pagecache, which allows higher level components to initiate and terminate periods of batched recovery"
+646,2019-04-27 21:36:32.000000000,2019-06-27 22:45:09.000000000,closed,0,denormalize log messages
+645,2019-04-27 21:33:26.000000000,2019-06-14 02:49:02.000000000,closed,0,remove segment trailer
+644,2019-04-27 21:26:34.000000000,2019-04-27 23:18:16.000000000,closed,0,preliminary writebatch foundations
+643,2019-04-23 14:21:06.000000000,2019-04-23 14:41:03.000000000,closed,0,Update hashbrown requirement from 0.2.2 to 0.3.0
+642,2019-04-23 01:17:06.000000000,2019-04-23 03:03:01.000000000,closed,0,fix compression bugs. Closes #640
+641,2019-04-22 19:19:09.000000000,2019-04-22 22:33:27.000000000,closed,0,Fix stack overflow that happens because of recursively dropping DLL nodes in the Lru
+640,2019-04-22 17:47:55.000000000,2019-04-23 03:03:02.000000000,closed,4,Unable to read a compressed created database
+639,2019-04-21 02:36:59.000000000,2019-04-21 02:56:11.000000000,closed,0,Upgrade dependencies. Cut sled 0.23 and pagecache 0.16
+638,2019-04-20 21:43:46.000000000,2019-04-22 19:01:03.000000000,closed,1,Improve the documentation of fetch/update tree methods
+637,2019-04-17 21:27:09.000000000,2019-04-21 01:00:39.000000000,closed,0,make materializer stateless
+636,2019-04-17 01:53:22.000000000,2019-04-21 00:41:23.000000000,closed,3,Update API examples.
+635,2019-04-13 16:03:53.000000000,2019-04-15 15:04:04.000000000,closed,4,Make the IVec type safer for library users
+634,2019-04-13 00:52:06.000000000,2019-04-13 01:13:01.000000000,closed,0,Add max stable lsn to segment trailers
+633,2019-04-12 18:56:41.000000000,2019-04-15 21:44:20.000000000,closed,10,Replace handcrafted number conversions
+632,2019-04-12 14:11:35.000000000,2019-06-16 22:34:04.000000000,closed,2,Properly test the project on travis-ci
+631,2019-04-11 19:21:52.000000000,2019-04-21 00:11:12.000000000,closed,1,use AtomicU8 in IVec
+630,2019-04-10 12:25:55.000000000,2019-04-10 17:09:54.000000000,closed,0,Remove one generic bound where unnecessary
+629,2019-04-09 20:29:19.000000000,2019-04-21 01:01:19.000000000,closed,1,failpoints-related stall
+628,2019-04-09 20:24:40.000000000,2019-05-04 01:11:56.000000000,closed,0,[wip] im-rs + page-in experiments to reduce merge latency
+627,2019-04-09 18:41:57.000000000,2019-04-09 20:30:34.000000000,closed,4,accept Into<IVec> for Tree operations that provide new values
+626,2019-04-09 00:27:26.000000000,2019-04-10 12:09:18.000000000,closed,9,Introduce update_and_fetch/fetch_and_update methods
+625,2019-04-08 18:48:16.000000000,2019-10-11 12:08:23.000000000,closed,9,dependency reduction
+624,2019-04-08 18:15:05.000000000,2019-04-08 21:01:17.000000000,closed,0,"Remove Weak, as we are no longer self-referential"
+623,2019-04-08 17:59:12.000000000,2019-04-08 19:15:32.000000000,closed,2,Show the error when a config cannot be loaded
+622,2019-04-08 14:19:21.000000000,2019-04-11 12:30:10.000000000,closed,1,Update serde_bytes requirement from 0.10 to 0.11
+621,2019-04-08 13:56:39.000000000,2019-04-08 17:33:46.000000000,closed,1,fix flusher
+620,2019-04-06 23:39:27.000000000,2019-04-08 17:35:50.000000000,closed,2,Fix the flusher to not drop when a Tree is drop
+619,2019-04-06 21:06:30.000000000,2019-04-08 13:40:18.000000000,closed,1,Fix the flusher to not stop when one Tree drops
+618,2019-04-05 23:24:28.000000000,2019-04-06 00:27:32.000000000,closed,0,rearrange tree methods and make open_tree more permissive. closes #611.
+617,2019-04-05 23:16:16.000000000,2019-04-06 00:05:15.000000000,closed,0,update examples
+616,2019-04-05 12:17:15.000000000,2019-04-05 22:37:35.000000000,closed,0,Bump pagecache to 0.14.3
+615,2019-04-05 11:54:38.000000000,2019-04-05 12:15:27.000000000,closed,0,use an adaptive decompression buffer size
+614,2019-04-04 09:36:42.000000000,2020-02-15 01:52:38.000000000,closed,11,clear() crashes
+613,2019-04-03 23:45:15.000000000,2019-04-04 00:34:16.000000000,closed,0,"Move Flusher from pagecache to sled, and perform page GC with 50% of the idle time between flushes"
+612,2019-04-03 14:32:32.000000000,2019-04-03 14:52:05.000000000,closed,0,Update hashbrown requirement from 0.1.8 to 0.2.0
+611,2019-04-03 13:02:03.000000000,2019-04-06 00:27:33.000000000,closed,4,Opening and creating a tree should have different functions
+610,2019-04-03 01:25:07.000000000,2019-04-03 13:16:37.000000000,closed,0,Add method to pagecache for viewing frags directly instead of consolidating
+609,2019-04-02 22:20:18.000000000,2019-04-02 23:18:20.000000000,closed,1,Bump sled to 0.21.2
+608,2019-04-02 19:37:09.000000000,2019-04-02 21:06:41.000000000,closed,1,Introduce a method to retrieve the already saved tree names
+607,2019-04-02 16:21:30.000000000,2019-04-02 16:42:14.000000000,closed,0,WASI compatibility via blanket pread/pwrite implementation
+606,2019-04-02 01:13:39.000000000,2019-05-04 01:11:40.000000000,closed,1,[wip] dynamic unstable tail. closes #430
+605,2019-04-01 21:30:43.000000000,2019-04-01 21:50:53.000000000,closed,0,Bump sled to 0.21 and pagecache to 0.14
+604,2019-04-01 18:18:50.000000000,2019-04-01 18:38:32.000000000,closed,0,Add android and fuchsia targets to cross-compilation checks
+603,2019-04-01 16:28:33.000000000,2019-04-01 17:12:22.000000000,closed,0,Make fs2 dependency optional for use on more targets
+602,2019-04-01 16:23:25.000000000,2019-04-12 01:42:41.000000000,closed,1,"[merge after april 11 (1.34)] Cleanup of conversions, never downcast without a check or reasonable confidence in correctness, remove nightly feature"
+601,2019-04-01 00:50:22.000000000,2019-04-01 01:10:15.000000000,closed,2,debug gc
+600,2019-03-31 16:43:43.000000000,2019-03-31 18:19:14.000000000,closed,0,Fix metrics module when compiled under no_metrics
+599,2019-03-30 15:44:17.000000000,2019-03-31 16:36:08.000000000,closed,0,"Skip parent splits in recursive split, since they are handled cooperatively in path_for_key"
+598,2019-03-30 14:57:45.000000000,2019-03-30 15:42:34.000000000,closed,0,Fix some clippy stuff
+597,2019-03-29 21:34:12.000000000,2019-03-29 22:12:09.000000000,closed,3,some write optimizations
+596,2019-03-29 10:52:23.000000000,2019-03-29 11:14:19.000000000,closed,0,Improve error message for 32-bit architectures
+595,2019-03-24 22:59:04.000000000,2019-03-25 12:36:34.000000000,closed,0,0.20
+594,2019-03-23 16:42:37.000000000,2019-03-24 15:42:25.000000000,closed,1,Improve the IVec bytes de/serializing
+593,2019-03-23 15:25:58.000000000,2019-03-24 12:54:42.000000000,closed,14,Rewrite the Data split method
+592,2019-03-23 14:09:11.000000000,2019-03-23 15:27:47.000000000,closed,1,Prefer inserting at index instead of sorting
+591,2019-03-22 17:19:16.000000000,2019-03-22 19:58:46.000000000,closed,4,Check if the compression feature is enabled
+590,2019-03-21 21:07:24.000000000,2019-03-21 22:41:09.000000000,closed,1,Reduce the number of times a value is cloned
+589,2019-03-20 14:18:43.000000000,2019-03-20 14:38:25.000000000,closed,0,Update jemallocator requirement from 0.1 to 0.3
+588,2019-03-18 13:41:26.000000000,2019-03-19 01:12:16.000000000,closed,1,Implement AsRef for IVec
+587,2019-03-18 00:34:38.000000000,1970-01-01 00:00:00.000000001,open,6,CRDT-style page recovery
+586,2019-03-18 00:30:38.000000000,2019-03-24 21:25:35.000000000,closed,1,[wip] restructure results. closes #532. closes #525. closes #531. closes #583.
+585,2019-03-17 20:45:11.000000000,2019-03-17 21:55:06.000000000,closed,1,Make the IVec Debug impl support formatting
+584,2019-03-17 19:21:05.000000000,2019-03-17 22:40:13.000000000,closed,3,Rustfmt and clippy
+583,2019-03-17 19:04:53.000000000,2019-03-24 21:25:36.000000000,closed,1,maintain 69 issues at all costs
+582,2019-03-17 10:30:45.000000000,2019-03-17 17:40:22.000000000,closed,1,Extremely slow vs Rocksdb
+581,2019-03-17 04:39:30.000000000,2019-03-17 18:23:59.000000000,closed,0,various cleanups and prep work for transactions
+580,2019-03-16 20:13:34.000000000,2019-03-17 10:55:46.000000000,closed,4,make examples compile successfully
+579,2019-03-16 15:31:26.000000000,2019-03-16 23:29:28.000000000,closed,0,unite subcrates
+578,2019-03-12 17:56:39.000000000,2019-03-12 19:11:28.000000000,closed,0,Remove some flamegraph stuff now that cargo flamegraph exists
+577,2019-03-10 22:01:01.000000000,2019-03-11 11:05:52.000000000,closed,0,"crc32 the entire log message, including the header. Closes #575"
+576,2019-03-10 21:08:25.000000000,2019-03-10 21:30:15.000000000,closed,0,some cleanups around IO buffering
+575,2019-03-10 13:51:47.000000000,2019-03-11 11:05:53.000000000,closed,0,checksum entire message header
+574,2019-03-09 17:06:15.000000000,2019-03-09 17:26:04.000000000,closed,0,Update stress2 to use edition 2018
+573,2019-03-09 16:34:00.000000000,2019-03-09 16:59:30.000000000,closed,0,Only use jemalloc on linux and macos for testing and benchmarking. Closes #572
+572,2019-03-09 01:02:33.000000000,2019-03-09 16:59:31.000000000,closed,2,can't build on windows
+571,2019-03-06 18:08:35.000000000,2020-01-31 03:27:38.000000000,closed,4,io_uring support
+570,2019-03-05 10:11:27.000000000,2019-03-07 15:19:16.000000000,closed,1,Several orthogonal improvements
+569,2019-03-04 17:49:51.000000000,2019-03-07 15:01:04.000000000,closed,0,Bump sled to 0.19 and pagecache to 0.12
+568,2019-02-28 21:44:56.000000000,2019-03-01 15:44:19.000000000,closed,0,Fix-up some leftovers with the crc32 migration
+567,2019-02-27 22:31:28.000000000,2019-02-28 20:54:58.000000000,closed,0,"use crc32fast, 100-150% write throughput improvement on top of better error checking :]"
+566,2019-02-27 20:44:08.000000000,2019-02-27 21:26:59.000000000,closed,0,Use fewer IVec clones in the Tree until actually returning one to the…
+565,2019-02-27 19:57:15.000000000,2019-02-27 20:36:29.000000000,closed,0,Small IVec Deref optimization
+564,2019-02-27 00:53:48.000000000,2019-02-27 01:25:55.000000000,closed,1,Nuke PinnedValue. Use Tx structure in PageCache instead of raw crossb…
+563,2019-02-26 14:37:51.000000000,1970-01-01 00:00:00.000000001,open,0,replication over harpoon consensus
+562,2019-02-26 14:32:26.000000000,1970-01-01 00:00:00.000000001,open,6,Record/Table Tree overlay
+561,2019-02-25 21:36:39.000000000,2019-02-26 14:00:03.000000000,closed,2,sled_sync crate description
+560,2019-02-25 16:30:39.000000000,2019-02-26 13:57:55.000000000,closed,1,Communication
+559,2019-02-25 12:43:20.000000000,2019-03-17 17:43:37.000000000,closed,1,combine Log and IoBufs
+558,2019-02-24 23:28:21.000000000,2019-02-25 01:09:22.000000000,closed,0,Big refactor that moves Meta and ID generation into PageCache. Remove…
+557,2019-02-24 12:22:00.000000000,2019-02-24 13:23:54.000000000,closed,0,Skip fork-based crash tests on macos.
+556,2019-02-23 21:59:59.000000000,2019-02-24 01:01:54.000000000,closed,1,"ATOMIC_USIZE_INIT is deprecated, use AtomicUsize::new instead"
+555,2019-02-23 21:57:39.000000000,2019-02-23 21:58:29.000000000,closed,1,"ATOMIC_USIZE_INIT is deprecated, use AtomicUsize::new instead"
+554,2019-02-23 15:22:44.000000000,2019-02-23 21:39:16.000000000,closed,0,Context refactor
+553,2019-02-22 18:16:14.000000000,2019-02-22 18:39:20.000000000,closed,1,:copyright: dat spicy law shit
+552,2019-02-22 18:13:57.000000000,2019-02-22 18:14:26.000000000,closed,0,:copyright: dat spicy law shit
+551,2019-02-22 16:20:45.000000000,2019-02-22 18:13:38.000000000,closed,0,Reduce allocations in the log reservation path
+550,2019-02-22 12:20:26.000000000,2019-02-22 13:18:20.000000000,closed,2,update flamegraph dependency
+549,2019-02-20 17:03:43.000000000,2019-02-23 15:22:56.000000000,closed,1,Use a cached AtomicUsize tree root so it can fast-path around the pag…
+548,2019-02-19 15:41:04.000000000,2019-05-24 14:04:51.000000000,closed,1,"switch to AtomicU64/AtomicI64 when they stabilize, remove most ""as usize"" / ""as u64"" casts"
+547,2019-02-18 22:12:47.000000000,2019-06-11 16:39:55.000000000,closed,1,centralize Tree split logic to path_for_key
+546,2019-02-18 20:23:26.000000000,2019-02-21 11:33:02.000000000,closed,4,Add concurrent log test
+545,2019-02-18 17:54:48.000000000,2019-11-10 22:00:28.000000000,closed,1,aligned IO
+544,2019-02-18 12:01:47.000000000,1970-01-01 00:00:00.000000001,open,0,make all CAS failures panics when testing in single-threaded mode
+543,2019-02-16 01:58:49.000000000,2019-02-16 02:45:49.000000000,closed,0,Add bump_page_rts and get_page_rts methods to PageCache
+542,2019-02-14 13:14:22.000000000,1970-01-01 00:00:00.000000001,open,3,configurable EC/fountain codes in separate segment track for gracefully surviving buggy hardware
+541,2019-02-11 15:52:20.000000000,2019-07-26 11:38:50.000000000,closed,1,1.0 blockers - forward-compatible file format
+540,2019-02-11 15:50:26.000000000,2019-10-11 12:15:27.000000000,closed,1,type-checking skeleton implementation for second transactional tenant
+539,2019-02-08 16:27:36.000000000,2019-06-11 16:16:49.000000000,closed,7,"fully-cooperative, crash-proof tree node merge support"
+538,2019-02-08 13:13:19.000000000,2019-02-09 15:26:13.000000000,closed,1,"on startup, generate a unique monotonic ""DB epoch"" for tagging lock-like updates with"
+537,2019-02-08 13:04:07.000000000,2019-03-01 15:44:46.000000000,closed,1,move Meta and IdGen fully into pagecache
+536,2019-02-07 15:09:54.000000000,2019-10-11 12:08:59.000000000,closed,1,configurable metrics endpoint thread
+535,2019-02-07 14:27:50.000000000,2019-02-07 14:59:13.000000000,closed,0,reduce exported types
+534,2019-02-07 14:01:00.000000000,2019-02-07 14:01:34.000000000,closed,0,"create ""API at a glance"" quick-reference for the readme"
+533,2019-02-07 13:58:35.000000000,2019-10-11 12:09:08.000000000,closed,3,clean up examples
+532,2019-02-06 23:43:37.000000000,2019-03-24 21:25:36.000000000,closed,0,split CasFailed from Result
+531,2019-02-06 23:21:51.000000000,2019-03-24 21:25:36.000000000,closed,0,have pagecache return failed writes to avoid copies in cas loops in tree
+530,2019-02-06 20:16:24.000000000,2019-11-17 19:17:17.000000000,closed,2,blob_io.rs failpoints 
+529,2019-02-06 18:32:18.000000000,2019-02-07 03:47:47.000000000,closed,0,debug stall. Closes #523.
+528,2019-02-05 22:24:21.000000000,2019-02-05 22:48:16.000000000,closed,0,debug panics. Closes #527. Closes #526.
+527,2019-02-05 13:18:05.000000000,2019-02-05 22:48:17.000000000,closed,0,CasFailed bad cast panic
+526,2019-02-05 13:17:13.000000000,2019-02-05 22:48:17.000000000,closed,0,Allocated returned from pagecache causes panic
+525,2019-02-05 13:10:04.000000000,2019-03-24 21:25:36.000000000,closed,0,remove danger_cast
+524,2019-02-05 13:04:00.000000000,2019-06-11 16:17:59.000000000,closed,1,refactor tree iterators
+523,2019-02-05 04:29:05.000000000,2019-02-07 03:47:48.000000000,closed,0,debug stall in the presence of multiple IO failures
+522,2019-02-05 03:19:55.000000000,2019-02-05 03:48:48.000000000,closed,0,debug reverse iterator. Closes #520.
+521,2019-02-03 17:55:22.000000000,2019-05-03 21:19:51.000000000,closed,0,OpenDb trait for AsRef<Path> opening a default database at path
+520,2019-02-03 17:36:08.000000000,2019-02-05 03:48:49.000000000,closed,0,deadlock in 0.18
+519,2019-02-03 17:35:00.000000000,2019-03-24 21:26:28.000000000,closed,1,snapshot divergence in 0.18
+518,2019-02-02 20:58:28.000000000,2019-02-10 13:18:23.000000000,closed,1,implement Index for Db / Tree
+517,2019-02-02 20:58:13.000000000,2019-06-11 19:09:19.000000000,closed,3,implement Extend for Db / Tree
+516,2019-02-02 20:46:23.000000000,2019-02-02 22:03:21.000000000,closed,0,Use crossbeam_utils::Backoff instead of raw spin_loop_hint. Closes #515
+515,2019-02-02 20:09:15.000000000,2019-02-02 22:03:22.000000000,closed,0,use crossbeam Backoff in CAS loops
+514,2019-02-02 18:31:05.000000000,2019-02-02 20:07:00.000000000,closed,0,Use Arc<[u8]> instead of Arc<Box<[u8]>> in IVec
+513,2019-02-01 14:55:57.000000000,2019-02-01 15:18:13.000000000,closed,0,Update README.md
+512,2019-02-01 13:05:49.000000000,2019-02-02 15:51:55.000000000,closed,0,debug allocations
+511,2019-01-31 13:58:37.000000000,2019-01-31 18:44:56.000000000,closed,1,Update CONTRIBUTING.md
+510,2019-01-27 19:36:17.000000000,2019-01-27 19:56:40.000000000,closed,0,Update Cargo.toml. Closes #505.
+509,2019-01-27 18:53:41.000000000,2019-01-27 20:29:47.000000000,closed,2,Improve the ways of opening Db and Trees
+508,2019-01-26 19:24:25.000000000,2019-01-26 20:24:50.000000000,closed,0,Use larger nodes toward the root of the Tree
+507,2019-01-26 19:21:02.000000000,2019-02-03 17:52:23.000000000,closed,0,Concurrent iterator test. Closes #501
+506,2019-01-26 18:12:12.000000000,2019-01-26 20:06:03.000000000,closed,0,various optimizations
+505,2019-01-23 21:04:09.000000000,2019-01-27 19:56:41.000000000,closed,1,Crates.io description
+504,2019-01-18 21:03:33.000000000,2019-02-02 19:50:37.000000000,closed,0,cleanup segment handling
+503,2019-01-16 20:16:11.000000000,2019-01-17 15:25:19.000000000,closed,0,IVec and various optimizations
+502,2019-01-13 22:38:21.000000000,2019-03-24 21:27:52.000000000,closed,12,specialized Vec for reducing copies and heap allocations
+501,2019-01-13 18:58:26.000000000,2019-02-03 17:52:24.000000000,closed,0,add concurrent iteration test before implementing tree merging
+500,2019-01-13 18:54:02.000000000,2020-02-21 19:01:25.000000000,closed,1,logical segment addressing and lower coordination writing
+499,2019-01-13 18:09:19.000000000,2019-01-13 19:10:37.000000000,closed,0,Don't clone the whole config for async truncations
+498,2019-01-13 02:22:26.000000000,2019-01-13 02:41:03.000000000,closed,0,reduce tail latency. Closes #496
+497,2019-01-12 21:41:19.000000000,2019-01-13 00:12:22.000000000,closed,0,Remove needless Mutex in SA. Add better metrics for pinpointing tail …
+496,2019-01-12 21:34:34.000000000,2019-01-13 02:41:04.000000000,closed,0,long-tail latency tune-up
+495,2019-01-09 22:03:41.000000000,2019-01-12 07:10:46.000000000,closed,1,skip mark link on previously linked
+494,2019-01-09 21:38:08.000000000,2019-01-09 22:03:08.000000000,closed,0,Update README.md
+493,2019-01-09 20:48:47.000000000,2019-01-09 21:32:49.000000000,closed,1,Clean the Db Deref implementation
+492,2019-01-09 20:17:28.000000000,1970-01-01 00:00:00.000000001,open,2,Open each keyspace with specific settings
+491,2019-01-08 23:17:37.000000000,2019-01-09 00:01:08.000000000,closed,0,Set Db to Send + Sync
+490,2019-01-08 21:42:28.000000000,2019-01-08 21:42:35.000000000,closed,0,Db should be Clone
+489,2019-01-08 21:41:45.000000000,2019-01-08 21:41:53.000000000,closed,0,Measure offset assignment
+488,2019-01-08 21:41:23.000000000,2019-01-08 21:42:05.000000000,closed,0,Db should be Clone
+487,2019-01-08 18:53:24.000000000,2019-01-08 22:20:41.000000000,closed,4,`Clone` on `Db` in 0.17: migrating from 0.16
+486,2019-01-08 18:17:07.000000000,2019-01-08 22:16:47.000000000,closed,0,Use hashbrown and FxHasher64 in performance-critical hashing areas
+485,2019-01-07 15:26:00.000000000,2019-01-07 15:55:46.000000000,closed,0,Update quickcheck requirement from 0.7 to 0.8
+484,2019-01-07 15:18:19.000000000,2019-01-08 04:38:37.000000000,closed,0,[wip] remove tree
+483,2019-01-06 19:34:09.000000000,2019-01-07 15:17:45.000000000,closed,0,Update README.md
+482,2019-01-05 16:20:54.000000000,2019-01-06 19:28:43.000000000,closed,0,move auxiliary crates away
+481,2019-01-03 21:11:52.000000000,2019-01-08 05:27:41.000000000,closed,1,allow removal of namespaces
+480,2019-01-03 20:03:22.000000000,2019-01-03 20:31:28.000000000,closed,0,cleanup config
+479,2018-12-31 01:19:42.000000000,2019-01-03 19:45:56.000000000,closed,0,Clean up some Db functionality and stub out transactional recovery API
+478,2018-12-30 19:30:23.000000000,2018-12-31 00:08:25.000000000,closed,3,keyspace support!!!
+477,2018-12-29 22:01:46.000000000,2018-12-30 15:52:57.000000000,closed,0,Don't run the materializer on pulled Frag's of length 1. Closes #475
+476,2018-12-29 07:46:43.000000000,2018-12-29 21:26:30.000000000,closed,1,[WIP] META tree. Closes #474.
+475,2018-12-29 07:26:20.000000000,2018-12-30 15:52:58.000000000,closed,0,Don't call merge on Frags of length 1
+474,2018-12-27 21:47:18.000000000,2018-12-29 21:26:31.000000000,closed,1,"lightweight keyspaces, multitenant pagecache"
+473,2018-12-23 15:53:01.000000000,2018-12-27 21:50:48.000000000,closed,3,more clippy!
+472,2018-12-22 01:54:00.000000000,2018-12-22 19:22:49.000000000,closed,0,Rework IoBufs to wrap an inner Arc to support async writing
+471,2018-12-21 09:43:45.000000000,2018-12-21 16:42:09.000000000,closed,1,some clippy cleanup
+470,2018-12-19 04:19:57.000000000,2018-12-22 12:01:09.000000000,closed,5,windows and clippy
+469,2018-12-18 22:48:02.000000000,2018-12-19 02:22:59.000000000,closed,0,async snapshotting. closes #234.
+468,2018-12-16 13:51:20.000000000,2018-12-18 19:43:14.000000000,closed,0,Remove internal Bound type. Don't copy keys so much during comparison
+467,2018-12-16 12:32:53.000000000,2018-12-18 19:43:15.000000000,closed,0,Punt snapshot generation to the rayon threadpool. Closes #234.
+466,2018-12-14 20:12:35.000000000,2018-12-14 21:00:22.000000000,closed,0,range scan support. closes #137.
+465,2018-12-13 15:15:30.000000000,2018-12-18 17:20:22.000000000,closed,0,Run cargo check on windows and for different combinations of features
+464,2018-12-12 20:47:40.000000000,2018-12-12 22:26:19.000000000,closed,2,Fix compilation on windows and arm
+463,2018-12-12 18:55:16.000000000,2018-12-13 14:40:34.000000000,closed,8,pagecache 0.8.1 does not compile
+462,2018-12-12 11:22:24.000000000,2018-12-13 14:55:13.000000000,closed,3,Pagecache can't compile due to rust 2018 macro import changes
+461,2018-12-12 05:58:37.000000000,2018-12-12 13:08:08.000000000,closed,0,Bump sled version to include better docs for watch_prefix
+460,2018-12-12 05:10:49.000000000,2018-12-12 05:39:47.000000000,closed,0,v1 of the subscription API
+459,2018-12-11 21:11:43.000000000,2018-12-11 21:55:48.000000000,closed,0,bump versions
+458,2018-12-11 19:57:10.000000000,2018-12-11 21:08:03.000000000,closed,1,"Sweep over things, adapt to 2018"
+457,2018-12-11 17:52:00.000000000,2018-12-11 18:38:40.000000000,closed,0,Use compression feature flag. Add ASAN test
+456,2018-12-05 19:11:36.000000000,2018-12-05 19:37:54.000000000,closed,1,Optionally measure allocations
+455,2018-12-01 14:48:34.000000000,2018-12-03 16:55:22.000000000,closed,1,sled: use saturating u64 for size calculations
+454,2018-11-27 20:10:58.000000000,2018-11-28 16:04:27.000000000,closed,0,Update README.md
+453,2018-11-27 17:03:11.000000000,2018-11-27 18:24:36.000000000,closed,0,Defer the dropping of the internal stacks when PageTable is dropped. …
+452,2018-11-27 16:20:06.000000000,2018-11-27 16:56:18.000000000,closed,0,Fixing the tree_subdir test
+451,2018-11-27 16:16:58.000000000,2019-08-12 16:36:03.000000000,closed,4,WIP: flatbuffer representation of Tree nodes #435
+450,2018-11-25 15:09:20.000000000,1970-01-01 00:00:00.000000001,open,0,generational rewriting (IO locality tracks)
+449,2018-11-24 06:47:23.000000000,2018-11-24 12:02:10.000000000,closed,0,Fix ID generator persistence
+448,2018-11-24 04:06:11.000000000,2018-11-24 05:56:23.000000000,closed,0,Implement monotonic durable ID generator. Closes #442.
+447,2018-11-23 04:28:55.000000000,2018-11-23 06:27:38.000000000,closed,0,"Support for reverse iteration, get_gt and get_lt! Closes #330. Closes #445."
+446,2018-11-22 13:17:49.000000000,2018-11-22 14:02:07.000000000,closed,0,Remove redundant load operation on the 2mb page
+445,2018-11-21 23:45:29.000000000,2018-11-23 06:27:39.000000000,closed,0,"Keys, Values iterators"
+444,2018-11-21 21:06:37.000000000,2018-12-18 19:43:14.000000000,closed,0,Bound as a light wrapper over &[u8]
+443,2018-11-20 17:19:14.000000000,2018-11-20 18:03:34.000000000,closed,0,Bump versions
+442,2018-11-19 18:26:21.000000000,2018-11-24 05:56:24.000000000,closed,0,ID generator
+441,2018-11-19 16:59:54.000000000,2019-01-03 20:06:16.000000000,closed,4,sled api should tell user if created or loaded
+440,2018-11-19 01:20:10.000000000,2018-11-19 01:49:05.000000000,closed,0,Use Cow to reduce the cost of page cloning during recursive splits
+439,2018-11-18 02:12:23.000000000,2018-11-18 13:08:51.000000000,closed,1,Simplify segment dropping logic
+438,2018-11-17 18:36:06.000000000,2019-02-26 14:35:07.000000000,closed,4,About the support of SST like files
+437,2018-11-17 16:37:41.000000000,2018-11-19 01:49:05.000000000,closed,0,Cow path while recursively splitting pages
+436,2018-11-17 15:58:20.000000000,2019-06-11 16:29:29.000000000,closed,2,pagecache stack bounded read operations
+435,2018-11-17 15:43:21.000000000,2019-11-10 22:03:01.000000000,closed,3,flatbuffer representation of Tree nodes
+434,2018-11-17 04:55:14.000000000,2018-11-17 05:55:44.000000000,closed,0,"clean up flusher, some names"
+433,2018-11-17 00:43:53.000000000,2018-11-17 01:16:17.000000000,closed,2,Allow path to be overridden for temporary databases. Closes #431.
+432,2018-11-16 23:02:17.000000000,2020-02-20 19:31:21.000000000,closed,2,lock-free SegmentAccountant
+431,2018-11-16 22:20:15.000000000,2018-11-17 01:16:18.000000000,closed,1,"Surprised by behavior of ""temporary"""
+430,2018-11-16 20:30:36.000000000,2019-07-08 02:05:18.000000000,closed,2,Segment Management/Gc Refactor
+429,2018-11-16 15:52:49.000000000,2018-11-16 16:34:36.000000000,closed,0,Improve tests
+428,2018-11-16 14:28:54.000000000,2018-11-16 15:09:08.000000000,closed,0,Emit better log messages. Panic where we should not continue in a cou…
+427,2018-11-16 13:38:09.000000000,2018-11-16 14:01:01.000000000,closed,0,Add lock-free EventLog that allows us to verify invariants across system shutdown/recovery
+426,2018-11-16 04:50:20.000000000,2018-11-16 12:50:04.000000000,closed,0,no floating point in utilization calculations
+425,2018-11-16 00:36:23.000000000,2018-11-16 01:27:03.000000000,closed,0,bump deterministic
+424,2018-11-16 00:11:09.000000000,2018-11-16 00:36:14.000000000,closed,0,"make segment handling more pedantic, fix bug"
+423,2018-11-15 15:23:28.000000000,2018-11-15 23:23:05.000000000,closed,0,Update rand requirement from 0.5 to 0.6
+422,2018-11-13 01:59:26.000000000,2018-11-15 22:09:41.000000000,closed,3,Update methods to accept an AsRef<[u8]> type instead of a Vec<u8> 
+421,2018-11-12 15:51:49.000000000,2018-11-12 16:11:01.000000000,closed,0,Update env_logger requirement from 0.5 to 0.6
+420,2018-11-10 15:12:52.000000000,1970-01-01 00:00:00.000000001,open,1,Feature: history
+419,2018-11-10 03:29:40.000000000,2018-11-10 03:49:46.000000000,closed,0,Fix visibility of reexported dependencies
+418,2018-11-08 23:59:27.000000000,2018-11-09 00:34:43.000000000,closed,0,Add metadata to sled_sync so it can be published
+417,2018-11-08 23:14:23.000000000,2018-11-08 23:38:18.000000000,closed,1,fix race condition and minor lsn tracking bug. closes #414
+416,2018-11-08 14:45:26.000000000,2018-11-08 15:12:22.000000000,closed,0,cfg_attr for macro_use attribute in sled_sync
+415,2018-11-07 22:29:12.000000000,2018-11-07 22:55:49.000000000,closed,0,Add Discord badge to README.md
+414,2018-11-05 19:21:55.000000000,2018-11-16 16:36:48.000000000,closed,7,[WIP] debug concurrent data loss
+413,2018-11-05 14:45:44.000000000,2018-11-05 17:55:35.000000000,closed,0,Delete log_ebr.rs
+412,2018-11-05 12:17:53.000000000,2018-11-05 17:29:52.000000000,closed,4,fix some clippy warnings
+411,2018-11-04 11:19:05.000000000,2018-11-08 23:58:22.000000000,closed,1,multithread write seems to lost data
+410,2018-11-04 00:53:08.000000000,2018-11-05 11:50:21.000000000,closed,3,fix typo in comment
+409,2018-11-03 21:29:53.000000000,2018-11-03 21:52:43.000000000,closed,0,Clean up sled_sync a little
+408,2018-11-03 20:57:58.000000000,2018-11-03 21:27:59.000000000,closed,0,parallelize tests more
+407,2018-11-03 20:24:22.000000000,2018-11-03 20:43:47.000000000,closed,0,Use exclusive file lock to prevent other processes corrupting db
+406,2018-11-03 19:52:43.000000000,2018-11-03 20:09:52.000000000,closed,0,Remove incorrect assertion
+405,2018-11-03 19:12:41.000000000,2018-11-03 19:35:13.000000000,closed,0,Add a release checklist. Update contributor note. Closes #373
+404,2018-11-03 18:30:53.000000000,2019-03-24 21:28:20.000000000,closed,0,add concurrent log test
+403,2018-11-03 14:11:24.000000000,2018-11-03 14:28:38.000000000,closed,0,No-panic thread_rng. Closes #390.
+402,2018-11-03 12:16:46.000000000,2019-08-14 02:01:47.000000000,closed,0,over-zealous page rewriting happening 
+401,2018-11-03 11:59:57.000000000,2018-11-03 13:20:11.000000000,closed,0,Merge flamerun scripts together
+400,2018-11-03 11:02:44.000000000,2018-11-03 11:42:22.000000000,closed,0,Add sequential mode to stress2
+399,2018-11-03 01:53:31.000000000,2018-11-03 11:01:40.000000000,closed,0,Use odd numbers of bytes when provided by the fuzzer
+398,2018-11-03 01:12:52.000000000,2018-11-03 01:48:37.000000000,closed,0,update readme
+397,2018-11-02 15:36:29.000000000,2020-02-20 19:29:49.000000000,closed,6,OS-agnostic crash tests
+396,2018-11-02 11:11:06.000000000,2018-11-02 11:48:27.000000000,closed,1,examples: make playground compatibility with v0.16
+395,2018-11-01 15:22:54.000000000,1970-01-01 00:00:00.000000001,open,2,Make debug_delay a macro so we can reason about interleaving coverage
+394,2018-11-01 15:15:58.000000000,2018-11-01 15:46:18.000000000,closed,0,Sometimes kill the tree during initialization in crash tests
+393,2018-11-01 15:01:07.000000000,2019-03-17 22:40:13.000000000,closed,1,Cleanup clippy suggestions
+392,2018-11-01 14:56:45.000000000,2018-11-19 01:49:33.000000000,closed,0,race condition in Config Drop causes profile not to be printed sometimes
+391,2018-11-01 14:52:08.000000000,2019-01-09 02:29:41.000000000,closed,1,Tree crash during initialization causes panic on subsequent startup
+390,2018-11-01 14:48:09.000000000,2018-11-03 14:28:38.000000000,closed,0,Destroyed TLS bad access panic while tearing down test_log
+389,2018-11-01 14:37:10.000000000,2018-11-01 16:07:11.000000000,closed,1,Add keyspace parameter to stress2
+388,2018-11-01 14:15:01.000000000,2018-11-01 15:23:21.000000000,closed,0,"Move EBR syncrhonization into sled_sync crate, more to follow"
+387,2018-11-01 04:17:27.000000000,2018-11-01 15:01:45.000000000,closed,0,Update proptest requirement from 0.7 to 0.8
+386,2018-11-01 00:41:42.000000000,2018-11-01 01:25:34.000000000,closed,0,Fix theoretical deadlock with condvar usage
+385,2018-10-31 16:03:34.000000000,2019-02-08 13:15:17.000000000,closed,0,Extract synchronization functionality into sled_sync crate
+384,2018-10-31 14:38:42.000000000,2018-10-31 16:29:37.000000000,closed,0,"Add libfuzzer testing, which generates Tree operations based on input. Closes #53."
+383,2018-10-30 13:36:50.000000000,2019-01-04 05:22:45.000000000,closed,0,Punt log writes to another thread
+382,2018-10-30 13:31:59.000000000,1970-01-01 00:00:00.000000001,open,15,Transactional MVCC Pagecache
+381,2018-10-30 12:20:43.000000000,2018-10-30 13:08:51.000000000,closed,0,Measure time spent waiting on the condvars during io buffer reservation
+380,2018-10-30 11:48:28.000000000,2018-10-30 12:13:24.000000000,closed,0,Simplify configuration
+379,2018-10-28 23:54:23.000000000,2018-10-29 00:12:23.000000000,closed,0,Update README.md
+378,2018-10-28 23:05:06.000000000,2018-10-28 23:35:54.000000000,closed,0,cut 0.16 release
+377,2018-10-28 20:46:25.000000000,2018-10-28 21:48:38.000000000,closed,1,simplify config. Closes #326.
+376,2018-10-28 20:04:18.000000000,1970-01-01 00:00:00.000000001,open,0,full-disk causes stall
+375,2018-10-28 18:41:07.000000000,2018-10-28 18:58:17.000000000,closed,0,Add configurable value sizes and specific command proportions to stress2
+374,2018-10-28 15:49:49.000000000,2018-10-28 16:33:49.000000000,closed,0,Reduce iobuf spinning. Closes #371.
+373,2018-10-28 14:32:55.000000000,2018-11-03 19:35:14.000000000,closed,0,Pre-release checklist
+372,2018-10-27 19:23:22.000000000,2018-10-28 15:34:14.000000000,closed,0,Debug blob crashes. Closes #368.
+371,2018-10-24 18:11:40.000000000,2018-10-28 16:33:50.000000000,closed,1,use CondVar for managing IoBufs segment counter
+370,2018-10-24 12:35:11.000000000,2018-10-25 11:48:52.000000000,closed,2,add no_inline feature to pagecache
+369,2018-10-24 11:47:09.000000000,2019-06-11 18:24:41.000000000,closed,0,Install likely blobs as tree child splits
+368,2018-10-24 09:30:08.000000000,2018-10-28 15:34:15.000000000,closed,1,Node splits cause a mismatch between recovery with and without a snapshot
+367,2018-10-23 17:49:23.000000000,2018-10-25 11:48:51.000000000,closed,0,add no_inline feature to pagecache and sled that disables all inlining hints for profiling purposes
+366,2018-10-23 11:15:19.000000000,2018-10-28 16:05:30.000000000,closed,3,Binary search least-upper-bound while traversing indexes 
+365,2018-10-23 08:37:15.000000000,2018-10-23 09:07:54.000000000,closed,0,fix page relocation race condition
+364,2018-10-22 13:51:57.000000000,2018-10-23 08:34:52.000000000,closed,0,account for compacted pages 
+363,2018-10-22 12:12:31.000000000,2018-10-22 13:49:33.000000000,closed,0,debug zc
+362,2018-10-21 17:55:05.000000000,2018-10-22 12:34:05.000000000,closed,1,model: Add ability to pass config to linearizable!
+361,2018-10-21 04:50:38.000000000,2018-10-24 09:26:38.000000000,closed,6,fix compilation error on windows
+360,2018-10-19 19:24:29.000000000,1970-01-01 00:00:00.000000001,open,3,access to log for replication
+359,2018-10-18 15:05:24.000000000,2018-10-20 19:52:26.000000000,closed,0,Make possible remaining Tree API's zero copy
+358,2018-10-18 05:27:02.000000000,2018-10-18 14:12:37.000000000,closed,1,Optimise prefix comparison
+357,2018-10-17 10:41:24.000000000,2018-10-18 19:34:12.000000000,closed,0,Use EBR to deactivate segments. Closes #356.
+356,2018-10-17 03:44:55.000000000,2018-10-18 19:34:13.000000000,closed,0,Panic: mark_link called on Inactive Segment
+355,2018-10-17 02:19:07.000000000,2018-10-17 03:27:03.000000000,closed,0,zero copy tree readpath. closes #353
+354,2018-10-17 00:51:14.000000000,2018-10-17 02:30:43.000000000,closed,1,Fix `USAGE` string in stress2
+353,2018-10-16 12:01:49.000000000,2018-10-17 03:27:03.000000000,closed,0,"""zero-copy"" tree readpath"
+352,2018-10-16 11:34:46.000000000,2018-10-16 12:28:50.000000000,closed,0,zero copy readpath pagecache. closes #349
+351,2018-10-12 01:55:58.000000000,2018-10-12 02:15:43.000000000,closed,0,Make the stress2 data length configurable
+350,2018-10-12 00:54:29.000000000,2018-10-12 01:18:51.000000000,closed,0,Tyler general improvements
+349,2018-10-12 00:26:23.000000000,2018-10-16 12:28:51.000000000,closed,0,"Always fix-up pagecache stacks on read, and return pointer for zero-copy reads"
+348,2018-10-11 23:45:23.000000000,2018-10-12 00:03:50.000000000,closed,0,Mitigate overflow with more than 127 concurrent writers in an IO buffer
+347,2018-10-10 21:36:50.000000000,2018-10-11 10:53:47.000000000,closed,0,Update travis
+346,2018-10-10 21:11:35.000000000,2018-10-10 21:32:29.000000000,closed,0,Encapsulate Segment and SegmentAccountant methods
+345,2018-10-10 20:48:11.000000000,2018-10-10 21:09:19.000000000,closed,0,Add option to print profile on Config drop. Add nondeterminism to debug delays to tease out races.
+344,2018-10-05 22:54:02.000000000,2019-06-11 18:28:31.000000000,closed,1,model: Uncomfortable operations without parameters
+343,2018-09-30 16:22:21.000000000,2018-10-01 17:03:54.000000000,closed,0,2018 prep
+342,2018-09-29 22:21:27.000000000,2018-09-29 22:50:50.000000000,closed,0,Remove a bit of needlessly unsafe code
+341,2018-09-24 00:07:44.000000000,2018-09-24 00:26:00.000000000,closed,0,"Bump dependencies up, slightly refactor some lock-free code"
+340,2018-09-23 22:54:42.000000000,2018-09-23 23:22:48.000000000,closed,0,More variety to the keys used in Tree-BTreeMap equivalence test
+339,2018-09-23 17:54:39.000000000,2018-09-23 19:36:30.000000000,closed,0,Add simple playground example for quick experiments
+338,2018-09-22 20:18:30.000000000,2018-09-22 22:26:45.000000000,closed,0,Add contributor covenant.
+337,2018-09-18 14:50:42.000000000,2019-11-11 07:10:08.000000000,closed,2,A `Tree` method for producing the size on disk in bytes?
+336,2018-09-18 14:43:52.000000000,1970-01-01 00:00:00.000000001,open,0,Removing a large range of entries from a `Tree` at once.
+335,2018-08-18 23:41:29.000000000,2019-06-11 18:24:23.000000000,closed,4,A few questions
+334,2018-08-16 00:40:48.000000000,2019-06-11 18:27:52.000000000,closed,7,Write performance seems terrible? Am I holding it wrong?
+333,2018-08-09 15:08:55.000000000,2018-09-23 04:15:39.000000000,closed,3,support for off-log external blobs. closes #198.
+332,2018-08-05 20:02:57.000000000,2018-08-05 20:15:59.000000000,closed,0,use wait-free 2-level paging instead of radix tree for pagecache lookaside table
+331,2018-07-26 21:25:59.000000000,2019-06-12 13:32:21.000000000,closed,5,Thoughts on avoiding Deserialize on the PageCache config.
+330,2018-07-26 15:55:40.000000000,2018-11-23 06:27:39.000000000,closed,1,Add reverse `Iter` and `Scan` iterators?
+329,2018-07-26 07:48:19.000000000,2018-12-11 18:38:40.000000000,closed,0,Fails to compile with `zstd` feature enabled
+328,2018-07-26 07:40:26.000000000,2018-12-31 20:06:21.000000000,closed,1,WIP: InvertibleTransforms
+327,2018-07-22 13:25:30.000000000,2018-07-23 13:47:06.000000000,closed,0,global reformat
+326,2018-07-13 20:07:01.000000000,2018-10-28 21:48:38.000000000,closed,2,Moving the database on disk means we cannot open the database anymore.
+325,2018-07-05 00:39:55.000000000,1970-01-01 00:00:00.000000001,open,5,PageCache raw_buf's and Invertible Transforms
+324,2018-07-04 13:41:25.000000000,2018-07-12 18:57:22.000000000,closed,1,Added helpful notice regarding proptest versions.
+323,2018-07-04 12:04:17.000000000,2018-07-12 18:44:43.000000000,closed,1,Fix model doctests compilation
+322,2018-06-18 23:43:39.000000000,2018-10-12 12:09:54.000000000,closed,2,/dev/shm is full/not cleaned up
+321,2018-06-14 09:17:39.000000000,2018-06-26 00:47:04.000000000,closed,1,change trait bound in error cast to Into
+320,2018-06-04 18:18:05.000000000,2018-06-04 19:23:59.000000000,closed,0,ignore failing tests on fuchsia for now
+319,2018-06-01 22:31:36.000000000,2018-06-01 22:32:30.000000000,closed,0,paxos
+318,2018-05-30 18:38:00.000000000,2018-05-30 19:05:01.000000000,closed,2,syntax highlighting for model
+317,2018-05-30 00:18:27.000000000,2019-02-26 14:33:33.000000000,closed,3,Are slightly more advanced queries a target feature?
+316,2018-05-27 20:12:02.000000000,2018-06-04 19:24:00.000000000,closed,4,Fix or ignore failing tests
+315,2018-05-27 18:28:29.000000000,2018-05-28 11:25:00.000000000,closed,1,Correct spelling of fuchsia
+314,2018-05-27 17:47:28.000000000,2018-05-27 17:59:21.000000000,closed,0,don't run crash tests on fuschia or android
+313,2018-05-27 17:26:58.000000000,2018-05-27 17:37:02.000000000,closed,0,Fuschia compat
+312,2018-05-13 17:09:56.000000000,2018-06-01 22:27:02.000000000,closed,0,polish of testing crates
+311,2018-05-12 23:08:34.000000000,2018-05-12 23:44:38.000000000,closed,0,Model-based testing and linearizability testing lib
+310,2018-05-08 01:00:37.000000000,2018-05-08 12:54:45.000000000,closed,0,"improve tests, add deterministic crate"
+309,2018-05-01 02:00:48.000000000,2018-05-01 04:17:36.000000000,closed,0,"sweep through unwraps, fix several bugs due to bad assumptions"
+308,2018-04-29 16:37:53.000000000,1970-01-01 00:00:00.000000001,open,3,Feature: custom ordering
+307,2018-04-28 01:19:24.000000000,2018-04-28 13:41:02.000000000,closed,4,pagecache: get rid of several unwraps
+306,2018-04-25 10:57:49.000000000,2018-04-25 11:21:22.000000000,closed,0,split benchmarks and examples from the main workspace
+305,2018-04-05 17:13:09.000000000,2018-04-09 13:05:55.000000000,closed,4, 64-bit target with `nightly` feature doesn't compile anymore.
+304,2018-04-05 17:06:25.000000000,2018-04-09 13:05:55.000000000,closed,0,64-bit target with `nightly` feature doesn't compile anymore.
+303,2018-04-04 13:51:58.000000000,2018-04-05 11:59:41.000000000,closed,0,bump pagecache and sled versions to support 32-bit
+302,2018-04-04 01:42:42.000000000,2019-10-11 12:12:33.000000000,closed,8,Add Windows CI
+301,2018-03-25 00:46:49.000000000,2018-03-28 20:48:55.000000000,closed,1,Repository has no tags
+300,2018-03-19 13:19:44.000000000,2018-04-04 13:49:45.000000000,closed,17,Compilation for 32-bit architectures on nightly
+299,2018-03-10 03:43:28.000000000,2018-03-10 03:58:57.000000000,closed,0,properly remove all temporary storage files when dropping
+298,2018-03-09 16:22:25.000000000,1970-01-01 00:00:00.000000001,open,0,implement mutation testing using mutagen
+297,2018-03-08 16:24:40.000000000,2018-03-10 03:24:56.000000000,closed,3,put created files into a subdirectory
+296,2018-03-07 22:42:43.000000000,2018-12-13 15:17:32.000000000,closed,1,"integrate, release crack library for deterministic concurrent model checking"
+295,2018-03-07 16:04:19.000000000,2018-12-16 12:16:03.000000000,closed,1,watch prefix functionality built on ART
+294,2018-03-07 14:49:10.000000000,2018-10-30 11:53:39.000000000,closed,0,split Tree into index crate
+293,2018-03-07 00:02:48.000000000,2020-02-20 18:47:52.000000000,closed,0,conditionally compile errors when running tests to include stacktraces
+292,2018-03-06 01:42:10.000000000,2018-03-06 02:05:13.000000000,closed,0,bump sled to 0.15.12 and pagecache to 0.4.1 to include windows fixes
+291,2018-03-05 19:26:30.000000000,2018-03-05 19:39:47.000000000,closed,0,"implement LogReader for file, regardless of OS"
+290,2018-03-05 15:39:20.000000000,2018-03-06 01:44:33.000000000,closed,3,Pagecache doesn't compile on stable rust
+289,2018-03-04 23:31:05.000000000,2018-03-05 00:40:32.000000000,closed,0,add an example of using a merge operator to create a CRDT store
+288,2018-03-03 16:00:37.000000000,2018-03-05 00:54:40.000000000,closed,0,add example combining the crdts package with merge operator
+287,2018-03-03 01:49:34.000000000,2018-03-03 02:03:13.000000000,closed,0,Update README.md
+286,2018-03-03 01:27:25.000000000,2018-03-03 01:41:57.000000000,closed,0,"merge operator support! sled bumped to 0.15.11, pagecache to 0.4.0. closes #69."
+285,2018-03-02 23:12:45.000000000,2018-10-18 14:12:37.000000000,closed,10,optimize prefix comparison
+284,2018-03-02 22:25:47.000000000,2018-12-11 15:03:25.000000000,closed,1,the path to proper page representation and allocation
+283,2018-03-02 00:55:56.000000000,2018-03-02 01:22:02.000000000,closed,0,use FADV_WILLNEED on a segment before iterating over it. Closes #282.
+282,2018-03-02 00:15:48.000000000,2018-03-02 01:22:03.000000000,closed,0,use fadvise for snapshot iteration hints
+281,2018-03-01 23:33:52.000000000,2018-03-02 00:34:10.000000000,closed,0,rearrange subcrates a bit
+280,2018-03-01 19:40:29.000000000,2019-10-11 14:23:39.000000000,closed,1,failpoints test does not clean up after itself properly
+279,2018-03-01 18:38:42.000000000,2018-03-01 19:55:10.000000000,closed,0,implement std::error::Error. bump versions. closes #278.
+278,2018-02-28 15:03:07.000000000,2018-03-01 19:55:11.000000000,closed,2,impl Error for sled::Error
+277,2018-02-27 19:10:06.000000000,2018-02-27 19:25:32.000000000,closed,0,fix storage leak bugs. closes #276. closes #275.
+276,2018-02-26 17:14:32.000000000,2018-02-27 19:25:33.000000000,closed,1,wedged draining segment
+275,2018-02-24 01:34:22.000000000,2018-02-27 19:25:33.000000000,closed,0,space leak during burn-in
+274,2018-02-24 01:29:00.000000000,2018-02-24 21:17:38.000000000,closed,0,bump sled to 0.15.7 and pagecache to 0.2.5
+273,2018-02-23 22:35:24.000000000,2018-02-24 01:27:14.000000000,closed,0,be more specific about log corruption. pad unused segment space when rolling to next. improve log iteration tests. closes #261. closes #259. closes #220.
+272,2018-02-22 02:32:57.000000000,2018-02-22 13:41:02.000000000,closed,0,surface highest reserved offset. fix flush correctness. closes #256. closes #204.
+271,2018-02-21 22:45:32.000000000,2018-02-21 23:01:20.000000000,closed,0,bump pagecache to 0.2.4 and sled to 0.15.6
+270,2018-02-21 22:13:00.000000000,2018-02-21 22:37:25.000000000,closed,0,"never iterate over a log one byte at a time, for either failed flushes or corruption. rapidly fail a log read if the first byte is EVIL_BYTE. closes #267. closes #269."
+269,2018-02-21 21:32:58.000000000,2018-02-21 22:37:25.000000000,closed,0,"recovery optimization: store failed flush length, don't iterate"
+268,2018-02-21 21:32:35.000000000,2020-01-31 02:37:37.000000000,closed,0,recovery optimization: read segments at a time
+267,2018-02-21 21:32:07.000000000,2018-02-21 22:37:25.000000000,closed,0,recovery optimization: return corruption immediately upon reading EVIL_BYTE in first byte of a read log message
+266,2018-02-21 02:38:30.000000000,2018-02-21 03:00:37.000000000,closed,0,initialize segments with EVIL_BYTE's to distinguish them from 0's written during failed flushes. closes #255
+265,2018-02-20 22:18:18.000000000,2018-02-21 02:01:57.000000000,closed,3,prefix encoding. closes #264
+264,2018-02-18 17:13:02.000000000,2018-02-21 02:01:58.000000000,closed,0,"store keys as [low key shared prefix bytes, remainder]"
+263,2018-02-16 18:03:01.000000000,2018-02-16 18:15:35.000000000,closed,0,bump rayon to 1.0!
+262,2018-02-16 14:56:08.000000000,2018-02-16 15:14:38.000000000,closed,0,small cleanup
+261,2018-02-15 16:09:50.000000000,2018-02-24 01:27:15.000000000,closed,2,segment trailer must be written after all partial buffers in a segment
+260,2018-02-13 21:04:59.000000000,2018-02-13 21:54:06.000000000,closed,0,improve failpoint test to include concept of uncertain state
+259,2018-02-13 20:57:22.000000000,2018-02-24 01:27:15.000000000,closed,0,dupe segment lsn bug
+258,2018-02-13 19:55:43.000000000,2019-06-12 13:28:57.000000000,closed,1,add quickcheck log + failpoint test that performs out-of-order reservation completion 
+257,2018-02-13 14:57:12.000000000,2018-02-13 15:19:46.000000000,closed,0,refine failpoint testing further
+256,2018-02-13 14:13:19.000000000,2018-02-22 13:41:02.000000000,closed,1,blocking (correct) flush
+255,2018-02-13 13:48:45.000000000,2018-02-21 03:01:27.000000000,closed,2,"OOO recovery bug: use 0 to signify EOL when recovering, 1 success 2 failed flush"
+254,2018-02-12 21:05:04.000000000,2019-02-26 14:04:01.000000000,closed,2,LLAMA-style system transaction?
+253,2018-02-12 19:17:51.000000000,2018-10-30 13:33:47.000000000,closed,3,Incremental Transactional Implementation
+252,2018-02-11 22:16:24.000000000,2018-02-11 22:27:42.000000000,closed,0,fix quickcheck generated Op vector sizes
+251,2018-02-11 22:15:58.000000000,2018-02-12 03:59:22.000000000,closed,1,Are there any benchmarks?
+250,2018-02-11 21:25:53.000000000,2018-02-11 21:44:55.000000000,closed,0,refactor quickcheck tests. closes #249
+249,2018-02-11 20:05:41.000000000,2018-02-11 21:44:56.000000000,closed,0,clean up shrinking in quickcheck tests
+248,2018-02-11 20:01:45.000000000,2018-02-11 20:02:17.000000000,closed,1,cleanup
+247,2018-02-11 16:49:19.000000000,2018-02-11 21:01:43.000000000,closed,1,Cleanup minor things
+246,2018-02-11 16:26:53.000000000,2018-02-11 16:44:18.000000000,closed,1,Remove prev from SegmentHeader
+245,2018-02-11 16:18:14.000000000,2018-02-11 18:52:54.000000000,closed,0,"bump some dependencies, pin project patch versions where new features are depended on"
+244,2018-02-11 09:18:39.000000000,2018-02-11 14:30:28.000000000,closed,0,Create ISSUE_TEMPLATE
+243,2018-02-11 07:36:20.000000000,1970-01-01 00:00:00.000000001,open,3,implement actual parallel IO trait for windows
+242,2018-02-11 07:20:16.000000000,2018-02-11 07:35:09.000000000,closed,0,split out Pio implementation from definition. take a wild guess at windows support
+241,2018-02-11 06:48:14.000000000,2018-02-11 06:58:04.000000000,closed,0,fix bug in the validation of reads on segments
+240,2018-02-10 21:33:22.000000000,2018-03-10 03:24:56.000000000,closed,1,"create a subdirectory based on path, and use standard storage file basenames"
+239,2018-02-10 21:22:13.000000000,2018-02-12 04:01:10.000000000,closed,1,livelock when reserving buffer that is too big. this should return an Unsupported error.
+238,2018-02-10 21:19:51.000000000,2018-02-16 15:06:52.000000000,closed,0,clear all failpoint tests
+237,2018-02-10 18:21:38.000000000,2018-02-10 21:19:31.000000000,closed,0,failpoints! closes #233
+236,2018-02-10 02:35:24.000000000,2018-02-16 16:54:43.000000000,closed,28,Bad release? Sled 0.15.3 [has evolved into a discussion on versioning]
+235,2018-02-09 17:50:28.000000000,2018-02-09 18:12:17.000000000,closed,0,"nuke conf getters, slightly improve documentation for config"
+234,2018-02-09 03:36:27.000000000,2018-12-19 02:23:00.000000000,closed,7,punt snapshot generation to another thread
+233,2018-02-09 03:23:42.000000000,2018-02-10 21:19:31.000000000,closed,0,add failpoints before all disk write operations and trigger them via a new quickcheck test
+232,2018-02-09 02:46:43.000000000,2018-02-21 02:21:03.000000000,closed,5,MVCC and transactional design shootout :gun: :bomb: :explosionbomb: :extrabigexplosion:
+231,2018-02-08 21:19:15.000000000,2018-02-09 03:15:48.000000000,closed,1,implement Display for Error
+230,2018-02-08 03:10:19.000000000,2018-02-11 16:44:18.000000000,closed,4,pagecache: `SegmentHeader::prev` seems not used at all
+229,2018-02-07 21:34:31.000000000,2018-02-08 23:51:48.000000000,closed,1,Rip out cpuprofiler and env_logger
+228,2018-02-07 21:18:46.000000000,2018-02-24 01:23:13.000000000,closed,8,Empty database load time/file size
+227,2018-02-07 11:40:43.000000000,2018-02-07 17:47:53.000000000,closed,1,fix some test warnings
+226,2018-02-06 11:08:10.000000000,2019-02-26 14:02:58.000000000,closed,4,Advantage of out-of-order IO buffering?
+225,2018-02-06 10:45:25.000000000,2018-02-06 17:42:38.000000000,closed,1,pagecache: Inline droppers
+224,2018-02-05 16:58:20.000000000,2018-02-08 23:51:48.000000000,closed,2,"rip out env_logger, cpuprofiler, global_init from crates/pagecache/src/lib.rs and callers"
+223,2018-02-05 06:03:17.000000000,2018-02-09 03:15:48.000000000,closed,1,Display implementation for Error
+222,2018-02-04 17:38:33.000000000,2018-02-04 18:09:04.000000000,closed,3,pagecache: Change Segment::lsn's type from Option<Lsn> to Lsn
+221,2018-02-04 09:57:53.000000000,2018-02-05 13:40:41.000000000,closed,1,pagecache: Add RAII-style and lambda-style measure
+220,2018-02-03 21:47:33.000000000,2018-02-24 01:27:15.000000000,closed,3,lurking corruption bug
+219,2018-02-03 21:28:15.000000000,2018-02-03 21:54:05.000000000,closed,0,graceful operational failure results. closes #216
+218,2018-02-02 14:16:50.000000000,2018-02-04 15:35:28.000000000,closed,1,pagecache: Refactor the periodic module
+217,2018-02-02 06:40:15.000000000,2018-02-03 14:02:51.000000000,closed,2,pagecache: Replace reference to sled to that of pagecache
+216,2018-02-01 23:51:45.000000000,2018-02-03 21:54:06.000000000,closed,0,time for Results
+215,2018-02-01 02:37:20.000000000,2018-02-01 23:25:30.000000000,closed,2,"Use HTTPS for merit badges, and GitHub raw link for embedded images"
+214,2018-01-31 00:22:48.000000000,2018-01-31 05:54:50.000000000,closed,0,major restructuring
+213,2018-01-30 16:17:35.000000000,2018-03-01 22:21:23.000000000,closed,0, back-end interface review: SQLite virtual tables
+212,2018-01-30 16:01:19.000000000,2018-03-01 22:21:23.000000000,closed,0,back-end interface review: Postgres fdw
+211,2018-01-30 15:56:42.000000000,2018-03-01 22:21:23.000000000,closed,0,back-end interface review: MySQL Handlerton
+210,2018-01-30 15:56:23.000000000,2018-02-09 03:26:11.000000000,closed,2,transaction interface review: Deuteronomy-style
+209,2018-01-30 13:50:59.000000000,2018-10-30 13:34:48.000000000,closed,7,RFC: transactions! snapshots! merge operators!
+208,2018-01-30 01:26:50.000000000,2018-03-01 22:23:46.000000000,closed,0,docs overhaul for 0.15 alpha
+207,2018-01-28 22:53:46.000000000,2018-01-30 00:29:13.000000000,closed,1,"add quickcheck test for segment iteration, recovery, and tear detection"
+206,2018-01-28 19:46:33.000000000,2019-10-11 14:27:23.000000000,closed,0,test various fadvise combinations with workloads on larger-than-memory datasets
+205,2018-01-28 16:53:24.000000000,2018-12-13 15:20:55.000000000,closed,3,simple async writes
+204,2018-01-28 16:51:41.000000000,2018-02-22 13:41:02.000000000,closed,1,surface highest reserved offset through IO stack
+203,2018-01-26 17:39:44.000000000,2018-02-09 03:30:37.000000000,closed,1,get SA to 100% test coverage
+202,2018-01-26 03:16:32.000000000,2018-01-30 00:26:06.000000000,closed,0,fix a number of bugs in segment GC. closes #199.
+201,2018-01-26 03:14:47.000000000,2018-01-26 03:15:39.000000000,closed,0,fix a number of bugs in segment GC
+200,2018-01-25 20:27:34.000000000,2018-01-30 00:43:30.000000000,closed,1,consider segment-specific snapshotting
+199,2018-01-25 20:17:15.000000000,2018-01-30 00:26:07.000000000,closed,0,truncate files when the tip is freed
+198,2018-01-25 20:10:25.000000000,2018-09-23 04:15:39.000000000,closed,1,punt huge values to external files
+197,2018-01-23 21:06:58.000000000,2018-01-25 19:52:47.000000000,closed,1,audit the ordering of segments during iteration and freeing
+196,2018-01-22 04:34:51.000000000,2018-02-16 15:09:08.000000000,closed,0,distinguish failed flushes from tears by using non-zero bytes to signify failed flush
+195,2018-01-22 04:08:52.000000000,2018-01-26 03:15:02.000000000,closed,0,debug snapshots
+194,2018-01-12 17:00:17.000000000,2018-01-12 17:07:31.000000000,closed,0,use AsRef<Path> for paths. closes #178
+193,2018-01-12 15:07:32.000000000,2018-01-12 16:56:33.000000000,closed,0,make ephemeral storage explicit. closes #122
+192,2018-01-12 04:10:44.000000000,2018-01-12 14:02:41.000000000,closed,1,verify that configuration is unchanged between openings. closes #134
+191,2018-01-12 01:12:50.000000000,2018-01-25 19:54:42.000000000,closed,1,memory leak in snapshot files during burn-in
+190,2018-01-11 23:38:01.000000000,2018-01-12 03:09:02.000000000,closed,0,fix a bunch of bugs found with the cyclical linearizability checker. closes #181. closes #182. closes #184.
+189,2018-01-11 17:12:17.000000000,2018-01-11 19:02:55.000000000,closed,1,fix segment accountant recovery. closes #183.
+188,2018-01-11 05:04:39.000000000,2019-10-11 14:27:18.000000000,closed,0,investigate using nidhugg for verification of concurrent algorithms
+187,2018-01-10 22:51:24.000000000,2018-01-11 00:36:02.000000000,closed,0,use linking of tree roots to achieve monotonic root recovery. closes #175
+186,2018-01-10 21:27:39.000000000,2018-01-10 22:50:22.000000000,closed,0,make recovery more consistent. improve snapshot verification.
+185,2018-01-09 18:32:15.000000000,2018-01-09 19:12:54.000000000,closed,0,improve tests and snapshot verification output
+184,2018-01-09 17:37:30.000000000,2018-01-12 03:09:03.000000000,closed,0,cyclical linearizability bug: unwrap called on non-Materialized
+183,2018-01-09 17:34:22.000000000,2018-01-11 19:02:56.000000000,closed,0,cyclical linearizability bug: SegmentAccountant::next generates already Active segment
+182,2018-01-09 17:32:50.000000000,2018-01-12 03:09:03.000000000,closed,1,cyclical linearizability bug: PageCache::pull read invalid data at lid 66244182
+181,2018-01-09 17:00:04.000000000,2018-01-12 03:09:03.000000000,closed,0,"cyclical linearizability bug: panicked at 'tried to Set a value to an index', src/tree/node.rs:53"
+180,2018-01-08 18:56:34.000000000,2018-01-08 20:42:35.000000000,closed,0,track page allocations
+179,2018-01-08 18:49:36.000000000,2018-03-01 22:21:23.000000000,closed,0,investigate dynamic probabilistic and learned structures
+178,2018-01-08 04:52:19.000000000,2018-01-12 17:07:32.000000000,closed,3,PathBuf / non-unicode filenames?
+177,2018-01-05 20:22:10.000000000,2018-01-05 23:16:23.000000000,closed,0,capture page replacement information during recovery. closes #176
+176,2018-01-05 19:00:57.000000000,2018-01-05 23:16:23.000000000,closed,0,segment recovery fails to capture accurate utilization
+175,2018-01-04 14:14:52.000000000,2018-01-11 00:36:03.000000000,closed,0,Materializer recovery is not monotonic
+174,2018-01-04 05:52:48.000000000,2018-01-04 06:54:31.000000000,closed,0,make zstd compression factor configurable. closes #144.
+173,2018-01-04 04:31:35.000000000,2018-01-04 05:08:55.000000000,closed,0,blow up when catistrophically bad configuration is provided. closes #139.
+172,2018-01-04 02:38:56.000000000,2018-01-04 03:21:03.000000000,closed,0,make tree usable without Arc for ergonomics. closes #138
+171,2018-01-04 00:52:48.000000000,2018-01-04 01:39:57.000000000,closed,0,add snapshot divergence test capability
+170,2018-01-03 17:04:58.000000000,2018-01-03 23:44:44.000000000,closed,0,fractional segments
+169,2017-12-30 00:40:05.000000000,2017-12-30 00:51:35.000000000,closed,1,simplify snapshot state
+168,2017-12-29 17:49:49.000000000,2017-12-30 00:09:08.000000000,closed,0,add Free tombstones
+167,2017-12-21 10:45:38.000000000,2017-12-21 10:45:45.000000000,closed,0,support instruction counting with cachegrind
+166,2017-12-20 13:39:41.000000000,2019-10-11 14:27:14.000000000,closed,0,experiment with work-stealing lexicographic shard threads for reducing cache pollution
+165,2017-12-20 03:23:04.000000000,2017-12-20 04:30:17.000000000,closed,0,add salt to iobuf headers to mitigate ABA. closes #164
+164,2017-12-20 03:19:26.000000000,2017-12-20 04:30:18.000000000,closed,1,salt lock-free iobuf headers
+163,2017-12-19 21:18:26.000000000,2017-12-20 01:22:12.000000000,closed,0,use pread/pwrite. closes #162
+162,2017-12-19 16:07:40.000000000,2017-12-20 01:22:12.000000000,closed,0,use pwrite/pread instead of multiple files
+161,2017-12-18 04:24:01.000000000,2017-12-18 05:03:56.000000000,closed,0,code cleanup
+160,2017-12-18 03:51:58.000000000,2017-12-18 04:18:59.000000000,closed,0,fix bug in marking stable offsets
+159,2017-12-13 16:09:56.000000000,2017-12-13 17:06:49.000000000,closed,0,fix linearizability bug in iobuf
+158,2017-12-12 23:52:22.000000000,2018-01-04 01:40:48.000000000,closed,1,nuke in-snapshot segment accounting
+157,2017-12-11 22:58:19.000000000,2017-12-12 02:07:20.000000000,closed,0,refactor of recovery logic
+156,2017-11-27 00:55:42.000000000,2017-12-12 00:07:56.000000000,closed,1,Porting to crossbeam-epoch
+155,2017-10-28 17:03:03.000000000,2018-01-12 01:01:31.000000000,closed,0,recovery revamp
+154,2017-10-27 23:55:28.000000000,2017-10-30 17:15:03.000000000,closed,7,Error handling
+153,2017-10-27 15:08:41.000000000,2019-10-11 12:09:58.000000000,closed,2,Batch write api
+152,2017-10-24 18:34:39.000000000,2019-02-26 14:00:52.000000000,closed,3,Question
+151,2017-10-23 19:09:09.000000000,2017-10-23 21:20:52.000000000,closed,0,nuke incorrect CasKey. closes #136
+150,2017-10-22 11:46:34.000000000,2017-10-23 23:15:46.000000000,closed,3,Read-only mode
+149,2017-10-01 16:35:56.000000000,2017-12-11 23:58:35.000000000,closed,0,Red October
+148,2017-09-25 21:44:03.000000000,2017-09-25 21:44:46.000000000,closed,0,check-in execution explorer
+147,2017-09-23 22:34:06.000000000,2018-01-04 02:13:12.000000000,closed,6,Consider licensing under dual MIT/Apache 2.0
+146,2017-09-23 01:09:41.000000000,2018-03-01 22:21:23.000000000,closed,0,multiprocess support
+145,2017-09-21 19:55:37.000000000,2019-06-11 19:00:52.000000000,closed,21,32-bit ARM compatibility
+144,2017-09-21 12:38:39.000000000,2018-01-04 06:54:32.000000000,closed,0,make zstd compression factor configurable
+143,2017-09-21 01:03:47.000000000,2017-10-21 03:27:23.000000000,closed,3,major storage overhaul. closes #135. closes #141. closes #127.
+142,2017-09-16 23:52:30.000000000,2019-02-26 14:00:41.000000000,closed,4,Optimal value size
+141,2017-09-14 23:03:52.000000000,2017-10-21 03:27:25.000000000,closed,1,calls to flush should not waste space in segment-oriented write scheme
+140,2017-09-13 20:41:11.000000000,2018-01-31 05:54:50.000000000,closed,2,split PageCache and LockFreeLog into their own crates
+139,2017-09-13 20:38:28.000000000,2018-01-04 05:08:55.000000000,closed,0,panic if config options are terrible
+138,2017-09-13 19:55:08.000000000,2018-01-04 03:21:04.000000000,closed,0,"use TreeInner, similar to ConfigInner, to avoid Arc on multithreaded use"
+137,2017-09-12 17:39:44.000000000,2018-12-14 21:00:24.000000000,closed,5,allow upper bound as a builder method on TreeIter
+136,2017-09-12 17:34:58.000000000,2017-10-23 21:20:52.000000000,closed,1,CasKey is incorrect
+135,2017-09-11 19:53:46.000000000,2017-10-21 03:27:25.000000000,closed,2,log cleaning: for real this time
+134,2017-09-11 18:59:54.000000000,2018-01-12 14:02:42.000000000,closed,0,prepend storage file with metadata header
+133,2017-09-10 00:18:52.000000000,2018-03-01 22:21:23.000000000,closed,1,Support tables/buckets
+132,2017-09-09 18:10:54.000000000,2018-12-11 15:08:59.000000000,closed,1,zero-serialization zero-indirection nodes and frags
+131,2017-09-09 17:09:00.000000000,2017-09-09 18:50:04.000000000,closed,1,tune write buffering. closes #105.
+130,2017-09-09 16:36:58.000000000,2018-01-04 01:52:30.000000000,closed,2,write cpu-cycle based perf analysis tool
+129,2017-09-09 12:28:53.000000000,2018-03-01 22:21:23.000000000,closed,1,spec out backup to cloud storage
+128,2017-09-08 23:19:19.000000000,2017-09-09 00:57:45.000000000,closed,0,fix a small bug in unwrapping an erroneous file reads. closes #35.
+127,2017-09-08 18:53:13.000000000,2017-10-21 03:27:25.000000000,closed,0,use cond var in make_stable rather than busywaiting
+126,2017-09-08 14:00:24.000000000,2017-09-08 15:46:18.000000000,closed,0,fix subdirs
+125,2017-09-08 02:55:25.000000000,2017-10-06 22:50:11.000000000,closed,2,initial work for node binding
+124,2017-09-07 21:17:14.000000000,2017-09-07 21:18:05.000000000,closed,0,rudimentary python binding
+123,2017-09-07 17:18:22.000000000,2017-09-07 17:24:42.000000000,closed,0,add rudimentary python binding
+122,2017-09-07 17:14:51.000000000,2018-01-12 16:56:33.000000000,closed,0,"specify temporary config flag, don't remove unconfigured data by default"
+121,2017-09-07 14:08:57.000000000,2018-03-01 22:21:23.000000000,closed,0,spec out encrypted storage
+120,2017-09-07 12:54:38.000000000,2017-09-07 13:18:37.000000000,closed,1,extract c api into its own crate
+119,2017-09-06 22:10:49.000000000,2017-09-07 12:36:36.000000000,closed,2,add feature flag for using O_DIRECT on writes. closes #111.
+118,2017-09-06 15:45:18.000000000,2017-09-06 15:45:43.000000000,closed,0,rename rsdb to sled
+117,2017-09-06 13:31:42.000000000,2019-10-11 14:27:07.000000000,closed,3,investigate wait-free IO buffer handling
+116,2017-09-06 04:58:49.000000000,2017-12-12 00:07:56.000000000,closed,4,Porting to Crossbeam
+115,2017-09-05 21:13:46.000000000,2017-09-05 22:25:49.000000000,closed,0,"nuke clones, improve performance report"
+114,2017-09-05 15:01:14.000000000,2017-09-05 18:39:04.000000000,closed,0,collect stats and spit out reports on demand. closes #109. closes #110.
+113,2017-09-05 08:13:06.000000000,2017-09-05 23:12:29.000000000,closed,2,Compile error for `--bin=stress`
+112,2017-09-04 22:03:09.000000000,2018-03-01 22:21:23.000000000,closed,0,investigate autotuning
+111,2017-09-04 20:25:07.000000000,2017-09-07 12:36:36.000000000,closed,1,investigate O_DIRECT for writing buffers to disk
+110,2017-09-04 18:08:47.000000000,2017-09-05 18:39:05.000000000,closed,0,profile report API
+109,2017-09-04 18:06:11.000000000,2017-09-05 18:39:05.000000000,closed,0,internal metrics API
+108,2017-09-04 14:43:33.000000000,2017-09-04 14:57:35.000000000,closed,0,make Radix and Stack require 'static on the contained type. closes #107.
+107,2017-09-04 13:29:44.000000000,2017-09-05 15:13:23.000000000,closed,7,"Radix<T: 'static>, Stack<T: 'static>?"
+106,2017-09-03 23:39:08.000000000,2017-09-03 23:45:19.000000000,closed,0,two bugfixes in page_in
+105,2017-09-03 22:27:18.000000000,2017-09-09 18:50:04.000000000,closed,0,asynchronously punch holes in aborted log reservations
+104,2017-09-03 22:09:27.000000000,2017-09-03 22:39:04.000000000,closed,0,tune page_in a bit
+103,2017-09-03 18:20:00.000000000,2018-03-07 22:33:43.000000000,closed,2,release engineering
+102,2017-09-03 18:09:24.000000000,2017-09-03 20:08:33.000000000,closed,0,log cleaning. closes #79. closes #48.
+101,2017-08-31 23:21:36.000000000,2017-09-01 17:31:11.000000000,closed,3,a bunch of tuning and some reorganizing. closes #78.
+100,2017-08-31 17:31:46.000000000,2018-02-09 03:37:21.000000000,closed,0,the clone wars
+99,2017-08-30 18:20:23.000000000,2017-08-30 18:26:53.000000000,closed,0,small reorg
+98,2017-08-29 18:48:35.000000000,2017-10-24 01:34:14.000000000,closed,1,read-only database configuration option
+97,2017-08-29 18:44:43.000000000,2018-03-01 22:21:23.000000000,closed,1,sketch out pathway for bulk-load
+96,2017-08-28 15:46:24.000000000,2017-08-28 22:33:13.000000000,closed,2,fix tsan errors on rayon
+95,2017-08-28 15:34:55.000000000,2019-06-11 18:26:06.000000000,closed,2,investigate aio_read and aio_write in conjunction with multithreaded IO
+94,2017-08-27 22:17:05.000000000,2019-06-12 13:30:14.000000000,closed,1,investigate lower contention merged page caching
+93,2017-08-27 22:06:32.000000000,2017-08-28 22:07:57.000000000,closed,0,"major pagecache overhaul, quickcheck, lots of bugs fixed. closes #77. closes #49. "
+92,2017-08-25 14:32:15.000000000,2017-08-25 16:42:58.000000000,closed,1,simplify pagecache semantics. closes #91.
+91,2017-08-25 13:59:40.000000000,2017-08-25 16:42:59.000000000,closed,0,investigate merge operator-like semantics for pagecache
+90,2017-08-25 12:57:37.000000000,2017-08-25 13:00:21.000000000,closed,0,implement Send and Sync on types that are used in shared structures
+89,2017-08-25 11:38:30.000000000,2017-08-25 14:03:14.000000000,closed,9,Maybe `Frag: Send`?
+88,2017-08-24 18:39:16.000000000,2017-08-24 18:46:38.000000000,closed,3,c api. closes #82.
+87,2017-08-24 16:35:08.000000000,2017-08-24 18:46:59.000000000,closed,0,improve docs
+86,2017-08-24 15:52:24.000000000,2017-08-24 16:28:33.000000000,closed,0,fix bug where the garbage system was dropped before calling epoch::pin
+85,2017-08-24 15:39:33.000000000,2017-08-24 16:35:43.000000000,closed,2,improve docs
+84,2017-08-23 20:42:43.000000000,2017-08-30 13:24:35.000000000,closed,1,Add padding for keys and values
+83,2017-08-23 16:50:16.000000000,2020-05-23 13:26:20.000000000,closed,1,test with ALICE
+82,2017-08-23 16:50:03.000000000,2017-08-24 18:46:39.000000000,closed,0,c api
+81,2017-08-23 12:41:01.000000000,2018-10-30 13:35:27.000000000,closed,1,improve lock-free radix pointer ratio
+80,2017-08-22 19:54:22.000000000,2017-10-06 22:50:39.000000000,closed,13,Add bench statistics
+79,2017-08-21 15:11:37.000000000,2017-09-03 20:08:33.000000000,closed,2,log cleaning
+78,2017-08-21 11:09:00.000000000,2017-09-01 17:31:12.000000000,closed,0,tune Lru
+77,2017-08-21 11:01:13.000000000,2017-08-28 22:07:57.000000000,closed,0,tune materializer calls
+76,2017-08-21 01:45:09.000000000,2017-08-23 18:52:01.000000000,closed,4,"sanitizers, reducing dependencies, conditional compiliation of deps, fix leaks. closes #59."
+75,2017-08-18 12:17:09.000000000,2017-08-18 12:17:18.000000000,closed,0,small cleanup
+74,2017-08-17 20:02:50.000000000,2017-08-18 10:12:58.000000000,closed,0,coco gc. closes #18. closes #19.
+73,2017-08-17 15:52:31.000000000,2020-07-29 23:03:51.000000000,closed,1,zstd dictionary support
+72,2017-08-14 21:02:51.000000000,2017-08-21 02:14:48.000000000,closed,4,MVP Bench calls
+71,2017-08-14 20:10:51.000000000,2017-08-15 19:30:07.000000000,closed,2,"use quickcheck to test basic tree operations, comparing to a BTreeMap. closes #50."
+70,2017-08-14 19:22:25.000000000,2018-02-18 17:09:01.000000000,closed,0,prefix encoding and key extractor support
+69,2017-08-14 19:22:16.000000000,2018-03-03 01:41:58.000000000,closed,0,merge operator support
+68,2017-08-14 17:14:14.000000000,2017-08-14 18:37:26.000000000,closed,0,"periodically snapshot pagetable, recover from snapshots. closes #9. closes #21."
+67,2017-08-12 12:57:05.000000000,2017-08-12 12:57:14.000000000,closed,0,rustfmt
+66,2017-08-12 01:19:04.000000000,2017-08-14 10:36:37.000000000,closed,6,Read CLI args for benchmarking tool
+65,2017-08-11 21:09:19.000000000,1970-01-01 00:00:00.000000001,open,1,make LRU scan & thrash resistant
+64,2017-08-11 20:04:54.000000000,2017-08-11 20:08:11.000000000,closed,0,rustfmt
+63,2017-08-11 16:36:54.000000000,2017-08-11 16:47:53.000000000,closed,0,add a macro for making configuration options slightly less error-prone
+62,2017-08-11 09:56:51.000000000,2019-10-11 12:11:48.000000000,closed,15,"in-memory LockFreeBtree<K, V>"
+61,2017-08-11 00:51:34.000000000,2017-08-11 00:51:43.000000000,closed,0,speed up tests
+60,2017-08-10 19:33:52.000000000,2017-08-10 23:42:19.000000000,closed,1,add clippy
+59,2017-08-09 21:16:43.000000000,2017-08-23 18:52:02.000000000,closed,0,add failing memory leak test script
+58,2017-08-09 20:39:12.000000000,2018-01-12 15:59:37.000000000,closed,1,benchmark tool
+57,2017-08-09 20:37:02.000000000,2017-10-06 22:50:39.000000000,closed,1,collect statistics on each operation in the benchmark tool
+56,2017-08-09 20:16:28.000000000,2017-08-21 02:14:48.000000000,closed,1,implement mvp benchmark calls to db
+55,2017-08-09 20:13:17.000000000,2017-08-14 10:36:37.000000000,closed,9,read in arguments for benchmark tool
+54,2017-08-09 14:11:16.000000000,2018-11-23 04:28:26.000000000,closed,4,libfuzzer travis setup via cargo fuzz
+53,2017-08-09 14:10:20.000000000,2018-10-31 16:29:38.000000000,closed,0,template-based fuzzing on tree operations
+52,2017-08-09 14:09:57.000000000,2018-12-11 15:09:30.000000000,closed,1,template-based fuzzing on pagecache recovery
+51,2017-08-09 14:08:48.000000000,1970-01-01 00:00:00.000000001,open,1,fuzz log parser
+50,2017-08-09 14:07:00.000000000,2017-08-15 19:30:08.000000000,closed,0,quickcheck on tree
+49,2017-08-09 14:06:41.000000000,2017-08-28 22:07:58.000000000,closed,0,quickcheck on pagecache
+48,2017-08-09 14:06:27.000000000,2017-09-03 20:08:33.000000000,closed,0,quickcheck on log
+47,2017-08-09 13:49:23.000000000,2017-08-09 22:29:32.000000000,closed,0,"periodically flush dirty data, page-out when cache is too full. closes #3. closes #4."
+46,2017-08-08 02:41:17.000000000,2017-08-08 19:37:56.000000000,closed,0,basic LRU
+45,2017-08-08 00:54:42.000000000,2017-08-08 02:33:39.000000000,closed,1,compression. closes #7.
+44,2017-08-07 23:38:28.000000000,2017-08-07 23:39:42.000000000,closed,1,port the rocksdb hash function to rust
+43,2017-08-07 01:26:15.000000000,2017-08-07 23:34:37.000000000,closed,0,page-in non-resident fragments during page read. closes #22. closes #42. closes #39.
+42,2017-08-07 01:16:24.000000000,2017-08-07 23:34:37.000000000,closed,0,parallelize page frag reading
+41,2017-08-05 17:28:09.000000000,2017-08-05 19:06:26.000000000,closed,0,Add docs to all exported things.
+40,2017-08-05 13:09:36.000000000,2017-08-05 14:29:31.000000000,closed,2,log speedup
+39,2017-08-02 16:00:12.000000000,2017-08-07 23:34:37.000000000,closed,0,array-stack
+38,2017-07-30 23:26:31.000000000,2017-07-31 00:22:01.000000000,closed,0,"basic configuration, extraction of tunables"
+37,2017-07-30 22:11:32.000000000,2017-07-30 23:31:00.000000000,closed,2,Rework modularization
+36,2017-07-30 21:56:52.000000000,2019-10-11 14:24:15.000000000,closed,2,abstract concurrent algorithms to formally-verifiable form
+35,2017-07-30 21:52:48.000000000,2017-09-09 00:58:24.000000000,closed,0,test torn pages on log
+34,2017-07-30 21:30:24.000000000,2017-07-30 21:44:58.000000000,closed,0,scan support. closes #33.
+33,2017-07-30 18:40:21.000000000,2017-07-30 21:44:58.000000000,closed,0,scan support
+32,2017-07-30 18:23:04.000000000,2017-07-30 18:45:58.000000000,closed,0,basic recovery works. cut version 0.2.0. closes #31.
+31,2017-07-27 19:43:46.000000000,2017-07-30 18:45:58.000000000,closed,0,handle tree root hoists during recovery
+30,2017-07-27 19:20:26.000000000,2017-07-27 23:19:34.000000000,closed,0,recovery of pagecache data during startup. closes #15. 
+29,2017-07-27 00:11:32.000000000,2017-07-30 22:09:24.000000000,closed,4,Rework modularization
+28,2017-07-26 11:09:05.000000000,2017-07-30 23:31:00.000000000,closed,0,modularize core components
+27,2017-07-26 01:31:42.000000000,2017-07-27 00:26:36.000000000,closed,0,Log rework
+26,2017-07-23 17:59:20.000000000,2017-07-24 11:34:11.000000000,closed,3,Add tests for DB
+25,2017-07-22 23:21:47.000000000,2017-08-10 23:45:30.000000000,closed,4,WIP - Update documentation
+24,2017-07-22 15:06:57.000000000,2017-07-23 21:55:09.000000000,closed,1,"Fix ""unreachable pattern"" error"
+23,2017-07-21 12:08:38.000000000,2017-07-21 13:01:37.000000000,closed,1,huge cleanup
+22,2017-07-16 18:24:37.000000000,2017-08-07 23:34:37.000000000,closed,0,frag location metadata in pagetable
+21,2017-07-16 18:22:11.000000000,2017-08-14 18:37:29.000000000,closed,1,pagetable snapshotting
+20,2017-07-16 17:43:51.000000000,2017-07-16 17:55:36.000000000,closed,0,clean up some things
+19,2017-07-16 17:03:32.000000000,2017-08-18 10:12:58.000000000,closed,0,implement enroll - un-enroll - merge thread-local GC state logic
+18,2017-07-16 17:02:53.000000000,2017-08-18 10:12:58.000000000,closed,0,add detached state to thread-local GC structure 
+17,2017-07-16 17:01:03.000000000,2017-07-27 00:45:52.000000000,closed,0,enroll in GC epoch on operations on shared state
+16,2017-07-16 17:00:19.000000000,2017-08-09 20:45:46.000000000,closed,1,create Epoch structure
+15,2017-07-16 16:55:51.000000000,2017-07-27 23:19:35.000000000,closed,1,recover persisted flushes on start-up
+14,2017-07-16 16:54:48.000000000,2017-08-09 20:45:33.000000000,closed,1,epoch-based GC
+13,2017-07-15 04:16:37.000000000,2017-07-15 04:17:13.000000000,closed,1,Add logging to atomic cap operations
+12,2017-07-15 02:27:22.000000000,2017-07-15 02:29:57.000000000,closed,1,Fix OS X build
+11,2017-07-06 22:00:52.000000000,2017-07-16 15:54:49.000000000,closed,0,trivial mutation logging
+10,2017-06-19 02:45:30.000000000,2017-07-21 14:12:17.000000000,closed,0,add logging to page operations
+9,2017-06-18 23:58:37.000000000,2017-08-14 18:37:28.000000000,closed,0,log replay after restoring page table snapshot
+8,2017-06-18 23:57:57.000000000,2017-07-21 14:13:26.000000000,closed,1,snapshotting of page table
+7,2017-06-18 23:56:53.000000000,2017-08-08 02:33:40.000000000,closed,0,compression of items written to log slots
+6,2017-06-18 23:53:46.000000000,2017-07-27 19:44:43.000000000,closed,1,separate sealing of a lock-free log buffer from completing a reservation
+5,2017-06-18 23:52:16.000000000,2017-07-15 02:26:52.000000000,closed,0,persistent state definition
+4,2017-06-18 23:50:41.000000000,2017-08-09 22:29:33.000000000,closed,0,multi-fragment flush strategy
+3,2017-06-18 23:37:52.000000000,2017-08-09 22:29:33.000000000,closed,0,dirty page flushing
+2,2017-06-18 23:31:42.000000000,2017-07-21 14:12:27.000000000,closed,0,add child split fragment
+1,2017-06-18 23:19:44.000000000,2017-06-18 23:19:50.000000000,closed,0,Create LICENSE

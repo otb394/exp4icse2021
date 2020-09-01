@@ -1,0 +1,1544 @@
+id,created_at,closed_at,state,comments,title
+1543,2020-08-28 18:39:30.000000000,2020-08-28 21:03:38.000000000,closed,0,Fix typo in upgrade guide from @middlware to @middleware
+1542,2020-08-27 15:18:20.000000000,2020-08-27 15:47:19.000000000,closed,1,Fix broken links to Laravel docs
+1541,2020-08-26 01:11:16.000000000,2020-08-26 20:36:59.000000000,closed,0,Fix the type hint in `GraphQLContext::user()`
+1540,2020-08-26 01:10:54.000000000,2020-08-26 01:13:13.000000000,closed,0,Prettify
+1539,2020-08-24 23:42:04.000000000,1970-01-01 00:00:00.000000001,open,0,Remove `@deprecated` directive class
+1538,2020-08-24 18:05:03.000000000,2020-08-28 12:37:36.000000000,closed,1,Change return type of user() method in GraphQLContext from class User to interface Authenticatable
+1537,2020-08-21 19:14:29.000000000,2020-08-21 20:25:24.000000000,closed,3,"User Error: expected iterable, but did not find one for field Query.JobsFilter."
+1536,2020-08-20 17:36:12.000000000,2020-08-20 18:08:24.000000000,closed,2,Fix middleware directive order
+1535,2020-08-19 22:31:44.000000000,2020-08-20 18:08:24.000000000,closed,0,[V5] @globalId not working with @can
+1534,2020-08-18 23:15:53.000000000,2020-08-18 23:19:11.000000000,closed,0,Avoid call_user_func*
+1533,2020-08-18 23:14:44.000000000,2020-08-18 23:18:17.000000000,closed,0,Allow configuring global field middleware directives
+1532,2020-08-18 18:02:56.000000000,2020-08-18 18:08:14.000000000,closed,1,Why was the @middlware directive considered deprecated?
+1531,2020-08-18 00:10:30.000000000,2020-08-18 00:27:15.000000000,closed,0,Rector
+1530,2020-08-14 13:03:54.000000000,2020-08-17 16:22:59.000000000,closed,3,Prefix complex conditions with table name to avoid ambiguous SQL
+1529,2020-08-14 12:46:37.000000000,2020-08-18 23:16:10.000000000,closed,0,Support repeatable directives
+1528,2020-08-14 12:46:18.000000000,1970-01-01 00:00:00.000000001,open,0,Rework batch loading
+1527,2020-08-13 00:57:04.000000000,2020-08-13 11:28:59.000000000,closed,1,Fixed the link corresponding to the MorphMany relationship
+1526,2020-08-12 19:20:03.000000000,1970-01-01 00:00:00.000000001,open,3,@scope directive should work with parameters / dynamic scopes
+1525,2020-08-12 19:15:38.000000000,2020-08-13 20:31:32.000000000,closed,2,Validation rules and changes for 5.x
+1524,2020-08-10 19:53:24.000000000,2020-08-10 21:42:33.000000000,closed,3,Expose the data of ValidationDirective
+1523,2020-08-10 18:23:08.000000000,2020-08-11 15:55:45.000000000,closed,3,paginator with hasMany relation from different database causes error
+1522,2020-08-10 13:31:57.000000000,2020-08-10 23:51:51.000000000,closed,1,docs: correct the lighthouse-schema command
+1521,2020-08-10 11:10:02.000000000,2020-08-10 23:05:03.000000000,closed,0,Simplify RelationFetcher.php
+1520,2020-08-10 10:40:22.000000000,2020-08-10 10:40:27.000000000,closed,0,Apply fixes from StyleCI
+1519,2020-08-10 10:31:13.000000000,2020-08-10 10:31:18.000000000,closed,0,Apply fixes from StyleCI
+1518,2020-08-09 21:03:23.000000000,2020-08-09 21:03:29.000000000,closed,0,Apply fixes from StyleCI
+1517,2020-08-09 00:58:12.000000000,2020-08-10 10:30:58.000000000,closed,0,Fix polymorphic key collisions when using @with
+1516,2020-08-08 15:29:38.000000000,2020-08-09 14:39:19.000000000,closed,0,Extract PaginationServiceProvider.php
+1515,2020-08-08 03:39:42.000000000,2020-08-08 13:34:10.000000000,closed,0,Bump prismjs from 1.20.0 to 1.21.0 in /docs
+1514,2020-08-08 01:04:31.000000000,2020-08-08 01:14:17.000000000,closed,1,lighthouse:validator listed in Docs but not defined
+1513,2020-08-07 16:14:31.000000000,2020-08-07 16:43:45.000000000,closed,1,Complex authorisation requirements
+1512,2020-08-06 13:00:37.000000000,2020-08-06 13:02:40.000000000,closed,1,Use singular model name in tutorial
+1511,2020-08-06 00:19:49.000000000,2020-08-06 11:42:13.000000000,closed,0,Remove deprecations
+1510,2020-08-05 22:33:43.000000000,2020-08-05 23:28:52.000000000,closed,0,Allow discarding errors through ErrorHandler
+1509,2020-08-05 21:51:53.000000000,2020-08-05 22:33:18.000000000,closed,0,Always pass ordered arguments through `@method`
+1508,2020-08-05 21:40:27.000000000,2020-08-05 21:51:45.000000000,closed,0,Make `ErrorHandler` method `handle()` non-static
+1507,2020-08-05 21:27:30.000000000,2020-08-05 21:41:00.000000000,closed,0,Replace the subscription broadcast queued event handler with a queued job to allow the queue name to be specified
+1506,2020-08-03 11:06:05.000000000,2020-08-03 11:45:04.000000000,closed,0,Ignore false-positive PHPStan error in AuthDirective
+1505,2020-08-02 16:13:23.000000000,2020-08-03 10:38:49.000000000,closed,1,Fix typo in docs
+1504,2020-08-02 01:18:21.000000000,2020-08-03 21:27:27.000000000,closed,2,Nested Mutation BelongsTo: Undefined property
+1503,2020-08-01 06:29:17.000000000,2020-08-03 11:44:44.000000000,closed,0,Bump elliptic from 6.5.2 to 6.5.3 in /docs
+1502,2020-07-31 06:39:38.000000000,2020-07-31 10:52:38.000000000,closed,2,Middleware before to resolver
+1501,2020-07-29 03:56:25.000000000,1970-01-01 00:00:00.000000001,open,2,@can don't work with simple gate
+1500,2020-07-27 17:20:13.000000000,2020-07-27 17:20:18.000000000,closed,0,Apply fixes from StyleCI
+1499,2020-07-27 16:36:43.000000000,2020-07-27 16:36:48.000000000,closed,0,Apply fixes from StyleCI
+1498,2020-07-26 16:59:38.000000000,2020-07-26 17:00:06.000000000,closed,0,update
+1497,2020-07-24 19:27:39.000000000,2020-07-24 20:54:23.000000000,closed,1,Decode @globalId before validation
+1496,2020-07-24 12:58:38.000000000,2020-07-24 15:47:13.000000000,closed,1,Fix publish command in tutorial docs
+1495,2020-07-24 00:42:33.000000000,2020-07-24 20:54:23.000000000,closed,7,@globalId decodes arguments after validation
+1494,2020-07-22 10:26:24.000000000,2020-07-22 16:31:36.000000000,closed,0,Validate schema with schema directives
+1493,2020-07-20 17:57:48.000000000,1970-01-01 00:00:00.000000001,open,3,@can directive isn't working anymore after update from v4.12.2 to v4.16.0
+1492,2020-07-18 21:15:42.000000000,2020-07-19 13:08:29.000000000,closed,0,Bump lodash from 4.17.15 to 4.17.19 in /docs
+1491,2020-07-18 12:43:51.000000000,2020-07-20 10:27:07.000000000,closed,6,"While reporting error to Laravel's ExceptionHandler::handle, doesn't satisfy the Exception type"
+1490,2020-07-17 13:07:31.000000000,2020-07-17 13:15:05.000000000,closed,1,Can we change/alter nested mutation using Laravel events??
+1489,2020-07-17 12:17:16.000000000,2020-07-17 12:46:45.000000000,closed,1,Publish a configuration with different tag
+1488,2020-07-17 11:17:54.000000000,2020-08-05 21:06:17.000000000,closed,1,Request: Creating an example folder in the main repo and main menu request in the docs
+1487,2020-07-17 01:20:01.000000000,2020-07-17 13:51:21.000000000,closed,4,Allow custom query validation rules selection
+1486,2020-07-16 22:04:06.000000000,2020-07-17 13:51:21.000000000,closed,2,Document a way to dismiss certain errors
+1485,2020-07-16 21:34:35.000000000,2020-07-16 21:34:41.000000000,closed,0,Apply fixes from StyleCI
+1484,2020-07-16 21:21:35.000000000,2020-07-16 21:31:55.000000000,closed,0,Increase test coverage and static analysis
+1483,2020-07-16 19:05:50.000000000,2020-07-16 21:34:26.000000000,closed,1,A `assertGraphQLValidationKeys` assertion method throws `Undefined class constant` error
+1482,2020-07-16 15:30:11.000000000,2020-07-16 15:40:06.000000000,closed,0,Create Lead.php
+1481,2020-07-16 15:29:51.000000000,2020-07-16 15:40:18.000000000,closed,0,Update User.php
+1480,2020-07-16 15:29:18.000000000,2020-07-16 15:40:24.000000000,closed,0,Create 2020_07_01_122208_create_tasks_table.php
+1479,2020-07-16 15:28:51.000000000,2020-07-16 15:40:31.000000000,closed,0,Create 2020_07_04_111801_create_agent_task_pivot_table.php
+1478,2020-07-16 15:28:23.000000000,2020-07-16 15:40:37.000000000,closed,0,Create 2020_06_15_102526_create_leads_table.php
+1477,2020-07-16 14:36:30.000000000,2020-07-17 14:00:38.000000000,closed,15,PR test code for 3 level of depth in relationship
+1476,2020-07-16 14:30:12.000000000,2020-08-05 21:07:20.000000000,closed,36,Create a real world tutorial to help everybody understand Laravel Lighthouse step by step
+1475,2020-07-16 10:40:15.000000000,2020-07-17 14:01:11.000000000,closed,14,How to create mutation with 3 or more nested relationships?
+1474,2020-07-15 08:26:34.000000000,2020-07-15 10:20:49.000000000,closed,1,Instalation Instructions do not work.
+1473,2020-07-14 19:53:22.000000000,2020-07-17 00:52:46.000000000,closed,29,Clear documentation on file upload with example for vue
+1472,2020-07-14 13:25:37.000000000,1970-01-01 00:00:00.000000001,open,7,Add testConditionOnQueriedField for WhereHasConditionsDirective
+1471,2020-07-13 21:01:39.000000000,2020-07-14 00:04:47.000000000,closed,1,"Validation digits_between:min,max not worked "
+1470,2020-07-13 20:36:13.000000000,1970-01-01 00:00:00.000000001,open,7,"Complex where queries: Integrity constraint violation: 1052 Column ""XXX"" in where clause is ambiguous"
+1469,2020-07-10 17:33:46.000000000,2020-07-21 18:11:52.000000000,closed,3,buildKey function affecting Eloquent relationships
+1468,2020-07-10 17:26:12.000000000,2020-07-16 21:48:06.000000000,closed,1,"How to use @guard with another middleware? [Error: ""Auth guard [auth.api.admin] is not defined.""]"
+1467,2020-07-10 14:35:11.000000000,1970-01-01 00:00:00.000000001,open,6,"Order by nested relation, and aggregation results"
+1466,2020-07-10 00:00:00.000000000,2020-07-16 18:43:58.000000000,closed,3,Fix @count on polymorphic relations
+1465,2020-07-09 21:54:02.000000000,2020-07-16 22:23:59.000000000,closed,1,Fix typo in docs
+1464,2020-07-09 15:10:47.000000000,1970-01-01 00:00:00.000000001,open,5,Aggregation in pagination
+1463,2020-07-05 14:43:39.000000000,2020-07-05 14:50:51.000000000,closed,0,Separate testsuite for slow console tests
+1462,2020-07-04 04:44:01.000000000,2020-07-04 05:59:30.000000000,closed,1,Resolver is not being followed
+1461,2020-07-02 11:17:12.000000000,1970-01-01 00:00:00.000000001,open,5,@withCount returning Data instead of count
+1460,2020-06-28 02:43:17.000000000,2020-07-03 16:27:28.000000000,closed,3,Using enum type as column in @whereConditions
+1459,2020-06-27 00:22:12.000000000,1970-01-01 00:00:00.000000001,open,8,Unexpected variables input on multipart-form request 
+1458,2020-06-26 12:40:13.000000000,2020-07-17 15:26:01.000000000,closed,3,"docs: clarify usage with laravel sanctum, login / logout mutations"
+1457,2020-06-26 00:04:40.000000000,2020-07-20 20:41:41.000000000,closed,1,Replace PartialParser.php in favor of webonyx/graphql-php
+1456,2020-06-25 21:32:34.000000000,2020-06-25 22:05:53.000000000,closed,0,Clean up commands
+1455,2020-06-25 18:22:30.000000000,2020-06-25 18:50:29.000000000,closed,1,Add missing syntax highlighting in docs
+1454,2020-06-25 16:54:29.000000000,2020-06-29 10:40:36.000000000,closed,0,Add middleware to log incoming GraphQL queries
+1453,2020-06-25 08:52:38.000000000,2020-06-25 09:35:09.000000000,closed,0,Update README.md
+1452,2020-06-25 01:33:57.000000000,1970-01-01 00:00:00.000000001,open,0,Optimize performance of artisan command `lighthouse:ide-helper`
+1451,2020-06-25 01:29:18.000000000,2020-06-25 21:12:06.000000000,closed,7,Add artisan command `lighthouse:cache` to compile GraphQL AST
+1450,2020-06-24 22:20:15.000000000,2020-08-25 00:22:57.000000000,closed,2,"@nest directive missing ""on"""
+1449,2020-06-24 17:40:07.000000000,2020-08-10 10:48:42.000000000,closed,10,Artisan command `lighthouse:ide-helper` is very slow
+1448,2020-06-24 07:03:36.000000000,2020-06-24 07:21:53.000000000,closed,1,Deeply nested mutations
+1447,2020-06-23 00:55:26.000000000,2020-06-23 01:29:30.000000000,closed,0,Fix batched paginated relation queries
+1446,2020-06-23 00:35:45.000000000,2020-06-23 01:33:53.000000000,closed,2,Add cache store option to config
+1445,2020-06-22 21:13:27.000000000,2020-06-22 21:56:48.000000000,closed,1,Can I use @paginate with custom resolver?
+1444,2020-06-22 19:22:54.000000000,2020-06-22 19:25:25.000000000,closed,0,Document that `@orderBy` will use `column` arg for inputs
+1443,2020-06-22 18:44:04.000000000,2020-06-22 19:24:28.000000000,closed,2,fix the key name for column for orderBy queries
+1442,2020-06-19 14:56:15.000000000,2020-06-19 18:29:48.000000000,closed,3,Defer apollo link update
+1441,2020-06-18 18:51:57.000000000,2020-06-19 18:29:48.000000000,closed,1,Unclear documentation for `defer extension`(enhancement)
+1440,2020-06-18 18:45:25.000000000,2020-06-23 01:29:30.000000000,closed,1,Soft deletes scope not applied on union all relation queries
+1439,2020-06-18 03:32:12.000000000,2020-07-17 17:30:19.000000000,closed,4,Fix missing route prefix in test url
+1438,2020-06-18 03:16:39.000000000,2020-07-17 17:30:19.000000000,closed,0,Test GraphQL endpoint generation does not take route prefix in to account
+1437,2020-06-17 19:16:01.000000000,2020-06-17 19:17:14.000000000,closed,0,Document clearly that `@can` uses primary keys in `find`
+1436,2020-06-17 16:54:37.000000000,1970-01-01 00:00:00.000000001,open,0,Writing mutations with null values in relations
+1435,2020-06-17 13:26:23.000000000,1970-01-01 00:00:00.000000001,open,8,Model is not found when a field other than id specified for authorization
+1434,2020-06-17 12:04:48.000000000,2020-06-18 11:29:23.000000000,closed,0,Simplify field generator
+1433,2020-06-15 13:36:22.000000000,2020-06-15 15:44:37.000000000,closed,0,Additional information to run the IDE helper
+1432,2020-06-15 13:13:45.000000000,2020-06-15 15:40:21.000000000,closed,2,Update installation.md
+1431,2020-06-15 02:16:08.000000000,1970-01-01 00:00:00.000000001,open,1,Use star notation in validation rule paths
+1430,2020-06-14 17:00:47.000000000,2020-06-15 15:38:12.000000000,closed,6,Request: Implement paseto auth 
+1429,2020-06-13 15:01:20.000000000,2020-06-13 15:07:33.000000000,closed,0,Rework DirectiveCommand
+1428,2020-06-12 01:48:29.000000000,2020-06-12 02:12:16.000000000,closed,0,Use phpbench 0.17
+1427,2020-06-12 01:33:28.000000000,2020-06-12 01:47:35.000000000,closed,0,Use larastan 0.6
+1426,2020-06-12 00:09:38.000000000,2020-06-12 00:47:48.000000000,closed,0,Stricter type definitions
+1425,2020-06-12 00:09:23.000000000,2020-06-15 22:04:52.000000000,closed,14,"Introduce the concept of ""Public"" Subscriptions"
+1424,2020-06-11 23:55:58.000000000,2020-08-05 20:59:25.000000000,closed,0,Proper request parsing and basic validation
+1423,2020-06-11 23:53:17.000000000,2020-07-20 18:06:34.000000000,closed,0,Remove fallback for `lighthouse.cache.ttl` setting
+1422,2020-06-11 23:51:39.000000000,2020-07-20 17:05:26.000000000,closed,0,Only invoke default resolver
+1421,2020-06-11 23:40:59.000000000,2020-06-12 00:52:40.000000000,closed,0,Add PHP 7.2 compatible type hints
+1420,2020-06-11 23:39:28.000000000,2020-07-17 16:40:58.000000000,closed,1,"Throw partial errors when failing to delete, forceDelete or restore a model"
+1419,2020-06-11 23:25:52.000000000,2020-06-12 00:48:19.000000000,closed,1,Fix PHPStan types for AtttemptAuthentication middleware
+1418,2020-06-11 22:11:00.000000000,2020-06-11 23:09:50.000000000,closed,1,Document how to use Model scopes from directives
+1417,2020-06-11 20:46:05.000000000,1970-01-01 00:00:00.000000001,open,0,Apply schema manipulation on input field definitions
+1416,2020-06-11 18:05:00.000000000,2020-06-11 19:23:26.000000000,closed,0,Added local scope example for the @find directive
+1415,2020-06-11 17:19:39.000000000,1970-01-01 00:00:00.000000001,open,5,Fix rehydration of subscription args with differing internal representations
+1414,2020-06-10 16:53:56.000000000,2020-06-10 16:57:54.000000000,closed,2,Connecting relationship made simple
+1413,2020-06-09 20:06:50.000000000,2020-06-09 20:11:31.000000000,closed,1,Unclear documentation how to use the connect node with relationships.
+1412,2020-06-09 19:16:26.000000000,2020-07-23 12:29:56.000000000,closed,8,Added ability to handle relations in base where conditions
+1411,2020-06-09 12:43:23.000000000,2020-06-09 15:36:28.000000000,closed,0,Use larastan@dev-master until https://github.com/nunomaduro/larastan/issues/597 is fixed
+1410,2020-06-08 01:34:55.000000000,2020-06-08 01:36:35.000000000,closed,0,Update docs deps
+1409,2020-06-07 23:02:54.000000000,2020-08-05 21:09:34.000000000,closed,7,Creating where condition for nested relations
+1408,2020-06-07 15:27:08.000000000,2020-06-08 01:37:56.000000000,closed,1,Bump websocket-extensions from 0.1.3 to 0.1.4 in /docs
+1407,2020-06-05 12:11:48.000000000,2020-06-05 14:04:18.000000000,closed,12,unlink(~/weather.com/programmatic-types.graphql): No such file or directory
+1406,2020-06-04 19:30:57.000000000,2020-08-05 21:08:26.000000000,closed,8,Authentication issue with Laravel Sanctum
+1405,2020-06-04 13:39:40.000000000,2020-06-04 13:56:18.000000000,closed,0,Make mass assignment behavior configurable through `force_fill` option in `lighthouse.php`
+1404,2020-06-04 00:48:47.000000000,1970-01-01 00:00:00.000000001,open,6,Laravel validation required_without not working within lighthouse @rules directive.
+1403,2020-06-03 23:36:37.000000000,2020-06-04 14:21:54.000000000,closed,1,forceFill broke @create behavior
+1402,2020-06-03 22:21:55.000000000,2020-06-03 22:24:34.000000000,closed,0,"Rectify that `@orderBy`, `@whereConditions` and `@whereHasConditions` only work on field arguments"
+1401,2020-06-03 21:06:28.000000000,2020-06-11 20:24:06.000000000,closed,6,Cannot use blank types _ inside objects
+1400,2020-06-03 16:55:31.000000000,1970-01-01 00:00:00.000000001,open,4,Nested mutation delete allows deletion of other relationship
+1399,2020-06-03 08:27:43.000000000,2020-06-03 15:59:47.000000000,closed,2,Unable to get user authenticated by non-default guard
+1398,2020-06-03 08:12:16.000000000,2020-06-03 15:52:22.000000000,closed,1,Fix typo in lighthouse.php docblock
+1397,2020-06-01 11:39:48.000000000,2020-06-02 10:41:34.000000000,closed,1,Grouping exception
+1396,2020-05-31 23:23:41.000000000,2020-06-02 10:26:55.000000000,closed,0,Fix phan issues
+1395,2020-05-31 23:23:09.000000000,2020-06-02 10:26:10.000000000,closed,0,Allow passing additional headers to `multipartGraphQL` Lumen test helper too
+1394,2020-05-31 15:42:12.000000000,2020-06-14 16:53:39.000000000,closed,0,Phpstan level 8
+1393,2020-05-31 15:41:51.000000000,2020-05-31 16:14:50.000000000,closed,0,Useful autofixes from psalm
+1392,2020-05-30 20:38:38.000000000,1970-01-01 00:00:00.000000001,open,1,[Doc] the search always returns the current version 
+1391,2020-05-29 17:13:07.000000000,2020-05-29 22:25:58.000000000,closed,2,Rules run before ArgManipulator
+1390,2020-05-28 20:52:33.000000000,2020-06-09 16:40:11.000000000,closed,14,Add @withCount directive and eager load in @count directive
+1389,2020-05-28 09:31:42.000000000,2020-06-08 15:38:35.000000000,closed,25,Schema cache not working
+1388,2020-05-27 16:00:26.000000000,2020-05-27 17:13:48.000000000,closed,1,Add example of a FieldMiddleware directive
+1387,2020-05-27 12:43:16.000000000,2020-05-27 19:25:41.000000000,closed,0,Fix the error message when using multiple exclusive directives on a single node
+1386,2020-05-27 11:40:50.000000000,2020-07-20 17:47:21.000000000,closed,0,Directives must have an SDL definition
+1385,2020-05-27 11:27:47.000000000,2020-05-28 10:30:19.000000000,closed,2,Clarify DefinedDirective deprecation
+1384,2020-05-27 11:20:12.000000000,2020-07-17 16:56:20.000000000,closed,4,forceFill change belongsTo() relation behavior
+1383,2020-05-27 04:29:20.000000000,2020-05-28 10:30:19.000000000,closed,1,DefinedDirective deprecated without alternative
+1382,2020-05-27 01:46:35.000000000,2020-05-27 19:25:41.000000000,closed,5,Node [Blah] can only have one directive of type [Nuwave\\Lighthouse\\Support\\Contracts\\FieldResolver] but found []
+1381,2020-05-26 17:59:12.000000000,2020-05-26 18:09:22.000000000,closed,1,Schema not updating after DB Reconnection
+1380,2020-05-26 01:16:45.000000000,2020-05-27 11:16:19.000000000,closed,0,Phpstan level 7
+1379,2020-05-25 02:12:21.000000000,2020-05-25 11:04:03.000000000,closed,1,Null data on subscription
+1378,2020-05-24 07:36:42.000000000,2020-05-24 14:37:39.000000000,closed,1,Class 'Nuwave\Lighthouse\WhereConstraints\WhereConstraintsServiceProvider' not found
+1377,2020-05-22 20:32:20.000000000,2020-05-23 19:54:19.000000000,closed,0,Pull primary key from arguments in `@update` before force filling them into the Model
+1376,2020-05-22 15:07:06.000000000,1970-01-01 00:00:00.000000001,open,0,Allow data based validation rules on scalars `Date` and `DateTime`
+1375,2020-05-22 13:41:16.000000000,2020-05-22 16:40:06.000000000,closed,11,Queries in App\GraphQL\Queries not found in schema.graphql
+1374,2020-05-21 20:52:17.000000000,2020-05-22 15:08:24.000000000,closed,2,Can't create/reuse variable in Input
+1373,2020-05-21 17:39:24.000000000,2020-05-22 20:41:39.000000000,closed,2,Add failing test for @update with a custom primary key
+1372,2020-05-20 20:13:11.000000000,2020-05-23 19:54:19.000000000,closed,7,Broken @update directive
+1371,2020-05-20 04:02:54.000000000,2020-05-25 19:01:43.000000000,closed,10,Write definitions for programmatically registered types to file with `lighthouse:ide-helper`
+1370,2020-05-20 01:43:09.000000000,1970-01-01 00:00:00.000000001,open,21,Redis echo subscriptions
+1369,2020-05-19 02:09:09.000000000,2020-05-25 19:01:43.000000000,closed,1,Add programmatically registered types to generated file via 'ide-helper'
+1368,2020-05-19 00:39:25.000000000,2020-05-19 00:59:02.000000000,closed,0,Phpstan level 6
+1367,2020-05-18 04:22:51.000000000,2020-05-18 09:38:10.000000000,closed,2,Get data of authenticate user
+1366,2020-05-16 21:21:18.000000000,1970-01-01 00:00:00.000000001,open,8,Subscriptions using redis rather than pusher
+1365,2020-05-16 19:41:15.000000000,2020-05-16 21:57:12.000000000,closed,1,Same Model Relations
+1364,2020-05-16 16:10:42.000000000,2020-05-16 21:41:17.000000000,closed,4,Extend empty root type causes Syntax Error
+1363,2020-05-16 13:18:52.000000000,2020-05-16 21:43:12.000000000,closed,1,"Error that say nestedArgResolvers() must be an instance of Nuwave\\Lighthouse\\Execution\\Arguments\\ArgumentSet, int given"
+1362,2020-05-15 15:23:07.000000000,2020-05-22 15:08:31.000000000,closed,5,"Laravel's ""different"" validation rule doesn't seem to work"
+1361,2020-05-14 13:46:34.000000000,2020-05-16 21:37:42.000000000,closed,0,Prevent silently overwriting types in `TypeRegistry`
+1360,2020-05-13 18:16:57.000000000,2020-05-13 22:07:00.000000000,closed,3,Use @rename directive in validation
+1359,2020-05-12 14:07:30.000000000,2020-05-12 15:42:26.000000000,closed,4,Add headers to config file
+1358,2020-05-12 00:48:45.000000000,2020-05-12 01:00:56.000000000,closed,0,More phpstan
+1357,2020-05-11 23:12:09.000000000,2020-05-11 23:18:10.000000000,closed,0,Work towards PHPStan level 6 in /tests
+1356,2020-05-10 14:56:27.000000000,1970-01-01 00:00:00.000000001,open,14,Select only necessary columns for optimized queries
+1355,2020-05-06 11:19:05.000000000,2020-05-11 16:25:43.000000000,closed,1,Fix publishing the config when using Lumen
+1354,2020-05-06 10:59:02.000000000,2020-05-07 00:01:07.000000000,closed,0,Temporary fix for PHPStan
+1353,2020-05-06 03:51:01.000000000,2020-05-06 10:55:10.000000000,closed,0,update(docs) Link to English PHP manual
+1352,2020-05-05 12:32:22.000000000,2020-05-07 00:35:33.000000000,closed,5,Configure the default amount of items in paginated lists with `pagination.default_count`
+1351,2020-05-05 02:26:39.000000000,2020-05-05 10:13:38.000000000,closed,1,Update PusherLink example to handle unsubscribes
+1350,2020-05-04 10:23:27.000000000,2020-05-04 17:37:22.000000000,closed,0,Use docker://ergebnis/composer-normalize-action:0.8.0
+1349,2020-05-03 23:57:30.000000000,2020-05-04 00:18:53.000000000,closed,1,Nested Mutations Not Working
+1348,2020-05-03 17:24:05.000000000,2020-05-03 23:04:46.000000000,closed,1,Use `forceFill()` when mutating models
+1347,2020-05-03 15:38:06.000000000,2020-05-03 16:28:48.000000000,closed,0,Add empty root types automatically when extending them
+1346,2020-05-02 16:37:23.000000000,2020-05-02 21:35:02.000000000,closed,4,morphTo in mutation not syncing/connecting?
+1345,2020-05-02 09:21:21.000000000,2020-05-02 13:13:06.000000000,closed,1,slove these errors in new version
+1344,2020-05-02 03:30:17.000000000,2020-05-02 13:19:21.000000000,closed,1,Add graphql init to docs about graphql-cli
+1343,2020-05-02 01:39:05.000000000,2020-05-03 22:58:30.000000000,closed,2,Configure a default `guard` for all authentication functionality
+1342,2020-05-01 01:35:05.000000000,2020-05-01 01:57:15.000000000,closed,0,Allow passing additional headers to multipartGraphQL test helper
+1341,2020-05-01 00:14:37.000000000,2020-05-01 00:26:15.000000000,closed,0,Fix nesting OR within AND condition when using `@whereConditions`
+1340,2020-04-29 22:53:05.000000000,1970-01-01 00:00:00.000000001,open,2,Custom edge pivot data does not support @rename directive
+1339,2020-04-28 18:53:38.000000000,2020-05-07 00:36:12.000000000,closed,1,Add global defaultCount for pagination directive
+1338,2020-04-28 17:11:02.000000000,2020-04-28 21:02:10.000000000,closed,2,Throw an exception if the return type declaration class for a relation does not exist
+1337,2020-04-28 01:28:42.000000000,2020-07-20 16:56:55.000000000,closed,0,Fully qualified names for generated inputs
+1336,2020-04-28 00:12:24.000000000,2020-04-28 00:46:08.000000000,closed,0,Make test request helper PHPDocs more accurate for Laravel 7
+1335,2020-04-27 23:44:31.000000000,2020-04-28 00:00:01.000000000,closed,0,Fix converting lists of lists into ArgumentSet
+1334,2020-04-27 22:47:11.000000000,2020-04-28 03:21:30.000000000,closed,4,Protecting input fields
+1333,2020-04-27 10:20:05.000000000,2020-04-27 10:23:01.000000000,closed,2,How to provide an alias for a filed in lighthouse
+1332,2020-04-27 01:32:54.000000000,2020-04-27 10:39:51.000000000,closed,7,Using sync on Nested mutations with pivot data saves only the last entry
+1331,2020-04-27 01:13:14.000000000,2020-04-27 01:24:39.000000000,closed,1,No token
+1330,2020-04-27 00:39:54.000000000,2020-04-27 01:00:21.000000000,closed,0,Add prettier action
+1329,2020-04-26 22:00:17.000000000,2020-04-27 00:20:33.000000000,closed,0,Fix PHPStan level 5
+1328,2020-04-26 17:28:18.000000000,2020-04-26 17:54:08.000000000,closed,0,PHPStan level 4
+1327,2020-04-26 14:49:43.000000000,2020-04-26 16:41:09.000000000,closed,0,Increase PHPStan to Level 3
+1326,2020-04-26 02:12:15.000000000,2020-04-26 20:59:10.000000000,closed,3,Nested creation not working with HasMany relations
+1325,2020-04-25 21:17:56.000000000,2020-04-25 23:35:17.000000000,closed,0,Increase PHPStan analysis level to 2
+1324,2020-04-25 17:46:40.000000000,2020-04-25 17:56:48.000000000,closed,0,Use PHPUnit mock instead of Prophecy
+1323,2020-04-25 17:46:35.000000000,2020-04-25 17:58:28.000000000,closed,0,Annotate test models
+1322,2020-04-25 02:38:10.000000000,2020-04-30 22:40:51.000000000,closed,3,Add 4.12 version to docs
+1321,2020-04-24 17:48:43.000000000,2020-04-25 15:33:27.000000000,closed,1,Multiple belongs to in the same level with existing records
+1320,2020-04-24 10:43:25.000000000,2020-07-17 17:02:22.000000000,closed,4,Add DateTimeUtc scalar
+1319,2020-04-24 02:15:20.000000000,2020-04-24 23:31:32.000000000,closed,2,Fix issue of unbound Factory
+1318,2020-04-24 02:14:01.000000000,2020-04-24 23:34:54.000000000,closed,5,AuthFactory not bound to container
+1317,2020-04-23 16:30:33.000000000,2020-04-23 18:07:19.000000000,closed,2,Add docs on using `@guard` with Sanctum
+1316,2020-04-23 09:59:33.000000000,2020-04-23 10:51:50.000000000,closed,12,"Fix nested create, upsert and update on lists of inputs"
+1315,2020-04-22 17:15:59.000000000,2020-04-23 10:51:50.000000000,closed,2,Using @upsert or @update on an array of input types gives unexpected behavior
+1314,2020-04-22 01:24:55.000000000,2020-04-23 11:49:30.000000000,closed,3,Paginator with Custom Builder - error with types
+1313,2020-04-21 23:13:00.000000000,2020-07-17 16:59:38.000000000,closed,3,Global Scope not properly applied to models in ModelRelationFetcher 
+1312,2020-04-21 19:45:34.000000000,2020-04-22 01:09:28.000000000,closed,0,Publish `_lighthouse_ide_helper.php` with `artisan lighthouse:ide-helper`
+1311,2020-04-21 01:05:28.000000000,2020-04-21 17:01:55.000000000,closed,3,Add scalar `DateTimeTz`
+1310,2020-04-20 23:43:43.000000000,2020-04-21 11:25:12.000000000,closed,0,Include `undefined` arguments within ArgumentSet
+1309,2020-04-20 15:01:13.000000000,2020-04-20 15:14:19.000000000,closed,3,Create and Update directive not using overridden create method on model 
+1308,2020-04-19 20:08:24.000000000,2020-04-19 21:14:13.000000000,closed,0,Provide assertion helpers through `TestResponseMixin`
+1307,2020-04-19 16:29:01.000000000,2020-04-19 18:11:21.000000000,closed,2,Fix subscriptions storage manager TTL
+1306,2020-04-19 15:41:33.000000000,2020-04-19 21:11:59.000000000,closed,4,Log in subscribers when broadcasting a subscription update
+1305,2020-04-19 12:58:09.000000000,2020-04-19 12:59:42.000000000,closed,0,Replace usage of `resolve()` helper with Lumen-compatible `app()`
+1304,2020-04-19 04:22:33.000000000,2020-04-19 12:59:42.000000000,closed,1,resolve() helper function brakes custom rules on Lumen
+1303,2020-04-19 01:01:12.000000000,2020-04-19 18:12:35.000000000,closed,2,Report non client-safe errors through Laravel's `ExceptionHandler` #1303
+1302,2020-04-19 00:16:47.000000000,2020-04-19 21:11:59.000000000,closed,4,User authentication context not restored in subscription broadcast
+1301,2020-04-18 23:23:37.000000000,2020-04-19 21:18:47.000000000,closed,4,Allow the subscription broadcast job queue to be configured
+1300,2020-04-18 21:44:22.000000000,2020-04-19 21:18:47.000000000,closed,0,Configuring the subscription broadcast name
+1299,2020-04-18 15:21:09.000000000,2020-04-20 00:40:50.000000000,closed,0,Use composer-normalize action
+1298,2020-04-15 17:05:47.000000000,2020-07-20 16:38:42.000000000,closed,2,Replace deprecated `assertContains` by `assertStringContainsString`
+1297,2020-04-15 16:41:45.000000000,2020-04-15 18:29:55.000000000,closed,2,Add HowTo to docs: define custom field middleware to protect attributes
+1296,2020-04-14 19:24:07.000000000,2020-04-15 12:31:26.000000000,closed,5,Subscription with multiple root fields should not be allowed
+1295,2020-04-14 17:07:57.000000000,2020-04-18 15:20:21.000000000,closed,0,Prettier docs
+1294,2020-04-14 17:07:20.000000000,2020-04-18 15:02:29.000000000,closed,0,Prettier markdown
+1293,2020-04-14 08:14:40.000000000,2020-04-14 11:48:23.000000000,closed,8,@can directive cannot be used to hide attributes
+1292,2020-04-14 08:09:27.000000000,2020-04-14 10:06:18.000000000,closed,6,"""The given data was invalid."" - text is not overridden"
+1291,2020-04-14 03:19:05.000000000,2020-04-14 10:16:34.000000000,closed,3,"@middleware() with throttle always got error messages, but actually throttle works"
+1290,2020-04-14 01:49:48.000000000,2020-04-14 11:36:43.000000000,closed,1,Avoid race condition that may occur when using Cache::has()
+1289,2020-04-14 01:38:50.000000000,2020-04-14 01:47:44.000000000,closed,0,Fix missed use of subscription contract
+1288,2020-04-14 01:02:28.000000000,2020-04-15 18:43:27.000000000,closed,6,Remove subscriber reference from topic when deleted
+1287,2020-04-13 22:33:54.000000000,2020-04-14 00:09:37.000000000,closed,0,Allow setting test database connection data from env vars
+1286,2020-04-13 22:32:59.000000000,2020-04-13 23:57:37.000000000,closed,1,Type hint StoresSubscription instead of implementation
+1285,2020-04-13 19:47:46.000000000,2020-04-15 18:39:27.000000000,closed,5,Fix nested mutations with multiple belongsTo relations at the same level
+1284,2020-04-13 18:15:52.000000000,2020-04-13 21:20:34.000000000,closed,0,Add TTL option for subscriptions storage
+1283,2020-04-13 17:49:17.000000000,2020-04-13 19:15:37.000000000,closed,1,Improve subscription context serializer
+1282,2020-04-13 16:45:30.000000000,2020-04-18 21:33:23.000000000,closed,2,Error with BatchLoader on using Pivots
+1281,2020-04-13 14:53:33.000000000,2020-04-13 15:44:38.000000000,closed,3,Add StyleCI setting no_superfluous_phpdoc_tags
+1280,2020-04-13 12:26:33.000000000,2020-04-13 14:48:54.000000000,closed,0,Remove useless braces
+1279,2020-04-13 02:23:44.000000000,2020-04-13 15:03:35.000000000,closed,0,Optimize conditions.
+1278,2020-04-13 02:19:41.000000000,2020-04-13 15:44:55.000000000,closed,3,Add missing method docblocks.
+1277,2020-04-13 01:47:26.000000000,2020-04-18 21:15:05.000000000,closed,0,Slim down composer dependencies.
+1276,2020-04-13 01:30:21.000000000,2020-04-13 14:27:22.000000000,closed,1,Remove unnecessary else blocks
+1275,2020-04-13 01:24:58.000000000,2020-04-13 13:53:03.000000000,closed,0,Extract test class definitions to separate fixture files
+1274,2020-04-13 01:16:36.000000000,2020-04-13 13:36:34.000000000,closed,0,Use assertContains where appropriate
+1273,2020-04-12 21:22:35.000000000,2020-04-18 21:34:14.000000000,closed,1,Add more return type hints
+1272,2020-04-12 21:07:56.000000000,2020-04-13 13:10:15.000000000,closed,0,Ensure that all CONST have a set visibility.
+1271,2020-04-10 21:22:32.000000000,2020-04-18 21:03:16.000000000,closed,1,Pass Args direct to rules
+1270,2020-04-08 01:44:20.000000000,2020-04-08 05:16:42.000000000,closed,1,IS_NOT_NULL not working
+1269,2020-04-07 23:51:40.000000000,2020-04-08 01:17:26.000000000,closed,1,Post to endpoint returns 404
+1268,2020-04-07 14:02:55.000000000,2020-04-08 23:19:37.000000000,closed,0,Add flag `--json` to `print-schema` to output JSON instead of GraphQL SDL
+1267,2020-04-07 13:07:57.000000000,2020-04-07 15:58:22.000000000,closed,3,Document how to configure CORS
+1266,2020-04-07 04:54:21.000000000,2020-04-07 15:58:22.000000000,closed,6,CORS Error in Laravel 7 using Laravel Lighthouse
+1265,2020-04-06 08:04:34.000000000,2020-04-06 09:35:06.000000000,closed,4,[GraphQL] folder as child of Http
+1264,2020-04-04 17:48:11.000000000,2020-04-28 00:00:01.000000000,closed,3,List of lists arguments are not passed correctly
+1263,2020-04-03 13:52:39.000000000,2020-04-05 21:21:41.000000000,closed,3,schema.graphql won't visibly/usably update
+1262,2020-03-30 19:11:04.000000000,2020-05-01 00:26:15.000000000,closed,3,"Issue to make complex @whereConditions (AND, OR)"
+1261,2020-03-30 11:28:16.000000000,2020-04-30 23:59:53.000000000,closed,1,Refine test helper return types for static analysis
+1260,2020-03-29 14:47:02.000000000,1970-01-01 00:00:00.000000001,open,3,Opening https://lighthouse-php.com/docs/latest.html leads to 404
+1259,2020-03-29 11:29:17.000000000,2020-03-29 13:28:52.000000000,closed,3,Guard directive from laravel middleware
+1258,2020-03-27 21:31:08.000000000,2020-03-29 14:39:50.000000000,closed,1,how to extend lighthouse graphql server though custome laravel package
+1257,2020-03-25 06:19:39.000000000,2020-03-25 06:59:41.000000000,closed,1,Morph Test
+1256,2020-03-25 00:02:04.000000000,2020-03-27 16:01:22.000000000,closed,2,Ignore validation on unset fields
+1255,2020-03-24 20:02:58.000000000,2020-04-21 17:01:55.000000000,closed,4,DateTime scalar Laravel 7
+1254,2020-03-24 19:32:47.000000000,2020-05-04 15:29:21.000000000,closed,3,WIP: Where conditions and order by relation
+1253,2020-03-24 17:54:22.000000000,1970-01-01 00:00:00.000000001,open,0,Limit Query Select to Model Table
+1252,2020-03-24 08:34:57.000000000,1970-01-01 00:00:00.000000001,open,1,"Problem with using the directives with type ""paginator"" on relationships that have different connections"
+1251,2020-03-23 03:04:35.000000000,2020-06-12 02:14:23.000000000,closed,1,Extend directive command to allow choosing interfaces
+1250,2020-03-22 16:26:50.000000000,2020-04-18 21:44:16.000000000,closed,8,"Hello, Can I translate the project's documentation into Chinese and provide it to Chinese developers for free?"
+1249,2020-03-20 05:16:16.000000000,2020-03-20 11:29:41.000000000,closed,1,Fix missing comma in testing docs
+1248,2020-03-19 17:41:10.000000000,2020-03-19 17:44:41.000000000,closed,1,@method Directive with Parameter Fails when Model Function has Typehint
+1247,2020-03-19 12:50:53.000000000,2020-03-19 14:13:56.000000000,closed,2, Nuwave\Lighthouse\Exceptions\DefinitionException  : No matching subclass of GraphQL\Type\Definition\ScalarType of found for the scalar Mixed
+1246,2020-03-19 01:37:16.000000000,2020-03-19 02:00:38.000000000,closed,0,Use 127.0.0.1 to avoid failing socket login
+1245,2020-03-19 01:36:29.000000000,2020-03-20 11:27:51.000000000,closed,0,Avoid infinite loop with empty namespace in generator commands
+1244,2020-03-19 00:53:49.000000000,2020-03-20 11:33:26.000000000,closed,0,Autoregister `TestingServiceProvider` for `@mock` in unit tests
+1243,2020-03-19 00:30:01.000000000,1970-01-01 00:00:00.000000001,open,10,Where Has Morph Conditions Directive
+1242,2020-03-18 19:32:14.000000000,2020-03-19 00:34:34.000000000,closed,1,@guard() + @can directive doesn't work
+1241,2020-03-18 18:28:16.000000000,2020-03-20 11:33:26.000000000,closed,1,MocksResolvers is unavailable outside the library tests
+1240,2020-03-18 17:22:22.000000000,2020-03-20 00:36:28.000000000,closed,8,Add artisan command `lighthouse:directive` to add directive class #1240
+1239,2020-03-18 01:23:47.000000000,2020-03-18 01:34:27.000000000,closed,0,Validate fields custom directive not working
+1238,2020-03-17 19:12:23.000000000,2020-05-01 01:01:26.000000000,closed,3,Documentation for Custom Builders is out of date or incorrect
+1237,2020-03-17 07:24:34.000000000,2020-03-20 11:28:28.000000000,closed,1,Update LighthouseGeneratorCommand.php
+1236,2020-03-17 07:08:58.000000000,2020-03-20 11:27:51.000000000,closed,2,"Add Custom NameSpace, then generation command failed."
+1235,2020-03-15 23:28:27.000000000,2020-03-15 23:31:20.000000000,closed,0,Add utility to DRY up instanceof callbacks
+1234,2020-03-15 18:52:20.000000000,2020-03-15 19:18:12.000000000,closed,0,Upgrade yarn deps
+1233,2020-03-13 00:47:45.000000000,2020-03-13 00:52:13.000000000,closed,0,Use experimental executor
+1232,2020-03-13 00:07:58.000000000,2020-03-13 00:35:06.000000000,closed,0,Upgrade temporary dev deps to stable versions
+1231,2020-03-12 14:02:33.000000000,2020-03-12 14:48:16.000000000,closed,0,Ensure subscription routes are named uniquely
+1230,2020-03-12 12:21:29.000000000,2020-03-12 14:48:16.000000000,closed,1,Another route has already been assigned name
+1229,2020-03-11 01:41:54.000000000,2020-03-11 02:33:17.000000000,closed,1,"Suggestion: allow access to argmuments within ""rules()"" method of a validation directive"
+1228,2020-03-09 16:27:05.000000000,2020-03-09 16:30:41.000000000,closed,0,Test status 200 on error
+1227,2020-03-09 16:09:01.000000000,2020-03-09 16:31:07.000000000,closed,0,Reenable CI for bensampo/laravel-enum
+1226,2020-03-07 23:58:24.000000000,2020-03-09 05:57:48.000000000,closed,1,on /graphql after installing lighthouse I am getting syntax error
+1225,2020-03-07 23:44:24.000000000,2020-03-09 19:10:54.000000000,closed,0,Throw GraphQL error when ModelNotFoundException is thrown in CanDirective
+1224,2020-03-06 12:14:02.000000000,2020-03-06 12:16:44.000000000,closed,0,Fix Lumen version check
+1223,2020-03-06 01:24:43.000000000,2020-03-06 12:16:43.000000000,closed,1,Error in Nuwave\Lighthouse\Support\AppVersion causing the entire Lumen app to crash
+1222,2020-03-05 00:24:02.000000000,2020-03-05 00:46:22.000000000,closed,0,Restore feature parity in Lumen test helper
+1221,2020-03-05 00:23:33.000000000,2020-03-05 00:46:35.000000000,closed,0,Add Utils::classUsesTrait
+1220,2020-03-04 13:35:10.000000000,2020-03-04 14:27:19.000000000,closed,0,Simplify CanDirectiveDBTest.php
+1219,2020-03-03 20:25:37.000000000,2020-03-05 23:54:05.000000000,closed,2,Support Laravel 7
+1218,2020-03-03 19:53:23.000000000,2020-03-05 23:54:04.000000000,closed,7,Support Laravel 7
+1217,2020-03-03 19:36:34.000000000,2020-03-04 11:13:42.000000000,closed,0,"Correct work with header ""Content-Type: text/plain;charset=UTF-8"""
+1216,2020-03-01 20:46:23.000000000,2020-03-04 13:18:23.000000000,closed,5,Access nested inputs with dot notation in `find` option of `@can` #1216
+1215,2020-03-01 06:16:06.000000000,2020-03-02 13:03:59.000000000,closed,1,Replace duplicate `CreateAuthorInput` in docs with `UpdateAuthorInput`
+1214,2020-02-28 19:18:38.000000000,1970-01-01 00:00:00.000000001,open,6,Limit a queries select to the model's table
+1213,2020-02-28 13:40:12.000000000,2020-04-15 18:39:27.000000000,closed,6,Only one nested belongsTo create fires when more than one is present
+1212,2020-02-27 17:57:00.000000000,2020-02-27 22:38:33.000000000,closed,1,Correct link to FieldMiddleware interface in docs
+1211,2020-02-27 14:29:29.000000000,2020-02-28 01:25:08.000000000,closed,3,Appendable items querying
+1210,2020-02-26 22:36:37.000000000,2020-02-26 23:50:20.000000000,closed,1,Fix typo in nested mutation docs
+1209,2020-02-26 18:07:39.000000000,2020-08-05 23:28:51.000000000,closed,5,Add support to suppress errors and exceptions
+1208,2020-02-25 22:11:12.000000000,2020-02-26 23:40:56.000000000,closed,8,Add option `passOrdered` to `@method` to pass just the arguments as ordered parameters
+1207,2020-02-21 07:54:26.000000000,2020-02-21 12:09:18.000000000,closed,4,"Argument 2 passed to Jenssegers\Mongodb\Relations\EmbedsOneOrMany::match() must be an instance of Illuminate\Database\Eloquent\Collection, null given"
+1206,2020-02-20 18:08:15.000000000,1970-01-01 00:00:00.000000001,open,1,Add wildcard path for @inject directive
+1205,2020-02-20 15:01:19.000000000,2020-02-20 16:32:58.000000000,closed,1,how to use redis with it
+1204,2020-02-20 11:38:03.000000000,2020-07-17 16:40:58.000000000,closed,5,@delete directive does not return error when delete has failed through observer.
+1203,2020-02-20 01:20:43.000000000,2020-02-24 13:31:33.000000000,closed,2,"Add support to extend `input`, `interface` and `enum` types"
+1202,2020-02-20 00:34:10.000000000,2020-02-24 13:31:32.000000000,closed,2,Extending input types
+1201,2020-02-19 22:18:59.000000000,2020-02-20 16:34:16.000000000,closed,1,Problem with UnionType and BatchLoader - fetches totally wrong models
+1200,2020-02-19 17:27:05.000000000,2020-02-24 17:40:33.000000000,closed,4,Add `@hash` directive and deprecate `@bcrypt`
+1199,2020-02-19 17:15:12.000000000,2020-02-19 17:18:18.000000000,closed,0,Test `@paginate` with `scopes`
+1198,2020-02-19 16:51:28.000000000,2020-02-19 17:04:34.000000000,closed,0,Properly test pagination error messages
+1197,2020-02-19 15:58:53.000000000,2020-03-15 19:18:48.000000000,closed,0,Add `AttemptAuthenticate` middleware
+1196,2020-02-19 02:05:10.000000000,2020-02-19 17:16:00.000000000,closed,1,it is not possible to use model or builder together with scope in the @paginate directive
+1195,2020-02-17 18:23:21.000000000,2020-02-18 12:26:17.000000000,closed,2,Unit testing with MakesGraphQLRequests in laravel package project fails if subscriptions are used
+1194,2020-02-17 13:49:12.000000000,2020-03-15 19:20:02.000000000,closed,2,WIP: Ensure `toResponse` is not called in Pipeline
+1193,2020-02-17 12:39:00.000000000,2020-03-15 19:22:17.000000000,closed,1,Returning a `Responsable` object from a resolver causes `toResponse` to be called
+1192,2020-02-15 01:04:07.000000000,2020-07-20 16:24:58.000000000,closed,0,"Remove support for PHP 7.1, Laravel 5.5 and PHPUnit 6"
+1191,2020-02-14 17:08:54.000000000,2020-03-15 22:16:08.000000000,closed,1, `$context->user()` is null
+1190,2020-02-14 13:37:23.000000000,2020-03-15 19:18:48.000000000,closed,8,Laravel Airlock support
+1189,2020-02-13 22:01:53.000000000,2020-04-30 22:42:51.000000000,closed,3,Validate schema line number
+1188,2020-02-13 01:44:39.000000000,1970-01-01 00:00:00.000000001,open,1,Add support for bidirectional cursor pagination
+1187,2020-02-11 15:15:02.000000000,2020-02-12 23:54:29.000000000,closed,0,"Remove release comparison links, GitHub does it better"
+1186,2020-02-10 19:11:48.000000000,2020-02-11 02:44:12.000000000,closed,1,Fix `\Nuwave\Lighthouse\Testing\MakesGraphQLRequestsLumen` test helper
+1185,2020-02-09 19:12:06.000000000,2020-07-20 16:48:10.000000000,closed,40,Allow complex validation of input types
+1184,2020-02-08 03:14:26.000000000,2020-02-14 00:28:27.000000000,closed,1,"Fix client directive handling in @defer, add utils to do it right"
+1183,2020-02-07 21:26:46.000000000,2020-02-07 21:31:00.000000000,closed,0,Document schema stitcher usage
+1182,2020-02-07 21:21:20.000000000,2020-02-12 23:51:54.000000000,closed,0,Deprecate `\Nuwave\Lighthouse\Schema\Source\SchemaSourceProvider#setRootPath()`
+1181,2020-02-07 13:35:29.000000000,2020-02-07 21:29:56.000000000,closed,2,#import not working when schema is called from BuildSchemaString::class
+1180,2020-02-07 04:38:15.000000000,2020-02-07 12:22:38.000000000,closed,1,Generate all Schema by Models
+1179,2020-02-05 22:18:33.000000000,2020-02-14 00:28:27.000000000,closed,2,Custom Client Directive Example?
+1178,2020-02-05 18:12:46.000000000,2020-02-06 01:09:34.000000000,closed,1,Ability to mutate currently authenticated user?
+1177,2020-02-05 03:05:24.000000000,2020-02-13 22:07:55.000000000,closed,0,Simplify mocking resolvers that just return static data
+1176,2020-02-05 03:01:06.000000000,2020-02-12 23:54:05.000000000,closed,0,Nested arg builder directives
+1175,2020-02-04 20:20:01.000000000,2020-02-04 21:45:39.000000000,closed,1,How to use full query cache with model directive and other relations?
+1174,2020-01-29 13:33:04.000000000,2020-01-29 13:52:38.000000000,closed,1,Fix handling of nested mutation operations that receive `null`
+1173,2020-01-28 05:22:17.000000000,2020-05-01 01:31:46.000000000,closed,1,Add option to pass headers to multipartGraphQL method.
+1172,2020-01-27 20:16:04.000000000,2020-01-30 17:20:13.000000000,closed,0,Link CHANGELOG.md and UPGRADE.md in docs page
+1171,2020-01-26 16:50:44.000000000,2020-01-28 01:55:28.000000000,closed,1,Add `UsesTestSchema` helper trait for usage in unit tests
+1170,2020-01-24 22:25:50.000000000,2020-01-28 01:55:28.000000000,closed,0,Provide a way of testing custom directives
+1169,2020-01-23 20:58:14.000000000,2020-01-30 17:19:27.000000000,closed,2,Fix nested mutation `upsert` across two levels of BelongsTo relations
+1168,2020-01-22 19:03:43.000000000,2020-01-23 15:11:22.000000000,closed,0,Document that mutating arguments in validation is not supported
+1167,2020-01-22 00:14:27.000000000,2020-01-23 15:58:14.000000000,closed,0,`@rename` directive doesn't work in nested inputs
+1166,2020-01-22 00:14:02.000000000,2020-01-23 15:58:14.000000000,closed,1,Fix renaming input fields that are nested within lists using `@rename`
+1165,2020-01-21 15:18:47.000000000,2020-01-22 15:25:49.000000000,closed,5,Support exclude_if and exclude_unless rule
+1164,2020-01-20 18:53:11.000000000,2020-01-20 19:13:08.000000000,closed,2,"Improve `@paginate` docs, mention distinction to `@hasMany`"
+1163,2020-01-20 18:04:51.000000000,2020-01-20 19:13:08.000000000,closed,0,Pagination on relation fields does not respect the relationship
+1162,2020-01-20 14:01:08.000000000,2020-03-04 13:18:23.000000000,closed,1,@can(find: String) can't access to nested values
+1161,2020-01-19 17:38:53.000000000,2020-05-12 15:26:57.000000000,closed,4,Combining @search directive with Query Constraints
+1160,2020-01-19 02:59:14.000000000,2020-01-20 02:04:39.000000000,closed,0,Add `model` argument to `@can` directive definition
+1159,2020-01-18 15:59:59.000000000,2020-07-20 16:56:55.000000000,closed,2,Allow cleaner names for automatically generated input objects
+1158,2020-01-18 08:01:07.000000000,1970-01-01 00:00:00.000000001,open,4,Nested mutations on 1-to-1 relationships require relation's PK
+1157,2020-01-18 06:15:21.000000000,2020-01-20 04:28:50.000000000,closed,3,Exclude or include trashed models in `@can` when `@forceDelete` or `@restore` are used
+1156,2020-01-18 02:57:55.000000000,2020-01-18 03:56:37.000000000,closed,4,Improve docs on how to register a custom operator for `@whereConditions`
+1155,2020-01-17 12:48:25.000000000,2020-01-17 18:37:53.000000000,closed,1,Fix running make before first composer install
+1154,2020-01-17 07:27:35.000000000,2020-01-17 12:13:34.000000000,closed,1,Update link to contribution guidelines
+1153,2020-01-17 04:14:03.000000000,2020-01-17 12:13:34.000000000,closed,0,README.md links to 404 page instead of contribution guidelines
+1152,2020-01-17 04:09:53.000000000,2020-01-17 18:37:53.000000000,closed,0,Makefile requires non-existent composer.lock
+1151,2020-01-16 21:51:46.000000000,2020-05-01 01:10:15.000000000,closed,5,Registering custom Operator for @whereConditions is not well documented and probably may be done easier
+1150,2020-01-16 18:33:56.000000000,2020-01-17 20:35:03.000000000,closed,4,"Add optional `columnsEnum` arg to `@whereConditions`, `@whereHasConditions` and `@orderBy`"
+1149,2020-01-16 08:21:32.000000000,2020-01-17 18:38:21.000000000,closed,3,Avoid erasing the model information from the wrapping paginated results `type` when defining   a paginated `@hasMany` field after a field with `@paginate`
+1148,2020-01-16 01:11:04.000000000,2020-01-17 20:35:02.000000000,closed,2,"Make the `columns` argument of `@whereConditions`, `@whereHasConditions` and `@orderBy` re-usable"
+1147,2020-01-15 21:52:57.000000000,2020-01-17 07:10:40.000000000,closed,2,Paginating related models breaks ability to query model directly
+1146,2020-01-15 05:24:17.000000000,2020-08-07 16:46:34.000000000,closed,1,Use first resolver argument `$root` for dependency injection
+1145,2020-01-14 14:37:24.000000000,1970-01-01 00:00:00.000000001,open,7,Pay attention of @softDeletes in mutation directives
+1144,2020-01-14 08:11:18.000000000,2020-01-17 18:38:21.000000000,closed,7,No class 'TodoPaginator' was found for directive 'paginate'
+1143,2020-01-14 00:08:15.000000000,2020-01-15 12:54:22.000000000,closed,0,Remove unused QueryAST.php
+1142,2020-01-13 20:25:33.000000000,2020-01-15 20:42:12.000000000,closed,0,Use GitHub Actions badge and tweak the existing ones
+1141,2020-01-13 19:33:32.000000000,2020-01-13 20:41:08.000000000,closed,1,Unify PHPDoc comments
+1140,2020-01-13 17:34:25.000000000,2020-01-15 12:52:06.000000000,closed,9,Add `@whereHasConditions` directive to filter relation existence
+1139,2020-01-13 17:22:58.000000000,2020-06-23 00:03:49.000000000,closed,0,Document the lifecycle of an incoming GraphQL request
+1138,2020-01-13 05:42:26.000000000,2020-01-13 18:00:55.000000000,closed,2,Add upgrade guide for `@modelClass` and `@model` in v5
+1137,2020-01-13 03:42:47.000000000,2020-01-13 15:27:13.000000000,closed,0,Use array functions instead of short-lived Collection instances
+1136,2020-01-13 02:09:53.000000000,2020-08-18 23:18:17.000000000,closed,6,Define field middleware directive execution order
+1135,2020-01-13 01:11:49.000000000,2020-01-13 19:02:47.000000000,closed,13,Add `@guard` directive and deprecate `@middleware` directive
+1134,2020-01-12 03:12:27.000000000,2020-06-03 22:22:26.000000000,closed,6,Suggest xkojimedia/laravel-altair-graphql package
+1133,2020-01-12 00:45:42.000000000,2020-08-18 23:16:10.000000000,closed,0,Support repeatable directives
+1132,2020-01-11 19:14:10.000000000,1970-01-01 00:00:00.000000001,open,2,It should be possible to eager-load multiple relationships through `@with`
+1131,2020-01-11 18:58:19.000000000,2020-01-13 01:07:51.000000000,closed,4,Add missing descriptions to generated and built-in schema types
+1130,2020-01-11 03:24:59.000000000,2020-01-13 20:13:11.000000000,closed,3,GitHub Actions
+1129,2020-01-09 23:05:18.000000000,2020-01-10 15:26:35.000000000,closed,7,Missing documentation on querying pivot data.
+1128,2020-01-09 22:47:42.000000000,2020-01-30 17:20:13.000000000,closed,4,Add upgrading guide to web document
+1127,2020-01-09 13:26:09.000000000,2020-01-11 03:26:37.000000000,closed,0,Allow passing variables in `graphQL()` test helper
+1126,2020-01-09 02:29:27.000000000,2020-01-11 02:23:55.000000000,closed,0,Add test for renaming @belongsToMany relations
+1125,2020-01-09 00:43:49.000000000,2020-01-11 04:16:55.000000000,closed,0,Remove broken NOT from @whereConstraints #1124
+1124,2020-01-09 00:37:44.000000000,1970-01-01 00:00:00.000000001,open,0,Support nested NOT in @whereConstraints
+1123,2020-01-08 05:31:39.000000000,2020-01-13 01:07:51.000000000,closed,1,Some inputs and types are missing descriptions
+1122,2020-01-07 05:54:23.000000000,2020-01-11 02:23:33.000000000,closed,2,The playground wouldn't be required for production
+1121,2020-01-07 04:45:21.000000000,2020-02-14 02:21:36.000000000,closed,2,Simplify `@whereConstraints` usage by defining it upon fields
+1120,2020-01-07 02:54:45.000000000,2020-01-09 00:24:29.000000000,closed,1,The input created by the `@whereConstraints` directive is missing a description
+1119,2020-01-06 23:01:55.000000000,2020-01-07 04:19:18.000000000,closed,1,Correct @whereConstraints documentation
+1118,2020-01-06 21:13:29.000000000,2020-01-11 01:28:32.000000000,closed,1,Allow restricting the allowed column names in `@orderBy` to a well-defined list.
+1117,2020-01-06 21:05:37.000000000,2020-01-11 01:28:32.000000000,closed,3,Add support for specifying column names with `@orderBy`
+1116,2020-01-06 10:10:24.000000000,2020-01-20 04:28:50.000000000,closed,7,@restore cannot combine with @can if ID is required
+1115,2020-01-06 08:57:21.000000000,2020-01-09 00:24:29.000000000,closed,3,@whereConstraints Documentation Issues
+1114,2020-01-05 19:02:30.000000000,2020-01-11 01:29:59.000000000,closed,1,Allow passing `null` or simply no `id` when using `@upsert`
+1113,2020-01-05 19:00:38.000000000,2020-01-11 01:29:59.000000000,closed,1,@upsert directive fails if there is no id
+1112,2020-01-03 21:24:01.000000000,2020-01-15 12:52:06.000000000,closed,7,Add Relationship support for whereConstraints through whereHas and orWhereHas
+1111,2020-01-03 15:13:09.000000000,2020-01-03 18:20:58.000000000,closed,1,Connect has one
+1110,2020-01-02 21:47:44.000000000,2020-01-11 03:27:16.000000000,closed,2,Nested mutations with pivot data
+1109,2020-01-01 13:35:32.000000000,2020-01-03 16:16:53.000000000,closed,2,Implement connect for hasOne and hasMany relation
+1108,2020-01-01 12:15:16.000000000,2020-01-02 23:17:04.000000000,closed,1,Docs - Corrected field validation example
+1107,2019-12-31 16:23:53.000000000,2019-12-31 17:16:36.000000000,closed,1,DateTime scalar issue with MS Sql Server & Carbon
+1106,2019-12-30 15:35:56.000000000,2020-01-03 00:18:31.000000000,closed,1,Update README.md
+1105,2019-12-30 05:12:32.000000000,2019-12-30 05:16:33.000000000,closed,0,Document how to use a custom `GraphQLContext`
+1104,2019-12-30 04:09:00.000000000,2019-12-31 07:54:44.000000000,closed,0,Move config/config.php to src/lighthouse.php
+1103,2019-12-29 22:00:48.000000000,2019-12-29 22:59:31.000000000,closed,1,Adding key-value shows in array instead of Object
+1102,2019-12-29 21:54:52.000000000,2019-12-30 03:56:53.000000000,closed,3,@field directive and pagination
+1101,2019-12-28 04:54:43.000000000,2020-08-05 21:19:14.000000000,closed,2,Return a nicer error after sending a GET request without a (valid) body
+1100,2019-12-28 03:42:55.000000000,2020-01-23 20:11:13.000000000,closed,5,Add test trait `\Nuwave\Lighthouse\Testing\MakesGraphQLRequestsLumen` for usage with Lumen
+1099,2019-12-28 01:08:33.000000000,2020-01-09 00:24:29.000000000,closed,5,"Add support in `@whereConstraints` for IN, IS NULL and BETWEEN operators"
+1098,2019-12-27 18:19:24.000000000,2020-01-11 03:47:23.000000000,closed,0,Implement the `name()` function generically in the BaseDirective class
+1097,2019-12-26 02:50:33.000000000,2019-12-30 04:05:45.000000000,closed,2,Fix Post's author relation
+1096,2019-12-24 17:39:56.000000000,2019-12-25 17:06:33.000000000,closed,1,How to 'orderBy' the related model?
+1095,2019-12-24 03:32:43.000000000,2019-12-25 17:07:44.000000000,closed,1,route middleware not work on lumen but global middleware  work
+1094,2019-12-24 00:26:00.000000000,2020-05-01 01:38:21.000000000,closed,2,Test in Lumen
+1093,2019-12-23 21:04:11.000000000,2020-01-09 00:24:28.000000000,closed,4,"Add support in @whereConstraints for IN, IS NULL and BETWEEN"
+1092,2019-12-23 17:38:13.000000000,2019-12-27 14:57:38.000000000,closed,0,Validate at schema build time that the `apply` argument `@rules` is an array
+1091,2019-12-20 09:00:22.000000000,1970-01-01 00:00:00.000000001,open,2,Inject directive not working in scopes
+1090,2019-12-20 00:50:48.000000000,2019-12-20 00:57:13.000000000,closed,1,How to define filter for static value
+1089,2019-12-19 16:12:17.000000000,2019-12-19 21:10:17.000000000,closed,1,Error during WebSocket handshake: Unexpected response code: 200
+1088,2019-12-19 13:25:34.000000000,2020-01-11 03:27:16.000000000,closed,2,Nested mutations with pivot data 
+1087,2019-12-13 15:07:54.000000000,2019-12-13 15:27:29.000000000,closed,15,Search with parameter return null
+1086,2019-12-13 13:56:06.000000000,2019-12-13 14:00:58.000000000,closed,0,Improve type safety in BaseDirective.php and add `nodeName()` helper
+1085,2019-12-13 12:34:58.000000000,2020-05-01 01:42:41.000000000,closed,1,Add additional nested argument resolvers
+1084,2019-12-13 03:07:06.000000000,2019-12-30 05:16:07.000000000,closed,2,Lighthouse requires Laravel's auth layer even when all endpoints are public
+1083,2019-12-13 00:52:14.000000000,2019-12-13 12:09:35.000000000,closed,0,Keep the query and pagination capabilities of relation directives when disabling batch loading
+1082,2019-12-11 17:00:20.000000000,2019-12-23 16:02:03.000000000,closed,1,Enable chained rule provider directives (`ProvidesRules`) to merge the rules before validating
+1081,2019-12-10 20:19:34.000000000,2019-12-19 21:22:19.000000000,closed,1,"Using @globalId with @update results in ""No query results for model"" error"
+1080,2019-12-10 19:40:02.000000000,2020-01-23 19:37:16.000000000,closed,4,@belongsToMany broken in v4.7
+1079,2019-12-09 18:11:27.000000000,2019-12-09 18:54:38.000000000,closed,0,Update docs dependencies
+1078,2019-12-06 20:34:39.000000000,2019-12-06 20:52:53.000000000,closed,2,Define `@enum` as a directive class
+1077,2019-12-06 16:02:06.000000000,2019-12-06 20:52:52.000000000,closed,0,ide-helper command missing some definitions
+1076,2019-12-05 12:47:06.000000000,2019-12-05 13:50:21.000000000,closed,2,How to multiple insert on same mutation?
+1075,2019-12-05 11:04:13.000000000,2019-12-05 12:08:41.000000000,closed,1,Unique email address 
+1074,2019-12-05 08:47:51.000000000,2019-12-05 18:16:11.000000000,closed,1,Add `INPUT_FIELD_DEFINITION` to allowed locations for the `@builder` directive
+1073,2019-12-04 19:55:12.000000000,2019-12-04 21:53:31.000000000,closed,4,"@rename only works on queries, not on mutations"
+1072,2019-12-03 18:12:40.000000000,2019-12-03 18:54:33.000000000,closed,1,.gitignore schema-directives.graphql
+1071,2019-12-03 17:46:30.000000000,2019-12-04 14:36:07.000000000,closed,2,Add INPUT_FIELD_DEFINITION to scope directive
+1070,2019-12-02 18:58:19.000000000,2019-12-03 12:36:14.000000000,closed,8,Possible to re-use existing model methods?
+1069,2019-11-30 18:48:09.000000000,2019-12-04 14:35:42.000000000,closed,2,Add INPUT_FIELD_DEFINITION to orderBy directive location
+1068,2019-11-29 17:30:47.000000000,2020-03-15 22:10:40.000000000,closed,3,Eager load nested relations using the `@with` directive
+1067,2019-11-29 16:16:22.000000000,2019-11-29 19:39:25.000000000,closed,1,Separate endpoints
+1066,2019-11-28 19:50:18.000000000,2019-11-29 04:45:20.000000000,closed,0,Throw DefinitionException when missing a type in the type registry
+1065,2019-11-28 14:45:35.000000000,2020-03-15 22:10:40.000000000,closed,1,Eager loading nested relationships with @with gives error
+1064,2019-11-28 00:38:00.000000000,2020-05-01 01:56:00.000000000,closed,4,Allow for composite primary key
+1063,2019-11-27 17:25:16.000000000,2020-05-01 01:44:48.000000000,closed,4,[Request] Field And Argument Directives - Applicable To Array Elements
+1062,2019-11-27 04:40:00.000000000,2019-12-03 03:10:33.000000000,closed,6,Extend `@rename` directive to work with arguments and input fields
+1061,2019-11-26 14:42:52.000000000,2019-12-23 16:02:03.000000000,closed,3,Recursively merge rules
+1060,2019-11-26 13:37:00.000000000,2019-11-26 19:45:38.000000000,closed,0,Avoid old dependencies in Travis CI
+1059,2019-11-25 20:40:39.000000000,2019-11-27 12:12:13.000000000,closed,0,Allow configuring if relations are resolved through a batch loader
+1058,2019-11-24 01:46:19.000000000,2019-11-27 01:28:52.000000000,closed,2,Filter nested paginate queries
+1057,2019-11-23 10:15:17.000000000,2019-11-24 01:22:23.000000000,closed,2,No directive found for `softDeletes`
+1056,2019-11-22 12:50:09.000000000,2019-11-22 20:13:56.000000000,closed,1,How to get enum value in mutation query?
+1055,2019-11-22 11:01:25.000000000,2019-11-22 18:06:39.000000000,closed,1,"I have some complicated logic, I need custom resolver instead of static @directive"
+1054,2019-11-21 12:03:08.000000000,2019-11-27 18:50:52.000000000,closed,3,"Event Broadcasted, but no any message received in Pusher Dashboard"
+1053,2019-11-20 20:26:31.000000000,2019-12-05 18:50:20.000000000,closed,1,Add OBJECT to the @middleware directive
+1052,2019-11-20 15:34:36.000000000,2020-02-26 23:40:56.000000000,closed,22,Method directive without resolver arguments
+1051,2019-11-20 14:18:33.000000000,2020-01-30 20:24:22.000000000,closed,5,Add Apollo federation support to GraphQL implementation
+1050,2019-11-19 21:50:42.000000000,2019-11-20 00:16:02.000000000,closed,1,Fix text color on code blocks when light color scheme is explicitly set
+1049,2019-11-19 07:59:19.000000000,1970-01-01 00:00:00.000000001,open,6,"Method to purge results cached with ""@cache"" directive."
+1048,2019-11-19 01:45:04.000000000,2019-12-04 14:35:41.000000000,closed,2,orderBy Directive Location in Documentation / ide-helper
+1047,2019-11-18 15:53:51.000000000,2020-01-09 00:24:28.000000000,closed,1,Order of expressions in OR should not affect SQL query
+1046,2019-11-16 22:25:14.000000000,2019-11-18 18:20:31.000000000,closed,0,Add Dark Theme for Docs
+1045,2019-11-13 23:08:17.000000000,2019-11-14 12:19:22.000000000,closed,0,Improve the error message for missing field resolvers by offering a solution
+1044,2019-11-13 06:13:32.000000000,2019-11-14 01:22:27.000000000,closed,5,@whereConstraints not working
+1043,2019-11-13 01:03:33.000000000,2019-11-14 12:15:44.000000000,closed,6,Add `injectArgs` option to `@can` directive to pass along client defined   arguments to the policy check
+1042,2019-11-11 07:34:14.000000000,2019-11-11 21:46:51.000000000,closed,3,Rework how @can directive fetches model (@softDeletes are not working)
+1041,2019-11-10 16:34:15.000000000,2020-01-11 03:55:26.000000000,closed,6,Fix naming conventions such as 'GraphQL' to 'GraphQl'
+1040,2019-11-09 01:31:59.000000000,2019-11-11 01:04:01.000000000,closed,5,"[4.6] @belongsToMany(type: ""paginator"")"
+1039,2019-11-08 17:35:26.000000000,2019-11-08 18:12:56.000000000,closed,3,Error when uploaded to server
+1038,2019-11-07 21:35:43.000000000,2019-12-20 12:33:51.000000000,closed,1,Allow `update` related models on create mutation
+1037,2019-11-05 17:28:00.000000000,2019-11-07 01:02:20.000000000,closed,5,Can't use policies
+1036,2019-11-05 14:18:09.000000000,2019-11-06 12:34:58.000000000,closed,3,Executing the same create mutation twice in a row gives 'undefined offset: {id of just created record}'
+1035,2019-11-04 21:51:58.000000000,2020-01-18 03:31:39.000000000,closed,10,Fix loading relations with polymorphic parent types
+1034,2019-11-04 18:07:54.000000000,2020-01-18 03:31:39.000000000,closed,3,MorphOne on Interface/Union returns faulty data
+1033,2019-11-04 13:34:37.000000000,2019-11-04 21:41:46.000000000,closed,7,Handle arrays of namespaces in generator commands
+1032,2019-11-02 06:41:47.000000000,2019-11-03 16:50:43.000000000,closed,3,null return not being allowed
+1031,2019-11-01 17:14:28.000000000,2019-11-12 17:45:19.000000000,closed,6,Add `syncWithoutDetaching` option for BelongsToMany and MorphToMany relationships
+1030,2019-10-31 18:47:45.000000000,2019-12-07 19:27:26.000000000,closed,2,Enable multiple queries in a single request by clearing `BatchLoader` instances after executing each queryCalling multiple mutations with relationship in a test fails
+1029,2019-10-31 14:04:33.000000000,2019-11-04 21:41:46.000000000,closed,3,Generator commands can not handle arrays with multiple namespaces
+1028,2019-10-30 19:12:35.000000000,2019-10-30 19:17:59.000000000,closed,1,Get root input inside field resolver
+1027,2019-10-29 08:16:15.000000000,2019-11-04 12:41:08.000000000,closed,1,Use detailed `$description` property when generating `enum` values from a `BenSampo\Enum\Enum` class
+1026,2019-10-28 16:05:18.000000000,2020-04-19 18:12:35.000000000,closed,13,Allow to write logs on production
+1025,2019-10-27 04:43:22.000000000,2019-10-27 17:26:47.000000000,closed,1,Attaching cookie to response
+1024,2019-10-24 17:25:37.000000000,2019-10-24 23:13:53.000000000,closed,1,Change type in example
+1023,2019-10-23 00:12:03.000000000,2020-08-05 21:07:49.000000000,closed,3,Structure docs around four quadrants
+1022,2019-10-22 13:38:01.000000000,2019-10-22 23:59:54.000000000,closed,1,How can i return array of type when i do subscription?
+1021,2019-10-21 11:57:20.000000000,2019-10-21 15:04:45.000000000,closed,0,Handle nullable input objects in TypedArgs conversion
+1020,2019-10-21 08:10:30.000000000,2019-10-21 10:25:51.000000000,closed,1,Correct way retrieve every nth record
+1019,2019-10-17 16:00:07.000000000,2019-10-17 19:56:51.000000000,closed,1,Fix conversion of client directives after the schema was cached
+1018,2019-10-17 14:35:30.000000000,2019-10-17 19:56:51.000000000,closed,2,"array_map(): Expected parameter 2 to be an array, object given when using @defer"
+1017,2019-10-16 20:22:50.000000000,2019-10-17 00:12:11.000000000,closed,1,Fix incorrect directive location for @inject
+1016,2019-10-16 18:45:01.000000000,2019-10-17 00:15:16.000000000,closed,0,Handle `null` being passed to a nullable argument that is a list of type
+1015,2019-10-16 15:50:39.000000000,2019-10-16 17:49:09.000000000,closed,1,Fix broken behaviour when using union types with schema caching
+1014,2019-10-15 19:53:48.000000000,2019-10-21 16:21:55.000000000,closed,0,Add UPGRADE.md
+1013,2019-10-14 21:17:12.000000000,2019-10-15 20:01:31.000000000,closed,0,Makefile
+1012,2019-10-14 16:30:16.000000000,2019-10-15 19:55:59.000000000,closed,0,Add fallback if ttl config is missing
+1011,2019-10-13 23:22:26.000000000,2019-10-14 16:08:01.000000000,closed,0,Do not require model class in paginated relations
+1010,2019-10-12 13:06:44.000000000,2019-10-12 13:06:56.000000000,closed,0,Update Slack invite link
+1009,2019-10-12 04:25:07.000000000,2019-10-12 13:06:56.000000000,closed,0,"Slack: ""This invite link is no longer active."""
+1008,2019-10-12 02:13:09.000000000,2019-10-20 18:36:45.000000000,closed,0,Simplify builder
+1007,2019-10-12 02:03:48.000000000,2019-10-13 23:19:57.000000000,closed,0,Speed up tests
+1006,2019-10-11 16:55:23.000000000,2020-08-05 21:18:38.000000000,closed,2,Enable partial errors
+1005,2019-10-11 14:38:57.000000000,2019-10-15 20:01:09.000000000,closed,3,Add `@upsert` directive and nested mutation operations to create or update a model   regardless whether it exists
+1004,2019-10-11 14:01:50.000000000,2019-10-16 17:49:09.000000000,closed,7,Union types broken when cache is enabled
+1003,2019-10-11 07:16:28.000000000,2019-10-11 16:01:06.000000000,closed,1,"@can(ability: ""create"") i think there is a bug in Nested Mutations"
+1002,2019-10-10 19:58:30.000000000,2019-11-14 00:26:16.000000000,closed,3,Pass arguments fields to policy in @can directive
+1001,2019-10-10 19:48:09.000000000,2019-10-15 13:18:00.000000000,closed,8,Possible BC 4.4: Failed model detection
+1000,2019-10-09 21:48:22.000000000,2019-12-19 21:26:25.000000000,closed,4,Calling multiple queries in a test always returns the same result
+999,2019-10-09 13:49:40.000000000,2019-10-10 14:01:35.000000000,closed,2,[Docs] Fix wrong definition in builder directive
+998,2019-10-09 13:41:49.000000000,2019-10-24 00:25:07.000000000,closed,7,Add @scope directive
+997,2019-10-08 22:19:32.000000000,2019-11-27 15:38:55.000000000,closed,2,Update subscription docs to work with relay modern v6
+996,2019-10-08 21:11:24.000000000,2019-10-08 21:12:34.000000000,closed,0,Init subscriptions branch
+995,2019-10-08 17:28:14.000000000,2019-10-15 20:01:09.000000000,closed,12,`@upsert` directive and nested mutations
+994,2019-10-07 22:36:53.000000000,2019-10-09 10:53:18.000000000,closed,1,"Docs overhaul: search, back-to-top, medium-zoom, top-level tutorial, revamp index"
+993,2019-10-06 18:20:51.000000000,2019-10-09 10:03:04.000000000,closed,0,Simplify ASTHelper and add firstByName method
+992,2019-10-06 14:39:33.000000000,2019-10-10 16:03:36.000000000,closed,3,Nested spread directive
+991,2019-10-05 13:46:10.000000000,2019-10-06 14:52:43.000000000,closed,1,Can I register multiple schema files in config/lighthouse.php
+990,2019-10-05 13:32:45.000000000,2019-10-06 17:16:13.000000000,closed,1,Can I register multiple schema files in config/lighthouse.php
+989,2019-10-04 16:48:51.000000000,2019-10-06 14:46:20.000000000,closed,1,Improve error message when making an empty request
+988,2019-10-04 16:32:54.000000000,2019-10-06 15:46:00.000000000,closed,6,"Return value of Nuwave\Lighthouse\Execution\DataLoader\BatchLoader::buildKey() must be of the type string, null returned"
+987,2019-10-04 13:16:56.000000000,2019-10-06 14:37:09.000000000,closed,1,Update directives.md
+986,2019-10-02 18:58:45.000000000,2019-12-19 21:30:49.000000000,closed,6,DocumentAST public properties
+985,2019-10-02 16:30:52.000000000,2019-10-02 16:35:55.000000000,closed,1,Update tutorial.md
+984,2019-10-02 13:06:44.000000000,2019-10-09 10:15:03.000000000,closed,3,[Feat] Added @count directive
+983,2019-10-02 05:49:36.000000000,2019-10-06 02:43:48.000000000,closed,2,field appended to a model using accessor not working
+982,2019-10-01 20:21:49.000000000,2019-10-02 18:49:34.000000000,closed,1,Fix extra new line in GlobalId::decode
+981,2019-09-30 14:26:11.000000000,2019-10-02 05:10:49.000000000,closed,6,Subscription resolve function is not called.
+980,2019-09-30 00:52:47.000000000,2019-10-02 19:02:36.000000000,closed,0,Add internal test helper for injecting a mock resolver
+979,2019-09-29 18:16:01.000000000,2020-03-15 22:15:52.000000000,closed,6,Nuwave\Lighthouse\Schema\Context  $request->user() use default guard when I use multi-guards
+978,2019-09-28 20:07:17.000000000,2019-09-29 17:50:29.000000000,closed,1,can't use policies
+977,2019-09-25 23:11:53.000000000,2019-09-26 19:24:55.000000000,closed,0,Level up PHPStan
+976,2019-09-25 12:37:56.000000000,2019-12-19 21:29:20.000000000,closed,4,Is there a plan to provide scope support?
+975,2019-09-24 21:37:04.000000000,2019-09-25 19:23:54.000000000,closed,1,docs: Update README.md
+974,2019-09-24 00:27:51.000000000,2019-10-02 19:00:54.000000000,closed,4,Fix default model detection when using other directives combination with `@paginate`
+973,2019-09-23 05:43:18.000000000,2019-11-27 16:56:11.000000000,closed,4,Add `\Nuwave\Lighthouse\Execution\DataLoader\BatchLoader#loadMany()` function
+972,2019-09-22 22:27:30.000000000,2019-09-24 00:45:21.000000000,closed,2,composer normalize
+971,2019-09-22 14:26:09.000000000,2019-09-22 15:53:08.000000000,closed,2,Update tutorial.md
+970,2019-09-20 15:44:21.000000000,2019-09-21 01:42:17.000000000,closed,1,How to query in fields
+969,2019-09-19 23:05:25.000000000,2019-09-21 21:32:03.000000000,closed,0,Convert method names fully to test* convention
+968,2019-09-19 12:49:23.000000000,2019-09-19 15:15:47.000000000,closed,0,Allow overwriting the name of Enum types created through `LaravelEnumType`
+967,2019-09-18 19:35:19.000000000,2019-09-21 21:41:21.000000000,closed,17,Confusion using @orderBy directive
+966,2019-09-16 20:46:43.000000000,2020-02-14 02:27:35.000000000,closed,1,Ensure spec compliant responses in error case
+965,2019-09-16 18:04:43.000000000,2019-09-20 11:09:24.000000000,closed,0,Remove try-catch around ClassFinder call in IdeHelperCommand
+964,2019-09-15 20:52:20.000000000,2019-09-16 00:47:18.000000000,closed,1,SQLSTATE[42S22]: Column not found: 1054 Unknown column 'input.email' in 'where clause' (SQL: select count(*) as aggregate from `users` where `input`.`email` = 
+963,2019-09-15 17:44:32.000000000,2019-09-19 19:13:04.000000000,closed,2,Are you planning to implementing CodeFirst Approach ?
+962,2019-09-13 13:22:18.000000000,2019-09-16 16:51:36.000000000,closed,4,nestedOperation Sync doesn't work with empty array
+961,2019-09-13 00:30:34.000000000,2019-09-19 14:46:30.000000000,closed,6,Performance wins
+960,2019-09-12 23:07:52.000000000,2019-09-13 19:59:16.000000000,closed,4,Remove subscriptions
+959,2019-09-12 20:52:27.000000000,2019-12-19 21:31:19.000000000,closed,1,auth:web middleware is not working
+958,2019-09-11 22:21:58.000000000,2019-09-19 21:42:51.000000000,closed,0,Use travis stages
+957,2019-09-11 21:35:18.000000000,2019-09-12 14:05:23.000000000,closed,0,Enable schema cache only when `APP_ENV` != 'local'
+956,2019-09-11 14:22:55.000000000,2019-09-12 14:04:51.000000000,closed,0,Remove duplicate of ide-helper description
+955,2019-09-11 10:49:04.000000000,2019-09-11 18:05:14.000000000,closed,6,Namespace problem -> No class 'App\User' was found for directive 'find' error
+954,2019-09-11 02:22:32.000000000,2019-09-11 18:06:12.000000000,closed,19,How to handle Postgres JSONB?
+953,2019-09-10 12:48:15.000000000,2019-09-10 17:37:25.000000000,closed,2,Field is accessible even if set to protected $hidden array
+952,2019-09-09 02:53:05.000000000,2019-09-09 02:58:50.000000000,closed,0,Server cannot be reached 
+951,2019-09-05 18:12:33.000000000,2019-09-10 16:16:03.000000000,closed,5,Allow additional route configurations `prefix` and `domain`
+950,2019-09-05 16:47:11.000000000,2019-09-05 22:21:12.000000000,closed,2,Register extension directives only through RegisterDirectiveNamespaces event
+949,2019-09-04 13:55:06.000000000,2019-10-02 19:02:10.000000000,closed,3,[WIP] Fix model detecting
+948,2019-09-03 17:47:00.000000000,2019-09-03 18:25:17.000000000,closed,0,Prevent throwing in `lighthouse:ide-helper` when no custom directives are defined
+947,2019-09-03 00:53:02.000000000,2019-09-03 18:25:17.000000000,closed,2,php artisan lighthouse:ide-helper not working
+946,2019-09-02 08:58:35.000000000,2019-09-02 21:04:14.000000000,closed,4,Custom resolver args just takes the first value
+945,2019-08-31 23:47:08.000000000,2019-09-01 20:59:26.000000000,closed,1,Connection rejected for big scemas
+944,2019-08-31 18:01:59.000000000,2019-09-02 13:32:53.000000000,closed,0,Add @morphOne and @morphMany directives
+943,2019-08-31 10:19:44.000000000,2019-09-03 00:05:22.000000000,closed,2,"@rules(apply: [""App\\Rules\\MyCustomRule""]) not working"
+942,2019-08-30 12:40:10.000000000,2019-08-30 13:14:04.000000000,closed,0,Define MorphToDirective
+941,2019-08-30 05:38:11.000000000,2019-09-04 02:03:02.000000000,closed,1,Implement @forceDelete and @restore directives
+940,2019-08-29 13:00:40.000000000,2019-08-29 15:10:53.000000000,closed,0,Laravel 6
+939,2019-08-29 08:39:39.000000000,2019-09-02 23:33:51.000000000,closed,2,Supports multiple connections using pivot
+938,2019-08-28 12:12:39.000000000,2019-09-04 02:03:02.000000000,closed,0,Extend support for soft delete - @restore and @forceDelete directives?
+937,2019-08-28 00:02:40.000000000,2019-09-03 01:24:25.000000000,closed,12,Implement support for querying soft deleted elements
+936,2019-08-27 18:16:47.000000000,1970-01-01 00:00:00.000000001,open,1,Add `Paginator` interface to all paginated fields
+935,2019-08-26 23:50:29.000000000,1970-01-01 00:00:00.000000001,open,2,Add TTL or clear-subscriptions command
+934,2019-08-25 19:41:48.000000000,2019-08-29 01:01:38.000000000,closed,0,Add webhook to subscription docs
+933,2019-08-25 13:25:37.000000000,2019-08-30 12:18:04.000000000,closed,12,Add a new command for creating an IDE-helper schema
+932,2019-08-24 01:32:23.000000000,2019-08-30 15:06:15.000000000,closed,0,Simplify argument handling
+931,2019-08-23 11:40:21.000000000,2019-08-25 19:04:25.000000000,closed,1,Typo Fix
+930,2019-08-23 09:44:58.000000000,2019-08-26 21:40:52.000000000,closed,1,Remove Lighthouse Utils package from plugins list
+929,2019-08-23 01:18:53.000000000,2019-08-23 01:55:48.000000000,closed,1,ChangeLog
+928,2019-08-22 17:31:17.000000000,2019-08-23 03:25:13.000000000,closed,2,How to deal with Json field\column
+927,2019-08-22 11:03:52.000000000,2019-08-22 19:49:12.000000000,closed,0,Unbox laravel-enum inputs when using the builder directives
+926,2019-08-22 03:20:57.000000000,2019-08-29 15:10:53.000000000,closed,3,Add support for Laravel ^6.0
+925,2019-08-22 01:43:42.000000000,2019-08-22 02:08:26.000000000,closed,3,Schema not updating
+924,2019-08-21 20:16:57.000000000,2019-08-21 20:47:43.000000000,closed,1,Help seeking
+923,2019-08-21 13:47:37.000000000,2020-05-01 01:45:13.000000000,closed,4,Query fields must be an object with field names as keys or a function which returns such an object
+922,2019-08-21 12:33:22.000000000,2019-08-21 20:54:50.000000000,closed,3,Call to a member function beginTransaction() on null
+921,2019-08-20 02:44:07.000000000,2019-08-29 15:11:27.000000000,closed,3,Add @morphTo directive
+920,2019-08-19 08:00:55.000000000,2019-08-19 10:20:02.000000000,closed,1,Update phpunit.md: `quite` repeated
+919,2019-08-19 01:07:14.000000000,2019-08-19 18:02:53.000000000,closed,1,Add @whereJsonContains directive
+918,2019-08-15 21:30:35.000000000,2019-08-15 22:18:32.000000000,closed,5,How can I solve the interface error with lightHouse in Laravel?
+917,2019-08-15 18:33:27.000000000,2019-08-15 19:29:14.000000000,closed,1,problema al momento de crear interfaces
+916,2019-08-15 18:09:10.000000000,2019-08-19 23:17:56.000000000,closed,1,Restrict `@whereConstraints` column names to a well-defined list
+915,2019-08-15 16:18:14.000000000,2019-08-19 23:24:34.000000000,closed,0,Fix validators not having access to the given args for the query or mutation
+914,2019-08-13 23:40:24.000000000,2019-08-14 00:14:21.000000000,closed,1, Ensure validation actually runs before the final resolver
+913,2019-08-13 03:36:14.000000000,2019-08-13 10:13:38.000000000,closed,1,Call out @model in @node directive in documentations
+912,2019-08-12 18:50:09.000000000,2019-08-14 00:23:56.000000000,closed,1,Add a mechanism for filtering results with insufficient access permissions
+911,2019-08-12 14:05:20.000000000,1970-01-01 00:00:00.000000001,open,20,Support for Apollo Federation
+910,2019-08-09 12:50:04.000000000,2019-08-09 12:56:03.000000000,closed,0,Cast MorphTo relation argument `type` to string before connect
+909,2019-08-08 16:56:25.000000000,2019-08-09 15:18:31.000000000,closed,5,Eager-load the subscription fields to ensure they are registered
+908,2019-08-08 15:28:56.000000000,2019-08-08 16:29:13.000000000,closed,0,Change the `Nuwave\Lighthouse\Schema\Types\LaravelEnumType` wrapper to map to Enum instances internally
+907,2019-08-08 09:32:13.000000000,2019-08-09 21:09:35.000000000,closed,1,Custom resolver for Union type not Executing
+906,2019-08-08 08:42:24.000000000,2019-08-08 19:18:05.000000000,closed,1,[docs]: Fix `@union` example
+905,2019-08-08 06:52:38.000000000,2019-08-08 19:09:47.000000000,closed,0,[docs] Local setup with docker-compose
+904,2019-08-08 06:38:13.000000000,2019-08-08 19:12:07.000000000,closed,1,[docs] Fix route from home page
+903,2019-08-08 05:19:32.000000000,2019-08-08 19:15:44.000000000,closed,1,[docs] Change behavior of docs entrypoint
+902,2019-08-08 05:01:18.000000000,2019-08-08 19:16:32.000000000,closed,0,"[docs] Fix chronological  order for ""yarn docs:version"""
+901,2019-08-07 20:19:07.000000000,2019-08-08 19:03:36.000000000,closed,1,[docs] Upgrade vuepress to v1.0.3
+900,2019-08-07 15:28:05.000000000,1970-01-01 00:00:00.000000001,open,0,Nested `create` and `update` operations for mutations with MorphTo relationships
+899,2019-08-06 15:18:10.000000000,2019-12-20 12:33:51.000000000,closed,3,Compose complex input arguments through nested arg resolvers
+898,2019-08-06 07:04:19.000000000,2019-08-19 23:23:55.000000000,closed,5,Allow for callable classes for resolvers in directives
+897,2019-08-05 22:00:21.000000000,2019-08-14 00:14:21.000000000,closed,2,Mutation: validation fails but the mutation still executes
+896,2019-08-05 05:53:03.000000000,2019-08-07 20:19:20.000000000,closed,2,Upgrade to vuepress 1.0.3
+895,2019-08-04 14:02:40.000000000,2019-08-14 00:27:04.000000000,closed,2,[Question] @rules for MutationInput type 
+894,2019-08-04 13:29:19.000000000,2020-02-14 03:23:48.000000000,closed,7,@can on field level has no $context->user()
+893,2019-08-01 21:57:24.000000000,2019-08-01 22:00:17.000000000,closed,1,@hasMany should can indicates the correct field
+892,2019-08-01 18:40:19.000000000,2019-08-14 01:49:36.000000000,closed,3,"Show spec-, and user-defined client directives correctly in introspection"
+891,2019-08-01 03:42:32.000000000,2019-08-14 01:49:35.000000000,closed,2,"Include the @include, and @skip directives that are part of the GraphQL spec"
+890,2019-07-31 18:21:53.000000000,2019-08-15 19:24:51.000000000,closed,3,@where throw exceptions 
+889,2019-07-30 23:17:22.000000000,2019-08-01 14:11:24.000000000,closed,10,How use @where directive to query by the same data on 3 differents field with orWhere clasule?
+888,2019-07-29 23:16:51.000000000,2019-08-13 10:13:38.000000000,closed,3,Add model to @node directive to simplify resolving
+887,2019-07-29 20:00:39.000000000,2019-08-06 15:29:36.000000000,closed,1,Invariant Violation: Can't find field me({}) on object
+886,2019-07-29 01:39:22.000000000,2019-07-29 14:52:48.000000000,closed,1,Adding arguments to field
+885,2019-07-28 01:38:22.000000000,2019-08-14 01:50:35.000000000,closed,1,Extra plus symbol
+884,2019-07-27 17:44:35.000000000,2019-07-29 14:54:54.000000000,closed,7,"""debugMessage"": ""No class 'Profile' was found for directive 'update'"","
+883,2019-07-27 06:08:58.000000000,2019-08-14 01:53:13.000000000,closed,1,Fix issue when using the `@model` directive in a type that has a list field 
+882,2019-07-27 01:23:38.000000000,2019-08-19 23:23:55.000000000,closed,2,Allow for callable classes for resolvers in directives
+881,2019-07-26 19:02:34.000000000,2019-07-26 22:08:05.000000000,closed,4,@where directive not work propertly
+880,2019-07-26 17:06:53.000000000,2020-01-13 19:02:47.000000000,closed,6,Don't use request middleware for resolver middleware
+879,2019-07-25 13:33:58.000000000,2019-08-07 16:17:51.000000000,closed,0,"Implement `connect`, `disconnect` and `delete` operations for nested mutations upon MorphTo relationships"
+878,2019-07-25 00:57:44.000000000,1970-01-01 00:00:00.000000001,open,3,Break apart Node interface support from node query
+877,2019-07-25 00:40:52.000000000,2019-07-25 00:49:29.000000000,closed,4,I can't paginate with field directive
+876,2019-07-24 23:02:36.000000000,2019-07-24 23:24:05.000000000,closed,1,Add test for null where constraint
+875,2019-07-23 05:00:05.000000000,2019-07-23 10:56:52.000000000,closed,1,Correct place of application of @eq definition
+874,2019-07-22 18:07:49.000000000,2019-07-23 10:39:27.000000000,closed,3,lighthouse graphql subscriptions
+873,2019-07-22 16:10:58.000000000,2019-07-22 16:14:05.000000000,closed,1,Cannot use @can with Boolean return type
+872,2019-07-22 07:20:14.000000000,2019-07-24 23:52:16.000000000,closed,10,Allow querying for null values using `@whereConstraints`
+871,2019-07-20 20:53:32.000000000,2019-07-25 10:20:38.000000000,closed,22,Extend relay relationships to support pivot meta on edge
+870,2019-07-20 05:27:46.000000000,2019-07-21 17:47:44.000000000,closed,0,Add Custom Validation Rules to Doc
+869,2019-07-20 00:50:21.000000000,2019-07-25 10:20:38.000000000,closed,1,Extend connection pagination to support pivot meta on edge
+868,2019-07-19 11:19:03.000000000,2019-07-19 13:52:36.000000000,closed,1,[Docs]: Add marvinrabe/laravel-graphql-test package to resources
+867,2019-07-17 19:47:25.000000000,2019-07-18 01:37:42.000000000,closed,1,Custom Directive upperCase not working
+866,2019-07-17 19:08:09.000000000,2019-07-18 17:07:21.000000000,closed,5,Upload not get searched fields 
+865,2019-07-17 11:48:37.000000000,2019-10-15 00:31:24.000000000,closed,2,External schema stitching in lighthouse for setting up a gateway
+864,2019-07-12 19:35:24.000000000,2019-07-16 20:48:37.000000000,closed,1,Added disclaimer about mass assignment
+863,2019-07-12 18:44:02.000000000,2019-07-12 19:03:16.000000000,closed,1,Update nested-mutations.md
+862,2019-07-12 18:31:35.000000000,2019-07-12 19:04:36.000000000,closed,1,Fix BelongsToMany example in nested mutation docs
+861,2019-07-12 11:07:42.000000000,2019-07-12 11:10:26.000000000,closed,1,input directive example updated
+860,2019-07-11 17:36:17.000000000,2019-08-08 19:04:15.000000000,closed,4,Update vuepress to v1.0.2
+859,2019-07-11 12:23:50.000000000,2019-07-11 12:26:17.000000000,closed,0,Bump lodash from 4.17.11 to 4.17.14 in /docs
+858,2019-07-11 12:09:23.000000000,2019-07-11 12:21:14.000000000,closed,0,Bump lodash.template from 4.4.0 to 4.5.0 in /docs
+857,2019-07-10 22:58:32.000000000,2019-10-10 16:03:36.000000000,closed,0,Nested @spread directive not working
+856,2019-07-10 01:14:09.000000000,2019-07-16 21:19:24.000000000,closed,2,Make the argument used for finding a model to check @can against configurable
+855,2019-07-10 00:45:13.000000000,2019-07-10 20:12:55.000000000,closed,0,"Allow deferring nested fields of mutations, fix semantics with @include"
+854,2019-07-09 18:42:03.000000000,2020-05-01 01:11:43.000000000,closed,9,Validation with @rules executes before field middleware
+853,2019-07-09 11:14:43.000000000,2019-07-10 19:49:36.000000000,closed,1,Fix/lumen routes
+852,2019-07-09 01:28:11.000000000,2019-07-10 20:20:58.000000000,closed,0,Default pagination_amount_argument to first
+851,2019-07-08 19:53:18.000000000,2019-08-09 15:18:31.000000000,closed,3,v4: Subscriptions are not registered after the initial request
+850,2019-07-08 18:25:08.000000000,2019-07-16 21:19:23.000000000,closed,0,Add an attribute to @can directive to ignore ID
+849,2019-07-07 17:32:07.000000000,2019-07-16 21:20:14.000000000,closed,0,Refactor caching for simplicity
+848,2019-07-04 12:54:50.000000000,2019-07-04 14:19:47.000000000,closed,1,Spelling mistake corrected
+847,2019-07-03 22:55:34.000000000,1970-01-01 00:00:00.000000001,open,22,Support beyondcode/laravel-websockets as a subscription driver
+846,2019-07-03 22:27:59.000000000,2019-07-10 20:15:07.000000000,closed,7,Simplify complex validation by allowing custom validation directives
+845,2019-07-01 21:47:12.000000000,2019-07-25 00:52:50.000000000,closed,4,Query fields must be an object with field names as keys or a function which returns such an object
+844,2019-07-01 20:45:55.000000000,2019-07-01 21:52:44.000000000,closed,1,Syntax error in PhpStorm: Unknown directive
+843,2019-06-28 22:40:23.000000000,2019-07-16 21:36:19.000000000,closed,4,Fix cache key when the user is not authenticated
+842,2019-06-27 15:14:52.000000000,2019-07-09 14:19:40.000000000,closed,13,Subscriptions events are not fired when no subscribers are present
+841,2019-06-25 22:41:34.000000000,2019-06-26 18:33:25.000000000,closed,2,How are Accessors & Mutators works?
+840,2019-06-20 15:30:33.000000000,2019-06-20 19:39:39.000000000,closed,4,Is possible lighthouse php use laravel echo self hosting with subscription?
+839,2019-06-20 09:28:37.000000000,2019-06-20 19:40:00.000000000,closed,1,No directive found for `whereConstraints`
+838,2019-06-19 18:37:10.000000000,2019-06-20 05:20:48.000000000,closed,2,"Fix @can directive with multiple models and remove deprecated ""if"" alias"
+837,2019-06-19 18:17:50.000000000,2019-06-19 18:22:21.000000000,closed,1,Bugfixes/fix multiple models in can directive
+836,2019-06-19 14:05:16.000000000,2019-06-23 17:35:14.000000000,closed,4,Custom input type programmatically
+835,2019-06-18 19:38:56.000000000,2019-06-20 20:12:24.000000000,closed,3,Prefix column references with table name to allow scopes to join other tables
+834,2019-06-16 22:16:52.000000000,2020-07-20 18:53:43.000000000,closed,5,Add test for multiple where directives
+833,2019-06-14 10:49:25.000000000,2019-06-14 22:24:16.000000000,closed,1,Use config repository contract
+832,2019-06-14 09:49:32.000000000,2019-06-14 22:24:16.000000000,closed,0,Consider using Repository Contract
+831,2019-06-12 16:01:21.000000000,2020-07-20 18:53:15.000000000,closed,5,Multiple @where directives on a single field
+830,2019-06-12 05:21:59.000000000,2019-06-12 23:20:52.000000000,closed,1,"Allow empty arrays and other falsy values as input for nested mutation operations like ""sync"""
+829,2019-06-12 05:14:43.000000000,2019-06-12 22:55:17.000000000,closed,1,Replace deprecated PHPUnit assertion methods
+828,2019-06-09 16:33:39.000000000,2019-06-12 23:49:09.000000000,closed,3,Custom batch loader fails with @delete directive
+827,2019-06-02 09:50:30.000000000,2019-06-02 15:37:06.000000000,closed,0,phpunit: remove file not present anymore
+826,2019-05-31 03:52:02.000000000,2019-05-31 20:42:20.000000000,closed,1,Add Client Implementations to Subscriptions menu
+825,2019-05-30 23:43:28.000000000,2019-05-31 23:06:25.000000000,closed,1,Make nested mutations work with subclassed relationship types
+824,2019-05-30 23:18:41.000000000,2019-05-31 23:06:05.000000000,closed,1,Remove the `GraphQL` facade and the container alias `graphql`
+823,2019-05-30 23:14:00.000000000,2019-05-31 23:05:17.000000000,closed,0,Remove `dispatch` aliases `fire` and `class` for dispatching through `@event`
+822,2019-05-30 23:08:07.000000000,2019-05-31 23:04:18.000000000,closed,0,Use the `@spread` directive instead of the `flatten` argument of `@create`/`@update`
+821,2019-05-30 21:40:43.000000000,2019-05-31 23:02:56.000000000,closed,0,Remove the `ArgFilterDirective` and switch fully to the new `@whereBetween` and `@whereNotBetween` directives
+820,2019-05-30 21:13:35.000000000,2019-05-31 23:01:36.000000000,closed,0,Simplify the route configuration
+819,2019-05-30 19:12:56.000000000,2019-05-31 23:00:36.000000000,closed,0,Move subscription exception handler namespace
+818,2019-05-30 19:11:53.000000000,2019-05-31 23:00:06.000000000,closed,0,Add additional return types
+817,2019-05-29 12:50:39.000000000,2019-05-29 15:30:05.000000000,closed,2,How does lighthouse's subscriptions integrate with pusher?
+816,2019-05-28 22:02:10.000000000,2019-05-28 22:43:36.000000000,closed,0,Run benchmarks in travis
+815,2019-05-28 12:16:29.000000000,1970-01-01 00:00:00.000000001,open,12,Respect query constraints within relations when batchloading relationships
+814,2019-05-27 01:02:17.000000000,2019-05-27 10:03:03.000000000,closed,1,Add @count directive
+813,2019-05-25 13:22:09.000000000,2019-05-26 14:03:22.000000000,closed,5,@auth directive and Auth::user() not working
+812,2019-05-25 12:03:13.000000000,2019-05-27 00:39:17.000000000,closed,4,Support custom rule classes in `@rules` and `@rulesForArray`
+811,2019-05-25 07:38:25.000000000,2019-05-25 21:51:27.000000000,closed,2,Cannot use @whereConstraints directive
+810,2019-05-24 19:15:50.000000000,2019-05-24 19:44:25.000000000,closed,0,Remove useless comment.
+809,2019-05-24 18:48:45.000000000,2019-05-24 18:55:15.000000000,closed,1,Remove useless braces when newing an object.
+808,2019-05-24 18:46:04.000000000,2019-05-24 18:55:45.000000000,closed,0,Fix doxblock spacing.
+807,2019-05-23 22:05:50.000000000,2019-05-23 23:15:44.000000000,closed,1,Typo: Rename model Users to User
+806,2019-05-23 14:48:16.000000000,2019-05-23 19:40:50.000000000,closed,1,Corrected resolver namespace
+805,2019-05-23 11:38:20.000000000,2019-05-23 19:47:24.000000000,closed,1,Use Illuminate\Contracts\Events\Dispatcher instead of concrete implementation
+804,2019-05-22 19:34:47.000000000,2019-05-22 20:00:11.000000000,closed,0,Added new user to the users-page
+803,2019-05-22 19:18:08.000000000,2019-05-22 20:01:57.000000000,closed,1,Added Buoy to the resources-page
+802,2019-05-22 01:10:16.000000000,2019-05-27 01:15:13.000000000,closed,1,Extract test helpers into a reusable trait
+801,2019-05-21 23:54:13.000000000,2019-05-23 10:50:03.000000000,closed,5,Add config option `cache.ttl` to control expiration time of schema cache
+800,2019-05-21 23:20:17.000000000,2019-05-22 01:16:40.000000000,closed,1,Fix querying for falsy values through `@whereConstraints`
+799,2019-05-21 21:31:10.000000000,2019-05-22 01:16:40.000000000,closed,2,Unable to search by empty string on where constraints 
+798,2019-05-21 18:04:58.000000000,2019-05-21 20:20:12.000000000,closed,3,/graphql endpoint not shown in route:list neither can be visited from browser
+797,2019-05-20 23:41:27.000000000,2019-05-23 17:16:49.000000000,closed,1,The `GraphQL` facade and the container alias `graphql` will be removed in v4
+796,2019-05-18 02:43:01.000000000,2019-05-18 20:28:49.000000000,closed,1,Add option `decode` to `@globaldId` to control the result of decoding
+795,2019-05-16 18:57:09.000000000,2019-05-16 18:57:19.000000000,closed,0,Enhance docs around validating arguments for uniqueness
+794,2019-05-16 14:58:17.000000000,2019-05-16 18:57:29.000000000,closed,2,Problem in using `unique` in @rules - undefined table
+793,2019-05-15 11:54:19.000000000,2019-05-16 10:11:27.000000000,closed,1,Can someone explain to me how I can escape <script> </script> (XSS) ?
+792,2019-05-14 20:47:51.000000000,2019-05-14 21:14:06.000000000,closed,3,Replace sh with bash and remove the leading $
+791,2019-05-14 01:15:08.000000000,2019-05-18 00:08:20.000000000,closed,1,Some random refactorings
+790,2019-05-13 23:57:44.000000000,2019-05-14 19:39:34.000000000,closed,2,Using @search directive with scopes
+789,2019-05-13 23:40:36.000000000,1970-01-01 00:00:00.000000001,open,8,Resolve function behaviour identical to Controller
+788,2019-05-13 16:45:49.000000000,2019-05-13 17:48:53.000000000,closed,1,Where constraints documentation shows wrong provider
+787,2019-05-13 16:35:28.000000000,2019-05-13 17:01:46.000000000,closed,0,Use the spec-compliant default deprecation reason for `@deprecate` directive
+786,2019-05-13 12:42:32.000000000,2019-05-18 00:54:53.000000000,closed,14,Add compatibility layer to allow @middleware to support Lumen
+785,2019-05-13 01:19:35.000000000,2019-05-14 11:56:05.000000000,closed,6,New way to document directives
+784,2019-05-12 18:09:00.000000000,2019-05-14 19:39:08.000000000,closed,8,Directive arguments in docs
+783,2019-05-12 10:39:54.000000000,2019-05-12 13:35:12.000000000,closed,1,Can't query union types
+782,2019-05-11 21:47:43.000000000,2019-05-14 19:39:08.000000000,closed,11,Some directives are missing their arguments in the docs
+781,2019-05-11 02:05:17.000000000,2019-05-12 03:40:50.000000000,closed,4,Deprecate controller config
+780,2019-05-10 16:11:00.000000000,2019-05-10 16:11:11.000000000,closed,0,Add proper links for custom directive interfaces and clarify docs
+779,2019-05-10 13:19:55.000000000,2019-05-12 04:02:37.000000000,closed,1,"Document usage of native PHP types, add convencience wrapper for bensampo/laravel-enum"
+778,2019-05-09 23:51:24.000000000,2019-05-10 00:21:12.000000000,closed,1,Inject parent value on relation
+777,2019-05-09 15:18:43.000000000,2019-05-09 16:09:40.000000000,closed,2,Respect the model's connection for database transaction  during `@create` and `@update`
+776,2019-05-09 14:07:40.000000000,2019-11-27 12:17:02.000000000,closed,15,MySQL date attributes can not be read from paginated HasMany relations
+775,2019-05-08 19:39:07.000000000,2019-05-08 19:49:37.000000000,closed,4,Multiple schema files in config [not multiple schema] 
+774,2019-05-07 21:16:13.000000000,2019-05-07 21:48:26.000000000,closed,1,Allow Query input argument using `@spread` to be optional
+773,2019-05-07 01:05:20.000000000,2019-05-07 08:07:11.000000000,closed,1,Avoid calling ->toArray on collections when we just want to unwrap it
+772,2019-05-07 00:59:00.000000000,2020-01-13 03:03:32.000000000,closed,1,Avoid Collection for performance gains
+771,2019-05-06 22:34:43.000000000,2019-05-11 11:14:58.000000000,closed,3,Include PHP defined types in the schema
+770,2019-05-06 22:04:11.000000000,2019-05-07 21:48:26.000000000,closed,2,Allow query input using @spread to be optional
+769,2019-05-04 22:26:14.000000000,2019-05-08 17:10:37.000000000,closed,1,Enable running benchmarks via phpbench
+768,2019-05-04 22:25:14.000000000,2019-05-29 07:24:16.000000000,closed,17,Improve performance by lazily unserializing and loading types from the schema
+767,2019-05-02 17:19:55.000000000,2019-05-07 08:05:58.000000000,closed,0,Announce deprecation: The class `SubscriptionExceptionHandler` will be moved to the namespace Nuwave\Lighthouse\Subscriptions\Contracts
+766,2019-05-02 13:35:51.000000000,2019-05-02 14:29:04.000000000,closed,2,How can i get only logged-in user`s data (like:tickets).
+765,2019-05-01 02:03:47.000000000,2019-05-02 17:51:44.000000000,closed,2,Throw error if pagination amount <= 0 is requested
+764,2019-04-30 21:53:13.000000000,2019-04-30 22:35:40.000000000,closed,1,Hide certains schema fields from introspection if request not authenticated [Feature]
+763,2019-04-30 20:06:36.000000000,2019-05-02 17:16:08.000000000,closed,1,Move subscription exception to Exceptions namespace.
+762,2019-04-30 20:02:10.000000000,2019-05-02 20:19:46.000000000,closed,0,Add helper to TestCase to get  a fully qualified reference to a method that is defined on the test class
+761,2019-04-30 13:35:46.000000000,2019-04-30 17:39:35.000000000,closed,4,Refresh GraphQLRequest singleton between multiple requests
+760,2019-04-30 12:20:20.000000000,2019-05-02 17:51:44.000000000,closed,5,Pagination maxCount is ignored when querying for `count: 0`
+759,2019-04-29 22:11:00.000000000,2019-04-29 22:40:42.000000000,closed,0,Remove  useless import.
+758,2019-04-29 21:56:06.000000000,2019-04-29 22:27:34.000000000,closed,0,Remove useless parenthesis.
+757,2019-04-29 21:54:17.000000000,2019-04-29 22:04:27.000000000,closed,1,Remove useless check.
+756,2019-04-28 22:30:03.000000000,2019-04-30 17:37:18.000000000,closed,0,Instantiate the ErrorBuffer directly
+755,2019-04-28 14:16:04.000000000,2019-04-30 17:37:18.000000000,closed,3,"BindingResolutionException while building ErrorBuffer, occurs when using xDebug"
+754,2019-04-26 00:46:01.000000000,2019-04-30 17:27:20.000000000,closed,2,Fixed order for nested operations
+753,2019-04-25 23:33:34.000000000,2019-05-12 06:38:53.000000000,closed,4,Flexible client side querying through `@whereConstraints` directive
+752,2019-04-25 22:45:35.000000000,2019-04-27 03:56:41.000000000,closed,1,Add config option pagination_amount_argument
+751,2019-04-25 01:13:21.000000000,2019-05-29 07:24:15.000000000,closed,1,Add Caching Ability to Schema Build Process
+750,2019-04-23 09:10:49.000000000,2019-04-23 17:16:09.000000000,closed,3,No connection could be made because the target machine actively refused it. [tcp:\/\/127.0.0.1:6379]
+749,2019-04-22 20:45:09.000000000,2019-04-25 19:02:49.000000000,closed,2,Find/First by GlobalId
+748,2019-04-22 01:19:58.000000000,2019-04-22 01:30:47.000000000,closed,0,Cleanup the docs setup
+747,2019-04-22 00:58:34.000000000,2019-04-22 01:14:28.000000000,closed,2,Assert that a 200 is returned when a model is not found.
+746,2019-04-21 12:43:16.000000000,2019-04-21 21:36:48.000000000,closed,1,Add missing void type-hint.
+745,2019-04-21 12:34:20.000000000,2019-04-21 21:37:42.000000000,closed,1,Import Closure and add docblock.
+744,2019-04-19 00:37:38.000000000,2019-04-26 08:44:30.000000000,closed,1,Introduce PHPStan at level 1
+743,2019-04-18 23:04:38.000000000,2019-04-19 19:36:13.000000000,closed,1,Force json on graphql route
+742,2019-04-18 22:23:34.000000000,2019-04-18 22:23:45.000000000,closed,0,Add v3.4 docs about custom global ids
+741,2019-04-18 21:20:03.000000000,2019-04-19 19:15:04.000000000,closed,1,"Document custom directives fully, simplify NodeValue handling"
+740,2019-04-18 16:34:12.000000000,2019-04-18 18:49:26.000000000,closed,0,Do not import class in configuration.
+739,2019-04-18 00:54:50.000000000,2019-04-18 19:57:38.000000000,closed,1,Enables to use a custom GlobalId resolver
+738,2019-04-17 23:31:42.000000000,2019-04-19 00:44:04.000000000,closed,4,"No need to declare 2 routes, 1 is enough."
+737,2019-04-17 00:56:21.000000000,2019-04-17 10:55:09.000000000,closed,1,Mixed context error
+736,2019-04-16 06:46:57.000000000,2019-04-16 15:42:55.000000000,closed,1,Custom directive stopped working after migration to 3.x
+735,2019-04-15 21:44:08.000000000,2019-04-15 21:44:23.000000000,closed,0,Version 3.3.0
+734,2019-04-15 19:08:01.000000000,2019-04-15 19:28:42.000000000,closed,0,Add missing return void docblocks.
+733,2019-04-13 19:47:01.000000000,2019-04-13 23:57:14.000000000,closed,0,Remove useless linebreaks before return docblock.
+732,2019-04-13 12:55:12.000000000,2019-04-30 17:27:20.000000000,closed,3,Fix relationships order bug
+731,2019-04-12 14:41:53.000000000,2019-04-15 10:21:46.000000000,closed,5,Add sync case  to MutationExecutor::executeCreateBelongsToMany
+730,2019-04-12 14:26:02.000000000,2019-04-12 14:47:32.000000000,closed,3,"Getting ""Return value of Nuwave\Lighthouse\Execution\BaseRequest::query() must be of the type string, null returned"" on ""/graphql"" endpoint."
+729,2019-04-12 12:57:13.000000000,2019-04-12 12:57:23.000000000,closed,0,Flatten directives changelog
+728,2019-04-12 12:06:39.000000000,2019-04-30 17:27:20.000000000,closed,2,The order of the definition of an relation input has unexpected side effects
+727,2019-04-10 22:49:12.000000000,2019-04-11 13:24:14.000000000,closed,0,Add some missing imports.
+726,2019-04-10 19:03:14.000000000,2019-04-10 19:03:26.000000000,closed,0,V3.2
+725,2019-04-08 19:23:35.000000000,2019-12-20 12:33:50.000000000,closed,5,"Add a composable, extendable mechanism for nested mutations"
+724,2019-04-08 15:42:01.000000000,2019-04-08 15:43:53.000000000,closed,2,v3.1 is not support  lumen version
+723,2019-04-08 15:34:37.000000000,2019-04-08 15:45:21.000000000,closed,1,Custom Error handling function extensionsContent
+722,2019-04-07 13:11:17.000000000,2019-04-07 13:11:40.000000000,closed,0,v3.1.0
+721,2019-04-06 15:14:17.000000000,2019-04-06 17:42:06.000000000,closed,0,Fix setup visibility.
+720,2019-04-06 02:00:02.000000000,2019-04-06 13:41:04.000000000,closed,0,Add tests for trim directive.
+719,2019-04-05 21:53:05.000000000,2019-04-07 03:23:55.000000000,closed,3,Add event dispatch + tests.
+718,2019-04-05 21:03:31.000000000,2019-04-05 21:29:02.000000000,closed,0,Fix some typos.
+717,2019-04-05 18:58:19.000000000,2019-04-05 19:18:21.000000000,closed,0,Add composer homepage details
+716,2019-04-05 18:57:12.000000000,2019-04-05 19:23:50.000000000,closed,0,Remove useless key check.
+715,2019-04-05 13:24:17.000000000,2019-04-05 13:24:31.000000000,closed,0,Clearly refer to the docs website in README
+714,2019-04-05 13:02:36.000000000,2019-04-05 13:12:18.000000000,closed,0,Fix param docblocks.
+713,2019-04-05 12:57:21.000000000,2019-04-05 12:57:33.000000000,closed,0,Add rule about how to reference class names
+712,2019-04-05 12:34:30.000000000,2019-04-05 12:57:44.000000000,closed,0,Fix more docblocks.
+711,2019-04-05 01:42:22.000000000,2019-04-05 12:49:06.000000000,closed,3,"""Match ID or slug"" argument directive"
+710,2019-04-05 01:24:03.000000000,2019-04-05 10:19:31.000000000,closed,2,Fix some docblocks.
+709,2019-04-04 20:33:47.000000000,2019-04-04 20:33:57.000000000,closed,0,"Add empty query docs to master, too"
+708,2019-04-04 20:06:17.000000000,2019-04-04 20:31:46.000000000,closed,1,Add documentation about the empty Query type in the root schema.
+707,2019-04-04 19:05:35.000000000,2019-04-10 18:59:29.000000000,closed,7,Add connect and sync operations to $morphToMany relation during model creation
+706,2019-04-04 11:54:37.000000000,2019-04-04 11:54:44.000000000,closed,0,Add hint about pre-v3 changelog
+705,2019-04-04 11:49:33.000000000,2019-04-04 11:51:28.000000000,closed,0,Add CHANGELOG.md
+704,2019-04-04 10:43:58.000000000,2019-04-04 11:50:02.000000000,closed,0,Tag v3 docs
+703,2019-04-04 10:16:56.000000000,2019-04-04 10:17:02.000000000,closed,0,Link to webonyx/error-handling docs
+702,2019-04-02 11:58:49.000000000,2019-04-25 22:50:38.000000000,closed,12,Add middleware for subscription endpoints
+701,2019-04-01 21:51:08.000000000,2020-01-13 02:14:27.000000000,closed,6,Subscription auth endpoints not using middleware
+700,2019-04-01 15:38:57.000000000,2019-04-12 06:14:18.000000000,closed,2,Flatten directive namespace structure
+699,2019-04-01 10:32:03.000000000,2019-04-03 16:42:20.000000000,closed,1,Replace incidental usage of private with protected
+698,2019-04-01 09:46:04.000000000,2020-05-01 01:53:43.000000000,closed,2,Translated Schema Descriptions
+697,2019-04-01 02:08:37.000000000,2019-04-01 02:08:47.000000000,closed,0,"Change the docker-compose dev setup to a self-contained, php 7.2 based build"
+696,2019-03-31 15:41:33.000000000,2019-04-01 01:55:14.000000000,closed,2,change php version
+695,2019-03-29 18:37:29.000000000,2019-04-18 14:52:38.000000000,closed,7,Can directive not working with input types
+694,2019-03-29 14:44:55.000000000,2019-04-19 00:44:34.000000000,closed,1,Fix PHP warnings.
+693,2019-03-29 11:24:39.000000000,2020-08-05 21:55:53.000000000,closed,0,Use Pipeline::thenReturn() helper method
+692,2019-03-28 18:41:40.000000000,2019-04-08 19:27:51.000000000,closed,9,Allow pivot columns on a belongsToMany @update nested mutation
+691,2019-03-28 18:31:48.000000000,2020-01-13 02:12:30.000000000,closed,3,Dealing with attributes on the pivot table of a BelongsToMany relation
+690,2019-03-28 17:47:11.000000000,2019-03-31 18:26:30.000000000,closed,1,Enhance the basics of resolving fields
+689,2019-03-28 17:45:23.000000000,2019-03-31 18:18:39.000000000,closed,1,Convert schema-defined enum default values to internal values
+688,2019-03-27 01:33:15.000000000,2019-03-27 22:03:43.000000000,closed,3,WIP: Throw if missing relation return type
+687,2019-03-27 01:10:27.000000000,2019-04-15 21:51:23.000000000,closed,1,Relationship mutation does not throw exception when relationship return type is not declared in Laravel
+686,2019-03-27 00:52:42.000000000,2019-03-31 18:13:46.000000000,closed,3,Properly namespace the model class in the PaginateDirective
+685,2019-03-26 15:34:49.000000000,2019-03-31 18:13:46.000000000,closed,1,Facade is used with type `File` in resolving paginator type
+684,2019-03-26 13:52:13.000000000,2019-03-28 06:59:42.000000000,closed,8,Enable passing in model instance to `@can` directive
+683,2019-03-26 06:11:04.000000000,2019-04-01 01:24:12.000000000,closed,3,"@rules requires explicit column keys when using ""unique"" validation"
+682,2019-03-26 06:03:30.000000000,2019-03-27 01:34:18.000000000,closed,2,Change relationship mutations 'connect' and 'disconnect' to 'attach' and 'detach'
+681,2019-03-24 16:02:39.000000000,2019-03-24 16:57:17.000000000,closed,2,Custom non eloquent type
+680,2019-03-23 03:13:50.000000000,2019-04-15 21:16:30.000000000,closed,5,"Generalize ArgFilter to ArgBuilder, enable complex client queries, properly flatten arguments"
+679,2019-03-22 15:05:29.000000000,2019-03-22 15:05:35.000000000,closed,0,Document the model argument for @create and @delete
+678,2019-03-21 19:09:46.000000000,2019-03-21 19:09:56.000000000,closed,0,Change the namespace of the LighthouseServiceProvider in the publish examples
+677,2019-03-20 19:11:26.000000000,2019-08-24 14:37:17.000000000,closed,6,"Trigger Model Events when using @update, @create, @delete"
+676,2019-03-20 15:56:40.000000000,2019-03-20 15:56:47.000000000,closed,0,Fix typo
+675,2019-03-20 11:45:25.000000000,2019-03-20 11:45:41.000000000,closed,0,Fix the links to the events in plugin development
+674,2019-03-17 01:05:03.000000000,2019-03-19 17:29:59.000000000,closed,12,Fix tracing precision
+673,2019-03-17 00:44:20.000000000,2019-03-19 17:28:47.000000000,closed,1,Remove global helper functions
+672,2019-03-16 19:26:35.000000000,2019-03-19 17:29:58.000000000,closed,3,[3.0] Tracing does not follow the spec correctly
+671,2019-03-15 12:59:40.000000000,2019-03-16 18:01:50.000000000,closed,4,array_merge(): Argument #2 is not an array
+670,2019-03-15 12:46:36.000000000,2019-03-16 18:01:50.000000000,closed,2,Use ExtensionsResponse class for BuildExtensionsResponse
+669,2019-03-15 12:01:04.000000000,2020-08-05 21:16:32.000000000,closed,2,Proper validation of the basic request structure
+668,2019-03-14 13:05:17.000000000,2019-05-27 01:16:25.000000000,closed,20,New structure for docs
+667,2019-03-14 12:10:14.000000000,2019-04-04 13:38:22.000000000,closed,5,Add a Changelog
+666,2019-03-14 01:47:55.000000000,2019-03-14 01:48:58.000000000,closed,1,Add missing imports.
+665,2019-03-14 01:44:44.000000000,2019-03-14 01:46:10.000000000,closed,0,Simplify return.
+664,2019-03-14 01:29:29.000000000,2019-03-14 02:17:51.000000000,closed,0,Fix some docblocks.
+663,2019-03-14 01:05:00.000000000,2019-03-14 01:45:19.000000000,closed,4,Get rid of collect() helper.
+662,2019-03-14 00:33:10.000000000,2019-03-14 00:33:16.000000000,closed,0,Add tracing to sidebar
+661,2019-03-12 15:20:23.000000000,2019-03-12 16:54:20.000000000,closed,1,Handle Scout pagination arguments
+660,2019-03-12 01:26:22.000000000,2019-03-12 17:16:55.000000000,closed,9,Enable search for docs
+659,2019-03-10 17:47:06.000000000,2019-03-16 17:59:38.000000000,closed,15,Add @orderBy argument directive 
+658,2019-03-10 01:20:44.000000000,2019-04-04 16:21:17.000000000,closed,3,Custom validator with @validate and @create directive - validation ignored
+657,2019-03-07 21:38:02.000000000,2019-05-27 01:16:25.000000000,closed,6,New layout for docs
+656,2019-03-07 12:39:08.000000000,2019-04-26 08:44:30.000000000,closed,1,Static analysis
+655,2019-03-06 17:22:58.000000000,1970-01-01 00:00:00.000000001,open,4,Standardize error messages
+654,2019-03-06 17:01:02.000000000,2019-07-25 00:55:58.000000000,closed,1,Usage of the app helper
+653,2019-03-06 16:02:22.000000000,2019-03-06 18:43:41.000000000,closed,4,Usage of strtolower/strtoupper
+652,2019-03-06 15:48:39.000000000,2019-03-14 01:45:19.000000000,closed,1,Usage of the collect helper
+651,2019-03-06 13:31:26.000000000,1970-01-01 00:00:00.000000001,open,3,Automatic persisted queries
+650,2019-03-06 12:43:06.000000000,2019-03-06 18:53:09.000000000,closed,1,Add docker config for Xdebug
+649,2019-03-06 00:12:28.000000000,2019-03-06 01:38:43.000000000,closed,4,Installation issue with laravel 5.8
+648,2019-03-05 01:11:50.000000000,2019-03-05 01:12:02.000000000,closed,0,"Revert ""[WIP] Fix PHPUnit 8 depreciation warnings."""
+647,2019-03-05 01:07:19.000000000,2019-03-07 22:58:12.000000000,closed,0,[WIP] Get rid of helpers.
+646,2019-03-05 00:56:11.000000000,2019-03-05 01:10:17.000000000,closed,5,[WIP] Fix PHPUnit 8 depreciation warnings.
+645,2019-03-04 14:56:40.000000000,2019-03-13 23:32:51.000000000,closed,30,Event based request lifecycle
+644,2019-03-04 14:50:45.000000000,2019-03-05 23:26:13.000000000,closed,1,Add docs for error handling
+643,2019-03-04 03:15:16.000000000,2019-03-04 13:11:32.000000000,closed,1,How to create a directive to prevent a mutation to be resolved based on a condition?
+642,2019-03-04 03:08:05.000000000,2019-04-04 16:10:11.000000000,closed,2,How would I append an error to the error list using a custom directive?
+641,2019-03-03 23:34:58.000000000,2019-03-04 13:01:41.000000000,closed,1,Add an article to the resources tab
+640,2019-03-01 23:18:20.000000000,2019-03-04 12:18:20.000000000,closed,0,Some code fixes.
+639,2019-03-01 22:52:40.000000000,2019-03-04 12:14:44.000000000,closed,0,Some codstyle fixes
+638,2019-03-01 17:41:24.000000000,2019-03-03 00:03:18.000000000,closed,2,How to use custom relation
+637,2019-03-01 17:22:32.000000000,2019-03-04 12:15:12.000000000,closed,0,Avoid braces on new.
+636,2019-03-01 12:25:55.000000000,2019-05-29 07:24:16.000000000,closed,13,Large schema with many @paginate queries uses up too much memory
+635,2019-03-01 04:02:15.000000000,2019-03-01 06:58:26.000000000,closed,1,Redirect to custom domain
+634,2019-03-01 03:31:00.000000000,2019-03-01 20:32:08.000000000,closed,1,Stay consistant with Laravel style and import Closure
+633,2019-03-01 03:15:42.000000000,2019-03-01 06:57:01.000000000,closed,1,Import caught exceptions.
+632,2019-03-01 03:13:40.000000000,2019-03-01 06:55:18.000000000,closed,1,Remove useless braces with new.
+631,2019-03-01 02:12:59.000000000,2019-03-01 02:21:31.000000000,closed,0,Always use app() helper.
+630,2019-03-01 02:06:15.000000000,2019-03-01 02:18:49.000000000,closed,0,Comment empty statements and add missing imports.
+629,2019-03-01 01:44:22.000000000,2019-03-01 01:45:30.000000000,closed,1,"Revert ""Provide support for Laravel 5.8"""
+628,2019-02-28 22:54:12.000000000,2019-03-16 00:50:16.000000000,closed,26,Add support for file uploads
+627,2019-02-28 20:51:30.000000000,2019-03-01 01:49:15.000000000,closed,1,"[Lumen support] Call to undefined method Laravel\Lumen\Routing\Router::getMiddleware() when using @middleware(checks: [""auth:api""]) "
+626,2019-02-28 20:17:45.000000000,2019-03-01 01:43:40.000000000,closed,1,Provide support for Laravel 5.8
+625,2019-02-28 20:12:14.000000000,2019-03-01 06:53:38.000000000,closed,3,Actually use Y-m-d H:i:s for DateTime scalar
+624,2019-02-28 19:56:12.000000000,2019-02-28 20:13:29.000000000,closed,0,Fix some docblocks and apply consistant style
+623,2019-02-28 19:47:30.000000000,2019-03-01 02:22:06.000000000,closed,5,Laravel 5.8 support
+622,2019-02-27 18:06:55.000000000,2019-05-30 23:34:48.000000000,closed,1,Add documentation about Node and Field custom directives
+621,2019-02-27 15:26:18.000000000,2019-02-28 19:17:18.000000000,closed,8,Provide Laravel 5.8 support.
+620,2019-02-27 00:20:34.000000000,2019-04-27 03:56:41.000000000,closed,12,Change default pagination argument from `count` to `first` and add more pagination args
+619,2019-02-26 21:51:38.000000000,2019-02-28 15:16:32.000000000,closed,2,Update composer.json with Laravel 5.8 dependencies.
+618,2019-02-26 20:04:15.000000000,2019-02-26 20:09:42.000000000,closed,1,Undefined class constant 'RETHROW_UNSAFE_EXCEPTIONS'
+617,2019-02-26 02:39:22.000000000,2019-02-26 03:25:27.000000000,closed,1,Fix Travis tests.
+616,2019-02-26 02:22:09.000000000,2019-02-26 02:29:18.000000000,closed,0,Fix tests.
+615,2019-02-26 01:28:44.000000000,2019-02-26 08:38:16.000000000,closed,2,Refactor Travis / Fix tests
+614,2019-02-26 01:13:28.000000000,2019-02-28 19:21:00.000000000,closed,1,Some fixes / tweaks in Execution namepace
+613,2019-02-24 03:30:18.000000000,2019-02-26 21:15:37.000000000,closed,1,Double Negative
+612,2019-02-22 01:16:00.000000000,2019-02-28 19:25:06.000000000,closed,4,Typecast value through schema definition
+611,2019-02-20 14:58:08.000000000,2019-02-28 19:30:47.000000000,closed,1,How to create nested mutations
+610,2019-02-20 08:10:14.000000000,2019-03-05 05:26:04.000000000,closed,8,whereLike Directive
+609,2019-02-17 22:53:03.000000000,2019-02-26 19:10:28.000000000,closed,1,Fix missprint
+608,2019-02-16 01:06:14.000000000,2019-03-17 01:12:59.000000000,closed,16,How would I add custom fields to paginated model?
+607,2019-02-15 20:03:45.000000000,2019-02-28 19:36:45.000000000,closed,1,Default values get inserted as an object instead of the raw value when using @create
+606,2019-02-14 11:06:59.000000000,2019-02-15 11:19:36.000000000,closed,1,Can not import multiple .graphql file
+605,2019-02-13 22:11:43.000000000,2019-02-13 23:01:20.000000000,closed,1,Syntax Error when testing
+604,2019-02-12 01:05:33.000000000,2019-04-04 16:17:38.000000000,closed,1,Filter on many to many relationship with pagination
+603,2019-02-11 08:45:59.000000000,2019-03-17 01:09:28.000000000,closed,1,Filter by Related Model
+602,2019-02-10 01:51:46.000000000,2019-02-28 19:35:39.000000000,closed,2,How to get the current query as array/AST
+601,2019-02-07 20:00:30.000000000,2019-05-18 20:28:49.000000000,closed,3,It does not allow to update and delete data using @globalId
+600,2019-02-07 11:05:45.000000000,2019-02-12 09:33:40.000000000,closed,3,How to make a wildcard search with like operator?
+599,2019-02-04 23:13:09.000000000,2019-03-01 06:53:38.000000000,closed,0,A input of type: DateTime should be accepted in the same format as as output
+598,2019-02-02 22:01:47.000000000,2019-02-05 10:14:20.000000000,closed,3,Prefix the Pusher channels to easily identify them
+597,2019-02-02 20:26:13.000000000,2019-02-05 10:13:49.000000000,closed,1,Use Laravel broadcast connection parameters for Pusher broadcaster
+596,2019-02-01 22:31:04.000000000,2019-04-15 21:16:30.000000000,closed,5,@create and @update flatten parameters do not truly flatten
+595,2019-02-01 07:17:09.000000000,2019-02-01 18:53:10.000000000,closed,3,Field case insensitive
+594,2019-02-01 07:04:04.000000000,2019-02-01 09:16:51.000000000,closed,1,Update tutorial.md
+593,2019-02-01 06:23:27.000000000,2019-02-01 07:01:21.000000000,closed,0,Update tutorial.md
+592,2019-01-30 22:38:41.000000000,2019-03-12 16:54:19.000000000,closed,4,How to use @search directive with scopes
+591,2019-01-30 21:29:09.000000000,2019-01-31 00:00:25.000000000,closed,1,Add Tutorial to Lighthouse Resources
+590,2019-01-30 04:10:12.000000000,2019-03-31 18:26:30.000000000,closed,10,How can I use a custom default resolver?
+589,2019-01-29 01:37:49.000000000,2019-03-17 00:55:58.000000000,closed,6,Is it possible to subscribe to changes without a second request?
+588,2019-01-25 20:08:57.000000000,2019-01-29 15:29:02.000000000,closed,2,[WIP] Custom Lighthouse key for retrieving model
+587,2019-01-24 20:49:57.000000000,2019-01-26 17:59:01.000000000,closed,1,Document @rulesForArray directive and fix bugs
+586,2019-01-24 19:40:00.000000000,2019-03-19 23:24:25.000000000,closed,1,Enhance documentation for nested mutations
+585,2019-01-22 20:05:52.000000000,2019-01-22 20:28:46.000000000,closed,2,Add lighthouse-graphql-passport-auth to resources
+584,2019-01-22 17:22:09.000000000,2019-01-22 19:21:59.000000000,closed,2,Add `guard` argument to `@auth` directive
+583,2019-01-22 16:43:11.000000000,2019-03-19 23:24:24.000000000,closed,3,Enable updating the children of nested mutations within a single request
+582,2019-01-22 11:39:07.000000000,2019-01-22 12:07:54.000000000,closed,1,"Fix error in RuleFactory.php, closes #573"
+581,2019-01-22 01:55:31.000000000,2019-01-22 12:06:50.000000000,closed,3,Prevent crash when invalid JSON variables are given
+580,2019-01-21 20:57:17.000000000,2019-03-16 17:59:37.000000000,closed,15,"Implement orderBy [DESC, ASC] that can be controlled through an argument"
+579,2019-01-21 16:20:15.000000000,2019-01-22 11:58:42.000000000,closed,4,Getting error with auth middleware implementation
+578,2019-01-21 15:43:29.000000000,2019-01-21 15:58:57.000000000,closed,1,Update directives.md
+577,2019-01-18 21:11:14.000000000,2019-01-18 21:11:30.000000000,closed,0,Switch to styleci
+576,2019-01-18 20:51:40.000000000,2019-01-18 20:56:51.000000000,closed,0,Add migration guide
+575,2019-01-18 15:12:59.000000000,2019-01-18 15:54:15.000000000,closed,4,Allow null to be supplied in anonymous function in RuleFactory.php
+574,2019-01-18 14:35:03.000000000,2019-01-18 14:51:02.000000000,closed,0,Fixed bug in RuleFactory.php
+573,2019-01-18 14:33:54.000000000,2019-01-22 17:07:05.000000000,closed,3,Anonymous function in RuleFactory.php throws error
+572,2019-01-17 15:58:20.000000000,2019-05-31 23:06:24.000000000,closed,0,Nested Mutations do not work with subclassed relationship types
+571,2019-01-17 03:06:42.000000000,2019-01-17 09:18:56.000000000,closed,0,Add more extensive and descriptive docs for nested mutations
+570,2019-01-17 01:25:14.000000000,2019-01-17 21:16:20.000000000,closed,7,Issue with Nested Mutations and relations
+569,2019-01-15 20:09:14.000000000,2019-03-16 17:55:54.000000000,closed,10,Add config & directive argument for `@paginate` to limit the maximum requested count
+568,2019-01-15 16:22:47.000000000,2019-01-15 18:04:28.000000000,closed,6,@scalar directive throws exception if class name or namespace is not defined in schema
+567,2019-01-15 15:58:45.000000000,2019-01-15 18:01:01.000000000,closed,0,Fix typo
+566,2019-01-15 02:29:03.000000000,2019-01-18 23:17:53.000000000,closed,1,Consistently spread ternarys across multiple lines
+565,2019-01-15 02:16:22.000000000,2019-01-16 06:05:29.000000000,closed,0,Avoid using Laravel helpers
+564,2019-01-15 02:07:03.000000000,2019-01-16 06:05:06.000000000,closed,0,Consistent descriptions for subscription methods
+563,2019-01-15 02:06:47.000000000,2019-01-16 06:04:42.000000000,closed,0,Use FQCN and prefer ::class
+562,2019-01-15 00:57:55.000000000,2019-01-15 21:44:41.000000000,closed,1,"Rename the ""queue"" argument for @broadcast to ""shouldQueue"""
+561,2019-01-15 00:47:03.000000000,2019-01-15 21:43:41.000000000,closed,1,"Add missing DeferExtension to the config, some formatting"
+560,2019-01-14 13:17:08.000000000,2019-01-14 13:40:05.000000000,closed,1,Remove unnecessary time assignment CategoryFactory
+559,2019-01-11 15:00:15.000000000,2019-01-11 15:00:25.000000000,closed,0,Remove duplicate @update directive docs
+558,2019-01-10 00:20:15.000000000,2019-01-12 02:49:11.000000000,closed,0,Add hint to contribution guidelines about usage of the response() helper
+557,2019-01-09 03:50:02.000000000,2019-01-11 21:22:13.000000000,closed,0,Just the changes to the tests from PR #518
+556,2019-01-08 23:59:00.000000000,2019-01-09 02:10:27.000000000,closed,0,Add .DS_Store to .gitignore
+555,2019-01-08 23:54:11.000000000,2019-01-09 01:20:28.000000000,closed,1,Update the copyright year in the footer
+554,2019-01-08 23:47:56.000000000,2019-01-08 23:54:36.000000000,closed,1,Compress bg-hero@2x.png (797kb smaller)
+553,2019-01-07 21:37:16.000000000,2019-01-08 01:14:34.000000000,closed,0,Format the config like Laravel does it
+552,2019-01-06 09:10:48.000000000,2019-01-06 17:02:57.000000000,closed,15,Error Handling: Throw a user-friendly authentication exception to include in the response
+551,2019-01-06 01:03:48.000000000,2019-01-06 16:55:45.000000000,closed,2,Fix field stub by PSR
+550,2019-01-05 20:35:08.000000000,2019-10-02 19:00:54.000000000,closed,2,@paginate causes default model detection to fail
+549,2019-01-05 17:46:10.000000000,2019-03-19 23:24:25.000000000,closed,28,Populating nested mutations with other relationships for @update
+548,2019-01-04 00:16:17.000000000,2019-01-04 07:06:49.000000000,closed,1,Treat subscriptions just like other fields
+547,2019-01-03 21:03:16.000000000,2019-01-03 21:56:26.000000000,closed,0,[Feat] Add default subscription namespace
+546,2019-01-03 04:16:31.000000000,2019-01-03 12:06:10.000000000,closed,0,Stop bubbling up exceptions docblocks
+545,2019-01-03 03:56:32.000000000,2019-01-03 12:06:56.000000000,closed,0,Get rid of useless else & elseif.
+544,2019-01-03 00:15:17.000000000,2019-01-03 00:39:33.000000000,closed,1,Prefer shorter list syntax.
+543,2019-01-03 00:05:13.000000000,2019-01-03 00:45:41.000000000,closed,1,Replace is_null() with === null.
+542,2019-01-02 23:56:39.000000000,2019-01-03 00:35:59.000000000,closed,1,Enforce stricter comparisons.
+541,2019-01-02 04:13:21.000000000,2019-01-02 12:28:41.000000000,closed,0,Cleanup tests database namespace.
+540,2019-01-02 04:06:18.000000000,2019-01-02 12:55:45.000000000,closed,1,Cleanup GraphQL.
+539,2019-01-02 03:52:00.000000000,2019-01-02 12:42:47.000000000,closed,0,Update Readme list
+538,2019-01-01 22:52:41.000000000,2019-04-15 21:16:30.000000000,closed,0,Use all ArgumentDirectives for Input Types
+537,2019-01-01 22:26:39.000000000,2019-01-02 12:43:23.000000000,closed,0,Enforce ::class notation.
+536,2019-01-01 21:53:48.000000000,2019-01-02 12:50:46.000000000,closed,0,Do not use functions backslashes.
+535,2019-01-01 21:45:19.000000000,2019-01-02 12:44:23.000000000,closed,0,Clean up tests.
+534,2019-01-01 21:27:44.000000000,2019-01-02 12:51:40.000000000,closed,0,Do not use yoda-style notation.
+533,2019-01-01 18:09:11.000000000,2019-01-02 12:54:59.000000000,closed,1,Fixed rendering of where directive in documentation
+532,2018-12-31 23:17:34.000000000,2018-12-31 23:31:02.000000000,closed,0,Missing import + docblocks in service provider.
+531,2018-12-31 23:10:12.000000000,2019-01-02 03:39:03.000000000,closed,3,@throws annotations in PHPDoc blocks
+530,2018-12-31 23:04:01.000000000,2019-03-04 02:50:19.000000000,closed,5,Fully qualified class names in PHPDoc
+529,2018-12-31 22:52:21.000000000,2019-01-02 12:28:11.000000000,closed,0,Events + Exceptions comments and return types.
+528,2018-12-29 07:32:28.000000000,2018-12-29 09:26:58.000000000,closed,1,Update directives.md
+527,2018-12-28 00:29:05.000000000,2019-01-02 03:45:13.000000000,closed,2,Console comments and return types.
+526,2018-12-28 00:03:18.000000000,2018-12-28 00:09:27.000000000,closed,0,Enable Travis for PHP 7.3.
+525,2018-12-27 23:42:26.000000000,2018-12-28 00:10:30.000000000,closed,7,Allow defining default namespaces as an array
+524,2018-12-27 23:21:59.000000000,2018-12-27 23:22:19.000000000,closed,0,Add styleci badge to README
+523,2018-12-27 22:38:25.000000000,2018-12-27 22:46:45.000000000,closed,3,Promote StyleCI.
+522,2018-12-27 21:33:11.000000000,2018-12-27 22:57:53.000000000,closed,0,[Feat] Deprecated directive
+521,2018-12-25 07:58:31.000000000,2019-12-03 03:10:33.000000000,closed,11,Use `@rename` on arguments/input object values
+520,2018-12-21 15:55:49.000000000,2018-12-24 18:44:40.000000000,closed,4,Replace `DirectiveRegistry` with `DirectiveFactory` to lazy load directives
+519,2018-12-20 14:36:16.000000000,2018-12-21 21:50:29.000000000,closed,6,Prevent name conflict between argument names and non-relation methods when executing nested mutations
+518,2018-12-19 20:23:38.000000000,2019-01-11 19:47:59.000000000,closed,3,Laravel & PHP 7.1 style type definitions
+517,2018-12-19 20:14:41.000000000,2018-12-21 03:32:59.000000000,closed,1,Bump webonyx/graphql-php to ^0.13 and php to >= 7.1
+516,2018-12-17 15:53:25.000000000,2019-07-25 00:57:42.000000000,closed,4,Allow configuration of the authentication mechanism
+515,2018-12-17 12:39:14.000000000,2018-12-17 12:39:43.000000000,closed,0,Make the error messages returned by @can more friendly
+514,2018-12-17 05:27:05.000000000,2019-01-04 18:23:56.000000000,closed,15,[Feat] Populating nested mutations with other relationships for @create
+513,2018-12-16 22:25:18.000000000,2018-12-17 00:50:34.000000000,closed,1,Subscriptions review
+512,2018-12-16 20:46:18.000000000,2018-12-19 07:19:49.000000000,closed,35,[Feat] Make mutating directives transactional (@create and @update)
+511,2018-12-16 11:36:54.000000000,2018-12-16 19:42:29.000000000,closed,4,Being able to set injected value with dot notation deeper
+510,2018-12-14 21:13:59.000000000,2018-12-17 12:06:51.000000000,closed,3,Add docs for nested mutations for BelongsTo relationships
+509,2018-12-14 20:30:17.000000000,2018-12-14 20:49:50.000000000,closed,1, Refresh newly created models before returning them
+508,2018-12-14 19:49:57.000000000,2018-12-14 20:47:56.000000000,closed,1,[FIX] Adjust key in BatchLoader for batched queries
+507,2018-12-14 08:25:14.000000000,2018-12-21 21:50:29.000000000,closed,21,Argument names in nested mutations conflict with non-relation methods on the model
+506,2018-12-13 15:36:53.000000000,2018-12-14 20:34:00.000000000,closed,2,Many To Many Polymorphic
+505,2018-12-12 19:56:15.000000000,2018-12-17 12:39:43.000000000,closed,6,@can directive not working as expected.
+504,2018-12-12 18:11:21.000000000,2018-12-12 19:32:33.000000000,closed,2,lighthouse-php Not Working on Laravel 5.7
+503,2018-12-11 23:17:31.000000000,2019-03-16 17:55:54.000000000,closed,2,"Add option to limit ""count"" in @paginate directive"
+502,2018-12-11 21:51:42.000000000,2018-12-12 13:15:15.000000000,closed,4,Paginate builder with model class
+501,2018-12-11 20:54:41.000000000,2018-12-14 20:49:50.000000000,closed,0,Default values set through the database fail to be returned during @create
+500,2018-12-11 20:50:55.000000000,2019-04-22 01:14:28.000000000,closed,0,ModelNotFoundException leads to 404
+499,2018-12-10 11:11:00.000000000,2019-03-19 17:28:47.000000000,closed,2,Remove global function helpers entirely
+498,2018-12-10 01:43:15.000000000,2018-12-27 23:23:41.000000000,closed,7,[RFC] Code style & autoformatting
+497,2018-12-10 00:18:56.000000000,2018-12-10 00:27:09.000000000,closed,0,Let phpunit selects the proper mockery version to install.
+496,2018-12-09 23:46:15.000000000,2018-12-10 01:31:07.000000000,closed,1,Do not use yoda style.
+495,2018-12-09 23:34:04.000000000,2018-12-10 01:32:41.000000000,closed,1,Let composer decide which packages it should install.
+494,2018-12-09 23:25:16.000000000,2018-12-10 01:32:35.000000000,closed,1,Remove prestissimo from Travis build.
+493,2018-12-09 23:21:01.000000000,2018-12-10 01:36:08.000000000,closed,0,Re-enable codecov
+492,2018-12-09 22:52:33.000000000,2018-12-10 01:32:50.000000000,closed,1,Use PHP_EOL PHP constant.
+491,2018-12-09 22:35:36.000000000,2018-12-09 22:37:04.000000000,closed,1,Ensure all imports are ordered by size
+490,2018-12-09 22:32:46.000000000,2018-12-09 22:35:56.000000000,closed,0,Ensure all tests classes extend Tests\TestCase.
+489,2018-12-09 22:19:34.000000000,2018-12-09 22:37:59.000000000,closed,0,Avoid string helpers functions.
+488,2018-12-09 20:29:30.000000000,2018-12-10 01:27:25.000000000,closed,12,Avoid array helpers functions.
+487,2018-12-09 20:19:30.000000000,2018-12-09 22:41:37.000000000,closed,0,Directly call app().
+486,2018-12-09 19:52:16.000000000,2018-12-10 02:59:39.000000000,closed,0,Make the `@method` call consistent with all other resolvers
+485,2018-12-09 19:49:22.000000000,2018-12-10 01:28:02.000000000,closed,10,Promote StyleCI.
+484,2018-12-09 18:42:16.000000000,2018-12-10 02:47:03.000000000,closed,1,Update the master docs to the latest changes
+483,2018-12-09 17:19:22.000000000,2018-12-09 17:25:10.000000000,closed,0,Ensure all comments are aligned in config files.
+482,2018-12-09 17:17:48.000000000,2018-12-09 17:24:44.000000000,closed,0,Remove useless inherited parameter.
+481,2018-12-09 17:06:48.000000000,2018-12-09 17:08:42.000000000,closed,2,Use consistant tests naming convention.
+480,2018-12-09 17:02:29.000000000,2018-12-09 17:08:05.000000000,closed,0,Remove empty test file.
+479,2018-12-09 16:57:28.000000000,2018-12-09 21:18:35.000000000,closed,2,Feat/subscriptions - Lumen compatibility
+478,2018-12-09 16:57:07.000000000,2018-12-09 17:07:49.000000000,closed,0,Prefer stricter string assertions.
+477,2018-12-09 16:54:07.000000000,2018-12-09 17:07:04.000000000,closed,0,Ensure tests setUp and tearDown are protected 
+476,2018-12-09 16:47:47.000000000,2018-12-09 17:05:15.000000000,closed,0,Simplify and make factories consistant.
+475,2018-12-09 16:25:14.000000000,2018-12-09 16:26:55.000000000,closed,1,Remove unused variables.
+474,2018-12-09 16:13:54.000000000,2018-12-09 16:18:35.000000000,closed,0,Get sorted packages and PRETTY_PRINT composer.json 
+473,2018-12-09 16:08:55.000000000,2018-12-09 16:17:23.000000000,closed,0,Remove a useless variable assignment.
+472,2018-12-09 16:05:50.000000000,2018-12-10 02:44:32.000000000,closed,0,"Deduplicate the information on the docs landing page, fix some formatting"
+471,2018-12-09 16:05:45.000000000,2018-12-09 16:10:05.000000000,closed,1,Remove useless imports.
+470,2018-12-09 16:00:29.000000000,2018-12-09 16:06:37.000000000,closed,0,Fix some docblocks.
+469,2018-12-09 07:44:30.000000000,2018-12-10 12:55:33.000000000,closed,2,Fix custom primary keyed models
+468,2018-12-08 19:12:07.000000000,2018-12-10 01:34:30.000000000,closed,2,[WIP] Enable Travis for PHP 7.3.
+467,2018-12-08 18:53:26.000000000,2018-12-09 15:13:54.000000000,closed,3,Add missing imports.
+466,2018-12-07 22:47:21.000000000,2018-12-08 15:19:12.000000000,closed,1,"Adding the ""cache.tag"" option to the default configuration"
+465,2018-12-07 22:36:43.000000000,2018-12-08 15:20:34.000000000,closed,1,Copy the @cache directive to master documentation #464
+464,2018-12-07 04:06:05.000000000,2018-12-20 08:55:54.000000000,closed,1,Add the @cache directive to the documentation
+463,2018-12-04 04:39:52.000000000,2018-12-04 16:03:01.000000000,closed,3,Retrieve missing docs
+462,2018-12-03 16:52:57.000000000,2018-12-03 18:40:41.000000000,closed,1,[Docs] Added company who uses Lighthouse
+461,2018-12-02 23:41:02.000000000,2018-12-07 18:51:40.000000000,closed,0,[DOCS] Defer Extension
+460,2018-12-02 20:59:40.000000000,2018-12-02 21:08:09.000000000,closed,1,[DOCS] Fill in users section
+459,2018-12-02 20:14:26.000000000,2018-12-10 02:44:32.000000000,closed,3,Too few emojis
+458,2018-12-02 20:12:40.000000000,2018-12-02 20:23:31.000000000,closed,2,[DOCS] Add margins to p tags in content
+457,2018-12-02 20:06:05.000000000,2018-12-02 21:08:09.000000000,closed,6,"Missing the ""Users"" page in the new docs"
+456,2018-12-02 20:02:59.000000000,2018-12-02 20:23:31.000000000,closed,0,Paragraphs are missing vertical spacing
+455,2018-12-01 21:45:36.000000000,2018-12-01 21:56:34.000000000,closed,0,[Docs] Add routes to internal pages
+454,2018-12-01 02:28:25.000000000,2018-12-01 08:12:25.000000000,closed,2,[DOCS] Style Adjustments
+453,2018-12-01 01:44:57.000000000,2018-12-04 02:04:54.000000000,closed,3,"""Laravel GraphQL Gotchas"" painpoints"
+452,2018-11-30 17:33:31.000000000,2018-11-30 17:38:05.000000000,closed,1,Set Date to startOfDay
+451,2018-11-29 16:26:40.000000000,2018-12-09 19:31:04.000000000,closed,1,Custom rules message with translation
+450,2018-11-29 08:21:40.000000000,2018-11-30 04:52:10.000000000,closed,0,Docs (master): Add `key` argument for @eq operator
+449,2018-11-29 08:17:27.000000000,2018-11-30 04:51:58.000000000,closed,1,Docs (2.6): Add `key` argument for @eq operator
+448,2018-11-28 18:37:18.000000000,2018-11-28 20:13:26.000000000,closed,3,[Docs] Added @search directive
+447,2018-11-28 17:12:02.000000000,2018-11-28 17:12:13.000000000,closed,0,"Fix @rules example with messages, remove references to deleted @validate directive"
+446,2018-11-28 00:45:31.000000000,2018-11-28 00:49:47.000000000,closed,0,Bring the github/repo stuff up to speed with the mono repo docs
+445,2018-11-27 22:15:32.000000000,2018-12-09 22:40:03.000000000,closed,13,Lighthouse 2.5 - 2.6 breaks laravel-cors
+444,2018-11-27 21:10:25.000000000,2020-05-01 01:36:52.000000000,closed,1,Support user-based schema introspection
+443,2018-11-27 20:05:04.000000000,2018-11-27 21:36:04.000000000,closed,1,Change now()-helper to Carbon::now()
+442,2018-11-27 19:08:39.000000000,2018-12-21 12:07:01.000000000,closed,2,Optional parameter before required
+441,2018-11-26 23:42:04.000000000,2018-12-17 23:06:06.000000000,closed,57,Simplify argument directive structure and optimize execution
+440,2018-11-26 18:01:29.000000000,2018-11-26 19:32:51.000000000,closed,0,Fix latest version method
+439,2018-11-26 17:26:35.000000000,2018-12-28 00:10:30.000000000,closed,2,Allow defining an array of namespaces to try
+438,2018-11-26 13:16:25.000000000,2018-12-28 00:10:30.000000000,closed,2,"Default model namespaces fail if the model is named like a Facade, e.g. `Log`"
+437,2018-11-26 12:22:30.000000000,2018-11-26 15:54:17.000000000,closed,2,Added @search directive to docs
+436,2018-11-26 07:35:40.000000000,2018-12-01 21:35:21.000000000,closed,1,Support querying for models with composite primary key
+435,2018-11-25 18:17:43.000000000,2018-11-26 20:17:02.000000000,closed,1," Remove deprecated traits, classes, methods, directives, various options and cruft"
+434,2018-11-22 03:08:27.000000000,2018-11-26 17:27:26.000000000,closed,4,Allow multiple model namespaces in config
+433,2018-11-21 18:48:58.000000000,2018-11-25 21:58:47.000000000,closed,9,[Vote][RFC] Changes to the docs structure
+432,2018-11-20 06:41:42.000000000,2018-11-20 06:50:44.000000000,closed,0,[Feat] Add shortcut to get NodeValue type definition fields
+431,2018-11-20 06:31:02.000000000,2018-12-21 21:51:28.000000000,closed,4,Allow user to be guest when using the @can directive
+430,2018-11-17 09:59:32.000000000,2018-11-20 06:33:30.000000000,closed,1,Bad argument default value in mutation
+429,2018-11-17 08:51:24.000000000,2018-11-25 20:46:35.000000000,closed,20,src + docs = mono repository
+428,2018-11-13 17:11:24.000000000,2018-11-14 20:06:20.000000000,closed,6,Add support for a default count value for paginators
+427,2018-11-13 16:00:21.000000000,2018-11-20 06:33:30.000000000,closed,4,Clean validation
+426,2018-11-12 17:45:08.000000000,2018-11-14 20:06:20.000000000,closed,7,Add support for a default count value for paginators
+425,2018-11-11 00:17:41.000000000,2018-11-19 21:11:45.000000000,closed,1,DO-NOT-MERGE Rework how AST nodes are converted into the executable schema
+424,2018-11-10 23:57:57.000000000,2018-11-11 00:00:37.000000000,closed,0,Formatting plus some PHPDoc cleanup
+423,2018-11-10 22:56:22.000000000,2018-11-14 19:11:28.000000000,closed,0,Change the default schema location and namespaces as voted for in #417
+422,2018-11-07 20:28:19.000000000,2018-11-14 20:21:12.000000000,closed,1,[Feature] @defer support
+421,2018-11-03 10:11:49.000000000,2019-05-18 00:54:53.000000000,closed,9,"Since v2.5, the `@middleware` directive does not work with Lumen"
+420,2018-11-02 14:44:48.000000000,2018-11-03 01:21:49.000000000,closed,1,Throw a helpful error message if the schema is not found
+419,2018-11-02 12:58:26.000000000,2018-11-02 13:38:25.000000000,closed,0,Allow publishing the schema and config seperately
+418,2018-11-02 08:41:13.000000000,2019-05-08 13:29:32.000000000,closed,5,@paginate directive does not use namespace defined in @group
+417,2018-11-02 02:54:38.000000000,2018-11-14 19:11:28.000000000,closed,10,[Vote][RFC] Default namespaces
+416,2018-11-02 02:45:59.000000000,2018-11-03 01:21:10.000000000,closed,0,export-ignore some more unneeded stuff
+415,2018-11-02 02:45:33.000000000,2018-11-02 02:45:42.000000000,closed,0,Properly comment out the dummy texts in the issue template
+414,2018-11-02 01:48:52.000000000,2018-11-03 01:20:52.000000000,closed,1,Enable usage of the default field namespace for @complexity
+413,2018-11-01 15:34:02.000000000,2019-05-30 23:33:18.000000000,closed,12,Define advanced validation rules through method reference
+412,2018-10-29 17:33:22.000000000,2018-10-29 18:35:55.000000000,closed,0,[Fix] Lumen request array access
+411,2018-10-28 16:21:59.000000000,2018-10-29 18:35:55.000000000,closed,3,Controller handling of batched queries breaks Lumen
+410,2018-10-25 14:41:17.000000000,2018-10-25 19:31:56.000000000,closed,2,[Bugfix]Add new line to the end of the imported file
+409,2018-10-24 17:13:56.000000000,2018-10-24 17:37:12.000000000,closed,0,Default to field name if no explicit value is given for an ENUM
+408,2018-10-23 14:08:50.000000000,2018-12-27 22:57:53.000000000,closed,2,Support @deprecated directive
+407,2018-10-20 01:50:25.000000000,2018-10-21 23:35:21.000000000,closed,4,How to handle a partial error? 
+406,2018-10-19 19:34:51.000000000,2018-10-27 17:54:46.000000000,closed,0,Fix the default namespace resolution
+405,2018-10-19 17:01:26.000000000,2018-10-19 17:18:01.000000000,closed,0,Add/correct type annotations and fix formatting
+404,2018-10-19 16:44:38.000000000,2018-10-19 16:48:49.000000000,closed,0,Change the type annotation for the default field resolver to a nullable GraphQLContext
+403,2018-10-19 15:41:30.000000000,2018-12-10 02:59:39.000000000,closed,3,Make the @method call consistent with all other resolvers.
+402,2018-10-19 05:30:19.000000000,2018-10-27 17:54:46.000000000,closed,6,Extended types does not respect root @group(namespace) directive
+401,2018-10-18 19:11:47.000000000,2018-10-20 14:03:34.000000000,closed,0,Capitalize the class name in generator commands
+400,2018-10-18 17:30:54.000000000,2019-05-29 07:24:15.000000000,closed,12,Lazy-load types from the serialized AST
+399,2018-10-18 14:52:38.000000000,2018-10-18 18:39:05.000000000,closed,4,Prevent duplicate type extension nodes and duplicate fields
+398,2018-10-18 12:46:10.000000000,2018-10-18 15:57:42.000000000,closed,4,Add getRoothPath to SchemaStitcher
+397,2018-10-17 13:58:03.000000000,2018-10-17 14:05:01.000000000,closed,3,"Middleware @group(middleware: [""auth:api""]) not working on tests"
+396,2018-10-17 12:22:12.000000000,2019-03-19 23:24:24.000000000,closed,0,Support BelongsToMany relationships in nested mutations
+395,2018-10-17 01:48:33.000000000,2018-10-24 00:45:54.000000000,closed,3,Run middleware on a per-field basis
+394,2018-10-16 18:34:28.000000000,2018-10-27 17:54:46.000000000,closed,4,Resolve default namespaces for Queries and Mutations.
+393,2018-10-16 16:12:10.000000000,2018-10-16 16:22:44.000000000,closed,2,Version 2 not allowing empty query/mutation definition in root schema file
+392,2018-10-16 10:46:17.000000000,2018-10-18 18:15:13.000000000,closed,1,Field and mutation generator commands
+391,2018-10-16 03:10:13.000000000,2018-10-16 03:53:32.000000000,closed,0,[Feat] Extension Manipulate Response
+390,2018-10-16 00:01:58.000000000,2018-10-16 00:21:35.000000000,closed,0,Double pagination in 2.3
+389,2018-10-15 23:19:57.000000000,2018-10-15 23:23:31.000000000,closed,0,itCanPointToScalarClassThroughDirectiveWithoutNamespace
+388,2018-10-15 19:20:26.000000000,2018-10-15 23:23:31.000000000,closed,1,Scalar class is not resolved when using @scalar in v2.3
+387,2018-10-15 16:38:45.000000000,2018-10-18 18:39:05.000000000,closed,2,"Using @group in ""extend type"" causes incorrectly nested types when using @paginate"
+386,2018-10-15 08:26:03.000000000,2018-10-15 18:51:03.000000000,closed,1,[Feat] Context Contract
+385,2018-10-14 08:37:11.000000000,2018-10-24 00:45:54.000000000,closed,9,Disable global middleware for a subset of fields
+384,2018-10-14 07:34:45.000000000,2018-10-14 23:03:35.000000000,closed,3,[Question] Default namespaces
+383,2018-10-14 06:28:22.000000000,2018-10-14 06:39:48.000000000,closed,0,"@paginate directive with ""builder"" argument  does not respect @group directive"
+382,2018-10-12 22:47:54.000000000,2018-10-13 00:38:55.000000000,closed,0,[Hotfix] Route Check
+381,2018-10-12 18:03:28.000000000,2018-10-15 18:30:43.000000000,closed,1,Document the functionality of nested Mutations
+380,2018-10-12 15:35:16.000000000,2018-12-13 17:44:10.000000000,closed,8,Add `@with` directive for eager-loading any relation
+379,2018-10-12 03:51:50.000000000,2018-10-12 05:40:06.000000000,closed,0,[Feat] Batched Queries
+378,2018-10-11 15:37:47.000000000,2018-10-13 17:07:30.000000000,closed,7,Breaks artisan route:list
+377,2018-10-10 13:24:24.000000000,2018-11-11 00:11:58.000000000,closed,1,Hacktoberfest 2018
+376,2018-10-10 13:16:33.000000000,2018-10-12 05:27:59.000000000,closed,0,Make the docs link appear more visible in the README
+375,2018-10-10 13:03:38.000000000,2018-10-10 13:05:31.000000000,closed,1,`@bcrypt` won't work with input object field
+374,2018-10-09 15:01:33.000000000,2018-10-09 15:08:18.000000000,closed,3,Organize Schema suggestion
+373,2018-10-09 14:56:16.000000000,2018-10-09 16:01:25.000000000,closed,3,@auth allow pass parameter
+372,2018-10-09 14:35:18.000000000,2018-12-21 08:10:02.000000000,closed,7,Use `@bcrypt` in input type
+371,2018-10-08 22:23:05.000000000,2019-08-30 12:18:04.000000000,closed,18,Autogenerate schema definitions for directives
+370,2018-10-08 15:49:39.000000000,2018-10-08 16:29:45.000000000,closed,0,Fix coverage generation in travis
+369,2018-10-08 13:49:55.000000000,2018-10-08 15:29:52.000000000,closed,1,"[Feature request] about `@bcrypt`,`@auth` and organize Schema"
+368,2018-10-07 16:03:40.000000000,2018-10-12 05:27:46.000000000,closed,10,[Enhancement] Rework the business logic of relation directives
+367,2018-10-07 00:43:25.000000000,2018-10-08 06:55:33.000000000,closed,4,Fix paginator total attribute being null with visibility set on models
+366,2018-10-05 20:05:23.000000000,2018-10-06 14:22:48.000000000,closed,1,Make firstItem and lastItem nullable in PaginatorInfo
+365,2018-10-05 17:26:06.000000000,2018-10-06 14:22:48.000000000,closed,0,PaginatorInfo fails when results are empty
+364,2018-10-05 08:23:04.000000000,2018-10-05 10:44:34.000000000,closed,2,Do not try to encode a cursor when the result of a Connection is empty
+363,2018-10-04 15:17:15.000000000,2018-10-24 00:45:54.000000000,closed,2,Run middleware inside of GraphQL execution
+362,2018-10-03 15:23:35.000000000,2018-10-08 06:54:18.000000000,closed,14,Ensure that the pagination/connection/relay type is only registered once
+361,2018-10-03 13:28:52.000000000,2018-10-05 01:20:12.000000000,closed,19,[Bugfix & Refactor]`eagerLoadCount` cleanup & potential bug fix
+360,2018-10-03 12:55:01.000000000,2018-10-05 01:26:17.000000000,closed,0,Up the travis memory_limit to 4G
+359,2018-10-03 02:51:29.000000000,2018-10-03 13:08:53.000000000,closed,1,resolves #284 injection
+358,2018-10-02 22:35:58.000000000,2018-10-03 13:14:13.000000000,closed,5,Multiple paginators on same type
+357,2018-10-02 20:17:38.000000000,2018-10-08 06:54:18.000000000,closed,1,Can not have multiple paginators of the same type
+356,2018-10-02 19:29:51.000000000,2018-10-08 06:37:40.000000000,closed,1,added Date as new scalar type
+355,2018-10-02 11:39:46.000000000,2018-10-02 11:40:22.000000000,closed,0,Add code guideline to not use Facades
+354,2018-10-02 09:05:02.000000000,2018-10-02 10:17:27.000000000,closed,4,Lacking the `@belongsToMany` directive
+353,2018-10-01 13:22:00.000000000,2018-10-02 12:19:40.000000000,closed,2,Removed dependency on Facades
+352,2018-10-01 13:20:11.000000000,2018-10-02 12:19:40.000000000,closed,2,Forced use of Facades is back..
+351,2018-10-01 12:51:55.000000000,2018-10-01 13:50:51.000000000,closed,1,Force value to array to be able to filter as array
+350,2018-09-28 15:59:52.000000000,2018-09-28 16:43:24.000000000,closed,4,Error to try define a Scalar Type for generic object
+349,2018-09-27 16:45:30.000000000,2018-10-02 17:16:55.000000000,closed,2,Allow adding to the base schema via `BuildingAST` event
+348,2018-09-25 00:20:44.000000000,2018-10-01 23:24:32.000000000,closed,8,A whole bunch of fixes i accumulated over the last few days
+347,2018-09-24 21:11:00.000000000,2018-10-01 13:51:31.000000000,closed,3,Forced the withProperty to an array type.
+346,2018-09-24 21:09:15.000000000,2018-10-01 23:24:32.000000000,closed,0,Error when using $with as a string instead of an array
+345,2018-09-22 10:34:53.000000000,1970-01-01 00:00:00.000000001,open,15,"How to handle required arguments: NonNull (!) vs @rules(apply: [""required""])"
+344,2018-09-21 17:32:50.000000000,2018-09-21 21:46:43.000000000,closed,8,[FIX] Interfaces not providing possible types
+343,2018-09-21 08:30:20.000000000,2018-09-21 08:51:43.000000000,closed,1,[Bug fix]PartialParser can not parse `argument`
+342,2018-09-20 19:51:01.000000000,2018-09-21 21:35:21.000000000,closed,3,Description print
+341,2018-09-20 07:12:19.000000000,2018-09-20 18:45:34.000000000,closed,6,Allow schema import via glob in SchemaStitcher
+340,2018-09-20 05:11:56.000000000,2018-09-20 09:52:54.000000000,closed,1,Type/Field descriptions
+339,2018-09-20 04:15:43.000000000,2018-09-20 16:15:09.000000000,closed,3,[Question] Handling validations
+338,2018-09-19 23:41:38.000000000,2018-10-02 17:16:55.000000000,closed,4,What is the best way to insert my schema to the base schema?
+337,2018-09-19 22:43:20.000000000,2018-12-18 04:19:06.000000000,closed,41,[Feat] Subscriptions (Pusher implementation)
+336,2018-09-19 15:12:14.000000000,2018-09-21 21:35:21.000000000,closed,16,Paginator default resolver fallback
+335,2018-09-19 14:12:37.000000000,2018-09-19 14:30:25.000000000,closed,1,add default namespace for paginate
+334,2018-09-19 13:06:10.000000000,2018-09-19 14:29:34.000000000,closed,2,Fix for #333 - Use connection specified on the model in QueryBuilder
+333,2018-09-19 13:02:03.000000000,2018-09-19 14:29:34.000000000,closed,0,QueryBuilder is not using the connection specified on the model
+332,2018-09-19 01:11:02.000000000,1970-01-01 00:00:00.000000001,open,5,Implement supplementary directives for all Eloquent relationship types
+331,2018-09-18 19:24:55.000000000,2018-09-18 21:38:02.000000000,closed,0,Fix parseLiteral arg to match parent class
+330,2018-09-17 22:49:16.000000000,2018-09-17 23:09:31.000000000,closed,0,Add checklist to issue templates
+329,2018-09-17 20:46:13.000000000,2018-09-18 00:10:35.000000000,closed,3,Will you improve the documentation?
+328,2018-09-17 12:05:23.000000000,2018-09-17 23:09:01.000000000,closed,1,Allow using @globalID on args for decoding
+327,2018-09-17 02:41:53.000000000,2018-09-17 03:45:24.000000000,closed,0,[Refactor] Allow setting root path of schema
+326,2018-09-17 01:04:21.000000000,2018-09-17 01:49:29.000000000,closed,2,Allow passing a custom builder to @paginate instead of a model
+325,2018-09-16 23:17:27.000000000,2018-09-30 16:29:33.000000000,closed,21,Limit access to fields based on a user role
+324,2018-09-16 22:54:40.000000000,2018-09-17 00:25:31.000000000,closed,5,Error when using non-primitive Types in interfaces
+323,2018-09-16 13:40:37.000000000,2018-09-16 13:46:33.000000000,closed,2, Revert #320 and use fetch() instead of load() again
+322,2018-09-16 02:44:19.000000000,2018-09-16 02:51:45.000000000,closed,1,Add ScalarDirective back in and tests that show how Scalars and Unions can still use custom classes and resolvers
+321,2018-09-16 00:54:52.000000000,2018-09-16 02:51:50.000000000,closed,2,[WIP] [Refactor] Type Factory
+320,2018-09-15 21:46:15.000000000,2018-09-16 04:08:22.000000000,closed,0,[WIP] Use Laravel native load functionality instead of rolling our own
+319,2018-09-15 20:26:37.000000000,2018-09-16 18:53:42.000000000,closed,4,hasMany directive is ignoring Anonymous Global Scopes on model
+318,2018-09-15 10:45:53.000000000,2018-10-02 11:12:44.000000000,closed,1,Delete unnecessary assignment in DocumentAST.php
+317,2018-09-14 12:30:21.000000000,2018-09-16 01:19:40.000000000,closed,2,Change the `load` and `tryRegisterClassName` to public method in `DirectiveRegistry` class
+316,2018-09-13 01:32:06.000000000,2018-09-14 17:07:30.000000000,closed,0,Suggest installing mll-lab/laravel-graphql-playground
+315,2018-09-12 05:54:03.000000000,2018-09-12 09:00:37.000000000,closed,1,How to upload files with lighthouse?
+314,2018-09-11 05:24:15.000000000,2018-09-20 18:45:34.000000000,closed,1,[Feat] Schema import multiple files via glob
+313,2018-09-10 15:38:13.000000000,2018-09-11 20:39:55.000000000,closed,3,Deprecate HandlesGlobalId trait
+312,2018-09-10 13:54:13.000000000,2019-05-30 23:31:04.000000000,closed,22,Client side querying
+311,2018-09-10 12:07:01.000000000,1970-01-01 00:00:00.000000001,open,9,Use an actual cursor for relay style pagination
+310,2018-09-10 10:23:00.000000000,2018-09-10 17:23:46.000000000,closed,0,Update GitHub templates
+309,2018-09-10 01:12:52.000000000,2018-09-10 18:12:09.000000000,closed,2,Clear up NodeResolver semantics and make dependencies explicit
+308,2018-09-10 01:03:33.000000000,2018-09-10 17:23:10.000000000,closed,1,Allow deleting multiple models via @delete
+307,2018-09-09 01:26:50.000000000,2018-09-10 17:19:59.000000000,closed,0,[Refactor] Remove original DocumentAST parameters
+306,2018-09-09 01:12:04.000000000,2018-09-11 20:29:42.000000000,closed,3,[Enhancement] Add a `clearCache` method to enable clear document AST cache
+305,2018-09-08 10:01:36.000000000,2018-09-14 17:07:19.000000000,closed,19,"Rework type resolving for Interfaces, Unions and the global id Node interface"
+304,2018-09-08 00:39:56.000000000,2018-09-09 00:58:57.000000000,closed,2,[Refactor] Remove return types on interfaces
+303,2018-09-08 00:32:47.000000000,2018-09-08 20:39:11.000000000,closed,0,[Refactor] Rename .graphqls file extension to .graphql
+302,2018-09-07 20:50:34.000000000,2018-09-17 01:52:24.000000000,closed,10,[Enhancement] Add `resolver` argument to paginate directive
+301,2018-09-07 19:44:28.000000000,2018-09-07 20:24:06.000000000,closed,0,Update Context.php
+300,2018-09-07 16:35:13.000000000,2018-09-10 17:18:25.000000000,closed,0,Annotate types for built in PHP classes with \
+299,2018-09-07 16:18:22.000000000,2018-09-09 00:53:53.000000000,closed,0,Do not append default namespace before the configured namespace
+298,2018-09-07 14:12:32.000000000,2018-09-07 16:39:48.000000000,closed,8,`BaseDirective` class enhancements
+297,2018-09-06 19:28:20.000000000,2018-09-21 21:35:21.000000000,closed,6,Description displays incorrectly
+296,2018-09-05 21:14:51.000000000,2018-09-05 22:08:55.000000000,closed,4,Add the $user to Context only if possible
+295,2018-09-05 20:27:45.000000000,2018-09-05 22:08:57.000000000,closed,7,GraphQLController@query trigger a user error when not auth
+294,2018-09-05 13:38:54.000000000,2018-09-05 13:50:11.000000000,closed,1,[Feature request] Enum vaildation support
+293,2018-09-05 12:15:34.000000000,2018-09-10 17:17:32.000000000,closed,11,Add test for recursive relationships
+292,2018-09-05 08:01:35.000000000,2018-09-07 11:21:09.000000000,closed,15,[Refactoring] Add `getResolver` method to `BaseDirective` class
+291,2018-09-03 10:53:14.000000000,2018-09-05 16:51:35.000000000,closed,2,Align resolver signature with `@field` directive
+290,2018-09-03 04:33:08.000000000,2018-09-04 00:04:24.000000000,closed,3,[Question] How can I filter model using custom conditions with `Paginator` returned ?
+289,2018-09-02 23:56:01.000000000,2018-09-17 11:04:53.000000000,closed,3,[Feature Request] Fallback to default `Union` type resolver.
+288,2018-09-02 22:46:20.000000000,2018-09-06 11:30:09.000000000,closed,3,"There is no explanation about ""fallback resolver"" on the doc?"
+287,2018-09-01 18:13:26.000000000,2018-09-05 12:30:00.000000000,closed,0,Fix for #285 table alias for query
+286,2018-08-31 20:11:09.000000000,2018-09-07 17:21:22.000000000,closed,5,Rework Exception handling and DI
+285,2018-08-31 16:00:37.000000000,2018-09-05 12:30:00.000000000,closed,1,Dot in table name causing sql error
+284,2018-08-31 12:39:09.000000000,2018-10-13 00:35:21.000000000,closed,5,Fix running out of memory when using @inject for the user id
+283,2018-08-31 11:52:34.000000000,1970-01-01 00:00:00.000000001,open,5,Add @api to mark elements of our public API
+282,2018-08-30 19:35:18.000000000,2018-09-05 16:49:01.000000000,closed,0,Add types to the Context constructor
+281,2018-08-30 09:26:40.000000000,2018-09-08 22:35:36.000000000,closed,5,Only the last scopes are called
+280,2018-08-29 11:13:50.000000000,2018-08-30 18:36:00.000000000,closed,1,"Introduce the HasOneDirective and the HasOneLoader, improve BatchLoader semantics"
+279,2018-08-24 12:58:42.000000000,2018-09-04 00:06:56.000000000,closed,4,[RFC] Utilize HTTP status codes
+278,2018-08-22 21:41:32.000000000,2018-09-30 16:33:10.000000000,closed,4,[RFC] Package to auto-generate queries and mutations
+277,2018-08-21 02:42:09.000000000,2018-08-21 21:41:17.000000000,closed,5,Fix default config for `disable_introspection`
+276,2018-08-21 02:08:01.000000000,2018-08-30 18:36:00.000000000,closed,6,[Feature request] Add `@hasOne` directive 
+275,2018-08-20 23:51:33.000000000,2018-09-08 20:39:11.000000000,closed,2,.graphql vs .graphqls
+274,2018-08-20 23:23:24.000000000,2018-08-21 00:56:42.000000000,closed,0,[FIX] Path name for batch loader
+273,2018-08-20 04:36:19.000000000,1970-01-01 00:00:00.000000001,open,18,[Feat] Multiple schemas support
+272,2018-08-18 17:14:34.000000000,2018-08-20 23:42:19.000000000,closed,0,fix issue where the debug setting was affecting local tests
+271,2018-08-18 16:59:36.000000000,2018-08-20 23:41:50.000000000,closed,0,"Type hints, formatting, removing dead code"
+270,2018-08-18 16:50:38.000000000,2018-08-21 01:08:35.000000000,closed,0,Better error message and style fixes
+269,2018-08-18 16:49:04.000000000,2018-08-22 19:00:57.000000000,closed,0,Make the GraphQLController actually return a response
+268,2018-08-18 16:48:52.000000000,2018-08-20 23:32:46.000000000,closed,0,Get rid of pointless indirections and inline config() calss
+267,2018-08-18 16:42:01.000000000,2018-08-20 23:31:59.000000000,closed,0,Replace magic string in Error class by constant
+266,2018-08-18 16:41:45.000000000,2018-08-30 17:43:51.000000000,closed,0,Fix some inconsistencies with Extensions
+265,2018-08-18 16:30:53.000000000,2018-08-20 23:29:46.000000000,closed,0,Add type hints to the validator class
+264,2018-08-18 15:32:42.000000000,2018-08-21 01:07:28.000000000,closed,0,Reorder config
+263,2018-08-18 14:26:02.000000000,2018-08-20 23:25:09.000000000,closed,1,Enable setting security validation rules through the config
+262,2018-08-16 20:43:03.000000000,1970-01-01 00:00:00.000000001,open,5,Error not caught if use @rules directive along with custom scalar type
+261,2018-08-15 14:57:09.000000000,2018-08-16 20:54:00.000000000,closed,0,Remove unused test classes
+260,2018-08-15 14:03:21.000000000,2018-08-16 20:53:45.000000000,closed,0,Use the PartialParser to simplify the NodeFactory tests
+259,2018-08-15 14:02:53.000000000,2018-08-16 20:53:19.000000000,closed,0,"Fix various inspections: Missing return values, missing types..."
+258,2018-08-15 13:57:23.000000000,2018-08-16 20:52:47.000000000,closed,0,Simplify InterfaceDirective and add tests for it & UnionDirective
+257,2018-08-15 13:55:13.000000000,2018-08-16 20:51:05.000000000,closed,0,Convert the descriptions of built-in types to the new syntax
+256,2018-08-15 13:32:52.000000000,2018-08-16 20:50:40.000000000,closed,1,Whitespace & Cleanup
+255,2018-08-14 10:25:00.000000000,2018-08-14 22:07:58.000000000,closed,2,Enable using the GraphQL endpoint via GET by default
+254,2018-08-10 17:53:04.000000000,2018-08-20 12:16:14.000000000,closed,4,Performance issues since v2.1.1 when using large lists
+253,2018-08-09 03:44:39.000000000,2018-08-21 21:40:15.000000000,closed,5,Batching stop working
+252,2018-08-08 18:57:13.000000000,2018-08-14 03:54:10.000000000,closed,1,Use Facade\Request instead of request()
+251,2018-08-08 11:13:55.000000000,2018-08-08 21:30:11.000000000,closed,3,"[Question] How to define the ""description"" for fields?"
+250,2018-08-07 21:34:01.000000000,2018-08-07 23:34:09.000000000,closed,2,[FIX] Batch Key
+249,2018-08-07 20:36:42.000000000,2019-04-15 21:16:29.000000000,closed,12,Also use flatten (nested queries with input types) for @paginate and @all directive
+248,2018-08-07 17:05:23.000000000,2018-08-07 23:21:39.000000000,closed,1,[fix] errors when publishing assets
+247,2018-08-07 07:22:33.000000000,2018-08-07 23:34:09.000000000,closed,4,I cannot access to a field twice.
+246,2018-08-06 15:28:47.000000000,2018-08-07 00:58:30.000000000,closed,1,Add a description for the default DateTime scalar
+245,2018-08-03 17:24:47.000000000,2018-08-03 23:49:39.000000000,closed,1,Auth and can
+244,2018-08-03 13:49:10.000000000,2019-03-28 06:59:42.000000000,closed,7,Policies that require a model instance
+243,2018-08-03 06:56:39.000000000,2018-08-03 18:32:20.000000000,closed,1,add DateTime scalar to default schema
+242,2018-08-01 10:50:39.000000000,2018-08-01 21:15:21.000000000,closed,6,"Pass operationName through executeQuery function, fixes #241"
+241,2018-08-01 10:47:00.000000000,2018-08-01 21:15:23.000000000,closed,0,Using named operations throws error
+240,2018-07-31 15:38:19.000000000,2018-07-31 18:39:44.000000000,closed,5,why not support graphiql
+239,2018-07-31 11:53:13.000000000,2018-08-15 16:54:41.000000000,closed,7,@can and @auth directives does not work in Lumen
+238,2018-07-31 11:41:04.000000000,2018-08-03 18:35:48.000000000,closed,1,[Bug] Unit tests on Travis doesn't fail when running empty test
+237,2018-07-30 22:21:05.000000000,2018-08-03 23:38:24.000000000,closed,3,fix filters when use the same key multiple times. closes #231
+236,2018-07-30 18:44:08.000000000,2018-09-17 23:09:01.000000000,closed,0,@globalId doesn't work for relations in mutations
+235,2018-07-30 18:23:11.000000000,2018-08-14 22:07:06.000000000,closed,12,[Feat] Exception handler
+234,2018-07-27 15:26:45.000000000,2018-07-28 20:44:15.000000000,closed,2,Input types are not validated correctly by Schema Validator
+233,2018-07-27 11:46:03.000000000,2018-07-27 11:57:20.000000000,closed,1,[Proposal] map input types to arrays
+232,2018-07-27 02:14:52.000000000,2018-07-27 23:32:55.000000000,closed,1,Update default-schema.graphql file
+231,2018-07-27 01:21:34.000000000,2018-08-03 23:38:25.000000000,closed,4,Cannot apply two where directives
+230,2018-07-26 10:34:22.000000000,2018-07-30 10:49:01.000000000,closed,7,Load custom directives from other Composer package does not work
+229,2018-07-26 03:44:49.000000000,2018-07-26 16:34:33.000000000,closed,0,Fix some trivial issues
+228,2018-07-26 02:58:41.000000000,2018-07-26 16:34:24.000000000,closed,0,Rename the ScoutDirective to SearchDirective to match its actual name
+227,2018-07-26 02:53:53.000000000,2018-07-26 16:34:15.000000000,closed,0,Add a test for the bcrypt directive
+226,2018-07-25 22:26:33.000000000,2018-07-26 16:34:24.000000000,closed,1,Mismatch between ScoutDirectives class name and Directive name
+225,2018-07-25 15:41:56.000000000,2018-07-25 16:54:27.000000000,closed,2,Relay Compiler Complains About Schema
+224,2018-07-24 12:12:44.000000000,2018-09-24 23:02:25.000000000,closed,5,bcrypt helper function not available in Lumen
+223,2018-07-23 16:28:58.000000000,2018-08-20 23:25:09.000000000,closed,4,Define security options through the config
+222,2018-07-20 03:45:34.000000000,2018-10-27 21:18:50.000000000,closed,2,[Feature] .graphqlconfig file generation
+221,2018-07-19 23:56:35.000000000,2018-07-21 16:22:59.000000000,closed,2,Docs website - broken links
+220,2018-07-19 15:21:27.000000000,2018-07-26 01:39:15.000000000,closed,1,Update to webonyx/graphql-php 0.12
+219,2018-07-19 13:14:54.000000000,2018-07-19 15:07:09.000000000,closed,2,[FEATURE] Easy/optional integration for a GraphQL IDE
+218,2018-07-19 10:38:02.000000000,2018-12-21 03:32:59.000000000,closed,7,[Discussion] Require PHP >= 7.1
+217,2018-07-19 06:34:42.000000000,2018-09-11 20:38:15.000000000,closed,2,[WIP] [Refactor] Utility Classes
+216,2018-07-19 00:49:47.000000000,2018-07-20 04:28:39.000000000,closed,0,Remove unused/dead code
+215,2018-07-19 00:03:51.000000000,2018-07-19 05:46:44.000000000,closed,1,Always resolve scalar types through the ScalarResolver
+214,2018-07-18 23:01:43.000000000,2018-07-19 02:15:52.000000000,closed,0,Deprecate instance method in favor of get
+213,2018-07-18 22:43:51.000000000,2018-07-18 22:48:38.000000000,closed,1,Pin down php image version
+212,2018-07-18 11:50:26.000000000,2018-07-19 10:10:48.000000000,closed,3,Possibility to use @globalId in custom directives
+211,2018-07-18 08:07:40.000000000,2018-07-19 02:14:51.000000000,closed,1,remove sortKeys for compatibility
+210,2018-07-18 01:23:27.000000000,2018-07-18 01:30:49.000000000,closed,0,remove fromRaw from compatibility
+209,2018-07-18 00:38:13.000000000,2018-07-18 00:42:46.000000000,closed,0,[FIX] Query Parsing
+208,2018-07-18 00:19:03.000000000,2018-07-18 00:43:58.000000000,closed,2,type input doesn't allow creation of new model
+207,2018-07-17 18:34:26.000000000,2018-08-07 06:56:00.000000000,closed,26,[Feat] Nested mutations
+206,2018-07-17 11:54:07.000000000,2018-07-18 00:40:08.000000000,closed,0,Enable the all directive to have filters applied to the query
+205,2018-07-17 10:08:05.000000000,2018-07-18 00:40:08.000000000,closed,1,using @hasMany throws an error because $parent is not set
+204,2018-07-17 05:43:25.000000000,2018-07-18 07:22:01.000000000,closed,8,Use of method not available.
+203,2018-07-16 13:15:13.000000000,2018-07-16 13:55:59.000000000,closed,1,Fix typo 'compose' => 'composer' in readme
+202,2018-07-16 07:27:47.000000000,2018-07-16 10:13:47.000000000,closed,3,[Question] 
+201,2018-07-14 19:53:51.000000000,2018-07-14 20:03:05.000000000,closed,0,Use Service Container to resolve directives
+200,2018-07-14 17:42:22.000000000,2018-07-14 17:55:19.000000000,closed,0,add lazyLoad directive
+199,2018-07-14 01:02:23.000000000,2018-07-14 05:58:47.000000000,closed,0,[WIP] Apollo Engine Tracing
+198,2018-07-13 17:46:10.000000000,2018-07-17 22:29:12.000000000,closed,1,Simplify schema stitcher and enable partial imports
+197,2018-07-13 12:46:58.000000000,2018-07-14 05:42:41.000000000,closed,0,Default to field type when no model argument is given
+196,2018-07-13 10:21:38.000000000,2018-07-13 11:39:26.000000000,closed,6,improve documentation
+195,2018-07-13 00:30:41.000000000,2018-07-13 17:10:34.000000000,closed,4,Introduce @all directive which simply gets all models for a field
+194,2018-07-12 20:58:46.000000000,2019-05-08 13:24:57.000000000,closed,6,Consider using Visitor for AST manipulation?
+193,2018-07-12 19:58:28.000000000,2018-07-14 05:42:41.000000000,closed,1,Default to field type when no model argument is given
+192,2018-07-12 19:53:44.000000000,2018-07-12 21:38:33.000000000,closed,1,Get the model class for the directives in the same way for all directives
+191,2018-07-11 07:37:01.000000000,2018-07-14 05:35:02.000000000,closed,0,Server Side Caching
+190,2018-07-09 18:21:30.000000000,2018-07-10 00:52:49.000000000,closed,0,Expand the comments for config.php and clarify the options
+189,2018-07-09 10:48:35.000000000,2018-07-17 22:30:31.000000000,closed,0,Simplify the type hints for Closure to \Closure
+188,2018-07-09 03:43:09.000000000,2018-07-09 04:20:16.000000000,closed,0,Feature: Value Factory
+187,2018-07-09 00:40:41.000000000,2018-07-09 10:13:35.000000000,closed,1,"[Question] Get all, without @paginate  and without custom resolver"
+186,2018-07-08 23:22:53.000000000,2018-07-09 04:10:53.000000000,closed,5,Feature: Middleware Pipeline
+185,2018-07-08 23:06:27.000000000,2018-07-08 23:11:49.000000000,closed,0,[Feature]: Pipeline
+184,2018-07-06 18:42:01.000000000,2018-11-20 06:33:30.000000000,closed,4,"Treat InputObjectValues as InputValueDefinitions, not as FieldDefinitions"
+183,2018-07-05 16:29:18.000000000,2018-08-15 19:10:24.000000000,closed,14,[Question] Using with agnostic service/data layer: introspection not working
+182,2018-07-04 16:31:18.000000000,2018-07-06 00:46:28.000000000,closed,9,Parse without location info and serialize effectively
+181,2018-07-04 11:30:41.000000000,2018-07-05 22:18:09.000000000,closed,0,Add in default schema and publish it
+180,2018-07-02 01:11:27.000000000,2018-07-09 12:34:10.000000000,closed,4, Add scalar & return type hints
+179,2018-07-01 14:56:03.000000000,2018-07-02 21:52:06.000000000,closed,1,Add some more info to the readme to make it a little less empty
+178,2018-07-01 13:55:59.000000000,2018-07-02 21:53:07.000000000,closed,0,Create PR template
+177,2018-07-01 13:39:05.000000000,2018-07-02 21:52:43.000000000,closed,0,Update issue templates
+176,2018-06-29 07:23:19.000000000,2018-06-29 22:56:19.000000000,closed,0,[WIP] Custom Rule Messages
+175,2018-06-29 00:43:37.000000000,2018-06-29 01:17:16.000000000,closed,3,Add tests and fixes to ensure Query and Mutation fields are treated equally
+174,2018-06-28 20:03:10.000000000,2018-06-28 23:48:41.000000000,closed,4,Custom Validator
+173,2018-06-28 10:19:31.000000000,2018-07-13 17:10:34.000000000,closed,8,[Feat] Add @all field directive to query all models
+172,2018-06-28 01:51:48.000000000,2018-06-28 02:06:34.000000000,closed,0,Use original definition hash if provided
+171,2018-06-28 00:52:12.000000000,2018-06-28 02:06:18.000000000,closed,0,Introduce SchemaSourceProvider interface
+170,2018-06-27 18:10:41.000000000,2018-06-28 06:15:50.000000000,closed,13,Error: Schema must contain named types...
+169,2018-06-27 03:50:13.000000000,2018-06-27 03:58:05.000000000,closed,1,DocumentAST Lock
+168,2018-06-26 23:57:47.000000000,2018-06-27 01:56:41.000000000,closed,0,Update rules directive
+167,2018-06-26 19:43:23.000000000,2018-06-26 23:23:09.000000000,closed,7,[WIP] Only generate minimal needed rules
+166,2018-06-26 18:07:29.000000000,2018-06-27 01:28:06.000000000,closed,0,Simple field factory
+165,2018-06-26 11:43:28.000000000,2018-06-27 00:54:10.000000000,closed,0,Refactor and cleanup DocumentAST
+164,2018-06-26 02:57:33.000000000,2018-06-26 06:54:22.000000000,closed,0,Rules Directive
+163,2018-06-26 00:07:27.000000000,2018-06-26 06:54:56.000000000,closed,0,Contributing
+162,2018-06-25 23:17:52.000000000,2018-10-27 18:51:10.000000000,closed,3,Remove php_cs fixer and renew styleci
+161,2018-06-25 11:36:13.000000000,2018-06-25 22:44:19.000000000,closed,0,Sort import by length
+160,2018-06-25 02:25:50.000000000,2018-06-25 22:43:38.000000000,closed,0,Immutable DocumentAST
+159,2018-06-25 00:47:24.000000000,2018-06-25 22:43:38.000000000,closed,2,Immutable DocumentAST
+158,2018-06-25 00:30:35.000000000,2018-06-26 02:57:00.000000000,closed,4,Rule Factory
+157,2018-06-24 20:32:31.000000000,2018-08-15 16:56:46.000000000,closed,4,Introduce snapshot testing
+156,2018-06-24 20:30:27.000000000,2018-07-13 12:48:51.000000000,closed,1,@paginate directive used on relationships behaves like used without relationship
+155,2018-06-21 23:05:05.000000000,2018-07-18 00:55:15.000000000,closed,8,Directives on InputObjectType
+154,2018-06-21 19:05:26.000000000,2018-06-25 22:36:27.000000000,closed,0,Extend the ideas of BaseFieldDirective and generalize it to BaseDirective
+153,2018-06-20 19:25:28.000000000,2018-06-21 00:36:49.000000000,closed,0,Allow manipulators to be applied to any node type
+152,2018-06-20 18:06:11.000000000,2018-06-21 00:37:15.000000000,closed,0,Rework the test for the directive registry
+151,2018-06-20 17:57:44.000000000,2018-06-23 01:07:24.000000000,closed,0,Interface attachment
+150,2018-06-20 15:29:47.000000000,2018-06-23 01:02:42.000000000,closed,0,Use the graphql-php default resolver when no other resolver is given
+149,2018-06-20 15:09:46.000000000,2018-06-23 01:01:01.000000000,closed,0,"Reformat FieldDirective, remove unused properties, add additional test"
+148,2018-06-20 15:07:59.000000000,2018-06-25 22:30:12.000000000,closed,0,Deprecate the global helpers schema() and directives()
+147,2018-06-20 13:37:19.000000000,2018-06-21 00:38:55.000000000,closed,0,Add in console commands for schema interaction
+146,2018-06-20 13:17:35.000000000,2018-06-23 00:58:59.000000000,closed,0,Use query builder to construct the union query and properly escape the alias
+145,2018-06-19 23:12:33.000000000,2018-08-03 21:26:52.000000000,closed,1,Test multiple PHP versions in travis
+144,2018-06-19 13:45:10.000000000,2018-06-20 06:00:44.000000000,closed,0,Require php >= 7.0
+143,2018-06-18 17:43:41.000000000,2018-06-20 10:51:16.000000000,closed,2,Quote table name alias
+142,2018-06-15 10:25:06.000000000,1970-01-01 00:00:00.000000001,open,1,New Interfaces for Field Directives
+141,2018-06-10 23:54:41.000000000,2018-06-24 17:07:34.000000000,closed,3,how to do the following graphql query with nodes?
+140,2018-06-08 18:26:15.000000000,2018-06-20 05:54:57.000000000,closed,4,Cacheable schema manipulation via directives
+139,2018-06-06 15:31:09.000000000,2018-06-20 06:01:36.000000000,closed,4,Add docker-compose file for easily setting up a local dev environment for running tests
+138,2018-06-06 08:28:46.000000000,2018-06-21 03:34:10.000000000,closed,10,Related with same names returns null [Bug?]
+137,2018-06-05 20:07:17.000000000,2018-06-05 20:13:13.000000000,closed,1,Security issue
+136,2018-06-05 16:00:37.000000000,2018-06-05 20:59:57.000000000,closed,5,Resolvers get called twice
+135,2018-06-05 12:37:51.000000000,2018-07-17 23:51:37.000000000,closed,9,[WIP][Feat] Driver-based
+134,2018-05-30 13:51:47.000000000,2018-06-25 11:05:45.000000000,closed,37,Can't get @group directive to work
+133,2018-05-29 19:53:03.000000000,2018-06-05 13:06:20.000000000,closed,5,[WIP] [Feat] Generate basic CRUD operations
+132,2018-05-27 02:23:13.000000000,2018-05-28 17:56:57.000000000,closed,1,Handle custom model primary key
+131,2018-05-25 17:10:41.000000000,2018-08-15 17:01:08.000000000,closed,12,[Feat] CRUD and Nested Mutations
+130,2018-05-25 00:30:07.000000000,2018-05-28 17:56:36.000000000,closed,1,Added fallback if no resolver is passed to the @union directive
+129,2018-05-24 13:19:04.000000000,2018-06-01 16:45:13.000000000,closed,60,[Docs] How to get a paginator using different models? @union or @interface directive
+128,2018-05-23 00:11:04.000000000,2018-05-23 22:33:48.000000000,closed,9,Possible bug with query system
+127,2018-05-22 01:35:44.000000000,2018-05-25 23:37:26.000000000,closed,3,Middleware advice
+126,2018-05-21 22:53:29.000000000,2018-05-31 21:41:47.000000000,closed,14,Help with @globalId and default node query [relay]
+125,2018-05-19 02:38:44.000000000,2018-05-23 22:48:19.000000000,closed,2,Fixed a bug with DeleteDirective when using a globalId
+124,2018-05-18 21:38:38.000000000,2018-05-18 22:05:27.000000000,closed,8,Is there an easy way to make a relay friendly create Mutation? 
+123,2018-05-18 20:40:25.000000000,1970-01-01 00:00:00.000000001,open,11,Add automated tests for Lumen
+122,2018-05-18 18:26:56.000000000,2018-05-23 22:47:27.000000000,closed,2,Keep routes compatible with Lumen framework
+121,2018-05-18 16:20:33.000000000,2018-06-25 11:03:25.000000000,closed,9,Does group middleware works?
+120,2018-05-18 01:54:31.000000000,2018-06-07 19:58:14.000000000,closed,6,Laravel Getters issue
+119,2018-05-17 14:35:20.000000000,2018-05-22 01:21:40.000000000,closed,4,Getting the user from context doesn't work out of the box.
+118,2018-05-17 02:17:25.000000000,2018-06-05 16:27:23.000000000,closed,5,[Feat] Changed Arg directives to use a pipe
+117,2018-05-17 01:45:21.000000000,2018-05-17 01:57:46.000000000,closed,2,[Feat] Schema validation constraints
+116,2018-05-16 04:35:22.000000000,2018-05-16 04:40:09.000000000,closed,3,Syntax Error GraphQL (26:2) Unexpected <EOF> 25: # Auto Complete: Ctrl-Space (or just start typing) 26: # ^
+115,2018-05-15 00:36:57.000000000,2018-05-15 00:49:28.000000000,closed,4,How do you resolve global id's in v2? 
+114,2018-05-13 23:06:30.000000000,2018-05-15 01:22:01.000000000,closed,2,Feat: Added support for find directive
+113,2018-05-12 18:27:26.000000000,2018-05-24 01:18:12.000000000,closed,7,Relationships with meta data
+112,2018-05-12 18:02:42.000000000,2018-05-15 01:22:01.000000000,closed,7,Need a directive for a single model query
+111,2018-05-12 17:54:49.000000000,2018-05-16 15:15:04.000000000,closed,7,Argument filters are not optional
+110,2018-05-12 03:45:48.000000000,2018-05-13 12:28:42.000000000,closed,4,Is there a way to get the schema.json output like lighthouse v1 had? 
+109,2018-05-10 12:17:42.000000000,2018-12-10 02:33:06.000000000,closed,30,New GraphQL implementation
+108,2018-05-10 00:34:32.000000000,2018-05-14 20:51:19.000000000,closed,1,[Fix] Fixed a bug with Lumen support
+107,2018-05-09 14:09:52.000000000,2018-05-11 00:49:07.000000000,closed,7,Enable GET requests to the graphql endpoint when app is in debug mode
+106,2018-05-08 06:20:04.000000000,2018-12-09 14:55:54.000000000,closed,21,[Docs] How would I...
+105,2018-05-07 21:05:26.000000000,2018-05-08 22:10:53.000000000,closed,13,pageInfo total return null
+104,2018-05-07 14:40:11.000000000,2018-07-17 23:48:25.000000000,closed,4,Use $user from Context instead of app('auth')
+103,2018-05-07 14:14:45.000000000,2018-05-07 14:14:56.000000000,closed,1,Pr/1
+102,2018-05-05 18:55:22.000000000,2018-05-06 05:15:21.000000000,closed,1,No description in composer.json
+101,2018-05-05 17:58:19.000000000,2018-08-15 17:00:15.000000000,closed,7,Support for Query Complexity Analysis
+100,2018-05-05 16:56:34.000000000,2019-09-03 01:24:25.000000000,closed,11,Soft deleted models arg directive
+99,2018-05-04 13:51:27.000000000,2019-05-08 13:31:36.000000000,closed,2,Support for apollo-cache-control
+98,2018-05-04 13:50:37.000000000,2018-07-18 01:06:56.000000000,closed,6,[Feat] Support for apollo-tracing
+97,2018-05-04 13:04:11.000000000,2018-05-08 01:17:43.000000000,closed,11,[Refactor|Feat] New directives and some cleanup and small improvements
+96,2018-05-02 10:55:24.000000000,2018-09-04 00:19:25.000000000,closed,12,[Feat] Return model as original property on Response
+95,2018-04-30 21:07:55.000000000,2018-05-06 14:40:23.000000000,closed,4,Implement WebSockets Subscriptions
+94,2018-04-27 20:38:38.000000000,2018-05-01 02:25:03.000000000,closed,6,More flexible directives
+93,2018-04-27 19:41:36.000000000,2018-05-08 01:17:43.000000000,closed,8,[Feat] Scout support
+92,2018-04-27 04:12:12.000000000,2018-04-27 07:26:53.000000000,closed,2,Versions 2.0.X not up to date with master
+91,2018-04-27 03:42:45.000000000,2018-04-27 12:19:51.000000000,closed,2,Fix for getting relay correct cursor.
+90,2018-04-27 00:18:07.000000000,2018-04-27 04:06:08.000000000,closed,5,[BUG] Relay connection offset error
+89,2018-04-25 22:33:14.000000000,2018-04-26 10:00:34.000000000,closed,3,Fetching relationships gives SQLSTATE[42601] error
+88,2018-04-23 07:32:21.000000000,2019-01-05 06:54:59.000000000,closed,24,Subscriptions
+87,2018-04-22 18:17:08.000000000,2018-04-23 10:20:12.000000000,closed,2,Multiple directives
+86,2018-04-18 21:59:28.000000000,2018-04-18 22:20:55.000000000,closed,3,Added resolver helper method.
+85,2018-04-16 16:18:41.000000000,2018-04-23 15:59:02.000000000,closed,28,[Lumen] Working with relations - Call to undefined function Nuwave\Lighthouse\resolve()
+84,2018-04-13 20:16:38.000000000,2018-07-06 13:30:10.000000000,closed,26,[Feat] Argument filters
+83,2018-04-13 18:35:18.000000000,2018-04-13 19:08:39.000000000,closed,3, [feat] Support for scopes in @paginate
+82,2018-04-13 16:29:41.000000000,2018-04-13 16:34:32.000000000,closed,1,[Fix] Changed @paginate to use name relay instead of connection
+81,2018-04-13 14:17:08.000000000,2018-08-16 00:46:32.000000000,closed,6,[Feat] Error message from exceptions
+80,2018-04-12 09:04:52.000000000,2018-04-13 18:04:55.000000000,closed,1,Please clean up the branches :)
+79,2018-04-12 08:56:57.000000000,2018-04-13 16:34:58.000000000,closed,1,Add a LICENSE file
+78,2018-04-11 17:54:14.000000000,2018-04-23 07:33:30.000000000,closed,15,Remove dependencies on Facades
+77,2018-04-11 05:21:19.000000000,2019-03-16 00:50:15.000000000,closed,13,Handling file uploads
+76,2018-04-10 23:47:11.000000000,2018-04-10 23:59:07.000000000,closed,5,Lumen support
+75,2018-04-10 22:10:13.000000000,2018-04-10 23:55:57.000000000,closed,1,Issues saver
+74,2018-04-10 16:02:55.000000000,2018-04-10 17:11:02.000000000,closed,6,"Trouble retrieving a date as string - ""String cannot represent non scalar value: instance of Illuminate\\Support\\Carbon"""
+73,2018-03-30 01:30:19.000000000,2018-03-30 06:13:16.000000000,closed,1,use valid dummy graphql query if request query is empty
+72,2018-03-28 02:47:47.000000000,2018-03-28 09:27:49.000000000,closed,6,Pagination directive + order results
+71,2018-03-27 23:39:41.000000000,2018-03-28 04:29:00.000000000,closed,2,add testcase for belongsTo directive with two different relations
+70,2018-03-25 15:56:06.000000000,2018-03-27 19:53:36.000000000,closed,2,Pagination on root fields.
+69,2018-03-21 09:06:51.000000000,2018-03-23 12:50:23.000000000,closed,4,v2-Beta test progress
+68,2018-03-21 03:40:29.000000000,2018-03-21 16:45:42.000000000,closed,5,Installation error fix.
+67,2018-03-05 22:55:02.000000000,2018-03-05 22:55:10.000000000,closed,0,rename scope to fix name collision w/ laravel
+66,2018-03-05 05:27:17.000000000,2018-04-16 23:54:42.000000000,closed,32,Lighthouse v2 Roadmap
+65,2018-02-22 22:10:27.000000000,2018-02-22 22:14:42.000000000,closed,0,fix start and end cursors for connection edges
+64,2018-02-10 22:26:14.000000000,2018-02-16 02:11:00.000000000,closed,6,Update at feb 2018
+63,2017-08-13 01:22:12.000000000,2018-04-10 04:41:17.000000000,closed,2,SyntaxError: Unexpected token < in JSON at position 0
+62,2017-08-13 00:08:21.000000000,2017-08-13 01:20:15.000000000,closed,0,Error running graphql endpoint
+61,2017-06-20 11:39:40.000000000,2018-04-10 04:42:58.000000000,closed,1,Documentation is missing important info in the walkthrough section
+60,2017-06-15 14:58:06.000000000,2018-03-21 06:44:23.000000000,closed,1,Just fixing some docs.
+59,2017-06-14 13:55:38.000000000,2018-03-06 00:24:32.000000000,closed,3,RelayConnection::scopeGetConnection breaks seeders.
+58,2017-06-07 18:12:10.000000000,2018-04-10 04:43:31.000000000,closed,2,PageInfo returns incorrect cursor
+57,2017-05-29 23:00:45.000000000,2018-04-10 04:44:11.000000000,closed,1,Edge command runs out of memory
+56,2017-05-29 13:50:24.000000000,2018-06-25 11:36:53.000000000,closed,1,Remove useless else.
+55,2017-05-29 13:43:04.000000000,2018-06-25 11:36:41.000000000,closed,2,Respect Laravel CS
+54,2017-05-18 17:38:01.000000000,2018-05-03 17:46:52.000000000,closed,14,Lumen support
+53,2017-05-10 06:41:10.000000000,2018-07-06 13:31:23.000000000,closed,2,[FEATURE REQUEST]: Add message support for validation.
+52,2017-04-28 18:55:53.000000000,2018-04-10 04:49:18.000000000,closed,2,Relay Modern
+51,2017-04-25 00:42:51.000000000,2017-04-25 00:47:01.000000000,closed,0,Export assets
+50,2017-04-24 15:47:53.000000000,2017-04-24 18:56:43.000000000,closed,0,Format phpunit.xml.dist
+49,2017-04-24 15:44:48.000000000,2017-04-24 18:56:05.000000000,closed,0,Fix schema docblocks
+48,2017-04-24 14:41:18.000000000,2017-04-24 18:55:32.000000000,closed,0,Only run code-coverage once per build.
+47,2017-04-24 14:36:23.000000000,2017-04-24 18:55:08.000000000,closed,0,Remove deprecated tap coverage
+46,2017-04-24 14:34:11.000000000,2017-04-24 18:54:51.000000000,closed,0,Fix registars docblocks
+45,2017-04-24 14:23:50.000000000,2017-04-24 18:54:34.000000000,closed,0,Fix all generators docblocks
+44,2017-04-23 19:47:22.000000000,2018-08-03 21:25:28.000000000,closed,2,[WIP] Also support Illuminate 5.4
+43,2017-04-23 19:29:57.000000000,2017-04-23 19:45:09.000000000,closed,0,Use stricter assertions
+42,2017-04-23 19:07:46.000000000,2017-04-23 19:27:46.000000000,closed,1,Fix typo
+41,2017-04-23 18:42:51.000000000,2017-04-23 18:52:33.000000000,closed,1,Provide some code coverage
+40,2017-04-23 18:23:22.000000000,2017-04-23 18:33:50.000000000,closed,0,Avoid useless return
+39,2017-04-23 18:19:14.000000000,2017-04-23 18:32:52.000000000,closed,0,Switch to new Config class
+38,2017-04-23 17:54:04.000000000,2017-04-23 18:00:07.000000000,closed,0,Avoid using collect helper.
+37,2017-04-23 17:36:59.000000000,2017-04-23 18:32:34.000000000,closed,1,Let lighthouse also support Laravel 5.3
+36,2017-04-23 17:35:13.000000000,2017-04-23 17:58:06.000000000,closed,0,Add composer support section
+35,2017-04-23 17:29:11.000000000,2017-04-23 17:57:01.000000000,closed,1,Enable code coverage with Codecov.io.
+34,2017-04-21 20:08:17.000000000,2017-04-23 17:25:05.000000000,closed,3,No need to use app()
+33,2017-04-21 11:09:52.000000000,2017-04-23 17:08:43.000000000,closed,2,Let TravisCI run tests
+32,2017-04-20 01:03:43.000000000,2017-04-23 17:57:50.000000000,closed,0,Set minimum PHP requirement
+31,2017-04-19 23:43:03.000000000,2017-04-23 17:57:37.000000000,closed,0,Let user override phpunit
+30,2017-04-19 20:44:28.000000000,2017-04-19 22:29:26.000000000,closed,0,Refactor composer.json
+29,2017-04-19 18:05:18.000000000,2017-04-19 20:36:45.000000000,closed,3,Optimize eager-load.
+28,2017-04-19 17:27:30.000000000,2017-04-19 22:28:57.000000000,closed,1,No need to export tests and assets.
+27,2017-04-19 17:24:29.000000000,2017-04-19 20:35:39.000000000,closed,0,Add missing properties.
+26,2017-04-19 17:16:49.000000000,2017-04-19 20:35:26.000000000,closed,0,Remove useless is_object check.
+25,2017-04-19 17:13:41.000000000,2017-04-19 20:34:29.000000000,closed,0,Add keywords to composer.
+24,2017-04-19 17:11:55.000000000,2017-04-19 20:34:12.000000000,closed,0,Add a editorconfig file.
+23,2017-04-19 17:10:25.000000000,2017-04-19 20:33:48.000000000,closed,0,Enable StyleCI.
+22,2017-04-18 17:25:22.000000000,2017-04-19 17:06:23.000000000,closed,0,Also test on PHP 7 and PHP 7.1.
+21,2017-04-18 17:21:01.000000000,2017-04-19 17:05:48.000000000,closed,2,Enforce Laravel syntax
+20,2017-03-23 15:35:33.000000000,2017-03-26 07:15:13.000000000,closed,0,Add toConnection macro onto Relation
+19,2017-03-23 13:17:15.000000000,2017-04-06 00:03:20.000000000,closed,1,Allow setting description on Connections
+18,2017-03-22 14:45:28.000000000,2018-03-06 00:29:41.000000000,closed,3,Do we need to revisit the pagination cursors?
+17,2017-03-22 14:25:16.000000000,2018-03-06 00:28:21.000000000,closed,9,"DataLoaders, DataFetchers, and non Relay?"
+16,2017-03-02 07:47:53.000000000,2017-05-02 23:22:26.000000000,closed,6,Relay mutation to add edge to connection
+15,2017-02-12 23:24:55.000000000,2017-03-25 21:56:33.000000000,closed,0,Add Query as a Query
+14,2017-02-07 04:55:34.000000000,2018-04-10 04:50:31.000000000,closed,3,Automatically resolve Connections
+13,2017-02-07 04:37:53.000000000,2018-04-10 04:51:37.000000000,closed,3,Remove Fluent
+12,2017-02-05 22:58:42.000000000,2017-02-06 19:13:20.000000000,closed,1,Phpunit patch
+11,2017-02-05 20:13:30.000000000,2017-02-06 19:13:20.000000000,closed,1,Contributing
+10,2017-01-29 16:05:28.000000000,2017-02-06 05:16:06.000000000,closed,4,How to query top level collections?
+9,2017-01-09 15:01:30.000000000,2018-04-10 04:52:40.000000000,closed,3,Read `name` from object in schema
+8,2017-01-09 14:50:33.000000000,2017-01-10 18:49:28.000000000,closed,1,Add mass schema creation functions
+7,2017-01-09 14:38:46.000000000,2018-04-10 04:53:30.000000000,closed,1,Document alternate syntax if `schema()` function unavailable.
+6,2017-01-09 14:29:52.000000000,2017-01-10 00:45:30.000000000,closed,1,Fix docs
+5,2017-01-04 01:19:00.000000000,2017-01-04 18:01:50.000000000,closed,1,Update GraphQLType.php
+4,2016-11-08 01:39:52.000000000,2016-11-08 04:32:59.000000000,closed,0,Dataloader
+3,2016-10-18 00:56:07.000000000,2018-04-10 04:55:12.000000000,closed,13,Progress
+2,2016-09-08 00:09:37.000000000,2016-09-09 02:08:58.000000000,closed,4,added the ability to override the default naming of custom connections.
+1,2016-08-30 03:49:57.000000000,2016-08-30 10:33:13.000000000,closed,3,Added type method to connection generator stub

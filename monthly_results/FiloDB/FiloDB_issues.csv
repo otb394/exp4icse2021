@@ -1,0 +1,876 @@
+id,created_at,closed_at,state,comments,title
+876,2020-08-29 03:28:14.000000000,1970-01-01 00:00:00.000000001,open,0,feat(query): support failure routing for metadata and instant queries
+875,2020-08-28 22:01:32.000000000,2020-08-28 23:41:01.000000000,closed,0,perf(cass): Increase splits for all token scans
+874,2020-08-28 11:12:27.000000000,1970-01-01 00:00:00.000000001,open,0,Unify akka versions used by dependencies
+873,2020-08-27 21:25:42.000000000,2020-08-27 22:43:18.000000000,closed,0,misc(core): Update monix.
+872,2020-08-27 02:14:43.000000000,1970-01-01 00:00:00.000000001,open,0,bug(query): AND returns LHS row values if corresponding RHS row value is NaN
+871,2020-08-26 22:07:46.000000000,2020-08-27 02:59:46.000000000,closed,0,bug(query):  binary join remote query children have original query
+870,2020-08-26 19:28:37.000000000,1970-01-01 00:00:00.000000001,open,11,misc: Scala 2.12 final move
+869,2020-08-26 03:44:06.000000000,1970-01-01 00:00:00.000000001,open,0,fix(prometheus): Parse labels without stack overflow.
+868,2020-08-21 12:04:07.000000000,1970-01-01 00:00:00.000000001,open,1,E2E benchmarking of FiloDB
+867,2020-08-21 10:03:22.000000000,2020-08-24 22:48:23.000000000,closed,1,bug(query): binary join with AND has LHS range vectors when corresponding RHS range vector is empty   
+866,2020-08-21 00:31:33.000000000,2020-08-26 00:35:33.000000000,closed,2,"misc: remove scalaxy, use spire.cforRange"
+865,2020-08-20 22:18:13.000000000,2020-08-21 00:38:37.000000000,closed,0,misc(query): match nonleaf child query parallelism to number of children
+864,2020-08-19 04:23:43.000000000,2020-08-19 09:23:37.000000000,closed,0,Merge branch 'develop' into integration-0.9.9 -take3
+863,2020-08-18 03:19:13.000000000,2020-08-18 03:38:25.000000000,closed,0,bug(sparkJobs): Make fetchSize configurable; increase splits
+862,2020-08-17 21:40:41.000000000,2020-08-17 22:07:02.000000000,closed,0,debug(cass): Log CQL scan that runs into timeout
+861,2020-08-14 23:48:38.000000000,2020-08-15 00:57:38.000000000,closed,0,perf(sparkJobs): Remove shuffling since it is doing too much IO
+860,2020-08-14 23:02:11.000000000,2020-08-19 01:02:06.000000000,closed,0,"bug(query, coordinator):  bug fixes for shard key regex and multipartition queries"
+859,2020-08-14 00:39:01.000000000,1970-01-01 00:00:00.000000001,open,1,[WIP] perf(coord): Query Executor for higher spread queries at scale
+858,2020-08-13 17:48:47.000000000,2020-08-13 22:49:50.000000000,closed,0,misc(docs): Doc cleanup
+857,2020-08-13 12:22:33.000000000,2020-08-13 22:49:50.000000000,closed,1,Google groups links in the README do not work
+856,2020-08-12 22:52:13.000000000,2020-08-13 01:01:09.000000000,closed,0,Merge branch 'develop' into integration-0.9.9 -take2
+855,2020-08-12 02:20:21.000000000,2020-08-12 03:03:06.000000000,closed,2,misc(akka): Switching downing provider.
+854,2020-08-12 00:05:30.000000000,2020-08-25 00:40:37.000000000,closed,6,misc(cli): use scallop instead of sumac
+853,2020-08-11 21:52:33.000000000,2020-08-12 02:59:11.000000000,closed,0,misc(akka): Switch downing provider.
+852,2020-08-11 17:55:33.000000000,2020-08-12 04:57:24.000000000,closed,2,"feat(coordinator): Revert ""Query concurrency limiter + single thread per query (#830)"""
+850,2020-08-11 08:38:01.000000000,2020-08-11 09:34:48.000000000,closed,0,bug(query): logical plan parser for timestamp generates query with window 0s
+849,2020-08-08 01:53:23.000000000,2020-08-08 21:57:33.000000000,closed,0,bug(query): use localPlanner when shard key filters does not have regex
+848,2020-08-07 00:14:28.000000000,2020-08-07 00:32:57.000000000,closed,0,Release 0.9.9.integration -take2
+847,2020-08-06 08:42:33.000000000,2020-08-06 09:07:46.000000000,closed,0,bug(query): NumberFormatException for +Inf bucket value
+846,2020-08-06 03:56:56.000000000,2020-08-06 05:00:17.000000000,closed,0,bug(query): add column in Rawseries and params in aggregation operator
+845,2020-08-06 02:07:56.000000000,2020-08-06 02:28:28.000000000,closed,0,Merge develop to integration
+844,2020-08-06 00:24:21.000000000,2020-08-21 00:32:47.000000000,closed,1,Remove scalaxy dependency
+843,2020-08-06 00:17:21.000000000,2020-08-06 02:02:36.000000000,closed,0,Merge develop to integration
+842,2020-08-06 00:09:11.000000000,2020-08-06 00:10:58.000000000,closed,0,Merge develop to integration
+841,2020-08-04 18:24:39.000000000,2020-08-04 20:41:12.000000000,closed,0," fix(coordinator): Query threads should start with ""query-sched"" for compatibility."
+840,2020-07-31 21:56:15.000000000,2020-07-31 22:34:18.000000000,closed,0,fix(memory): Reset the meta position when reclaiming blocks.
+839,2020-07-31 04:33:02.000000000,2020-08-04 03:37:22.000000000,closed,0,fix(core): move status from recovery to active if there is no data to read from ingestion source
+838,2020-07-31 03:41:46.000000000,2020-07-31 04:35:09.000000000,closed,0,maint(core): Upgrade kamon to 2.1.4
+837,2020-07-31 03:14:09.000000000,2020-08-04 02:41:00.000000000,closed,1,"feat(query.,coordinator): util to convert logical plan to query and some changes for shard key regex planner"
+836,2020-07-31 02:56:00.000000000,2020-07-31 03:13:53.000000000,closed,0,bug(query): More step==0 fixes in PeriodicSamplesMapper
+835,2020-07-31 00:08:29.000000000,2020-08-03 21:44:29.000000000,closed,1,misc: update ficus and akka-kryo to 2.12 supported version
+834,2020-07-30 00:14:10.000000000,2020-07-30 23:27:43.000000000,closed,14,Upgrade scalatest
+833,2020-07-28 19:35:52.000000000,2020-07-28 22:17:48.000000000,closed,0,bug(query): Fixes for step == 0 cases
+832,2020-07-28 03:29:30.000000000,1970-01-01 00:00:00.000000001,open,1,feat(query): Split long-range queries into smaller time-range queries
+831,2020-07-25 23:52:12.000000000,2020-07-26 03:38:51.000000000,closed,0,Fix typo
+830,2020-07-25 03:48:49.000000000,2020-08-03 21:53:25.000000000,closed,2,feat(coordinator): Query concurrency limiter + single thread per query
+829,2020-07-24 20:32:35.000000000,2020-07-24 21:22:41.000000000,closed,0,perf(coord): Query Scheduler switch to ForkJoinPool (#828)
+828,2020-07-24 06:41:28.000000000,2020-07-24 20:19:17.000000000,closed,0,perf(coord): Query Scheduler switch to ForkJoinPool
+827,2020-07-23 19:11:04.000000000,2020-07-23 21:44:11.000000000,closed,0,perf(sparkJobs): Repartition in downsampler to address jobs with skewed cass partitions
+826,2020-07-22 19:32:34.000000000,2020-07-23 04:06:23.000000000,closed,0,maint(core): Upgrade kamon to 2.1.4
+825,2020-07-22 04:07:15.000000000,2020-07-27 23:09:37.000000000,closed,1,bug(query): handle multiple schemas in remote exec
+824,2020-07-22 02:32:29.000000000,2020-07-22 21:34:19.000000000,closed,1,misc(memory): Remove unnecessary objects.
+823,2020-07-17 07:58:01.000000000,2020-07-20 21:04:00.000000000,closed,0,misc: Remove unused sample data file.
+822,2020-07-16 20:56:38.000000000,2020-07-16 21:14:28.000000000,closed,0,"fix(memory,core) Remove some lock state validation, now that closeable cursors are being used."
+821,2020-07-16 04:11:50.000000000,2020-07-22 23:31:46.000000000,closed,1,feat(query): Step Multiple Notation for PromQL Lookback
+820,2020-07-16 01:38:47.000000000,2020-07-16 02:01:25.000000000,closed,0,Release 0.9.8
+819,2020-07-15 23:28:17.000000000,2020-07-16 01:06:13.000000000,closed,0,bug(coord): Use localpartitioner only if required
+818,2020-07-14 03:46:47.000000000,2020-07-14 20:39:14.000000000,closed,0,bug(query): schema mismatch error for shard key  regex having remote partition
+817,2020-07-13 20:53:06.000000000,1970-01-01 00:00:00.000000001,open,0,feat(query): Quantile query implementation using DDSketch
+816,2020-07-10 01:09:14.000000000,2020-07-11 01:35:08.000000000,closed,1,fix(memory): Blocks shouldn't be reclaimable until after metadata is …
+815,2020-07-09 23:18:33.000000000,2020-07-10 01:22:43.000000000,closed,0,bug(coord): Fix shardKeyRegexPlanner queryContext
+814,2020-07-09 07:52:38.000000000,2020-07-09 08:10:56.000000000,closed,0,Merge branch 'develop' into integration-0.9.8 -take2
+813,2020-07-09 02:51:46.000000000,2020-07-22 21:35:45.000000000,closed,0,"maintenance(spark-jobs, bootstrapper): Remove and replace whitelist/blacklist usage"
+812,2020-07-08 09:26:17.000000000,2020-07-08 10:22:44.000000000,closed,0,bug(cassandra): Read from ingestion index table had duplicates
+811,2020-07-07 20:32:56.000000000,2020-07-07 21:38:03.000000000,closed,0,Release 0.9.8 Integration
+810,2020-07-07 20:19:35.000000000,2020-07-07 20:27:32.000000000,closed,0,misc(doc): Rename master to main in docs
+809,2020-07-07 04:00:54.000000000,2020-07-08 00:16:56.000000000,closed,0,perf(sparkJobs): Reducing cass batch size to make c* queries smaller
+808,2020-07-06 22:10:28.000000000,2020-07-06 23:48:43.000000000,closed,0,debug(memory): Add additional debug logging when allocMetadata() call fails
+807,2020-06-30 21:14:32.000000000,2020-07-02 04:19:52.000000000,closed,0,fix(query): Add lock validation to some unit tests and apply fixes.
+806,2020-06-30 01:13:44.000000000,2020-06-30 01:58:37.000000000,closed,0,fix(query): Add test validation to be enabled later.
+805,2020-06-29 22:52:42.000000000,2020-06-30 02:28:49.000000000,closed,0,"debug(core): Log details if onReclaim blockMetaSize assertion fails, and halt process proactively"
+804,2020-06-29 21:05:57.000000000,2020-06-30 19:28:57.000000000,closed,1,feat(query): Introducing RangeVectorCursor
+803,2020-06-26 22:46:12.000000000,2020-07-02 18:09:55.000000000,closed,1,fix(core): Fix various bugs that left locks stuck.
+802,2020-06-26 09:01:48.000000000,2020-06-26 22:48:02.000000000,closed,0,feat(core): More accurate data sizing for queries on downsample shard
+801,2020-06-26 02:07:57.000000000,2020-06-26 03:53:56.000000000,closed,0,bug(core): ODP Bug fix for Concurrent queries + ODP Unit Test 
+800,2020-06-26 01:27:12.000000000,2020-06-26 03:27:56.000000000,closed,0,Test ODP race condition with a per-shard exclusive latch.
+799,2020-06-25 20:33:45.000000000,2020-06-25 21:22:25.000000000,closed,1,bug(core): Populate ODPed chunks in reverse order
+798,2020-06-24 21:10:58.000000000,2020-06-25 00:12:40.000000000,closed,0,bug(query): Aggregation was short-circuiting iteration
+797,2020-06-24 17:42:02.000000000,2020-06-24 17:59:26.000000000,closed,0,fix(memory): Comment out halt for now.
+796,2020-06-23 04:09:18.000000000,2020-06-23 04:18:32.000000000,closed,3,fix(memory): Halt the process when locks aren't released properly.
+795,2020-06-19 04:09:20.000000000,2020-06-24 22:11:27.000000000,closed,4,"feat(query, coordinator): support regex in shard keys"
+794,2020-06-18 22:39:39.000000000,2020-06-18 23:35:39.000000000,closed,0,misc(query): update logicalPlan utility methods
+793,2020-06-18 20:37:41.000000000,2020-06-22 18:09:41.000000000,closed,0,feat(memory): Make the headroom latch timeout proportional to free memory
+792,2020-06-17 21:56:50.000000000,2020-06-25 21:12:12.000000000,closed,0,fix(jmh): A few more fixes to QueryInMemoryBenchmark
+791,2020-06-17 17:44:47.000000000,2020-06-17 21:25:57.000000000,closed,0,"fix(memory): Improve exclusive timeout accuracy, and fix a potential …"
+790,2020-06-15 22:02:06.000000000,2020-06-15 22:32:35.000000000,closed,0,Merge integration to master version 0.9.7
+789,2020-06-13 02:36:43.000000000,2020-06-13 03:19:09.000000000,closed,0,Merge develop to integration 0.9.7 Take 3
+788,2020-06-13 01:09:34.000000000,2020-07-08 22:12:01.000000000,closed,1,"misc(query): add cardinality limits to binary-join, group-by queries"
+787,2020-06-12 20:58:57.000000000,2020-06-12 23:26:01.000000000,closed,1,feat(query): Instrument query scheduler to get metrics
+786,2020-06-11 21:21:20.000000000,2020-06-24 04:01:17.000000000,closed,0,feat(query):  sort LabelValueOperators and LabelValueOperatorGroups
+785,2020-06-11 03:57:04.000000000,2020-06-11 04:30:21.000000000,closed,0,Cherry pick latch commits back to the develop branch
+784,2020-06-10 23:36:58.000000000,2020-06-11 00:43:36.000000000,closed,0,feat(sparkJobs): Cardinality Buster can now take time range filters
+783,2020-06-10 22:57:24.000000000,2020-06-11 00:52:43.000000000,closed,0,"fix(jmh,query): Fix PlanDispatcher timeout handling + QueryInMemoryBenchmark"
+782,2020-06-10 21:00:32.000000000,2020-06-10 21:40:45.000000000,closed,0,fix(memory): Latch wasn't wasn't always waking up blocked shared wait…
+781,2020-06-10 02:25:26.000000000,2020-06-10 10:20:51.000000000,closed,0,"feat(query, coordinator): support querying across multiple clusters "
+780,2020-06-10 00:06:42.000000000,2020-06-10 01:10:52.000000000,closed,0,bug(core): Kamon needs a shutdown hook to drain metrics
+779,2020-06-09 20:51:30.000000000,2020-06-09 21:36:20.000000000,closed,0,"fix(memory,core) Add a Latch class and use it instead of StampedLock."
+778,2020-06-09 02:02:03.000000000,2020-06-12 21:23:53.000000000,closed,0,fix(query): throw exception when shardMapper is null and return execPlan head  in materialize when only one execPlan is present
+777,2020-06-06 02:01:24.000000000,2020-06-06 02:29:04.000000000,closed,0,Merge develop to integration 0.9.7 Take 3
+776,2020-06-06 01:59:40.000000000,2020-06-06 01:59:46.000000000,closed,0,Merge develop to integration 0.9.7 Take 3
+775,2020-06-06 01:55:41.000000000,2020-06-06 01:56:16.000000000,closed,0,Merge develop to integration 0.9.7 Take 3
+774,2020-06-06 00:24:06.000000000,2020-06-06 01:08:26.000000000,closed,0,bug(core): Wrong PartKey Bytes was being used for Full ODP
+773,2020-06-05 03:33:44.000000000,2020-06-05 03:42:55.000000000,closed,0,debug(core): More ODP logging to debug full ODP
+772,2020-06-05 00:55:01.000000000,2020-06-05 03:30:20.000000000,closed,0,feat(coordinator): Ensure that stop message is sent when state is resync'd
+771,2020-06-05 00:54:14.000000000,2020-06-05 02:04:20.000000000,closed,0,Merge develop to integration 0.9.7 Take 2
+770,2020-06-04 22:40:39.000000000,2020-06-05 00:50:02.000000000,closed,0,bug(core): Release unwanted vectors eagerly when serving queries from downsampled data
+769,2020-06-03 23:56:34.000000000,2020-06-04 01:49:10.000000000,closed,0,Continue merge develop to integration 0.9.7
+768,2020-06-03 23:04:55.000000000,2020-06-03 23:29:18.000000000,closed,0,misc(query): Do not query downsample cluster for metadata queries
+767,2020-06-03 02:08:51.000000000,2020-06-03 20:21:32.000000000,closed,0,Merge develop to integration 0.9.7
+766,2020-06-03 00:54:45.000000000,2020-06-03 01:41:14.000000000,closed,0,Merge develop to integration 0.9.7
+765,2020-06-02 03:53:31.000000000,2020-06-02 08:15:26.000000000,closed,0,feat(jmh): Change QueryInMemoryBenchmark to simulate high-spread queries
+764,2020-06-02 00:19:40.000000000,2020-06-02 01:29:23.000000000,closed,0,feat(memory): Updates for stall time.
+763,2020-05-30 02:47:36.000000000,2020-06-17 04:14:13.000000000,closed,0,"feat(query, coordinator): support querying across multiple clusters"
+762,2020-05-28 02:04:59.000000000,2020-05-28 02:22:00.000000000,closed,0,fix(jmh): Fix PartKeyIndexBenchmark
+761,2020-05-28 00:58:35.000000000,2020-05-29 22:07:30.000000000,closed,1,perf(coord): Timeout query immediately if it stayed in mailbox for too long
+760,2020-05-28 00:55:49.000000000,2020-05-28 06:43:04.000000000,closed,1,feat(core): Reduce block size to 400KB.
+759,2020-05-22 21:46:32.000000000,2020-05-27 22:42:38.000000000,closed,2,fix(core): Avoid reclamation when queries are running.
+758,2020-05-22 04:19:13.000000000,2020-05-22 04:56:45.000000000,closed,0,debug(core): Debug Full ODP code path
+757,2020-05-22 00:44:23.000000000,2020-05-22 04:22:45.000000000,closed,0,"feat(sparkJobs): If tracing downsampler, log chunks read from cassandra"
+756,2020-05-21 21:05:56.000000000,2020-05-21 21:28:21.000000000,closed,0,feat(sparkJobs): If tracing downsampler log chunks read from cassandra
+755,2020-05-21 02:16:36.000000000,2020-05-21 02:44:31.000000000,closed,0,Cherry-Pick Tracing of Downsampling from develop to master for debug
+754,2020-05-20 21:25:02.000000000,2020-05-20 21:38:06.000000000,closed,0,debug(core) Tracing Partition should log at info level since explicitly enabled
+753,2020-05-20 08:39:42.000000000,2020-05-20 08:41:05.000000000,closed,0,debug(sparkJobs): Fixing debug string
+752,2020-05-20 06:00:10.000000000,2020-05-20 07:56:52.000000000,closed,0,feat(sparkJobs): Ability to trace downsampling of TS partitions
+751,2020-05-20 04:45:31.000000000,2020-05-21 21:28:41.000000000,closed,1,misc(query): Utility to convert ColumnFilters in LogicalPlan
+750,2020-05-19 03:20:01.000000000,2020-05-20 08:10:57.000000000,closed,1,feat(core): ODP block allocation shouldn't force a reclamation.
+749,2020-05-16 04:17:33.000000000,2020-05-21 20:47:57.000000000,closed,1,"feat(query, coordinator): implement SinglePartitionPlanner"
+748,2020-05-13 00:16:29.000000000,2020-05-19 00:14:57.000000000,closed,0,feat(core): Query sizing based limits
+747,2020-05-12 02:34:14.000000000,2020-05-13 05:13:14.000000000,closed,0,feat(memory): Eliminate time ordered block reclamation.
+746,2020-05-08 23:27:00.000000000,2020-05-09 04:17:42.000000000,closed,0,feat(core): Add periodic headroom task.
+745,2020-05-07 21:28:36.000000000,2020-05-08 21:20:08.000000000,closed,0,feat(memory): Add method to ensure free space.
+744,2020-05-06 21:24:09.000000000,2020-05-08 20:55:51.000000000,closed,0,bug(core): Reclaim shared lock for pinning blocks during queries
+743,2020-05-06 00:33:27.000000000,2020-05-08 22:39:23.000000000,closed,0,bug(queryPlanning): Long Lookback cases in downsample queries
+742,2020-05-04 21:55:12.000000000,2020-05-05 01:53:04.000000000,closed,0,Merge from integration to master 0.9.6
+741,2020-05-02 23:02:46.000000000,2020-05-04 18:23:38.000000000,closed,0,"feat(query, core): Introduce query session to store mutable state per-query"
+740,2020-05-01 18:49:15.000000000,2020-05-01 19:07:45.000000000,closed,0,fix(core): Bring back hole expansion fix.
+739,2020-05-01 18:46:29.000000000,2020-05-01 18:48:54.000000000,closed,0,Hole revert
+738,2020-05-01 18:01:34.000000000,2020-05-01 18:38:28.000000000,closed,0,Merge Develop to integration 0.9.6 take3
+737,2020-04-30 00:53:32.000000000,2020-04-30 01:11:36.000000000,closed,0,bug(query): comparison operators with bool should return NaN when lhs or rhs is NaN
+736,2020-04-30 00:25:35.000000000,2020-04-30 00:43:44.000000000,closed,0,Merge develop to integration 0.9.6 take2
+735,2020-04-29 22:57:49.000000000,2020-04-30 00:25:49.000000000,closed,0,Merge develop to integration 0.9.6 take2
+734,2020-04-29 21:50:19.000000000,2020-04-29 22:15:31.000000000,closed,0,bug(core): Check if paged chunk exists in chunkMap before copying to block
+733,2020-04-27 23:28:02.000000000,2020-04-27 23:46:42.000000000,closed,0,misc(query):  handle ScalarBinaryOperation in LogicalPlanUtils
+732,2020-04-27 21:04:05.000000000,2020-04-28 01:16:13.000000000,closed,0,Merge from develop to Integration 0.9.6 -  take1
+731,2020-04-25 10:52:03.000000000,2020-04-26 07:20:08.000000000,closed,0,misc(core): add utility method to verify histogram column
+730,2020-04-24 23:08:33.000000000,2020-04-25 05:19:07.000000000,closed,1,feat(query): add schema name to RangeVectorKey
+729,2020-04-23 03:35:56.000000000,2020-04-23 03:53:52.000000000,closed,0,fix(core): Revert hole expansion fix for now.
+728,2020-04-21 21:43:28.000000000,2020-04-21 22:07:56.000000000,closed,0,Merge integration to master 0.9.5
+727,2020-04-21 21:28:36.000000000,2020-04-21 21:29:06.000000000,closed,0,Merge integration to master OSS
+726,2020-04-21 00:51:57.000000000,2020-04-21 20:45:14.000000000,closed,2,"fix(core): When removing a chunk, remove all lower ones too."
+725,2020-04-20 22:40:32.000000000,2020-04-20 23:20:46.000000000,closed,0,feat(sparkJobs): Cherry-pick(copy) logging changes from develop branch to integration
+724,2020-04-20 06:14:57.000000000,2020-04-27 20:32:03.000000000,closed,1,feat(query): support scalar queries with bool
+723,2020-04-17 09:56:17.000000000,2020-04-18 03:21:41.000000000,closed,0,"fix(query): modify extract column name logic to take after the last occurence of ""::"" pattern"
+722,2020-04-17 02:57:57.000000000,2020-04-17 03:21:53.000000000,closed,0,bug(query): Apply newXFormersForHistMax only on selected columns
+721,2020-04-16 23:40:42.000000000,2020-04-22 01:11:19.000000000,closed,0,bug(query): create SerializedRangeVector in SortFunctionMapper
+720,2020-04-16 19:29:16.000000000,2020-04-17 03:24:14.000000000,closed,0,bug(core): RecordSchema.toStringPairs had bug with BR columns
+719,2020-04-14 02:25:49.000000000,2020-04-17 03:27:36.000000000,closed,0,fix(query): Fix extraction of +Inf bucket from histogram RV
+718,2020-04-14 01:29:28.000000000,2020-04-17 03:50:51.000000000,closed,0,feat(query): be able to count Histogram RVs
+717,2020-04-13 21:24:33.000000000,2020-04-13 21:42:46.000000000,closed,0,log(sparkJobs): Log entries with explicit property to rerun job
+716,2020-04-13 03:59:49.000000000,2020-04-13 04:41:25.000000000,closed,2,debug(core): Log reclaim and ODP time range
+715,2020-04-10 06:18:26.000000000,2020-04-10 09:19:35.000000000,closed,0,debug(core): More logging for ODP debug
+714,2020-04-10 01:48:43.000000000,2020-04-16 04:50:11.000000000,closed,1,"feat(query, core): TimeSeries Metadata query can include start/end times"
+713,2020-04-08 07:36:33.000000000,2020-04-10 04:58:39.000000000,closed,1,Cherry-pick changes to support `Last` function from 0.8-maintenance branch 
+712,2020-04-08 04:36:30.000000000,2020-04-08 04:39:07.000000000,closed,0,Porting changes from 0.8-maintenance to develop branch
+711,2020-04-06 10:16:28.000000000,2020-04-10 20:55:58.000000000,closed,0,"feat(query): support __name__ in group by, without, on and ignoring"
+710,2020-03-31 21:55:37.000000000,2020-03-31 23:31:51.000000000,closed,0,Merge integration to master for 0.9.5
+709,2020-03-31 17:20:40.000000000,2020-04-06 20:48:46.000000000,closed,0,feat(sparkJobs): Cardinality Buster to handle ingestion of bad data
+708,2020-03-31 02:42:47.000000000,2020-03-31 03:11:48.000000000,closed,0,Merge branch ‘develop’ into 0.9.5-integration - take 5
+707,2020-03-30 22:28:05.000000000,2020-03-30 23:18:00.000000000,closed,0,feat(sparkJobs): Index Downsampler blacklisting
+706,2020-03-27 02:12:22.000000000,2020-03-27 02:35:23.000000000,closed,0,Merge branch ‘develop’ into 0.9.5-integration - take 4
+705,2020-03-26 23:41:29.000000000,2020-03-27 00:16:28.000000000,closed,0,feat(sparkJobs): Index migration metric for skipped partKeys
+704,2020-03-26 20:58:13.000000000,2020-03-26 22:18:01.000000000,closed,0,bug(sparkJobs): Try to reinstate Kamon metrics in index downsampler
+703,2020-03-26 04:26:15.000000000,2020-03-26 20:27:16.000000000,closed,0,bug(query): override isRoutable in ScalarVaryingDoublePlan 
+702,2020-03-25 22:37:30.000000000,2020-03-26 22:16:51.000000000,closed,1,fix(query): fix parsing of queries having aggregate function in metric name
+701,2020-03-25 19:25:23.000000000,2020-03-25 21:07:30.000000000,closed,0,"feat(core, sparkJobs): Stop downsampling untyped schema"
+700,2020-03-24 20:56:15.000000000,2020-03-25 01:29:49.000000000,closed,0,feat(misc): Add a memory info utility.
+699,2020-03-24 11:32:10.000000000,2020-04-17 05:17:21.000000000,closed,0,"feat(query, coordinator): move offset & lookback to ExecPlan and some bug fixes"
+698,2020-03-21 01:26:31.000000000,2020-03-21 01:56:48.000000000,closed,0,Merge branch ‘develop’ into 0.9.5-integration - take 3
+697,2020-03-20 22:30:28.000000000,2020-03-20 23:49:41.000000000,closed,0,bug(core): Index Refresh in DownsampleShard should start with currentHour - 6
+696,2020-03-20 04:38:16.000000000,2020-03-20 05:11:22.000000000,closed,0,bug(cassandra): Fix bug in calculation of split during writes to pk table
+695,2020-03-20 00:30:07.000000000,2020-04-02 04:09:59.000000000,closed,0,feat(spark-jobs): Chunk copier supports explicit deletion.
+694,2020-03-19 22:55:50.000000000,2020-03-19 23:15:29.000000000,closed,0,debug(sparkJobs): More detailed testing/debug for completeness of PK downsample
+693,2020-03-18 08:36:46.000000000,2020-03-18 20:46:28.000000000,closed,0,Merge branch ‘develop’ into 0.9.5-integration - take 2
+692,2020-03-18 04:45:23.000000000,2020-03-18 08:31:25.000000000,closed,0,feat(sparkJobs): More tunability in index migration; unit tests
+691,2020-03-17 09:08:36.000000000,2020-03-17 20:57:36.000000000,closed,0,Merge branch ‘develop’ into 0.9.5-integration
+690,2020-03-17 08:50:37.000000000,2020-03-17 08:53:33.000000000,closed,0,Merge branch ‘develop’ into 0.9.5-integration
+689,2020-03-17 04:52:05.000000000,2020-03-17 05:14:19.000000000,closed,0,bug(core): Index refresh was using wrong PK val
+688,2020-03-17 03:29:39.000000000,2020-03-17 04:01:13.000000000,closed,0,fix(core): Fix ignoreShardKeyColumnSuffixes for histogram and summaries
+687,2020-03-16 20:51:36.000000000,2020-03-16 23:43:52.000000000,closed,0,"fix(spark-jobs): Revert exception wrapping, since it didn't help."
+686,2020-03-16 18:49:37.000000000,2020-03-16 21:34:08.000000000,closed,0,bug(query): Handle queries fully outside retention period in SingleClusterPlanner
+685,2020-03-14 02:03:50.000000000,2020-03-14 02:45:44.000000000,closed,0,bug(core): Downsample cluster real time index updates should use downsample schema
+684,2020-03-14 00:55:42.000000000,2020-03-16 20:50:14.000000000,closed,0,fix(spark-jobs): Also catch worker exceptions.
+683,2020-03-13 23:20:53.000000000,2020-03-14 00:19:53.000000000,closed,0,fix(spark-jobs): Move exception handler such that there's no backdoor way around it.
+682,2020-03-13 21:52:16.000000000,2020-03-13 22:15:18.000000000,closed,0,debug(core): Include multiple schema names in query error
+681,2020-03-13 21:37:32.000000000,2020-03-13 21:54:02.000000000,closed,0,fix(spark-jobs): Wrap all exceptions and capture the stack trace in the message.
+680,2020-03-12 04:54:11.000000000,2020-03-12 22:09:26.000000000,closed,1,"bug(cassandra): Prepared stmts everywhere, fix stmt consistency"
+679,2020-03-11 22:38:16.000000000,2020-03-12 21:28:29.000000000,closed,0,fix(query): Set Ops/binary joins fail when a range vector joined with timestamp
+678,2020-03-11 01:52:24.000000000,2020-03-11 02:16:24.000000000,closed,0,"Revert ""fix(query): fix for schema mismatch error in binaryOp with fixed scalar value"""
+677,2020-03-11 01:33:08.000000000,2020-03-11 03:41:51.000000000,closed,0,bug(query): AvgOverTime on downsample data fails
+676,2020-03-10 01:56:13.000000000,2020-03-10 02:57:03.000000000,closed,0,misc(spark-jobs): remove kamon instrumentation from downsample index job
+675,2020-03-10 00:15:32.000000000,2020-03-10 00:48:06.000000000,closed,0,bug(sparkJobs): Make chunk/index downsample jobs consistent to debug kamon
+674,2020-03-09 10:35:39.000000000,2020-03-10 20:36:12.000000000,closed,0,bug(query): dayOfWeek  function returns 7 for Sunday
+673,2020-03-07 05:17:12.000000000,2020-03-07 07:01:09.000000000,closed,1,Release 0.9.4 
+672,2020-03-07 04:55:39.000000000,2020-03-07 05:00:43.000000000,closed,0,"fix(spark-jobs): downsample index migration, initialize kamon in foreachRDD"
+671,2020-03-07 02:16:53.000000000,2020-04-07 20:05:16.000000000,closed,0,fix(spark-jobs): Integrate Kamon stats.
+670,2020-03-07 00:55:38.000000000,2020-03-07 02:08:01.000000000,closed,0,bug(sparkJobs): Kamon init should initialize first on spark tasks
+669,2020-03-06 06:43:33.000000000,2020-03-06 07:01:53.000000000,closed,0,fix(query) : add KryoSerializerfor PromQlQueryParams
+668,2020-03-05 11:51:26.000000000,2020-03-06 06:46:47.000000000,closed,0,fix(query): make config in ExecPlan serializable
+667,2020-03-05 05:19:48.000000000,2020-03-05 05:47:20.000000000,closed,0,feat(spark-jobs): Use ISO time format in config.
+666,2020-03-05 00:44:28.000000000,2020-03-05 00:46:50.000000000,closed,0,fix(misc): fix scaladoc
+665,2020-03-04 23:53:12.000000000,2020-03-05 00:18:50.000000000,closed,0,fix(misc): fix compilation errors
+664,2020-03-04 23:47:18.000000000,2020-03-10 22:49:43.000000000,closed,0,fix(query): fix for schema mismatch error in binaryOp with fixed scalar value
+663,2020-03-04 05:01:47.000000000,2020-03-05 05:04:00.000000000,closed,0,feat(spark-jobs): Define a basic Spark job which copies chunks between Cassandra stores.
+662,2020-03-04 03:28:39.000000000,2020-03-04 03:46:23.000000000,closed,0,fix(standalone): Fix flakey test.
+661,2020-03-03 19:22:41.000000000,2020-03-04 04:49:09.000000000,closed,1,bug(sparkJobs): Downsampler uses objects to avoid serialization thereby affecting unit tests
+660,2020-03-03 03:27:13.000000000,2020-03-10 00:44:04.000000000,closed,0,fix(memory): Encode MutableHistograms using XOR double compression
+659,2020-02-27 18:01:12.000000000,2020-03-11 20:28:40.000000000,closed,3,BUG fix for (sum/avg/stddev)_over_time & zscore promql functions
+658,2020-02-26 04:32:22.000000000,2020-02-28 04:17:35.000000000,closed,0,bug(query): Query module code formatting with misc fixes
+657,2020-02-26 03:34:29.000000000,2020-03-04 03:49:16.000000000,closed,0,feat(spark-jobs): Define a basic Spark job which copies chunks between Cassandra stores.
+656,2020-02-26 02:41:31.000000000,2020-02-26 03:27:31.000000000,closed,0,Take 2 ‘develop’ into 0.9.4-integration
+655,2020-02-26 02:29:58.000000000,2020-02-26 02:41:55.000000000,closed,0,Take 2 ‘develop’ into 0.9.4-integration
+654,2020-02-25 12:05:58.000000000,2020-03-04 02:50:06.000000000,closed,1,fix(downsampler): update partitionkey dataschema to downsampled schema
+653,2020-02-25 03:39:00.000000000,2020-02-25 04:25:28.000000000,closed,0,bug(query): getRawSeriesStartTimeshould not be called if logicalPlan is not routable
+652,2020-02-25 03:34:00.000000000,2020-02-25 03:34:20.000000000,closed,0,bug(query): getRawSeriesStartTimeshould not be called if logicalPlan is not routable 
+651,2020-02-25 01:04:55.000000000,2020-02-25 10:35:17.000000000,closed,0,misc(debug): add metrics-dropped metric in ingestion exception block
+650,2020-02-24 21:26:33.000000000,2020-02-24 21:49:50.000000000,closed,0,cherry-pick(5ebcb8): Clear sinks at reset() to fix histogram multiple bucket schema ingestion bug (#645)
+649,2020-02-24 20:55:30.000000000,2020-02-24 21:23:28.000000000,closed,0,cherry-pick(5ebcb8): Clear sinks at reset() to fix histogram multiple bucket schema ingestion bug (#645)
+648,2020-02-24 20:45:54.000000000,2020-02-24 20:50:37.000000000,closed,0,Merge develop to 0.9.4.integration - Take 2
+647,2020-02-24 01:46:38.000000000,2020-03-26 09:14:37.000000000,closed,9,BUG(query) : handle invalid filodb-promql-functions syntax in parser
+646,2020-02-22 05:38:07.000000000,2020-02-22 05:51:18.000000000,closed,0,bug(query): diskTtlSeconds.toLong before conversion to millis
+645,2020-02-22 04:15:37.000000000,2020-02-22 04:44:50.000000000,closed,0,fix(memory): Clear sinks at reset() to fix histogram multiple bucket schema ingestion bug
+644,2020-02-21 18:27:34.000000000,2020-02-21 23:29:19.000000000,closed,0,bug(query): Wrong retention was configured in QueryActor for downsample cluster
+643,2020-02-21 08:37:33.000000000,2020-02-21 09:39:18.000000000,closed,0,bug(query): Composite Planner needs to accept downsample retention
+642,2020-02-21 05:55:05.000000000,2020-02-24 21:12:50.000000000,closed,0,feat(cassandra): Refactor session configuration.
+641,2020-02-21 03:30:07.000000000,2020-02-21 03:46:39.000000000,closed,0,feat(sparkJobs): Upgrade spark to 2.4.4
+640,2020-02-20 06:29:08.000000000,2020-02-20 06:29:54.000000000,closed,0,misc(debug): remove DirectBuffer logging
+639,2020-02-20 05:38:51.000000000,2020-02-20 05:52:42.000000000,closed,0,misc(debug): add more context to the RepackError exception log & remove disableAddPartitions statement
+638,2020-02-19 21:57:22.000000000,2020-02-21 02:49:06.000000000,closed,0,feat(query): Bound raw cluster queries strictly to its retention period
+637,2020-02-19 05:07:01.000000000,2020-02-19 05:08:40.000000000,closed,0,misc(debug): use ingestionschema debug statement for debugging ingestion error
+636,2020-02-19 04:44:56.000000000,2020-02-20 23:16:04.000000000,closed,0,Merge branch ‘develop’ into 0.9.4-integration
+635,2020-02-19 04:10:51.000000000,2020-02-19 04:28:15.000000000,closed,0,misc(debug): debug statement for debugging ingestion error
+634,2020-02-14 10:21:56.000000000,2020-02-14 10:44:06.000000000,closed,0,Downsample stitch fix
+633,2020-02-14 05:21:15.000000000,2020-02-14 05:48:35.000000000,closed,0,bug(cassandra): Don't issue two async Cassandra statements for each one requested.
+632,2020-02-14 00:14:13.000000000,2020-02-14 00:31:34.000000000,closed,0,feat(downsampler): More metrics
+631,2020-02-13 05:49:49.000000000,2020-03-02 10:28:40.000000000,closed,1,feat(query): terminate long running queries at leaf nodes
+630,2020-02-13 00:38:04.000000000,2020-02-18 23:53:55.000000000,closed,1,feat(cassandra): Add method to copy chunks to a different C* column store.
+629,2020-02-12 23:31:13.000000000,2020-02-13 02:26:54.000000000,closed,0,bug(downsample): Downsample shard status needs to be active
+628,2020-02-12 03:44:52.000000000,2020-02-12 10:03:15.000000000,closed,0,feat(downsample): Purge expired entries from downsample cluster index
+627,2020-02-12 03:26:33.000000000,2020-02-15 02:52:40.000000000,closed,0,misc(downsampler): make index-migration batch job lookback time configurable
+626,2020-02-11 00:13:56.000000000,2020-02-11 02:54:10.000000000,closed,0,feat(core): Metrics for FiloDB downsample cluster
+625,2020-02-10 23:39:43.000000000,2020-02-11 00:03:54.000000000,closed,0,debug(memory): Add logging around histogram vector repacking exceptions
+624,2020-02-08 05:12:31.000000000,2020-02-10 23:59:28.000000000,closed,0,misc(Downsampler): register metric reporters for downsampler spark jobs
+623,2020-02-07 23:28:19.000000000,2020-02-07 23:44:03.000000000,closed,0,debug(core): add loggers for shard management events
+622,2020-02-04 23:27:21.000000000,2020-02-05 02:56:46.000000000,closed,0,misc(downsampler): index migration job - log task exceptions
+621,2020-02-04 13:31:06.000000000,2020-02-13 11:50:22.000000000,closed,0,misc(core): Upgrade kamon library version to 2.x
+620,2020-02-03 22:06:30.000000000,2020-02-03 22:42:38.000000000,closed,0,Moved downsampler to sub directory.
+619,2020-02-01 05:42:19.000000000,2020-02-04 03:04:45.000000000,closed,0,misc(downsampler): index migration job - add logging and fix scripts
+618,2020-02-01 00:42:53.000000000,2020-02-04 22:57:33.000000000,closed,0,misc(query): consolidate isPeriodicSeriesPlan and isRoutable
+617,2020-01-31 11:07:48.000000000,2020-02-05 23:43:43.000000000,closed,0,feat(query): LongTimeRangePlanner to stich raw/downsample query results
+616,2020-01-31 03:35:10.000000000,2020-02-04 10:52:07.000000000,closed,2,feat(query): count_values function support
+615,2020-01-31 00:38:41.000000000,2020-01-31 02:26:41.000000000,closed,0,misc(cassandra): Reduce PartitionKeysByUpdateTime table name length
+614,2020-01-30 06:44:50.000000000,2020-01-30 23:48:40.000000000,closed,0,misc(tooling): Move projects back to FiloBuild.scala
+613,2020-01-29 05:26:51.000000000,2020-02-25 10:51:10.000000000,closed,1,"feat(query, http): hist_to_prom_vectors func, auto convert histogram HTTP output, ?histogramMap"
+612,2020-01-28 12:57:36.000000000,2020-01-31 23:52:57.000000000,closed,0,feat(downsampler): spark job to migrate index updates to downsampled dataset
+611,2020-01-28 00:21:22.000000000,2020-01-28 00:37:31.000000000,closed,0,Release 0.9.3
+610,2020-01-27 23:58:10.000000000,2020-01-28 00:19:02.000000000,closed,0,Update integration version to 0.9.3-integration
+609,2020-01-27 23:25:51.000000000,2020-01-31 10:29:47.000000000,closed,0,feat(query): Refactor query engine to allow for new features
+608,2020-01-27 23:17:05.000000000,2020-01-27 23:56:23.000000000,closed,0,Merge Integration to Master for release
+607,2020-01-24 04:50:11.000000000,2020-01-24 06:02:40.000000000,closed,0,bug(cassandra): Dont auto-create Cassandra tables in prod
+606,2020-01-23 22:32:15.000000000,2020-01-23 22:44:14.000000000,closed,0,debug(standalone): Debug akka boostrapper config
+605,2020-01-22 21:51:07.000000000,2020-01-22 22:07:44.000000000,closed,0,debug(standalone): Logging server config on start; toSeconds not Java-8 compat
+604,2020-01-22 05:42:18.000000000,2020-01-22 05:58:02.000000000,closed,0,bug(core): Fix metastore in DownsampledTSStoreFactory
+603,2020-01-22 04:27:57.000000000,2020-01-22 04:32:12.000000000,closed,0,update version number in 0.8-maintenance branch
+602,2020-01-22 00:48:44.000000000,2020-01-22 00:50:22.000000000,closed,0,feat(core): Downsample Cluster Index Refresh
+601,2020-01-21 22:22:11.000000000,2020-01-21 22:38:30.000000000,closed,0,Cherry-pick for 0.9.2.integration from develop
+600,2020-01-18 04:05:40.000000000,2020-01-18 05:26:56.000000000,closed,0,fix(gateway): Skip empty histogram records in gateway
+599,2020-01-16 23:06:33.000000000,2020-01-16 23:30:54.000000000,closed,0,0.9.2 Release
+598,2020-01-16 23:05:14.000000000,2020-01-16 23:05:57.000000000,closed,0,0.9.2 Release
+597,2020-01-16 22:55:05.000000000,2020-01-16 22:56:20.000000000,closed,0,0.9.2 Release
+596,2020-01-16 07:16:41.000000000,2020-01-29 06:45:45.000000000,closed,2,bug(query): Throw more precise error if unknown schema ID found
+595,2020-01-16 00:55:15.000000000,2020-01-16 04:15:15.000000000,closed,0,Integration merge 0.9.2 dev
+594,2020-01-14 07:23:25.000000000,2020-01-14 13:26:54.000000000,closed,0,feat(query): z_score support added
+593,2020-01-11 04:14:59.000000000,2020-01-13 23:18:16.000000000,closed,1,bug(core): Fix/change predefined keys hashing algorithm for keys < 4 bytes
+592,2020-01-11 02:30:18.000000000,2020-01-22 00:37:15.000000000,closed,1,feat(core): Downsample Index Refresh
+591,2020-01-10 00:33:28.000000000,2020-01-10 03:51:09.000000000,closed,0,debug(core): Add very detailed debugString() BR method; add debugging to addPartition
+590,2020-01-09 00:27:35.000000000,2020-01-09 00:55:46.000000000,closed,0,debug(core): Log partition key hash when adding document
+589,2020-01-08 02:21:17.000000000,2020-01-22 23:00:08.000000000,closed,0,feat(query): timestamp function support
+588,2020-01-07 06:19:42.000000000,2020-01-08 00:17:25.000000000,closed,0,"config: Change metric partition column to _metric_ to avoid clashes with ""metric"" labels"
+587,2020-01-07 05:22:14.000000000,2020-01-07 05:39:58.000000000,closed,0,bug(sparkJobs): Fix another case when startRow > endRow
+586,2020-01-07 00:52:00.000000000,2020-01-07 01:36:20.000000000,closed,0,bug(sparkJobs): Fix another case when startRow > endRow
+585,2020-01-06 20:11:34.000000000,2020-01-06 23:11:04.000000000,closed,0,debug(sparkJobs): Skip/Debug startRow > endRow during downsampling
+584,2020-01-05 18:32:02.000000000,2020-01-06 09:37:45.000000000,closed,0,bug(sparkJobs): Ensure chunks read from Cass are in downsample time range
+583,2020-01-04 19:43:11.000000000,2020-01-04 20:15:20.000000000,closed,0,Merge Develop to Integration-0.9.1-Take2
+582,2020-01-04 19:36:25.000000000,2020-01-04 19:36:51.000000000,closed,0,Merge develop to integration-0.9.1-Take2
+581,2020-01-04 07:04:56.000000000,2020-01-04 19:33:23.000000000,closed,0,bug(sparkJobs): Ensure downsample marker rows are within chunk length
+580,2020-01-03 22:33:38.000000000,2020-01-03 23:09:52.000000000,closed,0,Merge develop to Integration 0.9.1
+579,2020-01-03 22:26:28.000000000,2020-01-03 22:29:36.000000000,closed,0,Merge develop into integration-0.9.1
+578,2020-01-02 23:20:48.000000000,1970-01-01 00:00:00.000000001,open,0,feat(core): Rate Limiting Number of Time Series Ingested into TSDB
+577,2019-12-28 19:49:19.000000000,2020-01-03 03:46:52.000000000,closed,0,feat(core): Place downsampled data in its own keyspace
+576,2019-12-20 05:35:24.000000000,2019-12-20 11:09:31.000000000,closed,0,"feat(query, coord): _type_ schema filter and metadata results label"
+575,2019-12-19 09:01:30.000000000,2019-12-20 05:07:33.000000000,closed,0,feat(core): Index recovery for downsample shard
+574,2019-12-19 02:34:45.000000000,2019-12-19 02:54:53.000000000,closed,0,bug(sparkJobs): Workaround spire linbrary conflict with spark
+573,2019-12-18 05:01:27.000000000,2020-01-18 07:23:12.000000000,closed,1,"feat(query,prometheus): Extract histogram bucket with _bucket_ magic filter"
+572,2019-12-18 00:42:53.000000000,2019-12-20 05:47:12.000000000,closed,1,"add function ""last"" for supporting last sample in a time window"
+571,2019-12-12 03:52:11.000000000,2019-12-19 00:02:15.000000000,closed,0,"feat(gateway): Convert ILP lines to new gauge, counter, histogram schemas"
+570,2019-12-11 19:50:36.000000000,2019-12-18 04:03:48.000000000,closed,1,feat(core): Prometheus Counter and Histogram downsampling
+569,2019-12-10 12:01:16.000000000,2019-12-10 12:27:26.000000000,closed,0,0.9.1 merge:  integration to master
+568,2019-12-10 10:49:01.000000000,2019-12-19 23:20:32.000000000,closed,2,feat(query): predict_linear support
+567,2019-12-10 05:24:29.000000000,2019-12-10 06:01:40.000000000,closed,0,debug(query): Additional logging to debug ArrayIndexOOB
+566,2019-12-05 23:10:46.000000000,2019-12-06 02:24:20.000000000,closed,1,bug(core): EWAH bitmap in query is very CPU intensive
+565,2019-12-05 23:06:14.000000000,2019-12-06 12:05:25.000000000,closed,0,0.9.1 develop to integration merge
+564,2019-12-05 03:16:38.000000000,2019-12-05 04:30:01.000000000,closed,0,bug(query) : IllegalArgumentException thrown for queries having more than one funcParams 
+563,2019-12-04 07:34:10.000000000,2019-12-04 10:31:39.000000000,closed,0,misc(query) :  implement TransientRow get any method
+562,2019-12-04 03:52:52.000000000,2019-12-04 10:50:12.000000000,closed,0,Disabling optional regex in Lucene since RE2 does not support it.
+561,2019-12-04 00:29:22.000000000,2019-12-04 00:49:34.000000000,closed,0,docs(query): discard unmoored doc comment
+560,2019-12-03 04:38:58.000000000,2019-12-03 04:47:14.000000000,closed,0,debug(cli): Dump output schema of result in CLI
+559,2019-11-23 02:39:52.000000000,2019-11-23 02:47:14.000000000,closed,0,scaladoc(core): Scaladoc error fix
+558,2019-11-23 02:33:54.000000000,2020-01-10 00:22:38.000000000,closed,0,feat(query): offset function support
+557,2019-11-22 05:43:23.000000000,2019-12-19 23:21:41.000000000,closed,2,feat(query): stddev support
+556,2019-11-21 23:28:56.000000000,2019-12-05 01:05:31.000000000,closed,1,feat(prometheus): Use ::col for column selection in PromQL
+555,2019-11-21 05:11:24.000000000,2019-11-21 07:30:22.000000000,closed,0,debug(sparkJobs): Add more logging to debug downsampler
+554,2019-11-21 03:08:25.000000000,2019-11-21 03:27:49.000000000,closed,0,bug(sparkJobs): Fixing downsampling issue due to config change
+553,2019-11-19 06:42:05.000000000,2019-12-03 05:00:28.000000000,closed,0,bug(query): Handle stdvar NaN case in reduceAggregator
+552,2019-11-16 03:41:57.000000000,2019-11-16 03:43:00.000000000,closed,1,misc: correcting the filodb version
+551,2019-11-15 23:43:52.000000000,2019-11-20 00:23:02.000000000,closed,0,feat(core): Simplify Cassandra Schema for Index Data Persistence
+550,2019-11-13 21:42:46.000000000,2019-11-13 23:05:15.000000000,closed,0,feat(build): Bump the JVM target to 1.8 (from 1.6).
+549,2019-11-11 05:46:27.000000000,2019-11-15 03:44:01.000000000,closed,0,bug(query): generate local exec plan without routing for RawChunkMeta logical plan
+548,2019-11-10 23:05:20.000000000,2020-01-07 11:30:27.000000000,closed,2,feat(query): absent function support
+547,2019-11-08 03:45:39.000000000,2019-11-12 02:50:41.000000000,closed,0,Develop(multischema queries) -> Integration 0.9.0 Merge
+546,2019-11-08 00:15:20.000000000,2019-11-08 02:43:13.000000000,closed,0,"fix(query): Rename all DoubleColumns in output ResultSchema pos 1 to ""value"""
+545,2019-11-06 04:13:33.000000000,2019-11-08 00:08:10.000000000,closed,1,misc(query) : add metric column for Binary Join with Non Arithmetic operators
+544,2019-11-06 03:43:02.000000000,2019-11-06 03:59:58.000000000,closed,0,Internal release 0.8.8
+543,2019-11-02 02:43:15.000000000,2019-11-02 03:44:19.000000000,closed,0,fix(coordinator): Use default settings if initialized() not called
+542,2019-11-02 02:20:07.000000000,2019-11-09 02:11:24.000000000,closed,1,feat(core): Flush chunks on hourly boundaries.
+541,2019-11-01 11:07:19.000000000,2019-11-02 20:06:22.000000000,closed,0,fix(query): Small fixes to the parser
+540,2019-11-01 01:56:44.000000000,2019-11-01 02:19:16.000000000,closed,0,fix(query): Preserve child task index in NonLeafExecPlan (fix joins)
+539,2019-10-31 22:27:05.000000000,2019-12-03 22:33:43.000000000,closed,1,"feat(query, coordinator): scalar, vector and time function queries support"
+538,2019-10-31 21:26:07.000000000,2019-10-31 21:46:37.000000000,closed,0,debug(query): Add debugging for binary join failures; don't require equal response size
+537,2019-10-30 01:08:36.000000000,2019-10-30 01:38:35.000000000,closed,1,misc(spark-jobs): Remove use of SimpleDateFormat.
+536,2019-10-29 00:43:49.000000000,2019-10-29 01:25:26.000000000,closed,0,Signed chunkid
+535,2019-10-25 00:59:29.000000000,2019-10-29 00:52:53.000000000,closed,0,bug(query): Handle holt_winter windows with length 1
+534,2019-10-24 18:08:28.000000000,2019-11-13 02:21:27.000000000,closed,2,feat(cass): Faster Cassandra reads for raw partition data
+533,2019-10-18 18:32:38.000000000,2019-10-18 18:48:40.000000000,closed,0,bug(memory): Workaround scaladoc bug
+532,2019-10-18 10:30:50.000000000,2019-10-30 01:54:21.000000000,closed,1,misc(query):  add metric column as parameter to Binary Join Execs
+531,2019-10-17 00:11:15.000000000,2019-10-18 04:00:56.000000000,closed,0,Add metadata span checks and don't add the first block until it's requested.
+530,2019-10-16 10:29:09.000000000,2019-11-13 04:13:08.000000000,closed,8,feat(core): Support for Binary Vectors on heap
+529,2019-10-16 10:27:31.000000000,2019-11-23 00:02:41.000000000,closed,0,feat(core): Read-Only FiloDB capability for Querying Downsampled Data
+528,2019-10-15 03:24:56.000000000,2019-10-15 21:58:46.000000000,closed,0,"misc(core,gateway):Add old binaryRecord for backward compatibility"
+527,2019-10-15 01:05:19.000000000,2019-10-16 22:01:37.000000000,closed,1,bug(memory): Fix handling of blocks which are too full for more metadata.
+526,2019-10-09 22:32:56.000000000,2019-10-10 00:46:55.000000000,closed,0,misc(gateway): Map prom remote_write records to untyped
+525,2019-10-08 17:50:22.000000000,2019-10-08 18:24:17.000000000,closed,0,feat(downsampler): Successful run of downsampler functional testing
+524,2019-10-05 01:13:45.000000000,2019-10-09 20:44:44.000000000,closed,0,misc(query): add logic to return partkeys for metadata queries that match evicted partitions
+523,2019-10-05 00:17:57.000000000,2019-10-05 00:45:14.000000000,closed,0,bug(cass): takeWhile can cause premature completion of future
+522,2019-10-04 23:50:57.000000000,2019-10-09 05:11:16.000000000,closed,0,bug(query): store the array across multiple chunks
+521,2019-10-04 04:41:57.000000000,2019-10-08 02:19:44.000000000,closed,0,feat(gateway): InputRecord static methods to write standard gauge/counter/histogram schema BRs
+520,2019-10-04 01:52:48.000000000,2019-10-04 01:57:08.000000000,closed,0,bug(core): Use debugString to log chunk info
+519,2019-10-03 22:53:22.000000000,2019-10-04 00:18:58.000000000,closed,0,bug(sparkJobs): Fixes after more functional testing of downsampler
+518,2019-10-02 21:01:57.000000000,2019-10-15 22:12:02.000000000,closed,1,"feat(core, query, coordinator): MultiSchemaPartitionsExec / Task-based schema ExecPlan API"
+517,2019-10-01 00:29:37.000000000,2019-10-01 00:56:47.000000000,closed,0,Cherry pick PR 515
+516,2019-09-30 19:29:31.000000000,2019-10-09 21:57:04.000000000,closed,1,Version 0.8.7
+515,2019-09-29 22:23:52.000000000,2019-09-30 22:37:54.000000000,closed,1,bug(query): store last element of chunk in ChangesChunkedFunction
+514,2019-09-28 07:38:50.000000000,2019-10-12 01:52:55.000000000,closed,0,feat(query): Holt Winters support
+513,2019-09-28 03:25:20.000000000,2019-10-24 22:53:42.000000000,closed,0,feat(query): stdvar support
+512,2019-09-27 23:31:57.000000000,2019-09-28 02:54:57.000000000,closed,0,feat(query): stdvar support
+511,2019-09-27 08:32:20.000000000,2019-09-27 08:37:02.000000000,closed,0,cherry-pick: feat(core): Honor order in copyTags (#507)
+510,2019-09-27 03:01:30.000000000,2019-09-28 02:16:04.000000000,closed,2,bug(downsampler): Thread local memory constructs for multi-threaded spark executors
+509,2019-09-27 02:59:10.000000000,2019-09-27 09:49:02.000000000,closed,0,fix(coordinator): Fix Schema serializer initialization
+508,2019-09-26 09:34:48.000000000,2019-09-26 10:07:43.000000000,closed,0,bug(core): Use floorMod function that is in java8
+507,2019-09-26 01:59:49.000000000,2019-09-27 01:35:43.000000000,closed,0,feat(core): Honor order in copyTags
+506,2019-09-25 00:23:10.000000000,2019-09-25 01:12:28.000000000,closed,0,feat(downsampler): Allow custom cassandra session provider for downsampling
+505,2019-09-24 03:06:25.000000000,2019-09-24 03:33:11.000000000,closed,0,feat(downsampler): Log downsample config during run
+504,2019-09-24 01:45:38.000000000,2019-10-01 01:30:14.000000000,closed,0,feat(query): quantile_over_time support
+503,2019-09-20 20:19:45.000000000,2020-01-30 04:32:22.000000000,closed,11,misc(tooling): Upgrade sbt 0.13 to sbt 1.3.0
+502,2019-09-20 04:04:39.000000000,2019-10-02 20:50:23.000000000,closed,5,misc(core): Add more details for README
+501,2019-09-19 00:39:39.000000000,2019-09-19 01:17:51.000000000,closed,0,fix(core): Fix NPE when partition has already been reclaimed.
+500,2019-09-18 23:07:45.000000000,2019-09-19 04:32:51.000000000,closed,0,Cherry pick to integration
+499,2019-09-18 03:27:27.000000000,2019-09-18 22:45:36.000000000,closed,1,misc(core): Add new shard key _ws_ and rename _ns to _ns_
+498,2019-09-18 01:17:53.000000000,2019-09-18 03:19:41.000000000,closed,1,feat(query):Support multiple shard keys in QueryOptions.simpleMapSpreadFunc
+497,2019-09-17 02:36:02.000000000,2019-09-18 00:04:29.000000000,closed,0,misc(http): Add exceptionhandler in http route
+496,2019-09-16 22:47:31.000000000,2019-09-25 02:43:26.000000000,closed,9,"feat(core, query): Remove dataset from query APIs; add schema to leaf ExecPlans"
+495,2019-09-16 20:43:42.000000000,2019-09-19 20:55:11.000000000,closed,3,feat(query):  date time functions support
+494,2019-09-14 01:25:18.000000000,2019-11-02 02:18:49.000000000,closed,3,feat(core): Flush chunks on hourly boundaries.
+493,2019-09-13 23:29:03.000000000,2019-09-16 20:43:20.000000000,closed,0,misc(core): Remove the disk TTL parameter and access config directly.
+492,2019-09-11 09:37:06.000000000,2019-09-18 22:17:52.000000000,closed,0,feat(downsampler): Spark job to read and downsample raw data from cassandra
+491,2019-09-09 21:12:48.000000000,2019-09-14 02:56:57.000000000,closed,1,"feat(core): Default gauge, counter, histogram, untyped schemas"
+490,2019-09-07 03:05:06.000000000,2019-09-17 02:11:33.000000000,closed,2,feat(query): sort and sort desc function
+489,2019-09-06 04:24:59.000000000,2019-09-18 00:51:59.000000000,closed,1,fix(memory): Protect blocks from being marked as reclaimable multiple times.
+488,2019-09-06 02:56:13.000000000,2019-09-07 03:06:49.000000000,closed,0,feat(core): Add metric to default partkey; include partkey in schemaID 
+487,2019-09-05 02:28:42.000000000,2019-09-06 03:03:01.000000000,closed,0,fix(memory): Don't bother tracking blocks which are marked reclaimable.
+486,2019-09-04 21:05:25.000000000,2019-09-04 21:07:36.000000000,closed,0,misc: Bump version to 0.8.6.3
+485,2019-09-03 21:28:37.000000000,2019-09-04 02:45:23.000000000,closed,0,Release 0.8.6.2 HOTFIX
+484,2019-08-31 01:13:24.000000000,2019-08-31 01:50:42.000000000,closed,0,fix(memory: Fix BlockDetective ConcurrentModificationException
+483,2019-08-29 23:57:04.000000000,2019-09-16 22:24:55.000000000,closed,1,"feat(kafka, core): Ensure that ingestion time always appears monotonic."
+482,2019-08-29 00:43:16.000000000,2019-08-29 08:04:25.000000000,closed,3,"feat(memory, core): BlockDetective: detailed block corruption ownership/reclaim analysis"
+481,2019-08-26 20:29:56.000000000,2019-08-26 22:02:47.000000000,closed,0,debug(memory): Add logging around time-bucketed reclaims
+480,2019-08-24 02:30:35.000000000,2019-08-29 22:30:07.000000000,closed,0,"feat(core, *): Multiple schema ingestion support"
+479,2019-08-24 00:57:44.000000000,2019-08-27 04:36:14.000000000,closed,2,feat(util) : util to get value for a columnName from logical plan
+478,2019-08-23 04:24:15.000000000,2019-09-11 01:02:37.000000000,closed,2,feat(query): changes function support
+477,2019-08-23 00:29:20.000000000,2019-08-28 02:01:11.000000000,closed,0,"feat(cassandra, core): Drop the chunk index table and replace it with a table keyed by ingestion time."
+476,2019-08-22 03:48:52.000000000,2019-08-24 02:50:21.000000000,closed,0,misc(cassandra): Remove unused table.
+475,2019-08-22 01:39:26.000000000,2019-08-22 01:56:33.000000000,closed,0, fix(core): Fix filo-cli labelValues bug with MapColumn result pretty printing
+474,2019-08-21 21:28:41.000000000,2019-08-22 03:34:30.000000000,closed,2,misc(cassandra): Stop querying the chunk index table and use the regular table instead.
+473,2019-08-19 22:36:33.000000000,2019-09-20 20:21:55.000000000,closed,2,WIP: Upgrading sbt from 0.13 to 1.2.8
+472,2019-08-19 22:35:43.000000000,2019-08-19 22:38:25.000000000,closed,0,WIP: Upgrade sbt
+471,2019-08-16 22:01:04.000000000,2019-08-16 22:24:43.000000000,closed,0,Integration from develop merge 0.8.7 take2
+470,2019-08-16 21:50:04.000000000,2019-08-16 21:59:53.000000000,closed,0,Merge 0.8.7 to integration take 2
+469,2019-08-16 01:10:50.000000000,2019-08-22 01:41:23.000000000,closed,1,feat(core): Redefine chunk id to incorporate ingestion time.
+468,2019-08-16 00:53:49.000000000,2019-08-16 03:47:18.000000000,closed,0,bug(query) : replace AkkaHttpBackend with AsyncHttpClientFutureBackend
+467,2019-08-16 00:43:16.000000000,2019-08-16 01:02:25.000000000,closed,0,bug(query) : incorrect result type for QueryResult
+466,2019-08-15 04:22:36.000000000,2019-08-15 23:08:35.000000000,closed,0,08/14 develop -> integration 0.8.7 merge
+465,2019-08-15 04:21:01.000000000,2019-08-15 04:21:10.000000000,closed,0,Integration 0.8.7 merge 08/14
+464,2019-08-15 00:43:02.000000000,2019-08-15 01:12:11.000000000,closed,0,"misc(memory, core): Log block reclaim as info; log corrupt vector address and skip."
+463,2019-08-15 00:14:01.000000000,2019-08-15 00:25:05.000000000,closed,0,Testing
+462,2019-08-15 00:02:04.000000000,2019-08-15 00:07:56.000000000,closed,0,Merge 10 commits to integration
+461,2019-08-13 10:41:39.000000000,2019-08-13 21:21:56.000000000,closed,1,bug(query) Fix for handling different schemas for instant query responses
+460,2019-08-13 02:14:40.000000000,2019-08-13 20:56:22.000000000,closed,1,bug[memory]: Guard BlockManager data structures with the lock.
+459,2019-08-09 03:40:35.000000000,2019-08-09 20:44:04.000000000,closed,0,feat(coordinator) : routing for instant queries
+458,2019-08-08 21:01:39.000000000,2020-02-25 01:26:31.000000000,closed,2,Upgrade to SBT 1.x
+457,2019-08-08 21:00:27.000000000,1970-01-01 00:00:00.000000001,open,19,Upgrade to Scala 2.12
+456,2019-08-08 05:04:53.000000000,2019-08-08 20:37:16.000000000,closed,1,bug(query): RecordBuilder should be part of PromQlExec
+455,2019-08-06 02:44:34.000000000,2019-08-08 23:15:58.000000000,closed,0,"feat(core): PartitionKey/BR: +SchemID, Map format changes; RecordContainer timestamp"
+454,2019-08-01 22:32:59.000000000,2019-08-02 00:31:04.000000000,closed,0,misc(prometheus): Add scala-parser-combinators dependencies directly to prometheus module
+453,2019-07-31 23:16:35.000000000,2019-08-01 02:05:49.000000000,closed,0,bug(core): Release searchers after each acquire
+452,2019-07-30 04:07:26.000000000,2019-07-30 04:28:31.000000000,closed,0,"Revert ""feat(core, *): PartitionSchema and DataSchemas: multi-schema part I (#440)"""
+451,2019-07-30 02:21:58.000000000,2019-07-31 03:00:06.000000000,closed,2,"feat(query, core): QueryResult need not always be serializable"
+450,2019-07-24 03:02:46.000000000,2019-07-24 21:19:37.000000000,closed,0,Merge integration 0.8.6 to master
+449,2019-07-24 02:43:02.000000000,2019-07-24 03:08:06.000000000,closed,0,feat(core): MultiSchema prep: Allow PartitionSet to be used with multiple schema/Dataset definitions
+448,2019-07-22 07:15:03.000000000,2019-08-07 00:23:43.000000000,closed,0,"feat(query, coordinator): routing queries based on failure time ranges across pods/cluster"
+447,2019-07-19 03:31:44.000000000,2019-07-19 20:18:26.000000000,closed,0,Merge from develop to Integration Take4
+446,2019-07-19 02:37:24.000000000,2019-07-19 03:26:34.000000000,closed,0,misc(coordinator) Log when ingestion cancel task is run.
+445,2019-07-18 20:52:56.000000000,2019-08-03 01:52:51.000000000,closed,0,feat(query): Ability to respond to gauge related PromQL queries from downsampled data
+444,2019-07-17 02:49:26.000000000,2019-07-18 00:19:46.000000000,closed,0,bug(coordinator) Stopping ingestion didn't actually run the handler.
+443,2019-07-16 03:08:23.000000000,2019-07-16 03:09:58.000000000,closed,0,bug(core): Temporarily disable a thread assertion Take2
+442,2019-07-16 02:36:48.000000000,2019-07-16 02:43:11.000000000,closed,0,bug(core): Temporarily disable chunk consumption thread assertion 
+441,2019-07-15 06:19:34.000000000,2019-07-15 22:06:16.000000000,closed,0,feat(various): Assert Thread Name of various operations
+440,2019-07-12 00:40:26.000000000,2019-07-26 01:34:58.000000000,closed,0,"feat(core, *): PartitionSchema and DataSchemas: multi-schema part I"
+439,2019-07-11 06:11:36.000000000,2019-08-09 22:25:04.000000000,closed,0,feat(query) : routing based on failure time ranges
+438,2019-07-10 22:57:31.000000000,2019-07-12 05:06:36.000000000,closed,5,"Remove stream subscription task before canceling it, and also rely on…"
+437,2019-07-10 08:10:56.000000000,2019-07-11 00:27:26.000000000,closed,1,feat(downsample): A tool in test code to validate downsampled data
+436,2019-07-03 22:47:22.000000000,2019-07-04 02:28:02.000000000,closed,1,Merge develop -> integration-0.8.6
+435,2019-07-03 20:49:39.000000000,2019-07-03 22:40:49.000000000,closed,0,fix(query): Correctly extract max column for LastSample + histogram_max_quantile
+434,2019-07-02 06:21:40.000000000,2019-07-02 20:48:18.000000000,closed,0,fix(query): histogram_max_quantile: fix NaN bug for proper aggregations
+433,2019-06-29 03:55:19.000000000,2019-07-01 22:21:06.000000000,closed,0,feat(core): Log and meter events when kafka recovery drops data
+432,2019-06-29 02:24:02.000000000,2019-07-08 21:59:17.000000000,closed,1,feat(coord): Fix tests and some dataset config/initialization bugs/races
+431,2019-06-29 01:44:53.000000000,2019-07-26 05:06:24.000000000,closed,2, feat(query): rate and increase functions for HistogramColumn
+430,2019-06-28 03:15:07.000000000,2019-06-28 09:01:27.000000000,closed,1,feat(core): reject samples with Nano/Micro second timestamps
+429,2019-06-28 02:43:38.000000000,2019-06-28 03:00:32.000000000,closed,0,bug(coord): Monix-io threadpool used in ingestion
+428,2019-06-28 00:34:37.000000000,2019-06-28 21:25:38.000000000,closed,0,Merge from develop to integration 0.8.6 Take 3
+427,2019-06-27 23:01:25.000000000,2019-06-27 23:55:34.000000000,closed,0,fix(query): Fix output schema of histogram_max_quantile function
+426,2019-06-27 21:17:11.000000000,2019-08-29 05:29:57.000000000,closed,3,feat(query) : operator precedence
+425,2019-06-27 06:52:12.000000000,2019-06-27 08:18:05.000000000,closed,0,feat(core): Ability to use non-string fields to determine which partition to trace
+424,2019-06-27 01:21:42.000000000,2019-06-27 02:36:59.000000000,closed,0,regression(memory): Rely on global logger instance again.
+423,2019-06-27 00:17:10.000000000,2019-06-27 05:20:54.000000000,closed,1,Merge from develop to integration-0.8.6 Take 2
+422,2019-06-27 00:14:17.000000000,2019-06-27 00:16:19.000000000,closed,0,Merge from develop to integration-0.8.6 Take 2
+421,2019-06-26 02:14:03.000000000,2019-06-26 02:57:06.000000000,closed,0,bug(core): Revert synchronous run of populateRawChunks
+420,2019-06-26 00:37:22.000000000,2019-06-26 23:02:44.000000000,closed,0,feat(query): re-enable chunked/optimized rate/increase/delta
+419,2019-06-25 18:18:45.000000000,2019-06-26 00:34:27.000000000,closed,0,bug(core): Queries have been executing in ingestSched
+418,2019-06-25 05:35:06.000000000,2019-07-04 04:35:47.000000000,closed,3,"feat(query) : Binary Join Many to Many - ""and"", ""or"" and ""unless"""
+417,2019-06-25 01:43:27.000000000,2019-06-25 01:45:01.000000000,closed,0,bug(memory): ChunkMap lock logger should be at higher level
+416,2019-06-24 23:11:29.000000000,2019-06-25 00:15:19.000000000,closed,0,Merge from develop to 0.8.6-integration
+415,2019-06-24 22:33:34.000000000,2019-06-24 22:35:00.000000000,closed,0,Merge from develop to integration June-24-2019
+414,2019-06-23 11:39:11.000000000,2019-06-23 21:10:05.000000000,closed,0,bug(query): incorrect cardinality in BinaryJoin
+413,2019-06-21 21:20:21.000000000,2019-06-26 00:31:50.000000000,closed,1,"fix(conf,cassandra): Enable counter drop detection by default; fix C* metastore init"
+412,2019-06-21 02:00:30.000000000,2019-06-29 01:33:28.000000000,closed,0,feat(memory): delta encoding for increasing/Prom histograms
+411,2019-06-18 18:51:07.000000000,2019-06-19 22:01:36.000000000,closed,0,bug(coordinator): Maintain a direct reference to dispatcher to avoid …
+410,2019-06-18 18:04:53.000000000,2019-06-18 18:25:10.000000000,closed,0,bug(coord): Should not re-initialize dataset
+409,2019-06-18 03:52:35.000000000,2019-06-18 04:11:21.000000000,closed,0,bug(core): Additional safety checks to not free native memory when st…
+408,2019-06-18 02:34:34.000000000,2019-06-18 06:03:18.000000000,closed,0,bug(core): Fixes to address segv during rolling deploy
+407,2019-06-17 23:08:35.000000000,2019-06-20 21:16:04.000000000,closed,1,feat(query): Multi-Level aggregation for queries touching many shards
+406,2019-06-12 23:06:24.000000000,2019-06-21 04:53:37.000000000,closed,1,feat(query) : Binary Join Many to One / One to Many with group left/right
+405,2019-06-12 22:53:24.000000000,2019-06-12 23:27:31.000000000,closed,0,misc(memory): Add explicit null checks to ChunkMap.
+404,2019-06-11 22:54:56.000000000,2019-06-12 01:47:35.000000000,closed,0,bug(http): Fix ask timeout values in http promql api
+403,2019-06-07 07:50:09.000000000,2019-06-07 08:42:51.000000000,closed,0,Update version to 0.8.5.1
+402,2019-06-07 02:29:19.000000000,2019-06-07 05:01:11.000000000,closed,0,Release 0.8.5
+401,2019-06-05 23:32:07.000000000,2019-06-06 22:30:57.000000000,closed,0,fix(query) : Reduce no of shards in unit test case
+400,2019-06-04 02:19:13.000000000,2019-06-05 23:33:28.000000000,closed,0,Merge develop to 0.8.5-Integration - Spread override and app based spread support
+399,2019-06-03 20:31:06.000000000,2019-06-12 22:02:46.000000000,closed,0,fix(coordinator) : spread-assignment should be optional
+398,2019-06-03 09:19:13.000000000,2019-06-03 20:31:25.000000000,closed,2,fix(coordinator) : spread-assignment should be optional
+397,2019-06-01 10:14:09.000000000,2019-06-01 10:40:33.000000000,closed,0,fix(core): Add an empty spread-assignment in filodb-defaults.conf
+396,2019-06-01 00:05:35.000000000,2019-08-08 21:00:51.000000000,closed,2,fix(query): resets function should not return 0 when there is not data for the window
+395,2019-05-30 03:46:34.000000000,2019-05-31 00:38:19.000000000,closed,0,feat(core): Add memstore-hist-encoded-bytes metric
+394,2019-05-29 01:33:17.000000000,2019-06-21 04:06:57.000000000,closed,5,"feat(memory,query): counter correction v2 / chunked rate, increase, delta"
+393,2019-05-28 23:05:00.000000000,2019-06-12 22:16:06.000000000,closed,1,fix(Query): metadata query - enforce limit by returning truncated res…
+392,2019-05-23 04:56:51.000000000,2019-05-23 05:13:33.000000000,closed,0,Update version to 0.8.5.integration
+391,2019-05-23 00:38:00.000000000,2019-05-23 01:04:49.000000000,closed,0, Merge Develop to 0.8.5-Integration - take2
+390,2019-05-23 00:26:38.000000000,2019-05-23 00:27:47.000000000,closed,0,Merge from develop to integration [May-22-2019]
+389,2019-05-23 00:25:15.000000000,2019-05-23 00:25:24.000000000,closed,0,Merge from develop to integration [May-22-2019]
+388,2019-05-23 00:08:57.000000000,2019-05-23 00:38:17.000000000,closed,0,Merge from develop to integration [May-22-2019]
+387,2019-05-22 21:32:55.000000000,2019-05-22 23:15:48.000000000,closed,0,misc(core): Increase shard-mem-size for tests.
+386,2019-05-22 21:26:03.000000000,2019-05-22 21:31:55.000000000,closed,0,misc(core): Increase shard-mem-size for tests.
+385,2019-05-22 01:49:26.000000000,2019-05-22 20:25:51.000000000,closed,0,misc(memory): Remove some temporary debug code.
+384,2019-05-22 01:09:44.000000000,2019-05-22 01:13:35.000000000,closed,0,bug(coord): Reinstate shared assignment log message
+383,2019-05-21 22:24:04.000000000,2019-05-22 01:38:49.000000000,closed,0,bug(core): The flush done tasks must be run from the ingestion thread.
+382,2019-05-21 03:05:55.000000000,2019-05-21 03:18:57.000000000,closed,0,fix(core): ChunkSetInfo.debugString checks for null
+381,2019-05-21 00:58:32.000000000,2019-05-21 01:47:55.000000000,closed,0,bug(core): Use ingesting flag to identify partitions to not purge
+380,2019-05-21 00:47:52.000000000,2019-05-21 00:49:27.000000000,closed,0,Update version to 0.8.4.4 for internal spread override
+379,2019-05-21 00:09:28.000000000,2019-05-21 00:56:04.000000000,closed,2,bug(core): Don't call isEmpty on chunk map iterator from the ingestion thread.
+378,2019-05-20 22:53:08.000000000,2019-05-21 00:14:31.000000000,closed,0,debug(coordinator): Log easy-to-read snapshot of entire ShardMapper at NCA startup
+377,2019-05-20 21:10:54.000000000,2019-05-20 21:57:26.000000000,closed,0,"debug(core): More debug/trace loggging around switchBuffers, initNewChunk"
+376,2019-05-20 11:02:59.000000000,2019-05-31 01:04:27.000000000,closed,4,feat(query): Spread override  and app based spread support
+375,2019-05-19 23:38:38.000000000,2019-05-20 00:33:56.000000000,closed,0,"bug(core,cass): partGroups bitmap concurrency; fetchSize for partIndex"
+374,2019-05-19 09:41:47.000000000,2019-05-19 09:58:44.000000000,closed,0,bug(core): Update re-ingesting partition in index
+373,2019-05-18 02:40:01.000000000,2019-05-19 05:04:02.000000000,closed,0,misc(memory): More debug.
+372,2019-05-17 23:02:10.000000000,2019-05-17 23:31:40.000000000,closed,0,misc(memory): Add shared lock debugging checks for ingestion thread.
+371,2019-05-17 03:52:06.000000000,2019-05-17 03:53:28.000000000,closed,0,debug(memory): More debugging of ChunkMap lock release
+370,2019-05-17 03:21:07.000000000,2019-05-17 05:01:42.000000000,closed,0,Merge Develop to 0.8.5-Integration -  Return extra WriteBuffer memory back for reuse and bug fixes
+369,2019-05-17 02:23:06.000000000,2019-05-17 02:56:21.000000000,closed,0,bug(core): Need to check if bloom filter has been disposed.
+368,2019-05-17 01:40:09.000000000,2019-05-17 03:06:55.000000000,closed,0,Merge Develop to 0.8.5-Integration - bug fixes
+367,2019-05-16 18:09:05.000000000,2019-05-16 22:43:08.000000000,closed,0,"feat(core,query): Debug queries that dont release lock; shut down node with stuck shard"
+366,2019-05-16 03:22:55.000000000,2019-05-16 18:07:08.000000000,closed,1,"bug(core): Guard access to the evicted partition keys bloom filter, to prevent it from being freed concurrently."
+365,2019-05-16 00:30:20.000000000,2019-05-16 00:49:32.000000000,closed,0,"bug(coordinator): Exceptions when starting ingestion, but before the recovery task begins, should be caught and handled."
+364,2019-05-16 00:20:46.000000000,2019-05-16 04:41:53.000000000,closed,2,feat(core): Return extra WriteBuffer memory back for reuse
+363,2019-05-15 10:01:39.000000000,2019-05-15 10:23:04.000000000,closed,0,bug(core): More - Set ingestion flag explicitly and not assume defaults
+362,2019-05-15 04:06:37.000000000,2019-05-15 04:23:06.000000000,closed,0,bug(core): By default partition should not be ingesting
+361,2019-05-15 03:50:33.000000000,2019-05-29 02:24:19.000000000,closed,1,"feat(memory, query): histogram_max_quantile - more accurate top quantiles"
+360,2019-05-14 22:47:47.000000000,2019-05-22 22:55:29.000000000,closed,1,feat(query): Label Join function support
+359,2019-05-14 01:19:10.000000000,2019-05-14 01:40:08.000000000,closed,0,bug(core): Add non-ingesting partKeys to evictedPks BloomFilter during index recovery
+358,2019-05-14 00:44:09.000000000,2019-05-14 03:52:50.000000000,closed,0, feat(core): More debug logging for traced TSPartitions
+357,2019-05-10 21:55:55.000000000,2019-05-14 01:43:54.000000000,closed,3,bug(core): endTime update for re-ingesting time series should happen immediately
+356,2019-05-09 07:49:54.000000000,2019-05-10 03:09:30.000000000,closed,0,bug(core): Not purging partition if it has unflushed data
+355,2019-05-09 06:03:55.000000000,2019-05-09 22:16:04.000000000,closed,0,Merge ‘develop’ into 0.8.5 integration - Bug Fixes
+354,2019-05-09 04:56:47.000000000,2019-05-09 08:03:44.000000000,closed,0,feat(core): Fix and add more TSPartition detailed tracing/logging
+353,2019-05-09 00:27:47.000000000,2019-05-09 00:32:12.000000000,closed,0,bug(core): Shard metrics has dataset in metric name instead of tag
+352,2019-05-08 23:08:48.000000000,2019-05-08 23:55:47.000000000,closed,0,bug(core): Shard status metrics did not have dataset tags
+351,2019-05-07 22:52:37.000000000,2019-05-08 21:03:23.000000000,closed,0,bug(core): Recovery reporting was delayed for final 100% mark
+350,2019-05-04 00:53:42.000000000,2019-05-04 02:20:27.000000000,closed,0,bug(core): Including missed time bucket during index recovery
+349,2019-05-03 09:44:33.000000000,2019-05-05 09:15:46.000000000,closed,3,bug(query): topk and bottomk has trailing value 
+348,2019-05-03 01:09:48.000000000,2019-05-03 03:50:40.000000000,closed,4,fix(memory): Fix DeltaDelta bug where slope(int) multiply overflowed
+347,2019-05-01 22:16:19.000000000,2019-05-01 22:38:17.000000000,closed,0, Release 0.8.4.3
+346,2019-05-01 22:02:58.000000000,2019-05-29 01:46:24.000000000,closed,0,misc(build): use jdk11 compatible sbt and libs
+345,2019-04-30 01:36:28.000000000,2019-04-30 03:50:26.000000000,closed,0,Merge branch ‘develop’ into 0.8.5-integration
+344,2019-04-30 00:41:59.000000000,2019-04-30 00:43:12.000000000,closed,0,upgrade libs
+343,2019-04-30 00:27:28.000000000,2019-04-30 00:53:29.000000000,closed,0,misc(query): make spreadFunc serializable (#304)
+342,2019-04-29 22:04:15.000000000,2019-04-29 22:05:54.000000000,closed,0,0.8.4.2 Release
+341,2019-04-29 21:18:28.000000000,2019-04-29 21:30:28.000000000,closed,0,merge integration to 0.8.4.2
+340,2019-04-29 21:11:03.000000000,2019-04-29 21:54:59.000000000,closed,0,fix(memory): Fix edge case for DDV encoding where first value != the rest
+339,2019-04-29 20:06:16.000000000,2019-04-29 20:29:37.000000000,closed,0,"misc(conf,coordinator,core): Reduce overhead of Kryo debug/trace logging."
+338,2019-04-27 05:05:39.000000000,2019-04-29 22:19:02.000000000,closed,1,"JDK11: upgrade sbt, akka"
+337,2019-04-27 03:19:35.000000000,2019-04-29 21:47:01.000000000,closed,1,"JDK11: upgrade sbt, akka"
+336,2019-04-27 01:04:31.000000000,2019-04-27 01:23:04.000000000,closed,0,bug(core): Fix Kamon tag.
+335,2019-04-27 00:29:24.000000000,2019-04-27 00:50:40.000000000,closed,0,Merge Develop to 0.8.4-integration - for 0.8.4.2 hotfix
+334,2019-04-26 20:59:15.000000000,2019-06-11 00:38:00.000000000,closed,4,"feat(core, config): Simplification of Dataset Setup via config"
+333,2019-04-26 10:47:41.000000000,2019-04-26 21:10:19.000000000,closed,0,"feat(core,kafka): Detailed ingestion logging for matching subset of records"
+332,2019-04-24 21:37:51.000000000,2019-04-24 22:01:37.000000000,closed,0,0.8.4.1 Release
+331,2019-04-24 02:17:31.000000000,2019-04-25 02:50:50.000000000,closed,1, fix(coordinator): Forward query messages to random shard coordinator
+330,2019-04-24 00:37:16.000000000,2019-04-25 00:56:02.000000000,closed,0,feat(prometheus): Add multiline query support
+329,2019-04-24 00:32:25.000000000,2019-04-24 00:36:02.000000000,closed,0,feat
+328,2019-04-23 00:48:53.000000000,2019-04-24 02:25:31.000000000,closed,0,"misc(coordinator): Remove redundant shard event logging, and lower some to debug level."
+327,2019-04-22 23:39:17.000000000,2019-04-24 02:25:57.000000000,closed,0,bug(core): Fix very rare partition ID collision.
+326,2019-04-19 02:23:53.000000000,2019-04-19 03:25:14.000000000,closed,0,Merge Develop to 0.8.4-integration - bug fixes
+325,2019-04-17 02:31:19.000000000,2019-04-19 02:11:20.000000000,closed,0,test(core): Unit test for Lucene startTimes api for multiple partIds
+324,2019-04-16 22:42:17.000000000,2019-04-17 01:19:39.000000000,closed,1,feat(config): Better default buckets for Kamon-Prometheus
+323,2019-04-16 22:10:04.000000000,2019-04-24 18:21:00.000000000,closed,2," feat(core): Use shared ingestion buffer memory, to prevent out of memory errors when shards aren't balanced."
+322,2019-04-16 10:22:31.000000000,2019-04-17 23:08:05.000000000,closed,0,bug(query) : comparison operator returns metric even when no values are present
+321,2019-04-16 08:42:09.000000000,2019-04-16 21:29:44.000000000,closed,0,bug(core): fix startTimeFromPartIds regression
+320,2019-04-16 04:14:34.000000000,2019-04-16 21:51:34.000000000,closed,0," feat(core): Use shared ingestion buffer memory, to prevent out of memory errors when shards aren't balanced."
+319,2019-04-16 00:42:01.000000000,2019-04-16 01:12:03.000000000,closed,0,0.8.4 Release
+318,2019-04-15 20:28:03.000000000,2019-04-20 01:39:08.000000000,closed,0, feat(memory): CustomBuckets: ingest/serialize histograms with custom bucket def
+317,2019-04-12 18:36:38.000000000,2019-04-12 22:06:39.000000000,closed,0,bug(core): startTimes Lucene query needs batching
+316,2019-04-12 02:58:52.000000000,2019-04-22 22:01:20.000000000,closed,9,"feat(http, coordinator): explainPlan support in FiloDB HTTP"
+315,2019-04-09 23:27:34.000000000,2019-04-11 02:37:56.000000000,closed,0,bug(query): binary join with ignoring and on bug fix 
+314,2019-04-09 22:02:16.000000000,2019-04-12 22:12:54.000000000,closed,0,misc(core): Remove code for old chunk id encoding format.
+313,2019-04-07 20:06:12.000000000,2019-04-09 21:12:28.000000000,closed,0,feat(query): Allow metric name as tag in promQL; Allow escape chars in tag values
+312,2019-04-06 02:06:24.000000000,2019-04-06 02:58:22.000000000,closed,0,Merge Develop to 0.8.4-integration - bug fixes
+311,2019-04-05 23:42:18.000000000,2019-04-06 00:06:05.000000000,closed,1,bug(coordinator): Fix thread safety issue with sharing of ShardMapper instances.
+310,2019-04-05 03:09:32.000000000,2019-04-08 22:53:13.000000000,closed,0,"feat(coordinator): Publish shard mapping snapshots once a minute, to cope with dropped messages."
+309,2019-04-05 02:42:30.000000000,2019-04-08 22:54:14.000000000,closed,0,fix(core): Switch to thread-safe Queue in WriteBufferPool
+308,2019-04-05 01:04:41.000000000,2019-04-05 02:46:57.000000000,closed,0,"fix(memory, query): Fix exceptions in Histogram summing"
+307,2019-04-04 04:42:29.000000000,2019-04-04 22:06:51.000000000,closed,0,fix(cli): Make --limit actually behave like a user specified output limit
+306,2019-04-03 22:39:05.000000000,2019-04-04 02:02:18.000000000,closed,0,misc(core): Add zipkin configs to filodb-defaults
+305,2019-04-03 08:28:59.000000000,2019-04-03 22:11:20.000000000,closed,0,bug(coord): Remove publish snapshot for RecoveryInProgress
+304,2019-04-02 02:53:16.000000000,2019-04-16 20:58:21.000000000,closed,1,misc(query): make spreadFunc serializable
+303,2019-03-30 00:53:49.000000000,2019-03-31 23:25:03.000000000,closed,0,bug(coordinator): Use a thread-safe random number generator for dispatcher selection.
+302,2019-03-29 02:57:48.000000000,2019-03-29 03:24:20.000000000,closed,0,Merge Develop to 0.8.4-integration
+301,2019-03-29 02:54:28.000000000,2019-03-29 02:56:12.000000000,closed,0,Merge Develop to 0.8.4-integration
+300,2019-03-28 02:10:00.000000000,2019-03-28 22:23:12.000000000,closed,0, bug(query): resets function bug fix
+299,2019-03-28 01:02:43.000000000,2019-03-29 02:53:26.000000000,closed,0,Merge Develop to 0.8.4-integration
+298,2019-03-27 22:35:25.000000000,2019-03-28 00:38:18.000000000,closed,0,bug(query): resets function returns zero instead of NaN for empty window
+297,2019-03-26 20:22:19.000000000,2019-04-04 22:21:50.000000000,closed,4, feat(query): aggr-over-vectors: Up to 2x speedup for no grouping
+296,2019-03-26 08:37:41.000000000,2019-04-02 09:12:14.000000000,closed,3,feat(core): Optimize index recovery for long term retention
+295,2019-03-25 21:18:42.000000000,2019-03-25 21:42:10.000000000,closed,0,fix(query): Fix requirement preventing avg() aggregates from working
+294,2019-03-23 07:53:10.000000000,2019-03-25 20:33:51.000000000,closed,0,misc(core): Make zipkin message maxBytesOut configurable
+293,2019-03-23 03:16:45.000000000,2019-03-29 03:42:37.000000000,closed,1, feat(query): Parallelize scanPartitions and all QE work in query threadpool
+292,2019-03-22 23:41:33.000000000,2019-04-04 21:05:26.000000000,closed,3, feat(coordinator): Resync shard mapping with a full shard state command
+291,2019-03-22 03:25:35.000000000,2019-03-26 03:37:20.000000000,closed,2,bug(core): ODP from Cassandra only if Lucene index indicates that there is data
+290,2019-03-21 18:57:04.000000000,2019-03-22 03:57:43.000000000,closed,0,misc(core): Reduce zipkin message batchsize
+289,2019-03-20 21:18:11.000000000,2019-03-23 02:25:33.000000000,closed,0,bug(coord): Send missing snapshot message on updateFromExternalShardEvent
+288,2019-03-20 02:13:03.000000000,2019-03-23 03:02:26.000000000,closed,0,feat(query): Histogram sum() over RangeVectors
+287,2019-03-19 21:40:16.000000000,2019-03-19 21:40:30.000000000,closed,0,Shard state
+286,2019-03-19 04:40:48.000000000,2019-03-19 07:29:06.000000000,closed,0,0.8.3 Release
+285,2019-03-19 04:28:36.000000000,2019-03-19 20:28:16.000000000,closed,0,bug(core): Fix duplicate shard setup detection.
+284,2019-03-16 03:17:18.000000000,2019-03-20 04:04:19.000000000,closed,1,"feat(memory, core): Add logs/stats for block manager; reclaim blocks even if data dropped"
+283,2019-03-16 01:33:31.000000000,2019-03-16 02:30:30.000000000,closed,0,bug(query): fix bug in Count to add input value in reduce only when it is not NaN
+282,2019-03-16 01:09:29.000000000,2019-03-20 05:31:20.000000000,closed,3,feat(core): Correct support for intermittently publishing time series
+281,2019-03-15 22:00:02.000000000,2019-03-18 19:49:56.000000000,closed,0,feat(core): hSum sum_over_time Histogram downsampler
+280,2019-03-14 04:22:52.000000000,2019-03-20 02:19:31.000000000,closed,1,feat(core): Add key=value optional parameters to each Column definition
+279,2019-03-13 22:43:34.000000000,2019-04-02 04:07:08.000000000,closed,1,feat(gateway): Add --gen-prom-data and --gen-hist-data to dev gateway; multiple schema support
+278,2019-03-13 21:47:47.000000000,2019-03-15 01:24:05.000000000,closed,0,feat(query): histogram_bucket function
+277,2019-03-13 04:39:26.000000000,2019-03-14 00:32:44.000000000,closed,1,bug(coordinator): Finish dataset initialization using a message to avoid potential thread-safety issues.
+276,2019-03-12 05:35:38.000000000,2019-03-12 21:34:47.000000000,closed,1,feat(query): Include partId in query result on verbose option
+275,2019-03-12 03:37:13.000000000,2019-03-12 21:33:34.000000000,closed,0,"feat/fix(core,query): Remove binaryrecord v1 and associated SEGVs"
+274,2019-03-11 22:49:11.000000000,2019-03-13 01:33:42.000000000,closed,0,feat(query):Support for comparison operators
+273,2019-03-11 21:58:53.000000000,2019-03-11 22:02:43.000000000,closed,0,fix(memory): fix minor Scaladoc formatting issue
+272,2019-03-08 12:28:21.000000000,2019-03-09 00:25:22.000000000,closed,1,"bug(query): fix bug in PeriodicSamplesMapper to include value present at time, timestamp - staleSampleAfterMs"
+271,2019-03-08 00:48:47.000000000,2019-04-16 23:28:15.000000000,closed,1,bug(core): Disable flush failure recovery step which has race conditions
+270,2019-03-07 22:45:28.000000000,2019-03-07 22:51:36.000000000,closed,0,fix(core): option to disable new endMap() bulk hash calculation; preserve old PromInputRecord calc
+269,2019-03-07 00:34:28.000000000,2019-03-09 06:14:50.000000000,closed,1,feat(memory): Implementation of NibblePacking compression/storage scheme
+268,2019-03-06 17:57:54.000000000,2019-03-08 00:04:11.000000000,closed,1, feat(query): Handling spread changes over time in Query Engine - Iteration 1
+267,2019-03-06 12:07:15.000000000,2019-03-12 21:13:48.000000000,closed,1,feat(memory): Integrate NibblePack-compression into serialized Histograms
+266,2019-03-06 11:50:12.000000000,2019-03-07 00:53:56.000000000,closed,2,fix(coordinator): Use random Akka port in some tests to reduce failures
+265,2019-03-06 02:37:52.000000000,2019-03-13 22:18:22.000000000,closed,5,"feat(memory, core): Row based, NibblePacked HistogramColumn"
+264,2019-03-01 21:19:34.000000000,2019-03-06 03:11:46.000000000,closed,1,misc: Run Travis builds with openjdk11
+263,2019-03-01 20:52:23.000000000,2019-03-01 21:15:25.000000000,closed,0,Testing Travis with openjdk11
+262,2019-02-28 23:42:22.000000000,2019-03-01 03:19:15.000000000,closed,0,bug(prometheus): Use a bigger dummy step for instant queries
+261,2019-02-28 03:15:52.000000000,2019-02-28 03:39:13.000000000,closed,0,bug(query): Binary Join sometimes results in incorrect results
+260,2019-02-28 03:15:40.000000000,2019-02-28 03:53:43.000000000,closed,0,fix(memory): Fix bug where binarySearch of DDVs was reading memory out of bounds
+259,2019-02-28 02:17:57.000000000,2019-02-28 03:06:03.000000000,closed,1,bug(core): currentIndexTimeBucket should be atomically read and modified
+258,2019-02-27 05:31:09.000000000,2019-02-27 22:54:44.000000000,closed,0,feat(standalone): Add package-level summary to profiling report. 
+257,2019-02-27 05:18:19.000000000,2019-03-08 11:27:29.000000000,closed,2,feat(query): Label Replace function support
+256,2019-02-26 05:17:31.000000000,2019-02-28 04:38:44.000000000,closed,2,misc: fix for On Demand Chunk page-in span
+255,2019-02-26 04:58:24.000000000,2019-02-26 11:11:18.000000000,closed,0,feat(memory): Add basic deadlock detection when shared lock owner tries to upgrade to exclusive.
+254,2019-02-26 02:49:07.000000000,2019-02-28 00:33:28.000000000,closed,5, bug(core): Add a lock to protect access to the activelyIngesting bitmap.
+253,2019-02-25 12:36:31.000000000,2019-02-25 12:59:40.000000000,closed,0,feat(query): Add additional info in tracing
+252,2019-02-25 11:27:07.000000000,2019-02-25 11:52:52.000000000,closed,0,feat(query): Fix broken tracing
+251,2019-02-23 03:13:28.000000000,2019-02-23 03:19:17.000000000,closed,0,feat(config): Increase query-timeout in filodb
+250,2019-02-23 03:04:33.000000000,2019-02-23 03:38:53.000000000,closed,0,"feat(standalone): Profiler tracks calls to Thread.yield, to indicate …"
+249,2019-02-23 01:45:28.000000000,2019-02-26 02:09:53.000000000,closed,0,"bug(memory, query): Window iteration mustn't release the shared chunk…"
+248,2019-02-21 07:48:27.000000000,2019-02-23 03:35:53.000000000,closed,1,feat(memory): Support reentrant shared lock when exclusive lock is re…
+247,2019-02-21 02:28:23.000000000,2019-02-21 06:36:12.000000000,closed,1,feat(coordinator): Fix port binding issue when running tests.
+246,2019-02-19 05:57:22.000000000,2019-02-22 23:34:24.000000000,closed,0,bug(query): fix for resets function
+245,2019-02-19 03:38:16.000000000,2019-02-19 04:02:02.000000000,closed,0,fix(core): Reset # rows in recycled chunk metadata for consistent metadata<->vectors
+244,2019-02-19 01:45:39.000000000,2019-02-19 03:49:10.000000000,closed,0,feat(core): Don't bother publishing new write buffer until it actuall…
+243,2019-02-16 04:12:23.000000000,2019-02-16 04:14:50.000000000,closed,0,fix(query): Fix bug in exception logging code
+242,2019-02-15 23:53:38.000000000,2019-02-16 00:43:13.000000000,closed,0,bug(memory): Fix lexicographical byte comparison. Bytes must be unsig…
+241,2019-02-15 20:44:17.000000000,2019-02-16 00:49:51.000000000,closed,0,feat(standalone): Fix profiler shutdown hook.
+240,2019-02-15 11:36:51.000000000,2019-02-16 00:42:13.000000000,closed,0,misc(core): Add debugging/checks to prevent NULL ChunkSetInfo during queries
+239,2019-02-15 02:58:03.000000000,2019-02-15 04:55:30.000000000,closed,0,misc: Don't compile with -Xcheckinit option. It makes all fields lazy…
+238,2019-02-15 01:49:12.000000000,2019-02-21 09:25:06.000000000,closed,6,bug(query): fix bug in aggregate over time functions for NaN
+237,2019-02-15 00:03:03.000000000,2019-02-15 00:10:26.000000000,closed,0,misc: fix chunks-paged-in metric type to capture counter instead of gauge
+236,2019-02-14 22:53:59.000000000,2019-02-14 23:11:12.000000000,closed,2,Merge from develop to integration
+235,2019-02-14 05:48:40.000000000,2019-02-14 23:15:49.000000000,closed,0,fix(core): Limit chunked windowing range for downsampling
+234,2019-02-14 05:03:07.000000000,2019-02-14 05:39:04.000000000,closed,2,fix(query): Limit chunked windowing range to ChunkSetInfo.numRows
+233,2019-02-13 04:19:34.000000000,2019-02-14 11:50:01.000000000,closed,0,"misc: additional metrics to capture time taken for ODP, lucene index lookup"
+232,2019-02-13 00:36:38.000000000,2019-02-13 03:45:49.000000000,closed,0,feat(core): Factory with Cassandra Metastore and Null Column Store
+231,2019-02-12 23:08:25.000000000,2019-02-13 00:24:14.000000000,closed,1,bug(kafka): Replace monix-kafka usage in downsampling Kafka producer
+230,2019-02-12 22:39:45.000000000,2019-02-13 00:21:50.000000000,closed,0,fix(memory): Fix binarySearch bugs in Long/TS vectors; add more debugging
+229,2019-02-12 07:29:56.000000000,2019-02-13 05:28:14.000000000,closed,2,feat(standalone): Include a simple profiler.
+228,2019-02-12 05:41:52.000000000,2019-02-13 00:26:15.000000000,closed,0,feat(jmh): Benchmark for Leaf/Scan queries
+227,2019-02-09 05:47:42.000000000,2019-02-09 05:54:22.000000000,closed,0,feat(config): Increase query-timeout in filodb
+226,2019-02-06 00:29:55.000000000,2019-02-06 04:36:22.000000000,closed,0,fix(memory): Fix DivideByZero exception when DDV has slope=0
+225,2019-02-05 23:28:05.000000000,2019-05-28 23:06:00.000000000,closed,1,query: metadata query - enforce limit by returning truncated results
+224,2019-02-04 07:58:25.000000000,2019-02-06 10:12:34.000000000,closed,1,bug(coord): NPE seen in ShardManager when processing shard events
+223,2019-02-03 04:59:22.000000000,2019-02-03 07:31:18.000000000,closed,2,bug(query): Sub queries are being executed sequentially
+222,2019-02-03 04:24:33.000000000,2019-02-03 04:57:58.000000000,closed,1,bug(query): Sub queries are being executed sequentially
+221,2019-02-01 13:00:45.000000000,2019-02-02 04:12:34.000000000,closed,0,feat(core): Add https support in Kamon ZipkinReporter
+220,2019-02-01 05:45:04.000000000,2019-02-05 01:26:10.000000000,closed,0,fix(core): Execute eviction and purging tasks in ingestion thread only
+219,2019-01-31 11:56:03.000000000,2019-02-01 04:35:41.000000000,closed,0,"bug(query): fix bug in ChunkedWindowIterator to include value present at time, timestamp - staleSampleAfterMs "
+218,2019-01-31 01:40:57.000000000,2019-02-01 03:29:04.000000000,closed,1," fix(memory): Check bounds of sum(), count() vector methods"
+217,2019-01-30 10:47:12.000000000,2019-01-30 11:54:51.000000000,closed,0,bug(core): Fixed bug in addition of partKey record with string field
+216,2019-01-30 05:34:20.000000000,2019-02-01 01:39:09.000000000,closed,0,feat(query): support for querying subset of series label values - (series metadata)
+215,2019-01-30 03:08:54.000000000,2019-01-30 05:42:52.000000000,closed,0,bug(memory): UTF8String class should convert to/from Java strings wit…
+214,2019-01-29 06:11:04.000000000,2019-01-30 05:14:15.000000000,closed,1,bug(akkabootstrapper): Retry fetching seeds endpoint before resorting…
+213,2019-01-26 01:43:46.000000000,2019-02-21 06:57:42.000000000,closed,3," feat(memory,core): Replace OffheapLFSortedIDMap with ChunkMap"
+212,2019-01-25 03:08:22.000000000,2019-01-26 04:09:47.000000000,closed,0,feat(query): Apply limits on total number of samples
+211,2019-01-25 00:34:37.000000000,2019-02-28 11:44:42.000000000,closed,3,"feat(memory, core, query): Initial end to end HistogramColumn "
+210,2019-01-24 03:41:36.000000000,2019-01-25 01:03:46.000000000,closed,0,misc(query): allow metadata series queries with no shardcolumns in filters
+209,2019-01-23 04:38:07.000000000,2019-01-23 05:33:36.000000000,closed,1,bug(core): bug fix in the rate function
+208,2019-01-23 03:57:51.000000000,2019-01-23 04:17:28.000000000,closed,0,misc(git): Avoid merging version file during git merge
+207,2019-01-23 03:51:25.000000000,2019-02-16 02:42:14.000000000,closed,3,bug(core): Improve safety of freeing native memory.
+206,2019-01-23 00:19:16.000000000,2019-01-24 21:43:50.000000000,closed,1,"feat(core): Fully remove items from PartitionSet, allowing them to be…"
+205,2019-01-18 01:10:15.000000000,2019-01-24 11:17:17.000000000,closed,2,misc(core): unit test for testing extractTimebucket with multiple string partition columns
+204,2019-01-16 10:37:33.000000000,2019-01-24 04:57:38.000000000,closed,1,feat(core): Downsampling of raw time series data into another dataset
+203,2019-01-12 04:29:36.000000000,2019-01-14 22:23:35.000000000,closed,1,"misc(prometheus): Update sharding key to use ""_ns"" instead of ""app"""
+202,2019-01-12 04:04:54.000000000,2019-01-12 04:27:34.000000000,closed,0,"misc(prometheus): Update sharding key to use ""_ns"" instead of ""app"""
+201,2019-01-11 05:55:44.000000000,2019-01-12 00:27:16.000000000,closed,0,Fix qs issues
+200,2019-01-11 01:08:15.000000000,2019-01-23 03:47:52.000000000,closed,5,"feat(core,memory): Don't free the native memory used by TimeSeriesPartition too soon."
+199,2019-01-10 03:56:00.000000000,2019-01-25 04:59:24.000000000,closed,0,bug(query): fix bug in topK and bottomK for NaN values
+198,2019-01-10 02:56:41.000000000,2019-01-10 03:38:11.000000000,closed,1,bug(query): Fixed bug in counter correction
+197,2019-01-08 05:44:51.000000000,2019-01-25 00:15:56.000000000,closed,1,doc(all): Add compression and predictive nibblepacking doc/proposal
+196,2019-01-05 12:48:14.000000000,2019-01-09 00:44:17.000000000,closed,0,fix(query): fix the assumption that PartitionKey will have only one column of type MapColumn
+195,2019-01-05 02:39:43.000000000,2019-01-08 04:12:17.000000000,closed,1, misc: Switch to openjdk11 when building with Travis. 
+194,2018-12-19 07:24:52.000000000,2018-12-19 22:11:56.000000000,closed,1,Fix docs/ -> doc/ links in README.md
+193,2018-12-15 04:01:18.000000000,2019-01-05 09:14:25.000000000,closed,3, feat(query): Histogram Quantile function support
+192,2018-12-14 23:10:56.000000000,2019-01-10 05:19:22.000000000,closed,1,"feat(memory, core, query): ChunkedWindowIterator for up to 7.5x faster queries"
+191,2018-12-14 04:12:13.000000000,2018-12-15 03:18:15.000000000,closed,0,bug(query): Aggregate results were wrong when no data points are available for the instant
+190,2018-12-14 01:02:20.000000000,2018-12-14 06:03:40.000000000,closed,0,feat(query): Add support and tests for querying from LongColumns
+189,2018-12-07 04:43:18.000000000,2018-12-21 07:30:34.000000000,closed,6," feat(core, query): Drop out of order samples at ingestion time, not query time"
+188,2018-12-04 00:30:21.000000000,2018-12-05 02:16:22.000000000,closed,1,"feat(core, query): Full support for BinaryRecordColumn"
+187,2018-12-03 10:20:15.000000000,2018-12-07 22:32:18.000000000,closed,2,bug(query): fix metadata query result creation
+186,2018-12-03 06:49:45.000000000,2018-12-07 23:15:14.000000000,closed,1,"misc(cli,core,kafka,memory,query): Support building with JDK 11."
+185,2018-11-30 23:49:03.000000000,2018-12-06 00:21:31.000000000,closed,5,feat(coordinator): Custom downing provider and CoordinatedShutdown for split brains
+184,2018-11-29 05:40:53.000000000,2018-11-29 10:39:22.000000000,closed,0,bug(query): Fix for issues in metadata query capability
+183,2018-11-27 18:03:42.000000000,2018-11-29 22:51:03.000000000,closed,4,bug(query): fix to get all assigned shards when there is no filter/ shardCol filters for label values query
+182,2018-11-26 22:48:58.000000000,2018-11-27 06:01:43.000000000,closed,4,bug(query): Some query optimizations to remove top allocation
+181,2018-11-17 03:48:33.000000000,2018-11-30 23:40:29.000000000,closed,2,"misc: Correct typo/misspell in scaladocs, test suites"
+180,2018-11-17 03:33:09.000000000,2018-11-30 23:40:11.000000000,closed,1,misc: Bump sbt version to the latest in 0.13 series
+179,2018-11-14 05:43:10.000000000,2018-12-07 22:30:50.000000000,closed,1,bug(conf): Change dev source dataset from timeseries to prometheus
+178,2018-11-10 05:11:02.000000000,2018-11-14 00:19:41.000000000,closed,1,"feat(core,coordinator,query): Add debugging for missing data after recovery"
+177,2018-11-10 02:14:10.000000000,2018-11-10 03:14:47.000000000,closed,0,"fix(memory): Eliminate ConcurrentModificationException, caused by rem…"
+176,2018-11-10 00:15:44.000000000,2018-11-10 06:23:17.000000000,closed,0,Merge from develop to integration
+175,2018-11-09 05:29:51.000000000,2018-11-09 06:03:00.000000000,closed,0,bug(query): Previous commit unintentionally added logger to aggregator
+174,2018-11-09 03:16:03.000000000,2018-11-09 04:55:06.000000000,closed,0,bug(core): Remove more eager iteration by ChunkIterators
+173,2018-11-08 03:45:45.000000000,2018-11-08 04:18:31.000000000,closed,0,Release ChunkMap locks on acquisition thread
+172,2018-11-07 00:47:33.000000000,2018-11-14 04:54:08.000000000,closed,4,feat(coord): Automatically Reassign error shard
+171,2018-11-07 00:31:56.000000000,2018-11-10 00:14:42.000000000,closed,5,refactor(coordinator): replace filter.size with more concise count
+170,2018-11-06 04:13:43.000000000,2018-11-23 10:00:43.000000000,closed,0,feat(query): implement query support for Prometheus style timeseries metadata queries
+169,2018-11-06 03:02:13.000000000,2018-11-10 07:07:38.000000000,closed,0,feat(jmh): 100-record container ingestion benchmark; query+ingest benchmark
+168,2018-11-03 01:21:23.000000000,2018-11-03 02:07:34.000000000,closed,0,bug(query): Avg aggr over RVs did not handle 0 counts properly
+167,2018-11-02 01:07:30.000000000,2018-11-02 01:57:14.000000000,closed,0,bug(query): Fix eager getNext in iteration chain
+166,2018-10-31 22:45:50.000000000,2018-11-06 05:03:10.000000000,closed,1,"feat(query,coordinator): Special __col PromQL filter for target column name"
+165,2018-10-31 20:15:11.000000000,2018-10-31 21:25:40.000000000,closed,0,"Fix thread safety of freeing memory, and also prevent double free."
+164,2018-10-30 21:31:54.000000000,2018-11-01 01:16:01.000000000,closed,1,bug(query): Sliding window bug fixes
+163,2018-10-26 02:00:27.000000000,2018-10-26 10:03:26.000000000,closed,0,fix(core): Don't schedule an empty ODP task on the ingestion thread
+162,2018-10-19 21:18:41.000000000,2018-11-07 11:15:47.000000000,closed,13,"fix(memory,core): Chunkmap locking"
+161,2018-10-18 22:44:11.000000000,2018-10-23 00:26:24.000000000,closed,0,fix(doc): Cleanup and update README and docs
+160,2018-10-12 02:08:29.000000000,2018-10-20 10:22:58.000000000,closed,0,"feat(query): implement query support for Resets, Deriv, IDelta and Irate Functions"
+159,2018-10-10 22:48:26.000000000,2018-10-11 10:24:20.000000000,closed,1,"feat(core,gateway): Unify shardKeyHash algorithm and add copyTags feature to PromInputRecord"
+158,2018-10-09 22:21:45.000000000,2018-10-21 10:32:16.000000000,closed,1,"feat(core,query,prom): LP, ExecPlan, and _filodb_chunkmeta_all function to debug chunk metadata info"
+157,2018-10-05 09:56:24.000000000,2018-10-08 21:51:55.000000000,closed,0,feat(coordinator): Add start/stop shard support
+156,2018-10-04 10:34:58.000000000,2018-10-06 00:04:43.000000000,closed,4,feat(jmh): JMH Benchmark for Part Key Lucene Index
+155,2018-10-03 22:36:33.000000000,2018-10-04 21:54:20.000000000,closed,0,fix(test): Move 30-second timeout into common AsyncTest trait in core
+154,2018-05-10 22:04:25.000000000,1970-01-01 00:00:00.000000001,open,5,JVM Errors/Java Nullpointer exceptions
+153,2018-05-08 06:38:51.000000000,2018-10-26 23:08:41.000000000,closed,1,Configured Filodb Failed
+152,2018-04-10 16:55:22.000000000,1970-01-01 00:00:00.000000001,open,29,Dataset creation ERROR DatasetCoordinatorActor:
+151,2018-04-09 10:28:57.000000000,2019-01-03 23:02:57.000000000,closed,1,FiloDB write format fails for Binary
+150,2018-04-06 17:50:16.000000000,2019-01-03 23:04:18.000000000,closed,2,FiloDB Write format filodb.spark giving errors
+149,2018-01-09 02:37:08.000000000,1970-01-01 00:00:00.000000001,open,5,Unable to fetch data for a specific partition key when partition key is defined with more than 4 columns.
+148,2017-08-09 21:37:43.000000000,1970-01-01 00:00:00.000000001,open,0,Try using Quotient Filters
+147,2017-07-19 12:17:59.000000000,2017-07-20 02:30:02.000000000,closed,8,"Update ""io.monix"" % ""monix"" to 2.3.0"
+146,2017-05-10 18:52:34.000000000,2017-05-12 11:06:52.000000000,closed,4,sbt test are failing 
+145,2017-03-23 17:44:54.000000000,2017-03-30 01:36:20.000000000,closed,1,Modified to hanlde read path errors
+144,2017-03-22 18:22:13.000000000,2017-07-19 21:30:32.000000000,closed,3,Allow kamon metrics to be enable/disable as per need. 
+143,2017-03-21 18:01:24.000000000,2017-03-22 01:53:52.000000000,closed,1,Modified to handle errors during read path
+142,2017-03-16 20:28:33.000000000,2017-03-17 14:19:28.000000000,closed,5,Errors setting up ingestion: ArrayBuffer
+141,2017-02-22 19:21:34.000000000,1970-01-01 00:00:00.000000001,open,0,Ability to merge ranges and create a larger token range to reduce number of tasks
+140,2017-02-22 19:17:50.000000000,1970-01-01 00:00:00.000000001,open,1,Predicate pushdown is not working when a single table query has multiple conditions on the same column
+139,2017-02-22 19:13:51.000000000,1970-01-01 00:00:00.000000001,open,1,IN optimization and controlling task size during multipartition scan
+138,2017-02-16 21:31:42.000000000,2019-01-03 23:05:36.000000000,closed,3,Filo full scan freeze
+137,2017-02-06 21:31:42.000000000,2019-01-03 23:06:15.000000000,closed,16,Filo actors unreachable in filodb 0.7
+136,2017-01-09 20:30:56.000000000,2018-11-09 00:36:53.000000000,closed,2,"Initial implementation to support partition filter for >, >=, < and <=."
+135,2017-01-03 19:04:40.000000000,2019-01-03 23:07:01.000000000,closed,2,Partition filter GreaterThan and LessThan is not supported.
+134,2016-12-30 21:48:14.000000000,2019-01-03 23:07:15.000000000,closed,1,Support for UTF8 String predicate pushdown to data source level
+133,2016-12-09 01:35:40.000000000,2017-01-05 04:10:06.000000000,closed,2,Memtable WAL Changes 
+132,2016-12-05 15:05:37.000000000,2017-01-09 12:51:58.000000000,closed,4,spark 2.0.1 and scala 2.11
+131,2016-11-25 04:22:24.000000000,2016-11-29 06:29:34.000000000,closed,3,Clarify project status post-Apple acquisition
+130,2016-11-21 13:23:37.000000000,2016-11-26 13:24:32.000000000,closed,4,Filodb scala 2.10 support issue
+129,2016-11-15 23:40:43.000000000,2017-02-24 05:39:15.000000000,closed,2,Segmentless Design
+128,2016-11-15 15:17:42.000000000,2016-12-13 23:03:59.000000000,closed,13,Problem writing ingest data to database
+127,2016-11-08 23:43:12.000000000,2016-11-09 11:26:12.000000000,closed,2,creating a function for checking java and another to check sbt
+126,2016-11-08 03:19:02.000000000,2016-12-13 23:10:14.000000000,closed,3,"Merge Memtablewal request, for MemTable WAL implementation #42"
+125,2016-11-06 15:30:58.000000000,2016-11-06 15:31:33.000000000,closed,0,merge
+124,2016-11-06 15:29:14.000000000,2016-11-06 15:29:57.000000000,closed,0,merge
+123,2016-11-02 14:57:18.000000000,2016-11-11 15:05:37.000000000,closed,6,FiloDB write problem  ( invalid char between encapsulated token and delimiter)
+122,2016-11-01 21:55:42.000000000,2017-01-13 00:24:59.000000000,closed,10,Spark 2.0 support
+121,2016-10-20 23:30:47.000000000,2019-01-03 23:07:37.000000000,closed,3,Running stress tests causes exception 
+120,2016-09-30 19:12:32.000000000,1970-01-01 00:00:00.000000001,open,0,No error is displayed when cassandra nodes are down for read path
+119,2016-09-27 17:36:26.000000000,2016-09-27 21:21:23.000000000,closed,1,Fix double segment key rounding
+118,2016-09-23 11:03:31.000000000,2016-11-15 23:22:48.000000000,closed,4,Spark multi-node setup row not found
+117,2016-09-22 22:19:26.000000000,2016-09-23 19:08:01.000000000,closed,1,Guava shading
+116,2016-09-22 21:42:20.000000000,2016-09-23 19:10:50.000000000,closed,4,Correct shading of Guava
+115,2016-09-21 22:59:39.000000000,2017-02-24 05:40:36.000000000,closed,3,Issue with chunk ID creation when delete a partition and reingest data
+114,2016-08-18 21:57:11.000000000,2017-01-13 00:25:22.000000000,closed,1,Use Akka Streams?
+113,2016-08-16 10:17:33.000000000,2016-08-21 10:35:22.000000000,closed,0,Kamon production metrics and more
+112,2016-07-27 15:20:26.000000000,2019-01-03 23:08:51.000000000,closed,1,Provide data eviction functionality
+111,2016-07-21 20:44:38.000000000,2019-01-03 23:09:07.000000000,closed,1,BigDecimal Support
+110,2016-06-30 18:40:22.000000000,2016-07-07 08:38:48.000000000,closed,3,Ability to scan multiple partitions using IN operator
+109,2016-06-30 18:34:00.000000000,2016-07-07 18:14:52.000000000,closed,1,Add Multipartition scan feature via IN Operator
+108,2016-06-23 12:55:22.000000000,2016-07-05 21:48:26.000000000,closed,9,Change Cassandra hosts parameter from List to String
+107,2016-06-22 00:50:30.000000000,2016-12-15 22:45:12.000000000,closed,3,sbt test fails on second launch
+106,2016-06-21 04:17:27.000000000,2016-10-04 21:35:32.000000000,closed,4,Add metrics for performance visibility
+105,2016-06-08 22:22:09.000000000,2016-06-11 03:10:23.000000000,closed,2,Unwrap token ranges before querying by token range to fix read path issues
+104,2016-06-08 21:55:09.000000000,2016-06-10 22:46:07.000000000,closed,2,Fix for unique actor issue - #103
+103,2016-05-27 18:46:51.000000000,2016-06-10 22:49:57.000000000,closed,2,Getting error from ingestRDDRows method randomly
+102,2016-05-27 18:42:11.000000000,2016-06-10 22:45:17.000000000,closed,2,Receiving Null Key value exception during ingestion
+101,2016-05-27 18:40:47.000000000,2016-06-11 03:12:06.000000000,closed,2,Count mismatch with FiloDB ingestion process
+100,2016-05-05 22:13:11.000000000,2016-12-15 22:43:49.000000000,closed,1,Get rid of some Thread sleeps
+99,2016-05-05 00:21:25.000000000,2016-05-05 21:23:25.000000000,closed,2,FiloDB element documentation
+98,2016-05-04 21:04:19.000000000,2016-05-04 22:03:06.000000000,closed,1,updated sbt to 0.3.11
+97,2016-05-03 23:48:57.000000000,2016-05-04 11:01:04.000000000,closed,0,Ability to pushdown equalTo predicate on segment key
+96,2016-05-03 21:27:24.000000000,2016-05-05 01:19:03.000000000,closed,0,A few Cassandra fixups
+95,2016-05-03 01:22:31.000000000,2016-05-03 21:22:46.000000000,closed,4,Timebased flush - Added ability to automatically flush a MemTable when N seconds have elapsed without any new activity
+94,2016-04-28 10:10:05.000000000,2016-05-05 22:43:54.000000000,closed,1,Clustering support and ensuring all rows ingested
+93,2016-04-27 22:41:07.000000000,2016-06-11 05:27:19.000000000,closed,2,Can't initialize with Cassandra 3.4
+92,2016-04-21 01:57:06.000000000,2016-05-05 22:44:46.000000000,closed,3,Lost rows during the same data ingesting into FiloDB
+91,2016-04-13 04:52:54.000000000,2016-04-20 22:23:55.000000000,closed,15,"Automated Stress Tests, Multiple Keyspaces, many fixes"
+90,2016-04-08 22:10:49.000000000,2016-05-05 22:44:55.000000000,closed,4,Clustering support
+89,2016-04-08 21:44:31.000000000,2016-05-04 02:45:54.000000000,closed,1,Time-expiry-based MemTable flush
+88,2016-04-06 23:48:46.000000000,2019-01-03 23:10:12.000000000,closed,1,Provide functionality to delete specific row on FiloDB table
+87,2016-04-06 19:26:08.000000000,2016-04-06 20:30:46.000000000,closed,2,Is ByteIteratorColumn from phantom in use anywhere?
+86,2016-04-05 00:39:04.000000000,2019-01-03 23:10:11.000000000,closed,9,Ability to restart ingestion with different schema
+85,2016-04-01 02:13:39.000000000,2016-06-11 05:27:50.000000000,closed,2,ambiguous licence position
+84,2016-03-28 19:38:06.000000000,2016-03-31 20:57:04.000000000,closed,28,Futures timed out after [5 seconds]
+83,2016-03-27 07:26:49.000000000,2016-05-04 02:45:20.000000000,closed,3,Error when try to execute StreamingTest
+82,2016-03-23 11:20:42.000000000,2016-03-26 03:57:33.000000000,closed,2,Multiple keyspace/database support + ETL Fixes
+81,2016-03-12 02:20:11.000000000,2016-05-04 18:42:52.000000000,closed,2,Fix ide warnings
+80,2016-03-11 23:03:11.000000000,2016-03-11 23:55:22.000000000,closed,1,added IntelliJ settings
+79,2016-03-11 01:17:35.000000000,2016-03-11 12:39:52.000000000,closed,1,Document Read and Write paths of FiloDB
+78,2016-03-11 01:16:24.000000000,2016-03-11 12:40:49.000000000,closed,1,Document compaction process to fragmented chunks
+77,2016-03-11 01:13:15.000000000,2016-04-08 21:27:58.000000000,closed,1,Control commits to table via memtable flush
+76,2016-03-10 03:05:06.000000000,2017-08-09 21:36:53.000000000,closed,6,FiloDB Compaction
+75,2016-03-09 04:13:34.000000000,2016-03-09 10:51:20.000000000,closed,1,Fixed travis-ci build + badge
+74,2016-03-09 02:20:05.000000000,2016-03-26 04:17:02.000000000,closed,1,Able to create table using CLI with wrong row key column which doesn't exist in table
+73,2016-03-09 01:48:06.000000000,2016-03-26 03:57:33.000000000,closed,1,Unable to recreate table using CLI when data is present
+72,2016-03-08 21:27:29.000000000,2016-03-09 10:49:30.000000000,closed,3,Table schema is overwritten by input dataframe schema during ingestion 
+71,2016-03-08 01:32:35.000000000,2016-03-08 02:52:43.000000000,closed,1,fixed regex to grab everything in version.sbt quotes
+70,2016-03-08 00:09:46.000000000,2016-03-26 03:57:33.000000000,closed,0,Allow changing C* Keyspace in Spark DataFrame options
+69,2016-03-04 00:40:59.000000000,2019-01-03 23:10:11.000000000,closed,1,Logging of FiloDB ETL and transactions
+68,2016-03-04 00:35:42.000000000,2016-05-04 11:01:50.000000000,closed,1,Enhanced segment key filtering
+67,2016-03-04 00:31:49.000000000,2016-03-26 03:57:33.000000000,closed,1,Default to not changing dataset schema and definition for SaveMode.Overwrite
+66,2016-03-02 02:01:07.000000000,2016-03-03 00:24:20.000000000,closed,8,Fix deprecation warnings.
+65,2016-02-22 23:07:25.000000000,2016-04-23 04:00:09.000000000,closed,2,Automated stress tests
+64,2016-02-22 22:56:15.000000000,2016-11-01 21:54:27.000000000,closed,4,Investigate Apache Calcite integration
+63,2016-02-19 05:40:27.000000000,2016-03-03 04:48:55.000000000,closed,1,Semi-automatic Hive Metastore sync (#41)
+62,2016-02-18 06:39:03.000000000,2016-02-24 22:58:35.000000000,closed,1,Two partition scan optimizations
+61,2016-02-18 03:48:07.000000000,2016-07-15 04:37:29.000000000,closed,8,Upgrade to Spark 1.6
+60,2016-02-15 21:49:31.000000000,2016-02-16 00:40:15.000000000,closed,11,batch size too large
+59,2016-02-09 12:22:18.000000000,2016-02-16 00:37:31.000000000,closed,2,Multi-column partition / row keys; separate segment key; computed columns; ++ Filtering (#30)
+58,2016-01-26 22:27:18.000000000,2016-01-26 22:44:18.000000000,closed,1,Update README.md
+57,2016-01-11 04:56:40.000000000,2016-01-13 03:10:10.000000000,closed,0,InMemoryColumn/MetaStore + perf improvements
+56,2016-01-08 06:45:59.000000000,2017-08-09 21:36:13.000000000,closed,1,Make InMemoryColumnStore viable for Spark-only and Spark Streaming apps
+55,2016-01-07 12:49:39.000000000,2016-01-11 18:44:09.000000000,closed,0,"Changed FiloInterpreter, tests  and changed log4j.properties"
+54,2016-01-07 04:30:25.000000000,2019-01-03 23:09:49.000000000,closed,0,Optimize joins by providing custom partitioner and equality method
+53,2016-01-05 17:31:41.000000000,2016-01-05 17:37:06.000000000,closed,0,Shruti/cli package
+52,2016-01-04 09:12:27.000000000,2016-01-06 11:26:33.000000000,closed,7,GDELT data population fails
+51,2016-01-01 14:06:06.000000000,2019-01-03 23:10:52.000000000,closed,1,Caching ColumnStore
+50,2015-12-30 17:30:11.000000000,2015-12-31 00:58:25.000000000,closed,0,Made changes in ColumnType for create statements for filo-cli and changes in SparkConf in CliMain
+49,2015-12-29 13:37:45.000000000,2015-12-30 15:33:40.000000000,closed,0,Changes made to incorporate dist task which implements sbt native packager's stage and universal:packageBin task  and changed cli/assembly task
+48,2015-12-19 06:47:22.000000000,2016-02-18 03:42:38.000000000,closed,6,Example dataset has issues
+47,2015-12-17 14:32:32.000000000,2015-12-23 15:38:04.000000000,closed,1,"Changed SimpleParser and Dataset in Metastore, added FiloInterpreter to interpret statements and test for it ."
+46,2015-11-18 12:18:06.000000000,2015-11-25 00:08:40.000000000,closed,3,Performance and Ingestion Improvements
+45,2015-11-15 12:22:16.000000000,2015-11-18 12:15:53.000000000,closed,1,Automatic/Dynamic Segmentation
+44,2015-11-10 21:32:44.000000000,2015-11-10 22:50:56.000000000,closed,1,Added support for Cassandra Authentication
+43,2015-11-10 12:14:33.000000000,2015-11-13 11:18:41.000000000,closed,2,Changes made in getScanSplits function
+42,2015-11-10 05:46:09.000000000,2017-02-23 11:28:22.000000000,closed,5,MemTable WAL implementation
+41,2015-11-09 18:51:53.000000000,2016-03-04 00:20:16.000000000,closed,12,Support Hive
+40,2015-11-07 21:46:55.000000000,2016-01-08 04:14:20.000000000,closed,1,Invedsstigate Tungsten integration/support
+39,2015-11-07 21:32:02.000000000,2016-11-01 21:53:57.000000000,closed,3,"Explore direct, non-networked reads for faster I/O"
+38,2015-11-07 00:41:42.000000000,2015-11-25 00:08:41.000000000,closed,0,CLI does not ingest all rows
+37,2015-11-06 15:17:44.000000000,2015-11-06 17:27:46.000000000,closed,0,The filo-cli commands create dataset and select columns functionality changed.Total splits set to 1 for filo-cli to get all the tokens in the select query.
+36,2015-10-31 01:22:03.000000000,2015-11-10 22:51:19.000000000,closed,1,Support authentication for C*
+35,2015-10-29 04:07:21.000000000,2015-10-30 13:13:43.000000000,closed,1,Catch UnknownDataset error in truncateDataset op and correclty propag…
+34,2015-10-29 03:55:50.000000000,2015-10-30 13:14:51.000000000,closed,2,fix scaladoc issues
+33,2015-10-22 01:32:43.000000000,2016-02-16 00:41:06.000000000,closed,1,Retries and improved Reprojector error handling
+32,2015-10-22 00:25:23.000000000,2015-12-02 08:37:34.000000000,closed,1,[Spark] Optimize query for WHERE partitionkey = <value>
+31,2015-10-19 15:58:56.000000000,2017-08-09 21:34:04.000000000,closed,1,Support Apache Flink
+30,2015-10-16 01:55:39.000000000,2016-02-16 00:37:31.000000000,closed,3,Support composite sort and partition keys
+29,2015-10-16 01:46:40.000000000,2015-10-24 00:35:28.000000000,closed,7,"Refactor Scheduler, Reprojector, MemTable, and coordinator actors"
+28,2015-10-15 02:59:07.000000000,2015-10-15 03:39:15.000000000,closed,0,log schema after its init in FiloRelation
+27,2015-10-06 01:07:48.000000000,2016-02-18 03:41:28.000000000,closed,1,Automatic segment length determination
+26,2015-10-06 00:39:58.000000000,2017-08-09 21:35:54.000000000,closed,1,Add Streaming From FiloDB to support the pending Spark ReceiverInputDStream
+25,2015-10-05 20:58:28.000000000,2015-10-22 03:23:49.000000000,closed,1,Reduce sort key K type parameter boilerplate
+24,2015-10-01 19:23:35.000000000,2016-07-13 04:22:53.000000000,closed,1,Automate ingestion/etl from cassandra column family to FiloDB
+23,2015-10-01 19:18:14.000000000,2016-07-13 04:23:01.000000000,closed,4,Support all Cassandra data types
+22,2015-09-28 23:01:17.000000000,2015-09-30 08:10:07.000000000,closed,2,DirectMemory size detection
+21,2015-09-28 23:00:21.000000000,2015-10-01 23:08:29.000000000,closed,2,Make Spark reads distributed
+20,2015-09-23 16:13:10.000000000,2015-10-01 10:14:41.000000000,closed,7,exportCSV for filo-cli
+19,2015-09-22 15:36:58.000000000,2015-09-23 11:29:09.000000000,closed,2,updated README
+18,2015-09-22 10:36:57.000000000,2015-09-22 10:37:06.000000000,closed,0,More changes
+17,2015-09-19 22:05:19.000000000,2015-09-20 02:34:21.000000000,closed,1,added script for filo-cli
+16,2015-09-19 13:27:34.000000000,2015-09-19 21:59:48.000000000,closed,1,added implicit PatienceConfig
+15,2015-09-19 11:52:39.000000000,2015-09-19 13:24:03.000000000,closed,2,added a script to start filo-cli
+14,2015-09-17 02:50:43.000000000,2015-10-14 08:22:10.000000000,closed,2,Reprojection / Scheduler fixes
+13,2015-09-12 22:29:47.000000000,2019-01-03 23:09:37.000000000,closed,1,Use Int as ColumnId type instead of string
+12,2015-09-12 21:52:18.000000000,2015-09-28 22:07:12.000000000,closed,1,[Cleanup] Use Akka ByteString or ByteVector as opposed to ByteBuffer/Array[Byte]
+11,2015-09-03 20:59:39.000000000,1970-01-01 00:00:00.000000001,open,9,[Long term] Look into Supersonic query API
+10,2015-09-01 03:43:49.000000000,2015-09-01 04:36:18.000000000,closed,3,sbt spark/assembly fails
+9,2015-08-25 04:00:37.000000000,2015-09-21 05:28:23.000000000,closed,0,WIP: First cut at new APIs
+8,2015-08-24 15:32:24.000000000,2015-09-01 11:23:59.000000000,closed,3,Set up document
+7,2015-07-17 20:27:35.000000000,2015-10-01 01:34:42.000000000,closed,2,Throttle Scala futures through better Executor
+6,2015-05-31 09:47:24.000000000,2015-06-01 21:08:21.000000000,closed,0,Add a Gitter chat badge to README.md
+5,2015-04-07 11:59:21.000000000,2015-04-23 00:33:22.000000000,closed,0,Futures-based standard Datastore API
+4,2015-03-06 03:48:58.000000000,2015-04-03 12:13:07.000000000,closed,0,Add details on ingestion APIs and diagram
+3,2015-02-25 23:42:30.000000000,2015-09-01 11:23:37.000000000,closed,1,How do we plan to maintain issue list?
+2,2015-02-06 23:18:43.000000000,2015-03-05 06:46:24.000000000,closed,0,Linting and Ingestion Pipeline
+1,2015-01-31 06:24:39.000000000,2015-02-06 05:34:22.000000000,closed,1,Cassandra I/O layer for Metadata

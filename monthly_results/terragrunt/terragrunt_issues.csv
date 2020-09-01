@@ -1,0 +1,1325 @@
+id,created_at,closed_at,state,comments,title
+1325,2020-09-01 00:43:13.000000000,1970-01-01 00:00:00.000000001,open,0,Is .terragrunt-cache an anti-pattern?
+1324,2020-08-31 21:55:59.000000000,1970-01-01 00:00:00.000000001,open,0,DRY-promote-immutable-versioned-terraform-modules-across-environments local paths
+1323,2020-08-31 04:34:48.000000000,2020-08-31 05:02:04.000000000,closed,1,How to resolve the source / path with a local module?
+1322,2020-08-28 17:57:10.000000000,1970-01-01 00:00:00.000000001,open,0,Dependency optimization init is too slow when there are no nested dependencies
+1321,2020-08-28 06:02:15.000000000,2020-08-28 18:02:21.000000000,closed,2,Run terraform init with flags to avoid downloading plugins
+1320,2020-08-28 06:01:27.000000000,1970-01-01 00:00:00.000000001,open,0,Fix config_dir support on Windows
+1319,2020-08-28 01:48:34.000000000,1970-01-01 00:00:00.000000001,open,1,Inconsistent resolution of path in `sops_decrypt_file`
+1318,2020-08-27 01:18:27.000000000,1970-01-01 00:00:00.000000001,open,4,Automatically disable dependency optimization if extra_arguments or hooks for init are configured
+1317,2020-08-27 00:15:51.000000000,2020-08-27 20:45:31.000000000,closed,4,Follow up to dependency optimization
+1316,2020-08-26 20:28:58.000000000,2020-08-27 05:40:57.000000000,closed,6,Init fails when s3 backend is managed by terragrunt
+1315,2020-08-26 19:30:22.000000000,2020-08-26 20:52:31.000000000,closed,1,Account for iam role configurations when fetching remote state in dependency optimization
+1314,2020-08-26 19:04:48.000000000,2020-08-26 20:52:30.000000000,closed,10,0.23.35 init fails where 0.23.34/0.23.31 succeed
+1313,2020-08-25 18:51:45.000000000,1970-01-01 00:00:00.000000001,open,10,terraform init : backend re initialization is failing  
+1312,2020-08-24 09:27:25.000000000,1970-01-01 00:00:00.000000001,open,3,Log which AWS call fails during bucket creation
+1311,2020-08-23 19:43:01.000000000,2020-08-25 18:30:56.000000000,closed,3,Dependency optimization
+1310,2020-08-23 08:07:03.000000000,2020-08-25 18:00:23.000000000,closed,3,Migrate RFC and upgrade guides
+1309,2020-08-22 14:24:21.000000000,1970-01-01 00:00:00.000000001,open,3,Improve documentation regarding mono-repo terraform and terragrunt scripts/config
+1308,2020-08-22 07:44:56.000000000,2020-08-24 20:07:34.000000000,closed,2,Fix #1113: Makefile: add convenience 'build' target w/ dynamic version
+1307,2020-08-21 20:53:44.000000000,2020-08-26 14:05:49.000000000,closed,2,Doing changes in Terragrunt code by using resources like aws_volume_attachment
+1306,2020-08-21 20:17:04.000000000,1970-01-01 00:00:00.000000001,open,0,Add reference docs for terragrunt specific commands
+1305,2020-08-21 08:53:45.000000000,2020-08-23 07:41:47.000000000,closed,1,only one levels of includes?
+1304,2020-08-21 08:05:55.000000000,1970-01-01 00:00:00.000000001,open,1,S3 backend doesn't work for Minio
+1303,2020-08-21 02:20:00.000000000,1970-01-01 00:00:00.000000001,open,1,Is it possible to DRY-up references to dependencies?
+1302,2020-08-19 23:42:47.000000000,1970-01-01 00:00:00.000000001,open,6,lock_table error when upgrading from terraform 0.12.29 to 0.13 with terragrunt 0.23.33
+1301,2020-08-19 00:49:46.000000000,1970-01-01 00:00:00.000000001,open,2,read_terragrunt_config doesn't respect relative paths
+1300,2020-08-17 17:05:56.000000000,1970-01-01 00:00:00.000000001,open,1,Hooks should pass through success or error state
+1299,2020-08-14 18:38:55.000000000,1970-01-01 00:00:00.000000001,open,1,Error occuring when trying to run `init` with Terraform 0.13
+1298,2020-08-14 05:47:21.000000000,1970-01-01 00:00:00.000000001,open,1,Terraform block required version
+1297,2020-08-13 17:38:27.000000000,1970-01-01 00:00:00.000000001,open,2,Call a Terragrunt module from another module is not generating any Terragrunt related file
+1296,2020-08-12 18:12:54.000000000,2020-08-12 18:13:02.000000000,closed,1,Add terragrunt-parallelism to documentation
+1295,2020-08-12 17:35:19.000000000,2020-08-13 10:21:49.000000000,closed,2,Passing an output from a remote state as a variable into a module
+1294,2020-08-12 02:48:11.000000000,2020-08-12 03:34:46.000000000,closed,1,Terragrunt creating a main.tf file in cache that includes two modules.
+1293,2020-08-10 21:51:12.000000000,1970-01-01 00:00:00.000000001,open,2,Feature Request: Automatically Taint resource if different resource is being replaced
+1292,2020-08-10 13:27:58.000000000,1970-01-01 00:00:00.000000001,open,5,terragrunt running within a container is killed without error
+1291,2020-08-07 13:56:09.000000000,1970-01-01 00:00:00.000000001,open,1,question: determine apply/destroy order
+1290,2020-08-06 16:55:25.000000000,2020-08-24 17:45:02.000000000,closed,2,Passing providers explicitly to terraform modules
+1289,2020-08-06 13:40:15.000000000,2020-08-07 13:58:06.000000000,closed,2,terragrunt plan-all -terragrunt-non-interactive doesn't work as expected
+1288,2020-08-06 12:33:03.000000000,1970-01-01 00:00:00.000000001,open,1,"Terragrount has a problem with ""terragrunt-plan"" with data_source form dependency"
+1287,2020-08-06 04:37:35.000000000,2020-08-06 21:34:49.000000000,closed,2,Outputs not available after terragrunt import (Question/Help)
+1286,2020-08-06 01:56:34.000000000,2020-08-06 19:09:09.000000000,closed,1,Clarify the destroy-all operation
+1285,2020-08-05 23:48:41.000000000,1970-01-01 00:00:00.000000001,open,2,Terragrunt is painful to use in AWS CodeBuild
+1284,2020-08-04 22:32:42.000000000,2020-08-29 19:47:34.000000000,closed,12,Dependency blocks do not properly detect empty state file
+1283,2020-08-04 16:24:57.000000000,2020-08-06 12:55:52.000000000,closed,1,Code improvements - redundant nil check & multiple redundant append()
+1282,2020-08-04 05:00:49.000000000,2020-08-04 17:09:44.000000000,closed,1,Fix arg position typo in docs for terragrunt debug mode
+1281,2020-08-04 00:51:41.000000000,2020-08-04 06:09:23.000000000,closed,2,--terragrunt-debug in v0.23.33 does not seem to work
+1280,2020-08-03 15:17:06.000000000,2020-08-04 12:57:01.000000000,closed,3,When was the 'dependency' block and 'input' block added into Terragrunt ?
+1279,2020-08-01 19:18:08.000000000,2020-08-01 20:20:54.000000000,closed,1,Need some help on how to use dependencies in Terragrunt in order to pass IP addresses when creating a Load Balancer
+1278,2020-07-31 23:18:46.000000000,2020-07-31 23:34:35.000000000,closed,2,"Terragrunt plan-all, apply-all workflow after running apply-all"
+1277,2020-07-31 18:36:04.000000000,1970-01-01 00:00:00.000000001,open,2,AWS Auth for S3 backend enforces the profile and doesn't respect env variables
+1276,2020-07-31 10:42:19.000000000,2020-07-31 11:42:59.000000000,closed,1,Only parse terraform source during stack generation
+1275,2020-07-31 10:23:14.000000000,2020-07-31 12:09:36.000000000,closed,2,Fix bug where dependency output call runs hooks 
+1274,2020-07-31 04:45:35.000000000,2020-08-01 18:53:21.000000000,closed,1,before_hook with apply runs with terraform output command 
+1273,2020-07-30 23:34:00.000000000,2020-07-31 12:09:35.000000000,closed,2,before/after hooks run for dependencies
+1272,2020-07-30 19:54:11.000000000,2020-07-31 10:45:41.000000000,closed,2,Regenerated backend line order changes on each run
+1271,2020-07-30 19:35:18.000000000,1970-01-01 00:00:00.000000001,open,8,terragrunt apply-all specific plan fails
+1270,2020-07-30 11:35:32.000000000,1970-01-01 00:00:00.000000001,open,1,How variables defined in terragrunt is accessible in terraform code. 
+1269,2020-07-29 14:58:27.000000000,1970-01-01 00:00:00.000000001,open,9,Can you pipe terragrunt plan/apply to tfmask?
+1268,2020-07-29 10:48:44.000000000,1970-01-01 00:00:00.000000001,open,1,Correct use of remote state dependencies
+1267,2020-07-27 00:15:30.000000000,1970-01-01 00:00:00.000000001,open,7,Update terragrunt to generate tfvars.json file instead of using TF_VAR env var
+1266,2020-07-26 22:32:12.000000000,1970-01-01 00:00:00.000000001,open,7,Proposal: standardize terragrunt hcl files read in via read_terragrunt_config to tg.hcl extension (for editor support)
+1265,2020-07-25 01:07:12.000000000,1970-01-01 00:00:00.000000001,open,4,"""init"" during single plan fails, but ""init"" during plan-all succeeds"
+1264,2020-07-24 17:12:10.000000000,2020-08-08 02:52:44.000000000,closed,2,Piping output to variable
+1263,2020-07-24 12:17:25.000000000,2020-08-03 17:22:34.000000000,closed,4,Implement minimal debug feature
+1262,2020-07-24 11:04:38.000000000,1970-01-01 00:00:00.000000001,open,7,[WIP] [RDD] Introduce authenticate block
+1261,2020-07-24 10:30:07.000000000,2020-07-24 22:11:03.000000000,closed,2,Clarify working directory of hooks
+1260,2020-07-24 02:54:42.000000000,2020-07-24 07:50:19.000000000,closed,0,NOOP.  PEBKAC
+1259,2020-07-22 16:45:51.000000000,1970-01-01 00:00:00.000000001,open,6,terragrunt failed to read variables file
+1258,2020-07-22 04:25:47.000000000,1970-01-01 00:00:00.000000001,open,2,Terragrunt is not able to find provider.tf
+1257,2020-07-21 17:15:57.000000000,2020-07-21 20:08:25.000000000,closed,2,"Terragrunt fail with There is no variable named ""dependency"" error"
+1256,2020-07-21 01:59:38.000000000,2020-07-23 02:24:22.000000000,closed,2,Running before_hook to login into AWS account
+1255,2020-07-20 22:10:23.000000000,1970-01-01 00:00:00.000000001,open,3,terragrunt refresh does not work with local state defined
+1254,2020-07-20 11:42:35.000000000,1970-01-01 00:00:00.000000001,open,1,Inputs - Optional Collections
+1253,2020-07-16 01:12:15.000000000,1970-01-01 00:00:00.000000001,open,4,-all commands are finding terragrunt.hcl files within child dir .terragrunt-cache directories
+1252,2020-07-15 17:15:55.000000000,2020-07-15 17:42:23.000000000,closed,2,Using dependencies and locals with yamldecoded input
+1251,2020-07-14 15:45:51.000000000,2020-07-21 05:26:37.000000000,closed,6,File Content as Input Value
+1250,2020-07-14 13:48:27.000000000,2020-07-14 18:43:13.000000000,closed,2,Yamldecode decodes all variables into string type
+1249,2020-07-13 22:36:26.000000000,1970-01-01 00:00:00.000000001,open,3,(feat): introduce Terragrunt schema
+1248,2020-07-11 03:09:53.000000000,1970-01-01 00:00:00.000000001,open,2,Unable to pass variables into my terragrunt.hcl file.
+1247,2020-07-07 22:29:26.000000000,2020-07-11 04:20:34.000000000,closed,6,"apply/plan behavioural differences with ""--terragrunt-non-interactive"""
+1246,2020-07-03 23:15:16.000000000,2020-07-07 11:52:17.000000000,closed,5,Terragrunt plan-all fails for modules with dependency and remote state outputs.
+1245,2020-07-03 19:30:34.000000000,1970-01-01 00:00:00.000000001,open,3,Terragrunt apply fails for local Terragrunt files while passing -var in extra_arguments
+1244,2020-07-02 13:02:43.000000000,1970-01-01 00:00:00.000000001,open,1,Terragrunt console not working in non-interactive mode
+1243,2020-07-01 19:55:38.000000000,1970-01-01 00:00:00.000000001,open,1,Question: how to debug locals evaluations
+1242,2020-07-01 12:02:34.000000000,1970-01-01 00:00:00.000000001,open,3,Addition of `s3_bucket_tags` after remote state init fails to tag bucket
+1241,2020-06-29 23:15:18.000000000,2020-07-05 16:17:16.000000000,closed,0,Update the official terragrunt installation docs
+1240,2020-06-28 14:09:54.000000000,1970-01-01 00:00:00.000000001,open,1,Remote source for dependency block
+1239,2020-06-28 08:20:16.000000000,2020-06-28 08:20:47.000000000,closed,1,[skip ci] Fix outdated docs from 0.18 days
+1238,2020-06-27 23:48:35.000000000,2020-06-28 08:21:50.000000000,closed,1,find_in_parent_folders documentation and tfvars files
+1237,2020-06-27 23:42:27.000000000,1970-01-01 00:00:00.000000001,open,1,Inconsistency of relative path functions between base commands and *-all commands
+1236,2020-06-26 18:07:42.000000000,1970-01-01 00:00:00.000000001,open,1,Ability to run tool like summon to get env vars before terragrunt run
+1235,2020-06-25 04:24:23.000000000,2020-06-25 18:29:44.000000000,closed,2,Add ability to set terragrunt-working-dir with env var TERRAGRUNT_WORKING_DIR
+1234,2020-06-24 06:55:14.000000000,1970-01-01 00:00:00.000000001,open,0,Fix uncharacteristic behaviour of the --detailed-exitcode flag 
+1233,2020-06-23 17:31:52.000000000,1970-01-01 00:00:00.000000001,open,4,--terragrunt-source fails for module that works fine via source ref
+1232,2020-06-23 15:24:05.000000000,1970-01-01 00:00:00.000000001,open,1,Make retryable errors configurable
+1231,2020-06-23 13:28:15.000000000,1970-01-01 00:00:00.000000001,open,2,Docs: make retryable errors configurable
+1230,2020-06-22 13:12:03.000000000,1970-01-01 00:00:00.000000001,open,2,terragrunt destroy fails when component has dependencies which have already been destroyed
+1229,2020-06-22 03:28:35.000000000,2020-06-23 12:28:25.000000000,closed,2,Remove the error after successful terragrunt plan-all execution
+1228,2020-06-19 20:59:13.000000000,1970-01-01 00:00:00.000000001,open,4,Terragrunt destroy-all ignore dependencies
+1227,2020-06-19 17:31:13.000000000,2020-06-29 12:00:57.000000000,closed,5,Add Terraform beta releases to version checking
+1226,2020-06-19 16:22:00.000000000,1970-01-01 00:00:00.000000001,open,4,Doesn't show interactive output of before_hooks when running *-all
+1225,2020-06-19 15:19:47.000000000,1970-01-01 00:00:00.000000001,open,10,Can't retrieve outputs from data block
+1224,2020-06-19 14:11:20.000000000,2020-06-29 12:00:57.000000000,closed,0,Terraform beta version support
+1223,2020-06-19 06:36:23.000000000,2020-07-01 13:13:48.000000000,closed,7,Fix the prevent_default flag functionality
+1222,2020-06-18 16:58:51.000000000,1970-01-01 00:00:00.000000001,open,6,Did not find any Terraform files (*.tf) Error
+1221,2020-06-18 15:28:51.000000000,2020-07-02 18:42:33.000000000,closed,5,prevent-destroy error when destroying should instead be a warning that the flag is enabled
+1220,2020-06-17 20:33:16.000000000,2020-07-15 00:49:54.000000000,closed,3,Error always appears on logs even when plan-all executes successfully
+1219,2020-06-17 03:48:21.000000000,2020-06-23 12:28:10.000000000,closed,4,Log terraform version in debug mode
+1218,2020-06-14 14:16:47.000000000,1970-01-01 00:00:00.000000001,open,1,Best practices for vpc peering
+1217,2020-06-14 14:07:19.000000000,1970-01-01 00:00:00.000000001,open,3,prevent_destroy flag override ignored in child terragrunt.hcl
+1216,2020-06-12 03:07:29.000000000,2020-06-15 23:15:55.000000000,closed,3,destroy-all seems to destroy all dependencies no matter what I do
+1215,2020-06-09 01:26:40.000000000,2020-06-11 08:27:06.000000000,closed,3,Handle empty args for get_terraform_cli_args function
+1214,2020-06-09 01:23:21.000000000,2020-06-11 08:27:06.000000000,closed,0,terragrunt_cli_args call crashes terragrunt for *-all commands
+1213,2020-06-08 20:15:51.000000000,1970-01-01 00:00:00.000000001,open,3,terragrunt not showing output from terraform -version
+1212,2020-06-06 00:27:46.000000000,1970-01-01 00:00:00.000000001,open,1,Issues with *-all commands and terraform plugin cache directory
+1211,2020-06-05 16:19:52.000000000,1970-01-01 00:00:00.000000001,open,2,Variables with type = any are not encoded properly for Terraform 0.12
+1210,2020-06-04 20:06:15.000000000,1970-01-01 00:00:00.000000001,open,5,Regression- find_in_parent_folders with fallback not looking into parent folders
+1209,2020-06-04 04:50:51.000000000,1970-01-01 00:00:00.000000001,open,3,How does terragrunt track with terraform 13 beta
+1208,2020-06-02 18:03:55.000000000,2020-06-08 12:37:59.000000000,closed,5,Ignore Terraform data directories when running *-all commands
+1207,2020-05-30 03:25:46.000000000,1970-01-01 00:00:00.000000001,open,8,Unable to apply to multiple workspaces through providers
+1206,2020-05-29 14:15:47.000000000,1970-01-01 00:00:00.000000001,open,2,(feat): Monorepo build options idea
+1205,2020-05-28 23:58:30.000000000,2020-05-29 18:02:31.000000000,closed,1,Fix #1204
+1204,2020-05-28 23:36:41.000000000,2020-05-29 18:02:31.000000000,closed,2,Panic: runtime error when running terragrunt validate-all
+1203,2020-05-28 19:38:09.000000000,1970-01-01 00:00:00.000000001,open,1,Update for terraform 0.12.26
+1202,2020-05-27 21:25:58.000000000,2020-05-31 13:19:13.000000000,closed,2,not working on github: invalid character 'c' looking for beginning of value
+1201,2020-05-26 22:33:15.000000000,2020-05-27 12:30:16.000000000,closed,0,Bump activesupport from 6.0.1 to 6.0.3.1 in /docs
+1200,2020-05-26 16:41:23.000000000,2020-05-26 16:46:30.000000000,closed,3,--terragrunt-parallelism should not be passed to terraform
+1199,2020-05-26 15:41:32.000000000,2020-05-28 13:56:04.000000000,closed,1,GCS remote state improvements
+1198,2020-05-25 20:56:21.000000000,1970-01-01 00:00:00.000000001,open,6,specific provider per child module in generate block
+1197,2020-05-25 02:37:39.000000000,2020-05-28 13:36:03.000000000,closed,3,feat(chore): Adding the get_platform helper
+1196,2020-05-23 09:59:37.000000000,2020-05-23 17:46:16.000000000,closed,1,Partial parse version checks
+1195,2020-05-22 23:44:21.000000000,2020-05-26 18:34:33.000000000,closed,4,Source local terraform files.
+1194,2020-05-22 19:04:40.000000000,1970-01-01 00:00:00.000000001,open,2,Option to prefix *-all terraform output with working-dir label
+1193,2020-05-22 11:42:08.000000000,1970-01-01 00:00:00.000000001,open,1,Include session configuration for aws helpers
+1192,2020-05-22 10:17:20.000000000,2020-05-23 09:12:44.000000000,closed,3,Adds `terragrunt_version_constraint` functionality
+1191,2020-05-21 23:27:19.000000000,1970-01-01 00:00:00.000000001,open,3,Enabling root access to s3 bucket fails with NoCredentialProviders error
+1190,2020-05-21 12:36:36.000000000,2020-05-23 18:32:39.000000000,closed,2,Module from git with subpath does not download provider
+1189,2020-05-21 04:10:15.000000000,2020-06-13 00:55:41.000000000,closed,4,validation allow tf.json files
+1188,2020-05-20 01:36:07.000000000,1970-01-01 00:00:00.000000001,open,7,path_relative_*_include() when using read_terragrunt_config()
+1187,2020-05-18 20:52:48.000000000,2020-05-28 18:00:44.000000000,closed,2,data resource referencing module output from a terregrunt.hcl file
+1186,2020-05-18 15:09:10.000000000,2020-05-20 17:58:52.000000000,closed,3,Feature request: before_hook before copying files to .terragrunt-cache
+1185,2020-05-18 02:01:12.000000000,2020-05-18 12:44:37.000000000,closed,2,Fixing typos
+1184,2020-05-17 01:39:12.000000000,2020-06-14 17:15:48.000000000,closed,12,Fix color output on Windows
+1183,2020-05-15 22:24:00.000000000,1970-01-01 00:00:00.000000001,open,3,[question] redeclare 3rd party module variables
+1182,2020-05-15 13:52:37.000000000,2020-05-17 15:15:20.000000000,closed,0,fix(docs): title at incorrect heading level
+1181,2020-05-15 13:00:33.000000000,1970-01-01 00:00:00.000000001,open,7,"Feature request: Generate file, overwrite if Terragrunt signature found, otherwise do nothing"
+1180,2020-05-14 21:42:58.000000000,2020-05-15 03:44:55.000000000,closed,10,feat: support sops decryption
+1179,2020-05-14 13:00:53.000000000,2020-05-15 12:40:38.000000000,closed,2,Feature Request: Support SOPS Decryption of Secrets
+1178,2020-05-13 21:13:15.000000000,2020-05-24 02:33:52.000000000,closed,4,Bump tf to v0.12.25
+1177,2020-05-13 02:38:25.000000000,1970-01-01 00:00:00.000000001,open,2,Download terraform using terragrunt
+1176,2020-05-12 23:42:19.000000000,2020-05-27 03:35:43.000000000,closed,3,[WIP|awaiting feedback] Custom provider support
+1175,2020-05-11 23:08:44.000000000,2020-05-12 11:59:44.000000000,closed,1,Fix global options alignment
+1174,2020-05-11 18:21:11.000000000,2020-05-11 18:50:59.000000000,closed,2,terragrunt import broken for indexed resources
+1173,2020-05-11 17:53:13.000000000,2020-05-12 11:59:44.000000000,closed,0,Help output incorrectly formatted/aligned
+1172,2020-05-08 21:14:45.000000000,1970-01-01 00:00:00.000000001,open,1,Terragrunt after_hook for apply called during output
+1171,2020-05-08 02:33:57.000000000,2020-05-08 05:02:28.000000000,closed,5,Terragrunt downloads unaccessible
+1170,2020-05-07 20:52:32.000000000,2020-05-09 02:01:59.000000000,closed,1,Add get_terraform_cli_args function
+1169,2020-05-07 17:24:09.000000000,2020-06-08 12:37:59.000000000,closed,8,plan-all loads `terragrunt.hcl` config from downloaded module
+1168,2020-05-07 11:18:19.000000000,1970-01-01 00:00:00.000000001,open,3,Feature request: dynamic backend storage
+1167,2020-05-07 07:32:07.000000000,2020-06-13 00:55:40.000000000,closed,1,Code validation excludes `*.tf.json` files.
+1166,2020-05-06 18:32:21.000000000,1970-01-01 00:00:00.000000001,open,1,--detailed-exitcode bad behavior (v0.23.2)
+1165,2020-05-06 14:47:06.000000000,1970-01-01 00:00:00.000000001,open,1,"Fix issue: Generated backend.tf ""region"" place is random #1102"
+1164,2020-05-06 04:53:18.000000000,2020-05-06 05:45:17.000000000,closed,3,"Failed to instantiate provider ""aws"" to obtain schema: timeout while waiting for plugin to start"
+1163,2020-05-05 17:49:36.000000000,2020-05-06 01:32:46.000000000,closed,1,Remove manual definition of KMSMasterKeyID when creating new bucket
+1162,2020-05-02 03:09:52.000000000,2020-05-03 15:24:26.000000000,closed,0,fix typo
+1161,2020-04-29 17:09:57.000000000,1970-01-01 00:00:00.000000001,open,1,Adding simple environment dump functionality to 'init' when called wi…
+1160,2020-04-29 16:36:57.000000000,2020-04-30 20:57:44.000000000,closed,1,Fixing get_env function to accept single env var name as parameter an…
+1159,2020-04-29 10:03:06.000000000,1970-01-01 00:00:00.000000001,open,1,Output json from hcl 
+1158,2020-04-29 10:01:37.000000000,1970-01-01 00:00:00.000000001,open,2,value not known
+1157,2020-04-28 22:24:47.000000000,2020-04-29 18:02:30.000000000,closed,1,get-all command?
+1156,2020-04-28 21:30:20.000000000,2020-05-07 13:26:02.000000000,closed,7,Create multiple resources from same source module in terragrunt
+1155,2020-04-28 17:43:32.000000000,1970-01-01 00:00:00.000000001,open,3,issue with find_in_parent_folders
+1154,2020-04-27 16:37:11.000000000,2020-04-30 20:58:00.000000000,closed,3,Implement Get Terraform Command
+1153,2020-04-25 09:21:21.000000000,2020-04-29 19:09:14.000000000,closed,4,Error while applying local module with dependencies
+1152,2020-04-25 01:10:56.000000000,2020-04-27 12:30:42.000000000,closed,1,Terragrunt needs a logo!
+1151,2020-04-24 21:11:28.000000000,2020-04-26 20:35:31.000000000,closed,10,"A managed resource ""azurerm_resource_group"" ""rg"" has not been declared in the root module"
+1150,2020-04-24 01:11:36.000000000,1970-01-01 00:00:00.000000001,open,10,[Feature request] Fetching data from remote state
+1149,2020-04-22 11:38:08.000000000,2020-05-05 11:00:36.000000000,closed,2,Terragrunt do not handle cache plugin setting from .terraformrc
+1148,2020-04-21 18:27:24.000000000,2020-04-27 13:16:20.000000000,closed,2,"GH-1147: do not add -var or -var-file extra_arguments during ""destroy"" if plan is provided"
+1147,2020-04-21 18:18:37.000000000,2020-04-27 13:16:20.000000000,closed,0,Disable -var and -var-file flags when running terragrunt destroy with a plan file
+1146,2020-04-21 15:50:11.000000000,1970-01-01 00:00:00.000000001,open,1,url location for plugins download
+1145,2020-04-20 17:00:59.000000000,2020-04-20 20:49:07.000000000,closed,2,Proposal for fmt-all [-check]
+1144,2020-04-18 10:45:35.000000000,2020-04-19 06:44:21.000000000,closed,3,Could not find Terragrunt configuration settings in $PWD/terraform.tfvars
+1143,2020-04-16 21:56:30.000000000,1970-01-01 00:00:00.000000001,open,5,Terragrunt creates an s3 bucket with invalid KMS settings
+1142,2020-04-16 15:57:33.000000000,2020-04-28 13:59:12.000000000,closed,5,Option to reuse downloaded plugins?
+1141,2020-04-16 01:27:37.000000000,2020-04-16 02:03:37.000000000,closed,1,Add the ability to disable the signature on generate blocks
+1140,2020-04-16 00:31:41.000000000,2020-04-16 00:36:25.000000000,closed,1,terragrunt plan fails on new outputs if dependent module has already been applied
+1139,2020-04-15 22:24:23.000000000,2020-04-27 14:00:44.000000000,closed,2,Option for TERRAGRUNT_SOURCE to override only base path (before `//`)
+1138,2020-04-15 10:05:44.000000000,1970-01-01 00:00:00.000000001,open,0,"Add support for `--terragrunt-source-map` as a more consistent, predictable way to override source URLs"
+1137,2020-04-14 23:28:39.000000000,2020-08-03 17:23:52.000000000,closed,1,WIP command flag `--terragrunt-debug`
+1136,2020-04-11 15:23:44.000000000,2020-04-14 00:38:22.000000000,closed,2,ability to use `cd` in the before hook execute command
+1135,2020-04-10 22:00:54.000000000,1970-01-01 00:00:00.000000001,open,1,[QUESTION] Can you use inheritance with provider generation blocks
+1134,2020-04-10 21:41:24.000000000,2020-04-15 20:58:48.000000000,closed,2,Fix #1124
+1133,2020-04-10 05:32:12.000000000,2020-04-10 07:23:26.000000000,closed,1,docs: add links to AUR packages for arch linux users
+1132,2020-04-10 03:31:28.000000000,2020-04-10 13:17:25.000000000,closed,0,Corrects command name in docs for `init-from-module`
+1131,2020-04-09 21:22:01.000000000,2020-04-10 07:23:26.000000000,closed,1,Add information about AUR packages to the installation docs
+1130,2020-04-09 19:27:09.000000000,2020-04-09 19:42:47.000000000,closed,2,Released build is not compatible with cross-platforms
+1129,2020-04-09 12:43:26.000000000,1970-01-01 00:00:00.000000001,open,8,AWS CLIv2 and AWS SSO auth fails
+1128,2020-04-09 10:10:28.000000000,1970-01-01 00:00:00.000000001,open,2,read_terragrunt_config with dependency is broken
+1127,2020-04-08 13:31:54.000000000,1970-01-01 00:00:00.000000001,open,6,[Feature Request] Propagating plan-all that works with dependencies
+1126,2020-04-08 10:26:50.000000000,2020-04-08 12:26:57.000000000,closed,2,Question - Common State file for modules?
+1125,2020-04-08 04:22:50.000000000,2020-04-08 20:04:47.000000000,closed,1,Fix issue 1123
+1124,2020-04-08 00:07:41.000000000,2020-04-15 20:58:50.000000000,closed,2,Wrong working directory for dependency with --terragrunt-source option
+1123,2020-04-07 20:50:30.000000000,2020-04-08 20:04:47.000000000,closed,1,terragrunt does not change the path when collecting output from a dependency
+1122,2020-04-07 19:22:37.000000000,2020-04-07 19:43:12.000000000,closed,0,Compatibility update
+1121,2020-04-07 18:26:24.000000000,2020-04-16 02:03:38.000000000,closed,3,generate: Not all file types support comments
+1120,2020-04-07 02:00:40.000000000,2020-04-07 02:05:17.000000000,closed,1,Fix link
+1119,2020-04-06 21:29:53.000000000,2020-04-06 21:31:46.000000000,closed,1,Can't download remote local repo?
+1118,2020-04-06 05:36:39.000000000,2020-05-10 15:10:59.000000000,closed,5,Parallelism control on *-all commands
+1117,2020-04-05 12:37:39.000000000,2020-04-08 05:48:00.000000000,closed,2,Graph representation of the terragrunt dependencies similar to terraform graph
+1116,2020-04-05 12:29:15.000000000,2020-04-08 05:48:00.000000000,closed,1,Graph representation of the terragrunt dependencies similar to terraform graph
+1115,2020-04-04 20:46:43.000000000,2020-04-06 14:16:53.000000000,closed,1,Fixing formatting
+1114,2020-04-04 07:31:02.000000000,2020-04-04 08:51:10.000000000,closed,2,Lookup remote outputs concurrently
+1113,2020-04-03 02:02:34.000000000,2020-08-24 20:07:35.000000000,closed,1,Version not printing when building from source
+1112,2020-04-02 19:35:42.000000000,1970-01-01 00:00:00.000000001,open,1,Add a terragrunt-debug command
+1111,2020-04-02 13:07:31.000000000,2020-04-15 00:15:28.000000000,closed,3,Delete Dependencies are out of order. 
+1110,2020-04-02 12:39:08.000000000,2020-04-02 16:03:44.000000000,closed,0,Error finding AWS credentials in file '~/.aws/credentials' (did you set the correct file name and/or profile?): NoCredentialProviders: no valid providers in chain.
+1109,2020-04-01 23:20:11.000000000,2020-04-01 23:20:27.000000000,closed,0,nfig
+1108,2020-04-01 15:14:00.000000000,1970-01-01 00:00:00.000000001,open,2,Create interactive Terragrunt tutorial
+1107,2020-04-01 03:45:34.000000000,1970-01-01 00:00:00.000000001,open,4,Expose Dependencies from read_terragrunt_config calls in `PartialDecodeSectionType`
+1106,2020-03-30 06:08:46.000000000,1970-01-01 00:00:00.000000001,open,3,Versioning is not enabled
+1105,2020-03-28 22:23:11.000000000,2020-03-29 18:20:14.000000000,closed,1,Upgrade hclfmt (+alpha: see description)
+1104,2020-03-27 01:48:21.000000000,2020-03-28 19:04:22.000000000,closed,1,Hclfmt specific file
+1103,2020-03-26 20:14:15.000000000,1970-01-01 00:00:00.000000001,open,8,Add option to only check top level dependency blocks
+1102,2020-03-26 19:05:17.000000000,1970-01-01 00:00:00.000000001,open,2,"Generated backend.tf ""region"" place is random"
+1101,2020-03-26 08:58:46.000000000,2020-03-27 09:58:41.000000000,closed,2,AWS - Unable to tag S3 bucket and DynamboDB Table
+1100,2020-03-25 17:51:17.000000000,2020-03-26 13:25:11.000000000,closed,2,Q: First-class support for other cloud providers?
+1099,2020-03-25 13:38:30.000000000,2020-03-29 18:37:09.000000000,closed,4,"No ""trim"" like functions available in terragrunt.hcl"
+1098,2020-03-25 06:38:50.000000000,2020-03-25 08:02:44.000000000,closed,2,[feature] all in one yaml file 
+1097,2020-03-24 03:12:05.000000000,2020-03-24 18:34:19.000000000,closed,1,Fix 404s
+1096,2020-03-19 22:08:50.000000000,2020-04-01 03:22:00.000000000,closed,2,Environment spanning multiple regions
+1095,2020-03-18 23:48:22.000000000,2020-03-19 03:46:44.000000000,closed,3,Using Terragrunt for modules with multiple providers
+1094,2020-03-18 12:08:19.000000000,2020-03-19 14:03:23.000000000,closed,3,Documentation links are hard to read because of the low contrast with the background
+1093,2020-03-16 13:58:54.000000000,2020-08-12 11:18:51.000000000,closed,2,Terragrunt graph-all?
+1092,2020-03-13 21:53:25.000000000,2020-03-29 18:23:22.000000000,closed,1,Upgrade hcl formatter
+1091,2020-03-13 21:52:42.000000000,2020-03-28 21:54:26.000000000,closed,1,Allow running hclfmt on a single file
+1090,2020-03-13 16:07:34.000000000,2020-03-23 14:37:38.000000000,closed,3,Docs on website use low contrast navigation
+1089,2020-03-13 04:30:26.000000000,2020-05-29 13:18:08.000000000,closed,3,OS specific run_cmd
+1088,2020-03-11 02:58:36.000000000,2020-03-11 03:18:05.000000000,closed,2,Fixes the URL for get_terragrunt_dir
+1087,2020-03-09 16:47:48.000000000,1970-01-01 00:00:00.000000001,open,9,"Error installing provider ""aws"": chmod .terraform/plugins/darwin_amd64/terraform-provider-aws_v2.52.0_x4: no such file or directory."
+1086,2020-03-09 10:26:46.000000000,2020-03-10 13:45:04.000000000,closed,6,Look for terragrunt.hcl.json when resolving dependency config
+1085,2020-03-08 20:25:10.000000000,2020-03-09 11:31:08.000000000,closed,1,"""SIGILL: illegal instruction"" after upgrade to 0.23.0"
+1084,2020-03-08 12:06:41.000000000,1970-01-01 00:00:00.000000001,open,1,Ability to print modules plan during apply-all
+1083,2020-03-07 05:26:26.000000000,2020-03-09 22:51:08.000000000,closed,1,Fix source of panic
+1082,2020-03-05 10:21:24.000000000,2020-03-05 21:19:09.000000000,closed,1,find_in_parent_folders() absolute path doc update
+1081,2020-03-05 03:10:08.000000000,2020-03-28 22:28:09.000000000,closed,3,Bump Terraform version to 0.12.10
+1080,2020-03-05 02:59:57.000000000,2020-03-29 18:37:28.000000000,closed,1,Bump Terraform version to 0.12.10
+1079,2020-03-05 02:23:22.000000000,1970-01-01 00:00:00.000000001,open,3,Panic due to api body size. 
+1078,2020-03-04 14:28:51.000000000,1970-01-01 00:00:00.000000001,open,2,Add CLI arg for always skipping outputs in dependency block
+1077,2020-03-02 20:46:08.000000000,2020-03-03 03:26:08.000000000,closed,1,S3 trigger deleting previous trigger.
+1076,2020-03-02 14:55:02.000000000,2020-03-03 14:04:49.000000000,closed,3,Update find_in_parent_folders to return absolute path
+1075,2020-03-02 06:06:40.000000000,1970-01-01 00:00:00.000000001,open,2,terragrunt iam-role flag throws UnauthorizedOperation error
+1074,2020-02-28 21:01:17.000000000,1970-01-01 00:00:00.000000001,open,2,Failure when running apply-all for the first time within folder containing a terragrunt.hcl file
+1073,2020-02-28 15:16:56.000000000,2020-03-02 21:17:19.000000000,closed,3,Terragrunt panic due to api body size.
+1072,2020-02-27 07:39:51.000000000,2020-02-27 07:48:23.000000000,closed,1,Dependency block does not work with --terragrunt-source
+1071,2020-02-27 06:00:33.000000000,2020-02-27 06:02:57.000000000,closed,1,Update locals.md
+1070,2020-02-27 05:55:50.000000000,1970-01-01 00:00:00.000000001,open,2,include block to load terrgrunt.hcl from remote zip
+1069,2020-02-27 03:35:31.000000000,2020-02-27 06:03:41.000000000,closed,3,Unclear documentation for locals
+1068,2020-02-26 18:05:55.000000000,2020-02-27 13:35:43.000000000,closed,0,Bump nokogiri from 1.10.7 to 1.10.8 in /docs
+1067,2020-02-26 03:10:20.000000000,2020-02-28 03:14:19.000000000,closed,2,Half a day lost trying to get it to work
+1066,2020-02-25 22:06:54.000000000,1970-01-01 00:00:00.000000001,open,9,read_terragrunt_config function to read inputs from different child module
+1065,2020-02-25 17:30:33.000000000,2020-04-27 00:36:08.000000000,closed,4,Don’t auto add terraform args to apply-all
+1064,2020-02-24 21:30:26.000000000,2020-02-26 14:33:43.000000000,closed,6,Made sure external_id and session_name are respected when s3 backend needs assuming role
+1063,2020-02-21 20:42:42.000000000,2020-02-21 21:50:01.000000000,closed,2,Feature Request: CLI flag to batch *-all actions
+1062,2020-02-20 19:34:37.000000000,2020-02-21 20:49:15.000000000,closed,1,Make include dirs consistent when dependencies are involved
+1061,2020-02-19 03:37:16.000000000,2020-02-21 03:16:04.000000000,closed,12,Templating tfvars file?
+1060,2020-02-18 23:15:36.000000000,2020-02-19 00:08:09.000000000,closed,1,Add ability to disable request response checksums to workaround SDK bug
+1059,2020-02-18 23:14:56.000000000,1970-01-01 00:00:00.000000001,open,1,[govcloud] DynamoDB table management fails with `CRC32CheckFailed`
+1058,2020-02-18 17:52:36.000000000,2020-02-18 19:38:38.000000000,closed,2,Add missing outputs keyword
+1057,2020-02-18 15:30:33.000000000,1970-01-01 00:00:00.000000001,open,3,--terragrunt-source does not work consistently over plan and plan-all
+1056,2020-02-18 14:42:10.000000000,2020-02-18 21:54:09.000000000,closed,1,Fix typo in quick start
+1055,2020-02-18 07:11:26.000000000,1970-01-01 00:00:00.000000001,open,0,Figure out way to consolidate all the config structs
+1054,2020-02-18 06:56:01.000000000,1970-01-01 00:00:00.000000001,open,0,Update docs to make `generate` block and `remote_state.generate` the official method
+1053,2020-02-18 05:50:22.000000000,1970-01-01 00:00:00.000000001,open,1,variable reference in dependent module
+1052,2020-02-14 23:29:17.000000000,2020-07-05 16:17:16.000000000,closed,3,Chocolatey (Choco) package is outdated
+1051,2020-02-14 12:47:12.000000000,2020-02-19 00:21:37.000000000,closed,3,read_terragrunt_config
+1050,2020-02-14 06:05:39.000000000,2020-02-18 06:56:15.000000000,closed,11,Codegen
+1049,2020-02-13 23:54:34.000000000,2020-02-14 02:16:50.000000000,closed,1,Skip init on validate
+1048,2020-02-13 18:13:00.000000000,1970-01-01 00:00:00.000000001,open,1,Adding terraform flags after a terragrunt apply with a plan file will not remove var arguments
+1047,2020-02-13 16:30:11.000000000,2020-02-13 16:30:30.000000000,closed,1,Fix support link
+1046,2020-02-13 14:59:42.000000000,2020-02-18 00:23:16.000000000,closed,4,Should --terragrunt-source skip local paths?
+1045,2020-02-13 07:26:03.000000000,1970-01-01 00:00:00.000000001,open,3,Built-in function to retrieve terragrunt cache directory path?
+1044,2020-02-12 03:38:01.000000000,1970-01-01 00:00:00.000000001,open,3,all_terraform_commands build-in function?
+1043,2020-02-12 03:23:57.000000000,2020-02-12 03:37:06.000000000,closed,0,Terragrunt fails to copy files if an SSH agent is running on my system.
+1042,2020-02-11 20:27:57.000000000,2020-02-12 16:21:06.000000000,closed,2,Fix S3 bucket policy for root user
+1041,2020-02-10 20:18:15.000000000,2020-02-21 20:53:20.000000000,closed,14,How to exclude dependencies?
+1040,2020-02-10 18:08:01.000000000,1970-01-01 00:00:00.000000001,open,1,Add the possibility to customize the RETRYABLE_ERRORS using environment variables
+1039,2020-02-08 01:59:49.000000000,2020-02-14 02:17:00.000000000,closed,4,Terragrunt validate prompts for backend creation
+1038,2020-02-08 01:27:00.000000000,2020-02-12 16:22:23.000000000,closed,4,Failed to upload state: AccessDenied (As root user)
+1037,2020-02-06 23:26:11.000000000,1970-01-01 00:00:00.000000001,open,3,hclfmt command does not work as a pipeline
+1036,2020-02-06 23:12:53.000000000,2020-02-07 22:09:35.000000000,closed,1,"Restore before and after hooks feature page, "
+1035,2020-02-06 21:47:16.000000000,1970-01-01 00:00:00.000000001,open,4,Calling apply does not remove `-var` arguments if the actual variables are a separate argument
+1034,2020-02-06 12:00:59.000000000,2020-02-18 19:36:54.000000000,closed,6,Allow creating GCS remote state bucket with Bucket Policy Only
+1033,2020-02-05 18:15:46.000000000,1970-01-01 00:00:00.000000001,open,3,--terragrunt-exclude-dir not working?
+1032,2020-02-05 18:10:50.000000000,2020-02-06 22:26:48.000000000,closed,3,Terraform and hcl files in a directory with a symlink?
+1031,2020-02-04 13:58:02.000000000,2020-02-06 02:31:10.000000000,closed,1,Add interpolation to read hcl file
+1030,2020-02-04 06:22:51.000000000,2020-02-10 21:41:21.000000000,closed,5,adding terragrunt-read-config after hook
+1029,2020-02-03 21:15:37.000000000,2020-02-03 23:12:25.000000000,closed,2,Configure issue with terragrunt
+1028,2020-02-03 21:11:10.000000000,2020-02-04 22:07:49.000000000,closed,3,Can't execute plan-all because of state lock on pg backend
+1027,2020-01-30 22:48:39.000000000,1970-01-01 00:00:00.000000001,open,3,session-name for assumed role
+1026,2020-01-30 16:39:38.000000000,1970-01-01 00:00:00.000000001,open,0,Update Auto-Init Documentation to add known issues
+1025,2020-01-30 06:01:53.000000000,2020-02-28 01:31:42.000000000,closed,18,[RFC] Imports: soliciting feedback from community
+1024,2020-01-29 23:51:59.000000000,2020-02-04 01:03:05.000000000,closed,14,remote state not passing config details
+1023,2020-01-29 20:29:59.000000000,2020-01-29 20:36:58.000000000,closed,0,Redirect Terragrunt Cookie Policy to gruntwork.io
+1022,2020-01-28 17:42:22.000000000,2020-01-29 14:12:30.000000000,closed,0,Update CODEOWNERS [skip ci]
+1021,2020-01-28 06:14:37.000000000,2020-02-04 06:19:16.000000000,closed,2,adding terragrunt-read-config
+1020,2020-01-28 02:05:20.000000000,2020-02-12 03:36:50.000000000,closed,6,Add ability for a before_hook that runs before initializing remote state
+1019,2020-01-27 23:02:17.000000000,1970-01-01 00:00:00.000000001,open,3,Nested maps/complex types converted to strings
+1018,2020-01-24 00:34:06.000000000,2020-04-24 01:02:59.000000000,closed,5,Provider configuration per environment
+1017,2020-01-23 23:43:15.000000000,2020-01-24 00:44:26.000000000,closed,1,Quotes must be escaped when importing a resource created using for_each
+1016,2020-01-23 21:00:44.000000000,1970-01-01 00:00:00.000000001,open,2,plan-all buffers terraform stderr
+1015,2020-01-23 18:43:00.000000000,2020-01-24 13:21:10.000000000,closed,3,hclfmt should exit 1 when reformatting a file
+1014,2020-01-22 15:30:20.000000000,2020-01-29 14:23:06.000000000,closed,2,Switch to self-built navigation.
+1013,2020-01-22 15:00:32.000000000,2020-01-22 19:17:43.000000000,closed,0,[skip ci] Update CODEOWNERS
+1012,2020-01-21 23:39:02.000000000,1970-01-01 00:00:00.000000001,open,3,Provider error while migrating
+1011,2020-01-21 04:25:52.000000000,2020-01-21 10:23:48.000000000,closed,4,How to inherit parent terragrunt.hcl file's inputs block
+1010,2020-01-21 04:20:25.000000000,2020-01-30 23:22:12.000000000,closed,4,terragrunt.hcl full arg documentation
+1009,2020-01-20 09:41:35.000000000,2020-01-30 23:11:26.000000000,closed,6,Reference documentation
+1008,2020-01-17 20:09:35.000000000,2020-01-17 20:16:44.000000000,closed,0,Ansible playbook not being invoked by terraform module
+1007,2020-01-16 16:52:14.000000000,2020-01-17 00:37:24.000000000,closed,3,terragrunt v0.21.11 has wired behaviour on handling map variable in .hcl file
+1006,2020-01-16 15:36:10.000000000,2020-01-16 16:44:21.000000000,closed,2,"--terraform-source parameter change the working path of plan-all and apply-all, causing failure"
+1005,2020-01-15 14:05:29.000000000,2020-01-27 15:34:54.000000000,closed,2,fix broken links[HSTN-909]
+1004,2020-01-15 11:14:07.000000000,2020-01-16 19:50:11.000000000,closed,3,Not able to create VPC
+1003,2020-01-14 20:26:35.000000000,2020-01-15 23:47:53.000000000,closed,2,[Question] run_cmd() in a execute is not working
+1002,2020-01-14 12:57:53.000000000,2020-01-15 23:43:10.000000000,closed,3,Terraform apply and Terragrunt apply produce different results
+1001,2020-01-14 03:14:06.000000000,2020-01-14 03:46:09.000000000,closed,1,live main.tf overwriting module's main.tf
+1000,2020-01-14 03:05:53.000000000,2020-01-14 12:05:12.000000000,closed,3,Added AWS_SECURITY_TOKEN for support old aws sdk
+999,2020-01-14 00:25:47.000000000,2020-01-14 00:43:45.000000000,closed,1,Terragrunt plan-all returns exit code 1
+998,2020-01-13 22:15:26.000000000,2020-01-14 14:47:07.000000000,closed,2,AWS_SECURITY_TOKEN is not set when terragrunt assumes role causing local-exec to have broken credentials 
+997,2020-01-13 03:19:08.000000000,2020-01-14 03:46:50.000000000,closed,2,jsondecode in terragrunt.hcl vs an output
+996,2020-01-10 23:29:41.000000000,2020-01-13 03:24:47.000000000,closed,0,fixing broken links in contributing docs
+995,2020-01-10 23:27:07.000000000,2020-01-13 03:24:46.000000000,closed,0,Contributing documentation has multiple links that 404
+994,2020-01-10 04:06:58.000000000,2020-03-09 13:39:49.000000000,closed,4,Why is terragrunt.hcl required?
+993,2020-01-09 23:20:00.000000000,1970-01-01 00:00:00.000000001,open,2,for_each block within terragrunt.hcl
+992,2020-01-09 21:32:35.000000000,2020-07-31 11:42:59.000000000,closed,4,"From 0.19.24 to 0.21.10, can't use dependency in before_hook execute ? "
+991,2020-01-07 00:49:12.000000000,1970-01-01 00:00:00.000000001,open,6,[bug] Crashing when run from an alpine image 
+990,2020-01-06 05:45:05.000000000,1970-01-01 00:00:00.000000001,open,6,Warning: Missing terraform backend block instead of an error.
+989,2019-12-31 23:29:26.000000000,2020-01-14 03:51:10.000000000,closed,8,Restricting terragrunt *-all to specific environment?
+988,2019-12-31 01:46:52.000000000,2019-12-31 19:12:17.000000000,closed,4,migrating flat terraform.state to nested terragrunt DRY state
+987,2019-12-25 19:24:08.000000000,2019-12-26 23:46:23.000000000,closed,1,Documentation or Parser error with get_terraform_commands_that_need_vars
+986,2019-12-24 02:22:12.000000000,2019-12-26 23:41:53.000000000,closed,1,[Question] What's the best way to DRY out variables for child modules?
+985,2019-12-23 23:54:36.000000000,1970-01-01 00:00:00.000000001,open,2,Hit multiple errors: error downloading file; no such file or directory
+984,2019-12-23 19:31:00.000000000,2019-12-26 23:28:33.000000000,closed,1,`terragrunt apply <dir>` and `terragrunt apply-all` are not interchangeable
+983,2019-12-21 04:06:58.000000000,1970-01-01 00:00:00.000000001,open,5,Add support to include tfvars only for `apply`s without plan output files
+982,2019-12-20 18:49:55.000000000,2019-12-21 13:47:34.000000000,closed,2,Dependency cycle between modules
+981,2019-12-19 06:37:48.000000000,2019-12-20 03:02:05.000000000,closed,1,Can you please change the Release tag for 0.21.10?
+980,2019-12-18 11:03:16.000000000,2019-12-18 11:03:40.000000000,closed,1,More fixes
+979,2019-12-18 10:39:05.000000000,2019-12-18 10:40:22.000000000,closed,1,A few website fixes
+978,2019-12-18 06:28:07.000000000,2019-12-18 22:56:59.000000000,closed,5,Bucket policy to allow access for the root user
+977,2019-12-16 21:11:47.000000000,2019-12-17 04:30:57.000000000,closed,2,--terragrunt-include-dir broken with v0.20.5
+976,2019-12-12 18:09:17.000000000,2019-12-17 09:19:40.000000000,closed,1,Terragrunt website jekyll gh
+975,2019-12-10 04:53:10.000000000,2019-12-10 05:25:27.000000000,closed,2,removing validate from get_terraform_commands_that_need_vars(). #974
+974,2019-12-10 04:48:27.000000000,2019-12-10 05:25:28.000000000,closed,1,"get_terraform_commands_that_need_vars function falsely returns ""validate"" as one of the commands"
+973,2019-12-09 17:48:09.000000000,2019-12-10 02:25:24.000000000,closed,2,Create multiple public subnet groups using Terrafrom
+972,2019-12-05 21:06:29.000000000,2020-04-27 17:04:00.000000000,closed,3,auto retry on TooManyUpdates error for SSM param
+971,2019-12-04 07:32:25.000000000,2019-12-06 03:47:33.000000000,closed,1,Fix panic when credentials expired with get_aws_account_id functions
+970,2019-12-04 05:12:22.000000000,2019-12-06 03:47:40.000000000,closed,1,Add option to use pseudotty for interactive commands
+969,2019-12-03 17:44:55.000000000,2019-12-04 10:50:18.000000000,closed,1,export runTerragrunt (i.e. make it RunTerragrunt)
+968,2019-12-03 16:39:57.000000000,2019-12-04 10:50:18.000000000,closed,4,Ability to run terragrunt programmatically
+967,2019-12-03 15:47:39.000000000,2019-12-04 03:03:17.000000000,closed,3,[Question] - Referencing inputs in child terragrunt.hcl
+966,2019-11-29 13:23:27.000000000,2019-12-03 14:46:10.000000000,closed,2,Use of profile in terraform provider ignored when using iam_role
+965,2019-11-29 13:17:47.000000000,2019-12-04 07:24:21.000000000,closed,4,Piping output to file with terragrunt
+964,2019-11-29 04:02:03.000000000,2020-04-16 07:47:55.000000000,closed,1,[Question] How to interpolate parent outputs and child variables in remote_backend?
+963,2019-11-27 01:12:52.000000000,2019-11-29 02:37:58.000000000,closed,5,Easy way to switch between terragrunt versions
+962,2019-11-26 14:51:29.000000000,2019-11-26 15:23:33.000000000,closed,2,Difference between terrafrom code in ‘.tfvars’ file vs ‘.hcl’ file
+961,2019-11-25 12:12:06.000000000,2020-01-20 12:22:45.000000000,closed,3,Flag --teggargrunt-source not working appropriately
+960,2019-11-24 16:11:17.000000000,2019-12-06 03:47:33.000000000,closed,2,Crash on MacOS when AWS credentials are empty (get_aws_account_id())
+959,2019-11-23 03:58:39.000000000,2019-11-25 12:28:46.000000000,closed,0,Using outputs from other modules pre v0.19.20
+958,2019-11-22 15:27:32.000000000,2019-11-22 15:28:02.000000000,closed,0,close
+957,2019-11-22 08:58:17.000000000,2019-11-26 14:35:45.000000000,closed,1,[feature] Will it be good idea to manage multiple modules in one terragrunt.hcl
+956,2019-11-21 07:12:07.000000000,2019-11-22 15:58:32.000000000,closed,0,Fix typo in README
+955,2019-11-20 12:13:46.000000000,1970-01-01 00:00:00.000000001,open,5,[bug] output doesn't work with dependency 
+954,2019-11-20 11:52:04.000000000,2019-11-22 08:53:25.000000000,closed,4,[bug] terragrunt import aws_cloudwatch_log_subscription_filter.xxx need be escaped 
+953,2019-11-18 05:56:13.000000000,2019-11-20 12:19:55.000000000,closed,2,[new feature] any chances to get all outputs inherited from modules directly?
+952,2019-11-15 07:42:54.000000000,1970-01-01 00:00:00.000000001,open,5,[question] How to limit the deployment to nominated account id
+951,2019-11-13 22:16:35.000000000,1970-01-01 00:00:00.000000001,open,7,prevent_destroy some resource
+950,2019-11-13 11:54:04.000000000,2019-11-13 23:31:36.000000000,closed,2,Allow Skipping Initialization of Modules and Plugins for Dependencies
+949,2019-11-13 11:40:06.000000000,1970-01-01 00:00:00.000000001,open,3,Allow Skipping All Initialization of a Dependency's Dependencies
+948,2019-11-11 05:29:49.000000000,2019-11-11 05:35:54.000000000,closed,1,Add more debug logging to help debug issues in the future
+947,2019-11-07 21:46:05.000000000,2019-11-08 00:40:22.000000000,closed,2,Cognito user pool schema question
+946,2019-11-07 19:46:03.000000000,2019-11-07 20:32:19.000000000,closed,1,Ask only once for a given depency on apply-all & co
+945,2019-11-05 22:47:08.000000000,2019-11-06 04:26:07.000000000,closed,1,Updates billing mode for managed DynamoDB lock table to PAY_PER_REQUEST
+944,2019-11-05 15:01:18.000000000,2019-11-06 20:01:38.000000000,closed,4,"Errors with tflock, when deploying multiple terragrunt files"
+943,2019-11-05 00:26:49.000000000,1970-01-01 00:00:00.000000001,open,4,.terragrunt-source-manifest breaks terraform helm_release resource
+942,2019-11-04 19:42:13.000000000,1970-01-01 00:00:00.000000001,open,8,Positional arguments are not supported with `optional_var_files`
+941,2019-11-03 19:01:47.000000000,2019-11-05 12:03:51.000000000,closed,2,Issue with 'state list' and 'import' while using flag --terragrunt-source
+940,2019-11-02 00:27:26.000000000,1970-01-01 00:00:00.000000001,open,5,mock-outputs in plan for lambda with sqs dependency
+939,2019-11-01 07:18:24.000000000,2020-03-28 22:27:49.000000000,closed,1,Go modules
+938,2019-10-31 20:13:35.000000000,1970-01-01 00:00:00.000000001,open,1,Terragrunt and terraform SAAS
+937,2019-10-31 01:43:33.000000000,2019-11-02 01:26:46.000000000,closed,5,Mutex output call
+936,2019-10-31 00:21:18.000000000,1970-01-01 00:00:00.000000001,open,3,Auto-init is not working
+935,2019-10-30 18:41:55.000000000,2019-11-01 17:38:23.000000000,closed,0,Improve docs by linking to DRY definition
+934,2019-10-30 18:37:34.000000000,2020-01-30 05:20:25.000000000,closed,1,[RFC] Add Terraform Lock Table Config for S3 Remote
+933,2019-10-30 18:29:43.000000000,2019-10-30 18:33:40.000000000,closed,1,Allow further customization of Terraform Lock table for S3 Remote State
+932,2019-10-30 15:39:40.000000000,2019-10-31 11:48:47.000000000,closed,4,"Build error, v0.21.1"
+931,2019-10-30 13:09:47.000000000,2019-10-30 17:36:10.000000000,closed,1,Review Documentation and introduce more structure
+930,2019-10-29 19:56:57.000000000,2019-11-02 01:27:04.000000000,closed,2,Revert change introduced in #866
+929,2019-10-28 17:51:16.000000000,1970-01-01 00:00:00.000000001,open,3,Terraform cloud provider - Variables not sent
+928,2019-10-25 00:00:12.000000000,2019-10-26 03:35:37.000000000,closed,5,`dep ensure` to fix the build issue
+927,2019-10-24 19:31:26.000000000,1970-01-01 00:00:00.000000001,open,3,get_aws_account_id failed if current credential are using cn partition
+926,2019-10-24 18:06:29.000000000,2019-10-24 18:22:19.000000000,closed,1,Fix link in README
+925,2019-10-23 01:30:18.000000000,2020-04-01 15:09:07.000000000,closed,3,Go modules
+924,2019-10-22 19:55:53.000000000,1970-01-01 00:00:00.000000001,open,4,What is the best way to manage access to the Terraform remote backend (like S3) ?
+923,2019-10-22 16:13:59.000000000,1970-01-01 00:00:00.000000001,open,5,apply-all doesn't know about dependencies ?
+922,2019-10-21 22:21:56.000000000,2019-10-31 19:37:39.000000000,closed,7,exec.ExitError exit status 126.
+921,2019-10-21 07:16:32.000000000,2019-10-21 22:37:42.000000000,closed,1,[question] Would you like Terragrunt to create it? (y/n) 
+920,2019-10-19 03:03:45.000000000,2019-10-19 04:11:49.000000000,closed,1,Is there a way to explicitly disable in terragrunt.hcl?
+919,2019-10-18 20:35:39.000000000,2019-10-18 21:52:41.000000000,closed,4,Access Denied when using S3 and assume role
+918,2019-10-18 04:10:05.000000000,2019-10-21 22:35:24.000000000,closed,1,SSH issues with Windows 10
+917,2019-10-17 16:05:34.000000000,2019-10-24 18:24:46.000000000,closed,8,Only perform exact match when [in|ex]cluding directories
+916,2019-10-17 10:02:41.000000000,1970-01-01 00:00:00.000000001,open,1,Exclude copying folder from working directory to cache folder
+915,2019-10-17 03:28:57.000000000,2019-10-17 03:49:59.000000000,closed,2,Using relative get_terragrunt_dir in deeper terragrunt.hcl where include fails
+914,2019-10-16 02:57:15.000000000,2019-10-29 16:26:25.000000000,closed,16,Unapplied dependency outputs error
+913,2019-10-15 12:03:35.000000000,2019-10-15 15:49:04.000000000,closed,1,no `init-all` so what do you recommend?
+912,2019-10-14 19:58:20.000000000,2019-10-16 15:00:51.000000000,closed,5,Add unit tests for `removeFlagExcluded`
+911,2019-10-14 17:55:47.000000000,1970-01-01 00:00:00.000000001,open,1,Can dependent terraform templates reference other template inputs in mock?
+910,2019-10-14 15:52:45.000000000,1970-01-01 00:00:00.000000001,open,1,"Wrog path in source, no warning"
+909,2019-10-14 01:35:40.000000000,2019-10-14 15:26:14.000000000,closed,3,bump Terraform version to 0.12.9
+908,2019-10-12 07:28:09.000000000,1970-01-01 00:00:00.000000001,open,0,sas token not being recognized for azurerm backend
+907,2019-10-11 21:07:36.000000000,2019-10-18 15:47:23.000000000,closed,1,Correctly Mirror Terraform GCP Auth
+906,2019-10-11 18:52:21.000000000,2019-11-13 20:58:56.000000000,closed,19,Destination path already exists and is not an empty directory using --terragrunt-source-update
+905,2019-10-10 14:17:12.000000000,2019-10-14 20:01:02.000000000,closed,11,Allow to run downstream layers of excluded layers when using Terragrunt *-all
+904,2019-10-10 00:35:27.000000000,2019-11-05 02:15:57.000000000,closed,13,terragrunt plan-all is flakey from 0.19.25
+903,2019-10-09 20:31:07.000000000,1970-01-01 00:00:00.000000001,open,10,AWS credential environment variables not working for S3 backend
+902,2019-10-09 19:41:43.000000000,2019-10-14 15:26:14.000000000,closed,6,Build with a more recent version of terraform
+901,2019-10-09 11:23:47.000000000,2019-11-06 07:11:05.000000000,closed,7,Adds download_dir to the config
+900,2019-10-08 18:51:58.000000000,2019-10-08 21:05:26.000000000,closed,0,fix extraneous quoting issue in get_aws_* functions
+899,2019-10-08 12:28:37.000000000,2019-10-08 21:05:26.000000000,closed,2,Terragrunt v0.19.30 breaks get_aws_account_id() functionality
+898,2019-10-08 05:41:55.000000000,2019-10-09 03:29:36.000000000,closed,1,Change order of parsing so that include is parsed first
+897,2019-10-08 00:06:55.000000000,2019-10-08 01:23:41.000000000,closed,1,get_aws_caller_identity_arn and get_aws_caller_identity_user_id functions
+896,2019-10-07 22:48:15.000000000,2019-10-08 18:41:19.000000000,closed,6,Inconsistent cache behavior for TF modules (symlinking and copying)
+895,2019-10-07 15:40:51.000000000,2019-10-09 11:20:07.000000000,closed,4,Could not find any subfolders with Terragrunt configuration files
+894,2019-10-06 17:47:58.000000000,1970-01-01 00:00:00.000000001,open,7,Unable to read / parse file with variables
+893,2019-10-05 03:38:24.000000000,2019-10-08 23:07:34.000000000,closed,2,Possible to apply-all without input=false -auto-approve?
+892,2019-10-04 03:53:36.000000000,1970-01-01 00:00:00.000000001,open,4,Can not set variable to null in Terragrunt inputs
+891,2019-10-04 01:04:53.000000000,2019-10-10 13:42:29.000000000,closed,5,Add option to ignore the dependency order during plan-all
+890,2019-10-03 21:44:31.000000000,2019-10-03 21:58:20.000000000,closed,0,update to aws sdk 1.25.4
+889,2019-10-02 23:55:47.000000000,2019-10-08 02:21:12.000000000,closed,0,add variable precedence
+888,2019-10-02 22:45:32.000000000,2019-10-10 13:40:46.000000000,closed,7,Check ${TF_DATA_DIR} when looking up Terraform state files
+887,2019-10-02 21:30:42.000000000,2019-10-09 04:13:14.000000000,closed,3,Document variable precedence between dependency variable and common.tfvars variable
+886,2019-10-02 14:36:57.000000000,2019-10-02 20:56:21.000000000,closed,2,brew receipe for terragrunt@0.18
+885,2019-10-02 12:59:51.000000000,1970-01-01 00:00:00.000000001,open,3,execute script as a git repo
+884,2019-10-01 15:34:20.000000000,1970-01-01 00:00:00.000000001,open,1,"""terragrunt apply-all"" doesn't support -help?"
+883,2019-09-28 23:32:09.000000000,1970-01-01 00:00:00.000000001,open,4,apply-all and destroy-all failing with 
+882,2019-09-28 03:00:18.000000000,1970-01-01 00:00:00.000000001,open,0,RFC: Terragrunt scaffolding
+881,2019-09-27 22:00:42.000000000,2019-09-27 22:07:30.000000000,closed,2,Is there a CDN or link to download tarballs or zips for inclusion in Dockerfiles?
+880,2019-09-25 23:32:55.000000000,2019-09-26 15:56:17.000000000,closed,3,Blocks of type dependency are not expected here
+879,2019-09-25 17:45:55.000000000,1970-01-01 00:00:00.000000001,open,9,`terragrunt apply-all` fails intermittently with many components using similar providers
+878,2019-09-24 13:05:11.000000000,2019-09-25 17:34:55.000000000,closed,4,Is the source attribute mandatory ?
+877,2019-09-24 12:50:46.000000000,2019-10-05 04:34:50.000000000,closed,10,Return mock outputs when skip_outputs is set to `true`
+876,2019-09-23 17:05:33.000000000,1970-01-01 00:00:00.000000001,open,2,Dynamo db localendpoint
+875,2019-09-23 17:02:45.000000000,1970-01-01 00:00:00.000000001,open,0,Honor the dynamodb_endpoint s3 parameter added in terraform v0.11
+874,2019-09-23 16:39:39.000000000,2019-09-24 13:19:25.000000000,closed,2,"Skip versioning check on S3 bucket when  skip_bucket_versioning is set to true, fixes #867,#745"
+873,2019-09-23 15:37:19.000000000,2019-09-25 11:50:47.000000000,closed,2,Design pattern to avoid Warning: Value for undeclared variable ?
+872,2019-09-23 12:50:28.000000000,2019-09-23 12:51:08.000000000,closed,1,Obey s3 backend skip_bucket_versioning flag
+871,2019-09-20 23:56:38.000000000,2019-10-11 19:32:07.000000000,closed,10,Fix bucket creation for remote_state for gcs
+870,2019-09-20 00:00:52.000000000,1970-01-01 00:00:00.000000001,open,1,plan-all output file contains plan for only a single module
+869,2019-09-19 16:40:54.000000000,2019-09-21 15:58:51.000000000,closed,2,Use resources from other enviroments
+868,2019-09-18 14:12:48.000000000,2019-10-10 14:17:46.000000000,closed,4,Allow to ignore dependency order when using Terragrunt plan-all
+867,2019-09-17 00:52:08.000000000,2019-09-24 13:19:26.000000000,closed,1,S3 - Is checking permission `GetBucketVersioning` required?
+866,2019-09-16 21:16:56.000000000,2019-09-17 21:20:54.000000000,closed,2, Fix bug where the context for running terraform output on the child was incorrect
+865,2019-09-13 17:51:11.000000000,2019-09-15 17:55:52.000000000,closed,0,Add windows installation option in docs
+864,2019-09-13 15:26:16.000000000,2019-10-25 13:26:37.000000000,closed,8,s3 backend creation issue with credential_process + source_profile + role_arn
+863,2019-09-13 06:41:41.000000000,2019-11-14 02:53:24.000000000,closed,4,Adds support for Terragrunt JSON configuration files
+862,2019-09-12 10:53:07.000000000,2019-09-15 17:55:52.000000000,closed,1,Add Terragrunt Choco Installation to Docs
+861,2019-09-11 21:06:25.000000000,2019-09-25 17:54:34.000000000,closed,9,Added Cli Option to include external dependencies 
+860,2019-09-11 00:03:28.000000000,2019-09-25 17:54:34.000000000,closed,0,Setting to apply external dependencies in Non-interactive mode
+859,2019-09-10 20:21:05.000000000,2019-09-22 19:01:28.000000000,closed,4,Allow replication of state s3 buckets
+858,2019-09-10 02:47:53.000000000,1970-01-01 00:00:00.000000001,open,28,"[WIP] Use a DAG to resolve locals, globals, and include"
+857,2019-09-09 16:11:15.000000000,1970-01-01 00:00:00.000000001,open,1,feature request - provide terragrunt hook execution context via env variables
+856,2019-09-09 12:18:43.000000000,2019-09-19 12:10:35.000000000,closed,9,How to handle long running process (in my case local Tiller) ?
+855,2019-09-07 02:51:09.000000000,2019-09-09 19:41:06.000000000,closed,1,Fix #854: Dependency TerragruntOptions was not updated in cycle check
+854,2019-09-06 01:42:07.000000000,2019-09-09 23:59:53.000000000,closed,23,'No such file or directory' - error opening terragrunt.hcl files after Terraform update
+853,2019-09-05 22:48:47.000000000,2019-09-13 14:15:48.000000000,closed,6,[RFC] Iteration of modules
+852,2019-09-05 04:04:35.000000000,2019-09-05 21:21:27.000000000,closed,1,RFC Template
+851,2019-09-04 16:00:12.000000000,1970-01-01 00:00:00.000000001,open,4,Terragrunt CLI options in Terragrunt config
+850,2019-09-04 01:49:10.000000000,2019-09-05 00:52:04.000000000,closed,1,Detect cycles in dependency block parsing
+849,2019-09-03 12:44:17.000000000,2020-05-23 09:12:44.000000000,closed,4,Terragrunt version constraint
+848,2019-09-01 00:33:21.000000000,2019-11-27 02:12:49.000000000,closed,2,fix: reorg cli arguments
+847,2019-08-29 06:08:47.000000000,1970-01-01 00:00:00.000000001,open,9,Migrate state if directory is changed
+846,2019-08-28 14:53:33.000000000,2019-11-14 02:53:24.000000000,closed,7,terragrunt.hcl.json ?
+845,2019-08-27 19:21:54.000000000,1970-01-01 00:00:00.000000001,open,5,"PR requests and backporting to terragrunt V0.18.x, Refs #112"
+844,2019-08-27 18:19:54.000000000,2019-09-05 01:00:29.000000000,closed,4,[BUG] infinite loop with dependency outputs feature
+843,2019-08-26 17:50:47.000000000,2019-08-29 15:03:34.000000000,closed,2,State from old version is not beeing read
+842,2019-08-20 14:35:49.000000000,2019-09-02 17:14:43.000000000,closed,4,terragrunt 0.19 input variables in hcl file have different precedence from terragrunt 0.18 
+841,2019-08-18 11:18:23.000000000,2019-08-19 21:21:48.000000000,closed,1,Fix yamldecode bug
+840,2019-08-17 00:27:47.000000000,2019-09-04 22:12:53.000000000,closed,10,Better error handling of dependency blocks
+839,2019-08-16 20:17:33.000000000,2019-10-02 23:03:54.000000000,closed,8,Terragrunt always reinitializes state if TF_PLUGIN_CACHE_DIR is specified
+838,2019-08-16 20:16:31.000000000,2019-10-10 13:40:46.000000000,closed,1,Terragrunt always reinitializes state if TF_DATA_DIR is specified
+837,2019-08-16 11:57:01.000000000,2019-09-05 00:55:40.000000000,closed,5,"Using output from a different module fails on the plan-all action, and works on apply-all"
+836,2019-08-15 21:13:42.000000000,1970-01-01 00:00:00.000000001,open,2,Easier way to do dependencies
+835,2019-08-15 08:38:40.000000000,2019-08-15 08:59:13.000000000,closed,1,update go-cty-yaml dependency
+834,2019-08-15 08:23:55.000000000,2019-08-19 21:22:57.000000000,closed,3,Update go-cty-yaml dependency
+833,2019-08-14 00:54:32.000000000,2019-08-14 03:07:18.000000000,closed,1,Terragrunt GCS Auth Failure
+832,2019-08-13 21:23:12.000000000,2019-08-15 14:40:29.000000000,closed,0,Update GCS Credentials - README.md
+831,2019-08-13 02:11:19.000000000,2019-08-13 02:29:46.000000000,closed,1,get a output from one module into another
+830,2019-08-12 19:56:01.000000000,1970-01-01 00:00:00.000000001,open,7,Terraform can't find remote S3 backend after creation
+829,2019-08-12 19:29:03.000000000,1970-01-01 00:00:00.000000001,open,7,Template_dir Broken with 0.19.19
+828,2019-08-10 00:05:01.000000000,2019-08-15 19:24:07.000000000,closed,5,Implement terragrunt_output
+827,2019-08-09 17:53:27.000000000,1970-01-01 00:00:00.000000001,open,0,Remote backend not handled when force_path_style enabled and bucket versioning disabled
+826,2019-08-09 09:22:30.000000000,2019-09-04 03:58:27.000000000,closed,4,hclfmt should run before parsing the terragrunt config
+825,2019-08-08 22:57:14.000000000,1970-01-01 00:00:00.000000001,open,6,terragrunt apply fails for module
+824,2019-08-08 17:20:31.000000000,2019-09-04 04:00:08.000000000,closed,2,terragrunt hclfmt should not evaluate interpolations
+823,2019-08-08 15:51:25.000000000,2019-08-08 15:52:13.000000000,closed,0,Marko7460 fix gcs bucket
+822,2019-08-08 09:53:31.000000000,2019-08-09 04:21:28.000000000,closed,3,Build issue v0.19.16
+821,2019-08-07 15:45:07.000000000,1970-01-01 00:00:00.000000001,open,10,"""Remote state GCS bucket x does not exist. Attempting to create it"" even though bucket does exist"
+820,2019-08-07 13:47:50.000000000,2019-08-07 15:02:08.000000000,closed,1,docs: fix link Formatting terragrunt.hcl
+819,2019-08-05 10:29:03.000000000,2019-08-07 15:00:39.000000000,closed,1,terragrunt cache file does not update 
+818,2019-08-05 01:08:14.000000000,2019-08-08 15:52:17.000000000,closed,2,Fixing gcs bucket checking when credentials are provided
+817,2019-08-04 21:51:17.000000000,2019-08-09 09:28:46.000000000,closed,2,get_tfvars_dir -> get_terragrunt_dir missing in documentation
+816,2019-08-03 09:50:14.000000000,2019-08-08 15:10:45.000000000,closed,4,Check if the files/dirs from manifest don't exist already when removing them
+815,2019-08-03 01:36:59.000000000,2019-08-08 15:10:45.000000000,closed,9,Can't run terragrunt apply
+814,2019-08-02 21:46:47.000000000,1970-01-01 00:00:00.000000001,open,23,Feature Request: Shared and overridable variables (globals?)
+813,2019-08-02 10:20:07.000000000,2019-08-02 18:39:44.000000000,closed,1,hclfmt should ignore files in .terragrunt-cache
+812,2019-08-01 22:25:55.000000000,2019-09-24 01:37:40.000000000,closed,6,Question: Possible to pass vars directly to dependencies?
+811,2019-08-01 21:14:47.000000000,1970-01-01 00:00:00.000000001,open,1,pass the credentials stored in terraform.tfvars as argument in script called by before hook
+810,2019-08-01 16:31:20.000000000,2019-08-02 18:58:00.000000000,closed,2,Migration / Conversion from Terraform to Terragrunt & state?
+809,2019-08-01 15:14:42.000000000,2019-08-02 18:39:44.000000000,closed,2,terragrunt hclfmt: Ignore .terragrunt-cache
+808,2019-08-01 01:55:08.000000000,1970-01-01 00:00:00.000000001,open,5,--terragrunt-include-dir has flaky behavior
+807,2019-07-31 12:15:30.000000000,2019-08-02 20:47:46.000000000,closed,7,Initial check mode
+806,2019-07-31 02:28:18.000000000,1970-01-01 00:00:00.000000001,open,3,Add 0.19upgrade command
+805,2019-07-31 01:57:44.000000000,2019-07-31 19:04:11.000000000,closed,2,The option to set up terragrunt cache only
+804,2019-07-30 16:35:55.000000000,2019-08-09 09:22:58.000000000,closed,6,terragrunt hclfmt: support for `-check` mode
+803,2019-07-29 21:36:55.000000000,1970-01-01 00:00:00.000000001,open,1,plan-all issues with provider
+802,2019-07-27 08:28:34.000000000,2019-08-01 11:01:50.000000000,closed,6,Locals
+801,2019-07-27 07:51:34.000000000,2019-07-29 22:49:06.000000000,closed,2,hclfmt
+800,2019-07-24 20:54:24.000000000,1970-01-01 00:00:00.000000001,open,4,Terragrunt doesn't appear to respect SSH port
+799,2019-07-24 10:44:53.000000000,2019-07-24 15:14:49.000000000,closed,0,update Homebrew
+798,2019-07-24 06:13:59.000000000,1970-01-01 00:00:00.000000001,open,1,Proposal: bring back support for configuration in terraform.tfvars
+797,2019-07-23 20:52:58.000000000,1970-01-01 00:00:00.000000001,open,5,How can I share remote_state infos between modules and stay DRY?
+796,2019-07-23 19:04:44.000000000,2019-07-23 21:01:50.000000000,closed,1,Enable all public access blocking
+795,2019-07-23 18:12:00.000000000,2019-07-23 18:41:41.000000000,closed,4,Terragrunt creates a public s3 bucket
+794,2019-07-23 17:17:02.000000000,2019-07-24 04:28:30.000000000,closed,3,"Auto-retry ""connection reset by peer"""
+793,2019-07-23 17:12:10.000000000,2019-07-24 16:34:55.000000000,closed,3,S3 modules are not downloaded when sources added/changed
+792,2019-07-22 19:55:28.000000000,2019-07-23 02:31:39.000000000,closed,2,Terragrunt release downloads returning 500 erro
+791,2019-07-22 18:35:29.000000000,1970-01-01 00:00:00.000000001,open,6,get_aws_account_id don't use the profile from remote_state
+790,2019-07-22 17:51:25.000000000,1970-01-01 00:00:00.000000001,open,1,Use last terragrunt.hcl instead of first found
+789,2019-07-22 02:52:56.000000000,2020-07-03 02:29:50.000000000,closed,4,Fix error output in plan-all..
+788,2019-07-18 23:08:47.000000000,2019-07-18 23:23:40.000000000,closed,1,Terragrunt cannot find pre-installed plugin
+787,2019-07-17 03:23:15.000000000,2019-07-18 13:06:04.000000000,closed,3,Option to suppress output of run_cmd() for sensitive commands
+786,2019-07-16 22:05:49.000000000,2019-08-09 09:34:02.000000000,closed,3,Migrate to terraform 0.12.4 user_data hash issue
+785,2019-07-14 01:13:10.000000000,1970-01-01 00:00:00.000000001,open,10,postpone check for configured backend after init hook is executed
+784,2019-07-12 22:07:33.000000000,2019-07-12 23:46:31.000000000,closed,2,GCS bucket not being created
+783,2019-07-11 11:32:49.000000000,2019-12-21 07:31:28.000000000,closed,12,GOOGLE_CREDENTIALS no more since Terragrunt 0.19.6
+782,2019-07-11 00:47:42.000000000,2019-07-12 08:23:12.000000000,closed,4,Terraform 0.12 / Terragrunt 0.19 tfvars Clarification
+781,2019-07-10 22:53:42.000000000,2019-12-21 07:30:51.000000000,closed,15,Adding multiple modules with a single backing state
+780,2019-07-10 07:46:05.000000000,2019-08-09 18:46:25.000000000,closed,16,Terragrunt & GCS credentials
+779,2019-07-09 20:19:21.000000000,1970-01-01 00:00:00.000000001,open,10,Support for remote_state backend 'remote'
+778,2019-07-09 12:28:50.000000000,2019-07-10 11:38:56.000000000,closed,1,Obfuscate Secret for encrypting state file in terragrunt output
+777,2019-07-05 17:41:18.000000000,2019-07-05 21:31:05.000000000,closed,2,ccccccjlktfrgkffgilgnrgtdikvrlgfeggectklucvv
+776,2019-07-04 03:27:46.000000000,2019-08-01 11:08:16.000000000,closed,3,Enhancement: Support local variables in terragrunt.hcl
+775,2019-07-03 21:55:00.000000000,1970-01-01 00:00:00.000000001,open,1,Set AWS credentials in the environment so go-getter can use them
+774,2019-07-03 07:45:04.000000000,2019-07-31 16:21:17.000000000,closed,17,For local file copy create a manifest with a list of files.
+773,2019-07-03 02:43:16.000000000,2019-07-06 08:01:56.000000000,closed,1,Adding documentation around the new disable_init feature
+772,2019-07-02 18:39:01.000000000,2019-07-02 18:51:32.000000000,closed,1,"Call to unknown function; There is no function named ""get_parent_tfvars_dir"""
+771,2019-07-02 14:20:53.000000000,2019-07-02 18:22:40.000000000,closed,0,Support Existing Buckets for the GCS backend
+770,2019-07-02 01:47:37.000000000,2019-12-18 22:56:59.000000000,closed,3,terragrunt s3 bucket creation fails when using root credentials
+769,2019-07-01 21:59:57.000000000,2019-07-01 22:18:05.000000000,closed,2,Fix merge conflict from new GCS initializer and disable_init config
+768,2019-06-30 11:23:38.000000000,2019-10-17 21:05:32.000000000,closed,6,terraform fmt doesn't work on *.hcl files
+767,2019-06-28 17:12:24.000000000,2019-07-02 19:50:51.000000000,closed,7,Terragrunt 0.19.6 breaks existing GCP config
+766,2019-06-27 22:10:31.000000000,1970-01-01 00:00:00.000000001,open,6,Terragrunt does not mix parent terragrunt.hcl content into .terragrunt-cache
+765,2019-06-26 13:21:19.000000000,1970-01-01 00:00:00.000000001,open,1,Dependencies on destroy-all
+764,2019-06-26 06:05:51.000000000,2019-07-31 16:21:22.000000000,closed,19,".terragrunt-cache fails to update with new source ""...?ref=..."""
+763,2019-06-26 01:11:31.000000000,2019-07-01 20:57:01.000000000,closed,1,Add tf12 badge
+762,2019-06-25 19:48:06.000000000,2019-06-25 19:54:24.000000000,closed,1,Add contribution guidelines
+761,2019-06-25 01:39:47.000000000,2019-07-01 21:51:47.000000000,closed,17,Provide ability to disable backend init so that validate-all can be run without a backend
+760,2019-06-24 20:50:24.000000000,2019-09-25 05:26:57.000000000,closed,2,flag provided but not defined: -terragrunt-exclude-dir
+759,2019-06-19 21:45:56.000000000,1970-01-01 00:00:00.000000001,open,11,RFC: single terragrunt.hcl per environment?
+758,2019-06-19 20:55:30.000000000,2019-12-21 07:30:10.000000000,closed,2,Using modules in a different git repo
+757,2019-06-18 23:46:31.000000000,2019-06-25 14:17:52.000000000,closed,7,Add support for creating & managing remote state using the GCS backend
+756,2019-06-18 23:20:21.000000000,2019-10-09 03:31:44.000000000,closed,11,get_parent_terragrunt_dir() returns wrong path
+755,2019-06-18 21:05:47.000000000,1970-01-01 00:00:00.000000001,open,1,run_cmd should stop execution if stderr is not empty
+754,2019-06-18 18:55:17.000000000,2019-06-20 07:53:40.000000000,closed,1,Fix duplicated line
+753,2019-06-17 20:30:13.000000000,2019-06-22 02:47:07.000000000,closed,4,Parse include block first so include-specific functions work in other blocks of child config
+752,2019-06-17 07:25:09.000000000,1970-01-01 00:00:00.000000001,open,21,"Don't convert inputs to env vars. Instead, generate terragrunt.tfvars.json and use as -var-file"
+751,2019-06-17 07:10:59.000000000,2019-08-08 15:13:11.000000000,closed,18,Feature/tfbinary in config
+750,2019-06-16 23:52:17.000000000,1970-01-01 00:00:00.000000001,open,6,terragrunt-info as internal function
+749,2019-06-16 23:09:53.000000000,2020-02-18 17:48:46.000000000,closed,15,Hooks init-from-module runs differently in 0.18 and 0.19
+748,2019-06-15 00:48:00.000000000,2019-06-16 12:44:44.000000000,closed,5,Add terraform functions to terragrunt eval context
+747,2019-06-13 20:02:57.000000000,2019-06-14 16:06:13.000000000,closed,1,delete .tf.json files when cleaning up terragrunt cache
+746,2019-06-13 14:04:25.000000000,2020-07-06 17:58:07.000000000,closed,3,Generate the backend tf file when running terragrunt to enable DRYer modules.
+745,2019-06-13 08:13:39.000000000,2019-09-24 13:20:47.000000000,closed,10,terragrunt S3 backend permission error when using from another aws account
+744,2019-06-13 04:15:07.000000000,1970-01-01 00:00:00.000000001,open,15,Terraform 0.12 map merging
+743,2019-06-12 21:34:22.000000000,1970-01-01 00:00:00.000000001,open,7,Will there be continuing support for 0.18.x?
+742,2019-06-12 16:43:51.000000000,1970-01-01 00:00:00.000000001,open,1,Plan then init?
+741,2019-06-12 14:58:13.000000000,2019-06-12 17:28:19.000000000,closed,1,Fix concurrency issue with go-getter usage
+740,2019-06-12 04:01:06.000000000,2019-06-12 17:30:42.000000000,closed,5,Issues with lists/sets in 0.19
+739,2019-06-11 19:18:41.000000000,2019-06-12 03:19:15.000000000,closed,3,Switch from symlink and file copy to just file copy; upgrade dependencies; fix stack traces.
+738,2019-06-11 19:05:47.000000000,2019-06-11 19:16:43.000000000,closed,1,"How to use complex types (map, list) in variables with v0.19 ?"
+737,2019-06-11 17:56:32.000000000,2019-06-17 12:58:45.000000000,closed,7,Should Terragrunt 0.19 convert var files into env vars ?
+736,2019-06-11 03:14:15.000000000,2019-06-12 03:19:15.000000000,closed,14,Terragrunt stopped copying symlinks from modules
+735,2019-06-10 23:51:38.000000000,2019-06-11 05:04:45.000000000,closed,4,Avoid dreating duplicate resources with 0.12 update
+734,2019-06-10 21:39:29.000000000,2019-06-10 21:53:51.000000000,closed,12,"Migration unexpected ""terraform"" block"
+733,2019-06-10 18:11:08.000000000,2019-06-12 03:19:15.000000000,closed,14,failed to run mklink
+732,2019-06-07 09:31:52.000000000,1970-01-01 00:00:00.000000001,open,7,Is there no support for explicitly defining access_key and secret_key in terragrunt backend configuration?
+731,2019-06-06 21:20:20.000000000,2019-06-10 15:48:25.000000000,closed,11,Terraform 0.12 support
+730,2019-06-06 12:58:19.000000000,1970-01-01 00:00:00.000000001,open,0,improve string escape handling for run_cmd
+729,2019-06-06 12:26:05.000000000,1970-01-01 00:00:00.000000001,open,1,Error downloading modules
+728,2019-06-06 00:01:09.000000000,1970-01-01 00:00:00.000000001,open,2,automatically chomp newlines when using run_cmd
+727,2019-06-05 14:28:10.000000000,1970-01-01 00:00:00.000000001,open,10,What is the best way to run import with terragrunt?
+726,2019-06-05 14:15:17.000000000,1970-01-01 00:00:00.000000001,open,5,Request: Improve output of plan-all with landscape
+725,2019-06-04 23:16:43.000000000,2019-06-14 16:06:13.000000000,closed,6,.tf.json files not cleaned up
+724,2019-06-04 14:47:44.000000000,2019-12-06 03:47:39.000000000,closed,3,Terragrunt Console Garbles STDIN/STDOUT Streams
+723,2019-06-04 10:53:26.000000000,1970-01-01 00:00:00.000000001,open,2,Terraform Vars Cascade Processing
+722,2019-06-04 00:49:15.000000000,1970-01-01 00:00:00.000000001,open,17,WIP: Improve *-all error message output
+721,2019-06-03 14:46:22.000000000,2019-06-04 01:54:51.000000000,closed,3,Dynamo Db Lock Table TTLs for locks
+720,2019-06-01 02:43:31.000000000,2019-06-04 01:13:30.000000000,closed,2,CI/CD Best Practice for plan-all output?
+719,2019-05-31 01:31:50.000000000,2019-06-04 19:53:45.000000000,closed,5,Check to see if symlinks are directories
+718,2019-05-30 21:10:17.000000000,2019-05-30 21:12:09.000000000,closed,1,Error: Can't populate non-empty directory
+717,2019-05-30 13:23:49.000000000,1970-01-01 00:00:00.000000001,open,2,Snap package
+716,2019-05-29 21:38:00.000000000,2019-05-30 22:17:38.000000000,closed,9,how to reference a lambda file path in module?
+715,2019-05-28 12:15:00.000000000,1970-01-01 00:00:00.000000001,open,6,AWS S3 Backend with Explicit KMS key
+714,2019-05-27 22:39:46.000000000,2019-05-28 01:47:45.000000000,closed,1,Add note about TF 0.12 upgrade
+713,2019-05-27 13:53:06.000000000,2019-05-27 14:00:24.000000000,closed,1,Terragrunt 0.18.6 and Terraform 0.12
+712,2019-05-27 13:22:30.000000000,2019-05-30 19:39:41.000000000,closed,3,Azure backend and provider as a module: config error on tf12
+711,2019-05-24 05:41:07.000000000,1970-01-01 00:00:00.000000001,open,1,Terragrunt asks to create backend if credentials expired
+710,2019-05-23 21:30:42.000000000,1970-01-01 00:00:00.000000001,open,5,Terragrunt not installing plugins
+709,2019-05-23 14:34:56.000000000,2019-05-23 18:45:39.000000000,closed,2,Support for Terraform v0.12
+708,2019-05-22 16:48:34.000000000,1970-01-01 00:00:00.000000001,open,0,Mark terragrunt backend variable sensitive -> Do not output it to stdout/stderr
+707,2019-05-17 15:03:48.000000000,1970-01-01 00:00:00.000000001,open,5,enables multiple includes
+706,2019-05-16 20:31:29.000000000,1970-01-01 00:00:00.000000001,open,1,outputs from modules or remote state
+705,2019-05-15 19:45:10.000000000,2019-05-16 23:37:30.000000000,closed,2,New interpolation function for parallelism
+704,2019-05-14 14:13:44.000000000,1970-01-01 00:00:00.000000001,open,11,New feature skip=true doesn't work
+703,2019-05-14 10:07:57.000000000,1970-01-01 00:00:00.000000001,open,1,Option to disabling TLS verification?
+702,2019-05-14 01:15:49.000000000,1970-01-01 00:00:00.000000001,open,4,Windows CI Integration
+701,2019-05-10 21:05:04.000000000,1970-01-01 00:00:00.000000001,open,1,Terragrunt apply-all stack output is cheating when --terragrunt-ignore-external-dependencies is present
+700,2019-05-09 17:45:53.000000000,2019-05-14 13:38:54.000000000,closed,6,Terraform extra_arguments arguments Ignored
+699,2019-05-07 06:41:46.000000000,1970-01-01 00:00:00.000000001,open,3,Run `terragrunt` behind proxy
+698,2019-05-06 15:13:17.000000000,2020-07-15 00:58:35.000000000,closed,2,Parallelism of terragrunt *-all commands
+697,2019-05-04 14:48:31.000000000,1970-01-01 00:00:00.000000001,open,1,Obtain AWS credentials from Vault AWS Engine
+696,2019-05-02 18:46:29.000000000,1970-01-01 00:00:00.000000001,open,2,Configure after_hooks to only run if terraform apply actually made changes
+695,2019-04-29 12:22:09.000000000,2019-05-11 19:28:26.000000000,closed,1,Terragrunt is now available in Azure Dev Ops/VSTS!
+694,2019-04-24 20:19:28.000000000,2019-04-25 17:17:18.000000000,closed,1,OCI output from filter
+693,2019-04-23 15:46:55.000000000,2019-04-29 14:18:34.000000000,closed,4,locking terraform state file stored in OCI Object Storage using terragrunt
+692,2019-04-19 14:01:33.000000000,2019-04-22 11:09:41.000000000,closed,4,Reusable module for existing AWS resource
+691,2019-04-17 12:44:16.000000000,1970-01-01 00:00:00.000000001,open,1,Multi path include
+690,2019-04-15 16:22:02.000000000,2019-04-16 14:19:15.000000000,closed,0,Remove reference to _ci/build-and-push-release-asset.sh.
+689,2019-04-11 02:21:58.000000000,1970-01-01 00:00:00.000000001,open,4,add shell completion
+688,2019-04-05 17:12:28.000000000,1970-01-01 00:00:00.000000001,open,1,Mismatch versions when downloading from Assets
+687,2019-04-05 06:01:09.000000000,1970-01-01 00:00:00.000000001,open,5,Nested maps/blocks in remote_state.config is not supported
+686,2019-03-20 15:44:30.000000000,2019-03-24 04:41:19.000000000,closed,4,Terragrunt fails to load some modules on Windows 10
+685,2019-03-20 04:22:22.000000000,2019-03-26 17:06:28.000000000,closed,4,Add Ignore external dependencies flag
+684,2019-03-20 02:51:54.000000000,2019-06-10 15:53:26.000000000,closed,4,function interpolation in run_cmd is inconsistent
+683,2019-03-18 13:33:14.000000000,2019-03-18 14:05:24.000000000,closed,0,Terragrunt sets --get-plugins arguments twice if specified in terraform.tfvars
+682,2019-03-16 17:47:59.000000000,2019-03-18 21:50:02.000000000,closed,4,cache refresh option/command
+681,2019-03-16 17:33:55.000000000,2019-03-18 17:17:31.000000000,closed,1,Enrich -all commands outputs
+680,2019-03-16 16:32:48.000000000,2019-06-21 19:40:00.000000000,closed,3,WIP: Changing runtime environment and late interpolations
+679,2019-03-15 17:52:48.000000000,2019-03-18 18:26:39.000000000,closed,4,Defining user data in auto scaling group?
+678,2019-03-15 09:04:31.000000000,2019-03-25 13:55:15.000000000,closed,2,Adds Appveyor support for testing on Windows
+677,2019-03-14 14:04:35.000000000,2019-03-14 17:06:44.000000000,closed,2,Only github supported for git source downloads
+676,2019-03-13 13:01:41.000000000,1970-01-01 00:00:00.000000001,open,4,Terragrunt apply after terragrunt init has a missing key in map
+675,2019-03-08 21:33:16.000000000,2019-03-11 19:42:34.000000000,closed,4,Add command 'show-all'
+674,2019-03-08 20:18:44.000000000,2019-06-10 16:01:54.000000000,closed,1,Add support for terraform show/show-all
+673,2019-03-08 06:23:43.000000000,2019-03-09 04:40:35.000000000,closed,1,Fix broken test introduced on PR #670
+672,2019-03-08 05:54:39.000000000,2019-04-11 06:35:38.000000000,closed,8,can't do terragrunt apply after terragrunt init with terraform v0.12.0-beta1
+671,2019-03-06 16:30:42.000000000,1970-01-01 00:00:00.000000001,open,5,Error finding AWS credentials for S3 remote state
+670,2019-03-04 00:25:43.000000000,2019-03-08 05:39:45.000000000,closed,6,A helper function to run arbitrary commands
+669,2019-03-03 02:53:46.000000000,2019-03-04 18:25:20.000000000,closed,2,Add checksums to release files
+668,2019-03-01 03:17:33.000000000,1970-01-01 00:00:00.000000001,open,4,External authentication mechanisms
+667,2019-02-28 19:56:34.000000000,1970-01-01 00:00:00.000000001,open,2,iam_role introduced in v0.17.2 does not have behave like --terragrunt-iam-role cli flag
+666,2019-02-28 18:46:26.000000000,2019-06-10 15:57:58.000000000,closed,2,Support lists in variables terraform.tfvars
+665,2019-02-28 15:43:08.000000000,1970-01-01 00:00:00.000000001,open,6,Terragrunt Does not create S3 bucket when plan-all using multiple modules
+664,2019-02-27 19:45:34.000000000,2019-03-01 23:49:02.000000000,closed,8,"When migrating over to Terragrunt, state seems to be empty when it is not"
+663,2019-02-23 07:39:15.000000000,2019-04-21 18:24:57.000000000,closed,16,Make xxx-all commands ignore modules with skip=true
+662,2019-02-22 04:08:17.000000000,1970-01-01 00:00:00.000000001,open,0,[feature]The benefit of a log level feature for the terragrunt logs.
+661,2019-02-21 14:23:59.000000000,2019-02-27 19:19:09.000000000,closed,4,Cannot figure out path resolving when including module that includes modules
+660,2019-02-20 20:08:34.000000000,2019-02-21 16:46:18.000000000,closed,6,Terragrunt does not initialize S3 backend and don't create bucket/table
+659,2019-02-20 08:40:10.000000000,2019-02-20 16:26:54.000000000,closed,0,fixed typo in the README.md
+658,2019-02-16 01:39:10.000000000,2019-02-16 04:33:56.000000000,closed,1,Terragrunt caching info from GIT
+657,2019-02-16 01:16:49.000000000,1970-01-01 00:00:00.000000001,open,6,Terragrunt destroy not destroying aws infrastructure
+656,2019-02-16 00:05:04.000000000,2019-02-18 20:29:55.000000000,closed,5,How to define module with terragrunt.
+655,2019-02-14 19:47:08.000000000,2019-02-14 19:53:42.000000000,closed,0,Add CODEOWNERS
+654,2019-02-14 18:08:06.000000000,2019-02-16 15:10:16.000000000,closed,2,Query Regarding Official Modules with Terragrunt
+653,2019-02-14 09:15:09.000000000,2019-02-14 17:16:49.000000000,closed,2,Support terraform v0.12
+652,2019-02-14 06:36:10.000000000,2019-02-15 04:34:41.000000000,closed,1,"hard lock of ""TERRAFORM_COMMANDS_NEED_LOCKING"""
+651,2019-02-12 14:48:57.000000000,2019-02-13 08:14:38.000000000,closed,8,Question: how to add resources in specific environments
+650,2019-02-11 16:08:43.000000000,2019-02-11 18:35:00.000000000,closed,5,Fix nil pointer. Wait for encryption. Make DynamoDB encryption off by default.
+649,2019-02-09 00:06:20.000000000,1970-01-01 00:00:00.000000001,open,5,"unable to control {optional,required}_var_file precedence "
+648,2019-02-08 16:53:47.000000000,1970-01-01 00:00:00.000000001,open,7,Using extra_args on init to pass -no-color results in duplicate -no-color (auto-init)
+647,2019-02-06 03:57:22.000000000,2019-02-11 14:52:05.000000000,closed,5,Remote State DynamoDB Lock Table Encryption
+646,2019-02-05 18:17:38.000000000,2019-02-10 18:53:08.000000000,closed,4,Add access logging permissions
+645,2019-02-03 15:55:46.000000000,2019-02-05 17:42:24.000000000,closed,8, Encrypt the bucket and log access on the AWS S3 Bucket of the TFState
+644,2019-02-03 04:10:30.000000000,2019-02-03 18:11:29.000000000,closed,2,Add AWS S3 Bucket-Wide KMS SSEncryption of the TFState
+643,2019-02-01 23:44:01.000000000,2019-06-18 17:23:10.000000000,closed,4,Encrypt the bucket and log the access on the AWS S3 Bucket and encrypt the DynamoDB Lock Table of the TF State
+642,2019-02-01 04:23:28.000000000,1970-01-01 00:00:00.000000001,open,3,how to config seperate aws credentials for s3 remote bucket and aws provider?
+641,2019-01-25 20:12:08.000000000,1970-01-01 00:00:00.000000001,open,3,Terragrunt v0.17.4 | `apply-all` in combination with `--terragrunt-working-dir` not working properly
+640,2019-01-24 01:37:29.000000000,2019-01-24 03:07:33.000000000,closed,3,S3 Bucket Object Lock configuration: AccessDenied: Access Denied
+639,2019-01-23 19:57:33.000000000,2019-01-24 00:47:45.000000000,closed,4,Improve test stability
+638,2019-01-22 17:02:01.000000000,2019-01-23 15:54:20.000000000,closed,3,s3_bucket_tags and dynamodb_table_tags causes HCL parsing issue
+637,2019-01-15 10:14:33.000000000,2019-01-16 17:19:07.000000000,closed,3,Not getting values from optional_var_files
+636,2019-01-13 10:08:16.000000000,2020-05-11 20:59:08.000000000,closed,27,Add configurable parallelism
+635,2019-01-11 00:41:39.000000000,2019-06-10 15:59:16.000000000,closed,6,Workaround for interpolation in terraform.tfvars
+634,2019-01-10 15:27:59.000000000,1970-01-01 00:00:00.000000001,open,1,Destroy single instance
+633,2019-01-10 09:36:14.000000000,2019-01-18 02:22:10.000000000,closed,2,reading env file
+632,2019-01-05 14:23:38.000000000,1970-01-01 00:00:00.000000001,open,5,Terragrunt doesn't recognize providers versioning?
+631,2018-12-28 20:33:03.000000000,1970-01-01 00:00:00.000000001,open,6,"Best Practice Question: How to handle ""third-party"" providers?"
+630,2018-12-28 20:18:01.000000000,1970-01-01 00:00:00.000000001,open,1,"Best Practice Question: ""root"" module naming convention?"
+629,2018-12-27 21:30:12.000000000,2019-08-13 02:40:34.000000000,closed,4,segfault in v0.17.4
+628,2018-12-27 16:32:53.000000000,2018-12-28 00:05:42.000000000,closed,1,GitHub release for v0.17.4 missing assets?
+627,2018-12-21 04:10:43.000000000,1970-01-01 00:00:00.000000001,open,11,"Best Practice Question: Single ""stack"" module with tfvars versus current recommendations?"
+626,2018-12-20 22:33:15.000000000,2018-12-21 21:25:13.000000000,closed,8,Implements #607 - Run apply-all only on specified targets
+625,2018-12-20 00:03:23.000000000,2018-12-20 00:09:15.000000000,closed,0,Add Go report card and GoDoc badges
+624,2018-12-17 17:39:04.000000000,1970-01-01 00:00:00.000000001,open,1,New region eu-north-1 broken in terragrunt
+623,2018-12-16 13:16:13.000000000,2019-06-10 15:59:56.000000000,closed,12,Why is terragrunt creating an instance for the root terragrunt file as well?
+622,2018-12-15 22:28:44.000000000,2018-12-18 19:33:08.000000000,closed,2,Question: terragrunt plan will delete all running resources?
+621,2018-12-14 01:42:14.000000000,2018-12-18 00:36:16.000000000,closed,2,get_env() not recognizing environment vars set by extra_arguments
+620,2018-12-11 01:17:33.000000000,1970-01-01 00:00:00.000000001,open,3,Feature Request: Before-apply-all hook?
+619,2018-12-09 02:11:36.000000000,1970-01-01 00:00:00.000000001,open,1,Refreshing State
+618,2018-12-07 21:45:00.000000000,1970-01-01 00:00:00.000000001,open,4,How to organize some kind of resources in subdirectories
+617,2018-12-05 19:09:38.000000000,2018-12-13 01:47:10.000000000,closed,1,error refreshing state
+616,2018-12-03 20:52:11.000000000,1970-01-01 00:00:00.000000001,open,10,Receiving S3 backend credential error when using an AWS config assumed role profile
+615,2018-11-27 20:20:35.000000000,2018-11-27 21:59:45.000000000,closed,0,Some typo fixes
+614,2018-11-26 13:20:48.000000000,2020-06-14 17:15:48.000000000,closed,17,No colour output since release 0.17.0 on Windows x64
+613,2018-11-24 18:02:11.000000000,2018-11-24 18:25:37.000000000,closed,0,Fix potential concurrency bug in RunShellCommandWithOutput
+612,2018-11-23 23:34:40.000000000,1970-01-01 00:00:00.000000001,open,1,Handling s3 custom policies using tfvars file
+611,2018-11-23 21:16:47.000000000,2018-11-24 18:25:37.000000000,closed,4,Inconsistent behavior of terragrunt init / apply-all / destroy-all (v0.17.1+)
+610,2018-11-20 21:39:23.000000000,2019-03-04 19:41:21.000000000,closed,9,sha256 verification for the download binaries
+609,2018-11-20 15:31:54.000000000,2018-11-20 17:48:34.000000000,closed,5,Feature Request init-all
+608,2018-11-20 15:22:03.000000000,2019-06-25 16:44:28.000000000,closed,14,Tags not being applied to state bucket or dynamodb
+607,2018-11-13 06:14:37.000000000,1970-01-01 00:00:00.000000001,open,6,Run apply-all only on specified targets
+606,2018-11-10 21:13:24.000000000,1970-01-01 00:00:00.000000001,open,1,AutoInit does not detect provider version changes
+605,2018-11-10 08:22:38.000000000,2018-11-10 20:58:08.000000000,closed,10,How to reconfigure plugins
+604,2018-11-10 02:23:10.000000000,2018-11-10 04:48:55.000000000,closed,4,`terraform plan` crash report
+603,2018-11-09 22:14:18.000000000,2020-06-15 13:57:45.000000000,closed,10,new interpolation function to get values from var files
+602,2018-11-09 19:18:04.000000000,2018-11-09 20:18:18.000000000,closed,0,Build fixes
+601,2018-11-08 20:46:51.000000000,2018-11-18 23:11:57.000000000,closed,3,what command to do the per module oepration
+600,2018-11-08 10:34:27.000000000,1970-01-01 00:00:00.000000001,open,2,cant install via go get
+599,2018-11-07 21:21:35.000000000,2018-11-09 19:03:05.000000000,closed,3,Feat/terragrunt iam role in config
+598,2018-11-06 21:44:42.000000000,2018-11-09 19:03:05.000000000,closed,2,Allow specifying terragrunt-iam-role in terraform.tfvars
+597,2018-11-01 19:35:26.000000000,1970-01-01 00:00:00.000000001,open,4,validate-all requires credentials
+596,2018-11-01 16:37:56.000000000,2020-04-28 05:17:50.000000000,closed,2,apply/apply-all with a terraform plan file failing
+595,2018-10-31 16:24:54.000000000,2018-11-01 17:49:06.000000000,closed,5,Seperate modules using different aws profiles
+594,2018-10-31 01:22:34.000000000,2019-06-20 21:04:33.000000000,closed,1,Chore/fix gofmt
+593,2018-10-31 01:14:06.000000000,2018-10-31 01:14:14.000000000,closed,0,fix typos
+592,2018-10-27 04:48:28.000000000,2020-06-15 13:58:15.000000000,closed,5,terragrunt crash on parsing root terraform.tfvars
+591,2018-10-17 21:58:24.000000000,2020-06-15 13:58:33.000000000,closed,4,"Terraform reports ""Terraform files in .... are up to date. Will not download again.""  even when that's not true"
+590,2018-10-17 13:06:51.000000000,2018-11-18 23:12:25.000000000,closed,4,Issue when you source a module that uses another module
+589,2018-10-16 16:05:46.000000000,2018-10-16 16:41:44.000000000,closed,2,Fix hidden input prompt
+588,2018-10-15 19:02:58.000000000,2018-10-15 19:14:55.000000000,closed,2,Terragrunt in Centos
+587,2018-10-15 13:01:35.000000000,2019-06-25 16:40:47.000000000,closed,5,get_parent_tfvars_dir not working
+586,2018-10-12 03:40:57.000000000,2019-05-09 14:43:40.000000000,closed,7,Add a command that prints the temporary directory.
+585,2018-10-11 22:38:23.000000000,2018-10-16 17:19:59.000000000,closed,9,terraform question output is hidden until after question is answered
+584,2018-10-07 14:58:53.000000000,2018-10-07 18:09:11.000000000,closed,1,Auto-Retry fix failing tests
+583,2018-10-03 14:41:37.000000000,2018-10-06 05:23:21.000000000,closed,5,Auto-Retry
+582,2018-10-02 12:13:24.000000000,2018-10-02 15:23:23.000000000,closed,1,GH-493 : handle CLI arguments
+581,2018-10-02 00:04:09.000000000,1970-01-01 00:00:00.000000001,open,9,Issues while running tests on Windows
+580,2018-10-01 13:26:09.000000000,1970-01-01 00:00:00.000000001,open,3,terragrunt conflicts with tfenv
+579,2018-09-30 00:28:36.000000000,2018-09-30 14:33:06.000000000,closed,2,Fix prevent_destroy flag for included configs
+578,2018-09-28 19:09:39.000000000,2018-10-01 19:02:23.000000000,closed,1,Install on Windows using Scoop
+577,2018-09-27 23:43:24.000000000,2018-10-01 15:17:09.000000000,closed,4,"GH-493: do not add -var or -var-file extra_arguments during ""apply"" if plan is provided"
+576,2018-09-27 16:19:04.000000000,2018-09-27 19:38:17.000000000,closed,1,Add a --quiet flag to suppress terragrunt-related output
+575,2018-09-24 20:45:00.000000000,2018-09-24 20:45:07.000000000,closed,0,Gruntwork io master
+574,2018-09-21 18:38:02.000000000,2018-09-25 11:32:30.000000000,closed,11,Workaround for string interpolation in tfvars files?
+573,2018-09-20 14:26:47.000000000,2018-09-20 18:56:56.000000000,closed,8,handling secrets provided by the variables.
+572,2018-09-18 23:40:00.000000000,2018-09-19 20:18:23.000000000,closed,4,Proposal: Manage Packer build state with Terragrunt?
+571,2018-09-17 13:10:03.000000000,1970-01-01 00:00:00.000000001,open,3,Terragrunt cache folder still contains deleted files in source folder
+570,2018-09-17 11:51:01.000000000,1970-01-01 00:00:00.000000001,open,2,Create logo for terragrunt
+569,2018-09-15 21:21:44.000000000,2018-09-16 15:11:41.000000000,closed,8,Shared credentials file support
+568,2018-09-15 03:21:33.000000000,2018-11-18 23:12:46.000000000,closed,3,terragrunt with multiple required terraform versions
+567,2018-09-14 04:07:18.000000000,2018-09-16 03:04:39.000000000,closed,9,configure s3 client session to support force_path_style
+566,2018-09-13 22:33:01.000000000,2018-09-14 04:06:18.000000000,closed,1,Support force_path_style in remote state configuration
+565,2018-09-13 04:04:30.000000000,2018-09-16 20:07:49.000000000,closed,11,Terragrunt does not support current S3 remote state configuration options
+564,2018-09-12 11:13:48.000000000,2018-09-12 15:28:05.000000000,closed,1,No way to escape ${ in terragrunt configuration file
+563,2018-09-07 19:54:05.000000000,2018-09-27 19:35:14.000000000,closed,15,implement exclude-dir cli flag
+562,2018-09-06 22:00:38.000000000,2018-09-07 15:13:38.000000000,closed,3,Terragrunt stops on debug
+561,2018-09-04 19:30:50.000000000,1970-01-01 00:00:00.000000001,open,12,Terragrunt cache bloats the disk usage really fast.
+560,2018-09-04 12:26:01.000000000,2018-09-30 14:43:43.000000000,closed,9,prevent_destroy is not working
+559,2018-09-01 01:49:28.000000000,2018-12-05 21:24:52.000000000,closed,4,Treat variables defined in leaf terraform.tfvars as the highest precedent variables
+558,2018-09-01 01:36:21.000000000,2018-09-01 01:42:53.000000000,closed,1,Allow configuration of lifecycle rules on automatic S3 remote state bucket
+557,2018-08-30 11:25:13.000000000,2018-08-30 16:44:49.000000000,closed,8,Interpolation variables in modules
+556,2018-08-30 01:24:20.000000000,1970-01-01 00:00:00.000000001,open,8,apply-all is failing due to lock on a terraform_remote_state object on azure
+555,2018-08-29 21:08:44.000000000,1970-01-01 00:00:00.000000001,open,1,Option to execute apply even if my before_hook fails
+554,2018-08-29 15:21:36.000000000,2020-02-10 15:06:11.000000000,closed,2,Install on Windows using chocolatey
+553,2018-08-29 14:51:43.000000000,2018-08-30 15:16:32.000000000,closed,3,Add env_vars to extra_arguments terraform block
+552,2018-08-28 21:14:52.000000000,2018-08-29 13:49:16.000000000,closed,0,Mention Linuxbrew as an installation method for Linux
+551,2018-08-28 20:43:19.000000000,2018-08-29 22:04:36.000000000,closed,3,brew install terragrunt referencing old version
+550,2018-08-28 01:57:25.000000000,2018-11-18 23:13:39.000000000,closed,1,How to run recursive terraform plan/apply in order across multiple directories
+549,2018-08-24 23:32:46.000000000,2018-08-27 23:46:55.000000000,closed,2,proper way of referencing resources between modules
+548,2018-08-22 03:03:02.000000000,2018-08-23 04:18:20.000000000,closed,2,How to reference resources created within same module
+547,2018-08-22 00:31:32.000000000,2018-08-22 02:11:53.000000000,closed,2,Import does not seem to accept variables in parent folders
+546,2018-08-21 01:42:08.000000000,2018-08-21 20:48:04.000000000,closed,2,how to pass tf_vars in terraform.tfvars
+545,2018-08-20 23:10:37.000000000,2018-08-21 20:50:56.000000000,closed,1,Chore/migrate to dep and circle 2
+544,2018-08-17 16:16:36.000000000,2019-06-10 16:01:17.000000000,closed,3,terragrunt processes content that's commented out in terraform.tfvars
+543,2018-08-14 20:59:35.000000000,1970-01-01 00:00:00.000000001,open,1,path_relative_to_include and symlinks
+542,2018-08-14 17:21:59.000000000,2018-08-15 02:19:00.000000000,closed,0,Speed up init usage
+541,2018-08-14 10:32:52.000000000,2018-08-14 14:16:09.000000000,closed,1,terragrunt apply-all destroy-all logs not easy to read
+540,2018-08-12 17:44:04.000000000,2018-08-15 13:30:01.000000000,closed,32,Adds options attribute to track state of the terraform command
+539,2018-08-11 18:32:53.000000000,2018-08-15 13:30:00.000000000,closed,2,after_hook on init command executes twice
+538,2018-08-10 13:56:45.000000000,2018-08-10 15:58:31.000000000,closed,4,Relay module output to use TF remote_state data source
+537,2018-08-08 22:02:53.000000000,2018-08-10 03:12:04.000000000,closed,4,terraform.tfvars plan is failing to reference internal modules
+536,2018-08-08 21:37:50.000000000,1970-01-01 00:00:00.000000001,open,10,"Read tfvars files that live in Terraform ""targets"""
+535,2018-08-08 03:10:07.000000000,2018-08-08 12:43:59.000000000,closed,2,Configure terragrunt-download-dir via environment variable
+534,2018-08-07 17:28:18.000000000,2018-08-07 17:28:57.000000000,closed,0,Add instructions on cleaning up .terragrunt-cache
+533,2018-08-03 19:44:30.000000000,2018-08-07 16:35:07.000000000,closed,11,Remote states variables in terraform.tfvars not taken into account
+532,2018-08-01 10:02:48.000000000,2018-08-02 16:21:33.000000000,closed,3,"[question] use ""TF_VAR_*"" with terragrunt "
+531,2018-08-01 01:17:18.000000000,2018-08-03 13:34:32.000000000,closed,5,Unsure how to update running infra
+530,2018-07-31 14:32:55.000000000,1970-01-01 00:00:00.000000001,open,13,Clearer documentation and examples in README.md
+529,2018-07-26 20:13:37.000000000,1970-01-01 00:00:00.000000001,open,10,infrastructure modules and duplication
+528,2018-07-25 18:32:26.000000000,1970-01-01 00:00:00.000000001,open,16,terragrunt --terragrunt-iam-role fails to assume role in Govcloud
+527,2018-07-24 04:38:58.000000000,2018-07-26 19:34:22.000000000,closed,3,Trying to use Terragrunt with Okta
+526,2018-07-18 14:19:50.000000000,1970-01-01 00:00:00.000000001,open,7,Remote state key
+525,2018-07-15 23:12:03.000000000,2018-07-21 15:12:43.000000000,closed,12,Add prevent_destroy flag
+524,2018-07-15 01:20:40.000000000,2019-09-25 17:58:33.000000000,closed,3,New behavior of terragrunt-non-interactive option is still wrong
+523,2018-07-14 17:09:12.000000000,2018-07-14 17:10:44.000000000,closed,0,Revert init changes
+522,2018-07-14 10:03:59.000000000,2018-07-14 17:10:44.000000000,closed,2,"Terragrunt does not download ""child"" modules in first init"
+521,2018-07-13 13:52:46.000000000,1970-01-01 00:00:00.000000001,open,2,apply-all  can result in confirmation duplication
+520,2018-07-11 20:23:38.000000000,2018-07-15 00:07:30.000000000,closed,5,Problems to pull remote modules from git
+519,2018-07-11 16:59:02.000000000,2018-07-11 17:13:08.000000000,closed,0,"Fix xxx-all commands, attempt #2"
+518,2018-07-10 15:33:15.000000000,2018-07-10 15:42:43.000000000,closed,0,Exclude terragrunt-cache from xxx-all commands
+517,2018-07-10 12:56:06.000000000,2018-07-11 17:13:08.000000000,closed,6,validate-all broken since v0.16.0
+516,2018-07-08 19:19:03.000000000,2018-07-09 03:37:38.000000000,closed,10,Change how Terragrunt downloads remote Terraform configurations
+515,2018-07-08 01:12:55.000000000,2018-07-08 14:15:39.000000000,closed,2,Put module cache in home directory on Windows.
+514,2018-07-06 21:34:05.000000000,1970-01-01 00:00:00.000000001,open,17,"terragrunt state pull throws an ""unexpected end of JSON input"" error"
+513,2018-07-06 16:08:55.000000000,2018-07-09 03:37:37.000000000,closed,1,Write source modules to pwd
+512,2018-07-06 06:23:46.000000000,2018-07-08 14:15:39.000000000,closed,7,downloaded modules missing from cache
+511,2018-07-05 19:30:27.000000000,2020-05-10 15:11:01.000000000,closed,3,plan-all results in connections to code commit being trottled
+510,2018-07-05 12:20:36.000000000,1970-01-01 00:00:00.000000001,open,1,[question] Is there a definitive guide of Terragrunt to Terraform versions
+509,2018-07-05 10:11:05.000000000,2018-07-05 14:46:57.000000000,closed,6,[question] Hard coding the remote_state bucket name
+508,2018-07-03 04:39:48.000000000,2018-07-03 08:50:46.000000000,closed,2,don't add optional_var_files when running apply with plan
+507,2018-07-03 03:59:28.000000000,1970-01-01 00:00:00.000000001,open,8,Do you want to copy existing state to the new backend?
+506,2018-07-03 02:27:28.000000000,2018-07-03 02:42:05.000000000,closed,0,Fix nil pointer
+505,2018-07-03 02:00:40.000000000,2018-07-03 02:42:05.000000000,closed,4,v0.15.1 runtime error
+504,2018-07-03 01:18:46.000000000,2018-07-03 12:56:15.000000000,closed,3,Unable to run terragrunt plan on different machine
+503,2018-07-02 16:40:25.000000000,2018-10-06 05:23:45.000000000,closed,1,GH #388 -- describe auto-retry;
+502,2018-07-02 14:13:43.000000000,2018-07-02 14:35:56.000000000,closed,0,Fix NeedsInit method
+501,2018-07-02 09:01:32.000000000,2018-07-02 14:35:56.000000000,closed,2,`dynamodb_table_tags` and `s3_bucket_tags` cause remote state to always reinitialize
+500,2018-07-01 17:36:37.000000000,2018-07-01 18:02:00.000000000,closed,0,Move bucket creation check
+498,2018-07-01 13:17:34.000000000,2018-07-01 16:34:43.000000000,closed,1,Add minimum IAM policy permissions example
+497,2018-07-01 02:41:28.000000000,2018-07-01 15:52:35.000000000,closed,1,Reverse the dependency questions to match non-interactive behavior
+496,2018-06-30 22:16:28.000000000,2018-07-01 00:35:59.000000000,closed,2,Terragrunt plan-all fails in case of dependencies
+495,2018-06-29 00:30:05.000000000,1970-01-01 00:00:00.000000001,open,2,terragrunt's --assume-role option and sts token expiration in terraform (default one hour duration)
+494,2018-06-27 23:25:18.000000000,1970-01-01 00:00:00.000000001,open,6,Unable to run Plan and Apply on different machines
+493,2018-06-27 15:01:02.000000000,2018-10-01 15:17:09.000000000,closed,24,Disable -var and -var-file flags when running terragrunt apply with a plan file
+492,2018-06-23 03:20:18.000000000,1970-01-01 00:00:00.000000001,open,2,Add support for a generic xxx-all command
+491,2018-06-22 01:58:56.000000000,1970-01-01 00:00:00.000000001,open,1,"Clarification on Relationship between Modules, Components, and Deploy project"
+490,2018-06-19 16:44:47.000000000,1970-01-01 00:00:00.000000001,open,2,How to upgrade Terraform provider plugins and modules
+489,2018-06-15 02:55:44.000000000,2018-11-18 23:14:53.000000000,closed,1,"Add ""prevent destroy"" to Terragrunt"
+488,2018-06-13 23:26:55.000000000,2018-06-15 13:53:46.000000000,closed,7,WIP: Allow tagging of s3 bucket and dynamo db
+487,2018-06-12 20:11:29.000000000,2018-06-17 10:45:42.000000000,closed,7,Tagging for DynamoDB table and S3 Bucket
+486,2018-06-11 18:03:11.000000000,1970-01-01 00:00:00.000000001,open,13,apply-all and auto-approve is a dangereous combination.
+485,2018-06-01 19:42:44.000000000,2018-06-01 22:25:02.000000000,closed,3,viewing state with terragrunt
+484,2018-05-31 00:00:17.000000000,2018-11-18 23:15:01.000000000,closed,1,"Links are not copied - results in ""no such file or directory"""
+483,2018-05-29 20:47:42.000000000,2018-05-30 20:28:52.000000000,closed,0,Changing SSH host key guidance.
+482,2018-05-29 13:12:53.000000000,2018-05-29 16:29:23.000000000,closed,0,fix `terraform apply` command in README
+481,2018-05-24 13:17:32.000000000,1970-01-01 00:00:00.000000001,open,3,Terragrunt does not cleanup all files in work directory
+480,2018-05-21 23:19:19.000000000,2018-05-21 23:41:29.000000000,closed,5,Question: Use terragrunt with other providers (Vmware/google...)
+479,2018-05-19 09:16:50.000000000,1970-01-01 00:00:00.000000001,open,2,prevent --terragrunt-source overrides in prod templates via terragrunt block
+478,2018-05-15 11:14:10.000000000,2018-11-18 23:15:35.000000000,closed,11,Terragrunt assume role doesn't have MFA options
+477,2018-05-14 04:17:50.000000000,1970-01-01 00:00:00.000000001,open,14,Terragrunt should default to env var for remote state config profile
+476,2018-05-09 18:44:08.000000000,1970-01-01 00:00:00.000000001,open,5,Terragrunt checks for S3 bucket before Token expiration
+475,2018-05-08 18:09:00.000000000,2018-05-08 18:39:40.000000000,closed,3,"tfvars not copied if working directory begins with ""."""
+474,2018-05-08 02:30:46.000000000,2018-05-30 03:50:48.000000000,closed,2,get_aws_account_id() and named AWS profiles with role_arn
+473,2018-05-06 23:42:52.000000000,2018-05-07 01:32:50.000000000,closed,1,Bugfix: show help for terraform commands
+472,2018-05-05 01:11:07.000000000,1970-01-01 00:00:00.000000001,open,2,Feature request: semver constraints for module references.
+471,2018-05-04 20:30:51.000000000,2018-07-01 17:14:53.000000000,closed,7,apply-all -  External dependency resolution is a mess of inconsistent prompts
+470,2018-04-30 19:11:52.000000000,2020-01-08 02:30:25.000000000,closed,4,Allow s3 remote state key to be configured in child
+469,2018-04-28 03:30:20.000000000,2018-04-29 17:17:15.000000000,closed,5,Merge before_hook and after_hook block from child to parent .tfvars
+468,2018-04-27 19:17:26.000000000,2018-05-02 17:48:24.000000000,closed,5,"Removes Terragrunt's requirement for ""//"" in all module sources when using --terragrunt-source"
+467,2018-04-27 15:55:31.000000000,2018-04-29 17:17:15.000000000,closed,5,Hooks are not merged when including parent config
+466,2018-04-26 21:44:24.000000000,2019-06-10 15:48:25.000000000,closed,62,Upgrading to Terraform 0.12: separate configuration file for Terragrunt?
+465,2018-04-24 02:01:17.000000000,2018-04-24 02:40:07.000000000,closed,1,Interpolation in tfvars files causes issues even when escaping varables
+464,2018-04-20 19:46:09.000000000,2018-04-21 11:39:47.000000000,closed,5,Pass env var to the `-var` but get error
+463,2018-04-19 16:16:52.000000000,2020-06-15 13:55:23.000000000,closed,3,"Run hooks conditionally (based on OS type, for example)"
+462,2018-04-12 20:14:38.000000000,2018-04-13 16:26:02.000000000,closed,2,Override map variable declared inside parent .tfvars
+461,2018-04-09 22:06:45.000000000,1970-01-01 00:00:00.000000001,open,5,path_relative_to_include() variant working where the include block is defined
+460,2018-04-05 18:06:56.000000000,2018-04-06 17:21:44.000000000,closed,1,Issue 459 fix
+459,2018-04-04 18:40:13.000000000,2018-04-06 17:21:47.000000000,closed,2,After init hook does not run unless run_on_error = true is set
+458,2018-03-30 18:55:00.000000000,1970-01-01 00:00:00.000000001,open,2,interleaving in `output-all -json` results in malformed JSON output
+457,2018-03-29 21:03:31.000000000,2018-03-30 16:06:29.000000000,closed,3,Make it possible to apply a specific plan file
+456,2018-03-29 18:51:51.000000000,1970-01-01 00:00:00.000000001,open,2,Better handling of Terraform plan output
+455,2018-03-29 16:30:22.000000000,2018-03-29 16:54:35.000000000,closed,0,Preserve Terraform exit code with MutliError
+454,2018-03-28 23:12:33.000000000,1970-01-01 00:00:00.000000001,open,8,Need some way to specify where extra arguments are placed
+453,2018-03-28 21:44:52.000000000,1970-01-01 00:00:00.000000001,open,9,using before_hooks to prepare .tfvars files before terraform commands
+452,2018-03-28 20:11:46.000000000,1970-01-01 00:00:00.000000001,open,1,pwd() interpolation helper
+451,2018-03-28 17:14:23.000000000,2018-03-29 16:54:35.000000000,closed,5,Regression in --detailed-exitcode with Terragrunt v0.14.4 and later
+450,2018-03-28 14:21:28.000000000,2018-03-28 14:28:07.000000000,closed,0,Remove unnecessary logging
+449,2018-03-28 04:39:00.000000000,2018-03-28 14:28:07.000000000,closed,2,"""terragrunt plan"" dumps tons of environment variables in its output now"
+448,2018-03-27 16:14:27.000000000,2018-03-27 17:07:42.000000000,closed,0,Fix nil pointer dereference in hooks validation
+447,2018-03-23 09:37:50.000000000,2018-09-15 21:24:09.000000000,closed,6,Having very odd git issue with terragrunt and git source
+446,2018-03-23 03:22:24.000000000,2018-03-23 03:54:14.000000000,closed,1,Running Terragrunt with non-interactive flag inside Docker container
+445,2018-03-22 21:20:18.000000000,2018-05-02 17:48:24.000000000,closed,18,Possible to use --terragrunt-source with modules stored in git repo root?
+444,2018-03-20 23:22:03.000000000,1970-01-01 00:00:00.000000001,open,4,--terragrunt-source with multiple Terraform repos
+443,2018-03-20 17:50:20.000000000,2018-03-20 17:59:03.000000000,closed,0,Automatically run init if providers aren't downloaded
+442,2018-03-20 17:43:00.000000000,2018-03-20 17:59:02.000000000,closed,0,Terragrunt not calling init automatically to download providers
+441,2018-03-20 14:39:08.000000000,2018-08-17 15:50:38.000000000,closed,2,Is GCS supported as remote state ?
+440,2018-03-19 19:04:23.000000000,1970-01-01 00:00:00.000000001,open,2,Terragrunt is always downloading the last version of the modules
+439,2018-03-19 04:51:22.000000000,2018-03-27 15:40:25.000000000,closed,9,Terragrunt hooks
+438,2018-03-17 03:27:06.000000000,1970-01-01 00:00:00.000000001,open,3,Terragrunt doesn't die when given misspelled root command: 'paln-all'
+437,2018-03-15 16:36:29.000000000,2018-03-15 16:41:16.000000000,closed,1,Hidden file not copied
+436,2018-03-13 18:49:44.000000000,2018-03-13 18:55:31.000000000,closed,1,terragrunt plan-all with dependencies and terraform_remote_state
+435,2018-03-13 18:21:29.000000000,2018-03-13 18:53:55.000000000,closed,2,Error when run plan-all with cross-references between modules
+434,2018-03-09 05:08:25.000000000,2018-03-09 09:31:45.000000000,closed,1,.
+433,2018-03-08 17:17:05.000000000,1970-01-01 00:00:00.000000001,open,17,Remove resources on folder level
+432,2018-03-07 23:09:44.000000000,1970-01-01 00:00:00.000000001,open,16,Option for less verbose output
+431,2018-03-07 21:45:50.000000000,1970-01-01 00:00:00.000000001,open,1,Clean up plan-all output
+430,2018-03-06 00:19:24.000000000,2018-03-06 01:17:44.000000000,closed,2,[Question] Terragrunt not finding security group when applying security group rule
+429,2018-03-05 11:36:22.000000000,2020-01-08 02:29:16.000000000,closed,4,Please update readme.md
+428,2018-03-01 21:57:07.000000000,2018-03-02 00:23:24.000000000,closed,8,plan files left behind in temp directories
+427,2018-03-01 18:35:30.000000000,2018-03-07 17:29:57.000000000,closed,9,"""--terragrunt-non-interactive"" doesnt work with terragrunt version v0.13.23"
+426,2018-02-27 22:06:00.000000000,2018-02-27 22:44:57.000000000,closed,4,Bug fix: If S3 endpoint is not specified use default resolver 
+425,2018-02-27 22:02:54.000000000,2018-02-27 22:03:29.000000000,closed,1,Bug fix: If S3 endpoint is not specified use default resolver
+424,2018-02-27 05:06:54.000000000,2018-02-27 06:40:02.000000000,closed,3,How to pass local path to SOURCE of main.tf! BIG-TEAM workflow
+423,2018-02-27 03:00:21.000000000,2018-03-13 18:56:37.000000000,closed,8,terragrunt does not use correct terraform version with asdf
+422,2018-02-26 20:18:28.000000000,2018-02-27 21:30:29.000000000,closed,10,Added support for endpoint and credentials variables in S3 remote state 
+421,2018-02-26 13:06:21.000000000,2018-02-27 11:25:01.000000000,closed,4,"Terragrunt not applying any changes, even from new"
+420,2018-02-24 09:09:25.000000000,2018-02-25 04:20:36.000000000,closed,5,Fix out of bounds slice issue on TerraformCliArgs
+419,2018-02-16 20:32:23.000000000,1970-01-01 00:00:00.000000001,open,0,Booleans as strings in configuration requires terragrunt to reinitialize every time
+418,2018-02-16 00:51:16.000000000,2019-08-15 20:26:56.000000000,closed,49,Would it be possible to add a get_output interpolation syntax function
+417,2018-02-15 16:52:01.000000000,2019-06-16 12:54:48.000000000,closed,5,Add support for basic interpolation functions
+416,2018-02-15 11:36:33.000000000,2018-02-24 04:28:39.000000000,closed,4,WIP: fix slice out of bounds on tf cli args
+415,2018-02-13 15:42:46.000000000,2018-02-13 16:46:01.000000000,closed,1,Using Output from differnt module
+414,2018-02-09 21:59:53.000000000,2018-02-09 23:33:52.000000000,closed,3,terragrunt plan -refresh=true vs. terragrunt plan -refresh=false
+413,2018-02-06 15:39:08.000000000,2018-02-13 16:43:28.000000000,closed,2,Working with multiple accounts
+412,2018-02-02 22:06:34.000000000,1970-01-01 00:00:00.000000001,open,4,Tooling to Enforce good workflow?
+411,2018-02-02 03:23:54.000000000,2018-02-25 04:20:36.000000000,closed,1,Bug in CLI arg parsing
+410,2018-02-01 03:31:26.000000000,2018-02-01 03:49:22.000000000,closed,1,"Someone pin the TOC repo, please.  It's a PITA to search for it when it drops to the bottom"
+409,2018-01-27 05:04:54.000000000,2018-02-13 00:00:06.000000000,closed,7,Terragrunt doesn't work correctly with asdf installer
+408,2018-01-27 00:43:12.000000000,1970-01-01 00:00:00.000000001,open,4,Use XDG directories for cache
+407,2018-01-25 14:41:57.000000000,2018-01-25 16:50:24.000000000,closed,2,Appending -auto-approve to apply-all command to silence prompts
+406,2018-01-24 03:05:04.000000000,2018-01-24 22:11:55.000000000,closed,6,--terragrunt-source doesn't work for terragrunt *-all commands
+405,2018-01-21 12:07:05.000000000,2018-01-21 19:03:46.000000000,closed,0,add install with asdf
+404,2018-01-18 13:23:00.000000000,1970-01-01 00:00:00.000000001,open,8,Add color to `terragrunt apply` output
+403,2018-01-17 23:28:18.000000000,2018-01-19 16:10:59.000000000,closed,1,Fix of issue #402: load given state file when specified.
+402,2018-01-11 20:39:39.000000000,2018-03-07 21:48:47.000000000,closed,4,Getting json.SyntaxError unexpected end of JSON input
+401,2018-01-11 01:54:08.000000000,2018-01-12 02:31:12.000000000,closed,2,Extend remote_state backend check to include *.tf.json files
+400,2017-12-28 15:08:03.000000000,2017-12-29 01:18:30.000000000,closed,1,What strategies are people using to display human friendly terragrunt plan-all output ?
+399,2017-12-27 09:09:58.000000000,2018-01-02 04:34:51.000000000,closed,4,Terragrunt state files custom location
+398,2017-12-18 16:38:56.000000000,2017-12-18 21:54:04.000000000,closed,12,How do I build terragrunt locally?
+397,2017-12-18 16:37:33.000000000,2020-06-23 15:39:36.000000000,closed,23,"Getting ""Error with plan:"" for (nearly) all modules"
+396,2017-12-14 06:36:17.000000000,2017-12-15 03:53:35.000000000,closed,4,temporary credentials expiring while holding state lock = BAD
+395,2017-12-12 00:44:26.000000000,2018-03-13 18:58:27.000000000,closed,4,More than one terragrunt repository managing infrastructure in one AWS account?
+394,2017-12-11 20:20:44.000000000,1970-01-01 00:00:00.000000001,open,12,terragrunt not copying doted files (.something) from working dir in temp dir
+393,2017-12-10 22:08:27.000000000,2020-01-08 02:30:47.000000000,closed,5,allowing get_env() to run without the `DEFAULT` argument
+392,2017-12-08 11:21:23.000000000,2020-01-08 02:28:32.000000000,closed,1,WIP: building out Github Pages Website
+391,2017-12-07 20:59:14.000000000,1970-01-01 00:00:00.000000001,open,5,"allow get_env() to work without a ""default"" argument"
+390,2017-12-06 21:27:03.000000000,1970-01-01 00:00:00.000000001,open,3,"Terraform ""-no-color"" option not passed to terraform init"
+389,2017-12-06 20:40:11.000000000,2018-03-13 18:58:52.000000000,closed,3,s3 backend configuration not as DRY as can be expected 
+388,2017-12-02 06:15:24.000000000,1970-01-01 00:00:00.000000001,open,7,Terragrunt should detect missing module and provider download errors and automatically re-run init to fix them
+387,2017-12-01 21:00:55.000000000,2017-12-01 21:06:42.000000000,closed,0,Add TERRAGRUNT_SOURCE_UPDATE env var
+386,2017-12-01 11:00:42.000000000,2018-01-25 16:59:53.000000000,closed,14,apply-all does not set auto-approve parameter
+385,2017-11-30 23:56:22.000000000,2018-02-14 17:34:18.000000000,closed,2,Terragrunt + terraform_remote_state
+384,2017-11-30 15:07:02.000000000,2018-03-13 18:50:31.000000000,closed,2,"Relative paths within modules excluding ""source"" parameter"
+383,2017-11-27 17:23:03.000000000,2017-11-27 23:25:06.000000000,closed,10,Restore IsRemote() check when comparing backend
+382,2017-11-23 22:52:50.000000000,2017-11-24 04:55:22.000000000,closed,6,configuring session's credentials in getAWSAccountId() when assuming …
+381,2017-11-23 07:46:41.000000000,2018-03-13 18:59:14.000000000,closed,2,[Enhancement] Variable Precedence
+380,2017-11-23 06:24:27.000000000,2017-11-23 18:49:45.000000000,closed,2,have --terragrunt-source work with absolute path
+379,2017-11-23 06:04:00.000000000,2017-11-24 05:10:28.000000000,closed,20,get_aws_account_id() to fetch the role's account id instead of aws profile's account id
+378,2017-11-20 20:46:20.000000000,1970-01-01 00:00:00.000000001,open,2,Terragrunt doesn't de-dupe external dependencies for confirmation prompts
+377,2017-11-19 21:38:31.000000000,2018-04-24 02:39:09.000000000,closed,9,Proposal: Terragrunt hooks
+376,2017-11-16 23:53:17.000000000,2017-11-17 16:26:12.000000000,closed,7,inconsistent apply and destroy with ci
+375,2017-11-16 22:58:30.000000000,2017-11-17 04:24:49.000000000,closed,1,doc TF_INPUT feature
+374,2017-11-16 22:47:10.000000000,2017-11-17 04:24:25.000000000,closed,0,clarify what include includes
+373,2017-11-16 06:31:39.000000000,2017-12-04 04:57:12.000000000,closed,12,Can dependent modules reference other modules objects via interpolation?
+372,2017-11-16 01:09:32.000000000,2017-11-16 02:51:15.000000000,closed,3,No way to set specific tags on specific resources when using gruntworks modules
+371,2017-11-15 03:47:26.000000000,2017-11-15 03:59:08.000000000,closed,4,locks don't timeout as advertised
+370,2017-11-13 10:44:28.000000000,2018-01-21 19:03:46.000000000,closed,4,version manager and installer
+369,2017-11-12 19:53:12.000000000,2017-11-12 20:08:55.000000000,closed,0,"Fix concurrent map writes, test failures on master, and S3 bucket cleanup"
+368,2017-11-12 02:22:24.000000000,1970-01-01 00:00:00.000000001,open,16,misunderstanding  required_var_files
+367,2017-11-11 22:01:12.000000000,2017-11-12 20:08:55.000000000,closed,0,panic: concurrent map writes
+366,2017-11-11 20:41:56.000000000,2017-11-13 16:47:29.000000000,closed,2,optionally check env var TF_INPUT to set interactive mode
+365,2017-11-11 11:56:25.000000000,2017-11-17 04:24:25.000000000,closed,3,missing vars from included file
+364,2017-11-11 06:21:33.000000000,1970-01-01 00:00:00.000000001,open,4,aws cred error when aws is not used
+363,2017-11-11 05:11:40.000000000,2017-11-13 16:47:29.000000000,closed,4,$TF_INPUT for automation
+362,2017-11-10 04:44:24.000000000,2017-11-12 20:08:55.000000000,closed,11,Test failures on master
+361,2017-11-10 04:21:58.000000000,2017-11-10 04:27:23.000000000,closed,2,Fix data race
+360,2017-11-10 04:18:53.000000000,2017-11-10 04:21:01.000000000,closed,0,"Fix ""go vet"" problems"
+359,2017-11-09 23:59:57.000000000,2017-11-10 09:22:45.000000000,closed,2,working directory exclude or glob?
+358,2017-11-09 21:52:06.000000000,2017-11-12 20:08:55.000000000,closed,4,Terragrunt tests are not properly cleaning up S3 buckets after themselves
+357,2017-11-09 20:55:28.000000000,2017-11-09 21:41:32.000000000,closed,0,Add Gruntwork Community Forum to README
+356,2017-11-09 20:00:40.000000000,2017-11-09 20:11:40.000000000,closed,4,State locking no longer required or supported?
+355,2017-11-09 19:44:33.000000000,2018-09-27 19:49:08.000000000,closed,23,"ignore specified modules when running xxx-all commands (plan-all, apply-all, etc.)"
+354,2017-11-09 08:49:40.000000000,2017-11-09 20:07:18.000000000,closed,4,cache and ci
+353,2017-11-09 01:10:26.000000000,2017-11-09 01:17:30.000000000,closed,4,order of 'all' cmds?
+352,2017-11-08 19:54:00.000000000,2019-05-09 14:43:40.000000000,closed,10,How can i know the path to the temporary folder ?
+351,2017-11-08 04:03:10.000000000,2018-03-13 19:02:07.000000000,closed,15,passing in bucket name for multiple remote states
+350,2017-11-07 18:17:27.000000000,2017-11-07 18:41:20.000000000,closed,1,Multiple terraform modules in terragrunt configuration
+349,2017-11-07 15:49:37.000000000,1970-01-01 00:00:00.000000001,open,3,Incorrect Usage. flag provided but not defined: -terragrunt-iam-role
+348,2017-11-07 07:27:19.000000000,2017-11-13 06:01:11.000000000,closed,7,Data race when shutting down terragrunt
+347,2017-11-07 04:27:54.000000000,2017-11-07 04:36:13.000000000,closed,1,Add terragrunt-iam-role to help text
+346,2017-11-07 03:43:32.000000000,2017-11-07 04:36:13.000000000,closed,1,--terragrunt-iam-role not showing up in terragrunt --help
+345,2017-11-06 19:31:04.000000000,2017-11-06 19:39:05.000000000,closed,1,Module outputs in terraform.tfvars file
+344,2017-11-03 02:22:22.000000000,1970-01-01 00:00:00.000000001,open,3,Allow S3 backend key to be defined in child
+343,2017-11-02 23:38:10.000000000,2018-03-13 19:03:19.000000000,closed,2,implement DRY utility functionality to avoid copying module inputs and outputs to templates.
+342,2017-11-02 22:29:23.000000000,2017-11-13 06:00:45.000000000,closed,8,Test failure when attempting to run tests on master
+341,2017-11-02 21:06:52.000000000,2017-11-02 21:23:11.000000000,closed,1,Update docs about Terragrunt caching
+340,2017-11-01 08:21:34.000000000,2017-11-03 22:53:06.000000000,closed,6,Chore/use $HOME/.terragrunt for downloadDir [resolves #334]
+339,2017-11-01 06:43:54.000000000,2019-05-01 21:47:26.000000000,closed,0,Fix the situation where get_parent_tfvars() is called from within the…
+338,2017-11-01 02:13:04.000000000,2020-01-08 02:31:17.000000000,closed,11,Remove subdirectories before copying files to them
+337,2017-11-01 01:34:29.000000000,1970-01-01 00:00:00.000000001,open,3,Permission error when trying to copy read-only file
+336,2017-10-31 23:58:20.000000000,1970-01-01 00:00:00.000000001,open,1,Tests require clean AWS credentials
+335,2017-10-31 23:43:11.000000000,2017-11-01 04:08:10.000000000,closed,7,Update glide.lock
+334,2017-10-31 23:06:11.000000000,2017-11-03 22:53:08.000000000,closed,1,Use a more permanent cache directory
+333,2017-10-31 01:01:42.000000000,2018-03-13 18:51:05.000000000,closed,2,terragrunt output comingled into stdout
+332,2017-10-30 19:09:43.000000000,1970-01-01 00:00:00.000000001,open,16,can't get get_parent_tfvars_dir() to work
+331,2017-10-28 02:16:53.000000000,2017-10-28 02:33:35.000000000,closed,0,"Fix two bugs: recursive dependencies, concurrent S3 errors"
+330,2017-10-27 14:43:08.000000000,2017-10-27 16:55:49.000000000,closed,9,pass a file as an argument to a terraform module
+329,2017-10-26 18:08:53.000000000,2019-06-10 16:05:13.000000000,closed,6,Ability to manipulate workspaces in all subdirectories
+328,2017-10-25 20:10:33.000000000,1970-01-01 00:00:00.000000001,open,6,Allowing for terragrunt include to come from a git source?
+327,2017-10-22 17:21:32.000000000,2017-10-22 17:28:04.000000000,closed,0,Don't silently swallow errors during xxx-all methods
+326,2017-10-21 08:10:02.000000000,2018-03-13 19:04:17.000000000,closed,9,Caching STS Credentials with IAM Role
+325,2017-10-19 20:25:56.000000000,2017-10-19 20:41:36.000000000,closed,0,The xxx-all commands can now use --terragrunt-source
+324,2017-10-19 18:38:28.000000000,2017-10-19 19:12:48.000000000,closed,0,Add validate-all command
+323,2017-10-18 20:23:34.000000000,2017-10-18 21:05:36.000000000,closed,0,Add ability to assume an IAM role
+322,2017-10-18 02:34:27.000000000,2017-10-18 02:52:20.000000000,closed,7,Add support for role_arn
+321,2017-10-17 19:32:59.000000000,2017-10-17 20:27:10.000000000,closed,0,Add a fallback param to find_in_parent_folders
+320,2017-10-16 18:01:10.000000000,2017-10-16 19:17:36.000000000,closed,1,Allow specifying a parameter for find_in_parent_folders
+319,2017-10-15 15:57:52.000000000,2018-11-18 23:11:45.000000000,closed,1,Add support for setting env vars to extra_arguments
+318,2017-10-14 00:29:37.000000000,2020-01-08 02:32:08.000000000,closed,5,remote: Check whether input is a TTY before prompting
+317,2017-10-13 23:59:13.000000000,1970-01-01 00:00:00.000000001,open,3,Don't prompt for yes/no answer if input is not a TTY
+316,2017-10-12 19:53:52.000000000,2017-11-27 23:25:06.000000000,closed,11,"Crash: ""runtime error: invalid memory address or nil pointer dereference"""
+315,2017-10-12 08:29:47.000000000,1970-01-01 00:00:00.000000001,open,7,"""terragrunt plan [directory]"" does not forward through directory argument"
+314,2017-10-12 08:22:34.000000000,2018-05-07 01:41:59.000000000,closed,5,Support `--help` flag
+313,2017-10-12 00:39:38.000000000,2018-03-13 19:04:48.000000000,closed,8,Support new terraform plugin cache dir
+312,2017-10-09 23:32:45.000000000,1970-01-01 00:00:00.000000001,open,6,"""terragrunt version"" prints interesting output"
+311,2017-10-07 18:28:29.000000000,1970-01-01 00:00:00.000000001,open,59,Make it possible to use modules from Terraform Registry
+310,2017-10-06 21:06:11.000000000,2018-03-13 18:51:37.000000000,closed,3,terraform.tfstate doubling in size
+309,2017-10-05 20:24:15.000000000,2017-10-05 20:34:18.000000000,closed,1,Add support for dynamodb_table param
+308,2017-10-05 19:42:14.000000000,2017-10-05 20:13:43.000000000,closed,1,Fix how Terragrunt checks for remote state initialization
+307,2017-10-04 20:01:22.000000000,2017-10-04 21:05:19.000000000,closed,0,Include does not work
+306,2017-10-04 19:42:26.000000000,2019-06-16 12:55:30.000000000,closed,5,Interpolation of get_env cannot contain other functions
+305,2017-10-04 18:20:57.000000000,1970-01-01 00:00:00.000000001,open,8,Proposal of a new function get_root_dir
+304,2017-10-04 03:06:42.000000000,2018-03-13 19:05:05.000000000,closed,3,"Backend keeps changing, can't handle input"
+303,2017-10-02 18:50:03.000000000,1970-01-01 00:00:00.000000001,open,38,Only one level of includes is allowed
+302,2017-09-30 00:41:38.000000000,2017-09-30 01:33:35.000000000,closed,1,Check that a backend is defined if remote_state settings are defined
+301,2017-09-29 23:58:20.000000000,2017-09-30 00:04:06.000000000,closed,1,Make sure Terragrunt redownloads code if no .tf files in tmp folder
+300,2017-09-29 13:47:54.000000000,2017-10-03 12:35:58.000000000,closed,2,Handling relative paths in modules
+299,2017-09-27 23:54:48.000000000,1970-01-01 00:00:00.000000001,open,2,Destroy command should automatically warn about dependencies
+298,2017-09-22 15:01:28.000000000,2017-09-29 12:02:55.000000000,closed,2,creating multiple instances of modules in a single environment?
+297,2017-09-22 14:57:36.000000000,2018-03-13 19:05:48.000000000,closed,15,separate repos and module-module data sharing
+296,2017-09-21 11:49:54.000000000,2017-09-21 21:54:14.000000000,closed,1,`glide install` failure on case-insensitive file system
+295,2017-09-18 16:27:12.000000000,2017-09-18 20:58:12.000000000,closed,8,get_env() doesn't interpolate paths correctly
+294,2017-09-17 17:26:19.000000000,1970-01-01 00:00:00.000000001,open,1,output-all fails when one of the modules on the root dir doesn't have outputs
+293,2017-09-14 05:46:16.000000000,2017-09-16 04:28:46.000000000,closed,6,Python wrapper
+292,2017-09-13 19:23:35.000000000,1970-01-01 00:00:00.000000001,open,3,New interpolation function for plan files
+291,2017-09-10 17:44:42.000000000,2017-09-10 17:55:45.000000000,closed,3,Logging output during terragrunt output makes some scripting difficult
+290,2017-09-09 08:39:34.000000000,2017-10-18 02:52:20.000000000,closed,3,Use role_arn in S3 backend
+289,2017-09-08 18:40:58.000000000,2017-09-30 00:01:58.000000000,closed,5,"Random ""no suitable version installed"""
+288,2017-09-08 15:19:04.000000000,2017-09-08 15:51:30.000000000,closed,3,Sharing files between modules
+287,2017-09-06 23:31:31.000000000,2017-09-07 00:27:39.000000000,closed,1,Terragrunt overrides global plugins
+286,2017-09-06 21:59:01.000000000,2017-09-08 15:37:20.000000000,closed,7,Proposed enhancement for stitching together multiple modules
+285,2017-09-05 23:35:56.000000000,2018-03-13 19:06:18.000000000,closed,3,Enforce workflows with Terragrunt
+284,2017-09-05 09:05:28.000000000,2017-09-05 09:11:00.000000000,closed,1,Remote state not being written to
+283,2017-09-04 21:42:35.000000000,2017-09-04 21:44:13.000000000,closed,1,fixing typo
+282,2017-09-03 18:37:45.000000000,2017-09-03 18:58:36.000000000,closed,1,Ensure Terragrunt doesn't pollute stdout
+281,2017-09-02 19:35:48.000000000,1970-01-01 00:00:00.000000001,open,4,Add an http backend provider that can do encryption
+280,2017-09-02 18:40:58.000000000,2018-03-13 19:06:33.000000000,closed,2,Pre-installing Plugins
+279,2017-09-01 02:11:23.000000000,2018-07-09 03:37:37.000000000,closed,0,Using init for downloading code is slow with Terraform 0.10.x
+278,2017-09-01 01:21:11.000000000,2017-09-01 02:06:57.000000000,closed,1,Fix working dir
+277,2017-08-31 18:27:30.000000000,2017-09-18 08:53:44.000000000,closed,18,Have test case for showing that plan-all swallows error messages
+276,2017-08-31 00:12:57.000000000,2017-09-29 23:53:38.000000000,closed,2,Improper capture/replace of stderr
+275,2017-08-30 22:37:28.000000000,2018-03-13 18:52:00.000000000,closed,5,Terragrunt breaks after git commit
+274,2017-08-30 18:08:55.000000000,1970-01-01 00:00:00.000000001,open,1,-out switch writes plan file to temp dir
+273,2017-08-29 13:24:54.000000000,2017-10-19 20:41:36.000000000,closed,2,Enable more dynamic source attribute
+272,2017-08-26 20:38:21.000000000,1970-01-01 00:00:00.000000001,open,0,Terragrunt should check dependencies on every command
+271,2017-08-25 21:29:16.000000000,2018-03-13 19:07:46.000000000,closed,2,Terragrunt doesn't handle gitflow-style branch names with intervening '/' components
+270,2017-08-25 04:57:37.000000000,2017-10-05 20:24:55.000000000,closed,5,Replace lock_table config option with dynamodb_table
+269,2017-08-24 13:47:52.000000000,2017-10-05 20:35:41.000000000,closed,13,lock_table deprecated
+268,2017-08-23 03:11:15.000000000,2017-09-01 00:57:15.000000000,closed,4,"terraform executable file not found in $PATH, but it is there... in the $PATH"
+267,2017-08-18 11:48:26.000000000,2017-08-18 17:03:50.000000000,closed,1,`terragrunt import` does not persist
+266,2017-08-17 21:22:00.000000000,2017-09-30 00:05:37.000000000,closed,9,No Terraform configuration files found in directory
+265,2017-08-16 15:32:53.000000000,1970-01-01 00:00:00.000000001,open,7,Supplying custom terraform binary via --terragrunt-tfpath breaks terraform
+264,2017-08-16 01:38:37.000000000,2017-08-16 17:38:46.000000000,closed,3,Executing plan with hidden directory fails
+263,2017-08-07 23:26:05.000000000,2017-10-25 05:37:07.000000000,closed,5,Remote backend config from multiple backend.conf files
+262,2017-08-04 13:56:57.000000000,1970-01-01 00:00:00.000000001,open,12,terragrunt plan-all - Add option to apply dependencies
+261,2017-08-03 05:05:13.000000000,2017-08-15 04:10:24.000000000,closed,30,Make terraform init command compatible with terraform 0.10.0
+260,2017-08-03 02:36:59.000000000,2018-01-27 05:12:39.000000000,closed,7,snap install and git not found
+259,2017-07-28 03:54:15.000000000,2017-08-02 07:18:43.000000000,closed,1,Terragrunt is not picking assume ec2 role
+258,2017-07-27 21:42:53.000000000,2017-07-29 02:59:38.000000000,closed,3,WIP: tfvars files should be ignored during *-all commands if they have no source setting and no .tf file is present
+257,2017-07-26 19:26:35.000000000,2017-08-03 13:18:42.000000000,closed,2,state  & lock different AWS account from resources
+256,2017-07-26 17:20:08.000000000,2018-03-13 18:52:58.000000000,closed,6,Terragrunt precommand
+255,2017-07-20 17:26:39.000000000,1970-01-01 00:00:00.000000001,open,1,Terragrunt User Agent for API request
+254,2017-07-11 18:12:57.000000000,2017-07-17 17:37:17.000000000,closed,9,[Question] How to use wrapper data sources with terragrunt in live repos
+253,2017-07-08 07:59:30.000000000,2019-06-10 16:05:26.000000000,closed,4,New env-all command
+252,2017-07-06 04:28:51.000000000,2017-09-29 23:57:30.000000000,closed,11,Compatibility with terraform 0.10.0
+251,2017-07-05 14:13:17.000000000,2017-09-29 23:58:05.000000000,closed,6,plan-all hides errors
+250,2017-07-05 12:42:16.000000000,1970-01-01 00:00:00.000000001,open,5,Clean command : Remove S3 bucket and DynamoDB table
+249,2017-07-02 23:59:55.000000000,2017-07-03 00:00:28.000000000,closed,1,Add links to the sample repos to the README
+248,2017-06-29 12:41:50.000000000,2017-06-29 14:45:21.000000000,closed,3,output from terraform.rfvars as input to other   terraform.rfvars
+247,2017-06-28 23:39:40.000000000,2017-07-14 15:31:45.000000000,closed,3,"Changed aws region in terraform.tfvars, terragrunt plan would leave old vpc?"
+246,2017-06-28 19:28:47.000000000,1970-01-01 00:00:00.000000001,open,2,Hide terragrunt output
+245,2017-06-28 18:40:25.000000000,2017-06-28 20:44:13.000000000,closed,4,download root folder of modules with // but initialize terraform in source dir
+244,2017-06-27 01:51:49.000000000,2017-06-27 23:19:37.000000000,closed,5,-all commands with force
+243,2017-06-23 19:12:13.000000000,2017-06-23 20:22:39.000000000,closed,8,GCP / Azure support
+242,2017-06-23 00:45:13.000000000,2017-06-23 00:46:17.000000000,closed,1,fixed a typo in the readme
+241,2017-06-21 22:41:59.000000000,2018-02-26 04:30:09.000000000,closed,5,"""slice bounds out of range"" error when no subcommand provided"
+240,2017-06-21 21:22:57.000000000,2019-06-16 12:56:32.000000000,closed,3,Interpolation: Add split function
+239,2017-06-20 03:50:09.000000000,2019-06-10 16:05:37.000000000,closed,5,Support terraform init --reconfigure
+238,2017-06-18 20:12:58.000000000,2017-06-19 03:56:54.000000000,closed,1,[WIP] Fix a bunch of Windows bugs
+237,2017-06-18 08:55:15.000000000,2017-06-18 16:39:12.000000000,closed,2,`plan-all` complaining root terraform config is a module and has no configuration files
+236,2017-06-16 18:27:15.000000000,2017-06-16 18:33:27.000000000,closed,1,Don't copy hidden files and folders into temp folder
+235,2017-06-16 07:30:26.000000000,2017-06-16 22:06:52.000000000,closed,4,Merge child extra_arguments with parent extra_arguments
+234,2017-06-15 19:03:14.000000000,2020-01-08 02:29:39.000000000,closed,14,WIP: Example infra using one account and one region
+233,2017-06-14 18:27:47.000000000,2017-11-09 20:51:41.000000000,closed,9,Community: Create some community channels for Terragrunt discussions
+232,2017-06-13 17:00:55.000000000,2017-06-13 17:07:22.000000000,closed,2,Always use the Logger rather than writing directly to stdout
+231,2017-06-13 13:29:56.000000000,2020-06-15 13:52:25.000000000,closed,24,Terragrunt does not create local backend
+230,2017-06-09 21:26:12.000000000,2017-10-16 19:28:23.000000000,closed,13,"Remove need for ""backend"" block in Terraform modules."
+229,2017-06-08 19:04:00.000000000,2017-10-05 20:13:43.000000000,closed,1,Terragrunt only creates Dynamo table if S3 bucket doesn't exist.
+228,2017-06-08 04:31:21.000000000,2017-06-12 13:40:22.000000000,closed,2,Question about Backend Migration
+227,2017-06-02 17:23:41.000000000,2020-06-15 13:51:36.000000000,closed,2,plan-all fails with interpolation in comment
+226,2017-05-25 21:24:47.000000000,2017-06-02 02:00:41.000000000,closed,7,"Add ""init"" to Terraform commands that use state"
+225,2017-05-25 18:15:49.000000000,2017-12-11 20:24:08.000000000,closed,2,Permission denied errors
+224,2017-05-25 04:22:28.000000000,2017-05-31 17:02:06.000000000,closed,10,Found another cornercase
+223,2017-05-25 00:39:26.000000000,2017-05-25 02:19:14.000000000,closed,2,Fix a bug introduced by refactoring of new interpolation functions.
+222,2017-05-17 04:02:50.000000000,1970-01-01 00:00:00.000000001,open,8,Releases: Automate publication of homebrew formula
+221,2017-05-17 03:58:32.000000000,2020-01-08 02:26:32.000000000,closed,1,Documentation: Automate the maintenance of the ToC for the README
+220,2017-05-17 03:53:34.000000000,2020-01-07 02:28:14.000000000,closed,32,Documentation: Create terragrunt.io website
+219,2017-05-16 07:54:10.000000000,2017-05-17 13:58:53.000000000,closed,2,add documentation on github ssh authentication
+218,2017-05-14 17:08:58.000000000,2017-05-15 13:22:58.000000000,closed,2,terragrunt clone folder
+217,2017-05-13 22:16:34.000000000,2017-05-14 08:48:15.000000000,closed,4,Approach to multi accounts?
+216,2017-05-12 19:41:16.000000000,2017-05-19 05:01:47.000000000,closed,8,Readme improvements
+215,2017-05-11 09:04:03.000000000,2017-05-11 11:26:21.000000000,closed,2,unexpected end of JSON input
+214,2017-05-09 00:29:39.000000000,2017-09-30 00:13:23.000000000,closed,17,"Terragrunt Remote Backend S3 ""Backend reinitialization required"""
+213,2017-05-05 08:08:17.000000000,2017-05-05 18:28:28.000000000,closed,1,Loosen assertions in TestNewSignalsForwarderMultiple.
+212,2017-05-04 19:11:46.000000000,2017-09-30 01:34:40.000000000,closed,3,Terragrunt should detect if backend configuration is missing from Terraform code
+211,2017-05-04 18:42:07.000000000,2017-05-04 18:56:48.000000000,closed,3,s3 backend ignored
+210,2017-05-04 14:32:26.000000000,2017-05-04 14:40:25.000000000,closed,1,Fix version check test failures
+209,2017-05-04 08:53:49.000000000,2017-05-04 14:13:10.000000000,closed,4,--terragrunt-ignore-dependency-errors
+208,2017-05-04 00:46:39.000000000,1970-01-01 00:00:00.000000001,open,13,plan-all fails if root has a parent terraform.tfvars
+207,2017-05-03 19:35:27.000000000,2017-05-03 19:41:37.000000000,closed,2,Remote state with included terraform.tfvars not working
+206,2017-05-03 18:07:56.000000000,2017-05-04 13:48:06.000000000,closed,1,Update regex that checks Terraform version compat
+205,2017-05-03 18:07:05.000000000,2017-05-23 18:43:53.000000000,closed,8,New interpolation functions to handle terraform commands
+204,2017-05-03 12:41:28.000000000,2017-05-19 05:01:47.000000000,closed,2,Update README.md to add snap install instructions
+203,2017-04-30 17:34:24.000000000,2017-04-30 17:38:08.000000000,closed,2,Fix the expected values from the tests.
+202,2017-04-30 01:43:06.000000000,2017-05-19 05:01:47.000000000,closed,2,README broken link
+201,2017-04-30 00:49:11.000000000,2017-04-30 16:18:25.000000000,closed,2,Fix problem on Windows with temp directory name encoding
+200,2017-04-28 20:27:52.000000000,2017-05-04 13:48:06.000000000,closed,3,terragrunt chokes on terraform version string when TF_LOG=TRACE|DEBUG|INFO
+199,2017-04-28 07:02:14.000000000,2017-12-09 20:09:56.000000000,closed,10,Improve the global behaviour of -all commands
+198,2017-04-28 05:30:58.000000000,1970-01-01 00:00:00.000000001,open,4,plan-all swallows error when it can't acquire a lock
+197,2017-04-27 22:10:29.000000000,2017-04-28 02:18:09.000000000,closed,2,Bug/exit status on modules
+196,2017-04-26 22:31:43.000000000,2017-05-05 21:07:56.000000000,closed,7,TestNewSignalsForwarderMultiple is flaky when run from top level
+195,2017-04-26 21:03:34.000000000,2017-04-27 18:23:58.000000000,closed,7,Add plan-all option
+194,2017-04-26 10:30:35.000000000,2017-04-27 02:25:22.000000000,closed,5,output-all should process module stack in regular order.
+193,2017-04-26 10:30:30.000000000,2017-05-04 14:42:32.000000000,closed,10,`output-all <var_name>` gives up too easily
+192,2017-04-26 05:53:46.000000000,2017-04-26 18:35:45.000000000,closed,3,backend config overwrite
+191,2017-04-26 04:37:17.000000000,2017-04-26 09:08:45.000000000,closed,0,Remove trailing spaces
+190,2017-04-26 03:57:04.000000000,2017-04-26 04:12:43.000000000,closed,1,Fix how we execute Terraform commands so stdout isn't dirtied with unrelated output
+189,2017-04-26 00:20:33.000000000,2017-04-26 04:04:58.000000000,closed,2,Fix problem with incorrect detection of change in the remote state configuration
+188,2017-04-25 15:22:40.000000000,2017-04-26 04:06:03.000000000,closed,2,terragrunt asks to overwrite remote state config every run
+187,2017-04-25 01:27:27.000000000,2017-04-25 14:10:57.000000000,closed,1,dynamodb locking table needs to be recreated for 0.12.x
+186,2017-04-24 19:26:28.000000000,2017-05-08 16:59:20.000000000,closed,2,Terragrunt should check your Terraform code defines a backend
+185,2017-04-24 19:19:03.000000000,2017-04-26 04:26:04.000000000,closed,3,Features/cond varfiles
+184,2017-04-24 16:25:12.000000000,2017-04-24 16:35:22.000000000,closed,2,Some adjustments to make config_helpers tests pass on Windows.
+183,2017-04-24 16:16:47.000000000,2017-04-24 16:55:52.000000000,closed,3,Terragrunt v0.12.6 remote state s3 backend
+182,2017-04-24 03:22:51.000000000,2020-06-15 13:51:13.000000000,closed,5,Ensure minimum Terragrunt version
+181,2017-04-23 20:26:45.000000000,2017-04-23 20:37:27.000000000,closed,1,"Backend config should use proper types, including bool for encrypt"
+180,2017-04-23 19:58:10.000000000,2017-04-23 20:07:35.000000000,closed,2,Add basic support for minimum version number check
+179,2017-04-23 19:07:56.000000000,2017-04-23 20:38:58.000000000,closed,2,Backend encryption is broken
+178,2017-04-23 17:13:21.000000000,2017-04-23 18:59:43.000000000,closed,1,Update Terraform state parsing to use backends
+177,2017-04-23 16:22:40.000000000,2017-04-23 16:59:54.000000000,closed,1,Fix init command used to download remote configurations
+176,2017-04-22 23:21:07.000000000,2017-04-23 17:03:57.000000000,closed,8,Backend not populated
+175,2017-04-22 22:19:02.000000000,2017-04-24 14:11:41.000000000,closed,4,New helper functions
+174,2017-04-22 16:42:45.000000000,2017-04-23 16:59:54.000000000,closed,12,"How to remote configurations + remote state + multiple modules, goes wrong"
+173,2017-04-21 20:54:13.000000000,2017-04-22 16:50:44.000000000,closed,3,terragrunt destroy does not pass extra arguments
+172,2017-04-21 16:09:02.000000000,2017-04-24 19:06:14.000000000,closed,5,Ensure minimum terraform version
+171,2017-04-21 07:45:39.000000000,2017-05-23 18:46:52.000000000,closed,1,Add helper function for listing all terraform commands to which locking applies.
+170,2017-04-21 04:43:01.000000000,2017-04-21 04:47:58.000000000,closed,1,Add a get_tfvars_dir helper
+169,2017-04-21 04:21:30.000000000,2017-07-02 23:53:15.000000000,closed,25,"Include sample ""best practices Terragrunt configuration"""
+168,2017-04-20 18:04:54.000000000,2017-04-21 04:41:55.000000000,closed,3,"Add a get_tfvars_dir helper (review, but do not merge)"
+167,2017-04-20 16:19:25.000000000,2017-04-21 04:37:10.000000000,closed,10,Update Terragrunt to support Terraform 0.9
+166,2017-04-18 14:31:00.000000000,2017-04-19 19:19:54.000000000,closed,9,Dealing with Hard Coded Credentials for Private Repos
+165,2017-04-15 02:52:24.000000000,2017-04-15 02:53:36.000000000,closed,1,Clarify whitespaces usage in `extra_arguments`.
+164,2017-04-14 00:41:33.000000000,2017-04-18 02:27:47.000000000,closed,6,Manually generate auto-generated Terraform code when using terraform.tfvars module source.
+163,2017-04-12 07:34:53.000000000,2018-07-09 03:37:37.000000000,closed,2,Confusing Error Message when terraform.source property points to an invalid location.
+162,2017-04-11 21:14:03.000000000,2017-04-11 21:15:17.000000000,closed,1,Build binaries with CGO_ENABLED=0 
+161,2017-04-10 13:50:27.000000000,2017-04-11 21:15:17.000000000,closed,3,Build terragrunt releases built as static binaries
+160,2017-04-06 18:06:05.000000000,2017-04-20 16:27:45.000000000,closed,7,Features/new remote state support
+159,2017-04-05 21:59:45.000000000,2017-04-08 01:25:19.000000000,closed,4,Add plan-all option to execute plan on all stacks
+158,2017-03-31 06:00:05.000000000,2017-04-21 04:37:10.000000000,closed,12,How Terragrunt Will Handle Terraform 0.9.0 Compatibility
+157,2017-03-15 22:50:40.000000000,2017-03-31 06:01:02.000000000,closed,8,Terraform 0.9.0 drops remote config command
+156,2017-03-15 22:18:32.000000000,2017-03-15 22:21:22.000000000,closed,2,Deprecation warning with Terraform 0.9
+155,2017-03-15 02:47:07.000000000,2017-03-15 03:01:20.000000000,closed,1,Support using S3 for locks
+154,2017-03-13 17:36:27.000000000,2017-05-27 17:14:27.000000000,closed,3,Add support for AssumeRole for DynamoDB locks and S3 remote state
+153,2017-03-09 01:47:22.000000000,2017-03-09 03:32:02.000000000,closed,1,fix terragrunt config example
+152,2017-03-02 10:53:42.000000000,2017-04-21 20:33:38.000000000,closed,7,cli_app.go: make MODULE_REGEX more accepting
+151,2017-03-02 02:27:09.000000000,2018-11-18 23:17:36.000000000,closed,4,"add ability to override ""terragrunt-download"" directory name"
+150,2017-03-02 00:44:36.000000000,2017-03-02 00:53:16.000000000,closed,2,GLOBAL OPTIONS cli flags not working
+149,2017-02-26 04:49:30.000000000,2017-03-02 16:45:32.000000000,closed,5,Output all
+148,2017-02-26 01:18:48.000000000,2017-02-26 04:52:27.000000000,closed,1,"Run all source through `gofmt`, add formatting docs and helpers"
+147,2017-02-24 15:38:18.000000000,2017-06-19 22:11:01.000000000,closed,15,"Fold ""extra_arguments"" into terragrunt when using ""include"" to retrieve remote TF configurations"
+146,2017-02-24 02:36:44.000000000,2017-02-24 02:58:00.000000000,closed,3,Terraform is introducing its own state locking
+145,2017-02-23 05:14:29.000000000,2017-02-23 19:57:50.000000000,closed,3,Provider placement with 'essential complexity' in mind
+144,2017-02-23 02:21:57.000000000,2017-02-27 23:11:56.000000000,closed,4,Problem with AWS Profiles using Terragrunt
+143,2017-02-22 17:44:09.000000000,2017-04-21 04:51:23.000000000,closed,5,extra_arguments doesn't work when downloading remote Terraform configurations
+142,2017-02-21 22:57:47.000000000,2017-05-23 18:47:02.000000000,closed,2,import with extra arguments fails due to argument order
+141,2017-02-21 06:03:00.000000000,2017-02-22 17:29:20.000000000,closed,2,Wait for shell when forwarding signals; shell package test coverage
+140,2017-02-21 05:23:52.000000000,2017-04-21 04:51:59.000000000,closed,5,extra_arguments with -var
+139,2017-02-21 01:47:14.000000000,2017-07-06 01:29:03.000000000,closed,11,"Expected syntax of the form '${function_name()}', but got '${var.environment}' - What?"
+138,2017-02-20 09:28:00.000000000,2017-02-20 16:45:15.000000000,closed,1,"Clarified ""include"" a bit"
+137,2017-02-19 08:15:02.000000000,2017-02-19 17:57:16.000000000,closed,1,Can parent terraform.tfvars contain environment variables?
+136,2017-02-19 03:50:49.000000000,2017-02-19 06:08:23.000000000,closed,6,Allow templates to be shared
+135,2017-02-18 21:40:41.000000000,2017-04-24 19:07:50.000000000,closed,10,configure terragrunt
+134,2017-02-18 08:09:47.000000000,2017-02-18 18:19:56.000000000,closed,1,Parse terraform variables present in included .tfvars files
+133,2017-02-17 23:55:27.000000000,2017-02-17 23:59:49.000000000,closed,2,Terraform extra_arguments are not being honored. 
+132,2017-02-17 12:08:10.000000000,2020-06-15 13:49:28.000000000,closed,47,Use ${var.} in terragrunt config
+131,2017-02-16 21:28:49.000000000,2017-02-16 21:53:16.000000000,closed,1,Clarify Terragrunt vs. Terraform config
+130,2017-02-16 20:20:56.000000000,2017-02-16 21:53:16.000000000,closed,3,terragrunt ignores --terragrunt-config / TERRAGRUNT_CONFIG files
+129,2017-02-16 18:06:40.000000000,2017-02-26 04:53:02.000000000,closed,1,Run go fmt on the code
+128,2017-02-16 09:39:03.000000000,2017-02-17 19:28:25.000000000,closed,8,Adding `extra_arguments` config option
+127,2017-02-15 13:22:07.000000000,2017-04-21 04:55:49.000000000,closed,2,"After Terragrunt version 0.9+, missing permissions on AWS"
+126,2017-02-14 23:15:21.000000000,2017-02-14 23:20:43.000000000,closed,1,"When cleaning up files, don't delete files in .terraform folders"
+125,2017-02-14 07:25:16.000000000,2017-04-21 04:55:13.000000000,closed,3,release-lock fails to parse .terragrunt file due to env_var function call: Invalid Interpolation Syntax
+124,2017-02-08 11:40:36.000000000,2017-02-15 22:23:28.000000000,closed,5,0.9.9 checks out module folders as empty
+123,2017-02-08 03:44:38.000000000,2017-02-08 16:08:53.000000000,closed,4,terragrunt version string is different when installed using brew
+122,2017-02-05 07:28:48.000000000,2017-02-10 04:44:20.000000000,closed,4,Read configuration from terraform.tfvars
+121,2017-02-03 22:50:44.000000000,2017-02-04 23:27:00.000000000,closed,2,Download root folders of repos so relative paths work
+120,2017-02-03 18:17:07.000000000,2017-02-22 17:29:20.000000000,closed,1,Interrupt of `terragrunt plan` doesn't wait for the child proess to stop.
+119,2017-02-03 14:44:54.000000000,2017-02-03 17:06:12.000000000,closed,1,Does spin-up include module outputs?
+118,2017-02-03 11:22:07.000000000,2017-04-27 18:24:57.000000000,closed,14,spin-up should support terrgrunt plan
+117,2017-02-01 23:45:58.000000000,2017-02-02 06:09:27.000000000,closed,1,Add a --terragrunt-source-update flag
+116,2017-01-31 23:59:05.000000000,2017-02-12 20:10:13.000000000,closed,7,point to output variable from another module with terraform.tfvars
+115,2017-01-30 20:11:09.000000000,2017-03-31 06:02:07.000000000,closed,9,Core changes on terraform remote subcommand
+114,2017-01-29 23:45:35.000000000,2017-02-01 05:09:35.000000000,closed,4,Cache temporary folder
+113,2017-01-29 23:11:34.000000000,2017-02-09 23:16:22.000000000,closed,5,Support multiple terraform source locations
+112,2017-01-27 20:19:35.000000000,2018-02-27 22:53:37.000000000,closed,2,Support for non-standard regions and endpoints
+111,2017-01-25 21:58:32.000000000,2017-01-27 04:06:25.000000000,closed,4,Add ability for Terragrunt to download Terraform configurations
+110,2017-01-25 21:42:11.000000000,2017-01-28 05:57:51.000000000,closed,4,Redirect the output of `terraform remote config` to stderr
+109,2017-01-25 05:23:21.000000000,2017-02-02 22:31:21.000000000,closed,6,Allow explicitly setting up the remote state
+108,2017-01-25 04:53:23.000000000,2017-01-28 05:55:02.000000000,closed,6,Add support for specifying the AWS profile to use in the config file
+107,2017-01-24 22:05:20.000000000,1970-01-01 00:00:00.000000001,open,1,Migrating to Terragrunt when previously using the -state option
+106,2017-01-24 21:23:27.000000000,2017-02-02 22:30:31.000000000,closed,3,add missing command in docs
+105,2017-01-24 21:01:29.000000000,2017-01-30 22:22:32.000000000,closed,5,AWS_DEFAULT_PROFILE environment variable not respected
+104,2017-01-23 04:54:26.000000000,2017-01-24 21:38:51.000000000,closed,9,Terragrunt support for .tfvars files.
+103,2017-01-20 07:00:28.000000000,2017-01-23 00:42:32.000000000,closed,4,Alternate messages when lock item or table doesn't exist
+102,2017-01-18 08:46:06.000000000,2017-01-22 07:17:16.000000000,closed,1,Remote state cache has no remote info
+101,2017-01-15 09:08:01.000000000,2017-01-16 01:48:49.000000000,closed,2,Read remote state file from specified working dir
+100,2017-01-13 19:20:45.000000000,2017-01-14 01:59:55.000000000,closed,9,Normalize path usage to use forward slashes to make things more platform agnostic
+99,2017-01-13 02:50:13.000000000,2017-01-14 02:09:07.000000000,closed,1,path_relative_to_include() helper should be OS agnostic
+98,2017-01-11 03:14:42.000000000,2017-01-11 21:33:25.000000000,closed,2,exit with underlying exit code
+97,2017-01-11 00:38:30.000000000,2019-03-25 13:55:15.000000000,closed,0,Run Terragrunt tests on CI system with Windows support
+96,2017-01-10 23:30:37.000000000,2017-01-14 02:01:38.000000000,closed,15,Fix relative path issues on Windows
+95,2017-01-10 08:25:16.000000000,2017-01-16 01:48:49.000000000,closed,1,Remote state config not detected when using --terragrunt-working-dir
+94,2017-01-08 05:29:15.000000000,2017-01-08 08:06:17.000000000,closed,2,Log terragrunt output to stderr
+93,2017-01-05 23:21:50.000000000,2017-01-06 09:03:26.000000000,closed,6,Update AWS SDK to latest - v1.6.10
+92,2017-01-04 03:59:40.000000000,2017-01-06 09:03:26.000000000,closed,2,AWS_SHARED_CREDENTIALS_FILE environment variable does not seem to be read
+91,2016-12-29 09:32:04.000000000,2017-04-21 04:53:03.000000000,closed,1,Support using Consul for locks
+90,2016-12-28 15:28:06.000000000,2017-01-01 10:43:04.000000000,closed,3,ensure tests cleanup after themselves
+89,2016-12-28 05:04:09.000000000,2017-01-14 01:59:55.000000000,closed,19,Nested terragrunt file not working on Windows
+88,2016-12-23 18:14:51.000000000,2016-12-24 13:39:28.000000000,closed,2,Depdendency Output Variables
+87,2016-12-22 15:44:03.000000000,2017-01-03 14:55:08.000000000,closed,3,Add and maintain a CHANGELOG file
+86,2016-12-22 02:50:16.000000000,2016-12-22 03:09:50.000000000,closed,2,Load .terragrunt file relative to working dir
+85,2016-12-21 20:09:40.000000000,2016-12-22 15:12:47.000000000,closed,2,$AWS_PROFILE/$AWS_DEFAULT_PROFILE env vars not being honored
+84,2016-12-20 10:48:24.000000000,2017-09-30 00:09:30.000000000,closed,13,Support different filename for root .terragrunt
+83,2016-12-20 08:09:02.000000000,2017-01-01 10:43:04.000000000,closed,0,Terragrunt tests don't clean up after themselves
+82,2016-12-20 07:52:59.000000000,2016-12-20 09:05:16.000000000,closed,2,Fix spin-up missing deeper subfolders. Fix AWS API getting overloaded during tests. 
+81,2016-12-20 03:08:44.000000000,2016-12-20 09:05:16.000000000,closed,2,Spin-up misses modules in subfolders.
+80,2016-12-20 02:51:09.000000000,1970-01-01 00:00:00.000000001,open,1,apply-all should summarize any errors at the end of its run.
+79,2016-12-20 02:46:19.000000000,1970-01-01 00:00:00.000000001,open,2,Apply-all confirmation list includes ignored modules
+78,2016-12-20 02:42:42.000000000,1970-01-01 00:00:00.000000001,open,2,Reformat terragrunt apply-all output
+77,2016-12-18 02:33:00.000000000,2017-01-14 07:12:50.000000000,closed,16,Add environment variable support to .terragrunt
+76,2016-12-17 06:31:16.000000000,2016-12-21 08:32:00.000000000,closed,6,TERRAGRUNT_TFPATH
+75,2016-12-14 21:00:25.000000000,2018-11-18 23:16:55.000000000,closed,10,Terragrunt should enforce best practices around version control
+74,2016-12-14 08:22:38.000000000,1970-01-01 00:00:00.000000001,open,6,The apply-all and destroy-all commands should save log output to file
+73,2016-12-14 08:13:28.000000000,2016-12-14 08:26:04.000000000,closed,2,"Make sure terragrunt calls ""get"" in proper folder during spin-up and tear-down"
+72,2016-12-13 13:44:17.000000000,2017-01-03 22:38:33.000000000,closed,6,Forward SIGTERM signal to terraform
+71,2016-12-13 05:19:00.000000000,2016-12-20 02:38:23.000000000,closed,7,Feedback on the new spin-up and and tear-down commands.
+70,2016-12-10 06:04:02.000000000,2016-12-10 06:05:48.000000000,closed,1,Fix typo in README.md
+69,2016-12-08 18:13:45.000000000,2016-12-08 19:56:11.000000000,closed,2,Fixed minor typo
+68,2016-12-07 01:50:40.000000000,2016-12-21 01:06:52.000000000,closed,5,unexpected signal during runtime execution
+67,2016-12-05 21:46:09.000000000,2016-12-08 19:00:41.000000000,closed,3,update brew package
+66,2016-12-05 13:42:11.000000000,2016-12-05 15:42:31.000000000,closed,0,Fix panic when S3 Bucket Versioning is not enabled.
+65,2016-12-05 13:36:24.000000000,2016-12-05 15:42:31.000000000,closed,0,Terragrunt Panics when Checking an S3 Bucket for Which Versioning is Not Enabled
+64,2016-12-05 13:30:39.000000000,2016-12-05 15:42:31.000000000,closed,4,Terragrunt Tests Fail in My LocalDev
+63,2016-12-05 12:42:55.000000000,2016-12-05 15:24:51.000000000,closed,1,Trivial typo fix.
+62,2016-12-03 09:23:59.000000000,2016-12-04 17:30:58.000000000,closed,2,saving userArn instead of userid into db items
+61,2016-12-01 15:25:30.000000000,2017-01-08 08:21:15.000000000,closed,7,release lock on SIGTERM too.
+60,2016-12-01 03:58:33.000000000,2016-12-07 09:14:15.000000000,closed,2,Add spin-up and tear-down commands
+59,2016-11-25 19:47:56.000000000,2016-11-29 22:37:39.000000000,closed,2,Support inheritance and interpolation in .terragrunt files
+58,2016-11-24 15:45:26.000000000,2016-11-24 16:33:22.000000000,closed,1,Explicit the partition key of the lock dynamodb table
+57,2016-11-23 22:34:11.000000000,2016-11-24 05:18:02.000000000,closed,2,v0.3.0 Missing Binaries
+56,2016-11-23 05:20:52.000000000,2016-11-23 05:27:29.000000000,closed,1,Add an acquire-lock command. Fixes #19.
+55,2016-11-22 22:34:05.000000000,2016-11-23 01:21:44.000000000,closed,1,Terragrunt will now create remote state S3 bucket if it doesn't exist
+54,2016-11-22 19:11:39.000000000,2016-11-22 19:25:15.000000000,closed,1,Ensure Terragrunt picks up changes to remote config
+53,2016-11-21 15:20:49.000000000,2016-11-24 16:33:40.000000000,closed,5,Update the README.md to explicit the expected partition key in the dynamodb table
+52,2016-11-15 05:00:04.000000000,2016-11-15 05:03:32.000000000,closed,3,lock when using refresh command
+51,2016-11-15 01:25:27.000000000,2016-11-15 05:03:32.000000000,closed,2,Locking on terraform refresh
+50,2016-11-15 01:07:11.000000000,2016-11-15 04:11:59.000000000,closed,1,[Feature Suggestion] Lock on terraform plan
+49,2016-11-14 09:28:18.000000000,2017-04-21 04:54:18.000000000,closed,7,Terragrunt lock region selection ignores AWS_REGION environment variable
+48,2016-11-09 23:01:49.000000000,2017-02-02 22:28:37.000000000,closed,19,Feature Request: Use aws credentials profile
+47,2016-11-05 01:44:06.000000000,2016-11-15 19:33:32.000000000,closed,11,Error parsing Terragrunt config file .terragrunt: state_file_id cannot be empty
+46,2016-11-04 21:29:30.000000000,2016-11-04 21:40:47.000000000,closed,1,"Allow for a simple ""terragrunt lock"" command"
+45,2016-11-01 16:47:35.000000000,2016-12-07 09:14:15.000000000,closed,8,Add the ability to automatically walk the dependency tree of modules
+44,2016-10-28 15:26:04.000000000,2016-10-28 18:11:53.000000000,closed,3,Add lock commands
+43,2016-10-18 14:27:06.000000000,2016-11-23 03:48:21.000000000,closed,2,integration_test.go should generate the S3 bucket at runtime
+42,2016-10-13 18:38:25.000000000,2016-10-18 17:48:44.000000000,closed,9,Allow to specify a different .terragrunt config file
+41,2016-10-11 16:13:37.000000000,2016-12-21 01:01:14.000000000,closed,27,fatal error: unexpected signal during runtime execution
+40,2016-10-05 04:43:22.000000000,2016-10-05 15:12:42.000000000,closed,9,Need to be able to specify which AWS profile to use
+39,2016-10-03 21:50:47.000000000,2016-10-04 01:05:36.000000000,closed,2,"Bump all dependency versions, and AWS SDK in particular."
+38,2016-10-03 19:59:04.000000000,2016-10-03 20:01:16.000000000,closed,1,Fixed var names in README
+37,2016-10-03 15:52:19.000000000,2017-01-11 21:33:25.000000000,closed,4,terragrunt plan should respect -detailed-exitcode
+36,2016-09-29 00:05:33.000000000,2016-10-04 17:00:01.000000000,closed,10,fatal error: systemstack called from unexpected goroutine
+35,2016-09-28 23:45:39.000000000,2016-11-23 01:21:44.000000000,closed,1,"terragrunt should create s3 bucket, if it is not present"
+34,2016-09-28 20:05:34.000000000,2017-04-20 16:26:00.000000000,closed,8,locks: add azure_blob lock provider
+33,2016-09-28 19:46:24.000000000,2016-09-28 19:50:50.000000000,closed,0,readme: fix dynamodb config casing
+32,2016-09-27 18:55:41.000000000,2016-09-28 03:02:20.000000000,closed,2,config: tweak remote_state bindings to be consistent with Terraform
+31,2016-09-27 03:05:09.000000000,2016-09-27 17:29:42.000000000,closed,3,all: enable simpler lock provider support with more generic config
+30,2016-09-26 18:27:50.000000000,2016-09-28 20:19:46.000000000,closed,2,Generic lock configuration
+29,2016-09-17 01:07:49.000000000,2016-10-28 18:11:53.000000000,closed,0,Terragrunt should lock on the remote push command
+28,2016-09-13 19:43:25.000000000,2016-09-14 04:35:53.000000000,closed,9,Use STS to get user information to support using session tokens
+27,2016-09-07 18:59:34.000000000,2016-11-22 19:01:48.000000000,closed,3,Allow one terragrunt file to reference another terragrunt file
+26,2016-09-07 18:56:05.000000000,2016-11-29 22:37:39.000000000,closed,9,Interpolation inside .terragrunt file
+25,2016-09-05 12:42:05.000000000,2016-10-18 17:56:24.000000000,closed,10,Add ability to choose .terragrunt file path or specify options on command line
+24,2016-08-30 13:42:50.000000000,2017-01-08 08:21:50.000000000,closed,4,"terragrunt graph adds header, invalidates dot format"
+23,2016-08-24 22:11:31.000000000,2016-08-25 03:45:25.000000000,closed,2,SEO suggestion: include state and/or tfstate in your desc
+22,2016-08-11 07:56:19.000000000,2017-01-08 08:23:00.000000000,closed,8,invoke terraform directly instead of terragrunt
+21,2016-08-11 07:51:18.000000000,2016-09-16 18:10:14.000000000,closed,19,AWS Profiles
+20,2016-08-10 20:08:21.000000000,1970-01-01 00:00:00.000000001,open,5,Changes to modules are not pulled in automatically
+19,2016-08-10 19:59:55.000000000,2016-11-23 05:27:32.000000000,closed,3,Add the ability to set persistent locks on a configuration
+18,2016-08-05 04:30:46.000000000,2016-08-05 21:12:18.000000000,closed,2,Add Terragrunt integration test for latest Terraform.
+17,2016-08-02 04:51:27.000000000,2016-08-10 20:56:57.000000000,closed,2,Create an integration test to validate that terragrunt works with arbitrary versions of terraform.
+16,2016-08-02 04:50:22.000000000,2017-01-23 00:42:32.000000000,closed,0,Releasing a non-existing lock does not return a meaningful error message.
+15,2016-08-02 04:49:04.000000000,2016-11-22 19:25:15.000000000,closed,4,Changes to .terragrunt file aren't picked up after initial terragrunt run.
+14,2016-07-22 17:50:26.000000000,2016-07-22 20:23:34.000000000,closed,2,Per environment state file
+13,2016-07-21 17:35:44.000000000,2017-04-21 04:54:39.000000000,closed,4,Record public IP address also
+12,2016-06-30 08:26:29.000000000,2016-06-30 15:15:41.000000000,closed,3,Explicitly mention iam:GetUser permission in README.
+11,2016-06-19 23:52:10.000000000,2016-06-20 19:55:31.000000000,closed,2,"Handle CTRL+C. If no args, show help. Fix concurrency test."
+10,2016-06-03 18:41:11.000000000,2017-04-20 16:23:56.000000000,closed,9,Update docs with Git + encryption changes
+9,2016-06-03 03:33:29.000000000,2016-06-03 14:47:10.000000000,closed,3,Use IAM username instead of OS username for lock metadata
+8,2016-06-01 19:25:16.000000000,2016-06-03 14:35:43.000000000,closed,3,Configure remote state and download modules if necessary
+7,2016-06-01 14:04:48.000000000,2016-06-01 14:08:05.000000000,closed,0,Refactor error handling. Add comments.
+6,2016-06-01 13:41:42.000000000,2016-06-01 13:42:06.000000000,closed,1,Add basic support for remote state management
+5,2016-06-01 13:38:35.000000000,2016-06-01 13:40:07.000000000,closed,1,Add basic support for remote state management
+4,2016-05-31 19:52:40.000000000,2016-06-01 14:02:08.000000000,closed,3,"Refactor error handling. Add comments. (review, but DO NOT MERGE)"
+3,2016-05-31 16:30:14.000000000,2016-06-01 13:37:10.000000000,closed,2,"Add basic support for remote state management (review, but DO NOT MERGE)"
+2,2016-05-30 18:49:51.000000000,2016-06-01 13:28:00.000000000,closed,5,"Terragrunt v0.0.1, with DynamoDB locking "
+1,2016-05-25 19:02:58.000000000,2016-05-30 18:50:14.000000000,closed,1,RDD: Create Readme to describe how terragrunt will work

@@ -1,0 +1,878 @@
+id,created_at,closed_at,state,comments,title
+1611,2020-08-31 12:38:50.000000000,2020-08-31 12:39:00.000000000,closed,0,111
+1610,2020-08-31 11:36:17.000000000,1970-01-01 00:00:00.000000001,open,6,[FEATURE REQUEST](session)UpdateExpiration on more than three million keys with radix lib
+1609,2020-08-29 16:20:49.000000000,1970-01-01 00:00:00.000000001,open,4,"[FEATURE REQUEST] Describe more specific error for PostValueBool, PostValueInt & friends"
+1608,2020-08-28 03:52:38.000000000,2020-08-28 07:21:39.000000000,closed,4,[BUG] `authenticated-controller` `StopWithStatus` prevents overlapped `Controller` from executing
+1607,2020-08-26 16:24:10.000000000,2020-08-27 09:50:09.000000000,closed,6,v12.1.9 can not be used with neffos v0.0.16 error report websocket: response does not implement http.Hijacker v12.1.8 is available
+1606,2020-08-24 10:31:51.000000000,1970-01-01 00:00:00.000000001,open,3,[QUESTION] Get Handler Result from `HandleHTTPError`
+1605,2020-08-24 10:20:28.000000000,2020-08-26 03:20:03.000000000,closed,8,"[QUESTION] What is the correct order of `WrapRouter`, `Subdomain`, `Party`, `mvc` and `SubdomainRedirect` ?"
+1604,2020-08-24 04:14:22.000000000,2020-08-25 15:08:44.000000000,closed,14,[BUG] Logging registered on `UseRouter` vs `UseGlobal` entirely different output
+1603,2020-08-23 13:58:46.000000000,2020-08-28 03:23:04.000000000,closed,9,[BUG] registered dependency with `ctx.StopWithStatus(iris.StatusUnauthorized)` fires Controller.HandleHTTPError with mvc.StatusCode of 200
+1602,2020-08-23 13:10:28.000000000,2020-08-25 15:10:13.000000000,closed,8,[BUG] authenticated-controller - AuthDependency returns `401 Unauthorized` for undefined routes (should be `404`?)
+1601,2020-08-20 13:41:39.000000000,1970-01-01 00:00:00.000000001,open,17,[QUESTION]can logger write to multiple files asynchronously and rotate based on size or time?
+1600,2020-08-19 11:24:30.000000000,2020-08-20 13:42:08.000000000,closed,3,graceful shutdown doesn't work
+1599,2020-08-19 06:41:58.000000000,1970-01-01 00:00:00.000000001,open,3,[QUESTION] If i use html template，How can I get response body(or HTML)？ not use HttpRequest Client
+1598,2020-08-19 03:38:25.000000000,2020-08-21 15:51:00.000000000,closed,1,Can I pass some data from middleware to next handle?
+1597,2020-08-18 11:24:39.000000000,1970-01-01 00:00:00.000000001,open,1,[FEATURE REQUEST] Make i18n expandable 
+1596,2020-08-17 20:10:22.000000000,2020-08-18 14:00:26.000000000,closed,6,How to alter response body in middlware?
+1595,2020-08-16 13:38:26.000000000,2020-08-23 05:24:04.000000000,closed,12,[FEATURE REQUEST] MVC - More Elegent OnErrorCode registration?
+1594,2020-08-16 07:50:13.000000000,2020-08-18 06:42:58.000000000,closed,9,[BUG] Inconsistant Request Logger with `HandleDir`
+1593,2020-08-16 07:39:01.000000000,2020-08-18 15:01:35.000000000,closed,2,[FEATURE REQUEST] Log when I18n Translation Fails?
+1591,2020-08-15 15:37:06.000000000,2020-08-17 03:27:55.000000000,closed,10,[BUG] I18n - Default Language not respected when using Subdomain
+1590,2020-08-15 10:45:52.000000000,2020-08-15 16:41:04.000000000,closed,2,[BUG] `basicauth` permafail after inactivity timeout
+1589,2020-08-15 08:43:14.000000000,2020-08-15 13:23:27.000000000,closed,3,[FEATURE REQUEST]  `OnErrorCode` doesn't fire `app.Use` and friends
+1588,2020-08-15 07:10:34.000000000,2020-08-15 13:18:02.000000000,closed,2,[BUG] Layout not rendered for Subdomain `OnErrorCode`
+1587,2020-08-15 06:28:48.000000000,2020-08-16 07:43:38.000000000,closed,21,[BUG] CORS doesn't support Subdomains
+1586,2020-08-14 14:04:08.000000000,2020-08-15 06:40:00.000000000,closed,5,[BUG] Increased Time To First Byte with HTTP/2 Push
+1585,2020-08-14 13:27:20.000000000,2020-08-14 13:39:29.000000000,closed,1,[BUG] Logger is not thread-safe?
+1584,2020-08-14 10:07:06.000000000,2020-08-14 14:05:01.000000000,closed,7,"[BUG] `app.SubdomainRedirect` does not trigger, or wrong hostname (main -> subdomain)"
+1583,2020-08-14 07:04:16.000000000,2020-08-14 12:19:38.000000000,closed,5,[BUG] `DirList` alias missing from the main package
+1582,2020-08-14 05:11:28.000000000,2020-08-14 12:21:37.000000000,closed,1,You have installed an invalid version. 
+1581,2020-08-14 03:02:08.000000000,2020-08-14 13:10:40.000000000,closed,6,[FEATURE REQUEST] add handlers to app.HandleDir
+1580,2020-08-14 02:51:55.000000000,2020-08-14 04:20:23.000000000,closed,8,[BUG] HandleDir w/ DirOptions Cache.Enable serves malformed content
+1579,2020-08-13 14:00:03.000000000,2020-08-18 09:24:15.000000000,closed,1,[BUG]Cannot reference MVC.GRPC
+1578,2020-08-12 03:21:17.000000000,2020-08-13 11:39:14.000000000,closed,12,[BUG] AutoTLS hosts on wrong addresses
+1577,2020-08-12 02:47:16.000000000,2020-08-12 04:20:54.000000000,closed,19,AutoTLS with non-80 HTTP Port?
+1576,2020-08-11 20:36:07.000000000,2020-08-12 08:21:30.000000000,closed,2,Chinese translate of README.md
+1575,2020-08-11 19:49:55.000000000,2020-08-13 09:43:00.000000000,closed,8,Is it possible to integrate pkger for embeded resources?
+1574,2020-08-09 05:12:44.000000000,2020-08-12 09:16:54.000000000,closed,1,Incorrect comment ?
+1573,2020-08-07 20:52:03.000000000,2020-08-07 21:35:59.000000000,closed,2,middleware didn't work?
+1572,2020-08-06 19:07:19.000000000,2020-08-06 19:59:59.000000000,closed,3,【undefined: iris.Dir】Run example project login error: undefined: iris.Dir
+1571,2020-07-27 17:04:06.000000000,2020-08-02 22:58:45.000000000,closed,4,[QUESTION] Why v11 tags removed?
+1570,2020-07-25 01:40:47.000000000,2020-07-25 10:46:40.000000000,closed,0,Update go.mod : jet/v4.1.0
+1569,2020-07-24 20:30:05.000000000,2020-08-02 22:58:44.000000000,closed,15,"[BUG] View: If errors are returned by the ViewRenderer - do not output a ""half template"""
+1568,2020-07-24 11:50:41.000000000,2020-07-27 07:41:05.000000000,closed,5,"[BUG] when dynamic routing parameters have type judgments, cause cors problem"
+1567,2020-07-23 09:10:29.000000000,2020-07-26 19:54:46.000000000,closed,9,About RemoteAddrPrivateSubnet
+1566,2020-07-22 18:04:14.000000000,2020-08-02 22:58:43.000000000,closed,6,[BUG] mvc can not get query param
+1565,2020-07-21 13:13:18.000000000,2020-08-02 22:59:42.000000000,closed,1,client http request
+1564,2020-07-21 07:03:17.000000000,2020-07-24 17:51:37.000000000,closed,5,"[BUG] When using Dependency Injection , Iris call new method everytime to create a new struct"
+1563,2020-07-17 07:42:20.000000000,2020-07-17 14:01:02.000000000,closed,1,[WebsocketMVC]call of reflect.Value.NumField on ptr Value
+1562,2020-07-15 19:40:39.000000000,2020-08-02 22:59:42.000000000,closed,13,HandleDir AssestValidator: http/2.0 push seems not working
+1561,2020-07-15 07:51:16.000000000,2020-07-19 06:04:58.000000000,closed,1,"[BUG] FileServer dont work with Gzip&""304 Not Modified"""
+1560,2020-07-12 16:16:18.000000000,2020-07-12 17:34:47.000000000,closed,0,fix #1559 - remove not need colon
+1559,2020-07-12 13:02:55.000000000,2020-07-12 17:34:47.000000000,closed,0,[DOCUMENTATION] listen tcp: address ::8080: too many colons in address
+1558,2020-07-12 10:51:08.000000000,2020-07-12 20:12:54.000000000,closed,3,dependency injection question
+1557,2020-07-11 14:45:05.000000000,2020-07-11 17:16:02.000000000,closed,4,[BUG] {app|customeRoute}.OnAnyErrorCode vs mvc.Response{Err}
+1556,2020-07-11 01:31:47.000000000,1970-01-01 00:00:00.000000001,open,28,[DOCUMENTATION] No Content-Encoding: gzip header on gzip-ed bindata
+1555,2020-07-09 10:54:46.000000000,2020-07-09 15:22:44.000000000,closed,2,[BUG] use staticWeb function cause loop crycle.
+1554,2020-07-08 23:52:01.000000000,2020-08-02 22:58:43.000000000,closed,0,"[FEATURE] gzip, deflate, brotli, snappy, s2 compression"
+1553,2020-07-08 16:01:55.000000000,2020-07-19 08:10:39.000000000,closed,1,Error in modifying cookie and session validity (Driver:redis.Radix()) [BUG]
+1552,2020-07-06 17:51:39.000000000,2020-07-06 20:09:28.000000000,closed,3,[BUG] First middleware does not get called when there are multiple routes with the same path but different path parameter functions
+1551,2020-07-06 15:27:36.000000000,2020-08-02 22:58:43.000000000,closed,4,[FEATURE REQUEST] Update Jet to v4.0.0.
+1550,2020-07-06 13:17:36.000000000,2020-08-02 22:59:42.000000000,closed,4,[FEATURE REQUEST] Implement Iris with Bugsnag
+1549,2020-07-02 10:04:31.000000000,2020-07-02 21:46:48.000000000,closed,3,context.Params().Get() could not get right parameter
+1548,2020-07-01 11:39:48.000000000,2020-07-02 06:42:32.000000000,closed,3,I have a usage problem，I hope someone can help me
+1547,2020-06-30 06:06:58.000000000,2020-08-02 22:59:41.000000000,closed,6,how can i get a iris.Context copy?
+1546,2020-06-27 13:50:53.000000000,2020-06-27 15:00:44.000000000,closed,8,add redis cluster driver
+1545,2020-06-26 08:00:24.000000000,2020-06-27 15:00:44.000000000,closed,4,"Session is stored in redis. Currently, redis cluster mode is not supported by using radix driver [BUG]"
+1544,2020-06-25 12:04:21.000000000,2020-08-02 22:58:42.000000000,closed,6,[FEATURE REQUEST] make reuseport/reuseaddress as Listener option.
+1543,2020-06-23 12:16:07.000000000,2020-06-23 13:00:19.000000000,closed,4,i want to use session_id in a different way than cookies. HTTP header?
+1542,2020-06-19 23:43:34.000000000,2020-06-20 17:07:43.000000000,closed,10,[BUG] MVC:  expected [3] bindings (input parameters) but got [2]
+1541,2020-06-19 18:06:46.000000000,2020-06-19 20:15:00.000000000,closed,5,[invalid] MVC ReadQuery don't get any data from Query
+1540,2020-06-18 09:50:05.000000000,2020-06-18 10:12:47.000000000,closed,0,fix typo
+1539,2020-06-17 15:41:24.000000000,2020-06-19 06:55:40.000000000,closed,1,[BUG] Session.IsNew() always returns false if I use a db
+1538,2020-06-15 10:57:47.000000000,2020-06-15 13:38:01.000000000,closed,1,how to use `ReadQuery` with bind custom struct
+1537,2020-06-13 00:10:41.000000000,2020-07-26 13:22:04.000000000,closed,7,[BUG] MVC BeforeActivation does not register route for all Methods
+1536,2020-06-12 20:10:42.000000000,2020-07-26 13:22:05.000000000,closed,17,[BUG/Feature] MVC Dependency authentication example 
+1533,2020-06-08 13:09:37.000000000,2020-06-09 12:47:45.000000000,closed,3,How to make `context.ReadQuery()` ignore undefined filed
+1532,2020-06-06 08:07:06.000000000,2020-06-08 05:54:22.000000000,closed,4,Iris router auto suffix question
+1531,2020-06-04 12:49:28.000000000,2020-07-26 13:22:04.000000000,closed,1,[BUG] Recorded body overwritten by error status code handler
+1530,2020-06-03 12:29:46.000000000,2020-06-03 13:19:27.000000000,closed,2,[BUG]
+1529,2020-05-28 07:16:28.000000000,2020-06-04 10:37:28.000000000,closed,5,[QUESTION] how to force the request to HTTPS by redirection
+1528,2020-05-27 18:53:23.000000000,2020-05-28 17:44:55.000000000,closed,4,Unable to read request body with gzip content using iris.Context in post method
+1527,2020-05-27 09:51:37.000000000,2020-05-31 04:22:38.000000000,closed,3,Modify the usage of cors 
+1526,2020-05-26 12:57:29.000000000,2020-05-26 13:11:10.000000000,closed,5,Marked for deletion
+1525,2020-05-21 18:56:12.000000000,2020-05-24 17:04:52.000000000,closed,3,getting superfluous response.WriteHeader call on WrapRouter
+1524,2020-05-20 14:34:48.000000000,2020-06-04 18:35:42.000000000,closed,1,[BUG]about formatCookieDomain
+1523,2020-05-20 06:22:14.000000000,2020-05-20 06:44:21.000000000,closed,0,How to get content from upload file
+1522,2020-05-19 22:42:09.000000000,2020-05-19 22:44:32.000000000,closed,3,[marked for deletion] allow Party from Party
+1521,2020-05-19 07:06:35.000000000,2020-08-12 08:34:28.000000000,closed,2,host.ShutdownOnInterrupt: shutdownTimeout not work
+1520,2020-05-18 22:20:52.000000000,2020-05-31 04:19:58.000000000,closed,6,Failed to set version on github.com/kataras/iris to c8e73f4f4df2c725f91f8aa659f9f60a7154c039: Unable to update checked out version: exit status 1
+1519,2020-05-18 18:35:21.000000000,2020-05-19 05:12:11.000000000,closed,2,"I want to make a mp3 online player，but when i use it to listen music, i found it can't jump to the specified point in time that I want it to jump to. "
+1518,2020-05-17 21:28:38.000000000,2020-05-18 06:32:46.000000000,closed,4,test fail with `net/http/httptest`
+1517,2020-05-17 16:59:56.000000000,2020-05-18 19:44:17.000000000,closed,7,How to use the filesystem to store the session?
+1516,2020-05-17 12:05:40.000000000,2020-05-19 12:29:33.000000000,closed,3,[Question] write unit test for file upload
+1515,2020-05-17 01:02:58.000000000,2020-05-17 12:52:54.000000000,closed,6,[FEATURE REQUEST] TLS for Redis.
+1514,2020-05-15 14:22:15.000000000,2020-05-18 07:22:27.000000000,closed,7,URLParam() and URLParams() only return the first param? 
+1513,2020-05-14 12:11:04.000000000,2020-05-19 06:00:16.000000000,closed,1,host.ShutdownOnInterrupt: shutdownTimeout not work
+1512,2020-05-11 13:42:18.000000000,2020-05-14 05:40:29.000000000,closed,4,Can you provide an implementation for websocket that does not need to connect to the namespace?
+1511,2020-05-11 12:29:28.000000000,2020-08-02 22:59:41.000000000,closed,0,"[FEATURE] Error Handlers per Party (static, dynamic and subdomains)"
+1510,2020-05-09 18:19:28.000000000,2020-08-02 22:59:41.000000000,closed,1,Suggest It can be reload when the template html file is changed.
+1509,2020-05-09 09:58:27.000000000,2020-06-03 12:19:34.000000000,closed,5,[Question] How to serve iris route together with http handler
+1508,2020-05-08 09:31:16.000000000,2020-05-08 10:03:11.000000000,closed,1,"is there any function replace StaticWeb,i cant find this function"
+1507,2020-05-07 09:54:59.000000000,2020-05-08 06:28:13.000000000,closed,5,How to remove a routing?
+1506,2020-05-06 08:08:09.000000000,2020-05-07 06:11:57.000000000,closed,10,Whether can dynamically set the certificate?
+1505,2020-05-05 14:10:07.000000000,2020-05-05 14:11:01.000000000,closed,0,Update string2bytes
+1503,2020-05-03 12:24:16.000000000,2020-05-04 19:48:58.000000000,closed,6,[v12.1.8] How to `Context` support a array of form value request or ajax.
+1502,2020-05-03 11:05:41.000000000,2020-05-04 20:02:56.000000000,closed,7,i18n in iris
+1501,2020-04-29 21:53:33.000000000,2020-04-29 22:24:53.000000000,closed,2,French version of readme writen
+1500,2020-04-29 19:23:28.000000000,2020-04-30 06:18:39.000000000,closed,1,About url path filter problem use HandlerDir
+1498,2020-04-28 19:04:25.000000000,2020-04-28 19:13:13.000000000,closed,3,[QUESTION] Can support such routing?
+1497,2020-04-28 07:38:08.000000000,2020-04-28 16:09:49.000000000,closed,3,var _ Party = (*APIBuilder)(nil) var _ RoutesProvider = (*APIBuilder)(nil) // passed to the default request handler (routerHandler)
+1496,2020-04-27 18:26:39.000000000,2020-04-27 18:35:45.000000000,closed,2,modify:add stringToBytes
+1495,2020-04-27 17:39:08.000000000,2020-04-27 18:40:24.000000000,closed,4,if want create custom libary to iris how do write router?
+1494,2020-04-27 11:56:59.000000000,2020-04-27 13:37:58.000000000,closed,3, A code obsessive-compulsive disorder suggestion
+1493,2020-04-26 17:01:05.000000000,2020-08-02 22:59:40.000000000,closed,11,"i want to write a http download service,is there a method to limit download speed？"
+1491,2020-04-26 03:07:41.000000000,2020-04-26 04:51:49.000000000,closed,7,[FEATURE REQUEST] Socket.io Support?
+1490,2020-04-17 23:25:57.000000000,2020-04-26 22:10:52.000000000,closed,4,session cookie CookieSecureTLS only if request is TLS
+1489,2020-04-17 09:28:18.000000000,1970-01-01 00:00:00.000000001,open,5,A thank you 💙
+1488,2020-04-17 06:11:28.000000000,2020-04-21 05:09:36.000000000,closed,4,Update Expiration every visit
+1487,2020-04-16 12:51:19.000000000,1970-01-01 00:00:00.000000001,open,5,"Why GetBy can't be accessed, but PostBy can"
+1486,2020-04-13 20:18:18.000000000,2020-04-13 21:08:05.000000000,closed,3,[QUERY] : How to set various fields of tls.Config with custom values?
+1485,2020-04-11 21:42:54.000000000,2020-04-13 10:35:33.000000000,closed,8,[FEATURE REQUEST]  update session expire date use *Session not only *Sessions
+1484,2020-04-11 09:01:25.000000000,2020-04-12 07:21:45.000000000,closed,3,[v12.1.8] how to use the http.Handler in context.Context when I need captcha image.
+1483,2020-04-11 06:28:38.000000000,2020-04-11 21:34:27.000000000,closed,1,Unable to install iris using dep
+1481,2020-03-28 21:09:08.000000000,2020-04-17 20:52:14.000000000,closed,1,Embed TLS certificate
+1480,2020-03-26 20:59:44.000000000,2020-06-15 13:55:24.000000000,closed,4,Routing cannot match character with slashes
+1479,2020-03-25 08:30:31.000000000,2020-04-11 21:43:10.000000000,closed,7,upload file unexpected EOF
+1478,2020-03-24 14:31:32.000000000,2020-03-25 07:06:41.000000000,closed,2,Dynamic dependency injection failed
+1477,2020-03-24 08:54:03.000000000,2020-03-25 07:25:03.000000000,closed,2,Run websocket how to write response ? 
+1476,2020-03-23 14:25:02.000000000,2020-04-28 16:15:25.000000000,closed,3,[BUG] Session Redis is not establishing a connection
+1475,2020-03-23 12:33:42.000000000,2020-03-24 03:03:41.000000000,closed,2,fix bug: abount dependency injection
+1474,2020-03-22 05:07:10.000000000,2020-03-23 04:17:43.000000000,closed,0,fix bug: abount dependency injection
+1473,2020-03-21 21:46:22.000000000,2020-06-14 14:05:50.000000000,closed,0,[BUG] ctx.NextOrNotFound() is running in loop
+1472,2020-03-21 17:36:44.000000000,2020-05-12 17:10:58.000000000,closed,2,When will ngine be injected
+1471,2020-03-19 12:15:48.000000000,2020-03-23 04:18:23.000000000,closed,1,fix .dokerignore to .dockerignore
+1470,2020-03-16 12:46:03.000000000,2020-03-17 06:58:24.000000000,closed,2,fix .dokerignore to .dockerignore
+1469,2020-03-15 18:05:18.000000000,2020-03-17 11:56:22.000000000,closed,2,fix bug: abount dependency injection
+1468,2020-03-14 19:45:40.000000000,1970-01-01 00:00:00.000000001,open,2,[BUG]Dependencies injection failed
+1466,2020-03-12 11:07:54.000000000,2020-03-12 11:18:35.000000000,closed,2,How to create a empty iris.Context
+1465,2020-03-11 14:07:00.000000000,1970-01-01 00:00:00.000000001,open,8,[FEATURE REQUEST] hero.ResultHandler / DispatchCommonHandler
+1464,2020-03-11 13:14:44.000000000,2020-03-12 14:16:51.000000000,closed,1,hero.New().ErrorHandler(x) not support ?
+1463,2020-03-09 17:38:00.000000000,2020-03-09 19:47:09.000000000,closed,1,[BUG] socket.io cors report an error
+1462,2020-03-06 06:50:28.000000000,2020-03-06 15:04:36.000000000,closed,2,socket.io cors report an error
+1460,2020-03-03 05:59:44.000000000,2020-03-08 14:30:10.000000000,closed,1,Need before/after middleware and timeout-control features
+1459,2020-03-02 18:24:50.000000000,2020-03-03 11:32:56.000000000,closed,4,"How could ""GetByWildard"" be working?"
+1453,2020-02-25 02:40:27.000000000,1970-01-01 00:00:00.000000001,open,2,Potential X-Forwarded-For parsing improvements
+1452,2020-02-24 06:28:03.000000000,2020-02-24 11:34:13.000000000,closed,4,I want to do log tracking
+1451,2020-02-18 20:25:41.000000000,2020-03-24 17:11:42.000000000,closed,9,Some error for Iris's Wiki docs
+1450,2020-02-14 21:40:43.000000000,2020-02-15 02:35:30.000000000,closed,8,App can't find embedded pug template files by go-bindata
+1449,2020-02-12 08:06:09.000000000,2020-02-16 14:27:21.000000000,closed,18,[FEATURE REQUEST] MVC serving gRPC-compatible controller
+1448,2020-02-10 15:50:19.000000000,2020-02-10 22:39:20.000000000,closed,5,"[BUG] : HTTP method helper ""Any"" functionality has changed in the latest version."
+1446,2020-02-09 21:41:20.000000000,2020-02-10 23:37:15.000000000,closed,4,conditional-chain NewConditionalHandler 
+1445,2020-02-09 15:57:13.000000000,2020-02-09 18:46:53.000000000,closed,3,ReadJSON Ajax
+1444,2020-02-08 19:19:45.000000000,2020-02-08 20:25:06.000000000,closed,1,the Chinese characters were garbled in the file name
+1443,2020-02-07 07:07:41.000000000,2020-02-09 04:33:01.000000000,closed,4,How to register all function of a struct to function of template view?
+1442,2020-02-06 14:53:07.000000000,2020-02-06 14:53:51.000000000,closed,1,Kataras master
+1441,2020-02-06 12:21:22.000000000,2020-02-07 06:55:06.000000000,closed,3,Can't run alias virtual host with port 80 (ex: mydomain.com:80)
+1440,2020-02-03 08:58:09.000000000,2020-02-03 13:51:38.000000000,closed,1,[BUG]Context.ServeFile send 'application/wasm' with a wrong extra field
+1439,2020-02-01 22:55:53.000000000,2020-02-09 04:33:09.000000000,closed,2,readForm ignores data in struct?
+1438,2020-01-31 05:32:05.000000000,2020-02-05 15:46:19.000000000,closed,1,[BUG] jet.View - urlpath error (also maybe update dep)
+1437,2020-01-31 02:27:38.000000000,2020-02-09 04:33:15.000000000,closed,3,[question] how to create `json pretty` with iris?
+1436,2020-01-30 23:13:22.000000000,2020-01-31 17:39:07.000000000,closed,2,Raw html output on Pug template
+1435,2020-01-28 23:14:11.000000000,2020-01-31 04:39:12.000000000,closed,2,[FEATURE REQUEST] WrapRouter for iris.Party
+1434,2020-01-28 13:41:28.000000000,2020-01-28 19:15:19.000000000,closed,1,fix: fix a comment error
+1433,2020-01-25 08:45:47.000000000,2020-01-25 09:34:00.000000000,closed,2,versioning broken GET/POST/PUT everything get the last registered route method is irrelevant
+1432,2020-01-20 10:49:19.000000000,2020-01-24 21:10:24.000000000,closed,1,how to set https in iris?
+1431,2020-01-17 23:20:25.000000000,2020-01-22 11:10:02.000000000,closed,1,WebAssembly spelling
+1430,2020-01-13 13:17:12.000000000,2020-01-20 17:14:38.000000000,closed,3,How to set a custom context in MVC?
+1429,2020-01-12 12:00:38.000000000,2020-01-15 05:36:32.000000000,closed,1,Fix typo
+1427,2020-01-08 09:58:35.000000000,2020-01-08 10:38:23.000000000,closed,0,Fix typo
+1426,2020-01-07 16:49:27.000000000,2020-01-08 07:56:31.000000000,closed,1,Fix typo
+1425,2020-01-07 16:24:13.000000000,2020-01-07 18:57:06.000000000,closed,1,jet.go:375:2: cannot use interface {} value as type reflect.Value in return argument: need type assertion
+1424,2020-01-07 13:25:16.000000000,2020-01-07 15:56:26.000000000,closed,5,ctx.ReadForm error
+1422,2020-01-05 21:47:13.000000000,2020-01-06 03:54:10.000000000,closed,1,[BUG] error with iris/view/jet.go after update iris
+1421,2020-01-05 05:16:55.000000000,2020-01-05 21:25:04.000000000,closed,3,[BUG] install iris failed
+1420,2020-01-05 04:03:22.000000000,2020-01-05 05:11:44.000000000,closed,2,Could not install iris.
+1419,2020-01-03 07:25:18.000000000,2020-01-03 16:42:25.000000000,closed,1,Create go.yml
+1418,2020-01-01 14:22:19.000000000,2020-02-11 01:00:43.000000000,closed,3,.Use()  inject result struct Or or hero.DispatchFuncResult inject custom function
+1417,2019-12-31 11:22:16.000000000,2020-01-02 19:57:17.000000000,closed,3,Multi server ports
+1416,2019-12-29 23:09:13.000000000,2019-12-30 13:31:45.000000000,closed,3,[BUG] context.GetLocale raises a panic due to nil reference
+1415,2019-12-28 23:21:31.000000000,2019-12-29 13:08:15.000000000,closed,1,Iris serer disabled by self check
+1414,2019-12-28 20:41:59.000000000,1970-01-01 00:00:00.000000001,open,5,Simple question. Can I use in my own software BSD-2-Clause license?
+1413,2019-12-28 11:58:14.000000000,2019-12-30 07:18:32.000000000,closed,4,[BUG] logger can't get the result of ctx.StatusCode
+1412,2019-12-26 12:49:33.000000000,2019-12-27 17:38:17.000000000,closed,1,"Translate README to Russian language, add link to other translations"
+1411,2019-12-26 12:49:17.000000000,2019-12-27 17:40:33.000000000,closed,1,[FEATURE REQUEST] Translate README to Russian language
+1410,2019-12-24 14:17:27.000000000,2019-12-24 16:25:53.000000000,closed,6,[BUG] [iris.Default] RegisterView
+1409,2019-12-24 10:45:16.000000000,2019-12-24 14:02:06.000000000,closed,3,StaticWeb don't render index.html
+1408,2019-12-23 19:25:26.000000000,2019-12-24 14:03:07.000000000,closed,1,[BUG] view.HTMLEngine.Layout method doesn't work
+1407,2019-12-18 19:03:17.000000000,2019-12-19 10:10:56.000000000,closed,2,[BUG]Session works incorrectly when meets the multi-level TLDs
+1406,2019-12-12 18:28:59.000000000,2019-12-13 07:08:37.000000000,closed,4,[BUG] Broken AutoTLS ?
+1404,2019-12-11 13:52:28.000000000,2019-12-11 16:23:08.000000000,closed,1,Tollbooth is bad to use
+1403,2019-12-10 17:06:21.000000000,2019-12-14 08:26:38.000000000,closed,4,Pion/webrtc integration request
+1402,2019-12-06 16:36:45.000000000,2019-12-07 18:23:05.000000000,closed,3,OnErrorCode help
+1401,2019-12-05 10:59:31.000000000,2019-12-14 02:16:43.000000000,closed,7,Dependency package license issue
+1400,2019-12-02 18:36:13.000000000,2019-12-14 02:11:25.000000000,closed,4,"#1399 [BUG]Can't set file server in subdomain with request path is ""/"""
+1399,2019-12-02 14:55:06.000000000,2019-12-14 02:17:18.000000000,closed,2,"[BUG]Can't set file server in subdomain with request path is ""/"""
+1398,2019-12-01 08:49:08.000000000,2019-12-01 17:53:12.000000000,closed,2,iris Compilation issues
+1397,2019-11-27 20:20:02.000000000,2019-11-27 22:53:30.000000000,closed,3,[BUG][HTTP Server] http: superfluous response.WriteHeader call from github.com/kataras/iris/v12/context.(*responseWriter).tryWriteHeader (response_writer.go:196)
+1396,2019-11-21 21:58:43.000000000,2019-11-21 23:54:19.000000000,closed,3,gin vs iris
+1395,2019-11-20 12:47:51.000000000,2019-11-22 00:51:04.000000000,closed,3,[BUG]github.com/kataras/iris/v12/sessions.GetInt64Default when gives uint value 6 then got 0 return
+1394,2019-11-14 13:11:36.000000000,2019-11-15 12:52:23.000000000,closed,3,[netlify] website is blocked in Russia
+1393,2019-11-13 13:00:37.000000000,2019-11-13 22:17:23.000000000,closed,3,Modify core/router/api_builder.go
+1392,2019-11-13 10:44:31.000000000,2019-11-13 17:34:52.000000000,closed,1,iris-contrib get error
+1391,2019-11-03 21:55:57.000000000,2019-11-05 17:05:34.000000000,closed,5,Static files aren't getting served properly in case of nesting after embedding them in binary
+1390,2019-11-01 10:55:14.000000000,2019-11-01 18:09:28.000000000,closed,2,content overriding example question
+1389,2019-10-31 07:42:52.000000000,2019-10-31 08:33:27.000000000,closed,3,how to use `RenderXML` with `ctx.Problem`?
+1388,2019-10-31 07:33:04.000000000,2019-10-31 07:48:43.000000000,closed,1,"[BUG] when I execute `ctx.Request().Form.Set(xx,xx)`, the handler returned"
+1387,2019-10-30 18:34:33.000000000,2019-10-30 20:57:52.000000000,closed,0,Spanish translations updated
+1386,2019-10-29 12:23:40.000000000,2019-10-31 12:14:42.000000000,closed,2,how to pass context acquired in `WrapRouter` to  `http.HandlerFunc`
+1385,2019-10-26 23:48:13.000000000,2019-12-14 02:43:59.000000000,closed,9,Go get error recently Oct 2019
+1384,2019-10-25 12:07:46.000000000,2019-10-25 12:36:52.000000000,closed,3,[BUG]One request executed twice
+1383,2019-10-24 00:41:58.000000000,2019-10-26 19:49:06.000000000,closed,0,"Serving ""/"" from FileServer using embedded Filesystem results in HTTP 404"
+1382,2019-10-21 05:53:05.000000000,2019-10-24 06:12:06.000000000,closed,1,Reject iris session to schedule job func
+1380,2019-10-19 14:50:19.000000000,2019-11-04 07:44:20.000000000,closed,1,how to log freely?
+1379,2019-10-18 19:00:19.000000000,2019-10-20 11:14:42.000000000,closed,2,"remote ip limit !  tollbooth no support iris (new version),help me !!!"
+1378,2019-10-18 11:28:57.000000000,2019-10-24 06:28:39.000000000,closed,1,how to check remote ip is ipv6? iris support ipv6?
+1377,2019-10-12 13:50:09.000000000,2019-10-12 19:11:57.000000000,closed,1,websocket: (Default)EvtMessageKey is fixed and can't be changed
+1374,2019-10-10 13:45:11.000000000,2019-10-10 15:39:22.000000000,closed,6,how much is the test coverage of this project
+1372,2019-10-06 12:32:23.000000000,2019-10-07 05:32:59.000000000,closed,3,install error (connected host has failed to respond)?
+1371,2019-10-05 07:19:28.000000000,2019-10-05 08:11:44.000000000,closed,2,I want to build/mock iris.Context for unit test
+1370,2019-10-04 01:06:49.000000000,2019-10-26 19:49:06.000000000,closed,1,[POLL] Iris + Go Modules (Import path suffix or not)
+1369,2019-10-01 14:13:42.000000000,2019-12-14 02:19:36.000000000,closed,7,"i18n -with subdirectories, like www.site.com/en"
+1368,2019-09-28 17:34:26.000000000,2019-10-24 06:29:21.000000000,closed,2,using different Layout
+1367,2019-09-28 08:22:42.000000000,2019-10-26 19:49:06.000000000,closed,3,[BUG] sessions/sessiondb/badger package not compatible with badger v1.6.0
+1366,2019-09-27 16:24:22.000000000,2019-10-09 14:48:17.000000000,closed,1,Does iris support hot reload?
+1365,2019-09-26 11:07:12.000000000,2019-09-27 18:33:49.000000000,closed,6,"[BUG] when method is post, route path is invalid with dynamic route"
+1364,2019-09-25 12:13:51.000000000,2019-10-05 23:28:22.000000000,closed,4,Fix bug:about the MVC package route binding
+1363,2019-09-23 15:02:23.000000000,2019-09-25 14:35:33.000000000,closed,5,"html/template: ""movie/index.html"" is undefined"
+1362,2019-09-23 14:03:27.000000000,2019-09-24 06:15:31.000000000,closed,3,Two connects how to join the same room?
+1361,2019-09-17 19:17:55.000000000,2019-09-20 10:32:37.000000000,closed,2,[v11.2.8] I found one question when used `context.Context.Redirect` to Redirect.
+1360,2019-09-12 22:45:41.000000000,2019-09-16 09:07:05.000000000,closed,1,Create README_FA
+1359,2019-09-11 14:01:24.000000000,2019-09-12 09:54:11.000000000,closed,0,[FIX]Icon image shows anomaly
+1358,2019-09-10 11:50:32.000000000,2019-09-11 10:46:18.000000000,closed,1,Not listen in docker
+1357,2019-09-09 23:39:05.000000000,2019-09-10 20:34:41.000000000,closed,2,How can I mock an iris.Context for use in tests?
+1356,2019-09-06 18:08:10.000000000,2019-09-07 06:48:18.000000000,closed,1,Korean translation of README.md
+1355,2019-09-05 00:18:50.000000000,2019-10-26 19:49:05.000000000,closed,4,go.mod missing /v11 at the end of the module directive
+1354,2019-09-02 09:57:52.000000000,2019-09-03 00:22:42.000000000,closed,3,github.com\kataras\iris\core\router\path.go:242:10: undefined: strings.ReplaceAll[BUG]
+1353,2019-09-01 23:53:39.000000000,2019-09-02 00:50:48.000000000,closed,1,Readme image is too heavy for web
+1352,2019-09-01 19:06:34.000000000,2019-09-02 00:41:56.000000000,closed,1,https://github.com/kataras/iris/blob/master/core/router/path.go 存在缺陷
+1351,2019-09-01 13:46:04.000000000,2019-09-03 00:24:56.000000000,closed,3,Why not upgrade bindata tool?
+1350,2019-08-31 01:31:57.000000000,2019-08-31 01:36:27.000000000,closed,2,[BUG]
+1349,2019-08-29 12:09:31.000000000,2019-09-02 05:13:56.000000000,closed,3,"When I used router in my codes, found some strange rule that maybe need to ask for help about it."
+1348,2019-08-24 00:48:01.000000000,2019-08-24 20:26:16.000000000,closed,1,[Question] Params implementation
+1347,2019-08-23 05:46:45.000000000,2019-08-25 18:46:48.000000000,closed,1,I had an installation problem because of the env variable.
+1346,2019-08-23 00:33:51.000000000,2019-08-23 00:58:19.000000000,closed,0,bindata issue with example
+1344,2019-08-21 19:07:56.000000000,2019-08-21 19:48:31.000000000,closed,1, Spanish translation of README.md and HISTORY.md files
+1343,2019-08-21 16:10:07.000000000,2019-08-23 04:47:41.000000000,closed,3,MVC: service injecting fails
+1342,2019-08-21 13:40:03.000000000,2019-08-23 04:47:29.000000000,closed,12,MVC: get the incorrect services in controller 
+1341,2019-08-21 13:06:36.000000000,2019-08-21 15:04:59.000000000,closed,1,_examples/mvc/login/ run error
+1340,2019-08-20 07:28:26.000000000,2019-08-20 13:10:29.000000000,closed,6,Websocket缺少了ConnectionFunc怎么办？
+1339,2019-08-19 07:29:35.000000000,2019-09-25 14:36:34.000000000,closed,10,Would you like to support redis cluster in session?
+1338,2019-08-18 06:34:19.000000000,2019-08-19 13:32:49.000000000,closed,3,"When I use middleware, I use hero to inject the session and find that the session for each request is new, not unique, and I can't get the data I stored when I logged in."
+1337,2019-08-15 10:24:54.000000000,2019-08-15 11:50:47.000000000,closed,1,Fixed typo in comment
+1336,2019-08-12 13:07:40.000000000,2019-08-12 13:13:24.000000000,closed,0,Problem Details for HTTP APIs (v11.2.5)
+1335,2019-08-11 16:41:19.000000000,2019-08-16 13:30:50.000000000,closed,12,[New Feature] Problem Details for HTTP APIs
+1334,2019-08-09 17:59:49.000000000,2019-08-09 22:56:20.000000000,closed,1,iris11.2.3 install error 
+1332,2019-08-08 12:20:13.000000000,2019-08-14 21:02:48.000000000,closed,1,How to get response result(body) in global Interceptor.
+1331,2019-08-07 20:36:16.000000000,2019-08-14 21:02:33.000000000,closed,2,Hi，can you helpe me about the iris's log?
+1330,2019-08-07 14:53:12.000000000,2019-08-09 09:25:12.000000000,closed,2,ctx.ViewData not work with JetEngine
+1329,2019-08-07 14:08:17.000000000,2019-08-07 17:36:49.000000000,closed,3,Just curious about the China phrase everywhere
+1328,2019-08-06 16:58:52.000000000,2019-08-08 10:46:43.000000000,closed,18,Poor performance of session.UpdateExpiration on 200 thousands+ keys with new radix lib
+1327,2019-08-05 20:38:23.000000000,2019-08-05 21:38:09.000000000,closed,4,iris.Jet: no view engine found for '.jet' or '.html'
+1326,2019-08-05 08:58:14.000000000,2019-08-05 10:58:51.000000000,closed,2,My websocket Package has not this struct(websocket.Config)
+1325,2019-08-05 02:15:03.000000000,2019-08-06 21:39:32.000000000,closed,7,POST Method override
+1324,2019-08-05 02:03:07.000000000,2019-08-05 11:58:33.000000000,closed,1,Fix Structtag Tunneling
+1323,2019-08-04 06:38:01.000000000,2019-08-04 07:58:35.000000000,closed,2,repair alphabetical
+1322,2019-08-04 06:37:48.000000000,2019-08-04 07:58:09.000000000,closed,3,alphabetical is there any omission？
+1321,2019-08-04 00:44:52.000000000,2019-08-06 16:51:12.000000000,closed,2, let method always in upper case
+1320,2019-08-04 00:44:31.000000000,2019-08-06 16:51:02.000000000,closed,3,method with lower case was ignored
+1319,2019-08-03 09:15:18.000000000,2019-08-03 19:29:06.000000000,closed,0,New Feature: Content Negotiation
+1317,2019-08-01 07:14:22.000000000,2019-08-02 06:11:14.000000000,closed,4,How can i set the token at the websocket's request header?and i use client.go of example.
+1316,2019-07-30 00:10:28.000000000,2019-08-03 09:55:32.000000000,closed,0,Version 11.2.3
+1315,2019-07-30 00:01:21.000000000,2019-08-03 19:29:05.000000000,closed,0,New Feature: Handle different parameter types in the same path
+1314,2019-07-29 13:53:32.000000000,2019-07-29 15:18:42.000000000,closed,0,Redis sessions
+1313,2019-07-28 21:59:57.000000000,2019-07-28 22:07:44.000000000,closed,1,v.MapRange undefined
+1312,2019-07-27 03:04:22.000000000,2019-07-27 10:37:53.000000000,closed,2,"no method ""app.Delete"""
+1311,2019-07-26 07:30:29.000000000,2019-07-27 06:46:55.000000000,closed,2,Does iris support http request timeout?
+1310,2019-07-25 15:36:14.000000000,2019-07-25 18:08:44.000000000,closed,4,Is ctx.FormValues() works correctly now?
+1309,2019-07-25 07:22:31.000000000,2019-07-25 09:16:04.000000000,closed,0,Readme add Chinese translation
+1308,2019-07-25 07:08:31.000000000,2019-07-25 07:20:31.000000000,closed,0,Readme add Chinese translation
+1307,2019-07-25 06:56:02.000000000,2019-07-25 07:06:12.000000000,closed,1,Readme add Chinese translation
+1305,2019-07-18 01:52:26.000000000,2019-07-23 21:01:11.000000000,closed,0,Automatic Public Domain for development
+1304,2019-07-17 09:38:53.000000000,2019-07-17 14:46:11.000000000,closed,2,#1303 Fixed. Could not build the url-shortener code. Error was being …
+1303,2019-07-17 08:39:20.000000000,2019-07-17 14:46:23.000000000,closed,2,uuid.NewV4() build error in url-shortener 
+1302,2019-07-16 09:38:41.000000000,2019-07-23 20:02:28.000000000,closed,2,NewProxy no work
+1301,2019-07-15 08:44:21.000000000,2019-07-15 09:03:49.000000000,closed,3,How to get int or array from form?
+1300,2019-07-14 13:25:20.000000000,2019-07-14 16:33:06.000000000,closed,3,"can I set a middleware jwt globally, but escape some url checking?"
+1299,2019-07-14 09:55:03.000000000,2019-07-18 05:11:55.000000000,closed,3,question about websocket'connectionID Generator
+1298,2019-07-12 19:53:29.000000000,2019-07-24 03:25:20.000000000,closed,3,ctx.ReadForm() return a error struct if give more params.
+1297,2019-07-12 17:10:59.000000000,2019-07-23 21:01:11.000000000,closed,4,ctx.Request().body only fetch once
+1296,2019-07-09 06:47:52.000000000,2019-07-11 02:22:07.000000000,closed,3,"ctx.ReadJSON - readObjectStart: expect { or n, but found "", error found in #1 byte of"
+1295,2019-07-08 05:52:08.000000000,2019-08-14 21:00:29.000000000,closed,2,Does iris support quic？
+1294,2019-07-06 10:21:57.000000000,2019-07-08 06:00:03.000000000,closed,3,why /v1/hosts/ will be forced to redirect to /v1/hosts
+1293,2019-07-03 12:56:58.000000000,2019-07-18 05:12:43.000000000,closed,1,Apm/Tracing Support
+1292,2019-07-03 06:05:27.000000000,2019-07-23 21:01:11.000000000,closed,5,How to use HandleMany in mvc
+1291,2019-06-29 09:12:40.000000000,2019-06-29 11:44:02.000000000,closed,1,Websites using Iris
+1290,2019-06-28 21:02:07.000000000,2019-06-28 22:53:47.000000000,closed,1,Tornado List index out of range
+1289,2019-06-28 16:08:13.000000000,2019-06-28 16:25:27.000000000,closed,3,Header not Set while sending Token request to external URL
+1288,2019-06-25 08:19:18.000000000,2019-06-25 14:57:45.000000000,closed,5,net/http or fasthttp?
+1287,2019-06-25 06:23:45.000000000,2019-06-25 10:06:14.000000000,closed,1,data race
+1286,2019-06-23 06:02:42.000000000,2019-07-23 20:36:41.000000000,closed,5,Wrong Doc about RegisterFunc
+1285,2019-06-22 07:36:13.000000000,2019-06-22 15:48:22.000000000,closed,4,Redis sessions slow request when benmark
+1283,2019-06-20 17:15:42.000000000,2019-07-23 21:01:10.000000000,closed,0,The new FileServer
+1282,2019-06-20 11:25:05.000000000,2019-06-20 13:40:54.000000000,closed,2,update
+1281,2019-06-19 19:51:05.000000000,2019-07-23 21:01:09.000000000,closed,7,How to use jet template in iris ？
+1280,2019-06-17 17:59:47.000000000,2019-06-19 09:18:55.000000000,closed,3,Build failed in WSL v1/2
+1279,2019-06-16 17:37:55.000000000,2019-06-16 17:55:06.000000000,closed,1,how to get request full path？
+1278,2019-06-12 13:42:08.000000000,2019-06-12 21:40:40.000000000,closed,3,cannot find module providing package github.com/kataras/iris
+1277,2019-06-10 05:29:52.000000000,2019-07-18 05:12:31.000000000,closed,1,"readForm() can parse time string ""2006-01-02"", but readJSON can not"
+1276,2019-06-09 18:30:00.000000000,2019-06-10 00:53:02.000000000,closed,2,webrtc - websocket auto disconnected
+1275,2019-06-08 21:34:14.000000000,2019-06-08 22:35:12.000000000,closed,1,feat: gorm example
+1274,2019-06-07 15:43:59.000000000,2019-07-24 16:50:34.000000000,closed,3,Why not add a mighty Bind method of iris.Context instead of Readform?
+1273,2019-06-07 13:46:45.000000000,2019-07-23 20:36:40.000000000,closed,4,Don't serialize MVC return nil
+1272,2019-06-06 16:08:35.000000000,2019-06-07 23:55:42.000000000,closed,2,pongo2 依赖导致 iris 报错
+1271,2019-06-06 14:43:47.000000000,2019-06-07 00:06:54.000000000,closed,1,Dynamic routing cannot match url like /msg/xxx%2Fxxx
+1270,2019-06-02 20:49:58.000000000,2019-06-03 09:17:10.000000000,closed,1,Please see rizla it can't work
+1269,2019-06-01 19:59:09.000000000,2019-06-07 00:18:28.000000000,closed,6,Not resolved jwtHandler.Serve
+1268,2019-06-01 19:49:01.000000000,2019-06-02 00:43:05.000000000,closed,5,route error - possibly regex
+1267,2019-06-01 15:53:55.000000000,2019-08-14 21:03:24.000000000,closed,4,"Is there any way to show a message directly in the showMessage function, and don't execute the method after this function"
+1266,2019-05-29 13:39:42.000000000,2019-05-30 09:25:45.000000000,closed,1,dep ensure -add  github.com/kataras/iris
+1265,2019-05-28 21:30:32.000000000,2019-05-28 23:54:57.000000000,closed,3,Can not read JSON body on different middleware functions
+1264,2019-05-25 23:52:00.000000000,2019-05-25 23:52:08.000000000,closed,0,Create FUNDING.yml for the GitHub Sponsor Program
+1263,2019-05-24 18:13:32.000000000,2019-05-25 09:04:14.000000000,closed,2,Error return value of `app.Run` is not checked (errcheck)go-lint 
+1262,2019-05-24 17:24:39.000000000,2019-05-30 09:34:12.000000000,closed,1,Multi response was sent to one request ?
+1261,2019-05-24 05:08:50.000000000,2019-05-30 09:25:53.000000000,closed,1,What if I want to exit directly from a custom function and output the response directly?
+1260,2019-05-21 15:10:54.000000000,2019-05-30 09:25:52.000000000,closed,1,[ISSUE] config of TOML and YAML can't show error if the config item wrong
+1259,2019-05-20 16:30:29.000000000,2019-05-30 09:26:10.000000000,closed,1,[ISSUE] POST request routed to GET handler
+1258,2019-05-16 17:45:39.000000000,2019-05-30 09:33:58.000000000,closed,1,How to implement request asynchronous waiting
+1257,2019-05-15 18:10:13.000000000,2019-05-30 09:37:59.000000000,closed,2,"Done @shenkaige , the updated [example](https://github.com/kataras/iris/blob/master/_examples/http_request/read-form/main.go#L30) looks like this (note the new `IsErrPath`):"
+1256,2019-05-15 15:35:45.000000000,2019-07-23 21:01:09.000000000,closed,1,sessions database redis keys delimeter
+1255,2019-05-13 18:06:24.000000000,2019-05-30 09:25:45.000000000,closed,3,Error on use Godep
+1254,2019-05-13 09:51:36.000000000,2019-05-13 10:20:34.000000000,closed,0,template part not working 
+1253,2019-05-12 22:13:01.000000000,2019-06-20 17:16:35.000000000,closed,4,Error in this function in file *github.com/kataras/iris/view/django.go*
+1252,2019-05-06 17:17:19.000000000,2019-05-30 09:38:22.000000000,closed,2,white page on posted page 
+1250,2019-04-30 16:09:59.000000000,2019-07-23 21:01:08.000000000,closed,0,context.TryWriteGzip don't work correctly when client does n't support gzip
+1249,2019-04-25 07:26:22.000000000,2019-04-25 07:36:50.000000000,closed,0,Request Timeouts
+1247,2019-04-23 16:19:36.000000000,2019-04-23 16:33:25.000000000,closed,3,undefined iris.Context
+1246,2019-04-20 12:02:53.000000000,2019-04-20 15:40:34.000000000,closed,3,"how to match ""http://domain/module/xxx.json"" in mvc"
+1245,2019-04-20 06:15:36.000000000,2019-04-25 06:18:27.000000000,closed,4,How to use jsoniter - extra
+1244,2019-04-16 02:09:23.000000000,2019-07-23 21:01:08.000000000,closed,11,Question: MVC Custom Error Handler?
+1243,2019-04-15 14:05:23.000000000,2019-04-17 11:34:12.000000000,closed,5,json binding required   fail 
+1242,2019-04-14 22:12:08.000000000,2019-04-14 22:53:59.000000000,closed,3,Add license scan report and status
+1241,2019-04-12 07:28:58.000000000,2019-04-15 15:19:07.000000000,closed,2,mime type of response body
+1240,2019-04-11 12:45:19.000000000,2019-04-11 20:57:41.000000000,closed,3,Is it possible to hot reload a executable iris file?
+1239,2019-04-10 13:04:15.000000000,2019-04-10 18:55:43.000000000,closed,2,Can iris support this kind of regex match pattern routes?
+1238,2019-04-09 16:40:35.000000000,2019-04-16 21:03:01.000000000,closed,1,How to bind multiple json request body on two or more struct ?
+1237,2019-04-09 12:45:16.000000000,2019-04-17 18:58:11.000000000,closed,2,How to write a transaction at the function level by iris
+1236,2019-04-09 03:26:31.000000000,2019-04-10 15:57:59.000000000,closed,1,Improved english documentation
+1235,2019-04-05 14:27:18.000000000,2019-04-16 21:03:10.000000000,closed,1,how to compatibility request param
+1234,2019-04-05 12:24:22.000000000,2019-04-09 16:03:38.000000000,closed,0,How to handle request body using two different struct ?
+1233,2019-04-05 03:58:39.000000000,2019-04-06 16:37:13.000000000,closed,2,Where do you buy your github stars?
+1232,2019-04-03 15:48:10.000000000,2019-04-03 15:49:11.000000000,closed,1,How to enable Spotify tracks
+1231,2019-03-30 04:37:45.000000000,2019-04-16 01:45:48.000000000,closed,4,Integration with swag
+1230,2019-03-29 11:33:40.000000000,2019-04-16 21:03:17.000000000,closed,1,When can it provide a response interceptor?
+1229,2019-03-27 03:04:51.000000000,2019-07-23 21:01:08.000000000,closed,7,Websocket authentication in iris using JWT 
+1228,2019-03-25 10:20:44.000000000,2019-06-25 20:25:04.000000000,closed,1,jwt middleware token extractor
+1227,2019-03-22 21:37:06.000000000,2019-03-22 21:37:12.000000000,closed,0,Sync with master
+1226,2019-03-22 21:35:29.000000000,2019-03-22 21:35:46.000000000,closed,0,Sync with master
+1224,2019-03-18 07:07:43.000000000,2019-03-18 15:26:29.000000000,closed,1,how to get configuration in a controller or by  iris.Context?
+1223,2019-03-18 03:00:45.000000000,2019-06-25 20:34:08.000000000,closed,3,Possible to define custom websocket Connection ID and use same after reload page?
+1222,2019-03-12 08:13:43.000000000,2019-04-16 21:08:21.000000000,closed,1,"How do I keep data (iris.Map) to next request via ""redirect""?"
+1221,2019-03-12 05:34:20.000000000,2019-03-17 12:32:07.000000000,closed,3,"does iris supports for GlobalHandle,just likes java struct2 filters?"
+1220,2019-03-11 06:44:25.000000000,2019-03-22 21:34:26.000000000,closed,1,unexpected parameter type: file -> GET::/single_file/{myfile:file}
+1219,2019-03-10 16:50:00.000000000,2019-07-24 04:45:33.000000000,closed,1,ctx.ReadForm crashed with HTTP 500 when try to cast string to number
+1218,2019-03-09 22:15:03.000000000,2019-07-18 05:11:37.000000000,closed,1,Is it possible to make app.Run blocking?
+1217,2019-03-08 19:54:14.000000000,2019-07-23 21:01:34.000000000,closed,3,Binding to 0.0.0.0 always defaults to localhost.
+1216,2019-03-08 10:02:56.000000000,2019-07-23 21:03:20.000000000,closed,4,[MVC] using session info in middleinfo and parameters passing among handlers
+1215,2019-03-08 09:57:49.000000000,2019-03-08 10:03:34.000000000,closed,0,[MVC] using session info in middleinfo and parameters passing among handlers
+1214,2019-03-07 22:58:13.000000000,2019-03-09 08:36:18.000000000,closed,2,"StatusInternalServerError ,Custom  data can‘t be returned"
+1213,2019-03-06 13:42:41.000000000,2019-07-23 21:18:08.000000000,closed,4,write tcp [::1]:8099->[::1]:64820: wsasend: An established connection was aborted by the software in your host machine.
+1212,2019-03-06 06:28:11.000000000,2019-06-23 22:11:53.000000000,closed,1,route parameter in party error: Method Not Allowed
+1211,2019-03-04 19:58:16.000000000,2019-03-04 20:01:43.000000000,closed,1,routes: SetStatusOffline but no SetStatusOnline
+1209,2019-03-02 08:00:13.000000000,2019-07-18 05:12:12.000000000,closed,3,"html/template: ""hello/index.html"" is undefined"
+1208,2019-03-01 12:44:02.000000000,2019-07-23 21:20:17.000000000,closed,3,Sending message to specific user with socket id
+1207,2019-02-28 21:33:08.000000000,2019-08-14 21:00:10.000000000,closed,5,[Context API Request] Add `ReadQuery` for convenient obtain query struct.
+1206,2019-02-28 11:59:47.000000000,2019-07-23 21:01:07.000000000,closed,2,[Request] hybride client browser/nodejs client for websocket
+1205,2019-02-27 12:05:56.000000000,2019-07-23 20:36:39.000000000,closed,2,MVC with parameters and context
+1204,2019-02-26 17:43:18.000000000,2019-03-13 08:46:34.000000000,closed,4,how can I set tow single application app.
+1203,2019-02-26 11:51:02.000000000,2019-02-26 20:46:57.000000000,closed,5,websocket: (Default)EvtMessageKey is fixed and can't be changed
+1202,2019-02-23 08:06:04.000000000,2019-07-23 21:18:16.000000000,closed,3,undefined: iris.Controller
+1201,2019-02-20 14:49:36.000000000,2019-07-23 21:01:07.000000000,closed,7,lost connection to ws 
+1200,2019-02-20 01:25:13.000000000,2019-07-23 21:01:06.000000000,closed,2,[Request] Session support token communication not only using cookie.
+1199,2019-02-18 12:59:59.000000000,2019-07-23 21:18:28.000000000,closed,5,[Request] Make session support issuing and validating 
+1198,2019-02-18 08:38:24.000000000,2019-08-14 21:03:34.000000000,closed,5,[MVC] Can we use dependencies in middleware?
+1197,2019-02-17 17:22:17.000000000,2019-02-17 19:11:30.000000000,closed,2,MVC Can't Register Session 
+1196,2019-02-17 09:16:23.000000000,2019-08-14 21:06:59.000000000,closed,2,new feature - integrate MQTT
+1195,2019-02-17 08:41:48.000000000,2019-07-23 21:15:33.000000000,closed,12,websocket rebuild 1m
+1194,2019-02-17 08:41:13.000000000,2019-02-17 08:43:58.000000000,closed,1,websocket rebuild 1m
+1193,2019-02-17 08:41:06.000000000,2019-02-17 08:43:50.000000000,closed,1,websocket rebuild 1m
+1192,2019-02-16 07:21:36.000000000,2019-07-23 21:18:38.000000000,closed,7,Memory is not cleaned up while doing some stress testing
+1191,2019-02-15 23:30:20.000000000,2019-02-17 02:21:33.000000000,closed,2,"Possibility to get rid of ""Now listening on [...]"""
+1190,2019-02-15 20:24:44.000000000,2019-02-15 22:00:58.000000000,closed,1,Local scan failed
+1188,2019-02-15 07:02:52.000000000,2019-06-23 22:25:16.000000000,closed,8,Jsonpb support
+1187,2019-02-14 22:29:59.000000000,2019-07-23 21:01:06.000000000,closed,3,Error handling in MVC mapper functions
+1186,2019-02-14 11:59:22.000000000,2019-07-23 21:01:05.000000000,closed,3,About Session's Path
+1185,2019-02-14 04:04:05.000000000,2019-02-14 06:34:44.000000000,closed,2,Add path 2 session
+1184,2019-02-13 17:59:52.000000000,2019-02-13 18:05:14.000000000,closed,2,Add Path to Session
+1183,2019-02-12 18:49:14.000000000,2019-07-23 21:13:20.000000000,closed,2,benchmark add koa2
+1182,2019-02-11 22:37:38.000000000,2019-02-14 06:32:15.000000000,closed,1,api-guidelines url
+1181,2019-02-02 08:04:06.000000000,2019-08-14 21:05:11.000000000,closed,3,After replay attack check Need to forward the request to another server
+1180,2019-02-01 16:26:52.000000000,2019-07-23 21:01:05.000000000,closed,4,How to add a value into the request context from a middleware function?
+1179,2019-01-31 06:45:35.000000000,2019-02-05 16:46:47.000000000,closed,1,View problem makes iris not working
+1178,2019-01-29 19:30:39.000000000,2019-07-23 21:01:05.000000000,closed,24,websocket rebuild 2019
+1177,2019-01-22 06:44:02.000000000,2019-01-23 02:08:03.000000000,closed,1,How generate static page?
+1176,2019-01-21 14:03:30.000000000,2019-01-22 06:08:15.000000000,closed,2,IDEA Unresolved reference
+1175,2019-01-20 02:37:10.000000000,2019-07-23 20:36:32.000000000,closed,8,Upgrade: v11.2.0
+1174,2019-01-16 23:39:43.000000000,2019-01-21 14:31:19.000000000,closed,4,Build error for 11.1.1
+1173,2019-01-16 11:54:50.000000000,2019-07-23 21:01:04.000000000,closed,10,data race issue
+1172,2019-01-16 10:48:27.000000000,2019-02-09 12:08:55.000000000,closed,11,ReadForm error when added csrf
+1171,2019-01-15 09:45:36.000000000,2019-01-15 17:20:42.000000000,closed,1,Modular structure similar to Revel modules 
+1170,2019-01-08 20:01:11.000000000,2019-01-21 14:31:35.000000000,closed,8,Feature: Add applying rules on middleware
+1169,2019-01-07 17:10:12.000000000,2019-01-07 17:18:32.000000000,closed,2,how can i read a dynamic struct using ctx.ReadJSON.
+1168,2019-01-07 11:43:14.000000000,2019-01-07 15:40:29.000000000,closed,3,"In `Get` method, for getting params, use `context::FormValues` or `context::URLParams`?"
+1167,2019-01-07 00:10:08.000000000,2019-01-21 14:31:35.000000000,closed,7,Feature: Add `Context#Request#FullRequestPath`
+1166,2019-01-06 12:22:47.000000000,2019-07-23 21:17:16.000000000,closed,1,Update fs.go
+1165,2019-01-04 21:30:18.000000000,2019-02-05 18:12:34.000000000,closed,17,How can we call a controller method as scheduled(e.g. using crontab)?
+1164,2019-01-04 10:46:52.000000000,2019-01-04 14:17:13.000000000,closed,2,This example Lack of close parenthesis
+1163,2018-12-30 13:41:16.000000000,2018-12-31 20:11:49.000000000,closed,2,about redis 
+1162,2018-12-30 09:52:04.000000000,2019-01-05 17:58:11.000000000,closed,1,Type mismatch in jade.Parse
+1161,2018-12-29 11:13:43.000000000,2018-12-29 11:58:24.000000000,closed,3,[Question] Using plain WebSockets with Iris?
+1160,2018-12-28 00:03:34.000000000,2019-01-03 15:59:02.000000000,closed,2,concurrency problem on the logger
+1159,2018-12-24 05:55:01.000000000,2019-07-23 21:21:58.000000000,closed,4,Websockets Broadcast outside a On() handler?
+1158,2018-12-21 09:16:08.000000000,2018-12-21 11:42:45.000000000,closed,1,"the GetCurrentRoute is nil when OnErrorCode, need GetCurrentRoute when OnErrorCode"
+1157,2018-12-20 21:29:35.000000000,2018-12-22 06:56:02.000000000,closed,5,ReadForm can't skip unmapped parameter automatically
+1156,2018-12-18 15:13:21.000000000,2018-12-18 15:51:33.000000000,closed,3,README_ZH.md in _examples/
+1155,2018-12-17 22:57:08.000000000,2018-12-21 15:16:25.000000000,closed,3,Dynamic Path Parameters
+1154,2018-12-15 20:32:34.000000000,2018-12-18 15:49:10.000000000,closed,1,Gracefully test shutting down
+1153,2018-12-10 11:34:40.000000000,2019-01-21 14:31:42.000000000,closed,1,about ctx.JSON
+1152,2018-12-10 08:25:49.000000000,2018-12-10 08:41:28.000000000,closed,0,iris request body
+1151,2018-12-09 06:54:34.000000000,2018-12-10 02:22:03.000000000,closed,1,replacing default `json` to `jsoniter`
+1150,2018-12-09 06:47:06.000000000,2018-12-09 19:24:36.000000000,closed,1,gorilla/websocket to fasthttp/websocket
+1149,2018-12-07 14:20:41.000000000,2018-12-08 15:40:19.000000000,closed,3,context.Context interface implementation
+1148,2018-12-07 13:54:55.000000000,2018-12-07 15:40:01.000000000,closed,2,Fix link for httpexpect in README
+1147,2018-12-03 01:50:14.000000000,2018-12-03 03:56:48.000000000,closed,3,Html template render to string
+1146,2018-11-30 04:55:26.000000000,2018-12-02 06:00:57.000000000,closed,2,Fix cache corruption due to recorder reuse
+1145,2018-11-30 03:47:10.000000000,2018-12-02 06:04:00.000000000,closed,1,Do I have the ability to create a job  like quartz.net with Iris?
+1144,2018-11-29 07:27:17.000000000,2018-12-08 15:40:27.000000000,closed,5,improve
+1143,2018-11-29 03:07:12.000000000,2018-12-02 06:02:25.000000000,closed,6,Hello World example fails for go 11.2 and dep installation
+1142,2018-11-28 22:47:11.000000000,2018-11-29 02:22:00.000000000,closed,1,iris.Context.Exec doesn't work after adding middleware
+1141,2018-11-28 16:02:17.000000000,2018-11-29 02:20:45.000000000,closed,7,Can't call Ctx.Exec in mvc
+1140,2018-11-27 17:11:56.000000000,2018-11-27 17:39:27.000000000,closed,1,session/redis: fix unused service config var. IdleTimeout witch was r…
+1139,2018-11-27 17:10:17.000000000,2018-11-27 17:39:44.000000000,closed,0,Session/Redis: unused config variable
+1138,2018-11-27 15:18:22.000000000,2018-11-28 05:46:19.000000000,closed,3,How to get Context Response Body
+1137,2018-11-21 01:49:58.000000000,2018-11-21 16:09:35.000000000,closed,9,modelbinder in golang
+1136,2018-11-17 13:00:37.000000000,2018-11-18 09:07:12.000000000,closed,2,Incompatible with go moudules
+1135,2018-11-14 02:07:49.000000000,2019-08-16 13:31:58.000000000,closed,1,"How to bind multi-domain with different router, ssl, and proxies?"
+1134,2018-11-12 20:49:02.000000000,2018-11-18 09:07:24.000000000,closed,5,TestMVC
+1132,2018-11-10 18:10:46.000000000,2018-11-11 02:51:16.000000000,closed,4,why can't install v11?
+1131,2018-11-10 12:35:06.000000000,2019-08-16 13:31:16.000000000,closed,2,Upload from external site: Content-Type isn't multipart/form-data
+1130,2018-11-10 06:50:47.000000000,2018-11-18 06:28:23.000000000,closed,0,Versioning API
+1129,2018-11-10 00:41:19.000000000,2019-07-23 21:22:13.000000000,closed,5,Versioning with accept headers
+1128,2018-11-07 15:40:04.000000000,2018-11-08 15:14:31.000000000,closed,5,Update go.mod
+1127,2018-11-07 15:31:51.000000000,2018-11-08 15:14:47.000000000,closed,0,go mod version
+1126,2018-11-07 13:56:18.000000000,2018-11-08 15:15:02.000000000,closed,1,cannot use jade.Parse
+1125,2018-11-06 04:06:41.000000000,2018-11-06 07:07:17.000000000,closed,1,jade v0.7.0 invalid revision
+1124,2018-11-02 23:04:08.000000000,2018-11-05 21:28:24.000000000,closed,2,setting Remote Address and Path for module tests
+1123,2018-11-01 16:54:47.000000000,2018-11-01 22:11:47.000000000,closed,2,update layout output without restart
+1122,2018-10-31 17:52:38.000000000,2018-11-22 15:23:30.000000000,closed,13,origin has been blocked by CORS policy
+1121,2018-10-31 16:43:05.000000000,2018-11-01 22:12:01.000000000,closed,1,kataras/pio/registry.go:127 undefined: sort.Slice
+1120,2018-10-31 13:27:54.000000000,2018-11-01 22:17:05.000000000,closed,5,How to throw logs in JSON ?
+1119,2018-10-31 12:51:31.000000000,2018-10-31 14:20:41.000000000,closed,1,Why is disable version checker removed ?
+1118,2018-10-29 08:16:54.000000000,2018-10-30 03:03:41.000000000,closed,1,Overflows when build 32 bit app on 64 bit system
+1117,2018-10-27 16:58:23.000000000,2018-10-30 03:05:34.000000000,closed,0,add part function in html.go and examples
+1116,2018-10-26 10:25:38.000000000,2018-10-27 16:29:07.000000000,closed,1,add part function and the examples for the this case 
+1115,2018-10-25 12:59:18.000000000,2018-10-26 03:58:10.000000000,closed,1,Dynamic routing issue
+1114,2018-10-25 09:01:14.000000000,2018-10-26 10:21:58.000000000,closed,2,add part function in html.go   for extending block in layout 
+1113,2018-10-23 15:36:44.000000000,2018-10-31 03:45:35.000000000,closed,4,is there a way to change the prefix of the websocket message tag
+1112,2018-10-23 04:06:38.000000000,2018-10-23 18:16:58.000000000,closed,3,Can't run under win7 32bit?
+1111,2018-10-19 23:09:14.000000000,2018-10-21 02:19:13.000000000,closed,2,Bump Travis versions
+1110,2018-10-16 09:30:29.000000000,2018-10-16 14:58:24.000000000,closed,2,Fix panic error in concurrent calling with websocket.Connection.Emit() 
+1109,2018-10-16 09:14:25.000000000,2018-10-16 09:23:16.000000000,closed,2,Fix panic error in concurrent calling with websocket.Connection.Emit()
+1108,2018-10-16 09:11:41.000000000,2018-10-16 14:59:19.000000000,closed,0,panic in concurrent calling with websocket.Connection.Emit()
+1107,2018-10-16 08:36:39.000000000,2018-10-16 14:58:57.000000000,closed,1,pls fix this bug for 355 line server.go file
+1106,2018-10-14 22:50:28.000000000,2018-10-15 12:58:15.000000000,closed,2,Typo internally
+1104,2018-10-10 15:35:23.000000000,2018-10-13 10:42:54.000000000,closed,1,install break:pio/registry.go:127 undefined sor.Slice
+1103,2018-10-10 13:15:23.000000000,2018-10-10 13:40:13.000000000,closed,1,add http method
+1102,2018-10-10 13:14:43.000000000,2018-10-21 22:01:41.000000000,closed,4,add http method
+1099,2018-10-09 10:31:25.000000000,2018-10-25 14:21:18.000000000,closed,3,how to get the http multipart/form-data  data format?
+1098,2018-10-08 02:07:15.000000000,2019-12-14 02:43:48.000000000,closed,2,Started on improving member documentation readability
+1097,2018-10-06 07:52:17.000000000,2018-10-10 06:18:32.000000000,closed,2,The runtime error showing on terminal is not showing on VS Code's console.
+1096,2018-10-06 07:13:17.000000000,2018-10-17 05:57:02.000000000,closed,1,"When controller struct using private field with interface type, calling private field's method in struct method got ""bad access"" error."
+1095,2018-10-03 19:30:49.000000000,2018-10-04 14:09:13.000000000,closed,4,ReadForm got error when no query parameter
+1094,2018-09-28 06:09:03.000000000,2019-07-23 21:22:13.000000000,closed,2,MVC routing path name
+1093,2018-09-26 16:06:15.000000000,1970-01-01 00:00:00.000000001,open,7,hello ，My friends and I started a Chinese iris community
+1092,2018-09-26 15:49:49.000000000,2018-09-27 09:01:33.000000000,closed,2,I have a demand that to intercept response body
+1090,2018-09-18 17:11:25.000000000,2018-12-03 17:17:20.000000000,closed,6,How to pass values to websocket handler in iris websocket
+1088,2018-09-14 11:16:56.000000000,2018-09-16 17:52:53.000000000,closed,2,fix README
+1087,2018-09-13 16:08:37.000000000,2018-10-21 21:59:25.000000000,closed,3,Calling c.Disconnect() in this version will cause the program to crash.
+1086,2018-09-11 17:09:09.000000000,2018-09-13 01:01:29.000000000,closed,0,yaml.v2 is conflicting with dep v0.5.0
+1084,2018-09-07 13:12:01.000000000,2018-09-16 17:52:11.000000000,closed,2,update README.md example
+1080,2018-09-05 05:36:32.000000000,2018-09-13 04:00:02.000000000,closed,2,How to integrate swagger-ui?
+1079,2018-09-02 19:52:59.000000000,2018-09-13 01:07:37.000000000,closed,2,Fixed typo in comment
+1078,2018-08-31 17:51:26.000000000,2018-09-01 20:39:09.000000000,closed,13,Session Question
+1076,2018-08-28 23:16:29.000000000,2018-08-28 23:19:15.000000000,closed,1,How to check for headers with httptest ?
+1075,2018-08-27 20:48:59.000000000,2018-08-27 23:45:03.000000000,closed,4,Application.Logger() return the same instance of golog.Logger object
+1073,2018-08-23 19:56:14.000000000,2018-08-24 01:23:16.000000000,closed,6,Passing data/context to partials
+1072,2018-08-22 12:54:08.000000000,2018-08-22 22:41:11.000000000,closed,1,app.SPA vs non app.SPA
+1071,2018-08-22 01:57:10.000000000,2018-10-21 22:01:41.000000000,closed,12,Support Uint64 for MVC
+1070,2018-08-21 12:24:55.000000000,2019-07-23 21:19:02.000000000,closed,4,websocket count connections/clients
+1069,2018-08-20 17:29:40.000000000,2019-07-23 21:15:19.000000000,closed,1,websocket host and the restful host setup
+1068,2018-08-20 11:45:20.000000000,2018-08-22 06:15:27.000000000,closed,2,SPA route behaviour + bindata for static files
+1067,2018-08-19 12:29:21.000000000,2018-08-21 17:59:28.000000000,closed,2,RegisterView error
+1066,2018-08-19 00:08:29.000000000,2018-08-26 12:10:42.000000000,closed,2,Reconnect WebSocket on disconnection
+1065,2018-08-16 18:37:24.000000000,2018-08-19 15:48:16.000000000,closed,3,Live Video Stream on a Iris Server
+1064,2018-08-16 14:15:32.000000000,2018-08-18 15:41:21.000000000,closed,2,various fixes on redis as sessions db
+1063,2018-08-15 10:27:25.000000000,2018-08-16 13:49:55.000000000,closed,0,fix / lifetime.Time not updated on expiration shift
+1062,2018-08-14 19:31:00.000000000,2018-08-17 16:41:29.000000000,closed,0,Fixed some minor grammar issues
+1061,2018-08-14 14:04:36.000000000,2018-08-18 15:41:36.000000000,closed,2,Sessions.ShiftExpiration() does not shift redis TTL accordingly
+1060,2018-08-12 17:44:50.000000000,2018-08-12 19:27:38.000000000,closed,7,Is there a way to get body as a string?
+1059,2018-08-11 01:40:57.000000000,2018-08-11 22:37:06.000000000,closed,2,Fixed Some Typos
+1058,2018-08-09 10:58:46.000000000,2018-08-09 14:59:07.000000000,closed,5,custom regex error
+1057,2018-08-07 12:58:04.000000000,2019-07-23 21:19:17.000000000,closed,4,How to use Session in none mvc project controller?
+1056,2018-08-07 12:32:14.000000000,2018-08-07 13:00:31.000000000,closed,1,iris-go.com doesn't available
+1054,2018-07-30 15:44:58.000000000,2018-07-31 09:20:05.000000000,closed,1,testing websocket
+1053,2018-07-30 12:59:57.000000000,2018-07-30 13:39:50.000000000,closed,2,Minified the client.js using UglifyJs
+1051,2018-07-29 18:11:36.000000000,2018-07-30 11:57:10.000000000,closed,1,Go 1.11beta2 module error
+1050,2018-07-29 12:22:47.000000000,2018-07-29 19:56:30.000000000,closed,4,How can I share the session instance between two deferent method in a controller?
+1048,2018-07-26 06:11:28.000000000,1970-01-01 00:00:00.000000001,open,3,ready for production?
+1047,2018-07-24 14:07:10.000000000,2019-07-23 21:14:29.000000000,closed,6,Adding the iris-ws.js file to CDNJS
+1045,2018-07-23 11:48:17.000000000,2018-07-23 12:37:24.000000000,closed,0,"run the _examples/file-server/send-files,got 404 ?"
+1044,2018-07-20 21:01:05.000000000,2018-07-23 01:10:17.000000000,closed,13,Error cors with socket IO
+1043,2018-07-19 11:06:01.000000000,2018-07-19 12:15:04.000000000,closed,7,Tried to pass json data but can't read the json passed using html form
+1041,2018-07-15 15:23:28.000000000,2018-07-19 12:17:30.000000000,closed,7,Mixed line endings in the Iris source files
+1039,2018-07-09 08:44:56.000000000,2018-07-09 12:21:15.000000000,closed,2,AutoTLS not working on GCP VM.
+1035,2018-06-30 21:49:15.000000000,2018-07-01 02:37:42.000000000,closed,3,Option to log all HTTP requests to a file?
+1033,2018-06-27 09:39:14.000000000,2018-06-27 14:32:33.000000000,closed,2,sessions.DefaultTranscoder type error
+1032,2018-06-27 07:26:15.000000000,2018-07-05 16:13:37.000000000,closed,1,AutoTLS and Wildcard subdomains
+1031,2018-06-25 07:28:40.000000000,2018-06-26 05:49:38.000000000,closed,7,How can I get register session dependency in middleware?
+1023,2018-06-11 07:19:59.000000000,2018-08-08 14:24:07.000000000,closed,4,Thread-safe modification of s.connections slices
+1022,2018-06-07 14:13:36.000000000,2018-06-07 14:20:45.000000000,closed,0,static file into execute file
+1021,2018-06-05 07:38:15.000000000,2018-07-05 16:15:17.000000000,closed,4,Failed to load http://localhost:54321/config/configs: Request header field token is not allowed by Access-Control-Allow-Headers in preflight response
+1020,2018-06-02 19:25:16.000000000,2018-06-03 03:53:16.000000000,closed,2,"Set int value into session (using redis db), but can not get it out!"
+1018,2018-06-01 23:19:31.000000000,2019-07-23 21:14:39.000000000,closed,5,There is no option to delete a cookie with a particular path
+1017,2018-05-30 19:18:21.000000000,2018-05-31 06:00:23.000000000,closed,2,Logging with full QueryString
+1016,2018-05-30 13:08:01.000000000,2018-05-31 06:09:19.000000000,closed,2,How to create Dynamic Path Request
+1015,2018-05-29 23:32:41.000000000,2018-05-30 10:53:53.000000000,closed,2,README_JPN added
+1014,2018-05-29 17:48:28.000000000,2018-05-29 17:51:00.000000000,closed,2,Japanese Translation of README.md
+1013,2018-05-29 14:15:23.000000000,2018-05-29 15:59:30.000000000,closed,3,how can I config js 
+1011,2018-05-27 22:58:55.000000000,2018-05-30 10:49:12.000000000,closed,1,client to client Voice Call 
+1010,2018-05-27 00:30:16.000000000,2018-06-02 05:32:17.000000000,closed,0,Proceed misspelled in CSRF Example signup.html
+1009,2018-05-27 00:30:02.000000000,2018-05-30 10:49:53.000000000,closed,1,Fix Typo in CSRF Example signup.html
+1008,2018-05-26 18:51:11.000000000,2018-05-30 10:51:19.000000000,closed,2,Create README_PT_BR.md
+1006,2018-05-20 13:21:58.000000000,2018-05-21 05:45:35.000000000,closed,6,mvc Router.Done not work
+1005,2018-05-18 09:11:37.000000000,2018-05-21 00:34:50.000000000,closed,1,fix cookie bug when domain is such as 'subsubdomain.subdomain.localho…
+1004,2018-05-17 09:46:04.000000000,2018-05-21 00:35:26.000000000,closed,2,formatCookieDomain return a wrong value when the domain has a region suffix like www.sina.com.cn
+1003,2018-05-17 00:55:10.000000000,2018-05-31 20:32:17.000000000,closed,11,"Using Pug engine, but no default func?"
+1002,2018-05-16 03:06:21.000000000,2018-05-21 08:43:34.000000000,closed,1,_examples/file-server/favicon/main.go wrong
+1000,2018-05-14 23:06:09.000000000,2018-05-21 00:35:10.000000000,closed,5,Add README_ID.md
+999,2018-05-14 21:01:23.000000000,2018-05-14 22:37:09.000000000,closed,2,Create a git tag for 10.6.4
+998,2018-05-10 07:22:18.000000000,2018-05-10 09:34:08.000000000,closed,1,SUPPORT HTTP/2 ??
+995,2018-05-07 17:03:34.000000000,2018-05-07 17:50:19.000000000,closed,3,"Goroutine panic. If there is two handlers with same URI-SOURCE-prefix ( ""/invoices"" and ""/invoices_2"")"
+994,2018-05-07 16:38:36.000000000,2018-05-07 17:53:21.000000000,closed,3,Pug template subdirrectory and layout
+993,2018-05-07 05:53:50.000000000,2018-05-27 00:43:26.000000000,closed,5,DoneGlobal handler not execute
+992,2018-05-02 19:33:30.000000000,2018-05-02 21:45:59.000000000,closed,3,"How can we use ""context.Background()""  with dgraph (graph database)"
+991,2018-05-02 14:21:58.000000000,2018-05-02 19:00:07.000000000,closed,4,I want emit message to specific room by websocket.  but not working example document.
+990,2018-05-02 10:53:24.000000000,2018-05-02 11:13:26.000000000,closed,3,package leveldb is not available
+988,2018-04-30 15:31:38.000000000,2018-05-02 07:26:42.000000000,closed,2,Websocket: added OnPong to Connection #986
+987,2018-04-30 12:20:58.000000000,2018-05-02 07:42:18.000000000,closed,1,WebSocket: OnError handler
+986,2018-04-30 11:34:34.000000000,2018-05-02 07:27:43.000000000,closed,0,Websocket: pong callback
+985,2018-04-30 09:53:32.000000000,2018-05-02 07:26:15.000000000,closed,1,Can ctx.ReadJSON function unmarshals a map data struct?
+983,2018-04-28 11:13:40.000000000,2018-04-28 12:16:34.000000000,closed,3,how to get params from post requeset
+979,2018-04-27 07:23:46.000000000,2018-04-28 15:49:17.000000000,closed,5,iris.WithPostMaxMemory(10<<20) 不起作用
+978,2018-04-26 21:03:07.000000000,2018-04-28 14:19:22.000000000,closed,3,Can Use StaticEmbedded with Angular 5?
+977,2018-04-25 15:19:47.000000000,2018-04-26 09:03:46.000000000,closed,0,Update
+976,2018-04-25 14:05:27.000000000,2018-04-25 14:41:30.000000000,closed,3,How to close WebSocket connection with message?
+975,2018-04-25 12:50:19.000000000,2018-04-25 14:12:18.000000000,closed,2,middleware/pprof child page link error.
+974,2018-04-22 22:42:34.000000000,2018-04-25 14:55:08.000000000,closed,3,Update
+973,2018-04-22 09:28:28.000000000,2018-04-22 10:44:59.000000000,closed,2,How to config AutoTls
+972,2018-04-21 03:51:11.000000000,2018-04-21 14:04:21.000000000,closed,2,Fix open redirect
+970,2018-04-14 07:41:26.000000000,2018-04-15 00:02:35.000000000,closed,2,Does websocket server side use heartbeat to find client still online?
+969,2018-04-13 14:34:42.000000000,2018-04-25 14:41:39.000000000,closed,0,New Feature! Sessions events and direct communication with databases
+967,2018-04-08 12:48:49.000000000,2019-07-23 21:14:48.000000000,closed,4,Is there any method to get all http headers dump or get the raw http header like http.Request
+966,2018-04-06 21:01:26.000000000,2018-04-07 14:01:46.000000000,closed,1,Dev ctx.RemoteAddr() is not work.
+965,2018-04-04 11:30:15.000000000,2018-04-25 14:42:11.000000000,closed,0,Session Bug in SubDomain
+964,2018-04-04 11:27:40.000000000,2018-04-22 15:01:49.000000000,closed,3,fix when destroy session can't remove cookie in subdomain
+963,2018-04-04 11:19:12.000000000,2018-04-04 11:20:08.000000000,closed,1,fix when destroy session can't remove cookie in subdomain
+958,2018-04-01 06:22:36.000000000,2018-04-02 03:59:20.000000000,closed,2,Fix article link
+957,2018-04-01 00:56:57.000000000,2018-04-03 06:24:21.000000000,closed,2,New feature suggestion
+954,2018-03-29 16:22:23.000000000,2018-03-29 22:01:04.000000000,closed,3,Failed to customize Content-Type when serving files
+953,2018-03-29 13:53:35.000000000,2018-03-29 22:05:58.000000000,closed,8,how to autoreload  in iris
+952,2018-03-28 16:41:11.000000000,2018-03-28 18:16:30.000000000,closed,0,fix the bug of lost argument in log function
+951,2018-03-28 15:04:33.000000000,2018-03-29 13:56:39.000000000,closed,1,Some error in __examples
+950,2018-03-28 08:24:56.000000000,2018-04-02 03:59:58.000000000,closed,2,Examples README_ZH.md
+949,2018-03-27 18:37:06.000000000,2018-03-27 18:56:57.000000000,closed,5,how to pass orm to controllers / models
+948,2018-03-26 15:52:37.000000000,2018-03-29 22:06:06.000000000,closed,1,"In Access Log, we need more message."
+947,2018-03-26 15:20:31.000000000,2018-03-27 04:23:13.000000000,closed,2,In the Simple Server example code has some error
+946,2018-03-26 11:51:32.000000000,2018-03-27 11:06:30.000000000,closed,1,add more information for access log
+945,2018-03-24 14:25:11.000000000,2018-03-27 11:08:13.000000000,closed,0,Translation updates
+941,2018-03-23 16:14:16.000000000,2018-03-24 03:48:02.000000000,closed,1,How can i add Cache-Control haader to static files.
+939,2018-03-22 15:05:10.000000000,2018-03-24 05:10:50.000000000,closed,2,Fixed a typo
+938,2018-03-21 11:00:15.000000000,2018-03-21 11:00:24.000000000,closed,0,misspell fixes
+937,2018-03-21 10:13:48.000000000,2018-03-24 05:14:27.000000000,closed,8,"Context PostValueIntDefault method should be return (int, error) ?"
+936,2018-03-19 06:22:21.000000000,2018-03-21 11:01:14.000000000,closed,0,Update translation
+935,2018-03-18 13:59:31.000000000,2018-03-18 16:33:16.000000000,closed,0,New middlewares for various client cache methods that can speed your pages even more
+934,2018-03-17 08:24:06.000000000,2018-03-17 19:12:49.000000000,closed,1,Add some useful cache middlewares for client (i.e browser) catching
+933,2018-03-14 18:30:20.000000000,2018-03-21 10:57:52.000000000,closed,2,Performance tuning guidelines in a broader perspective
+932,2018-03-14 16:11:43.000000000,2018-03-14 18:09:20.000000000,closed,4,Global handler controller.
+931,2018-03-14 15:48:54.000000000,2018-03-16 14:33:25.000000000,closed,6,Update gzip_response_writer.go
+930,2018-03-14 12:11:01.000000000,2018-03-14 12:12:19.000000000,closed,1,5.0.0
+929,2018-03-14 07:18:36.000000000,2018-03-14 08:49:06.000000000,closed,2,mvc router error
+928,2018-03-13 21:32:47.000000000,2018-03-14 08:30:57.000000000,closed,1,Update translation
+927,2018-03-13 10:26:29.000000000,2018-03-13 16:21:26.000000000,closed,3,Router path regexp problem
+925,2018-03-10 20:43:17.000000000,2018-03-10 22:52:41.000000000,closed,0,Handle non-WS connections in WS handler with no panic
+924,2018-03-10 20:06:18.000000000,2018-03-10 22:53:30.000000000,closed,2,Default WebSocket handler does not handle non-WS connections neat
+923,2018-03-09 16:11:21.000000000,2018-03-11 03:25:42.000000000,closed,2,newbie with mvc and xorm
+922,2018-03-08 21:01:09.000000000,2018-03-10 17:19:53.000000000,closed,3,Response to preflight request doesn't pass access control check: No 'Access-Control-Allow-Origin' header is present on the requested resource
+921,2018-03-08 19:52:08.000000000,2018-03-08 23:56:20.000000000,closed,1,Wrong method with trailing slash
+919,2018-03-04 23:46:39.000000000,2018-03-10 17:25:07.000000000,closed,0,Modification on Fallback handlers and Router to have fallback handlers working in Party
+918,2018-03-04 17:41:04.000000000,2018-03-05 12:10:09.000000000,closed,3,dynamic path regex
+917,2018-03-04 12:28:43.000000000,2018-03-06 04:50:39.000000000,closed,4,MVC GetBy(id int) Zero start
+916,2018-03-02 16:48:29.000000000,2018-03-21 10:58:08.000000000,closed,4,Set default hostname to work on long subdomains like sub2.sub1.domain.com
+915,2018-03-01 03:23:53.000000000,2018-03-21 10:58:22.000000000,closed,1,Ratelimiting?
+914,2018-02-28 07:33:28.000000000,2018-02-28 08:23:12.000000000,closed,2,Assistance with changes (version changes)
+913,2018-02-25 13:56:36.000000000,2018-02-25 15:15:48.000000000,closed,2,Add wrappers for Pongo's AsValue() and AsSafeValue()
+912,2018-02-25 13:55:06.000000000,2018-02-25 15:17:14.000000000,closed,1,Unable to create return value of type view.Value in custom filter
+911,2018-02-23 11:29:17.000000000,2018-02-23 18:20:53.000000000,closed,0,Add a missing call for `fallbackHandler`
+910,2018-02-22 20:29:35.000000000,2018-02-23 05:16:26.000000000,closed,2,fix a typo
+909,2018-02-21 15:21:53.000000000,2018-02-23 05:24:15.000000000,closed,5,Fallback handlers
+908,2018-02-20 08:04:27.000000000,2018-02-25 15:17:21.000000000,closed,2,ctx.View optionalViewModel should merged with existed viewData
+907,2018-02-15 18:38:19.000000000,2018-02-15 22:18:32.000000000,closed,0,Update Chinese translation
+904,2018-02-11 11:22:26.000000000,2018-02-12 01:24:52.000000000,closed,0,Update Chinese translation
+903,2018-02-10 23:30:11.000000000,2018-02-12 01:38:21.000000000,closed,4,validations for structs and individual fields
+902,2018-02-09 22:25:01.000000000,2018-02-10 08:54:45.000000000,closed,2,How I can parse data from body
+901,2018-02-08 12:30:26.000000000,2018-02-08 17:06:46.000000000,closed,2,add party's done handlers is strange
+900,2018-02-06 18:29:39.000000000,2018-02-07 04:05:23.000000000,closed,0,Update
+899,2018-02-06 07:53:13.000000000,2018-02-06 14:37:29.000000000,closed,1,Response Header  Content-Type Incorrect
+897,2018-02-03 21:04:47.000000000,2018-02-03 21:31:21.000000000,closed,1,"Maybe something wrong about the return value of the function ""UploadFormFiles"""
+896,2018-02-02 21:43:38.000000000,2018-02-02 22:00:31.000000000,closed,1,Response json with status code 200 or 400
+895,2018-02-02 14:50:09.000000000,2018-02-04 10:48:34.000000000,closed,3,[help needed] Authentication Verification inside websocket handler for room
+893,2018-02-01 12:55:34.000000000,2018-02-04 16:30:59.000000000,closed,9,MongoDB + Iris + Mvc
+890,2018-01-28 18:45:35.000000000,2018-01-28 18:45:45.000000000,closed,0,New Cache Middleware: iris.Cache304
+887,2018-01-25 10:01:32.000000000,2018-01-25 11:32:53.000000000,closed,1,Discussion: IsMobile distinguishes between phones and tablets？
+886,2018-01-25 07:38:49.000000000,2018-01-25 08:16:23.000000000,closed,3,Add ViewBaseDir for Party same as Layout?
+884,2018-01-24 13:32:04.000000000,2018-02-23 05:24:15.000000000,closed,5,Soluce to `AllowedMethods` option for CORS middleware
+883,2018-01-22 16:05:03.000000000,2018-01-22 22:09:05.000000000,closed,2,corrected spelling for example docs
+881,2018-01-20 09:26:37.000000000,2018-01-20 11:18:15.000000000,closed,4,Get form data is not working
+880,2018-01-19 05:45:08.000000000,2018-01-21 13:18:23.000000000,closed,0,Suggest about BeginRequest
+879,2018-01-18 07:09:07.000000000,2018-01-21 10:15:15.000000000,closed,1,Basicauth expiration
+878,2018-01-17 04:48:09.000000000,2018-01-17 15:50:20.000000000,closed,0,Update
+877,2018-01-16 16:35:55.000000000,2018-01-17 15:48:12.000000000,closed,2,Fix dep dependency
+876,2018-01-15 17:07:32.000000000,2018-01-16 03:26:43.000000000,closed,0,Update Chinese translation
+875,2018-01-15 10:42:26.000000000,2018-01-15 14:15:27.000000000,closed,1,Please make a release tag for v10.0.1
+874,2018-01-15 06:20:18.000000000,2018-01-15 14:19:29.000000000,closed,0,Update Chinese translation
+873,2018-01-13 16:05:05.000000000,2018-01-13 17:34:39.000000000,closed,3,Not work BeginRequest
+872,2018-01-13 09:42:55.000000000,2018-01-13 17:13:32.000000000,closed,4,[ERRO] 2018/01/13 12:33 html/template: cannot Parse after Execute
+867,2018-01-06 18:58:33.000000000,2018-01-09 06:03:04.000000000,closed,6, golog need add “funcname ，filepath”，thank u god
+865,2018-01-05 21:49:50.000000000,2018-01-06 01:58:11.000000000,closed,4,About context#View and ViewData
+863,2018-01-05 09:23:42.000000000,2018-01-05 18:52:31.000000000,closed,5,strange error: cannot use Configuration literal
+862,2018-01-05 07:02:14.000000000,2018-01-05 11:20:08.000000000,closed,2,websocket disconnect/leave-all-rooms should delete empty rooms as well otherwise rooms hash goes ever growing
+859,2018-01-03 15:09:17.000000000,2018-01-04 18:38:19.000000000,closed,1,PostValueDefault issue
+858,2018-01-03 09:11:43.000000000,2018-01-04 18:28:37.000000000,closed,0,Update README_ZH.md
+857,2018-01-03 03:09:56.000000000,2018-01-03 07:19:05.000000000,closed,1,Create README_RU.md
+856,2018-01-02 23:16:37.000000000,2018-01-03 01:21:59.000000000,closed,0,Add HISTORY_ZH.md
+855,2018-01-02 21:24:26.000000000,2018-01-02 23:21:11.000000000,closed,1,Suggest：run Iris as a service like caddy hook.service
+854,2018-01-02 07:20:55.000000000,2018-01-02 17:31:43.000000000,closed,0,Update README_ZH.md
+853,2018-01-02 01:48:59.000000000,2018-01-02 06:06:42.000000000,closed,1,Update README_ZH.md
+852,2018-01-02 00:55:05.000000000,2018-01-02 00:55:10.000000000,closed,0,make cache package to work across multi handlers.
+851,2018-01-01 21:15:46.000000000,2018-02-25 15:17:28.000000000,closed,1,List registered  routes
+850,2018-01-01 04:28:35.000000000,2018-01-02 02:14:27.000000000,closed,5,How to use cache in MVC
+849,2017-12-31 06:41:51.000000000,2018-01-01 03:08:39.000000000,closed,0,Version 10
+847,2017-12-23 18:06:42.000000000,2017-12-25 09:23:34.000000000,closed,5,CROS Middleware is not working
+846,2017-12-21 10:07:31.000000000,2017-12-21 17:43:29.000000000,closed,1,macros  not work while using HandleMany
+845,2017-12-18 08:46:26.000000000,2017-12-19 17:57:40.000000000,closed,2,fix a typo
+843,2017-12-15 18:51:58.000000000,2017-12-19 18:00:13.000000000,closed,2,fix cookie expire equals to -1 when call UpdateExpiration
+842,2017-12-15 13:48:16.000000000,2017-12-15 19:21:27.000000000,closed,2,Enable http2
+841,2017-12-14 19:52:06.000000000,2017-12-14 21:06:15.000000000,closed,2,the foulest frame of a wolf
+840,2017-12-14 08:23:31.000000000,2017-12-14 13:31:05.000000000,closed,2,how to use hero template engine with iris? 
+839,2017-12-13 16:51:52.000000000,2017-12-13 17:09:13.000000000,closed,6,update sessions.RemoveCookie
+838,2017-12-13 13:47:09.000000000,2017-12-14 17:17:15.000000000,closed,3,response header lost while using default responseWriter
+837,2017-12-08 08:27:39.000000000,2017-12-10 02:00:02.000000000,closed,4,iris.StaticWeb won't refresh static files!
+836,2017-12-08 00:51:16.000000000,2017-12-09 00:36:09.000000000,closed,2,"ctx.ViewData(key,value) alternative for HTML output"
+835,2017-12-06 08:59:18.000000000,2017-12-08 00:35:16.000000000,closed,3,badger redeclared and DefaultOptions undefined issue
+834,2017-12-06 05:50:07.000000000,2017-12-06 15:15:13.000000000,closed,2,GetCookie after SetCookie the result is empty string
+833,2017-12-05 14:44:01.000000000,2017-12-07 18:10:23.000000000,closed,5,How to integrate tusd into iris
+832,2017-12-05 13:33:48.000000000,2018-02-25 15:17:28.000000000,closed,12,Use urlpath in template with MVC
+831,2017-12-04 06:23:23.000000000,2017-12-04 07:59:16.000000000,closed,0,Honux patch 2
+830,2017-12-04 06:19:10.000000000,2017-12-05 04:46:12.000000000,closed,0,Error on subdirectories templates using Amber
+829,2017-12-03 17:46:22.000000000,2017-12-04 18:59:16.000000000,closed,1,[question] difference between `defer` and `iris.RegisterOnInterrupt` for db.close
+828,2017-12-03 01:03:55.000000000,2017-12-04 07:59:16.000000000,closed,1,Fixed a bug on router/path
+827,2017-12-03 01:00:07.000000000,2017-12-05 04:46:30.000000000,closed,0,Path Reverser bug
+826,2017-12-02 03:49:20.000000000,2017-12-02 19:20:11.000000000,closed,1,Websocket: added OnPing to Connection
+825,2017-12-02 03:48:18.000000000,2017-12-05 21:30:41.000000000,closed,1,Websocket: ping callback
+823,2017-11-29 21:11:44.000000000,2017-12-10 02:00:02.000000000,closed,6,Any idea? Bootstrap proyect structure using controllers instead handlers (question)
+822,2017-11-26 07:13:49.000000000,2017-11-28 20:59:05.000000000,closed,4,StaticWeb TOO_MANY_REDIRECTS if filename contains '#' character
+821,2017-11-26 05:34:31.000000000,2018-02-25 15:17:28.000000000,closed,2,Roadmap or feature request list?
+820,2017-11-22 18:37:26.000000000,2017-11-22 20:08:56.000000000,closed,2,Match trailing slash in the URL
+819,2017-11-20 23:17:07.000000000,2017-11-21 14:42:43.000000000,closed,1,Update README.md
+818,2017-11-20 23:15:26.000000000,2017-11-21 14:42:28.000000000,closed,0,Update CONTRIBUTING.md
+817,2017-11-20 23:14:05.000000000,2017-11-20 23:22:33.000000000,closed,0,Update CONTRIBUTING.md
+815,2017-11-20 13:35:21.000000000,2017-11-22 06:29:27.000000000,closed,7,How to set multi-languagefile in i18n?
+814,2017-11-20 06:04:53.000000000,2017-11-20 23:04:16.000000000,closed,5,Installation failed on Fedora 26
+813,2017-11-19 17:04:26.000000000,2017-11-21 14:35:32.000000000,closed,2,Fix NodeJS benchmark
+812,2017-11-18 19:19:09.000000000,2017-11-18 19:38:32.000000000,closed,1,Merge pull request #1 from kataras/master
+811,2017-11-18 01:24:52.000000000,2017-11-18 12:52:05.000000000,closed,3,more example in example
+810,2017-11-16 21:38:48.000000000,2017-11-16 22:35:26.000000000,closed,3,Update or Remove NodeJS from benchmark
+809,2017-11-11 08:23:13.000000000,2017-11-16 22:36:00.000000000,closed,3,Content size mismatch with static assets
+808,2017-11-10 23:06:27.000000000,2017-11-10 23:09:40.000000000,closed,2,Rename README_CN.md to README_ZH.md
+807,2017-11-10 15:24:26.000000000,2017-11-10 19:16:42.000000000,closed,2,embedded-single-page-application-with-other-routes
+806,2017-11-10 12:22:11.000000000,2017-11-10 17:01:31.000000000,closed,2,Add README_CN.md
+805,2017-11-09 16:33:35.000000000,2017-11-09 18:04:23.000000000,closed,2,TollBoth Middleware
+803,2017-11-08 18:58:06.000000000,2017-11-09 15:06:13.000000000,closed,4,"""/.well-known/""  (URI)"
+801,2017-11-07 00:00:42.000000000,2017-11-07 05:17:10.000000000,closed,2,Activating Open Collective
+799,2017-11-04 02:31:55.000000000,2017-11-04 04:55:33.000000000,closed,4,Setting redirect for recaptcha fail
+798,2017-11-01 19:34:47.000000000,2017-11-04 16:34:41.000000000,closed,1,audio/mpeg3 does not appear to be a valid registered mime type
+797,2017-10-24 17:50:43.000000000,2017-10-24 23:32:11.000000000,closed,1,Thank you!
+796,2017-10-24 06:20:40.000000000,1970-01-01 00:00:00.000000001,open,24,Help translate Iris into your language
+795,2017-10-22 00:47:03.000000000,2017-10-22 01:47:18.000000000,closed,0,"Websocket: added GetTotalConnections, GetConnections and GetConnection"
+794,2017-10-20 07:25:07.000000000,2017-10-22 00:48:09.000000000,closed,1,added GetTotalConnections to server
+793,2017-10-20 07:24:07.000000000,2017-10-22 02:01:38.000000000,closed,2,Websocket: total connections
+792,2017-10-20 07:11:50.000000000,2017-10-20 21:01:58.000000000,closed,0,Websocket: replaced time.Ticker with sleep for avoid memory leak
+791,2017-10-20 07:11:12.000000000,2017-10-20 21:03:07.000000000,closed,4,Websocket: time.Ticker cause memory leak
+789,2017-10-18 13:30:21.000000000,2017-10-24 14:59:22.000000000,closed,3,i18n translate to specific language
+788,2017-10-17 03:06:50.000000000,2017-10-17 14:31:12.000000000,closed,0,Websocket: fixed memory leak on startPinger
+787,2017-10-17 03:06:37.000000000,2017-10-17 14:31:28.000000000,closed,0,Websocket: memory leak on startPinger
+786,2017-10-14 18:55:46.000000000,2017-10-16 22:40:46.000000000,closed,3,secure cookies mismatch when session use file db
+785,2017-10-13 06:29:56.000000000,2017-10-16 22:43:32.000000000,closed,3,Can i use iris with sentry
+784,2017-10-12 14:29:15.000000000,2017-10-13 14:54:43.000000000,closed,3,StaticEmbeddedHandler Question
+783,2017-10-11 21:41:22.000000000,2017-10-12 03:26:20.000000000,closed,2,Fixed fireOnLeave when connection is already closed
+782,2017-10-11 21:40:34.000000000,2017-10-16 22:43:20.000000000,closed,0,Websocket: Invalid memory address on fireOnLeave
+781,2017-10-10 10:14:48.000000000,2017-10-12 13:55:05.000000000,closed,3,suggest: give  BeginRequest a return value
+780,2017-10-06 06:21:24.000000000,2017-10-06 09:24:54.000000000,closed,1,Merge pull request #1 from kataras/master
+779,2017-10-05 09:22:49.000000000,2017-10-06 01:51:36.000000000,closed,0,Fixup #778: UseGlobal call order
+778,2017-10-05 00:56:14.000000000,2017-10-06 01:51:59.000000000,closed,3,UseGlobal: handler call order is bad
+777,2017-10-04 19:31:29.000000000,2017-10-05 04:37:30.000000000,closed,6,can not redirect in post Action 
+774,2017-10-03 19:03:35.000000000,2017-10-03 19:48:01.000000000,closed,0,Update doc.go
+773,2017-10-03 03:22:17.000000000,2017-10-03 05:57:15.000000000,closed,0,Create NewWithConfig function to create iris.
+772,2017-10-03 03:14:45.000000000,2017-10-03 05:55:13.000000000,closed,1,iris.WithConfiguration doesn't set config.
+771,2017-09-30 06:46:56.000000000,2017-10-01 00:52:41.000000000,closed,3,session with redis problem
+768,2017-09-26 19:00:56.000000000,2017-09-27 08:27:51.000000000,closed,1,Session: Support regeneration of ID
+767,2017-09-25 21:36:59.000000000,2017-09-26 15:47:09.000000000,closed,0,Support for Static and View webdav.Handler/http.FileSystem/webdav.NewMemFS
+766,2017-09-25 15:08:37.000000000,2017-09-25 15:41:19.000000000,closed,1,Support for csrf
+765,2017-09-23 20:36:07.000000000,2017-09-24 15:30:43.000000000,closed,0,Get pongo2's origin data type
+764,2017-09-22 20:41:52.000000000,2017-09-24 15:31:21.000000000,closed,2,Get pongo2.Value from view.Value
+763,2017-09-22 13:46:23.000000000,2017-09-22 14:07:10.000000000,closed,1,github.com/iris-contrib/letsencrypt cannot be used in v5
+762,2017-09-22 06:12:55.000000000,2017-09-24 15:31:36.000000000,closed,4,router 404  when using app.StaticEmbedded 
+761,2017-09-21 10:46:00.000000000,2017-09-22 14:47:02.000000000,closed,1,MVC: named routes
+759,2017-09-20 18:04:43.000000000,2017-10-03 06:34:15.000000000,closed,7,LOG: Support log rotate?
+758,2017-09-20 16:26:19.000000000,2017-09-21 13:27:30.000000000,closed,0,Fix issue #757
+757,2017-09-20 15:44:00.000000000,2017-09-21 13:27:52.000000000,closed,0,"Not correct host in ""Now listening on:"" when using  iris.Listener"
+756,2017-09-20 13:42:06.000000000,2017-09-21 12:36:21.000000000,closed,4,undefined: blackfriday with govendor 
+754,2017-09-18 15:07:10.000000000,2017-09-19 15:09:00.000000000,closed,9,MVC how to use multiple Handler?
+752,2017-09-18 13:58:01.000000000,2017-09-22 16:03:18.000000000,closed,8,MVC: Support for RegEx?
+751,2017-09-18 13:55:41.000000000,2017-09-22 16:16:51.000000000,closed,2,MVC: Support for ByByBy... functions without names
+750,2017-09-15 16:54:19.000000000,2017-09-16 06:33:48.000000000,closed,1,https://iris-go.com/ : http://localhost:8080/ vs. http://context:8080/
+749,2017-09-14 22:07:47.000000000,2017-09-15 16:08:34.000000000,closed,1,How do i stop update check?
+748,2017-09-13 14:44:21.000000000,2017-10-01 07:32:07.000000000,closed,10,Guidelines for Iris structure?
+747,2017-09-13 12:12:48.000000000,2017-09-13 12:47:51.000000000,closed,2,Added user feedback to _example/sessions/overview
+746,2017-09-13 12:12:06.000000000,2017-09-13 12:47:43.000000000,closed,0,Added User feedback to in _example/sessions/overview
+745,2017-09-13 12:08:20.000000000,2017-09-13 12:54:04.000000000,closed,1,ReadForm error with nested struct array
+744,2017-09-13 11:27:27.000000000,2017-09-13 12:47:00.000000000,closed,0,Update for formBinder repo rename
+742,2017-09-12 06:22:32.000000000,2017-09-13 12:50:40.000000000,closed,6,can not build a new pongo2 tag or filter
+741,2017-09-12 00:53:30.000000000,2017-09-12 12:48:11.000000000,closed,2,undefined: iris.Context - has iris.Context changed to context.Context?
+740,2017-09-11 11:36:19.000000000,2017-09-11 13:18:38.000000000,closed,0,no way to reg pongo tag
+738,2017-09-06 10:51:34.000000000,2017-09-06 15:26:12.000000000,closed,1,Merge pull request #1 from kataras/master
+737,2017-09-05 17:42:16.000000000,2017-09-11 13:18:38.000000000,closed,0,may u add these functions?
+732,2017-08-28 20:06:04.000000000,2017-08-29 03:57:08.000000000,closed,1,TLS Listen with multiple certificates
+730,2017-08-28 15:59:04.000000000,2017-08-28 16:54:55.000000000,closed,4,undefined iris.Context
+729,2017-08-24 16:53:20.000000000,2017-08-25 08:37:47.000000000,closed,4,GraphQL support
+728,2017-08-24 14:41:39.000000000,2017-08-24 16:46:55.000000000,closed,1,Fix some typos and grammar errors
+727,2017-08-23 07:37:00.000000000,2017-08-23 16:22:48.000000000,closed,0,bugfix: trim relative slash incorrectly in apiBuilder.Party
+726,2017-08-21 20:40:11.000000000,2017-08-21 22:00:01.000000000,closed,2,redis-database session bug
+725,2017-08-19 22:39:58.000000000,2017-08-22 23:10:48.000000000,closed,5,Mobiles
+724,2017-08-19 14:52:00.000000000,2017-08-19 16:56:24.000000000,closed,2,Orm support?
+723,2017-08-17 22:43:29.000000000,2017-08-18 18:11:10.000000000,closed,0,Bug (This site can't be reached) when using ctx.Gzip(true) together with ctx.NotFound()
+721,2017-08-15 17:57:57.000000000,2017-08-15 22:05:38.000000000,closed,3,with https://github.com/googollee/go-socket.io 
+719,2017-08-12 21:12:14.000000000,2017-08-13 02:47:25.000000000,closed,8,"StaticWeb map static path can't include ""index.html"" ？"
+718,2017-08-12 04:55:13.000000000,2017-08-12 07:35:54.000000000,closed,5,go-bindata api changes
+717,2017-08-11 21:07:28.000000000,2017-08-12 10:52:06.000000000,closed,10,Gzip doesn't work for a kind of files
+716,2017-08-11 08:47:56.000000000,2017-08-11 08:48:21.000000000,closed,0,Master
+715,2017-08-10 20:26:07.000000000,2017-08-11 06:54:46.000000000,closed,4,can't read sessions on posted page?
+714,2017-08-10 03:28:50.000000000,2017-08-10 22:15:33.000000000,closed,2,CORS middleware cause next handler to be called 2 times
+711,2017-08-08 21:15:07.000000000,2017-08-10 22:17:01.000000000,closed,3,Can Iris be used in production after Dubai purchase?
+710,2017-08-08 20:06:43.000000000,2017-08-08 20:19:21.000000000,closed,3,Documentation and Release are very different !
+707,2017-08-07 02:00:11.000000000,2017-08-07 05:23:21.000000000,closed,0,5.0.0
+706,2017-08-06 16:40:08.000000000,2017-08-06 20:23:32.000000000,closed,4,Template path issue
+704,2017-08-02 23:40:13.000000000,2017-08-03 01:39:28.000000000,closed,7,Persisten session after server restart
+703,2017-08-02 19:40:50.000000000,2017-08-02 21:37:20.000000000,closed,2,IsAjax func bug at context/context.go
+702,2017-08-02 19:03:35.000000000,2017-08-03 01:39:28.000000000,closed,7,File based session storage
+701,2017-08-02 16:23:30.000000000,2017-08-02 18:41:21.000000000,closed,6,can i get  an array value of context URLParam method?
+699,2017-08-02 10:42:47.000000000,2017-08-02 14:43:59.000000000,closed,0,Sessions: Test decoded cookie for empty strings
+698,2017-08-02 10:14:30.000000000,2017-08-02 14:45:07.000000000,closed,1,"Session: decoding cookie can return empty string, but it thinks that session is active"
+697,2017-08-02 02:55:29.000000000,2017-08-02 04:32:42.000000000,closed,0,Update i18n middleware and toolkit methods to support IETF and RFC2616.
+696,2017-08-01 15:41:54.000000000,2017-08-02 04:33:00.000000000,closed,4,"Missing RFC2616 ""Accept-Language"" support by the i18n middleware"
+694,2017-08-01 07:22:25.000000000,2017-08-01 08:23:34.000000000,closed,2,How can i use template options?
+693,2017-07-31 23:08:16.000000000,2017-08-01 14:13:09.000000000,closed,2,Fix up for sessions
+692,2017-07-31 22:58:08.000000000,2017-08-01 14:58:22.000000000,closed,2,Expiration of the sessions is not restored
+689,2017-07-28 21:05:56.000000000,2017-07-31 20:01:02.000000000,closed,3,Add shutdown handler registration for Application
+688,2017-07-28 21:01:59.000000000,2017-08-01 14:58:33.000000000,closed,7,General Shutdown Handler registration is missing
+687,2017-07-28 08:49:06.000000000,2017-07-29 01:53:56.000000000,closed,3,How to dynamically render in elements?
+686,2017-07-27 19:00:54.000000000,2017-07-27 20:56:42.000000000,closed,2,Access-Control-Allow-Origin
+685,2017-07-24 12:18:08.000000000,2017-07-24 14:45:28.000000000,closed,1,[Help]Attach session to Context
+684,2017-07-23 18:17:29.000000000,2017-08-03 01:39:36.000000000,closed,2,Simplify code that resolved issue #683
+683,2017-07-23 01:17:46.000000000,2017-07-23 13:10:58.000000000,closed,5,Middlewares are for all routes or not ?
+682,2017-07-21 18:07:29.000000000,2017-07-22 02:48:43.000000000,closed,1,Resolve Django `include` and `extends` tags problem
+681,2017-07-21 11:59:16.000000000,2017-07-22 02:48:43.000000000,closed,0,Problem for {%extends%} in Django Engine with embedded files
+680,2017-07-18 19:18:28.000000000,2017-07-27 02:50:32.000000000,closed,24,Ability to customize Logrus
+679,2017-07-18 16:44:41.000000000,2017-07-19 00:22:15.000000000,closed,3,Add GetReporter method for getting the Reporter. Fixes #678
+678,2017-07-18 16:20:51.000000000,2017-07-19 00:22:15.000000000,closed,6,Can we get the reporter?
+677,2017-07-17 18:51:02.000000000,2017-07-19 00:28:15.000000000,closed,2,About proxy
+676,2017-07-16 14:43:53.000000000,2017-08-01 14:58:33.000000000,closed,0,Logger middleware support for column format and custom log func
+675,2017-07-16 14:34:00.000000000,2017-08-01 14:58:33.000000000,closed,0,Register an error handler to all/any http error codes
+674,2017-07-16 14:23:33.000000000,2017-08-01 14:58:33.000000000,closed,0,Support multi registrations for custom http errors
+673,2017-07-13 21:49:41.000000000,2017-07-14 02:14:31.000000000,closed,1,Fixed Hello World example
+665,2017-07-11 03:14:40.000000000,2017-07-11 03:17:13.000000000,closed,0,With glide
+657,2017-06-19 22:19:19.000000000,2017-06-26 14:33:12.000000000,closed,1,Fix all outstanding issues
+656,2017-06-14 12:40:38.000000000,2017-07-11 16:49:29.000000000,closed,0,static resource does not limit root=true and child = nil
+655,2017-06-06 07:01:04.000000000,2017-08-01 06:11:04.000000000,closed,6,Native golang client implementing subset of server interface
+654,2017-06-03 21:24:18.000000000,2017-06-03 21:25:27.000000000,closed,0,Sync 
+653,2017-05-31 17:30:49.000000000,2017-06-13 07:05:01.000000000,closed,4,ReadTimeout setting added to go-websocket
+652,2017-05-18 11:58:32.000000000,2017-06-03 01:09:22.000000000,closed,1,added subprotocols to server config
+651,2017-05-08 11:49:34.000000000,2017-05-08 19:07:52.000000000,closed,2,fix: template Render error
+650,2017-04-17 13:27:00.000000000,2017-05-08 19:04:11.000000000,closed,0,"If name has value, it will show ""Empty name!!"""
+649,2017-04-12 01:59:17.000000000,2017-04-12 02:25:43.000000000,closed,0,Fix httpcache sub-package.
+648,2017-03-28 13:09:40.000000000,2017-04-12 02:37:05.000000000,closed,1,fix a small typo
+642,2017-03-02 11:34:33.000000000,2017-03-02 16:17:40.000000000,closed,1,Merge pull request #1 from kataras/master
+609,2017-02-18 11:35:38.000000000,2017-02-18 11:36:15.000000000,closed,0,Fix Reverse Routing & ExecRouteAgainst
+607,2017-02-17 13:09:51.000000000,2017-02-17 13:11:52.000000000,closed,1,Iris √Νεxτ and Go 1.8 New Features
+604,2017-02-13 00:36:58.000000000,2017-02-18 19:15:19.000000000,closed,2,Make a new logo for iris project
+601,2017-01-28 19:03:19.000000000,2017-02-18 18:28:24.000000000,closed,1,Add option DisplayFullBanner to display one-line banner
+571,2017-01-03 18:34:29.000000000,2017-01-05 00:31:38.000000000,closed,5,"UnmarshalBody UnmarshalBody with ioutil.ReadAll,maybe very dangerous"
+550,2016-12-05 10:03:41.000000000,2016-12-08 09:47:06.000000000,closed,0,Fix indentation issue
+548,2016-11-30 19:24:39.000000000,2016-12-01 10:36:29.000000000,closed,1,Update README for httpexpect example link
+499,2016-10-20 06:23:15.000000000,2016-10-20 06:23:22.000000000,closed,0,Add a variable-indicator which shows if the current version is LTS
+497,2016-10-19 22:09:35.000000000,2016-10-19 22:09:40.000000000,closed,0,Update DONATIONS.md summary
+496,2016-10-19 15:24:25.000000000,2016-10-20 09:59:27.000000000,closed,0,Add Unprocessable Entity HTTP status code
+495,2016-10-19 14:39:07.000000000,2016-10-19 14:39:54.000000000,closed,0,> Do your own research before accepting anything was written by anybody. 
+494,2016-10-19 14:16:12.000000000,2016-10-19 14:16:44.000000000,closed,0,"Children should not ruin this, after the attack, we are still here and first."
+492,2016-10-18 08:39:15.000000000,2016-10-18 08:39:18.000000000,closed,0,	Update donations and explain why chat and issues are closed temporary
+490,2016-10-18 01:52:29.000000000,2016-10-18 01:52:32.000000000,closed,0,Push the new LTS(Long Term Support) version
+488,2016-10-17 11:30:24.000000000,2016-10-17 11:30:39.000000000,closed,0,"Add donates to the top, I really thank you!"
+487,2016-10-17 05:44:11.000000000,2016-10-17 05:44:17.000000000,closed,0,StaticEmbedded: Do the actual work if cache duration passed
+478,2016-10-14 05:01:42.000000000,2016-10-14 05:03:21.000000000,closed,0,Update from master
+471,2016-10-12 04:27:58.000000000,2016-10-12 14:32:48.000000000,closed,1,typo(readme): fix email address typo in examples
+468,2016-10-11 12:13:57.000000000,2016-10-11 15:12:37.000000000,closed,5,FIX for contrib/plugin/oauth routing probs
+464,2016-10-06 22:44:03.000000000,2016-10-07 00:21:36.000000000,closed,3,ReadJSON fix
+462,2016-10-05 17:32:14.000000000,2016-10-05 19:39:01.000000000,closed,3,add missing argument in readme for ctx.JSON
+385,2016-08-27 14:27:00.000000000,2016-09-08 05:09:27.000000000,closed,0,Fix bug when decode json in websocket and fix javascript detect object
+335,2016-08-02 19:57:43.000000000,2016-08-09 17:05:02.000000000,closed,3,The StaticWeb function leaves out the reqPath for the auto index path.
+334,2016-08-02 10:20:06.000000000,2016-08-18 04:23:31.000000000,closed,2,Update README.md - add JOSE middleware
+318,2016-07-27 03:06:35.000000000,2016-07-27 13:44:30.000000000,closed,1,"Fixes bug with ""nil"" Interfaces Values"
+310,2016-07-20 21:45:05.000000000,2016-07-21 01:02:01.000000000,closed,3,Add comments for special ListeningAddr cases
+287,2016-07-15 03:21:51.000000000,2016-07-15 05:57:51.000000000,closed,0,HTTP constants replaced with the standard net/http
+278,2016-07-13 07:22:58.000000000,2016-07-13 07:28:28.000000000,closed,1,v4.0.0-alpha.1
+243,2016-06-30 06:07:06.000000000,2016-07-02 16:20:39.000000000,closed,0,fix travis config format.
+227,2016-06-25 04:06:47.000000000,2016-06-28 13:59:18.000000000,closed,7,Fix for Dir Watcher for OSX (issue #192)
+121,2016-05-14 23:07:39.000000000,2016-05-14 23:44:20.000000000,closed,5,Fix gofmt issues
+114,2016-05-13 01:32:17.000000000,2016-05-13 03:39:04.000000000,closed,1,"Fixing ""Third party packages"" links"
+106,2016-05-11 18:18:32.000000000,2016-05-12 08:30:16.000000000,closed,1,typo fix in master - preventing ci tests to run
+105,2016-05-11 18:01:32.000000000,2016-05-11 18:04:37.000000000,closed,0,Master
+97,2016-05-09 12:23:41.000000000,2016-05-09 13:34:11.000000000,closed,1,Fix the bug of stripSlashes
+75,2016-04-30 17:36:29.000000000,2016-05-01 20:52:04.000000000,closed,1,Fix typo
+56,2016-04-01 15:02:05.000000000,2016-04-01 15:20:31.000000000,closed,2,export isMethodAllowed fixes #53
+40,2016-03-26 10:35:03.000000000,2016-03-26 19:25:52.000000000,closed,2,add  iris control ui;
+39,2016-03-25 20:00:36.000000000,2016-03-26 19:25:41.000000000,closed,0,add login and index ui;
+37,2016-03-25 04:33:45.000000000,2016-03-25 05:28:00.000000000,closed,4,Update README - make basic example start server with 'log.Fatal'
+35,2016-03-24 05:24:59.000000000,2016-03-25 17:29:08.000000000,closed,1,Added unit test for cache
+34,2016-03-24 04:57:05.000000000,2016-03-24 05:07:33.000000000,closed,1,Added unit test to cache.go
+33,2016-03-23 22:52:42.000000000,2016-03-24 04:55:09.000000000,closed,1,Improvements on README.md
+29,2016-03-23 04:47:11.000000000,2016-03-23 10:30:36.000000000,closed,1,Added support for CORS middleware
+28,2016-03-22 20:49:26.000000000,2016-03-23 10:30:22.000000000,closed,0,Added ReadXML function to handle XML requests
+26,2016-03-22 17:29:51.000000000,2016-03-22 20:11:54.000000000,closed,0,Added new feature ReadXML from request's body
+24,2016-03-22 07:28:35.000000000,2016-03-22 13:09:52.000000000,closed,1,Added new ReadJSON function into Context
+22,2016-03-21 01:32:46.000000000,2016-03-21 01:32:52.000000000,closed,0,Party fix
+21,2016-03-20 20:25:25.000000000,2016-03-22 13:09:52.000000000,closed,0,adverb != adjective
+19,2016-03-20 15:49:02.000000000,2016-03-20 15:49:10.000000000,closed,0,Merge pull request #18 from kataras/development
+18,2016-03-20 15:37:38.000000000,2016-03-20 15:46:47.000000000,closed,0,Semantic fix due the conversation of the domains
+17,2016-03-20 15:36:54.000000000,2016-03-20 15:36:59.000000000,closed,0,Fix license link
+14,2016-03-19 17:32:44.000000000,2016-03-19 21:56:02.000000000,closed,1,BenchmarkIris_GithubAll    30000         43427 ns/op BenchmarkGin_GithubAll     30000         49650 ns/op  
+12,2016-03-19 16:44:51.000000000,2016-03-19 21:56:16.000000000,closed,0,Fixed to many parameters error in compile of party example.
+11,2016-03-16 05:08:45.000000000,2016-03-17 01:48:55.000000000,closed,1,fixed `GetCookie` and added tests
+8,2016-03-14 18:15:24.000000000,2016-03-14 18:23:15.000000000,closed,0,fix header Content-Type  charset
+7,2016-03-14 18:05:02.000000000,2016-03-15 03:33:41.000000000,closed,0,Update README URLs based on HTTP redirects
+6,2016-03-14 17:31:30.000000000,2016-03-14 17:58:54.000000000,closed,4,fixing example named_parameters
+5,2016-03-14 14:55:18.000000000,2016-03-14 17:20:11.000000000,closed,8,updating examples
+4,2016-03-14 14:41:55.000000000,2016-03-14 14:51:01.000000000,closed,0,updating examples
+3,2016-03-14 09:21:24.000000000,2016-03-15 03:33:41.000000000,closed,0,Fixed README.md typo
+2,2016-03-14 00:19:01.000000000,2016-03-14 04:11:00.000000000,closed,0,adding hello world and named paramaters examples
+1,2016-01-31 08:25:19.000000000,2016-03-14 06:21:40.000000000,closed,0,Add a Gitter chat badge to README.md

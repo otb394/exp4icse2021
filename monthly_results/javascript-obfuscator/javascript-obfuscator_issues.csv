@@ -1,0 +1,727 @@
+id,created_at,closed_at,state,comments,title
+727,2020-08-30 14:05:42.000000000,2020-08-30 22:10:47.000000000,closed,1,Mixed string array encoding prototype
+726,2020-08-30 01:49:02.000000000,1970-01-01 00:00:00.000000001,open,14,[Improvement] String array function improvement
+725,2020-08-29 11:33:57.000000000,2020-08-29 13:24:03.000000000,closed,1,New `optionsPreset` option
+724,2020-08-29 10:23:27.000000000,2020-08-30 21:42:02.000000000,closed,2,"Doubt regarding the rotateStringArray, shuffleStringArray, stringArrayEncoding"
+723,2020-08-27 23:02:46.000000000,2020-08-29 13:54:06.000000000,closed,4,Command line argument improvements: --preset preset_name
+722,2020-08-24 14:41:48.000000000,1970-01-01 00:00:00.000000001,open,13,"obfuscator breaks code string.split("" "") not working."
+721,2020-08-23 10:38:10.000000000,2020-08-25 11:57:56.000000000,closed,2,Reorganized transformers structure and order
+720,2020-08-21 16:29:37.000000000,1970-01-01 00:00:00.000000001,open,4,[Improvement] Destructuring improvement (computed object property names)
+719,2020-08-21 12:43:23.000000000,2020-08-29 11:35:33.000000000,closed,0,Added `TaggedTemplateExpression` converting to the `es5` code
+718,2020-08-21 00:31:42.000000000,2020-08-21 09:48:34.000000000,closed,1,Local obfuscating
+717,2020-08-18 22:06:21.000000000,2020-08-18 22:40:10.000000000,closed,1,Reverted `TaggedTemplateLiteral` obfuscation
+716,2020-08-18 20:34:48.000000000,2020-08-18 22:43:27.000000000,closed,3,Template string arguments are merging into one
+715,2020-08-18 15:05:27.000000000,2020-08-18 16:51:07.000000000,closed,1,Dead code injection variables rename
+714,2020-08-18 04:46:35.000000000,1970-01-01 00:00:00.000000001,open,1,"[Feature] Add an ""ignore-dom-reserved-names"" option"
+713,2020-08-16 17:17:14.000000000,2020-08-18 16:59:23.000000000,closed,2,Remark about 'Debug Protection' option
+712,2020-08-15 01:05:50.000000000,2020-08-15 06:05:43.000000000,closed,1,Fixed obfuscation of literals of `ExportNamedDeclaration` and `ExportAllDeclaration` nodes
+711,2020-08-14 22:58:03.000000000,2020-08-15 10:29:17.000000000,closed,14,Dynamic import and Vue cannot be used with webpack loader
+710,2020-08-15 01:01:33.000000000,1970-01-01 00:00:00.000000001,open,1,Add support for `export * as` exports
+709,2020-08-14 21:59:47.000000000,2020-08-14 23:07:45.000000000,closed,1,Prevent properties with `get` and `set` kinds from extraction with `transformObjectKeys` option
+708,2020-08-14 19:52:10.000000000,2020-08-18 16:51:10.000000000,closed,4,[Bug] DeadCodeInjection puts unobfuscated code
+707,2020-08-14 13:45:10.000000000,2020-08-14 23:07:44.000000000,closed,3,Transform object keys broke getter property
+706,2020-08-14 03:32:45.000000000,2020-08-14 09:45:44.000000000,closed,1,Acorn@8 version update + fixed ScopeIdentifiersTransformer logic
+705,2020-08-14 01:04:56.000000000,2020-08-14 02:18:12.000000000,closed,1,Fixed console functions prototype
+704,2020-08-13 19:24:45.000000000,2020-08-28 09:57:53.000000000,closed,6,Incorrect variable obfuscation
+703,2020-08-12 20:15:30.000000000,2020-08-12 21:08:30.000000000,closed,1,problem with eval function
+702,2020-08-11 23:40:52.000000000,2020-08-14 10:02:27.000000000,closed,3,global.console.log.bind is not a function with disableConsoleOutput 
+701,2020-08-11 12:45:56.000000000,1970-01-01 00:00:00.000000001,open,0,[Idea] rc4 key split
+700,2020-08-09 23:28:36.000000000,2020-08-10 11:24:59.000000000,closed,2,Added BrowserStack Logo to Readme
+699,2020-08-07 17:40:34.000000000,2020-08-14 10:04:32.000000000,closed,3,"JQuery API spits out ""NaN"""
+698,2020-08-06 23:45:42.000000000,2020-08-07 00:26:28.000000000,closed,1,Added `TaggedTemplateLiteral` obfuscation
+697,2020-08-06 11:43:52.000000000,2020-08-06 13:00:58.000000000,closed,1,Optiona chaining support
+696,2020-08-05 23:45:27.000000000,2020-08-14 10:02:43.000000000,closed,23,Graphql tags do not get obfuscated?
+695,2020-08-05 17:04:44.000000000,2020-08-05 18:06:18.000000000,closed,1,Improved ConsoleOutputDisableExpressionTemplate.ts and fixed Content-…
+694,2020-08-05 15:39:34.000000000,1970-01-01 00:00:00.000000001,open,2,[Idea] Single letter string literal obfuscation
+693,2020-08-04 17:20:59.000000000,2020-08-05 16:42:35.000000000,closed,6,Cannot obfuscate with tsyringe package
+692,2020-08-04 11:55:18.000000000,2020-08-05 08:47:18.000000000,closed,1,Improved `disableConsoleOutput` template
+691,2020-08-01 20:25:50.000000000,2020-08-14 10:02:58.000000000,closed,17,[Improvement] Disable console output improvement
+690,2020-07-31 11:44:37.000000000,2020-07-31 20:49:23.000000000,closed,1,Added ObjectPatternPropertiesTransformer
+689,2020-07-30 16:58:55.000000000,2020-07-30 23:15:43.000000000,closed,1,Bump elliptic from 6.5.2 to 6.5.3
+688,2020-07-29 21:37:30.000000000,2020-08-05 10:55:21.000000000,closed,8,[Improvement] Destructuring improvement
+687,2020-07-29 00:15:18.000000000,2020-07-29 01:36:21.000000000,closed,4,"deadCodeInjection and stringArray cause error ""Cannot find module"" in Electron"
+686,2020-07-28 00:36:31.000000000,2020-07-28 01:20:32.000000000,closed,1,Fixed runtime error `Uncaught SyntaxError: yield is a reserved identi…
+685,2020-07-27 15:01:51.000000000,2020-07-27 15:08:02.000000000,closed,4,Errors while running the code obfuscated with some specific options
+684,2020-07-26 23:49:39.000000000,1970-01-01 00:00:00.000000001,open,1,[Idea] controlFlowFlattening improvements
+683,2020-07-26 23:09:22.000000000,1970-01-01 00:00:00.000000001,open,1,[Feature] Conditional comments for more powerful obfuscating parts of code
+682,2020-07-26 14:26:51.000000000,2020-07-26 20:15:53.000000000,closed,1,`domainLock` improvement
+681,2020-07-24 20:04:07.000000000,1970-01-01 00:00:00.000000001,open,2,[Feature] Obfuscate strings with number.toString
+680,2020-07-24 19:01:39.000000000,2020-07-26 13:32:40.000000000,closed,2,Does obfuscating my code twice make it more protected ?
+679,2020-07-24 17:23:18.000000000,2020-07-24 17:24:23.000000000,closed,9,Error in InversifyContainerFacade 
+678,2020-07-21 08:58:50.000000000,2020-08-30 21:44:40.000000000,closed,2,Can we have an option of embedding either certificate or a set of encryption decryption keys?
+677,2020-07-20 15:31:12.000000000,2020-07-20 15:42:48.000000000,closed,0,"Great Work, but their is an loop hole..."
+676,2020-07-20 11:41:33.000000000,2020-07-20 11:43:47.000000000,closed,1,Files concatenation
+675,2020-07-20 01:10:36.000000000,2020-07-20 11:44:23.000000000,closed,1,"Can someone post ""index.browser.js"" not compiled version?"
+674,2020-07-19 17:20:37.000000000,2020-07-19 23:28:31.000000000,closed,8,Have a version of javascript-obfuscator in Javascript instead of Typescript?
+673,2020-07-19 15:50:26.000000000,2020-07-19 17:00:29.000000000,closed,17,Have a version of javascript-obfuscator in Javascript instead of Typescript?
+672,2020-07-19 01:39:03.000000000,2020-07-19 01:42:12.000000000,closed,1,Self Defending cannot be used on ES6 class
+671,2020-07-17 23:36:08.000000000,2020-07-19 09:43:46.000000000,closed,7,Have a version of javascript-obfuscator in Javascript instead of Typescript?
+670,2020-07-16 23:43:47.000000000,2020-07-17 10:26:29.000000000,closed,1,Bump lodash from 4.17.15 to 4.17.19
+669,2020-07-16 16:34:46.000000000,2020-07-16 16:39:12.000000000,closed,2,I have a question about the Self-Defending feature
+668,2020-07-15 16:33:14.000000000,2020-07-15 17:19:51.000000000,closed,2,ExpressionStatementsMergeTransformer
+667,2020-07-15 11:40:04.000000000,2020-07-15 13:57:02.000000000,closed,1,Block statement simplify transformer
+666,2020-07-15 11:23:47.000000000,2020-07-26 13:33:01.000000000,closed,13,Using obfuscated libraries in Angular projects
+665,2020-07-13 17:31:34.000000000,1970-01-01 00:00:00.000000001,open,4,about a new option ideal
+664,2020-07-12 19:52:32.000000000,2020-07-12 23:06:44.000000000,closed,2,`numbersToExpressions` option
+663,2020-07-10 20:17:27.000000000,2020-07-11 13:52:03.000000000,closed,1,Prevented mutation of the name sequences of `mangled` identifier name generators
+662,2020-07-10 18:10:52.000000000,2020-07-10 18:40:03.000000000,closed,1,Simplify and encoding fixes
+661,2020-07-10 16:03:58.000000000,2020-07-10 18:55:33.000000000,closed,3,Generates obfuscated codes with a syntax error when if or else clause contains only one const / let assignment statement
+660,2020-07-10 00:57:27.000000000,2020-07-10 02:50:41.000000000,closed,1,Fixed runtime errors with mangled-shuffled identifier names generator
+659,2020-07-09 14:32:19.000000000,2020-07-10 16:45:53.000000000,closed,7,Anonymous function using const
+658,2020-07-09 12:23:26.000000000,2020-07-09 23:05:43.000000000,closed,1,Added `mangled-shuffled` identifier names generator
+657,2020-07-08 23:16:56.000000000,1970-01-01 00:00:00.000000001,open,3,[Feature] Force obfuscate string list
+656,2020-07-08 23:13:25.000000000,2020-07-09 23:06:43.000000000,closed,5,[Feature] Shuffle mangled identifier alphabet
+655,2020-07-03 12:03:55.000000000,2020-07-03 12:44:27.000000000,closed,1,Fixed runtime error `function statement not allowed`
+654,2020-07-03 09:34:50.000000000,2020-07-03 10:03:28.000000000,closed,1,Added config file extension validation
+653,2020-07-02 20:17:08.000000000,2020-07-02 22:28:45.000000000,closed,7,CLI config option stomps on --output param
+652,2020-07-02 11:25:29.000000000,2020-07-02 11:52:13.000000000,closed,2,Base64 improvements
+651,2020-07-01 21:50:53.000000000,2020-07-06 15:40:15.000000000,closed,4,Are mangled identifier names possibly repeated when using disabling and enabling obfuscation
+650,2020-07-01 21:43:52.000000000,2020-07-02 11:30:54.000000000,closed,3,How to change js object values after obfuscation with string array encoding?
+649,2020-06-30 12:40:41.000000000,2020-07-12 23:21:05.000000000,closed,14,Convert numbers to the expressions
+648,2020-06-30 01:49:57.000000000,2020-06-30 11:18:35.000000000,closed,2,Replace tab character with 4 spaces
+647,2020-06-30 01:40:27.000000000,2020-07-02 11:52:34.000000000,closed,6,Feature idea: Base64 alphabet variations
+646,2020-06-28 14:11:22.000000000,2020-06-28 14:29:11.000000000,closed,1,Fixed performance regression of `Initializing` stage after `1.2.0`
+645,2020-06-26 14:09:22.000000000,2020-07-08 12:01:38.000000000,closed,2,`minify` option WIP
+644,2020-06-25 20:12:56.000000000,2020-07-01 15:02:46.000000000,closed,5,identifiersPrefix: allow a function that returns a string ?
+643,2020-06-25 10:28:11.000000000,2020-06-25 10:54:17.000000000,closed,1,Replaced `compile` with `constructor` call
+642,2020-06-24 20:17:43.000000000,2020-06-24 21:43:20.000000000,closed,1,Conditional comments will be removed from the code after obfuscation
+641,2020-06-24 12:36:38.000000000,2020-06-24 21:46:06.000000000,closed,3,obfuscator:disable/enable tags not removed from result
+640,2020-06-23 13:05:22.000000000,2020-07-26 20:16:47.000000000,closed,10,Domain lock improvements
+639,2020-06-23 09:38:24.000000000,2020-06-23 10:02:49.000000000,closed,1,Fixed precedence of sequence expression in computed property
+638,2020-06-22 23:27:32.000000000,2020-06-23 10:02:49.000000000,closed,8,sequence as class property breaks everything
+637,2020-06-21 13:22:58.000000000,2020-06-21 13:48:58.000000000,closed,1,ts-node update
+636,2020-06-20 20:16:02.000000000,2020-06-20 20:41:27.000000000,closed,1,Dependencies update 20.06
+635,2020-06-20 18:57:13.000000000,2020-06-20 19:32:53.000000000,closed,2,Optional configurable error message for domain lock
+634,2020-06-19 08:08:15.000000000,2020-06-19 10:18:31.000000000,closed,1,"About 'Domain lock' bug, when I run js not use server, just open it in browser, it will not work"
+633,2020-06-18 15:42:07.000000000,2020-06-18 15:46:46.000000000,closed,2,"When I'm check 'Rename Properties' , the jscode is error"
+632,2020-06-18 14:55:51.000000000,2020-06-18 14:58:22.000000000,closed,2,"https://obfuscator.io/, the option 'Domain lock' can remember what to fill in?"
+631,2020-06-15 14:12:25.000000000,2020-06-15 14:13:53.000000000,closed,1,Recommended way to exclude polyfills
+630,2020-06-15 14:04:35.000000000,2020-06-22 10:44:59.000000000,closed,3,Reserved names and literals not working as expected
+629,2020-06-14 21:25:50.000000000,1970-01-01 00:00:00.000000001,open,1,Control Globals and functions renaming
+628,2020-06-12 23:23:23.000000000,2020-06-12 23:38:55.000000000,closed,9,ERROR : Unexpected token
+627,2020-06-08 21:33:06.000000000,2020-06-08 21:43:24.000000000,closed,1,Arrow function in class throws unecpected token
+626,2020-06-08 11:07:42.000000000,2020-06-08 12:02:35.000000000,closed,2,"When I'm download file, the name can be the name of the uploaded file? It's a hassle to rename every time"
+625,2020-06-06 00:46:01.000000000,2020-06-08 01:44:41.000000000,closed,1,Rename properties WIP
+624,2020-06-05 22:13:03.000000000,2020-06-05 22:34:45.000000000,closed,1,Fixed .d.ts typings.
+623,2020-06-05 21:48:34.000000000,2020-06-05 22:36:01.000000000,closed,2,Version fails to compile
+622,2020-06-04 22:30:36.000000000,2020-06-04 22:51:33.000000000,closed,2,Typo on https://obfuscator.io/ page
+621,2020-06-04 16:29:19.000000000,2020-06-04 16:51:51.000000000,closed,1,Release 1.0.0
+620,2020-06-04 15:42:51.000000000,2020-06-04 16:12:10.000000000,closed,1,Dependencies update
+619,2020-06-04 11:30:42.000000000,2020-06-04 11:51:48.000000000,closed,1,Fixed error during code generation for `ObjectPattern` with single `RestElement`
+618,2020-06-02 02:38:56.000000000,2020-06-02 18:28:10.000000000,closed,0,Added very basic untyped `deno` support based on `browser` bundle
+617,2020-05-31 22:24:52.000000000,2020-05-31 22:55:05.000000000,closed,1,Added correct `self-defending` code for `target: 'browser-no-eval'`
+616,2020-05-31 01:05:00.000000000,2020-05-31 09:08:20.000000000,closed,1,Renamed TObject -> TDictionary
+615,2020-05-30 21:27:05.000000000,2020-06-25 11:01:48.000000000,closed,11,Uncaught TypeError:Connot read property 'test' of undefined Chrome old versions <60
+614,2020-05-29 23:12:49.000000000,2020-05-30 01:59:06.000000000,closed,1,Removed memory leak with `identifierNamesGenerator: 'mangled'`
+613,2020-05-26 23:49:39.000000000,2020-05-27 00:27:16.000000000,closed,2,README.MD type fix
+612,2020-05-26 15:35:23.000000000,2020-05-30 02:01:05.000000000,closed,5,memory issue
+611,2020-05-26 01:12:24.000000000,2020-05-26 18:24:15.000000000,closed,2,Dependencies update
+610,2020-05-24 15:47:48.000000000,2020-05-31 22:57:14.000000000,closed,3,Cannot combine selfDefending and target: browser-no-eval
+609,2020-05-21 15:33:48.000000000,2020-05-21 16:18:47.000000000,closed,1,Problem obfuscating Firefox extension code
+608,2020-05-21 11:32:44.000000000,2020-05-21 11:53:59.000000000,closed,1,Typescript 3.9
+607,2020-05-19 15:32:50.000000000,2020-06-04 11:52:46.000000000,closed,5,AssignmentRestProperty does not work without AssignmentPropertyList
+606,2020-05-16 16:42:09.000000000,2020-05-27 01:00:36.000000000,closed,8,"non reproducible results with ""String Array"" on ""https://obfuscator.io/"""
+605,2020-05-14 09:51:33.000000000,2020-05-14 16:29:13.000000000,closed,1,Is there a way to randomize the file names?
+604,2020-05-14 01:07:38.000000000,1970-01-01 00:00:00.000000001,open,12,Support optional chaining and nullish coalescing syntax
+603,2020-05-12 20:33:48.000000000,2020-05-27 00:37:16.000000000,closed,2,Empty import from NodeJS
+602,2020-05-09 20:38:04.000000000,2020-05-09 21:03:44.000000000,closed,3,reverse the output on original form?
+601,2020-05-09 14:51:00.000000000,2020-05-09 15:06:00.000000000,closed,1,"Dependencies update, acorn update"
+600,2020-04-29 11:48:25.000000000,2020-04-30 05:32:39.000000000,closed,3,Screen keeps white after using --disable-console-output
+599,2020-04-25 13:23:23.000000000,2020-04-25 14:06:18.000000000,closed,1,Bigint support
+598,2020-04-25 11:01:44.000000000,2020-04-25 13:22:48.000000000,closed,1,0.27.5 release
+597,2020-04-15 04:13:14.000000000,2020-04-15 04:13:27.000000000,closed,0,"<input type=""hidden"" name=""obfuscatedPhone"" value=""+6* *** *** 0315"" />"
+596,2020-04-13 00:28:03.000000000,2020-04-13 10:28:34.000000000,closed,1,Normalize of invalid source code type argument
+595,2020-04-12 19:10:19.000000000,1970-01-01 00:00:00.000000001,open,2,Anti-tamper decryption idea
+594,2020-04-10 21:23:08.000000000,2020-04-10 21:44:27.000000000,closed,1,Fixed wrong external options merge
+593,2020-04-10 03:20:49.000000000,2020-04-10 21:44:28.000000000,closed,3,"""exclude"" member of config file does not work as expected."
+592,2020-04-09 02:52:27.000000000,1970-01-01 00:00:00.000000001,open,3,Issue with strings containing \x20 and other hex
+591,2020-04-06 19:08:36.000000000,2020-04-12 15:07:08.000000000,closed,1,Random error: Unexpected token *
+590,2020-04-04 15:18:07.000000000,2020-04-13 10:28:34.000000000,closed,11,e.replace is not a function
+589,2020-04-03 22:11:57.000000000,2020-04-04 21:05:27.000000000,closed,0,Disabling obfuscation for a module
+588,2020-04-02 16:34:10.000000000,2020-04-25 14:07:18.000000000,closed,5,BigInt literals are broken.
+587,2020-03-29 18:41:57.000000000,2020-03-29 19:19:07.000000000,closed,2,Support for Twig and other templating delimiters
+586,2020-03-22 22:17:20.000000000,2020-03-22 23:16:56.000000000,closed,0,Dependencies update #3: Estree
+585,2020-03-18 13:25:31.000000000,1970-01-01 00:00:00.000000001,open,0,Support function splitting
+584,2020-03-18 02:33:33.000000000,2020-03-19 04:44:16.000000000,closed,2,Including a banner to obfuscated output
+583,2020-03-16 13:11:56.000000000,2020-03-16 13:25:42.000000000,closed,1,Fixed identifiers prefix generation for `obfuscateMultiple` method
+582,2020-03-16 12:08:33.000000000,2020-03-16 12:24:01.000000000,closed,1,Commander version update
+581,2020-03-15 22:42:22.000000000,2020-03-15 23:03:24.000000000,closed,13,New `obfuscateMultiple` method
+580,2020-03-15 00:56:29.000000000,2020-03-15 01:35:26.000000000,closed,2,Code transformers. HashbangOperatorTransformer
+579,2020-03-14 07:53:27.000000000,2020-03-14 10:14:44.000000000,closed,1,"I found that the JSX type source code obfuscation of react will fail, I really hope to support the obfuscation of JSX syntax"
+578,2020-03-13 11:38:06.000000000,2020-03-13 12:00:20.000000000,closed,2, Fixed https://github.com/javascript-obfuscator/javascript-obfuscator/issues/575
+577,2020-03-11 17:59:14.000000000,1970-01-01 00:00:00.000000001,open,4,Feature suggestions
+576,2020-03-11 03:59:51.000000000,1970-01-01 00:00:00.000000001,open,8,Absolute path as parameters
+575,2020-03-10 10:07:19.000000000,2020-03-13 12:00:20.000000000,closed,4,Copyright & License text added to the top of the JS file should remain at the top after obfuscation
+574,2020-03-10 01:35:40.000000000,2020-07-08 22:56:28.000000000,closed,4,2020 plans
+573,2020-03-08 11:05:28.000000000,1970-01-01 00:00:00.000000001,open,7,New API - hideString
+572,2020-03-05 03:34:41.000000000,2020-03-05 10:18:25.000000000,closed,1, Fixed https://github.com/javascript-obfuscator/javascript-obfuscator/issues/569
+571,2020-03-04 23:31:36.000000000,2020-03-09 11:47:06.000000000,closed,4,Some questions
+570,2020-03-04 12:08:41.000000000,2020-03-04 12:28:23.000000000,closed,1,Added prefixes to the generated global identifiers of the added code
+569,2020-03-03 08:20:10.000000000,2020-03-05 10:18:25.000000000,closed,3,Transform object keys produce invalid code
+568,2020-03-01 08:33:42.000000000,2020-03-04 12:28:23.000000000,closed,26,Identifier has already been declared with mangled option
+567,2020-02-29 15:39:38.000000000,2020-03-04 12:10:08.000000000,closed,4,"Whether it support its work in ""Requirejs"""
+566,2020-02-27 21:16:38.000000000,2020-03-09 14:10:14.000000000,closed,19,"Using browser-image-compression npm package causes ""infinite wait"""
+565,2020-02-27 19:57:49.000000000,2020-02-27 20:07:17.000000000,closed,5,--output behaves totally different on new version 0.25.0
+564,2020-02-26 21:21:35.000000000,2020-02-26 22:10:31.000000000,closed,2,Changed the way to rename variable identifiers and references
+563,2020-02-26 18:17:51.000000000,2020-02-26 22:10:33.000000000,closed,3,Redeclaring an argument inside the function produces invalid code
+562,2020-02-26 03:06:37.000000000,2020-02-26 10:51:07.000000000,closed,1,Fixed wrong scope of preserved identifiers of shorthand object pattern property
+561,2020-02-21 22:21:03.000000000,2020-02-21 22:47:32.000000000,closed,1,"let {a,b} = obj // dont encode a,b vars"
+560,2020-02-20 14:53:59.000000000,2020-02-24 14:48:32.000000000,closed,4,--config issue
+559,2020-02-18 19:12:00.000000000,2020-02-18 19:14:03.000000000,closed,3,About property mangling
+558,2020-02-18 18:32:17.000000000,2020-02-20 01:38:40.000000000,closed,1,Why identifier renaming defaults to hexadecimal?
+557,2020-02-15 21:28:59.000000000,2020-02-23 11:40:10.000000000,closed,2,"if output dir contains dot(.), error comes"
+556,2020-02-13 15:10:22.000000000,2020-02-13 19:28:55.000000000,closed,8,when i use obfuscator@0.24.5 will cause very strange error.
+555,2020-02-12 01:11:23.000000000,2020-02-14 11:54:59.000000000,closed,1,Improved mangled identifier names generator
+554,2020-02-11 21:24:02.000000000,2020-04-25 13:24:15.000000000,closed,9,acorn-import-meta produces a warning on installing javascript-obfuscator
+553,2020-02-10 18:14:17.000000000,1970-01-01 00:00:00.000000001,open,0,Unicode characters for identifier names
+552,2020-02-09 00:04:00.000000000,2020-02-23 11:13:47.000000000,closed,4,Variables preserve transformer improvements
+551,2020-02-08 18:33:36.000000000,2020-02-08 18:42:48.000000000,closed,2,About batch processing
+550,2020-02-08 07:42:48.000000000,2020-02-26 11:06:48.000000000,closed,63,transformObjectKeys - duplicate variable declaration
+549,2020-02-08 00:48:41.000000000,2020-02-23 11:40:04.000000000,closed,24,Duplicate identifier when using `identifierNamesGenerator: 'mangled'`
+548,2020-02-07 17:05:53.000000000,1970-01-01 00:00:00.000000001,open,1,Saving and reusage of obfuscation parameters
+547,2020-02-07 13:22:21.000000000,2020-02-07 13:33:53.000000000,closed,1,Fixed support of exponentiation operator
+546,2020-02-07 12:45:19.000000000,2020-02-07 12:58:32.000000000,closed,2,File path in error messages directory fix
+545,2020-02-06 19:20:54.000000000,2020-02-10 18:16:44.000000000,closed,21,Error: RangeError: Maximum call stack size exceeded
+544,2020-02-05 02:59:19.000000000,2020-02-05 03:16:32.000000000,closed,1,Fixed wrong rename of object pattern identifiers
+543,2020-02-03 22:41:04.000000000,2020-02-03 22:46:28.000000000,closed,1,The keyword 'interface' is reserved
+542,2020-02-03 08:50:42.000000000,2020-02-05 17:26:36.000000000,closed,19,Broken After 0.24
+541,2020-02-01 23:42:17.000000000,2020-02-02 00:38:14.000000000,closed,1,Fix of rc4 encoded values collision
+540,2020-02-01 00:34:58.000000000,2020-02-01 15:29:44.000000000,closed,1,Eslint migration
+539,2020-01-31 15:59:31.000000000,2020-01-31 16:41:41.000000000,closed,2,Minor grammar changes
+538,2020-01-30 23:33:21.000000000,2020-02-02 17:40:38.000000000,closed,11,Very rare invalid decode of node template
+537,2020-01-30 00:31:41.000000000,2020-01-30 01:01:16.000000000,closed,1,Fixed runtime error with class expressions
+536,2020-01-29 19:13:57.000000000,2020-01-30 00:06:32.000000000,closed,4,No PayPal link
+535,2020-01-29 19:02:23.000000000,2020-01-30 01:01:16.000000000,closed,10,TypeError: Cannot read property 'defs' of undefined
+534,2020-01-29 17:26:25.000000000,2020-02-07 13:33:53.000000000,closed,7,Removed brackets when ** operator is used
+533,2020-01-29 01:49:39.000000000,2020-01-29 10:49:30.000000000,closed,1,Reverted validation errors under `node` target for `sourceMap*` options
+532,2020-01-27 22:17:08.000000000,2020-01-27 23:04:56.000000000,closed,1,Added class scope sanitizing
+531,2020-01-27 17:38:07.000000000,2020-01-27 23:52:01.000000000,closed,9,target node change class name
+530,2020-01-27 17:06:16.000000000,1970-01-01 00:00:00.000000001,open,6,URI malformed error during base64 encoding
+529,2020-01-27 16:27:19.000000000,2020-01-28 14:55:51.000000000,closed,11,obfuscator.io obfuscate button not working
+528,2020-01-27 06:45:43.000000000,2020-01-27 14:17:05.000000000,closed,10,Empty Output via website processing
+527,2020-01-27 03:02:47.000000000,2020-01-27 03:11:30.000000000,closed,1,Slightly changed regexps of variable kinds
+526,2020-01-27 02:19:52.000000000,2020-01-27 02:30:11.000000000,closed,2,Increased `identifierNamesGenerator: 'mangled` speed
+525,2020-01-26 22:08:41.000000000,2020-01-26 22:15:17.000000000,closed,1,Additional fixes of `transformObjectKeys`
+524,2020-01-26 21:02:42.000000000,2020-01-26 21:38:59.000000000,closed,1,`transformObjectKeys` refactoring and bug fixes
+523,2020-01-26 19:14:10.000000000,2020-01-26 19:41:23.000000000,closed,2,Fixed object expression keys transformation
+522,2020-01-26 16:32:18.000000000,2020-01-26 16:50:04.000000000,closed,1,Fixed wrong object keys transformation of objects inside sequence expressions
+521,2020-01-26 14:51:44.000000000,2020-01-26 15:01:40.000000000,closed,1,Split strings maximum call stack fix
+520,2020-01-25 03:27:12.000000000,2020-01-26 01:49:59.000000000,closed,1,Object expression keys transformer rework
+519,2020-01-24 22:30:53.000000000,2020-01-25 06:03:24.000000000,closed,2,function default parameters problem
+518,2020-01-24 20:48:55.000000000,2020-01-26 00:23:25.000000000,closed,3,More strict object keys transformation
+517,2020-01-24 16:15:21.000000000,2020-02-02 02:08:30.000000000,closed,17,identifiers Dictionary Error
+516,2020-01-22 17:54:29.000000000,2020-01-26 01:49:59.000000000,closed,1,Transform object keys causes error 
+515,2020-01-21 03:39:44.000000000,2020-01-21 03:54:44.000000000,closed,2,A file path will be displayed on obfuscation error
+514,2020-01-21 02:00:52.000000000,2020-01-21 02:14:57.000000000,closed,1,Fixed object keys extraction when using with template literals
+513,2020-01-20 05:44:19.000000000,2020-02-07 12:58:32.000000000,closed,7,Include Filename in Errors
+512,2020-01-20 05:41:15.000000000,2020-01-21 02:14:57.000000000,closed,2,Maximum call stack size exceeded using transformObjectKeys
+511,2020-01-20 03:23:05.000000000,2020-01-20 11:24:15.000000000,closed,1,Replaced `awesome-typescript-loader` on `ts-loader`
+510,2020-01-20 03:21:33.000000000,1970-01-01 00:00:00.000000001,open,5,Static variables inside a class throws
+509,2020-01-20 00:33:55.000000000,2020-01-20 01:13:44.000000000,closed,3,IsAllowedForObfuscationTarget validator
+508,2020-01-19 03:07:57.000000000,2020-01-19 12:46:03.000000000,closed,1,Dynamic import and `import.meta` support
+507,2020-01-19 02:19:58.000000000,2020-01-19 02:33:15.000000000,closed,2,`ecmaVersion` constant
+506,2020-01-18 23:54:47.000000000,2020-01-19 00:11:07.000000000,closed,1,Optional catch binding support and super class expression parenthesis support
+505,2020-01-17 08:40:39.000000000,2020-01-19 12:46:03.000000000,closed,5,Handle import.meta
+504,2020-01-17 05:46:27.000000000,2020-01-26 01:51:14.000000000,closed,3,Is there a way to exclude entire directories instead of files?
+503,2020-01-17 04:23:10.000000000,2020-01-19 01:54:16.000000000,closed,3,`eslint-scope` and ScopeIdentifiersTransformer: rename identifiers in more easy way
+502,2020-01-16 01:02:37.000000000,2020-01-16 01:21:43.000000000,closed,1,Fixed numeric keys removal on extract during object keys transformation
+501,2020-01-16 00:03:18.000000000,2020-01-20 03:18:50.000000000,closed,12,Disable using of browser-based features when target=node
+500,2020-01-15 23:59:42.000000000,2020-01-17 13:28:22.000000000,closed,2,disableConsoleOutput check if function was replaced
+499,2020-01-15 19:55:14.000000000,2020-07-03 12:44:50.000000000,closed,13,deadCodeInjection: true causes error SyntaxError: function statement not allowed
+498,2020-01-15 14:20:32.000000000,2020-01-16 01:22:33.000000000,closed,14, transformObjectKeys: true causes TypeError: Cannot read property 'call' of undefined
+497,2020-01-15 04:07:14.000000000,2020-01-17 04:28:58.000000000,closed,4,Replace all identifier transformers with scope-identifiers-transformer with help of `eslint-scope`
+496,2020-01-14 02:56:03.000000000,2020-02-05 03:23:53.000000000,closed,27,Wrong obfuscation that make a runtime error
+495,2020-01-14 00:29:54.000000000,2020-01-14 03:05:16.000000000,closed,1,Fix a wrong object key
+494,2020-01-13 19:45:44.000000000,2020-01-14 03:07:49.000000000,closed,2,Wrong object keys in a spread operator
+493,2020-01-12 22:09:13.000000000,2020-01-14 03:49:32.000000000,closed,2,`shuffleStringArray` option
+492,2020-01-10 21:07:29.000000000,2020-01-10 21:19:36.000000000,closed,1,Switched from `espree` to `acorn`
+491,2020-01-10 14:08:33.000000000,2020-01-10 15:23:12.000000000,closed,1,Fixed `TypeError: Assignment to constant variable`
+490,2020-01-10 03:53:48.000000000,2020-01-10 11:34:25.000000000,closed,1,Dependencies update #1
+489,2020-01-09 19:20:57.000000000,2020-01-09 19:33:04.000000000,closed,1,Added method-definition literal key converting to `computed`
+488,2020-01-09 15:59:28.000000000,2020-01-09 16:30:48.000000000,closed,1,Fix of wrong mark as `renamedIdentifier` inside `importDeclarationTransformer`
+487,2020-01-09 03:31:47.000000000,2020-01-09 18:55:13.000000000,closed,2,Auto detection of prevailing kind of variables
+486,2020-01-08 20:33:12.000000000,2020-01-12 13:38:38.000000000,closed,15,Error after Obfuscation: Uncaught SyntaxError: Unexpected string
+485,2020-01-07 20:58:05.000000000,2020-01-09 16:02:45.000000000,closed,1,Fix bug #360: No Global variable renaming after 2 import declarations
+484,2020-01-07 16:30:17.000000000,2020-01-07 16:40:01.000000000,closed,2,Fixed conditional comments in some rare cases
+483,2020-01-07 14:42:21.000000000,2020-01-07 15:01:58.000000000,closed,1,StackTraceAnalyzer rename to CallsGraphAnalyzer
+482,2020-01-06 23:05:46.000000000,2020-01-07 01:09:44.000000000,closed,1,Added logic to skip variable declaration transformation for object destructing without declaration
+481,2020-01-06 21:52:55.000000000,2020-01-08 17:38:29.000000000,closed,4,Foreign letters are transformed as when UTF-8 encoding is interpreted as windows-1252
+480,2020-01-06 20:40:34.000000000,2020-01-06 20:51:06.000000000,closed,1,Added `console.table` empty function
+479,2020-01-06 03:47:39.000000000,2020-01-06 04:17:54.000000000,closed,1,More cases with improved `objectExpressionKeys` support
+478,2020-01-06 01:36:37.000000000,2020-01-06 02:48:03.000000000,closed,1,Improved source map file name normalizer logic
+477,2020-01-05 20:41:32.000000000,2020-01-05 23:54:18.000000000,closed,1,Improved `transformObjectKeys` option to cover more object expressions
+476,2020-01-05 18:09:31.000000000,2020-02-07 15:07:21.000000000,closed,2,Dead code injection always injects same string
+475,2020-01-04 00:35:37.000000000,2020-01-19 01:13:39.000000000,closed,2,Add support for optional catch-clause parameters
+474,2020-01-03 23:48:57.000000000,2020-01-03 23:59:08.000000000,closed,1,Fixed typings. Now string values correctly assignable to enum-like op…
+473,2020-01-03 22:04:13.000000000,2020-01-03 22:49:51.000000000,closed,1,Fixed typings
+472,2020-01-03 17:05:09.000000000,2020-01-03 17:15:18.000000000,closed,1,Fixed for-await-of statement with `compact: true`
+471,2020-01-03 08:39:21.000000000,2020-03-15 01:35:26.000000000,closed,7,Should be able to obfuscate bin file for js
+470,2020-01-02 17:46:07.000000000,2020-01-02 18:31:40.000000000,closed,1,Added new ReservedStringObfuscatingGuard
+469,2020-01-02 16:04:28.000000000,2020-01-02 16:19:03.000000000,closed,1,Dependencies update #4
+468,2020-01-02 15:41:49.000000000,2020-01-02 18:31:40.000000000,closed,2,[Bug] splitStrings breaks reservedStrings
+467,2020-01-02 02:36:57.000000000,2020-01-02 14:30:10.000000000,closed,1,Dependencies update #1
+466,2020-01-01 23:50:31.000000000,2020-01-01 23:59:44.000000000,closed,2,Custom nodes identifier names collision fix
+465,2020-01-01 02:37:01.000000000,2020-01-02 14:42:25.000000000,closed,2,"warning:  Please, upgrade your dependencies to the actual version of core-js@3"
+463,2019-12-31 17:55:11.000000000,2019-12-31 18:26:09.000000000,closed,1,Removed babel from project compilation flow
+462,2019-12-31 14:59:51.000000000,2019-12-31 16:50:25.000000000,closed,1,Dictionary identifier names generator
+461,2019-12-31 03:06:20.000000000,2019-12-31 03:37:23.000000000,closed,1,Fixed `reservedNames` option
+460,2019-12-31 02:23:53.000000000,2019-12-31 02:57:14.000000000,closed,2,Added circular relations test for LevelledTopologicalSorter
+459,2019-12-30 22:15:28.000000000,2019-12-30 23:10:55.000000000,closed,3,Node transformers topological sort
+458,2019-12-29 15:34:30.000000000,2019-12-29 15:45:34.000000000,closed,0,The `splitStrings` option now correctly splits strings inside objects
+457,2019-12-29 13:52:02.000000000,2019-12-29 14:14:29.000000000,closed,1,The `splitStrings` option now affects template literal strings
+456,2019-12-28 22:44:57.000000000,2019-12-29 00:02:29.000000000,closed,1,`splitString` and `splitStringChunkLength` options
+455,2019-12-23 23:02:57.000000000,2019-12-23 23:08:46.000000000,closed,1,Obfuscator complains about arrow function syntax 
+454,2019-12-23 18:36:00.000000000,2019-12-24 17:34:20.000000000,closed,2,README Improvements
+453,2019-12-20 12:42:24.000000000,2019-12-20 12:57:43.000000000,closed,1,Use of `eventemitter3` instead of `events` module
+452,2019-12-20 11:47:20.000000000,2020-06-24 22:31:59.000000000,closed,22,Error on node 13.5.0
+451,2019-12-20 09:57:08.000000000,2019-12-31 03:07:59.000000000,closed,3,Fix isReservedName method
+450,2019-12-18 20:17:40.000000000,2019-12-29 01:04:15.000000000,closed,1,Svelte/Sapper Project Obfuscating 
+449,2019-12-13 20:24:35.000000000,2020-01-04 00:34:55.000000000,closed,25,TypeScript Typing
+448,2019-12-12 01:34:30.000000000,2019-12-13 00:19:48.000000000,closed,1,Dependency Chalk.js requires Node.js version 8 now
+447,2019-12-11 15:08:19.000000000,2019-12-12 00:09:21.000000000,closed,1,Node JS [Wont obfuscate javascript]
+446,2019-12-11 14:38:05.000000000,2019-12-11 14:42:17.000000000,closed,2,UnhandledPromiseRejectionWarning:
+445,2019-12-10 00:05:13.000000000,2019-12-18 15:08:59.000000000,closed,1,Error: Line 8: Unexpected character ' '
+444,2019-12-06 01:13:30.000000000,2019-12-06 01:50:28.000000000,closed,1,Update issue templates
+443,2019-12-03 01:41:39.000000000,2019-12-03 21:16:12.000000000,closed,2,Upgrade to latest 6.1.2 Espree version
+442,2019-12-02 05:57:42.000000000,2020-01-02 17:47:35.000000000,closed,8,Fix modifying of reserved strings
+441,2019-12-01 20:59:27.000000000,2019-12-01 21:38:48.000000000,closed,1,Bug #355: Preserve variable names
+440,2019-11-28 00:53:50.000000000,2019-11-29 01:12:22.000000000,closed,3,#321 Bug: function scope identifier
+439,2019-11-20 23:16:59.000000000,2019-11-21 18:49:31.000000000,closed,2,Fixed issue #437
+438,2019-11-20 16:13:42.000000000,2019-11-26 12:29:24.000000000,closed,3,Stuck all the time
+437,2019-11-20 01:54:01.000000000,2019-11-22 02:08:43.000000000,closed,6,"transformObjectKeys=true causes obfuscator to crash with ""TypeError: Cannot read property 'type' of undefined"" if input code contains object spread operator"
+436,2019-11-16 22:37:04.000000000,2019-11-17 18:42:14.000000000,closed,1,"ENOENT: no such file or directory, lstat '$some/$projectdir/node_modules/validator'"
+435,2019-11-14 18:50:56.000000000,2019-12-29 01:05:25.000000000,closed,2,Create page as https://www.obfuscator.io/?
+434,2019-11-12 18:14:06.000000000,2019-11-17 18:29:15.000000000,closed,0,"Error: EPERM: operation not permitted, unlink 'D:\Peter\Proj\Proj-Corp\www\build'"
+433,2019-11-12 15:09:40.000000000,2019-11-12 18:07:38.000000000,closed,1,Javascript-obfuscator not working in CLI
+432,2019-11-10 23:02:57.000000000,2019-11-21 18:49:00.000000000,closed,1,Bump mixin-deep from 1.3.1 to 1.3.2
+431,2019-11-10 23:02:55.000000000,2019-11-21 18:48:48.000000000,closed,1,Bump js-yaml from 3.11.0 to 3.13.1
+430,2019-11-10 23:02:55.000000000,2019-11-21 18:48:38.000000000,closed,1,Bump extend from 3.0.1 to 3.0.2
+429,2019-11-10 23:02:52.000000000,2019-11-21 18:48:29.000000000,closed,1,Bump handlebars from 4.0.11 to 4.5.1
+428,2019-11-10 23:02:49.000000000,2019-12-20 01:10:39.000000000,closed,1,Bump lodash from 4.17.10 to 4.17.15
+427,2019-11-10 21:14:09.000000000,2019-11-10 23:01:40.000000000,closed,2,[Bug] Wrong Lexical Scope for let and const variables
+426,2019-10-28 20:20:04.000000000,2019-10-29 13:44:15.000000000,closed,2,Is it possible to run the javascript-obfuscator in the browser?
+425,2019-10-17 04:11:49.000000000,2020-01-02 14:43:59.000000000,closed,2,reduce vulnerability
+424,2019-10-16 14:28:51.000000000,2019-11-10 23:56:02.000000000,closed,10,generated wrong code
+423,2019-10-16 07:11:15.000000000,2019-11-30 23:50:39.000000000,closed,2,Preserving UserScript metadata
+422,2019-10-14 18:40:04.000000000,2019-10-14 20:42:44.000000000,closed,3,Is there a way to exclude a function name from obfuscation?
+421,2019-10-12 02:44:15.000000000,2019-11-30 23:49:01.000000000,closed,2,Obfuscator breaks code that uses object destructuring
+420,2019-10-09 13:29:58.000000000,2020-01-18 13:44:46.000000000,closed,8,About Identifier Names Generator
+419,2019-10-07 13:11:38.000000000,2020-01-03 17:15:20.000000000,closed,13,Syntax Error with for await
+418,2019-10-05 00:32:25.000000000,2019-10-05 10:04:05.000000000,closed,2,[Bug] Fix a name collision in String Array Storage
+417,2019-10-04 15:13:45.000000000,2019-11-11 23:22:04.000000000,closed,1,[Breaking] Possible collisions in stringArrayName / stringArrayCallsWrapperName
+416,2019-10-04 05:37:51.000000000,2020-01-05 14:56:49.000000000,closed,3,what is the password for RC4 encoding option? Is the password revealed in the code?
+415,2019-10-02 05:53:14.000000000,2019-10-03 05:07:02.000000000,closed,1,Unable to Obfuscate TensorflowJs
+414,2019-09-27 05:16:21.000000000,2019-09-27 13:47:35.000000000,closed,6,Elminate quoted string array indexes. This improves obfuscation size.
+413,2019-09-27 04:44:29.000000000,2019-09-27 04:52:48.000000000,closed,1,Eliminate quotes around indexes in string array calls. This helps red…
+412,2019-09-26 15:50:51.000000000,2020-01-02 14:52:31.000000000,closed,2,Overwriting files instead of appending -obfuscated..
+411,2019-09-17 12:30:02.000000000,2020-01-02 14:56:02.000000000,closed,5,The website can't be opened.
+410,2019-09-13 17:39:07.000000000,2019-09-27 01:54:08.000000000,closed,1,DomainLock & regexp
+409,2019-08-20 21:03:13.000000000,2019-09-27 01:54:57.000000000,closed,1,Include excluded files in output
+408,2019-08-16 12:16:40.000000000,2020-01-05 14:58:31.000000000,closed,2,does debugProtectionInterval affects the performance of requestAnimationFrame loop?
+407,2019-08-16 05:02:22.000000000,2019-11-22 01:53:05.000000000,closed,0,Please wake up you site Obfuscator.io
+406,2019-08-15 17:55:53.000000000,2020-01-06 01:38:32.000000000,closed,2,Can't use sourceMapFileName for webpack chunks
+405,2019-08-15 12:27:10.000000000,2020-01-05 15:03:13.000000000,closed,3,"in vue project,stringArray option Causing errors"
+404,2019-08-07 17:32:59.000000000,2020-01-05 15:04:52.000000000,closed,2,>npx webpack --config webpack/webpack.browser.config.js
+403,2019-08-07 14:05:19.000000000,2020-01-02 14:58:13.000000000,closed,4,Obfuscate folder but keep same file names
+402,2019-07-26 04:41:14.000000000,2020-01-05 15:05:20.000000000,closed,5,Maintaining this project.
+401,2019-07-25 11:34:51.000000000,2019-12-03 02:04:06.000000000,closed,3,What frameworks are used
+400,2019-07-18 06:27:11.000000000,2020-01-05 15:05:51.000000000,closed,1,"After obfuscation is complete, two JS files have the same variable name for the stored string, resulting in my HTML referring to Li at the same time"
+399,2019-07-14 19:24:33.000000000,2020-01-05 23:48:05.000000000,closed,4,Domain lock not working on obfuscator.io?
+398,2019-07-12 13:17:48.000000000,2020-01-02 15:46:54.000000000,closed,1,Maintaining this project.
+397,2019-07-11 02:31:20.000000000,2019-12-18 01:47:32.000000000,closed,3,source map from TS files after obfuscation
+396,2019-07-09 20:13:11.000000000,2020-01-05 15:11:23.000000000,closed,2,Mangling class property names
+395,2019-06-29 19:47:29.000000000,1970-01-01 00:00:00.000000001,open,5,domainLock is easy to circumvent
+394,2019-06-27 21:58:17.000000000,2020-01-05 23:52:31.000000000,closed,1,Question about minimal obfuscation
+393,2019-06-27 02:11:34.000000000,2019-12-18 01:48:28.000000000,closed,3,Obfuscator crashes with error unterminated regex
+392,2019-06-24 16:56:14.000000000,2019-06-25 09:57:56.000000000,closed,8,obfuscator.io is down
+391,2019-06-23 03:20:26.000000000,2020-01-06 04:18:46.000000000,closed,21,some part still ignored
+390,2019-06-05 23:18:19.000000000,2020-01-02 15:47:00.000000000,closed,1,Maintaining the project
+389,2019-05-17 09:45:06.000000000,2019-12-18 15:09:31.000000000,closed,1,Error: Cannot read property 'ecmaFeatures' of undefined
+388,2019-05-09 12:19:38.000000000,2019-12-18 15:09:53.000000000,closed,1,Cannot apply @injectable decorator multiple times
+387,2019-05-09 05:37:30.000000000,2020-01-06 04:17:54.000000000,closed,0,transformObjectKeys and single statement braceless blocks
+386,2019-05-03 18:42:00.000000000,2019-11-30 23:04:27.000000000,closed,1,Does javascript-obfuscator support with angular 1 ?
+385,2019-04-29 22:13:55.000000000,1970-01-01 00:00:00.000000001,open,1,New Function Request
+384,2019-04-29 05:11:43.000000000,2019-11-30 23:03:04.000000000,closed,3,Web UI Issue
+383,2019-04-25 16:34:13.000000000,2020-01-06 06:06:08.000000000,closed,1,"SyntaxError: Unexpected identifier, function* will be error?"
+382,2019-04-11 01:42:52.000000000,2020-01-07 00:36:17.000000000,closed,2,"Obfuscating simple JavaScript file requires (require,module), which doens't work in browser"
+381,2019-04-08 12:07:27.000000000,2020-01-06 20:30:39.000000000,closed,4,Maintainer call
+380,2019-03-04 22:42:30.000000000,2019-11-30 22:37:10.000000000,closed,1,obfuscate file directly into to it
+379,2019-03-04 08:47:32.000000000,2020-01-07 16:52:08.000000000,closed,4,FATAL ERROR: CALL_AND_RETRY_LAST Allocation failed - JavaScript heap out of memory
+378,2019-02-28 17:34:47.000000000,2020-01-06 05:56:49.000000000,closed,3,@sanex3339 => react-native-obfuscating-transformer maintainership
+377,2019-02-21 09:32:20.000000000,2019-02-21 17:24:35.000000000,closed,2,Fix typo in README.md
+376,2019-02-15 12:02:27.000000000,2020-01-09 18:55:13.000000000,closed,4,"Use of ""var"" draws attention to obfuscator helpers in ES6"
+375,2019-02-11 23:35:33.000000000,1970-01-01 00:00:00.000000001,open,5,RC4 Encoding Extremely Easy to Bypass with Cache
+374,2019-02-09 07:40:51.000000000,2019-02-10 01:10:59.000000000,closed,2,LZW String Array Compression
+373,2019-02-02 13:07:52.000000000,2019-12-19 00:53:48.000000000,closed,3,Unexpected output sub-directory when obfuscating directories recursive
+372,2019-01-25 22:21:28.000000000,2020-01-07 00:54:26.000000000,closed,2,Is there any way how to no obfuscate name of required files?
+371,2019-01-23 02:12:52.000000000,2020-02-12 01:18:19.000000000,closed,11,Idea: Locally scoped variable can have the same mangled name
+370,2019-01-22 01:13:50.000000000,2019-03-21 02:03:36.000000000,closed,3,Ability to turn off js obfuscator with comments
+369,2019-01-15 14:30:16.000000000,2019-11-30 22:17:54.000000000,closed,1,"Regular expression: modifier ""s"" (dotall) is not supported!"
+368,2019-01-11 15:23:47.000000000,2019-01-15 14:31:42.000000000,closed,1,Problem with RegExp and exec
+367,2018-12-26 04:50:54.000000000,2019-12-31 15:46:26.000000000,closed,2,ReferenceError: internalBinding is not defined
+366,2018-12-24 04:24:13.000000000,2019-01-09 22:08:15.000000000,closed,2,obfuscator.io again down
+365,2018-12-24 01:32:07.000000000,2019-11-30 22:13:27.000000000,closed,2,package-json ?
+364,2018-12-21 14:04:22.000000000,2019-01-22 02:01:09.000000000,closed,6,fix domainLock run error for nodeJs project
+363,2018-12-21 13:46:18.000000000,2018-12-21 13:49:24.000000000,closed,3,Merge pull request #322 from javascript-obfuscator/0.18.2-bugfixes
+362,2018-12-18 21:31:30.000000000,2020-06-05 11:14:29.000000000,closed,3,[Request] Encode Object Keys 
+361,2018-12-13 17:00:19.000000000,2020-01-06 06:12:34.000000000,closed,2,Object destructuring assignment does not work for variables initialized previously
+360,2018-12-08 03:25:21.000000000,2020-01-09 16:30:48.000000000,closed,3,Two import statements exposes variables
+359,2018-12-07 07:11:00.000000000,2019-12-19 00:49:05.000000000,closed,3,Support .json files
+358,2018-12-06 12:54:58.000000000,2020-01-06 06:02:38.000000000,closed,2,ControlFlowStorage without var parent node
+357,2018-12-03 07:29:02.000000000,2020-01-18 23:26:30.000000000,closed,1,options config.js 'exclude' can not work?
+356,2018-11-24 11:13:17.000000000,2018-11-28 05:12:52.000000000,closed,0,i guess is eval break chrome Extension
+355,2018-11-21 01:17:15.000000000,2019-12-02 00:35:52.000000000,closed,2,destructuring assignment with new name can break mangled
+354,2018-11-20 11:01:04.000000000,2019-12-19 00:43:25.000000000,closed,1,name conflict of code user wrote with self-protecting code
+353,2018-11-17 06:49:58.000000000,2020-06-22 11:24:59.000000000,closed,4,The sources field in the generated sourceMap is always {dirname}
+352,2018-11-15 15:00:37.000000000,2019-02-25 22:25:18.000000000,closed,8,how to De-obfuscat from the obfuscated code?
+351,2018-11-13 19:50:24.000000000,2020-06-05 11:13:51.000000000,closed,6,Why does it handle object members as strings?
+350,2018-11-10 12:11:38.000000000,2019-12-19 00:38:01.000000000,closed,1,Can this work on Angular jS?
+349,2018-11-05 11:39:35.000000000,2018-11-06 18:04:55.000000000,closed,21,Obfuscator.io mirror?
+348,2018-11-03 20:51:02.000000000,2019-12-31 15:01:13.000000000,closed,3,Use the dictionary as the name of the identifiers
+347,2018-11-01 07:05:49.000000000,2018-12-20 16:06:48.000000000,closed,2,fix domainLock run error for nodeJs project
+346,2018-10-28 23:11:55.000000000,2018-11-06 18:05:16.000000000,closed,2,deObfuscator
+345,2018-10-25 04:15:02.000000000,1970-01-01 00:00:00.000000001,open,0,Unicode gets unescaped
+344,2018-10-19 06:07:22.000000000,1970-01-01 00:00:00.000000001,open,2,Can i do a AppLock like domainLock
+343,2018-10-17 03:46:52.000000000,2018-10-17 03:47:27.000000000,closed,0,NA
+342,2018-10-15 13:05:56.000000000,2020-01-06 05:51:59.000000000,closed,4,Javascript-obfuscator together with angular-cli
+341,2018-10-11 09:11:13.000000000,2019-11-30 21:45:53.000000000,closed,6,Can I obfuscate a typescript variable like url?
+340,2018-10-10 21:20:15.000000000,2019-11-30 21:43:19.000000000,closed,2,Incorrect output when escaping quotes
+339,2018-10-10 12:58:21.000000000,2020-01-06 06:07:37.000000000,closed,4,Large Javascript file of size around 10MB with requirejs module definitions is taking around 28 minutes of time for Obfuscation.  Is there a way to optimize this?
+338,2018-10-07 16:15:19.000000000,2018-10-07 16:16:38.000000000,closed,0,Uncaught SyntaxError: Unexpected token &
+337,2018-09-25 14:50:51.000000000,2020-04-13 11:07:08.000000000,closed,3,Cannot get the obfuscated code within the correct path
+336,2018-09-24 20:31:26.000000000,2019-11-30 21:39:33.000000000,closed,4,Problems with fesm5 export import  from 
+335,2018-09-15 06:54:22.000000000,2020-01-06 06:10:31.000000000,closed,1,'\n' gets returned as '{newlinecharacter}'
+334,2018-09-13 00:06:22.000000000,2019-11-30 21:37:56.000000000,closed,2,Doesn't show which file has syntax error
+333,2018-09-12 19:29:50.000000000,2020-01-06 20:51:06.000000000,closed,0,"Support for ""console.table"""
+332,2018-09-12 00:14:14.000000000,2020-04-24 11:13:49.000000000,closed,27,Self Defending with String Array
+331,2018-09-11 13:50:04.000000000,2019-12-31 15:44:09.000000000,closed,1,China's user access delay due to Google's reasons
+330,2018-09-09 02:45:13.000000000,1970-01-01 00:00:00.000000001,open,6,Feature Request - Self Defending with String Array
+329,2018-09-06 18:57:44.000000000,2020-04-13 15:39:52.000000000,closed,10,stringArray: true causing issues in Chrome and FF (browsers that do blobs) when using webpack
+328,2018-09-06 13:22:46.000000000,2020-01-07 01:10:34.000000000,closed,8,javascript-obfuscator break Assignment without declaration.
+327,2018-09-04 19:27:11.000000000,2019-12-31 15:40:34.000000000,closed,2,option reservedNames not work
+326,2018-08-31 10:25:30.000000000,2020-01-19 01:12:49.000000000,closed,6,Breaks conditional extends by removing parenthesis
+325,2018-08-30 23:20:13.000000000,2020-01-06 16:39:07.000000000,closed,3,How to disable Parenthesis removal?
+324,2018-08-30 19:53:33.000000000,2019-11-30 21:26:23.000000000,closed,11,JavaScript setTimeout infinite loop without recursion
+323,2018-08-24 00:00:04.000000000,2020-01-18 01:27:36.000000000,closed,10,0.18.1 runs (seemingly) indefinitely on some files
+322,2018-08-18 16:29:48.000000000,2018-08-28 17:41:16.000000000,closed,3,0.18.2 version
+321,2018-08-18 10:38:10.000000000,2019-11-30 21:21:40.000000000,closed,6,"Variable ""e"" was not defined "
+320,2018-08-16 17:53:33.000000000,2019-11-30 21:24:14.000000000,closed,2,uglifier + transformObjectKeys causes a crash
+319,2018-08-16 13:46:08.000000000,2019-11-30 21:22:26.000000000,closed,7,Quotes not being properly transformed since 0.18
+318,2018-08-16 09:07:11.000000000,2019-11-30 21:20:40.000000000,closed,9,Cannot read property 'type' of undefined when using transformObjectKeys
+317,2018-08-14 07:15:47.000000000,2018-08-14 11:28:32.000000000,closed,5,variable was not defined 
+316,2018-08-13 22:31:23.000000000,2018-08-13 22:50:16.000000000,closed,4,TypeError: n.includes is not a function
+315,2018-08-09 23:29:58.000000000,2018-08-09 23:52:26.000000000,closed,1,Function obfuscation bugs
+314,2018-08-09 14:57:18.000000000,2018-09-01 07:41:37.000000000,closed,4,"Using Webpack throws ""Cannot apply @injectable decorator multiple times"""
+313,2018-08-09 06:01:18.000000000,2018-08-10 07:18:42.000000000,closed,7,编译之后局部变量有问题(02)
+312,2018-08-08 22:12:51.000000000,2018-08-08 22:13:14.000000000,closed,1,use strict
+311,2018-08-08 17:24:12.000000000,2018-08-08 17:40:00.000000000,closed,1,Fixed https://github.com/javascript-obfuscator/javascript-obfuscator/…
+310,2018-08-08 16:25:42.000000000,2018-08-08 16:49:49.000000000,closed,3,Fixed https://github.com/javascript-obfuscator/javascript-obfuscator/…
+309,2018-08-08 14:11:47.000000000,2018-08-13 23:06:43.000000000,closed,3,编译之后局部变量处理BUG
+308,2018-08-07 18:05:25.000000000,2019-12-19 00:07:33.000000000,closed,1,"""use strict""; causes comments to be kept"
+307,2018-08-06 17:57:34.000000000,2018-08-13 23:07:15.000000000,closed,5,Renaming issue
+306,2018-08-03 01:10:37.000000000,2018-08-03 09:44:22.000000000,closed,2,Obfuscate contents of a directory and overwrite existing files 
+305,2018-07-31 12:04:48.000000000,2018-07-31 23:11:30.000000000,closed,0,0.17.3 version
+304,2018-07-31 08:36:00.000000000,2018-07-31 11:23:08.000000000,closed,3,Correct the ObfuscationResult type
+303,2018-07-31 08:02:45.000000000,2018-07-31 12:54:52.000000000,closed,5,TypeScript support is broken
+302,2018-07-31 01:44:04.000000000,2018-07-31 12:55:08.000000000,closed,4,Control flow flattening transformation changes the behavior of a for loop containing a continue statement
+301,2018-07-24 12:56:25.000000000,2018-07-24 13:41:12.000000000,closed,2,Old NPM package version
+300,2018-07-21 18:56:18.000000000,2018-07-31 00:43:42.000000000,closed,0,0.17.2
+299,2018-07-20 18:31:51.000000000,2018-08-13 23:07:30.000000000,closed,2,CLI examples in readme have wrong syntax
+298,2018-07-20 08:36:54.000000000,2018-08-16 20:17:01.000000000,closed,6,Composed source map
+297,2018-07-14 22:59:18.000000000,2018-07-31 00:23:21.000000000,closed,21,Variable renaming issue
+296,2018-07-14 01:29:51.000000000,2020-04-24 11:14:12.000000000,closed,15,Date lock WIP
+295,2018-07-13 23:52:56.000000000,2018-07-14 00:10:04.000000000,closed,1,`reservedStrings` option
+294,2018-07-13 00:14:34.000000000,2018-07-13 01:08:28.000000000,closed,1,Fixed https://github.com/javascript-obfuscator/javascript-obfuscator/…
+293,2018-07-12 17:41:48.000000000,2018-07-13 01:55:23.000000000,closed,1,Variables not renaming in child classes with --rename-globals=true
+292,2018-07-12 15:33:37.000000000,2020-01-06 06:24:28.000000000,closed,3,Feature request: seed = source crc
+291,2018-07-12 02:51:59.000000000,2018-07-12 03:12:09.000000000,closed,1,Template literal error
+290,2018-07-12 02:12:33.000000000,2018-07-12 02:34:54.000000000,closed,1,Fixed https://github.com/javascript-obfuscator/javascript-obfuscator/…
+289,2018-07-11 22:52:39.000000000,2018-07-13 01:55:33.000000000,closed,3,object not renaming
+288,2018-07-10 14:33:56.000000000,2018-07-13 01:55:41.000000000,closed,1,ReferenceError: `parentNode` property of given node is `undefined`
+287,2018-07-07 15:34:58.000000000,2018-07-12 09:49:51.000000000,closed,10,Error: Cannot read property 'ecmaFeatures' of undefined
+286,2018-07-04 11:40:57.000000000,2018-08-13 23:07:46.000000000,closed,12,feature request: react-native target
+285,2018-06-30 16:12:56.000000000,2018-06-30 17:34:08.000000000,closed,2,NodeJS : SyntaxError: Unexpected identifier
+284,2018-06-25 10:36:11.000000000,2018-06-25 11:07:24.000000000,closed,4,Query: Option to obfuscate JS code present in HTML extension file?
+283,2018-06-24 03:47:18.000000000,2018-07-24 20:47:01.000000000,closed,8,javascript obfuscator changes the browser's finger print
+282,2018-06-17 02:09:08.000000000,2020-02-12 01:18:42.000000000,closed,10,Identifier names generator block scope
+281,2018-06-09 22:44:58.000000000,2020-02-03 15:44:08.000000000,closed,3,"""\0"" and ""\u0000"" being converted to NUL character"
+280,2018-06-09 02:48:45.000000000,2018-06-09 16:19:43.000000000,closed,1,Block statement instead transformer identifier
+279,2018-06-09 02:23:29.000000000,2018-06-09 02:48:27.000000000,closed,1,No custom node groups
+278,2018-06-08 01:20:00.000000000,2018-06-08 01:53:31.000000000,closed,0,`inputFileName` option
+277,2018-06-07 11:32:21.000000000,2020-06-24 22:32:26.000000000,closed,1,Date lock feature
+276,2018-06-07 11:22:19.000000000,2018-06-27 13:00:08.000000000,closed,10,"The sources field in the generated sourceMap is always [""sourceMap""]"
+275,2018-06-05 01:09:40.000000000,2018-06-05 01:36:20.000000000,closed,1,Fixed https://github.com/javascript-obfuscator/javascript-obfuscator/…
+274,2018-06-04 05:59:39.000000000,2018-06-06 10:59:31.000000000,closed,6,Fix domainLock in SVG - issue #273
+273,2018-06-03 03:21:12.000000000,2018-06-27 13:00:17.000000000,closed,1,domainLock should work in SVG like in HTML
+272,2018-06-02 01:31:31.000000000,2018-06-04 07:52:51.000000000,closed,5,"Minify, Compress, Optimize, Obfuscate"
+271,2018-06-01 19:04:45.000000000,2018-06-27 13:00:28.000000000,closed,12,numbro 1.9.3 not usable after obfuscation
+270,2018-05-30 13:02:09.000000000,2020-06-08 01:44:40.000000000,closed,9,[FEATURE REQUEST] Support mangle properties.
+269,2018-05-28 02:26:31.000000000,2018-05-28 12:12:00.000000000,closed,4,2018 refactoring 1
+268,2018-05-28 01:38:37.000000000,2019-12-31 15:42:33.000000000,closed,11,"""Human readable"" obfuscation option"
+267,2018-05-24 20:34:31.000000000,2018-05-24 21:20:14.000000000,closed,6,Variables not renaming
+266,2018-05-24 12:26:50.000000000,2018-05-24 17:34:16.000000000,closed,1,Some refactoring
+265,2018-05-23 23:03:47.000000000,2018-05-23 23:24:21.000000000,closed,4,Fixed https://github.com/javascript-obfuscator/javascript-obfuscator/…
+264,2018-05-23 21:49:27.000000000,2018-06-27 13:00:37.000000000,closed,5,Improve `ObjectExpressionKeysTransformer` to works with `MemberExpression`
+263,2018-05-19 03:13:40.000000000,2018-06-06 12:30:45.000000000,closed,9,New error randomly being thrown
+262,2018-05-15 18:53:47.000000000,2018-06-06 12:30:03.000000000,closed,4,mangled obfuscation breaks project while hexadecimal one works just fine
+261,2018-05-14 19:52:03.000000000,2018-05-19 01:48:13.000000000,closed,7,"Web version produces non-working code for a few days (""data is not defined"")"
+260,2018-05-14 16:50:18.000000000,2018-06-27 13:00:49.000000000,closed,9,`domainLock` not working
+259,2018-05-12 08:19:24.000000000,2018-06-06 12:28:55.000000000,closed,5,--config support
+258,2018-05-10 14:10:27.000000000,2018-05-13 21:46:37.000000000,closed,23,BUG: Online Obfuscator Tool not working properly
+257,2018-05-04 10:59:14.000000000,2018-05-04 11:27:11.000000000,closed,4,Several errors
+256,2018-05-02 15:49:32.000000000,1970-01-01 00:00:00.000000001,open,1,"Suggestion: Add CLI Parameter ""Disable the Addition of Auxiliary Functions"""
+255,2018-04-25 03:38:48.000000000,2018-04-25 11:06:31.000000000,closed,2,Cli stringArrayEncoding RC4/Base64/true not work
+254,2018-04-19 14:21:35.000000000,2018-04-19 14:26:24.000000000,closed,4,New CLI option --print-config
+253,2018-04-19 14:18:56.000000000,2018-04-20 01:58:17.000000000,closed,2,Added base web version
+252,2018-04-19 14:15:15.000000000,2018-06-27 13:00:59.000000000,closed,4,Update CLI -h (target options)
+251,2018-04-18 22:07:53.000000000,2018-06-27 13:01:05.000000000,closed,7,Web version
+250,2018-04-18 19:39:01.000000000,2018-04-18 19:40:43.000000000,closed,2,Add special tag `javascript-obfuscator:string-array-threshold: <number>`
+249,2018-04-18 19:23:08.000000000,2018-04-18 19:45:05.000000000,closed,4,Move `string-array` to private namespace / try detect `private` namespace
+248,2018-04-18 17:32:00.000000000,2018-04-18 22:05:37.000000000,closed,4,unicode-escape-sequence enhancement 
+247,2018-04-18 13:51:42.000000000,2018-06-27 13:01:19.000000000,closed,9,CLI don't work when is install locally
+246,2018-04-17 19:36:49.000000000,2018-04-18 19:39:47.000000000,closed,2,`undefined` --version
+245,2018-04-17 19:34:37.000000000,2018-04-17 23:32:12.000000000,closed,7,error when package.joson don't exists
+244,2018-04-16 23:08:26.000000000,2018-04-16 23:19:27.000000000,closed,1,Disabled obfuscation of tagged template literals.
+243,2018-04-16 12:30:18.000000000,2018-04-18 02:11:11.000000000,closed,4,Tagged Template Literal break the code
+242,2018-04-16 01:34:03.000000000,2018-04-16 21:03:11.000000000,closed,7,Error: Line 1: Unexpected token 
+241,2018-04-15 11:09:30.000000000,2018-04-16 22:44:30.000000000,closed,1,Correct obfuscation of object rest and spread properties
+240,2018-04-12 14:02:16.000000000,2018-04-18 02:11:19.000000000,closed,5,Error when code contains object spread syntax
+239,2018-04-08 14:25:27.000000000,2018-04-09 00:26:48.000000000,closed,3,WebApp Error
+238,2018-04-08 07:48:05.000000000,2018-04-08 11:21:39.000000000,closed,2,is possable to keep require lib from obfuscated ?
+237,2018-03-30 00:52:40.000000000,2018-03-30 01:55:45.000000000,closed,1,Updated TSLint rules
+236,2018-03-28 14:46:58.000000000,2018-03-28 14:48:39.000000000,closed,3,Upload JavaScript Files
+235,2018-03-28 12:01:59.000000000,2018-03-30 00:38:01.000000000,closed,1,Optimised `convertCodeToStructure` method
+234,2018-03-26 02:47:45.000000000,2018-03-26 03:03:52.000000000,closed,5,Import specifier obfuscation
+233,2018-03-25 21:35:55.000000000,2018-03-26 01:13:08.000000000,closed,1,Switched `esprima` on `espree`. Obfuscation of `export` declarations
+232,2018-03-25 17:47:00.000000000,2018-03-27 09:14:06.000000000,closed,8,"Unable to run, what am I missing here?"
+231,2018-03-24 04:03:02.000000000,2018-03-30 12:04:06.000000000,closed,9,Not working with Async/Await
+230,2018-03-23 05:26:38.000000000,2018-03-26 22:40:17.000000000,closed,7,Suggestion - Method of additional minification and accelerating some JS.
+229,2018-03-22 23:41:52.000000000,2018-03-23 01:43:32.000000000,closed,4,Does this support polymorphic code?
+228,2018-03-22 13:34:31.000000000,2018-03-22 13:52:42.000000000,closed,3,Updated ts target in tests
+227,2018-03-22 12:47:54.000000000,2018-03-22 13:14:51.000000000,closed,1,Changed `target` on `es2017`
+226,2018-03-22 00:25:25.000000000,2018-03-22 01:20:13.000000000,closed,1,Disabled generation of identifiers that matching with values of `rese…
+225,2018-03-21 02:47:45.000000000,2018-03-21 02:49:39.000000000,closed,3,error: unknown option `--exclude'
+224,2018-03-20 04:50:18.000000000,2018-03-22 01:26:53.000000000,closed,5,"Obfuscator date problem, Run using imacros"
+223,2018-03-19 03:41:02.000000000,2018-03-19 11:04:55.000000000,closed,2,Gulp plugin - not all object's keys obfuscated
+222,2018-03-18 05:09:28.000000000,2018-03-18 16:50:12.000000000,closed,10,How to Callback?
+221,2018-03-16 12:37:32.000000000,2018-03-20 01:32:52.000000000,closed,1,Node metadata
+220,2018-03-13 16:17:20.000000000,2018-03-13 16:21:10.000000000,closed,2,Concat + Obfuscate with Source maps
+219,2018-03-12 10:55:36.000000000,2018-03-30 12:04:15.000000000,closed,3,Problem using this module as it have`eval` statements 
+218,2018-03-11 04:00:35.000000000,2018-03-11 04:20:54.000000000,closed,2,Issue 217
+217,2018-03-10 04:20:42.000000000,2018-03-14 00:23:53.000000000,closed,4,Variable ... has already been declared
+216,2018-03-08 00:57:17.000000000,2018-03-30 12:04:36.000000000,closed,7,Conflict with Q library
+215,2018-03-06 03:45:56.000000000,2018-03-06 11:04:19.000000000,closed,9,I hate you! 😡
+214,2018-03-04 15:41:01.000000000,2018-06-07 10:49:09.000000000,closed,2,Refactor custom node groups to transformers #1: String Array Transformer
+213,2018-03-03 02:18:42.000000000,2018-03-08 01:22:38.000000000,closed,3,Switching on webpack@4
+212,2018-03-02 14:52:18.000000000,2018-03-02 14:55:45.000000000,closed,3,Add support for .html files
+211,2018-03-02 03:05:41.000000000,2018-03-02 03:36:51.000000000,closed,1,Fixed https://github.com/javascript-obfuscator/javascript-obfuscator/…
+210,2018-03-01 22:43:53.000000000,2018-03-30 12:04:55.000000000,closed,9,"Error if there is an ""Import"" statement at the beginning of js file"
+209,2018-03-01 19:54:45.000000000,2018-03-01 20:12:35.000000000,closed,3,Stable output across multiple invocations
+208,2018-02-28 00:14:38.000000000,2018-03-22 08:35:06.000000000,closed,13,not working on ios9 safari 
+207,2018-02-27 13:30:27.000000000,2018-03-22 22:14:33.000000000,closed,35,ReferenceError: _0xXXXX is not defined
+206,2018-02-26 03:24:49.000000000,2018-02-26 04:01:48.000000000,closed,3,Dropped node@4 and node@5 support
+205,2018-02-24 16:00:13.000000000,2018-02-24 16:27:27.000000000,closed,1,New CLI option: `exclude`
+204,2018-02-23 03:02:14.000000000,2018-02-23 03:31:22.000000000,closed,1,Replaced babel-preset-2015 on babel-preset-env
+203,2018-02-22 01:44:30.000000000,2018-02-22 02:34:13.000000000,closed,6,Web version?
+202,2018-02-20 02:32:44.000000000,2018-02-20 03:39:24.000000000,closed,3,Cli directory obfuscation logging
+201,2018-02-19 22:37:11.000000000,2018-02-20 13:31:43.000000000,closed,4,"cli throwing error ""TypeError: undefined is not a function"""
+200,2018-02-19 02:58:56.000000000,2018-02-19 03:10:23.000000000,closed,3,Add license scan report and status
+199,2018-02-18 03:22:49.000000000,2018-02-19 03:09:54.000000000,closed,2,Cli config reading improvements
+198,2018-02-17 23:01:23.000000000,2018-02-17 23:54:10.000000000,closed,3,Esprima facade
+197,2018-02-17 19:42:51.000000000,2018-02-17 20:11:59.000000000,closed,3,Fixed https://github.com/javascript-obfuscator/javascript-obfuscator/…
+196,2018-02-17 17:18:13.000000000,2018-02-17 17:46:14.000000000,closed,3,Dead code injection improvements
+195,2018-02-16 11:46:24.000000000,2018-02-19 03:14:15.000000000,closed,20,Old FF: `ReferenceError: _0xXXXXXX is not defined`
+194,2018-02-16 02:06:38.000000000,2018-02-16 02:33:23.000000000,closed,1,0.14.2 Fixed https://github.com/javascript-obfuscator/javascript-obfu…
+193,2018-02-15 17:15:31.000000000,2018-02-18 02:07:10.000000000,closed,9,duplicate global variables in multiple files for StringArray option
+192,2018-02-14 01:07:17.000000000,2018-02-14 01:57:44.000000000,closed,1,Esprima template literal fix
+191,2018-02-13 08:02:25.000000000,2018-02-13 10:46:27.000000000,closed,4,Reproducible bug found during obfuscation
+190,2018-02-11 00:03:33.000000000,2018-02-21 01:16:49.000000000,closed,15,ReferenceError: Given config path must be a valid file path
+189,2018-02-10 09:04:56.000000000,2018-02-10 23:58:31.000000000,closed,5,Unexpected token )
+188,2018-02-10 08:26:29.000000000,2018-03-30 12:05:14.000000000,closed,9,Nodejs project obfuscation and bundling
+187,2018-02-09 04:36:38.000000000,2018-02-09 11:42:47.000000000,closed,1,Initializable decorator improvements
+186,2018-02-08 22:50:26.000000000,2018-02-08 23:16:12.000000000,closed,3,TSLint rules update
+185,2018-02-06 19:28:37.000000000,2018-03-26 00:59:51.000000000,closed,6,NodeJS shebang (#!) line issue
+184,2018-02-06 04:06:56.000000000,2018-02-21 01:18:08.000000000,closed,12,Obfuscator generating syntax error only on certain browsers
+183,2018-01-30 23:46:20.000000000,2018-02-02 04:44:44.000000000,closed,6,Adobe JSX Issue
+182,2018-01-29 12:37:55.000000000,2018-02-14 02:38:47.000000000,closed,16,Cocos game gets stuck after obfuscation (related to transformation of this._super)
+181,2018-01-24 10:04:25.000000000,2018-07-10 14:33:21.000000000,closed,17,Problem with multi-line template literals
+180,2018-01-18 03:44:54.000000000,2018-01-24 19:55:32.000000000,closed,8,`identifiersPrefix` option
+179,2018-01-16 19:12:01.000000000,2018-01-24 01:17:39.000000000,closed,16,Javascript-obfuscator does not work with Angular 1 
+178,2018-01-16 04:35:03.000000000,2018-01-16 17:28:48.000000000,closed,3,React project
+177,2018-01-15 15:51:25.000000000,2018-01-15 16:15:05.000000000,closed,5,"Allow identifying parts of code that are performance-critical, and don't apply performance-affecting obfuscation there"
+176,2018-01-15 13:46:54.000000000,2018-02-05 00:16:50.000000000,closed,2,Control flow flattening identifiers problem
+175,2018-01-15 03:38:40.000000000,2018-01-16 11:36:01.000000000,closed,3,Custom nodes transformer
+174,2018-01-14 16:40:37.000000000,2018-02-05 00:17:22.000000000,closed,1,Object keys obfuscation
+173,2018-01-13 23:43:40.000000000,2018-01-14 00:04:58.000000000,closed,1,Additional tests to improve code coverage #1
+172,2018-01-13 17:17:15.000000000,2018-01-13 17:42:28.000000000,closed,1,Fixed control flow flattening class declaration runtime error
+171,2018-01-13 16:49:52.000000000,2018-02-05 00:17:30.000000000,closed,1,control flow flattening with class declaration producing runtime error
+170,2018-01-10 20:29:23.000000000,2018-02-05 00:17:38.000000000,closed,25,Global variables introduced by obfuscator
+169,2018-01-08 22:39:18.000000000,2018-01-13 20:46:18.000000000,closed,14,Obfuscation of eval expressions
+168,2018-01-08 22:09:24.000000000,2018-02-05 00:17:46.000000000,closed,4,Obfuscation of `eval` expressions
+167,2018-01-07 02:45:09.000000000,2018-01-07 03:08:29.000000000,closed,1,Fixed https://github.com/javascript-obfuscator/javascript-obfuscator/…
+166,2018-01-07 02:26:46.000000000,2018-02-05 00:17:54.000000000,closed,1,Incorrect name of string array calls wrapper identifier after obfuscation
+165,2018-01-04 18:03:02.000000000,2018-01-13 21:08:11.000000000,closed,12,Object keys obfuscation
+164,2018-01-04 12:43:33.000000000,2018-01-04 13:49:25.000000000,closed,4,Suggestion: Conditional code
+163,2018-01-02 10:17:49.000000000,2018-01-07 02:44:57.000000000,closed,7,obfuscating minified filed by closure-compiler?
+162,2018-01-01 18:21:43.000000000,2018-01-01 20:01:51.000000000,closed,3,Improved string array templates
+161,2017-12-31 19:27:52.000000000,2017-12-31 19:51:40.000000000,closed,1,Improved CLI directory obfuscation
+160,2017-12-26 17:04:38.000000000,2018-01-01 19:05:52.000000000,closed,7,Obfuscated prototype symbols for RC4
+159,2017-12-26 15:59:31.000000000,2018-02-05 00:18:02.000000000,closed,1,Leaking RC4 encrypted string information
+158,2017-12-23 11:18:44.000000000,2018-01-02 10:03:57.000000000,closed,7,npm ERR! not a package 
+157,2017-12-20 10:33:40.000000000,2018-02-05 00:18:12.000000000,closed,15,Recursive obfuscation support?
+156,2017-12-20 10:30:15.000000000,2018-02-05 00:18:21.000000000,closed,4,Windows output directory name is invalid 
+155,2017-12-18 22:50:57.000000000,2018-02-14 02:38:18.000000000,closed,3,Branded Identifier Names Generator
+154,2017-12-18 17:24:31.000000000,2017-12-18 17:58:14.000000000,closed,4,return issue
+153,2017-12-18 03:28:28.000000000,2018-02-05 00:18:31.000000000,closed,13,0.14.0 plans
+152,2017-12-18 02:57:23.000000000,2017-12-18 03:20:00.000000000,closed,2,0.13.0 release
+151,2017-12-15 02:30:48.000000000,2017-12-15 02:51:03.000000000,closed,1,Conditional comments now affects control flow flattening transformations
+150,2017-12-14 03:52:47.000000000,2017-12-14 11:53:22.000000000,closed,1,Fixed #149
+149,2017-12-13 20:47:38.000000000,2017-12-18 03:25:52.000000000,closed,6,Script does not work after the obfuscation
+148,2017-12-13 02:30:16.000000000,2017-12-13 03:01:46.000000000,closed,2,Optimisations for identifers renaming
+147,2017-12-10 16:01:23.000000000,2017-12-18 03:26:07.000000000,closed,10,stringArray doesn't respect condition comments
+146,2017-12-09 19:15:30.000000000,2017-12-18 03:26:34.000000000,closed,12,Obfuscation takes extremely long for large files (12+ hours)
+145,2017-12-06 21:40:40.000000000,2017-12-06 21:50:05.000000000,closed,2,Debug protection not working
+144,2017-12-05 13:17:20.000000000,2017-12-13 02:24:37.000000000,closed,1,Keep comments with specific keywords
+143,2017-12-05 02:13:22.000000000,2017-12-05 02:36:50.000000000,closed,1,`identifierNamesGenerator` option
+142,2017-12-04 03:07:48.000000000,2017-12-04 03:51:56.000000000,closed,1,Cli options kebab case naming
+141,2017-12-04 02:11:03.000000000,2017-12-04 02:51:01.000000000,closed,1,Version output when logger enable
+140,2017-12-03 20:33:15.000000000,2017-12-03 21:02:12.000000000,closed,1,0.12.5 release
+139,2017-12-03 20:13:21.000000000,2017-12-03 21:02:12.000000000,closed,1,Multiple calls of debug protection call node
+138,2017-12-01 21:10:34.000000000,2017-12-01 21:25:31.000000000,closed,3,esprima.js ErrorHandler.constructError
+137,2017-12-01 01:53:22.000000000,2017-12-01 02:44:35.000000000,closed,1,0.12.4 release
+136,2017-12-01 01:38:27.000000000,2017-12-01 02:44:35.000000000,closed,3,SyntaxError: 'super' keyword unexpected here
+135,2017-11-30 16:42:44.000000000,2017-11-30 17:18:19.000000000,closed,8,There are random variable names exposed
+134,2017-11-30 08:04:12.000000000,2020-01-06 06:25:46.000000000,closed,15,stack overflow at line:1 when using the obfuscated js on IE 8
+133,2017-11-30 02:56:56.000000000,2017-12-04 00:08:18.000000000,closed,1,Identifier name generators: Hexadecimal and Mangled
+132,2017-11-28 09:19:45.000000000,2017-12-18 03:26:20.000000000,closed,5,Preserve copyright comments in the output
+131,2017-11-26 00:28:13.000000000,2018-06-07 07:29:27.000000000,closed,6,Problem with generated source maps?
+130,2017-11-24 02:49:53.000000000,2017-11-24 03:25:34.000000000,closed,1,Fixed #129
+129,2017-11-23 09:37:37.000000000,2017-11-25 01:18:50.000000000,closed,5,"Lots of ""unreachable code after return statement"" warnings in Firefox"
+128,2017-11-23 03:48:05.000000000,2017-11-23 12:27:58.000000000,closed,3,0.12.3 release
+127,2017-11-21 21:16:15.000000000,2017-11-21 22:22:42.000000000,closed,7,uglify-es after javascript-obfuscator with selfDefending?
+126,2017-11-21 20:17:23.000000000,2017-11-21 20:44:19.000000000,closed,4,'super' (es2015) not supported
+125,2017-11-21 17:02:57.000000000,2017-11-27 16:10:33.000000000,closed,9,'ReferenceError: _0x2194cf is not defined'
+124,2017-11-17 03:26:16.000000000,2017-11-17 03:26:42.000000000,closed,0,Updated change log for 0.12.2 version
+123,2017-11-17 03:05:28.000000000,2017-11-25 01:19:12.000000000,closed,3,Incompatible options: Mangle Variable Names + Debug Protection + Target=Extension
+122,2017-11-14 11:00:29.000000000,2017-11-25 09:08:29.000000000,closed,4,Uncaught SyntaxError: Illegal return statement
+121,2017-11-10 05:06:50.000000000,2017-11-17 03:31:48.000000000,closed,2,Dead Code Injection + Debug Protection exposes internal variable names
+120,2017-11-10 03:45:51.000000000,2017-11-17 02:28:01.000000000,closed,3,0.12.2 release
+119,2017-11-07 15:11:34.000000000,2017-11-17 03:31:52.000000000,closed,7,Weird behavior
+118,2017-11-03 21:09:11.000000000,2017-11-03 23:41:27.000000000,closed,2,0.12.1 release
+117,2017-11-03 16:04:18.000000000,2017-11-03 23:41:27.000000000,closed,7,Domain lock not working?
+116,2017-11-02 21:00:11.000000000,2017-12-13 03:02:58.000000000,closed,4,Date Lock
+115,2017-10-21 00:35:55.000000000,2017-11-03 10:42:48.000000000,closed,3,Output
+114,2017-10-19 11:55:36.000000000,2017-12-18 03:27:58.000000000,closed,5,0.13.0 plans
+113,2017-10-15 14:12:38.000000000,2017-10-16 14:46:14.000000000,closed,7,Help me install
+112,2017-10-15 09:16:34.000000000,2017-10-15 14:25:18.000000000,closed,1,How do I install this via GitHub directly instead of NPM?
+111,2017-10-12 15:28:26.000000000,2017-10-23 22:42:51.000000000,closed,6,Help! Cannot find module 'color-convert'
+110,2017-10-11 16:48:36.000000000,2017-12-18 03:27:06.000000000,closed,13,Obfuscation failed for code with `super`
+109,2017-10-10 18:45:39.000000000,2017-10-11 11:07:03.000000000,closed,8,Blank output when input code size = 900kb
+108,2017-10-09 19:44:30.000000000,2017-10-09 19:48:14.000000000,closed,2,undefined in file(s) after jsobfuscate
+107,2017-10-06 02:55:43.000000000,2017-10-11 23:43:52.000000000,closed,7,"""Illegal return statement"" in Chrome extension"
+106,2017-10-04 19:12:01.000000000,2017-10-06 20:02:33.000000000,closed,2,Do you support transpiling react JSX to js code?
+105,2017-09-30 22:32:45.000000000,1970-01-01 00:00:00.000000001,open,14,Add features suggestion
+104,2017-09-30 20:43:11.000000000,2017-10-03 15:36:20.000000000,closed,8,Switch/continue pattern is not supported by javascript
+103,2017-09-30 15:21:24.000000000,2017-09-30 18:24:11.000000000,closed,2,Variable content does not get encrypted
+102,2017-09-30 10:44:25.000000000,2017-10-01 07:10:14.000000000,closed,7,Easily reverse engineered on different seeds
+101,2017-09-26 11:31:42.000000000,2017-10-12 12:56:46.000000000,closed,14,Transformation is applied even if all options are set to false
+100,2017-09-25 02:17:07.000000000,2018-01-24 20:23:49.000000000,closed,15,Very slow code
+99,2017-09-21 03:26:50.000000000,2017-12-13 03:00:53.000000000,closed,3,Apply different ciphers to string literal encryption.
+98,2017-09-19 07:25:32.000000000,2017-09-20 10:13:31.000000000,closed,5,Object initializer with computed property names does not work
+97,2017-09-18 20:37:47.000000000,2017-09-30 12:37:28.000000000,closed,3,Desobfuscate
+96,2017-09-14 18:55:19.000000000,2017-09-14 19:10:24.000000000,closed,4,Merge pull request #1 from javascript-obfuscator/master
+95,2017-09-14 15:51:41.000000000,1970-01-01 00:00:00.000000001,open,5,debugProtection is easy to bypass even if selfDefending is enabled
+94,2017-09-12 20:07:29.000000000,2017-09-13 16:23:58.000000000,closed,13,"Obfuscated js throws error: ""Uncaught SyntaxError: Illegal return statement"""
+93,2017-09-12 16:50:50.000000000,2017-09-12 17:03:36.000000000,closed,3,Can't run cli command
+92,2017-09-08 19:36:37.000000000,2017-10-19 01:29:54.000000000,closed,7,"Avoid using eval(), setTimeout(), setInterval() or Function()"
+91,2017-09-07 16:24:07.000000000,2017-09-19 17:13:14.000000000,closed,3,what the principle of Self - Defending is?
+90,2017-09-04 05:32:30.000000000,2017-10-19 01:29:46.000000000,closed,3,Obfuscate class names
+89,2017-09-02 23:39:34.000000000,2017-10-20 00:07:59.000000000,closed,6,RangeError: Maximum call stack size exceeded
+88,2017-09-02 18:27:35.000000000,2017-10-19 01:29:37.000000000,closed,9,Is there a way to exclude a function from obfuscation?  
+87,2017-08-30 13:35:10.000000000,2017-08-30 13:55:10.000000000,closed,4,"I find there is an unnecessary func code snippets in DomainLockNodeTemplate.ts, may I know if there are potential invoking?"
+86,2017-08-21 16:12:18.000000000,2017-08-21 17:16:51.000000000,closed,5,Maximum call stack size exceeded Error on Android 
+85,2017-08-21 00:21:28.000000000,2017-10-19 01:29:25.000000000,closed,3,does the CLI support directory compilation?
+84,2017-08-18 15:29:33.000000000,2017-08-18 15:42:24.000000000,closed,3,-Added Rollup plugin to README
+83,2017-08-17 22:20:28.000000000,2017-08-30 16:12:47.000000000,closed,5,How to run it with php?
+82,2017-08-17 18:01:32.000000000,2017-10-06 20:04:16.000000000,closed,6,Mangling option may produce buggy code in IE8-.
+81,2017-08-08 12:10:36.000000000,2017-10-19 01:30:43.000000000,closed,12,0.12.0 plans
+80,2017-08-03 15:39:58.000000000,2017-08-04 17:21:32.000000000,closed,9,ReferenceError when using mangle
+79,2017-08-03 08:52:22.000000000,2017-08-08 22:06:17.000000000,closed,4,Unexpected token -
+78,2017-08-01 20:51:46.000000000,2017-08-02 10:12:26.000000000,closed,6,Error when obfuscating TypeScript with deadCodeInjection: true
+77,2017-08-01 10:32:56.000000000,2017-08-01 13:44:08.000000000,closed,2,Minification
+76,2017-07-31 05:23:11.000000000,2017-08-01 00:27:37.000000000,closed,7,--config option does not work
+75,2017-07-28 11:23:13.000000000,2017-08-07 01:35:22.000000000,closed,1,0.11.0 plans
+74,2017-07-28 09:07:43.000000000,2017-08-07 01:36:26.000000000,closed,11,It doesn't uglify the function names.
+73,2017-07-27 09:39:05.000000000,2017-07-27 12:44:59.000000000,closed,7,Add --config CLI option
+72,2017-07-27 07:21:04.000000000,2017-07-27 12:49:01.000000000,closed,1,CLI option to accept name of json/js config file
+71,2017-07-27 01:24:44.000000000,2017-07-28 00:48:07.000000000,closed,7,controlFlowFlattening seems to ignore continue in while or for loop
+70,2017-07-25 09:22:49.000000000,2017-10-06 20:03:59.000000000,closed,4,Detection PhantomJS and Chrome Headless
+69,2017-07-20 19:07:43.000000000,2017-07-25 01:52:58.000000000,closed,10,SyntaxError: Unexpected token: name (ChargingStationClient)
+68,2017-07-16 03:04:43.000000000,2017-07-16 13:18:58.000000000,closed,3,simple example not work
+67,2017-07-14 18:39:52.000000000,2017-07-24 16:38:15.000000000,closed,8,disableConsoleOutput not working
+66,2017-07-13 12:27:12.000000000,2017-07-13 13:04:11.000000000,closed,2,data is not defined
+65,2017-07-09 03:36:25.000000000,2017-07-13 16:02:57.000000000,closed,18,eval() breaks Chrome Extensions
+64,2017-07-08 14:01:37.000000000,2017-07-18 12:25:21.000000000,closed,5,"Feature Request: Add support for RSA in encoding, RC4 is broken."
+63,2017-07-07 23:43:31.000000000,2017-09-19 17:15:32.000000000,closed,8,JavascriptObfuscator crashes when used in Jest environment
+62,2017-07-06 16:56:23.000000000,2017-07-06 18:45:45.000000000,closed,5,Question: What's the point of hexadecimal obfuscation?
+61,2017-07-04 17:52:43.000000000,2017-07-04 18:40:11.000000000,closed,3,Add function name obfuscation  
+60,2017-07-04 13:22:46.000000000,2017-07-07 14:41:36.000000000,closed,1,Runtime errors on large source code with high obfuscation profile 
+59,2017-07-03 05:53:45.000000000,2017-07-24 00:35:06.000000000,closed,10,"""use strict"" converted to hexa breaks strict mode "
+58,2017-06-22 02:25:50.000000000,2017-07-03 16:45:55.000000000,closed,8,Issue with two separated obfuscated files on the same page
+57,2017-06-18 17:32:43.000000000,2017-07-11 01:13:50.000000000,closed,11,problem with file paths
+56,2017-05-27 18:07:12.000000000,2017-05-27 18:12:05.000000000,closed,3,command not found
+55,2017-05-26 18:17:07.000000000,2017-05-26 18:37:31.000000000,closed,4,Activating Open Collective
+54,2017-05-25 00:44:10.000000000,2017-07-11 01:11:50.000000000,closed,24,Intermittent restart/crash
+53,2017-05-19 20:10:20.000000000,2017-06-13 20:31:10.000000000,closed,19,Obfuscating transpilade babel ES5
+52,2017-05-19 16:29:44.000000000,2017-05-26 12:24:34.000000000,closed,8,Excluding blocks from Obfuscation
+51,2017-05-07 21:14:54.000000000,2018-06-06 13:33:04.000000000,closed,39,Avast
+50,2017-04-29 03:44:05.000000000,2017-06-29 02:28:00.000000000,closed,39,NodeJS: SyntaxError: Unexpected identifier
+49,2017-04-24 17:26:31.000000000,2017-07-11 01:10:39.000000000,closed,4,"Content Security Policy (CSP) restrictions - ""call to Function() blocked by CSP"""
+48,2017-04-17 16:45:18.000000000,2017-04-17 21:29:58.000000000,closed,2,docs: fix
+47,2017-04-06 14:59:37.000000000,2017-05-03 10:23:07.000000000,closed,3,Can it be used with non Nodejs projects?
+46,2017-03-23 16:40:23.000000000,2017-03-23 17:59:00.000000000,closed,4,Not able to handle the Invalid Domain - DomainLock
+45,2017-03-23 13:57:16.000000000,2017-03-23 14:25:44.000000000,closed,4,domainLock
+44,2017-03-19 00:05:35.000000000,2017-03-21 12:43:15.000000000,closed,13,[new feature] sanitize array value
+43,2017-03-17 13:36:38.000000000,2017-03-19 16:26:39.000000000,closed,2,question about browser
+42,2017-03-02 12:57:21.000000000,2017-03-02 14:17:54.000000000,closed,2,remove coverage dir from npm package
+41,2017-02-15 06:46:20.000000000,2017-05-06 16:11:38.000000000,closed,11,ES5 React class
+40,2017-02-03 19:52:52.000000000,2017-02-03 20:35:14.000000000,closed,3,disableConsoleOutput question
+39,2017-02-03 00:56:27.000000000,2017-07-28 00:48:36.000000000,closed,12,"0.10.0 plan: Dead Code Injection, Mangle"
+38,2017-01-30 21:17:34.000000000,2017-07-11 01:13:06.000000000,closed,6,Async/await
+37,2017-01-30 07:22:34.000000000,2017-01-30 13:52:06.000000000,closed,4,Error: Cannot find module 'babel-runtime/helpers/classCallCheck'
+36,2017-01-29 19:35:35.000000000,2017-01-29 19:37:12.000000000,closed,2,Fixed some grammar
+35,2017-01-25 18:49:53.000000000,2017-01-28 15:50:22.000000000,closed,9,Production Ready?
+34,2017-01-20 05:42:15.000000000,2017-01-20 10:22:06.000000000,closed,2,Update babel-plugin-transform-runtime to the latest version 🚀
+33,2017-01-20 05:39:19.000000000,2017-01-20 10:22:13.000000000,closed,3,Update babel-cli to the latest version 🚀
+32,2017-01-19 15:12:38.000000000,2017-01-19 15:13:50.000000000,closed,0,Update dependencies to enable Greenkeeper 🌴
+31,2017-01-17 20:34:38.000000000,2017-01-17 21:09:28.000000000,closed,7,how to update the web UI with new version of javascript-obfuscator
+30,2017-01-15 00:56:17.000000000,2017-01-15 00:58:00.000000000,closed,3,Update README.md
+29,2017-01-11 04:09:42.000000000,2017-01-12 10:20:58.000000000,closed,7,Error with es6 destructuring
+28,2016-12-17 20:28:50.000000000,2016-12-17 20:42:56.000000000,closed,2,Minor README.md fixes
+27,2016-12-16 16:23:26.000000000,2016-12-19 16:46:26.000000000,closed,5,Obfuscation and reflection
+26,2016-12-04 19:09:34.000000000,2016-12-07 21:19:13.000000000,closed,1,POLL: Disable `selfDefending` by default
+25,2016-11-25 19:22:29.000000000,2016-11-25 19:42:51.000000000,closed,7,async functions not working
+24,2016-11-21 22:13:45.000000000,2016-11-23 19:55:55.000000000,closed,4,[feature request] Seed option to produce consistent output
+23,2016-11-21 21:02:24.000000000,2016-11-22 00:06:20.000000000,closed,1,Fixed a typo
+22,2016-11-21 19:13:54.000000000,2016-12-27 21:44:34.000000000,closed,21,Obfuscated code fails to work in IE8
+21,2016-11-21 00:32:37.000000000,2017-01-29 19:19:15.000000000,closed,22,"0.9.0 development: control flow flattening, TemplateLiteral obfuscation"
+20,2016-11-12 02:03:42.000000000,2016-11-12 06:06:42.000000000,closed,5,Can't disable stringArray on 0.8.0-dev.4
+19,2016-10-25 14:25:28.000000000,2016-11-13 04:18:13.000000000,closed,3,Unable to pass in an existing source map?
+18,2016-10-21 21:48:08.000000000,2017-05-26 12:31:13.000000000,closed,38,Javascript Obfuscator Web frontend - WIP
+17,2016-10-05 02:41:33.000000000,2016-10-05 09:40:53.000000000,closed,6,Can't run javascript-obfuscator CLI
+16,2016-09-23 19:34:01.000000000,2016-09-26 00:26:21.000000000,closed,5,Syntax error with ES6 shorthand properties
+15,2016-09-09 13:20:39.000000000,2016-11-17 00:36:12.000000000,closed,12,Improvement
+14,2016-09-01 19:31:10.000000000,2016-09-13 01:47:42.000000000,closed,32,Not working in IE
+13,2016-09-01 17:08:28.000000000,2016-09-01 22:45:06.000000000,closed,9,Domain lock feature
+12,2016-09-01 03:26:35.000000000,2016-11-09 22:13:30.000000000,closed,14,Domain lock WIP feature
+11,2016-08-16 02:56:10.000000000,2016-08-30 13:32:07.000000000,closed,3,Why didn't you use babel transpiler?
+10,2016-08-07 13:44:49.000000000,2016-08-09 02:01:56.000000000,closed,7,[RFC] Input empty (or comment only)
+9,2016-08-02 20:30:02.000000000,2016-08-05 14:53:19.000000000,closed,18,Undefined objects
+8,2016-07-27 22:45:16.000000000,2016-07-28 09:49:50.000000000,closed,25,NPM Module broken?
+7,2016-07-07 14:17:55.000000000,2016-07-07 18:04:21.000000000,closed,10,Source maps
+6,2016-06-28 18:45:58.000000000,2016-06-28 22:30:31.000000000,closed,2,how to use by command line
+5,2016-06-23 04:52:46.000000000,2016-06-23 14:52:33.000000000,closed,2,Command-line binary 
+4,2016-06-23 03:53:57.000000000,2016-06-23 04:41:23.000000000,closed,2,Readme.md fix for package api example
+3,2016-06-16 02:10:53.000000000,2016-06-16 13:33:13.000000000,closed,2,readme improvements
+2,2016-06-04 06:28:15.000000000,2016-06-08 01:44:52.000000000,closed,2,readme improvements
+1,2016-06-03 22:17:46.000000000,2016-06-03 22:18:05.000000000,closed,0,Update readme.md

@@ -1,0 +1,840 @@
+id,created_at,closed_at,state,comments,title
+857,2020-08-29 17:11:07.000000000,1970-01-01 00:00:00.000000001,open,0,leaderelection.go: Can GetLeader()/IsLeader() add a RWMutex since RunOrDie() is always used to run in a goroutine by users?
+856,2020-08-28 02:12:54.000000000,1970-01-01 00:00:00.000000001,open,0,Watch channel not getting closed
+855,2020-08-28 00:27:07.000000000,1970-01-01 00:00:00.000000001,open,0,Dependency Missing: github.com/Azure/go-autorest@v0.9.6
+854,2020-08-26 14:14:20.000000000,1970-01-01 00:00:00.000000001,open,0,The client-go doesn't compile into web assembly platform
+853,2020-08-26 07:38:42.000000000,1970-01-01 00:00:00.000000001,open,0,fatal error: concurrent map read and map write
+852,2020-08-24 22:34:00.000000000,1970-01-01 00:00:00.000000001,open,0,jsonpath fails to find field when a struct is composed of 2 or more structs
+851,2020-08-24 17:09:49.000000000,2020-08-27 13:29:02.000000000,closed,3,README: add 1.19 in compatibility matrix
+850,2020-08-24 09:34:40.000000000,1970-01-01 00:00:00.000000001,open,0,build istio gateway by using dynamic go client
+849,2020-08-21 01:47:36.000000000,2020-08-21 21:47:11.000000000,closed,1,In Cluster Client Config vs Out of Cluster Client Config
+848,2020-08-20 17:34:22.000000000,2020-08-20 17:48:29.000000000,closed,2,Specify ServiceAccount when using InClusterConfig
+847,2020-08-16 21:52:13.000000000,2020-08-16 23:10:56.000000000,closed,1,How to get all pods that use the same PVC?
+846,2020-08-12 03:48:00.000000000,2020-08-12 08:10:20.000000000,closed,2,"Modify the warning message's format from ""%d"" to ""%v"" in shared_informer.go."
+845,2020-08-12 03:27:19.000000000,2020-08-12 03:28:02.000000000,closed,2,"Modify the warning message's format from ""%d"" to ""%v"" in shared_informer.go."
+844,2020-08-12 03:06:08.000000000,2020-08-12 03:18:06.000000000,closed,5,"Modify the warning message format from ""%d"" to ""%v"" in shared_informer.go."
+843,2020-08-09 11:28:30.000000000,1970-01-01 00:00:00.000000001,open,0,"Confusion about the ""resync"" of informers"
+842,2020-08-06 23:13:05.000000000,2020-08-27 13:37:28.000000000,closed,5,Update install instructions to match the minimum version for examples
+841,2020-08-06 21:01:40.000000000,2020-08-13 22:39:56.000000000,closed,2,resource-level isolation in controller
+840,2020-08-05 21:18:45.000000000,2020-08-06 00:58:35.000000000,closed,2,Discovery for subresource
+839,2020-08-05 10:07:07.000000000,2020-08-12 21:42:11.000000000,closed,2,"Panic: no Auth Provider found for name ""gcp"""
+838,2020-08-03 08:52:02.000000000,1970-01-01 00:00:00.000000001,open,0,Panic in event handler will be blocked by defer func
+837,2020-07-30 17:34:21.000000000,2020-07-30 17:39:53.000000000,closed,1,Make RunOrDie start leader election loop in the background or document that it blocks
+836,2020-07-29 20:47:45.000000000,2020-07-29 20:51:43.000000000,closed,2,fix broken url
+835,2020-07-18 22:58:18.000000000,1970-01-01 00:00:00.000000001,open,1,Fake implementation doesn't render the right metadata for the pod
+834,2020-07-18 00:28:48.000000000,1970-01-01 00:00:00.000000001,open,0,PV & PVC errors
+833,2020-07-13 20:15:50.000000000,1970-01-01 00:00:00.000000001,open,0,client-go resource api version issue
+832,2020-07-07 23:59:55.000000000,1970-01-01 00:00:00.000000001,open,0,Minimizing memory usage
+831,2020-07-07 10:48:21.000000000,2020-07-30 17:40:21.000000000,closed,1,Is there a way to watch for scale resource of all kinds of workloads including extended type
+830,2020-07-06 14:57:07.000000000,1970-01-01 00:00:00.000000001,open,3,Namespace passed in place of subresource (and vice versa) to method call NewUpdateSubresourceAction in fakeNamespacedScaleClient.Update 
+829,2020-07-02 04:35:06.000000000,1970-01-01 00:00:00.000000001,open,2,Failed to watch *v1.Pod: unknown (get pods) when using an informer
+828,2020-07-02 02:48:58.000000000,2020-07-03 11:40:48.000000000,closed,0,Update client <-> server compatibility matrix in README with v1.18.x
+827,2020-07-02 02:23:20.000000000,1970-01-01 00:00:00.000000001,open,0,Create a new ephemeral container in a pod and fetch its output
+826,2020-07-01 06:25:54.000000000,2020-07-01 06:36:43.000000000,closed,4,Upgrade x/text to v0.3.3
+825,2020-06-30 16:12:42.000000000,1970-01-01 00:00:00.000000001,open,1,Create resources from raw yaml files.
+824,2020-06-28 13:15:32.000000000,1970-01-01 00:00:00.000000001,open,0,logr.InfoLogger does not implement logr.Logger (missing Error method)
+823,2020-06-24 22:40:25.000000000,1970-01-01 00:00:00.000000001,open,3,Unable to find docs.
+822,2020-06-24 12:38:33.000000000,2020-06-24 17:55:57.000000000,closed,1,ResourceQuota can only create one at a time
+821,2020-06-24 10:56:20.000000000,2020-07-03 11:40:48.000000000,closed,4,README: add 1.18 in compatibility matrix
+820,2020-06-23 04:14:42.000000000,2020-06-23 04:21:56.000000000,closed,2,PodLogs Streaming Updates
+819,2020-06-22 20:16:02.000000000,2020-06-24 03:47:10.000000000,closed,2,Why is this client so awful? 
+818,2020-06-20 21:48:09.000000000,2020-06-20 21:50:46.000000000,closed,1,Authentication fails for Azure AD 
+817,2020-06-18 23:33:52.000000000,2020-06-19 12:55:46.000000000,closed,3,Additional examples
+816,2020-06-17 14:40:48.000000000,1970-01-01 00:00:00.000000001,open,0,How can  rest.Config coverto api.Config ?
+815,2020-06-16 16:46:37.000000000,1970-01-01 00:00:00.000000001,open,2,CoreV1().Pods.List and pod.Status.Phase == apiv1.PodRunning is not a good way to test if pods are Running
+814,2020-06-11 17:40:04.000000000,2020-06-11 17:42:58.000000000,closed,1,Azure AD plugin for client auth adding spn: prefix to apiserver-id indefinelty when unauthorized
+813,2020-06-11 12:08:16.000000000,1970-01-01 00:00:00.000000001,open,0,RequestLantency metrics has wrong url label values
+812,2020-06-10 05:39:58.000000000,2020-06-10 12:01:53.000000000,closed,0,How to use client-go to create a pod with GPU support
+811,2020-06-04 10:12:29.000000000,1970-01-01 00:00:00.000000001,open,0,Question: Will fake client ever honor DryRun option? 
+810,2020-06-03 11:52:18.000000000,1970-01-01 00:00:00.000000001,open,13,command terminated with exit code 127
+809,2020-06-02 09:50:22.000000000,1970-01-01 00:00:00.000000001,open,2,Refer to kubectl exec - it how to call the client go API shell to interact. It's too difficult. I need help. I find many materials are non interactive
+808,2020-06-02 09:21:46.000000000,2020-06-02 10:27:41.000000000,closed,1,github.com/googleapis/gnostic/OpenAPIv2 import error
+807,2020-05-30 23:46:30.000000000,2020-05-31 00:07:51.000000000,closed,1,Compilation error when trying to authenticate 
+806,2020-05-26 16:59:26.000000000,2020-07-10 07:40:33.000000000,closed,4,Get Logs implementation in fake_pod_expansion.go returns empty request
+805,2020-05-26 14:19:32.000000000,2020-05-27 04:46:01.000000000,closed,2,Boolean in config-map data string are getting removed
+804,2020-05-26 14:19:26.000000000,1970-01-01 00:00:00.000000001,open,2,Getting current namespace from the pod
+803,2020-05-21 18:53:47.000000000,1970-01-01 00:00:00.000000001,open,3,ExecProvider warning in long running programs
+802,2020-05-20 14:38:49.000000000,2020-05-20 15:49:50.000000000,closed,3,import cycle not allowed
+801,2020-05-18 20:31:06.000000000,1970-01-01 00:00:00.000000001,open,2,RFE: pass GVK to tweakListOptions in Informers
+800,2020-05-13 11:52:51.000000000,2020-05-17 12:35:33.000000000,closed,2,How to get node‘s Role with client-go?
+799,2020-05-12 17:13:01.000000000,2020-05-12 18:52:13.000000000,closed,0,How to gather IP address/
+798,2020-05-12 15:05:14.000000000,2020-05-12 22:54:25.000000000,closed,3,Dynamic filtered informer periodically receives the old events as update
+797,2020-05-09 01:38:40.000000000,2020-08-08 00:28:45.000000000,closed,4,DirectClientConfig.ConfirmUsable does not check config.overrides for context
+796,2020-05-08 22:36:08.000000000,2020-05-12 07:04:24.000000000,closed,1,Can portforward.ForwardPorts() be called from a goroutine? (race condition?)
+795,2020-05-08 12:49:17.000000000,2020-05-10 07:01:34.000000000,closed,2,How to get nodes based on label fields.
+794,2020-05-07 21:03:14.000000000,2020-05-07 21:08:50.000000000,closed,1,"VersionedParams(&listOptions, scheme.ParameterCodec).Timeout(timeout).Body(options).Do have () want (context.Context)"
+793,2020-04-28 02:29:57.000000000,2020-04-28 22:02:31.000000000,closed,4,Fake client doesn't limit results
+792,2020-04-27 10:41:18.000000000,2020-07-26 12:47:58.000000000,closed,2,Issue about the broken url
+791,2020-04-27 10:32:25.000000000,2020-04-27 11:02:43.000000000,closed,3,fix broken url
+790,2020-04-26 02:37:56.000000000,2020-04-26 03:01:26.000000000,closed,1,certs should generate paths using filepath
+789,2020-04-24 14:50:31.000000000,2020-05-10 22:41:05.000000000,closed,5,version of k8s.io/apimachinery conflicts
+788,2020-04-19 21:05:48.000000000,2020-05-23 21:25:21.000000000,closed,5,client-go for RKE
+787,2020-04-17 19:40:42.000000000,2020-04-26 08:48:08.000000000,closed,3,Unable to build k8s.io/client-go/tools/clientcmd
+786,2020-04-16 07:44:04.000000000,1970-01-01 00:00:00.000000001,open,2,Type assertion error on rount_trippers.go
+785,2020-04-13 17:46:49.000000000,2020-04-15 21:54:36.000000000,closed,2,clientcmd cannot use errConfigurationInvalid literal
+784,2020-04-12 12:52:14.000000000,1970-01-01 00:00:00.000000001,open,4,Parsing K8s yaml spec into client-go data structures
+783,2020-04-11 04:35:26.000000000,1970-01-01 00:00:00.000000001,open,2,Allow Annotations and Labels to be passed while creating resource locks. 
+782,2020-04-09 01:54:51.000000000,2020-04-09 02:00:26.000000000,closed,4,"Failure to fetch deployments, Error is the server could not find the requested resource"
+781,2020-04-07 18:56:48.000000000,1970-01-01 00:00:00.000000001,open,2,Namespace for events whose involvedObject is cluster-scoped
+780,2020-04-07 14:46:06.000000000,2020-07-26 12:46:50.000000000,closed,4,Can I use client-go on for k3s?
+779,2020-04-06 09:24:26.000000000,2020-04-06 11:22:50.000000000,closed,1,"kubectl 1.18.0 adds ""spn"" to azure apiserver-id all the time ..."
+778,2020-03-30 21:56:07.000000000,2020-03-30 22:04:56.000000000,closed,2,Check Whether API Group of a Specific Version Exists on a Server
+777,2020-03-30 15:41:41.000000000,2020-03-30 23:07:23.000000000,closed,1,How can I build a client with certificate and private key ? 
+776,2020-03-30 13:58:40.000000000,2020-03-30 15:07:26.000000000,closed,1,Compilation error in 1.18.0
+775,2020-03-30 09:17:18.000000000,2020-04-07 20:14:39.000000000,closed,2,why not fix bug in rest/request.go of v11.0.0
+774,2020-03-29 14:23:25.000000000,1970-01-01 00:00:00.000000001,open,2,Clientset how to support both CRD and built-in resources
+773,2020-03-28 23:35:41.000000000,2020-08-26 01:02:53.000000000,closed,4,Deterministic empty ContainerStatuses in Pods().List() running inside cluster
+772,2020-03-27 17:10:19.000000000,2020-04-01 17:51:22.000000000,closed,1,lots of cache log of Listing and watching *unstructured.Unstructured
+771,2020-03-26 11:35:22.000000000,2020-04-01 12:28:03.000000000,closed,10,Update example README.md
+770,2020-03-26 06:42:06.000000000,2020-06-24 11:41:56.000000000,closed,2,How can i only monitor changes in pod status. Thanks
+769,2020-03-25 11:19:10.000000000,2020-08-22 13:40:59.000000000,closed,4,How to used client-go get kubernetes CNI type?
+768,2020-03-22 16:11:27.000000000,2020-03-23 17:13:17.000000000,closed,1,workqueue.ParallelizeUntil: Do we need to add some timeout to doWorkPiece
+767,2020-03-20 17:19:51.000000000,2020-03-20 18:06:39.000000000,closed,1,Config not found with Kubectl.exe on Cygwin
+766,2020-03-11 17:22:16.000000000,2020-03-11 17:28:44.000000000,closed,3, not enough arguments in call to watch.NewStreamWatcher
+765,2020-03-11 13:50:55.000000000,2020-08-15 12:57:27.000000000,closed,5,ContainerStatus.LastState throws error.
+764,2020-03-09 19:29:43.000000000,2020-08-06 21:36:05.000000000,closed,5,Call to kube-api endlessly hanging 
+763,2020-03-09 08:02:09.000000000,2020-05-21 14:59:10.000000000,closed,0,Fake client not support subresources
+762,2020-03-07 02:00:18.000000000,2020-08-04 02:30:24.000000000,closed,4,Release of a LeaseLock Fails in the Leader Election Example
+761,2020-03-07 00:25:51.000000000,1970-01-01 00:00:00.000000001,open,2,Force deleting a job won't force delete the pods
+760,2020-03-05 16:33:28.000000000,2020-08-15 12:57:27.000000000,closed,5,Help on how clientset can be created and used without kubeconfig ?
+759,2020-03-04 12:43:29.000000000,2020-03-18 14:58:30.000000000,closed,1,Can't access resource in cluster
+758,2020-03-03 15:06:41.000000000,2020-08-15 13:58:26.000000000,closed,5,Added few changes in leader election and getting error on go run ?
+757,2020-02-29 07:00:19.000000000,2020-02-29 08:38:44.000000000,closed,4,Out of cluster example fails to build
+756,2020-02-28 07:47:23.000000000,2020-07-27 08:28:57.000000000,closed,4,rest client metrics rest_client_requests_total is not equal the sum of all rest_client_request_latency_seconds_count
+755,2020-02-26 17:12:35.000000000,2020-02-26 17:53:51.000000000,closed,12,Watch channel does not get closed ever
+754,2020-02-20 06:32:35.000000000,2020-07-19 07:21:26.000000000,closed,5,Using `ReleaseOnCancel` during leader election results in error at shutdown
+753,2020-02-18 13:52:23.000000000,2020-02-18 18:08:13.000000000,closed,4,500 error returned in accessing unexisting server - v0.18.0-alpha.2
+752,2020-02-14 00:24:26.000000000,2020-02-14 02:12:49.000000000,closed,12,Running deployment CRUD example example fails with incompatibility errors
+751,2020-02-13 12:10:41.000000000,2020-02-13 18:21:53.000000000,closed,5,A bug occurred in the client-go upgrade
+750,2020-02-12 20:16:58.000000000,1970-01-01 00:00:00.000000001,open,4,cannot convert klog.V(9) (type klog.Verbose) to type bool
+749,2020-02-12 19:56:11.000000000,1970-01-01 00:00:00.000000001,open,15,Problems building Go application with client-go
+748,2020-02-11 18:30:26.000000000,2020-02-12 18:04:47.000000000,closed,1,Error: go: cannot find main module; see 'go help modules'
+747,2020-02-11 16:42:09.000000000,2020-07-10 18:02:13.000000000,closed,4,Not able to build worker queue example
+746,2020-02-07 21:42:40.000000000,1970-01-01 00:00:00.000000001,open,4,updateUnfinishedWorkLoop uses a large amount of CPU at idle
+745,2020-02-06 21:46:58.000000000,2020-07-05 23:10:45.000000000,closed,4,Discovery memCacheClient has inconsistent error behavior with other DiscoveryInterfaces
+744,2020-02-06 03:22:51.000000000,2020-02-06 03:43:36.000000000,closed,4,tools/clientcmd: Example_mergingSomeWithConflict fails with Golang 1.14 beta1
+743,2020-02-02 01:20:22.000000000,2020-02-02 05:22:49.000000000,closed,2,change import for github.com/googleapis/gnostic/OpenAPIv2
+742,2020-02-01 03:54:27.000000000,2020-06-15 07:52:56.000000000,closed,5,question: How to return client errors with fake client?
+741,2020-02-01 03:53:56.000000000,2020-02-01 04:40:22.000000000,closed,8,Lowercase openapiv2 imports
+739,2020-01-30 11:44:29.000000000,2020-06-28 12:15:39.000000000,closed,5,Backoff should have jitter
+738,2020-01-22 20:59:33.000000000,2020-01-22 20:59:59.000000000,closed,4,DirectClientConfig implement overrides for RawConfig() method
+737,2020-01-21 19:48:30.000000000,2020-01-21 20:20:37.000000000,closed,5,dynamic client requested resource not found 
+736,2020-01-21 07:05:00.000000000,2020-02-19 17:50:26.000000000,closed,9,modify the error url of csi drivers
+735,2020-01-09 21:03:15.000000000,1970-01-01 00:00:00.000000001,open,14,Can't override config values
+734,2020-01-08 14:59:42.000000000,2020-07-24 04:14:55.000000000,closed,5,client-go/testing: Can't list deployments after scaling
+733,2020-01-07 11:31:33.000000000,2020-01-07 12:24:04.000000000,closed,2,"Go mod get client-go version v11.0.0 old version, How do I get the latest version?"
+732,2020-01-06 22:15:04.000000000,2020-06-15 04:04:30.000000000,closed,4,How to handle errors in SharedInformer?
+731,2020-01-06 06:58:54.000000000,2020-07-07 10:35:08.000000000,closed,4,How to get Pod?
+730,2019-12-29 21:15:25.000000000,2019-12-29 21:32:06.000000000,closed,1,SECURITY_CONTACTS
+728,2019-12-24 00:39:47.000000000,2020-05-22 01:40:39.000000000,closed,4,leaderelection.go: why could setting ReleaseOnCancel to true result in multiple leaders?
+727,2019-12-18 17:47:32.000000000,2019-12-18 19:01:35.000000000,closed,2,go run main.go -kubeconfig=~/.kube/config -logtostderr=true -lease-lock-name=example -lease-lock-namespace=default -id=1
+726,2019-12-17 08:21:53.000000000,2019-12-18 08:28:36.000000000,closed,4,Failed to import client-go with go mod
+725,2019-12-14 11:49:22.000000000,2019-12-14 11:58:02.000000000,closed,1,How to get List of containers of a pod
+724,2019-12-10 18:36:22.000000000,1970-01-01 00:00:00.000000001,open,5,remotecommand doesn't handle stream EOF with 0 bytes read as an error
+723,2019-12-08 13:33:51.000000000,2020-03-11 17:29:03.000000000,closed,3,How to solve this too few arguments problem?
+722,2019-12-07 11:33:17.000000000,2020-05-05 12:10:39.000000000,closed,4,Controller sync goes in infinity loop when tested with fake clientset
+721,2019-12-06 15:29:44.000000000,2019-12-11 19:56:07.000000000,closed,4,Update README for release 1.17
+720,2019-12-04 21:22:51.000000000,2020-07-31 19:13:12.000000000,closed,6,How to authenticate from outside of cluster using go client?
+719,2019-12-04 12:52:33.000000000,2019-12-04 12:56:57.000000000,closed,5,Fix CONTRIBUTING.md to avoid conflicts while publishing
+718,2019-12-04 06:06:37.000000000,2020-05-02 06:54:50.000000000,closed,4,Prevent loading local kubeconfig if configuration with clientcmd config
+717,2019-11-29 15:12:13.000000000,2019-12-03 07:47:37.000000000,closed,1,How to set EXTERNAL-IP for Loadbalancer Service?
+716,2019-11-24 21:38:46.000000000,2019-11-28 18:49:02.000000000,closed,1,How to get the `api/v1/nodes/<NodeName>/proxy/stats/summary` programatically
+715,2019-11-23 08:22:44.000000000,2020-04-21 09:40:42.000000000,closed,4,How to use the clien-go get k8s used resource?
+714,2019-11-16 06:41:10.000000000,2019-11-16 06:47:22.000000000,closed,2,Update Kubernetes dependencies to release kubernetes-1.16.3
+713,2019-11-15 03:57:02.000000000,2019-11-22 22:21:48.000000000,closed,1,How to use `FieldSelector`? How to filter Services service-side?
+712,2019-11-11 18:43:47.000000000,2019-11-12 08:06:49.000000000,closed,1,how to create a docker-registry kind of secret?
+711,2019-11-11 14:15:08.000000000,2020-06-15 12:12:43.000000000,closed,7,How do I create kube config file from rest.Config object?
+710,2019-11-08 14:29:59.000000000,2019-11-26 14:43:02.000000000,closed,0,"Do we have any feature to do as ""kubectl rollout""?"
+709,2019-11-07 11:57:01.000000000,2019-11-07 12:01:10.000000000,closed,2,How to create pull secrets?
+708,2019-11-05 15:38:20.000000000,2019-11-06 08:01:28.000000000,closed,0,How can I get pod events？
+706,2019-11-01 12:32:38.000000000,2020-03-30 15:10:18.000000000,closed,5,Is it possible to post a declarative yaml to create recourse such as daemonset or deployment
+705,2019-11-01 01:30:34.000000000,2019-11-01 01:51:05.000000000,closed,2,v1beta1.Event doesn't implement runtime.Object?
+704,2019-10-23 11:09:20.000000000,2019-10-23 12:25:06.000000000,closed,2,Support for parsing K8s yaml spec into client-go data structures
+703,2019-10-21 19:20:23.000000000,2020-03-21 12:37:19.000000000,closed,6,tls: failed to find any PEM data in certificate input
+702,2019-10-17 21:43:20.000000000,2020-03-15 23:27:36.000000000,closed,4,remotecommand.Stream does not distinguish command vs stream errors
+700,2019-10-13 15:54:16.000000000,2019-10-14 16:04:54.000000000,closed,9,discuss whether workqueue.queue.go need an isDone method
+699,2019-10-09 00:49:03.000000000,2019-10-09 01:17:32.000000000,closed,2,Go get package install fails
+698,2019-10-07 13:40:22.000000000,2019-10-07 15:37:15.000000000,closed,3,Failed to create apiextensions clientset
+697,2019-10-07 12:34:34.000000000,2019-10-16 13:28:28.000000000,closed,0,Error : too many arguments to return         have (string)         want ()
+696,2019-10-05 18:38:33.000000000,2019-10-05 18:43:27.000000000,closed,2,Error Message for NamespaceInterface Get Should Use Namespace Not Namespaces
+695,2019-10-01 19:48:07.000000000,2019-10-01 19:50:10.000000000,closed,1,Add support for release 1.16
+694,2019-09-29 18:28:35.000000000,2020-02-26 21:22:06.000000000,closed,4,type *runtime.Scheme has no field or method AddGeneratedConversionFuncs
+693,2019-09-28 03:25:27.000000000,2019-10-01 18:33:09.000000000,closed,4,"fake clientset: most ""delete"" endpoints ignore DeleteOptions so cascading deletes not possible"
+692,2019-09-27 10:08:32.000000000,2019-09-27 12:31:50.000000000,closed,2,leaderelection.go:328] error initially creating leader election record: the server could not find the requested resource
+691,2019-09-26 13:23:34.000000000,2019-09-26 13:43:26.000000000,closed,2,incompatible: not enough arguments in call to watch.NewStreamWatcher
+690,2019-09-25 07:41:20.000000000,2019-09-25 12:52:42.000000000,closed,3,Dynamic client swallow the error
+689,2019-09-24 12:46:25.000000000,2020-02-21 15:19:42.000000000,closed,4,apiserver EOF
+688,2019-09-24 12:02:00.000000000,2019-09-24 16:44:08.000000000,closed,2,[Question]  Is there a summary about what cryptographic algorithms has used in client-go?
+687,2019-09-18 17:23:40.000000000,2019-09-18 18:48:35.000000000,closed,1,How to run SelfSubjectRulesReview on different serviceAccount tokens ?
+686,2019-09-18 17:05:54.000000000,2019-09-18 17:14:40.000000000,closed,1,How to use AuthorizationV1().SelfSubjectRulesReviews().Create() ? 
+685,2019-09-17 19:42:54.000000000,2019-10-25 20:53:39.000000000,closed,0,Fake client with a single named object is retrievable through Get with an empty name
+684,2019-09-17 15:22:54.000000000,2019-09-17 16:29:47.000000000,closed,2,Fail to build(go build) client-go source code on tag kubernetes-1.15.3
+683,2019-09-12 22:59:45.000000000,2019-09-12 23:02:47.000000000,closed,3,"Loader.go treats KUBECONFIG env var as a collection of files, but it reference directory paths"
+682,2019-09-12 10:59:18.000000000,2019-09-12 14:46:59.000000000,closed,1,"Failed to run app with client-go: ""cannot find package <xxx> in any of:"""
+681,2019-09-12 10:21:25.000000000,2019-09-12 10:22:19.000000000,closed,2,"Can't install client-go: ""go: cannot use path@version syntax in GOPATH mode"""
+680,2019-09-12 05:19:58.000000000,2020-02-09 08:31:46.000000000,closed,4,"How to understand config.APIPath = ""/if-you-see-this-search-for-the-break"""
+679,2019-09-11 19:16:35.000000000,2019-09-11 19:19:43.000000000,closed,2,How to use raw ServiceAccount bearer token to authenticate out-of-cluster ? 
+678,2019-09-11 19:12:12.000000000,2019-09-11 19:15:29.000000000,closed,2,"Using client-go returns errors of ""cannot find package"""
+677,2019-09-10 13:56:41.000000000,2019-09-10 14:56:16.000000000,closed,2,go get fails with go1.12.5 linux/amd64
+676,2019-09-10 13:19:35.000000000,2019-09-10 13:19:59.000000000,closed,4,Update links in README
+675,2019-09-10 05:29:16.000000000,2020-02-07 08:44:58.000000000,closed,4,Cache never syncs if AddEventHandler is called after starting the informer
+674,2019-09-10 04:42:22.000000000,2019-09-10 05:10:10.000000000,closed,3,client-go@v11.0.1-0.20190409021438-1a26190bd76a+incompatible/rest/request.go:598:31
+673,2019-09-10 04:39:41.000000000,2019-09-10 04:40:19.000000000,closed,2,k8s.io/client-go@v11.0.1-0.20190409021438-1a26190bd76a+incompatible
+672,2019-09-07 00:46:38.000000000,2019-09-13 02:49:41.000000000,closed,1,tools/leaderelection: Leader election log level 
+671,2019-09-06 21:48:53.000000000,2019-09-06 22:10:17.000000000,closed,4,Update README go get commands
+670,2019-09-06 01:17:01.000000000,2019-09-06 10:51:25.000000000,closed,11,Go get fails with go 1.13
+669,2019-09-05 16:58:27.000000000,2019-09-05 18:38:15.000000000,closed,2,Unable to generate informer code with a package that has a dot in kubernetes-1.16.0-beta.2
+668,2019-09-03 01:15:15.000000000,2020-02-09 13:36:45.000000000,closed,7,Unable to connect GCP GKE cluster using client-go with GCP service account key
+667,2019-08-30 09:08:50.000000000,2020-01-27 12:32:13.000000000,closed,4,How can  I get  node  allocated（not Allocatable）resource information through client-go？
+666,2019-08-28 02:35:07.000000000,2019-08-28 19:12:19.000000000,closed,1,addons fail to install after being deleted
+665,2019-08-23 03:45:58.000000000,2020-01-20 06:42:36.000000000,closed,4,Stay up-to-date with registered resources ?
+664,2019-08-22 06:25:12.000000000,2019-08-22 10:45:57.000000000,closed,8,Fix broken link to api-conventions doc.
+663,2019-08-21 12:58:39.000000000,2019-08-21 18:43:04.000000000,closed,3,How to go get k8s.io/api@kubernetes-1.14.0?
+662,2019-08-20 22:32:56.000000000,2020-01-25 03:37:04.000000000,closed,6,need help with podSpec merge functionality. 
+661,2019-08-19 05:34:31.000000000,2020-03-08 20:40:34.000000000,closed,5,Any idea to do mock test run remote command inside a pod
+660,2019-08-17 11:20:18.000000000,2019-08-17 11:29:17.000000000,closed,4,error with GoSDK 1.12.9
+659,2019-08-16 22:51:38.000000000,2019-08-16 22:55:58.000000000,closed,6,cannot convert klog.V(9) (type klog.Verbose) to type bool
+658,2019-08-16 14:02:44.000000000,2019-08-16 16:40:51.000000000,closed,1,transport: compile time error
+657,2019-08-16 11:25:02.000000000,2020-01-13 14:07:10.000000000,closed,4,"Unable to get the rest.Config ,""k8s.io/client-go/rest"""
+656,2019-08-15 22:09:14.000000000,2019-08-16 01:28:35.000000000,closed,15,Unable to build the image using client-go
+655,2019-08-15 16:07:27.000000000,2019-08-15 17:20:33.000000000,closed,2,golint error in /rest/request.go
+654,2019-08-15 10:41:19.000000000,2019-08-16 01:28:53.000000000,closed,2,cannot convert klog.V(9) (type klog.Verbose) to type bool
+653,2019-08-14 17:31:44.000000000,2019-08-14 17:54:44.000000000,closed,7,Fix Failed to release lock
+652,2019-08-14 00:26:31.000000000,2019-08-16 01:29:04.000000000,closed,1,Build issue
+651,2019-08-13 22:36:59.000000000,2019-08-13 22:38:26.000000000,closed,2,Create secret issue
+650,2019-08-13 13:20:57.000000000,2019-08-13 13:48:38.000000000,closed,2,"compile failed when use _ ""k8s.io/client-go/plugin/pkg/client/auth"
+649,2019-08-09 02:25:52.000000000,2020-01-06 23:31:54.000000000,closed,5,How to properly stop and cleanup EventBroadcaster
+648,2019-08-07 12:19:40.000000000,2019-08-08 07:32:38.000000000,closed,1,exec.Stream bash timeout
+647,2019-08-07 10:13:47.000000000,2019-08-13 22:38:51.000000000,closed,2,Make ClientSet to rotate Bearer Token 
+646,2019-08-03 01:45:53.000000000,2019-12-31 04:51:59.000000000,closed,4,Converting deplyoment to helm chart
+645,2019-07-29 07:46:00.000000000,2019-08-10 00:55:14.000000000,closed,1,Add Patch method to `ScaleInterface`
+644,2019-07-23 23:24:14.000000000,2019-12-21 01:52:34.000000000,closed,4,"Need help on how to watch ""Spec"" and ""Status"" of a specific Custom resource from other pod "
+643,2019-07-22 15:52:02.000000000,2020-04-17 19:15:42.000000000,closed,7,Support expressions and OR in fieldselector
+642,2019-07-20 12:34:35.000000000,2019-07-24 13:54:21.000000000,closed,1,Approving CSR using the client-go
+641,2019-07-20 00:36:41.000000000,2019-07-30 21:12:36.000000000,closed,0,c++ client library: native vs go-wrapper 
+640,2019-07-19 10:23:22.000000000,2019-08-16 01:29:18.000000000,closed,1,Build failure using client-go version v12.0.0
+639,2019-07-18 13:23:02.000000000,2019-12-15 21:51:35.000000000,closed,8,why  http code 409 do not wait and sleep retry-after time for concurrency conflict?
+638,2019-07-17 22:12:41.000000000,2019-07-17 22:19:22.000000000,closed,2,Get the cluster name for the Kubernetes cluster.
+636,2019-07-17 10:15:47.000000000,2019-07-18 13:31:15.000000000,closed,4,"Maybe ""gnostic"" should be updated"
+635,2019-07-11 20:36:33.000000000,2020-02-09 09:43:54.000000000,closed,6,Can't pass CreateOptions / UpdateOptions
+634,2019-07-11 14:10:09.000000000,2019-07-15 15:42:52.000000000,closed,2,rest.InClusterConfig Error when apiserver use http
+633,2019-07-11 12:55:43.000000000,2019-07-11 12:57:13.000000000,closed,7,Release 6.0
+632,2019-07-11 02:44:15.000000000,2019-07-11 02:50:30.000000000,closed,2,Mocking PVC volumes
+631,2019-07-08 21:20:36.000000000,2019-08-16 07:18:48.000000000,closed,3,client-go dependency recorded by `go get` is v0.0.0-...
+630,2019-07-05 18:09:43.000000000,2019-07-06 05:32:03.000000000,closed,1,Any plan for supporting transaction operation against k8s objects?
+629,2019-07-04 08:50:01.000000000,2019-07-11 12:58:32.000000000,closed,6,Update command to start the deployment
+628,2019-07-03 19:10:34.000000000,2019-07-05 11:09:20.000000000,closed,4,Azure go-autorest causing ambiguous import
+627,2019-07-03 17:59:54.000000000,2019-07-03 21:15:41.000000000,closed,8,Fix golint failures of client-go/rest/client_test.go
+626,2019-07-02 22:33:46.000000000,2019-11-30 01:41:13.000000000,closed,4,Unable to find examples for custom resource definition in go client
+625,2019-07-02 19:35:01.000000000,2019-07-03 18:38:33.000000000,closed,3,Update README to reflect v12.0.0 release
+624,2019-07-02 11:47:49.000000000,2019-11-29 14:30:13.000000000,closed,4,port-forward error copying data
+623,2019-06-28 12:56:50.000000000,2019-06-28 21:50:18.000000000,closed,2,"When using client-go watch api to watch deployment, result channel will auto-closed after around 5 mins"
+622,2019-06-26 21:15:02.000000000,2019-06-26 23:57:37.000000000,closed,2,reflector go incompatible
+621,2019-06-25 09:08:19.000000000,2019-06-25 09:16:08.000000000,closed,2,Clientset thread safety
+620,2019-06-24 11:27:07.000000000,2019-06-27 09:13:44.000000000,closed,5,Patch method support 
+619,2019-06-23 13:00:08.000000000,2019-07-02 18:20:12.000000000,closed,3,Issue with Out of Cluster Client Configuration Example
+618,2019-06-18 23:40:42.000000000,2019-11-16 02:13:25.000000000,closed,4,Workqueue example improvement
+617,2019-06-14 02:19:54.000000000,2019-07-02 18:20:43.000000000,closed,1,go get k8s.io/client-go/kubernetes is failing for go 1.12
+616,2019-06-11 17:00:20.000000000,2019-06-11 17:04:25.000000000,closed,2,Bearer Token Support
+615,2019-06-05 22:49:47.000000000,2019-06-06 17:09:43.000000000,closed,2,"unknown import path ""k8s.io/api/admissionregistration/v1alpha1"""
+614,2019-06-03 14:14:16.000000000,2019-10-31 16:19:41.000000000,closed,4,unreal pod in Informer cache 
+613,2019-05-31 11:57:54.000000000,2019-10-28 14:02:17.000000000,closed,4,Strategic Patch fails with fake dynamic client
+612,2019-05-30 11:21:44.000000000,2019-05-30 18:40:44.000000000,closed,8,"containerSpec does not have correct values for Name, Command and Ports"
+610,2019-05-29 05:58:56.000000000,2019-10-26 08:09:44.000000000,closed,4,How can I disable klog output?
+609,2019-05-29 03:36:01.000000000,2019-06-06 17:10:01.000000000,closed,4,DeleteCollection on Fake client doesn't work
+608,2019-05-29 02:57:47.000000000,2019-10-27 01:26:42.000000000,closed,6,OIDC cache returns old token even after the expiration of refresh token
+607,2019-05-25 04:03:02.000000000,1970-01-01 00:00:00.000000001,open,18,Can not use patch to remove fields via fake client
+606,2019-05-23 06:29:15.000000000,2019-05-23 06:43:41.000000000,closed,1,is DeleteFunc useless in cache.ResourceEventHandlerFuncs 
+605,2019-05-18 18:18:04.000000000,2019-05-18 18:30:37.000000000,closed,2,strategic merge patch does not work add node labels 
+604,2019-05-14 07:43:55.000000000,2019-08-13 07:58:51.000000000,closed,5,why podLister do not support FieldSelector?
+603,2019-05-09 16:48:57.000000000,2019-05-09 18:20:53.000000000,closed,6,Update example README.md (fix typo)
+602,2019-05-03 14:22:14.000000000,2019-05-03 16:56:24.000000000,closed,5,RFE : Func to return the master VIP/URL to be used inside of the cluster
+601,2019-05-03 02:49:19.000000000,2019-05-17 11:26:32.000000000,closed,3,NewFilteredDynamicSharedInformerFactory ignores namespace argument
+600,2019-04-29 11:37:52.000000000,2019-05-03 14:19:22.000000000,closed,1,How to get the hostname by a project/operator which is running in the cluster?
+599,2019-04-25 03:28:46.000000000,2019-04-25 03:36:53.000000000,closed,7,go.mod 
+598,2019-04-24 07:39:07.000000000,2019-04-24 07:42:25.000000000,closed,3,error running compiler
+597,2019-04-23 19:06:16.000000000,2019-04-23 19:10:00.000000000,closed,2,How to create a context with all-namespaces
+596,2019-04-23 13:36:17.000000000,2019-09-20 15:11:58.000000000,closed,4,Leader election- Pod is not selecting as a leader
+595,2019-04-23 09:30:46.000000000,2019-04-23 13:07:31.000000000,closed,1,Pod is not selecting as leader 
+594,2019-04-18 21:50:03.000000000,2019-09-28 21:26:12.000000000,closed,6,JsonPath: Unexpected interpretation of $ within a {range} or []
+593,2019-04-18 15:29:11.000000000,2019-10-22 01:29:18.000000000,closed,6,no such file or directory when call exec 
+592,2019-04-17 17:42:09.000000000,2019-04-17 19:18:11.000000000,closed,2,PKI creation using now.UTC breaks after system clock drift corrections
+591,2019-04-16 21:16:34.000000000,2019-05-01 14:48:57.000000000,closed,3,Remove travis in favour of Prow
+590,2019-04-14 06:15:13.000000000,2019-04-14 06:20:05.000000000,closed,3,Unable to download specific gocloud version with latest git 
+588,2019-04-09 23:54:07.000000000,2019-09-07 01:54:15.000000000,closed,4,"Func SplitMetaNamespaceKey() with input """"(empty string) will return ("""", """", nil) which should not"
+587,2019-04-09 02:06:21.000000000,2019-09-06 04:33:12.000000000,closed,4,Leaderelection package supports priority and preemption
+586,2019-04-08 15:40:13.000000000,2019-04-09 00:02:27.000000000,closed,2,Cannot watch k8s cluster nodes using the NewListWatchFromClient method
+585,2019-04-08 06:36:28.000000000,2019-04-08 12:36:28.000000000,closed,2,Is it recommended to use dynamic client now?
+584,2019-04-07 05:24:59.000000000,2019-04-07 05:30:27.000000000,closed,10,watch.NewStreamer error
+583,2019-04-04 13:35:46.000000000,2019-04-04 13:38:52.000000000,closed,3,Update README to reflect v11.0.0 release
+582,2019-04-04 12:49:15.000000000,2019-04-04 13:04:53.000000000,closed,3,Update .travis.yml for go.mod
+581,2019-03-29 14:28:31.000000000,2019-09-16 23:58:37.000000000,closed,21,Release v11.0.0
+580,2019-03-26 12:57:17.000000000,2019-09-02 19:15:20.000000000,closed,7,Watching and getting resources from multiple namespaces
+579,2019-03-26 08:42:36.000000000,2019-09-09 18:57:47.000000000,closed,8,List deployments on label selectors with fake client not working for AppsV1().Deployments
+578,2019-03-22 11:14:06.000000000,2019-03-23 05:47:45.000000000,closed,0,v1.PodList missing in out side cluster example
+577,2019-03-20 19:29:45.000000000,2019-03-20 19:31:20.000000000,closed,3,"Question: ""kubectl delete pods,services -l name=myLabel"" "
+576,2019-03-20 09:12:22.000000000,2019-11-14 18:26:40.000000000,closed,7,I cant get Apiversion and Kind from deployment.create return *v1beta2.Deployment
+575,2019-03-18 14:04:27.000000000,2019-08-15 15:56:14.000000000,closed,4,about leader release and tryAcquireOrRenew 
+574,2019-03-09 12:18:59.000000000,2019-08-10 05:48:25.000000000,closed,8,jsonpb & json co-existance
+573,2019-03-08 23:40:59.000000000,2019-03-09 06:23:46.000000000,closed,3,Update embargo doc link in SECURITY_CONTACTS and change PST to PSC
+572,2019-03-07 03:05:39.000000000,2019-03-07 04:38:33.000000000,closed,1,Get method for dynamic client expects a name but doesn't validate
+571,2019-03-01 13:45:24.000000000,2019-08-25 09:57:46.000000000,closed,5,Informer could loss some event
+570,2019-03-01 09:23:36.000000000,1970-01-01 00:00:00.000000001,open,1,Perform rolling update
+569,2019-03-01 06:34:59.000000000,2019-04-01 13:24:35.000000000,closed,3,Provide instructions in INSTALL.md for go modules users
+568,2019-02-28 05:21:04.000000000,2019-10-26 18:19:42.000000000,closed,7,pkg/version is useless
+567,2019-02-27 21:36:29.000000000,2019-08-25 09:57:47.000000000,closed,5,watch logs
+566,2019-02-27 19:02:53.000000000,2019-10-26 03:04:44.000000000,closed,6,"Azure authentication - request tokens without ""aud"": ""spn:xxx"" prefix"
+565,2019-02-26 14:48:28.000000000,2019-05-23 18:52:23.000000000,closed,3,How to get current node name / hostname from pod
+564,2019-02-22 20:23:19.000000000,2019-02-22 20:27:22.000000000,closed,1,Same ClientSet and multiple concurrent requests
+563,2019-02-19 12:33:19.000000000,2019-05-21 14:36:52.000000000,closed,2,Unable to decode an event from the watch stream: stream error: stream ID 3; INTERNAL_ERROR
+562,2019-02-14 11:46:24.000000000,1970-01-01 00:00:00.000000001,open,2,Get public IP/DNS from within the pod
+561,2019-02-12 17:21:33.000000000,2019-02-13 01:15:35.000000000,closed,4,File controllers.md has moved
+560,2019-02-12 17:10:49.000000000,2019-02-12 17:22:03.000000000,closed,3,File controllers.md has moved
+559,2019-02-12 16:51:42.000000000,2019-02-12 17:12:21.000000000,closed,3,File controllers.md has moved
+558,2019-02-07 00:21:13.000000000,2019-02-07 00:23:25.000000000,closed,4,Update in-cluster-client-configuration/README.md
+557,2019-02-06 01:45:59.000000000,2019-02-07 00:32:06.000000000,closed,1,Documentation enh request
+556,2019-02-05 22:13:08.000000000,2019-02-05 22:14:02.000000000,closed,3,Unable to resolve k8s.io/api/admissionregistration/v1alpha1
+555,2019-02-02 06:59:53.000000000,2019-07-02 09:37:42.000000000,closed,5,"Need information related to ""the server could not find the requested resource"" error."
+554,2019-01-31 15:15:09.000000000,2019-09-27 02:44:10.000000000,closed,7,How to cancel a SPDYExecutor stream?
+553,2019-01-30 09:09:50.000000000,2019-06-29 11:29:22.000000000,closed,4,jsonpath does not handle periods in arraydict refs
+552,2019-01-28 20:00:33.000000000,2019-01-29 04:32:54.000000000,closed,4,Unable to go get k8s.io/client-go/kubernetes/typed/core/v1beta1
+551,2019-01-27 18:37:46.000000000,2019-01-28 07:02:29.000000000,closed,21,Building with go modules suddenly returns 'cannot find module providing package'
+550,2019-01-23 09:22:03.000000000,2019-04-29 06:19:34.000000000,closed,5,Unable to decode an event from the watch stream: stream error: stream ID 3; INTERNA L_ERROR
+549,2019-01-22 16:45:43.000000000,2019-01-23 07:20:33.000000000,closed,2,Cannot use 'clientSet.CoreV1().RESTClient()' (type rest.Interface) as type Getter Type does not implement 'Getter' as some methods are missing: Get() *restclient.Request
+548,2019-01-22 07:55:03.000000000,2019-07-02 09:37:42.000000000,closed,5,how to get pods with deployment or statefulset?
+547,2019-01-22 02:50:10.000000000,2019-01-22 20:32:32.000000000,closed,4,ConfigMap watching drops connection silently
+546,2019-01-17 08:50:43.000000000,2019-01-17 19:02:29.000000000,closed,2,Reference auth plugins in readme
+545,2019-01-17 08:22:36.000000000,2019-01-29 18:15:48.000000000,closed,0,README does not mention authentication plugins
+544,2019-01-16 22:01:55.000000000,2019-01-17 14:52:08.000000000,closed,1,Dependency issue with Go Modules
+543,2019-01-12 19:40:33.000000000,2019-07-06 17:18:44.000000000,closed,7,[question] Get all the resources linked to a resource using ownerreference or label
+542,2019-01-08 20:19:15.000000000,2019-01-08 20:47:50.000000000,closed,2,"forbidden: User ""system:anonymous"" cannot get resource ""pods"" in API group """" in the namespace ""default"""
+541,2019-01-08 14:45:17.000000000,2019-10-16 10:29:28.000000000,closed,8,typemeta is empty in all resource
+540,2019-01-07 19:12:21.000000000,2019-01-07 19:14:52.000000000,closed,5,"pod.Spec.Containers[0].Resources.Limits.Cpu() = resource.NewQuantity(500, """")"
+539,2018-12-27 08:48:37.000000000,2019-03-27 13:57:57.000000000,closed,3,Request to implement resource version behavior in fake clientset
+538,2018-12-27 07:44:07.000000000,2019-02-01 15:00:25.000000000,closed,2,Upgrade request required
+537,2018-12-27 02:42:36.000000000,2019-05-26 03:58:41.000000000,closed,8,Document what errors are returned by the client API methods
+536,2018-12-26 11:50:34.000000000,2018-12-26 21:45:39.000000000,closed,9, certificate signed by unknown authority
+535,2018-12-21 23:30:35.000000000,2018-12-21 23:35:34.000000000,closed,3,Provide a way to check compatibility
+534,2018-12-21 20:27:54.000000000,2018-12-21 20:30:31.000000000,closed,3,Can't watch only one configMap
+533,2018-12-20 10:26:06.000000000,2019-07-02 11:39:43.000000000,closed,5,Convert object to kubernetes manifest
+532,2018-12-17 11:06:37.000000000,2018-12-17 19:04:39.000000000,closed,3,client-go 9.0 does not work with apimachinery 1.12.2
+531,2018-12-16 12:25:32.000000000,2018-12-21 20:58:44.000000000,closed,1,fake package: faulty deployment isn't validated
+530,2018-12-13 23:09:47.000000000,2019-05-12 23:52:43.000000000,closed,7,Is there a way to get cluster name programmatically from client-go
+529,2018-12-10 02:58:09.000000000,2018-12-19 00:45:41.000000000,closed,3,Cache.NewInformer UpdateFunc called repeatedly w/o any updates
+528,2018-12-08 02:49:26.000000000,2019-05-07 03:35:41.000000000,closed,4,Allow passing Interface as a parameter when creating new workqueue
+527,2018-12-05 23:52:37.000000000,2019-06-06 18:38:26.000000000,closed,17,Intermittent connectivity to api-server when using with Istio
+515,2018-12-03 15:15:08.000000000,2018-12-04 17:18:39.000000000,closed,5,Cherry-pick of changelog updates to release-10.0 branch
+514,2018-11-30 05:36:19.000000000,2018-11-30 13:02:12.000000000,closed,6,use bytes.Buffer for Go version 1.9
+513,2018-11-29 14:06:35.000000000,2019-04-29 09:33:06.000000000,closed,4,how to stop klog output
+512,2018-11-28 22:52:03.000000000,1970-01-01 00:00:00.000000001,open,14,Reduce the number of third-party dependencies
+511,2018-11-28 11:58:06.000000000,2018-12-04 15:36:16.000000000,closed,4,travis: bump go version to 1.11.2
+510,2018-11-28 11:52:33.000000000,2018-12-03 14:48:23.000000000,closed,4,Add client-go 10.0.0 changelog
+509,2018-11-28 04:12:31.000000000,2019-04-27 04:41:09.000000000,closed,4,metrics.Register() is not called in kubernetes controller manager
+508,2018-11-27 11:37:31.000000000,2018-11-27 19:53:47.000000000,closed,3,MatchExpressions:[]v1.LabelSelectorRequirement(nil)}: field is immutabl
+507,2018-11-26 20:38:59.000000000,2019-04-27 17:54:06.000000000,closed,4,fake client does not error when resource client has empty namespace as in real client
+506,2018-11-23 13:22:39.000000000,2018-12-04 17:26:26.000000000,closed,2,Release v10.0.0
+505,2018-11-21 14:49:55.000000000,2018-11-21 19:23:34.000000000,closed,2,Is there any delete collection method for service? 
+504,2018-11-20 06:53:02.000000000,2019-04-19 18:47:32.000000000,closed,5,remote error: tls: access denied with go get
+503,2018-11-15 11:26:35.000000000,2018-12-17 21:36:08.000000000,closed,5,Dep support for client-go
+502,2018-11-13 13:26:20.000000000,2018-11-13 13:27:00.000000000,closed,1,Delete some redundant code
+501,2018-11-08 04:55:04.000000000,2019-04-07 06:07:21.000000000,closed,4,gcp auth plugin: use service account (JSON) bytes directly
+500,2018-10-31 02:46:35.000000000,2019-04-11 19:20:53.000000000,closed,12,Reactor Usage
+499,2018-10-25 20:28:28.000000000,2019-01-24 21:59:58.000000000,closed,1,coordination/Lease object leaderelection?
+498,2018-10-24 12:21:11.000000000,2018-10-31 15:58:51.000000000,closed,1,Get resource usage of pods & nodes (Stackoverflow + Bounty)
+497,2018-10-23 08:42:07.000000000,2018-10-23 10:10:59.000000000,closed,2,Add entry topic license on readme file
+496,2018-10-17 23:21:41.000000000,2018-10-17 23:22:41.000000000,closed,2,Create Secret Error
+495,2018-10-16 14:00:00.000000000,2018-10-16 17:45:24.000000000,closed,3,Delete K8S Job leaks the pods
+494,2018-10-12 14:04:21.000000000,2019-03-14 13:50:23.000000000,closed,4,Dynamic Client Usage
+493,2018-10-12 01:05:36.000000000,2019-03-28 04:11:19.000000000,closed,6,Creating Events fails with fake ClientSet
+492,2018-10-11 11:17:56.000000000,2018-10-11 11:19:35.000000000,closed,3,Release 5.0
+491,2018-10-11 11:11:22.000000000,2018-10-11 16:59:29.000000000,closed,2,"panic: pods is forbidden: User ""system:serviceaccount:testalex:default"" cannot list pods at the cluster scope"
+490,2018-10-11 10:27:52.000000000,2018-10-11 10:47:08.000000000,closed,1,"../../rest/request.go:43:2: cannot find package ""k8s.io/apimachinery/pkg/watch"""
+489,2018-10-11 05:40:42.000000000,2018-10-11 08:02:42.000000000,closed,1,Proposal: Move k8s.io/apimachinery/pkg/apis/meta/v1 to k8s.io/api/meta
+488,2018-10-10 21:42:55.000000000,2019-05-16 22:24:47.000000000,closed,8,Add tests for strategic merge patch for the fake dynamic client
+487,2018-10-10 20:16:47.000000000,2018-10-16 20:24:28.000000000,closed,1,Is there a way to pause the rollout of a deployment?
+486,2018-10-10 11:32:41.000000000,2019-03-09 13:52:22.000000000,closed,5,How to get all the events below a deployment
+485,2018-10-09 21:10:29.000000000,2019-03-09 00:40:32.000000000,closed,4,Unable to get the ServerVersion for GKE cluster if gcloud config directory is changed
+484,2018-10-09 18:46:52.000000000,2019-03-24 04:35:24.000000000,closed,7,Kubectl exec command issue
+483,2018-10-09 04:41:58.000000000,2019-08-16 03:17:49.000000000,closed,8,No documentation for Watch API & Informer API
+482,2018-10-09 04:40:19.000000000,2019-08-16 01:05:12.000000000,closed,9,Create a better introductory documentation to CRUD with client-go
+481,2018-10-06 11:39:33.000000000,2018-10-09 12:06:21.000000000,closed,4,travis: bump go version to 1.11.1
+480,2018-10-05 15:06:29.000000000,2018-10-05 18:33:23.000000000,closed,3,travis: run godep restore for non-master branches
+479,2018-10-03 04:07:19.000000000,2019-03-15 23:22:55.000000000,closed,11,"""fake"" clientset doesn't match kubernetes API behavior"
+478,2018-10-01 17:01:16.000000000,2018-10-16 02:04:33.000000000,closed,6,dynamic/fake not honoring the patch type -> json doc error
+477,2018-09-29 12:53:43.000000000,2018-09-30 05:28:13.000000000,closed,2,How to get nodes with client-go in a container?
+476,2018-09-28 11:23:31.000000000,2018-10-05 14:08:15.000000000,closed,7,Release v9.0.0
+475,2018-09-28 01:33:19.000000000,2018-10-02 02:27:20.000000000,closed,1,How to implement a (pseudo) reverse proxy?
+474,2018-09-27 03:36:46.000000000,2018-09-27 21:48:06.000000000,closed,4,Dependency resolution issues with Go Modules.
+473,2018-09-26 20:05:23.000000000,2018-09-26 21:32:08.000000000,closed,5,Incorrect error reporting if clusterrole.rules resources not pluralised (configmap instead of configmaps)
+472,2018-09-26 00:39:07.000000000,2018-12-25 15:32:33.000000000,closed,5,PortForwarder.GetPorts does not return correct port number when local port omitted or set to zero.
+471,2018-09-21 18:59:31.000000000,2018-09-28 12:41:56.000000000,closed,3,INSTALL.md referenced in README.md is missing
+470,2018-09-20 09:14:18.000000000,2018-09-20 15:46:05.000000000,closed,6,Bump go version to 1.10.2 for travis for release-9.0
+469,2018-09-20 09:07:49.000000000,2018-09-20 16:01:00.000000000,closed,7,Remove INSTALL.md from release-9.0
+468,2018-09-19 14:29:54.000000000,2018-09-19 16:05:00.000000000,closed,4,Remove INSTALL.md
+467,2018-09-19 14:15:36.000000000,2018-09-19 15:34:30.000000000,closed,5,Bump go version to 1.10.2 for travis
+466,2018-09-19 14:04:38.000000000,2018-09-27 21:16:01.000000000,closed,11,Add client-go 9.0.0 changelog
+465,2018-09-11 13:20:43.000000000,2018-10-05 14:42:12.000000000,closed,8,Listing bug in dynamic 'fake' client in 'kubernetes-1.11.3'
+464,2018-09-10 16:15:22.000000000,2019-03-16 22:46:01.000000000,closed,5,How to make a web terminal
+463,2018-09-08 16:53:32.000000000,2018-09-12 19:59:17.000000000,closed,1,testing ObjectTracker should implement ResourceVersion and optimistic locking 
+462,2018-09-07 09:11:33.000000000,2018-09-07 17:21:19.000000000,closed,1,[v2.go:105] write tcp 192.168.65.1:57934->192.168.65.4:8443: write: protocol wrong type for socket
+461,2018-09-06 19:00:12.000000000,2018-09-19 01:18:53.000000000,closed,4,Google container cluster as config
+460,2018-09-04 15:56:56.000000000,2018-11-14 22:26:07.000000000,closed,10,Copy of 16M+ file to container causes invalid data frame error
+459,2018-09-03 11:32:14.000000000,2018-09-04 06:21:54.000000000,closed,2,vendor/k8s.io/apimachinery/pkg/runtime/serializer/json
+458,2018-09-01 23:33:49.000000000,2018-09-02 18:38:24.000000000,closed,6,Writing out a config object duplicates CA data and key data
+457,2018-08-28 07:03:30.000000000,2018-10-25 13:28:30.000000000,closed,2,Unable to watch configmap
+456,2018-08-27 19:20:39.000000000,2018-11-25 21:49:37.000000000,closed,4,stream updates happen very slowly when the clients hit the MaxConcurrentStreams of the k8s API.
+455,2018-08-27 01:31:16.000000000,2018-08-27 01:33:35.000000000,closed,1,Introduce Go Modules
+454,2018-08-26 16:42:14.000000000,2018-08-26 22:43:20.000000000,closed,4,the k8s client keeps sending updates for /api/v1/namespaces/kube-system/endpoints/kube-controller-manager
+453,2018-08-23 10:27:28.000000000,2018-10-24 13:18:32.000000000,closed,1,Implementing file copy to and from a container
+452,2018-08-17 18:19:05.000000000,2018-11-15 20:58:37.000000000,closed,7,allow custom transport with TLS certificate options
+451,2018-08-17 11:55:12.000000000,2018-08-31 07:00:13.000000000,closed,0,cache's threadSafeMap should remove the index key when value set is empty
+450,2018-08-13 16:13:50.000000000,2019-01-10 19:44:51.000000000,closed,4,Add hooks mechanism to affect structured input & output for client-go APIs
+449,2018-08-10 13:37:08.000000000,2018-08-10 13:56:33.000000000,closed,2,Build Failure
+448,2018-08-08 17:21:39.000000000,2018-08-08 18:59:54.000000000,closed,3,leader election: a records's observedTime is checked instead of an actual timestamp
+447,2018-08-06 10:32:44.000000000,2018-08-07 23:04:22.000000000,closed,7,NewNonInteractiveDeferredLoadingClientConfig doesn't override cluster context
+446,2018-08-02 14:32:04.000000000,2019-01-11 17:05:20.000000000,closed,7,"Test panic when deleting a fake pv with error ""send on closed channel"""
+445,2018-08-02 00:37:44.000000000,2018-11-01 03:10:48.000000000,closed,4,leaderelection: LeaseDurationSeconds field not used
+444,2018-08-01 08:49:06.000000000,2019-01-08 22:00:32.000000000,closed,6,"Please add examples and/or docs on how to create PVS, ResourceList, Storage size, etc."
+443,2018-08-01 07:35:37.000000000,2018-08-01 10:25:41.000000000,closed,3,Release 5.0
+442,2018-07-25 17:40:41.000000000,2018-10-29 14:06:44.000000000,closed,1,Full Send Queue in local TCP stack leads to connection timeouts against GCP Load Balancer 
+441,2018-07-17 13:22:27.000000000,2018-07-17 13:27:27.000000000,closed,3,Fixes #192 - adds ability to use kubeconfig context
+440,2018-07-11 12:12:22.000000000,2018-07-26 05:09:36.000000000,closed,2,Internal Privoxy Error
+439,2018-07-10 19:32:46.000000000,2018-07-10 19:35:13.000000000,closed,2,Fake Client should generate name for resources
+438,2018-07-09 06:37:23.000000000,2018-07-24 13:23:29.000000000,closed,1,update INSTALL.md
+437,2018-07-07 04:03:37.000000000,2018-12-04 07:03:27.000000000,closed,4,Fake client returns singular object when given an empty ObjectKey
+436,2018-07-03 19:30:53.000000000,2018-07-05 19:51:13.000000000,closed,1,package doc for k8s.io/client-go/discovery is wrong
+435,2018-07-03 01:30:22.000000000,2018-07-03 01:36:05.000000000,closed,4,Proposal: Don't vendor glog
+434,2018-07-02 18:56:23.000000000,2018-07-03 17:47:32.000000000,closed,3,Unable to find semantic version for constraint k8s.io/client-go v8.0.0
+433,2018-06-29 13:21:18.000000000,2018-06-29 14:57:12.000000000,closed,2,Support labelSelector for list and watch filtering
+432,2018-06-28 10:19:11.000000000,2018-06-29 17:49:54.000000000,closed,2,Release v8.0.0
+431,2018-06-25 18:36:15.000000000,2018-08-17 22:30:11.000000000,closed,6,ExecConfig args duplicated when using BuildConfigFromFlags
+430,2018-06-23 07:19:27.000000000,2018-09-12 11:22:41.000000000,closed,4,create-update-delete-deployment error: the server could not find the requested resource
+429,2018-06-14 18:42:14.000000000,2018-06-29 13:30:23.000000000,closed,6,Add client-go 8.0.0 changelog
+428,2018-06-04 13:45:00.000000000,2018-06-29 16:54:54.000000000,closed,10,How to modify the post body size
+427,2018-05-31 14:44:43.000000000,2018-10-28 16:44:12.000000000,closed,4,util/retry RetryOnConflict swallows wait.ErrWaitTimeout returned by func if it times out before conflicting
+426,2018-05-31 00:54:16.000000000,2018-05-31 01:39:03.000000000,closed,3,Conflict between /apps/v1 and apps/v1beta1
+425,2018-05-30 15:55:54.000000000,2018-06-06 18:33:55.000000000,closed,2,no field or method AnnotatedEventf
+424,2018-05-29 21:54:40.000000000,2018-06-06 00:35:30.000000000,closed,1,Client using Google Service account Config
+423,2018-05-29 11:11:55.000000000,2018-05-29 12:52:33.000000000,closed,4,Revert non-staging change to .github/PULL_REQUEST_TEMPLATE.md
+422,2018-05-27 21:31:03.000000000,2018-05-31 00:46:07.000000000,closed,2,[Question] How to watch for deployments for new version?
+421,2018-05-25 21:33:33.000000000,2018-05-29 11:07:32.000000000,closed,4,Document that changes to the README.md are done in this repo
+420,2018-05-25 00:17:52.000000000,2018-05-25 16:35:34.000000000,closed,7,Rewording for clarity
+419,2018-05-24 22:31:48.000000000,2018-05-25 16:35:34.000000000,closed,0,Interesting Readme language
+418,2018-05-24 18:39:07.000000000,2018-06-02 08:19:47.000000000,closed,1,Create a SECURITY_CONTACTS file.
+417,2018-05-23 17:03:27.000000000,2018-12-31 04:34:26.000000000,closed,28,Issue at compilation time when required with dep
+416,2018-05-22 07:09:09.000000000,2018-05-22 07:34:03.000000000,closed,2,client-go does not respect system trusted CAs
+415,2018-05-20 18:16:36.000000000,2018-10-18 11:43:16.000000000,closed,6,API server not set from kubecontext
+414,2018-05-20 11:35:19.000000000,2018-05-20 17:08:50.000000000,closed,1,how to attach label to some node by using client-go
+413,2018-05-19 04:33:11.000000000,2018-06-29 13:20:46.000000000,closed,3,Object's TypeMeta is empty
+412,2018-05-19 00:53:22.000000000,2018-05-19 01:11:54.000000000,closed,2,importing goclient takes long time to run.
+411,2018-05-17 13:44:55.000000000,2018-05-19 11:25:49.000000000,closed,5,Unable to create istio rule
+410,2018-05-17 01:20:29.000000000,2018-05-17 02:02:07.000000000,closed,2,How to get all pods running in a given node.
+409,2018-05-15 15:57:17.000000000,2018-05-15 16:51:50.000000000,closed,6,Error while deleting services
+408,2018-05-11 16:07:57.000000000,2018-10-08 17:54:36.000000000,closed,4,Being able to easily get current Namespace
+407,2018-05-10 12:11:05.000000000,2018-05-17 02:49:52.000000000,closed,1,how to use client-go add custom http header?
+406,2018-05-09 15:53:06.000000000,2018-12-22 20:17:30.000000000,closed,6,Installation Failure
+405,2018-05-09 13:43:13.000000000,2018-05-09 15:22:59.000000000,closed,1,Not able to update the Kubernetes Configmap via the go client
+404,2018-05-08 18:23:09.000000000,2018-10-05 19:45:07.000000000,closed,4,Add / Update examples to show rest configuration loaded through clientcmd.RESTConfigFromKubeConfig(...)
+403,2018-05-05 00:26:45.000000000,2018-05-09 00:56:40.000000000,closed,9,Secrets created from json is different from secrets created using the go-client api
+402,2018-04-30 05:06:11.000000000,2020-01-15 03:01:38.000000000,closed,9,"Error: error parsing jsonpath {.items[?(!(@.spec.taints))]].metadata.name}, unclosed array expect ]"
+401,2018-04-26 15:28:19.000000000,2018-04-26 18:02:55.000000000,closed,2,How convert the event object to k8s.io type when watch the event
+400,2018-04-24 13:52:05.000000000,2018-05-09 14:04:36.000000000,closed,0,Getting undefined kubernetes.NewforConfig while using the code from the in-cluster-config 
+399,2018-04-20 00:41:14.000000000,2018-04-22 06:16:15.000000000,closed,2,How to get the node on which a pod is running?
+398,2018-04-18 10:36:18.000000000,2018-09-24 08:45:19.000000000,closed,7,Option to rollback using client-go 
+397,2018-04-18 05:02:29.000000000,2018-04-18 05:02:45.000000000,closed,0,fix(docs): fix out-of-cluster example description
+396,2018-04-12 23:13:40.000000000,2018-04-14 19:39:50.000000000,closed,3,ConfigMap.Data not working with multilines
+395,2018-04-05 21:45:13.000000000,2018-09-03 15:31:52.000000000,closed,7,Panics within cache.IndexerInformer's OnDelete watch handlers don't propagate up
+394,2018-04-04 20:24:46.000000000,2018-06-20 15:14:40.000000000,closed,10,Document of dynamic client
+393,2018-04-03 20:51:03.000000000,1970-01-01 00:00:00.000000001,open,2,third_party isn't populated correctly
+392,2018-04-03 14:06:23.000000000,2018-04-04 12:25:43.000000000,closed,4,Release v7.0.0
+391,2018-04-03 12:21:47.000000000,2018-04-04 00:16:04.000000000,closed,2,Update README to reflect 7.0.0 release
+390,2018-04-02 20:41:19.000000000,2018-12-10 02:19:11.000000000,closed,13,support modifying an object in jsonpath package
+389,2018-04-01 15:36:13.000000000,2018-04-03 12:04:29.000000000,closed,8,Add client-go 7.0.0 changelog
+388,2018-03-29 12:51:50.000000000,2018-03-30 05:08:43.000000000,closed,1,Support auth method for AWS
+387,2018-03-29 07:38:28.000000000,2018-03-29 08:29:13.000000000,closed,1,Is there demo shows how to use client-go to connect the k8s?
+386,2018-03-29 04:16:14.000000000,2018-07-29 08:18:23.000000000,closed,5,Add Safe** methods to Listers
+385,2018-03-26 12:00:21.000000000,2018-03-26 16:53:38.000000000,closed,1,Go 1.10: oidc_test.go:113: Errorf format % is missing verb at end of string
+384,2018-03-26 11:49:48.000000000,2018-03-26 16:55:25.000000000,closed,2,"Go 1.10: client_test.go:102: Fatalf format %v reads arg #1, but call has only 0 args"
+383,2018-03-24 12:07:56.000000000,2018-03-24 12:09:00.000000000,closed,1,"Go 1.10: selector_test.go:390: Errorf format %t arg result.Empty is a func value, not called"
+382,2018-03-21 18:54:18.000000000,2018-04-13 19:05:43.000000000,closed,7,informers: resync is inactive without event handlers
+381,2018-03-21 07:40:49.000000000,2018-03-21 07:45:48.000000000,closed,1,I can't build the out-of-cluster-client-configuration example.
+380,2018-03-21 04:19:55.000000000,2020-01-09 04:24:00.000000000,closed,16,`restclient.Request.Do()` does not retry after io errors while reading body (and should)
+379,2018-03-20 14:04:17.000000000,2018-05-10 03:30:56.000000000,closed,2,The vendored Azure autorest may present security issues
+378,2018-03-19 17:41:17.000000000,2018-03-19 17:49:09.000000000,closed,1,Regenerating APIS
+377,2018-03-14 09:00:00.000000000,2018-03-14 09:02:38.000000000,closed,1,Update main.go
+376,2018-03-14 07:50:21.000000000,2018-03-14 07:55:21.000000000,closed,1,Update main.go
+375,2018-03-14 01:32:17.000000000,2018-08-21 10:20:36.000000000,closed,8,in-cluster example fails without addition of suitable role for serviceAccount
+374,2018-03-09 03:23:53.000000000,1970-01-01 00:00:00.000000001,open,41,Client should expose a mechanism to close underlying TCP connections
+373,2018-03-02 11:52:03.000000000,2018-07-30 12:45:22.000000000,closed,3,Raft log replication support
+372,2018-02-28 14:04:21.000000000,2018-03-05 08:02:14.000000000,closed,5,"Support ""DeleteByKey"" for ""Store interface"""
+371,2018-02-26 17:10:45.000000000,2018-07-27 23:45:53.000000000,closed,7,"crypto/x509: verification fails with ""cannot parse dnsName"" in intermediate"
+370,2018-02-16 20:37:12.000000000,2018-02-17 14:05:56.000000000,closed,1,portforward.go:331] an error occurred forwarding
+369,2018-02-15 23:18:58.000000000,2018-07-16 00:03:10.000000000,closed,3,[Question] Example to cp file Kubernetes Container (POD)
+368,2018-02-14 19:27:53.000000000,2018-07-14 20:36:11.000000000,closed,3,"Excessive ""Throttling request took..."" logging "
+367,2018-02-13 08:20:14.000000000,2018-02-13 23:47:26.000000000,closed,4,Remove objectType/expectedType as parameter in Informer/Reflector constructor
+366,2018-02-09 09:27:25.000000000,2018-07-12 03:32:11.000000000,closed,8,Cache Informer sets ResourceVersion=0 which causes API list chunking to break
+365,2018-02-06 06:29:13.000000000,2018-07-07 04:35:13.000000000,closed,4,Autoscaling Examples
+364,2018-01-31 20:41:33.000000000,2018-06-30 22:07:44.000000000,closed,3,[RFE] extend the ObjectTracker with Patch action
+363,2018-01-29 13:26:48.000000000,2018-06-28 15:13:44.000000000,closed,4,Excpetion About codec.EncodeParameters()
+362,2018-01-29 13:02:09.000000000,2018-06-28 19:17:46.000000000,closed,5,Move ReconcileRoleOptions to client-go ?
+361,2018-01-24 00:24:33.000000000,2018-06-23 01:03:33.000000000,closed,3,BackOffLimit missing for job spec
+360,2018-01-23 04:33:49.000000000,2018-06-22 05:44:31.000000000,closed,3,"In delta_fifo.go, is it possible that deletions are dropped?"
+359,2018-01-16 18:22:00.000000000,2018-01-21 11:32:33.000000000,closed,0,Can't go get client with verision 6.0
+358,2018-01-12 15:18:11.000000000,2019-11-03 03:12:30.000000000,closed,27,glog terminates program when it can't create a logfile
+357,2018-01-09 02:44:59.000000000,2018-01-25 20:09:06.000000000,closed,6,LGPL License in this repository
+356,2018-01-09 01:35:49.000000000,2018-01-09 13:17:03.000000000,closed,2,Remove .github in prep to sync from k/k/staging
+355,2018-01-03 21:20:18.000000000,2018-01-03 21:52:02.000000000,closed,1,Secret EnvVar cannot be set
+354,2017-12-29 05:30:13.000000000,2018-07-08 19:13:37.000000000,closed,7,Need example to use `informers` package to listen to pod events
+353,2017-12-26 14:09:52.000000000,2018-09-27 22:38:55.000000000,closed,14,Azure authentication fails on acquiring consequent tokens
+352,2017-12-24 14:50:05.000000000,2018-07-02 21:54:43.000000000,closed,11,Fake Clientset and cache.ListWatch
+351,2017-12-21 03:20:46.000000000,2020-05-10 17:05:51.000000000,closed,23,Add HTTP proxy setting to kubeconfig
+350,2017-12-20 23:31:36.000000000,2017-12-21 00:54:58.000000000,closed,2,Add code-of-conduct.md
+349,2017-12-19 16:42:25.000000000,2017-12-19 16:43:26.000000000,closed,1,Change api path from api to apis
+348,2017-12-19 12:20:20.000000000,2018-05-19 14:33:11.000000000,closed,5,"how to get image within deployment, like the result of ""kubectl describe deployment $app""?"
+347,2017-12-18 21:28:30.000000000,2017-12-19 13:22:46.000000000,closed,2,Update README.md and INSTALL.md for v6.0.0
+346,2017-12-18 15:15:59.000000000,2018-05-29 23:12:15.000000000,closed,12,"""create-update-delete-deployment"" example outdated"
+345,2017-12-16 04:38:38.000000000,2017-12-16 06:28:16.000000000,closed,2,"panic: No Auth Provider found for name ""oidc"""
+344,2017-12-15 15:20:44.000000000,2018-07-13 21:13:11.000000000,closed,4,glog requires flag.parse() else it will error
+343,2017-12-11 02:27:09.000000000,2017-12-16 04:46:41.000000000,closed,9,go get broken
+342,2017-12-08 21:11:51.000000000,1970-01-01 00:00:00.000000001,open,2,How to reinitialize client?
+341,2017-12-07 04:53:06.000000000,2017-12-18 17:25:45.000000000,closed,23,Add client-go 6.0.0 changelog
+340,2017-12-06 13:25:44.000000000,2018-05-05 14:03:04.000000000,closed,3,How to use a specific user credential and context
+339,2017-12-03 01:49:14.000000000,2017-12-14 20:41:44.000000000,closed,4,Update INSTALL.md
+338,2017-12-02 05:43:12.000000000,2018-01-26 11:14:37.000000000,closed,7,stale events are pushed repeatedly
+337,2017-11-30 00:59:01.000000000,2018-02-15 03:12:20.000000000,closed,13,Add Dependency matrix to README
+336,2017-11-30 00:16:33.000000000,2017-11-30 23:57:13.000000000,closed,2,ResourceEventHandlerFuncs should be called concurrently in separate goroutines
+335,2017-11-30 00:06:05.000000000,2018-04-29 22:50:05.000000000,closed,4,Informer doesn't update for briefly running Pods
+334,2017-11-29 08:03:58.000000000,2018-05-05 01:51:04.000000000,closed,11,Node watch returns events with nil objects
+333,2017-11-29 01:49:43.000000000,2018-04-28 02:06:05.000000000,closed,4,NetworkPolicyPort requires pointer to const for Protocol
+332,2017-11-27 22:25:11.000000000,2020-05-16 08:25:39.000000000,closed,13,Adding expectations and controller ref manager to client-go
+331,2017-11-27 19:47:50.000000000,2018-01-11 18:18:32.000000000,closed,4,Glide cannot install 5.X with batchv1 reference
+330,2017-11-21 15:30:59.000000000,2018-02-20 00:22:38.000000000,closed,3,Keep Dependencies Minimal
+329,2017-11-19 11:16:13.000000000,1970-01-01 00:00:00.000000001,open,25,HTTP port-forward broke on client terminates
+328,2017-11-17 20:24:06.000000000,2017-11-22 03:44:23.000000000,closed,4,Allow the /var/run/secrets path to be overridden for InClusterConfig
+327,2017-11-16 10:05:02.000000000,2017-11-22 01:16:51.000000000,closed,0,gcp auth plugin is not capturing error output from command
+326,2017-11-16 05:22:46.000000000,2019-01-12 03:14:50.000000000,closed,18,Fake client doesn't filter Pods on FieldSelector
+325,2017-11-13 01:38:20.000000000,2018-02-16 10:20:04.000000000,closed,4,client-go pins a version of gopkg.in/yaml.v2 from 2 years ago
+324,2017-11-09 00:21:42.000000000,2018-04-09 00:07:52.000000000,closed,4,examples: must use Recommended*** constants
+323,2017-11-09 00:17:41.000000000,2018-09-11 22:46:46.000000000,closed,11,Propose: provide helper for KUBECONFIG resolution
+322,2017-11-08 21:29:33.000000000,2017-11-09 12:23:48.000000000,closed,2,Deployments are not creating
+321,2017-11-07 20:22:02.000000000,2017-12-14 20:40:56.000000000,closed,2,readme: fix minor typo in Table of Contents
+320,2017-10-31 04:16:06.000000000,2017-12-19 19:41:40.000000000,closed,3,release-5.0 is missing from he compatibility matrix
+319,2017-10-31 04:09:20.000000000,2017-11-01 23:11:51.000000000,closed,4,Document that client-go is not yet compatible with dep
+318,2017-10-30 09:01:03.000000000,2017-10-31 21:43:23.000000000,closed,3,go-client 5.0.1 does not build with `dep`
+317,2017-10-26 06:15:12.000000000,2017-10-26 06:17:32.000000000,closed,1,add v5.0.1 to CHANGELOG
+316,2017-10-25 05:24:51.000000000,2017-11-01 06:48:53.000000000,closed,2,Update README.md to explain kubernetes tags and the v5.0.0 tag
+315,2017-10-23 20:47:05.000000000,2017-10-24 09:13:29.000000000,closed,1,Unable to use client-go v4.0.0
+314,2017-10-18 23:59:31.000000000,2017-11-15 01:51:44.000000000,closed,4,Support apiserver access from pods using firewall-only security option
+313,2017-10-18 03:03:31.000000000,2017-10-21 00:25:33.000000000,closed,2,add changelog for v5.0.0
+312,2017-10-14 17:54:07.000000000,2018-03-21 04:43:53.000000000,closed,5,Out-Of-Cluster example doesn't build when vendoring with dep
+311,2017-10-13 01:38:55.000000000,2018-02-23 13:34:34.000000000,closed,6,Change self signed certificates to not include extended key usage
+310,2017-10-13 00:30:52.000000000,2018-03-14 01:56:00.000000000,closed,3,Auto config reload clientset?
+309,2017-10-11 16:42:23.000000000,2018-03-13 01:32:34.000000000,closed,3,Missing ControllerExpectations
+308,2017-10-10 07:47:34.000000000,2018-11-23 05:44:11.000000000,closed,15,object return by client-go informer don't have  api Kind info
+307,2017-10-05 00:56:23.000000000,2017-10-07 22:00:15.000000000,closed,3,Backwards compatibility testing client 5.0.0 yields errors. 
+306,2017-10-04 09:13:22.000000000,2017-10-31 02:48:39.000000000,closed,2,Update installation doc to reflect current version and dep command line use
+305,2017-10-04 07:23:31.000000000,2017-10-24 14:30:45.000000000,closed,10,Client-go 5.0.0 ?
+304,2017-10-03 04:20:15.000000000,2017-10-03 20:39:40.000000000,closed,6,Referenced docker revision in 4.0.0 no longer in github
+303,2017-10-03 01:10:43.000000000,2017-10-03 03:21:06.000000000,closed,3,unit tests failing
+302,2017-10-02 12:50:27.000000000,2017-10-31 02:49:27.000000000,closed,2,Typo fix
+301,2017-09-29 05:14:45.000000000,2017-12-19 22:12:09.000000000,closed,1,release-4.0 is out of sync
+300,2017-09-28 19:59:45.000000000,2017-09-28 20:14:53.000000000,closed,5,How to get pods ip?
+299,2017-09-28 10:03:02.000000000,2017-12-12 10:24:25.000000000,closed,2,"dep init fails with ""No versions of k8s.io/apimachinery met constraints"""
+298,2017-09-22 13:06:20.000000000,2018-03-12 05:12:33.000000000,closed,7,too many arguments in call to r.DecodeBytes
+297,2017-09-20 02:34:10.000000000,2017-12-12 19:14:09.000000000,closed,3,Get deleted object from work queue
+296,2017-09-20 01:17:50.000000000,2017-09-27 02:25:58.000000000,closed,2,not enough arguments in call to spec.ExpandSpec
+295,2017-09-18 15:48:37.000000000,2017-09-19 06:59:05.000000000,closed,1,patch configmap error
+294,2017-09-16 16:57:04.000000000,2018-03-11 21:04:32.000000000,closed,3,Exec cmd on container not work with example config
+293,2017-09-11 06:31:32.000000000,2018-05-11 09:20:11.000000000,closed,8,install error
+292,2017-09-10 00:42:19.000000000,2018-03-11 08:52:34.000000000,closed,4,Does not build with bazel
+291,2017-09-08 07:20:13.000000000,2018-02-12 12:34:30.000000000,closed,4,How to add context in the request?
+290,2017-09-07 12:37:16.000000000,2017-09-08 21:49:30.000000000,closed,7,Cannot find AddOrUpdateTaint function anymore after migrating from v3 to v4
+289,2017-09-06 14:56:19.000000000,1970-01-01 00:00:00.000000001,open,8,Document where to use versioned struct and where not
+288,2017-09-06 05:15:08.000000000,2018-03-11 07:51:33.000000000,closed,7,Namespace flag seems to be ignored when the kubeconfig current context sets it
+287,2017-09-06 00:23:18.000000000,2018-03-11 05:48:35.000000000,closed,3,Add more information to JobStatus
+286,2017-09-05 11:32:45.000000000,2018-04-07 01:21:53.000000000,closed,6,Make it possible to set ?export=true
+285,2017-08-29 19:27:11.000000000,2018-06-13 02:38:51.000000000,closed,7,`Watch.Stop` not freeing up memory allocated to the watch
+284,2017-08-29 19:10:29.000000000,2017-09-01 19:14:09.000000000,closed,3,DO-NOT-MERGE: test export of client-go master
+283,2017-08-29 19:05:34.000000000,2017-09-01 19:14:12.000000000,closed,3,DO-NOT-MERGE: test export of client-go release-1.7
+282,2017-08-29 19:05:06.000000000,2017-08-29 19:06:08.000000000,closed,2,DO-NOT-MERGE: test export of client-go release-1.7
+281,2017-08-28 22:46:51.000000000,2017-09-07 02:39:53.000000000,closed,9,Use InClusterConfig but allow master IP to be overwritten?
+280,2017-08-24 03:03:06.000000000,2017-09-06 07:39:26.000000000,closed,2,client-go v4.0.0 doesn't include CustomResourceDefinition types
+279,2017-08-23 00:50:20.000000000,2018-01-04 02:58:25.000000000,closed,4,Release 3.0 still references github.com/emicklei/go-restful/swagger
+278,2017-08-22 17:38:54.000000000,2017-08-23 12:04:41.000000000,closed,5,Example is failing. Using dep
+277,2017-08-22 07:44:20.000000000,2018-03-11 23:06:36.000000000,closed,4,UniversalDecoder can't decode Job config file 
+276,2017-08-22 05:11:50.000000000,2017-09-28 06:48:45.000000000,closed,8,CRD Bug in v4.0.0
+275,2017-08-18 04:48:39.000000000,2017-08-18 05:11:54.000000000,closed,1,Update changelog and readme for 4.0.0
+274,2017-08-14 19:23:52.000000000,2017-08-14 21:09:33.000000000,closed,2,README: remove non-existent update-staging-client-go.sh
+273,2017-08-14 16:24:01.000000000,2017-08-18 04:33:17.000000000,closed,2,example cannot be found
+272,2017-08-14 13:31:19.000000000,2017-10-05 00:41:19.000000000,closed,5,Fix broken example link
+271,2017-08-14 05:30:09.000000000,2017-08-14 05:32:01.000000000,closed,1,Is there a way to create a batch/v1 Job using client-go?
+270,2017-08-12 01:22:42.000000000,2017-08-12 01:23:41.000000000,closed,1,Updating Readme.md
+269,2017-08-12 01:11:16.000000000,2017-08-12 01:11:49.000000000,closed,2,Updating Readme.md
+268,2017-08-09 11:34:29.000000000,2018-03-10 02:21:34.000000000,closed,5,"OIDC cache does not have chance to expire when issuer, clientID and clientSecret does not change"
+267,2017-08-09 05:43:58.000000000,2017-08-25 21:37:40.000000000,closed,2,Informers with fake clientset
+266,2017-08-08 23:27:14.000000000,2018-02-08 14:10:00.000000000,closed,3,workqueue example: getsockopt: connection refused
+265,2017-08-07 21:26:34.000000000,2017-10-02 03:11:11.000000000,closed,3,update broken examples links
+264,2017-08-04 20:38:59.000000000,2017-08-29 04:02:45.000000000,closed,3,Fix: 'kubernetes' should be start with 'K'
+263,2017-08-04 08:04:51.000000000,2017-12-20 16:55:43.000000000,closed,9,Add GoReportCard badge
+262,2017-08-03 16:31:00.000000000,2017-10-31 02:52:02.000000000,closed,11,improve documentation of install via `dep`
+261,2017-08-01 13:44:23.000000000,2017-08-18 05:22:28.000000000,closed,4,README.md: fix broken links to examples in & out of cluster
+260,2017-07-31 18:58:27.000000000,2017-08-18 04:37:21.000000000,closed,3,extensions.v1beta1 don't export NetworkPolicy
+259,2017-07-31 16:23:14.000000000,2017-08-21 18:58:41.000000000,closed,12,Upgrading version to 4.0.beta.0 results in compilation errors
+258,2017-07-28 14:15:44.000000000,2017-08-18 05:23:30.000000000,closed,2,README.md: fix link to in-cluster example
+257,2017-07-28 05:30:21.000000000,2017-08-04 03:10:36.000000000,closed,10,Serializing struct field to nil
+256,2017-07-27 12:07:45.000000000,2017-08-03 13:25:22.000000000,closed,7,Compiling with v3.0.0 tag not working.
+255,2017-07-27 03:19:39.000000000,2017-08-12 03:43:58.000000000,closed,6,client-go v4.0.0-beta error with 'no kind is registered for the type v1.Endpoints'
+254,2017-07-27 03:09:52.000000000,2018-03-09 12:07:33.000000000,closed,3,LeaderElection resoucelock.New() should use interface not *ClientSet
+253,2017-07-26 21:53:30.000000000,2017-07-28 03:50:03.000000000,closed,5,UniversalDecoder Broken with version client-go version 4.0.0
+252,2017-07-24 08:34:01.000000000,2017-07-27 05:21:00.000000000,closed,3,Proposal: Remove informers from SharedInformerFactory
+251,2017-07-23 22:31:49.000000000,2018-01-07 22:56:40.000000000,closed,4,Broken links for examples
+250,2017-07-20 18:54:53.000000000,2017-07-20 19:11:51.000000000,closed,1,Job labels
+249,2017-07-18 10:13:11.000000000,2017-07-18 20:58:53.000000000,closed,1,Anyone can explain why delete so many go files under pkg/v1?
+248,2017-07-17 23:15:46.000000000,2017-07-17 23:38:38.000000000,closed,3,undefined: v1.Initializers
+247,2017-07-17 22:33:15.000000000,2018-04-29 01:29:05.000000000,closed,19,Including CRD client into client-go repo
+246,2017-07-13 09:41:26.000000000,2018-03-02 20:31:20.000000000,closed,4,"func (c *threadSafeMap) Resync() , nothing to do ,that's why?"
+245,2017-07-13 07:47:15.000000000,2017-07-13 07:47:30.000000000,closed,1,Fix a typo
+244,2017-07-13 02:11:40.000000000,2017-07-14 22:36:08.000000000,closed,8,How to watch DELETE events for any objects
+243,2017-07-12 12:51:42.000000000,2017-10-03 20:48:05.000000000,closed,1,out-of-sync READ
+242,2017-07-12 07:24:25.000000000,2017-07-12 10:02:34.000000000,closed,10,"No Auth Provider found for name ""gcp"""
+241,2017-07-12 03:46:09.000000000,2017-07-12 03:59:50.000000000,closed,2,explaining the API migration in CHANGELOG
+240,2017-07-12 00:23:40.000000000,2017-08-03 13:12:14.000000000,closed,0,Clientset: don't ignore nil clientsets
+239,2017-07-12 00:14:26.000000000,2017-07-12 19:22:08.000000000,closed,8,client-go code broke for k8s 1.6 (from 1.5) 
+238,2017-07-11 19:37:33.000000000,2017-07-12 03:59:50.000000000,closed,1,No documentation about the new home for pkg/api(s)
+237,2017-07-11 04:47:31.000000000,2017-07-12 00:45:36.000000000,closed,2,Add v4.0.0 changelog
+236,2017-07-10 23:13:54.000000000,2017-08-20 10:39:26.000000000,closed,6,How to use PATCH apis?
+235,2017-07-07 01:28:49.000000000,2018-03-01 15:02:51.000000000,closed,6,[RFC] Developing in client-go directly
+234,2017-07-07 00:37:30.000000000,1970-01-01 00:00:00.000000001,open,23,client-go needs backwards compatibility test
+233,2017-07-06 02:57:18.000000000,2017-07-12 00:04:39.000000000,closed,2,V3.0.0 updates
+232,2017-07-05 02:35:54.000000000,2018-02-12 13:30:57.000000000,closed,23,Compile fails due to apimachinery change
+231,2017-06-30 21:50:26.000000000,2018-01-02 16:36:15.000000000,closed,14,k8s 1.7 corresponding release of client-go
+230,2017-06-30 01:28:08.000000000,2017-06-30 07:27:55.000000000,closed,2,Clarification on Object/GetObjectKind
+229,2017-06-29 19:20:04.000000000,2017-07-11 12:57:55.000000000,closed,4,Allow setting the KeyFunc on SharedInformers
+228,2017-06-29 14:20:42.000000000,2017-06-29 15:07:17.000000000,closed,4,Fix broken links in README.md
+227,2017-06-28 23:35:49.000000000,2017-06-29 00:04:06.000000000,closed,4,Watch method should implement an heartbeat keepalive
+226,2017-06-28 23:11:53.000000000,2017-06-29 03:15:08.000000000,closed,3,go get k8s.io/client-go/kubernetes is failing
+225,2017-06-28 17:48:42.000000000,2017-08-18 05:25:19.000000000,closed,3,Making the intended meaning more obvious
+224,2017-06-28 13:47:29.000000000,2017-07-10 20:44:25.000000000,closed,1,Broken links in README.md
+223,2017-06-27 23:31:58.000000000,2017-07-05 19:07:19.000000000,closed,3,k8s 1.6 cluster
+222,2017-06-27 22:49:44.000000000,2019-01-31 21:58:48.000000000,closed,27,Client should wait before retrying PATCH/PUT/POSTs in case of http 429 from server
+221,2017-06-27 12:14:16.000000000,2017-06-30 05:18:13.000000000,closed,3,Update the code copy script name in README
+220,2017-06-26 11:54:07.000000000,2018-02-28 19:43:50.000000000,closed,3,RawConfig and ClientConfig method in clientcmd.DirectClientConfig are not consistent
+219,2017-06-24 00:08:03.000000000,2017-08-18 05:26:26.000000000,closed,8,Fix links to examples in README.md
+218,2017-06-23 13:35:14.000000000,2017-07-13 12:55:26.000000000,closed,4,Cannot access *ObjectReference property
+217,2017-06-23 04:33:28.000000000,2018-02-28 02:26:50.000000000,closed,3,Looking for an example of creating a namespace and pod within a namespace.
+216,2017-06-21 09:28:10.000000000,2017-06-22 22:10:57.000000000,closed,4,"[question] can we emulate ""kubectl apply"" using client-go?"
+215,2017-06-21 00:44:01.000000000,2017-07-24 23:38:01.000000000,closed,3,Update Links for How to Use It
+214,2017-06-20 13:17:49.000000000,2018-02-27 06:06:49.000000000,closed,3,No notifications from IndexerInformer for namespace resource
+213,2017-06-17 15:29:49.000000000,2018-08-04 04:35:29.000000000,closed,16,oidc cache key is uniqueness
+212,2017-06-17 03:38:41.000000000,2017-06-29 23:04:49.000000000,closed,3,README: fix script to update staging area
+211,2017-06-16 12:55:11.000000000,2017-06-16 13:10:55.000000000,closed,1,Fallback to in-cluster config not working anymore.
+210,2017-06-14 02:57:15.000000000,2017-06-14 03:02:11.000000000,closed,2,bump go version to 1.8.1 for travis
+209,2017-06-13 09:58:48.000000000,2018-03-01 08:56:49.000000000,closed,4,Support cadvisor APIs
+208,2017-06-13 06:41:37.000000000,2018-02-25 19:32:49.000000000,closed,3,cannot create namespaces
+207,2017-06-12 17:30:40.000000000,2018-02-25 17:30:52.000000000,closed,4,Some packages are missining in k8s.io/client-go/
+206,2017-06-09 15:58:59.000000000,2017-06-09 20:42:48.000000000,closed,2,release client-go as a shared C library
+205,2017-06-09 13:01:15.000000000,2017-06-12 16:29:38.000000000,closed,1,how to build client-go
+204,2017-06-03 00:43:33.000000000,2018-04-01 00:59:52.000000000,closed,10,API for remote command execution
+203,2017-06-02 04:03:03.000000000,2017-07-04 14:05:04.000000000,closed,7,client-go hasn't been synced for more than a week
+202,2017-05-31 21:08:05.000000000,2017-06-30 22:48:01.000000000,closed,2,Versioned helpers (pkg/api/v1/helpers) are missing 
+201,2017-05-30 09:42:23.000000000,2017-12-26 10:03:04.000000000,closed,3,Is there a client-go version compatible with kubernetes 1.2 api?
+200,2017-05-28 12:09:46.000000000,2018-02-24 04:54:51.000000000,closed,4,CachedDiscoveryInterface has no implementations
+199,2017-05-26 04:28:55.000000000,2017-06-14 22:11:55.000000000,closed,4,how can i make customer controller watch for events forever?
+198,2017-05-24 06:15:27.000000000,2017-05-27 06:21:20.000000000,closed,2,Secret Get() function return the secret data after decode?
+197,2017-05-21 03:33:22.000000000,2017-06-02 01:20:21.000000000,closed,9,segmentation violation code when I run it for minikube (works fine for real kubernetes clusters)
+196,2017-05-18 18:53:35.000000000,2018-02-22 20:23:13.000000000,closed,8,(&rest.Request{}).Stream() segfaults
+195,2017-05-17 22:26:42.000000000,2017-05-22 21:54:14.000000000,closed,3,Add travis build status & godoc badges to README
+194,2017-05-15 15:32:31.000000000,2017-06-02 01:47:56.000000000,closed,3,Unit testing: fake.NewSimpleClientset(obj) does not work as expected
+193,2017-05-15 01:57:36.000000000,2019-01-06 06:58:30.000000000,closed,34,Support for parsing K8s yaml spec into client-go data structures
+192,2017-05-13 03:06:50.000000000,2018-07-03 10:06:13.000000000,closed,7,How to switch context
+191,2017-05-12 23:16:36.000000000,2017-12-26 09:53:40.000000000,closed,4,examples/third-party-resource: doesn't run successfully on the first run
+190,2017-05-12 21:05:31.000000000,2017-06-15 19:49:30.000000000,closed,2,Issue with TPRs and ugorji?
+189,2017-05-12 20:49:58.000000000,2018-03-12 08:54:13.000000000,closed,16,BUILD files in client-go repository
+188,2017-05-12 20:45:41.000000000,2018-02-22 13:16:05.000000000,closed,4,Make out-of-cluster example work out-of-the-box
+187,2017-05-12 20:29:32.000000000,2018-02-22 13:16:04.000000000,closed,3,Better error for rest.InClusterConfig when not in-cluster
+186,2017-05-12 20:15:25.000000000,2018-03-02 13:24:14.000000000,closed,6,"""dep init"" fail with error ""No versions of k8s.io/client-go met constraints"""
+185,2017-05-04 23:39:15.000000000,2017-06-24 17:12:51.000000000,closed,4,[question] Idiomatic way to update a Deployment and its Annotations?
+184,2017-04-30 18:36:52.000000000,2017-05-01 02:04:17.000000000,closed,1,k8s.io repos down?
+183,2017-04-22 20:24:26.000000000,2017-05-12 14:12:00.000000000,closed,3,Using client-go 2.0 with k8s 1.5
+182,2017-04-19 03:24:06.000000000,2017-08-22 22:06:15.000000000,closed,2,"Adding instructions on how to use ""dep"" to get client-go v3.0.0-beta.0 in INSTALL.md"
+181,2017-04-14 22:38:42.000000000,2017-04-15 00:23:47.000000000,closed,3,add example of performing a Patch
+180,2017-04-13 23:40:12.000000000,2018-02-21 15:54:59.000000000,closed,10,Can't compile release 3.0.0 beta-0
+179,2017-04-13 22:31:03.000000000,2017-04-13 23:25:16.000000000,closed,4,Move dep to the last recommended vendoring tool
+178,2017-04-13 20:20:15.000000000,2017-04-14 10:33:06.000000000,closed,1,the server could not find the requested resource
+177,2017-04-12 13:52:20.000000000,2017-04-13 16:07:28.000000000,closed,2,in-cluster and out-of-cluster examples don't build again
+176,2017-04-11 17:08:07.000000000,2018-02-21 10:50:02.000000000,closed,11,incomplete recommendation in INSTALL.md
+175,2017-04-07 22:00:12.000000000,2017-04-11 21:37:10.000000000,closed,2,Dependency on package github.com/emicklei/go-restful/swagger which no longer exists
+174,2017-04-07 00:30:03.000000000,2017-04-07 02:34:29.000000000,closed,12,Overcoming Dependency Conflicts
+173,2017-04-05 19:28:15.000000000,2018-02-21 05:45:00.000000000,closed,9,client-go does not support SNI even though API server does
+172,2017-04-04 02:50:43.000000000,2017-04-04 02:53:09.000000000,closed,2,update CHANGELOG for v3.0.0-beta.0
+171,2017-04-04 01:27:45.000000000,2017-04-04 01:32:39.000000000,closed,3,minor update to installation guide using dep
+170,2017-04-03 22:21:38.000000000,2017-12-23 19:55:21.000000000,closed,2,"Move ""kubernetes/pkg/client/unversioned/(portforward|remotecommand)"" packages"
+169,2017-04-03 21:50:16.000000000,2017-04-03 23:35:07.000000000,closed,2,Add client-go 3.0 beta to compatibility matrix
+168,2017-04-03 21:28:08.000000000,2017-10-31 02:52:28.000000000,closed,6,describe kubernetes-vX.Y.Z tag in README
+167,2017-04-01 08:37:38.000000000,2017-04-04 04:26:12.000000000,closed,4,Compiling with release-3.0 branch not working
+166,2017-03-31 07:27:35.000000000,2017-04-04 01:32:39.000000000,closed,1,dep example in README does not work
+165,2017-03-31 06:35:24.000000000,2017-05-07 11:01:38.000000000,closed,2,Add ExtractApiGroupAndKind()
+164,2017-03-30 23:26:06.000000000,2017-03-31 00:09:12.000000000,closed,2,"When l delete the rc , the pod not deleted "
+163,2017-03-30 21:08:54.000000000,2017-06-20 14:15:55.000000000,closed,5,how does error handling work?
+162,2017-03-30 12:11:36.000000000,2018-02-21 01:41:00.000000000,closed,9,Packages not available.
+161,2017-03-30 11:00:30.000000000,1970-01-01 00:00:00.000000001,open,2,Add examples of how a simple list and watch is built using client-go
+160,2017-03-30 07:04:06.000000000,2017-03-31 21:58:59.000000000,closed,3,[Do Not Merge] Release 3.0
+159,2017-03-23 04:29:00.000000000,2017-03-23 09:55:12.000000000,closed,2,Watching and getting pods from all namespaces
+158,2017-03-22 19:22:41.000000000,2017-07-06 22:21:29.000000000,closed,1,JSONPath parser will not filter strings containing parentheses
+157,2017-03-22 03:18:00.000000000,2017-04-01 03:55:44.000000000,closed,3,"We support `go get` now, update INSTALL.md"
+156,2017-03-21 22:51:02.000000000,2017-03-22 06:41:19.000000000,closed,2,emicklei/go-restful/swagger  Has been moved.  Imports Need To Be Updated.
+155,2017-03-21 19:38:41.000000000,2020-04-04 19:35:47.000000000,closed,27,Informers do not surface API server request failures to callers
+154,2017-03-21 02:25:46.000000000,2017-03-22 01:09:59.000000000,closed,9,Round2: Generated by scripts
+153,2017-03-21 02:23:36.000000000,2017-03-22 01:11:18.000000000,closed,3,Round2: Generated by scripts
+152,2017-03-20 07:02:11.000000000,2018-02-24 02:52:51.000000000,closed,8,No change can watch when use client.Namespace.Watch after long time
+151,2017-03-19 13:24:21.000000000,2017-05-12 17:15:06.000000000,closed,5,Conversion *extensions.Deployment to *v1beta1.Deployment fails
+150,2017-03-17 19:43:25.000000000,2017-03-17 23:42:27.000000000,closed,3,Is ResourceVersion honored on Update?
+149,2017-03-16 10:51:28.000000000,2018-02-20 21:37:01.000000000,closed,4,kubectl compatible initialization helper
+148,2017-03-16 09:58:09.000000000,2018-02-20 23:39:00.000000000,closed,7,Update gogo/protobuf dependency?
+147,2017-03-15 21:56:50.000000000,2017-03-24 02:56:54.000000000,closed,3,1.6 updates?
+146,2017-03-15 01:02:40.000000000,2017-03-15 03:17:33.000000000,closed,2,Updated installation instructions.
+145,2017-03-13 14:15:46.000000000,2017-03-26 05:15:25.000000000,closed,1,FakeEvents Search method uses wrong ListOptions
+144,2017-03-13 11:38:20.000000000,2017-03-14 05:05:28.000000000,closed,2,Which branch is used for k8s 1.6?
+143,2017-03-10 16:56:00.000000000,2017-03-24 03:06:35.000000000,closed,2,how to determine client-go's commit SHA based on Kubernetes's commit?
+142,2017-03-10 13:08:28.000000000,2018-02-20 23:39:00.000000000,closed,5,InitContainers dont work by default when moving from unversioned client to client-go
+141,2017-03-09 04:06:42.000000000,2017-03-21 00:10:59.000000000,closed,3,Changes generated by publish script
+140,2017-03-08 23:47:49.000000000,2017-03-21 00:30:56.000000000,closed,10,Generated by robot
+139,2017-03-08 01:15:49.000000000,2017-03-21 00:42:46.000000000,closed,3,Update dep usage in install docs
+138,2017-03-07 11:36:57.000000000,2017-03-07 23:24:23.000000000,closed,1,Adding note about examples only work with the code in the same branch
+137,2017-03-07 08:04:55.000000000,2017-03-08 03:00:48.000000000,closed,0,unable to create a deployment without replication controller
+136,2017-03-03 17:05:26.000000000,2017-03-24 03:22:30.000000000,closed,11,Why two client: kubeclient and event client?
+135,2017-03-02 05:17:02.000000000,2017-03-02 23:22:48.000000000,closed,2,Disclaimer on `go get` doesn't work
+134,2017-03-02 04:08:04.000000000,2017-03-02 23:21:55.000000000,closed,6,Update INSTALL.md to match reality
+133,2017-03-01 13:00:02.000000000,2017-03-08 23:47:07.000000000,closed,7,[Do not merge] [PoC] Changes generated by publish script
+132,2017-02-28 15:22:08.000000000,2017-03-06 15:42:06.000000000,closed,3,[Question] How to watch for deployments?
+131,2017-02-25 16:25:40.000000000,1970-01-01 00:00:00.000000001,open,3,AddAfter should be able to cancel previous enqueues of the same key
+130,2017-02-25 01:55:27.000000000,2017-02-25 01:55:55.000000000,closed,2,minor fix of 'go get' command
+129,2017-02-24 01:38:10.000000000,2017-02-25 01:36:40.000000000,closed,5,Sync with k8s.io/kubernetes/staging
+128,2017-02-23 00:02:18.000000000,2018-08-04 07:38:29.000000000,closed,31,Improve the coverage of examples
+127,2017-02-22 23:19:01.000000000,2017-02-23 23:17:39.000000000,closed,6,INSTALL.md: update Glide instructions to prefer glide update
+126,2017-02-22 18:48:16.000000000,2018-02-20 11:27:02.000000000,closed,9,Bump dep: docker/distribution
+125,2017-02-22 05:42:35.000000000,2017-02-22 05:48:51.000000000,closed,2,Fix README: client-go issues should be reported at k8s.io/client-go now
+124,2017-02-21 17:26:42.000000000,2017-02-22 21:46:44.000000000,closed,3,Fix readme
+123,2017-02-20 22:59:05.000000000,2017-02-25 01:36:40.000000000,closed,4,Last sync is from Feb 3.
+122,2017-02-18 03:00:08.000000000,2017-03-04 00:33:16.000000000,closed,29,Update glide install instructions
+121,2017-02-18 02:41:01.000000000,2017-02-18 02:41:08.000000000,closed,1,fix dep install command
+120,2017-02-17 21:53:25.000000000,2017-02-18 02:41:08.000000000,closed,0,Minor edit to build dep
+119,2017-02-17 06:59:03.000000000,2018-02-21 00:40:01.000000000,closed,4,Add ability to rotate bearer token in ClientSet
+118,2017-02-17 04:01:17.000000000,2017-02-18 02:23:29.000000000,closed,2,INSTALL.md: fix link to dep
+117,2017-02-17 00:11:07.000000000,2017-02-17 00:14:20.000000000,closed,4,Fix broken example
+116,2017-02-16 23:53:16.000000000,2017-02-16 23:53:45.000000000,closed,3,"Add deprecation status/policy, version recommendation"
+115,2017-02-16 23:32:59.000000000,2017-02-16 23:56:58.000000000,closed,4,Fix broken link to Dep
+114,2017-02-16 18:47:05.000000000,2018-01-17 23:22:26.000000000,closed,6,[proposal] Add generic Bootstrap Token constants and helpers to client-go
+113,2017-02-16 17:40:07.000000000,2017-02-16 22:43:02.000000000,closed,2,update INSTALL.md to use 2.0.0 as example
+112,2017-02-16 17:36:06.000000000,2017-02-16 22:42:38.000000000,closed,2,update CHANGELOG
+111,2017-02-15 23:52:32.000000000,2017-12-27 17:56:25.000000000,closed,3,Fill out CHANGELOG.md
+110,2017-02-15 23:40:46.000000000,2017-02-17 00:15:03.000000000,closed,1,document status of each branch; 1.5.1 status unclear
+109,2017-02-15 18:52:06.000000000,2017-02-15 23:26:08.000000000,closed,4,minor change to README
+108,2017-02-15 05:16:36.000000000,2017-02-15 18:49:16.000000000,closed,2,Update README to explain versioning better
+107,2017-02-15 04:13:44.000000000,2018-02-20 10:26:00.000000000,closed,7,Continuously test installation instructions
+106,2017-02-15 04:09:31.000000000,2017-02-15 23:41:56.000000000,closed,5,Detailed installation instructions
+105,2017-02-14 02:44:49.000000000,2017-02-15 23:41:56.000000000,closed,8,Document what the best supported path for using client-go is
+104,2017-02-13 20:51:38.000000000,2017-02-21 23:45:06.000000000,closed,2,[DO NOT MERGE] master updates generated by the robot
+103,2017-02-13 20:45:31.000000000,2017-02-21 23:45:01.000000000,closed,2,[DO NOT MERGE] Release 2.0 updates generated by the robot
+102,2017-02-13 09:27:56.000000000,2017-02-13 22:46:51.000000000,closed,2,manually update release-2.0
+101,2017-02-12 08:16:39.000000000,2017-02-13 09:05:38.000000000,closed,2,"manually fix master, revert to when client-go depends on apimachinery 7080e"
+100,2017-02-12 01:04:13.000000000,2017-02-14 05:49:47.000000000,closed,1,client-go release 1.5 doesn't work with TPR
+99,2017-02-11 18:56:37.000000000,2017-02-11 19:00:37.000000000,closed,1,enable travis in release-1.4
+98,2017-02-11 18:52:47.000000000,2017-02-11 18:55:40.000000000,closed,2,enable travis in release-1.5
+97,2017-02-11 18:43:21.000000000,2017-02-11 18:45:53.000000000,closed,2,enable travis in release-2.0
+96,2017-02-11 18:33:01.000000000,2017-02-11 18:33:54.000000000,closed,3,add back travis
+95,2017-02-11 06:12:34.000000000,2018-01-04 09:39:22.000000000,closed,7,"gcp auth package is loaded by default, but should be an optional dependency"
+94,2017-02-08 07:32:21.000000000,2017-02-08 07:33:20.000000000,closed,2,Fix the import path for examples in release-1.5 branch
+93,2017-02-07 13:00:17.000000000,2017-02-13 09:05:38.000000000,closed,11,undefined: v1.FinalizerOrphan
+92,2017-02-06 03:34:01.000000000,2017-02-08 13:56:04.000000000,closed,8,client losses service account secret files. 
+91,2017-02-04 01:20:09.000000000,2017-02-04 08:33:04.000000000,closed,5,Delete Deployment / ReplicaSet not working
+90,2017-02-03 20:07:04.000000000,2018-02-20 13:29:00.000000000,closed,26,"[PROPOSAL] inverse use of branches: master = stable, develop = nightly snapshots"
+89,2017-02-03 11:24:16.000000000,2017-03-15 04:39:09.000000000,closed,5,errors.IsNotFound not working correctly with client-go
+88,2017-02-03 01:49:25.000000000,2017-02-03 11:37:59.000000000,closed,2,Continuously test the examples upstream
+87,2017-02-02 05:50:41.000000000,2017-02-02 06:01:49.000000000,closed,2,enable travis
+86,2017-02-02 05:30:36.000000000,2017-02-02 05:30:51.000000000,closed,4,Fix examples that don't build
+85,2017-02-01 23:41:41.000000000,2017-02-03 01:54:34.000000000,closed,1,get containger image size ?
+84,2017-01-31 05:51:45.000000000,2017-02-22 05:48:51.000000000,closed,1,suggestion: disable reporting issues on this project
+83,2017-01-31 05:26:47.000000000,2017-04-05 21:09:53.000000000,closed,32,k8s.io/client-go vendors k8s.io/apimachinery which breaks build
+82,2017-01-31 05:13:12.000000000,2017-02-02 05:33:03.000000000,closed,3,third-party-resource example does not compile (again)
+81,2017-01-31 05:09:22.000000000,2017-02-02 05:35:06.000000000,closed,1,in-cluster and out-of-cluster examples don't build
+80,2017-01-29 23:14:50.000000000,2017-01-29 23:50:09.000000000,closed,2,Compile time?
+79,2017-01-26 20:37:19.000000000,2018-07-05 06:50:44.000000000,closed,17,Update the Godeps version for cloud.google.com/go and github.com/davecgh/go-spew
+78,2017-01-25 06:16:16.000000000,2018-11-07 21:43:42.000000000,closed,52,Switch to dep for dependency management
+77,2017-01-22 20:50:38.000000000,2017-01-22 20:51:21.000000000,closed,1,fix misspell “ underlying” in request.go
+76,2017-01-21 21:52:59.000000000,2018-11-08 16:01:40.000000000,closed,14,Default to protobuf?
+75,2017-01-20 16:12:36.000000000,2017-02-02 14:41:21.000000000,closed,2,Fix build of third-party-resource example program
+74,2017-01-20 04:17:07.000000000,2018-01-03 21:27:18.000000000,closed,7,Kubelet Client and API types
+73,2017-01-19 02:35:49.000000000,2017-02-02 06:03:00.000000000,closed,2,Continuous testing for examples
+72,2017-01-19 02:15:35.000000000,2017-02-14 06:35:55.000000000,closed,4,update for new packages
+71,2017-01-18 16:08:55.000000000,2017-02-09 20:04:15.000000000,closed,0,Any plan for fake dynamic client
+70,2017-01-18 03:13:51.000000000,2017-02-17 00:17:46.000000000,closed,32,incompatibility between branches of release-2.0 and master
+69,2017-01-17 21:47:01.000000000,2017-02-17 00:22:52.000000000,closed,7,question: major version bump
+68,2017-01-17 14:22:19.000000000,2017-03-15 04:42:27.000000000,closed,1,Compatibility matrix documentation
+67,2017-01-16 15:55:32.000000000,2017-02-17 00:18:43.000000000,closed,14,Cannot use GetOptions{}?
+66,2017-01-15 00:35:15.000000000,2017-02-17 00:19:46.000000000,closed,1,concurrent map writes on plugin/pkg/client/auth/gcp/gcp.go:115 
+65,2017-01-12 17:33:54.000000000,2017-03-11 05:47:06.000000000,closed,15,Add workqueue example
+64,2017-01-12 16:06:11.000000000,2017-01-13 07:31:38.000000000,closed,2,can the default conf.APIPath in k8s.io/client-go/1.5/dynamic/client.go change to  /apis?
+63,2017-01-10 18:03:28.000000000,2017-03-15 04:43:25.000000000,closed,5,Is there a document to explain method of use.
+62,2017-01-10 16:05:29.000000000,2017-01-10 23:17:04.000000000,closed,4,How to get node resource?
+61,2017-01-10 13:33:11.000000000,2017-02-08 16:18:54.000000000,closed,4,Cleanup example
+60,2017-01-10 01:50:32.000000000,2017-12-26 09:36:38.000000000,closed,12,ThirdPartyResources TypeMeta empty?
+59,2017-01-08 08:18:12.000000000,2017-02-22 18:48:43.000000000,closed,4,Third Party Resources example improvements
+58,2016-12-30 04:45:52.000000000,2017-01-19 04:20:27.000000000,closed,5,versioning: this repo is weird to use with godocs and glide
+57,2016-12-20 18:51:44.000000000,2018-02-20 10:26:01.000000000,closed,5,Support for Network Policies
+56,2016-12-20 10:13:52.000000000,2017-03-15 04:45:00.000000000,closed,5,Statefulset support
+55,2016-12-19 11:05:46.000000000,2017-01-09 14:38:03.000000000,closed,6,govendor get k8s.io/client-go failed
+54,2016-12-15 04:21:18.000000000,2016-12-20 11:23:22.000000000,closed,6,Cherry-pick fixes to release 2.0
+53,2016-12-15 00:55:20.000000000,2016-12-15 01:34:55.000000000,closed,1,fix thirdparty example
+52,2016-12-14 05:36:49.000000000,2016-12-15 01:34:54.000000000,closed,2,examples/third-party-resources does not compile
+51,2016-12-12 13:13:00.000000000,2017-03-15 04:45:26.000000000,closed,5,Add port-forwarding example
+50,2016-12-07 22:00:39.000000000,2016-12-22 15:14:49.000000000,closed,2,v1beta1/deployment: delete dependents
+49,2016-12-02 23:26:05.000000000,2017-02-22 21:12:41.000000000,closed,2,discovery: don't import client auth provider plugins
+48,2016-12-02 18:25:00.000000000,2016-12-14 16:46:15.000000000,closed,6,Fake Clientset requires namespace be set on Create and Update but the real Clientset and API server do not
+47,2016-11-25 14:32:03.000000000,2017-02-22 18:48:41.000000000,closed,4,v1.Event.Search does not work
+46,2016-11-24 16:28:22.000000000,2017-03-15 04:45:50.000000000,closed,3,Watcher doesn't see events after it was recreated
+45,2016-11-22 10:15:56.000000000,2018-03-02 07:18:15.000000000,closed,13,Support for Exec & Attach APIs
+44,2016-11-21 04:35:09.000000000,2016-11-24 02:45:52.000000000,closed,2,Where can I find the Deployments API?
+43,2016-11-20 19:26:40.000000000,2017-01-09 15:00:42.000000000,closed,2,[qestion] release-2.0 compatibility
+42,2016-11-18 19:15:33.000000000,2018-02-20 11:27:00.000000000,closed,10,App Engine support
+41,2016-11-17 03:10:57.000000000,2016-11-17 05:20:34.000000000,closed,4,release 1.5 doesn't build
+40,2016-11-16 02:16:45.000000000,2016-11-16 03:18:40.000000000,closed,1,Refresh token requires id_token in response but openid spec it is optional 
+39,2016-11-15 06:57:38.000000000,2016-11-22 03:09:50.000000000,closed,4,Make example codes buildable with the latest client-go
+38,2016-11-15 02:28:07.000000000,2017-03-15 04:46:27.000000000,closed,2,Bundling k8s client-go includes internal packages
+37,2016-11-14 20:52:29.000000000,2017-03-03 02:53:59.000000000,closed,2,Follow-up for ThirdPartyResources examples
+36,2016-11-13 15:03:25.000000000,2016-11-22 08:28:51.000000000,closed,2,Is the client thread safe?
+35,2016-11-12 23:59:57.000000000,2018-02-20 11:27:00.000000000,closed,3,Add prometheus metric package
+34,2016-11-12 03:38:03.000000000,2018-02-20 11:26:59.000000000,closed,3,add more func in config.go
+33,2016-11-09 03:01:06.000000000,2016-11-09 03:06:41.000000000,closed,1,This repository depends on k8s.io/kubernetes
+32,2016-11-08 12:45:02.000000000,2018-02-20 11:27:00.000000000,closed,4,Import remotecommand from kubernetes code
+31,2016-11-08 04:57:58.000000000,2016-11-15 23:06:20.000000000,closed,3,Dependency on k8s.io/kubernetes/pkg/util/ratelimit
+30,2016-11-05 01:21:59.000000000,2017-04-14 00:53:01.000000000,closed,16,Add Informer examples
+29,2016-11-04 23:23:55.000000000,2016-11-11 10:45:48.000000000,closed,9,Thirdpartyresources examples
+28,2016-11-04 06:07:42.000000000,2017-07-12 11:10:20.000000000,closed,41,Import leader election code?
+27,2016-11-03 02:18:26.000000000,2017-02-16 19:37:12.000000000,closed,2,Copy versioned listers to client-go
+26,2016-11-03 00:44:52.000000000,2016-11-22 03:34:59.000000000,closed,3,Error using EventBroadcaster.StartRecordingToSink 
+25,2016-11-01 01:24:14.000000000,2016-11-22 03:33:45.000000000,closed,7,1.4 subdirectory causes glide to fail
+24,2016-10-29 02:26:24.000000000,2017-01-09 16:27:41.000000000,closed,2,"panic in cache: interface {} is *v1.Service, not *api.Service"
+23,2016-10-21 23:33:20.000000000,2016-10-21 23:33:40.000000000,closed,0,Add back examples
+22,2016-10-21 21:08:47.000000000,2016-10-24 00:27:11.000000000,closed,5,manually copy the fix the fake_pod_expansion.go
+21,2016-10-21 17:55:34.000000000,2016-10-26 16:30:52.000000000,closed,2,cannot build project in the 1.5 branch
+20,2016-10-21 13:22:53.000000000,2016-10-26 21:51:58.000000000,closed,4,README.md points to examples which do not exist
+19,2016-10-19 11:25:37.000000000,2017-03-15 04:49:03.000000000,closed,4,kube-apiserver flag redefined: log_dir
+18,2016-10-19 01:18:18.000000000,2020-04-18 07:27:40.000000000,closed,34,Proposal: provide a SetLog() func
+17,2016-10-17 22:12:55.000000000,2016-10-17 22:15:22.000000000,closed,0,remove 1.5 folder from 1.4 branch
+16,2016-10-17 22:06:54.000000000,2016-10-17 22:08:08.000000000,closed,0,remove 1.4 folder from 1.5 branch
+15,2016-10-17 22:02:46.000000000,2016-10-17 22:03:12.000000000,closed,0,"Revert ""remove 1.4 folder from 1.5 branch"""
+14,2016-10-17 21:50:21.000000000,2016-10-17 22:02:12.000000000,closed,3,remove 1.4 folder from 1.5 branch
+13,2016-10-15 00:27:27.000000000,2016-10-17 22:10:35.000000000,closed,8,remove 1.5 folder from 1.4 branch
+12,2016-10-12 22:02:38.000000000,2016-10-13 13:24:18.000000000,closed,5,watcher error after 20m
+11,2016-10-08 03:29:28.000000000,2016-10-08 03:47:20.000000000,closed,3,Add PR template
+10,2016-10-08 02:25:16.000000000,2016-10-08 02:29:06.000000000,closed,9,"add Timeout field to REST client (1.4, 1.5) config"
+9,2016-10-07 02:57:54.000000000,2016-10-21 21:17:20.000000000,closed,48,[RFC] client-go versioning
+8,2016-10-06 16:18:40.000000000,2016-11-22 03:30:35.000000000,closed,25,Using for ThirdPartyResource's
+7,2016-09-29 02:10:53.000000000,2016-10-20 01:42:43.000000000,closed,8,Update README.md and restructure the master branch
+6,2016-09-27 12:13:25.000000000,2016-11-22 03:29:21.000000000,closed,7,GCP auth Provider
+5,2016-09-26 13:35:21.000000000,2016-11-09 03:04:24.000000000,closed,3,Segmentation violation while creating a service
+4,2016-09-10 16:37:16.000000000,2017-01-09 15:03:04.000000000,closed,35,Informer framework
+3,2016-09-08 16:50:10.000000000,2016-09-15 02:22:40.000000000,closed,3,add support for release-1.3
+2,2016-08-30 06:24:46.000000000,2018-05-22 05:34:15.000000000,closed,21,vendor directory
+1,2016-08-26 12:50:10.000000000,2016-09-15 02:29:34.000000000,closed,3,Consider versioning against API version rather than Kubernetes version

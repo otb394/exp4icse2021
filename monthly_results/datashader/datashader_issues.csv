@@ -1,0 +1,954 @@
+id,created_at,closed_at,state,comments,title
+956,2020-08-28 21:06:27.000000000,1970-01-01 00:00:00.000000001,open,12,canvas.line freezes indefinitely with numba 0.51.1
+955,2020-08-26 03:12:07.000000000,1970-01-01 00:00:00.000000001,open,7,Drop ds.geo and ds.spatial modules
+954,2020-08-24 22:56:11.000000000,2020-08-25 23:18:51.000000000,closed,3,Documentation updates for aggregate spreading
+953,2020-08-22 05:40:32.000000000,1970-01-01 00:00:00.000000001,open,1,Remove Viewshed
+952,2020-08-18 16:34:57.000000000,2020-08-18 23:41:50.000000000,closed,5,Distortions between quadmesh and input points
+951,2020-08-16 22:10:16.000000000,2020-08-16 22:36:43.000000000,closed,0,Unpin pyarrow
+950,2020-08-16 18:15:27.000000000,2020-08-16 18:15:52.000000000,closed,0,Update Canvas.raster docstring to reflect agg options
+949,2020-08-16 17:45:16.000000000,2020-08-16 18:15:42.000000000,closed,0,Handle boolean span in tile generation code
+948,2020-08-12 04:36:23.000000000,2020-08-13 20:31:53.000000000,closed,2,Use language: python on travis
+947,2020-08-10 22:37:14.000000000,2020-08-12 03:02:32.000000000,closed,1,Supporting cuDF 0.14+
+946,2020-07-14 14:59:41.000000000,1970-01-01 00:00:00.000000001,open,0,Implement 3D Volume regridding
+945,2020-07-12 07:49:43.000000000,2020-08-16 17:09:45.000000000,closed,2,Test suite currently fails on Travis
+944,2020-07-12 07:03:00.000000000,2020-08-16 17:20:24.000000000,closed,2,Fix AttributeError: module 'pandas.compat' has no attribute 'string_types'
+943,2020-07-12 06:09:04.000000000,1970-01-01 00:00:00.000000001,open,0,Drop Python 2.7 support.
+942,2020-07-12 05:30:04.000000000,1970-01-01 00:00:00.000000001,open,3,Drop support for Python 2.7
+941,2020-07-12 04:26:12.000000000,2020-07-12 05:48:05.000000000,closed,0,Print cupy version in Travis build
+940,2020-07-12 03:02:15.000000000,2020-08-14 03:02:56.000000000,closed,2,Try #934 with Numba installed from GitHub
+939,2020-07-12 00:10:41.000000000,1970-01-01 00:00:00.000000001,open,15,ENH: updated draft of MPL artist [WIP]
+938,2020-07-06 17:11:18.000000000,2020-08-16 17:37:11.000000000,closed,2,nyc taxi examples needs a meta-data update
+937,2020-07-05 19:53:15.000000000,2020-07-06 08:15:11.000000000,closed,2,"numba-0.50 is out with the performance regression fix, isn't it ?"
+936,2020-07-03 18:17:40.000000000,1970-01-01 00:00:00.000000001,open,7,Add Datashader example to dask-examples
+935,2020-07-02 23:56:22.000000000,2020-08-14 21:57:27.000000000,closed,0,Standardizing build procedures
+934,2020-06-30 15:06:55.000000000,2020-08-10 22:19:58.000000000,closed,7,Fixes issue with Numba CUDA target altering max/min semantics.
+933,2020-06-30 03:45:21.000000000,2020-07-03 15:49:20.000000000,closed,10,GPU fixes
+932,2020-06-19 20:52:12.000000000,2020-08-10 22:19:57.000000000,closed,10,Numba <0.49 prevents installation with cuDF>=0.14
+931,2020-06-17 18:41:57.000000000,2020-06-18 02:27:55.000000000,closed,8,absolute color scale for heatmaps
+930,2020-06-12 10:16:05.000000000,2020-06-12 13:37:38.000000000,closed,1,Panel run slower than jupyter notebook
+929,2020-06-05 00:50:47.000000000,2020-08-16 18:15:42.000000000,closed,3,TypeError when running datashader.tiles.render_tiles for line instead of points
+928,2020-06-02 01:38:21.000000000,2020-08-16 18:15:52.000000000,closed,2,`Canvas().raster` does not take non-specified reductions
+927,2020-05-29 22:10:55.000000000,1970-01-01 00:00:00.000000001,open,8,suggested implementation for category_modulo and category_binning
+926,2020-05-25 23:35:54.000000000,1970-01-01 00:00:00.000000001,open,3,Implements tree reduction in the dask layer
+925,2020-05-25 20:16:17.000000000,2020-05-25 20:17:11.000000000,closed,1,Pin numba to avoid 10X performance regression
+924,2020-05-25 19:58:48.000000000,2020-05-25 20:18:00.000000000,closed,0,Pin numba<0.49
+923,2020-05-25 17:53:45.000000000,2020-05-25 20:12:56.000000000,closed,0,Updated docs to include uint
+922,2020-05-25 15:33:26.000000000,2020-05-25 16:53:10.000000000,closed,3,Fix zonal stat example in the docs
+921,2020-05-25 02:47:15.000000000,2020-05-25 15:33:36.000000000,closed,1,Minor docs fixes
+920,2020-05-24 19:11:07.000000000,2020-05-24 21:24:31.000000000,closed,0,Attempt to fix doc building environment [doc-build]
+919,2020-05-24 19:03:20.000000000,2020-05-25 02:21:13.000000000,closed,0,Make scikit-image dependency optional
+918,2020-05-22 10:49:13.000000000,2020-05-22 14:24:48.000000000,closed,1,https://datashader.org/getting_started/Interactivity.html shows error
+917,2020-05-18 17:17:01.000000000,2020-05-18 19:11:59.000000000,closed,6,unpin Numba
+916,2020-05-13 11:45:29.000000000,1970-01-01 00:00:00.000000001,open,7,Implementation of Xiaolin Wu anti-aliased line drawing
+915,2020-05-10 03:24:56.000000000,2020-05-10 06:32:24.000000000,closed,1,Update 3_Timeseries.ipynb
+914,2020-05-09 15:15:19.000000000,2020-05-10 00:27:41.000000000,closed,1,datashader does not work with dtype=np.float16
+913,2020-05-06 15:53:40.000000000,2020-05-06 16:28:04.000000000,closed,1,Fixed indexing errors in QuadMesh in python2
+912,2020-05-06 05:34:49.000000000,1970-01-01 00:00:00.000000001,open,9,Datashader Crashes Kernel on import
+911,2020-05-05 04:28:19.000000000,2020-05-05 04:50:59.000000000,closed,2,"DOCS(?): Interactivity page shows errors for ""spread"" section"
+910,2020-05-04 07:41:15.000000000,2020-05-23 00:29:13.000000000,closed,5,Additional fixes for colorize span
+909,2020-05-03 01:40:27.000000000,2020-05-03 21:23:52.000000000,closed,3,Handle negative values in categorical colorize
+908,2020-05-02 03:05:26.000000000,2020-05-03 01:36:09.000000000,closed,0,Fix _colorize alpha for case of no provided span
+907,2020-04-30 05:03:28.000000000,1970-01-01 00:00:00.000000001,open,7,_colorize can exceed available memory if there is a large number of unique categories
+906,2020-04-26 16:58:19.000000000,2020-05-04 00:36:30.000000000,closed,0,Correctly combine multi-chunk categorical reductions
+905,2020-04-26 08:43:39.000000000,2020-05-23 00:30:24.000000000,closed,1,Document by()
+904,2020-04-25 19:21:31.000000000,2020-04-25 20:50:50.000000000,closed,0,Fixed categorical var/std reductions in dask
+903,2020-04-25 06:01:54.000000000,2020-04-25 06:02:39.000000000,closed,0,Added link to Points guide
+902,2020-04-25 01:36:29.000000000,2020-04-25 04:55:16.000000000,closed,2,Add support for by with multiple base reductions
+901,2020-04-22 05:37:23.000000000,2020-04-22 05:43:30.000000000,closed,0,ImportError: cannot import name 'encode_utf8' from 'bokeh.embed.notebook'
+900,2020-04-21 18:49:25.000000000,2020-04-25 20:50:50.000000000,closed,8,"by() reduction doesn't combine with mean(), std() etc."
+899,2020-04-20 17:06:44.000000000,2020-05-23 00:29:45.000000000,closed,7,Problems with _colorize()
+898,2020-04-18 10:30:24.000000000,2020-04-25 06:02:39.000000000,closed,1,Docs User Guide Intro still links Points to NY Taxi example instead of Points section
+897,2020-04-15 10:31:58.000000000,2020-04-16 18:53:19.000000000,closed,2,Dynspread fails to handle NaN properly
+896,2020-04-12 06:02:16.000000000,2020-05-01 23:41:07.000000000,closed,0,Misc fixes for colorize
+895,2020-04-12 04:14:05.000000000,2020-05-01 23:41:09.000000000,closed,1,_colorize throw exception if input is all zeros
+894,2020-04-09 18:05:46.000000000,2020-04-25 05:38:27.000000000,closed,0,Update deprecations
+893,2020-04-09 02:57:30.000000000,2020-04-10 02:33:15.000000000,closed,1,Updating the information in the Datashader about page
+892,2020-04-07 07:55:11.000000000,2020-04-07 08:12:13.000000000,closed,0,Removing the about section from the Datashader README
+891,2020-04-07 03:09:36.000000000,2020-04-07 04:34:46.000000000,closed,0,Update shade tests for changes to viridis in mpl 3.2.1
+890,2020-04-06 21:20:14.000000000,2020-04-06 22:14:55.000000000,closed,0,Fix bokeh palette
+889,2020-04-06 20:49:07.000000000,2020-04-06 20:58:51.000000000,closed,0,Match pandas boolean NAN indexing behavior
+888,2020-04-06 17:46:47.000000000,2020-04-06 20:58:40.000000000,closed,0,Fixed InteractiveImage bokeh 2.0 compatibility
+887,2020-03-27 17:14:29.000000000,2020-03-27 17:35:22.000000000,closed,1,InteractiveImage breaks with bokeh v2.0.0
+886,2020-03-09 04:46:01.000000000,2020-04-06 21:36:04.000000000,closed,4,Performance improvement for TMS tileset generation
+885,2020-03-05 22:13:17.000000000,2020-04-07 06:36:05.000000000,closed,8,"Add Dask quadmesh support for raster, rectilinear, and curvilinear mesh types"
+884,2020-03-04 20:13:37.000000000,2020-03-04 20:51:46.000000000,closed,0,Added basic docs for quadmesh GPU support for rasters
+883,2020-02-22 04:04:04.000000000,2020-02-22 04:27:29.000000000,closed,0,pandas 1.0 compatibility
+882,2020-02-22 00:11:57.000000000,2020-02-22 03:24:14.000000000,closed,1,Do not automatically trigger the creation of a spatialpandas spatial index
+881,2020-02-19 09:14:42.000000000,2020-04-07 20:46:58.000000000,closed,2,about InteractiveImage
+880,2020-02-19 00:52:30.000000000,2020-02-19 04:50:25.000000000,closed,6,ImportError -> Exception for guards around cupy/cudf import
+879,2020-02-18 03:21:29.000000000,2020-08-16 18:22:31.000000000,closed,1,transfer_functions.shade() CUDARuntimeError cuDF 0.12
+878,2020-02-15 02:01:32.000000000,2020-02-15 15:16:29.000000000,closed,0,Add link to dev website.
+877,2020-02-15 01:55:03.000000000,2020-02-15 20:41:56.000000000,closed,1,Remove apparently redundant specifications of pandas in dependencies
+876,2020-02-14 23:20:08.000000000,2020-02-15 01:26:25.000000000,closed,1,Pinning pandas to <1.0 to get tests passing
+875,2020-02-14 08:56:51.000000000,2020-03-21 00:09:57.000000000,closed,12,Generalize categorical aggregation and support span in _colorize
+874,2020-02-12 17:36:10.000000000,2020-03-05 06:34:18.000000000,closed,5,Fix render_tiles to use Google Map tile coordinates
+873,2020-02-06 07:26:45.000000000,2020-02-10 19:16:42.000000000,closed,6,Color not displaying properly with quadmesh rendering? 
+872,2020-01-31 18:05:05.000000000,2020-03-04 19:38:57.000000000,closed,3,Add optimized raster codepath to quadmesh glyph with GPU support
+871,2020-01-30 14:03:04.000000000,1970-01-01 00:00:00.000000001,open,1,Use geo transfer functions with xarray.Variable objects
+869,2020-01-24 00:50:08.000000000,2020-01-24 02:08:24.000000000,closed,0,Fixed typo in class name
+868,2020-01-23 01:21:26.000000000,2020-01-28 02:04:21.000000000,closed,0,Expanded performance guide
+867,2020-01-22 02:17:47.000000000,2020-01-22 03:30:17.000000000,closed,0,Clarified data objects and libraries in examples
+866,2020-01-21 19:56:39.000000000,2020-01-22 00:50:13.000000000,closed,0,Hard-coded POSIX temp-file path even on Windows
+865,2020-01-21 19:12:20.000000000,1970-01-01 00:00:00.000000001,open,0,Rasterio can't be installed via conda for testing
+864,2020-01-19 23:45:32.000000000,2020-01-20 05:00:31.000000000,closed,0,Added datalib/glyph table
+863,2020-01-19 07:30:38.000000000,2020-01-19 07:50:22.000000000,closed,0,Postpone spatialpandas import until it is known to be loaded
+862,2020-01-17 04:23:35.000000000,2020-01-21 19:36:21.000000000,closed,8,Canvas.raster fixes
+861,2020-01-17 03:40:56.000000000,2020-01-19 22:23:03.000000000,closed,8,GPU Quadmesh support
+860,2020-01-08 00:52:16.000000000,2020-01-08 02:56:04.000000000,closed,0,spatialpandas CI test fix
+859,2020-01-07 08:06:08.000000000,2020-01-19 08:09:23.000000000,closed,0,Fix warnings and deprecations in tests
+858,2019-12-31 22:37:23.000000000,2020-02-21 03:26:12.000000000,closed,0,"WIP: added crosstab, apply functions to spatial.zonal module"
+857,2019-12-22 22:27:32.000000000,2019-12-23 05:34:51.000000000,closed,0,Use holoviz issue templates.
+856,2019-12-22 20:04:39.000000000,2020-01-19 20:47:38.000000000,closed,0,Try removing nbsmoke pin.
+855,2019-12-19 17:58:27.000000000,2019-12-19 18:48:13.000000000,closed,0,Add Google Analytics/Search configuration
+854,2019-12-17 19:31:24.000000000,2019-12-17 19:57:03.000000000,closed,2,"When rasterizing line from a ring, don't double count the start pixel"
+853,2019-12-16 22:51:45.000000000,2019-12-17 02:27:20.000000000,closed,4,Fix half-pixel offset error in Polygon rasterization
+852,2019-12-16 19:29:15.000000000,2019-12-17 02:27:20.000000000,closed,1,Lower bound is non-inclusive on polygon aggregation
+851,2019-12-16 19:20:24.000000000,2019-12-17 19:57:03.000000000,closed,2,Ring geometry double counts on close
+850,2019-12-16 18:25:57.000000000,2019-12-16 19:18:17.000000000,closed,1,MultiPolygon rendering incorrectly
+849,2019-12-15 02:35:26.000000000,2020-04-07 20:52:14.000000000,closed,1,document support for standard cartographic projections in user_guide/Geography.html 
+848,2019-12-13 21:52:37.000000000,1970-01-01 00:00:00.000000001,open,8,How can we save multiple panels to one image file?
+847,2019-12-12 21:58:47.000000000,2020-01-19 07:40:33.000000000,closed,1,Fix Datashader Import Performance
+846,2019-12-11 19:24:51.000000000,2020-01-19 07:50:22.000000000,closed,10,Datashader import extremely slow
+845,2019-12-08 21:47:20.000000000,1970-01-01 00:00:00.000000001,open,1,Aggregating lines with column aggregator breaks on cuDF
+844,2019-12-07 01:35:48.000000000,2019-12-07 02:06:18.000000000,closed,1,Adds missing `dims` and `coords` to geo transfer functions
+843,2019-12-06 20:55:44.000000000,2019-12-06 21:27:55.000000000,closed,1,"fix dead links in ""Getting Started -> Pipeline"""
+842,2019-12-06 11:56:02.000000000,2019-12-06 23:56:46.000000000,closed,0,Updated docs for GPU support
+841,2019-12-05 05:19:52.000000000,2019-12-05 07:35:24.000000000,closed,3,GPU testing improvements
+840,2019-12-02 21:21:34.000000000,2019-12-03 02:56:10.000000000,closed,0,Getting rid of pyviz references
+839,2019-12-01 00:19:21.000000000,2019-12-01 22:49:32.000000000,closed,0,Don't double count first pixel when first segment is a subpixel segment
+838,2019-11-30 02:50:32.000000000,2019-11-30 03:27:05.000000000,closed,2,Collect test coverage
+837,2019-11-30 01:30:24.000000000,2019-11-30 02:11:29.000000000,closed,4,More pyviz -> holoviz (and test external codecov rename).
+836,2019-11-28 01:25:31.000000000,2019-12-01 22:49:31.000000000,closed,2,Spike aggregation double counts for short spikes
+835,2019-11-26 02:10:30.000000000,2019-12-07 03:29:10.000000000,closed,1,Geo-operations drop coordinates
+834,2019-11-21 04:31:27.000000000,2019-12-02 21:22:13.000000000,closed,1,Added stacked and unstacked SVG logos
+833,2019-11-19 22:29:27.000000000,2019-12-08 05:23:15.000000000,closed,5,Next Release?
+832,2019-11-19 17:29:55.000000000,2019-12-06 06:11:12.000000000,closed,9,Datashader does not recalculate in Voila
+831,2019-11-16 01:29:48.000000000,1970-01-01 00:00:00.000000001,open,0,Datashader WMS server
+830,2019-11-16 00:32:54.000000000,2020-08-14 21:59:44.000000000,closed,3,Hydrology functions
+829,2019-11-13 18:48:43.000000000,2019-11-13 19:39:57.000000000,closed,0,Adding holoviews to dependencies
+828,2019-11-09 04:18:20.000000000,2020-04-07 20:56:45.000000000,closed,3,stream error in examples on python 3.7
+827,2019-11-08 19:48:10.000000000,2019-11-08 21:29:04.000000000,closed,0,Fix typo in ToC
+826,2019-11-05 06:10:38.000000000,2019-12-11 06:54:11.000000000,closed,13,Add polygon rendering support based on spatialpandas extension arrays
+824,2019-10-31 19:09:30.000000000,2019-11-13 07:36:16.000000000,closed,1,Viewshed Performance Fixes
+823,2019-10-31 06:05:16.000000000,2019-10-31 16:47:15.000000000,closed,1,WIP: Viewshed Performance Increases
+822,2019-10-29 19:14:01.000000000,2019-10-29 22:06:53.000000000,closed,0,Adding datashader logo at the top left
+821,2019-10-25 15:29:11.000000000,2019-10-31 17:22:25.000000000,closed,4,Updates for compatibility with cudf v0.10
+820,2019-10-24 21:34:39.000000000,2019-10-25 22:40:27.000000000,closed,4,Pyct requirement causing error
+819,2019-10-23 22:23:47.000000000,2019-11-05 18:44:23.000000000,closed,44,Add Polygon support
+818,2019-10-23 20:39:50.000000000,2020-01-21 19:52:22.000000000,closed,6,Allow remote filesystems in spatial read_parquet and to_parquet
+817,2019-10-23 18:23:47.000000000,2020-01-21 19:52:21.000000000,closed,2,Support remote filesystems in spatial read_parquet and to_parquet
+816,2019-10-17 01:11:59.000000000,2019-10-17 01:43:02.000000000,closed,0,Adding topics/index.rst
+815,2019-10-15 17:23:00.000000000,2019-10-15 17:23:59.000000000,closed,0,Master merge
+814,2019-10-14 02:04:38.000000000,2019-10-14 02:43:58.000000000,closed,0,Additional bcollins fixes
+813,2019-10-13 18:34:31.000000000,2019-10-14 02:06:33.000000000,closed,1,Brendancol/bump mapping improvements
+812,2019-10-12 17:21:36.000000000,2019-10-15 05:26:18.000000000,closed,4,datashader kills jupyter notebook kernel
+811,2019-10-12 02:44:27.000000000,2019-10-15 19:25:12.000000000,closed,2,Geospatial fixes
+810,2019-10-11 17:18:00.000000000,2019-10-11 17:32:01.000000000,closed,1,QuadMesh rendering is offset by half pixel
+809,2019-10-11 12:53:33.000000000,2020-08-16 17:14:27.000000000,closed,3,The datashader does not work on python 3.8
+808,2019-10-10 23:04:36.000000000,2019-10-11 01:50:16.000000000,closed,0,Allow tagged builds 
+807,2019-10-10 00:03:53.000000000,2019-10-15 07:05:01.000000000,closed,7,Brendancol/viewshed testing
+806,2019-10-09 19:55:20.000000000,1970-01-01 00:00:00.000000001,open,5,Trimesh rasterization seems slightly off
+805,2019-10-09 15:48:58.000000000,2019-10-10 22:50:27.000000000,closed,1,Add quadmesh examples to Rasters section
+804,2019-10-08 21:38:42.000000000,2019-10-08 21:39:01.000000000,closed,0,Fixing pip build
+803,2019-10-08 18:10:55.000000000,2019-10-08 18:47:33.000000000,closed,1,Ensure that orient_array utility handles datetime axes
+802,2019-10-04 23:02:53.000000000,1970-01-01 00:00:00.000000001,open,3,Current warnings when running tests
+801,2019-10-04 22:28:11.000000000,2019-10-05 02:41:43.000000000,closed,4,Memoize dask datashape
+800,2019-10-04 22:07:39.000000000,2019-10-08 00:49:23.000000000,closed,10,Docs clean up
+799,2019-10-04 16:16:19.000000000,1970-01-01 00:00:00.000000001,open,4,Implement 1D aggregations
+798,2019-10-04 15:14:35.000000000,2019-10-04 18:37:50.000000000,closed,9,Optimize dshape_from_dask
+797,2019-10-04 15:00:41.000000000,1970-01-01 00:00:00.000000001,open,3,Memoize or otherwise optimize dshape_from_dask
+796,2019-10-04 00:03:42.000000000,2019-10-04 03:42:16.000000000,closed,3,Fixed edge bundling performance regression
+795,2019-10-03 20:20:31.000000000,2019-10-03 21:55:51.000000000,closed,1,Fix coordinate ordering of Image returned by _colorize
+794,2019-10-03 15:05:29.000000000,2019-10-11 19:59:47.000000000,closed,4,Refactoring towards GPU support
+793,2019-10-01 23:47:14.000000000,2019-10-20 01:50:33.000000000,closed,27,Initial GPU support
+792,2019-09-28 00:18:28.000000000,2019-10-03 22:01:55.000000000,closed,8,ufunc 'over' not supported for the input types in 7_Networks.ipynb
+791,2019-09-27 23:24:49.000000000,2019-09-28 00:16:40.000000000,closed,0,Avoid Pandas and Xarray warnings
+790,2019-09-25 04:56:54.000000000,1970-01-01 00:00:00.000000001,open,12,Installing datashader via pip and/or conda breaks jupyter
+789,2019-09-25 02:32:31.000000000,2019-09-28 00:16:40.000000000,closed,1,Future and Deprecation warnings
+788,2019-09-21 00:03:27.000000000,2019-09-21 00:42:16.000000000,closed,3,fixes viewshed gradient calculation issue
+786,2019-09-17 19:14:14.000000000,2019-12-06 09:14:27.000000000,closed,1,NumbaPerformanceWarning
+785,2019-09-11 19:11:50.000000000,2019-10-29 17:24:33.000000000,closed,1,Spatial reader failing with dask 2.3.0 (post fsspec)
+784,2019-09-09 05:41:02.000000000,2019-11-06 18:32:33.000000000,closed,4,Spatial tools next steps
+783,2019-08-29 18:18:56.000000000,2019-08-29 22:12:19.000000000,closed,0,Datashader missing a dependency on testpath?
+782,2019-08-23 21:58:50.000000000,2019-09-09 08:50:19.000000000,closed,0,WIP: Zonal Statistics Spatial Function
+781,2019-08-23 21:46:12.000000000,2019-09-09 04:33:01.000000000,closed,0,Viewshed Spatial Function
+780,2019-08-15 17:24:11.000000000,2019-08-15 23:41:20.000000000,closed,3,Glyph rendering optimization using variable length argument expansion
+779,2019-08-13 19:48:34.000000000,2019-08-28 21:47:03.000000000,closed,31,Add quadmesh glyph with rectilinear and curvilinear support
+778,2019-08-12 21:07:57.000000000,2019-08-12 23:40:44.000000000,closed,1,Refactor compiler's make_append to handle more than one dimension
+777,2019-08-12 13:58:17.000000000,2019-08-12 14:49:16.000000000,closed,2,Pandas 0.25 test suite compatibility
+776,2019-08-11 01:09:12.000000000,2019-08-11 18:14:09.000000000,closed,6,Split glyph type definitions into separate files
+775,2019-08-06 08:01:23.000000000,1970-01-01 00:00:00.000000001,open,0,dynspread fails when the y-axis value is constant
+774,2019-07-31 01:55:48.000000000,1970-01-01 00:00:00.000000001,open,5,ValueError: cannot reshape array of size 
+773,2019-07-30 04:36:00.000000000,2019-07-31 00:30:42.000000000,closed,4,Legend order - datashade scatter plot
+772,2019-07-26 21:58:50.000000000,2019-08-30 21:28:06.000000000,closed,1,Proximity Spatial Function
+771,2019-07-24 22:46:44.000000000,2020-08-20 01:08:25.000000000,closed,15,Spread support for aggregate arrays
+770,2019-07-19 20:14:42.000000000,2019-08-29 01:25:07.000000000,closed,3,Modin Pandas
+769,2019-07-19 16:52:57.000000000,2019-10-03 23:14:30.000000000,closed,1,Implemented QuadMesh resampling
+768,2019-07-18 00:33:43.000000000,2019-07-18 03:55:49.000000000,closed,0,WIP: Fix dashboard.yml for latest intake
+767,2019-07-17 16:52:56.000000000,2019-07-19 16:55:18.000000000,closed,1,large category number
+766,2019-07-17 09:48:18.000000000,2019-07-18 03:56:38.000000000,closed,2,python/tuple not accepted by intake-0.5.1's yaml.safe_load() in examples/dashboard.yml
+765,2019-07-12 23:55:34.000000000,2019-10-04 00:39:57.000000000,closed,2,Update 3_Timeseries.ipynb
+764,2019-07-09 17:22:27.000000000,2019-07-10 21:03:33.000000000,closed,1,Fix CI by upgrading to Python 3.7
+763,2019-07-09 17:13:26.000000000,2019-07-15 20:05:46.000000000,closed,2,Fix warnings with latest Numba
+762,2019-07-05 17:59:49.000000000,2019-07-18 15:29:35.000000000,closed,0,Implemented distributed regridding
+761,2019-07-02 23:05:01.000000000,2019-08-23 23:54:08.000000000,closed,2,added tile_previewer utility function
+760,2019-07-02 18:26:09.000000000,2019-08-23 23:54:41.000000000,closed,0,Fix #758 - Using np.nanmin / np.nanmax instead of arr.data.min / arr.data.max
+759,2019-07-01 02:46:00.000000000,2019-09-09 02:54:46.000000000,closed,3,Add Proximity Function
+758,2019-06-27 17:28:57.000000000,2019-08-23 23:54:42.000000000,closed,1,change `calculate_zoom_level_stats` in tiles.py to use np.nanmin() / np.nanmax()
+757,2019-06-25 20:55:18.000000000,1970-01-01 00:00:00.000000001,open,0,Loud numba warning on spatial.read_parquet
+756,2019-06-21 21:00:51.000000000,1970-01-01 00:00:00.000000001,open,14,Embed datashade in Flask
+755,2019-06-10 08:52:32.000000000,1970-01-01 00:00:00.000000001,open,1,Notebook runs much faster than bokeh server
+754,2019-06-05 02:20:59.000000000,2020-01-28 15:23:48.000000000,closed,4,Implementation of compare aggregator
+753,2019-05-29 18:11:40.000000000,2019-05-29 18:38:34.000000000,closed,1,Add option to `datashader examples` to download specific dataset
+752,2019-05-22 21:33:23.000000000,2019-05-22 22:19:53.000000000,closed,4,Removing topics
+751,2019-05-22 21:01:20.000000000,2019-05-24 00:21:01.000000000,closed,1,Removal of InteractiveImage
+750,2019-05-21 17:10:53.000000000,2019-05-22 23:14:53.000000000,closed,1,Updating travis to test with python 3.7 - removing 3.5
+749,2019-05-21 06:32:11.000000000,2019-05-22 02:15:42.000000000,closed,9,Import datashader in Jupter notebook with Python 3.5 kernel hangs cell.
+748,2019-05-06 16:03:51.000000000,2019-05-06 18:22:25.000000000,closed,0,Remove testpath pinning
+747,2019-05-06 01:01:16.000000000,2019-05-06 15:58:50.000000000,closed,0,Testpath
+746,2019-05-04 14:15:45.000000000,1970-01-01 00:00:00.000000001,open,0,Consider providing utilities for generating projected 3D plots and animations
+745,2019-05-02 19:46:29.000000000,1970-01-01 00:00:00.000000001,open,3,Creating image over non-rectangular grid
+744,2019-04-26 18:24:32.000000000,2020-05-25 02:21:13.000000000,closed,0,Make scikit-image dependency optional
+743,2019-04-26 01:46:45.000000000,2019-04-26 03:08:19.000000000,closed,1,Updating css to show ordered lists as numbered
+742,2019-04-24 19:24:48.000000000,2019-04-26 03:08:19.000000000,closed,0,Docs turning numbered lists into bullets
+741,2019-04-18 22:57:41.000000000,2019-04-18 23:53:29.000000000,closed,2,Tornado pinning for tests
+740,2019-04-16 13:56:02.000000000,1970-01-01 00:00:00.000000001,open,0,Fail to plot graph with forceatlas2_layout
+739,2019-04-13 23:34:12.000000000,2019-04-14 00:12:32.000000000,closed,2,Interactive Datashader + Holoviews Plot does not Update in VSCode
+738,2019-04-12 22:03:27.000000000,2019-04-12 22:49:11.000000000,closed,1,Adding colorcet images for colormaps
+737,2019-04-10 11:11:02.000000000,1970-01-01 00:00:00.000000001,open,2,Documentation for hammer_bundle
+736,2019-04-08 22:02:30.000000000,1970-01-01 00:00:00.000000001,open,2,tiling render problems unprojecting mercator units with pyproj
+735,2019-04-08 21:15:42.000000000,2019-04-08 23:05:34.000000000,closed,0,Adding importorskip for fastparquet
+734,2019-04-06 20:41:07.000000000,2019-05-03 22:25:52.000000000,closed,16,Filled area support
+733,2019-04-05 21:22:59.000000000,2020-02-04 00:32:00.000000000,closed,6,change tiles.py to avoid rendering empty tiles.
+732,2019-04-04 00:51:57.000000000,2019-10-08 00:49:23.000000000,closed,0,[DOCS] Nbsite puts extra divs in the html
+731,2019-04-03 21:02:53.000000000,2019-04-03 21:37:02.000000000,closed,1,Pin yaml to avoid pins and dashboard fixes
+730,2019-04-03 00:49:54.000000000,2019-04-03 19:36:57.000000000,closed,1,Adding persist to make it use dask
+729,2019-04-02 22:37:45.000000000,1970-01-01 00:00:00.000000001,open,0,spatial partitioning notebook example not working in jupyter lab
+728,2019-03-31 06:01:26.000000000,1970-01-01 00:00:00.000000001,open,4,Error displaying large dataset
+727,2019-03-22 16:31:53.000000000,1970-01-01 00:00:00.000000001,open,4,Forceatlas2_layout: slow?
+726,2019-03-13 18:37:40.000000000,2019-10-03 22:41:39.000000000,closed,2,Updating dependencies and testing more
+725,2019-03-12 06:17:42.000000000,1970-01-01 00:00:00.000000001,open,11,[WIP] Speed up connect_edges
+724,2019-03-12 05:01:10.000000000,1970-01-01 00:00:00.000000001,open,7,Trouble running tests with provided conda env
+723,2019-03-09 11:16:17.000000000,2019-04-01 20:47:25.000000000,closed,25,Updated dashboard for newer param syntax
+722,2019-03-08 14:58:25.000000000,2019-03-09 04:52:22.000000000,closed,7,Error for long column-based lines
+721,2019-03-07 08:10:30.000000000,1970-01-01 00:00:00.000000001,open,1,Datashading area
+720,2019-03-02 20:40:10.000000000,1970-01-01 00:00:00.000000001,open,2,RaggedArray serialization
+719,2019-03-02 19:30:57.000000000,1970-01-01 00:00:00.000000001,open,3,Aggregating from non-orthogonal coordinate systems
+718,2019-02-28 20:39:52.000000000,2019-10-15 20:08:04.000000000,closed,1,Fixed topics index
+717,2019-02-23 23:50:23.000000000,2019-02-24 03:15:45.000000000,closed,1,Fix memory explosion when auto-calculating canvas range extents with dask
+716,2019-02-22 21:15:29.000000000,1970-01-01 00:00:00.000000001,open,0,Add more interpolation options
+715,2019-02-17 20:55:32.000000000,2019-02-17 21:28:32.000000000,closed,1,Datashader gives me: TypeError: 'bool' object is not callable
+714,2019-02-15 20:24:17.000000000,2019-02-15 21:31:18.000000000,closed,0,Website Tweak
+713,2019-02-15 18:26:49.000000000,2019-02-15 18:34:43.000000000,closed,0,Update README.md
+712,2019-02-15 06:40:07.000000000,1970-01-01 00:00:00.000000001,open,0,Support datashader.spatial.points.to_parquet with pyarrow
+711,2019-02-14 23:30:51.000000000,2019-02-15 03:42:47.000000000,closed,2,Fixing up website formatting
+710,2019-02-14 06:09:55.000000000,2019-02-14 06:10:12.000000000,closed,0,Added links from homepage to topics
+709,2019-02-14 04:29:18.000000000,2019-02-14 05:06:48.000000000,closed,0,Expanded 8_Geography.ipynb to include other geo-related functions
+708,2019-02-13 09:02:59.000000000,2019-02-15 15:35:34.000000000,closed,12,Updated docs and examples for SpatialPointsFrame
+707,2019-02-13 02:52:45.000000000,2019-02-20 02:09:59.000000000,closed,3,Removed precedence from parameter definitions in dashboard
+706,2019-02-12 05:57:32.000000000,2019-02-12 23:50:24.000000000,closed,30,Convert SpatialPointsFrame to a Dask DataFrame subclass
+705,2019-02-11 23:00:52.000000000,2019-02-15 06:46:06.000000000,closed,7,Simpler API for SpatialDataFrame 
+704,2019-02-11 18:56:06.000000000,2019-02-11 19:44:47.000000000,closed,0,Fixing formatting on pipeline notebook
+703,2019-02-09 02:21:40.000000000,2019-02-09 02:28:34.000000000,closed,3,Added missing entry to datasets.yml
+702,2019-02-07 06:43:21.000000000,2019-02-08 15:29:40.000000000,closed,5,Add SpatialPointsFrame class to support spatial partitioning for points aggregation
+701,2019-02-05 23:47:40.000000000,2019-02-06 01:36:03.000000000,closed,0,Adding badges
+700,2019-02-05 23:34:14.000000000,2019-02-06 02:42:36.000000000,closed,0,Website updates
+699,2019-02-05 20:57:35.000000000,1970-01-01 00:00:00.000000001,open,3,Efficiently rendering time-varying trimeshes
+698,2019-02-05 03:57:41.000000000,1970-01-01 00:00:00.000000001,open,9,Simplifying Panel-based dashboard
+697,2019-01-29 09:36:26.000000000,2019-01-29 09:45:21.000000000,closed,0,Release updates
+696,2019-01-24 19:18:18.000000000,2019-02-07 06:21:47.000000000,closed,2,Initial Dask trimesh support
+695,2019-01-22 18:57:10.000000000,2019-01-22 20:07:08.000000000,closed,1,Add conda-forge as a channel in appveyor config
+694,2019-01-22 05:08:25.000000000,2019-02-01 04:59:46.000000000,closed,18,Support for row-oriented coordinates in Canvas.line
+693,2019-01-22 01:44:19.000000000,2019-01-22 07:29:29.000000000,closed,1,Additional userguide fixes
+692,2019-01-21 19:53:37.000000000,2019-01-21 23:49:46.000000000,closed,1,Fix variable name collision
+691,2019-01-19 03:34:45.000000000,2019-01-22 01:03:56.000000000,closed,1,Changed OpenSky notebook to use Parquet
+690,2019-01-17 19:31:31.000000000,2019-01-17 20:07:23.000000000,closed,2,datashader import
+689,2019-01-15 06:35:40.000000000,2019-01-16 19:17:05.000000000,closed,1,Clip composite pixel values to fit into int8
+688,2019-01-15 01:12:02.000000000,2019-01-15 22:47:46.000000000,closed,3,Fix for the gerrymandering shape file
+687,2019-01-13 19:19:16.000000000,2019-03-01 22:45:14.000000000,closed,39,Add pandas ExtensionArray for storing homogeneous ragged arrays
+686,2019-01-12 04:09:26.000000000,2019-01-29 18:45:39.000000000,closed,1,Warning in the nyc_taxi topic notebook
+685,2019-01-10 22:57:17.000000000,2019-01-12 19:57:09.000000000,closed,9,Updated the notebooks to use current HoloViews syntax
+684,2019-01-08 16:51:35.000000000,2019-01-08 20:08:34.000000000,closed,3,Numba JIT caching does not work when using dask distributed scheduler
+683,2019-01-06 00:07:40.000000000,2019-01-07 08:21:13.000000000,closed,4,Fix index-out-of-bounds line glyph crash and run select tests with JIT disabled
+682,2019-01-05 21:00:54.000000000,2019-01-06 01:50:27.000000000,closed,1,Set minimum version of pyctdev 
+681,2019-01-05 18:23:35.000000000,2019-01-06 16:21:02.000000000,closed,3,Migrate to dask 1.0 public API and remove legacy workarounds
+680,2019-01-05 05:28:56.000000000,2019-01-07 08:26:46.000000000,closed,6,Fix handling of the span argument to tf.shade
+679,2019-01-03 21:25:26.000000000,2019-02-15 06:47:56.000000000,closed,1,Dask trimesh support
+678,2019-01-03 21:18:06.000000000,2019-04-06 14:52:37.000000000,closed,2,Spatially partitioned data structures
+677,2018-12-27 15:02:51.000000000,1970-01-01 00:00:00.000000001,open,0,transfer_functions.shape raise ValueError or locate at wrong coordinate when zooming (using bokeh as plotting frontend)
+676,2018-12-23 08:09:52.000000000,2019-01-29 02:18:44.000000000,closed,5,Panel-based Datashader dashboard
+675,2018-12-20 20:53:59.000000000,2018-12-21 19:33:25.000000000,closed,3,Allow the use of xarray objects as the input to datashader 2D functions
+674,2018-12-20 05:00:51.000000000,1970-01-01 00:00:00.000000001,open,2,"TriMesh with data belonging to the triangles, not the verts"
+673,2018-12-20 01:33:51.000000000,2019-01-22 01:45:45.000000000,closed,1,Updated the user guide
+672,2018-12-19 19:51:32.000000000,1970-01-01 00:00:00.000000001,open,0,Datashader internals to-do list
+671,2018-12-17 21:32:58.000000000,2018-12-18 01:10:27.000000000,closed,7,Removed numba jit from smooth function
+670,2018-12-16 21:59:50.000000000,2018-12-19 18:44:05.000000000,closed,0,"""can't unbox heterogeneous list"""
+669,2018-12-16 00:57:55.000000000,1970-01-01 00:00:00.000000001,open,0,Bokeh and HoloViews datashader support to-do list
+668,2018-12-06 16:03:06.000000000,2019-02-24 03:15:45.000000000,closed,16,Memory errors on distributed dask cluster
+667,2018-11-22 17:52:13.000000000,2018-11-22 18:45:54.000000000,closed,3,Fix the broken test because of the dask api-change.
+666,2018-11-21 11:55:30.000000000,2018-11-22 18:45:54.000000000,closed,1,Tests have started failing
+665,2018-10-25 20:54:46.000000000,2018-10-25 20:58:16.000000000,closed,1,Link to SPIE abstract rendering paper is broken
+664,2018-10-19 12:53:46.000000000,2018-10-19 21:57:55.000000000,closed,2,shade function of datashader.transfer_functions does not implement 'span' parameter correctly.
+663,2018-10-11 14:07:21.000000000,1970-01-01 00:00:00.000000001,open,1,Processing vector data with DataShader
+662,2018-10-06 05:05:56.000000000,2018-10-06 05:29:05.000000000,closed,1,Updated attractors notebook to store colormaps
+661,2018-10-05 21:12:59.000000000,2018-10-08 08:28:36.000000000,closed,4,Brendancol/geo transfer functions
+660,2018-09-26 22:12:07.000000000,2018-09-26 22:39:35.000000000,closed,1,Rasterizing Array Crashes Kernel
+659,2018-09-26 18:36:31.000000000,2018-09-27 21:12:28.000000000,closed,3,Conda package is two releases behind
+658,2018-09-21 18:49:56.000000000,2018-09-21 23:38:31.000000000,closed,0,Switch to release channel for pyctdev.
+657,2018-09-17 20:23:09.000000000,2018-09-17 20:29:49.000000000,closed,0,Switched from numpy to math for attractor fns
+656,2018-09-14 05:18:12.000000000,2018-09-17 08:09:18.000000000,closed,0,Changed default_span values to match Bokeh
+655,2018-09-12 17:37:33.000000000,1970-01-01 00:00:00.000000001,open,0,canvas.raster mean aggregation on integer arrays causes artifacts
+654,2018-09-11 00:46:29.000000000,1970-01-01 00:00:00.000000001,open,0,Figure out why pinning of pytest and/or pytest-benchmark is necessary
+653,2018-09-10 21:16:07.000000000,2019-10-04 18:37:50.000000000,closed,2,Handle categorical columns correctly on dask dataframes
+652,2018-09-10 16:35:55.000000000,2018-09-10 16:45:03.000000000,closed,0,"Revert ""WIP: Geo-related transfer functions (#624)"""
+651,2018-09-10 15:22:56.000000000,2018-09-10 16:43:42.000000000,closed,1,Revert 624 brendancol/geo transfer functions
+650,2018-09-10 14:36:41.000000000,2018-09-10 23:50:43.000000000,closed,0,Update appveyor after move to pyviz
+649,2018-09-10 14:25:39.000000000,2018-09-10 21:55:59.000000000,closed,0,Disabled real data in geo example for now
+648,2018-09-10 12:46:21.000000000,2018-09-10 13:38:52.000000000,closed,1,Added handling for zero data and zero range
+647,2018-09-09 17:06:24.000000000,2018-09-10 00:40:29.000000000,closed,1,WIP: Packaging updates
+646,2018-09-09 14:41:24.000000000,2019-01-10 00:32:54.000000000,closed,4,Additionally re-run (some part of) the test suite without numba
+645,2018-09-09 01:12:57.000000000,2018-09-09 23:31:48.000000000,closed,1,Example fixup for 'Silenced inappropriate warnings'
+644,2018-09-06 17:31:48.000000000,2018-09-09 23:43:27.000000000,closed,1,Fix mapping onto pixel for line
+643,2018-09-06 13:23:58.000000000,2018-09-09 19:52:06.000000000,closed,6,update environment activation instructions
+642,2018-09-05 02:28:43.000000000,2018-09-05 02:57:00.000000000,closed,2,Updates for move to pyviz org
+641,2018-08-29 14:34:06.000000000,2019-01-06 16:21:02.000000000,closed,5,KeyError 'get'
+640,2018-08-28 20:16:51.000000000,1970-01-01 00:00:00.000000001,open,0,add ogc tileset metadata file
+639,2018-08-28 20:09:33.000000000,1970-01-01 00:00:00.000000001,open,0,add esri tileset metadata JSON output
+638,2018-08-27 16:46:31.000000000,1970-01-01 00:00:00.000000001,open,6,datashader memory consumption on very large dataset
+637,2018-08-23 00:29:44.000000000,2018-09-10 13:42:05.000000000,closed,1,module 'datashader.transfer_functions' has no attribute 'interpolate'
+636,2018-08-16 19:23:46.000000000,2018-10-25 23:01:18.000000000,closed,33,WIP: Tiling
+635,2018-08-15 00:24:27.000000000,1970-01-01 00:00:00.000000001,open,0,datashader + holoviews / bokeh outputs white png
+634,2018-08-14 22:35:29.000000000,2018-09-10 23:34:38.000000000,closed,8,Optimized dask datashape detection
+633,2018-08-14 20:22:44.000000000,1970-01-01 00:00:00.000000001,open,33,Large amount of time spent on determining datashape
+632,2018-08-14 01:39:38.000000000,2018-09-10 19:29:41.000000000,closed,0,Added Strange Attractors example
+631,2018-08-09 02:35:46.000000000,2018-09-10 12:22:32.000000000,closed,3,Silenced inappropriate warnings
+630,2018-08-08 22:48:56.000000000,1970-01-01 00:00:00.000000001,open,0,Add cyclic aggregator
+629,2018-08-08 13:37:02.000000000,2018-09-09 14:45:16.000000000,closed,3,conda env create --file environment.yml gives HTTP CONNECTION ERROR
+628,2018-08-06 22:32:17.000000000,2018-08-06 22:37:25.000000000,closed,0,"Unable to import, comment. TypeError: __init__() got an unexpected keyword argument 'archive_commit'"
+627,2018-08-03 16:02:30.000000000,1970-01-01 00:00:00.000000001,open,0,NaN counts
+626,2018-08-03 00:43:26.000000000,1970-01-01 00:00:00.000000001,open,0,Computing mean colors in count_cat
+625,2018-07-26 08:21:20.000000000,2018-09-28 12:58:36.000000000,closed,2,No release on PyPI for 0.6.7?
+624,2018-07-26 01:13:36.000000000,2018-09-10 13:23:30.000000000,closed,4,WIP: Geo-related transfer functions
+623,2018-07-26 01:06:37.000000000,1970-01-01 00:00:00.000000001,open,0,"Add non-zero line and dot widths, for visibility and antialiasing"
+622,2018-07-21 16:09:34.000000000,2018-07-21 16:48:29.000000000,closed,0,Add more to github issue template
+621,2018-07-20 13:14:21.000000000,2018-07-20 19:48:06.000000000,closed,1,Workaround for #620 
+620,2018-07-18 21:48:42.000000000,2018-07-20 19:48:06.000000000,closed,4,Failing tests
+619,2018-07-18 18:49:30.000000000,2018-09-09 16:00:48.000000000,closed,0,Documentation simplifications for newer nbsite
+618,2018-07-12 21:55:15.000000000,1970-01-01 00:00:00.000000001,open,4,Dashboard example is broken in latest release
+617,2018-07-10 20:49:35.000000000,2018-11-29 13:59:59.000000000,closed,6,AttributeError: 'Series' object has no attribute 'dtypes'
+616,2018-07-08 17:04:11.000000000,2018-07-09 08:11:44.000000000,closed,1,Added license and readme to pip packages to fix automatic build
+615,2018-07-04 20:40:52.000000000,2018-07-05 07:05:58.000000000,closed,2,Datashader xarray interface error when plotting a column with same value in all rows
+614,2018-07-02 04:39:59.000000000,2018-07-02 21:30:41.000000000,closed,0,Fixed compatibility with dask>0.18
+613,2018-06-29 21:35:56.000000000,2018-07-02 21:30:41.000000000,closed,8,Datashader incompatible with dask>=0.18
+612,2018-06-28 15:10:06.000000000,2018-09-10 13:15:27.000000000,closed,1,Fix for zero sized arrays when resampling
+611,2018-06-28 12:52:26.000000000,2018-09-11 12:02:40.000000000,closed,0,Add missing .gitattributes for versioning.
+610,2018-06-26 23:58:24.000000000,1970-01-01 00:00:00.000000001,open,4,Datashader.__version__ doesn't appear to be working.
+609,2018-06-20 00:24:47.000000000,1970-01-01 00:00:00.000000001,open,2,Implement Datashader colormapping in BokehJS
+608,2018-06-13 01:18:29.000000000,2019-02-27 14:39:23.000000000,closed,11,Histograms for big data using datashader
+607,2018-06-07 21:59:43.000000000,2018-06-07 22:00:57.000000000,closed,0,Added pip and conda defaults instructions
+606,2018-05-31 00:28:33.000000000,2018-08-01 22:49:34.000000000,closed,3,Broken link
+605,2018-05-24 15:27:38.000000000,2018-06-01 22:17:14.000000000,closed,5,Release 0.6.6 on conda-forge
+604,2018-05-24 13:48:35.000000000,2018-05-24 21:35:46.000000000,closed,0,Switch to testing on top of defaults rather than conda-forge
+603,2018-05-23 20:04:48.000000000,1970-01-01 00:00:00.000000001,open,1,Geometric mean and median as reduction functions
+602,2018-05-22 12:13:17.000000000,2018-05-23 17:26:50.000000000,closed,1,Removed out of date requirements.txt
+601,2018-05-22 11:55:50.000000000,2018-05-23 17:56:34.000000000,closed,1,"For conda, test against pyviz channel packages for releases "
+600,2018-05-22 11:50:46.000000000,2018-05-23 17:57:24.000000000,closed,2,Add build stage for pip release to travis
+599,2018-05-19 01:49:05.000000000,2018-05-19 02:10:10.000000000,closed,0,Website update
+598,2018-05-17 21:22:12.000000000,1970-01-01 00:00:00.000000001,open,5,rectilinear / curvilinear mesh rasterization
+597,2018-05-17 21:21:11.000000000,2018-05-18 02:44:48.000000000,closed,1,Add build stage for conda release to .travis.yml
+596,2018-05-11 23:15:55.000000000,2018-05-16 01:47:06.000000000,closed,1,reversing axis ranges?
+595,2018-05-10 20:13:51.000000000,2018-05-10 23:25:00.000000000,closed,0,Moved doc/_static files back into original place.
+594,2018-05-09 00:51:21.000000000,1970-01-01 00:00:00.000000001,open,0,Packaging-related TODOs (remaining items from #564)
+593,2018-05-06 11:51:04.000000000,2018-05-07 18:07:36.000000000,closed,3,fix for issue 592 black png
+592,2018-04-29 16:02:15.000000000,2018-05-07 18:08:13.000000000,closed,4,No data within min-max range resulting in black PNG
+591,2018-04-25 06:04:52.000000000,2018-04-28 07:40:28.000000000,closed,2,fix path and performance issues with example notebook
+590,2018-04-24 10:26:38.000000000,2018-12-19 19:25:57.000000000,closed,3,Is it possible to write `datashader` output to a raster file?
+589,2018-04-20 06:35:40.000000000,2018-04-28 07:41:37.000000000,closed,3,Introduction example needs to be updated
+588,2018-04-16 15:22:08.000000000,2018-05-30 15:49:01.000000000,closed,2,Pip install datashader[examples] not yet possible
+587,2018-04-15 20:52:39.000000000,2020-01-28 02:36:03.000000000,closed,8,Enabling PySpark as a data source
+586,2018-04-14 16:48:02.000000000,2018-04-14 16:48:32.000000000,closed,0,Clarified docs and added basic installation link
+585,2018-04-13 02:24:40.000000000,2018-04-13 02:25:13.000000000,closed,0,Updated roadmap and fixed typos
+584,2018-04-10 19:02:28.000000000,2018-04-10 21:47:16.000000000,closed,1,Converted osm-1billion example to use HoloViews
+583,2018-04-03 16:50:28.000000000,2018-04-03 18:02:42.000000000,closed,1,Datashader + Bokeh callback not working in Jupyter Lab when using Holoviews layout
+582,2018-03-26 22:07:51.000000000,2018-03-26 22:54:08.000000000,closed,9,Triangle Meshes question
+581,2018-03-24 18:45:15.000000000,2018-03-25 05:52:14.000000000,closed,2,Struggles with bay_trimesh.ipynb example
+580,2018-03-23 14:40:15.000000000,1970-01-01 00:00:00.000000001,open,1,Document that InteractiveImage is not compatible with JupyterLab
+579,2018-03-20 18:59:19.000000000,2018-05-19 02:06:25.000000000,closed,1,datashader.transfer_functions.shade produces png with black background
+578,2018-03-20 17:08:32.000000000,2018-03-20 17:55:08.000000000,closed,5,Clip width and height ratios to avoid numerical precision issues
+577,2018-03-20 16:52:39.000000000,2018-03-20 16:53:45.000000000,closed,0,Fixups for issue template formatting (shown as plain text on github.com)
+576,2018-03-20 01:16:04.000000000,2018-03-20 16:40:30.000000000,closed,0,GitHub issue template
+575,2018-03-20 00:35:05.000000000,2018-03-20 13:24:32.000000000,closed,2,cannot import `connect_edges` on windows
+574,2018-03-15 22:39:45.000000000,1970-01-01 00:00:00.000000001,open,1,Canvas: check user input to avoid failing later?
+573,2018-03-15 21:55:35.000000000,2018-03-16 17:52:39.000000000,closed,9,Handle Canvas.raster subpixel condition
+572,2018-03-13 17:30:09.000000000,2018-03-13 17:43:19.000000000,closed,9,"Allow trimesh()'s doctest to pass, while indicating that the output is untested."
+571,2018-03-13 17:15:12.000000000,2018-03-13 17:34:39.000000000,closed,3,Fixed syntax error (python 2).
+570,2018-03-13 00:36:52.000000000,2019-01-07 08:21:13.000000000,closed,36,"Datashader crashes python with ""noisy"" timeseries data."
+569,2018-03-12 14:24:06.000000000,2018-05-09 02:06:22.000000000,closed,0,doctests inside datashader not being run anywhere?
+568,2018-03-07 00:32:29.000000000,2018-12-19 19:29:22.000000000,closed,1,best way to render points using a custom colormap
+567,2018-03-04 06:55:55.000000000,2018-03-12 14:22:59.000000000,closed,2,missing dependency
+566,2018-03-02 22:04:19.000000000,2018-03-02 23:14:38.000000000,closed,8,How to shade an image with quantile color scale?
+565,2018-02-20 13:15:22.000000000,2018-02-20 15:56:54.000000000,closed,5,Change link to docs
+564,2018-02-19 21:40:09.000000000,2018-05-09 02:06:22.000000000,closed,1,"WIP: packaging, installation, and testing"
+563,2018-02-15 23:47:52.000000000,1970-01-01 00:00:00.000000001,open,4,"webm(df.lon,df.lat) throws Runtime error/warning - divide by zero encountered in log"
+562,2018-02-14 02:13:33.000000000,1970-01-01 00:00:00.000000001,open,0,Fix website example
+561,2018-02-11 05:58:15.000000000,2018-03-19 23:00:57.000000000,closed,0,Fixed and simplified hv code in census example
+560,2018-02-10 01:28:42.000000000,1970-01-01 00:00:00.000000001,open,4,Quick out-of-core downsampling to provide an overview of large data
+559,2018-02-09 20:21:54.000000000,2018-02-09 21:55:50.000000000,closed,2,documentation link to Landsat example notebook broken
+558,2018-02-02 22:46:55.000000000,2018-02-03 02:08:28.000000000,closed,0,Sitebuild
+557,2018-01-28 20:48:10.000000000,2018-05-19 02:09:09.000000000,closed,2,pixel value when I click on an image
+556,2018-01-24 23:31:51.000000000,2018-01-27 04:24:59.000000000,closed,10,New API for Canvas.raster
+555,2018-01-23 23:18:07.000000000,2018-01-24 01:41:28.000000000,closed,0,Fixed bug in parallel mode calculation for Canvas.raster()
+554,2018-01-23 02:40:07.000000000,2018-01-24 02:22:50.000000000,closed,0,Rasterdocs
+553,2018-01-18 23:48:50.000000000,2019-08-07 21:14:35.000000000,closed,2,Canvas.raster should support distributed and out-of-core regridding of dask arrays
+552,2018-01-18 23:28:46.000000000,2018-01-23 02:35:59.000000000,closed,2,Trimesh docs
+551,2018-01-17 05:46:18.000000000,2018-01-17 05:53:31.000000000,closed,0,<dup>
+550,2018-01-17 02:05:06.000000000,2018-01-17 23:55:50.000000000,closed,1,Small optimizations to trimesh pd_mesh utility
+549,2017-12-22 05:30:57.000000000,2018-05-22 12:18:39.000000000,closed,1,Requirements.txt should specify optional dask extras
+548,2017-12-18 21:58:34.000000000,2018-02-09 22:53:16.000000000,closed,5,heatmap with 21k points using datashader
+547,2017-12-16 01:18:02.000000000,2017-12-16 01:18:43.000000000,closed,0,Pin lower bound on pandas version
+546,2017-12-12 22:37:18.000000000,2017-12-15 03:15:35.000000000,closed,4,Add ds.utils.mesh
+545,2017-12-12 04:12:20.000000000,1970-01-01 00:00:00.000000001,open,1,Datashader heatmap not dynamically updating on Bokeh Server
+544,2017-12-12 03:52:17.000000000,1970-01-01 00:00:00.000000001,open,2,llvmlite 0.21.0 LLVM error
+543,2017-12-12 00:05:03.000000000,2017-12-12 00:20:33.000000000,closed,0,Fix broken image links
+542,2017-12-11 23:47:36.000000000,1970-01-01 00:00:00.000000001,open,3,Website improvements TODO
+541,2017-12-10 22:43:12.000000000,2017-12-11 01:43:23.000000000,closed,3,Datashader import error when running NYC taxi example code
+540,2017-12-08 02:52:16.000000000,1970-01-01 00:00:00.000000001,open,1,TODOs related to Canvas.trimesh
+539,2017-12-06 15:16:26.000000000,2017-12-06 18:50:48.000000000,closed,1,ImportError: cannot import name 'notebook_content' still not fixed
+538,2017-12-05 20:13:05.000000000,2017-12-06 01:13:54.000000000,closed,0,Cached flaky dataset on S3
+537,2017-12-05 18:43:29.000000000,2017-12-06 00:50:16.000000000,closed,0,Updated and fixed test and example environments
+536,2017-12-04 18:25:34.000000000,2017-12-06 01:15:34.000000000,closed,0,Compatibility fixes for bokeh 0.12.11
+535,2017-12-03 23:54:02.000000000,2017-12-06 01:15:34.000000000,closed,4,ImportError: cannot import name 'notebook_content'
+534,2017-12-01 18:01:29.000000000,2017-12-06 03:42:25.000000000,closed,7,ImportError: DLL load failed
+533,2017-12-01 05:02:38.000000000,2018-05-24 19:36:33.000000000,closed,5,Trimesh aggregation approach
+532,2017-11-30 22:48:23.000000000,2017-12-01 20:40:48.000000000,closed,10,"Installed using Conda , unable to run : ""SystemError: Parent module '' not loaded, cannot perform relative import"""
+531,2017-11-27 22:36:48.000000000,2017-12-11 22:58:25.000000000,closed,5,WIP: website
+530,2017-11-25 08:29:00.000000000,2017-11-25 09:14:34.000000000,closed,0,Select appropriate Dask dataframe methods
+529,2017-11-22 22:30:28.000000000,2017-11-25 09:14:34.000000000,closed,2,Potential incompatibility issue with dask 0.16
+528,2017-11-19 19:59:37.000000000,1970-01-01 00:00:00.000000001,open,0,0.6.2 Offset question.
+527,2017-11-15 07:56:27.000000000,1970-01-01 00:00:00.000000001,open,1,Should we make int32's configurable?
+526,2017-11-15 00:31:02.000000000,1970-01-01 00:00:00.000000001,open,7,Data formats for triangle meshes
+525,2017-11-14 09:30:37.000000000,2017-12-07 23:47:51.000000000,closed,5,"Add Canvas.trimesh(), triangle mesh rasterization"
+524,2017-11-09 15:08:41.000000000,2017-11-15 20:32:22.000000000,closed,2,Remove interfering brew-installed libraries from travis/osx
+523,2017-11-07 04:29:11.000000000,2017-11-07 09:49:01.000000000,closed,0,Fix dask and pandas dependencies
+522,2017-11-07 02:43:36.000000000,2017-11-07 09:49:01.000000000,closed,4,Incompatibility with pandas 0.21
+521,2017-11-07 01:03:14.000000000,2017-11-07 18:16:48.000000000,closed,1,Miscellaneous fixes
+520,2017-11-07 00:48:11.000000000,2017-11-07 18:17:36.000000000,closed,1,Improve aggregation of streamed dataframes
+519,2017-11-06 17:31:57.000000000,1970-01-01 00:00:00.000000001,open,1,ufunc 'over' not supported for the input types
+518,2017-11-04 02:04:09.000000000,2017-11-04 02:11:12.000000000,closed,0,Graph tidy
+517,2017-11-02 23:16:46.000000000,1970-01-01 00:00:00.000000001,open,2,Image problem
+516,2017-10-31 22:16:28.000000000,2017-11-04 02:12:57.000000000,closed,3,Datashader documentation
+515,2017-10-30 07:04:45.000000000,2017-10-30 07:30:48.000000000,closed,0,Cleaned up visual representation of tf.Images
+514,2017-10-27 01:02:01.000000000,2017-10-27 06:21:27.000000000,closed,0,Formatted image labels in streaming example to fit onscreen
+513,2017-10-26 23:26:13.000000000,1970-01-01 00:00:00.000000001,open,3,Using categorical coloring for separate aggregates
+512,2017-10-26 06:45:27.000000000,2017-10-27 00:38:47.000000000,closed,6,Plotting large numbers of sequences/time series together: dealing with fixed length numpy arrays
+511,2017-10-25 23:03:18.000000000,2017-10-25 23:36:41.000000000,closed,1,Run Travis-CI osx tests on master only.
+510,2017-10-24 21:45:02.000000000,2017-10-24 23:19:38.000000000,closed,0,Update minimum required Numba version
+509,2017-10-24 15:52:47.000000000,1970-01-01 00:00:00.000000001,open,0,canvas.raster with linear upsampling bug
+508,2017-10-23 10:05:16.000000000,2017-10-24 01:46:27.000000000,closed,0,Update Travis CI build and run/lint/verify examples
+507,2017-10-22 02:18:07.000000000,2017-10-22 07:16:01.000000000,closed,2,ImportError for `datashader.bokeh_ext` after upgrading Bokeh to 12.10
+506,2017-10-21 06:00:33.000000000,2017-10-22 20:13:38.000000000,closed,0,Refactor streaming aggregation example
+505,2017-10-19 09:00:52.000000000,2017-10-20 00:00:58.000000000,closed,3,Fix notebook examples
+504,2017-10-19 04:01:14.000000000,2017-10-19 06:56:03.000000000,closed,0,Replace deprecated indexing
+503,2017-10-18 23:35:35.000000000,2017-10-19 00:41:44.000000000,closed,2,InteractiveImage is broken with bokeh 0.12.10
+502,2017-10-18 17:37:16.000000000,2017-10-18 22:09:37.000000000,closed,1,Updated InteractiveImage for compatibility with bokeh 0.12.10
+501,2017-10-18 02:53:37.000000000,2017-10-18 02:55:18.000000000,closed,1,Add date range to aggregated images
+500,2017-10-18 00:19:29.000000000,2017-10-18 01:32:45.000000000,closed,0,Update streaming example
+499,2017-10-17 23:06:12.000000000,2017-10-18 01:34:49.000000000,closed,0,Miscellaneous fixes for conda build
+498,2017-10-17 20:49:50.000000000,2017-10-17 22:38:49.000000000,closed,0,Add notebook with streaming example
+497,2017-10-17 05:19:46.000000000,2018-12-19 19:30:43.000000000,closed,5,Can't Seem to Load the Census File
+496,2017-10-17 03:52:25.000000000,2017-10-17 15:56:53.000000000,closed,1,Add benchmarks to test suite
+495,2017-10-16 06:13:09.000000000,2017-10-16 16:35:07.000000000,closed,2,Switch line-clipping algorithm
+494,2017-10-14 06:47:19.000000000,2017-10-17 15:59:37.000000000,closed,3,Parameterize node/edge columns
+493,2017-10-14 06:45:21.000000000,2017-10-17 15:59:37.000000000,closed,0,Parameterize graph layout/bundling columns
+492,2017-10-11 01:43:17.000000000,2017-10-14 17:01:34.000000000,closed,2,Added Images class to format a list of images as an HTML table
+491,2017-10-11 01:08:43.000000000,2017-10-11 01:09:11.000000000,closed,0,Minor notebook improvements
+490,2017-10-07 16:18:40.000000000,1970-01-01 00:00:00.000000001,open,10,Improving Datashader's API
+489,2017-10-05 20:57:19.000000000,2017-10-06 15:29:51.000000000,closed,4,Error with example Holoviews_datashader
+488,2017-10-05 05:46:55.000000000,2017-10-14 17:00:38.000000000,closed,2,Improvements to forceatlas2 algorithm
+487,2017-10-03 22:59:54.000000000,2017-10-04 01:51:48.000000000,closed,1,Fix forceatlas2 layout
+486,2017-10-03 21:20:56.000000000,2017-10-04 06:20:00.000000000,closed,2,Optimize resampling operations
+485,2017-10-02 02:11:43.000000000,2017-10-19 00:47:14.000000000,closed,12,forcealtas2 layout does not seem to be working.
+484,2017-09-30 05:18:36.000000000,1970-01-01 00:00:00.000000001,open,2,"""Compare dynspread effect"" in docs doesn't work"
+483,2017-09-29 06:19:44.000000000,1970-01-01 00:00:00.000000001,open,6,Deprecate Pipeline
+482,2017-09-26 19:09:38.000000000,2017-09-26 20:14:27.000000000,closed,1,Dynamically change the legend size to fit the number of items.
+481,2017-09-26 00:02:44.000000000,2017-09-26 05:52:02.000000000,closed,2,Bundling slower and more jagged in recent commits
+480,2017-09-25 21:00:53.000000000,2017-09-26 05:52:00.000000000,closed,5,Fix segmentation fault due to improper indices
+479,2017-09-24 15:04:47.000000000,2017-09-24 17:16:55.000000000,closed,0,Support dask backed xarray DataArray in canvas.raster
+478,2017-09-24 01:09:54.000000000,1970-01-01 00:00:00.000000001,open,7,Navigating image stack
+477,2017-09-23 16:08:07.000000000,2017-09-26 05:52:00.000000000,closed,6,hammer_bundle causes segmentation fault
+476,2017-09-22 22:01:51.000000000,2017-10-04 20:36:35.000000000,closed,5,Example notebook improvements
+475,2017-09-22 20:59:35.000000000,2017-09-23 04:47:18.000000000,closed,1,Fix inverted array indexing and off-by-one errors in canvas.raster
+474,2017-09-22 15:42:06.000000000,2017-10-19 06:56:03.000000000,closed,0,FYSA edge_bundling.ipynb warning.
+473,2017-09-22 06:05:35.000000000,2017-09-23 00:32:17.000000000,closed,0,Fix off-by-one error on path resampling
+472,2017-09-22 00:56:12.000000000,2017-09-23 00:28:58.000000000,closed,0,Remove edge index from generated pcap data
+471,2017-09-22 00:24:12.000000000,2017-09-22 00:36:22.000000000,closed,0,ccccccccceujbncujughurnuuinndiibjbitnkkftdik
+470,2017-09-22 00:24:07.000000000,2017-09-22 00:34:28.000000000,closed,1,ccccccccceujfkdchnlncrrkiurlerurfhdciherbvie
+469,2017-09-21 21:40:20.000000000,2017-09-23 00:28:58.000000000,closed,1,packet capture example data indexing bug
+468,2017-09-21 21:09:47.000000000,2017-09-23 00:32:17.000000000,closed,0,hammer_bundle shifts target point of path
+467,2017-09-19 02:52:32.000000000,2017-09-20 01:07:16.000000000,closed,1,Reorganize/update CI testing
+466,2017-09-18 23:53:11.000000000,2017-09-19 01:01:50.000000000,closed,1,Enable appveyor
+465,2017-09-18 21:20:50.000000000,2017-10-04 02:59:11.000000000,closed,1,Add datashader to appveyor
+464,2017-09-18 20:31:57.000000000,1970-01-01 00:00:00.000000001,open,0,Dask dataframe chunksize/partioning affects line aggregation
+463,2017-09-18 19:23:43.000000000,2017-10-04 00:03:43.000000000,closed,2,CI: run example notebooks.
+462,2017-09-13 20:48:54.000000000,2017-09-14 17:13:59.000000000,closed,4,Downsampling a 2D (numpy) array 
+461,2017-09-13 15:34:14.000000000,2017-09-18 21:03:07.000000000,closed,3,Datashader object does not update in Holoviews after update to 0.6.1
+460,2017-09-12 14:12:33.000000000,2017-09-14 02:56:03.000000000,closed,2,updating the README.md to relative url of the examples/README.md
+459,2017-09-12 05:44:54.000000000,2017-09-30 16:01:10.000000000,closed,8,Fix upper-bound bin error for auto-ranged data
+458,2017-09-11 23:48:33.000000000,2017-09-21 21:55:18.000000000,closed,7,Add edge ID to bundled dataframe
+457,2017-09-10 16:00:42.000000000,2017-09-30 16:01:10.000000000,closed,3,Points dropped?  2D Histogram vs. DataShader
+456,2017-09-09 02:49:26.000000000,1970-01-01 00:00:00.000000001,open,6,Is it possible to improve the performance of line()?
+455,2017-09-09 00:38:16.000000000,2017-09-09 10:45:39.000000000,closed,5,How do you track changes in bokeh plot ranges?
+454,2017-09-06 22:00:36.000000000,2017-09-07 07:48:04.000000000,closed,1,Ensure bundling retains order of edges
+453,2017-09-05 18:15:48.000000000,2017-09-05 21:46:19.000000000,closed,2,Ensure shade transfer function respects array orientation
+452,2017-09-05 08:24:58.000000000,2017-09-05 21:47:19.000000000,closed,1,Partial fix to landsat example; selected band even when only 1
+451,2017-09-04 01:24:23.000000000,2017-09-08 14:25:56.000000000,closed,4,Doesn't work with Spark DataFrame
+450,2017-09-01 08:45:48.000000000,2017-09-05 06:46:58.000000000,closed,1,Update example to match latest holoviews
+449,2017-08-31 00:30:43.000000000,2017-09-05 06:35:53.000000000,closed,5,Fix notebook errors
+448,2017-08-31 00:22:19.000000000,2017-09-05 06:35:53.000000000,closed,2,Errors in notebook examples
+447,2017-08-25 09:35:28.000000000,2017-08-25 15:51:13.000000000,closed,0,Denormalize edge coordinates after bundling
+446,2017-08-25 09:20:07.000000000,2017-08-25 09:36:04.000000000,closed,0,Pin Holoviews to import Bokeh backend w/o error
+445,2017-08-24 02:31:30.000000000,2017-08-25 09:36:40.000000000,closed,1,Ignore IPython checkpoints for conda builds
+444,2017-08-18 23:34:30.000000000,2017-08-19 03:04:58.000000000,closed,1,AttributeError: 'module' object has no attribute 'shade'
+443,2017-08-18 21:01:09.000000000,2017-08-19 00:24:06.000000000,closed,2,Added handling for explicit nan_value to canvas.raster
+442,2017-08-18 05:04:35.000000000,2017-08-19 03:00:28.000000000,closed,1,Remove minimum Bokeh requirement for examples
+441,2017-08-17 08:18:49.000000000,2017-08-19 00:25:15.000000000,closed,0,Punch list for 0.6.0
+440,2017-08-16 08:39:47.000000000,2017-08-19 00:25:33.000000000,closed,1,AttributeError: 'Dataset' object has no attribute 'dtypes'
+439,2017-08-15 07:18:38.000000000,2017-08-15 23:10:43.000000000,closed,0,Fix bug for all-NaN arrays
+438,2017-08-13 21:15:48.000000000,2017-08-18 04:04:39.000000000,closed,3,Dependency issues with the environment.yml for example notebooks
+437,2017-08-12 22:05:06.000000000,2018-07-23 23:02:22.000000000,closed,8,Docs plan
+436,2017-08-10 21:59:06.000000000,2017-08-10 23:19:16.000000000,closed,0,Fix internal column mismatch for forceatlas2_layout
+435,2017-08-10 00:46:52.000000000,2017-08-10 23:19:55.000000000,closed,0,Conda build fixes
+434,2017-08-09 22:26:06.000000000,2017-08-10 23:19:55.000000000,closed,1,Release-related conda build errors
+433,2017-08-09 02:30:12.000000000,2017-08-09 06:18:54.000000000,closed,2,Canvas / webm example failing
+432,2017-08-08 05:10:11.000000000,2017-08-08 07:58:00.000000000,closed,0,Add categorical data to PCAP example
+431,2017-08-08 01:55:01.000000000,2017-08-08 23:56:29.000000000,closed,7,Sidestep datashape.Categorical bottleneck
+430,2017-08-04 17:02:32.000000000,1970-01-01 00:00:00.000000001,open,11,Datashader with HoverLayer
+429,2017-08-03 20:26:44.000000000,2017-08-19 00:25:41.000000000,closed,0,Add unit tests for recent code additions
+428,2017-08-02 22:32:39.000000000,2017-08-03 21:14:15.000000000,closed,2,Remove dependency on odo. Optimize categoricals
+427,2017-08-02 16:01:18.000000000,2017-08-03 20:27:49.000000000,closed,0,Added support for min and max aggregators in regridding
+426,2017-08-02 14:36:59.000000000,2017-08-03 20:27:25.000000000,closed,0,Fix coordinate and padding bugs in regridding implementation
+425,2017-08-02 02:48:44.000000000,2017-10-04 00:00:22.000000000,closed,0,Parameterized resampling
+424,2017-08-02 01:24:57.000000000,2017-08-03 22:23:41.000000000,closed,1,Remove datashader's dependency on odo
+423,2017-07-31 21:37:50.000000000,2017-08-01 02:39:21.000000000,closed,1,Ensure DataArray retains specified column names
+422,2017-07-31 21:18:12.000000000,2017-08-01 01:35:29.000000000,closed,2,Ensure canvas.points and canvas.line return bin center coordinates
+421,2017-07-30 13:13:06.000000000,2017-07-31 21:51:38.000000000,closed,1,datashader on pypi
+420,2017-07-27 21:48:28.000000000,2017-07-27 21:53:53.000000000,closed,1,bokeh downgrade with conda install?
+419,2017-07-27 16:19:37.000000000,2017-08-04 19:43:28.000000000,closed,5,Datashader TypingError
+418,2017-07-26 07:02:56.000000000,2017-07-26 20:06:38.000000000,closed,3,Fix conversion from graph to sparse matrix
+417,2017-07-26 06:56:31.000000000,2017-07-26 20:06:38.000000000,closed,0,High memory usage with force-directed layout and large integer node IDs
+416,2017-07-25 06:33:34.000000000,2017-07-26 01:36:44.000000000,closed,4,bundling module doesn't exist !
+415,2017-07-24 23:07:55.000000000,2017-07-25 05:24:04.000000000,closed,0,Add network traffic example
+414,2017-07-24 17:45:50.000000000,2017-08-15 23:12:42.000000000,closed,5,"""Conflicting sizes for dimension"" error when data is nan-only"
+413,2017-07-21 17:29:43.000000000,2017-07-23 03:13:22.000000000,closed,3,nyc_taxi data question for demo nyc_taxi notebook
+412,2017-07-17 14:59:33.000000000,1970-01-01 00:00:00.000000001,open,7,canvas.points memory observation
+411,2017-07-17 14:21:25.000000000,1970-01-01 00:00:00.000000001,open,1,"bokeh plot option, mode parameters"
+410,2017-07-15 13:36:03.000000000,2017-07-18 11:22:20.000000000,closed,2,Travis: lint check Python code
+409,2017-07-14 18:19:34.000000000,1970-01-01 00:00:00.000000001,open,4,Largest Canvas size allowed?
+408,2017-07-14 06:57:22.000000000,2017-07-18 11:15:48.000000000,closed,1,Add random and circular graph layout
+407,2017-07-13 21:15:56.000000000,2018-12-19 19:35:23.000000000,closed,4,Run (some) example notebooks on travis?
+406,2017-07-13 20:39:45.000000000,2017-07-14 01:00:04.000000000,closed,0,Only show master's build status.
+405,2017-07-13 20:39:20.000000000,2017-07-14 02:20:14.000000000,closed,0,Added lint checking of notebooks and removed unused/duplicate imports from examples
+404,2017-07-13 19:19:06.000000000,2018-05-22 11:58:15.000000000,closed,4,Travis does not follow any one set of installation instructions
+403,2017-07-10 04:07:26.000000000,2017-07-10 04:07:41.000000000,closed,0,Simplified notebooks using holoviews
+402,2017-07-09 09:22:21.000000000,2017-07-09 17:35:49.000000000,closed,0,Copy nodes prior to scaling
+401,2017-07-07 16:30:51.000000000,2017-07-07 16:40:10.000000000,closed,1,Generalized string testing to work with unicode on python2
+400,2017-07-07 16:28:13.000000000,2017-07-07 16:28:37.000000000,closed,0,Unicode fix
+399,2017-07-06 03:41:36.000000000,2017-07-09 17:35:49.000000000,closed,1,hammer_bundle modifies nodes dataframe inplace
+398,2017-07-05 19:15:10.000000000,2017-07-12 07:46:48.000000000,closed,2,Add initial graph layout algorithm
+397,2017-07-03 02:33:04.000000000,2017-07-08 06:10:59.000000000,closed,5,Got the demos going but the census data seems truncated?
+396,2017-07-02 00:25:28.000000000,2017-08-08 23:58:24.000000000,closed,15,Pandas .astype('category') dramatically decreases performance
+395,2017-07-01 22:46:47.000000000,2017-07-02 00:29:30.000000000,closed,2,New install fails when getting sample data
+394,2017-06-29 19:31:09.000000000,1970-01-01 00:00:00.000000001,open,0,A two column aggregation -- Linear regression
+393,2017-06-28 19:54:07.000000000,2017-06-30 05:29:33.000000000,closed,0,Reduce memory profile of weighted edges
+392,2017-06-26 08:06:28.000000000,2017-06-27 19:12:58.000000000,closed,2,Add slicing based on canvas bounds
+391,2017-06-25 08:35:34.000000000,2017-06-27 05:22:04.000000000,closed,5,"import datashader occurs exception:""AttributeError: 'CastInstr' object has no attribute 'addrspace'"""
+390,2017-06-23 22:45:32.000000000,2017-06-24 03:35:58.000000000,closed,0,Support for optional edge weights
+389,2017-06-22 21:15:39.000000000,2017-08-01 02:57:35.000000000,closed,19,Various fixes for canvas.raster regridding
+388,2017-06-22 19:59:44.000000000,2017-06-22 20:56:16.000000000,closed,0,Removed direct dependency on rasterio.
+387,2017-06-22 18:21:54.000000000,2017-06-22 18:26:31.000000000,closed,1,Minor readme modifications
+386,2017-06-22 17:59:55.000000000,2017-06-22 18:27:05.000000000,closed,1,Make bundling tests optional (run if scikit-image is available)
+385,2017-06-20 21:51:17.000000000,2017-06-24 03:36:11.000000000,closed,0,Add edge bundling API docs
+384,2017-06-20 17:45:48.000000000,2017-06-22 18:27:19.000000000,closed,1,Is scikit-image (aka skimage) required or optional?
+383,2017-06-20 17:41:20.000000000,2017-06-22 20:56:17.000000000,closed,0,rasterio should be optional
+382,2017-06-19 23:12:46.000000000,2017-06-19 23:38:16.000000000,closed,1,examples/environment.yml is not a valid yaml file.
+381,2017-06-18 16:54:39.000000000,2017-06-18 17:18:07.000000000,closed,4,"Instructions to ""manually install from the repository"" not working?"
+380,2017-06-17 21:36:13.000000000,2017-08-01 22:53:12.000000000,closed,5,Various issues with new Canvas.raster
+379,2017-06-16 21:27:01.000000000,2017-06-16 21:38:55.000000000,closed,0,Remove deprecated interpolate and colorize
+378,2017-06-16 01:56:24.000000000,2017-08-01 22:54:02.000000000,closed,2,Cross-platform way to persist gridded (climate) datasets
+377,2017-06-15 23:54:07.000000000,2017-06-16 20:28:48.000000000,closed,0,Update conda build docs
+376,2017-06-15 20:07:31.000000000,2017-06-16 20:27:53.000000000,closed,1,Add edge bundling tests
+375,2017-06-14 07:08:35.000000000,2017-06-16 01:52:11.000000000,closed,9,"Replace rasterio with xarray, skimage with gridtools"
+374,2017-06-14 02:44:06.000000000,2017-06-14 03:07:32.000000000,closed,0,Add documentation to edge bundling
+373,2017-06-10 01:44:28.000000000,2017-06-15 21:53:54.000000000,closed,3,Expanded edge_bundling notebook using HoloViews
+372,2017-06-08 21:53:58.000000000,2017-08-01 22:55:26.000000000,closed,4,Implement gridtools regridding based on lazy arrays in xarray.Dataset
+371,2017-06-08 01:48:00.000000000,2017-06-08 21:58:52.000000000,closed,1,Made alpha scaling respect min_alpha consistently
+370,2017-06-07 23:32:28.000000000,2017-06-09 00:34:40.000000000,closed,2,Parameterized the edge bundling code
+369,2017-06-05 22:55:44.000000000,2017-06-07 22:13:21.000000000,closed,9,Edge bundling for graphs
+368,2017-06-02 14:56:47.000000000,2019-01-07 08:26:46.000000000,closed,1,'shade' function doesn't correctly implement 'span'
+367,2017-06-01 19:27:48.000000000,2017-06-01 20:00:16.000000000,closed,2,Explicitly transform span argument for non-linear normalizations
+366,2017-05-31 08:25:02.000000000,1970-01-01 00:00:00.000000001,open,0,Add animated GIF to match new logo
+365,2017-05-31 05:16:35.000000000,2017-05-31 07:18:46.000000000,closed,0,Puget sound lidar to S3; reference Lidar Consortium; remove 7zip 
+364,2017-05-30 13:31:35.000000000,2017-05-31 07:08:34.000000000,closed,6,Syntax error during manual build
+363,2017-05-29 20:32:18.000000000,2017-05-31 07:07:17.000000000,closed,7,Package fails to load after installing via anaconda
+362,2017-05-28 16:20:54.000000000,2017-05-31 07:18:46.000000000,closed,2,Lidar downloads broken
+361,2017-05-24 16:36:58.000000000,2017-05-28 16:29:01.000000000,closed,2,Taxi data set download
+360,2017-05-20 00:30:24.000000000,2017-05-20 01:09:56.000000000,closed,3,Update conda pkgs in filetimes.yml
+359,2017-05-19 18:53:24.000000000,2017-05-20 01:13:16.000000000,closed,0,Added 1-billion point interactive OSM notebook and dashboard
+358,2017-05-18 20:08:03.000000000,2019-01-29 02:18:44.000000000,closed,0,Simplify dashboard example
+357,2017-05-17 17:47:38.000000000,1970-01-01 00:00:00.000000001,open,6,Improve colors for small numbers of discrete values
+356,2017-05-15 22:31:39.000000000,1970-01-01 00:00:00.000000001,open,2,Wall-to-wall example
+355,2017-05-13 22:07:04.000000000,2017-05-16 17:06:37.000000000,closed,1,Add Appveyor CI support
+354,2017-05-12 05:29:16.000000000,2017-05-12 05:54:41.000000000,closed,0,Fixed updating of hover_data to avoid length mismatches
+353,2017-05-12 02:48:02.000000000,2017-05-12 03:25:31.000000000,closed,0,Fix formatter and box zoom aspect in tseries
+352,2017-05-11 21:50:28.000000000,2017-05-11 22:28:39.000000000,closed,1,Fix hover rendering for categoricals
+351,2017-05-11 07:38:22.000000000,2017-05-11 17:02:13.000000000,closed,1,Add performance documentation
+350,2017-05-11 02:26:26.000000000,2017-05-11 04:27:54.000000000,closed,0,Miscellaneous fixes for notebook examples
+349,2017-05-09 23:53:56.000000000,2017-05-10 23:24:10.000000000,closed,0,Update conda dependencies
+348,2017-05-09 21:11:42.000000000,2017-05-10 23:37:37.000000000,closed,2,Update census notebooks and data
+347,2017-05-09 09:56:42.000000000,1970-01-01 00:00:00.000000001,open,0,Ongoing work with solar radiation example 
+346,2017-05-08 20:52:51.000000000,2017-10-17 15:56:53.000000000,closed,1,Add micro benchmarks to test suite
+345,2017-05-08 18:46:03.000000000,2017-05-08 21:17:39.000000000,closed,0,Support alpha for non-categorical shade
+344,2017-05-05 04:23:03.000000000,2017-05-09 01:09:37.000000000,closed,2,Optimize range calculation operations
+343,2017-05-04 18:27:51.000000000,2017-05-08 00:01:38.000000000,closed,7,Fix exclusive upper bound for line aggregation
+342,2017-05-03 19:14:27.000000000,2017-05-08 00:01:38.000000000,closed,4,Bug in line aggregation for float ranges
+341,2017-05-03 19:00:52.000000000,2017-05-05 18:48:20.000000000,closed,1,Upgrade dashboard to newest Bokeh
+340,2017-05-03 17:59:11.000000000,1970-01-01 00:00:00.000000001,open,2,Bug when using x_axis_type='log' and y_axis_type='log'
+339,2017-05-03 06:17:19.000000000,2017-05-03 06:46:23.000000000,closed,0,Ensure examples are installed
+338,2017-05-02 21:54:13.000000000,2017-05-03 00:21:49.000000000,closed,0,Update README for examples
+337,2017-05-02 21:19:24.000000000,2020-08-16 17:30:39.000000000,closed,1,"Using distributed scheduler with persist leads to slower loading times, despite dataset fitting into RAM with threaded scheduler"
+336,2017-05-02 21:15:14.000000000,2017-05-06 06:43:22.000000000,closed,4,Memory usage of min/max operations due to nan-checking
+335,2017-05-02 04:28:36.000000000,2017-05-10 23:40:44.000000000,closed,3,NREL - Solar Anywhere data examples with holoviews
+334,2017-05-01 20:26:42.000000000,2017-05-01 22:33:00.000000000,closed,4,Improvements to distributed scheduler benchmarks
+333,2017-04-29 02:29:28.000000000,2017-05-02 20:45:38.000000000,closed,2,Refactor documentation and update reference manual
+332,2017-04-29 01:02:27.000000000,1970-01-01 00:00:00.000000001,open,21,Performance degradation of repeated aggregations with distributed scheduler and client.persist() on a single machine
+331,2017-04-28 19:45:54.000000000,2017-04-29 01:08:39.000000000,closed,1,Add --distributed option to benchmark + fix benchmarks for feather and bcolz
+330,2017-04-28 02:18:32.000000000,2017-04-28 08:02:39.000000000,closed,2,Adjust line to account for exclusive upper bounds
+329,2017-04-28 01:32:00.000000000,2017-04-28 08:03:25.000000000,closed,2,Fix issues with csv benchmarks
+328,2017-04-28 01:16:37.000000000,2017-04-28 08:02:39.000000000,closed,0,Segmentation fault when rendering line
+327,2017-04-27 19:55:35.000000000,2017-04-28 08:03:42.000000000,closed,3,Add Python 3.6 to release procedure
+326,2017-04-27 19:29:31.000000000,1970-01-01 00:00:00.000000001,open,4,"Implement spread and dynspread for aggregates, not just images"
+325,2017-04-27 02:06:44.000000000,2017-08-17 08:20:53.000000000,closed,0,Punch list for 0.5.0
+324,2017-04-26 02:43:37.000000000,1970-01-01 00:00:00.000000001,open,1,Create example using the NREL solar radiation data
+323,2017-04-26 00:02:36.000000000,2017-04-26 00:50:48.000000000,closed,0,Add latest numba build + debugging stmts for memory usage
+322,2017-04-25 21:10:35.000000000,2017-05-03 06:46:23.000000000,closed,4,downloading examples
+321,2017-04-25 07:04:02.000000000,2017-04-26 22:14:52.000000000,closed,1,Fix flake8 errors
+320,2017-04-24 23:40:33.000000000,2017-06-23 07:27:18.000000000,closed,6,Add code removed from Bokeh 0.12.5 into InteractiveImage class
+319,2017-04-24 21:57:14.000000000,2017-04-26 21:46:07.000000000,closed,2,Add tests for Python 3.6
+318,2017-04-24 21:48:11.000000000,2017-04-27 00:31:22.000000000,closed,3,Fix bogus column and row at edge
+317,2017-04-21 20:40:06.000000000,2017-04-21 20:40:19.000000000,closed,0,Added notebook showing new datashader features of holoviews
+316,2017-04-20 21:20:39.000000000,2017-04-20 21:25:54.000000000,closed,0,fix import in lidar notebook for new holoviews
+315,2017-04-20 20:46:59.000000000,2017-04-20 22:16:48.000000000,closed,32,import error in lidar example
+314,2017-04-19 23:23:09.000000000,2017-04-20 00:11:31.000000000,closed,7,Investigate dask locking behavior
+313,2017-04-19 20:15:19.000000000,2017-05-09 01:17:30.000000000,closed,8,General performance optimizations
+312,2017-04-19 00:13:16.000000000,2017-04-20 00:19:41.000000000,closed,6,Lidar notebook example - Cleanup and simplify PR #301
+311,2017-04-18 11:41:02.000000000,2017-04-18 11:52:40.000000000,closed,0,Added environment file for examples
+310,2017-04-13 16:26:47.000000000,2017-05-10 04:23:51.000000000,closed,13,Performance comparison to vaex
+309,2017-04-13 01:15:55.000000000,2017-04-18 07:50:53.000000000,closed,8,"Add memory profiling, datashader-data S3 bucket"
+308,2017-04-04 09:11:52.000000000,2017-04-07 00:38:44.000000000,closed,13,"Filetimes script improvements, pt 2"
+307,2017-04-01 03:43:53.000000000,2018-12-19 19:39:54.000000000,closed,3,Installation succeeds but cannot import datashader
+306,2017-03-28 22:24:03.000000000,2017-03-28 22:30:37.000000000,closed,0,filetimes.py improvements
+305,2017-03-24 22:24:25.000000000,2017-08-01 22:54:25.000000000,closed,7,Add memory usage benchmarks
+304,2017-03-24 07:23:19.000000000,1970-01-01 00:00:00.000000001,open,0,Calling datashader from R
+303,2017-03-24 02:21:00.000000000,2017-03-28 20:11:38.000000000,closed,5,Update filetimes.yml to use conda instead of pip
+302,2017-03-21 17:37:35.000000000,1970-01-01 00:00:00.000000001,open,3,How to handle discrete data and scale factor
+301,2017-03-16 23:16:46.000000000,2017-04-19 00:13:47.000000000,closed,1,LiDAR dask jupyter notebook with modifications to datasets
+300,2017-03-16 20:51:02.000000000,2017-05-03 00:21:48.000000000,closed,1,Add examples/environment.yml to automate installation for all examples
+299,2017-03-16 03:32:44.000000000,2017-03-16 20:47:02.000000000,closed,3,Lidar example
+298,2017-03-16 02:17:30.000000000,2017-03-16 20:30:25.000000000,closed,3,updates to notebooks for minor import changes
+297,2017-03-09 10:36:17.000000000,1970-01-01 00:00:00.000000001,open,2,Datashader almost handles logarithmic axes in MPL 
+296,2017-03-09 05:20:56.000000000,2017-03-14 07:27:12.000000000,closed,7,Handle Document creation and removal directly
+295,2017-03-09 04:00:32.000000000,1970-01-01 00:00:00.000000001,open,5,Set match_aspect on  geographic Bokeh plots in datashader examples
+294,2017-03-09 02:19:27.000000000,2017-04-24 23:12:23.000000000,closed,9,Add code removed from bokeh 0.12.5 into InteractiveImage
+293,2017-03-08 21:28:51.000000000,2017-09-19 23:19:45.000000000,closed,18,"Bokeh class definition for `_ModelInDocument` has either moved or been deprecated, import needs to be updated"
+292,2017-03-04 05:56:47.000000000,2017-03-04 18:02:12.000000000,closed,1,Some kind of global variable naming issue regarding `datashader` in holoviews
+291,2017-02-28 00:44:32.000000000,1970-01-01 00:00:00.000000001,open,9,How to acknowledge datashader in publications?
+290,2017-02-24 20:28:51.000000000,2017-04-26 18:37:45.000000000,closed,7,Create a grid of linked interactive bokeh-datashader plots
+289,2017-02-23 20:37:07.000000000,1970-01-01 00:00:00.000000001,open,1,Adding a NumPy backend
+288,2017-02-21 19:27:41.000000000,1970-01-01 00:00:00.000000001,open,1,Create an image gallery with links to the code that generates them
+287,2017-02-20 07:51:59.000000000,2017-02-21 08:46:36.000000000,closed,1,Fixed IndexError: 0-d boolean arrays will be interpreted as a valid boolean index
+286,2017-02-20 00:45:11.000000000,2017-02-23 10:13:06.000000000,closed,16,Plotting many lines as separate columns takes a long time
+285,2017-02-19 00:15:42.000000000,2020-01-28 02:39:09.000000000,closed,6,recast glyph.x and glyph.y as strings when checking if real
+284,2017-02-17 20:35:59.000000000,1970-01-01 00:00:00.000000001,open,6,Accommodate DataFrames with numeric column names
+283,2017-02-17 20:25:40.000000000,2018-12-19 19:43:12.000000000,closed,4,Using multi-lines defined in separate columns
+282,2017-02-15 08:30:27.000000000,2017-02-17 20:08:16.000000000,closed,5,What is the recommended way to save an image file? 
+281,2017-02-12 23:15:39.000000000,2018-02-13 03:51:57.000000000,closed,1,Large graph/network support
+280,2017-02-07 07:34:27.000000000,1970-01-01 00:00:00.000000001,open,4,Parallel Coordinate Diagram
+279,2017-02-07 05:21:24.000000000,2017-02-07 08:31:17.000000000,closed,1,InteractiveImage callbacks to Flask app 
+278,2017-02-03 22:32:01.000000000,1970-01-01 00:00:00.000000001,open,0,Create example of Datashader + Dask.distributed Dataframe
+277,2017-02-02 00:42:17.000000000,1970-01-01 00:00:00.000000001,open,4,create_ramp_legend does not include the color for the highest density
+276,2017-02-02 00:01:31.000000000,1970-01-01 00:00:00.000000001,open,2,Duplicating the legend example with other data does not seem to work
+275,2017-01-25 03:35:00.000000000,2017-01-25 04:35:33.000000000,closed,2,Question: What is the best way to load large data set?
+274,2017-01-14 10:44:53.000000000,2017-01-14 18:36:40.000000000,closed,2,Datashader image not rendering when zoom in bokeh plots
+273,2017-01-05 01:44:09.000000000,2017-04-26 23:14:45.000000000,closed,2,Add LIDAR example
+272,2017-01-02 22:13:41.000000000,2017-05-02 20:14:48.000000000,closed,2,Build / Upload Python 3.6 conda packages
+271,2017-01-01 01:56:03.000000000,2017-12-07 20:51:34.000000000,closed,3,Minimal Datashader/Bokeh-Server Example
+270,2016-12-19 06:00:49.000000000,1970-01-01 00:00:00.000000001,open,4,Support for datetime64
+269,2016-12-16 00:03:45.000000000,1970-01-01 00:00:00.000000001,open,1,create_ramp_legend only show legend partially when max value is high
+268,2016-12-14 10:15:15.000000000,2016-12-14 10:15:24.000000000,closed,0,Merge latlon to master
+267,2016-12-14 02:10:01.000000000,2016-12-14 02:20:01.000000000,closed,2,Question: Is it possible to make rasters that can be mapped with tools like leaflet?
+266,2016-12-10 02:53:33.000000000,2016-12-10 02:57:50.000000000,closed,1,"Changed census.ipynb bounding boxes to use longitude, latitude"
+265,2016-12-08 00:44:24.000000000,2016-12-08 09:07:57.000000000,closed,7,Census data information
+264,2016-11-24 21:15:05.000000000,2016-11-26 21:27:33.000000000,closed,7,How to visualize an interactive image in a saved jupyter notebook
+263,2016-11-24 20:56:21.000000000,2016-11-28 22:41:11.000000000,closed,2,Project with datashader and football matches visualization
+262,2016-11-12 15:36:01.000000000,2016-12-12 01:00:07.000000000,closed,8,Installation error in last version when compiling from source in python2
+261,2016-11-06 19:43:22.000000000,2016-11-07 03:51:18.000000000,closed,3,Question about plotting lines
+260,2016-11-06 17:59:30.000000000,2016-11-06 18:04:28.000000000,closed,0,Updates
+259,2016-11-05 03:16:32.000000000,2017-04-27 00:31:22.000000000,closed,1,Bogus column and row at edge?
+258,2016-11-03 19:43:07.000000000,2016-12-23 03:10:32.000000000,closed,1,parquet example
+257,2016-11-03 17:40:08.000000000,1970-01-01 00:00:00.000000001,open,4,Line Plot with Grouped Dataframes
+256,2016-11-01 19:14:58.000000000,2016-11-05 15:28:41.000000000,closed,3,Dataset opensky.h5 not available?
+255,2016-10-27 07:13:59.000000000,2016-11-06 18:02:52.000000000,closed,4,Update `tf.stack` for numpy casting 
+254,2016-10-25 20:07:30.000000000,2016-10-27 07:11:24.000000000,closed,1,improve build stability
+253,2016-10-17 22:39:57.000000000,2016-10-17 22:55:24.000000000,closed,3,PyPI Releases 0.3.2 and 0.4.0
+252,2016-10-12 18:16:27.000000000,2020-08-16 17:38:18.000000000,closed,4,Hover not showing up in dashboard.py nyc taxi example
+251,2016-10-03 17:05:50.000000000,2017-03-22 06:05:05.000000000,closed,3,Support for hover/legend with InteractiveImage?
+250,2016-10-03 16:28:16.000000000,2017-04-27 02:50:30.000000000,closed,13,Support for column layout with InteractiveImage?
+249,2016-09-29 07:40:33.000000000,2020-01-28 02:39:40.000000000,closed,1,Added color_mapping function to return color key consistently
+248,2016-09-28 21:56:39.000000000,2016-09-29 01:12:38.000000000,closed,3,DOC: lack of legend for `ds.count_cat`
+247,2016-09-28 16:44:48.000000000,1970-01-01 00:00:00.000000001,open,0,JupyterLab support
+246,2016-09-27 18:53:37.000000000,2019-07-03 21:13:40.000000000,closed,2,Generate slippy-map tiles easily
+245,2016-09-23 21:02:24.000000000,1970-01-01 00:00:00.000000001,open,10,Adding median reduction
+244,2016-09-22 21:02:30.000000000,2017-05-08 21:17:39.000000000,closed,0,Support alpha for non-categorical shade()
+243,2016-09-21 20:06:49.000000000,1970-01-01 00:00:00.000000001,open,0,Add graphical gallery notebook index
+242,2016-09-19 23:03:31.000000000,1970-01-01 00:00:00.000000001,open,2,Spatiotemporal data animation
+241,2016-09-17 21:44:34.000000000,2016-09-19 16:55:05.000000000,closed,1,concatenating dataframes - incompatible categories in categorical concat
+240,2016-09-17 21:28:19.000000000,2016-09-18 00:14:15.000000000,closed,4,pd.read_csv vs dd.read_csv
+239,2016-09-15 02:14:35.000000000,2016-09-21 20:07:57.000000000,closed,3,"Replace {get,set}() with getters and setters"
+238,2016-09-14 23:41:11.000000000,2016-09-20 20:38:42.000000000,closed,2,Remove .create on Select creation and convert options to list.
+237,2016-09-13 21:03:51.000000000,2017-05-08 21:29:38.000000000,closed,4,Update reference manual
+236,2016-09-09 22:51:36.000000000,2016-09-09 22:51:45.000000000,closed,0,Reduced census notebook size to fit anaconda.org limit
+235,2016-09-09 00:45:02.000000000,2016-09-09 19:06:28.000000000,closed,1,Landsat updates
+234,2016-09-08 17:54:52.000000000,1970-01-01 00:00:00.000000001,open,4,Agree on JavasScript API for Bokeh/InteractiveImage
+233,2016-09-08 02:38:29.000000000,2016-09-09 22:42:12.000000000,closed,1,Reduce size of uploaded notebooks on Anaconda.org
+232,2016-09-08 01:28:04.000000000,2016-09-08 01:43:41.000000000,closed,1,Fixed handling of NaN between line segments
+231,2016-09-07 19:47:25.000000000,1970-01-01 00:00:00.000000001,open,1,Add cool datashader demos
+230,2016-09-07 18:41:11.000000000,2016-09-08 01:43:52.000000000,closed,1,Unexpected behavior with line
+229,2016-09-05 12:52:22.000000000,2016-09-07 01:11:43.000000000,closed,3,Segfault with nan in y_range
+228,2016-09-01 01:57:02.000000000,2016-09-07 01:11:54.000000000,closed,1,Added safety check for non-positive log axis range (refactored)
+227,2016-08-30 22:53:24.000000000,2016-09-01 01:57:21.000000000,closed,2,Added safety check for non-positive log axis range
+226,2016-08-30 20:58:02.000000000,2016-09-08 17:22:12.000000000,closed,19,segmentation fault with log axes
+225,2016-08-26 17:42:38.000000000,2016-12-13 23:38:58.000000000,closed,3,Add example of an interactive 1D histogram
+224,2016-08-22 07:11:48.000000000,2016-08-22 16:08:09.000000000,closed,2,Interactive bokeh_ext plots not working in examples
+223,2016-08-22 04:46:37.000000000,2016-09-08 17:31:25.000000000,closed,1,start a github gitter room for datashader
+222,2016-08-18 08:33:08.000000000,2016-08-18 08:33:22.000000000,closed,0,incremented version number to 0.3.3
+221,2016-08-18 08:26:39.000000000,2020-08-16 16:51:59.000000000,closed,3,Fix/Upgrade dashboard example to Bokeh 0.12.1
+220,2016-08-18 08:18:00.000000000,2016-08-18 08:25:49.000000000,closed,1,partial fix for dashboard bokeh 0.12.1 integration
+219,2016-08-18 01:45:23.000000000,2016-08-18 20:50:02.000000000,closed,0,Added command for copying examples
+218,2016-08-17 15:23:32.000000000,1970-01-01 00:00:00.000000001,open,15,Use DataFrame.index for x-axis
+217,2016-08-15 19:57:06.000000000,2016-09-08 17:36:46.000000000,closed,1,add noise_filter for aggregate
+216,2016-08-15 18:08:22.000000000,2016-08-17 14:54:13.000000000,closed,7,InteractiveImage not updating plot
+215,2016-08-15 00:48:39.000000000,2016-09-08 17:37:59.000000000,closed,2,support pandas chunks
+214,2016-08-13 00:14:46.000000000,2016-08-15 22:52:46.000000000,closed,3,Replaced now-deprecated interpolate() and colorize() with shade().
+213,2016-08-03 19:36:29.000000000,2016-08-03 20:23:45.000000000,closed,1,Removed optional ujson usage in InteractiveImage
+212,2016-08-02 20:10:55.000000000,2016-08-02 20:11:18.000000000,closed,0,added back explicit result checks to colorize tests
+211,2016-08-02 10:46:00.000000000,1970-01-01 00:00:00.000000001,open,13,Log axes don't work
+210,2016-08-02 02:48:06.000000000,2016-08-02 02:48:51.000000000,closed,0,updated travis yml to pull rasterio from pypi
+209,2016-08-02 02:40:35.000000000,2016-08-02 02:41:00.000000000,closed,0,Colorize test refactor
+208,2016-07-31 18:44:24.000000000,2016-08-02 11:36:33.000000000,closed,6,InteractiveImage does not work?
+207,2016-07-27 23:37:21.000000000,2016-08-05 07:46:49.000000000,closed,7,"bokeh 0.12, datashader 0.3.2, Python 3.5.1, Windows 10/64"
+206,2016-07-23 23:37:04.000000000,2016-08-28 04:07:42.000000000,closed,2,Edit census.ipynb example: Use dask.dataframe.read_hdf vice pd.read_hdf
+205,2016-07-20 23:08:27.000000000,2016-07-31 02:29:26.000000000,closed,2,Minimum alpha for colorize?
+204,2016-07-20 01:12:52.000000000,2016-07-31 02:31:26.000000000,closed,6,linked brushing?
+203,2016-07-18 23:03:11.000000000,2016-07-19 00:07:17.000000000,closed,1,ImportError: cannot import name 'downsample_aggregate' 
+202,2016-07-18 22:55:19.000000000,2016-07-19 00:08:13.000000000,closed,1,"bokeh_ext.py missing from 0.1, 0.2 tagged versions?"
+201,2016-07-18 17:51:42.000000000,2018-12-21 19:33:25.000000000,closed,14,Using xarray.dataset as input
+200,2016-07-16 10:50:46.000000000,1970-01-01 00:00:00.000000001,open,55,ENH: first draft of MPL artist
+199,2016-07-13 23:35:42.000000000,2016-07-13 23:36:27.000000000,closed,0,updated conda.recipe readme
+198,2016-07-11 21:01:51.000000000,2016-07-11 21:02:42.000000000,closed,0,incremented version number
+197,2016-07-11 20:42:08.000000000,2016-07-11 20:49:59.000000000,closed,0,temporarily disabled legends to make dashboard work with Bokeh 0.12.0
+196,2016-07-07 19:24:27.000000000,2016-07-08 22:24:18.000000000,closed,14,Multiple images in interactive images
+195,2016-07-06 02:31:51.000000000,2016-07-18 19:36:18.000000000,closed,2,Not recomputing in Jupyter notebook with bokeh 0.12
+194,2016-07-05 11:04:24.000000000,2016-08-19 08:50:36.000000000,closed,8,Error with sample data download?
+193,2016-07-04 23:47:43.000000000,2016-07-21 21:41:22.000000000,closed,5,How to save InteractiveImage in a html file
+192,2016-07-03 14:44:08.000000000,2016-07-03 17:34:04.000000000,closed,4,Added more responsive event throttling for DynamicImage
+191,2016-07-02 20:29:37.000000000,2016-07-03 08:57:51.000000000,closed,0,DynamicImage bokeh 0.12 fix for accessing plot height/width
+190,2016-07-02 18:37:23.000000000,2016-07-03 08:57:51.000000000,closed,3,InteractiveImage Javascript TypeError 
+189,2016-06-25 01:28:09.000000000,2016-08-18 00:47:48.000000000,closed,1,Add default color cycle for categorical data
+188,2016-06-23 22:43:56.000000000,2016-06-23 22:45:44.000000000,closed,0,incremented version number to 0.3.0
+187,2016-06-23 17:31:03.000000000,2016-06-23 22:18:52.000000000,closed,0,Notebook colors
+186,2016-06-23 03:24:15.000000000,2016-06-23 20:10:46.000000000,closed,2,Updates for new download script
+185,2016-06-23 02:14:54.000000000,2020-08-16 17:10:18.000000000,closed,1,Swap out download progress bar for tqdm
+184,2016-06-23 02:09:58.000000000,2016-06-23 02:18:19.000000000,closed,1,small refactors to decrease progress bar update rate and move smaller…
+183,2016-06-23 01:34:30.000000000,2016-06-23 19:20:24.000000000,closed,1,Make download script download smallest first
+182,2016-06-22 23:01:07.000000000,2016-09-22 06:33:26.000000000,closed,2,Add additional trajectory example
+181,2016-06-22 22:53:39.000000000,2019-12-11 06:57:04.000000000,closed,10,Add polygon support
+180,2016-06-22 22:50:35.000000000,2016-06-22 22:50:49.000000000,closed,0,fixed typo
+179,2016-06-22 22:32:10.000000000,2016-08-22 17:28:10.000000000,closed,8,Testing and Updates for Bokeh 0.12.0 release coming next tuesday
+178,2016-06-22 21:38:31.000000000,2016-06-22 22:44:11.000000000,closed,0,added datasets.yml and updated download script
+177,2016-06-22 21:32:54.000000000,2016-06-22 21:33:24.000000000,closed,1,added hdf5 fallback for loading census data; fixed py3 divison bug (p…
+176,2016-06-22 21:22:55.000000000,2016-06-22 21:33:33.000000000,closed,0,made castra load fallback on hdf5 for census
+175,2016-06-22 12:55:33.000000000,2016-06-23 03:32:50.000000000,closed,5,Coordinate transformation.
+174,2016-06-21 02:07:25.000000000,2016-06-21 02:07:30.000000000,closed,0,added landsat notebook
+173,2016-06-20 19:08:34.000000000,2016-06-20 23:18:24.000000000,closed,0,Brendancol/race elevation notebook
+172,2016-06-19 23:43:51.000000000,2016-06-20 03:38:48.000000000,closed,0,removed unset nodata value warning
+171,2016-06-16 17:27:14.000000000,2016-06-16 18:43:51.000000000,closed,0,added license and remove dot and mill
+170,2016-06-16 03:38:05.000000000,2016-06-16 07:06:21.000000000,closed,2,Added progressbar to data download
+169,2016-06-13 01:09:05.000000000,2016-06-16 02:43:16.000000000,closed,0,added legends notebook
+168,2016-06-12 22:50:48.000000000,2016-06-12 22:58:53.000000000,closed,0,interpolate now return empty image if input aggregate is full of zero…
+167,2016-06-09 22:28:57.000000000,2016-06-12 23:01:19.000000000,closed,1,Canvas.raster throws error when bounds out of raster range
+166,2016-06-07 19:21:59.000000000,2016-06-07 20:36:53.000000000,closed,0,changed use_pyramids default value to False until rasterio supports d…
+165,2016-06-07 18:41:57.000000000,2016-06-07 20:47:03.000000000,closed,4,Problem installing via setup.py install
+164,2016-06-07 18:10:47.000000000,2016-06-17 06:42:20.000000000,closed,28,Make it pip installable
+163,2016-06-04 01:24:19.000000000,1970-01-01 00:00:00.000000001,open,1,Dashboard: Make dashboard update plot extent based on selected axes
+162,2016-06-04 01:19:53.000000000,2016-06-12 21:38:44.000000000,closed,0,added notebook example for hover layer
+161,2016-06-03 23:52:14.000000000,2016-06-03 23:55:40.000000000,closed,0,Cleaned up heading levels for nbs to allow embedding in web site.  
+160,2016-06-03 02:33:15.000000000,2016-06-04 01:26:14.000000000,closed,0,Brendancol/dashboard fixes
+159,2016-06-03 00:50:08.000000000,2016-06-04 01:20:40.000000000,closed,0,added tests for core.raster with associated data
+158,2016-05-30 18:23:19.000000000,2016-05-30 21:47:55.000000000,closed,1,Error while importing datashader
+157,2016-05-17 01:08:15.000000000,2016-05-20 23:33:17.000000000,closed,2,added initial support for raster datasets
+156,2016-05-16 23:44:15.000000000,2016-05-20 23:32:56.000000000,closed,0,added Elevation color ramp
+155,2016-05-15 01:12:38.000000000,2016-05-21 02:45:56.000000000,closed,5,bokeh_ext not found
+154,2016-05-15 01:05:21.000000000,2016-05-15 01:32:23.000000000,closed,0,No  able to run dashboard.py
+153,2016-05-10 09:48:45.000000000,2016-05-12 17:55:51.000000000,closed,6,Support 3 dimensional scatter
+152,2016-05-05 23:50:46.000000000,2016-05-11 20:14:12.000000000,closed,1,added alpha arg to interpolate
+151,2016-05-04 00:17:25.000000000,2016-05-04 00:52:59.000000000,closed,1,Fixed InteractiveImage underscore conditional
+150,2016-05-03 23:35:16.000000000,2016-05-03 23:38:25.000000000,closed,5,InteractiveImage callback checks if underscore is available
+149,2016-04-22 00:29:59.000000000,2016-05-01 04:56:21.000000000,closed,2,moved over downsample method and fixed unpacking bug
+148,2016-04-21 22:20:09.000000000,2016-06-22 22:36:42.000000000,closed,1,add console script line for downloading example data
+147,2016-04-21 01:29:54.000000000,2018-02-14 02:10:55.000000000,closed,33,Extend InteractiveImage to work with bokeh server
+146,2016-04-16 20:18:38.000000000,2016-04-16 20:18:58.000000000,closed,0,Streaming time binning select
+145,2016-04-16 20:11:48.000000000,2016-04-16 20:12:14.000000000,closed,0,pep8 and small refactoring to make more presentable
+144,2016-04-16 02:55:56.000000000,2016-04-16 02:56:12.000000000,closed,0,added select menu for select time interval
+143,2016-04-15 00:08:32.000000000,2016-04-15 00:23:33.000000000,closed,4,added streaming example using bokeh server and nyc_taxi.csv
+142,2016-04-15 00:00:45.000000000,1970-01-01 00:00:00.000000001,open,0,Allow integer aggregate values of zero
+141,2016-04-14 23:38:33.000000000,2016-08-13 12:14:43.000000000,closed,1,Specifying a fixed absolute data range
+140,2016-04-14 19:32:10.000000000,2020-03-21 00:09:58.000000000,closed,0,Generalizing support for categorical data
+139,2016-04-13 19:41:16.000000000,2016-04-13 22:06:35.000000000,closed,7,Problem with castra census data
+138,2016-04-10 00:50:42.000000000,2016-04-10 02:43:49.000000000,closed,1,symbol lookup error in ```python download_sample_data.py ```
+137,2016-04-06 23:18:08.000000000,2018-03-20 20:34:09.000000000,closed,1,Documentation
+136,2016-04-03 00:18:22.000000000,1970-01-01 00:00:00.000000001,open,0,Percentile legend for eq_hist?
+135,2016-04-01 20:35:29.000000000,2016-04-03 04:24:08.000000000,closed,1,Add notes on how to do a release
+134,2016-04-01 19:43:08.000000000,2016-04-01 19:54:34.000000000,closed,0,Boolean aggregate works in interpolate
+133,2016-03-31 21:00:37.000000000,2016-04-01 01:58:00.000000000,closed,0,Isolated deprecation warnings to the one spot where we need them
+132,2016-03-31 20:56:24.000000000,2019-12-13 02:52:37.000000000,closed,10,GPU example
+131,2016-03-30 21:45:32.000000000,2016-03-31 19:33:18.000000000,closed,1,Notebook updates
+130,2016-03-29 19:28:46.000000000,2016-04-01 19:54:34.000000000,closed,0,DeprecationWarning: numpy boolean subtract
+129,2016-03-29 18:06:59.000000000,2017-05-09 02:56:47.000000000,closed,40,Recommended file format for large files
+128,2016-03-29 18:05:57.000000000,2016-03-29 20:02:15.000000000,closed,1,InteractiveImage only attempts callback if IPython kernel available
+127,2016-03-28 23:51:35.000000000,1970-01-01 00:00:00.000000001,open,0,Histogram as color key
+126,2016-03-28 23:46:24.000000000,1970-01-01 00:00:00.000000001,open,6,Make legend and hover information available outside dashboard.py
+125,2016-03-28 22:29:34.000000000,2016-03-31 19:36:15.000000000,closed,5,Additional fixes/enhancements for dashboard example
+124,2016-03-28 07:58:38.000000000,2016-03-28 21:40:11.000000000,closed,1,Census
+123,2016-03-25 03:27:10.000000000,2016-03-25 05:47:24.000000000,closed,1,Add dynspread transfer function
+122,2016-03-22 01:03:51.000000000,2016-09-08 17:46:51.000000000,closed,2,Overlaid trajectory plots
+121,2016-03-21 20:34:17.000000000,2016-03-24 01:04:45.000000000,closed,3,Fix for integer eq_hist
+120,2016-03-20 02:10:19.000000000,2016-03-24 01:04:45.000000000,closed,0,"eq_hist forces values to floats, hobbling equalization of integer counts"
+119,2016-03-18 01:47:47.000000000,2016-03-18 02:28:27.000000000,closed,9,Add histogram equalization
+118,2016-03-17 20:48:37.000000000,1970-01-01 00:00:00.000000001,open,0,Mapping columns to categories
+117,2016-03-11 00:57:07.000000000,2016-03-11 01:52:54.000000000,closed,0,Made pipeline have the same default arguments as the underlying Canvas
+116,2016-03-10 23:31:53.000000000,2017-04-27 03:10:52.000000000,closed,4,Tools for anomaly detection
+115,2016-03-10 23:28:09.000000000,1970-01-01 00:00:00.000000001,open,0,Tools for stability analysis
+114,2016-03-10 23:23:02.000000000,1970-01-01 00:00:00.000000001,open,0,Financial timeseries analysis brainstorming
+113,2016-03-10 23:16:02.000000000,1970-01-01 00:00:00.000000001,open,0,Seam carving support
+112,2016-03-10 22:25:18.000000000,2016-04-06 23:21:39.000000000,closed,0,"Need example notebook for specifying colormaps, backgrounds, spreading (point size), and point shape"
+111,2016-03-10 11:10:46.000000000,2016-03-10 23:27:19.000000000,closed,1,Add cmap to interpolate
+110,2016-03-10 03:35:38.000000000,1970-01-01 00:00:00.000000001,open,0,1D aggregation example
+109,2016-03-09 23:42:21.000000000,2016-03-10 20:50:25.000000000,closed,4,Added cmap option to interpolate.
+108,2016-03-09 22:01:46.000000000,2016-03-09 22:05:53.000000000,closed,0,Added links to webinar and slides.
+107,2016-03-08 21:09:40.000000000,2016-06-22 22:38:07.000000000,closed,1,Example data download seems to hang
+106,2016-03-08 08:49:46.000000000,2016-03-08 10:54:47.000000000,closed,3,Specified later numba version; fixes #96
+105,2016-03-08 03:53:05.000000000,1970-01-01 00:00:00.000000001,open,0,Cyclical data example
+104,2016-03-08 03:45:43.000000000,2016-06-15 01:17:57.000000000,closed,1,Temporal plots
+103,2016-03-08 03:41:39.000000000,1970-01-01 00:00:00.000000001,open,1,Symbolic rendering of aggregate array
+102,2016-03-08 03:27:24.000000000,1970-01-01 00:00:00.000000001,open,9,Example of plotting points with associated probabilities
+101,2016-03-07 02:31:28.000000000,2016-03-11 22:09:06.000000000,closed,4,Javascript Error on InteractiveImage
+100,2016-03-04 22:00:40.000000000,2016-03-26 01:09:26.000000000,closed,7,Dashboard fixes
+99,2016-03-04 03:04:38.000000000,2016-03-05 01:09:16.000000000,closed,6,Zooming in to InteractiveImage
+98,2016-03-02 23:48:46.000000000,2016-03-03 00:07:08.000000000,closed,4,Add `set_background`
+97,2016-03-02 21:28:38.000000000,1970-01-01 00:00:00.000000001,open,0,Move InteractiveImage to Bokeh
+96,2016-03-02 12:15:18.000000000,2016-03-07 06:24:28.000000000,closed,6,PermissionError
+95,2016-03-01 19:55:25.000000000,2016-03-05 01:52:36.000000000,closed,1,Add trajectory/telemetry example
+94,2016-03-01 19:54:33.000000000,2016-03-05 01:52:50.000000000,closed,1,Add timeseries examples
+93,2016-03-01 19:42:58.000000000,2016-03-10 23:27:18.000000000,closed,0,Provide way to specify complex colormaps
+92,2016-03-01 19:34:21.000000000,1970-01-01 00:00:00.000000001,open,3,Box select support
+91,2016-03-01 19:27:45.000000000,2016-04-28 19:56:31.000000000,closed,3,Hover tool support
+90,2016-03-01 19:11:19.000000000,2016-04-06 23:20:31.000000000,closed,1,Legend/color key support
+89,2016-03-01 01:36:18.000000000,2016-03-05 01:32:14.000000000,closed,0,waffle.io Badge
+88,2016-02-29 20:24:04.000000000,2016-03-28 22:32:42.000000000,closed,1,added try/except around webbrowser.open() after user had trouble running from server
+87,2016-02-29 15:41:18.000000000,2016-02-29 20:32:17.000000000,closed,2,Implement heatmap
+86,2016-02-27 23:22:04.000000000,2016-06-07 20:52:39.000000000,closed,3,Raster/gridded-data support in datashader
+85,2016-02-26 02:02:45.000000000,2016-03-18 02:28:27.000000000,closed,0,Add histogram equalization transfer function
+84,2016-02-25 15:10:10.000000000,2016-02-29 20:57:53.000000000,closed,4,HTTP request sent; waiting for response.
+83,2016-02-25 01:56:15.000000000,2016-02-25 02:37:21.000000000,closed,1,Improved InteractiveImage throttling behavior
+82,2016-02-24 20:04:42.000000000,2016-03-03 00:07:08.000000000,closed,12,Plots with a black background
+81,2016-02-24 19:40:04.000000000,2016-03-10 23:27:18.000000000,closed,4,"Allow usage of external colormaps, e.g. from matplotlib"
+80,2016-02-24 01:37:55.000000000,2016-02-24 10:27:49.000000000,closed,16,InteractiveImage Improvements
+79,2016-02-23 03:43:54.000000000,2016-02-25 03:06:06.000000000,closed,6,[WIP] Add line glyph
+78,2016-02-23 03:25:52.000000000,2016-02-23 03:29:28.000000000,closed,1,"Fix autobounds error in Point, add test"
+77,2016-02-22 19:13:33.000000000,2016-03-05 01:29:39.000000000,closed,1,Notebook changes
+76,2016-02-21 10:26:55.000000000,2016-02-22 19:10:48.000000000,closed,0,Notebook updates
+75,2016-02-21 07:17:01.000000000,2016-03-25 06:17:13.000000000,closed,7,"datashader Anacoder demo code: 2 errors numpy.core.multiarray failed to import, cannot import name config"
+74,2016-02-19 22:23:37.000000000,2016-02-26 11:43:22.000000000,closed,4,Spreading and compositing operators
+73,2016-02-18 15:31:53.000000000,2016-03-08 20:46:42.000000000,closed,2,Add a GMapPlot example
+72,2016-02-18 02:23:29.000000000,2016-02-19 06:40:22.000000000,closed,6,module named tile_providers missing from Bokeh?
+71,2016-02-16 05:22:00.000000000,2016-05-13 20:14:44.000000000,closed,3,How to plot the mean of several columns in the same plot?
+70,2016-02-11 06:55:39.000000000,2016-03-09 22:05:53.000000000,closed,0,Add images and links to webinar video and slides
+69,2016-02-11 06:03:24.000000000,2016-04-03 04:21:51.000000000,closed,6,Add Census example
+68,2016-02-10 23:54:28.000000000,2016-02-11 00:27:27.000000000,closed,1,Add instructions to install off master to readme
+67,2016-02-10 22:01:19.000000000,2016-02-11 00:27:27.000000000,closed,2,Restore manual installation information to README
+66,2016-02-10 05:32:44.000000000,2016-02-10 05:35:45.000000000,closed,1,Docs
+65,2016-02-10 02:22:56.000000000,2016-02-10 03:05:17.000000000,closed,5,*** Error in `/home/joel/anaconda2/bin/python': free(): invalid pointer: 0x00007efde703d040 *** 
+64,2016-02-09 23:47:37.000000000,2016-02-10 01:37:25.000000000,closed,1,Update readme
+63,2016-02-09 20:04:00.000000000,2016-02-09 21:24:27.000000000,closed,1,added cache busting url param for dashboard example.
+62,2016-02-09 11:27:41.000000000,2016-02-09 11:30:02.000000000,closed,3,Install odo from blaze channel.
+61,2016-02-09 09:45:14.000000000,2017-05-25 00:23:54.000000000,closed,13,Add information on requirements for osm example
+60,2016-02-09 09:33:31.000000000,2016-02-09 21:23:05.000000000,closed,7,Tweaks for NYC taxi example and update call to pipeline
+59,2016-02-09 05:25:56.000000000,2016-02-09 09:25:40.000000000,closed,3," Improve docstrings, a few tests."
+58,2016-02-09 02:07:48.000000000,2016-02-09 03:05:29.000000000,closed,1,changed defaults from log to cbrt in transfer_functions.py
+57,2016-02-09 01:16:59.000000000,2016-02-09 01:31:53.000000000,closed,0,changed transfer function default to cube root for dashboard example
+56,2016-02-09 00:59:38.000000000,2016-02-09 03:13:15.000000000,closed,3,Add conda recipe
+55,2016-02-09 00:46:40.000000000,2016-02-09 00:49:06.000000000,closed,0,Initial version of Plotting Problems notebook
+54,2016-02-09 00:27:59.000000000,2016-02-09 01:51:35.000000000,closed,2,Tests and cleanup for Pipeline
+53,2016-02-08 22:30:40.000000000,2016-02-08 22:47:19.000000000,closed,2,changed .img to .data
+52,2016-02-08 21:38:33.000000000,2016-02-08 22:48:57.000000000,closed,0,NYC Taxi Notebook: change .img to .data
+51,2016-02-08 21:37:37.000000000,2016-02-10 01:38:06.000000000,closed,1,Create Conda Release and push to bokeh channel
+50,2016-02-08 21:36:47.000000000,2016-02-09 01:32:03.000000000,closed,0,Dashboard: Change default to Cubed Root and Rename
+49,2016-02-08 21:10:55.000000000,2016-02-25 01:44:30.000000000,closed,11,Answer Question: Why are notebook calls slower than static image calls? 
+48,2016-02-07 06:02:12.000000000,2016-02-07 20:06:23.000000000,closed,0,Remove Dynd
+47,2016-02-05 21:35:45.000000000,2016-02-05 21:42:54.000000000,closed,1,dashboard example: added map labels and basemap opacity
+46,2016-02-05 10:51:44.000000000,2016-02-05 21:41:38.000000000,closed,1,Notebook cleanup
+45,2016-02-05 01:56:43.000000000,2016-02-05 10:34:39.000000000,closed,1,added auto-open to dashboard example
+44,2016-02-04 22:46:29.000000000,2016-02-05 10:32:06.000000000,closed,1,dashboard example: now loads data relative to yml config and not dashboard.py
+43,2016-02-04 00:09:25.000000000,2016-02-07 20:06:23.000000000,closed,2,Remove dynd
+42,2016-02-03 23:25:53.000000000,2016-02-03 23:27:57.000000000,closed,1,Add option for count to accept no column
+41,2016-02-03 19:00:55.000000000,2016-02-04 00:39:05.000000000,closed,1,IPythonKernelCallback updates instead of redrawing image
+40,2016-02-03 06:15:51.000000000,2016-02-03 08:58:08.000000000,closed,1,Fixed initialization of IPythonKernelCallback
+39,2016-02-03 00:46:48.000000000,2016-02-03 00:48:37.000000000,closed,0,Fix comparison operators for Axis and Reduction
+38,2016-02-01 22:52:19.000000000,2016-02-02 09:31:04.000000000,closed,6,Added DatashaderPipeline and updated examples
+37,2016-02-01 22:26:28.000000000,2016-02-07 20:06:44.000000000,closed,2,Add flatten method for categorical aggregate.
+36,2016-01-30 08:41:14.000000000,2016-01-31 20:01:21.000000000,closed,25,Created module for IPython kernel callbacks
+35,2016-01-30 02:24:34.000000000,2016-01-30 02:38:22.000000000,closed,0,Simpler notebook
+34,2016-01-30 02:04:46.000000000,2016-01-30 02:45:07.000000000,closed,0,Add methods for interpolate and colorize
+33,2016-01-30 01:03:59.000000000,2016-01-30 02:03:25.000000000,closed,3,Implement `where` for aggregates
+32,2016-01-29 23:56:27.000000000,2016-01-29 23:57:45.000000000,closed,3,"Renamed pickup,dropoff_longitude,latitude to _x,_y"
+31,2016-01-29 23:50:16.000000000,2016-01-29 23:51:36.000000000,closed,1,"Renamed pickup,dropoff_longitude,latitude to _x,_y"
+30,2016-01-29 22:16:59.000000000,2016-01-30 00:09:22.000000000,closed,1,Taxi example claims to be in latlon but is in meters
+29,2016-01-29 11:52:36.000000000,2016-01-29 19:08:21.000000000,closed,1,Aggregate redesign & general improvements
+28,2016-01-29 02:34:36.000000000,2016-01-29 02:37:09.000000000,closed,0,Installation
+27,2016-01-29 00:38:46.000000000,2016-02-05 10:35:50.000000000,closed,0,make sure config dataset is loaded relative to YAML file
+26,2016-01-27 03:52:46.000000000,2016-06-04 03:02:00.000000000,closed,3,dashboard example: move initial_extent to be a property of axes in yml configs
+25,2016-01-27 00:14:19.000000000,2016-01-27 22:21:15.000000000,closed,10,Task/dashboard example config
+24,2016-01-26 01:23:10.000000000,2016-01-26 20:22:53.000000000,closed,0,Remove webargs or update to use 1.3 appropriate imports
+23,2016-01-23 03:54:12.000000000,2016-01-24 02:24:12.000000000,closed,0,Don't subselect data before passing to `extend`
+22,2016-01-23 02:35:51.000000000,2016-01-23 03:22:49.000000000,closed,0,added standard github python ignore
+21,2016-01-22 21:28:37.000000000,2016-01-23 01:04:52.000000000,closed,0,Add colorize transfer function
+20,2016-01-22 10:09:32.000000000,2016-01-23 01:08:37.000000000,closed,0,"Taxi example - add download script, several cleanups"
+19,2016-01-22 05:13:19.000000000,2016-06-03 01:13:24.000000000,closed,1,add responsive bokeh plot setting to dashboard.py
+18,2016-01-22 04:40:19.000000000,2016-01-22 10:22:26.000000000,closed,0,Add count_categories
+17,2016-01-22 04:23:16.000000000,2016-02-05 21:38:24.000000000,closed,1,Added basemap opacity slider
+16,2016-01-22 03:28:06.000000000,2016-01-28 02:22:03.000000000,closed,1,Draft of updated installation instructions
+15,2016-01-22 02:16:33.000000000,2016-01-22 02:20:30.000000000,closed,0,Add tests for transfer functions
+14,2016-01-22 01:21:27.000000000,1970-01-01 00:00:00.000000001,open,1,"Changes that appear to require Bokeh extensions, if not using JavaScript"
+13,2016-01-22 01:05:26.000000000,2018-12-19 19:46:48.000000000,closed,2,Axis labels (in lat/lon?) for examples like dashboard.py
+12,2016-01-22 00:58:39.000000000,2016-02-07 20:07:25.000000000,closed,7,Warnings from dashboard.py in bokeh 0.11.1dev2
+11,2016-01-22 00:57:23.000000000,2016-02-07 20:15:27.000000000,closed,2,"Map labels, map opacity in dashboard.py"
+10,2016-01-22 00:10:42.000000000,2016-02-09 21:24:27.000000000,closed,2,Add cache buster to http requests 
+9,2016-01-21 22:52:00.000000000,2016-02-05 10:36:32.000000000,closed,0,make dashboard.py example open browser automatically
+8,2016-01-21 22:42:02.000000000,2016-01-21 22:44:09.000000000,closed,0,Various cleanups to computation pipeline
+7,2016-01-21 21:04:33.000000000,2016-01-23 01:08:37.000000000,closed,0,Add download data script for taxi.csv
+6,2016-01-21 21:02:24.000000000,2016-06-03 06:17:06.000000000,closed,3,Resolve port collision in dashboard.py
+5,2016-01-21 03:18:25.000000000,2016-01-29 10:02:24.000000000,closed,7,Datashader Notebook Example
+4,2016-01-21 03:13:21.000000000,2016-01-21 03:13:42.000000000,closed,0,Task/notebook example
+3,2016-01-13 03:19:30.000000000,2016-01-21 03:52:50.000000000,closed,0,Task/dashboard example
+2,2016-01-11 23:10:39.000000000,2016-01-11 23:12:37.000000000,closed,0,Add Travis CI
+1,2016-01-11 12:18:23.000000000,2016-01-20 01:56:47.000000000,closed,2,[WIP] Basic Transfer Functions

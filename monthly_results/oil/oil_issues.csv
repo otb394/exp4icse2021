@@ -1,0 +1,822 @@
+id,created_at,closed_at,state,comments,title
+821,2020-09-01 02:33:04.000000000,1970-01-01 00:00:00.000000001,open,0,Docs
+820,2020-08-27 21:18:26.000000000,1970-01-01 00:00:00.000000001,open,2,New structure for help
+819,2020-08-26 12:55:32.000000000,1970-01-01 00:00:00.000000001,open,0,"blocks don't have params, but procs have them"
+818,2020-08-26 12:52:51.000000000,1970-01-01 00:00:00.000000001,open,0,remove func from Oil language
+817,2020-08-26 12:51:10.000000000,1970-01-01 00:00:00.000000001,open,1,"repr / osh -n output is a readable format, but not a standard format"
+816,2020-08-24 00:55:47.000000000,2020-08-26 03:51:21.000000000,closed,1,Add test
+815,2020-08-20 23:08:49.000000000,1970-01-01 00:00:00.000000001,open,0,Implement / document string <-> integer coercion rules
+814,2020-08-20 23:06:43.000000000,1970-01-01 00:00:00.000000001,open,0,ergonomics: source a file with var
+813,2020-08-18 14:41:22.000000000,2020-08-18 21:04:16.000000000,closed,1,fix nonexisiting variable references
+812,2020-08-17 12:34:37.000000000,1970-01-01 00:00:00.000000001,open,0,remove lines from arena ?
+811,2020-08-11 22:56:36.000000000,2020-08-18 21:09:31.000000000,closed,10,"Improve echo, read, mapfile documentation"
+810,2020-08-11 09:35:11.000000000,1970-01-01 00:00:00.000000001,open,0,"Run apps that depend on containers, e.g. prybar, upm"
+809,2020-08-06 22:33:53.000000000,1970-01-01 00:00:00.000000001,open,2,python traceback while building Oil
+808,2020-07-30 21:46:31.000000000,2020-08-23 05:16:23.000000000,closed,1,Version tags?
+807,2020-07-27 21:39:51.000000000,1970-01-01 00:00:00.000000001,open,3,handle \r characters on Unix?  (runSAS.sh)
+806,2020-07-26 21:55:50.000000000,2020-08-10 10:42:57.000000000,closed,2,write oil-native benchmarks
+805,2020-07-25 22:49:52.000000000,2020-07-25 22:50:39.000000000,closed,1,put ~/bin in PATH?  and allow installers to modify
+804,2020-07-25 22:38:14.000000000,1970-01-01 00:00:00.000000001,open,1,allow outputting a directory tree of logs that follows the shell function stack
+803,2020-07-25 22:34:32.000000000,1970-01-01 00:00:00.000000001,open,0,Make a container for 'build/dev.sh all' and 'build/dev.sh oil-cpp'
+802,2020-07-25 22:04:03.000000000,1970-01-01 00:00:00.000000001,open,1,try to compile some devtools to wasm
+801,2020-07-24 21:38:51.000000000,1970-01-01 00:00:00.000000001,open,2,"oil binary can behave like echo, printf, test, seq, cat, etc."
+800,2020-07-24 21:36:44.000000000,1970-01-01 00:00:00.000000001,open,2,Implement seq internally
+799,2020-07-24 21:31:38.000000000,1970-01-01 00:00:00.000000001,open,0,allow optimizing away command substitutions
+798,2020-07-24 21:29:27.000000000,1970-01-01 00:00:00.000000001,open,3,Oil language container literal changes
+797,2020-07-24 11:03:50.000000000,1970-01-01 00:00:00.000000001,open,2,flakiness in devtools/completion.bash
+796,2020-07-23 02:47:16.000000000,1970-01-01 00:00:00.000000001,open,2,Make the build system correct (and fast)
+795,2020-07-23 01:49:44.000000000,1970-01-01 00:00:00.000000001,open,3,"OSH autocompletion prints long paths, past the terminal width, causing drawing bugs"
+794,2020-07-22 18:14:24.000000000,1970-01-01 00:00:00.000000001,open,6,Give a more helpful error if all `help` is missing
+793,2020-07-22 17:54:22.000000000,2020-07-25 22:17:12.000000000,closed,3,No instructions for installing `pygments` for a full build
+792,2020-07-22 17:48:57.000000000,2020-07-25 22:13:06.000000000,closed,6,Roundtrip tests for cmark fail
+791,2020-07-22 17:43:56.000000000,2020-07-25 22:19:12.000000000,closed,6,Don't require `sudo` for `build/dev.sh ubuntu-deps`
+790,2020-07-22 17:40:00.000000000,2020-07-23 08:48:59.000000000,closed,1,`test/unit.sh all` requires commonmark and so fails if you did a minimal build
+789,2020-07-22 10:44:20.000000000,1970-01-01 00:00:00.000000001,open,6,publish asciinema screencast of getting started
+788,2020-07-21 04:56:36.000000000,2020-08-10 10:43:08.000000000,closed,1,Implement read -p
+787,2020-07-18 08:07:56.000000000,1970-01-01 00:00:00.000000001,open,1,"Oil language should distinguish between variables and functions/queries ($PWD vs. pwd, etc.)"
+786,2020-07-18 07:52:40.000000000,1970-01-01 00:00:00.000000001,open,0,native libraries support?  / ctypes
+785,2020-07-16 05:22:08.000000000,1970-01-01 00:00:00.000000001,open,0,Deallocate memory in C++
+784,2020-07-12 23:45:57.000000000,2020-07-18 21:26:37.000000000,closed,1,refactoring for scoped resource management
+783,2020-07-08 13:16:57.000000000,2020-08-10 10:43:23.000000000,closed,7,read is still line-buffered when a delimiter is specified
+782,2020-07-07 05:48:47.000000000,2020-07-18 13:07:20.000000000,closed,1,Release automation bugs
+781,2020-07-06 22:45:38.000000000,1970-01-01 00:00:00.000000001,open,0,Run other tests on continuous build
+780,2020-06-26 21:58:30.000000000,1970-01-01 00:00:00.000000001,open,0,issues uncovered by toysh blog test cases
+779,2020-06-24 11:05:33.000000000,2020-07-07 05:49:47.000000000,closed,3,missing tilde expansions in ${} and [[ ]]
+778,2020-06-23 14:08:09.000000000,2020-06-26 20:57:52.000000000,closed,13,My buildnano script doesn't run
+777,2020-06-22 10:47:50.000000000,2020-07-07 05:49:34.000000000,closed,6,EXIT trap doesn't run after explicit 'exit' (tldr-bash-client)
+776,2020-06-19 22:00:14.000000000,1970-01-01 00:00:00.000000001,open,2,Run bashtop
+775,2020-06-12 23:59:29.000000000,1970-01-01 00:00:00.000000001,open,0,errexit not disabled where it should be
+774,2020-06-12 23:07:49.000000000,2020-06-21 23:38:05.000000000,closed,0,"eval 'break' doesn't break, 'source return.sh' doesn't return, etc."
+773,2020-06-12 10:12:57.000000000,1970-01-01 00:00:00.000000001,open,0,Extra line printed for background job
+772,2020-06-12 05:13:39.000000000,2020-06-21 23:38:04.000000000,closed,2,Support negative indices in string slices
+771,2020-06-12 05:04:28.000000000,2020-06-12 23:42:25.000000000,closed,2,Can't use unquoted (balanced) brackets in associative array subscripts
+770,2020-06-12 04:59:53.000000000,1970-01-01 00:00:00.000000001,open,4,"Support read -N, -s, etc."
+769,2020-06-12 04:55:54.000000000,2020-06-21 23:38:04.000000000,closed,1,read -n1 </dev/null succeeds
+768,2020-06-10 11:20:08.000000000,2020-06-21 23:38:04.000000000,closed,7,Unsetting the last element of an array and appending an element behaves differently than bash
+767,2020-06-09 10:42:53.000000000,2020-07-22 10:07:54.000000000,closed,1,printf -v a[0] when eval_unsafe_arith is on
+766,2020-06-08 07:39:52.000000000,1970-01-01 00:00:00.000000001,open,5,Run bf.bash in Python and C++
+765,2020-06-08 07:37:13.000000000,2020-06-21 23:38:04.000000000,closed,0,Incorrect handling of literal hyphen in patsub
+764,2020-06-03 20:49:47.000000000,1970-01-01 00:00:00.000000001,open,4,declare/typeset -u and -l for uppercase/lowercase
+763,2020-06-01 08:03:31.000000000,2020-06-21 23:38:03.000000000,closed,0,Suppress some errexit messages
+762,2020-05-27 10:52:18.000000000,1970-01-01 00:00:00.000000001,open,3,Run app test suites on Travis
+761,2020-05-25 14:11:00.000000000,1970-01-01 00:00:00.000000001,open,0,homogeneous representation for commands
+760,2020-05-22 23:44:50.000000000,1970-01-01 00:00:00.000000001,open,4,Hooks for debugger support?
+759,2020-05-21 23:57:34.000000000,2020-06-06 20:22:11.000000000,closed,1,test/spec-cpp.sh doesn't respect --cd-tmp
+758,2020-05-20 03:46:08.000000000,2020-05-26 13:30:06.000000000,closed,1,Incorrect fnmatch due to extended glob syntax
+757,2020-05-19 05:35:49.000000000,1970-01-01 00:00:00.000000001,open,14,Try out distri for continuous build
+756,2020-05-18 21:58:13.000000000,1970-01-01 00:00:00.000000001,open,8,"Try out differential compression for continuous build (e.g. ostree, zsync)"
+755,2020-05-18 10:31:08.000000000,1970-01-01 00:00:00.000000001,open,1,try out re2c --bit-vectors
+754,2020-05-17 08:23:31.000000000,2020-05-26 13:30:17.000000000,closed,1,Implement test -u and test -g
+753,2020-05-17 00:29:49.000000000,2020-05-26 13:30:28.000000000,closed,1,${var+foo} shouldn't cause error when 'set -o nounset'
+752,2020-05-16 06:48:56.000000000,1970-01-01 00:00:00.000000001,open,19,Run the shellspec test framework
+751,2020-05-15 22:17:44.000000000,2020-05-27 10:47:37.000000000,closed,1,provide a way to list all shell functions / actions (following the $0 dispatch pattern)
+750,2020-05-12 01:59:16.000000000,1970-01-01 00:00:00.000000001,open,2,mechanism to build shell scripts into the binary
+749,2020-05-11 05:19:59.000000000,1970-01-01 00:00:00.000000001,open,0,try new re2c:sentinel option
+748,2020-05-10 10:33:10.000000000,1970-01-01 00:00:00.000000001,open,0,Support \D{} in PS1 and PS0
+747,2020-05-10 10:27:11.000000000,1970-01-01 00:00:00.000000001,open,1,value of $? in PROMPT_COMMAND hook differs from bash
+746,2020-05-10 10:18:20.000000000,1970-01-01 00:00:00.000000001,open,5, >&/filename is a synonym for &> (bash and zsh)
+745,2020-05-10 09:44:56.000000000,1970-01-01 00:00:00.000000001,open,9,continuous build: merge to master on green
+744,2020-05-10 07:44:30.000000000,1970-01-01 00:00:00.000000001,open,4,set `SHELL` and `BASH`
+743,2020-05-10 07:19:30.000000000,1970-01-01 00:00:00.000000001,open,3,"$PATH is empty when it's not in the parent's environment, unlike other shells"
+742,2020-05-10 06:52:14.000000000,2020-05-10 07:57:19.000000000,closed,2,"build/dev.sh {minimal,all} cannot work due `posix_.so` not existing yet"
+741,2020-05-05 22:58:30.000000000,1970-01-01 00:00:00.000000001,open,0,Fully nested data structures
+740,2020-05-04 00:13:19.000000000,2020-05-06 04:17:21.000000000,closed,3,C++ rewrite vs Nim
+739,2020-05-01 14:30:37.000000000,1970-01-01 00:00:00.000000001,open,8,pwd / $PWD not set correctly after fork (Alacritty --working-directory does not work)
+738,2020-04-30 21:10:52.000000000,1970-01-01 00:00:00.000000001,open,4,Shell as an engine for TUI or GUI
+737,2020-04-28 20:49:04.000000000,1970-01-01 00:00:00.000000001,open,0,color error messages
+736,2020-04-26 13:32:57.000000000,1970-01-01 00:00:00.000000001,open,1,standard location for user binaries like ~/bin/
+735,2020-04-25 21:04:05.000000000,1970-01-01 00:00:00.000000001,open,0,'pass' name conflict
+734,2020-04-25 00:38:27.000000000,2020-04-26 08:44:34.000000000,closed,3,Implement DEBUG trap (hard to Ctrl-C out of ble.sh tests)
+733,2020-04-24 03:37:58.000000000,2020-04-24 04:43:45.000000000,closed,1,[arith] Fix scalar lvalue of arrays (compat_array).
+732,2020-04-24 01:45:53.000000000,2020-04-29 22:41:02.000000000,closed,2,Write gdb plugin to show ASDL values
+731,2020-04-23 15:31:50.000000000,2020-04-24 03:09:04.000000000,closed,4,[builtin/assign] Do not remove existing arrays by 'declare -a array'.
+730,2020-04-23 15:25:00.000000000,2020-04-23 20:17:44.000000000,closed,1,[builtin/printf] Support printf %d \'.
+729,2020-04-23 15:22:17.000000000,2020-04-23 20:15:29.000000000,closed,1,[builtin/read] Fix 'IFS= read -n' bug.
+728,2020-04-23 15:17:53.000000000,2020-04-24 03:10:50.000000000,closed,5,[word_eval] Implement 'shopt -s compat_array'.
+727,2020-04-22 22:00:31.000000000,2020-05-26 13:30:40.000000000,closed,3,1 ? (a=42) : b shouldn't require parentheses
+726,2020-04-22 17:54:58.000000000,2020-04-23 06:11:21.000000000,closed,7,"[word_eval] Fix ${#BASH_SOURCE}, ${BASH_SOURCE:offset:length}, etc."
+725,2020-04-22 09:07:36.000000000,1970-01-01 00:00:00.000000001,open,6,[arith] Support empty arith.
+724,2020-04-22 09:02:24.000000000,2020-04-22 09:24:20.000000000,closed,1,[arith] Fix reversed digits in $((base#num)).
+723,2020-04-22 08:59:29.000000000,2020-04-22 21:24:28.000000000,closed,6,[core/process] Fix redirections
+722,2020-04-21 23:39:09.000000000,1970-01-01 00:00:00.000000001,open,0,Print message on segfault
+721,2020-04-19 22:46:13.000000000,1970-01-01 00:00:00.000000001,open,0,Calling `fg` after the process exits causes a crash
+720,2020-04-19 06:29:03.000000000,1970-01-01 00:00:00.000000001,open,0,(snippet) Renaming files with mv without typing the name two times
+719,2020-04-19 06:27:11.000000000,1970-01-01 00:00:00.000000001,open,0,try this snippet: Prompt and the time a command was run
+718,2020-04-18 10:11:08.000000000,2020-04-18 22:58:19.000000000,closed,7,"[test/spec] Add test cases for unset, localvar and tempenv."
+717,2020-04-18 02:07:42.000000000,1970-01-01 00:00:00.000000001,open,0,upstream bash-completion patches
+716,2020-04-17 22:21:32.000000000,1970-01-01 00:00:00.000000001,open,0,Oil could disable dynamic scope and provide explicit syntax to opt-in 
+715,2020-04-17 21:05:50.000000000,1970-01-01 00:00:00.000000001,open,1,A single function to print the shell's state
+714,2020-04-17 10:36:53.000000000,1970-01-01 00:00:00.000000001,open,0,consider IR for commands
+713,2020-04-17 03:50:46.000000000,1970-01-01 00:00:00.000000001,open,1,"long flags for shopt builtin, e.g. --set and --unset"
+712,2020-04-17 00:15:33.000000000,2020-04-19 21:38:11.000000000,closed,6,ternary operator  ? should be right associative
+711,2020-04-16 22:13:49.000000000,1970-01-01 00:00:00.000000001,open,7,Oil should have a slurp builtin
+710,2020-04-16 10:54:39.000000000,1970-01-01 00:00:00.000000001,open,1,History expansion overrides indirect expansion
+709,2020-04-15 21:20:11.000000000,1970-01-01 00:00:00.000000001,open,12,"Write ""the ultimate guide to errexit"" (and fix problems)"
+708,2020-04-15 19:34:52.000000000,1970-01-01 00:00:00.000000001,open,2,"Bash-compatible stack traces (trap ERR, BASH_ARGV, extdebug)"
+707,2020-04-15 09:40:45.000000000,1970-01-01 00:00:00.000000001,open,0,Word Evaluation Fixes
+706,2020-04-15 06:19:44.000000000,2020-04-19 21:38:10.000000000,closed,19,unset should unshadow variables higher on the stack (at least for nonlocals)
+705,2020-04-14 23:25:27.000000000,2020-04-19 21:38:10.000000000,closed,0,read fails on empty lines
+704,2020-04-08 22:05:26.000000000,1970-01-01 00:00:00.000000001,open,6,Provide an API to evaluate code in a subinterpreter
+703,2020-04-08 17:05:58.000000000,2020-04-09 08:06:58.000000000,closed,1,[test/spec] Spec tests for nocasematch
+702,2020-04-08 05:54:33.000000000,2020-04-19 21:38:10.000000000,closed,1,Can't escape closing brace with backslash or single quotes in parameter expansion
+701,2020-04-08 03:08:42.000000000,1970-01-01 00:00:00.000000001,open,6,nocasematch shell option doesn't seem to work
+700,2020-04-07 16:34:27.000000000,2020-04-19 21:38:09.000000000,closed,4,xtrace output doubles backslashes and single-quotes
+699,2020-04-07 16:29:15.000000000,1970-01-01 00:00:00.000000001,open,1,EXIT trap doesn't trigger when exiting from other signals
+698,2020-04-07 16:20:04.000000000,2020-04-19 21:38:09.000000000,closed,6,Error with backslashes in unquoted variables with globbing off
+697,2020-04-07 16:17:29.000000000,1970-01-01 00:00:00.000000001,open,2,${!1:-foo} fails with no positional parameters instead of substituting for foo
+696,2020-04-07 16:12:32.000000000,2020-04-07 21:38:11.000000000,closed,2,$_ should be set to the last argument
+695,2020-04-07 16:10:19.000000000,2020-04-19 21:38:09.000000000,closed,1,"""${#:+\e}"" should evaluate to \e, not e"
+694,2020-04-07 05:02:54.000000000,2020-04-19 21:38:08.000000000,closed,1,read only reads a single line even with a different delimiter
+693,2020-04-07 02:19:30.000000000,1970-01-01 00:00:00.000000001,open,3,terminal rendering by diff
+692,2020-04-07 02:16:04.000000000,1970-01-01 00:00:00.000000001,open,1,Cache some evaluations on the AST
+691,2020-04-06 22:38:42.000000000,1970-01-01 00:00:00.000000001,open,2,"Compatible, quoted syntax for Oil expressions"
+690,2020-04-06 22:06:08.000000000,2020-04-19 21:38:08.000000000,closed,3," ${var@a} to get flags, etc."
+689,2020-04-06 22:03:45.000000000,1970-01-01 00:00:00.000000001,open,1,"Don't try to execute directories, or give a better error message"
+688,2020-04-06 09:26:21.000000000,2020-04-19 21:38:08.000000000,closed,1,${@:0:1} evaluates to ${@:0}
+687,2020-04-05 23:25:30.000000000,1970-01-01 00:00:00.000000001,open,4,Profiling support and coverage support
+686,2020-03-31 18:38:23.000000000,2020-04-01 03:20:34.000000000,closed,2,[test/spec] Failing spec tests for recursive arithmetic evaluations
+685,2020-03-31 13:59:07.000000000,1970-01-01 00:00:00.000000001,open,0,"Oil aliases for BASH_LINENO, etc."
+684,2020-03-31 10:40:18.000000000,1970-01-01 00:00:00.000000001,open,4,A few builtins that have the same functionality as external commands
+683,2020-03-31 10:26:38.000000000,2020-04-19 21:38:07.000000000,closed,6,provide a way to query the version
+682,2020-03-30 07:51:33.000000000,1970-01-01 00:00:00.000000001,open,1,"Provide a consistent plugin API for signals, interactive shell hooks, etc."
+681,2020-03-28 05:42:45.000000000,1970-01-01 00:00:00.000000001,open,0,Write an autoformatter for Oil
+680,2020-03-25 22:11:58.000000000,1970-01-01 00:00:00.000000001,open,1,output of trap -l 
+679,2020-03-24 20:46:48.000000000,2020-04-19 21:38:07.000000000,closed,18,Run neofetch
+678,2020-03-24 02:03:39.000000000,1970-01-01 00:00:00.000000001,open,0,legacy syntax to disable with Oil
+677,2020-03-24 02:01:03.000000000,1970-01-01 00:00:00.000000001,open,0,shopt -u expand_aliases off when oil:all is on
+676,2020-03-22 10:32:50.000000000,1970-01-01 00:00:00.000000001,open,0,toil fixes/enhancements
+675,2020-03-22 08:16:32.000000000,2020-03-22 08:26:51.000000000,closed,0,I/O error in JSON read
+674,2020-03-22 01:40:53.000000000,2020-03-25 22:11:17.000000000,closed,11,enforce upper limit on hard-coded file  descriptors
+673,2020-03-21 23:30:59.000000000,1970-01-01 00:00:00.000000001,open,0,Oil syntax for exec {fd}<file.txt
+672,2020-03-21 10:45:17.000000000,2020-03-21 23:28:00.000000000,closed,10,"[core/process] Fix/Implement redirections <>, 5>&-, 6>&5-, {fd}>file, etc."
+671,2020-03-21 10:07:28.000000000,2020-03-21 21:18:52.000000000,closed,3,[builtin/declare] Support -p
+670,2020-03-21 09:58:20.000000000,2020-03-21 21:02:43.000000000,closed,2,[test/spec] Failing spec tests for rvalue dynamic var name in arith
+669,2020-03-21 05:54:13.000000000,1970-01-01 00:00:00.000000001,open,0,make `-n` output human readable but unstable
+668,2020-03-18 18:59:05.000000000,2020-03-19 12:09:36.000000000,closed,9,Implement printf %()T %.s %*s %.*s
+667,2020-03-18 14:04:33.000000000,2020-03-18 21:08:03.000000000,closed,1,[test/spec] Add failing spec tests for fd manipulations
+666,2020-03-18 13:19:46.000000000,2020-03-18 21:07:15.000000000,closed,0,[test/spec] Failing spec tests for mapfile/readarray
+665,2020-03-18 03:03:41.000000000,2020-03-18 07:48:57.000000000,closed,1,[test/spec] Failing spec tests for 'read -d delim'
+664,2020-03-15 21:45:32.000000000,2020-03-25 22:11:34.000000000,closed,4,error message for $(( a )) doesn't have location
+663,2020-03-15 21:06:35.000000000,1970-01-01 00:00:00.000000001,open,13,Provide APIs to allow users to write their own line editor / interactive interface
+662,2020-03-15 21:04:56.000000000,2020-03-25 22:13:55.000000000,closed,2,trap doesn't accept / ignore --
+661,2020-03-15 20:53:21.000000000,2020-03-25 22:14:08.000000000,closed,21, declare -A dict=() not allowed in Oil
+660,2020-03-15 20:52:40.000000000,2020-04-19 21:38:07.000000000,closed,1,${arr[0]=1} change variable to string rather than assigning cell
+659,2020-03-15 10:27:44.000000000,2020-03-25 22:14:20.000000000,closed,4,set -o vi and emacs should be have differently while interactive
+658,2020-03-15 06:26:13.000000000,2020-03-15 08:11:56.000000000,closed,4,[word_eval] Fix shifted slicing of ${@:offset:length}.
+657,2020-03-15 05:00:01.000000000,2020-03-15 06:03:23.000000000,closed,1,[word_eval] Fix the ${!prefix@} failure for the second time
+656,2020-03-15 04:44:57.000000000,2020-03-15 06:00:46.000000000,closed,7,Allow scalar form of BASH_LINENO and FUNCNAME
+655,2020-03-13 05:19:02.000000000,1970-01-01 00:00:00.000000001,open,17,expand CI runs to cover Nix and macOS
+654,2020-03-11 04:33:21.000000000,1970-01-01 00:00:00.000000001,open,6,some builtins can't be redefined as functions
+653,2020-03-10 08:38:48.000000000,1970-01-01 00:00:00.000000001,open,66,Try to parse and run ble.sh
+652,2020-03-09 21:07:20.000000000,1970-01-01 00:00:00.000000001,open,1,Check that keys of assoc array literals are quoted
+651,2020-03-09 17:24:49.000000000,2020-04-19 21:38:06.000000000,closed,8,cell sublanguage: unset -v 'a[0]' (ble.sh)
+650,2020-03-09 15:52:16.000000000,2020-03-25 22:14:32.000000000,closed,5,Implement printf %*s and %.*s
+649,2020-03-09 09:34:25.000000000,2020-03-09 10:51:40.000000000,closed,1,[[ -k /tmp ]] / test -k /tmp not supported (ble.sh)
+648,2020-03-09 09:32:05.000000000,2020-04-19 21:38:06.000000000,closed,14,Recursive arithmetic evaluation (ble.sh)
+647,2020-03-09 09:17:57.000000000,1970-01-01 00:00:00.000000001,open,6,Output of declare -p / declare / declare -f / trap -p / trap (ble.sh)
+646,2020-03-09 09:03:00.000000000,2020-03-09 10:36:59.000000000,closed,1,Quoting of associative array subscripts in assignments (ble.sh)
+645,2020-03-09 09:01:34.000000000,2020-03-11 05:39:36.000000000,closed,13,Common bash-compatible syntax to avoid expansion of (associative) array subscripts (ble.sh)
+644,2020-03-09 08:59:44.000000000,2020-03-09 10:41:28.000000000,closed,2,Syntax check of dynamic rvalue names in arithmetic expressions (ble.sh)
+643,2020-03-09 07:30:28.000000000,1970-01-01 00:00:00.000000001,open,3,[spec/brace-expansion] improve ~root test portability
+642,2020-03-09 02:53:33.000000000,2020-03-09 05:57:52.000000000,closed,1,[spec/builtin-dirs] swap /lib for more-portable /dev
+641,2020-03-09 01:04:18.000000000,2020-07-07 05:50:05.000000000,closed,0,Run mycpp translation in Travis
+640,2020-03-09 00:05:07.000000000,2020-04-19 21:38:06.000000000,closed,4,arith assignment where var name is dynamic doesn't work
+639,2020-03-08 23:37:15.000000000,2020-03-08 23:43:50.000000000,closed,2,fix flaky file completion order in builtin-completion
+638,2020-03-08 21:56:49.000000000,2020-03-08 22:01:07.000000000,closed,1,fix absolute executable path in errexit-oil spec
+637,2020-03-08 14:24:11.000000000,2020-03-25 22:14:44.000000000,closed,1," 'type' says control flow like 'return' is a builtin, but it's not in Oil"
+636,2020-03-08 06:56:57.000000000,1970-01-01 00:00:00.000000001,open,0,"Oil expression evaluator shouldn't be ""metacircular"""
+635,2020-03-08 03:35:44.000000000,1970-01-01 00:00:00.000000001,open,5,add diffable sh_spec output format
+634,2020-03-07 23:45:52.000000000,2020-03-08 01:51:45.000000000,closed,3,[WIP] more portable root user expansion
+633,2020-03-07 23:19:22.000000000,1970-01-01 00:00:00.000000001,open,0,Completion for the Oil expression language
+632,2020-03-07 23:18:39.000000000,1970-01-01 00:00:00.000000001,open,0,Builtins should complete their own flags
+631,2020-03-07 23:12:30.000000000,1970-01-01 00:00:00.000000001,open,0,Oil Blocks
+630,2020-03-07 22:59:22.000000000,1970-01-01 00:00:00.000000001,open,0,OilCommand lexer mode
+629,2020-03-07 22:48:04.000000000,1970-01-01 00:00:00.000000001,open,0,Fill out the doc/ tree
+628,2020-03-06 08:28:17.000000000,1970-01-01 00:00:00.000000001,open,3,IFS=: and : in literal word gives incorrect results
+627,2020-03-06 05:32:35.000000000,1970-01-01 00:00:00.000000001,open,9,Incorrect behavior of $@ and $*  when IFS=''
+626,2020-03-05 13:15:51.000000000,1970-01-01 00:00:00.000000001,open,0,Run podman/docker completions
+625,2020-03-05 02:57:22.000000000,1970-01-01 00:00:00.000000001,open,0,Allow @ sigil in expression mode
+624,2020-03-04 17:16:21.000000000,1970-01-01 00:00:00.000000001,open,4,zsh syntax hidden behind conditionals prevents running certain scripts with Oil (Run enhancd)
+623,2020-03-04 07:24:35.000000000,1970-01-01 00:00:00.000000001,open,18,`help` with no args fails after `build/dev.sh minimal`
+622,2020-03-04 07:24:08.000000000,1970-01-01 00:00:00.000000001,open,1,`let` not implemented
+621,2020-03-03 06:17:12.000000000,1970-01-01 00:00:00.000000001,open,0,failed command lookups in core/process_test.py
+620,2020-03-02 00:26:48.000000000,2020-03-25 22:14:58.000000000,closed,18,disallowing redirects on control flow too strict by default (Run ble.sh)
+619,2020-03-02 00:05:00.000000000,1970-01-01 00:00:00.000000001,open,7,"Implement bash-compatible DEBUG hook, and zsh-like preexec hook (and maybe others)"
+618,2020-03-01 13:07:11.000000000,2020-03-01 13:07:35.000000000,closed,1,help.md: add lost backticks
+617,2020-03-01 03:02:53.000000000,2020-03-01 03:19:12.000000000,closed,1,help.md: add lost back ticks
+616,2020-02-26 10:46:53.000000000,1970-01-01 00:00:00.000000001,open,5,allow users to write obscure shell operators with function call syntax
+615,2020-02-26 09:40:36.000000000,1970-01-01 00:00:00.000000001,open,0,Run rbenv
+614,2020-02-26 05:35:53.000000000,2020-02-26 06:08:19.000000000,closed,1,skip compl. tests that fail on darwin/macOS
+613,2020-02-26 04:06:44.000000000,2020-02-26 06:05:21.000000000,closed,1,skip libc tests that fail on darwin/macOS
+612,2020-02-25 11:37:52.000000000,1970-01-01 00:00:00.000000001,open,2,OSH behaves differently on libc's without extended glob
+611,2020-02-25 09:07:20.000000000,2020-02-26 06:05:20.000000000,closed,1,native/libc_test.py fails on OS X
+610,2020-02-23 22:29:27.000000000,1970-01-01 00:00:00.000000001,open,1,Implement dotglob
+609,2020-02-23 22:28:32.000000000,1970-01-01 00:00:00.000000001,open,0,Implement GLOBIGNORE
+608,2020-02-18 09:40:29.000000000,1970-01-01 00:00:00.000000001,open,2,cell sublanguage: a[i] support in -n (nameref) and ${!ref}
+607,2020-02-18 09:29:43.000000000,2020-02-18 09:49:54.000000000,closed,1,fix NoneType attribute error
+606,2020-02-17 23:50:37.000000000,1970-01-01 00:00:00.000000001,open,5,bash allows [[ x =~ (regex with space) ]] but Oil doesn't
+605,2020-02-17 13:58:05.000000000,2020-03-07 22:50:34.000000000,closed,1,regex parse failures 
+604,2020-02-17 11:43:29.000000000,1970-01-01 00:00:00.000000001,open,2,consider an IR for ${}
+603,2020-02-17 07:51:31.000000000,2020-03-21 09:50:20.000000000,closed,2,spec tests could detect unhandled exceptions in a foolproof way
+602,2020-02-16 01:57:35.000000000,2020-03-07 22:50:55.000000000,closed,1,${!f-} causes a crash
+601,2020-02-13 21:04:11.000000000,2020-02-13 23:41:19.000000000,closed,0,use nix idiom for shared lib extension
+600,2020-02-12 22:38:45.000000000,2020-03-07 22:50:48.000000000,closed,5,local -n flag not implemented
+599,2020-02-12 05:54:29.000000000,2020-02-13 11:06:13.000000000,closed,5,Nix shell
+598,2020-02-10 05:01:24.000000000,1970-01-01 00:00:00.000000001,open,0,Maybe provide different strictness / warning levels
+597,2020-02-07 23:06:38.000000000,1970-01-01 00:00:00.000000001,open,0,css fixes
+596,2020-02-05 15:11:44.000000000,1970-01-01 00:00:00.000000001,open,0,Run bocker (docker in bash)
+595,2020-02-02 00:53:09.000000000,1970-01-01 00:00:00.000000001,open,3,optimizations after initial translation
+594,2020-02-01 12:51:12.000000000,1970-01-01 00:00:00.000000001,open,0,pgen2 needs  a C code generator
+593,2020-02-01 12:49:53.000000000,1970-01-01 00:00:00.000000001,open,0,dynamic typing issues blocking translation
+592,2020-01-27 03:47:09.000000000,2020-01-27 05:07:13.000000000,closed,1,[translation] fix README typo
+591,2020-01-26 04:43:25.000000000,2020-01-27 00:09:54.000000000,closed,4,Add '-c' and '-d' arguments to history builtin
+590,2020-01-25 00:47:55.000000000,2020-01-25 00:52:48.000000000,closed,2,Spec test: `popd` empty directory stack
+589,2020-01-24 07:14:48.000000000,1970-01-01 00:00:00.000000001,open,1,shopt -s parse_paren could allow function call syntax
+588,2020-01-24 06:53:22.000000000,1970-01-01 00:00:00.000000001,open,2,"allow user control over ""first word lookup"" / generalization of $PATH"
+587,2020-01-24 06:32:04.000000000,1970-01-01 00:00:00.000000001,open,3,shortcut for $(dirname $(readlink -f $0))
+586,2020-01-22 13:15:04.000000000,1970-01-01 00:00:00.000000001,open,2,Implement setref
+585,2020-01-21 22:17:19.000000000,2020-01-22 00:41:48.000000000,closed,4,[types] add type annotations to osh/word_eval.py
+584,2020-01-21 07:28:59.000000000,2020-01-21 23:32:05.000000000,closed,1,[types] add scripts/function to help maintain correct imports when adding type annotation
+583,2020-01-20 13:23:10.000000000,1970-01-01 00:00:00.000000001,open,1,Better tracing for Oil
+582,2020-01-20 04:17:00.000000000,1970-01-01 00:00:00.000000001,open,5,"QSN serialization format: parser,  printer, builtin"
+581,2020-01-16 04:14:26.000000000,2020-01-20 13:12:19.000000000,closed,3,BASH_SOURCE should be referencable as string (virtualenv)
+580,2020-01-16 03:55:03.000000000,2020-01-22 00:46:20.000000000,closed,3,Implements `times` builtin
+579,2020-01-15 12:03:50.000000000,2020-01-20 13:12:32.000000000,closed,1,warn about export -f (suggest source)
+578,2020-01-15 11:59:17.000000000,1970-01-01 00:00:00.000000001,open,0,implement shopt -s cdable_vars
+577,2020-01-15 08:11:39.000000000,2020-07-22 09:06:27.000000000,closed,7,Run rustup
+576,2020-01-15 07:44:57.000000000,1970-01-01 00:00:00.000000001,open,0,implement $SECONDS
+575,2020-01-15 06:31:15.000000000,2020-01-15 12:02:39.000000000,closed,2, 'shopt' got invalid option 'autocd'
+574,2020-01-15 06:30:32.000000000,2020-01-20 13:12:40.000000000,closed,6,stub out shopt options (was 'shopt' got invalid option 'cdable_vars')
+573,2020-01-15 06:29:39.000000000,1970-01-01 00:00:00.000000001,open,6,implement shopt -s checkwinsize
+572,2020-01-15 03:01:39.000000000,2020-01-15 13:11:27.000000000,closed,8,sbp script doesn't work in oil
+571,2020-01-12 23:46:21.000000000,2020-03-07 22:51:05.000000000,closed,3,[oil-language] interactive sessions shouldn't force you to distinguish between var and setvar
+570,2020-01-11 10:33:21.000000000,2020-01-15 11:57:24.000000000,closed,0,dev build requires doctools/cmark.py and libcmark.so
+569,2020-01-11 00:53:23.000000000,1970-01-01 00:00:00.000000001,open,3,Make Oil a native binary
+568,2019-12-24 01:06:06.000000000,1970-01-01 00:00:00.000000001,open,1,mycpp tool improvements
+567,2019-12-23 09:13:37.000000000,1970-01-01 00:00:00.000000001,open,0,more efficient $LINENO etc.
+566,2019-12-20 11:36:56.000000000,1970-01-01 00:00:00.000000001,open,2,Eggex syntax issues
+565,2019-12-20 07:13:52.000000000,2019-12-20 07:54:04.000000000,closed,3,"Assorted fixes, etc.   Aftermath of type-checking osh/cmd_exec.py"
+564,2019-12-19 03:21:21.000000000,2020-02-01 12:53:12.000000000,closed,1,refactoring / issues uncovered by static typing
+563,2019-12-19 00:19:05.000000000,1970-01-01 00:00:00.000000001,open,0,mycpp inefficiencies
+562,2019-12-18 00:52:23.000000000,1970-01-01 00:00:00.000000001,open,1,Implement history -a
+561,2019-12-17 08:50:24.000000000,2019-12-17 23:18:52.000000000,closed,5,Add typechecking to osh/cmd_exec.py
+560,2019-12-15 14:34:03.000000000,1970-01-01 00:00:00.000000001,open,2,Make mylib Str* more like a slice (and audit NUL termination)
+559,2019-12-15 14:31:55.000000000,2020-08-17 20:34:06.000000000,closed,1,Optimize representation of Arena in core/alloc.py
+558,2019-12-08 06:56:55.000000000,2020-01-19 13:09:42.000000000,closed,1,async UI features
+557,2019-12-06 11:32:38.000000000,2019-12-07 08:26:58.000000000,closed,4,[types] Add type annotations for oil_lang/objects.py [tentative]
+556,2019-12-06 09:44:03.000000000,2019-12-06 09:59:54.000000000,closed,1,Add typechecking for 2 more files
+555,2019-12-02 13:32:17.000000000,2019-12-02 15:00:38.000000000,closed,0,[devtools] Add uninstall script akin to the install script
+554,2019-12-01 21:39:24.000000000,2019-12-01 22:35:30.000000000,closed,1,GitHub releases
+553,2019-12-01 20:47:15.000000000,2019-12-02 12:57:43.000000000,closed,3,Starter for json module
+552,2019-12-01 06:52:26.000000000,2020-03-19 22:58:25.000000000,closed,37,security feature: shopt -s no_glob_dash or safer_glob
+551,2019-12-01 00:10:46.000000000,1970-01-01 00:00:00.000000001,open,10,Oil doesn't work interactively on OS X because of the native/line_input binding
+550,2019-11-28 22:26:09.000000000,2019-11-28 22:56:21.000000000,closed,2,Get osh/split.py type checked
+549,2019-11-28 11:05:49.000000000,2019-11-28 12:04:49.000000000,closed,2,[fix] fix osh/state_test.py incorrectly assuming where env binary will *not* be
+548,2019-11-28 10:31:45.000000000,2019-11-28 10:39:17.000000000,closed,1,[doc] clarify docstring of frontend/syntax_abbrev.py
+547,2019-11-28 10:19:11.000000000,1970-01-01 00:00:00.000000001,open,1,Provide a mechanism to bundle Oil scripts into a single file with the interpreter
+546,2019-11-28 07:44:15.000000000,1970-01-01 00:00:00.000000001,open,0,enable builtin could be a no-op
+545,2019-11-28 07:37:47.000000000,2019-12-08 06:50:33.000000000,closed,2,Implement ${!PREFIX_*} and ${!PREFIX_@}
+544,2019-11-28 07:31:13.000000000,1970-01-01 00:00:00.000000001,open,0,implement compgen -A builtin
+543,2019-11-28 00:16:01.000000000,1970-01-01 00:00:00.000000001,open,0,Make Python generated from ASDL  match generated C++
+542,2019-11-27 22:27:33.000000000,2019-11-27 23:22:42.000000000,closed,4,Add annotations and enable typechecking for osh/word_compile.py and osh/builtin_bracket.py
+541,2019-11-26 10:35:26.000000000,2020-04-29 22:40:05.000000000,closed,1,Proper C++ test framework
+540,2019-11-26 05:07:39.000000000,2020-01-15 08:00:57.000000000,closed,1,Translate Oil parser to C++
+539,2019-11-25 23:03:32.000000000,2020-03-07 22:51:17.000000000,closed,1,Implement IFS and other options to split()
+538,2019-11-19 02:26:29.000000000,1970-01-01 00:00:00.000000001,open,1,Implement `hash -p`
+537,2019-11-19 00:17:20.000000000,2020-03-25 22:15:14.000000000,closed,7,Implement `test -v` and `test -k`
+536,2019-11-14 22:37:15.000000000,1970-01-01 00:00:00.000000001,open,3,Suggestion: provide a way to query sourced scripts
+535,2019-11-13 08:43:37.000000000,2019-11-13 09:05:56.000000000,closed,2,[types] get frontend/location.py passing with mypy
+534,2019-11-12 09:41:29.000000000,2019-11-13 00:48:04.000000000,closed,1,"[types] Convert type checking to use config file for mypy, remove assert-one-error hack"
+533,2019-11-12 02:38:33.000000000,1970-01-01 00:00:00.000000001,open,1,Validate the HTML we generate
+532,2019-11-11 23:27:19.000000000,1970-01-01 00:00:00.000000001,open,2,Improve the help builtin and toolchain
+531,2019-11-11 08:12:15.000000000,2019-11-11 08:15:40.000000000,closed,15,[fix] extra import of pprint in devtools/make_help.py can cause error
+530,2019-11-10 23:04:04.000000000,2020-01-15 08:02:28.000000000,closed,3,Python / Oil runtime changes
+529,2019-11-09 13:11:22.000000000,1970-01-01 00:00:00.000000001,open,7,"Support LANG=C, LC_ALL=C, etc. (Problems with extended ASCII in strings)"
+528,2019-11-09 01:43:27.000000000,2019-11-11 03:51:06.000000000,closed,4,consider shopt -s utf8
+527,2019-11-09 01:32:50.000000000,1970-01-01 00:00:00.000000001,open,3,"Allow registering internal hooks when variables are changed, e.g. LANG"
+526,2019-11-08 10:05:16.000000000,2019-11-08 10:46:51.000000000,closed,1,"[test/spec] fix var-op-patsub ""Substitute one unicode character"" test"
+525,2019-11-08 04:06:06.000000000,2019-11-09 02:03:19.000000000,closed,1,"If oil is an upgrade to bash, why is it's license downgraded to allow denying freedom to its users?"
+524,2019-11-05 00:35:54.000000000,1970-01-01 00:00:00.000000001,open,0,Smoosh test harness divergences
+523,2019-11-04 22:59:25.000000000,1970-01-01 00:00:00.000000001,open,1,Consider writing our own glob and fnmatch()
+522,2019-11-04 22:50:46.000000000,2019-11-09 02:02:50.000000000,closed,11,Test effect of locale environment variables on Oil
+521,2019-10-31 21:53:02.000000000,2019-12-08 06:54:22.000000000,closed,1,Refactorings uncovered by type checking
+520,2019-10-30 19:08:19.000000000,2019-10-31 08:06:07.000000000,closed,9,Fix handling of unicode in affix removal (${s#?} and ${s%?})
+519,2019-10-30 13:41:26.000000000,2020-01-15 08:04:48.000000000,closed,2,doc toolchain should support fenced code blocks
+518,2019-10-29 21:33:21.000000000,1970-01-01 00:00:00.000000001,open,6,Add type annotations for the rest of the codebase
+517,2019-10-29 08:05:59.000000000,2019-10-29 09:37:42.000000000,closed,4,[spec/builtin-printf] Implement printf %d \'c to print the numeric value of char c
+516,2019-10-23 16:58:40.000000000,2019-11-12 04:51:05.000000000,closed,8,break/continue are not scoped to while/until loops when in their conditions
+515,2019-10-23 00:25:16.000000000,1970-01-01 00:00:00.000000001,open,0,interactive docs
+514,2019-10-22 22:31:45.000000000,2020-01-15 08:06:46.000000000,closed,1,Maybe change range syntax to allow inclusive ranges (closed ranges)
+513,2019-10-22 20:51:05.000000000,1970-01-01 00:00:00.000000001,open,5,Put dev dependencies in Nix or Guix
+512,2019-10-22 09:04:13.000000000,2019-10-29 21:36:24.000000000,closed,5,Add title to docs
+511,2019-10-21 10:57:38.000000000,2020-02-13 13:17:18.000000000,closed,4,Nix development environment
+510,2019-10-21 07:59:30.000000000,1970-01-01 00:00:00.000000001,open,2,Nonblocking / cancellable completion
+509,2019-10-20 22:50:19.000000000,2020-02-15 16:36:53.000000000,closed,17,Add Nix based development environment
+508,2019-10-09 00:26:13.000000000,1970-01-01 00:00:00.000000001,open,5,yajl binding improvements
+507,2019-10-06 17:15:28.000000000,2019-11-12 04:51:15.000000000,closed,5,Error and some docs mention strict-arith instead of strict_arith
+506,2019-10-06 11:13:59.000000000,2019-11-12 04:51:25.000000000,closed,3,build errors on aarch64
+505,2019-10-04 09:38:04.000000000,2019-11-12 04:51:34.000000000,closed,4,"doc toolchain enhancements ( <title> tag, etc.)"
+504,2019-10-04 09:17:54.000000000,1970-01-01 00:00:00.000000001,open,0,bin/oil prints errors on status 1 because errexit is on
+503,2019-10-04 06:03:54.000000000,2020-03-26 05:14:05.000000000,closed,2,Explicit file descriptors are leaked in some cases
+502,2019-10-03 23:57:18.000000000,1970-01-01 00:00:00.000000001,open,0,Unique tags for syntax/runtime error messages
+501,2019-10-03 23:56:31.000000000,1970-01-01 00:00:00.000000001,open,0,shopt should respect set -o options
+500,2019-10-03 01:41:38.000000000,1970-01-01 00:00:00.000000001,open,9,Issues after running/exiting shells from OSH
+499,2019-10-02 06:07:22.000000000,1970-01-01 00:00:00.000000001,open,0,Allow running bash-completion in bin/oil (functions have option tags?)
+498,2019-10-02 06:04:55.000000000,1970-01-01 00:00:00.000000001,open,1,Provide a prompt hook in bin/oil
+497,2019-09-30 21:00:52.000000000,1970-01-01 00:00:00.000000001,open,1,Oil command/word syntax after V1
+496,2019-09-29 13:36:58.000000000,1970-01-01 00:00:00.000000001,open,0,Oil expression syntax after V1
+495,2019-09-27 23:17:16.000000000,2020-01-15 08:07:31.000000000,closed,2,Leftover Python Features for Oil
+494,2019-09-26 11:31:52.000000000,2020-01-15 08:02:48.000000000,closed,1,Fold sliceobject into rangeobject
+493,2019-09-26 07:03:56.000000000,2020-03-07 22:55:44.000000000,closed,0,Oil language stdlib issues
+492,2019-09-24 22:12:06.000000000,1970-01-01 00:00:00.000000001,open,0,Expose ASDL structures in Oil itself
+491,2019-09-24 22:03:55.000000000,1970-01-01 00:00:00.000000001,open,0,Eggex reference implementation
+490,2019-09-24 22:01:41.000000000,1970-01-01 00:00:00.000000001,open,0,Eggex TODO
+489,2019-09-24 15:03:13.000000000,2019-09-24 19:59:23.000000000,closed,1,[doc] Improve grammar in regex doc FAQ entry.
+488,2019-09-24 01:13:56.000000000,1970-01-01 00:00:00.000000001,open,0,Write eggex translators to POSIX BRE and PCRE / Perl / Python
+487,2019-09-23 11:42:12.000000000,1970-01-01 00:00:00.000000001,open,0,Improve error message for if( ... ) when parse_paren isn't on
+486,2019-09-17 19:22:59.000000000,1970-01-01 00:00:00.000000001,open,4,Cannot suspend
+485,2019-09-15 22:56:16.000000000,2019-10-06 11:37:31.000000000,closed,1,bin/oil should be OSH with shopt -s oil:all
+484,2019-09-14 05:01:34.000000000,1970-01-01 00:00:00.000000001,open,0,implement set -C / set -o noclobber
+483,2019-09-13 21:28:22.000000000,2020-01-15 12:04:40.000000000,closed,2,Support 1_000.123_456 in floating point literals
+482,2019-09-12 00:46:07.000000000,1970-01-01 00:00:00.000000001,open,6,Consider turning off alias in Oil and doing static parsing of the whole file up front?
+481,2019-09-11 23:28:40.000000000,2020-01-15 08:10:07.000000000,closed,2,Consider making repr a keyword
+480,2019-09-11 17:40:44.000000000,2019-09-12 02:04:39.000000000,closed,2,Fix a typo and capitalization of section titles
+479,2019-09-09 22:44:42.000000000,2020-05-27 10:46:24.000000000,closed,2,Make dev build in a container
+478,2019-09-07 09:24:01.000000000,1970-01-01 00:00:00.000000001,open,0,Ideas for lint / translation tool
+477,2019-09-07 09:12:41.000000000,1970-01-01 00:00:00.000000001,open,1,Oil language syntactic/semantic issues
+476,2019-09-07 01:32:27.000000000,1970-01-01 00:00:00.000000001,open,3,consider a different definition of strict_errexit
+475,2019-09-07 01:31:18.000000000,1970-01-01 00:00:00.000000001,open,0,consider copying errexit flag into Execute() loop instead of keeping a stack
+474,2019-09-05 23:02:42.000000000,1970-01-01 00:00:00.000000001,open,5,"provide 'checked' wrapper for grep, test, etc."
+473,2019-09-02 22:52:28.000000000,2019-09-03 10:33:41.000000000,closed,0,git completion error: grep: ^  [a-zA-Z0-9]: No such file or directory
+472,2019-08-26 02:59:39.000000000,1970-01-01 00:00:00.000000001,open,0,"Implement shell options to get rid of all instances of the ""else-whatever"" antipattern"
+471,2019-08-26 02:45:10.000000000,2019-09-03 10:34:18.000000000,closed,1,strict-errexit should be renamed
+470,2019-08-22 23:31:20.000000000,2019-08-26 21:07:54.000000000,closed,1,interactive error messages get attributed to wrong file
+469,2019-08-19 21:36:07.000000000,1970-01-01 00:00:00.000000001,open,3,Replacement / enhancement for getopts
+468,2019-08-19 21:30:07.000000000,1970-01-01 00:00:00.000000001,open,1,Allow defining subsets of OSH
+467,2019-08-18 19:14:29.000000000,1970-01-01 00:00:00.000000001,open,1,Ctrl-C in command substitution exits parent shell
+466,2019-08-18 11:02:16.000000000,2019-08-18 11:33:45.000000000,closed,1,[configure] better usage message
+465,2019-08-17 23:02:50.000000000,1970-01-01 00:00:00.000000001,open,3,Provide long options for all builtins
+464,2019-08-17 22:52:23.000000000,1970-01-01 00:00:00.000000001,open,2,Write wrappers for all POSIX utils that support GNU-style long options
+463,2019-08-17 01:06:16.000000000,1970-01-01 00:00:00.000000001,open,1,"Provide an automated way to download, compile, and run the latest released version of OSH"
+462,2019-08-16 18:45:32.000000000,1970-01-01 00:00:00.000000001,open,2,"Illegal syntax is caught during execution, not parsing"
+461,2019-08-16 14:45:05.000000000,2019-08-17 01:20:37.000000000,closed,1,#456
+460,2019-08-14 19:48:07.000000000,1970-01-01 00:00:00.000000001,open,2,"Build OSH with other line editing libraries (libedit, etc.)"
+459,2019-08-14 17:46:53.000000000,1970-01-01 00:00:00.000000001,open,5,Set $LINES and $COLUMNS
+458,2019-08-14 16:33:45.000000000,2019-08-16 00:34:55.000000000,closed,3,./configure and $DESTDIR
+457,2019-08-13 15:48:28.000000000,2019-08-16 12:02:14.000000000,closed,2,"./configure should warn about unknown arguments, but not die"
+456,2019-08-13 15:28:41.000000000,2019-08-17 11:14:05.000000000,closed,5,./install should respect $DESTDIR
+455,2019-08-06 02:39:35.000000000,2019-08-10 00:43:52.000000000,closed,4,`pwd` builtin does not respect symbolic links
+454,2019-07-30 08:49:19.000000000,1970-01-01 00:00:00.000000001,open,0,Try running bash-it
+453,2019-07-30 05:24:56.000000000,1970-01-01 00:00:00.000000001,open,1,Namespaces / modules for shell functions and variables
+452,2019-07-29 21:36:16.000000000,1970-01-01 00:00:00.000000001,open,2,Consider expanding history as part of the parser
+451,2019-07-29 20:56:19.000000000,2019-08-10 00:44:13.000000000,closed,2,Don't expand history in comments
+450,2019-07-29 09:27:41.000000000,2020-07-07 05:49:56.000000000,closed,2,"Tilde expansion has to happen after colon, e.g. var=:~"
+449,2019-07-28 21:08:23.000000000,2019-08-10 00:44:24.000000000,closed,1,Remove bash style arith sub $[ ]
+448,2019-07-27 21:19:55.000000000,1970-01-01 00:00:00.000000001,open,2,Run modernish tests
+447,2019-07-27 08:40:54.000000000,2019-09-03 10:34:27.000000000,closed,1,OverflowError in `test` builtin
+446,2019-07-25 10:36:08.000000000,2019-07-27 07:33:34.000000000,closed,0,failing osh2oil translations
+445,2019-07-24 23:26:35.000000000,2019-07-27 07:36:33.000000000,closed,1,implement printf %b
+444,2019-07-24 08:22:55.000000000,2019-07-29 10:25:20.000000000,closed,2,shopt -s strict-array enhancements
+443,2019-07-24 05:54:17.000000000,1970-01-01 00:00:00.000000001,open,5,ASDL enhancements
+442,2019-07-23 01:59:12.000000000,1970-01-01 00:00:00.000000001,open,2,[Feature Request] Autocomplete brace expansion
+441,2019-07-20 06:43:18.000000000,2020-03-07 22:52:39.000000000,closed,11,Implement `times` builtin
+440,2019-07-20 04:58:34.000000000,2019-07-20 07:39:50.000000000,closed,3,Feature request: `[ -n ]` should return 1
+439,2019-07-19 05:12:56.000000000,1970-01-01 00:00:00.000000001,open,0,Automate interactive tests somehow
+438,2019-07-19 03:08:52.000000000,2019-07-25 21:04:20.000000000,closed,6,read -n bug
+437,2019-07-19 02:35:42.000000000,2019-07-20 21:23:46.000000000,closed,7,Read in unbuffered mode for `read -n`
+436,2019-07-18 07:39:38.000000000,1970-01-01 00:00:00.000000001,open,2,IFS splits non variables when containing a backslash
+435,2019-07-18 07:01:17.000000000,2019-11-12 04:51:42.000000000,closed,3,implement printf %d \'c to print the numeric value of char c
+434,2019-07-18 04:31:37.000000000,1970-01-01 00:00:00.000000001,open,0,Add optional color to error messages
+433,2019-07-18 02:04:03.000000000,2019-07-18 04:19:30.000000000,closed,2,[devtools] Add make-all helper function to spec-bin.sh
+432,2019-07-16 05:34:08.000000000,2019-07-17 23:35:50.000000000,closed,6,Line is not deleted on failed readline completion
+431,2019-07-16 04:38:52.000000000,2019-07-16 06:24:13.000000000,closed,1,Don't run c_parser.Reset when exiting
+430,2019-07-16 04:09:49.000000000,2019-07-17 23:19:30.000000000,closed,2,"exit OSH with 'Ctrl-D' tries to render one last time, which can have side effects"
+429,2019-07-14 22:52:53.000000000,1970-01-01 00:00:00.000000001,open,2,arithmetic operators should be tokens with location info
+428,2019-07-14 02:33:56.000000000,1970-01-01 00:00:00.000000001,open,0,Run asdf
+427,2019-07-13 15:47:12.000000000,2019-07-16 03:59:12.000000000,closed,1,Feature request: allow plugins to be interrupted
+426,2019-07-13 15:41:01.000000000,1970-01-01 00:00:00.000000001,open,1,Exceptions in runtime build are not reported (get rid of atexit module)
+425,2019-07-13 07:07:15.000000000,1970-01-01 00:00:00.000000001,open,3,Revisit the exit code of assignments
+424,2019-07-12 23:51:51.000000000,2019-07-16 08:14:30.000000000,closed,8,Release tags missing
+423,2019-07-12 10:09:23.000000000,2019-07-17 23:19:43.000000000,closed,9,exit and return default value is 0
+422,2019-07-12 03:26:40.000000000,2019-07-17 23:19:53.000000000,closed,7,Run z (test -O and -G)
+421,2019-07-12 01:33:38.000000000,2019-07-12 09:30:31.000000000,closed,2,Add changes to ./configure to build on FreeBSD
+420,2019-07-11 15:18:14.000000000,2019-07-12 01:03:08.000000000,closed,2,[Regression] devtools/release.sh fails
+419,2019-07-11 06:15:18.000000000,1970-01-01 00:00:00.000000001,open,4,Does not behave properly for Ctrl-V <interrupt key>
+418,2019-07-10 10:14:29.000000000,2019-07-29 10:27:55.000000000,closed,4,install the man page
+417,2019-07-09 21:42:10.000000000,1970-01-01 00:00:00.000000001,open,4,test our find and xargs
+416,2019-07-09 11:11:41.000000000,2019-07-17 23:20:02.000000000,closed,3,Exclamation mark waits for background processes to finish
+415,2019-07-07 22:41:52.000000000,1970-01-01 00:00:00.000000001,open,8,add portable nproc shim
+414,2019-07-07 21:47:05.000000000,2019-07-17 08:10:13.000000000,closed,17,Take a stab at PROMPT_COMMAND
+413,2019-07-07 20:38:34.000000000,2019-07-07 22:17:28.000000000,closed,3,Don't crash when parsing regexes on FreeBSD
+412,2019-07-07 18:03:12.000000000,1970-01-01 00:00:00.000000001,open,2,Remove dependency on bash in tarball
+411,2019-07-07 06:54:06.000000000,2019-10-29 21:38:23.000000000,closed,7,Add POSIX compatibility for release scripts
+410,2019-07-07 00:54:11.000000000,2019-07-07 06:47:33.000000000,closed,16,Frozen pyconfig.h causes compile error on FreeBSD
+409,2019-07-06 23:55:03.000000000,2019-07-07 00:27:49.000000000,closed,0,Use python2 version of flake8
+408,2019-07-06 23:47:25.000000000,1970-01-01 00:00:00.000000001,open,5,test/lint.sh should check for 2 space indent
+407,2019-07-06 23:27:02.000000000,1970-01-01 00:00:00.000000001,open,0,Handle NUL bytes in strings everywhere
+406,2019-07-06 23:23:07.000000000,2019-07-06 23:46:32.000000000,closed,0,Add property testing using hypothesis
+405,2019-07-06 22:33:49.000000000,2019-07-25 21:04:33.000000000,closed,3,allow redirects on declare when used as a builtin
+404,2019-07-06 22:12:21.000000000,2019-07-17 23:20:12.000000000,closed,2,printf crashes when run without arguments
+403,2019-07-06 21:40:43.000000000,2019-07-06 22:28:59.000000000,closed,0,Add location information for ~
+402,2019-07-06 21:34:35.000000000,2019-07-06 23:44:43.000000000,closed,2,Allow prompts to contain newline
+401,2019-07-06 21:26:39.000000000,1970-01-01 00:00:00.000000001,open,0,Autocomplete resets terminal colors
+400,2019-07-06 18:30:43.000000000,1970-01-01 00:00:00.000000001,open,9,Run bash-git-prompt
+399,2019-07-06 07:26:56.000000000,2020-03-07 22:52:51.000000000,closed,3,Add -c and -d options to history
+398,2019-07-06 01:13:31.000000000,2019-07-17 23:20:22.000000000,closed,2,Crash if terminal goes from interactive to non-interactive
+397,2019-07-05 23:46:28.000000000,1970-01-01 00:00:00.000000001,open,0,check and enable errors  in bash POSIX mode
+396,2019-07-04 20:47:13.000000000,2019-07-04 22:58:43.000000000,closed,2,spec tests should automatically start with $PWD of $TMP
+395,2019-07-04 09:54:16.000000000,2019-07-17 23:20:30.000000000,closed,1,exit from sourced file does not exit caller
+394,2019-07-04 08:58:18.000000000,2019-07-17 23:20:43.000000000,closed,18,wcswidth() returning -1 not handled (and newline in PS1 not handled)
+393,2019-07-04 04:10:06.000000000,2019-07-04 20:54:05.000000000,closed,0,Lookup files to be sourced in $PATH
+392,2019-07-03 06:31:00.000000000,2019-07-27 07:34:08.000000000,closed,2,"local / declare, etc. can't be aliased"
+391,2019-07-03 06:27:42.000000000,2019-07-25 21:04:45.000000000,closed,2,declare / typeset / etc. don't validate flags when statically parsed
+390,2019-07-03 04:51:33.000000000,1970-01-01 00:00:00.000000001,open,1,`set -x` looks weird for assignments
+389,2019-07-03 04:28:52.000000000,2019-07-17 23:20:52.000000000,closed,2,`source` does not respect $PATH
+388,2019-07-02 20:13:09.000000000,1970-01-01 00:00:00.000000001,open,2,Write osh/builtin_docgen.py
+387,2019-07-02 09:46:05.000000000,2020-02-02 06:35:04.000000000,closed,2,Turn Oil's expression grammar into an AST
+386,2019-06-30 22:22:30.000000000,2019-07-05 20:49:56.000000000,closed,11,MVP for find and xargs
+385,2019-06-29 11:32:50.000000000,2019-07-01 23:23:15.000000000,closed,2,${var#*} and ${var%*} remove a char
+384,2019-06-28 06:13:42.000000000,2019-06-28 06:47:40.000000000,closed,3,osh gives spurious I/O error on winsizechange
+383,2019-06-27 23:45:24.000000000,2019-07-06 09:05:12.000000000,closed,0,Dogfood strict options
+382,2019-06-27 11:15:23.000000000,2019-08-02 23:34:09.000000000,closed,1,Implement __syntax__ pragmas
+381,2019-06-27 10:19:08.000000000,2019-07-01 23:23:28.000000000,closed,1,Move and document strict options
+380,2019-06-27 08:59:13.000000000,1970-01-01 00:00:00.000000001,open,1,Redirecting a file descriptor to itself fails
+379,2019-06-27 08:27:49.000000000,2019-07-01 23:23:39.000000000,closed,1,home page and release page design  tweaks
+378,2019-06-26 12:10:58.000000000,2019-07-01 23:23:51.000000000,closed,4,What should I use instead of printf %x?
+377,2019-06-26 11:08:03.000000000,2019-07-01 23:24:02.000000000,closed,2,Redirection corner case 2&>1
+376,2019-06-26 10:01:55.000000000,2019-07-01 23:24:18.000000000,closed,2,OS X build error
+375,2019-06-26 08:40:22.000000000,2019-06-27 05:32:02.000000000,closed,0,OSH_HIJACK_SHEBANG broken
+374,2019-06-25 07:54:16.000000000,2019-06-26 10:25:07.000000000,closed,3,"""$*"" does not follow POSIX when IFS is unset"
+373,2019-06-25 07:46:23.000000000,2019-06-26 10:25:15.000000000,closed,1,Crash when using $* with an empty IFS
+372,2019-06-25 07:34:55.000000000,2019-06-26 10:25:32.000000000,closed,4,IFS splits non variables
+371,2019-06-24 23:57:00.000000000,1970-01-01 00:00:00.000000001,open,0,errors for break / continue / exit when used dynamically
+370,2019-06-24 09:17:44.000000000,2019-06-26 10:25:48.000000000,closed,2,crash in declare builtin
+369,2019-06-23 23:58:25.000000000,1970-01-01 00:00:00.000000001,open,1,"OSH should have completion logic for its own builtins, e.g. cd"
+368,2019-06-23 18:05:41.000000000,2019-07-04 08:36:12.000000000,closed,5,Take unicode into account when calculating display width
+367,2019-06-23 12:20:06.000000000,1970-01-01 00:00:00.000000001,open,0,exec_deps.trap_nodes should be cleared on fork
+366,2019-06-23 06:48:40.000000000,1970-01-01 00:00:00.000000001,open,1,Consider using a utf-8 library in C
+365,2019-06-23 05:15:50.000000000,2019-07-04 21:05:50.000000000,closed,2,Run files with /bin/sh if shebang is missing
+364,2019-06-23 00:13:05.000000000,2019-07-18 04:32:43.000000000,closed,6,No location info when sourcing ~
+363,2019-06-22 23:02:22.000000000,1970-01-01 00:00:00.000000001,open,1,"Mode or operator to get length in bytes, rather than # code points"
+362,2019-06-22 22:27:45.000000000,1970-01-01 00:00:00.000000001,open,0,Run 'thefuck'
+361,2019-06-22 21:31:43.000000000,2019-06-26 10:25:59.000000000,closed,2,test -c isn't implemented
+360,2019-06-22 21:04:41.000000000,1970-01-01 00:00:00.000000001,open,5,Implement the rest of job control
+359,2019-06-22 12:21:08.000000000,2019-06-26 10:26:07.000000000,closed,1,retry waitpid on EINTR
+358,2019-06-22 09:57:04.000000000,1970-01-01 00:00:00.000000001,open,0,"implement history -p (history expansion, analogous to @P for prompts)"
+357,2019-06-22 09:48:46.000000000,2020-03-25 22:15:25.000000000,closed,1,implement printf %b to do backslash escaping
+356,2019-06-22 09:47:47.000000000,2020-03-25 22:15:49.000000000,closed,2,Implement read -d and other options
+355,2019-06-20 21:42:40.000000000,2019-07-17 23:21:00.000000000,closed,3,Implement hash / hash -r for speed
+354,2019-06-20 21:38:48.000000000,2019-08-10 00:44:55.000000000,closed,1,implement typeset +r to run modernish
+353,2019-06-20 20:20:47.000000000,1970-01-01 00:00:00.000000001,open,2,printf with %d requires an integer while POSIX doesn't
+352,2019-06-20 20:16:14.000000000,2019-06-26 10:26:14.000000000,closed,1,Implement printf '%.30s' to truncate
+351,2019-06-20 05:03:27.000000000,1970-01-01 00:00:00.000000001,open,0,POSIX compliance issues
+350,2019-06-20 03:42:40.000000000,2019-06-20 04:41:21.000000000,closed,1,fix: TravisCI linter by not importing unused sys
+349,2019-06-20 03:40:15.000000000,1970-01-01 00:00:00.000000001,open,0,buildtin: Add first version of bind
+348,2019-06-20 03:27:09.000000000,2019-06-20 04:50:11.000000000,closed,1,expr_eval: Implement `[[ -o val ]]` option
+347,2019-06-20 01:00:02.000000000,2019-07-02 12:26:12.000000000,closed,2,consider status = NoChange | Simple(int) | Pipeline(int*)
+346,2019-06-20 00:53:12.000000000,1970-01-01 00:00:00.000000001,open,1,"print source.ArgvWord in a nicer way, e.g. for printf/eval/trap/etc."
+345,2019-06-19 02:10:13.000000000,1970-01-01 00:00:00.000000001,open,2,create ~/.config/oil/ if missing at invocation
+344,2019-06-18 22:06:14.000000000,1970-01-01 00:00:00.000000001,open,1,take advantage of the ability to display descriptions next to completion candidates
+343,2019-06-17 23:44:03.000000000,2019-07-25 21:04:54.000000000,closed,2,throw an error on local/declare -n
+342,2019-06-17 23:13:33.000000000,2019-07-01 23:25:16.000000000,closed,2,"arrays like ""$@"" and :- = operators don't agree with other shells (3 var-op-test failures)"
+341,2019-06-17 11:59:25.000000000,2019-07-17 23:21:12.000000000,closed,4,disallow accessing array as $a rather than ${a[@]}
+340,2019-06-15 22:26:36.000000000,1970-01-01 00:00:00.000000001,open,4,"OSH could print a list of functions for ""run"" scripts using ""$@"" "
+339,2019-06-15 19:16:12.000000000,1970-01-01 00:00:00.000000001,open,1,Implement `bind` builtin
+338,2019-06-15 19:15:23.000000000,2019-06-20 04:50:11.000000000,closed,0,Implement test -o to test if an option is set
+337,2019-06-15 15:36:52.000000000,2019-07-10 10:00:37.000000000,closed,21,Update man page to use (semantic) mdoc macros
+336,2019-06-15 13:35:54.000000000,2019-06-15 22:25:16.000000000,closed,0,"build/dev.sh: When no arguments, print usage"
+335,2019-06-14 19:28:05.000000000,1970-01-01 00:00:00.000000001,open,1,getopts doesn't allow -ab instead of -a -b
+334,2019-06-13 22:50:02.000000000,2019-07-17 23:23:01.000000000,closed,9,Write and deploy a man page
+333,2019-06-12 04:36:48.000000000,2019-06-12 06:29:52.000000000,closed,1,AssertionError on double quotes
+332,2019-06-12 04:34:01.000000000,2019-06-12 06:29:32.000000000,closed,3,ValueError when evaluating environment variable
+331,2019-06-11 03:36:48.000000000,1970-01-01 00:00:00.000000001,open,8,Fix POSIX compliance issues uncovered by smoosh (Run smoosh test suite and make a report)
+330,2019-06-08 08:07:56.000000000,1970-01-01 00:00:00.000000001,open,1,spec tests get stopped (flakiness)
+329,2019-06-07 23:59:37.000000000,2019-06-11 12:29:09.000000000,closed,13,Setting a variable in a 'temp binding' sets a global instead
+328,2019-06-07 20:38:12.000000000,2019-06-26 10:26:46.000000000,closed,1,trap SIGTERM gets run twice
+327,2019-06-06 22:43:33.000000000,2019-06-25 06:29:27.000000000,closed,2,Parsing error with backticks
+326,2019-06-04 23:14:58.000000000,1970-01-01 00:00:00.000000001,open,4,Write a process pool for xargs -P (maybe in C)
+325,2019-06-03 16:17:23.000000000,2019-06-03 16:23:49.000000000,closed,0,merge xargs.py into oil
+324,2019-06-01 01:56:33.000000000,1970-01-01 00:00:00.000000001,open,0,"history should not behave like a ""two-level store"""
+323,2019-05-31 21:11:59.000000000,1970-01-01 00:00:00.000000001,open,4,history file could be structured data
+322,2019-05-31 04:51:14.000000000,1970-01-01 00:00:00.000000001,open,9,Run fzf
+321,2019-05-31 04:43:59.000000000,2019-07-18 04:30:41.000000000,closed,2,implement PROMPT_COMMAND
+320,2019-05-31 04:33:52.000000000,1970-01-01 00:00:00.000000001,open,12,history should be customizable by the end user (HN thread summary)
+319,2019-05-30 21:05:55.000000000,1970-01-01 00:00:00.000000001,open,0,"su - osh-user fails with ""invalid applet name su"""
+318,2019-05-30 04:35:38.000000000,2019-06-15 00:08:53.000000000,closed,6,Locale broken when osh is set as default shell
+317,2019-05-21 21:38:18.000000000,2020-07-18 21:34:27.000000000,closed,1,git completion dogfood issues
+316,2019-05-19 23:10:33.000000000,2019-08-10 00:45:03.000000000,closed,1,remove func call from (( ))
+315,2019-05-16 22:48:35.000000000,1970-01-01 00:00:00.000000001,open,1,provide fishcomp builtin
+314,2019-05-16 21:00:07.000000000,1970-01-01 00:00:00.000000001,open,0,possible end user enhancements for dev tools
+313,2019-05-16 20:20:46.000000000,2019-06-27 07:33:37.000000000,closed,3,missing span ID exposed while running osh-runtime:yash benchmark
+312,2019-05-16 12:23:45.000000000,1970-01-01 00:00:00.000000001,open,0,Error message polish
+311,2019-05-16 08:16:25.000000000,2020-06-25 08:57:36.000000000,closed,4,Remaining spec test issues
+310,2019-05-16 00:24:33.000000000,1970-01-01 00:00:00.000000001,open,2,Expose syntax errors for mini-languages
+309,2019-05-14 23:22:28.000000000,1970-01-01 00:00:00.000000001,open,0,Improve benchmark reporting / correctness
+308,2019-05-12 10:48:41.000000000,2019-05-16 00:26:27.000000000,closed,1,revisit set builtin introspection
+307,2019-05-11 05:02:59.000000000,2019-06-30 09:46:25.000000000,closed,1,provide builtin completion for builtins
+306,2019-05-09 10:51:24.000000000,1970-01-01 00:00:00.000000001,open,5,OSH runs Python's configure too slowly
+305,2019-05-09 10:41:06.000000000,2019-06-11 12:29:36.000000000,closed,1,OSH doesn't respond well to Ctrl-C
+304,2019-05-08 10:13:12.000000000,2019-10-06 11:37:43.000000000,closed,1,implement { syntax in for loops
+303,2019-05-08 10:09:23.000000000,2019-05-14 23:04:59.000000000,closed,2,Implement integer brace expansion like {1..3}
+302,2019-05-07 20:40:24.000000000,2019-06-06 06:18:58.000000000,closed,1,continue in subshell incompatibility
+301,2019-05-07 11:43:05.000000000,2019-05-14 23:05:19.000000000,closed,3,No error indication when trying to assign to a bare closing parenthesis
+300,2019-05-07 11:32:42.000000000,2019-07-17 23:28:24.000000000,closed,10,Fatal error when using an undefined array's value in arithmetic expressions
+299,2019-05-07 11:05:32.000000000,2019-05-08 20:02:23.000000000,closed,4,Issues when using empty aliases with certain builtins
+298,2019-05-07 08:20:24.000000000,1970-01-01 00:00:00.000000001,open,0,error messages from parallel processes can overlap
+297,2019-05-06 21:16:25.000000000,1970-01-01 00:00:00.000000001,open,1,Runs the bats test framework
+296,2019-05-05 21:12:12.000000000,2019-05-14 23:05:36.000000000,closed,0,"can crash OSH by unsetting $PWD, changing it to an array  and invoking pwd"
+295,2019-05-05 19:45:14.000000000,2019-06-11 12:28:29.000000000,closed,6,cat /dev/urandom | sleep 1    hangs
+294,2019-05-03 08:39:17.000000000,2019-07-17 23:22:07.000000000,closed,2,associative array indexing in arithmetic contexts doesn't work
+293,2019-05-02 03:04:41.000000000,2019-05-14 23:06:27.000000000,closed,8,"Shell script that triggers ""maximum recursion depth exceeded while calling a Python object"""
+292,2019-05-01 12:46:26.000000000,2019-06-11 12:28:47.000000000,closed,5,I/O error when window is resized while read is running
+291,2019-04-30 12:37:36.000000000,2020-04-19 21:38:06.000000000,closed,28,single quotes within double quoted brace sub treated differently for the # ## % %% / operators
+290,2019-04-27 03:55:39.000000000,2019-05-14 23:06:49.000000000,closed,12,Quoted brackets aren't matched by % and # parameter expansion
+289,2019-04-25 05:46:05.000000000,2019-04-25 06:38:14.000000000,closed,2,build/compile.sh: fix bug in $READLINE_DIR flags
+288,2019-04-24 09:08:26.000000000,2019-07-15 01:08:22.000000000,closed,4,Get rid of is_assoc_array flag in cell
+287,2019-04-24 09:06:59.000000000,2019-07-15 01:08:11.000000000,closed,2,arithmetic evaluator should use value_t
+286,2019-04-24 07:07:52.000000000,1970-01-01 00:00:00.000000001,open,0,Computed variables shouldn't be settable
+285,2019-04-24 06:13:58.000000000,2019-05-14 23:07:27.000000000,closed,4,corner case: file limit
+284,2019-04-24 02:19:25.000000000,2019-07-27 07:39:19.000000000,closed,1,corner case: OSH crashes if started with a nonexistent current directroy
+283,2019-04-24 02:14:30.000000000,1970-01-01 00:00:00.000000001,open,3,corner case: handle stack overflow (infinite recursion)
+282,2019-04-23 05:14:11.000000000,1970-01-01 00:00:00.000000001,open,0,UID and EUID should be readonly
+281,2019-04-21 19:46:11.000000000,2019-06-20 04:42:03.000000000,closed,7,don't crash if we can't fork a process
+280,2019-04-21 17:58:40.000000000,1970-01-01 00:00:00.000000001,open,2,Implement `ulimit` builtin
+279,2019-04-21 03:31:55.000000000,2019-05-14 23:07:50.000000000,closed,5,Degenerate case: What if we hit the process limit?
+278,2019-04-21 03:12:39.000000000,1970-01-01 00:00:00.000000001,open,2,Degenerate case: what if user is deleted while running?
+277,2019-04-17 10:58:51.000000000,2019-05-14 23:08:06.000000000,closed,0,arg parser raises unhandled exception on bad numbers
+276,2019-04-16 08:10:03.000000000,1970-01-01 00:00:00.000000001,open,9,Implement read -s
+275,2019-04-09 21:20:32.000000000,2019-05-14 23:08:19.000000000,closed,1,Bug in interaction between alias and command sub
+274,2019-03-28 12:32:56.000000000,2019-07-27 07:40:01.000000000,closed,4,read's -n option seems to read from line-buffered stdin
+273,2019-03-28 10:23:14.000000000,2020-04-19 21:38:05.000000000,closed,7,Implement $(< file)
+272,2019-03-25 04:55:02.000000000,1970-01-01 00:00:00.000000001,open,7,Unit tests depend on local file system state
+271,2019-03-25 04:07:46.000000000,2019-03-25 04:40:43.000000000,closed,2,print newline after process is interrupted
+270,2019-03-25 02:37:03.000000000,2019-03-25 04:13:46.000000000,closed,5,Regression in 60665f24
+269,2019-03-24 08:15:38.000000000,2019-07-27 07:41:08.000000000,closed,31,comp_ui.NiceDisplay should take into account unicode character width
+268,2019-03-23 19:50:13.000000000,2019-05-14 23:08:32.000000000,closed,6,"Prompt plugins shouldn't be able to set $? (also completion plugins, PS4, etc.)"
+267,2019-03-23 02:58:09.000000000,2019-04-22 04:25:21.000000000,closed,3,add -p option to type builtin
+266,2019-03-21 11:49:54.000000000,2019-05-04 10:37:50.000000000,closed,0,spec tests under byterun failed for 0.6.pre17
+265,2019-03-21 04:53:53.000000000,1970-01-01 00:00:00.000000001,open,2,completion candidates could be more sophisticated
+264,2019-03-21 02:18:37.000000000,2019-03-21 10:18:37.000000000,closed,2,var ref is interpreted as history substitution
+263,2019-03-20 23:20:23.000000000,2019-03-20 23:24:40.000000000,closed,1,env -i osh doesn't run startup files
+262,2019-03-20 18:49:42.000000000,1970-01-01 00:00:00.000000001,open,5,"Implement $_ , the last argument to the previous command run"
+261,2019-03-20 17:03:22.000000000,1970-01-01 00:00:00.000000001,open,0,Add disown built-in
+260,2019-03-20 16:24:23.000000000,1970-01-01 00:00:00.000000001,open,5,Write contents of the 'help' builtin / enhance quick_ref.py
+259,2019-03-20 12:22:22.000000000,1970-01-01 00:00:00.000000001,open,6,type builtin doesn't handle -p/P/a
+258,2019-03-20 01:32:44.000000000,2019-03-25 04:40:43.000000000,closed,5,Control+C doesn't print a newline if another command is running
+257,2019-03-20 01:15:48.000000000,1970-01-01 00:00:00.000000001,open,9,Detect when the user types past the last column in the terminal
+256,2019-03-20 01:08:40.000000000,2019-03-20 21:22:01.000000000,closed,3,Fix readline problems
+255,2019-03-19 23:23:48.000000000,2019-03-21 10:16:35.000000000,closed,3,readline needs to be informed of SIGWINCH
+254,2019-03-19 10:41:52.000000000,2020-04-19 21:38:05.000000000,closed,3,Test the number of processes started by various shell snippets
+253,2019-03-19 07:35:04.000000000,2019-03-20 03:17:00.000000000,closed,12,Begin implementing $RANDOM
+252,2019-03-19 06:52:38.000000000,2019-03-20 21:22:01.000000000,closed,16,Prompt evaluator needs to understand \[ and \]
+251,2019-03-19 02:33:19.000000000,2019-03-19 06:18:32.000000000,closed,4,add 'builtin' builtin
+250,2019-03-18 23:57:01.000000000,2019-03-19 12:18:32.000000000,closed,3,Error building & running on macOS High Sierra
+249,2019-03-18 00:52:48.000000000,2019-03-18 00:58:14.000000000,closed,4,Can't build on ubuntu 18.04
+248,2019-03-18 00:20:57.000000000,2019-03-21 10:31:09.000000000,closed,4,Source .profile on startup
+247,2019-03-17 22:19:43.000000000,2019-03-21 10:16:51.000000000,closed,2,drawing problems at the bottom of the screen with the NiceDisplay
+246,2019-03-17 22:18:27.000000000,2019-03-21 10:17:13.000000000,closed,1,~ should be displayed in the prompt instead of /home/user
+245,2019-03-17 21:36:07.000000000,2019-03-21 10:33:44.000000000,closed,8,[config] .oshrc + miscellany from OSH usage
+244,2019-03-12 19:34:08.000000000,2019-03-12 21:17:43.000000000,closed,1,[cleanup] Fix location of script in README.md
+243,2019-03-08 00:52:49.000000000,2019-03-08 01:35:39.000000000,closed,2,build/dev.s all failing 
+242,2019-03-05 02:53:49.000000000,2019-03-05 05:00:13.000000000,closed,9,Fix hostname test for $PS1
+241,2019-03-01 10:42:21.000000000,2019-03-02 11:38:09.000000000,closed,0,Ctrl-\ while running foreground process shouldn't quit OSH
+240,2019-02-28 01:37:43.000000000,1970-01-01 00:00:00.000000001,open,0,Polish new completion UI
+239,2019-02-27 23:57:39.000000000,2019-03-17 22:23:48.000000000,closed,1,Stack trace when hitting Ctrl-C in command sub
+238,2019-02-22 03:40:42.000000000,2019-03-19 12:52:53.000000000,closed,2,Run bats with OSH
+237,2019-02-19 23:07:35.000000000,2019-03-19 06:11:56.000000000,closed,9,Build error on Arch Linux when Clang is present
+236,2019-02-19 17:35:02.000000000,2019-07-25 21:05:18.000000000,closed,10,Implement dynamic assignments (where variable name isn't a constant)
+235,2019-02-19 09:18:45.000000000,1970-01-01 00:00:00.000000001,open,2,Fixes libedit based tab completion.
+234,2019-02-16 21:38:48.000000000,2019-07-25 13:02:03.000000000,closed,3,"disallow [[ ""${a[@]}"" == ""${b[@]}"" ]]"
+233,2019-02-15 15:04:29.000000000,2019-02-16 02:20:52.000000000,closed,1,$PS1: \h and \H 
+232,2019-02-13 22:06:14.000000000,1970-01-01 00:00:00.000000001,open,0,Implement globstar
+231,2019-02-12 22:04:13.000000000,2019-03-19 06:12:08.000000000,closed,1,commands should be entered in history after history expansion
+230,2019-02-11 16:58:34.000000000,2019-02-19 07:12:23.000000000,closed,4,$HOSTNAME not set
+229,2019-02-11 04:16:30.000000000,2019-02-11 04:53:36.000000000,closed,2,add support for \W in $PS1
+228,2019-02-09 15:13:00.000000000,1970-01-01 00:00:00.000000001,open,2,tab completion doesn't work on OS X
+227,2019-02-09 10:18:31.000000000,1970-01-01 00:00:00.000000001,open,0,completion of single-quoted paths could work
+226,2019-02-08 18:40:07.000000000,2019-02-19 07:12:59.000000000,closed,3,pipelines not expanded in aliases
+225,2019-02-05 23:48:35.000000000,2019-02-19 07:13:20.000000000,closed,2,"Ctrl-C exits OSH on release build, but not in dev build"
+224,2019-02-05 18:29:44.000000000,2019-02-19 07:13:36.000000000,closed,6,MacOS ld does not support `--gc-sections`
+223,2019-01-27 02:24:59.000000000,1970-01-01 00:00:00.000000001,open,4,Test that file descriptor state is clean (Overhaul file descriptor handling)
+222,2019-01-25 05:52:28.000000000,2019-02-04 23:44:45.000000000,closed,2,Create Dockerfile
+221,2019-01-21 23:27:08.000000000,2019-01-23 23:36:49.000000000,closed,12,Hello from MicroPython
+220,2019-01-21 22:52:52.000000000,2019-01-23 23:38:37.000000000,closed,1,FYI: Python'2 compiler port to Python3[.5]
+219,2019-01-08 06:08:42.000000000,2019-05-14 23:10:10.000000000,closed,1,Better error messages when command isn't found
+218,2018-12-17 19:45:21.000000000,2018-12-18 04:16:12.000000000,closed,1,test -s not implemented (`shopt -s histappend` causes osh to exit)
+217,2018-12-08 03:27:53.000000000,2018-12-08 03:44:43.000000000,closed,1,Create _tmp dir automatically
+216,2018-12-08 03:25:37.000000000,2018-12-08 03:44:43.000000000,closed,0,`build/dev.sh minimal` doesn't work without manually creating `_tmp`
+215,2018-12-08 03:22:04.000000000,2018-12-08 04:07:31.000000000,closed,1,Unhandled PS1 escapes
+214,2018-12-08 03:17:58.000000000,2018-12-09 01:20:10.000000000,closed,1,Gracefully reject unhandled $PS1 escape codes
+213,2018-11-16 21:36:05.000000000,2018-11-16 22:48:31.000000000,closed,1,Fix compiler warning; `pos` was unused
+212,2018-11-14 21:57:55.000000000,2019-01-25 10:07:02.000000000,closed,2,Infer types on the Oil codebase
+211,2018-11-06 22:31:18.000000000,2019-05-16 08:06:21.000000000,closed,1,printf needs backslash escaping
+210,2018-11-06 10:47:32.000000000,2018-11-06 10:57:25.000000000,closed,1,[printf] Add explanatory comment on %q implementation.
+209,2018-11-05 12:11:46.000000000,2018-11-06 10:35:45.000000000,closed,4,Crude first version of printf builtin
+208,2018-11-05 11:07:16.000000000,2019-05-16 08:09:04.000000000,closed,8,Run the bash_completion project
+207,2018-11-05 10:52:05.000000000,2019-07-15 01:09:57.000000000,closed,2,cleanup: rationalize ${a[x]} and $(( a[x] ))
+206,2018-11-04 12:30:34.000000000,2018-11-05 11:40:13.000000000,closed,2,Implement ${!ref} when $ref is like arr[1].
+205,2018-10-30 11:24:28.000000000,2018-10-30 23:04:40.000000000,closed,1,[spec/builtins] Tuck a couple of stray directories under tmpdir.
+204,2018-10-26 19:06:58.000000000,2018-10-27 23:00:31.000000000,closed,4,"[pwd] if PWD is populated with another dir than current on startup, osh gets confused"
+203,2018-10-24 22:13:21.000000000,2019-03-21 07:31:43.000000000,closed,2,OPy compiler generates needlessly different bytecode
+202,2018-10-21 06:44:40.000000000,2019-02-04 23:47:18.000000000,closed,9,Fix off-by-one in NextFreeFileDescriptor
+201,2018-10-20 23:28:09.000000000,2018-10-21 04:55:43.000000000,closed,1,Implement array index arrays with ! (#153)
+200,2018-10-20 16:17:38.000000000,2018-11-02 21:22:32.000000000,closed,6,Access shell script AST. API; CLI
+199,2018-10-20 10:57:12.000000000,2018-10-21 05:05:44.000000000,closed,2,Use #!/usr/bin/env for shebangs
+198,2018-10-19 03:09:48.000000000,1970-01-01 00:00:00.000000001,open,10,Reason about UNIX signals / Write a representative demo
+197,2018-10-18 21:29:13.000000000,2020-04-07 13:06:42.000000000,closed,7,Write something like re2c to produce a smaller state machine from the lexer
+196,2018-10-16 20:16:58.000000000,2018-10-16 20:18:38.000000000,closed,0,Pr/195 Fix $PWD after cd to relative path
+195,2018-10-16 19:21:39.000000000,2018-10-21 04:16:23.000000000,closed,10,[builtins] add relative path joining for cd
+194,2018-10-15 01:07:39.000000000,2019-02-04 23:44:57.000000000,closed,6,add nproc shim for macOS
+193,2018-10-09 07:52:09.000000000,2018-10-16 20:19:50.000000000,closed,1,[osh] adding PS1 parsing and evaluation
+192,2018-10-07 02:25:06.000000000,1970-01-01 00:00:00.000000001,open,3,Write an extended glob to extended regex (ERE) translator
+191,2018-10-06 23:53:24.000000000,2020-03-20 23:13:12.000000000,closed,2,Build the release tarball in a continuous build on Linux
+190,2018-10-05 09:42:47.000000000,1970-01-01 00:00:00.000000001,open,1,use yajl  for crash dump (get rid of py-yajl)
+189,2018-10-04 09:46:36.000000000,2018-12-09 01:20:44.000000000,closed,2,Osh Does Not Print Newline on ^D
+188,2018-10-04 09:28:37.000000000,2018-10-04 09:55:34.000000000,closed,1,Adding Declare -F To Builtins
+187,2018-10-04 05:00:19.000000000,2020-03-20 23:07:56.000000000,closed,7,Continuous integration should run spec tests
+186,2018-10-04 04:55:51.000000000,1970-01-01 00:00:00.000000001,open,0,spec test failures are hard to track down when there are --allowed-failures
+185,2018-10-02 02:42:39.000000000,2020-05-06 10:23:51.000000000,closed,7,Look into a pure Python readline replacement
+184,2018-10-02 02:40:57.000000000,2019-02-04 23:45:48.000000000,closed,1,Implement actions in compgen -A <action>
+183,2018-09-28 00:17:58.000000000,2018-10-09 07:52:37.000000000,closed,1,[osh] adding PS1 parsing and evaluation
+182,2018-09-19 19:46:15.000000000,2018-10-26 19:01:46.000000000,closed,14,`cd` changes PWD to entered path
+181,2018-09-18 23:06:19.000000000,2018-09-23 05:58:58.000000000,closed,1,basic readline history should work
+180,2018-09-13 12:25:22.000000000,2019-03-21 07:31:55.000000000,closed,2,OPy compiler inefficiencies
+179,2018-09-09 10:40:22.000000000,2019-09-03 10:34:41.000000000,closed,8,strict-errexit mode should not disable errors in functions
+178,2018-09-09 09:50:40.000000000,2019-05-14 23:10:16.000000000,closed,2,Infinite loop when PS4 contains command sub
+177,2018-09-06 13:30:53.000000000,2019-02-09 10:03:45.000000000,closed,2,History substitution?
+176,2018-09-01 23:02:57.000000000,2019-06-26 10:26:58.000000000,closed,18,Ctrl-Z to vim launched from OSH suspends but can't be resumed
+175,2018-08-30 12:55:41.000000000,2019-02-04 23:46:37.000000000,closed,5,Run git-completion.bash
+174,2018-08-26 07:53:44.000000000,2018-08-27 08:31:58.000000000,closed,7,Add compgen function to osh
+173,2018-08-25 10:15:28.000000000,2019-10-31 08:06:06.000000000,closed,2,${s#?} and ${s%?} should be respect Unicode
+172,2018-08-23 07:18:42.000000000,2018-08-23 07:35:08.000000000,closed,0,Fix comment errors
+171,2018-08-20 20:24:46.000000000,1970-01-01 00:00:00.000000001,open,24,Fuzz the parser with AFL
+170,2018-08-19 11:42:08.000000000,2018-10-26 19:03:12.000000000,closed,2,Minor release issue: oheap encoding 
+169,2018-08-18 22:43:53.000000000,2019-01-28 09:36:52.000000000,closed,3,ASDL type checking should be done during pretty printing
+168,2018-08-16 19:41:03.000000000,2019-05-16 12:27:47.000000000,closed,2,Polish Runtime Error Appearance
+167,2018-08-14 20:38:11.000000000,1970-01-01 00:00:00.000000001,open,10,Release automation: run spec tests with just OSH on different platforms
+166,2018-08-06 20:27:58.000000000,2018-08-11 02:52:49.000000000,closed,1,Remove trailiing whitespace from *.py and *.c files
+165,2018-08-06 08:55:07.000000000,2018-08-06 20:19:54.000000000,closed,1,Remove trailiing whitespace from *.py and *.c files
+164,2018-07-30 07:12:27.000000000,2020-04-07 13:05:09.000000000,closed,2,Minimize / treeshake the bytecode
+163,2018-07-30 06:54:19.000000000,2018-11-14 12:04:06.000000000,closed,1,Remove more files from the native build
+162,2018-07-29 00:23:22.000000000,2019-07-27 07:43:29.000000000,closed,1,Test that bad scripts don't parse
+161,2018-07-27 09:53:55.000000000,1970-01-01 00:00:00.000000001,open,23,Test OSH on real shell scripts
+160,2018-07-27 09:49:30.000000000,2018-09-11 03:51:34.000000000,closed,0,Implement alias
+159,2018-07-27 09:47:12.000000000,2020-03-20 23:09:39.000000000,closed,1,Publish developer binaries built with test/spec-bin.sh
+158,2018-07-24 18:22:42.000000000,2018-08-15 08:38:44.000000000,closed,1,"Release spec test HTML should show the real _bin/osh binary, not byterun"
+157,2018-07-04 03:26:15.000000000,2018-07-04 04:06:05.000000000,closed,0,Update code comments to match new spec format
+156,2018-07-02 07:14:54.000000000,2018-07-02 19:22:33.000000000,closed,1,Spec Test Update
+155,2018-06-30 03:28:36.000000000,2018-08-23 09:35:20.000000000,closed,1,Remove runtime dependency on ASDL schemas
+154,2018-06-28 03:40:17.000000000,2018-08-11 02:50:02.000000000,closed,1,Script to convert .pyc to C definitions
+153,2018-06-27 23:07:25.000000000,2019-07-27 07:43:49.000000000,closed,1,Find broken spec tests and fix them
+152,2018-06-26 01:38:01.000000000,2018-06-26 01:40:04.000000000,closed,0,Calculate length of unicode string without depending on Python's implementation
+151,2018-06-24 07:50:59.000000000,2020-03-07 23:44:09.000000000,closed,1,More sublanguages including globs could be statically parsed
+150,2018-06-23 01:51:12.000000000,2019-07-28 13:35:29.000000000,closed,1,spec test format ignores blank lines in STDOUT blocks
+149,2018-06-21 23:19:59.000000000,2018-08-21 08:28:01.000000000,closed,2,Write a parser for a vmgen-like DSL
+148,2018-06-15 07:14:50.000000000,2018-08-13 08:01:08.000000000,closed,2,Remove trailing spaces from all source files
+147,2018-06-14 00:56:16.000000000,2018-06-15 05:37:11.000000000,closed,0,readlink -f implemented with c realpath function
+146,2018-06-11 04:54:04.000000000,1970-01-01 00:00:00.000000001,open,17,Implement remaining builtins
+145,2018-06-08 23:25:11.000000000,2018-06-08 23:36:27.000000000,closed,1,Fix unicode string length
+144,2018-06-06 20:12:58.000000000,2018-09-11 03:51:18.000000000,closed,0,OSH breaks pretty badly with PS4='+$(oops'
+143,2018-06-06 18:27:55.000000000,2018-07-21 08:01:56.000000000,closed,1,Make spec test format stricter
+142,2018-06-06 18:09:32.000000000,2018-08-23 09:36:00.000000000,closed,2,Implement utf-8 string operations
+141,2018-06-06 17:56:11.000000000,2018-06-08 10:00:25.000000000,closed,4,Allow for multiple possible outcomes of spec tests
+140,2018-06-06 08:43:18.000000000,2020-04-07 13:09:56.000000000,closed,1,Add ASAN build variants
+139,2018-06-06 05:24:04.000000000,2018-06-06 21:05:45.000000000,closed,2,implement BASH_REMATCH (#133)
+138,2018-06-06 04:32:51.000000000,2018-06-24 19:41:13.000000000,closed,31,Set up arguments appropriately before 'source'-ing script
+137,2018-06-06 00:04:19.000000000,2018-07-24 18:20:26.000000000,closed,0,Arguments are ignored when sourcing a script
+136,2018-06-04 22:34:31.000000000,1970-01-01 00:00:00.000000001,open,1,configure / make in the wrong order can cause a failed and confusing build
+135,2018-06-04 04:51:06.000000000,2020-03-20 23:10:23.000000000,closed,2,"Consider ""vendoring"" re2c and getting rid of build/dev.sh minimal"
+134,2018-06-04 03:46:33.000000000,2018-06-15 08:50:02.000000000,closed,8,parse glob to AST
+133,2018-06-03 20:06:17.000000000,2018-06-07 20:47:41.000000000,closed,0,Implement ${BASH_REMATCH[@]}
+132,2018-06-03 20:03:30.000000000,2018-07-22 04:42:20.000000000,closed,1,Get rid of dependency on unichr() function
+131,2018-06-01 17:46:18.000000000,1970-01-01 00:00:00.000000001,open,0,Respect LDFLAGS and CCFLAGS in configure script
+130,2018-06-01 08:18:43.000000000,2018-06-01 09:04:53.000000000,closed,1,fix build/compile.sh on bash 3.2
+129,2018-05-29 16:34:30.000000000,2018-05-29 17:16:58.000000000,closed,1,Use argv.py instead of argv in spec tests
+128,2018-05-29 16:28:54.000000000,2018-05-29 17:13:50.000000000,closed,1,Replace leftover lex.VAR_NAME_RE.match by match.IsValidVarName
+127,2018-05-29 01:28:16.000000000,2018-06-01 07:28:17.000000000,closed,6,A release tarball built on Linux now compiles on OS X
+126,2018-05-28 22:03:54.000000000,2018-06-01 05:33:52.000000000,closed,6,Handle arrays with partially unset elements
+125,2018-05-28 21:20:36.000000000,2018-07-21 08:01:24.000000000,closed,1,Write a proper glob parser to convert globs to ERE regex syntax
+124,2018-05-28 19:57:46.000000000,2018-05-28 20:23:28.000000000,closed,0,Handle parse failure on left-hand side of logical or
+123,2018-05-28 12:18:26.000000000,2018-05-28 21:47:36.000000000,closed,7,Fix crash on empty for expression ((;;))
+122,2018-05-28 10:22:35.000000000,2018-05-29 03:50:02.000000000,closed,3,Windows build?
+121,2018-05-28 09:30:37.000000000,2018-05-29 01:16:07.000000000,closed,2,"add Mac dependencies to Python-2.7.13, prereq for Mac OS release builds"
+120,2018-05-26 09:31:15.000000000,2018-05-27 02:03:42.000000000,closed,3,Implement set -o vi/emacs
+119,2018-05-26 03:11:02.000000000,2018-08-19 07:35:02.000000000,closed,1,Remove Oil's dependency on the Python regex module
+118,2018-05-25 00:37:23.000000000,2018-05-26 05:17:51.000000000,closed,3,Builtin variable `$-` does not indicate interactive mode
+117,2018-05-24 21:56:33.000000000,2018-05-27 02:03:42.000000000,closed,8,Question: how to change `readline` mode interactively?
+116,2018-05-24 21:40:31.000000000,2018-10-04 08:25:04.000000000,closed,9,`FUNCNAME` highest-index element is missing in `osh`
+115,2018-05-24 17:20:11.000000000,2019-07-01 23:24:48.000000000,closed,7,Feature: shortcuts to turn on and off multiple strict modes
+114,2018-05-23 23:45:25.000000000,2018-05-26 05:35:49.000000000,closed,3,Can't count array elements
+113,2018-05-23 23:31:21.000000000,2018-10-03 01:17:46.000000000,closed,4,"""Magic"" variables can't be used in first statement in script"
+112,2018-05-20 04:20:44.000000000,1970-01-01 00:00:00.000000001,open,4,configure script should use more unique filenames
+111,2018-05-18 21:01:26.000000000,2018-05-18 21:34:03.000000000,closed,4,Implement the pwd builtin
+110,2018-05-18 00:23:41.000000000,2018-05-18 21:34:03.000000000,closed,2,"`pwd` default behavior is `-P`, but other shells use `-L`"
+109,2018-05-18 00:00:48.000000000,2018-05-18 21:26:16.000000000,closed,3,Implement cd -P and -L; respect --
+108,2018-05-17 20:34:13.000000000,2020-03-07 22:54:17.000000000,closed,9,Revisit SOURCE_NAME vs BASH_SOURCE (SOURCE_NAME is osh-specific)
+107,2018-05-17 08:39:15.000000000,2018-07-24 18:16:33.000000000,closed,13,oil.ovm segfaults if built with gcc 8.1.1
+106,2018-05-15 23:47:43.000000000,2018-05-18 06:18:00.000000000,closed,2,Is there a formal grammar for oil language?
+105,2018-05-15 06:40:41.000000000,2018-05-15 07:57:52.000000000,closed,3,"Ditch Python 2.7, use Python 3."
+104,2018-05-05 20:31:02.000000000,2020-04-07 13:05:32.000000000,closed,2,"opy/callgraph.py doesn't find most of tdop.py, e.g. MakeShellSpec()"
+103,2018-05-05 20:28:39.000000000,2018-09-20 05:20:26.000000000,closed,1,Refactoring: use exceptions instead return values in all parsers
+102,2018-05-05 18:13:23.000000000,2018-05-05 20:20:58.000000000,closed,3,Replace leftover use of tdop.ParseError by p_die
+101,2018-05-05 10:38:17.000000000,2018-05-05 11:02:54.000000000,closed,1,Handle parsing failure in _ReadVarOpArg (#100)
+100,2018-05-05 09:56:28.000000000,2018-07-24 18:16:45.000000000,closed,0,OSH crashes while parsing some malformed parameter expansions
+99,2018-04-30 22:35:30.000000000,1970-01-01 00:00:00.000000001,open,2,document oil-dev shell completion (Dev environment should provide shell completion)
+98,2018-04-30 21:51:37.000000000,2018-05-02 20:52:45.000000000,closed,9,Fixes typo in umask (symbolic) spec test causing shell and bash to fail.
+97,2018-04-21 06:33:08.000000000,2018-08-15 03:24:46.000000000,closed,1,Check Python version in build/dev.sh
+96,2018-04-18 10:30:36.000000000,2018-07-24 18:17:04.000000000,closed,19,"Implement readlink -f: a (portable) way to find resources relative to the current script, even if invoked through a symlink"
+95,2018-04-08 18:33:57.000000000,2018-04-08 21:18:13.000000000,closed,6,byterun: Fix check for bound methods on falsy objects.
+94,2018-03-26 10:34:09.000000000,1970-01-01 00:00:00.000000001,open,1,Fails to compile on arm arches.
+93,2018-03-26 07:41:23.000000000,1970-01-01 00:00:00.000000001,open,13,OSH fails to start when built on Void Linux xbps-src
+92,2018-03-26 00:04:14.000000000,2019-01-25 10:06:05.000000000,closed,7,Try out OSH on Void Linux scripts
+91,2018-03-22 06:05:46.000000000,2018-03-22 12:55:00.000000000,closed,1,Adds spec test for stdout and stderr redirection appending to a target.
+90,2018-03-21 05:10:41.000000000,2018-07-24 18:17:23.000000000,closed,5,&> output redirection operator incorrectly parsed
+89,2018-03-15 20:01:29.000000000,2019-03-21 07:32:13.000000000,closed,3,OPy: get rid of uses of eval() to self-host
+88,2018-03-15 19:59:37.000000000,2018-03-22 03:37:20.000000000,closed,1,OPy: Make bytecode output deterministic
+87,2018-03-05 07:38:49.000000000,2018-05-01 04:47:59.000000000,closed,2,`exit` doesn't end OSH session
+86,2018-03-04 19:50:24.000000000,2018-05-18 21:26:16.000000000,closed,3,Bare double dash support
+85,2018-03-01 12:49:28.000000000,1970-01-01 00:00:00.000000001,open,39,Implement find / xargs in Python
+84,2018-02-20 11:58:26.000000000,2018-02-23 14:15:21.000000000,closed,2,"Make travis perform developer build, run {unit,spec} tests."
+83,2018-02-14 23:27:22.000000000,2018-11-14 12:06:05.000000000,closed,4,"Implement $PS1 (e.g. to run Run virtualenv scripts, similar to $PS4)"
+82,2018-02-04 21:37:32.000000000,2018-05-01 04:48:10.000000000,closed,2,`[` aborts OSH
+81,2018-02-03 07:32:02.000000000,2020-03-20 23:11:15.000000000,closed,3,Use Travis for more things
+80,2018-02-03 05:15:59.000000000,2018-02-03 07:46:17.000000000,closed,1,Use env python in shebang
+79,2018-02-02 11:39:40.000000000,2018-02-03 07:33:13.000000000,closed,9,Why build oil on legacy Python?
+78,2018-02-02 08:42:51.000000000,2018-02-02 09:56:40.000000000,closed,0,Fix undefined name: print the exception
+77,2018-02-02 08:32:37.000000000,2018-02-02 10:47:20.000000000,closed,1,Comment out unused class NonzeroAssertion
+76,2018-02-02 08:18:33.000000000,2018-02-02 10:03:18.000000000,closed,1,Don't del def_op
+75,2018-02-02 08:05:49.000000000,2018-02-02 09:58:20.000000000,closed,0,Fix undefined name: short_flag --> short_name * 2
+74,2018-02-02 08:00:52.000000000,2018-02-02 10:01:25.000000000,closed,1,import zipfile for line 30
+73,2018-02-02 07:57:23.000000000,2018-02-02 10:02:25.000000000,closed,1,import optparse for line 96
+72,2018-02-01 14:47:03.000000000,2018-02-02 07:28:45.000000000,closed,5,Let's run tests on all new code submissions
+71,2018-02-01 08:40:43.000000000,2018-02-03 04:42:24.000000000,closed,5,Add support for DESTDIR in install script
+70,2018-02-01 06:18:25.000000000,1970-01-01 00:00:00.000000001,open,10,Continuous integration on OS X
+69,2018-01-30 14:35:10.000000000,2019-02-09 10:02:56.000000000,closed,1,Permission denied in completion
+68,2018-01-30 05:20:42.000000000,2018-02-01 06:19:48.000000000,closed,5,Failing tests on macOS Sierra
+67,2018-01-30 05:20:30.000000000,2018-02-04 08:53:26.000000000,closed,6,Gentoo build failure: posixmodule.c:(.text+0x7d9): undefined reference to `makedev'
+66,2018-01-18 23:43:04.000000000,2018-02-04 21:57:51.000000000,closed,3,Implement C-style for loops
+65,2018-01-18 00:32:42.000000000,2018-01-19 23:44:25.000000000,closed,7,bash parses array literal after eval but OSH doesn't
+64,2018-01-16 17:46:35.000000000,2018-01-18 18:12:11.000000000,closed,2,Install on Ubuntu 16.04.3 - python 3 set as the default python breaks install script
+63,2018-01-11 04:22:20.000000000,2018-01-25 11:33:06.000000000,closed,2,Functions missing from test/unit.sh
+62,2018-01-09 04:06:13.000000000,2018-01-25 11:35:03.000000000,closed,2,Build a debian image with debootstrap
+61,2018-01-09 03:49:42.000000000,2018-01-25 11:35:15.000000000,closed,4,build a package with abuild running under OSH
+60,2018-01-03 09:22:04.000000000,1970-01-01 00:00:00.000000001,open,1,"Implement the rest of the trap builtin -- ERR hook, SIGINT, etc."
+59,2018-01-02 23:54:10.000000000,2018-01-25 11:33:42.000000000,closed,6,Support declare for checking for function definition
+58,2017-12-31 22:35:52.000000000,2018-01-25 11:35:34.000000000,closed,4,run Aboriginal Linux correctly
+57,2017-12-29 08:22:20.000000000,2018-01-08 10:19:05.000000000,closed,8,Updates `dirs` builtin
+56,2017-12-16 09:15:33.000000000,2017-12-19 12:39:39.000000000,closed,9,Implement `dirs` builtin flags
+55,2017-12-02 07:17:36.000000000,2017-12-10 01:01:51.000000000,closed,33,Implement `dirs` builtin
+54,2017-11-23 09:32:08.000000000,2017-11-25 07:57:48.000000000,closed,1,First draft of `osh` manpage
+53,2017-11-20 11:29:52.000000000,2017-12-24 00:08:09.000000000,closed,1,OSH should allow return at top level
+52,2017-11-19 09:45:36.000000000,2017-11-20 04:13:52.000000000,closed,3,Adds error handling to the `pushd` and `popd` builtins.
+51,2017-11-16 20:52:24.000000000,2017-12-24 00:08:21.000000000,closed,4,`help` builtin crashes OSH when argument is passed
+50,2017-11-16 20:14:05.000000000,2017-12-24 00:08:32.000000000,closed,7,Implement command builtin
+49,2017-11-15 00:09:10.000000000,2018-02-04 21:58:06.000000000,closed,14,run k-script-build correctly
+48,2017-10-18 04:34:00.000000000,2018-03-01 22:28:28.000000000,closed,1,make clean doesn't work in the tarball distribution
+47,2017-10-14 03:39:03.000000000,2017-11-14 08:41:31.000000000,closed,22,Improve error message when binary is stripped (Assertion error making OSH AUR package)
+46,2017-10-10 22:32:22.000000000,2017-10-11 11:42:11.000000000,closed,1,"Disambiguate between OpenSolaris Bourne shell ""osh"" vs. oilshell ""osh"""
+45,2017-10-09 07:30:01.000000000,2017-10-09 08:36:56.000000000,closed,2,Implement test -e and test -h
+44,2017-10-04 07:40:23.000000000,2019-07-17 23:22:16.000000000,closed,3,OSH should be smarter about calling execvpe()
+43,2017-09-26 23:53:40.000000000,2017-11-14 08:43:50.000000000,closed,1,Efficient `popen` using `clone` trickery (or `posix_spawn`)
+42,2017-09-26 05:55:16.000000000,2020-03-20 23:11:51.000000000,closed,10,spec tests should run in a known environment
+41,2017-09-23 09:42:42.000000000,2017-09-26 05:53:19.000000000,closed,3,"""${empty:-}"" evaluates to nothing rather than empty string"
+40,2017-09-22 20:00:32.000000000,2017-09-22 20:36:17.000000000,closed,1,Tests: portability improvements and additional test
+39,2017-09-17 03:30:09.000000000,2017-11-14 08:41:51.000000000,closed,2,Implement getopts builtin
+38,2017-09-15 01:53:05.000000000,2019-05-16 08:11:38.000000000,closed,2,NotImplementedError could have location information
+37,2017-09-14 22:35:29.000000000,2017-11-14 08:43:19.000000000,closed,6,"runtime issues with OSH, bash_profile, etc."
+36,2017-09-14 03:29:38.000000000,2019-05-16 08:12:08.000000000,closed,10,^C exits osh instead of foreground process
+35,2017-09-12 19:47:50.000000000,2017-09-12 20:20:14.000000000,closed,6,support running as -osh for use as login shell
+34,2017-09-11 20:25:17.000000000,2017-09-14 22:13:34.000000000,closed,1,Problem using OSH as login shell
+33,2017-09-11 19:54:36.000000000,2018-01-25 11:40:17.000000000,closed,1,Implement read without -r
+32,2017-08-25 04:37:36.000000000,2018-09-02 10:28:00.000000000,closed,1,Report regex errors with exceptions (Remove spew from dev scripts)
+31,2017-08-13 13:14:35.000000000,2018-02-03 07:35:03.000000000,closed,3,allow use as library
+30,2017-08-09 22:08:55.000000000,2017-08-09 22:24:11.000000000,closed,3,Make more shebangs compatible
+29,2017-08-09 01:47:51.000000000,2017-08-09 21:38:26.000000000,closed,17,Build fails without readline
+28,2017-08-08 20:40:15.000000000,2017-08-08 21:01:37.000000000,closed,0,Build fixes
+27,2017-08-07 23:01:20.000000000,2019-05-16 12:28:24.000000000,closed,5,Polish Parse Error Message Appearance
+26,2017-08-07 10:03:55.000000000,2019-05-16 08:13:50.000000000,closed,30,Run Nix setup.sh?
+25,2017-08-06 03:35:31.000000000,2017-08-07 23:02:32.000000000,closed,3,"Output from ""source"" unclear on parse error"
+24,2017-08-05 16:56:22.000000000,2017-08-09 02:40:23.000000000,closed,2,cd fails when called without a parameter
+23,2017-08-05 16:54:36.000000000,2017-08-07 23:03:26.000000000,closed,0,IOError when source is called with nonexistent path
+22,2017-08-02 04:18:27.000000000,1970-01-01 00:00:00.000000001,open,17,Flaky tests
+21,2017-07-31 22:21:00.000000000,2017-07-31 23:36:08.000000000,closed,11,A little list of build issues
+20,2017-07-30 10:54:18.000000000,2017-07-30 12:29:41.000000000,closed,0,errors with make SHELL=osh
+19,2017-07-25 09:05:33.000000000,2017-09-12 04:01:44.000000000,closed,2,Implement [
+18,2017-07-25 03:34:27.000000000,1970-01-01 00:00:00.000000001,open,0,better error if ~/bin doesn't exist
+17,2017-07-25 03:31:56.000000000,2018-09-02 08:08:21.000000000,closed,2,parse error should be handled better interactively
+16,2017-07-25 02:37:27.000000000,2019-07-20 08:10:57.000000000,closed,12,OSH build problems on multiple platforms
+15,2017-07-18 19:13:57.000000000,2017-07-19 22:30:48.000000000,closed,8,exec without fork
+14,2017-07-08 19:55:23.000000000,2017-07-08 23:43:02.000000000,closed,2,Some portability fixes
+13,2017-03-27 02:23:45.000000000,2017-03-27 04:26:23.000000000,closed,1,Use $(uname -m) for non-x86_64 support in build.sh
+12,2017-03-10 12:47:48.000000000,2018-01-25 11:42:05.000000000,closed,1,Spec tests fail with ASCII locale ?
+11,2017-03-07 07:57:48.000000000,2017-03-12 23:16:06.000000000,closed,3,Update spec.sh
+10,2017-03-07 01:43:31.000000000,2017-07-23 22:16:06.000000000,closed,2,Allow easy installation
+9,2017-03-06 17:48:31.000000000,2017-03-06 20:42:48.000000000,closed,2,Adding `time` to the list of dependencies
+8,2017-03-04 05:15:38.000000000,1970-01-01 00:00:00.000000001,open,0,Multiple here doc tests hang on some platforms
+7,2017-03-04 03:13:52.000000000,2017-07-23 22:16:51.000000000,closed,1,cd not yet working
+6,2017-03-04 02:40:50.000000000,2017-03-04 03:25:28.000000000,closed,2,Contributing uses ssh git url
+5,2017-02-27 17:44:47.000000000,2017-03-04 04:46:44.000000000,closed,1,CSP style asynchronous commands
+4,2017-01-26 10:24:30.000000000,2017-03-07 22:32:52.000000000,closed,2,Cannot deal with undefined variables
+3,2016-12-23 13:59:09.000000000,2018-11-14 12:01:22.000000000,closed,6,[osh] arithmetic evaluation context in test clause
+2,2016-12-07 13:33:15.000000000,2017-09-26 05:56:15.000000000,closed,4,Make spec tests pass against a known version of all shells
+1,2016-12-07 10:02:48.000000000,1970-01-01 00:00:00.000000001,open,10,Set up auto-formatting of Python

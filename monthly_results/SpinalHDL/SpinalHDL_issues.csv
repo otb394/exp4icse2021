@@ -1,0 +1,342 @@
+id,created_at,closed_at,state,comments,title
+341,2020-08-31 15:35:33.000000000,1970-01-01 00:00:00.000000001,open,0,Add a blackbox PLLE2_BASE for xilinx series 7 FPGA
+340,2020-08-19 16:05:42.000000000,1970-01-01 00:00:00.000000001,open,0,Comment rtl entity
+339,2020-08-19 14:39:21.000000000,2020-08-20 15:46:27.000000000,closed,0,Add PhaseInitReg
+338,2020-07-25 08:57:33.000000000,1970-01-01 00:00:00.000000001,open,1,Regif
+337,2020-07-20 06:39:50.000000000,2020-07-20 11:20:13.000000000,closed,0,slice operation move from Bits to BitVector
+336,2020-07-19 16:12:37.000000000,2020-07-20 11:22:00.000000000,closed,0,bring back oneFilePerComponent feature
+335,2020-07-04 20:25:52.000000000,2020-07-04 20:36:58.000000000,closed,1,Rmii add fromTxStream()
+334,2020-06-28 02:16:20.000000000,2020-06-28 02:31:56.000000000,closed,1,Add Rmii support
+333,2020-06-21 18:40:12.000000000,1970-01-01 00:00:00.000000001,open,1,some question about bus slave Factory
+332,2020-06-20 05:31:01.000000000,2020-06-28 02:17:59.000000000,closed,1,Fix typo in Phy.scala
+331,2020-06-19 07:28:40.000000000,1970-01-01 00:00:00.000000001,open,1,"If a module contain a state machine, it can't be replaced by the same module in the generated HDL codes."
+330,2020-06-18 15:02:26.000000000,2020-08-28 04:21:14.000000000,closed,2,Why there is boot state before the state with EntryPoint?
+329,2020-06-15 17:43:04.000000000,2020-06-20 01:05:38.000000000,closed,3,Convert to Python3 via 2to3
+328,2020-06-12 23:24:57.000000000,1970-01-01 00:00:00.000000001,open,1,Vhdl package generation by stripMargin instead of StringBuilder
+327,2020-06-12 03:02:04.000000000,2020-06-30 23:57:10.000000000,closed,0,Vhdl whitespace
+326,2020-05-30 08:35:40.000000000,2020-06-01 09:53:34.000000000,closed,1,run spinalhdl in scala shell (sbt console)
+325,2020-05-24 20:57:37.000000000,2020-05-26 02:41:47.000000000,closed,0,Fix check in oneHotAccess in Vec
+324,2020-05-24 08:45:57.000000000,2020-05-24 12:30:07.000000000,closed,1,Wave tracing off for sub component
+323,2020-05-21 03:53:58.000000000,1970-01-01 00:00:00.000000001,open,7,Regif update
+322,2020-05-20 17:07:18.000000000,2020-05-27 18:44:18.000000000,closed,2,Added backend support for direct memory read/write
+321,2020-05-18 03:39:09.000000000,2020-05-27 18:27:37.000000000,closed,1,Axi4/lite simulation tools
+320,2020-05-15 09:36:41.000000000,1970-01-01 00:00:00.000000001,open,4,Snoopy
+319,2020-05-14 20:20:50.000000000,1970-01-01 00:00:00.000000001,open,8,Can I use localparameter in FSM/Enum instead of define?
+318,2020-05-11 18:00:08.000000000,1970-01-01 00:00:00.000000001,open,2,generate blackbox from verilog
+317,2020-05-08 20:45:37.000000000,1970-01-01 00:00:00.000000001,open,18,Generate C header file from Bus Slave Factory
+316,2020-05-08 07:01:11.000000000,1970-01-01 00:00:00.000000001,open,5,can I run simulation in notebook (e.g. polynote)?
+315,2020-05-07 15:21:55.000000000,2020-05-11 12:33:41.000000000,closed,1,Make blackboxing of single port and true dual port RAM respect the readUnderWrite policy
+314,2020-05-07 13:37:37.000000000,2020-05-11 12:32:18.000000000,closed,0,Now all three simulators have the same wave trace timescale of 1ns.
+313,2020-05-01 15:00:42.000000000,1970-01-01 00:00:00.000000001,open,1,Clone() of anonymous Bundle
+312,2020-04-30 16:07:37.000000000,2020-04-30 16:07:53.000000000,closed,2, generate SpinalHDL BlackBox from Verilog File
+311,2020-04-29 01:56:43.000000000,2020-05-11 12:31:19.000000000,closed,5,merged code paths for Delay
+310,2020-04-28 19:50:35.000000000,2020-04-28 22:37:08.000000000,closed,1,verilog case bin format to hex format
+309,2020-04-24 12:15:05.000000000,2020-04-26 14:20:50.000000000,closed,5,Simulation: Assert in StateMachine fails even though it should not
+308,2020-04-23 15:42:11.000000000,2020-04-26 22:23:25.000000000,closed,3,Current state from StateMachine in datapath logic
+307,2020-04-22 21:59:35.000000000,2020-04-25 23:06:10.000000000,closed,1,Corrected bug in SimVpi. Sign Extension on signed values was missing
+306,2020-04-22 17:13:24.000000000,2020-04-22 21:16:47.000000000,closed,2,Verilator compile failure on constant unsigned integer comparison
+305,2020-04-21 16:27:53.000000000,2020-04-22 01:55:46.000000000,closed,1,Performance Improvement: Use post-order traversal in PhaseInferWidth
+304,2020-04-20 14:22:02.000000000,2020-04-22 01:53:26.000000000,closed,1,SimGHDL Fixes/improvements
+303,2020-04-18 07:54:54.000000000,2020-04-18 12:31:19.000000000,closed,2,elaboration failure upgarding spinal from 1.38 to 1.4.0
+302,2020-04-17 18:26:44.000000000,2020-07-20 14:46:52.000000000,closed,4,One module per file
+301,2020-04-17 14:27:26.000000000,2020-04-21 17:57:30.000000000,closed,3,Fix CI/CD problem
+300,2020-04-15 14:05:07.000000000,2020-04-17 14:24:04.000000000,closed,4,Shift behaviour
+299,2020-04-15 12:41:34.000000000,2020-04-17 14:09:07.000000000,closed,9,Various Bugfixes and improvements to VPI/GHDL backend
+298,2020-04-15 09:28:49.000000000,2020-04-18 13:02:15.000000000,closed,3,Question about JTAG behavior
+297,2020-04-14 20:02:33.000000000,2020-04-22 13:36:56.000000000,closed,5,"QSysify emitters for AXI4, AXI4 Lite and Interrupt Sender"
+296,2020-04-13 18:00:36.000000000,2020-04-14 13:39:25.000000000,closed,0,Adding several improvements/bugfixes to VpiBackend/SimVpi
+295,2020-04-11 17:54:07.000000000,2020-04-11 18:17:30.000000000,closed,0,Ghdl
+294,2020-04-10 22:00:37.000000000,2020-04-28 01:10:54.000000000,closed,6,Non descriptive  HIERARCHY VIOLATION  for unrelated errors
+293,2020-04-10 20:28:27.000000000,2020-04-11 12:35:18.000000000,closed,4,Added VPI backend with GHDL and IVerilog support
+292,2020-04-10 19:55:11.000000000,2020-04-10 20:26:36.000000000,closed,0,Implemented VPI backend that supports GHDL and IVerilog through shared memory
+291,2020-04-10 15:41:54.000000000,2020-04-22 18:58:29.000000000,closed,4,Write to memory with condition on address
+290,2020-04-07 07:38:59.000000000,2020-04-07 18:53:35.000000000,closed,0,added alignment check to apb3 decoder
+289,2020-04-02 16:59:14.000000000,2020-04-06 17:08:34.000000000,closed,5,Issue with initialized memory (Mem)
+288,2020-03-29 17:18:38.000000000,2020-03-29 20:24:30.000000000,closed,1,Remove trailing white-spaces from the Verilog emitter
+287,2020-03-19 19:01:10.000000000,2020-04-10 00:34:49.000000000,closed,2,Various little fixups
+286,2020-03-17 02:33:01.000000000,2020-04-28 01:09:14.000000000,closed,19,adding JtagTap implementation to Lattice ECP5 JTAGG Blackbox
+285,2020-03-14 22:33:06.000000000,1970-01-01 00:00:00.000000001,open,2,Fix point operations
+284,2020-03-13 02:07:18.000000000,1970-01-01 00:00:00.000000001,open,11,Reproducible builds
+283,2020-03-08 09:00:06.000000000,2020-03-08 14:56:45.000000000,closed,2,little fix
+282,2020-03-08 03:14:39.000000000,2020-03-08 03:14:50.000000000,closed,0,update travis jdk
+281,2020-03-07 10:32:34.000000000,2020-03-07 22:43:18.000000000,closed,3,Specifying Seed for the Simulation
+280,2020-03-06 22:33:23.000000000,2020-03-07 22:46:17.000000000,closed,0,Check partial assignement/access bound checks
+279,2020-03-04 17:19:05.000000000,2020-03-09 14:16:58.000000000,closed,3,first attempt to enable directories with spaces
+278,2020-03-04 03:24:00.000000000,2020-03-18 14:27:01.000000000,closed,4,Failed to Simulate BlackBox Modules contains $error()
+277,2020-03-03 23:17:29.000000000,2020-03-09 16:36:15.000000000,closed,1,SpinalSim fails to run when the project or RTL paths contain spaces.
+276,2020-03-01 20:28:40.000000000,2020-03-06 22:33:57.000000000,closed,2,added ECP5 JTAGG Blackbox
+275,2020-02-28 20:06:45.000000000,2020-04-10 00:25:04.000000000,closed,4,`setAllBits` does not work with `asBits`: NO DRIVER ON value
+274,2020-02-22 09:24:35.000000000,2020-02-29 14:46:40.000000000,closed,2,formatting Verilog 
+273,2020-02-20 18:29:22.000000000,2020-02-20 20:43:40.000000000,closed,0,AhbLite3 incr beatCounter only when HTRANS == SEQ or NONSEQ
+272,2020-02-16 18:00:50.000000000,2020-02-16 20:47:49.000000000,closed,0,Add Anlogic Eagle BRAM to BMB
+271,2020-02-14 22:14:20.000000000,2020-02-15 01:55:43.000000000,closed,0,Fix docker-credential pass
+270,2020-02-13 14:26:21.000000000,2020-02-22 01:21:20.000000000,closed,12,Bits method extention
+269,2020-02-11 16:06:11.000000000,1970-01-01 00:00:00.000000001,open,2,Travis doesn't push container to dockerhub
+268,2020-02-10 17:44:06.000000000,2020-03-18 15:31:24.000000000,closed,6,FSM does not compile
+267,2020-02-07 00:39:28.000000000,1970-01-01 00:00:00.000000001,open,2,changes for output assigns
+266,2020-02-06 03:15:44.000000000,1970-01-01 00:00:00.000000001,open,5,Merge `AXILite4` into `AXI4`
+265,2020-02-04 03:05:30.000000000,1970-01-01 00:00:00.000000001,open,1,Allow combining resets (A/SYNC) with initial values
+264,2020-01-29 17:57:51.000000000,1970-01-01 00:00:00.000000001,open,18,AXI resize address bus
+263,2020-01-27 21:15:06.000000000,2020-01-27 23:46:25.000000000,closed,1,Fix sbt supershell in travis
+262,2020-01-26 01:51:40.000000000,2020-01-26 17:26:54.000000000,closed,0,Add SDR configuration for Anlogic EG4S20
+261,2020-01-21 13:54:20.000000000,2020-05-11 17:04:13.000000000,closed,22,fixPoint improvements
+260,2020-01-17 21:39:42.000000000,2020-02-05 23:45:56.000000000,closed,10,Simulation Diagnostics and Feedback
+259,2020-01-16 16:19:54.000000000,2020-02-02 20:46:31.000000000,closed,1,fix drive flow and some surrounding checks for proper recognition of bitOffset #255
+258,2020-01-15 22:53:08.000000000,2020-01-16 16:07:31.000000000,closed,1,AsyncMemoryBusFactory fix for writeMemWordAligned
+257,2020-01-13 23:35:40.000000000,2020-02-06 00:17:01.000000000,closed,8,Update ComponentEmitterVerilog.scala
+256,2020-01-13 23:09:46.000000000,2020-01-13 23:57:52.000000000,closed,0,[Feature] Pretty print of module instantiations
+255,2020-01-13 19:04:16.000000000,2020-02-02 20:46:32.000000000,closed,2,Multi-word driveFlow  stays valid forever
+254,2020-01-13 16:57:27.000000000,2020-02-06 19:15:20.000000000,closed,5,Set name of component
+253,2020-01-13 03:53:22.000000000,2020-02-03 16:25:11.000000000,closed,0,Temporary test
+252,2020-01-12 03:12:31.000000000,2020-01-27 23:46:25.000000000,closed,3,Disable sbt interactive features in Travis
+251,2020-01-08 05:08:13.000000000,1970-01-01 00:00:00.000000001,open,3,[Request]: Remove assigns for direct connections to parent using autoConnect
+250,2020-01-03 16:29:10.000000000,2020-01-04 00:52:22.000000000,closed,2,Usage of hardened IP of ice40
+249,2019-12-28 23:40:12.000000000,2019-12-29 02:33:32.000000000,closed,5,Add DDR2 support for NexysA7
+248,2019-12-24 02:18:06.000000000,2020-02-03 16:25:09.000000000,closed,25,Various little improvements
+247,2019-12-19 18:31:33.000000000,2020-02-03 16:25:11.000000000,closed,4,Asserts don't work
+246,2019-12-15 18:07:21.000000000,2019-12-20 22:00:11.000000000,closed,5,Template project with Gradle
+245,2019-12-12 03:38:33.000000000,2020-01-07 14:48:45.000000000,closed,7,"Enhancement:  B(value: Array[Byte][, x bits])"
+244,2019-12-05 20:29:44.000000000,2019-12-12 13:54:07.000000000,closed,3,Add support for Nameable members inside Scala containers
+243,2019-12-04 09:15:06.000000000,2019-12-16 20:15:32.000000000,closed,12,Cannot infer dual write port Mem as block ram in Quartus
+242,2019-11-15 10:06:51.000000000,1970-01-01 00:00:00.000000001,open,1,ModuleNotFoundError: No module named 'Queue'
+241,2019-11-08 18:54:45.000000000,2019-11-25 04:57:26.000000000,closed,1,Add sbt-assembly
+240,2019-11-03 07:57:04.000000000,1970-01-01 00:00:00.000000001,open,5,SpinalSimConfig.addRTL() has no effect
+239,2019-10-31 11:10:42.000000000,2019-10-31 15:40:41.000000000,closed,2,Bits().asBool Problem
+238,2019-10-28 16:46:09.000000000,2020-05-12 15:36:03.000000000,closed,12,Regif
+237,2019-10-28 16:41:46.000000000,1970-01-01 00:00:00.000000001,open,9,A new RegisterBank Solution:  RegIf
+236,2019-10-18 12:50:55.000000000,2019-10-23 03:17:48.000000000,closed,3,T(0 bits) Problem
+235,2019-10-04 18:43:23.000000000,2019-10-09 01:27:30.000000000,closed,1,Add support for multiple Data arguments for forkSensitive(trigger)
+234,2019-10-03 18:48:13.000000000,2019-10-21 17:24:47.000000000,closed,8,Hardware model not updated within current cycle when input changes during simulation
+233,2019-09-09 20:25:34.000000000,2020-02-17 07:06:38.000000000,closed,0,Fixpoint Discussion
+232,2019-09-05 20:31:50.000000000,2019-10-10 15:37:57.000000000,closed,15,SInt/UInt fixpoint and other usefull method extensions
+231,2019-09-05 07:18:39.000000000,2019-09-06 11:32:26.000000000,closed,3,"Unexpected ""COMBINATORIAL LOOP"" error reported"
+230,2019-09-02 12:03:16.000000000,1970-01-01 00:00:00.000000001,open,5,"Weird warning ""LATCH DETECTED"" when building a priority encoder using muxList"
+229,2019-08-22 15:10:50.000000000,2019-08-22 17:38:49.000000000,closed,0,Add Apb3CCToggle + Avoid lint error when base is equal to 0
+228,2019-08-21 16:56:42.000000000,2019-08-21 18:56:57.000000000,closed,1,Avoid to access a bus without setting the io.input.hsel signal
+227,2019-08-21 10:43:29.000000000,1970-01-01 00:00:00.000000001,open,0,Statemachine lost state name
+226,2019-08-13 08:45:22.000000000,2020-02-05 23:51:44.000000000,closed,9,ClockDomain Synchronized Inheritance Problem
+225,2019-08-10 18:03:59.000000000,2020-02-05 23:51:25.000000000,closed,4,wrong documentation for Apb3UartCtrl
+224,2019-07-02 13:20:10.000000000,2019-07-02 17:32:43.000000000,closed,6,Multithreaded simulation with Verilator 4
+223,2019-06-25 19:01:38.000000000,1970-01-01 00:00:00.000000001,open,0,Ping me if you are waiting a feedback/answer to one of your issues :)
+222,2019-06-13 20:05:03.000000000,2019-06-16 18:52:38.000000000,closed,2,RFC: Remove randBoot() for Cadence toolchain
+221,2019-06-11 21:50:00.000000000,2019-06-15 19:13:33.000000000,closed,0,Change jtag tdo clock edge
+220,2019-06-06 02:10:10.000000000,2019-07-20 04:01:09.000000000,closed,4,Add state machine variant with conditional state transition
+219,2019-06-03 22:00:23.000000000,2019-07-20 04:01:09.000000000,closed,6,Conditional state transition for statemachine
+218,2019-05-29 17:39:17.000000000,2019-05-29 17:47:52.000000000,closed,2,Illegal Verilog literal emitted for don't care values of SpinalEnum
+217,2019-05-28 08:46:23.000000000,2019-05-28 22:17:08.000000000,closed,2,remove output/temp folders from git visibility
+216,2019-05-26 23:16:19.000000000,2019-06-15 19:27:38.000000000,closed,1,How to get pruned signals from a simulation compile?
+215,2019-05-20 00:08:24.000000000,2020-02-05 23:51:06.000000000,closed,4,Setting verbosity level of SpinalHDL compiler
+214,2019-05-18 00:41:35.000000000,2019-05-27 13:43:24.000000000,closed,4,Black boxes and bidirectional signals
+213,2019-05-17 03:57:11.000000000,2019-05-20 01:12:56.000000000,closed,4,AxiLite4SlaveFactory.onReadPrimitive does nothing when haltSensitive=false
+212,2019-05-16 02:41:48.000000000,2019-05-16 02:42:32.000000000,closed,2,Pull from Upstream to get all the nifty new stuffle.
+211,2019-04-26 12:32:07.000000000,1970-01-01 00:00:00.000000001,open,3,Foldable unit test
+210,2019-04-26 05:10:42.000000000,2019-06-15 19:29:07.000000000,closed,7,Add 1 bit to return type of Operator.UInt/SInt.Add/Sub?
+209,2019-04-24 17:06:04.000000000,2019-04-24 21:44:07.000000000,closed,0,merge dev
+208,2019-04-16 16:29:46.000000000,2019-04-24 13:54:01.000000000,closed,1, Blackbox - Add default value for generic in the definition of the component in VHDL
+207,2019-04-16 15:01:02.000000000,2019-04-17 01:12:00.000000000,closed,1,Look like there is some naming issues ressulting in double _ (MuraxTimer)
+206,2019-04-10 13:39:54.000000000,2019-05-10 01:25:12.000000000,closed,8,asBits circumvents width mismatch check
+205,2019-03-27 21:30:29.000000000,1970-01-01 00:00:00.000000001,open,0,Make Vec[BitVector] single bit assignable
+204,2019-03-16 00:26:03.000000000,1970-01-01 00:00:00.000000001,open,0,Bring the VexRiscv Quine–McCluskey into the Spinal lib
+203,2019-02-27 02:05:42.000000000,2019-04-24 15:41:02.000000000,closed,5,fix: pass TRAVIS envvar to docker container
+202,2019-02-26 19:26:34.000000000,2019-04-24 13:54:54.000000000,closed,3,Add comparison with Chisel to the documentation
+201,2019-02-14 22:56:52.000000000,2019-02-27 02:01:26.000000000,closed,1,Wishbone intercon will generate spurius logic
+200,2019-02-14 22:53:17.000000000,2019-02-22 18:51:08.000000000,closed,3,Fix wishbone decoder
+199,2019-01-31 01:53:21.000000000,2019-01-31 01:56:54.000000000,closed,1,Fix a few textual mistakes in the readme.
+198,2019-01-29 19:18:51.000000000,2019-01-29 19:35:21.000000000,closed,3,spinal.core.Trait.scala: addTags iterates over wrong tags collection
+197,2019-01-27 02:01:38.000000000,2019-06-25 11:28:08.000000000,closed,1,lib: misc: Add BinTools
+196,2019-01-22 07:10:31.000000000,2019-01-22 07:45:09.000000000,closed,6,Build break with latest dev commit
+195,2019-01-20 02:00:19.000000000,2019-02-25 21:45:36.000000000,closed,18,Docker images
+194,2019-01-19 20:14:41.000000000,1970-01-01 00:00:00.000000001,open,32,[WIP]Yosys integration
+193,2019-01-19 10:00:56.000000000,2019-01-29 16:16:03.000000000,closed,7,.clearAll and .setAll don't work anymore for UInt
+192,2019-01-19 09:04:36.000000000,2019-01-20 20:36:46.000000000,closed,5,Rise/Fall -> Rose/Fell
+191,2019-01-17 09:53:52.000000000,2019-01-19 08:56:41.000000000,closed,0,Fix Formal rise/fall to rose/fell
+190,2019-01-13 20:29:10.000000000,1970-01-01 00:00:00.000000001,open,8,lib: misc: mtimer: Add MachineTimer
+189,2019-01-11 01:51:55.000000000,1970-01-01 00:00:00.000000001,open,17,Reorganize peripherals for minimal Zephyr support.
+188,2019-01-10 21:14:18.000000000,2019-01-12 17:00:00.000000000,closed,1,Add asCloneOf SpinalHDL/SpinalHDL#187
+187,2019-01-10 20:57:49.000000000,2019-01-12 17:00:18.000000000,closed,3,Add asCloneOf method to Data type
+186,2019-01-10 02:35:37.000000000,2019-01-11 23:17:29.000000000,closed,0,improve alignMask and size width optimization SpinalHDL/SpinalHDL#169
+185,2019-01-09 16:04:18.000000000,2019-01-09 23:04:08.000000000,closed,1,Fix AXI4 incr address for INCR and WRAP case SpinalHDL/SpinalHDL#169
+184,2019-01-04 21:52:57.000000000,2019-01-05 01:01:03.000000000,closed,1,Deprecate for IEC binary prefix
+183,2019-01-04 20:24:19.000000000,2019-01-12 05:14:47.000000000,closed,17,"Deprecate kB, MB, GB, TB and introduce KiB, MiB, GiB, TiB"
+182,2019-01-04 02:55:21.000000000,2019-01-11 01:25:35.000000000,closed,7,RFC: Reorganize peripheral structure
+181,2019-01-03 16:18:15.000000000,1970-01-01 00:00:00.000000001,open,15,Add Number/Natural ranged type
+180,2019-01-03 16:10:15.000000000,1970-01-01 00:00:00.000000001,open,3,"add splitAt method for Bits, UInt and SInt"
+179,2019-01-02 23:14:00.000000000,2019-01-11 01:25:22.000000000,closed,7,SPI changes
+178,2019-01-02 03:01:07.000000000,2019-01-12 17:01:13.000000000,closed,8,better to have human readable string to make enum and state machine much more easy to understand
+177,2019-01-01 04:53:10.000000000,2019-01-11 23:59:32.000000000,closed,3,Global prefix for all but the top-level entity
+176,2018-12-30 11:32:14.000000000,2018-12-31 09:13:25.000000000,closed,3,InOutWrapper doesn't always work
+175,2018-12-30 10:55:16.000000000,2018-12-30 16:26:16.000000000,closed,1,Fix typos.
+174,2018-12-30 02:48:28.000000000,2018-12-31 09:09:40.000000000,closed,3,RAM contents are included as 'assign's in generated Verilog even when inlineRom is set to false
+173,2018-12-29 23:19:46.000000000,2018-12-30 00:59:27.000000000,closed,1,Add setOnSet BusSlaveFactory helper
+172,2018-12-24 05:20:52.000000000,2020-02-05 23:49:52.000000000,closed,4,"QSys Interrupts, Component Metadata"
+171,2018-12-24 01:01:50.000000000,2020-02-05 23:49:30.000000000,closed,3,Make SpinalHDL compile without warnings
+170,2018-12-20 09:12:42.000000000,2018-12-23 21:03:53.000000000,closed,8,(a)syncronous -> (a)synchronous
+169,2018-12-19 15:44:28.000000000,2019-01-11 23:59:49.000000000,closed,5,Axi4.incr Alignment?
+168,2018-12-19 11:23:09.000000000,2018-12-20 09:10:57.000000000,closed,2,Syncronous -> Synchronous
+167,2018-12-18 01:49:47.000000000,2018-12-18 04:08:56.000000000,closed,4,Issue with JTAG - off by 1
+166,2018-12-17 22:31:28.000000000,2019-01-12 00:00:04.000000000,closed,7,SlowArea doesn't scale frequencies properly
+165,2018-12-17 14:47:48.000000000,2019-01-13 19:41:06.000000000,closed,6,Add randBootFixValue parameter in spinalconfig
+164,2018-12-14 21:01:06.000000000,2018-12-16 22:46:28.000000000,closed,2,Prohibit BusSlaveFactory to assign reads to the same bit more than once
+163,2018-11-25 15:39:41.000000000,2018-11-25 19:02:57.000000000,closed,8,register structure/union
+162,2018-11-23 22:34:58.000000000,2018-11-23 22:46:03.000000000,closed,1,Provide helper function to use the same file path for Verilog-for-synthesis code and Verilog-for-sim code
+161,2018-11-23 17:32:20.000000000,1970-01-01 00:00:00.000000001,open,5,Feature Proposal: Allow using `Bits` to construct `SpinalEnumEncoding`
+160,2018-11-23 04:52:36.000000000,1970-01-01 00:00:00.000000001,open,13,"Create equivalent to readmemb, readmemh, etc to load contents of a Mem"
+159,2018-11-22 13:56:42.000000000,2020-02-05 23:49:00.000000000,closed,7,Documentation update request
+158,2018-11-16 19:25:01.000000000,1970-01-01 00:00:00.000000001,open,16,Help with design low-level HDL language
+157,2018-11-07 15:37:12.000000000,2018-12-15 18:55:49.000000000,closed,8,Intermmitent verilator error
+156,2018-10-31 03:50:36.000000000,2018-12-02 08:05:30.000000000,closed,8,Not used logic is not pruning
+155,2018-10-11 16:17:07.000000000,2018-11-22 15:54:02.000000000,closed,1,Add Ahb feature + fix issue wit AhbLite3ToApb3Bridge + verify overlaping for decoder
+154,2018-10-07 13:42:15.000000000,2018-10-08 21:27:44.000000000,closed,5,Scala 2.12.7: error during elaboration (dslScope stack is not empty)
+153,2018-10-05 11:34:55.000000000,2018-10-05 23:19:56.000000000,closed,0,Add >> << operators to AhbLite3
+152,2018-09-20 12:21:05.000000000,2018-09-20 15:23:08.000000000,closed,0,Add comments for all assert() of the BusSlaveFactory
+151,2018-09-19 11:11:01.000000000,2018-09-19 12:46:12.000000000,closed,0,Clean AhbLite3 package
+150,2018-09-19 00:49:21.000000000,1970-01-01 00:00:00.000000001,open,0,Mem with negative init emit negative literals in verilog
+149,2018-09-17 20:40:32.000000000,2018-09-19 12:46:28.000000000,closed,0,"make is() require one parameter at least, syntactically"
+148,2018-09-16 15:33:56.000000000,2018-09-16 16:07:35.000000000,closed,3,Verilog generated in SpinalTemplateSbt
+147,2018-09-14 00:30:27.000000000,2018-09-20 15:22:33.000000000,closed,3,Change coding style of Verilog to case(1) with parallel_case #145
+146,2018-09-11 22:31:12.000000000,1970-01-01 00:00:00.000000001,open,18,VHDL support in SpinalSim using GHDL as a backend
+145,2018-09-10 20:32:31.000000000,2018-10-04 21:43:11.000000000,closed,4,RFE: Make switch statement optimized for one-hot encoded arguments
+144,2018-09-10 04:13:30.000000000,2018-10-04 21:43:46.000000000,closed,6,RFE: Option to create unique auto-created signals names 
+143,2018-09-10 04:08:41.000000000,2019-06-28 17:54:54.000000000,closed,8,RFE: Option to generate ascii version of an enum
+142,2018-09-06 15:34:50.000000000,2018-09-06 16:57:04.000000000,closed,0,Add parameter rtlHeader in SpinalConfig
+141,2018-08-24 10:31:52.000000000,2018-08-30 09:34:39.000000000,closed,3,"RFE: Better error reporting on ""val data = RegNext(data_old, enable)"" "
+140,2018-08-22 15:23:35.000000000,2018-08-22 19:20:49.000000000,closed,2,Add extra flags to verilator command
+139,2018-08-22 14:17:27.000000000,2018-08-22 19:21:47.000000000,closed,2,Feature: Allow to pass flags to verilator when compiling a simulation
+138,2018-08-20 04:36:30.000000000,2019-01-12 17:07:52.000000000,closed,58,Feature Proposal: Support for XIP mode
+137,2018-08-19 10:07:35.000000000,1970-01-01 00:00:00.000000001,open,40,"Minimal support for assert, assume, cover"
+136,2018-08-19 09:53:38.000000000,2018-08-19 13:42:19.000000000,closed,0,`ifndef SYTHESIS ... `endif around non-synthesizable $display
+135,2018-08-19 09:52:18.000000000,2018-08-19 13:40:45.000000000,closed,1,Typos
+134,2018-08-10 21:52:37.000000000,2018-08-10 23:08:14.000000000,closed,2,"""32'h0"" and ""32'b0"" resolve to a 4 bit and 1 bit signal."
+133,2018-08-10 09:13:43.000000000,2018-09-10 04:14:12.000000000,closed,16,RFE: Change autocreated signal names from _zz_<number> to _zz_<number>_
+132,2018-08-09 03:46:59.000000000,2018-09-11 17:44:46.000000000,closed,8,RFE: Reduce unnecessary intermediate signals assignments
+131,2018-07-21 04:09:14.000000000,2018-07-21 14:14:39.000000000,closed,0,README.md spelling fix.
+130,2018-07-17 18:01:53.000000000,2018-12-17 01:58:56.000000000,closed,2,Issue warnings when BusSlaveFactory read multiple signals to the same address
+129,2018-07-03 17:11:55.000000000,2018-07-04 16:10:56.000000000,closed,0,Close file properly during merging BB
+128,2018-06-28 19:13:44.000000000,1970-01-01 00:00:00.000000001,open,2,cdc check for multi-clock black box
+127,2018-06-19 11:41:01.000000000,2018-06-19 22:09:51.000000000,closed,3,Vec init(0)
+126,2018-06-06 17:29:34.000000000,2018-06-06 18:11:00.000000000,closed,0,"Clean Literal, sim and expression files "
+125,2018-05-28 01:09:33.000000000,2018-05-28 23:28:14.000000000,closed,4,Use of generic signal names (_zz_...) when they don't need to be
+124,2018-05-15 16:49:02.000000000,2018-05-15 18:22:01.000000000,closed,0,Fix Bug about resizeLeft() #123
+123,2018-05-14 19:43:34.000000000,2018-05-15 18:22:47.000000000,closed,2,Bug: resizeLeft() on Bits does not keep MSb but performs regular resize()
+122,2018-05-13 23:36:27.000000000,2018-05-14 22:29:10.000000000,closed,0,Fix prefix length for inlineRom (Verilog)
+121,2018-05-02 23:18:54.000000000,2018-05-03 14:50:30.000000000,closed,1,Replace disassert with deassert
+120,2018-05-01 03:45:17.000000000,2018-05-01 03:59:11.000000000,closed,2,Axi4Lite interface at top level
+119,2018-04-06 00:25:21.000000000,2018-04-06 22:13:18.000000000,closed,1,I2C Master 
+118,2018-04-03 01:48:14.000000000,2018-12-14 04:05:49.000000000,closed,24,Wishbone bus and utilities
+117,2018-04-02 21:30:56.000000000,2018-04-03 00:14:48.000000000,closed,1,Why the reset pin is there even when only the clock is needed  ?
+116,2018-03-10 01:26:41.000000000,2018-04-06 00:15:52.000000000,closed,1,Fix issue with i2cSlavesim
+115,2018-02-27 02:05:11.000000000,2018-03-10 01:27:07.000000000,closed,0,Debug I2C in master mode
+114,2018-02-26 15:55:26.000000000,2018-02-28 02:25:32.000000000,closed,4,SpinalSim doesn't work on windows 10
+113,2018-02-09 00:43:32.000000000,2018-02-09 05:35:42.000000000,closed,0,rename google to toggle + add getBitsWidth to HardType
+112,2018-01-19 03:43:06.000000000,2018-01-19 04:00:25.000000000,closed,1,lib/sim/Stream: Add ready condition for StreamReadyRandomizer
+111,2018-01-17 23:31:39.000000000,2018-01-26 01:38:31.000000000,closed,0,Allow Mem which only have one entries (0 bits of address)
+110,2018-01-16 01:44:01.000000000,2018-01-26 01:38:56.000000000,closed,8,Fixedpoint wrong generation for Verilog only
+109,2018-01-04 00:54:04.000000000,2018-01-04 00:55:53.000000000,closed,0,Can now use `elsewhen !cond` without brackets
+108,2018-01-03 21:59:35.000000000,2018-01-04 00:46:42.000000000,closed,3,removing the need for `.` in `.elsewhen`
+107,2018-01-03 08:51:47.000000000,2018-01-04 00:46:42.000000000,closed,2,The annoying extra `.` in `.elseWhen` and `.otherwise`
+106,2018-01-03 00:18:44.000000000,2018-01-03 00:24:32.000000000,closed,0,SpinalSim run on Mac
+105,2017-12-20 01:43:28.000000000,2017-12-21 14:33:36.000000000,closed,0,Add tag noNumericType for Blackbox
+104,2017-12-19 22:57:37.000000000,2017-12-19 23:27:04.000000000,closed,1,Problem generating vcd file
+103,2017-12-14 22:47:12.000000000,2017-12-15 16:33:15.000000000,closed,0,rtlSourcesPath rework
+102,2017-12-09 20:41:20.000000000,2017-12-10 00:10:00.000000000,closed,0,BlackBox can have RTL source path + SpinalReport can merge all BlackBox source path
+101,2017-12-07 23:29:27.000000000,2017-12-08 15:11:33.000000000,closed,0,Add StateDelay with TimeNumber + clean State machine code
+100,2017-12-05 00:24:17.000000000,2017-12-05 00:47:32.000000000,closed,0,Fix issue on ResetArea
+99,2017-11-29 01:17:40.000000000,2017-11-29 01:45:11.000000000,closed,0,onlyStdLogicVectorAtTopLevelIO implemented
+98,2017-11-27 23:37:27.000000000,2017-11-28 00:02:08.000000000,closed,0,"SlaveFactory allowPruning on askWrite, askRead, doWrite and askWrite …"
+97,2017-11-24 22:32:46.000000000,2017-11-25 03:04:58.000000000,closed,0,Axi4SharedToApb3Bridge fîx issue on read
+96,2017-11-24 15:24:13.000000000,2017-11-24 15:41:48.000000000,closed,0,Merge pull request #1 from SpinalHDL/master
+95,2017-11-23 00:39:21.000000000,2017-11-23 22:21:45.000000000,closed,0,Add AsycMemoryBus + SimpleBus + Add documentation on busSlaveFactory
+94,2017-11-22 16:54:02.000000000,2019-06-28 17:54:37.000000000,closed,16,[Verilog Backend] Lint issues
+93,2017-11-22 01:16:04.000000000,2017-11-22 01:36:57.000000000,closed,4,Default input values for Components?
+92,2017-11-19 21:30:51.000000000,2017-11-19 22:54:21.000000000,closed,0,Clean
+91,2017-11-17 01:50:11.000000000,2017-11-19 21:28:37.000000000,closed,0,Clean code
+90,2017-11-16 19:44:47.000000000,2017-11-17 01:49:00.000000000,closed,0,Clean code 
+89,2017-11-15 15:24:28.000000000,2017-11-17 19:41:19.000000000,closed,5,BlackBox pararam assignment with width-check
+88,2017-11-15 14:08:09.000000000,2017-11-15 15:08:15.000000000,closed,1,Add the number of registers in the log
+87,2017-11-10 17:32:19.000000000,2017-11-10 23:19:45.000000000,closed,11,[reworkDev] Initial statements outputed in Verilog RTL
+86,2017-11-10 04:04:47.000000000,2017-11-10 18:20:20.000000000,closed,3,StreamArbiter locked should clear when fire assert.
+85,2017-11-09 21:43:20.000000000,1970-01-01 00:00:00.000000001,open,2,Feature Proposal: allowing latches
+84,2017-11-09 17:11:48.000000000,2017-11-10 18:18:56.000000000,closed,8,"Unassigned, initialized register generates a Latch"
+83,2017-10-26 21:26:51.000000000,2017-10-26 22:30:40.000000000,closed,0,StreamFifoCC add comment for assert
+82,2017-10-26 00:15:51.000000000,2017-10-26 01:19:18.000000000,closed,1,Replace Assignement with Assignment
+81,2017-09-29 16:42:39.000000000,2017-10-02 17:12:25.000000000,closed,3,Synthesis error in FSM with Synplify
+80,2017-09-22 15:02:36.000000000,2017-09-29 13:10:29.000000000,closed,7,Proposal: what about automatic cast from Bits(1 bits) to Bool?
+79,2017-09-22 14:50:21.000000000,2017-09-29 13:11:00.000000000,closed,6,B(0) returns a Bit vector of 0 bits
+78,2017-09-14 15:38:33.000000000,2017-09-14 15:58:22.000000000,closed,0,NEW: implemented getFMax and added Total Core %
+77,2017-09-13 18:08:59.000000000,2017-09-13 18:34:02.000000000,closed,1,NEW: microsemi libero flow
+76,2017-09-05 11:39:44.000000000,2017-09-05 13:57:13.000000000,closed,1,Blackbox io ports fix
+75,2017-09-04 15:40:16.000000000,2017-09-04 15:58:27.000000000,closed,1,FSM boot state should be first state in enum
+74,2017-08-25 06:37:34.000000000,2017-09-05 21:53:44.000000000,closed,2,Octal SPI support
+73,2017-08-18 20:08:58.000000000,2017-08-18 20:28:43.000000000,closed,1,Vlog backend fixes
+72,2017-08-17 19:12:09.000000000,2017-08-17 22:12:26.000000000,closed,0,Move LFSR to SpinalCrypto
+71,2017-08-16 22:56:21.000000000,2017-08-17 05:03:32.000000000,closed,1,wrong code in UInt isNotEquals
+70,2017-08-14 22:35:16.000000000,2017-08-15 12:38:50.000000000,closed,0,Check if the parameter netlistFileName contains an extension
+69,2017-07-17 23:49:29.000000000,2017-07-18 02:10:10.000000000,closed,3,VHDL generation does not appear to produce vaild results with Attributes added.
+68,2017-07-14 22:53:33.000000000,2017-08-08 14:55:41.000000000,closed,7,Documentation Feature Request: Documentation for QSysify...
+67,2017-07-07 01:23:46.000000000,2017-07-27 18:12:35.000000000,closed,24,CPU Build Documentation incorrect...
+66,2017-06-27 21:29:09.000000000,2017-06-28 01:36:19.000000000,closed,0,Dev i2c
+65,2017-05-25 00:11:55.000000000,2017-05-25 13:44:10.000000000,closed,0,Add muxList with default value
+64,2017-04-25 20:55:37.000000000,2017-04-25 23:59:34.000000000,closed,0,Remove Crypto from lib
+63,2017-04-11 07:18:38.000000000,2017-04-12 01:12:57.000000000,closed,1,Axi4SpecRenamer can not work with Axi4ReadOnly/WriteOnly.
+62,2017-04-09 09:43:17.000000000,2017-04-09 13:57:10.000000000,closed,2,How to extend blackbox attribute support uint32_t parameter?
+61,2017-03-27 23:22:50.000000000,2017-03-28 00:20:36.000000000,closed,0,BigIntToListBoolean function supports negative number
+60,2017-03-22 00:02:10.000000000,2017-03-22 02:32:40.000000000,closed,0,Add attribute to IMasterSlave + toString to MaskedLiteral + BigIntToListBoolean function
+59,2017-02-01 01:40:55.000000000,2017-02-02 02:08:11.000000000,closed,0,BusSlaveFactory Rework
+58,2017-01-25 02:05:33.000000000,2017-01-28 20:51:02.000000000,closed,0,TripleDes Fix a bug and clean code
+57,2017-01-11 00:17:47.000000000,2017-01-11 00:43:19.000000000,closed,0,BlackBox - scaladoc
+56,2017-01-10 23:33:52.000000000,2017-01-11 00:10:42.000000000,closed,0,BlackBox - Scaladoc
+55,2017-01-04 21:21:10.000000000,2017-01-04 22:31:24.000000000,closed,1,"ScalaDoc : Component, BitVector, Enum"
+54,2016-12-27 22:51:26.000000000,2016-12-29 13:37:15.000000000,closed,0,Add Endianess and address incrementation to BusSlaveFactory
+53,2016-12-15 01:42:16.000000000,2016-12-16 01:23:18.000000000,closed,0,Modify onWriteRange and onReadRange
+52,2016-12-14 01:37:42.000000000,2016-12-14 02:02:43.000000000,closed,0,Add onWriteRange and onReadRange in BusSlaveFactory
+51,2016-11-25 01:23:15.000000000,2016-11-25 03:30:05.000000000,closed,0,"Scaladoc Bool, Bits, Sint, Uint and BitVector"
+50,2016-11-19 00:31:50.000000000,2016-11-19 01:03:46.000000000,closed,0,Cocotlib git
+49,2016-11-18 23:39:46.000000000,2016-11-19 00:29:14.000000000,closed,0,"Remove BitsCast, SIntCast and UIntCast"
+48,2016-11-07 01:36:04.000000000,2016-11-12 13:15:09.000000000,closed,1,Add DES and TripleDES 
+47,2016-10-26 01:19:33.000000000,2016-10-27 07:46:41.000000000,closed,2,Update Sdram.scala
+46,2016-10-25 11:04:30.000000000,2016-10-25 14:28:56.000000000,closed,0,Fixed calculation of SDRAM capacity
+45,2016-10-20 08:10:43.000000000,2016-10-20 12:13:31.000000000,closed,1,Added Winbond memory W9825G6JH6 used by Scarab board
+44,2016-10-12 21:24:05.000000000,2016-10-12 21:48:19.000000000,closed,0,Add edge function to Bool 
+43,2016-09-17 10:54:43.000000000,2016-09-17 12:02:16.000000000,closed,0,Floatin: Add comparator and comparison operators
+42,2016-09-15 13:55:42.000000000,2016-09-15 16:19:57.000000000,closed,0,Floating rework
+41,2016-09-12 15:55:20.000000000,2016-09-12 17:08:23.000000000,closed,0,Add Floating initialization and constants assign
+40,2016-09-12 11:09:01.000000000,2016-09-12 12:22:48.000000000,closed,0,Fixed Floating mux length mismatch
+39,2016-09-09 15:58:13.000000000,2016-09-09 18:40:01.000000000,closed,0,Float to Fix and size parametrization
+38,2016-09-08 18:01:50.000000000,2016-09-08 18:15:01.000000000,closed,0,Add float conversions
+37,2016-09-08 11:01:48.000000000,2016-09-08 11:15:11.000000000,closed,0,Fix unmatched length in Floating to RecFloating conversion
+36,2016-09-06 21:36:40.000000000,2016-09-06 21:49:22.000000000,closed,0,Add Linear Feedback Shift Register (LFSR )
+35,2016-09-06 20:16:25.000000000,2016-09-06 20:24:50.000000000,closed,0,Add Linear Feedback Shift Register (LFSR)
+34,2016-09-06 18:14:04.000000000,2016-09-06 18:39:25.000000000,closed,0,More float work
+33,2016-09-06 14:23:55.000000000,2016-09-06 14:43:17.000000000,closed,0,Floating Enhancements
+32,2016-09-05 05:29:47.000000000,2016-09-05 23:12:19.000000000,closed,3,Problem creating Pinsec
+31,2016-08-30 14:32:25.000000000,2016-08-30 14:47:18.000000000,closed,0,Add preliminary floating point support
+30,2016-08-04 22:23:31.000000000,2016-08-07 21:14:13.000000000,closed,0,I2C - fix issue on regression test + change type generics parameters
+29,2016-07-28 20:06:13.000000000,2016-07-30 13:08:23.000000000,closed,0,I2CMasterHal and I2CSlaveHal new design + tests updated
+28,2016-07-25 01:41:57.000000000,2016-07-25 04:19:22.000000000,closed,2,Simulation hangs with Verilog backend
+27,2016-07-20 20:17:53.000000000,2016-07-20 20:51:50.000000000,closed,0,Add Pulse Density Modulation core
+26,2016-07-02 12:22:37.000000000,2016-07-02 12:39:41.000000000,closed,0,min/max and MaskByPriority functions
+25,2016-06-28 00:16:51.000000000,2016-06-28 07:37:19.000000000,closed,0,Add I2CSlaveHAL + Test
+24,2016-06-27 13:12:07.000000000,2016-07-22 22:24:15.000000000,closed,7,BSD
+23,2016-06-20 22:14:13.000000000,2016-06-20 23:14:54.000000000,closed,0,Add I2C Master HAL + tests
+22,2016-06-19 19:23:36.000000000,2016-06-20 22:13:05.000000000,closed,0,Add I2CMasterHAL + test
+21,2016-06-17 00:28:10.000000000,2016-06-18 09:54:34.000000000,closed,1,Merge
+20,2016-06-09 12:58:52.000000000,2017-11-07 00:50:02.000000000,closed,2,IEC-61131-3 Structured Text 
+19,2016-06-03 21:38:45.000000000,2016-06-03 22:17:30.000000000,closed,0,AxiLite4SlaveFactory  update
+18,2016-06-03 01:55:15.000000000,2016-06-03 15:04:35.000000000,closed,0,Axi4 update
+17,2016-06-02 22:48:51.000000000,2016-06-03 00:20:33.000000000,closed,0,Add Endianness function
+16,2016-06-02 11:45:10.000000000,2018-01-03 16:23:22.000000000,closed,11,Optionaly Keep BitVector Unconstrained in the generated VHDL
+15,2016-06-02 10:54:08.000000000,2016-06-02 11:40:18.000000000,closed,0,BusSlaveFactory update
+14,2016-06-01 18:25:15.000000000,2016-06-02 17:56:04.000000000,closed,5,Universal reset
+13,2016-06-01 18:12:28.000000000,2016-06-01 18:28:14.000000000,closed,1,Disable output colorizing when running in a non-interactive shell
+12,2016-05-31 23:32:50.000000000,2016-05-31 23:52:12.000000000,closed,0,AxiLite add constatns
+11,2016-05-26 11:57:52.000000000,2016-05-26 12:39:49.000000000,closed,1,Complet == Complete in French?
+10,2016-05-25 23:38:13.000000000,2016-05-26 07:59:47.000000000,closed,2,VGA Tutorial Seems to be broken?
+9,2016-05-20 14:10:41.000000000,2016-05-20 14:12:36.000000000,closed,0,Add a Gitter chat badge to README.md
+8,2016-05-09 19:20:34.000000000,1970-01-01 00:00:00.000000001,open,1,Cross platform toplevel pin mapping definition
+7,2016-04-16 23:17:50.000000000,2016-04-17 01:02:14.000000000,closed,2,Code clean-up pass
+6,2016-04-06 09:45:13.000000000,2018-01-03 16:13:15.000000000,closed,2,Describe testbench from within Spinal
+5,2016-03-18 14:55:30.000000000,2016-03-18 23:16:04.000000000,closed,2,Why 'Spinal'
+4,2016-02-10 00:21:24.000000000,2016-02-10 00:21:41.000000000,closed,0,Switch rework
+3,2016-02-10 00:18:59.000000000,2016-02-10 00:19:46.000000000,closed,0,Switch rework
+2,2015-10-21 21:37:41.000000000,2015-11-15 22:25:08.000000000,closed,1,Git attributes and CI
+1,2015-02-27 03:40:57.000000000,2015-02-27 03:41:11.000000000,closed,0,When rework partial assignment

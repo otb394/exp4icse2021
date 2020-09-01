@@ -1,0 +1,261 @@
+id,created_at,closed_at,state,comments,title
+260,2020-07-30 23:01:12.000000000,1970-01-01 00:00:00.000000001,open,0,Bump elliptic from 6.5.2 to 6.5.3 in /fathom_fox
+259,2020-07-25 01:12:12.000000000,1970-01-01 00:00:00.000000001,open,0,Make Fathom see into iframes
+258,2020-07-22 17:23:23.000000000,2020-07-22 17:33:10.000000000,closed,0,Turn on profile option needed for FathomFox debugging on Windows
+257,2020-07-21 19:21:50.000000000,2020-07-24 21:52:01.000000000,closed,0,Fixing duplicated vectors in a post-processing step.
+256,2020-07-21 18:23:03.000000000,1970-01-01 00:00:00.000000001,open,0,Duplicate feature vectors for samples appearing in vector file
+255,2020-07-21 18:16:38.000000000,1970-01-01 00:00:00.000000001,open,1,Try using window loading events to trigger vectorization instead of `tabs.onUpdated`
+254,2020-07-21 18:06:36.000000000,1970-01-01 00:00:00.000000001,open,0,Handle whitespace in base64 strings in fathom extract
+253,2020-07-20 18:43:29.000000000,2020-07-22 17:20:05.000000000,closed,0,Fix counting errors in metrics due to double counting pruned elements.
+252,2020-07-20 04:31:31.000000000,1970-01-01 00:00:00.000000001,open,0,Bump lodash from 4.17.15 to 4.17.19 in /fathom
+251,2020-07-20 04:25:33.000000000,1970-01-01 00:00:00.000000001,open,0,Bump lodash from 4.17.15 to 4.17.19 in /fathom_fox
+250,2020-07-15 21:56:33.000000000,2020-07-16 00:14:49.000000000,closed,3,Cast ints to floats in MCC computation to avoid potential integer overflows
+249,2020-07-10 20:46:39.000000000,1970-01-01 00:00:00.000000001,open,1,Support CUDA in trainer
+248,2020-07-07 21:34:00.000000000,2020-07-08 18:44:20.000000000,closed,4,Combine Fathom commands into a single one. Close #233.
+247,2020-07-06 20:55:00.000000000,1970-01-01 00:00:00.000000001,open,0,`fathom-init`-like tool
+246,2020-07-03 00:34:51.000000000,2020-07-07 21:07:46.000000000,closed,2,"Update docs after looking at them with ""fresh eyes"" (I was away for 3 months)."
+245,2020-07-02 19:18:06.000000000,2020-07-02 19:33:52.000000000,closed,0,Add new transient error to the filter that shows up on Windows.
+244,2020-06-30 23:44:29.000000000,2020-07-02 00:46:08.000000000,closed,8,"Adds changes needed to get vectorization to ""work"" on Windows."
+243,2020-06-30 00:53:13.000000000,2020-06-30 23:40:31.000000000,closed,1,Put quotes around PATH in cli makefile to make Windows happy
+242,2020-06-29 19:05:00.000000000,1970-01-01 00:00:00.000000001,open,0,Higher-rez histograms
+241,2020-06-29 17:51:58.000000000,1970-01-01 00:00:00.000000001,open,1,Remove the need to look at Tensorboard for LR
+240,2020-06-24 21:58:31.000000000,2020-06-29 17:47:14.000000000,closed,1,Make number of parallel vectorization tabs customizeable
+239,2020-06-01 22:27:50.000000000,2020-06-01 22:39:51.000000000,closed,0,Add automatic documentation of CLI tools to the main docs.
+238,2020-05-16 12:56:54.000000000,2020-06-06 04:10:30.000000000,closed,1,How to generate documents?
+237,2020-04-29 00:29:45.000000000,1970-01-01 00:00:00.000000001,open,0,fathom-extract sometimes makes CSS not render
+236,2020-04-13 21:36:17.000000000,2020-04-30 04:21:07.000000000,closed,1,Make fathom-list ignore `resources` directories
+235,2020-04-11 02:48:30.000000000,1970-01-01 00:00:00.000000001,open,0,Default the save-page title to the domain name
+234,2020-04-02 23:49:49.000000000,2020-04-03 04:40:34.000000000,closed,0,Use an in-project venv for cli every time. Fix #225.
+233,2020-04-01 23:58:38.000000000,2020-07-08 18:44:20.000000000,closed,0,Make fathom CLI tools 1 command
+232,2020-03-31 21:26:46.000000000,1970-01-01 00:00:00.000000001,open,0,"isVisible() does not trim ""visible"" elements that are hidden with extreme xy coords"
+231,2020-03-31 21:25:56.000000000,1970-01-01 00:00:00.000000001,open,0,FathomFox does not always freeze modals appropriately
+230,2020-03-31 19:16:11.000000000,1970-01-01 00:00:00.000000001,open,0,`fathom-train` output is perhaps a little too stochastic
+229,2020-03-31 17:24:55.000000000,2020-03-31 18:04:59.000000000,closed,0,Don't show per-tag results for fathom-test by default.
+228,2020-03-27 22:02:33.000000000,2020-03-27 22:10:15.000000000,closed,0,Changes default arg from [] to None and adds explicit check.
+227,2020-03-27 22:01:00.000000000,2020-03-27 22:09:36.000000000,closed,0,Removes the color formatting from the histogram and adds bars around the ends
+226,2020-03-27 21:23:47.000000000,2020-03-27 22:09:37.000000000,closed,4,Trainer timing histogram does not work for dark terminals.
+225,2020-03-26 18:31:25.000000000,2020-04-03 04:40:34.000000000,closed,0,"Running top-level `make test` crashes with ""no sklearn"" when run with no venv activated"
+224,2020-03-20 00:15:22.000000000,1970-01-01 00:00:00.000000001,open,0,Vectorization window closes prematurely
+223,2020-03-19 20:06:43.000000000,1970-01-01 00:00:00.000000001,open,0,Vectorize (and Evaluate) `element()` samples
+222,2020-03-09 19:50:23.000000000,1970-01-01 00:00:00.000000001,open,0,Vectorizing specific samples in a specific order causes more errors
+221,2020-03-09 18:26:01.000000000,2020-06-29 18:02:15.000000000,closed,1,Make vectorization parallelization customizeable
+220,2020-01-04 02:33:35.000000000,1970-01-01 00:00:00.000000001,open,0,Supply different browserAction icons depending on light/dark mode
+219,2019-11-09 05:17:58.000000000,1970-01-01 00:00:00.000000001,open,0,Output `filename` relative to `fathom-serve` directory in `vectors.json`
+218,2019-11-08 20:32:23.000000000,1970-01-01 00:00:00.000000001,open,0,Add error handling for 404's during `visit.js`
+217,2019-11-08 20:27:49.000000000,1970-01-01 00:00:00.000000001,open,0,Add error handling for tab creation within `visit.js`
+216,2019-10-17 21:54:22.000000000,1970-01-01 00:00:00.000000001,open,2,Add a timeout for page loads and throw an error
+215,2019-08-30 03:40:18.000000000,1970-01-01 00:00:00.000000001,open,3,Reduce or eliminate manual data entry in sample labeling
+214,2019-08-14 18:37:44.000000000,2020-05-29 00:27:08.000000000,closed,4,Warn when not all target elements are vectorized
+213,2019-07-01 18:22:20.000000000,1970-01-01 00:00:00.000000001,open,0,Freeze fails on some pages
+212,2019-06-28 20:12:51.000000000,1970-01-01 00:00:00.000000001,open,0,Point out recognized elements all the time
+211,2019-06-28 08:36:19.000000000,1970-01-01 00:00:00.000000001,open,3,Consider preserving the selected feature in the Vectorizer's dropdown on page refresh
+210,2019-06-27 00:58:02.000000000,1970-01-01 00:00:00.000000001,open,0,Let us drag files into the FathomFox Vectorizer
+209,2019-02-28 18:35:40.000000000,1970-01-01 00:00:00.000000001,open,3,Failed to calculate CSS selector for inspected elements
+208,2019-02-14 20:16:30.000000000,1970-01-01 00:00:00.000000001,open,5,Errors displayed when trying to download HTML pages with FathomFox 2.3.1
+207,2019-01-31 19:09:00.000000000,1970-01-01 00:00:00.000000001,open,1,Fonts from google apis are marked as not valid URL
+206,2019-01-31 17:40:01.000000000,1970-01-01 00:00:00.000000001,open,0,"[Enhancement] ""Save"" and ""Default"" buttons for settings in Corpus Collector page"
+205,2019-01-31 03:22:52.000000000,1970-01-01 00:00:00.000000001,open,0,Freezing some pages fails when an element is selected
+204,2018-08-31 00:57:27.000000000,1970-01-01 00:00:00.000000001,open,2,Move labeling UI into Inspector sidebar pane
+203,2020-03-24 23:49:07.000000000,2020-03-25 22:14:26.000000000,closed,7,Merge FathomFox into the Fathom repo
+202,2020-03-24 18:51:10.000000000,2020-03-24 23:57:48.000000000,closed,1,Move things around in preparation for merging FathomFox in
+201,2020-03-23 19:25:49.000000000,2020-03-25 00:03:40.000000000,closed,0,Make tag excerpts that contain wide Unicode chars fit in their columns.
+200,2020-03-23 17:55:12.000000000,2020-03-23 18:45:52.000000000,closed,0,Tells the trainer to use assume a utf-8 encoding for vector files.
+199,2020-03-20 22:01:34.000000000,2020-03-21 00:14:33.000000000,closed,3,Add an `--exclude`` option to the trainer to help with ablation.
+198,2020-03-20 05:39:00.000000000,2020-05-15 19:30:07.000000000,closed,1,Make fathom-test quiet by default
+197,2020-03-20 05:19:31.000000000,1970-01-01 00:00:00.000000001,open,0,Make sure `element()` and `dom()` can coexist in the same ruleset
+196,2020-03-17 19:17:35.000000000,2020-03-19 18:15:28.000000000,closed,5,"Add `againstElement()`, which lets us efficiently classify only a single element."
+195,2020-03-16 19:36:13.000000000,2020-04-02 00:07:13.000000000,closed,2,Bring training docs up to date with latest fathom-train changes and b…
+194,2020-03-14 01:30:00.000000000,2020-04-02 01:02:32.000000000,closed,4,Bump acorn from 7.1.0 to 7.1.1
+193,2020-03-14 00:12:15.000000000,2020-03-14 01:04:05.000000000,closed,0,Add ability to tune decision threshold
+192,2020-03-13 20:25:43.000000000,2020-03-13 20:34:22.000000000,closed,0,Drop Python 3.6 testing.
+191,2020-03-13 18:45:22.000000000,2020-03-13 18:50:54.000000000,closed,0,Sort per-tag reports by filename so they don't come out in random order.
+190,2020-03-13 18:16:28.000000000,2020-03-13 18:26:09.000000000,closed,0,Fixes bug that printed validation per-tag results as part of training per-tag results
+189,2020-03-13 00:52:03.000000000,2020-03-13 17:48:31.000000000,closed,1,Updates training metrics
+188,2020-03-12 17:41:02.000000000,2020-03-12 17:49:13.000000000,closed,0,Click apparently changed the kind of quotes it uses.
+187,2020-03-12 17:07:19.000000000,2020-03-12 23:49:45.000000000,closed,2,Per tag report
+186,2020-03-07 05:01:15.000000000,2020-03-12 23:05:34.000000000,closed,0,"Also report the average time per tag, because that's more relevant for some applications."
+185,2020-03-06 19:30:42.000000000,2020-05-15 19:28:41.000000000,closed,2,`fathom-list` with recursive flag lists HTML files in the resources directories.
+184,2020-03-06 07:28:52.000000000,2020-03-06 19:31:07.000000000,closed,1,Teach fathom-list how to optionally spit out original URLs of samples.
+183,2020-03-05 21:10:18.000000000,2020-03-06 02:20:20.000000000,closed,2,Graph the timings that FathomFox now records.
+182,2020-03-05 00:23:36.000000000,1970-01-01 00:00:00.000000001,open,2,Error running the example.
+181,2020-03-04 07:47:28.000000000,2020-03-04 20:09:22.000000000,closed,0,Optionally add hidden layers to the perceptron in the trainer.
+180,2020-02-21 19:44:50.000000000,2020-02-22 01:27:41.000000000,closed,2,Adds automatic sample weighting
+179,2020-02-12 20:37:42.000000000,2020-02-12 21:53:17.000000000,closed,0,Teach fathom-extract to deal with unknown MIME types.
+178,2020-01-30 19:37:05.000000000,1970-01-01 00:00:00.000000001,open,1,Optimize confidence cutoffs
+177,2020-01-10 01:23:18.000000000,1970-01-01 00:00:00.000000001,open,3,Make it possible to directly compare two training runs
+176,2020-01-10 01:18:51.000000000,1970-01-01 00:00:00.000000001,open,0,Make it easier to train composable rulesets
+175,2020-01-10 01:16:48.000000000,2020-05-15 19:31:31.000000000,closed,2,Make `fathom-vectorize` and `fathom-train` one tool
+174,2019-12-31 23:59:06.000000000,2020-01-01 01:30:12.000000000,closed,2,Update Fathom Ruleset Zoo
+173,2019-12-31 22:30:32.000000000,2020-07-06 21:41:22.000000000,closed,1,fathom-histogram
+172,2019-12-20 06:08:35.000000000,2020-01-03 01:33:43.000000000,closed,3,Make `fathom-serve` multithreaded.
+171,2019-12-14 05:34:12.000000000,2020-01-03 01:35:13.000000000,closed,1,Add progress bar to fathom-extract.
+170,2019-12-12 07:16:56.000000000,2019-12-12 07:24:20.000000000,closed,0,Ruleset zoo
+169,2019-12-10 02:05:29.000000000,1970-01-01 00:00:00.000000001,open,0,Remove use of `os.kill()` from `fathom-vectorize`
+168,2019-12-10 01:19:41.000000000,2019-12-10 02:03:31.000000000,closed,1,Require npm-installed tools to be around before we call them.
+167,2019-12-04 21:15:51.000000000,2019-12-12 07:24:20.000000000,closed,0,Open a ruleset zoo
+166,2019-12-04 02:03:11.000000000,2019-12-04 02:10:56.000000000,closed,2,Bump eslint from 6.7.1 to 6.7.2
+165,2019-11-23 02:35:41.000000000,2019-12-04 02:00:04.000000000,closed,0,Create a nicer ES6 bundle that might actually work as part of Firefox
+164,2019-11-18 21:17:44.000000000,2020-04-24 23:02:51.000000000,closed,7,`fathom-vectorize` experimental version
+163,2019-11-08 20:40:16.000000000,1970-01-01 00:00:00.000000001,open,0,Add better error propagation for rules during vectorization
+162,2019-11-08 03:13:21.000000000,2019-11-11 22:02:25.000000000,closed,0,Precision and recall
+161,2019-11-08 02:09:31.000000000,2019-11-08 02:58:02.000000000,closed,1,HTTPS server becomes HTTP server
+160,2019-11-05 06:15:10.000000000,2019-12-04 02:03:14.000000000,closed,1,Bump eslint from 3.19.0 to 4.18.2
+159,2019-11-05 06:15:05.000000000,2019-12-04 02:12:36.000000000,closed,0,Bump urllib3 from 1.21.1 to 1.24.2 in /tooling
+158,2019-11-05 06:15:03.000000000,2019-12-04 02:12:46.000000000,closed,0,Bump requests from 2.18.1 to 2.20.0 in /tooling
+157,2019-10-29 22:42:46.000000000,2019-11-05 06:16:39.000000000,closed,7,Adds confidence intervals for false positives and false negatives
+156,2019-10-23 19:39:03.000000000,2019-10-31 17:12:42.000000000,closed,2,Make `fathom list` a specialized tool for FathomFox
+155,2019-10-14 23:03:05.000000000,2019-10-15 02:06:58.000000000,closed,0,Replace symlink with hard link in Training section of docs
+154,2019-09-25 22:42:34.000000000,2019-10-23 19:37:47.000000000,closed,2,Specializes fathom-list to create files more useful for FathomFox
+153,2019-09-11 18:53:03.000000000,2019-09-12 20:25:28.000000000,closed,1,Adds docs for git-lfs usage and updates suggested file structure
+152,2019-09-06 18:37:58.000000000,2019-09-06 19:25:59.000000000,closed,0,Updates decode to work on unpadded base64 strings
+151,2019-09-06 17:24:58.000000000,2019-09-11 22:53:50.000000000,closed,1,"Remove the Readability tests, which weren't paying their rent. Finally remove the old optimizer, which was used only by those tests."
+150,2019-09-05 18:11:23.000000000,2019-09-10 19:45:28.000000000,closed,0,Add Python linter. Fix #149.
+149,2019-09-04 23:24:51.000000000,2019-09-10 19:45:28.000000000,closed,0,Add linting for at least Python
+148,2019-08-31 00:33:00.000000000,2019-09-06 23:50:26.000000000,closed,1,Fix #138: Add fathom-label CLI
+147,2019-08-30 20:50:33.000000000,1970-01-01 00:00:00.000000001,open,0,Write a wrapper API for Fathom in Firefox
+146,2019-08-30 04:11:38.000000000,2019-09-04 00:04:06.000000000,closed,1,Provide performant implementations for common rules in the Fathom library
+145,2019-08-30 04:08:02.000000000,1970-01-01 00:00:00.000000001,open,0,Document how to write performant rulesets
+144,2019-08-30 04:02:47.000000000,1970-01-01 00:00:00.000000001,open,0,Provide guidelines on getting accuracy feedback in the wild
+143,2019-08-30 03:55:53.000000000,1970-01-01 00:00:00.000000001,open,1,Provide metrics and ideally a tool to determine when a corpus is stale
+142,2019-08-30 03:29:54.000000000,2019-08-30 03:40:47.000000000,closed,2,Reduce or eliminate manual data entry in sample labeling
+141,2019-08-30 03:11:10.000000000,1970-01-01 00:00:00.000000001,open,2,Crowdsource sample labeling
+140,2019-08-30 02:57:52.000000000,2019-09-03 23:48:18.000000000,closed,1,Find a way to share corpora between Fathom applications
+139,2019-08-30 02:41:52.000000000,1970-01-01 00:00:00.000000001,open,1,Develop and document guidelines for creating a corpus for an application
+138,2019-08-22 20:53:20.000000000,2019-09-06 23:50:27.000000000,closed,0,Create a CLI tool to automate tagging an entire page
+137,2019-08-21 04:17:24.000000000,2019-08-21 19:43:17.000000000,closed,1,Move istanbul ignore comments
+136,2019-08-16 18:54:24.000000000,2019-08-16 19:53:11.000000000,closed,0,"Adds decode() method, updates regex, and adds tests"
+135,2019-08-16 18:11:09.000000000,1970-01-01 00:00:00.000000001,open,0,Add error when a rule hasn't been run during vectorization
+134,2019-08-16 18:05:12.000000000,1970-01-01 00:00:00.000000001,open,1,Add error when rules return non-numbers
+133,2019-08-15 23:25:29.000000000,1970-01-01 00:00:00.000000001,open,0,Consider making Fathom async
+132,2019-08-15 20:15:23.000000000,1970-01-01 00:00:00.000000001,open,0,Add naive Bayes classifier for text
+131,2019-08-15 00:45:14.000000000,2019-10-05 00:46:34.000000000,closed,1,Consider removing the slow Readability test
+130,2019-08-13 04:05:08.000000000,1970-01-01 00:00:00.000000001,open,3,Create Grand Unified Corpus or not
+129,2019-08-11 00:43:33.000000000,2019-08-20 22:39:26.000000000,closed,4,#122: Add JavaScript functional test harness
+128,2019-08-09 19:52:59.000000000,2019-08-09 19:58:28.000000000,closed,0,Updates docs to reflect FathomFox Trainer becoming Evaluator
+127,2019-08-09 17:45:17.000000000,2019-08-09 22:05:00.000000000,closed,0,Adds regex tests for fathom-extract
+126,2019-08-05 22:18:22.000000000,2019-08-09 17:41:18.000000000,closed,4,Move resources with pick
+125,2019-07-30 22:01:08.000000000,2019-08-09 17:42:02.000000000,closed,1,`fathom-pick` needs to move sub-resource directories
+124,2019-07-30 19:19:55.000000000,2019-07-30 20:58:52.000000000,closed,0,Out rule simplification
+123,2019-07-30 00:55:16.000000000,2019-08-09 22:05:01.000000000,closed,0,Add fathom-extract regex tests
+122,2019-07-29 22:08:43.000000000,2019-08-20 22:39:28.000000000,closed,8,Add JavaScript functional test harness
+121,2019-07-29 21:57:58.000000000,1970-01-01 00:00:00.000000001,open,1,Memoize in `isVisible` using a LRU cache
+120,2019-07-26 21:45:18.000000000,2019-07-31 00:36:45.000000000,closed,3,Python test harness
+119,2019-07-26 19:07:59.000000000,1970-01-01 00:00:00.000000001,open,0,Re-add conserveScore() to the codebase
+118,2019-07-25 00:46:47.000000000,2019-08-14 02:58:48.000000000,closed,2,Improve `isVisible` for correctness and performance
+117,2019-07-19 18:03:06.000000000,2019-07-25 17:34:37.000000000,closed,11,Adds fathom-serve tool
+116,2019-07-19 07:36:15.000000000,2019-08-14 02:58:47.000000000,closed,16,Fix #118: Improve `isVisible` for correctness and performance
+115,2019-07-19 07:15:45.000000000,2019-07-22 21:17:54.000000000,closed,4,Update packages
+114,2019-07-18 18:43:30.000000000,2019-07-31 00:36:57.000000000,closed,2,Add a Python test harness
+113,2019-07-18 18:38:05.000000000,2019-07-19 18:34:34.000000000,closed,0,Make verbosity the default in fathom-train. Fix #108.
+112,2019-07-17 00:56:24.000000000,2019-07-18 18:17:28.000000000,closed,3,Add fathom-test tool. Fix #90.
+111,2019-07-17 00:28:34.000000000,2019-07-17 19:34:11.000000000,closed,1,Improve docs on page() function.
+110,2019-07-16 23:15:05.000000000,2019-07-17 21:46:02.000000000,closed,1,Documentation updates
+109,2019-07-13 00:33:16.000000000,2019-07-30 21:46:15.000000000,closed,5,Adds a tool to extract resources from freeze-dry'd html files
+108,2019-07-10 22:16:49.000000000,2019-07-19 18:34:34.000000000,closed,0,Make -v the default in fathom-train
+107,2019-07-10 21:42:07.000000000,1970-01-01 00:00:00.000000001,open,0,[META] Corpus Collection Pain Points
+106,2019-07-10 01:05:43.000000000,2019-07-11 00:14:45.000000000,closed,0,Make BAD labeling reliable. Fix #98.
+105,2019-07-03 23:10:29.000000000,2019-07-03 23:56:28.000000000,closed,0,Accuracy per tag optimization
+104,2019-07-03 22:28:14.000000000,2019-07-03 23:57:39.000000000,closed,2,Trainer was slow for Price Tracker
+103,2019-07-02 18:44:46.000000000,1970-01-01 00:00:00.000000001,open,0,Make bestCluster distance function pluggable
+102,2019-07-02 01:02:19.000000000,2019-07-30 21:46:35.000000000,closed,10,Store page subresources in separate files
+101,2019-07-01 22:45:03.000000000,1970-01-01 00:00:00.000000001,open,8,Switch to more durable accuracy metric
+100,2019-07-01 18:56:42.000000000,2019-07-02 19:39:25.000000000,closed,0,Adds commandline tool to list filenames for vectorization and optionally save to a file
+99,2019-06-29 04:00:17.000000000,2019-12-04 02:00:04.000000000,closed,1,Remove wu dependency
+98,2019-06-28 19:32:29.000000000,2019-07-11 00:14:45.000000000,closed,0,Make BAD labeling reliable
+97,2019-06-28 08:30:45.000000000,2019-07-03 23:58:13.000000000,closed,5,Consider adding a `fathom-pick list` command or similar to get the list of sample filenames
+96,2019-06-28 08:12:40.000000000,1970-01-01 00:00:00.000000001,open,1,Consider providing a default training/validation/test set split or split options in `fathom-pick`
+95,2019-06-28 08:04:48.000000000,2020-01-02 18:53:11.000000000,closed,1,Consider allowing a space-separated list of zip files as an argument to `fathom-unzip`
+94,2019-06-28 08:00:36.000000000,2020-01-02 18:53:04.000000000,closed,2,Consider adding prefix option to `fathom-unzip` to avoid filename collisions
+93,2019-06-28 07:46:04.000000000,2020-01-02 18:52:36.000000000,closed,3,Consider providing a destination directory option for `fathom-unzip`
+92,2019-06-28 07:42:03.000000000,2020-04-02 01:08:33.000000000,closed,4,Make `fathom-unzip` renaming more flexible to avoid `File name too long` error
+91,2019-06-28 06:16:15.000000000,1970-01-01 00:00:00.000000001,open,8,Make fast enough for untriggered use
+90,2019-06-28 06:02:57.000000000,2019-07-18 18:17:28.000000000,closed,1,Add testing-accuracy measurement to trainer
+89,2019-03-30 01:54:52.000000000,2019-04-19 20:12:49.000000000,closed,0,Add Mozilla Code of Conduct
+88,2019-03-30 01:54:49.000000000,2019-04-19 20:12:49.000000000,closed,0,CODE_OF_CONDUCT.md file missing
+87,2019-02-17 23:57:02.000000000,2019-06-27 00:21:52.000000000,closed,0,Wiki changes
+86,2018-12-19 20:56:23.000000000,2019-01-02 21:07:50.000000000,closed,1,"Mozilla Ecosystem for readability, Fathom vs Mercury vs Readability"
+85,2018-10-26 14:52:37.000000000,2018-10-26 19:54:40.000000000,closed,6,A couple of small things
+84,2018-09-10 14:48:31.000000000,2019-06-27 05:25:09.000000000,closed,3,how to use readability.mjs file without comparing two files ?
+83,2018-09-10 14:40:37.000000000,2019-10-05 00:51:33.000000000,closed,1,in Readability.mjs file deviationscore class call infinite times 
+82,2018-08-27 18:52:42.000000000,2018-08-27 18:58:35.000000000,closed,0,Tell Travis to use the latest stable version of node.
+81,2018-08-17 19:04:47.000000000,2018-08-17 19:11:10.000000000,closed,1,Land ES6 module-ization
+80,2018-08-17 18:44:17.000000000,2018-08-17 19:03:34.000000000,closed,1,Es6 exports
+79,2018-08-15 22:21:32.000000000,2019-06-27 00:15:42.000000000,closed,2,Export ZEROISH and ONEISH for rulesets
+78,2018-08-09 05:44:02.000000000,2019-06-27 00:19:45.000000000,closed,1,Update Fathom docs to acknowledge FathomFox
+77,2018-06-14 20:53:58.000000000,2018-06-14 22:47:42.000000000,closed,1,Fix npm install after cloning the repo
+76,2017-10-20 02:20:52.000000000,2017-11-04 01:19:52.000000000,closed,8,Add rollup config for creating a single-file build of Fathom.
+75,2017-10-06 17:59:41.000000000,1970-01-01 00:00:00.000000001,open,4,Need to be able to timeout ruleset execution
+74,2017-10-04 17:07:28.000000000,2017-10-04 19:29:37.000000000,closed,0,utils.js contains a reference to jsdom
+73,2017-09-09 01:05:28.000000000,2017-09-22 23:11:09.000000000,closed,5,Undocumented dependency on jsdom 8.5.0
+72,2017-09-01 02:25:15.000000000,2017-09-15 05:38:18.000000000,closed,2,attributes
+71,2017-08-17 01:11:47.000000000,2017-09-11 18:48:55.000000000,closed,3,when() can be called on type() and dom()
+70,2017-08-15 21:17:24.000000000,2017-11-21 02:03:23.000000000,closed,2,when() 
+69,2017-07-19 00:07:56.000000000,2017-07-20 21:50:44.000000000,closed,1,Decide how to support page geometry etc. in tests and tuners
+68,2017-07-17 23:31:42.000000000,2017-07-17 23:55:54.000000000,closed,1,Add ESLint eqeqeq rule
+67,2017-07-08 00:57:29.000000000,2017-09-01 00:31:56.000000000,closed,3,Headless chrome
+66,2017-07-01 01:34:29.000000000,2017-07-27 00:41:03.000000000,closed,1,Switch to headless Chrome as test runner
+65,2017-06-20 19:19:40.000000000,1970-01-01 00:00:00.000000001,open,0,Add a compilation pass
+64,2017-06-15 01:04:55.000000000,2017-06-15 01:18:22.000000000,closed,0,"Come up with a universal math for determining rule prerequisites from a concept called type finalization, and unify its implementation. Close #58."
+63,2017-05-19 08:45:40.000000000,2017-05-22 09:42:38.000000000,closed,1,Use for ebooks
+62,2017-04-28 09:19:47.000000000,2017-04-28 19:47:54.000000000,closed,1,Potential functions
+61,2017-04-08 00:07:49.000000000,2017-04-08 00:20:47.000000000,closed,0,Merge optimization branch.
+60,2017-03-12 03:34:39.000000000,2017-03-13 18:17:48.000000000,closed,1,Add .babelrc file so fathom can be used as a dep in webpack / babel p…
+59,2017-02-08 23:20:01.000000000,2017-02-09 23:18:59.000000000,closed,2,Link to readthedocs in readme is wrong
+58,2017-01-27 23:10:18.000000000,2017-06-15 01:18:23.000000000,closed,0,Implement and() optimization and changed-types refactor
+57,2017-01-27 23:06:45.000000000,1970-01-01 00:00:00.000000001,open,0,Add not() and or() combinators
+56,2017-01-26 22:57:32.000000000,1970-01-01 00:00:00.000000001,open,0,Rete trees for optimizing combinators
+55,2017-01-26 22:32:50.000000000,2019-06-27 00:22:41.000000000,closed,1,Different kinds of mixing than multiplication
+54,2017-01-06 22:03:07.000000000,2017-02-17 20:43:29.000000000,closed,1,Choose a documentation extractor
+53,2017-01-02 06:55:02.000000000,2017-01-26 19:32:27.000000000,closed,5,Allow running rulesets against elements as well as documents
+52,2016-12-21 02:44:27.000000000,2017-03-04 00:46:55.000000000,closed,2,Consider a .multiplyExistingScoreBy(5) for ML tuning
+51,2016-12-21 02:42:04.000000000,2019-07-30 21:01:12.000000000,closed,5,Let out('smoo') be spelled as just 'smoo'
+50,2016-12-21 02:41:26.000000000,2017-01-26 21:47:52.000000000,closed,2,Check all TODOs
+49,2016-12-21 02:41:09.000000000,2017-01-21 02:23:00.000000000,closed,1,Let score() take a function
+48,2016-12-21 02:40:51.000000000,2017-01-27 02:41:08.000000000,closed,1,Write from-1.x porting guide for rulesets
+47,2016-12-21 02:40:36.000000000,2020-03-25 22:13:39.000000000,closed,2,Add toString() methods for things so error messages are nice.
+46,2016-12-21 02:39:34.000000000,2017-04-17 19:47:00.000000000,closed,0,Write an aggregate function for clustering
+45,2016-12-21 02:36:39.000000000,2017-01-21 02:23:17.000000000,closed,1,Finish readme
+44,2016-12-21 02:36:12.000000000,2017-01-21 02:23:32.000000000,closed,1,Decide on max/top/maxScore/score/getScore spelling
+43,2016-12-21 02:35:47.000000000,2016-12-21 02:45:15.000000000,closed,1,and() combinator
+42,2016-12-08 06:33:58.000000000,2019-06-27 05:26:12.000000000,closed,5,"examples with nested classes, e.g. microformats2"
+41,2016-10-06 00:50:39.000000000,2016-10-07 19:33:03.000000000,closed,4,Tweak some ESLint in the 2.0dev branch
+40,2016-10-01 00:35:08.000000000,2016-10-11 21:11:03.000000000,closed,4,Add more ESLint rules and node plugin
+39,2016-09-30 23:33:00.000000000,2016-09-30 23:34:32.000000000,closed,0,Move clustering and get (limited) tests running and passing again.
+38,2016-08-24 03:17:23.000000000,2016-08-24 17:52:35.000000000,closed,2,Return an array of nodes?
+37,2016-07-28 01:24:48.000000000,2017-04-07 19:17:54.000000000,closed,1,Customizable clustering coefficients
+36,2016-07-22 23:51:19.000000000,1970-01-01 00:00:00.000000001,open,2,Design metarules
+35,2016-07-21 04:39:44.000000000,2017-04-08 00:20:47.000000000,closed,4,Training infra for automatic coefficient determination
+34,2016-07-19 02:40:12.000000000,1970-01-01 00:00:00.000000001,open,14,Shop for JS DOM implementations
+33,2016-07-14 22:23:39.000000000,2017-01-27 02:38:28.000000000,closed,1,Remove messy design notes comments
+32,2016-07-14 21:58:41.000000000,2016-07-14 22:01:29.000000000,closed,1,Iterate properly over querySelectorAll() results even in implementati…
+31,2016-07-13 23:53:26.000000000,2016-07-14 00:04:30.000000000,closed,5,Add coveralls badge to README
+30,2016-07-13 22:49:49.000000000,2016-07-13 23:54:11.000000000,closed,2,Add coveralls badge to README
+29,2016-07-09 16:23:39.000000000,2016-07-09 18:47:32.000000000,closed,0,fix typo in README
+28,2016-07-09 15:12:42.000000000,2016-07-09 18:27:58.000000000,closed,1,Add missing comma in README example
+27,2016-07-09 03:06:53.000000000,2016-07-13 20:23:09.000000000,closed,10,Add code coverage
+26,2016-06-29 00:52:16.000000000,2016-07-14 22:25:44.000000000,closed,3,Add glorious CHANGELOG
+25,2016-06-24 23:24:31.000000000,2016-06-25 01:41:28.000000000,closed,5,Replace for const... with let for Firefox compat
+24,2016-06-23 00:35:48.000000000,2019-07-19 00:47:00.000000000,closed,2,Add support for running Fathom in client-side applications on older browsers
+23,2016-06-21 03:59:38.000000000,2016-07-13 20:23:09.000000000,closed,1,Add code coverage
+22,2016-06-21 03:50:00.000000000,2016-06-21 03:50:21.000000000,closed,1,Add ESLint no-throw-literal rule
+21,2016-06-21 03:18:39.000000000,2016-06-21 03:20:48.000000000,closed,0,Clusters
+20,2016-06-21 00:06:19.000000000,2017-01-21 02:24:18.000000000,closed,1,ANDs in left-hand sides of rules
+19,2016-06-20 20:21:13.000000000,2020-03-25 22:13:38.000000000,closed,1,Max-score optimization
+18,2016-06-20 20:08:18.000000000,2016-06-21 03:20:48.000000000,closed,0,Clustering
+17,2016-06-03 20:54:35.000000000,2016-06-03 21:05:44.000000000,closed,0,Migrate reusable pieces to a utils submodule.
+16,2016-05-24 21:10:51.000000000,2016-05-25 01:05:42.000000000,closed,0,Get the first iteration of the Readability demo scoring things.
+15,2016-05-17 21:28:03.000000000,2017-02-17 20:44:31.000000000,closed,11,"Rename ""node"" to something better."
+14,2016-05-17 01:45:59.000000000,2016-05-17 02:40:25.000000000,closed,0,Add Travis-CI badge to README
+13,2016-05-17 01:02:49.000000000,2017-04-08 00:20:47.000000000,closed,0,Implement Readability-style ruleset as a test
+12,2016-05-17 01:02:01.000000000,2016-05-20 00:50:39.000000000,closed,1,Port Jared's rules to Fathom
+11,2016-05-17 00:21:12.000000000,2016-05-17 01:37:03.000000000,closed,9,Add initial .travis.yml file
+10,2016-05-11 21:47:16.000000000,2016-05-12 18:36:21.000000000,closed,2,Tweaking ESLint rules and ES6ing some stuff
+9,2016-05-11 20:20:42.000000000,2016-12-21 02:34:29.000000000,closed,2,Reduce ranker definition verbosity
+8,2016-05-11 05:20:17.000000000,2016-05-11 21:48:07.000000000,closed,4,Switch from JSHint to ESLint
+7,2016-05-11 05:06:24.000000000,2016-05-11 21:08:12.000000000,closed,3,Switch to ESLint
+6,2016-05-11 01:29:29.000000000,2016-05-17 01:37:03.000000000,closed,1,"Add Travis CI, once it supports Node 6."
+5,2016-05-10 20:49:23.000000000,2016-05-11 01:26:06.000000000,closed,0,"Change vocabulary from ""scribbles"" to ""notes""."
+4,2016-05-10 20:48:37.000000000,2016-05-20 22:20:46.000000000,closed,0,"Rename ""scoreMultiplier"" to ""score"" for brevity"
+3,2016-03-19 00:45:42.000000000,2020-03-25 22:13:37.000000000,closed,2,Update Readbility algorithm description
+2,2016-03-19 00:43:11.000000000,2020-03-25 22:13:37.000000000,closed,2,Characterize Chrome's distraction-free-browsing mode
+1,2016-03-19 00:42:07.000000000,2016-03-26 01:23:10.000000000,closed,1,Characterize OmniWeb's full-text indexing

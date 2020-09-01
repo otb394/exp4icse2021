@@ -1,0 +1,1146 @@
+id,created_at,closed_at,state,comments,title
+1147,2020-08-28 23:51:33.000000000,2020-08-29 06:41:08.000000000,closed,0,workflow cleanup
+1146,2020-08-28 00:22:22.000000000,2020-08-28 04:20:07.000000000,closed,1,Update Prettier to 2.1
+1145,2020-08-27 22:15:54.000000000,2020-08-27 22:34:58.000000000,closed,0,make benchmark build more robust
+1144,2020-08-27 02:51:13.000000000,2020-08-27 05:39:43.000000000,closed,0,Add tracerbench github action
+1143,2020-08-27 00:58:09.000000000,1970-01-01 00:00:00.000000001,open,0,Fix iterator typing
+1142,2020-08-26 03:08:05.000000000,2020-08-27 22:56:21.000000000,closed,1,[REFACTOR] Monomorphic Reference
+1141,2020-08-25 20:53:05.000000000,1970-01-01 00:00:00.000000001,open,2,"Error in FastBoot: ""Cannot read property 'require' of null"""
+1140,2020-08-22 01:52:31.000000000,1970-01-01 00:00:00.000000001,open,2,Remove `require('url')` usage
+1139,2020-08-21 00:04:11.000000000,2020-08-21 22:38:26.000000000,closed,0,Add Benchmark Interface
+1138,2020-08-20 21:05:09.000000000,2020-08-22 21:11:04.000000000,closed,1,[REFACTOR] Extract environment variables into global context
+1137,2020-08-20 20:25:06.000000000,2020-08-28 15:48:16.000000000,closed,4,Inconsistent TextNode parsing following a BlockStatement
+1136,2020-08-19 21:56:20.000000000,2020-08-19 22:27:33.000000000,closed,0,[CLEANUP] Consolidate Scope classes
+1135,2020-08-19 20:56:32.000000000,2020-08-20 02:29:37.000000000,closed,1,[REFACTOR] Simplify CapturedArguments
+1134,2020-08-19 07:33:48.000000000,2020-08-19 07:40:16.000000000,closed,0,[BUGFIX] Fix string repeat
+1133,2020-08-19 06:39:05.000000000,2020-08-19 06:45:10.000000000,closed,0,[BUGFIX] Avoid String.prototype.repeat
+1131,2020-08-10 22:15:33.000000000,2020-08-11 04:27:18.000000000,closed,0,[REFACTOR] Simplifies immediate and handle encoding
+1130,2020-08-05 21:20:16.000000000,2020-08-05 22:06:29.000000000,closed,0,[BUGFIX] Reduce test iteration count to prevent timeouts
+1129,2020-08-05 05:23:58.000000000,2020-08-05 22:57:36.000000000,closed,0,set more timeouts for browserstack
+1128,2020-08-05 03:58:24.000000000,2020-08-24 20:57:05.000000000,closed,0,Increase Browserstack runtime timeout
+1127,2020-08-05 03:27:57.000000000,2020-08-05 03:42:21.000000000,closed,0,fix test memory leaks
+1126,2020-08-05 00:26:19.000000000,2020-08-06 00:32:18.000000000,closed,0,[REFACTOR] Expose tagMeta and simplify property lookups
+1125,2020-08-01 03:07:26.000000000,1970-01-01 00:00:00.000000001,open,0,Implement missing named blocks checks
+1124,2020-07-31 22:00:55.000000000,2020-08-02 19:22:18.000000000,closed,1,[REFACTOR] Simplify and warm tag computation
+1123,2020-07-31 19:44:06.000000000,2020-08-10 22:15:58.000000000,closed,1,[REFACTOR] Simplifies immediate and handle encoding
+1122,2020-07-31 00:52:17.000000000,2020-07-31 01:43:47.000000000,closed,0,[Refactor] Use a map to dedupe constants instead of indexOf
+1121,2020-07-28 01:45:30.000000000,2020-07-28 18:56:53.000000000,closed,0,Expose the destroyables on the error thrown by `assertDestroyablesDestroyed`
+1120,2020-07-27 20:30:50.000000000,2020-07-28 18:44:15.000000000,closed,5,Fix `MonomorphicTag` type error for downstream consumers
+1119,2020-07-26 22:24:32.000000000,2020-07-27 01:48:53.000000000,closed,0,Ensure `isDestroying`/`isDestroyed` without children or destructors does not fail `assertDestroyablesDestroyed`
+1118,2020-07-21 07:04:11.000000000,1970-01-01 00:00:00.000000001,open,0,[WIP][Refactor] Streamline main rendering loop
+1117,2020-07-17 08:01:00.000000000,1970-01-01 00:00:00.000000001,open,0,@glimmer/syntax & TypeScript
+1116,2020-07-17 07:11:16.000000000,2020-07-28 18:44:16.000000000,closed,1,Issue with TypeScript 3.9
+1115,2020-07-13 23:41:35.000000000,2020-08-19 03:48:31.000000000,closed,3,[REFACTOR] Converts VM to use tracking internally
+1114,2020-07-04 03:52:32.000000000,2020-07-17 21:18:55.000000000,closed,0,[REFACTOR] Remove LinkedList and simplify iteration
+1113,2020-07-01 04:56:28.000000000,2020-07-03 00:42:17.000000000,closed,0,Fix a memory leak with `{{each}}`
+1112,2020-06-28 00:43:26.000000000,1970-01-01 00:00:00.000000001,open,0,(fix): {{debugger}} on template
+1111,2020-06-20 08:54:10.000000000,1970-01-01 00:00:00.000000001,open,2,feat: better DEBUG memoization
+1110,2020-06-13 03:20:20.000000000,2020-06-18 01:56:21.000000000,closed,0,Implement Destroyables RFC
+1109,2020-06-07 02:57:17.000000000,1970-01-01 00:00:00.000000001,open,0,Bump websocket-extensions from 0.1.3 to 0.1.4
+1108,2020-05-29 20:13:13.000000000,2020-07-31 21:34:48.000000000,closed,2,Remove $REVISION optimization
+1107,2020-05-28 23:47:11.000000000,1970-01-01 00:00:00.000000001,open,2,Attribute Values are TextNodes but should probably be StringLiteral or another type
+1106,2020-05-23 04:10:33.000000000,1970-01-01 00:00:00.000000001,open,0,Finalize named blocks implementation
+1105,2020-05-21 02:29:16.000000000,1970-01-01 00:00:00.000000001,open,1,SubExpressions are evaluated eagerly when const
+1104,2020-05-21 01:59:41.000000000,1970-01-01 00:00:00.000000001,open,1,`b.path` (`buildPath`/`buildHead`) does not work with `@namedArg`
+1103,2020-05-19 03:20:24.000000000,2020-05-20 00:26:37.000000000,closed,0,[BUGFIX] Adds an assertion to prevent duplicate validator packages
+1102,2020-05-18 20:13:45.000000000,2020-05-19 00:34:15.000000000,closed,0,Add a compile time error when passing arguments to regular HTML elements (e.g. `<a @foo=`)
+1101,2020-05-15 23:39:30.000000000,1970-01-01 00:00:00.000000001,open,0,Refactor Iterables
+1100,2020-05-15 05:05:02.000000000,2020-05-16 02:05:41.000000000,closed,1,Rerender an `{{#each`s block only when the specific item has changed
+1099,2020-05-14 23:17:18.000000000,2020-05-14 23:25:25.000000000,closed,0,Re-roll yarn.lock.
+1098,2020-05-14 23:15:31.000000000,2020-05-14 23:20:04.000000000,closed,0,Remove .travis.yml
+1097,2020-05-14 19:30:35.000000000,2020-05-14 19:36:06.000000000,closed,0,Remove bin/run-qunit.js test script.
+1096,2020-05-14 19:10:40.000000000,2020-05-14 23:14:27.000000000,closed,0,Add GitHub Actions
+1095,2020-05-14 18:59:14.000000000,2020-05-14 19:09:21.000000000,closed,0,Update release dependencies.
+1094,2020-05-14 18:51:28.000000000,2020-05-14 18:58:40.000000000,closed,0,Update pinned Node version
+1093,2020-05-14 18:38:30.000000000,2020-05-14 18:50:26.000000000,closed,0,Update pinned yarn version to 1.22.4.
+1092,2020-05-12 03:11:57.000000000,1970-01-01 00:00:00.000000001,open,0,[failing test] #1091 incorrect location data for nested blocks
+1091,2020-05-11 19:17:28.000000000,1970-01-01 00:00:00.000000001,open,2,"[@glimmer/syntax] - parser, incorrect location data for nested blocks"
+1090,2020-05-10 20:30:35.000000000,2020-05-14 03:41:36.000000000,closed,1,Implement `@glimmer/tracking/primatives/cache` (see [emberjs/rfcs#615](https://github.com/emberjs/rfcs/blob/master/text/0615-autotracking-memoization.md) for details)
+1089,2020-05-10 19:00:15.000000000,2020-05-12 01:26:32.000000000,closed,0,Remove unused EPOCH tag
+1088,2020-05-10 18:56:46.000000000,2020-05-12 01:28:37.000000000,closed,1,Rename `memoizeTracked` to `memo`
+1087,2020-05-08 02:03:39.000000000,1970-01-01 00:00:00.000000001,open,2,Missing tasks.json
+1086,2020-05-07 01:41:13.000000000,2020-05-08 19:50:42.000000000,closed,1,[BUGFIX] Process in-element in compiler not parser
+1085,2020-05-05 02:39:19.000000000,1970-01-01 00:00:00.000000001,open,1,[MEGA HAX] useful stack during template evaluation
+1084,2020-05-04 20:37:29.000000000,2020-05-04 21:44:57.000000000,closed,10,memoizeTracked drops `this` value
+1083,2020-05-03 22:53:37.000000000,1970-01-01 00:00:00.000000001,open,3,Human readible(-ish) wireformat compilation 
+1082,2020-04-29 22:38:11.000000000,2020-05-01 23:42:36.000000000,closed,0,Fix template size: round 2
+1081,2020-04-29 04:27:58.000000000,2020-04-29 04:47:13.000000000,closed,1,Fix key uniqueness implementation
+1080,2020-04-29 04:12:10.000000000,2020-04-29 19:19:53.000000000,closed,2,Ensure destructors run for items added to an `{{#each` after initial render
+1079,2020-04-28 00:56:31.000000000,2020-04-28 01:01:06.000000000,closed,0,Ensure overriding with an empty Hash does not add extra whitespace.
+1078,2020-04-28 00:31:13.000000000,2020-04-28 00:35:59.000000000,closed,0,Fix package.json versions.
+1077,2020-04-21 04:24:21.000000000,1970-01-01 00:00:00.000000001,open,1,chore: add readme to bundle-compiler package
+1076,2020-04-21 02:12:59.000000000,1970-01-01 00:00:00.000000001,open,0,Increase SSR test coverage
+1075,2020-04-17 00:08:37.000000000,2020-04-20 19:42:53.000000000,closed,3,Update main key in package json to reference es2017 bundles
+1074,2020-04-16 18:40:42.000000000,2020-04-16 18:50:28.000000000,closed,0,Backport: Properly cleanup the element builder in a try/finally
+1073,2020-04-16 04:38:37.000000000,2020-04-16 18:05:42.000000000,closed,0,Ensure errors during component creation do not cause secondary errors during DOM cleanup
+1072,2020-04-15 19:08:21.000000000,2020-04-15 22:39:54.000000000,closed,3,Release 0.50.3: no matching version found for @glimmer/interfaces@^0.50.3
+1071,2020-04-15 14:25:47.000000000,2020-04-15 18:19:23.000000000,closed,2,@glimmer/syntax: Bump minimum handlebars.js version
+1070,2020-04-14 18:36:37.000000000,2020-05-01 20:17:47.000000000,closed,2,Add a previously failing test for destroyables not being called on items added to an `{{#each` after initial render
+1069,2020-04-11 23:06:28.000000000,2020-04-12 19:03:46.000000000,closed,2,Ensure tracking frames do not get unbalanced
+1068,2020-04-06 12:17:45.000000000,2020-04-12 19:03:21.000000000,closed,1,Fix issue when using named blocks with wrapped components (e.g. `@ember/component`)
+1067,2020-04-03 21:27:09.000000000,2020-04-03 22:08:00.000000000,closed,0,Add automated release setup.
+1066,2020-03-25 04:56:21.000000000,2020-03-26 04:36:30.000000000,closed,2,Improve development build performance (remove the `Error` instances created for autotracking transactions)
+1065,2020-03-25 02:12:44.000000000,2020-03-25 02:46:14.000000000,closed,0,[BUGFIX] Ensure {{each}} updates register destructors
+1064,2020-03-25 01:28:48.000000000,2020-04-10 21:29:47.000000000,closed,1,Add dev time addon to enable easier local linking (e.g. to test in Glimmer.js or Ember.js from a local dev server).
+1063,2020-03-22 18:48:23.000000000,2020-03-24 03:44:02.000000000,closed,0,[REFACTOR] Moves UpdatableRootReference to integration tests
+1062,2020-03-22 09:45:56.000000000,2020-08-26 03:03:25.000000000,closed,0,[REFACTOR] Refactors the VM to use autotracking
+1061,2020-03-22 09:45:12.000000000,1970-01-01 00:00:00.000000001,open,1,[FEAT] Adds Effect Queue
+1060,2020-03-22 09:44:21.000000000,2020-03-26 04:28:32.000000000,closed,2, [FEAT] Adds `memoizeTracked`
+1059,2020-03-22 08:35:07.000000000,2020-03-23 18:25:35.000000000,closed,1,[REFACTOR] Removes legacy test patterns and packages
+1058,2020-03-15 23:53:39.000000000,1970-01-01 00:00:00.000000001,open,0,chore: avoid extra array creation for combine function
+1057,2020-03-13 01:38:56.000000000,2020-05-06 20:26:08.000000000,closed,5,[PERF] Improves the autotracking transaction by creating fewer Errors
+1056,2020-03-11 21:55:22.000000000,2020-04-29 02:00:39.000000000,closed,0,Reduce template size increase
+1055,2020-03-09 00:35:07.000000000,2020-03-09 05:09:15.000000000,closed,0,bugfix: -test not -tests
+1054,2020-03-05 02:41:05.000000000,1970-01-01 00:00:00.000000001,open,0,[FEAT] Adds Owner API
+1053,2020-02-22 03:49:04.000000000,2020-02-22 04:03:12.000000000,closed,1,Upgrade TypeScript version to 3.7.5
+1052,2020-02-21 07:24:08.000000000,2020-04-18 19:27:28.000000000,closed,2,@glimmer/runtime HTMLElement issue
+1051,2020-02-21 06:20:53.000000000,1970-01-01 00:00:00.000000001,open,0,"Fail template compilation if block params does not contain ""as"" keyword "
+1050,2020-02-21 04:43:31.000000000,2020-02-21 23:55:47.000000000,closed,0,Remove unused and update eslint and prettier.
+1049,2020-02-19 21:44:24.000000000,2020-02-20 01:19:58.000000000,closed,1,Enable eslint-plugin-node's no-extraneous-import rule (mostly).
+1048,2020-02-18 05:49:28.000000000,2020-02-18 23:19:55.000000000,closed,1,[CLEANUP] Remove long deprecated emberjs-build usage
+1047,2020-02-18 04:38:07.000000000,2020-02-18 05:22:38.000000000,closed,0,Remove runtime dep on opcode-compiler
+1046,2020-02-17 10:32:04.000000000,2020-02-18 02:41:52.000000000,closed,0,Fix TS performance regression in compiler types
+1045,2020-02-15 13:17:56.000000000,2020-02-15 22:54:10.000000000,closed,0,integration-tests: Add missing `@glimmer/runtime` dependency
+1044,2020-02-15 05:11:06.000000000,2020-02-15 22:56:25.000000000,closed,0,Remove `@glimmer/opcode-compiler` dependency on `@glimmer/runtime`
+1043,2020-02-15 02:05:04.000000000,2020-02-15 03:26:33.000000000,closed,2,Fix `@glimmer/interfaces` dependency on `@glimmer/runtime`
+1042,2020-02-15 00:37:04.000000000,2020-02-15 03:26:59.000000000,closed,0, ESLint: Enable `node/no-unpublished-import` rule 
+1041,2020-02-14 21:29:21.000000000,2020-02-14 21:52:27.000000000,closed,3,runtime: Add missing `@glimmer/opcode-compiler` dependency
+1040,2020-02-14 21:27:16.000000000,2020-02-14 21:36:50.000000000,closed,0,util: Promote `@glimmer/interfaces` to non-dev dependency
+1039,2020-02-14 21:25:51.000000000,2020-02-14 21:34:38.000000000,closed,0,Add `.npmignore` files to each public package with a `test` folder
+1038,2020-02-14 21:22:46.000000000,2020-02-14 21:33:22.000000000,closed,0,Replace imports from own package with relative imports 
+1037,2020-02-14 20:44:05.000000000,2020-02-14 21:32:48.000000000,closed,0,interfaces: Remove unused imports
+1036,2020-02-14 04:54:43.000000000,2020-02-14 05:14:48.000000000,closed,3,IE11 doesn't support Number.MAX_SAFE_INTEGER / Number.MIN_SAFE_INTEGER
+1035,2020-02-14 04:23:30.000000000,2020-02-14 05:11:45.000000000,closed,1,Fix static component attributes
+1034,2020-02-14 03:15:22.000000000,2020-02-14 05:10:28.000000000,closed,2,Fixes {{has-block}} when used with curried components as a variable
+1033,2020-02-14 01:44:59.000000000,2020-02-14 01:52:21.000000000,closed,0,Specify tsconfigRootDir in parserOptions for TS files.
+1032,2020-02-14 01:33:41.000000000,2020-02-14 01:40:42.000000000,closed,0,Fix TravisCI configuration.
+1031,2020-02-13 01:49:58.000000000,2020-02-14 00:05:24.000000000,closed,0,[BUGFIX] Update HasBlockParams metadata
+1030,2020-02-13 00:20:33.000000000,2020-02-13 00:33:58.000000000,closed,0,Add @glimmer/env to @glimmer/util's package.json.
+1029,2020-02-12 20:48:15.000000000,2020-02-13 00:33:58.000000000,closed,0,"`debug-to-string.js` requires `@glimmer/env`, but does not depend on it"
+1028,2020-02-12 10:13:59.000000000,2020-02-17 02:38:53.000000000,closed,1,"Simplifies `JitRuntime`, `JitContext`, `Environment` setup"
+1027,2020-02-12 04:16:40.000000000,2020-02-14 01:51:29.000000000,closed,0,[BUGFIX] Fix immediate encoding
+1026,2020-02-11 04:30:25.000000000,2020-02-11 04:56:21.000000000,closed,1,Upgrade async disk cache
+1025,2020-02-09 16:55:27.000000000,2020-02-22 22:19:37.000000000,closed,3,Wrong compilation for contextual component with curly invocation
+1024,2020-02-07 15:07:58.000000000,2020-02-12 01:09:47.000000000,closed,3,Add `parents()` generator method to the `Path` class
+1023,2020-02-07 06:09:43.000000000,2020-02-07 15:47:04.000000000,closed,0,Avoid double-clearing `{{in-element}}`
+1022,2020-02-06 03:54:41.000000000,2020-02-12 03:58:40.000000000,closed,2,[BUGFIX] Ensure Iterables work with dictionaries
+1021,2020-02-05 02:45:18.000000000,2020-02-06 02:09:27.000000000,closed,0,chore: improve error for unrecachable statements
+1020,2020-02-04 23:39:53.000000000,2020-02-05 02:13:29.000000000,closed,3,@glimmer/syntax printer issue if trying to print AST parts
+1019,2020-01-31 00:33:12.000000000,2020-01-31 00:49:23.000000000,closed,0,Update simple-html-tokenizer to at least 0.5.9.
+1018,2020-01-29 06:56:15.000000000,1970-01-01 00:00:00.000000001,open,1,[BUGFIX] ensure untracked `@tracked` initializers
+1017,2020-01-29 03:45:43.000000000,2020-01-29 03:52:06.000000000,closed,0,Fix publishing issues in v0.47.2
+1016,2020-01-29 03:37:12.000000000,2020-01-29 03:52:06.000000000,closed,0,v0.47.2 was published incorrectly
+1015,2020-01-29 02:29:58.000000000,2020-01-29 02:46:28.000000000,closed,2,Ensure tracked initializers have access to `this`
+1014,2020-01-25 05:43:08.000000000,2020-01-29 03:08:28.000000000,closed,0,[BUGFIX] Gives tracked property initializers access to their `self`
+1013,2020-01-25 02:51:54.000000000,2020-01-25 03:11:18.000000000,closed,0,Backport [#1010](https://github.com/glimmerjs/glimmer-vm/pull/1010): Makes UpdatableTag updates lazy
+1012,2020-01-24 08:56:45.000000000,2020-01-24 22:35:35.000000000,closed,0,[BUGFIX] Converts partial meta to template meta in constants pool
+1011,2020-01-23 07:42:01.000000000,2020-01-24 00:49:02.000000000,closed,0,[PERF] Splits out template metas and serializables in constant pool
+1010,2020-01-22 07:00:51.000000000,2020-01-24 06:28:20.000000000,closed,1,[BUGFIX] Makes UpdatableTag updates lazy
+1009,2020-01-16 06:40:23.000000000,2020-01-16 22:20:51.000000000,closed,1,[BUGFIX] Don't serialize template metas in the JIT constant pool
+1008,2020-01-09 04:43:50.000000000,2020-02-14 05:12:39.000000000,closed,2,[BUGFIX] glimmer reports possible XSS when static styles are used with element modifier applied to the same element
+1007,2020-01-08 22:02:21.000000000,2020-01-31 00:09:25.000000000,closed,1,Add a failing test for preprocess(`<TITLE></TITLE>`)
+1006,2020-01-06 21:49:44.000000000,2020-01-06 22:10:22.000000000,closed,0,Ensure spacing before `Hash` exists when printing with overrides.
+1005,2020-01-06 21:18:36.000000000,2020-01-07 23:40:40.000000000,closed,0,Replace imports from own package with relative imports
+1004,2020-01-05 00:37:43.000000000,2020-01-06 21:11:47.000000000,closed,0,syntax/test/plugin-node: Replace relative imports with package imports
+1003,2020-01-05 00:21:57.000000000,2020-01-06 21:11:12.000000000,closed,0,Use type signatures from `@types/qunit` and `qunit` instead of local copy
+1002,2020-01-05 00:10:21.000000000,2020-01-06 21:10:09.000000000,closed,0,Use Yarn workspaces
+1001,2020-01-04 00:57:57.000000000,2020-01-05 00:04:05.000000000,closed,1,Remove outdated `typescript` dev dependencies
+1000,2020-01-04 00:20:07.000000000,2020-01-04 03:00:23.000000000,closed,0,Add missing `@simple-dom` dependencies
+999,2020-01-04 00:10:42.000000000,2020-01-09 04:47:12.000000000,closed,3,[BUG] glimmer reports possible XSS when static styles are used with element modifier applied to the same element
+998,2020-01-04 00:04:00.000000000,2020-01-04 01:19:03.000000000,closed,1,ESLint: Enable `node/no-missing-import` rule
+997,2020-01-03 20:32:21.000000000,2020-01-04 01:02:43.000000000,closed,0,ESLint: Add `qunit` plugin
+996,2020-01-03 03:29:14.000000000,2020-01-03 03:30:39.000000000,closed,0,Update run-types-test.js to use local `tsc`.
+995,2019-12-28 01:19:28.000000000,2020-01-03 02:52:44.000000000,closed,0,ESLint: Add `node` plugin
+994,2019-12-19 07:58:03.000000000,2019-12-21 00:28:45.000000000,closed,1,[BUGFIX] Avoid in operator with symbols
+993,2019-11-17 03:40:30.000000000,2019-12-18 06:24:46.000000000,closed,0,[REFACTOR] Refactors while integrating with Ember
+992,2019-11-14 06:57:28.000000000,2019-11-15 04:07:12.000000000,closed,1,[BUGFIX] Removes compile from CompileTimeResolverDelegate
+991,2019-11-07 22:03:16.000000000,2020-02-21 05:36:58.000000000,closed,3,"Add a set of ""chaos monkey"" tests for rehydration."
+990,2019-11-07 19:49:31.000000000,1970-01-01 00:00:00.000000001,open,0,AotRuntime Rehydration
+989,2019-11-07 06:21:18.000000000,2019-11-07 06:46:32.000000000,closed,0,Allow test runner to rerender between modules.
+988,2019-11-06 03:41:07.000000000,2019-11-22 20:35:55.000000000,closed,3,Refactor RehydrateBuilder to be more robust
+987,2019-11-06 00:17:15.000000000,2019-11-08 00:03:55.000000000,closed,1,Extract validation system and tags into `@glimmer/validator` package
+986,2019-10-29 17:10:26.000000000,2019-10-29 17:28:59.000000000,closed,1,Update to handlebars@4.5.1.
+985,2019-10-29 14:13:52.000000000,2020-01-03 03:01:04.000000000,closed,3,syntax: Add optional `path` argument to visitor functions
+984,2019-10-29 12:10:04.000000000,2020-02-22 06:35:25.000000000,closed,4,Remove obsolete BREAKING.md file
+983,2019-10-28 04:52:15.000000000,2019-10-28 05:04:55.000000000,closed,1,Ensure codemod mode ignores whitespace control.
+982,2019-10-23 10:42:00.000000000,1970-01-01 00:00:00.000000001,open,0,Throw error if closing tag contains Muststache Statement
+981,2019-10-21 16:20:37.000000000,2019-10-23 18:30:33.000000000,closed,1,Update ember-cli-browserstack so that BrowserStack tests will continue to work
+980,2019-10-13 11:00:12.000000000,2019-10-16 23:11:03.000000000,closed,0,Avoid duplicate `indexOf` in `BlockArguments`
+979,2019-10-11 19:27:11.000000000,2019-10-11 19:39:23.000000000,closed,0,Fix AST loc info for `ConcatStatement`s containing `TextNode`s
+978,2019-10-10 00:56:57.000000000,1970-01-01 00:00:00.000000001,open,2,[@glimmer/syntax] disallow modifier usage in closing tag
+977,2019-09-26 15:36:55.000000000,2019-09-27 17:55:20.000000000,closed,1,CI: Use Node 8
+976,2019-09-26 10:49:36.000000000,2019-09-27 23:00:38.000000000,closed,3,Replace TSLint with ESLint
+975,2019-09-26 10:40:19.000000000,2019-09-27 17:56:21.000000000,closed,1,Update `prettier` to v1.18.2
+974,2019-09-26 02:02:14.000000000,1970-01-01 00:00:00.000000001,open,5,maybe perf tuning | strict ifs
+973,2019-09-25 20:24:36.000000000,2019-09-25 20:31:49.000000000,closed,0,Upgrade amd-name-resolver dependency to 1.3.1
+972,2019-09-25 03:55:25.000000000,2019-10-18 05:31:37.000000000,closed,1,Lay groundwork for lexical scope & improve errors
+971,2019-09-22 22:06:42.000000000,2019-09-25 20:34:21.000000000,closed,2,Handle missing remote element marker gracefully.
+970,2019-09-11 02:43:35.000000000,2019-09-11 02:58:08.000000000,closed,0,build/debug: Use `prettier` API directly instead of going through TSLint
+969,2019-09-11 01:48:50.000000000,2019-09-11 02:58:46.000000000,closed,0,util/string: Fix broken array length conditions
+968,2019-09-10 22:24:13.000000000,2019-09-26 02:31:20.000000000,closed,1,Run ESLint on *all* JS files in the project
+967,2019-09-10 21:10:05.000000000,2019-09-10 21:27:44.000000000,closed,0,Cleanup Node.js files
+966,2019-08-13 21:36:34.000000000,2019-08-14 00:57:21.000000000,closed,1,"Backport #961 (Fix <title>, <script>, and <style> rehydration )"
+965,2019-08-13 20:42:12.000000000,2020-02-28 16:08:06.000000000,closed,1,Update to the latest TypeScript
+964,2019-08-13 04:30:34.000000000,2019-08-13 20:46:11.000000000,closed,0,[FEAT] Perf Tuning + Functional API
+963,2019-07-31 21:34:58.000000000,2019-08-12 22:19:08.000000000,closed,3,[BACKPORT] Performance Tuning for Ember 3.13
+962,2019-07-26 00:13:06.000000000,2019-07-30 18:44:25.000000000,closed,0,Update simple-html-tokenizer to v0.5.8
+961,2019-07-23 04:00:09.000000000,2019-08-13 20:47:08.000000000,closed,1,"Fix <title>, <script>, and <style> rehydration"
+960,2019-07-23 03:31:58.000000000,2019-07-25 22:52:07.000000000,closed,4,Update simple-html-tokenizer to v0.5.8
+959,2019-07-12 19:59:23.000000000,2019-08-13 20:48:37.000000000,closed,2,[BUGFIX] Prevents caching when a cycle exists in tags
+958,2019-07-12 07:02:51.000000000,2019-07-12 17:43:51.000000000,closed,0,Fix table thead and tfoot rehydration
+957,2019-07-11 07:16:51.000000000,2019-07-11 07:27:23.000000000,closed,0,Add ability to override printing of specific AST nodes.
+956,2019-07-11 06:29:34.000000000,2019-07-11 07:26:46.000000000,closed,0,Fix table thead and tfoot rehydration
+955,2019-07-11 00:54:38.000000000,2019-07-15 22:06:50.000000000,closed,1,possible bug fix in `pair` function
+954,2019-07-09 18:37:24.000000000,1970-01-01 00:00:00.000000001,open,0,Failing test for ConcatStatement parts location.
+953,2019-07-08 07:22:15.000000000,1970-01-01 00:00:00.000000001,open,1,Failing test showing incorrect location info for valueless attributes
+952,2019-07-07 21:12:17.000000000,1970-01-01 00:00:00.000000001,open,0,feat: builder aliases
+951,2019-06-29 19:45:40.000000000,2019-07-04 06:13:15.000000000,closed,2,Preserve mustache whitespace stripping information in AST and printer
+950,2019-06-26 01:29:27.000000000,1970-01-01 00:00:00.000000001,open,4,Long inserts optimization
+949,2019-06-21 17:38:55.000000000,2019-06-25 16:33:05.000000000,closed,0,Print unescaped statements correctly
+948,2019-06-13 18:13:03.000000000,2019-12-28 01:24:24.000000000,closed,5,[@glimmer/syntax] Partial support
+947,2019-06-01 14:05:04.000000000,2019-06-01 18:35:39.000000000,closed,3,Ideas on initial list rendering / items additional optimizations
+946,2019-05-29 22:19:46.000000000,1970-01-01 00:00:00.000000001,open,5,Type errors when using TypeScript v3.5.1
+945,2019-05-29 10:30:43.000000000,2019-06-14 04:13:11.000000000,closed,8,Performance improvements for keyed lists changes
+944,2019-05-29 09:54:33.000000000,1970-01-01 00:00:00.000000001,open,2,feat: async rerender
+943,2019-05-13 11:45:06.000000000,2019-05-13 11:54:43.000000000,closed,0,"Remove redundant ""this"""
+942,2019-05-11 17:14:11.000000000,2019-05-13 21:29:16.000000000,closed,2,Add support for `chained` inverse blocks
+941,2019-05-07 12:56:32.000000000,2019-05-08 10:51:58.000000000,closed,1,Fix printer support for self-closing angle bracket component invocations
+940,2019-05-02 00:12:32.000000000,2019-06-15 01:45:42.000000000,closed,3,Huge mutations count for keyed lists
+939,2019-05-01 00:31:15.000000000,2020-02-28 16:10:50.000000000,closed,2,Update deps in interfaces and util
+938,2019-04-30 22:03:40.000000000,2019-05-13 18:20:15.000000000,closed,3,Add `codemod` mode for @glimmer/syntax preparse.
+937,2019-04-30 01:42:56.000000000,2019-08-13 20:49:12.000000000,closed,5,[BUGFIX] Prevents caching when a cycle exists in tags
+936,2019-04-30 00:20:29.000000000,2019-04-30 23:00:24.000000000,closed,1,Feat: Add location data for empty hashes
+935,2019-04-30 00:15:30.000000000,2020-02-28 16:10:24.000000000,closed,1,Missing dependencies when relying on @glimmer/syntax
+934,2019-04-29 13:02:40.000000000,2019-05-22 15:32:32.000000000,closed,6,Broken rerender on 1+ item removal for tacked by `@identity` lists
+933,2019-04-19 03:11:26.000000000,2019-04-19 03:31:59.000000000,closed,1,glimmer-syntax: failing test for printing if/block statements and leading/trailing whitespace
+932,2019-04-17 01:42:23.000000000,2019-04-18 00:18:44.000000000,closed,0,Fix printing of MustacheStatement with literal path
+931,2019-04-10 23:53:05.000000000,2019-04-16 18:08:49.000000000,closed,8,Modifying in-element semantics to support non-null insertBefore elements
+930,2019-04-03 20:48:30.000000000,1970-01-01 00:00:00.000000001,open,2,Missing `popBlock` when `createInstance` is `false`
+929,2019-04-03 07:29:04.000000000,2019-04-03 20:45:09.000000000,closed,0,Backport ...attributes fixes
+928,2019-04-02 04:57:46.000000000,2019-04-02 05:44:55.000000000,closed,0,Fix modifiers order
+927,2019-04-02 01:47:24.000000000,2019-05-13 21:31:07.000000000,closed,1,Update yarn-link-all script to print out commands to run in project
+926,2019-04-01 14:18:13.000000000,2019-04-02 05:44:58.000000000,closed,0,[WIP] Fix modifier invocation order 
+925,2019-03-30 18:47:10.000000000,2019-03-31 04:13:27.000000000,closed,5,Backport RFC# 435
+924,2019-03-25 23:09:24.000000000,2019-03-30 02:30:37.000000000,closed,1,Add ability to pass in dynamic scope to render component apis
+923,2019-03-10 20:28:12.000000000,2019-03-30 18:34:16.000000000,closed,21,Allow forward element modifiers into component invocations via ...attributes
+922,2019-02-27 23:35:21.000000000,2019-03-08 23:47:26.000000000,closed,1,Use type generic for `scope()` function
+921,2019-02-24 12:39:54.000000000,2019-02-25 00:13:33.000000000,closed,1,ComponentManager types - fix typeParam shadowing
+920,2019-02-22 11:42:44.000000000,2019-08-13 20:47:08.000000000,closed,0,[BUGFIX] A failing test for rehydration of the <title> tag
+919,2019-02-15 19:37:49.000000000,2019-02-16 01:50:31.000000000,closed,3,fix: security audit handlebars update
+918,2019-02-11 21:52:01.000000000,2019-03-29 23:15:42.000000000,closed,2,[FEATURE | BREAKING] Change semantics of in-element to match emberjs/rfcs#287
+917,2019-02-08 02:14:34.000000000,2019-02-08 02:30:05.000000000,closed,0,Fixed typo on method name; compilerModuleLocatorResolver
+916,2019-02-08 00:49:39.000000000,2019-02-08 02:04:35.000000000,closed,1,Expose meta data to AST plugins environment
+915,2019-02-08 00:44:45.000000000,2019-02-08 00:48:05.000000000,closed,0,Expose meta data to AST plugins environment
+914,2019-02-08 00:34:03.000000000,2019-02-08 00:59:18.000000000,closed,0,Temporarily disable smoke test on Travis
+913,2019-02-08 00:31:05.000000000,2019-02-08 01:21:29.000000000,closed,0,Expose template metadata to AST plugins
+912,2019-02-07 04:48:26.000000000,2019-02-07 06:16:46.000000000,closed,0,[HOTFIX] Move opcode metadata to @glimmer/debug package
+911,2019-02-07 03:59:57.000000000,2019-02-08 01:22:52.000000000,closed,1,Update Guides to include more complete steps
+910,2019-02-05 03:35:36.000000000,2019-02-07 22:58:13.000000000,closed,1,Expose meta data to AST plugins environment
+909,2019-01-25 20:02:09.000000000,2019-01-25 21:23:25.000000000,closed,0,[BUGFIX] Widen assert to 32bits `call` for AoT
+908,2019-01-24 10:40:24.000000000,2019-01-24 10:41:24.000000000,closed,0,Widen operands
+907,2019-01-23 08:43:26.000000000,2019-01-23 09:31:31.000000000,closed,0,Glimmer.js integration
+906,2019-01-22 21:55:27.000000000,2019-01-22 22:07:27.000000000,closed,1,[backport to 0.36]Widen operand slot to 32-bits
+905,2019-01-22 19:35:52.000000000,2019-01-22 22:07:16.000000000,closed,1,[0.35 backport]Widen operand slot to 32-bits
+904,2019-01-19 06:05:37.000000000,2019-01-21 03:16:18.000000000,closed,1,Internals improvements
+903,2019-01-17 20:07:38.000000000,2019-01-19 10:39:25.000000000,closed,1,Widen operand slot to 32-bits
+902,2019-01-17 00:14:49.000000000,2019-03-28 03:52:33.000000000,closed,4,[@glimmer/opcode-compiler] error:  - Compile Error: c is not a helper 
+901,2019-01-15 20:47:27.000000000,2019-01-18 03:50:31.000000000,closed,0,Avoid duplicating the test type for each test.
+900,2019-01-15 05:19:38.000000000,2019-01-22 19:43:05.000000000,closed,2,Ensure positionals are passed when prepareArgs is false
+899,2019-01-09 20:10:34.000000000,2019-01-21 03:16:23.000000000,closed,0,Branch Merge
+898,2019-01-04 19:43:13.000000000,2019-01-04 21:25:11.000000000,closed,6,Update `ember-cli` to v3.6.1
+897,2019-01-04 08:31:09.000000000,2019-01-04 19:09:29.000000000,closed,1,Update compiler-delegate link in 11-glossary.md
+896,2018-12-24 18:23:04.000000000,2018-12-24 18:48:04.000000000,closed,0,Fix self-imports
+895,2018-12-24 18:20:04.000000000,2018-12-24 19:20:57.000000000,closed,0,Fix internal dependency declarations
+894,2018-12-24 15:23:40.000000000,2018-12-24 19:44:53.000000000,closed,5,Update `broccoli-typescript-compiler` to v4.1.0 
+893,2018-12-24 15:16:33.000000000,2019-01-08 18:54:26.000000000,closed,11,yarn.lock: Deduplicate dependency versions
+892,2018-12-24 00:52:25.000000000,2019-01-18 23:34:17.000000000,closed,4,Failing test for forwarding attributes to yielded components
+891,2018-12-23 05:35:32.000000000,2019-01-16 20:07:41.000000000,closed,5,Switch from Saucelabs to Browserstack
+890,2018-12-22 22:56:51.000000000,2018-12-22 23:45:33.000000000,closed,0, syntax/nodes: Add documentation
+889,2018-12-22 21:09:13.000000000,2018-12-22 23:46:33.000000000,closed,0,Fix type declarations
+888,2018-12-22 20:30:14.000000000,2018-12-22 20:39:25.000000000,closed,0,Update Broccoli base dependencies
+887,2018-12-22 17:21:10.000000000,2018-12-22 23:45:03.000000000,closed,2,Remove unused typescript/build dependencies
+886,2018-12-22 16:40:46.000000000,2018-12-22 17:31:05.000000000,closed,0,CI: Split `script` into multiple jobs
+885,2018-12-22 16:28:06.000000000,2018-12-22 19:13:58.000000000,closed,0,Update Ember CLI to v3.4.4
+884,2018-12-22 16:17:15.000000000,2018-12-22 17:29:59.000000000,closed,0,bin/publish: Replace `package` variables with `pkg`
+883,2018-12-22 16:11:48.000000000,2018-12-22 17:56:54.000000000,closed,2,Update Ember CLI to v3.6.0
+882,2018-12-22 16:03:16.000000000,2018-12-22 20:38:55.000000000,closed,1,Update ESLint to v5.10.0
+881,2018-12-22 16:00:13.000000000,2018-12-22 17:28:47.000000000,closed,0,Remove `ember-cli-release` dependency
+880,2018-12-22 03:21:52.000000000,2018-12-22 03:44:20.000000000,closed,0,Remove buildtime TSLint with CI step
+879,2018-12-22 03:18:30.000000000,2018-12-22 03:42:59.000000000,closed,1,package.json: Sort contents in documented order
+878,2018-12-22 03:16:01.000000000,2018-12-22 03:40:26.000000000,closed,0,Update `fsevents` to v1.2.2
+877,2018-12-22 03:01:53.000000000,2018-12-22 03:08:04.000000000,closed,0,"CI: Run only for `master` branch, tags and PRs"
+876,2018-12-22 01:30:47.000000000,2018-12-22 01:54:52.000000000,closed,0,testem: Disable failing Safari scenario
+875,2018-12-22 01:17:17.000000000,2018-12-22 03:15:23.000000000,closed,0,Update QUnit to v2.8.0
+874,2018-12-22 00:48:26.000000000,2018-12-22 03:04:49.000000000,closed,0,Update `ember-cli-sauce` to v2.2.0
+873,2018-12-22 00:37:56.000000000,2018-12-22 02:55:17.000000000,closed,0,Simplify CI config
+872,2018-12-22 00:21:37.000000000,2018-12-22 02:53:02.000000000,closed,0,Update `lerna-changelog` to v0.8.2
+871,2018-12-20 07:26:08.000000000,2019-01-09 00:17:02.000000000,closed,4,Feat: Add option to turn on `ignoreStandalone` in HBS parser
+870,2018-12-19 02:45:38.000000000,1970-01-01 00:00:00.000000001,open,1,Preprocessing into AST doesn't work with <!DOCTYPE> tags
+869,2018-12-14 17:29:30.000000000,2019-03-23 08:04:38.000000000,closed,7,Ensure passing attribute as mustache properly forwards the current namespace (e.g. svg)
+868,2018-12-05 02:39:32.000000000,2018-12-05 06:27:12.000000000,closed,0,Fix typo in 02-precompiler-overview.md
+867,2018-11-30 02:54:53.000000000,2019-02-08 01:21:09.000000000,closed,3,[WIP] Attempt more graceful recovery of render-time exceptions
+866,2018-11-29 03:11:06.000000000,2018-11-29 05:17:09.000000000,closed,0,Upgrade SimpleDOM and use DOM types more consistently
+865,2018-11-20 00:49:35.000000000,2019-01-21 03:16:23.000000000,closed,1,Destructor redux
+864,2018-11-08 05:27:54.000000000,2019-01-21 03:16:22.000000000,closed,0,[BREAKING] Named blocks
+863,2018-11-08 03:41:22.000000000,2018-11-08 03:55:44.000000000,closed,1,Fixed Windows Build Error
+862,2018-11-06 09:10:39.000000000,2018-11-29 05:36:26.000000000,closed,0,[DOCS] Adds runtime documentation
+861,2018-11-05 00:39:40.000000000,2019-02-22 22:13:06.000000000,closed,4,each helper breaks with no friendly error with Ember 3.3
+860,2018-10-24 04:49:07.000000000,2018-10-24 05:03:03.000000000,closed,0,Update the yarn version used in CI to latest.
+859,2018-10-24 04:31:03.000000000,2019-10-29 00:46:24.000000000,closed,1,Update deps to latest allowed values.
+858,2018-10-12 20:52:16.000000000,2018-10-13 22:09:28.000000000,closed,0,Export RenderComponentArgs
+857,2018-10-02 01:56:10.000000000,2018-10-02 17:47:35.000000000,closed,0,Fix debug issues reported in glimmerjs/glimmer-vm#846
+856,2018-09-27 21:41:41.000000000,2018-11-07 23:56:42.000000000,closed,2,`Bounds` must be non-empty
+855,2018-09-26 21:28:35.000000000,2018-09-27 01:13:25.000000000,closed,1,Fix more edge cases for {{ and {{{ (in IE11)
+854,2018-09-26 19:01:28.000000000,2018-10-11 02:59:15.000000000,closed,1,Backport #852 and #855 to release-0-25
+853,2018-09-25 20:05:26.000000000,1970-01-01 00:00:00.000000001,open,3,"Move stack interface, to interfaces."
+852,2018-09-24 02:34:29.000000000,2018-09-25 04:57:33.000000000,closed,1,Fix emberjs/ember.js#14978
+851,2018-09-19 19:01:20.000000000,2018-09-20 08:03:34.000000000,closed,2,Triple-curly template behavior differs from Handlebars
+850,2018-09-14 15:53:37.000000000,2018-10-02 17:20:58.000000000,closed,0,Exposing a primitive renderComponent API
+849,2018-09-07 08:12:08.000000000,2018-09-07 19:28:17.000000000,closed,1,Failing test: incorrect loc for attrs following valueless attr.
+848,2018-09-06 05:01:35.000000000,2018-09-07 17:33:22.000000000,closed,0,Refactor publishing script to allow for OTP timeouts.
+847,2018-09-05 23:49:03.000000000,2018-09-06 00:58:55.000000000,closed,0,Ensure dynamic component invocations follow splattribute rules.
+846,2018-09-05 23:17:59.000000000,2018-10-02 17:47:35.000000000,closed,1,Enabling logging results in unbalanced operations
+845,2018-08-29 01:08:10.000000000,2018-08-29 18:12:52.000000000,closed,0,Add more modifier tests
+844,2018-08-26 01:26:09.000000000,2019-06-01 20:04:50.000000000,closed,2,Async-rerender proof of concept
+843,2018-08-20 04:48:03.000000000,2018-08-28 20:05:58.000000000,closed,0,Introduce ModifierDefinitonState
+842,2018-08-18 01:54:43.000000000,2018-08-18 02:28:24.000000000,closed,0,"[BUGFIX] In ListRevalidationDelegate, allow empty string values for `before` argument "
+841,2018-08-13 15:48:24.000000000,1970-01-01 00:00:00.000000001,open,7,Remove attribute if property is `falsy` when rehydrating
+840,2018-08-08 00:14:51.000000000,1970-01-01 00:00:00.000000001,open,0,User hooks during vm execution should be guarded in try/catch.
+839,2018-07-25 21:42:48.000000000,1970-01-01 00:00:00.000000001,open,15,<noscript> tags when JS enabled are not ignored
+838,2018-07-23 14:21:45.000000000,2020-02-28 16:45:13.000000000,closed,2,Glimmer automatically converts single quotes to double quotes while hbs transform
+837,2018-07-21 22:01:08.000000000,2018-07-21 22:10:17.000000000,closed,0,Maybe fix safari test run
+836,2018-07-21 08:37:36.000000000,2018-07-21 23:59:42.000000000,closed,0,Improve node visitor types
+835,2018-07-21 06:29:15.000000000,2020-01-03 02:51:17.000000000,closed,2,Refactor printer
+834,2018-06-29 04:58:46.000000000,2018-06-29 05:22:52.000000000,closed,0,[BUGFIX] Make sure escaping is handled correctly in printer.
+833,2018-06-21 14:27:24.000000000,2018-06-21 15:46:13.000000000,closed,3,Glimmer converts html entities to equivalent chars during AST generation.
+832,2018-06-19 07:06:20.000000000,2019-01-18 23:34:02.000000000,closed,3,Add `value` method to `ICapturedArguments`.
+831,2018-06-15 05:22:00.000000000,2018-06-15 05:31:59.000000000,closed,0,Throw a compilation error for path expressions with a trailing `.`.
+830,2018-06-11 23:14:37.000000000,2018-06-12 03:46:11.000000000,closed,0,Fix issue with unquoted attribute followed by self closing tag.
+829,2018-06-11 18:59:45.000000000,2018-06-12 03:46:11.000000000,closed,0,<FooBar data-foo={{blah}}/> throws
+828,2018-06-09 23:35:59.000000000,2018-06-12 13:58:30.000000000,closed,4,Dev server exits often (JavaScript heap out of memory)
+827,2018-06-04 23:35:40.000000000,2018-06-04 23:46:24.000000000,closed,0,Fixup issues with dynamic angle bracket invocation.
+826,2018-06-04 22:49:21.000000000,2018-06-04 23:05:23.000000000,closed,0,Allow angle invoked names to be customized during compilation.
+825,2018-06-04 21:49:33.000000000,1970-01-01 00:00:00.000000001,open,2,Remove Fallbacks From AST Builders
+824,2018-06-04 21:08:45.000000000,2018-06-04 21:55:18.000000000,closed,0,[BUGFIX] AST Builder and Printer Fixes
+823,2018-05-31 18:58:18.000000000,2018-05-31 23:28:30.000000000,closed,0,Add implicit ...attributes to wrapped layouts.
+822,2018-05-30 23:33:45.000000000,2018-06-01 02:12:44.000000000,closed,2,Implement dynamic angle bracket invocation.
+821,2018-05-30 17:21:27.000000000,2018-05-30 17:29:01.000000000,closed,0,Ensure `assertComponent` identifies angle invocation has-block tests.
+820,2018-05-29 08:12:58.000000000,2018-05-29 19:17:09.000000000,closed,1,Decouple `didCreateElement` from `...attributes`.
+819,2018-05-29 00:46:44.000000000,2018-05-29 19:17:18.000000000,closed,0,Ensure `has-block` is false for `<Foo />`.
+818,2018-05-28 20:09:30.000000000,2018-05-28 20:17:30.000000000,closed,0,Update simple-html-tokenizer to ^0.5.3.
+817,2018-05-27 05:43:04.000000000,2018-05-28 22:20:20.000000000,closed,3,Restore Node tests
+816,2018-05-26 18:52:28.000000000,2018-05-28 20:29:43.000000000,closed,2,Enable stricter TS settings
+815,2018-05-25 22:51:56.000000000,2018-05-28 20:29:43.000000000,closed,1,Glimmer's TS config should be at least as strict as Ember's
+814,2018-05-25 22:05:55.000000000,2018-05-25 23:02:18.000000000,closed,2,fix @glimmer/compiler types
+813,2018-05-24 02:42:16.000000000,2019-02-20 19:48:29.000000000,closed,10,clear bounds on node that had it's textContent modified
+812,2018-05-20 00:15:58.000000000,2018-05-21 20:03:07.000000000,closed,1,Loosen path type in buildSexpr
+811,2018-05-19 21:14:56.000000000,2018-05-19 21:29:00.000000000,closed,0,[BUGFIX] Fix void element printing
+810,2018-05-18 10:25:06.000000000,2018-05-18 13:37:58.000000000,closed,1,Add missing semicolon
+809,2018-05-07 19:09:36.000000000,2018-05-21 21:15:32.000000000,closed,3,Fix trusted content empty string bug
+808,2018-05-07 03:22:01.000000000,2018-05-09 03:22:18.000000000,closed,0,Add and apply prettier configuration.
+807,2018-05-02 19:40:28.000000000,2019-01-08 22:26:00.000000000,closed,6,Rehydration Builder errors when helper produces empty string
+806,2018-05-02 00:51:57.000000000,2018-05-02 01:02:11.000000000,closed,0,Move ARGs instance to VM.
+805,2018-04-27 18:26:08.000000000,2018-04-27 18:34:46.000000000,closed,0,Bump minimum simple-html-tokenizer version to 0.5.1.
+804,2018-04-26 19:44:12.000000000,2018-04-27 07:43:07.000000000,closed,1,Parser should strip leading newline from <pre> and <textarea>
+803,2018-04-26 19:17:15.000000000,2018-04-26 19:25:18.000000000,closed,1,Fix astEqual assertion
+802,2018-04-26 02:40:09.000000000,2018-04-26 03:18:34.000000000,closed,0,[BUGFIX] Reset js stack in InnerStack reset
+801,2018-04-21 14:49:17.000000000,2018-04-21 16:31:48.000000000,closed,0,Fix property normalization
+800,2018-04-20 11:28:02.000000000,2018-04-20 19:11:12.000000000,closed,2,WrappedBuilder should cache compiled
+799,2018-04-18 21:58:00.000000000,2018-04-19 01:01:36.000000000,closed,7,add failing test for accessing form attribute
+798,2018-04-12 16:43:07.000000000,2018-04-16 22:54:59.000000000,closed,2,[BUGFIX] Grow the Uint16Array if the page size overflows 1MB
+797,2018-04-12 16:34:44.000000000,2018-04-16 22:54:59.000000000,closed,1,The heap is not expanded when its max size is reached
+796,2018-04-09 18:35:26.000000000,2019-08-13 20:47:08.000000000,closed,5,Rehydration is adding placeholders tags to the head title tag
+795,2018-03-22 22:01:03.000000000,2018-03-22 23:15:07.000000000,closed,0,remove for of usage causing problems with upstream build
+794,2018-03-22 07:03:11.000000000,2018-03-22 07:14:09.000000000,closed,0,fix simple-html-tokenizer deps
+793,2018-03-20 03:23:10.000000000,2018-03-20 14:47:27.000000000,closed,0,Upgrade simple-html-tokenizer
+792,2018-03-19 21:32:45.000000000,2018-03-20 14:55:48.000000000,closed,0,Typing cleanup
+791,2018-03-04 15:28:23.000000000,2018-09-25 04:57:32.000000000,closed,12,Fix bugs caused by html-safe empty strings
+790,2018-03-03 04:30:30.000000000,2018-03-03 07:29:58.000000000,closed,0,Document and cleanup builder
+789,2018-02-28 00:58:05.000000000,2018-03-01 06:25:42.000000000,closed,0,Move away from VOLATILE_TAG
+788,2018-02-27 06:30:47.000000000,2018-03-01 19:11:04.000000000,closed,2,Expose isSerializationFirstNode and SERIALIZATION_FIRST_NODE_STRING
+787,2018-02-24 20:17:01.000000000,2018-03-01 19:14:03.000000000,closed,1,Export isRehydrationComment for rehydration/serialization concerns
+786,2018-02-24 00:48:39.000000000,2018-02-24 20:11:42.000000000,closed,1,[BUGFIX] Support Number.MAX_SAFE_INTEGER
+785,2018-02-16 01:47:04.000000000,2018-02-19 20:43:13.000000000,closed,3,WIP: Drop `ConcatStatement` nodes with only a single part
+784,2018-02-14 06:45:02.000000000,2018-03-01 20:23:48.000000000,closed,0,Unifying Content Appending
+783,2018-02-13 20:36:19.000000000,2018-02-24 20:12:26.000000000,closed,1,Fix failing test rehydration initial content PR
+782,2018-02-13 17:36:51.000000000,2018-02-20 20:01:32.000000000,closed,1,Inline `Concat` nodes with single element
+781,2018-02-09 21:27:46.000000000,2018-02-09 21:39:42.000000000,closed,0,Remove strikethrough because there is content
+780,2018-02-09 20:57:20.000000000,2018-02-24 20:05:24.000000000,closed,4,Add failing rehydration test when additional content exists.
+779,2018-02-09 04:48:44.000000000,2018-02-09 23:00:45.000000000,closed,0,[CLEANUP] Reduce test suite from range input fix
+778,2018-02-08 22:27:59.000000000,2018-02-08 22:38:31.000000000,closed,0,Move ModuleLocator and related interfaces to @glimmer/interfaces
+777,2018-02-07 07:47:28.000000000,2018-02-09 01:36:16.000000000,closed,1,[BREAKING] Cleanup
+776,2018-02-02 23:44:04.000000000,2018-02-03 00:14:45.000000000,closed,0,Remove redundant OpenElementWithOperations opcode
+775,2018-02-02 22:42:47.000000000,2018-02-02 22:52:32.000000000,closed,0,Serialized format renaming
+774,2018-02-01 12:04:42.000000000,2018-02-02 22:52:19.000000000,closed,0,Fix args alloc
+773,2018-02-01 01:01:24.000000000,2018-02-06 23:20:12.000000000,closed,0,Encode component capabilities using bitmasks
+772,2018-01-31 04:40:48.000000000,1970-01-01 00:00:00.000000001,open,6,Include file name and source locations in template compiler errors
+771,2018-01-25 16:26:59.000000000,2018-01-25 19:40:44.000000000,closed,1,improve nested transaction error message
+770,2018-01-24 05:44:26.000000000,2019-10-29 00:42:31.000000000,closed,1,"A stab at reducing ""small array"" allocations"
+769,2018-01-24 03:55:39.000000000,2018-01-24 04:20:22.000000000,closed,0,Fix package deps
+768,2018-01-19 02:56:00.000000000,2018-02-05 09:56:16.000000000,closed,4,Start fleshing out the precompiler docs
+767,2018-01-12 22:01:50.000000000,2018-01-12 23:19:25.000000000,closed,2,Fix nested currying.
+766,2018-01-11 04:01:30.000000000,2018-01-12 23:19:27.000000000,closed,0,Failing test for component helper wrapping another curried component.
+765,2018-01-10 01:54:54.000000000,2018-01-10 02:11:54.000000000,closed,3,The modules build and types are needed for yarn link.
+764,2018-01-09 03:49:55.000000000,2019-10-29 00:44:56.000000000,closed,3,Improve support for XHTML
+763,2018-01-07 07:52:07.000000000,2019-06-05 18:56:29.000000000,closed,0,Implement block let helper
+762,2018-01-05 17:25:52.000000000,2018-01-05 23:21:14.000000000,closed,1,Allow null for iterable keys
+761,2018-01-03 05:43:51.000000000,2018-01-03 08:34:29.000000000,closed,0,Fix has-block-params in prod mode
+760,2017-12-31 01:47:57.000000000,2018-11-29 03:14:25.000000000,closed,1,Don't merge: upgrade simple-dom
+759,2017-12-16 07:45:22.000000000,2017-12-17 23:21:33.000000000,closed,0,Fix debug logging not to crash when a null block is pushed.
+758,2017-12-16 05:33:45.000000000,2020-02-28 16:40:43.000000000,closed,2,"Preserve ordering of attributes, modifiers, and comments on Element Nodes for Pretty Printing"
+757,2017-12-16 02:28:20.000000000,2017-12-16 02:44:03.000000000,closed,2,Fix debugSlice for lazy compile
+756,2017-12-15 02:02:08.000000000,2017-12-15 07:23:16.000000000,closed,0,Fix production build.
+755,2017-12-14 21:15:16.000000000,2018-01-25 19:40:43.000000000,closed,3,Unhelpful error message from unrelated errors
+754,2017-12-14 08:53:07.000000000,1970-01-01 00:00:00.000000001,open,5,Rehydration Should be More Resilient In Mismatch Scenarios  
+753,2017-12-02 07:40:40.000000000,2017-12-02 07:47:48.000000000,closed,0,Fix safari CI
+752,2017-12-02 00:46:23.000000000,2019-10-29 00:52:20.000000000,closed,10,Initial stab at porting `asm/stack.ts` to Rust
+751,2017-12-02 00:14:40.000000000,2017-12-02 00:22:43.000000000,closed,0,Remove console.trace
+750,2017-11-30 03:04:02.000000000,2017-12-01 02:48:16.000000000,closed,2,Copy edits to Validator guide
+749,2017-11-28 11:35:30.000000000,2017-12-06 10:37:00.000000000,closed,1,Add some utility functions for wasm
+748,2017-11-28 08:43:25.000000000,2017-11-28 20:04:25.000000000,closed,1,Refine Dynamic Component Invocations
+747,2017-11-28 00:54:18.000000000,1970-01-01 00:00:00.000000001,open,1,Unhelpful error when passing arg to HTML element
+746,2017-11-28 00:19:05.000000000,2017-11-28 00:43:56.000000000,closed,0,Intern handle table
+745,2017-11-27 23:27:49.000000000,2017-11-28 02:19:56.000000000,closed,0,Static Component Helper & Interning Serializables
+744,2017-11-27 19:46:11.000000000,2017-11-27 23:22:14.000000000,closed,0,[WIP] Transform component helper with static name
+743,2017-11-21 02:32:16.000000000,2018-02-09 01:02:23.000000000,closed,7,[BREAKING] Move lazy mode constructs to @glimmer/opcode-compiler
+742,2017-11-18 21:59:12.000000000,2017-11-24 01:40:56.000000000,closed,1,Upgrade broccoli-rollup
+741,2017-11-11 05:22:52.000000000,2017-11-13 17:44:04.000000000,closed,1,Fix bytecode recursive component invocation
+740,2017-11-09 06:24:32.000000000,2017-11-09 18:31:29.000000000,closed,1,Mark @glimmer/test-helpers as private
+739,2017-11-08 19:37:29.000000000,2017-12-02 01:51:47.000000000,closed,0,Compile Guarded Append Into Std. Lib
+738,2017-11-08 01:43:32.000000000,2017-11-08 21:56:54.000000000,closed,0,Unify eager and lazy compilation metadata semantics
+737,2017-11-06 20:17:47.000000000,2017-11-06 21:38:55.000000000,closed,1,Add tests for basic #each use cases
+736,2017-11-06 13:55:08.000000000,1970-01-01 00:00:00.000000001,open,0,Should glimmer catch DOM NotFoundErrors when removing elements?
+735,2017-11-03 03:53:04.000000000,2017-11-03 04:28:09.000000000,closed,1,Allow passing additional template metadata to BundleCompiler
+734,2017-11-01 23:56:35.000000000,2017-11-02 00:03:08.000000000,closed,1,Revert some unneeded changes to `PartialInvoker`
+733,2017-11-01 20:31:45.000000000,2017-11-01 21:21:22.000000000,closed,0,Fix Bounds and ElementBuilder interfaces.
+732,2017-11-01 17:46:35.000000000,2017-11-01 23:09:00.000000000,closed,3,[0.25] fix nested partials
+731,2017-11-01 17:20:21.000000000,2017-11-01 17:51:14.000000000,closed,0,[temp] failing test for deeply nested partials and with blocks
+730,2017-11-01 12:32:37.000000000,2017-11-02 01:07:22.000000000,closed,6,Fix nested partials within a `{{#with}}` block (#728)
+729,2017-11-01 04:17:04.000000000,2018-03-21 04:14:57.000000000,closed,1,Update simple-dom
+728,2017-10-30 22:52:08.000000000,2017-11-02 01:07:22.000000000,closed,1,Nested partials is not working as expected
+727,2017-10-28 02:56:19.000000000,2017-11-02 01:28:48.000000000,closed,1,[CLEANUP] Use correct environment
+726,2017-10-28 02:48:39.000000000,2018-02-09 04:39:47.000000000,closed,7,[BUGFIX beta] Fix range element reporting wrong initial value
+725,2017-10-28 02:02:58.000000000,2017-10-28 02:10:04.000000000,closed,0,"Remove obsolete ""lerna.json"" file"
+724,2017-10-28 01:49:31.000000000,2017-10-28 16:16:30.000000000,closed,0,guides: Fix several issues in TS codeblocks
+723,2017-10-27 20:15:09.000000000,2017-10-27 20:22:41.000000000,closed,0,Don't infer the return type of the builder factories
+722,2017-10-27 15:55:34.000000000,2017-10-28 01:59:44.000000000,closed,4,in-element component not found
+721,2017-10-26 18:43:51.000000000,2017-10-26 21:07:00.000000000,closed,0,Compact Heap Table
+720,2017-10-26 01:22:08.000000000,2017-10-26 03:19:19.000000000,closed,0,[Cleanup] Remove top-level invocations
+719,2017-10-25 22:05:00.000000000,2017-12-01 23:24:00.000000000,closed,0,[WIP] U32 stack
+718,2017-10-25 18:41:05.000000000,2017-10-25 21:56:05.000000000,closed,2,[BUGFIX] Fix Frozen Args When Currying
+717,2017-10-22 21:37:19.000000000,2017-10-27 03:55:23.000000000,closed,0,Add Changelog file
+716,2017-10-20 00:39:57.000000000,2017-10-21 17:54:20.000000000,closed,2,Unallowed identfier `yield` is used
+715,2017-10-20 00:34:57.000000000,2020-02-28 16:37:33.000000000,closed,11,`static` as a function name breaks Edge
+714,2017-10-18 04:06:58.000000000,2017-10-18 04:17:32.000000000,closed,1,Don't continuously recompile the layout
+713,2017-10-17 22:24:15.000000000,2018-03-11 06:06:06.000000000,closed,3,Glimmer mutates object when iterating with {{#each}}
+712,2017-10-17 22:15:00.000000000,2017-10-17 23:00:35.000000000,closed,0,Special case an empty array constant
+711,2017-10-17 00:55:14.000000000,2017-10-17 01:38:46.000000000,closed,1,fix(bundle-compiler): Properly cache compileOptions
+710,2017-10-16 01:18:46.000000000,2017-10-16 01:46:28.000000000,closed,0,Cache value instead of reading from the element
+709,2017-10-15 20:34:47.000000000,2017-10-17 01:39:44.000000000,closed,0,Document capabilities
+708,2017-10-14 00:17:57.000000000,2017-10-14 03:03:09.000000000,closed,1,Check if attribute value actually changed before setting it
+707,2017-10-13 22:03:28.000000000,2017-10-13 23:03:05.000000000,closed,4,Fix path lookup inside helpers
+706,2017-10-13 14:17:28.000000000,2017-10-13 23:03:09.000000000,closed,0,Add failing tests for using if in partials
+705,2017-10-13 12:45:04.000000000,2017-10-13 23:03:05.000000000,closed,0,Using if in partials does not work as expected
+704,2017-10-12 20:08:01.000000000,2017-10-12 20:20:37.000000000,closed,0,Fix stripped return statements in production builds
+703,2017-10-12 20:07:54.000000000,2017-10-12 20:31:23.000000000,closed,0,Initialize v0 register
+702,2017-10-11 18:10:25.000000000,2017-10-11 23:42:30.000000000,closed,0,Move In-Element Specific Transform Into Visitor
+701,2017-10-11 05:57:22.000000000,2017-10-30 01:24:19.000000000,closed,2,Initial work towards the renderComponent API
+700,2017-10-11 05:07:09.000000000,2017-10-11 05:22:55.000000000,closed,2,Remove temporary enum value
+699,2017-10-10 18:52:43.000000000,2017-10-10 20:03:28.000000000,closed,0,Fix floats and negative numbers
+698,2017-10-10 18:21:21.000000000,2017-10-10 18:37:54.000000000,closed,0,Migrate Attribute Tests
+697,2017-10-10 17:11:00.000000000,2017-10-10 17:43:10.000000000,closed,0,Fix Memory Leaks
+696,2017-10-09 21:01:27.000000000,2017-10-09 21:44:45.000000000,closed,1,Correct typos for clarity
+695,2017-10-09 20:01:11.000000000,2017-10-09 22:01:25.000000000,closed,1,Cleanup bundle compiler
+694,2017-10-07 03:44:15.000000000,2017-10-09 18:48:45.000000000,closed,1,Skip setting attributes if backing reference is not dirty
+693,2017-10-06 00:43:56.000000000,2017-10-06 00:54:32.000000000,closed,0,Guard for idempotent sets
+692,2017-10-05 18:47:14.000000000,1970-01-01 00:00:00.000000001,open,1,Make the test suite use #qunit-fixture
+691,2017-10-05 18:35:09.000000000,2017-10-05 20:45:03.000000000,closed,0,Cleanup some of the rehydration code
+690,2017-10-05 01:46:11.000000000,2017-10-05 02:09:21.000000000,closed,0,Fix Rehydration
+689,2017-10-04 01:20:51.000000000,2017-10-05 01:46:18.000000000,closed,0,[WIP] Refactor Rehydration
+688,2017-10-03 18:24:04.000000000,2017-10-03 19:13:36.000000000,closed,1,Remove Demos And Benches From Repo
+687,2017-10-03 15:22:07.000000000,2017-10-05 02:30:04.000000000,closed,8,Demos not working
+686,2017-10-03 01:07:27.000000000,2017-10-03 01:17:43.000000000,closed,0,Targeted fix for SVG rehydration
+685,2017-10-02 07:46:28.000000000,2017-10-02 23:38:57.000000000,closed,2,Glimmer Transform - Preserve spacing after transform
+684,2017-10-01 19:53:57.000000000,2017-10-01 20:05:03.000000000,closed,0,Return early for common text appending cases
+683,2017-10-01 02:42:57.000000000,2017-10-05 01:46:26.000000000,closed,0,Add component rehydration tests
+682,2017-10-01 01:02:31.000000000,2017-10-05 02:09:50.000000000,closed,1,[BUGFIX] Block Rehydration
+681,2017-09-30 03:50:35.000000000,2017-09-30 06:18:18.000000000,closed,0,Fix metamorphs during rehydration
+680,2017-09-29 18:05:30.000000000,2017-10-02 19:06:37.000000000,closed,0,Remove support for IE9/IE10/Phantom
+679,2017-09-29 06:23:36.000000000,2017-09-30 03:11:31.000000000,closed,0,Node is not a thing in SSR
+678,2017-09-29 03:54:35.000000000,2017-09-29 04:09:31.000000000,closed,0,Rehydrate in-element
+677,2017-09-28 19:32:51.000000000,1970-01-01 00:00:00.000000001,open,0,elementHook and attributesHook capabilities are not respected
+676,2017-09-27 09:10:32.000000000,2017-10-09 22:42:05.000000000,closed,0,Eager Mode testing needs to delegate to the correct method
+675,2017-09-23 06:01:12.000000000,2017-09-24 02:15:49.000000000,closed,2,$REVISION counter could eventually reach Number.MAX_SAFE_INTEGER
+674,2017-09-20 23:57:48.000000000,2017-09-21 13:41:21.000000000,closed,2,Use simple-html-tokenizer's built-in types
+673,2017-09-20 22:11:00.000000000,2017-09-26 19:34:25.000000000,closed,0,Explicitly publish public packages during deploy
+672,2017-09-19 18:11:01.000000000,2017-09-19 18:36:33.000000000,closed,0,Path for expanding debug APIs correction
+671,2017-09-19 06:54:30.000000000,2017-09-26 19:35:34.000000000,closed,0,Move the element builder factory functions to their respective files
+670,2017-09-19 06:14:31.000000000,2017-09-19 06:30:45.000000000,closed,0,Nuke the debugging imports from opcode-compiler
+669,2017-09-19 04:43:37.000000000,2017-09-19 04:52:11.000000000,closed,0,Don't use subarray to dump heap
+668,2017-09-18 22:10:48.000000000,2017-09-20 21:30:23.000000000,closed,2,Smoke test types before publishing
+667,2017-09-18 20:53:50.000000000,2017-09-18 21:05:06.000000000,closed,0,[Breaking] Pass Instances Of Element Builders
+666,2017-09-15 23:46:02.000000000,2017-09-16 00:01:32.000000000,closed,0,Break @glimmer/interfaces circular dependency
+665,2017-09-15 06:19:31.000000000,2017-09-15 18:49:21.000000000,closed,0,Intern Constants Pool
+664,2017-09-15 03:11:01.000000000,2017-09-15 19:14:44.000000000,closed,0,Document Heap
+663,2017-09-14 21:16:38.000000000,2017-09-15 21:07:23.000000000,closed,2,Component terminology cleanup
+662,2017-09-14 18:34:40.000000000,2017-09-20 19:15:34.000000000,closed,1,Refactor call protocol
+661,2017-09-14 18:02:12.000000000,2017-09-18 20:05:40.000000000,closed,0,Use an ArrayBuffer for storing the heap
+660,2017-09-13 23:54:53.000000000,2017-09-13 23:55:05.000000000,closed,0,Update nukable import to allow for binaryexpr stripping
+659,2017-09-13 19:41:48.000000000,2017-09-13 19:51:05.000000000,closed,0,Convert `@glimmer/local-debug-flags` to dev dependency
+658,2017-09-13 19:21:07.000000000,2017-09-13 19:31:04.000000000,closed,0,Fix deps on @glimmer/debug
+657,2017-09-11 23:24:26.000000000,2017-12-01 05:53:32.000000000,closed,2,[WIP] Introduce Golden tests for asserting on opcodes and constant pool
+656,2017-09-11 20:03:50.000000000,2017-09-11 20:46:54.000000000,closed,0,Remove absolute path to sibling
+655,2017-09-11 19:49:50.000000000,2017-09-11 20:02:19.000000000,closed,0,Retain opcode metadata if RETAIN_FLAGS is set
+654,2017-09-11 07:07:11.000000000,2017-09-11 23:34:10.000000000,closed,0,Add Node Bundle Compiler Tests
+653,2017-09-11 04:55:14.000000000,2017-09-11 05:08:53.000000000,closed,0,Move bundle compiler and node infra into test-helpers
+652,2017-09-10 21:15:33.000000000,2017-09-10 21:26:06.000000000,closed,0,Introduce Node test infra
+651,2017-09-10 20:21:57.000000000,2017-10-12 21:59:03.000000000,closed,0,PhantomJS Swallows Failed Node Tests
+650,2017-09-10 19:02:53.000000000,2017-09-10 20:22:28.000000000,closed,0,Fix deps on the @glimmer/vm
+649,2017-09-09 18:30:11.000000000,2017-09-10 18:17:25.000000000,closed,0,use `length` returned from push
+648,2017-09-09 18:26:40.000000000,2017-10-10 20:03:28.000000000,closed,0,added broken test: constant float rendering issue
+647,2017-09-09 18:23:46.000000000,2017-09-10 18:16:37.000000000,closed,0,fixed issue negative number rendering
+646,2017-09-09 02:28:05.000000000,2017-09-12 05:09:43.000000000,closed,0,Don't rely on callerScope to yield
+645,2017-09-08 20:10:21.000000000,2017-09-08 21:12:05.000000000,closed,0,Fix logging... off by one 👺
+644,2017-09-08 19:44:32.000000000,2017-09-09 05:03:19.000000000,closed,0,Pop args from the stack for static invocations
+643,2017-09-08 07:49:43.000000000,2017-09-08 17:47:42.000000000,closed,0,First Pass At Encoder
+642,2017-09-07 17:04:03.000000000,2017-09-07 17:26:04.000000000,closed,0,Remove absolute path to test components
+641,2017-09-07 03:05:43.000000000,2017-09-08 18:27:42.000000000,closed,0,Rename all instances of `referer` to `referrer`
+640,2017-09-07 02:45:10.000000000,2017-09-07 09:52:24.000000000,closed,0,Wycats stack check
+639,2017-09-07 01:08:05.000000000,2017-09-07 02:04:17.000000000,closed,0,Add stack assertions
+638,2017-09-06 20:31:02.000000000,2017-09-06 21:36:03.000000000,closed,0,Bundle Compiler refactoring pass
+637,2017-09-03 06:33:48.000000000,2017-10-17 01:53:19.000000000,closed,6,[Improvement] prefer for cloneNode instead of createElement
+636,2017-09-02 04:44:15.000000000,2017-09-07 16:52:53.000000000,closed,0,Suppress Rollup warnings
+635,2017-09-01 18:05:41.000000000,2017-09-09 05:03:46.000000000,closed,1,Load to saved register 0 is wrong
+634,2017-09-01 18:03:54.000000000,2017-09-01 18:31:08.000000000,closed,0,Fix dependencies and add ability to compile with flags
+633,2017-08-28 18:06:29.000000000,2017-08-29 02:57:22.000000000,closed,0,Move Migrated Tests To Suites
+632,2017-08-26 07:41:07.000000000,2018-03-11 06:06:20.000000000,closed,1,Cannot display property of frozen object
+631,2017-08-26 00:59:25.000000000,2017-08-29 02:31:24.000000000,closed,0,[Breaking] Introduce Bundle Compiler
+630,2017-08-23 18:15:44.000000000,2017-08-29 04:21:50.000000000,closed,1,Don't allocate empty arguments
+629,2017-08-23 00:02:42.000000000,2017-12-01 05:53:50.000000000,closed,1,[WIP] Experimental Opcode DCE
+628,2017-08-22 20:15:42.000000000,2020-02-28 16:30:11.000000000,closed,1,Upgrade emberjs-build dependency
+627,2017-08-22 17:36:33.000000000,2017-08-22 17:54:52.000000000,closed,0,Port Debugger Tests
+626,2017-08-21 00:06:58.000000000,2017-08-21 17:22:03.000000000,closed,2,Remove all Opcode.toJSON references
+625,2017-08-20 22:45:19.000000000,2017-08-29 04:22:04.000000000,closed,0,Remove ToBoolean conversions
+624,2017-08-20 22:07:20.000000000,2017-08-20 22:15:30.000000000,closed,0,Cleanup DOM Helper
+623,2017-08-18 20:10:30.000000000,2017-08-18 23:10:19.000000000,closed,0,Actually run the has-block-param-helper tests
+622,2017-08-18 03:21:14.000000000,1970-01-01 00:00:00.000000001,open,4,ElementBuilders Don't Share All Of The HTML5 Treebuilder Semantics
+621,2017-08-16 17:53:13.000000000,2017-08-17 04:37:22.000000000,closed,0,don't store negative numbers in constants
+620,2017-08-15 01:17:49.000000000,2017-08-20 22:45:09.000000000,closed,2,Import tracked property code
+619,2017-08-14 22:52:59.000000000,2017-08-15 00:15:49.000000000,closed,0,Make in-element a public construct
+618,2017-08-11 17:30:01.000000000,2017-08-11 17:57:50.000000000,closed,0,Use const enums for primitive value type flag
+617,2017-08-10 20:29:09.000000000,2017-08-10 20:39:13.000000000,closed,0,Cleanup multiple watchers during build
+616,2017-08-10 18:05:51.000000000,2017-08-10 18:41:44.000000000,closed,0,Start location fix for dynamic attributes
+615,2017-08-10 16:27:17.000000000,2017-08-10 18:41:44.000000000,closed,1,beginAttributeValue is not called for dynamic mustache attribute value
+614,2017-08-10 01:09:25.000000000,2017-08-10 01:21:09.000000000,closed,1,Upgrade qunit
+613,2017-08-09 22:20:49.000000000,2017-08-09 22:38:35.000000000,closed,1,Port over has-block tests to QUnit.
+612,2017-08-09 19:58:28.000000000,2017-08-10 01:10:41.000000000,closed,0,Convert ember component yielding tests
+611,2017-08-09 17:52:06.000000000,2017-08-10 01:23:27.000000000,closed,1,Use `execa`'s `preferLocal` flag to resolve local binaries.
+610,2017-08-08 22:30:48.000000000,2017-09-18 21:11:19.000000000,closed,1,[BREAKING] Decouple DOM From Env
+609,2017-08-08 17:33:04.000000000,2017-08-08 17:39:49.000000000,closed,1,Moar GC Sweep
+608,2017-08-08 05:20:06.000000000,2017-08-08 05:45:17.000000000,closed,0,GC Sweep
+607,2017-08-07 20:46:08.000000000,2017-09-15 21:09:50.000000000,closed,1,Intern Items In Constants Pool
+606,2017-08-06 21:01:05.000000000,2017-08-09 21:26:39.000000000,closed,2,Unify Broccoli build
+605,2017-08-05 00:09:48.000000000,2017-08-07 23:57:51.000000000,closed,3,fix for constant float/negative values
+604,2017-08-02 21:08:03.000000000,2017-08-02 21:31:25.000000000,closed,0,Remove references from Constants
+603,2017-08-02 20:56:28.000000000,2019-07-02 22:04:44.000000000,closed,1,Rerender issue on Dom Remove ( glimmer-v0.3.10-keyed / js-framework-benchmark)
+602,2017-08-01 18:49:46.000000000,2017-08-01 21:22:25.000000000,closed,0,Capital components
+601,2017-07-25 21:41:19.000000000,2017-07-25 21:57:53.000000000,closed,0,Fix Mixins For Rehydration
+600,2017-07-25 05:15:36.000000000,2017-09-29 04:11:20.000000000,closed,0,Implement rehydration for `in-element`
+599,2017-07-25 03:31:28.000000000,2017-07-26 01:42:41.000000000,closed,0,All internals now support serialization
+598,2017-07-24 06:39:28.000000000,2017-07-24 06:47:36.000000000,closed,0,serializing in tests should serialize the Simple DOM document
+597,2017-07-23 00:05:23.000000000,2017-08-10 01:21:56.000000000,closed,1,[WIP] - Port ember component tests to new test harness
+596,2017-07-22 21:32:26.000000000,2017-07-22 21:40:07.000000000,closed,0,Use TS mixin pattern for tests
+595,2017-07-21 02:24:36.000000000,2017-07-21 02:46:00.000000000,closed,0,Upgrade to TS 2.4
+594,2017-07-21 02:07:35.000000000,2017-07-21 02:07:39.000000000,closed,0,Remove unused object model
+593,2017-07-20 18:12:43.000000000,2017-07-22 19:34:59.000000000,closed,0,Revive Node tests
+592,2017-07-20 13:09:23.000000000,2017-08-22 17:55:23.000000000,closed,4,Port debugger tests to new test harness
+591,2017-07-20 11:25:54.000000000,2018-01-09 03:51:18.000000000,closed,5,Improve support for XHTML
+590,2017-07-18 18:55:33.000000000,2017-07-18 19:04:27.000000000,closed,0,Adding tests around snapshots and setting properties
+589,2017-07-18 00:14:41.000000000,2017-10-17 02:14:58.000000000,closed,0,Abstract Opcode Builder and Make Heap Serializable
+588,2017-07-17 22:09:58.000000000,2017-07-17 22:20:11.000000000,closed,0,Introduce tests for the test harness
+587,2017-07-17 21:21:14.000000000,1970-01-01 00:00:00.000000001,open,0,Add tests for the test harness
+586,2017-07-17 20:29:06.000000000,2017-07-17 20:38:07.000000000,closed,1,Allow to skip tests completely through test decorator
+585,2017-07-16 23:29:17.000000000,2017-10-18 02:58:01.000000000,closed,4,Remove the use of angle type assertion
+584,2017-07-15 23:25:19.000000000,2017-08-14 20:46:15.000000000,closed,1,Migrate partial-test following issue #561 guidelines
+583,2017-07-15 11:59:28.000000000,2017-07-27 05:43:14.000000000,closed,3,Port in element tests
+582,2017-07-14 23:04:47.000000000,2017-07-14 23:28:52.000000000,closed,0,Fix issues with generating invocations
+581,2017-07-13 21:59:41.000000000,2017-07-14 23:28:56.000000000,closed,1,Fix issues with generating invocations
+580,2017-07-13 18:41:29.000000000,2017-07-13 21:09:35.000000000,closed,4,Component Testing Infrastructure
+579,2017-07-12 20:24:03.000000000,2017-07-13 20:51:30.000000000,closed,6,Broccoli Plugin failed: block-scoped declarations not yet supported outside strict mode
+578,2017-07-11 18:12:59.000000000,2017-07-12 17:45:58.000000000,closed,0,CallExpression `@test` decorator
+577,2017-07-11 03:52:39.000000000,2017-08-15 18:24:38.000000000,closed,3,[WIP] Migrating style-warning-test to new testing harness
+576,2017-07-11 00:13:20.000000000,2017-07-11 01:47:03.000000000,closed,12,Difficulties in getting statarted with Glimmer
+575,2017-07-10 04:15:30.000000000,2017-10-17 02:19:05.000000000,closed,2,Custom element modifiers
+574,2017-07-09 14:56:06.000000000,2017-08-11 17:06:52.000000000,closed,2,refactor constant flags
+573,2017-07-09 10:51:24.000000000,2017-08-07 23:56:59.000000000,closed,13,fix for constant float/negative values/references
+572,2017-07-09 10:15:46.000000000,2017-08-11 16:44:58.000000000,closed,1,use index returned by `push`
+571,2017-07-09 09:32:39.000000000,2017-07-09 15:08:52.000000000,closed,1,removed redundant bitwise operation
+570,2017-07-09 07:43:36.000000000,2017-10-17 08:53:57.000000000,closed,3,check for value for string type before creating `StringReference`
+569,2017-07-08 20:11:50.000000000,2020-02-28 16:34:37.000000000,closed,1,"Embedded glimmer, fastboot alternative"
+568,2017-07-08 15:23:55.000000000,2017-10-17 02:00:33.000000000,closed,0,reuse `referenceFromParts`
+567,2017-07-08 06:49:57.000000000,2017-07-08 06:55:08.000000000,closed,0,Remove commented out tests 😞
+566,2017-07-08 06:35:43.000000000,2017-07-08 06:42:40.000000000,closed,0,Migrate compile and syntax errors
+565,2017-07-06 20:13:56.000000000,2020-04-18 19:23:59.000000000,closed,3,Custom root elements don't work in local component templates
+564,2017-07-04 02:28:41.000000000,2017-10-10 18:38:28.000000000,closed,18,New test harness for attributes test
+563,2017-07-03 19:43:04.000000000,2017-07-03 19:53:37.000000000,closed,0,Stop publishing @glimmer/test-helpers
+562,2017-06-30 23:40:33.000000000,2017-07-01 00:25:14.000000000,closed,0,Fix import
+561,2017-06-29 01:25:57.000000000,2020-02-28 16:31:57.000000000,closed,13,[Pls send halp again!] Test Porting Guide 
+560,2017-06-28 22:41:15.000000000,2017-07-08 01:40:26.000000000,closed,0,More targeted test harnesses
+559,2017-06-23 03:09:26.000000000,2017-06-28 01:52:00.000000000,closed,0,Migrate initial render tests
+558,2017-06-22 22:32:22.000000000,2017-06-22 22:38:15.000000000,closed,1,[BREAKING] Make the manager decide what tag to use
+557,2017-06-22 17:45:54.000000000,2017-06-24 06:14:18.000000000,closed,1,[BREAKING] Update ASTPluginResult to use `visitor` (no plural form).
+556,2017-06-19 17:46:58.000000000,2017-06-22 01:59:05.000000000,closed,0,Don't emit `UpdateModiferOpcode` is `Modifier` tag is constant
+555,2017-06-18 01:16:26.000000000,2017-06-18 02:12:31.000000000,closed,1,Fix static multi select test for Edge 15
+554,2017-06-17 23:23:38.000000000,2018-01-25 03:36:03.000000000,closed,1,Using handlebars helpers in a Custom Element raises error
+553,2017-06-17 19:56:06.000000000,2017-06-18 16:01:53.000000000,closed,9,Report MS Edge 15 Issue
+552,2017-06-17 18:59:02.000000000,2017-06-17 19:54:53.000000000,closed,1,Convert `SyntaxError` and `TraversalError` to ES5 syntax
+551,2017-06-17 01:01:12.000000000,2017-06-21 05:37:55.000000000,closed,6,[BREAKING] Use plain functions for AST plugins.
+550,2017-06-16 21:31:16.000000000,2017-06-16 21:37:32.000000000,closed,1,Fix handlebars `parse` error
+549,2017-06-15 04:55:43.000000000,2017-06-22 00:15:48.000000000,closed,8,Rehydration
+548,2017-06-13 21:47:08.000000000,2017-06-16 21:24:33.000000000,closed,1,Types for AST transform plugins
+547,2017-06-12 17:08:26.000000000,2017-07-20 11:21:34.000000000,closed,1,Improve support for XHTML
+546,2017-06-07 20:37:34.000000000,2017-06-07 20:40:08.000000000,closed,1,packages don't have license 
+545,2017-06-06 17:54:40.000000000,2017-09-22 00:28:48.000000000,closed,2,Support inverted blocks without program
+544,2017-06-06 17:47:55.000000000,2018-02-16 15:32:55.000000000,closed,0,Does not support inverse blocks
+543,2017-06-06 08:17:43.000000000,2017-10-22 18:40:51.000000000,closed,1,[WIP] Replace inlined strings in WireFormat with index into strings array.
+542,2017-06-05 20:58:38.000000000,2017-10-17 02:15:40.000000000,closed,0,Hide DOM inconsistencies
+541,2017-06-05 01:16:53.000000000,1970-01-01 00:00:00.000000001,open,2,Restrict type for `StaticArg` from `Expression` to `Expressions.Value`.
+540,2017-06-03 22:28:23.000000000,2017-06-09 03:16:53.000000000,closed,2,Adds `SyntaxError`
+539,2017-06-03 01:33:49.000000000,2017-08-08 05:45:26.000000000,closed,0,Manual dce
+538,2017-06-02 20:21:57.000000000,2017-06-03 04:30:27.000000000,closed,0,Remove `packages/public-runtime`.
+537,2017-06-02 13:30:08.000000000,2018-02-16 15:33:20.000000000,closed,0,Location of TextNode wrong in ConcatStatement inside Attribute
+536,2017-06-02 03:49:33.000000000,2017-06-02 03:56:46.000000000,closed,1,Fix typing issue with compiler Syntax constraint.
+535,2017-06-01 22:04:50.000000000,2017-06-02 03:49:16.000000000,closed,1,Remove `null` from `Expressions.Value` allowed types.
+534,2017-06-01 21:46:59.000000000,2017-06-02 18:03:54.000000000,closed,0,Use correct casing for `Element.prototype.insertAdjacentHTML` position.
+533,2017-06-01 21:45:42.000000000,2017-06-03 01:32:22.000000000,closed,2,Consolidate DOM Compat
+532,2017-06-01 17:29:11.000000000,2017-10-22 18:35:49.000000000,closed,1,Update yarn.lock to match `package.json`.
+531,2017-06-01 16:57:14.000000000,2017-06-01 17:10:33.000000000,closed,1,Copy custom element tests forward from 0.22.x.
+530,2017-06-01 07:13:50.000000000,2019-04-08 20:54:57.000000000,closed,0,[WIP] Mark all code that isn't needed by glimmer applications
+529,2017-05-31 00:03:21.000000000,2017-05-31 00:44:53.000000000,closed,0,Ensure custom element fallback properly specializes statements. 
+528,2017-05-30 06:58:40.000000000,2017-05-31 00:45:57.000000000,closed,0,Add more tests for `-in-element`.
+527,2017-05-30 06:42:52.000000000,2017-06-02 01:03:06.000000000,closed,0,Implement memory compaction
+526,2017-05-30 03:45:59.000000000,2017-06-11 14:05:59.000000000,closed,1,Restore building demos
+525,2017-05-26 21:40:22.000000000,2017-05-26 22:23:42.000000000,closed,1,Skipped tests are bad. Hiding them doesn't fix anything.
+524,2017-05-26 21:32:03.000000000,2017-05-26 23:01:41.000000000,closed,0,Add regression test for invoking component from another.
+523,2017-05-26 21:19:17.000000000,2017-05-26 21:27:58.000000000,closed,0,Fix scanner
+522,2017-05-26 19:06:32.000000000,2017-05-26 19:14:44.000000000,closed,0,Fix prod builds.
+521,2017-05-26 09:52:44.000000000,2017-05-26 10:16:17.000000000,closed,0,small cleanup
+520,2017-05-26 05:37:24.000000000,2017-05-26 05:43:20.000000000,closed,0,Fix production build.
+519,2017-05-26 04:06:52.000000000,2017-05-26 04:13:36.000000000,closed,0,Fail build on type error.
+518,2017-05-26 03:40:37.000000000,2017-05-26 03:53:40.000000000,closed,0,Fix remaining strict typing errors
+517,2017-05-26 00:06:20.000000000,2017-05-26 00:31:02.000000000,closed,0,update lockfile
+516,2017-05-25 23:36:07.000000000,2017-05-25 23:42:49.000000000,closed,2,"bump ember-cli, because it has nice things"
+515,2017-05-25 23:09:03.000000000,2017-05-25 23:45:41.000000000,closed,8,remove assertion for now
+514,2017-05-25 22:58:36.000000000,2017-05-25 23:07:30.000000000,closed,0,fix if missing paren and let / const conflict.
+513,2017-05-25 22:49:27.000000000,2017-05-25 23:07:00.000000000,closed,0,Remaining updating-test strict type checking fixes
+512,2017-05-25 22:08:55.000000000,2017-05-25 22:45:10.000000000,closed,1,Speed up tests by 73x by making logging opt-in
+511,2017-05-25 02:25:50.000000000,2017-05-31 00:48:08.000000000,closed,3,Error: expected an implementation for 16
+510,2017-05-24 23:46:28.000000000,2017-05-25 00:02:22.000000000,closed,0,more updating-test fixes
+509,2017-05-24 22:36:55.000000000,2017-05-24 23:16:15.000000000,closed,0,Fix types 2
+508,2017-05-24 19:42:35.000000000,2019-06-30 00:57:03.000000000,closed,2,Make `@glimmer/node` tests actually run 👿
+507,2017-05-24 18:51:22.000000000,2017-05-24 19:00:03.000000000,closed,0,Update NodeDOMTreeConstruction to match arg signature of `insertHTMLBefore`.
+506,2017-05-24 18:07:35.000000000,2017-05-24 18:48:39.000000000,closed,1,Update DOMOperations to allow creation of the useless element to be customized.
+505,2017-05-24 11:36:51.000000000,2017-05-25 21:34:16.000000000,closed,5,Ensure transactions are always
+504,2017-05-24 05:07:02.000000000,2017-05-24 18:57:53.000000000,closed,0,Fix types
+503,2017-05-24 02:47:55.000000000,2017-05-24 03:35:54.000000000,closed,0,Use older syntax for binary operations.
+502,2017-05-24 02:39:36.000000000,2017-05-24 02:48:55.000000000,closed,3,Remove usage of `for...of`.
+501,2017-05-23 23:44:13.000000000,2017-05-24 00:05:59.000000000,closed,0,Ensure return value from `prepareArgs` properly handles @foo interop.
+500,2017-05-23 07:23:14.000000000,2017-05-23 10:32:37.000000000,closed,0,Ensure `hasDefault` and `hasInverse` function properly.
+499,2017-05-23 05:17:16.000000000,2017-05-23 07:07:14.000000000,closed,0,Ensure positional arguments are accounted for in builder.
+498,2017-05-23 02:27:27.000000000,2017-05-23 20:39:25.000000000,closed,0,Remove InitializeComponentState Opcode
+497,2017-05-23 01:53:26.000000000,2017-05-23 21:12:23.000000000,closed,1,Don't leak objects on the stack
+496,2017-05-22 17:01:17.000000000,2018-09-24 03:15:11.000000000,closed,1,Tokenization issue with self-closing element after closing curly braces.
+495,2017-05-22 00:51:01.000000000,2017-05-23 07:07:30.000000000,closed,0,Avoid errors in debug tooling when handling circular structures.
+494,2017-05-19 23:29:46.000000000,2017-05-31 00:48:14.000000000,closed,5,Custom element related Error: expected an implementation for 1
+493,2017-05-19 23:29:21.000000000,2017-05-31 00:48:20.000000000,closed,2,Custom element related Error: expected an implementation for 6
+492,2017-05-19 20:34:53.000000000,2020-04-21 02:16:29.000000000,closed,1,Create Templated DOM Class
+491,2017-05-19 04:13:10.000000000,2017-06-13 18:43:48.000000000,closed,12,Fix @glimmer/syntax type errors
+490,2017-05-18 00:09:06.000000000,2017-06-02 01:03:54.000000000,closed,2,Introduce notion of `malloc` and `free`
+489,2017-05-17 20:15:02.000000000,2017-05-17 20:20:43.000000000,closed,0,Remove unused reserved NULL_REFERENCE and UNDEFINED_REFERENCE from consts
+488,2017-05-15 23:44:56.000000000,2017-05-17 23:12:43.000000000,closed,3,Ensure nested custom elements fallback properly.
+487,2017-05-13 02:22:14.000000000,2017-05-13 02:41:04.000000000,closed,0,Fix predicate for iterator to be more declarative
+486,2017-05-13 01:39:19.000000000,2017-05-13 02:14:43.000000000,closed,0,Remove forEach/map where we are creating context objects
+485,2017-05-12 01:19:25.000000000,2017-05-12 01:26:28.000000000,closed,0,Update @glimmer/build to 0.8.1
+484,2017-05-12 01:08:17.000000000,2018-01-25 21:17:52.000000000,closed,40,Errors regarding nested transactions
+483,2017-05-11 05:33:02.000000000,2017-05-12 01:33:08.000000000,closed,0,Refactor top level
+482,2017-05-10 21:47:18.000000000,2017-05-11 02:43:55.000000000,closed,0,Skip top level custom element tests for now.
+481,2017-05-10 20:36:03.000000000,2017-05-10 20:50:42.000000000,closed,0,Fix some of the content deopt cases
+480,2017-05-10 07:48:31.000000000,2017-05-12 03:26:09.000000000,closed,3,@glimmer/runtime missing local-debug-flags dependency
+479,2017-05-09 23:59:32.000000000,2020-04-18 19:31:09.000000000,closed,3,HTML5 'readonly' attribute is not being treated the same as 'disabled' or 'required'
+478,2017-05-09 04:20:58.000000000,2017-05-09 19:11:13.000000000,closed,0,Publish packages with licenses
+477,2017-05-08 17:19:29.000000000,2017-05-12 02:24:10.000000000,closed,6,CI is failing
+476,2017-05-04 01:38:15.000000000,1970-01-01 00:00:00.000000001,open,5,Cannot select attributes in CSS using custom namespaces.
+475,2017-05-02 22:09:55.000000000,2017-05-02 23:13:08.000000000,closed,1,More type fixes
+474,2017-04-27 05:38:45.000000000,2017-05-19 20:35:45.000000000,closed,2,Unify dom
+473,2017-04-26 20:49:05.000000000,1970-01-01 00:00:00.000000001,open,0,Seeking feedback on changes to the DOM APIs for element/attribute name validation
+472,2017-04-26 00:12:43.000000000,2017-04-26 00:15:18.000000000,closed,0,Introduce local dev flags
+471,2017-04-25 21:05:40.000000000,2017-05-19 20:35:45.000000000,closed,0,Dry up DOMTreeConstruction and DOMChanges
+470,2017-04-21 09:30:33.000000000,2017-08-11 16:49:30.000000000,closed,1,Code golf
+469,2017-04-21 04:22:08.000000000,2019-06-28 01:02:01.000000000,closed,2,Investigate why removing FixThisBeforeMerge opcode breaks applications
+468,2017-04-21 03:11:22.000000000,2019-10-29 00:42:52.000000000,closed,2,[WIP] Use @glimmer/env for flags.
+467,2017-04-21 03:02:25.000000000,2017-04-21 03:10:20.000000000,closed,0,"Revert ""Remove unused WF opcode (it's now MaybeLocal)"""
+466,2017-04-20 04:22:08.000000000,2017-08-11 21:51:11.000000000,closed,4,[WIP] Unify append
+465,2017-04-20 02:32:37.000000000,2017-08-16 08:23:26.000000000,closed,0,More static runtime expectations
+464,2017-04-19 01:44:21.000000000,2017-04-20 00:34:17.000000000,closed,0,Add env flags for stripping
+463,2017-04-18 20:09:52.000000000,2020-01-25 00:27:24.000000000,closed,1,WIP Remove duplicated simple-dom interfaces
+462,2017-04-14 03:37:17.000000000,1970-01-01 00:00:00.000000001,open,1,Development build (especially source map) is huge
+461,2017-04-13 22:33:28.000000000,2017-04-14 00:37:55.000000000,closed,1,Remove @typedef JSDoc comment
+460,2017-04-12 23:27:56.000000000,2017-05-18 04:10:22.000000000,closed,3,Typescript warnings for @glimmer/wire-format typings
+459,2017-04-11 19:31:32.000000000,2017-06-13 21:13:24.000000000,closed,8,Missing file ./lib/parser/tokenizer-event-handlers
+458,2017-04-11 04:57:14.000000000,1970-01-01 00:00:00.000000001,open,2,Source mapping is working strangely
+457,2017-04-10 20:56:12.000000000,1970-01-01 00:00:00.000000001,open,2,Optimizing Build Output
+456,2017-04-06 06:19:13.000000000,2017-04-18 15:43:38.000000000,closed,2,"Revert ""Merge pull request #444 from tildeio/artisinal-code-stripping"""
+455,2017-04-05 23:32:13.000000000,2017-04-06 23:32:31.000000000,closed,0,Fix missing trailing newlines
+454,2017-04-05 17:12:58.000000000,2017-04-05 17:22:14.000000000,closed,2,Update repository URLs
+453,2017-04-03 19:14:25.000000000,2017-05-17 23:25:38.000000000,closed,14,Using Custom Elements is broken since Glimmer v0.22.0
+452,2017-04-01 03:52:50.000000000,2017-04-01 04:01:06.000000000,closed,2,Cannot build for production when using `--web-component` argument. (uglifyjs)
+451,2017-03-30 10:15:03.000000000,2017-06-05 03:32:25.000000000,closed,6,How do add async/await support to a glimmer app?
+450,2017-03-30 04:12:03.000000000,2017-03-30 22:57:25.000000000,closed,2,Avoid default initializer in hot paths.
+449,2017-03-30 02:44:22.000000000,2020-04-18 19:19:58.000000000,closed,1,package.json main field points to a file that does not exist
+448,2017-03-29 22:33:32.000000000,2020-04-18 19:17:43.000000000,closed,14,Guidance on using Glimmer without ember-cli?
+446,2017-03-28 04:24:04.000000000,2017-03-28 04:43:38.000000000,closed,0,Fix @glimmer/reference types
+445,2017-03-26 14:16:37.000000000,2017-03-26 14:44:59.000000000,closed,1,Artisanal Production Builds 2
+444,2017-03-26 07:21:57.000000000,2017-03-26 20:34:33.000000000,closed,3,Artisanal Production Builds By Chad
+443,2017-03-25 23:29:56.000000000,2017-06-12 21:46:16.000000000,closed,0,Guard GLIMMER_DEBUG check on window existence
+442,2017-03-25 22:52:24.000000000,2017-03-25 23:02:35.000000000,closed,0,Only log verbose output when GLIMMER_DEBUG === true
+441,2017-03-25 11:27:54.000000000,2017-03-26 01:53:56.000000000,closed,1,Switch to a MIPS-based calling convention
+440,2017-03-25 03:10:23.000000000,2017-03-25 05:04:42.000000000,closed,0,Fix Handlebars `parse` typings
+439,2017-03-24 23:33:36.000000000,2017-03-25 02:35:58.000000000,closed,3,Mark currently failing tests as QUnit.todo.
+438,2017-03-24 03:16:17.000000000,2017-05-12 20:19:38.000000000,closed,0,Fix typings
+437,2017-03-24 00:38:30.000000000,2017-03-24 00:40:50.000000000,closed,0,Remove invalid characters.
+436,2017-03-24 00:35:43.000000000,2017-03-24 00:43:38.000000000,closed,0,Updated publish script
+435,2017-03-23 21:26:48.000000000,2017-03-23 21:47:56.000000000,closed,0,Build @glimmer/interfaces
+434,2017-03-22 10:27:04.000000000,2017-03-22 10:27:14.000000000,closed,0,Move package build artifacts to `dist`.
+433,2017-03-22 06:28:38.000000000,2017-03-22 11:18:41.000000000,closed,0,Root dist and node_modules
+432,2017-03-20 03:26:48.000000000,2017-06-19 17:47:07.000000000,closed,1,Don't emit `UpdateModiferOpcode` if `Modifier` tag is constant
+431,2017-03-19 20:28:04.000000000,1970-01-01 00:00:00.000000001,open,0,MustacheStatement within AttrNode value has no start line / column info.
+430,2017-03-19 20:03:33.000000000,2017-03-19 20:05:56.000000000,closed,1,Missing `loc` info for TextNodes's within `ConcatStatement`
+429,2017-03-19 17:51:07.000000000,2017-06-22 01:50:51.000000000,closed,0,Don't emit `UpdateModiferOpcode` when `Modifier` has constant tag
+428,2017-03-17 21:02:39.000000000,2017-03-17 21:03:44.000000000,closed,0,Add back import for undefined `print`
+427,2017-03-17 20:53:29.000000000,2017-03-17 21:03:44.000000000,closed,1,`print` is not defined
+426,2017-03-17 20:46:42.000000000,2017-03-17 21:51:13.000000000,closed,0,Add @glimmer/util as a dependency of @glimmer/syntax
+425,2017-03-15 05:25:43.000000000,2017-10-28 02:49:12.000000000,closed,4,[BUGFIX beta] Fix range element reporting wrong initial value
+424,2017-03-12 20:24:57.000000000,2017-03-19 23:06:14.000000000,closed,0,Build npm packages from Broccoli
+423,2017-03-10 22:47:59.000000000,2017-03-10 23:05:11.000000000,closed,0,Add repo info to package.jsons
+422,2017-03-04 02:41:14.000000000,2017-03-04 02:55:29.000000000,closed,0,More TS fixes
+421,2017-03-04 00:54:28.000000000,2017-03-07 06:49:15.000000000,closed,1,TS Fixes continued
+420,2017-03-04 00:27:24.000000000,2017-03-07 06:54:38.000000000,closed,1,TS fixes
+419,2017-03-04 00:15:08.000000000,2017-03-07 06:55:01.000000000,closed,1,Fix compiler package build
+418,2017-03-03 09:08:36.000000000,2020-05-11 06:13:35.000000000,closed,1,Reporter Infrastructure
+417,2017-03-03 00:01:18.000000000,2017-03-03 00:15:07.000000000,closed,0,Introduce script to link all packages
+416,2017-03-02 07:56:10.000000000,2017-03-02 09:46:47.000000000,closed,3,workaround default type issue
+415,2017-02-28 07:06:44.000000000,2020-04-18 19:22:15.000000000,closed,1,Bring back {{debugger}} tests
+414,2017-02-27 11:15:03.000000000,2017-03-09 00:09:22.000000000,closed,6,Should Not Throw On SimplePath Expressions
+413,2017-02-27 10:37:55.000000000,2017-03-02 09:47:32.000000000,closed,2,Fix type issues on master
+412,2017-02-25 06:08:58.000000000,2017-03-02 09:47:37.000000000,closed,1,manually checking build health
+411,2017-02-25 05:55:31.000000000,2017-03-24 01:01:29.000000000,closed,9,Fix package typings
+410,2017-02-25 03:02:46.000000000,2020-04-18 19:23:21.000000000,closed,3,stack branch TODOs
+409,2017-02-17 04:54:34.000000000,2017-02-20 21:26:59.000000000,closed,3,Question about opcodes
+408,2017-02-16 07:10:00.000000000,1970-01-01 00:00:00.000000001,open,0,"Better transaction, multiple roots handling."
+407,2017-02-16 05:20:04.000000000,2017-03-02 12:06:37.000000000,closed,1,Iterator Interface For VM
+406,2017-02-09 02:26:36.000000000,2017-02-09 05:53:19.000000000,closed,0,Adding back -in-element and -with-dynamic-vars
+405,2017-02-07 03:43:18.000000000,2017-02-07 04:01:35.000000000,closed,2,Adding transform property to inline SVG errors in TreeConstruction class
+404,2017-01-28 14:36:46.000000000,2017-01-28 17:26:24.000000000,closed,0,Fix failing TSLint issues
+403,2017-01-28 14:22:13.000000000,2017-01-28 17:39:03.000000000,closed,1,syntax: Add type declarations to traverse() function
+402,2017-01-28 01:03:29.000000000,2017-02-07 02:33:21.000000000,closed,0,Disallow dotted helpers (again)
+401,2017-01-24 21:26:39.000000000,2017-01-25 00:29:43.000000000,closed,2,Fix loc info of TextNodes within ConcatStatements.
+400,2017-01-24 19:33:45.000000000,2017-01-25 22:49:42.000000000,closed,1,syntax: Add AST types and interfaces
+399,2017-01-24 19:11:46.000000000,2017-01-25 00:29:43.000000000,closed,5,TextNode in ConcatStatement has no loc=null
+398,2017-01-21 05:55:56.000000000,1970-01-01 00:00:00.000000001,open,5,Add README for each package.
+397,2017-01-20 20:44:48.000000000,2017-01-23 01:32:53.000000000,closed,4,"Update ""handlebars"" to v4.0.6"
+396,2017-01-20 13:35:26.000000000,2017-05-24 19:38:13.000000000,closed,5,"""@glimmer/syntax"" on NPM is missing original TypeScript sources"
+395,2017-01-20 13:29:56.000000000,2017-01-21 06:45:07.000000000,closed,0,Reduce things noticed from the allocation profiling
+394,2017-01-20 05:59:22.000000000,2017-01-20 13:28:49.000000000,closed,0,basic visualizer fix
+393,2017-01-19 07:20:50.000000000,2017-01-19 07:52:24.000000000,closed,0,Fix demos
+392,2017-01-19 07:11:13.000000000,2017-01-21 01:16:46.000000000,closed,6,Represent opcodes as integers in wire-format
+391,2017-01-19 05:30:39.000000000,2017-01-19 05:38:05.000000000,closed,0,Remove packages/qunit
+390,2017-01-17 16:34:10.000000000,2017-01-18 21:35:39.000000000,closed,4,Test nested 'else if' body location with whitespace eaten
+389,2017-01-17 00:44:26.000000000,2017-01-17 00:52:12.000000000,closed,0,Work around for rollup+babel symbol sadness
+388,2017-01-16 22:10:01.000000000,2017-01-23 23:54:35.000000000,closed,1,Make Glimmer work with @Turbo87's typescript branch
+387,2017-01-16 16:37:16.000000000,2017-01-16 18:22:03.000000000,closed,0,Remove unused JSHint config file and test runner checkbox
+386,2017-01-14 09:21:59.000000000,2017-01-15 04:45:50.000000000,closed,2,Disallow dotted helpers/modifiers
+385,2017-01-14 06:22:01.000000000,2019-10-29 00:43:25.000000000,closed,5,Preserve original comment style when available
+384,2017-01-14 03:17:39.000000000,2017-01-14 03:50:19.000000000,closed,2,Remove for..of iterators
+383,2017-01-13 19:02:25.000000000,2017-01-13 19:54:43.000000000,closed,1,Fixes integration with simple-html-tokenizer v0.3.0
+382,2017-01-13 14:11:27.000000000,2017-01-14 05:08:10.000000000,closed,1,[glimmer-syntax][bugfix] codegen fixes
+381,2017-01-13 07:36:25.000000000,2017-01-19 05:20:01.000000000,closed,0,Fix external type resolution
+380,2017-01-13 03:28:36.000000000,2017-07-20 06:01:31.000000000,closed,0,Implement `let` syntax
+379,2017-01-13 02:54:15.000000000,2017-01-13 03:03:47.000000000,closed,0,Workaround for T[0] type failure
+378,2017-01-13 00:14:12.000000000,2017-01-13 03:30:38.000000000,closed,1,Fixes handlebars shim for Ember integration
+377,2017-01-12 07:22:26.000000000,2017-01-13 03:03:47.000000000,closed,3,Build is erroring
+376,2017-01-11 05:01:21.000000000,2017-01-12 05:35:18.000000000,closed,8,Move to Binary VM
+375,2017-01-10 13:09:50.000000000,2020-04-20 21:15:22.000000000,closed,3,too many tag shapes
+374,2017-01-07 08:22:21.000000000,2017-01-17 06:16:13.000000000,closed,1,Convert `Parser` to a class
+373,2017-01-07 03:15:23.000000000,2017-01-13 19:54:42.000000000,closed,3,Report tokenization error states
+372,2017-01-07 01:26:51.000000000,2017-01-07 01:43:20.000000000,closed,1,Convert `Parser` to a class
+371,2017-01-06 23:50:17.000000000,2017-05-18 02:23:45.000000000,closed,5,Convert Walker to class syntax
+370,2017-01-06 21:02:05.000000000,2017-01-07 01:24:47.000000000,closed,0,"Cleanup ""package.json"""
+369,2017-01-06 20:39:53.000000000,2017-05-18 03:47:18.000000000,closed,3,Convert glimmer-syntax Walker to `class`
+368,2017-01-06 20:37:27.000000000,2017-01-24 17:43:42.000000000,closed,2,Convert glimmer-syntax Parser to `class`
+367,2016-12-28 06:51:00.000000000,2017-01-07 01:28:25.000000000,closed,1,Closure components tests
+366,2016-12-27 21:14:05.000000000,2019-05-13 21:29:16.000000000,closed,4,[glimmer-syntax] add a `chained` argument to program builder since we expect …
+365,2016-12-27 15:01:40.000000000,2017-01-13 14:08:23.000000000,closed,0,[glimmer-syntax][bugfix] fix and test syntax generation bug with block params
+364,2016-12-24 01:39:52.000000000,2017-01-13 03:23:59.000000000,closed,0,[WIP] Implement `let` syntax
+363,2016-12-20 05:37:39.000000000,2017-01-13 16:29:10.000000000,closed,3,Nested angle bracket components test
+362,2016-12-20 02:08:32.000000000,2017-01-07 03:15:44.000000000,closed,3,Better error for stray quotes
+361,2016-12-18 03:17:06.000000000,2017-01-06 04:33:28.000000000,closed,2,[BUGFIX] Only freeze empty array/dict with weakmap
+360,2016-12-18 00:33:12.000000000,2016-12-19 22:24:02.000000000,closed,0,Unskip some tests that now pass
+359,2016-12-18 00:19:05.000000000,2017-01-13 16:58:37.000000000,closed,1,Error with nested components
+358,2016-12-08 21:52:38.000000000,2017-01-07 04:37:06.000000000,closed,7,Conflicts with dragula throwing Uncaught DOMException
+357,2016-12-07 07:12:47.000000000,2020-04-18 19:36:02.000000000,closed,1,Another hot forEach causing perf issues
+356,2016-12-02 07:22:17.000000000,2017-02-17 08:38:00.000000000,closed,6,"""Opcodes"" Are Megamorphic"
+355,2016-12-02 07:12:41.000000000,2016-12-03 04:37:21.000000000,closed,7,Fix allocing for arg compilation
+354,2016-12-02 01:18:12.000000000,2016-12-02 02:24:13.000000000,closed,2,input.list is an attribute
+353,2016-11-29 13:30:51.000000000,1970-01-01 00:00:00.000000001,open,1,Coverage Instrumentation
+352,2016-11-27 08:36:26.000000000,2016-11-27 08:53:26.000000000,closed,0,Fix yielding values in partials
+351,2016-11-26 01:14:05.000000000,2016-12-16 23:46:55.000000000,closed,3,Publish individual npm packages
+350,2016-11-24 07:19:13.000000000,2016-11-24 07:30:57.000000000,closed,0,Some minor follow-up changes to #349
+349,2016-11-24 06:44:01.000000000,2016-11-24 06:44:12.000000000,closed,0,"Fix {{has-block}}, {{has-block-params}} and {{yield}} when used inside a partial"
+348,2016-11-21 02:04:24.000000000,2017-06-09 03:16:53.000000000,closed,0,Standardize Template Error Structure
+347,2016-11-18 04:58:20.000000000,2016-11-18 05:36:55.000000000,closed,1,Bump QUnit
+346,2016-11-17 01:59:53.000000000,2016-11-17 19:36:52.000000000,closed,0,Prop removal bugfix
+345,2016-11-15 20:55:48.000000000,1970-01-01 00:00:00.000000001,open,1,IE11 - Error when element's innerHTML is changed before glimmer tries to modify it
+344,2016-11-10 07:46:04.000000000,2016-11-10 09:06:55.000000000,closed,0,Remove `ValueReference`
+343,2016-11-09 21:20:05.000000000,2016-11-09 21:46:16.000000000,closed,2,Ensure removal values are respected for safe attr/prop.
+342,2016-11-09 06:39:31.000000000,2016-11-09 06:59:35.000000000,closed,0,`{{this}}` `{{this.foo}}` will never be helpers
+341,2016-11-08 20:51:48.000000000,2016-11-08 21:59:23.000000000,closed,0,Fix handling of SVG in NodeDOMTreeConstruction.
+340,2016-11-08 03:29:59.000000000,2016-11-08 22:43:11.000000000,closed,3,Include Handlebars comments in the AST.
+339,2016-11-01 20:05:29.000000000,2016-11-10 09:23:24.000000000,closed,3,Re-export `WithSyntax` from `glimmer-runtime`.
+338,2016-10-26 05:02:04.000000000,1970-01-01 00:00:00.000000001,open,3,AttributeManager.setAttribute is megamorphic
+337,2016-10-25 04:51:09.000000000,2016-10-26 23:31:59.000000000,closed,1,Fix timing of expression evaluation in blocks
+336,2016-10-25 02:30:00.000000000,2016-10-26 23:31:59.000000000,closed,0,stateful helper bug
+335,2016-10-19 23:15:27.000000000,2016-10-27 00:45:07.000000000,closed,2,Ensure local variables has precedence over helpers
+334,2016-10-14 04:27:22.000000000,2017-10-17 02:42:39.000000000,closed,6,"[FEAT] render-portal, replaces in-element for wormhole support"
+333,2016-10-14 03:03:23.000000000,2016-10-15 03:00:10.000000000,closed,4,Fix pruning and element availability in willDestroyElement
+332,2016-09-26 08:03:02.000000000,2016-10-04 20:43:15.000000000,closed,5,Expose dynamicScope to prepareArgs hook
+331,2016-09-26 01:31:28.000000000,2016-09-26 02:05:03.000000000,closed,3,Implement `{{#-in-element` API.
+330,2016-09-25 08:31:30.000000000,2016-09-25 08:33:02.000000000,closed,0,Fix `lastIterated` not getting populated correctly
+329,2016-09-25 03:30:38.000000000,2017-03-03 04:15:53.000000000,closed,0,Move template visitor to a class
+328,2016-09-24 20:27:03.000000000,2016-09-24 20:41:14.000000000,closed,0,Ensure using `this` in path builder properly normalizes.
+327,2016-09-23 23:35:10.000000000,2016-09-24 02:15:18.000000000,closed,0,Cleaning up some of the new test infra
+326,2016-09-22 23:03:10.000000000,2016-09-22 23:33:11.000000000,closed,1,Add regression test for `<input placeholder={{emptyString}}>`
+325,2016-09-22 14:03:32.000000000,2017-08-11 16:41:01.000000000,closed,2,WIP Build Cleanup
+324,2016-09-22 03:03:50.000000000,2016-09-22 03:18:09.000000000,closed,0,fix declartions
+323,2016-09-21 23:32:12.000000000,2016-09-22 00:50:31.000000000,closed,1,Fix issue with `<img src={{foo}}>`.
+322,2016-09-20 23:28:49.000000000,2016-09-20 23:48:11.000000000,closed,0,"cleanup util, remove old IE stuff and unused or used only by one module"
+321,2016-09-20 22:36:36.000000000,2016-09-21 00:13:26.000000000,closed,1,Refactor to save off normalized attr/prop name
+320,2016-09-18 21:03:34.000000000,2016-09-22 23:33:11.000000000,closed,2,[WIP] Add failing test for `<input placeholder={{emptyString}}>`
+319,2016-09-18 00:33:30.000000000,2016-09-19 21:30:20.000000000,closed,1,Fix props and attrs again
+318,2016-09-16 20:55:09.000000000,1970-01-01 00:00:00.000000001,open,0,Optimize Pre-compilation Format
+317,2016-09-16 18:53:06.000000000,2016-09-16 22:02:09.000000000,closed,1,Fix issue with components that have multiple yields.
+316,2016-09-16 01:31:52.000000000,2016-09-17 23:17:36.000000000,closed,2,Fix Partials
+315,2016-09-15 10:48:02.000000000,2016-09-15 11:24:06.000000000,closed,0,Fix cycles and unused
+314,2016-09-15 04:29:43.000000000,2016-09-15 10:42:13.000000000,closed,0,Remove POJO args
+313,2016-09-12 22:25:44.000000000,2016-09-12 22:48:10.000000000,closed,1,Lock to typescript@2.1.0-dev.20160911.
+312,2016-09-12 05:41:11.000000000,2016-09-12 22:47:35.000000000,closed,1,Remove opcode exports and popFrame in VM
+311,2016-09-09 20:54:41.000000000,2016-09-12 23:33:43.000000000,closed,2,Prevent setting properties to an initial value of `undefined`.
+310,2016-09-09 07:10:28.000000000,2016-09-15 10:43:48.000000000,closed,0,Update `has*` / `lookup*` to have correct argument types.
+309,2016-09-08 21:39:58.000000000,2016-09-08 21:58:19.000000000,closed,0,Make Ref.build not completely wrong
+308,2016-09-08 17:40:24.000000000,2016-09-08 18:21:29.000000000,closed,1,Fix `assign` utility to skip `null` / `undefined`.
+307,2016-09-08 13:02:44.000000000,2016-09-08 21:31:50.000000000,closed,1,Fix {{this.foo}} !== {{foo}}
+306,2016-09-07 20:28:07.000000000,2016-09-08 04:28:34.000000000,closed,0,Modifier should be installed during commit
+305,2016-09-07 19:31:04.000000000,2016-09-19 01:25:23.000000000,closed,3,[WIP] Cleanup destroyed components before inserting new ones into DOM.
+304,2016-09-07 11:20:46.000000000,2016-09-07 16:50:31.000000000,closed,0,Fix component hooks
+303,2016-09-07 07:09:32.000000000,2016-09-07 08:24:31.000000000,closed,1,Modifier install should use tree construction
+302,2016-09-07 05:01:45.000000000,2016-09-08 09:28:41.000000000,closed,2,Refactor compileSpec to precompile
+301,2016-09-07 04:52:13.000000000,2016-09-07 05:31:48.000000000,closed,0,Prevent accidentally pushing into queues after `commit`.
+300,2016-09-06 20:45:01.000000000,2016-09-06 22:08:16.000000000,closed,3,Referencing `Node` global in dom-helpers causes issue with ember-cli-fastboot
+299,2016-09-05 19:25:45.000000000,2016-09-06 17:37:25.000000000,closed,1,Pass caller's self to component manager's create.
+298,2016-09-03 00:50:39.000000000,2016-09-07 16:50:52.000000000,closed,17,Add meta to compiled template
+297,2016-09-01 02:27:28.000000000,2016-09-01 08:37:20.000000000,closed,2,Dynamic vars
+296,2016-08-30 02:01:33.000000000,2016-08-30 02:44:26.000000000,closed,0,The “context” in createElement should be optional
+295,2016-08-29 20:15:01.000000000,2016-08-29 20:51:31.000000000,closed,0,Ensure NodeDOMTreeConstruction can be instantiated without a document.
+294,2016-08-29 07:39:42.000000000,2016-09-01 08:38:22.000000000,closed,6,Dynamically-scoped variable accessors
+293,2016-08-28 00:54:44.000000000,2016-08-28 01:04:12.000000000,closed,1,Exporting NodeDOMTreeConstruction via glimmer-node's entry point
+292,2016-08-26 14:06:18.000000000,2016-08-26 20:36:02.000000000,closed,0,Remove unused “keyword” feature
+291,2016-08-26 11:59:00.000000000,2016-08-26 11:59:44.000000000,closed,0,Introduce `didUpdateLayout`
+290,2016-08-24 21:22:08.000000000,2016-08-24 21:30:20.000000000,closed,2,Require blockMeta for env lookups
+289,2016-08-23 19:53:55.000000000,2016-08-26 20:56:32.000000000,closed,2,Use SymbolTable throughout runtime.
+288,2016-08-23 03:03:49.000000000,2016-08-23 13:39:00.000000000,closed,0,Ensure `blockMeta` is always provided.
+287,2016-08-23 00:40:43.000000000,2020-04-18 19:38:18.000000000,closed,1,`getComponentDefinition` should always receive `blockMeta`
+286,2016-08-22 21:11:01.000000000,2016-08-22 21:25:43.000000000,closed,0,[DEMOS] Don't serialize objects into html
+285,2016-08-22 00:38:15.000000000,2016-08-23 00:55:12.000000000,closed,1,Component bounds
+284,2016-08-22 00:38:03.000000000,2016-08-22 02:11:09.000000000,closed,0,Simplify element operations
+283,2016-08-22 00:26:19.000000000,2017-10-17 02:40:51.000000000,closed,5,Cache property normalization
+282,2016-08-20 05:57:47.000000000,2016-08-20 06:05:01.000000000,closed,0,Allow consumer to strip runtime checks.
+281,2016-08-20 02:34:11.000000000,2016-08-22 00:37:45.000000000,closed,0,Default options when not specified.
+280,2016-08-20 02:04:35.000000000,2016-08-20 02:11:17.000000000,closed,1,Prevent errors in SSR when `document.createElement` is not present.
+279,2016-08-19 22:23:30.000000000,2016-08-20 00:26:20.000000000,closed,0,Optionally externalize babel helpers
+278,2016-08-19 05:32:42.000000000,2016-08-19 21:37:12.000000000,closed,0,Fix multi select
+277,2016-08-18 20:04:31.000000000,2016-08-18 21:31:29.000000000,closed,0,Fix issue when yielding inside an `{{each`.
+276,2016-08-18 09:50:12.000000000,2016-08-18 09:53:45.000000000,closed,0,Initialize TryOpcode when emulating `enterWithKey`
+275,2016-08-18 06:23:41.000000000,2016-08-18 06:40:00.000000000,closed,0,Default block param to UNDEFINED_REFERENCE.
+274,2016-08-18 03:23:03.000000000,2016-08-18 03:43:30.000000000,closed,0,Rename parentMeta to blockMeta
+273,2016-08-17 21:30:12.000000000,2016-08-19 21:10:15.000000000,closed,0,Tree construction
+272,2016-08-17 04:54:28.000000000,2016-08-17 05:16:11.000000000,closed,0,"Revert ""Merge pull request #266 from rwjblue/multi-select"""
+271,2016-08-17 04:37:22.000000000,2016-08-17 05:15:23.000000000,closed,0,Avoid hardcoding handlebars path.
+270,2016-08-16 21:50:09.000000000,2016-08-18 20:11:47.000000000,closed,1,Added travis ci support for node 6
+269,2016-08-16 21:28:48.000000000,2016-08-17 09:43:15.000000000,closed,0,Allow unquoted attributes before the end of a self-closing tag.
+268,2016-08-16 08:53:12.000000000,2016-08-16 09:26:34.000000000,closed,0,"Misc cleanup, tag-based `isConst`"
+267,2016-08-16 07:55:16.000000000,2016-08-20 01:01:39.000000000,closed,3,Failing tests for `<select multiple>`.
+266,2016-08-14 07:21:43.000000000,2016-08-15 08:21:29.000000000,closed,1,Use `dom.setAttribute` for non-dynamic (static) attributes.
+265,2016-08-14 06:06:13.000000000,2016-08-15 00:12:38.000000000,closed,3,Update testem config for sauce labs runs.
+264,2016-08-13 22:25:08.000000000,2016-08-14 05:21:46.000000000,closed,0,"Revert ""Ensure dist is built when referencing via git SHA."""
+263,2016-08-13 21:05:49.000000000,2016-08-13 21:27:38.000000000,closed,0,Ensure dist is built when referencing via git SHA.
+262,2016-08-13 06:31:57.000000000,2016-08-13 06:52:21.000000000,closed,0,Expose compileSpec to node's main export.
+261,2016-08-13 01:31:41.000000000,2016-08-13 06:18:37.000000000,closed,2,Use current emberjs-build version.
+260,2016-08-12 03:16:31.000000000,2016-08-18 03:45:59.000000000,closed,1,Pass block meta into partial methods
+259,2016-08-11 01:28:40.000000000,2016-08-12 03:20:25.000000000,closed,1,Pass dynamicScope into lookups
+258,2016-08-10 21:02:33.000000000,2017-01-13 19:50:05.000000000,closed,2,Don't compile on save
+257,2016-08-06 20:54:28.000000000,2016-08-06 21:06:34.000000000,closed,0,Remove more now-useless typecasts
+256,2016-08-06 19:35:55.000000000,2016-08-06 20:50:06.000000000,closed,0,Remove `InternedString` (and get back on TS next)
+255,2016-08-04 19:24:20.000000000,2016-08-11 23:55:04.000000000,closed,2,Preserve UndefinedLiteral
+254,2016-08-04 16:53:35.000000000,2017-01-10 15:19:11.000000000,closed,1,added TextAreaValueChangeList
+253,2016-08-04 12:48:56.000000000,2016-08-04 12:59:39.000000000,closed,0,Only re-iterate when the iterable has changed
+252,2016-08-03 04:32:55.000000000,2016-08-03 21:30:34.000000000,closed,14,Allow for null literals
+251,2016-08-03 00:44:09.000000000,2016-08-03 11:17:05.000000000,closed,3,failing test for GH#13999
+250,2016-08-02 21:15:39.000000000,2016-08-04 01:29:58.000000000,closed,3,fix <textarea> empty string values
+249,2016-08-02 04:56:45.000000000,2016-08-02 05:03:23.000000000,closed,5,Make AST traversal recursive
+248,2016-08-01 23:00:52.000000000,2016-08-02 00:12:57.000000000,closed,0,fix tslint issues
+247,2016-07-31 02:56:37.000000000,1970-01-01 00:00:00.000000001,open,0,Add template uuid to wire format
+246,2016-07-30 23:21:47.000000000,2016-07-31 00:23:03.000000000,closed,0,Remove InputValueAttributeChangeList
+245,2016-07-30 22:21:13.000000000,2016-07-30 23:13:40.000000000,closed,4,Fix undefined input values
+244,2016-07-30 13:51:47.000000000,2016-07-30 14:01:52.000000000,closed,1,Always compute before “stamping” the validation
+243,2016-07-30 03:39:17.000000000,2016-08-02 00:12:57.000000000,closed,3,Fix TSLint Issues
+242,2016-07-30 03:32:16.000000000,2016-07-30 03:37:44.000000000,closed,1,Prevent .tslint files from getting embedded into Ember.
+241,2016-07-29 11:27:23.000000000,2016-07-29 11:35:25.000000000,closed,0,Temporarily lock typescript version
+240,2016-07-28 07:12:35.000000000,2016-07-28 07:21:38.000000000,closed,0,Bump loader.js
+239,2016-07-27 22:51:51.000000000,2016-07-27 23:04:11.000000000,closed,1,Normalize attribute values
+238,2016-07-27 02:37:41.000000000,2016-08-24 00:51:17.000000000,closed,0,Server-Side Rendering in Glimmer 2
+237,2016-07-26 05:23:49.000000000,1970-01-01 00:00:00.000000001,open,0,tests for prepareArgs
+236,2016-07-26 04:28:58.000000000,2016-07-26 04:48:14.000000000,closed,0,Ensure tslint.json uses the one local to the package
+235,2016-07-25 22:16:51.000000000,2016-07-25 22:46:17.000000000,closed,1,Move broccoli-tslinter to dependencies
+234,2016-07-25 22:07:54.000000000,2016-07-25 22:46:17.000000000,closed,1,Could not require 'ember-cli-build.js': Cannot find module 'broccoli-tslinter'
+233,2016-07-25 19:31:44.000000000,2016-07-25 20:27:09.000000000,closed,1,Actually run Glimmer test suite
+232,2016-07-25 08:58:23.000000000,2020-04-18 19:28:34.000000000,closed,1,tests for #229
+231,2016-07-25 08:34:17.000000000,2016-07-25 08:41:06.000000000,closed,5,Add prepareArgs to ComponentManager<T> interface
+230,2016-07-25 06:55:43.000000000,2016-07-26 06:07:59.000000000,closed,3,Optimistic append
+229,2016-07-24 21:51:32.000000000,2016-07-25 07:44:25.000000000,closed,6,Cache compiled layouts
+228,2016-07-24 08:07:09.000000000,2016-07-25 07:44:25.000000000,closed,1,Implement caching in TestEnvironment
+227,2016-07-24 02:51:39.000000000,2016-07-24 09:28:20.000000000,closed,0,Don't make iterables volatile
+226,2016-07-24 01:38:14.000000000,2016-07-24 01:38:24.000000000,closed,0,Temp fix to make helpers destroyable
+225,2016-07-23 23:10:58.000000000,2016-07-23 23:38:09.000000000,closed,0,Smarter block dsl
+224,2016-07-23 07:09:10.000000000,2017-01-23 01:52:22.000000000,closed,11,Handlebars 4.x support?
+223,2016-07-23 03:11:26.000000000,2016-07-24 03:14:37.000000000,closed,0,Flushing
+222,2016-07-19 00:41:39.000000000,2016-07-19 01:34:42.000000000,closed,0,Add function for reading DOM property/attributes
+221,2016-07-18 23:03:24.000000000,2016-07-19 00:05:04.000000000,closed,0,For input value property we need to read before setting/updating
+220,2016-07-18 02:18:15.000000000,2016-07-18 02:23:57.000000000,closed,0,Hookup TrustingAttr and fix undefined values
+219,2016-07-16 19:19:00.000000000,2016-07-16 19:20:13.000000000,closed,7,pin typescript compiler to ^1.8
+218,2016-07-16 01:46:27.000000000,2016-07-16 12:27:32.000000000,closed,4,clear Bounds when destroying RenderResult's
+217,2016-07-15 05:27:40.000000000,2016-07-18 11:09:44.000000000,closed,2,Let the host (e.g. Ember) handle layout caching
+216,2016-07-15 02:17:42.000000000,2016-07-15 02:37:57.000000000,closed,0,[Style] Fix destructuring
+215,2016-07-13 12:27:34.000000000,2016-07-14 17:58:50.000000000,closed,0,fix tslint errors
+214,2016-07-13 11:31:24.000000000,2016-07-24 21:58:26.000000000,closed,2,add tslinter
+213,2016-07-13 02:20:05.000000000,2016-07-15 02:11:14.000000000,closed,1,Propagate curly trustworthiness
+212,2016-07-12 22:25:24.000000000,2016-07-15 02:09:08.000000000,closed,0,Exporting so the consuming env can compose
+211,2016-07-12 19:20:57.000000000,2016-07-12 21:24:19.000000000,closed,0,extract benchmarks into glimmer-benchmarks package
+210,2016-07-05 23:57:55.000000000,2016-07-06 23:09:57.000000000,closed,3,Additional benchmarks
+209,2016-07-05 01:20:11.000000000,2016-07-06 00:32:15.000000000,closed,1,add a benchmark for rendering nested components
+208,2016-07-03 14:26:38.000000000,2016-07-08 01:07:08.000000000,closed,7,remove out of date comments
+207,2016-07-03 05:22:23.000000000,2016-07-04 08:16:23.000000000,closed,3,Pass block meta info into helper lookup
+206,2016-07-02 06:10:14.000000000,2016-07-02 06:35:09.000000000,closed,0,Define block meta
+205,2016-07-02 01:57:33.000000000,2016-07-02 04:21:37.000000000,closed,0,Pass BlockMeta to refineStatement
+204,2016-07-01 18:33:02.000000000,2016-07-02 14:02:23.000000000,closed,4,[wip] only concat attribute values when there are multiple values
+203,2016-07-01 14:30:12.000000000,2016-07-01 16:34:55.000000000,closed,4,simplify the visualizer button actions
+202,2016-06-28 04:38:30.000000000,2016-06-28 23:25:07.000000000,closed,0,Change typescript pinned version.
+201,2016-06-28 03:08:18.000000000,2016-07-01 03:06:50.000000000,closed,1,Propagate moduleName to statement
+200,2016-06-28 02:55:26.000000000,2016-06-28 23:25:22.000000000,closed,1,Build failing on typescript error
+199,2016-06-28 02:46:46.000000000,2016-06-29 00:16:05.000000000,closed,1,bump emberjs-build
+198,2016-06-27 17:55:13.000000000,2016-06-27 18:02:47.000000000,closed,0,"Use typescript nightlies, instead of Github SHA's."
+197,2016-06-23 02:34:21.000000000,2016-07-12 21:05:17.000000000,closed,1,Create sanitized attribute and property classes
+196,2016-06-22 20:12:12.000000000,2016-06-22 21:02:33.000000000,closed,1,Fix package name in bower.json
+195,2016-06-22 03:47:31.000000000,2016-06-22 04:57:14.000000000,closed,1,Fix how input handles initial null attributes
+194,2016-06-22 01:21:41.000000000,2016-06-22 01:34:15.000000000,closed,0,Use relative paths for embedded ember-cli-build.js usage.
+193,2016-06-21 04:45:36.000000000,2016-06-21 05:35:21.000000000,closed,2,Fix typescript errors
+192,2016-06-21 02:21:22.000000000,2016-06-21 05:35:35.000000000,closed,3,Readme change should not fail travis
+191,2016-06-21 00:57:38.000000000,2016-06-21 23:33:15.000000000,closed,4,Properly handle updating value to null in MS browsers
+190,2016-06-17 22:43:17.000000000,2016-06-22 00:58:24.000000000,closed,9,Include TypeScript source in npm package
+189,2016-06-16 00:35:16.000000000,2016-06-16 01:55:49.000000000,closed,1,Adds a CommonJS build
+188,2016-06-15 22:25:22.000000000,2016-06-16 09:20:16.000000000,closed,0,Support for positional params in EmberishCurlyComponent for test environment
+187,2016-06-15 03:58:42.000000000,2016-07-12 21:01:20.000000000,closed,1,Refactor Attributes And Component Arguments
+186,2016-06-14 03:49:10.000000000,2016-09-15 10:58:26.000000000,closed,2,Implement slice() for EvaluatedPositionalArgs and concrete classes
+185,2016-06-13 20:58:40.000000000,2016-07-28 10:04:26.000000000,closed,1,[WIP] Dynamic component currying support
+184,2016-06-11 01:31:20.000000000,2016-06-11 01:39:56.000000000,closed,0,Fix typescript errors
+183,2016-06-11 01:01:50.000000000,2016-06-11 01:42:20.000000000,closed,4,Test the build status
+182,2016-06-10 21:40:18.000000000,2016-06-11 03:46:20.000000000,closed,2,Add location parameters to builder functions
+181,2016-06-03 16:09:32.000000000,2016-06-03 16:38:34.000000000,closed,1,Unpin ember-cli
+180,2016-06-03 14:09:15.000000000,2016-06-03 16:08:14.000000000,closed,0,Ignore me: Debug testem issue
+179,2016-06-02 22:34:09.000000000,2016-06-03 02:01:13.000000000,closed,0,Finish late bound template support
+178,2016-05-28 02:19:06.000000000,2016-05-28 04:29:12.000000000,closed,0,Cleanup and late bound and/or default layout support.
+177,2016-05-24 02:34:38.000000000,2016-05-27 01:11:20.000000000,closed,5,Eat falsy component definitions and invalidate if their ref changes
+176,2016-05-21 02:01:48.000000000,2016-05-24 01:42:02.000000000,closed,1,Ensure partial re-renders are stable
+175,2016-05-21 02:00:20.000000000,2016-06-28 02:48:49.000000000,closed,0,Need clean test API for asserting stable DOM
+174,2016-05-21 00:20:23.000000000,2016-06-25 05:03:56.000000000,closed,1,Partial rerender is not stable
+173,2016-05-17 05:52:22.000000000,1970-01-01 00:00:00.000000001,open,3,Inline static partials during scanning
+172,2016-05-14 20:45:25.000000000,2016-05-19 02:38:44.000000000,closed,3,Implement partials
+171,2016-05-13 09:47:34.000000000,2016-05-13 10:22:06.000000000,closed,0,Update simple-html-tokenizer and fix AttrNode.value loc.
+170,2016-05-11 05:29:36.000000000,2016-05-12 01:15:25.000000000,closed,1,Document WrappedBuilder operations
+169,2016-05-10 10:12:41.000000000,2016-05-10 20:52:31.000000000,closed,1,Fix type errors.
+168,2016-05-10 00:29:59.000000000,2016-05-11 03:53:43.000000000,closed,8,Support fragments
+167,2016-05-08 21:51:48.000000000,2016-05-09 22:30:06.000000000,closed,0,Properly handle trailing whitespace controls.
+166,2016-05-06 21:21:31.000000000,2016-05-12 01:13:53.000000000,closed,8,Allow iterators to return current position (index) during {{#each}}
+165,2016-05-06 11:29:26.000000000,2016-05-09 22:29:39.000000000,closed,0,Fix leak of internal dynamic component args via copy on write.
+164,2016-05-05 00:48:29.000000000,2016-05-05 17:55:46.000000000,closed,0,Ensure loc info is correct with char refs.
+163,2016-05-04 20:06:50.000000000,2016-05-04 22:08:54.000000000,closed,0,Fix comment and attribute start column.
+162,2016-05-04 02:13:21.000000000,2016-05-06 10:39:50.000000000,closed,5,Add getAttribute method to DOMHelper
+161,2016-05-03 03:34:06.000000000,2016-06-03 03:51:57.000000000,closed,3,[WIP] Ports DB Monster demo
+160,2016-05-02 23:48:35.000000000,2016-05-03 00:05:59.000000000,closed,2,Pass DynamicScope to modifier install hook
+159,2016-05-02 20:54:37.000000000,2016-07-12 21:24:19.000000000,closed,1,Benchmarks Cleanup
+158,2016-05-02 09:39:02.000000000,2016-05-02 15:29:42.000000000,closed,3,Fixes #153
+157,2016-04-30 06:49:11.000000000,2016-04-30 08:09:39.000000000,closed,0,Re-export NULL_REFERENCE and return UNDEFINED_REFERENCE by default
+156,2016-04-30 03:56:12.000000000,2016-04-30 05:59:55.000000000,closed,4,Export UNDEFINED_REFERENCE from glimmer-runtime
+155,2016-04-30 01:07:46.000000000,2016-04-30 02:46:33.000000000,closed,0,Add UNDEFINED_REFERENCE and return it for missing named args
+154,2016-04-29 22:07:32.000000000,2016-04-30 01:59:29.000000000,closed,3,added benchmark.js script tag to demos
+153,2016-04-29 22:05:58.000000000,2016-05-02 15:29:43.000000000,closed,1,Demos not working: Benchmark is not defined
+152,2016-04-29 03:15:55.000000000,2016-04-29 03:16:29.000000000,closed,0,Let the component control when its hooks are run
+151,2016-04-27 22:46:02.000000000,2017-07-06 23:29:45.000000000,closed,1,Organize opcodes into a builder structure
+150,2016-04-27 06:09:29.000000000,2016-04-28 21:13:25.000000000,closed,1,Set privilege for falsy class names
+149,2016-04-27 01:49:36.000000000,2016-04-27 01:59:17.000000000,closed,0,better benchmark harness
+148,2016-04-24 08:37:19.000000000,2016-05-01 07:27:02.000000000,closed,1,Fix helpers in attrs & some refactors
+147,2016-04-23 15:27:43.000000000,2017-01-12 17:30:45.000000000,closed,4,[Question] Have you considered representing the opcode output as an ES6 Typed Array?
+146,2016-04-23 07:51:11.000000000,2016-04-28 10:03:01.000000000,closed,3,Basic Modifier support
+145,2016-04-22 05:08:24.000000000,2016-04-22 05:10:16.000000000,closed,0,Better dynamic component infrastructure
+144,2016-04-22 01:47:59.000000000,2016-04-22 01:57:41.000000000,closed,0,Fix class merging
+143,2016-04-21 14:59:59.000000000,2016-04-21 15:07:26.000000000,closed,0,Use proper block separation.
+142,2016-04-21 01:15:30.000000000,2016-04-21 02:23:46.000000000,closed,0,#139 + Upsert refactor
+141,2016-04-20 01:56:23.000000000,2016-07-11 21:28:40.000000000,closed,7,Support meta for templates
+140,2016-04-20 00:29:04.000000000,2016-04-20 20:29:27.000000000,closed,4,Ensure `undefined` doesn't get pushed into classes
+139,2016-04-19 20:43:18.000000000,2016-04-21 02:23:47.000000000,closed,1,Support for htmlSafe/SafeString
+138,2016-04-19 02:40:05.000000000,2016-04-20 21:41:06.000000000,closed,2,Add linting to .travis.yml.
+137,2016-04-19 02:38:43.000000000,2016-07-24 22:04:34.000000000,closed,1,Linting in CI
+136,2016-04-16 21:16:40.000000000,2016-09-15 10:46:48.000000000,closed,0,WIP refineExpression
+135,2016-04-15 21:57:05.000000000,2016-04-15 23:28:42.000000000,closed,1,"Add loc to text, comment, and attribute nodes."
+134,2016-04-15 16:46:38.000000000,2016-04-15 20:24:15.000000000,closed,0,Misc fixes from #132
+133,2016-04-15 04:57:53.000000000,2016-04-18 20:53:30.000000000,closed,4,Implement htmlSafe support
+132,2016-04-15 00:05:28.000000000,2016-04-28 22:32:59.000000000,closed,0,"[WIP] ""Automatic shouldComponentUpdate"""
+131,2016-04-08 03:29:28.000000000,2016-04-08 05:07:25.000000000,closed,1,Fix regression with {{this.value}}
+130,2016-04-08 01:07:29.000000000,2016-04-08 01:11:19.000000000,closed,0,ComponentManagers should produce a self reference
+129,2016-04-08 00:48:32.000000000,2016-04-08 01:08:39.000000000,closed,4,Failing test for nested comments
+128,2016-04-06 04:58:21.000000000,2016-04-06 21:45:57.000000000,closed,0,Fix inline benchmark
+127,2016-04-05 05:20:17.000000000,2016-04-06 19:47:16.000000000,closed,1,BUGFIX Allow for slashed components
+126,2016-04-05 01:17:41.000000000,2016-04-05 01:46:56.000000000,closed,0,Demo cleanup
+125,2016-04-05 01:12:11.000000000,2016-04-05 01:17:55.000000000,closed,0,use RAF
+124,2016-04-03 21:31:42.000000000,2016-04-03 22:15:47.000000000,closed,1,Use Array.prototype.every in CompositeTag example
+123,2016-04-01 23:09:28.000000000,2016-04-03 02:07:24.000000000,closed,0,Updated port to use
+122,2016-04-01 22:19:11.000000000,2016-04-01 22:58:11.000000000,closed,1,fix use of `condition` vs. `predicate`
+121,2016-04-01 18:29:11.000000000,2016-04-01 19:39:06.000000000,closed,1,A couple guide fixes
+120,2016-04-01 03:52:37.000000000,2016-04-03 02:06:51.000000000,closed,2,Fix ripples demo
+119,2016-03-31 10:15:33.000000000,2016-03-31 11:48:54.000000000,closed,2,guide tweaks
+118,2016-03-31 09:32:14.000000000,2016-03-31 11:51:18.000000000,closed,1,fix small typo
+117,2016-03-31 09:22:01.000000000,2016-03-31 10:21:51.000000000,closed,0,Fix typo
+116,2016-03-30 20:57:01.000000000,2016-03-30 21:11:22.000000000,closed,0,Fixed some typo in references doc
+115,2016-03-28 22:46:45.000000000,2016-03-28 23:35:25.000000000,closed,2,Add missing dependencies to package.json
+114,2016-03-28 20:19:39.000000000,2016-04-06 03:55:38.000000000,closed,1,Implement has-block-params helper
+113,2016-03-28 03:02:09.000000000,2016-03-28 03:21:45.000000000,closed,0,Cleanup and introduce tag-based dirty-tracking
+112,2016-03-25 06:49:07.000000000,2016-03-26 21:46:47.000000000,closed,0,Implement has-block helper
+111,2016-03-24 02:44:00.000000000,2016-03-25 02:08:01.000000000,closed,1,"Move demos to packages, fix errors and lint."
+110,2016-03-24 00:04:50.000000000,2016-03-24 00:46:00.000000000,closed,0,fix launch
+109,2016-03-23 02:43:54.000000000,2016-03-23 03:36:22.000000000,closed,0,Implement `ConstReference` optimization
+108,2016-03-22 04:39:44.000000000,2016-03-22 04:47:36.000000000,closed,0,Allow removing a dynamic attribute
+107,2016-03-21 07:00:00.000000000,2016-03-21 07:33:04.000000000,closed,0,Support dynamic attributeBindings
+106,2016-03-21 04:56:42.000000000,2016-03-21 05:38:05.000000000,closed,0,Support dynamic tagName
+105,2016-03-21 00:45:04.000000000,2016-03-21 00:50:45.000000000,closed,1,Apply content normalization rules for concat
+104,2016-03-20 23:13:33.000000000,2016-03-20 23:19:54.000000000,closed,0,Add commas to test declarations
+103,2016-03-20 23:10:22.000000000,2016-04-27 02:05:15.000000000,closed,5,"Unsafe exprs w/ siblings in IE, many unsafe nodes"
+102,2016-03-20 22:47:59.000000000,2016-03-20 23:10:51.000000000,closed,0,Improve innerHTML SVG test and docs
+101,2016-03-20 22:34:25.000000000,2016-04-21 02:23:47.000000000,closed,0,Fix {{{foo}}} where foo is an empty string
+100,2016-03-20 06:04:38.000000000,2016-03-20 22:20:51.000000000,closed,0,Don't error when yielding to non-existent blocks
+99,2016-03-20 05:44:18.000000000,2016-03-20 06:00:58.000000000,closed,2,Normalize text values before inserting into DOM
+98,2016-03-15 02:26:18.000000000,2016-03-15 03:37:01.000000000,closed,0,Kill packages/node_modules
+97,2016-03-14 05:53:34.000000000,2016-03-26 21:40:44.000000000,closed,0,Add .editorconfig file.
+96,2016-03-13 07:35:08.000000000,2016-03-13 23:56:57.000000000,closed,2,Fix some of the demos
+95,2016-03-12 07:56:53.000000000,2016-03-12 08:05:22.000000000,closed,0,Allow the env to return a reference for helpers
+94,2016-03-11 23:52:08.000000000,2016-09-15 10:46:32.000000000,closed,0,Emit a node-friendly precompiler
+93,2016-03-10 07:44:27.000000000,2016-03-10 08:00:35.000000000,closed,0,Use latest stable version of ember-cli.
+92,2016-03-10 07:34:34.000000000,2016-03-26 21:47:38.000000000,closed,1,Ensure column is reset when incrementing right stripped lines.
+91,2016-03-08 20:13:49.000000000,2016-03-09 21:06:54.000000000,closed,2,Fix loc info for content statements with leading newlines.
+90,2016-03-08 04:07:22.000000000,2016-03-09 07:56:07.000000000,closed,0,Misc refactors
+89,2016-03-06 19:53:53.000000000,2016-04-21 13:39:58.000000000,closed,2,`loc` info for `TextNode`s and `CommentNode`s is not populated
+88,2016-03-05 09:32:13.000000000,2016-03-06 03:42:16.000000000,closed,0,Implement dynamic `{{component}}` helper
+87,2016-03-04 10:20:49.000000000,2016-03-04 10:23:54.000000000,closed,0,Rearchitect #each implementation
+86,2016-02-25 06:55:40.000000000,2016-02-25 07:21:19.000000000,closed,0,Wrap RenderResult#destroy() in begin/commit
+85,2016-02-24 06:36:44.000000000,2016-02-24 06:37:49.000000000,closed,0,Expose RenderResult#destroy()
+84,2016-02-24 05:05:48.000000000,2016-02-24 05:15:24.000000000,closed,0,Implement component teardown
+83,2016-02-23 21:05:42.000000000,2016-02-23 21:15:38.000000000,closed,1,Fix to replay for uptime demo
+82,2016-02-20 07:53:32.000000000,2016-02-20 12:19:47.000000000,closed,1,Fix Glimmer Visualizer
+81,2016-02-19 08:42:47.000000000,2016-02-23 02:42:48.000000000,closed,0,Types cleanup
+80,2016-02-18 20:23:42.000000000,2016-03-21 02:11:09.000000000,closed,0,Failing built-in #each test
+79,2016-02-18 07:36:48.000000000,2016-02-18 07:45:17.000000000,closed,0,Add dynamic scope
+78,2016-02-17 06:24:51.000000000,2016-02-17 06:44:20.000000000,closed,0,Add a hook for components to get their own element
+77,2016-02-13 07:57:54.000000000,2016-02-17 01:11:04.000000000,closed,0,Improve synthetic blocks in scanner
+76,2016-02-13 00:16:13.000000000,2016-02-13 01:10:17.000000000,closed,0,Better component layout builder API for Ember
+75,2016-02-12 21:44:16.000000000,2016-02-12 23:10:13.000000000,closed,2,Emit ES6 & ES5 output also.
+74,2016-02-12 05:41:14.000000000,2016-04-03 02:07:39.000000000,closed,0,Add query param for performance markers and flag for tracing automation.
+73,2016-02-11 04:41:24.000000000,2016-02-11 04:55:12.000000000,closed,0,Expose public APIs for implementing components in Ember
+72,2016-02-08 02:40:21.000000000,2016-02-08 04:51:18.000000000,closed,3,Update comment for namespaced attribute detection.
+71,2016-02-08 01:50:36.000000000,2016-02-08 02:20:46.000000000,closed,0,Disable failing tests in PhantomJS 1.9
+70,2016-02-07 09:40:59.000000000,2016-03-10 23:57:26.000000000,closed,3,foreignObject support
+69,2016-02-07 09:04:39.000000000,2016-03-20 22:45:58.000000000,closed,6,SVG + expression tests. Unsafe expressions in SVG
+68,2016-02-07 03:10:06.000000000,2016-02-07 05:51:05.000000000,closed,0,Reduce allocations in expressions
+67,2016-02-07 02:51:48.000000000,2016-02-07 09:42:31.000000000,closed,2,Basic mem alloc optimizations
+66,2016-02-07 02:50:35.000000000,2016-02-07 03:02:13.000000000,closed,1,more demo fixes
+65,2016-02-07 02:34:16.000000000,2016-02-07 05:47:11.000000000,closed,1,Fix conways demo for the reference change
+64,2016-02-07 02:00:00.000000000,2016-02-17 01:38:00.000000000,closed,5,#each built-in
+63,2016-02-06 23:35:03.000000000,2016-02-06 23:37:17.000000000,closed,0,"Add builtin ""with"" syntax"
+62,2016-02-06 14:18:28.000000000,2016-02-06 23:37:35.000000000,closed,0,fix uptime-boxes demo
+61,2016-02-04 07:17:50.000000000,2016-02-04 07:25:29.000000000,closed,0,Make `{{#if}}` and `{{#unless}}` a built-in syntax
+60,2016-02-03 06:01:09.000000000,2016-02-03 06:09:43.000000000,closed,0,"Fix tslint errors, run tslint on VSCode build"
+59,2016-02-03 05:56:25.000000000,2016-02-03 05:58:00.000000000,closed,0,References cleanup
+58,2016-02-01 02:28:53.000000000,2016-02-07 03:48:23.000000000,closed,0,SVG: Bring back tests for basic behaviors
+57,2016-02-01 00:02:46.000000000,1970-01-01 00:00:00.000000001,open,0,Deprecate Reopens After Instantiation
+56,2016-01-31 23:27:10.000000000,2016-09-15 10:47:14.000000000,closed,5,Introduce assertions for glimmer component layout
+55,2016-01-29 14:27:59.000000000,2020-02-29 05:27:42.000000000,closed,2,Restructure tests for browser-specific DOM-patches
+54,2016-01-28 05:14:28.000000000,2016-01-31 08:20:19.000000000,closed,4,Add Conditional References
+53,2016-01-27 22:37:22.000000000,2016-01-27 23:32:01.000000000,closed,3,Removes old compile and run
+52,2016-01-27 03:40:22.000000000,1970-01-01 00:00:00.000000001,open,0,Implement Recursive Elements
+51,2016-01-27 03:39:22.000000000,1970-01-01 00:00:00.000000001,open,0,Implement Identity Elements
+50,2016-01-25 12:02:26.000000000,2016-01-27 03:34:14.000000000,closed,6,Lazy layout compilation
+49,2016-01-25 04:58:45.000000000,2016-01-26 01:01:48.000000000,closed,3,Make consumable from Ember without `npm link`.
+48,2016-01-25 04:19:58.000000000,2016-01-25 04:20:39.000000000,closed,0,Remove files listing in package.json.
+47,2016-01-21 00:29:44.000000000,1970-01-01 00:00:00.000000001,open,0,Source map bug
+46,2016-01-21 00:27:55.000000000,1970-01-01 00:00:00.000000001,open,1,"Dynamic ""const"" attrs shouldn't produce updating opcodes"
+45,2016-01-21 00:24:20.000000000,2020-02-28 16:23:46.000000000,closed,2,Optimize no-JS class case?
+44,2016-01-21 00:21:14.000000000,2016-01-27 09:36:39.000000000,closed,1,Lazy component compilations
+43,2016-01-21 00:17:45.000000000,2020-04-18 19:40:49.000000000,closed,1,Shadow and merging attributes (correctly)
+42,2016-01-21 00:17:10.000000000,2020-02-28 16:23:07.000000000,closed,1,Components should support positional args
+41,2016-01-21 00:16:40.000000000,2020-02-28 16:24:30.000000000,closed,6,"`hasBlock`, `hasBlockParams`, etc"
+40,2016-01-21 00:15:53.000000000,2020-02-28 16:22:18.000000000,closed,2,Components should have `this.element`
+39,2016-01-20 02:42:20.000000000,2016-01-20 03:00:16.000000000,closed,0,fixed a few typos
+38,2016-01-20 02:10:00.000000000,2016-01-31 08:20:19.000000000,closed,0,Revert and improve 0e83fa3
+37,2016-01-20 02:07:54.000000000,2020-02-28 16:19:54.000000000,closed,1,Need test for 76b4c42
+36,2016-01-20 00:16:00.000000000,2020-02-28 16:21:11.000000000,closed,5,[Regression] Initial render
+35,2016-01-18 04:07:30.000000000,2016-01-18 04:12:09.000000000,closed,0,Add link to visualizer
+34,2016-01-14 04:10:27.000000000,2020-02-28 16:18:56.000000000,closed,1,Fix Phantom.js Tests
+33,2016-01-09 20:40:57.000000000,2016-01-09 20:51:04.000000000,closed,1,Fix `type` of positional args.
+32,2016-01-07 03:46:12.000000000,2016-01-07 04:15:18.000000000,closed,3,Fix demo paths
+31,2016-01-06 06:16:09.000000000,2016-01-14 04:10:30.000000000,closed,0,release updated simple-html-tokenizer
+30,2016-01-06 05:03:09.000000000,2016-01-14 04:10:14.000000000,closed,0,Integration
+29,2016-01-06 04:40:29.000000000,2020-02-28 16:17:10.000000000,closed,1,glimmer branch for broccoli-ember-inline-template-compiler
+28,2016-01-05 05:22:42.000000000,2016-01-06 05:03:28.000000000,closed,3,update build to work relative the current file
+27,2015-12-22 07:52:30.000000000,2015-12-31 23:52:56.000000000,closed,1,More build things
+26,2015-12-22 02:13:55.000000000,2015-12-22 03:20:53.000000000,closed,2,Refactor bind args ember cli fix
+25,2015-12-22 02:01:27.000000000,2015-12-22 03:20:20.000000000,closed,1,Tmp fix
+24,2015-12-13 00:05:55.000000000,2015-12-13 00:12:35.000000000,closed,1,Update package name for NPM.
+23,2015-12-12 19:35:06.000000000,2015-12-13 00:12:35.000000000,closed,5,Determine NPM Package Name
+22,2015-12-12 05:19:10.000000000,2015-12-12 19:12:50.000000000,closed,0,Update package.json.
+21,2015-12-07 21:20:59.000000000,2015-12-24 21:58:13.000000000,closed,8,Don't alloc during opcode creation
+20,2015-12-07 11:23:46.000000000,1970-01-01 00:00:00.000000001,open,0,Document Glimmer architecture
+19,2015-12-07 11:14:34.000000000,2015-12-07 11:23:22.000000000,closed,2,Remove outdated ARCHITECTURE description
+18,2015-12-07 10:48:00.000000000,2015-12-07 11:00:33.000000000,closed,0,Update license copyright date and link
+17,2015-12-07 10:45:50.000000000,2015-12-07 11:23:47.000000000,closed,3,"Replace references of ""HTMLbars"" with ""Glimmer"""
+16,2015-12-01 00:56:28.000000000,2015-12-07 10:46:54.000000000,closed,1,Use class for Frames
+15,2015-11-26 08:35:32.000000000,2015-11-26 08:57:36.000000000,closed,0,Fixup test running process.
+14,2015-11-26 06:47:46.000000000,2015-11-26 09:04:59.000000000,closed,1,Fix invalid import paths.
+13,2015-11-26 00:12:41.000000000,2015-11-26 00:27:29.000000000,closed,0,Rename HTMLBars to Glimmer.
+12,2015-11-25 22:54:58.000000000,2015-11-25 22:57:31.000000000,closed,0,Skip failing tests to make `ember test` pass.
+11,2015-11-25 20:50:32.000000000,2015-11-25 23:01:27.000000000,closed,0,Pass proper arguments to `TestEnvironment#registerComponent`.
+10,2015-11-21 21:07:47.000000000,2015-11-25 22:57:31.000000000,closed,4,Make Test Suite Runnable
+9,2015-11-21 09:32:22.000000000,2015-11-22 23:33:02.000000000,closed,0,Update imports to avoid incorrect nesting.
+8,2015-11-07 23:34:41.000000000,2020-02-28 16:14:52.000000000,closed,5,Ember Integration
+7,2015-11-07 22:45:49.000000000,2015-11-26 06:20:21.000000000,closed,2,Correct invalid import paths in `index.d.ts` files.
+6,2015-11-06 19:02:58.000000000,2015-11-26 09:04:59.000000000,closed,2,Invalid import paths in `index.d.ts` files.
+5,2015-11-06 08:22:12.000000000,2015-11-26 05:52:13.000000000,closed,4,Enable TravisCI
+4,2015-11-06 08:21:41.000000000,2015-11-07 04:15:15.000000000,closed,0,Small build updates.
+3,2015-10-09 10:10:16.000000000,2015-10-09 13:39:19.000000000,closed,1,Fix silently broken tests
+2,2015-10-09 08:47:55.000000000,2015-12-31 22:57:08.000000000,closed,1,More tslint rules
+1,2015-10-09 08:33:59.000000000,2015-11-05 04:49:46.000000000,closed,2,Adding symlinks to satisfy node_modules resolution

@@ -1,0 +1,1294 @@
+id,created_at,closed_at,state,comments,title
+1296,2020-08-31 16:06:36.000000000,1970-01-01 00:00:00.000000001,open,2,Connection prematurely closed BEFORE response
+1295,2020-08-31 09:47:46.000000000,2020-08-31 10:49:27.000000000,closed,1,Bump assertj-core from 3.17.0 to 3.17.1
+1294,2020-08-28 13:31:11.000000000,2020-08-28 20:07:45.000000000,closed,1,fix #1286 Ensure the buffered data is discarded on response complete
+1293,2020-08-28 09:49:25.000000000,1970-01-01 00:00:00.000000001,open,2,Bump com.jfrog.artifactory from 4.16.1 to 4.17.2
+1292,2020-08-26 09:49:05.000000000,2020-08-26 10:18:24.000000000,closed,1,Bump mockito-core from 3.5.6 to 3.5.7
+1291,2020-08-25 09:48:30.000000000,2020-08-25 10:16:14.000000000,closed,1,Bump mockito-core from 3.5.5 to 3.5.6
+1290,2020-08-25 00:59:16.000000000,2020-08-25 11:16:33.000000000,closed,1,backport PR #1282
+1289,2020-08-24 10:02:23.000000000,2020-08-24 11:54:09.000000000,closed,1,Bump assertj-core from 3.16.1 to 3.17.0
+1288,2020-08-24 09:58:26.000000000,2020-08-24 12:54:28.000000000,closed,2,Bump mockito-core from 3.5.2 to 3.5.5
+1287,2020-08-24 09:50:39.000000000,2020-08-31 10:33:18.000000000,closed,18,LEAK: ByteBuf.release() was not called before it's garbage-collected.
+1286,2020-08-23 20:11:20.000000000,2020-08-28 20:36:11.000000000,closed,18,LEAK: ByteBuf.release() was not called before it's garbage-collected.
+1285,2020-08-21 19:57:25.000000000,2020-08-24 22:25:05.000000000,closed,0,fix #1265 Expose a variant of HttpClient#followRedirect with BiConsumer
+1284,2020-08-21 13:43:41.000000000,2020-08-24 20:58:46.000000000,closed,1,Create the SSL LoggingHandler once and reuse it as it is sharable
+1283,2020-08-21 00:24:32.000000000,2020-08-24 20:30:14.000000000,closed,1,Add HTTP/2 client examples to the reference documentation
+1282,2020-08-20 23:49:21.000000000,2020-08-24 23:08:51.000000000,closed,5,Fix #990 Expose an API for custom handling of the X-Forwarded/Forwarded headers
+1281,2020-08-20 22:53:08.000000000,2020-08-24 19:30:35.000000000,closed,1,Add UDS examples to the reference documentation
+1280,2020-08-20 21:28:06.000000000,2020-08-24 19:08:52.000000000,closed,1,Add SNI examples to the reference documentation
+1279,2020-08-19 09:46:54.000000000,2020-08-19 10:08:32.000000000,closed,1,Bump mockito-core from 3.4.6 to 3.5.2
+1278,2020-08-18 13:16:20.000000000,2020-08-20 15:13:11.000000000,closed,2,fix #573 Add server SNI support
+1277,2020-08-18 11:25:04.000000000,2020-08-28 09:49:31.000000000,closed,3,Bump com.jfrog.artifactory from 4.16.1 to 4.17.1
+1276,2020-08-17 23:06:34.000000000,2020-08-18 12:31:16.000000000,closed,1,fix #1274 Fix NPE when executing parallel requests
+1275,2020-08-17 18:48:04.000000000,2020-08-17 19:21:22.000000000,closed,2,Polish issue template for bug report
+1274,2020-08-17 18:45:42.000000000,2020-08-18 12:31:16.000000000,closed,0,NPE in DefaultHeaders.remove0() when using WebClient
+1273,2020-08-17 14:14:28.000000000,2020-08-18 23:17:01.000000000,closed,1,Ensure HttpClient's default SslProvider takes in account the configured protocol
+1272,2020-08-15 20:47:06.000000000,2020-08-17 12:55:45.000000000,closed,1,Unix Domain Sockets work in 1.0.0-M1 but not in 0.9.11.RELEASE
+1271,2020-08-15 12:21:56.000000000,2020-08-17 17:46:41.000000000,closed,7,java.lang.VerifyError: class reactor.ipc.netty.http.client.MonoHttpClientResponse overrides final method subscribe.(Lorg/reactivestreams/Subscriber;)V
+1270,2020-08-14 23:16:13.000000000,2020-08-18 19:44:30.000000000,closed,5,Added a custom logging handler to offer a human readable logging. #233
+1269,2020-08-13 11:37:34.000000000,2020-08-13 12:29:23.000000000,closed,9,Spring WebClient is not using Proxy for the latest version of 5.3.4.RELEASE
+1268,2020-08-13 09:24:48.000000000,2020-08-18 11:25:07.000000000,closed,2,Bump com.jfrog.artifactory from 4.16.1 to 4.17.0
+1267,2020-08-13 08:32:48.000000000,2020-08-13 12:50:33.000000000,closed,8,"Connection has been closed BEFORE response, while sending request body"
+1266,2020-08-12 23:54:16.000000000,2020-08-14 23:20:18.000000000,closed,7,Added possibility to use a custom logging handler. #436
+1265,2020-08-12 17:20:43.000000000,2020-08-24 22:54:25.000000000,closed,5,Expose also the oritinal request in redirect request consumer
+1264,2020-08-12 16:47:34.000000000,2020-08-12 19:11:19.000000000,closed,1,fix #1257 Target host should not be resolved when proxy is configured (1.0.0)
+1263,2020-08-12 16:23:52.000000000,2020-08-12 16:55:37.000000000,closed,1,websocket broadcast
+1262,2020-08-12 11:44:51.000000000,2020-08-12 12:06:36.000000000,closed,0,fix #1247 When graceful shutdown close immediately the connections with no active requests
+1261,2020-08-11 16:48:58.000000000,1970-01-01 00:00:00.000000001,open,0,"When removing the proxy configuration, return the correct resolver"
+1260,2020-08-11 07:49:00.000000000,2020-08-12 13:31:34.000000000,closed,7,#1257 Target host should not be resolved when proxy is configured
+1259,2020-08-11 07:18:02.000000000,2020-08-11 13:47:58.000000000,closed,8,#1230 Disposing ConnectionPool that are not actively used under LRU policy.
+1258,2020-08-11 07:13:18.000000000,2020-08-12 19:09:52.000000000,closed,8,#1257 Target host should not be resolved when proxy is configured
+1257,2020-08-11 07:11:20.000000000,2020-08-12 19:11:19.000000000,closed,0,Target host should not be resolved when proxy is configured
+1256,2020-08-09 17:25:46.000000000,2020-08-09 17:54:43.000000000,closed,2,"UdpServer.wiretap(String category, LogLevel level) the log level is always debug"
+1255,2020-08-09 17:19:53.000000000,2020-08-09 17:54:43.000000000,closed,0,"UdpServer.wiretap(String category, LogLevel level) the log level is always debug"
+1254,2020-08-07 23:31:27.000000000,2020-08-11 18:43:06.000000000,closed,8,LEAK: ByteBuf.release() was not called before it's garbage-collected. #1130
+1253,2020-08-07 21:12:44.000000000,2020-08-07 21:18:34.000000000,closed,0,Adapt to the MonoProcessor changes
+1252,2020-08-07 16:57:05.000000000,2020-08-07 22:55:22.000000000,closed,1,Switch to Netty DNS resolver
+1251,2020-08-07 14:50:10.000000000,2020-08-24 09:35:42.000000000,closed,3,Reactor context is getting empty in the middle of request processing
+1250,2020-08-06 20:23:36.000000000,2020-08-07 16:59:00.000000000,closed,1,Deprecate HttpClientInfos#currentContext in favour of HttpClientInfos#currentContextView
+1249,2020-08-06 11:26:09.000000000,2020-08-06 11:47:25.000000000,closed,1,Reintroduce reactor-netty artifact after split into 2 modules
+1248,2020-08-05 17:31:57.000000000,2020-08-05 17:56:26.000000000,closed,1,Adapt to Reactor Core changes
+1247,2020-08-05 15:00:41.000000000,2020-08-12 12:19:06.000000000,closed,5,Graceful shutdown and connection kept alive
+1246,2020-08-04 22:52:03.000000000,2020-08-05 12:21:07.000000000,closed,0,Rename HttpClient#requestTimeout to HttpClient#responseTimeout
+1245,2020-08-03 16:15:48.000000000,2020-08-17 11:20:37.000000000,closed,5,found a problem: java.util.ConcurrentModificationException: null
+1244,2020-08-03 14:36:44.000000000,2020-08-03 21:56:41.000000000,closed,1,fix #1233 Ensure bindNow/connectNow/disposeNow does not swallow ArithmeticException
+1243,2020-08-03 12:53:29.000000000,2020-08-03 12:57:29.000000000,closed,2,Adapt to the changed API in reactor core
+1242,2020-08-03 10:26:46.000000000,2020-08-03 10:54:40.000000000,closed,1,Bump jackson-databind from 2.11.1 to 2.11.2
+1241,2020-08-02 23:00:51.000000000,2020-08-03 21:23:26.000000000,closed,1,Move the documentation examples to the examples submodule
+1240,2020-08-02 22:45:32.000000000,2020-08-03 12:16:56.000000000,closed,1,"fix #989 Add wiretap(String, LogLevel, ByteBufFormat)"
+1239,2020-08-02 21:14:32.000000000,2020-08-13 20:49:53.000000000,closed,1,do not set cipher suites while configuring HTTP/2
+1238,2020-07-31 21:34:35.000000000,2020-08-03 12:02:02.000000000,closed,1,Upgrade gradle to 6.5.1
+1237,2020-07-31 14:11:03.000000000,2020-07-31 17:35:48.000000000,closed,1,Bump com.jfrog.artifactory from 4.15.2 to 4.16.1
+1236,2020-07-31 12:38:52.000000000,2020-07-31 14:10:39.000000000,closed,1,fix #739 Separate Reactor Netty on modules
+1235,2020-07-30 14:46:55.000000000,1970-01-01 00:00:00.000000001,open,0,Excessive server logging when a client fails an SSL handshake
+1234,2020-07-30 14:26:54.000000000,2020-08-03 16:15:20.000000000,closed,4,"Add a system property for the lifetime timeout, similar to idle timeo…"
+1233,2020-07-30 13:56:27.000000000,2020-08-03 21:56:41.000000000,closed,0,disposeNow is swallowing ArithmeticException
+1232,2020-07-29 12:21:52.000000000,2020-08-03 16:15:50.000000000,closed,4,"Add a system property for the lifetime timeout, similar to idle timeout and acquire timeout"
+1231,2020-07-29 11:38:33.000000000,2020-07-29 19:42:23.000000000,closed,0,Test TLSv1.3 on the server and on the client
+1230,2020-07-29 11:15:54.000000000,2020-08-11 13:48:40.000000000,closed,9,Disposing PooledConnections that are not actively used under LRU policy.
+1229,2020-07-28 14:19:14.000000000,2020-07-28 17:19:44.000000000,closed,1,fix #1223 Update `how to use BOM with gradle` section in the reference documentation
+1228,2020-07-28 13:51:30.000000000,2020-07-28 14:32:08.000000000,closed,0,Update javadoc
+1227,2020-07-28 11:24:23.000000000,2020-07-28 12:54:57.000000000,closed,2,How to properly use connection pool  for Httpclient?
+1226,2020-07-28 00:18:14.000000000,2020-07-28 00:57:05.000000000,closed,4,fix example code by setting the SSL context of the `SslContextSpec`
+1225,2020-07-27 23:51:44.000000000,2020-07-28 00:57:59.000000000,closed,3,Invalid code example for HttpServer with HTTP/2 in reference guide
+1224,2020-07-27 23:45:19.000000000,1970-01-01 00:00:00.000000001,open,20,TLSv1.3 not working with HTTP/2 for HttpServer using JDK as SSL Provider
+1223,2020-07-27 07:56:47.000000000,2020-07-28 17:20:35.000000000,closed,4,Misleading statement about Gradle support for Maven BOMs
+1222,2020-07-24 19:43:51.000000000,2020-08-11 16:09:39.000000000,closed,6,Default client ConnectionProvider pool does not respect system variable reactor.netty.pool.maxConnections
+1221,2020-07-24 19:08:13.000000000,2020-08-06 12:45:35.000000000,closed,7,reactor.netty.http.client.PrematureCloseException: Connection prematurely closed BEFORE response
+1220,2020-07-24 13:06:04.000000000,2020-08-06 12:44:07.000000000,closed,3,Websocket handshake 404 
+1219,2020-07-24 11:19:39.000000000,2020-07-24 11:40:29.000000000,closed,1,Adapt to the changed API in reactor core
+1218,2020-07-22 18:23:29.000000000,2020-08-03 14:53:20.000000000,closed,14,1155 pooled connection provider metrics configurable
+1217,2020-07-21 01:32:52.000000000,2020-07-23 11:18:36.000000000,closed,17,Getting a lot of `PrematureCloseException : Connection prematurely closed BEFORE response`
+1216,2020-07-18 11:54:51.000000000,2020-07-22 09:21:49.000000000,closed,2,Fix #1159 Expose requestTimeout setting on HttpClient/HttpClientRequest level
+1215,2020-07-16 23:02:45.000000000,1970-01-01 00:00:00.000000001,open,0,Deprecate reactor.netty.bytebuf.allocator.tiny.cache.size metric
+1214,2020-07-16 22:53:45.000000000,2020-07-17 12:07:51.000000000,closed,0,Do not check tiny cache size
+1213,2020-07-16 22:08:35.000000000,2020-07-17 19:46:25.000000000,closed,4,Allow for a Pluggable HTTP Proxy Handling Function
+1212,2020-07-16 22:00:38.000000000,2020-07-17 12:23:58.000000000,closed,0,Proxy provider cleanup
+1211,2020-07-16 18:10:32.000000000,2020-07-17 12:53:59.000000000,closed,2,fixes class cast exception to no appear
+1210,2020-07-16 11:30:16.000000000,2020-07-16 12:10:21.000000000,closed,1,Spring Boot Gateway reactor-netty TLSv1.3
+1209,2020-07-16 09:58:51.000000000,2020-07-16 12:12:16.000000000,closed,0,Bump de.undercouch.download from 4.1.0 to 4.1.1
+1208,2020-07-16 00:27:59.000000000,2020-07-17 13:23:40.000000000,closed,3,provides context caching
+1207,2020-07-15 11:12:25.000000000,2020-07-15 13:08:14.000000000,closed,5,Missing dependency reactor.util.retry.Retry in v0.9.8.RELEASE and later
+1206,2020-07-15 10:30:41.000000000,2020-07-15 11:01:03.000000000,closed,2,Bump hoverfly-java from 0.13.0 to 0.13.1
+1205,2020-07-13 23:00:37.000000000,2020-07-13 23:03:33.000000000,closed,1,Bump tomcat-embed-core from 9.0.37 to 9.0.37-dev
+1204,2020-07-13 22:41:59.000000000,2020-07-13 22:59:44.000000000,closed,0,Create Dependabot config file
+1203,2020-07-13 16:07:36.000000000,2020-07-16 14:20:49.000000000,closed,1,"Use log level DEBUG for ""Connection reset by peer"" post ter…"
+1202,2020-07-13 13:37:37.000000000,2020-07-31 08:51:43.000000000,closed,10,Spring Cloud Gateway: onInbound autoRead no keep-alive RST Error
+1201,2020-07-09 09:36:37.000000000,2020-07-24 10:18:55.000000000,closed,18,"When responsebody is empty, Connection has been closed BEFORE response."
+1200,2020-07-08 11:33:53.000000000,2020-07-08 11:38:10.000000000,closed,1,socket handle not release
+1199,2020-07-07 13:04:39.000000000,2020-07-22 10:18:59.000000000,closed,4,Sending HTTP2 empty DATA frame with length 0 and EndStream flag true
+1198,2020-07-06 18:26:42.000000000,2020-07-09 12:27:52.000000000,closed,1,fix #1165 Change the state after notifying that the connection is acquired successfully.
+1197,2020-07-06 13:34:16.000000000,2020-07-13 16:11:12.000000000,closed,10,fix #1194 Ensure custom HOST header is preserved when websocket
+1196,2020-07-06 12:28:07.000000000,2020-07-06 14:12:42.000000000,closed,1,Bump de.undercouch.download from 4.0.4 to 4.1.0
+1195,2020-07-06 10:43:38.000000000,2020-07-27 11:57:24.000000000,closed,12,Spring Cloud Gateway: Netty Byte Buff Leak Errors: ERROR io.netty.util.ResourceLeakDetector.reportTracedLeak - LEAK: ByteBuf.release() was not called
+1194,2020-07-04 20:42:45.000000000,2020-07-15 11:41:08.000000000,closed,4,HttpClient with websocket can not pass Host Header since 0.9.7
+1193,2020-07-04 10:06:17.000000000,2020-07-16 13:43:56.000000000,closed,5,support predicates to check for non proxied addresses
+1192,2020-07-03 17:56:03.000000000,2020-07-07 20:05:40.000000000,closed,2,fix #1031 Request headers are available from HttpClientRequest and HttpClientResponse
+1191,2020-07-02 12:22:06.000000000,2020-07-02 22:30:21.000000000,closed,1,Bump tomcat-embed-core from 9.0.36 to 9.0.37-dev
+1190,2020-07-02 10:36:06.000000000,2020-07-16 13:41:39.000000000,closed,5,PatternSyntaxException on nonProxyHosts
+1189,2020-06-29 19:10:51.000000000,2020-06-29 21:23:26.000000000,closed,3,fixes HttpClientOperations to don't offload `onSubscribe(subscription)`
+1188,2020-06-29 12:31:51.000000000,2020-07-15 14:49:44.000000000,closed,15,reactor.netty.http.client.HttpClilent: LEAK: ByteBuf.release() was not called before it's garbage-collected
+1187,2020-06-29 07:12:09.000000000,2020-06-29 11:44:16.000000000,closed,1,SslHandshakeTimeoutException
+1186,2020-06-29 05:57:37.000000000,2020-06-29 18:48:39.000000000,closed,4,Add proxy connectTimeoutMillis
+1185,2020-06-26 18:22:01.000000000,2020-06-29 19:21:20.000000000,closed,3,Enhances FluxReceiver internals
+1184,2020-06-25 18:17:22.000000000,2020-06-26 13:16:52.000000000,closed,14,Stack-overflows in reactor-netty
+1183,2020-06-25 15:09:22.000000000,2020-06-26 00:20:28.000000000,closed,2,Retry the request once if the connection was closed before sending the actual request
+1182,2020-06-25 12:20:35.000000000,2020-06-25 12:40:48.000000000,closed,1,Bump jackson-databind from 2.11.0 to 2.11.1
+1181,2020-06-24 14:12:57.000000000,2020-06-24 17:49:05.000000000,closed,0,fix #1180 Ensure that the custom status code phrase is preserved when creating a FullHttpResponse
+1180,2020-06-24 13:21:06.000000000,2020-06-24 18:06:59.000000000,closed,2,Impossible to get custom reasonPhrase when returning Mono
+1179,2020-06-24 12:43:28.000000000,2020-06-24 12:48:33.000000000,closed,2,Bump micrometer-core from 1.5.0 to 1.5.2
+1178,2020-06-24 11:04:40.000000000,2020-07-27 11:53:49.000000000,closed,17,ByteBuf.release() - LEAK
+1177,2020-06-23 22:01:55.000000000,2020-06-24 08:11:21.000000000,closed,0,Remove exclusion for class that does not exist
+1176,2020-06-23 21:28:20.000000000,2020-06-24 14:17:10.000000000,closed,2,Update javadoc with the version when the deprecated functionality will be removed
+1175,2020-06-23 18:45:14.000000000,2020-06-23 19:53:40.000000000,closed,1,Deprecate #bootstrap in favour of methods exposed on client/server level
+1174,2020-06-23 14:23:28.000000000,2020-06-23 15:29:08.000000000,closed,1,Cleanup deprecations related to Processors usage
+1173,2020-06-23 05:55:08.000000000,2020-06-25 13:30:56.000000000,closed,5,fix #1164 bind a local address example
+1172,2020-06-22 21:13:37.000000000,2020-07-16 14:44:06.000000000,closed,8,fixes memory-leaks when onNext races with cancellation signal
+1171,2020-06-22 17:48:34.000000000,2020-06-25 12:08:33.000000000,closed,1,GitHub Actions on MAC with NIO transport fail
+1170,2020-06-22 13:29:55.000000000,2020-06-24 00:50:30.000000000,closed,6,Connection reuse leads to Connection prematurely closed BEFORE response
+1169,2020-06-19 21:41:58.000000000,1970-01-01 00:00:00.000000001,open,1,HTTP/2 HttpClient follow ups
+1168,2020-06-19 19:42:46.000000000,2020-06-19 20:19:54.000000000,closed,1,Add TcpClient#bootstrap
+1167,2020-06-19 14:10:29.000000000,2020-06-29 12:13:01.000000000,closed,2,Spring Flux - ConnectTimeoutException 
+1166,2020-06-19 09:09:55.000000000,2020-06-21 12:15:21.000000000,closed,10,Trouble getting Webclient to work with SSL
+1165,2020-06-19 03:11:16.000000000,2020-07-09 12:36:22.000000000,closed,17,SSLException on request cancellation
+1164,2020-06-19 00:11:24.000000000,2020-06-25 13:28:19.000000000,closed,3,"HTTP client unable to specify which IP to bind to, please provide example and documentation"
+1163,2020-06-17 17:36:47.000000000,2020-06-17 18:42:30.000000000,closed,3,Increasing number of open file descriptors
+1162,2020-06-16 21:53:10.000000000,2020-06-18 21:11:24.000000000,closed,1,fix #1161 Clean the queue when onInboundError/onInboundClose is received
+1161,2020-06-16 16:44:41.000000000,2020-06-19 20:18:28.000000000,closed,1,FluxReceive queue not cleaned in case of inbound error after all data read
+1160,2020-06-16 12:26:30.000000000,2020-06-16 14:47:57.000000000,closed,2,Bump com.github.johnrengelman.shadow from 5.2.0 to 6.0.0
+1159,2020-06-16 03:00:46.000000000,2020-07-22 10:17:12.000000000,closed,11,HTTP client request timeout
+1158,2020-06-15 23:43:56.000000000,2020-06-16 00:26:44.000000000,closed,1,Persistent HTTP connections
+1157,2020-06-15 15:48:35.000000000,2020-07-27 11:55:23.000000000,closed,7,Requests to spring-web server get stuck
+1156,2020-06-15 11:58:21.000000000,2020-06-17 16:21:43.000000000,closed,3,fix #1153 Ensure only Content-Length is set when creating full response
+1155,2020-06-15 00:08:58.000000000,2020-08-03 15:44:09.000000000,closed,0,Make PooledConnectionProviderMetrics configureable 
+1154,2020-06-14 14:50:45.000000000,2020-06-15 17:15:27.000000000,closed,0,fix #1152 Ensure newSocketStream() is not invoked when obtaining information for the channel class
+1153,2020-06-13 22:36:45.000000000,2020-06-17 16:36:14.000000000,closed,0,Transfer-Encoding & Content-Length headers are being sent in response headers.
+1152,2020-06-13 14:09:55.000000000,2020-06-15 17:28:37.000000000,closed,15,Apparent file descriptor leak after upgrading from 0.9.7.RELEASE to 0.9.8.RELEASE
+1151,2020-06-12 09:56:03.000000000,2020-06-13 11:06:23.000000000,closed,1,NPE in ByteBufFlux.aggregate
+1150,2020-06-12 08:29:11.000000000,1970-01-01 00:00:00.000000001,open,4,Spring Boot with Reactor Netty Performance Issue right after application started
+1149,2020-06-12 00:03:17.000000000,2020-06-18 19:57:09.000000000,closed,1,Test concurrent requests can receive exception when connection refused
+1148,2020-06-11 20:06:59.000000000,2020-07-13 23:18:16.000000000,closed,3,Blockhound detects a blocking call for HTTPs connections
+1147,2020-06-11 16:05:16.000000000,2020-06-19 21:04:52.000000000,closed,1,Support HTTP/2 for HttpClient
+1146,2020-06-11 15:18:01.000000000,2020-06-29 12:21:14.000000000,closed,4,Reactor netty doesnt handle 1k request in one connection
+1145,2020-06-11 12:26:26.000000000,2020-06-11 13:18:03.000000000,closed,1,Bump netty-tcnative-boringssl-static from 2.0.30.Final to 2.0.31.Final
+1144,2020-06-09 21:06:41.000000000,2020-06-24 11:20:40.000000000,closed,12,LEAK: ByteBuf.release() was not called before it's garbage-collected.
+1143,2020-06-08 20:33:08.000000000,2020-06-08 21:32:13.000000000,closed,2,Setting h2c max content length on HttpRequestDecoderSpec does not work
+1142,2020-06-08 12:49:01.000000000,2020-06-08 18:13:15.000000000,closed,1,Bump tomcat-embed-core from 9.0.35 to 9.0.36
+1141,2020-06-08 12:18:36.000000000,2020-06-18 23:24:32.000000000,closed,2,reactor.netty.http.client.PrematureCloseException: Connection prematurely closed BEFORE response
+1140,2020-06-06 07:59:09.000000000,2020-06-15 15:09:56.000000000,closed,3,Suggest : Provide build task to package single jar for easy
+1139,2020-06-05 20:27:18.000000000,2020-06-05 20:34:41.000000000,closed,2,Bump junit from 4.12 to 4.13
+1138,2020-06-05 14:22:23.000000000,2020-06-05 15:55:16.000000000,closed,0,fix #1133 Add new API HttpClient#uri(URI)
+1137,2020-06-05 12:29:07.000000000,2020-06-05 18:14:51.000000000,closed,2,Bump hoverfly-java from 0.12.3 to 0.13.0
+1136,2020-06-05 09:56:48.000000000,2020-06-05 14:53:15.000000000,closed,0,Bump errorprone from 0.8.1 to 1.2.1
+1135,2020-06-05 06:30:22.000000000,2020-06-05 15:34:53.000000000,closed,3,Build failed from source
+1134,2020-06-03 21:02:45.000000000,2020-06-10 11:58:09.000000000,closed,2,Reactor Netty handles multiple connections in the same thread even if threads are available. Not in Round-Robin fashion
+1133,2020-06-03 16:31:05.000000000,2020-06-05 16:35:50.000000000,closed,5,http client use regular expression have performance problems
+1132,2020-06-02 16:17:03.000000000,2020-06-08 11:50:04.000000000,closed,2,query string encoding twice by netty when exists equal character inside
+1131,2020-06-02 14:35:41.000000000,2020-06-02 17:41:18.000000000,closed,1,Enable japicmp to track the changes between 0.9.x and 1.0.0
+1130,2020-06-01 12:48:51.000000000,2020-06-24 11:25:22.000000000,closed,19,LEAK: ByteBuf.release() was not called before it's garbage-collected.
+1129,2020-05-30 13:14:24.000000000,2020-06-02 17:23:01.000000000,closed,3,Add @sharable to ChannelHandler
+1128,2020-05-29 23:06:08.000000000,2020-06-02 12:14:23.000000000,closed,0,Deprecate constants
+1127,2020-05-29 21:58:37.000000000,2020-06-02 15:00:54.000000000,closed,1,Add HttpServer/HttpClient#tcpConfiguration and HttpServer/HttpClient#from
+1126,2020-05-29 14:51:23.000000000,2020-05-29 15:20:02.000000000,closed,4,TcpResources revised comments
+1125,2020-05-29 14:48:47.000000000,2020-05-29 14:51:58.000000000,closed,1,TcpResources revised comments
+1124,2020-05-28 15:08:11.000000000,2020-05-29 13:41:43.000000000,closed,1,Keep the binary compatibility
+1123,2020-05-28 09:39:52.000000000,2020-06-11 19:05:47.000000000,closed,2,reactor.netty.http.client.PrematureCloseException: Connection prematurely closed DURING response     Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: Assembly trace from producer [reactor.core.publisher.FluxLift] :  
+1122,2020-05-23 16:03:49.000000000,2020-05-23 16:05:27.000000000,closed,2,Bump com.jfrog.artifactory from 4.9.8 to 4.14.1
+1121,2020-05-23 09:46:38.000000000,2020-05-23 10:27:26.000000000,closed,1,Bump com.github.johnrengelman.shadow from 5.0.0 to 5.2.0
+1120,2020-05-23 09:46:15.000000000,2020-05-23 10:03:15.000000000,closed,3,Bump com.jfrog.artifactory from 4.9.8 to 4.15.2
+1119,2020-05-23 09:45:47.000000000,2020-05-23 10:17:59.000000000,closed,1,Bump com.github.hierynomus.license from 0.14.0 to 0.15.0
+1118,2020-05-23 09:45:28.000000000,2020-05-23 09:56:54.000000000,closed,3,Bump micrometer-core from 1.3.0 to 1.3.9
+1117,2020-05-22 21:47:37.000000000,2020-05-22 22:54:21.000000000,closed,1,Bump jackson-databind from 2.9.10.3 to 2.11.0
+1116,2020-05-22 21:47:07.000000000,2020-05-22 22:28:08.000000000,closed,3,Bump micrometer-core from 1.3.0 to 1.4.2
+1115,2020-05-22 21:46:42.000000000,2020-05-23 12:03:53.000000000,closed,3,Bump org.asciidoctor.convert from 1.5.11 to 2.4.0
+1114,2020-05-22 21:46:10.000000000,2020-05-22 23:03:31.000000000,closed,0,Bump me.champeau.gradle.japicmp from 0.2.8 to 0.2.9
+1113,2020-05-22 21:45:40.000000000,2020-05-22 22:35:41.000000000,closed,1,Bump assertj-core from 3.15.0 to 3.16.1
+1112,2020-05-22 17:43:53.000000000,2020-05-22 18:34:02.000000000,closed,3,Bump micrometer-core from 1.3.0 to 1.5.1
+1111,2020-05-22 17:43:39.000000000,2020-05-22 19:25:44.000000000,closed,1,Bump junit from 4.12 to 4.13
+1110,2020-05-22 17:43:10.000000000,2020-05-22 18:44:15.000000000,closed,1,Bump tomcat-embed-core from 9.0.31 to 9.0.35
+1109,2020-05-22 17:42:44.000000000,2020-05-22 19:05:35.000000000,closed,1,Bump de.undercouch.download from 3.4.3 to 4.0.4
+1108,2020-05-22 17:42:21.000000000,2020-05-22 19:43:48.000000000,closed,1,Bump osdetector-gradle-plugin from 1.4.0 to 1.6.2
+1107,2020-05-21 19:44:08.000000000,2020-05-23 00:17:16.000000000,closed,12,On Server side not able to retrieve a domain object from a HttpServerRequest/ByteBufFlux object using subscribe or doOnNext
+1106,2020-05-21 13:54:26.000000000,2020-05-22 16:27:31.000000000,closed,0,"fix #1039 Revise when trowing AbortedException, PrematureCloseExcepti…"
+1105,2020-05-21 08:48:09.000000000,2020-06-18 13:07:54.000000000,closed,4,Can't customize SNI values in client requests
+1104,2020-05-20 19:17:09.000000000,2020-05-24 05:08:22.000000000,closed,6,TcpResources prints WARN messages when resources are replaced
+1103,2020-05-20 18:44:47.000000000,2020-05-20 21:17:47.000000000,closed,0,"fix #1093 When executing graceful shutdown, wait only for the opened …"
+1102,2020-05-20 14:42:26.000000000,2020-05-21 09:23:35.000000000,closed,2,Spring webflux WebClient with Keystore/Truststore
+1101,2020-05-20 14:14:49.000000000,2020-05-20 14:28:00.000000000,closed,2,Fix exception message
+1100,2020-05-18 20:42:11.000000000,2020-05-22 19:21:15.000000000,closed,9,add  ability to configure response  timeout for the web-socket handshake operation
+1099,2020-05-18 09:24:27.000000000,1970-01-01 00:00:00.000000001,open,10,"Nginx report error ""connect() failed (110: Connection timed out) while connecting to upstream"""
+1098,2020-05-17 14:59:25.000000000,2020-05-17 16:11:44.000000000,closed,1,Support for Unix domain socket 
+1097,2020-05-16 08:19:38.000000000,2020-05-16 08:46:28.000000000,closed,3,Source line numbrers are outdated in reference documentation
+1096,2020-05-15 23:04:02.000000000,2020-05-18 21:46:53.000000000,closed,1,fix #1089 Bind WebsocketServerOperations immediately after the handsh…
+1095,2020-05-14 11:10:28.000000000,2020-05-14 14:41:49.000000000,closed,0,"When HttpServer in H2 mode, release FullHttpRequest in case of failure"
+1094,2020-05-14 10:14:54.000000000,2020-05-14 14:50:44.000000000,closed,1,"When HttpServer in H2 mode, check the parent channel for SslHandler presence"
+1093,2020-05-13 15:13:57.000000000,2020-05-20 21:29:23.000000000,closed,8,disposeNow(Duration) for an HTTP server doesn't return reliably
+1092,2020-05-13 06:00:35.000000000,2020-06-24 11:39:14.000000000,closed,20,reactor.netty.http.client.PrematureCloseException: Connection prematurely closed BEFORE response
+1091,2020-05-13 02:15:17.000000000,1970-01-01 00:00:00.000000001,open,12,[Improvement] send proper WebSocket close code and reason during shutdown of the client and server
+1090,2020-05-12 21:40:43.000000000,2020-05-12 21:54:00.000000000,closed,1,Add Codecov report for PRs
+1089,2020-05-12 05:28:22.000000000,2020-05-18 21:46:38.000000000,closed,17,Server side websocket connection establishment race condition
+1088,2020-05-11 13:52:07.000000000,2020-05-11 14:45:39.000000000,closed,2,[HTTP2] Consider X-Forwarded-For header in remote address
+1087,2020-05-09 18:59:32.000000000,2020-05-11 13:38:51.000000000,closed,2,When using uri(Mono<String> uri) to block the current thread
+1086,2020-05-05 22:55:47.000000000,2020-05-05 23:04:07.000000000,closed,1,blocking call inside GlobalEventExecutor#addTask
+1085,2020-05-01 16:00:18.000000000,2020-05-11 13:42:37.000000000,closed,4,"Connection has been closed BEFORE response, while sending request body"
+1084,2020-04-30 21:03:52.000000000,2020-04-30 23:35:18.000000000,closed,4,[build] Officially use new versioning scheme for 1.0 Europium
+1083,2020-04-30 17:20:22.000000000,2020-05-06 13:07:44.000000000,closed,1,Add UDS support
+1082,2020-04-30 16:30:11.000000000,2020-04-30 18:20:58.000000000,closed,0,Fix deprecation warnings
+1081,2020-04-30 13:04:40.000000000,2020-04-30 15:52:10.000000000,closed,0,DisposableChannel#address returns SocketAddress
+1080,2020-04-29 13:31:11.000000000,2020-04-30 15:15:18.000000000,closed,1,Add UDS support
+1079,2020-04-28 18:03:43.000000000,2020-04-29 14:01:05.000000000,closed,3,Add japicmp to the build.
+1078,2020-04-27 19:31:29.000000000,2020-04-29 11:23:31.000000000,closed,1,fix #453 Deprecate LoopResources #onChannel/onServerChannel/onDatagramChannel
+1077,2020-04-27 12:28:42.000000000,2020-04-29 14:08:07.000000000,closed,0,Add japicmp to the build
+1076,2020-04-27 11:24:27.000000000,2020-04-27 12:15:34.000000000,closed,0,fix #1075 Remove REMOTE_ADDRESS tag from the metrics reported by Micr…
+1075,2020-04-26 03:00:37.000000000,2020-04-27 12:30:54.000000000,closed,2,Server metrics cardinality explosion
+1074,2020-04-24 09:15:14.000000000,2020-05-01 18:28:35.000000000,closed,6,java.io.IOException: Connection closed prematurely
+1073,2020-04-23 16:28:17.000000000,2020-04-23 16:42:49.000000000,closed,1,Fix minor documentation typos
+1072,2020-04-23 14:51:22.000000000,2020-04-24 19:14:53.000000000,closed,1,fix #1071 Add HttpServer configuration for specifying the max content…
+1071,2020-04-23 13:32:56.000000000,2020-04-24 19:36:27.000000000,closed,2,Support for h2c upgrade with body
+1070,2020-04-23 13:17:42.000000000,2020-04-24 09:02:50.000000000,closed,0,fix #935 Add separate builder for Websocket client configuration
+1069,2020-04-23 12:54:57.000000000,2020-04-24 12:05:24.000000000,closed,2,Add reference documentation for metrics
+1068,2020-04-21 05:23:22.000000000,2020-04-21 11:50:11.000000000,closed,1,Can 0.9.7 be published soon.
+1067,2020-04-16 18:32:20.000000000,2020-04-17 15:46:32.000000000,closed,0,Do not cache NoopMeter
+1066,2020-04-16 14:38:39.000000000,2020-04-17 16:42:05.000000000,closed,1,"Add HttpServer/HttpClient#metrics(boolean, Function<String, String>)"
+1065,2020-04-15 12:19:00.000000000,2020-04-15 14:25:44.000000000,closed,1,Ensure re-acquire in case of channel was active when acquiring but cl…
+1064,2020-04-13 15:15:28.000000000,1970-01-01 00:00:00.000000001,open,0,Revise FluxReceive queue low limit
+1063,2020-04-13 15:00:35.000000000,2020-04-14 19:42:28.000000000,closed,0,fix #1016 Ensure the exception is propagated
+1062,2020-04-10 17:28:38.000000000,2020-04-20 18:44:48.000000000,closed,11,"[spring cloud gateway] Connection has been closed BEFORE response, while sending request body when uploading large file[16MB,]"
+1061,2020-04-09 11:32:23.000000000,2020-04-20 18:45:38.000000000,closed,3,reactor.netty.http.client.PrematureCloseException: Connection prematurely closed BEFORE response
+1060,2020-04-09 07:27:58.000000000,2020-04-10 10:58:18.000000000,closed,11,WebClient fails with Pool#acquire(Duration) has been pending for more than the configured timeout of 45000ms after 33000 request in loop
+1059,2020-04-08 19:40:47.000000000,2020-04-08 19:54:58.000000000,closed,1,reactor.netty.pool.maxIdleTime don't take effect
+1058,2020-04-08 07:11:45.000000000,1970-01-01 00:00:00.000000001,open,0,Add fluent mechanism to construct encoded uri parameters using QueryStringEncoder
+1057,2020-04-07 23:47:39.000000000,2020-04-08 11:03:51.000000000,closed,3,Netty Server handles HTTP 204(no content) with response body
+1056,2020-04-07 15:30:59.000000000,2020-04-07 21:33:24.000000000,closed,1,Ensure HttpClient#doAfterResponseSuccess is sent after the inbound is completed
+1055,2020-04-07 11:08:45.000000000,2020-04-07 16:18:51.000000000,closed,1,Deprecate #addressSupplier(Supplier) in favour of server#localAddress…
+1054,2020-04-06 14:10:20.000000000,2020-08-11 14:48:32.000000000,closed,13,Memory leak in HttpClient
+1053,2020-04-02 20:29:40.000000000,2020-04-03 09:46:56.000000000,closed,0,Deprecate server/client #doOnLifecycle method in favour of #doOn* methods
+1052,2020-04-01 18:40:16.000000000,2020-04-01 21:38:55.000000000,closed,0,fix #1050 Ensure receiverFastPath is enabled before enabling auto-read option
+1051,2020-04-01 16:13:10.000000000,2020-04-01 16:47:41.000000000,closed,0,Polishing graceful shutdown
+1050,2020-04-01 11:09:14.000000000,2020-04-01 21:39:33.000000000,closed,15,[HTTP2] bodyToMono waiting for data frame indefinitely #2
+1049,2020-03-31 19:24:54.000000000,2020-03-31 23:03:04.000000000,closed,1,fix #1042 Add support for graceful shutdown for TcpServer
+1048,2020-03-31 13:24:07.000000000,2020-03-31 14:54:55.000000000,closed,1,"Deprecate server/client #metrics(boolean, ChannelMetricsRecorder) in …"
+1047,2020-03-31 00:50:38.000000000,2020-03-31 23:50:02.000000000,closed,6,Enable WebSocket connection to external services.
+1046,2020-03-27 15:08:35.000000000,2020-04-25 13:01:36.000000000,closed,1,Use the new Transport API for TCP/UDP/HTTP implementations
+1045,2020-03-26 13:48:49.000000000,2020-03-26 14:12:09.000000000,closed,0,"Deprecate ChannelBindException#fail(AbstractBootstrap<?,?>, Throwable…"
+1044,2020-03-26 11:53:02.000000000,2020-04-08 11:07:20.000000000,closed,3,Why Backlog is 0
+1043,2020-03-25 23:35:23.000000000,2020-03-30 18:13:32.000000000,closed,0,fix #1041 Ensure one and the same MicrometerChannelMetricsRecorder instance is used when enabling metrics
+1042,2020-03-25 20:25:12.000000000,2020-03-31 23:08:19.000000000,closed,1,Graceful shutdown for TcpServer
+1041,2020-03-25 19:31:56.000000000,2020-03-30 18:16:31.000000000,closed,8,[TCPCLient - Metrics] Metrics create a Gauge per connection instead of only one before
+1040,2020-03-25 14:48:18.000000000,2020-03-25 17:28:48.000000000,closed,2,[build] Backport releaser.gradle additional tasks to 3.2.x
+1039,2020-03-25 11:12:18.000000000,2020-05-22 16:50:54.000000000,closed,2,"Revise when trowing AbortedException, PrematureCloseException and InternalNettyException"
+1038,2020-03-25 01:17:55.000000000,2020-03-25 19:40:51.000000000,closed,11,PrematureCloseException: Connection prematurely closed BEFORE response in load testing
+1037,2020-03-23 10:16:44.000000000,2020-03-23 12:07:37.000000000,closed,1,Wiretap enable option cause Connection reset by peer
+1036,2020-03-21 19:09:26.000000000,1970-01-01 00:00:00.000000001,open,0,Allow decoration of Mono<Connection>
+1035,2020-03-20 13:07:15.000000000,2020-03-20 19:12:37.000000000,closed,0,Move RESPONSE_RECEIVED from HttpObserver to HttpIOHandlerObserver
+1034,2020-03-20 10:33:01.000000000,2020-03-23 13:14:57.000000000,closed,2,fix #1022 Add support for graceful shutdown
+1033,2020-03-20 03:54:22.000000000,2020-03-20 19:25:33.000000000,closed,4,Adds failing test for unexpected timing in `HttpClient.doOnResponse()`
+1032,2020-03-19 12:20:54.000000000,2020-03-20 14:46:29.000000000,closed,7,Connection timeout to Netty Server
+1031,2020-03-19 06:51:29.000000000,2020-07-07 22:33:37.000000000,closed,6,Provide HttpClientResponse.request() api
+1030,2020-03-18 12:44:46.000000000,2020-03-23 13:31:35.000000000,closed,0,When reading the incoming data enable auto-read when the queue size is under a specified limit
+1029,2020-03-17 21:42:46.000000000,2020-03-18 16:38:28.000000000,closed,1,When redirecting switch to auto-read=true
+1028,2020-03-12 23:42:59.000000000,2020-03-16 21:47:42.000000000,closed,2,fix #1027 Ensure the connection is returned to the pool when follow redirect is enabled
+1027,2020-03-12 16:44:38.000000000,2020-03-16 22:07:06.000000000,closed,0,Connection is not returned to the pool when follow redirect is enabled
+1026,2020-03-11 22:09:40.000000000,2020-03-12 21:08:56.000000000,closed,1,Add release of HttpContent when redirecting
+1025,2020-03-11 02:10:18.000000000,2020-03-11 19:16:23.000000000,closed,0,fix #999 Add HttpInfos#fullPath for not removing leading/trailing '/' symbol
+1024,2020-03-10 09:39:03.000000000,2020-03-10 10:03:21.000000000,closed,1,upgrade netty to 4.1.47.Final
+1023,2020-03-10 01:30:26.000000000,1970-01-01 00:00:00.000000001,open,9,How to properly warmup connection pool
+1022,2020-03-09 20:27:24.000000000,2020-03-23 13:15:30.000000000,closed,4,Support Graceful Shutdown
+1020,2020-03-06 11:03:24.000000000,2020-03-10 13:56:57.000000000,closed,3,Add HttpClient#doOnRedirect callback that will be invoked when the request is about to be redirected
+1019,2020-03-05 23:18:51.000000000,2020-03-18 17:53:57.000000000,closed,6,fix #995 Add API for disabling retry support for HTTP client
+1018,2020-03-05 13:38:15.000000000,2020-03-05 20:14:22.000000000,closed,4,Abort send* operation if the connection is closed
+1017,2020-02-28 22:59:33.000000000,2020-02-29 00:35:52.000000000,closed,0,fix #1012 Ensure invalidate() is invoked on the correct PooledRef
+1016,2020-02-28 14:24:57.000000000,2020-04-14 19:53:38.000000000,closed,8,Backpressure for HTTP requests doesn't prevent OutOfMemoryError
+1015,2020-02-27 21:25:12.000000000,2020-02-28 15:13:02.000000000,closed,0,Ensure the channels that are not persistent will be closed when DISCONNECTING
+1014,2020-02-24 19:23:03.000000000,2020-02-24 22:45:01.000000000,closed,1,Fix compilation errors when using Java 13+
+1013,2020-02-24 07:27:52.000000000,2020-03-06 10:26:42.000000000,closed,11,NotYetConnectedException
+1012,2020-02-21 18:25:55.000000000,2020-02-29 00:36:21.000000000,closed,11,WebClient Connections stuck in `active` state after PrematureCloseException: Connection prematurely closed BEFORE response
+1011,2020-02-21 13:09:14.000000000,2020-02-21 21:02:15.000000000,closed,2,Add System properties for connection pool - max idle time and leasing strategy
+1010,2020-02-20 22:56:33.000000000,2020-04-17 16:47:37.000000000,closed,14,Netty metrics OutOfMemoryError
+1009,2020-02-20 16:06:23.000000000,2020-02-20 20:50:08.000000000,closed,0,Add separate builder for Websocket server configuration
+1008,2020-02-20 14:40:29.000000000,2020-02-21 10:43:22.000000000,closed,8,"Connection has been closed BEFORE response, while sending request body - keepalive timeout"
+1007,2020-02-19 22:02:17.000000000,2020-02-20 21:23:29.000000000,closed,0,fix #973 Add connection pool configuration per remote host
+1006,2020-02-19 17:30:32.000000000,2020-02-19 19:09:13.000000000,closed,0,Hook for redirect request handling
+1005,2020-02-19 17:20:04.000000000,2020-03-05 14:09:59.000000000,closed,9,Hang with max pool connections 1 and response_incomplete
+1004,2020-02-19 08:49:12.000000000,2020-02-19 10:29:02.000000000,closed,1,How to route outgoing traffic to proxy server in netty
+1003,2020-02-19 03:07:41.000000000,2020-02-21 10:52:36.000000000,closed,14,Using reactor-netty:0.9.4 memory leak happening with PooledConnectionProvider size increasing over period of time
+1002,2020-02-18 16:56:29.000000000,2020-02-18 17:56:28.000000000,closed,1,"In Connection Provider Document, Different Fields Has Same Description (DEFAULT_POOL_MAX_CONNECTIONS and DEFAULT_POOL_ACQUIRE_TIMEOUT)"
+1001,2020-02-18 16:46:10.000000000,2020-02-18 17:27:50.000000000,closed,0,Improve decoding failure handling 
+1000,2020-02-14 00:45:33.000000000,2020-03-10 14:00:16.000000000,closed,8,Adds test showing implicit redirects are invisible to metrics/tracing
+999,2020-02-13 21:00:10.000000000,2020-03-11 19:16:23.000000000,closed,11,"Allow retrieval of the http path including the ""/"" prefix"
+998,2020-02-13 16:40:05.000000000,2020-02-18 10:50:08.000000000,closed,5,fix #997 Ensure the actual request data is available when HttpClient#doOnRequest
+997,2020-02-13 16:31:52.000000000,2020-02-18 10:58:30.000000000,closed,0,HttpClient#doOnRequest does not provide the actual request data
+996,2020-02-13 04:04:05.000000000,2020-02-13 15:31:45.000000000,closed,1,Backfills passing test about redirect behavior
+995,2020-02-13 03:52:08.000000000,2020-03-18 17:56:01.000000000,closed,1,opt-out of connection retry
+994,2020-02-13 03:47:08.000000000,2020-02-18 10:51:44.000000000,closed,1,Adds failing test for POST request parsing
+993,2020-02-13 02:57:55.000000000,2020-02-13 15:24:12.000000000,closed,1,No crappy import
+992,2020-02-10 20:30:54.000000000,2020-02-11 00:01:18.000000000,closed,1,Fixed inconsistent error resolution in FutureMono
+991,2020-02-07 04:31:31.000000000,2020-04-25 13:13:57.000000000,closed,4,Too much `Bootstrap` and Tcp configuration related objects created for each request
+990,2020-02-06 16:31:04.000000000,2020-08-25 11:19:22.000000000,closed,1,Expose an API for custom handling of the X-Forwarded/Forwarded headers
+989,2020-02-05 21:55:38.000000000,2020-08-03 12:16:56.000000000,closed,2,Support ByteBufFormat option to LoggingHandler
+988,2020-02-05 02:44:38.000000000,2020-02-05 21:51:10.000000000,closed,22,Memory leak when enabling `wiretap` (and other tcpClient bootstrap options)
+987,2020-02-04 21:19:47.000000000,2020-02-05 02:04:43.000000000,closed,3,fix #986 ConnectionProviderMetrics Set PoolName in a tag
+986,2020-02-04 15:46:28.000000000,2020-02-05 02:00:46.000000000,closed,3,ConnectionProvider metrics should be dimensional and use tags instead of setting poolname in metric name
+985,2020-01-31 23:29:06.000000000,2020-02-03 16:47:33.000000000,closed,1,fix #950 Remove maximum allowable tags configuration
+984,2020-01-31 19:11:28.000000000,2020-02-03 13:37:39.000000000,closed,5,PooledConnectionProvider create new pool for each request from a same WebClient / remoteAddr
+983,2020-01-31 15:23:27.000000000,2020-02-06 16:07:05.000000000,closed,8,"fix #976 Support for ""X-Forwarded-Proto"" headers Multiple Values"
+982,2020-01-31 09:10:54.000000000,2020-03-05 14:12:57.000000000,closed,9,Premature connection before response - ERROR for both FIXED and ELASTIC
+981,2020-01-30 15:43:21.000000000,2020-04-15 14:34:37.000000000,closed,6,SSLEngine closed already
+980,2020-01-30 12:50:21.000000000,2020-01-31 22:50:51.000000000,closed,2,fix #970 Separate HTTP and WebSocket compression configuration when on the server side.
+979,2020-01-30 05:42:27.000000000,2020-01-30 17:04:05.000000000,closed,5,Memory is leaking when the response body is not consumed
+978,2020-01-29 19:50:47.000000000,2020-01-31 22:12:39.000000000,closed,0,fix #975 Add HttpClient.doAfterResponseSuccess that will be triggered only when the response is fully received
+977,2020-01-28 23:35:04.000000000,1970-01-01 00:00:00.000000001,open,0,Support for WebSocketExtensionFilterProvider
+976,2020-01-28 13:41:27.000000000,2020-02-06 16:25:48.000000000,closed,2,"Support ""X-Forwarded-Proto"" headers Multiple Values"
+975,2020-01-27 22:54:10.000000000,2020-01-31 22:31:40.000000000,closed,9,Confusing javadoc for `doAfterResponse` and `doOnResponseError`
+974,2020-01-27 20:16:37.000000000,2020-02-05 02:57:15.000000000,closed,5,ByteBufFlux hangs when passed downstream in HttpClient
+973,2020-01-27 17:31:13.000000000,2020-02-20 21:32:54.000000000,closed,0,Add connection pool configuration per remote host
+972,2020-01-25 21:21:36.000000000,2020-01-31 23:30:07.000000000,closed,3,Add option for changing the max URI tags
+971,2020-01-24 19:21:14.000000000,2020-01-28 23:37:09.000000000,closed,9,fix #970 Ensure WebSocket compression is enabled on the server in cases there is a compressionPredicate
+970,2020-01-24 17:09:53.000000000,2020-01-31 22:59:58.000000000,closed,3,WebSocket compression extension should not depends on SimpleCompressionHandler
+969,2020-01-23 22:22:49.000000000,2020-01-23 23:11:25.000000000,closed,2,Memory Leak (and Perf problem) due to MicrometerHttpMetricsRecorder adding meter filters repeatedly
+968,2020-01-23 00:03:06.000000000,2020-01-24 17:49:29.000000000,closed,0,fix #965 Http2StreamFrameToHttpObjectCodec expects DefaultHttpContent when it does the encoding
+967,2020-01-21 19:35:26.000000000,2020-01-22 18:53:18.000000000,closed,7,Cancelling session.receive() causes the session termination 
+966,2020-01-21 17:55:17.000000000,2020-01-22 16:34:16.000000000,closed,1,ConnectionProvider API refinements
+965,2020-01-21 15:50:52.000000000,2020-02-28 15:48:50.000000000,closed,32,netty reactive http2 server failed to handle response sent in Flux (0.9.2)
+964,2020-01-21 07:56:21.000000000,2020-01-27 17:17:32.000000000,closed,3,Memoy Leak while calling REST API - LEAK: ByteBuf.release() was not called before it's garbage-collected
+963,2020-01-20 03:19:56.000000000,2020-02-03 02:07:36.000000000,closed,2,Fix #962 Add configuration for switching between FIFO and LIFO order for the channels in the pool
+962,2020-01-18 13:44:28.000000000,2020-02-03 02:04:25.000000000,closed,1,Add configuration for switching between FIFO and LIFO order for the channels in the pool 
+961,2020-01-17 23:10:13.000000000,2020-01-18 14:16:36.000000000,closed,1,"NoSuchMethodError: ConnectionProvider.elastic(String, Duration)"
+960,2020-01-17 17:05:40.000000000,2020-01-18 14:03:29.000000000,closed,1,fix #951 Add API for configuring max pending acquire requests
+959,2020-01-17 03:18:41.000000000,2020-01-30 02:43:51.000000000,closed,3,fix #958 Add builder for configuring WebSocket on the server
+958,2020-01-16 23:50:36.000000000,2020-01-30 02:37:06.000000000,closed,1,Add builder for configuring WebSocket on the server
+957,2020-01-16 22:13:33.000000000,2020-01-17 17:01:39.000000000,closed,1,fix #951 Add API for configuring max pending acquire requests
+956,2020-01-16 18:48:25.000000000,2020-01-17 16:47:42.000000000,closed,2,fix #955 Deprecate the methods for creating ConnectionProvider in favour of ConnectionProvider.Builder
+955,2020-01-16 13:58:12.000000000,2020-01-17 17:01:24.000000000,closed,0,Deprecate the methods for creating ConnectionProvider in favour of ConnectionProvider builder
+954,2020-01-14 23:19:30.000000000,2020-01-16 13:33:28.000000000,closed,1,Add builder for configuring the ConnectionProvider
+953,2020-01-14 18:47:27.000000000,2020-01-14 19:33:27.000000000,closed,3,HttpServer: routing handler captures incorrect context
+952,2020-01-14 18:42:10.000000000,2020-01-14 18:53:32.000000000,closed,0,fix #948 Fix IllegalArgumentException while resolving the path
+951,2020-01-14 15:35:14.000000000,2020-01-18 14:00:19.000000000,closed,2,Connection pool maxPending size unbounded by default and cannot be configured
+950,2020-01-14 14:25:55.000000000,2020-02-03 16:52:06.000000000,closed,8,Add option for changing the max URI tags
+949,2020-01-14 13:47:15.000000000,2020-01-14 16:32:25.000000000,closed,2,fix #948 Fix IllegalArgumentException while resolving the path
+948,2020-01-13 21:31:19.000000000,2020-02-21 20:26:12.000000000,closed,8,"Failure to process URL where path is nothing but ""//"""
+947,2020-01-09 19:04:40.000000000,2020-01-10 03:48:33.000000000,closed,0,Optimize metrics implementation
+946,2020-01-08 20:33:03.000000000,2020-01-10 17:10:57.000000000,closed,0,fix #860 Add an API for disposing LoopResources with a specific quiet period and timeout
+945,2020-01-07 19:54:32.000000000,2020-01-10 18:13:10.000000000,closed,8,fix #663 Allow server to proxy ping frames instead of respond
+944,2020-01-04 01:11:33.000000000,2020-01-13 12:02:38.000000000,closed,8,timeout-triggered cancellation causes ref cnt error
+943,2020-01-02 16:04:39.000000000,2020-01-06 23:53:48.000000000,closed,0,fix #940 Switch auto-read to true when LastHttpContent received on the server
+942,2019-12-27 20:48:57.000000000,2019-12-28 23:00:19.000000000,closed,0,fix #941 Fix NumberFormatException when X-Forwarded-Port is non numeric
+941,2019-12-27 03:00:08.000000000,2019-12-28 16:29:55.000000000,closed,1,NumberFormatException in ConnectionInfo when X-Forwarded-Header is empty
+940,2019-12-23 19:59:02.000000000,2020-01-06 23:59:49.000000000,closed,2,"reactor netty does not instant propagate exception upon an attempt to send data to closed connection (regression from spring-boot 2.1.4, reactor-netty 0.8.6)"
+939,2019-12-20 02:46:03.000000000,2020-02-28 15:49:28.000000000,closed,2,Blocking call in eventloop while reading keystore on client side
+938,2019-12-19 23:53:37.000000000,2020-02-21 21:12:02.000000000,closed,30,Netty connection in pool reset by peer in Spring Cloud Gateway Application
+937,2019-12-19 01:09:40.000000000,2019-12-19 01:47:36.000000000,closed,1,WebSocket client sends raw data instead of Websocket frames
+936,2019-12-18 08:54:28.000000000,2019-12-18 12:08:18.000000000,closed,6,Disable Netty HTTP Client Connection Pool
+935,2019-12-17 19:03:42.000000000,2020-04-24 10:24:37.000000000,closed,3,Add builder for configuring WebSocket on the client
+934,2019-12-11 02:38:11.000000000,2019-12-17 14:11:54.000000000,closed,10,"Connection has been closed BEFORE response, while sending request body when uploading large file (size: 9 MO)"
+933,2019-12-11 01:09:37.000000000,2020-01-16 13:30:13.000000000,closed,7,Add builder for configuring the ConnectionProvider
+932,2019-12-10 18:30:38.000000000,2019-12-11 12:16:50.000000000,closed,0,fix #926 Ensure URI tag used for micrometer does not contain the query
+931,2019-12-10 01:58:14.000000000,2020-01-10 12:07:18.000000000,closed,7,Optimize MicrometerHttpMetricsRecorder
+930,2019-12-09 19:58:34.000000000,2019-12-09 22:41:39.000000000,closed,0,Use nanoTime for the timers
+929,2019-12-08 00:05:35.000000000,2019-12-09 12:22:02.000000000,closed,0,fix #928 Do not invoke SimpleCompressionHandler.channelRead as it will trigger ctx.fireChannelRead
+928,2019-12-07 17:06:36.000000000,2019-12-09 12:22:29.000000000,closed,1,"""Discarded inbound message DefaultHttpRequest"" log if compression is applied"
+927,2019-12-06 08:20:16.000000000,2019-12-17 19:07:18.000000000,closed,7,fix #663 Allow client to proxy ping frames instead of respond
+926,2019-12-05 15:16:33.000000000,2019-12-11 12:17:22.000000000,closed,0,Path + query is sent as uri tag for the HttpClient metrics
+925,2019-12-05 15:13:57.000000000,2020-02-07 16:26:29.000000000,closed,0,Add API ConnectionProvider.metrics
+924,2019-12-04 17:10:55.000000000,2019-12-04 23:28:17.000000000,closed,2,fix #922 Add ability to configure maxLifeTime for connection pools
+923,2019-12-04 13:47:39.000000000,2019-12-04 17:12:03.000000000,closed,2,fix #922 Add ability to configure maxLifeTime for connection pools
+922,2019-12-04 12:13:11.000000000,2019-12-04 23:36:24.000000000,closed,0,Add ability to configure maxLifeTime of connections in connection pool
+921,2019-11-29 14:52:06.000000000,2019-12-03 15:28:56.000000000,closed,17,fix #920 OSGI: explicit SymbolicName and fix imports-exports
+920,2019-11-29 14:15:34.000000000,2019-12-03 15:43:45.000000000,closed,1,bnd: SymbolicName and Import-Package differences with osgi plugin's version
+919,2019-11-29 08:47:15.000000000,2019-11-29 13:32:33.000000000,closed,0,support spring cloud gateway ws proxy(transparent). 
+918,2019-11-28 14:04:55.000000000,2019-11-28 14:41:44.000000000,closed,1,SOS HELP!! Ask for help： always io.netty.channel.ConnectionTimeoutException
+917,2019-11-27 23:42:02.000000000,2019-12-09 19:40:23.000000000,closed,2, logging details for connection pool reactor-netty
+916,2019-11-27 23:33:34.000000000,1970-01-01 00:00:00.000000001,open,0, update existing documentation with high level architecture diagram for reactor-netty.
+915,2019-11-27 23:21:50.000000000,2019-12-03 15:39:49.000000000,closed,11,fix #913 Apply BND convention to shadowJar as well
+914,2019-11-27 22:14:22.000000000,2019-11-27 22:26:04.000000000,closed,1,GitHub Actions setup-java 1.2.0
+913,2019-11-27 21:24:58.000000000,2019-12-03 15:43:46.000000000,closed,1,reactor-netty 0.9.2 no OSGi metadata
+912,2019-11-27 20:14:44.000000000,2019-12-01 20:14:15.000000000,closed,1,Ensure content will not be sent over the network when Content-Length:0 is specified
+911,2019-11-26 19:17:41.000000000,2019-11-26 20:16:31.000000000,closed,0,Ensure docsZip defines a -docs classifier
+910,2019-11-26 18:23:16.000000000,2019-11-26 20:41:07.000000000,closed,10,Memory is leaking when the response body is not consumed
+909,2019-11-22 01:20:42.000000000,2019-11-26 12:09:47.000000000,closed,0,fix #903 Ensure the closed connection is invalidated and removed from the pool
+908,2019-11-21 22:27:17.000000000,2019-11-26 12:19:59.000000000,closed,1,fix #900 Ensure the endpoint echoes the received CloseWebSocketFrame
+907,2019-11-21 22:05:38.000000000,1970-01-01 00:00:00.000000001,open,9,javax.net.ssl.SSLException: handshake timed out
+906,2019-11-21 19:45:41.000000000,2020-02-28 15:50:05.000000000,closed,11,rest service call with ssl blocks reactive thread
+905,2019-11-20 21:35:50.000000000,2019-11-26 11:59:59.000000000,closed,0,fix #896 Fixed NPE in HttpClient metrics when no client request
+904,2019-11-20 18:37:02.000000000,2019-11-20 18:37:25.000000000,closed,0,Conditionnally add mavenLocal when releaser script is applied
+903,2019-11-19 17:34:02.000000000,2019-11-26 12:09:47.000000000,closed,3,Connection not released in ConnectionPool when PrematureCloseException occurs
+902,2019-11-19 05:19:06.000000000,2019-11-20 05:14:57.000000000,closed,2,"Add ""access control allow origin"" method in httpserverresponse"
+901,2019-11-18 04:49:51.000000000,2019-12-03 01:08:24.000000000,closed,12,Add responseUrl to HttpClientResponse
+900,2019-11-17 19:21:44.000000000,2019-11-26 12:17:54.000000000,closed,2,reactor-netty websocket server do not response reason code as client send 
+899,2019-11-17 16:06:44.000000000,2019-11-19 03:47:10.000000000,closed,3,Add keeping of scheme on relative redirection of http requests
+898,2019-11-15 10:31:52.000000000,2019-11-22 07:45:11.000000000,closed,8,connection pool's max request count policy
+897,2019-11-15 06:31:57.000000000,2019-11-21 22:40:30.000000000,closed,2,How to realize Udp multicast 
+896,2019-11-14 15:01:03.000000000,2019-11-26 11:59:58.000000000,closed,0,NullPointerException in HttpClientMetricsHandler.exceptionCaught()
+895,2019-11-13 22:06:50.000000000,2019-11-19 02:30:15.000000000,closed,1,Ensure the message is released when it is empty
+894,2019-11-13 19:50:06.000000000,2019-11-15 23:10:43.000000000,closed,2,"Bump gradle, switch publication plugin, add groupId task for releaser"
+893,2019-11-08 19:50:41.000000000,2019-11-19 02:20:10.000000000,closed,1,fix #891 Remove host/port when testing for HTTP route
+892,2019-11-08 19:39:49.000000000,2019-11-19 02:15:13.000000000,closed,1,Release the message when the compressionPredicate throws RuntimeException
+891,2019-11-08 09:40:00.000000000,2019-11-19 02:21:02.000000000,closed,0,http request contains absolute URI can't match route path
+890,2019-11-07 13:21:18.000000000,2019-11-11 16:15:52.000000000,closed,4,How to add custom SSLContext for TCPClientSpec
+889,2019-11-04 23:45:02.000000000,2019-11-05 00:32:39.000000000,closed,1,Do not proceed with writing if the LastHttpContent is sent
+888,2019-11-04 21:58:23.000000000,2019-11-18 15:20:20.000000000,closed,3,UdpClient stops sending Publisher elements
+887,2019-11-04 17:56:52.000000000,1970-01-01 00:00:00.000000001,open,15,Proxy setting not working with Spring WebClient
+886,2019-11-04 05:35:05.000000000,2019-11-05 05:45:44.000000000,closed,2,How to obtain content in Httpserver
+885,2019-11-01 15:59:52.000000000,2020-08-20 15:17:56.000000000,closed,2,Add server side sni support.
+884,2019-10-31 16:11:59.000000000,2019-10-31 16:28:39.000000000,closed,1,fix #883 Add reactor.blockhound to OSGI optional bundles
+883,2019-10-31 12:27:44.000000000,2019-10-31 16:28:40.000000000,closed,2,reactor-netty 0.9 OSGI bundle issue reactor.blockhound is not optional
+882,2019-10-30 22:02:51.000000000,2019-11-04 23:49:30.000000000,closed,1,Fixed memory leak in ByteBufFlux#aggregate
+881,2019-10-30 12:56:48.000000000,1970-01-01 00:00:00.000000001,open,0,Potential out of memory error if writing too fast and having slow receiver
+880,2019-10-29 17:22:55.000000000,2019-11-04 22:36:13.000000000,closed,1,fix #879 HttpClientResponse#status returns the original response status
+879,2019-10-29 06:17:17.000000000,2019-11-04 22:37:33.000000000,closed,5,I can not get custom reason phrase
+878,2019-10-24 16:57:53.000000000,2019-10-24 20:35:39.000000000,closed,1,fix #863 Let Http2StreamFrameToHttpObjectCodec encode/decode Http2Stream
+877,2019-10-24 09:23:17.000000000,2019-11-07 18:43:57.000000000,closed,8,"Websocket server send close with code and reason ,but the client cannot receive the real 'code and reason'"
+876,2019-10-24 08:29:09.000000000,2019-11-04 23:57:47.000000000,closed,3,Memory leak if a timeout is triggered while still reading response body
+875,2019-10-24 04:55:04.000000000,2019-10-24 21:07:44.000000000,closed,2,Handle decoding failures with LastHttpContent
+874,2019-10-24 01:51:26.000000000,2019-10-24 03:49:10.000000000,closed,1,fix #865 Remove HttpToH2Operations in favour of Http2StreamFrameToHttpObjectCodec
+873,2019-10-23 14:39:55.000000000,2019-10-25 04:12:39.000000000,closed,5,remove redundant hashmaps which lead to OOM
+872,2019-10-22 18:51:54.000000000,2019-11-11 16:14:28.000000000,closed,1,Calling traditional SOAP/WSDL Service over netty/rector
+871,2019-10-21 17:13:43.000000000,2019-10-24 11:06:58.000000000,closed,2,NPE in bootstrap config localhost TcpClient
+870,2019-10-16 20:40:28.000000000,2019-10-25 17:00:45.000000000,closed,0,Add GH Action test matrix for OS/netty/transport
+869,2019-10-16 20:33:02.000000000,2019-10-21 22:13:26.000000000,closed,0,Pin Micrometer optional dep to 1.3.0 rather than latest.release
+868,2019-10-16 13:04:55.000000000,2019-10-24 11:01:40.000000000,closed,3,Update nettyVersion to at least 4.1.42.Final to get rid of CVE-2019-16869
+867,2019-10-16 11:55:11.000000000,2019-12-17 19:30:21.000000000,closed,6,Why use only one of netty's work threads
+866,2019-10-15 12:43:33.000000000,2019-10-25 04:26:11.000000000,closed,1,[HttpServer] HttpPredicate$UriPathTemplate can cause OOM
+865,2019-10-10 12:21:08.000000000,2019-10-24 03:50:19.000000000,closed,0,[HTTP2] bodyToMono waiting for data frame indefinitely
+864,2019-10-09 11:52:22.000000000,2019-10-11 14:01:07.000000000,closed,2,[HTTP2] ClassCastException on request
+863,2019-10-08 13:41:38.000000000,2019-10-24 20:37:16.000000000,closed,6,[HTTP2] LEAK: ByteBuf.release() was not called before it's garbage-collected
+862,2019-09-27 14:18:23.000000000,2019-09-29 08:45:30.000000000,closed,4,resolve the errorprone warning.
+861,2019-09-26 06:22:29.000000000,2019-09-30 06:20:39.000000000,closed,5,[Question]About the ConnectionObserver
+860,2019-09-23 19:40:26.000000000,2020-01-10 17:48:51.000000000,closed,10,Global resource cleanup slow on Mac OS
+859,2019-09-23 11:32:01.000000000,2019-09-24 01:16:47.000000000,closed,0,"Add TCP/UDP client/server #metrics(boolean, ChannelMetricsRecorder)"
+858,2019-09-23 06:24:19.000000000,2019-09-23 10:01:23.000000000,closed,2,avoid redundant regex compile
+857,2019-09-21 00:36:51.000000000,2019-09-21 10:47:39.000000000,closed,1,fix #794 Add maximum allowable URI tags for HttpServer/HttpClient metrics
+856,2019-09-20 19:16:53.000000000,2019-09-20 19:45:53.000000000,closed,1,Add metrics for the AddressResolver
+855,2019-09-20 06:51:39.000000000,2019-09-20 19:54:16.000000000,closed,2,Add proxy protocol auto detect feature.
+854,2019-09-20 01:27:13.000000000,2019-09-20 19:43:28.000000000,closed,1,Add metrics for the ByteBufAllocator
+853,2019-09-19 11:31:19.000000000,2019-09-19 23:50:15.000000000,closed,1,HAProxyMessage should be released to avoid memory leak.
+852,2019-09-19 06:02:29.000000000,2019-09-19 08:45:26.000000000,closed,4,"use single-quotes char in ""lastIndexOf"""
+851,2019-09-19 00:15:48.000000000,2019-09-19 16:51:08.000000000,closed,2,"fix #850 Specify fire-and-forget dispose() behaviour for LoopResources, ConnectionProvider"
+850,2019-09-18 14:30:18.000000000,2019-09-19 16:51:08.000000000,closed,1,Specify fire-and-forget `dispose()` behavior in javadoc of classes that have a `disposeLater()`
+849,2019-09-18 12:03:16.000000000,2019-09-18 12:19:09.000000000,closed,2,"how can I release the connection to channelPool create by ConnectionProvider, but close the connection"
+848,2019-09-18 11:25:43.000000000,2019-09-18 23:40:38.000000000,closed,1,Avoid calling `Pool.close()` which may block reactor thread permanently.
+846,2019-09-13 13:41:03.000000000,2019-09-15 22:54:17.000000000,closed,1,ConnectionProvider dispose leaves behind threads
+845,2019-09-13 01:07:42.000000000,2019-09-13 01:36:40.000000000,closed,1,fix #843 Ensure the original pipeline is not modified
+844,2019-09-12 23:34:46.000000000,2019-10-24 10:59:44.000000000,closed,1,reactor.netty.udp.UdpClientTest fails with Netty version >= 4.1.40.Final
+843,2019-09-12 17:23:17.000000000,2019-09-13 01:38:17.000000000,closed,0,HttpClient fails with SSL after redirect
+842,2019-09-12 16:41:38.000000000,2019-10-24 08:37:28.000000000,closed,6,Update Netty version to 4.1.41.Final
+841,2019-09-11 15:16:19.000000000,2019-09-18 08:45:24.000000000,closed,8,Detect whether secure or not when the first http request comes to support  SniHandler added by user.
+840,2019-09-11 09:31:10.000000000,2019-09-11 11:49:18.000000000,closed,1,How to add GlobalTrafficShapingHandler in httpClient？
+839,2019-09-07 07:15:16.000000000,2019-09-11 13:55:59.000000000,closed,9,Spring Webclient Read Timeout after being idle for several minutes
+838,2019-09-06 09:37:32.000000000,2019-09-06 10:28:54.000000000,closed,3,Netty giving SSL handshaking error while connecting to SNI enabled end points
+837,2019-09-06 00:34:23.000000000,2019-09-06 20:16:40.000000000,closed,5,Memory is leaking when the response body is not consumed
+836,2019-09-05 09:26:21.000000000,2019-09-11 12:15:35.000000000,closed,4,Got io.netty.util.IllegalReferenceCountException upon subscriber processed shutdown
+835,2019-09-03 21:26:08.000000000,2019-09-04 07:46:01.000000000,closed,1,Adapt to Mono.using changes
+834,2019-09-03 14:24:43.000000000,2019-09-03 15:45:42.000000000,closed,0,Update reactor core to 3.3.0.RC1
+833,2019-09-03 07:22:05.000000000,2020-01-27 17:21:34.000000000,closed,11,Data After End of Packet is Considered Another Packet
+832,2019-09-02 22:26:34.000000000,2019-09-12 09:32:59.000000000,closed,1,Add metrics for the connection pool
+831,2019-09-02 17:44:00.000000000,2019-09-12 09:33:34.000000000,closed,1,Add UDP metrics
+830,2019-09-02 15:20:13.000000000,2019-09-12 09:33:35.000000000,closed,0,Add UDP Metrics
+829,2019-08-31 09:37:07.000000000,1970-01-01 00:00:00.000000001,open,0,Revise UriEndpointFactory/UriEndpoint
+828,2019-08-31 01:28:17.000000000,2019-09-16 17:51:28.000000000,closed,1,Revise HttpClient follow redirect
+827,2019-08-30 17:41:32.000000000,2019-08-30 22:00:12.000000000,closed,2,Disable auto-redirect when the follow redirect predicate throws RuntimeException
+826,2019-08-30 17:00:53.000000000,2019-09-02 10:44:49.000000000,closed,1,fix #825 Close the connection when the compression predicate throws RuntimeException
+825,2019-08-30 16:36:26.000000000,2019-09-02 11:04:17.000000000,closed,0,Connection hangs when the compression predicate throws RuntimeException
+824,2019-08-28 17:42:30.000000000,2019-08-29 00:20:22.000000000,closed,1,"fix #820 When invoking SendManyInner#unvoid, propagate the success/failure from the new promise to SendManyInner"
+823,2019-08-26 23:37:56.000000000,2019-08-28 09:24:41.000000000,closed,2,fix #821 Abort the send operation if the channel is not active
+822,2019-08-22 00:26:26.000000000,2019-08-28 09:21:45.000000000,closed,1,Remove the usage of the deprecated Http2MultiplexCodecBuilder
+821,2019-08-21 21:09:47.000000000,2019-08-28 09:45:25.000000000,closed,3,reactiveBridge is not installed
+820,2019-08-20 02:58:01.000000000,2019-08-29 00:34:19.000000000,closed,3,Spring WebClient unable to send files using InputStreamResource from reactor netty 0.8.7.RELEASE
+819,2019-08-16 18:09:03.000000000,2019-08-16 18:34:03.000000000,closed,1,How to stop a httpSerevr ? DisposableServer.dispose[Now] doesn't work
+817,2019-08-15 15:49:31.000000000,2019-08-15 16:02:35.000000000,closed,4,Fix Javadoc of HttpClient.followRedirect
+816,2019-08-15 14:10:22.000000000,2019-08-15 17:32:23.000000000,closed,3,followRedirect is not actually true by default
+815,2019-08-15 10:01:18.000000000,2019-09-01 23:15:37.000000000,closed,3,#533 drafts `receiveCloseStatus` method
+814,2019-08-14 12:32:00.000000000,2019-08-14 15:52:13.000000000,closed,1,How to post http request with proxy?
+813,2019-08-08 09:50:52.000000000,2019-08-08 10:23:01.000000000,closed,4,How can I write a log outgoing a raw HTTP Request Body?
+812,2019-08-08 00:53:38.000000000,2019-08-10 00:30:28.000000000,closed,2,"fix #578 Switch ""fixed"" connection pool by default for TCP/HTTP client"
+811,2019-08-07 17:37:42.000000000,2019-09-04 10:50:18.000000000,closed,4,Chaining methods in NettyOutbound has weird results
+810,2019-08-06 22:10:53.000000000,1970-01-01 00:00:00.000000001,open,0,Refactor NettyOutbound#sendFile and ByteBufFlux#fromPath in order to encapsulate file sending functionality
+809,2019-08-06 13:55:11.000000000,2019-08-28 17:37:00.000000000,closed,14,MonoSendMany NPE
+808,2019-08-06 02:48:26.000000000,2019-08-06 20:33:05.000000000,closed,0,fix #807 Safely call removeListener on MonoSendMany terminal signal
+807,2019-08-06 02:46:05.000000000,2019-08-06 20:36:50.000000000,closed,0,CloseFuture memory leak with MonoSendMany
+806,2019-08-05 23:24:31.000000000,2019-08-05 23:34:57.000000000,closed,0,Enable ColocatedEventLoopGroup for the client
+805,2019-08-02 16:14:14.000000000,2019-08-05 22:33:40.000000000,closed,2,fix #804 Ensure there is no proxy LoggingHandler when wiretap is off
+804,2019-08-02 10:29:48.000000000,2019-08-05 22:35:00.000000000,closed,1,"wiretap is not enable ,but still printing Read/Write bytes log"
+803,2019-08-01 02:51:44.000000000,2019-08-01 02:56:26.000000000,closed,0,NIO transport shouldn't be forced it SslContext is JDK based
+802,2019-08-01 02:09:07.000000000,2019-08-01 02:15:14.000000000,closed,0,Switch PrematureCloseException to non singleton
+801,2019-07-31 16:11:50.000000000,2019-08-05 15:52:00.000000000,closed,8,ByteBufFlux#asByteBuffer does not release underlying ByteBuf(s)
+800,2019-07-31 07:18:32.000000000,2019-09-11 12:17:33.000000000,closed,15,io.netty.util.internal.OutOfDirectMemoryError
+799,2019-07-30 20:48:12.000000000,2019-07-30 21:30:20.000000000,closed,1,Deprecate FutureMono#deferFutureWithContext
+798,2019-07-30 18:34:24.000000000,2019-09-24 01:18:02.000000000,closed,1,Ability To Override Metrics Registration
+797,2019-07-30 17:50:54.000000000,2019-09-20 19:49:49.000000000,closed,1,Extend TCP|HTTP metrics
+796,2019-07-30 12:21:42.000000000,2019-08-29 16:08:12.000000000,closed,20,Got Connection prematurely closed BEFORE response
+795,2019-07-30 05:30:18.000000000,1970-01-01 00:00:00.000000001,open,0,[HttpServer] Outbound send shouldn't subscribe if connection is disposed
+794,2019-07-29 22:58:03.000000000,2019-09-21 10:47:39.000000000,closed,0,Add maximumAllowableTags for metrics with uri
+793,2019-07-29 17:11:41.000000000,2019-08-14 03:22:48.000000000,closed,6,UDP tests fail with Netty >= 4.1.37
+792,2019-07-29 17:06:55.000000000,2019-07-29 23:19:00.000000000,closed,1,fix #612 API for configuring pooled connection idle time
+791,2019-07-26 17:38:48.000000000,2019-07-26 22:05:55.000000000,closed,0,Deprecate NettyOutbound.options and NettyPipeline.SendOptions
+790,2019-07-25 17:21:20.000000000,2019-07-29 10:14:41.000000000,closed,2,Add TCP/HTTP Metrics
+789,2019-07-24 22:54:38.000000000,2019-07-26 17:29:33.000000000,closed,3,HttpClient Wiretap Specify Log Level
+788,2019-07-24 11:58:04.000000000,2019-11-27 11:12:42.000000000,closed,21,Caching the request body as an attribute in spring gateway leaks the memory
+787,2019-07-24 00:10:42.000000000,2019-07-24 00:19:48.000000000,closed,4,"Documentation fix for error: ""neither SslContextBuilder nor SslContext is specified"""
+786,2019-07-23 17:03:05.000000000,2019-07-23 17:56:13.000000000,closed,2,Migration guide from 0.7.x to 0.8.x
+785,2019-07-23 03:44:05.000000000,2019-08-06 21:15:22.000000000,closed,7,NullPointerException in SendManyInner with Reactor Netty 0.8.9
+784,2019-07-18 20:04:40.000000000,2019-07-19 15:13:42.000000000,closed,1,File leak in ByteBufFlux#fromPath
+783,2019-07-17 12:13:12.000000000,2019-07-26 17:16:19.000000000,closed,13,TCP: Connection.addHandler weird behavior 
+782,2019-07-16 17:55:19.000000000,2020-04-15 14:33:53.000000000,closed,58,javax.net.ssl.SSLException: SSLEngine closed already for gateway requests
+781,2019-07-11 00:15:21.000000000,1970-01-01 00:00:00.000000001,open,0,Netty with accessEvents with logback-access
+780,2019-07-05 14:11:32.000000000,2019-07-05 19:51:24.000000000,closed,1, How to switch proxy address?
+779,2019-07-05 13:35:23.000000000,1970-01-01 00:00:00.000000001,open,1,Make it possible to instrument task execution
+778,2019-07-05 12:52:00.000000000,2019-07-08 19:00:47.000000000,closed,12,Memory is leaking when the response body is not consumed
+777,2019-07-02 20:48:49.000000000,2019-07-03 14:08:54.000000000,closed,4,Returns 'Mono.error(exception)' not working in responseSingle
+776,2019-07-02 18:33:04.000000000,2019-07-02 19:37:19.000000000,closed,0,fix #768 Do not remove the reactive bridge in case of a close frame.
+775,2019-07-02 14:14:56.000000000,2019-07-02 22:43:25.000000000,closed,2,Clean resources of long living connections to reduce gc pressure
+774,2019-07-02 12:20:36.000000000,2019-07-26 17:52:21.000000000,closed,2,Met PrematureCloseException: Connection prematurely closed BEFORE response
+773,2019-07-01 12:43:01.000000000,2019-07-02 14:15:38.000000000,closed,2,Clean resources of long living connections to reduce gc pressure
+772,2019-06-29 14:45:46.000000000,2019-07-02 20:11:54.000000000,closed,1,how to custom access log pattern
+771,2019-06-28 20:28:26.000000000,2019-06-28 21:18:45.000000000,closed,0,reactor.netty.ByteBufMono#asInputStream add to javadoc the memory release requirements
+770,2019-06-28 15:02:39.000000000,2019-06-28 21:24:56.000000000,closed,1,Use the correct address when cannot extract the port from forwarded headers
+769,2019-06-27 21:40:02.000000000,2019-07-01 21:01:30.000000000,closed,1,Add NettyOutbound.send/sendObject API with a predicate for enforcing flush operation
+768,2019-06-27 10:09:23.000000000,2019-07-02 19:37:20.000000000,closed,3,Error “reactiveBridge is not installed” 
+767,2019-06-26 02:57:14.000000000,2019-06-26 03:00:35.000000000,closed,1,Remove send options
+766,2019-06-26 02:52:03.000000000,2019-06-26 03:00:37.000000000,closed,0,Remove SendOptions since new send is flush adaptive
+765,2019-06-25 20:33:34.000000000,2019-06-26 14:33:00.000000000,closed,0,Extend `EventLoop` from Netty's `FastThreadLocalThread`
+764,2019-06-22 16:23:41.000000000,2019-07-17 17:42:15.000000000,closed,8,First WebClient request always fails after some idle time
+763,2019-06-21 19:47:51.000000000,2019-07-01 05:10:21.000000000,closed,2,ServerHttpResponse already committed (404 NOT_FOUND)
+762,2019-06-14 05:57:45.000000000,2019-06-19 05:33:16.000000000,closed,7,The HttpClient always connect to 80 port
+761,2019-06-12 22:58:33.000000000,1970-01-01 00:00:00.000000001,open,1,Provide samples as part of the project
+760,2019-06-10 20:51:30.000000000,2019-07-03 18:32:23.000000000,closed,6,WebClient read timeout delivers error long after timeout expires
+759,2019-06-10 20:47:41.000000000,2019-06-10 20:50:28.000000000,closed,0,Use the default port when cannot extract the port from forwarded headers.
+758,2019-06-10 19:40:32.000000000,2019-06-10 20:27:59.000000000,closed,1,Dispose the PooledConnectionProvider in a separate thread
+757,2019-06-08 00:05:49.000000000,2019-06-24 20:00:51.000000000,closed,4,Mutual TLS SSL Context Not Working
+756,2019-06-07 16:09:49.000000000,2019-06-19 05:37:46.000000000,closed,5,WebClient PrematureCloseException: Connection prematurely closed BEFORE response
+755,2019-06-05 02:56:59.000000000,2019-06-06 10:59:41.000000000,closed,4,Fix unintended stack trace suppression despite DEBUG level being enab…
+754,2019-06-04 01:43:24.000000000,2019-06-10 21:33:58.000000000,closed,0,Routes do not support wildcard anymore
+753,2019-05-29 18:01:50.000000000,1970-01-01 00:00:00.000000001,open,0,Consider expanding the HttpClient to support a query parameter and fragment builders.
+752,2019-05-29 15:35:00.000000000,2019-08-15 22:06:13.000000000,closed,10,Using CustomHostnameVerifier instead of default Hostname Verifier for ssl
+751,2019-05-27 16:09:31.000000000,2019-05-28 09:08:35.000000000,closed,2,IdleStateHandler occur error when write opperation
+750,2019-05-27 14:16:15.000000000,1970-01-01 00:00:00.000000001,open,0,Enable BlockHound during the tests
+749,2019-05-23 11:24:26.000000000,2019-06-10 21:08:50.000000000,closed,0,After upgrade of reactor-netty from 0.8.3 to 0.8.9.BUILD-SNAPSHOT got some tests broken in _feign-reactive_ project
+748,2019-05-21 17:56:54.000000000,2019-05-21 20:07:21.000000000,closed,4,Use Tomcat as HTTP server in order to test Reactor Netty HTTP client
+747,2019-05-21 14:22:17.000000000,2019-06-11 03:37:48.000000000,closed,2,031 ERROR 8804 — [ctor-http-nio-1] 
+746,2019-05-21 14:02:17.000000000,2019-07-03 16:53:36.000000000,closed,16,Throwing an Exception from an onStatus handler in WebClient leads to a ByteBuf leak
+745,2019-05-20 20:07:07.000000000,2019-05-20 21:29:19.000000000,closed,5,Extend `EventLoop` from Netty's `FastThreadLocalThread`
+744,2019-05-18 02:37:05.000000000,2019-06-10 21:08:51.000000000,closed,4,HTTP2 request with json not working using Webflux and Netty
+743,2019-05-17 16:53:06.000000000,2019-05-21 20:17:13.000000000,closed,2,use WireMock to locally simulate HTTP server
+742,2019-05-16 14:21:14.000000000,2019-05-16 18:29:26.000000000,closed,1,Use example.com urls instead of foo/google
+741,2019-05-15 22:59:08.000000000,2019-07-30 05:47:33.000000000,closed,3,Investigate if HttpServer can avoid producing cancel on single mono responses
+740,2019-05-14 01:43:24.000000000,2019-06-04 00:49:01.000000000,closed,1,Reactor Netty Milestone (Reference) link is wrong on projectreactor.io
+739,2019-05-13 17:39:24.000000000,2020-07-31 14:10:39.000000000,closed,3,Consider making netty-codec-http[2] dependencies optional
+738,2019-05-11 16:47:36.000000000,2019-07-02 22:58:56.000000000,closed,8,support spring cloud gateway ws proxy(transparent).
+737,2019-05-10 19:06:23.000000000,2019-09-27 19:45:40.000000000,closed,4,Strange latency numbers when the rate is inscreased
+736,2019-05-10 17:36:38.000000000,2019-05-12 18:31:24.000000000,closed,3,After upgrade of reactor-netty from 0.8.3 to 0.8.8 got some tests broken in _feign-reactive_ project
+735,2019-05-07 17:15:50.000000000,2019-05-08 09:04:03.000000000,closed,1,NettyOutbound.sendObject(Publisher) stops sending messages after a few messages with version 0.9
+734,2019-05-07 15:34:11.000000000,2019-05-24 18:59:36.000000000,closed,7," Shade Netty Proxy, HTTP/2 and HAProxy"
+733,2019-05-07 15:21:45.000000000,2019-05-07 15:30:15.000000000,closed,1,Remove shading (postponed until M2)
+732,2019-05-07 10:52:59.000000000,2019-05-07 15:26:07.000000000,closed,2,fix shading config (exclude compile dependencies from `shaded`)
+731,2019-05-07 00:11:20.000000000,2019-05-07 01:06:35.000000000,closed,0,Declare an Java9 JPMS Automatic-Module-Name for netty
+730,2019-05-06 15:00:42.000000000,2019-05-07 09:38:56.000000000,closed,1,"Shade Netty's HAProxy, Proxy and HTTP/2"
+729,2019-05-03 13:51:29.000000000,2019-05-03 15:20:21.000000000,closed,2,Reuse Connection Pool with proxied connections
+728,2019-05-02 19:52:32.000000000,2019-05-03 15:23:33.000000000,closed,4,Fix ProxyProvider hash function leading to memory leakage
+727,2019-05-02 16:19:11.000000000,2019-05-07 09:38:29.000000000,closed,3,"Use shadow plugin for Netty's HAProxy, Proxy, Http/2 support"
+726,2019-05-01 19:25:03.000000000,2019-05-03 15:48:40.000000000,closed,4,Http client should ignore malformed cookies
+725,2019-05-01 10:51:35.000000000,2019-05-06 11:17:33.000000000,closed,2,Revisit write operations
+724,2019-04-30 12:43:04.000000000,2019-07-26 17:54:46.000000000,closed,4,Connection prematurely closed BEFORE response
+723,2019-04-22 22:54:27.000000000,2019-07-26 22:13:02.000000000,closed,1,fix #717 Switch from Netty Connection Pool to Reactor Pool
+722,2019-04-22 17:04:25.000000000,2020-04-13 16:30:26.000000000,closed,3,How to disable Expect: 100-continue default processing by underlying netty
+721,2019-04-20 13:11:50.000000000,2019-07-29 10:18:52.000000000,closed,4,Monitor Http Client 
+720,2019-04-19 21:07:31.000000000,2019-05-01 11:04:14.000000000,closed,2,fix #719 Filter the empty buffers emitted by the Publisher
+719,2019-04-19 04:10:25.000000000,2019-05-06 11:24:00.000000000,closed,0,POSTing empty request body over HTTPS hangs on second attempt
+718,2019-04-18 21:58:30.000000000,2019-04-30 17:24:28.000000000,closed,4,Rest endpoint echoing request attribute fails with: Only one connection receive subscriber allowed.
+717,2019-04-18 15:19:47.000000000,2019-07-26 22:13:03.000000000,closed,0,Switch from Netty Connection Pool to Reactor Pool
+716,2019-04-16 10:12:30.000000000,2019-04-17 09:27:45.000000000,closed,0,When netty-codec-haproxy dependency is missing do not check the channel attribute
+715,2019-04-16 09:52:37.000000000,2019-04-25 15:44:25.000000000,closed,3,HTTP request timeout
+714,2019-04-12 21:53:47.000000000,1970-01-01 00:00:00.000000001,open,1,Provide API to ensure client response is drained
+713,2019-04-12 18:30:26.000000000,2019-04-12 19:38:42.000000000,closed,1,Reduce ChannelOperations#get invocations
+712,2019-04-11 12:35:35.000000000,2019-04-13 19:39:27.000000000,closed,0,Clean up ServerBootstrap default options
+711,2019-04-11 12:18:23.000000000,2019-04-11 23:19:29.000000000,closed,0,Invoke cleanup only when cancel/error event
+710,2019-04-11 11:00:43.000000000,2020-08-07 22:58:58.000000000,closed,6,Sometimes deadlock is occurred due to blocking DNS resolver
+709,2019-04-09 22:37:06.000000000,2019-04-09 22:54:09.000000000,closed,2,Override reactor.netty.http.HttpDecoderSpec methods to keep compatibility in 0.8.x
+708,2019-04-09 21:10:32.000000000,2019-04-10 19:35:19.000000000,closed,1,Use an adaptation of Spring Framework UriTemplate for resolving path params
+707,2019-04-09 19:18:01.000000000,2019-04-09 20:37:39.000000000,closed,0,"When creating HttpServerOperations directly set a header ""Transfer-Encoding: chunked"""
+706,2019-04-08 19:32:58.000000000,2019-04-08 20:01:53.000000000,closed,0,Apply TcpServer#selectorOption as ServerBootstrap#option
+705,2019-04-08 17:26:09.000000000,2019-04-09 20:45:29.000000000,closed,1,When possible obtain the connection once from the channel attrs
+704,2019-04-06 17:47:51.000000000,2019-04-07 12:32:40.000000000,closed,0,fix #531 Add API for configuring the HTTP response decoder used by the HttpClient
+703,2019-04-06 13:36:46.000000000,2019-04-06 14:06:07.000000000,closed,1,Fix NullPointerException.
+702,2019-04-05 17:29:00.000000000,2019-04-06 11:23:27.000000000,closed,9,Pass HttpHeaders to HttpProxyHandler for newInitialMessage
+701,2019-04-05 15:55:41.000000000,2019-04-08 13:40:13.000000000,closed,2,fix #558 Ensure doOnRequest is invoked before the actual request
+700,2019-04-05 02:42:58.000000000,2019-05-06 11:58:14.000000000,closed,7,Memory leak in ByteBufFlux#aggregate
+699,2019-04-03 16:20:47.000000000,2019-04-04 14:43:38.000000000,closed,1,fix #585 Introduce a cleanup mechanism for messages that are dropped
+698,2019-04-02 16:18:09.000000000,2019-04-03 10:40:01.000000000,closed,0,Do not attempt any writing if the connection is closed.
+697,2019-04-02 11:50:28.000000000,2019-04-12 22:16:15.000000000,closed,8,Add proxy protocol support
+696,2019-03-30 10:42:57.000000000,2019-03-30 13:02:31.000000000,closed,8,Issue #508 has arisen again in the v0.8.5.RELEASE
+695,2019-03-30 00:21:27.000000000,2019-03-30 11:25:08.000000000,closed,1,fix #694 Ensure HttpClientOperations#send(Publisher) does not leak when GET request
+694,2019-03-30 00:10:52.000000000,2019-03-30 11:29:59.000000000,closed,0,HttpClient leaks when sending a GET request with a body
+693,2019-03-29 01:34:45.000000000,2019-07-29 22:17:54.000000000,closed,4,How to time HTTP client events like SSL handshake
+692,2019-03-28 19:43:39.000000000,2019-03-30 01:14:28.000000000,closed,3,fix #653 When a channel is acquired and closed immediately re-acquire only once
+691,2019-03-28 14:07:44.000000000,2019-03-30 00:03:54.000000000,closed,4,fix #673 Ensure PooledConnectionProvider.Pool#inactiveConnections is correct when TimeoutException
+690,2019-03-27 18:00:51.000000000,2019-03-28 10:12:55.000000000,closed,0,fix #688 Ensure DISCONNECTING is sent when the channel is closed
+689,2019-03-27 16:47:58.000000000,2019-03-27 18:02:31.000000000,closed,2,Calls ConnectionObserver.onStateChange on disconnecting
+688,2019-03-27 16:43:23.000000000,2019-03-28 10:13:55.000000000,closed,5,disconnecting state is not called on ConnectionObserver of TcpServer
+687,2019-03-26 10:36:43.000000000,2019-03-26 14:13:33.000000000,closed,1,URL Cleanup
+686,2019-03-26 10:36:34.000000000,2019-03-26 14:13:49.000000000,closed,1,URL Cleanup
+685,2019-03-26 10:36:26.000000000,2019-03-26 14:14:05.000000000,closed,1,URL Cleanup
+684,2019-03-26 10:36:18.000000000,2019-03-26 14:14:18.000000000,closed,1,URL Cleanup
+683,2019-03-26 10:36:10.000000000,2019-03-26 18:50:03.000000000,closed,1,URL Cleanup
+682,2019-03-26 10:36:00.000000000,2019-03-26 18:43:57.000000000,closed,2,URL Cleanup
+681,2019-03-26 10:35:47.000000000,2019-03-26 18:33:02.000000000,closed,2,URL Cleanup
+680,2019-03-26 08:36:24.000000000,2019-03-26 08:51:45.000000000,closed,1,URL Cleanup
+679,2019-03-26 08:36:17.000000000,2019-03-26 08:51:32.000000000,closed,1,URL Cleanup
+678,2019-03-26 08:36:09.000000000,2019-03-26 08:51:19.000000000,closed,1,URL Cleanup
+677,2019-03-26 08:36:00.000000000,2019-03-26 08:50:59.000000000,closed,1,URL Cleanup
+676,2019-03-26 08:35:53.000000000,2019-03-26 08:48:59.000000000,closed,0,URL Cleanup
+675,2019-03-26 08:35:45.000000000,2019-03-26 08:45:43.000000000,closed,0,URL Cleanup
+674,2019-03-26 08:35:37.000000000,2019-03-26 08:44:26.000000000,closed,0,URL Cleanup
+673,2019-03-26 02:23:39.000000000,2019-03-30 00:06:01.000000000,closed,4,Trace shows negative number of inactive connections
+672,2019-03-26 02:02:56.000000000,2019-03-26 07:25:41.000000000,closed,1,URL Cleanup
+671,2019-03-26 02:02:48.000000000,2019-03-26 07:25:47.000000000,closed,0,URL Cleanup
+670,2019-03-26 02:02:41.000000000,2019-03-26 07:25:41.000000000,closed,1,URL Cleanup
+669,2019-03-26 02:02:34.000000000,2019-03-26 07:25:47.000000000,closed,0,URL Cleanup
+668,2019-03-26 02:02:26.000000000,2019-03-26 07:25:41.000000000,closed,0,URL Cleanup
+667,2019-03-26 02:02:18.000000000,2019-03-26 07:25:41.000000000,closed,1,URL Cleanup
+666,2019-03-26 02:02:09.000000000,2019-03-26 07:25:41.000000000,closed,1,URL Cleanup
+665,2019-03-23 18:31:01.000000000,2019-03-26 11:22:10.000000000,closed,5,Do not release the channel twice
+664,2019-03-22 19:02:34.000000000,2019-03-26 11:24:45.000000000,closed,1,fix #651 Ensure context is available when HttpClient#doAfterResponse
+663,2019-03-21 21:09:11.000000000,2020-01-10 18:13:10.000000000,closed,8,Add option to allow WebsocketServerOperations to not respond to Ping frames
+662,2019-03-21 12:40:15.000000000,2019-03-21 16:55:00.000000000,closed,1,URL Cleanup
+661,2019-03-21 12:40:04.000000000,2019-03-21 19:26:59.000000000,closed,1,URL Cleanup
+660,2019-03-21 12:39:54.000000000,2019-03-21 19:26:47.000000000,closed,1,URL Cleanup
+659,2019-03-21 12:39:46.000000000,2019-03-21 19:26:35.000000000,closed,1,URL Cleanup
+658,2019-03-21 12:39:38.000000000,2019-03-21 19:26:19.000000000,closed,1,URL Cleanup
+657,2019-03-21 12:39:30.000000000,2019-03-21 16:49:04.000000000,closed,1,URL Cleanup
+656,2019-03-21 12:39:22.000000000,2019-03-21 16:37:25.000000000,closed,0,URL Cleanup
+655,2019-03-21 12:39:14.000000000,2019-03-21 16:35:09.000000000,closed,1,URL Cleanup
+654,2019-03-21 06:14:54.000000000,2019-05-06 12:01:37.000000000,closed,16,Latency Increase as Connections Increase
+653,2019-03-21 02:50:04.000000000,2019-03-30 01:15:18.000000000,closed,1,Spring stomp client does not always reconnect to broker if using SSL
+652,2019-03-20 22:12:11.000000000,2019-03-21 09:33:01.000000000,closed,0,URL Cleanup
+651,2019-03-20 03:28:49.000000000,2019-03-26 11:26:57.000000000,closed,0,`doAfterResponse`: response does not have correct context when using default connection pool
+650,2019-03-18 05:56:02.000000000,2019-04-12 23:57:14.000000000,closed,13,Very low throughput - Spring Webflux Netty vs Gatling
+649,2019-03-16 06:52:17.000000000,2019-03-16 10:36:05.000000000,closed,0,URL Cleanup
+648,2019-03-16 06:52:10.000000000,2019-03-16 10:36:21.000000000,closed,0,URL Cleanup
+647,2019-03-16 06:52:04.000000000,2019-03-19 08:58:39.000000000,closed,1,URL Cleanup
+646,2019-03-16 06:51:57.000000000,2019-03-19 08:59:00.000000000,closed,0,URL Cleanup
+645,2019-03-16 06:51:50.000000000,2019-03-16 09:01:18.000000000,closed,1,URL Cleanup
+644,2019-03-16 06:51:44.000000000,2019-03-16 09:00:01.000000000,closed,1,URL Cleanup
+643,2019-03-16 06:51:37.000000000,2019-03-16 08:56:25.000000000,closed,0,URL Cleanup
+642,2019-03-16 01:06:06.000000000,2019-03-16 01:36:44.000000000,closed,2,Editing pass for the Reactor Netty Reference Guide
+641,2019-03-16 00:30:51.000000000,1970-01-01 00:00:00.000000001,open,16,io.netty.channel.unix.Errors$NativeIoException: readAddress(..) failed: Operation timed out
+640,2019-03-12 23:14:55.000000000,2019-04-15 20:24:29.000000000,closed,14,Does the WebClient not respect the default JVM SSLContext?
+639,2019-03-12 18:16:44.000000000,2020-06-19 21:04:52.000000000,closed,16,Http/2 Client Support
+638,2019-03-12 06:59:55.000000000,2019-03-12 08:39:34.000000000,closed,0,URL Cleanup
+637,2019-03-11 23:29:42.000000000,2019-03-14 09:48:30.000000000,closed,1,"fix #636 Handle ""IllegalReferenceCountException"" when cancel signal to ByteBufFlux#aggregate"
+636,2019-03-11 23:27:16.000000000,2019-03-14 09:57:54.000000000,closed,1,"Handle ""IllegalReferenceCountException: refCnt: 0, decrement: 1"" when ByteBufFlux#aggregate"
+635,2019-03-11 17:10:06.000000000,2019-03-11 20:03:59.000000000,closed,1,"fix #155 Documentation: changed style, about doc, getting started doc, UDP doc"
+634,2019-03-09 01:06:07.000000000,2019-03-09 01:13:04.000000000,closed,0,Handle Connection header with a comma separated list as value
+633,2019-03-07 20:57:13.000000000,2019-03-08 21:27:44.000000000,closed,4,Memory Leak using WebClient
+632,2019-03-06 19:24:04.000000000,2019-04-18 12:49:12.000000000,closed,2,"Improve handling for pooled connection when server responds with ""Connection: close"" "
+631,2019-03-06 01:42:54.000000000,2019-03-06 03:05:25.000000000,closed,1,fix #630 Possible memory leak when channel inactive on the server and native transport
+630,2019-03-06 01:14:06.000000000,2019-03-06 03:46:14.000000000,closed,0,Possible memory leak when channel inactive on the server and native transport
+629,2019-03-05 08:03:36.000000000,1970-01-01 00:00:00.000000001,open,5,`Broken pipe` is not throwed with netty-transport-native-epoll dependency
+628,2019-03-04 15:12:50.000000000,2019-03-08 19:58:58.000000000,closed,4,WebClient hangs indefinitely
+627,2019-03-04 13:05:09.000000000,2019-03-08 23:07:57.000000000,closed,2,Initial documentation
+626,2019-03-03 23:00:42.000000000,2019-03-04 12:36:22.000000000,closed,2,fix #625 Update ConnectionInfo#parseAddress behavior to handle ipv6 addresses without bracket
+625,2019-03-03 04:19:44.000000000,2019-03-04 12:37:05.000000000,closed,6,ipv6 forwarded headers cause NumberFormatException in ConnectionInfo
+624,2019-03-03 04:15:19.000000000,2019-03-03 22:57:15.000000000,closed,6,update parseAddress behavior to handle ipv6 addresses without bracket
+623,2019-03-03 01:18:58.000000000,2019-03-03 01:41:45.000000000,closed,4,Fix HttpServer javadoc
+622,2019-02-28 21:18:08.000000000,1970-01-01 00:00:00.000000001,open,11,Add HttpServerTracing adapter for Brave tracer
+621,2019-02-27 10:49:36.000000000,2019-02-28 15:10:16.000000000,closed,2,fix connection header can contain other tokens
+620,2019-02-26 14:47:40.000000000,2019-02-27 17:34:50.000000000,closed,1,fix #553 Remove the deprecated HttpClient#chunkedTransfer
+619,2019-02-26 00:03:53.000000000,2019-02-26 00:39:02.000000000,closed,1,Webclient doesnt support proxy server
+618,2019-02-25 20:42:34.000000000,2019-02-25 21:10:41.000000000,closed,1,Log level WARN is used for RedirectClientException on 302 Found (followRedirect)
+617,2019-02-25 09:37:47.000000000,2019-02-26 22:22:13.000000000,closed,5,Webclient doesnt support proxy server
+616,2019-02-20 18:43:02.000000000,2019-02-20 21:05:55.000000000,closed,1,fix #614 Do not send Transfer-Encoding when there is Content-Length
+615,2019-02-20 16:15:51.000000000,2019-02-20 19:11:47.000000000,closed,2,UnresolvedAddressException when using HttpClient
+614,2019-02-20 12:36:19.000000000,2019-02-20 21:05:55.000000000,closed,0,Both transfer-encoding and content-length headers are present in a request
+613,2019-02-20 03:25:12.000000000,2019-03-31 14:54:05.000000000,closed,8,Same issue in Spring Boot 2.1.2 RELEASE
+612,2019-02-13 16:34:57.000000000,2019-07-29 23:19:01.000000000,closed,16,how to configure pooled connection idle timeout
+611,2019-02-12 19:02:49.000000000,2019-02-12 20:16:00.000000000,closed,3,Provide option to customize log level for ChildObserver#onUncaughtException
+610,2019-02-12 03:51:55.000000000,2019-02-12 04:03:31.000000000,closed,0,fix #555 When IOException happens on the server while reading/writing
+609,2019-02-12 02:16:16.000000000,2019-02-12 03:57:40.000000000,closed,1,Switch from Exceptions#throwIfFatal to Exceptions#throwIfJvmFatal
+608,2019-02-12 02:06:24.000000000,2019-02-12 03:55:38.000000000,closed,1,fix #606 Ensure HttpClientRequest / HttpClientResponse#redirectedFrom 
+607,2019-02-12 01:36:26.000000000,2019-02-12 03:53:06.000000000,closed,1,fix #600 Ensure the fixed ConnectionProvider uses all configured threads
+606,2019-02-11 20:40:53.000000000,2019-02-12 03:55:39.000000000,closed,0,HttpClientOperations.redirectedFrom doesn't provide the correct redirect count
+605,2019-02-11 20:28:13.000000000,2019-03-04 12:41:16.000000000,closed,7,Cause Exception is Swallowed when ChannelOperationsHandler#channelRead throws
+604,2019-02-11 19:17:16.000000000,2019-02-13 00:12:16.000000000,closed,5,Listen on 0.0.0.0 by default
+603,2019-02-08 20:38:28.000000000,2019-03-26 11:36:13.000000000,closed,9,Possible memory leak when the incoming bytes are received but there is no consumer subscribed 
+602,2019-02-05 21:34:05.000000000,2019-02-06 01:10:51.000000000,closed,0,fix #601 Switch the connection pool to use the oldest Channel
+601,2019-02-05 21:18:35.000000000,2019-02-06 01:10:52.000000000,closed,0,Switch the connection pool to use the oldest Channel instead of the last recent
+600,2019-02-05 12:47:16.000000000,2019-02-12 03:53:07.000000000,closed,0,A fixed conn provider ends up assigning the same event loop thread always
+599,2019-02-04 20:19:32.000000000,2019-02-08 03:12:42.000000000,closed,2,fix #598 Add doOnDiscard in order to handle cancel/error scenarios.
+598,2019-02-04 20:14:05.000000000,2019-02-08 03:12:43.000000000,closed,1,Possible memory leak in HttpClientOperations.GetOrHeadAggregateOutbound#then
+597,2019-02-02 01:19:56.000000000,2019-02-02 01:27:17.000000000,closed,1,Connection Closed Polluting the Logs
+596,2019-01-31 22:12:11.000000000,2019-02-01 15:35:42.000000000,closed,0,fix #595 Ensure message is released when I/O handler throws RuntimeException
+595,2019-01-31 20:55:03.000000000,2019-02-01 15:35:42.000000000,closed,0,Possible memory leak when the I/O handler throws RuntimeException
+594,2019-01-30 21:56:22.000000000,1970-01-01 00:00:00.000000001,open,0,Router routes macthing order
+593,2019-01-29 01:34:37.000000000,2019-02-04 22:20:19.000000000,closed,1,fix #591 Make PrematureCloseException public
+592,2019-01-29 00:01:31.000000000,2019-01-29 00:25:17.000000000,closed,1,fix #582 Exception is propagated so lower the log level to WARN
+591,2019-01-28 23:56:36.000000000,2019-02-04 22:20:19.000000000,closed,0,"Make ""PrematureCloseException"" public"
+590,2019-01-28 23:49:08.000000000,2019-01-28 23:56:23.000000000,closed,1,Lower log level of connection errors from ERROR
+589,2019-01-28 21:52:43.000000000,2019-01-29 14:44:48.000000000,closed,10,Flux<String> decoded into 1 string
+588,2019-01-28 20:16:14.000000000,2019-01-28 22:19:15.000000000,closed,1,"fix #587 HttpClient will retry the request only once when ""Connection reset by peer"""
+587,2019-01-25 21:45:04.000000000,2019-01-28 22:19:16.000000000,closed,11,Connection reset by peer goes in loop
+586,2019-01-24 23:30:40.000000000,2020-04-25 13:09:43.000000000,closed,1,Common abstraction for Client (and possibly Servers)
+585,2019-01-24 20:36:13.000000000,2019-04-04 14:51:17.000000000,closed,2,ChannelOperations#sendObject(object) leaks for long-lived connections
+584,2019-01-22 21:09:07.000000000,2019-01-28 20:29:43.000000000,closed,2,fix #581 Add ConnectionProvider#disposeAllLater which closes active and inactive connections
+583,2019-01-22 15:28:55.000000000,2019-01-23 11:02:35.000000000,closed,1,Correctly wrap BindException when native transport
+582,2019-01-22 10:27:55.000000000,2019-01-29 00:25:18.000000000,closed,1,"Lower log level of ""[:array:] The connection observed an error"""
+581,2019-01-20 03:21:13.000000000,2020-04-25 13:12:05.000000000,closed,5,HTTP client connection is not disposed on server side
+580,2019-01-18 06:13:38.000000000,2019-01-23 11:15:47.000000000,closed,3,Scheduler worker in group main failed with StackOverflowError
+579,2019-01-17 01:48:24.000000000,2019-01-17 17:04:32.000000000,closed,0,"Log with DEBUG ""Connection reset by peer"" when no ChannelOperations"
+578,2019-01-16 04:46:50.000000000,2019-08-10 00:30:29.000000000,closed,1,Connection pool should default to a fixed size
+577,2019-01-16 04:36:56.000000000,1970-01-01 00:00:00.000000001,open,2,Reports of slower than expected large POST body requests
+576,2019-01-16 00:31:07.000000000,2019-01-16 01:02:30.000000000,closed,1,Sending empty Publisher as a request body for GET requests may hang under load
+575,2019-01-15 23:59:45.000000000,2019-01-16 01:02:28.000000000,closed,1,fix #576 Skip outbound message body when it is empty or with 0 length
+574,2019-01-15 16:03:26.000000000,2019-02-26 17:53:42.000000000,closed,1,Do not create aggregated ByteBuf when publisher empty or first element empty
+573,2019-01-14 07:30:17.000000000,2020-08-20 15:13:11.000000000,closed,8,add server SNI support
+572,2019-01-13 10:21:01.000000000,2019-05-06 11:59:21.000000000,closed,1,Revisit ChannelOperationHandler
+571,2019-01-13 00:01:32.000000000,1970-01-01 00:00:00.000000001,open,5,Custom Netty ChannelHandler added by HttpClient#mapConnect can't access HttpResponse
+570,2019-01-12 23:00:51.000000000,2019-01-12 23:23:05.000000000,closed,1,Can't return flux error from HttpClient.ResponseReceiver.response.
+569,2019-01-11 11:11:36.000000000,2020-08-07 23:00:37.000000000,closed,1,Switch to non blocking DNS resolver by default
+568,2019-01-11 11:08:42.000000000,2020-04-25 13:08:11.000000000,closed,1,Transition out from using Bootstrap attributes/options for configuration passing
+567,2019-01-10 16:42:45.000000000,2019-01-10 20:09:32.000000000,closed,2,Eagly calculate address and password in ProxyProvider equals and hashcode
+566,2019-01-10 16:41:50.000000000,2019-01-10 20:10:33.000000000,closed,1,Connection pool leak when using proxy
+565,2019-01-08 16:26:49.000000000,2019-01-08 16:41:55.000000000,closed,3,How can I open the REUSEPORT
+564,2019-01-07 08:15:28.000000000,2020-02-03 02:11:21.000000000,closed,36,syscall:read(..) failed: Connection reset by peer
+563,2019-01-03 22:52:11.000000000,2019-01-04 01:08:46.000000000,closed,3,Support X-Forwarded-Host AND X-Forwarded-For
+562,2019-01-03 15:57:36.000000000,2019-01-11 11:02:27.000000000,closed,2,fix #558 Add CONFIGURING step to the lifecycle listener
+561,2018-12-30 16:35:19.000000000,1970-01-01 00:00:00.000000001,open,9,Flawed naming conventions
+560,2018-12-28 05:29:47.000000000,1970-01-01 00:00:00.000000001,open,5,Slow first request of Spring's WebClient caused by Netty Reactor Http Client
+559,2018-12-25 21:26:31.000000000,2019-01-23 18:31:12.000000000,closed,2,Connection prematurely closed BEFORE response
+558,2018-12-21 21:18:23.000000000,2019-04-08 13:41:30.000000000,closed,4,HttpClient#doOnRequest doesnt execute BEFORE request is sent
+557,2018-12-21 00:05:45.000000000,2019-01-04 01:12:36.000000000,closed,1,Use ByteBuf#(write|read)CharSequence when transforming from/to String
+556,2018-12-20 20:42:29.000000000,1970-01-01 00:00:00.000000001,open,8,HTTP client - Fixed connection pool + big response payloads + concurrent requests = unresponsive computer
+555,2018-12-17 21:03:14.000000000,2019-02-12 04:03:32.000000000,closed,3,IOException when client application terminates
+554,2018-12-14 15:12:37.000000000,2018-12-20 00:24:02.000000000,closed,1,When Content-Length:0 release the Object scheduled for writing
+553,2018-12-12 22:37:18.000000000,2019-02-27 17:34:51.000000000,closed,8,"HttpClient#chunkedTransfer(false) only works when ""Content-Length"" is set."
+552,2018-12-11 18:11:43.000000000,2018-12-11 19:45:39.000000000,closed,1,Update README.md
+551,2018-12-10 23:45:20.000000000,2018-12-11 00:41:33.000000000,closed,1,Attach a callback to react on client cancelation
+550,2018-12-08 16:35:13.000000000,2018-12-08 17:52:50.000000000,closed,1,HttpClient: impossible to send POST request with Content-Length header
+549,2018-12-07 01:19:13.000000000,2019-10-24 14:32:38.000000000,closed,3,Logging improvement for HTTP/2
+548,2018-12-06 19:33:40.000000000,2018-12-06 22:00:36.000000000,closed,1,Do not add Transfer-Encoding when Content-Length is available from request headers
+547,2018-12-04 18:00:37.000000000,2020-01-27 17:18:22.000000000,closed,12,When client network disconnect the server stream still emit item till application freeze 
+546,2018-12-04 16:37:29.000000000,2020-03-20 15:39:25.000000000,closed,3,Correct handle onComlete and onError events while sending publishers
+545,2018-12-04 01:01:30.000000000,2018-12-04 23:50:30.000000000,closed,2,fix #507 HttpServer/Client: Support WebSocket compression handler
+544,2018-12-03 20:21:50.000000000,2018-12-03 20:41:24.000000000,closed,3,[Question] CompositeBuf aggregate behavior
+543,2018-12-03 19:54:41.000000000,2018-12-04 23:46:32.000000000,closed,1,fix #522 New HttpClient API to allow configuring redirects via a predicate
+542,2018-12-02 00:55:27.000000000,2019-01-08 00:51:37.000000000,closed,9,Added invoking parent.drain if future/promise exists
+541,2018-12-01 23:39:15.000000000,2018-12-02 00:54:51.000000000,closed,2,Added invoking parent.drain if future/promise exists
+540,2018-12-01 22:27:18.000000000,2018-12-04 21:06:50.000000000,closed,10,[PooledConnectionProvider] Only one connection receive subscriber allowed
+539,2018-12-01 00:14:13.000000000,1970-01-01 00:00:00.000000001,open,5,Add Tracing support
+538,2018-12-01 00:11:06.000000000,2020-08-07 22:59:57.000000000,closed,3,"Add DNS resolver observer, and options for client"
+537,2018-11-30 18:05:10.000000000,2018-11-30 23:02:40.000000000,closed,1,Introduce a new HttpServer state: applying I/O handler
+536,2018-11-29 01:58:02.000000000,2018-12-01 00:10:11.000000000,closed,12,SSLEngine closed already Error
+535,2018-11-29 16:40:44.000000000,2018-11-29 23:24:16.000000000,closed,1,Log the errors observed by the connection only if they won't be retried
+534,2018-11-29 03:10:31.000000000,2018-11-29 23:26:11.000000000,closed,7,Pooled connection observed an error
+533,2018-11-28 21:12:16.000000000,2019-09-01 23:21:28.000000000,closed,1,No way to receive close status with WebSocketInbound
+532,2018-11-28 11:41:35.000000000,1970-01-01 00:00:00.000000001,open,5,Long-lived TcpClient
+531,2018-11-28 07:16:35.000000000,2019-04-07 13:05:59.000000000,closed,3,How to control max header size for http client
+530,2018-11-28 04:20:20.000000000,2018-11-29 01:17:35.000000000,closed,1,fix #529 Fix HttpClientFinalizer cleanup for interrupted responses
+529,2018-11-28 03:55:26.000000000,2018-11-29 01:17:36.000000000,closed,0,HttpClientFinalizer/WebsocketFinalizer do not finalize correctly interrupted response
+528,2018-11-28 01:50:29.000000000,2020-03-20 15:32:47.000000000,closed,9,HTTP connection not always closed on dispose()
+527,2018-11-28 00:35:36.000000000,2018-11-28 00:50:39.000000000,closed,1,fix #523 NonProxyHost is not applied when only uri is supplied
+526,2018-11-27 19:21:29.000000000,2018-11-28 00:13:35.000000000,closed,1,fix #525 HttpServer CONFIGURED moved to HttpTrafficHandler/Http2StreamBridgeHandler
+525,2018-11-27 18:16:17.000000000,2018-11-28 00:13:35.000000000,closed,0,Handlers added with doOnConnection (HttpServer) are not applied on the first channelRead
+524,2018-11-27 10:05:35.000000000,1970-01-01 00:00:00.000000001,open,0,Setup CI for perf testing
+523,2018-11-26 17:17:18.000000000,2018-11-28 00:50:39.000000000,closed,5,nonProxyHosts are applies incorrectly
+522,2018-11-25 12:59:45.000000000,2018-12-04 23:46:33.000000000,closed,2,Allow configuration of redirects to follow
+521,2018-11-23 13:05:46.000000000,2018-11-27 02:43:09.000000000,closed,4,Timeout on blocking webclient webflux
+520,2018-11-22 08:59:23.000000000,2018-11-22 08:59:50.000000000,closed,0,Get Formdata and Multipart data occur a 'Request body input error' Exception
+519,2018-11-21 17:17:47.000000000,2018-11-22 01:52:08.000000000,closed,1,When writing full message mark the body as sent
+518,2018-11-21 14:23:44.000000000,2018-12-19 01:27:54.000000000,closed,7,Returning Mono.empty causes controller to halt
+517,2018-11-21 01:48:28.000000000,2018-12-20 12:55:26.000000000,closed,1,Ensure there is Transfer-Encoding/Content-Length when sending request body
+516,2018-11-21 00:54:33.000000000,2018-11-21 11:04:15.000000000,closed,1,Use FutureMono#disposableWriteAndFlush instead of sendObject
+515,2018-11-20 21:45:30.000000000,2018-11-20 21:52:41.000000000,closed,0,When redirecting ensure the HttpResponse is released
+514,2018-11-20 21:42:33.000000000,2018-11-21 00:00:06.000000000,closed,1,Improve HttpClient send(Publisher) for GET/HEAD
+513,2018-11-20 17:53:14.000000000,2018-11-20 21:37:09.000000000,closed,0,"When close websocket event has been already sent, release the incoming CloseWebSocketFrame"
+512,2018-11-20 00:00:29.000000000,2018-11-20 00:02:08.000000000,closed,0,Do not invoke ByteBuf.retain as the bytes are copied to the new buffer
+511,2018-11-19 23:26:14.000000000,2018-11-19 23:28:45.000000000,closed,0,When creating client loop resources do not invoke shutdown on the ColocatedEventLoopGroup
+510,2018-11-19 18:08:57.000000000,2018-11-19 18:11:43.000000000,closed,2,Reconsider logging level for `TcpResources`
+509,2018-11-16 23:00:23.000000000,2018-11-20 22:15:40.000000000,closed,1,fix #508 If the channel is not active do not continue with writing
+508,2018-11-15 20:40:23.000000000,2018-11-20 22:30:45.000000000,closed,7,Connection closed before flushing the response body
+507,2018-11-12 14:42:10.000000000,2018-12-04 23:50:30.000000000,closed,0,Configure WebSocket compression extension on WebSocket server
+506,2018-11-11 17:49:50.000000000,2018-11-13 02:50:47.000000000,closed,0,"Revert ""When it is the last drained element do not schedule the flush operation"""
+505,2018-11-10 02:24:17.000000000,2018-11-10 11:30:12.000000000,closed,0,Ensure server and client will share the loop resources when native transport
+504,2018-11-10 02:08:11.000000000,2018-11-10 11:28:32.000000000,closed,1,Propagate context in client handler
+503,2018-11-09 00:54:51.000000000,2020-07-13 21:45:35.000000000,closed,5,"FluxReceive hangs, sometimes, on subsequent subscribers"
+502,2018-11-08 17:55:35.000000000,2018-11-09 23:31:01.000000000,closed,1,fix #129 Test for HttpClient using Proxy configuration
+501,2018-11-08 12:45:44.000000000,2020-08-07 23:01:36.000000000,closed,4,Feature Request: Custom DNS Resolver
+500,2018-11-07 11:37:50.000000000,2018-11-08 03:40:32.000000000,closed,1,fix #490 Ensure HOST header is the real remote address not the proxy one
+499,2018-11-06 21:49:48.000000000,2018-11-06 22:40:50.000000000,closed,0,Lazy initialisation for NIO server/client loops
+498,2018-11-06 21:21:24.000000000,2018-11-12 17:44:05.000000000,closed,18,Connection prematurely closed cause by the firewalls and target servers idle timeout
+497,2018-11-06 19:29:02.000000000,2019-02-18 23:35:01.000000000,closed,2,fix #495 Ensure all children channels are closed when invoking DisposableServer#dispose
+496,2018-11-06 14:17:31.000000000,2018-11-07 10:31:07.000000000,closed,1,fix #491 Default TCP configuration will use SslProvider.OPENSSL when OpenSSL#isAvailable
+495,2018-11-05 22:22:09.000000000,2020-03-23 13:21:49.000000000,closed,7,Connections are not disposed when server is closed
+494,2018-11-05 03:01:31.000000000,2018-11-05 18:24:50.000000000,closed,1,Missing reference guide in docs.
+493,2018-11-05 02:53:35.000000000,2018-11-05 18:22:56.000000000,closed,1,Links Broken in documentation
+492,2018-11-03 20:22:01.000000000,2018-11-05 16:09:38.000000000,closed,1,WebClient posting multiple duplicate HTTP requests
+491,2018-11-03 04:37:42.000000000,2018-11-07 10:31:07.000000000,closed,0,Incorrect logic for choosing SslProvider for Default TCP Configuration
+490,2018-11-01 17:12:37.000000000,2018-11-08 03:40:32.000000000,closed,5,HttpClient: proxy host and path become the request destination 
+489,2018-10-31 07:24:42.000000000,2018-11-01 01:37:37.000000000,closed,1,fix #488 Context is now propagated to websocket handler
+488,2018-10-31 07:21:39.000000000,2018-11-01 01:58:32.000000000,closed,0,Context lost in server websocket handler
+487,2018-10-30 20:20:55.000000000,2018-10-30 22:36:46.000000000,closed,3,Elevated log level
+486,2018-10-28 23:20:37.000000000,2018-10-28 23:34:40.000000000,closed,0,"Add HttpClient#doOnRequestError, doOnResponseError"
+485,2018-10-27 19:42:13.000000000,2018-10-27 19:42:33.000000000,closed,0,Add HttpClientRequest/HttpClientResponse#currentContext
+484,2018-10-27 18:45:10.000000000,2018-10-27 19:58:14.000000000,closed,2,HTTP2 with HTTP1 : HTTP1 is always used
+483,2018-10-27 02:30:03.000000000,2018-10-27 02:30:17.000000000,closed,5,Fix Out of Order handling with pool acquisition
+482,2018-10-27 02:28:55.000000000,2018-10-27 02:29:11.000000000,closed,0,Fix Out Of Order handling with pool acquisition
+481,2018-10-26 14:00:17.000000000,2019-02-26 02:18:17.000000000,closed,0,Remove deprecated TcpClient(Server)#secure(SslContext)
+480,2018-10-26 01:23:15.000000000,2019-02-25 22:46:46.000000000,closed,0,Remove wiretap() in favor wiretap(boolean)
+479,2018-10-25 19:11:17.000000000,2018-10-26 01:22:10.000000000,closed,1,Add wiretap(boolean) for the server and client configuration
+478,2018-10-25 15:28:36.000000000,1970-01-01 00:00:00.000000001,open,0,Handle nested send operations
+477,2018-10-25 10:27:37.000000000,1970-01-01 00:00:00.000000001,open,0,Introduce a Decoder for handling IllegalReferenceCountException
+476,2018-10-25 09:41:50.000000000,1970-01-01 00:00:00.000000001,open,3,Log Remote IP address in the access log
+475,2018-10-23 18:00:28.000000000,2018-10-24 23:19:16.000000000,closed,1,fix #473 Ensure lazy remote address is converted before finalizing handlers
+474,2018-10-23 14:57:27.000000000,2018-10-24 23:17:40.000000000,closed,1,Avoid NPE when a connect address isn't specified and newHandler is in use
+473,2018-10-23 05:50:06.000000000,2018-10-24 23:19:16.000000000,closed,1,NullPointerException in SSL handshake with customized HttpClient
+472,2018-10-23 04:31:18.000000000,2018-10-30 08:26:30.000000000,closed,4,"""Operator called default onErrorDropped"" when stream is cancelled"
+471,2018-10-20 00:19:26.000000000,2018-10-20 16:57:13.000000000,closed,2,Logging NPE
+470,2018-10-20 00:14:41.000000000,2018-10-20 01:12:26.000000000,closed,1,Handle IllegalReferenceCountException in ByteBuf(Flux|Mono)#as... methods
+469,2018-10-18 14:09:48.000000000,2018-10-20 01:35:50.000000000,closed,1,Add WebsocketOutbound#sendClose() API
+468,2018-10-17 22:02:11.000000000,2018-10-17 23:25:48.000000000,closed,1,Cleanup the pipeline after sending a chunked file
+467,2018-10-16 23:38:18.000000000,2018-10-17 09:29:32.000000000,closed,2,fix #465 Ensure no Transfer-Encoding/Content-Length when 304 response code
+466,2018-10-16 22:30:27.000000000,2018-10-16 22:40:16.000000000,closed,2,HttpClient.WebsocketSender#send returns when upgrade is done.
+465,2018-10-16 04:42:17.000000000,2018-10-17 09:31:51.000000000,closed,3,Reactor Netty Hangs on Response 304
+464,2018-10-15 22:02:20.000000000,2018-11-19 21:48:35.000000000,closed,4,Server hangs indefinitely for a css or js resource to load and eventually fails with java.lang.Exception: ChannelOperation terminal stack
+463,2018-10-15 00:29:35.000000000,2018-10-16 19:55:45.000000000,closed,2,fix #460 Ensure errors while upgrading to websocket will be propagated
+462,2018-10-14 23:31:14.000000000,2018-10-16 01:04:09.000000000,closed,1,Generate correct HOST header when IPv6 with scope_id
+461,2018-10-13 19:34:45.000000000,2018-10-14 11:42:13.000000000,closed,4,Fix extra character trimming if baseUrl ends with a slash
+460,2018-10-13 13:57:16.000000000,2018-10-16 19:55:45.000000000,closed,0,Websocket client connect() Mono does not emit any signals when address is malformed
+459,2018-10-12 17:49:00.000000000,2018-10-15 20:09:49.000000000,closed,0,reactor.netty.http.client.WebsocketTest#duplexEcho test sometimes fails
+458,2018-10-12 17:02:35.000000000,2018-10-12 18:53:23.000000000,closed,1,How to stream responses?
+457,2018-10-10 19:09:47.000000000,2019-05-10 17:48:10.000000000,closed,1,Refactor ChannelOperationsHandler
+456,2018-10-10 00:24:15.000000000,2018-10-10 09:38:42.000000000,closed,1,fix #393 Ensure Mono from send(receive)Websocket completes when upgrade is confirmed
+455,2018-10-09 16:14:41.000000000,2018-10-09 18:10:12.000000000,closed,4,fix links to new groupId in README badges
+454,2018-10-08 20:19:51.000000000,1970-01-01 00:00:00.000000001,open,0,Improve Pipeline configuration
+453,2018-10-08 19:34:57.000000000,2020-04-29 12:09:54.000000000,closed,0,Rework global resources in a single registry
+452,2018-10-08 14:28:44.000000000,2018-10-08 23:34:45.000000000,closed,1,fix #416 Add WARN level log message when TcpResources/UdpResources is updated
+451,2018-10-05 22:14:42.000000000,2018-10-05 22:21:54.000000000,closed,1,fix #430 Defer decision for DefaultFileRegion vs ChunkedInput
+450,2018-10-04 23:23:46.000000000,2018-10-26 01:21:29.000000000,closed,1,fix #407 Put more information into the key for pooled connections
+449,2018-10-04 14:29:28.000000000,2018-10-04 18:42:50.000000000,closed,1,fix #90 Auto clean global connectionProvider when server on any local address
+448,2018-10-04 04:35:21.000000000,2018-10-04 12:59:37.000000000,closed,1,Changing the Order of the Spring Security WebFilter
+447,2018-10-04 03:58:24.000000000,2018-10-04 15:29:37.000000000,closed,2,Newly created pooled connection forwards the wrong connection to the Mono
+446,2018-10-02 23:58:55.000000000,2018-10-03 16:03:10.000000000,closed,2,Do not close the channel directly but mark it for closing
+445,2018-10-02 18:22:46.000000000,2018-10-03 10:25:01.000000000,closed,1,Do not add PENDING_WRITES to the queue if future is DONE
+444,2018-10-02 17:31:38.000000000,2018-10-25 15:29:32.000000000,closed,4,WebsocketOutbound sendClose never returns when nested
+443,2018-09-26 14:27:28.000000000,2019-12-20 22:22:07.000000000,closed,5,Is this a good way to execute blocking code in reactor-netty + webflux?
+442,2018-09-26 12:00:32.000000000,2018-09-27 14:23:25.000000000,closed,3,Channel configuration after its initialization
+441,2018-09-25 08:11:03.000000000,2018-09-27 14:25:15.000000000,closed,1,Unix Domain Socket support
+440,2018-09-23 22:44:57.000000000,2018-09-23 22:46:22.000000000,closed,0,Rename AttributeKey persistent channel to allow coexisting with 0.7
+439,2018-09-22 21:47:04.000000000,2018-09-26 17:30:30.000000000,closed,2,Provide a way to receive bigger messages on WebSocket Client
+438,2018-09-18 20:14:56.000000000,2018-09-19 22:14:43.000000000,closed,0,Access log for HTTP/2 requests
+437,2018-09-18 18:56:59.000000000,2018-09-18 19:16:17.000000000,closed,0,Replace in the HttpClient/HttpServer all noXxx/xxx to just xxx(boolean)
+436,2018-09-17 16:37:05.000000000,1970-01-01 00:00:00.000000001,open,7,Provide more options for customising the access log
+435,2018-09-17 15:13:10.000000000,2018-09-17 17:07:25.000000000,closed,3,Access Logs contents enhancement #434
+434,2018-09-17 14:46:28.000000000,2018-09-17 17:04:46.000000000,closed,1,Access Logs contents enhancement
+433,2018-09-16 20:12:52.000000000,2018-09-16 20:13:08.000000000,closed,0,fix #30 Strips query parameters from template matching
+432,2018-09-16 02:31:06.000000000,2018-09-16 19:31:50.000000000,closed,1,Handle parsing URI with query
+431,2018-09-16 02:03:54.000000000,2018-09-16 19:30:52.000000000,closed,1,Allow custom websocket server maxFramePayloadLength
+430,2018-09-14 16:34:28.000000000,2018-10-05 22:23:06.000000000,closed,3,sendFile marks the response as compressed but does not compress the body
+429,2018-09-09 05:01:54.000000000,2018-09-12 00:10:48.000000000,closed,1,Fix #223 Allow custom websocket maxFramePayloadLength
+428,2018-09-04 17:48:58.000000000,2018-09-04 19:01:39.000000000,closed,1,fix #301 Add Http Server Access Log
+427,2018-09-01 18:19:39.000000000,2018-09-02 02:57:51.000000000,closed,4,Add Netty based timeouts to HttpClient
+426,2018-09-01 15:28:17.000000000,2018-09-28 01:15:46.000000000,closed,6,ReactorNettyWebSocketClient socket closes after subscribe
+425,2018-09-01 08:01:32.000000000,2018-09-01 08:24:55.000000000,closed,0,Add Netty based timeouts to HttpClient
+424,2018-09-01 07:14:06.000000000,2018-09-01 07:26:17.000000000,closed,0,Add Netty based timeouts to HttpClient
+423,2018-08-31 06:40:46.000000000,2018-08-31 08:32:06.000000000,closed,1,"hello ，How can I handle the 301 redirect of the server, can I get the redirected data directly, or does it still exist?"
+422,2018-08-31 01:38:37.000000000,2019-01-22 05:13:57.000000000,closed,71,LEAK: ByteBuf.release() was not called before it's garbage-collected
+421,2018-08-30 18:16:14.000000000,1970-01-01 00:00:00.000000001,open,3,WebClient doesn't start read response body while request is still writing
+420,2018-08-28 19:24:30.000000000,2018-08-28 20:39:52.000000000,closed,1,Track active/inactive connections in the pool
+419,2018-08-22 19:26:05.000000000,2018-08-24 00:33:50.000000000,closed,1,When it is the last drained element do not schedule the flush operation
+418,2018-08-22 13:05:17.000000000,2018-08-24 00:28:13.000000000,closed,1,fix #412 Add server/client API for specifying CookieEncoder/CookieDecoder
+417,2018-08-20 19:25:01.000000000,2018-08-21 09:14:27.000000000,closed,1,Release the incoming message on the client when the decoding failed
+416,2018-08-16 22:14:04.000000000,2018-10-08 23:51:06.000000000,closed,1,Warn and/or protect against multiple parties updating HttpResources  
+415,2018-08-16 12:56:46.000000000,2018-08-17 00:20:37.000000000,closed,1,fix #411: Apply compression predicate before sendFile invocation
+414,2018-08-15 02:26:28.000000000,2018-08-16 03:22:21.000000000,closed,1,fix #90 Auto clean global connectionProvider on server.dispose
+413,2018-08-14 16:38:13.000000000,2018-12-20 12:53:53.000000000,closed,73,Connection Closed Prematurely
+412,2018-08-11 17:32:28.000000000,2018-08-24 00:28:14.000000000,closed,2,Allow users to specify what type of cookie decoders are used
+411,2018-08-11 00:09:18.000000000,2018-08-17 00:28:53.000000000,closed,1,When compression is enabled via a predicate the response body is not compressed
+410,2018-08-09 15:38:23.000000000,2018-08-15 02:09:28.000000000,closed,1,fix #405 channel reused before old OWNER is cleaned
+409,2018-08-06 15:37:45.000000000,2018-08-15 02:09:54.000000000,closed,1,Release the incoming message when the decoding failed
+408,2018-08-02 22:12:26.000000000,2018-08-15 01:56:58.000000000,closed,4,Expose connect() method for websocket connections
+407,2018-08-02 17:59:43.000000000,2018-10-26 01:21:30.000000000,closed,6,HttpClient.create() shares SSL configuration across multiple instances
+406,2018-08-02 10:43:56.000000000,2018-08-21 15:21:40.000000000,closed,9,Possible memory leak in HttpServerHandler and FluxReceive
+405,2018-08-01 17:56:57.000000000,2018-08-15 02:09:29.000000000,closed,0,Connection reuse with HttpClient & ConnectionProvider does not work in Ubuntu 16.04
+404,2018-08-01 03:56:35.000000000,2018-08-01 12:38:57.000000000,closed,1,UdpServer Doesn't Bind Socket
+403,2018-07-26 21:18:58.000000000,2020-05-06 13:18:40.000000000,closed,3,Add UnixDomain support
+402,2018-07-26 13:51:15.000000000,2018-07-26 13:51:22.000000000,closed,0,HTTP/2 support for HttpServer
+401,2018-07-24 18:21:16.000000000,2018-07-24 18:54:10.000000000,closed,1,Configure the channel auto read to true for HttpToH2Operations
+400,2018-07-24 16:44:59.000000000,2018-07-26 16:38:26.000000000,closed,0,Streamline top level utils
+399,2018-07-24 14:43:30.000000000,2018-07-26 00:10:05.000000000,closed,6,Failed to connect to APNS [Unexpected HTTP/1.x request]
+398,2018-07-24 13:44:15.000000000,2018-07-24 16:31:41.000000000,closed,1,Add explicit bind exception
+397,2018-07-24 08:08:42.000000000,1970-01-01 00:00:00.000000001,open,0,Document HttpClient usage with encoder/decoder and proper disposal
+396,2018-07-23 19:07:50.000000000,2018-07-24 14:59:08.000000000,closed,1,fix #368 Throw a marker exception with local address information when server bind fails
+395,2018-07-23 18:56:53.000000000,2018-07-31 15:57:50.000000000,closed,2,Echo handler not working with HTTP/2 server
+394,2018-07-19 19:35:21.000000000,2018-07-20 10:06:43.000000000,closed,1,fix #384 Consider protocol information when applying the default security configuration
+393,2018-07-19 06:31:42.000000000,2018-10-10 14:44:07.000000000,closed,3,Mono from sendWebSocket completes at the end of the session
+392,2018-07-12 19:37:25.000000000,1970-01-01 00:00:00.000000001,open,20,Low throughput benchmark test compared to vert.x
+391,2018-07-12 14:50:04.000000000,2019-03-13 18:40:00.000000000,closed,2,Error on connection to an http/2 server 
+390,2018-07-12 14:47:01.000000000,2018-07-12 15:22:06.000000000,closed,2,Configure timeout options on HttpClient with new API
+389,2018-07-11 23:44:16.000000000,2018-07-11 23:56:11.000000000,closed,1,fix #387: Throw IAE when neither SslContextBuilder nor SslContext is specified
+388,2018-07-11 22:44:26.000000000,2018-10-27 09:12:01.000000000,closed,53,java.io.IOException: Connection reset by peer
+387,2018-07-11 19:44:58.000000000,2018-07-11 23:56:11.000000000,closed,1,Error on create HTTP/2 Request with 0.8.0.BUILD-SNAPSHOT version 
+386,2018-07-11 18:12:24.000000000,2018-07-11 23:18:30.000000000,closed,2,Related to #376: Do not create default SSL client provider when creating a server
+385,2018-07-09 22:17:20.000000000,2018-07-10 19:38:56.000000000,closed,1,fix #382 Do not create TCP ServerBootstrap in a static block
+384,2018-07-09 13:46:36.000000000,2018-07-20 10:06:43.000000000,closed,2,SSL support broken without boringssl static dependency
+383,2018-07-04 10:05:19.000000000,2018-07-05 20:45:10.000000000,closed,1,fix #370 Remove TcpServer/HttpServer API for using ssl with self singed certificate
+382,2018-07-03 15:41:20.000000000,2018-07-10 19:38:56.000000000,closed,8,SslProvider causes netty to start a Thread in a static initializer
+381,2018-07-03 02:23:52.000000000,2019-02-20 16:52:07.000000000,closed,18,AbstractChannelHandlerContext CPU 100%
+380,2018-06-29 06:06:49.000000000,2018-06-29 09:07:28.000000000,closed,1,if  netty OutOfDirectMemoryError . netty Circular output log Blow up the server disk
+379,2018-06-29 05:02:56.000000000,2020-02-20 22:10:45.000000000,closed,4,"Default ChannelPool is unbounded, and leaks memory on a per-URL basis"
+378,2018-06-27 06:19:56.000000000,2019-03-31 15:03:46.000000000,closed,21,io.netty.util.internal.OutOfDirectMemoryError
+377,2018-06-25 16:29:00.000000000,2018-06-26 17:26:27.000000000,closed,2,Add dynamic header
+376,2018-06-19 14:51:52.000000000,2018-07-12 11:54:03.000000000,closed,7,Reactor Netty is slower to start than Tomcat
+375,2018-06-17 22:57:11.000000000,2018-06-19 12:58:04.000000000,closed,2,How to implement the classic Echo client-server?
+374,2018-06-15 18:38:04.000000000,2018-06-19 20:19:31.000000000,closed,2,[WebSocketClient] WebSocketMessage.getPayloadAsText throws io.netty.util.IllegalReferenceCountException: refCnt: 0
+373,2018-06-12 23:57:21.000000000,2018-06-13 16:21:37.000000000,closed,1,Fix X-Forwarded-For support
+372,2018-06-07 13:41:33.000000000,2018-06-08 02:36:15.000000000,closed,1,fix #358 Centralize system properties into one constant top level class
+371,2018-06-06 19:36:07.000000000,2018-06-06 21:43:41.000000000,closed,1,"fix #361 Force channel close, when error while sending the request and headers were sent"
+370,2018-06-04 20:36:10.000000000,2018-07-05 20:45:10.000000000,closed,1,Revisit HTTP server TLS setup
+369,2018-06-01 22:30:33.000000000,2018-06-01 23:05:22.000000000,closed,0,fix ssl configuration issue for tcp and http clients
+368,2018-06-01 17:55:13.000000000,2018-07-24 16:32:27.000000000,closed,7,Expose read-only port/address when server binding errors
+367,2018-05-31 07:06:26.000000000,2018-06-02 09:41:56.000000000,closed,1,How to set netty chunksize  
+366,2018-05-31 05:44:30.000000000,2018-06-08 20:54:49.000000000,closed,4,Make more data accessible from the `DefaultServerWebExchange` object
+365,2018-05-30 14:27:17.000000000,2018-06-02 01:08:13.000000000,closed,10,"in spring webflux post size more then 8kb,it not work"
+364,2018-05-30 12:47:56.000000000,2018-06-02 09:42:34.000000000,closed,2,block（） spring webflux ServerHttpRequest get body 
+363,2018-05-22 14:12:41.000000000,2018-05-28 16:14:14.000000000,closed,4,Add options and head to HttpServerRoutes
+362,2018-05-19 20:29:48.000000000,1970-01-01 00:00:00.000000001,open,1,Exception in a Flux created by a subscriber will be ignored by reactor-netty 
+361,2018-05-18 02:09:44.000000000,2018-06-06 22:16:08.000000000,closed,6,Channel in pool in an invalid state after SSLException
+360,2018-05-17 22:28:01.000000000,1970-01-01 00:00:00.000000001,open,2,DisposableServer.isDisposed() doesn't work
+359,2018-05-17 10:15:19.000000000,1970-01-01 00:00:00.000000001,open,0,Expand WebsocketReceiver API
+358,2018-05-15 12:33:25.000000000,2018-06-08 02:36:15.000000000,closed,0,Centralize system properties into one constant top level class
+357,2018-05-15 12:30:18.000000000,2018-05-31 20:52:28.000000000,closed,0,0.8.x Package change/Group ID change
+356,2018-05-14 23:03:21.000000000,2018-05-14 23:32:09.000000000,closed,2, Update Netty version to 4.1.25.Final
+355,2018-05-14 14:39:58.000000000,2018-07-26 13:00:24.000000000,closed,0,0.8.0.M1 Tracker
+354,2018-05-13 10:51:22.000000000,2018-05-14 15:43:32.000000000,closed,4,Improved ws condition support
+353,2018-05-10 00:10:23.000000000,1970-01-01 00:00:00.000000001,open,3,An improved simple / detailed string for ClientOptions
+352,2018-05-09 04:15:38.000000000,2018-05-09 06:38:25.000000000,closed,1,Number values not posting correctly
+351,2018-05-08 21:04:59.000000000,2018-05-09 06:38:41.000000000,closed,24,Unwrap Mono String to a String value
+350,2018-05-07 18:10:58.000000000,1970-01-01 00:00:00.000000001,open,0,Fix the warnings produced by errorprone compiler plugin
+349,2018-05-06 11:11:42.000000000,2018-05-07 18:09:08.000000000,closed,2,Enable errorprone compiler plugin in build
+348,2018-05-05 22:45:27.000000000,2018-05-07 18:08:53.000000000,closed,1,Improve asciidoctor configuration in build
+347,2018-05-05 22:37:53.000000000,2018-05-07 18:08:16.000000000,closed,1,Fix and suppress compilation and build warnings
+346,2018-05-04 01:32:06.000000000,2018-05-04 15:02:04.000000000,closed,1,fix #345 Ensure completion event is sent for HttpClientWSOperations#onClose
+345,2018-05-03 09:29:23.000000000,2018-05-04 15:02:05.000000000,closed,7,Websocket client NettyContext.dispose() does not change disposed state
+344,2018-05-01 20:38:02.000000000,1970-01-01 00:00:00.000000001,open,4,Document recommendation about using netty-tcnative for optimizing TLS performance
+343,2018-05-01 19:13:14.000000000,2018-05-01 20:16:39.000000000,closed,2,"fix #323 When received the last HTTP packet but still sending the request, force the channel close"
+342,2018-05-01 16:54:47.000000000,2018-05-01 20:15:34.000000000,closed,7,NPE at HttpClientOperations.isWebsocket
+341,2018-04-27 20:01:26.000000000,2018-04-27 21:04:57.000000000,closed,1,fix #340 When compression is enabled do not send file with zero copy
+340,2018-04-27 18:57:52.000000000,2018-04-27 21:04:58.000000000,closed,0,When compression is enabled zero copy results in an uncompressed response
+339,2018-04-26 18:42:18.000000000,2018-04-27 00:13:38.000000000,closed,0,Avoid log pollution on server-side after client unsubscribes from SSE stream
+338,2018-04-25 20:08:09.000000000,2018-04-26 21:43:24.000000000,closed,1,fix #329 Change the dependency to netty-transport-native-epoll
+337,2018-04-25 19:56:04.000000000,2018-04-26 10:36:44.000000000,closed,3,websocket server closes connection on handled errors
+336,2018-04-25 01:57:00.000000000,2018-04-25 17:53:37.000000000,closed,1,Malformed log formats cause NullPointerException
+335,2018-04-24 18:46:16.000000000,2018-04-26 01:24:53.000000000,closed,1,Fix #317 Forward user-facing cancel to send(Publisher) cancel
+334,2018-04-24 16:01:43.000000000,2018-04-25 21:33:16.000000000,closed,2,fix #332 Ensure CloseWebSocketFrame will be sent by the Server/Client
+333,2018-04-24 11:42:58.000000000,2018-07-26 13:38:52.000000000,closed,1,Potential memory leak
+332,2018-04-23 18:45:26.000000000,2018-04-25 21:25:37.000000000,closed,0,"when disconnecting from websocket server, CloseWebSocketFrame does not reach client"
+331,2018-04-21 09:40:41.000000000,1970-01-01 00:00:00.000000001,open,1,Review calls to channel.write vs channelContextHandler.write
+330,2018-04-21 09:36:45.000000000,1970-01-01 00:00:00.000000001,open,0,Optimize allocation on FutureMono.defer(() -> channel.write(xxx))
+329,2018-04-20 14:43:07.000000000,2018-04-26 21:43:24.000000000,closed,0,epoll dependency management
+328,2018-04-19 21:46:42.000000000,2018-04-19 23:13:25.000000000,closed,2,Update Netty version to 4.1.24.Final
+327,2018-04-19 15:00:17.000000000,2018-04-19 19:31:52.000000000,closed,1,fix #316 Correctly calculate the requested and produced items
+326,2018-04-18 16:46:26.000000000,2018-04-19 09:58:36.000000000,closed,0,fix #321: Handle the delayed writes when onComplete/onError event is sent
+325,2018-04-18 11:57:41.000000000,2018-04-18 13:28:36.000000000,closed,2,Update Javadoc overview
+324,2018-04-18 07:12:00.000000000,1970-01-01 00:00:00.000000001,open,1,HttpServer should close the connection if response fully sent before request terminated
+323,2018-04-18 07:11:12.000000000,2018-05-01 20:12:50.000000000,closed,0,HttpClient should close the connection if response terminated during request
+322,2018-04-14 10:17:34.000000000,2018-05-31 20:52:05.000000000,closed,0,Switch 0.8 to master and branch out 0.7.x
+321,2018-04-12 13:03:16.000000000,2018-04-19 09:58:36.000000000,closed,0,HttpsSendFileTests#sendFileAsync4096 is failing
+320,2018-04-12 10:11:36.000000000,2018-04-12 13:07:02.000000000,closed,2,Add handling of offset and length to NettyOutbound#sendFileChunked
+319,2018-04-11 10:10:10.000000000,2018-04-11 15:42:39.000000000,closed,2,Don't share pipeline state in fields of the FileChunkedStrategy instance
+318,2018-04-11 09:33:39.000000000,2018-04-11 15:23:53.000000000,closed,2,Fix minor inconsistency in javadoc
+317,2018-04-08 07:21:13.000000000,2018-04-26 01:08:07.000000000,closed,0,Cancelling the mono from NettyOutbound.send(Publisher) has no effect
+316,2018-04-03 08:48:23.000000000,2018-04-21 09:30:01.000000000,closed,7,GET request hung when body is large(~1M)
+315,2018-04-01 23:37:19.000000000,2018-04-05 10:51:18.000000000,closed,3,Retry not working due to reactor.ipc.netty.channel.ContextHandler not forwarding the error to user-facing mono
+314,2018-03-30 23:01:57.000000000,2018-03-30 23:06:46.000000000,closed,1,fix #312 - Add reactor core 3.1.6 non blocking thread marker support
+313,2018-03-28 15:52:41.000000000,2018-03-28 19:54:56.000000000,closed,2,"ChannelOperationsHandler.drain() - In pendingWrite queue, if polled ""future"" is null, why not poll ""msg"" as well?"
+312,2018-03-28 10:27:31.000000000,2018-03-30 23:06:47.000000000,closed,0,Add NonBlocking support from reactor-core 3.1.6
+311,2018-03-26 12:53:57.000000000,2018-03-26 13:33:49.000000000,closed,0,"[Question] A piece of code not understand, please notice. Thanks."
+310,2018-03-21 20:38:52.000000000,2018-03-23 22:29:09.000000000,closed,1,"fix #309 In case there is a failure while decoding the request, return 4xx response"
+309,2018-03-21 14:16:22.000000000,2018-03-23 22:29:09.000000000,closed,0,Bad requests are not handled as such
+308,2018-03-21 08:18:49.000000000,2018-03-22 07:23:37.000000000,closed,6,Can't process a post request  properly when the content length is long
+307,2018-03-14 10:23:22.000000000,2019-10-01 23:42:16.000000000,closed,1,Refactor connection pooling
+306,2018-03-12 21:31:50.000000000,1970-01-01 00:00:00.000000001,open,0,Do not use Codec - use Encoder/Decoder
+305,2018-03-12 18:04:41.000000000,2018-07-24 11:47:31.000000000,closed,1,Blocking within an HttpHandler can prevent response from being sent
+304,2018-03-02 19:17:18.000000000,2018-03-03 00:41:25.000000000,closed,1,fix #303 After aggregating the content invoke the super method.
+303,2018-03-02 15:10:39.000000000,2018-03-03 00:41:26.000000000,closed,0,StackOverflowError
+302,2018-03-02 01:01:04.000000000,2018-03-02 22:11:17.000000000,closed,8,Support for reconnecting to different host with TcpClient
+301,2018-02-28 17:37:42.000000000,2018-09-04 19:04:27.000000000,closed,11,How to log access logs to file any configuration?
+300,2018-02-28 15:01:58.000000000,2018-02-28 20:32:21.000000000,closed,5,HTTP Client crashes when connection is closed
+299,2018-02-28 04:30:25.000000000,2018-02-28 05:16:58.000000000,closed,1,fix #218 add predicate based http server compression
+298,2018-02-28 01:12:36.000000000,2018-02-28 05:17:25.000000000,closed,3,"Http Compression threshold is ignored, always compressing"
+297,2018-02-28 01:08:14.000000000,2018-02-28 01:22:12.000000000,closed,1,fix #292 refactor gzip compression handler
+296,2018-02-27 01:41:33.000000000,1970-01-01 00:00:00.000000001,open,0,Review use of Lambda and strong outer class reference
+295,2018-02-26 21:07:52.000000000,2018-02-27 08:03:20.000000000,closed,1,fix #293 support expect 100-continue
+294,2018-02-23 21:00:09.000000000,2018-02-24 02:24:45.000000000,closed,1,"When under compression threshold, filter also the LastHttpContent"
+293,2018-02-23 00:51:09.000000000,2018-02-27 08:03:21.000000000,closed,0,"Response not sent when client sends ""Expect: 100-continue"" request header"
+292,2018-02-22 23:50:53.000000000,2018-02-28 01:22:13.000000000,closed,10,unexpected message type: io.netty.handler.codec.http.DefaultHttpContent (expected: HttpResponse)
+291,2018-02-19 20:58:36.000000000,2018-02-21 13:19:18.000000000,closed,9,"""Connection closed prematurely"" and ""Broken pipe"" with WebTestClient and Spring Boot REST service"
+290,2018-02-19 20:34:03.000000000,2018-02-20 03:02:15.000000000,closed,2,fix #289 Register pool-releasing close listener only if acquired
+289,2018-02-19 12:07:32.000000000,2018-02-20 03:02:15.000000000,closed,1,Regression: rejected client connection decrement pool counter
+288,2018-02-18 04:12:35.000000000,2018-02-22 03:30:56.000000000,closed,14,POC for context transferring
+287,2018-02-16 01:50:12.000000000,2018-02-16 02:03:36.000000000,closed,1,fix #282 Ensure ChannelPromise objects are updated when filtering the messages
+286,2018-02-15 00:47:12.000000000,2018-02-15 01:10:50.000000000,closed,1,fix #285 - connection close should always be bridged to pool release
+285,2018-02-15 00:41:05.000000000,2018-02-15 01:10:51.000000000,closed,0,Client Close events are not properly connected to pool release
+284,2018-02-14 07:35:16.000000000,1970-01-01 00:00:00.000000001,open,2,No cancel signal to the Publisher of a streaming client request
+283,2018-02-13 21:56:28.000000000,2020-01-18 15:31:06.000000000,closed,5,Regression: no cancel signal to the Publisher of a streaming response 
+282,2018-02-13 19:06:49.000000000,2018-02-16 02:03:21.000000000,closed,0,HTTP compression skips handler completion and HTTP encoder
+281,2018-02-12 20:29:50.000000000,2018-02-12 20:30:38.000000000,closed,1,"Unexpected ""Connection closed prematurely"" when the inbound has been already cancelled"
+280,2018-02-12 20:05:56.000000000,2018-02-12 20:08:56.000000000,closed,1,IllegalArgumentException: Channel [...] was not acquired from this ChannelPool
+279,2018-02-12 17:32:14.000000000,2018-02-12 22:55:02.000000000,closed,1,fix #278:  Resolve the relative location when redirecting
+278,2018-02-11 14:48:37.000000000,2018-02-12 22:55:02.000000000,closed,0,Client fails to follow 301 relative location redirection
+277,2018-02-10 17:04:13.000000000,2018-02-28 23:58:03.000000000,closed,14,block() on ServerHttpRequest.getBody().buffer() hangs forever wher body exceeds 350bytes
+276,2018-02-09 02:57:07.000000000,2018-02-09 03:16:40.000000000,closed,1,Extended key for the connection pool cache
+275,2018-02-07 22:41:40.000000000,2018-02-08 01:15:47.000000000,closed,6,Enable hostname verification in client SSL config
+274,2018-02-07 22:04:59.000000000,2018-02-07 22:05:11.000000000,closed,0,"Revert ""Enable hostname verification in client SSL config"""
+273,2018-02-07 21:34:34.000000000,2018-02-07 21:41:13.000000000,closed,0,Enable hostname verification in client SSL config
+272,2018-02-07 02:38:52.000000000,2018-02-07 15:10:08.000000000,closed,1,fix #257: Retry once in case of AbortedException/IOException
+271,2018-02-05 11:35:09.000000000,2018-04-14 10:12:27.000000000,closed,1,Refactor Pooling contract
+270,2018-02-03 00:57:18.000000000,2018-02-07 15:13:40.000000000,closed,3,Error cannot be forwarded to user-facing Mono with Spring Boot 2.0.0.RC1 and reactor-core:3.1.3.RELEASE
+269,2018-02-01 01:31:51.000000000,2018-02-01 15:52:54.000000000,closed,3,Headers not sent on WebSocket upgrade with 401 (UNAUTHORIZED) response
+268,2018-01-31 23:59:51.000000000,2018-02-01 03:08:31.000000000,closed,1,Ensure server will send a response in case websocket upgrade failure
+267,2018-01-31 03:50:02.000000000,2018-01-31 16:44:22.000000000,closed,3,"On channelInactive event, do not fire error when the inbound has been already cancelled/disposed"
+266,2018-01-31 03:43:48.000000000,2018-01-31 16:12:08.000000000,closed,3,Fix IllegalArgumentException: Channel [...] was not acquired from this ChannelPool
+265,2018-01-30 11:48:53.000000000,2018-02-12 18:15:42.000000000,closed,7,Connection: keep-alive with Transfer-Encoding: chunked broken
+264,2018-01-19 23:23:39.000000000,2018-01-23 02:55:19.000000000,closed,3,Itermittent timeout on blocking read errors
+263,2018-01-18 15:14:41.000000000,2018-01-18 15:24:51.000000000,closed,1,Redo #150 http codec config on 0.7
+262,2018-01-17 16:04:21.000000000,2018-01-18 15:25:33.000000000,closed,0,fix #227: Introduce properties for enabling ssl debugging
+261,2018-01-16 16:32:02.000000000,2018-01-16 16:53:05.000000000,closed,2,fix #94 : Allow setting chunkedTransfer per HttpClient
+260,2018-01-16 03:25:02.000000000,2018-01-16 15:51:44.000000000,closed,0,fix #235: Allow setting followRedirect per HttpClient
+259,2018-01-15 22:27:10.000000000,2020-08-25 12:07:37.000000000,closed,2,Extended support X-Forwarded-* headers
+258,2018-01-10 20:46:32.000000000,2018-01-11 11:59:56.000000000,closed,1,fix #212: Add support for KQueue
+257,2018-01-10 02:40:45.000000000,2018-02-07 15:10:09.000000000,closed,1,HttpClient infinite loop if null failure during SSL handshake
+256,2018-01-09 20:09:31.000000000,2018-01-16 00:18:41.000000000,closed,3,fix #150 (HttpCodec config)
+255,2018-01-09 04:59:24.000000000,2018-01-10 00:49:11.000000000,closed,1,fix #232: Ensure write chunks are always in a correct order.
+254,2018-01-06 12:56:32.000000000,2018-07-26 12:25:37.000000000,closed,3,0.8 Public API refactor
+253,2018-01-04 22:21:04.000000000,2018-01-10 00:05:23.000000000,closed,0,How to avoid following 301 redirects?
+252,2018-01-04 18:13:47.000000000,2018-01-09 20:09:59.000000000,closed,6,fix #150 Expose Netty HttpServerCodec options in HttpServer
+251,2018-01-01 05:01:26.000000000,1970-01-01 00:00:00.000000001,open,0,"Provide ability to decompress response using any header, not just Content-Encoding"
+250,2017-12-27 21:08:13.000000000,2018-01-02 16:34:13.000000000,closed,1,"No response (application hanging) with ""Mixed pooled connection operations between..."""
+249,2017-12-21 19:13:31.000000000,2018-01-15 22:22:26.000000000,closed,5,Add support for Forwarded / X-Forwarded-* headers
+248,2017-12-20 04:29:18.000000000,2018-01-23 12:26:20.000000000,closed,1,Redirect on custom Scheduler causes reactor-netty to hang occasionally
+247,2017-12-19 20:36:41.000000000,2018-02-01 23:25:24.000000000,closed,2,"""Only one connection receive subscriber allowed."" when using in Spring Gateway"
+246,2017-12-19 03:56:15.000000000,2017-12-19 05:15:59.000000000,closed,1,issue #240 test case
+245,2017-12-19 02:23:28.000000000,2017-12-19 03:34:10.000000000,closed,1,fix #237: Ensure HttpClient will emit an error when connection is
+244,2017-12-18 20:52:42.000000000,2017-12-18 23:34:42.000000000,closed,1,issue #241 test case
+243,2017-12-18 19:33:56.000000000,2017-12-19 13:02:13.000000000,closed,2,fix #232: Ensure write chunks are always in a correct order.
+242,2017-12-18 19:08:11.000000000,2017-12-18 21:11:34.000000000,closed,5,how fix this 
+241,2017-12-16 01:35:36.000000000,2017-12-18 22:54:23.000000000,closed,3,Redirect to the same URL as request causes hang
+240,2017-12-14 22:11:28.000000000,2017-12-20 20:05:58.000000000,closed,6,HTTP server should close the connection on error signal after response is committed
+239,2017-12-14 19:21:44.000000000,2017-12-15 04:11:02.000000000,closed,1,Test case
+238,2017-12-13 19:39:02.000000000,2017-12-13 23:45:30.000000000,closed,1,fix #231: Ensure error signal is propagated
+237,2017-12-13 01:06:58.000000000,2017-12-19 03:34:11.000000000,closed,1,HttpClient does not emit an error when connection is closed from the server side
+236,2017-12-12 11:49:32.000000000,2018-02-16 22:34:58.000000000,closed,3,Expired and self-signed TLS certificates are accepted if a request to the same IP address worked before
+235,2017-12-12 00:30:26.000000000,2018-01-16 15:55:52.000000000,closed,1,Allow setting followRedirect per HttpClient
+234,2017-12-08 03:17:00.000000000,2017-12-08 08:20:58.000000000,closed,1,web socket client stops receiving after written to
+233,2017-12-04 14:50:31.000000000,2020-08-18 19:40:13.000000000,closed,13,How to debug http request & responses with body in a human readable way
+232,2017-12-02 03:05:57.000000000,2018-01-10 00:49:11.000000000,closed,2,HttpClient corrupts uploaded content
+231,2017-12-01 02:07:42.000000000,2017-12-13 23:45:31.000000000,closed,3,HttpServerResponse.send(publisher).then() does not propagate error signals
+230,2017-11-29 14:12:50.000000000,2017-12-06 06:40:29.000000000,closed,1,fix #224: Emit error signal when the connection is closed prematurely
+229,2017-11-29 08:16:49.000000000,2017-11-30 00:04:44.000000000,closed,10,UnsupportedMessageTypeException: io.netty.handler.codec.http.DefaultFullHttpRequest (expected: io.netty.buffer.ByteBuf)
+228,2017-11-28 10:26:05.000000000,2017-11-28 11:46:20.000000000,closed,2,Fix bug in UriEndpointFactory (0.8.x only): handle parsing URI with query and no path
+227,2017-11-24 00:29:37.000000000,2018-01-18 15:55:14.000000000,closed,3,HttpClient's logging depends on ContextHandler's logger
+226,2017-11-22 14:04:32.000000000,2017-11-22 22:43:27.000000000,closed,1,HttpServer new API
+225,2017-11-22 14:03:29.000000000,2017-11-22 14:03:47.000000000,closed,1,New HttpServer API
+224,2017-11-22 03:46:10.000000000,2017-12-06 06:39:37.000000000,closed,7,Unexpected NPE on https post call
+223,2017-11-21 23:41:59.000000000,2018-09-12 00:10:49.000000000,closed,7,Allow to set custom web-socket maxFramePayloadLength
+222,2017-11-19 14:18:01.000000000,2018-02-07 21:41:14.000000000,closed,5,TLS Hostname verification is not performed
+221,2017-11-16 03:33:01.000000000,2017-11-17 13:10:52.000000000,closed,4,Connection closed prematurely following HTTP 500 responses
+220,2017-11-16 02:58:07.000000000,2018-01-15 22:28:36.000000000,closed,2,Support X-Forwarded-* headers
+219,2017-11-15 07:52:34.000000000,2017-11-15 21:07:55.000000000,closed,3,Default WebClient doesn't re-use connections
+218,2017-11-14 01:32:29.000000000,2018-02-28 05:16:58.000000000,closed,0,Enhance conditional HTTP compression support
+217,2017-11-10 18:19:47.000000000,2017-12-12 10:02:29.000000000,closed,0,Test case for issue #196
+216,2017-11-10 13:53:33.000000000,2017-12-12 01:42:11.000000000,closed,1,Remove the special handling of status code 205
+215,2017-11-09 20:33:17.000000000,2017-11-09 20:42:42.000000000,closed,1,Release the buffer only on completion or on error
+214,2017-11-08 20:01:05.000000000,2017-11-09 12:25:00.000000000,closed,1,TcpServer/TcpClient new API
+213,2017-11-08 04:48:46.000000000,2017-11-08 05:15:20.000000000,closed,1,Using send() in HttpServer response sends content-length: 0 and appears to break something in the HttpClient
+212,2017-11-07 23:28:21.000000000,2018-01-11 11:59:56.000000000,closed,0,Add support for KQueue
+211,2017-11-07 13:22:49.000000000,2017-11-07 21:52:56.000000000,closed,1,UdpServer/UdpClient new API
+210,2017-11-07 01:04:17.000000000,2017-11-07 21:53:15.000000000,closed,1,Handle DatagramChannel in NettyContext.address
+209,2017-11-02 11:07:03.000000000,2017-11-02 13:10:00.000000000,closed,2,Problem with import packages
+208,2017-11-02 11:05:25.000000000,2017-11-02 13:13:23.000000000,closed,7,Feature/make javax.annotation optional
+207,2017-11-02 00:55:58.000000000,2017-11-03 11:22:03.000000000,closed,2,Invoke pendingWriteOffer.test in event loop
+206,2017-11-01 17:04:31.000000000,2017-11-09 11:23:13.000000000,closed,2,"inner.justFlushed is not needed, hasPendingWriteBytes used instead."
+205,2017-10-31 23:42:08.000000000,2017-11-16 03:07:27.000000000,closed,6,fix #203: Introduce flush on each with event loop option.
+204,2017-10-31 14:48:15.000000000,1970-01-01 00:00:00.000000001,open,0,Provide API to access request parameters when using HttpServerRoutes.ws()
+203,2017-10-31 09:21:28.000000000,2017-11-16 03:07:27.000000000,closed,3,flush behavior
+202,2017-10-31 05:10:41.000000000,2018-01-15 03:36:49.000000000,closed,3,improve client cancellation flow
+201,2017-10-27 19:26:59.000000000,2017-10-27 19:34:58.000000000,closed,1,Prefer ReferenceCountUtil.release instead of ReferenceCountUtil.safeRelease
+200,2017-10-27 17:18:47.000000000,2017-10-27 17:32:56.000000000,closed,0,Not correct error message for selectCount < 1
+199,2017-10-26 22:16:29.000000000,2017-10-27 01:16:04.000000000,closed,1,fix #194 tweak FluxReceive and reduce preemptive read on server
+198,2017-10-25 16:55:54.000000000,2017-10-26 10:02:28.000000000,closed,1,fix #192: Create default UDP LoopResource on demand.
+197,2017-10-25 03:25:59.000000000,2017-10-25 17:01:30.000000000,closed,1,Fix link for URI Templates as the original link is not available (its content was turned into an official RFC)
+196,2017-10-24 21:14:33.000000000,2017-12-18 23:43:52.000000000,closed,8,HttpClient doesn't read inbound data from some channels obtained from connection pool
+195,2017-10-24 20:27:26.000000000,2017-10-26 01:33:33.000000000,closed,7,Replace usage of java.net.URI with UriEndpoint in MonoHttpClientResponse
+194,2017-10-24 20:25:44.000000000,2017-10-27 01:16:04.000000000,closed,1,HttpServer sometimes leaks when gets non keep-alive requests
+193,2017-10-24 20:24:49.000000000,2017-10-25 00:20:48.000000000,closed,1,Omit filling stack trace for RedirectClientException
+192,2017-10-24 17:38:26.000000000,2017-10-26 10:02:28.000000000,closed,0,UdpClient/UdpServer default LoopResource creation
+191,2017-10-22 18:52:32.000000000,2017-10-31 14:53:18.000000000,closed,6,HttpServerRoutes.ws() javadoc is not in line with WebsocketInbound capabilities
+190,2017-10-22 13:24:22.000000000,2017-10-23 15:27:36.000000000,closed,1,Fixing a javadoc typo
+189,2017-10-20 17:55:57.000000000,2017-10-21 02:42:59.000000000,closed,1,fix #137: Separate UdpClient/UdpServer
+188,2017-10-19 12:55:59.000000000,2017-10-20 14:53:05.000000000,closed,7,HttpClient leaks when sending content over HTTPS
+187,2017-10-18 18:39:51.000000000,2017-10-18 20:04:22.000000000,closed,0,Test case added for issue #186
+186,2017-10-18 14:04:06.000000000,2017-10-19 00:26:20.000000000,closed,1,HttpServer does not send/flush data after first HTTP POST
+185,2017-10-17 19:49:47.000000000,2017-10-17 20:05:39.000000000,closed,1,Netty ByteBuf leak in Http client
+184,2017-10-12 00:13:01.000000000,2017-10-12 13:11:27.000000000,closed,1,"fix #179: Increase the default timeout, introduce a new method with timeout"
+183,2017-10-11 23:48:48.000000000,2017-10-12 19:35:03.000000000,closed,2,fix #171: Do not set content length when HEAD request
+182,2017-10-11 23:37:42.000000000,2017-11-07 21:53:45.000000000,closed,0,Remove HttpClientRequest.failOnClientError/failOnServerError
+181,2017-10-10 22:17:03.000000000,2017-10-11 23:36:33.000000000,closed,2,Connection release is not handled properly when having 40x/50x content
+180,2017-10-09 13:32:53.000000000,1970-01-01 00:00:00.000000001,open,0,Add Jigsaw module declaration
+179,2017-10-09 13:14:17.000000000,2017-10-12 13:11:27.000000000,closed,0,Server may not start in 3 sec on loaded virtual machines
+178,2017-10-06 22:37:03.000000000,2017-11-09 20:45:45.000000000,closed,21,Content is fully buffered in memory when serving over TLS
+177,2017-10-05 20:42:00.000000000,2018-04-20 13:50:55.000000000,closed,47,Web client connection pool may have connections with invalid HttpObjectEncoder state
+176,2017-10-05 10:36:22.000000000,2017-10-19 01:42:34.000000000,closed,5,Fix memory leak with keep-alive connections
+175,2017-10-05 00:04:17.000000000,2017-10-06 16:54:02.000000000,closed,5,Use HttpClientCodec/HttpServerCodec
+174,2017-10-03 02:11:15.000000000,2017-10-17 20:30:55.000000000,closed,1,UdpClient is limited to binding - should be open to connect
+173,2017-10-03 00:17:20.000000000,2017-10-06 18:56:28.000000000,closed,2,Prevent unwanted reverse DNS lookup calls
+172,2017-09-28 08:53:28.000000000,2017-11-22 23:14:32.000000000,closed,2,Use port from HttpServer's builder also when options are present
+171,2017-09-27 20:31:51.000000000,2017-10-12 19:33:49.000000000,closed,1,HttpSeverOperations overrides content-length to 0 on HTTP HEAD
+170,2017-09-23 02:08:50.000000000,2017-09-23 02:23:49.000000000,closed,1,Response codes 204/205/304 should specify content-length:0
+169,2017-09-20 01:30:58.000000000,2017-09-21 01:27:25.000000000,closed,1,Create LoopResources/PoolResources only in case the user does not specify their own.
+168,2017-09-19 20:31:47.000000000,2017-09-21 01:27:24.000000000,closed,0,HttpClient Creates Orphaned Loop and Pool Resources
+167,2017-09-18 16:56:48.000000000,2017-09-18 19:56:29.000000000,closed,1,"Do not specify SO_LINGER timeout, JVM default will be used"
+166,2017-09-11 20:27:12.000000000,2017-09-12 02:40:02.000000000,closed,1,Don't send chunked transfer for DELETE requests
+165,2017-09-08 20:59:42.000000000,1970-01-01 00:00:00.000000001,open,0,Support http 1.x pipelining
+164,2017-09-08 00:17:45.000000000,2017-09-08 03:08:29.000000000,closed,2,Test case for issue #138
+163,2017-09-06 18:09:05.000000000,2017-09-11 16:30:46.000000000,closed,10,HTTP Сonnection close causes WebClient freeze
+162,2017-09-06 14:38:17.000000000,2017-09-06 20:23:49.000000000,closed,1,BlockingNettyContext manages JVM shutdown hook
+161,2017-09-06 14:20:14.000000000,2017-09-06 20:23:50.000000000,closed,0,BlockingNettyContext JVM shutdown hook clean up
+160,2017-09-05 23:28:53.000000000,2017-09-06 00:23:03.000000000,closed,2,adapt to latest core changes...
+159,2017-09-05 10:05:31.000000000,2017-09-18 16:40:53.000000000,closed,9,Simple HTTP proxy test using Hoverfly hangs forever
+158,2017-09-01 00:27:38.000000000,2017-09-01 00:44:17.000000000,closed,0,The default connection pool is switched to 'elastic' by default
+157,2017-08-30 10:50:01.000000000,2019-07-29 10:17:02.000000000,closed,1,Metrics
+156,2017-08-28 19:22:37.000000000,2017-08-30 19:18:58.000000000,closed,1,update netty to 4.1.15
+155,2017-08-23 01:45:24.000000000,2019-03-11 20:03:59.000000000,closed,6,Documentation & Examples
+154,2017-08-19 13:40:55.000000000,2017-09-08 20:58:53.000000000,closed,5,"Client/Server ""recursive"" calling leads to error"
+153,2017-08-16 17:21:20.000000000,2017-08-30 19:19:44.000000000,closed,1,Report resources leaks found while executing tests
+152,2017-08-09 00:23:35.000000000,2017-08-30 19:33:11.000000000,closed,1,fix #119: Dispose ContextHandler when receive callback signal for cancel
+151,2017-08-06 13:19:40.000000000,1970-01-01 00:00:00.000000001,open,4,HttpClient usage
+150,2017-08-04 13:45:26.000000000,2018-01-16 00:19:31.000000000,closed,2,Add support for configuring the HttpRequestDecoder when creating an HttpServer
+149,2017-08-03 17:33:11.000000000,2017-08-30 19:39:20.000000000,closed,1,fix #144 StartAndAwait alias without the onStarted callback
+148,2017-08-03 17:32:39.000000000,2017-08-30 19:38:05.000000000,closed,1,fix #145 The HttpServer now listens on port 8080 by default
+147,2017-07-31 15:05:45.000000000,2017-08-01 16:58:48.000000000,closed,2,"fix #146 Make sendFile work with ZipFileSystem, use FileChannel"
+146,2017-07-31 14:38:33.000000000,2017-08-01 16:58:49.000000000,closed,0,Use FileChannel for sendFile so that it works with ZipFs
+145,2017-07-27 19:12:44.000000000,2017-08-30 19:38:06.000000000,closed,0,Change the default port to 8080
+144,2017-07-27 18:31:02.000000000,2017-08-30 19:39:21.000000000,closed,0,Provide a NettyConnector#startAndAwait() without Consumer parameter
+143,2017-07-25 16:40:04.000000000,2017-08-02 22:34:56.000000000,closed,2,Fix #134: Handle pending writes when outbound completion is reached
+142,2017-07-21 22:51:50.000000000,2017-07-24 21:20:25.000000000,closed,1,fix #139: Introduce a step builder for ClientProxyOptions
+141,2017-07-21 17:59:10.000000000,2017-07-21 22:26:50.000000000,closed,1,fix #140: Resolve the proxy host and port
+140,2017-07-21 15:42:35.000000000,2017-07-21 22:26:51.000000000,closed,1,Creating a proxy using host/port builder options results in UnresolvedAddressException
+139,2017-07-21 14:35:45.000000000,2017-07-24 21:20:25.000000000,closed,2,Provide a better way to indicate what needs to be set when creating a proxy
+138,2017-07-18 17:13:23.000000000,2017-09-08 02:49:19.000000000,closed,2,HttpClient `onComplete` with no HTTP response
+137,2017-07-18 16:31:42.000000000,2017-10-21 02:42:59.000000000,closed,3,No UdpServer found under reactor.ipc.netty.udp
+136,2017-07-17 21:37:12.000000000,2017-07-17 22:57:02.000000000,closed,2,Backport #113
+135,2017-07-12 22:54:42.000000000,2017-12-14 21:29:45.000000000,closed,1,fix #90 BlockingNettyContext shutdown also shuts down global resources
+134,2017-07-12 18:57:57.000000000,2017-08-02 22:30:54.000000000,closed,4,Client Closes Connection Before Entire Payload Sent
+133,2017-07-11 23:06:09.000000000,2017-12-14 21:28:09.000000000,closed,5,multiple binds and shared handler lambda
+132,2017-07-11 15:13:59.000000000,2017-07-17 23:35:16.000000000,closed,2,"fix #80 Add NettyContext config callback, rework Channel config options"
+131,2017-07-10 19:46:13.000000000,2017-07-10 22:09:00.000000000,closed,2,Ensure accept gzip is applied when there is no handler provided
+130,2017-07-10 16:27:19.000000000,2017-07-10 16:48:55.000000000,closed,1,Simplify the creation of a proxy configuration
+129,2017-07-10 13:08:16.000000000,2018-11-10 00:10:52.000000000,closed,1,Add unit/integration tests arounds proxies
+128,2017-07-07 17:16:09.000000000,2017-07-07 17:26:56.000000000,closed,2,Adapt to CoreSubscriber & Context change in reactor-core
+127,2017-07-06 19:30:30.000000000,2017-07-10 17:19:22.000000000,closed,1,fix #126 Correctly use base hostname in HttpClientOptions even if proxy
+126,2017-07-06 19:14:30.000000000,2017-07-10 17:19:23.000000000,closed,1,Client attempts to connect to localhost:80 instead of set target host when using proxy
+125,2017-07-06 19:01:53.000000000,2017-07-10 13:09:54.000000000,closed,0,Allow proxy bypass
+124,2017-07-06 16:19:13.000000000,2017-07-10 13:09:54.000000000,closed,2,fix #125 Allow configuration of hosts that bypass the proxy
+123,2017-07-05 11:08:50.000000000,2017-07-06 19:03:05.000000000,closed,4,reactor.ipc.netty.http.client.HttpClient and nonProxyHosts
+122,2017-07-04 17:19:12.000000000,2017-07-04 17:23:38.000000000,closed,1,adapt to core change of UnicastProcessor not having a builder anymore
+121,2017-07-04 02:50:03.000000000,2017-07-04 11:38:25.000000000,closed,1,Add gradle plugin for checking the copyright header existence
+120,2017-07-03 21:03:50.000000000,2017-07-04 17:10:31.000000000,closed,1,Use the Builder pattern to configure Client/ServerOptions
+119,2017-07-03 16:24:01.000000000,2018-01-30 12:44:36.000000000,closed,27,Bytebuf leakage when terminating the stream with a timeout
+118,2017-07-03 12:20:44.000000000,2017-10-19 01:48:44.000000000,closed,1,`HttpClientException` can potentially leak buffers
+117,2017-06-30 01:24:24.000000000,2017-07-03 22:48:11.000000000,closed,2,issue #113: Propagate clientError/serverError when HttpClientRequest#sendWebsocket()
+116,2017-06-28 18:31:13.000000000,2017-07-03 22:19:36.000000000,closed,1,fix #61 Offer a simple blocking alternative API for client/server
+115,2017-06-27 13:52:47.000000000,2017-07-10 20:58:05.000000000,closed,3,fix #25 Allow listen until LoopResource/PoolResources disposal
+114,2017-06-27 13:36:16.000000000,2017-07-03 21:28:22.000000000,closed,1,fix #24 Allow shutdown of global TcpResources
+113,2017-06-23 21:42:34.000000000,2017-07-04 03:23:59.000000000,closed,2,HttpClientRequest#sendWebsocket() does not honor HttpClientRequest.failOnClientError(boolean) or HttpClientRequest.failOnServerError(boolean)
+112,2017-06-22 20:24:10.000000000,2017-07-03 21:55:18.000000000,closed,1,Make sendFile work on secure connections
+111,2017-06-22 00:41:52.000000000,2017-06-23 02:09:35.000000000,closed,2,issue #89: Update pendingResponses in the event for termination
+110,2017-06-21 22:39:01.000000000,2017-06-21 22:53:31.000000000,closed,1,fix #109 Make HttpClient SSL work on relative GET
+109,2017-06-21 22:05:08.000000000,2017-06-21 22:53:31.000000000,closed,0,HttpClient doesn't use secure scheme when rewriting relative GETs
+108,2017-06-20 19:32:12.000000000,2017-06-21 22:19:35.000000000,closed,2,fix #66 Expose duplicate of options for TCP/HTTP Client and Server
+107,2017-06-20 19:16:21.000000000,2017-06-21 22:12:35.000000000,closed,1,fix #106 Take HttpServerOptions.compression(int) threshold into account
+106,2017-06-20 19:11:35.000000000,2017-06-21 22:12:36.000000000,closed,0,"HttpServerOptions compression threshold is ignored, always compressing"
+105,2017-06-19 14:44:44.000000000,2017-06-20 19:26:33.000000000,closed,1,"fix #71 bump to core 3.1.0.M2, migrate then/flatMap/toProcessor"
+104,2017-06-19 12:07:53.000000000,2019-03-13 18:34:35.000000000,closed,13,Add Http2 support
+103,2017-05-28 22:04:30.000000000,2017-06-05 21:23:26.000000000,closed,2,Failed flushing last frame when path does not found 
+102,2017-05-22 11:36:01.000000000,2017-07-03 21:55:18.000000000,closed,3,UnsupportedMessageTypeException: DefaultFileRegion when returning FileSystemResource from controller on TLS
+101,2017-05-20 02:12:35.000000000,1970-01-01 00:00:00.000000001,open,1,HTTP server should turn error signals to 500 response
+100,2017-05-20 00:23:02.000000000,2017-05-23 20:02:37.000000000,closed,5,conditional HTTP compression
+99,2017-05-19 22:37:16.000000000,2017-05-19 22:37:20.000000000,closed,0,"Revert ""conditional HTTP compression"""
+98,2017-05-19 17:33:48.000000000,2017-05-19 22:35:44.000000000,closed,7,conditional HTTP compression
+97,2017-05-18 12:23:13.000000000,2017-06-06 03:05:48.000000000,closed,4,NoClassDefFoundError in Cloud Foundry applications
+96,2017-05-13 10:07:27.000000000,2017-05-13 10:30:41.000000000,closed,2,Netty FixedChannelPool does not recognize -1 as a way to unbound maxC…
+95,2017-05-13 10:05:04.000000000,2017-06-06 01:26:39.000000000,closed,0,"PoolResources.java does not respect unbounded parameter ""-1"""
+94,2017-05-12 17:33:21.000000000,2018-01-16 16:54:08.000000000,closed,2,Add Global Option to Disable Chunked Transfer
+93,2017-05-12 17:29:31.000000000,2017-10-11 18:19:17.000000000,closed,2,Add Global Option to Disable Fail on Error
+92,2017-05-11 13:01:07.000000000,2017-06-06 03:09:56.000000000,closed,1,ChannelOperationsHandler.exceptionCaught() re-throwing Fatal Error causes the error to be simply ignored
+91,2017-05-10 17:45:17.000000000,2017-06-03 03:01:41.000000000,closed,1,HttpClientOperation shouldn't always write a `LastHttpContent.EMPTY_LAST_CONTENT`
+90,2017-05-10 15:41:17.000000000,2018-10-09 14:04:35.000000000,closed,9,calling BlockingNettyContext.shutdown() does not clear handlers
+89,2017-05-09 13:59:25.000000000,2017-08-31 18:55:26.000000000,closed,7,Mixed pooled connection operations
+88,2017-05-06 20:43:21.000000000,2017-05-10 23:32:22.000000000,closed,1,Make HttpClient Disposable
+87,2017-05-05 03:21:32.000000000,2017-09-08 20:51:50.000000000,closed,5,Close channel using reactor's api
+86,2017-04-28 15:52:35.000000000,2017-09-14 18:32:29.000000000,closed,1,HttpClient.html javadoc is not accessible
+85,2017-04-26 14:47:35.000000000,2017-05-03 16:11:55.000000000,closed,7,Null returned by HttpClientOperations.status()
+84,2017-04-26 00:48:32.000000000,2017-05-02 11:05:40.000000000,closed,3,Getting an `NoSuchMethodError` on `Mono.otherwiseIfEmpty`
+83,2017-04-25 23:19:30.000000000,2017-04-26 10:55:05.000000000,closed,1,Compatibility with current 3.1.0 snapshots
+82,2017-04-24 23:41:17.000000000,2017-05-03 13:53:48.000000000,closed,5,Subscribing to TCP Mono<InputStream>blocks/never occurs
+81,2017-04-24 05:45:14.000000000,1970-01-01 00:00:00.000000001,open,4,Can't stream messages out
+80,2017-04-23 12:24:44.000000000,2017-07-17 23:30:14.000000000,closed,3,Add a way to modify the pipeline on servers
+79,2017-04-22 23:12:38.000000000,2017-04-26 10:55:33.000000000,closed,4,Add port to HttpClient host header
+78,2017-04-22 20:11:51.000000000,2017-04-23 12:25:17.000000000,closed,4,Make Pipeline modification methods in ReactorNetty public
+77,2017-04-19 23:19:28.000000000,2017-05-24 23:42:11.000000000,closed,1,Support for http response body compression
+76,2017-04-19 22:42:23.000000000,2017-04-21 10:34:06.000000000,closed,1,Problems to control the flush of response
+75,2017-04-13 16:00:36.000000000,2017-04-26 10:56:03.000000000,closed,4,"Fix #74, use the raw path instead of decoded path when setting URI on…"
+74,2017-04-12 17:58:43.000000000,2017-04-26 10:56:03.000000000,closed,3,Reactor Netty decodes the path before doing HTTP request
+73,2017-04-10 20:15:51.000000000,2017-05-03 13:57:06.000000000,closed,1,HttpClientOperation send method doesn't subscribe to the Flux
+72,2017-04-10 16:29:35.000000000,2017-05-23 20:38:34.000000000,closed,0,Adapt to core Mono.then/flatMap refactor
+71,2017-04-10 15:25:03.000000000,2017-06-20 19:26:35.000000000,closed,0,Fix usages of Mono.then(Function) and Mono.flatMap
+70,2017-04-07 23:46:57.000000000,2017-05-03 16:16:21.000000000,closed,0,PooledClientContextHandler missuses Mono.onCancel/setCancellation on retry
+69,2017-04-07 20:25:53.000000000,2017-06-03 03:01:41.000000000,closed,0,Returning an HttpClientRequest isn't equivalent to HttpClientRequest.send()
+68,2017-04-06 15:30:30.000000000,1970-01-01 00:00:00.000000001,open,0,HttpServerRoutes should support query parameters
+67,2017-03-27 23:11:45.000000000,1970-01-01 00:00:00.000000001,open,5,Add support for multiple connectors
+66,2017-03-27 23:08:38.000000000,2017-06-21 22:19:36.000000000,closed,2,Expose read-only version of HttpServerOptions in HttpServer
+65,2017-03-23 01:12:54.000000000,1970-01-01 00:00:00.000000001,open,4,onComplete of All Data Received Signal Available Without Receive
+64,2017-03-22 03:58:33.000000000,2019-02-20 03:40:24.000000000,closed,2,"Connections should be acquired on send, not on subscribe"
+63,2017-03-17 04:01:17.000000000,2017-05-02 15:53:05.000000000,closed,1,Need source for v0.5.1.RELEASE
+62,2017-03-15 17:19:07.000000000,2017-08-31 18:45:41.000000000,closed,9,100-Continue bug ?
+61,2017-03-13 20:36:55.000000000,2017-07-03 22:19:37.000000000,closed,1,Provide a simpler embedded server API
+60,2017-03-13 17:27:53.000000000,2017-07-11 18:42:06.000000000,closed,1,ClosedChannelException on NettyOutbound.sendFile(…) with epoll
+59,2017-03-09 21:26:17.000000000,1970-01-01 00:00:00.000000001,open,14,HTTP service and TCP client bridge
+58,2017-03-08 00:57:57.000000000,2017-03-08 01:15:25.000000000,closed,1,Add Mechanism to obtain port from HttpServer 
+57,2017-03-07 03:42:54.000000000,2017-03-09 17:42:04.000000000,closed,0,Cancel on HttpClientResponse does not close the connection
+56,2017-03-06 20:27:42.000000000,2017-03-06 20:55:34.000000000,closed,1,Chained Mono.fromRunnable is not executed (+Workaround)
+55,2017-03-01 20:49:04.000000000,2017-03-09 18:02:27.000000000,closed,0,Add default user-agent to HttpClient
+54,2017-03-01 20:39:37.000000000,2017-03-09 18:35:34.000000000,closed,0,Binary Websocket (websocketOutbound) sends plain bytebuf instead of Websocket frames
+53,2017-03-01 20:38:56.000000000,2017-03-01 20:39:04.000000000,closed,1,Proxy address is not lazily resolved by default
+52,2017-03-01 18:09:01.000000000,2017-03-01 18:15:23.000000000,closed,0,WebSocket aggregate frames is broken (used in wrong position)
+51,2017-02-23 19:06:53.000000000,2017-03-09 20:49:07.000000000,closed,1,IllegalReferenceCountException with reactor-netty 0.6.1
+50,2017-02-21 22:46:10.000000000,2017-02-21 22:57:49.000000000,closed,1,fix #22 Let NettyInbound/NettyOutbound idle handlers replace old ones
+49,2017-02-20 21:44:07.000000000,2017-02-21 21:52:06.000000000,closed,0,"ByteBufHolderHandler swallows LastHttpContent, preventing flux to complete"
+48,2017-02-18 04:15:17.000000000,2017-02-20 03:41:06.000000000,closed,1,Improve Client Channel Pooling
+47,2017-02-16 22:33:50.000000000,2017-02-21 21:52:05.000000000,closed,1,"addEncoder/addDecoder skips existing, setEncoder/setDecoder replaces"
+46,2017-02-16 17:08:34.000000000,2017-02-21 21:52:05.000000000,closed,0,"Have `addEncoder`/`addDecoder` skip if handler already exist, like legacy `addHandler`"
+45,2017-02-16 16:53:56.000000000,2017-02-20 03:41:07.000000000,closed,0,Premature Pooled channel close cause pool to stall
+44,2017-02-16 16:40:36.000000000,2017-02-22 01:31:49.000000000,closed,3,"Improve (or fix) several javadocs, use localhost:0 for TcpServer"
+43,2017-02-14 20:28:58.000000000,2017-02-15 05:22:31.000000000,closed,0,fix #42 Rework NettyContext pipeline API
+42,2017-02-14 20:11:06.000000000,2017-02-15 05:22:32.000000000,closed,1,Rework NettyContext user pipeline API
+41,2017-02-14 02:16:53.000000000,2017-08-17 15:01:36.000000000,closed,8,Shutting down a netty TcpClient channel in Reactor 3.0.4
+40,2017-02-13 21:13:49.000000000,2017-02-14 00:19:55.000000000,closed,0,fix #20 Support websocket subprotocols in HttpClientRequest
+39,2017-02-13 19:26:07.000000000,2017-02-13 23:17:45.000000000,closed,3,fix #34 where the ByteBufFlux was skipping bytes when reading the file
+38,2017-02-13 18:51:39.000000000,2017-02-14 02:24:38.000000000,closed,0,fix #23 Make NettyContext.addDecoder non-default
+37,2017-02-13 15:54:01.000000000,2019-10-01 23:49:57.000000000,closed,1,Create draft ref guide for Reactor Netty as in Reactor Core
+36,2017-02-13 15:17:37.000000000,2017-02-15 04:47:15.000000000,closed,0,Pooling investigations
+35,2017-02-13 13:40:18.000000000,2020-03-17 17:24:16.000000000,closed,7,Question: Half Closed Connections
+34,2017-02-09 02:25:44.000000000,2017-02-13 23:17:46.000000000,closed,1,ByteBufFlux skipping bytes when reading from file channel
+33,2017-02-01 15:39:24.000000000,2018-07-03 17:51:32.000000000,closed,1,Prepend channel ID in all possible logging
+32,2017-01-31 21:35:23.000000000,2017-02-01 16:44:07.000000000,closed,3,fix #17 Add SNI support for all ClientContextHandlers
+31,2017-01-31 18:08:46.000000000,2017-02-13 16:49:06.000000000,closed,8,Allow dots in parametrized path segments
+30,2017-01-27 22:03:24.000000000,2018-09-16 20:13:09.000000000,closed,1,Path parameter parsing should allow dots in segments and ignore query parameters
+29,2017-01-17 01:26:40.000000000,2017-01-27 17:44:46.000000000,closed,2,Allow configuring a custom resolver for proxies in ClientOptions
+28,2017-01-04 22:36:44.000000000,2017-03-09 19:43:46.000000000,closed,1,Depend on a minimum set of dependencies from netty
+27,2017-01-04 21:55:32.000000000,2017-02-16 17:06:39.000000000,closed,4,HTTP Client - EncoderException: unexpected message type: DefaultHttpRequest
+26,2017-01-01 22:11:39.000000000,2019-10-01 23:48:13.000000000,closed,10,How to configure read timeout?
+25,2016-12-29 06:38:56.000000000,2017-07-10 20:58:06.000000000,closed,1,No way to wait for shutdown of TcpClient resources
+24,2016-12-29 06:13:31.000000000,2017-07-03 21:28:23.000000000,closed,1,No way to shut down TcpClient resources
+23,2016-12-29 00:29:35.000000000,2017-02-14 02:24:39.000000000,closed,1,NettyContext#addDecoder recursion
+22,2016-12-28 22:17:16.000000000,2017-02-21 22:57:49.000000000,closed,2,Let the `NettyInbound.onReadIdle` and `NettyOutbound.onWriteIdle` replace existing idle handlers
+21,2016-12-23 19:18:55.000000000,1970-01-01 00:00:00.000000001,open,4,Add support for HTTP 1.0
+20,2016-12-20 19:18:14.000000000,2017-02-14 00:19:56.000000000,closed,2,No way to set sub-protocols on WebSocket client
+19,2016-12-20 19:09:14.000000000,2016-12-21 23:18:41.000000000,closed,1,"receiveWebSocket results ""Failed to upgrade to websocket"""
+18,2016-12-19 23:08:49.000000000,2016-12-23 15:14:53.000000000,closed,2,"HttpClient blocked after a failed request, error ""unexpected message type: DefaultHttpRequest"""
+17,2016-12-15 05:47:52.000000000,2017-02-01 16:44:08.000000000,closed,5,Support client SNI
+16,2016-12-12 16:01:48.000000000,2016-12-14 15:43:29.000000000,closed,1,NettyState dispose deadlock
+15,2016-12-07 01:25:21.000000000,2017-08-31 18:47:52.000000000,closed,3,Provide method to close WebSocket connection outside of a Flux Subscriber's Cancellation
+14,2016-12-07 00:50:13.000000000,2016-12-23 15:15:54.000000000,closed,1,ByteBuf is too unqualified for WebSocket messages
+13,2016-12-06 23:47:49.000000000,2016-12-23 15:13:21.000000000,closed,1,Fix overloaded method argument issue
+12,2016-12-05 13:24:25.000000000,2016-12-14 01:36:43.000000000,closed,4,io.netty.handler.codec.EncoderException: java.lang.IllegalStateException: unexpected message type: DefaultFileRegion
+11,2016-12-02 19:25:50.000000000,2017-12-14 21:25:22.000000000,closed,3,Add a configurable threshold to flush data after reaching max buffered data size
+10,2016-11-09 05:39:27.000000000,2016-12-23 15:14:20.000000000,closed,2,Send content-length header on 404 not found response. Close #7
+9,2016-11-08 02:50:08.000000000,2016-11-08 23:06:35.000000000,closed,0,Add .gitignore
+8,2016-11-06 07:19:08.000000000,2016-12-14 15:58:50.000000000,closed,2,`httpServerResponse.sendString(Mono.error(...))` stucks
+7,2016-11-05 22:45:09.000000000,2016-11-24 17:06:52.000000000,closed,3,Default 404 handler doesn't send content-length or transfer-encoding header.
+6,2016-11-04 12:43:21.000000000,1970-01-01 00:00:00.000000001,open,4,Document encoding/decoding API and Spring 5 codecs
+5,2016-11-03 06:32:31.000000000,2016-11-24 17:07:11.000000000,closed,1,Add Connection: Keep-Alive Support
+4,2016-10-05 20:39:12.000000000,2016-10-06 19:50:12.000000000,closed,2,HTTP Server keep alive - Netty Server unable to process TCP incoming requests
+3,2016-09-20 04:32:57.000000000,1970-01-01 00:00:00.000000001,open,3,Add server-side support for HTTP file upload
+2,2016-08-29 01:33:23.000000000,2016-12-14 15:46:12.000000000,closed,4,Consider removing default transfer-encoding header?
+1,2016-08-26 12:28:08.000000000,2016-08-26 15:13:39.000000000,closed,1,MonoHttpClientChannel subscribes to Mono with a null subscriber

@@ -1,0 +1,697 @@
+id,created_at,closed_at,state,comments,title
+696,2020-08-31 15:22:22.000000000,2020-08-31 16:44:26.000000000,closed,0,Snow documentation improvements
+695,2020-08-30 23:29:15.000000000,2020-08-31 03:37:56.000000000,closed,4,(chibi loop) protocol cannot fully support (in-generator ...)
+694,2020-08-30 14:40:54.000000000,2020-08-31 03:36:54.000000000,closed,1,Small documentation fixes
+693,2020-08-28 16:47:15.000000000,1970-01-01 00:00:00.000000001,open,4,Handle cyclic dependencies in snow
+692,2020-08-28 15:55:26.000000000,2020-08-28 17:46:53.000000000,closed,0,typo: s/searchs/searches/
+691,2020-08-27 13:41:47.000000000,2020-08-28 17:48:15.000000000,closed,1,snow: extract feature list for cond-expand
+690,2020-08-25 14:21:07.000000000,2020-08-27 13:14:34.000000000,closed,5,Initialize fileno count in sexp_make_fileno_op()
+689,2020-08-24 17:15:04.000000000,2020-08-25 09:28:57.000000000,closed,1,"snow: accept ""_"" as version separator"
+688,2020-08-24 16:46:36.000000000,2020-08-25 09:28:12.000000000,closed,1,(srfi 166 color) fix
+687,2020-08-22 15:59:19.000000000,2020-08-22 19:23:51.000000000,closed,1,Library-level include-ci gives a backtrace
+686,2020-08-19 22:34:53.000000000,2020-08-25 09:09:47.000000000,closed,6,Continuations don't work across successive evals in the advanced REPL
+685,2020-08-18 19:51:39.000000000,2020-08-22 11:27:45.000000000,closed,1,Renaming imports/exports breaks (chibi repl) tab-completion
+684,2020-08-18 17:46:56.000000000,2020-08-29 13:13:46.000000000,closed,5,SRFI 145
+683,2020-08-17 12:16:57.000000000,2020-08-17 16:57:14.000000000,closed,1,(srfi 166) make-state-variable missing
+682,2020-08-15 19:59:37.000000000,2020-08-16 03:06:39.000000000,closed,0,"SRFI 160: vector->_vector should accept start, end parameters"
+681,2020-08-14 14:59:18.000000000,2020-08-17 05:10:53.000000000,closed,5,unable to compile the emscripten/wasm version
+680,2020-08-11 22:33:15.000000000,2020-08-12 07:04:52.000000000,closed,0,add fl-epsilon to srfi 144
+679,2020-08-09 23:15:49.000000000,2020-08-11 10:04:45.000000000,closed,2,make test-all fails on macos at srfi-160
+678,2020-08-09 20:08:36.000000000,2020-08-11 05:39:02.000000000,closed,1,Srfi 144 implementation exports slightly differently named procedures than what's specified in text
+677,2020-08-07 22:51:38.000000000,2020-08-08 11:20:25.000000000,closed,1,SRFI 160: vector-segment returns only the first segment
+676,2020-08-07 22:17:24.000000000,2020-08-08 11:15:32.000000000,closed,1,SRFI 160: Off-by-one error in vector-reverse-copy
+675,2020-08-07 00:23:27.000000000,2020-08-07 07:41:37.000000000,closed,2,srfi-27 with large range parameter not returning all numbers
+674,2020-07-31 08:49:50.000000000,2020-07-31 10:00:48.000000000,closed,2,Incompatible definition of SRFI 160's vector=
+673,2020-07-28 22:37:53.000000000,2020-07-29 09:06:31.000000000,closed,7,Error installing master
+672,2020-07-23 11:07:25.000000000,2020-07-24 11:20:17.000000000,closed,7,"C-FFI, arrays of user-defined types as input."
+671,2020-07-14 21:28:17.000000000,2020-07-15 11:39:16.000000000,closed,1,`inexact` returns nan when given exact fraction with large numerator and large denominator values
+670,2020-07-14 00:02:46.000000000,2020-07-14 05:32:07.000000000,closed,1,Makefile.detect: SEXP_USE_INTTYPES is never defined
+669,2020-07-13 23:41:47.000000000,2020-07-14 05:08:47.000000000,closed,1,Is sexp_primitive_opcodes required to be an ABI?
+668,2020-07-12 01:12:27.000000000,2020-07-13 05:30:27.000000000,closed,2,srfi-27 with large range parameter not returning all numbers
+667,2020-07-11 01:42:36.000000000,2020-07-11 06:53:35.000000000,closed,1,Fix some NaN comparisons: NaNs are not less than every fixnum
+666,2020-07-09 03:33:45.000000000,2020-07-09 04:53:10.000000000,closed,0,Check the number of args to delay and delay-force
+665,2020-07-08 23:15:25.000000000,2020-07-09 02:06:44.000000000,closed,2,(chibi filesystem): add chown
+664,2020-07-05 15:15:47.000000000,2020-07-06 11:21:01.000000000,closed,7,Interpreter exit(0) even if uncaught exception happened
+663,2020-06-29 22:25:13.000000000,2020-06-30 12:48:51.000000000,closed,1,website returns 500 error
+662,2020-06-27 01:37:02.000000000,2020-06-27 02:13:39.000000000,closed,1,make test-all fails on macos (at show test)
+661,2020-06-19 00:46:12.000000000,2020-06-19 12:49:34.000000000,closed,2,Change `raise` to `raise-continuable` in misc-macros.scm
+660,2020-06-18 17:59:43.000000000,2020-06-19 15:41:06.000000000,closed,3,Segfault in sexp_try_alloc while embedding in PHP
+659,2020-06-13 20:41:39.000000000,2020-06-15 13:54:38.000000000,closed,2,Fedora $VERSION interfering with Makefile
+658,2020-06-09 16:59:39.000000000,2020-06-10 03:39:06.000000000,closed,1,Use r7rs lazy primitives in srfi 41
+657,2020-06-08 15:07:55.000000000,2020-06-08 22:25:20.000000000,closed,3,Mysterious MSYS build crash
+656,2020-06-05 01:01:48.000000000,2020-06-06 12:44:57.000000000,closed,0,Win32: Guess SEXP_USE_GREEN_THREADS
+655,2020-05-28 08:37:34.000000000,2020-05-28 09:52:10.000000000,closed,0,Add srfi 146 and 166 installation to Makefile
+654,2020-05-27 22:21:49.000000000,2020-05-28 09:51:37.000000000,closed,1,CI: Add Github Actions
+653,2020-05-27 03:02:17.000000000,2020-05-27 13:36:08.000000000,closed,5,Unsafe C string functions
+652,2020-05-27 01:56:10.000000000,2020-05-27 02:51:53.000000000,closed,0,Fix printf warning in json.c
+651,2020-05-27 01:45:44.000000000,2020-05-27 02:55:11.000000000,closed,2,make test-all fails on macos
+650,2020-05-26 14:04:59.000000000,2020-05-26 17:23:19.000000000,closed,1,Library name aliasing
+649,2020-05-24 11:08:44.000000000,2020-05-24 11:57:41.000000000,closed,3,Makefile.detect: Fix installation
+648,2020-05-23 18:21:01.000000000,2020-05-24 18:48:01.000000000,closed,4,Unparse json feature
+647,2020-05-21 20:02:15.000000000,2020-05-22 06:35:13.000000000,closed,0,Correct float parsing when exponent has sign
+646,2020-05-20 21:05:21.000000000,2020-05-27 04:19:55.000000000,closed,2,Fix indentation
+645,2020-05-19 23:50:03.000000000,2020-06-15 07:23:01.000000000,closed,9,Access Violation when using sexp_current_error_port in Visual Studio build
+644,2020-05-19 07:52:18.000000000,2020-05-22 06:11:11.000000000,closed,8,Support multiple \u sequences and add error checking
+643,2020-05-19 00:42:37.000000000,2020-05-19 05:18:02.000000000,closed,1,Support for \u sequences in JSON
+642,2020-05-17 20:51:07.000000000,2020-05-22 10:08:32.000000000,closed,28,Mention that GNU Make is required to successfully build
+641,2020-05-17 12:54:45.000000000,2020-05-17 15:17:14.000000000,closed,0,Fix build with emscripten to run chibi in the browser.
+640,2020-05-14 19:34:49.000000000,2020-05-16 18:13:28.000000000,closed,2,Prevent stack overflow in sexp_mark_one (issue #601)
+639,2020-05-14 00:24:19.000000000,2020-05-14 04:11:37.000000000,closed,0,Avoid undefined C macro behavior
+638,2020-05-13 22:54:41.000000000,2020-05-14 04:18:27.000000000,closed,0,Warning while compiling on macOS
+637,2020-05-13 13:14:36.000000000,2020-05-13 13:18:40.000000000,closed,0,Fix c89 compilation and add test build option for it 
+636,2020-05-12 19:02:41.000000000,2020-05-22 09:14:09.000000000,closed,2,Possible overflow
+635,2020-05-12 01:25:42.000000000,2020-05-12 05:43:22.000000000,closed,1,make: fix uninstall target
+634,2020-05-11 15:37:29.000000000,2020-05-11 16:39:06.000000000,closed,0,srfi 115 integer-length
+633,2020-05-09 19:48:35.000000000,2020-05-09 20:12:45.000000000,closed,0,Fix SRFI 133 vector-every crash on empty vector
+632,2020-05-09 19:25:51.000000000,2020-05-11 05:46:57.000000000,closed,4,Error when building with Visual Studio
+631,2020-05-06 00:29:52.000000000,2020-05-06 02:48:24.000000000,closed,1,Implement SRFI 158.
+630,2020-05-02 23:12:15.000000000,2020-05-03 03:05:58.000000000,closed,2,Implement SRFI 162.
+629,2020-05-01 12:45:20.000000000,2020-05-03 12:20:10.000000000,closed,4,APPLY segfaults on a circular list
+628,2020-04-26 21:27:54.000000000,2020-04-27 03:40:53.000000000,closed,1,regexp-split behaving differently than a specification example
+627,2020-04-23 15:01:10.000000000,2020-04-23 16:31:50.000000000,closed,0,Write usage to stderr when bad options given
+626,2020-04-23 13:29:29.000000000,2020-04-23 14:28:11.000000000,closed,5,Help flag for the command line
+625,2020-04-01 23:27:20.000000000,2020-04-10 12:19:24.000000000,closed,3,make-promise: return the argument if it's already a promise
+624,2020-03-30 17:50:37.000000000,2020-06-15 06:52:36.000000000,closed,1,Confusing error message on importing a name-mismatched library
+623,2020-03-29 18:58:07.000000000,2020-03-29 20:15:11.000000000,closed,1,SRFI-30 multiline comment cannot placed on end-of-list
+622,2020-03-25 04:19:46.000000000,2020-03-25 12:16:29.000000000,closed,1,(chibi net): add address-info-canonname
+621,2020-03-24 18:43:18.000000000,2020-03-25 12:15:40.000000000,closed,1,Chibi crashes when get-output-string is applied to the wrong argument
+620,2020-03-24 10:18:34.000000000,2020-05-03 03:06:59.000000000,closed,3,(chibi syntax-case) fails on simple old-style macro definition
+619,2020-03-20 15:35:09.000000000,1970-01-01 00:00:00.000000001,open,2,Implement SRFI 193: Command lines
+618,2020-03-12 20:17:11.000000000,2020-06-15 07:22:29.000000000,closed,0,write-shared doesn't print datum labels in dotted pairs correctly
+617,2020-02-20 17:14:53.000000000,2020-02-22 07:54:36.000000000,closed,0,Add Tangerine library names
+616,2020-02-19 15:28:03.000000000,2020-02-19 19:25:25.000000000,closed,0,Allow to run chibi-run from anywhere
+615,2020-02-17 17:42:57.000000000,2020-02-21 18:42:32.000000000,closed,8,make fails with with undefined reference
+614,2020-02-16 16:50:49.000000000,2020-05-16 00:24:11.000000000,closed,9,Foreign functions not working on Windows MSYS2 MinGW32
+613,2020-02-14 17:05:38.000000000,2020-02-14 19:19:23.000000000,closed,0,chibi/test: remove dead import
+612,2020-02-04 18:33:25.000000000,2020-02-05 18:40:49.000000000,closed,0,Correct srfi-159 exported procedures
+611,2020-02-02 20:06:38.000000000,2020-02-03 19:21:16.000000000,closed,0,"Use sudo when doing ""snow-chibi remove"""
+610,2020-02-02 20:06:02.000000000,2020-02-03 19:19:38.000000000,closed,0,Hide unnecessarily exported symbols
+609,2020-02-02 19:59:16.000000000,2020-02-06 18:15:40.000000000,closed,1,Always install Snow libraries to /usr/local
+608,2020-02-02 19:57:18.000000000,2020-02-03 19:16:38.000000000,closed,0,Correct man page installation directory
+607,2020-02-02 19:56:18.000000000,2020-02-03 19:15:46.000000000,closed,1,Common library installation prefixes
+606,2020-01-27 17:35:16.000000000,2020-01-27 18:52:56.000000000,closed,2,char-set-intersection / iset-intersection is not commutative
+605,2020-01-23 06:02:59.000000000,1970-01-01 00:00:00.000000001,open,1,chibi-ffi: how to return a list type
+604,2020-01-11 22:03:34.000000000,2020-01-12 19:46:27.000000000,closed,1,Fix make-comparator hash function arity in SRFI 128
+603,2020-01-11 13:02:11.000000000,2020-01-12 19:44:23.000000000,closed,1,make install fails if SEXP_USE_BOEHM=1 is set due to unavailability of the -d option.
+602,2020-01-10 09:17:22.000000000,2020-01-17 20:30:34.000000000,closed,0,Interpreter crashes for unknown reason with probability 1/2.
+601,2020-01-07 07:47:26.000000000,2020-05-16 19:28:14.000000000,closed,3,"Crashes on the ""triples"" problem 3.69 solution from SICP."
+600,2020-01-06 22:50:13.000000000,2020-01-13 17:02:17.000000000,closed,12,Scripts and search path errors
+599,2020-01-05 05:17:52.000000000,2020-06-15 07:02:59.000000000,closed,3,`string->number` behavior
+598,2020-01-03 20:00:37.000000000,2020-06-15 13:58:49.000000000,closed,2,"{Exception #19 user ""read-char: invalid utf8 byte"" (185) "
+597,2020-01-01 16:12:52.000000000,2020-01-05 05:06:19.000000000,closed,10,What is the expected decoding of JSON \uFFFE
+596,2019-12-26 17:18:06.000000000,2019-12-30 21:36:11.000000000,closed,1,Add (chibi apropos) module
+595,2019-12-22 14:37:48.000000000,2019-12-24 21:26:36.000000000,closed,3,The default language and the -l language are not the same
+594,2019-12-20 07:29:14.000000000,2019-12-26 20:44:00.000000000,closed,6,SRFI 18's `thread-sleep!` doesn't work
+593,2019-12-18 17:11:42.000000000,2020-03-01 01:48:23.000000000,closed,2,SRFI 159 doesn't include `pretty`
+592,2019-12-17 16:33:09.000000000,2019-12-26 19:49:47.000000000,closed,2,chibi-doc shows weird HTML escaping
+591,2019-11-08 02:26:01.000000000,2019-11-08 15:54:42.000000000,closed,1,(chibi show): Make ANSI escape codes work with col state variable
+590,2019-11-08 02:13:00.000000000,2020-07-08 12:28:01.000000000,closed,4,Feature: JSON unparse
+589,2019-10-30 13:16:51.000000000,2019-10-31 19:17:29.000000000,closed,0,Update sxml docs
+588,2019-10-28 16:44:24.000000000,2020-07-24 09:25:38.000000000,closed,0,WIP: Suggest commands with levensthein distance
+587,2019-10-28 15:42:19.000000000,2020-01-02 17:28:50.000000000,closed,4,[wip] add srfi-168 with dependencies
+586,2019-10-28 15:23:10.000000000,2019-10-29 17:58:33.000000000,closed,0,WASM improvements
+585,2019-10-23 22:09:29.000000000,2019-10-24 17:00:30.000000000,closed,0,Add option to ignore escaping
+584,2019-10-23 20:37:02.000000000,2019-10-24 19:36:54.000000000,closed,0,SXML no option for safe text
+583,2019-10-23 20:30:23.000000000,2019-10-24 06:27:35.000000000,closed,0,Correct typo
+582,2019-10-19 15:01:57.000000000,2019-10-21 19:39:47.000000000,closed,0,Missing ) in code example
+581,2019-10-19 11:54:49.000000000,2020-05-22 09:36:53.000000000,closed,1,Add (get-stack-trace) special form to (chibi).
+580,2019-10-06 16:30:22.000000000,2019-10-06 18:14:50.000000000,closed,2,Fix incorrect and syntax
+579,2019-10-06 09:42:55.000000000,2019-10-06 18:30:23.000000000,closed,0,Erratum #3 and new erratum #29 not implemented yet
+578,2019-10-05 22:01:28.000000000,2019-10-06 04:26:17.000000000,closed,0,Fixes for mmapped heaps
+577,2019-10-02 05:17:59.000000000,2019-10-06 04:20:46.000000000,closed,1,(chibi net server-util): file-mime-type: fix load-mime-types call
+576,2019-09-24 05:59:56.000000000,2019-09-24 18:07:18.000000000,closed,0,memv: compare using eqv? instead of equal?
+575,2019-09-23 04:35:49.000000000,2019-09-23 12:52:49.000000000,closed,1,(chibi net): make-listener-socket: close the socket on error
+574,2019-09-20 12:59:16.000000000,2020-08-21 05:18:46.000000000,closed,3,match-letrec does not evaluate init forms with pattern variables in scope
+573,2019-09-20 01:06:16.000000000,2019-09-20 19:02:19.000000000,closed,0,(chibi net): export address-info-flags
+572,2019-09-20 01:04:44.000000000,2019-09-20 19:01:53.000000000,closed,0,(chibi system): export group?
+571,2019-09-19 10:50:11.000000000,2019-09-23 13:18:29.000000000,closed,0,"Written representation of symbols containing ""|"""
+570,2019-09-16 23:30:09.000000000,2020-07-06 09:42:43.000000000,closed,1,Bignums in the C API
+569,2019-09-16 23:26:58.000000000,2020-07-06 10:24:30.000000000,closed,3,The C level can't reliably receive multiple values
+568,2019-09-11 03:58:18.000000000,2019-09-12 06:59:46.000000000,closed,3,(chibi net): sockaddr-name: fix support for IPv6 addresses
+567,2019-09-11 03:53:10.000000000,2019-09-16 20:10:43.000000000,closed,1,(chibi net): sockaddr-port: return the port number in host byte order
+566,2019-09-07 21:13:17.000000000,2020-06-15 13:56:02.000000000,closed,2,Building with -DSEXP_USE_STATIC_LIBS fails
+565,2019-08-31 13:30:44.000000000,2020-03-25 12:06:23.000000000,closed,19,Imported definitions not visible inside the same cond-expand
+564,2019-08-30 23:04:43.000000000,2019-08-31 18:36:50.000000000,closed,0,"(chibi process): fix process-running? on OpenBSD, NetBSD and DragonFly"
+563,2019-08-29 18:24:57.000000000,2019-08-31 18:37:51.000000000,closed,3,Change snow-chibi to work with Chicken 5
+562,2019-08-29 04:42:59.000000000,2019-08-29 17:50:26.000000000,closed,0,Add lib/chibi/pty.c to .gitignore
+561,2019-08-28 20:49:09.000000000,2019-08-29 17:56:22.000000000,closed,4,`if` accepts more than three arguments
+560,2019-08-24 02:22:00.000000000,2019-08-24 07:18:11.000000000,closed,1,(chibi pty): Disable in CMake build
+559,2019-08-23 02:26:12.000000000,2019-08-23 16:08:47.000000000,closed,2,(chibi pty): fix compilation errors on the BSDs
+558,2019-08-21 21:22:10.000000000,2019-08-22 19:53:59.000000000,closed,2,compile error in (chibi pty) on macOS
+557,2019-08-18 15:41:41.000000000,2020-06-16 06:44:26.000000000,closed,2,Recursive inclusion -> silent crash
+556,2019-08-16 05:56:42.000000000,2019-08-16 18:35:15.000000000,closed,2,"Fix NetBSD, DragonFly BSD and Darwin feature detection"
+555,2019-08-07 05:54:00.000000000,2019-08-17 17:56:08.000000000,closed,0,build on Solaris-like systems
+554,2019-08-02 12:58:24.000000000,2019-08-03 07:45:44.000000000,closed,1,Add features for the various BSDs.
+553,2019-07-27 01:20:43.000000000,2019-08-15 19:47:04.000000000,closed,3,(chibi filesystem) current-directory can get into an infinite loop
+552,2019-07-26 17:21:27.000000000,2019-08-06 13:23:37.000000000,closed,1,Incorrect SRE test related to bol/eol ?
+551,2019-07-24 15:11:19.000000000,2019-07-24 18:54:30.000000000,closed,1,Fix include-shared for process
+550,2019-07-22 18:23:21.000000000,1970-01-01 00:00:00.000000001,open,0,(chibi repl) should save raised exceptions
+549,2019-07-22 14:15:09.000000000,2020-08-25 10:23:05.000000000,closed,2,snow-chibi.scm ignores proxy environment
+548,2019-07-21 07:50:17.000000000,2019-07-24 18:47:36.000000000,closed,0,More error checking on some SRE syntax
+547,2019-07-11 23:15:10.000000000,2019-10-28 15:22:34.000000000,closed,3,various improvements
+546,2019-07-11 20:29:53.000000000,2019-07-12 01:31:31.000000000,closed,1,scheme mapping and scheme mapping hash
+545,2019-06-23 03:22:52.000000000,2019-07-11 20:05:33.000000000,closed,1,lib/init-7.scm has syntax error
+544,2019-06-23 00:50:13.000000000,2019-07-11 20:06:32.000000000,closed,0,Properly support DLL build on Win32
+543,2019-06-18 17:44:52.000000000,2019-07-11 20:06:31.000000000,closed,2,Win32: Fix embedding for Windows
+542,2019-06-12 22:04:27.000000000,1970-01-01 00:00:00.000000001,open,1,"Embedding API example code, or a tutorial."
+541,2019-05-20 03:49:52.000000000,2019-05-21 18:39:32.000000000,closed,1,Comparison of big negative bignums fails
+540,2019-05-17 12:59:32.000000000,2019-05-23 10:33:52.000000000,closed,0,Consider unterminated strings as read-error
+539,2019-05-02 19:30:53.000000000,2019-05-02 20:37:58.000000000,closed,0,Error report: Rounding of small exact rationals
+538,2019-04-25 09:52:12.000000000,2019-04-26 18:38:38.000000000,closed,1,Update TODO
+537,2019-04-24 13:30:40.000000000,2019-04-26 18:33:15.000000000,closed,0,Avoid compiler warning about mismatched printf types
+536,2019-04-22 19:15:17.000000000,1970-01-01 00:00:00.000000001,open,1,(chibi match) other enhancements
+535,2019-04-22 18:37:56.000000000,2020-07-06 08:43:12.000000000,closed,2,(chibi match) bounded repetition
+534,2019-04-20 23:20:58.000000000,2019-04-21 16:08:58.000000000,closed,2,Command line options -I and -A doesn't seem to work
+533,2019-04-05 20:40:36.000000000,2019-04-05 20:46:17.000000000,closed,1,Case statement with integer constants
+532,2019-03-31 19:08:39.000000000,2019-04-02 18:33:29.000000000,closed,2,regexp crashes on simple expression
+531,2019-03-29 20:19:20.000000000,2020-05-04 03:29:29.000000000,closed,3,SRFI 125: Hash functions
+530,2019-03-14 02:05:39.000000000,2019-03-14 17:19:12.000000000,closed,1,Fix tests on Windows
+529,2019-03-11 07:05:27.000000000,1970-01-01 00:00:00.000000001,open,9,[Feature request] Variadic C functions
+528,2019-03-11 00:17:39.000000000,2019-03-11 14:30:29.000000000,closed,0,Note that chibi works on OpenBSD in the README
+527,2019-03-10 23:23:25.000000000,2019-03-11 14:29:59.000000000,closed,0,Remove duplicate sys/sysctl.h inclusion
+526,2019-03-09 06:03:01.000000000,2019-03-09 06:41:42.000000000,closed,0,Fix typo in sexp_get_output_string documentation
+525,2019-03-07 06:15:13.000000000,2019-03-09 07:02:30.000000000,closed,4,Exceptions not caught by (guard) inside sexp_eval_string
+524,2019-03-06 11:47:24.000000000,2019-03-06 20:10:22.000000000,closed,3,Getting string representation of type name
+523,2019-03-05 03:23:39.000000000,2019-03-05 20:37:30.000000000,closed,1,(- 0.0) => -0.0
+522,2019-03-05 02:13:12.000000000,2019-03-05 20:42:02.000000000,closed,1,Variable number of arguments
+521,2019-03-03 13:19:00.000000000,1970-01-01 00:00:00.000000001,open,3,Using callbacks from inside the C api
+520,2019-03-03 04:06:51.000000000,2019-03-03 05:07:03.000000000,closed,1,Scheme export not being called?
+519,2019-03-02 11:35:19.000000000,2020-08-25 09:44:28.000000000,closed,8,Does Chibi support sandboxing?
+518,2019-02-28 19:42:24.000000000,2020-06-24 07:26:02.000000000,closed,1,fits-in-width in (chibi show pretty) broken
+517,2019-02-28 18:14:05.000000000,2020-06-24 07:26:31.000000000,closed,0,(chibi show pretty) does not use the string-width state variable
+516,2019-02-11 14:15:51.000000000,2020-07-06 10:01:00.000000000,closed,2,Two minor issues with (chibi monad environment)
+515,2019-02-09 22:51:05.000000000,2019-02-10 19:36:32.000000000,closed,0,"(char-whitespace? #\x0085) => #f, wrongly"
+514,2019-02-06 01:34:52.000000000,1970-01-01 00:00:00.000000001,open,2,iOS REPL example from google code is gone
+513,2019-02-05 23:13:42.000000000,2019-02-17 20:28:23.000000000,closed,1,The grammar of (import (prefix ...)) is wrong at synthcode
+512,2019-02-05 14:00:55.000000000,2019-02-05 19:49:31.000000000,closed,2,various small bugs
+511,2019-01-21 00:40:37.000000000,2019-01-21 20:47:17.000000000,closed,0,Fix Makefile
+510,2019-01-17 21:54:10.000000000,2019-01-17 22:59:51.000000000,closed,1,make install fails for uvprim.so
+509,2019-01-17 18:22:49.000000000,2019-01-17 22:58:50.000000000,closed,0,typo in Makefile
+508,2019-01-16 19:47:49.000000000,2019-01-17 23:01:14.000000000,closed,1,Fix tiny Makefile typo for SRFI 160 install.
+507,2018-12-30 11:51:17.000000000,1970-01-01 00:00:00.000000001,open,0,image files don't support multiple threads
+506,2018-12-23 15:28:08.000000000,2018-12-24 08:15:14.000000000,closed,0,SRFI 159 definition has a typo
+505,2018-12-15 00:58:36.000000000,2018-12-16 22:15:10.000000000,closed,3,"Core types are not available by name, per docs for (chibi ast)"
+504,2018-12-11 18:12:04.000000000,2018-12-11 19:54:01.000000000,closed,0,Fix invocation of main caused by fix for #484
+503,2018-12-11 16:48:24.000000000,2018-12-11 19:45:00.000000000,closed,0,Parse->list calls parse->fold with incorrect argument order
+502,2018-12-09 23:27:27.000000000,2018-12-10 19:10:43.000000000,closed,0,with-ellipsis
+501,2018-12-05 16:14:58.000000000,2018-12-05 21:55:14.000000000,closed,4,`make test-all' fails without 'make install'
+500,2018-12-01 18:49:00.000000000,2018-12-09 01:08:32.000000000,closed,6,Implement syntax-case
+499,2018-11-29 20:31:53.000000000,2018-12-01 07:13:49.000000000,closed,3,Add PROCEDURALLY for outputting procedure objects
+498,2018-11-25 23:13:28.000000000,2018-11-27 20:12:10.000000000,closed,2,Emsdk update
+497,2018-11-22 02:59:08.000000000,2020-08-25 10:27:58.000000000,closed,3,Interaction of REPL and CALL/CC produces errors
+496,2018-11-12 15:48:35.000000000,2018-12-10 20:31:08.000000000,closed,11,Implement datum->syntax for explicitely renamed identifiers
+495,2018-11-12 14:32:21.000000000,1970-01-01 00:00:00.000000001,open,2,Flat syntactic closures
+494,2018-11-10 21:48:39.000000000,2020-06-16 06:47:10.000000000,closed,1,SRFI 99: Syntactic layer broken
+493,2018-11-06 18:24:53.000000000,2018-11-08 20:24:53.000000000,closed,0,Make write/display output bytevectors with hex constants (issue #483)
+492,2018-10-31 21:17:05.000000000,2018-11-04 20:10:47.000000000,closed,0,add history support as $0...9
+491,2018-10-21 01:02:14.000000000,2018-10-21 20:45:25.000000000,closed,1,Documentation formatting loses newlines due to code comments
+490,2018-10-12 01:18:27.000000000,2018-10-12 16:06:07.000000000,closed,4,Creating userdata in chibi
+489,2018-10-09 03:34:27.000000000,2020-06-16 06:48:00.000000000,closed,1,(chibi bytevector) should be enhanced with R6RS native IEEE procedures
+488,2018-10-05 10:18:15.000000000,1970-01-01 00:00:00.000000001,open,2,Garbage collection of symbols
+487,2018-10-04 11:53:37.000000000,2018-10-04 22:43:08.000000000,closed,0,"Add C++ extern ""C"" to gc_heap.h"
+486,2018-10-04 00:15:34.000000000,2018-10-04 11:54:11.000000000,closed,1,Document SEXP_USE_IMAGE_LOADING
+485,2018-08-29 18:47:37.000000000,2018-12-10 20:45:39.000000000,closed,1,Exclude argv[0] from (command-line) when invoked as scheme-r7rs.
+484,2018-08-25 22:33:07.000000000,2018-12-10 20:45:00.000000000,closed,6,SRFI 22 vs. (command-line) in (scheme process-context)
+483,2018-08-21 18:33:09.000000000,2020-02-13 04:03:58.000000000,closed,18,Consider making write/display output bytevectors with hex constants
+482,2018-08-10 23:41:04.000000000,2018-08-10 23:42:10.000000000,closed,0,can't build a c++ app statically with clang++
+481,2018-07-30 05:12:57.000000000,2018-07-30 06:37:53.000000000,closed,0,Avoid undefined C macro behavior
+480,2018-07-03 07:46:22.000000000,2018-07-08 18:25:05.000000000,closed,6,Fix syntax-rules on ellipsis escape templates
+479,2018-06-28 16:17:04.000000000,2018-06-29 18:46:59.000000000,closed,6,sexp_write_one when sizeof(long) < sizeof(sexp_sint_t)
+478,2018-06-20 16:45:59.000000000,2018-06-21 18:36:57.000000000,closed,1,Activate Win64 platform with MSVC
+477,2018-06-11 23:32:01.000000000,2018-06-20 14:46:11.000000000,closed,0,Expt fix
+476,2018-06-10 05:24:05.000000000,2018-06-10 18:39:08.000000000,closed,1,(expt bignum -k) was equal to (expt bignum k)
+475,2018-06-09 21:22:30.000000000,2018-06-20 14:45:39.000000000,closed,9,More portable bignums
+474,2018-06-07 03:11:42.000000000,2018-06-09 14:14:49.000000000,closed,1,Reading +inf.0+0i
+473,2018-05-23 11:40:38.000000000,2020-06-16 07:15:56.000000000,closed,4,"ERROR in ""type-slot-offset"": invalid type, expected Type: #<procedure #f>"
+472,2018-05-11 22:06:21.000000000,2018-05-12 03:56:36.000000000,closed,1,unbound identifiers always match bound literals
+471,2018-04-28 09:35:13.000000000,2018-05-12 15:43:54.000000000,closed,2,Character name case sensitivity
+470,2018-04-28 00:06:02.000000000,2018-10-12 16:41:16.000000000,closed,5,"`PREFIX=""..."" make install` fails"
+469,2018-04-15 06:46:27.000000000,2018-04-15 17:02:15.000000000,closed,0,Raise error if apply is called with invalid args.
+468,2018-04-10 08:56:33.000000000,2018-04-15 17:02:15.000000000,closed,6,apply is too lax
+467,2018-04-05 11:04:32.000000000,2018-04-05 17:11:23.000000000,closed,1,`exit` with inexact integer signals error
+466,2018-04-04 00:49:32.000000000,2018-04-04 18:35:12.000000000,closed,0,test: Do not create file under /tmp in show-test
+465,2018-04-01 10:13:53.000000000,2018-04-01 10:32:33.000000000,closed,0,changes from jim rees
+464,2018-04-01 02:56:11.000000000,2018-04-01 16:42:58.000000000,closed,2,Datum labels revisited
+463,2018-03-31 23:59:06.000000000,2018-04-01 05:46:52.000000000,closed,0,Avoid placing duplicate feature identifiers in the features list
+462,2018-03-29 06:48:34.000000000,2018-03-29 13:45:24.000000000,closed,1,"Check for valid ""rest"" parameters in parameter lists"
+461,2018-03-16 06:59:49.000000000,2018-03-16 17:40:33.000000000,closed,0,Regression tests for remainder with infinity
+460,2018-03-15 11:58:40.000000000,2018-03-15 16:46:26.000000000,closed,1,Raise type error if remainder called with infinity.
+459,2018-03-09 13:56:29.000000000,2018-03-10 07:12:15.000000000,closed,1,SRFI 128: The default comparator does not use = to compare real numbers
+458,2018-02-20 19:03:47.000000000,2018-02-24 17:24:19.000000000,closed,1,Useless (?) cell lookup while resolving references (in chibi source code)
+457,2018-02-18 04:18:32.000000000,2018-02-18 11:07:47.000000000,closed,5,error while loading shared libraries: libchibi-scheme.so.0: cannot open shared object file: No such file or directory
+456,2018-02-15 06:21:20.000000000,1970-01-01 00:00:00.000000001,open,0,Add ABI-affecting header configs to install.h
+455,2018-02-13 02:45:15.000000000,2018-02-15 06:21:47.000000000,closed,6,"Segfault for a simple C program, with Boehm-GC or with GC-debug options on."
+454,2018-01-19 03:47:53.000000000,1970-01-01 00:00:00.000000001,open,0,Documentation at the REPL
+453,2018-01-13 16:10:05.000000000,1970-01-01 00:00:00.000000001,open,2,segfaults on 9front
+452,2018-01-13 07:27:40.000000000,2018-01-13 07:32:31.000000000,closed,3,patch to compile on 9front
+451,2018-01-12 08:26:01.000000000,2018-01-13 09:22:08.000000000,closed,5,9front port
+450,2017-12-31 03:52:41.000000000,2018-01-04 10:09:20.000000000,closed,0,Misc. fixes for Windows build
+449,2017-12-30 05:52:35.000000000,2018-01-11 18:02:05.000000000,closed,1,Several changes of syntax-rules in init-7.scm
+448,2017-12-25 00:07:50.000000000,2017-12-25 08:16:31.000000000,closed,1,Update leap second list
+447,2017-12-14 16:34:15.000000000,2017-12-14 16:46:14.000000000,closed,0,Makefile: Fix Cygwin build
+446,2017-12-13 20:02:01.000000000,2017-12-14 16:05:21.000000000,closed,1,Win32: Wrap-up
+445,2017-12-12 17:45:09.000000000,2017-12-12 17:56:54.000000000,closed,1,Landing page link doesn't work
+444,2017-11-18 16:11:06.000000000,2017-11-18 18:02:58.000000000,closed,0,Makefile: Fix (chibi time) installation
+443,2017-11-18 13:11:05.000000000,2017-11-18 14:21:21.000000000,closed,0,Win32: Visual Studio 2017 support using CMake
+442,2017-11-11 00:58:19.000000000,2017-11-13 18:08:56.000000000,closed,0,ast.c: #include <stdlib.h> for setenv()
+441,2017-11-11 00:51:13.000000000,2017-11-13 18:08:37.000000000,closed,0,main: Silence warning with !SEXP_USE_GREEN_THREADS
+440,2017-11-09 04:09:54.000000000,2017-11-10 18:46:05.000000000,closed,1,Add mkdir and install commands for SRFI 117 to Makefile.
+439,2017-11-06 00:28:04.000000000,2017-11-08 18:59:47.000000000,closed,3,RFC: Win32 feature identifier / library changes
+438,2017-11-06 00:21:03.000000000,2017-11-18 10:34:32.000000000,closed,5,Win32: Fix win32 port
+437,2017-11-06 00:14:30.000000000,2017-11-08 18:48:52.000000000,closed,0,chibi-genstatic: Remove inline? override
+436,2017-08-13 20:38:10.000000000,2017-08-14 01:24:36.000000000,closed,1,Added support for fixed-length arrays in structs to chibi-ffi
+435,2017-08-11 18:37:55.000000000,2017-11-18 10:36:07.000000000,closed,1,[RFC] Treat `scheme-r7rs` command name as in SRFI 22.
+434,2017-08-08 20:31:31.000000000,2017-08-09 17:47:36.000000000,closed,0,Implementation of SRFI 144 does not export flonum
+433,2017-08-08 18:24:02.000000000,2017-08-20 10:11:36.000000000,closed,7,Numerical input and output does not satisfy the main invariant of section 6.2.7 of the R7RS
+432,2017-08-06 12:25:38.000000000,2017-08-08 09:34:27.000000000,closed,0,More explicit ways to add compiler flags in chibi-ffi .stub files
+431,2017-08-03 18:24:47.000000000,2017-08-05 12:31:32.000000000,closed,1,Nested import declarations: (only (rename ...))
+430,2017-08-01 21:33:24.000000000,2017-08-05 11:40:31.000000000,closed,1,Implement SRFI 139
+429,2017-07-25 18:14:59.000000000,2017-07-25 18:19:16.000000000,closed,0,Repair Emscripten building process
+428,2017-07-21 17:31:01.000000000,2017-07-22 01:55:54.000000000,closed,2,Segmentation fault reading circular structure
+427,2017-07-19 20:25:48.000000000,2017-07-20 17:21:40.000000000,closed,2,Some packaged SRFIs aren't installed
+426,2017-07-19 20:23:02.000000000,2017-07-20 17:13:12.000000000,closed,1,"flround needs to invoke Scheme round, not C round"
+425,2017-07-09 11:37:30.000000000,2017-08-29 17:47:55.000000000,closed,3,Clang gives warning about shifting a negative signed value on ARM
+424,2017-07-08 03:51:09.000000000,1970-01-01 00:00:00.000000001,open,8,Will not execute after being compiled on Termux
+423,2017-07-08 03:47:08.000000000,2017-07-09 03:07:47.000000000,closed,0,Warnings about defined from Clang
+422,2017-07-03 00:00:50.000000000,2017-07-03 01:56:22.000000000,closed,7,Added support for Cyclone to Snow
+421,2017-07-01 21:39:06.000000000,2017-07-02 17:10:40.000000000,closed,0,syntax-rules has issues with underscore subpatterns (regression due to fix #382)
+420,2017-06-25 19:54:33.000000000,2017-08-27 09:10:58.000000000,closed,1,Chibi implements string-foldcase as string-downcase
+419,2017-06-25 18:53:03.000000000,2017-06-26 05:36:51.000000000,closed,1,(srfi 115) does not export regexp-match->list
+418,2017-06-25 17:51:21.000000000,2017-06-26 18:32:37.000000000,closed,2,http-get does not pass query string to host
+417,2017-06-18 19:57:55.000000000,2017-06-29 21:55:45.000000000,closed,6,Snow-chibi fails running tests if files don't exist in current folder
+416,2017-06-12 16:43:45.000000000,2017-11-18 10:36:08.000000000,closed,2,Invoke `main` procedure by default when argv[0] is `scheme-r7rs` defined by SRFI 22
+415,2017-06-10 07:57:10.000000000,2017-06-11 10:47:45.000000000,closed,0,Update .gitignore.
+414,2017-06-04 17:14:49.000000000,2017-06-11 10:50:21.000000000,closed,2,Remove argv[0] from the arguments of main_symbol.
+413,2017-06-04 16:21:19.000000000,2017-06-11 10:50:21.000000000,closed,3,SRFI-22: the arguments of main_symbol contains argv[0] incorrectly
+412,2017-05-23 01:11:30.000000000,2020-08-20 05:37:40.000000000,closed,11,MSYS2 C embedding + pkg-config
+411,2017-05-19 05:51:00.000000000,2017-05-20 03:37:37.000000000,closed,2,More from issue #406
+410,2017-05-17 23:02:27.000000000,2017-05-18 17:37:24.000000000,closed,1,segfault when using mk-time
+409,2017-05-17 18:58:08.000000000,2017-07-04 23:01:40.000000000,closed,13,Options for parsing and working with dates and times?
+408,2017-05-11 02:18:52.000000000,2017-05-16 02:44:23.000000000,closed,4,Continuing issue #406
+407,2017-05-08 02:33:29.000000000,2017-05-08 07:04:25.000000000,closed,1,SRFI 1: list= error
+406,2017-05-06 22:36:43.000000000,2017-05-07 11:50:32.000000000,closed,4,Problems with bit.so
+405,2017-04-22 22:54:51.000000000,2017-04-23 16:38:51.000000000,closed,3,snow-chibi ignores (some) libraries (with numbers?)
+404,2017-04-22 16:55:58.000000000,2018-02-18 10:23:20.000000000,closed,10,snow-chibi segfaults
+403,2017-04-12 12:16:11.000000000,1970-01-01 00:00:00.000000001,open,3,"In the interaction environment, open-coded primitives do not reflect redefinition"
+402,2017-04-08 01:24:11.000000000,2017-04-10 17:19:50.000000000,closed,1,Symbol conflict in stty module
+401,2017-03-21 06:43:39.000000000,2017-03-25 12:54:00.000000000,closed,1,Expose the ability to set the sexp_type_print field of the type struct to Scheme
+400,2017-03-20 12:26:42.000000000,2020-07-06 09:30:23.000000000,closed,1,Fully support unknown implementations in snow-chibi
+399,2017-03-08 20:22:15.000000000,2017-03-26 16:19:18.000000000,closed,27,Identifiers in library body are not resolved in a satisfying fashion
+398,2017-03-06 15:18:21.000000000,2017-03-12 13:15:33.000000000,closed,1,Arranged definitions to prevent double definition
+397,2017-02-01 13:22:14.000000000,2017-02-01 18:37:30.000000000,closed,0,Update README.md
+396,2017-02-01 05:57:50.000000000,2017-08-26 17:26:02.000000000,closed,1,chibi-doc doesn't parse Scribble table syntax
+395,2017-01-25 11:50:41.000000000,1970-01-01 00:00:00.000000001,open,2,A profiler for Chibi?
+394,2017-01-19 22:32:33.000000000,2017-01-20 19:28:49.000000000,closed,2,make install segfaults
+393,2017-01-16 12:19:48.000000000,2020-08-20 05:33:44.000000000,closed,21,chibi-scheme on Windows with msys2's mingw-w64 fails to build
+392,2017-01-11 06:46:46.000000000,2017-01-25 20:28:34.000000000,closed,5,Speed up GC allocation
+391,2017-01-11 03:01:05.000000000,2017-01-11 04:18:30.000000000,closed,0,fixed let(*)-values when no bindings are given
+390,2017-01-10 19:18:29.000000000,2017-01-14 19:22:10.000000000,closed,1,chibi-doc shows warnings about already defined bindings
+389,2017-01-10 02:25:17.000000000,2017-01-14 12:35:44.000000000,closed,7,Chibi does not convert identifiers into symbols in vector literals
+388,2017-01-09 12:28:46.000000000,2017-01-09 20:34:41.000000000,closed,0,"Display warning on stderr, not stdout."
+387,2017-01-08 04:39:03.000000000,2017-01-09 20:31:44.000000000,closed,0,Return #t from ansi-escapes-enabled? for $TERM rxvt-unicode-256color
+386,2017-01-08 04:32:02.000000000,2017-01-09 20:31:44.000000000,closed,0,TERM=rxvt-unicode-256color should set `ansi-escapes-enabled?`
+385,2017-01-06 01:47:11.000000000,2017-01-19 20:51:30.000000000,closed,3,"""snow-chibi reg-key"" segfaults"
+384,2017-01-06 00:39:31.000000000,2017-01-10 18:30:25.000000000,closed,2,Midnight commander cannot enter directories in tgz-files created by snow-chibi
+383,2017-01-04 21:51:39.000000000,2017-08-05 11:40:31.000000000,closed,8,Implement SRFI 139: Syntax Parameters
+382,2016-12-31 23:48:33.000000000,2017-01-01 05:49:21.000000000,closed,0,Underscore as identifier in template
+381,2016-12-31 14:50:20.000000000,2017-01-14 12:55:50.000000000,closed,6,Getting full stack trace
+380,2016-12-22 20:25:48.000000000,2016-12-23 03:44:20.000000000,closed,1,External representation of circular list
+379,2016-11-28 05:15:58.000000000,2016-11-28 21:19:16.000000000,closed,2,error while loading shared libraries: libchibi-scheme.o
+378,2016-10-01 01:08:27.000000000,2016-10-27 16:30:57.000000000,closed,3,Using chibi in C++ projects
+377,2016-09-19 10:31:43.000000000,2016-09-23 17:49:49.000000000,closed,1,chibi-scheme 0.7.3 segfaults on Ubuntu 14.04
+376,2016-09-16 19:17:27.000000000,2020-08-20 05:34:20.000000000,closed,2,Porting Chibi to Golang
+375,2016-07-30 02:36:13.000000000,2016-08-06 10:43:11.000000000,closed,2,Wrong `bitwise-ior` result on 32bit host/bignum
+374,2016-07-29 18:02:30.000000000,2020-08-25 09:48:17.000000000,closed,2,wrong hash.so path on make install PREFIX
+373,2016-07-27 20:31:18.000000000,2016-07-28 15:43:10.000000000,closed,0,Remove a spurious semi-colon from the macro sexp_make_vector
+372,2016-07-12 19:03:31.000000000,2016-07-12 22:15:26.000000000,closed,1,Bug in syntax-rules expander: lookup of ‘...’ and import sets
+371,2016-07-09 17:57:57.000000000,2016-07-10 03:32:04.000000000,closed,1,infinitely recurring function causing segfault
+370,2016-07-05 21:22:59.000000000,2016-07-06 18:23:15.000000000,closed,1,chibi-ffi generates incorrect code for C nested struct setter
+369,2016-06-27 14:18:41.000000000,2016-06-28 17:08:29.000000000,closed,1,Documentation of (chibi show): something went wrong
+368,2016-06-21 22:08:57.000000000,2016-06-24 17:57:27.000000000,closed,1,Use CI
+367,2016-06-21 14:16:32.000000000,2016-06-25 17:53:47.000000000,closed,0,SRFI 9 implementation should use `eq?` not `compare` when hygienically matching field names
+366,2016-06-21 10:54:40.000000000,2016-06-25 10:23:19.000000000,closed,0,syntax-rules transformer does not always do the correct matching between pattern variables and the identifiers in the template 
+365,2016-06-21 00:18:17.000000000,2016-06-25 18:23:41.000000000,closed,3,Embedded-friendliness
+364,2016-06-20 13:03:50.000000000,2016-06-21 00:03:37.000000000,closed,0,Minor issue: unused but set variable
+363,2016-06-18 18:39:55.000000000,2016-06-19 08:14:53.000000000,closed,2,SRFI 99: Child doesn't set parent field
+362,2016-06-15 10:00:26.000000000,2016-06-15 16:13:40.000000000,closed,1,Low-level macro system segfaults when trying to access an identifier that is gone out of scope to evaluate a macro transformer 
+361,2016-06-13 11:21:38.000000000,2016-06-13 19:10:45.000000000,closed,14,Child fields of SRFI 99 records have to shadow parent fields
+360,2016-06-10 20:43:44.000000000,2016-06-12 09:26:26.000000000,closed,0,Add SRFI 124 interface to Chibi's ephemerons.
+359,2016-06-07 18:05:33.000000000,2016-06-07 18:43:08.000000000,closed,4,complex `asin` gives wrong results
+358,2016-06-06 23:55:40.000000000,2016-06-08 02:25:33.000000000,closed,7,Warning when building on Cygwin64
+357,2016-06-06 17:44:17.000000000,2016-06-06 17:50:36.000000000,closed,2,Reference implementation of SRFI-121 (Generators) does not work on the REPL
+356,2016-06-06 16:59:27.000000000,2016-06-12 09:26:04.000000000,closed,3,Feature request: Allow setting of addition *features*
+355,2016-06-06 10:58:49.000000000,2016-06-06 15:51:36.000000000,closed,0,Prevent segfault when '-t' option is given without argument
+354,2016-06-05 20:44:50.000000000,2016-06-06 15:50:32.000000000,closed,1,Handle imaginary values of inverse of sine and cosine on the real axis.
+353,2016-06-05 19:22:20.000000000,2016-06-07 17:48:20.000000000,closed,1,`sqrt` near the branch cut
+352,2016-06-05 18:36:46.000000000,2016-06-06 17:19:44.000000000,closed,1,`0.0-0.0i` is not written in a valid way
+351,2016-06-05 00:00:36.000000000,1970-01-01 00:00:00.000000001,open,2,`read` does not signal an error when `'` is at the end of the file
+350,2016-06-04 22:38:20.000000000,2016-06-05 17:26:07.000000000,closed,0,Segfault on `(asin 0+0.0i)`
+349,2016-06-04 21:51:52.000000000,2016-06-05 17:30:28.000000000,closed,0,`#!fold-case` is not case-folded
+348,2016-06-04 18:58:19.000000000,2016-06-05 17:35:14.000000000,closed,0,Symbol `|#|` is written incorrectly
+347,2016-06-04 13:53:06.000000000,2016-06-04 17:20:34.000000000,closed,1,Case sensitivity in <inline hex escape>'s 
+346,2016-06-03 20:39:59.000000000,2016-06-04 16:50:44.000000000,closed,0,`guard` hasn't been updated according to erratum 17.
+345,2016-05-31 16:31:50.000000000,2016-06-15 17:52:06.000000000,closed,4,The `snow-chibi` binary doesn't find `snow.img`
+344,2016-05-31 16:24:55.000000000,2016-05-31 19:42:59.000000000,closed,1,Timestamps of tar files produced by snow-chibi are far in the future
+343,2016-05-31 10:40:48.000000000,2016-06-04 17:07:39.000000000,closed,0,Parsing of line endings in strings preceded by '\<intraline whitespace>'
+342,2016-05-19 01:22:11.000000000,2016-05-19 03:06:49.000000000,closed,1,"Modify makefiles to make LDCONFIG optional, support systems with no s…"
+341,2016-05-17 23:50:53.000000000,2016-05-18 17:37:36.000000000,closed,1,fix struct for function args
+340,2016-05-17 11:14:47.000000000,2016-05-17 17:10:14.000000000,closed,2,Datum labels in datum comments
+339,2016-05-16 18:46:42.000000000,2016-05-16 19:54:46.000000000,closed,1,#0=(#0#) gives strange results
+338,2016-05-16 18:42:25.000000000,2016-05-16 18:50:26.000000000,closed,4,Invalid self label reference error
+337,2016-05-16 00:03:00.000000000,2016-05-16 17:57:03.000000000,closed,4,Redefinition of datum labels can force the reader into an infinite loop
+336,2016-05-15 04:39:38.000000000,2016-05-15 15:07:29.000000000,closed,1,Old references to string-cursor-backward
+335,2016-05-14 19:15:22.000000000,2016-05-15 02:38:52.000000000,closed,3,SRFI-130: problematic call to %string-contains
+334,2016-05-14 06:27:58.000000000,2016-05-15 02:41:10.000000000,closed,1,SRFI-130: string-cursor-backward should be string-cursor-back
+333,2016-05-13 22:16:22.000000000,2020-08-20 05:32:30.000000000,closed,9,"`(string->number ""1/2@1"")' yields `#f'"
+332,2016-05-13 22:00:38.000000000,2016-05-15 15:28:21.000000000,closed,0,`chibi-scheme -R' does not accept `#x#ideadbeef`
+331,2016-05-10 10:22:02.000000000,2016-05-11 18:22:25.000000000,closed,7,Number parser
+330,2016-05-09 16:57:31.000000000,2016-05-18 17:37:50.000000000,closed,0,chibi-ffi struct in function args no effect
+329,2016-05-04 13:19:18.000000000,2016-05-04 16:37:21.000000000,closed,5,Exactness of complex numbers expressed in polar coordinates
+328,2016-05-03 23:38:42.000000000,2016-05-04 16:00:14.000000000,closed,1,"(string->number ""#e1e-1"") yields zero"
+327,2016-05-03 17:13:36.000000000,2016-05-03 17:15:00.000000000,closed,5,‘string->number’ does not detect all syntactically invalid numbers with certainty
+326,2016-04-29 09:33:00.000000000,2016-05-01 11:52:21.000000000,closed,2,(chibi modules): (containing-module +) errors
+325,2016-04-29 03:58:34.000000000,2017-07-25 18:19:16.000000000,closed,8,js demo not working
+324,2016-04-12 22:27:40.000000000,2016-04-12 23:10:42.000000000,closed,1,[Linux] Error while loading shared libraries with standard /usr/local path
+323,2016-04-11 19:44:09.000000000,2016-04-14 17:20:01.000000000,closed,2,Documentation for defining new record types
+322,2016-04-08 18:15:53.000000000,2016-04-10 08:11:36.000000000,closed,0,Exclude unsupported functions in Emscripten version
+321,2016-04-08 17:24:56.000000000,2016-04-09 15:30:46.000000000,closed,6,More compiler warnings
+320,2016-04-08 17:04:42.000000000,2016-04-09 15:12:37.000000000,closed,5,Compiler warnings
+319,2016-04-07 18:36:45.000000000,2016-04-09 15:36:23.000000000,closed,0,Update r5rs.sld
+318,2016-04-01 03:32:28.000000000,2016-04-02 13:11:01.000000000,closed,1,Improper list in macro invocation within r7rs-test.scm
+317,2016-03-13 18:14:39.000000000,2016-03-19 10:12:44.000000000,closed,1,`number->string` cannot output rational numbers in radix other than 10
+316,2016-03-13 01:47:38.000000000,2016-03-13 07:36:19.000000000,closed,1,The ‘write’ procedure does not escape all symbols that wouldn't read as a symbol unescaped
+315,2016-03-06 20:43:16.000000000,2016-03-07 04:55:05.000000000,closed,1,`make-syntactic-closure` can generate a core dump
+314,2016-03-03 18:50:47.000000000,2016-03-04 19:51:43.000000000,closed,4,Circular references in literals
+313,2016-02-29 22:16:58.000000000,2016-03-02 19:37:46.000000000,closed,2,Hygiene of SRFI-46/R7RS ellipsis
+312,2016-02-29 22:01:18.000000000,2016-03-01 03:44:39.000000000,closed,0,Newest chibi reports ‘out-of-order’ in contexts spliced into the top-level
+311,2016-02-27 20:29:11.000000000,2016-02-28 04:19:28.000000000,closed,2,Nested ‘define-syntax’ does not work as expected
+310,2016-02-20 19:28:43.000000000,2016-02-20 19:29:02.000000000,closed,0,Image
+309,2016-02-04 21:19:18.000000000,2016-02-04 21:30:58.000000000,closed,0,string->number does not parse #x+0
+308,2016-02-04 19:14:34.000000000,2016-02-04 19:25:12.000000000,closed,3,Reader generates a core dump with certain datum labels
+307,2016-02-04 19:02:00.000000000,2016-02-04 19:30:56.000000000,closed,2,+.! does not parse as an identifier
+306,2016-02-02 04:27:26.000000000,2016-02-02 18:21:36.000000000,closed,0,test/ffi: Complete removal of delete-file on shared object
+305,2016-02-02 00:57:36.000000000,2016-02-02 18:56:10.000000000,closed,0,chibi-scheme -R does not allow multiline strings
+304,2016-02-01 17:11:58.000000000,2016-02-01 17:41:09.000000000,closed,1,Reader loops forever when reading self-referencing datum labels
+303,2016-01-24 23:27:54.000000000,2016-02-01 18:07:30.000000000,closed,2,wrong bignum quotient and remainder
+302,2016-01-24 22:43:00.000000000,2016-01-25 18:04:29.000000000,closed,3,`make test-all` will fail at `tests/ffi/ffi-tests.scm` on Cygwin
+301,2016-01-18 02:40:32.000000000,2016-01-20 03:04:23.000000000,closed,1,"Guard does not accept a body, just a sequence of expressions"
+300,2016-01-13 17:52:31.000000000,2016-01-13 18:00:42.000000000,closed,1,(scheme small) does not export (scheme process-context)
+299,2016-01-07 02:38:12.000000000,2016-01-07 05:04:39.000000000,closed,0,Provide overridable PKGCONFDIR and INSTALL_EXE variables in Makefile
+298,2015-12-29 19:59:00.000000000,2015-12-30 09:34:22.000000000,closed,0,Incorrect reference of local macro
+297,2015-12-22 10:33:51.000000000,2016-01-05 08:36:00.000000000,closed,2,"Fixed all issues reported by XCode static code anayzer, run with 'Pro…"
+296,2015-12-22 00:26:27.000000000,2016-02-28 04:20:31.000000000,closed,1,"Lint Warnings from Xcode - NULL ptr ref, etc"
+295,2015-12-18 19:12:52.000000000,2015-12-30 10:08:38.000000000,closed,13,CPU usage at 100% when executing (read)
+294,2015-12-17 10:10:29.000000000,2015-12-18 03:32:06.000000000,closed,0,Fixed argument name typo active when SEXP_USE_STATIC_LIBS selected
+293,2015-12-17 09:58:57.000000000,2015-12-20 01:40:16.000000000,closed,1,Typo in eval.c when SEXP_USE_STATIC_LIBS is defined
+292,2015-12-11 19:58:15.000000000,2015-12-23 13:35:35.000000000,closed,2,Autocompletion at the repl not working with internal macro defines 
+291,2015-11-19 14:54:59.000000000,2015-12-15 11:44:25.000000000,closed,0,Patch-2 for MinGW
+290,2015-11-19 14:28:56.000000000,2015-12-13 16:24:14.000000000,closed,0,Patch-1 for MinGW
+289,2015-11-03 19:19:34.000000000,2015-11-04 04:23:22.000000000,closed,4,Remove unnecessary variable referencing
+288,2015-11-02 13:43:09.000000000,2015-11-02 18:45:23.000000000,closed,1,time macro computes expression twice
+287,2015-11-01 05:12:28.000000000,2015-11-01 18:35:47.000000000,closed,0,Allow asin and acos to return an exact zero result in the R7RS tests
+286,2015-10-30 09:02:59.000000000,2015-10-31 18:38:56.000000000,closed,0,Man page still points to a Google Code site
+285,2015-10-27 23:04:59.000000000,2015-11-02 19:00:55.000000000,closed,1,Redefinitions create a new binding instead of mutating the current one
+284,2015-10-25 12:52:31.000000000,2015-10-27 17:37:17.000000000,closed,2,Chibi does not implement gensym
+283,2015-10-21 17:30:38.000000000,2015-10-22 18:32:06.000000000,closed,0,Emacs syntax highlighting and keyword completion
+282,2015-10-10 20:47:25.000000000,2015-10-11 18:28:19.000000000,closed,2,No error message is printed when loading a shared object fails.
+281,2015-10-05 04:00:53.000000000,2015-10-07 01:40:37.000000000,closed,2,Fix dynamic linking on Linux when installed outside of the current linker path
+280,2015-10-05 03:55:31.000000000,2015-10-07 01:38:31.000000000,closed,4,libchibi-scheme.so.0 not found when using a prefix build/install on Linux
+279,2015-09-30 01:51:37.000000000,2015-09-30 17:21:41.000000000,closed,4,SRFI-33 doesn't work in certain situation
+278,2015-09-21 22:59:02.000000000,2015-09-21 23:23:55.000000000,closed,1,case-lambda clauses should take a <body>
+277,2015-09-15 20:32:56.000000000,2015-09-21 10:25:13.000000000,closed,0,Remove duplicated condition.
+276,2015-09-04 18:03:45.000000000,2015-09-04 20:42:34.000000000,closed,1,Formal syntax: not all peculiar identifiers recognized
+275,2015-08-07 17:40:55.000000000,2015-08-10 17:24:16.000000000,closed,1,`sexp_flush_output_op` is not defined
+274,2015-07-24 01:35:46.000000000,2015-07-24 17:11:52.000000000,closed,0,Update AUTHORS
+273,2015-07-17 22:35:20.000000000,2016-02-28 13:37:42.000000000,closed,3,file-position on files opened for output with open + open-output-file-descriptor not reflecting position changes after writes
+272,2015-06-22 22:49:47.000000000,2015-06-24 02:53:49.000000000,closed,2,Integrate emscripten build process in Makefile
+271,2015-06-19 01:09:25.000000000,2015-06-20 17:40:22.000000000,closed,4,sort incorrect on lists of both exact and inexact numbers
+270,2015-06-16 02:52:32.000000000,2015-06-22 18:02:17.000000000,closed,1,chibi-ffi ignoring struct type modifier
+269,2015-06-15 17:32:45.000000000,2016-02-28 04:20:07.000000000,closed,2,Steele's three-part test
+268,2015-06-06 23:55:25.000000000,2015-06-07 23:50:42.000000000,closed,0,Revert usage of SRFI 60 in Chibi's libraries
+267,2015-06-06 23:31:57.000000000,2015-06-08 19:14:57.000000000,closed,1,Circular import dependency when SRFI 60 is installed
+266,2015-06-06 20:52:39.000000000,2020-08-20 05:38:27.000000000,closed,2,snow-chibi doesn't like multiple includes of same file
+265,2015-06-06 19:23:56.000000000,2015-06-08 18:55:29.000000000,closed,2,Correction to the 8-10th selector aliases in SRFI-1
+264,2015-06-06 16:38:40.000000000,2015-06-06 17:20:50.000000000,closed,5,cdar error from snow-chibi
+263,2015-05-22 21:44:36.000000000,2015-06-01 17:41:54.000000000,closed,1,Update meta-7.scm
+262,2015-05-18 06:14:51.000000000,1970-01-01 00:00:00.000000001,open,1,cross platform compile with Visual Studio
+261,2015-05-02 22:32:24.000000000,2015-05-03 02:02:33.000000000,closed,1,Add the variable VERSION and remove the uses of 'cat VERSION'
+260,2015-04-27 23:06:19.000000000,2015-04-28 03:31:55.000000000,closed,1,loop.html generation fails
+259,2015-04-21 12:48:57.000000000,2016-06-19 09:27:27.000000000,closed,2,SEGV on local variable capturing macro
+258,2015-04-18 19:09:02.000000000,2015-04-20 14:20:48.000000000,closed,1,Native SHA-2 implementation (take two)
+257,2015-04-17 05:08:22.000000000,2015-04-18 19:09:33.000000000,closed,0,Native SHA-2 implementation
+256,2015-04-15 21:42:42.000000000,2015-04-16 03:38:11.000000000,closed,1,clean up warning
+255,2015-04-13 01:33:40.000000000,2020-08-25 09:47:43.000000000,closed,3,snow-chibi displays poor performance with non-tiny snowballs
+254,2015-04-11 20:58:40.000000000,2015-04-14 22:17:00.000000000,closed,3,Fix for a pipe overflow affecting snow-chibi
+253,2015-04-09 02:55:11.000000000,2015-04-16 00:09:18.000000000,closed,7,snow-chibi fails to install packages larger than 64K
+252,2015-03-26 16:30:12.000000000,2015-04-14 18:23:16.000000000,closed,1,SEGV on er-macro-transformer
+251,2015-03-26 05:00:08.000000000,2015-04-15 12:14:58.000000000,closed,1,Fixed a couple of integer overflows
+250,2015-03-17 08:36:53.000000000,2015-04-13 23:11:50.000000000,closed,1,Difficult to include Chibi libraries in other Schemes
+249,2015-03-16 16:09:59.000000000,1970-01-01 00:00:00.000000001,open,5,Search path for included files
+248,2015-03-16 16:09:58.000000000,2015-03-16 16:09:58.000000000,closed,1,Typo in main.c
+247,2015-03-16 16:09:58.000000000,2015-03-16 16:09:58.000000000,closed,1,Build failed on HEAD
+246,2015-03-16 16:09:57.000000000,2015-04-25 05:58:15.000000000,closed,2,The loop package produces expansion errors when loop variables are used
+245,2015-03-16 16:09:56.000000000,2015-03-16 16:09:56.000000000,closed,1,Google code home links to 0.7 instead of 0.7.2
+244,2015-03-16 16:09:56.000000000,2015-03-16 16:09:56.000000000,closed,1,Add -q flag to $(CHIBI) at the rule clibs.c in Makefile
+243,2015-03-16 16:09:55.000000000,2015-03-16 16:09:55.000000000,closed,2,Using -R option doesn't allways pass argv[0] to module's main function
+242,2015-03-16 16:09:54.000000000,2015-03-16 16:09:54.000000000,closed,2,assv behaves like assoc
+241,2015-03-16 16:09:53.000000000,2015-03-16 16:09:53.000000000,closed,2,SRFI-26 cut behaves like cute
+240,2015-03-16 16:09:53.000000000,2015-03-16 16:09:53.000000000,closed,1,bug in (chibi channel)'s channel-send?
+239,2015-03-16 16:09:52.000000000,2015-03-16 16:09:52.000000000,closed,1,Running `chibi-scheme` with `-R` and a missing module seg-faults
+238,2015-03-16 16:09:51.000000000,2015-03-16 16:09:51.000000000,closed,2,`chibi-ffi` fails when finalizer is a string
+237,2015-03-16 16:09:48.000000000,2015-03-16 16:09:48.000000000,closed,12,`chibi-scheme` misbehaves when encountering the `--` marker
+236,2015-03-16 16:09:48.000000000,2016-02-28 14:13:13.000000000,closed,1,lambdas allow internal defines after non-define expressions
+235,2015-03-16 16:09:46.000000000,2015-03-16 16:09:46.000000000,closed,24,Segfault in GC
+234,2015-03-16 16:09:45.000000000,2015-03-16 16:09:45.000000000,closed,2,Inline hex escape is not supported
+233,2015-03-16 16:09:43.000000000,2015-03-16 16:09:43.000000000,closed,2,regexp.sld: Add (scheme char) reference and char-set:title-case conflicts with SRFI-14
+232,2015-03-16 16:09:42.000000000,2015-03-16 16:09:42.000000000,closed,5,Proposal: ignoring lines starting with #!
+231,2015-03-16 16:09:41.000000000,2015-03-16 16:09:41.000000000,closed,2,Cygwin starting up fails
+230,2015-03-16 16:09:40.000000000,2015-03-16 16:09:40.000000000,closed,1,Passing nwb to regexp raises an error.
+229,2015-03-16 16:09:39.000000000,2015-03-16 16:09:39.000000000,closed,6,inconsistent regexp compilation
+228,2015-03-16 16:09:38.000000000,2015-03-16 16:09:38.000000000,closed,2,regexp-match-submatch-start and regexp-match-submatch-end are not exposed
+227,2015-03-16 16:09:37.000000000,2015-03-16 16:09:37.000000000,closed,5,"In OSX, libchibi-scheme.dylib.0.7 should be libchibi-scheme.0.7.dylib instead?"
+226,2015-03-16 16:09:36.000000000,2020-08-25 09:59:55.000000000,closed,3,undefined reference line number
+225,2015-03-16 16:09:35.000000000,2015-03-16 16:09:35.000000000,closed,3,Installed binary doesn't start on Cygwin
+224,2015-03-16 16:09:34.000000000,2015-03-16 16:09:35.000000000,closed,3,lset= incorrect
+223,2015-03-16 16:09:33.000000000,2015-03-16 16:09:33.000000000,closed,3,random-source-state-ref failes
+222,2015-03-16 16:09:33.000000000,2015-03-16 16:09:33.000000000,closed,2,srfi-27 reference test-suite fails
+221,2015-03-16 16:09:32.000000000,1970-01-01 00:00:00.000000001,open,42,Needs debianization
+220,2015-03-16 16:09:31.000000000,2015-03-16 16:09:31.000000000,closed,2,file-position always returns 0
+219,2015-03-16 16:09:30.000000000,2015-03-16 16:09:31.000000000,closed,3,SRFI 27 random-source-pseudo-randomize! should take three arguments
+218,2015-03-16 16:09:30.000000000,2015-03-16 16:09:30.000000000,closed,1,"r7rs-tests.scm requires inexact number for exp, log, sin, cos, and tan"
+217,2015-03-16 16:09:28.000000000,2015-03-16 16:09:29.000000000,closed,5,r7rs-test.scm requires final sigma for string-downcase and string-foldcase
+216,2015-03-16 16:09:28.000000000,2015-03-16 16:09:28.000000000,closed,1,"Multiple-argument ""every"" is incorrectly defined"
+215,2015-03-16 16:09:27.000000000,2015-03-16 16:09:27.000000000,closed,3,problem in sha-256
+214,2015-03-16 16:09:26.000000000,2015-03-16 16:09:26.000000000,closed,2,meta.scm file causes an error
+213,2015-03-16 16:09:25.000000000,2015-03-16 16:09:25.000000000,closed,2,Can't run chibi-scheme on OSX
+212,2015-03-16 16:09:24.000000000,2015-03-16 16:09:25.000000000,closed,3,something is wrong with char-set-union
+211,2015-03-16 16:09:24.000000000,2015-03-16 16:09:24.000000000,closed,1,something is wrong with call-with-process-io stdin
+210,2015-03-16 16:09:23.000000000,2015-03-16 16:09:23.000000000,closed,2,file-link? fails
+209,2015-03-16 16:09:22.000000000,2015-03-16 16:09:23.000000000,closed,2,importing srfi-1 causes an error
+208,2015-03-16 16:09:22.000000000,2015-03-16 16:09:22.000000000,closed,2,handling of negative numbers in first argument of arithmetic-shift
+207,2015-03-16 16:09:21.000000000,2015-03-16 16:09:21.000000000,closed,3,get-output-string and open-output-bytevector
+206,2015-03-16 16:09:20.000000000,2020-08-25 10:00:45.000000000,closed,1,define-syntax inside er-macro-transformer
+205,2015-03-16 16:09:19.000000000,2015-03-16 16:09:20.000000000,closed,1,segfault when creating negative-length vector
+204,2015-03-16 16:09:18.000000000,2015-03-16 16:09:19.000000000,closed,3,boolean=? does not work when passed any number of arguments other than 2
+203,2015-03-16 16:09:17.000000000,2015-03-16 16:09:17.000000000,closed,4,regexp-split producing an incorrect output
+202,2015-03-16 16:09:16.000000000,2015-03-16 16:09:17.000000000,closed,1,Adding a way to support date normalization
+201,2015-03-16 16:09:15.000000000,2015-03-16 16:09:15.000000000,closed,2,chibi repl additions
+200,2015-03-16 16:09:13.000000000,2015-03-16 16:09:14.000000000,closed,1,-R makes import not happen
+199,2015-03-16 16:09:13.000000000,2015-03-16 16:09:13.000000000,closed,1,Change 1722:24a48c5bf43d (flock) breaks Cygwin
+198,2015-03-16 16:09:10.000000000,2015-03-16 16:09:12.000000000,closed,2,SRFI 26 doesn't bind and export <> or <...>
+197,2015-03-16 16:09:09.000000000,2015-03-16 16:09:09.000000000,closed,2,NULL pointer deref when static library is linked against -fno-common binary
+196,2015-03-16 16:09:08.000000000,2015-03-16 16:09:08.000000000,closed,2,display and write do not work in the Chibi REPL
+195,2015-03-16 16:09:07.000000000,2015-03-16 16:09:07.000000000,closed,4,sexp_make_heap depends on data being last member in sexp_heap
+194,2015-03-16 16:09:06.000000000,2015-03-16 16:09:06.000000000,closed,1,No way to determine if code is running in default language or R7RS
+193,2015-03-16 16:09:05.000000000,2015-03-16 16:09:05.000000000,closed,2,-xscheme.base does not provide an R7RS interaction-environment
+192,2015-03-16 16:09:04.000000000,2015-03-16 16:09:04.000000000,closed,3,Trivial patch needed to build on Cygwin
+191,2015-03-16 16:09:03.000000000,2015-03-16 16:09:03.000000000,closed,2,Feature: Default predicate for define-method parameters
+190,2015-03-16 16:08:59.000000000,2015-03-16 16:09:00.000000000,closed,13,Better compliance with srfi-99
+189,2015-03-16 16:08:59.000000000,2015-03-16 16:08:59.000000000,closed,2,string->uri fails
+188,2015-03-16 16:08:58.000000000,1970-01-01 00:00:00.000000001,open,3,Document API arguments
+187,2015-03-16 16:08:57.000000000,2015-03-16 16:08:57.000000000,closed,2,case-lambda seems broken
+186,2015-03-16 16:08:56.000000000,2015-03-16 16:08:56.000000000,closed,4,Hang in gc
+185,2015-03-16 16:08:54.000000000,2015-03-16 16:08:54.000000000,closed,9,include syntax should respect the current directory
+184,2015-03-16 16:08:52.000000000,2015-03-16 16:08:52.000000000,closed,4,chibi-scheme dumps core in make test
+183,2015-03-16 16:08:51.000000000,2015-03-16 16:08:51.000000000,closed,2,procedure (eof-object)
+182,2015-03-16 16:08:49.000000000,2015-03-16 16:08:50.000000000,closed,6,The command line is set too late for -e and -p
+181,2015-03-16 16:08:49.000000000,2015-03-16 16:08:49.000000000,closed,1,Building with PREFIX
+180,2015-03-16 16:08:47.000000000,2015-03-16 16:08:48.000000000,closed,4,module/env confusion in enhanced repl
+179,2015-03-16 16:08:45.000000000,2015-03-16 16:08:45.000000000,closed,11,inexact integer case of numerator/denominator broken
+178,2015-03-16 16:08:44.000000000,2015-03-16 16:08:44.000000000,closed,2,max of +nan.0 and an exact number returns an exact result
+177,2015-03-16 16:08:42.000000000,2015-03-16 16:08:42.000000000,closed,7,chibi-doc sort fails
+176,2015-03-16 16:08:41.000000000,2015-03-16 16:08:42.000000000,closed,2,verbose test output
+175,2015-03-16 16:08:41.000000000,2015-03-16 16:08:41.000000000,closed,1,"Neither ""make clean"" nor ""make cleaner"" removes lib/chibi/ast$(SO)"
+174,2015-03-16 16:08:40.000000000,2015-03-16 16:08:40.000000000,closed,1,Passing an invalid parameter to env-exports crashes the REPL
+173,2015-03-16 16:08:35.000000000,2015-03-16 16:08:36.000000000,closed,22,"Cygwin: test-r7rs: one test fails, one causes core dump"
+172,2015-03-16 16:08:34.000000000,2015-03-16 16:08:34.000000000,closed,3,equal? fails for large lists
+171,2015-03-16 16:08:33.000000000,2015-03-16 16:08:33.000000000,closed,4,gc leak in expt implementation
+170,2015-03-16 16:08:32.000000000,2015-03-16 16:08:32.000000000,closed,1,Enhancement: define-c with a void return value and only one result parameter should return a single value
+169,2015-03-16 16:08:31.000000000,2015-03-16 16:08:32.000000000,closed,3,Error reported in valid syntax-rules template
+168,2015-03-16 16:08:31.000000000,2015-03-16 16:08:31.000000000,closed,1,Base REPL prompt is unsafe for copy/paste
+167,2015-03-16 16:08:30.000000000,2016-06-06 15:50:32.000000000,closed,0,inverse sine and cosine should promote to complex instead of +nan.0
+166,2015-03-16 16:08:29.000000000,2015-03-16 16:08:29.000000000,closed,4,(atanh -2) and (atanh -2.0+0.0i) are different
+165,2015-03-16 16:08:28.000000000,1970-01-01 00:00:00.000000001,open,3,Hugenums not working
+164,2015-03-16 16:08:28.000000000,2015-03-16 16:08:28.000000000,closed,3,(eqv? 0.0 -0.0) => #t
+163,2015-03-16 16:08:27.000000000,2015-03-16 16:08:27.000000000,closed,1,Suggestion about padding and trimming
+162,2015-03-16 16:08:26.000000000,2015-03-16 16:08:27.000000000,closed,1,slashified -> escaped
+161,2015-03-16 16:08:26.000000000,2015-03-16 16:08:26.000000000,closed,2,wrt and pretty should have three versions
+160,2015-03-16 16:08:25.000000000,2015-03-16 16:08:25.000000000,closed,1,fmt library: slashes in identifiers considered confusing
+159,2015-03-16 16:08:24.000000000,2015-03-16 16:08:24.000000000,closed,3,No C procedures for boxing and unboxing ports
+158,2015-03-16 16:08:23.000000000,2015-03-16 16:08:23.000000000,closed,1,No C procedures for manipulating bytevectors
+157,2015-03-16 16:08:23.000000000,2015-03-16 16:08:23.000000000,closed,1,No C procedures for boxing and unboxing flonums and cpointers
+156,2015-03-16 16:08:21.000000000,2015-03-16 16:08:21.000000000,closed,5,I don't know how to raise Chibi exceptions from C
+155,2015-03-16 16:08:21.000000000,2015-03-16 16:08:21.000000000,closed,1,(1 . .) parses but is invalid
+154,2015-03-16 16:08:20.000000000,2015-03-16 16:08:20.000000000,closed,4,SRFI 2 (and-let*) semantics are not fully implemented
+153,2015-03-16 16:08:19.000000000,2015-03-16 16:08:19.000000000,closed,1,Error object throw by (error obj) cannot be caught by with-exception-handler
+152,2015-03-16 16:08:18.000000000,2015-03-16 16:08:19.000000000,closed,1,delete-file returns the wrong thing
+151,2015-03-16 16:08:17.000000000,2015-03-16 16:08:17.000000000,closed,7,let-values & let*-values problem in REPL
+150,2015-03-16 16:08:15.000000000,2015-03-16 16:08:16.000000000,closed,5,(import (scheme process-context)) seg-faults
+149,2015-03-16 16:08:15.000000000,1970-01-01 00:00:00.000000001,open,1,define-function/define-variable equivalence
+148,2015-03-16 16:08:14.000000000,2015-03-16 16:08:14.000000000,closed,2,SIGSEGV using (import (chibi test))
+147,2015-03-16 16:08:13.000000000,2015-03-16 16:08:14.000000000,closed,2,Failure of one test in tests/r7rs-tests.scm
+146,2015-03-16 16:08:13.000000000,2015-03-16 16:08:13.000000000,closed,1,New TAI time library files are not installed
+145,2015-03-16 16:08:12.000000000,2015-03-16 16:08:12.000000000,closed,2,Returning an exception to the REPL segfaults chibi
+144,2015-03-16 16:08:10.000000000,2015-03-16 16:08:10.000000000,closed,9,"read-u8 doesn't ""block"" when used form the repl to read from stdin"
+143,2015-03-16 16:08:09.000000000,2015-03-16 16:08:09.000000000,closed,3,thread-join! doesn't return end-result
+142,2015-03-16 16:08:09.000000000,2015-03-16 16:08:09.000000000,closed,1,read-line on stdin doesn't block
+141,2015-03-16 16:08:07.000000000,2015-03-16 16:08:08.000000000,closed,3,unexpected output from threaded program
+140,2015-03-16 16:08:06.000000000,2015-03-16 16:08:06.000000000,closed,3,History behaves oddly in chibi-repl
+139,2015-03-16 16:08:06.000000000,2015-03-16 16:08:06.000000000,closed,2,tiny patch to build cleanly on NetBSD and OpenBSD
+138,2015-03-16 16:08:05.000000000,2015-03-16 16:08:05.000000000,closed,4,thread-sleep! can provoke segmentation faults
+137,2015-03-16 16:08:04.000000000,2015-03-16 16:08:04.000000000,closed,2,Second and subsequent export clauses are ignored
+136,2015-03-16 16:08:03.000000000,2015-03-16 16:08:03.000000000,closed,1,number->string does not check its argument
+135,2015-03-16 16:08:02.000000000,2015-03-16 16:08:03.000000000,closed,2,Use of environment at load-time can cause stack overflow
+134,2015-03-16 16:08:02.000000000,2015-03-16 16:08:02.000000000,closed,1,chibi eval crash
+133,2015-03-16 16:08:01.000000000,2015-03-16 16:08:01.000000000,closed,3,output-port? fails if passed a non-port
+132,2015-03-16 16:08:00.000000000,2015-03-16 16:08:01.000000000,closed,1,read-u8 returns -1 at eof
+131,2015-03-16 16:08:00.000000000,2015-03-16 16:08:00.000000000,closed,1,some car/cdr combinations are missing
+130,2015-03-16 16:07:59.000000000,2015-03-16 16:07:59.000000000,closed,4,(vector ...) with 4093 or more parameters crashes chibi
+129,2015-03-16 16:07:58.000000000,2015-03-16 16:07:58.000000000,closed,5,chibi-ffi emits bad code for (array unsigned-char)
+128,2015-03-16 16:07:57.000000000,2015-03-16 16:07:57.000000000,closed,2,with-output-to-file does not close its port
+127,2015-03-16 16:07:56.000000000,2015-03-16 16:07:56.000000000,closed,5,Can't interrupt (read) in the repl.
+126,2015-03-16 16:07:55.000000000,2015-03-16 16:07:55.000000000,closed,1,Difficulties importing from (scheme)
+125,2015-03-16 16:07:54.000000000,2015-03-16 16:07:55.000000000,closed,1,Documentation for open-...-file-descriptor is out-of-date.
+124,2015-03-16 16:07:53.000000000,2015-03-16 16:07:53.000000000,closed,5,(repl) in (chibi repl) provokes a segmentation fault
+123,2015-03-16 16:07:52.000000000,2015-03-16 16:07:53.000000000,closed,1,String-concatenate in default language crashes with bad args
+122,2015-03-16 16:07:52.000000000,2015-03-16 16:07:52.000000000,closed,3,DragonFlyBSD port
+121,2015-03-16 16:07:51.000000000,2015-03-16 16:07:51.000000000,closed,1,Characters disappear from input
+120,2015-03-16 16:07:50.000000000,2015-03-16 16:07:50.000000000,closed,3,read does not parse 1E+1 correctly
+119,2015-03-16 16:07:49.000000000,2015-03-16 16:07:49.000000000,closed,3,read-line jumbles characters on long lines
+118,2015-03-16 16:07:48.000000000,2015-03-16 16:07:48.000000000,closed,6,read-line does not recognize \r as an end of line
+117,2015-03-16 16:07:47.000000000,2015-03-16 16:07:47.000000000,closed,1,read-line no longer returns an eof object at the end of the file
+116,2015-03-16 16:07:46.000000000,2015-03-16 16:07:47.000000000,closed,1,sexp_string_to_number_op doesn't work for single character strings representing numbers greater than 9
+115,2015-03-16 16:07:46.000000000,2015-03-16 16:07:46.000000000,closed,2,call-with-process-io fails for commands a strings arguments
+114,2015-03-16 16:07:44.000000000,1970-01-01 00:00:00.000000001,open,6,Enhancement: implicit renaming macros
+113,2015-03-16 16:07:43.000000000,2015-03-16 16:07:43.000000000,closed,4,define-record-type reports undefined variables
+112,2015-03-16 16:07:42.000000000,2015-03-16 16:07:43.000000000,closed,1,case-lambda in (srfi 16) not behaving as expected
+111,2015-03-16 16:07:41.000000000,2015-03-16 16:07:41.000000000,closed,6,two argument atan results possibly in the wrong quadrant
+110,2015-03-16 16:07:40.000000000,2015-03-16 16:07:40.000000000,closed,2,chibi-ffi produces a puzzling error message when passed an argument list that is (void)
+109,2015-03-16 16:07:40.000000000,2015-03-16 16:07:40.000000000,closed,1,"Odd error message for (read (open-input-string ""#""))"
+108,2015-03-16 16:07:39.000000000,2015-03-16 16:07:39.000000000,closed,3,(exit #f) produces an error
+107,2015-03-16 16:07:38.000000000,2015-03-16 16:07:38.000000000,closed,4,Enhancement: option to force warnings to be errors
+106,2015-03-16 16:07:37.000000000,2015-03-16 16:07:37.000000000,closed,3,Library for the string cursor procedures
+105,2015-03-16 16:07:36.000000000,2015-03-16 16:07:36.000000000,closed,1,Complex arithmetic (exp (+ e i)) differs from (* (exp e) (exp i))
+104,2015-03-16 16:07:36.000000000,2015-03-16 16:07:36.000000000,closed,1,get-output-string does not check that its argument is an output string port
+103,2015-03-16 16:07:35.000000000,2015-03-16 16:07:35.000000000,closed,3,cond-expand does not recognize library feature requirements
+102,2015-03-16 16:07:34.000000000,2015-03-16 16:07:35.000000000,closed,1,floor/ produces an exact quotient for inexact arguments.
+101,2015-03-16 16:07:33.000000000,2015-03-16 16:07:34.000000000,closed,3,Changes in exported identifiers are not seen in libraries that import them.
+100,2015-03-16 16:07:32.000000000,2015-03-16 16:07:32.000000000,closed,3,(time? (current-time)) is #f
+99,2015-03-16 16:07:31.000000000,2015-03-16 16:07:32.000000000,closed,1,thread-sleep! in the (srfi 18) library does not accept a time object
+98,2015-03-16 16:07:31.000000000,2015-03-16 16:07:31.000000000,closed,1,The read procedure in (scheme read) cannot read #\;
+97,2015-03-16 16:07:29.000000000,2015-03-16 16:07:29.000000000,closed,8,length does not signal an error when passed a non-list.
+96,2015-03-16 16:07:28.000000000,2015-03-16 16:07:28.000000000,closed,3,read does not support all required named characters
+95,2015-03-16 16:07:27.000000000,2015-03-16 16:07:27.000000000,closed,2,Unclear error message for incorrect use of test.
+94,2015-03-16 16:07:26.000000000,2015-03-16 16:07:26.000000000,closed,2,eval'ed code can't see binding established in nested let*
+93,2015-03-16 16:07:23.000000000,2015-03-16 16:07:23.000000000,closed,10,SEXP_USE_SAFE_ACCESSORS 1 fails with SEXP_USE_HUFF_SYMS 1
+92,2015-03-16 16:07:22.000000000,2015-03-16 16:07:22.000000000,closed,1,lib/chibi/repl.scm minor documentation problem
+91,2015-03-16 16:07:21.000000000,2015-03-16 16:07:21.000000000,closed,3,[Usability] chibi-scheme REPL vs loaded file language discrepancies
+90,2015-03-16 16:07:20.000000000,2015-03-16 16:07:21.000000000,closed,1,chibi-scheme -xscheme.eval segfaults
+89,2015-03-16 16:07:19.000000000,2015-03-16 16:07:19.000000000,closed,5,infinite macro expansions blow the C stack
+88,2015-03-16 16:07:18.000000000,2015-03-16 16:07:18.000000000,closed,1,Printing of multibyte characters outside of strings doesn't work
+87,2015-03-16 16:07:17.000000000,2015-03-16 16:07:17.000000000,closed,1,No command-line and exit functions in (scheme process-context)
+86,2015-03-16 16:07:16.000000000,2015-03-16 16:07:17.000000000,closed,1,R7RS draft4 write-bytevector not works
+85,2015-03-16 16:07:16.000000000,2015-03-16 16:07:16.000000000,closed,1,bytevector-partial-copy! writes to incorrect position
+84,2015-03-16 16:07:15.000000000,2015-03-16 16:07:15.000000000,closed,2,Segfaults after doing bytevector-u8-set!
+83,2015-03-16 16:07:14.000000000,2015-03-16 16:07:14.000000000,closed,1,bytevector-u8-set! causes segfault
+82,2015-03-16 16:07:13.000000000,2015-03-16 16:07:14.000000000,closed,1,Segfault on simple piece of code
+81,2015-03-16 16:07:13.000000000,2015-03-16 16:07:13.000000000,closed,1,Change from (config) to (meta) not complete
+80,2015-03-16 16:07:12.000000000,2015-03-16 16:07:12.000000000,closed,1,segmentation-fault subtracting a float from a rational
+79,2015-03-16 16:07:11.000000000,2015-03-16 16:07:11.000000000,closed,1,support \r escape in strings
+78,2015-03-16 16:07:11.000000000,2015-03-16 16:07:11.000000000,closed,1,sexp_read_string and sexp_read_symbol check if malloc returns NULL
+77,2015-03-16 16:07:08.000000000,2015-03-16 16:07:09.000000000,closed,9,Probable bug in with-net-io
+76,2015-03-16 16:07:08.000000000,2015-03-16 16:07:08.000000000,closed,1,[PATCH] Support for [] characters
+75,2015-03-16 16:07:06.000000000,2015-03-16 16:07:07.000000000,closed,2,time->seconds seems to be broken
+74,2015-03-16 16:07:05.000000000,2015-03-16 16:07:05.000000000,closed,5,Mixed float / integer arithmetic isn't working right (chibi 0.4).
+73,2015-03-16 16:07:04.000000000,2015-03-16 16:07:04.000000000,closed,2,procuduce `any' does not return boolean value.
+72,2015-03-16 16:07:03.000000000,2015-03-16 16:07:03.000000000,closed,3,"With SEXP_USE_STATIC_LIBS, C-introduced bindings end up in the global environment"
+71,2015-03-16 16:07:02.000000000,2015-03-16 16:07:02.000000000,closed,1,Some bugs in SRFI 99 procedural and inspection layers
+70,2015-03-16 16:07:01.000000000,2015-03-16 16:07:01.000000000,closed,3,Variable-arity procedure application from C code seems broken
+69,2015-03-16 16:07:00.000000000,2015-03-16 16:07:00.000000000,closed,3,Make's install task doesn't depend on 'libs'
+68,2015-03-16 16:06:59.000000000,2015-03-16 16:06:59.000000000,closed,2,[Bug] - Seg fault when provided the command line option '-h'
+67,2015-03-16 16:06:57.000000000,2015-03-16 16:06:58.000000000,closed,5,[FeatureRequest] - Need to be able to call non-standard (e.g. 'mymain') entry points specified on the command line.
+66,2015-03-16 16:06:56.000000000,2015-03-16 16:06:56.000000000,closed,3,[FeatureRequest] - Need a method to access current module load path
+65,2015-03-16 16:06:55.000000000,2015-03-16 16:06:56.000000000,closed,1,read-string returns EOF when the passed length is 0 (even if the port didn't reach EOF yet)
+64,2015-03-16 16:06:54.000000000,2015-03-16 16:06:54.000000000,closed,6,%read-string from (chibi io) tries to construct a string from a non-null-terminated buffer without specifying it's length.
+63,2015-03-16 16:06:53.000000000,2015-03-16 16:06:53.000000000,closed,2,#s in numbers are mishandled:
+62,2015-03-16 16:06:52.000000000,2015-03-16 16:06:52.000000000,closed,2,"build failed with ""make clibs.c"" under osx"
+61,2015-03-16 16:06:51.000000000,2015-03-16 16:06:51.000000000,closed,2,Input string ports don't work correctly if the size of the string exceeds 1024 bytes (on BSD systems)
+60,2015-03-16 16:06:50.000000000,2015-03-16 16:06:50.000000000,closed,2,Chibi (tip) segfaulting on Ubuntu 10.10.
+59,2015-03-16 16:06:49.000000000,2015-03-16 16:06:49.000000000,closed,2,Chibi should not segfault when running out of memory
+58,2015-03-16 16:06:49.000000000,2015-03-16 16:06:49.000000000,closed,1,malloc error after disasm and (import (chibi type-inference))
+57,2015-03-16 16:06:48.000000000,2015-03-16 16:06:48.000000000,closed,2,make test-records fails with Segmentation fault
+56,2015-03-16 16:06:46.000000000,2015-03-16 16:06:47.000000000,closed,4,100% cpu usage on the repl
+55,2015-03-16 16:06:46.000000000,2015-03-16 16:06:46.000000000,closed,1,`sexp_close_port' should be public API
+54,2015-03-16 16:06:45.000000000,2015-03-16 16:06:45.000000000,closed,1,genstatic.scm produces bogus calls to library init functions
+53,2015-03-16 16:06:45.000000000,2015-03-16 16:06:45.000000000,closed,2,MSVC build crashes while parsing init.scm
+52,2015-03-16 16:06:44.000000000,2015-03-16 16:06:44.000000000,closed,4,chibi-scheme crashes whev eval'ing complex s-expr from inside closure
+51,2015-03-16 16:06:43.000000000,2015-03-16 16:06:43.000000000,closed,1,Error building from latest hg
+50,2015-03-16 16:06:42.000000000,2015-03-16 16:06:42.000000000,closed,1,417:08c0e5ea9972 breaks the build for me
+49,2015-03-16 16:06:40.000000000,2015-03-16 16:06:40.000000000,closed,3,heap alignment for 32-bit machines should work for ARM
+48,2015-03-16 16:06:39.000000000,2015-03-16 16:06:39.000000000,closed,1,_GNU_SOURCE redefined warning
+47,2015-03-16 16:06:38.000000000,2015-03-16 16:06:39.000000000,closed,1,"On Plan 9, u.h (and likely libc.h) need to be included before stdio.h"
+46,2015-03-16 16:06:38.000000000,2015-03-16 16:06:38.000000000,closed,2,mkfile doesn't generate include/chibi/install.h correctly; build fails
+45,2015-03-16 16:06:37.000000000,2015-03-16 16:06:37.000000000,closed,1,REPL freeze on bad dotted list
+44,2015-03-16 16:06:37.000000000,2015-03-16 16:06:37.000000000,closed,0,[deleted issue]
+43,2015-03-16 16:06:36.000000000,2015-03-16 16:06:36.000000000,closed,1,Segfault in main program option parsing
+42,2015-03-16 16:06:36.000000000,2015-03-16 16:06:36.000000000,closed,1,need sexp_copy_context
+41,2015-03-16 16:06:35.000000000,2015-03-16 16:06:35.000000000,closed,1,string ports leak memory when not closed properly
+40,2015-03-16 16:06:34.000000000,2015-03-16 16:06:34.000000000,closed,3,Closing dynamic libraries
+39,2015-03-16 16:06:33.000000000,2015-03-16 16:06:34.000000000,closed,2,Chibi doesn't respect architecture alignment when dealing with bytecode
+38,2015-03-16 16:06:33.000000000,2015-03-16 16:06:33.000000000,closed,1,mingw32 dynamic loading implementation
+37,2015-03-16 16:06:32.000000000,2015-03-16 16:06:33.000000000,closed,1,c++ fixes
+36,2015-03-16 16:06:32.000000000,2015-03-16 16:06:32.000000000,closed,1,config.scm references *shared-object-extension* even when compiled statically
+35,2015-03-16 16:06:31.000000000,2015-03-16 16:06:32.000000000,closed,1,string-ref not 8-bit clean
+34,2015-03-16 16:06:31.000000000,2015-03-16 16:06:31.000000000,closed,1,"""Integer"" floats not fitting into a fixnum are turned to 0."
+33,2015-03-16 16:06:30.000000000,2015-03-16 16:06:30.000000000,closed,1,Float numbers having integer part bigger than word size are broken
+32,2015-03-16 16:06:29.000000000,2015-03-16 16:06:29.000000000,closed,4,Errors parsing float numbers having bignum integer part
+31,2015-03-16 16:06:28.000000000,2015-03-16 16:06:28.000000000,closed,2,Problems with bignum operations
+30,2015-03-16 16:06:28.000000000,2015-03-16 16:06:28.000000000,closed,1,Possibly wrong lambda behaviour 
+29,2015-03-16 16:06:26.000000000,2015-03-16 16:06:27.000000000,closed,3,Problems with 'string->number' and 'number->string'.
+28,2015-03-16 16:06:26.000000000,2015-03-16 16:06:26.000000000,closed,1,Minor Makefile changes
+27,2015-03-16 16:06:25.000000000,2015-03-16 16:06:25.000000000,closed,1,Numbers using radix prefix notation are misread
+26,2015-03-16 16:06:24.000000000,2015-03-16 16:06:25.000000000,closed,1,genstubs miscounts function args
+25,2015-03-16 16:06:24.000000000,2015-03-16 16:06:24.000000000,closed,1,Division of a FLONUM by a FIXNUM is reversed
+24,2015-03-16 16:06:22.000000000,2015-03-16 16:06:22.000000000,closed,5,FFI struct setters are not handled by genstubs
+23,2015-03-16 16:06:21.000000000,2015-03-16 16:06:22.000000000,closed,1,"Division ""breaks"" bignum values."
+22,2015-03-16 16:06:20.000000000,2015-03-16 16:06:21.000000000,closed,3,(get-time-of-day) is broken
+21,2015-03-16 16:06:20.000000000,2015-03-16 16:06:20.000000000,closed,1,string->number does not for radix = 16
+20,2015-03-16 16:06:18.000000000,2015-03-16 16:06:18.000000000,closed,8,Segmentation fault with bignum operations
+19,2015-03-16 16:06:17.000000000,2015-03-16 16:06:17.000000000,closed,1,Bignums are not numbers
+18,2015-03-16 16:06:16.000000000,2015-03-16 16:06:16.000000000,closed,2,catching outside eval
+17,2015-03-16 16:06:15.000000000,2015-03-16 16:06:15.000000000,closed,2,segfault from call/cc eval raise combo
+16,2015-03-16 16:06:15.000000000,2015-03-16 16:06:15.000000000,closed,1,exception handler nesting issues
+15,2015-03-16 16:06:14.000000000,2015-03-16 16:06:14.000000000,closed,1,exception handling bugs
+14,2015-03-16 16:06:13.000000000,2015-03-16 16:06:13.000000000,closed,2,Missing operator argument crashes the interpreter
+13,2015-03-16 16:06:12.000000000,2015-03-16 16:06:12.000000000,closed,2,let-syntax not splicing defines
+12,2015-03-16 16:06:11.000000000,2015-03-16 16:06:11.000000000,closed,1,let* internal define
+11,2015-03-16 16:06:10.000000000,2015-03-16 16:06:10.000000000,closed,3,identifier comparison bugs
+10,2015-03-16 16:06:08.000000000,2015-03-16 16:06:08.000000000,closed,5,possible bugs
+9,2015-03-16 16:06:05.000000000,2015-03-16 16:06:06.000000000,closed,3,"Makefile fixes, main.c fixes, and more"
+8,2015-03-16 16:06:05.000000000,2015-03-16 16:06:05.000000000,closed,1,disasm segmentation fault
+7,2015-03-16 16:06:04.000000000,2015-03-16 16:06:04.000000000,closed,1,Wrong check for immutable string in string-ref?
+6,2015-03-16 16:06:03.000000000,2015-03-16 16:06:03.000000000,closed,2,Exceptions from reader are not propagated
+5,2015-03-16 16:06:02.000000000,2015-03-16 16:06:02.000000000,closed,2,Missing argument type validation for some opcode implementations
+4,2015-03-16 16:06:00.000000000,2015-03-16 16:06:01.000000000,closed,2,RESUMECC fails on Mac OS X 10.6.1
+3,2015-03-16 16:06:00.000000000,2015-03-16 16:06:00.000000000,closed,1,segfaults on define-syntax
+2,2015-03-16 16:05:59.000000000,2015-03-16 16:05:59.000000000,closed,1,Inscrutable error when it cannot find init.scm
+1,2015-03-16 16:05:58.000000000,2015-03-16 16:05:58.000000000,closed,1,DESTDIR patch and googlecode html nitpicks

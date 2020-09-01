@@ -1,0 +1,778 @@
+id,created_at,closed_at,state,comments,title
+777,2020-08-25 21:00:06.000000000,1970-01-01 00:00:00.000000001,open,4,TCP error 104
+776,2020-08-18 19:20:52.000000000,1970-01-01 00:00:00.000000001,open,3,Minor doc issue: clarify if all images need to be the same size
+775,2020-08-18 15:24:00.000000000,1970-01-01 00:00:00.000000001,open,1,coredump/segfault using test_split in object detection training call
+774,2020-08-18 01:35:44.000000000,2020-08-18 11:30:28.000000000,closed,1,"Documentation bug: Squeezenet model is findable on google, but does not exist on the models page"
+773,2020-08-18 00:51:10.000000000,1970-01-01 00:00:00.000000001,open,7,Documentation bug: model weights in object detection documentation do not exist
+772,2020-08-16 02:00:08.000000000,2020-08-18 11:56:01.000000000,closed,3,Documentation bug: model missing in models page
+771,2020-08-12 17:26:39.000000000,1970-01-01 00:00:00.000000001,open,0,"Single class detection (e.g. words_detect_v2) does not support ""best"" or ""top"" N"
+770,2020-08-11 16:40:19.000000000,1970-01-01 00:00:00.000000001,open,0,[FIX] refinedet / TRT 
+769,2020-08-10 16:24:24.000000000,1970-01-01 00:00:00.000000001,open,9,Different predictions with Tensorrt7 for a refinedet model
+768,2020-08-06 14:57:51.000000000,2020-08-06 14:58:12.000000000,closed,0,[WIP] NBEATS in native torch C++
+767,2020-08-04 15:43:42.000000000,1970-01-01 00:00:00.000000001,open,0,support for torch 1.6
+766,2020-08-04 11:39:42.000000000,1970-01-01 00:00:00.000000001,open,11,DDPlatform: unable to access Predict services
+765,2020-07-29 14:49:40.000000000,1970-01-01 00:00:00.000000001,open,0,Fixed svm with db training
+764,2020-07-29 02:28:11.000000000,1970-01-01 00:00:00.000000001,open,2,SVM connector training fails 
+763,2020-07-24 14:34:33.000000000,1970-01-01 00:00:00.000000001,open,2,"Core dump ""Could not decode datum"" during training"
+762,2020-07-23 20:05:20.000000000,2020-07-28 13:47:29.000000000,closed,0,[Fix] Detect lmdb path with sparse models
+761,2020-07-22 15:17:33.000000000,2020-07-28 13:47:29.000000000,closed,2,Empty prediction for lmdb with svm content
+760,2020-07-19 16:48:23.000000000,2020-07-20 17:17:17.000000000,closed,0,Allowing regression models into chains with nested outputs
+759,2020-07-18 20:55:45.000000000,2020-07-20 17:16:59.000000000,closed,0,Modifications for image multi target regression
+758,2020-07-07 17:30:46.000000000,1970-01-01 00:00:00.000000001,open,0,feat: add json output to dd_bench.py
+757,2020-07-07 14:13:40.000000000,2020-07-20 17:16:05.000000000,closed,0,"[FIX] reversed precision and recall in case of classification + output all (per class) precision,recall,f1 if asked for"
+756,2020-07-03 19:08:17.000000000,2020-07-04 10:11:50.000000000,closed,0,Fixing template generation for SSD with bw images
+755,2020-07-03 10:49:23.000000000,2020-07-20 17:16:28.000000000,closed,0,Added key overflow warning at end of db serialization when an image key > 256 chars
+754,2020-07-01 18:43:08.000000000,1970-01-01 00:00:00.000000001,open,0,/chain ID conflict if the same chain name is used simultaneously
+753,2020-07-01 00:09:37.000000000,1970-01-01 00:00:00.000000001,open,0,documentation pages should have a 'last reviewed' date
+752,2020-06-30 23:53:41.000000000,1970-01-01 00:00:00.000000001,open,1,train-image-classifier docs assumes wrong structure for classes
+751,2020-06-30 19:38:58.000000000,2020-07-01 15:21:18.000000000,closed,6,"Following the train-image-classifier docs gives error ""Service Input Error: no image data found in repository"""
+750,2020-06-30 19:24:57.000000000,2020-07-01 15:51:55.000000000,closed,3,Docs missing db:true please fix!
+749,2020-06-30 17:18:57.000000000,2020-07-03 10:51:47.000000000,closed,0,Force cudnn engine for refinedet
+748,2020-06-29 23:49:57.000000000,1970-01-01 00:00:00.000000001,open,10,coredump/segfault when training depending on db status
+747,2020-06-29 19:35:19.000000000,2020-06-30 13:13:18.000000000,closed,0,TENSORRT_OSS  : support for refinedet
+746,2020-06-28 16:07:10.000000000,2020-07-20 17:23:05.000000000,closed,3,Inversed precision & recall
+745,2020-06-25 11:53:31.000000000,2020-06-25 12:05:09.000000000,closed,0,Fix fix img regression predict
+744,2020-06-24 17:27:13.000000000,2020-06-30 13:14:53.000000000,closed,0,[FIX] segfault in case of predict with svmCaffeInputConn and db:true
+743,2020-06-24 16:46:27.000000000,2020-06-25 11:46:12.000000000,closed,0,[FIX] image based  regression predict
+742,2020-06-24 12:23:27.000000000,2020-06-30 13:25:26.000000000,closed,4,Core dump with svm and db true
+741,2020-06-23 19:30:49.000000000,2020-07-20 17:17:48.000000000,closed,0,Cleanup protoc selection
+740,2020-06-23 16:19:59.000000000,1970-01-01 00:00:00.000000001,open,6,uri has been modified
+739,2020-06-20 18:35:02.000000000,1970-01-01 00:00:00.000000001,open,6,DeepDetect build on Ubuntu 20.04 LTS
+738,2020-06-09 17:46:42.000000000,2020-06-16 07:42:47.000000000,closed,5,[FIX] image -> single target regression
+737,2020-06-05 16:00:52.000000000,1970-01-01 00:00:00.000000001,open,0,Torch backend : native from prototxt using internal graph representation
+736,2020-05-20 16:28:04.000000000,2020-06-03 09:18:56.000000000,closed,5,Update all Docker images to Ubuntu 18.04
+735,2020-05-20 13:10:33.000000000,2020-06-30 12:40:26.000000000,closed,0,[FIX] case where nologits available but raw measure asked for
+734,2020-05-19 19:09:49.000000000,2020-06-29 10:49:26.000000000,closed,2,[FIX] dice loss for 2 classes + contour weighting
+733,2020-05-12 15:45:40.000000000,2020-05-18 13:50:18.000000000,closed,1,Reorganization Docker files and builds instructions
+732,2020-05-11 18:53:20.000000000,1970-01-01 00:00:00.000000001,open,0,Reorganization Docker files and builds instructions
+731,2020-05-07 19:27:48.000000000,2020-05-18 13:52:56.000000000,closed,1,fix: update CUDA_ARCH value in build/build.sh
+730,2020-05-02 11:03:34.000000000,1970-01-01 00:00:00.000000001,open,0,Service statistics / metrics
+729,2020-05-01 10:15:03.000000000,2020-06-11 10:20:50.000000000,closed,0,Additionnal ResNet-SSD intermediate architecture templates
+728,2020-04-29 19:09:48.000000000,2020-06-05 14:52:58.000000000,closed,0,Torch 1.5 integration
+727,2020-04-24 16:07:23.000000000,2020-06-20 17:42:43.000000000,closed,1,Load caffe models into deepdetect 
+726,2020-04-23 15:52:09.000000000,1970-01-01 00:00:00.000000001,open,2,EfficientNet B0 to B5 image classification templates for Caffe
+725,2020-04-21 12:41:43.000000000,2020-06-30 12:38:36.000000000,closed,0,Torchlib production missing features 
+724,2020-04-20 16:02:43.000000000,1970-01-01 00:00:00.000000001,open,1,How to load mobilenet v2 into deepdetect ?
+723,2020-04-18 20:23:11.000000000,1970-01-01 00:00:00.000000001,open,0,moving travis to xenial
+722,2020-04-13 12:00:00.000000000,1970-01-01 00:00:00.000000001,open,0,Update PSPNet with ResNet-50
+721,2020-04-08 19:24:20.000000000,1970-01-01 00:00:00.000000001,open,0,Added SE-ResNet-50-SSD caffe template
+720,2020-04-01 17:40:40.000000000,2020-04-02 16:27:38.000000000,closed,0,Fix tensortRT 'best' selection
+719,2020-03-31 23:11:55.000000000,1970-01-01 00:00:00.000000001,open,0,"Torch extract layer,  non generic"
+718,2020-03-31 20:16:06.000000000,2020-04-02 04:20:38.000000000,closed,9,Tensorrt get whole output distributions
+717,2020-03-31 16:27:02.000000000,2020-04-02 16:27:19.000000000,closed,0,fixed model copy calls between directories (aka publishing) with deploy modified
+716,2020-03-30 09:01:55.000000000,2020-08-18 10:25:36.000000000,closed,3,Bert models / transformers package
+715,2020-03-27 01:29:30.000000000,2020-06-30 12:30:24.000000000,closed,0,torch lib on DBs
+714,2020-03-13 15:11:28.000000000,2020-04-02 16:26:59.000000000,closed,0,fix compile w/ trt w/torch w/o caffe
+713,2020-03-11 19:58:16.000000000,2020-03-31 10:44:57.000000000,closed,0,Fix rotate action when upstream prediction is empty for some of the samples in a batch
+712,2020-03-11 17:27:16.000000000,2020-04-02 16:28:18.000000000,closed,0,Now throwing proper exception on tensorrt caffe model parser failure
+711,2020-03-11 17:26:41.000000000,2020-03-31 10:45:19.000000000,closed,0,added segmentation to benchmark script
+710,2020-03-09 13:22:59.000000000,2020-04-02 16:26:42.000000000,closed,0,FIX : correcty pass CUDA_ARCH cmake option to FAISS
+709,2020-03-04 21:16:38.000000000,2020-03-10 12:55:15.000000000,closed,0,fix: force  caffe engine  when (de)conv dilation > 1
+708,2020-03-03 19:50:39.000000000,2020-03-03 21:32:46.000000000,closed,0,do not divide by zero f1 and conf_matrix if nothing in category
+707,2020-03-03 19:17:56.000000000,2020-03-03 19:43:07.000000000,closed,1,fix divide by zero in case of very wrong prediction 
+706,2020-03-03 14:12:39.000000000,2020-05-07 16:22:05.000000000,closed,30,Docker images optimization / CI/CD refactoring
+705,2020-02-28 15:44:36.000000000,2020-03-10 12:55:59.000000000,closed,0,fix logging from output connectors + add error message in case of unsupervised output + no extract_layer
+704,2020-02-28 13:52:50.000000000,2020-03-03 14:45:03.000000000,closed,0,fix ut torchapi
+703,2020-02-26 17:08:14.000000000,2020-02-27 12:48:34.000000000,closed,0,Tentative fix to travis file
+702,2020-02-26 13:36:35.000000000,2020-03-04 11:37:11.000000000,closed,0,geometry image deformation for detection/ssd
+701,2020-02-25 21:21:20.000000000,1970-01-01 00:00:00.000000001,open,11,Container is killed while indexing 100 images with batch_size 2
+700,2020-02-25 20:44:17.000000000,2020-04-07 08:47:06.000000000,closed,0,added RefineDet VoVNet39 512x512 caffe template
+699,2020-02-25 19:30:36.000000000,2020-03-04 19:39:20.000000000,closed,0,fix wrt PR 693 (dlib chain / logger)
+698,2020-02-10 17:03:39.000000000,2020-03-10 12:58:05.000000000,closed,0,Torch 1.4
+697,2020-02-07 19:49:44.000000000,2020-03-31 21:25:30.000000000,closed,0,add unit test for  tensorrt backend
+696,2020-01-31 20:33:00.000000000,2020-03-04 20:40:19.000000000,closed,1,engine selection at service creation time : CAFFE of CUDNN
+695,2020-01-24 14:20:24.000000000,1970-01-01 00:00:00.000000001,open,0,caffe unet多分类
+694,2020-01-23 16:03:00.000000000,2020-01-31 17:02:54.000000000,closed,0,OCR/CTC confidence output on prediction
+693,2020-01-21 18:22:28.000000000,2020-02-04 19:49:21.000000000,closed,1,Support for logger from within chain actions
+692,2020-01-21 11:50:49.000000000,2020-02-04 19:49:58.000000000,closed,0,Fix potentially empty chain output when first detection service output is empty
+691,2020-01-17 20:46:57.000000000,2020-02-04 19:49:58.000000000,closed,0,Incomplete chain output in some cases
+690,2020-01-16 14:52:43.000000000,2020-02-05 20:38:47.000000000,closed,4,Fixed inversion of ymin and ymax in detection models output
+689,2020-01-15 19:33:36.000000000,2020-02-04 19:49:21.000000000,closed,7,Crop fails when bounding boxes are out of range
+688,2020-01-09 21:03:24.000000000,2020-02-05 20:46:12.000000000,closed,0,Detection calibration
+687,2020-01-09 00:44:26.000000000,1970-01-01 00:00:00.000000001,open,4,Building Ubuntu 18.04 Caffe+TF error
+686,2020-01-08 19:56:10.000000000,2020-02-04 20:36:30.000000000,closed,0,this PR add some cleanups on caffe detection code 
+685,2020-01-07 20:25:49.000000000,2020-01-20 11:09:27.000000000,closed,0,added caffe templates for OCR crnn with SE-ResNet-50 and SE-ResNext-50
+684,2020-01-03 15:38:18.000000000,2020-01-22 15:06:33.000000000,closed,0,Update to docker files
+683,2020-01-03 14:58:19.000000000,2020-02-05 20:44:30.000000000,closed,1,tensort RT 7 + OSS
+682,2020-01-03 13:12:48.000000000,1970-01-01 00:00:00.000000001,open,1,have you test the resnet18+ctc+blstm net？
+681,2020-01-02 15:59:30.000000000,2020-02-04 20:17:19.000000000,closed,0,sane behavior if trt engine filename does not end with max_batch_size
+680,2019-12-20 19:49:17.000000000,1970-01-01 00:00:00.000000001,open,4,./include/caffe/llogging.h:155:18: error: ‘stdout_logger_mt’ is not a member of ‘spdlog’
+679,2019-12-18 18:37:15.000000000,2019-12-30 16:14:37.000000000,closed,0,bug in raw measure + add error message when bad data
+678,2019-12-18 15:41:52.000000000,1970-01-01 00:00:00.000000001,open,0,"detection : cannot handle filenames with a "" """
+677,2019-12-18 13:40:01.000000000,2020-01-24 13:05:34.000000000,closed,0,"Image rotation action, usable in `chains`"
+676,2019-12-16 21:39:05.000000000,2019-12-30 16:13:58.000000000,closed,0,add choice of gpuid in for tensorrt backend
+675,2019-12-13 23:09:58.000000000,2019-12-19 15:34:14.000000000,closed,4,Support nvidia T4 ( g4 instances on AWS )
+674,2019-12-12 16:21:26.000000000,2020-02-05 20:38:47.000000000,closed,3,"in detection models (ssd), in predict output :  ymin and ymax are swapped "
+673,2019-12-11 13:21:13.000000000,2020-02-05 20:42:35.000000000,closed,2,bert + gpt2 inference + training wrt torch 1.3.1 and transformers 2.2.1
+672,2019-12-10 22:02:40.000000000,2019-12-11 13:16:53.000000000,closed,0,Bert training integration 
+671,2019-12-09 15:36:49.000000000,2019-12-09 21:06:25.000000000,closed,0,WIP : Bert training vs torch 1.3.1
+670,2019-12-09 15:10:54.000000000,2019-12-09 15:27:38.000000000,closed,0,Bert training : WIP
+669,2019-12-05 20:38:42.000000000,2019-12-11 13:29:36.000000000,closed,2,libtorch 1.3.1 
+668,2019-12-04 20:42:03.000000000,2020-02-04 20:26:43.000000000,closed,3,"learning rate dropout API, see 1912.00144"
+667,2019-11-14 23:05:35.000000000,2019-11-15 02:29:25.000000000,closed,1,Building FAISS with GPU support fails
+666,2019-11-07 16:23:20.000000000,2019-11-21 14:44:42.000000000,closed,0,correct simsearch backend specification at compile time
+665,2019-11-04 19:21:09.000000000,1970-01-01 00:00:00.000000001,open,1,Undefined reference to OutputArray
+664,2019-11-02 22:07:18.000000000,2019-11-19 15:26:35.000000000,closed,0,Compiler warnings reduction
+663,2019-10-30 22:07:31.000000000,1970-01-01 00:00:00.000000001,open,0,Moving to distribution/release rapidjson
+662,2019-10-28 14:56:26.000000000,2019-11-01 15:11:49.000000000,closed,5,Can not replicate PyTorch results using libtorch Backend of DD
+661,2019-10-28 11:36:04.000000000,2019-11-19 15:28:02.000000000,closed,0,Pytorch inference fixes
+660,2019-10-27 00:35:57.000000000,2019-11-21 14:39:50.000000000,closed,0,"Chains: avoid encoding + serializing crops, passing raw cv::Mat instead"
+659,2019-10-25 22:18:20.000000000,2019-11-19 15:28:30.000000000,closed,0,Add mutex to TensorRT prediction calls
+658,2019-10-25 00:16:59.000000000,2019-11-19 14:59:21.000000000,closed,8,Tf 131 update
+657,2019-10-24 19:55:43.000000000,2019-12-30 16:13:32.000000000,closed,4,Dlib face feature extraction model and landmark shape predictor action
+656,2019-10-23 22:55:58.000000000,2019-11-01 15:13:21.000000000,closed,6,"Absolute paths, std as int launch errors with torchlib (best -1 retrieves 0 results)"
+655,2019-10-23 20:56:58.000000000,1970-01-01 00:00:00.000000001,open,1,Random crops action in `/chain`
+654,2019-10-21 18:58:18.000000000,2020-07-03 10:51:47.000000000,closed,2,RefineDet fails with `nclasses`=3
+653,2019-10-18 22:30:53.000000000,2019-11-20 17:57:04.000000000,closed,14,Updated dlib to 19.18
+652,2019-10-15 12:39:50.000000000,2019-10-22 10:01:19.000000000,closed,2,Raw detection output if measure = raw
+651,2019-10-15 07:50:42.000000000,2019-10-17 08:50:58.000000000,closed,0,Additional API control over useful SSD training / deploy parameters
+650,2019-10-14 19:39:32.000000000,2019-10-17 08:51:14.000000000,closed,3,"Added input connector timeout, ref #647"
+649,2019-10-11 17:14:20.000000000,2019-10-16 19:34:18.000000000,closed,1,expose overlap_threshold for tests in detection tasks
+648,2019-10-10 18:08:57.000000000,2019-10-22 10:00:43.000000000,closed,0,'raw' measure for classification tasks
+647,2019-10-08 19:41:35.000000000,2019-10-21 13:33:33.000000000,closed,2,Infinite prediction call (prediction stuck because of data retrieval)
+646,2019-10-06 17:26:34.000000000,2019-10-15 08:10:39.000000000,closed,0,fixed ambiguous var with TF input connector
+645,2019-10-04 12:28:15.000000000,2019-10-07 16:31:39.000000000,closed,6,Fresh platform install jupyterlab unusable due to folder access problems
+644,2019-09-24 20:22:21.000000000,2019-12-11 14:52:55.000000000,closed,1,Support for GPT-2
+643,2019-09-19 16:35:33.000000000,2019-09-20 13:32:42.000000000,closed,0,add cmake dependence so that one can make -j N
+642,2019-09-16 14:30:54.000000000,2019-10-16 19:19:45.000000000,closed,0,OpenCV GPU support with CUDA for image input resizing
+641,2019-09-13 20:10:16.000000000,2019-10-18 18:07:28.000000000,closed,4,add faiss simsearch backend
+640,2019-09-13 09:29:38.000000000,2019-09-23 16:48:48.000000000,closed,0,input image interpolation method selection via API
+639,2019-09-12 07:51:53.000000000,2019-09-13 08:40:36.000000000,closed,0,No hardcoded limit on tensorrt compilation max batch size
+638,2019-09-11 16:07:34.000000000,2019-09-11 17:11:17.000000000,closed,0,Fix Protobuf conflict preventing complete build
+637,2019-09-10 18:14:06.000000000,2019-09-27 19:20:50.000000000,closed,10,BERT finetuning (classification + language model)
+636,2019-09-10 11:40:39.000000000,2020-04-02 16:29:12.000000000,closed,2,make dede tencent/ncnn/master compatible
+635,2019-09-06 20:01:17.000000000,2019-09-06 20:03:43.000000000,closed,0,Fix pytorch backend
+634,2019-09-05 11:54:03.000000000,2019-09-20 13:34:18.000000000,closed,0,fix caffe2ncnn conversion for deprecated weights format 
+633,2019-09-03 21:05:14.000000000,2019-09-12 07:47:10.000000000,closed,0,"Fixes to chain, improving error handling"
+632,2019-09-03 17:46:32.000000000,1970-01-01 00:00:00.000000001,open,2,Deepdetect Docker Training Error
+631,2019-09-03 01:10:24.000000000,2019-09-03 11:27:12.000000000,closed,0,Fixed tensorrt batch size reading from binary model filename
+630,2019-08-29 14:30:24.000000000,2019-08-30 14:21:52.000000000,closed,0,add API params for decoupled weight decay scheduler
+629,2019-08-27 19:37:47.000000000,2019-09-02 09:12:08.000000000,closed,0,Support for tree-structured chains
+628,2019-08-26 18:26:59.000000000,2019-08-27 18:28:34.000000000,closed,0,API for rectified flavor of adam and amsgrad
+627,2019-08-23 17:17:12.000000000,2019-08-24 16:26:42.000000000,closed,0,dede API for Decoupled wd : adamW and sgdW and amsgradW
+626,2019-08-23 17:11:43.000000000,2019-08-23 18:25:27.000000000,closed,0,CRITICAL FIX: caffe solver selection
+625,2019-08-22 19:33:03.000000000,1970-01-01 00:00:00.000000001,open,0,Some models cannot be used with ncnn
+624,2019-08-22 16:12:10.000000000,2019-08-23 18:28:10.000000000,closed,0,output learning rate in training json
+623,2019-08-22 12:34:42.000000000,2019-08-24 16:25:07.000000000,closed,0,dd api for caffe warmup
+622,2019-08-21 17:49:34.000000000,2019-08-21 19:15:25.000000000,closed,0,fixed spdlog missing header on raspberry 4
+621,2019-08-21 17:24:24.000000000,2019-08-24 16:24:48.000000000,closed,0,dede API for lookahead
+620,2019-08-02 21:07:58.000000000,2019-08-21 18:57:35.000000000,closed,0,Exit on failure from command line start list behavior
+619,2019-08-02 13:15:22.000000000,1970-01-01 00:00:00.000000001,open,0,squeezenext caffe templates
+618,2019-08-01 21:31:46.000000000,2019-08-02 14:23:54.000000000,closed,0,type fix for variants with long long int
+617,2019-07-31 10:07:29.000000000,2019-08-01 16:05:44.000000000,closed,4,TensorRT better exception catching around inference
+616,2019-07-26 18:58:55.000000000,2019-09-23 13:36:26.000000000,closed,2,BERT model inference support via PyTorch C++ API
+615,2019-07-24 17:50:06.000000000,2019-07-24 20:42:53.000000000,closed,0,"Detect URL by matching only the begining of the URL, instead of the whole URL"
+614,2019-07-23 18:22:10.000000000,2019-07-31 18:10:31.000000000,closed,0,add _timeserie attribute to connectors 
+613,2019-07-23 16:31:14.000000000,2019-07-23 19:44:21.000000000,closed,0,FIX: do not segfault when cannot find ncnn model files
+612,2019-07-23 16:16:48.000000000,2019-07-31 18:11:42.000000000,closed,0,autogenerate ncnn model files from caffe ones if possible and if needed
+611,2019-07-22 14:18:48.000000000,2019-09-06 08:14:42.000000000,closed,8,Integration of Libtorch in DeepDetect for image classification
+610,2019-07-17 20:10:04.000000000,2019-07-23 19:44:21.000000000,closed,2,Segfault when providing a bad repository name with NCNN backend
+609,2019-07-17 14:00:55.000000000,2019-07-17 14:01:06.000000000,closed,0,Bounding boxes fix with TensorRT
+608,2019-07-15 09:30:30.000000000,2019-07-15 09:30:43.000000000,closed,0,updating NCNN option setter
+607,2019-07-12 20:39:12.000000000,2019-11-01 14:42:50.000000000,closed,2,TensorRT handling mean
+606,2019-07-08 19:50:39.000000000,2019-07-09 12:58:12.000000000,closed,0,Added tensorrt build to jenkinsfile for testing
+605,2019-07-07 20:57:54.000000000,2019-08-01 16:05:08.000000000,closed,0,Basic multi-models inference with intermediary operators via `/chain` API call
+604,2019-07-07 18:49:47.000000000,2019-07-09 12:58:27.000000000,closed,0,updated mapbox variant to v1.1.3
+603,2019-07-05 12:01:12.000000000,2019-10-09 07:49:59.000000000,closed,0,does it use lmdb or leveldb?
+602,2019-07-04 18:53:26.000000000,2019-07-24 15:56:29.000000000,closed,3,patch to make deepdetect xfs compliant
+601,2019-07-03 21:28:06.000000000,2019-07-07 22:42:22.000000000,closed,1,V0.9.1 dlib 19.17 build fix
+600,2019-07-03 12:52:04.000000000,2019-07-03 20:04:48.000000000,closed,3,have you optimize the tcp max link limit in the deploy server container?
+599,2019-07-02 05:07:04.000000000,2019-07-02 18:49:30.000000000,closed,4,Multiple number of classes is unknown (nclasses == 0)
+598,2019-07-01 16:37:07.000000000,2019-10-09 07:38:16.000000000,closed,1,"""Could not resolve host"" on text model prediction when http/https url in request data"
+597,2019-06-24 07:16:47.000000000,2019-06-24 10:12:29.000000000,closed,1,can i run embedded network on pc
+596,2019-06-21 21:09:03.000000000,2019-06-22 16:41:15.000000000,closed,1,does the platform docker container have contains the cuda and cudnn?
+595,2019-06-20 11:25:28.000000000,2019-11-01 15:13:38.000000000,closed,2,does it have use openblas to get better performance on CPU ?
+594,2019-06-16 14:29:47.000000000,2019-06-30 16:49:15.000000000,closed,1,Regularize bad bbox to the boundaries of the image
+593,2019-06-16 14:14:21.000000000,2019-06-16 14:26:56.000000000,closed,0,Regularize bad bbox to the boundaries of the image
+592,2019-06-14 14:44:18.000000000,2019-06-14 22:11:10.000000000,closed,2,is the SqueezeNet-SSD  faster than yolov3-tiny
+591,2019-06-13 13:32:11.000000000,2019-06-24 10:13:04.000000000,closed,10,"your project is very good,but can you compile the dll file and the .so file?"
+590,2019-06-12 05:04:23.000000000,2019-06-13 03:17:25.000000000,closed,1,How to setup an image classifier with user own trained Caffe model?
+589,2019-06-06 14:25:20.000000000,2019-06-30 16:39:14.000000000,closed,0,dd_bench with tensorrt support
+588,2019-06-06 12:32:37.000000000,2019-08-02 14:54:01.000000000,closed,1,NCNN backend : add inputblob and ouputblob option to mllib at service creation time
+587,2019-06-05 19:32:03.000000000,2019-10-09 07:50:20.000000000,closed,2,Allow configuration of NCNN output blobs via API
+586,2019-06-04 14:57:17.000000000,1970-01-01 00:00:00.000000001,open,0,replace db:true by db:false in json files when copying models
+585,2019-05-23 11:53:30.000000000,1970-01-01 00:00:00.000000001,open,3,Please use git submofules or external packages instead of 'git clone' (for caffee)
+584,2019-05-23 09:54:49.000000000,2019-06-06 11:57:35.000000000,closed,5,Makefile:332: *** Cannot static link with the c++ compiler.  Stop.
+583,2019-05-20 12:44:36.000000000,2019-06-05 09:39:05.000000000,closed,0,timeseries minor fixes
+582,2019-05-17 20:00:49.000000000,1970-01-01 00:00:00.000000001,open,3,Documentation about Platform outdated/incomplete?
+581,2019-05-17 18:40:29.000000000,2019-06-07 13:13:14.000000000,closed,0,"check for openCV 2 or 3, but not 4"
+580,2019-05-16 17:07:27.000000000,1970-01-01 00:00:00.000000001,open,1,optional support for cuda enabled opencv 
+579,2019-05-16 11:20:53.000000000,1970-01-01 00:00:00.000000001,open,0,compiling againt cuda 10 (on jetson) raises a lot of warning (when compiling caffe)
+578,2019-05-14 19:38:16.000000000,2019-06-30 16:37:56.000000000,closed,3,Tensor RT 5.0 backend
+577,2019-05-07 11:58:55.000000000,2019-05-09 12:29:42.000000000,closed,0,service status call now returns service type supervised/unsupervised
+576,2019-05-06 21:13:03.000000000,2019-05-09 12:30:11.000000000,closed,0,Avoid failure at simsearch index creation when no detection is made by the model
+575,2019-05-02 19:44:49.000000000,2019-05-09 12:31:52.000000000,closed,0,fix : apis selection and builds
+574,2019-05-02 16:11:14.000000000,1970-01-01 00:00:00.000000001,open,0,ENet with dice loss
+573,2019-04-30 20:44:43.000000000,2019-05-02 16:08:46.000000000,closed,4,Do not use httpclient class on Windows
+572,2019-04-30 20:35:56.000000000,2019-05-02 17:11:36.000000000,closed,4,"use USE_HTTP to condionally include httpjsonapi.h, correct not defined to !defined"
+571,2019-04-30 20:13:52.000000000,2019-05-02 16:04:23.000000000,closed,0,implement dd_utils::my_hardware_concurrency on WIN32
+570,2019-04-30 11:14:13.000000000,2019-04-30 19:30:48.000000000,closed,4,move init of attributes to construction instead of declaration
+569,2019-04-30 00:44:08.000000000,2019-04-30 00:55:45.000000000,closed,0,do not try to guess old_height at init_mllib time
+568,2019-04-23 17:57:37.000000000,1970-01-01 00:00:00.000000001,open,1,Video input connector with GPU support for scaling via libvnn
+567,2019-04-16 22:54:50.000000000,1970-01-01 00:00:00.000000001,open,3,skip bad bbox on Jetson nano GPU with Caffe
+566,2019-04-16 19:01:19.000000000,2019-04-19 09:34:00.000000000,closed,0,"FIX: small glitch in init, was ok before, but clearer now"
+565,2019-04-15 21:02:34.000000000,2019-04-29 14:57:32.000000000,closed,1,"implement fileops on WIN32 using boost::filesystem, correct includes"
+564,2019-04-15 19:18:24.000000000,2019-04-16 22:07:01.000000000,closed,0,Use a std::vector instead of variable length array
+563,2019-04-10 12:45:41.000000000,2019-04-10 12:58:08.000000000,closed,0,FIX: when not using DD_SYSLOG include spdlog::stdout_logger_mt
+562,2019-04-05 16:59:18.000000000,2019-04-05 19:09:51.000000000,closed,0,"copy bounds.dat (for timeseries, if any) when publishing model"
+561,2019-04-02 17:12:26.000000000,2019-04-05 19:08:35.000000000,closed,0,output some stats in status json
+560,2019-03-29 18:06:49.000000000,1970-01-01 00:00:00.000000001,open,10,Future support to Ubuntu 18.04 container on IBM OpenPower + Tesla P100 + CUDA 10.0
+559,2019-03-26 19:29:27.000000000,2019-04-19 19:15:17.000000000,closed,2,Selection of API at build time
+558,2019-03-26 12:20:50.000000000,2019-04-05 18:36:06.000000000,closed,0,apply mean only if it exists in parameters
+557,2019-03-21 18:19:28.000000000,2019-04-05 19:08:37.000000000,closed,1,dice perfo fix 
+556,2019-03-20 15:12:31.000000000,2019-03-20 21:15:17.000000000,closed,0,"When caffe is not built, deactivate simsearch"
+555,2019-03-20 07:09:33.000000000,1970-01-01 00:00:00.000000001,open,2,How to train a object detection model by deepdetect?
+554,2019-03-14 13:27:08.000000000,2019-03-19 11:52:51.000000000,closed,0,ncnn timeseries for predictions 
+553,2019-03-07 20:47:40.000000000,2019-03-08 01:15:07.000000000,closed,0,Fix multiclass refinedet
+552,2019-03-04 19:45:09.000000000,2019-03-05 17:30:10.000000000,closed,0,Do not fetch model tarball is already in directory
+551,2019-02-27 14:36:39.000000000,2019-02-28 20:13:21.000000000,closed,0,"replace deprecated param in caffe.proto replace slice_dim with axis, necessary for ncnn"
+550,2019-02-27 03:55:26.000000000,2019-02-27 13:38:58.000000000,closed,0,Fixed resuming of metrics
+549,2019-02-26 02:01:25.000000000,2019-02-28 20:13:09.000000000,closed,0,enlarge recurrent template grammar + cvsts fixes
+548,2019-02-22 08:45:06.000000000,2019-03-20 10:24:37.000000000,closed,5,How to upload image file to server for detect?
+547,2019-02-20 11:12:43.000000000,2019-02-27 17:52:42.000000000,closed,5,Detectron mask rcnn runtime error
+546,2019-02-16 16:04:58.000000000,2019-02-18 11:57:26.000000000,closed,3,SENet models predict error results
+545,2019-02-15 21:14:29.000000000,2019-02-21 10:58:34.000000000,closed,0,fixed index_preload default
+544,2019-02-13 11:19:43.000000000,2019-02-13 18:35:03.000000000,closed,0,NCNN model type for using with the platform
+543,2019-02-11 23:23:37.000000000,2019-02-13 00:27:16.000000000,closed,0,Support for CTC to NCNN backend
+542,2019-02-11 20:07:21.000000000,2019-02-12 11:27:29.000000000,closed,1,fix : do not output best confidence map if not asked for 
+541,2019-02-07 17:42:49.000000000,1970-01-01 00:00:00.000000001,open,1,Support for AdamW gradient method
+540,2019-02-03 23:13:00.000000000,2019-02-04 02:28:40.000000000,closed,7,Web preview on rpi 3
+539,2019-01-30 16:29:54.000000000,2019-02-28 20:12:47.000000000,closed,0,Dice loss parameters + contours : clean API 
+538,2019-01-29 17:02:37.000000000,2019-02-01 22:27:10.000000000,closed,0,output all ious in addition to mean iou
+537,2019-01-29 15:41:44.000000000,2019-01-31 02:55:18.000000000,closed,0,Jenkins chat notify
+536,2019-01-28 20:35:50.000000000,2019-02-01 22:27:51.000000000,closed,0,"fix in csv input connector, in case of multi target "
+535,2019-01-28 18:03:49.000000000,1970-01-01 00:00:00.000000001,open,21,Image Classification. Difference in statistics on test set.
+534,2019-01-28 12:56:07.000000000,2019-02-01 17:05:06.000000000,closed,0,Training metrics preservation across resume calls.
+533,2019-01-24 00:00:09.000000000,2019-02-01 22:26:11.000000000,closed,0,"Added support for ""Learning to Segment Every Thing"" models"
+532,2019-01-22 13:28:12.000000000,2019-01-23 22:19:20.000000000,closed,3,Not Able to make outbound calls to localhost from docker container
+531,2019-01-19 21:46:10.000000000,2019-01-24 10:27:22.000000000,closed,0,Detection of caffe2 'bbox' model_type
+530,2019-01-17 14:13:36.000000000,2019-02-01 00:28:11.000000000,closed,4,segmentation confidence maps
+529,2019-01-16 14:39:22.000000000,2019-02-01 22:25:33.000000000,closed,1,Caffe2 templates
+528,2019-01-07 20:47:54.000000000,2019-01-25 15:51:23.000000000,closed,0,dice fix
+527,2018-12-14 14:09:32.000000000,2018-12-21 13:21:03.000000000,closed,1,Add support for NCNN backend
+526,2018-12-10 14:00:29.000000000,2018-12-10 14:21:33.000000000,closed,2,DeepDetect Compilation failed
+525,2018-11-30 14:47:35.000000000,2018-12-03 21:57:22.000000000,closed,0,"correct logic for benching rois: do not ask for bbox, rois does bbox …"
+524,2018-11-27 21:29:58.000000000,2018-12-10 09:22:32.000000000,closed,1,mlp regression fixes
+523,2018-11-23 15:42:19.000000000,2018-12-05 00:20:35.000000000,closed,1,make template='' behave like no template
+522,2018-11-18 00:18:35.000000000,2018-12-03 23:03:31.000000000,closed,2,Embed detectron
+521,2018-11-16 21:58:22.000000000,2018-12-10 09:23:49.000000000,closed,0,Automated model installation from compressed archive at service creation
+520,2018-11-15 21:52:49.000000000,2018-12-14 10:00:36.000000000,closed,0,Making Caffe optional in builds
+519,2018-11-15 19:23:30.000000000,2018-11-15 20:31:50.000000000,closed,1,Fix ut conn
+518,2018-11-12 15:44:02.000000000,2018-12-14 13:52:26.000000000,closed,10,Add support for NCNN backend
+517,2018-11-09 20:21:34.000000000,2019-02-21 18:48:21.000000000,closed,15,long awaited timeseries
+516,2018-11-02 23:22:02.000000000,2018-11-03 20:36:34.000000000,closed,3,Installing dede on Jetson TX2
+515,2018-10-31 20:35:31.000000000,2018-11-18 19:57:09.000000000,closed,0,Added support for automated image inputs with regression tasks
+514,2018-10-30 18:41:10.000000000,2018-10-31 10:10:17.000000000,closed,0,added ability to avoid index preloading
+513,2018-10-29 12:34:39.000000000,2018-10-29 15:06:54.000000000,closed,1,dd_client.py : add path parameter support
+512,2018-10-26 16:22:41.000000000,2018-10-29 10:16:41.000000000,closed,0,Add USE_CAFFE_DEBUG flag
+511,2018-10-25 16:18:42.000000000,2018-10-25 18:16:30.000000000,closed,0,tsne can now send the number of iterations
+510,2018-10-24 19:00:56.000000000,2018-12-03 23:03:00.000000000,closed,1,Change pytorch version
+509,2018-10-23 14:20:57.000000000,2018-12-03 22:50:44.000000000,closed,3,Fixed weights parameter upon resume and finetuning
+508,2018-10-21 02:42:08.000000000,2019-03-20 10:24:55.000000000,closed,1,Service Bad Request Error: error reading or listing Caffe models
+507,2018-10-17 16:48:02.000000000,2018-12-03 23:02:32.000000000,closed,3,Added mask support for detectron models
+506,2018-10-11 16:04:30.000000000,2018-10-29 10:17:13.000000000,closed,1,Debug renewal
+505,2018-10-10 17:12:55.000000000,2019-03-20 10:25:43.000000000,closed,6,Finetuning impossible
+504,2018-10-08 12:24:05.000000000,2018-10-31 10:11:46.000000000,closed,1,Train images models from txt files
+503,2018-10-03 13:44:16.000000000,2018-10-05 19:44:24.000000000,closed,0,Retrieve files from subdirectories of class directories
+502,2018-10-01 19:59:54.000000000,2018-11-12 17:36:04.000000000,closed,2,Perspective transform : dede options
+501,2018-09-29 18:13:49.000000000,2018-10-01 21:44:00.000000000,closed,4,Services are not persisted / are lost between restarts of docker container
+500,2018-09-25 03:03:04.000000000,2018-09-25 18:39:42.000000000,closed,0,Ability to copy from an existing model repository at service creation
+499,2018-09-25 03:00:45.000000000,2018-09-25 19:19:48.000000000,closed,0,Store metrics on disk upon every status call
+498,2018-09-18 10:36:03.000000000,2018-09-20 07:40:04.000000000,closed,0,added support for multibox rois search
+497,2018-09-14 16:15:02.000000000,1970-01-01 00:00:00.000000001,open,1,Add support for Yolo v3 tiny & Yolov3
+496,2018-09-13 12:02:23.000000000,2018-10-26 16:17:22.000000000,closed,1,Add USE_CAFFE_DEBUG flag
+495,2018-09-12 13:42:07.000000000,1970-01-01 00:00:00.000000001,open,0,autoload API option to prevent model from loading at service creation
+494,2018-09-10 12:37:39.000000000,2018-10-25 13:22:05.000000000,closed,3,Add USE_HDF5 flag
+493,2018-09-07 18:21:31.000000000,2018-10-17 15:29:23.000000000,closed,0,Add RPI3 flag
+492,2018-09-04 19:42:27.000000000,2018-09-07 13:22:21.000000000,closed,0,Caffe2 tools
+491,2018-09-03 17:49:06.000000000,2018-09-06 15:32:16.000000000,closed,0,"Replaced ""TensorProtoDBInput"" operators by ""ImageInput""s"
+490,2018-08-27 18:57:16.000000000,2018-09-03 21:10:42.000000000,closed,0,Added detectron support
+489,2018-08-27 09:22:34.000000000,2018-11-08 22:09:35.000000000,closed,1,CNN autoencoder support for Caffe backend
+488,2018-08-21 12:35:27.000000000,2018-09-07 17:30:35.000000000,closed,3,Add -DUSE_RPI3 cmake flag for RPi3 compatibility
+487,2018-08-19 23:33:59.000000000,2018-09-18 16:07:49.000000000,closed,8,Models keep getting unloaded after some period of time in hours
+486,2018-08-16 09:20:35.000000000,1970-01-01 00:00:00.000000001,open,4,An error appears of tensorflow when building cpu-caffe-tf image 
+485,2018-08-13 13:05:58.000000000,2019-03-20 10:25:57.000000000,closed,3,authentication in deepdetect
+484,2018-08-08 11:31:55.000000000,2018-08-11 17:13:34.000000000,closed,1,Website certificate expired
+483,2018-07-31 10:26:14.000000000,2019-03-20 10:26:14.000000000,closed,1,Good job! How to contribute to the project?
+482,2018-07-24 14:31:15.000000000,2018-07-24 16:10:25.000000000,closed,0,cmdiag measure reports class name when available
+481,2018-07-24 13:49:40.000000000,2018-07-24 15:34:30.000000000,closed,0,GET /train status call returns model directory
+480,2018-07-23 16:12:27.000000000,2018-07-23 18:30:41.000000000,closed,0,stores full metric history into metrics.json once training job has finished
+479,2018-07-23 00:27:37.000000000,2018-07-23 11:51:58.000000000,closed,0,Added support for db_width and db_height to force resize the db images with SSD
+478,2018-07-22 22:41:39.000000000,2018-07-23 18:30:28.000000000,closed,0,`target_repository` allows automatic copy of best model to target directory
+477,2018-07-19 23:12:42.000000000,2018-07-20 00:14:15.000000000,closed,0,remove script command from jenkinsfile
+476,2018-07-19 18:21:02.000000000,2018-07-23 18:30:14.000000000,closed,0,added SSD 300 template with resnet final branches
+475,2018-07-19 14:13:53.000000000,2018-07-22 20:47:59.000000000,closed,0,wrong map_# measures 
+474,2018-07-19 14:12:45.000000000,2018-07-23 15:35:03.000000000,closed,0,JSON error report improvement
+473,2018-07-18 00:41:51.000000000,2018-07-18 10:40:11.000000000,closed,0,fixes to SSD training metrics
+472,2018-07-17 13:56:42.000000000,2018-07-23 10:31:24.000000000,closed,2,deeplab_vgg16 finetune
+471,2018-07-17 12:14:03.000000000,2018-07-17 17:36:54.000000000,closed,0,Debug httpjsonapi
+470,2018-07-17 01:55:02.000000000,2018-07-18 20:02:48.000000000,closed,0,Save best value of metric and iteration number
+469,2018-07-16 12:12:15.000000000,2018-07-17 17:38:23.000000000,closed,0,add possibility to remove dir (aka clear=dir)
+468,2018-07-16 11:27:33.000000000,2018-07-16 20:36:08.000000000,closed,0,correct stringstream use for delta_score name output
+467,2018-07-15 21:50:15.000000000,2018-07-15 23:50:39.000000000,closed,2,error when starting a finetune service
+466,2018-07-13 19:01:00.000000000,2018-07-14 12:50:18.000000000,closed,0,Forwarded CUDA_NVCC_FLAGS to caffe_dd
+465,2018-07-12 14:17:41.000000000,2018-07-12 18:29:08.000000000,closed,0,Fix to history subsampling.
+464,2018-07-12 14:07:57.000000000,2018-09-03 00:11:32.000000000,closed,2,Added training with Caffe2's backend
+463,2018-07-11 10:48:30.000000000,2018-07-11 11:35:05.000000000,closed,0,Pinning spdlog to v0.17.0 for Travis
+462,2018-07-10 13:26:31.000000000,2018-07-11 11:09:05.000000000,closed,0,Measure history subsampling
+461,2018-07-06 13:41:38.000000000,2018-07-14 12:53:01.000000000,closed,0,Switched to pytorch v0.4.0
+460,2018-07-05 18:51:49.000000000,2018-07-14 12:43:34.000000000,closed,0,Mkdir repo
+459,2018-07-05 18:50:42.000000000,2018-07-13 14:44:54.000000000,closed,0,Better error handling for dlib-internal errors
+458,2018-07-05 12:58:51.000000000,2018-07-11 18:49:29.000000000,closed,0,add mobilenet_v2_ssd template
+457,2018-07-03 12:14:13.000000000,2018-07-04 13:04:56.000000000,closed,0,add per class map
+456,2018-07-02 01:33:53.000000000,2018-07-03 17:16:17.000000000,closed,0,Config json file
+455,2018-06-28 17:50:04.000000000,2018-06-29 12:14:43.000000000,closed,1,correctly aggregate means
+454,2018-06-27 12:56:39.000000000,2018-07-03 19:05:09.000000000,closed,0,generalized dice loss (for good)
+453,2018-06-26 14:33:03.000000000,2018-06-27 12:57:58.000000000,closed,0,generalized dice loss
+452,2018-06-26 13:15:52.000000000,2018-07-04 18:13:36.000000000,closed,1,Forcing caffe2's compiled protobuffers inside caffe_dd
+451,2018-06-24 23:42:21.000000000,2018-06-25 11:06:48.000000000,closed,0,"Added creation parameters to GET /service output, ref #446"
+450,2018-06-24 18:13:10.000000000,2018-06-24 22:59:29.000000000,closed,1,train on  a distributed dataset with deepdetect-caffe 
+449,2018-06-24 02:47:37.000000000,2018-07-04 14:33:49.000000000,closed,0,Training SSD object detector with Caffe backend from DD
+448,2018-06-21 16:14:14.000000000,2018-07-05 19:08:39.000000000,closed,1,Adding other libraries to deepdetect API
+447,2018-06-20 12:54:40.000000000,2018-07-05 19:08:55.000000000,closed,5,Caffe2 build breaks other unit tests due to protocol buffer version conflict
+446,2018-06-19 12:11:14.000000000,2018-06-25 15:37:47.000000000,closed,2,API: return service creation parameters in GET service json
+445,2018-06-18 18:15:10.000000000,1970-01-01 00:00:00.000000001,open,32,Finetune googlenet/ Probabilities are the same
+444,2018-06-18 14:00:10.000000000,2018-06-18 15:13:14.000000000,closed,0,Fix conflict with XGBOOST
+443,2018-06-18 01:44:02.000000000,2018-07-22 21:20:15.000000000,closed,1,Caffe2 build breaks XGBoost build due to log header conflict
+442,2018-06-17 23:53:33.000000000,2018-06-18 13:15:31.000000000,closed,1,Docker GPU failure with Pascal architectures
+441,2018-06-17 14:24:36.000000000,2018-06-21 16:32:14.000000000,closed,11,running prediction on gpu 
+440,2018-06-14 17:45:51.000000000,2019-03-20 10:27:13.000000000,closed,1,Using other libraries within deepdetect
+439,2018-06-13 14:49:36.000000000,2018-07-14 12:53:21.000000000,closed,0,Test jenkins jb
+438,2018-06-13 12:48:55.000000000,2018-06-27 12:58:32.000000000,closed,1,Generalized dice loss deepdetect api
+437,2018-06-12 18:53:55.000000000,2018-06-14 20:18:01.000000000,closed,2,finetuning
+436,2018-06-12 16:04:33.000000000,2018-06-29 12:21:35.000000000,closed,0,Caffe2 unsupervised predict
+435,2018-06-10 18:52:30.000000000,2018-06-12 13:46:25.000000000,closed,0,data augmentation support for images stored in hdf5 databases with caffe
+434,2018-06-08 14:23:07.000000000,2018-06-09 09:34:19.000000000,closed,0,added mltype variable to GET /info and GET /services calls.
+433,2018-06-07 22:17:31.000000000,2018-06-11 14:25:51.000000000,closed,1,Added crop_width and crop_height optional Caffe predict params
+432,2018-06-07 04:10:14.000000000,2018-06-07 19:08:50.000000000,closed,4,Removed extra section that subtracted mean scalar values from the dat…
+431,2018-06-05 17:04:20.000000000,2018-06-12 13:26:20.000000000,closed,15,"Error ""dd_code"":1007 while training an image classifier"
+430,2018-06-04 17:13:03.000000000,2018-06-05 13:50:18.000000000,closed,0,fixed mean subtraction to image when using Caffe model without mean.binaryproto
+429,2018-06-01 16:46:59.000000000,2018-06-05 14:25:06.000000000,closed,0,Added 'status:true' parameter to API GET /info calls 
+428,2018-05-30 19:15:30.000000000,2018-05-30 19:15:36.000000000,closed,0,Caffe+CUDA requires CUDA version 8.0.61 or greater
+427,2018-05-30 12:13:00.000000000,2018-05-30 13:58:07.000000000,closed,0,fixed rotate and mirror options with dense image processing / segmentation
+426,2018-05-29 19:59:10.000000000,2018-05-30 13:58:23.000000000,closed,0,CUDA libs linking fix with cmake
+425,2018-05-29 18:21:34.000000000,2018-06-27 13:11:18.000000000,closed,1,Object detection/classification with Dlib
+424,2018-05-28 12:16:17.000000000,2018-06-11 13:37:55.000000000,closed,10,Image classification with caffe2 backend
+423,2018-05-24 12:51:56.000000000,2018-06-25 16:58:09.000000000,closed,4,Dice loss api
+422,2018-05-23 18:32:38.000000000,2018-05-24 12:47:38.000000000,closed,1,Travis debug gpu 2
+421,2018-05-23 17:41:20.000000000,2018-05-24 12:49:14.000000000,closed,0,Multi label regression threshold
+420,2018-05-23 15:49:45.000000000,2019-03-20 10:27:30.000000000,closed,0,Bad Request Error (dd_code:1006) while training the model through transfer learning on GoogleNet
+419,2018-05-23 14:19:46.000000000,2018-05-23 16:31:05.000000000,closed,0,Multi label regression no 0 metrics 
+418,2018-05-22 20:31:20.000000000,2018-06-06 15:54:19.000000000,closed,0,Audio data training via float storage in cv::Mat
+417,2018-05-22 00:18:41.000000000,2018-05-23 13:44:33.000000000,closed,7,Check failed (custom): (axis_index) < (num_axes())
+416,2018-05-21 18:32:27.000000000,2018-06-06 15:54:21.000000000,closed,0,add support for option IMREAD_UNCHANGED
+415,2018-05-21 16:57:54.000000000,2018-05-21 17:46:15.000000000,closed,0,Allow cross origin '*' returned by dd server (optional at server startup)
+414,2018-05-21 16:15:59.000000000,2018-05-22 11:53:04.000000000,closed,0,Added support for softmax temperature scaling through API.
+413,2018-05-18 14:30:40.000000000,2018-05-24 12:46:44.000000000,closed,0,tentative debug of cuda travis build
+412,2018-05-18 11:10:39.000000000,2019-03-20 10:26:44.000000000,closed,3,"How can I retrain text model "" sent_en_char.tar.bz2""?"
+411,2018-05-17 16:01:04.000000000,2018-05-18 14:28:22.000000000,closed,0,Services autostart via calls list in a file
+410,2018-05-17 01:59:42.000000000,2018-05-18 09:00:20.000000000,closed,3,What data was used to train the Russian-language sentiment analysis model? 
+409,2018-05-16 16:44:59.000000000,2018-05-21 13:47:00.000000000,closed,0,"Source code backends files for Caffe, XGBoost, Tensorflow and TSNE in separated directories"
+408,2018-05-16 16:37:28.000000000,2018-05-16 17:23:08.000000000,closed,0,Fix to change in xgboost libdmcl name
+407,2018-05-15 17:17:59.000000000,2018-05-18 14:30:25.000000000,closed,1,eigen version of multi label soft proba metrics
+406,2018-05-14 20:11:08.000000000,2018-05-18 14:20:28.000000000,closed,0,OCR training with CTC-CNN+LSTM
+405,2018-05-02 10:34:18.000000000,2018-05-02 10:40:59.000000000,closed,3,Installation Getting Failed at RunTest
+404,2018-04-30 20:23:34.000000000,2018-05-01 11:11:16.000000000,closed,0,fixed xgboost build due to xgboost C++ data structure changes
+403,2018-04-30 17:42:07.000000000,2018-05-21 13:39:23.000000000,closed,1,tentative of light CUDA travis build
+402,2018-04-30 15:09:00.000000000,2018-05-01 09:38:22.000000000,closed,1,No able to run DEDE server
+401,2018-04-30 13:56:23.000000000,2018-04-30 20:24:47.000000000,closed,0,Add base64 support to DeepDetect client
+400,2018-04-21 13:36:19.000000000,2018-04-21 13:39:39.000000000,closed,0,"fixed logger init at service level, ref #399"
+399,2018-04-20 11:37:46.000000000,2018-04-23 14:11:05.000000000,closed,4,Service launched with vocab in folder makes core dump
+398,2018-04-19 17:24:49.000000000,2018-04-21 13:27:15.000000000,closed,1,"DeepDetect HTTP server dumps: Error parsing text-format caffe.NetParameter, in create service request"
+397,2018-04-18 15:36:29.000000000,2018-04-18 19:50:57.000000000,closed,0,Using random skipping when resuming training with Dense and ImageData Caffe layers
+396,2018-04-16 20:10:48.000000000,2018-04-18 13:31:12.000000000,closed,0,"much better distance correlation, do not saturate ram"
+395,2018-04-09 20:02:46.000000000,2018-04-13 08:15:28.000000000,closed,1,Multi label soft : debug + other version of distance correlation
+394,2018-04-03 21:37:07.000000000,2018-04-12 16:03:23.000000000,closed,1,Multi soft label training with Caffe backend
+393,2018-03-30 14:19:12.000000000,2018-04-03 21:37:25.000000000,closed,1,Multi label soft
+392,2018-03-22 16:09:26.000000000,2018-04-13 08:17:16.000000000,closed,0,Removed #TODO
+391,2018-03-21 14:11:06.000000000,2018-03-21 22:33:57.000000000,closed,0,Per class accuracy now reported in GET /train output JSON
+390,2018-03-21 13:44:46.000000000,2018-03-22 14:34:14.000000000,closed,0,Support for ENet / embedded semantic segmentation net
+389,2018-03-20 18:39:56.000000000,2018-03-21 14:03:57.000000000,closed,0,fixed xgboost back-end
+388,2018-03-20 18:00:31.000000000,2018-04-03 19:34:18.000000000,closed,0,Logger refactoring / one logger per service
+387,2018-03-13 17:33:42.000000000,2018-03-13 18:21:22.000000000,closed,0,Meaniou debug
+386,2018-03-10 04:03:38.000000000,2018-03-15 01:34:37.000000000,closed,4,Fail To Link gflag
+385,2018-03-09 22:13:52.000000000,2018-05-03 21:01:22.000000000,closed,9,docker beniz/deepdetect_cpu image getting internal error in predict request
+384,2018-03-08 19:26:34.000000000,2018-03-08 20:03:29.000000000,closed,2,Fix calculation of estimated remain_time if remain_time is not available
+383,2018-03-08 19:14:46.000000000,2018-05-01 09:39:29.000000000,closed,4,crash when `remain_time` is not available
+382,2018-03-07 10:07:42.000000000,1970-01-01 00:00:00.000000001,open,0,Segmentation training fails to initialize on multi-GPU with Caffe backend
+381,2018-02-27 21:44:59.000000000,2018-03-09 23:51:51.000000000,closed,0,Image multi-label training with Caffe backend
+380,2018-02-25 15:51:26.000000000,2018-02-27 21:45:15.000000000,closed,0,JSON output now reports estimated remaining time of training jobs
+379,2018-02-21 15:10:39.000000000,2018-02-21 17:10:54.000000000,closed,1, added inception21K model to README.md
+378,2018-02-10 15:31:40.000000000,2018-02-14 16:27:52.000000000,closed,1,Only indexing needs a template set.
+377,2018-02-02 17:23:45.000000000,2018-02-05 15:07:50.000000000,closed,1,sgdr 
+376,2018-02-01 22:42:56.000000000,2018-02-02 13:52:58.000000000,closed,0,Added batched commits to db in similarity search at indexing step
+375,2018-01-31 01:18:12.000000000,2018-01-31 01:48:26.000000000,closed,6,Training data with docker deepdetect
+374,2018-01-29 22:29:07.000000000,2018-01-30 18:14:18.000000000,closed,0,Resized output segmentation labels + image size in output json
+373,2018-01-26 16:42:34.000000000,2018-01-31 19:26:44.000000000,closed,0,Built-in image object detection and similarity search
+372,2018-01-23 14:43:52.000000000,2018-02-19 15:30:16.000000000,closed,0,Support for inference with connectionist temporal classification (CTC) with caffe
+371,2018-01-18 11:12:14.000000000,2019-03-20 10:27:52.000000000,closed,4,"No patch step for ""caffe_dd"""
+370,2018-01-15 13:02:24.000000000,2018-01-15 13:05:50.000000000,closed,1,"I have just installed deepdetect on ubuntu 14.04. when I run the server I get an error message ""DeepDetect [ commit 12468b9faef12cdb0e0423959aba50095cf15667 ]  INFO - 13:26:47 - Running DeepDetect HTTP server on localhost:8080 terminate called after throwing an instance of 'boost::exception_detail::clone_impl<boost::exception_detail::error_info_injector<std::runtime_error> >'   what():  Error binding to socket. Aborted (core dumped)"". How to resolve this? Thanks in advance."
+369,2018-01-11 19:29:14.000000000,2018-01-12 10:44:43.000000000,closed,0,Travis multi-build
+368,2018-01-10 19:39:27.000000000,2018-01-10 20:24:15.000000000,closed,0,Added support for Amsgrad optimizer (fix to Adam)
+367,2018-01-08 21:47:06.000000000,2018-01-17 22:15:20.000000000,closed,0,Object similarity search
+366,2018-01-04 18:32:49.000000000,2018-01-17 22:55:32.000000000,closed,0,Built-in similarity search via neural embeddings
+365,2018-01-04 15:50:34.000000000,2018-01-10 21:01:58.000000000,closed,0,Building with Tensorflow 1.4
+364,2017-12-31 13:31:16.000000000,1970-01-01 00:00:00.000000001,open,1,wrong url github for xgboost when running cmake
+363,2017-12-15 02:49:47.000000000,2018-05-01 09:40:27.000000000,closed,15,prediction config for libsvm line (xgboost)
+362,2017-12-03 23:32:38.000000000,2017-12-04 23:11:36.000000000,closed,5,Custom input data from mobile robot
+361,2017-11-28 16:24:33.000000000,2017-12-15 09:57:36.000000000,closed,4,Empty sample in SVM file
+360,2017-11-28 16:03:11.000000000,2017-12-28 11:30:39.000000000,closed,7,gamma & stepsize need to be specified to Caffe backend
+359,2017-11-02 18:04:09.000000000,2017-12-03 21:12:32.000000000,closed,6,Using pip-installed TensorFlow
+358,2017-10-31 12:42:52.000000000,1970-01-01 00:00:00.000000001,open,1,https://github.com/terrychenism/ResNeXt link is broken
+357,2017-10-24 15:52:36.000000000,2017-12-03 21:12:48.000000000,closed,1,another trained model
+356,2017-10-19 17:36:17.000000000,1970-01-01 00:00:00.000000001,open,15,Inconsistent output of models created in Digits loaded into Deep-detect
+355,2017-10-06 18:44:08.000000000,2018-02-25 15:51:42.000000000,closed,1,Print estimated time of training
+354,2017-10-04 16:56:21.000000000,2018-07-23 16:12:39.000000000,closed,1,Training log dump after training
+353,2017-09-28 17:29:56.000000000,2017-09-28 23:19:49.000000000,closed,1,Add template for VDCNN with 17 layers
+352,2017-09-26 06:27:37.000000000,2017-09-28 23:23:12.000000000,closed,1,some suggestions to construct a mnist demo to classify
+351,2017-09-18 09:14:53.000000000,2017-09-18 10:57:05.000000000,closed,1,where can i find the dataset for clothes
+350,2017-09-06 11:42:50.000000000,2017-09-08 16:58:01.000000000,closed,0,"Detecting directory of data when training from text, allowing test set detection"
+349,2017-09-06 08:59:40.000000000,2017-09-11 17:11:49.000000000,closed,0,Forcing shuffle on text and images with Caffe backend
+348,2017-09-05 18:53:11.000000000,2017-09-08 16:59:01.000000000,closed,8,Cannot indicate a Train and a Test folder using txt connector
+347,2017-09-05 17:28:32.000000000,2017-09-11 17:11:57.000000000,closed,6,Parameter `shuffle` should not be set to False for txt and image connectors
+346,2017-09-01 11:08:31.000000000,2017-09-01 12:01:29.000000000,closed,0,XGBoost CPU & GPU build fixes
+345,2017-08-31 10:43:41.000000000,2017-09-01 12:02:09.000000000,closed,0,[Fix] Bazel uses org_tensorflow directory for tf build
+344,2017-08-24 12:23:25.000000000,2017-09-01 11:46:22.000000000,closed,1,Catch error when svm line is empty
+343,2017-08-24 12:13:28.000000000,2017-09-01 11:46:54.000000000,closed,4,Empty SVM line makes DD dump
+342,2017-08-23 07:00:40.000000000,2017-08-23 10:57:25.000000000,closed,1,Tensorflow model for age detection
+341,2017-08-17 01:47:47.000000000,2017-08-17 16:57:02.000000000,closed,1,Delete .gitignore~
+340,2017-08-05 16:29:40.000000000,2017-08-05 16:53:32.000000000,closed,0,VDCNN template for text classification
+339,2017-07-24 16:20:45.000000000,2017-07-24 17:00:43.000000000,closed,1,SVM connector - appending 1 to the max number of features
+338,2017-07-20 13:50:32.000000000,2017-08-18 07:07:05.000000000,closed,5,Support for customized  Layer in caffe?
+337,2017-07-18 17:36:51.000000000,2017-07-24 16:24:45.000000000,closed,0,TSNE from text data
+336,2017-07-15 10:27:38.000000000,2017-07-15 10:52:35.000000000,closed,2,Service Bad Request Error
+335,2017-07-14 07:04:56.000000000,2017-07-15 10:52:48.000000000,closed,1,make error on ubuntu  failed
+334,2017-07-12 18:23:57.000000000,2017-07-21 12:39:12.000000000,closed,1,add service creation option in dd_bench.py
+333,2017-07-07 16:31:43.000000000,2017-07-07 17:06:41.000000000,closed,0,fix vgg19 link in readme
+332,2017-07-04 13:32:40.000000000,2017-07-06 17:09:42.000000000,closed,3,Finetuning - using feature top name instead of top name
+331,2017-07-03 18:54:31.000000000,2017-07-04 20:14:47.000000000,closed,1,Use weights parameter to load already existing caffemodel
+330,2017-07-03 18:53:44.000000000,2017-07-04 20:12:15.000000000,closed,2,`weights` parameter seems not to be used
+329,2017-06-28 17:25:20.000000000,2017-07-06 17:27:53.000000000,closed,1,"add Travis, fix regression issue caused by #276"
+328,2017-06-27 17:16:59.000000000,2017-06-28 16:33:41.000000000,closed,1,"add Travis with no test script, fix eigen3"
+327,2017-06-21 18:09:41.000000000,2017-06-26 19:17:36.000000000,closed,2,Travis with no test
+326,2017-06-15 13:22:31.000000000,1970-01-01 00:00:00.000000001,open,0,SeLU activations from https://arxiv.org/abs/1706.02515 (Self-Normalizing Nets)
+325,2017-06-12 19:28:20.000000000,1970-01-01 00:00:00.000000001,open,15,Yahoo open_nsfw model
+324,2017-06-12 03:18:12.000000000,2017-06-13 17:43:47.000000000,closed,3,CPU Docker XGBoost Error
+323,2017-06-08 16:24:25.000000000,1970-01-01 00:00:00.000000001,open,0,Support for Tensorflow SyntaxNet in prediction
+322,2017-06-01 12:30:30.000000000,2017-06-01 12:48:30.000000000,closed,2,I have enough memory but i still get memory issue 
+321,2017-06-01 09:11:05.000000000,2017-06-01 11:15:59.000000000,closed,1,Problem with image as base64
+320,2017-06-01 02:39:53.000000000,2017-06-01 18:18:10.000000000,closed,0,CSV input connector categoricals + file reading in prediction fix
+319,2017-05-30 17:31:28.000000000,2017-05-31 15:51:07.000000000,closed,14,Error building DD on Jetson TX2
+318,2017-05-29 12:47:18.000000000,2017-05-30 15:07:04.000000000,closed,13,Build with gpu fails on ubuntu 16.04
+317,2017-05-27 11:18:11.000000000,2017-05-29 12:33:15.000000000,closed,3,"Build is failed, i get error"
+316,2017-05-20 00:35:06.000000000,2017-05-20 12:11:15.000000000,closed,1,MemoryData does not transform array data on Reset() with CPU
+315,2017-05-19 18:18:13.000000000,2017-05-20 12:04:12.000000000,closed,0,added automated creation of XGB feature map file 'model.fmap' when training from CSV
+314,2017-05-19 15:27:58.000000000,2017-05-19 15:28:26.000000000,closed,0,CSV pre-processing: non numerical inputs undeclared as categorical or ignored now yields an error
+313,2017-05-18 01:48:40.000000000,1970-01-01 00:00:00.000000001,open,5,Caffe services are not using any mean.binaryproto files
+312,2017-05-15 14:10:14.000000000,2017-05-15 14:11:13.000000000,closed,0,README Typo for objdetect
+311,2017-05-15 13:37:53.000000000,2017-05-20 12:16:17.000000000,closed,2,Minor typo in README
+310,2017-05-14 20:53:20.000000000,2017-05-14 21:07:58.000000000,closed,1,What does this warning says?
+309,2017-05-13 11:29:52.000000000,2017-05-14 21:08:34.000000000,closed,1,read ECONNRESET
+308,2017-05-12 14:22:37.000000000,2017-05-12 21:35:06.000000000,closed,0,service cc mllib bad param: no deploy file in /home/xxx/models/ages/imdbAge for initializing the net
+307,2017-05-11 18:27:44.000000000,2017-05-11 18:31:21.000000000,closed,2,"can i load extension .caffemodel in parameter ""repository""?"
+306,2017-05-11 13:52:02.000000000,2017-05-11 14:07:27.000000000,closed,6,"When i am trying to test the age library i get error: ""Check failed (custom): (height) <= (datum_height)""}"
+305,2017-05-10 00:47:46.000000000,2017-05-10 20:19:53.000000000,closed,7,info.labels.size error on xgboost
+304,2017-05-02 11:17:35.000000000,2017-05-02 11:31:56.000000000,closed,1,Cannot turn json output using custom format
+303,2017-05-01 18:47:08.000000000,2017-05-01 20:48:13.000000000,closed,0,Added support to single boolean input flag to TF graph
+302,2017-04-28 13:31:07.000000000,1970-01-01 00:00:00.000000001,open,2,"core dump: w/ lregression, cpu and svm (works on gpu)"
+301,2017-04-27 19:02:18.000000000,2017-04-28 13:36:43.000000000,closed,2,i just run quickstart in ubuntu 16.10.
+300,2017-04-27 18:56:56.000000000,2017-04-27 19:09:16.000000000,closed,0,i just run quickstart in ubuntu 16
+299,2017-04-27 13:27:55.000000000,1970-01-01 00:00:00.000000001,open,5,"Issue using GPUID =1, unable to make predictions"
+298,2017-04-26 13:41:11.000000000,2017-04-26 13:42:50.000000000,closed,0,GPU build control for Caffe and Tensorflow
+297,2017-04-25 20:48:03.000000000,2017-04-29 20:11:19.000000000,closed,0,Fixed cropping and network size changes with Caffe
+296,2017-04-25 12:41:30.000000000,2017-04-26 13:45:12.000000000,closed,0,Gpu build control for Caffe and Tensorflow
+295,2017-04-24 20:28:32.000000000,2017-04-25 15:44:31.000000000,closed,6,db:true on service results in Data layer prefetch queue empty
+294,2017-04-24 09:56:26.000000000,2017-04-24 12:09:02.000000000,closed,1,Run on OSX 10.12.4
+293,2017-04-21 20:28:38.000000000,2017-05-04 17:49:52.000000000,closed,2,Python dd_client
+292,2017-04-20 22:36:16.000000000,2017-09-03 13:48:44.000000000,closed,1,Dockerfiles for CPU or GPU builds with Caffe+TF
+291,2017-04-20 11:46:10.000000000,1970-01-01 00:00:00.000000001,open,3,Caffe2 support?
+290,2017-04-18 15:55:45.000000000,2017-04-20 18:35:10.000000000,closed,22,GPU Docker image fails on prediction call (GTX1080)
+289,2017-04-12 05:12:54.000000000,2017-04-26 13:44:16.000000000,closed,19,"Building DeepDetect with GPU/CUDA only for Tensorflow, CPU for Caffe"
+288,2017-04-10 22:48:10.000000000,1970-01-01 00:00:00.000000001,open,1,DeepDetect server can't directly post and index the predicted categories into ElasticSearch
+287,2017-04-10 22:17:50.000000000,2017-10-06 14:14:12.000000000,closed,8,1005 Error DeepDetect 1.2 AMI P2.xlarge
+286,2017-04-07 23:24:59.000000000,2017-04-10 20:56:36.000000000,closed,1,OpenImages TF model update to use a sigmoid instead of softmax layer
+285,2017-04-04 20:41:57.000000000,2017-04-05 11:51:30.000000000,closed,0,Full support for Multi-GPUs training with Caffe backend
+284,2017-03-31 09:29:51.000000000,2017-03-31 12:51:24.000000000,closed,2,Image prediction from direct image upload in POST request
+283,2017-03-27 21:49:29.000000000,2017-03-28 08:31:25.000000000,closed,1,Object detection demo openCV returns error
+282,2017-03-27 18:19:20.000000000,2017-03-27 19:24:41.000000000,closed,4,DeepDetect does not detect Nonexistent paths
+281,2017-03-24 17:15:03.000000000,2017-03-29 22:11:56.000000000,closed,0,T-SNE multi-threaded backend
+280,2017-03-24 00:15:57.000000000,2017-03-24 19:07:09.000000000,closed,2,libcurlpp.so.1 not found in latest Docker build
+279,2017-03-22 11:49:00.000000000,2017-04-09 21:43:15.000000000,closed,12,"Could not find package configuration file provided by ""Eigen3"" "
+278,2017-03-17 22:18:48.000000000,2017-03-29 12:22:16.000000000,closed,20,Jetson TX2 issues running DeDe
+277,2017-03-17 19:38:02.000000000,2017-03-23 16:25:26.000000000,closed,0,Ability to predict from lmdb database with Caffe backend
+276,2017-03-15 00:14:52.000000000,2018-01-04 15:35:21.000000000,closed,15,Fix eigen3 cmake
+275,2017-03-14 18:00:03.000000000,2017-05-12 14:06:22.000000000,closed,0,Issue with liblmdb when dataset is too big
+274,2017-03-13 21:57:13.000000000,2017-03-23 17:02:31.000000000,closed,0,"Network Generators (MLP, Convnets, Resnets, ...) for Text, Character-based, Sparse inputs, Images, CSV and SVM data"
+273,2017-03-13 19:46:19.000000000,2019-03-20 10:29:40.000000000,closed,14,Use TF trained model
+272,2017-03-13 13:01:48.000000000,2017-03-20 11:12:03.000000000,closed,2,make error on ubuntu
+271,2017-03-10 06:28:41.000000000,2017-03-10 18:34:27.000000000,closed,4,Cannot find -lcaffe
+270,2017-03-09 16:40:54.000000000,2017-04-25 10:06:14.000000000,closed,7,Curl POST for classification does not upload image file on pc it works for files on web
+269,2017-03-07 16:06:46.000000000,2017-03-09 13:40:48.000000000,closed,1,unzip needed when compiling DD along with xgboost support
+268,2017-03-01 03:26:37.000000000,2017-03-01 12:38:15.000000000,closed,9,TEXT n20 training crashed DD. (core dumped)
+267,2017-02-24 18:45:16.000000000,2017-02-24 18:50:48.000000000,closed,1,"Error while proceeding with prediction forward pass, not enough memory?"
+266,2017-02-20 01:24:56.000000000,2017-02-20 21:47:19.000000000,closed,1,Added issue template in the root directory.
+265,2017-02-16 21:44:51.000000000,2017-02-27 18:45:46.000000000,closed,0,Mini server benchmark for image services
+264,2017-02-16 21:42:47.000000000,2017-02-17 22:28:28.000000000,closed,1,Build succeed with a GTX 1080 but DeepDetect is unusable
+263,2017-02-16 07:18:50.000000000,1970-01-01 00:00:00.000000001,open,11,Unable to build against libcurlpp 0.7.3.6
+262,2017-02-15 15:02:13.000000000,1970-01-01 00:00:00.000000001,open,0,Malformed client headers has the server return HTML 400
+261,2017-02-15 11:58:34.000000000,2017-02-16 15:22:06.000000000,closed,0,Reporting net's flops and number of parameters for Caffe models
+260,2017-02-12 20:56:31.000000000,2017-02-12 21:23:45.000000000,closed,2,Command Line returns result set but Predict API does not return result.
+259,2017-02-10 18:46:34.000000000,2018-07-17 17:50:39.000000000,closed,5,Boundingbox demo - located in /demo/boundingbox/
+258,2017-02-10 18:44:00.000000000,2017-02-10 18:44:36.000000000,closed,0,Boundingbox demo - located inside /demo/boundingbox/
+257,2017-02-09 21:15:50.000000000,2017-02-09 21:49:34.000000000,closed,1,Data preparation for Character-level CNN
+256,2017-02-07 18:35:00.000000000,2017-02-07 19:19:22.000000000,closed,2,Failed to compile on Ubuntu 14.04 due to gcc<5 (4.9.4)
+255,2017-02-05 18:57:14.000000000,2017-03-08 14:14:45.000000000,closed,1,support for TF 1.0
+254,2017-02-03 22:01:52.000000000,2017-02-16 15:23:03.000000000,closed,2,"XGBoost GPU support, ref #248"
+253,2017-02-03 21:18:28.000000000,2018-07-13 16:20:58.000000000,closed,0,"add client js library, adapt imgdetect demo to use client js library - #242"
+252,2017-02-03 19:20:54.000000000,2017-02-08 19:17:01.000000000,closed,0,"update to XGBoost parameters via API, ref #249"
+251,2017-02-03 15:29:59.000000000,2017-02-07 13:39:14.000000000,closed,0,Fix issue on imgdetect #244
+250,2017-02-02 19:46:08.000000000,2017-02-02 20:12:09.000000000,closed,1,Adding classes to existing image classifier model
+249,2017-02-02 16:33:40.000000000,2017-02-10 11:53:21.000000000,closed,2,Up to date support of XGBOOST parameters
+248,2017-02-02 16:23:00.000000000,2017-02-16 15:23:49.000000000,closed,2,GPU support for XGBoost
+247,2017-02-02 14:52:06.000000000,2017-02-03 11:45:24.000000000,closed,3,Inception network with Tensorflow - example not working
+246,2017-02-01 14:15:27.000000000,2017-02-07 11:05:49.000000000,closed,8,segmentation fault while training image
+245,2017-01-30 19:11:04.000000000,1970-01-01 00:00:00.000000001,open,1,"Docker, api gateway and queues related questions"
+244,2017-01-30 11:21:27.000000000,2017-02-07 13:39:34.000000000,closed,5,Demo imgdetect with Nginx setup does not return predict result.
+243,2017-01-28 09:56:15.000000000,2017-01-29 21:57:37.000000000,closed,3,Sparse Layer
+242,2017-01-24 21:20:33.000000000,1970-01-01 00:00:00.000000001,open,0,Javascript prediction client
+241,2017-01-18 07:17:22.000000000,2017-01-21 13:26:19.000000000,closed,3, how to configure cross-origin resource sharing (CORS) using dede predict API ?
+240,2017-01-13 10:36:55.000000000,2017-01-13 10:37:15.000000000,closed,0,"adding supervised classification confidence control, ref #239"
+239,2017-01-13 03:06:51.000000000,2017-01-13 10:38:03.000000000,closed,2,confidence_threshold seems to be ignored
+238,2017-01-13 02:16:04.000000000,2017-01-13 10:27:36.000000000,closed,0,fixed supervised output best=-1 with TF
+237,2017-01-12 07:17:21.000000000,2017-01-12 16:08:06.000000000,closed,1,Does the project make Caffe easier?
+236,2017-01-12 03:54:42.000000000,2019-03-20 10:28:46.000000000,closed,3,Support for mxnet
+235,2017-01-11 20:49:31.000000000,2017-01-12 04:04:27.000000000,closed,0,PLEASE IGNORE
+234,2017-01-11 15:55:32.000000000,2017-03-08 18:15:32.000000000,closed,2,Support for Tensorflow 1.0 (starting with alpha)
+233,2017-01-10 02:05:44.000000000,2017-02-10 19:19:10.000000000,closed,8,"Train ssd_300 Message type ""caffe.TransformationParameter"" has no field named ""distort_param"" "
+232,2017-01-09 20:00:06.000000000,2017-01-09 20:06:21.000000000,closed,1,model for get number of a image
+231,2017-01-07 08:44:36.000000000,1970-01-01 00:00:00.000000001,open,19," 'tensorflow/src/tensorflow/dbuild/execroot/tensorflow/bazel-out/local_linux-opt/bin/tensorflow/cc/libcc_ops.lo', needed by 'main/dede'"
+230,2017-01-03 20:28:38.000000000,1970-01-01 00:00:00.000000001,open,3,Unsafe use of Tensorflow and Caffe on same DeepDetect server / GPU
+229,2016-12-29 22:04:55.000000000,2016-12-30 04:31:11.000000000,closed,2,Unable to build - Failed with CurlPP
+228,2016-12-27 20:38:06.000000000,2017-02-06 17:14:05.000000000,closed,5,fix XFS issue
+227,2016-12-19 19:24:28.000000000,1970-01-01 00:00:00.000000001,open,1,Unable to build against cpp-netlib 0.13-release branch
+226,2016-12-19 15:34:35.000000000,2017-01-30 11:10:07.000000000,closed,7,"when i train my model use dede-docker-gpu, "".../caffelib.cc:1730: exception while forward/backward pass through the network"""
+225,2016-12-14 14:09:57.000000000,2016-12-14 15:13:42.000000000,closed,2,svm + class_weights + nclasses=16
+224,2016-12-12 19:37:08.000000000,2016-12-16 20:53:56.000000000,closed,2,Problem using multiple GPUs on a pretrained model
+223,2016-12-11 19:06:08.000000000,2016-12-12 11:51:01.000000000,closed,7,voc0712_dd.tar.gz model corrupt?
+222,2016-12-07 04:09:08.000000000,2017-02-10 19:19:33.000000000,closed,1,Yolo & GenerativePredictableVoxels
+221,2016-12-02 08:32:32.000000000,2016-12-02 09:01:01.000000000,closed,1,Fix _best overwritten by bbox
+220,2016-12-02 08:18:05.000000000,2016-12-02 09:02:46.000000000,closed,1,Fix _best parameter overwritted by bbox
+219,2016-12-02 07:18:59.000000000,2016-12-02 09:01:39.000000000,closed,2,Best argument overwritten when predicting
+218,2016-11-28 14:02:51.000000000,2016-11-28 16:26:13.000000000,closed,0,Number of classes fix in sparse logistic regression for #215 #216
+217,2016-11-27 00:32:25.000000000,2016-11-27 02:36:20.000000000,closed,3,Error while building dd branch of Caffe
+216,2016-11-25 22:36:28.000000000,2016-11-28 16:27:57.000000000,closed,5,lregression predict 'out of class' category
+215,2016-11-25 21:53:53.000000000,2016-11-28 16:26:15.000000000,closed,2,'class_weight' does not work with 'lregression'
+214,2016-11-22 06:14:12.000000000,2016-11-22 11:17:05.000000000,closed,1,Docker Image installation
+213,2016-11-22 00:31:19.000000000,2016-11-30 21:08:38.000000000,closed,0,SSD: Single Shot MultiBox Detector for prediction with DD
+212,2016-11-16 16:54:01.000000000,2016-11-17 13:57:26.000000000,closed,4,Error: cannot find -lopencv_dep_cudart
+211,2016-11-05 18:32:43.000000000,2016-11-07 10:12:14.000000000,closed,0,Fixes compatibility with gcc6
+210,2016-11-04 22:58:08.000000000,1970-01-01 00:00:00.000000001,open,23,Build error on Fedora
+209,2016-11-04 17:38:01.000000000,2016-11-04 20:49:30.000000000,closed,0,Support for prediction from Tensorflow image models
+208,2016-10-28 00:41:53.000000000,2016-10-28 00:58:37.000000000,closed,1,lstm support for deepdetect
+207,2016-10-27 15:15:12.000000000,2016-12-14 14:31:36.000000000,closed,4,Deepdetect crashed after 3 days of intensive prediction requests
+206,2016-10-25 19:29:54.000000000,2016-11-04 13:44:47.000000000,closed,0,Added support for `class_weights` and special Softmax loss class for Caffe with weights
+205,2016-10-25 17:16:53.000000000,1970-01-01 00:00:00.000000001,open,0,"Using Caffe back-end with `db:true` at service creation and not when training, crashes"
+204,2016-10-20 18:58:21.000000000,2016-10-21 13:25:44.000000000,closed,0,"support for API access logs in CLF, ref #203"
+203,2016-10-18 13:08:48.000000000,2016-10-21 13:25:51.000000000,closed,0,Add access logs for API calls
+202,2016-10-17 16:26:08.000000000,2016-12-06 11:51:36.000000000,closed,2,Support for training with class weights
+201,2016-10-14 20:17:08.000000000,2016-10-14 21:15:58.000000000,closed,3,Help to decrease GPU RAM when predict images 
+200,2016-10-09 15:35:30.000000000,2016-10-09 23:43:34.000000000,closed,4,Mean subtraction at inference time
+199,2016-10-03 02:20:13.000000000,2016-10-04 10:36:05.000000000,closed,5,ERR_CONTENT_DECODING_FAILED
+198,2016-10-02 22:00:27.000000000,2016-10-03 23:10:22.000000000,closed,7,Compiling inside Vagrant: undefined reference to `caffe::DecodeDatumNative(caffe::Datum*)'
+197,2016-10-01 01:45:15.000000000,2016-10-01 17:38:03.000000000,closed,7,"Can't build from source. NVIDIA Jetson TK1, Ubuntu LTS 14.05"
+196,2016-09-27 18:31:55.000000000,2016-09-29 19:43:46.000000000,closed,0,"Prediction auto-sizing of batches, ref #129"
+195,2016-09-23 16:14:42.000000000,2016-10-21 13:33:48.000000000,closed,0,Support for Matthews correlation coefficient for binary classes problems
+194,2016-09-22 14:20:45.000000000,2016-09-23 12:37:48.000000000,closed,4,"SVM format error : ""negative supervised discrete target"""
+193,2016-09-22 14:01:48.000000000,1970-01-01 00:00:00.000000001,open,0,Plateau learning rate policy
+192,2016-09-19 20:36:31.000000000,2016-10-21 13:48:32.000000000,closed,0,"adding support for multiple GPUs for Caffe via API, ref #179"
+191,2016-09-19 01:16:15.000000000,2016-09-28 20:54:38.000000000,closed,1,Switching to pool5/7x7_s1 gives an error
+190,2016-09-18 23:20:37.000000000,2018-01-04 15:35:43.000000000,closed,14,Imgsearch improvements
+189,2016-09-18 22:42:14.000000000,1970-01-01 00:00:00.000000001,open,0,Support for fasttext neural architecture
+188,2016-09-17 02:09:01.000000000,1970-01-01 00:00:00.000000001,open,1,imgsearch.py README is written for non-docker environments
+187,2016-09-17 01:45:17.000000000,2016-09-17 23:22:39.000000000,closed,2,Fixes missing packages in Dockerfile
+186,2016-09-17 01:27:59.000000000,2016-09-17 09:42:45.000000000,closed,2,Error building docker cpu image (boost package changed)
+185,2016-09-16 22:27:48.000000000,2016-09-17 09:46:28.000000000,closed,3,Running DeepDetect HTTP server on localhost:8080 but ERROR - 23:24:09 - Error opening socket.
+184,2016-09-16 16:42:57.000000000,1970-01-01 00:00:00.000000001,open,0,HTTP unit tests are failing
+183,2016-09-16 12:27:58.000000000,2016-09-17 09:45:32.000000000,closed,14,errors while running 'make'  caffe/proto/caffe_pretty_print.pb.h: No such file or directory
+182,2016-09-15 20:51:41.000000000,2016-09-16 16:34:50.000000000,closed,0,fixing predictions object not being an array when predicting over a s…
+181,2016-09-15 17:56:36.000000000,2016-09-16 20:07:44.000000000,closed,6,Add support for a `best: all` output connector parameter
+180,2016-09-14 21:16:40.000000000,2016-09-16 09:48:11.000000000,closed,0,gzip compressed server response
+179,2016-09-14 20:04:41.000000000,2016-10-23 23:03:56.000000000,closed,4,Add the possibility to use multiple GPUs
+178,2016-09-14 02:51:29.000000000,2016-09-14 19:00:28.000000000,closed,12,Prediction fails for ResNet-50 - outputs the default class
+177,2016-09-13 16:19:05.000000000,2016-09-16 16:36:31.000000000,closed,2,"`predictions` is an object when predicting over a single sample, an array when predicting over many"
+176,2016-09-13 13:57:45.000000000,2016-09-16 09:48:56.000000000,closed,13,Add support for the `Content-Encoding: gzip` content negotiation header
+175,2016-09-13 13:52:25.000000000,2016-09-13 19:24:43.000000000,closed,2,Content-Type header
+174,2016-09-12 00:43:17.000000000,2017-08-04 20:06:04.000000000,closed,2,Neural text embeddings via Caffe
+173,2016-09-08 19:43:24.000000000,2017-08-01 11:33:25.000000000,closed,3,Issue when setting layers:[2] with the svm connector
+172,2016-09-08 11:39:54.000000000,2016-11-21 11:28:05.000000000,closed,8,deploying docker version of this runs into issue on Amazon AMI Linux. Is this is known issue ?
+171,2016-09-08 11:28:46.000000000,2016-09-08 20:03:22.000000000,closed,0,XGBoost compilation failure due to change to shared_ptr in XGBoost tree
+170,2016-09-06 00:53:36.000000000,2016-09-06 14:47:59.000000000,closed,11,Accuracy score from DeDe and computed using sklearn
+169,2016-08-30 19:32:03.000000000,2016-11-21 11:28:38.000000000,closed,6,Parsing SVM files with a lot of features
+168,2016-08-26 09:32:29.000000000,2016-09-16 20:10:23.000000000,closed,2,HTTP Server doesn't bind to port
+167,2016-08-17 11:11:16.000000000,2016-08-17 12:32:01.000000000,closed,6,help with gender categorisation
+166,2016-08-15 21:55:28.000000000,2016-08-16 13:13:11.000000000,closed,2,Finetuning resnet
+165,2016-08-15 15:59:30.000000000,2016-08-15 17:12:41.000000000,closed,2,Cuda install directory not being found by deepdetect
+164,2016-08-09 14:01:27.000000000,2016-08-17 19:47:05.000000000,closed,4,"""full"" deletion of a service leads to core dump"
+163,2016-08-07 07:56:34.000000000,2016-08-07 11:43:18.000000000,closed,1,LSTM Support
+162,2016-08-07 05:22:35.000000000,1970-01-01 00:00:00.000000001,open,1,OpenCL Support
+161,2016-07-28 15:43:54.000000000,2016-09-09 19:32:56.000000000,closed,5,Autoencoder support via API + Caffe from CSV data
+160,2016-07-27 12:16:42.000000000,2016-07-28 12:29:58.000000000,closed,3,Predict returns a probability of 2.696539702293474e301 
+159,2016-07-20 15:56:45.000000000,2016-08-02 13:02:46.000000000,closed,28,Error creating network
+158,2016-07-12 23:32:34.000000000,2016-07-18 16:16:48.000000000,closed,0,New cmfull output format + unit test
+157,2016-07-07 23:08:47.000000000,2016-07-18 19:11:40.000000000,closed,8,Output format of confusion matrix (cmfull) is confusing
+156,2016-07-02 23:08:21.000000000,2016-07-18 19:12:00.000000000,closed,3,ResNet-50 out of memory on a 4GB GPU?
+155,2016-07-01 16:21:21.000000000,2016-07-18 19:11:22.000000000,closed,18,Check failed (custom): (shape[i]) <= (2147483647 / count_)
+154,2016-06-30 16:36:40.000000000,2016-06-30 22:34:30.000000000,closed,2,"Error while training resnet_32/resnet_50 - ""exception while forward/backward pass through the network"""
+153,2016-06-28 18:58:00.000000000,2018-01-04 15:36:28.000000000,closed,1,Fix cmake issue for OSX El Capitan
+152,2016-06-25 01:49:33.000000000,1970-01-01 00:00:00.000000001,open,0,Using string that start with numbers as service names or snapshot_prefixes causes issues.
+151,2016-06-24 18:46:20.000000000,2016-06-24 18:48:40.000000000,closed,0,Wrongly normalized values in non-diagonal confusion matrix entries
+150,2016-06-23 14:33:16.000000000,2016-06-23 17:25:40.000000000,closed,4,Issue with Demo of ImageClassifier 
+149,2016-06-20 10:00:10.000000000,2016-06-21 11:55:21.000000000,closed,15,Trainning is not working 
+148,2016-06-18 17:54:36.000000000,2016-06-18 19:19:22.000000000,closed,3,data_ MemoryDataLayer needs to be initialized by calling Reset --- 
+147,2016-06-16 14:59:19.000000000,2016-06-19 12:07:57.000000000,closed,2,dede server access from outside network
+146,2016-06-13 12:04:07.000000000,2016-07-18 19:12:39.000000000,closed,4,Training  Image model with the features generated after preprocessing 
+145,2016-06-10 15:39:07.000000000,2016-06-30 15:53:56.000000000,closed,20,Exception while filling up network for prediction with character-based model
+144,2016-06-09 15:45:54.000000000,2016-06-09 16:20:04.000000000,closed,2,Error in running alexnet for image similarity search
+143,2016-06-09 09:54:36.000000000,2016-09-16 20:10:58.000000000,closed,12,Training failing
+142,2016-06-06 14:15:52.000000000,2016-07-04 19:06:02.000000000,closed,1,Support for sparse computations and sparse neural network layers with (custom) Caffe
+141,2016-06-05 21:56:34.000000000,2016-06-06 12:07:20.000000000,closed,2,ResNet-152 category texts
+140,2016-06-02 12:37:36.000000000,1970-01-01 00:00:00.000000001,open,43,"Recurrent neural layers support (RNN, LSTM) via Caffe backend (Direct inputs to LSTM)"
+139,2016-06-01 06:02:29.000000000,2016-06-01 12:52:45.000000000,closed,1,Image similarity search while the model need to be trained without Tags
+138,2016-05-31 22:47:10.000000000,2016-06-30 15:54:51.000000000,closed,5,docker no deploy file in models folder for initializing the net
+137,2016-05-31 16:07:50.000000000,2016-06-30 15:55:16.000000000,closed,15,Run image similarity search demo using docker container version of deepdetect
+136,2016-05-30 23:40:55.000000000,2016-06-12 12:50:57.000000000,closed,7,Neural Networking output same value for different inputs
+135,2016-05-23 23:26:48.000000000,2016-05-24 02:22:35.000000000,closed,15,Image similary search demo : for p in classif['body']['predictions']: KeyError: 'body'
+134,2016-05-23 17:31:29.000000000,2016-05-24 02:06:51.000000000,closed,5,Add configurable parameter for INCLUDE in the modified verision of caffe
+133,2016-05-22 20:03:37.000000000,2016-05-25 09:44:52.000000000,closed,11,[libprotobuf FATAL /usr/include/google/protobuf/repeated_field.h:625] CHECK failed: (index) < (size()):
+132,2016-05-18 05:25:24.000000000,2018-01-04 15:36:12.000000000,closed,3,Image client
+131,2016-05-17 23:20:44.000000000,2016-05-18 00:12:47.000000000,closed,0,Not specifying `crop_size` should remove `crop_size` from `prototxt` Caffe file if present
+130,2016-05-17 20:58:54.000000000,1970-01-01 00:00:00.000000001,open,0,batch_size config table
+129,2016-05-17 20:54:59.000000000,2016-09-29 19:44:01.000000000,closed,2,Limiting according to batch_size during prediction phase in order to prevent GPU memory issues
+128,2016-05-17 17:52:25.000000000,2016-06-19 12:09:09.000000000,closed,5,mllib bad param: failed to locate model template templates/caffe/googlenet/.prototxt
+127,2016-05-17 17:05:59.000000000,2016-05-23 23:31:36.000000000,closed,6,Recovery from Caffe GPU memory overload on net prediction
+126,2016-05-16 11:53:52.000000000,1970-01-01 00:00:00.000000001,open,10,Building on Ubuntu 16.04 LTS
+125,2016-05-16 01:06:17.000000000,2016-05-20 21:52:06.000000000,closed,0,"build support for both OpenCV 2 and 3, including Caffe, ref #36"
+124,2016-05-14 16:11:36.000000000,2016-05-31 14:38:46.000000000,closed,2,Culblas handle
+123,2016-05-14 03:08:25.000000000,2016-05-15 01:06:51.000000000,closed,2,"DeepDetect Configuration (port, log-file)"
+122,2016-05-13 09:16:04.000000000,2016-06-01 12:54:07.000000000,closed,4,Make command failed in /deepdetect/build/ with error 'make: *** [all] Error 2'
+121,2016-05-13 05:57:57.000000000,2016-05-29 23:00:56.000000000,closed,11,Example on using custom trained models with deepdetect
+120,2016-05-13 03:11:38.000000000,2016-05-13 05:02:44.000000000,closed,2,Error 1007 python client
+119,2016-05-12 03:39:52.000000000,2016-12-06 11:51:00.000000000,closed,26,CentOS 7 cannot run image prediction example
+118,2016-05-11 13:09:17.000000000,2016-05-13 22:39:54.000000000,closed,8,Resnet model generates same similarity score with all top images in imgsearch
+117,2016-05-11 09:05:49.000000000,2016-05-11 19:56:23.000000000,closed,3,multi gpu support for search indexing
+116,2016-05-10 03:57:09.000000000,2016-09-16 20:11:24.000000000,closed,17,"ERROR - service creation mllib bad param: using template while network weights exist, remove 'template' from 'mllib' or would you like to 'finetune' instead ?"
+115,2016-05-09 22:37:50.000000000,2016-05-10 20:23:57.000000000,closed,4,Wrong URI when inputting multiple base64 images
+114,2016-05-02 15:27:03.000000000,2016-05-30 18:54:21.000000000,closed,7,Python client unicode decoding error at prediction time
+113,2016-05-01 21:32:17.000000000,2016-05-01 21:53:09.000000000,closed,1,Core dump during CSV example execution
+112,2016-04-29 15:49:33.000000000,2016-09-27 17:35:36.000000000,closed,1,Support for sparse formats in input connectors
+111,2016-04-28 18:46:30.000000000,1970-01-01 00:00:00.000000001,open,9,Daemon Crashing
+110,2016-04-28 12:18:37.000000000,2016-05-16 14:43:04.000000000,closed,1,Access to server logs in docker containers
+109,2016-04-28 06:00:24.000000000,2016-06-01 12:54:38.000000000,closed,1,Can access API from browser in LAN address like : http://192.169.1.3:8080/info ?
+108,2016-04-28 05:14:15.000000000,2016-05-18 22:57:15.000000000,closed,5,Car classification service from GoogLeNet_cars pre-trained models
+107,2016-04-27 19:47:35.000000000,2016-06-19 12:12:03.000000000,closed,4,internal error: no model for initializing the net
+106,2016-04-22 16:18:47.000000000,2016-06-19 12:10:57.000000000,closed,22,Error while running GET service info #2
+105,2016-04-18 12:17:58.000000000,2016-05-16 17:40:57.000000000,closed,13,ERROR - service myserv mllib bad param: no deploy file in ../../models/ggnet for initializing the net
+104,2016-04-16 22:39:54.000000000,1970-01-01 00:00:00.000000001,open,2,train_loss_hist NaN value in first value from job history
+103,2016-04-12 14:21:35.000000000,2016-05-01 23:01:40.000000000,closed,3,Tensorflow 
+102,2016-04-12 13:08:34.000000000,2016-04-12 13:14:45.000000000,closed,0,Tensorflow
+101,2016-04-08 11:31:47.000000000,2016-04-09 12:57:49.000000000,closed,2,unexpected quit of server
+100,2016-04-07 18:02:26.000000000,2016-04-11 12:22:53.000000000,closed,2,Add service selector on image classification frontend
+99,2016-04-05 02:37:22.000000000,2016-04-08 14:49:58.000000000,closed,27,Service creation Error
+98,2016-04-04 18:13:40.000000000,2018-01-04 15:35:54.000000000,closed,4,C# API client
+97,2016-04-04 13:50:42.000000000,2016-04-04 17:03:54.000000000,closed,1,"Add cmake dependency, add missing 'cd build' command"
+96,2016-04-01 16:38:11.000000000,2016-04-20 19:25:13.000000000,closed,2,Image similary search demo - imgsearch.py
+95,2016-04-01 10:24:47.000000000,2016-04-11 12:23:29.000000000,closed,1,Add service selection to image classification frontend
+94,2016-03-29 21:16:37.000000000,2016-03-29 22:17:27.000000000,closed,3,Image search similary demo error
+93,2016-03-28 17:04:02.000000000,2016-04-05 18:00:57.000000000,closed,7,Deserialize JSON output
+92,2016-03-27 13:20:13.000000000,2016-06-19 12:11:36.000000000,closed,5,Using Deepdetect for personal / face data image search
+91,2016-03-26 18:19:48.000000000,2016-03-28 12:04:25.000000000,closed,1,measure_hist parameter gives inconsistent number of train loss history data points
+90,2016-03-26 16:27:44.000000000,2016-03-26 19:31:11.000000000,closed,7,Server crashes when you use more than three services
+89,2016-03-23 00:52:07.000000000,2016-11-04 20:51:51.000000000,closed,16,"Support for inception-type architectures (v3, v4) / pre-trained models"
+88,2016-03-22 16:48:46.000000000,2016-03-27 22:44:16.000000000,closed,4,"Error Message type ""caffe.SolverParameter"" has no field named ""name""."
+87,2016-03-20 21:57:04.000000000,2016-03-21 23:21:52.000000000,closed,1,Python client post_train needs service name as lowercase
+86,2016-03-10 00:12:13.000000000,2016-03-22 20:01:48.000000000,closed,0,Support for labeled data on POST /predict call
+85,2016-03-09 20:50:16.000000000,2016-03-10 22:48:56.000000000,closed,7,More information about gender classification
+84,2016-03-09 20:09:41.000000000,1970-01-01 00:00:00.000000001,open,8,Discussion on convergence and memory requirements using ResNet 
+83,2016-03-09 13:41:58.000000000,2016-03-14 01:01:30.000000000,closed,0,Memory saving in reading of character-based datasets
+82,2016-03-08 19:43:38.000000000,1970-01-01 00:00:00.000000001,open,0,Normalizing TFIDF & Counting steps
+81,2016-03-08 06:28:03.000000000,2016-03-08 11:48:32.000000000,closed,1,Binary classifier experiment.
+80,2016-03-07 00:05:16.000000000,2016-03-08 11:52:37.000000000,closed,4,making client API compatible with python3
+79,2016-03-05 02:43:25.000000000,2016-11-01 11:27:43.000000000,closed,2,DeepDetect on Startup
+78,2016-03-04 23:48:58.000000000,2016-03-05 02:57:25.000000000,closed,1,Caffe recent update breaks ResNet models
+77,2016-03-04 04:17:18.000000000,2016-03-04 13:31:13.000000000,closed,1,Labels to other languages
+76,2016-03-02 08:56:54.000000000,2016-03-02 11:50:23.000000000,closed,1,fix spelling mistake
+75,2016-03-01 08:36:04.000000000,2016-03-01 10:25:07.000000000,closed,2,"Could not find a package configuration file provided by ""Eigen3"" with any   of the following names:"
+74,2016-02-27 22:45:38.000000000,2016-04-21 19:26:41.000000000,closed,6,Support for SqueezeNet architecture
+73,2016-02-27 12:37:13.000000000,2016-03-08 12:04:27.000000000,closed,4,"Example of image similarity search with both indexing and searching, based on Deep Convolutional Net"
+72,2016-02-26 04:46:40.000000000,2016-03-08 12:39:45.000000000,closed,16,Request on docker build
+71,2016-02-24 18:33:03.000000000,2018-10-16 23:57:38.000000000,closed,30,Install deepdetect on CentOS
+70,2016-02-23 22:30:58.000000000,1970-01-01 00:00:00.000000001,open,26,Building on os x 10.11.3 el capitan
+69,2016-02-23 15:00:58.000000000,2016-02-23 16:47:37.000000000,closed,2,Issue to create BW analysis service
+68,2016-02-23 01:57:24.000000000,2016-02-24 12:22:19.000000000,closed,3,Return wrong URI on prediction
+67,2016-02-21 11:07:22.000000000,2016-02-27 12:26:49.000000000,closed,0,binarized unsupervised output with 'binarized' boolean API parameter
+66,2016-02-17 19:30:55.000000000,2016-02-23 16:26:41.000000000,closed,5,Out of memory for training ResNet-50
+65,2016-02-14 06:50:03.000000000,2016-02-14 15:33:28.000000000,closed,6,Bad request on the web demo
+64,2016-02-12 16:09:54.000000000,2016-02-12 20:38:10.000000000,closed,7,Gender model always predict the same class with same probability
+63,2016-02-09 19:41:13.000000000,2016-03-08 11:53:12.000000000,closed,0,dd_client.py not compatible with python 3 +
+62,2016-02-08 18:19:24.000000000,2016-04-21 16:46:40.000000000,closed,1,Support for XGBoost in training and prediction
+61,2016-02-05 06:57:36.000000000,2016-02-06 10:00:16.000000000,closed,1,Check failed
+60,2016-02-04 16:29:10.000000000,2016-02-07 23:39:24.000000000,closed,43,Support for Deep Residual Net (ResNet) reference models for ILSVRC
+59,2016-02-04 12:12:47.000000000,2016-02-16 19:59:45.000000000,closed,6,Support for unsupervised models + access to inner Caffe neural net's layers
+58,2016-02-03 19:21:06.000000000,2016-02-05 14:25:33.000000000,closed,3,Wrong server answer when memory is too low
+57,2016-01-31 23:54:20.000000000,1970-01-01 00:00:00.000000001,open,2,Set of Character-Based Deep CNNs for a range of tasks
+56,2016-01-30 15:06:14.000000000,2016-02-27 12:26:57.000000000,closed,2,Access to inner neural net's layers through API
+55,2016-01-30 13:06:25.000000000,2016-03-25 21:57:15.000000000,closed,6,Building of a binary hash code image similarity search application
+54,2016-01-29 23:39:01.000000000,2016-01-30 00:07:44.000000000,closed,23,Remove an unnecessary null pointer check
+53,2016-01-29 22:47:18.000000000,2016-02-23 16:27:14.000000000,closed,1,Error using gpu while prediction
+52,2016-01-28 04:28:30.000000000,2016-01-28 11:54:35.000000000,closed,1,install is too complicated too many dependence. only want c or C++
+51,2016-01-28 04:28:10.000000000,2016-01-28 11:49:11.000000000,closed,0,install is too complicated too many dependence. only want c or C++
+50,2016-01-27 12:56:48.000000000,2019-07-24 15:57:09.000000000,closed,1,Model repository does not read correctly on XFS filesystem
+49,2016-01-23 19:27:39.000000000,2016-01-24 00:55:29.000000000,closed,8,Authentication / login
+48,2016-01-23 01:24:18.000000000,2016-01-23 13:05:06.000000000,closed,2,Create Deepdetect server on 0.0.0.0:80 on AWS EC2
+47,2016-01-20 00:04:55.000000000,2016-02-23 16:28:09.000000000,closed,8,Crash on request with invalid url
+46,2016-01-17 04:33:41.000000000,2016-02-06 10:00:28.000000000,closed,4,Deepdetect text training errors out on non-gpu server
+45,2016-01-09 23:22:46.000000000,2016-01-11 03:16:47.000000000,closed,4,Deepdetect crashes often without any warning
+44,2016-01-05 18:23:21.000000000,2016-01-05 23:56:43.000000000,closed,3,"Potential error in googlenet example in documentation (""setup of an image classifier"")"
+43,2016-01-04 07:16:38.000000000,2016-11-22 00:31:55.000000000,closed,8,Object Detection via Faster R-CNN
+42,2016-01-04 07:02:31.000000000,2016-01-04 08:33:35.000000000,closed,2,building error on ubuntu 14.04.
+41,2016-01-03 14:48:51.000000000,2016-01-11 21:10:26.000000000,closed,1,Character-level 1D convolutional deep neural models for text
+40,2015-12-30 16:22:31.000000000,1970-01-01 00:00:00.000000001,open,4,Support for Spatial Transformer Networks
+39,2015-12-22 19:50:23.000000000,2015-12-24 15:53:51.000000000,closed,14,Age model fails with error
+38,2015-12-11 17:16:52.000000000,2015-12-12 13:54:22.000000000,closed,3,Error while converting to TensorFlow model
+37,2015-12-08 13:08:16.000000000,2015-12-09 16:57:36.000000000,closed,0,Sentences classification with Text connector
+36,2015-12-02 09:47:01.000000000,2016-05-20 21:53:35.000000000,closed,7,Support for OpenCV3
+35,2015-11-30 19:13:40.000000000,2015-11-30 21:10:52.000000000,closed,10,problem using the pretrained model 
+34,2015-11-29 16:29:23.000000000,2016-01-03 14:40:06.000000000,closed,0,added support for ELU activation units with Caffe
+33,2015-11-28 16:42:21.000000000,1970-01-01 00:00:00.000000001,open,6,"Set of DNN pre-trained models for a range of image classification domains (fashion, furnitures, ...)"
+32,2015-11-28 15:27:30.000000000,2015-12-15 17:31:56.000000000,closed,3,Mobile Backend as Service
+31,2015-11-21 23:02:49.000000000,2015-11-22 20:33:36.000000000,closed,5,Text Classification in Deep Detect
+30,2015-11-10 18:23:08.000000000,2016-11-05 18:36:50.000000000,closed,70,Support for TensorFlow
+29,2015-11-03 18:17:02.000000000,1970-01-01 00:00:00.000000001,open,5,Building on Ubuntu 15.10 / GCC-5 with new ABI
+28,2015-10-09 20:14:31.000000000,2015-12-02 12:43:15.000000000,closed,5,Caffe BlockingQueue locks on mutex when peeking after a service has exception
+27,2015-10-05 16:24:20.000000000,2015-10-06 20:49:32.000000000,closed,0,Fixed localhost binding problem
+26,2015-10-04 13:02:25.000000000,2015-12-04 16:43:19.000000000,closed,4,"Default `localhost` does not seem to bind properly in some settings / ""ERROR - empty resource"""
+25,2015-10-03 21:37:21.000000000,2015-10-09 17:24:37.000000000,closed,1,convnet template for Caffe + API control of convnet architecture
+24,2015-09-09 09:39:24.000000000,2015-09-09 18:27:59.000000000,closed,8,Linker error during installation
+23,2015-09-04 00:10:30.000000000,2015-11-06 16:28:27.000000000,closed,1,multi-target neural net regression
+22,2015-09-03 23:23:37.000000000,2015-10-15 00:03:08.000000000,closed,8,Finetuning CaffeNet 
+21,2015-07-28 16:51:45.000000000,2015-08-07 12:38:03.000000000,closed,3,Add support for RMSProp
+20,2015-07-17 11:59:12.000000000,2015-09-24 21:16:15.000000000,closed,1,basic_string::_S_construct null not valid reported on training neural net from large CSV
+19,2015-07-14 14:55:49.000000000,2015-07-17 09:43:17.000000000,closed,0,Add a Gitter chat badge to README.md
+18,2015-06-24 14:21:49.000000000,2015-10-09 11:40:15.000000000,closed,1,"Support for training from large CSV files with Caffe, independently of available RAM"
+17,2015-06-19 20:26:51.000000000,2015-10-05 14:10:42.000000000,closed,7,Imgdetect demo
+16,2015-06-14 22:56:21.000000000,2015-06-15 13:24:57.000000000,closed,0,ignoring columns from CSV dataset misshandles columns
+15,2015-06-14 10:40:26.000000000,1970-01-01 00:00:00.000000001,open,0,job deletion cannot take place while an input connector is processing data
+14,2015-06-11 10:12:04.000000000,2015-10-09 11:29:17.000000000,closed,1,Support for full confusion matrix in API JSON output when requested
+13,2015-06-11 10:06:55.000000000,2015-09-29 20:34:23.000000000,closed,1,Text input connector
+12,2015-06-11 09:59:32.000000000,2015-10-06 19:18:05.000000000,closed,2,"Memory GPU leak, possibly with Caffe services"
+11,2015-06-11 09:54:32.000000000,2016-05-20 21:54:21.000000000,closed,1,Let cmake detect opencv location
+10,2015-06-11 09:53:24.000000000,2015-10-09 19:27:17.000000000,closed,0,Crash in confusion matrix computation if number of classes is wrong
+9,2015-06-08 13:38:42.000000000,2015-06-09 17:47:30.000000000,closed,3,Add support for automatic handling of categorical data in CSV input connector
+8,2015-06-06 07:21:29.000000000,2016-04-29 15:47:48.000000000,closed,3,Support for sparse data in Caffe
+7,2015-06-06 07:06:27.000000000,2017-10-19 08:46:29.000000000,closed,3,Support for batch normalization
+6,2015-06-02 12:19:43.000000000,2015-06-02 18:54:37.000000000,closed,1,Readme install
+5,2015-05-31 15:09:29.000000000,2016-12-29 00:50:48.000000000,closed,36,Amazon Machine Instance (AMI) on EC2
+4,2015-05-27 18:14:38.000000000,2015-09-24 21:14:44.000000000,closed,1,Python API client
+3,2015-05-27 18:07:49.000000000,2015-05-28 22:57:34.000000000,closed,0,Failed compilation with g++ <= 4.8.x
+2,2015-05-27 10:01:31.000000000,2016-04-05 18:02:01.000000000,closed,1,Document steps for using a custom version of Caffe along with DeepDetect
+1,2015-05-27 09:56:09.000000000,2015-11-06 16:28:44.000000000,closed,4,Support for neural net regression models 

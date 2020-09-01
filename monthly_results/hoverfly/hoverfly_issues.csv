@@ -1,0 +1,946 @@
+id,created_at,closed_at,state,comments,title
+947,2020-08-31 04:01:56.000000000,2020-08-31 04:04:08.000000000,closed,0,#946 not modifying request header key when matching
+946,2020-08-31 02:51:26.000000000,2020-08-31 04:05:35.000000000,closed,1,Header templating doesn't work when simulation has a header matcher
+945,2020-08-31 02:23:08.000000000,2020-08-31 02:38:52.000000000,closed,0,"#944 clone headers when copying request details, forward original req…"
+944,2020-08-25 10:52:02.000000000,2020-08-31 02:53:51.000000000,closed,5,Hoverfly Spy mode and nginx proxy_pass do not work together
+943,2020-06-15 02:39:22.000000000,2020-06-22 01:29:53.000000000,closed,0,V1.3.0 simulation body
+942,2020-06-13 02:26:35.000000000,2020-06-15 02:34:50.000000000,closed,0,V1.3.0
+941,2020-06-08 03:12:30.000000000,2020-06-11 02:25:20.000000000,closed,0,Update docs for v1.2
+940,2020-06-03 23:15:57.000000000,2020-06-27 01:34:03.000000000,closed,2,Allow Docker Hoverfly to run in DEBUG
+939,2020-05-29 13:04:54.000000000,2020-06-11 01:56:36.000000000,closed,4,add XML templated matcher
+938,2020-05-21 10:09:51.000000000,1970-01-01 00:00:00.000000001,open,0,Deduplicate identical multipart/form-data request payloads
+937,2020-05-20 07:32:37.000000000,2020-05-27 03:27:47.000000000,closed,5,test case fails randomly in local environment
+936,2020-05-19 15:40:24.000000000,2020-05-30 02:58:46.000000000,closed,9,add option to logging HTTP request/response
+935,2020-05-15 04:05:59.000000000,2020-05-20 01:26:58.000000000,closed,1,fix logNormal response delay in middleware and add tests
+934,2020-05-10 20:13:39.000000000,2020-05-12 02:46:48.000000000,closed,0,remove useless Req/Resp headers
+933,2020-05-08 09:22:01.000000000,2020-05-27 01:53:05.000000000,closed,6,add options for writing logs into a file
+932,2020-05-06 03:42:44.000000000,2020-05-15 00:58:37.000000000,closed,3,response logNormalDelay
+931,2020-05-04 04:31:48.000000000,2020-05-04 16:48:34.000000000,closed,3,fix middleware tests
+930,2020-05-04 02:05:30.000000000,2020-06-15 02:39:33.000000000,closed,0,Matcher chaining
+929,2020-04-27 02:40:15.000000000,2020-04-27 02:42:59.000000000,closed,0,Fix journal API paging query
+928,2020-04-27 01:02:23.000000000,2020-04-27 01:49:57.000000000,closed,0,Fix functional tests for proxy auth over https
+927,2020-04-22 00:11:03.000000000,2020-04-23 01:03:00.000000000,closed,0,Fix: doc: there are 6 modes
+926,2020-04-21 11:15:03.000000000,2020-04-27 01:55:38.000000000,closed,1,407 on authentication in https case
+925,2020-04-21 10:51:59.000000000,2020-04-25 04:28:26.000000000,closed,0,Fix authentication in https case
+924,2020-04-19 05:22:08.000000000,2020-04-27 02:50:46.000000000,closed,0,Upgrade to go 1.14
+923,2020-04-16 18:37:47.000000000,2020-05-04 00:39:29.000000000,closed,5,implementing fixed delay for specific response
+922,2020-04-09 14:11:18.000000000,2020-04-15 02:14:47.000000000,closed,0,fix journal limit on empty entries
+921,2020-04-09 02:58:54.000000000,2020-04-20 03:27:05.000000000,closed,0,add hoverfly_service bodyFile tests
+920,2020-04-08 02:15:39.000000000,2020-04-15 02:14:47.000000000,closed,0,The GET Journal API has incorrect limit value in the response when the journal is empty
+919,2020-04-06 03:25:34.000000000,2020-04-19 05:05:38.000000000,closed,0,Try upgrading to go 1.14
+918,2020-04-01 18:14:55.000000000,2020-04-01 18:26:03.000000000,closed,3,Large post data in simulate mode seems to send nothing to stdout for the middleware
+917,2020-03-30 05:45:18.000000000,2020-04-08 01:39:21.000000000,closed,5,Hoverctl bodyfiles tests
+916,2020-03-30 05:38:35.000000000,2020-04-06 01:54:38.000000000,closed,0,fix unicode read and json dump error
+915,2020-03-27 04:32:22.000000000,2020-03-27 16:53:25.000000000,closed,0,#912 fix set destination with escape char issue
+914,2020-03-27 03:30:24.000000000,2020-03-27 16:56:12.000000000,closed,0,#876 Allow running multiple hoverfly targets with middleware
+913,2020-03-27 00:09:11.000000000,2020-04-03 02:40:35.000000000,closed,0,bodyFile docs
+912,2020-03-26 09:32:56.000000000,2020-03-29 05:29:53.000000000,closed,2,"Cannot use escape ""\"" in destination filtering"
+911,2020-03-09 05:22:35.000000000,2020-03-26 02:17:16.000000000,closed,10,WIP: Export body files / body / all
+910,2020-03-09 03:48:29.000000000,2020-03-10 02:09:18.000000000,closed,0,omit os.Getwd call in main.go
+909,2020-03-09 03:01:41.000000000,2020-06-13 02:26:25.000000000,closed,0,V1.3.0
+908,2020-03-05 00:16:35.000000000,2020-03-05 02:31:23.000000000,closed,0,bump up goproxy to fix #872
+907,2020-03-03 03:24:14.000000000,2020-03-04 20:01:37.000000000,closed,0,misc troubleshooting docs fix
+906,2020-03-02 04:40:01.000000000,2020-03-03 02:51:44.000000000,closed,0,bump up goproxy
+905,2020-03-02 00:46:26.000000000,2020-03-29 04:35:18.000000000,closed,1,disable colors
+904,2020-03-01 03:21:37.000000000,2020-03-02 03:36:44.000000000,closed,0,add api ref to shutdown
+903,2020-02-20 22:46:49.000000000,1970-01-01 00:00:00.000000001,open,3,application/x-www-form-urlencoded matcher
+902,2020-02-20 19:53:55.000000000,1970-01-01 00:00:00.000000001,open,1,JWT matcher
+901,2020-02-19 09:47:27.000000000,2020-03-03 03:22:33.000000000,closed,11,Chrome still show connection not private error after cert is added into key chain access
+900,2020-02-17 14:02:09.000000000,1970-01-01 00:00:00.000000001,open,0,Add support for custom variables
+899,2020-02-12 23:31:19.000000000,2020-02-13 18:11:32.000000000,closed,0,Documentation mentions templates but gives ZERO examples
+898,2020-02-11 17:40:43.000000000,2020-03-03 02:51:44.000000000,closed,9,Default certificate and Debian Buster
+897,2020-02-06 15:51:09.000000000,1970-01-01 00:00:00.000000001,open,1,Exclude fields in Hoverfly Diff Mode
+896,2020-02-01 03:41:27.000000000,2020-02-03 17:49:07.000000000,closed,4,V1.1.3-hotfix1
+895,2020-02-01 00:17:20.000000000,2020-02-04 04:10:01.000000000,closed,1,JSON request body whose root starts with an array fails to match with JsonPath/JsonPartial as matcher
+894,2020-01-28 03:08:18.000000000,2020-01-30 20:42:13.000000000,closed,1,disable switching from simulate to modify mode while being a webserver
+893,2020-01-26 00:23:45.000000000,2020-03-09 03:01:19.000000000,closed,41,add bodyFile to response part of pair
+892,2020-01-18 20:31:16.000000000,2020-01-22 02:26:12.000000000,closed,0,upgrade exactMatcher docs
+891,2020-01-17 11:30:16.000000000,2020-01-30 20:58:37.000000000,closed,2,Hoverfly is unable to capture multiple query parameters into json
+890,2019-12-18 19:20:01.000000000,2020-03-29 04:35:18.000000000,closed,1,Add a way to disable colors in the plaintext log
+889,2019-12-09 16:37:30.000000000,2019-12-13 19:31:00.000000000,closed,3,Is it possible to test for the absence of a header or a query param?
+888,2019-12-06 03:14:55.000000000,2019-12-14 00:02:55.000000000,closed,0,#887 Fix response delay payload validation
+887,2019-12-05 07:41:54.000000000,2020-02-04 04:10:29.000000000,closed,2,Delay values of 0 prevent any delays from being applied with no warning.
+886,2019-11-27 19:11:05.000000000,2019-11-28 19:10:25.000000000,closed,2,Node.js binding for Hoverfly?
+885,2019-11-26 03:31:59.000000000,2019-12-14 00:04:53.000000000,closed,0,#883 Get templating data from request header
+884,2019-11-18 16:27:47.000000000,2019-11-23 04:56:16.000000000,closed,0,Fix race condition with simulatenously appending new entries to journal
+883,2019-11-16 00:49:15.000000000,2020-02-04 04:13:03.000000000,closed,2,Access HTTP headers through templating
+882,2019-11-07 13:18:40.000000000,2019-11-10 21:28:57.000000000,closed,1,Could not start Hoverfly Port 8888 was not free
+881,2019-10-29 02:21:12.000000000,1970-01-01 00:00:00.000000001,open,2,Feature Request: supply .pac file via REST server
+879,2019-10-10 02:41:16.000000000,2019-10-10 13:23:24.000000000,closed,0,Datetime templating func
+878,2019-10-02 21:27:29.000000000,2019-10-03 16:05:33.000000000,closed,1,SSL routines:CONNECT_CR_SRVR_HELLO:wrong version number for HTTPS APIs
+877,2019-09-11 00:01:03.000000000,2019-09-11 00:01:29.000000000,closed,0,capture time when for which database update is to be captured
+876,2019-08-22 14:08:54.000000000,2020-03-29 05:30:10.000000000,closed,2,Fail to execute middleware on multiple Hoverfly targets
+875,2019-08-20 20:14:56.000000000,2019-09-01 00:20:45.000000000,closed,1,Realised handling templating on headers response
+874,2019-08-12 12:01:02.000000000,1970-01-01 00:00:00.000000001,open,0,Webserver - Capture Request mode
+873,2019-08-12 11:34:44.000000000,2020-01-30 20:42:12.000000000,closed,2,Can enter unsupported modify mode erroneously from Webserver mode 
+872,2019-07-22 19:11:46.000000000,2020-03-04 19:39:53.000000000,closed,7,Firefox reported SEC_ERROR_REUSED_ISSUER_AND_SERIAL for MITM
+871,2019-07-21 16:41:52.000000000,2019-07-22 12:16:08.000000000,closed,1,Fix typo in capturingsequences.rst
+870,2019-07-19 13:17:28.000000000,2020-05-03 03:57:03.000000000,closed,4,Why not switch to go mod
+869,2019-07-17 19:26:29.000000000,2019-07-23 00:57:16.000000000,closed,0,#868 Add reason phrase when reconstructing response
+868,2019-07-16 00:31:36.000000000,2019-07-23 13:59:06.000000000,closed,2,Hoverfly drops Reason-Phrase from responses
+867,2019-07-15 18:34:06.000000000,2019-07-23 00:57:03.000000000,closed,0,#865 Not set transfer-encoding header on 204 and 1xx response accordi…
+866,2019-07-15 15:34:38.000000000,2019-07-23 00:56:45.000000000,closed,0,Capture overwrite repeated requests
+865,2019-07-11 16:41:40.000000000,2019-07-23 13:59:20.000000000,closed,2,Responses with a status code of `204` are not made according to spec
+864,2019-07-11 15:40:02.000000000,1970-01-01 00:00:00.000000001,open,7,Simulate and capture-on-miss mode
+863,2019-07-09 13:19:07.000000000,2019-07-09 23:11:46.000000000,closed,1,#855 Use copyState map as the parameter in StateMatcher function
+862,2019-07-09 01:39:32.000000000,2019-07-23 13:59:37.000000000,closed,2,Provide a capture mode option to overwrite an existing request
+861,2019-07-08 16:50:44.000000000,2019-07-08 17:08:04.000000000,closed,0,Fix a typo in a CORS header
+860,2019-07-07 21:09:27.000000000,2019-07-08 01:44:43.000000000,closed,1,Update templating.rst
+859,2019-07-03 20:14:27.000000000,2019-07-08 01:39:28.000000000,closed,0,Fix slow stateful mode #855
+858,2019-07-03 14:14:46.000000000,2019-07-03 15:33:33.000000000,closed,1,Fix slow import
+857,2019-07-02 13:34:49.000000000,2019-07-02 13:40:01.000000000,closed,0,#856 Better document for hoverfly mode API
+856,2019-06-29 21:52:12.000000000,2019-07-02 13:41:03.000000000,closed,1,Set headers capturing via API
+855,2019-06-27 20:44:08.000000000,2019-07-23 14:00:24.000000000,closed,4,Poor performance when simulation has a lot of pairs captured in stateful mode
+854,2019-06-26 17:03:01.000000000,2019-06-26 18:08:35.000000000,closed,0,Add value to Hoverfly Header showing if the spied request is forwarded
+853,2019-06-20 02:13:19.000000000,1970-01-01 00:00:00.000000001,open,2,feature request - convert hoverfly capture into junit test
+852,2019-06-18 21:14:36.000000000,2019-06-20 14:18:12.000000000,closed,1,Import an existing simulation and re-capturing results duplicated pairs
+851,2019-06-18 20:33:32.000000000,2019-06-20 13:22:24.000000000,closed,0,Initialze query and header maps only if it's needed when capturing ne…
+849,2019-06-18 07:58:04.000000000,2019-06-19 04:47:34.000000000,closed,4,"hoverfly returns ←[36mresponse←[0m=""&map[error:nil response]"""
+848,2019-06-15 17:28:25.000000000,2019-07-03 19:10:17.000000000,closed,15,Slow import
+847,2019-06-05 19:49:58.000000000,2019-06-18 19:29:38.000000000,closed,1,#841 Add template function for string replace
+846,2019-06-05 17:49:34.000000000,2019-06-18 19:34:10.000000000,closed,0,#830 Add import flags to hoverctl start
+845,2019-06-05 14:31:25.000000000,2019-06-24 14:23:00.000000000,closed,0,Cors support
+844,2019-06-03 15:18:31.000000000,2019-06-18 19:39:11.000000000,closed,1,Import multiple simulations
+843,2019-05-31 19:50:41.000000000,2019-06-24 14:50:22.000000000,closed,0,CORS support
+842,2019-05-31 10:35:52.000000000,1970-01-01 00:00:00.000000001,open,2,Multiple entries of the same query parameter are encoded using ; (semicolon)
+841,2019-05-29 15:33:58.000000000,2019-06-20 14:17:47.000000000,closed,3,templates: allow access to values of regex captures
+840,2019-05-21 14:10:55.000000000,2019-05-24 13:59:39.000000000,closed,0,#839 Fix an issue with initializing sequence keys on multiple import
+839,2019-05-13 15:37:42.000000000,2019-06-20 14:20:00.000000000,closed,12,Importing multiple simulation files initializes only the last sequence
+838,2019-04-30 00:00:04.000000000,2019-04-30 13:51:56.000000000,closed,1,Roll back goproxy update which impacts performance
+837,2019-04-24 19:53:35.000000000,2019-04-24 20:50:00.000000000,closed,0,#836 Matcher name should be case insensitive
+836,2019-04-24 01:07:31.000000000,2019-05-01 00:31:41.000000000,closed,1,Matcher name should be case-insensitive
+835,2019-04-23 22:10:59.000000000,2019-04-24 19:40:14.000000000,closed,0,Update documentation
+834,2019-04-23 20:25:36.000000000,2019-04-24 21:03:04.000000000,closed,0,#832 Fix misleading error in spy mode when remote service call failed
+833,2019-04-23 19:23:01.000000000,2019-04-24 19:43:41.000000000,closed,1,#830 Mark db flags deprecated and update description
+832,2019-04-19 21:19:11.000000000,2019-05-01 00:35:41.000000000,closed,1,Misleading error in spy mode
+831,2019-04-10 18:13:21.000000000,2019-04-16 13:05:28.000000000,closed,8,adding partial matching for json
+830,2019-03-27 01:26:03.000000000,2019-06-20 14:19:28.000000000,closed,4,hoverctl start with --cache does not work
+829,2019-03-26 02:57:44.000000000,2019-03-28 14:49:26.000000000,closed,0,Save response trailers
+828,2019-03-22 20:57:04.000000000,2019-04-30 19:47:37.000000000,closed,2,Add response trailer to simulation schema
+827,2019-03-19 12:38:42.000000000,2019-03-27 15:17:03.000000000,closed,0,Fix wrong descriptions for hoverctl mode command with flags
+826,2019-03-15 16:17:12.000000000,2019-03-18 16:34:55.000000000,closed,3,github.com/sirupsen/logrus import is incorrectly cased
+825,2019-03-15 09:43:36.000000000,2019-04-18 08:28:05.000000000,closed,5,Wrongful Matching Requests
+824,2019-03-14 14:43:27.000000000,2019-03-14 15:15:02.000000000,closed,1,rename files so Hoverfly can be depended upon as a go module
+823,2019-03-08 09:14:06.000000000,2019-04-16 13:10:45.000000000,closed,2,HoverFly Goin Down while using Diff mode
+822,2019-03-08 01:45:33.000000000,2019-03-12 12:34:03.000000000,closed,0,Refactor DoRequest function
+821,2019-03-04 11:27:10.000000000,2019-04-10 13:49:50.000000000,closed,17,want to check the status of real service
+820,2019-02-28 17:58:49.000000000,2019-02-28 20:20:48.000000000,closed,0,Document Hoverfly installation for Kubernetes using Helm
+819,2019-02-28 15:08:58.000000000,2019-02-28 16:31:31.000000000,closed,0,Fix help text for hoverfly middleware flag
+818,2019-02-28 03:57:53.000000000,1970-01-01 00:00:00.000000001,open,2,Character Encoding Causes Content-Length Headers Failure
+817,2019-02-28 03:09:54.000000000,2019-02-28 03:29:08.000000000,closed,1,Fix typo on `community.rst`
+816,2019-02-28 02:12:21.000000000,2019-02-28 21:42:26.000000000,closed,2,Set response content length safely
+815,2019-02-24 16:14:18.000000000,2020-06-27 01:31:33.000000000,closed,3,Allow responses being read from a file instead of having to write them in the simulation JSON
+814,2019-02-22 18:13:38.000000000,2019-02-22 19:45:42.000000000,closed,1,Fix code analysis issues
+813,2019-02-22 00:19:26.000000000,2019-02-22 14:27:33.000000000,closed,1,Update capturingsequences.rst
+812,2019-02-21 16:03:56.000000000,2019-02-21 16:08:36.000000000,closed,1,Update https.rst
+811,2019-02-19 11:32:19.000000000,2019-02-19 17:56:29.000000000,closed,3,Capture and listen specific url (not given all api path)
+810,2019-02-15 16:43:29.000000000,2019-02-15 18:43:31.000000000,closed,1,#802 Only set content-length header if transfer-encoding header is ab…
+809,2019-02-15 12:58:59.000000000,2019-02-19 18:29:27.000000000,closed,3,How can I install hoverfly as windows service or install to iis
+808,2019-02-14 23:45:27.000000000,2019-02-19 16:21:35.000000000,closed,2,adding alpine based image with CA certs
+807,2019-02-13 16:37:54.000000000,2020-06-27 01:29:35.000000000,closed,9,Per-stub delays
+806,2019-02-12 03:48:21.000000000,2019-02-14 01:51:38.000000000,closed,0,Max cache size
+805,2019-02-11 21:44:54.000000000,2019-02-14 01:48:01.000000000,closed,0,Reduce memory allocation when reconstructing response body
+804,2019-02-08 23:11:50.000000000,2019-02-12 17:29:17.000000000,closed,1,Caching parsed response template
+803,2019-02-08 17:23:56.000000000,2019-02-11 14:50:44.000000000,closed,0,Default remote target protocol should be HTTP
+802,2019-02-08 16:18:24.000000000,2019-02-15 21:04:29.000000000,closed,0,Performance issue with large response body containing templating functions
+801,2019-02-08 00:46:53.000000000,2019-02-15 21:05:44.000000000,closed,10,Need to specify protocol for Docker
+800,2019-02-07 21:58:43.000000000,2019-02-11 17:55:32.000000000,closed,2,Improve request caching performance
+799,2019-02-02 06:10:53.000000000,2019-02-06 15:13:37.000000000,closed,2,Correct ineffectual assignment
+798,2019-01-18 04:30:43.000000000,2019-01-18 16:29:03.000000000,closed,1,Fix config loading
+797,2019-01-17 20:32:05.000000000,2019-01-18 16:38:36.000000000,closed,1,Fix proxy tunnel request
+796,2019-01-17 17:08:35.000000000,2019-01-17 20:39:15.000000000,closed,1,i am unable to capture the https service
+795,2019-01-16 21:47:17.000000000,2019-01-18 16:42:07.000000000,closed,0,Fix simulation validation error message
+794,2019-01-16 19:24:27.000000000,2019-01-18 16:33:54.000000000,closed,1,Join multi-value query with semicolon when saving to a simulation
+793,2019-01-16 17:05:31.000000000,2019-01-16 17:22:33.000000000,closed,0,#792 Fix multi-value query matching
+792,2019-01-10 15:15:34.000000000,2019-01-18 16:37:38.000000000,closed,4,Multi-Value Query Params: Hoverfly fails to replay captured request
+791,2018-12-21 21:00:10.000000000,2019-01-18 19:44:56.000000000,closed,2,Hoverfly doen't support different mode for different services
+790,2018-12-19 01:38:12.000000000,1970-01-01 00:00:00.000000001,open,1,Unable to parse an upstream URL that contains a Win Domain\user
+789,2018-11-23 12:25:03.000000000,2018-11-27 03:41:15.000000000,closed,1,added log level flag
+788,2018-11-22 23:30:47.000000000,2019-02-15 21:06:03.000000000,closed,9,Performance improvement
+787,2018-11-22 18:06:26.000000000,1970-01-01 00:00:00.000000001,open,2,application/json and gzip
+786,2018-11-20 19:32:36.000000000,2019-01-18 16:44:21.000000000,closed,1,Weird error message for invalid v4 simulation
+785,2018-11-20 06:46:10.000000000,2018-11-22 06:44:49.000000000,closed,3,How to mount a json file to hoverfly docker container
+784,2018-11-16 03:21:12.000000000,2019-02-19 18:38:14.000000000,closed,4,Capture Android app traffic
+783,2018-11-09 19:25:52.000000000,2018-12-05 00:20:15.000000000,closed,3,Lognormal distribution of delay
+782,2018-10-24 14:07:44.000000000,2018-10-24 23:37:29.000000000,closed,0,#776 Fix request counter for webserver
+781,2018-10-24 00:56:47.000000000,2018-10-24 18:31:43.000000000,closed,0,Fix #780 which results duplicated query params
+780,2018-10-24 00:54:48.000000000,2018-10-24 18:31:44.000000000,closed,0,Query parameters in RequestDetails are duplicated during matching
+779,2018-10-23 18:54:22.000000000,2018-10-24 18:19:59.000000000,closed,0,Update logrus
+778,2018-10-19 12:09:25.000000000,2018-10-24 00:46:46.000000000,closed,0,Fix map copy
+777,2018-10-19 05:50:29.000000000,2018-10-22 19:26:53.000000000,closed,1,Bring CircleCI to Go 1.11
+776,2018-10-18 13:01:14.000000000,2018-10-25 14:01:09.000000000,closed,1,Request count does not update in webserver mode
+775,2018-10-16 07:46:54.000000000,2019-02-13 14:31:45.000000000,closed,5,Unable to capture API for HSTS based websites.
+774,2018-10-08 03:45:31.000000000,1970-01-01 00:00:00.000000001,open,10,Why would this be a bad request?
+773,2018-10-02 21:06:27.000000000,2018-10-09 14:27:55.000000000,closed,4,Add options to support capture request with 2way ssl authentication
+772,2018-10-02 02:12:17.000000000,2018-10-04 12:37:33.000000000,closed,1,Fix failing test when local timezone is not UTC
+771,2018-09-20 03:27:33.000000000,2018-09-26 13:25:32.000000000,closed,3,Add mutex to protect access to Simulation.matchingPairs
+770,2018-09-10 16:07:35.000000000,2018-11-29 01:56:08.000000000,closed,3,Cannot create a remote target
+769,2018-09-06 23:15:59.000000000,2018-09-11 13:08:10.000000000,closed,1,Protect state from concurrent access
+768,2018-09-06 20:44:07.000000000,2018-09-11 13:17:36.000000000,closed,0,Encoded body content length bug
+767,2018-08-24 22:36:11.000000000,2018-09-11 13:08:10.000000000,closed,2,Hoverfly crash when processing simultaneous requests
+766,2018-08-23 19:43:53.000000000,2018-08-23 21:28:58.000000000,closed,1,Implement Hoverfly configuration by PAC file
+765,2018-08-23 01:06:16.000000000,2018-08-23 13:30:07.000000000,closed,1,Maintain existing state instead of overwriting
+764,2018-08-22 02:48:46.000000000,2018-08-24 19:17:26.000000000,closed,1,Capturing 3 or more sequences leads to simulation problems
+763,2018-08-21 20:05:30.000000000,2018-09-11 15:40:12.000000000,closed,7,Warning on content length always displayed on import.
+762,2018-08-16 20:59:02.000000000,2018-08-24 19:18:08.000000000,closed,2,FR: Support using upstream-proxy conditionally
+761,2018-08-03 14:32:53.000000000,1970-01-01 00:00:00.000000001,open,0,Matcher Chaining
+760,2018-07-31 20:29:49.000000000,2018-08-03 14:06:58.000000000,closed,1,"Correct Response Example, and Put Body"
+759,2018-07-31 19:51:05.000000000,2018-08-08 16:17:39.000000000,closed,3,Use headers mode arguments when setting diff mode
+758,2018-07-31 15:19:28.000000000,2018-08-03 13:15:26.000000000,closed,1,Support empty and nil queries
+757,2018-07-22 18:30:30.000000000,2018-08-03 23:00:29.000000000,closed,2,add support for validate mode
+756,2018-07-17 15:13:31.000000000,2018-07-17 16:34:08.000000000,closed,0,Fix #754 Improve docs for response templating
+755,2018-07-16 18:51:23.000000000,2018-07-17 14:04:06.000000000,closed,0,Allow templating access to request body for use with jsonpath and xpath
+754,2018-07-13 12:50:35.000000000,2018-07-17 16:34:09.000000000,closed,3,[Templating] iso8601DateTime timezone
+753,2018-07-10 17:01:10.000000000,1970-01-01 00:00:00.000000001,open,5,FR: Hoverctl Import Swagger Spec
+752,2018-07-09 22:02:14.000000000,2019-01-18 16:37:20.000000000,closed,7,"When -plain-http-tunneling is defined, no simulations are returned"
+751,2018-07-05 20:14:46.000000000,2018-07-09 16:45:06.000000000,closed,0,"Add currentDateTime, currentDateTimeAdd and currentDateTimeSubtract template functions"
+750,2018-07-05 13:25:50.000000000,2018-08-08 21:42:53.000000000,closed,0,V5 schema does not support matching on an empty request query
+749,2018-07-04 18:38:58.000000000,2018-07-11 17:11:44.000000000,closed,1,Response templating function for date time calculation and customized format
+748,2018-07-03 09:54:04.000000000,2018-07-03 15:19:04.000000000,closed,0,Update troubleshooting.rst
+747,2018-06-27 19:47:33.000000000,2018-06-27 20:11:21.000000000,closed,0,Use Circle CI v2 to build Hoverfly
+746,2018-06-27 14:08:31.000000000,2018-06-27 14:47:40.000000000,closed,0,Update simulation schema in docs to use v5 schema
+745,2018-06-27 13:43:12.000000000,2018-06-27 14:43:47.000000000,closed,0,Warn users when importing simulations with header problems
+744,2018-06-26 22:07:03.000000000,2018-07-17 14:04:06.000000000,closed,2,XPath matcher fails to parse XML documents missing XML declaration
+743,2018-06-26 15:26:36.000000000,2018-06-26 18:16:59.000000000,closed,0,Fix regression where Hoverfly returns Transfer-Encoding and Content-Length
+742,2018-06-25 18:12:33.000000000,2018-06-26 15:25:00.000000000,closed,1,Add new templating functions for random data
+741,2018-06-20 14:39:15.000000000,1970-01-01 00:00:00.000000001,open,2,Webserver mode SSL
+740,2018-06-08 21:10:23.000000000,2018-07-17 01:06:25.000000000,closed,3,hoverfly unable to forward https://[ipv6%interface] URI
+739,2018-06-04 22:11:33.000000000,2018-06-04 22:19:32.000000000,closed,0,v0.17.0
+738,2018-06-04 22:01:39.000000000,2018-06-04 22:10:57.000000000,closed,0,Warnings
+737,2018-06-04 18:53:03.000000000,2018-06-04 20:01:57.000000000,closed,0,Updating docs
+736,2018-06-01 19:29:52.000000000,2018-06-01 19:31:33.000000000,closed,0,Ensure sequence numbers for stateful pairs starts at 1
+735,2018-06-01 19:07:00.000000000,2018-06-01 19:08:11.000000000,closed,0,Fixed typo
+734,2018-06-01 18:08:11.000000000,2018-06-01 18:17:13.000000000,closed,0,Refactoring matching strategies
+733,2018-06-01 17:59:21.000000000,2018-06-01 18:07:24.000000000,closed,0,Journal update
+732,2018-06-01 17:55:50.000000000,2018-06-01 17:58:13.000000000,closed,0,Aliases for hoverctl state-store
+731,2018-06-01 17:38:27.000000000,2018-06-01 17:54:46.000000000,closed,1,Switching queries to be keyed like headers
+730,2018-06-01 17:12:19.000000000,2018-06-01 17:36:21.000000000,closed,0,Update headers to use matchers in simulation
+729,2018-06-01 16:46:44.000000000,2018-06-01 17:09:09.000000000,closed,0,Record stateful responses
+728,2018-05-21 19:18:39.000000000,2018-07-04 12:53:40.000000000,closed,2,Hoverfly does not support jdk 10?
+727,2018-05-19 13:41:55.000000000,2018-06-27 21:51:37.000000000,closed,4,HTTPS proxy returns incompatible headers with node.js client
+726,2018-05-18 15:48:38.000000000,2018-05-18 16:58:18.000000000,closed,0,Default matcher
+725,2018-05-17 19:44:24.000000000,2018-05-17 20:13:25.000000000,closed,0,Fixing destination bug
+724,2018-05-04 16:25:06.000000000,2018-05-04 17:15:48.000000000,closed,0,Improving field matchers in schema / v5
+723,2018-04-23 12:55:32.000000000,2018-05-25 12:05:56.000000000,closed,1,New Feature: Add Retries
+722,2018-04-19 21:30:03.000000000,2018-04-26 13:42:54.000000000,closed,0,Query with matchers
+721,2018-04-13 21:02:34.000000000,2018-04-19 14:08:25.000000000,closed,0,Headers with matchers
+720,2018-03-31 01:12:08.000000000,2018-08-25 16:29:09.000000000,closed,7,xmlMatch with Current Date field.
+719,2018-03-23 13:23:16.000000000,2018-03-23 18:08:44.000000000,closed,4,Working with the repository is very slow
+718,2018-03-22 20:51:58.000000000,2018-03-22 21:25:17.000000000,closed,1,#717 minor spelling
+717,2018-03-22 20:43:04.000000000,2018-03-22 21:26:32.000000000,closed,0,Minor spelling error
+716,2018-03-20 01:33:04.000000000,2018-11-28 17:17:55.000000000,closed,3,How To Make Hoverfly To Listen to Specific Host And Port
+715,2018-03-19 21:17:03.000000000,2018-03-19 21:48:56.000000000,closed,0,Goproxy fix
+714,2018-03-19 16:30:22.000000000,2018-03-19 19:38:15.000000000,closed,0,Tidy up docs
+713,2018-03-19 15:16:30.000000000,1970-01-01 00:00:00.000000001,open,1,Support multifile middleware
+712,2018-03-16 21:34:19.000000000,2018-03-19 19:25:45.000000000,closed,0,Using k8s.io/client-go/util/jsonpath instead of github.com/NodePrime/…
+711,2018-03-16 21:10:36.000000000,2018-03-16 21:20:42.000000000,closed,0,Update vendoring to be done by dep tool
+710,2018-03-16 20:59:35.000000000,2018-03-16 21:00:50.000000000,closed,0,Golang1.10
+709,2018-03-15 15:11:12.000000000,2018-06-27 20:11:21.000000000,closed,0,Move from CircleCI 1.0 to CircleCI 2.0
+708,2018-03-12 23:32:21.000000000,2018-03-12 23:52:29.000000000,closed,0,Removing flags from global
+707,2018-03-12 21:33:13.000000000,2018-03-12 23:35:32.000000000,closed,1,Exact Match is now worth two points
+706,2018-03-12 16:38:08.000000000,2018-03-12 18:09:55.000000000,closed,1,Improve errors from middleware
+705,2018-03-08 23:48:10.000000000,2018-03-09 16:59:59.000000000,closed,2,adding listen-on-host flag to hoverctl
+704,2018-03-08 22:52:40.000000000,2019-01-18 16:43:34.000000000,closed,3,hoverctl not loading config.yaml on first start
+703,2018-03-05 03:04:13.000000000,2018-03-05 03:26:27.000000000,closed,0,Cannot see response body when response is gzipped
+702,2018-03-01 22:06:43.000000000,2018-03-09 17:11:48.000000000,closed,2,Journal sorting
+701,2018-03-01 18:06:00.000000000,2018-03-09 17:11:49.000000000,closed,0,List Journal in descending order by date time
+700,2018-02-21 23:51:27.000000000,2018-03-16 20:54:55.000000000,closed,10,feat(#699): introduced new Diff mode
+699,2018-02-20 21:05:02.000000000,2018-03-16 20:54:55.000000000,closed,3,New Diff mode for comparing response from real service with simulation config
+698,2018-02-13 19:54:57.000000000,2018-06-05 13:25:39.000000000,closed,5,New feature : header matchers
+697,2018-02-13 18:02:13.000000000,2018-03-22 20:53:58.000000000,closed,9,Content-Length isn't recorded or returned
+696,2018-02-08 20:45:09.000000000,2018-02-13 22:34:48.000000000,closed,1,fix(#695): when hoverctl is initialized the custom parameters provided on command line are set
+695,2018-02-08 20:33:30.000000000,2018-03-12 23:54:44.000000000,closed,4,hoverctl doesn't connect to a custom host or a custom port
+694,2018-02-07 16:22:24.000000000,2018-02-08 14:30:17.000000000,closed,0,Journal time filtering
+693,2018-02-07 15:37:09.000000000,2018-02-08 03:03:05.000000000,closed,10,How to set ip for hoverfly?
+692,2018-02-02 19:14:27.000000000,2018-02-07 16:05:02.000000000,closed,0,Get simulation query
+691,2018-01-31 21:12:23.000000000,2018-02-07 16:21:52.000000000,closed,0,Journal paging
+690,2018-01-26 16:24:58.000000000,1970-01-01 00:00:00.000000001,open,9,Add lifecycle hooks to run middleware
+689,2018-01-24 21:45:49.000000000,2018-02-07 16:21:52.000000000,closed,0,Adding paging and timestamp filtering to journal API
+688,2018-01-24 21:41:43.000000000,2018-02-07 16:05:02.000000000,closed,0,Export simulation for specific endpoints
+687,2018-01-24 15:59:53.000000000,2018-01-24 16:23:36.000000000,closed,1,Passing a list of hostnames to destination flag
+686,2018-01-19 22:16:21.000000000,2018-01-23 03:42:53.000000000,closed,9,Hoverfly docker image
+685,2018-01-05 02:05:03.000000000,2018-01-05 16:33:38.000000000,closed,0,Set hoverfly bind to loopback interface by default
+684,2018-01-04 01:26:20.000000000,2018-01-05 16:06:09.000000000,closed,0,Return proxy type in hoverctl status
+683,2018-01-03 16:56:05.000000000,2018-01-05 15:49:08.000000000,closed,0,Plain http tunneling
+682,2017-12-27 15:57:51.000000000,1970-01-01 00:00:00.000000001,open,11,Xpath matcher cannot match on XML with namespace prefix 
+681,2017-12-22 08:13:25.000000000,2018-03-02 05:29:01.000000000,closed,8,fatal message Could not create a hoverfly directory
+680,2017-12-13 14:09:42.000000000,2018-01-03 19:21:38.000000000,closed,2,Spy mode
+679,2017-12-12 00:24:56.000000000,2018-06-05 13:37:11.000000000,closed,3,Capture different responses for the same GET request
+678,2017-11-22 13:03:39.000000000,2018-08-13 12:29:53.000000000,closed,7,Passing a Parameter dynamically to response from request
+677,2017-11-18 17:34:32.000000000,2017-11-20 14:58:15.000000000,closed,0,#650 Add plain-http-tunneling flag to optinally turn of tls for http …
+676,2017-11-16 16:55:13.000000000,2017-11-16 20:46:20.000000000,closed,2,#675 run hoverfly docker image with command line flags
+675,2017-11-15 21:47:58.000000000,2017-11-16 21:29:22.000000000,closed,3,Update the Dockerfile so end users can specify startup mode
+674,2017-11-15 21:43:50.000000000,2018-01-04 15:52:26.000000000,closed,8,allow users to switch from proxy to webserver mode during runtime
+673,2017-11-15 21:41:59.000000000,2018-01-05 19:37:46.000000000,closed,5,hoverctl status should tell you if running webserver or proxy mode
+672,2017-11-14 02:54:21.000000000,2017-11-16 17:02:58.000000000,closed,2,what version has java 7 support
+671,2017-11-03 08:29:10.000000000,2017-11-06 01:40:17.000000000,closed,5,Error running tutorial
+670,2017-10-18 14:11:50.000000000,2017-10-18 14:49:22.000000000,closed,0,More instructions on how to build and test locally
+669,2017-10-13 14:19:05.000000000,2017-10-18 14:49:23.000000000,closed,1,"""Applying a delay to all responses"" tutorial documentation doesn't make sense"
+668,2017-10-13 02:39:15.000000000,2017-10-13 12:41:18.000000000,closed,0,Update Docker to Go 1.9.1
+667,2017-10-12 23:51:38.000000000,2017-10-13 12:41:14.000000000,closed,1,Update CircleCI to Go 1.9.1
+666,2017-10-07 15:51:09.000000000,1970-01-01 00:00:00.000000001,open,1,Explain functionality for matching process
+665,2017-10-05 14:23:52.000000000,2017-10-07 15:33:40.000000000,closed,10,Simulation contains exact and regex matchers failed to produce strongest matching
+664,2017-10-03 20:23:22.000000000,2017-10-09 15:53:04.000000000,closed,11,GET requests with body are recorded but not matched
+663,2017-09-28 02:12:20.000000000,2017-09-28 20:17:36.000000000,closed,0,Now there are helper methods for the current date in templating
+662,2017-09-28 01:02:52.000000000,2017-09-28 19:41:19.000000000,closed,0,Exported simulations are now re-ordered so the request always comes a…
+661,2017-09-28 00:36:04.000000000,2017-09-28 19:30:15.000000000,closed,0,Moved state templating from the request
+660,2017-09-27 16:30:24.000000000,2017-09-27 16:34:11.000000000,closed,0,Should get matching pairs from simulation via getter method
+659,2017-09-22 19:43:36.000000000,2017-09-25 14:23:59.000000000,closed,0,Config https client to support renegotiation
+658,2017-09-22 18:50:32.000000000,2017-09-22 18:52:29.000000000,closed,0,Pass through original query in capture mode
+657,2017-09-22 18:36:59.000000000,2017-10-09 15:48:34.000000000,closed,2,Need to use underlying HTTPS service - how configure JKS file
+656,2017-09-22 17:47:27.000000000,2017-09-27 13:52:22.000000000,closed,2,Added completion command to create Bash completion files
+655,2017-09-21 14:54:38.000000000,2017-09-21 15:07:40.000000000,closed,0,"Remove './' characters from query if query contains "":"""
+654,2017-09-21 14:25:36.000000000,2017-09-22 15:05:46.000000000,closed,1,Update middleware.go
+653,2017-09-21 00:16:06.000000000,2017-09-26 01:51:18.000000000,closed,4,"Hoverfly prepends a ""./"" to proxied request's query parameters if any parameter value contains a colon "":"""
+652,2017-09-20 20:14:42.000000000,2017-09-20 20:26:32.000000000,closed,0,Adde status command to hoverctl
+651,2017-09-19 14:10:08.000000000,2017-09-19 14:18:41.000000000,closed,0,Tidying up a bit
+650,2017-09-08 19:57:50.000000000,2018-01-05 19:41:17.000000000,closed,31,Hoverfly hangs with Netty HttpProxyHandler
+649,2017-08-30 18:35:48.000000000,2017-10-07 16:20:45.000000000,closed,2,Enhancement: Possibility to set response body to object instead of string in the schema.json
+648,2017-08-30 16:18:37.000000000,2017-08-30 19:22:55.000000000,closed,4,"Feature Request: ""pass-through simulate mode"""
+647,2017-08-24 11:34:43.000000000,2017-08-25 12:40:21.000000000,closed,1,Capturing requests & responses from an application deployed in weblogic
+646,2017-08-14 20:17:41.000000000,2017-08-14 20:28:06.000000000,closed,0,Updated /api/v2/simulation/schema to use v4 schema
+645,2017-08-14 12:01:50.000000000,2017-08-14 17:59:06.000000000,closed,6,Route only few requests to middleware out of all virtualized
+644,2017-08-04 00:15:06.000000000,2017-08-07 18:29:20.000000000,closed,0,Stateful hoverfly #428
+643,2017-07-31 15:57:31.000000000,2017-08-07 18:49:07.000000000,closed,3,Fix encoded path in capture mode
+642,2017-07-28 19:59:16.000000000,2017-07-28 20:00:07.000000000,closed,0,Fixed issue with docs where simulation JSON examples were incorrect
+641,2017-07-28 19:48:23.000000000,2019-05-01 00:38:57.000000000,closed,2,jsonMatch does not partially match
+640,2017-07-28 17:32:52.000000000,2017-07-28 20:38:21.000000000,closed,0,Added some information regarding local middleware and HTTP middleware
+639,2017-07-21 13:33:00.000000000,2017-07-21 13:44:47.000000000,closed,0,Added a section about Docker to the docs
+638,2017-07-20 21:33:59.000000000,2017-07-21 13:47:01.000000000,closed,1,Include docker in docs
+637,2017-07-19 14:15:37.000000000,2017-07-20 23:48:26.000000000,closed,0,Documentation/api docs
+636,2017-07-18 02:39:13.000000000,2017-07-28 17:54:11.000000000,closed,3,jsonPath match expression not working
+635,2017-07-17 14:16:15.000000000,2017-07-17 14:28:46.000000000,closed,0,Moved upgrade tests out into corresponding test files
+634,2017-07-17 13:31:25.000000000,2017-07-18 12:25:28.000000000,closed,0,Fixed issue with delay test were an connection to the internet was needed
+633,2017-07-13 19:58:19.000000000,2017-07-13 20:24:20.000000000,closed,0,Bugfix/journal milliseconds
+632,2017-07-13 19:51:54.000000000,2017-07-13 20:06:07.000000000,closed,0,Updated simulation examples in docs
+631,2017-07-12 20:59:00.000000000,2017-07-12 20:59:05.000000000,closed,0,v0.13.0
+630,2017-07-12 20:50:48.000000000,2017-07-12 20:52:52.000000000,closed,0,Fixed a bug in modify mode where query string was no re-encoded after request is modified
+629,2017-07-12 20:06:41.000000000,2017-07-12 20:15:49.000000000,closed,0,Fixed a bug where getting the query as a string would have encoding
+628,2017-07-12 18:40:43.000000000,2017-07-12 19:52:28.000000000,closed,0,Query parameters will now get unescaped when being upgraded to v3
+627,2017-07-12 02:03:41.000000000,1970-01-01 00:00:00.000000001,open,9,Filtering root level field with JsonPath Expression
+626,2017-07-11 20:35:30.000000000,2017-07-12 14:33:22.000000000,closed,0,Fixed bug where journal entries were not created when using Hoverfly as a webserver
+625,2017-07-11 20:18:31.000000000,2017-07-12 13:43:05.000000000,closed,0,Changed RequestDetails query field to be a map of keys and values
+624,2017-07-10 13:59:35.000000000,2017-07-10 16:21:28.000000000,closed,0,Splitting versioned simulation views into separate files
+623,2017-07-05 18:58:11.000000000,2017-07-05 19:25:22.000000000,closed,0,"When importing a simulation with an unknown schema, report correct error"
+622,2017-07-02 20:03:45.000000000,2017-07-07 16:54:25.000000000,closed,1,Templating
+621,2017-06-28 14:21:51.000000000,2017-06-28 19:41:22.000000000,closed,0,Bugfix/remove v1 api
+620,2017-06-28 13:57:00.000000000,2017-06-28 14:02:54.000000000,closed,0,"RequestType will now be omitted if empty, removing the field from journal requests"
+619,2017-06-28 12:56:38.000000000,2017-06-28 13:51:09.000000000,closed,0,Updating functional tests
+618,2017-06-27 18:06:53.000000000,2017-06-27 19:00:40.000000000,closed,0,Build master
+617,2017-06-23 18:12:22.000000000,2017-06-23 18:56:06.000000000,closed,0,Added filtering to journal
+616,2017-06-23 14:59:57.000000000,2017-06-23 17:20:23.000000000,closed,0,Fix error messages
+615,2017-06-23 14:26:09.000000000,2017-07-07 18:46:50.000000000,closed,1,Master builds
+614,2017-06-22 19:31:09.000000000,2017-06-22 19:59:21.000000000,closed,2,"""timeStarted"" field in journal is now formatted in time.RFC3393"
+613,2017-06-22 18:43:11.000000000,2017-06-22 18:48:28.000000000,closed,0,Response from /api/v2/journal now contains root element
+612,2017-06-22 18:11:45.000000000,2017-06-22 19:55:14.000000000,closed,0,Setting `-journal-size` to 0 will now disable journal
+611,2017-06-22 15:44:01.000000000,2017-06-22 15:56:46.000000000,closed,0,Setting `-logs-size` to 0 will now disable logs
+610,2017-06-21 16:24:59.000000000,2017-06-21 17:04:41.000000000,closed,0,Miss caching
+609,2017-06-21 14:38:27.000000000,2017-06-21 14:48:45.000000000,closed,0,Added a journal function to Hoverfly
+608,2017-06-21 14:23:14.000000000,2017-06-21 15:16:22.000000000,closed,0,Added a -log-size flag to Hoverfly
+607,2017-06-21 02:53:27.000000000,2017-06-26 19:06:46.000000000,closed,5,Unable to find any matches in simulate mode after Hoverfly fails to match request
+606,2017-06-20 20:48:42.000000000,2017-06-21 14:14:59.000000000,closed,0,"Copy response headers so that if goproxy modifies the headers for HTTPS, those changes aren't persisted in the simulation"
+605,2017-06-20 19:59:46.000000000,2017-06-20 20:03:50.000000000,closed,0,Fixed a bug where Hoverfly would explode if serving a response with nil headers over HTTPS
+604,2017-06-20 19:31:47.000000000,2017-06-22 20:05:10.000000000,closed,5,Hoverfly only loading static contents
+603,2017-06-19 17:46:02.000000000,2017-06-19 18:28:52.000000000,closed,0,Add simple script to download and install hoverfly and hoverctl in ub…
+602,2017-06-19 13:31:17.000000000,2017-06-19 13:33:49.000000000,closed,0,Removing the negroni Logger handler from negroni server for Hoverfly API
+601,2017-06-16 18:53:55.000000000,2017-06-19 13:27:58.000000000,closed,0,Hoverctl will now NOT write hoverfly logs into a log file
+600,2017-06-16 17:34:53.000000000,2017-06-16 17:38:07.000000000,closed,0,Remove negroni log output on startup
+599,2017-06-16 16:42:04.000000000,2017-06-16 16:47:16.000000000,closed,0,Add missing mode arguments to GET hoverfly response
+598,2017-06-16 15:48:36.000000000,2017-06-16 16:44:08.000000000,closed,0,Removing admin logs as they are not needed and just add logging noise
+597,2017-06-16 15:34:06.000000000,2017-06-16 15:43:54.000000000,closed,0,Updated hoverctl logs --follow to now use the from filter on the logs API
+596,2017-06-15 20:53:21.000000000,2017-06-15 20:57:25.000000000,closed,0,Fixed bug where content-type would always be application/json
+595,2017-06-15 15:31:56.000000000,2017-06-15 15:39:37.000000000,closed,0,Filter log by datetime
+594,2017-06-14 17:49:34.000000000,2018-11-27 03:58:53.000000000,closed,1,Filter logs by log level
+593,2017-06-13 15:29:15.000000000,2017-07-01 13:31:13.000000000,closed,1,Empty matchers are not included in missing fields of closest matcher
+592,2017-06-12 20:15:00.000000000,2017-06-12 20:23:18.000000000,closed,0,Changed standard out logger to log plaintext instead of JSON
+591,2017-06-12 15:00:51.000000000,2017-06-12 15:32:10.000000000,closed,0,Plain text logs will now include a timestamp
+590,2017-06-09 19:54:05.000000000,2017-06-09 19:54:11.000000000,closed,0,V0.12.0
+589,2017-06-09 19:42:11.000000000,2017-06-09 19:45:38.000000000,closed,0,Updated -dev flag
+588,2017-06-09 18:24:37.000000000,2017-06-09 18:32:17.000000000,closed,0,Closest matcher docs
+587,2017-06-09 15:44:34.000000000,2017-06-09 15:50:04.000000000,closed,0,Update admin UI
+586,2017-06-08 20:49:22.000000000,2017-06-08 20:51:50.000000000,closed,0,Fixed an issue where CORS headers were not added to unauthorized error responses
+585,2017-06-08 19:46:07.000000000,2017-06-08 23:53:31.000000000,closed,6,database simulation
+584,2017-06-08 18:00:57.000000000,2017-06-08 20:51:14.000000000,closed,1,Hoverctl status
+583,2017-06-08 15:55:42.000000000,2018-06-20 11:07:04.000000000,closed,3,Run hoverfly using automatic configuration script
+582,2017-06-07 19:50:22.000000000,2017-06-08 14:26:05.000000000,closed,0,Fixed bug where two empty strings would result in a false match in the JsonMatcher
+581,2017-06-07 18:15:20.000000000,2017-06-09 18:32:29.000000000,closed,0,Closest matcher docs
+580,2017-06-07 17:37:32.000000000,2017-06-07 18:14:33.000000000,closed,0,Fixing bug with plaintext logs not being printed in colour
+579,2017-06-06 19:29:40.000000000,2017-06-06 19:36:22.000000000,closed,0,-dev mode in Hoverfly will now enable CORS headers
+578,2017-06-06 18:52:57.000000000,2017-06-06 19:26:53.000000000,closed,0,Closest Miss
+577,2017-06-06 18:17:59.000000000,2017-06-06 18:53:31.000000000,closed,0,Fixed a bug with plain text logs from the logs API
+576,2017-06-06 14:57:53.000000000,2017-06-06 18:56:37.000000000,closed,0,Moving middleware to its own package
+575,2017-06-06 13:43:58.000000000,1970-01-01 00:00:00.000000001,open,3,Hoverfly does not match on scheme
+574,2017-06-02 19:57:05.000000000,2017-06-02 20:24:00.000000000,closed,0,Fixed bug regarding header keys in being in a different case that the simulation
+573,2017-06-02 16:10:10.000000000,2017-06-12 13:28:16.000000000,closed,13,Returned header changes inner capital letters to small one
+572,2017-06-02 14:49:14.000000000,2018-01-03 20:09:14.000000000,closed,0,Missing documentation for capturing headers
+571,2017-06-02 13:13:57.000000000,2017-06-06 14:42:09.000000000,closed,0,Strongest match
+570,2017-06-02 12:33:50.000000000,2017-06-02 13:13:39.000000000,closed,0,Strongest match
+569,2017-06-01 16:58:55.000000000,2017-07-13 19:48:11.000000000,closed,9,Proposed schema changes (new schema version v3)
+568,2017-06-01 15:13:45.000000000,2018-11-21 15:26:38.000000000,closed,3,Support variable delays in Hoverfly
+567,2017-05-31 18:13:18.000000000,2017-06-02 12:33:22.000000000,closed,0,Added some more tests to the glob matcher
+566,2017-05-31 14:58:04.000000000,2017-05-31 17:17:08.000000000,closed,0,Tidying up examples and moving them to the root
+565,2017-05-30 20:06:35.000000000,2017-05-30 20:22:16.000000000,closed,0,Fixed a bug where tls-verification setting was reversed
+564,2017-05-30 17:44:16.000000000,2017-05-30 17:45:44.000000000,closed,0,Ordering is now ignored in the jsonMatch matcher
+563,2017-05-30 13:42:42.000000000,2017-06-01 14:33:23.000000000,closed,2,Query params matching issues
+562,2017-05-29 20:03:14.000000000,2017-08-15 17:12:22.000000000,closed,7,Problem setting up hoverfly behind AWS ELB
+561,2017-05-29 17:37:17.000000000,2017-07-28 19:51:08.000000000,closed,0,Make build work without the internet
+560,2017-05-26 12:50:52.000000000,2017-05-26 18:51:48.000000000,closed,0,Switched hoverctl stop to use new shutdown API
+559,2017-05-25 22:53:05.000000000,2017-06-08 19:38:41.000000000,closed,3,Oauth2 and Hoverfly
+558,2017-05-25 20:26:48.000000000,2017-06-03 04:53:16.000000000,closed,0,Json Matcher should ignore the order of Json nodes
+557,2017-05-25 20:16:18.000000000,2018-03-19 15:23:27.000000000,closed,3,Hoverfly failed to load javascript middleware with multiple modules due to file path
+556,2017-05-24 18:54:51.000000000,2017-05-24 19:34:59.000000000,closed,1,Deploying hoverfly in cloud foundry
+555,2017-05-24 18:18:37.000000000,2017-05-24 19:02:42.000000000,closed,0,Tidying up logs slightly
+554,2017-05-23 20:26:13.000000000,2017-05-24 13:32:50.000000000,closed,4,Unable to stop hoverfly local instance
+553,2017-05-23 17:35:33.000000000,2017-05-23 17:50:39.000000000,closed,0,Added an API endpoint for stopping Hoverfly located at /api/v2/shutdown
+552,2017-05-22 19:03:12.000000000,2019-06-20 14:21:21.000000000,closed,15,Provide a means of adding multiple simulations through the API
+551,2017-05-18 18:09:26.000000000,2017-05-19 12:52:38.000000000,closed,0,"Introduced local target, fixed bug around default target"
+550,2017-05-17 19:05:31.000000000,2017-05-17 19:13:23.000000000,closed,0,When upgrading to v2 simulations from v1
+549,2017-05-17 17:50:05.000000000,2017-05-17 18:53:46.000000000,closed,0,Added unit tests for all of the Hoverfly wrapper functions in Hoverctl
+548,2017-05-16 17:47:05.000000000,2017-05-17 13:39:12.000000000,closed,0,Moved configuration out of hoverctl/wrapper package and into hoverctl/configuration
+547,2017-05-16 15:13:01.000000000,2017-05-16 15:46:43.000000000,closed,0,Changed LogsHandler to check Accept and Content-Type request headers
+546,2017-05-16 14:02:36.000000000,2017-05-16 15:49:17.000000000,closed,0,Updated hoverctl logs to use the logs API from Hoverfly
+545,2017-05-15 19:03:50.000000000,2017-05-15 19:07:51.000000000,closed,0,Combining all logs to use the same log config
+544,2017-05-12 15:43:13.000000000,2019-02-15 21:54:57.000000000,closed,2,Max size for cache
+543,2017-05-12 15:41:20.000000000,2017-05-19 14:38:57.000000000,closed,3,Ability to follow logs
+542,2017-05-12 15:33:32.000000000,2018-11-29 04:00:35.000000000,closed,1,Cannot switch from current target host when starting new Hoverfly
+541,2017-05-11 20:09:09.000000000,2017-05-11 21:08:20.000000000,closed,0,Updated logs API so that logs are ascending
+540,2017-05-11 17:57:28.000000000,2017-05-11 18:20:20.000000000,closed,0,Switched from using path to filepath as filepath
+539,2017-05-11 14:40:03.000000000,2017-05-11 17:16:07.000000000,closed,0,Using a syscall to get the stdin file discriptor id
+538,2017-05-11 13:43:29.000000000,2017-05-12 15:44:30.000000000,closed,0,Add default column to hoverctl targets table
+537,2017-05-11 07:09:42.000000000,2018-11-29 02:09:45.000000000,closed,25,Hoverfly could not execute this middleware
+536,2017-05-10 19:54:01.000000000,2017-05-10 20:05:22.000000000,closed,0,Fixed an issue where an error was hardcoded when setting middleware
+535,2017-05-10 00:30:59.000000000,2017-06-16 18:21:11.000000000,closed,0,Logs API supports filtering by a time window
+534,2017-05-09 19:34:46.000000000,2017-05-11 14:09:50.000000000,closed,0,Added text/plain support for Logs API
+533,2017-05-09 18:58:16.000000000,2017-05-09 19:04:33.000000000,closed,0,Rebuilt UI and ensured it was compressed
+532,2017-05-09 17:49:33.000000000,2017-05-09 18:02:45.000000000,closed,0,"Added config host, admin-port, proxy-port and auth-token"
+531,2017-05-08 19:15:40.000000000,2017-05-09 16:30:56.000000000,closed,0,Added X-HOVERFLY-AUTHORIZATION header and -disable-standard-proxy-auth flag
+530,2017-05-08 17:25:37.000000000,2017-07-17 13:33:13.000000000,closed,0,Functional tests not cleaning up Hoverfly
+529,2017-05-08 17:24:32.000000000,2017-05-23 13:55:31.000000000,closed,0,"When listing targets, display an X by the one which is default"
+528,2017-05-04 17:29:04.000000000,2017-05-19 14:38:57.000000000,closed,4,"hoverctl login command returns ""The handle is invalid"" on Windows"
+527,2017-04-28 14:18:42.000000000,2017-04-28 14:28:31.000000000,closed,0,Removing v1 delays API endpoint
+526,2017-04-28 13:23:15.000000000,2017-04-28 14:04:52.000000000,closed,0,Removing v1 mode/destination API endpoint
+525,2017-04-27 16:11:38.000000000,2017-04-27 18:48:20.000000000,closed,0,Added a 10 minute timeout to authentication login when three failed attempts are made
+524,2017-04-26 20:53:31.000000000,2017-04-26 21:00:05.000000000,closed,0,Fix issue with Hoverfly version
+523,2017-04-26 16:55:05.000000000,2017-04-26 17:44:40.000000000,closed,0,Updated Hoverfly UI to use WSS instead of WS when being served over HTTPS
+522,2017-04-25 22:14:56.000000000,2017-04-26 17:48:54.000000000,closed,0,Added Bearer auth to `Proxy-Authorization` header
+521,2017-04-25 18:50:45.000000000,2017-04-26 17:50:07.000000000,closed,0,Fixing issue where hoverctl would not work Hoverfly over HTTPS
+520,2017-04-25 18:42:48.000000000,2017-08-04 12:28:58.000000000,closed,12,Extract parameters from a request and put in response
+519,2017-04-24 18:44:03.000000000,2017-04-24 19:04:14.000000000,closed,0,Added flags for HTTPS only mode
+518,2017-04-18 16:32:23.000000000,2017-04-18 16:40:19.000000000,closed,0,V0.11.1
+517,2017-04-18 16:23:54.000000000,2017-04-18 16:32:00.000000000,closed,0,V0.11.1 docs
+516,2017-04-18 14:00:25.000000000,2017-06-03 04:53:29.000000000,closed,2,API endpoint for killing Hoverfly
+515,2017-04-17 20:44:45.000000000,1970-01-01 00:00:00.000000001,open,19,Deploying in Cloud foundry
+514,2017-04-16 02:40:11.000000000,2017-04-19 01:30:22.000000000,closed,0,Update Docker to Go 1.8.1
+513,2017-04-16 02:10:43.000000000,2017-04-18 13:48:46.000000000,closed,1,Bad cert on https://docs.hoverfly.io/
+512,2017-04-15 21:32:56.000000000,2017-04-16 02:31:08.000000000,closed,1,Update build to Go 1.8.1
+511,2017-04-13 19:53:18.000000000,2017-04-13 20:18:04.000000000,closed,0,Tested and fixed bug where panic would happen
+510,2017-04-13 19:31:02.000000000,2017-04-13 19:35:05.000000000,closed,0,Added hoverctl target update command
+509,2017-04-13 17:10:38.000000000,2017-04-13 19:28:33.000000000,closed,0,hoverctl targets create and --new-target will now check and error if target already exists
+508,2017-04-13 14:19:04.000000000,2017-04-13 15:30:49.000000000,closed,0,Added --set-default and hoverctl targets default
+507,2017-04-12 18:31:38.000000000,2017-04-13 13:36:11.000000000,closed,1,Updated hoverctl targets command
+506,2017-04-12 16:36:32.000000000,2017-04-12 17:59:25.000000000,closed,0,Added -auth flag to hoverctl start
+505,2017-04-12 12:43:28.000000000,2017-04-12 12:50:18.000000000,closed,0,Added omitempty to prevent noisy looking blank targets
+504,2017-04-11 19:43:23.000000000,2017-04-11 20:49:52.000000000,closed,0,Added -password-hash to hoverfly binary
+503,2017-04-11 18:37:23.000000000,2017-04-12 12:37:31.000000000,closed,1,"Added --new-target flag, moved start specific config flags to start"
+502,2017-04-11 16:08:42.000000000,2017-04-11 17:37:18.000000000,closed,0,"Renaming flags to be clearer, remove unused fields from config"
+501,2017-04-10 23:00:28.000000000,2017-09-27 16:57:01.000000000,closed,5,Add verification to simulation mode
+500,2017-04-07 16:36:31.000000000,2017-04-11 13:40:12.000000000,closed,0,"Updating hoverctl start, stop and logs to use targets"
+499,2017-04-07 01:20:08.000000000,2018-05-25 13:41:00.000000000,closed,2,Loose matching option for path matcher 
+498,2017-04-06 20:19:09.000000000,2017-04-07 13:40:11.000000000,closed,0,Renaming TargetHoverfly to Target
+497,2017-04-06 17:34:19.000000000,2017-04-06 19:41:03.000000000,closed,0,isLocal has no need to be tidied to a struct
+496,2017-04-06 15:02:21.000000000,2017-04-06 15:07:34.000000000,closed,0,hoverctl mode now uses targets
+495,2017-04-06 13:00:00.000000000,2017-04-06 13:46:35.000000000,closed,0,hoverctl import now uses targets
+494,2017-04-05 22:35:16.000000000,2017-04-06 12:45:59.000000000,closed,0,hoverctl middleware will now use targets
+493,2017-04-04 21:43:58.000000000,2017-04-05 13:47:25.000000000,closed,0,Updated hoverctl destination to use targets
+492,2017-04-04 17:54:00.000000000,2017-04-04 20:22:40.000000000,closed,0,Hoverctl delete now uses targets
+491,2017-04-04 15:46:45.000000000,2017-04-04 17:45:01.000000000,closed,0,Updated hoverctl export to use targets
+490,2017-04-04 14:08:50.000000000,2017-04-04 14:31:19.000000000,closed,0,Added `login` command to hoverctl
+489,2017-04-03 17:00:47.000000000,2017-04-06 14:47:23.000000000,closed,3,mistake about download link on the offical website
+488,2017-03-31 14:34:05.000000000,2017-03-31 15:10:01.000000000,closed,0,"Added a function for getting user input, complete with sensitivity options"
+487,2017-03-30 20:52:12.000000000,2017-03-31 13:25:46.000000000,closed,0,Starting hoverctl target migration
+486,2017-03-30 16:20:42.000000000,2018-05-25 14:51:30.000000000,closed,3,Add HTTP compression to hoverfly responses
+485,2017-03-30 14:25:32.000000000,2017-04-28 14:21:12.000000000,closed,1,Docker image version out of date
+484,2017-03-29 21:39:15.000000000,2017-03-30 14:01:45.000000000,closed,0,The first steps in adding the target to hoverctl
+483,2017-03-28 13:27:12.000000000,2017-03-28 21:03:41.000000000,closed,0,Tidying up hoverctl functional tests
+482,2017-03-27 20:40:49.000000000,2017-03-27 20:43:25.000000000,closed,0,hoverctl will now only print the first 5 lines of middleware scripts …
+481,2017-03-27 19:59:43.000000000,2017-03-27 20:16:20.000000000,closed,0,hoverctl will now write errors to stderr
+480,2017-03-27 18:37:21.000000000,2017-03-27 18:41:18.000000000,closed,0,V0.11.0 docs
+479,2017-03-27 18:17:52.000000000,2017-03-27 18:18:04.000000000,closed,0,V0.11.0
+478,2017-03-27 14:27:44.000000000,2017-04-18 17:18:31.000000000,closed,4,hoverctl flag to suppress echoing middleware source code
+477,2017-03-24 18:00:47.000000000,2017-03-24 18:05:00.000000000,closed,0,Updated certificate to expire in 2022
+476,2017-03-24 15:20:46.000000000,2019-02-21 14:45:52.000000000,closed,2,Ability to retrieve self sign certificate using Hoverctl
+475,2017-03-23 22:11:37.000000000,2017-03-23 22:15:26.000000000,closed,0,Renaming template.go and its test as it no longer holds templates
+474,2017-03-23 21:57:26.000000000,2017-03-23 22:06:50.000000000,closed,0,Removing references to template
+473,2017-03-23 18:31:03.000000000,2017-03-23 18:34:04.000000000,closed,0,Add detailed instructions on managing hoverfly binaries using brew
+472,2017-03-22 22:19:25.000000000,2017-03-23 14:31:33.000000000,closed,0,Record misses in the cache
+471,2017-03-22 18:57:59.000000000,2017-03-22 19:19:51.000000000,closed,0,"When a v1 simulation is converted to v2, ignore headers if requestType is recording"
+470,2017-03-22 14:11:06.000000000,2017-03-22 15:14:49.000000000,closed,0,Cache is be ignored if the cachedResponse used headers
+469,2017-03-21 22:19:24.000000000,2017-03-22 14:00:31.000000000,closed,0,"When switching to simulate mode, flush cache and pre-emptively cache ""recordings"""
+468,2017-03-21 19:01:31.000000000,2017-03-21 21:36:13.000000000,closed,0,Cache now stores CachedResponse struct instead of RequestResponsePair
+467,2017-03-21 01:51:00.000000000,1970-01-01 00:00:00.000000001,open,6,Binary data in request not working
+466,2017-03-16 21:35:33.000000000,2017-03-17 00:13:15.000000000,closed,0,"Using hoverctl, you can now specify which headers you want to capture"
+465,2017-03-16 14:40:49.000000000,2017-03-16 20:48:37.000000000,closed,0,Capture will now not record request headers by default
+464,2017-03-15 18:11:39.000000000,2017-08-25 14:30:25.000000000,closed,1,Preventing loss of data on shutdown
+463,2017-03-15 15:26:55.000000000,2017-03-15 15:49:47.000000000,closed,0,Added the ability to pass mode arguments to mode
+462,2017-03-15 13:58:09.000000000,2017-03-15 14:03:27.000000000,closed,0,Added a ReadFromRequest handler function
+461,2017-03-15 04:42:50.000000000,2017-03-15 11:34:42.000000000,closed,1,Added application/json header to outgoing remote middleware requests
+460,2017-03-15 04:42:46.000000000,2017-03-27 18:57:02.000000000,closed,2,Remote middleware requests are missing a Content-Type header
+459,2017-03-14 22:57:53.000000000,2017-08-25 13:57:11.000000000,closed,1,Missing documentation around remote middleware
+458,2017-03-14 21:52:58.000000000,2017-03-14 22:12:06.000000000,closed,0,JSON and XML will now get captured into their respective matchers
+457,2017-03-14 19:18:15.000000000,2017-03-14 20:10:37.000000000,closed,0,Added xmlMatch
+456,2017-03-14 18:05:33.000000000,2017-03-14 18:46:13.000000000,closed,0,Added jsonMatch
+455,2017-03-14 15:22:40.000000000,2017-03-14 17:41:44.000000000,closed,0,"Matching will now happen on all matchers, not the first one"
+454,2017-03-13 21:54:00.000000000,2017-03-14 13:45:24.000000000,closed,0,Added an endpoint to retrieve JSON Schema
+453,2017-03-13 21:11:00.000000000,2017-03-13 21:21:32.000000000,closed,0,Added functional tests for the negative case for each matcher
+452,2017-03-13 19:05:09.000000000,2017-03-13 21:07:29.000000000,closed,0,Refactoring
+451,2017-03-13 18:25:07.000000000,2017-03-13 18:38:17.000000000,closed,0,Renamed jsonMatch to jsonPathMatch
+450,2017-03-13 17:05:13.000000000,2017-03-13 17:24:54.000000000,closed,1,Switching out simulation validation for using JSON Schema
+449,2017-03-13 16:11:27.000000000,2017-03-13 16:30:35.000000000,closed,0,Added `globMatch` and made `exactMatch` not use globs
+448,2017-03-13 13:59:39.000000000,2017-03-13 15:51:29.000000000,closed,0,Added a regexmatch for requests
+447,2017-03-13 13:53:52.000000000,2017-03-13 13:55:46.000000000,closed,0,Added a functional test for jsonpath matching
+446,2017-03-11 01:40:20.000000000,2017-03-27 18:58:20.000000000,closed,3,JSON Schema for simulation data files
+445,2017-03-10 22:38:53.000000000,2017-03-13 13:51:15.000000000,closed,0,Added json path matching and nulls no longer get printed in the simulation json
+444,2017-03-10 22:24:31.000000000,2017-03-10 22:29:37.000000000,closed,0,Template matching xpath
+443,2017-03-10 22:11:06.000000000,2017-03-10 22:16:56.000000000,closed,1,Created a FieldMatcher() function for matching individual fields
+442,2017-03-10 16:22:22.000000000,2017-03-10 21:38:23.000000000,closed,0,Adding new simulation v2 with RequestFieldMatchers
+441,2017-03-09 20:21:31.000000000,2017-03-09 21:46:32.000000000,closed,0,Switched out the strings in request templates for RequestFieldMatchers
+440,2017-03-09 16:19:37.000000000,2017-03-09 16:36:42.000000000,closed,0,Renaming the current simulation views to V1 ready for the incoming simulation changes
+439,2017-03-08 21:02:11.000000000,2017-03-08 21:52:26.000000000,closed,2,Passing parameters to middleware
+438,2017-03-03 16:16:46.000000000,2017-03-03 16:35:07.000000000,closed,0,Moved ResponseDelays onto hoverfly.Simulation
+437,2017-03-03 15:50:03.000000000,2017-03-03 16:07:45.000000000,closed,0,Added a websocket for logs at /api/v2/ws/logs
+436,2017-03-03 15:37:57.000000000,2017-03-03 15:47:28.000000000,closed,0,Added /api/v2/logs
+435,2017-03-03 14:54:19.000000000,2017-03-03 15:35:09.000000000,closed,0,Refactored websocket code out of stats_handler.go for reuse in the future
+434,2017-03-01 19:12:58.000000000,2017-03-01 22:50:32.000000000,closed,0,Cache settings
+433,2017-03-01 15:56:47.000000000,2017-03-01 19:04:44.000000000,closed,0,Refactoring around cache
+432,2017-03-01 15:22:33.000000000,2017-03-01 15:51:56.000000000,closed,0,Reimplement the key value store as a cache
+431,2017-02-27 22:06:02.000000000,2017-02-28 22:06:44.000000000,closed,0,Bypass RequestMatcher and use TemplateMatcher directly
+430,2017-02-27 21:27:29.000000000,2017-02-27 21:53:24.000000000,closed,0,Removed request type and treat everything as a template
+429,2017-02-27 20:26:02.000000000,2017-02-27 21:18:51.000000000,closed,1,Remove v1 records api
+428,2017-02-27 14:38:44.000000000,2017-08-25 12:55:50.000000000,closed,16,Simulate stateful behaviour in Hoverfly
+427,2017-02-27 14:30:15.000000000,2017-03-27 19:02:08.000000000,closed,2,cannot unmarshal object into Go value of type []v1.RequestResponsePairView
+426,2017-02-27 09:13:37.000000000,2017-02-27 09:19:16.000000000,closed,2,Feature Request: Simulate Mode with option to use request middleware
+425,2017-02-23 16:39:42.000000000,2017-02-23 16:51:46.000000000,closed,0,Updated hoverctl version to print versions of hoverctl and hoverfly
+424,2017-02-23 15:40:44.000000000,2017-02-23 15:48:16.000000000,closed,0,Updating Hoverfly to build with go1.8
+423,2017-02-22 19:31:44.000000000,2017-02-22 19:31:50.000000000,closed,0,V0.10.2
+422,2017-02-21 17:19:40.000000000,2017-02-21 18:26:37.000000000,closed,2,Option to change Transfer-Encoding: chunked to Transfer-Encoding: identity
+421,2017-02-21 17:14:07.000000000,2017-02-21 22:06:57.000000000,closed,1,Missing information on overriding Hoverfly's default SSL certificate
+420,2017-02-21 15:26:39.000000000,2017-02-21 17:22:48.000000000,closed,0,Made setting auth a bit simpler and removed the restriction as to which data store can be used with auth
+419,2017-02-20 19:58:36.000000000,2017-02-20 20:39:19.000000000,closed,0,Use fmt everywhere instead of logrus
+418,2017-02-20 14:41:26.000000000,2017-02-20 18:28:23.000000000,closed,0,Moved request templates out of the matcher and refactored matcher object
+417,2017-02-19 21:55:01.000000000,2017-02-27 16:00:49.000000000,closed,9,HoverFly vs WireMock
+416,2017-02-17 21:41:22.000000000,2017-02-20 14:40:31.000000000,closed,0,Created Matcher interface
+415,2017-02-17 20:08:50.000000000,2017-02-17 20:10:06.000000000,closed,0,Removed v1 template API as no longer being used by hoverctl
+414,2017-02-17 17:26:39.000000000,2017-02-17 21:10:36.000000000,closed,0,Docs updates
+413,2017-02-17 17:18:10.000000000,2017-08-25 13:55:59.000000000,closed,3,please add a /time to hoverfly for testing
+412,2017-02-17 16:38:01.000000000,2017-02-17 17:05:33.000000000,closed,0,Added nice error messages when missing the path from hoverctl import …
+411,2017-02-17 15:28:50.000000000,2017-02-22 20:10:40.000000000,closed,4,hoverctl export doesn't fail gracefully
+410,2017-02-17 15:28:17.000000000,2017-02-17 15:30:13.000000000,closed,0,Added a test for incorrect auth credentials
+409,2017-02-17 14:47:46.000000000,2017-02-17 15:25:07.000000000,closed,0,Added basic auth to proxy
+408,2017-02-16 21:31:36.000000000,2017-02-16 21:48:32.000000000,closed,0,Using elazarl goproxy
+407,2017-02-16 20:34:20.000000000,2017-02-16 21:07:18.000000000,closed,0,Stopping Hoverflies after upstream proxy test
+406,2017-02-15 21:49:53.000000000,2017-02-15 21:55:38.000000000,closed,0,Updating hoverctl docs and any references to old --version
+405,2017-02-15 20:50:10.000000000,2017-02-15 21:45:42.000000000,closed,0,add hoverctl --help output and fix hover* version
+404,2017-02-15 17:57:00.000000000,2017-02-15 18:05:34.000000000,closed,0,Delays tutorial
+403,2017-02-15 17:20:06.000000000,2017-02-15 17:59:34.000000000,closed,0,Updating godeps to include all dependencies
+402,2017-02-15 07:41:06.000000000,2017-02-15 20:42:18.000000000,closed,3,When is Upstream Proxy support being released?
+401,2017-02-13 18:00:43.000000000,2017-02-15 13:21:54.000000000,closed,0,Minor docs fixes
+400,2017-02-10 23:11:39.000000000,2017-02-10 23:18:34.000000000,closed,0,Trying sphinx theme overrides again
+399,2017-02-10 21:27:21.000000000,2017-02-10 21:27:38.000000000,closed,0,disable custom css
+398,2017-02-10 21:08:10.000000000,2017-02-10 21:13:53.000000000,closed,0,Docs style
+397,2017-02-10 21:06:25.000000000,2017-02-10 21:10:12.000000000,closed,0,Created a SetUpstreamProxy() function to prepend http:// to an upstream proxy address if it is missing
+396,2017-02-10 20:24:11.000000000,2017-02-10 20:34:15.000000000,closed,0,Changed update-version to take in a VERSION arg and removed it from the circle CI build
+395,2017-02-10 20:08:21.000000000,2017-02-10 20:29:36.000000000,closed,0,Added a version command to print the version
+394,2017-02-10 18:16:01.000000000,2017-02-10 18:25:09.000000000,closed,0,minor docs updates
+393,2017-02-10 17:20:51.000000000,2017-02-10 18:24:36.000000000,closed,0,Added a tutorial for setting upstream proxy
+392,2017-02-10 16:47:20.000000000,2017-02-10 17:00:28.000000000,closed,0,Upstream proxy functional test
+391,2017-02-10 14:26:55.000000000,2017-02-10 15:43:16.000000000,closed,0,Added upstream-proxy flag to hoverctl and its config
+390,2017-02-09 18:49:40.000000000,2017-02-10 00:39:06.000000000,closed,0,updated tutorial instructions for clarity
+389,2017-02-09 18:41:55.000000000,2018-01-05 19:43:11.000000000,closed,2,Introduce spy or stub options to Hoverfly
+388,2017-02-09 16:27:35.000000000,2017-02-10 14:20:59.000000000,closed,0,Adding more help text and reviewing existing
+387,2017-02-08 21:39:30.000000000,2017-02-08 21:49:16.000000000,closed,0,Added upstream-proxy setting into /api/v2/hoverfly
+386,2017-02-08 21:21:32.000000000,2017-02-08 21:25:12.000000000,closed,0,Fix #385 set request destination value to lower case
+385,2017-02-08 17:21:35.000000000,2017-02-08 21:27:56.000000000,closed,0,Request destination should be case-insensitive
+384,2017-02-08 16:18:28.000000000,2017-02-09 13:49:23.000000000,closed,6,Hoverfly Usage
+383,2017-02-07 17:28:07.000000000,2017-02-07 20:17:07.000000000,closed,0,Added an API endpoint to retrieve configured upstream-proxy
+382,2017-02-07 16:10:38.000000000,2017-02-07 16:10:48.000000000,closed,0,Develop
+381,2017-02-07 15:34:53.000000000,2017-02-07 15:41:54.000000000,closed,0,Fixed an issue where request bodies weren't being built correctly
+380,2017-02-06 22:39:14.000000000,2017-02-06 22:44:08.000000000,closed,0,docs and examples for URL filtering
+379,2017-02-06 21:48:38.000000000,2017-02-07 15:30:56.000000000,closed,0,Added version to Hoverfly API
+378,2017-02-06 20:29:58.000000000,2017-02-06 21:33:47.000000000,closed,0,Webserver mode
+377,2017-02-05 07:01:42.000000000,2018-03-16 15:41:22.000000000,closed,3,I think your sequence diagrams are not quite right
+376,2017-02-05 06:40:31.000000000,2018-05-25 14:52:38.000000000,closed,2,Synthesize mode - documentation clarification as to API and heterogeneous nature of plugin
+375,2017-02-05 06:30:51.000000000,2018-11-28 05:03:21.000000000,closed,3,capture mode should have an extra optional param: --donotcapture
+374,2017-02-04 12:12:37.000000000,2017-02-06 21:36:37.000000000,closed,7,Added ProxyFromEnvironment configuration option 
+373,2017-02-04 12:03:38.000000000,2017-02-06 21:51:20.000000000,closed,3,Can't use http_proxy or https_proxy directly with hoverfly
+372,2017-02-03 20:32:32.000000000,2017-02-03 20:51:16.000000000,closed,0,Using spf13/cobra and tools/godeps
+371,2017-02-03 20:12:02.000000000,2017-02-03 20:23:38.000000000,closed,0,Added a standard way to running a process and getting output for functional tests
+370,2017-02-03 18:02:58.000000000,2017-02-23 16:14:45.000000000,closed,2,CHANGELOG.md
+369,2017-02-03 17:38:53.000000000,2017-03-09 13:45:18.000000000,closed,42,Help on Hoverfly GUI  localhost:8888
+368,2017-02-03 14:54:09.000000000,2017-08-25 14:22:57.000000000,closed,17,Incompatibility when proxying CORS/Ajax solution
+367,2017-02-01 17:00:26.000000000,2017-02-03 20:04:41.000000000,closed,0,Refactoring functional tests
+366,2017-01-24 14:45:14.000000000,2019-02-26 20:15:19.000000000,closed,4,Helm chart for Hoverfly
+365,2017-01-20 20:02:10.000000000,2017-01-20 20:17:36.000000000,closed,0,Shared deps between functional-tests and moving DoRequest to functional_test page to be shared between both test suites
+364,2017-01-19 22:27:20.000000000,2017-01-20 19:38:15.000000000,closed,0,Sort query strings when matching requests to templates
+363,2017-01-19 17:06:12.000000000,2017-01-19 17:15:20.000000000,closed,0,Using regexp to test version output
+362,2017-01-19 16:24:04.000000000,2017-01-19 16:30:40.000000000,closed,0,Moving the config messages before the commit
+361,2017-01-19 15:54:16.000000000,2017-01-19 16:09:18.000000000,closed,0,Added name and email to update-version git push
+360,2017-01-19 14:42:24.000000000,2017-01-19 14:53:43.000000000,closed,0,Rewording some help instructions on hoverctl
+359,2017-01-17 22:30:13.000000000,2017-01-17 22:35:31.000000000,closed,0,Docs for v0.10.0
+358,2017-01-17 21:07:26.000000000,2017-02-22 20:11:01.000000000,closed,2,Ability to secure proxy with authentication headers
+357,2017-01-17 20:10:35.000000000,2017-01-17 20:15:35.000000000,closed,0,Develop
+356,2017-01-17 20:02:03.000000000,2017-01-17 20:05:52.000000000,closed,0,Db in memory
+355,2017-01-17 19:49:20.000000000,2017-01-17 19:54:11.000000000,closed,0,Hoverfly schema version
+354,2017-01-17 18:37:53.000000000,2019-02-19 19:25:02.000000000,closed,2,Hoverfly verifier
+353,2017-01-17 16:37:14.000000000,2017-06-09 19:54:12.000000000,closed,0,Proposed rewrite of matching logic
+352,2017-01-16 19:04:41.000000000,2017-01-16 19:55:07.000000000,closed,2,Refactor
+351,2017-01-15 02:55:00.000000000,2017-09-27 14:10:13.000000000,closed,2,Add status command to hoverctl
+350,2017-01-13 23:01:24.000000000,2017-01-16 18:33:31.000000000,closed,0,Proofread docs
+349,2017-01-10 19:21:27.000000000,2017-01-13 09:05:21.000000000,closed,11,UI not reflecting traffic
+348,2017-01-10 18:36:40.000000000,2017-01-10 18:38:27.000000000,closed,1,Fix image and clarify export file
+347,2017-01-09 19:59:18.000000000,2017-01-10 16:16:20.000000000,closed,0,Download links are constructed using sphinx 'version' variable
+346,2017-01-09 18:55:37.000000000,2017-01-09 19:03:07.000000000,closed,1,"Final tidy to middleware, maybe"
+345,2017-01-09 18:34:32.000000000,2017-01-09 18:54:06.000000000,closed,1,Tidying up new middleware implementation
+344,2017-01-09 18:02:26.000000000,2017-01-09 18:03:52.000000000,closed,0,Style docs
+343,2017-01-07 20:25:35.000000000,2017-01-09 18:14:14.000000000,closed,1,Please remap hoverfly.io to the new readthedocs documentation
+342,2017-01-06 17:30:47.000000000,2017-01-06 23:44:56.000000000,closed,1,Improved logging around captureRequest and return error to avoid panics
+341,2016-12-29 13:53:36.000000000,2017-01-03 18:49:59.000000000,closed,1,Simulate and capture mode simultaneously
+340,2016-12-29 13:49:01.000000000,2018-11-29 02:17:13.000000000,closed,1,Hoverfly export corrupt data in non-utf encodings (cp-1251 for example)
+339,2016-12-29 13:48:01.000000000,2017-04-18 17:24:22.000000000,closed,2,Hoverfly should record same request twice if headers are different
+338,2016-12-28 13:41:03.000000000,2017-01-03 17:45:17.000000000,closed,1,Is there any architecture document?
+337,2016-12-24 21:57:08.000000000,2017-01-10 16:15:13.000000000,closed,4,GetAllEntries in memory cache not returning 'dest' as intented
+336,2016-12-24 18:11:10.000000000,2017-08-25 14:53:57.000000000,closed,0,debugging hoverfly
+335,2016-12-24 16:24:30.000000000,2016-12-24 16:57:14.000000000,closed,0,added build and test instructions to README
+334,2016-12-24 15:52:37.000000000,2016-12-24 16:57:51.000000000,closed,2,build and run instructions missing from README
+333,2016-12-24 15:42:11.000000000,2017-03-31 13:13:58.000000000,closed,8,simulations.json is different each time it gets curled
+332,2016-12-23 19:09:53.000000000,2016-12-23 21:35:55.000000000,closed,0,docs re-write
+331,2016-12-23 16:50:42.000000000,2016-12-23 17:16:24.000000000,closed,1,"Middleware tidy up, part 1"
+330,2016-12-22 15:55:44.000000000,2016-12-22 18:20:28.000000000,closed,1,Move to middleware v2
+329,2016-12-16 16:19:58.000000000,2017-03-27 18:56:37.000000000,closed,3,Recording request headers should be optional
+328,2016-12-15 21:33:37.000000000,2016-12-15 21:36:16.000000000,closed,0,docs favicon
+327,2016-12-15 21:08:42.000000000,2016-12-15 21:09:01.000000000,closed,0,more styling tweaks
+326,2016-12-15 20:18:46.000000000,2016-12-15 20:25:35.000000000,closed,0,styling sphinx docs
+325,2016-12-15 14:44:25.000000000,2017-09-29 18:32:59.000000000,closed,5,Hoverctl bash auto-completion
+324,2016-12-14 22:18:19.000000000,2016-12-15 15:17:36.000000000,closed,0,Docs
+323,2016-12-14 18:42:56.000000000,2016-12-14 18:45:14.000000000,closed,0,added sphinx documentation
+322,2016-12-13 19:15:23.000000000,2016-12-13 19:23:50.000000000,closed,1,"When building a hash of the request, query parameters are now alphabeticised"
+321,2016-12-13 17:22:59.000000000,2017-02-15 20:45:01.000000000,closed,2,Matching request query should ignore the order of query parameters
+320,2016-12-12 22:06:02.000000000,2016-12-13 15:32:25.000000000,closed,1,Adding binary and script to middleware
+319,2016-12-08 20:31:16.000000000,2016-12-12 15:40:12.000000000,closed,1,Removed pipelines from running middleware
+318,2016-12-08 19:23:04.000000000,2016-12-08 19:28:27.000000000,closed,1,"Moved some middleware stuff onto a new Middleware struct, which is now used to store the middleware"
+317,2016-12-02 16:43:25.000000000,2016-12-02 16:44:11.000000000,closed,0,Starting hoverfly with hoverctl now prints the ports used out
+316,2016-12-02 15:37:31.000000000,2016-12-02 16:22:05.000000000,closed,0,hoverctl will now pretty format json when exporting from Hoverfly
+315,2016-12-01 15:45:02.000000000,2016-12-02 15:36:02.000000000,closed,0,Updated the error messages in the v2 simulation handler
+314,2016-11-30 20:00:37.000000000,2016-11-30 20:04:03.000000000,closed,0,Updated the link to the docs
+313,2016-11-29 16:18:06.000000000,2016-11-29 16:35:37.000000000,closed,1,Fixed a bug where Hoverfly blocks after failing to find a request in the memory_cache
+312,2016-11-28 18:29:07.000000000,2016-11-28 19:08:20.000000000,closed,1,Added the defaults for hoverfly.tls.disable config
+311,2016-11-25 20:30:01.000000000,2016-11-25 20:31:09.000000000,closed,1,New commands and flags on hoverctl
+310,2016-11-25 19:57:30.000000000,2016-11-25 20:01:17.000000000,closed,1,Tidying up hoverctl
+309,2016-11-25 19:42:19.000000000,2016-11-25 19:53:18.000000000,closed,1,Added a config command to get the configuration being used by hoverctl as well as the location of the config file
+308,2016-11-25 19:33:12.000000000,2016-11-25 19:39:54.000000000,closed,1,Merged the flagbuilding into config
+307,2016-11-25 19:23:28.000000000,2016-11-25 19:29:02.000000000,closed,1,Added the --disable-tls flag to hoverctl
+306,2016-11-25 19:15:59.000000000,2016-11-25 19:20:45.000000000,closed,1,Added support for custom certificate and key locations
+305,2016-11-25 19:11:02.000000000,2016-11-25 19:13:36.000000000,closed,1,Fixed the flakey test that has a 50% pass rate
+304,2016-11-22 22:07:21.000000000,2016-11-22 22:07:26.000000000,closed,0,Created a struct around []string
+303,2016-11-18 15:52:01.000000000,2016-11-25 19:08:22.000000000,closed,1,The destination matches on the host and path
+302,2016-11-15 16:43:10.000000000,2016-11-15 20:01:37.000000000,closed,1,Updating hoverctl to use Hoverfly v2 API 
+301,2016-11-14 19:42:03.000000000,2016-11-14 20:39:07.000000000,closed,0,Use docker EXEC entrypoint and not SHELL type 
+300,2016-11-14 17:06:57.000000000,2016-11-15 16:37:39.000000000,closed,0,Removing the docs from the repo
+299,2016-11-11 19:04:49.000000000,2016-11-11 19:07:00.000000000,closed,0,New API for Hoverfly
+298,2016-11-11 17:53:33.000000000,2016-11-28 20:09:40.000000000,closed,2,"hoverctl loads hoverfly from PATH, should look in current directory first"
+297,2016-11-10 21:48:27.000000000,2016-11-10 22:06:35.000000000,closed,1,hoverctl import now works with urls
+296,2016-11-10 21:31:27.000000000,2016-11-10 21:32:18.000000000,closed,1,"hoverctl now uses the v2 API for importing, a --v1 flag is available for older simulations"
+295,2016-11-10 20:09:57.000000000,2016-11-10 21:30:17.000000000,closed,1,Errors on the put method for v2 simulations now error properly
+294,2016-11-10 16:31:54.000000000,2016-11-10 19:27:24.000000000,closed,0,hoverctl export now uses the v2 api
+293,2016-11-10 15:56:51.000000000,2016-11-10 15:58:30.000000000,closed,0,Create and upload zip archives of binaries to github releases page during release
+292,2016-11-10 15:40:19.000000000,2016-11-10 15:55:33.000000000,closed,0,Create & release zips of Hoverfly and hoverctl for each OS as part of release build
+291,2016-11-09 21:01:11.000000000,2016-11-10 14:58:46.000000000,closed,0,"Removing push, pull and the localcache from hoverctl, updating import and export to work with paths"
+290,2016-11-07 21:38:19.000000000,2016-11-09 20:01:38.000000000,closed,1,V2 api put
+289,2016-11-02 16:14:06.000000000,2016-11-02 17:37:36.000000000,closed,1,Templates are now included in the GetSimulation
+288,2016-11-01 19:04:19.000000000,2016-11-01 19:22:35.000000000,closed,1,Duplicated a load of tests for the new ConvertTo functions
+287,2016-11-01 18:29:51.000000000,2016-11-01 18:51:54.000000000,closed,0,Renaming some of the conversion to view functions
+286,2016-11-01 16:16:23.000000000,2016-11-01 16:58:33.000000000,closed,1,A bit more refactoring around before implementing the PutSimulation function correctly
+285,2016-10-31 18:26:26.000000000,2016-11-01 14:21:25.000000000,closed,1,ImportRequestResponsePairViews how accepts the interface
+284,2016-10-26 00:11:27.000000000,2016-11-28 20:07:57.000000000,closed,2,Hoverctl to Support -cert and -key
+283,2016-10-25 15:21:04.000000000,2016-10-25 18:20:44.000000000,closed,1,"Created and started using an interface for requests, responses and pairs for converting views into model structs"
+282,2016-10-24 19:12:30.000000000,2016-10-24 19:43:18.000000000,closed,1,/api/v2/simulations will now delete
+281,2016-10-24 12:58:22.000000000,2016-11-11 19:00:15.000000000,closed,0,API docs for v2 and changes to hoverctl parts of docs
+280,2016-10-17 16:01:14.000000000,2016-10-19 16:21:06.000000000,closed,0,Migrating docs into Hoverfly repo
+279,2016-10-14 19:34:02.000000000,2016-10-14 19:38:26.000000000,closed,1,Just doing a go fmt to keep everything nice and formatted
+278,2016-10-14 17:47:40.000000000,2016-10-14 18:21:59.000000000,closed,0,Created /api/v2/simulation
+277,2016-10-04 18:19:42.000000000,2016-10-04 18:48:56.000000000,closed,1,Moved v1 views from the views package to the handlers.v1 package
+276,2016-10-03 20:57:43.000000000,2016-10-04 16:05:59.000000000,closed,1,Tidy up and removing views from ResponseDelays
+275,2016-10-03 14:03:01.000000000,2017-08-25 14:52:58.000000000,closed,2,Review diagnostics in case of panic!
+274,2016-09-27 17:05:53.000000000,2016-09-27 17:08:57.000000000,closed,0,Removed models dependency from add_handler
+273,2016-09-26 20:27:52.000000000,2016-09-27 12:31:28.000000000,closed,0,Moved the template views into the handlers.v1 package
+272,2016-09-26 14:40:22.000000000,2016-09-26 17:06:10.000000000,closed,0,Created /api/v2/hoverfly
+271,2016-09-23 20:25:48.000000000,2016-09-23 22:48:40.000000000,closed,0,Created /api/v2/hoverfly/usage
+270,2016-09-23 18:27:19.000000000,2016-09-23 18:29:35.000000000,closed,0,Created /api/v2/hoverfly/destination
+269,2016-09-23 14:56:55.000000000,2016-09-23 16:30:15.000000000,closed,0,Created /api/v2/hoverfly/middleware
+268,2016-09-22 20:20:52.000000000,2016-09-23 14:17:14.000000000,closed,0,Created a new endpoint for getting and putting the mode
+267,2016-09-22 15:53:36.000000000,2016-09-22 19:24:06.000000000,closed,0,Moved handlers into a v1 package
+266,2016-09-21 20:47:33.000000000,2016-09-21 20:52:20.000000000,closed,0,Fixed up the readthedocs query as subdomain was removed from their api
+265,2016-09-21 18:51:03.000000000,2016-09-21 19:49:59.000000000,closed,0,Moved the auth controller stuff into a handler
+264,2016-09-20 20:20:37.000000000,2016-09-20 20:50:48.000000000,closed,0,Moved the routes into each of the handlers
+263,2016-09-20 15:47:34.000000000,2016-09-20 20:09:55.000000000,closed,0,Moving admin handlers from admin.go into a handler package
+262,2016-09-12 13:50:09.000000000,2016-09-21 20:53:57.000000000,closed,3,readthedocs_query outdated
+261,2016-09-09 19:52:38.000000000,2016-09-19 13:45:05.000000000,closed,0,Resolve redirects when importing remote resources
+260,2016-09-09 19:20:35.000000000,2016-11-28 20:12:45.000000000,closed,0,--import flag will not redirect to retrieve HTTP JSON
+259,2016-09-08 15:03:19.000000000,2016-09-08 15:37:53.000000000,closed,0,Fixed a bug where redirects where not saved
+258,2016-09-08 13:51:57.000000000,2016-09-08 14:42:21.000000000,closed,1,Refactoring around Hoverfly.processRequest
+257,2016-09-06 08:35:50.000000000,1970-01-01 00:00:00.000000001,open,5,http/2 support
+256,2016-09-01 12:58:10.000000000,2016-09-08 13:36:26.000000000,closed,2,RequestTemplates now allow for * wildcards
+255,2016-08-31 19:51:18.000000000,2019-02-13 15:13:56.000000000,closed,28,Runtime error: invalid memory address or nil pointer reference
+254,2016-08-26 16:06:04.000000000,2016-08-26 16:15:10.000000000,closed,1,updated install script
+253,2016-08-26 13:32:44.000000000,2016-08-26 16:13:47.000000000,closed,1,/api/records will now accept request template pairs as well as regular pairs
+252,2016-08-24 22:01:28.000000000,2016-08-26 19:40:30.000000000,closed,4,hoverfly as webserver doesn't provide the right content-type
+251,2016-08-24 21:55:59.000000000,2019-05-02 14:09:03.000000000,closed,6,Delays does not follow convention set by RequestMatchers
+250,2016-08-24 19:37:22.000000000,2016-08-24 20:07:33.000000000,closed,1,Fixing up warnings that glide prints during build
+249,2016-08-24 15:14:47.000000000,2016-08-24 15:19:05.000000000,closed,1,Sacked off the glide.lock file for a new one
+248,2016-08-23 17:54:53.000000000,2016-09-08 17:55:32.000000000,closed,2,"Running into ""No match found"" error"
+247,2016-08-23 14:02:07.000000000,2016-08-23 14:49:25.000000000,closed,4,Issues with POST requests
+246,2016-08-23 13:51:20.000000000,2016-08-23 14:00:48.000000000,closed,1,"Removed pls, bts and rr"
+245,2016-08-23 12:19:30.000000000,2016-08-23 12:23:21.000000000,closed,1,RequestTemplates will now match a RequestDetails based on Body
+244,2016-08-22 14:56:34.000000000,2016-08-23 12:16:45.000000000,closed,1,Tried removing payload when it was being generically used
+243,2016-08-17 20:28:09.000000000,2016-08-18 14:08:54.000000000,closed,1,Headers in webserver mode
+242,2016-08-17 02:28:17.000000000,2016-09-22 16:01:04.000000000,closed,2,Partially match in templates
+241,2016-08-09 17:19:46.000000000,2016-08-09 17:40:36.000000000,closed,1,Updated the package name for the hoverctl functional tests
+240,2016-08-04 15:23:58.000000000,2016-08-05 09:10:20.000000000,closed,0,added install script
+239,2016-08-04 13:05:00.000000000,2016-08-04 13:26:14.000000000,closed,0,Added an example for middleware that can run on AWS Lambda
+238,2016-08-03 18:21:11.000000000,2016-08-03 19:35:30.000000000,closed,0,Added examples for request templates
+237,2016-08-03 14:11:20.000000000,2016-08-03 16:33:40.000000000,closed,2,Changes to hoverctl and documentation regarding delays
+236,2016-08-02 14:14:26.000000000,2016-08-02 14:55:13.000000000,closed,1,Gofmt
+235,2016-08-01 20:53:49.000000000,2016-08-02 13:49:50.000000000,closed,1,Delete now uses a switch statement with a default to capture include resource
+234,2016-08-01 19:52:35.000000000,2016-08-02 13:35:42.000000000,closed,1,Attempts to improve reliability of functional tests
+233,2016-07-29 21:18:46.000000000,2016-07-30 13:58:26.000000000,closed,0,Fix templates api tests so test assertions are really validating the behaviour
+232,2016-07-29 20:11:49.000000000,2016-07-29 20:53:27.000000000,closed,1,"New requests populate the payload instead of the old, cached requests"
+231,2016-07-29 19:05:16.000000000,2016-07-29 19:08:31.000000000,closed,1,Route to index page handler should not capture all unrouted paths
+230,2016-07-28 17:21:56.000000000,2016-07-28 17:57:16.000000000,closed,0,Views
+229,2016-07-27 18:51:48.000000000,2016-07-27 19:09:40.000000000,closed,0,More tidy tests
+228,2016-07-26 20:39:21.000000000,2016-07-26 20:44:03.000000000,closed,1,Tidy tests
+227,2016-07-26 20:12:12.000000000,2016-07-26 20:17:09.000000000,closed,0,add middleware to hoverctl delete all cmd
+226,2016-07-26 18:50:47.000000000,2016-07-26 19:31:43.000000000,closed,1,Partial matching first pass
+225,2016-07-26 14:14:55.000000000,2016-07-26 15:02:14.000000000,closed,0,Middleware api
+224,2016-07-25 14:46:53.000000000,2016-07-25 17:08:36.000000000,closed,0,Remote middleware
+223,2016-07-19 19:26:32.000000000,2016-07-19 19:28:20.000000000,closed,1,Change responsedelay struct to return camelCased fields
+222,2016-07-19 18:53:14.000000000,2016-07-19 19:00:11.000000000,closed,0,Putting the --version in hoverfly and hoverctl
+221,2016-07-19 14:46:09.000000000,2016-07-19 14:56:20.000000000,closed,0,Updated the README with some details about using homebrew to install …
+220,2016-07-19 13:47:37.000000000,2016-07-19 13:52:21.000000000,closed,0,Add a Gitter chat badge to readme.md
+219,2016-07-18 20:47:59.000000000,2016-07-18 20:49:28.000000000,closed,1,"Merge in hoverctl logs, hoverfly cache rebuilding and hoverfly partial matching on URL and HTTP Method"
+218,2016-07-18 20:34:50.000000000,2016-07-18 20:39:20.000000000,closed,0,"Important file, yo!"
+217,2016-07-18 19:56:53.000000000,2016-07-18 20:39:28.000000000,closed,0,Here is a test file
+216,2016-07-18 19:56:51.000000000,2016-07-18 20:17:23.000000000,closed,0,Circle load tests + Docker hub publish
+215,2016-07-18 18:55:07.000000000,2016-07-18 19:19:15.000000000,closed,0,Extra delay matching
+214,2016-07-15 15:19:45.000000000,2016-07-15 15:20:12.000000000,closed,0,Update the makefile so our binaries are named correctly
+213,2016-07-15 14:34:13.000000000,2016-07-15 17:11:29.000000000,closed,6,Following installation getting : {error:Not Found}
+212,2016-07-13 19:00:15.000000000,2016-07-20 19:06:37.000000000,closed,4,Failed to retrieve response from cache using BoltDB
+211,2016-07-13 13:10:56.000000000,2016-07-20 19:10:10.000000000,closed,1,Set response delays based on HTTP Method
+210,2016-07-12 20:06:41.000000000,2016-07-12 20:26:37.000000000,closed,1,Set response delays per URL based on URL pattern
+209,2016-07-12 20:06:08.000000000,2016-07-20 19:10:18.000000000,closed,2,Set response delays per URL based on URL pattern
+208,2016-07-12 14:42:19.000000000,2016-07-12 14:47:53.000000000,closed,0,"Merge in hoverctl, response delays and webserver"
+207,2016-06-30 02:00:45.000000000,2016-07-07 01:22:25.000000000,closed,4,Different behavior in downloaded binary and self-compiled code
+206,2016-06-20 19:29:30.000000000,2016-09-08 17:56:40.000000000,closed,2,virtualized from oneTool/machine didn't work on other machine/Tool
+205,2016-06-20 19:00:21.000000000,2017-02-23 16:19:33.000000000,closed,1,hoverfly decoding the encode url
+204,2016-06-17 17:18:03.000000000,2016-08-04 01:49:06.000000000,closed,3,Partially matching requests
+203,2016-06-13 18:31:18.000000000,2017-02-09 14:25:17.000000000,closed,5,Cache to match on request headers 
+202,2016-06-01 16:12:09.000000000,2016-07-12 19:57:33.000000000,closed,4,Run Hoverfly in simulate mode as web server
+201,2016-06-01 13:35:31.000000000,2018-10-09 17:26:04.000000000,closed,13,Implement two way SSL
+200,2016-05-31 17:43:03.000000000,2016-07-12 14:18:06.000000000,closed,0,Updating maintainer of Hoverfly Dockerfile
+199,2016-05-26 21:37:24.000000000,2016-10-01 12:40:58.000000000,closed,4,middleware delay not working for PT --> beyond 60TPS
+198,2016-05-20 14:13:49.000000000,2016-05-20 14:14:03.000000000,closed,0,v0.6.0
+197,2016-05-19 19:55:45.000000000,2016-05-19 19:56:49.000000000,closed,0,Now we base 64 encode / decode binary data going to and from middleware
+196,2016-05-19 15:33:17.000000000,2016-05-19 17:14:22.000000000,closed,0,Functional test for appending records
+195,2016-05-18 18:28:54.000000000,2016-06-19 14:55:33.000000000,closed,8,Binary data response with synthetic middleware
+194,2016-05-16 19:57:10.000000000,2016-05-17 19:26:57.000000000,closed,0,"Added functional test for middleware during capture mode, and fixed i…"
+193,2016-05-16 13:43:51.000000000,2016-05-16 13:45:31.000000000,closed,0,Functional tests
+192,2016-05-16 13:02:12.000000000,2016-05-16 13:07:48.000000000,closed,0,Functional test for capture mode
+191,2016-05-13 18:28:08.000000000,2016-05-13 20:48:54.000000000,closed,0,Exporting binary fix
+190,2016-05-13 18:20:51.000000000,2016-07-12 18:59:47.000000000,closed,6,2way SSL is not supported
+189,2016-05-12 20:05:23.000000000,2016-05-12 20:08:55.000000000,closed,0,Updated to latests glide version and removed all submodules from the …
+188,2016-05-12 13:23:33.000000000,2016-05-12 13:23:52.000000000,closed,0,Gzip
+187,2016-05-09 13:21:01.000000000,2016-05-09 13:26:51.000000000,closed,0,Next release
+186,2016-05-09 13:20:03.000000000,2016-05-09 13:20:29.000000000,closed,0,Next release
+185,2016-04-28 14:15:57.000000000,2016-04-28 14:16:05.000000000,closed,0,Feature/docs readme update
+184,2016-04-26 22:48:03.000000000,2016-04-29 02:24:41.000000000,closed,2,Docs did not match build output path
+183,2016-04-22 16:20:48.000000000,2017-06-09 16:24:42.000000000,closed,3,Edit request with graphic interface
+182,2016-04-21 13:44:17.000000000,2016-04-21 14:23:56.000000000,closed,0,Feature/import through env var
+181,2016-04-20 19:14:59.000000000,2016-04-20 19:17:20.000000000,closed,0,Feature/docs update
+180,2016-04-20 15:11:42.000000000,2016-04-20 15:13:28.000000000,closed,0,Feature/docs
+179,2016-04-20 13:38:46.000000000,2016-04-20 13:56:06.000000000,closed,0,Feature/docs
+178,2016-04-20 13:19:32.000000000,2016-04-20 13:19:44.000000000,closed,0,Develop
+177,2016-04-20 12:39:35.000000000,2016-04-20 12:57:04.000000000,closed,0,Feature/admin from env vars
+176,2016-04-18 16:20:02.000000000,2016-04-18 16:21:41.000000000,closed,0,Feature/new ui
+175,2016-04-15 16:59:55.000000000,2016-04-15 17:00:01.000000000,closed,0,merging master into dev
+174,2016-04-15 13:13:19.000000000,2016-04-15 13:13:38.000000000,closed,0,Develop
+173,2016-04-08 18:12:37.000000000,2016-04-08 18:36:34.000000000,closed,0,Develop
+172,2016-04-08 18:06:24.000000000,2016-04-08 18:12:18.000000000,closed,0,Update admin.go
+171,2016-04-08 17:55:31.000000000,2016-04-08 17:59:43.000000000,closed,0,Update admin.go
+170,2016-04-01 18:34:09.000000000,2016-04-01 18:34:38.000000000,closed,0,Develop
+169,2016-04-01 18:31:32.000000000,2016-04-19 13:05:21.000000000,closed,12,Lookup response by key only
+168,2016-04-01 14:37:25.000000000,2016-04-01 14:39:48.000000000,closed,0,Feature/refactor
+167,2016-03-31 19:07:50.000000000,2016-04-01 13:33:13.000000000,closed,0,Added in memory cache support
+166,2016-03-24 18:31:45.000000000,2016-03-29 14:34:27.000000000,closed,0,Feature/optional tls verification
+165,2016-03-23 20:40:13.000000000,2016-03-24 15:23:28.000000000,closed,0,Feature/custom certs
+164,2016-03-22 22:12:35.000000000,2016-03-22 22:12:39.000000000,closed,0,Develop
+163,2016-03-22 14:02:23.000000000,2016-03-22 14:03:38.000000000,closed,0,Feature/adding minify to vendor
+162,2016-03-21 17:05:56.000000000,2016-03-21 17:07:25.000000000,closed,0,Develop
+161,2016-03-18 22:47:03.000000000,2016-03-21 17:05:39.000000000,closed,0,Feature/compact json xml req bodies
+160,2016-03-17 14:25:01.000000000,2016-03-17 18:10:24.000000000,closed,0,Feature/metadata refactor to use boltdb package
+159,2016-03-17 13:13:10.000000000,2016-03-17 13:14:51.000000000,closed,0,Feature/moving backend to separate package
+158,2016-03-16 20:47:57.000000000,2016-03-16 22:19:31.000000000,closed,0,Feature/moving backend to separate package
+157,2016-03-16 19:28:29.000000000,2016-03-16 19:40:59.000000000,closed,0,Feature/refactor metadata
+156,2016-03-16 16:34:56.000000000,2016-03-16 17:14:39.000000000,closed,0,Changed cache always work with byte[][] as opposed to Payload structs
+155,2016-03-15 21:31:21.000000000,2016-03-16 03:24:04.000000000,closed,0,updated readme
+154,2016-03-15 20:50:17.000000000,2016-03-15 20:54:28.000000000,closed,0,Feature/refactor start stop
+153,2016-03-14 18:37:42.000000000,2016-03-14 18:59:01.000000000,closed,0,Feature/destination update api
+152,2016-03-13 15:15:42.000000000,2016-07-19 15:06:46.000000000,closed,3,Homebrew formula
+151,2016-03-11 18:49:24.000000000,2016-03-11 18:49:28.000000000,closed,0,Develop
+150,2016-03-11 18:46:44.000000000,2016-03-11 18:48:54.000000000,closed,0,additional logs for debugging
+149,2016-03-10 21:05:12.000000000,2016-03-10 21:05:22.000000000,closed,0,Develop
+148,2016-03-10 17:43:20.000000000,2016-03-10 19:35:44.000000000,closed,0,Feature/list destinations
+147,2016-03-09 17:14:47.000000000,2016-03-09 17:14:51.000000000,closed,0,Develop
+146,2016-03-09 17:14:26.000000000,2016-03-09 17:14:33.000000000,closed,0,Feature/deployment
+145,2016-03-08 15:19:56.000000000,2016-03-08 15:20:00.000000000,closed,0,Develop
+144,2016-03-08 15:19:43.000000000,2016-03-08 15:19:46.000000000,closed,0,"updating existing packages, should fix jenkins build"
+143,2016-03-07 18:17:17.000000000,2016-03-07 18:21:04.000000000,closed,0,Develop
+142,2016-03-07 17:50:36.000000000,2016-03-07 18:16:49.000000000,closed,0,Feature/metadata api
+141,2016-03-04 20:55:36.000000000,2016-03-04 21:01:51.000000000,closed,0,Develop
+140,2016-03-04 20:53:45.000000000,2016-03-04 20:55:20.000000000,closed,0,Feature/multiple imports
+139,2016-03-04 19:44:08.000000000,2016-03-04 19:45:35.000000000,closed,0,Feature/jwt tests
+138,2016-03-03 06:22:11.000000000,2016-03-03 06:23:53.000000000,closed,0,Develop
+137,2016-03-03 06:17:24.000000000,2016-03-03 06:21:58.000000000,closed,0,removing multiple middlewares documentation 
+136,2016-02-29 21:34:14.000000000,2016-02-29 21:39:39.000000000,closed,0,Develop
+135,2016-02-29 21:33:07.000000000,2016-02-29 21:33:16.000000000,closed,0,Feature/pipe commands
+134,2016-02-29 19:22:05.000000000,2016-02-29 19:22:08.000000000,closed,0,Feature/pick db location flag
+133,2016-02-29 18:12:39.000000000,2016-02-29 18:56:34.000000000,closed,0,updated Makefile with CI deps
+132,2016-02-29 16:38:26.000000000,2016-02-29 16:41:53.000000000,closed,0,added Makefile and updated readme
+131,2016-02-29 16:27:14.000000000,2016-02-29 16:27:17.000000000,closed,0,Develop
+130,2016-02-29 16:26:56.000000000,2016-02-29 16:27:00.000000000,closed,0,Feature/dep fix
+129,2016-02-29 16:26:07.000000000,2016-02-29 16:26:11.000000000,closed,0,Feature/dep fix
+128,2016-02-29 14:46:37.000000000,2016-02-29 14:52:16.000000000,closed,0,Develop
+127,2016-02-29 14:39:13.000000000,2016-02-29 14:45:58.000000000,closed,0,Feature/small fix for not empty body
+126,2016-02-29 14:13:23.000000000,2016-02-29 14:16:25.000000000,closed,0,Develop
+125,2016-02-29 14:08:09.000000000,2016-02-29 14:11:47.000000000,closed,0,Feature/cleanup
+124,2016-02-26 18:55:53.000000000,2016-02-26 18:57:14.000000000,closed,0,Feature/middleware missing req headers
+123,2016-02-26 16:10:26.000000000,2016-02-26 16:11:41.000000000,closed,0,Feature/using forked goproxy
+122,2016-02-25 21:30:21.000000000,2016-02-25 21:46:19.000000000,closed,0,Feature/manual add
+121,2016-02-25 20:25:35.000000000,2016-07-12 18:58:44.000000000,closed,16,unable to use hoverfly with firefox / https
+120,2016-02-25 15:35:40.000000000,2016-02-29 14:55:21.000000000,closed,1,Include request headers in middleware payload
+119,2016-02-24 21:23:51.000000000,2016-02-29 14:53:23.000000000,closed,1,Log input middleware will receive at verbose level
+118,2016-02-24 21:20:18.000000000,2016-02-29 14:55:06.000000000,closed,2,Include stderr output of middleware when logging middleware failure
+117,2016-02-24 18:38:39.000000000,2016-02-24 18:38:46.000000000,closed,0,Feature/dockerfile fix
+116,2016-02-23 17:48:32.000000000,2016-02-23 20:34:23.000000000,closed,0,Feature/admin auth
+115,2016-02-20 01:46:25.000000000,2016-02-20 01:46:29.000000000,closed,0,Develop
+114,2016-02-19 21:21:44.000000000,2016-02-20 01:46:06.000000000,closed,0,Docs/update readme
+113,2016-02-19 21:20:54.000000000,2016-02-19 21:21:04.000000000,closed,0,updated blogpost links
+112,2016-02-19 14:12:19.000000000,2016-04-01 18:46:28.000000000,closed,1,Add support for ZeroMQ or RabbitMQ
+111,2016-02-18 03:57:08.000000000,2016-02-18 03:57:13.000000000,closed,0,Develop
+110,2016-02-17 22:49:03.000000000,2016-02-17 22:50:14.000000000,closed,0,Feature/import on startup
+109,2016-02-14 15:43:56.000000000,2016-02-15 02:07:21.000000000,closed,0,Develop
+108,2016-02-14 15:43:42.000000000,2016-02-14 15:43:44.000000000,closed,0,fixing bug when correct request IDs are not visible during export
+107,2016-02-12 21:16:01.000000000,2016-02-12 21:17:50.000000000,closed,0,docstring updated
+106,2016-02-12 20:56:29.000000000,2016-02-12 20:58:22.000000000,closed,0,Feature/refactor cache
+105,2016-02-12 20:49:29.000000000,2016-02-12 21:00:51.000000000,closed,0,Update readme.md
+104,2016-02-12 16:14:16.000000000,2016-02-12 16:14:19.000000000,closed,0,Develop
+103,2016-02-12 16:14:02.000000000,2016-02-12 16:14:06.000000000,closed,0,readme updated
+102,2016-02-10 21:40:35.000000000,2016-02-10 21:40:39.000000000,closed,0,Develop
+101,2016-02-10 20:40:09.000000000,2016-02-10 21:00:55.000000000,closed,1,Change API access URIs to be more convenient (for me!)
+100,2016-02-10 18:51:17.000000000,2016-02-10 18:51:33.000000000,closed,0,adding hooks to cleanup and  configuration change actions
+99,2016-02-10 18:28:45.000000000,2016-02-10 18:33:00.000000000,closed,0,GetAllKeys now returns map instead of string slice
+98,2016-02-08 21:51:08.000000000,2016-02-08 21:51:27.000000000,closed,0,Feature/optional calls
+97,2016-02-08 21:20:14.000000000,2016-02-29 14:56:10.000000000,closed,4,param -v don't show output where script crash
+96,2016-02-08 21:07:59.000000000,2016-02-12 22:12:19.000000000,closed,2,How to force use python3
+95,2016-02-08 20:06:39.000000000,2016-02-08 20:10:33.000000000,closed,0,Develop
+94,2016-02-08 20:03:33.000000000,2016-02-08 20:06:01.000000000,closed,0,Feature/fix modify missing req info
+93,2016-02-08 17:48:48.000000000,2016-02-08 21:06:17.000000000,closed,7,Inspecting in middleware script
+92,2016-02-08 15:32:16.000000000,2016-02-08 15:34:09.000000000,closed,0,Feature/moving to library
+91,2016-02-04 21:08:58.000000000,2016-02-04 21:09:08.000000000,closed,0,Develop
+90,2016-02-04 20:59:13.000000000,2016-02-04 21:08:16.000000000,closed,0,Feature/missing request info fix
+89,2016-02-04 16:25:13.000000000,2016-02-04 21:31:58.000000000,closed,16,Hoverfly as http proxy 
+88,2016-02-02 22:37:25.000000000,2016-02-04 21:32:16.000000000,closed,0,Enable data replication across multiple hoverfly instances
+87,2016-02-02 22:35:36.000000000,2016-04-20 13:20:12.000000000,closed,1,add authentication to admin UI
+86,2016-01-27 22:45:32.000000000,2016-01-27 22:47:02.000000000,closed,0,Develop
+85,2016-01-27 22:44:16.000000000,2016-01-27 22:45:08.000000000,closed,0,Feature/metrics
+84,2016-01-25 16:59:50.000000000,2016-01-25 16:59:54.000000000,closed,0,Develop
+83,2016-01-25 16:50:23.000000000,2016-01-25 16:59:24.000000000,closed,0,Feature/test updates
+82,2016-01-21 23:58:24.000000000,2016-01-22 00:00:35.000000000,closed,0,Develop
+81,2016-01-21 23:53:45.000000000,2016-01-21 23:57:57.000000000,closed,0,Feature/logging and testing
+80,2016-01-20 21:02:22.000000000,2016-01-20 21:04:17.000000000,closed,0,Feature/logging
+79,2016-01-20 18:04:13.000000000,2016-04-20 13:20:29.000000000,closed,1,Expand documentation to cover utilisation as a proxy 
+78,2016-01-17 02:57:59.000000000,2016-01-17 02:58:04.000000000,closed,0,updated readme
+77,2016-01-17 02:48:31.000000000,2016-01-17 02:49:34.000000000,closed,0,Develop
+76,2016-01-17 02:48:05.000000000,2016-01-17 02:48:10.000000000,closed,0,Feature/lint
+75,2016-01-15 12:58:41.000000000,2016-01-15 13:00:01.000000000,closed,0,Develop
+74,2016-01-15 12:58:25.000000000,2016-01-15 12:58:29.000000000,closed,0,Feature/testing
+73,2016-01-12 20:39:59.000000000,2016-01-12 20:40:13.000000000,closed,0,Feature/synthetic service example
+72,2016-01-12 20:14:40.000000000,2016-01-12 20:37:26.000000000,closed,0,updating synthetic service example
+71,2016-01-12 19:29:14.000000000,2016-01-12 19:29:19.000000000,closed,0,Develop
+70,2016-01-12 19:28:55.000000000,2016-01-12 19:28:59.000000000,closed,0,Feature/synthetic service example
+69,2016-01-11 23:12:00.000000000,2016-01-11 23:12:06.000000000,closed,0,Develop
+68,2016-01-11 23:08:59.000000000,2016-01-11 23:11:45.000000000,closed,0,Feature/fix for synthesize
+67,2016-01-11 20:49:20.000000000,2016-01-11 20:51:56.000000000,closed,0,writing BoltDB returned bytes to buffer during transaction
+66,2016-01-11 17:38:55.000000000,2016-01-11 17:43:16.000000000,closed,0,Feature/request body matching
+65,2016-01-09 05:22:06.000000000,2016-01-09 05:23:34.000000000,closed,0,Develop
+64,2016-01-09 02:04:40.000000000,2016-01-09 03:26:45.000000000,closed,1,Copy-pasteable Glide instructions
+63,2016-01-08 21:30:02.000000000,2016-01-08 21:30:06.000000000,closed,0,Feature/override default ports w flags
+62,2016-01-08 19:23:37.000000000,2016-01-08 19:23:45.000000000,closed,0,"updated readme with circleci, contribution guidelines "
+61,2016-01-08 17:59:30.000000000,2016-01-08 17:59:33.000000000,closed,0,added statik submodule
+60,2016-01-08 17:51:47.000000000,2016-01-08 17:51:50.000000000,closed,0,Develop
+59,2016-01-08 17:51:10.000000000,2016-01-08 17:51:15.000000000,closed,0,Feature/embed static files
+58,2016-01-08 14:07:00.000000000,2016-01-08 14:07:04.000000000,closed,0,updates to readme
+57,2016-01-08 13:54:45.000000000,2016-01-08 14:06:33.000000000,closed,0,Added additional document for issues I experienced during build
+56,2016-01-08 00:48:21.000000000,2016-01-08 00:48:25.000000000,closed,0,Develop
+55,2016-01-08 00:47:43.000000000,2016-01-08 00:47:48.000000000,closed,0,Feature/encoding to gob
+54,2016-01-07 23:36:41.000000000,2016-01-08 13:56:23.000000000,closed,3,Added additional document for issues I experienced during build
+53,2016-01-07 19:45:02.000000000,2016-01-07 19:45:07.000000000,closed,0,Develop
+52,2016-01-07 19:42:20.000000000,2016-01-07 19:42:24.000000000,closed,0,returning reference
+51,2016-01-07 19:31:46.000000000,2016-01-07 19:31:51.000000000,closed,0,fixed a potential bug when copying a lock
+50,2016-01-07 19:05:56.000000000,2016-01-07 19:06:00.000000000,closed,0,Feature/refactoring startup
+49,2016-01-07 04:41:56.000000000,2016-01-07 04:42:03.000000000,closed,0,Develop
+48,2016-01-07 03:30:30.000000000,2016-01-07 04:41:25.000000000,closed,0,Feature/remove vagrantfile
+47,2016-01-06 23:37:24.000000000,2016-01-06 23:37:27.000000000,closed,0,Feature/docker compose
+46,2016-01-06 23:10:56.000000000,2016-01-06 23:11:00.000000000,closed,0,Develop
+45,2016-01-06 23:10:34.000000000,2016-01-06 23:10:37.000000000,closed,0,Moving to bolt
+44,2016-01-06 22:16:53.000000000,2016-01-06 22:16:59.000000000,closed,0,Moving from Redis to BoltDB for persistance
+43,2016-01-06 22:14:45.000000000,2016-01-06 22:14:50.000000000,closed,0,Moving to bolt
+42,2016-01-05 15:49:15.000000000,2016-01-05 15:49:19.000000000,closed,0,Feature/redis windows
+41,2015-12-29 21:41:36.000000000,2015-12-29 23:57:38.000000000,closed,0,updated Vagrantfile
+40,2015-12-29 20:05:11.000000000,2015-12-29 20:05:17.000000000,closed,0,minor fix for tests
+39,2015-12-29 20:03:38.000000000,2015-12-29 20:04:32.000000000,closed,0,Merge pull request #37 from SpectoLabs/develop
+38,2015-12-29 20:01:50.000000000,2015-12-29 20:02:13.000000000,closed,0,stop checking whether cache is empty since other tests can populate it
+37,2015-12-29 19:41:49.000000000,2015-12-29 19:41:58.000000000,closed,0,updates to master
+36,2015-12-29 19:40:59.000000000,2015-12-29 19:41:03.000000000,closed,0,Feature/fixing response body
+35,2015-12-16 15:32:06.000000000,2015-12-16 15:32:39.000000000,closed,0,Docs/update readme
+34,2015-12-15 01:47:55.000000000,2015-12-15 01:48:00.000000000,closed,0,minor updates/fixes
+33,2015-12-15 01:21:15.000000000,2015-12-15 01:21:20.000000000,closed,0,fixed spelling mistake
+32,2015-12-15 01:03:35.000000000,2015-12-15 01:21:50.000000000,closed,1,Spelling Mistake
+31,2015-12-14 16:42:34.000000000,2015-12-14 16:42:37.000000000,closed,0,Feature/javascript middleware example
+30,2015-12-11 15:29:46.000000000,2015-12-11 15:29:49.000000000,closed,0,Feature/debugging info
+29,2015-12-10 22:34:03.000000000,2015-12-10 22:34:14.000000000,closed,0,Docs/hf logo
+28,2015-12-10 21:42:34.000000000,2015-12-10 21:44:00.000000000,closed,0,Feature/vagrantfile
+27,2015-12-10 21:40:29.000000000,2015-12-10 21:41:27.000000000,closed,0,Feature/vagrantfile
+26,2015-12-10 18:06:05.000000000,2015-12-10 18:06:12.000000000,closed,0,Develop
+25,2015-12-10 18:04:58.000000000,2015-12-10 18:05:09.000000000,closed,0,mentioning admin panel in readme
+24,2015-12-10 17:56:05.000000000,2015-12-10 17:56:09.000000000,closed,0,Feature/ui
+23,2015-12-10 16:05:29.000000000,2015-12-10 19:01:36.000000000,closed,0,added Vagrantfile
+22,2015-12-09 21:37:14.000000000,2015-12-09 21:37:18.000000000,closed,0,Feature/dependencies
+21,2015-12-09 19:07:10.000000000,2015-12-09 19:07:13.000000000,closed,0,Develop
+20,2015-12-09 19:05:20.000000000,2015-12-09 19:05:34.000000000,closed,0,Feature/middleware testing
+19,2015-12-09 17:21:06.000000000,2015-12-09 17:37:07.000000000,closed,0,Bugfix/update docker file
+18,2015-12-08 20:09:56.000000000,2015-12-08 20:10:01.000000000,closed,0,Develop
+17,2015-12-08 20:09:09.000000000,2015-12-08 20:09:13.000000000,closed,0,Develop
+16,2015-12-08 17:19:38.000000000,2015-12-08 20:09:31.000000000,closed,0,Feature/random delay policy
+15,2015-12-08 16:34:04.000000000,2015-12-08 16:47:32.000000000,closed,0,Feature/random delay policy
+14,2015-12-04 21:39:15.000000000,2015-12-04 21:39:19.000000000,closed,0,including more data for each request
+13,2015-12-04 19:47:45.000000000,2015-12-04 19:47:48.000000000,closed,0,renaming to hoverfly
+12,2015-12-04 17:04:01.000000000,2015-12-04 17:04:04.000000000,closed,0,restructured readme
+11,2015-12-04 16:40:03.000000000,2015-12-04 16:40:07.000000000,closed,0,Develop
+10,2015-12-03 16:20:54.000000000,2015-12-03 16:20:59.000000000,closed,0,Develop
+9,2015-12-02 22:43:14.000000000,2015-12-02 22:43:18.000000000,closed,0,cleanup
+8,2015-12-02 22:15:19.000000000,2015-12-02 22:15:25.000000000,closed,0,Develop
+7,2015-12-02 14:46:49.000000000,2015-12-02 14:46:53.000000000,closed,0,Develop
+6,2015-12-02 14:31:51.000000000,2015-12-02 14:31:54.000000000,closed,0,Develop
+5,2015-12-01 22:34:44.000000000,2015-12-01 22:34:57.000000000,closed,0,creating new hash for request during import to make sure that users c…
+4,2015-12-01 21:53:35.000000000,2015-12-01 21:53:39.000000000,closed,0,storing requests as strings rather than bytes
+3,2015-12-01 15:54:33.000000000,2015-12-01 15:54:36.000000000,closed,0,Update readme.md
+2,2015-12-01 14:55:28.000000000,2015-12-01 14:55:32.000000000,closed,0,readme updated
+1,2015-11-30 22:42:20.000000000,2015-11-30 22:42:23.000000000,closed,0,Develop

@@ -1,0 +1,725 @@
+id,created_at,closed_at,state,comments,title
+725,2020-08-30 00:33:57.000000000,2020-08-30 00:48:50.000000000,closed,0,fix t0 not being t
+724,2020-08-29 23:51:17.000000000,2020-08-29 23:58:16.000000000,closed,0,fix hsl math.mod to usual hsl conversion
+723,2020-08-27 19:36:37.000000000,1970-01-01 00:00:00.000000001,open,0,"Providing multiple packages to same ""using"" statement creates invalid namespace collisions"
+722,2020-08-26 20:38:49.000000000,2020-08-27 14:38:04.000000000,closed,0,Fix path.name failing to remove extension
+721,2020-08-26 15:39:29.000000000,2020-08-27 14:38:25.000000000,closed,0,Fix os.get_current_directory() allocator
+720,2020-08-25 02:02:08.000000000,1970-01-01 00:00:00.000000001,open,0,Identifier missing in error message (import)
+719,2020-08-25 00:05:23.000000000,2020-08-25 21:47:14.000000000,closed,2,Question: How to read user input?
+718,2020-08-24 23:25:26.000000000,2020-08-27 01:47:02.000000000,closed,0,`#const` broken
+717,2020-08-24 20:04:21.000000000,2020-08-24 20:08:07.000000000,closed,5,Question: Is there any static lib path like in C?
+716,2020-08-23 16:02:24.000000000,1970-01-01 00:00:00.000000001,open,1,OSX Calling Convention Bug.
+715,2020-08-22 15:13:27.000000000,2020-08-23 20:13:29.000000000,closed,0,Update ring.odin
+714,2020-08-20 18:59:29.000000000,2020-08-27 03:11:07.000000000,closed,0,Infinite loop in generated code using anonymous enums with `bit_set`
+713,2020-08-18 21:48:52.000000000,1970-01-01 00:00:00.000000001,open,3,Incorrect polymorphic procedure selection when casting default parameters with polymorphic types
+712,2020-08-17 19:04:09.000000000,2020-08-27 01:41:22.000000000,closed,1,time.date(time.now()) return tomorrows date
+711,2020-08-16 17:56:39.000000000,2020-08-18 23:57:57.000000000,closed,0,Code in core:parser raises error 'cannot assign to ...'
+710,2020-08-13 10:19:47.000000000,1970-01-01 00:00:00.000000001,open,0,WIP: Add More Linux syscalls
+709,2020-08-08 14:19:48.000000000,1970-01-01 00:00:00.000000001,open,0,Allow `using` named return values
+708,2020-08-03 21:26:49.000000000,2020-08-06 01:51:52.000000000,closed,3,Compiler assertion failure about invalid SIMD transmute when using struct literal in `append`.
+707,2020-08-02 09:09:30.000000000,1970-01-01 00:00:00.000000001,open,0,Ability to create a detached thread.
+706,2020-07-29 20:26:24.000000000,1970-01-01 00:00:00.000000001,open,0,`bit_field` doesn't work with `using`
+705,2020-07-28 01:49:54.000000000,2020-08-06 02:34:02.000000000,closed,0,src/ir.cpp(6290): Panic: NOT FOUND ir_type_info_index u64 @ index 98
+704,2020-07-22 19:43:06.000000000,2020-07-23 01:27:54.000000000,closed,0,Add .Thread_Id option to log package
+703,2020-07-22 19:39:15.000000000,2020-07-23 01:27:03.000000000,closed,0,Implement os.current_thread_id() for Darwin (assumes OSX 10.6 / iOS 3…
+702,2020-07-20 00:45:09.000000000,2020-08-06 02:14:38.000000000,closed,0,Weird behavior of built-in `min`/`max` procedures
+701,2020-07-19 11:39:25.000000000,1970-01-01 00:00:00.000000001,open,0,ASan reports global-buffer-overflow in init_build_context()
+700,2020-07-19 11:36:45.000000000,1970-01-01 00:00:00.000000001,open,1,ASan reports heap-buffer-overflow in gb_path_get_full_name()
+699,2020-07-18 13:07:12.000000000,2020-07-18 20:42:15.000000000,closed,2, Question: Having one type of comment (Block comments)
+698,2020-07-15 23:27:53.000000000,2020-08-08 08:56:15.000000000,closed,3,Odin attempting to transmute a 6 byte sized struct to u64 in the IR
+697,2020-07-15 03:16:51.000000000,1970-01-01 00:00:00.000000001,open,1,Compiler fails with 'using' on a field of polymorphic type ^T when polymorphic procedures are defined
+696,2020-07-14 19:16:36.000000000,2020-07-14 19:43:28.000000000,closed,0,Selector call to proc missing the correct type crashes the compiler
+695,2020-07-13 16:24:40.000000000,2020-07-13 16:28:30.000000000,closed,0,"Added ""sep"" parameter to logging procs"
+694,2020-07-13 10:48:36.000000000,2020-07-15 13:38:18.000000000,closed,2,Fail to build (warning C4819)
+693,2020-07-12 04:23:18.000000000,2020-07-23 01:28:38.000000000,closed,3,Fix pthread_t on Macos.
+692,2020-07-11 09:53:53.000000000,2020-07-15 02:50:14.000000000,closed,1,atomic_compare_exchange broken.
+691,2020-07-10 23:51:14.000000000,2020-07-15 02:50:14.000000000,closed,0,No debug info for relative pointers.
+690,2020-07-09 11:42:17.000000000,1970-01-01 00:00:00.000000001,open,1,Error in core:odin/parser
+689,2020-07-09 02:27:07.000000000,1970-01-01 00:00:00.000000001,open,0,comma-ok for pointer-to-union-value
+688,2020-07-09 00:13:10.000000000,1970-01-01 00:00:00.000000001,open,4,Allow Altering of a Member in a Discriminated Union
+687,2020-07-07 23:59:01.000000000,1970-01-01 00:00:00.000000001,open,1,#relative Strings
+686,2020-07-05 02:21:15.000000000,1970-01-01 00:00:00.000000001,open,2,Redeclaration and value assignment bug
+685,2020-07-02 17:32:47.000000000,2020-07-05 21:53:23.000000000,closed,4,Fix misplaced line number in log (was wrongly formatted and before procedure)
+684,2020-06-26 00:34:19.000000000,2020-07-09 01:36:05.000000000,closed,0,LLVM error: `integer constant must have integer type` when using quaternion_slerp
+683,2020-06-23 00:01:23.000000000,2020-07-09 15:36:38.000000000,closed,6,Executable is very big in Linux
+682,2020-06-22 21:50:22.000000000,1970-01-01 00:00:00.000000001,open,0,Add alias of polymorphic structs.
+681,2020-06-13 02:09:51.000000000,2020-06-13 02:10:29.000000000,closed,0,Control %s width in fmt.print* functions
+680,2020-06-09 03:07:43.000000000,1970-01-01 00:00:00.000000001,open,0,"Error Message improvement for polymorphic procedure that need a pointer, but was passed value"
+679,2020-06-09 03:00:09.000000000,1970-01-01 00:00:00.000000001,open,2,Cannot Take Address of x error message improvement for cases of value or pointer ambiguity
+678,2020-06-05 21:22:17.000000000,2020-06-10 17:20:43.000000000,closed,1,LLVM api backend crashes compiling `for atomic_xchg`
+677,2020-06-05 20:53:09.000000000,2020-06-10 19:33:00.000000000,closed,0,struct alignment/pointer compare failure
+676,2020-06-05 01:49:30.000000000,2020-06-05 02:13:42.000000000,closed,0,Fix temporary allocator resizing
+675,2020-06-05 01:48:36.000000000,2020-06-05 02:13:42.000000000,closed,0,Temporary allocator does not copy on resize
+674,2020-06-04 23:48:17.000000000,2020-08-06 03:10:03.000000000,closed,3,src/array.cpp(14): Assertion Failure: `0 <= index && index < count` Index 2 is out of bounds ranges 0..<2
+673,2020-06-04 18:48:22.000000000,2020-07-09 02:08:32.000000000,closed,0,add `#config` to odin parser
+672,2020-06-02 09:42:33.000000000,2020-06-03 17:57:44.000000000,closed,0,Fix wrap in core:math.
+671,2020-06-02 04:02:30.000000000,2020-08-27 02:26:36.000000000,closed,3,Runtime crash when printing relative pointers
+670,2020-06-02 03:59:34.000000000,2020-07-15 02:52:36.000000000,closed,1,Relative pointers crash the compiler when compiling with `-debug`
+669,2020-06-02 03:32:33.000000000,2020-06-10 17:25:33.000000000,closed,1,Relative pointers do not support `using`
+668,2020-06-02 02:45:07.000000000,2020-06-03 17:56:37.000000000,closed,0,Remove `intrinsics` import
+666,2020-05-31 20:59:04.000000000,2020-06-10 17:21:47.000000000,closed,4,Shift returns wrong result (in certain case) since #8589af1
+665,2020-05-31 18:43:34.000000000,2020-06-10 19:16:10.000000000,closed,4,LLVM code gen failure on some procedures
+664,2020-05-31 13:35:33.000000000,2020-05-31 13:42:49.000000000,closed,2,question: Do you have any intent to implement the entire compiler infrastructure in Odin?
+663,2020-05-31 09:10:21.000000000,2020-05-31 13:45:16.000000000,closed,2,Builtin procedures can be overwritten silently
+662,2020-05-26 22:03:55.000000000,1970-01-01 00:00:00.000000001,open,0,Crash in debug mode when calling function pointer
+661,2020-05-25 22:02:43.000000000,1970-01-01 00:00:00.000000001,open,3,-llvm-api does not catch stack overflow
+660,2020-05-25 18:17:55.000000000,2020-06-27 18:28:41.000000000,closed,7,Fix style of core:sys/win32 foreign procedures
+659,2020-05-25 03:48:04.000000000,2020-05-31 15:20:54.000000000,closed,0,Compiler error when indexing constant slices
+658,2020-05-25 00:38:20.000000000,2020-05-25 00:43:45.000000000,closed,0,z := 0 + 0i fails to compile.
+657,2020-05-24 20:01:29.000000000,2020-07-09 02:22:00.000000000,closed,5,Add pop_rune to core/strings/builder.odin
+656,2020-05-24 15:39:32.000000000,2020-05-24 15:52:31.000000000,closed,0,New LLVM backend cannot compile procedures with type
+655,2020-05-24 14:48:03.000000000,2020-05-24 14:52:39.000000000,closed,0,Add case conversions by @dotbmp
+654,2020-05-22 14:33:36.000000000,2020-06-10 17:54:28.000000000,closed,5,Named results allows odd things
+653,2020-05-22 13:30:48.000000000,2020-05-22 13:35:50.000000000,closed,1,Fix the shebang portability of the build.sh script
+652,2020-05-22 11:40:58.000000000,2020-06-10 17:43:53.000000000,closed,1,"""Cyclic initialization"" in top-level assignment"
+651,2020-05-21 13:35:08.000000000,1970-01-01 00:00:00.000000001,open,0,Weird cast behavior from literal to function pointer
+650,2020-05-21 02:18:24.000000000,2020-07-09 02:10:05.000000000,closed,0,Added union_type_compare to core:reflect
+649,2020-05-19 18:01:58.000000000,1970-01-01 00:00:00.000000001,open,0,Compiler assertion when passing a pointer to a bitfield
+648,2020-05-17 22:07:21.000000000,2020-06-10 18:09:10.000000000,closed,0,Assertion when aliasing a proc group
+647,2020-05-17 01:41:36.000000000,2020-05-17 18:23:48.000000000,closed,1,Panic: Invalid type conversion (relative pointers)
+646,2020-05-16 21:36:16.000000000,2020-05-16 21:37:48.000000000,closed,1,Compiler confused when preceding struct member has same name as a package
+645,2020-05-16 21:05:56.000000000,2020-05-16 21:15:26.000000000,closed,0,"LLVM C backend: Obey directives on blocks, procedures, and expressions"
+644,2020-05-16 18:14:17.000000000,2020-05-16 18:32:16.000000000,closed,0,Add bounds checks to LLVM C backend
+643,2020-05-16 05:54:41.000000000,2020-05-26 03:27:20.000000000,closed,0,Add unicode decimal numeric tables
+642,2020-05-16 00:20:56.000000000,1970-01-01 00:00:00.000000001,open,3,src/ir.cpp(992): Panic: Invalid abi type pass kind: proc()
+641,2020-05-15 08:50:26.000000000,2020-05-15 11:49:27.000000000,closed,0,Fix container.Array.array_push_back_elems
+640,2020-05-13 05:57:50.000000000,1970-01-01 00:00:00.000000001,open,1,Nested parapoly identifiers aren't treated as constant expressions
+639,2020-05-12 16:44:32.000000000,2020-05-14 03:13:32.000000000,closed,1,Explicit context creation
+638,2020-05-11 20:33:27.000000000,2020-05-11 20:38:06.000000000,closed,0,Fixed thread_pool not destroying threads
+637,2020-05-11 12:12:05.000000000,2020-05-12 13:32:02.000000000,closed,0,Let -vet ignore intentional declaration shadowing
+636,2020-05-11 00:32:27.000000000,2020-05-11 00:37:46.000000000,closed,1,Build failing when run with -debug
+635,2020-05-09 20:58:47.000000000,2020-05-09 21:03:34.000000000,closed,4,Labels not unique in switch
+634,2020-05-09 11:32:05.000000000,2020-05-09 15:57:28.000000000,closed,0,Add reflect.enum_from_name
+633,2020-05-07 03:33:27.000000000,2020-05-07 03:35:27.000000000,closed,1,Fix parsing of single-digit numbers
+632,2020-05-07 02:58:13.000000000,2020-05-14 02:09:42.000000000,closed,2,Cannot put local functions after return
+631,2020-05-06 15:38:41.000000000,1970-01-01 00:00:00.000000001,open,5,Compiler fails when using --- keyword
+630,2020-04-30 02:32:02.000000000,2020-05-06 00:05:14.000000000,closed,2,"Refactor parsing procedures: Return (value, ok) instead"
+629,2020-04-28 22:51:21.000000000,1970-01-01 00:00:00.000000001,open,0,RFC: core:mem/virtual
+628,2020-04-28 03:13:51.000000000,1970-01-01 00:00:00.000000001,open,0,Parsing bugs with the builtin parser in core:odin
+627,2020-04-25 20:23:35.000000000,2020-04-25 20:49:06.000000000,closed,0,Added #maybe to the builtin parser and ast for Unions
+626,2020-04-25 04:02:44.000000000,1970-01-01 00:00:00.000000001,open,2,Weird padding when optimizations are enabled
+625,2020-04-24 00:33:15.000000000,2020-04-24 00:38:23.000000000,closed,0,Improve nightly builds
+624,2020-04-23 14:06:20.000000000,2020-05-14 02:09:48.000000000,closed,2,Cannot build a DLL on windows
+623,2020-04-22 13:54:56.000000000,2020-04-22 13:55:03.000000000,closed,0,TEST
+622,2020-04-22 05:18:22.000000000,2020-05-14 02:00:39.000000000,closed,0,Context popping doesn't respect `defer` order
+621,2020-04-21 23:54:50.000000000,1970-01-01 00:00:00.000000001,open,0,Very slow compile times for code using threads on macOS/clang
+620,2020-04-21 23:05:36.000000000,2020-06-10 19:56:15.000000000,closed,0,Assertion failure in ir_print_exact_value
+619,2020-04-21 22:45:43.000000000,2020-04-22 02:26:32.000000000,closed,0,"Type assertion causes assert fail in compiler when assigning to a pointer-dereference without `, ok`"
+618,2020-04-21 22:34:04.000000000,2020-07-09 01:57:52.000000000,closed,1,Source_Code_Location not correctly passed to allocator when you assign to a map that has not been initialized
+617,2020-04-21 21:00:01.000000000,2020-04-21 21:07:05.000000000,closed,0,Rename `yield_processor` to `cpu_relax`
+616,2020-04-21 20:50:59.000000000,2020-05-10 13:37:11.000000000,closed,2,Fix potential bad optimization bug in sync.Ticket_Mutex
+615,2020-04-21 19:29:19.000000000,2020-04-21 20:23:11.000000000,closed,1,Documentation: Enumerate all platform specific behavior
+614,2020-04-21 18:24:05.000000000,2020-04-21 18:35:24.000000000,closed,0,Remove outdated comment
+613,2020-04-19 22:45:41.000000000,1970-01-01 00:00:00.000000001,open,6,Subtype Polymorphism Nesting
+612,2020-04-19 20:52:43.000000000,1970-01-01 00:00:00.000000001,open,0,Documentation: Compiler Directives.
+611,2020-04-19 19:46:11.000000000,1970-01-01 00:00:00.000000001,open,6,Redesign of the Allocator interface
+610,2020-04-18 23:36:23.000000000,2020-04-18 23:43:22.000000000,closed,1,Add bool flag to AST data in the parser in the core library
+609,2020-04-18 20:43:00.000000000,2020-04-18 22:20:43.000000000,closed,0,Fix darwin open flags and mode
+608,2020-04-18 00:43:53.000000000,1970-01-01 00:00:00.000000001,open,4,Add more data structures to `package collection`
+607,2020-04-15 22:28:59.000000000,2020-04-19 23:54:18.000000000,closed,0,Use b2 upload-file instead of b2 sync for nightly builds
+606,2020-04-11 23:50:17.000000000,2020-04-11 23:52:46.000000000,closed,0,CI for nightly builds
+605,2020-04-06 19:15:21.000000000,2020-04-06 19:17:31.000000000,closed,0,.\build.bat [error] while trying to compile Odin.
+604,2020-04-02 00:10:45.000000000,1970-01-01 00:00:00.000000001,open,0,Using `++` for increment operator doesn't generate a useful error message
+603,2020-03-30 02:47:26.000000000,2020-04-04 17:51:35.000000000,closed,0,Added to core:sys win32 package
+602,2020-03-29 21:00:31.000000000,2020-07-09 02:01:44.000000000,closed,0,LLVM error w/ new API: Basic Block in function 'mem.compare' does not have terminator!
+601,2020-03-29 05:56:16.000000000,2020-04-30 01:50:53.000000000,closed,1,"""Panic: Unhandled comparison kind Library != Library"" with -llvm-api"
+600,2020-03-29 05:09:19.000000000,2020-03-29 17:32:43.000000000,closed,0,Add a missing space after /LIBPATH linker options.
+599,2020-03-28 19:50:14.000000000,2020-03-28 20:08:20.000000000,closed,0,LLVM error w/ #align - Stored value type does not match pointer operand type
+598,2020-03-28 17:14:11.000000000,2020-03-28 17:14:20.000000000,closed,0,Switch from now removed context.stdout/stderr to os.stdout/stderr
+597,2020-03-26 05:27:50.000000000,2020-03-27 17:33:37.000000000,closed,0,error: '%35' defined with type 'i1'
+596,2020-03-26 03:01:28.000000000,2020-08-20 02:14:12.000000000,closed,1,Add mem.Dynamic_Arena
+595,2020-03-19 19:32:48.000000000,2020-03-26 21:41:39.000000000,closed,0,LLVM C API Integration
+594,2020-03-18 13:42:40.000000000,2020-05-14 02:29:14.000000000,closed,5,Remove `#defined` built-in procedure
+593,2020-03-17 23:11:37.000000000,1970-01-01 00:00:00.000000001,open,1,Declarations at file scope are evaluated in an inconsistent order
+592,2020-03-16 19:35:25.000000000,2020-07-09 02:11:49.000000000,closed,3,"Fix os.read, os.write, os.read_entire_file, os.write_entire_file on Windows"
+591,2020-03-15 21:22:40.000000000,2020-05-14 02:33:34.000000000,closed,1,Error When Using Switch Statement for 'any' Type
+590,2020-03-15 14:18:28.000000000,2020-03-15 18:29:49.000000000,closed,1,Temporary storage allocation failure with custom context allocator not handled
+589,2020-03-15 02:48:10.000000000,2020-03-15 18:28:10.000000000,closed,1,Panic: ir_emit: Instruction missing parent block
+588,2020-03-14 16:47:38.000000000,1970-01-01 00:00:00.000000001,open,3,"Crash when assigning value to slice, possibly related to allocators, possibly related to u128s."
+587,2020-03-13 05:55:45.000000000,1970-01-01 00:00:00.000000001,open,4,OSX struct being returned incorrectly
+586,2020-03-12 21:27:19.000000000,2020-03-13 02:35:13.000000000,closed,0,Fix os.read / os.read_entire_file on Windows
+585,2020-03-10 19:56:30.000000000,2020-03-13 03:05:17.000000000,closed,3,Structs are sometimes not passed correctly to foreign functions in MacOs
+584,2020-03-10 15:52:42.000000000,2020-03-13 02:29:41.000000000,closed,4,Ability to call initialization code in the global scope which is executed before `main`
+583,2020-03-09 11:28:32.000000000,2020-03-09 12:46:28.000000000,closed,1,LLVM: speed improvement changes.
+582,2020-03-08 01:32:32.000000000,2020-04-18 22:21:07.000000000,closed,1,Fix strings.clone and strings.clone_to_cstring if allocation fails
+581,2020-03-06 05:55:24.000000000,2020-03-06 20:42:06.000000000,closed,0,Linux stat fix
+580,2020-03-05 20:18:39.000000000,2020-03-06 01:59:05.000000000,closed,3,WEIRD AND BAD: Context popped errorneously due to local scope
+579,2020-03-04 07:42:37.000000000,2020-03-06 20:41:54.000000000,closed,1,Fix issues with stat struct.
+578,2020-02-29 08:01:27.000000000,2020-02-29 14:35:47.000000000,closed,0,Non-type case in 'any' switch give poor errors
+577,2020-02-29 05:34:24.000000000,2020-03-02 08:58:05.000000000,closed,3,@force doen't seem to have any effect.
+576,2020-02-28 19:53:32.000000000,2020-02-29 14:53:56.000000000,closed,0,Fix encoding/base64 encoding null bytes incorrectly
+575,2020-02-28 17:23:30.000000000,2020-03-07 15:46:20.000000000,closed,1,Fix mem.align_backward when pointer is already aligned
+574,2020-02-26 06:14:09.000000000,2020-02-29 14:53:56.000000000,closed,1,encoding/base64 does not encode null bytes correctly
+573,2020-02-23 12:50:04.000000000,1970-01-01 00:00:00.000000001,open,0,No Freebsd port is available
+572,2020-02-23 07:43:43.000000000,2020-02-23 15:26:54.000000000,closed,0,Compiler panic when converting between union types
+571,2020-02-23 07:43:01.000000000,2020-02-23 15:20:17.000000000,closed,0,Compiler bug: Bad IR when casting an untyped int to a union via concrete integer type
+570,2020-02-20 20:45:25.000000000,1970-01-01 00:00:00.000000001,open,3,Members known across all variant types in a discriminated union should be accessible without knowing the union's specific type.
+569,2020-02-20 20:35:05.000000000,2020-05-14 02:35:10.000000000,closed,1,`using` statements in a struct that points to another struct of the same type breaks implicit access through `using`.
+568,2020-02-20 20:29:27.000000000,2020-02-23 15:37:37.000000000,closed,0,Inconsistent behavior of 'using' statements.
+567,2020-02-20 07:48:26.000000000,2020-04-30 01:27:42.000000000,closed,3,"Refactor strconv `parse_*` procedures: arbitrary base and return (value, rest_of_string)"
+566,2020-02-15 22:31:56.000000000,2020-02-23 15:13:47.000000000,closed,0,new_clone of untyped compund literal causes seg fault in checker
+565,2020-02-15 21:23:18.000000000,2020-02-16 00:01:40.000000000,closed,1,Can't compile/link:  LINK: fatal error LNK 1104: cannot open file 'LIBCMT.lib'
+564,2020-02-15 07:22:40.000000000,1970-01-01 00:00:00.000000001,open,1,"Improve usage of the ""variant"" idiom"
+563,2020-02-13 13:42:22.000000000,2020-02-23 15:11:51.000000000,closed,0,"""in"" and ""notin"" cause overflow in bit_set"
+562,2020-02-12 15:34:12.000000000,2020-02-23 15:08:51.000000000,closed,1,Fix #552: Fix strings.compare for empty strings and different-length strings.
+561,2020-02-11 17:57:45.000000000,2020-05-14 02:46:00.000000000,closed,0,`where` statements that eval to false do not show incorrect usage location
+560,2020-02-10 05:27:15.000000000,2020-02-10 15:55:50.000000000,closed,0,"Enhance logger interface with 'f' and not 'f' variants, also move level detection out"
+559,2020-02-06 15:50:34.000000000,2020-02-06 19:12:00.000000000,closed,3,Win8.1 install problem..?
+558,2020-02-06 12:56:05.000000000,2020-02-07 00:32:32.000000000,closed,1,#partial should not be required when there is a default case
+557,2020-02-06 05:35:30.000000000,2020-05-14 02:46:31.000000000,closed,1,Implement `@export` on globals variables.
+556,2020-02-06 00:49:45.000000000,2020-02-06 01:03:36.000000000,closed,0,Fix #555
+555,2020-02-06 00:24:54.000000000,2020-02-06 01:03:36.000000000,closed,1,Build modes `shared` and `dll` doesn't work on Mac.
+554,2020-02-04 08:21:42.000000000,2020-02-04 23:46:29.000000000,closed,0,Removed 'where' clause from merge_sort_proc
+553,2020-02-03 15:59:07.000000000,2020-02-04 01:11:34.000000000,closed,0,mingw-w64 planned ?
+552,2020-02-02 22:51:10.000000000,2020-02-23 15:08:51.000000000,closed,0,String comparison crash
+551,2020-02-02 12:41:48.000000000,2020-05-14 02:47:30.000000000,closed,1,Type checking nil access
+550,2020-02-01 22:07:31.000000000,2020-05-14 02:52:22.000000000,closed,2,"Bad LLVM ir output, integer constant must have integer type"
+549,2020-02-01 22:03:35.000000000,2020-05-14 03:00:25.000000000,closed,0,Allow `.?` operator to unwrap any union
+548,2020-02-01 04:21:12.000000000,2020-02-01 05:13:53.000000000,closed,1,map iteration syntax question
+547,2020-01-31 19:12:17.000000000,1970-01-01 00:00:00.000000001,open,0,Linking bug (wayland-protocols)
+546,2020-01-30 05:01:12.000000000,2020-01-31 14:46:48.000000000,closed,0,Update README.md to use Odin syntax highlighting instead of Go.
+545,2020-01-26 06:04:09.000000000,2020-01-26 21:19:51.000000000,closed,0,"Fix `make(map[K]V, 0)` by ensuring `reserve` always sets an allocator"
+544,2020-01-23 21:05:54.000000000,1970-01-01 00:00:00.000000001,open,1,Error printing 128 integers. On windows this time.
+543,2020-01-18 13:37:36.000000000,2020-01-19 13:48:07.000000000,closed,4,Add DLL loading procs on Windows
+542,2020-01-18 00:21:41.000000000,2020-06-10 19:24:50.000000000,closed,4,PROPOSAL: Native N-Dimensional Slices in Odin
+541,2020-01-17 19:14:20.000000000,2020-02-23 15:39:22.000000000,closed,1,Add os.get_current_directory / os.set_current_directory
+540,2020-01-15 14:37:04.000000000,2020-01-15 16:56:47.000000000,closed,0,Incorrect printing of number bitsets.
+539,2020-01-15 14:26:24.000000000,2020-06-10 19:25:08.000000000,closed,10,Reference to map values
+538,2020-01-15 14:23:15.000000000,2020-01-15 14:28:53.000000000,closed,1,Ability to get pointer to value of map key
+537,2020-01-14 23:29:53.000000000,2020-02-29 14:49:25.000000000,closed,9,Fix heap allocator alignment on all platforms
+536,2020-01-13 00:19:04.000000000,2020-01-15 17:01:34.000000000,closed,0,Assertion failure when using a for each loop on a constant.
+535,2020-01-12 07:02:09.000000000,1970-01-01 00:00:00.000000001,open,4,panic: un-gep-able type
+534,2020-01-09 01:31:17.000000000,2020-01-09 23:19:24.000000000,closed,0,Fix mistake in .Short_File_Path option in file_console_logger.odin
+533,2020-01-06 18:27:26.000000000,1970-01-01 00:00:00.000000001,open,3,Way to specify raw string newlines
+532,2020-01-06 01:49:17.000000000,2020-01-12 01:12:02.000000000,closed,3,Panic with runtime.type_info_base
+531,2020-01-03 15:46:47.000000000,2020-01-03 15:51:43.000000000,closed,0,Fix make and reserve
+530,2020-01-03 02:37:02.000000000,2020-01-03 14:50:13.000000000,closed,1,Fixes for yielding and semaphore posting on unix
+529,2020-01-02 16:38:34.000000000,2020-01-02 16:39:20.000000000,closed,0,Fix `append_string`
+528,2020-01-01 15:38:13.000000000,2020-01-01 15:42:10.000000000,closed,0,Fix dylib foreign import
+527,2019-12-31 08:03:04.000000000,1970-01-01 00:00:00.000000001,open,9,Dynamically-loaded Odin code crashes in stdlib
+526,2019-12-31 05:10:52.000000000,2019-12-31 18:22:49.000000000,closed,2,Implement dynlib core library for unix/darwin
+525,2019-12-31 04:08:47.000000000,2020-04-30 02:05:30.000000000,closed,3,LLVM IR Error
+524,2019-12-30 23:10:57.000000000,2020-06-10 19:25:21.000000000,closed,0,Invalid type assertion is quite misleading
+523,2019-12-28 06:15:48.000000000,2019-12-29 20:42:09.000000000,closed,3,when statement can´t find identifier.
+522,2019-12-27 04:27:12.000000000,2019-12-27 15:11:22.000000000,closed,1,Straight crash when trying to set context
+521,2019-12-24 23:12:57.000000000,1970-01-01 00:00:00.000000001,open,4,Explicit `union` tag values
+520,2019-12-24 19:53:18.000000000,2019-12-26 17:09:45.000000000,closed,0,minor details ;)
+519,2019-12-24 17:52:26.000000000,2019-12-24 17:54:00.000000000,closed,0,remove errorneous prints
+518,2019-12-24 08:15:45.000000000,2019-12-25 04:40:24.000000000,closed,2,fmt does not print array correctly when array contains carriage returns (`\r`)
+517,2019-12-23 19:38:37.000000000,2019-12-23 23:08:00.000000000,closed,0,Unix: Fix improper _unix_open binding; make write_entire_file set sane file permissions.
+516,2019-12-23 05:40:04.000000000,2019-12-26 21:46:10.000000000,closed,2,memmove vs memcpy - possible mistake on internal.odin ?
+515,2019-12-23 02:28:04.000000000,1970-01-01 00:00:00.000000001,open,0,Proc taking a polymorphic struct specialization accepts any specialization
+514,2019-12-23 00:30:23.000000000,2019-12-27 15:18:40.000000000,closed,0, Assertion Failure: `count != 1` on expand_to_tuple
+513,2019-12-22 05:24:00.000000000,2019-12-22 15:40:52.000000000,closed,0,Internal error when accessing polymorphic struct parameters (also provide suggestions?)
+512,2019-12-20 00:40:02.000000000,2020-06-10 18:16:34.000000000,closed,5,using'd raw_union within struct cannot be initialized
+511,2019-12-19 14:54:40.000000000,2019-12-22 17:12:38.000000000,closed,0,"`#complete switch` by default, replace with `#partial switch`"
+510,2019-12-19 03:17:58.000000000,2020-04-30 02:03:01.000000000,closed,1,context weirdness w/ deferred_out
+509,2019-12-17 20:57:26.000000000,2019-12-22 16:40:40.000000000,closed,0,Trying to get a pointer to a struct field that does not have a size generates an LLVM error
+508,2019-12-17 00:21:17.000000000,2020-01-14 23:42:30.000000000,closed,1,Add note to assert in scratch_allocator_proc to provide fix hint
+507,2019-12-16 21:36:43.000000000,2019-12-22 19:17:05.000000000,closed,0,Internal Compiler Error: Type_Info for 'XXX' could not be found
+506,2019-12-16 04:31:50.000000000,2019-12-22 16:33:43.000000000,closed,1,Crash when compiling for loop with parens around array expression
+505,2019-12-16 02:36:47.000000000,2019-12-16 13:05:40.000000000,closed,0,Fix mem.Arena
+504,2019-12-15 06:07:23.000000000,2019-12-15 16:20:17.000000000,closed,3,"`make(dyn_array, 0, cap)` does not work as expected"
+503,2019-12-14 21:37:20.000000000,2019-12-15 16:11:41.000000000,closed,1,"""Instruction does not dominate all uses"" using "
+502,2019-12-14 10:28:34.000000000,2019-12-15 14:56:19.000000000,closed,0,Duplicate integer switch case values incorrectly consider its absolute value
+501,2019-12-14 04:35:54.000000000,2019-12-15 14:48:13.000000000,closed,0,Unable to initialize a typeid field in a struct literal
+500,2019-12-14 04:13:22.000000000,2019-12-15 14:38:37.000000000,closed,0,Fix 'fmt.string_to_enum_value' not compiling
+499,2019-12-14 01:18:48.000000000,2019-12-15 16:41:32.000000000,closed,0,Also allow #no_bounds_check on an expression
+498,2019-12-13 13:51:47.000000000,2019-12-15 16:30:20.000000000,closed,0,Replace `#vector[N]T` with `#simd[N]T` to reduce confusion
+497,2019-12-13 13:29:11.000000000,1970-01-01 00:00:00.000000001,open,2,Compiler speed improvement by having separate compilations units for each package
+496,2019-12-10 02:37:13.000000000,2020-01-16 15:03:42.000000000,closed,3,LLVM IR bug passing proc to quick_sort_proc()
+495,2019-12-09 15:00:32.000000000,1970-01-01 00:00:00.000000001,open,1,How tests could be safeguarded for parallel running
+494,2019-12-08 13:25:33.000000000,1970-01-01 00:00:00.000000001,open,1,Unknown bug that causes basic LLVM-C code to fail
+493,2019-12-08 06:09:46.000000000,2019-12-08 19:35:19.000000000,closed,0,Fix #399 by removing unused parameter
+492,2019-12-07 22:00:47.000000000,2020-01-15 17:38:07.000000000,closed,1,few things about assert
+491,2019-12-07 17:51:53.000000000,2019-12-07 17:59:26.000000000,closed,2,assert and #assert
+490,2019-12-02 11:05:19.000000000,2019-12-02 15:18:05.000000000,closed,1,Can't `odin run` a file in a subdirectory
+489,2019-12-02 05:22:41.000000000,2019-12-02 13:48:11.000000000,closed,3,Defer runs before the function output parameters are set
+488,2019-12-02 01:55:36.000000000,2020-01-14 23:30:27.000000000,closed,2,Fix heap alignment from #458
+487,2019-12-02 00:41:35.000000000,2020-02-06 00:19:01.000000000,closed,1,add support for libc's dirent in core/os/os_linux.odin
+486,2019-11-29 09:48:15.000000000,1970-01-01 00:00:00.000000001,open,4,Compiler crashes on polymorphic procedure-type parameter overriden from default value in call.
+485,2019-11-23 02:06:59.000000000,2019-11-23 15:44:41.000000000,closed,1,macOS: 'sh: opt: command not found'
+484,2019-11-20 16:43:05.000000000,2019-11-21 02:56:47.000000000,closed,0,Implicit Selector Expressions do not work at the global/package scope
+483,2019-11-20 07:06:20.000000000,2019-11-21 19:57:44.000000000,closed,1,String causes a crash when used in a polymorphic type
+482,2019-11-18 21:54:38.000000000,2019-11-21 19:58:00.000000000,closed,1,LLVM IR Generation Bug via passing a structure to a proc pointer
+481,2019-11-17 02:23:16.000000000,2019-11-20 04:25:00.000000000,closed,0,Compiler panic when importing linalg.
+480,2019-11-15 05:56:57.000000000,2019-11-21 05:10:25.000000000,closed,1,Using shadows parameters
+479,2019-11-15 03:53:00.000000000,2019-11-15 03:57:08.000000000,closed,0,Fix CI badge on README.md
+478,2019-11-14 22:38:27.000000000,2019-11-27 03:29:08.000000000,closed,0,Allow running Odin compiler without using visual studio command prompt or setting up environgment variables.
+477,2019-11-14 18:44:20.000000000,2019-11-15 03:46:51.000000000,closed,1,Assigning and comparing Enumerations to their base type without cast
+476,2019-11-14 13:54:05.000000000,2019-11-15 03:50:18.000000000,closed,0,Add support for running odin through a symlink.
+475,2019-11-13 19:39:23.000000000,2019-11-15 03:52:02.000000000,closed,0,fix string reversal
+474,2019-11-13 18:48:41.000000000,2019-11-15 03:45:41.000000000,closed,1,Incorrect LLVM cast opcode emitted for user-defined struct.
+473,2019-11-13 13:31:50.000000000,2019-11-14 22:39:07.000000000,closed,3,Allow running Odin compiler without using visual studio command prompt or setting up environgment variables.
+472,2019-11-11 07:10:12.000000000,2019-11-21 19:58:59.000000000,closed,3,Aligning struct fields
+471,2019-11-11 07:09:42.000000000,2019-11-11 14:26:00.000000000,closed,2,"cannot pass Vector3, Vector4 to poly proc"
+470,2019-11-11 07:05:26.000000000,2019-11-11 22:04:29.000000000,closed,2,Illegal compound literal type error on #raw_union tagged struct
+469,2019-11-09 05:17:37.000000000,2019-11-09 15:47:25.000000000,closed,2,"bit_sets, when transmuted to integer type, is not correct"
+468,2019-11-08 11:56:34.000000000,2019-11-09 15:45:16.000000000,closed,1,Can't use size_of in range of inline for
+467,2019-11-08 11:44:37.000000000,2019-11-09 15:45:14.000000000,closed,1,Compile time assert that calls procedure fails
+466,2019-11-05 00:57:48.000000000,2019-11-10 16:20:18.000000000,closed,1,For loop buggy when using len
+465,2019-11-04 18:04:40.000000000,2019-11-06 00:40:14.000000000,closed,0,Slice passed incorrectly in LLVM IR to procedure called via procedure pointer
+464,2019-11-04 15:48:57.000000000,2019-11-06 00:37:43.000000000,closed,2,Polymorphic parameter declared in return type doesn't compile
+463,2019-11-03 14:07:38.000000000,2020-01-06 21:00:47.000000000,closed,3,macOS Catalina build fix
+462,2019-11-03 08:03:33.000000000,2019-11-10 16:22:31.000000000,closed,1,mysterious floating point or LLVM emit error
+461,2019-11-02 08:52:40.000000000,2019-11-02 14:57:53.000000000,closed,0,Issue with high iteration value calculation on for loop
+460,2019-11-02 08:08:00.000000000,2019-11-02 14:33:21.000000000,closed,3,Allow `{...}` syntax to coerce to `[N]T` like it does for `[]T`
+459,2019-11-02 01:38:47.000000000,2019-11-26 23:45:52.000000000,closed,2,Base32 and CSV added for core:encoding
+458,2019-11-02 00:41:56.000000000,2019-12-01 16:33:24.000000000,closed,22,Implement core:thread and core:sync on Unix using pthreads
+457,2019-11-01 20:43:52.000000000,2019-11-01 23:26:57.000000000,closed,2,Import failure for frameworks 
+456,2019-10-29 15:29:10.000000000,1970-01-01 00:00:00.000000001,open,1,Negation of a bit_set returns elements not part of that bit_set.
+455,2019-10-29 04:16:45.000000000,2019-10-29 12:47:15.000000000,closed,1,cstrings are not working correctly
+454,2019-10-28 21:50:15.000000000,2019-10-31 22:25:49.000000000,closed,0,Bug With Self-Referential Proc Types Inside Unions
+453,2019-10-28 19:14:57.000000000,2019-10-29 15:47:38.000000000,closed,0,Remove unused variables in utf8.odin.
+452,2019-10-26 23:17:31.000000000,2019-10-27 13:37:01.000000000,closed,1,Cannot compile latest master branch
+451,2019-10-25 14:26:21.000000000,2019-10-26 15:14:11.000000000,closed,0,Compiler assertion when applying `using` to `_` procedure parameter.
+450,2019-10-22 01:07:48.000000000,2019-10-22 01:17:06.000000000,closed,0,Setup Github Actions instead of Travis and Appveyor
+449,2019-10-21 20:59:04.000000000,2019-10-29 12:43:52.000000000,closed,1,Assertion Failure: `found != nullptr` cstring_to_string
+448,2019-10-21 03:32:16.000000000,1970-01-01 00:00:00.000000001,open,1,Improve Onboarding
+447,2019-10-21 02:22:44.000000000,2019-11-01 02:58:45.000000000,closed,1,Odin silently exits when a polymorphic struct references a pointer to its own type
+446,2019-10-19 22:02:46.000000000,2019-11-01 14:31:44.000000000,closed,2,"A ""Guess The Number"" demo program, plus a couple of core library additions I had to implement for it"
+445,2019-10-19 20:55:32.000000000,2019-10-19 20:57:24.000000000,closed,1,Clarify that you can pass a directory to `odin build`
+444,2019-10-19 00:24:39.000000000,2019-10-20 13:50:44.000000000,closed,0,-collection:NAME=. trips an assertion.
+443,2019-10-15 13:46:27.000000000,2019-10-15 20:54:44.000000000,closed,0,Values coerce to typeid
+442,2019-10-06 12:58:35.000000000,2019-10-06 17:14:03.000000000,closed,3,Uniform Function Call Syntax?
+441,2019-09-30 21:57:12.000000000,2019-10-05 12:42:06.000000000,closed,0,Using any in if statement asserts compiler
+440,2019-09-28 07:58:39.000000000,2019-10-05 12:41:52.000000000,closed,1,Type assertion on a pointer to a union doesn't return a pointer.
+439,2019-09-24 13:04:50.000000000,2020-06-10 18:37:56.000000000,closed,2,Constant and literal procedures cannot be used to initialize static variables
+438,2019-09-22 13:11:10.000000000,2019-09-25 23:52:56.000000000,closed,0,Implicit Selector Expressions do not work for parameteric struct parameters.
+437,2019-09-18 18:20:16.000000000,2019-11-01 14:20:30.000000000,closed,0,updated os_essence.odin
+436,2019-09-12 01:14:43.000000000,1970-01-01 00:00:00.000000001,open,1,Incorrect dependency determination error when initializing an array of procs
+435,2019-09-09 02:28:56.000000000,2020-05-29 18:58:57.000000000,closed,3,Add bit_stream package 
+434,2019-09-08 03:09:10.000000000,2019-09-08 23:28:10.000000000,closed,0,Make `odin run` return the process exit code
+433,2019-09-04 10:26:43.000000000,2019-09-04 22:52:37.000000000,closed,0,Compiler does not complain about missing semicolon
+432,2019-09-03 22:34:32.000000000,2019-09-04 22:54:57.000000000,closed,0,Ir panic on using append() from within anonymous function
+431,2019-09-02 19:02:28.000000000,2019-09-02 21:59:16.000000000,closed,0,Converting addresses to function pointers produces llvm-opt error
+430,2019-09-02 18:48:05.000000000,2019-09-09 17:39:37.000000000,closed,0,New Essence OS layer; cross-compiling improvements
+429,2019-08-29 17:56:07.000000000,1970-01-01 00:00:00.000000001,open,4,Direct system calls for the foreign system
+428,2019-08-28 12:51:19.000000000,2019-08-29 13:39:17.000000000,closed,2,Nested using in a with raw_union crashes the compiler.
+427,2019-08-26 22:41:54.000000000,2019-08-29 17:36:52.000000000,closed,5,Function Pointers nils all data from a struct contained in an array
+426,2019-08-26 19:21:01.000000000,2019-09-09 13:53:30.000000000,closed,0,Parser Multi-Threading Improvements
+425,2019-08-26 18:59:13.000000000,2019-08-29 23:44:48.000000000,closed,3,Fixed parser creating a new thread for each file.
+424,2019-08-25 22:57:01.000000000,1970-01-01 00:00:00.000000001,open,1,Crash when closing file dialogue from _open_file_dialog in comdlg32.odin
+423,2019-08-19 04:42:21.000000000,2020-02-06 19:19:30.000000000,closed,1,Internal compiler error if struct is greater than 255 mib with -debug
+422,2019-08-16 12:26:18.000000000,2019-08-20 17:42:25.000000000,closed,5,packages and program entry point (main proc)
+421,2019-08-16 12:01:52.000000000,1970-01-01 00:00:00.000000001,open,4,Tags on some non-struct types
+420,2019-08-16 11:54:26.000000000,2019-12-29 20:40:30.000000000,closed,4,File-private variables
+419,2019-08-16 00:05:54.000000000,2019-08-16 22:42:04.000000000,closed,0,Added an implementation for Base64. Also provides the ability to supp…
+418,2019-08-15 16:24:36.000000000,2019-08-16 11:59:38.000000000,closed,2,Builtin function to get the package of a struct/procedure/etc
+417,2019-08-11 01:31:01.000000000,2019-08-14 01:51:11.000000000,closed,0,Compiler crashes with non-identifier in #defined()
+416,2019-08-11 01:22:17.000000000,2019-10-05 13:22:49.000000000,closed,0,#complete switch with pointer case doesn't compile
+415,2019-08-09 14:44:02.000000000,2019-08-14 01:46:53.000000000,closed,8,Structure field tags
+414,2019-08-08 19:17:49.000000000,2019-08-14 01:30:53.000000000,closed,0,"`bit_field` passes typechecking when compared with `nil`, but `opt` chokes on it"
+413,2019-08-07 20:49:46.000000000,1970-01-01 00:00:00.000000001,open,1,`bit_field` incorrect initialization without `-opt` > 0
+412,2019-08-05 22:33:45.000000000,2019-08-14 01:47:57.000000000,closed,2,Name collision between proc parameters and using-ed members is not reported.
+411,2019-08-05 22:29:11.000000000,1970-01-01 00:00:00.000000001,open,0,Global anonymous structs aren't showing up in the debugger.
+410,2019-08-05 09:50:24.000000000,1970-01-01 00:00:00.000000001,open,0,Importing a package/directory with an invalid name gives bad error
+409,2019-08-04 20:36:50.000000000,2019-11-03 00:32:18.000000000,closed,2,Loop unrolling for constant loop ranges
+408,2019-07-29 18:25:57.000000000,2019-07-29 21:33:19.000000000,closed,0,Constant parameters with `:=`
+407,2019-07-28 01:16:36.000000000,2019-11-01 14:21:31.000000000,closed,1,Add mem.equal
+406,2019-07-21 00:16:44.000000000,2019-07-21 00:21:59.000000000,closed,0,Fix `scale_f32` and `scale_vec3` returning the wrong variable
+405,2019-07-17 16:32:55.000000000,1970-01-01 00:00:00.000000001,open,1,Optional ability to query constant entity declarations
+404,2019-07-17 01:31:05.000000000,2019-11-01 23:44:51.000000000,closed,5,Impl time for macOS
+403,2019-07-04 17:25:51.000000000,2019-07-13 18:39:54.000000000,closed,3,Implicit Selector Expressions do not work with overloaded procedures
+402,2019-07-04 16:43:10.000000000,2019-12-31 18:19:00.000000000,closed,8,Enumerated Arrays
+401,2019-07-01 13:56:18.000000000,1970-01-01 00:00:00.000000001,open,0,Attribute to disable or change array programming 
+400,2019-06-29 05:43:11.000000000,2019-06-29 15:09:46.000000000,closed,0,Correct two typos
+399,2019-06-27 10:48:00.000000000,2019-12-08 19:35:20.000000000,closed,0,Missing behaviour and inconsistencies in strconv parse_int and parse_uint
+398,2019-06-26 21:56:50.000000000,2019-09-08 02:24:09.000000000,closed,0,Set up CI with Azure Pipelines
+397,2019-06-20 13:19:15.000000000,1970-01-01 00:00:00.000000001,open,23,Redesign of `package os`
+396,2019-06-17 13:10:12.000000000,2019-06-22 01:50:38.000000000,closed,0,Double-pointer Indexing Bug
+395,2019-06-13 18:39:28.000000000,1970-01-01 00:00:00.000000001,open,0,Ability to foreign import object files
+394,2019-06-13 16:46:13.000000000,2020-01-15 17:03:40.000000000,closed,0,Undefined reference to external variable when only it is used
+393,2019-06-12 16:42:05.000000000,2019-06-22 01:59:07.000000000,closed,0,Procedure group compiler assert when no matching arguments are provided
+392,2019-06-12 07:28:11.000000000,2020-04-30 01:56:39.000000000,closed,4,Error running ./build.sh on macOS mojave
+391,2019-06-11 22:36:08.000000000,1970-01-01 00:00:00.000000001,open,11,HTTP module
+390,2019-06-11 19:45:03.000000000,2019-12-08 06:02:14.000000000,closed,2,`using` bug
+389,2019-06-11 12:44:57.000000000,1970-01-01 00:00:00.000000001,open,0,Error message when dealing with return of os.Handle
+388,2019-06-11 12:38:17.000000000,2020-06-10 18:13:00.000000000,closed,0,"foreign linking of the same function, but slighty different definitions"
+387,2019-06-10 18:53:56.000000000,2019-11-01 14:23:36.000000000,closed,3,Correct ABI Support for Linux and OS X
+386,2019-06-10 04:59:28.000000000,2019-06-22 01:48:46.000000000,closed,0,Can't compare bit_field field with number literal
+385,2019-06-09 18:53:31.000000000,1970-01-01 00:00:00.000000001,open,0,Visual Studio debugging experience
+384,2019-06-09 16:56:11.000000000,2019-08-30 05:14:29.000000000,closed,2,Implement `get_last_error` for osx and make it return Errno
+383,2019-06-06 04:44:34.000000000,1970-01-01 00:00:00.000000001,open,1,Unicode variants of operators shouldn't be an 'implemenation option'?
+382,2019-06-05 09:36:46.000000000,2019-07-09 12:45:48.000000000,closed,1,Safe access to nullable 'objects'
+381,2019-06-05 08:10:32.000000000,2019-12-08 06:05:06.000000000,closed,1,'#complete' directive on switch not mentioned in new docs
+380,2019-06-03 14:54:55.000000000,1970-01-01 00:00:00.000000001,open,0,Documentation for the Context System
+379,2019-06-03 14:54:36.000000000,1970-01-01 00:00:00.000000001,open,1,Documentation for Library Collections
+378,2019-06-03 02:57:29.000000000,2019-12-08 06:02:57.000000000,closed,0,"Inconsistent git tag ""0.9.1"""
+377,2019-05-29 22:30:06.000000000,2019-06-01 21:29:14.000000000,closed,2,Error printing 128 bit integers
+376,2019-05-21 04:05:58.000000000,2019-05-21 22:13:20.000000000,closed,1,Incorrect Shift Behaviors
+375,2019-05-19 06:03:56.000000000,2019-05-19 12:55:04.000000000,closed,0,make_builder function now properly uses given allocator
+374,2019-05-19 01:51:22.000000000,2019-05-19 13:45:37.000000000,closed,3,LLVM IR bug related to the return types of proc pointers as parameters to other procs
+373,2019-05-16 00:26:03.000000000,2020-06-10 18:12:46.000000000,closed,1,Allow constant procedure entities within polymorphic records and procedures
+372,2019-05-07 11:14:43.000000000,2019-05-16 00:30:39.000000000,closed,2,[proposal] #overload directive for procedure overloading
+371,2019-05-05 08:56:39.000000000,2019-05-19 20:48:36.000000000,closed,3,strings.make_builder not using given allocator
+370,2019-05-01 15:57:27.000000000,2019-05-04 16:12:21.000000000,closed,0,A bunch of (related) parapoly bugs
+369,2019-04-22 21:34:52.000000000,1970-01-01 00:00:00.000000001,open,1,#load errors on compile on linux
+368,2019-04-20 17:05:01.000000000,2019-10-21 00:18:29.000000000,closed,8,The ability to load files as binary data
+367,2019-04-06 17:27:10.000000000,2019-04-06 18:35:47.000000000,closed,1,Fix some JSON parsing bugs.
+366,2019-04-06 17:23:41.000000000,2019-04-06 18:37:43.000000000,closed,1,parsing json fails with single digit integer keys or negative float values
+365,2019-04-01 14:06:58.000000000,2020-06-10 18:11:57.000000000,closed,2,Proposal: Custom type classes for polyproc specialisation
+364,2019-04-01 03:00:05.000000000,2019-04-02 13:47:49.000000000,closed,5,Proposal: tensors
+363,2019-03-29 19:51:16.000000000,2019-03-30 14:17:43.000000000,closed,0,`Invalid slice indices` error calling json.marshal
+362,2019-03-29 12:50:19.000000000,2019-03-31 14:25:28.000000000,closed,2,Invalid dynamic array creation doesn't compile error
+361,2019-03-29 12:42:35.000000000,2019-03-30 14:44:04.000000000,closed,1,Implicit polymorphic vararg error
+360,2019-03-29 07:21:31.000000000,2020-04-01 18:02:46.000000000,closed,11,Mysterious Context Changes
+359,2019-03-27 15:56:31.000000000,1970-01-01 00:00:00.000000001,open,6,Default value of enum variable is always zero instead of first enum value
+358,2019-03-25 17:25:23.000000000,2019-04-06 18:34:02.000000000,closed,0,Fix some -vet warnings; change import to core:math/bits
+357,2019-03-21 00:56:21.000000000,2019-03-22 17:48:58.000000000,closed,2,Improved project repository
+356,2019-03-19 18:25:40.000000000,2019-03-20 00:27:37.000000000,closed,0,fmt.println a rawptr causes access violation
+355,2019-03-18 18:14:41.000000000,2019-03-18 18:27:08.000000000,closed,0,Replace calls to deprecated string functions on linux
+354,2019-03-17 22:36:40.000000000,2019-03-18 00:44:02.000000000,closed,0,"Erroneous redeclaration error with `using import ""core:math""`"
+353,2019-03-17 22:28:25.000000000,2019-03-20 00:22:44.000000000,closed,0,Cannot assign `1` to bit_field
+352,2019-03-17 08:52:23.000000000,2019-03-17 17:03:46.000000000,closed,1,Compiler not using file-local shadow of procedure name
+351,2019-03-15 12:15:13.000000000,2019-03-15 19:47:18.000000000,closed,1,`--ignore-unknown-attributes` is inconsistent with other arguments
+350,2019-03-14 22:17:50.000000000,2019-03-15 03:42:01.000000000,closed,0,"Assertion failure 'are_types_identical', with #current_location and deferred."
+349,2019-03-13 09:02:59.000000000,2019-03-15 03:27:06.000000000,closed,0,#raw_union has improper size when embedded in a struct
+348,2019-03-09 16:47:37.000000000,2019-03-09 16:51:14.000000000,closed,0,Add win32.get_cwd for current working directory and convenience functions for open + save dialogs.
+347,2019-03-04 17:43:04.000000000,2019-03-04 17:46:51.000000000,closed,0,Fix typo in `cel` tokeniser.
+346,2019-02-26 17:55:10.000000000,2019-03-03 17:00:01.000000000,closed,3,Fix #345: panic when using enum as map key
+345,2019-02-26 17:27:18.000000000,2019-03-03 17:00:03.000000000,closed,1,Map with enum key panics the compiler when assigned to
+344,2019-02-26 03:13:41.000000000,2019-03-20 00:34:38.000000000,closed,2,"Null pointer to constant cstring, should be compiler error?"
+343,2019-02-25 05:54:56.000000000,2019-03-20 00:34:56.000000000,closed,5,Stack overflow with #raw_union
+342,2019-02-24 09:27:09.000000000,2019-02-25 00:19:21.000000000,closed,1,Error When Using Callback With Multiple Return Values
+341,2019-02-24 08:22:00.000000000,2019-05-16 00:29:12.000000000,closed,1,Error Message for Proc With Multiple Return Values
+340,2019-02-19 09:11:52.000000000,2019-02-19 15:05:07.000000000,closed,1,Compiler error with struct #raw_union and nested union in opt.exe
+339,2019-02-13 03:44:00.000000000,2020-07-10 11:25:24.000000000,closed,10,"""core:path"" Path library and ""core:strings"" `split` Utilities"
+338,2019-02-10 03:20:57.000000000,2019-02-10 03:36:30.000000000,closed,0,core:odin/parser fails to parse core/fmt.odin
+337,2019-02-08 16:54:03.000000000,2019-02-08 16:58:31.000000000,closed,0,Fixed typo in copy_sign_f64.
+336,2019-02-07 01:57:24.000000000,2020-07-09 02:10:21.000000000,closed,1,"adding a few COM items, window styles, etc..."
+335,2019-02-06 23:05:35.000000000,2019-12-08 06:03:44.000000000,closed,1,Odin run doesn't return non-zero exit code on missing LLVM binaries
+334,2019-02-06 01:19:57.000000000,2019-02-06 03:21:27.000000000,closed,0,Add issue templates
+333,2019-02-06 00:52:48.000000000,2019-02-06 19:53:41.000000000,closed,0,Setup Travis CI and Appvoyer CI
+332,2019-02-02 04:12:29.000000000,2019-02-03 04:14:08.000000000,closed,0,"Fix #322, now correctly printing big strings."
+331,2019-02-01 19:35:47.000000000,2019-02-03 04:14:27.000000000,closed,0,Fixed macOS not compiling
+330,2019-02-01 19:13:55.000000000,2019-02-01 19:25:37.000000000,closed,0,Fixed -out dropping extension on linux. Issue #305
+329,2019-01-25 03:13:36.000000000,2019-03-24 16:02:42.000000000,closed,1,@(deferred_out) doesn't work with procedure entities in other packages
+328,2019-01-24 19:59:58.000000000,2019-11-15 03:56:12.000000000,closed,1,"Add rand.fill(^rand.Rand, []$T) for filling a slice with random data."
+327,2019-01-21 17:38:08.000000000,2019-01-30 03:12:02.000000000,closed,3,Provide a way to pass arguments to compiled executable during 'odin run program.odin'.
+326,2019-01-18 17:32:12.000000000,2019-01-18 17:37:41.000000000,closed,0,Initial support for GetVersionExA
+325,2019-01-18 06:02:43.000000000,2019-03-30 14:46:27.000000000,closed,2,Stack smashing issue when allocating struct on stack in local scope
+324,2019-01-16 22:57:10.000000000,2019-01-18 19:24:20.000000000,closed,2,Fix assert when printing IR of pointer with endianness
+323,2019-01-13 23:57:23.000000000,2019-01-14 18:41:11.000000000,closed,6,.od file extension
+322,2019-01-10 23:31:41.000000000,2019-02-03 04:14:10.000000000,closed,0,LLVM Ir error with big strings
+321,2019-01-10 01:15:42.000000000,2019-03-24 19:15:18.000000000,closed,3,Support arrays with `in` check
+320,2019-01-06 23:42:04.000000000,2019-01-07 20:52:33.000000000,closed,0,Added diff() to core:time.
+319,2019-01-06 17:27:56.000000000,2019-01-06 20:22:22.000000000,closed,0,Vet time_linux
+318,2019-01-06 15:32:21.000000000,2019-01-08 22:31:01.000000000,closed,3,Add opaque to the list of keywords (if it is)
+317,2019-01-05 01:43:32.000000000,2019-01-10 20:16:54.000000000,closed,1,#caller_location unique hash field
+316,2019-01-03 03:21:35.000000000,2019-01-03 17:55:26.000000000,closed,1,Invalid code with 'using' produces stack overflow
+315,2019-01-02 20:20:12.000000000,2019-01-02 20:20:36.000000000,closed,0,Fixed bug for Bill because he is a lazy boi.
+314,2019-01-02 19:59:55.000000000,2019-01-02 20:01:46.000000000,closed,0,Fixed int_from_arg not consuming argument.
+313,2019-01-02 16:26:00.000000000,2019-06-17 12:44:23.000000000,closed,5,Can't build on mac anymore
+312,2019-01-02 05:43:37.000000000,2019-01-02 06:56:16.000000000,closed,2,`defer`'d statements aren't executing on `break`
+311,2018-12-30 14:13:41.000000000,2018-12-30 14:50:01.000000000,closed,0,Fix bugs and inconsistencies with linux versions of os package
+310,2018-12-26 16:41:13.000000000,2018-12-26 22:37:20.000000000,closed,0,Fix os.open on linux/osx
+309,2018-12-21 10:55:04.000000000,2020-06-10 18:13:50.000000000,closed,20,Straight while loop performs worse than javascript
+308,2018-12-18 17:48:22.000000000,2018-12-18 18:05:45.000000000,closed,0,fix missing declaration in osx
+307,2018-12-13 23:13:04.000000000,2018-12-14 19:59:27.000000000,closed,0,-debug panic: the sequel
+306,2018-12-13 06:43:41.000000000,2018-12-14 19:38:48.000000000,closed,1,`#raw_union` no longer works
+305,2018-12-11 22:37:43.000000000,2019-02-01 20:59:18.000000000,closed,0,Odin Drops File Extension When Using Output Flag
+304,2018-12-11 15:08:30.000000000,2018-12-14 20:00:00.000000000,closed,1,Assertion Failure: `tv.mode != Addressing_Invalid`
+303,2018-12-11 11:39:22.000000000,2018-12-14 19:53:41.000000000,closed,0,Assert failure and LLVM ir error when doing subtyping.
+302,2018-12-11 10:04:42.000000000,2018-12-14 19:57:14.000000000,closed,0,Panic: Invalid subtype cast 
+301,2018-12-11 09:46:14.000000000,2018-12-11 10:18:36.000000000,closed,1,Added INVALID_HANDLE constant os_linux.odin.
+300,2018-12-11 02:40:41.000000000,2018-12-14 19:58:50.000000000,closed,1,thread local storage support
+299,2018-12-10 07:53:52.000000000,2018-12-14 19:44:34.000000000,closed,6,Add the missing INVALID_HANDLE so that the demo will build and run on Linux
+298,2018-12-10 00:06:51.000000000,2018-12-14 20:05:35.000000000,closed,0,Compile time assertion for incorrect parapoly declaration
+297,2018-12-09 00:22:58.000000000,2018-12-09 00:39:34.000000000,closed,0,Add Linux support for core:time
+296,2018-12-08 07:54:39.000000000,2018-12-08 15:59:09.000000000,closed,6,Case for Goto
+295,2018-12-08 05:27:29.000000000,2018-12-08 18:31:51.000000000,closed,2,Weird Pointer Autocasting Bug
+294,2018-12-08 02:41:31.000000000,2018-12-08 16:50:16.000000000,closed,1,`foreign export` Broken
+293,2018-12-07 14:18:26.000000000,2018-12-08 16:26:24.000000000,closed,0,Incorrect results when comparing constants when folding.
+292,2018-12-06 01:25:20.000000000,2020-06-10 18:10:21.000000000,closed,2,import errors despite `when`
+291,2018-12-05 22:15:57.000000000,2018-12-08 16:05:59.000000000,closed,0,fixed typo in 'GetMonitorInfoA' & added additional window styles
+290,2018-12-05 13:00:56.000000000,2019-05-16 00:33:58.000000000,closed,2,SetCurrentDirectoryA
+289,2018-12-05 08:28:49.000000000,2019-04-22 13:16:57.000000000,closed,2,`math.mat4_inverse` Broken
+288,2018-12-05 08:26:40.000000000,2019-04-22 13:17:02.000000000,closed,1,`math.transpose` Broken
+287,2018-12-03 00:09:45.000000000,2018-12-03 00:54:37.000000000,closed,1,"main.cpp: Missing ""dsymutil"" in call to system_exec_command_line_app on MacOS"
+286,2018-11-29 08:11:51.000000000,2018-11-30 00:14:57.000000000,closed,0,Union switching by address with a `#complete` results in an assertion failure
+285,2018-11-26 05:50:50.000000000,2019-06-10 01:09:20.000000000,closed,6,Union not being copied into map or new_clone()
+284,2018-11-26 05:48:50.000000000,2018-11-26 15:55:25.000000000,closed,3,-debug panic
+283,2018-11-25 04:22:30.000000000,2018-11-25 15:36:02.000000000,closed,0,Issue with referencing a polymorphic struct in another package referencing itself
+282,2018-11-22 18:24:06.000000000,2018-11-23 02:16:13.000000000,closed,12,Failed to execute command
+281,2018-11-22 09:26:28.000000000,2018-11-22 15:21:58.000000000,closed,1,odin exe not compiling exe
+280,2018-11-16 22:59:31.000000000,2018-11-17 14:46:04.000000000,closed,0,println(i8(-128)); outputs -18446744073709551488
+279,2018-11-12 01:31:01.000000000,2018-11-17 15:05:47.000000000,closed,0,LLVM error with polymorphic structs
+278,2018-11-04 14:22:12.000000000,2018-11-07 21:11:26.000000000,closed,4,`Undeclared name: intrinsics` on macos
+277,2018-10-31 00:00:28.000000000,2018-10-31 16:43:36.000000000,closed,2,Support Arduino
+276,2018-10-23 22:53:02.000000000,2018-12-09 01:12:12.000000000,closed,4,"Add a simple file-, console- and multi-logger to core"
+275,2018-10-17 03:20:26.000000000,2018-10-24 16:24:11.000000000,closed,3,Inconsistent semicolon syntax
+274,2018-10-17 03:02:38.000000000,2018-10-17 18:29:56.000000000,closed,0,Use name of source file as output_name
+273,2018-10-16 00:26:09.000000000,2018-10-17 18:29:58.000000000,closed,0,Fix syntax error in core/os/os_linux.odin
+272,2018-10-16 00:16:29.000000000,2018-10-17 18:27:47.000000000,closed,1,demo does not compile on Linux
+271,2018-10-09 10:36:06.000000000,2018-10-10 00:49:15.000000000,closed,0,Fixed heap alloc not allowing empty structs on Linux
+270,2018-10-08 10:24:47.000000000,2018-10-08 12:39:44.000000000,closed,0,Replaced __builtin_clz by long long version
+269,2018-10-06 02:58:41.000000000,2018-10-07 23:43:19.000000000,closed,1,HTTP/S libraries
+268,2018-10-04 20:30:11.000000000,2018-10-08 12:39:44.000000000,closed,4,Floating point exception when affecting hexadecimal litteral to int
+267,2018-10-02 12:56:21.000000000,2018-10-10 00:49:14.000000000,closed,2,Runtime assertion when appending to dynamic arrays of empty structs
+266,2018-09-21 08:00:27.000000000,2018-10-08 20:26:58.000000000,closed,8,Compiler crash (divide by zero) while trying to report integer overflow
+265,2018-09-18 08:20:34.000000000,2018-11-07 21:14:42.000000000,closed,0,Problem with `switch in some_any`
+264,2018-09-16 10:23:22.000000000,2018-09-17 01:26:35.000000000,closed,0,Remove reference to the runtime package within itself
+263,2018-09-14 20:48:02.000000000,2018-09-14 20:48:34.000000000,closed,1,fix macos thread_count value
+262,2018-09-12 13:33:29.000000000,2018-09-16 10:21:29.000000000,closed,0,delete_key only works for last entered key.
+261,2018-09-10 11:03:17.000000000,2018-09-10 11:50:50.000000000,closed,0,Unhandled auto_cast case in parser
+260,2018-09-05 16:04:48.000000000,2018-10-24 12:40:06.000000000,closed,12,[WIP] Provide llvm with more debug info (for Visual Studio debugger support)
+259,2018-09-04 19:17:43.000000000,2018-09-18 20:24:08.000000000,closed,2,Parametric Polymorphic Union
+258,2018-09-04 19:15:31.000000000,2019-08-27 12:16:01.000000000,closed,1,No nil Union
+257,2018-09-02 23:53:24.000000000,2018-09-03 00:18:32.000000000,closed,5,Fixed core library bugs after recent changes.
+256,2018-09-02 23:43:05.000000000,1970-01-01 00:00:00.000000001,open,15,Error handling discussion
+255,2018-08-28 05:21:23.000000000,2018-09-14 20:53:19.000000000,closed,2,Any build fails on macOS
+254,2018-08-25 07:02:21.000000000,2018-08-25 13:27:54.000000000,closed,3,Mysterious LLVM integer constant bug
+253,2018-08-25 04:20:00.000000000,2018-08-25 13:39:36.000000000,closed,1,LLVM IR issue with union switches
+252,2018-08-24 00:13:04.000000000,2018-08-25 14:13:04.000000000,closed,5,Suggestion: variadic min/max
+251,2018-08-23 23:05:28.000000000,2020-06-10 18:10:52.000000000,closed,2,Suggestion: indexed array literals
+250,2018-08-22 17:32:08.000000000,2018-08-22 18:17:43.000000000,closed,0,Default return values broken
+249,2018-08-22 14:26:57.000000000,2018-08-22 18:19:16.000000000,closed,0,Casting `cstring` to `rawptr`
+248,2018-08-21 00:28:26.000000000,2018-10-08 22:17:23.000000000,closed,6,Divisions at compile-time with results > 1 throw a floating point exception at compile-time
+247,2018-08-20 22:02:55.000000000,2018-08-20 22:20:58.000000000,closed,1,Cryptic error when make()-ing a slice of length 0 or [dynamic] of cap 0.
+246,2018-08-19 01:53:29.000000000,2020-06-10 18:10:43.000000000,closed,14,Linking to a DLL
+245,2018-08-16 17:38:24.000000000,2018-10-29 16:09:28.000000000,closed,3,'odin build <file>' does not produce an executable with the correct name
+244,2018-08-14 21:37:58.000000000,2018-08-14 22:43:43.000000000,closed,0,Some weird array programming assert thang
+243,2018-08-13 21:03:16.000000000,2018-08-14 14:14:51.000000000,closed,1,"using import shadows functions, structs etc"
+242,2018-08-10 06:08:10.000000000,2018-08-13 13:53:27.000000000,closed,1,`fmt.aprintf` and friends broken
+241,2018-08-08 19:51:22.000000000,2018-08-09 01:41:42.000000000,closed,0,Fixed 'sh: main: command not found' error on linux.
+240,2018-08-03 15:55:02.000000000,2019-06-03 15:16:56.000000000,closed,5,Context based Logging System
+239,2018-08-01 18:07:53.000000000,2018-08-02 00:35:29.000000000,closed,1,Reduce number of range and slice operators
+238,2018-07-28 21:39:08.000000000,2018-07-28 21:39:16.000000000,closed,0,Big int
+237,2018-07-16 22:34:11.000000000,2018-07-17 11:25:22.000000000,closed,0, Add mat3_mul and generic transpose to math.odin 
+236,2018-07-13 20:23:39.000000000,2018-07-14 22:39:12.000000000,closed,0,Fix build errors on osx
+235,2018-07-06 16:01:39.000000000,2018-07-13 11:02:57.000000000,closed,3,Large arrays are inlined in the llvm output
+234,2018-07-06 13:07:30.000000000,2018-07-07 09:55:10.000000000,closed,4,where should the pthread bindings be located?
+233,2018-07-02 11:52:05.000000000,2018-07-02 11:57:23.000000000,closed,0,Make macOS builds work again
+232,2018-06-28 19:00:49.000000000,2018-07-02 11:09:43.000000000,closed,0,Callbacks disabling procedures
+231,2018-06-12 12:52:03.000000000,2018-06-13 11:28:54.000000000,closed,1,Wrong value in global map initialized from literal
+230,2018-06-07 20:33:15.000000000,2018-06-07 20:35:14.000000000,closed,0,Fix crash relating to foreign imports
+229,2018-06-07 15:37:56.000000000,2018-06-07 23:15:59.000000000,closed,0,Crashy with strings when using foreign imports on Linux
+228,2018-06-03 22:47:04.000000000,2018-06-04 00:09:58.000000000,closed,0,Fix some core lib errors on packages branch
+227,2018-06-03 22:12:17.000000000,2018-06-04 00:10:17.000000000,closed,0,quick_sort_proc() calls quick_sort() with the wrong arguments
+226,2018-06-03 19:14:16.000000000,2018-06-03 19:35:44.000000000,closed,0,Dsymutil fixes
+225,2018-05-22 01:25:52.000000000,2018-08-22 18:40:55.000000000,closed,2,Where are tutorials?
+224,2018-05-22 01:10:35.000000000,2018-06-08 02:25:06.000000000,closed,1,Type_Info/typeid_of for structs is broken
+223,2018-05-19 15:41:48.000000000,2018-05-20 15:33:00.000000000,closed,1,Cannot take pointer of struct field in an array in a for loop.
+222,2018-05-17 10:07:04.000000000,2018-05-17 13:33:23.000000000,closed,0,added compiler command for only parsing and typechecking
+221,2018-05-14 23:48:15.000000000,1970-01-01 00:00:00.000000001,open,0,Cross platform Compiler Toolkit
+220,2018-05-14 19:25:02.000000000,2018-05-14 20:06:04.000000000,closed,0,Build failure on macOS (and probably Linux too)
+219,2018-05-14 12:13:51.000000000,2018-05-14 20:06:03.000000000,closed,0,Assert failure in check_type
+218,2018-05-13 14:34:33.000000000,2018-05-13 14:45:06.000000000,closed,0,Fix timing on macos
+217,2018-05-09 23:57:53.000000000,2018-05-13 00:22:56.000000000,closed,0,Global variables of struct type not initialized with default values.
+216,2018-05-02 20:10:19.000000000,2018-05-02 22:41:00.000000000,closed,0,Fix copy-and-forget in math.odin
+215,2018-04-21 21:58:09.000000000,2018-04-22 23:41:30.000000000,closed,3,null-terminated odin string
+214,2018-04-09 00:47:08.000000000,2018-04-10 23:51:56.000000000,closed,1,`context` as `any`
+213,2018-04-08 01:07:38.000000000,2018-04-09 11:46:35.000000000,closed,4,Casting a float literal to an int issues an error
+212,2018-04-04 12:32:35.000000000,2018-04-10 23:46:56.000000000,closed,0,Trying to create array with undeclared type compound literal triggers internal compiler error
+211,2018-04-04 12:21:20.000000000,2018-04-10 23:35:27.000000000,closed,0,Compiler tries to parse files that dont exist
+210,2018-04-01 19:07:12.000000000,2018-05-06 18:31:44.000000000,closed,1,Declaring arrays using brace delimited lists broken
+209,2018-04-01 19:00:08.000000000,2018-04-10 23:18:28.000000000,closed,0,#assert broken
+208,2018-03-31 00:44:47.000000000,2018-08-02 18:59:18.000000000,closed,3,Internal compiler error
+207,2018-03-28 18:59:08.000000000,2020-06-10 18:09:54.000000000,closed,1,Support WebAssembly
+206,2018-03-28 13:07:50.000000000,2018-08-14 22:44:34.000000000,closed,4,Pascal-like `set` type
+205,2018-03-28 13:02:24.000000000,2018-08-02 13:06:23.000000000,closed,1,Allow for no complex type information
+204,2018-03-21 22:31:44.000000000,2018-04-14 22:45:01.000000000,closed,0,Added more function to windows.odin
+203,2018-03-20 06:44:39.000000000,2018-06-04 11:29:46.000000000,closed,1,Allow slices and arrays to be defined as constants
+202,2018-03-11 15:55:07.000000000,1970-01-01 00:00:00.000000001,open,1,Support ARM
+201,2018-03-11 02:37:06.000000000,2018-03-12 00:52:59.000000000,closed,0,update essence bindings
+200,2018-03-11 01:30:57.000000000,2018-03-11 01:50:47.000000000,closed,0,fix compile warnings on linux
+199,2018-03-05 17:11:47.000000000,2018-03-10 18:42:26.000000000,closed,0,Resource Compiler calling
+198,2018-02-25 18:40:27.000000000,2018-02-26 15:06:09.000000000,closed,0,Added terminate_thread to thread.odin
+197,2018-02-25 05:10:00.000000000,2018-02-25 05:13:02.000000000,closed,0,Context bug fix
+196,2018-02-25 01:48:16.000000000,2018-02-25 05:14:23.000000000,closed,0,LLVM IR issues regarding `context`
+195,2018-02-24 22:28:12.000000000,2018-02-24 23:41:04.000000000,closed,0,Odd behaviour with 'do' and 'when'
+194,2018-02-23 06:08:40.000000000,2018-02-25 04:44:45.000000000,closed,3,Proc Calls at File Scope
+193,2018-02-22 13:17:12.000000000,2018-07-28 22:43:41.000000000,closed,12,min(type) max(type)
+192,2018-02-20 18:49:50.000000000,2018-02-23 02:25:05.000000000,closed,0,Compiler assert in checker.cpp
+191,2018-02-19 21:13:27.000000000,2018-02-25 18:32:24.000000000,closed,0,Add more min/max constants in math.odin
+190,2018-02-18 05:00:24.000000000,2018-02-25 19:57:16.000000000,closed,3,Fixed a bug (segfault)?
+189,2018-02-17 19:05:40.000000000,2018-02-18 00:16:52.000000000,closed,0,Pretty readme header
+188,2018-02-14 22:28:19.000000000,1970-01-01 00:00:00.000000001,open,2,Suggesting removal of dependency on libc on Linux systems
+187,2018-02-14 09:27:29.000000000,2018-02-15 02:46:55.000000000,closed,0,Compiler generating invalid llvm ir when not specializing polymorphic type.
+186,2018-02-14 03:39:40.000000000,2018-02-25 23:11:58.000000000,closed,2,suggested addition to `mem.odin`: `any_to_bytes`
+185,2018-02-13 05:14:40.000000000,2018-02-13 23:01:57.000000000,closed,0,`enum #export` does not work with `export`
+184,2018-02-08 01:24:46.000000000,2018-02-14 03:02:44.000000000,closed,0," Added widechar versions of functions, plus cursor functions "
+183,2018-02-06 16:39:28.000000000,2018-02-07 23:55:16.000000000,closed,0,Compiler assert in ir.cpp
+182,2018-02-04 01:56:51.000000000,2018-02-05 00:49:04.000000000,closed,0,"Functions, structs and constants related to getting file notifications"
+181,2018-02-01 01:00:48.000000000,2018-02-03 15:32:56.000000000,closed,0,Run-time assertion when removing last element of map
+180,2018-01-31 15:38:11.000000000,2018-08-22 18:40:24.000000000,closed,2,Very strange behavior with optimizations
+179,2018-01-29 06:13:40.000000000,2018-02-03 15:27:42.000000000,closed,0,fmt.printf width for %d bug
+178,2018-01-28 01:24:01.000000000,2018-01-28 13:59:49.000000000,closed,1,Crash if... I can't summarize this just check the code
+177,2018-01-26 10:40:19.000000000,2018-01-28 14:13:45.000000000,closed,0,Printf bug
+176,2018-01-26 02:08:31.000000000,2018-01-28 14:19:37.000000000,closed,0,Compiler crash when trying to redeclare a `using import`ed proc as part of an explicit overloading group of the same name
+175,2018-01-25 04:01:35.000000000,2018-01-25 19:02:32.000000000,closed,0,More file handling functions
+174,2018-01-24 11:27:46.000000000,2018-01-24 14:41:10.000000000,closed,0,Added stuff to windows.odin
+173,2018-01-12 11:16:24.000000000,2018-01-12 16:44:12.000000000,closed,0,`mem.odin` bug
+172,2018-01-11 02:07:48.000000000,2018-01-11 02:17:25.000000000,closed,0,#c_vararg broken
+171,2018-01-10 21:10:24.000000000,2018-01-10 21:32:15.000000000,closed,0,Math.odin giving compile errors - I'm an idiot
+170,2018-01-10 20:43:55.000000000,2018-01-11 02:17:19.000000000,closed,0,Assert when casting type instead of variable
+169,2018-01-05 00:54:54.000000000,2018-01-06 02:50:49.000000000,closed,1,Syntax proposal
+168,2018-01-02 02:23:28.000000000,2018-12-14 19:40:36.000000000,closed,4,Possible bug with append return value when used directly when indexing
+167,2017-12-24 07:39:44.000000000,2017-12-28 01:36:47.000000000,closed,1,Broken built in procedures
+166,2017-12-21 23:31:50.000000000,2018-01-05 15:08:53.000000000,closed,3,aliasing maps no longer works
+165,2017-12-17 15:14:57.000000000,2017-12-17 15:17:27.000000000,closed,0,Merge pull request #1 from gingerBill/master
+164,2017-12-14 07:26:33.000000000,2017-12-15 00:58:01.000000000,closed,0,Compiler crash on 3 return types not stored
+163,2017-12-11 20:27:22.000000000,2018-02-13 23:02:13.000000000,closed,1,Assertion in malloc.c failed.
+162,2017-12-11 04:44:45.000000000,2017-12-11 16:08:20.000000000,closed,0,Union with elements seen as empty union
+161,2017-12-07 02:22:32.000000000,2019-11-01 14:33:01.000000000,closed,4,InnoSetup Script to create an installer
+160,2017-12-04 20:05:57.000000000,2017-12-04 20:07:09.000000000,closed,0,Added skip for Entity_ProcedureGrouping
+159,2017-12-03 23:35:16.000000000,2017-12-04 02:34:23.000000000,closed,0,LLVM error when you make a 2D array with [...][SOME_CONSTANT] but then only specify a 1D array
+158,2017-12-03 16:12:14.000000000,2018-12-20 15:55:48.000000000,closed,2,Fix floating point rounding functions
+157,2017-11-30 13:34:04.000000000,2017-12-01 00:53:56.000000000,closed,0,Attempt to assign builtin len causes crash rather than error
+156,2017-11-28 15:00:41.000000000,2017-11-29 03:49:47.000000000,closed,0,Odin compilation error: cannot initialize 'char *' with rvalue of type 'const char *'
+155,2017-11-27 11:20:08.000000000,2019-11-01 14:25:08.000000000,closed,11,Shadowing a variable gives no warning
+154,2017-11-26 16:05:30.000000000,2017-11-26 16:10:14.000000000,closed,0,essence cross compile
+153,2017-11-23 12:19:03.000000000,2018-01-05 19:01:19.000000000,closed,6,Silent parsing failures for string literals
+152,2017-11-23 11:53:29.000000000,2018-06-06 11:55:49.000000000,closed,1,"Allow overloading of procedures in different scopes (e.g: `len`, `reserve`, `append`)"
+151,2017-11-22 12:37:07.000000000,2019-02-07 05:32:29.000000000,closed,0,Configure Git to ignore Linux/MacOS example executables
+150,2017-11-22 03:18:44.000000000,2017-11-22 03:33:40.000000000,closed,0,Changed `string_has_extension` to `string_ends_with` and fix macOS target triple
+149,2017-11-21 18:46:37.000000000,2017-11-30 20:43:30.000000000,closed,2,Compiler error when block comment encapsulates string literal containing block comment open tag.
+148,2017-11-19 03:25:17.000000000,2017-11-19 14:39:45.000000000,closed,8,"Cannot overload `reserve`, `append` or `len`"
+147,2017-11-19 03:14:52.000000000,2017-11-19 14:58:08.000000000,closed,0,"Update version string to ""7.0.0"""
+146,2017-11-18 11:57:40.000000000,2017-11-19 01:57:35.000000000,closed,1,Calling a proc on field of poly'd type crashes if that proc is overloaded on that type
+145,2017-11-15 13:57:18.000000000,2017-11-16 02:25:31.000000000,closed,0,Unsigned constant is negatable
+144,2017-11-13 06:55:59.000000000,2017-11-14 01:35:33.000000000,closed,1,`write_entire_file()` doesn't truncate the old contents of the file.
+143,2017-11-12 00:21:30.000000000,2018-02-23 02:34:32.000000000,closed,6,Checking length of args array causing `new_c_string` on an arg to crash
+142,2017-11-11 03:14:12.000000000,2017-11-11 03:14:41.000000000,closed,0,"Added static linking for macOS, too. There's literally %number% of us!"
+141,2017-11-11 01:45:31.000000000,2017-11-11 02:46:11.000000000,closed,0,Runtime crash when using os.read_entire_file under specific case.
+140,2017-11-11 01:43:43.000000000,2017-11-11 02:17:17.000000000,closed,0,Fixed foreign import for linux. Modified .gitignore to ignore temp files and files in shared/. Added a Makefile for linux
+139,2017-11-10 16:07:02.000000000,2017-11-10 23:25:36.000000000,closed,0,Assertion failure when using conditions
+138,2017-11-09 02:59:42.000000000,2017-11-09 03:06:08.000000000,closed,0,Pass a #caller_location to context allocator proc
+137,2017-11-08 20:55:30.000000000,2017-11-09 03:06:22.000000000,closed,0,Cannot have map with ^Type_Info as key
+136,2017-11-08 15:07:26.000000000,2017-11-09 03:34:40.000000000,closed,0,Remove unnecessary IR bound checks
+135,2017-11-07 09:11:36.000000000,2017-11-15 00:42:07.000000000,closed,4,Export randomly not working in specific cases when mixed with conditional exports
+134,2017-11-07 02:11:49.000000000,2017-11-08 04:05:49.000000000,closed,0,Assert failure when accessing members of struct when `using` on _ named variable.
+133,2017-11-03 03:25:06.000000000,2017-12-29 22:15:41.000000000,closed,1,How to contribute to Odin wiki?
+132,2017-11-02 21:08:34.000000000,2017-11-03 02:28:54.000000000,closed,4,Improve building Odin on Linux.
+131,2017-10-31 11:43:46.000000000,2017-11-03 02:30:31.000000000,closed,0,Union printing issue
+130,2017-10-31 04:32:03.000000000,2017-11-03 02:34:27.000000000,closed,3,Issues with `uintptr` changes`
+129,2017-10-30 23:54:45.000000000,2017-10-31 13:21:28.000000000,closed,0,`string_set.cpp` missing
+128,2017-10-19 00:08:47.000000000,2017-10-19 01:53:01.000000000,closed,0,"""Unable to find scope for file"" when importing empty file"
+127,2017-10-17 07:29:27.000000000,2017-10-19 01:53:06.000000000,closed,2,Anonymous Imports
+126,2017-10-17 00:37:09.000000000,2017-10-19 01:26:19.000000000,closed,0,Iterating over enum causes compiler assert
+125,2017-10-15 20:37:09.000000000,2018-02-23 02:31:08.000000000,closed,2,Another issue with nested struct initialization
+124,2017-10-15 20:06:09.000000000,2017-10-16 02:31:03.000000000,closed,0,Assert Failure: `0` Unknown slicable type
+123,2017-10-15 07:46:44.000000000,2017-10-15 13:10:00.000000000,closed,0,Crash when passing zero varargs to `append`
+122,2017-10-15 02:35:38.000000000,2017-10-15 13:14:27.000000000,closed,0,Default values for structs don't nest
+121,2017-10-15 01:16:31.000000000,2017-10-15 14:21:57.000000000,closed,0,Crash when I do this
+120,2017-10-12 01:11:03.000000000,2017-10-12 23:33:01.000000000,closed,0,procs on the rhs of `push_context` don't receive valid `context`
+119,2017-10-11 21:51:54.000000000,2017-10-12 23:52:34.000000000,closed,0,Crash when comparing an overloaded proc to a number
+118,2017-10-10 18:39:37.000000000,2017-10-13 00:01:30.000000000,closed,0,Crash when using push_allocator
+117,2017-10-10 16:27:47.000000000,2017-10-10 16:44:12.000000000,closed,8,No output on OSX
+116,2017-10-09 15:50:49.000000000,2017-10-09 20:58:22.000000000,closed,0,Remove old `when` suffixes from certain file declaration
+115,2017-10-09 02:16:46.000000000,2017-10-09 20:56:37.000000000,closed,1,Accessing members of structs from maps broken.
+114,2017-10-04 14:27:11.000000000,2017-10-04 21:57:43.000000000,closed,0,heap_alloc in os_linux.odin does not zero the memory.
+113,2017-09-30 04:44:39.000000000,1970-01-01 00:00:00.000000001,open,12,Passing `any`s between host/library bounds
+112,2017-09-29 16:22:34.000000000,2017-09-30 00:37:33.000000000,closed,0,Initializing array of unions asserts
+111,2017-09-27 21:03:24.000000000,2017-10-01 17:10:40.000000000,closed,0,Compiler crashes while trying to compile polymorphyic struct
+110,2017-09-25 23:48:33.000000000,2017-09-26 01:51:42.000000000,closed,0,Print position of the invalid token found during parsing.
+109,2017-09-25 12:50:57.000000000,2017-09-26 02:00:15.000000000,closed,0,Placeholder _ name fails while `using` a struct in struct declaration
+108,2017-09-24 23:07:10.000000000,2017-09-26 02:00:21.000000000,closed,0,Assert Failure for logical `and` and `or` on vector types
+107,2017-09-22 19:33:23.000000000,2017-09-24 15:24:53.000000000,closed,0,Cyclical error messages are too cyclical
+106,2017-09-22 18:57:28.000000000,2017-09-26 02:06:16.000000000,closed,0,Passing a slice literal to a struct initializer passes an empty slice
+105,2017-09-21 13:26:33.000000000,2017-09-24 03:58:03.000000000,closed,1,Added missing newline in error message.
+104,2017-09-20 20:38:55.000000000,2017-10-01 17:30:02.000000000,closed,0,Inline if breaks inside explicit polymorphic procedures
+103,2017-09-20 04:41:38.000000000,2019-09-08 00:25:25.000000000,closed,6,Different results when casting a u32 constant and a u32 variable holding the same value to f32
+102,2017-09-18 21:39:20.000000000,2017-09-20 23:44:19.000000000,closed,1,c_long is unsigned and signed...?
+101,2017-09-18 04:34:29.000000000,2017-09-20 23:46:03.000000000,closed,0,__get_map_key bug
+100,2017-09-17 00:49:00.000000000,2017-09-21 02:23:21.000000000,closed,0,Crash when trying to use build_dll
+99,2017-09-16 04:34:08.000000000,2017-10-01 02:43:49.000000000,closed,6,Launch arguments for Linux and macOS
+98,2017-09-15 02:03:06.000000000,2017-10-15 14:26:32.000000000,closed,1,Polymorphism with Imported Types
+97,2017-09-14 19:55:54.000000000,2017-09-24 15:25:19.000000000,closed,0,enums within polymorphic structs
+96,2017-09-13 20:37:45.000000000,2017-09-14 01:20:55.000000000,closed,0,varargs mixed with implicit polymorphic procedures throws a compiler assert when called without vararg arguments
+95,2017-09-12 13:26:33.000000000,2017-09-14 01:20:47.000000000,closed,0,Explicit parameters in parametric procedures cannot be specialized
+94,2017-09-11 19:03:40.000000000,2017-09-12 01:49:39.000000000,closed,0,"strconv.odin, _digit_value and parse_f64"
+93,2017-09-08 05:26:24.000000000,2017-09-21 00:01:29.000000000,closed,2,`export` doesn't seem to respect `when` condition
+92,2017-08-15 08:12:48.000000000,2017-09-02 13:07:03.000000000,closed,1,casting ptr to int
+91,2017-08-15 06:36:24.000000000,2017-09-02 13:07:14.000000000,closed,1,"""import ."" on the file you are in freezes the compiler"
+90,2017-08-15 05:34:33.000000000,2017-09-02 13:07:20.000000000,closed,1,"""import ."" on a file with an ""import_load"" in it"
+89,2017-08-12 07:49:50.000000000,2017-09-26 02:08:31.000000000,closed,0,More helpful error message when using function call as value for function that doesn't return anything
+88,2017-08-10 00:20:13.000000000,2017-10-15 14:31:36.000000000,closed,5,A lot of new issues when compiling on mac
+87,2017-08-07 21:42:27.000000000,2017-08-09 00:28:37.000000000,closed,1,Inline #raw_union bug
+86,2017-08-07 08:56:14.000000000,2017-10-15 02:50:30.000000000,closed,5,`[dynamic]T` literals crash the compiler
+85,2017-08-02 16:47:29.000000000,2017-10-15 14:55:22.000000000,closed,2,Automatically select the newest vcvarsall.bat and call it
+84,2017-07-24 11:14:06.000000000,2017-08-09 00:10:50.000000000,closed,0,defer bug
+83,2017-07-24 05:18:22.000000000,2017-11-09 03:34:18.000000000,closed,6,Cross-folder type resolution
+82,2017-07-23 16:42:57.000000000,2017-07-24 10:57:37.000000000,closed,1,Accessing second-level module imports.
+81,2017-07-21 09:29:47.000000000,2017-07-23 13:37:32.000000000,closed,1,Missing semicolons in math.odin
+80,2017-07-20 05:03:00.000000000,2017-09-21 00:01:19.000000000,closed,2,__get_map_key issue
+79,2017-07-17 16:32:49.000000000,2017-07-18 18:52:42.000000000,closed,4,Mysterious problem with any
+78,2017-07-13 09:22:48.000000000,2017-07-13 14:35:06.000000000,closed,1,__get_map_header bug
+77,2017-07-09 01:44:04.000000000,2017-07-09 02:14:32.000000000,closed,1,A few minor bugs in _preload.odin
+76,2017-07-06 13:05:19.000000000,2017-09-21 02:25:22.000000000,closed,0,Importing issue
+75,2017-07-06 12:56:03.000000000,2017-07-07 20:13:44.000000000,closed,4,Flags for os.open do not work
+74,2017-06-19 02:46:37.000000000,2019-05-30 20:52:12.000000000,closed,9,Documentation Generation
+73,2017-06-17 01:11:15.000000000,2017-06-20 17:51:28.000000000,closed,1,Building in linux
+72,2017-06-13 23:21:40.000000000,2017-06-14 17:59:05.000000000,closed,1,128-bit literal corruption?
+71,2017-06-13 16:43:43.000000000,2017-12-11 04:46:17.000000000,closed,11,How to get Odin running?
+70,2017-06-11 21:49:10.000000000,2017-06-11 21:54:31.000000000,closed,0,"Add some WM_*, some WS_* and map_virtual_key"
+69,2017-06-05 15:28:13.000000000,2017-06-06 13:03:06.000000000,closed,0,Printing number as hex with padding prints spaces instead of zeros
+68,2017-06-01 02:07:45.000000000,2017-06-05 18:18:05.000000000,closed,0,Added extra sys/windows.odin stuff
+67,2017-05-31 15:43:47.000000000,2017-06-05 15:02:04.000000000,closed,1,Odin does not build
+66,2017-05-14 01:16:37.000000000,2017-05-14 13:32:58.000000000,closed,0,Missing newline when printing version
+65,2017-05-13 17:57:43.000000000,2017-10-09 11:19:50.000000000,closed,3,Unable to compile on mac
+64,2017-05-12 22:26:38.000000000,2019-05-30 20:52:28.000000000,closed,5,General Unsolved Issues
+63,2017-05-09 12:11:00.000000000,2017-05-09 13:02:04.000000000,closed,1,Unclosed block comments leave odin.exe in an infinite loop
+62,2017-05-06 04:28:07.000000000,2017-05-06 23:56:50.000000000,closed,4,"Possible bug using ""using"". "
+61,2017-05-05 22:36:29.000000000,2017-05-06 00:00:59.000000000,closed,0,"Fix constant casing and add several win32 functions, structure and constants"
+60,2017-05-03 02:14:35.000000000,2017-06-06 12:45:11.000000000,closed,7,Short if as parameter
+59,2017-05-02 02:39:44.000000000,2017-05-02 23:31:27.000000000,closed,2,Zero sized struct when used inside itself
+58,2017-05-01 03:28:03.000000000,2017-05-01 13:02:43.000000000,closed,1,Ability to loop over enums
+57,2017-04-30 15:11:02.000000000,2019-11-01 14:25:32.000000000,closed,19,Linux ABI issue (passing structs by value)
+56,2017-04-29 14:36:24.000000000,2017-04-29 16:59:53.000000000,closed,2,Function writes to struct but struct remains unchanged
+55,2017-04-28 22:23:51.000000000,2017-04-29 23:06:38.000000000,closed,0,Printing bug
+54,2017-04-28 19:13:50.000000000,2018-06-06 11:55:11.000000000,closed,2,Linux shared libraries require main function and optimize out other unused functions
+53,2017-04-28 19:09:29.000000000,2017-06-06 12:47:40.000000000,closed,0,Fix link time error about missing -fPIC flag
+52,2017-04-28 16:49:04.000000000,2017-11-13 01:18:27.000000000,closed,5,How to disable mangling for bss variables?
+51,2017-04-28 03:31:51.000000000,2017-04-28 14:03:33.000000000,closed,6,Pointer arithmetic doesn't work
+50,2017-04-27 21:36:44.000000000,2017-04-29 23:06:43.000000000,closed,0,Dynamic any array printing
+49,2017-04-27 20:33:14.000000000,2017-04-27 21:19:36.000000000,closed,4,Allow negative indices
+48,2017-04-27 00:57:35.000000000,2017-04-27 02:51:32.000000000,closed,2,Weird lambda behavior
+47,2017-04-26 20:14:13.000000000,2017-04-26 22:44:08.000000000,closed,1,More lambdas in structs
+46,2017-04-26 19:03:05.000000000,2017-04-26 19:43:57.000000000,closed,2,Struct with a function pointer and baked value
+45,2017-04-25 21:40:52.000000000,2017-09-30 00:21:28.000000000,closed,6,A place to chat about Odin
+44,2017-04-25 13:41:04.000000000,2017-04-26 22:43:34.000000000,closed,4,Linux version doesn't link to libm for math.odin
+43,2017-04-22 03:21:46.000000000,2017-04-22 12:40:48.000000000,closed,2,Incorrect out of bounds check for slices
+42,2017-04-21 09:26:18.000000000,2018-06-06 11:52:02.000000000,closed,9,Make slice out of underlying using array
+41,2017-04-20 15:04:45.000000000,2017-04-30 21:27:51.000000000,closed,7,`union_cast` Syntax and Semantics
+40,2017-04-18 18:21:38.000000000,2017-04-30 21:28:01.000000000,closed,8,Interval Syntax
+39,2017-04-17 00:22:17.000000000,2017-04-17 01:07:39.000000000,closed,1,IR error for slice/array decleration
+38,2017-04-16 17:43:11.000000000,2017-04-17 01:38:08.000000000,closed,7,Unused return values are ignored by default?
+37,2017-04-16 03:49:39.000000000,2017-04-17 01:50:53.000000000,closed,4,Lambda scopes are broken
+36,2017-04-16 02:47:13.000000000,2017-04-17 01:12:35.000000000,closed,13,Implicit assignment for rawptr on function pointers?
+35,2017-04-15 21:36:35.000000000,2017-04-16 02:56:13.000000000,closed,0,MSVC 2013 has stdbool.h
+34,2017-04-12 02:48:18.000000000,2017-04-16 23:03:50.000000000,closed,1,#foreign C ABI for platform
+33,2017-04-10 01:01:10.000000000,2017-04-10 01:01:23.000000000,closed,0,Base of *nix port
+32,2017-04-04 01:32:08.000000000,2017-04-04 18:08:18.000000000,closed,1,Update os_windows.odin
+31,2017-04-04 01:19:51.000000000,2017-04-05 01:00:19.000000000,closed,1,os.read_entire_file: program crashes when file is completely empty.
+30,2017-03-30 10:34:53.000000000,2017-03-30 12:21:02.000000000,closed,1,Allow `main` to take the standard paramaters and return an exit code
+29,2017-03-09 03:10:05.000000000,1970-01-01 00:00:00.000000001,open,3,"Multiple Assignment with one declared, one undeclared variable"
+28,2017-03-06 05:16:45.000000000,2017-03-07 22:33:14.000000000,closed,1,ssa_add_to_edge: new edge only gets added to b
+27,2017-02-25 21:24:42.000000000,2017-02-26 14:43:02.000000000,closed,1,fmt.sprintf() format string width error
+26,2017-02-16 06:14:24.000000000,2017-02-22 17:12:24.000000000,closed,1,Improve error messages
+25,2017-02-14 14:17:32.000000000,2017-02-14 19:55:44.000000000,closed,1,bit shifting
+24,2017-02-13 15:55:14.000000000,2017-02-14 19:53:40.000000000,closed,1,small additions & fix
+23,2017-02-12 16:02:28.000000000,2017-02-12 16:41:29.000000000,closed,1,Vec2 crash
+22,2017-02-11 13:02:32.000000000,2017-02-12 00:50:10.000000000,closed,3,Compile-time asserts still fail even if the file is when'd out.
+21,2017-02-11 11:46:52.000000000,2017-02-12 02:45:59.000000000,closed,3,Negative integers in fmt.*
+20,2017-02-10 23:51:19.000000000,2017-02-11 18:34:59.000000000,closed,2,Struct Type Introspection crashing
+19,2017-02-08 19:11:44.000000000,2017-02-09 03:42:14.000000000,closed,1,Error printing negative values with fmt.println and fmt.print
+18,2017-02-08 02:16:43.000000000,2017-02-12 02:45:52.000000000,closed,4,'when' syntax for #foreign_system_library not entirely functional
+17,2017-02-05 19:59:39.000000000,2017-02-05 23:18:08.000000000,closed,1,build.bat doesn
+16,2017-02-02 01:26:11.000000000,2017-02-02 01:31:58.000000000,closed,0,"Basic, but sketchy, but somewhat usable, non-windows support"
+15,2017-01-30 06:37:44.000000000,2017-09-30 00:21:25.000000000,closed,3,Sublime Syntax Highlighting
+14,2017-01-29 13:30:29.000000000,2017-01-29 19:14:49.000000000,closed,1,Fix incorrect version number
+13,2017-01-29 13:26:30.000000000,2017-01-29 19:28:46.000000000,closed,1,Procedure overloading not resolving for ..any
+12,2017-01-29 03:27:30.000000000,2017-01-29 04:25:56.000000000,closed,0,Changed #foreign user32 to gdi32 where this was wrong.
+11,2017-01-25 03:51:06.000000000,2017-01-26 22:40:29.000000000,closed,3,Pointer Arithmetic - Difference Produces Unexpected Value
+10,2017-01-20 03:24:30.000000000,2017-01-20 05:22:32.000000000,closed,1,LLVM Error when returning a ? type
+9,2017-01-20 01:49:14.000000000,2017-01-20 16:25:44.000000000,closed,2,Sublime Build Settings / Syntax Highlighting
+8,2017-01-20 00:21:34.000000000,2017-01-20 16:24:10.000000000,closed,1,Compiler can't handle spaces in project directory
+7,2017-01-10 18:58:24.000000000,1970-01-01 00:00:00.000000001,open,1,Regarding C compatibility
+6,2017-01-07 07:07:08.000000000,2017-01-07 16:46:43.000000000,closed,1,os_windows.odin fixes
+5,2016-12-22 16:42:39.000000000,2016-12-24 17:04:30.000000000,closed,4,Build error
+4,2016-12-17 03:25:55.000000000,2016-12-17 15:26:57.000000000,closed,1,Invalid LLVM IR produced when tagged union used in struct
+3,2016-12-16 01:06:45.000000000,2016-12-16 22:22:12.000000000,closed,1,Does not build
+2,2016-12-05 04:49:52.000000000,2018-08-02 13:10:00.000000000,closed,4,Big Numbers for Constants
+1,2016-12-04 15:41:14.000000000,2016-12-05 04:43:54.000000000,closed,2,Cyclic Type Checking

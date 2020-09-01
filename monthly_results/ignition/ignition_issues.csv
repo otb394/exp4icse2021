@@ -1,0 +1,1080 @@
+id,created_at,closed_at,state,comments,title
+1083,2020-08-31 17:31:05.000000000,1970-01-01 00:00:00.000000001,open,0,docs: Add GitHub Pages support
+1082,2020-08-31 14:13:58.000000000,1970-01-01 00:00:00.000000001,open,0,docs: Add GitHub Pages support
+1081,2020-08-31 12:11:39.000000000,1970-01-01 00:00:00.000000001,open,0,Ignition and NetworkManager race condition
+1080,2020-08-29 23:03:41.000000000,1970-01-01 00:00:00.000000001,open,2,doc: Add shouldExist for users
+1079,2020-08-28 17:58:44.000000000,1970-01-01 00:00:00.000000001,open,1,WIP exec/stages/files: avoid overwriting files if they already exist 
+1078,2020-08-26 08:31:22.000000000,1970-01-01 00:00:00.000000001,open,0,internal: fix S3 region detection
+1077,2020-08-26 08:24:18.000000000,1970-01-01 00:00:00.000000001,open,0,Support for S3 FIPS endpoints
+1076,2020-08-24 23:49:38.000000000,1970-01-01 00:00:00.000000001,open,7,Ignition fails to mount files from AWS S3 - appears to run before AWS metadata is available (in /run/metadata/flatcar?)
+1075,2020-08-22 00:45:49.000000000,1970-01-01 00:00:00.000000001,open,3,engine: fix logging interactions with fetch-offline
+1074,2020-08-20 18:25:08.000000000,2020-08-21 01:12:48.000000000,closed,2,AzureStack: fix unfortunate typo of iso9660
+1073,2020-08-20 17:09:52.000000000,1970-01-01 00:00:00.000000001,open,0,Centralize OnFailure= into target units once systemd supports it
+1072,2020-08-19 19:55:07.000000000,1970-01-01 00:00:00.000000001,open,4,Support multi part mime for user-data for cluster-api
+1071,2020-08-17 15:43:44.000000000,2020-08-20 15:43:06.000000000,closed,3,"types: Use ""path"" instead of ""path/filepath"""
+1070,2020-08-11 16:31:46.000000000,2020-08-12 18:58:21.000000000,closed,0,Fix integer type issues with sector values
+1069,2020-08-10 18:42:04.000000000,2020-08-19 21:13:54.000000000,closed,3,Makefile install fixes
+1068,2020-08-08 23:33:25.000000000,2020-08-09 09:02:58.000000000,closed,0,release-checklist: minor updates
+1067,2020-08-08 02:46:10.000000000,2020-08-11 01:57:01.000000000,closed,0,[spec2x] README: add deprecation notice
+1066,2020-08-08 02:41:46.000000000,2020-08-11 03:09:35.000000000,closed,0,Drop spec2x from release checklist; note in README that it's unmaintained
+1065,2020-08-08 02:31:19.000000000,2020-08-08 03:45:35.000000000,closed,0,news: add notes for 2.6.0
+1064,2020-08-08 01:48:10.000000000,1970-01-01 00:00:00.000000001,open,2,systemd instantiated timers are not started when enabled via ignition
+1063,2020-08-07 23:53:29.000000000,2020-08-08 01:35:14.000000000,closed,0,Fix validate container build; add Quay release tag pointing to latest release
+1062,2020-08-07 23:52:27.000000000,2020-08-08 23:37:07.000000000,closed,1,Release v2.6.0
+1061,2020-08-07 02:04:32.000000000,2020-08-07 02:57:12.000000000,closed,7,AWS user data read as empty
+1060,2020-08-04 08:46:20.000000000,2020-08-19 23:47:07.000000000,closed,1,doc: add LUKS examples & operator notes
+1059,2020-08-02 22:13:00.000000000,2020-08-08 01:37:46.000000000,closed,2,Automatically build and push quay.io/coreos/ignition-validate container
+1058,2020-08-01 23:25:22.000000000,2020-08-04 05:51:52.000000000,closed,0,ci: use faster compression for buildextend-live
+1057,2020-07-31 17:41:03.000000000,2020-08-07 13:27:21.000000000,closed,2,cloudstack|openstack: propagate ErrNeedNet
+1056,2020-07-31 14:34:13.000000000,2020-08-07 13:27:21.000000000,closed,10,fetch-offline fails to request networking on OpenStack/CloudStack
+1055,2020-07-30 07:50:13.000000000,2020-08-07 08:26:05.000000000,closed,0,internal/config: allow Ignition generated key-files for all devices
+1054,2020-07-29 08:27:53.000000000,2020-08-20 18:09:08.000000000,closed,4,internal/stages/disks: allow LUKS device re-use
+1053,2019-10-01 06:22:43.000000000,1970-01-01 00:00:00.000000001,open,2,Try to remove OnFailure from ignition-complete.target
+1052,2019-08-05 18:35:02.000000000,2020-08-06 06:12:02.000000000,closed,8,networking and /boot/ignition/config.ign
+1051,2019-05-17 03:00:57.000000000,1970-01-01 00:00:00.000000001,open,14,Allow rebooting after Ignition if needed
+1050,2019-03-01 03:09:32.000000000,1970-01-01 00:00:00.000000001,open,1,Failing ec2 boots on Ignition failures
+1049,2019-01-14 19:12:51.000000000,1970-01-01 00:00:00.000000001,open,13,firstboot support on read-only root file systems
+1048,2018-12-15 08:45:43.000000000,1970-01-01 00:00:00.000000001,open,3,Be consistent about passing --log-to-stdout
+1047,2020-07-25 06:29:09.000000000,2020-07-26 00:08:31.000000000,closed,0,ci: drop cosa compress call
+1046,2020-07-24 07:15:12.000000000,2020-07-28 03:13:36.000000000,closed,0,ci: stop skipping rootfs.uuid kola test
+1045,2020-07-24 04:50:34.000000000,2020-07-24 05:29:39.000000000,closed,0,news: add notes for 2.5.0
+1044,2020-07-24 04:47:41.000000000,2020-08-19 23:46:50.000000000,closed,1,internal: use device aliases for LUKS
+1043,2020-07-24 04:34:46.000000000,2020-07-25 03:08:17.000000000,closed,2,Release v2.5.0
+1042,2020-07-24 03:48:19.000000000,2020-07-24 04:32:27.000000000,closed,0,stages/disks: get filesystem info via device alias
+1041,2020-07-22 18:29:05.000000000,1970-01-01 00:00:00.000000001,open,5,Failed when link to binary in storage.files field.
+1040,2020-07-22 08:19:21.000000000,2020-07-22 09:26:47.000000000,closed,0,ci: build metal4k image before live image
+1039,2020-07-22 01:19:31.000000000,2020-07-24 04:31:23.000000000,closed,6,Move Ignition-Dracut into Ignition
+1038,2020-07-21 09:49:24.000000000,2020-07-23 10:34:30.000000000,closed,4,stages/disks: run LUKS device creation in parallel
+1037,2020-07-18 01:26:41.000000000,2020-07-21 22:25:59.000000000,closed,0,tests/kola: move blackbox tests to its own dir
+1036,2020-07-16 20:28:37.000000000,2020-07-16 22:54:55.000000000,closed,0,templates: update release checklist for current process
+1035,2020-07-16 20:04:29.000000000,2020-07-17 00:24:38.000000000,closed,3,ci: prepare ISO artifacts in parallel with kola run
+1034,2020-07-16 19:29:56.000000000,2020-07-16 20:19:35.000000000,closed,0,news: add notes for 2.4.1
+1033,2020-07-16 19:21:31.000000000,2020-07-17 23:27:01.000000000,closed,1,Release v2.4.1
+1032,2020-07-16 18:07:22.000000000,2020-07-16 19:06:20.000000000,closed,6,engine: fix provider config precedence
+1031,2020-07-16 09:38:36.000000000,1970-01-01 00:00:00.000000001,open,9,config/internal: add clevis override support
+1030,2020-07-16 06:00:07.000000000,2020-07-16 07:39:52.000000000,closed,0,news: fix typo
+1029,2020-07-15 20:30:55.000000000,2020-07-15 21:30:02.000000000,closed,1,files: don't relabel homedir symlinks themselves
+1028,2020-07-14 23:15:58.000000000,2020-07-15 00:18:32.000000000,closed,0,util/user_group_lookup: handle more error codes
+1027,2020-07-14 08:48:19.000000000,2020-07-15 02:25:17.000000000,closed,1,stages/files: set LUKS keyfile directory to 0700
+1026,2020-07-14 00:02:33.000000000,2020-07-14 01:18:16.000000000,closed,0,news: add notes for 2.4.0
+1025,2020-07-13 21:19:10.000000000,2020-07-13 22:29:18.000000000,closed,0,doc: drop coreos.com links; add Azure Stack
+1024,2020-07-13 19:54:09.000000000,2020-07-16 19:21:44.000000000,closed,3,Release v2.4.0
+1023,2020-07-13 19:05:11.000000000,2020-07-13 20:11:45.000000000,closed,0,fetch-offline: signal networking for Tang-pinned LUKS devices
+1022,2020-07-11 00:04:05.000000000,1970-01-01 00:00:00.000000001,open,1,LUKS: create devices in parallel
+1021,2020-07-11 00:00:18.000000000,2020-08-07 08:26:05.000000000,closed,1,LUKS: support generated key files for non-Clevis devices
+1020,2020-07-10 23:58:41.000000000,2020-08-19 23:47:06.000000000,closed,0,LUKS: examples & operator notes
+1019,2020-07-10 23:56:48.000000000,1970-01-01 00:00:00.000000001,open,0,LUKS: support custom clevis configurations
+1018,2020-07-10 23:54:23.000000000,2020-07-15 02:25:17.000000000,closed,0,LUKS key file directory should have mode 0700
+1017,2020-07-10 23:52:09.000000000,2020-07-13 20:11:45.000000000,closed,1,fetch-offline detection for Tang based LUKS devices
+1016,2020-07-10 23:50:52.000000000,2020-08-20 18:09:08.000000000,closed,0,Support reusing existing LUKS devices
+1015,2020-07-07 23:54:57.000000000,2020-08-12 18:58:47.000000000,closed,14,internal/blkid: Clean up the C wrapper to not abuse type casts
+1014,2020-07-07 03:13:18.000000000,2020-08-07 00:12:39.000000000,closed,11,passwd: Add a way to delete users/groups
+1013,2020-07-06 22:49:21.000000000,2020-07-11 19:10:52.000000000,closed,0,units: empty dropins should be written to disk
+1012,2020-07-06 21:00:43.000000000,2020-07-06 21:43:50.000000000,closed,0,units: Empty dropins should be written to disk
+1011,2020-06-30 01:17:49.000000000,2020-07-02 04:26:04.000000000,closed,4,AzureStack: introduce new provider
+1010,2020-06-30 00:45:06.000000000,1970-01-01 00:00:00.000000001,open,8,disks: add support for nested RAID devices
+1009,2020-06-26 01:07:59.000000000,1970-01-01 00:00:00.000000001,open,4,s390x: Support partitioning of DASD disks
+1008,2020-06-24 20:11:49.000000000,2020-06-24 23:34:48.000000000,closed,0,MAINTAINERS: drop file
+1007,2020-06-23 21:05:13.000000000,2020-06-26 00:08:39.000000000,closed,8,Azure: support both udf and iso9660 filesystems types for custom-data
+1006,2020-06-20 00:39:10.000000000,2020-06-24 23:56:21.000000000,closed,0,files: relabel the systemd preset directory
+1005,2020-06-19 16:59:49.000000000,2020-06-22 20:18:23.000000000,closed,2,Add Exoscale Provider support to spec2x
+1004,2020-06-19 08:50:09.000000000,2020-06-20 04:54:44.000000000,closed,1,internal/util/url: don't require networking for empty schemes
+1003,2020-06-18 19:16:54.000000000,2020-06-23 20:54:51.000000000,closed,3,Azure: allow custom-data volume to be either UDF or iso9660
+1002,2020-06-18 08:11:18.000000000,2020-07-08 08:36:48.000000000,closed,9,internal/exec/engine: write empty cache config when not provided
+1001,2020-06-16 20:27:21.000000000,2020-06-16 21:47:06.000000000,closed,1,ci: change --blacklist-test to --denylist-test
+1000,2020-06-15 22:40:43.000000000,2020-06-19 06:19:51.000000000,closed,4,internal/resource: Support gcs urls in Ignition config
+999,2020-06-11 23:51:58.000000000,1970-01-01 00:00:00.000000001,open,10,providers/qemu: support Ignition block device on all arches
+998,2020-06-10 01:20:24.000000000,2020-06-10 02:15:54.000000000,closed,0,Various CI tweaks
+997,2020-06-05 03:02:50.000000000,2020-06-08 22:54:48.000000000,closed,2,filesystemEntries: create hard links to files that are deeper than the hard link
+996,2020-06-05 00:21:32.000000000,2020-06-23 19:28:29.000000000,closed,1,files: don't run `setfiles` with `-i`
+995,2020-06-04 04:32:27.000000000,2020-06-04 19:21:31.000000000,closed,1,doc/configuration-*: clarify references to `source`
+994,2020-06-03 19:26:08.000000000,2020-06-03 21:01:52.000000000,closed,0,ci: test with latest ignition-dracut
+993,2020-06-03 19:21:16.000000000,2020-06-05 00:42:06.000000000,closed,3,providers/aws: update metadata version
+992,2020-06-03 13:25:53.000000000,1970-01-01 00:00:00.000000001,open,1,AWS S3 Region Incorrectly Determined as us-east-1
+991,2020-06-03 08:14:18.000000000,2020-06-03 22:55:01.000000000,closed,4,"Don't create ambiguous filesystems, and warn when reusing one"
+989,2020-05-28 00:10:34.000000000,2020-06-05 00:42:06.000000000,closed,8,Update AWS metadata version
+986,2020-05-18 10:23:00.000000000,1970-01-01 00:00:00.000000001,open,1,*: switch systemd & dropin Contents to Resource type
+985,2020-05-18 00:54:05.000000000,1970-01-01 00:00:00.000000001,open,5,schema: added non-unique parameter to PasswdUser
+984,2020-05-17 18:59:36.000000000,2020-05-18 18:01:52.000000000,closed,2,Ignition fails to verify partition size in qemu
+983,2020-05-15 20:36:00.000000000,2020-05-19 21:22:16.000000000,closed,3,[spec2x] Backporting the CA bundles support
+982,2020-05-15 18:52:41.000000000,2020-05-19 21:44:46.000000000,closed,0,Backport the CA bundles support to spec v2.x
+981,2020-05-15 18:27:59.000000000,2020-05-16 01:07:40.000000000,closed,5,[spec2x] Ignition spec v3 compat 
+980,2020-05-15 05:25:23.000000000,2020-06-05 01:03:16.000000000,closed,8,Update AWS for IMDSv2
+979,2020-05-14 18:56:58.000000000,1970-01-01 00:00:00.000000001,open,62,Support disabling initramfs networking via Ignition
+978,2020-05-13 16:52:50.000000000,2020-05-14 23:32:16.000000000,closed,0,config/*: drop warning on unset file/dir mode
+977,2020-05-12 20:16:45.000000000,1970-01-01 00:00:00.000000001,open,3,Ignition fails on duplicate user UIDs
+976,2020-05-07 20:14:29.000000000,2020-05-08 16:43:47.000000000,closed,5,ci: Freeze kernel at 5.6.7 due to loop regression breaking blackbox test
+975,2020-05-07 16:39:34.000000000,2020-07-11 19:10:52.000000000,closed,8,units: empty dropins are not written to disk
+974,2020-05-05 09:50:16.000000000,2020-05-06 01:45:39.000000000,closed,0,news: add notes for 2.3.0
+973,2020-05-05 09:43:13.000000000,2020-05-07 03:04:14.000000000,closed,1,Release v2.3.0
+972,2020-05-04 05:18:39.000000000,2020-05-06 01:45:00.000000000,closed,0,Stabilize spec 3.1.0
+971,2020-05-01 11:49:13.000000000,2020-05-03 05:42:02.000000000,closed,0,doc/migrating-configs: update for 3.1.0
+970,2020-05-01 09:14:40.000000000,2020-05-02 03:54:37.000000000,closed,1,validate: accept any supported config version
+969,2020-05-01 05:19:07.000000000,2020-05-03 05:06:35.000000000,closed,0,resource/url: allow compression in data URLs
+968,2020-05-01 03:22:56.000000000,2020-05-15 18:09:08.000000000,closed,12,Add support for CA bundles for fetching the ignition config
+967,2020-04-27 23:49:39.000000000,2020-05-01 21:18:38.000000000,closed,6,ci: run blackbox tests in CoreOS CI
+966,2020-04-26 20:19:16.000000000,2020-04-27 13:17:15.000000000,closed,2,Cannot add users to fcos with ignition
+965,2020-04-25 17:37:57.000000000,2020-04-29 22:50:14.000000000,closed,5,Add SHA-256 support for file verification
+964,2020-04-16 00:17:51.000000000,2020-04-16 22:13:03.000000000,closed,2,Send ssh_authorized keys info into the journald log
+963,2020-04-15 20:01:58.000000000,2020-04-27 12:33:31.000000000,closed,1,Starting Docker on boot
+962,2020-04-09 22:11:39.000000000,2020-04-14 22:33:19.000000000,closed,0,doc: clarify wording of files.*.verification.hash
+961,2020-04-09 06:51:23.000000000,1970-01-01 00:00:00.000000001,open,0,Ignition decompresses remote resource before verifying its hash
+960,2020-04-09 01:14:45.000000000,2020-07-10 23:40:05.000000000,closed,24,*: add LUKS
+959,2020-04-06 17:12:40.000000000,2020-04-07 17:08:17.000000000,closed,1,gomod: update to go-systemd v22
+958,2020-04-03 21:19:21.000000000,2020-04-14 23:24:13.000000000,closed,2,Enable logging to the systemd journal if a user config is provided
+957,2020-04-03 13:07:06.000000000,2020-05-07 05:09:46.000000000,closed,3,New release (2.2.2?) with support for specifying HTTP headers
+956,2020-03-30 20:05:28.000000000,2020-06-10 02:10:41.000000000,closed,5,fetch-offline: new stage for conditional networking
+955,2020-03-30 19:55:22.000000000,2020-04-06 23:16:50.000000000,closed,2,blkid: Backport: Explicitly use C int variable for numParts
+954,2020-03-30 19:29:45.000000000,2020-03-30 20:08:51.000000000,closed,0,stages: fix package names
+953,2020-03-30 18:23:08.000000000,2020-04-15 22:39:33.000000000,closed,3,spec: unify resource fetching type
+952,2020-03-29 23:15:06.000000000,2020-03-30 19:28:06.000000000,closed,1,packet: Don't report umount stage status to Packet control plane
+951,2020-03-28 09:18:04.000000000,2020-03-28 18:05:52.000000000,closed,0,Fix userdata/metadata fetching on Packet
+950,2020-03-27 18:15:20.000000000,2020-07-08 08:36:48.000000000,closed,13,Canonicalize the fetch stage as the only stage during which Ignition fetches configs
+949,2020-03-26 20:44:09.000000000,2020-04-01 21:24:21.000000000,closed,2,Use github.com/pkg/errors
+948,2020-03-25 00:31:41.000000000,2020-07-29 18:40:30.000000000,closed,18,WIP: support for `fetch --detect-offline-config`
+947,2020-03-24 23:54:11.000000000,2020-04-03 02:09:32.000000000,closed,4,providers/file: Return ErrNoProvider on ENOENT
+946,2020-03-24 20:37:45.000000000,2020-03-24 21:28:50.000000000,closed,0,news: add notes for 2.2.1
+945,2020-03-24 20:35:36.000000000,2020-03-25 23:42:41.000000000,closed,1,Release v2.2.1
+944,2020-03-24 17:07:00.000000000,2020-03-24 20:33:40.000000000,closed,8,providers/qemu: fix default to fwcfg
+943,2020-03-24 07:26:46.000000000,2020-03-24 20:04:56.000000000,closed,0,doc/development: remember to bump Accept header during spec bumps
+942,2020-03-24 07:26:42.000000000,2020-03-24 20:05:01.000000000,closed,0,resource: update Accept header to spec 2.4.0
+941,2020-03-24 01:36:26.000000000,2020-03-24 02:13:40.000000000,closed,2,Fix ignition config for the instantiated unit blackbox_test
+940,2020-03-24 00:34:49.000000000,2020-03-24 02:29:57.000000000,closed,0,news: add notes for 2.2.0
+939,2020-03-24 00:17:35.000000000,2020-03-24 20:35:03.000000000,closed,1,Release v2.2.0
+938,2020-03-23 15:11:00.000000000,2020-05-03 05:07:04.000000000,closed,11,internal: allow base64 encoded gziped file
+937,2020-03-20 20:54:06.000000000,2020-03-23 14:50:49.000000000,closed,1,internal: allow base64 encoded gzipped file
+936,2020-03-16 17:50:21.000000000,2020-03-16 20:04:13.000000000,closed,6,providers/qemu: support Ignition block device on s390x and ppc64le
+935,2020-03-16 17:36:09.000000000,1970-01-01 00:00:00.000000001,open,4,Add storage: volatile: true
+934,2020-03-11 00:26:56.000000000,2020-03-21 00:49:36.000000000,closed,3,Fix for systemd instantiated services when enabled via ignition
+933,2020-03-10 08:03:46.000000000,1970-01-01 00:00:00.000000001,open,3,providers/aws: fetch userdata using sdk and add retry for s3 resource fetcher
+932,2020-03-05 19:37:41.000000000,2020-03-06 01:06:05.000000000,closed,1,Add json tag to types that don't have it in the schema
+931,2020-03-05 01:36:32.000000000,2020-05-15 18:09:08.000000000,closed,7,Support CA bundles for Ignition config
+930,2020-03-04 02:04:50.000000000,2020-03-04 19:57:51.000000000,closed,3,blkid: Explicitly use C int variable for numParts
+929,2020-03-02 20:28:18.000000000,2020-03-16 19:25:33.000000000,closed,4,tests: don't panic after failing to run Ignition
+928,2020-02-29 02:10:36.000000000,1970-01-01 00:00:00.000000001,open,27,Provide cross-architecture Ignition QEMU support
+927,2020-02-25 19:26:21.000000000,1970-01-01 00:00:00.000000001,open,0,[DRAFT] providers: add ibmcloud-classic
+926,2020-02-25 16:11:55.000000000,2020-02-25 19:35:03.000000000,closed,0,platform: sort providers
+925,2020-02-25 02:44:20.000000000,2020-02-26 00:07:36.000000000,closed,5,ci: migrate to new coreos-ci project
+924,2020-02-21 00:18:34.000000000,1970-01-01 00:00:00.000000001,open,6,Unable to resize an existing partition
+923,2020-02-20 04:59:34.000000000,2020-02-20 20:42:40.000000000,closed,2,OWNERS: add OWNERS file
+922,2020-02-12 19:27:25.000000000,2020-02-24 16:04:13.000000000,closed,8,Add Exoscale provider
+921,2020-02-11 15:03:51.000000000,2020-02-12 15:16:57.000000000,closed,0,docs: minor fixes to platforms page
+920,2020-02-01 03:26:15.000000000,1970-01-01 00:00:00.000000001,open,2,Evaluate forked dependencies to see cost/benefit
+919,2020-01-30 22:33:54.000000000,2020-02-01 00:31:43.000000000,closed,0,ci: hook up to CoreOS CI
+918,2020-01-28 11:40:43.000000000,2020-01-30 19:11:48.000000000,closed,5,providers/vultr: Add Vultr provider
+917,2020-01-23 22:41:11.000000000,1970-01-01 00:00:00.000000001,open,4,Embedded structs missing JSON tags
+916,2020-01-23 01:38:10.000000000,2020-01-24 03:12:08.000000000,closed,7,config: add json tags to embedded structs
+915,2020-01-22 09:36:46.000000000,2020-01-22 10:27:08.000000000,closed,0,news: add news for v0.35.0
+914,2020-01-22 09:15:47.000000000,2020-02-07 04:24:45.000000000,closed,2,Release v0.35.0
+913,2020-01-22 09:14:09.000000000,2020-01-22 10:24:59.000000000,closed,0,Stabilize spec 2.4.0
+912,2020-01-22 07:47:47.000000000,2020-01-22 08:08:47.000000000,closed,0,doc: italicize some optional fields
+911,2020-01-22 06:57:04.000000000,2020-01-22 07:33:21.000000000,closed,0,schema: Correctly wrap HTTPHeader in array
+910,2020-01-22 02:50:50.000000000,2020-01-22 03:07:37.000000000,closed,0,Convert httpHeaders from arrays of strings to structs
+909,2020-01-19 00:32:06.000000000,1970-01-01 00:00:00.000000001,open,4,Allow Ignition to run shell commands
+908,2020-01-08 21:39:52.000000000,2020-01-08 22:08:22.000000000,closed,3,Throw error if SSH keys could not be written
+907,2019-12-20 02:36:17.000000000,2019-12-20 19:30:14.000000000,closed,3,stages/files: don't relabel /home and /root symlinks
+906,2019-12-19 21:48:36.000000000,1970-01-01 00:00:00.000000001,open,0,Report errno from libblkid code
+905,2019-12-18 21:56:15.000000000,2020-03-16 17:48:17.000000000,closed,25,providers/qemu: support Ignition block device on s390x and ppc64le 
+904,2019-12-14 03:18:42.000000000,2020-01-03 02:20:57.000000000,closed,0,Release v2.1.1
+903,2019-12-14 03:03:17.000000000,2020-04-14 23:24:13.000000000,closed,3,RFE: Provide a way for apps to determine whether a user config was provided
+902,2019-12-14 02:25:05.000000000,2019-12-14 03:06:17.000000000,closed,0,news: add notes for 2.1.1
+901,2019-12-14 02:17:20.000000000,2019-12-14 02:50:45.000000000,closed,1,Fix error handling with processes
+900,2019-12-13 04:21:39.000000000,2019-12-14 02:43:47.000000000,closed,0,Add dockerfile
+899,2019-12-13 02:52:51.000000000,2019-12-14 02:07:03.000000000,closed,1,Release Ignition 2.1.0
+898,2019-12-13 02:33:43.000000000,2019-12-13 23:11:46.000000000,closed,0,news: add news for v2.1.0
+897,2019-12-12 00:13:14.000000000,2019-12-12 00:25:11.000000000,closed,1,news: add news for v0.34.0
+896,2019-12-12 00:12:43.000000000,2020-01-03 03:07:27.000000000,closed,0,Release v0.34.0
+895,2019-12-10 02:43:50.000000000,2019-12-10 19:07:20.000000000,closed,0,README.md: add details about dracut and branches here
+894,2019-12-08 14:04:19.000000000,1970-01-01 00:00:00.000000001,open,0,[Docs] Add correlation between image ignition version to supported ignition specification version/s
+893,2019-12-06 15:56:40.000000000,2019-12-12 00:12:57.000000000,closed,1,spec2x: consider tagging a new release
+892,2019-12-06 03:34:40.000000000,2020-03-25 23:47:11.000000000,closed,16,Allow to specify HTTP headers for fetching configs and files
+891,2019-12-06 03:11:33.000000000,2020-01-21 20:27:26.000000000,closed,6,Allow to specify HTTP headers for fetching configs and files
+890,2019-11-29 18:31:28.000000000,1970-01-01 00:00:00.000000001,open,2,Support creating and mounting Btrfs subvolumes
+889,2019-11-22 19:08:09.000000000,1970-01-01 00:00:00.000000001,open,4,fetch: Add support for providing HTTP headers
+888,2019-11-22 18:53:37.000000000,2019-11-22 23:23:52.000000000,closed,0,doc/examples: Make example file path valid
+887,2019-11-12 00:43:43.000000000,2019-11-12 21:42:10.000000000,closed,0,Clean up blackbox tests
+886,2019-11-11 23:55:27.000000000,2019-11-12 21:36:41.000000000,closed,0,Switch from syscall to x/sys/unix
+885,2019-11-07 03:53:25.000000000,2019-11-12 21:46:21.000000000,closed,0,providers: add ibmcloud
+884,2019-11-06 23:20:21.000000000,1970-01-01 00:00:00.000000001,open,6,RFE: systemd units able to specify contents:source:data like files section
+883,2019-11-06 02:43:31.000000000,2020-01-03 03:49:52.000000000,closed,1,Use x/sys/unix instead of syscall
+882,2019-11-03 16:13:38.000000000,2019-11-05 23:48:09.000000000,closed,1,How to update firewall (iptables/ip6tables) policies via ignition
+881,2019-10-24 19:41:07.000000000,1970-01-01 00:00:00.000000001,open,0,Ignition should fail validation if files/links/dirs conflict with systemd units or drop ins
+880,2019-10-23 02:29:11.000000000,2019-10-31 22:30:56.000000000,closed,0,Update travis
+879,2019-10-23 02:10:53.000000000,2019-10-23 22:48:56.000000000,closed,1,config/v3_1_exp/types: validate http(s) proxies
+878,2019-10-23 01:51:16.000000000,2019-10-25 02:56:10.000000000,closed,11,Container Linux 2247.5.0 fails to boot when deployed with ignition 
+877,2019-10-19 00:36:59.000000000,2019-10-19 01:05:17.000000000,closed,0,"Turn on SELinux by default, remove dead code"
+876,2019-10-18 23:22:19.000000000,2019-11-22 06:04:12.000000000,closed,5,Rework fetch/resource to automatically append required headers
+875,2019-10-15 21:15:33.000000000,2019-10-15 21:31:15.000000000,closed,2,providers/aliyun: Add aliyun
+874,2019-10-15 18:07:23.000000000,2019-11-07 04:18:04.000000000,closed,7,Implement mount option support
+873,2019-10-15 02:52:12.000000000,2019-10-23 22:48:56.000000000,closed,0,Ignition should validate http(s)Proxy in spec 3.1.0-experimental
+872,2019-10-09 21:43:20.000000000,2019-11-16 02:04:56.000000000,closed,3,Add mount options
+871,2019-10-03 21:27:35.000000000,2019-10-04 00:19:45.000000000,closed,0,release-checklist: mention mantle cl branch for 0.x.y releases
+870,2019-10-03 02:55:27.000000000,1970-01-01 00:00:00.000000001,open,4,Time synchronization
+869,2019-10-02 18:31:35.000000000,2019-10-10 01:00:51.000000000,closed,17,providers/aliyun: Add aliyun
+868,2019-10-01 01:02:44.000000000,2019-10-02 04:01:10.000000000,closed,2,config/v3*: don't warn on unset mode if appending
+867,2019-09-29 13:11:20.000000000,1970-01-01 00:00:00.000000001,open,3,ZIP support
+866,2019-09-27 22:37:37.000000000,2019-09-30 19:50:44.000000000,closed,0,Backport GPT fixes
+865,2019-09-27 13:31:59.000000000,2019-11-05 04:58:32.000000000,closed,9,providers: add initial zVM hypervisor support
+864,2019-09-27 01:48:46.000000000,2019-10-10 20:20:13.000000000,closed,10,Clean up user/group handling
+863,2019-09-27 00:26:40.000000000,2019-10-01 20:53:36.000000000,closed,4,[spec2x] Add a `fetch` stage
+862,2019-09-26 22:25:15.000000000,2020-02-28 14:21:22.000000000,closed,3,Support Openstack Heat multipart userdata
+861,2019-09-25 02:38:21.000000000,2019-09-25 23:35:02.000000000,closed,2,Clean up url handling
+860,2019-09-24 22:23:39.000000000,2019-09-25 05:51:29.000000000,closed,4,mount: Skip LABEL=root filesystems
+859,2019-09-24 06:28:27.000000000,2019-09-25 02:21:53.000000000,closed,2,Add a `fetch` stage
+858,2019-09-24 01:06:52.000000000,2019-09-25 23:37:40.000000000,closed,1,build: Add `make install`
+857,2019-09-24 00:47:35.000000000,2019-09-24 21:25:07.000000000,closed,4, engine: Write `/run/ignition.json` atomically
+856,2019-09-13 08:33:24.000000000,2019-09-14 00:53:43.000000000,closed,0,stages/filesystems: drop stray debug print
+855,2019-09-12 13:13:39.000000000,2020-04-29 22:50:14.000000000,closed,6,Remote file verification hash support
+854,2019-09-09 14:27:03.000000000,2019-09-16 20:04:40.000000000,closed,1,doc/supported-platforms: mention qemu version requirements
+853,2019-09-08 17:57:10.000000000,1970-01-01 00:00:00.000000001,open,5,"bad ignition config only yields warning, continues boot"
+852,2019-09-06 19:53:04.000000000,2019-09-09 14:38:01.000000000,closed,3,Source build file correctly
+851,2019-09-04 08:36:48.000000000,1970-01-01 00:00:00.000000001,open,0,Update IANA content type registration
+850,2019-09-03 13:17:47.000000000,2019-09-05 21:22:06.000000000,closed,3,resource/url: update schema version in Accept header
+849,2019-09-03 06:52:45.000000000,2020-02-28 14:20:47.000000000,closed,27,[Cloud Provider][OpenStack] Support multi part mime for user-data
+848,2019-09-03 01:12:48.000000000,2019-09-05 21:20:36.000000000,closed,5,fix check path mount
+847,2019-09-02 21:21:19.000000000,2019-09-24 22:53:56.000000000,closed,10,Continue on empty GPT partition label
+846,2019-08-20 23:00:44.000000000,2019-12-07 03:19:19.000000000,closed,10,selinux: perform relabeling from initrd
+845,2019-08-18 21:10:58.000000000,1970-01-01 00:00:00.000000001,open,3,support device: rootdevice: true
+844,2019-08-16 22:46:01.000000000,2019-10-02 22:34:28.000000000,closed,2,3.0 spec is missing from referenced documentation
+843,2019-08-09 20:35:58.000000000,2019-10-02 04:01:10.000000000,closed,1,Ignition warns on unset mode when appending
+842,2019-08-09 01:16:08.000000000,2019-09-28 03:03:00.000000000,closed,8,why decimal vs octal for file permissions 
+841,2019-08-02 03:22:58.000000000,2019-08-02 21:02:03.000000000,closed,0,main: log stage at startup
+840,2019-08-02 03:22:42.000000000,2019-08-02 21:02:12.000000000,closed,0,main: log stage at startup
+839,2019-07-31 20:11:24.000000000,2019-08-06 06:27:23.000000000,closed,3,Splitting a single disk into / and /var
+838,2019-07-26 23:17:46.000000000,2019-09-25 20:41:48.000000000,closed,7,stages/files: relabel masking symlinks for systemd
+837,2019-07-26 08:28:27.000000000,2019-08-02 21:16:59.000000000,closed,2,Log Ignition stage at startup
+836,2019-07-26 08:21:25.000000000,2019-09-25 20:41:48.000000000,closed,0,systemd masks don't have correct SELinux context
+835,2019-07-25 22:40:21.000000000,2019-07-26 01:20:12.000000000,closed,2,release-checklist: add step to submit to bodhi
+834,2019-07-25 01:03:05.000000000,2019-07-26 02:43:43.000000000,closed,2,Release Ignition 2.0.1
+833,2019-07-25 00:43:33.000000000,2019-07-25 00:55:18.000000000,closed,0,news: add news for v2.0.1
+832,2019-07-24 22:55:57.000000000,2019-07-25 00:49:48.000000000,closed,0,config/v*: run Node.Validate() as well
+831,2019-07-24 00:33:36.000000000,2019-07-24 01:02:18.000000000,closed,0,doc/getting-started: rm online validator section
+830,2019-07-20 01:48:32.000000000,2019-07-23 03:19:12.000000000,closed,1,Backport aws fix
+829,2019-07-17 23:12:17.000000000,2019-07-18 00:06:53.000000000,closed,2,ignition -> config -> replace not working on Digitalocean
+828,2019-07-17 02:04:39.000000000,2019-07-20 01:40:21.000000000,closed,1,aws: get region after getting config
+827,2019-07-15 22:02:50.000000000,2019-07-16 03:19:50.000000000,closed,0,release-checklist: fix link to jenkins
+826,2019-07-10 16:31:40.000000000,2019-07-30 21:47:52.000000000,closed,6,S3 region invalid if ec2-metadata fails on first attempt
+825,2019-07-01 19:13:05.000000000,1970-01-01 00:00:00.000000001,open,5,Support userdata on QEMU s390x
+824,2019-06-29 00:08:25.000000000,2019-07-16 00:33:13.000000000,closed,0,Release Ignition v0.33.0
+823,2019-06-29 00:07:47.000000000,2019-06-29 00:35:46.000000000,closed,0,news: add news for v0.33.0
+822,2019-06-28 22:06:40.000000000,2019-06-29 00:04:04.000000000,closed,1,providers/vmware: return nil config if none exists
+821,2019-06-28 03:16:35.000000000,2019-06-29 01:40:13.000000000,closed,7,Ignition v0.32.0 fails with runtime error - slice bounds out of range
+820,2019-06-25 14:38:51.000000000,1970-01-01 00:00:00.000000001,open,7,Online validation service allows arbitrary JSON
+819,2019-06-04 02:34:31.000000000,2019-06-12 00:03:58.000000000,closed,0,Release Ignition 2.0.0
+818,2019-06-04 02:14:41.000000000,2019-06-04 02:28:58.000000000,closed,0,[spec2x] backport: build*: use --always with git describe
+817,2019-05-30 22:27:13.000000000,2019-06-04 01:36:18.000000000,closed,0,news: update for v2.0.0
+816,2019-05-30 21:25:21.000000000,2019-05-30 21:39:08.000000000,closed,0,build*: use --always with git describe
+815,2019-05-28 16:02:05.000000000,1970-01-01 00:00:00.000000001,open,3,btrfs filesystems cannot be specifed with mutlple devices
+814,2019-05-23 10:58:27.000000000,2019-06-04 02:35:44.000000000,closed,7,[spec2x] internal: create dev aliases in /run/ignition/ instead of /
+813,2019-05-22 21:27:38.000000000,2019-05-22 23:58:23.000000000,closed,8,internal: create dev aliases in /run/ignition/ instead of /
+812,2019-05-17 03:16:02.000000000,2019-05-30 21:04:13.000000000,closed,3,Split validation into separate repo
+811,2019-05-14 13:02:12.000000000,2019-05-16 01:28:32.000000000,closed,6,Update hostname example
+810,2019-05-10 10:44:39.000000000,2019-11-05 04:58:32.000000000,closed,18,Enable reading ignition config by z/VM hypervisor
+809,2019-05-09 02:54:27.000000000,2019-09-28 03:03:42.000000000,closed,4,Can we use Ignition in other distros like Ubuntu
+808,2019-05-02 23:48:02.000000000,2019-05-30 21:34:19.000000000,closed,0,release-checklist: split out 0.x and 2.x+ bits
+807,2019-05-02 03:25:26.000000000,2019-05-03 20:58:43.000000000,closed,1,tests/*: rename bb tests
+806,2019-05-01 19:49:55.000000000,2019-07-16 12:24:41.000000000,closed,11,Set dns for ignition fetches
+805,2019-04-29 22:08:12.000000000,2019-04-29 22:37:30.000000000,closed,0,build_releases: update for using go mod
+804,2019-04-27 02:53:58.000000000,2019-05-06 22:28:56.000000000,closed,0,Release Ignition v2.0.0-beta
+803,2019-04-27 00:23:47.000000000,2019-04-27 03:01:38.000000000,closed,1,news: add news for v2.0.0-beta
+802,2019-04-19 00:40:53.000000000,2019-04-24 02:26:39.000000000,closed,6,config/*/types/storage: fail on hardlinked dirs
+801,2019-04-18 00:27:49.000000000,2019-04-19 00:40:38.000000000,closed,1,Release Ignition 0.32.0
+800,2019-04-17 01:43:43.000000000,2020-06-08 22:54:48.000000000,closed,2,Ignition cannot create hard links to files it creates deeper than the link
+799,2019-04-17 01:04:51.000000000,2019-04-24 02:26:39.000000000,closed,0,Ignition should validate hard links are not targeting directories
+798,2019-04-16 03:31:46.000000000,2019-04-25 01:42:44.000000000,closed,2,stages/files: do not fail if links are correct
+797,2019-04-16 01:28:21.000000000,2019-04-18 01:55:59.000000000,closed,0,news: add news for v0.32.0
+796,2019-04-16 00:14:49.000000000,2019-04-18 00:26:00.000000000,closed,6,config/*/append: add append function back
+795,2019-04-16 00:07:12.000000000,1970-01-01 00:00:00.000000001,open,6,WIP: Distro guide
+794,2019-04-13 02:33:14.000000000,2019-04-18 02:50:41.000000000,closed,2,doc/config-v3_0: Add notes about uniqueness
+793,2019-04-11 01:25:07.000000000,2019-04-12 00:22:17.000000000,closed,0,Update deps
+792,2019-04-10 19:55:08.000000000,2019-04-12 01:50:00.000000000,closed,4,[spec2x] oem: add metal oem
+791,2019-04-09 21:41:46.000000000,2019-04-10 22:47:41.000000000,closed,2,*: bump import path
+790,2019-04-09 20:42:21.000000000,2019-04-10 02:12:56.000000000,closed,2,Makefile: drop go mod tidy from make vendor
+789,2019-04-09 05:39:04.000000000,2019-04-09 20:21:42.000000000,closed,1,"platform: drop ""pxe"""
+788,2019-04-09 03:22:01.000000000,2019-04-26 22:30:00.000000000,closed,3,update docs for 3.0.0
+787,2019-04-05 00:52:01.000000000,1970-01-01 00:00:00.000000001,open,1,Refactor error handing and logging
+786,2019-04-04 03:41:14.000000000,2019-04-09 20:00:20.000000000,closed,3,Add 3.1.0-experimental
+785,2019-04-03 19:26:58.000000000,2019-04-11 02:27:18.000000000,closed,4,Ignition not pulling remote File
+784,2019-04-03 00:16:41.000000000,2019-04-05 01:22:26.000000000,closed,2,Fix dir perms
+783,2019-04-01 23:13:32.000000000,2019-04-03 00:44:02.000000000,closed,2,config/v3_0: disallow overwrite and nil source
+782,2019-03-29 22:29:18.000000000,2019-04-09 05:30:53.000000000,closed,1,"platform: drop compat alias for ""ec2"" platform ID"
+781,2019-03-29 04:24:37.000000000,2019-03-29 05:08:31.000000000,closed,0,config/shared/errors: drop unused errors
+780,2019-03-29 03:58:44.000000000,2019-03-30 03:03:05.000000000,closed,0,config: validate fs entries dont use symlinks
+779,2019-03-29 02:01:44.000000000,2019-03-30 00:19:32.000000000,closed,0,Check that files/dirs/links do not conflict after symlink resolution
+778,2019-03-29 00:25:00.000000000,2019-03-30 01:47:41.000000000,closed,1,Remove partition size and start
+777,2019-03-28 02:13:19.000000000,2019-03-28 04:08:28.000000000,closed,0,stages/files: fix unit relabeling to exclude DestDir
+776,2019-03-28 00:17:41.000000000,2019-03-28 04:37:41.000000000,closed,2,Fix configspec link to remove `-experimental` in docs
+775,2019-03-27 00:16:13.000000000,2019-03-27 00:30:29.000000000,closed,1,Misc fixes
+774,2019-03-26 21:23:44.000000000,2019-03-29 04:15:49.000000000,closed,2,Release Ignition 2.0.0-alpha
+773,2019-03-26 02:17:47.000000000,2019-03-26 21:23:12.000000000,closed,2,News 2.0.0
+772,2019-03-26 01:25:48.000000000,2019-03-26 20:16:36.000000000,closed,5,Stablize spec 3.0.0
+771,2019-03-26 01:11:51.000000000,2019-03-26 01:35:51.000000000,closed,0,stages/files: fix relabel path to be relative to sysroot
+770,2019-03-22 03:55:36.000000000,2019-04-10 02:39:33.000000000,closed,6,Backport configuring a proxy that ignition can honor during replace and append fetches
+769,2019-03-21 20:08:17.000000000,2019-04-12 00:26:26.000000000,closed,29,Enable config-drive by default
+768,2019-03-21 17:37:33.000000000,2019-03-21 22:32:15.000000000,closed,0,spec2x: stages/files: Also relabel subuid/subgid files
+767,2019-03-21 16:43:46.000000000,1970-01-01 00:00:00.000000001,open,2,OEM / provider support of OpenNebula
+766,2019-03-21 03:57:29.000000000,2019-03-25 23:33:10.000000000,closed,1,Revamp merging
+765,2019-03-21 02:15:19.000000000,2019-03-21 22:05:05.000000000,closed,0,*: rename ec2 -> aws and gce -> gcp
+764,2019-03-21 00:25:29.000000000,2019-03-21 17:29:47.000000000,closed,0,stages/files: Also relabel subuid/subgid files
+763,2019-03-20 23:35:33.000000000,2019-04-11 02:28:48.000000000,closed,7,Unclear how to install?
+762,2019-03-20 22:41:21.000000000,2019-03-21 17:29:47.000000000,closed,2,Adding users ends up with unlabeled /etc/subuid
+761,2019-03-20 01:22:07.000000000,2019-03-21 22:33:49.000000000,closed,3,config: rework schema for better merging
+760,2019-03-18 22:55:30.000000000,2019-03-20 00:04:20.000000000,closed,0,Drop user create
+759,2019-03-09 01:27:15.000000000,2019-04-01 20:43:09.000000000,closed,1,Drop deprecated spec fields
+758,2019-03-08 03:54:10.000000000,2019-03-16 00:00:15.000000000,closed,6,Default file.overwrite config option to false 
+757,2019-03-08 03:27:32.000000000,2019-03-20 00:01:20.000000000,closed,11,Disallow duplicate entries
+756,2019-03-07 00:03:04.000000000,2019-03-07 00:26:07.000000000,closed,0,MAINTAINERS: update for spec2x
+755,2019-03-06 22:28:02.000000000,2019-03-06 23:58:13.000000000,closed,0,MAINTAINERS: update
+754,2019-03-01 22:22:46.000000000,2019-03-04 23:42:33.000000000,closed,10,spec2x: support coreos.config.* and ignition.config.*
+753,2019-03-01 22:02:19.000000000,2019-03-08 21:01:36.000000000,closed,10,vendor: switch to go modules
+752,2019-03-01 07:26:52.000000000,2019-03-01 22:50:28.000000000,closed,2,Fix function comments based on best practices from Effective Go
+751,2019-02-28 03:25:47.000000000,2019-03-08 02:30:18.000000000,closed,15,internal/*: drop merging authorized_keys.d into authorized_keys
+750,2019-02-28 02:52:31.000000000,2020-01-04 02:46:59.000000000,closed,1,Ignition should use cgo instead of shelling out for user detection
+749,2019-02-27 01:21:05.000000000,2019-02-28 21:30:00.000000000,closed,4,"exec/util/passwd: rename authorized_keys.d fragment to ""ignition"""
+748,2019-02-27 00:34:18.000000000,1970-01-01 00:00:00.000000001,open,3,Add ability to specify expected failures in blackbox negative testing
+747,2019-02-26 05:13:24.000000000,2019-03-01 23:22:18.000000000,closed,1,stages/files: sort entries by resolved depth
+746,2019-02-26 04:25:06.000000000,2019-03-01 01:58:38.000000000,closed,6,Disallow mounting filesystem entries via symlinks
+745,2019-02-25 23:38:25.000000000,2019-02-26 01:07:41.000000000,closed,0,tests: drop OEMLookaside type
+744,2019-02-25 23:30:54.000000000,2019-02-28 04:37:29.000000000,closed,3,internal/distro: use relative paths
+743,2019-02-23 06:58:16.000000000,2019-02-26 02:08:46.000000000,closed,7,internal/exec: use nonzero default file permissions 
+742,2019-02-23 04:08:34.000000000,2019-03-20 04:17:51.000000000,closed,1,Make validation reject duplicate entries
+741,2019-02-23 04:05:57.000000000,2019-03-26 00:16:20.000000000,closed,2,Rework config merging
+740,2019-02-23 03:55:29.000000000,2019-03-09 04:00:06.000000000,closed,1,Sort links/dirs/files by resolved symlink order instead of specified path order
+739,2019-02-23 03:41:50.000000000,1970-01-01 00:00:00.000000001,open,2,Add a way to delete inodes
+738,2019-02-23 03:34:13.000000000,2020-08-07 00:12:39.000000000,closed,1,Add a way to delete users/groups
+737,2019-02-22 23:42:56.000000000,2019-03-08 21:10:05.000000000,closed,1,Disallow symlinks for mount stage
+736,2019-02-22 15:36:51.000000000,2019-02-22 23:11:48.000000000,closed,2,Release ignition as binary
+735,2019-02-22 02:57:10.000000000,2019-02-26 02:39:07.000000000,closed,2,*: drop OEM terminology
+734,2019-02-22 02:57:07.000000000,2019-02-25 23:31:47.000000000,closed,1,*: drop OEM URI support
+733,2019-02-21 06:02:09.000000000,2019-04-12 00:05:25.000000000,closed,49,Allow configuring a proxy that ignition can honor during replace and append fetches
+732,2019-02-21 04:36:21.000000000,2019-02-26 04:12:21.000000000,closed,10,oem: add metal oem
+731,2019-02-21 02:22:31.000000000,2019-02-22 00:26:54.000000000,closed,0,Release Ignition v0.31.0
+730,2019-02-21 02:21:48.000000000,2019-02-21 02:50:20.000000000,closed,3,News v0.31.0
+729,2019-02-21 02:12:37.000000000,2019-02-21 02:23:26.000000000,closed,0,[backport] Dont leak configs to journal
+728,2019-02-19 00:58:34.000000000,1970-01-01 00:00:00.000000001,open,1,Experiment with running blackbox tests in VMs
+727,2019-02-16 00:35:39.000000000,2019-02-16 02:54:51.000000000,closed,1,config: Fix highlighting errors
+726,2019-02-14 23:53:01.000000000,2019-02-19 23:34:48.000000000,closed,6,internal/exec: log hashes of configs not configs
+725,2019-02-14 10:32:03.000000000,2019-02-21 06:21:07.000000000,closed,8,Ignition Logs Configuration to journalctl
+724,2019-02-14 04:45:48.000000000,2019-02-28 04:29:42.000000000,closed,10,Add 'metal' oem id
+723,2019-02-14 02:02:56.000000000,2019-02-16 02:46:06.000000000,closed,3,Fix user lookup
+722,2019-02-13 23:22:08.000000000,2019-02-21 06:22:23.000000000,closed,2,Can't set file owner by username on non-root filesystem
+720,2019-02-13 02:46:38.000000000,2019-02-28 04:57:56.000000000,closed,9,config/translate: add reflection based translator
+719,2019-02-13 01:27:34.000000000,2019-03-29 04:16:54.000000000,closed,2,Merge down passwd users sections in appended configs
+718,2019-02-07 03:50:04.000000000,2019-02-23 03:49:27.000000000,closed,5,rework files and filesystems
+717,2019-02-03 22:07:24.000000000,2019-04-01 20:46:16.000000000,closed,2,[question] Rollback ignition to last working config
+716,2019-02-01 04:41:15.000000000,2019-03-08 02:30:18.000000000,closed,3,Drop merging of authorized_keys.d into authorized_keys
+715,2019-01-30 02:30:29.000000000,2019-02-06 21:32:34.000000000,closed,3,doc/development: add note to run individual blackbox tests
+714,2019-01-30 01:34:56.000000000,2019-02-05 23:54:39.000000000,closed,1,tests/types: add comments on some members of Test
+713,2019-01-29 03:35:50.000000000,2019-02-06 22:20:36.000000000,closed,5,internal/*: Drop support for default.ign config files
+712,2019-01-29 00:17:54.000000000,1970-01-01 00:00:00.000000001,open,3,Consider delaying fetches until NetworkManager is connected
+711,2019-01-28 22:29:57.000000000,1970-01-01 00:00:00.000000001,open,5,retry for ftp/tftp
+710,2019-01-26 07:04:15.000000000,2019-02-28 21:30:00.000000000,closed,1,Consider renaming authorized_keys.d fragment for spec 3.0
+709,2019-01-25 01:56:58.000000000,2019-02-04 23:13:32.000000000,closed,5,[BACKPORT][spec2x] Replace cobra with built-in flag
+708,2019-01-24 20:12:41.000000000,2019-01-24 20:48:35.000000000,closed,0,docs: fix stale link to config 2.x
+707,2019-01-22 21:59:57.000000000,2020-06-19 06:19:51.000000000,closed,2,Support GCS urls for ignition?
+706,2019-01-18 22:53:28.000000000,1970-01-01 00:00:00.000000001,open,6,doc: Clarify that intermediates are created for files/directories
+705,2019-01-12 01:07:47.000000000,2020-02-07 08:18:24.000000000,closed,1,Update migration docs for 3.0.0
+704,2019-01-11 22:53:22.000000000,2019-01-11 23:32:37.000000000,closed,1,travis: bump min go version to 1.10.x
+703,2019-01-11 03:31:37.000000000,2019-01-12 01:25:44.000000000,closed,3,*: drop networkd section
+702,2019-01-11 02:34:25.000000000,2019-01-11 03:22:11.000000000,closed,3,"docs: remove config 2.x, add config 3.0.0 spec doc"
+701,2019-01-04 00:47:10.000000000,2019-01-04 02:38:36.000000000,closed,0,tests/timeouts: fix concurrency panic for spec2x
+700,2019-01-03 19:12:36.000000000,2019-01-12 03:23:51.000000000,closed,11,Replace cobra with built-in flag
+699,2018-12-22 03:15:15.000000000,2019-01-04 00:13:58.000000000,closed,0,tests/timeouts: fix concurrency panic
+698,2018-12-19 05:26:04.000000000,2019-01-04 00:39:03.000000000,closed,1,internal/oem: drop some legacy OEMs
+697,2018-12-18 03:19:49.000000000,2019-01-09 01:51:51.000000000,closed,2,Remove old spec versions
+696,2018-12-15 12:20:28.000000000,1970-01-01 00:00:00.000000001,open,10,Consider adding spec fields describing the config source and generator
+695,2018-12-15 05:09:54.000000000,2018-12-15 08:30:48.000000000,closed,0,release-checklist: minor updates
+694,2018-12-15 04:19:54.000000000,2018-12-18 23:50:23.000000000,closed,0,readme: add note about branch for spec 2x
+693,2018-12-15 03:45:32.000000000,2018-12-15 03:58:25.000000000,closed,0,news: add news for 0.30.0
+692,2018-12-15 03:35:01.000000000,2018-12-15 08:21:44.000000000,closed,1,Release Ignition 0.30.0
+691,2018-12-15 03:27:21.000000000,2018-12-18 23:47:23.000000000,closed,2,readme: add note about branching
+690,2018-12-15 03:17:09.000000000,2018-12-15 03:32:47.000000000,closed,0,"doc/development: add ""kind/release"" label to release issues"
+689,2018-12-15 01:03:32.000000000,2019-01-15 11:18:13.000000000,closed,4,Drop cobra from ignition-validate
+688,2018-12-15 00:25:15.000000000,2018-12-15 00:48:53.000000000,closed,0,test: skip backward compat tests with -test.short
+687,2018-12-15 00:00:30.000000000,2018-12-15 00:36:42.000000000,closed,6,tests/partitioning: add minversion to complex mb
+686,2018-12-14 23:43:19.000000000,2018-12-14 23:58:51.000000000,closed,1,tests: add -list flag to blackbox tests
+685,2018-12-14 21:43:14.000000000,2018-12-15 00:39:04.000000000,closed,2,Extra blackbox tests being generated
+684,2018-12-14 10:19:15.000000000,2019-02-26 02:39:07.000000000,closed,0,"Drop ""OEM"" terminology"
+683,2018-12-13 21:42:46.000000000,2018-12-15 00:49:09.000000000,closed,7,Parallel filesystem creation
+682,2018-12-13 00:39:35.000000000,2018-12-19 01:48:28.000000000,closed,10,Branching/vendoring methods Ignition for spec 3.0.0 + 2.x
+681,2018-12-13 00:28:49.000000000,2018-12-15 00:49:09.000000000,closed,4,Create filesystems in parallel
+680,2018-12-11 00:22:23.000000000,1970-01-01 00:00:00.000000001,open,2,"Ignition Timeout logic is confusing, inconsistent"
+679,2018-12-10 13:34:36.000000000,2018-12-14 13:29:55.000000000,closed,2,internal/exec: increase default config fetch timeout
+678,2018-12-07 04:21:26.000000000,2018-12-07 05:24:53.000000000,closed,2,Release Ignition 0.29.1
+677,2018-12-07 02:26:56.000000000,2018-12-07 04:05:55.000000000,closed,3,news: add news for 0.29.1
+676,2018-12-06 04:27:59.000000000,2018-12-07 04:02:56.000000000,closed,1,Fix symlinks again
+675,2018-12-04 05:52:56.000000000,2019-01-09 22:24:03.000000000,closed,3,"Consider dropping script, cloudinit detection in spec 3.0.0"
+674,2018-12-04 02:19:23.000000000,2018-12-05 23:42:00.000000000,closed,4,Ignition 0.29.0 Release
+673,2018-12-03 13:48:31.000000000,2018-12-04 01:49:32.000000000,closed,4,load systemd units content from remote source
+672,2018-12-01 00:34:09.000000000,2018-12-04 02:17:00.000000000,closed,2,news: add news for 0.29.0
+671,2018-11-30 04:17:26.000000000,2018-11-30 04:27:34.000000000,closed,0,Fix link
+670,2018-11-29 22:18:52.000000000,2018-12-04 00:41:32.000000000,closed,4,internal/resource: use /dev/urandom for early-boot TLS
+669,2018-11-28 04:37:08.000000000,2019-02-23 04:06:24.000000000,closed,9,Rework Filesystems for 3.0.0
+668,2018-11-27 23:03:50.000000000,2019-02-06 22:20:35.000000000,closed,3,Drop support for platform default configs
+667,2018-11-27 15:13:10.000000000,1970-01-01 00:00:00.000000001,open,19,providers: add initial hetzner cloud support
+666,2018-11-27 09:24:21.000000000,1970-01-01 00:00:00.000000001,open,15,Support userdata on QEMU PPC64
+665,2018-11-20 18:20:26.000000000,2018-11-30 14:12:08.000000000,closed,3,internal/resource: use getrandom(2) in GRND_NONBLOCK mode 
+664,2018-11-19 23:08:37.000000000,2018-11-20 00:16:14.000000000,closed,2,Using noCreateHome causes boot to fail
+663,2018-11-15 22:27:30.000000000,2019-01-10 04:27:28.000000000,closed,14,master: Rename `coreos.config.*` options to `ignition.config.*`
+662,2018-11-09 04:24:46.000000000,2019-03-21 20:02:13.000000000,closed,1,Ignition uses ints for partition sizes
+661,2018-11-09 02:01:31.000000000,2018-11-09 03:36:33.000000000,closed,10,RPMOSTreePayload
+660,2018-11-08 23:45:49.000000000,2018-11-09 03:22:36.000000000,closed,3,schema: use mebibytes not megabytes for partitions
+659,2018-11-08 03:23:43.000000000,2018-11-08 03:37:07.000000000,closed,0,schema: fix incorrect case
+658,2018-11-07 03:51:36.000000000,2019-01-10 04:35:08.000000000,closed,4,Consider splitting config into seperate repo
+657,2018-11-02 03:02:00.000000000,2018-11-30 04:06:26.000000000,closed,3,mark 2.3.0 as stable
+656,2018-11-01 22:28:42.000000000,2019-01-10 02:46:58.000000000,closed,16,Consider reading Ignition configs from SMBIOS OEM strings
+655,2018-11-01 18:06:50.000000000,2018-11-07 13:05:34.000000000,closed,7,glide: update go-systemd to v18 
+654,2018-10-28 18:10:27.000000000,2019-04-11 02:32:11.000000000,closed,8,GCE provides automation scripts by metadata.startup-script
+653,2018-10-25 22:24:50.000000000,1970-01-01 00:00:00.000000001,open,10,Add `entropy` key
+652,2018-10-23 23:03:52.000000000,2018-12-01 03:08:30.000000000,closed,4,internal/providers/packet: don't send success to packet from Ignition
+651,2018-10-23 22:47:33.000000000,2018-12-01 03:08:30.000000000,closed,0,Ignition incorrectly indicates success after disks stage to Packet
+650,2018-10-23 04:09:43.000000000,2019-02-23 03:51:48.000000000,closed,1,flatten storage.filesystems in spec 3.0.0
+649,2018-10-17 02:52:03.000000000,1970-01-01 00:00:00.000000001,open,6,There are no docs for how to incorporate Ignition in a distro
+648,2018-10-17 02:37:33.000000000,2019-02-28 04:37:29.000000000,closed,4,Consider not using absolute paths for helper utilities
+647,2018-10-16 20:53:35.000000000,2019-02-25 23:31:47.000000000,closed,1,Drop OEM partition support
+646,2018-10-16 17:59:43.000000000,2019-01-10 04:27:28.000000000,closed,10,Make options more distribution neutral
+645,2018-10-16 06:25:45.000000000,2018-12-04 00:41:31.000000000,closed,5,TLS requires system entropy when none may be available
+644,2018-10-13 02:29:21.000000000,2018-11-01 22:15:27.000000000,closed,6,Fix symlink resolution
+643,2018-10-12 02:02:39.000000000,2018-10-22 20:56:10.000000000,closed,13,resource: add support for ?versionId on s3:// URL download
+642,2018-10-10 10:05:08.000000000,1970-01-01 00:00:00.000000001,open,3,Appending to a file is not idempotent
+641,2018-10-10 08:51:54.000000000,2018-10-10 20:58:43.000000000,closed,1,release-checklist: move to .github and drop front matter
+640,2018-10-10 00:00:31.000000000,2018-11-01 22:15:27.000000000,closed,2,Ignition follows absolute symlinks
+639,2018-09-28 01:03:01.000000000,2018-10-02 18:39:10.000000000,closed,1,stages/files: relabel files before systemd-sysctl
+638,2018-09-27 20:13:54.000000000,2019-01-12 01:25:44.000000000,closed,2,Drop networkd section from spec 3.0
+637,2018-09-24 22:33:40.000000000,2018-10-08 20:23:24.000000000,closed,5,blkid: Compile with -Werror=implicit-function-declaration
+636,2018-09-24 20:55:30.000000000,2018-10-16 16:39:59.000000000,closed,4,config: Clarify semantics around certs
+635,2018-09-21 21:17:24.000000000,2019-12-07 03:19:19.000000000,closed,18,Revisit SELinux labeling approach
+634,2018-09-18 01:50:11.000000000,2018-09-18 02:31:59.000000000,closed,1,stages/disks: fix extraneous udevadm settle
+633,2018-09-18 01:42:57.000000000,2018-09-18 02:02:35.000000000,closed,0,glide: switch to tags where we can
+632,2018-09-14 23:41:37.000000000,2018-09-17 22:28:05.000000000,closed,3,stages/files: relabel /var/home and /var/roothome
+631,2018-09-14 01:22:29.000000000,2018-09-14 22:33:13.000000000,closed,2,glide.*: remove subpackages
+630,2018-09-11 22:42:42.000000000,2018-09-11 22:48:50.000000000,closed,0,testtestest
+629,2018-09-11 17:42:51.000000000,1970-01-01 00:00:00.000000001,open,4,providers/virtualbox: investigate using GuestProperties
+628,2018-09-07 03:20:41.000000000,2018-09-12 01:36:28.000000000,closed,3,tests: workaround umount issues
+627,2018-08-30 01:20:27.000000000,2018-08-30 20:56:55.000000000,closed,1,doc/development: update blackbox test instructions to low parallelism
+626,2018-08-29 03:39:08.000000000,2018-09-18 01:52:14.000000000,closed,10,build: clean before building
+625,2018-08-29 03:05:25.000000000,2018-08-30 01:16:51.000000000,closed,7,Cleanup tests and make them killable
+624,2018-08-28 00:43:35.000000000,2018-08-28 01:59:12.000000000,closed,6,Kola AWS test failure: nfs unit not enabled
+623,2018-08-24 20:42:09.000000000,2018-08-24 20:47:38.000000000,closed,0,release-checklist: explicitly merge the docs PR
+622,2018-08-22 22:58:14.000000000,2018-08-23 01:10:30.000000000,closed,1,NEWS: add news for v0.28.0
+621,2018-08-22 22:51:16.000000000,2018-08-23 21:31:01.000000000,closed,0,Release Ignition v0.28.0
+620,2018-08-22 04:17:49.000000000,2018-08-22 21:41:18.000000000,closed,2,stages/filesystems: simplify code
+619,2018-08-22 01:50:54.000000000,2018-08-22 21:41:08.000000000,closed,3,Move release template
+618,2018-08-22 00:39:09.000000000,2018-08-22 22:48:56.000000000,closed,5,exec/util: handle 4k sectors correctly
+617,2018-08-20 18:08:30.000000000,2018-08-20 18:50:13.000000000,closed,2,Support for metadata in OpenStack/Ec2 providers
+616,2018-08-17 02:40:11.000000000,2018-08-21 23:58:36.000000000,closed,1,cleanup blackbox tests
+615,2018-08-16 17:13:11.000000000,2018-08-16 17:20:54.000000000,closed,1,No log output seen if ignition hangs
+614,2018-08-16 01:00:08.000000000,2018-09-06 01:39:01.000000000,closed,8,`ignition --help` returns non-zero return code
+613,2018-08-14 23:46:28.000000000,2018-08-15 19:06:15.000000000,closed,4,stages/files: also relabel /root home dir
+612,2018-08-14 20:03:55.000000000,2018-08-23 22:47:04.000000000,closed,2,config/*/append*: remove unused code
+611,2018-08-10 00:48:56.000000000,2018-08-14 00:58:58.000000000,closed,0,tests/bb: update configMinVersion to reflect lowest compatible config version
+610,2018-08-09 23:27:37.000000000,2018-08-10 01:25:24.000000000,closed,4,Add news for 0.27.0
+609,2018-08-07 02:20:50.000000000,2018-08-07 21:57:20.000000000,closed,1,stages/files: use stable sort for directories
+608,2018-08-07 02:15:11.000000000,2019-03-26 00:37:02.000000000,closed,3,Ignition files stage is not fully declarative and behavior is unspecified
+607,2018-07-28 04:06:51.000000000,2018-07-28 09:34:16.000000000,closed,2,Ignition config translation does not set `wipeFilesystem`
+606,2018-07-27 01:23:08.000000000,2018-07-27 07:58:21.000000000,closed,0,Testing BB 
+605,2018-07-25 01:38:42.000000000,2018-07-25 01:59:48.000000000,closed,0,Testing BB compatiblity code
+604,2018-07-25 00:06:45.000000000,2019-03-16 00:00:14.000000000,closed,3,Default files.overwrite to false
+603,2018-07-24 02:57:05.000000000,2018-08-01 00:54:53.000000000,closed,4,Ignition spec 2.x partitioning is not translatable to tools other than sgdisk
+602,2018-07-23 23:10:13.000000000,2018-07-24 18:22:17.000000000,closed,8,Opt-in translation between config versions (vs. current required support)
+601,2018-07-23 22:36:19.000000000,2018-07-24 00:01:00.000000000,closed,1,doc: Mention spec v2.2 as the latest stable version
+600,2018-07-20 22:23:31.000000000,2019-04-04 01:21:14.000000000,closed,4,Support conditional user creation
+599,2018-07-19 02:56:13.000000000,1970-01-01 00:00:00.000000001,open,8,Exporting Ignition's `renderConfig` functionality
+598,2018-07-13 01:33:29.000000000,2018-07-13 04:04:05.000000000,closed,2,internal: adjust http default timeouts
+597,2018-07-13 01:32:09.000000000,2018-07-13 04:04:18.000000000,closed,2,ignition does not attempt to retry hung GET from metadata server with default timeouts
+596,2018-07-11 02:49:46.000000000,2018-10-22 20:56:10.000000000,closed,5,Add support for fetching the user data with the VersionId
+595,2018-07-10 09:07:54.000000000,2018-07-11 01:08:02.000000000,closed,1,github: add issue reporting templates
+594,2017-11-18 04:20:04.000000000,2020-01-04 02:27:37.000000000,closed,32,Ignition appears to swallow S3 errors
+593,2018-06-05 23:12:10.000000000,2018-08-08 02:46:39.000000000,closed,1,Ignition Tests: Switch from using timeouts to wait on loop devices
+592,2018-05-31 00:06:34.000000000,2018-08-07 22:19:04.000000000,closed,4,Add ability for Ignition to report provisioning failures
+591,2018-05-01 00:33:12.000000000,2018-09-07 03:26:23.000000000,closed,11,Nodes created/touched by Ignition lack the proper selinux labels
+590,2018-03-20 15:50:33.000000000,2020-01-04 02:26:37.000000000,closed,4,Ignition appears to ignore proxy environment variables for http requests
+589,2018-01-12 06:43:26.000000000,2019-10-10 01:02:05.000000000,closed,2,Add AliCloud support for ignition
+588,2017-11-10 06:24:25.000000000,1970-01-01 00:00:00.000000001,open,12,Ignition shouldn't use systemd presets to enable units
+587,2017-11-10 06:23:18.000000000,1970-01-01 00:00:00.000000001,open,2,Ignition silently fails to enable a nonexistent unit
+586,2017-11-09 22:20:51.000000000,2020-03-21 00:49:36.000000000,closed,2,systemd instantiated services are not started when enabled via ignition
+585,2017-11-08 08:34:09.000000000,1970-01-01 00:00:00.000000001,open,7,Provide a way for Ignition to report provisioning success/failure
+584,2017-11-07 17:34:56.000000000,2020-01-04 02:15:56.000000000,closed,7,Ignition Config not working as expected on VMWare Fusion 
+583,2017-10-21 01:17:27.000000000,1970-01-01 00:00:00.000000001,open,0,Ignition should be able to enable systemd aliases
+582,2017-10-20 22:16:58.000000000,2019-02-26 02:08:46.000000000,closed,8,Ignition should have reasonable default file permissions
+581,2017-08-29 04:52:04.000000000,1970-01-01 00:00:00.000000001,open,0,Ignition does not support nested RAID
+580,2017-08-17 10:26:23.000000000,2018-11-07 03:51:59.000000000,closed,2,Add device-independent Ignition option for specifying partition start/size
+579,2017-08-11 07:21:59.000000000,1970-01-01 00:00:00.000000001,open,8,Add Ignition options to create partition or RAID volume only if missing
+578,2017-02-01 01:48:09.000000000,1970-01-01 00:00:00.000000001,open,1,Ignition: Support for Basic Authentication
+577,2016-12-01 05:41:58.000000000,2020-07-10 23:44:32.000000000,closed,20,Support for encrypted luks volumes
+576,2016-01-08 00:05:59.000000000,2018-08-07 22:32:44.000000000,closed,8,Expand support for Ignition files
+575,2018-07-04 02:22:45.000000000,2018-08-03 23:08:28.000000000,closed,14,tests/register: Run BB test on all compatible config versions
+574,2018-07-03 21:52:42.000000000,2018-07-06 02:06:47.000000000,closed,3,tests: refactor uuid replacement code
+573,2018-07-03 04:04:39.000000000,2018-07-14 02:23:16.000000000,closed,3,schema: enforce required fields
+572,2018-07-02 23:53:57.000000000,2018-07-11 01:11:31.000000000,closed,7,README.md: Update bug tracking location
+571,2018-07-02 07:11:03.000000000,2018-07-04 01:57:54.000000000,closed,4, resource: add os-release headers when fetching config 
+570,2018-06-27 03:00:48.000000000,2018-06-30 01:28:53.000000000,closed,6,resource: add os-release headers when fetching config
+569,2018-06-27 01:25:40.000000000,2018-08-09 23:05:21.000000000,closed,33,stages/files: relabel files for SELinux after boot
+568,2018-06-25 23:55:47.000000000,2018-06-26 00:58:39.000000000,closed,3,"tailor: allow ``("") & (`)`` in titles"
+567,2018-06-25 23:48:15.000000000,2018-06-28 19:19:02.000000000,closed,12,"user-group: Add chdir(""/"") after chroot()"
+566,2018-06-19 05:28:12.000000000,2018-08-01 08:47:17.000000000,closed,7,Status Report for Packet Instance
+565,2018-06-18 20:59:55.000000000,2018-06-19 01:34:09.000000000,closed,4,tests/filesystems: use proper device waits
+564,2018-06-15 02:10:34.000000000,2018-09-14 21:18:51.000000000,closed,9,Allow specifying start and size partition fields in megabytes
+563,2018-06-13 03:20:51.000000000,2018-06-14 00:48:38.000000000,closed,2,tests/reuse-existing-fs: use xfs not btrfs
+562,2018-06-13 00:42:42.000000000,2018-06-13 02:47:13.000000000,closed,1,docs/release-checklist: create release checklist
+561,2018-06-12 00:46:50.000000000,2018-06-12 23:57:29.000000000,closed,2,"Add news for 0.26.0, 0.25.1, 0.24.1"
+560,2018-06-09 10:14:01.000000000,2018-06-29 21:47:30.000000000,closed,11,Internal: Replaced hardcoded UUIDs with randomly generated UUIDs
+559,2018-06-08 21:21:15.000000000,2018-06-11 20:19:13.000000000,closed,3,docs: improve partitioning docs clarity
+558,2018-05-30 05:48:09.000000000,2018-06-01 04:45:33.000000000,closed,9,Critical level logs
+557,2018-05-25 23:37:07.000000000,2018-05-26 01:55:00.000000000,closed,1,vendor: unpin transient dependency jmespath
+556,2018-05-25 01:59:32.000000000,2018-06-05 21:47:34.000000000,closed,2,tests: fail when Ignition emits CRITICAL logs
+555,2018-05-23 08:27:09.000000000,2018-05-23 08:43:33.000000000,closed,0,V0.24.1
+554,2018-05-23 08:25:18.000000000,2018-05-23 08:37:06.000000000,closed,0,v0.25.1
+553,2018-05-23 08:18:37.000000000,2018-05-23 08:27:21.000000000,closed,0,v0.25.1
+552,2018-05-23 04:17:10.000000000,2018-05-23 08:27:34.000000000,closed,1,v0.24.1
+551,2018-05-23 04:11:26.000000000,2018-05-23 04:14:12.000000000,closed,1,v0.24.1
+550,2018-05-23 02:30:10.000000000,2018-05-23 02:40:21.000000000,closed,0,tests: rename duplicate tests
+549,2018-05-23 01:57:05.000000000,2018-05-23 08:43:23.000000000,closed,1,internal: don't cancel http contexts until the body has been read
+548,2018-05-22 02:08:59.000000000,2018-05-22 02:51:59.000000000,closed,0,internal: split up files stage into multiple files
+547,2018-05-22 01:50:08.000000000,2018-05-24 03:05:20.000000000,closed,2,internal: store the fetcher in the Engine struct
+546,2018-05-22 01:23:17.000000000,2018-08-30 01:17:11.000000000,closed,13,"tests: catch SIGINT/SIGTERM, skip remaining tests/clean up running tests"
+545,2018-05-17 21:48:59.000000000,2018-05-18 00:53:49.000000000,closed,2,news: add news for v0.25.0
+544,2018-05-16 21:30:54.000000000,2018-06-01 03:36:32.000000000,closed,6,Improve partition semantics
+543,2018-05-15 20:46:53.000000000,2018-05-15 22:50:34.000000000,closed,1,Minor fixes for blackbox tests
+542,2018-05-15 19:11:52.000000000,2018-05-15 22:20:05.000000000,closed,0,vendor: update go-systemd to v17
+541,2018-05-10 02:29:12.000000000,2018-05-15 22:22:54.000000000,closed,2,Add archives section
+540,2018-05-08 04:09:33.000000000,2018-05-10 01:22:04.000000000,closed,3,blackbox tests: refactor
+539,2018-05-03 21:42:42.000000000,2018-05-17 00:47:38.000000000,closed,3,internal: don't leave a temporary file when appending
+538,2018-05-02 00:59:51.000000000,2018-05-09 03:32:07.000000000,closed,0,doc: document how to use Ignition on selinux enforcing distributions
+537,2018-04-26 21:58:09.000000000,2018-04-27 02:01:10.000000000,closed,5,internal: remove support for oracle oci platform
+536,2018-04-26 01:07:26.000000000,2018-04-26 03:32:04.000000000,closed,2,tests: return correct error value for failed files stage
+535,2018-04-24 02:31:10.000000000,2018-04-26 01:00:49.000000000,closed,3,tests: use distro specific paths in tests
+534,2018-04-24 02:29:40.000000000,2018-05-10 00:26:10.000000000,closed,11,"tests: run tests in parallel, fixes for parallel tests"
+533,2018-04-10 02:22:56.000000000,2018-06-18 22:27:27.000000000,closed,4,build: produce position independent executable for ignition
+532,2018-04-07 04:26:31.000000000,2018-04-10 05:59:28.000000000,closed,0,config: have Parse return ErrUnknownVersion if version is bad
+531,2018-04-06 23:20:02.000000000,2018-04-06 23:27:00.000000000,closed,0,news: add news for v0.24.0
+530,2018-03-23 02:33:18.000000000,2018-04-02 23:30:33.000000000,closed,3,doc: detail Ignition's design and the rationale behind it
+529,2018-03-21 02:15:30.000000000,2018-03-21 22:59:08.000000000,closed,1,Fix blackbox tests
+528,2018-03-20 20:09:09.000000000,2018-03-20 20:14:09.000000000,closed,2,Don't run git if $VERSION in env
+527,2018-03-16 03:10:38.000000000,2018-03-22 21:40:16.000000000,closed,5,add highlights to reports coming from Validate and ValidateFoo functions
+526,2018-03-16 02:42:52.000000000,2018-03-21 00:15:41.000000000,closed,2,Have all config/v*/types packages use common error types
+525,2018-03-15 22:32:04.000000000,2018-03-20 20:07:41.000000000,closed,1, config/*: add systemd install section warning
+524,2018-03-15 17:28:47.000000000,2018-03-16 21:28:11.000000000,closed,5,Override artifact output with BIN_PATH
+523,2018-03-15 17:13:16.000000000,2018-03-20 20:29:39.000000000,closed,6,build and build_releases VERSION override
+522,2018-03-15 04:35:37.000000000,2018-03-20 10:58:39.000000000,closed,4, config: avoid some buffer allocs
+521,2018-03-12 22:45:58.000000000,2018-03-14 01:06:26.000000000,closed,0,news: add news for v0.23.0
+520,2018-03-03 01:11:20.000000000,2018-03-06 05:12:49.000000000,closed,0,README: add sentence about ignition-validate and coreos.com/validate
+519,2018-03-01 04:16:17.000000000,2018-03-12 22:23:20.000000000,closed,7,Translation/config refactor
+518,2018-02-16 04:36:00.000000000,2018-03-22 01:53:24.000000000,closed,23,DNM: debugging
+517,2018-02-15 23:23:10.000000000,2018-02-16 19:11:37.000000000,closed,5,internal: switch to stdlib context package 
+516,2018-02-13 00:23:23.000000000,2018-02-13 01:49:15.000000000,closed,2,DO NOT MERGE: jenkins testing
+515,2018-02-12 18:34:07.000000000,2020-03-03 21:34:15.000000000,closed,6,[RFC] schema: add storage.encryption section
+514,2018-02-09 23:21:54.000000000,2018-02-10 04:34:43.000000000,closed,0,news: add news for v0.22.0
+513,2018-02-08 02:12:09.000000000,2018-02-08 10:21:56.000000000,closed,10,tests/negative/security/tls: disable tls handshake error logging
+512,2018-02-08 01:39:10.000000000,2018-02-13 00:22:58.000000000,closed,7,DO NOT MERGE: jenkins test
+511,2018-02-06 02:47:17.000000000,2018-02-07 00:48:47.000000000,closed,0,vendor: update go-systemd to v16
+510,2018-02-06 02:44:27.000000000,2018-02-09 05:22:50.000000000,closed,4,"Mark Ignition spec 2.2.0 as stable, create new 2.3.0-experimental spec"
+509,2018-01-27 04:49:33.000000000,2018-02-07 03:35:28.000000000,closed,3,build_releases: add script to build release binaries
+508,2018-01-27 04:01:15.000000000,2018-01-27 04:57:28.000000000,closed,0,doc/supported-platforms: add supported schemes for `coreos.config.url`
+507,2018-01-26 19:23:36.000000000,2020-02-28 14:30:25.000000000,closed,18,[WIP] internal: Honour HTTP proxy environment vars
+506,2018-01-26 05:17:55.000000000,2018-01-27 04:34:47.000000000,closed,3,news: add news for v0.21.0
+505,2018-01-25 16:31:45.000000000,2018-01-26 19:24:00.000000000,closed,7,internal: Honour HTTP proxy environment vars
+504,2018-01-25 16:21:42.000000000,2018-01-25 16:28:43.000000000,closed,1,Support http proxy env vars like default http.Transport does
+503,2018-01-19 01:37:35.000000000,2018-01-26 05:15:42.000000000,closed,9,Blackbox test improvements for Jenkins
+502,2018-01-17 04:33:47.000000000,2018-01-18 01:54:55.000000000,closed,2,Blackbox test improvements
+501,2018-01-17 02:21:18.000000000,2018-01-18 03:15:47.000000000,closed,2,config/v2_1: use config/v2_1/types in append.go
+500,2018-01-13 02:21:26.000000000,2018-01-13 02:29:07.000000000,closed,0,news: add news for v0.20.1
+499,2018-01-12 05:47:41.000000000,2018-01-20 04:28:46.000000000,closed,3,Append to files
+498,2018-01-12 03:38:48.000000000,2018-01-13 05:01:44.000000000,closed,5,blackbox: validate configs that we expect to be valid
+497,2018-01-12 02:45:45.000000000,2018-01-13 00:49:56.000000000,closed,0,internal/resource/http.go: make retry logging info level
+496,2018-01-12 02:23:08.000000000,2018-06-12 03:16:40.000000000,closed,2,doc: describe required IAM permissions for fetching S3 objects
+495,2018-01-09 02:23:23.000000000,2018-01-24 04:56:11.000000000,closed,0,Add field for user-provided raid options
+494,2018-01-09 00:34:37.000000000,2018-01-13 01:48:47.000000000,closed,3,Add force flag to node creation
+493,2018-01-05 04:24:38.000000000,2018-01-09 01:56:17.000000000,closed,0,default file mode warnings
+492,2018-01-05 02:42:36.000000000,2018-01-11 03:47:46.000000000,closed,4,Use absolute paths in passwd
+491,2018-01-05 01:34:23.000000000,2018-01-05 02:21:34.000000000,closed,0,tests/networkd: add tests for drop-ins
+490,2018-01-05 01:27:19.000000000,2018-01-09 00:46:03.000000000,closed,2,automated PR: update CoC
+489,2018-01-04 00:06:24.000000000,2018-01-04 00:46:46.000000000,closed,1,Disallow colons in partition labels
+488,2018-01-03 02:41:17.000000000,2018-01-04 00:12:32.000000000,closed,0,.github/tailor.yaml: allow periods in scope
+487,2018-01-03 02:02:48.000000000,2018-01-04 00:46:33.000000000,closed,2,Apply config timeouts when resolving config chains
+486,2017-12-23 05:03:46.000000000,2018-01-26 03:42:35.000000000,closed,9,*: support additional certificate authorities
+485,2017-12-22 03:12:39.000000000,2018-01-03 04:48:02.000000000,closed,7,tests: make running bb tests locally easier
+484,2017-12-22 01:44:45.000000000,2018-01-05 03:49:28.000000000,closed,12,Add a CLI validator tool
+483,2017-12-21 06:39:21.000000000,2017-12-21 06:47:20.000000000,closed,0,dummy PR for test; DO NOT MERGE
+482,2017-12-21 00:27:23.000000000,2017-12-21 23:48:46.000000000,closed,4,Network dropins
+481,2017-12-19 06:21:08.000000000,2017-12-19 06:30:20.000000000,closed,0,tests: fix compilation
+480,2017-12-19 05:40:33.000000000,2017-12-21 05:53:43.000000000,closed,4,Improve tests
+479,2017-12-15 00:54:43.000000000,2017-12-15 03:49:20.000000000,closed,1,resource/http: prefer the go resolver over libc
+478,2017-12-14 04:16:02.000000000,2017-12-15 05:37:53.000000000,closed,1,news: add news for v0.20.0
+477,2017-12-13 21:49:09.000000000,2018-01-05 01:59:20.000000000,closed,12,add support for s3 all aws partitions
+476,2017-11-18 05:04:21.000000000,2017-11-18 05:30:25.000000000,closed,2,doc: add data as supported type for append/replace
+475,2017-11-17 04:54:44.000000000,2017-12-06 23:56:13.000000000,closed,8,Stop hardcoding base and default configs in Ignition binary
+474,2017-11-17 04:22:04.000000000,2017-11-20 23:32:44.000000000,closed,4,Update tailor config
+473,2017-11-15 10:02:47.000000000,2017-11-16 08:28:22.000000000,closed,8,Allow overriding distro-specific constants at link time; test oem:// resource URLs
+472,2017-11-02 02:36:45.000000000,2017-11-02 03:05:08.000000000,closed,0,"Revert ""doc/development: update dependencies"""
+471,2017-11-01 21:50:37.000000000,2017-11-01 22:56:25.000000000,closed,5,doc/development: update dependencies
+470,2017-10-18 04:40:08.000000000,2017-12-19 04:21:02.000000000,closed,3,"Update start/size docs, add tests"
+469,2017-10-13 03:16:45.000000000,2017-10-13 03:45:06.000000000,closed,1,WIP travis: turn on blackbox tests
+468,2017-10-09 13:19:05.000000000,2017-11-20 22:51:50.000000000,closed,4,url: increase S3 and TFTP retries
+467,2017-10-03 19:27:22.000000000,2017-10-13 01:25:57.000000000,closed,0,internal: add authorized_keys_d library
+466,2017-09-30 03:16:37.000000000,2017-10-21 01:28:17.000000000,closed,2,config/types: rename PasswdUserGroups to Groups
+465,2017-09-30 02:34:59.000000000,2018-01-24 03:00:59.000000000,closed,6,Add docs validation
+464,2017-09-29 06:23:06.000000000,2017-09-30 00:45:01.000000000,closed,2,oem: delete google/cloud-sdk containers on exit
+463,2017-09-28 01:58:54.000000000,2017-09-28 02:55:12.000000000,closed,2,test: update tailor rules
+462,2017-09-28 01:10:23.000000000,2017-09-30 00:28:50.000000000,closed,2,"doc: Drop deprecated ""create"" usage"
+461,2017-09-27 00:23:04.000000000,2017-09-27 05:22:21.000000000,closed,1,news: update v0.19.0 news to included missed fixes
+460,2017-09-26 20:24:32.000000000,2020-02-28 14:26:48.000000000,closed,5,doc: add vagrant to supported platforms for Ignition
+459,2017-09-23 02:59:18.000000000,2017-09-23 03:49:24.000000000,closed,1,news: add news for v0.19.0
+458,2017-09-22 03:25:13.000000000,2017-10-18 04:10:54.000000000,closed,6,Disallow size 0 when start is not 0
+457,2017-09-21 03:47:14.000000000,2017-09-28 00:28:42.000000000,closed,2,main: add validate flag
+456,2017-09-21 00:52:19.000000000,2017-09-21 04:17:40.000000000,closed,1,*: add validate only flag
+455,2017-09-20 04:25:20.000000000,2017-11-15 10:03:04.000000000,closed,4,*: add profile for OS-specific configuration
+454,2017-09-20 01:03:00.000000000,2017-09-20 02:00:51.000000000,closed,0,config/types: add fs check for directories / links
+453,2017-09-19 11:23:05.000000000,2017-09-20 00:12:50.000000000,closed,1,tests: always use private TMPDIR subdirectory
+452,2017-09-19 02:49:01.000000000,2017-09-19 03:41:36.000000000,closed,2,tests: use partitioned loop devices instead of kpartx
+451,2017-09-18 22:23:30.000000000,2017-09-22 03:51:06.000000000,closed,5,test: add tailor configuration
+450,2017-09-16 02:02:50.000000000,2017-09-20 23:39:16.000000000,closed,2,config/validate: report better line/col info
+449,2017-09-16 01:04:52.000000000,2017-09-20 01:51:30.000000000,closed,0,schema: use unix style line endings
+448,2017-09-15 02:18:10.000000000,2017-09-22 22:08:59.000000000,closed,0,config/types: check for colons in partition labels when validating
+447,2017-09-15 01:08:11.000000000,2017-09-15 01:56:48.000000000,closed,1,internal/exec/util/passwd: Drop GECOS quotes
+446,2017-09-13 22:37:11.000000000,2017-09-15 00:05:11.000000000,closed,3,Fix races with udev
+445,2017-09-12 19:40:20.000000000,2017-09-15 00:22:02.000000000,closed,0,providers/cloudstack: support for network metadata
+444,2017-09-12 02:28:48.000000000,2018-04-12 21:47:17.000000000,closed,4,doc: document system option in groups
+443,2017-09-12 00:51:49.000000000,2019-04-01 22:00:04.000000000,closed,1,WIP: enhance raid semantics
+442,2017-09-12 00:47:35.000000000,2018-05-16 21:26:00.000000000,closed,2,WIP: Enhance partitioning semantics
+441,2017-09-11 22:45:13.000000000,2017-09-12 00:29:26.000000000,closed,0,doc: fix spelling nits in 2.1.0 and 2.2.0-experimental configs
+440,2017-09-09 12:58:11.000000000,2017-09-11 23:08:07.000000000,closed,1,oem: add oracle-oci-iptables.service
+439,2017-09-09 08:00:11.000000000,2017-09-12 01:05:55.000000000,closed,3,oem: don't bind-mount docker into Google Cloud SDK container
+438,2017-09-09 01:10:01.000000000,2017-09-12 01:25:07.000000000,closed,5,news: add news for v0.18.0
+437,2017-09-08 21:41:46.000000000,2017-09-13 02:19:13.000000000,closed,0,tests: add tftp server & related tests
+436,2017-09-01 04:21:13.000000000,2017-09-12 00:53:57.000000000,closed,2,WIP: use filesystem reuse semantics for raid and partitions
+435,2017-08-31 23:08:18.000000000,2017-09-01 04:13:41.000000000,closed,1,config/types: fix partition number validation
+434,2017-08-31 00:29:04.000000000,2018-06-09 01:57:03.000000000,closed,2,stages/disks: allow nesting of partitions and raid
+433,2017-08-30 00:02:55.000000000,2017-09-08 21:41:34.000000000,closed,6,internal/providers/oracleoci: add initial implementation
+432,2017-08-24 22:31:12.000000000,2017-08-25 01:42:28.000000000,closed,0,internal/exec/stages/disks: remove old comment
+431,2017-08-22 23:32:18.000000000,2018-06-12 03:15:18.000000000,closed,2,[WIP]: send health reports when running on Azure
+430,2017-08-21 23:25:01.000000000,2017-08-23 02:26:16.000000000,closed,2,providers/vmware: guest variables override ovfenv
+429,2017-08-19 21:18:35.000000000,2017-08-22 02:36:27.000000000,closed,1,doc/configuration: clarify experimental spec version
+428,2017-08-18 21:38:13.000000000,2017-09-23 02:52:30.000000000,closed,6,config/config.go: parse unknown configs to generate json errors
+427,2017-08-17 13:11:33.000000000,2017-08-31 20:24:05.000000000,closed,11,Fix typo in gcloud alias
+426,2017-08-17 10:28:14.000000000,2017-08-17 19:07:59.000000000,closed,1,doc: Minor fixes
+425,2017-08-17 03:33:14.000000000,2017-08-23 23:52:31.000000000,closed,2,internal/exec/stages/disks: add --homehost any to mdadm creation
+424,2017-08-09 03:49:43.000000000,2017-08-09 04:08:19.000000000,closed,4,internal/exec/util/file: use lchown chown when working with links
+423,2017-08-08 22:02:12.000000000,2017-08-08 22:15:31.000000000,closed,1,internal/exec/stages/files: fix node creation to properly error
+422,2017-08-04 02:00:51.000000000,2017-08-08 08:02:10.000000000,closed,3,stages/files: allow chmod on pre-existing directories
+421,2017-07-29 03:49:14.000000000,2017-07-29 04:06:17.000000000,closed,0,doc/configuration: add s3 to schemes for config relacing/appending
+420,2017-07-29 02:05:20.000000000,2017-07-29 04:10:38.000000000,closed,1,news: add news for v0.17.2
+419,2017-07-28 01:20:01.000000000,2017-07-29 01:55:05.000000000,closed,3,stages/disks: canonicalize filesystem UUIDs
+418,2017-07-26 00:49:35.000000000,2017-07-29 02:04:06.000000000,closed,4,"config/config.go: export Version, return error if undeterminable version"
+417,2017-07-25 23:09:43.000000000,2017-07-26 03:03:28.000000000,closed,1,internal/exec/util: hard link targets must have context path prepended
+416,2017-07-21 03:06:52.000000000,2017-07-22 02:04:10.000000000,closed,2,oem: avoid deprecated field when enabling systemd units
+415,2017-07-21 00:31:58.000000000,2017-07-21 03:46:02.000000000,closed,1,stages/disks: use blkid results instead of mkfs
+414,2017-07-20 04:10:21.000000000,2017-07-20 21:51:34.000000000,closed,1,stages/disks: fix handling of legacy force flag
+413,2017-07-20 03:50:55.000000000,2017-07-20 21:37:40.000000000,closed,1,stages/files: fix regression affecting file paths
+412,2017-07-12 00:35:57.000000000,2017-07-14 01:19:25.000000000,closed,0,docs: a few minor additions and fixes
+411,2017-07-11 04:24:51.000000000,2017-07-11 19:47:36.000000000,closed,0,news: fix date typo in 0.17.1 release
+410,2017-07-07 08:59:51.000000000,2018-03-21 01:14:00.000000000,closed,6,README: add contribution and links
+409,2017-07-07 08:57:09.000000000,2017-07-07 08:57:40.000000000,closed,0,README: add contribution and links
+408,2017-07-06 02:18:02.000000000,2017-07-06 02:35:25.000000000,closed,0,news: add news for v0.17.1
+407,2017-07-06 01:20:51.000000000,2017-07-06 02:15:52.000000000,closed,1,"internal/providers/{gce,ec2}: ignore 404 errors"
+406,2017-07-01 09:48:24.000000000,2017-07-05 22:26:59.000000000,closed,1,providers/packet: fix userdata fetch
+405,2017-07-01 01:02:45.000000000,2017-07-01 01:31:43.000000000,closed,0,news: add news for v0.17.0
+404,2017-06-30 23:02:49.000000000,2017-07-01 01:16:32.000000000,closed,0,config: don't parse as latest version when version isn't recognized
+403,2017-06-30 21:43:17.000000000,2017-06-30 22:05:43.000000000,closed,1,Ensure that adding user example has a valid ignition file
+402,2017-06-30 20:55:40.000000000,2017-07-01 00:35:25.000000000,closed,1,oem: add vagrant-virtualbox oem-id
+401,2017-06-29 21:11:41.000000000,2017-06-29 21:33:58.000000000,closed,2,Remove ignition specification on code block so webpage renders correctly
+400,2017-06-29 01:34:59.000000000,2017-06-30 23:02:12.000000000,closed,5,"config/*: make v2.1.0 stable, fork new v2.2.0-experimental from v2.1.0"
+399,2017-06-26 21:57:12.000000000,2017-06-28 06:02:54.000000000,closed,1,internal/oem: mask user-configdrive.service on brightbox and openstack
+398,2017-06-26 02:26:44.000000000,2017-06-28 09:46:16.000000000,closed,2,providers/ec2:Added support for gzip compressed userdata
+397,2017-06-17 01:42:25.000000000,2017-06-17 02:12:16.000000000,closed,1,news: add news for v0.16.0
+396,2017-06-17 00:36:21.000000000,2017-06-17 02:02:41.000000000,closed,1,*: add support for virtualbox
+395,2017-06-16 02:19:07.000000000,2017-06-17 00:25:47.000000000,closed,0,doc/development: add schematyper to development tools
+394,2017-06-15 21:25:45.000000000,2017-06-28 20:52:10.000000000,closed,3,exec: propogate root parameter to baseconfig
+393,2017-06-15 03:51:48.000000000,2017-06-17 01:11:41.000000000,closed,1,oem: drop obsolete xendom0 OEM
+392,2017-06-14 22:01:15.000000000,2017-06-17 00:34:43.000000000,closed,3,Add support for VirtualBox provider
+391,2017-06-14 02:24:41.000000000,2017-06-14 02:48:23.000000000,closed,2,oem: Drop etcd.service drop-in
+390,2017-06-13 00:33:50.000000000,2017-06-13 00:45:18.000000000,closed,2,doc/development: move development.md to existing doc dir
+389,2017-06-10 01:26:48.000000000,2017-09-21 23:02:14.000000000,closed,5,doc/raid: document how to assemble raid arrays on subsequent boots
+388,2017-06-10 00:43:58.000000000,2017-06-10 00:52:01.000000000,closed,0,config/types/raid: fix device validation
+387,2017-06-09 02:12:08.000000000,2017-06-13 00:17:18.000000000,closed,3,glide.yaml: Add glide.yaml and remove manual vendor files
+386,2017-06-09 01:54:33.000000000,2017-06-15 01:52:36.000000000,closed,8,doc/operator-notes.md: document the http retry and backoff logic
+385,2017-06-08 21:10:10.000000000,2017-06-12 22:47:21.000000000,closed,7,README: List required devel packages for header files
+384,2017-06-08 05:06:06.000000000,2017-06-10 05:04:42.000000000,closed,3,providers/vmware: add support for ovf environments
+383,2017-06-08 04:22:08.000000000,2017-06-09 22:31:08.000000000,closed,4,Validate filesystem label length and add vfat support
+382,2017-06-03 00:59:22.000000000,2017-06-28 00:59:07.000000000,closed,26,Support for S3 and IAM
+381,2017-06-01 21:06:40.000000000,2017-06-08 04:16:24.000000000,closed,0,Additional detail around Adobe production use case
+380,2017-05-26 01:07:44.000000000,2017-06-08 04:24:28.000000000,closed,2,internal/exec/util/file: fix nil pointer dereference
+379,2017-05-26 01:04:13.000000000,2017-09-06 00:30:46.000000000,closed,2,tests: add blackbox test
+378,2017-05-25 00:45:58.000000000,2017-06-28 07:56:36.000000000,closed,14,*: add support for disabling services
+377,2017-05-24 03:25:20.000000000,2017-05-24 03:34:40.000000000,closed,0,config/types/url: allow tftp urls during validation
+376,2017-05-23 22:34:22.000000000,2017-05-24 01:05:59.000000000,closed,4,news: add news for v0.15.0
+375,2017-05-23 03:07:10.000000000,2017-05-26 00:29:55.000000000,closed,4,tests: Add blackbox test
+374,2017-05-20 03:52:34.000000000,2018-06-12 03:03:57.000000000,closed,2,implement azure agent behavior
+373,2017-05-20 03:04:22.000000000,2017-05-23 23:26:41.000000000,closed,0,*: re-introduce timeouts
+372,2017-05-19 02:25:26.000000000,2017-05-19 21:05:07.000000000,closed,0,doc/examples.md: remove create object from users example
+371,2017-05-18 23:52:17.000000000,2017-05-18 23:52:27.000000000,closed,0,"Revert ""docs: remove adobe from production users"""
+370,2017-05-18 22:14:30.000000000,2017-05-18 22:19:40.000000000,closed,0,docs: remove adobe from production users
+369,2017-05-18 03:54:31.000000000,2017-05-18 11:45:40.000000000,closed,0,docs: add adobe to production users
+368,2017-05-18 03:08:50.000000000,2017-05-19 03:27:38.000000000,closed,3,config/type/passwd: support unspecified passwords
+367,2017-05-16 12:19:35.000000000,2017-09-04 21:14:45.000000000,closed,15,providers: add support for cloudstack config-drive
+366,2017-05-16 03:32:40.000000000,2017-05-16 04:03:20.000000000,closed,0,docs: add ignition to the code fence info string
+365,2017-05-13 04:20:41.000000000,2017-05-13 04:41:22.000000000,closed,0,stages/disks: Wait for uevents triggered by mkfs to settle
+364,2017-05-13 01:05:31.000000000,2017-05-13 01:42:08.000000000,closed,1,internal/vendor: bump update-ssh-keys to latest master
+363,2017-05-11 03:35:36.000000000,2017-05-16 04:14:44.000000000,closed,2,config/type/passwd: deprecate user create object
+362,2017-05-05 23:24:21.000000000,2017-06-06 02:30:06.000000000,closed,1,doc: add OpenStack to the list of supported platforms
+361,2017-05-05 17:57:43.000000000,2017-05-16 11:43:39.000000000,closed,1,*: add support for cloudstack config-drive
+360,2017-05-02 19:01:51.000000000,2017-05-02 21:54:57.000000000,closed,0,oem: fix oem definition for brightbox
+359,2017-04-26 22:37:50.000000000,2017-04-26 22:52:41.000000000,closed,2,docs: Adding a line to point to the CoreOS intro docs.
+358,2017-04-26 02:28:21.000000000,2017-05-20 00:38:21.000000000,closed,12,"deprecate create object, create wipeFilesystem flag"
+357,2017-04-22 13:21:38.000000000,2017-06-16 22:43:50.000000000,closed,8,Dockerfile: initial commit
+356,2017-04-22 12:53:45.000000000,2017-06-16 22:46:26.000000000,closed,9,internal: introduce cmd package
+355,2017-04-14 05:11:21.000000000,2017-06-21 01:53:56.000000000,closed,7,validate: add option to omit unused keys warnings
+354,2017-04-13 18:18:32.000000000,2017-04-21 00:29:03.000000000,closed,1,"stages/disks: added support for filesystems of type ""swap"""
+353,2017-04-13 15:41:10.000000000,2017-05-17 01:53:25.000000000,closed,3,internal/resource/url: added support for tftp URLs
+352,2017-04-07 16:46:51.000000000,2017-04-21 01:25:03.000000000,closed,10,config/types: add support for links
+351,2017-04-06 16:02:22.000000000,2017-04-27 12:40:04.000000000,closed,7,"stages: filesystems, skip format if filesystem already exists"
+350,2017-03-25 19:36:48.000000000,2017-03-25 19:55:13.000000000,closed,0,doc: update configspec location to correct file
+349,2017-03-22 00:32:33.000000000,2017-03-22 00:45:41.000000000,closed,0,config: more changes from path/filepath to path
+348,2017-03-21 23:28:45.000000000,2017-03-22 00:02:57.000000000,closed,0,type/path: Fix isAbs() validation on Windows.
+347,2017-03-20 21:09:30.000000000,2017-04-11 17:18:09.000000000,closed,10,Add file url as file content
+346,2017-03-15 02:00:04.000000000,2017-03-18 00:23:51.000000000,closed,0,oem: fix configuration for packet
+345,2017-03-14 17:36:03.000000000,2017-04-18 00:57:42.000000000,closed,4,config/types/partition: added GUID field
+344,2017-03-14 06:01:10.000000000,2017-03-18 01:46:24.000000000,closed,0,news: add news for v0.14.0
+343,2017-03-14 05:18:34.000000000,2017-03-14 05:56:22.000000000,closed,0,oem: add configuration for openstack
+342,2017-03-14 05:18:28.000000000,2017-03-14 05:41:12.000000000,closed,0,oem: add configuration for brightbox
+341,2017-03-14 05:08:53.000000000,2017-03-14 05:31:18.000000000,closed,0,oem: add configuration for packet
+340,2017-03-13 16:50:34.000000000,2017-05-16 04:28:28.000000000,closed,8,User group names
+339,2017-03-09 06:45:55.000000000,2017-03-10 06:31:34.000000000,closed,0,oem: add configuration for vmware
+338,2017-03-07 06:57:51.000000000,2019-09-02 04:15:55.000000000,closed,5,providers: add initial sakuracloud support
+337,2017-03-07 04:03:23.000000000,2017-03-14 04:02:26.000000000,closed,3,docs: add multiple user configuration example
+336,2017-03-02 06:07:04.000000000,2017-03-08 07:25:36.000000000,closed,0,oem: add configuration for azure
+335,2017-03-02 05:50:07.000000000,2017-03-07 11:17:30.000000000,closed,0,oem: add configuration for ec2
+334,2017-03-01 23:11:01.000000000,2017-03-02 00:09:55.000000000,closed,0,news: add news for v0.13.0
+333,2017-02-28 04:52:34.000000000,2017-02-28 22:02:30.000000000,closed,1,config/*: correct unit validation logic
+332,2017-02-28 03:41:54.000000000,2017-02-28 04:29:30.000000000,closed,0,docs: split configuration specs by version
+331,2017-02-28 00:54:25.000000000,2017-02-28 02:54:25.000000000,closed,1,config/v2_0/types: backport improvements
+330,2017-02-27 19:57:31.000000000,2017-02-28 00:50:47.000000000,closed,2,types/url: add data as a valid url scheme
+329,2017-02-24 21:11:27.000000000,2017-02-25 05:11:00.000000000,closed,0,oem: fix gce gcloud alias
+328,2017-02-23 08:15:38.000000000,2017-02-23 19:23:27.000000000,closed,2,providers/openstack: check upper and lower case
+327,2017-02-21 19:09:02.000000000,2017-02-22 07:45:45.000000000,closed,4,openstack: fix dispatcher
+326,2017-02-20 02:37:28.000000000,2017-02-20 09:38:21.000000000,closed,0,readme: rename CoreOS Linux to Container Linux
+325,2017-02-16 22:43:53.000000000,2017-04-11 19:18:41.000000000,closed,22,"config: added json schema, generate golang structs from schema"
+324,2017-01-21 03:27:19.000000000,2017-01-21 03:58:15.000000000,closed,0,*: add support for experimental spec
+323,2017-01-21 03:01:44.000000000,2017-01-21 03:26:15.000000000,closed,0,config: rename dev prelease to experimental
+322,2017-01-20 03:42:33.000000000,2017-04-06 19:15:21.000000000,closed,1,Permit creation of LUKS devices
+321,2017-01-12 14:00:17.000000000,2017-01-12 22:54:58.000000000,closed,0,docs: add newline before header
+320,2017-01-09 04:20:14.000000000,2017-01-18 03:48:09.000000000,closed,12,types: unit validator
+319,2016-12-31 06:59:11.000000000,2017-01-18 04:58:19.000000000,closed,4,docs: Adds a linebreak in examples.md to assist markup parser.
+318,2016-12-20 03:41:23.000000000,2017-03-01 02:23:45.000000000,closed,2,valdiate: ensure getfields works with interface{}
+317,2016-12-15 00:05:57.000000000,2016-12-15 00:12:39.000000000,closed,0,news: add news for v0.12.1
+316,2016-12-14 07:26:48.000000000,2016-12-14 23:57:02.000000000,closed,0,config/types: add dataurl-check to verification
+315,2016-12-09 23:33:01.000000000,2016-12-09 23:40:02.000000000,closed,0,providers/file: rename config file
+314,2016-12-09 01:35:38.000000000,2016-12-23 18:37:58.000000000,closed,19,Add vanilla oem
+313,2016-12-02 04:33:13.000000000,2016-12-02 04:46:49.000000000,closed,0,oem: fetch ssh keys on packet
+312,2016-11-30 08:40:38.000000000,2016-11-30 09:04:44.000000000,closed,0,travis: minor clean up
+311,2016-11-30 02:46:03.000000000,2016-11-30 03:06:22.000000000,closed,0,news: add news for v0.12.0
+310,2016-11-23 07:52:01.000000000,2016-11-29 06:07:56.000000000,closed,1,exec/engine: allow commandline options to override
+309,2016-11-19 18:21:07.000000000,2016-11-25 01:57:54.000000000,closed,4,Add systemd unit drop-in example
+308,2016-10-18 02:44:35.000000000,2016-11-15 03:37:44.000000000,closed,0,validation: make validate function more general
+307,2016-10-08 01:49:04.000000000,2016-10-08 01:55:37.000000000,closed,0,news: add news for v0.11.2
+306,2016-10-07 23:51:28.000000000,2016-10-08 01:00:18.000000000,closed,0,oem: unify GCE services as one rkt service
+305,2016-10-07 03:17:27.000000000,2016-10-07 03:26:15.000000000,closed,0,build: use built-in cross compiler tools for travis
+304,2016-10-06 19:25:29.000000000,2016-10-06 22:17:41.000000000,closed,0,sgdisk: use correct flag for setting the typecode
+303,2016-09-21 02:03:57.000000000,2016-09-21 02:13:39.000000000,closed,0,news: add news for v0.11.1
+302,2016-09-20 23:00:35.000000000,2016-09-21 01:41:46.000000000,closed,2,docs: clean up getting started guide
+301,2016-09-17 04:01:09.000000000,2016-09-21 01:54:58.000000000,closed,2,exec/stages/files: improve logging around units
+300,2016-09-17 03:54:07.000000000,2016-09-20 23:27:19.000000000,closed,1,resource/http: add expect-continue timeout
+299,2016-09-15 06:16:51.000000000,2016-09-15 06:30:06.000000000,closed,3,systemd: fix potential deadlock in WaitOnDevices
+298,2016-09-08 22:56:22.000000000,2016-09-08 23:02:17.000000000,closed,1,docs: fix digitalocean link in supported platforms
+297,2016-09-08 01:07:22.000000000,2016-09-08 01:16:59.000000000,closed,1,news: add news for v0.11.0
+296,2016-08-27 04:21:15.000000000,2016-08-27 04:51:01.000000000,closed,1,news: add news for v0.10.1
+295,2016-08-27 03:45:12.000000000,2016-08-27 04:20:18.000000000,closed,1,Log raw config at parse time
+294,2016-08-27 01:11:02.000000000,2016-08-27 02:39:59.000000000,closed,3,providers/packet: fetch the userdata ourselves
+293,2016-08-27 00:47:52.000000000,2016-08-27 01:04:51.000000000,closed,2,util: refactor resource fetching
+292,2016-08-26 04:56:55.000000000,2016-08-27 02:12:01.000000000,closed,2,exec/util: create and use stable device path aliases
+291,2016-08-25 04:18:05.000000000,2016-08-25 05:04:40.000000000,closed,1,Include command line executed in LogCmd error
+290,2016-08-24 02:47:21.000000000,2016-08-24 03:16:54.000000000,closed,3,news: add news for v0.10.0
+289,2016-08-20 20:21:09.000000000,2016-09-08 01:04:48.000000000,closed,1,providers: add initial digitalocean support
+288,2016-08-20 05:08:38.000000000,2016-08-20 05:18:59.000000000,closed,2,"providers: restore the file provider, add file oem"
+287,2016-08-19 05:47:19.000000000,2016-09-08 00:38:00.000000000,closed,4,providers: add initial openstack support
+286,2016-08-17 23:56:09.000000000,2016-08-18 00:14:40.000000000,closed,1,".travis.yml: use correct go versions, test vs 1.7"
+285,2016-08-16 02:40:40.000000000,2016-08-17 03:59:21.000000000,closed,3,providers: add support for qemu firmware config
+284,2016-08-15 23:33:59.000000000,2016-08-15 23:35:55.000000000,closed,1,news: add news for v0.9.2
+283,2016-08-15 22:15:51.000000000,2016-08-15 23:33:25.000000000,closed,2,util/http: unconditionally return HTTP result
+282,2016-08-12 01:45:18.000000000,2016-08-12 01:57:15.000000000,closed,1,news: add news for v0.9.1
+281,2016-08-12 01:23:45.000000000,2016-08-12 01:43:06.000000000,closed,1,types/url: add data as accepted scheme
+280,2016-08-11 21:20:06.000000000,2016-08-11 21:25:50.000000000,closed,1,news: add news for v0.9.0
+279,2016-08-11 08:13:08.000000000,2016-08-11 08:20:18.000000000,closed,0,Merge branch spec into master
+278,2016-08-11 05:30:14.000000000,2016-08-11 08:12:23.000000000,closed,0,config: release v2.1.0 spec
+277,2016-08-11 03:27:17.000000000,2016-08-11 04:28:07.000000000,closed,1,validate: fix bug with embedded structs
+276,2016-08-11 01:26:26.000000000,2016-08-11 01:46:50.000000000,closed,1,Assertvalid validate
+275,2016-08-11 00:33:53.000000000,2016-08-11 05:29:16.000000000,closed,2,config: parse v2.0 configs with vendored package
+274,2016-08-10 22:53:24.000000000,2016-08-11 00:32:08.000000000,closed,1,config/v1: remove vendored errorutil
+273,2016-08-10 22:35:23.000000000,2016-08-10 22:58:02.000000000,closed,1,config: switch parsing based on full version
+272,2016-08-10 22:05:33.000000000,2016-08-11 01:33:20.000000000,closed,1,types: assertvalid cleanup
+271,2016-08-10 00:34:03.000000000,2016-08-10 03:42:44.000000000,closed,1,Bug fixes
+270,2016-08-09 09:56:45.000000000,2017-03-02 05:47:27.000000000,closed,12,*: add support for allowing existing filesystems
+269,2016-08-09 08:32:30.000000000,2016-08-09 08:38:39.000000000,closed,0,config/types: add validity assertion for node
+268,2016-08-09 07:41:43.000000000,2016-08-09 08:22:58.000000000,closed,0,readme: remove note about feature requests
+267,2016-08-06 02:54:54.000000000,2016-08-09 05:11:48.000000000,closed,1,config/types: fix url parsing
+266,2016-08-06 02:48:12.000000000,2016-08-06 03:10:57.000000000,closed,3,exec: properly handle cache errors
+265,2016-08-05 23:16:52.000000000,2016-08-05 23:26:36.000000000,closed,1,files: fix bug ignoring errors
+264,2016-08-03 03:45:54.000000000,2016-08-04 03:52:34.000000000,closed,4,*: introduce retry logic and simplify providers
+263,2016-08-02 10:54:10.000000000,2016-08-02 20:14:51.000000000,closed,0,docs: Fix typo in RAID data volume mount unit
+262,2016-07-27 02:22:58.000000000,2016-07-27 02:44:46.000000000,closed,0,docs: added packet to supported platforms
+261,2016-07-27 01:27:12.000000000,2016-07-27 03:14:22.000000000,closed,0,news: add news for v0.8.0
+260,2016-07-26 04:03:33.000000000,2016-08-09 05:03:50.000000000,closed,8,Improve validation
+259,2016-07-14 01:06:51.000000000,2016-07-14 02:04:35.000000000,closed,1,news: add news for v0.7.1
+258,2016-07-13 04:02:51.000000000,2016-08-02 20:29:52.000000000,closed,4,*: add support for disabling services
+257,2016-07-12 07:38:50.000000000,2016-07-27 01:20:53.000000000,closed,6,providers: add initial packet support
+256,2016-07-07 04:38:38.000000000,2016-08-05 21:34:53.000000000,closed,10,Add dirs
+255,2016-07-07 00:39:29.000000000,2016-08-06 02:41:40.000000000,closed,12,Add configurable timeouts
+254,2016-07-06 04:38:18.000000000,2016-07-06 22:08:49.000000000,closed,1,docs: add hostname example
+253,2016-07-06 01:51:02.000000000,2016-07-06 04:22:35.000000000,closed,0,Add configurable timeouts
+252,2016-06-28 04:39:53.000000000,2016-07-06 03:45:08.000000000,closed,1,Add configurable timeouts
+251,2016-06-22 03:13:52.000000000,2016-06-22 03:19:11.000000000,closed,0,config/doc: various fixes
+250,2016-06-22 01:26:48.000000000,2016-08-05 07:33:28.000000000,closed,0,[WIP] Add initial support for the openstack OEM
+249,2016-06-22 00:55:38.000000000,2016-06-22 01:06:50.000000000,closed,0,config: properly dereference pointers
+248,2016-06-22 00:30:59.000000000,2016-07-07 00:53:09.000000000,closed,7,Add support writing large files/empty files
+247,2016-06-17 04:09:40.000000000,2016-06-17 21:41:19.000000000,closed,0,config/types: improve assertions
+246,2016-06-16 00:50:22.000000000,2016-06-16 02:17:19.000000000,closed,0,news: add news for v0.7.0
+245,2016-06-15 01:29:04.000000000,2016-06-15 02:00:14.000000000,closed,1,util/url: allow https urls
+244,2016-06-03 01:03:19.000000000,2016-06-16 00:13:06.000000000,closed,4,config/types: add top-level AssertValid()
+243,2016-05-27 03:17:00.000000000,2016-06-01 21:58:54.000000000,closed,1,stages/disks: adds -p flag to mkfs.ext4
+242,2016-05-27 02:14:30.000000000,2016-05-27 02:57:39.000000000,closed,1,log: capture stdout from subcommands
+241,2016-05-26 01:17:29.000000000,2016-06-15 21:42:39.000000000,closed,3,config: remove support for yaml
+240,2016-05-21 02:42:44.000000000,2016-06-01 05:09:35.000000000,closed,0,exec/util: remove file before masking
+239,2016-05-19 04:07:35.000000000,2016-05-19 04:14:19.000000000,closed,0,news: add news for v0.6.0
+238,2016-05-13 04:34:53.000000000,2016-05-13 04:48:36.000000000,closed,0,docs: remove the roadmap
+237,2016-05-12 22:07:24.000000000,2016-05-15 01:06:43.000000000,closed,1,*: refactor resource fetching into one location
+236,2016-05-11 04:41:23.000000000,2016-05-19 02:50:26.000000000,closed,6,oem: add oem config for gce
+235,2016-05-06 04:49:06.000000000,2016-05-06 22:01:12.000000000,closed,3,build: add ARM64 to test matrix
+234,2016-05-04 21:41:11.000000000,2016-05-05 00:54:00.000000000,closed,0,news: add news for v0.5.0
+233,2016-05-04 21:10:36.000000000,2016-05-04 21:34:33.000000000,closed,0,docs: update supported platforms to include gce
+232,2016-05-04 02:13:28.000000000,2016-05-04 03:52:06.000000000,closed,1,config: Switch camlistore errorutil to go4.org/errorutil
+231,2016-05-03 05:10:44.000000000,2016-05-03 07:38:10.000000000,closed,4,Bump go-semver dependency to add YAML unmarshaling
+230,2016-04-30 03:33:55.000000000,2016-04-30 05:39:51.000000000,closed,1,exec: execute empty user configs
+229,2016-04-30 01:06:41.000000000,2016-04-30 03:34:13.000000000,closed,1,providers/gce: enable coreos-metadata-sshkeys
+228,2016-04-26 22:59:43.000000000,2016-04-27 00:31:37.000000000,closed,1,exec/stages: write files after users are created
+227,2016-04-18 20:03:08.000000000,2016-04-19 20:24:05.000000000,closed,1,fix documentation: hash format is not rendered properly
+226,2016-04-14 01:28:41.000000000,2016-04-29 00:26:59.000000000,closed,1,providers/ec2: strip support for SSH keys
+225,2016-04-08 09:45:13.000000000,2016-05-19 04:23:58.000000000,closed,0,oem: add config for ec2
+224,2016-04-08 05:04:24.000000000,2016-04-08 09:44:38.000000000,closed,0,*: add support for command-line-provided configs
+223,2016-04-07 22:06:11.000000000,2016-04-14 02:38:05.000000000,closed,5,providers/gce: add initial implementation
+222,2016-04-04 08:14:48.000000000,2016-04-04 08:22:29.000000000,closed,0,config: properly handle non-ignition configs
+221,2016-04-03 19:56:41.000000000,2016-04-06 00:13:56.000000000,closed,0,news: add news for v0.4.0
+220,2016-04-03 07:46:41.000000000,2016-04-03 19:35:43.000000000,closed,0,docs: fix disk examples and add note about journal
+219,2016-04-02 06:55:11.000000000,2016-04-02 06:57:45.000000000,closed,0,build: correct version number linker flags
+218,2016-04-02 06:01:35.000000000,2016-04-02 06:49:35.000000000,closed,0,providers/ec2: add ssh keys to deprecated configs
+217,2016-04-02 01:17:49.000000000,2016-04-02 01:45:45.000000000,closed,0,*: migrate from third_party to vendor
+216,2016-04-01 04:12:48.000000000,2016-04-01 19:57:09.000000000,closed,1,*: rename src package to internal
+215,2016-04-01 04:03:02.000000000,2016-04-02 02:34:09.000000000,closed,0,util: include request headers when fetching config
+214,2016-04-01 03:48:01.000000000,2016-04-01 04:00:40.000000000,closed,1,Merge branch spec-v2 into master
+213,2016-04-01 03:22:17.000000000,2016-04-01 03:45:15.000000000,closed,0,Merge branch spec-v2 into master
+212,2016-04-01 00:47:25.000000000,2016-04-01 03:21:19.000000000,closed,1,config: release v2.0.0 spec
+211,2016-03-30 22:31:28.000000000,2016-04-01 04:01:03.000000000,closed,0,util: include request headers when fetching config
+210,2016-03-30 01:51:22.000000000,2016-03-31 05:57:52.000000000,closed,2,config: add support for translating from v1
+209,2016-03-25 21:00:47.000000000,2016-03-25 21:05:09.000000000,closed,0,news: add news for v0.3.3
+208,2016-03-25 03:36:55.000000000,2016-03-25 03:59:46.000000000,closed,5,util: fix http client's handling of status codes
+207,2016-03-25 01:05:09.000000000,2016-03-25 03:41:56.000000000,closed,1,docs: add migration guide for 1 -> 2.0.0.
+206,2016-03-24 04:49:44.000000000,2016-03-24 05:28:47.000000000,closed,0,config/types: marshal path and hash correctly
+205,2016-03-24 03:28:43.000000000,2016-03-24 05:37:02.000000000,closed,1,docs: add basic examples and clarify spec
+204,2016-03-23 22:07:04.000000000,2016-03-23 22:46:29.000000000,closed,0,config/types: marshal url correctly
+203,2016-03-23 09:18:50.000000000,2016-03-23 20:59:26.000000000,closed,3,"{docs,exec}: add a base configuration"
+202,2016-03-23 06:27:08.000000000,2016-03-23 09:13:01.000000000,closed,0,*: seperate files from filesystems
+201,2016-03-23 04:27:23.000000000,2016-03-23 04:30:02.000000000,closed,0,*: decouple mounting from file-population
+200,2016-03-23 04:22:21.000000000,2016-03-23 04:23:47.000000000,closed,0,config/types: move path's tests into its own file
+199,2016-03-23 03:39:31.000000000,2016-03-23 03:41:14.000000000,closed,0,config/types: fix filesystem tests
+198,2016-03-23 00:19:06.000000000,2016-03-23 00:50:29.000000000,closed,1,docs/getting-started: Add intro to Ignition
+197,2016-03-22 08:52:29.000000000,2016-03-23 02:45:32.000000000,closed,0,config/types: clean up paths
+196,2016-03-22 05:16:27.000000000,2016-03-22 05:19:54.000000000,closed,1,providers/vmware: fix build for arm
+195,2016-03-22 04:19:04.000000000,2016-03-23 00:19:27.000000000,closed,3,docs/getting-started: Add general intro to Ignition
+194,2016-03-22 01:56:37.000000000,2016-05-06 04:56:21.000000000,closed,6,build: add ARM64 to test matrix
+193,2016-03-21 06:02:09.000000000,2016-03-23 04:26:49.000000000,closed,2,RFC: rework filesystems and files
+192,2016-03-18 03:57:39.000000000,2016-03-18 04:01:20.000000000,closed,0,news: add news for v0.3.2
+191,2016-03-18 02:59:24.000000000,2016-03-18 03:53:17.000000000,closed,1,providers/vmware: add support for config encoding
+190,2016-03-17 01:55:05.000000000,2016-03-23 21:21:15.000000000,closed,1,*: implement remote file contents
+189,2016-03-15 06:53:38.000000000,2016-03-15 23:47:04.000000000,closed,1,*: move file ownership into separate section
+188,2016-03-15 06:13:05.000000000,2016-03-15 06:14:19.000000000,closed,0,providers/cmdline: fix comment about OEM root path
+187,2016-03-15 05:28:46.000000000,2016-03-22 04:19:22.000000000,closed,4,docs: add description of what Ignition is
+186,2016-03-15 01:08:27.000000000,2016-03-15 01:10:46.000000000,closed,0,util/tools: fix prerelease_check build failure
+185,2016-03-11 09:17:45.000000000,2016-03-11 19:27:25.000000000,closed,3,*: move config type definitions into config/types
+184,2016-03-09 23:14:48.000000000,2016-03-09 23:17:00.000000000,closed,0,Merge branch master into spec-v2
+183,2016-03-09 08:52:55.000000000,2016-03-17 01:44:45.000000000,closed,3,exec: add initial implementation of merging
+182,2016-03-09 05:46:08.000000000,2016-03-09 05:48:34.000000000,closed,0,util/tools: move prerelease_check into tools
+181,2016-03-09 05:44:20.000000000,2016-03-09 23:12:10.000000000,closed,1,*: refactor http operations
+180,2016-03-09 05:34:20.000000000,2016-03-09 05:38:43.000000000,closed,0,Merge branch master into spec-v2
+179,2016-03-04 04:57:45.000000000,2016-03-09 23:10:20.000000000,closed,1,docs: update roadmap
+178,2016-03-03 04:29:14.000000000,2016-03-03 04:57:02.000000000,closed,1,news: add news for v0.3.1
+177,2016-03-02 07:49:33.000000000,2016-03-02 23:03:13.000000000,closed,2,providers/vmware: allow building on non-amd64
+176,2016-03-01 04:04:15.000000000,2016-03-01 07:07:19.000000000,closed,1,main: ensure that the oem flag has been provided
+175,2016-03-01 03:33:15.000000000,2016-03-01 09:51:35.000000000,closed,2,providers: move wait functionality into providers
+174,2016-02-27 03:23:03.000000000,2016-02-28 04:12:55.000000000,closed,1,"providers: remove unused ""Name"" member"
+173,2016-02-25 07:30:57.000000000,2016-02-25 23:28:24.000000000,closed,1,*: remove notion of multiple providers
+172,2016-02-25 00:15:55.000000000,2016-02-25 00:40:14.000000000,closed,0,docs: add vmware to supported platforms
+171,2016-02-24 22:55:31.000000000,2016-02-25 00:43:21.000000000,closed,0,news: add news for v0.3.0
+170,2016-02-24 06:37:56.000000000,2016-03-01 07:04:29.000000000,closed,5,config: implement newer version scheme
+169,2016-02-21 06:13:18.000000000,2016-02-21 09:57:32.000000000,closed,1,.travis.yml: test on go1.6
+168,2016-02-21 06:12:11.000000000,2016-03-31 02:00:18.000000000,closed,9,packet provider support
+167,2016-02-12 03:57:44.000000000,2016-03-15 06:53:58.000000000,closed,1,docs: expand on properties of files
+166,2016-02-12 03:51:49.000000000,2016-03-15 02:19:59.000000000,closed,5,docs: allow the chaining of configs
+165,2016-02-12 03:47:52.000000000,2016-02-23 09:48:34.000000000,closed,4,docs: use semantic versioning for the spec
+164,2016-01-14 01:47:09.000000000,2016-01-14 01:53:22.000000000,closed,1,news: add news for v0.2.6
+163,2016-01-12 09:54:00.000000000,2016-01-14 01:41:37.000000000,closed,1,config: clean up filesystem assertion
+162,2016-01-12 06:45:01.000000000,2016-01-12 08:15:34.000000000,closed,3,sgdisk: retry zap-all operation on failure
+161,2016-01-12 00:15:14.000000000,2016-01-12 02:58:12.000000000,closed,1,config: assert validity of filesystems
+160,2016-01-11 21:40:53.000000000,2016-01-12 20:05:30.000000000,closed,2,Added some extra links and PXE boot note
+159,2016-01-07 16:15:02.000000000,2016-01-07 20:45:13.000000000,closed,2,"Added ""first boot"" explanation"
+158,2016-01-07 02:29:43.000000000,2016-01-07 07:21:16.000000000,closed,1,news: add news for v0.2.5
+157,2015-12-31 10:09:21.000000000,2016-02-12 05:55:02.000000000,closed,2,providers/vmware: add initial support
+156,2015-12-23 04:25:19.000000000,2015-12-24 00:05:17.000000000,closed,1,config: recognize and ignore gzipped cloud-configs
+155,2015-12-04 22:39:06.000000000,2015-12-04 23:51:40.000000000,closed,1,docs: remove line-wrapping
+154,2015-11-20 02:10:19.000000000,2015-11-20 02:10:38.000000000,closed,0,news: add news for v0.2.4
+153,2015-11-20 00:30:48.000000000,2015-11-20 02:07:51.000000000,closed,3,system: properly escape device paths
+152,2015-11-18 04:19:20.000000000,2015-11-18 04:24:45.000000000,closed,1,news: add news for v0.2.3
+151,2015-11-18 02:33:43.000000000,2015-11-18 03:57:07.000000000,closed,10,providers/cmdline: fix OEM root path for PXE image
+150,2015-11-17 03:50:26.000000000,2015-11-17 06:41:23.000000000,closed,2,providers/cmdline: create the mount point
+149,2015-11-09 17:47:44.000000000,2015-11-09 17:47:53.000000000,closed,0,docs: clean up configuration
+148,2015-11-05 23:10:28.000000000,2015-11-07 02:28:14.000000000,closed,4,config: be more specific on JSON unmarshal failure
+147,2015-11-05 23:08:44.000000000,2015-11-06 02:02:53.000000000,closed,1,exec/util: add missing import header
+146,2015-11-05 19:47:14.000000000,2015-11-08 02:42:45.000000000,closed,4,systemd: start device units directly
+145,2015-10-21 04:55:42.000000000,2015-10-21 04:57:29.000000000,closed,1,news: add news for v0.2.2
+144,2015-10-21 04:09:39.000000000,2015-10-21 04:15:40.000000000,closed,1,main: use /run/ignition.json instead of /tmp
+143,2015-10-21 02:55:03.000000000,2015-10-21 04:05:36.000000000,closed,1,providers/cmdline: mount oem partition for oem:// if needed
+142,2015-10-16 02:57:41.000000000,2015-10-16 03:02:54.000000000,closed,1,news: add news for v0.2.1
+141,2015-10-15 22:45:54.000000000,2015-10-16 02:23:52.000000000,closed,1,providers/azure: handle missing userdata correctly
+140,2015-09-30 04:14:12.000000000,2015-09-30 04:17:38.000000000,closed,3,news: add news for v0.2.0
+139,2015-09-29 23:25:46.000000000,2015-09-30 00:58:09.000000000,closed,1,docs: update roadmap
+138,2015-09-29 23:17:48.000000000,2015-09-30 00:54:34.000000000,closed,1,config/filesystems: add xfs
+137,2015-09-27 06:22:35.000000000,2015-09-29 00:44:43.000000000,closed,3, providers/azure: add initial support
+136,2015-09-25 04:54:36.000000000,2015-09-25 06:44:27.000000000,closed,0,readme: add link to coreos/bugs
+135,2015-09-22 01:15:01.000000000,2015-09-22 01:46:42.000000000,closed,1,oem: remove timeout for EC2
+134,2015-09-21 06:57:59.000000000,2015-09-24 03:50:31.000000000,closed,4,timeout on aws
+133,2015-09-16 23:29:33.000000000,2015-09-16 23:44:52.000000000,closed,1,travis: enable go 1.5
+132,2015-09-14 17:32:52.000000000,2015-09-15 23:21:34.000000000,closed,5,network: interface goes down
+131,2015-09-11 00:31:15.000000000,2015-09-11 00:45:39.000000000,closed,1,docs: add ec2 to supported platforms
+130,2015-09-10 01:46:35.000000000,2015-09-10 01:51:13.000000000,closed,1,    news: add news for v0.1.6
+129,2015-09-09 22:37:49.000000000,2015-09-09 22:45:49.000000000,closed,1,docs: minor cleanups
+128,2015-09-09 04:17:37.000000000,2015-09-09 04:38:05.000000000,closed,1,*: update cloudinit check and fix formatting
+127,2015-09-09 03:26:31.000000000,2015-09-09 04:03:08.000000000,closed,1,exec/util: ensure keys supplied to authorized_keys_d.Add() end with newline
+126,2015-09-09 01:58:06.000000000,2015-09-09 03:57:12.000000000,closed,1, exec: rename FetchTimeout to OnlineTimeout
+125,2015-09-07 19:39:34.000000000,2015-09-07 19:43:23.000000000,closed,1,oem: recognize interoute oem
+124,2015-09-04 06:41:07.000000000,2015-09-04 07:48:37.000000000,closed,3,exec/engine: make fetch timeout of 0 infinite
+123,2015-09-04 04:24:42.000000000,2015-09-04 04:44:20.000000000,closed,1,docs: remove examples and add supported platforms
+122,2015-08-29 05:11:42.000000000,2015-09-02 06:03:00.000000000,closed,3,providers: re-enable ec2 and lower the network timeout
+121,2015-08-29 03:57:35.000000000,2015-08-29 03:57:46.000000000,closed,0,news: add news for v0.1.5
+120,2015-08-29 03:52:28.000000000,2015-08-29 03:56:03.000000000,closed,1,oem: disable ec2
+119,2015-08-29 03:28:39.000000000,2015-08-29 05:10:26.000000000,closed,4,providers: lower the HTTP timeout to 10 seconds
+118,2015-08-28 07:19:02.000000000,2015-09-09 19:37:50.000000000,closed,13,Failure to fetch the user-data on EC2
+117,2015-08-27 23:17:38.000000000,2015-08-28 00:10:36.000000000,closed,1,news: add news for v0.1.4
+116,2015-08-27 06:43:28.000000000,2015-08-27 09:56:21.000000000,closed,1,tag_release.sh: add script for tagging releases
+115,2015-08-27 05:54:56.000000000,2015-08-28 01:35:03.000000000,closed,0,document storage better
+114,2015-08-26 22:35:58.000000000,2015-08-27 02:07:05.000000000,closed,5,ignition: DefaultDependencies=false in WaitOnDevices transient unit
+113,2015-08-25 05:39:11.000000000,2015-08-27 23:01:20.000000000,closed,5,docs: update docs with more guides
+112,2015-08-19 10:25:25.000000000,2015-08-20 00:36:21.000000000,closed,2,providers/cmdline: add missing return in http failed fetch path
+111,2015-08-15 16:45:11.000000000,2015-08-19 05:02:24.000000000,closed,1,providers/cmdline: support oem:// url scheme
+110,2015-08-15 04:01:08.000000000,2015-08-19 05:02:24.000000000,closed,3,Support reading from abitrary file locations on disk
+109,2015-08-15 03:58:13.000000000,2015-08-18 23:21:57.000000000,closed,4,Support for RAM-disk deployments
+108,2015-08-11 07:01:38.000000000,2015-08-12 01:34:10.000000000,closed,1,build: eliminate Makefile and derive version from git describe
+107,2015-08-11 05:15:03.000000000,2015-08-11 09:16:21.000000000,closed,0,build: pull version number from git history
+106,2015-08-11 05:04:00.000000000,2015-08-11 07:00:16.000000000,closed,0,build: derive version at build time from git describe
+105,2015-08-11 04:12:57.000000000,2015-08-11 04:21:26.000000000,closed,1,providers/ec2: fix handling of configs to always fetch ssh keys.
+104,2015-08-11 01:42:29.000000000,2015-08-11 03:34:52.000000000,closed,1,log: report the Ignition version in the log
+103,2015-08-08 04:34:45.000000000,2015-08-12 03:18:47.000000000,closed,4,Add v0.1.3 NEWS
+102,2015-08-06 10:04:33.000000000,2015-08-06 10:06:19.000000000,closed,1,exit/util: log addition of ssh keys.
+101,2015-08-06 00:07:12.000000000,2015-08-06 01:31:27.000000000,closed,2,providers/ec2: fix package name (was cmdline)
+100,2015-08-05 13:28:22.000000000,2015-08-07 08:30:34.000000000,closed,1,provider/ec2: add support for ssh keys.
+99,2015-08-05 01:30:26.000000000,2015-08-05 20:05:01.000000000,closed,1,providers/ec2: append metadata keys to core user
+98,2015-08-05 01:30:02.000000000,2015-08-05 01:50:12.000000000,closed,0,build: various improvements
+97,2015-08-05 01:29:52.000000000,2015-08-05 01:50:02.000000000,closed,0,docs: remove config notes
+96,2015-08-01 03:15:57.000000000,2015-08-01 03:21:19.000000000,closed,1,docs: update the ROADMAP and fix a table
+95,2015-08-01 02:51:20.000000000,2015-08-01 02:56:18.000000000,closed,1,Tables from the docs weren't rendering correctly
+94,2015-07-24 04:36:05.000000000,2015-08-01 03:21:29.000000000,closed,5,ignition.md: fix table formatting
+93,2015-07-23 08:44:11.000000000,2015-07-23 08:49:35.000000000,closed,2,config: fix validation of drop-in names
+92,2015-07-23 08:44:03.000000000,2015-07-23 08:48:17.000000000,closed,2,providers/ec2: properly handle a lack of userdata
+91,2015-07-23 03:38:11.000000000,2015-07-23 04:08:33.000000000,closed,0,news: add news for v0.1.1
+90,2015-07-23 02:55:36.000000000,2015-07-23 03:33:40.000000000,closed,3,oem: add all of the OEMS supported by CoreOS
+89,2015-07-23 02:52:29.000000000,2015-07-23 03:11:04.000000000,closed,1,providers: add noop provider
+88,2015-07-23 02:28:56.000000000,2015-07-23 02:41:44.000000000,closed,1,config: handle empty config
+87,2015-07-08 02:00:48.000000000,2015-07-10 01:36:56.000000000,closed,1,various integration fixes for use in CoreOS
+86,2015-07-03 04:17:02.000000000,2015-07-03 04:36:10.000000000,closed,1,Makefile: add ec2 and files providers to PACKAGES
+85,2015-07-03 03:07:36.000000000,2015-07-03 03:51:41.000000000,closed,1,*: add ec2 provider and oem
+84,2015-06-25 23:14:12.000000000,2015-06-25 23:38:32.000000000,closed,2,third_party/coreos/go-systemd: bump for NewSystemdConnection() fix
+83,2015-06-24 22:16:29.000000000,2015-06-24 22:21:08.000000000,closed,3,maintainers: add email addresses
+82,2015-06-24 04:28:33.000000000,2015-06-24 05:10:56.000000000,closed,2,MAINTAINERS: add myself
+81,2015-06-24 03:21:47.000000000,2015-06-24 03:34:21.000000000,closed,1,config: rearrange config.Filesystem for optional forcing
+80,2015-06-24 01:11:43.000000000,2015-06-24 02:08:19.000000000,closed,2,Use dbus.NewSystemdConnection()
+79,2015-06-22 02:39:43.000000000,2015-07-23 02:05:55.000000000,closed,4,Ignition runs on every boot
+78,2015-06-22 02:35:40.000000000,2015-06-24 03:37:38.000000000,closed,2,dbus not present in initramfs
+77,2015-06-20 06:02:14.000000000,2015-06-20 06:14:44.000000000,closed,3,exec/stages: rename storage and prepivot
+76,2015-06-20 02:56:59.000000000,2015-06-20 03:13:35.000000000,closed,2,exec: remove newline
+75,2015-06-19 05:18:07.000000000,2015-06-19 05:21:56.000000000,closed,3,third_party: fix header alignment of version in manifest
+74,2015-06-19 03:40:47.000000000,2015-06-19 05:06:57.000000000,closed,0,third_party: add third_party.manifest file.
+73,2015-06-18 02:14:26.000000000,2015-06-18 02:53:26.000000000,closed,1,Sin godep
+72,2015-06-17 03:13:55.000000000,2015-06-17 03:41:45.000000000,closed,1,exec: reintroduce stages
+71,2015-06-16 04:28:34.000000000,2015-06-16 21:33:28.000000000,closed,1,travis: only test on go 1.4
+70,2015-06-16 03:31:31.000000000,2015-06-16 21:33:49.000000000,closed,1,config: YAML: use underscore instead of space as keyword separator.
+69,2015-06-10 02:48:27.000000000,2015-06-10 22:51:32.000000000,closed,4,config: change 'version' to 'ignitionVersion'
+68,2015-06-09 23:45:28.000000000,2015-06-19 05:06:57.000000000,closed,1,config: implement config.Passwd.{Users.Groups}
+67,2015-06-04 23:09:04.000000000,2015-06-04 23:10:29.000000000,closed,1,"Convert util.DestDir string to util.Util struct, add logger."
+66,2015-06-02 22:54:08.000000000,2015-06-19 21:35:49.000000000,closed,1,Add support for configuring users and groups
+65,2015-06-02 22:53:06.000000000,2015-06-03 01:08:48.000000000,closed,2,exec: no-op if a coreos-cloudinit config is found
+64,2015-06-02 04:32:35.000000000,2015-06-03 01:08:57.000000000,closed,0,Ignore cloud-configs
+63,2015-05-29 08:43:50.000000000,2015-06-02 22:35:56.000000000,closed,2,doc: add usage and configuration docs
+62,2015-05-29 07:16:32.000000000,2015-06-01 20:12:31.000000000,closed,1,config: seperate systemd and network units
+61,2015-05-29 04:46:16.000000000,2015-05-29 23:37:49.000000000,closed,5,ssh_keydir: Introduce package for managing .ssh/authorized_keys.d
+60,2015-05-29 03:22:17.000000000,2015-05-29 07:16:09.000000000,closed,1,"config: rename ""dropIns"" to ""dropins"""
+59,2015-05-28 04:37:34.000000000,2015-05-29 04:48:45.000000000,closed,1,doc/config: add passwd/user/group to example config
+58,2015-05-26 23:51:49.000000000,2015-05-27 06:14:27.000000000,closed,1,config: limit partition label length to 36 characters
+57,2015-05-23 03:07:04.000000000,2015-05-28 03:55:56.000000000,closed,1,storage: support partition type GUID
+56,2015-05-21 04:10:39.000000000,2015-05-22 03:34:51.000000000,closed,3,exec: remove stages
+55,2015-05-21 00:41:10.000000000,2015-05-21 01:11:02.000000000,closed,1,*: add comments
+54,2015-05-20 22:56:41.000000000,2015-05-20 23:14:07.000000000,closed,1,stages: combine prepivot and storage stages
+53,2015-05-20 03:19:26.000000000,2015-05-20 03:40:13.000000000,closed,1,*: add comments
+52,2015-05-19 22:55:52.000000000,2015-06-02 22:36:54.000000000,closed,1,General Documentation
+51,2015-05-14 04:23:11.000000000,2015-05-15 00:00:52.000000000,closed,1,Makefile: put gofmt in diff mode for fmt target
+50,2015-05-14 03:40:59.000000000,2015-05-20 01:35:57.000000000,closed,1,Support human-friendly partition dimensions in YAML config
+49,2015-05-14 03:28:46.000000000,2015-05-14 03:56:07.000000000,closed,2,log: capture Stderr of failed cmd in LogCmd() error
+48,2015-05-13 02:21:49.000000000,2015-05-13 02:29:30.000000000,closed,1,Log commands executed
+47,2015-05-12 04:32:59.000000000,2015-05-12 04:38:43.000000000,closed,2,config/storage: add some sanity checks for Raid
+46,2015-05-12 03:48:12.000000000,2015-05-12 04:21:53.000000000,closed,1,config/storage: specify raid spares as an integer
+45,2015-05-09 02:42:06.000000000,2015-05-12 00:52:16.000000000,closed,1,config: Introduce Filesystem.Initialize toggle
+44,2015-05-08 08:19:03.000000000,2015-05-09 01:42:54.000000000,closed,1,Write files
+43,2015-05-08 03:55:11.000000000,2015-05-09 01:38:15.000000000,closed,1,Cleanup logging
+42,2015-05-07 01:42:31.000000000,2015-05-08 21:30:01.000000000,closed,3,Clear cache
+41,2015-05-07 01:41:29.000000000,2015-05-08 21:30:29.000000000,closed,1,File provider
+40,2015-05-07 01:33:46.000000000,2015-05-09 00:24:27.000000000,closed,2,Plugged storage
+39,2015-05-05 06:47:09.000000000,2015-05-07 02:45:04.000000000,closed,1,Storage stages
+38,2015-05-05 05:56:54.000000000,2015-05-05 09:39:29.000000000,closed,1,network: fix the location to which network units are written
+37,2015-05-05 05:49:09.000000000,2015-05-05 05:50:21.000000000,closed,2,No Support for Formatting Filesystems
+36,2015-05-05 01:37:03.000000000,2015-05-05 02:16:54.000000000,closed,1,doc: add README and ROADMAP
+35,2015-05-05 00:42:51.000000000,2015-05-05 03:09:57.000000000,closed,1,config: locally cache provided config for reuse across stages
+34,2015-05-02 04:13:59.000000000,2015-05-04 23:39:04.000000000,closed,1,"Godeps: dep ""github.com/GoogleCloudPlatform/kubernetes/pkg/api/resource"""
+33,2015-05-02 02:02:55.000000000,2015-05-02 02:19:08.000000000,closed,2,*: move all non-Godep code into src/ subdirectory
+32,2015-05-01 03:10:02.000000000,2015-05-01 03:56:49.000000000,closed,1,config: add json and yaml tags
+31,2015-04-29 05:54:37.000000000,2015-04-29 22:23:52.000000000,closed,2,main: close syslog on exit
+30,2015-04-29 03:43:04.000000000,2015-04-29 04:40:13.000000000,closed,3,exec/util: update system-preset file mode
+29,2015-04-29 03:12:49.000000000,2015-04-29 04:20:58.000000000,closed,1,    exec/util: introduce DestDir type for influencing file/dir creates
+28,2015-04-29 02:21:55.000000000,2015-04-29 02:48:11.000000000,closed,1,exec/util: correct filename -> path
+27,2015-04-28 19:54:44.000000000,2015-04-29 01:52:59.000000000,closed,1,exec: add support for masking and enabling units
+26,2015-04-28 01:32:33.000000000,2015-04-28 22:45:45.000000000,closed,1,oem: add ability to set OEM
+25,2015-04-26 08:04:58.000000000,2015-04-26 08:07:45.000000000,closed,2,exec: exit with error on error
+24,2015-04-26 07:56:39.000000000,2015-04-26 08:05:10.000000000,closed,1,config: clean up unmarshaling and add version
+23,2015-04-26 07:53:00.000000000,2015-04-26 07:56:09.000000000,closed,0,config: clean up unmarshaling and add version
+22,2015-04-25 03:37:11.000000000,2015-04-26 07:51:34.000000000,closed,0,doc: add networkd to config example
+21,2015-04-25 03:11:27.000000000,2015-04-25 03:30:36.000000000,closed,2,config: add networkd units
+20,2015-04-24 06:27:10.000000000,2015-04-28 23:06:46.000000000,closed,1,"config: introduce ""allocate"" structure for files"
+19,2015-04-24 04:09:56.000000000,2015-04-24 04:32:52.000000000,closed,1,doc: convert device references to always be paths
+18,2015-04-23 23:09:55.000000000,2015-04-24 09:57:19.000000000,closed,4,config: parse config as JSON instead of YAML
+17,2015-04-23 05:59:44.000000000,2015-04-23 06:02:49.000000000,closed,1,doc: introduce wipe-table for disks
+16,2015-04-23 02:23:55.000000000,2015-04-23 02:37:03.000000000,closed,1,doc: add config scratchpad
+15,2015-04-21 22:05:16.000000000,2015-04-23 00:44:37.000000000,closed,2,log: remove extra space
+14,2015-04-21 21:46:16.000000000,2015-05-02 01:10:09.000000000,closed,14,docs: move to Documentation
+13,2015-04-09 01:28:50.000000000,2015-05-02 02:07:01.000000000,closed,1,*: move top-level package directories into pkg/
+12,2015-04-08 07:02:21.000000000,2015-04-08 23:26:34.000000000,closed,3,exec/stages/prepivot: put in prepivot package (was stages)
+11,2015-04-08 07:01:43.000000000,2015-04-08 22:38:16.000000000,closed,2,Consistent pointer receivers
+10,2015-04-08 06:30:35.000000000,2015-04-10 03:13:41.000000000,closed,9,Factor registry
+9,2015-04-07 03:36:09.000000000,2015-04-08 23:19:00.000000000,closed,1,make: support kernel-style V=1 verbose build switch
+8,2015-04-04 02:32:19.000000000,2015-04-10 04:16:18.000000000,closed,4,exec/util: Introduce File struct and rewrite WriteFile accordingly
+7,2015-04-04 01:18:05.000000000,2015-04-04 01:31:18.000000000,closed,1,providers: refactored tests to simplify dependencies
+6,2015-04-03 04:27:52.000000000,2015-04-03 04:27:56.000000000,closed,0,doc: add more legal documentation
+5,2015-04-03 04:07:05.000000000,2015-04-03 04:21:23.000000000,closed,1,providers: privatize MockProvider and MockProviderCreator members
+4,2015-04-03 03:43:49.000000000,2015-04-03 04:07:33.000000000,closed,1,build: add build infrastructure
+3,2015-04-03 03:39:38.000000000,2015-04-03 03:40:54.000000000,closed,1,*: use path/filepath instead of path
+2,2015-04-03 02:59:57.000000000,2015-04-08 07:35:22.000000000,closed,1,doc: add initial requirements
+1,2015-04-03 02:58:13.000000000,2015-04-03 02:59:16.000000000,closed,0,*: initial implementation

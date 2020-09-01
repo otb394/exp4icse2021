@@ -1,0 +1,1553 @@
+id,created_at,closed_at,state,comments,title
+1552,2020-08-27 15:08:03.000000000,2020-08-27 15:22:50.000000000,closed,1,Release 2.1.0
+1551,2020-08-27 14:29:39.000000000,2020-08-27 14:50:01.000000000,closed,1,Update min supported version of tfp
+1550,2020-08-27 14:21:31.000000000,2020-08-27 15:07:09.000000000,closed,1,Broadcasting constant and zero mean function
+1549,2020-08-26 19:13:31.000000000,1970-01-01 00:00:00.000000001,open,1,Quadrature Likelihood + ScalarLikelihood Refactoring
+1548,2020-08-20 14:31:21.000000000,2020-08-24 14:55:30.000000000,closed,1,Fix for quadrature failure mode when autograph was set to False
+1547,2020-08-19 21:32:36.000000000,2020-08-24 14:43:29.000000000,closed,2,"In GPFlow develop, calling quadrature.ndiagquad from within tf.function (with autograph=False) results in an error"
+1546,2020-08-17 20:08:37.000000000,1970-01-01 00:00:00.000000001,open,4,The v1.15 documentation link is broken
+1545,2020-08-13 14:29:39.000000000,2020-08-14 13:53:17.000000000,closed,3,Update to not use custom image
+1544,2020-08-13 13:49:48.000000000,2020-08-13 14:08:37.000000000,closed,1,Bump version numbers to 2.1.0.
+1543,2020-08-13 13:33:30.000000000,2020-08-13 13:56:59.000000000,closed,0,v2.1.0
+1542,2020-08-10 00:55:51.000000000,2020-08-24 22:54:39.000000000,closed,1,Change shape of quadrature tensors for better broadcasting
+1541,2020-08-06 14:58:19.000000000,2020-08-13 15:46:45.000000000,closed,1,Re-introduce pytest-xdist
+1540,2020-08-06 14:54:49.000000000,1970-01-01 00:00:00.000000001,open,2,Bugfix varying_noise notebook
+1539,2020-08-03 17:03:09.000000000,2020-08-03 17:07:36.000000000,closed,2,Support for hardcoded kernel gradients
+1538,2020-07-31 04:05:40.000000000,1970-01-01 00:00:00.000000001,open,0,Make deepcopy functionality available to copy.deepcopy
+1537,2020-07-28 14:55:26.000000000,2020-07-30 14:13:28.000000000,closed,1,pin tensorflow<2.3 tensorflow-probability<0.11
+1536,2020-07-28 01:55:16.000000000,2020-08-13 16:09:58.000000000,closed,2,check dependency versions are valid on CI
+1535,2020-07-27 16:17:00.000000000,1970-01-01 00:00:00.000000001,open,2,Training loss gradients slow down with multiple calls in quick succession
+1534,2020-07-22 14:01:23.000000000,2020-08-03 17:10:29.000000000,closed,3,GPflow on conda-forge
+1533,2020-07-20 15:09:10.000000000,2020-08-04 21:31:57.000000000,closed,5,Fixed separate_independent_conditional to correctly handle q_sqrt=None.
+1532,2020-07-13 18:20:18.000000000,2020-08-13 16:09:57.000000000,closed,0,Check deps on CI
+1531,2020-07-13 17:29:33.000000000,1970-01-01 00:00:00.000000001,open,0,Heteroscedastic Multiclass Classification?
+1530,2020-07-10 18:13:06.000000000,2020-07-16 14:25:36.000000000,closed,1,Update readme with new project using GPflow
+1529,2020-07-10 15:09:29.000000000,2020-07-15 11:35:59.000000000,closed,1,Can we handle index error in kernel's `active_dims` parameter?
+1528,2020-07-09 15:42:34.000000000,2020-08-03 18:38:30.000000000,closed,5,Add base_conditional_with_lm function
+1527,2020-07-09 14:11:27.000000000,1970-01-01 00:00:00.000000001,open,0,How to sample from multiple chains and perform convergence diagnostics with GPflow?
+1526,2020-07-09 13:39:21.000000000,2020-07-17 00:02:22.000000000,closed,2,bugfix for varying_noise notebook
+1525,2020-07-08 20:29:25.000000000,2020-07-09 11:59:59.000000000,closed,1,How can I use GPflow 2.0 to implement spectral mixture (SM) kernel for multidimensional input?
+1524,2020-07-06 00:05:53.000000000,2020-07-06 00:28:21.000000000,closed,3,ARD affects regression results 
+1523,2020-07-04 00:08:49.000000000,2020-08-04 21:31:57.000000000,closed,0,separate_independent_conditional fails if q_sqrt=None
+1522,2020-07-03 21:11:29.000000000,2020-07-06 14:31:04.000000000,closed,1,Temporary workaround for tensorflow_probability dependency issue
+1521,2020-07-03 20:11:36.000000000,2020-08-03 17:16:32.000000000,closed,5,deployment issue with transfer learning
+1520,2020-07-02 16:09:04.000000000,2020-07-17 17:13:20.000000000,closed,3,Fix formatting in docs (intro.md)
+1519,2020-07-01 17:43:03.000000000,2020-07-02 16:26:04.000000000,closed,1,"Hi, how could I access the value  the marginal likelihood or even better the log marginal likelihood of the a model, that I've allready traiend/optimized?"
+1518,2020-06-30 15:23:24.000000000,2020-08-17 17:26:53.000000000,closed,4,Update parameter to be savable
+1517,2020-06-27 21:38:32.000000000,2020-07-09 12:01:39.000000000,closed,2,Initial guesses for hyperparameters 
+1516,2020-06-25 14:28:38.000000000,1970-01-01 00:00:00.000000001,open,0,Tidy empty notebooks
+1515,2020-06-24 02:06:07.000000000,2020-06-27 17:45:29.000000000,closed,5,"Failed installation - GPFlow with Python 3.8 requires Tensoflow 2.1., the Tensorflow 2.1. doesnt support Python 3.8., "
+1514,2020-06-23 16:41:39.000000000,2020-07-09 15:43:47.000000000,closed,8,Allow Lm to be passed-in to conditionals/util.py
+1513,2020-06-23 16:32:43.000000000,2020-06-23 16:33:54.000000000,closed,0,Neil/conditionals util lm
+1512,2020-06-23 16:15:49.000000000,2020-07-02 19:32:58.000000000,closed,0,Update develop with master
+1511,2020-06-22 16:24:57.000000000,2020-06-23 14:52:21.000000000,closed,3,updated models.gpr docstring
+1510,2020-06-18 15:26:14.000000000,2020-07-02 14:10:17.000000000,closed,2,Update pull request template
+1509,2020-06-17 07:28:06.000000000,2020-06-18 12:39:10.000000000,closed,1,Why I already have tensorflow-gpu 2.2.0 it still search for tensorflow 2.2.0
+1508,2020-06-16 14:01:36.000000000,2020-06-18 12:37:22.000000000,closed,1,Adding heteroskedastic tests
+1507,2020-06-12 20:05:46.000000000,2020-06-23 16:42:14.000000000,closed,6,Allow conditionals to be computed based on pre-computed Kmm and Lm
+1506,2020-06-11 17:20:05.000000000,2020-06-11 18:37:48.000000000,closed,1,release 2.0.5
+1505,2020-06-11 17:04:24.000000000,2020-07-30 15:58:41.000000000,closed,1,Quadrature Refactoring
+1504,2020-06-11 16:20:05.000000000,2020-06-11 17:18:57.000000000,closed,1,bump version to 2.0.5
+1503,2020-06-11 12:39:38.000000000,2020-06-11 13:05:31.000000000,closed,1,Ensure the plots appear in the generated VFF documentation
+1502,2020-06-11 01:37:01.000000000,2020-06-12 22:30:43.000000000,closed,5,documentation regarding training_loss() is confusing
+1501,2020-06-10 20:54:02.000000000,1970-01-01 00:00:00.000000001,open,0,Create user survey
+1500,2020-06-10 01:04:08.000000000,2020-06-11 14:59:21.000000000,closed,2,fix type in Parameter type check
+1499,2020-06-09 18:24:22.000000000,2020-06-09 18:26:57.000000000,closed,1,'SVGP' object has no attribute 'training_loss_closure'
+1498,2020-06-08 14:17:34.000000000,2020-06-10 16:55:03.000000000,closed,2,Update link to distill article on GPs
+1497,2020-06-07 20:50:29.000000000,1970-01-01 00:00:00.000000001,open,3,I can make predictions using an invalid model
+1496,2020-06-04 15:53:00.000000000,1970-01-01 00:00:00.000000001,open,3,give each multipledispatch-registered implementation a unique name
+1495,2020-06-04 14:27:09.000000000,2020-06-04 20:03:49.000000000,closed,1,Supporting preslicing of multi-output combination kernels
+1494,2020-06-03 14:28:35.000000000,1970-01-01 00:00:00.000000001,open,0,Documentation for `_conditional` function incorrect
+1493,2020-06-03 12:47:05.000000000,2020-06-03 14:13:58.000000000,closed,4,Strange `pickle`/`gpflow.utilities.freeze` behaviour with `SVGP` models
+1492,2020-06-02 17:46:02.000000000,2020-06-02 19:09:20.000000000,closed,7,Corrected variables name in convolutional notebook for better underst…
+1491,2020-06-01 20:09:14.000000000,2020-06-02 14:31:23.000000000,closed,1,Loss is decreasing but accuracy stuck on 47% 
+1490,2020-06-01 14:50:14.000000000,2020-06-01 20:12:49.000000000,closed,1,quickfix to enable GPR to be used with variable data
+1489,2020-05-28 15:18:08.000000000,2020-06-04 18:24:53.000000000,closed,1,improve NaturalGradient optimizer documentation and add shape checks
+1488,2020-05-27 20:57:10.000000000,2020-05-28 16:25:58.000000000,closed,1,Improve contributing.md
+1487,2020-05-27 02:52:42.000000000,2020-05-27 23:30:04.000000000,closed,1,add type hints: inducing_variables
+1486,2020-05-27 01:52:24.000000000,2020-05-28 20:04:35.000000000,closed,1,Allow users to pass an iterable to set_trainable
+1485,2020-05-26 17:53:20.000000000,1970-01-01 00:00:00.000000001,open,2,Alternative automatic API ref doc generation
+1484,2020-05-25 11:24:53.000000000,1970-01-01 00:00:00.000000001,open,1,Coregionalization with heteroscedastic errors
+1483,2020-05-24 12:00:32.000000000,2020-05-24 16:43:54.000000000,closed,1,ScipyOptimizer minimize only works for kernels with 1D or 2D input dimension
+1482,2020-05-21 21:23:20.000000000,2020-05-27 20:39:28.000000000,closed,4,Makefile quickfix
+1481,2020-05-20 17:52:53.000000000,2020-05-20 17:59:31.000000000,closed,0,Release 2.0.4
+1480,2020-05-20 16:33:26.000000000,1970-01-01 00:00:00.000000001,open,8,add license text to all gpflow submodules
+1479,2020-05-20 15:30:16.000000000,2020-05-21 13:33:02.000000000,closed,14,Esoteric bug whilst deepcopy-ing
+1478,2020-05-20 15:26:40.000000000,2020-05-20 16:19:41.000000000,closed,1,bump version to 2.0.4
+1477,2020-05-19 18:16:01.000000000,1970-01-01 00:00:00.000000001,open,0,Clarify difference between Scipy minimize and tensorflow optimizers
+1476,2020-05-18 15:38:42.000000000,2020-05-19 00:58:13.000000000,closed,7,Fix freeze and traverse utility methods
+1475,2020-05-18 08:30:21.000000000,2020-05-18 11:54:01.000000000,closed,2,why tf.optimizer.Adam() has weird behaviour in multiclass classification example
+1474,2020-05-16 23:46:17.000000000,2020-05-28 16:25:58.000000000,closed,0,The code example in contributing.md uses GPflow 1
+1473,2020-05-15 21:27:55.000000000,2020-05-18 17:53:54.000000000,closed,2,Workaround for tensorflow_probability==0.10 in gpflow.utilities.traverse_module
+1472,2020-05-15 20:35:07.000000000,2020-05-15 21:37:32.000000000,closed,3,Temporary fix for TFP version
+1471,2020-05-15 19:57:14.000000000,2020-05-19 17:50:18.000000000,closed,2,enable mypy on CI
+1470,2020-05-14 12:17:56.000000000,2020-06-10 19:57:15.000000000,closed,4,Added code to clear cache for the Invert bijector.
+1469,2020-05-13 13:30:02.000000000,2020-05-13 13:30:49.000000000,closed,0,Test sync state of develop and master
+1468,2020-05-13 13:16:29.000000000,2020-05-13 13:28:44.000000000,closed,2,Sync develop with master 2.0.3
+1467,2020-05-13 11:59:57.000000000,2020-05-13 13:15:14.000000000,closed,2,Sync develop with master after release
+1466,2020-05-12 21:33:46.000000000,2020-05-13 11:58:10.000000000,closed,2,Add ipynb to gitignore
+1465,2020-05-12 21:28:25.000000000,2020-05-13 11:52:22.000000000,closed,1,Release 2.0.3
+1464,2020-05-12 16:46:52.000000000,2020-05-12 21:21:59.000000000,closed,1,bump version to 2.0.3
+1463,2020-05-12 16:30:15.000000000,2020-07-02 14:30:48.000000000,closed,0,Deleting monkey patched method to allow saving and loading with
+1462,2020-05-11 18:09:47.000000000,2020-05-12 16:53:23.000000000,closed,0,Notebook exemplifying HeteroskedasticTFPDistribution usage
+1461,2020-05-11 00:55:45.000000000,1970-01-01 00:00:00.000000001,open,3,SVGP predict_y appears to incorrectly add noise variance for full_cov
+1460,2020-05-09 02:03:35.000000000,2020-05-12 16:44:02.000000000,closed,7,Update setup.py for tensorflow 2(.2)
+1459,2020-05-07 18:46:41.000000000,2020-05-07 19:01:51.000000000,closed,1,Release 2.0.2
+1458,2020-05-07 18:05:50.000000000,2020-05-07 18:24:23.000000000,closed,1,#1452 for GPMC model
+1457,2020-05-07 17:36:43.000000000,2020-05-07 18:45:50.000000000,closed,1,release candidate v2.0.2
+1456,2020-05-07 14:57:53.000000000,1970-01-01 00:00:00.000000001,open,0,Covariance matrices and conditionals to support TensorFlow's LinearOperator for efficient inference
+1455,2020-05-05 14:16:33.000000000,1970-01-01 00:00:00.000000001,open,2,Heteroskedastic likelihood (WIP)
+1454,2020-05-04 17:45:40.000000000,2020-06-02 16:16:24.000000000,closed,4,clean up Scipy types & code
+1453,2020-05-04 16:31:50.000000000,2020-05-04 17:13:49.000000000,closed,1,Improve representation of GPflow objects in IPython/Jupyter notebook
+1452,2020-05-04 14:38:50.000000000,2020-05-07 16:22:35.000000000,closed,1,Convert data structures to tensor in model init method
+1451,2020-05-03 00:08:18.000000000,2020-05-28 17:40:29.000000000,closed,5,Jitter
+1450,2020-05-02 21:45:52.000000000,2020-05-02 22:11:18.000000000,closed,1,Removed unusued imports.
+1449,2020-05-02 01:27:11.000000000,1970-01-01 00:00:00.000000001,open,4,Tracking model parameters during optimisation using Scipy
+1448,2020-04-28 01:37:34.000000000,2020-05-07 17:00:11.000000000,closed,4,Use a boolean for full covariance in sample_mvn.
+1447,2020-04-28 01:33:03.000000000,2020-05-14 14:10:07.000000000,closed,1,conditionals.util.sample_mvn should use a boolean to specify a full covariance matrix
+1446,2020-04-24 17:09:43.000000000,2020-04-27 01:36:16.000000000,closed,1,Fix dimensions of kernel evaluation of changepoint kernel
+1445,2020-04-24 15:46:53.000000000,1970-01-01 00:00:00.000000001,open,4,"Turn kernel.K, kernel.K_diag into private methods to reduce risk of confusion"
+1444,2020-04-22 20:21:11.000000000,2020-04-23 08:01:32.000000000,closed,0,Von-Mises distribution as the likelihood p(y|f)
+1443,2020-04-22 14:10:52.000000000,2020-04-23 22:17:43.000000000,closed,2,refactor natgrads to be more efficient
+1442,2020-04-21 14:58:57.000000000,2020-04-23 13:19:36.000000000,closed,3,Use a type alias in the function signature of leading_transpose
+1441,2020-04-20 14:41:11.000000000,2020-04-21 02:03:28.000000000,closed,1,remove comment
+1440,2020-04-20 05:47:29.000000000,2020-04-27 01:36:16.000000000,closed,4,ChangePoints kernel breaks for len(X) != len(X2)
+1439,2020-04-16 04:00:21.000000000,2020-05-07 16:22:36.000000000,closed,13,"""ValueError: Cannot create a tensor proto whose content is larger than 2GB."" after upgrade from 2.0.0rc1 to 2.0.0 release"
+1438,2020-04-15 17:34:35.000000000,2020-04-20 11:43:58.000000000,closed,1,add long_description and project_urls to setup.py
+1437,2020-04-15 14:39:31.000000000,2020-04-15 15:33:36.000000000,closed,1,Merge master (at 2.0.0) into develop
+1436,2020-04-15 14:21:33.000000000,2020-04-15 16:19:00.000000000,closed,1,Release 2.0.1
+1435,2020-04-14 20:38:43.000000000,2020-04-18 16:27:58.000000000,closed,4,GP classification with Linear kernel fits poorly depending on initialisation of hyperparameters
+1434,2020-04-14 19:42:00.000000000,1970-01-01 00:00:00.000000001,open,0,Investigate performance impact of making TensorLike strict
+1433,2020-04-14 19:26:03.000000000,2020-04-14 20:56:37.000000000,closed,1,fix pyplot import for matplotlib 3.1.3 in notebooks
+1432,2020-04-14 19:13:46.000000000,2020-04-14 20:57:45.000000000,closed,1,fix other-issue.md issue template
+1431,2020-04-14 19:10:27.000000000,2020-04-14 19:21:01.000000000,closed,1,Update issue templates
+1430,2020-04-14 17:03:18.000000000,2020-04-15 14:14:21.000000000,closed,1,fix kernel construction in multioutput notebook
+1429,2020-04-14 16:44:21.000000000,2020-04-14 16:57:56.000000000,closed,1,fix link in sphinx intro.rst
+1428,2020-04-14 16:27:46.000000000,2020-04-14 16:57:56.000000000,closed,0,Broken link in GPflow readthedocs
+1427,2020-04-14 14:39:04.000000000,2020-05-14 17:37:10.000000000,closed,1,add type hints: base
+1426,2020-04-14 13:58:52.000000000,2020-04-15 14:14:38.000000000,closed,1,bump version to 2.0.1
+1425,2020-04-12 03:15:20.000000000,2020-04-14 18:59:20.000000000,closed,5,Issue templates
+1424,2020-04-11 00:03:53.000000000,2020-04-11 00:28:53.000000000,closed,1,Fix Monitor issue where multiple file writers break updates
+1423,2020-04-10 23:52:22.000000000,2020-04-14 20:56:37.000000000,closed,1,Matplotlib import problem with simple coregionalization notebook
+1422,2020-04-09 03:57:19.000000000,2020-04-14 21:09:09.000000000,closed,2,Gast Problem appears to have resurfaced
+1421,2020-04-08 22:44:58.000000000,2020-04-20 13:38:46.000000000,closed,9,add type hints for probability distributions
+1420,2020-04-08 20:44:51.000000000,2020-04-10 01:07:53.000000000,closed,3,add mypy to test requirements; type ci utils module
+1419,2020-04-08 20:00:38.000000000,2020-05-07 12:00:21.000000000,closed,2,make set_trainable return its argument
+1418,2020-04-08 16:48:25.000000000,2020-04-08 17:45:09.000000000,closed,1,Bug Fix: compilation issue quadrature
+1417,2020-04-07 17:48:07.000000000,2020-04-15 14:14:21.000000000,closed,4,Some documentation still treats kernels as if they have an input_dim parameter
+1416,2020-04-07 15:54:25.000000000,2020-04-08 13:48:26.000000000,closed,3,Improve structure of likelihoods subdirectory
+1415,2020-04-07 13:46:09.000000000,2020-04-21 15:49:09.000000000,closed,5,"Feature request: a consistent way to get the number of model parameters for model selection, such as BIC"
+1414,2020-04-07 02:01:44.000000000,2020-04-08 13:25:07.000000000,closed,1,Add some missing sections to gpflow2 upgrade guide
+1413,2020-04-06 15:47:21.000000000,2020-04-06 15:56:59.000000000,closed,1,Use tf.data.experimental.AUTOTUNE in notebooks
+1412,2020-04-06 00:14:22.000000000,2020-04-07 21:36:41.000000000,closed,3,pip install gpflow is not working
+1411,2020-04-03 22:11:54.000000000,2020-04-03 22:45:09.000000000,closed,3,Cannot find data mentioned in the binary classification documentation page
+1410,2020-04-03 13:35:25.000000000,2020-04-03 21:04:52.000000000,closed,2,Fix MCMC sampler in documentation
+1409,2020-04-02 22:23:03.000000000,2020-04-07 22:28:17.000000000,closed,5,GPflow.org is out of date (suggests gpflow would work with python 3.5)
+1408,2020-04-02 19:52:20.000000000,2020-04-08 17:52:12.000000000,closed,2,Improve user experience on invalid assignments to constrained Parameters
+1407,2020-04-02 19:16:16.000000000,2020-04-08 17:52:12.000000000,closed,13,Small noise_variance value leads to weird InvalidArgumentError exception
+1406,2020-04-02 00:31:32.000000000,2020-04-03 17:12:54.000000000,closed,1,Fix mypy errors -variables are not types-
+1405,2020-04-01 21:58:45.000000000,2020-04-08 13:48:25.000000000,closed,4,Proposal: reorganize likelihoods directory/submodule structure
+1404,2020-04-01 17:22:38.000000000,1970-01-01 00:00:00.000000001,open,2,`master` documentation is not building automatically
+1403,2020-04-01 17:19:05.000000000,2020-04-01 17:23:16.000000000,closed,2,multiclass notebook does not fit as expected.
+1402,2020-04-01 13:02:12.000000000,2020-04-01 17:40:56.000000000,closed,2,Add clarity to coregionalization example
+1401,2020-04-01 00:43:40.000000000,2020-04-02 15:49:11.000000000,closed,1,update README for 2.0 release
+1400,2020-03-31 22:45:37.000000000,2020-04-14 13:55:16.000000000,closed,0,fix missing matplotlib dependency on `import gpflow`
+1399,2020-03-31 21:42:01.000000000,2020-04-14 13:55:16.000000000,closed,18,split up monitor into submodules to allow for missing matplotlib import
+1398,2020-03-31 18:51:33.000000000,2020-03-31 22:50:36.000000000,closed,1,fixup website
+1397,2020-03-31 17:18:18.000000000,2020-03-31 19:15:02.000000000,closed,1,Update circleci to TF2.1 docker image
+1396,2020-03-31 17:05:52.000000000,2020-03-31 17:19:28.000000000,closed,1,Release 2.0.0
+1395,2020-03-31 16:52:00.000000000,2020-03-31 17:04:11.000000000,closed,1,Bump version to 2.0.0
+1394,2020-03-31 12:13:18.000000000,2020-03-31 14:00:54.000000000,closed,1,Add a section about custom user config
+1393,2020-03-30 20:50:30.000000000,2020-03-31 12:39:36.000000000,closed,1,_scalar_log_density -> _scalar_log_prob
+1392,2020-03-30 20:14:37.000000000,2020-03-30 21:58:44.000000000,closed,1,rename jit -> compile
+1391,2020-03-30 19:47:35.000000000,2020-03-31 12:23:28.000000000,closed,1,Improve doc generation
+1390,2020-03-30 16:52:19.000000000,2020-03-31 12:29:20.000000000,closed,1,Update upgrade guide
+1389,2020-03-30 14:40:04.000000000,2020-03-30 15:35:07.000000000,closed,1,Added suggestion on how to open TensorBoard so it updates.
+1388,2020-03-30 14:31:57.000000000,2020-03-30 16:08:03.000000000,closed,2,Increased tolerance for sqrt in kernels K_r2.
+1387,2020-03-30 13:27:49.000000000,2020-03-31 12:23:28.000000000,closed,0,How to build docs locally?
+1386,2020-03-30 12:12:19.000000000,2020-03-30 12:49:58.000000000,closed,1,Set kernelspec to Py3 in monitoring.pct.py
+1385,2020-03-29 04:12:45.000000000,2020-04-11 00:28:54.000000000,closed,2,Monitor doesn't update when using multiple tasks
+1384,2020-03-29 02:41:46.000000000,2020-03-30 12:47:03.000000000,closed,1,minimum required multipledispatch version is 0.6
+1383,2020-03-28 18:23:46.000000000,2020-03-28 20:12:51.000000000,closed,1,speed up notebook
+1382,2020-03-28 00:24:07.000000000,2020-04-07 23:38:31.000000000,closed,8,"Match original experimental setup for ""metalearning with GPs"" notebook."
+1381,2020-03-27 22:41:39.000000000,2020-03-28 18:47:28.000000000,closed,3,Import error: cannot import name 'variadic_signature_matches'
+1380,2020-03-27 22:19:14.000000000,1970-01-01 00:00:00.000000001,open,0,Rescue MixedKernelSeparateMof ?
+1379,2020-03-27 19:20:02.000000000,1970-01-01 00:00:00.000000001,open,0,Discuss separate data and models
+1378,2020-03-27 16:01:48.000000000,2020-03-27 18:23:03.000000000,closed,1,Update Readme
+1377,2020-03-27 15:47:37.000000000,2020-03-30 13:32:59.000000000,closed,1,Make Scipy more robust & faster
+1376,2020-03-27 12:48:12.000000000,2020-03-27 13:09:36.000000000,closed,1,Update link to monitoring notebook in intro
+1375,2020-03-26 20:23:50.000000000,1970-01-01 00:00:00.000000001,open,3,make num_latent_gps a non-optional keyword-only argument without a default for the GPModel base class
+1374,2020-03-26 20:21:10.000000000,2020-03-30 15:17:26.000000000,closed,1,MCMC cleanup
+1373,2020-03-26 18:02:51.000000000,2020-03-31 23:58:08.000000000,closed,6,Rename jit
+1372,2020-03-25 23:25:03.000000000,2020-03-27 20:57:52.000000000,closed,1,MCMC notebook prior update
+1371,2020-03-25 22:57:33.000000000,1970-01-01 00:00:00.000000001,open,1,Unify docs version with package version
+1370,2020-03-25 21:52:47.000000000,2020-03-30 14:33:33.000000000,closed,2,fix notebook LaTeX equations + upgrade guide link
+1369,2020-03-25 21:31:40.000000000,2020-03-26 20:46:57.000000000,closed,2,Fixing up broken notebook links
+1368,2020-03-25 16:24:18.000000000,1970-01-01 00:00:00.000000001,open,6,Full type hint coverage
+1367,2020-03-25 15:52:19.000000000,2020-05-07 13:16:49.000000000,closed,4,Decomposing Uncertainty with GPflow
+1366,2020-03-25 15:42:39.000000000,2020-03-25 15:47:03.000000000,closed,0,Uncertainty Decomposition with GPflow
+1365,2020-03-25 03:24:53.000000000,2020-03-25 13:19:31.000000000,closed,1,Move TODO into NotImplementedError message
+1364,2020-03-25 02:34:05.000000000,2020-03-25 23:08:29.000000000,closed,3,fix typing in gpflow.optimizers.scipy
+1363,2020-03-24 19:14:26.000000000,2020-03-24 20:22:44.000000000,closed,2,Different function arguments for same GPFlow Version
+1362,2020-03-24 18:04:29.000000000,2020-03-25 18:49:16.000000000,closed,0,mixin proposal
+1361,2020-03-24 16:29:01.000000000,2020-03-24 22:11:24.000000000,closed,4,Added references to the recently released multioutput paper
+1360,2020-03-23 23:16:16.000000000,2020-03-24 20:22:18.000000000,closed,0,training_loss: one more iteration
+1359,2020-03-23 20:58:08.000000000,2020-03-23 21:33:53.000000000,closed,9,GPR doesn't account for uncertain fit of parameters in mean
+1358,2020-03-23 16:53:53.000000000,2020-03-23 17:40:56.000000000,closed,1,Quickfix for gpflow2 upgrade guide
+1357,2020-03-21 22:25:25.000000000,2020-03-27 01:02:25.000000000,closed,8,fix Cosine kernel for multivariate inputs
+1356,2020-03-20 23:19:09.000000000,2020-03-23 16:09:49.000000000,closed,1,Update gpflow2 upgrade guide
+1355,2020-03-20 22:48:01.000000000,2020-03-25 01:17:04.000000000,closed,1,setup.py fix
+1354,2020-03-20 21:44:56.000000000,2020-03-25 01:17:04.000000000,closed,0,setup.py depends on external dataclasses package for python >= 3.8
+1353,2020-03-20 17:51:03.000000000,2020-03-27 19:23:43.000000000,closed,3,moved files
+1352,2020-03-20 16:56:04.000000000,2020-03-24 22:23:14.000000000,closed,3,Eric/training loss proposal
+1351,2020-03-20 15:59:40.000000000,2020-05-14 17:16:35.000000000,closed,2,make full= and full_cov= to predict_* explicit kwargs
+1350,2020-03-20 15:43:33.000000000,2020-03-21 14:59:30.000000000,closed,1,gast dependency
+1349,2020-03-20 12:57:10.000000000,2020-03-22 20:33:48.000000000,closed,7,Black formatting is missing for documentation
+1348,2020-03-19 22:35:43.000000000,2020-03-21 14:59:29.000000000,closed,1,tf2.2-rc1 gast requirement
+1347,2020-03-19 13:25:05.000000000,2020-03-27 22:15:26.000000000,closed,1,Cleaning some todo
+1346,2020-03-19 02:32:51.000000000,2020-03-23 16:11:54.000000000,closed,1,Clean up type annotations and doc strings
+1345,2020-03-19 02:19:22.000000000,1970-01-01 00:00:00.000000001,open,0,Proposal: sample_y for likelihoods and models
+1344,2020-03-18 22:51:17.000000000,2020-03-26 22:45:59.000000000,closed,10,Monitoring of optimisation
+1343,2020-03-18 21:59:48.000000000,1970-01-01 00:00:00.000000001,open,0,Figure out a better way of handling calculation of num_latent_gps
+1342,2020-03-18 20:30:57.000000000,2020-03-18 21:34:51.000000000,closed,1,some changes to incorporate multioutput
+1341,2020-03-18 18:39:17.000000000,1970-01-01 00:00:00.000000001,open,0,Proposal: make all (simple) kernels have a `variance`
+1340,2020-03-18 15:16:42.000000000,2020-03-23 14:50:46.000000000,closed,1,"Fix ""comprehensiveness"" tests"
+1339,2020-03-18 14:22:05.000000000,1970-01-01 00:00:00.000000001,open,0,some kernels are missing broadcasting capability
+1338,2020-03-18 14:04:23.000000000,2020-03-30 15:20:15.000000000,closed,14,enable pickling of frozen models
+1337,2020-03-18 11:41:17.000000000,2020-03-26 19:49:24.000000000,closed,2,InducingPointsBase.Z may benefit from a more informative name
+1336,2020-03-18 11:35:08.000000000,2020-05-22 03:59:19.000000000,closed,3,Access to SVGP.inducing_variable gives object of a different type
+1335,2020-03-17 23:10:09.000000000,1970-01-01 00:00:00.000000001,open,1,warning for wrapping e.g. set_trainable() inside tf.function?
+1334,2020-03-17 13:17:12.000000000,2020-03-24 22:09:30.000000000,closed,9,improve shape robustness in likelihoods
+1333,2020-03-16 23:12:26.000000000,1970-01-01 00:00:00.000000001,open,0,rescue #754 for gpflow2
+1332,2020-03-16 22:46:34.000000000,2020-03-27 22:15:07.000000000,closed,1,Proper slicing in kernels
+1331,2020-03-16 22:45:32.000000000,2020-03-26 19:50:06.000000000,closed,1,uncertain_conditional with full_cov=True
+1330,2020-03-16 22:42:32.000000000,2020-03-27 22:14:52.000000000,closed,1,Clean up mean functions in GPModel __init__ and tests
+1329,2020-03-16 21:54:16.000000000,2020-03-17 13:27:36.000000000,closed,3,log_prior -> log_prior_density
+1328,2020-03-16 21:03:15.000000000,2020-03-27 01:02:25.000000000,closed,2,cosine kernel returns indefinite covariance matrices
+1327,2020-03-16 20:42:20.000000000,2020-03-16 22:24:11.000000000,closed,3,Fix predict_f_samples
+1326,2020-03-16 20:41:11.000000000,2020-03-25 22:58:15.000000000,closed,1,update contributing.md
+1325,2020-03-16 20:10:56.000000000,2020-03-24 22:23:23.000000000,closed,2,training_loss: another proposal
+1324,2020-03-16 15:42:17.000000000,2020-03-16 17:47:39.000000000,closed,2,Rename lengthscale to lengthscales
+1323,2020-03-14 03:47:34.000000000,2020-03-17 23:12:48.000000000,closed,4,remove trainable setter on Parameter
+1322,2020-03-14 03:14:50.000000000,2020-03-23 14:49:20.000000000,closed,3,Clean up TODOs in the code
+1321,2020-03-14 02:58:33.000000000,1970-01-01 00:00:00.000000001,open,0,Remove tiling in gauss_kl when tensorflow supports proper broadcasting
+1320,2020-03-14 00:03:22.000000000,2020-03-24 22:23:51.000000000,closed,0,tinkering with the model interfaces
+1319,2020-03-13 23:44:07.000000000,2020-03-14 03:38:44.000000000,closed,2,rename kernel full to full_cov
+1318,2020-03-13 23:43:21.000000000,2020-03-14 03:38:43.000000000,closed,0,Rename keyword argument in kernel's `__call__` from full to full_cov
+1317,2020-03-13 23:04:53.000000000,2020-03-14 01:28:35.000000000,closed,4,Reactivate notebook tests
+1316,2020-03-13 22:30:15.000000000,2020-03-18 22:13:43.000000000,closed,2,Fix SwitchedLikelihood vs num_latent_gps bug
+1315,2020-03-13 21:36:26.000000000,2020-03-13 23:15:15.000000000,closed,2,Make conditionals function signatures consistent
+1314,2020-03-13 21:31:16.000000000,2020-03-13 23:20:31.000000000,closed,1,Update convolutional.pct.py
+1313,2020-03-13 21:15:30.000000000,2020-03-13 21:24:59.000000000,closed,1,Update Makefile: add 'make format'
+1312,2020-03-13 20:48:54.000000000,2020-03-13 21:28:19.000000000,closed,1,Rename base kernel in Periodic and Convolutional Kernel to base_kernel
+1311,2020-03-13 20:21:45.000000000,2020-03-27 17:44:50.000000000,closed,4,shared interface with inducing variables
+1310,2020-03-13 19:38:48.000000000,2020-03-13 21:44:59.000000000,closed,1,rename num_latent to num_latent_gps
+1309,2020-03-13 19:28:38.000000000,2020-03-13 21:46:13.000000000,closed,1,Rename shared_inducing_variable -> inducing_variable and
+1308,2020-03-12 15:40:25.000000000,2020-03-12 20:02:30.000000000,closed,6,Broadcasting of kernels reintroduced
+1307,2020-03-12 03:30:42.000000000,2020-03-12 16:10:00.000000000,closed,1,Update intro.rst
+1306,2020-03-11 22:24:14.000000000,2020-03-12 16:09:43.000000000,closed,1,Add option to pass K_cholesky to gauss_kl
+1305,2020-03-11 19:23:07.000000000,2020-03-12 19:51:44.000000000,closed,1,fix more images in the gpflow2 upgrade guide
+1304,2020-03-11 18:03:24.000000000,2020-03-11 18:29:33.000000000,closed,1,Quickfix: speedup convolutional notebook
+1303,2020-03-11 02:53:29.000000000,2020-05-28 17:41:04.000000000,closed,5,adding the sinc kernel
+1302,2020-03-10 20:40:43.000000000,2020-03-11 18:11:40.000000000,closed,2,keep convolutional.ipynb in GPflow repo to fix the docs build
+1301,2020-03-10 03:46:28.000000000,2020-03-14 03:31:11.000000000,closed,2,No module named 'gpflow.utilities'
+1300,2020-03-08 03:10:16.000000000,2020-03-11 18:29:33.000000000,closed,3,Docs not building
+1299,2020-03-08 03:03:15.000000000,2020-03-11 04:02:11.000000000,closed,1,fix gpflow2_upgrade_guide notebook heading levels and images
+1298,2020-03-04 01:24:29.000000000,1970-01-01 00:00:00.000000001,open,0,Does NaturalGradient.minimize need to be compilable?
+1297,2020-03-03 17:15:48.000000000,1970-01-01 00:00:00.000000001,open,2,"Readthedocs is still serving stale versions (e.g. ""stable"")"
+1296,2020-03-03 17:06:56.000000000,1970-01-01 00:00:00.000000001,open,0,"Inner ""leading"" dimensions in conditionals"
+1295,2020-03-03 16:40:48.000000000,1970-01-01 00:00:00.000000001,open,0,gpflow.conditionals.util.independent_interdomain_conditional not covered by tests
+1294,2020-03-02 16:44:13.000000000,2020-03-10 14:33:43.000000000,closed,8,Introduce black formatter
+1293,2020-03-02 16:15:25.000000000,2020-03-13 01:56:15.000000000,closed,6,Deepcopy and freeze models
+1292,2020-02-29 03:19:45.000000000,2020-02-29 04:55:20.000000000,closed,1,What can be the reason behind getting same values for mean during prediction of multiclass classification in gpflow model
+1291,2020-02-26 22:55:04.000000000,1970-01-01 00:00:00.000000001,open,0,Allow our Scipy optimizer to store the compiled version of what gets passed to scipy's minimize
+1290,2020-02-26 19:56:25.000000000,2020-02-26 19:58:22.000000000,closed,1,Run black on tests directory
+1289,2020-02-26 18:52:39.000000000,2020-02-26 19:58:52.000000000,closed,1,clean up SGPR common __init__
+1288,2020-02-26 18:24:28.000000000,2020-02-26 19:09:18.000000000,closed,1,improve organization of test modules
+1287,2020-02-26 15:11:15.000000000,1970-01-01 00:00:00.000000001,open,0,gpflow2 notebook: explain how to share tf.Module objects between models
+1286,2020-02-26 15:04:03.000000000,2020-03-11 04:02:11.000000000,closed,0,Images broken in readthedocs
+1285,2020-02-25 20:52:48.000000000,2020-02-25 21:13:09.000000000,closed,1,preserve types in deepcopy
+1284,2020-02-25 15:44:06.000000000,2020-02-26 14:52:47.000000000,closed,0,Multiple dispatch
+1283,2020-02-25 15:43:27.000000000,2020-02-25 22:39:10.000000000,closed,0,Docs in separate repo
+1282,2020-02-25 15:42:40.000000000,2020-03-25 22:59:18.000000000,closed,2,training_loss
+1281,2020-02-25 15:40:52.000000000,2020-03-13 21:44:59.000000000,closed,0,num_latent -> num_latent_gps
+1280,2020-02-25 15:40:04.000000000,2020-03-13 21:47:01.000000000,closed,1,copy parameters/variables to constant tensors to allow saving
+1279,2020-02-25 15:18:32.000000000,2020-03-03 21:18:02.000000000,closed,2,"Coregionalisation mismatch GPFlow 2, GPFlow 1.5.1"
+1278,2020-02-25 04:04:28.000000000,2020-03-16 19:02:02.000000000,closed,11,Rename model.predict_... arguments to Xnew
+1277,2020-02-25 03:21:56.000000000,2020-02-25 22:39:31.000000000,closed,1,minor docstring/code cleanup
+1276,2020-02-24 22:28:39.000000000,2020-03-31 16:17:12.000000000,closed,14,refactor training objective methods
+1275,2020-02-24 21:53:43.000000000,2020-02-25 22:39:10.000000000,closed,1,Second attempt: auto-generate docs
+1274,2020-02-24 21:33:25.000000000,2020-02-24 23:28:10.000000000,closed,2,tutorial very first excercise has bug
+1273,2020-02-23 20:02:38.000000000,2020-02-23 23:14:36.000000000,closed,2,Add `kerndisc` to projects section
+1272,2020-02-21 20:43:36.000000000,2020-02-21 21:07:26.000000000,closed,1,Docs quickfixes
+1271,2020-02-21 01:05:37.000000000,2020-02-24 22:01:58.000000000,closed,6,Move docs to dedicated repo: GPflow/docs
+1270,2020-02-20 22:02:44.000000000,2020-03-04 02:53:24.000000000,closed,4,use natgrad optimizer in varying noise notebook
+1269,2020-02-20 16:45:54.000000000,2020-02-20 18:23:47.000000000,closed,1,Add make to Docker image
+1268,2020-02-20 15:38:03.000000000,2020-05-28 17:30:14.000000000,closed,2,Improve utilities documentation
+1267,2020-02-20 15:35:56.000000000,2020-03-23 22:25:48.000000000,closed,1,Improve config documentation
+1266,2020-02-20 15:13:37.000000000,2020-03-02 16:26:06.000000000,closed,6,Parameters to variables
+1265,2020-02-19 17:48:15.000000000,2020-02-26 04:00:30.000000000,closed,4,Make notebooks deterministic
+1264,2020-02-18 21:50:53.000000000,2020-02-26 14:52:47.000000000,closed,7,Remove the use of generator in dispatcher
+1263,2020-02-18 06:05:32.000000000,2020-02-18 22:43:50.000000000,closed,1,GPy and GPflow
+1262,2020-02-17 04:25:57.000000000,2020-02-20 16:25:44.000000000,closed,4,Fix environment variables handling by config
+1261,2020-02-17 02:53:24.000000000,2020-02-19 22:17:03.000000000,closed,1,Remove masking kwargs
+1260,2020-02-14 20:32:44.000000000,1970-01-01 00:00:00.000000001,open,1,compiling (wrapping in tf.function) in Scipy optimizer breaks
+1259,2020-02-14 20:14:14.000000000,2020-02-14 20:56:25.000000000,closed,1,Add documentation of parameter copying to notebooks
+1258,2020-02-14 20:02:08.000000000,1970-01-01 00:00:00.000000001,open,0,active_dims for MultioutputKernels ?
+1257,2020-02-14 16:30:53.000000000,2020-02-14 16:40:22.000000000,closed,1,Fix type declaration for LossClosure
+1256,2020-02-13 22:54:44.000000000,2020-02-14 03:08:10.000000000,closed,1,Added docs for method parameter
+1255,2020-02-13 17:05:19.000000000,2020-02-14 19:49:31.000000000,closed,2,Improve documentation and behaviour of Coregion kernel
+1254,2020-02-12 19:14:51.000000000,1970-01-01 00:00:00.000000001,open,1,Fix sphinx warnings
+1253,2020-02-12 02:17:16.000000000,2020-02-13 16:30:16.000000000,closed,3,include special methods in docstrings
+1252,2020-02-10 19:16:51.000000000,2020-04-01 17:27:03.000000000,closed,2,Missing documentations (template issue to list things related to documentation that are missing)
+1251,2020-02-07 23:48:29.000000000,2020-02-10 13:50:04.000000000,closed,1,Ship type information as specified by PEP 561
+1250,2020-02-05 16:49:46.000000000,2020-03-16 19:02:02.000000000,closed,2,SVGP.predict_f has inconsistent argument names
+1249,2020-02-05 16:46:10.000000000,2020-03-23 16:11:54.000000000,closed,1,Documentation of GPModel.predict_f_samples incomplete
+1248,2020-02-05 16:43:12.000000000,2020-03-23 16:11:54.000000000,closed,1,The constructor of SGPR is confusing
+1247,2020-02-05 13:59:22.000000000,2020-02-06 22:06:04.000000000,closed,2,fix Parameter.__repr__ for tf.function mode
+1246,2020-02-04 15:52:55.000000000,1970-01-01 00:00:00.000000001,open,0,TensorFlow Probability Integration
+1245,2020-02-03 20:52:18.000000000,2020-02-09 20:50:16.000000000,closed,1,Make argument order of SamplingHelper more consistent with optimizers
+1244,2020-02-03 20:48:59.000000000,2020-02-04 21:19:50.000000000,closed,5,GPFlow-2.0 - issue with default_float and likelihood variance
+1243,2020-02-03 20:18:30.000000000,2020-02-14 19:53:55.000000000,closed,2,fix link function bug in binary classification notebook
+1242,2020-02-03 19:16:15.000000000,2020-02-03 19:58:02.000000000,closed,2,quickfix kernel_design notebook
+1241,2020-02-03 17:46:29.000000000,1970-01-01 00:00:00.000000001,open,11,Add shape asserts across code base (instead of just relying on shape comments)
+1240,2020-02-03 17:25:29.000000000,1970-01-01 00:00:00.000000001,open,0,How to enforce input dimension on kernels?
+1239,2020-02-03 04:26:48.000000000,2020-02-03 19:00:54.000000000,closed,1,jupytext for notebooks
+1238,2020-02-03 02:04:01.000000000,2020-02-03 15:18:55.000000000,closed,2,Clear chain bijectors
+1237,2020-01-30 00:05:31.000000000,2020-03-17 12:49:04.000000000,closed,4,Reorder inducing_variables and covariances code
+1236,2020-01-29 19:13:01.000000000,2020-03-13 20:25:19.000000000,closed,2,kernel call: replace `not full` with `diag`
+1235,2020-01-29 19:05:02.000000000,2020-01-31 20:59:08.000000000,closed,3,Clean up `presliced` argument to kernel calls
+1234,2020-01-28 19:22:21.000000000,2020-01-29 00:23:48.000000000,closed,2,Using Softmax for multi-class prediction
+1233,2020-01-28 15:17:11.000000000,2020-01-28 17:40:15.000000000,closed,2,Improve pretty-printing of GPflow objects in IPython shell and jupyter notebook
+1232,2020-01-26 11:44:24.000000000,2020-01-26 15:44:44.000000000,closed,3,Cholesky decomposition issue with subtractive kernel
+1231,2020-01-26 03:58:18.000000000,2020-02-13 16:37:16.000000000,closed,2,Improve documentation and behaviour of Periodic kernel
+1230,2020-01-25 04:49:25.000000000,2020-02-13 16:37:16.000000000,closed,1,Syntax for setting active_dims on Periodic kernel is unclear
+1229,2020-01-25 02:37:23.000000000,2020-03-03 21:13:49.000000000,closed,3,Set up continuous integration to automatically run jupytext notebooks to generate readthedocs
+1228,2020-01-24 22:24:38.000000000,2020-01-30 03:14:25.000000000,closed,1,Improve explanation of RobustMax likelihood
+1227,2020-01-24 22:13:46.000000000,2020-01-29 17:19:46.000000000,closed,2,"Make it clearer to users that we would welcome feedback on pain points & design quirks as well as ""obvious"" bugs"
+1226,2020-01-23 20:22:23.000000000,2020-01-23 20:51:38.000000000,closed,2,Dimension error
+1225,2020-01-22 16:27:01.000000000,2020-01-22 16:35:50.000000000,closed,1,"Update README.md: GPflow slack invite, stackoverflow vs github issues, installation instructions"
+1224,2020-01-22 00:13:28.000000000,2020-01-22 21:26:56.000000000,closed,7,log_likelihood() missing 1 required positional argument: 'Y'
+1223,2020-01-21 22:32:40.000000000,2020-02-11 19:27:50.000000000,closed,3,Inconisistency on whether q_sqrt is triangular fixed.
+1222,2020-01-21 20:23:05.000000000,2020-01-21 20:27:17.000000000,closed,0,Quick fix minor doc edits missed from develop-1.0
+1221,2020-01-21 19:34:57.000000000,2020-01-21 21:25:45.000000000,closed,1,Bump TF and TFP version
+1220,2020-01-21 02:32:33.000000000,2020-01-22 05:52:07.000000000,closed,3,Remove TFP deprecated bijector
+1219,2020-01-21 00:19:25.000000000,2020-03-18 18:32:53.000000000,closed,7,assert_shapes in code instead of just comments
+1218,2020-01-17 20:48:55.000000000,2020-03-13 22:04:06.000000000,closed,6,Fix broadcasting of conditionals etc. in gpflow2
+1217,2020-01-17 20:40:44.000000000,1970-01-01 00:00:00.000000001,open,1,Improve documentation of gpflow.utilities
+1216,2020-01-17 20:39:13.000000000,1970-01-01 00:00:00.000000001,open,4,Make the GPflow community the best
+1215,2020-01-17 20:32:57.000000000,2020-03-27 22:20:19.000000000,closed,2,Go through post-branch PRs on GPflow 1
+1214,2020-01-17 16:13:33.000000000,2020-05-14 17:13:34.000000000,closed,5,Va/gpf/conditional kernel
+1213,2020-01-16 20:08:13.000000000,2020-03-17 04:56:13.000000000,closed,5,Fix more potential tf.cast() loss-of-precision issues
+1212,2020-01-16 18:32:13.000000000,2020-01-17 21:09:20.000000000,closed,3,bvh: ValueError: mean must be 1 dimensional
+1211,2020-01-16 17:11:14.000000000,2020-01-16 17:24:15.000000000,closed,2,Fix issue with tf.cast() and implicit dtype conversion
+1210,2020-01-14 21:12:41.000000000,2020-01-15 16:10:27.000000000,closed,1,Link GPflow 2 upgrade guide from intro.ipynb and README.md
+1209,2020-01-14 17:49:54.000000000,1970-01-01 00:00:00.000000001,open,8,Support MultiOutput in GPR and SGPR
+1208,2020-01-13 17:05:43.000000000,2020-01-16 14:32:32.000000000,closed,0,Derivative of the posterior
+1207,2020-01-13 14:37:47.000000000,1970-01-01 00:00:00.000000001,open,0,Keras + GPflow
+1206,2020-01-13 14:36:13.000000000,2020-07-30 15:58:41.000000000,closed,2,Refactor quadrature code
+1205,2020-01-13 14:32:59.000000000,1970-01-01 00:00:00.000000001,open,0,Simplify expectations
+1204,2020-01-13 14:25:30.000000000,1970-01-01 00:00:00.000000001,open,2,Handle leading dimensions
+1203,2020-01-13 14:20:53.000000000,2020-02-24 05:00:50.000000000,closed,0,Custom multiple dispatch to solve the problem with `tf.function(autograph=True)`
+1202,2020-01-13 12:00:41.000000000,2020-01-23 09:41:44.000000000,closed,3,Question about RobustMax
+1201,2020-01-10 17:22:47.000000000,2020-01-10 20:55:35.000000000,closed,1,"TensorFlow 2.1 compatibility, and identify as gpflow.Parameter in repr() to ease debugging"
+1200,2020-01-09 23:15:18.000000000,2020-01-10 21:48:51.000000000,closed,2,reinstate project links in README.md that disappeared when changing develop to 2.0
+1199,2020-01-09 15:43:23.000000000,2020-01-14 19:42:43.000000000,closed,4,Add GPflow 2 upgrade guide
+1198,2020-01-08 21:25:19.000000000,2020-01-15 16:08:15.000000000,closed,10,Add validation to Parameter.assign() to increase robustness of transforms
+1197,2020-01-08 03:16:41.000000000,2020-01-09 19:09:03.000000000,closed,6,GPflow1 to GPflow2: more Cholesky decomposition problems
+1196,2020-01-07 22:47:10.000000000,2020-01-08 02:09:48.000000000,closed,1,Update intro_to_gpflow2.ipynb
+1195,2020-01-07 03:38:38.000000000,1970-01-01 00:00:00.000000001,open,0,ChangePoints kernel does not support active_dims
+1194,2020-01-06 21:18:48.000000000,2020-01-15 16:01:57.000000000,closed,0,Improve previously skipped MultiClass tests
+1193,2020-01-02 20:37:04.000000000,2020-01-08 02:12:16.000000000,closed,4,Add Parameter.assign docstring
+1192,2019-12-28 23:59:52.000000000,2019-12-31 07:32:15.000000000,closed,2,broadcasting of coordinates is not consistent
+1191,2019-12-28 19:31:34.000000000,2020-01-08 02:12:17.000000000,closed,3,`assign()` for new parameters
+1190,2019-12-16 23:17:49.000000000,2019-12-17 18:28:11.000000000,closed,8,Add jit flag to gpflow.optimizers.Scipy
+1189,2019-12-16 20:47:56.000000000,2019-12-18 02:53:01.000000000,closed,7,Accessing different models with different graphs is particularly slow
+1188,2019-12-11 05:23:58.000000000,2019-12-16 22:07:10.000000000,closed,3,From static shapes to dynamic shapes
+1187,2019-12-09 19:50:51.000000000,1970-01-01 00:00:00.000000001,open,1,Enable some handling of slice objects in Kernel.on_separate_dims
+1186,2019-12-09 19:29:02.000000000,2019-12-18 21:33:11.000000000,closed,2,Update SGPR_notes.ipynb
+1185,2019-12-09 17:19:40.000000000,1970-01-01 00:00:00.000000001,open,0,GPflow-2.0: Notebooks are missing tf.function use
+1184,2019-12-09 16:39:18.000000000,2020-03-17 23:12:47.000000000,closed,1,gpflow.utilities.set_trainable vs Parameter.trainable
+1183,2019-12-09 16:34:02.000000000,2020-03-27 17:44:49.000000000,closed,0,Inconsistent nomenclature in multi-output framework
+1182,2019-12-09 15:03:02.000000000,2020-03-27 22:13:28.000000000,closed,1,How to monitor the optimization in gpflow2.0 - missing documentation
+1181,2019-12-06 22:01:04.000000000,2020-01-08 02:15:02.000000000,closed,3,use dynamic shape evaluation instead of static shapes
+1180,2019-12-06 21:50:23.000000000,2020-02-20 16:25:44.000000000,closed,0,Config does not handle environment variables correctly
+1179,2019-12-06 18:42:08.000000000,2020-01-08 02:15:04.000000000,closed,10,static shapes vs dynamic shapes
+1178,2019-12-06 16:49:33.000000000,2019-12-09 19:24:20.000000000,closed,1,fix bug in Kernel.on_separate_dims
+1177,2019-12-06 14:32:19.000000000,2020-02-09 21:37:23.000000000,closed,11,Defining priors with transforms
+1176,2019-12-04 22:37:21.000000000,2020-03-03 21:39:17.000000000,closed,2,Transforms influencing priors
+1175,2019-12-04 19:48:34.000000000,1970-01-01 00:00:00.000000001,open,2,"Code & docs suggest that MultioutputKernels should be compatible with GPR & SGPR, but only work with SVGP"
+1174,2019-12-04 19:43:51.000000000,2019-12-04 20:00:20.000000000,closed,1,Don't mention dockerfile in docs
+1173,2019-12-04 04:19:41.000000000,2020-03-04 02:53:24.000000000,closed,0,Put natgrads back into varying_noise.ipynb
+1172,2019-12-04 04:18:47.000000000,2020-02-14 19:53:55.000000000,closed,0,binary classification notebook assumes wrong link function
+1171,2019-12-03 21:22:43.000000000,2019-12-04 17:27:59.000000000,closed,1,add links to v1.5 documentation to README.md
+1170,2019-12-03 21:05:53.000000000,2019-12-04 19:51:23.000000000,closed,1,Clean up kernel interface
+1169,2019-12-03 20:33:23.000000000,2019-12-03 20:35:13.000000000,closed,1,Eric/test old docs
+1168,2019-12-03 20:28:43.000000000,2019-12-03 21:15:41.000000000,closed,3,add prior to print_summary
+1167,2019-12-02 20:31:14.000000000,2020-02-14 20:10:30.000000000,closed,4,Shared interface for number of output dimensions in multi-output kernels
+1166,2019-11-27 04:20:25.000000000,2019-11-27 04:29:32.000000000,closed,3,Fix printing test
+1165,2019-11-26 23:03:03.000000000,2019-11-29 16:41:52.000000000,closed,1,GPflow notebooks - final copyedits
+1164,2019-11-25 17:03:39.000000000,2019-11-27 01:54:34.000000000,closed,1,Fixes #1080 by casting tensorflow dtypes to numpy dtypes
+1163,2019-11-22 21:35:46.000000000,2019-11-27 01:54:01.000000000,closed,1,ELBO and log marginal likelhood of the SVGP has one data argument
+1162,2019-11-22 14:56:22.000000000,2019-11-27 01:55:58.000000000,closed,4,Assign lower bound directly to likelihood variance.
+1161,2019-11-20 16:45:29.000000000,2019-11-21 22:42:29.000000000,closed,1,Quick-fix docstrings
+1160,2019-11-19 01:53:41.000000000,2019-12-04 03:30:22.000000000,closed,2,"""Independent"" coregionalization model?"
+1159,2019-11-18 19:48:10.000000000,2019-11-19 16:15:14.000000000,closed,1,Stabilise upper bound of `SGPR`.
+1158,2019-11-18 01:39:49.000000000,2019-11-21 21:09:53.000000000,closed,1,Porting the generalized periodic kernel
+1157,2019-11-16 18:01:54.000000000,2019-11-16 18:13:57.000000000,closed,0,Bug fix in mcmc.ipynb
+1156,2019-11-15 05:41:10.000000000,2019-11-17 23:24:16.000000000,closed,2,How to set bounds on parameters in GPflow 2.0?  
+1155,2019-11-14 22:53:19.000000000,2019-11-21 21:48:51.000000000,closed,1,quick fix of documentation mathematics
+1154,2019-11-14 20:07:30.000000000,2019-11-14 20:20:23.000000000,closed,1,Incorrect GPFlow version listed by pip for develop branch
+1153,2019-11-14 17:33:49.000000000,2019-11-14 20:23:19.000000000,closed,2,Prepare release 2.0.0-rc1
+1152,2019-11-14 16:21:39.000000000,2019-11-14 17:23:18.000000000,closed,1,update contributors
+1151,2019-11-14 05:40:49.000000000,2019-11-14 17:22:57.000000000,closed,1,Update README
+1150,2019-11-14 04:17:07.000000000,2019-11-14 16:05:48.000000000,closed,2,Update CircleCI config
+1149,2019-11-14 03:53:20.000000000,2019-11-14 16:54:54.000000000,closed,1,Gaussian process with neural network notebook
+1148,2019-11-14 03:50:07.000000000,2019-11-21 19:33:39.000000000,closed,2,Add config option for positive bijector
+1147,2019-11-13 16:53:29.000000000,2019-11-14 04:25:51.000000000,closed,1,Small fixup for GPLVM and VGP.
+1146,2019-11-13 15:53:37.000000000,2019-11-29 03:05:15.000000000,closed,1,GPflow notebooks: fix merge issues/final changes
+1145,2019-11-12 18:48:05.000000000,2019-11-12 19:24:55.000000000,closed,1,Remove persistent tape in natural gradient
+1144,2019-11-12 15:47:53.000000000,2019-11-14 02:40:37.000000000,closed,3,[Discussion] Contributing
+1143,2019-11-12 15:40:24.000000000,2019-11-12 18:06:19.000000000,closed,1,Fix branch in README
+1142,2019-11-12 03:21:48.000000000,2019-11-27 01:58:58.000000000,closed,7,Natgrad Memory increase in each call
+1141,2019-11-11 16:59:21.000000000,2019-11-11 20:09:49.000000000,closed,1,Updated mixture_density_network notebook
+1140,2019-11-11 14:48:14.000000000,2019-11-11 17:38:25.000000000,closed,1,Update notebook tests
+1139,2019-11-08 22:47:02.000000000,2019-11-10 00:23:37.000000000,closed,1,Deprecate neg_log_marginal_likelihood
+1138,2019-11-08 19:29:34.000000000,2020-02-13 22:49:25.000000000,closed,5,GPflow2 small fixes
+1137,2019-11-08 19:25:41.000000000,2019-11-08 19:29:05.000000000,closed,1,Small fixes for GPflow2
+1136,2019-11-08 18:53:06.000000000,2019-11-08 19:05:15.000000000,closed,1,Fix a bug for slice cov when tf.function(autograph=False) applied.
+1135,2019-11-08 02:22:08.000000000,2019-11-09 18:40:48.000000000,closed,1,Refactor config with a dataclass
+1134,2019-11-07 22:31:12.000000000,2019-11-08 22:16:48.000000000,closed,1,Update notebook external mean function
+1133,2019-11-07 18:38:53.000000000,2019-11-07 19:01:38.000000000,closed,1,Fig importing bug in changepoint.py 
+1132,2019-11-07 17:20:25.000000000,2019-11-08 18:41:48.000000000,closed,2,Use experimental_ref when using tf.Variable as key in Dicts
+1131,2019-11-07 05:02:31.000000000,2019-11-07 16:47:21.000000000,closed,1,Update positive transform
+1130,2019-11-06 04:25:58.000000000,2019-11-06 16:10:58.000000000,closed,1,Clear announcement about GPflow 2.0 in README.md
+1129,2019-11-04 03:21:22.000000000,2019-11-04 03:34:58.000000000,closed,1,Release v1.5.1
+1128,2019-11-01 18:59:17.000000000,2019-11-12 20:24:55.000000000,closed,1,Updated contributors
+1127,2019-11-01 14:18:12.000000000,1970-01-01 00:00:00.000000001,open,8,GPflow 2.0 & tf.saved_model
+1126,2019-10-31 15:22:21.000000000,2019-10-31 15:29:13.000000000,closed,1,Natural gradient notebook fix
+1125,2019-10-30 18:19:28.000000000,2019-10-30 20:55:13.000000000,closed,2,Multiple assign
+1124,2019-10-30 16:17:23.000000000,2019-10-30 17:27:21.000000000,closed,1,Mark/fix set trainable
+1123,2019-10-29 17:24:50.000000000,2019-10-30 15:04:30.000000000,closed,1,"Fix training function, which refers to model in outside scope"
+1122,2019-10-29 14:10:50.000000000,2019-10-29 15:25:51.000000000,closed,1,Fix incorrect escape characters in docs
+1121,2019-10-28 23:28:52.000000000,2019-10-31 15:36:02.000000000,closed,5,Unblacklist some notebooks so tests can run and delete the monitoring
+1120,2019-10-28 16:08:40.000000000,2019-11-13 15:36:59.000000000,closed,6,Create autodocumentation of API for GPFflow.
+1119,2019-10-24 19:54:59.000000000,2020-02-14 20:56:24.000000000,closed,4,How to copy sets of parameter values across models
+1118,2019-10-24 18:26:43.000000000,2019-10-27 20:31:32.000000000,closed,1,GPflow 2.0 notebook update: understanding/models.ipynb
+1117,2019-10-24 18:22:09.000000000,2019-12-03 21:15:40.000000000,closed,0,print_summary does not display information on parameter priors
+1116,2019-10-24 14:59:13.000000000,2019-10-27 20:41:51.000000000,closed,3,GPflow 2.0 notebook update: SGPR upper bound
+1115,2019-10-23 18:42:21.000000000,2019-10-23 19:21:18.000000000,closed,0,Fix convolutional notebook (currently in invalid state for jupyter)
+1114,2019-10-23 14:22:15.000000000,2019-10-23 16:30:09.000000000,closed,1,Set summary format is now fixed
+1113,2019-10-22 20:30:58.000000000,2020-02-26 15:11:38.000000000,closed,7,Finish tips&tricks notebook for gpflow 2
+1112,2019-10-22 19:19:32.000000000,2019-10-27 20:28:50.000000000,closed,6,Change gpflow2 Scipy optimizer default method to L-BFGS-B (as in gpflow1)
+1111,2019-10-22 17:01:05.000000000,2019-10-22 20:54:28.000000000,closed,3,Change step_callback behaviour of Scipy optimizer in gpflow2 to behave as in gpflow1
+1110,2019-10-22 16:57:28.000000000,2019-11-16 16:26:53.000000000,closed,6,Lower-bound default positive transform
+1109,2019-10-22 00:56:10.000000000,2019-10-25 13:34:12.000000000,closed,1,[GPflow 2.0] Natural Gradient
+1108,2019-10-20 20:24:16.000000000,2019-10-22 20:38:11.000000000,closed,1,Traverse function for DAG (tf.Module) structures
+1107,2019-10-18 19:09:13.000000000,2019-11-29 03:05:07.000000000,closed,6,Final pass over GPflow notebooks
+1106,2019-10-17 15:54:59.000000000,2019-10-17 18:46:43.000000000,closed,2,Fix hidden bug in SGPR
+1105,2019-10-16 17:59:34.000000000,2019-10-22 20:40:34.000000000,closed,3,Kernel output in GPflow 2.0 with negative eigenvalues
+1104,2019-10-16 16:46:29.000000000,2019-10-23 14:16:51.000000000,closed,3,GPflow 2.0 notebook update: FITC vs VFE
+1103,2019-10-16 16:14:04.000000000,2019-10-18 19:06:02.000000000,closed,1,Ensure all tf_probability distributions take the correct dtype parameters
+1102,2019-10-16 13:29:07.000000000,2019-10-16 13:39:05.000000000,closed,1,"gpflow.Module.parameter (base for Model) returns an tuple, not generator "
+1101,2019-10-16 13:07:01.000000000,2019-10-16 13:33:56.000000000,closed,1,gpflow installer tries to install tensorflow 1.14 despite tensorflow 1.6 being already installed
+1100,2019-10-14 18:15:31.000000000,2019-11-13 17:27:37.000000000,closed,5,Migrate MCMC notebook to gpflow2.0 
+1099,2019-10-11 20:02:03.000000000,2019-10-15 01:36:48.000000000,closed,1,fix bug in log_prior when a Parameter has a transform but no prior
+1098,2019-10-11 15:04:52.000000000,2019-10-11 18:56:19.000000000,closed,1,Minor cleanup
+1097,2019-10-11 14:45:57.000000000,2019-10-11 15:12:18.000000000,closed,1,Quickfix: enable notebook test of regression.ipynb
+1096,2019-10-10 22:38:23.000000000,2019-10-10 22:40:39.000000000,closed,1,Remove tf_graphs_and_sessions notebook
+1095,2019-10-10 20:45:41.000000000,2020-01-30 21:22:25.000000000,closed,4,Consistency of optimizers
+1094,2019-10-10 01:12:04.000000000,2019-11-07 04:21:59.000000000,closed,11,GPflow 2.0: ChangePoints
+1093,2019-10-10 01:08:38.000000000,2019-10-10 13:34:17.000000000,closed,1,GPflow 2.0: ChangePoints
+1092,2019-10-10 00:34:53.000000000,2019-10-15 14:08:21.000000000,closed,1,Multiclass classification notebook 2.0
+1091,2019-10-09 20:04:35.000000000,1970-01-01 00:00:00.000000001,open,2,MultiClass likelihood quadrature tests missing
+1090,2019-10-08 16:34:01.000000000,2019-10-22 17:12:43.000000000,closed,3,Model training in the GPflow-2-version of the coregionalisation notebook is very slow
+1089,2019-10-08 13:01:30.000000000,2019-10-10 00:35:21.000000000,closed,1,Jordi/multiclass classification notebook
+1088,2019-10-08 02:01:27.000000000,2019-11-16 16:28:42.000000000,closed,9,GPFlow 2.0: ARD and Stationaries Refactor
+1087,2019-10-07 19:46:30.000000000,2019-10-15 14:07:28.000000000,closed,1,GPflow2.0 notebook update: kernel design
+1086,2019-10-07 19:39:21.000000000,2020-02-03 19:58:36.000000000,closed,4,GPflow2: kernel interface
+1085,2019-10-07 18:12:59.000000000,2019-10-07 18:59:12.000000000,closed,1,Test on print_summary now checks string output straight
+1084,2019-10-05 18:24:44.000000000,2019-12-04 18:37:17.000000000,closed,2,Bayesian GPLVM runs out of memory when using quadrature_expectation for latent_dim=4
+1083,2019-10-04 23:33:21.000000000,2019-10-11 14:37:45.000000000,closed,7,GPflow2: Fix behaviour of likelihood quadrature tests
+1082,2019-10-04 23:20:07.000000000,2019-10-10 00:16:01.000000000,closed,2,GPflow2 likelihood tests as well as likelihoods are buggy
+1081,2019-10-04 23:09:29.000000000,2019-10-05 01:39:33.000000000,closed,1,make likelihood quadrature tests comprehensive
+1080,2019-10-04 22:29:40.000000000,2019-11-27 01:54:35.000000000,closed,1,GPflow2 set_default_float and set_default_int accept tf dtypes but that breaks code
+1079,2019-10-04 22:25:34.000000000,2019-10-07 16:47:36.000000000,closed,4,Improve gpflow2 code coverage by adding tests
+1078,2019-10-04 20:28:27.000000000,2019-10-22 20:32:19.000000000,closed,2,GPflow2.0 notebook update: sanity_check.ipynb
+1077,2019-10-04 18:26:26.000000000,2019-11-25 18:37:36.000000000,closed,3,GPflow2: stationary kernels have `ard` flag but does not work
+1076,2019-10-04 17:23:15.000000000,2019-10-11 13:02:36.000000000,closed,1,GPflow2.0 notebook update: regression.ipynb
+1075,2019-10-04 17:06:55.000000000,2019-10-04 19:12:45.000000000,closed,1,Minor RobustMax cleanup
+1074,2019-10-04 16:37:38.000000000,2019-10-08 14:24:16.000000000,closed,3,Clean up dependencies and setup instructions
+1073,2019-10-04 15:18:49.000000000,2019-10-10 00:19:06.000000000,closed,4,Sync notebooks with develop (includes moving files from notebooks2 back to doc/source/notebooks)
+1072,2019-10-03 20:03:30.000000000,2019-10-22 17:13:55.000000000,closed,3,GPflow2.0 notebook update: coregionalisation.ipynb
+1071,2019-10-02 20:26:07.000000000,2019-10-07 17:17:18.000000000,closed,3,James/print compositions
+1070,2019-10-02 16:25:27.000000000,2019-10-04 16:38:08.000000000,closed,2,Update install instructions in README.md
+1069,2019-10-02 14:47:31.000000000,2019-10-02 16:05:36.000000000,closed,1,Update README.md
+1068,2019-10-02 14:02:11.000000000,2019-10-02 14:44:51.000000000,closed,1,Update README.md
+1067,2019-10-02 12:49:16.000000000,2019-10-02 13:50:29.000000000,closed,1,James/test coregion
+1066,2019-10-01 19:55:39.000000000,2019-10-07 19:02:56.000000000,closed,1,print summary fails for sum kernel
+1065,2019-10-01 15:46:20.000000000,2019-10-09 23:45:57.000000000,closed,6,Change points
+1064,2019-09-27 16:31:04.000000000,2019-11-09 21:30:31.000000000,closed,3,Introspect conditional
+1063,2019-09-26 17:02:40.000000000,2019-10-01 19:39:36.000000000,closed,1,Rename inducing_variables -> inducing_variable as model attribute
+1062,2019-09-25 20:35:15.000000000,2019-10-21 18:19:33.000000000,closed,1,Notebook for Variational Fourier Features
+1061,2019-09-25 19:39:12.000000000,2019-09-25 20:31:30.000000000,closed,1,Improved Convolutional GP notebook
+1060,2019-09-25 16:18:53.000000000,2019-10-07 18:09:57.000000000,closed,3,remove default argument to set_trainable (was False)
+1059,2019-09-25 13:57:52.000000000,1970-01-01 00:00:00.000000001,open,0,Inaccuracy in `tf.reduce_sum()` when computing `K_diag()` for multiple inputs
+1058,2019-09-25 13:53:14.000000000,1970-01-01 00:00:00.000000001,open,1,Negative variances from `SVGP.predict_f()`
+1057,2019-09-24 02:18:55.000000000,2019-09-24 02:34:18.000000000,closed,1,Return compatibility with python 3.5
+1056,2019-09-24 00:00:38.000000000,2019-09-24 02:34:19.000000000,closed,1,SyntaxError when importing GPflow
+1055,2019-09-21 20:53:56.000000000,2019-09-22 12:31:42.000000000,closed,2,print_summary fails when called on GPR instance
+1054,2019-09-18 16:54:55.000000000,2019-09-24 12:13:42.000000000,closed,1,Added more elaborate documentation to multioutput notebook.
+1053,2019-09-17 19:14:22.000000000,2019-09-22 13:01:35.000000000,closed,1,GPy and GPflow 2.0 prediction mismatch
+1052,2019-09-17 19:03:09.000000000,2019-10-01 20:32:00.000000000,closed,13,Periodic++
+1051,2019-09-17 16:12:25.000000000,2019-09-22 12:51:54.000000000,closed,1,Can't use float64 in GPflow 2.0
+1050,2019-09-16 15:09:11.000000000,2019-10-11 13:21:28.000000000,closed,1,GPflow2.0 notebook update: varying_noise.ipynb
+1049,2019-09-16 14:29:10.000000000,2019-09-16 14:40:56.000000000,closed,1,GPflow 2.0 notebook update: Ordinal Regression (new PR)
+1048,2019-09-13 19:43:57.000000000,2019-10-01 23:13:51.000000000,closed,3,GPflow 2.0 notebook update: GPs for big data
+1047,2019-09-13 19:00:50.000000000,2019-09-16 14:33:47.000000000,closed,1,GPflow2.0 notebook update: multioutput
+1046,2019-09-13 18:32:30.000000000,2019-09-16 14:31:58.000000000,closed,1,GPflow 2.0 notebook update: Kernels
+1045,2019-09-13 18:14:22.000000000,2019-09-16 14:27:05.000000000,closed,1,GPflow 2.0 notebook update: Ordinal Regression
+1044,2019-09-13 18:02:00.000000000,2019-10-01 19:36:06.000000000,closed,2,GPflow 2.0 notebook update: classification
+1043,2019-09-09 20:38:31.000000000,2019-09-10 13:26:32.000000000,closed,0,SGPR and SGPFITC 
+1042,2019-09-09 16:47:04.000000000,2019-11-19 20:02:39.000000000,closed,2,Add setters to SettingsManager aliases such as float_type
+1041,2019-09-06 18:24:16.000000000,2019-09-09 16:45:35.000000000,closed,2,Fix ImageToTensorboardTask graph pollution
+1040,2019-08-30 18:31:08.000000000,2019-09-01 02:29:40.000000000,closed,1,Cholesky decomposition issue when doing classification with a custom kernel
+1039,2019-08-29 21:16:03.000000000,2020-02-13 16:30:18.000000000,closed,1,Sphinx documentation does not include `__init__` docstring
+1038,2019-08-29 17:28:26.000000000,2019-09-14 01:19:41.000000000,closed,1,Copy edit tweaks for GPflow notebooks
+1037,2019-08-29 14:29:36.000000000,2019-09-04 14:59:57.000000000,closed,0,print_summary now deals with list and dict of tf.Module
+1036,2019-08-28 14:35:17.000000000,2019-11-25 17:11:50.000000000,closed,1,Minor documentation issue: unclear docstring in Scipy's minimize
+1035,2019-08-23 18:12:46.000000000,2019-09-24 13:53:15.000000000,closed,2,Mark/gpflow 2.0/kl dispatch
+1034,2019-08-23 00:57:52.000000000,2019-09-25 16:17:02.000000000,closed,2,Added convolutional code
+1033,2019-08-22 17:35:06.000000000,2019-08-22 21:00:27.000000000,closed,0,Rename RBF to SquaredExponential.
+1032,2019-08-22 15:23:49.000000000,2019-09-02 19:26:28.000000000,closed,1,GPflow copyedits: Kernels notebook
+1031,2019-08-21 17:35:26.000000000,2019-09-12 14:10:21.000000000,closed,1,GPflow manual copyedits: Multi-output Gaussian processes in GPflow
+1030,2019-08-21 16:25:37.000000000,2019-12-04 03:08:16.000000000,closed,3,Sequential calls to predict using VFE and SVGP models
+1029,2019-08-20 02:19:49.000000000,2019-08-22 16:14:10.000000000,closed,1,Inheritance structure for multioutput code + updated multioutput notebook
+1028,2019-08-19 19:27:49.000000000,2019-09-02 19:27:01.000000000,closed,2,GPflow copyedits: Coregionalisation
+1027,2019-08-19 17:46:00.000000000,2019-09-12 14:11:04.000000000,closed,1,GPflow copyedits: Multiclass classification
+1026,2019-08-19 16:58:10.000000000,2019-09-02 19:20:38.000000000,closed,2,GPflow copyedits: Gaussian process regression with varying output noise
+1025,2019-08-16 20:26:08.000000000,2019-09-02 19:19:57.000000000,closed,2,GPflow docs copyedit - MCMC notebook
+1024,2019-08-16 15:01:39.000000000,2019-09-02 19:19:16.000000000,closed,1,GPflow copyedits: Handling TensorFlow graphs and sessions
+1023,2019-08-15 19:52:12.000000000,2019-09-22 00:47:20.000000000,closed,1,GPflow docs copyedit : manipulating models review comments
+1022,2019-08-15 04:20:18.000000000,2019-08-15 14:47:10.000000000,closed,2,Implement SVGP for US Flight data
+1021,2019-08-14 15:39:45.000000000,2019-12-04 03:25:20.000000000,closed,1,Tensorflow serving with gpflow
+1020,2019-08-14 01:16:53.000000000,2019-08-14 01:55:52.000000000,closed,1,Release 1.5.0
+1019,2019-08-12 17:47:03.000000000,2019-08-14 01:02:52.000000000,closed,1,GPflow docs copyedit: Manipulating models
+1018,2019-08-10 17:44:58.000000000,2019-12-02 20:52:24.000000000,closed,5,gpflow 2.0 release
+1017,2019-08-09 20:22:48.000000000,2019-08-13 21:02:22.000000000,closed,1,GPflow manual copyedits: basics section
+1016,2019-08-09 17:32:45.000000000,2019-08-13 16:46:21.000000000,closed,1,GPflow manual - additional minor edits to tips and tricks page
+1015,2019-08-08 18:29:44.000000000,2019-08-08 19:59:21.000000000,closed,1,GPFlow manual copyedit - tips and tricks page
+1014,2019-08-07 20:14:49.000000000,2019-08-13 16:29:43.000000000,closed,1,GPflow manual copyedits
+1013,2019-08-05 21:49:11.000000000,2019-08-07 01:41:32.000000000,closed,1,fix error in python example in contributing readme
+1012,2019-08-04 17:38:16.000000000,2019-08-05 21:46:11.000000000,closed,0,correct error in contributing example
+1011,2019-07-29 03:07:44.000000000,2019-08-14 01:15:14.000000000,closed,2,Reuse Scipy Optimizer [TF1.0]
+1010,2019-07-26 00:32:37.000000000,2019-09-25 14:00:49.000000000,closed,1,Error with importing GPflow
+1009,2019-07-24 15:28:45.000000000,2019-08-09 19:52:58.000000000,closed,1,Mark/mnist restore
+1008,2019-07-22 19:17:56.000000000,2019-07-22 19:43:40.000000000,closed,2,Installation from source fails
+1007,2019-07-22 19:09:56.000000000,2019-07-22 19:41:41.000000000,closed,3,v1.4.1 does not work with TF2
+1006,2019-07-22 19:00:16.000000000,2019-07-22 19:06:43.000000000,closed,1,Installation error from pip
+1005,2019-07-18 13:54:58.000000000,2019-12-02 21:00:11.000000000,closed,1,Autoflowed functions do not complain about erroneous arguments
+1004,2019-07-17 16:34:41.000000000,2019-07-18 18:36:46.000000000,closed,2,Small updates for convolutional kernel
+1003,2019-07-13 02:13:50.000000000,2019-12-04 03:09:23.000000000,closed,6,Prediction is slower than I would expect
+1002,2019-07-12 19:03:16.000000000,1970-01-01 00:00:00.000000001,open,2,Random restarts for hyperparameter optimization
+1001,2019-07-11 17:11:06.000000000,2019-07-11 17:37:25.000000000,closed,1,Change misc.initialize_variables() to not keep adding ops to the graph
+1000,2019-07-11 14:53:04.000000000,2019-07-11 17:14:26.000000000,closed,1,Clean up kernel broadcasting tests & documentation
+999,2019-07-10 13:41:07.000000000,2019-07-10 14:10:40.000000000,closed,1,Upate Dockerfile version in CircleCI config file
+998,2019-07-09 19:10:43.000000000,2019-07-11 18:54:37.000000000,closed,3,Restoring Model with Mean Function doesn't work (tensorflow naming convention problem?)
+997,2019-07-09 18:13:13.000000000,2019-07-10 12:50:23.000000000,closed,1,GPflow TF 1.14 compatible. Fixes optimizers importing issue.
+996,2019-07-05 17:46:58.000000000,2019-07-11 18:05:05.000000000,closed,4,Added convolutional kernel + tests.
+995,2019-07-05 14:25:54.000000000,2019-07-05 15:22:55.000000000,closed,1,Cannot use TensorFlow optimizer (e.g. AdamOptimizer) with TF v1.14
+994,2019-07-03 17:46:04.000000000,2019-07-03 19:48:53.000000000,closed,1,Fixed overflow in `Logistic` transform.
+993,2019-07-01 22:59:43.000000000,2019-07-13 03:42:41.000000000,closed,1,pretrained CNN+GP cannot train
+992,2019-06-20 17:08:44.000000000,2019-07-10 13:09:56.000000000,closed,2,Restrict TensorFlow version < 2.0 
+991,2019-06-19 14:41:37.000000000,2019-06-19 17:10:35.000000000,closed,1,replace multioutput kernel and feature class diagrams with SVG version
+990,2019-06-18 14:12:35.000000000,2019-07-29 03:01:43.000000000,closed,3,Make ScipyOptimizer reusable (without growing tf graph)
+989,2019-06-17 17:40:56.000000000,2019-06-17 21:28:19.000000000,closed,4,Resurrect a couple of notebooks that went missing in #924
+988,2019-06-15 05:55:57.000000000,2019-07-11 18:58:20.000000000,closed,4,"Updating the ""Fully Bayesian Inference..."" example notebook"
+987,2019-06-11 18:24:08.000000000,1970-01-01 00:00:00.000000001,open,5,White kernel is wrong when you have repeated measurements
+986,2019-06-05 20:43:35.000000000,2019-08-04 00:25:48.000000000,closed,4,Variational Bound on BayesianGPLVM seems to have some issues?
+985,2019-06-04 22:23:12.000000000,2019-06-08 01:27:11.000000000,closed,3,InvalidArgumentError in 2D GP with Coregionalization
+984,2019-05-30 16:59:11.000000000,2019-06-15 00:42:14.000000000,closed,2,About A Simple Demonstration of Coregionalisation in GPR model instead of VGP
+983,2019-05-30 01:23:35.000000000,2019-05-30 15:27:02.000000000,closed,1,Update README.md with link to upcoming ICML paper 
+982,2019-05-29 06:54:48.000000000,2019-05-30 15:09:10.000000000,closed,1,set prior for mean
+981,2019-05-28 13:54:02.000000000,2019-05-30 15:04:37.000000000,closed,2,Variational Expectation of Poisson 
+980,2019-05-27 19:24:36.000000000,2019-12-04 02:41:03.000000000,closed,2,NatGrad placeholder issue can be solved
+979,2019-05-27 05:03:52.000000000,2019-05-30 14:42:24.000000000,closed,3,Does whitening have an impact on SVGP fitting?
+978,2019-05-22 10:02:38.000000000,2019-05-22 13:05:22.000000000,closed,5,How to predict latent function values in Multioutput framework?
+977,2019-05-18 16:26:46.000000000,2019-05-22 13:54:06.000000000,closed,1,link_parameter of GPy equivalent in GPflow kernels?
+976,2019-05-17 02:58:25.000000000,2019-12-04 03:43:43.000000000,closed,1,Unable to save large model due to HDF5 header limitation
+975,2019-05-16 09:42:19.000000000,2019-12-04 02:42:17.000000000,closed,11,Restored model objective does not match objective reported during optimisation
+974,2019-05-15 19:09:54.000000000,2019-09-25 14:06:54.000000000,closed,5,"Add ""tips"" for SVGP optimization in practice"
+973,2019-05-14 17:22:11.000000000,2019-05-14 18:10:32.000000000,closed,2,Small changes.
+972,2019-05-13 19:52:52.000000000,2019-05-13 20:32:46.000000000,closed,1,"I am trying to train a GPR model and a tensorflow model together. The training part has no issue. But for prediction using the trained model I receive a type error in a tf.placeholder op .  pred, uncp=sess.run([my, yv], feed_dict={X:xtr}) I have posted the whole code at stackoverflow https://stackoverflow.com/questions/56069296/gp-tensorflow-training, can you pls let me know why this is happening? "
+971,2019-05-07 23:49:05.000000000,2019-05-22 13:56:04.000000000,closed,4,Getting basic periodic model to fit
+970,2019-05-06 21:51:34.000000000,2019-05-15 16:22:05.000000000,closed,2,Haversine Kernel for Kriging
+969,2019-05-06 21:28:39.000000000,2019-05-15 18:34:13.000000000,closed,2,"InvalidArgumentError: Input matrix is not invertible [SVGP with Custom Kernel, Gaussian Likelihood]"
+968,2019-04-22 06:36:20.000000000,2019-05-18 13:53:33.000000000,closed,2,URGENT: FIX TensorFlow api compatibility problem
+967,2019-04-12 12:58:10.000000000,2019-05-07 16:47:44.000000000,closed,1,InvalidArgumentError: Input matrix is not invertible.
+966,2019-04-05 20:18:27.000000000,1970-01-01 00:00:00.000000001,open,2,ndiagquad cannot cope with Y with several columns (lacks broadcasting capability)
+965,2019-04-03 19:00:17.000000000,2019-11-29 03:34:37.000000000,closed,4,DataHolder shape check
+964,2019-04-03 18:27:42.000000000,2019-06-19 19:24:26.000000000,closed,2,proper shape checks for multivariate_normal
+963,2019-04-03 18:13:18.000000000,2019-04-03 22:51:43.000000000,closed,1,Update README
+962,2019-04-01 20:01:04.000000000,2019-04-05 20:53:52.000000000,closed,2,Varying noise notebook
+961,2019-04-01 18:13:38.000000000,2019-05-18 02:06:30.000000000,closed,3,Links to out-of-date documentation on readthedocs
+960,2019-04-01 18:10:31.000000000,2019-04-02 19:14:13.000000000,closed,2,Kernel's hyperparameters;  initialization and setting bounds
+959,2019-04-01 17:41:45.000000000,2019-04-01 17:59:40.000000000,closed,2,Considering observation error
+958,2019-03-28 22:54:58.000000000,2019-03-28 23:42:02.000000000,closed,2,Intermediate Gradients from Optimizer
+957,2019-03-27 19:45:06.000000000,2019-03-28 15:59:29.000000000,closed,1,SwitchedLikelihood workaround for #951
+956,2019-03-26 19:26:39.000000000,2019-03-26 19:35:36.000000000,closed,1,Time Series with Multi-input and Multi-output 
+955,2019-03-18 18:26:08.000000000,2019-03-27 14:00:30.000000000,closed,1,Bernoulli log probability under probit link
+954,2019-03-11 15:57:44.000000000,2019-03-11 16:09:10.000000000,closed,1,Update README.md
+953,2019-03-06 19:27:53.000000000,2019-06-17 21:28:21.000000000,closed,0,Rescue some content from old notebooks after revamp
+952,2019-03-05 16:10:18.000000000,2019-03-07 22:10:27.000000000,closed,1,Fixing bad docstrings in conditionals
+951,2019-03-05 07:01:25.000000000,2019-03-28 15:59:30.000000000,closed,2,SwitchedLikelihood fails in conjunction with likelihoods relying on the quadrature fallback
+950,2019-02-28 14:50:17.000000000,2019-03-01 16:38:45.000000000,closed,1,typo fixes
+949,2019-02-26 20:51:18.000000000,2019-02-26 21:34:37.000000000,closed,4,GPR implementation; is it log(p(Y|X)) or p(y|X) which is maximised?
+948,2019-02-25 16:02:29.000000000,2019-03-06 22:21:45.000000000,closed,1,"Notebook fixes (1/...): intro, tips_and_tricks, basics/"
+947,2019-02-20 22:15:59.000000000,2019-02-20 22:36:24.000000000,closed,1,GPflows
+946,2019-02-20 17:39:33.000000000,2019-02-25 16:28:17.000000000,closed,1,Clean up of multioutput notebook and link to other notebooks
+945,2019-02-19 21:09:56.000000000,2019-03-02 01:57:32.000000000,closed,4,fix fully correlated conditional repeat shapes
+944,2019-02-19 20:50:39.000000000,2019-02-19 21:11:58.000000000,closed,1,Update read-the-docs
+943,2019-02-18 22:34:09.000000000,2019-02-18 23:42:04.000000000,closed,3,created mean function notebook
+942,2019-02-18 21:28:54.000000000,2019-02-18 22:14:10.000000000,closed,1,Va/hackathon mcmc notebook
+941,2019-02-18 20:49:16.000000000,2019-02-18 22:13:18.000000000,closed,1,adding notebook on kernel design
+940,2019-02-18 19:18:16.000000000,2019-02-18 19:32:47.000000000,closed,1,Ordinal regression notebook
+939,2019-02-18 17:56:39.000000000,2019-02-18 21:59:24.000000000,closed,1,Notebook for Mixture Density Network
+938,2019-02-18 17:53:33.000000000,2019-02-18 21:35:22.000000000,closed,1,Graphs and sessions notebook
+937,2019-02-18 17:46:38.000000000,2019-02-18 20:29:53.000000000,closed,1,Mark/notebooks revamp monitor
+936,2019-02-18 17:31:21.000000000,2019-02-18 19:01:24.000000000,closed,1,Nicolas/playing with kernels
+935,2019-02-18 17:07:16.000000000,2019-02-18 19:09:12.000000000,closed,1,Settings notebook.
+934,2019-02-17 21:41:12.000000000,2019-02-19 09:40:50.000000000,closed,2,Non-invertable input matrix for coregionalization
+933,2019-02-15 16:37:39.000000000,2019-02-15 18:32:56.000000000,closed,1,Minor performance improvement: pass Cholesky of K to gauss_kl
+932,2019-02-14 09:30:18.000000000,2019-03-29 00:29:20.000000000,closed,2,AttributeError: module 'gpflow' has no attribute 'kernels'
+931,2019-02-04 21:56:43.000000000,2019-02-04 22:33:58.000000000,closed,1,Nbviewer
+930,2019-02-04 21:53:16.000000000,2019-02-05 17:33:35.000000000,closed,2,Stef/natgrads notebook revamp
+929,2019-02-04 21:51:59.000000000,2019-02-05 16:10:39.000000000,closed,1,Nicolas/notebook classification
+928,2019-02-04 21:10:18.000000000,2019-02-04 21:26:24.000000000,closed,1,restructured coregionalisation notebook
+927,2019-02-04 17:42:47.000000000,2019-02-04 22:42:18.000000000,closed,2,GPLVM notebook
+926,2019-02-04 17:29:08.000000000,2019-02-18 17:00:20.000000000,closed,4,updating multiclass notebook
+925,2019-02-04 16:55:31.000000000,2019-02-18 19:35:18.000000000,closed,1,Victor/ordinal notebook
+924,2019-02-04 15:32:17.000000000,2019-02-19 21:37:33.000000000,closed,2,Revamp of GPflow notebooks
+923,2019-02-04 14:13:01.000000000,2019-03-03 21:28:35.000000000,closed,2,GPflow glossary document
+922,2019-02-02 02:24:20.000000000,2019-02-02 04:15:02.000000000,closed,0,Leading transpose
+921,2019-02-01 21:44:24.000000000,2019-02-01 23:20:09.000000000,closed,1,Minor changes to Tips & Tricks notebook
+920,2019-02-01 19:12:39.000000000,2019-02-01 19:32:53.000000000,closed,2,N dimensional GP Regression
+919,2019-02-01 14:10:15.000000000,2019-02-02 02:22:20.000000000,closed,2,Leading transpose
+918,2019-01-30 18:57:08.000000000,2019-02-02 02:49:14.000000000,closed,3,Adding new notebooks to the documentation
+917,2019-01-29 05:07:54.000000000,2019-02-04 13:50:52.000000000,closed,5,Is gpflow's scaled_euclid_dist as stable as tensorflow_probabilities?
+916,2019-01-29 02:56:06.000000000,2019-01-30 06:11:12.000000000,closed,2,Tips & Tricks notebooks changes
+915,2019-01-28 23:46:06.000000000,2019-02-04 21:26:51.000000000,closed,5,Cleaned up SVGP Notebook
+914,2019-01-28 22:56:51.000000000,2019-01-28 23:13:38.000000000,closed,1,Hackathon 28 January
+913,2019-01-28 21:25:26.000000000,2019-01-28 22:56:13.000000000,closed,2,Tips and tricks notebook
+912,2019-01-28 21:23:30.000000000,2019-06-18 14:52:08.000000000,closed,2,Modified Saver to work with file-like objects as well as path names.
+911,2019-01-28 21:21:48.000000000,2019-01-28 21:32:16.000000000,closed,1,"Typo ""NOSET"" -> ""NOTSET"" in gpflowrc"
+910,2019-01-28 20:23:56.000000000,2019-04-03 22:49:43.000000000,closed,6,"Remove unnecessary warnings, add DataHolder shape check"
+909,2019-01-28 19:49:18.000000000,2019-01-28 19:49:34.000000000,closed,0,fix models maths documentation (#905)
+908,2019-01-28 19:06:39.000000000,2019-01-28 20:17:57.000000000,closed,2,Privatize core methods
+907,2019-01-28 18:35:03.000000000,2019-01-29 16:27:39.000000000,closed,1,Fix AutoBuild metaclass to not screw up method signatures
+906,2019-01-28 18:14:24.000000000,2019-01-28 22:13:42.000000000,closed,1,Hackathon doc cleanup
+905,2019-01-28 16:37:01.000000000,2019-01-28 16:37:44.000000000,closed,0,fix models maths documentation
+904,2019-01-28 16:17:44.000000000,2019-01-28 19:56:29.000000000,closed,0,Update README to include local compilation of docs
+903,2019-01-24 22:13:17.000000000,2019-01-28 21:24:06.000000000,closed,1,"Typo ""NOSET"" -> ""NOTSET"" in gpflowrc"
+902,2019-01-24 19:16:48.000000000,2019-01-28 21:24:23.000000000,closed,1,Modified Saver to work with file-like objects as well as path names.
+901,2019-01-15 13:59:02.000000000,2019-01-29 13:29:40.000000000,closed,6,Fixing coregionalized parameters
+900,2019-01-10 20:56:37.000000000,2019-01-10 21:55:09.000000000,closed,3,Simple example of Cholesky decomposition Issue on kernel matrix
+899,2019-01-09 21:00:40.000000000,2019-01-09 22:25:25.000000000,closed,1,Hotfix Conditionals
+898,2018-12-22 15:27:00.000000000,2019-01-06 05:58:35.000000000,closed,2,Ask people to use SO in ISSUE_TEMPLATE
+897,2018-12-19 19:53:14.000000000,2019-12-06 21:20:03.000000000,closed,6,GPflow for the TF library use case 
+896,2018-12-19 08:50:20.000000000,2018-12-23 03:47:18.000000000,closed,2,Specifying per-observation noise
+895,2018-12-18 21:07:53.000000000,2019-02-04 15:57:35.000000000,closed,4,Broadcasting of conditionals
+894,2018-12-17 20:55:03.000000000,2020-04-16 15:41:13.000000000,closed,7,logprob not updating in hmc sampler
+893,2018-12-14 02:15:51.000000000,2018-12-15 22:51:55.000000000,closed,7,Support for Uncertain Inputs
+892,2018-12-13 15:31:26.000000000,2018-12-21 18:15:28.000000000,closed,2,CircleCI instead of TravisCI
+891,2018-12-12 14:48:15.000000000,2018-12-15 22:52:03.000000000,closed,2,How to set an upper bound on the parameters?
+890,2018-12-05 22:46:13.000000000,2018-12-15 22:54:27.000000000,closed,2,multi-dimensional input hyperparameter optimization search boundaries 
+889,2018-12-05 18:08:35.000000000,2019-04-04 13:56:53.000000000,closed,6,Unable to clear kernel parameters
+888,2018-12-02 14:17:23.000000000,2018-12-03 05:36:06.000000000,closed,1,Travis jobs
+887,2018-12-01 21:16:05.000000000,2018-12-02 05:50:30.000000000,closed,1,Travis configuration
+886,2018-11-27 11:36:40.000000000,2018-12-22 15:20:35.000000000,closed,1,Tracking session in gpflow
+885,2018-11-24 21:08:18.000000000,2018-11-25 23:13:12.000000000,closed,2,Update transforms.py
+884,2018-11-23 16:52:40.000000000,2018-11-23 19:11:09.000000000,closed,3,Travis script
+883,2018-11-23 16:49:03.000000000,2018-11-29 17:18:17.000000000,closed,3,Incorrect kernel parameters with sparse models
+882,2018-11-21 21:15:59.000000000,2018-12-21 18:29:13.000000000,closed,4,broadcasting conditionals
+881,2018-11-20 06:24:25.000000000,2019-03-28 23:44:27.000000000,closed,3,estimate noise level at each covariate
+880,2018-11-19 23:49:13.000000000,2019-03-29 00:17:45.000000000,closed,1,Flexibility in mean functions to mimic random effects models
+879,2018-11-14 19:12:08.000000000,2018-11-15 01:53:24.000000000,closed,1,Mark/compute qu
+878,2018-11-12 16:25:44.000000000,1970-01-01 00:00:00.000000001,open,5,Implement natural gradient optimization for q_diag=True
+877,2018-11-09 15:52:40.000000000,2018-11-29 00:37:14.000000000,closed,2,Support TensorFlow 1.12
+876,2018-11-08 12:26:42.000000000,2019-03-27 14:01:42.000000000,closed,2,Best way for early stopping of the code.
+875,2018-11-06 16:57:13.000000000,2018-12-24 19:12:15.000000000,closed,1,inter-domain GPs in 1.2.0?
+874,2018-11-05 21:05:01.000000000,2018-12-11 15:03:46.000000000,closed,3,How are the inducing points computed?
+873,2018-11-05 18:20:13.000000000,2018-11-06 19:03:47.000000000,closed,1,We should not be using NotImplementedError for `.fixed`.
+872,2018-11-04 17:48:03.000000000,2018-12-29 21:37:38.000000000,closed,1,How to update trained model?
+871,2018-10-21 00:40:00.000000000,2019-11-04 04:05:06.000000000,closed,22,GPflow 2.0
+870,2018-10-19 20:04:24.000000000,2018-10-19 20:38:50.000000000,closed,1,Release version 1.3.0
+869,2018-10-19 16:45:33.000000000,2018-10-19 17:20:06.000000000,closed,1,Release v1.3.0
+868,2018-10-19 15:07:40.000000000,2018-10-19 16:44:18.000000000,closed,1,Release notes 1.3.0
+867,2018-10-19 13:19:10.000000000,2018-11-23 15:21:48.000000000,closed,4,the large dataset problem
+866,2018-10-19 13:13:43.000000000,2018-10-19 13:13:52.000000000,closed,0,##the large input data problem
+865,2018-10-05 12:24:24.000000000,2019-02-21 19:39:52.000000000,closed,2,How to config GPU options?
+864,2018-10-02 14:34:37.000000000,2019-04-04 13:54:05.000000000,closed,0,Documentation improvements
+863,2018-10-02 13:02:25.000000000,2019-02-25 18:38:52.000000000,closed,4,Reproducibility of VGP fit
+862,2018-09-29 23:32:10.000000000,2019-03-28 23:45:52.000000000,closed,3,Implementation of a two sided error term
+861,2018-09-29 19:30:17.000000000,2019-03-29 00:13:57.000000000,closed,5,Would K-fac optimizer be worthwhile to add?
+860,2018-09-28 05:26:00.000000000,2019-03-28 23:46:32.000000000,closed,1,Fitting either Independent or AR(1) GPs
+859,2018-09-26 18:39:59.000000000,2018-09-27 13:24:46.000000000,closed,1,fix GPR docstring
+858,2018-09-25 01:25:55.000000000,2019-12-04 02:38:10.000000000,closed,5,tf.train.Saver needs better documentation
+857,2018-09-22 11:38:51.000000000,2018-10-02 14:23:49.000000000,closed,2,Growing memory usage with retraining
+856,2018-09-21 18:23:31.000000000,2018-09-27 14:14:21.000000000,closed,5,Fixing the problem with monitoring ScipyOptimizer
+855,2018-09-20 14:31:50.000000000,2018-09-20 17:32:34.000000000,closed,3,"Importing gpflow failing, throwing ValueError - ""gpflow/_settings.py"", line 135, ValueError: Config value ""WARNING"" expected to be string"
+854,2018-09-16 20:32:18.000000000,2018-09-28 20:00:19.000000000,closed,1,added link to orthogonally decoupled repo
+853,2018-09-14 19:37:03.000000000,2018-09-14 20:01:27.000000000,closed,0,Update docs_require.txt to supported tensorflow version
+852,2018-09-14 17:28:37.000000000,2019-12-04 02:39:04.000000000,closed,6,Save model to file for reuse
+851,2018-09-13 11:21:18.000000000,2018-09-16 12:36:48.000000000,closed,2,Relationship between new Multi-Output GP and LMC / ICM
+850,2018-09-12 01:18:30.000000000,2018-09-12 04:26:59.000000000,closed,1,installation issues
+849,2018-09-11 13:08:15.000000000,2018-09-19 17:48:09.000000000,closed,1,Clean up notebooks and documentation
+848,2018-09-11 13:03:00.000000000,2018-09-11 16:34:28.000000000,closed,2,GP Regression with Poisson likelihood for 300 observation took  a 65 minutes on Desktop
+847,2018-09-08 02:19:52.000000000,2018-09-14 19:17:44.000000000,closed,1,Initializing the W matrix to random entries is showing error on version 1.2.0
+846,2018-09-07 18:18:52.000000000,1970-01-01 00:00:00.000000001,open,1,Doc(string) updates
+845,2018-09-06 19:42:27.000000000,2018-12-07 21:13:09.000000000,closed,2,Custom block diagonal kernel: Incompatible shapes error
+844,2018-09-05 14:03:53.000000000,2018-11-12 15:57:13.000000000,closed,2,Why are self-references not allowed in ParamList's
+843,2018-09-04 17:37:31.000000000,2019-03-28 23:48:47.000000000,closed,4,Using while-loops in custom kernel
+842,2018-09-04 13:50:42.000000000,2018-09-04 14:03:24.000000000,closed,1,Installation issues
+841,2018-09-01 21:24:34.000000000,2018-09-19 17:26:48.000000000,closed,6,Syntax error in documentation
+840,2018-08-31 16:28:55.000000000,2018-09-05 19:12:03.000000000,closed,3,fix active_dims=slice
+839,2018-08-31 16:23:09.000000000,2018-09-05 19:12:04.000000000,closed,0,slice active_dims
+838,2018-08-31 03:01:32.000000000,2018-08-31 18:50:00.000000000,closed,2,[discussion] GP regression: sampling from prior
+837,2018-08-30 14:01:36.000000000,2018-08-30 14:11:57.000000000,closed,1,high dimnesional data regression IndexError: tuple index out of range
+836,2018-08-30 02:15:03.000000000,2018-09-12 23:01:16.000000000,closed,5,"sample_conditional to return mean and var as well as samples, and generate more than one sample"
+835,2018-08-29 20:32:48.000000000,2018-09-05 03:45:38.000000000,closed,2,Likelihood of new dataset given an optimized GP
+834,2018-08-29 18:31:06.000000000,2019-03-29 00:32:08.000000000,closed,3,Question: Multiple-view Classification
+833,2018-08-25 22:33:10.000000000,2019-03-29 00:12:08.000000000,closed,5,Hessian matrix
+832,2018-08-25 04:00:57.000000000,2019-04-04 13:51:08.000000000,closed,2,"Could not find signature for _expectation: <Gaussian, Periodic, NoneType, NoneType, NoneType>"
+831,2018-08-23 00:56:49.000000000,2020-05-07 14:39:02.000000000,closed,6,SGPR build likelihood is incorrect for Multioutput
+830,2018-08-22 19:58:49.000000000,2018-08-30 02:11:38.000000000,closed,7,Added MixedKernelSeparateMof
+829,2018-08-19 20:54:11.000000000,2018-08-22 18:13:40.000000000,closed,4,support broadcasting
+828,2018-08-18 14:40:52.000000000,2018-08-21 18:46:25.000000000,closed,1,Separate K_r and K_r2 for stationary kernels
+827,2018-08-18 00:58:46.000000000,2018-08-22 14:26:47.000000000,closed,3,Cleaning up stationary kernel implementations
+826,2018-08-17 16:34:01.000000000,2018-08-19 21:00:57.000000000,closed,2,added eps and full cov to sample_conditional
+825,2018-08-17 12:57:07.000000000,2018-08-17 23:05:27.000000000,closed,2,Adding widedeepnetworks repository link
+824,2018-08-17 12:40:55.000000000,2019-12-04 03:44:11.000000000,closed,6,TensorFlow 2.0 implications for GPflow
+823,2018-08-14 03:09:24.000000000,2018-08-16 14:30:05.000000000,closed,1,extended docstring for ndiagquad
+822,2018-08-09 03:59:41.000000000,2018-08-22 17:14:18.000000000,closed,1,Citations
+821,2018-08-08 17:24:18.000000000,2018-08-14 03:08:15.000000000,closed,2,Bugfix control dependencie in likelihoods
+820,2018-07-30 15:54:29.000000000,2019-12-04 03:00:03.000000000,closed,4,Training large datasets with natural gradients
+819,2018-07-27 23:27:37.000000000,2019-04-04 13:52:39.000000000,closed,4,"Dispatch fails to Conditional(feat: SeparateIndependentMof, kern: SeparateMixedMok)"
+818,2018-07-26 11:26:54.000000000,1970-01-01 00:00:00.000000001,open,3,Shape issues with multioutput kernels
+817,2018-07-24 13:14:34.000000000,2018-07-24 19:54:57.000000000,closed,2,Request for zero inflated Gaussian process regression
+816,2018-07-23 20:00:11.000000000,2018-08-06 13:49:37.000000000,closed,1,remove references to six module
+815,2018-07-19 20:10:13.000000000,2019-12-04 03:26:36.000000000,closed,3,Parallelization of the training of multiple GP models. 
+814,2018-07-19 16:15:14.000000000,2018-07-19 17:19:51.000000000,closed,3,Parameter.trainable was not properly a property and Parameterized.trainable did not special-case DataHolders
+813,2018-07-17 14:18:04.000000000,2018-07-17 16:58:32.000000000,closed,3,Fix bug in ndiag_mc re multi-dimensional kwargs
+812,2018-07-11 16:24:32.000000000,2018-07-11 16:50:45.000000000,closed,1,Update version.py file to 1.2.0
+811,2018-07-10 18:18:50.000000000,2018-07-11 14:58:40.000000000,closed,3,Optimizer's callback accept step number.
+810,2018-07-09 17:53:19.000000000,2018-07-11 15:21:33.000000000,closed,2,Update release notes
+809,2018-07-03 00:49:02.000000000,2019-05-18 02:04:17.000000000,closed,1,VGP model cannot cope with updating training data
+808,2018-07-02 19:40:27.000000000,2018-07-02 20:38:36.000000000,closed,1,How is it possible to get *positive* log_likelihoods? [discussion]
+807,2018-06-29 16:30:26.000000000,2018-07-10 15:13:26.000000000,closed,15,"Fixed discovered problem with the monitor, in particular with TensorBoard tasks"
+806,2018-06-29 13:24:43.000000000,2018-06-29 13:48:29.000000000,closed,2,Store tf seed and np seed in checkpoint
+805,2018-06-28 21:53:12.000000000,2018-06-29 13:48:19.000000000,closed,1,GPFlow_Monitor in Action interface
+804,2018-06-28 15:26:11.000000000,2018-06-28 16:59:51.000000000,closed,1,Softmax fix
+803,2018-06-28 13:54:30.000000000,2018-06-28 14:07:18.000000000,closed,0,Issue with multidimensionalinput data
+802,2018-06-27 19:25:50.000000000,1970-01-01 00:00:00.000000001,open,0,Hard-coded dtypes in likelihoods & no checking for valid Y values
+801,2018-06-27 06:50:31.000000000,2018-06-27 15:03:37.000000000,closed,3,Question on full covariance for q and whitening
+800,2018-06-21 14:18:14.000000000,2019-03-29 00:26:31.000000000,closed,3,Adding numerical stability to low triangular transform
+799,2018-06-20 19:28:14.000000000,2018-06-27 15:19:27.000000000,closed,7,Monte-Carlo likelihoods
+798,2018-06-18 19:17:00.000000000,2019-09-11 17:25:06.000000000,closed,16,Huge overhead costs when minimize is called many times in same python session
+797,2018-06-18 19:13:38.000000000,2018-06-18 20:53:57.000000000,closed,4,ScipyOptimizer initial values
+796,2018-06-18 17:01:08.000000000,2018-06-18 19:12:29.000000000,closed,5,Interpretation of Multi-Class
+795,2018-06-18 05:16:24.000000000,2018-06-18 19:01:30.000000000,closed,1,How to use the minibatch mode to train the SVGP
+794,2018-06-15 19:36:12.000000000,2018-10-21 19:00:12.000000000,closed,17,Use a single index-tensor in vec_to_tri instead of map_fn
+793,2018-06-15 17:52:47.000000000,2018-06-27 15:04:47.000000000,closed,1,New version request 
+792,2018-06-15 15:21:14.000000000,2018-06-28 15:57:28.000000000,closed,10,New monitor initial commit
+791,2018-06-14 04:48:22.000000000,2019-04-04 20:53:57.000000000,closed,1,Multiclass notebook: HMC does not mix
+790,2018-06-13 23:58:46.000000000,2019-12-04 03:45:39.000000000,closed,10,Gradients of predictive mean and variance w.r.t. GP hyperparameters
+789,2018-06-13 14:16:57.000000000,2018-06-19 17:19:35.000000000,closed,5,Speed up notebooks
+788,2018-06-12 23:35:52.000000000,2018-06-13 13:39:01.000000000,closed,1,Fix failing unittest under TensorFlow 1.8
+787,2018-06-12 20:42:09.000000000,2018-06-12 23:00:04.000000000,closed,3,Support Python 3.5.2 in typing checks (Ubuntu 16.04 default python3)
+786,2018-06-12 15:37:56.000000000,2018-06-27 15:08:05.000000000,closed,1,Adding Changepoint and/or Changewindow kernels
+785,2018-06-12 14:37:46.000000000,2018-06-12 18:48:00.000000000,closed,1,rename full_cov_output to full_output_cov
+784,2018-06-12 03:37:36.000000000,2018-06-12 13:45:11.000000000,closed,5,Is there a missing sqrt(2)/2**(d/2) in quadrature?
+783,2018-06-12 00:56:38.000000000,2018-06-19 12:49:14.000000000,closed,7,multi output sparse GP with different kernels but same inducing points
+782,2018-06-11 12:48:39.000000000,2019-12-04 03:36:43.000000000,closed,8,Asymmetric multi-task GP kernel 
+781,2018-06-08 18:01:52.000000000,2018-06-09 17:20:58.000000000,closed,2,Help with installation error? #discussion
+780,2018-06-05 18:46:38.000000000,2018-06-27 15:11:03.000000000,closed,3,Request for sampling from posterior
+779,2018-06-04 13:03:38.000000000,2018-06-27 15:09:47.000000000,closed,1,Eager mode
+778,2018-06-04 11:00:26.000000000,2018-06-04 13:25:36.000000000,closed,2,The trainable parameters of the GP model are randomly named.
+777,2018-06-01 23:03:17.000000000,2018-06-15 14:31:27.000000000,closed,2,Likelihood/students t variance scaling
+776,2018-06-01 21:08:30.000000000,2018-06-27 15:10:31.000000000,closed,1,cannot import name 'MappingMixin'
+775,2018-06-01 17:45:08.000000000,2018-09-19 17:27:50.000000000,closed,2,notebooks/multiclass.ipynb uses kernels instead of kern_list
+774,2018-05-31 15:33:05.000000000,2018-06-01 05:31:46.000000000,closed,4,UserWarning: Shape of x must be 2D at computation
+773,2018-05-30 01:25:41.000000000,2018-08-31 21:57:47.000000000,closed,1,add link to github.com/Joshuaalbert/heterogp in lieu of #735
+772,2018-05-26 16:26:17.000000000,2018-05-28 11:27:00.000000000,closed,5,mean functions per output dimension
+771,2018-05-25 15:52:24.000000000,2018-07-23 15:52:58.000000000,closed,3,Small adjustment to let ndiagquad pass non-Tensor keywords
+770,2018-05-25 15:15:47.000000000,2018-05-30 02:49:13.000000000,closed,2,Add **unused_kwargs to likelihood methods now that ndiagquad is used
+769,2018-05-24 13:06:24.000000000,2018-05-28 02:13:23.000000000,closed,2,Question: Tfdbg with GPFlow
+768,2018-05-23 19:52:51.000000000,2018-06-19 19:00:12.000000000,closed,3,removed jitter in nat grads
+767,2018-05-23 19:35:31.000000000,2018-06-19 19:00:12.000000000,closed,0,Jitter not handled correctly in nat grads
+766,2018-05-23 17:35:14.000000000,2018-05-30 16:28:22.000000000,closed,5,Naming of kernels to change parameters
+765,2018-05-23 15:50:18.000000000,2018-06-21 10:00:20.000000000,closed,3,Making kernel list for separate GPs in case of multi-output GPs.
+764,2018-05-22 17:38:31.000000000,2018-05-23 01:33:18.000000000,closed,3,Add logger to settings
+763,2018-05-19 20:14:50.000000000,2018-05-21 16:28:52.000000000,closed,1,Possible to implement MCMC in VGP models?
+762,2018-05-18 12:45:08.000000000,2018-05-21 16:39:43.000000000,closed,3,how to predict x_* given y_* using GPLVM?
+761,2018-05-17 15:28:22.000000000,2018-05-22 16:52:47.000000000,closed,4,Mitigate ScipyOptimizer graph expansion by initializing optimize_tensor only once
+760,2018-05-16 17:35:43.000000000,2018-05-17 12:58:17.000000000,closed,1,updating readthedocs link in readme to point at master
+759,2018-05-16 15:31:34.000000000,2018-05-16 16:23:23.000000000,closed,1,Allow Saver to not restore
+758,2018-05-15 21:28:57.000000000,2019-12-04 03:37:40.000000000,closed,2,Implementation Hidden Physics Models
+757,2018-05-15 08:34:45.000000000,2018-05-15 14:20:33.000000000,closed,1,Can kernels other than periodic be used in SGPR
+756,2018-05-14 18:51:02.000000000,2018-05-18 14:56:45.000000000,closed,12,Optimization slows down when redone many times
+755,2018-05-11 14:44:58.000000000,2018-05-15 14:13:08.000000000,closed,2,Constraining a parameter using the value of another parameter
+754,2018-05-10 23:23:55.000000000,2018-08-30 13:23:10.000000000,closed,6,RBF Cross-Covariance
+753,2018-05-10 21:30:22.000000000,2018-05-11 20:09:36.000000000,closed,9,Saving and restoring models from file
+752,2018-05-10 18:44:36.000000000,2018-05-10 19:52:23.000000000,closed,1,"fix for Param(shape=(1,)) in ModelTensorboard"
+751,2018-05-10 17:38:42.000000000,2018-05-10 18:24:13.000000000,closed,1,quickfix for bug with params_as_tensors_for
+750,2018-05-09 16:36:34.000000000,2018-05-15 14:15:05.000000000,closed,1,Implementing Beta-binomial likelihood
+749,2018-05-07 22:25:24.000000000,2018-05-15 14:16:26.000000000,closed,5,Inheritance of the GPLVM model raises an error
+748,2018-05-06 07:30:59.000000000,2019-02-25 18:43:59.000000000,closed,7,Unmaintained scripts in doc/source/notebooks
+747,2018-05-06 02:07:05.000000000,2018-06-13 17:21:25.000000000,closed,7,ndiagquad logspace feature for improved numerical stability
+746,2018-05-05 15:42:15.000000000,2018-05-06 02:52:54.000000000,closed,1,remove from __future__ imports and add some copyright notes
+745,2018-05-05 14:23:33.000000000,2018-05-08 23:57:49.000000000,closed,1,Improve docstring of Periodic kernel
+744,2018-05-04 18:29:54.000000000,2018-05-04 19:09:26.000000000,closed,2,Cannot pip install from requirements containing numpy and gpy
+743,2018-05-04 17:57:55.000000000,2018-05-15 01:47:59.000000000,closed,7,"update m.X, m.Y become slower"
+742,2018-05-02 21:44:36.000000000,2018-05-04 01:35:06.000000000,closed,4,Fixed `gauss_kl` when the shape of the Gaussian parameters is unknown
+741,2018-05-02 16:16:21.000000000,2018-05-03 00:30:07.000000000,closed,2,Extend contributing.md
+740,2018-05-02 13:28:35.000000000,2018-05-02 15:15:57.000000000,closed,1,as_pandas_table: copy value before adding to DataFrame
+739,2018-05-02 12:54:59.000000000,2018-05-02 14:32:25.000000000,closed,5,Relating the spectral mixture kernel parameters to their GPflow counterparts
+738,2018-05-02 02:37:21.000000000,2018-05-02 13:00:51.000000000,closed,3,GPflow ScipyOptimizer passes options to actual ScipyOptimizer incorrectly
+737,2018-05-01 19:01:39.000000000,2018-05-02 13:02:58.000000000,closed,2,Matrix multiplication and kernels
+736,2018-05-01 17:03:07.000000000,2018-05-04 19:50:13.000000000,closed,5,Improved quadrature for likelihoods
+735,2018-04-30 19:30:12.000000000,2018-05-01 01:09:37.000000000,closed,10,New heteroscedastic noise GP latent model with example notebook
+734,2018-04-29 21:13:37.000000000,2018-05-04 01:38:53.000000000,closed,2,Problem with KL_divergence.
+733,2018-04-27 12:48:27.000000000,2018-05-02 15:12:31.000000000,closed,3,How to specify a GP-LVM with p(x)~GP 
+732,2018-04-26 20:31:36.000000000,2018-05-02 14:33:47.000000000,closed,4,Same code gives Cholesky error on a different machine with CPU
+731,2018-04-26 17:28:07.000000000,2018-04-26 17:53:53.000000000,closed,1,removing errant file
+730,2018-04-25 21:00:13.000000000,2018-04-29 20:29:56.000000000,closed,1,GPR with stocastic gradient descent?
+729,2018-04-23 22:17:39.000000000,2018-04-24 12:33:26.000000000,closed,1,How to get lengthscales for multiple additive kernels?
+728,2018-04-23 17:35:40.000000000,2018-05-03 00:59:16.000000000,closed,4,Placeholder error when combining Keras and GPflow
+727,2018-04-22 00:39:56.000000000,2018-05-01 00:59:30.000000000,closed,13,Numerically stable Matern32
+726,2018-04-21 21:42:30.000000000,2018-05-02 14:39:57.000000000,closed,3,Problem for gpflow.models.VGP  using CUDA
+725,2018-04-18 23:09:57.000000000,2018-05-04 01:39:28.000000000,closed,2,`gauss_kl` error when mean has non-static shape
+724,2018-04-17 20:19:34.000000000,2018-06-18 21:04:07.000000000,closed,4,Multi-output conditionals
+723,2018-04-17 17:57:19.000000000,2018-04-17 18:24:06.000000000,closed,2,Pytest used by test_util module
+722,2018-04-16 19:27:41.000000000,2018-04-29 20:33:25.000000000,closed,2,Implementing slice on feature matrix X for mean function
+721,2018-04-16 12:53:07.000000000,2018-05-01 13:09:36.000000000,closed,2,Unify calling signature of (log)densities
+720,2018-04-16 11:04:39.000000000,2018-04-19 04:35:59.000000000,closed,2,How to reset the self.X and self.Y in the model
+719,2018-04-15 16:01:24.000000000,2018-04-19 16:06:29.000000000,closed,7,Resetting kernels
+718,2018-04-15 03:49:18.000000000,2018-04-29 20:33:59.000000000,closed,1,Student T Prior?
+717,2018-04-15 01:59:41.000000000,2018-04-30 20:35:23.000000000,closed,4,Add Exponential distribution as prior
+716,2018-04-14 13:08:24.000000000,2018-05-02 14:34:06.000000000,closed,2,Predictive mean GP regression model as covariance function
+715,2018-04-13 21:06:47.000000000,2018-05-02 14:51:33.000000000,closed,1,Access a ParamList with tensor index for use with tf.map_fn
+714,2018-04-12 01:43:50.000000000,2018-04-12 13:08:00.000000000,closed,2,Optimizers incompatibility with TensorFlow >= 1.6
+713,2018-04-11 18:35:32.000000000,2018-04-12 14:05:12.000000000,closed,3,GitHub PR and issue templates.
+712,2018-04-11 03:17:21.000000000,2018-06-20 18:59:07.000000000,closed,8,Notebook to demonstrate advanced usage such as combining GP with Neural Network
+711,2018-04-11 03:13:38.000000000,2018-05-02 14:35:43.000000000,closed,5,GPflow model zoo?
+710,2018-04-10 02:02:21.000000000,2018-04-10 02:33:18.000000000,closed,1,implementing a non-separable kernel in GPflow
+709,2018-04-08 21:15:26.000000000,2018-04-22 20:12:44.000000000,closed,8,Coregionalization implementation help
+708,2018-04-06 02:11:58.000000000,2018-05-02 14:38:16.000000000,closed,13,Autoflow issue / documentation needed
+707,2018-04-05 22:26:03.000000000,2018-04-12 14:08:49.000000000,closed,4,Error when running AdamOptimizer
+706,2018-04-05 18:59:55.000000000,2018-04-16 18:55:17.000000000,closed,1,a first mixedmok test
+705,2018-04-05 14:21:19.000000000,2018-05-09 22:21:58.000000000,closed,2,Start for inclusion of `gpflow-monitor`
+704,2018-04-05 12:38:49.000000000,2018-06-26 14:18:10.000000000,closed,4,changed Minibatch class so that it can change the shape of data freely
+703,2018-04-05 04:21:17.000000000,2018-09-19 17:29:55.000000000,closed,6,MCMC example documentation on readthedocs didn't render
+702,2018-04-04 15:59:33.000000000,2018-05-02 14:40:36.000000000,closed,3,An action's watcher is not initialized properly
+701,2018-04-03 18:01:58.000000000,2018-04-04 12:27:29.000000000,closed,2,expectations: pass num hermite points to _expectation() and minor cleaning
+700,2018-04-03 17:55:09.000000000,2018-04-04 02:18:10.000000000,closed,4,Fixed regression to bug in #615
+699,2018-04-02 22:10:16.000000000,2018-05-02 14:51:48.000000000,closed,3,Params and DataHolders converted to NoneType when using @params_as_tensors decorator
+698,2018-03-29 17:11:31.000000000,2018-03-30 20:20:27.000000000,closed,1,Tidy up notebook
+697,2018-03-29 13:50:53.000000000,2018-04-10 18:50:38.000000000,closed,3,pytest dependency not specified
+696,2018-03-29 01:10:44.000000000,2018-03-29 14:51:23.000000000,closed,2,NatGrads notebook cleanup
+695,2018-03-28 17:05:31.000000000,2018-04-04 15:10:46.000000000,closed,5,name gaussian likelihoods
+694,2018-03-28 02:57:22.000000000,2018-04-30 14:44:40.000000000,closed,3,add shape check for ARD hyperparameters to Kernel classes
+693,2018-03-27 23:56:01.000000000,2018-04-04 12:27:43.000000000,closed,8,added kwargs in _expectations to pass around gauss_hermite points. Al…
+692,2018-03-27 22:40:19.000000000,2018-05-21 23:40:31.000000000,closed,9,Input matrix is not invertible
+691,2018-03-27 19:01:13.000000000,2018-03-28 15:10:42.000000000,closed,1,Natural gradients notebook
+690,2018-03-26 21:41:49.000000000,2019-11-14 21:30:17.000000000,closed,4,Added a comparison of manual implementation of KL with implementations based on tf.contrib.distributions
+689,2018-03-23 08:32:07.000000000,2018-05-02 14:41:10.000000000,closed,15,Model store to file
+688,2018-03-22 21:19:06.000000000,2018-03-26 13:20:51.000000000,closed,1,Fixed ModuleNotFoundError
+687,2018-03-22 21:14:19.000000000,2018-03-26 14:16:36.000000000,closed,1,ModuleNotFoundError: No module named 'gpflow'
+686,2018-03-22 21:09:30.000000000,2018-05-02 14:51:18.000000000,closed,3,Is it possible to embed gpflow models in a TF graph
+685,2018-03-22 19:30:10.000000000,2018-05-01 01:21:43.000000000,closed,6,Remove Matern's numerical issues
+684,2018-03-20 19:19:21.000000000,2018-03-20 19:22:24.000000000,closed,1,SVGP should use condionals.conditional instead of features.conditional?
+683,2018-03-18 17:56:00.000000000,2018-03-18 19:57:07.000000000,closed,2,Possible inconsistency with other GPR implementation
+682,2018-03-18 04:24:29.000000000,2018-03-26 17:21:04.000000000,closed,2,Update gauss_kl to work with K matrices of shape L x M x M (previously M x M only)
+681,2018-03-16 05:07:20.000000000,2018-03-17 07:12:46.000000000,closed,2, TypeError: unsupported operand type(s) for +: 'Tensor' and 'float'
+680,2018-03-16 03:38:05.000000000,2018-04-10 18:44:37.000000000,closed,1,cannot import name misc
+679,2018-03-15 20:04:42.000000000,2018-04-16 18:54:21.000000000,closed,3,updating docstrings
+678,2018-03-11 23:31:37.000000000,2018-03-27 14:27:18.000000000,closed,3,GPflow Actions.
+677,2018-03-10 20:49:40.000000000,2018-04-12 14:10:02.000000000,closed,6,broken with tensorflow 1.6
+676,2018-03-09 19:31:01.000000000,2018-03-09 19:34:19.000000000,closed,1,Vdutor/mixedmulti
+675,2018-03-09 19:23:30.000000000,2018-03-09 19:26:38.000000000,closed,0,Merge in Vincent's changes
+674,2018-03-08 19:10:52.000000000,2018-03-20 16:37:24.000000000,closed,2,Natural Gradient Optimizer
+673,2018-03-08 16:52:58.000000000,1970-01-01 00:00:00.000000001,open,13,Kullback–Leibler divergence using TF distributions
+672,2018-03-08 16:14:58.000000000,2018-04-04 14:13:54.000000000,closed,4,allow params_as_tensors_for() to take several objects as varargs
+671,2018-03-08 13:03:18.000000000,2018-03-09 19:25:43.000000000,closed,1,GPFlow with missing values / sparse observation matrix?
+670,2018-03-08 11:37:59.000000000,2018-03-09 19:25:39.000000000,closed,1,"Unable to pickle: ""TypeError: can't pickle _thread.lock objects"""
+669,2018-03-07 18:10:32.000000000,2018-03-09 19:29:16.000000000,closed,3,"Move to multiple dispatch for Kuu & Kuf, and some other cleaning-up"
+668,2018-03-06 21:51:14.000000000,2018-03-06 22:50:10.000000000,closed,0,Vdutor/mixedmulti
+667,2018-03-05 19:50:02.000000000,2018-05-02 14:50:33.000000000,closed,2,Model <-> ... <-> GPModel
+666,2018-03-04 19:39:01.000000000,2018-03-06 00:41:15.000000000,closed,1,Adds rational-quadratic kernel and minor clean-up of notation
+665,2018-03-02 15:10:34.000000000,2018-03-07 23:44:02.000000000,closed,2,Minor improvement to decorators and AutoBuild
+664,2018-03-01 22:04:47.000000000,2018-03-07 18:08:27.000000000,closed,3,Added simple multi-output kernels with various features for inference.
+663,2018-03-01 19:25:29.000000000,2018-03-01 21:39:29.000000000,closed,4,Is there support for sparse array/sparse_placeholder? [question]
+662,2018-02-28 10:28:36.000000000,2018-02-28 16:25:09.000000000,closed,2,GPR using Linear Kernel and multi-dimension input
+661,2018-02-27 19:21:51.000000000,2018-02-27 22:02:10.000000000,closed,1,Corrected the PCA implementation
+660,2018-02-27 05:12:31.000000000,2018-04-19 18:24:03.000000000,closed,3,Model saver
+659,2018-02-26 18:26:21.000000000,2018-02-27 19:33:23.000000000,closed,20,Using gpflow multithreaded (how to control graphs and sessions)
+658,2018-02-26 13:31:51.000000000,2018-02-26 16:01:35.000000000,closed,3,Make a kernel function
+657,2018-02-24 04:14:39.000000000,2018-02-27 11:27:55.000000000,closed,2,Re-setting data in a GPModel
+656,2018-02-23 00:15:44.000000000,2018-03-07 02:46:26.000000000,closed,4,fix consistency of triangular transform
+655,2018-02-22 16:26:17.000000000,2020-04-01 17:24:21.000000000,closed,5,Improve MCMC handling
+654,2018-02-21 22:07:37.000000000,2018-02-21 22:27:11.000000000,closed,1,fixed squeezing bug in LowerTriangular transform
+653,2018-02-21 16:05:20.000000000,2018-03-10 03:08:31.000000000,closed,4,remove conditional shape changes from multivariate_normal
+652,2018-02-19 14:40:56.000000000,2018-03-12 03:15:40.000000000,closed,3,James/py27 docfix
+651,2018-02-18 04:23:04.000000000,2018-02-18 14:30:32.000000000,closed,4,Gradient at a point?
+650,2018-02-13 17:19:52.000000000,2019-03-29 00:25:13.000000000,closed,11,Fitting a kernel to multiple datasets/Linking kernel parameters of separate GP instances #discussion
+649,2018-02-13 17:08:46.000000000,2018-02-18 16:03:32.000000000,closed,2,fixed merge conflicts in the notebooks
+648,2018-02-09 07:19:46.000000000,2018-04-27 17:36:44.000000000,closed,6,Deterministic ordering of variable list to enable reproducible results with ScipyOptimizer
+647,2018-02-08 17:39:07.000000000,2018-02-08 18:01:45.000000000,closed,1,Small pull request to use `settings.float_type` when creating `Parameter`s
+646,2018-02-07 03:53:00.000000000,2018-02-07 19:00:18.000000000,closed,1,"Faster, More Stable Kernel Expectations"
+645,2018-02-06 04:33:27.000000000,2018-02-14 03:11:52.000000000,closed,2,Refactor index & naming rules.
+644,2018-02-05 22:25:08.000000000,2018-02-08 17:37:17.000000000,closed,2,Update mean_functions.py
+643,2018-02-05 19:55:42.000000000,2018-02-05 23:05:16.000000000,closed,4,Calculating gradients with respect to input variables using GPFlow
+642,2018-02-03 21:54:00.000000000,2018-02-07 21:32:35.000000000,closed,2,<__str__> must implement pandas printing not <__repr__>
+641,2018-02-03 02:04:05.000000000,2018-02-07 03:46:35.000000000,closed,4,"Faster, More Stable Kernel Expectations"
+640,2018-02-02 15:29:02.000000000,2018-02-08 17:40:46.000000000,closed,2,Issue with linear mean function.
+639,2018-02-02 14:01:00.000000000,2018-05-02 14:41:28.000000000,closed,1,A question about Coregionalization case using Gpflow
+638,2018-02-01 18:43:40.000000000,2019-12-04 03:13:49.000000000,closed,5,fragility of minibatches
+637,2018-01-31 22:09:05.000000000,2018-02-02 15:43:11.000000000,closed,4,Display Loss  during Optimization
+636,2018-01-29 19:58:45.000000000,2018-01-31 21:54:45.000000000,closed,2,remove reindex_axis call in pretty_pandas_table
+635,2018-01-27 20:16:42.000000000,2018-04-30 21:50:32.000000000,closed,4,Allow the epsilon parameter of the Robustmax likelihood to be trainable
+634,2018-01-25 20:29:24.000000000,2018-08-24 21:14:20.000000000,closed,17,Cross-covariance between different RBF kernels
+633,2018-01-25 02:50:05.000000000,2018-05-02 16:51:54.000000000,closed,3,Update Dockerfile to support latest version
+632,2018-01-23 21:16:36.000000000,2018-01-23 21:38:58.000000000,closed,2,Vincent/pickling
+631,2018-01-23 18:37:21.000000000,2018-02-18 04:33:22.000000000,closed,5,active_dims slice error
+630,2018-01-23 02:16:24.000000000,2018-02-19 03:21:23.000000000,closed,1,Fix for Paramlist append method to handle Parameterized objects
+629,2018-01-23 01:33:26.000000000,2018-01-23 22:19:16.000000000,closed,2,Gradient check in GPflow
+628,2018-01-21 14:20:04.000000000,2018-01-21 16:02:13.000000000,closed,2,Referring to issue #192. Import error.
+627,2018-01-20 17:10:21.000000000,2018-01-25 00:32:05.000000000,closed,3,fix vector handling and broadcasting in multivariate_normal density
+626,2018-01-19 00:57:13.000000000,2018-01-25 00:32:05.000000000,closed,0,multivariate normal density cannot handle vectors as it claims
+625,2018-01-18 07:37:27.000000000,2018-02-18 04:32:45.000000000,closed,2,Whether GPflow is computing using GPU
+624,2018-01-17 14:12:13.000000000,2018-01-17 14:37:49.000000000,closed,1,Separate kernels for training and test data
+623,2018-01-16 00:15:14.000000000,2018-01-22 22:30:48.000000000,closed,1,Update README.md to contain reference to gpflow-monitor
+622,2018-01-15 19:57:07.000000000,2018-01-23 22:25:18.000000000,closed,1,Update docstrings for core stuff.
+621,2018-01-15 19:29:26.000000000,2018-01-18 03:33:55.000000000,closed,3,Expectation test clearance along with new test features.
+620,2018-01-14 22:04:46.000000000,2019-12-04 20:00:21.000000000,closed,4,Docker image out of date
+619,2018-01-11 00:19:21.000000000,2018-05-02 14:51:02.000000000,closed,9,Weighting squared residuals in the likelihood function
+618,2018-01-08 20:51:08.000000000,2018-01-09 19:01:29.000000000,closed,1,Handling Unbalanced Classes in GPFlow
+617,2018-01-08 20:10:17.000000000,2019-06-17 20:27:28.000000000,closed,6,VGP data update
+616,2018-01-08 15:54:12.000000000,2018-01-08 19:12:30.000000000,closed,4,Cholesky decomposition is slower on GPU
+615,2018-01-07 22:57:02.000000000,2018-01-16 17:01:38.000000000,closed,4,"Gradient of `sqrt(RBF(Z, Z))` no longer NaN"
+614,2018-01-06 23:51:43.000000000,1970-01-01 00:00:00.000000001,open,5,active_dims handling in kernel expectations
+613,2018-01-06 03:05:29.000000000,2018-02-18 15:42:02.000000000,closed,2,'SVGP' object has no attribute 'feature' and gpflow.core.base.GPflowError: Model is not built.
+612,2018-01-05 20:36:40.000000000,2018-01-06 22:29:19.000000000,closed,2,`q_sqrt` is now D x M x M.
+611,2018-01-05 17:29:27.000000000,2018-04-27 12:12:55.000000000,closed,4,Minor clean-up: move example_profiler code to doc/source/notebooks (fixes bug)
+610,2018-01-05 16:31:31.000000000,2018-05-02 14:48:32.000000000,closed,1,Proposal: Multi-output support in conditional
+609,2018-01-04 21:29:30.000000000,2018-01-08 18:21:08.000000000,closed,3,improvements and clarifications to the handling of num_latent
+608,2018-01-03 20:21:34.000000000,2018-04-10 18:47:05.000000000,closed,2,Some notebooks in doc/ not working
+607,2018-01-03 01:11:05.000000000,2018-01-04 16:15:30.000000000,closed,3,Missing part in transform - backward_tensor
+606,2018-01-01 11:36:23.000000000,2018-02-18 15:50:02.000000000,closed,1,"Pseudo ""Non-Stationary"" GPModel variants"
+605,2017-12-30 18:54:33.000000000,2018-04-10 18:45:59.000000000,closed,2,Appending a ParamList object with a Parameterized object?
+604,2017-12-27 17:40:15.000000000,2018-01-03 20:41:40.000000000,closed,3,Notebook test clearance.
+603,2017-12-24 00:10:30.000000000,2018-05-02 14:47:37.000000000,closed,2,GPflow and real-time learning?
+602,2017-12-22 09:31:20.000000000,2018-04-11 02:57:40.000000000,closed,5,CUDA crashes during Cholesky_grad procedure
+601,2017-12-22 01:57:53.000000000,2018-01-03 20:45:20.000000000,closed,2,Stef/expectations
+600,2017-12-21 17:12:50.000000000,2018-05-02 15:21:08.000000000,closed,6,Sharing GPModel Parameters
+599,2017-12-20 23:54:02.000000000,2018-05-02 14:49:52.000000000,closed,1,Bayesian GPLVM with Poisson likelihood
+598,2017-12-14 21:35:21.000000000,2018-05-02 14:48:15.000000000,closed,1,global_variables_initializer errors
+597,2017-12-13 03:21:48.000000000,2017-12-15 15:57:38.000000000,closed,2,[Question] kernels.Stationary.square_dist
+596,2017-12-11 03:18:18.000000000,2017-12-11 06:28:40.000000000,closed,1,removed _check_targets
+595,2017-12-09 04:29:13.000000000,2018-01-07 22:57:27.000000000,closed,10,Set gradient of sqrt(kernel) forced to 0 instead of inf
+594,2017-12-09 04:25:48.000000000,2017-12-09 04:57:22.000000000,closed,2,tensorflow.python.framework.errors_impl.NotFoundError: /home/chaztikov/anaconda3/lib/python3.6/site-packages/GPflow/tfops/matpackops.so: undefined symbol: _ZTIN10tensorflow8OpKernelE
+593,2017-12-08 01:31:39.000000000,2017-12-17 05:20:20.000000000,closed,4,Deferring build in Parameterized classes?
+592,2017-12-07 05:27:29.000000000,2017-12-14 14:49:06.000000000,closed,2,Pandas Model/Parameters printing.
+591,2017-12-07 00:17:42.000000000,2018-01-03 22:44:54.000000000,closed,7,Expectations framework
+590,2017-12-06 17:34:44.000000000,2017-12-06 19:31:01.000000000,closed,3,runtime increase after each hyperparameter optimization
+589,2017-12-05 05:04:32.000000000,2017-12-07 21:55:10.000000000,closed,2,Documentation fixes.
+588,2017-12-04 19:51:43.000000000,2017-12-04 20:29:04.000000000,closed,1,`InvalidArgumentError` when using ScipyOptimizer with SVGP
+587,2017-12-03 01:15:01.000000000,2017-12-12 04:14:08.000000000,closed,3,_check_targets method  in likelihoods.py is not used anywhere
+586,2017-12-01 21:03:01.000000000,2017-12-08 07:39:54.000000000,closed,8,Use only np_float[int] in code.
+585,2017-11-28 11:59:25.000000000,2017-11-29 11:17:58.000000000,closed,2,"   File ""/home/xxx/.conda/envs/tensorflow/lib/python2.7/site-packages/gpflow/core/compilable.py"", line 110     class ICompilable(metaclass=AutoBuild):       ^ SyntaxError: invalid syntax"
+584,2017-11-28 05:03:43.000000000,2017-11-28 15:17:57.000000000,closed,1,updates to regression notebook
+583,2017-11-28 03:32:31.000000000,2017-11-28 13:38:05.000000000,closed,1,Improve uncertain conditional test
+582,2017-11-28 01:25:19.000000000,2018-04-19 13:17:53.000000000,closed,3,Broken tutorial on the webpage
+581,2017-11-28 00:55:30.000000000,2017-11-29 05:08:30.000000000,closed,3,Mention Python 3 in README.md
+580,2017-11-26 17:59:04.000000000,2017-11-27 01:15:02.000000000,closed,5,Exclusive behaviour for Minibatch
+579,2017-11-26 14:44:26.000000000,2017-11-26 20:46:17.000000000,closed,2,Speed up some ekernels test on 40%.
+578,2017-11-26 01:25:06.000000000,2017-12-09 03:38:30.000000000,closed,14,inducing point stability issue with tensorflow optimizers 
+577,2017-11-25 16:00:16.000000000,2017-12-02 13:41:54.000000000,closed,8,Improve test code
+576,2017-11-25 03:35:40.000000000,2017-11-25 17:52:37.000000000,closed,4,Likelihood checks speed up.
+575,2017-11-24 20:09:59.000000000,2017-11-25 17:33:08.000000000,closed,6,"Address issues #568, #561"
+574,2017-11-24 14:55:18.000000000,1970-01-01 00:00:00.000000001,open,1,Speeding up gpflow using mixed precision
+573,2017-11-23 23:19:12.000000000,2017-11-27 19:36:44.000000000,closed,1,Chain transform helper
+572,2017-11-23 18:51:01.000000000,2017-11-23 19:23:57.000000000,closed,1,"Fixed SVGP minibatch issue, plus regression test"
+571,2017-11-23 16:49:33.000000000,2017-11-23 22:26:43.000000000,closed,5,Sporadically failing tests
+570,2017-11-23 15:12:17.000000000,2017-12-04 16:54:57.000000000,closed,10,Improve nomenclature (issue #504)
+569,2017-11-22 21:30:59.000000000,2017-11-23 21:55:08.000000000,closed,1,Uncertain conditional
+568,2017-11-21 03:00:38.000000000,2017-11-26 18:03:27.000000000,closed,18,Predict call execution time degrades linearly with additional calls
+567,2017-11-20 23:17:03.000000000,2017-11-21 21:53:09.000000000,closed,3,Explicit kwargs
+566,2017-11-20 06:49:33.000000000,2017-11-20 19:55:56.000000000,closed,2,[ERROR] calling Parameter class
+565,2017-11-20 00:09:56.000000000,2017-11-20 19:48:53.000000000,closed,7,Increase test coverage.
+564,2017-11-18 04:03:45.000000000,2017-11-22 20:46:30.000000000,closed,4,fatal import error: 'settings' vs 'SETTINGS'
+563,2017-11-17 21:55:17.000000000,2018-05-02 14:48:02.000000000,closed,12,Implementing Linear Model of Coregionalization (LMC)
+562,2017-11-17 21:50:04.000000000,2018-04-10 18:55:00.000000000,closed,2,mean function expectations?
+561,2017-11-16 22:34:47.000000000,2017-11-27 01:18:15.000000000,closed,6,Minibatch
+560,2017-11-16 14:24:15.000000000,2017-11-16 17:11:44.000000000,closed,1,Fixes at `multiclass` and `models` notebooks.
+559,2017-11-15 17:14:07.000000000,2017-11-15 18:15:30.000000000,closed,1,Using `fixed` now throws error.
+558,2017-11-15 16:28:53.000000000,2017-11-15 17:08:05.000000000,closed,1,Update RELEASE.md
+557,2017-11-15 16:24:21.000000000,2019-12-04 03:42:12.000000000,closed,4,Test for param assignment in different sessions?
+556,2017-11-15 16:12:23.000000000,2017-11-16 14:03:07.000000000,closed,5,adding value property
+555,2017-11-14 16:49:34.000000000,1970-01-01 00:00:00.000000001,open,3,Defensive/more explicit handling of MCMC with unfixed params that don't have a prior
+554,2017-11-14 04:26:34.000000000,2017-11-16 17:11:46.000000000,closed,1,Initializing must not be persevering.
+553,2017-11-13 19:03:23.000000000,2017-11-27 22:23:36.000000000,closed,18,Cholesky decomposition was not successful. The input might not be valid. [Reoccurring problem]
+552,2017-11-13 18:58:22.000000000,2017-11-13 20:08:03.000000000,closed,2,Explicit checking of None in set_parent
+551,2017-11-13 16:35:59.000000000,2017-11-13 17:24:30.000000000,closed,2,Enabled nested AutoFlow types
+550,2017-11-13 04:26:19.000000000,2018-03-29 01:29:53.000000000,closed,26,vector Gaussian likelihood variance for varying measurement uncertainty.
+549,2017-11-12 23:25:12.000000000,2017-11-12 23:49:38.000000000,closed,2,Model object has no attribute 'optimize'
+548,2017-11-12 03:15:44.000000000,2018-05-04 01:42:15.000000000,closed,2,Update documentation for GPflow 1.0.0
+547,2017-11-12 00:28:29.000000000,2017-11-12 02:54:43.000000000,closed,1,GPflow 1.0 Release
+546,2017-11-10 21:43:56.000000000,2017-11-11 23:24:40.000000000,closed,2,updates for release 0.5
+545,2017-11-10 21:05:48.000000000,2017-11-11 21:16:57.000000000,closed,0,Test 1.0 PR 
+544,2017-11-10 17:59:19.000000000,2018-04-10 18:58:48.000000000,closed,1,Stationary kernel: `lengthscales` and `ARD` do not have any consistency checks
+543,2017-11-09 21:57:24.000000000,2018-05-02 14:49:38.000000000,closed,9,Save and Restore model
+542,2017-11-09 02:04:23.000000000,2018-05-02 14:48:52.000000000,closed,4,Multiple GP outputs with deep learned kernel
+541,2017-11-06 17:59:13.000000000,2017-11-23 23:10:47.000000000,closed,2,Chain transform
+540,2017-11-06 17:04:45.000000000,2017-11-06 19:19:58.000000000,closed,1,Quick fix of broken tf_log_jacobian in transforms.Rescale
+539,2017-11-02 19:25:48.000000000,2017-11-12 14:29:36.000000000,closed,19,GPflow-1.0 release
+538,2017-11-02 15:35:51.000000000,2018-05-02 14:49:00.000000000,closed,4,Parameter tying
+537,2017-11-02 04:31:16.000000000,2017-11-03 19:38:03.000000000,closed,1,Coregionalization with added kernel flexibility
+536,2017-11-01 23:43:16.000000000,2017-11-23 21:22:03.000000000,closed,3,Moment matching for uncertain conditional
+535,2017-11-01 20:36:30.000000000,2017-11-03 01:01:20.000000000,closed,0,Gpflow 1.0 notebooks
+534,2017-10-30 19:15:23.000000000,2017-10-31 17:35:35.000000000,closed,1,Gpflow 1.0 svgp args
+533,2017-10-27 14:19:09.000000000,2017-10-30 20:26:13.000000000,closed,2,Documentation fixes
+532,2017-10-26 18:40:23.000000000,2017-10-26 18:40:39.000000000,closed,0,Fixed incorrect parameter dtype assignment on compile.
+531,2017-10-26 18:26:28.000000000,2017-10-26 18:26:56.000000000,closed,0,Fix dtype init
+530,2017-10-26 17:17:30.000000000,2017-11-20 22:43:17.000000000,closed,7,Inter-domain features for GPflow 1.0
+529,2017-10-26 13:24:17.000000000,2017-10-26 13:50:39.000000000,closed,0,Ensure dtypes are followed when assigning parameters
+528,2017-10-24 21:07:21.000000000,2017-10-25 12:55:58.000000000,closed,5,Print 1.0RC
+527,2017-10-23 17:23:30.000000000,1970-01-01 00:00:00.000000001,open,5,Predictive gradients
+526,2017-10-20 20:04:55.000000000,2018-04-10 18:54:24.000000000,closed,10,Rational Quadratic kernel
+525,2017-10-19 08:44:16.000000000,2018-05-02 14:49:19.000000000,closed,1,Feature Request: Approximate Definite Integrals
+524,2017-10-19 08:00:14.000000000,2017-10-19 21:22:09.000000000,closed,2,Cannot recover values of Covariance Matrix
+523,2017-10-12 18:01:39.000000000,2018-05-02 15:30:37.000000000,closed,0,Linear features for kernels for GPflow 1.0
+522,2017-10-12 01:02:06.000000000,2019-12-04 03:40:11.000000000,closed,1,Question: X_var initialization in BayesianGPLVM
+521,2017-10-10 15:22:21.000000000,2018-05-02 15:33:13.000000000,closed,3,EP for Binary Class GPs with Probit Likelihood
+520,2017-10-08 13:41:47.000000000,2018-04-10 14:04:20.000000000,closed,3,Fix code coverage for #515
+519,2017-10-07 02:56:01.000000000,2017-11-13 00:05:09.000000000,closed,17,[Questions and issues] GPflow 1.0 Release Candidate
+518,2017-10-06 02:37:30.000000000,2017-10-27 14:59:42.000000000,closed,2,Some minor cleanups of the documentation
+517,2017-10-04 12:58:22.000000000,2017-10-12 18:02:13.000000000,closed,2,Linear features for kernels
+516,2017-10-03 20:22:14.000000000,2017-11-09 04:22:11.000000000,closed,4,Dropping python 2 support? Nice features in python 3
+515,2017-10-03 19:13:45.000000000,2018-05-03 19:29:03.000000000,closed,4,"Fix inferred input_dim for combination kernels (sum, product) with slices in active_dims"
+514,2017-10-03 19:06:31.000000000,2017-10-04 22:13:23.000000000,closed,11,Clean up kullback_leiblers -- in house
+513,2017-10-03 01:04:39.000000000,2017-10-03 16:39:41.000000000,closed,12,added correct expectation for exKxz. all tests pass
+512,2017-10-02 13:24:50.000000000,2018-05-02 15:13:29.000000000,closed,0,Update reference in docs
+511,2017-10-02 13:19:01.000000000,2018-04-11 03:33:22.000000000,closed,2,Incorrect build failure warning on front page
+510,2017-09-25 12:11:08.000000000,2017-09-25 21:40:38.000000000,closed,3,Add GPflow 1.0RC to readme
+509,2017-09-25 11:31:36.000000000,2017-09-29 06:59:09.000000000,closed,2,Number of inducing points
+508,2017-09-23 17:41:22.000000000,2017-10-03 19:07:18.000000000,closed,5,Clean up kullback_leiblers
+507,2017-09-23 02:24:02.000000000,2018-04-30 21:58:47.000000000,closed,1,Question: gpflow vs GPflow versioning
+506,2017-09-22 13:00:28.000000000,2017-11-15 16:32:17.000000000,closed,7,More flexible Inducing Features
+505,2017-09-20 22:26:12.000000000,2018-05-02 14:56:59.000000000,closed,28,Example of end-to-end training with GPFlow plus a neural net coded in tensorflow
+504,2017-09-19 17:10:00.000000000,2018-04-10 18:59:46.000000000,closed,4,Nomenclature changes in gpflow rewrite
+503,2017-09-18 21:38:12.000000000,2017-09-18 22:26:41.000000000,closed,5,Cholesky decomposition
+502,2017-09-15 11:20:10.000000000,2019-12-04 03:39:24.000000000,closed,2,Multiple Kernel for Multiclass MCMC Sparse Gaussian Process
+501,2017-09-14 15:14:18.000000000,2018-05-02 15:47:23.000000000,closed,13,Kernels between derivative and regular observations.
+500,2017-09-14 06:13:08.000000000,2017-10-03 19:14:21.000000000,closed,1,Fix combined (sliced) kernel input_dim 
+499,2017-09-04 15:43:28.000000000,2017-10-03 23:17:44.000000000,closed,13,Pylint configuration file
+498,2017-09-04 02:29:11.000000000,2017-09-25 12:19:36.000000000,closed,13,One parameter - one variable
+497,2017-09-01 13:35:42.000000000,2017-09-11 18:15:46.000000000,closed,1,Query add-kernel
+496,2017-08-30 12:23:49.000000000,2017-08-30 15:28:48.000000000,closed,1,Release 0.4.0 message update
+495,2017-08-29 20:38:59.000000000,2017-08-30 11:55:12.000000000,closed,1,Version was inconsistent with RELEASE.md
+494,2017-08-29 20:18:31.000000000,2017-08-30 16:28:38.000000000,closed,4,Added upper bound to regression models.
+493,2017-08-29 19:07:23.000000000,2017-08-29 19:59:07.000000000,closed,1,Update contributing.md
+492,2017-08-29 12:48:23.000000000,2018-05-02 15:03:12.000000000,closed,3,Support for multi-CPU processing in GPR prediction step
+491,2017-08-24 16:37:32.000000000,2018-05-02 15:13:19.000000000,closed,9,"Example that shows how to separate additive effects, e.g. time series decomposition of birthdays data"
+490,2017-08-22 02:10:44.000000000,2017-09-01 02:32:42.000000000,closed,22,Issues in GP regression with the Matern Kernel. Is RBF more numerically stable than the Matern Kernel?
+489,2017-08-21 05:05:37.000000000,2017-08-21 23:44:59.000000000,closed,3,GPflow.sgpr memory issue in very large dataset
+488,2017-08-17 00:19:01.000000000,2017-08-18 13:01:35.000000000,closed,7,Remove TF import in setup.py
+487,2017-08-16 15:37:02.000000000,2017-08-18 13:02:48.000000000,closed,2,Remove TensorFlow import in setup.py
+486,2017-08-16 12:16:12.000000000,2017-08-16 13:00:38.000000000,closed,2,Remove pandas
+485,2017-08-15 19:17:50.000000000,2017-08-16 02:29:57.000000000,closed,1,Remove old references to tf_ops
+484,2017-08-15 15:14:04.000000000,2017-08-15 16:34:15.000000000,closed,1,Clarify TF version
+483,2017-08-15 15:10:51.000000000,2017-08-15 15:36:34.000000000,closed,1,Added elaboration on how to contribute
+482,2017-08-15 12:57:32.000000000,2017-08-15 13:21:50.000000000,closed,1,Param reshape
+481,2017-08-15 09:21:35.000000000,2017-08-15 15:00:27.000000000,closed,2,Undefined Symbol: _ZNK10tensorflow6Tensor20ComputeFlatInnerDimsEx
+480,2017-08-14 01:21:02.000000000,2017-08-24 02:03:18.000000000,closed,3,Accessing free state variable in TF mode
+479,2017-08-10 19:35:47.000000000,2017-08-15 19:12:14.000000000,closed,2,GPflow with TF > 1.0 
+478,2017-08-10 14:25:14.000000000,2017-08-21 13:40:00.000000000,closed,13,Inconsistent predictions between CPU and GPU is back on r1.3
+477,2017-08-09 23:31:36.000000000,2017-08-29 17:16:42.000000000,closed,5,GPflow python package name doesn't follow PEP8
+476,2017-08-09 23:30:59.000000000,2017-08-18 13:03:15.000000000,closed,11,Installation error: RuntimeError: maximum recursion depth exceeded
+475,2017-08-09 21:58:24.000000000,2017-08-29 19:10:30.000000000,closed,6,Binned poisson notebook
+474,2017-08-09 18:36:42.000000000,2017-08-16 02:29:57.000000000,closed,0,tfops no longer required in MANIFEST.in
+473,2017-08-08 13:50:57.000000000,2018-05-02 14:57:22.000000000,closed,5,Distributed training for GPflow
+472,2017-08-07 22:28:14.000000000,2017-08-29 16:46:15.000000000,closed,15,Script for running GPflow tests in sequential and parallel modes.
+471,2017-08-07 21:47:14.000000000,2017-08-30 11:55:48.000000000,closed,17,External TensorFlow Session and Graph control
+470,2017-08-06 18:27:39.000000000,2017-08-29 17:15:34.000000000,closed,7,Upper bound model and accompanying notebook added.
+469,2017-08-05 19:42:36.000000000,2017-08-15 13:00:07.000000000,closed,9,fix reshape issue in Param's get_samples_df
+468,2017-08-04 17:14:56.000000000,2017-08-15 18:39:28.000000000,closed,2,List projects using GPflow on main page
+467,2017-08-04 15:16:27.000000000,2017-08-15 19:15:57.000000000,closed,4,jitter_level not used in GPLVM
+466,2017-08-03 20:42:31.000000000,2017-08-16 16:07:27.000000000,closed,12,Running GPLVM on GPU
+465,2017-08-03 20:26:37.000000000,2017-08-15 17:52:32.000000000,closed,3,Fix GPLVM for GPU/float32
+464,2017-08-03 11:49:07.000000000,2017-08-04 21:48:58.000000000,closed,4,adding binsize (and explanation) to Poisson likelihood
+463,2017-08-02 13:06:59.000000000,2017-08-30 19:13:05.000000000,closed,20,Titsias evidence upper bound for SGPR
+462,2017-08-02 12:50:26.000000000,1970-01-01 00:00:00.000000001,open,0,Update roadmap
+461,2017-08-02 12:46:06.000000000,1970-01-01 00:00:00.000000001,open,2,Update readme list of contributors
+460,2017-08-02 01:11:59.000000000,2017-08-02 01:27:18.000000000,closed,1,External TensorFlow session and graph control
+459,2017-08-01 16:36:27.000000000,1970-01-01 00:00:00.000000001,open,7,Discussion on general level of PEP8 compliance. 
+458,2017-07-31 03:46:53.000000000,2017-08-07 21:49:06.000000000,closed,5,External TensorFlow Session and Graph control
+457,2017-07-23 09:23:22.000000000,2017-07-28 21:45:40.000000000,closed,6,Predict error: Tensor conversion requested dtype int32 for Tensor with dtype float64
+456,2017-07-22 02:52:35.000000000,2018-05-02 15:34:36.000000000,closed,6,Recompilation of nested models
+455,2017-07-21 22:46:14.000000000,2017-07-22 01:03:36.000000000,closed,4,Avoid recompilation when creating new model instances
+454,2017-07-20 15:13:10.000000000,2017-07-22 01:03:39.000000000,closed,0,mean functions are initialized in arguments
+453,2017-07-20 13:20:17.000000000,2017-09-01 14:12:18.000000000,closed,3,Change point kernels
+452,2017-07-19 01:46:04.000000000,2017-08-30 19:29:46.000000000,closed,15,GPflow python package name doesn't follow PEP8
+451,2017-07-19 01:22:50.000000000,2017-08-07 12:00:30.000000000,closed,7,GPflow python package name doesn't follow PEP8
+450,2017-07-19 01:19:11.000000000,2018-05-02 15:14:16.000000000,closed,2,Support for Multivariate Priors
+449,2017-07-18 01:34:11.000000000,2017-07-19 01:16:03.000000000,closed,2,Multi-dimensional GP with GPflow
+448,2017-07-17 20:08:02.000000000,2017-07-17 20:50:25.000000000,closed,0,Change dataset of a GP model
+447,2017-07-17 09:05:24.000000000,2018-04-11 21:02:53.000000000,closed,1,Making sense of the GPflow-TensorFlow version/release matching
+446,2017-07-12 23:57:06.000000000,2017-07-13 00:57:51.000000000,closed,0,Dtpc fix gpmc compile
+445,2017-07-12 22:54:02.000000000,2017-07-12 23:19:14.000000000,closed,3,changing all instances of diag(_part) to matrix_diag(_part)
+444,2017-07-12 14:32:18.000000000,2018-01-27 20:17:16.000000000,closed,8,Robustmax epsilon learnable
+443,2017-07-11 19:27:05.000000000,2017-07-11 22:28:04.000000000,closed,1,Update bibtex for GPflow paper.
+442,2017-07-06 02:53:32.000000000,2018-04-11 21:01:22.000000000,closed,7,Recompilation issues if highest_parent is not a model
+441,2017-07-05 22:30:54.000000000,2017-08-22 18:00:05.000000000,closed,11,Likelihood dimension fixes
+440,2017-07-04 18:45:52.000000000,2017-07-10 00:12:07.000000000,closed,7,TensorFlow implementation of LowerTriangular Transform.
+439,2017-06-30 13:10:24.000000000,2017-07-06 19:26:24.000000000,closed,16,Pack array into lower triangular half of matrix using native TensorFlow ops.
+438,2017-06-29 07:49:53.000000000,2018-05-02 15:13:46.000000000,closed,2,Incompatible shapes for one-hot encoded multiclass targets (SVGP)
+437,2017-06-27 01:46:27.000000000,2018-05-02 15:26:09.000000000,closed,4,Parallel testing on Travis
+436,2017-06-23 13:50:04.000000000,2017-06-23 13:50:24.000000000,closed,0,ST-- doc fixes
+435,2017-06-23 05:36:47.000000000,2017-07-13 00:57:53.000000000,closed,3,Fix for using tf optimiser with GPMC
+434,2017-06-22 01:09:21.000000000,2017-07-12 12:05:17.000000000,closed,7,"Windows 10 importing GPflow error: ""matpackops.so not found"""
+433,2017-06-20 20:23:24.000000000,2017-06-30 15:15:28.000000000,closed,3,Hughsalimbeni vgp as svgp
+432,2017-06-20 17:02:24.000000000,2017-07-17 13:19:19.000000000,closed,12,Test speeds
+431,2017-06-20 13:27:47.000000000,2017-06-23 13:50:59.000000000,closed,2,Code documentation fixes
+430,2017-06-19 20:51:40.000000000,2017-06-30 15:15:41.000000000,closed,4,Vgp as svgp
+429,2017-06-08 18:46:12.000000000,2017-07-12 12:07:46.000000000,closed,4,Error testing GPFlow
+428,2017-06-07 20:07:24.000000000,2017-06-12 11:01:59.000000000,closed,2,Out Of Sample Problem
+427,2017-06-07 19:31:39.000000000,2018-05-02 15:03:30.000000000,closed,0,Extend AutoFlow to enable the wrapped function to be called from within the tensorflow graph
+426,2017-06-07 18:05:02.000000000,2018-05-02 15:47:56.000000000,closed,4,Provides metaclass to simplify GPflow Model creation workflow
+425,2017-06-07 17:48:34.000000000,2017-06-08 13:09:39.000000000,closed,1,add @wraps to NameScoped decorator
+424,2017-06-07 17:33:25.000000000,2017-06-08 13:58:39.000000000,closed,1,Add explanation of arguments to AutoFlow decorator docstring
+423,2017-06-05 01:14:40.000000000,2017-07-12 12:09:00.000000000,closed,10,Import fails with TF 1.2.0-rc1
+422,2017-06-03 12:33:04.000000000,2017-07-13 18:16:39.000000000,closed,1,added the bounds option and the Gabor kernel.
+421,2017-05-30 15:24:39.000000000,2017-07-23 13:31:53.000000000,closed,4,NaNs in predictions with Matern52 and Matern32 kernels
+420,2017-05-26 20:43:24.000000000,2017-05-29 17:54:10.000000000,closed,4,Robust numpy softplus
+419,2017-05-22 19:51:41.000000000,2017-06-05 16:08:14.000000000,closed,4,Rescale transform
+418,2017-05-19 23:04:58.000000000,2018-04-11 18:36:31.000000000,closed,3,Install GPflow on Heroku
+417,2017-05-16 01:43:47.000000000,2017-06-20 20:27:06.000000000,closed,8,Fix parameter ordering so that it's consistent across sessions.
+416,2017-05-16 00:43:12.000000000,2018-04-27 17:36:44.000000000,closed,10,Reproducibility using seeds
+415,2017-05-10 22:51:41.000000000,2017-07-12 14:26:51.000000000,closed,18,Tests failing on GPU with tf1.1
+414,2017-05-10 02:55:54.000000000,2017-05-22 08:45:47.000000000,closed,1,Simple interaction model
+413,2017-05-05 12:29:24.000000000,2017-08-15 12:45:33.000000000,closed,2,Beta prior
+412,2017-05-03 20:56:07.000000000,2017-05-03 21:08:07.000000000,closed,2,Mrksr fix mlp acos numerics
+411,2017-05-03 17:26:11.000000000,2017-05-06 03:48:01.000000000,closed,5,Fix MLP acos numerics
+410,2017-05-03 13:06:52.000000000,2017-05-03 19:36:50.000000000,closed,3,Fix pickle idempotence
+409,2017-05-03 13:03:06.000000000,2017-06-22 12:49:13.000000000,closed,9,MLP kernel gradients
+408,2017-05-03 02:56:37.000000000,2017-05-29 18:38:41.000000000,closed,1,Fix license in setup.py
+407,2017-05-02 21:16:43.000000000,2017-08-18 13:06:06.000000000,closed,4,Page or section with GPflow usages
+406,2017-05-01 08:21:04.000000000,2018-04-11 03:35:51.000000000,closed,5,feed_dict performance
+405,2017-04-27 18:31:17.000000000,2017-05-02 20:40:14.000000000,closed,1,Declaring an RBF Kernel from ekernel versus kernel modules
+404,2017-04-26 15:50:38.000000000,2017-08-16 20:21:39.000000000,closed,15,Saturation of Hyper Parameters
+403,2017-04-25 19:35:55.000000000,2018-04-10 19:02:33.000000000,closed,2,Constraining and tying the length scales to have a positive semi-definite covariance
+402,2017-04-25 18:31:34.000000000,2017-04-26 17:59:39.000000000,closed,4,Adding White noise to rbf kernel
+401,2017-04-25 18:29:44.000000000,2017-04-25 19:46:43.000000000,closed,2,Printing all hyper-parameters for multi-dimensional input
+400,2017-04-17 03:37:34.000000000,2018-05-02 15:04:07.000000000,closed,1,Request for further examples and variable description within the documentation. 
+399,2017-04-16 23:22:32.000000000,2017-08-18 13:13:52.000000000,closed,6,Multi-output GPs - distinct kernels and inducing inputs
+398,2017-04-13 19:07:43.000000000,2018-05-02 15:35:01.000000000,closed,8,Allow both tf and non-tf arguments in AutoFlow
+397,2017-04-12 01:33:13.000000000,2017-04-28 19:42:16.000000000,closed,7,Project proposal: GPflowOpt
+396,2017-04-05 16:22:40.000000000,2018-04-11 03:37:24.000000000,closed,3,Changing dtype after import
+395,2017-04-03 18:05:49.000000000,2017-04-03 21:03:29.000000000,closed,2,Mrksr fix randomize without prior
+394,2017-04-03 16:01:46.000000000,2017-04-03 21:03:32.000000000,closed,3,Fix randomize for multidimensional Params without priors
+393,2017-03-30 12:28:46.000000000,2017-04-01 23:07:10.000000000,closed,7,mlp kernel
+392,2017-03-30 12:10:37.000000000,2017-03-30 12:23:29.000000000,closed,1,"use transpose_{a,b}=True in tf.matmul's"
+391,2017-03-30 03:08:53.000000000,2017-03-30 12:09:42.000000000,closed,1,"Use transpose_{a,b}=True in tf.matmul's"
+390,2017-03-28 12:52:45.000000000,2017-03-31 12:42:19.000000000,closed,5,Initialising GP regression model with no data
+389,2017-03-27 21:12:58.000000000,2017-07-12 12:10:09.000000000,closed,4,vgp accuracy 
+388,2017-03-22 13:30:10.000000000,2018-09-19 17:30:25.000000000,closed,1,Automatically rebuild documentation
+387,2017-03-20 20:22:57.000000000,2017-03-21 20:51:42.000000000,closed,1,Correcting python version in docs require.
+386,2017-03-17 14:09:34.000000000,2017-03-21 20:51:42.000000000,closed,3,Update TF version for install instructions in readthedocs
+385,2017-03-15 13:41:20.000000000,2017-08-16 12:17:16.000000000,closed,8,Remove pandas hard dependency
+384,2017-03-14 20:06:51.000000000,2017-03-15 02:48:15.000000000,closed,1,Allow reassignment of Param(eterized)s
+383,2017-03-14 15:51:10.000000000,2018-12-29 21:20:42.000000000,closed,3,Keyword Arguments for AutoFlowed Functions
+382,2017-03-14 02:24:34.000000000,2017-03-14 09:59:32.000000000,closed,2,Error running inference on Poisson likelihood
+381,2017-03-13 18:24:18.000000000,2018-04-18 00:04:20.000000000,closed,10,Pip installation for GPflow
+380,2017-03-10 22:59:23.000000000,2017-03-13 19:44:11.000000000,closed,3,Allow naming of GPR
+379,2017-03-10 22:24:11.000000000,2017-03-15 02:48:42.000000000,closed,0,No way of naming GPR model
+378,2017-03-10 21:18:59.000000000,2017-03-11 00:01:51.000000000,closed,1,How to use tf optimizer?
+377,2017-03-10 16:51:06.000000000,1970-01-01 00:00:00.000000001,open,12,BGPLVM error in expectation when passing in slice
+376,2017-03-10 13:20:26.000000000,2017-03-24 00:46:39.000000000,closed,8,removing references to tf_wraps.eye
+375,2017-03-10 03:48:55.000000000,2018-04-11 03:38:16.000000000,closed,20,Error testing GPFlow
+374,2017-03-10 03:42:19.000000000,2017-03-13 18:55:42.000000000,closed,6,Testing notebooks
+373,2017-03-10 02:31:05.000000000,2017-03-24 20:54:01.000000000,closed,2,Run notebooks in tests
+372,2017-03-08 17:44:10.000000000,2017-03-24 13:38:51.000000000,closed,13,Randomization of parameters
+371,2017-03-07 21:53:55.000000000,2017-03-09 22:57:57.000000000,closed,7,session configuration settings
+370,2017-03-07 19:43:24.000000000,2017-03-07 20:05:20.000000000,closed,2,Multiple params
+369,2017-03-07 05:28:06.000000000,2017-03-11 16:38:23.000000000,closed,4,maxiter deprecation warning
+368,2017-03-06 23:34:03.000000000,2017-08-03 11:49:47.000000000,closed,11,Binned poisson
+367,2017-03-06 18:11:10.000000000,2017-03-24 13:39:34.000000000,closed,11,optimize_restarts and randomize
+366,2017-03-03 20:43:02.000000000,2017-03-06 22:34:32.000000000,closed,9,making ekern_tests deterministic
+365,2017-03-03 20:27:35.000000000,2017-03-03 20:37:27.000000000,closed,2,Updates to multiclass likelihood.
+364,2017-03-03 14:53:56.000000000,2017-03-07 20:10:14.000000000,closed,5,Preventing multiple params in tree
+363,2017-03-02 17:31:36.000000000,2017-03-02 17:38:28.000000000,closed,0,Dustinvtran master
+362,2017-03-02 15:14:29.000000000,2017-03-02 19:04:56.000000000,closed,3,Allow installation of either tensorflow or tensorflow-gpu
+361,2017-03-02 14:31:51.000000000,2017-03-02 15:57:49.000000000,closed,1,Alessandrousseglioviretta patch 1
+360,2017-03-02 13:58:03.000000000,2017-03-02 14:26:00.000000000,closed,2,Mrksr tensorflow 1.0
+359,2017-02-28 15:07:43.000000000,2017-03-03 20:27:57.000000000,closed,5,correcting the multiclass predict density so that it gave a log density.
+358,2017-02-28 13:56:56.000000000,2017-03-08 15:40:59.000000000,closed,3,Assigning to subset of parameters
+357,2017-02-28 04:34:52.000000000,2017-08-02 16:13:08.000000000,closed,4,"Stochastic Inference for Classification, Fixing Z"
+356,2017-02-25 20:52:50.000000000,2017-03-30 12:28:18.000000000,closed,29,Add MLP kernel
+355,2017-02-25 18:12:44.000000000,2017-03-07 20:11:14.000000000,closed,5,Question about `predict_density` for MultiClass likelihood
+354,2017-02-24 17:04:05.000000000,2018-05-02 15:01:25.000000000,closed,0,Using python code for ops without needing C++ 
+353,2017-02-22 14:15:39.000000000,1970-01-01 00:00:00.000000001,open,6,modified cholesky
+352,2017-02-20 16:56:02.000000000,2017-02-20 17:06:20.000000000,closed,1,Tweak of a typo in docs.
+351,2017-02-20 16:18:35.000000000,2017-02-20 16:45:07.000000000,closed,1,Docs tlc
+350,2017-02-20 13:23:04.000000000,2017-02-27 23:37:13.000000000,closed,2,SGPR full predictive cov not positive definite
+349,2017-02-17 23:05:16.000000000,2017-03-07 20:12:00.000000000,closed,2,Bug in multi-parental name referencing
+348,2017-02-17 20:36:37.000000000,2017-02-17 21:35:50.000000000,closed,1,Roadmap
+347,2017-02-17 16:10:12.000000000,2017-02-17 16:17:16.000000000,closed,1,Newer version of nbsphinx.
+346,2017-02-17 15:54:37.000000000,2017-02-17 16:02:25.000000000,closed,1,Requirements rtd
+345,2017-02-17 05:27:59.000000000,2017-03-02 16:00:29.000000000,closed,1,Update svi_test.ipynb
+344,2017-02-17 00:04:08.000000000,2017-02-17 00:13:22.000000000,closed,1,Py35 in docs require.
+343,2017-02-16 22:37:44.000000000,2017-02-16 23:14:07.000000000,closed,1,Requirements tweak.
+342,2017-02-16 17:51:01.000000000,2017-03-02 14:26:26.000000000,closed,3,Update to tensorflow 1.0
+341,2017-02-16 02:38:28.000000000,2017-08-15 18:40:34.000000000,closed,8,GPLVM: infer latent X and partial predictions
+340,2017-02-15 22:43:30.000000000,2017-02-17 20:14:43.000000000,closed,1,Read the docs build failure.
+339,2017-02-15 22:26:25.000000000,2017-02-15 22:36:07.000000000,closed,0,docs require tweak
+338,2017-02-15 19:59:41.000000000,2019-12-02 21:19:55.000000000,closed,22,GPflow logo
+337,2017-02-15 18:53:14.000000000,2017-02-15 20:19:30.000000000,closed,2,Fresh docs
+336,2017-02-13 21:51:33.000000000,2017-02-15 01:24:25.000000000,closed,3,Docker file.
+335,2017-02-13 17:00:44.000000000,2017-02-15 19:57:54.000000000,closed,1,Docker file
+334,2017-02-09 22:58:36.000000000,2017-03-08 15:41:26.000000000,closed,2,Constrain to interval transform
+333,2017-02-08 22:11:59.000000000,2018-05-02 15:19:12.000000000,closed,9,Caching cholesky decomposition
+332,2017-02-06 14:24:31.000000000,2018-05-02 15:15:50.000000000,closed,5,Use tf distributions once they make it into tf main
+331,2017-02-04 21:38:36.000000000,2017-02-06 14:46:13.000000000,closed,9,Benchmark between GPy and GPflow
+330,2017-02-02 22:07:04.000000000,2017-03-03 20:38:33.000000000,closed,2,Mrksr avoid tile in ekernels
+329,2017-02-02 17:06:00.000000000,2017-02-03 20:47:11.000000000,closed,5,Avoid copies via tiling in eKernels
+328,2017-02-01 03:44:47.000000000,2018-05-02 15:34:11.000000000,closed,16,"Block kernels, covarying GPs and gradient/Hessian observations for stationary kernels"
+327,2017-01-31 19:48:36.000000000,1970-01-01 00:00:00.000000001,open,21,LVMs slower on GPU than on CPU
+326,2017-01-31 16:54:22.000000000,2017-02-01 12:53:32.000000000,closed,6,"Block kernels, covarying GPs and gradient/Hessian observations for stationary kernels"
+325,2017-01-26 22:59:12.000000000,2017-01-31 21:36:18.000000000,closed,2,TF futureproofing: tf.mul -> tf.multiply.
+324,2017-01-24 03:27:57.000000000,2018-05-02 15:04:29.000000000,closed,9,Implementation Bayesian Dynamic GP-LVM
+323,2017-01-19 06:02:36.000000000,2017-01-20 07:58:40.000000000,closed,4,Independent hyperparameters for multiple independent outputs
+322,2017-01-18 22:35:20.000000000,2018-05-02 15:20:18.000000000,closed,18,Tying parameters and feeding tensors to kernels
+321,2017-01-18 14:26:54.000000000,2017-01-24 06:23:00.000000000,closed,4,Dynamics and Back constraints for GPLVM
+320,2017-01-17 20:14:19.000000000,2017-03-28 11:58:54.000000000,closed,6,Added a function evaluation counter
+319,2017-01-13 20:13:16.000000000,2017-01-13 20:26:27.000000000,closed,0,updating tf version in readthedocs
+318,2017-01-12 22:34:44.000000000,2017-01-13 19:49:07.000000000,closed,7,link GPLVM documentation
+317,2017-01-12 22:07:18.000000000,2017-01-31 20:58:42.000000000,closed,4,Notes for contributors and changes to readme
+316,2017-01-12 19:44:55.000000000,2017-01-13 17:25:26.000000000,closed,13,Compatibility with next version of TensorFlow
+315,2017-01-12 16:55:32.000000000,2018-09-19 17:31:02.000000000,closed,2,Tidy up readthedocs
+314,2017-01-12 16:48:42.000000000,2017-01-13 20:26:45.000000000,closed,1,updating docsrequire
+313,2017-01-12 16:40:48.000000000,2017-11-23 19:58:11.000000000,closed,1,Update author list
+312,2017-01-12 16:09:52.000000000,2018-05-02 15:17:16.000000000,closed,20,Support for multiple covarying GPs
+311,2017-01-11 21:29:39.000000000,2017-01-12 16:39:18.000000000,closed,1,Update README.md to include Rasmus Bonnevie
+310,2017-01-11 14:12:40.000000000,2017-01-11 21:18:26.000000000,closed,8,Bonnevie quadrature refact
+309,2017-01-10 03:34:14.000000000,2017-01-11 21:30:34.000000000,closed,9,Quadrature refactoring
+308,2017-01-09 21:04:26.000000000,2017-01-09 22:03:32.000000000,closed,7,Quadrature
+307,2017-01-08 23:50:46.000000000,2017-01-11 14:06:54.000000000,closed,4,Changes for tf0.12
+306,2017-01-05 22:30:00.000000000,2017-01-12 16:32:03.000000000,closed,14,Double hermgauss
+305,2017-01-03 19:19:43.000000000,2018-05-02 15:20:45.000000000,closed,9,fixing subsets of variables
+304,2016-12-23 04:27:49.000000000,2018-04-15 02:00:12.000000000,closed,15,Exponential distribution as prior
+303,2016-12-20 16:25:45.000000000,2016-12-20 20:02:55.000000000,closed,1,fixes #302 overflow in transform
+302,2016-12-20 15:57:09.000000000,2016-12-23 00:00:28.000000000,closed,7,Positive transform fails large numbers
+301,2016-12-19 18:29:53.000000000,2017-09-04 15:38:01.000000000,closed,4,NaNs in BayesianGPLVM likelihood-gradient
+300,2016-12-18 21:56:06.000000000,2016-12-20 15:58:48.000000000,closed,5,overflow encountered in exp (model optimization)
+299,2016-12-16 20:30:10.000000000,2017-01-19 15:05:22.000000000,closed,3,Sgpr notes
+298,2016-12-15 16:09:54.000000000,2017-01-14 18:54:54.000000000,closed,1,Documentation is not autogenerating
+297,2016-12-14 19:44:30.000000000,1970-01-01 00:00:00.000000001,open,15,Model Composition
+296,2016-12-14 18:16:34.000000000,2016-12-14 18:45:09.000000000,closed,3,Sgpr notes
+295,2016-12-12 18:00:28.000000000,2017-07-12 12:18:54.000000000,closed,6,Installation issues: windows10
+294,2016-12-08 20:50:57.000000000,2018-05-02 15:16:28.000000000,closed,5,Evaluating Models on different GPUs
+293,2016-12-06 01:26:53.000000000,2016-12-06 01:43:12.000000000,closed,2,minor updates to hmc.py
+292,2016-12-05 22:53:03.000000000,2018-04-11 03:39:25.000000000,closed,3,Handing the random number generator down into burn in sampler
+291,2016-12-02 14:02:03.000000000,2016-12-05 14:28:03.000000000,closed,3,fix minor bug in MultiClass when passing invlink
+290,2016-12-01 22:03:56.000000000,2017-08-18 13:16:48.000000000,closed,6,GPflow @ NIPS 
+289,2016-11-30 19:55:37.000000000,2016-12-06 01:46:21.000000000,closed,2,fix minor bug in MultiClass likelihood when passing invlink
+288,2016-11-30 03:06:56.000000000,2017-03-28 12:00:18.000000000,closed,6,Changed depreciated warnings
+287,2016-11-29 17:57:06.000000000,2016-11-30 13:09:49.000000000,closed,2,Improve test coverage for stochastic gradients with tf optimizer.
+286,2016-11-28 20:00:18.000000000,2018-05-02 15:01:03.000000000,closed,8,Inference of latent variables of new points in GPLVM
+285,2016-11-26 17:48:56.000000000,2016-11-26 20:06:41.000000000,closed,1,Stochastic gradient fix
+284,2016-11-26 17:46:27.000000000,2016-11-30 13:09:49.000000000,closed,0,Improve test coverage for stochastic gradients with tf optimizer. 
+283,2016-11-25 22:04:15.000000000,2016-11-25 22:18:13.000000000,closed,2,added test for multiple Y columns. Fix in SGPR and GPRFITC
+282,2016-11-25 21:39:50.000000000,2016-11-26 17:43:59.000000000,closed,3,Paramlist constructor bugfix
+281,2016-11-25 02:19:56.000000000,2016-11-26 20:06:41.000000000,closed,6,minibatches with _optimize_tf
+280,2016-11-25 01:58:58.000000000,2016-11-26 00:18:20.000000000,closed,2,SGPR multiple columns 
+279,2016-11-24 18:35:57.000000000,2017-01-13 19:49:07.000000000,closed,1,docs should include reference to GPLVM methods
+278,2016-11-24 17:48:45.000000000,2016-11-24 19:44:37.000000000,closed,2,"fixing bug #277, copy error in mean function constructors"
+277,2016-11-24 16:57:33.000000000,2016-11-26 17:44:59.000000000,closed,5,mean_function.Linear problem with params  
+276,2016-11-24 15:29:04.000000000,2016-11-24 15:46:50.000000000,closed,1,Update travis
+275,2016-11-24 14:50:54.000000000,2016-11-24 14:59:19.000000000,closed,0,using python 3.4
+274,2016-11-23 20:43:52.000000000,2018-05-02 15:18:01.000000000,closed,0,Further improvements of LVM related code.
+273,2016-11-21 14:08:04.000000000,2016-11-21 15:45:35.000000000,closed,2,point to tensorflow 0.11 in readme (not 0.10)
+272,2016-11-18 20:06:04.000000000,2016-11-20 13:19:13.000000000,closed,1,Patch setattr
+271,2016-11-18 19:45:17.000000000,2016-11-18 20:04:28.000000000,closed,2,Update kernels.ipynb
+270,2016-11-17 17:24:53.000000000,2016-11-17 17:33:17.000000000,closed,0,Patch for #269
+269,2016-11-16 19:57:41.000000000,2016-11-18 20:09:04.000000000,closed,8,test fails: test_diag (testing.test_kerns.TestCoregion) on Ubuntu with latest tf or with tf0.11
+268,2016-11-16 19:25:29.000000000,2017-07-12 12:20:54.000000000,closed,4,Undefined symbol when importing GPflow
+267,2016-11-16 14:58:25.000000000,2018-04-11 18:39:22.000000000,closed,1,readme doesn't quite tell you how to install
+266,2016-11-13 00:18:31.000000000,2018-04-11 18:40:27.000000000,closed,0,Questions on Param + optimizers
+265,2016-11-11 22:23:54.000000000,2018-05-02 15:25:50.000000000,closed,4,Student-t process
+264,2016-11-11 20:55:59.000000000,2018-04-10 19:04:28.000000000,closed,3,Ability to initialise likelihood params
+263,2016-11-08 14:50:35.000000000,2016-11-09 19:12:11.000000000,closed,1,Bibtex docs
+262,2016-11-04 17:54:13.000000000,2016-11-04 18:23:00.000000000,closed,1,Incrementing minor version number to 0.3.4
+261,2016-11-04 00:55:06.000000000,2016-11-04 17:38:14.000000000,closed,5,Autoflow fix
+260,2016-11-03 22:16:09.000000000,2018-05-02 15:00:20.000000000,closed,3,Why no whitening in KL divergences?
+259,2016-11-03 22:11:25.000000000,2016-11-04 00:01:20.000000000,closed,1,Updates to readme file.
+258,2016-11-03 19:56:34.000000000,2016-11-04 12:24:25.000000000,closed,2,Better deduction of `input_dim` for `kernels.Combination`
+257,2016-11-03 19:51:47.000000000,2016-11-03 19:53:41.000000000,closed,0,Better deduction of `input_dim` for `kernels.Combination`
+256,2016-11-03 17:34:31.000000000,2016-11-04 17:38:14.000000000,closed,1,Error when computing log likelihood with prior
+255,2016-11-03 15:26:24.000000000,2016-11-03 15:39:45.000000000,closed,1,Correcting a typo in readme.
+254,2016-11-03 15:06:03.000000000,2016-11-03 15:18:05.000000000,closed,1,Updating list of contributors
+253,2016-11-01 19:04:31.000000000,2016-11-02 16:33:01.000000000,closed,1,active_dims fix in Kdiag
+252,2016-11-01 15:46:35.000000000,2016-11-01 16:03:52.000000000,closed,2,improvements to doctring of kernels regarding slices
+251,2016-11-01 14:32:08.000000000,2016-11-01 15:07:32.000000000,closed,2,improvements to setup.py
+250,2016-11-01 01:27:26.000000000,2016-11-01 01:55:59.000000000,closed,2,Installation fails: could not import setuptools
+249,2016-10-31 21:47:08.000000000,2016-10-31 22:07:09.000000000,closed,2,Icouckuy master
+248,2016-10-31 21:05:04.000000000,2016-11-01 14:47:26.000000000,closed,1,make sure log jacobian is computed even for fixed variables
+247,2016-10-29 23:37:17.000000000,2019-11-14 21:30:18.000000000,closed,20,Add predict_f_gradients and predict_y_gradients to GPModel
+246,2016-10-28 23:21:49.000000000,2018-04-15 02:32:59.000000000,closed,5,Derivatives of mean and var
+245,2016-10-28 16:51:50.000000000,2016-10-28 17:09:15.000000000,closed,7,fixing tf version in setup.py
+244,2016-10-28 16:41:40.000000000,2016-10-28 17:02:38.000000000,closed,2,Installation issues: cannot recognize TF version
+243,2016-10-27 18:55:26.000000000,2016-10-27 19:06:06.000000000,closed,0,v0.3.3 paper submission.
+242,2016-10-27 18:28:37.000000000,2016-10-27 18:44:28.000000000,closed,1,updating tf version in docs_require
+241,2016-10-27 18:02:14.000000000,2016-10-27 18:12:57.000000000,closed,1,tidying notebook files
+240,2016-10-27 18:01:33.000000000,2016-10-27 18:27:26.000000000,closed,1,Adding Apache license to all testing files.
+239,2016-10-26 23:20:25.000000000,2016-10-31 13:54:39.000000000,closed,1,Graphing
+238,2016-10-24 18:18:52.000000000,2016-10-24 18:39:04.000000000,closed,1,Versionupdate3.2
+237,2016-10-24 16:19:22.000000000,2016-10-24 18:06:11.000000000,closed,2,Tf11
+236,2016-10-24 16:16:04.000000000,2016-10-24 18:06:38.000000000,closed,1,Include Pandas in setup.py dependencies.
+235,2016-10-22 22:00:06.000000000,2016-11-04 20:00:10.000000000,closed,12,Issues with use of default graph
+234,2016-10-22 13:53:58.000000000,1970-01-01 00:00:00.000000001,open,11,Predicting component contributions
+233,2016-10-21 18:40:56.000000000,2016-10-22 11:23:17.000000000,closed,1,adding gpflowrc to the manifest file
+232,2016-10-21 17:04:09.000000000,2016-10-24 15:01:37.000000000,closed,4,gpflowrc missing when installing gpflow as a dependency
+231,2016-10-20 16:03:30.000000000,2016-10-20 16:03:38.000000000,closed,0,test issue
+230,2016-10-20 06:28:35.000000000,2016-10-20 22:39:19.000000000,closed,2,SVGP: Why doesn't my posterior mean go through the data?
+229,2016-10-17 19:39:51.000000000,2017-08-02 16:38:28.000000000,closed,12,Tensorboard
+228,2016-10-17 18:41:34.000000000,2017-07-12 12:11:56.000000000,closed,13,tri_to_vec timing
+227,2016-10-17 18:35:57.000000000,2017-07-12 12:18:08.000000000,closed,4,gcc ABI incompatibility
+226,2016-10-12 20:22:48.000000000,2017-08-29 17:10:38.000000000,closed,2,added transforms for BoundedAbove and BoundedBelow
+225,2016-10-09 20:33:45.000000000,2018-04-11 18:41:16.000000000,closed,2,Prediction with a single thread
+224,2016-10-08 14:07:46.000000000,2017-08-15 14:35:42.000000000,closed,5,Decrease the learning rate during stochastic learning
+223,2016-10-04 22:18:53.000000000,2016-11-04 20:01:36.000000000,closed,15,Can `active_dims` really be a slice?
+222,2016-10-04 14:06:40.000000000,2016-10-31 22:06:07.000000000,closed,3,Minor fix for gcc 6
+221,2016-10-04 12:36:12.000000000,2016-10-10 13:21:20.000000000,closed,0,Jviereck patch 1
+220,2016-10-03 22:56:50.000000000,2016-11-04 21:16:23.000000000,closed,3,add fn to gte the length of a paramlist
+219,2016-10-03 17:56:25.000000000,2016-10-03 18:32:02.000000000,closed,1,Added return statements in vgp._compile().
+218,2016-10-03 17:05:41.000000000,2016-10-04 12:07:13.000000000,closed,1,Update README.md
+217,2016-10-03 14:30:21.000000000,2016-10-03 16:57:15.000000000,closed,1,Fixes for TF 0.11
+216,2016-10-03 12:39:52.000000000,2016-10-29 22:55:22.000000000,closed,6,Minor installation problems
+215,2016-09-30 16:12:50.000000000,2016-10-10 13:22:16.000000000,closed,5,Fix links to the example notebooks
+214,2016-09-21 22:24:56.000000000,2016-09-23 01:27:33.000000000,closed,2,Added polynomial kernel
+213,2016-09-21 18:41:39.000000000,2018-05-02 15:00:34.000000000,closed,60,Matrix Triangular Solve does not require CUSolver for GPU
+212,2016-09-16 13:34:06.000000000,2016-09-16 13:41:06.000000000,closed,1,editing docs_require to let readthedocs.org compile
+211,2016-09-14 21:20:22.000000000,2016-09-14 22:47:33.000000000,closed,2,tensorflow version 0.10 breaks things
+210,2016-09-14 18:09:53.000000000,2016-09-15 11:52:36.000000000,closed,4,Settings module now has ability to change during a run
+209,2016-09-13 19:47:02.000000000,2017-07-12 12:17:05.000000000,closed,13,Ability to pass through tf config proto to Session 
+208,2016-09-10 13:38:32.000000000,2016-09-10 13:46:03.000000000,closed,1,tearing down interactive session when finished
+207,2016-09-10 13:12:57.000000000,2016-09-10 13:26:21.000000000,closed,1,adding python3.5 status to readme
+206,2016-09-09 21:37:44.000000000,2018-04-11 18:41:44.000000000,closed,0,Stop coveralls reporting the code coverage at pull request time
+205,2016-09-09 20:41:16.000000000,2016-09-09 21:36:55.000000000,closed,8,Travis py3
+204,2016-09-09 18:16:27.000000000,2016-09-09 21:46:55.000000000,closed,1,Test Python 3 on Travis CI in parallel to existing CI.
+203,2016-09-09 15:00:11.000000000,2016-09-09 18:15:21.000000000,closed,21,Require Python 3 compatability? Switch over to Python 3? If so maintain Python 2 compatability?
+202,2016-09-09 13:37:57.000000000,2016-09-09 14:42:54.000000000,closed,6,Verbosity flags for optimisation and compilation now used
+201,2016-09-09 13:04:03.000000000,2016-09-09 14:44:45.000000000,closed,3,Ability to specify verbosity of optimization and compilation in config file. 
+200,2016-09-09 12:56:47.000000000,2018-05-02 15:24:44.000000000,closed,31,Mnist demo.
+199,2016-09-09 12:42:32.000000000,2017-09-04 15:37:18.000000000,closed,7,SGPR: specify number of gradient descent iterations between q-updates
+198,2016-09-08 19:51:22.000000000,2016-09-09 14:59:46.000000000,closed,6,Tf wraps
+197,2016-09-08 19:34:56.000000000,2019-12-04 03:11:25.000000000,closed,3,Text duplication in intro.rst and readme.md
+196,2016-09-08 18:44:44.000000000,2016-09-08 19:50:07.000000000,closed,6,Correction to link.
+195,2016-09-07 18:56:54.000000000,2016-11-23 23:31:25.000000000,closed,46,Kernel expectations
+194,2016-09-07 04:16:29.000000000,2016-09-08 18:09:27.000000000,closed,3,link to readthedocs page
+193,2016-09-02 13:14:37.000000000,2016-10-03 18:00:06.000000000,closed,1,setup.py is modified.
+192,2016-09-02 12:55:44.000000000,2016-10-22 15:58:42.000000000,closed,13,GPflow.tfops is not copied by python setup.py install
+191,2016-09-01 15:04:42.000000000,2016-09-09 13:03:11.000000000,closed,8,Config
+190,2016-08-31 17:49:35.000000000,2016-09-17 12:01:55.000000000,closed,9,Config/settings file for GPflow 
+189,2016-08-31 17:44:59.000000000,1970-01-01 00:00:00.000000001,open,1,Wrap Cholesky to allow localized higher numerical precision
+188,2016-08-31 17:40:18.000000000,1970-01-01 00:00:00.000000001,open,10,Change default Python optimizer for GPflow?
+187,2016-08-31 17:36:29.000000000,2016-09-09 14:59:46.000000000,closed,0,tf_hacks -> tf_wraps
+186,2016-08-31 15:37:43.000000000,2017-09-04 15:41:01.000000000,closed,3,Multivariate Gaussian likelihood
+185,2016-08-31 13:50:16.000000000,2016-09-16 15:46:07.000000000,closed,15,Float types
+184,2016-08-30 00:12:48.000000000,2016-08-30 13:02:36.000000000,closed,1,removing potential for circular import
+183,2016-08-29 22:27:43.000000000,2016-08-30 14:40:24.000000000,closed,6,Scoping
+182,2016-08-25 19:24:51.000000000,2016-08-25 19:45:23.000000000,closed,5,"Remove default use of the LowerTriangular transform, for speed reasons"
+181,2016-08-25 15:05:18.000000000,2016-10-27 19:19:47.000000000,closed,28,GPflow has become considerably slower on GPU with some recent changes.
+180,2016-08-24 16:09:20.000000000,2016-09-08 19:52:41.000000000,closed,4,Is it better to write GPFlow or GPflow?
+179,2016-08-24 15:54:54.000000000,2016-08-24 16:06:48.000000000,closed,1,switching coverage badge to codecov
+178,2016-08-24 15:29:24.000000000,2016-08-31 15:33:19.000000000,closed,2,Automatic AutoFlow
+177,2016-08-23 16:28:39.000000000,2017-08-02 16:17:08.000000000,closed,8,Future of LVM support
+176,2016-08-22 21:56:02.000000000,2016-08-22 22:51:27.000000000,closed,3,"LowerTriangularTransform now also takes matrix, not just array of matrices"
+175,2016-08-22 16:27:07.000000000,2016-08-22 18:58:04.000000000,closed,6,Fixed compile bug when using gcc5.
+174,2016-08-22 15:34:12.000000000,2017-01-31 20:00:41.000000000,closed,21,Tracer and wrapped session for GPflow
+173,2016-08-20 20:47:31.000000000,2016-08-22 18:58:04.000000000,closed,12,error while importing GPflow 
+172,2016-08-19 14:08:07.000000000,2016-08-19 16:44:46.000000000,closed,7,Duplication of computation
+171,2016-08-19 10:51:49.000000000,2017-07-12 12:12:37.000000000,closed,4,Enforce all user ops have GPU versions?
+170,2016-08-19 10:48:18.000000000,1970-01-01 00:00:00.000000001,open,7,Include CPU and GPU timing tests in continuous integration
+169,2016-08-19 01:30:51.000000000,2017-07-13 01:10:47.000000000,closed,6,Multiclass slicing
+168,2016-08-18 20:40:27.000000000,2016-08-19 15:52:31.000000000,closed,2,adding optional Lmin to hmc procedure
+167,2016-08-18 18:46:15.000000000,2016-08-18 19:08:01.000000000,closed,2,adding extra args to model.sample to pass through to hmc
+166,2016-08-16 06:53:27.000000000,2016-08-16 11:37:02.000000000,closed,0,added fill_between plotting and maxiter
+165,2016-08-15 15:11:57.000000000,2016-08-15 20:43:03.000000000,closed,12,Fixed custom op test failing
+164,2016-08-15 14:28:17.000000000,2016-08-15 15:10:45.000000000,closed,1,Fixes #161
+163,2016-08-14 13:49:07.000000000,2016-08-15 20:43:03.000000000,closed,1,tests fail with tensorflow 10.0rc0
+162,2016-08-12 13:50:24.000000000,2018-05-02 14:58:43.000000000,closed,2,Perform distributed and GPU experiments
+161,2016-08-12 03:46:20.000000000,2016-08-15 15:10:45.000000000,closed,10,ValueError in multiclass likelihood
+160,2016-08-11 01:22:51.000000000,2016-08-16 14:35:05.000000000,closed,5,Prettier Visualization in notebooks
+159,2016-08-10 15:19:16.000000000,2016-08-10 17:07:00.000000000,closed,5,use batch ops in KLs and conditionals
+158,2016-08-09 14:53:42.000000000,2016-08-09 14:54:13.000000000,closed,0,Cov-overparam2
+157,2016-08-09 13:24:16.000000000,2016-08-09 13:41:58.000000000,closed,1,apache headers
+156,2016-08-09 07:10:58.000000000,2016-08-09 14:01:55.000000000,closed,1,Multi mean
+155,2016-08-08 01:41:20.000000000,2016-08-09 13:44:51.000000000,closed,1,add Apache headers (fix #135)
+154,2016-08-08 01:35:39.000000000,2016-08-08 01:37:44.000000000,closed,1,add Apache license headers (fix #135)
+153,2016-08-04 20:18:41.000000000,2016-08-09 13:21:09.000000000,closed,5,Fixed optimiser options to be consistent with scipy
+152,2016-08-02 14:58:54.000000000,2016-08-02 15:06:22.000000000,closed,1,Get tests working with Python 3
+151,2016-07-29 23:28:10.000000000,2016-08-01 20:53:36.000000000,closed,2,make kernels with active_dims pickleable
+150,2016-07-29 18:32:12.000000000,2016-08-09 22:39:33.000000000,closed,24,Fix covariance overparameterisation
+149,2016-07-29 16:30:00.000000000,2016-07-29 23:30:46.000000000,closed,1,pickle and active_dims
+148,2016-07-28 20:01:15.000000000,2016-07-28 20:12:49.000000000,closed,5,`_kill_autoflow()` fails in Python 3
+147,2016-07-28 15:11:14.000000000,2016-08-09 13:21:09.000000000,closed,2,Optimisation hacks
+146,2016-07-27 21:43:08.000000000,2016-08-10 13:38:35.000000000,closed,4,adding a simple Uniform prior
+145,2016-07-27 18:45:08.000000000,2016-11-07 21:10:43.000000000,closed,12,Multi likelihood
+144,2016-07-27 13:03:04.000000000,2016-07-27 15:38:28.000000000,closed,1,Auto data flow
+143,2016-07-27 08:30:10.000000000,2016-07-27 15:38:46.000000000,closed,2,DataHolderList
+142,2016-07-26 14:20:59.000000000,2016-07-28 15:11:43.000000000,closed,1,Issue when serialising kernel with fixed parameter
+141,2016-07-26 14:10:34.000000000,2016-07-28 20:30:51.000000000,closed,1,enables pickling with fixed parameters
+140,2016-07-25 18:32:13.000000000,2016-09-08 18:07:04.000000000,closed,4,Making the documentation more official
+139,2016-07-24 22:01:06.000000000,2016-08-10 13:59:44.000000000,closed,4,adding coregion kernel
+138,2016-07-24 15:17:32.000000000,2016-07-28 18:01:33.000000000,closed,9,Coregionalization
+137,2016-07-24 14:40:16.000000000,2016-07-28 20:12:19.000000000,closed,1,some small edits to keep GPflow working with python 3
+136,2016-07-22 21:06:51.000000000,2016-07-29 13:25:44.000000000,closed,1,Track logprobs
+135,2016-07-18 12:29:18.000000000,2016-08-09 13:42:00.000000000,closed,0,Add Apache Licence header to each file
+134,2016-07-18 12:19:02.000000000,2016-07-27 18:40:51.000000000,closed,4,made transforms all pickleable
+133,2016-07-15 17:22:34.000000000,2016-07-27 18:41:08.000000000,closed,0,transforms.Logistic compatibility with pickle 
+132,2016-07-14 12:55:20.000000000,2019-12-04 03:40:27.000000000,closed,6,A pre-computed kernel
+131,2016-07-13 14:38:52.000000000,2018-05-02 14:59:17.000000000,closed,2,A higher order likelihood expectation? 
+130,2016-07-13 01:54:09.000000000,2016-07-13 12:04:12.000000000,closed,0,Autokill autoflow
+129,2016-07-11 18:21:18.000000000,2017-10-16 12:45:57.000000000,closed,10,Data tensor
+128,2016-07-11 01:05:06.000000000,2016-07-11 14:38:58.000000000,closed,0,adding slight jitter to cholesky when computing samples
+127,2016-07-10 11:03:10.000000000,2016-07-11 12:27:20.000000000,closed,0,using the built-in softplus function for simplicity
+126,2016-07-09 14:45:52.000000000,2016-07-09 14:54:46.000000000,closed,0,Correction to VGP form @fujiisoup
+125,2016-07-09 12:43:58.000000000,2016-07-09 14:47:16.000000000,closed,4,Bug-fix in VGP related to mean_function
+124,2016-07-08 20:18:29.000000000,2016-10-16 23:41:11.000000000,closed,4,Likelihood for Ordinal regression
+123,2016-07-08 15:29:02.000000000,2016-07-09 13:09:55.000000000,closed,2,Lognormal
+122,2016-07-08 14:56:02.000000000,2016-07-08 19:18:59.000000000,closed,0,Extended svi_test.ipynb to show how to use the stochastic optimizer
+121,2016-07-08 11:37:47.000000000,2016-07-08 14:56:45.000000000,closed,3,AdaGrad
+120,2016-07-06 21:37:06.000000000,2016-07-07 10:52:27.000000000,closed,0,improvements to transforms
+119,2016-07-06 21:06:45.000000000,2016-07-08 16:36:04.000000000,closed,2,robustness of optimization
+118,2016-07-06 05:39:25.000000000,2016-07-08 11:16:08.000000000,closed,1,Convenient way to get and restore all the data in a model
+117,2016-07-01 15:37:28.000000000,2017-07-12 12:13:57.000000000,closed,1,Apply TensorFlow profiler to GPflow
+116,2016-07-01 14:47:45.000000000,2016-09-09 16:14:58.000000000,closed,4,Tensorboard support
+115,2016-06-30 17:10:21.000000000,2018-04-11 20:59:36.000000000,closed,3,Parameter logging during optimisation / sampling
+114,2016-06-29 17:56:28.000000000,2016-06-29 18:11:40.000000000,closed,0,Update README.md
+113,2016-06-28 23:03:38.000000000,2016-06-29 16:18:44.000000000,closed,3,Kern slicing
+112,2016-06-28 22:06:11.000000000,2016-06-29 19:24:26.000000000,closed,5,`to_dict`
+111,2016-06-28 06:54:21.000000000,2016-06-29 14:28:47.000000000,closed,2,Backward compatibility to access the data
+110,2016-06-25 17:31:27.000000000,2016-06-26 15:23:55.000000000,closed,1,Data object
+109,2016-06-24 18:34:55.000000000,2016-06-28 16:28:50.000000000,closed,18,Multiclass
+108,2016-06-24 14:06:14.000000000,2016-07-01 16:31:40.000000000,closed,22,Placeholder
+107,2016-06-24 14:02:46.000000000,2016-06-24 14:03:54.000000000,closed,1,Placeholder
+106,2016-06-23 15:34:46.000000000,2016-11-04 20:01:05.000000000,closed,5,Optional Verbose Compilation
+105,2016-06-23 05:33:08.000000000,2016-07-03 12:00:00.000000000,closed,7,Data as Placeholder
+104,2016-06-17 23:58:47.000000000,2016-06-20 17:23:03.000000000,closed,0,Some very simple tests to make sure objects' names are correct
+103,2016-06-17 14:37:45.000000000,2016-09-08 20:12:15.000000000,closed,1,Non-determinism of codeship build failures
+102,2016-06-15 20:08:47.000000000,2019-03-29 00:20:33.000000000,closed,4,"""How to contribute"" page"
+101,2016-06-15 19:15:26.000000000,2016-09-08 19:53:20.000000000,closed,4,Some wrong behaviours with code coverage and integration with GitHub
+100,2016-06-14 20:11:32.000000000,2016-06-14 20:26:20.000000000,closed,1,initializing all tf variables inside AF session
+99,2016-06-14 19:53:41.000000000,2016-06-14 20:26:20.000000000,closed,0,compute_log_likelihood for SVGP class results in unitialized variable error. 
+98,2016-06-14 12:33:26.000000000,2016-06-14 13:19:16.000000000,closed,1,adding fixed property to parameterized
+97,2016-06-14 01:01:54.000000000,2016-06-14 13:06:08.000000000,closed,5,Universal autoflow
+96,2016-06-13 19:38:24.000000000,2016-06-17 15:19:36.000000000,closed,28,serializing GPflow objects
+95,2016-06-13 19:32:09.000000000,2016-06-20 14:25:39.000000000,closed,5,Use GPFlow as part of a larger graph
+94,2016-06-13 19:30:42.000000000,2016-06-14 13:19:56.000000000,closed,3,Fixing a set of parameters e.g in kernel
+93,2016-06-13 19:15:09.000000000,2018-05-02 14:58:12.000000000,closed,3,Kronecker SVGP
+92,2016-06-13 14:17:26.000000000,2016-06-13 19:39:13.000000000,closed,2,adding methods to convert a model to a dict
+91,2016-06-09 16:36:05.000000000,2016-10-16 14:08:36.000000000,closed,17,Bayesian GPLVM
+90,2016-06-08 23:59:31.000000000,2016-06-09 14:53:09.000000000,closed,0,All ready for Release 0.1.4
+89,2016-06-08 23:59:07.000000000,2016-07-11 15:01:08.000000000,closed,11,a simple function to work out where a parameter is on the free_state
+88,2016-06-08 11:17:08.000000000,2016-06-09 18:53:59.000000000,closed,2,running a spell-checker on the comments and docstrings
+87,2016-06-07 23:46:52.000000000,2016-06-09 22:09:33.000000000,closed,9,adding value property to Param class
+86,2016-06-07 19:03:48.000000000,2016-06-07 23:31:16.000000000,closed,5,Fixed AutoFlow sharing `self.tf_args` between different instances
+85,2016-06-07 18:55:57.000000000,2016-06-08 10:50:43.000000000,closed,2,Autoflow fails when making predictions with different models
+84,2016-06-07 14:20:38.000000000,2016-06-07 20:44:22.000000000,closed,7,Remove need for bespoke pip package
+83,2016-06-06 15:48:53.000000000,2016-06-06 16:07:48.000000000,closed,0,adding a Laplace prior
+82,2016-06-05 23:43:57.000000000,2016-06-06 16:39:07.000000000,closed,2,Fill constants
+81,2016-06-03 20:56:20.000000000,2016-06-09 22:11:13.000000000,closed,3,Autoflow fails after resizing of variables
+80,2016-06-03 14:53:18.000000000,2016-07-01 16:51:45.000000000,closed,5,Treating fixed values as placeholder rather than constants
+79,2016-06-02 12:28:27.000000000,2018-05-02 14:58:28.000000000,closed,2,Multi-task/outputs GPs
+78,2016-06-01 20:17:01.000000000,2016-11-08 18:40:50.000000000,closed,9,Non-invertible covariance matrix during regression optimization
+77,2016-05-31 19:23:57.000000000,2016-05-31 20:19:35.000000000,closed,0,Readding logistic transform.
+76,2016-05-31 19:05:08.000000000,2016-05-31 19:18:31.000000000,closed,0,Fix up2
+75,2016-05-31 18:36:06.000000000,2016-05-31 19:04:15.000000000,closed,0,Fixup
+74,2016-05-31 13:44:15.000000000,2016-05-31 18:06:46.000000000,closed,0,Logistic transform
+73,2016-05-28 19:30:02.000000000,2016-05-28 19:33:34.000000000,closed,2,added Alexis to list of contributors
+72,2016-05-28 18:04:27.000000000,2016-10-16 14:06:41.000000000,closed,13,Make model objective calculation robust to singular matrix errors
+71,2016-05-27 17:09:14.000000000,2016-05-27 20:31:38.000000000,closed,6,Periodic kernel
+70,2016-05-25 18:42:11.000000000,2016-05-27 13:10:46.000000000,closed,3,Updates list of contributors and links to tensorflow.org
+69,2016-05-25 16:43:13.000000000,2016-05-27 13:10:46.000000000,closed,2,Update list of contributors on readme. 
+68,2016-05-25 16:36:04.000000000,2016-05-25 18:22:06.000000000,closed,0,Demo of sparse Gaussian process classification.
+67,2016-05-24 18:42:25.000000000,2016-05-27 15:45:15.000000000,closed,3,Mean function tests are very slow
+66,2016-05-19 18:16:37.000000000,2016-05-25 11:20:02.000000000,closed,19,Syntax changes for Python 3 compatibility
+65,2016-05-19 17:00:12.000000000,2016-07-11 15:19:16.000000000,closed,13,Added cholesky decomposition with jitter
+64,2016-05-13 00:15:45.000000000,2016-05-16 14:55:18.000000000,closed,10,Sample from model
+63,2016-05-04 16:46:07.000000000,2016-06-14 13:33:29.000000000,closed,7,Added `evalK` function for easy evaluations of kernels.
+62,2016-04-29 20:07:43.000000000,2016-05-27 19:11:11.000000000,closed,8,changes to Autoflow to work when the graph gets reset
+61,2016-04-29 19:44:06.000000000,2016-05-27 19:11:11.000000000,closed,7,autoflow fails after reset_default_graph
+60,2016-04-27 15:49:22.000000000,2016-04-27 16:30:18.000000000,closed,0,Coveralls
+59,2016-04-27 06:23:58.000000000,2016-04-27 12:22:16.000000000,closed,3,GPU
+58,2016-04-26 18:52:48.000000000,2016-05-05 12:19:38.000000000,closed,7,Mean function Combination
+57,2016-04-25 15:47:39.000000000,2016-05-28 12:55:10.000000000,closed,5,Combine mean functions
+56,2016-04-24 21:26:42.000000000,2016-06-14 01:07:40.000000000,closed,19,Pickle
+55,2016-04-24 21:22:39.000000000,2016-05-31 20:39:22.000000000,closed,5,Autoflow fix bugfix
+54,2016-04-24 12:41:31.000000000,2016-05-29 02:05:34.000000000,closed,2,Changing parameter to fixed requires model recompilation prior to prediction 
+53,2016-04-22 15:08:13.000000000,2016-04-24 20:36:16.000000000,closed,3,FITC vs VFE notebook.
+52,2016-04-20 19:44:46.000000000,2016-04-21 17:30:55.000000000,closed,2,Shortening travis file.
+51,2016-04-20 17:54:50.000000000,2018-05-03 18:15:21.000000000,closed,6,GPflow on pypi
+50,2016-04-20 12:32:38.000000000,2016-04-20 17:40:57.000000000,closed,3,Move from fork to main TensorFlow.
+49,2016-04-18 22:11:09.000000000,2016-08-09 22:10:58.000000000,closed,7,`q_sqrt` over-parametrisation
+48,2016-04-18 19:47:02.000000000,2016-09-08 19:41:21.000000000,closed,18,Recommended way to serialize and de-serialize model class?
+47,2016-04-18 17:26:50.000000000,2016-04-22 11:56:58.000000000,closed,3,adding fix for #46 and associated test
+46,2016-04-18 16:25:30.000000000,2016-04-22 11:57:57.000000000,closed,4,SVGP q_sqrt can't be fixed
+45,2016-04-17 19:50:42.000000000,2016-05-26 12:35:33.000000000,closed,10,Added constant kernel
+44,2016-04-14 01:22:23.000000000,2016-05-28 19:31:56.000000000,closed,7,Pep8
+43,2016-04-13 22:40:29.000000000,2016-04-13 23:30:26.000000000,closed,1,added autoflow methods to compute the likelihood (and the prior)
+42,2016-04-13 22:00:23.000000000,2016-04-13 23:31:03.000000000,closed,3,Directly get likelihood of data given the model
+41,2016-04-13 20:53:32.000000000,2016-04-14 13:34:44.000000000,closed,4,Optimizer tolerance
+40,2016-04-13 19:04:09.000000000,2016-04-21 12:59:25.000000000,closed,13,Linear kernel variance optimized to 0 with VGP model
+39,2016-04-13 18:33:39.000000000,2016-04-14 15:06:08.000000000,closed,1,Best way to pass through optimization parameters to model.optimize ?
+38,2016-04-13 18:29:50.000000000,2016-04-26 00:21:42.000000000,closed,1,IPython notebook showing comparison of FITC and VFE
+37,2016-04-13 14:21:43.000000000,2016-04-13 23:02:25.000000000,closed,16,FITC method for GPflow
+36,2016-04-12 21:00:29.000000000,2016-04-12 21:02:01.000000000,closed,0,A single test commit.
+35,2016-04-12 19:43:19.000000000,2016-04-12 21:00:49.000000000,closed,1,FIX: redundant white kernels in test (fixes #34)
+34,2016-04-11 17:39:44.000000000,2016-04-12 21:00:50.000000000,closed,1,Question about test_method_equivalence unit test. 
+33,2016-04-11 12:37:37.000000000,2016-04-11 16:33:56.000000000,closed,2,Numerical conditioning of matrix inversion in implementation of Titsias' regression method
+32,2016-04-08 20:17:04.000000000,2016-04-13 18:43:14.000000000,closed,5,Pull requests need to be up to date with master?
+31,2016-04-08 19:47:38.000000000,2016-04-12 18:52:52.000000000,closed,6,Unit Tests taking too long on travis
+30,2016-03-30 17:45:11.000000000,2016-03-30 17:51:02.000000000,closed,0,table of methods for README
+29,2016-03-30 14:38:51.000000000,2016-04-21 12:58:54.000000000,closed,4,Implement FITC for regression in GPflow
+28,2016-03-29 21:41:14.000000000,2016-03-29 22:24:21.000000000,closed,1,Test improvements
+27,2016-03-27 22:59:48.000000000,2016-03-30 17:50:26.000000000,closed,2,Full covariance matrix in predictions
+26,2016-03-27 15:22:30.000000000,2016-03-29 12:49:33.000000000,closed,1,adding tests for mean functions
+25,2016-03-24 21:23:09.000000000,2016-03-30 17:50:26.000000000,closed,0,Return off diagonals of predictive covariance
+24,2016-03-24 20:13:49.000000000,2016-03-24 21:16:37.000000000,closed,1,"made tf_mode work for paramlist, added appropriate test"
+23,2016-03-24 20:10:09.000000000,2016-03-24 21:16:37.000000000,closed,0,Paramlist objects do not obey tf_mode
+22,2016-03-24 16:24:43.000000000,2016-04-11 20:42:31.000000000,closed,11,Numpy ImportError: numpy.core.multiarray failed to import
+21,2016-03-22 14:43:31.000000000,2018-05-02 14:59:43.000000000,closed,1,Standardize whitening of matrices
+20,2016-03-21 12:27:02.000000000,2016-03-24 17:37:06.000000000,closed,5,Sgpr
+19,2016-03-20 23:59:19.000000000,2016-03-21 12:06:30.000000000,closed,1,Sparse GP regression (Michalis Titsias style). 
+18,2016-03-19 20:45:39.000000000,2016-03-22 13:59:42.000000000,closed,1,Continuous integration
+17,2016-03-18 20:27:59.000000000,2016-03-24 18:18:35.000000000,closed,4,ParamList
+16,2016-03-17 16:53:49.000000000,2016-10-04 13:12:36.000000000,closed,0,Inter domain kernels work + example notebook.
+15,2016-03-15 14:55:56.000000000,2016-03-15 16:10:52.000000000,closed,3,Svi
+14,2016-03-11 22:20:30.000000000,2016-03-16 16:48:39.000000000,closed,0,Tf 0.7.1
+13,2016-03-11 01:44:12.000000000,2016-03-20 15:05:55.000000000,closed,1,Svi tfopt
+12,2016-03-10 20:14:51.000000000,2016-06-14 13:43:08.000000000,closed,3,Autoflow for kernels
+11,2016-03-10 18:23:52.000000000,2016-09-08 19:41:56.000000000,closed,9,Continuous integration for GPflow 
+10,2016-03-10 16:37:47.000000000,2016-04-21 12:58:26.000000000,closed,11,Upgrade GPflow to work without a fork of TensorFlow
+9,2016-03-10 16:20:42.000000000,2016-07-01 16:58:02.000000000,closed,13,Mutliclass likelihood in GPflow 
+8,2016-03-10 16:18:23.000000000,2017-11-23 19:48:37.000000000,closed,3,Ability to integrate interdomain inducing point methods with GPflow 
+7,2016-03-10 16:16:10.000000000,2016-03-20 21:56:18.000000000,closed,12,Put minibatch work onto master
+6,2016-03-08 18:30:43.000000000,2016-03-24 21:21:35.000000000,closed,1,Return diagonals of predictive covariance 
+5,2016-03-08 18:29:01.000000000,2016-03-24 19:02:49.000000000,closed,3,Collapsed Titsias variational bound for Gaussian likelihoods
+4,2016-03-07 15:33:20.000000000,2016-03-10 16:28:04.000000000,closed,3,Added a simple versioning system
+3,2016-03-03 19:34:22.000000000,2016-03-07 15:21:56.000000000,closed,3,Kern naming
+2,2016-02-26 18:09:35.000000000,2016-03-07 15:36:09.000000000,closed,4,Different predictions when comparing GPflow with GPy
+1,2016-02-16 14:06:39.000000000,2016-02-22 19:00:55.000000000,closed,0,Autoflow

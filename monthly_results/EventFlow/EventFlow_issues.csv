@@ -1,0 +1,794 @@
+id,created_at,closed_at,state,comments,title
+793,2020-08-27 11:10:06.000000000,1970-01-01 00:00:00.000000001,open,0,ValueObject → record
+792,2020-08-26 20:15:05.000000000,1970-01-01 00:00:00.000000001,open,0,"Allow ReadModels Marked For Deletion To Be ""Unmarked"" for Deletion"
+791,2020-08-26 18:01:21.000000000,1970-01-01 00:00:00.000000001,open,1,[PoC] Adding Kafka as Event Publishing Alternative to Rabbit
+790,2020-08-26 07:30:09.000000000,2020-08-26 07:55:05.000000000,closed,1,[PoC] Adding Kafka as Event Publishing Alternative to Rabbit
+789,2020-08-18 17:48:47.000000000,1970-01-01 00:00:00.000000001,open,4,Trigger azure function when new event is commited 
+788,2020-08-18 17:15:53.000000000,1970-01-01 00:00:00.000000001,open,0,Replaying Events
+787,2020-08-17 17:27:56.000000000,2020-08-18 16:53:29.000000000,closed,1,EntityFramework Bulk.Delete Returns Null Error
+786,2020-08-17 01:43:26.000000000,1970-01-01 00:00:00.000000001,open,2,Updaded NEST nuget package to 7.8.2
+785,2020-07-29 11:18:18.000000000,2020-07-29 20:59:47.000000000,closed,1,Executed Update-FileHeaders.ps1
+784,2020-07-26 00:56:41.000000000,1970-01-01 00:00:00.000000001,open,0,[Documentation] Gettings Started Feedback
+783,2020-07-24 04:16:29.000000000,2020-07-29 20:59:00.000000000,closed,1,Fixes link
+782,2020-07-15 20:28:20.000000000,2020-07-29 11:06:51.000000000,closed,3,.NET Core 3.1 Tests
+781,2020-07-13 15:00:14.000000000,2020-07-15 20:26:06.000000000,closed,1,WIP: NET Core 3.1 Tests
+780,2020-07-12 23:31:51.000000000,2020-07-29 20:59:28.000000000,closed,1,Obsolete AsyncHelper
+779,2020-07-12 22:37:56.000000000,1970-01-01 00:00:00.000000001,open,1,[PoC] Event correlation
+778,2020-07-12 14:04:10.000000000,2020-07-12 21:09:32.000000000,closed,0,Fixed test: SubscriberExceptionIsThrownIfConfigured
+777,2020-07-12 13:27:18.000000000,2020-07-29 11:16:36.000000000,closed,0,Update-FileHeaders.ps1
+776,2020-07-09 23:02:04.000000000,1970-01-01 00:00:00.000000001,open,0,DistinctCommand for EntityModel class / GetSourceIdComponents
+775,2020-07-08 23:26:42.000000000,2020-07-13 01:58:24.000000000,closed,1,file event store will now use relative paths
+774,2020-07-08 21:39:48.000000000,2020-07-13 01:56:21.000000000,closed,11,[PoC] Crash-resilience enabler API
+773,2020-07-08 01:08:02.000000000,2020-07-13 02:01:46.000000000,closed,0,Fix exception message for when it does not have an 'Apply' method that takes aggregate event
+772,2020-07-06 03:33:19.000000000,1970-01-01 00:00:00.000000001,open,3,EventStore - PersistentSubscriptions
+771,2020-07-06 02:44:06.000000000,2020-07-13 01:58:24.000000000,closed,1,allow FilesEventPersistence to use relative paths
+770,2020-07-05 13:45:11.000000000,2020-07-06 15:37:28.000000000,closed,0,Fix MultipleAggregateReadStoreManagerTests
+769,2020-07-04 18:58:48.000000000,2020-07-08 21:12:24.000000000,closed,0,EntityFramework: SaveChanges per event
+768,2020-07-04 01:17:25.000000000,2020-07-04 09:05:45.000000000,closed,0,SingleAggregateReadStoreManager with in-order event processing
+767,2020-07-03 16:03:34.000000000,1970-01-01 00:00:00.000000001,open,11,[ProofOfConcept] crash resilience
+766,2020-07-01 14:30:41.000000000,2020-07-06 21:49:58.000000000,closed,2,[Question] Sample usage of PostgreSqlReadModel
+765,2020-06-24 23:00:03.000000000,1970-01-01 00:00:00.000000001,open,0,[PoC] Add Microsoft.Extensions.Logging without API breaking changes
+764,2020-06-17 22:24:44.000000000,1970-01-01 00:00:00.000000001,open,5,Ms SQL shoud throw OptimisticConcurrencyException on read model insert conflict
+763,2020-06-17 18:27:09.000000000,2020-06-25 11:47:57.000000000,closed,4,[Poc] Reimplement asyncsubscribers
+762,2020-06-12 18:56:19.000000000,2020-06-15 03:28:56.000000000,closed,1,No versioned type definition for 'ItemCreated' with version 1 in 'EventDefinitionService'
+761,2020-06-09 14:32:01.000000000,2020-06-09 14:33:34.000000000,closed,0,[WIP] Crash resilience poc
+760,2020-06-02 18:52:38.000000000,1970-01-01 00:00:00.000000001,open,8,Make serialization scheme more generic
+759,2020-06-02 15:49:41.000000000,2020-06-02 15:50:33.000000000,closed,1,"Adapt build.cake for teamcity. Make project buildable, add 'Fortis.' …"
+758,2020-05-29 10:38:03.000000000,2020-06-02 15:50:29.000000000,closed,1,Allow to run integration tests locally
+757,2020-05-29 10:17:14.000000000,2020-06-02 15:50:49.000000000,closed,1,Run integration tests locally
+756,2020-05-20 10:00:01.000000000,1970-01-01 00:00:00.000000001,open,2,Add support for Azure Event Hubs
+755,2020-05-15 13:01:48.000000000,1970-01-01 00:00:00.000000001,open,1,RabbitMQ Integration for .Net Core 3
+754,2020-05-13 21:41:03.000000000,2020-07-29 11:32:50.000000000,closed,1,PoC: Migrate tests to .NET Core 3.1
+753,2020-05-10 19:07:23.000000000,2020-05-13 21:13:09.000000000,closed,5,Entity Framework on .NET Core 3.1
+752,2020-04-29 17:33:35.000000000,2020-05-05 21:56:29.000000000,closed,0,Dryioc Integration
+751,2020-04-25 10:19:36.000000000,1970-01-01 00:00:00.000000001,open,12,Call for maintainers
+750,2020-04-24 14:05:53.000000000,2020-07-03 02:59:51.000000000,closed,2,Cannot apply aggregate event of type
+749,2020-04-15 21:37:31.000000000,2020-04-15 22:22:48.000000000,closed,0,Fix master
+748,2020-04-15 19:44:34.000000000,2020-05-11 12:08:48.000000000,closed,1,Add Azure Functions and Event Grid example
+747,2020-03-30 16:08:44.000000000,1970-01-01 00:00:00.000000001,open,2,IEventUpgrader usage differs for aggregate loading and read model repopulation
+746,2020-03-27 13:45:53.000000000,1970-01-01 00:00:00.000000001,open,3,Added ReadModelResult which is an envelope for the result of a read model
+745,2020-03-04 03:38:13.000000000,2020-07-03 03:00:34.000000000,closed,3,ReadModel should be DB-agnostic
+744,2020-02-20 17:18:34.000000000,2020-06-24 22:21:14.000000000,closed,4,New external example
+743,2020-02-19 17:00:27.000000000,1970-01-01 00:00:00.000000001,open,2,ReadModelPopulator should ignore query filters
+742,2020-02-12 23:33:37.000000000,2020-05-11 11:51:58.000000000,closed,3,Entity Framework on .NET Core 3.1
+741,2020-02-12 23:26:05.000000000,2020-03-04 22:59:52.000000000,closed,0,Small fixes
+740,2020-02-10 12:49:16.000000000,1970-01-01 00:00:00.000000001,open,2,Concurrency on ReadModel updates
+739,2020-02-05 14:31:53.000000000,2020-03-04 22:59:52.000000000,closed,0,Configuration Extensions : .AddCommands() and .AddSnapshots() should both have default null predicate parameter
+738,2020-02-05 04:27:27.000000000,2020-02-11 12:15:19.000000000,closed,2,Added new external example project
+737,2020-02-04 15:54:19.000000000,1970-01-01 00:00:00.000000001,open,7,Issue with .NETCore Console app using EventFlow
+736,2020-02-03 19:34:49.000000000,1970-01-01 00:00:00.000000001,open,3,Question: Renaming events and identities
+735,2020-02-03 16:52:41.000000000,2020-07-03 03:01:10.000000000,closed,5,Question: table per aggregate type — why not?
+734,2020-02-02 21:22:00.000000000,2020-02-17 12:12:36.000000000,closed,5,Reliable Read Model Updates
+733,2020-02-02 00:23:44.000000000,2020-02-04 23:23:01.000000000,closed,3,LibLog - Support structured logging in NLog 4.5 and newer
+732,2020-02-01 01:48:24.000000000,2020-02-10 12:33:17.000000000,closed,4,Added quoting to generator of the SQL.
+731,2020-01-28 16:59:20.000000000,2020-02-02 14:26:33.000000000,closed,1,Fix broken blogpost link in README.MD
+730,2020-01-24 18:27:11.000000000,1970-01-01 00:00:00.000000001,open,5,eventdatamodel_list_type why it's required?
+729,2020-01-21 18:44:06.000000000,2020-06-24 22:22:24.000000000,closed,13,Version Number inconsistencies - Who owns the version number?
+728,2020-01-13 13:42:17.000000000,1970-01-01 00:00:00.000000001,open,3,[PoC] reliable event delivery
+727,2020-01-10 01:10:28.000000000,2020-01-19 16:28:31.000000000,closed,1,Spike 1.x - Standard dependency injection
+726,2020-01-10 00:54:42.000000000,1970-01-01 00:00:00.000000001,open,0,Spike on 1.0
+725,2020-01-09 23:59:37.000000000,2020-01-10 00:53:46.000000000,closed,0,Spike - 1.x remove legacy projects
+724,2020-01-09 23:38:24.000000000,1970-01-01 00:00:00.000000001,open,5,Plan for 1.0 (please read)
+723,2019-12-31 02:21:58.000000000,2020-01-19 19:22:44.000000000,closed,5,WIP: Remove .NET Framework
+722,2019-12-20 20:52:17.000000000,2019-12-30 04:33:56.000000000,closed,1,"The question about ""Task.FromResult"""
+721,2019-12-16 17:21:09.000000000,2019-12-16 17:43:46.000000000,closed,0,Infinite ReadAllEventsForward message loop
+720,2019-12-14 00:15:54.000000000,2020-01-15 04:09:49.000000000,closed,5,Add example of how to init aggregate's interface
+719,2019-12-13 23:50:54.000000000,2020-01-15 04:10:29.000000000,closed,5,How to unit test CommandHandlers?
+718,2019-12-13 20:23:57.000000000,2020-05-13 21:13:09.000000000,closed,10,MissingMethodException with .Net Core 3.1 and EventFlow-EntityFramework-Integration
+717,2019-12-11 20:35:00.000000000,2020-07-03 03:01:57.000000000,closed,12,Does the default ReadModelPopulator also invoke event subscribers?
+716,2019-12-11 14:19:36.000000000,2019-12-11 14:57:48.000000000,closed,6,Injecting ICommandBus leads to failure with injection of ILog
+715,2019-12-11 00:07:57.000000000,2020-01-17 22:16:19.000000000,closed,6,Eventually consistent read model projections
+714,2019-12-10 13:37:14.000000000,2020-03-04 22:59:51.000000000,closed,4,Lots of verbose logging from evenupgraders while not using them
+713,2019-12-10 03:57:56.000000000,2020-01-19 19:23:41.000000000,closed,3,RFC: Remove .NET Framework
+712,2019-12-10 00:10:33.000000000,2019-12-10 15:18:48.000000000,closed,0,Correct license header in accordance with CLA
+711,2019-12-09 23:50:16.000000000,1970-01-01 00:00:00.000000001,open,2,Cleanup integration test setup
+710,2019-12-09 22:50:26.000000000,2020-07-06 15:37:28.000000000,closed,0,Unstable test MultipleAggregateReadStoreManagerTests.EventOrdering
+709,2019-12-09 16:20:16.000000000,2019-12-09 23:40:11.000000000,closed,2,Change to VS2019 image
+708,2019-11-28 22:41:52.000000000,1970-01-01 00:00:00.000000001,open,1,ReadModelPopulator.PopulateAsync returning prematurely.
+707,2019-11-18 04:12:57.000000000,1970-01-01 00:00:00.000000001,open,3,Why every example uses DomainError?
+706,2019-11-10 23:56:47.000000000,2019-12-03 02:23:24.000000000,closed,0,Add test for event upgrade
+705,2019-11-05 21:36:53.000000000,1970-01-01 00:00:00.000000001,open,1,Simple example for event upgrader
+704,2019-11-05 15:03:26.000000000,2019-11-10 23:35:23.000000000,closed,1,SetMagicNumer to SetMagicNumber
+703,2019-10-20 14:26:55.000000000,1970-01-01 00:00:00.000000001,open,3,Event snapshots in EventStore
+702,2019-10-18 12:19:00.000000000,2020-07-03 03:26:57.000000000,closed,2,1 to 0..1 Mapping in EntityFramework ReadModel duplicate key insert error
+701,2019-10-17 08:32:27.000000000,2019-10-17 11:16:35.000000000,closed,2,Updated README.md file
+700,2019-10-16 13:26:36.000000000,2019-10-17 11:17:50.000000000,closed,1,Remove empty constructor requirement on mongo readmodels
+699,2019-10-14 11:08:54.000000000,2019-10-17 11:18:42.000000000,closed,2,move rabbitmq publish single message to own virtual method 
+698,2019-10-10 17:15:27.000000000,1970-01-01 00:00:00.000000001,open,3,Emit in aggregate leads to null id error
+697,2019-10-10 17:01:36.000000000,1970-01-01 00:00:00.000000001,open,2,Multi-tenant solution with different eventStore / Database endpoints
+696,2019-10-08 23:08:47.000000000,2019-10-11 09:46:50.000000000,closed,4,Make EventStore connection string configurable
+695,2019-10-08 17:31:26.000000000,2020-04-15 22:41:48.000000000,closed,5,Saga with distributed services
+694,2019-10-08 09:40:04.000000000,2019-12-16 11:17:00.000000000,closed,1,Incompatibility with .net core 3.0
+693,2019-10-02 01:41:27.000000000,1970-01-01 00:00:00.000000001,open,4,General code optimizations.
+692,2019-10-01 17:35:23.000000000,1970-01-01 00:00:00.000000001,open,2,Support EventStore or Marten ?
+691,2019-09-30 14:50:02.000000000,2020-07-08 21:12:24.000000000,closed,2,Question: Is LoadAllCommittedEvents guaranteed to return results in aggregate version order
+690,2019-09-30 13:25:01.000000000,2020-03-04 22:59:52.000000000,closed,1,Mocking: Virtual Members For Baseclasses
+689,2019-09-30 12:02:52.000000000,1970-01-01 00:00:00.000000001,open,1,Event publishing
+688,2019-09-27 17:58:35.000000000,2019-10-08 10:33:52.000000000,closed,0,Use with Generic HostBuilder
+687,2019-09-26 01:25:30.000000000,1970-01-01 00:00:00.000000001,open,0,WIP: C# 8 (nullable)
+686,2019-09-25 14:12:50.000000000,2019-12-10 00:18:00.000000000,closed,20,.Net core 3 support
+685,2019-09-20 11:07:35.000000000,2019-09-22 13:26:58.000000000,closed,2,Made tests asynchronous
+684,2019-09-17 16:02:42.000000000,1970-01-01 00:00:00.000000001,open,0,Evaluate GitHub actions as CI alternative
+683,2019-09-16 22:50:38.000000000,1970-01-01 00:00:00.000000001,open,1,WIP: MSSQL bulk copy
+682,2019-09-13 15:36:33.000000000,2019-10-02 21:04:08.000000000,closed,6,mongoDB ReadModelStore as IQueryable
+681,2019-09-12 01:26:38.000000000,2019-09-12 09:39:34.000000000,closed,1,"Fix: Deserializing ""null"" into nullable SingleValueObjects"
+680,2019-09-11 17:14:02.000000000,2019-09-25 12:24:43.000000000,closed,5,Read data from the Aggregate in ReadModel Apply
+679,2019-09-10 15:57:30.000000000,1970-01-01 00:00:00.000000001,open,2,Question about readmodel id behaviour with Entity Framework
+678,2019-09-04 23:20:35.000000000,1970-01-01 00:00:00.000000001,open,5,Replace JSON.NET with System.Text.Json
+677,2019-09-02 22:11:35.000000000,2019-09-03 21:05:58.000000000,closed,0,Test null values in single value objects
+676,2019-09-02 13:38:12.000000000,1970-01-01 00:00:00.000000001,open,4,WIP: Added event persistence implementation for StreamsDb
+675,2019-08-30 18:39:41.000000000,2019-09-12 09:39:33.000000000,closed,10,Issue in deserializing nullable SingleValueObjects
+674,2019-08-30 13:27:19.000000000,2019-09-17 11:11:09.000000000,closed,1,Hangfire DispatchToAsynchronousEventSubscribers fails to find events
+673,2019-08-19 14:10:49.000000000,1970-01-01 00:00:00.000000001,open,5,Subscriber from different application
+672,2019-08-03 19:04:40.000000000,2019-08-07 16:51:56.000000000,closed,1,How to access meta data and write into elk readModels
+671,2019-07-31 22:39:24.000000000,2019-07-31 22:52:57.000000000,closed,0,Bug: EntityFramework context is getting disposed early
+670,2019-07-30 22:28:43.000000000,1970-01-01 00:00:00.000000001,open,4,Question: Reusing events in sagas
+669,2019-07-29 07:49:45.000000000,1970-01-01 00:00:00.000000001,open,9,Entity Framework read model can not load children entities during update
+668,2019-07-26 14:27:31.000000000,1970-01-01 00:00:00.000000001,open,1,Events in different domains with same name
+667,2019-07-18 12:14:59.000000000,1970-01-01 00:00:00.000000001,open,1,MetadataProviders scope
+666,2019-07-13 22:38:09.000000000,2019-08-03 19:02:30.000000000,closed,3,Data Retrieval from EventStore
+665,2019-07-09 18:23:33.000000000,2019-07-12 12:24:40.000000000,closed,3,Bugfix: Subscribe To All Domain Events
+664,2019-07-07 21:57:13.000000000,2019-12-10 11:27:39.000000000,closed,13,up_integration-test-env.ps1 does not start all services
+663,2019-07-05 16:21:19.000000000,2019-07-22 22:35:25.000000000,closed,4,Listen to all AggregateEvents
+662,2019-07-05 11:59:34.000000000,2019-07-07 22:41:38.000000000,closed,4,add an external example based on eventflow
+661,2019-07-02 11:45:28.000000000,1970-01-01 00:00:00.000000001,open,3,Issue with configuration for dotnet core web api 
+660,2019-07-02 11:26:50.000000000,2019-07-03 18:31:21.000000000,closed,1,Issue saving id of entity in read model
+659,2019-06-29 13:32:19.000000000,2019-07-01 11:48:40.000000000,closed,2,Issue configuring EF Core for read model
+658,2019-06-27 11:36:20.000000000,1970-01-01 00:00:00.000000001,open,1,Ability to publish multiple commands
+657,2019-06-22 15:13:32.000000000,2019-06-25 16:07:09.000000000,closed,1,Fixed issues with ASP.NET metadata providers
+656,2019-06-22 00:52:21.000000000,2019-06-25 16:07:09.000000000,closed,0,Issue with configuration for dotnet core web api
+655,2019-06-18 16:27:49.000000000,1970-01-01 00:00:00.000000001,open,2,Optimistic conccurency
+654,2019-06-13 10:52:07.000000000,1970-01-01 00:00:00.000000001,open,2,Polymorphism support
+653,2019-06-12 14:34:58.000000000,2019-12-10 01:32:19.000000000,closed,3,Same identity in different domains
+652,2019-06-12 02:10:22.000000000,2019-06-12 22:44:41.000000000,closed,0,HTTPS links
+651,2019-06-12 01:45:28.000000000,2019-06-13 11:47:16.000000000,closed,1,Allow explicit implementations of IEmit<>
+650,2019-06-09 19:57:00.000000000,2019-06-12 00:54:57.000000000,closed,2,Rebuild async ReadModels
+649,2019-06-06 22:39:14.000000000,2019-06-11 22:11:54.000000000,closed,3,JSON serialization config
+648,2019-05-31 14:51:42.000000000,2019-06-04 21:12:15.000000000,closed,3,added NUnit test adapter
+647,2019-05-29 14:03:31.000000000,2019-12-10 01:32:51.000000000,closed,4,Support for .net core 2.2
+646,2019-05-27 04:22:57.000000000,2019-12-10 01:33:21.000000000,closed,2,support for querying for collections
+645,2019-05-26 21:47:34.000000000,2019-05-27 22:20:37.000000000,closed,2,WIP: Fix source link integration
+644,2019-05-26 21:16:00.000000000,2019-05-27 22:20:37.000000000,closed,4,Source link integration broken
+643,2019-05-25 14:14:03.000000000,2019-06-11 23:20:53.000000000,closed,0,NullReferenceException when emitting event outside HttpContext with AspNetCore AddRequestHeadersMetadataProvider
+642,2019-05-22 11:42:45.000000000,2019-05-28 10:33:37.000000000,closed,7,Upgrade EventStore Client API
+641,2019-05-22 11:35:37.000000000,2019-05-28 10:33:37.000000000,closed,0,Exceptions thrown in EventStore.ClientAPI.NetCore package
+640,2019-05-22 03:41:47.000000000,2019-06-04 21:12:15.000000000,closed,1,tests not running in VS Community 2017 (15.9.3)
+639,2019-05-16 01:46:04.000000000,2019-05-26 21:34:00.000000000,closed,4,Publishing symbols
+638,2019-05-15 21:27:55.000000000,2019-05-16 01:37:55.000000000,closed,2,Add PDB files to packages
+637,2019-05-12 23:31:05.000000000,2019-05-16 09:30:00.000000000,closed,1,Fix: MsSqlEventPersistence with non-ANSI unicode characters
+636,2019-05-12 23:03:02.000000000,2019-05-16 09:30:00.000000000,closed,0,MsSqlEventPersistence: Unicode support
+635,2019-05-07 13:52:14.000000000,2019-06-04 13:38:50.000000000,closed,6,Emitting multiple events
+634,2019-04-19 12:53:25.000000000,2019-05-16 09:30:16.000000000,closed,2,Add my sample project about Vehicle tracking
+633,2019-04-16 03:02:26.000000000,1970-01-01 00:00:00.000000001,open,3,Why State Aggregate is not apply in event incomming order ?
+632,2019-04-15 16:24:07.000000000,2019-05-03 06:56:42.000000000,closed,3,Entity Framework Context
+631,2019-04-14 12:05:16.000000000,2019-04-15 12:37:21.000000000,closed,1,No versioned type definition
+630,2019-04-11 15:39:20.000000000,2019-12-10 01:34:11.000000000,closed,6,Async ExecuteAfterValidation
+629,2019-04-11 12:21:17.000000000,2019-04-17 14:42:08.000000000,closed,1,Use FirstOrDefaultAsync instead of FirstAsync in Mongo ReadStore
+628,2019-04-09 09:52:17.000000000,1970-01-01 00:00:00.000000001,open,1,Distinct Command And Documentation
+627,2019-04-08 12:56:31.000000000,2019-04-08 21:10:26.000000000,closed,1,Eventflow.ElasticSearch required Enhancements 
+626,2019-04-06 19:19:54.000000000,2019-04-10 22:03:48.000000000,closed,3,feat: SourceLink support
+625,2019-04-06 17:49:13.000000000,2019-04-25 09:27:22.000000000,closed,2,[BUG] MongoDbReadModelStore GetAsync throws exception for unknown id's
+624,2019-04-02 00:15:42.000000000,2019-05-28 10:35:03.000000000,closed,1,EventFlow.TestHelper to NET Standard
+623,2019-04-01 13:25:24.000000000,2019-04-10 23:29:17.000000000,closed,2,Fix: Index fragmentation using COMB GUIDs in MSSQL
+622,2019-04-01 12:09:11.000000000,2019-04-10 23:29:17.000000000,closed,1,Using COMB GUIDs in MSSQL causes index fragmentation
+621,2019-03-31 15:26:09.000000000,1970-01-01 00:00:00.000000001,open,1,Multi-tenancy support through Routing Key...
+620,2019-03-31 15:15:53.000000000,1970-01-01 00:00:00.000000001,open,0,How to stop ElasticSearchStore to handle/swallow all write error exceptions ?
+619,2019-03-30 22:53:46.000000000,2019-04-06 21:13:43.000000000,closed,2,updated readme with new external example link and description
+618,2019-03-27 08:22:53.000000000,2019-06-13 11:47:16.000000000,closed,5,Explicit Interface Implementation of IEmit<> is not supported
+617,2019-03-25 16:48:31.000000000,2019-05-26 21:19:32.000000000,closed,15,Ship PDB files with Nuget package
+616,2019-03-23 23:56:55.000000000,2019-12-10 01:35:04.000000000,closed,5,Interface for aggregates - how to unit test the Command Handlers?
+615,2019-03-23 20:21:40.000000000,2019-03-31 14:52:09.000000000,closed,4,Can it possible to subscribe the Event from another bound context
+614,2019-03-17 22:03:59.000000000,1970-01-01 00:00:00.000000001,open,5,Add StyleCop to standardize the coding style
+613,2019-03-17 21:54:54.000000000,2019-04-10 22:48:14.000000000,closed,5,Upgrade ASP.NET Core dependencies
+612,2019-03-17 01:25:12.000000000,2019-03-22 11:31:47.000000000,closed,4,Upgrade test dependencies
+611,2019-03-16 16:12:38.000000000,2019-04-11 09:33:35.000000000,closed,1,EF-605: use EventId as SourceId for external event delivered to saga …
+610,2019-03-16 14:55:34.000000000,1970-01-01 00:00:00.000000001,open,0,Dead letter event queue
+609,2019-03-16 14:34:36.000000000,1970-01-01 00:00:00.000000001,open,0,DomainEventPublisher shouldn't stop at exception
+608,2019-03-16 12:49:22.000000000,1970-01-01 00:00:00.000000001,open,2,Automatically add saga id to event metadata + create default SagaLocator
+607,2019-03-16 00:51:17.000000000,2019-03-16 15:12:55.000000000,closed,1,Saga Improvements Summary
+606,2019-03-16 00:50:29.000000000,1970-01-01 00:00:00.000000001,open,1,Saga and error handling
+605,2019-03-16 00:43:45.000000000,1970-01-01 00:00:00.000000001,open,4,AggregateSaga doesn't publish commands published from command handler method
+604,2019-03-16 00:35:33.000000000,1970-01-01 00:00:00.000000001,open,1,Reliable saga published commands redelivery after crash
+603,2019-03-14 00:36:30.000000000,2019-04-17 18:46:51.000000000,closed,2,throw on failed saga command
+602,2019-03-13 22:57:35.000000000,1970-01-01 00:00:00.000000001,open,9,Community support
+601,2019-03-13 22:42:16.000000000,2020-01-09 23:40:52.000000000,closed,7,Version 1.0 milestone discussion
+600,2019-03-13 15:35:52.000000000,2019-03-13 23:10:13.000000000,closed,2,Throw if saga command fails
+599,2019-03-13 15:34:25.000000000,1970-01-01 00:00:00.000000001,open,0,Failed saga commands are silently ignored
+598,2019-03-11 00:50:33.000000000,1970-01-01 00:00:00.000000001,open,1,Concurrently execute 2 commands against the same aggregate does not throw OptimisticConcurrencyException for MongoDb persistence component
+597,2019-03-02 14:02:23.000000000,2019-12-10 01:35:52.000000000,closed,1,Could I added Example Project to the readme
+596,2019-03-02 04:58:21.000000000,1970-01-01 00:00:00.000000001,open,5,Separating events and aggregates
+595,2019-02-26 21:39:42.000000000,2019-03-13 22:44:27.000000000,closed,2,Creating ReadModel with collection property
+594,2019-02-25 23:23:02.000000000,1970-01-01 00:00:00.000000001,open,3,EF in Version Control System
+593,2019-02-25 15:41:31.000000000,2019-02-26 19:43:22.000000000,closed,0,Mysql Support
+592,2019-02-25 15:31:28.000000000,2019-02-26 19:43:56.000000000,closed,2,using eventflow in multi tenant environment
+591,2019-02-24 03:04:38.000000000,1970-01-01 00:00:00.000000001,open,5,Support structured logging
+590,2019-02-16 17:29:32.000000000,2019-12-10 01:36:35.000000000,closed,4,Using EventFlow in distributed application - how to update data models
+589,2019-02-16 17:09:41.000000000,2019-02-16 23:02:43.000000000,closed,3,Added .net core example
+588,2019-02-11 03:56:47.000000000,2019-06-11 23:20:53.000000000,closed,4,ASP.NET Core improvements
+587,2019-02-10 04:08:04.000000000,2019-02-12 23:31:58.000000000,closed,4,Added cancellation boundaries
+586,2019-02-09 04:32:51.000000000,2019-12-10 01:37:05.000000000,closed,3,EventFlow.Owin: Issue with hangfire + metadata providers
+585,2019-02-08 22:16:01.000000000,2019-02-12 23:20:42.000000000,closed,2,Async read model updates (IAmAsyncReadModelFor)
+584,2019-02-07 12:11:50.000000000,2019-02-12 23:21:39.000000000,closed,1,Added options.RunOnStartup<TBootstrap>()
+583,2019-02-07 05:40:53.000000000,2019-02-08 23:15:23.000000000,closed,3,Fix: Use GetRequiredService in EventFlow.DependencyInjection
+582,2019-02-01 00:27:32.000000000,2019-02-01 15:37:20.000000000,closed,2,Does EventFlow have to build all aggregate roots via events?
+581,2019-01-31 13:34:06.000000000,2019-02-06 15:10:44.000000000,closed,3,Load in memory ReadModel from MsSql
+580,2019-01-29 22:53:43.000000000,2019-02-02 16:36:34.000000000,closed,7,Event Registration with ServiceCollection
+579,2019-01-29 21:58:38.000000000,2019-02-04 11:17:44.000000000,closed,5,add dbo schema
+578,2019-01-29 21:56:32.000000000,2019-02-04 11:17:44.000000000,closed,0,EventFlow.MsSql - Schema Inconsistent Between Scripts
+577,2019-01-29 02:55:39.000000000,2019-12-30 04:02:17.000000000,closed,4,Async ReadModels (IAmReadModelFor)
+576,2019-01-22 17:20:01.000000000,1970-01-01 00:00:00.000000001,open,1,IReadModelStore changes (Microsoft Orleans integration)
+575,2019-01-19 20:49:56.000000000,2019-12-10 01:37:22.000000000,closed,4,Readmodels for collections on ARs
+574,2019-01-16 18:21:33.000000000,2019-02-08 23:15:23.000000000,closed,0,EventFlow.DependencyInjection: Resolve should throw when service is not found
+573,2019-01-02 21:57:46.000000000,2019-12-10 01:38:01.000000000,closed,2,ElasticSearch auto-update mapping
+572,2018-12-30 21:31:00.000000000,1970-01-01 00:00:00.000000001,open,3,EventFlow and GDPR encrypted data demo
+571,2018-12-13 14:02:52.000000000,1970-01-01 00:00:00.000000001,open,1,Can saga is used in distribution？
+570,2018-12-11 23:28:43.000000000,1970-01-01 00:00:00.000000001,open,1,Load aggregate in specific version
+569,2018-12-11 07:37:33.000000000,2019-12-10 01:41:24.000000000,closed,4,Saga do double execution and cannot complete.
+568,2018-12-10 14:56:58.000000000,2019-12-10 01:41:43.000000000,closed,4,How should to take the advantage of aggregate state
+567,2018-12-10 14:03:31.000000000,1970-01-01 00:00:00.000000001,open,9,[Question] Event filtering and Readmodels
+566,2018-12-06 18:10:45.000000000,2019-02-08 23:21:46.000000000,closed,4,Fix LoadAllEventsAsync with gaps (#564)
+565,2018-12-04 17:52:02.000000000,2019-09-22 13:38:41.000000000,closed,5,This version is not for produce yet?
+564,2018-12-02 23:18:11.000000000,2020-02-12 23:42:39.000000000,closed,3,Bug: LoadAllCommittedEvents fails when there are gaps in GlobalSequenceNumber
+563,2018-11-23 18:01:53.000000000,2019-12-10 01:42:36.000000000,closed,4,Aggregates/Entities - Many To Many
+562,2018-11-16 20:25:02.000000000,2018-11-17 04:37:46.000000000,closed,2,Question : Get state any where in the domain ?
+561,2018-11-07 13:36:03.000000000,2019-09-22 13:38:32.000000000,closed,4,Questions on sagas using commands
+560,2018-10-31 21:35:04.000000000,1970-01-01 00:00:00.000000001,open,1,A different enum approach
+559,2018-10-24 15:48:33.000000000,2018-12-02 18:05:50.000000000,closed,13,WIP: migrate mongodb from EventFlow.MongoDb repo
+558,2018-10-22 15:46:43.000000000,2018-10-25 12:58:58.000000000,closed,4,How to test snapshots
+557,2018-10-20 12:26:18.000000000,2019-09-22 13:38:16.000000000,closed,2,MSSQL Snapshot dont serialize array of entities inside of an agreggateState
+556,2018-10-19 23:05:41.000000000,2018-10-20 07:05:03.000000000,closed,1,EventStore issue on Docker Linux
+555,2018-10-18 18:50:58.000000000,2019-09-22 13:38:07.000000000,closed,3,Concurrency
+554,2018-10-17 08:45:12.000000000,2018-10-20 07:33:47.000000000,closed,4,Read Models - enriching event?
+553,2018-10-16 15:33:42.000000000,2018-10-17 13:24:46.000000000,closed,2,Validate loading sagas
+552,2018-10-16 14:18:20.000000000,1970-01-01 00:00:00.000000001,open,1,PoC: Read model definition service
+551,2018-10-16 09:55:09.000000000,2018-11-17 23:12:00.000000000,closed,4,ASP.NET Classic integration: commands and metadata providers execute on thread that doesn't have HttpContext available
+550,2018-10-15 20:37:17.000000000,2019-09-22 13:38:02.000000000,closed,13,GetAll query
+549,2018-10-15 08:58:14.000000000,2018-10-15 21:57:54.000000000,closed,0,saving data store
+548,2018-10-15 07:02:27.000000000,2018-10-16 10:40:13.000000000,closed,3,"Fixed build warning, enabled ""build warning as error"" in CI"
+547,2018-10-14 00:41:52.000000000,2018-11-03 08:21:18.000000000,closed,5,How to save data? After event store.
+546,2018-10-13 09:44:52.000000000,2018-10-16 13:59:41.000000000,closed,5,Rename Aspnetcore to AspNetCore namespace.
+545,2018-10-12 16:54:59.000000000,2018-10-12 21:56:01.000000000,closed,2,Registering postgresql read model stores with their interfaces instead of their class types. Fixes exceptions on circular component dependencies when using autofac as IoC container.
+544,2018-10-11 22:16:43.000000000,2018-10-13 09:31:35.000000000,closed,1,Update AddRequestHeadersMetadataProvider.cs ( Fixing namespace case) 
+543,2018-10-03 18:20:22.000000000,2018-10-10 12:35:21.000000000,closed,2,"Added external example ""Racetimes"""
+542,2018-09-28 16:51:25.000000000,2018-09-28 17:29:19.000000000,closed,2,Concurrencyfix
+541,2018-09-28 16:48:29.000000000,2018-09-28 17:29:19.000000000,closed,2,Potential 100% CPU hang in some circumstances
+540,2018-09-24 17:23:27.000000000,2019-09-22 13:37:53.000000000,closed,7,Deleting rows from a read model that uses a read model locator
+539,2018-09-22 07:48:28.000000000,2018-12-12 23:32:53.000000000,closed,7,Saga Received event more than once
+538,2018-09-21 15:30:34.000000000,2018-10-13 21:20:39.000000000,closed,4,Updated release notes for Entity Framework
+537,2018-09-19 18:11:26.000000000,2018-09-20 00:44:45.000000000,closed,2,Fix: Performance issue in EventFlow.PostgreSql
+536,2018-09-19 13:56:03.000000000,2019-09-22 13:37:43.000000000,closed,2,Question: Exception in subscriber
+535,2018-09-15 04:22:55.000000000,2018-10-02 21:09:01.000000000,closed,5,WIP: Fix Tests + upgrade NEST version
+534,2018-09-09 04:37:22.000000000,2018-09-19 22:24:13.000000000,closed,0,Improvement of CI stability and duration time
+533,2018-09-05 01:03:03.000000000,2019-02-08 23:23:49.000000000,closed,1,Fix: Stack overflow in ValidateRegistrations
+532,2018-09-05 00:57:07.000000000,2018-09-05 01:01:04.000000000,closed,1,Fix: Stack overflow in ValidateRegistrations
+531,2018-09-04 10:55:13.000000000,1970-01-01 00:00:00.000000001,open,3,Report unstable builds
+530,2018-09-03 10:36:06.000000000,2018-09-03 10:37:18.000000000,closed,0,could you Add a method in EventFlow.MsSql  assembly EventFlowOptionsMsSqlReadStoreExtensions
+529,2018-09-02 19:51:04.000000000,2018-09-05 01:19:31.000000000,closed,7,Migrate to more containers with integration test
+528,2018-08-31 12:51:17.000000000,2018-08-31 23:05:33.000000000,closed,2,Changes to use RabbitMQ docker container
+527,2018-08-31 01:20:18.000000000,1970-01-01 00:00:00.000000001,open,2,Missing CLA signatures
+526,2018-08-31 01:13:46.000000000,2018-08-31 12:42:07.000000000,closed,4,Versioned types not loaded when using DependencyInjection package
+525,2018-08-31 00:59:22.000000000,2018-10-13 22:01:05.000000000,closed,2,Fixed internal IoC (for testing)
+524,2018-08-30 15:52:43.000000000,1970-01-01 00:00:00.000000001,open,13,Exception when using EventStores.EventStore hosted in aspnet.core (linux) on docker 
+523,2018-08-29 14:16:07.000000000,2019-02-08 23:23:49.000000000,closed,2,ResolverExtensions.ValidateRegistrations throws StackOverflowException
+522,2018-08-29 00:04:11.000000000,2019-09-22 13:37:39.000000000,closed,4,Could you please assist how can I implement uniqueness check on an aggregate
+521,2018-08-28 00:11:11.000000000,1970-01-01 00:00:00.000000001,open,2,Better documentation for Asp.Net Core integration
+520,2018-08-27 22:34:03.000000000,2018-08-30 23:38:03.000000000,closed,1,Retry unstable tests
+519,2018-08-24 12:46:56.000000000,2018-08-24 12:56:04.000000000,closed,1,Fix typos in RELEASE_NOTES.md
+518,2018-08-23 23:53:19.000000000,2018-08-24 10:48:30.000000000,closed,2,Why does Aggregate Id have to be a Guid?
+517,2018-08-22 22:02:27.000000000,2018-08-24 10:08:20.000000000,closed,5,Update System.Data.SQLite with netstandard2.0 target
+516,2018-08-19 03:59:18.000000000,2018-09-15 04:27:55.000000000,closed,15,WIP: #515 Upgrade NEST to 6.1.0 and Newtonsoft to 11.0.2
+515,2018-08-16 12:28:43.000000000,2018-11-16 15:53:25.000000000,closed,2,Upgrade NEST version on EventFlow.Elasticsearch
+514,2018-08-10 17:02:10.000000000,2018-09-20 16:39:08.000000000,closed,25,Entity Framework
+513,2018-08-08 08:19:06.000000000,2018-08-31 01:24:37.000000000,closed,4,Added SQLite and Postgres support in README.
+512,2018-07-26 18:32:43.000000000,2018-08-23 11:36:03.000000000,closed,3,WIP: Added postgres integration test to EntityFramework
+511,2018-07-23 09:04:17.000000000,2018-11-18 17:39:27.000000000,closed,6,EventFlow.MsSql doesn't create ReadModel table
+510,2018-07-21 09:12:49.000000000,2018-07-25 14:17:46.000000000,closed,3,Fixed EventFlow.PostgreSQL to pass tests.
+509,2018-07-20 20:36:12.000000000,2018-07-20 23:41:00.000000000,closed,0,WIP: Fixed a build failure on PR #479
+508,2018-07-12 11:20:27.000000000,2018-07-12 12:40:21.000000000,closed,1,"No definition for type 'TEvent', have you remembered to load it during EventFlow initialization"
+507,2018-07-01 15:32:40.000000000,2018-07-01 22:42:48.000000000,closed,1,Read model update results
+506,2018-07-01 13:34:08.000000000,2018-07-01 15:48:26.000000000,closed,3,ReadModelContext: Added ReadModelId and IsNew
+505,2018-07-01 02:56:48.000000000,2018-07-01 21:46:36.000000000,closed,4,ApplyEvents: Better support for snapshots
+504,2018-06-29 13:23:55.000000000,2018-06-29 13:24:10.000000000,closed,0,"Revert ""Apply missing events to read models"""
+503,2018-06-29 10:05:10.000000000,2018-07-01 15:47:58.000000000,closed,1,contributers.md
+502,2018-06-29 02:32:23.000000000,2018-08-18 01:54:16.000000000,closed,8,Readmodel DomainEvent with list of entities
+501,2018-06-28 23:27:54.000000000,2019-04-10 22:08:39.000000000,closed,4,WIP: SourceLink
+500,2018-06-27 01:10:17.000000000,2018-09-19 22:29:01.000000000,closed,2,WIP: Entity Framework
+499,2018-06-26 20:46:31.000000000,2018-07-01 23:20:36.000000000,closed,5,Read model locator question
+498,2018-06-25 15:40:29.000000000,1970-01-01 00:00:00.000000001,open,1,Autodocumentation generated in dot graph format
+497,2018-06-24 22:08:19.000000000,2018-06-24 22:40:30.000000000,closed,1,Rename project to align with Microsoft NuGet package
+496,2018-06-21 20:24:15.000000000,2018-06-24 21:46:26.000000000,closed,3,Update link to EventStore home page in README.md
+495,2018-06-19 02:02:56.000000000,2018-06-25 09:54:00.000000000,closed,1,Autofac 3.5.2 for NET451
+494,2018-06-17 21:27:39.000000000,2018-08-24 12:53:41.000000000,closed,1,Create a contributers.md
+493,2018-06-15 14:26:30.000000000,2018-06-25 09:54:00.000000000,closed,0,Reference Autofac 3.x for net451 package
+492,2018-06-15 14:22:41.000000000,2018-06-15 14:58:48.000000000,closed,1,RabbitMQ test stability
+491,2018-06-14 22:13:11.000000000,2018-06-17 22:08:22.000000000,closed,1,Fixed SQL schema ignored
+490,2018-06-14 22:03:01.000000000,2018-06-15 14:59:18.000000000,closed,3,Release notes: Delete read models
+489,2018-06-14 21:24:56.000000000,2018-06-14 21:50:06.000000000,closed,1,Mark read models for deletion
+488,2018-06-14 02:19:23.000000000,2018-06-21 15:15:16.000000000,closed,5,Scoped instances resolved incorrectly in IQueryHandlers
+487,2018-06-13 00:31:10.000000000,2019-09-22 13:37:31.000000000,closed,10,Question: Read Model Removed
+486,2018-06-13 00:26:33.000000000,2018-06-17 22:08:22.000000000,closed,2,Schema ignored for read models.
+485,2018-06-13 00:06:49.000000000,1970-01-01 00:00:00.000000001,open,4,"Specific column ""EventName"""
+484,2018-06-12 21:45:46.000000000,2018-08-29 23:29:00.000000000,closed,1,Scoped instances not working in Query Handlers
+483,2018-06-12 17:29:34.000000000,2018-06-12 23:08:43.000000000,closed,1,"Fixed CommandPublishMiddleware as to return error, if exception occurs."
+482,2018-06-09 14:48:15.000000000,2018-06-10 00:10:52.000000000,closed,1,Read model version cleanup
+481,2018-06-07 21:53:02.000000000,2018-06-07 22:33:52.000000000,closed,1,Add .NET standard support to EventStore
+480,2018-06-07 21:23:47.000000000,1970-01-01 00:00:00.000000001,open,10,Real example needed
+479,2018-06-07 16:10:33.000000000,2018-07-25 14:17:50.000000000,closed,8,WIP: Implementation of postgre backend.
+478,2018-06-07 15:48:17.000000000,1970-01-01 00:00:00.000000001,open,6,Azure Cosmos DB support
+477,2018-06-07 01:20:50.000000000,2018-06-07 15:20:07.000000000,closed,1,Remove set; from IMetadata
+476,2018-06-07 00:43:10.000000000,1970-01-01 00:00:00.000000001,open,1,PoC: MSSQL read model schema generator
+475,2018-06-06 22:24:28.000000000,2018-06-07 01:14:21.000000000,closed,1,EventStore cleanup
+474,2018-06-06 22:09:42.000000000,2019-09-22 13:37:23.000000000,closed,6,How to globally register event store and set use this event store ?
+473,2018-06-06 21:52:08.000000000,2018-06-07 14:31:31.000000000,closed,1,Validate arguments in AggregateRoot
+472,2018-06-06 16:43:35.000000000,2018-06-18 11:01:23.000000000,closed,4,System.NullReferenceException: 'Object reference not set to an instance of an object.'
+471,2018-06-06 12:19:14.000000000,2018-06-06 22:04:39.000000000,closed,4,Change ExampleAggrenate to ExampleAggregate in Complete Example
+470,2018-06-04 12:56:45.000000000,1970-01-01 00:00:00.000000001,open,8,Lets bring EventFlow to the next level
+469,2018-06-01 12:41:21.000000000,2018-06-07 01:14:21.000000000,closed,2,Is EventStore support production ready?
+468,2018-05-29 12:25:18.000000000,2018-06-07 21:58:25.000000000,closed,8,Ported EventStore to .NET standard
+467,2018-05-28 21:57:47.000000000,2018-06-07 22:33:52.000000000,closed,1,EventStore .NET standard support
+466,2018-05-23 19:25:10.000000000,2018-05-23 22:51:58.000000000,closed,3,Change Primary Key name for MSSQL Snapshot Store
+465,2018-05-18 13:08:33.000000000,1970-01-01 00:00:00.000000001,open,3,Support Kafka
+464,2018-05-15 01:25:02.000000000,1970-01-01 00:00:00.000000001,open,3,PoC: Event streaming
+463,2018-05-14 23:08:23.000000000,2018-05-14 23:48:21.000000000,closed,1,Fix: Saga not publishing commands if not events emitted
+462,2018-05-13 16:45:13.000000000,2018-05-14 23:48:21.000000000,closed,5,AggregateSaga.Publish(new MyCommand()) does not actually publish the command.
+461,2018-05-13 15:15:43.000000000,2018-05-13 16:08:50.000000000,closed,0,Fix minor log bug in CommandBus
+460,2018-05-11 17:41:56.000000000,1970-01-01 00:00:00.000000001,open,8,Aggregate independent commands
+459,2018-05-08 12:41:18.000000000,2020-04-15 21:08:03.000000000,closed,5,Add SourceLink
+458,2018-05-02 14:01:45.000000000,2018-05-14 23:15:57.000000000,closed,2,Architecture graph/ photo
+457,2018-05-01 10:12:28.000000000,2018-05-28 22:11:28.000000000,closed,2,Does EventFlow support multi-tenancy?
+456,2018-04-25 22:26:48.000000000,1970-01-01 00:00:00.000000001,open,0,WIP: Build cross-platform
+455,2018-04-25 16:14:25.000000000,2018-04-30 22:20:12.000000000,closed,3,Can't use EventFlow.Mssql whith Asp.net Core 2.0
+454,2018-04-25 00:52:25.000000000,2018-04-30 22:20:12.000000000,closed,1,MSSQL support for .NET Standard
+453,2018-04-24 22:35:41.000000000,2018-04-24 23:55:23.000000000,closed,1,Enums as SingleValueObject<T>
+452,2018-04-24 10:19:46.000000000,2018-04-24 23:55:23.000000000,closed,1,SingleValueObject<T> doesnt support Enums as T
+451,2018-04-24 01:16:32.000000000,2018-05-28 22:13:46.000000000,closed,3,Recommendations for creating readmodels for multiple aggregates
+450,2018-04-22 19:47:25.000000000,2018-05-28 22:11:09.000000000,closed,2,How to retreive all read models?
+449,2018-04-18 17:19:20.000000000,1970-01-01 00:00:00.000000001,open,2,Use Microsoft.Extensions.DependencyInjection inplace of inbuilt Container
+448,2018-04-03 01:33:57.000000000,2018-04-03 10:11:29.000000000,closed,1,Fix: Event ordering for read models based on multiple aggregates
+447,2018-04-01 23:09:09.000000000,2018-04-25 09:41:43.000000000,closed,5,Fix: Concurrent access to InMemoryEventPersistence
+446,2018-04-01 11:09:17.000000000,2018-04-01 11:10:34.000000000,closed,0,Fix for concurrency issue in InMemoryPersistence
+445,2018-03-29 04:19:54.000000000,2018-06-19 01:42:46.000000000,closed,12,Support for Microsoft.Extensions.DependencyInjection: EventFlow.ServiceProvider
+444,2018-03-28 19:52:52.000000000,2018-04-25 09:41:43.000000000,closed,2,AggregateException: Collection Was Modified
+443,2018-03-23 13:11:21.000000000,2018-04-24 23:59:32.000000000,closed,1,Code coverage update
+442,2018-03-07 01:53:48.000000000,2018-03-07 11:50:30.000000000,closed,0,WIP: Fix Codecov integration
+441,2018-03-06 15:12:24.000000000,2018-03-07 23:38:45.000000000,closed,1,Dependency Injection for Command Handlers
+440,2018-03-06 09:37:37.000000000,2018-04-03 00:28:57.000000000,closed,1,Use already created base class for SagaAggregateStore
+439,2018-03-06 09:29:27.000000000,1970-01-01 00:00:00.000000001,open,44,Crash resilience
+438,2018-03-06 01:04:38.000000000,2018-03-06 19:27:17.000000000,closed,3,Fixing typos
+437,2018-03-05 00:51:15.000000000,2018-03-06 09:33:53.000000000,closed,3,Excellent work
+436,2018-03-01 05:03:02.000000000,1970-01-01 00:00:00.000000001,open,2,"Separate Mssql connection string, one for UseMssqlReadModel, the other for UseMssqlEventStore"
+435,2018-02-27 23:45:28.000000000,2018-03-02 11:48:15.000000000,closed,0,WIP: Easy saga update without domain events
+434,2018-02-27 23:13:19.000000000,2018-03-02 17:46:25.000000000,closed,0,WIP: Add.NET standard 2.0 target
+433,2018-02-27 04:47:22.000000000,2018-03-06 09:32:22.000000000,closed,12,Atomic event persistance and publishing
+432,2018-02-27 04:35:21.000000000,2018-03-06 09:32:56.000000000,closed,1,move domainEventPublisher.PublishAsync from AggregateStore to EventSt…
+431,2018-02-26 01:05:52.000000000,2018-02-26 01:31:30.000000000,closed,0,WIP: Autofac lifetime bugfix
+430,2018-02-25 05:51:11.000000000,2018-05-28 22:09:54.000000000,closed,5,JobPublisher exception on Deserilization of command
+429,2018-02-23 21:50:57.000000000,2018-02-26 03:01:39.000000000,closed,10,ObjectDisposed Errors ASP.Net core 2.0 
+428,2018-02-23 00:17:27.000000000,2018-02-25 01:11:37.000000000,closed,5,WIP: Less breaking implementation of LibLog
+427,2018-02-20 12:27:41.000000000,2018-05-28 22:09:21.000000000,closed,2,Questions about readmodel update
+426,2018-02-08 09:33:01.000000000,2018-02-09 00:16:09.000000000,closed,3,[Question] Not found the GettingStartedExample test method in GettingStarted document.
+425,2018-02-08 00:11:58.000000000,1970-01-01 00:00:00.000000001,open,5,WIP: Use Docker container to run RabbitMQ integration tests
+424,2018-02-02 19:44:47.000000000,2018-04-24 23:59:02.000000000,closed,9,Sagas trigger without domainEvent
+423,2018-02-02 12:42:23.000000000,2019-08-29 13:18:13.000000000,closed,3,Some questions about the implementation of the DDD
+422,2018-01-25 17:34:07.000000000,2018-01-26 00:00:37.000000000,closed,1,ReflectionHelper.CompileMethodInvocation
+421,2018-01-25 15:41:04.000000000,2018-01-25 23:34:25.000000000,closed,3,ReflectionHelper.CompileMethodInvocation
+420,2018-01-21 00:23:03.000000000,2018-01-21 19:52:37.000000000,closed,0,Header update (2017 -> 2018)
+419,2018-01-21 00:16:53.000000000,2018-01-21 23:53:20.000000000,closed,0,Remove single event version attribute limit
+418,2018-01-18 03:20:11.000000000,2018-02-01 18:16:40.000000000,closed,4, Saga: Where should business logic go?
+417,2018-01-06 16:29:23.000000000,1970-01-01 00:00:00.000000001,open,1,Different MsSql Database for Read Models and Events
+416,2018-01-04 12:18:19.000000000,2018-01-19 11:36:35.000000000,closed,1,Correct the indentation of the event storage type bullets
+415,2017-12-08 02:44:45.000000000,2017-12-13 05:02:54.000000000,closed,4,best practices for Event payloads and optional fields
+414,2017-11-29 23:36:52.000000000,1970-01-01 00:00:00.000000001,open,20,PostgreSQL or MySQL Support
+413,2017-11-28 17:20:03.000000000,2018-05-29 10:58:54.000000000,closed,6,Event Upgrade Manager Deferred Execution
+412,2017-11-19 19:30:40.000000000,2017-11-23 00:11:28.000000000,closed,1,Consider making committing events sync instead of async
+411,2017-11-19 18:57:42.000000000,2018-01-04 20:50:29.000000000,closed,3,Upgrade to net standard 2.0
+410,2017-11-16 21:02:19.000000000,2017-11-17 01:31:54.000000000,closed,4,High volume of commands in a saga
+409,2017-11-16 04:45:14.000000000,2017-11-17 19:04:10.000000000,closed,5,EventStore's LoadAllCommittedEvents is too inefficient
+408,2017-11-13 15:09:58.000000000,2017-11-13 16:55:49.000000000,closed,2,RabbitMQ Username + Password support
+407,2017-11-03 04:25:09.000000000,2020-05-13 20:15:54.000000000,closed,2,WIP: State Machine
+406,2017-11-01 23:56:14.000000000,2017-11-02 17:06:56.000000000,closed,1,Identity prefix validation including dash
+405,2017-11-01 03:21:24.000000000,2017-11-06 15:53:27.000000000,closed,2,Concurrency and Container based Services
+404,2017-10-31 21:53:43.000000000,2018-08-31 23:07:55.000000000,closed,3,Added AspNetCore extension following the Owin version
+403,2017-10-27 00:50:16.000000000,2017-10-27 12:12:24.000000000,closed,1,Master
+402,2017-10-26 11:57:02.000000000,2018-04-03 10:11:29.000000000,closed,5,Multiple aggregate ordering issue
+401,2017-10-25 17:27:27.000000000,2017-10-25 18:10:37.000000000,closed,1,Fix Autofac dependency during build
+400,2017-10-25 16:07:06.000000000,2017-10-25 18:37:44.000000000,closed,1,Fixed #399: Made static Sha256 instance transient
+399,2017-10-25 15:47:20.000000000,2017-10-25 18:37:45.000000000,closed,0,StringExtensions.ToSha256 is not thread-safe
+398,2017-10-25 02:41:47.000000000,2017-10-25 18:10:37.000000000,closed,0,Build fails: Autofac.WebApi2 3.4.0 requires Autofac (>= 3.5.0 && < 4.0.0)
+397,2017-10-25 02:14:28.000000000,2017-10-26 21:44:21.000000000,closed,2,Add support for unicode characters in type names
+396,2017-10-25 02:11:35.000000000,2017-10-26 15:02:45.000000000,closed,3,Added support for unicode type names
+395,2017-10-23 01:26:54.000000000,2017-10-26 14:29:51.000000000,closed,0,"FilesEventPersistence as singleton, added concurrency tests"
+394,2017-10-22 02:18:43.000000000,2017-10-22 21:52:36.000000000,closed,3,Allow LocateSagaAsync to return null
+393,2017-10-21 22:21:50.000000000,2017-10-25 10:09:06.000000000,closed,0,Removed the new() constraint on read models
+392,2017-10-12 15:57:24.000000000,2017-10-13 10:49:35.000000000,closed,1,New to dev
+391,2017-10-12 06:58:43.000000000,2017-10-25 10:38:57.000000000,closed,7,Issue #357: File store should be thread safe. Only allow a single thread write access to the file event store log.
+390,2017-10-09 09:18:01.000000000,2017-10-25 10:09:06.000000000,closed,3,Is need empty CTOR for IReadModel?
+389,2017-09-27 22:44:55.000000000,2018-03-07 11:50:30.000000000,closed,2,Codecov integration is broken
+388,2017-09-27 14:35:18.000000000,2017-11-18 23:37:21.000000000,closed,8,Added AspNetCore extension following the Owin version
+387,2017-09-27 00:09:19.000000000,2017-09-28 09:39:13.000000000,closed,0,WIP: Upgrade RabbitMQ.Client to v5.0.1
+386,2017-09-27 00:03:39.000000000,2017-09-27 00:46:24.000000000,closed,0,Fix EventStore integration tests
+385,2017-09-26 23:43:39.000000000,2017-10-21 22:04:45.000000000,closed,1,PoC: Redis
+384,2017-09-26 22:07:35.000000000,1970-01-01 00:00:00.000000001,open,1,WIP: Consume domain events from RabbitMQ
+383,2017-09-26 21:52:04.000000000,1970-01-01 00:00:00.000000001,open,20,Consume domain events from RabbitMQ
+382,2017-09-21 18:15:57.000000000,2017-10-22 21:56:29.000000000,closed,2,"Finding my AggregateRoots to be fairly anaemic, is this expected?"
+381,2017-09-21 09:15:54.000000000,2017-09-26 21:54:58.000000000,closed,3,CD pipeline help
+380,2017-09-13 22:41:40.000000000,2017-09-18 21:39:13.000000000,closed,0,Removed documentation
+379,2017-09-08 12:35:16.000000000,2017-11-24 12:32:33.000000000,closed,0,Add Metadata Providers for Aspnetcore
+378,2017-09-08 12:23:08.000000000,1970-01-01 00:00:00.000000001,open,5,Split addins into their own repos
+377,2017-09-06 22:44:37.000000000,2017-10-01 23:09:51.000000000,closed,9,Command results
+376,2017-09-04 23:24:15.000000000,1970-01-01 00:00:00.000000001,open,3,WIP: Graph domain
+375,2017-09-04 21:57:26.000000000,2017-09-04 23:25:37.000000000,closed,0,Write test to verify that aggregates can be updated
+374,2017-09-04 15:10:59.000000000,2017-11-17 21:13:23.000000000,closed,4,"Recover from ""Commit transaction failed due to WrongExpectedVersion"""
+373,2017-09-04 13:13:19.000000000,2017-09-04 15:14:28.000000000,closed,2,Is there any way of injhecting a dependency into an MSSQL read model?
+372,2017-09-03 15:29:58.000000000,2017-09-03 15:30:14.000000000,closed,3,Pulling from eventflow dev
+371,2017-09-01 22:28:16.000000000,2017-09-11 22:07:13.000000000,closed,0,Updated test and support packages
+370,2017-09-01 21:52:46.000000000,2017-09-04 21:58:43.000000000,closed,0,Hangfire updates
+369,2017-09-01 15:04:13.000000000,1970-01-01 00:00:00.000000001,open,2,support for reoccurring jobs
+368,2017-08-30 23:52:22.000000000,2017-08-31 09:03:03.000000000,closed,0,Improve Elasticsearch test stability
+367,2017-08-30 23:16:59.000000000,2017-09-01 22:05:48.000000000,closed,0,Read model improvements
+366,2017-08-30 22:47:45.000000000,2017-08-31 00:09:59.000000000,closed,0,CONTRIBUTING.md
+365,2017-08-30 22:44:38.000000000,2017-08-30 23:30:12.000000000,closed,0,Create CODE_OF_CONDUCT.md
+364,2017-08-30 22:38:59.000000000,2017-08-31 00:06:56.000000000,closed,1,Build XML documentation
+363,2017-08-30 22:04:27.000000000,2017-08-30 23:16:17.000000000,closed,0,Added new overload to DomainEventPublisher that that easier to use
+362,2017-08-30 07:05:25.000000000,2017-10-26 14:32:45.000000000,closed,6,Publishing events to another Bounded Context
+361,2017-08-29 22:48:09.000000000,2017-08-30 21:42:45.000000000,closed,0,EventStore v4.x upgrade
+360,2017-08-29 19:32:25.000000000,2017-10-26 14:32:36.000000000,closed,3,Question about ReadModel and Aggreage consistency.
+359,2017-08-26 12:41:34.000000000,2017-08-26 23:03:14.000000000,closed,0,Fix build
+358,2017-08-25 21:39:28.000000000,2018-06-08 00:10:07.000000000,closed,3,Package updates
+357,2017-08-16 16:12:49.000000000,2017-10-26 14:29:51.000000000,closed,1,File store should be thread safe
+356,2017-08-16 14:52:46.000000000,2017-10-26 14:29:51.000000000,closed,3,FilesEventPersistence.CommitEventsAsync causing IOException to occur
+355,2017-08-03 11:59:29.000000000,2017-08-29 21:58:49.000000000,closed,3,Where do i delete readmodel
+354,2017-07-28 14:21:23.000000000,2017-08-29 21:59:22.000000000,closed,3,Are queries supposed to return ReadModels or Entities?
+353,2017-07-14 11:28:02.000000000,2017-07-18 01:13:41.000000000,closed,1,ISubscribeSynchronousToAll how to get aggregate event detail?
+352,2017-07-14 06:42:39.000000000,2018-05-28 22:14:35.000000000,closed,2,UseEventStoreEventStore exception
+351,2017-07-13 11:17:49.000000000,2017-07-29 22:02:21.000000000,closed,3,How to use MSSQL and FILES EventStore same time?
+350,2017-07-12 10:41:37.000000000,1970-01-01 00:00:00.000000001,open,1,Doc: Add a readmodelrepository example
+349,2017-07-10 09:34:25.000000000,2017-07-11 00:19:08.000000000,closed,0,MSSQL config and cleanup
+348,2017-07-10 09:15:01.000000000,2017-07-10 10:19:42.000000000,closed,0,Test stability: better TCP port finding
+347,2017-07-10 00:28:08.000000000,2017-07-10 09:03:05.000000000,closed,0,Package test helpers project
+346,2017-07-09 22:36:23.000000000,2017-07-10 00:19:39.000000000,closed,0,Non generic purge and populate
+345,2017-07-09 15:11:00.000000000,2017-07-10 00:19:39.000000000,closed,5,Non-Generic Purge/Populate methods
+344,2017-06-28 22:58:01.000000000,2017-06-28 23:11:06.000000000,closed,0,Fix subscriber registration
+343,2017-06-28 17:02:45.000000000,2017-06-28 23:11:06.000000000,closed,2,AddSubscriber/AddSubscribers does not support ISubscribeAsynchronousTo
+342,2017-06-26 08:39:38.000000000,2017-10-26 14:33:12.000000000,closed,4,update docs to link to MongoDb and Firebase ReadStores
+341,2017-05-29 20:39:36.000000000,2017-05-29 20:56:48.000000000,closed,0,"When validating registrations, a lifetime scope should be used"
+340,2017-05-29 16:20:25.000000000,2017-05-29 20:56:48.000000000,closed,3,Eventflow Resolves Services on Startup Without Disposing?
+339,2017-05-25 00:24:48.000000000,2017-05-25 00:25:30.000000000,closed,0,Added a donate link
+338,2017-05-24 23:11:04.000000000,2017-06-06 00:50:50.000000000,closed,3,Validate that custom aggregate IDs are possible
+337,2017-05-24 18:35:44.000000000,2017-07-10 00:28:42.000000000,closed,13,How to add TenantId in event
+336,2017-05-23 00:28:29.000000000,2017-05-28 21:16:56.000000000,closed,2,Use job scheduling for asynchronous subscribers
+335,2017-05-22 09:43:34.000000000,2017-05-28 21:16:56.000000000,closed,0,Tasks are terminated in web API
+334,2017-05-19 00:18:18.000000000,2017-05-22 22:49:21.000000000,closed,0,EventFlow.Sql .NET Standard support
+333,2017-05-10 10:58:20.000000000,2017-10-01 23:09:51.000000000,closed,3,Command results
+332,2017-05-09 23:17:10.000000000,2017-05-10 16:42:18.000000000,closed,1,Allow lower versions of Autofac
+331,2017-05-04 22:43:37.000000000,2017-05-05 09:12:08.000000000,closed,2,Release readiness
+330,2017-05-04 02:03:16.000000000,2017-05-11 02:02:30.000000000,closed,4,.NET Standard 1.6 support - take 2
+329,2017-05-04 01:30:46.000000000,2018-09-04 10:53:07.000000000,closed,3,MSSQL integration tests are unstable
+328,2017-05-03 23:45:21.000000000,2017-05-04 16:05:12.000000000,closed,2,Pull in the Helpz required classes
+327,2017-05-02 22:02:31.000000000,2017-05-02 22:45:25.000000000,closed,0,Corrected repository path for gitlink
+326,2017-05-02 21:49:34.000000000,2017-05-02 22:05:06.000000000,closed,0,Fix EventId generation
+325,2017-05-02 15:58:29.000000000,2017-05-02 22:05:06.000000000,closed,2,DomainEvent event id metadata never changes
+324,2017-04-30 23:25:51.000000000,2017-05-04 01:22:42.000000000,closed,14,Remove Paket and convert all projects to VS2017 format
+323,2017-04-28 11:38:47.000000000,2017-05-02 22:45:25.000000000,closed,0,Gitlink source links are incorrect
+322,2017-04-28 02:45:04.000000000,2017-05-01 09:14:02.000000000,closed,2,Corrected spelling mistakes
+321,2017-04-28 02:39:29.000000000,2017-04-28 09:32:25.000000000,closed,3,ICommandBus was misspelled as ICommadBus
+320,2017-04-27 23:29:50.000000000,2017-04-28 00:07:40.000000000,closed,1,Bug fix for singletons Autofac registrations
+319,2017-04-27 09:28:56.000000000,2017-10-26 14:31:18.000000000,closed,1,Create test scenario for MVC5
+318,2017-04-26 10:55:59.000000000,2017-04-28 02:05:54.000000000,closed,11,Any Examples with Autofac and ASP.NET MVC?
+317,2017-04-16 01:25:30.000000000,1970-01-01 00:00:00.000000001,open,2,WIP: Event archives
+316,2017-04-15 21:45:03.000000000,2017-04-16 01:26:50.000000000,closed,1,Symbols and PDB files
+315,2017-04-15 20:31:16.000000000,2017-04-15 21:06:10.000000000,closed,1,Test output as build artifact
+314,2017-04-15 19:33:36.000000000,2017-04-15 20:11:29.000000000,closed,1,Configuration documentation
+313,2017-04-15 00:58:18.000000000,2017-04-15 01:29:39.000000000,closed,1,Upgrade to VS2017 build image
+312,2017-04-15 00:48:54.000000000,2017-04-15 00:48:59.000000000,closed,0,"Revert ""Convert to new VS2017 project format"""
+311,2017-04-15 00:23:43.000000000,2017-04-15 00:49:12.000000000,closed,1,Revert VS2017 project format until Paket is ready
+310,2017-04-14 15:01:48.000000000,2017-04-15 19:33:56.000000000,closed,1,Specifications
+309,2017-04-11 00:15:17.000000000,2017-05-01 09:23:13.000000000,closed,1,PoC - Remove Paket
+308,2017-04-10 22:53:14.000000000,2017-05-04 01:32:15.000000000,closed,2,Convert all projects to VS2017 project format
+307,2017-04-07 10:14:44.000000000,1970-01-01 00:00:00.000000001,open,0,Spilt into multiple repositories?
+306,2017-04-07 10:12:46.000000000,2018-04-25 00:26:14.000000000,closed,1,Move documentation to new repo
+305,2017-04-07 00:03:38.000000000,2017-05-04 02:01:16.000000000,closed,0,netstandard1.x support
+304,2017-04-06 00:27:31.000000000,2017-05-24 00:05:26.000000000,closed,2,"Allow a more ""eventually consistent"" programming model"
+303,2017-04-04 22:33:36.000000000,2017-04-06 21:35:30.000000000,closed,1,Convert to new VS2017 project format
+302,2017-03-11 02:17:37.000000000,2017-04-15 20:46:49.000000000,closed,7,No easy way to use sagas with multiple aggregates
+301,2017-02-25 19:30:42.000000000,2017-03-28 22:25:41.000000000,closed,2,New EventFlow logo
+300,2017-02-25 16:21:44.000000000,2017-03-12 13:16:22.000000000,closed,1,Update documentation a bit
+299,2017-01-27 15:13:40.000000000,2017-03-29 22:03:49.000000000,closed,1,Use a different RabbitMQ server for tests
+298,2017-01-17 03:16:30.000000000,2017-04-16 01:25:52.000000000,closed,2,File system wrapper
+297,2017-01-11 00:40:31.000000000,2017-01-13 11:13:53.000000000,closed,1,Fix codefactor issues
+296,2017-01-09 10:41:06.000000000,2017-01-09 11:10:44.000000000,closed,1,Correct project URL in header
+295,2017-01-08 21:25:24.000000000,2017-01-17 00:44:39.000000000,closed,2,Internal IoC container
+294,2017-01-08 11:54:25.000000000,1970-01-01 00:00:00.000000001,open,13,Import a large number of events
+293,2017-01-06 00:13:48.000000000,2017-01-08 21:26:20.000000000,closed,1,Codefactor
+292,2017-01-05 11:26:18.000000000,2017-01-05 14:53:44.000000000,closed,1,Specify AppVeyor image to VS2015
+291,2017-01-05 01:48:31.000000000,2017-04-05 23:18:22.000000000,closed,5,.NET Core packages - take 2
+290,2017-01-03 11:56:01.000000000,2017-01-03 12:23:15.000000000,closed,1,Remove incorrect project reference
+289,2017-01-03 11:53:56.000000000,1970-01-01 00:00:00.000000001,open,1,WIP: Expand sample - Graph voyages
+288,2017-01-02 16:17:35.000000000,2017-01-03 12:23:15.000000000,closed,2,"""EventFlow.RabbitMQ"" references ""EventFlow.TestHelpers"""
+287,2017-01-02 15:32:10.000000000,1970-01-01 00:00:00.000000001,open,1,What about storing the events on Cassandra?
+286,2016-12-25 06:45:23.000000000,2017-01-01 21:50:11.000000000,closed,1,[Question] Split Events table and View tables
+285,2016-12-24 17:02:01.000000000,2017-01-01 21:49:53.000000000,closed,2,[Question] Replay events
+284,2016-12-12 12:37:54.000000000,2016-12-12 13:34:24.000000000,closed,3,unable to add to an asp.net 4 application
+283,2016-12-11 21:27:43.000000000,2016-12-12 11:32:50.000000000,closed,2,Update README.md
+282,2016-12-05 08:50:40.000000000,2016-12-05 16:48:17.000000000,closed,6,[Question] Emit Event Contain List Entity Or  single ValueObject to ReadModel MsSql
+281,2016-12-02 20:44:17.000000000,2016-12-02 21:15:54.000000000,closed,1,Fix single aggregate read models
+280,2016-12-02 18:41:28.000000000,2016-12-03 15:18:06.000000000,closed,3,Re-populate read models from EventStore throws Only domain events from the same aggregate is allowed
+279,2016-12-02 00:20:52.000000000,2016-12-02 21:22:25.000000000,closed,3,Aggregate snapshot with Entities
+278,2016-11-28 15:53:05.000000000,2017-04-05 23:18:10.000000000,closed,2,.NET Core port with .NET451 compat
+277,2016-11-24 11:29:56.000000000,1970-01-01 00:00:00.000000001,open,0,Validate MSSQL requirements for read model class
+276,2016-11-16 07:24:35.000000000,2016-11-17 12:25:48.000000000,closed,4,[Question] Ask about Emit Event & Handle when raise a domain error
+275,2016-11-15 08:51:15.000000000,2016-11-23 12:39:42.000000000,closed,12,SqlServer Cannot insert the value NULL into column 'AggregateId'
+274,2016-11-15 07:46:30.000000000,2016-11-17 18:58:35.000000000,closed,5,Did eventflow support Simple Injector ?
+273,2016-11-10 17:54:40.000000000,2017-07-10 00:33:37.000000000,closed,7,Firebase read store
+272,2016-11-10 00:25:18.000000000,2016-12-09 05:04:27.000000000,closed,1,Better getting started guide
+271,2016-11-09 01:08:08.000000000,2016-11-09 01:56:00.000000000,closed,1,Documentation
+270,2016-11-08 01:24:29.000000000,2016-11-08 02:17:32.000000000,closed,0,Lets not fail the entire build if test results fail to upload
+269,2016-11-08 01:14:30.000000000,2016-11-09 00:22:08.000000000,closed,1,Fix: Async tasks need a new scope
+268,2016-11-08 00:49:32.000000000,2016-11-08 02:38:50.000000000,closed,0,Update documentation
+267,2016-11-07 23:57:37.000000000,2016-11-08 00:15:09.000000000,closed,0,Remove git lfs
+266,2016-11-07 20:24:09.000000000,2016-11-07 21:29:50.000000000,closed,0,"Loosen up on Autofac dependencies, 4.x seems to be compatible"
+265,2016-11-07 06:27:12.000000000,2016-11-07 10:33:16.000000000,closed,2,Update GettingStarted.rst
+264,2016-11-03 02:07:07.000000000,2016-11-07 23:28:57.000000000,closed,1,Upload tests results to AppVeyor
+263,2016-11-03 01:31:57.000000000,2016-11-03 09:47:30.000000000,closed,1,Build and release documentation
+262,2016-11-03 00:33:44.000000000,2016-11-03 00:54:09.000000000,closed,1,"Revert very bad ""temp"" disable of testing"
+261,2016-11-03 00:25:44.000000000,2016-11-03 23:46:50.000000000,closed,2,Update Autofac* packages to 4.x
+260,2016-10-27 15:01:40.000000000,2020-06-24 22:22:47.000000000,closed,13,EntityFramework support
+259,2016-10-27 14:08:33.000000000,2016-10-27 20:30:27.000000000,closed,6,[Question] How to integrate Readmodel with Sql Server
+258,2016-10-20 00:43:59.000000000,2018-02-25 01:11:53.000000000,closed,6,Init LibLog
+257,2016-10-18 23:07:54.000000000,2016-10-31 10:12:40.000000000,closed,0,Paket templates
+256,2016-10-10 22:21:10.000000000,2016-10-11 08:44:44.000000000,closed,1,spell error
+255,2016-10-10 09:27:05.000000000,2016-10-31 10:12:40.000000000,closed,1,Easier NuGet references
+254,2016-10-06 21:50:51.000000000,2016-10-10 09:34:27.000000000,closed,1,Read the docs
+253,2016-10-05 01:11:33.000000000,2016-10-07 11:25:06.000000000,closed,1,Improve RabbitMQ integration test stability
+252,2016-10-04 18:40:02.000000000,2016-10-05 00:57:43.000000000,closed,1,Asynchronous domain event subscribers
+251,2016-10-01 12:56:41.000000000,2019-09-22 13:30:12.000000000,closed,15,WIP: Feature/sqlite migration support take2
+250,2016-09-28 00:19:59.000000000,2016-09-28 06:15:30.000000000,closed,2,Question: MSSql models
+249,2016-09-06 21:35:08.000000000,2016-09-06 22:51:14.000000000,closed,1,Fix: Aggreate store optimistic concurrency exception handling
+248,2016-09-05 23:11:29.000000000,2016-09-05 23:49:02.000000000,closed,1,Fix: Aggregate saga events should be published
+247,2016-08-28 01:59:57.000000000,2016-08-28 02:35:27.000000000,closed,1,Complete example
+246,2016-08-27 11:43:54.000000000,2016-08-28 02:36:13.000000000,closed,3,please add write model in Simple example 
+245,2016-08-23 22:10:18.000000000,2018-06-29 09:41:27.000000000,closed,1,WIP: Apply missing events to read models
+244,2016-08-23 21:28:14.000000000,2016-08-23 21:35:30.000000000,closed,1,Even more cache improvements
+243,2016-08-23 19:27:21.000000000,2016-08-23 21:16:35.000000000,closed,1,Cache improvements
+242,2016-08-18 01:49:52.000000000,2016-08-23 00:41:46.000000000,closed,1,Some love for the `Identity`
+241,2016-08-10 00:17:04.000000000,2016-08-10 00:45:32.000000000,closed,1,Added missing DbUp reference
+240,2016-08-07 14:45:29.000000000,2016-08-07 18:00:10.000000000,closed,1,Integration test cleanup
+239,2016-08-07 13:50:27.000000000,2016-08-07 15:36:13.000000000,closed,1,Nuspec fixes
+238,2016-08-04 11:12:10.000000000,2018-05-28 22:24:22.000000000,closed,2,Add articles
+237,2016-07-02 15:23:15.000000000,2016-07-04 08:41:55.000000000,closed,1,Move non-async methods to extensions
+236,2016-07-02 14:40:53.000000000,2016-07-04 00:08:12.000000000,closed,1,Elasticsearch package rename
+235,2016-06-30 22:16:32.000000000,2018-06-09 14:13:30.000000000,closed,8,Read model optimistic concurrency
+234,2016-06-30 00:35:48.000000000,2017-01-17 02:05:11.000000000,closed,8,.NET Core - part 1
+233,2016-06-23 18:34:18.000000000,2016-06-23 18:37:36.000000000,closed,0,Move to the eventflow org
+232,2016-06-21 22:13:37.000000000,2016-07-01 18:24:42.000000000,closed,1,Build with Cake
+231,2016-06-21 21:56:30.000000000,2016-07-01 19:40:07.000000000,closed,2,Upgrade to Elasticsearch 2.x
+230,2016-06-21 00:41:07.000000000,2016-06-30 00:12:27.000000000,closed,3,Allow unhandled subscriber exceptions to be thrown
+229,2016-06-17 04:23:55.000000000,2016-06-21 03:41:36.000000000,closed,4,Questions: Exception Handling for CommandBus and EventDispatcher
+228,2016-06-17 01:15:59.000000000,2016-06-17 07:14:52.000000000,closed,1,Easier command scheduling
+227,2016-06-15 23:54:27.000000000,2016-06-16 07:32:30.000000000,closed,1,Sniffing connection pool is a better option as default
+226,2016-06-15 22:21:15.000000000,2016-06-21 07:44:19.000000000,closed,1,Remove external Elasticsearch dependency
+225,2016-06-15 21:57:06.000000000,2016-06-15 23:42:11.000000000,closed,1,Paket update
+224,2016-06-14 22:47:30.000000000,2016-08-17 01:44:10.000000000,closed,1,Upgrade to NUnit3
+223,2016-05-27 20:19:05.000000000,2016-06-14 23:17:42.000000000,closed,1,Hompage typo
+222,2016-04-18 22:12:29.000000000,2016-04-18 23:39:18.000000000,closed,1,"Its just tests, no need to label it"
+221,2016-04-18 22:07:41.000000000,2016-04-19 09:54:32.000000000,closed,1,MSSQL snapshot store
+220,2016-04-17 23:53:01.000000000,2016-04-18 09:43:38.000000000,closed,1,Fail tests if NUnit returns error
+219,2016-04-14 23:34:48.000000000,2016-04-15 00:09:52.000000000,closed,1,Verify that all tests have a category assigned
+218,2016-04-13 19:53:40.000000000,2016-04-14 19:06:44.000000000,closed,2,Hangfire JobScheduler and Autofac Activator
+217,2016-04-09 11:30:59.000000000,2016-04-09 15:50:25.000000000,closed,1,Fix link in README
+216,2016-04-07 13:57:14.000000000,2016-04-07 14:50:07.000000000,closed,1,Codecov improvements
+215,2016-04-07 01:36:14.000000000,2016-04-07 11:56:44.000000000,closed,1,Codecov
+214,2016-04-05 22:29:26.000000000,2016-04-05 23:43:24.000000000,closed,0,Fix EventStore integration test stability
+213,2016-04-05 18:53:06.000000000,2016-04-05 22:35:55.000000000,closed,0,Fix OptimisticConcurrencyRetryStrategy
+212,2016-04-05 00:30:12.000000000,2016-04-06 22:23:10.000000000,closed,3,Add suport to use EventStore persistence with connection strings.
+211,2016-03-29 19:06:23.000000000,2017-07-10 00:32:55.000000000,closed,2,Adding PCL build projects
+210,2016-03-20 14:15:43.000000000,2016-03-22 14:32:07.000000000,closed,0,Ignore abstract classes in class registration
+209,2016-03-12 16:56:03.000000000,2016-08-07 15:02:04.000000000,closed,12,Sqlite dbup support
+208,2016-02-25 19:42:59.000000000,1970-01-01 00:00:00.000000001,open,0,Benchmark important parts of EventFlow
+207,2016-02-24 02:30:37.000000000,2016-03-02 01:43:06.000000000,closed,0,Test cleanup and enhancements
+206,2016-02-24 00:21:32.000000000,2016-02-25 10:56:57.000000000,closed,5,Allow developers to control job display names in Hangfire
+205,2016-02-23 12:40:15.000000000,2016-02-26 05:21:35.000000000,closed,3,Custom Hangfire Job Title?
+204,2016-02-22 02:17:26.000000000,2016-06-14 23:36:55.000000000,closed,1,Cleanup MSSQL packages
+203,2016-02-21 16:48:21.000000000,2016-06-15 00:10:41.000000000,closed,0,Use DryIoc internally [PoC]
+202,2016-02-20 02:27:40.000000000,2016-09-05 23:50:11.000000000,closed,0,More documentation
+201,2016-02-19 11:06:42.000000000,2016-04-21 04:45:02.000000000,closed,12,Avoidable Concurrency Exception?
+200,2016-02-15 23:43:20.000000000,2016-02-16 00:03:48.000000000,closed,0,Fix deadlock problem in AsyncHelper
+199,2016-02-12 18:49:22.000000000,2016-02-20 21:25:28.000000000,closed,0,SQLite read store support
+198,2016-02-11 03:42:02.000000000,2016-02-21 14:10:22.000000000,closed,1,Use TinyIoC instead of IL merge Autofac in core package
+197,2016-02-01 12:16:38.000000000,2016-02-02 10:59:50.000000000,closed,5,git lfs and icon-256.png
+196,2016-01-31 14:24:38.000000000,2016-01-31 23:28:37.000000000,closed,6,Create EventFlow.Sql for generic SQL services
+195,2016-01-29 12:51:13.000000000,2016-01-29 13:07:59.000000000,closed,1,TableParameter has a OrderBy(name) that seems malplaced
+194,2016-01-26 01:51:23.000000000,2017-03-28 22:25:41.000000000,closed,5,Logo for EventFlow
+193,2016-01-26 01:14:03.000000000,2016-01-26 01:38:48.000000000,closed,0,Updated file headers
+192,2016-01-25 10:51:32.000000000,2016-01-25 11:15:16.000000000,closed,0,Fix: Hangfire.Core NuGet reference
+191,2016-01-24 23:33:23.000000000,1970-01-01 00:00:00.000000001,open,0,Stream events to aggregates
+190,2016-01-24 15:19:43.000000000,2016-01-26 00:47:00.000000000,closed,4,Enable EventStore integration tests
+189,2016-01-24 13:27:06.000000000,2016-01-25 04:24:58.000000000,closed,1,Wrong expected version in EventStoreEvent
+188,2016-01-23 16:31:08.000000000,2016-01-23 21:13:37.000000000,closed,0,Fix: AppVeyor cache configuration didn't use paket.lock
+187,2016-01-22 23:34:12.000000000,2016-01-25 04:25:46.000000000,closed,2,Fix WrongExpectedVersionException issue
+186,2016-01-22 16:39:53.000000000,2016-01-23 16:24:51.000000000,closed,0,Fix: Integration tests
+185,2016-01-17 14:33:57.000000000,2016-01-24 01:39:53.000000000,closed,0,Slightly better titles for NuGet packages
+184,2016-01-16 00:28:56.000000000,2016-01-16 01:38:13.000000000,closed,0,Update outdated NuGet packages
+183,2016-01-14 12:59:37.000000000,2016-01-16 00:21:55.000000000,closed,0,Paket
+182,2015-12-17 13:03:42.000000000,2016-04-16 01:15:00.000000000,closed,2,Implement Codecov
+181,2015-12-08 20:04:34.000000000,1970-01-01 00:00:00.000000001,open,4,Non Aggregate Event Support
+180,2015-12-05 13:36:30.000000000,2015-12-05 14:49:05.000000000,closed,0,Only invoke locator for known events
+179,2015-12-05 13:14:41.000000000,2015-12-05 14:49:48.000000000,closed,3,Fix: See if there's a problem regarding multiple emits and read models
+178,2015-12-05 12:56:27.000000000,2015-12-05 13:13:44.000000000,closed,0,"Fix: Don't just ignore the ""Id"" column, that's just weird"
+177,2015-12-02 01:09:52.000000000,2015-12-02 01:30:04.000000000,closed,0,Fix: Missing call to create readmodel
+176,2015-11-20 00:27:37.000000000,2015-12-05 14:24:34.000000000,closed,0,Better performance for invocation of reflected methods
+175,2015-11-18 02:38:52.000000000,2015-12-01 02:31:20.000000000,closed,0,Fix and cleanup definition services
+174,2015-11-18 02:26:24.000000000,2016-04-18 13:21:06.000000000,closed,1,Aggregate snapshots
+173,2015-11-18 02:04:22.000000000,2015-11-18 02:26:57.000000000,closed,0,Read model factory
+172,2015-11-17 23:52:56.000000000,2015-11-18 00:10:42.000000000,closed,0,Update tools
+171,2015-11-10 01:07:53.000000000,2015-11-18 02:26:57.000000000,closed,0,Read model facory
+170,2015-11-10 00:51:43.000000000,2015-11-17 23:49:56.000000000,closed,2,More freedom when using MSSQL read models
+169,2015-11-10 00:29:38.000000000,2015-11-18 00:19:18.000000000,closed,1,Better read model documentation
+168,2015-11-06 02:33:22.000000000,2015-11-10 00:10:49.000000000,closed,0,Test cleanup
+167,2015-11-04 03:18:25.000000000,2015-11-17 23:49:56.000000000,closed,1,Remove enforced columns for MSSQL read store
+166,2015-11-04 03:01:25.000000000,2015-11-10 10:57:35.000000000,closed,1,Crude PoC on how to use read model locators with MSSQL
+165,2015-10-31 09:38:47.000000000,2015-12-05 18:18:11.000000000,closed,13,SqlReadModel handling for aggregate collection data
+164,2015-10-29 00:06:39.000000000,1970-01-01 00:00:00.000000001,open,1,WIP: RabbitMQ job scheduling
+163,2015-10-24 18:42:28.000000000,2015-10-24 19:51:36.000000000,closed,1,Remove references to aggregates from event persistence
+162,2015-10-24 13:39:23.000000000,2015-10-24 14:14:38.000000000,closed,0,Improve exception and logging information by printing types pretty
+161,2015-10-23 18:18:46.000000000,2015-10-24 00:32:35.000000000,closed,0,Enhance logging by being able to print types better
+160,2015-10-23 18:02:44.000000000,2015-10-23 23:22:59.000000000,closed,2,Added a resolver to the read model context
+159,2015-10-22 10:23:05.000000000,2015-10-22 12:21:08.000000000,closed,3,Provide security foundation in EventFlow for Commands and Queries
+158,2015-10-22 09:59:41.000000000,2017-06-27 20:08:56.000000000,closed,24,Support for .NET Core
+157,2015-10-22 00:52:35.000000000,2015-10-22 08:48:48.000000000,closed,0,Entity equality
+156,2015-10-17 22:32:12.000000000,2015-10-18 13:14:27.000000000,closed,0,Minor fix for DomainError.With
+155,2015-10-17 22:27:22.000000000,2015-10-19 01:22:47.000000000,closed,3,Specifications
+154,2015-10-15 15:13:07.000000000,2015-10-19 01:22:47.000000000,closed,1,Move ISpecification<> from example-shipping into main EventFlow lib
+153,2015-10-13 23:52:50.000000000,2015-10-24 14:56:39.000000000,closed,2,DDD example using EventFlow
+152,2015-10-11 02:00:33.000000000,2015-10-14 15:24:55.000000000,closed,0,Fix dont throw for known versioned types
+151,2015-10-10 22:31:09.000000000,2015-10-10 22:45:55.000000000,closed,0,Added information on how to configure EventFlow
+150,2015-10-07 23:15:32.000000000,2016-02-09 23:32:05.000000000,closed,28,SQLite event store
+149,2015-10-07 09:20:26.000000000,2015-10-07 09:24:45.000000000,closed,0,Added a thanks section
+148,2015-10-06 16:00:34.000000000,1970-01-01 00:00:00.000000001,open,0,Check out testing of memory usage
+147,2015-10-02 21:52:34.000000000,2015-10-06 22:06:03.000000000,closed,0,Cleanup event store implementations
+146,2015-10-02 18:28:50.000000000,2015-10-02 20:08:51.000000000,closed,1,Any entity should be possible to save using event sourcing
+145,2015-10-02 09:38:56.000000000,2015-10-02 12:37:29.000000000,closed,1,Entities
+144,2015-10-02 09:07:22.000000000,2016-02-20 14:54:40.000000000,closed,9,Entity support via an interface needed
+143,2015-10-01 08:58:20.000000000,2015-10-24 14:13:15.000000000,closed,1,Add link
+142,2015-09-28 15:11:53.000000000,2017-01-17 00:44:39.000000000,closed,1,Internal Autofac stability
+141,2015-09-28 15:04:33.000000000,2015-09-28 15:22:50.000000000,closed,1,Fix critical bug regarding IStartable
+140,2015-09-28 12:55:42.000000000,2015-09-28 15:22:50.000000000,closed,4,EventFlow startup exception 
+139,2015-09-28 09:56:24.000000000,2015-09-29 08:25:29.000000000,closed,3,Drop all test databases script for MsSql Tests
+138,2015-09-27 11:03:13.000000000,2015-11-18 02:08:21.000000000,closed,0,"Started on a ""how to use"" guide"
+137,2015-09-26 13:15:22.000000000,1970-01-01 00:00:00.000000001,open,1,WIP: Create EventFlow.Bdd for doing BDD testing
+136,2015-09-25 14:43:40.000000000,2015-09-25 15:08:48.000000000,closed,1,"ICommand<> defined on Command<,> in EventFlow.Commands"
+135,2015-09-23 23:19:22.000000000,2015-09-24 09:36:41.000000000,closed,1,fix hangfire typos
+134,2015-09-23 22:50:46.000000000,2015-09-27 21:48:33.000000000,closed,4,"Make ""CreateResolver"" optional"
+133,2015-09-22 22:07:31.000000000,2015-09-27 21:48:33.000000000,closed,0,Provide a concept similar to Autofac IStartable
+132,2015-09-21 22:21:42.000000000,2015-09-23 21:24:01.000000000,closed,2,Add configuration modules
+131,2015-09-16 22:55:13.000000000,2015-09-16 23:20:09.000000000,closed,6,Move the MSSQL helper out of EventFlow
+130,2015-09-15 08:09:30.000000000,2015-09-15 08:51:38.000000000,closed,0,Fix vs2015 testprojects
+129,2015-09-14 18:51:19.000000000,2015-09-15 08:10:20.000000000,closed,5,Test projects being modified by VS2015
+128,2015-09-13 23:59:08.000000000,2015-09-14 00:16:30.000000000,closed,0,Update version to 0.14
+127,2015-09-11 09:31:15.000000000,2015-09-14 09:45:26.000000000,closed,0,Command serialization and command publish OWIN middleware
+126,2015-09-10 10:27:45.000000000,2015-09-15 09:11:32.000000000,closed,5,Support various IoC providers
+125,2015-09-10 01:11:08.000000000,2015-09-10 10:01:00.000000000,closed,1,Serializable commands... again...
+124,2015-09-09 22:49:17.000000000,2015-09-09 23:01:15.000000000,closed,0,RabbitMQ event ordering
+123,2015-09-09 22:33:32.000000000,2015-09-09 22:40:18.000000000,closed,0,Readme update
+122,2015-09-09 22:03:23.000000000,2015-09-20 20:46:27.000000000,closed,0,Jobs
+121,2015-09-09 09:58:51.000000000,2017-08-29 22:04:26.000000000,closed,3,Configurable background jobs
+120,2015-09-08 09:08:23.000000000,2015-09-11 21:14:44.000000000,closed,1,Release v0.13
+119,2015-09-06 16:09:50.000000000,2015-09-07 09:41:12.000000000,closed,0,Added predicate to assembly scanning
+118,2015-09-06 01:32:58.000000000,2015-10-14 15:23:52.000000000,closed,1,"Event sourced, try again..."
+117,2015-09-05 12:35:05.000000000,2015-09-05 13:10:10.000000000,closed,0,"Prevent abstract AggregateRoot<,> implementations from being register…"
+116,2015-09-05 10:58:13.000000000,2016-08-23 01:12:50.000000000,closed,5,Sagas
+115,2015-09-05 01:51:02.000000000,2015-09-05 10:42:30.000000000,closed,1,Split event sourcing from aggregate roots
+114,2015-09-04 22:01:47.000000000,2015-09-04 23:04:34.000000000,closed,0,More documentation
+113,2015-09-04 18:21:23.000000000,2015-09-05 12:10:46.000000000,closed,2,"Prevent abstract AggregateRoot<,> implementations from being registered as services"
+112,2015-08-31 09:44:00.000000000,2017-01-05 03:54:27.000000000,closed,15,MongoDB support as event store
+111,2015-08-31 00:42:12.000000000,2015-09-04 22:21:27.000000000,closed,1,Larger example domain
+110,2015-08-30 15:25:07.000000000,2015-09-04 22:55:24.000000000,closed,0,Detect duplicate operations
+109,2015-08-30 14:35:32.000000000,2015-10-14 15:26:03.000000000,closed,1,Guide on performance tips
+108,2015-08-30 14:21:07.000000000,2015-08-30 14:36:09.000000000,closed,0,Only do reflection once pr. command type in the command bus
+107,2015-08-28 09:09:21.000000000,2015-08-30 09:43:18.000000000,closed,6,Use of nvarchar on AggregateId in EventStores.MsSql could impact indexing
+106,2015-08-27 00:40:41.000000000,2015-08-27 16:50:55.000000000,closed,0,Build aggregate root Apply method cache in one go
+105,2015-08-27 00:17:13.000000000,2015-08-27 00:41:07.000000000,closed,0,Metadata improvements
+104,2015-08-26 17:03:55.000000000,2017-10-25 18:16:01.000000000,closed,5,Make EventFlow Test Helpers usable in projects that implement EventFlow
+103,2015-08-26 10:45:31.000000000,2015-08-27 09:12:06.000000000,closed,5,Make Identity composable and usable with all classes which require id…
+102,2015-08-25 22:04:21.000000000,2015-08-26 22:24:30.000000000,closed,5,Use deterministic GUIDs to create event IDs
+101,2015-08-25 21:39:37.000000000,2015-08-25 22:04:39.000000000,closed,0,Cleanup
+100,2015-08-25 09:57:31.000000000,2015-08-25 21:23:42.000000000,closed,1,Can we use @event instead of e where possible?
+99,2015-08-25 08:15:41.000000000,2015-08-26 10:00:46.000000000,closed,2,Added generic Identity validator support using IIdentityValidator and…
+98,2015-08-25 01:54:41.000000000,2017-09-27 22:46:40.000000000,closed,13,WIP: Configuration alternative
+97,2015-08-25 01:39:56.000000000,2015-08-25 01:44:26.000000000,closed,0,Cleanup - no functional changes
+96,2015-08-24 08:10:04.000000000,2015-08-24 09:57:23.000000000,closed,0,TypoFix - AutofacGeneticRegistration to AutofacGenericRegistration
+95,2015-08-23 22:39:30.000000000,2015-08-23 23:23:22.000000000,closed,1,"Enable use of the ""resolver"" aggregate root factory in the core package"
+94,2015-08-23 17:09:05.000000000,2015-08-23 22:55:07.000000000,closed,0,RabbitMQ integration testing
+93,2015-08-22 15:49:00.000000000,2015-08-23 22:21:41.000000000,closed,6,Added an AutofacAggregateFactory to EventFlow.Autofac
+92,2015-08-21 09:03:06.000000000,2015-08-21 09:07:51.000000000,closed,0,Add a Gitter chat badge to README.md
+91,2015-08-21 08:49:29.000000000,2015-08-21 22:57:54.000000000,closed,0,Rabbitmq improvements
+90,2015-08-20 23:31:48.000000000,2015-08-25 22:58:21.000000000,closed,0,Custom aggregate root name
+89,2015-08-20 10:01:46.000000000,2015-08-30 14:21:40.000000000,closed,11,Command IDs
+88,2015-08-18 15:27:03.000000000,2015-08-20 10:02:51.000000000,closed,2,EventFlowGuide
+87,2015-08-18 15:23:53.000000000,2015-08-19 12:23:01.000000000,closed,2,Cross assembly type cast exception when implementing a new AutofacAggregateFactory and using AutofacResolver.
+86,2015-08-18 08:46:22.000000000,2015-08-19 16:36:39.000000000,closed,0,C# v6
+85,2015-08-17 21:56:15.000000000,2015-08-20 23:07:51.000000000,closed,0,RabbitMQ
+84,2015-08-16 14:47:28.000000000,2015-08-16 15:04:24.000000000,closed,2,Why does Command.Publish() require a CancellationToken?
+83,2015-08-16 12:18:28.000000000,2015-08-17 22:21:02.000000000,closed,0,Upgrade tools and platform
+82,2015-08-16 11:45:56.000000000,2015-08-21 08:56:18.000000000,closed,0,Dos and don'ts in CQRS+ES
+81,2015-08-15 18:40:45.000000000,2015-08-16 11:27:52.000000000,closed,0,JSON converter that produces nicer results for single value objects
+80,2015-08-15 18:23:20.000000000,2015-08-16 11:22:07.000000000,closed,0,Improve event appliers
+79,2015-08-15 12:46:25.000000000,2015-08-15 18:23:45.000000000,closed,0,Allow aggregate event Apply methods to be private or protected
+78,2015-08-15 11:17:39.000000000,2015-08-15 13:06:58.000000000,closed,2,Applying events
+77,2015-08-14 17:52:13.000000000,2015-08-15 12:56:34.000000000,closed,0,Allow custom strategy for applying aggregate events
+76,2015-08-14 15:38:31.000000000,2015-08-16 12:03:07.000000000,closed,9,Limit visibility of IEmit.Apply()
+75,2015-08-04 21:27:18.000000000,2015-10-21 09:00:31.000000000,closed,0,Elasticsearch read models - take 2
+74,2015-08-04 00:26:50.000000000,2015-08-04 01:55:05.000000000,closed,0,Updated NuGet packages
+73,2015-05-25 13:39:26.000000000,2015-05-25 17:16:12.000000000,closed,0,Move batch ID to metadata
+72,2015-05-25 13:26:39.000000000,2015-07-20 10:15:09.000000000,closed,0,EventStore event store provider
+71,2015-05-25 12:46:58.000000000,2015-07-20 10:15:09.000000000,closed,0,Provide a EventStore event store
+70,2015-05-23 00:52:05.000000000,2015-05-29 08:54:31.000000000,closed,1,Read model populate
+69,2015-05-22 20:36:18.000000000,2015-05-22 21:34:09.000000000,closed,0,Remove global sequence number
+68,2015-05-22 14:37:59.000000000,2019-02-12 23:17:32.000000000,closed,5,Replace reflection magic
+67,2015-05-22 09:32:48.000000000,2015-05-22 21:34:09.000000000,closed,1,Remove global sequence number
+66,2015-05-21 09:33:23.000000000,2015-12-02 02:03:47.000000000,closed,1,Create a sample domain for test
+65,2015-05-19 22:55:15.000000000,2019-02-12 23:31:58.000000000,closed,0,"Be able to configure ""point of no return"" for cancellation"
+64,2015-05-19 22:45:56.000000000,2015-05-22 11:10:25.000000000,closed,1,Populate read models from event store
+63,2015-05-19 09:12:14.000000000,2015-05-29 08:54:31.000000000,closed,0,Build all read models from event store
+62,2015-05-13 20:58:41.000000000,2017-01-17 00:43:32.000000000,closed,1,Documentation
+61,2015-05-12 22:24:56.000000000,2015-05-14 21:19:17.000000000,closed,0,Load domain events based on global sequence number
+60,2015-05-11 21:52:18.000000000,2015-05-18 22:18:38.000000000,closed,3,Read model improvements
+59,2015-05-06 23:33:09.000000000,2015-05-08 08:51:53.000000000,closed,2,Identity mess cleanup
+58,2015-05-06 09:39:08.000000000,2015-05-18 22:18:38.000000000,closed,1,Read models that span multiple aggregates
+57,2015-05-04 23:36:03.000000000,2015-05-22 07:49:32.000000000,closed,0,Query processor
+56,2015-05-04 21:47:35.000000000,2015-05-04 23:42:21.000000000,closed,0,Transient fault handling
+55,2015-05-03 00:45:01.000000000,2015-05-18 11:02:14.000000000,closed,1,Apply missing events to read models
+54,2015-05-02 18:00:54.000000000,2015-05-02 23:55:18.000000000,closed,0,Release notes
+53,2015-05-02 14:05:39.000000000,1970-01-01 00:00:00.000000001,open,0,OWIN package should include optional web API
+52,2015-04-30 11:45:55.000000000,2015-05-05 09:11:42.000000000,closed,4,Aggregate ID
+51,2015-04-28 14:31:15.000000000,2017-10-01 23:12:22.000000000,closed,3,Consider change to LibLog
+50,2015-04-28 10:38:41.000000000,2015-05-04 23:42:21.000000000,closed,0,Handle transient MSSQL exceptions
+49,2015-04-28 09:43:36.000000000,1970-01-01 00:00:00.000000001,open,10,Archive event streams
+48,2015-04-28 09:42:26.000000000,2015-05-22 22:05:31.000000000,closed,1,Delete event streams from event store
+47,2015-04-26 16:30:17.000000000,2015-04-26 17:12:14.000000000,closed,0,Introduced the command handler
+46,2015-04-26 00:36:54.000000000,2015-04-26 17:46:37.000000000,closed,0,Autofac package
+45,2015-04-25 16:27:18.000000000,2015-04-27 21:35:56.000000000,closed,1,Create ITimeMachine
+44,2015-04-24 12:28:01.000000000,2015-09-22 00:20:11.000000000,closed,1,Not possible to resolve IOwinContext from singleton event store
+43,2015-04-24 12:25:06.000000000,2015-04-27 21:36:07.000000000,closed,1,Introduce ITimeMachine
+42,2015-04-24 11:42:33.000000000,2015-05-05 11:10:58.000000000,closed,0,Releases (don't merge)
+41,2015-04-24 10:06:30.000000000,2019-12-31 02:25:12.000000000,closed,2,Apply missing events to read models
+40,2015-04-24 01:08:38.000000000,2015-04-24 10:01:23.000000000,closed,0,Decorator registrations
+39,2015-04-23 19:37:45.000000000,2015-10-24 00:34:04.000000000,closed,2,Add elasticsearch readstore support
+38,2015-04-23 17:24:47.000000000,2015-04-23 18:55:12.000000000,closed,0,Value objects
+37,2015-04-23 14:51:46.000000000,2015-04-23 14:52:04.000000000,closed,0,Master
+36,2015-04-21 18:32:43.000000000,2018-05-28 22:27:26.000000000,closed,4,Alternative interface for configuration
+35,2015-04-15 21:29:04.000000000,2016-08-23 21:29:26.000000000,closed,1,Aggregate snapshotting
+34,2015-04-15 21:25:37.000000000,2015-09-25 09:24:11.000000000,closed,2,Statistics module
+33,2015-04-14 09:16:20.000000000,2015-04-23 14:49:43.000000000,closed,0,OWIN package
+32,2015-04-14 08:49:59.000000000,2015-04-23 14:49:43.000000000,closed,0,OWIN support
+31,2015-04-13 21:15:01.000000000,2015-12-02 02:24:19.000000000,closed,1,Generate SQL for creating read model tables
+30,2015-04-13 09:04:29.000000000,2015-04-23 19:37:25.000000000,closed,8,Add initial elasticsearch readstore
+29,2015-04-10 22:19:25.000000000,2015-04-25 15:41:10.000000000,closed,0,Documentation
+28,2015-04-10 09:24:16.000000000,2016-10-10 09:24:36.000000000,closed,1,Create ISubscribeAsynchronousTo
+27,2015-04-10 09:18:00.000000000,2015-05-19 22:49:31.000000000,closed,1,Cleanup too many `ToList()`
+26,2015-04-09 11:54:35.000000000,2015-12-02 02:04:16.000000000,closed,2,Elasticsearch read model store
+25,2015-04-09 01:38:54.000000000,2015-04-10 21:36:13.000000000,closed,0,File based event store
+24,2015-04-09 00:16:21.000000000,2015-04-10 19:53:01.000000000,closed,0,Event stream caching
+23,2015-04-08 14:54:41.000000000,2015-05-22 07:49:32.000000000,closed,0,Can we do things better
+22,2015-04-01 23:26:20.000000000,1970-01-01 00:00:00.000000001,open,0,Help with creation of SQL for MSSQL read models
+21,2015-04-01 23:10:49.000000000,2015-04-14 22:18:45.000000000,closed,0,Run time upgrade of events
+20,2015-04-01 17:45:38.000000000,2015-04-01 21:47:27.000000000,closed,1,Extended interface to the InMemoryReadModelStore
+19,2015-03-31 23:59:21.000000000,2015-05-19 22:50:14.000000000,closed,2,Move remove base class `EventStore`
+18,2015-03-31 18:31:54.000000000,2015-03-31 23:02:40.000000000,closed,0,Introduce aggregate event routing to allow e.g. state objects
+17,2015-03-30 13:18:50.000000000,2016-08-23 01:12:50.000000000,closed,0,Introduce a simple saga system
+16,2015-03-26 16:39:59.000000000,2015-03-31 17:54:51.000000000,closed,0,In-memory event store should also throw optimistic concurrency exceptions
+15,2015-03-26 12:26:47.000000000,2015-04-10 19:53:01.000000000,closed,3,Aggregate/event caching
+14,2015-03-25 22:57:52.000000000,2015-04-14 22:18:45.000000000,closed,0,Run time event mapping
+13,2015-03-25 00:30:53.000000000,2015-03-25 23:50:34.000000000,closed,1,Add cancellation token support
+12,2015-03-23 16:31:48.000000000,2015-04-29 16:22:16.000000000,closed,0,Update README with shields
+11,2015-03-23 16:14:07.000000000,2015-04-10 21:36:13.000000000,closed,0,File systems event store
+10,2015-03-23 16:11:18.000000000,2015-03-24 01:10:23.000000000,closed,0,Create more metadata providers
+9,2015-03-23 15:07:25.000000000,2015-03-25 10:50:48.000000000,closed,2,Add NOLOCK to MSSQL SELECT statements
+8,2015-03-23 14:19:14.000000000,2015-03-30 12:50:00.000000000,closed,1,Integration tests for MSSQL packages
+7,2015-03-23 14:18:04.000000000,2015-03-24 01:10:23.000000000,closed,0,Create a read model store manager
+6,2015-03-23 14:16:57.000000000,2015-03-23 22:59:08.000000000,closed,0,ReadModelStore should cache Apply method infos
+5,2015-03-23 11:09:08.000000000,1970-01-01 00:00:00.000000001,open,5,Create NuGet package for make domain tests easier
+4,2015-03-23 11:01:01.000000000,2015-03-25 01:06:49.000000000,closed,0,Implement optimistic concurrency for MSSQL event store
+3,2015-03-23 10:59:29.000000000,2018-06-18 11:01:06.000000000,closed,1,Implement optimistic concurrency for read models
+2,2015-03-22 18:20:51.000000000,2015-03-22 18:59:10.000000000,closed,0,Create MSSQL packages
+1,2015-03-18 23:10:35.000000000,2015-03-20 02:25:26.000000000,closed,0,Embed Autofac

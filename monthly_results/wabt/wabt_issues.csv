@@ -1,0 +1,1525 @@
+id,created_at,closed_at,state,comments,title
+1530,2020-08-29 02:40:45.000000000,1970-01-01 00:00:00.000000001,open,0,Implement simd bitmask instructions
+1529,2020-08-28 18:08:35.000000000,2020-08-29 04:41:10.000000000,closed,2,unable to build with emscripten
+1528,2020-08-26 16:49:03.000000000,1970-01-01 00:00:00.000000001,open,1,How can I run WABT on FreeBSD?
+1527,2020-08-20 02:27:37.000000000,1970-01-01 00:00:00.000000001,open,1,wat2wasm: fix relocation offsets
+1526,2020-08-20 02:27:20.000000000,2020-08-22 20:24:54.000000000,closed,1,wat2wasm: relocations for block types
+1525,2020-08-20 02:25:44.000000000,2020-08-20 17:40:15.000000000,closed,0,wat2wasm: type relocations
+1524,2020-08-19 15:44:33.000000000,2020-08-19 22:28:44.000000000,closed,0,Fix integer overflow in objdump name tracking
+1523,2020-08-18 23:33:13.000000000,2020-08-18 23:56:45.000000000,closed,1,[decompiler] Fix integer comparison sign warning
+1522,2020-08-18 23:31:06.000000000,2020-08-19 04:44:53.000000000,closed,2,Enable -Werror during CI
+1521,2020-08-18 23:25:39.000000000,2020-08-18 23:56:09.000000000,closed,0,Fix warnings generated in my system clang (9.0.1-12)
+1520,2020-08-17 07:42:02.000000000,2020-08-19 22:28:43.000000000,closed,1,wasm-objdump/wabt::ObjdumpNames::Set integer overflow after reading export items' index
+1519,2020-08-14 12:09:07.000000000,1970-01-01 00:00:00.000000001,open,1,wasm-decompile/wabt::Decompiler::DecompileExpr cannot handle when if branch is empty.
+1518,2020-08-14 10:44:20.000000000,1970-01-01 00:00:00.000000001,open,2,wasm-decompile/wabt::AST::Construct cannot handle a specific stack unbalanced scenario result in a memory corruption.
+1517,2020-08-12 15:47:38.000000000,2020-08-20 02:29:51.000000000,closed,8,Fix relocations emitted by wat2wasm -r
+1516,2020-08-11 01:11:55.000000000,2020-08-11 05:29:50.000000000,closed,0,Enable multi-core build on Windows
+1515,2020-08-11 00:28:15.000000000,2020-08-11 01:41:05.000000000,closed,2,Update README.md to include default-on proposals
+1514,2020-08-10 23:45:01.000000000,2020-08-11 01:28:12.000000000,closed,5,Failing to compile wabt-sys 0.8.0 due to undeclared CMAKE_PROJECT_VERSION
+1513,2020-08-10 06:17:39.000000000,2020-08-12 03:59:58.000000000,closed,3,Clarify how Supported Proposals work.
+1512,2020-08-08 07:48:24.000000000,2020-08-11 00:05:20.000000000,closed,0,"Made the interpreter ""type-safe"" in debug mode"
+1511,2020-08-08 02:46:11.000000000,2020-08-10 23:33:15.000000000,closed,0,wast2json does not check all file errors
+1510,2020-08-07 17:32:41.000000000,2020-08-10 06:55:56.000000000,closed,3,"[wasm2c] C code is unable to compile, undefined reference to `WASI_xx`"
+1509,2020-08-07 17:11:48.000000000,2020-08-07 18:05:38.000000000,closed,0,[wasm2c
+1508,2020-08-01 00:26:45.000000000,2020-08-01 02:11:35.000000000,closed,0,Fix linking section symbol name bugs
+1507,2020-08-01 00:26:29.000000000,2020-08-03 22:31:48.000000000,closed,1,Add tools to use LLVM's libFuzzer
+1506,2020-07-31 11:26:41.000000000,2020-07-31 21:59:47.000000000,closed,0,Reformat code in binary-reader.cc
+1505,2020-07-30 15:15:48.000000000,2020-07-31 21:53:47.000000000,closed,0,Detect malformed memory/table limits flag 
+1504,2020-07-30 13:57:39.000000000,2020-07-30 23:49:00.000000000,closed,0,Detect malformed import kind in binary reader
+1503,2020-07-30 05:25:24.000000000,2020-07-31 00:18:21.000000000,closed,1,Print newline after rethrow instruction
+1502,2020-07-30 01:16:17.000000000,2020-07-30 04:52:39.000000000,closed,1,Update testsuite; fix conversion errors
+1501,2020-07-29 15:59:49.000000000,2020-07-31 21:29:31.000000000,closed,6,Fix reading of section code
+1500,2020-07-28 05:29:17.000000000,2020-08-07 23:55:48.000000000,closed,3,"Added initial ""memory64"" proposal support"
+1499,2020-07-27 23:51:44.000000000,1970-01-01 00:00:00.000000001,open,0,[wasm2c] Truncation of values slightly less than INT32_MIN is wrong
+1498,2020-07-25 00:38:13.000000000,2020-07-25 23:52:51.000000000,closed,0,Fix assert when function has struct type
+1497,2020-07-23 23:18:14.000000000,2020-07-24 00:38:28.000000000,closed,1,[decompiler] fixed blocks with params.
+1496,2020-07-23 12:23:05.000000000,2020-07-23 21:10:52.000000000,closed,3,Question: Should `local.get $v` work when `$v` is the name of a parameter declared via a separate type?
+1495,2020-07-22 03:29:45.000000000,2020-07-25 00:06:46.000000000,closed,1,Print newline after ref.is_null instruction
+1494,2020-07-22 03:28:55.000000000,2020-07-22 09:09:12.000000000,closed,1,Fix resolving local names w/ empty func signatures
+1493,2020-07-22 02:36:06.000000000,1970-01-01 00:00:00.000000001,open,0,Missing newline after `ref.is_null` in `wasm2wat`
+1492,2020-07-22 02:33:13.000000000,1970-01-01 00:00:00.000000001,open,0,Numbering of `local.get` may not account for parameters
+1491,2020-07-18 08:37:45.000000000,2020-07-21 00:26:27.000000000,closed,2,Add missing includes to type.h
+1490,2020-07-17 07:00:43.000000000,2020-07-18 10:35:10.000000000,closed,3,Is the wabt in system package managers officially supported?
+1489,2020-07-17 03:04:22.000000000,2020-07-19 00:07:12.000000000,closed,0,Fix gcc warning in GetExprArity
+1488,2020-07-16 23:09:22.000000000,2020-07-22 00:39:05.000000000,closed,1,Completely disable signal handler on 32-bit
+1487,2020-07-16 21:28:14.000000000,2020-07-16 22:39:18.000000000,closed,0,Use #warning instead of #warn
+1486,2020-07-16 05:08:19.000000000,2020-07-16 21:27:42.000000000,closed,1,Fix folding for *.load_splat and table.fill
+1485,2020-07-16 04:01:03.000000000,2020-07-16 05:34:04.000000000,closed,2,Add LoadSplat case to GetExprArity
+1484,2020-07-15 23:07:12.000000000,2020-07-16 01:54:34.000000000,closed,0,Revert br_table in reference types proposal
+1483,2020-07-15 22:21:11.000000000,2020-07-15 22:53:49.000000000,closed,0,[wasm2c] Disable signal handling on 32-bit archs
+1482,2020-07-15 17:41:35.000000000,1970-01-01 00:00:00.000000001,open,1,wabt 1.0.17 fails to compile on RHEL7 with gcc 4.8.5
+1481,2020-07-15 14:04:51.000000000,1970-01-01 00:00:00.000000001,open,6,multiple new test failures on ARMv7 32bit and x86 32bit
+1480,2020-07-11 04:17:19.000000000,2020-07-14 00:54:26.000000000,closed,0,Fix some portability issues in interp-wasi.cc
+1479,2020-07-10 23:57:29.000000000,2020-07-13 09:26:07.000000000,closed,0,Tweak definition of ssize_t for MSVC compilation
+1478,2020-07-10 23:36:34.000000000,2020-07-14 04:16:34.000000000,closed,3,wasm2c: signal handler doesn't always work (linux)
+1477,2020-06-29 11:42:35.000000000,1970-01-01 00:00:00.000000001,open,0,GC branch:  wat2wasm errors with order of local variables of struct or array reference type
+1476,2020-06-26 20:46:25.000000000,2020-06-29 23:08:52.000000000,closed,3,Why i32 got convert to u32?
+1475,2020-06-24 06:09:43.000000000,1970-01-01 00:00:00.000000001,open,1,mac build is errr
+1474,2020-06-24 02:28:54.000000000,2020-07-16 03:39:53.000000000,closed,0,Remove ref.is_null type parameter
+1473,2020-06-21 21:21:31.000000000,2020-06-22 21:23:32.000000000,closed,1,Fix warning on comparison of void* to integer. fixes #1472
+1472,2020-06-21 12:09:03.000000000,2020-06-22 21:23:33.000000000,closed,1,warning: comparison between pointer and integer
+1471,2020-06-19 22:20:19.000000000,2020-06-19 22:37:31.000000000,closed,0,Enable CMake policy CMP0077
+1470,2020-06-19 00:28:49.000000000,2020-06-19 00:33:32.000000000,closed,1,wat2wasm not working under Linux
+1469,2020-06-18 23:51:14.000000000,1970-01-01 00:00:00.000000001,open,1,Support for eqref an other features of the GC MVP
+1468,2020-06-18 23:43:43.000000000,2020-06-19 02:59:02.000000000,closed,0,Update libwabt.js; fix some runtime issues
+1467,2020-06-17 22:24:58.000000000,2020-06-18 23:56:31.000000000,closed,3,Improve CMakeLists.txt for when used via add_subdirectory()
+1466,2020-06-17 05:10:42.000000000,2020-06-17 07:47:38.000000000,closed,3,Update local bindings on function with type use
+1465,2020-06-15 23:28:07.000000000,1970-01-01 00:00:00.000000001,open,1,Performance of WABT Interpreter
+1464,2020-06-13 22:17:42.000000000,2020-06-17 16:59:51.000000000,closed,1,Desugar confuses named variables
+1463,2020-06-13 19:00:03.000000000,1970-01-01 00:00:00.000000001,open,4,Version is wrong
+1462,2020-06-13 03:47:03.000000000,2020-06-15 23:26:37.000000000,closed,0,Fix two minor compiler warnings
+1461,2020-06-10 22:12:07.000000000,2020-06-10 23:29:31.000000000,closed,0,[wasm-c-api] Implement missing functions
+1460,2020-06-10 20:10:06.000000000,2020-06-10 21:46:11.000000000,closed,2,Better error when parsing input/output command
+1459,2020-06-10 15:20:41.000000000,2020-06-10 21:46:11.000000000,closed,0,Confusing error for input instruction
+1458,2020-06-10 06:02:43.000000000,1970-01-01 00:00:00.000000001,open,1,libwasm needs tests
+1457,2020-06-10 05:48:51.000000000,2020-06-18 03:22:36.000000000,closed,1,interp-wasm-c-api is incomplete
+1456,2020-06-10 04:26:43.000000000,2020-06-13 00:56:40.000000000,closed,2,Add a static-library version of the `wasm` library.
+1455,2020-06-09 12:25:06.000000000,1970-01-01 00:00:00.000000001,open,2,[wasm2wat] Incorrect rejection of valid module 
+1454,2020-06-09 04:52:54.000000000,2020-06-09 19:50:50.000000000,closed,0,Check for malformed alignment
+1453,2020-06-08 19:06:24.000000000,2020-06-09 19:51:06.000000000,closed,0,[bug] Incorrect validation of module with malformed alignment by wabt
+1452,2020-06-07 16:45:42.000000000,1970-01-01 00:00:00.000000001,open,2,wabt (as of 1.0.15) doesn't ship libraries in precompiled distributions
+1451,2020-05-29 22:27:21.000000000,2020-05-29 23:46:54.000000000,closed,0,[wasm2wat] Write select type immediate
+1450,2020-05-29 21:56:06.000000000,2020-05-30 00:34:47.000000000,closed,0,[wasm2wat] Fix a few more roundtripping issues
+1449,2020-05-29 19:37:08.000000000,2020-05-30 00:34:59.000000000,closed,1,wasm2wat: Missing `declare` on elem segments with expressions
+1448,2020-05-29 19:32:35.000000000,2020-05-30 00:34:47.000000000,closed,0,wasm2wat: Incorrect table type printed for imported externref tables
+1447,2020-05-29 19:27:56.000000000,1970-01-01 00:00:00.000000001,open,1,wasm2wat normalizes element segments when printing
+1446,2020-05-29 00:47:08.000000000,2020-05-29 04:03:36.000000000,closed,0,[wat2wasm] Write table indexes in text format
+1445,2020-05-28 23:58:32.000000000,2020-05-29 04:03:37.000000000,closed,0,wasm2wat: table.init and table.copy don't print table indices
+1444,2020-05-28 23:55:02.000000000,2020-05-29 23:46:55.000000000,closed,0,wasm2wat loses type information on `select` instruction (reference types)
+1443,2020-05-28 23:40:17.000000000,2020-05-29 04:03:37.000000000,closed,0,`wasm2wat` doesn't print nonzero table indices
+1442,2020-05-28 22:33:17.000000000,2020-06-05 02:45:03.000000000,closed,4,[wasm2c] Implement trap handler for linux
+1441,2020-05-28 02:41:12.000000000,2020-05-28 02:41:41.000000000,closed,1,Link to wasm-decompile on main page 404s
+1440,2020-05-27 00:22:09.000000000,1970-01-01 00:00:00.000000001,open,0,[wasm2c] Add support for trap-handling memory sandboxing
+1439,2020-05-26 21:11:18.000000000,2020-08-10 17:39:30.000000000,closed,13,prelease blocking the homebrew formula upgrade
+1438,2020-05-22 02:42:32.000000000,1970-01-01 00:00:00.000000001,open,5,npm packaging of wasm2c
+1437,2020-05-21 22:29:31.000000000,2020-05-21 22:41:01.000000000,closed,0,Update and pin emscripten image used in CI
+1436,2020-05-21 21:51:33.000000000,2020-05-22 02:12:00.000000000,closed,8,Allow building all tools with emscripten
+1435,2020-05-20 04:16:46.000000000,2020-05-20 05:12:47.000000000,closed,2,Add build flag to disable build of libwasm
+1434,2020-05-20 00:49:21.000000000,2020-05-20 06:29:29.000000000,closed,12,Emscripten main.c file?
+1433,2020-05-19 07:15:05.000000000,2020-05-19 09:08:46.000000000,closed,0,Update build status badges
+1432,2020-05-19 02:12:46.000000000,1970-01-01 00:00:00.000000001,open,12,Add some optional defines to disable wasm2c trap checks
+1431,2020-05-18 05:58:39.000000000,2020-05-19 07:12:25.000000000,closed,1,Complete conversion to github actions
+1430,2020-05-18 04:36:25.000000000,2020-05-21 20:58:03.000000000,closed,2,wasi: Implement more of the wasi API
+1429,2020-05-16 11:49:47.000000000,1970-01-01 00:00:00.000000001,open,6,wasm2wat needed_dynlibs error
+1428,2020-05-16 03:26:21.000000000,1970-01-01 00:00:00.000000001,open,2,wasm-decompile like in README is broken
+1427,2020-05-15 21:51:25.000000000,2020-05-16 00:50:37.000000000,closed,2,Mangle wasm2c names in a simpler way
+1426,2020-05-15 18:08:17.000000000,2020-05-16 00:50:37.000000000,closed,2,wasm2c: function name mangling?
+1425,2020-05-15 03:15:39.000000000,2020-05-15 04:58:30.000000000,closed,0,Require `do` in folded `try` statement
+1424,2020-05-14 03:47:14.000000000,2020-05-14 05:14:14.000000000,closed,0,Update testsuite
+1423,2020-05-14 00:58:29.000000000,2020-05-17 08:15:31.000000000,closed,1,Implement more WASI APIs
+1422,2020-05-13 10:24:09.000000000,2020-05-13 22:35:02.000000000,closed,0,Use stderr for reporting errors in wasm-interp
+1421,2020-05-12 23:53:56.000000000,1970-01-01 00:00:00.000000001,open,3,libwabt.js builds are broken with Emscripten upstream/tot
+1420,2020-05-12 22:30:48.000000000,1970-01-01 00:00:00.000000001,open,3,Missing instructions for the provided binary archives
+1419,2020-05-12 07:27:54.000000000,2020-05-12 09:43:09.000000000,closed,0,Move flake8 CI from travis to github actions
+1418,2020-05-12 00:38:36.000000000,2020-05-14 02:16:29.000000000,closed,3,Fix bug when writing grouped named parameters
+1417,2020-05-12 00:01:17.000000000,2020-05-14 22:39:06.000000000,closed,2,`wasm2wat` may produce un-parseable WAT syntax with parameter names
+1416,2020-05-11 20:45:07.000000000,2020-05-12 09:09:39.000000000,closed,0,Remove range assertions in BinaryReader
+1415,2020-05-11 20:33:00.000000000,2020-05-12 09:09:10.000000000,closed,0,Prevent large allocation in br_table instruction
+1414,2020-05-10 21:05:05.000000000,2020-06-09 12:41:40.000000000,closed,1,[wasm2wat] Assertion failure in BinaryReaderIR::OnReturnCallIndirectExpr
+1413,2020-05-10 21:00:06.000000000,2020-06-09 12:40:51.000000000,closed,1,[wasm2wat] Assertion failure in BinaryReaderIR::OnCallIndirectExpr
+1412,2020-05-10 19:20:13.000000000,2020-05-11 21:30:04.000000000,closed,0,Pass current Thread to host function callbacks
+1411,2020-05-10 06:21:01.000000000,2020-05-13 05:28:44.000000000,closed,2,Add initial MVP of WASI API support to wasm-interp
+1410,2020-05-10 05:14:47.000000000,2020-05-11 21:34:37.000000000,closed,0,Fix typo. NFC
+1409,2020-05-10 04:21:57.000000000,2020-05-13 05:28:44.000000000,closed,2,Add WASI API to wasm-interp / wasm2c
+1408,2020-05-07 20:16:59.000000000,1970-01-01 00:00:00.000000001,open,2,wasm2c: build library wasm-rt-impl
+1407,2020-05-06 22:34:18.000000000,2020-05-28 22:30:39.000000000,closed,3,Reference types changes to remove subtyping
+1406,2020-05-06 05:47:52.000000000,1970-01-01 00:00:00.000000001,open,13,Is it possible to have de-mangled function name in the output of wasm-decompile.exe
+1405,2020-05-05 23:56:48.000000000,2020-05-06 22:46:44.000000000,closed,0,Enabled merged proposals by default
+1404,2020-05-05 18:35:22.000000000,1970-01-01 00:00:00.000000001,open,1,Infinite loop parsing upstream annotations proposal
+1403,2020-05-02 03:59:31.000000000,2020-05-05 03:43:37.000000000,closed,2,Renumber SIMD opcodes
+1402,2020-05-01 18:39:19.000000000,1970-01-01 00:00:00.000000001,open,1,Compile test.c (generated by wasm2c) into LLVM
+1401,2020-04-29 04:15:34.000000000,2020-04-29 11:31:06.000000000,closed,0,Fix address overflow bug in wasm2c
+1400,2020-04-28 20:06:21.000000000,2020-04-29 19:29:41.000000000,closed,5,wasm2c load/store offset calculation
+1399,2020-04-28 15:04:55.000000000,1970-01-01 00:00:00.000000001,open,0,wast2json assertion failure when file contains malformed module
+1398,2020-04-28 03:26:00.000000000,2020-04-28 04:34:06.000000000,closed,0,Update JS demos (also add feature checkboxes)
+1397,2020-04-27 22:03:47.000000000,1970-01-01 00:00:00.000000001,open,1,wasm-decompile doesn't mark standard exported globals as exported
+1396,2020-04-27 08:51:59.000000000,2020-04-28 02:46:29.000000000,closed,12,wasm2wat crashes upon reaching SIMD instructions
+1395,2020-04-25 19:31:42.000000000,2020-05-24 18:25:50.000000000,closed,2,Failing to compile GC branch
+1394,2020-04-23 21:16:45.000000000,2020-04-24 04:02:27.000000000,closed,1,Can we have a wasm framework?
+1393,2020-04-23 12:44:09.000000000,2020-04-23 19:19:54.000000000,closed,0,Fix typo in type-checker.h
+1392,2020-04-22 05:36:17.000000000,2020-04-28 00:17:30.000000000,closed,15,Improve error message when python 3 not available - Fix for  #1385
+1391,2020-04-15 23:12:45.000000000,2020-04-16 22:05:12.000000000,closed,3,"The ""Legacy active, funcref elemexpr"" element segment  not supported in wat2wasm."
+1390,2020-04-15 23:08:11.000000000,2020-04-16 00:38:35.000000000,closed,2,Wrong opcode for v8x16.shuffle?
+1389,2020-04-13 23:54:34.000000000,2020-04-14 19:47:43.000000000,closed,1,Add exnref value type to parser
+1388,2020-04-13 17:41:31.000000000,2020-04-17 21:18:24.000000000,closed,2,locals of type exnref
+1387,2020-04-12 16:25:37.000000000,2020-05-11 21:55:05.000000000,closed,4,Update wasm-interp.cc
+1386,2020-04-12 14:42:13.000000000,2020-05-14 02:27:33.000000000,closed,0,[crash] SIGABRT due to std::bad_alloc exception (resizing wasm br_table)
+1385,2020-04-09 23:43:22.000000000,1970-01-01 00:00:00.000000001,open,12,"Don't require Python in build (if not found, skip those targets)"
+1384,2020-04-09 23:29:30.000000000,2020-04-14 19:57:08.000000000,closed,1,[wasm2c] Add rot13 example
+1383,2020-04-07 03:21:55.000000000,2020-04-08 05:58:25.000000000,closed,0,Add documentation for wast2json
+1382,2020-03-31 13:45:20.000000000,2020-03-31 14:03:50.000000000,closed,2,File picker on demo
+1381,2020-03-27 23:01:38.000000000,2020-03-28 01:50:36.000000000,closed,0,Update testsuite
+1380,2020-03-27 00:04:02.000000000,1970-01-01 00:00:00.000000001,open,1,Add Type::RefT to represent (ref $T)
+1379,2020-03-26 18:21:36.000000000,2020-03-28 01:50:56.000000000,closed,3,Update to more recent test suite
+1378,2020-03-26 03:11:41.000000000,1970-01-01 00:00:00.000000001,open,0,Implement exception proposal support in interpreter
+1377,2020-03-26 03:09:12.000000000,1970-01-01 00:00:00.000000001,open,0,Implement function-references proposal
+1376,2020-03-26 01:44:38.000000000,1970-01-01 00:00:00.000000001,open,5,Custom sections wasm2wat / wat2wasm
+1375,2020-03-25 23:15:25.000000000,1970-01-01 00:00:00.000000001,open,1,Fix Various TODOs
+1374,2020-03-25 16:01:22.000000000,2020-03-25 21:02:43.000000000,closed,0,Move event section before global section
+1373,2020-03-24 06:04:07.000000000,2020-03-25 23:43:24.000000000,closed,0,Update testsuite (for SIMD)
+1372,2020-03-24 03:43:16.000000000,2020-03-24 04:32:56.000000000,closed,0,Fix whitespace formatting of SIMD ops
+1371,2020-03-23 23:16:25.000000000,1970-01-01 00:00:00.000000001,open,5,Provide backward compatible support for assert_return_arithmetic_nan
+1370,2020-03-23 21:42:16.000000000,2020-03-24 20:03:09.000000000,closed,6,Avoid spurious copy-to-bin invocations
+1369,2020-03-23 01:57:56.000000000,2020-03-23 22:34:44.000000000,closed,4,"Always generate DataCount section, even if number of datas is 0"
+1368,2020-03-23 01:29:31.000000000,2020-03-23 22:34:44.000000000,closed,0,wast2json not generating wasm with DataCount section when data.drop is used in code
+1367,2020-03-22 19:10:12.000000000,2020-03-22 19:59:40.000000000,closed,2,build failed: fatal error: wasm.h : No such file or directory
+1366,2020-03-21 03:44:42.000000000,1970-01-01 00:00:00.000000001,open,0,Get wasm2c tests running on MSVC/windows
+1365,2020-03-21 02:34:25.000000000,1970-01-01 00:00:00.000000001,open,3,test/wasm2c/spec/skip-stack-guard-page.txt fails on 32-bit ARM
+1364,2020-03-21 02:30:26.000000000,2020-03-24 05:54:15.000000000,closed,0,Parse ArrayTypes
+1363,2020-03-21 00:51:09.000000000,2020-03-21 02:58:31.000000000,closed,0,Move more functionality into the v128 type
+1362,2020-03-20 06:40:10.000000000,2020-03-20 06:50:05.000000000,closed,1,wasm-dis emits invalid 'if' instruction in folded form
+1361,2020-03-19 04:45:24.000000000,2020-03-19 21:33:32.000000000,closed,0,Add wasm-objdump support for structs
+1360,2020-03-14 21:20:02.000000000,2020-03-15 21:12:06.000000000,closed,1,Set -D_POSIX_C_SOURCE for MINGW only
+1359,2020-03-14 21:16:45.000000000,2020-03-15 21:12:05.000000000,closed,0,Compilation error on OpenBSD/clang
+1358,2020-03-13 06:39:30.000000000,2020-03-13 21:10:27.000000000,closed,0,Fix flake8 failures
+1357,2020-03-13 06:28:02.000000000,2020-03-18 01:42:38.000000000,closed,0,Fix interpreter garbage collector
+1356,2020-03-11 06:54:57.000000000,2020-03-17 04:24:51.000000000,closed,0,Refactor Const struct's internal storage
+1355,2020-03-09 23:29:11.000000000,2020-03-17 04:24:38.000000000,closed,2,Parse struct fields
+1354,2020-03-04 23:37:45.000000000,2020-03-11 20:54:36.000000000,closed,2,Remove validation from the BinaryReader
+1353,2020-03-04 12:07:17.000000000,2020-03-11 21:21:02.000000000,closed,0,Add Script to generate .wast from .json
+1352,2020-03-04 04:43:08.000000000,2020-03-09 22:45:18.000000000,closed,0,Initial pass parsing/reading struct
+1351,2020-02-29 06:15:15.000000000,2020-02-29 09:42:39.000000000,closed,0,Update testsuite (w/ reference-types changes)
+1350,2020-02-29 06:09:05.000000000,2020-02-29 10:16:34.000000000,closed,0,Convert Type from an enum into a class
+1349,2020-02-29 04:37:34.000000000,2020-02-29 06:08:33.000000000,closed,0,"Add TypeEntry, base class for type section entries"
+1348,2020-02-29 02:01:31.000000000,2020-02-29 04:26:07.000000000,closed,0,Add GC feature
+1347,2020-02-28 04:30:54.000000000,2020-02-28 23:50:49.000000000,closed,0,Always check index before accessing vectors
+1346,2020-02-27 22:25:40.000000000,2020-02-28 00:23:09.000000000,closed,2,Share validator between IR + binary-reader-interp
+1345,2020-02-27 07:42:23.000000000,1970-01-01 00:00:00.000000001,open,1,[DO NOT MERGE!] WIP on GC proposal
+1344,2020-02-27 03:44:43.000000000,2020-02-27 04:51:34.000000000,closed,0,Move the Type enum to its own file
+1343,2020-02-22 10:00:19.000000000,2020-02-25 11:58:30.000000000,closed,2,wasm-objdump: i32x4.max_s et al are not supported
+1342,2020-02-22 05:24:29.000000000,2020-02-22 06:52:33.000000000,closed,0,Renumber v8x16.shuffle back to 0xfd03
+1341,2020-02-22 01:02:44.000000000,2020-02-26 03:57:13.000000000,closed,0,Move validation of func signatures into the parser
+1340,2020-02-22 00:48:47.000000000,2020-02-22 03:28:17.000000000,closed,3,Add the old alias for v8x16.shuffle
+1339,2020-02-21 05:08:51.000000000,2020-02-24 23:40:25.000000000,closed,3,Can't decode LLVM-built i8x16.shuffle
+1338,2020-02-21 04:53:59.000000000,2020-02-21 22:50:33.000000000,closed,0,Move ValidateFuncSignatures after ParseModuleWat
+1337,2020-02-21 01:05:35.000000000,2020-02-21 03:06:20.000000000,closed,0,Always run ResolveNames after parsing .wast/.wat
+1336,2020-02-20 04:29:51.000000000,2020-02-20 07:19:05.000000000,closed,0,Fix memory/table check to include imported+defined
+1335,2020-02-20 04:29:41.000000000,2020-02-20 06:49:25.000000000,closed,0,Fix logging of f32.const and f64.const
+1334,2020-02-20 04:29:32.000000000,2020-02-20 06:47:20.000000000,closed,0,[appveyor] Add script to allow RDP into CI bots
+1333,2020-02-15 11:32:55.000000000,2020-02-19 00:15:32.000000000,closed,1,Use standard C++11 on GNU/Clang compilers
+1332,2020-02-11 15:32:50.000000000,2020-02-11 21:58:18.000000000,closed,2,Cygwin build fixes
+1331,2020-02-08 01:02:17.000000000,2020-03-11 21:24:03.000000000,closed,2,"wasm2wat fails to disassemble invalid wasm file, even with --no-check"
+1330,2020-02-07 07:00:32.000000000,2020-02-22 03:11:45.000000000,closed,9,New Interpreter
+1329,2020-02-07 06:00:52.000000000,2020-02-07 06:08:38.000000000,closed,0,actions: Avoid triggering both branch and pr builds
+1328,2020-02-06 08:50:45.000000000,2020-02-06 12:47:20.000000000,closed,0,Improve help/usage message on invalid arguments
+1327,2020-02-04 22:21:14.000000000,2020-02-06 03:40:53.000000000,closed,1,Update testsuite
+1326,2020-02-04 10:13:42.000000000,2020-02-05 00:48:50.000000000,closed,0,Remove some python2-ism left over in the test suite
+1325,2020-02-04 10:06:53.000000000,2020-02-29 02:04:47.000000000,closed,3,[interp] Unify active and passive segments
+1324,2020-01-31 08:27:35.000000000,2020-01-31 09:06:34.000000000,closed,0,[travis] Switch to xenial
+1323,2020-01-31 04:08:14.000000000,2020-01-31 08:25:06.000000000,closed,0, [travis] Limit use of sudo
+1322,2020-01-31 01:55:26.000000000,2020-01-31 03:22:23.000000000,closed,0,wasm-decompile: escape hatch for variables used outside scope.
+1321,2020-01-30 07:44:04.000000000,2020-02-01 02:35:28.000000000,closed,0,Remove support for python2
+1320,2020-01-28 06:20:08.000000000,2020-01-28 22:55:14.000000000,closed,0,Increase timeout; fix bug when a timeout occurs
+1319,2020-01-28 05:20:25.000000000,2020-01-28 05:52:54.000000000,closed,0,wasm-decompile: Fix access of undefined symbols.
+1318,2020-01-28 02:21:31.000000000,2020-01-28 03:05:22.000000000,closed,3,wasm-decompile: use symbols from linking section for names.
+1317,2020-01-24 04:39:26.000000000,2020-01-28 04:35:38.000000000,closed,1,[simd] Update instructions
+1316,2020-01-24 01:36:30.000000000,2020-01-24 06:50:05.000000000,closed,0,Remove build-time dependency on git
+1315,2020-01-23 06:13:45.000000000,1970-01-01 00:00:00.000000001,open,4,wabt fails to build from source because of missing wasm.h
+1314,2020-01-23 06:05:14.000000000,2020-01-24 06:50:05.000000000,closed,0,Please don't require Git to build wabt
+1313,2020-01-23 05:13:17.000000000,2020-01-23 23:57:56.000000000,closed,1,Support reading from stdin in ReadFile
+1312,2020-01-19 00:44:51.000000000,2020-01-21 22:33:36.000000000,closed,0,Omit the DataCount section unless it is required
+1311,2020-01-18 17:12:10.000000000,2020-01-22 00:30:13.000000000,closed,3,WebAssembly.compile(): unexpected section <DataCount>
+1310,2020-01-18 05:29:18.000000000,2020-01-31 23:11:08.000000000,closed,3,Include `CMakeParseArguments`
+1309,2020-01-17 05:50:25.000000000,2020-01-24 04:50:34.000000000,closed,1,wasm-decompile: name data sections with their content
+1308,2020-01-16 05:11:04.000000000,2020-01-16 23:13:52.000000000,closed,0,Update testsuite
+1307,2020-01-15 07:59:49.000000000,2020-01-15 08:13:51.000000000,closed,1,Decompiler doesn't yeild same result
+1306,2020-01-15 03:42:59.000000000,2020-03-11 21:27:12.000000000,closed,0,Move documentation to subdirectory of main branch
+1305,2020-01-15 00:14:05.000000000,2020-01-15 01:52:33.000000000,closed,0,Fix some typos in widening SIMD intrinsics
+1304,2020-01-15 00:05:57.000000000,2020-01-15 00:41:37.000000000,closed,0,Fix a typo of i64x4 -> i64x2
+1303,2020-01-14 12:15:25.000000000,2020-01-14 22:24:54.000000000,closed,0,[simd] Implement new SIMD instructions
+1302,2020-01-14 05:43:25.000000000,2020-01-16 21:40:47.000000000,closed,0,wasm-decompile: absolute accesses refer to data segments
+1301,2020-01-13 23:47:17.000000000,2020-01-14 05:21:53.000000000,closed,0,[simd] Add support for narrow/widen instructions
+1300,2020-01-13 02:06:05.000000000,2020-01-14 22:24:33.000000000,closed,1,wasm-objdump: Missing support for i16x8.widen_low_i8x16_s et al
+1299,2020-01-12 01:44:48.000000000,2020-01-12 03:11:30.000000000,closed,1,Problems with wasm binary created with UnityWebGL
+1298,2020-01-11 04:24:33.000000000,2020-01-13 23:12:36.000000000,closed,0,wasm-decompile: wrap data declarations.
+1297,2020-01-11 03:02:50.000000000,2020-01-11 11:06:14.000000000,closed,0,Error on memory.init|data.drop without DataCount
+1296,2020-01-11 02:39:28.000000000,2020-01-11 03:43:44.000000000,closed,0,wasm-decompile: support for pointers to single types.
+1295,2020-01-10 03:37:53.000000000,2020-01-10 06:45:46.000000000,closed,0,wasm-decompile: documentation.
+1294,2020-01-10 00:47:50.000000000,2020-01-10 06:32:04.000000000,closed,0,Add explicit -o flag to wast2json tests
+1293,2020-01-10 00:22:14.000000000,2020-01-10 03:27:52.000000000,closed,0,Fix parse error with table and elem exprs
+1292,2020-01-09 20:42:07.000000000,2020-01-09 23:11:24.000000000,closed,4,wasm2wat produces 'error: invalid section code: 12'
+1291,2020-01-09 20:13:09.000000000,2020-01-11 00:18:20.000000000,closed,2,wast2json drops module with funcref table
+1290,2020-01-09 09:41:20.000000000,1970-01-01 00:00:00.000000001,open,5,wasm2wat can't read debug names of params / vars
+1289,2020-01-09 06:38:38.000000000,2020-01-10 00:42:50.000000000,closed,0,Apply start function name in wasm2wat
+1288,2020-01-09 06:27:19.000000000,2020-01-09 21:06:35.000000000,closed,0,Report invalid literals when parsing spectest JSON files
+1287,2020-01-09 05:02:11.000000000,2020-01-09 08:15:17.000000000,closed,3,Add default output name for wast2json
+1286,2020-01-09 04:33:24.000000000,2020-01-09 11:10:57.000000000,closed,0,Segment flags should be MVP-compat when possible
+1285,2020-01-08 04:46:40.000000000,2020-01-09 08:33:41.000000000,closed,4,run-tests.py works properly with python3
+1284,2020-01-07 05:22:02.000000000,2020-01-09 22:31:53.000000000,closed,0,wasm-decompile: friendlier general load/store ops.
+1283,2020-01-07 03:40:10.000000000,2020-01-11 00:17:57.000000000,closed,1,"if bulk memory is not enabled, error if an element references a table…"
+1282,2020-01-06 22:08:55.000000000,2020-01-07 05:18:38.000000000,closed,2,wasm-decompile: blocks now represented as labels
+1281,2020-01-04 22:15:51.000000000,2020-01-09 11:10:56.000000000,closed,1,wast2json outputs wasm code using segment flags which are not part of the MVP
+1280,2020-01-03 04:47:34.000000000,2020-01-09 11:10:58.000000000,closed,1,"Dynamic discovery of Wasm functions, params and result."
+1279,2020-01-03 03:54:45.000000000,2020-01-06 22:05:38.000000000,closed,0,wasm-decompile: supporting some more node types specifically.
+1278,2019-12-27 18:15:54.000000000,2020-01-09 04:08:07.000000000,closed,1,Several fixes for reference types
+1277,2019-12-27 00:56:11.000000000,2020-01-03 03:51:24.000000000,closed,0,wasm-decompile: added precedence support.
+1276,2019-12-26 20:48:42.000000000,2020-01-09 04:07:16.000000000,closed,2,Change encoding of Exnref to -0x12
+1275,2019-12-26 14:36:22.000000000,2020-01-10 00:36:22.000000000,closed,3,Update testsuite
+1274,2019-12-21 22:54:09.000000000,2020-01-09 04:53:38.000000000,closed,1,Getting errors on memory.grow and memory.size on https://webassembly.studio/
+1273,2019-12-20 04:19:02.000000000,1970-01-01 00:00:00.000000001,open,5,C++ coding style is not documented
+1272,2019-12-20 03:28:10.000000000,2019-12-23 21:33:08.000000000,closed,0,wasm-decompile: overhauled name filtering.
+1271,2019-12-19 04:59:26.000000000,2019-12-20 03:24:48.000000000,closed,0,wasm-decompile: fixed PreDecl being added to nested blocks.
+1270,2019-12-19 00:44:39.000000000,2020-01-11 00:56:25.000000000,closed,1,Anyref global initializer fails in `wasm2wat`
+1269,2019-12-18 02:58:45.000000000,2020-01-09 11:13:35.000000000,closed,1,Binary encoding for empty funcref segment may use wrong flags?
+1268,2019-12-18 02:55:57.000000000,2020-01-09 11:13:14.000000000,closed,1,Binary encoding of element segment uses non-MVP encoding when it could otherwise do so
+1267,2019-12-15 22:15:23.000000000,1970-01-01 00:00:00.000000001,open,3,More docs for building/using libwabt?
+1266,2019-12-14 04:42:08.000000000,2019-12-14 08:11:14.000000000,closed,0,binary-reader: Continue after unfinished section error if not stop_on…
+1265,2019-12-14 04:18:46.000000000,2019-12-14 06:13:13.000000000,closed,0,wabt-decompile: cleaned up string composition.
+1264,2019-12-13 01:17:48.000000000,2019-12-14 05:21:21.000000000,closed,3,reference-types: add final test: br_table
+1263,2019-12-12 06:04:40.000000000,2019-12-13 01:30:59.000000000,closed,0,Run update-spec-tests.py and add resulting missing tests
+1262,2019-12-12 05:46:51.000000000,2019-12-13 01:30:46.000000000,closed,0,Add one more test from reference-types: unreached-invalid
+1261,2019-12-09 23:58:54.000000000,2019-12-12 04:01:49.000000000,closed,4,Replace newline by a space
+1260,2019-12-09 19:44:32.000000000,2020-01-09 06:08:38.000000000,closed,3,[wat2wasm] directive @inline for preprocessor
+1259,2019-12-09 13:36:08.000000000,2020-01-09 11:13:57.000000000,closed,1,The latest version of wat2wasm generates malformed wasm file for 'elem' statement
+1258,2019-12-06 06:21:11.000000000,2019-12-10 06:03:19.000000000,closed,0,wasm-decompile: Load/Store tracking for struct output.
+1257,2019-11-30 23:09:38.000000000,1970-01-01 00:00:00.000000001,open,2,GC proposal
+1256,2019-11-30 05:02:48.000000000,2020-06-10 23:13:54.000000000,closed,1,Add sanitizers to github actions
+1255,2019-11-30 04:50:37.000000000,2019-12-04 03:48:34.000000000,closed,0,Split run-unittests out as seperate target
+1254,2019-11-26 08:56:01.000000000,2019-11-26 20:46:28.000000000,closed,0,Run github actions on push as well as PR
+1253,2019-11-25 04:45:43.000000000,2019-11-26 20:45:15.000000000,closed,0,reference-types: Add support for typed select
+1252,2019-11-25 04:40:51.000000000,2019-11-26 08:41:14.000000000,closed,0,reference-types: Add table.fill instruction
+1251,2019-11-23 05:47:06.000000000,2019-11-26 04:05:23.000000000,closed,3,Add github actions badge to README.md
+1250,2019-11-22 13:57:36.000000000,2020-01-17 03:53:11.000000000,closed,6,Initial WASM C API implementation.
+1249,2019-11-22 07:31:32.000000000,2020-08-19 04:44:53.000000000,closed,1,Run CI with -Werror (cmake -DWERROR=ON)
+1248,2019-11-22 07:31:06.000000000,2020-01-11 00:19:09.000000000,closed,1,Run CI with python3 (as well as python2 for a while)
+1247,2019-11-22 06:35:37.000000000,2019-11-22 13:21:56.000000000,closed,0,Fix run-tests target on windows
+1246,2019-11-22 03:42:13.000000000,2019-11-22 07:51:53.000000000,closed,0,Avoid os.path.relpath in gen-spec-js.py
+1245,2019-11-22 02:49:26.000000000,2020-02-20 04:52:20.000000000,closed,5,Fix regression in load/store speed in the interpreter
+1244,2019-11-22 01:16:11.000000000,2019-11-22 02:49:10.000000000,closed,0,EXPERIMENT Revert test 
+1243,2019-11-22 01:03:04.000000000,2020-03-11 21:28:26.000000000,closed,1,Crash in test running when a test times out
+1242,2019-11-22 00:35:57.000000000,2019-11-22 01:40:18.000000000,closed,0,Make memory_grow test as slow.
+1241,2019-11-21 23:40:47.000000000,2019-11-22 07:14:51.000000000,closed,1,Add WABT_UNREACHABLE to silence gcc/msvc warnings
+1240,2019-11-21 02:12:06.000000000,2019-11-22 07:15:45.000000000,closed,0,Add i686-clang build config
+1239,2019-11-21 02:11:54.000000000,2019-11-21 06:02:31.000000000,closed,0,Fix i686 string formatting issues from #1236
+1238,2019-11-20 22:53:18.000000000,2019-11-23 04:26:21.000000000,closed,1,Initial support for github actions
+1237,2019-11-20 03:56:54.000000000,2019-11-22 13:23:47.000000000,closed,1,Update spec testsuite
+1236,2019-11-20 01:04:40.000000000,2019-11-20 03:46:03.000000000,closed,0,interpreter: Allow traps to include custom error strings
+1235,2019-11-19 23:25:44.000000000,2019-11-20 00:56:27.000000000,closed,0,spectest-interp: Report when assert_trap passes and include error str…
+1234,2019-11-19 05:31:20.000000000,2019-11-19 23:15:18.000000000,closed,0,Fix for failing `git describe` in CMakeLists.txt
+1233,2019-11-19 04:03:21.000000000,2019-11-26 03:17:21.000000000,closed,0,wasm-decompile: Output of other sections + import/export.
+1232,2019-11-19 00:55:19.000000000,2019-11-19 04:18:51.000000000,closed,0,Switch to treating segment flags as a bitfield. NFC
+1231,2019-11-18 18:46:19.000000000,2020-04-20 23:10:20.000000000,closed,0,Add support for atomic.fence from the threads proposal
+1230,2019-11-18 06:29:31.000000000,2019-11-19 00:42:50.000000000,closed,0,wasm-interp: Correctly report failure of start function
+1229,2019-11-18 03:01:16.000000000,1970-01-01 00:00:00.000000001,open,1,WAT imports cannot be resolved dynamically.
+1228,2019-11-16 04:30:14.000000000,2019-12-12 04:01:49.000000000,closed,0,Formatting of `ref.func` inserts an extra newline by accident
+1227,2019-11-16 04:27:22.000000000,2020-03-24 04:32:55.000000000,closed,2,Formatting of `v8x16.shuffle` has some extraneous whitespace
+1226,2019-11-16 04:22:34.000000000,2020-01-10 00:42:50.000000000,closed,0,`wasm2wat` doesn't give the start function a pretty name
+1225,2019-11-16 00:47:04.000000000,2019-11-26 06:30:36.000000000,closed,1,reference-types: Add reference-types spec tests
+1224,2019-11-15 22:30:43.000000000,2019-11-16 00:46:14.000000000,closed,0,wast2json: add new `assert_return_func` assertion type
+1223,2019-11-15 21:53:53.000000000,2019-11-22 13:23:47.000000000,closed,1,Finish implementing reference-types and integrate all spec tests
+1222,2019-11-15 09:51:33.000000000,2019-11-15 23:11:51.000000000,closed,0,Fix expected stack layout when typechecking select instruction
+1221,2019-11-15 07:28:38.000000000,2019-11-15 23:12:24.000000000,closed,0,reference-types: implement type checking for table.get/table.set
+1220,2019-11-15 01:53:51.000000000,2019-11-15 05:56:11.000000000,closed,0,reference-types: Improve reftype support
+1219,2019-11-14 23:17:53.000000000,2019-11-15 00:50:07.000000000,closed,0,reference-types: Table immediate of call_indirect comes first in the …
+1218,2019-11-14 00:12:41.000000000,2019-11-15 07:26:50.000000000,closed,0,reference-types: Add multi-table support to the interpreter
+1217,2019-11-10 05:35:11.000000000,1970-01-01 00:00:00.000000001,open,3,[wasm-validate] Wrong binary location reported in error message
+1216,2019-11-09 06:38:50.000000000,2019-11-22 13:57:14.000000000,closed,0,[WIP] Initial WASM C API implementation.
+1215,2019-11-08 09:40:07.000000000,2019-11-09 05:07:35.000000000,closed,1,interpreter: Move `env` member up to Module base class.
+1214,2019-11-08 09:00:15.000000000,2019-11-09 06:37:23.000000000,closed,2,Allow anyref globals to store ref subtypes
+1213,2019-11-08 06:28:47.000000000,2019-11-11 21:39:18.000000000,closed,0,wasm-decompile: Fixed arbitrary characters appearing in function names.
+1212,2019-11-08 00:47:31.000000000,2019-11-15 01:54:23.000000000,closed,26,Integrating with OSS-Fuzz
+1211,2019-11-08 00:21:31.000000000,2019-11-08 02:49:15.000000000,closed,0,wasm-objdump: Fix output for passive data elem segments
+1210,2019-11-07 19:17:01.000000000,1970-01-01 00:00:00.000000001,open,6,Sourcemap support for wat2wasm?
+1209,2019-11-07 02:36:13.000000000,2019-11-07 05:08:28.000000000,closed,2,Check for MSVC first in list of compiler tests
+1208,2019-11-07 01:06:50.000000000,2020-01-16 03:35:32.000000000,closed,1,Add CMAKE_EXPORT_COMPILE_COMMANDS to CMakeLists.txt
+1207,2019-11-06 23:49:03.000000000,2019-11-12 06:28:30.000000000,closed,1,Rename v128_bits to simply vec128 since this is stored natively
+1206,2019-11-05 10:39:33.000000000,2019-11-08 07:42:51.000000000,closed,2,Implement initial reftype support in interpreter.
+1205,2019-11-05 06:10:32.000000000,2019-11-08 05:26:59.000000000,closed,1,"wasm-decompile: reworked how ""stacky"" code gets decompiled."
+1204,2019-11-05 06:01:07.000000000,2019-11-07 23:36:23.000000000,closed,1,Remove some used classes/members from the interpreter
+1203,2019-10-26 05:32:27.000000000,2020-01-09 05:04:56.000000000,closed,0,[wat2wasm] Passive segments require bulk memory
+1202,2019-10-26 05:23:22.000000000,2020-01-09 00:51:52.000000000,closed,0,[wat2wasm] Don't crash on unsupported reloc type
+1201,2019-10-26 05:05:08.000000000,2020-01-09 00:46:47.000000000,closed,2,Fix warning in test-hexfloat.cc
+1200,2019-10-25 04:10:48.000000000,2020-01-09 00:46:47.000000000,closed,0,implicit-int-float-conversion warnings in test-hexfloat.cc
+1199,2019-10-24 19:42:30.000000000,1970-01-01 00:00:00.000000001,open,28,wat2wasm fails with call_indirect and relocation
+1198,2019-10-24 15:01:03.000000000,2019-10-28 23:32:37.000000000,closed,0,wasm-objdump: Consistent output of table types
+1197,2019-10-24 04:46:23.000000000,1970-01-01 00:00:00.000000001,open,2,[wasm2wat] Nicer error for known but disabled feature
+1196,2019-10-23 01:30:12.000000000,2020-01-28 13:24:04.000000000,closed,6,Add option to wasm2wat for using names from custom linking section
+1195,2019-10-22 02:29:59.000000000,2019-10-24 19:08:26.000000000,closed,0,wasm-decompile: Added initial tests.
+1194,2019-10-21 01:17:32.000000000,2020-03-11 21:31:39.000000000,closed,1,Clarification of data segment compilation in wat2wasm
+1193,2019-10-19 03:26:11.000000000,2019-10-21 20:20:12.000000000,closed,3,Check for redefinitions of elem segments
+1192,2019-10-19 02:21:11.000000000,2019-10-19 02:53:37.000000000,closed,1,wasm-decompile: improved Return & Drop.
+1191,2019-10-19 00:47:43.000000000,2019-10-19 01:54:38.000000000,closed,0,wasm-decompile: Refactored code to first build an AST.
+1190,2019-10-17 09:50:27.000000000,2019-10-17 18:21:16.000000000,closed,0,Add initial support for multi-table to wat2wasm and wasm-objdump
+1189,2019-10-16 02:34:41.000000000,2020-01-22 00:30:49.000000000,closed,10,Omitting the data count section to remain MVP-compatible?
+1188,2019-10-16 02:26:56.000000000,2019-10-17 18:21:16.000000000,closed,2,Expansion of inline elements is incorrect with multi-table
+1187,2019-10-16 01:29:02.000000000,2019-10-21 20:20:12.000000000,closed,3,Shadowing elem segment names encodes incorrectly on macOS
+1186,2019-10-13 02:46:19.000000000,2019-10-14 22:56:11.000000000,closed,0,wasm-objdump: Print `br_table` immediates
+1185,2019-10-12 20:15:28.000000000,1970-01-01 00:00:00.000000001,open,0,Enable -Werror for sanitizer builds
+1184,2019-10-12 20:05:46.000000000,2019-10-17 09:26:27.000000000,closed,1,Fix unused lambda capture warning
+1183,2019-10-09 15:23:53.000000000,1970-01-01 00:00:00.000000001,open,0,tests time out on ARMv7 (32bit)
+1182,2019-10-07 15:22:43.000000000,2019-10-10 21:28:29.000000000,closed,0,Add ExternalKind to OnImport callback
+1181,2019-10-04 16:01:41.000000000,2020-01-11 00:39:00.000000000,closed,4,73 tests fail with TypeError in test/run-spec-wasm2c.py:101
+1180,2019-10-04 15:55:16.000000000,2020-01-09 08:33:41.000000000,closed,2,UnicodeDecodeError when parsing test/regress/regress-30.txt
+1179,2019-10-04 02:19:27.000000000,2019-10-07 22:29:53.000000000,closed,1,wasm-objdump: Fix type signature for multi-value result types
+1178,2019-09-30 22:07:51.000000000,1970-01-01 00:00:00.000000001,open,2,Add a testcase reduction tool.
+1177,2019-09-27 20:55:23.000000000,2019-09-30 21:13:52.000000000,closed,0,wasm-objdump: Include more information about memory segments.
+1176,2019-09-27 20:52:39.000000000,2020-03-11 21:32:48.000000000,closed,6,spec-interp validation differs from wasm-validate
+1175,2019-09-27 01:40:21.000000000,2019-10-10 07:12:29.000000000,closed,0,Add `--version` to wabt tools
+1174,2019-09-26 19:38:47.000000000,2020-01-15 01:04:03.000000000,closed,3,wasm-decompile
+1173,2019-09-26 03:23:39.000000000,2019-09-26 04:26:23.000000000,closed,0,wasm-decompile: Declaring local and global vars.
+1172,2019-09-26 01:48:13.000000000,2019-09-26 03:22:16.000000000,closed,0,wasm-decompile: Implement br/br_if
+1171,2019-09-26 01:04:07.000000000,2019-09-26 01:04:15.000000000,closed,0,[wasm2c] Fix realloc check in wasm_rt_grow_memory
+1170,2019-09-25 22:42:55.000000000,2019-09-26 01:41:17.000000000,closed,0,wasm-decompile: added explicit return statements and types.
+1169,2019-09-25 22:17:20.000000000,2019-09-25 22:23:34.000000000,closed,0,[WIP] Convert to CircleCI
+1168,2019-09-25 20:34:22.000000000,2020-05-25 09:15:07.000000000,closed,7,Should we switch from travis + appveyor to circleci
+1167,2019-09-25 05:06:33.000000000,1970-01-01 00:00:00.000000001,open,1,Run wasm-interp on specific (exported) functions
+1166,2019-09-25 02:37:37.000000000,1970-01-01 00:00:00.000000001,open,3,Adding some validation of custom sections (e.g. linking section)
+1165,2019-09-24 03:54:08.000000000,2019-09-25 20:30:49.000000000,closed,0,wasm-decompile: Output Tee as Set+Get instead if possible.
+1164,2019-09-22 10:16:15.000000000,2019-09-26 00:36:33.000000000,closed,0,Update supported features table
+1163,2019-09-20 02:55:03.000000000,2019-09-24 00:06:00.000000000,closed,2,Improved naming.
+1162,2019-09-18 23:03:34.000000000,2019-09-19 23:30:47.000000000,closed,0,wasm-objdump: Add more symbol flags
+1161,2019-09-17 01:02:49.000000000,2019-09-17 02:03:38.000000000,closed,0,Decompiler: Recurse into block exprs
+1160,2019-09-15 12:11:33.000000000,2019-09-26 01:08:58.000000000,closed,5,New Release
+1159,2019-09-13 01:20:03.000000000,2019-09-26 01:04:23.000000000,closed,0,Incorrect test in commit
+1158,2019-09-12 20:47:27.000000000,1970-01-01 00:00:00.000000001,open,3,Implement the standard wasm C++ API in wabt interpreter
+1157,2019-09-12 10:03:58.000000000,2019-09-26 00:23:52.000000000,closed,0,Add wabt-unittests as dependency of run-tests
+1156,2019-09-12 01:14:12.000000000,2019-09-12 16:35:33.000000000,closed,0,[wast] Add ref.* to the invoke command
+1155,2019-09-10 20:40:20.000000000,2019-09-13 04:13:17.000000000,closed,2,[WIP] Added initial skeleton code for wasm-decompile.
+1154,2019-09-08 22:55:14.000000000,2019-09-26 00:36:33.000000000,closed,3,wasm-interp supported features list
+1153,2019-09-07 02:28:53.000000000,2019-09-26 00:22:49.000000000,closed,0,Attempt to locate Emscripten if EMSCRIPTEN_DIR is not set
+1152,2019-09-05 01:53:40.000000000,2019-09-12 19:03:52.000000000,closed,3,"wat2wasm: ""error: unexpected token passive"" even with --enable-bulk-memory"
+1151,2019-09-05 01:24:11.000000000,2020-02-22 01:50:54.000000000,closed,10,WIP: Improve support for reference-types proposal
+1150,2019-09-03 18:14:33.000000000,1970-01-01 00:00:00.000000001,open,5,Function signatures in call_indirect
+1149,2019-08-29 14:08:10.000000000,2019-09-26 00:25:32.000000000,closed,5,Build fails on FreeBSD
+1148,2019-08-28 07:52:29.000000000,2019-08-30 01:52:04.000000000,closed,0,[wasm2c] Return -1 if wasm_rt_grow_memory fails
+1147,2019-08-27 10:52:42.000000000,1970-01-01 00:00:00.000000001,open,2,Realloc is unsuccessful and will cause a crash
+1146,2019-08-16 00:50:42.000000000,1970-01-01 00:00:00.000000001,open,0,Use ninja cmake generator by default
+1145,2019-08-15 23:12:53.000000000,2019-08-16 00:44:30.000000000,closed,6,Switch python indentation from 2-space to 4-space
+1144,2019-08-15 02:54:30.000000000,2019-08-15 21:38:10.000000000,closed,0,Run flake8 on the whole repository
+1143,2019-08-14 13:43:55.000000000,2019-08-28 07:17:24.000000000,closed,5,"use map and function pointer replace ""case"""
+1142,2019-08-12 21:07:36.000000000,2019-08-12 21:54:35.000000000,closed,0,Rename except_ref type to exnref
+1141,2019-08-12 20:49:05.000000000,2019-08-13 20:35:59.000000000,closed,0,Visit catch even when its body is empty
+1140,2019-08-11 07:51:49.000000000,2019-08-11 09:59:47.000000000,closed,0,Fix some bugs w/ wast2json and SIMD
+1139,2019-08-08 20:34:31.000000000,2019-08-12 23:35:01.000000000,closed,2,wast2json fails on float literals
+1138,2019-08-07 00:08:46.000000000,2019-08-11 07:53:49.000000000,closed,0,Add support for Features to wasm-opcodecnt and emit total instruction count.
+1137,2019-08-06 04:30:45.000000000,1970-01-01 00:00:00.000000001,open,1,Improve `wat2wasm --relocatable` support (or remove it completely).
+1136,2019-08-05 16:34:38.000000000,2020-06-10 23:16:11.000000000,closed,2,wasm2c: wasm_rt_grow_memory should return -1 when OOM
+1135,2019-08-04 17:06:45.000000000,2019-08-05 12:19:30.000000000,closed,1,spurious type in wat2wasm then wasm2wat and loosing `$start`
+1134,2019-08-02 13:30:59.000000000,1970-01-01 00:00:00.000000001,open,5,wasm2c --enable-multi-value
+1133,2019-07-30 22:20:33.000000000,1970-01-01 00:00:00.000000001,open,6,Wat  to Asm linker ?
+1132,2019-07-26 08:52:48.000000000,2019-07-29 22:20:22.000000000,closed,1,Add --enable-all option
+1131,2019-07-25 17:16:17.000000000,2019-07-26 01:03:41.000000000,closed,1,Add support for ref.null in global initializers
+1130,2019-07-25 13:39:21.000000000,2019-09-26 00:23:41.000000000,closed,5,How to call a native webassembly file in c/c++ source code?
+1129,2019-07-25 04:42:44.000000000,2019-07-25 05:19:10.000000000,closed,0,Fix fuzzing bugs in wat2wasm
+1128,2019-07-23 23:45:30.000000000,2019-07-24 01:59:05.000000000,closed,0,Fix some fuzz bugs in wasm2wat
+1127,2019-07-23 22:58:33.000000000,1970-01-01 00:00:00.000000001,open,1,Source names in wasm-interp --trace
+1126,2019-07-22 22:59:48.000000000,2019-07-22 23:25:08.000000000,closed,1,Change WABT_UNREACHABLE to call abort()
+1125,2019-07-22 18:14:04.000000000,2019-07-22 21:02:25.000000000,closed,1,"Fix parsing of anyref-valued ""if"" expressions"
+1124,2019-07-22 17:30:39.000000000,2019-07-22 21:02:25.000000000,closed,3,Crash disassembling file built with reference types
+1123,2019-07-20 01:14:20.000000000,2019-07-20 02:31:10.000000000,closed,0,Fix gcc and clang warnings
+1122,2019-07-19 22:36:23.000000000,2019-07-20 00:53:09.000000000,closed,0,"Fix typo, ""UNT8_C"" is not defined in stdint.h."
+1121,2019-07-19 20:31:28.000000000,2019-07-19 22:21:30.000000000,closed,0,Fix crash when newlines are in string tokens
+1120,2019-07-19 08:38:05.000000000,2019-07-19 22:21:48.000000000,closed,0,Exception handling issue in error-formatter.cc
+1119,2019-07-19 05:05:33.000000000,2019-07-19 07:16:13.000000000,closed,0,Fix assertion in WastLexer::IsCharClass()
+1118,2019-07-19 04:11:33.000000000,2019-07-19 05:08:30.000000000,closed,0,Fix floating point conversions on MSVC 32-bit
+1117,2019-07-19 03:36:03.000000000,2019-07-19 07:16:21.000000000,closed,1,Assertion failed in wabt::WastLexer::IsCharClass() in wast-lexer.cc
+1116,2019-07-18 08:06:57.000000000,2019-07-20 02:32:55.000000000,closed,4,Add support for v8x16.swizzle and the load_splats.
+1115,2019-07-18 06:45:54.000000000,2019-07-18 20:27:36.000000000,closed,0,"Fix use of non-portable format string, and removes clang build warning."
+1114,2019-07-17 03:54:30.000000000,2019-07-17 06:06:56.000000000,closed,0,wasm-objdump: Improve display of comdat data
+1113,2019-07-17 02:01:15.000000000,2019-07-19 05:08:40.000000000,closed,1,f32.convert_i64_u on MSVC 32-bit
+1112,2019-07-16 02:27:32.000000000,2019-07-16 03:26:18.000000000,closed,0,Fix value dropping bug in return_call
+1111,2019-07-13 21:27:16.000000000,2019-07-17 03:46:42.000000000,closed,2,Update spec testsuite
+1110,2019-07-12 23:02:04.000000000,2019-07-18 02:51:34.000000000,closed,3,Add spec test support for V128.
+1109,2019-07-11 22:01:03.000000000,2019-07-16 04:59:07.000000000,closed,0,"Add USE_SYSTEM_GTEST option, to use system copy of GTest"
+1108,2019-07-11 12:54:38.000000000,2019-07-16 03:26:36.000000000,closed,1,[wasm-interp] Assertion failed in wabt::interp::Executor::CopyResults() in interp.cc
+1107,2019-07-10 18:08:23.000000000,2019-07-10 18:23:28.000000000,closed,2,data segment byte coding not following spec ?
+1106,2019-07-09 02:47:37.000000000,2019-10-10 07:12:29.000000000,closed,2,bin/wasm2c --version # how to ?
+1105,2019-07-04 04:08:37.000000000,2019-07-11 21:58:12.000000000,closed,3,Build against system gtest
+1104,2019-07-03 19:03:11.000000000,2019-07-30 01:53:11.000000000,closed,2,wat2wasm: float nan hex literals with underscores are reported as invalid
+1103,2019-07-02 07:42:01.000000000,2019-07-16 04:59:07.000000000,closed,2,Allow building with system gtest and ply
+1102,2019-06-29 23:16:13.000000000,2019-07-03 03:00:51.000000000,closed,2,No CMAKE_CXX_COMPILER could be found
+1101,2019-06-29 02:05:49.000000000,2019-06-29 02:44:57.000000000,closed,1,[interp] Add flag to provide dummy import funcs
+1100,2019-06-28 22:28:12.000000000,2019-06-29 00:54:35.000000000,closed,0,Write assert_exhaustion text to JSON file
+1099,2019-06-28 14:31:06.000000000,2019-06-29 00:22:49.000000000,closed,1,Write text on assert_exhaustion
+1098,2019-06-27 14:41:58.000000000,2019-07-30 01:55:39.000000000,closed,9,"table.grow [i32, anyref] instead of [anyref, i32]"
+1097,2019-06-26 03:25:38.000000000,2019-06-27 20:57:22.000000000,closed,0,Match custom section names in wasm-objdump
+1096,2019-06-25 02:28:20.000000000,2019-06-25 06:00:06.000000000,closed,0,Add tests for option-parser
+1095,2019-06-24 02:31:30.000000000,2019-06-27 21:18:05.000000000,closed,4,Add filtering by custom section name to wasm-objdump
+1094,2019-06-21 03:20:42.000000000,2019-06-29 02:45:50.000000000,closed,2,wasm-interp: support running wasm binaries created by `wasm-opt -ttf`?
+1093,2019-06-18 04:53:42.000000000,2019-06-20 01:41:11.000000000,closed,4,Test suite supporting 3rd party interpreters?
+1092,2019-06-07 23:20:08.000000000,2019-06-08 02:34:33.000000000,closed,0,Fix wasm-interp assertions
+1091,2019-06-07 00:03:45.000000000,2019-06-08 02:34:54.000000000,closed,0,[wasm-interp] Assertion failed in wabt::BinaryReaderInterp::EndElemSegmentInitExpr() in binary-reader-interp.cc
+1090,2019-06-07 00:01:43.000000000,2019-06-08 02:35:00.000000000,closed,0,[wasm-interp] Assertion failed in wabt::BinaryReaderInterp::OnDataSegmentData() in binary-reader-interp.cc
+1089,2019-06-06 23:59:16.000000000,2019-06-08 02:34:33.000000000,closed,0,[wasm-interp] Assertion failed in wabt::TypeChecker::GetLabel() in type-checker.cc
+1088,2019-06-06 01:43:11.000000000,2019-06-07 20:53:42.000000000,closed,0,Rely on UTF-8 encoding in JSON strings
+1087,2019-06-04 05:17:01.000000000,2019-06-04 20:48:33.000000000,closed,0,Add support for comdat groups in the linking section
+1086,2019-05-29 02:55:40.000000000,2019-06-07 20:53:50.000000000,closed,2,wast2json double-encodes UTF-8 symbols
+1085,2019-05-21 06:15:44.000000000,1970-01-01 00:00:00.000000001,open,1,Can't compile for Windows
+1084,2019-05-18 02:19:43.000000000,2019-05-18 03:50:05.000000000,closed,0,[wasm-objdump] Fix crash on invalid reloc sections
+1083,2019-05-17 23:11:13.000000000,2019-05-17 23:11:21.000000000,closed,0,"Add ""supported proposals"" section to README.md"
+1082,2019-05-17 00:36:14.000000000,2019-05-17 07:07:40.000000000,closed,1,Fix INSTALL_PREFIX in README
+1081,2019-05-17 00:09:06.000000000,2019-05-17 07:04:51.000000000,closed,1,Fix up CMake warning
+1080,2019-05-15 19:44:10.000000000,1970-01-01 00:00:00.000000001,open,0,Better error on literal overflow
+1079,2019-05-13 20:24:34.000000000,2019-05-13 21:43:21.000000000,closed,0,Update typechecking for `table.grow`
+1078,2019-05-11 09:39:23.000000000,2019-05-12 09:44:18.000000000,closed,4,[Help] How to literal a very large number?
+1077,2019-05-08 19:30:52.000000000,2019-05-09 04:59:09.000000000,closed,2,"malformed binary WASM file crashes ""wasm-interp"""
+1076,2019-05-08 04:38:25.000000000,2019-05-08 09:30:08.000000000,closed,0,Initial custom annotation support
+1075,2019-05-06 03:05:09.000000000,2019-05-16 04:17:24.000000000,closed,4,wat2wasm - type mismatch in implicit return
+1074,2019-05-01 04:03:58.000000000,2019-05-08 06:03:03.000000000,closed,0,Implement bulk memory in the interpreter
+1073,2019-05-01 03:25:35.000000000,2019-07-25 05:19:57.000000000,closed,3,"Fixing ""fac"" factorial function"
+1072,2019-04-27 12:50:06.000000000,2019-04-29 05:01:57.000000000,closed,1,Factorial Example doesn't work
+1071,2019-04-25 00:54:11.000000000,2019-04-25 03:28:04.000000000,closed,0,Update testsuite
+1070,2019-04-24 05:06:32.000000000,2019-04-24 11:24:40.000000000,closed,1,New -Wswitch warnings 
+1069,2019-04-24 04:59:59.000000000,2019-04-24 18:45:24.000000000,closed,2,wasm-objdump: Add function offset when disassembling
+1068,2019-04-23 21:28:43.000000000,1970-01-01 00:00:00.000000001,open,18,WASI Integration
+1067,2019-04-20 14:04:27.000000000,2019-04-20 17:45:42.000000000,closed,4,[Bugs Report] failed to compile
+1066,2019-04-19 03:04:16.000000000,2019-04-19 03:37:59.000000000,closed,0,Proper encoding of passive element segments
+1065,2019-04-18 05:12:37.000000000,2019-04-18 08:46:52.000000000,closed,0,Print function names on code details too
+1064,2019-04-15 22:58:52.000000000,1970-01-01 00:00:00.000000001,open,0,[wasm-objdump] File offset for relocation of custom sections is wrong
+1063,2019-04-15 18:12:19.000000000,1970-01-01 00:00:00.000000001,open,5,247 test failures on big-endian arches (ppc64 and s390x)
+1062,2019-04-11 10:08:52.000000000,2019-04-12 11:05:08.000000000,closed,2,cmake error no wat2wasm binary found
+1061,2019-04-11 02:34:39.000000000,2019-04-11 03:21:05.000000000,closed,0,Fix infinite loop in lexer w/ bad character
+1060,2019-04-06 01:49:23.000000000,2019-04-06 02:00:09.000000000,closed,1,Made common string lookups more robust.
+1059,2019-04-04 10:43:48.000000000,2019-04-04 21:46:34.000000000,closed,0,Use string_view instead of string in token
+1058,2019-04-04 05:39:37.000000000,2019-04-04 10:20:50.000000000,closed,0,"Rewrite the lexer manually, instead of re2c"
+1057,2019-04-04 03:59:57.000000000,2019-04-04 05:39:20.000000000,closed,0,Add names to locally declared globals.
+1056,2019-04-03 05:23:19.000000000,2019-04-03 23:29:29.000000000,closed,0,Add new relocation types for position independent code.
+1055,2019-04-02 09:03:20.000000000,2019-04-03 22:36:15.000000000,closed,0,Update testsuite; fix linking spec test
+1054,2019-04-01 23:13:00.000000000,2019-04-01 23:52:48.000000000,closed,0,Remove LexerSourceFile
+1053,2019-03-29 12:56:50.000000000,2019-07-24 04:34:07.000000000,closed,3,Rename v8x16.shuffle to v8x16.shuffle2_imm
+1052,2019-03-28 23:54:04.000000000,2019-03-29 03:42:19.000000000,closed,1,"Add ParseInt{8,16} functions, for use with SIMD"
+1051,2019-03-27 03:47:21.000000000,2019-03-27 06:06:14.000000000,closed,0,wasm-objdump: Print names of globals used in init expression.
+1050,2019-03-25 21:13:32.000000000,2019-03-26 02:36:53.000000000,closed,0,Provide better error when `file` fails
+1049,2019-03-21 06:59:05.000000000,2019-03-21 23:14:54.000000000,closed,0,wasm-objdump: Include import module as part displayed name
+1048,2019-03-20 16:45:02.000000000,2019-03-22 16:32:29.000000000,closed,4,The result of wasm2wat is not real s-expression
+1047,2019-03-19 02:31:42.000000000,2019-03-26 02:37:13.000000000,closed,0,Update testsuite
+1046,2019-03-18 23:24:53.000000000,2019-03-19 02:05:27.000000000,closed,1,Canonicalize NaNs in the interpreter
+1045,2019-03-15 23:13:40.000000000,1970-01-01 00:00:00.000000001,open,5,test failures on POWER8 (ppc64le)
+1044,2019-03-15 19:38:56.000000000,1970-01-01 00:00:00.000000001,open,12,6 test failures on x86 32bit (i686)
+1043,2019-03-15 17:25:04.000000000,2019-04-15 22:01:09.000000000,closed,3,test/interp/simd-unary.txt fails on ARM and POWER8
+1042,2019-03-15 14:52:42.000000000,2019-03-18 23:36:22.000000000,closed,2,"Unknown CMake command ""cmake_parse_arguments"" with cmake 2.8"
+1041,2019-03-15 03:05:52.000000000,2019-03-15 04:15:29.000000000,closed,1,Fix bugs in integer parsing
+1040,2019-03-10 01:41:50.000000000,2019-03-18 11:07:36.000000000,closed,2,how to run wabt VM in intel SGX
+1039,2019-03-09 04:31:39.000000000,2019-03-09 06:02:30.000000000,closed,1,Allow a local type count of 0
+1038,2019-03-09 01:38:15.000000000,2019-03-18 23:36:39.000000000,closed,1,Binary reader errors on local count > 0
+1037,2019-03-07 18:27:23.000000000,2019-03-28 23:12:57.000000000,closed,5,Make v128.const i32x4 op conform to the SIMD draft
+1036,2019-03-07 01:08:11.000000000,2019-03-07 03:07:25.000000000,closed,0,Update demo to include feature flags
+1035,2019-03-06 16:27:10.000000000,2019-03-07 14:05:18.000000000,closed,3,wat2wasm with reference types
+1034,2019-03-06 15:03:53.000000000,2019-03-07 15:47:05.000000000,closed,5,Update textual encoding of SIMD vector shuffle to conform to the latest SIMD draft
+1033,2019-03-06 00:49:55.000000000,2019-03-07 18:23:25.000000000,closed,0,Make v128.const i32x4 op conform to the SIMD draft
+1032,2019-03-05 21:25:58.000000000,2019-03-06 15:05:09.000000000,closed,9,Update binary encoding of SIMD vector shuffle to conform to the latest draft
+1031,2019-03-04 20:25:55.000000000,2019-03-06 01:01:52.000000000,closed,2,Make SIMD lane-wise relational operator implementations conform to the spec
+1030,2019-03-04 11:34:45.000000000,2019-03-04 12:57:35.000000000,closed,0,Refactor objdump name handling a little
+1029,2019-03-04 05:16:49.000000000,2019-03-04 08:25:11.000000000,closed,1,wasm-objdump: fix f64 init expressions
+1028,2019-03-04 01:44:50.000000000,2019-03-04 11:16:51.000000000,closed,0,[wasm-objdump] Show data segment names
+1027,2019-02-26 04:54:28.000000000,2019-02-26 06:59:19.000000000,closed,2,[wabt-objdump] Refactored some functions to use string_view
+1026,2019-02-25 05:40:19.000000000,2019-02-25 13:12:20.000000000,closed,2,Rename anyfunc -> funcref; parse reference types
+1025,2019-02-22 03:03:11.000000000,2019-02-25 05:42:30.000000000,closed,1,Improve support for event symbols and except_ref types
+1024,2019-02-22 00:09:44.000000000,2019-02-22 00:23:28.000000000,closed,1,libwabt.js on gh-pages branch needs updating
+1023,2019-02-20 07:33:08.000000000,2019-02-21 02:51:31.000000000,closed,0,Add wasm-objdump fuzzing script; fix fuzz bugs
+1022,2019-02-20 05:35:46.000000000,2019-02-20 06:46:04.000000000,closed,1,[wasm-objdump] Implemented R_WASM_EVENT_INDEX_LEB reloc type.
+1021,2019-02-20 03:48:33.000000000,2019-02-20 05:07:44.000000000,closed,1,Remove use of Pointer_stringify; update demo
+1020,2019-02-20 03:28:23.000000000,2019-02-20 05:40:51.000000000,closed,1,Deprecated function Pointer_stringify used
+1019,2019-02-19 13:20:20.000000000,2019-02-19 16:41:04.000000000,closed,1,Correct `last_section_payload_offset_` calculation.
+1018,2019-02-19 12:43:18.000000000,2019-02-19 16:41:16.000000000,closed,2,Relocations seem to be off by 2
+1017,2019-02-16 05:53:52.000000000,2019-02-17 02:51:09.000000000,closed,0,Typo fix
+1016,2019-02-14 02:05:28.000000000,2019-02-14 05:27:25.000000000,closed,8, Add br_on_exn instruction
+1015,2019-02-12 23:51:25.000000000,1970-01-01 00:00:00.000000001,open,1,Create `wasm-objcopy` tool for manipulating wasm binary files
+1014,2019-02-12 13:24:19.000000000,2019-02-13 03:41:35.000000000,closed,6,Parse updated event text and binary format
+1013,2019-02-12 09:15:25.000000000,2019-02-12 10:48:54.000000000,closed,0,Rename exception -> event
+1012,2019-02-12 07:16:16.000000000,2019-02-12 08:45:07.000000000,closed,0,Add `Event` known section; remove `exception`
+1011,2019-02-11 23:26:05.000000000,1970-01-01 00:00:00.000000001,open,1,Order of dylink section?
+1010,2019-02-11 08:16:42.000000000,2019-02-11 11:18:58.000000000,closed,0,Add missing string.h include to wasm-rt-impl.c
+1009,2019-02-09 05:44:10.000000000,2019-02-11 11:17:16.000000000,closed,0,Remove the `if_except` instruction
+1008,2019-02-09 01:05:51.000000000,2019-02-09 02:44:59.000000000,closed,2,`wasm-opt -O <file>` should throw an error
+1007,2019-02-08 11:36:31.000000000,2019-02-09 00:18:28.000000000,closed,0,avoid Mac OS X ranlib error
+1006,2019-02-07 03:56:56.000000000,2019-03-09 06:05:19.000000000,closed,2,wabt does not support the new binary format for exceptions
+1005,2019-02-07 01:39:22.000000000,2019-02-07 03:04:59.000000000,closed,0,Rename relocation types
+1004,2019-02-06 01:59:09.000000000,2019-02-06 03:03:04.000000000,closed,0,wasm-objdump: Always show function numbers along with names
+1003,2019-02-02 04:24:39.000000000,2019-02-02 05:49:18.000000000,closed,0,Return failed tests count from spectest-interp
+1002,2019-02-02 02:48:14.000000000,2019-02-02 23:12:10.000000000,closed,3,Exit code of spectest-interp
+1001,2019-02-01 01:30:57.000000000,2019-02-01 01:41:46.000000000,closed,0,updated 404 links
+1000,2019-01-30 01:58:23.000000000,2019-01-30 22:23:04.000000000,closed,2,"Rename {memory,table}.drop to {data,elem}.drop"
+999,2019-01-30 00:24:38.000000000,2019-01-30 01:09:51.000000000,closed,0,Update bulk memory instruction binary encodings
+998,2019-01-23 02:44:17.000000000,2019-01-24 04:12:43.000000000,closed,0,Implement parsing and writing of DataCount section
+997,2019-01-21 15:54:42.000000000,2019-01-21 15:56:16.000000000,closed,0,Clarify build instructions in README.md
+996,2019-01-17 03:19:42.000000000,2019-01-18 00:02:51.000000000,closed,0,Update linking metadata version
+995,2019-01-16 12:38:14.000000000,2019-01-16 21:27:25.000000000,closed,2,sha256 files for Windows releases?
+994,2019-01-11 19:32:28.000000000,2019-01-16 10:56:16.000000000,closed,0,ke ..
+993,2019-01-08 21:46:08.000000000,2019-01-10 12:58:09.000000000,closed,0,Only look for python when building tests
+992,2018-12-31 17:13:25.000000000,1970-01-01 00:00:00.000000001,open,3,Build broken on Mac OS X
+991,2018-12-21 03:51:16.000000000,2019-01-08 04:40:28.000000000,closed,0,Fix segfault when passing wasm-objdump a directory
+990,2018-12-21 03:01:59.000000000,2018-12-21 04:55:00.000000000,closed,0,Fix segfault when running `wat2wasm -d`
+989,2018-12-20 18:45:03.000000000,2018-12-25 23:37:36.000000000,closed,2,wat2wasm segfaults with -d
+988,2018-12-20 07:20:50.000000000,1970-01-01 00:00:00.000000001,open,1,failed to compile
+987,2018-12-20 07:20:11.000000000,1970-01-01 00:00:00.000000001,open,3,the output.c via `wasm2c` fails to compile
+986,2018-12-20 02:01:21.000000000,2018-12-21 03:29:28.000000000,closed,0,"Remove the {assert,stdlib}.h includes in wasm2c"
+985,2018-12-19 06:09:43.000000000,2018-12-20 01:36:52.000000000,closed,5, The great renaming
+984,2018-12-18 12:57:30.000000000,2018-12-18 22:27:19.000000000,closed,1,Fold multi-value results properly
+983,2018-12-18 00:31:58.000000000,2018-12-18 00:32:06.000000000,closed,0,Add link to generated man pages in README.md
+982,2018-12-17 23:41:19.000000000,2018-12-18 00:33:07.000000000,closed,2,Add WERROR option to CMake build
+981,2018-12-17 15:39:03.000000000,1970-01-01 00:00:00.000000001,open,1,Test that we can use some libc hidden names without conflict.
+980,2018-12-17 13:31:29.000000000,2019-01-16 10:57:49.000000000,closed,2,"noexcept warning, treated as error on MSVC in Appveyor"
+979,2018-12-16 22:10:28.000000000,2018-12-18 00:12:22.000000000,closed,1,"Add missing manpages, fix markup for references, links and examples"
+978,2018-12-16 15:17:04.000000000,2019-03-18 23:37:40.000000000,closed,2,How to pass --enable-reference-types to libwabt.js?
+977,2018-12-15 05:10:48.000000000,2018-12-18 22:27:40.000000000,closed,4,wasm2wat --fold-expr confused by multi-return
+976,2018-12-14 18:48:50.000000000,2018-12-14 21:14:07.000000000,closed,0,error handling: corrected error with directory
+975,2018-12-13 03:47:27.000000000,2018-12-13 06:03:24.000000000,closed,1,Pass function body size in BinaryReader callback
+974,2018-12-13 03:18:55.000000000,2018-12-13 04:48:36.000000000,closed,0,Add needed_dynlibs to dylink section
+973,2018-12-12 16:28:25.000000000,2018-12-13 00:43:23.000000000,closed,1,Fix SYNOPSIS in manpages
+972,2018-12-09 13:28:39.000000000,2018-12-10 23:13:28.000000000,closed,3,Cannot build project with wabt on windows
+971,2018-12-05 10:59:29.000000000,2018-12-11 03:43:42.000000000,closed,1,Add Abseil; use its string_view implementation
+970,2018-12-05 05:22:36.000000000,2019-02-25 05:41:09.000000000,closed,1,Replace string_view with string-view-lite
+969,2018-12-04 16:05:50.000000000,2018-12-05 01:19:55.000000000,closed,0,Combine param_binding and local_binding in IR
+968,2018-12-04 04:58:22.000000000,2018-12-04 12:10:12.000000000,closed,0,Rename duplicate locals
+967,2018-12-04 03:52:13.000000000,2018-12-04 23:07:23.000000000,closed,4,Different behavior when using wat2wasm online demo vs local binary
+966,2018-12-03 23:37:37.000000000,2018-12-04 23:08:38.000000000,closed,2,"error: redefinition of local ""$my_local"""
+965,2018-11-30 20:35:47.000000000,2018-12-03 20:47:14.000000000,closed,8,Creating wasm object file with wat2wasm
+964,2018-11-30 14:27:29.000000000,2018-12-01 00:40:48.000000000,closed,0,Run more proposal spec tests
+963,2018-11-30 01:15:02.000000000,2018-11-30 03:30:07.000000000,closed,0,wasm-objdump: Cleanup hanlding of global names from #960
+962,2018-11-30 01:09:03.000000000,2019-01-16 10:57:59.000000000,closed,0,wasm-objdump aborts if passed a directory name
+961,2018-11-29 12:59:37.000000000,1970-01-01 00:00:00.000000001,open,3,How to get .wasm file from unsupported text file?
+960,2018-11-29 07:32:40.000000000,2018-11-29 13:53:21.000000000,closed,0,wasm-objdump: Print name of global when disassembly get/set_global
+959,2018-11-28 06:26:01.000000000,2018-11-28 13:10:51.000000000,closed,0,Handle mismatch in function/code section
+958,2018-11-20 04:56:06.000000000,2018-11-20 06:32:44.000000000,closed,0,Fix wasm-objdump binary opcode output
+957,2018-11-15 10:04:07.000000000,2018-11-20 04:05:50.000000000,closed,0,Support for SIMD instructions in wasm-objdump
+956,2018-11-15 04:43:16.000000000,2018-11-15 09:56:01.000000000,closed,2,Renumber SIMD instructions
+955,2018-11-14 04:58:17.000000000,2018-11-15 05:17:44.000000000,closed,0,Add support for dylink section
+954,2018-11-09 18:45:27.000000000,2018-11-15 03:28:33.000000000,closed,1,Remove the redundant $ from (i32/i64/f32/f64/v128).const instructions in disassemble and trace views
+953,2018-11-08 03:18:45.000000000,2018-11-08 05:22:02.000000000,closed,0,Update to the lastest spec testsuite
+952,2018-11-07 00:23:16.000000000,2018-11-07 00:23:29.000000000,closed,0,Add note about building using Makefile
+951,2018-11-06 20:51:38.000000000,2018-11-07 00:24:52.000000000,closed,4,fails to build on Ubuntu 18.04
+944,2018-11-02 15:12:01.000000000,2018-11-08 09:54:18.000000000,closed,3,did Thread::ReadMemory have implicit bugs?
+943,2018-11-02 01:20:05.000000000,1970-01-01 00:00:00.000000001,open,3,Improvement of the interpretator traces
+942,2018-11-01 23:45:23.000000000,2018-11-06 00:59:15.000000000,closed,0,Update testsuite
+941,2018-10-31 02:09:16.000000000,2018-11-01 21:28:13.000000000,closed,0,Add `dummy_workaround_...` function to fix Travis
+940,2018-10-31 00:00:13.000000000,2018-10-31 03:19:27.000000000,closed,0,Set `end_loc` in folded `if` expressions
+939,2018-10-30 21:18:10.000000000,2018-11-01 21:28:13.000000000,closed,0,Fix emscripten error in Travis
+938,2018-10-29 21:36:11.000000000,2019-02-14 22:07:03.000000000,closed,8,Add support for the reference types proposal
+937,2018-10-28 12:28:28.000000000,2018-10-30 23:46:32.000000000,closed,1,Check type use vs. explicit sig. in call_indirect
+936,2018-10-25 23:20:23.000000000,2018-10-30 23:58:24.000000000,closed,1,Fails to warn about malformed wat
+935,2018-10-23 03:51:19.000000000,2018-10-23 11:09:38.000000000,closed,0,Update URLs to match documentation changes
+934,2018-10-18 01:20:57.000000000,2018-10-19 01:47:41.000000000,closed,0,Add test for disabled opcodes in binary reader
+933,2018-10-16 22:27:14.000000000,2019-01-16 10:58:26.000000000,closed,2,Rename instructions in text format
+932,2018-10-16 03:08:26.000000000,1970-01-01 00:00:00.000000001,open,1,Add checklist for new instructions
+931,2018-10-14 02:10:20.000000000,2018-10-17 04:00:26.000000000,closed,0,Add more tests for tail_call feature
+930,2018-10-13 22:29:20.000000000,2018-10-16 00:57:27.000000000,closed,2,Add more bulk memory tests; use vars for segments  
+929,2018-10-13 01:20:01.000000000,2018-10-17 04:00:26.000000000,closed,0,More tests for the tail-call feature
+928,2018-10-13 00:12:51.000000000,2020-03-21 00:36:30.000000000,closed,3,Implement further segment validation checks for bulk memory operations
+927,2018-10-12 09:54:03.000000000,2018-10-13 00:57:24.000000000,closed,1,Add bulk memory opcode definitions
+926,2018-10-12 03:18:31.000000000,2018-10-13 01:05:01.000000000,closed,0,Implemented tail call instructions:
+925,2018-10-11 04:00:27.000000000,2018-10-12 07:04:14.000000000,closed,0,Use gh-pages instead of rawgit for demo
+924,2018-10-09 20:04:44.000000000,2018-10-12 07:04:14.000000000,closed,0,Remove uses of rawgit
+923,2018-10-06 18:35:03.000000000,2018-10-08 06:16:49.000000000,closed,2,CMake build doesn't support Visual Studio 2017
+922,2018-10-05 23:08:23.000000000,2018-10-06 03:10:30.000000000,closed,0,Require reserved instruction bytes to be one byte
+921,2018-10-04 04:50:45.000000000,2018-10-04 23:22:16.000000000,closed,0,[libwabtjs] Add support for features
+920,2018-10-04 00:52:14.000000000,2018-10-07 18:19:03.000000000,closed,2,How to pass parameters to libwabt.js?
+919,2018-10-02 04:49:57.000000000,2018-10-02 19:57:05.000000000,closed,0,Refactor interpreter a bit
+918,2018-10-02 03:24:53.000000000,2018-10-02 04:50:46.000000000,closed,2,Tailcall
+917,2018-10-01 16:15:17.000000000,2019-01-16 11:03:47.000000000,closed,5,Do we have any tool which can give me size of functions which are in .wasm file
+916,2018-09-26 06:52:03.000000000,2018-09-27 00:34:08.000000000,closed,1,Update Wasm simd instruction opcodes
+915,2018-09-24 03:07:08.000000000,1970-01-01 00:00:00.000000001,open,3,Issue with br labels in the JS build
+914,2018-09-15 02:43:46.000000000,1970-01-01 00:00:00.000000001,open,0,Convert online demo to wasm instead of asm.js
+913,2018-09-14 08:18:01.000000000,2018-09-15 01:48:21.000000000,closed,0,Don't install wabt-unittests; refactor CMakeLists
+912,2018-09-14 07:32:20.000000000,2018-09-14 08:13:55.000000000,closed,0,[wasm-interp] Fix assert with non-func exports
+911,2018-09-11 00:30:49.000000000,2018-09-11 00:31:05.000000000,closed,0,Update README.md demo links
+910,2018-09-11 00:16:40.000000000,2018-09-11 06:36:19.000000000,closed,0,Optimize interpreter and `Opcode::FromCode`
+909,2018-09-10 23:34:52.000000000,1970-01-01 00:00:00.000000001,open,0,Fix wasm2c on windows (via MSVC)
+908,2018-09-08 23:58:06.000000000,2018-09-11 04:18:23.000000000,closed,4,web demo fails when trying to upload .wasm
+907,2018-09-07 06:16:21.000000000,2018-09-07 09:38:00.000000000,closed,0,Fix some multi-value bugs; run spec tests
+906,2018-09-04 01:00:49.000000000,2018-09-05 02:13:24.000000000,closed,0,"Some refactoring of error handling, lexer"
+905,2018-08-31 04:33:38.000000000,2018-08-31 20:16:53.000000000,closed,0,Work around bug in emscripten w/ response files
+904,2018-08-30 04:47:20.000000000,2018-09-13 11:06:18.000000000,closed,0,libwabt.js: Module._wabt_write_text_module is not a function
+903,2018-08-29 07:06:10.000000000,2018-08-29 08:17:42.000000000,closed,0,"Add `--inline-{im,ex}ports` flags to `wat-desugar`"
+902,2018-08-25 10:19:21.000000000,2018-08-27 22:31:03.000000000,closed,0,Add wasm-strip tool to strip custom sections
+901,2018-08-25 06:58:11.000000000,2018-08-25 07:32:44.000000000,closed,0,Update testsuite
+900,2018-08-23 06:49:13.000000000,2018-08-24 05:39:42.000000000,closed,1,Reset Executor’s Thread at start of RunFunction
+899,2018-08-21 21:47:50.000000000,2018-08-28 03:16:07.000000000,closed,0,[objdump] Display element count in section details
+898,2018-08-18 22:31:11.000000000,2018-08-20 22:35:53.000000000,closed,1, Add manpages to the `make install` target
+897,2018-08-17 18:41:23.000000000,2019-01-16 11:07:02.000000000,closed,3,Using wabt tools as a parser
+896,2018-08-16 14:21:04.000000000,2018-08-18 01:45:53.000000000,closed,4,add minimal manpages (mdoc-formatted)
+895,2018-08-15 23:53:27.000000000,2018-08-16 01:26:01.000000000,closed,0,Fix: set_global on immutable global is invalid
+894,2018-08-15 21:53:11.000000000,2020-03-21 00:34:31.000000000,closed,2,Writing to non-mutable global variables passes validator
+893,2018-08-15 00:41:44.000000000,2018-08-16 01:27:43.000000000,closed,4,Update Gtest to current revision
+892,2018-08-15 00:39:45.000000000,2018-08-16 01:27:42.000000000,closed,0,third_party/gtest fails to build with Visual Studio
+891,2018-08-14 13:16:33.000000000,2018-08-14 22:23:03.000000000,closed,0,[wasm2c] Add spec tests; fix update-spec-tests.py
+890,2018-08-14 05:34:22.000000000,2018-08-14 12:21:18.000000000,closed,1,[interp] Add rot13 interpreter example
+889,2018-08-13 10:02:31.000000000,2018-08-13 23:00:01.000000000,closed,0,[interp] Simplify host module imports
+888,2018-08-07 11:03:47.000000000,2018-08-07 19:49:49.000000000,closed,0,Pass Option structs by const reference
+887,2018-08-06 12:10:01.000000000,2018-08-06 22:53:01.000000000,closed,0,[interp] Add test for trapping host functions
+886,2018-08-04 04:24:21.000000000,2018-08-04 05:16:52.000000000,closed,2,handle traps in host functions
+885,2018-08-03 16:19:04.000000000,2018-08-03 19:30:15.000000000,closed,6,"Example ""stuff"" in wat2wasm demo is invalid or has conversion bug"
+884,2018-08-03 08:25:31.000000000,2018-08-03 23:28:01.000000000,closed,0,Update testsuite; enable mut. globals by default
+883,2018-08-01 15:14:52.000000000,1970-01-01 00:00:00.000000001,open,1,error: OnImportFunc callback failed
+882,2018-07-30 18:31:58.000000000,2018-07-31 00:38:01.000000000,closed,2,Add BUILD_TOOLS option to CMake
+881,2018-07-26 11:17:36.000000000,2019-12-19 15:04:39.000000000,closed,1,Integer values not allowed in data section
+880,2018-07-25 22:39:54.000000000,2018-07-26 02:30:43.000000000,closed,0,[emscripten] Use long instead of int for ssize_t
+879,2018-07-25 03:26:01.000000000,2018-07-26 01:38:27.000000000,closed,0,Some fixes for binary releases
+878,2018-07-25 03:24:01.000000000,2018-07-25 03:25:30.000000000,closed,0,Binary release
+877,2018-07-25 01:23:04.000000000,2018-08-03 08:05:15.000000000,closed,1,Remove short option for --help 
+876,2018-07-20 04:48:54.000000000,2018-07-25 00:41:31.000000000,closed,0,Binary releases for travis/appveyor
+875,2018-07-19 02:56:02.000000000,2018-07-25 00:41:32.000000000,closed,1,Binary Releases
+874,2018-07-15 07:14:08.000000000,2018-07-18 20:23:11.000000000,closed,2,Mutable global variables
+873,2018-07-14 15:54:22.000000000,2018-07-19 12:09:38.000000000,closed,2,"Use the wasm-objdump option -h for --help only, not for --headers"
+872,2018-07-14 15:42:45.000000000,2018-08-03 08:05:15.000000000,closed,6,The option -h of wasm-objdump is ambiguous
+871,2018-07-05 10:17:15.000000000,2018-07-05 10:47:49.000000000,closed,2,wat2wasm doesn't support Unicode names
+870,2018-06-27 08:02:15.000000000,1970-01-01 00:00:00.000000001,open,6,cmake error
+869,2018-06-26 01:54:24.000000000,2018-06-26 02:44:43.000000000,closed,0,[wasm2c] Fix bad realloc in wasm-rt-impl
+868,2018-06-26 01:40:19.000000000,2018-09-13 11:08:11.000000000,closed,1,missing PAGE_SIZE
+867,2018-06-25 22:26:11.000000000,2018-06-26 01:49:41.000000000,closed,0,Fix typo in BinaryReaderLogging::OnFunctionSymbol
+866,2018-06-25 22:10:26.000000000,2018-06-26 01:49:41.000000000,closed,1,Call to wrong delegate function?
+865,2018-06-18 15:47:32.000000000,2018-06-18 22:06:00.000000000,closed,1,Relax the check for alloca
+864,2018-06-18 15:43:42.000000000,2018-06-18 22:06:00.000000000,closed,0,error no alloca
+863,2018-06-17 23:43:29.000000000,1970-01-01 00:00:00.000000001,open,1,wasm2wat issue
+862,2018-06-15 22:02:19.000000000,2018-06-16 00:11:24.000000000,closed,0,Fix integer overflow w/ too many locals
+861,2018-06-14 04:06:53.000000000,2018-06-15 02:16:43.000000000,closed,0,Add support for multi-value proposal
+860,2018-06-06 08:35:33.000000000,2018-06-06 18:52:13.000000000,closed,1,Use named offset type and clean up PushRep doc
+859,2018-06-05 22:37:13.000000000,2018-06-06 00:08:03.000000000,closed,2,Compilation problem
+858,2018-06-05 19:27:55.000000000,2018-06-06 00:52:47.000000000,closed,3,Fix GCC 8 error due to `-Werror=class-memaccess`.
+857,2018-06-05 19:03:40.000000000,2018-06-06 00:52:47.000000000,closed,0,Build error due `-Werror=class-memaccess` in GCC 8.1
+856,2018-06-05 02:46:19.000000000,2018-06-05 11:26:11.000000000,closed,0,Better type-check errors locs @ end of block
+855,2018-06-05 00:53:00.000000000,2018-06-05 02:39:40.000000000,closed,2,Fix emscripten build
+854,2018-06-04 22:05:40.000000000,2018-09-13 11:46:02.000000000,closed,2,Unwinding of Branches and Loops
+853,2018-06-04 21:50:14.000000000,2018-09-13 11:45:28.000000000,closed,2,Emscripten travis failure
+852,2018-06-02 22:59:19.000000000,2018-06-02 23:38:31.000000000,closed,2,wast2json errors for memory.grow and memory.size
+851,2018-06-02 04:03:28.000000000,2018-06-04 21:09:38.000000000,closed,0,[objdump] Include elem segment offset when printing table elements
+850,2018-05-28 07:47:52.000000000,2018-05-28 08:26:36.000000000,closed,2,MSan reported use of uninitialized value
+849,2018-05-26 11:54:50.000000000,2018-05-27 11:21:39.000000000,closed,0,"Update spec tests; rename {grow,current}_memory"
+848,2018-05-26 01:56:27.000000000,2018-05-29 19:50:48.000000000,closed,0,Revert appendix to original form
+847,2018-05-25 23:19:38.000000000,2018-09-13 11:45:49.000000000,closed,3,"""error: imports must occur before all non-import definitions"" is not spec compliant"
+846,2018-05-23 03:13:04.000000000,2018-05-29 20:46:09.000000000,closed,0,Add support for new relocation types used in DWARF sections
+845,2018-05-21 03:09:03.000000000,2018-05-22 03:28:28.000000000,closed,0,Fix token enum/string mismatch; move to token.def
+844,2018-05-20 11:39:21.000000000,2018-05-22 03:28:41.000000000,closed,1,Some TokenType names do not match.
+843,2018-05-17 03:47:17.000000000,2018-05-17 06:21:20.000000000,closed,0,"Print ""warning"" for ignored custom section errors"
+842,2018-05-16 20:46:11.000000000,1970-01-01 00:00:00.000000001,open,11,"""invalid linking metadata version: 3"" when running against Rust-generated WASM"
+841,2018-05-15 02:10:22.000000000,2018-05-15 02:16:21.000000000,closed,5,Fix broken version check on metadata section
+840,2018-05-15 01:14:28.000000000,2018-05-17 21:11:31.000000000,closed,0,Remove old sub-sections types from linking section
+839,2018-05-15 01:06:33.000000000,2018-05-15 02:30:38.000000000,closed,1,wasm-objdump: Clearly distinguish undefined symbols in symbol table
+838,2018-05-14 23:45:53.000000000,2018-05-15 21:31:54.000000000,closed,10,0000099: error: unable to read u32 leb128: stack pointer index
+837,2018-05-11 23:09:43.000000000,2018-05-14 23:09:41.000000000,closed,0,Fix bug with --ignore-custom-section-errors flag
+836,2018-05-11 22:08:12.000000000,2018-05-14 23:10:03.000000000,closed,5,wasm2wat not work with rust
+835,2018-05-10 03:07:37.000000000,2018-05-22 21:13:34.000000000,closed,0,More work on the wasm2c documentation
+834,2018-05-08 22:29:12.000000000,2018-05-09 03:17:17.000000000,closed,2,Display module name in wasm-objdump
+833,2018-05-07 23:16:15.000000000,2018-05-08 00:56:14.000000000,closed,0,Add flag to ignore errors in custom sections
+832,2018-05-03 23:38:55.000000000,2018-05-07 23:08:13.000000000,closed,8,Fix one bug for converting v128.shuffle from wasm format to wat format.
+831,2018-04-30 23:05:40.000000000,2018-05-01 21:55:46.000000000,closed,3,Read and write module names in the names section
+830,2018-04-24 02:09:29.000000000,2018-05-04 00:28:34.000000000,closed,2,Refer to target section by index in relocation section
+829,2018-04-21 03:34:03.000000000,2018-04-21 05:38:11.000000000,closed,2,Enable memory growth when compiling libwabt.js
+828,2018-04-10 22:16:36.000000000,1970-01-01 00:00:00.000000001,open,0,wasm-objdump should have a way to only show specific functions
+827,2018-04-10 10:22:19.000000000,2018-04-10 21:16:08.000000000,closed,0,Don't allow a local decl count of 0
+826,2018-04-10 09:34:04.000000000,2018-04-11 02:24:05.000000000,closed,3,wasm2wat: OnLocalDecl callback does not enforce nonzero values
+825,2018-04-06 04:22:01.000000000,2018-04-06 21:40:13.000000000,closed,0,Error on running wasm2c with `--enable-*` flags
+824,2018-04-05 06:58:30.000000000,2018-04-05 08:43:21.000000000,closed,0,Don't allow the `v128` type without the simd flag
+823,2018-04-05 06:32:08.000000000,2018-04-07 06:35:27.000000000,closed,3,"wasm2c: Type Mangling does not support V128, causing SEGFAULT"
+822,2018-04-03 07:57:12.000000000,2018-11-07 00:25:51.000000000,closed,5,Unable to compile with make
+821,2018-03-29 01:43:16.000000000,2018-03-29 03:04:25.000000000,closed,0,Use `ReadCount` function in BinaryReader
+820,2018-03-28 10:48:08.000000000,2018-03-29 00:43:12.000000000,closed,0,Store local types as Type+Count pairs
+819,2018-03-27 13:44:34.000000000,2018-03-29 00:43:25.000000000,closed,0,Invalid module takes a lot of time and memory to validate.
+818,2018-03-25 07:31:43.000000000,2018-03-27 10:41:46.000000000,closed,3,Consider a separate repo for libwabt.js?
+817,2018-03-23 04:00:22.000000000,2018-03-23 04:32:27.000000000,closed,0,Windows warn unused annotation build break
+816,2018-03-22 01:47:50.000000000,2018-03-22 03:25:07.000000000,closed,0,"Add SIMD tests to {logging,tracing}-all-opcodes"
+815,2018-03-17 04:14:58.000000000,2018-03-17 05:02:27.000000000,closed,0,Update testsuite
+814,2018-03-17 02:50:25.000000000,2018-03-17 03:49:32.000000000,closed,0,Run clang-format over all the files
+813,2018-03-17 02:17:20.000000000,2018-03-20 23:12:12.000000000,closed,1,"Separate out wasm-rt.h and wasm-rt-impl.{c,h}"
+812,2018-03-16 21:23:13.000000000,2018-03-16 23:31:10.000000000,closed,0,objdump: Report elem count for each elem segment
+811,2018-03-16 05:09:08.000000000,2018-03-16 07:46:47.000000000,closed,1,SIMD v8x16.shuffle implementation.
+810,2018-03-16 03:49:00.000000000,2018-03-16 22:37:38.000000000,closed,2,Small cleanup to simd extract/replace lane
+809,2018-03-16 02:25:14.000000000,2018-03-16 03:31:08.000000000,closed,1,Simd Replace Lane instructions implementation.
+808,2018-03-15 22:14:50.000000000,2018-03-16 01:20:44.000000000,closed,3,Print locals in objdump disassembly
+807,2018-03-15 01:43:10.000000000,2018-03-17 02:07:56.000000000,closed,1,wasm-objdump should have a way to show locals declared in a function
+806,2018-03-14 02:29:12.000000000,2018-03-15 22:22:42.000000000,closed,1,Simd remaining Extract Lane instructions implementation.
+805,2018-03-12 18:21:58.000000000,1970-01-01 00:00:00.000000001,open,15,fatal error: 'string' file not found
+804,2018-03-12 14:06:39.000000000,2018-03-13 14:56:24.000000000,closed,2,windows 10 VS2017 wabt installation
+803,2018-03-10 06:41:19.000000000,2018-05-10 02:10:11.000000000,closed,3,Add some documentation for wasm2c
+802,2018-03-09 22:31:22.000000000,2018-03-13 22:18:35.000000000,closed,2,Simd i8x16.extract_lane_s instruction implementation.
+801,2018-03-09 11:10:21.000000000,2018-03-09 13:36:41.000000000,closed,1,SIMD v128.load/v128.store implementation.
+800,2018-03-09 05:49:24.000000000,2018-03-09 08:02:39.000000000,closed,0,Improve output for object of symbol table
+799,2018-03-09 02:43:23.000000000,2018-03-17 02:08:47.000000000,closed,4,i64.const value couldn't read
+798,2018-03-08 03:58:03.000000000,1970-01-01 00:00:00.000000001,open,5,How to run/test exported function of WASM binary using wasm-interp?
+797,2018-03-07 22:14:57.000000000,2018-03-08 00:23:28.000000000,closed,1,SIMD Floating point to integer with saturation implementation.
+796,2018-03-07 05:32:30.000000000,2018-03-07 08:15:04.000000000,closed,2,objdump: Use the export name for a function if one exists
+795,2018-03-06 22:24:16.000000000,2018-03-07 12:21:55.000000000,closed,3,SIMD Integer to floating point conversion implementation.
+794,2018-03-06 11:42:03.000000000,2018-03-07 08:38:07.000000000,closed,0,Generate symbol table when creating relocations in binary-writer.cc
+793,2018-03-06 06:27:50.000000000,2018-03-06 10:56:10.000000000,closed,0,Remove wasm-link tool
+792,2018-03-06 06:14:50.000000000,2018-03-06 10:27:21.000000000,closed,0,Write linking metadata before relocations
+791,2018-03-06 05:58:45.000000000,2018-03-06 10:42:11.000000000,closed,0,Always set the expr's loc value in binary reader
+790,2018-03-06 05:37:00.000000000,2018-03-06 06:14:16.000000000,closed,0,Refactor BinaryWriter so the module being written is a member
+789,2018-03-06 03:04:57.000000000,2018-03-06 04:58:09.000000000,closed,1,SIMD (f32x4/f64x2).sqrt implementation.
+788,2018-03-06 02:59:05.000000000,2018-03-06 10:56:31.000000000,closed,0,Use early return in PrintStackIfFailed
+787,2018-03-05 22:52:05.000000000,2018-03-05 23:22:26.000000000,closed,1,SIMD Floating-point div and mul implementation.
+786,2018-03-03 12:00:42.000000000,2018-03-04 09:14:52.000000000,closed,1,SIMD Floating-point add and sub implementation.
+785,2018-03-03 11:41:15.000000000,2018-03-03 11:46:25.000000000,closed,0,SIMD Floating-point add and sub implementation.
+784,2018-03-02 22:59:31.000000000,2018-03-03 00:28:07.000000000,closed,1,SIMD Floating-point min and max implementation.
+783,2018-03-01 11:35:21.000000000,2018-03-02 06:36:39.000000000,closed,1,SIMD (f32x4/f64x2).abs implementation.
+782,2018-03-01 01:49:51.000000000,2018-03-01 21:05:14.000000000,closed,2,Match value type enum to spec values and read/write as uint8_t
+781,2018-03-01 01:36:14.000000000,2018-03-01 03:47:20.000000000,closed,0,Use uint8 when reading import kind
+780,2018-02-28 23:41:42.000000000,2018-03-01 08:23:44.000000000,closed,0,Update testsuite
+779,2018-02-28 22:58:46.000000000,2018-03-01 00:23:47.000000000,closed,1,SIMD (f32x4/f64x2).neg implementation.
+778,2018-02-28 22:27:52.000000000,2018-02-28 22:38:22.000000000,closed,1,SIMD Comparison Greater than or equal instructions implementation.
+777,2018-02-28 15:52:42.000000000,2018-03-17 02:09:25.000000000,closed,2,wast2wasm not found
+776,2018-02-28 09:29:31.000000000,2018-02-28 12:24:39.000000000,closed,0,Fix token name order
+775,2018-02-28 09:24:58.000000000,2018-02-28 11:30:17.000000000,closed,0,Use GetTypeName in binary-reader-objdump.cc
+774,2018-02-28 09:21:48.000000000,2018-02-28 10:20:36.000000000,closed,0,Fix run-tests.py when a roundtrip tests fails
+773,2018-02-28 07:57:10.000000000,2018-03-03 06:48:11.000000000,closed,1,WIP on support for level1 exception spec
+772,2018-02-27 11:14:25.000000000,2018-02-27 23:51:10.000000000,closed,1,SIMD Comparison Greater than instructions implementation.
+771,2018-02-26 22:34:12.000000000,2018-02-27 00:52:02.000000000,closed,1,SIMD Comparison Less than or equal instructions implementation.
+770,2018-02-23 04:26:59.000000000,2018-02-24 00:48:06.000000000,closed,1,SIMD Comparison Less than instructions implementation.
+769,2018-02-23 03:06:01.000000000,2018-03-06 03:03:02.000000000,closed,1,Add support for new symbol table format
+768,2018-02-22 04:00:12.000000000,2018-02-22 07:26:43.000000000,closed,0,Use ExprVisitor in WatWriter
+767,2018-02-22 00:45:15.000000000,2018-02-22 03:54:01.000000000,closed,1,SIMD Comparison Non-Equality instructions implementation.
+766,2018-02-21 21:35:36.000000000,2018-02-21 22:28:59.000000000,closed,1,SIMD Comparison Equality instructions implementation.
+765,2018-02-21 11:26:37.000000000,2018-02-22 00:58:02.000000000,closed,1,Rewrite ExprVisitor to be non-recursive
+764,2018-02-21 09:37:10.000000000,2018-02-21 11:25:46.000000000,closed,0,Use ExprVisitor in Validator
+763,2018-02-20 11:35:40.000000000,2018-02-21 13:09:33.000000000,closed,2,SIMD Boolean horizontal reductions implementation.
+762,2018-02-16 04:30:14.000000000,2018-02-21 07:11:56.000000000,closed,5,spec/wabt behavior difference
+761,2018-02-16 04:20:19.000000000,2018-02-16 08:23:16.000000000,closed,2,Add try/catch around calls to reserve
+760,2018-02-16 02:59:13.000000000,2018-03-29 03:05:12.000000000,closed,14,Small module makes wabt to do an enourmous allocation
+759,2018-02-15 00:42:38.000000000,2018-02-19 23:59:23.000000000,closed,3,SIMD v128.bitselect instruction implementation.
+758,2018-02-14 10:52:42.000000000,2018-02-14 23:08:03.000000000,closed,1,SIMD Bitwise logic instructions implementation.
+757,2018-02-14 06:26:26.000000000,2018-02-14 11:08:48.000000000,closed,0,Update testsuite
+756,2018-02-13 23:42:51.000000000,2018-02-14 00:37:19.000000000,closed,0,Don't allow memory to be shared by default
+755,2018-02-13 22:12:07.000000000,2018-02-14 08:11:42.000000000,closed,2,SIMD right shift by scalar instructions implementation.
+754,2018-02-13 16:40:01.000000000,2018-02-14 00:37:30.000000000,closed,1,wabt validates memory with `shared` flag with default options.
+753,2018-02-11 20:55:55.000000000,2018-02-11 23:30:56.000000000,closed,0,Fix segfault in wat2wasm when loading invalid file
+752,2018-02-09 02:34:41.000000000,2018-02-23 00:28:54.000000000,closed,2,segfault when pointing `wasm2wat` to a module with a really big function
+751,2018-02-08 10:23:21.000000000,2018-02-13 11:06:03.000000000,closed,2,SIMD i16x8/i32x4/i64x2 shl implementation.
+750,2018-02-07 23:56:45.000000000,2018-02-08 03:45:27.000000000,closed,1,SIMD i8x16.shl implementation.
+749,2018-02-07 15:12:01.000000000,2018-02-07 15:13:57.000000000,closed,2,Seems like wabt don't pass testsuite?
+748,2018-02-07 15:05:25.000000000,2018-02-11 23:31:41.000000000,closed,1,segfault when running `wat2wasm -`
+747,2018-02-07 01:01:17.000000000,2018-02-07 08:30:54.000000000,closed,1,SIMD saturating sub implementation.
+746,2018-02-06 11:58:29.000000000,2018-09-13 11:47:28.000000000,closed,8,use wasm2c to generate code is unable to compile
+745,2018-02-01 20:26:59.000000000,2018-02-02 00:43:14.000000000,closed,2,wasm-link deprecated but cannot get suggested replacement lld to work
+744,2018-02-01 06:46:16.000000000,2018-02-11 23:30:28.000000000,closed,3,Use Streams in the WriteBinarySpecScript API
+743,2018-01-31 21:47:04.000000000,2018-01-31 21:49:38.000000000,closed,0,fix path for windows cmake build
+742,2018-01-31 01:10:33.000000000,2018-01-31 03:11:35.000000000,closed,0,Replace `run-wasm-link.py` with `RUN` commands
+741,2018-01-27 05:17:48.000000000,2018-01-27 07:11:47.000000000,closed,0,Replace `run-gen-spec-js.py` with `RUN` commands
+740,2018-01-27 04:12:45.000000000,2018-01-27 13:26:16.000000000,closed,0,Verify emscripten build compiles on travis
+739,2018-01-27 02:47:59.000000000,2018-01-27 03:13:38.000000000,closed,0,Fixes for building libwabt.js with latest Emscripten
+738,2018-01-27 00:37:00.000000000,2018-01-27 03:24:22.000000000,closed,0,Replace `run-gen-wasm*.py` with `RUN` commands
+737,2018-01-26 06:14:48.000000000,2018-01-27 00:31:39.000000000,closed,0,Support different returncodes per command in tests
+736,2018-01-26 06:12:40.000000000,2018-01-26 06:13:37.000000000,closed,0,Fix: don't allow a test with an empty command list
+735,2018-01-26 03:46:42.000000000,2018-01-26 04:47:18.000000000,closed,0,`wat2wasm` is no longer default TOOL for tests
+734,2018-01-25 23:34:11.000000000,2018-01-27 02:35:05.000000000,closed,11,Creating emscripten-exported C bindings for wast handling functions.
+733,2018-01-25 05:34:02.000000000,2018-01-25 06:31:49.000000000,closed,0,Replace `run-opcodecnt.py` with `RUN` commands
+732,2018-01-25 03:51:54.000000000,2018-01-25 05:27:29.000000000,closed,0,Remove `run-objdump.py`; replace with `RUN` cmds
+731,2018-01-24 05:11:02.000000000,2018-01-24 05:56:43.000000000,closed,0,Print symbol names when dumping table relocations
+730,2018-01-22 06:45:16.000000000,2018-01-22 10:59:44.000000000,closed,0,Remove `run-interp.py`; use `RUN` commands instead
+729,2018-01-21 23:28:59.000000000,2018-01-22 06:41:26.000000000,closed,1,[test] `RUN` command has optional args
+728,2018-01-20 05:29:46.000000000,2018-01-21 23:26:48.000000000,closed,0,Rename run args
+727,2018-01-20 02:45:57.000000000,2018-01-22 05:16:54.000000000,closed,2,SIMD saturating add implementation.
+726,2018-01-19 11:47:08.000000000,2018-01-19 22:58:43.000000000,closed,2,Fix for SIMD i8x16.neg / i16x8.neg / i32x4.neg / i64x2.neg implementation. (#723)
+725,2018-01-19 05:57:01.000000000,2018-01-19 22:59:20.000000000,closed,1,Allow multiple commands per test in test runner
+724,2018-01-19 04:03:51.000000000,2019-02-05 21:14:24.000000000,closed,4,Implement better size profiler
+723,2018-01-19 03:13:12.000000000,2018-01-19 06:29:46.000000000,closed,2,SIMD i8x16.neg / i16x8.neg / i32x4.neg / i64x2.neg implementation.
+722,2018-01-19 00:05:46.000000000,2018-01-19 01:56:56.000000000,closed,0,"Add feature flags for sign-ext., mutable-globals"
+721,2018-01-18 22:52:14.000000000,2018-01-19 00:35:24.000000000,closed,1,SIMD i8x16.mul / i16x8.mul / i32x4.mul implementation.
+720,2018-01-18 05:15:47.000000000,2018-01-18 06:09:17.000000000,closed,1,SIMD sub implementation.
+719,2018-01-18 04:57:14.000000000,2018-01-18 06:09:06.000000000,closed,0,Move `test/hexfloat.cc` to `src/test-hexfloat.cc`
+718,2018-01-18 02:00:29.000000000,2018-01-18 06:08:54.000000000,closed,0,Use `section` in gen-wasm tests for subsections
+717,2018-01-18 00:24:26.000000000,2018-01-18 01:27:53.000000000,closed,1,Check that name section is after known sections
+716,2018-01-15 04:02:38.000000000,2018-02-21 07:13:05.000000000,closed,9,build fails on MacOS 10.12.6: complaint about third_party/gtest
+715,2018-01-13 14:19:18.000000000,2018-01-13 21:05:56.000000000,closed,1,How could I get this without compile by myself
+714,2018-01-11 05:03:14.000000000,2018-01-17 00:38:54.000000000,closed,1,SIMD i16x8.add / i32x4.add / i64x2.add implementation.
+713,2018-01-10 13:02:56.000000000,2018-01-11 05:08:44.000000000,closed,0,Use default clang install on travis for ubsan
+712,2018-01-10 11:57:37.000000000,2018-01-11 05:32:11.000000000,closed,1,Use templates for generating wasm2c source
+711,2018-01-10 04:25:52.000000000,2018-01-10 08:09:46.000000000,closed,0,Fix run-tests.py when STDIN_FILE is used > 1 times
+710,2018-01-08 05:30:13.000000000,2018-01-09 06:35:01.000000000,closed,4,Add wasm2c tool
+709,2018-01-08 01:30:25.000000000,2018-01-08 02:27:03.000000000,closed,0,Always write expected action types in .json output
+708,2018-01-08 00:48:38.000000000,2018-01-08 01:29:35.000000000,closed,0,"Apply global names in imported globals, data, elem"
+707,2018-01-07 16:46:39.000000000,2018-01-08 00:10:35.000000000,closed,0,fixed broken links
+706,2017-12-28 02:57:00.000000000,2018-01-10 22:45:10.000000000,closed,2,SIMD i8x16.add implementation.
+705,2017-12-27 00:11:04.000000000,2017-12-27 03:14:14.000000000,closed,2,SIMD: i16x8.splat i32x4.splat i64x2.splat f32x4.splat f64x2.splat ins…
+704,2017-12-21 01:20:04.000000000,2017-12-26 03:05:25.000000000,closed,2,SIMD: i8x16.splat instruction implementation.
+703,2017-12-20 05:52:18.000000000,2018-01-03 00:07:38.000000000,closed,0,Add WatWriter option for inline imports
+702,2017-12-20 02:45:08.000000000,2017-12-20 05:27:34.000000000,closed,2,Wabt simd v128.const instruction PR (Part 2):
+701,2017-12-20 01:20:40.000000000,2017-12-20 03:00:38.000000000,closed,0,Run wabt-unittests in coverage script
+700,2017-12-20 00:52:59.000000000,2017-12-20 05:27:49.000000000,closed,0,Fix bug when writing inline exports for import
+699,2017-12-19 06:26:34.000000000,2018-01-03 00:08:24.000000000,closed,0,Add support for init function in linking metadata
+698,2017-12-19 00:14:56.000000000,2017-12-19 23:16:36.000000000,closed,1,Add SIMD suppor in run-interp.py/run-objdump.py/run-roundtrip.py
+697,2017-12-18 23:45:17.000000000,2017-12-19 00:27:27.000000000,closed,0,Fix coverage build with clang
+696,2017-12-18 23:43:12.000000000,2017-12-19 01:09:39.000000000,closed,0,Rename appveyor.yml -> .appveyor.yml
+695,2017-12-18 23:29:26.000000000,2020-01-18 05:26:50.000000000,closed,6,Drop support for python2
+694,2017-12-16 00:20:51.000000000,2017-12-16 01:11:12.000000000,closed,0,Add SIMD feature flag.
+693,2017-12-14 05:36:34.000000000,2017-12-14 05:43:20.000000000,closed,1,wast2wasm
+692,2017-12-12 03:12:31.000000000,2017-12-12 05:08:05.000000000,closed,0,Add deprecation warning to wasm-link
+691,2017-12-10 01:06:03.000000000,2017-12-10 04:29:27.000000000,closed,2,[cleanup] Always use braces with if
+690,2017-12-06 13:33:57.000000000,2017-12-08 00:12:03.000000000,closed,0,Import/export mutable globals w/ threads enabled
+689,2017-12-06 06:00:46.000000000,2017-12-06 08:10:05.000000000,closed,0,Refactor code for write section headers
+688,2017-12-06 05:42:25.000000000,2017-12-06 06:02:57.000000000,closed,0,Always create linking section with write relocatable wasm files
+687,2017-12-05 04:46:57.000000000,2017-12-06 13:44:11.000000000,closed,3,Replace invalid characters with `_` in wat-writer
+686,2017-12-04 01:44:53.000000000,2017-12-04 02:08:38.000000000,closed,1,add missing check in libwabt.js
+685,2017-12-03 22:25:00.000000000,1970-01-01 00:00:00.000000001,open,1,Strange symbols don't roundtrip through wasm2wat and wat2wasm
+684,2017-12-02 04:53:49.000000000,2017-12-03 04:18:56.000000000,closed,0,Make more use of string_view over 'const char *'
+683,2017-12-02 04:25:30.000000000,2017-12-02 04:53:02.000000000,closed,0,Remove some duplication in run-tests.py
+682,2017-12-02 01:36:09.000000000,2017-12-03 04:19:16.000000000,closed,2,wat2wasm: Always write output to a file
+681,2017-12-01 20:00:16.000000000,2017-12-06 06:02:57.000000000,closed,0,wat2wasm relocatable output files will not link with lld
+680,2017-12-01 19:26:08.000000000,2017-12-04 22:02:44.000000000,closed,3,initializer expression can only reference an imported global
+679,2017-12-01 04:11:34.000000000,2018-03-12 23:27:12.000000000,closed,3,Remove wasm-link?
+678,2017-11-29 04:28:19.000000000,2017-11-29 05:46:41.000000000,closed,1,Fix ubsan build and remove workaround in favor of ubsan.blacklist
+677,2017-11-28 04:24:11.000000000,2017-12-16 06:49:16.000000000,closed,9,   Wabt simd v128.const instruction initial PR:
+676,2017-11-23 16:28:50.000000000,2017-11-23 22:13:42.000000000,closed,0,"#675 Enable ""write_debug_names"" option in WAT2WASM online demo"
+675,2017-11-22 16:17:54.000000000,2017-11-24 01:58:33.000000000,closed,2,"Enable ""write_debug_names"" option in WAT2WASM online demo"
+674,2017-11-22 04:17:11.000000000,2017-11-22 04:46:49.000000000,closed,3,c-writer fails on un-exited loop with value
+673,2017-11-22 04:15:35.000000000,2017-11-23 22:21:34.000000000,closed,4,Add various math operations to c-writer
+672,2017-11-21 05:06:22.000000000,2017-11-22 03:51:35.000000000,closed,0,"Rename {wake,wait} -> atomic.{wake,wait}"
+671,2017-11-14 06:03:09.000000000,2017-11-14 22:14:53.000000000,closed,0,Fix error message w/ inconsistent br_table labels
+670,2017-11-14 05:24:20.000000000,2017-11-14 22:14:53.000000000,closed,1,wabt validation doesn't reject new unreached-invalid cases
+669,2017-11-14 05:21:28.000000000,2017-11-14 07:54:04.000000000,closed,1,Use `.wat` extension for wast2json-generated files
+668,2017-11-14 05:01:57.000000000,2017-11-14 07:54:04.000000000,closed,0,"wast2json should produce ""wat"" files"
+667,2017-11-12 00:25:36.000000000,2017-11-12 02:36:35.000000000,closed,0,Update testsuite; call_indirect has new syntax
+666,2017-11-04 00:44:35.000000000,2017-11-04 01:58:36.000000000,closed,0,[wasm-objdump] Improve support for displaying imports
+665,2017-11-02 10:56:18.000000000,2017-11-03 08:19:02.000000000,closed,0,Fix bad folding w/ imports and generating names
+664,2017-11-01 02:40:56.000000000,2017-11-01 09:10:49.000000000,closed,1,Add wasm-validate tool
+663,2017-10-31 03:34:25.000000000,2018-03-20 02:45:56.000000000,closed,9,SIMD support in WABT
+662,2017-10-27 22:31:26.000000000,2017-10-30 22:17:05.000000000,closed,0,Better type-checking errors
+661,2017-10-26 22:48:15.000000000,2017-10-27 01:09:29.000000000,closed,0,Change shared memory text syntax
+660,2017-10-25 01:40:04.000000000,2017-10-25 20:37:32.000000000,closed,0,Rename the counting builtins (clz/ctz/popcount)
+659,2017-10-24 01:38:42.000000000,2017-10-24 02:10:12.000000000,closed,0,Use simpler way to check for unaligned atomics
+658,2017-10-23 07:02:08.000000000,2017-10-23 08:10:34.000000000,closed,0,Support newer ubsan with -fno-sanitize-recover=all
+657,2017-10-19 04:28:51.000000000,2017-10-19 22:00:40.000000000,closed,0,Set the `loc` member in `Const`
+656,2017-10-17 03:58:39.000000000,2017-10-17 23:24:27.000000000,closed,0,wasm-objdump: Add support for data segment info
+655,2017-10-14 11:37:54.000000000,2017-10-15 22:18:16.000000000,closed,4,Update demos to add JS eval to wat2wasm demo
+654,2017-10-14 03:52:53.000000000,2017-10-14 11:15:39.000000000,closed,0,Update output of gen-spec-js to match spec
+653,2017-10-14 03:05:38.000000000,2017-10-14 11:12:29.000000000,closed,0,Validate utf-8 encoding in text format
+652,2017-10-14 02:21:50.000000000,2017-10-14 02:58:02.000000000,closed,0,Small cleanup of `CommandRunner`
+651,2017-10-13 21:31:26.000000000,2018-03-17 02:10:51.000000000,closed,2,Support for host exported functions in wasm-link.
+650,2017-10-12 23:35:17.000000000,2017-10-13 01:07:18.000000000,closed,0,Refactor interpreter execution
+649,2017-10-12 22:55:32.000000000,2017-10-12 23:22:39.000000000,closed,0,Rename interpreter -> interp everywhere
+648,2017-10-10 21:44:30.000000000,2017-10-10 22:33:48.000000000,closed,0,Update testsuite
+647,2017-10-06 22:23:07.000000000,2017-10-07 03:40:59.000000000,closed,0,Fix some fuzzer-found regressions
+646,2017-10-06 03:57:41.000000000,2017-10-06 08:47:41.000000000,closed,0,"Add `i{32,64}.wait` and `wake` operators"
+645,2017-10-05 22:32:41.000000000,2017-10-05 23:22:50.000000000,closed,0,Refactor spectest-interp
+644,2017-10-03 22:06:50.000000000,2017-10-04 02:56:34.000000000,closed,0,Share code between wasm-interp and spectest-interp
+643,2017-10-03 03:31:03.000000000,2017-10-03 21:28:35.000000000,closed,0,Add spectest-interp tool; split from wasm-interp
+642,2017-09-28 11:26:51.000000000,2017-09-28 12:05:39.000000000,closed,0,Rename `wast-desugar` to `wat-desugar`.
+641,2017-09-28 03:59:06.000000000,2017-09-28 09:53:39.000000000,closed,0,Validate that atomic accesses have shared memory
+640,2017-09-27 06:01:28.000000000,2017-09-27 06:02:03.000000000,closed,1,Some cleanup in binary-reader.cc
+639,2017-09-26 21:20:35.000000000,1970-01-01 00:00:00.000000001,open,2,Use Abseil for things like string_view?
+638,2017-09-23 04:40:55.000000000,2017-09-23 05:33:05.000000000,closed,1,Fix assertion in wat2wasm for `(module (test))`
+637,2017-09-23 04:02:49.000000000,2017-09-23 05:33:34.000000000,closed,1,ModuleField assertion
+636,2017-09-23 00:50:29.000000000,2017-09-27 06:02:55.000000000,closed,3,[wasm-objdump] Continue reading sections on error
+635,2017-09-22 05:26:28.000000000,2017-09-22 11:55:45.000000000,closed,0,Move Leb128 reading functions to leb128.cc
+634,2017-09-22 03:30:54.000000000,2017-09-22 05:24:55.000000000,closed,0,Add tracing/logging output for atomic instructions
+633,2017-09-19 22:34:45.000000000,2017-09-20 20:49:59.000000000,closed,3,Add Atomic instructions
+632,2017-09-19 02:19:17.000000000,2017-09-20 10:23:43.000000000,closed,1,Parse and dump shared limits fields
+631,2017-09-18 21:28:20.000000000,2018-09-13 11:47:51.000000000,closed,0,We should have a wasm-strip tool
+630,2017-09-16 04:42:49.000000000,2017-09-19 23:07:20.000000000,closed,2,Correctly report the value of bad opcodes
+629,2017-09-15 05:19:32.000000000,2017-09-20 04:14:35.000000000,closed,1,Correctly report the value of bad opcodes
+628,2017-09-15 04:18:38.000000000,2017-09-15 06:05:06.000000000,closed,0,Enable all reader features in objdump
+627,2017-09-15 02:53:45.000000000,2017-09-27 06:04:43.000000000,closed,7,wasm-objdump errors out on bad opcodes even when just printing section headers
+626,2017-09-14 05:59:23.000000000,2017-09-15 06:06:19.000000000,closed,0,Fix potential use-after-free in WastLexer
+625,2017-09-14 05:05:09.000000000,2017-09-14 05:45:30.000000000,closed,0,Support non-POD types in CircularArray
+624,2017-09-14 02:51:10.000000000,2017-09-14 04:26:23.000000000,closed,0,Add an interface to enable features
+623,2017-09-13 21:07:19.000000000,2017-09-20 08:06:12.000000000,closed,1,Possible use-after-free in error message
+622,2017-09-13 01:25:54.000000000,2017-09-13 03:30:50.000000000,closed,0,Only allow parsing one module with wat2wasm
+621,2017-09-12 22:07:16.000000000,2017-09-20 08:06:24.000000000,closed,1,wat2wasm silently swallows trailing modules
+620,2017-09-10 05:17:42.000000000,2017-09-11 23:36:23.000000000,closed,7,i32.const not working on Chrome 61 Linux
+619,2017-09-09 02:52:51.000000000,2017-09-09 03:54:19.000000000,closed,1,Add virtual destructor to Stream
+618,2017-09-09 01:51:32.000000000,2017-09-09 02:53:38.000000000,closed,2,Move Interpreter::Opcodes into Opcode
+617,2017-09-08 11:21:36.000000000,2017-09-08 18:35:34.000000000,closed,0,"Rename wast2wasm -> wat2wasm, wast2json"
+616,2017-09-08 10:55:07.000000000,2017-09-08 11:17:38.000000000,closed,0,Rename wasm2wast -> wasm2wat
+615,2017-09-08 04:27:02.000000000,2017-09-08 07:33:52.000000000,closed,0,Append trailing underscore on private member names
+614,2017-09-07 12:37:55.000000000,2017-09-07 22:33:50.000000000,closed,0,Generate $var names from import/export names
+613,2017-09-07 09:51:00.000000000,2017-09-07 10:28:43.000000000,closed,0,"Remove Writer class, move functionality into Stream"
+612,2017-09-07 08:37:18.000000000,2017-09-07 09:24:11.000000000,closed,0,Move LEB128 stuff to its own file
+611,2017-09-05 00:03:54.000000000,2017-09-05 09:22:17.000000000,closed,0,Fix file descriptor leak in writer.cc
+610,2017-09-02 03:48:09.000000000,2017-09-05 23:27:11.000000000,closed,4,"Add i{32,64}.extend{8,16,32}_s operators"
+609,2017-09-02 02:26:57.000000000,2017-09-04 21:42:34.000000000,closed,0,Update testsuite
+608,2017-09-02 02:18:14.000000000,2017-09-04 21:41:40.000000000,closed,0,Fix parsing bug in ParseCommandList
+607,2017-09-01 22:28:26.000000000,2017-09-06 01:15:16.000000000,closed,0,Remove default cases from enum switches
+606,2017-09-01 22:27:12.000000000,2017-09-02 03:01:04.000000000,closed,0,Remove some overuse of `auto` in wasm-link.cc
+605,2017-09-01 22:12:25.000000000,2017-09-01 23:03:15.000000000,closed,0,Return unique_ptr<Script> from parser
+604,2017-09-01 02:16:48.000000000,2017-09-01 19:48:33.000000000,closed,0,Add more support for symbol types in linking section
+603,2017-08-31 23:30:46.000000000,2017-09-01 02:07:54.000000000,closed,1,Update relocation names to match tool convention doc
+602,2017-08-31 02:46:18.000000000,2017-08-31 09:15:45.000000000,closed,0,Use std::unique_ptr in intrusive-list API
+601,2017-08-30 10:26:58.000000000,2017-08-30 11:10:25.000000000,closed,0,"Always include quoted headers like ""src/foo.h"""
+600,2017-08-30 09:44:27.000000000,2017-08-30 10:24:48.000000000,closed,0,Move Result to its own file (result.h)
+599,2017-08-30 08:40:00.000000000,2017-08-30 09:23:10.000000000,closed,0,Use AppendField in binary-reader-ir.cc
+598,2017-08-28 22:22:28.000000000,2017-08-29 22:52:45.000000000,closed,0,Only use auto where the type is obvious from context
+597,2017-08-28 21:22:33.000000000,2017-08-28 21:59:51.000000000,closed,0,Rename EMSCRIPTEN_DIR -> EMCC_DIR in Makefile
+596,2017-08-28 18:58:15.000000000,2017-08-28 22:11:55.000000000,closed,2,Removed duplicate initialization of EMSCRIPTEN_DIR var in Makefile
+595,2017-08-26 09:58:06.000000000,2017-08-27 07:48:01.000000000,closed,1,Clean up various structs in ir.h
+594,2017-08-25 04:37:33.000000000,2017-08-25 04:37:38.000000000,closed,0,Update libwabt.js and fix a wast2wasm example
+593,2017-08-23 18:13:28.000000000,2017-08-24 09:59:40.000000000,closed,0,added missing function in emscripten export
+592,2017-08-18 06:53:36.000000000,2017-08-18 07:34:09.000000000,closed,0,Refactor interpreter imports
+591,2017-08-12 03:08:06.000000000,2017-08-16 01:36:21.000000000,closed,0,Rewrite parser as recursive descent
+590,2017-08-03 22:00:24.000000000,2017-08-03 22:35:18.000000000,closed,1,Add WAST highlighting to *.txt files in tests directories
+589,2017-07-31 21:47:42.000000000,2017-07-31 23:06:21.000000000,closed,0,Fix type-checking bug in br_if w/ polymorphic stack
+588,2017-07-31 19:57:02.000000000,2017-07-31 23:06:21.000000000,closed,7,Potential bug in br_if validation
+587,2017-07-29 05:02:38.000000000,2017-07-30 08:37:16.000000000,closed,0,Fix tee_local typechecking bug w/ polymorphic stack
+586,2017-07-29 04:38:33.000000000,2017-07-30 08:37:16.000000000,closed,1,unreachable tee incorrectly accepted?
+585,2017-07-27 03:50:29.000000000,2017-07-27 06:02:46.000000000,closed,2,Expected version is 0xd
+584,2017-07-26 10:06:54.000000000,2017-07-26 10:36:42.000000000,closed,0,"wasm-link: Remove Context, use C++ class instead."
+583,2017-07-26 07:40:21.000000000,2017-07-26 08:50:26.000000000,closed,0,Use C++ class in wasm-interp instead of Context
+582,2017-07-26 01:29:03.000000000,2017-07-27 02:20:06.000000000,closed,0,Update testsuite
+581,2017-07-25 12:34:09.000000000,2017-07-26 07:38:18.000000000,closed,0,Opcodecnt: Write hex representation of constants
+580,2017-07-22 04:33:05.000000000,2017-07-25 09:41:03.000000000,closed,0,Refactor wasm-opcodecnt.
+579,2017-07-19 21:56:48.000000000,2017-07-20 00:17:11.000000000,closed,0,Rename snake_case to MixedCase.
+578,2017-07-18 20:44:57.000000000,2017-07-19 20:22:52.000000000,closed,0,Properly forward argument packs
+577,2017-07-18 04:51:54.000000000,2017-07-18 09:03:47.000000000,closed,0,Add MoveAndDelete helper function to parser
+576,2017-07-18 00:53:43.000000000,2017-07-18 02:23:23.000000000,closed,0,Remove StringSlice
+575,2017-07-17 22:38:03.000000000,2017-07-18 00:30:59.000000000,closed,0,Remove uses of StringSlice from wasm-link
+574,2017-07-15 02:36:47.000000000,2017-12-19 23:17:20.000000000,closed,2,Make the exception section a known section.
+573,2017-07-14 23:44:49.000000000,2017-08-16 21:12:04.000000000,closed,1,Add saturating float truncation operators
+572,2017-07-14 22:57:35.000000000,2017-07-15 01:37:35.000000000,closed,0,Rename read_file -> ReadFile; now returns vector
+571,2017-07-14 15:40:54.000000000,2017-09-05 09:22:17.000000000,closed,0,Potential file descriptor leak at src/writer.cc
+570,2017-07-14 11:49:30.000000000,2017-07-15 01:37:35.000000000,closed,0,Potential double free at src/tools/wasm-opcodecnt.cc::ProgramMain
+569,2017-07-14 04:37:26.000000000,2017-07-14 22:06:00.000000000,closed,0,Remove StringSlice from interpreter
+568,2017-07-13 00:25:51.000000000,2017-07-13 01:28:46.000000000,closed,0,Make placement construct/destructs easier to read.
+567,2017-07-12 10:58:37.000000000,2017-07-13 06:42:31.000000000,closed,0,Use std::vector for DataSegment data
+566,2017-07-12 10:51:10.000000000,2017-07-12 22:13:26.000000000,closed,0,Update testsuite
+565,2017-07-11 12:02:21.000000000,2018-03-17 02:11:26.000000000,closed,6,wasm-link: unhandled relocation type: R_GLOBAL_ADDR_LEB
+564,2017-07-11 03:20:11.000000000,2017-07-14 22:05:45.000000000,closed,4,Use templates instead of macros in interpreter
+563,2017-07-11 00:50:36.000000000,2017-07-11 02:19:51.000000000,closed,0,Always pass string_view by value
+562,2017-07-08 04:03:52.000000000,2017-07-10 21:22:15.000000000,closed,0,Fix bug in string_view::rfind
+561,2017-07-08 03:36:05.000000000,2017-07-10 21:22:54.000000000,closed,1,Use string_view for all BinaryReader callbacks
+560,2017-07-08 02:05:59.000000000,2017-07-08 02:36:47.000000000,closed,0,Clean up BinaryWriterSpec::GetModuleFilename
+559,2017-07-07 23:45:29.000000000,2017-07-08 01:09:43.000000000,closed,2,Remove uses of StringSlice from IR
+558,2017-07-07 04:58:50.000000000,2017-07-07 11:52:25.000000000,closed,0,Fix location of error in wasm2wast
+557,2017-07-07 04:44:06.000000000,2017-07-13 21:23:27.000000000,closed,2,wasm2wast error message have strange locations
+556,2017-07-07 01:37:27.000000000,2017-07-07 04:30:02.000000000,closed,0,Use std::string instead of StringSlice in Var
+555,2017-07-06 20:43:20.000000000,2017-09-01 19:49:15.000000000,closed,0,Add support data-size and alignment linking metadata
+554,2017-07-06 10:06:49.000000000,2017-07-06 20:58:34.000000000,closed,2,Use intrusive list for ModuleFields
+553,2017-07-06 06:04:05.000000000,2017-07-07 00:07:24.000000000,closed,0,"Remove BinaryErrorHandler, rename SourceErrorHandler"
+552,2017-07-05 22:26:08.000000000,2017-07-05 22:57:19.000000000,closed,0,Move exception section to just before code section.
+551,2017-07-05 01:39:13.000000000,2017-07-05 21:43:35.000000000,closed,0,Add more test examples for wasm-objdump.
+550,2017-07-05 01:20:10.000000000,2017-07-05 21:44:09.000000000,closed,0,Add inline exports to wat-writer.
+549,2017-07-05 01:14:41.000000000,2017-07-05 01:16:35.000000000,closed,1,Add inline exports to wat-writer.
+548,2017-07-04 07:49:08.000000000,2017-07-04 20:35:34.000000000,closed,0,Fix inline export for multiple exported kinds
+547,2017-07-03 21:05:47.000000000,2017-07-04 01:01:20.000000000,closed,0,Adds the concept of exceptions to wasm-objdump
+546,2017-07-03 01:28:05.000000000,2017-07-03 03:47:25.000000000,closed,0,Fix handling of exception section.
+545,2017-07-01 01:02:07.000000000,2017-07-01 23:30:56.000000000,closed,0,Extend binary reader to handle exception constructs.
+544,2017-06-30 04:12:03.000000000,2017-06-30 21:34:22.000000000,closed,1,Use intrusive_list for Expr
+543,2017-06-29 21:39:44.000000000,2017-11-01 09:11:13.000000000,closed,2,Reorganize tools
+542,2017-06-29 03:13:02.000000000,2017-06-29 21:47:13.000000000,closed,0,Add intrusive_list implementation
+541,2017-06-29 01:59:31.000000000,2017-06-29 02:32:42.000000000,closed,0,Fix GetConsoleMode use in color.cc
+540,2017-06-28 21:41:11.000000000,2017-06-29 02:38:12.000000000,closed,0,Remove WABT_ZERO_MEMORY WABT_FAILED and WABT_SUCCEEDED macros.
+539,2017-06-27 19:45:21.000000000,2017-06-27 19:45:33.000000000,closed,0,Update libwabt.js
+538,2017-06-27 19:28:12.000000000,2017-06-27 20:08:57.000000000,closed,0,Use type hierarchy for Command instead of union
+537,2017-06-27 17:04:32.000000000,1970-01-01 00:00:00.000000001,open,3,no notes for fuzz-in/ directory
+536,2017-06-27 11:30:37.000000000,2017-06-27 19:35:50.000000000,closed,1,Support for CommonJS and AMD loaders in libwabt.js
+535,2017-06-27 02:57:24.000000000,2017-06-27 07:50:39.000000000,closed,1,Add default constructor for Location and Const
+534,2017-06-27 00:20:18.000000000,2017-06-27 03:11:08.000000000,closed,0,Explicitly initialize LexToken.value_ with 0
+533,2017-06-26 23:17:40.000000000,2017-06-27 00:51:11.000000000,closed,1,Fix wat writer to fold exception handling constructs.
+532,2017-06-26 00:36:11.000000000,2017-06-26 01:26:10.000000000,closed,0,Use type hierarchy for ModuleField instead of union
+531,2017-06-25 23:14:47.000000000,2017-06-26 23:19:05.000000000,closed,3,Fix the wat writer to be able to fold exception handling constructs.
+530,2017-06-25 02:05:36.000000000,2017-06-25 02:33:29.000000000,closed,5,Fix ununitailzed value_ in LexToken
+529,2017-06-24 23:59:12.000000000,2017-06-25 02:43:51.000000000,closed,0,Make wast-desugar work for exception handling.
+528,2017-06-24 20:10:20.000000000,2017-06-25 02:08:13.000000000,closed,0,Clean up errors messages for bad rethrow instruction.
+527,2017-06-24 02:04:22.000000000,2017-12-19 23:20:54.000000000,closed,4,Use add add_custom_command rather than add_custom_target
+526,2017-06-24 01:55:29.000000000,2017-06-24 19:29:16.000000000,closed,0,Fix binary writer to handle exception declarations.
+525,2017-06-24 01:52:25.000000000,2017-09-01 04:40:41.000000000,closed,0,Add type check to data segment offset
+524,2017-06-24 01:23:50.000000000,2017-06-24 05:42:00.000000000,closed,0,Refactor Expr as class hierarchy instead of union
+523,2017-06-24 00:37:15.000000000,2017-06-24 01:13:05.000000000,closed,0,Fix dereference of null pointer in validator.
+522,2017-06-23 23:50:24.000000000,2017-06-23 23:50:36.000000000,closed,0,Fix spelling error from #483
+521,2017-06-23 23:49:22.000000000,2017-06-24 00:46:01.000000000,closed,0,Consistent comments when ending anonymous namespace
+520,2017-06-23 23:40:02.000000000,2017-06-24 03:01:07.000000000,closed,0,Improve display of data segments
+519,2017-06-23 21:07:23.000000000,2017-06-23 22:52:30.000000000,closed,7,Fix circular array to create/destroy elements.
+518,2017-06-23 01:10:34.000000000,2017-06-23 20:24:32.000000000,closed,1,Update the binary writer to handle try/catch/throw/rethrow instructions.
+517,2017-06-22 08:32:15.000000000,2017-06-24 06:25:32.000000000,closed,6,Add color output in SourceErrorHandler
+516,2017-06-22 01:21:15.000000000,2017-06-23 00:58:26.000000000,closed,2,Add validation to wasm2wast
+515,2017-06-21 04:42:32.000000000,2017-06-23 00:57:22.000000000,closed,1,Update the testsuite; fix literal parsing issues
+514,2017-06-21 01:35:58.000000000,2017-06-22 18:59:10.000000000,closed,7,Fix the validator to be able to validate exception handling constructs.
+513,2017-06-20 05:13:02.000000000,2017-06-20 05:25:19.000000000,closed,0,Move testing info into test/README.md
+512,2017-06-19 22:42:55.000000000,2017-06-22 05:05:57.000000000,closed,0,Allow duplicate names in the name section
+511,2017-06-19 21:28:56.000000000,2017-06-19 22:14:10.000000000,closed,0,Check for USES_TERMINAL support in CMakeLists.txt
+510,2017-06-19 05:06:00.000000000,2017-06-19 21:00:21.000000000,closed,0,Fix for writing wat file with long indentation
+509,2017-06-19 05:01:13.000000000,2017-06-19 20:59:52.000000000,closed,0,Enable and fix warnings for re2c
+508,2017-06-19 05:00:51.000000000,2017-06-19 21:00:06.000000000,closed,0,Remove option default macros
+507,2017-06-17 22:39:08.000000000,2018-03-17 02:11:35.000000000,closed,5,What's the plan for supporting memory sections in wasm-link?
+506,2017-06-17 21:55:50.000000000,2017-06-18 03:32:51.000000000,closed,1,Modify lexer to look past parenthesis when needed for conflicts.
+505,2017-06-17 07:32:32.000000000,2017-06-19 04:13:41.000000000,closed,0,Error out of parse errors in gen-wasm.py
+504,2017-06-17 06:11:17.000000000,2017-06-19 04:14:06.000000000,closed,0,Add USES_TERMINAL to run-tests cmake target
+503,2017-06-17 00:26:43.000000000,2017-06-20 05:34:07.000000000,closed,2,Share float parse code literal.cc with templates
+502,2017-06-16 05:31:06.000000000,2017-06-17 04:32:19.000000000,closed,0,Use custom command to copy to bin/
+501,2017-06-16 04:31:59.000000000,2017-06-16 04:37:42.000000000,closed,0,Add some documentation for building on Windows
+500,2017-06-16 03:44:27.000000000,2017-06-19 21:17:47.000000000,closed,2,Rewrite wabt::Opcode as C++ class
+499,2017-06-14 04:38:05.000000000,2017-06-14 06:32:15.000000000,closed,0,Fix bug in BinaryReaderIR w/ debug names
+498,2017-06-14 04:33:05.000000000,2017-06-14 06:32:04.000000000,closed,0,Fix emscripten build
+497,2017-06-14 03:00:18.000000000,2017-06-14 12:07:49.000000000,closed,0,Make OptionParser into C++ class
+496,2017-06-13 05:14:57.000000000,2017-06-16 04:37:52.000000000,closed,5,Add documentation to README.md for the MSVC build
+495,2017-06-13 02:04:47.000000000,2017-06-17 04:32:19.000000000,closed,2,Install gcc build
+494,2017-06-12 23:00:19.000000000,2017-06-14 01:25:11.000000000,closed,0,Add exception declarations and examples.
+493,2017-06-12 06:41:14.000000000,2017-06-13 02:37:01.000000000,closed,5,import accepts (param i32 i32) but not (param i32) (param i32)
+492,2017-06-12 04:15:22.000000000,2017-06-13 03:10:18.000000000,closed,0,Use CamelCase names and member functions in ir.h
+491,2017-06-11 07:26:40.000000000,2017-06-14 12:07:15.000000000,closed,1,Add wasm2wast functionality
+490,2017-06-11 00:17:01.000000000,2017-06-12 03:32:08.000000000,closed,1,Add syntax for try blocks to the wast parser.
+489,2017-06-09 21:09:22.000000000,2017-12-19 23:23:10.000000000,closed,1,Clarify goals and purpose of wasm-link
+488,2017-06-09 20:56:56.000000000,2017-06-10 02:05:17.000000000,closed,0,Use C++ class for HostImportDelegate
+487,2017-06-09 20:56:45.000000000,2017-06-10 03:09:36.000000000,closed,0,Use C++ callbacks in BindingHash::FindDuplicates
+486,2017-06-09 12:50:22.000000000,2017-06-09 21:18:59.000000000,closed,2,Disable memory imports/exports in linker
+485,2017-06-08 22:46:48.000000000,2017-06-09 01:05:52.000000000,closed,0,Check bison/re2c versions and fallback to prebuilt
+484,2017-06-08 22:30:09.000000000,2017-06-12 05:35:43.000000000,closed,1,Update testsuite; more lexer/parser changes
+483,2017-06-08 04:16:22.000000000,2017-06-23 00:58:14.000000000,closed,3,"Add parsing and objdump support for updated ""linking"" section"
+482,2017-06-07 10:26:55.000000000,2017-06-07 23:45:09.000000000,closed,1,Update testsuite; various lexing/parsing fixes
+481,2017-06-07 06:25:29.000000000,2017-06-07 21:30:29.000000000,closed,1,[objdump] Be more explicit about type and element indexes
+480,2017-06-07 06:22:14.000000000,2017-06-07 22:16:07.000000000,closed,2,Store all test intermediate files in output directory
+479,2017-06-06 23:10:50.000000000,2017-06-07 06:23:19.000000000,closed,0,[objdump] Split out state from ObjdumpOptions
+478,2017-06-05 17:58:30.000000000,2017-06-06 12:57:39.000000000,closed,1,Forward.wast
+477,2017-06-05 15:50:25.000000000,2017-06-05 18:39:16.000000000,closed,2,Shift left in test suite
+476,2017-06-04 04:32:16.000000000,2017-06-04 04:59:04.000000000,closed,1,Make Validator into C++ class
+475,2017-06-04 04:00:41.000000000,2017-06-04 04:22:18.000000000,closed,1,Make TypeChecker into C++ class
+474,2017-06-04 02:53:45.000000000,2017-06-07 21:37:01.000000000,closed,0,Validate block signatures w/ multiple types
+473,2017-06-03 21:05:26.000000000,2017-06-07 21:37:01.000000000,closed,1,wast2wasm: more than one result type accepted by 'block' and 'if'
+472,2017-06-03 05:38:19.000000000,2017-06-04 01:20:05.000000000,closed,0,"Use C++ classes for {apply,resolve,generate}-names"
+471,2017-06-03 02:33:49.000000000,2017-06-03 04:20:50.000000000,closed,0,Make ExprVisitor into C++ class
+470,2017-06-02 22:42:19.000000000,2017-09-05 00:06:18.000000000,closed,2,Add functionality to the JS build
+469,2017-06-02 22:17:50.000000000,2017-06-03 01:20:33.000000000,closed,0,Fix assert in wasm2wast with invalid br var
+468,2017-06-02 21:15:08.000000000,2017-06-03 01:20:33.000000000,closed,0,assertion failure in wasm2wast in invalid module
+467,2017-06-02 05:24:40.000000000,2017-06-02 20:28:21.000000000,closed,0,Use override keyword where appropriate
+466,2017-06-02 05:09:48.000000000,2017-06-03 00:35:24.000000000,closed,0,Cleanup Lexer
+465,2017-06-01 02:07:39.000000000,2017-06-01 04:00:09.000000000,closed,0,Add option to generate inline exports in wat-writer
+464,2017-05-31 01:37:22.000000000,2017-06-01 00:43:06.000000000,closed,0,Cleanup logging in wasm-link
+463,2017-05-31 01:00:28.000000000,2017-06-01 00:42:17.000000000,closed,1,Update relocation offsets when fixing up section size
+462,2017-05-29 13:51:41.000000000,2017-06-09 12:36:39.000000000,closed,7,Support memory imports in wasm-link
+461,2017-05-27 13:25:23.000000000,2017-06-01 22:40:21.000000000,closed,2,Reduced link error test case (#447)
+460,2017-05-26 21:19:34.000000000,2017-05-27 01:23:01.000000000,closed,1,Add support for folding expressions in wat-writer
+459,2017-05-26 20:16:12.000000000,2017-09-05 00:05:38.000000000,closed,6,Update Homebrew Formula
+458,2017-05-26 01:17:59.000000000,2017-06-01 02:12:24.000000000,closed,2,Clean up the interpreter
+457,2017-05-25 23:44:42.000000000,2017-05-26 21:57:58.000000000,closed,0,Only use single line test output if attached to a tty
+456,2017-05-25 23:18:50.000000000,2017-05-26 00:52:36.000000000,closed,0,Change default tools path from 'out' to 'bin'
+455,2017-05-25 22:57:32.000000000,2017-05-26 00:52:25.000000000,closed,0,Rename wasmdump to wasm-objdump
+454,2017-05-24 02:24:47.000000000,2017-05-24 04:01:04.000000000,closed,0,Move interpreter stuff into its own namespace
+453,2017-05-23 23:53:42.000000000,2017-05-24 03:57:13.000000000,closed,0,[wasm-link] Add some helper methods to LinkerInputBinary
+452,2017-05-23 21:58:50.000000000,2017-05-23 23:00:43.000000000,closed,0,Add debug names to wasm-link tests
+451,2017-05-23 09:28:15.000000000,2017-05-23 23:22:10.000000000,closed,3,Clean up BinaryReader; rename to BinaryReaderDelegate
+450,2017-05-23 07:36:03.000000000,2017-05-23 21:41:50.000000000,closed,2,Use + with $(MAKE) to use jobserver
+449,2017-05-22 22:23:41.000000000,2017-05-23 20:09:16.000000000,closed,3,Don't include leading $ in wasm binary name section
+448,2017-05-22 22:23:10.000000000,2017-05-24 01:14:50.000000000,closed,1,wasm2wast should add $ to debug names
+447,2017-05-22 16:55:30.000000000,2017-06-01 00:42:17.000000000,closed,14,Function relocations not executing with wasm-link
+446,2017-05-22 12:52:10.000000000,2017-05-23 03:02:59.000000000,closed,2,Fix disassembly of 64-bit values in wasmdump
+445,2017-05-22 05:00:26.000000000,2017-05-23 03:02:59.000000000,closed,1,i64.const too big are not printed correctly by wasmdump
+444,2017-05-21 23:16:45.000000000,2017-05-23 00:47:05.000000000,closed,0,Update testsuite; fix bug w/ \0 in export name
+443,2017-05-20 04:53:11.000000000,2017-05-22 22:18:23.000000000,closed,0,[wasmdump] Include debug names for functions
+442,2017-05-19 10:23:44.000000000,2017-05-29 13:53:17.000000000,closed,10,Supporting memory exports in wasm-link
+441,2017-05-19 01:35:28.000000000,2017-05-19 21:15:41.000000000,closed,0,[wasmdump] Display function names at call sites in disassembly
+440,2017-05-18 19:33:49.000000000,2017-05-19 01:29:13.000000000,closed,11,Allow any module name
+439,2017-05-18 18:05:10.000000000,2018-03-17 02:10:24.000000000,closed,14,Supporting exported memory for wasm-link
+438,2017-05-18 04:44:08.000000000,2017-05-18 23:46:25.000000000,closed,1,Add support for type relocations
+437,2017-05-16 01:38:25.000000000,2017-05-18 19:50:41.000000000,closed,1,WIP: DO NOT COMMIT
+436,2017-05-15 23:53:40.000000000,2018-01-09 06:02:31.000000000,closed,4,Add options to wat-writer
+435,2017-05-15 15:01:41.000000000,2017-09-05 00:07:26.000000000,closed,2,wast text code can be easier?
+434,2017-05-14 02:34:42.000000000,2017-05-19 02:37:00.000000000,closed,12,"Why is WABT_LINK_MODULE_NAME is hardwired to ""__extern""?"
+433,2017-05-13 03:27:04.000000000,2017-05-15 21:07:22.000000000,closed,2,Use Index/Address/Offset instead of uint32_t
+432,2017-05-12 10:49:28.000000000,1970-01-01 00:00:00.000000001,open,2,Sourcemaps WIP
+431,2017-05-12 08:35:33.000000000,2017-05-12 09:09:38.000000000,closed,0,Use C++ style C headers (e.g. <cstdlib>)
+430,2017-05-12 00:58:52.000000000,2017-05-12 03:25:55.000000000,closed,0,[wasmdump] Make export section more readable
+429,2017-05-11 19:05:40.000000000,2017-05-19 22:12:34.000000000,closed,1,"Implement UTF-8 validation, update testsuite"
+428,2017-05-11 09:32:44.000000000,2017-05-12 00:52:42.000000000,closed,0,Use codemirror for wast2wasm JS demo
+427,2017-05-11 04:23:02.000000000,2017-05-11 04:59:06.000000000,closed,0,"Update relocation names to match ""spec"""
+426,2017-05-11 01:24:26.000000000,2017-05-24 22:35:56.000000000,closed,2,Ensure entries in name section appear in order
+425,2017-05-11 00:03:01.000000000,2017-05-11 01:24:04.000000000,closed,0,[wasmdump] Show function names along with relocations
+424,2017-05-10 23:52:15.000000000,1970-01-01 00:00:00.000000001,open,0,test running ignores changes to trailing/leading whitespce in output
+423,2017-05-10 23:43:16.000000000,2017-05-10 23:56:31.000000000,closed,3,Regenerate expected test output
+422,2017-05-10 21:02:18.000000000,2017-05-11 00:09:49.000000000,closed,5,[wasmdump] Don't assume names section is in order
+421,2017-05-10 04:18:37.000000000,2017-05-10 21:59:22.000000000,closed,0,Improve error messages in binary reader
+420,2017-05-09 03:01:28.000000000,2017-05-09 04:56:24.000000000,closed,0,Add wasmdump support for start section
+419,2017-05-08 15:58:17.000000000,2017-05-08 16:13:32.000000000,closed,3, fatal error: 'stdarg.h' file       not found
+418,2017-05-07 14:19:01.000000000,2017-05-09 04:46:47.000000000,closed,5,Add highlights to readme code-blocks
+417,2017-05-06 09:16:54.000000000,2018-08-18 01:45:53.000000000,closed,3,Manual pages
+416,2017-05-05 22:06:02.000000000,2017-05-13 03:34:55.000000000,closed,9,"Add fuzzing helper scripts, fix fuzzing bugs"
+415,2017-05-05 10:41:25.000000000,2017-05-05 11:02:07.000000000,closed,0,Remove unused terminals from lexer
+414,2017-05-04 19:04:57.000000000,2017-05-05 02:55:09.000000000,closed,1,note CMake version dependency on OSX
+413,2017-05-03 02:37:28.000000000,2017-05-05 03:31:47.000000000,closed,1,Rename all occurences of AST
+412,2017-04-27 06:21:35.000000000,2017-04-28 03:34:08.000000000,closed,1,"Move Opcode/OpcodeInfo to opcode.{c,h}"
+411,2017-04-26 23:31:01.000000000,2017-05-04 02:00:08.000000000,closed,5,wasmdump: support multiple input files
+410,2017-04-26 23:25:40.000000000,2017-04-27 00:32:41.000000000,closed,0,Update the testsuite
+409,2017-04-26 09:22:53.000000000,2017-04-26 09:23:01.000000000,closed,0,Update the online demo link in README.md
+408,2017-04-26 04:11:09.000000000,1970-01-01 00:00:00.000000001,open,2,Add support R_WEBASSEMBLY_GLOBAL_ADDR_* relocation types
+407,2017-04-26 04:01:57.000000000,2017-04-26 09:09:57.000000000,closed,3,Fix emscripten demo and libwabt.js
+406,2017-04-26 01:48:54.000000000,2017-04-26 04:11:43.000000000,closed,0,Improve wasmdump output for relocations and data segments
+405,2017-04-25 04:24:18.000000000,2017-04-25 21:13:50.000000000,closed,0,Split read_custom_section smaller functions
+404,2017-04-24 22:37:35.000000000,2017-04-25 00:29:26.000000000,closed,0,"Make ASTWriter, BinaryWriter, BinaryWriterSpec C++ classes"
+403,2017-04-21 02:11:09.000000000,2017-04-25 02:18:57.000000000,closed,0,"Change {Source,Binary}ErrorHandler to C++"
+402,2017-04-18 23:58:13.000000000,2017-04-19 00:45:49.000000000,closed,0,Fix appveyor build after a4751fe7
+401,2017-04-17 21:15:17.000000000,2017-04-18 21:22:56.000000000,closed,1,Fix uninitialized value in binary-writer-spec
+400,2017-04-15 05:45:13.000000000,2017-04-19 01:52:02.000000000,closed,1,Define the implicit func type before the function
+399,2017-04-14 05:25:16.000000000,2017-04-17 03:07:04.000000000,closed,6,Refactor Stream/Writer; write as C++
+398,2017-04-13 09:27:24.000000000,2017-04-13 10:24:02.000000000,closed,1,Is English no good
+397,2017-04-08 14:21:38.000000000,2017-04-08 23:02:23.000000000,closed,3,"Opcodes i64.clz, i64.ctz and i64.popcnt only have one argument"
+396,2017-04-05 22:26:40.000000000,2017-04-06 00:57:28.000000000,closed,0,Remove waterfall's known failures
+395,2017-04-05 05:19:03.000000000,2017-04-06 01:59:08.000000000,closed,0,Refactor wasmdump so that the disassembly pass has its own reader class
+394,2017-04-05 05:03:00.000000000,2017-04-05 05:19:13.000000000,closed,0,Disable 3 warnings on MSVC and build with warnings as errors.
+393,2017-04-05 04:17:33.000000000,2017-04-05 22:29:12.000000000,closed,2,[wasmdump] Don't print opcodes unless we are disassembling
+392,2017-04-05 04:15:29.000000000,2017-04-06 23:22:11.000000000,closed,2,Update testsuite to spec f1b89dfaf379060c7e35eb90b7daeb14d4ade3f7
+391,2017-04-05 03:22:32.000000000,2017-04-05 22:28:36.000000000,closed,4,Use 8 hex digits for wasm version rather than 6
+390,2017-04-05 01:18:33.000000000,2017-04-05 04:00:32.000000000,closed,0,Fix type-checking bug w/ br_table and loop
+389,2017-04-05 00:04:55.000000000,2017-04-05 04:00:38.000000000,closed,2,br_table validation failure
+388,2017-04-04 06:26:34.000000000,2017-04-04 22:45:42.000000000,closed,4,[wasmlink] Relocate indexes in the gererated reloc section
+387,2017-04-04 05:59:04.000000000,2017-04-04 21:34:07.000000000,closed,0,Add dump test that shows inline relocations
+386,2017-04-03 02:57:07.000000000,1970-01-01 00:00:00.000000001,open,8,Stdin/out support
+385,2017-04-01 05:11:41.000000000,2017-04-05 04:09:16.000000000,closed,2,Run tests on AppVeyor
+384,2017-04-01 03:31:41.000000000,2017-04-03 23:30:37.000000000,closed,3,Fix function name indices for imported functions
+383,2017-03-31 22:44:48.000000000,2017-04-01 02:19:00.000000000,closed,0,Return non-zero on travis if tests fail
+382,2017-03-31 02:20:43.000000000,2017-03-31 21:27:39.000000000,closed,0,Properly handle keyboard interrupt in run-tests.py
+381,2017-03-31 01:40:34.000000000,2017-04-01 02:59:09.000000000,closed,8,Allow names section to be sparse
+380,2017-03-31 01:23:58.000000000,2017-03-31 01:24:17.000000000,closed,0,Don't force color diagnostics on Clang
+379,2017-03-30 04:17:22.000000000,2017-03-31 23:32:13.000000000,closed,2,Add -p option to run-tests.py to show the commands it runs
+378,2017-03-30 04:12:48.000000000,2018-05-08 00:56:55.000000000,closed,4,Handling errors in custom sections
+377,2017-03-30 03:10:39.000000000,2017-03-30 05:00:46.000000000,closed,1,Cleanup default test tools declartion in run-tests.py
+376,2017-03-30 03:01:04.000000000,2017-03-31 01:17:30.000000000,closed,5,Use classes + virtual functions for BinaryReader
+375,2017-03-30 01:49:41.000000000,2017-03-31 01:12:48.000000000,closed,2,Verify the sizes of the sub-sections within the name section
+374,2017-03-30 01:34:54.000000000,2017-03-30 03:09:44.000000000,closed,3,wasmlink: Fix function indexes in name section
+373,2017-03-30 01:09:52.000000000,2017-03-30 01:17:14.000000000,closed,1,wasmlink: Fix function indexes in name section
+372,2017-03-30 00:18:49.000000000,2017-03-30 01:09:41.000000000,closed,0,wasmdump: Fix output of local names
+371,2017-03-29 00:24:27.000000000,2017-03-29 03:44:52.000000000,closed,4,Demo generation
+370,2017-03-26 01:40:33.000000000,2017-03-28 22:24:43.000000000,closed,2,.wast assert_return_canonical_nan & assert_return_arithmetic_nan
+369,2017-03-25 11:50:29.000000000,2017-04-26 09:25:33.000000000,closed,2,WASM code on demo page uses WASM_BINARY_VERSION `0d00 0000` instead of `0100 0000`
+368,2017-03-24 23:13:06.000000000,2017-03-25 01:44:37.000000000,closed,1,Support arithmetic/canonical NaN; update testsuite
+367,2017-03-23 23:26:49.000000000,2017-03-24 00:33:30.000000000,closed,0,Windows parse hexfloat
+366,2017-03-22 21:16:29.000000000,2017-03-23 08:14:17.000000000,closed,1,Replace wabt::*vector with std::vector
+365,2017-03-22 11:51:57.000000000,2017-04-05 00:02:50.000000000,closed,6,How to run tests with Travis?
+364,2017-03-22 02:59:35.000000000,2017-03-22 23:59:20.000000000,closed,2,wasmdump: Improve printing on relocation information
+363,2017-03-21 21:10:24.000000000,2017-10-10 23:17:35.000000000,closed,1,Add regression test for lexing bug (from #361)
+362,2017-03-21 05:10:47.000000000,2017-03-23 21:36:13.000000000,closed,4,MSVC++ 12.0 float hex string parse workaround
+361,2017-03-20 12:33:07.000000000,2017-03-21 21:11:03.000000000,closed,3,Fix lexing from binary buffer
+360,2017-03-17 21:53:47.000000000,2017-03-17 22:23:45.000000000,closed,1,Define __STDC_*_MACROS for all non-MSVC compilers
+359,2017-03-17 09:37:22.000000000,2017-03-17 22:45:13.000000000,closed,0,"Add wabt::string_view, based on C++17 string_view"
+358,2017-03-17 01:39:31.000000000,2017-03-17 05:27:39.000000000,closed,0,Add callback for end opcode and end of function
+357,2017-03-16 04:01:36.000000000,2017-03-17 01:49:06.000000000,closed,1,Use std::unordered_multimap for BindingHash
+356,2017-03-16 00:49:08.000000000,2017-03-16 03:29:37.000000000,closed,1,Fix potential one-definition-rule breaking structs
+355,2017-03-15 04:12:47.000000000,2017-03-18 00:56:10.000000000,closed,1,Add install target to Makefile
+354,2017-03-15 02:35:30.000000000,2017-09-13 20:37:59.000000000,closed,2,rename wast2wasm to wat2wasm?
+353,2017-03-14 22:40:48.000000000,2017-03-14 23:02:35.000000000,closed,0,Update testsuite to 066e17da (spec e0778664)
+352,2017-03-14 00:00:19.000000000,2017-03-14 02:54:17.000000000,closed,0,"Update relocation encoding to latest ""spec"""
+351,2017-03-11 06:15:07.000000000,2017-03-14 03:32:12.000000000,closed,0,Fix crash using binary reader logging with error
+350,2017-03-11 04:37:44.000000000,2017-03-14 00:00:54.000000000,closed,1,Add more detailed errors and logging to binary-reader
+349,2017-03-11 00:01:21.000000000,2017-03-11 06:01:46.000000000,closed,0,Remove all uses of WABT_VECTOR from interpreter
+348,2017-03-10 19:48:44.000000000,2017-03-10 23:40:22.000000000,closed,1,binary reader API: pass module/field names to on_import_*
+347,2017-03-10 07:41:08.000000000,2017-03-10 08:34:59.000000000,closed,1,Move loop variable into for loop header
+346,2017-03-10 00:10:20.000000000,2017-03-10 00:30:52.000000000,closed,1,Fix mingw build by defining _POSIX
+345,2017-03-09 12:49:56.000000000,2017-03-10 04:04:22.000000000,closed,3,use array of chars instead of pointer to chars so sizeof is correct
+344,2017-03-09 11:14:33.000000000,2017-03-09 13:55:41.000000000,closed,4,[Mingw64] fix print format warning
+343,2017-03-09 06:28:46.000000000,2017-03-09 14:45:33.000000000,closed,1,"Disable print checking on mingw64, roll appveyor"
+342,2017-03-09 02:50:27.000000000,2017-03-10 01:52:15.000000000,closed,1,Remove src/array.h and use std::vector instead
+341,2017-03-08 07:32:34.000000000,2017-03-08 09:27:25.000000000,closed,0,Use wabt_snprintf instead of calling snprintf directly
+340,2017-03-07 22:03:14.000000000,2017-03-08 00:00:56.000000000,closed,0,Don't dump debug info more than once in wasmdump
+339,2017-03-07 21:09:10.000000000,2017-03-10 00:36:48.000000000,closed,12,Build errors on macOS 10.10.5?
+338,2017-03-06 20:42:50.000000000,2017-03-07 20:33:24.000000000,closed,0,Add --debug flag to wasmdump and wasm-link
+337,2017-03-06 15:54:11.000000000,2017-03-07 04:07:59.000000000,closed,7,Extensible name section support
+336,2017-03-06 13:09:07.000000000,2017-03-06 13:27:25.000000000,closed,0,Use the CMAKE_STANDARD property on all targets
+335,2017-03-06 12:29:46.000000000,2017-03-06 12:43:21.000000000,closed,0,Only run flake8 on Travis Linux
+334,2017-03-05 18:58:00.000000000,2017-05-10 23:52:22.000000000,closed,4,new name section support
+333,2017-03-05 09:53:18.000000000,2017-03-07 21:50:54.000000000,closed,9,'vector' file not found #include <vector>
+332,2017-03-04 04:51:21.000000000,2017-03-07 00:34:38.000000000,closed,0,Use new/delete instead of malloc/free
+331,2017-03-02 03:36:58.000000000,2017-03-03 12:14:32.000000000,closed,1,Replace the Wabt/wabt prefix with a C++ namespace
+330,2017-03-02 03:36:47.000000000,2017-03-02 10:50:12.000000000,closed,0,Update CMake and Makefile to use .hh instead of .h
+329,2017-03-01 15:24:53.000000000,2017-03-02 03:14:41.000000000,closed,2,Make most enumerations into enum classes
+328,2017-02-28 18:32:36.000000000,2017-03-01 19:21:21.000000000,closed,2,error: @0x00000004: bad magic value
+327,2017-02-28 14:22:30.000000000,2017-02-28 14:56:42.000000000,closed,0,Mingw64 workaround
+326,2017-02-28 08:53:17.000000000,2017-04-13 21:59:08.000000000,closed,1,Run tests on Appveyor
+325,2017-02-28 06:20:28.000000000,2017-03-06 12:43:48.000000000,closed,0,Fix OS X build
+324,2017-02-28 05:40:17.000000000,2017-03-10 07:15:53.000000000,closed,8,MSYS2 6.3.0 build fails
+323,2017-02-28 05:33:53.000000000,2017-02-28 05:47:43.000000000,closed,1,Roll back to previous MSYS2
+322,2017-02-28 02:57:53.000000000,2017-05-23 07:38:37.000000000,closed,0,"Use Index/Address/Offset types instead of size_t/int, etc."
+321,2017-02-27 14:56:24.000000000,2017-02-27 15:42:33.000000000,closed,1,Tag binary_0xd 
+320,2017-02-27 13:56:55.000000000,2017-02-28 07:09:37.000000000,closed,0,"Require C++-style casts, disallow C-style casts"
+319,2017-02-27 12:06:57.000000000,2017-03-07 05:51:04.000000000,closed,2,Check that bison stacks are trivially copyable
+318,2017-02-26 09:23:12.000000000,2017-02-28 08:54:17.000000000,closed,3,Use perror to output error messages when reading files
+317,2017-02-25 01:56:24.000000000,2017-02-25 05:49:49.000000000,closed,0,Remove struct and enum typedefs
+316,2017-02-24 06:22:38.000000000,1970-01-01 00:00:00.000000001,open,0,New Wabt API
+315,2017-02-24 05:57:59.000000000,2017-02-24 23:45:41.000000000,closed,0,Change NULL -> nullptr
+314,2017-02-24 05:15:06.000000000,2017-03-07 05:51:31.000000000,closed,0,Add static_assert to ensure that Bison stack is trivially copyable
+313,2017-02-24 04:43:49.000000000,2017-02-28 07:19:04.000000000,closed,4,Update gen-spec-js to support assert_exhaustion
+312,2017-02-24 03:47:54.000000000,2017-02-24 06:37:28.000000000,closed,3,Use multiprocessing.pool
+311,2017-02-24 01:35:25.000000000,2017-02-24 02:39:17.000000000,closed,0,Update testsuite
+310,2017-02-23 06:04:49.000000000,2017-02-25 05:48:29.000000000,closed,4,Update wasm binary format label to 1
+309,2017-02-23 01:14:40.000000000,2017-02-24 05:19:53.000000000,closed,8,Switch C files to CC files
+308,2017-02-17 23:36:50.000000000,2017-09-05 00:01:02.000000000,closed,13,Move to C++
+307,2017-02-17 12:17:55.000000000,2017-02-18 05:32:20.000000000,closed,0,Remove WabtAllocator
+306,2017-02-16 05:42:47.000000000,2017-06-29 21:29:23.000000000,closed,5,Validation behavior for wabt tools
+305,2017-02-16 04:11:15.000000000,2017-02-17 00:02:52.000000000,closed,0,Fix bug in wasm2wast w/ many imports
+304,2017-02-16 02:57:46.000000000,2017-02-17 00:03:05.000000000,closed,2,Assertion on wasm file
+303,2017-02-15 03:24:26.000000000,2017-02-15 22:06:10.000000000,closed,1,Add coverage build
+302,2017-02-11 06:46:58.000000000,2017-02-15 00:05:44.000000000,closed,0,Full typechecking for unreachable code
+301,2017-02-03 02:32:10.000000000,2017-02-03 03:28:05.000000000,closed,0,Add missing EXTERN_C_END to validator.h
+300,2017-02-02 03:50:26.000000000,2017-02-02 05:46:09.000000000,closed,0,Update emscripten build and demo
+299,2017-02-01 02:01:57.000000000,2017-02-16 04:13:57.000000000,closed,1,validation mode for structurally-unreachable code
+298,2017-01-31 11:43:50.000000000,2017-02-01 06:16:19.000000000,closed,1,Rename all wasm prefixes to wabt
+297,2017-01-29 08:18:52.000000000,2017-01-30 08:02:50.000000000,closed,0,Update testsuite
+296,2017-01-28 16:52:02.000000000,2017-01-30 23:31:44.000000000,closed,1,"Remove assert_{invalid,malformed} checks from wast2wast"
+295,2017-01-27 09:16:40.000000000,2017-01-27 23:52:52.000000000,closed,1,Update README now that wasm2wast defaults to including debug names
+294,2017-01-26 13:14:29.000000000,2017-01-28 00:00:35.000000000,closed,1,Implement assert_invalid for wasm-interp
+293,2017-01-26 04:21:15.000000000,2017-01-27 02:17:38.000000000,closed,1,Resolve names in assert_invalid modules
+292,2017-01-26 02:22:52.000000000,2017-01-27 04:34:03.000000000,closed,0,Wast2Wasm: Assertion failed: var->type == WASM_VAR_TYPE_INDEX
+291,2017-01-24 06:29:00.000000000,2017-01-25 00:16:37.000000000,closed,0,Update testsuite
+290,2017-01-24 05:38:38.000000000,2017-01-24 05:57:10.000000000,closed,1,Assert exhaustion
+289,2017-01-24 05:02:33.000000000,2017-01-24 21:51:54.000000000,closed,1,Fix reading of custom section relocations
+288,2017-01-23 23:35:35.000000000,2017-01-24 00:02:49.000000000,closed,0,Remove index assertions in binary-writer.c
+287,2017-01-23 09:48:29.000000000,2017-01-24 01:00:25.000000000,closed,0,Don't apply names in name section to globals
+286,2017-01-22 05:26:22.000000000,2017-01-26 11:41:57.000000000,closed,0,wasm2wast prints incorrect name for global export
+285,2017-01-21 04:51:34.000000000,2017-01-24 00:18:54.000000000,closed,1,Add function names and relocations to wasmdump disassembly
+284,2017-01-20 21:56:52.000000000,2017-01-20 22:57:48.000000000,closed,0,Improve wasmdump command line options
+283,2017-01-20 05:19:21.000000000,2017-01-20 06:01:37.000000000,closed,0,Pass import_index to binary reader import callbacks
+282,2017-01-19 04:20:39.000000000,2017-01-19 23:41:19.000000000,closed,1,Allow more names than function in binary-reader
+281,2017-01-19 03:08:16.000000000,2017-01-19 06:00:39.000000000,closed,1,Flake8 travis
+280,2017-01-19 00:32:16.000000000,2017-01-19 02:52:40.000000000,closed,1,Use sudo: false in travis builds
+279,2017-01-19 00:24:59.000000000,2017-01-19 01:51:07.000000000,closed,1,Remove duplicate copy of section string names
+278,2017-01-18 04:08:18.000000000,2017-01-19 00:08:41.000000000,closed,1,Always use function index space in wasmdump
+277,2017-01-18 03:49:56.000000000,2017-01-19 00:08:56.000000000,closed,1,function-section index versus function-index-space index
+276,2017-01-17 23:22:35.000000000,2017-01-19 04:20:26.000000000,closed,2,Add support for yapf python formatting tool
+275,2017-01-14 00:38:50.000000000,2017-03-28 01:36:49.000000000,closed,1,Make ownership of string names in WasmBindingHash optional
+274,2017-01-14 00:36:46.000000000,2017-07-26 01:38:35.000000000,closed,2,We should be consistent about how we pass WasmStringSlice 
+273,2017-01-11 22:34:37.000000000,2017-01-12 18:44:11.000000000,closed,1,Pass --bindir to test helpers rather than full path to each tool
+272,2017-01-11 22:06:17.000000000,2017-01-14 00:34:44.000000000,closed,8,decoding the end of the reloc section
+271,2017-01-11 21:10:32.000000000,2017-01-21 00:43:39.000000000,closed,1,Add symbol resolution to wasm-link
+270,2017-01-10 00:19:52.000000000,2017-01-10 19:21:34.000000000,closed,1,wasmdump: allow raw dump of specific section
+269,2017-01-07 05:41:33.000000000,2017-01-10 02:34:31.000000000,closed,0,Update testsuite
+268,2017-01-07 05:21:14.000000000,2017-01-08 04:12:49.000000000,closed,0,"wast2wasm: don't write .0.wasm, w/ --spec"
+267,2017-01-07 03:41:09.000000000,1970-01-01 00:00:00.000000001,open,1,Dump raw contents of a single custom section?
+266,2017-01-06 22:39:15.000000000,2017-01-07 00:18:30.000000000,closed,1,Remove use python3-only newline argument to open()
+265,2017-01-05 23:14:25.000000000,2017-01-06 02:29:16.000000000,closed,1,Add extra casts in headers to remove warnings when building in C++ mode
+264,2017-01-04 02:48:41.000000000,2017-01-04 04:40:06.000000000,closed,0,Fail when running wast2wasm w/ no module
+263,2017-01-04 01:05:17.000000000,2017-01-04 04:38:34.000000000,closed,0,"On FreeBSD, alloca is in stdlib.h"
+262,2017-01-03 22:06:03.000000000,2017-01-05 00:34:36.000000000,closed,3,Add support to Freebsd build
+261,2016-12-28 01:02:45.000000000,2016-12-28 05:05:35.000000000,closed,0,Fix some binary reader bugs found by fuzzing
+260,2016-12-27 23:52:41.000000000,2016-12-28 00:11:09.000000000,closed,1,Update gen-spec-prefix.js
+259,2016-12-27 23:50:08.000000000,2017-01-04 01:04:22.000000000,closed,0,assert_unlinkable should check for LinkError instead of type error
+258,2016-12-27 10:48:34.000000000,2017-01-07 05:00:09.000000000,closed,2,Assertion failure in validator
+257,2016-12-25 02:38:49.000000000,2016-12-26 02:01:44.000000000,closed,0,Write modules w/ invalid segments
+256,2016-12-24 23:46:15.000000000,2016-12-27 23:45:05.000000000,closed,4,It doesn't appear that the data section is being generated for a particular wast file when running run-gen-spec-test.py
+255,2016-12-23 08:49:48.000000000,2017-01-06 03:35:24.000000000,closed,0,Update test/run-tests.py
+254,2016-12-22 05:35:15.000000000,2016-12-23 05:11:27.000000000,closed,3,"""Copied from"" is so inelegant"
+253,2016-12-22 02:51:38.000000000,2017-01-07 04:03:39.000000000,closed,6,wasm2wast: parse the name section by default
+252,2016-12-21 02:25:18.000000000,2016-12-21 02:45:17.000000000,closed,0,Add a couple of string slice utility functions
+251,2016-12-20 04:48:05.000000000,2016-12-20 05:01:54.000000000,closed,1, Added symlinks to 'make clean' rule 
+250,2016-12-20 02:36:18.000000000,2016-12-21 00:25:06.000000000,closed,0,Validate function vars in elem segments
+249,2016-12-19 18:06:46.000000000,2016-12-20 04:47:58.000000000,closed,2,Fix orphaned symlinks
+248,2016-12-16 05:31:53.000000000,2016-12-20 00:48:52.000000000,closed,0,Rewrite the binary section reader code
+247,2016-12-16 02:57:55.000000000,2016-12-16 05:31:24.000000000,closed,0,Update testsuite to f71cbe72bd5f4fb871bee39a9dc1278fa662a8a5
+246,2016-12-15 06:44:43.000000000,2016-12-16 00:50:50.000000000,closed,0,Add check for sections that end before they are expected too
+245,2016-12-14 00:22:31.000000000,2016-12-15 06:44:37.000000000,closed,0,Make some binary reading/writing utilities public
+244,2016-12-13 05:32:29.000000000,2016-12-14 00:00:47.000000000,closed,1,wasmdump: improve printing of limits
+243,2016-12-12 13:16:10.000000000,2016-12-13 00:10:01.000000000,closed,0,"Add new ""fail"" spec tests"
+242,2016-12-11 03:26:34.000000000,2016-12-11 03:27:35.000000000,closed,2,"clang-format, and python3 support in gen-spec-js.py"
+241,2016-12-10 04:02:02.000000000,2016-12-11 03:09:26.000000000,closed,3,Adjust asserts to allow writing invalid modules
+240,2016-12-10 01:40:12.000000000,2016-12-10 04:16:55.000000000,closed,1,wasmdump: add memory index to segment info
+239,2016-12-09 05:49:40.000000000,2016-12-10 06:14:30.000000000,closed,0,Update testsuite
+238,2016-12-09 01:30:21.000000000,2016-12-09 03:55:00.000000000,closed,1,wasmdump: dump data segements
+237,2016-12-08 05:16:28.000000000,2016-12-09 04:03:59.000000000,closed,10,"Use threading, not multiprocessing, in run-tests"
+236,2016-12-08 01:12:17.000000000,2016-12-08 03:50:58.000000000,closed,1,wasmdump: improve print of tables and elements
+235,2016-12-06 06:37:53.000000000,2016-12-06 07:43:16.000000000,closed,1,Escape source filename when writing to json
+234,2016-12-06 05:03:40.000000000,2016-12-07 06:31:43.000000000,closed,0,"Implement assert_{malformed,unlinkable,uninstantiable}"
+233,2016-12-03 08:29:09.000000000,2016-12-05 20:13:22.000000000,closed,2,Error message isn't printed due to invalid conversions through void*
+232,2016-12-03 02:24:59.000000000,2016-12-05 23:54:02.000000000,closed,1,Add wasm_get_section_name to binary.h
+231,2016-12-02 23:06:00.000000000,2016-12-05 23:25:39.000000000,closed,0,Rename `user` sections to `custom` sections
+230,2016-12-01 07:13:21.000000000,2016-12-03 00:25:06.000000000,closed,1,Improve handling of globals in wasmdump
+229,2016-11-30 23:31:21.000000000,2016-12-06 04:42:24.000000000,closed,1,Fix gen-spec-js.py
+228,2016-11-24 07:28:30.000000000,2017-01-11 19:21:23.000000000,closed,1,Add support for linkable modules
+227,2016-11-24 04:27:41.000000000,2016-11-29 01:47:44.000000000,closed,0,Convert tests to new flat syntax
+226,2016-11-24 00:08:17.000000000,2016-12-01 05:18:59.000000000,closed,5,Wasmdump improvments
+225,2016-11-23 05:53:49.000000000,2016-11-23 23:40:53.000000000,closed,0,wasmdump: Dump contents of `name` section
+224,2016-11-22 06:06:50.000000000,2016-11-23 04:11:31.000000000,closed,1,Converted typecheck tests to flat syntax
+223,2016-11-22 03:03:28.000000000,2016-11-22 04:17:17.000000000,closed,1,Update README.md
+222,2016-11-17 16:27:59.000000000,2016-11-17 23:35:14.000000000,closed,1,Convert tests to new flat syntax
+221,2016-11-16 23:49:11.000000000,2016-11-20 01:52:58.000000000,closed,0,Rename check to validate in most places
+220,2016-11-15 06:46:16.000000000,2016-11-19 05:20:14.000000000,closed,0,Parse arbitrary user sections
+219,2016-11-15 05:31:17.000000000,2016-11-15 05:50:26.000000000,closed,0,Add tests for 'wasmdump -h'
+218,2016-11-15 03:41:23.000000000,2016-11-16 23:21:49.000000000,closed,5,Add wast_resolve_names_* as a separate pass
+217,2016-11-12 19:03:19.000000000,2016-11-15 03:58:05.000000000,closed,1,Convert tests to new flat syntax
+216,2016-11-12 09:00:27.000000000,2016-11-15 01:08:30.000000000,closed,0,Allow named imports in the names section
+215,2016-11-12 00:38:10.000000000,2016-11-15 01:09:32.000000000,closed,2,Update Names section for 0xd
+214,2016-11-12 00:34:57.000000000,2016-11-19 05:20:14.000000000,closed,3,wasmdump doesn't seem to dump Names section
+213,2016-11-10 06:06:18.000000000,2016-11-11 03:29:46.000000000,closed,0,Don't allow defined globals without an init expr
+212,2016-11-10 05:31:14.000000000,2016-11-11 03:29:46.000000000,closed,0,Don't read data outside the section boundaries
+211,2016-11-09 00:46:17.000000000,2016-11-10 06:01:22.000000000,closed,0,Convert tests to new flat syntax
+210,2016-11-09 00:00:14.000000000,2016-11-09 01:27:07.000000000,closed,0,Fix spec/binary test
+209,2016-11-08 23:33:15.000000000,2016-11-08 23:59:13.000000000,closed,0,Fix spec/linking test
+208,2016-11-08 02:53:37.000000000,2016-11-08 21:02:38.000000000,closed,1,Fix spec imports test
+207,2016-11-08 01:44:30.000000000,2016-11-08 05:12:56.000000000,closed,0,Update spec tests
+206,2016-11-08 01:14:10.000000000,2016-11-08 02:40:39.000000000,closed,0,Simplify the default error handler
+205,2016-11-07 19:49:01.000000000,2016-11-08 02:58:19.000000000,closed,1,Convert tests to new flat syntax
+204,2016-11-04 23:00:22.000000000,2016-11-05 06:51:09.000000000,closed,0,Fix the export spec test
+203,2016-11-04 03:28:03.000000000,2016-11-08 02:25:30.000000000,closed,3,Spec JSON new format question
+202,2016-11-03 22:06:59.000000000,2016-11-04 21:34:42.000000000,closed,1,more parse tests converted #139
+201,2016-11-03 03:16:54.000000000,2016-11-03 23:57:10.000000000,closed,4,Fix appveyor for MSYS build
+200,2016-11-03 03:05:11.000000000,2016-11-04 00:08:46.000000000,closed,3,Use a new format for the spec JSON writer/parser
+199,2016-11-02 01:07:02.000000000,2016-11-03 22:06:04.000000000,closed,4,Update tests syntax to new flat syntax more tests
+198,2016-11-01 01:47:32.000000000,1970-01-01 00:00:00.000000001,open,1,wasm-interp arguments
+197,2016-11-01 00:18:20.000000000,2016-11-01 00:42:45.000000000,closed,1,Convert WasmType into an enum
+196,2016-10-29 04:49:59.000000000,2016-10-29 04:50:32.000000000,closed,0,Update demo examples to linear format
+195,2016-10-29 04:24:05.000000000,2016-10-29 04:25:09.000000000,closed,0,Update demo link in README.md to 0xd
+194,2016-10-29 04:21:29.000000000,2016-10-29 04:22:00.000000000,closed,0,Update emscripten demo to 0xd
+193,2016-10-29 02:22:40.000000000,2016-11-01 04:51:35.000000000,closed,3,Update tests syntax to new flat syntax
+192,2016-10-28 05:06:07.000000000,2016-11-01 03:58:52.000000000,closed,3,wasmdump improvments
+191,2016-10-26 21:36:04.000000000,2016-10-26 22:29:28.000000000,closed,2,Move import to top of Python file
+190,2016-10-26 16:14:42.000000000,2016-10-28 01:28:32.000000000,closed,1,Update tests syntax to new flat syntax
+189,2016-10-26 02:34:23.000000000,2016-10-26 21:23:43.000000000,closed,1,Add appveyor.yml from Binaryen
+188,2016-10-26 00:58:57.000000000,2016-11-11 03:43:20.000000000,closed,0,read_init_expr should not allow an empty expression
+187,2016-10-25 23:14:07.000000000,2016-10-25 23:59:52.000000000,closed,1,Reorder some f32/f64 ops
+186,2016-10-25 19:57:52.000000000,2016-11-04 03:23:54.000000000,closed,2,We should have an AppVeyor build
+185,2016-10-25 12:06:45.000000000,2016-10-26 00:11:22.000000000,closed,1,Float opcode ordering
+184,2016-10-25 05:39:26.000000000,2016-10-26 00:12:35.000000000,closed,7,Win32 build
+183,2016-10-25 00:47:09.000000000,2016-10-25 03:46:57.000000000,closed,1,Add reserved immediate to three operators
+182,2016-10-24 22:38:28.000000000,2016-10-25 03:24:18.000000000,closed,0,Fix types for binary 0xd
+181,2016-10-24 21:52:09.000000000,2016-10-25 00:07:32.000000000,closed,2,wasm2wast crashes when using -v flag
+180,2016-10-23 01:00:13.000000000,2016-10-26 00:14:37.000000000,closed,3,Update tests syntax to new flat syntax
+179,2016-10-22 03:23:36.000000000,2016-10-25 00:09:11.000000000,closed,1,Create module_bindings hash in WasmScript
+178,2016-10-22 00:22:12.000000000,2016-10-24 22:54:37.000000000,closed,1,Refactor interpreter for linking support
+177,2016-10-21 02:06:38.000000000,2016-11-11 03:43:10.000000000,closed,1,binary parser should error out when section size is 0
+176,2016-10-21 00:45:48.000000000,2016-10-25 00:01:56.000000000,closed,1,Remap the operator encoding for binary 0xd
+175,2016-10-21 00:36:57.000000000,2016-10-21 00:44:32.000000000,closed,3,Remap the operator encoding for binary 0xd
+174,2016-10-21 00:04:00.000000000,2016-10-21 00:42:01.000000000,closed,1,Update tests syntax to new flat syntax
+173,2016-10-20 03:41:03.000000000,2016-10-20 03:42:05.000000000,closed,0,Rename src/exe -> src/tools
+172,2016-10-20 00:01:36.000000000,2016-10-20 01:38:08.000000000,closed,1,Update tests syntax to new flat syntax
+171,2016-10-19 23:29:49.000000000,2016-10-20 03:35:34.000000000,closed,3,wastfmt: tool to reformat and desugar a wast file
+170,2016-10-19 22:50:47.000000000,2016-10-19 22:51:23.000000000,closed,4,Move executable sources to src/exe
+169,2016-10-18 15:18:22.000000000,2016-10-18 22:59:20.000000000,closed,1,Update tests syntax to new flat syntax
+168,2016-10-18 06:54:42.000000000,2016-10-18 12:24:30.000000000,closed,1,Replace zx with PRIzx
+167,2016-10-18 03:46:31.000000000,2016-12-01 05:18:59.000000000,closed,3,wasmdump cleanup
+166,2016-10-17 16:56:41.000000000,2016-10-17 22:59:46.000000000,closed,0,updated selected test files to new flat format #139
+165,2016-10-14 03:28:03.000000000,2016-10-14 03:28:26.000000000,closed,2,Allow failures on the OSX build
+164,2016-10-14 02:38:26.000000000,2016-10-14 02:48:21.000000000,closed,1,Add wasmdump to list of intall targets
+163,2016-10-14 00:21:11.000000000,2016-10-14 03:32:32.000000000,closed,1,Update testsuite and fix tests
+162,2016-10-12 00:14:55.000000000,2016-10-28 21:00:41.000000000,closed,1,Add command-line flags to control reports of wasmopcodecnt.
+161,2016-10-11 06:30:24.000000000,2016-10-13 00:32:50.000000000,closed,3,Add wasmdump binary for inspecting wasm files
+160,2016-10-11 01:39:34.000000000,2017-01-04 04:41:03.000000000,closed,1,wast2wasm should error/warn on empty input
+159,2016-10-08 03:34:53.000000000,2016-10-10 22:54:17.000000000,closed,1,Add wasmopcodecnt tests
+158,2016-10-08 03:08:59.000000000,2018-01-27 13:26:16.000000000,closed,5,Add emscripten builder for Travis
+157,2016-10-08 03:06:03.000000000,2016-10-12 01:38:43.000000000,closed,2,Fix emscripten build to work with 0xc
+156,2016-10-08 02:59:39.000000000,2016-10-10 22:54:17.000000000,closed,0,Add tests for `wasmopcodecnt`
+155,2016-10-08 01:04:44.000000000,2016-10-08 01:31:02.000000000,closed,1,Fix start spec test
+154,2016-10-07 06:59:56.000000000,2016-10-07 20:59:55.000000000,closed,0,Remove trailing whitespace from hexdumps
+153,2016-10-07 06:49:02.000000000,2016-10-08 01:26:05.000000000,closed,0,Split out read_function_body into its own funcion
+152,2016-10-07 02:52:24.000000000,2016-10-07 03:13:34.000000000,closed,2,wast2wasm doesn't parse musl.wast
+151,2016-10-07 01:41:34.000000000,2016-10-07 02:51:00.000000000,closed,1,Allow adding elem segments to imported table
+150,2016-10-07 01:21:30.000000000,2016-10-07 02:50:28.000000000,closed,0,Refactor all uses of s_opcode_ to use functions
+149,2016-10-06 23:03:17.000000000,2016-10-07 02:30:59.000000000,closed,1,"Collect commonly used  instructions, not just opcodes."
+148,2016-10-06 04:24:18.000000000,2016-10-07 00:30:29.000000000,closed,1,Fix most of the spec tests
+147,2016-10-06 00:55:44.000000000,2016-10-12 04:06:27.000000000,closed,2,Add WasmBinaryReaderContext type which is passed to reader callback
+146,2016-10-05 11:32:08.000000000,2016-10-05 20:57:06.000000000,closed,3,don't try to evaluate imported globals
+145,2016-10-05 08:06:14.000000000,2016-10-05 20:32:42.000000000,closed,1,Fix crash bug when -d specified without -v
+144,2016-10-04 20:08:53.000000000,2016-10-04 20:15:57.000000000,closed,1,fix bug defining a global by an imported global
+143,2016-10-04 03:38:30.000000000,2016-10-04 20:15:57.000000000,closed,1,Global usage error
+142,2016-10-04 00:58:06.000000000,2016-10-04 02:40:41.000000000,closed,0,implement assert_malformed
+141,2016-10-03 01:46:26.000000000,2016-10-03 22:06:28.000000000,closed,0,fix displayed index when writing out wast files
+140,2016-10-01 03:58:34.000000000,2016-10-01 08:10:50.000000000,closed,1,append END opcode at end of function
+139,2016-10-01 03:24:21.000000000,2016-12-02 06:09:09.000000000,closed,14,"Convert tests from AST format to new ""flat"" format"
+138,2016-10-01 03:09:51.000000000,2016-10-01 03:36:14.000000000,closed,1,br_if keeps its value on the stack
+137,2016-10-01 02:17:58.000000000,2016-10-01 02:32:39.000000000,closed,0,br_table depth immediates are LEB128
+136,2016-10-01 02:12:25.000000000,2016-10-01 02:46:26.000000000,closed,1,"Implement logging_on_{memory,table}_count"
+135,2016-10-01 01:35:06.000000000,2016-10-01 01:52:02.000000000,closed,1,fix typechecking bug in `check_n_types`
+134,2016-09-30 23:26:24.000000000,2016-09-30 23:49:23.000000000,closed,2,Remove known failures related to `call_indirect with no table`
+133,2016-09-30 03:54:04.000000000,2016-10-01 02:38:47.000000000,closed,0,br_table entries are LEB128
+132,2016-09-30 03:53:30.000000000,2016-10-01 08:10:50.000000000,closed,0,Require end opcode on functions
+131,2016-09-30 03:52:27.000000000,2016-10-01 03:57:41.000000000,closed,0,br_if should return its value
+130,2016-09-30 03:43:44.000000000,2016-09-30 10:55:51.000000000,closed,0,fix a bug when checking whether a segment is valid
+129,2016-09-30 03:30:42.000000000,2016-09-30 22:48:19.000000000,closed,1,parse assert_malformed and assert_unlinkable
+128,2016-09-30 01:45:04.000000000,2016-10-01 02:05:26.000000000,closed,3,fix interp tests
+127,2016-09-30 01:20:31.000000000,2016-09-30 01:27:00.000000000,closed,0,Update known test failures for 0xc
+126,2016-09-29 22:53:32.000000000,2016-09-29 22:54:34.000000000,closed,0,Merging binary-0xc into master
+125,2016-09-29 19:16:21.000000000,2016-09-29 22:27:41.000000000,closed,7,Fix initialization errors in Travis for read_table and read_memory.
+124,2016-09-29 05:10:03.000000000,2016-09-29 20:55:15.000000000,closed,1,fix ASAN and LSAN builds
+123,2016-09-29 04:38:02.000000000,2016-09-29 05:10:03.000000000,closed,1,Add `install` build target
+122,2016-09-29 02:48:02.000000000,2016-09-29 03:43:32.000000000,closed,2,update spec tests to HEAD
+121,2016-09-29 02:40:00.000000000,2016-09-29 18:24:16.000000000,closed,1,Fix non-assert use of result in sprint_limits.
+120,2016-09-29 02:33:08.000000000,2016-09-29 02:40:37.000000000,closed,1,disable interp/ and spec/ tests to make build green
+119,2016-09-29 00:54:22.000000000,2017-02-23 00:30:16.000000000,closed,3,We should build in C99 mode
+118,2016-09-29 00:52:18.000000000,2016-09-30 22:44:54.000000000,closed,4,We should have CMake install targets for the WABT binaries
+117,2016-09-28 23:34:29.000000000,2016-09-29 02:18:46.000000000,closed,6,Fix Travis build issues.
+116,2016-09-28 23:18:34.000000000,2016-09-28 23:19:21.000000000,closed,0,Fix travis builds
+115,2016-09-28 19:41:16.000000000,2016-09-28 23:09:37.000000000,closed,0,Add diagnostic tool to count usage of opcodes in wasm files.
+114,2016-09-28 06:14:39.000000000,2016-09-28 09:47:32.000000000,closed,2,Use `--recursive` in clone example to make easier.
+113,2016-09-27 23:02:16.000000000,2016-09-28 00:42:55.000000000,closed,1,fix most of the interp tests
+112,2016-09-27 04:59:38.000000000,2016-09-27 19:57:46.000000000,closed,0,Update Travis links for wabt
+111,2016-09-26 22:39:10.000000000,2016-09-27 04:26:00.000000000,closed,12,Introduction to WABT
+110,2016-09-24 01:54:59.000000000,2016-09-24 03:16:27.000000000,closed,0,fix typecheck and regress tests for binary_0xc
+109,2016-09-24 01:46:18.000000000,2016-09-24 01:57:04.000000000,closed,1,fix roundtrip tests for binary_0xc
+108,2016-09-24 01:16:35.000000000,2016-09-24 01:43:25.000000000,closed,0,fix binary tests for binary_0xc
+107,2016-09-23 07:51:01.000000000,2016-09-23 21:37:49.000000000,closed,0,"parse tests for {im,ex}porting tables, etc."
+106,2016-09-23 02:28:19.000000000,2016-09-23 05:06:54.000000000,closed,0,Binary 0xc rename import export tests
+105,2016-09-23 02:14:09.000000000,2016-09-23 04:42:40.000000000,closed,0,fix the test/parse/* tests for binary_0xc
+104,2016-09-22 05:05:24.000000000,2016-09-23 05:39:37.000000000,closed,3,Fix broken 'run-tests' target
+103,2016-09-22 01:41:55.000000000,2016-09-22 03:30:00.000000000,closed,3,Improve error message on bad file version
+102,2016-09-21 02:07:21.000000000,2016-09-22 01:44:10.000000000,closed,1,PR for Rename sexpr-wasm binaries #100
+101,2016-09-16 00:37:33.000000000,2016-10-03 21:52:30.000000000,closed,13,Rename the project?
+100,2016-09-16 00:36:48.000000000,2016-09-22 01:46:44.000000000,closed,3,Rename sexpr-wasm binaries
+99,2016-09-06 20:37:32.000000000,1970-01-01 00:00:00.000000001,open,0,MSAN build stopped working on Travis
+98,2016-09-05 03:30:04.000000000,2016-09-06 06:26:54.000000000,closed,1,memory exhaustion crash
+97,2016-08-23 12:54:45.000000000,2016-08-23 20:49:15.000000000,closed,1,Fix error message in the generated invoke function
+96,2016-08-05 05:26:43.000000000,2016-08-05 07:15:18.000000000,closed,0,"update testsuite, handle implicit func types"
+95,2016-08-04 12:11:27.000000000,2016-08-05 03:23:21.000000000,closed,1,Fix warnings visual studio
+94,2016-07-21 02:51:27.000000000,2016-07-21 02:53:01.000000000,closed,0,use the wasm-wast verbose flag
+93,2016-07-19 02:25:34.000000000,2016-07-19 03:34:12.000000000,closed,0,WasmFuncDeclaration does not always set `sig`
+92,2016-07-18 23:08:30.000000000,1970-01-01 00:00:00.000000001,open,4,Macros
+91,2016-07-07 01:06:28.000000000,2016-07-07 02:25:09.000000000,closed,0,functions have an implicit block scope
+90,2016-06-18 02:42:24.000000000,2016-06-25 00:46:22.000000000,closed,2,Fix tests after testsuite update
+89,2016-06-14 00:43:33.000000000,2016-06-18 00:36:59.000000000,closed,1,remove JavaScript engine testing
+88,2016-06-08 05:10:21.000000000,2016-06-17 22:32:28.000000000,closed,2,Tests verbosity
+87,2016-06-08 05:08:44.000000000,2016-06-08 21:09:25.000000000,closed,1,Teach test scripts about ch.exe
+86,2016-06-08 05:08:12.000000000,2016-06-17 22:26:31.000000000,closed,7,Fix Windows
+85,2016-06-08 03:01:39.000000000,2016-06-08 03:49:52.000000000,closed,1,update the step of cloning
+84,2016-06-08 00:58:28.000000000,2016-08-04 12:07:19.000000000,closed,1,Make return arity 1 only if function return type is not void
+83,2016-06-07 04:29:30.000000000,2016-06-08 00:59:40.000000000,closed,3,Support tests for Windows
+82,2016-06-07 04:13:47.000000000,2016-08-04 12:07:54.000000000,closed,5,Return nop arity
+81,2016-06-06 21:56:38.000000000,2016-06-17 22:26:31.000000000,closed,1,Windows build failing due to missing include header
+80,2016-05-28 06:42:01.000000000,2016-05-28 07:13:07.000000000,closed,0,add flags to turn off AST checking in sexpr-wasm
+79,2016-05-28 00:30:19.000000000,2016-06-18 00:36:59.000000000,closed,7,Non-community group submodules
+78,2016-05-26 21:20:48.000000000,2016-06-02 20:10:22.000000000,closed,5,fix bugs found by afl and asan
+77,2016-05-24 01:53:58.000000000,2016-05-25 01:57:30.000000000,closed,3,Fix build for Win32
+76,2016-05-19 01:48:32.000000000,2016-05-19 01:51:13.000000000,closed,0,update spec tests
+75,2016-05-17 01:34:55.000000000,2016-05-17 23:13:24.000000000,closed,0,Update JavaScript API
+74,2016-05-13 22:26:23.000000000,2016-05-14 01:21:34.000000000,closed,0,some fixes/updates to match the spec tests
+73,2016-05-12 03:42:14.000000000,2016-05-12 18:33:16.000000000,closed,0,defer decoding binary modules in assert_invalid
+72,2016-05-11 20:58:12.000000000,2016-09-22 01:47:24.000000000,closed,3,Check call arity against function signature in wasm-binary-reader-ast
+71,2016-05-11 02:15:54.000000000,2016-05-12 22:16:56.000000000,closed,0,fix build-sm script to use GH archive
+70,2016-05-10 04:26:22.000000000,2016-05-11 00:55:08.000000000,closed,0,Spidermonkey
+69,2016-05-10 00:03:55.000000000,2016-05-10 22:38:26.000000000,closed,0,parse split segment strings; modules as binaries
+68,2016-05-06 23:28:59.000000000,2016-05-07 00:47:23.000000000,closed,0,Fix a bug with bad .wasm files popping past the start of a label
+67,2016-04-09 21:29:53.000000000,2016-04-10 06:55:42.000000000,closed,0,Various cleanup and bug fixes
+66,2016-04-07 20:49:21.000000000,2016-04-16 13:14:30.000000000,closed,2,Multiple values support.
+65,2016-04-05 17:49:27.000000000,2016-04-16 13:16:38.000000000,closed,1,wasm-interp: block-break type crash.
+64,2016-04-03 13:08:23.000000000,2016-04-03 13:26:11.000000000,closed,0,switch from ReST to markdown
+63,2016-04-02 02:58:52.000000000,2016-04-02 02:59:48.000000000,closed,0,add afl-fuzzing setup again to Makefile
+62,2016-03-31 18:49:58.000000000,2016-03-31 22:26:46.000000000,closed,1,legacy if
+61,2016-03-29 16:33:11.000000000,2016-03-29 21:16:54.000000000,closed,1,Update README.rst
+60,2016-03-22 02:24:45.000000000,2016-03-22 02:33:08.000000000,closed,0,Override exes
+59,2016-03-21 22:17:53.000000000,2016-03-21 23:52:03.000000000,closed,2,Add options to build without GTest submodule
+58,2016-03-21 10:52:14.000000000,2016-03-21 18:47:07.000000000,closed,0,"remove getopt, use WasmOptionParser instead"
+57,2016-03-21 07:23:56.000000000,2016-03-22 09:30:27.000000000,closed,0,Binary reader
+56,2016-03-18 12:23:12.000000000,2016-03-20 10:25:36.000000000,closed,7,Rename the 'not' operator to 'i32.eqz' and add 'i64.eqz'.
+55,2016-03-14 22:11:57.000000000,2016-03-14 22:23:01.000000000,closed,2,Windows: vsnprintf
+54,2016-03-14 21:55:22.000000000,2016-03-14 23:08:58.000000000,closed,3,Is there a way to force use of prebuilt wasm-bison-parser.[ch] files?
+53,2016-03-13 14:09:35.000000000,2016-03-14 10:27:06.000000000,closed,5,br without continue label
+52,2016-03-12 01:18:58.000000000,2017-06-29 21:24:54.000000000,closed,1,Add check if you forget to run `git submodule update --init`
+51,2016-03-12 00:54:28.000000000,2016-03-12 01:11:55.000000000,closed,5,scripts/download-d8.sh seems broken
+50,2016-03-10 18:18:33.000000000,2016-03-10 18:18:40.000000000,closed,0,sections have size and name as string
+49,2016-03-10 00:51:25.000000000,2016-03-10 01:09:32.000000000,closed,1,Inline data segments
+48,2016-03-09 23:10:54.000000000,2016-03-09 23:50:05.000000000,closed,2,Update loads and store immediates to be alignment varint followed by …
+47,2016-03-08 19:45:00.000000000,2016-03-09 05:29:19.000000000,closed,1,Rename _WASMEXP_ to Wasm.
+46,2016-03-08 19:02:16.000000000,2016-04-26 22:53:31.000000000,closed,2,"Emit explicit arities for calls, breaks, & return"
+45,2016-03-07 23:49:21.000000000,2016-03-13 12:42:31.000000000,closed,0,Cmake
+44,2016-03-07 23:45:36.000000000,2016-06-17 22:32:27.000000000,closed,0,Easier method to debug broken d8 tests
+43,2016-03-07 23:42:26.000000000,2016-03-22 02:49:13.000000000,closed,1,Add flag to `run-tests.py` to use a different d8
+42,2016-03-07 23:41:41.000000000,2016-08-05 07:16:06.000000000,closed,1,Add flag to display commands used to run d8 via `run-d8.py`
+41,2016-03-07 18:05:29.000000000,2016-03-08 02:53:51.000000000,closed,2,Local decls rewrite
+40,2016-03-04 16:17:55.000000000,2016-03-04 22:56:33.000000000,closed,1,Fix a test expected output after the memory-in-pages change.
+39,2016-03-03 18:45:19.000000000,2016-03-03 22:01:30.000000000,closed,1,Handle new `select` syntax
+38,2016-03-01 23:21:50.000000000,2016-03-01 23:36:10.000000000,closed,2,not working on agianst V8 version 5.1.0 (candidate)
+37,2016-03-01 06:40:38.000000000,2016-03-04 03:52:14.000000000,closed,7,Build on Windows
+36,2016-02-28 04:48:15.000000000,2016-02-29 06:08:54.000000000,closed,0,binary format has magic and version number
+35,2016-02-28 00:46:21.000000000,2016-03-13 13:06:00.000000000,closed,4,Dirty repo
+34,2016-02-04 18:29:27.000000000,2016-02-24 06:05:42.000000000,closed,7,Support start
+33,2016-02-04 17:20:15.000000000,2016-03-22 02:50:25.000000000,closed,4,Multiple exports per function being accepted?
+32,2016-02-03 15:45:39.000000000,2016-02-04 01:08:41.000000000,closed,2,tableswitch block depth?
+31,2016-01-30 14:34:31.000000000,2016-01-31 01:22:32.000000000,closed,0,Improve error message: too many / too few parameters to function call in call_import
+30,2016-01-29 15:16:48.000000000,2016-01-29 21:55:09.000000000,closed,1,Possible incorrect alignment encoding for a 64 bit access.
+29,2016-01-28 08:12:39.000000000,2016-01-28 10:20:33.000000000,closed,5,FP parsing fail
+28,2016-01-28 08:07:54.000000000,2016-01-31 13:28:01.000000000,closed,12,Invalid NaN literal
+27,2016-01-28 07:59:32.000000000,2016-01-28 10:21:00.000000000,closed,1,"invalid initial memory size ""0\00\"""
+26,2016-01-26 14:05:17.000000000,2016-01-26 21:51:20.000000000,closed,1,Return operator result expression arity issues.
+25,2016-01-25 02:20:41.000000000,2016-01-25 03:04:54.000000000,closed,2,Incorrect code emitted involving unreachable code.
+24,2016-01-24 18:05:49.000000000,2016-01-25 21:17:34.000000000,closed,3,Accept duplicate block labels.
+23,2016-01-24 17:47:42.000000000,2016-04-16 13:16:59.000000000,closed,0,Correct the branch type checking.
+22,2016-01-18 18:55:39.000000000,2016-03-18 12:20:06.000000000,closed,3,Tables can include imports and their index space includes imports.
+21,2016-01-18 09:04:47.000000000,2016-03-04 11:20:01.000000000,closed,6,Change the memory sizes to be in units of pages rather than powers of two.
+20,2016-01-17 17:07:01.000000000,2016-03-22 02:51:22.000000000,closed,2,br not accepting a nop?
+19,2016-01-11 18:40:55.000000000,2016-01-15 03:07:26.000000000,closed,2,"Update JS name from ""WASM"" to ""_WASMEXP_"""
+18,2016-01-06 05:29:21.000000000,2016-01-06 05:36:57.000000000,closed,1,Make AST utility functions take const pointers where applicable
+17,2016-01-06 00:36:52.000000000,2016-02-24 06:06:51.000000000,closed,2,sexpr-wasm can't commute align= offset=
+16,2016-01-06 00:20:50.000000000,2016-01-06 03:18:11.000000000,closed,1,Support use of parser and AST in C++ programs
+15,2015-12-24 05:18:40.000000000,2016-02-24 06:07:07.000000000,closed,3,make:  no rule to make target 'out'
+14,2015-12-22 02:24:12.000000000,2015-12-22 02:40:26.000000000,closed,1,Update torture failures
+13,2015-12-22 01:27:55.000000000,2016-01-19 02:30:48.000000000,closed,5,br-block-named.txt is incorrect
+12,2015-12-20 04:56:15.000000000,2015-12-20 06:15:14.000000000,closed,2,failed to parse file
+11,2015-12-20 02:11:43.000000000,2015-12-20 02:12:24.000000000,closed,2,Add known_gcc_test_failures.txt
+10,2015-12-19 05:39:43.000000000,2015-12-22 01:56:58.000000000,closed,8,Runtime Error
+9,2015-11-23 17:08:57.000000000,2015-11-24 18:40:09.000000000,closed,2,imports dont seem to work
+8,2015-11-21 00:13:34.000000000,2015-11-21 02:45:05.000000000,closed,4,LEB128 question
+7,2015-11-03 12:02:42.000000000,2015-11-03 12:04:18.000000000,closed,0,Pass exported function to after_export callback
+6,2015-10-13 23:28:18.000000000,2015-10-14 04:28:29.000000000,closed,2,Whitespace between function name token and left paren
+5,2015-10-13 01:48:26.000000000,2015-10-13 02:22:22.000000000,closed,0,Update spec.js to expose the write() entrypoint for writing raw bytes to stdout. Suppress text for passed assertions.
+4,2015-10-11 02:46:12.000000000,2015-10-19 11:30:00.000000000,closed,4,Provide a way to get SourceLocations
+3,2015-10-07 21:55:54.000000000,2015-10-08 00:04:23.000000000,closed,10,Rename assert_eq to assert_return
+2,2015-10-06 03:11:51.000000000,2015-10-06 03:14:39.000000000,closed,0,Pass the exported name to the after_export event.
+1,2015-09-15 01:43:00.000000000,2015-09-15 01:47:00.000000000,closed,1,Make after_export parser callback pass a WasmExport* instead of just int

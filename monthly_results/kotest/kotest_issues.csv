@@ -1,0 +1,1663 @@
+id,created_at,closed_at,state,comments,title
+1672,2020-08-31 07:52:43.000000000,2020-08-31 08:01:35.000000000,closed,1,Make Set comparisons use .contains() instead of a linear search
+1671,2020-08-31 07:46:10.000000000,2020-08-31 08:01:34.000000000,closed,0,Set to Set comparisons have poor performance in 4.2.x 
+1670,2020-08-31 00:00:09.000000000,2020-08-31 00:58:31.000000000,closed,0,Change retry default delay to 1
+1669,2020-08-30 23:48:22.000000000,2020-08-31 00:11:06.000000000,closed,0,Allow retry to call suspend functions
+1668,2020-08-30 22:43:04.000000000,1970-01-01 00:00:00.000000001,open,10,Allow flaky tests that ignore failures
+1667,2020-08-30 21:51:31.000000000,2020-08-31 00:58:31.000000000,closed,0,"retry delay defaults to timeout, and thus will retry exactly once"
+1666,2020-08-30 21:44:44.000000000,2020-08-31 00:11:06.000000000,closed,1,retry does not accept suspend funs
+1665,2020-08-30 11:42:49.000000000,1970-01-01 00:00:00.000000001,open,0,[Next Release] Document Iterator.shouldHaveNext
+1664,2020-08-30 11:39:58.000000000,2020-08-30 21:43:54.000000000,closed,0,Add matcher alias for Iterator have next
+1663,2020-08-30 11:33:51.000000000,1970-01-01 00:00:00.000000001,open,0,[Next Release] Documents Optional matchers
+1662,2020-08-30 11:29:25.000000000,2020-08-30 21:43:21.000000000,closed,1,Add java.util.Optional matchers
+1661,2020-08-30 07:10:49.000000000,2020-08-30 21:43:21.000000000,closed,0,New assertions: isEmpty / isDefined for java Optional
+1660,2020-08-30 07:04:29.000000000,2020-08-30 21:43:53.000000000,closed,0,New assertion: Iterator.shouldHaveNext()
+1659,2020-08-30 07:03:12.000000000,2020-08-30 11:47:31.000000000,closed,1,"New assertion: shouldNotBeAnyOf(a, b, c)"
+1658,2020-08-29 20:40:08.000000000,2020-08-29 20:55:04.000000000,closed,0,Expand ktor matchers to the client libraries
+1657,2020-08-29 04:17:35.000000000,2020-08-29 05:30:24.000000000,closed,0,Arb<A> and Exhaustive<A> should be covariant #1653
+1656,2020-08-29 01:43:39.000000000,2020-08-29 04:15:37.000000000,closed,2,Add documentation on retry
+1655,2020-08-28 21:06:02.000000000,2020-08-29 02:30:40.000000000,closed,0,Remove the annoying executionError extra test in gradle
+1654,2020-08-28 18:11:02.000000000,2020-08-28 19:17:41.000000000,closed,1,Add `Gen.forNone` assertion
+1653,2020-08-28 14:19:02.000000000,2020-08-29 05:30:43.000000000,closed,1,`Arb<A>` and `Exhaustive<A>` should be covariant
+1652,2020-08-28 10:28:56.000000000,2020-08-29 04:15:26.000000000,closed,3,Add documentation for retry
+1651,2020-08-28 00:35:22.000000000,2020-08-31 11:43:04.000000000,closed,6,Document Recursive Generators
+1650,2020-08-27 20:48:25.000000000,2020-08-27 21:01:57.000000000,closed,0,Update Gradle dependencies docs removing unnecessary -jvm suffix
+1649,2020-08-27 16:44:19.000000000,1970-01-01 00:00:00.000000001,open,2,TestContainers Extention and Spring boot startup timing
+1648,2020-08-25 20:30:34.000000000,2020-08-26 00:19:53.000000000,closed,1,Added some new tests
+1647,2020-08-25 19:49:21.000000000,2020-08-26 00:22:03.000000000,closed,1,fix tests
+1646,2020-08-25 17:14:40.000000000,1970-01-01 00:00:00.000000001,open,7,Arb flatmap with A -> Arb<B> transformation type
+1645,2020-08-24 20:21:53.000000000,2020-08-27 01:41:21.000000000,closed,8,Publish assertions artifacts for all platforms
+1644,2020-08-22 10:33:55.000000000,2020-08-23 21:38:23.000000000,closed,1,Running tests from `main` function
+1643,2020-08-22 08:56:10.000000000,1970-01-01 00:00:00.000000001,open,4,There are transaction error logs when `@DataJpaTest` runs
+1642,2020-08-21 00:24:12.000000000,2020-08-27 01:36:13.000000000,closed,2,Some tags not being recognised in 4.2.0
+1641,2020-08-20 22:13:54.000000000,2020-08-27 01:36:27.000000000,closed,14,NoSuchMethodError on test execution after update to 4.2.
+1640,2020-08-20 17:08:13.000000000,2020-08-20 17:13:30.000000000,closed,1,Unable to initialize launcher
+1639,2020-08-20 12:55:01.000000000,2020-08-20 12:58:40.000000000,closed,0,Add test containers documentation
+1638,2020-08-19 04:29:35.000000000,2020-08-23 09:26:32.000000000,closed,4,Specifying dependencies only once
+1637,2020-08-18 09:46:51.000000000,2020-08-23 21:39:05.000000000,closed,8,Other non-kotest are excluded from executions
+1636,2020-08-18 04:36:26.000000000,2020-08-28 19:17:54.000000000,closed,3,Add Gen.forNone
+1635,2020-08-17 08:02:02.000000000,2020-08-29 18:08:12.000000000,closed,0,"Allow ""reason"" when disabling tests"
+1634,2020-08-16 20:14:43.000000000,2020-08-23 21:23:36.000000000,closed,0,No output when a DiscoveryExtension throws
+1633,2020-08-16 17:23:21.000000000,2020-08-16 21:10:28.000000000,closed,1,Update arbitrary number generator docs
+1632,2020-08-16 02:43:42.000000000,2020-08-17 06:36:04.000000000,closed,0,Allow multiple project configs to be detected and merged
+1631,2020-08-16 02:43:22.000000000,2020-08-17 07:11:59.000000000,closed,1,Support timeout/invocation timeouts via system properties
+1630,2020-08-15 14:51:42.000000000,2020-08-20 12:58:22.000000000,closed,4,Pulling Kotest 4.2.0-RC2 from Central complains about missing dependencies
+1629,2020-08-14 08:57:17.000000000,2020-08-17 08:51:47.000000000,closed,3,Add matchers for Kotlinx Time
+1628,2020-08-14 05:03:32.000000000,2020-08-17 08:53:24.000000000,closed,0,Add matchers for Kotlinx.datetime
+1627,2020-08-13 23:19:40.000000000,2020-08-13 23:56:12.000000000,closed,0,Kotest should support junit post discovery filters #1531
+1626,2020-08-12 20:28:36.000000000,2020-08-13 23:20:14.000000000,closed,1,Fix forAll(1) suspend parameters
+1625,2020-08-12 05:08:52.000000000,2020-08-20 15:30:59.000000000,closed,5,TestListener not intercepting spec constructor
+1624,2020-08-11 16:11:03.000000000,2020-08-13 07:58:49.000000000,closed,0,Add suspend version of when ready
+1623,2020-08-11 14:08:56.000000000,2020-08-11 17:58:47.000000000,closed,2,Disabling test execution with x-methods doesn't work with kotest-core-js
+1622,2020-08-11 12:48:08.000000000,2020-08-23 21:38:42.000000000,closed,4,"kotest-runner-junit5-jvm:4.1.3 does not respect Gradle's ""--tests"" filter"
+1621,2020-08-10 23:54:47.000000000,2020-08-11 17:58:21.000000000,closed,1,Running all tests in a package doesn't run tests in subpackages
+1620,2020-08-10 13:17:00.000000000,1970-01-01 00:00:00.000000001,open,4,"Robolectric Extension fails with ""this method should only be called by Robolectric"""
+1619,2020-08-10 05:31:38.000000000,2020-08-10 13:50:56.000000000,closed,0,Allow tests included in allure to be customizable #1527
+1618,2020-08-10 01:06:45.000000000,2020-08-10 13:51:08.000000000,closed,0,Reworked JUnit xml reporter to support container/container-less optio…
+1617,2020-08-09 22:32:57.000000000,2020-08-10 14:03:09.000000000,closed,1,Sanitize prepareSpec and finalizeSpec behavior #1604
+1616,2020-08-09 20:31:15.000000000,2020-08-09 21:45:34.000000000,closed,0,TestFactory listeners not executing on nested tests #1613
+1615,2020-08-08 14:13:43.000000000,2020-08-09 09:06:07.000000000,closed,0,[Merge after #1614] Improves map eq to compare complex map structure.
+1614,2020-08-08 13:52:48.000000000,2020-08-09 07:26:05.000000000,closed,3,Adds Iterable eq for checking equality of iterables
+1613,2020-08-08 00:30:43.000000000,2020-08-09 22:36:52.000000000,closed,1,TestFactory listeners not executing on nested tests
+1612,2020-08-07 22:22:18.000000000,2020-08-10 04:10:42.000000000,closed,5,IsolationMode.InstancePerLeaf in the Project Level Config
+1611,2020-08-07 19:58:27.000000000,2020-08-23 21:33:12.000000000,closed,5,shouldBe throws KotlinReflectionInternalError on java enums with property override
+1610,2020-08-07 13:25:36.000000000,2020-08-09 08:26:48.000000000,closed,1,Add Ktor matchers
+1609,2020-08-04 23:17:10.000000000,2020-08-05 18:38:11.000000000,closed,1,Fixed ByteArray generator not creating any values
+1608,2020-08-04 09:52:16.000000000,2020-08-05 18:38:11.000000000,closed,2,Sequence is empty error when using Arb.byteArrays
+1607,2020-08-03 17:40:25.000000000,1970-01-01 00:00:00.000000001,open,2,AfterTest callbacks works until first exception
+1606,2020-08-03 10:53:27.000000000,2020-08-04 20:58:02.000000000,closed,0,#1587 Improve error message for should contain when key is present
+1605,2020-07-31 18:56:13.000000000,1970-01-01 00:00:00.000000001,open,1,Consider publishing a BOM for kotest
+1604,2020-07-31 16:18:49.000000000,2020-08-10 14:03:09.000000000,closed,1,prepareSpec and finalizeSpec don't work
+1603,2020-07-30 23:21:37.000000000,2020-08-10 05:21:36.000000000,closed,5,Kotest + MockK = java.lang.NoClassDefFoundError: io/mockk/proxy/MockKAgentFactory
+1602,2020-07-30 19:51:22.000000000,2020-08-06 03:15:55.000000000,closed,0,Adds a variant of shouldBeEqualToIgnoringFields
+1601,2020-07-28 23:39:55.000000000,2020-08-02 03:14:17.000000000,closed,3,Updating to 4.1.3 causes java.lang.NoClassDefFoundError: io/github/classgraph/ClassGraph
+1600,2020-07-28 02:42:52.000000000,2020-08-20 12:56:33.000000000,closed,7,Kotlin 1.4 compatibility
+1599,2020-07-27 16:03:17.000000000,2020-07-28 04:16:55.000000000,closed,1,Update diff utils to latest
+1598,2020-07-27 01:59:34.000000000,2020-07-27 05:26:50.000000000,closed,0,Exhaustive forAll/checkAll does more iterations than it should #1597
+1597,2020-07-26 22:50:35.000000000,2020-07-27 05:32:19.000000000,closed,0,Exhaustive checkAll does more iterations than it should
+1596,2020-07-25 08:08:15.000000000,2020-07-25 21:22:13.000000000,closed,0,Added exhaustive only mode to property tests
+1595,2020-07-24 23:07:04.000000000,2020-08-08 13:53:29.000000000,closed,3,#1543 Adds IterableEq to check equality of iterable by comparing each elements
+1594,2020-07-24 22:19:03.000000000,2020-07-25 08:51:20.000000000,closed,1,Support JUnit Test Extensions #1503
+1593,2020-07-24 22:01:56.000000000,2020-07-28 04:22:20.000000000,closed,0,Support order annotation for SpecOrder
+1592,2020-07-24 07:51:46.000000000,2020-07-24 21:48:55.000000000,closed,0,Added kotest impl of ExtensionContext #1503
+1591,2020-07-23 15:18:43.000000000,1970-01-01 00:00:00.000000001,open,1,Allow SpringListener to generate meaningful method names
+1590,2020-07-23 11:08:07.000000000,2020-07-24 18:07:20.000000000,closed,1,ISSUE-1573: Allow to disable SpringListener warning on a final class
+1589,2020-07-23 01:19:07.000000000,2020-07-24 18:46:59.000000000,closed,4,Add new scoped callbacks
+1588,2020-07-23 00:46:10.000000000,2020-07-24 05:17:30.000000000,closed,1,Control isolation mode by system property
+1587,2020-07-22 21:37:10.000000000,2020-08-04 20:58:51.000000000,closed,3,Improved error message for map should contain when key present
+1586,2020-07-22 21:16:30.000000000,2020-07-23 00:44:58.000000000,closed,2,Issue #1458 Test name case control setting
+1585,2020-07-22 14:09:58.000000000,2020-08-08 15:44:15.000000000,closed,3,shouldBeEqualToIgnoringFields behaviour is not consistent with shouldBe (equals)
+1584,2020-07-22 12:07:50.000000000,2020-07-24 18:46:58.000000000,closed,15,Add new scoped callbacks
+1583,2020-07-22 07:13:55.000000000,2020-07-24 05:18:22.000000000,closed,3,Move all system properties to a single object
+1582,2020-07-21 18:17:56.000000000,2020-08-02 03:13:35.000000000,closed,1,Junit platform include tags in gradle 
+1581,2020-07-21 17:50:15.000000000,2020-08-10 13:51:08.000000000,closed,3,NoSuchFileException when using kotest-extensions-junitxml with Gradle
+1580,2020-07-21 15:37:37.000000000,2020-07-21 16:13:23.000000000,closed,1,Use factory tests with data-driven testing
+1579,2020-07-20 23:24:31.000000000,2020-07-20 23:36:50.000000000,closed,0,Feature/kotest launcher
+1578,2020-07-20 23:09:42.000000000,2020-07-21 02:59:01.000000000,closed,0,Updates package-lock.json to fix dependabot security warning for lodash
+1577,2020-07-20 22:33:55.000000000,2020-07-21 06:53:42.000000000,closed,0,#1543 Improve MapEq to compare map of complex value
+1576,2020-07-20 22:30:36.000000000,2020-07-20 23:38:03.000000000,closed,1,Added kotest launcher to minimise interface from console runner
+1575,2020-07-20 22:25:07.000000000,2020-07-20 22:36:09.000000000,closed,1,Fix beforeTest/afterTest only being executed for immediate child scopes
+1574,2020-07-20 20:21:59.000000000,2020-07-20 22:36:09.000000000,closed,1,beforeTest of parent scope not executed before tests of child scope
+1573,2020-07-20 17:59:26.000000000,2020-07-24 18:07:57.000000000,closed,5,Allow to disable SpringListener on final class warning
+1572,2020-07-20 04:07:33.000000000,2020-07-20 07:28:50.000000000,closed,2,#1563 Bug fix for Android API < 26 Instrumented Tests. ClassNotFoundException
+1571,2020-07-18 23:58:21.000000000,2020-07-19 01:18:45.000000000,closed,0,Upgrade build to use kotlin 1.4 m3
+1570,2020-07-18 09:23:18.000000000,2020-07-20 15:17:21.000000000,closed,12,What are the currently maintained artifacts? Are some about to be phased out?
+1569,2020-07-18 09:00:31.000000000,2020-07-18 10:22:40.000000000,closed,2,"Where are the changelogs of versions 4.1.0 and 4.1.1, and github release of versions 4+?"
+1568,2020-07-17 16:04:17.000000000,2020-07-18 18:50:46.000000000,closed,0,Feature/tag expressions
+1567,2020-07-17 14:54:59.000000000,2020-08-09 22:37:47.000000000,closed,1,Bundle console runner with intellij plugin
+1566,2020-07-17 14:51:10.000000000,1970-01-01 00:00:00.000000001,open,0,Kotest Roadmap 4.3
+1565,2020-07-17 06:35:47.000000000,2020-07-18 08:31:52.000000000,closed,0,Restore context to describe
+1564,2020-07-17 06:27:01.000000000,1970-01-01 00:00:00.000000001,open,7,Add gen for date formats
+1563,2020-07-17 03:04:06.000000000,2020-07-20 07:39:21.000000000,closed,8,Android: Kotest-assertions uses java.nio.file.Path causing failure on Android < 26
+1562,2020-07-16 23:20:31.000000000,2020-07-16 23:26:57.000000000,closed,1,Minor spelling fixes in doc/property_testing.md
+1561,2020-07-16 07:30:04.000000000,2020-07-17 01:16:03.000000000,closed,1,Removed junit markers
+1560,2020-07-15 16:57:52.000000000,2020-07-15 17:15:23.000000000,closed,0,add the ability to make parameter substitutions when executing http files
+1559,2020-07-14 08:16:03.000000000,2020-07-18 19:50:20.000000000,closed,2,[NEXT RELEASE] Updates docs for assert softly
+1558,2020-07-14 07:15:35.000000000,2020-07-14 07:37:53.000000000,closed,0,Updated console runner to use compile only dep
+1557,2020-07-13 09:52:12.000000000,2020-07-15 17:50:04.000000000,closed,1,Updates method signature of assertSoftly to take object under test as…
+1556,2020-07-12 23:38:10.000000000,2020-07-12 23:50:58.000000000,closed,0,Take into account `range` for `IntShrinker` and `LongShrinker` #1535
+1555,2020-07-12 13:40:00.000000000,2020-07-12 23:24:41.000000000,closed,2,"In Intellij IDEA test runner, the hierarchy is messed up when using IsolationMode.InstancePerLeaf"
+1554,2020-07-12 11:05:59.000000000,2020-07-12 23:26:09.000000000,closed,0,Add concurrent spec runner and fix sequential spec runner #1547
+1553,2020-07-10 13:02:45.000000000,1970-01-01 00:00:00.000000001,open,7,Replace runBlocking with future where submitted to an executor
+1552,2020-07-09 02:24:12.000000000,2020-07-11 00:20:00.000000000,closed,4,Kotest plugin requires console dependency in build
+1551,2020-07-08 18:28:04.000000000,2020-08-17 06:28:27.000000000,closed,2,Support timeout at leaf level
+1550,2020-07-08 18:10:00.000000000,2020-08-29 04:16:32.000000000,closed,7,Junit4 doesn't discover Specs anymore
+1549,2020-07-08 15:46:10.000000000,2020-07-08 18:09:38.000000000,closed,1,Ensure exhaustive isn't build with a empty list.
+1548,2020-07-07 19:08:27.000000000,2020-07-08 18:09:38.000000000,closed,12,checkAll and forAll with empty list as Exhaustive hang forever
+1547,2020-07-07 04:32:53.000000000,2020-07-12 23:26:09.000000000,closed,0,Instance per leaf breaks reporting with nested tests
+1546,2020-07-06 11:11:53.000000000,2020-07-27 05:40:34.000000000,closed,1,add data class backed data tests that execute in a separate scope
+1545,2020-07-06 01:16:33.000000000,1970-01-01 00:00:00.000000001,open,2,Test style where visual nesting isn't interpreted as scope nesting.
+1544,2020-07-05 17:49:55.000000000,2020-07-06 05:34:51.000000000,closed,11,Kotest 4.1.1 doesn't discover tests (4.0.2 does that pretty well)
+1543,2020-07-05 11:17:14.000000000,2020-08-09 09:06:41.000000000,closed,3,Complex structures deep comparison
+1541,2020-07-03 10:14:09.000000000,2020-07-04 07:58:38.000000000,closed,10,TestEngine with ID 'kotest' failed to execute tests
+1539,2020-07-02 00:23:08.000000000,2020-07-02 01:32:53.000000000,closed,0,ShouldSpec example fixed
+1538,2020-07-01 04:00:42.000000000,2020-07-03 23:53:42.000000000,closed,2,Add some Iterable matchers
+1537,2020-06-30 17:33:49.000000000,1970-01-01 00:00:00.000000001,open,19,data driven tests with data classes
+1536,2020-06-30 16:59:23.000000000,2020-07-18 19:47:49.000000000,closed,3,-Dkotest.tags.include= only takes into account @Tags
+1535,2020-06-30 15:11:01.000000000,2020-07-12 23:51:02.000000000,closed,0,Take into account `range` for `Shrinker`
+1534,2020-06-30 13:01:12.000000000,2020-06-30 17:06:06.000000000,closed,2,Add xGiven / xWhen / xThen
+1533,2020-06-30 01:10:59.000000000,2020-08-10 04:09:51.000000000,closed,1,IsolationMode documentation should include inline overrides
+1532,2020-06-30 00:54:36.000000000,2020-06-30 17:15:43.000000000,closed,2,focus tests and nested test based on flag or system property
+1531,2020-06-30 00:33:02.000000000,2020-08-13 23:56:12.000000000,closed,3,Can't run a single test method from Gradle 6.5
+1530,2020-06-29 00:12:16.000000000,2020-08-23 19:55:23.000000000,closed,1,Cause of exception is same as parent exception
+1529,2020-06-27 23:40:59.000000000,2020-06-28 00:10:55.000000000,closed,0,Test path filter comparison fix #1528
+1528,2020-06-27 07:54:47.000000000,2020-06-28 00:10:55.000000000,closed,3,DescribeSpec isn't working as intended with the plugin
+1527,2020-06-26 10:28:34.000000000,2020-08-10 14:01:20.000000000,closed,14,The incorrect count of tests in allure
+1526,2020-06-25 21:56:59.000000000,2020-06-25 22:23:21.000000000,closed,1,Fix proptest min iterations error message
+1525,2020-06-25 13:13:56.000000000,2020-08-10 04:12:13.000000000,closed,5,IsolationMode default encourages bugs
+1524,2020-06-24 14:23:36.000000000,2020-06-24 18:58:46.000000000,closed,1,IntelliJ Idea doesn't detect tests after upgrading to 4.1.0
+1523,2020-06-20 17:14:30.000000000,2020-06-20 17:46:52.000000000,closed,3,add Dependabot
+1522,2020-06-20 13:16:00.000000000,2020-06-20 13:56:04.000000000,closed,0,#1514 Corrects Listeners doc
+1521,2020-06-20 01:23:32.000000000,2020-06-20 05:42:11.000000000,closed,0,Support nullable arguments for JSON matchers (fix #1504)
+1520,2020-06-19 21:16:26.000000000,2020-06-19 21:47:47.000000000,closed,3,Native thread local fix
+1519,2020-06-19 21:08:08.000000000,2020-06-23 06:28:39.000000000,closed,1,Releases don't include windows or macos builds
+1518,2020-06-19 18:05:39.000000000,2020-06-19 18:07:31.000000000,closed,1,Rename reference from kotlintest to kotest
+1517,2020-06-18 23:10:41.000000000,2020-06-19 00:06:27.000000000,closed,5,"Use the SPDX compliant license identifier ""Apache-2.0"" in POM files"
+1516,2020-06-18 12:30:47.000000000,2020-06-20 15:45:41.000000000,closed,1,Filtering tests by tag happens after beforeSpec method is invoked
+1515,2020-06-17 08:18:07.000000000,2020-06-21 01:28:53.000000000,closed,2,Focus not working in WordSpec
+1514,2020-06-16 17:54:36.000000000,2020-06-20 13:56:53.000000000,closed,0,"Documentation on Testlisteners by overriding callback has override inside init block, should be probably be outside"
+1513,2020-06-16 08:07:33.000000000,2020-06-16 08:16:23.000000000,closed,0,Bump Gradle to latest version v6.5
+1511,2020-06-13 16:45:53.000000000,2020-07-19 01:30:34.000000000,closed,0,Upgrade to Kotlin 1.4 
+1510,2020-06-13 16:45:26.000000000,2020-07-19 01:30:20.000000000,closed,0,Change instance of matchers to use generic contracts
+1509,2020-06-13 07:10:41.000000000,2020-06-13 16:41:42.000000000,closed,4,java.lang.NoSuchMethodError: 'double kotlin.time.Duration$Companion.getZERO-UwyO8pc()'
+1508,2020-06-12 21:14:19.000000000,2020-06-12 21:52:21.000000000,closed,0,Updates change log for 4.1 to add missed out changes
+1507,2020-06-12 15:33:44.000000000,2020-06-12 16:54:51.000000000,closed,0,Added TestName abstraction; better handling of test scope prefixes #1486
+1506,2020-06-10 16:57:45.000000000,2020-06-10 18:13:32.000000000,closed,0,#1463 Adds doc for usage of PropTestListener in property test
+1505,2020-06-10 16:19:24.000000000,2020-06-10 18:13:53.000000000,closed,0,Adds docs for timeout for suspendable function and missing ZoneDateTime matchers
+1504,2020-06-08 21:37:10.000000000,2020-06-20 05:42:10.000000000,closed,6,JSON matchers should match on nullable strings
+1503,2020-06-07 21:11:10.000000000,2020-08-27 22:23:32.000000000,closed,1,Support JUnit Test Extensions
+1502,2020-06-07 20:45:42.000000000,2020-06-07 23:05:50.000000000,closed,6,Implement Exhaustive.merge for two gens with a common supertype.
+1501,2020-06-07 20:44:46.000000000,2020-06-07 20:58:26.000000000,closed,0,Updated list arb to use list shrinker
+1500,2020-06-07 19:47:42.000000000,2020-06-07 23:13:25.000000000,closed,0,Arb.flatMap is broken
+1499,2020-06-07 19:03:57.000000000,2020-06-07 19:17:10.000000000,closed,0,Add Arb.choose that accepts weighted arbs
+1498,2020-06-07 18:53:24.000000000,2020-06-11 23:02:56.000000000,closed,0,Initial WIP for 826: detailed data class diffs
+1497,2020-06-07 18:32:26.000000000,2020-06-07 23:05:49.000000000,closed,1,Merge to an Exhausive of a superclass
+1496,2020-06-07 17:42:24.000000000,2020-06-07 20:49:51.000000000,closed,0,#1490 Adds docs for temporary file management
+1495,2020-06-07 16:12:47.000000000,1970-01-01 00:00:00.000000001,open,15,Cannot use Kotest with modules from Java 9 
+1494,2020-06-07 15:22:00.000000000,2020-06-12 19:04:13.000000000,closed,0,[Next Release] Adds documentation for kotest-extensions-testcontainers
+1493,2020-06-07 12:05:36.000000000,2020-06-07 20:58:26.000000000,closed,0,Arb.list doesn't use ListShrinker
+1492,2020-06-06 23:29:12.000000000,2020-06-07 05:34:18.000000000,closed,0,Updated shrinking to show exceptions for initial and final
+1491,2020-06-06 21:33:23.000000000,2020-08-20 12:57:22.000000000,closed,2,Kotest Roadmap 4.2
+1490,2020-06-06 20:42:39.000000000,2020-06-07 20:50:22.000000000,closed,2,Do we have docs for temp file management
+1489,2020-06-05 23:27:40.000000000,2020-06-06 20:51:39.000000000,closed,1,#1488 Makes ContainerScope extends CoroutineScope
+1488,2020-06-05 03:08:26.000000000,2020-06-06 21:34:39.000000000,closed,0,Parent scopes are not coroutine scopes
+1487,2020-06-04 23:35:28.000000000,2020-06-06 21:42:18.000000000,closed,1,Arb.bind<T>() calls the incorrect constructor
+1486,2020-06-04 16:14:41.000000000,2020-06-12 17:02:15.000000000,closed,5,Provide a way to remove test prefixes in the test output when using specs which use prefixes
+1485,2020-06-04 02:10:28.000000000,2020-06-04 02:40:50.000000000,closed,1,Allow delay to be configurable for the eventually fucntion
+1484,2020-06-03 01:48:56.000000000,2020-06-03 16:12:53.000000000,closed,2,Nested tests error in failed tests number
+1483,2020-06-03 01:39:42.000000000,2020-08-16 02:06:06.000000000,closed,4,Nested tests hierarchy or parent name in gradle report
+1482,2020-06-03 00:23:39.000000000,2020-07-31 23:07:05.000000000,closed,14,redundant call of *Spec callbacks and inheritance
+1481,2020-06-02 19:21:44.000000000,2020-07-07 04:33:30.000000000,closed,4,Resolve #1469. Add reverse order to after callbacks execution
+1480,2020-06-02 08:08:02.000000000,2020-06-02 08:26:30.000000000,closed,0,Fixes InstancePerLeafSpec runner swallowing exception in beforSpec
+1479,2020-06-01 13:16:40.000000000,2020-06-07 10:59:13.000000000,closed,1,Adds support for testcontainers
+1478,2020-06-01 02:51:14.000000000,2020-06-01 04:34:08.000000000,closed,0,Feature/dependencys api
+1477,2020-06-01 01:58:07.000000000,2020-06-01 02:46:26.000000000,closed,0,Manually added path.show fix for 4.0.x branch
+1476,2020-05-31 22:59:54.000000000,2020-06-02 04:28:34.000000000,closed,7,Replace nativeMain source set with individual targets
+1475,2020-05-31 22:21:32.000000000,2020-06-02 04:28:42.000000000,closed,1,Moved native code into duplicated sourcesets
+1474,2020-05-31 17:12:38.000000000,2020-05-31 21:52:03.000000000,closed,0,Reduced amount of platform specific code
+1473,2020-05-31 05:55:55.000000000,2020-06-01 08:42:35.000000000,closed,11,Docs update for IntelliJ productivity
+1472,2020-05-30 22:38:41.000000000,2020-06-02 04:28:50.000000000,closed,3,Fix running native tests from IntelliJ
+1471,2020-05-30 09:19:04.000000000,2020-05-31 01:16:21.000000000,closed,2,Could not resolve io.kotest:kotest-runner-junit5-jvm:4.1.0.293-SNAPSHOT.
+1470,2020-05-29 21:15:10.000000000,2020-06-12 19:03:49.000000000,closed,1,[Next Release] Add shouldExistInOrder to matchers.md
+1469,2020-05-29 20:24:41.000000000,2020-08-09 20:20:53.000000000,closed,21,callback order execution and inheritance
+1468,2020-05-29 19:53:36.000000000,2020-06-02 04:28:34.000000000,closed,7,Can not build kotest
+1467,2020-05-29 02:43:36.000000000,2020-06-01 07:34:14.000000000,closed,3,Adjust Exhaustive default iterations
+1466,2020-05-28 11:41:57.000000000,2020-06-02 18:49:25.000000000,closed,4,Adds an example of testing spring webflux application with kotest
+1465,2020-05-27 19:41:19.000000000,2020-05-29 21:28:06.000000000,closed,1,Add existInOrder and should(Not)ExistInOrder matchers
+1464,2020-05-27 16:28:42.000000000,2020-06-02 05:09:37.000000000,closed,9,Release 4.0.6
+1463,2020-05-27 11:03:43.000000000,2020-06-10 18:16:16.000000000,closed,1,Add Missing documentations
+1462,2020-05-26 12:10:11.000000000,2020-06-12 19:04:33.000000000,closed,0,[Next Release] Update listener docs for ProjectListener
+1461,2020-05-26 12:06:26.000000000,2020-05-26 18:18:11.000000000,closed,1,Makes beforeProject and afterProject as suspend function
+1460,2020-05-26 02:20:46.000000000,2020-05-29 21:28:06.000000000,closed,4,Add shouldExistInOrder matcher
+1459,2020-05-25 22:32:52.000000000,2020-05-25 23:01:32.000000000,closed,0,Corrects project config example for spring listener
+1458,2020-05-24 22:31:05.000000000,2020-07-23 00:44:58.000000000,closed,5,Allow case control in test's reports
+1457,2020-05-24 20:07:21.000000000,2020-05-25 06:31:21.000000000,closed,0,Removed kotlintest aliases
+1456,2020-05-24 13:44:35.000000000,2020-06-01 07:34:14.000000000,closed,1,checkAll(Gen) for Exhaustive with large lists does not work
+1455,2020-05-23 15:08:02.000000000,2020-06-12 19:04:53.000000000,closed,0,[Next Release] Adds docs for shouldCompleteExceptionallyWith matcher
+1454,2020-05-22 22:09:22.000000000,2020-05-23 07:11:29.000000000,closed,3,Adds shouldCompleteExceptionallyWith matcher
+1453,2020-05-22 16:24:35.000000000,2020-05-22 18:59:58.000000000,closed,0,Adds tests for completable futures matchers
+1452,2020-05-22 15:54:55.000000000,2020-05-23 04:13:13.000000000,closed,1,Fixed issues 1435  Add before and after test listeners to property ba…
+1451,2020-05-22 15:15:27.000000000,2020-05-22 22:07:17.000000000,closed,1,Fix table formatting in matchers.md
+1450,2020-05-22 04:31:49.000000000,2020-05-22 04:43:30.000000000,closed,0,Fix gradle task name in workflow file
+1449,2020-05-21 21:31:59.000000000,2020-05-22 04:16:51.000000000,closed,1,Fix native publishing.
+1448,2020-05-21 20:08:02.000000000,2020-05-22 22:13:03.000000000,closed,3,add a shouldTimeout for async calls
+1447,2020-05-21 17:45:10.000000000,2020-05-22 22:13:03.000000000,closed,0,Coroutine helper for timeout
+1446,2020-05-19 21:05:08.000000000,2020-08-29 20:54:36.000000000,closed,3,MockServer (and HTTP) extension documentation missing
+1445,2020-05-19 14:06:02.000000000,2020-05-19 14:47:48.000000000,closed,1,Use port provided in MockServerListener constructor instead of hardcoded port 1080
+1444,2020-05-17 19:39:46.000000000,2020-05-18 05:25:28.000000000,closed,0,Support multi line test name in results and focus
+1443,2020-05-17 14:07:56.000000000,2020-05-17 14:16:02.000000000,closed,1,forAll with single property is not suspend
+1442,2020-05-16 20:29:56.000000000,2020-06-06 22:42:29.000000000,closed,0,Add timeout to apply to individual tests when invocations > 1
+1441,2020-05-16 14:07:38.000000000,2020-05-18 05:25:28.000000000,closed,6,StringSpec test cases with multiline names broken
+1440,2020-05-15 13:27:18.000000000,2020-05-18 13:17:59.000000000,closed,1,Is there a way to get tests output formatted like RSpec?
+1439,2020-05-14 09:16:42.000000000,2020-05-16 05:59:56.000000000,closed,0,#1426 Fixes error in beforeSpec for InstancePerLeaf issolation mode not getting reported
+1438,2020-05-14 02:34:31.000000000,1970-01-01 00:00:00.000000001,open,6,More flexible listener/extension mechanism
+1437,2020-05-12 01:21:15.000000000,2020-05-12 02:51:19.000000000,closed,1,Deprecates `isolation` variable; Adds `isolationMode`
+1436,2020-05-11 19:58:26.000000000,2020-05-11 20:44:53.000000000,closed,1,Fix styles.md FeatureSpec
+1435,2020-05-11 03:37:35.000000000,2020-05-23 06:27:00.000000000,closed,7,Add property test global config with before / after prop test callbacks
+1434,2020-05-11 00:54:26.000000000,2020-05-11 01:25:17.000000000,closed,0,Team city service message fixes and updates
+1433,2020-05-09 23:33:42.000000000,2020-05-10 01:55:07.000000000,closed,4,Reworked dsl to share scopes
+1432,2020-05-07 15:53:50.000000000,2020-05-08 07:06:12.000000000,closed,3,Test only one function
+1431,2020-05-07 08:17:46.000000000,2020-05-18 09:26:33.000000000,closed,3,"Add `arb(edgecase, ...)` for a single edge case"
+1430,2020-05-06 12:26:33.000000000,2020-05-27 16:34:03.000000000,closed,3,io.kotest.extensions.system.withEnvironment usage in multi tests
+1429,2020-05-04 07:26:08.000000000,2020-05-04 09:05:00.000000000,closed,3,Add 'variable.assertSoftly' (#1427)
+1428,2020-04-30 21:49:33.000000000,2020-04-30 21:51:55.000000000,closed,1,Fix for covariance in Arb.choice #1422
+1427,2020-04-30 20:48:35.000000000,2020-05-04 09:05:02.000000000,closed,0,Add `variable.assertSoftly`
+1426,2020-04-30 19:23:35.000000000,2020-05-16 07:45:13.000000000,closed,23,AnnotationSpec: Exception in project-level `TestListener`'s `beforeSpec` causes all test cases to be silently not run
+1425,2020-04-30 17:40:53.000000000,2020-06-02 05:09:55.000000000,closed,8,Compilation error when using kotest-assertions-core-jvm without kotest runner dependency 
+1424,2020-04-30 02:59:12.000000000,2020-05-23 04:15:42.000000000,closed,1,Add module for Quarkus support
+1423,2020-04-29 08:26:43.000000000,2020-04-29 08:39:46.000000000,closed,1,Document usage with mocks
+1422,2020-04-29 07:58:32.000000000,2020-05-10 16:39:04.000000000,closed,11,Make the arb.choice function take derived classes
+1421,2020-04-29 03:45:45.000000000,2020-04-29 08:42:49.000000000,closed,2,"Kotest + gradle protobuf plugin gives ""Could not resolve io.kotest:kotest-runner-junit5-jvm:4.0.3"""
+1420,2020-04-29 00:01:19.000000000,2020-04-29 00:02:00.000000000,closed,0,Exception in nested coroutine doesn't seem to propogate
+1419,2020-04-28 06:59:25.000000000,2020-05-10 22:04:47.000000000,closed,5,#1418 Depreciate `isolation` in favor of new `isolationMode` parameter for inline test configuration
+1418,2020-04-27 23:44:16.000000000,2020-05-12 02:51:19.000000000,closed,0,`isolation` instead of `isolationMode`
+1417,2020-04-27 21:21:37.000000000,2020-04-28 01:06:43.000000000,closed,3,Add support to isEqual for ZonedDateTime
+1416,2020-04-27 19:08:37.000000000,2020-04-29 08:55:07.000000000,closed,0,Higher kinded types in forAll throws reflection exception
+1415,2020-04-27 13:48:55.000000000,2020-04-28 22:00:50.000000000,closed,1,For issue: https://github.com/kotest/kotest/issues/790
+1414,2020-04-27 00:51:26.000000000,2020-04-30 21:35:03.000000000,closed,1,Adding orNull
+1413,2020-04-26 15:11:52.000000000,2020-04-27 01:42:05.000000000,closed,4,Reflection equality improvements
+1412,2020-04-26 07:08:55.000000000,2020-04-28 16:53:12.000000000,closed,0,Expand collections matchers to Sequences
+1411,2020-04-26 01:10:14.000000000,2020-04-26 01:23:47.000000000,closed,1,Fixes #1394
+1410,2020-04-26 00:42:06.000000000,2020-08-23 10:40:46.000000000,closed,5,Provide support for adding config at higher level in case of nested test
+1409,2020-04-25 23:40:11.000000000,2020-04-26 02:38:11.000000000,closed,0,Fix edge cases for long/int arbs to only include values in the given …
+1408,2020-04-25 21:30:22.000000000,2020-04-25 23:30:35.000000000,closed,0,"Added Byte.shouldBeBetween(min, max) matcher; added bounds to Arb.byt…"
+1407,2020-04-25 11:22:40.000000000,2020-04-25 20:44:15.000000000,closed,1,"#1406 Adding a Arb.Choice function that returns an Arb instance, deprecated…"
+1406,2020-04-24 20:45:54.000000000,2020-04-25 20:44:34.000000000,closed,0,Arb.choice should take Arb instances and not combine edgecases into arb.values().
+1405,2020-04-24 11:39:35.000000000,2020-04-26 02:38:11.000000000,closed,2,Number generators have wrong edge cases
+1404,2020-04-23 18:39:58.000000000,2020-04-28 21:21:47.000000000,closed,2,Allowing to use specific dates to generate date
+1403,2020-04-23 18:13:04.000000000,2020-04-23 18:13:27.000000000,closed,0,Allowing to use specific dates to generate date
+1402,2020-04-23 14:15:42.000000000,2020-04-24 05:19:24.000000000,closed,1,#1381 Makes LinkageError as fatal error
+1401,2020-04-23 13:53:25.000000000,1970-01-01 00:00:00.000000001,open,24,Add support for Quarkus
+1400,2020-04-22 08:51:23.000000000,2020-04-22 11:48:17.000000000,closed,1,Updates package-lock.json to use 1.2.5 version of minimist
+1399,2020-04-22 02:56:00.000000000,2020-04-25 20:43:46.000000000,closed,7,Property testing docs need updating?
+1398,2020-04-21 19:25:40.000000000,2020-04-24 07:47:49.000000000,closed,0,Adds Robolectric extension usage description
+1397,2020-04-21 03:32:24.000000000,2020-04-23 18:50:10.000000000,closed,1,Resolve #1387. Catch all exceptions in project listeners.
+1396,2020-04-21 03:08:06.000000000,2020-04-21 16:33:45.000000000,closed,1,gradle wrapper version
+1395,2020-04-21 02:40:30.000000000,2020-06-06 20:35:24.000000000,closed,11,Resolve #1362. Add parallel testCase execution in one Spec
+1394,2020-04-20 18:10:16.000000000,2020-04-26 01:23:48.000000000,closed,21,Issues with classloader when using Roboeletric Extension
+1393,2020-04-20 13:14:44.000000000,2020-04-20 13:30:09.000000000,closed,0,[Feature] Add the posibility to activate validations for Properties depending on another Property
+1392,2020-04-19 00:55:15.000000000,2020-04-21 19:20:51.000000000,closed,0,Sanitized some use of mocks #1391
+1391,2020-04-17 16:12:48.000000000,2020-04-21 19:20:51.000000000,closed,0,[Refactoring] Use one common Mock library
+1390,2020-04-17 08:54:10.000000000,2020-04-17 08:54:19.000000000,closed,0,Update build.gradle.kts
+1389,2020-04-16 14:43:33.000000000,2020-04-17 04:58:35.000000000,closed,2,Mapping over an `Arb` executes twice
+1388,2020-04-15 22:17:16.000000000,1970-01-01 00:00:00.000000001,open,11,[Feature] Add config option alwaysRun to callback
+1387,2020-04-15 21:22:43.000000000,2020-04-23 18:50:11.000000000,closed,0,Before\AfterProject catch only one Exception
+1386,2020-04-15 21:07:26.000000000,2020-07-16 19:59:47.000000000,closed,8,IsolationMode.InstancePerLeaf and IsolationMode.InstancePerTest register too much project listeners
+1385,2020-04-15 10:15:26.000000000,2020-04-16 15:48:07.000000000,closed,1,"Added better quick start guide, explaining difference between the sub…"
+1384,2020-04-15 00:11:58.000000000,2020-04-15 00:39:23.000000000,closed,0,Fixes AutoClose ordering
+1383,2020-04-14 23:36:49.000000000,2020-04-22 14:24:08.000000000,closed,0,Add x variants for Behavior / Feature / Expect spec
+1382,2020-04-14 20:06:51.000000000,2020-04-15 00:39:23.000000000,closed,2,Resources not closed in reversed order
+1381,2020-04-13 19:16:08.000000000,2020-04-24 13:59:16.000000000,closed,8,Error in beforeTest listener is swallowed
+1380,2020-04-13 17:24:56.000000000,2020-08-23 22:54:00.000000000,closed,6,Add Line Breaks and Indents in the Failure Messages of Collection Matchers
+1379,2020-04-13 00:04:07.000000000,2020-04-13 00:08:41.000000000,closed,0,Project config dump doesn't include enums properly
+1378,2020-04-12 19:49:09.000000000,2020-04-12 23:40:28.000000000,closed,9,Test results are wrong
+1377,2020-04-12 16:55:18.000000000,2020-04-14 06:25:32.000000000,closed,4,io.kotest:kotest-runner-junit5 artifact empty?
+1376,2020-04-11 22:20:59.000000000,2020-04-26 05:11:38.000000000,closed,6,Focus not working in FunSpecs
+1375,2020-04-10 00:07:59.000000000,2020-04-10 01:23:53.000000000,closed,0,Removes unused gradle properties for intellij plugin
+1374,2020-04-09 23:44:58.000000000,2020-04-14 21:12:06.000000000,closed,0,Improve Documentation in Project Config
+1373,2020-04-09 08:21:40.000000000,2020-04-09 08:42:38.000000000,closed,1,fix typo: InstancePerTest -> InstancePerLeaf
+1372,2020-04-09 05:38:25.000000000,2020-04-11 07:10:39.000000000,closed,6,Non-deterministic function eventually() does not retry assertion until time out
+1371,2020-04-09 04:45:18.000000000,2020-04-11 07:33:58.000000000,closed,1,ShouldSpec does not isolate tests prefixed with f: if not in top level scope
+1370,2020-04-09 02:43:25.000000000,1970-01-01 00:00:00.000000001,open,1,defaultTestConfig break tests in ContextScope 
+1369,2020-04-09 02:31:10.000000000,2020-04-11 07:33:48.000000000,closed,4,threads and invocations in TestCaseConfig for tests in ContextScope
+1368,2020-04-09 00:21:28.000000000,2020-04-09 00:23:02.000000000,closed,0,Update docs related to TestCaseConfig
+1367,2020-04-09 00:04:47.000000000,2020-04-10 01:25:12.000000000,closed,2,Fix shouldContainExactly for Arrays (#1364)
+1366,2020-04-08 23:35:03.000000000,2020-04-09 05:50:06.000000000,closed,2,Dependency resolution error with kotest and gradle protobuf compiler plugin
+1365,2020-04-08 18:41:27.000000000,2020-08-21 21:04:03.000000000,closed,2,Missing pom informations in Pitest Maven plugin
+1364,2020-04-08 17:06:00.000000000,2020-04-10 21:19:27.000000000,closed,4,Array.shouldContainExactly wraps expected array
+1363,2020-04-08 06:01:12.000000000,2020-04-08 07:11:12.000000000,closed,1,Update docs related to defaultTestCaseConfig
+1362,2020-04-07 12:08:35.000000000,2020-06-06 20:35:26.000000000,closed,3,Parallel execution test cases in Spec
+1361,2020-04-07 00:39:03.000000000,2020-04-07 03:45:18.000000000,closed,0,java.lang.ArrayStoreException: sun.reflect.annotation.TypeNotPresentExceptionProxy
+1360,2020-04-06 17:10:05.000000000,2020-06-01 13:18:28.000000000,closed,7,#1353 Adds pertest and perspec listener for testcontainers
+1359,2020-04-06 16:06:10.000000000,2020-06-07 23:09:01.000000000,closed,12,Support tests inside commonTest
+1358,2020-04-06 11:43:01.000000000,2020-04-13 03:44:57.000000000,closed,3,"Please provide full example projects, the full javadoc and a guide to the dependencies."
+1357,2020-04-06 06:48:10.000000000,2020-04-06 07:03:32.000000000,closed,0,Tweaks with KoinListener for Koin 2.1.0
+1356,2020-04-06 04:50:19.000000000,2020-04-11 07:30:38.000000000,closed,0,"Replace ""string context"" with context(""string"") in ShouldSpec"
+1355,2020-04-06 00:08:16.000000000,1970-01-01 00:00:00.000000001,open,50,"Tests have huge delay, and ""Default test timeout: 600000ms"" shows"
+1354,2020-04-05 23:50:11.000000000,2020-05-13 22:00:56.000000000,closed,2,Date generators should allow for specific dates to be selected
+1353,2020-04-05 23:37:55.000000000,2020-08-20 12:55:34.000000000,closed,4,Integration with Testcontainers
+1352,2020-04-05 21:04:45.000000000,2020-08-29 05:40:31.000000000,closed,3,Test integration with SonarQube
+1351,2020-04-04 17:06:43.000000000,2020-04-04 17:09:40.000000000,closed,1,fix typo
+1350,2020-04-03 21:13:29.000000000,2020-04-03 23:49:16.000000000,closed,0,Arb.bind produces the same value for property test #1348
+1349,2020-04-03 19:57:21.000000000,2020-04-06 07:03:32.000000000,closed,1,Koin extension not working since Koin version 2.1.0
+1348,2020-04-03 11:21:32.000000000,2020-04-03 23:49:16.000000000,closed,2,Arb.bind produces the same value for property test
+1347,2020-04-03 10:22:49.000000000,2020-04-03 10:53:55.000000000,closed,0,Stacktrace is lost when using forAll and row #1336
+1346,2020-04-03 09:44:55.000000000,2020-04-04 04:21:33.000000000,closed,4,Tag: Code and docs out of sync
+1345,2020-04-03 08:19:14.000000000,2020-04-03 09:13:30.000000000,closed,0,Fixed timeout for nested coroutine not wrapped in a scope
+1344,2020-04-03 07:09:28.000000000,2020-04-03 07:22:00.000000000,closed,0,Made beforeSpec afterSpec DSL methods suspendable #1333
+1343,2020-04-03 02:09:51.000000000,2020-04-03 02:52:54.000000000,closed,0,"Add map,filter to Exhaustive"
+1342,2020-04-02 09:35:16.000000000,2020-04-03 07:09:09.000000000,closed,0,Allow internal by default #1337
+1341,2020-04-02 09:20:08.000000000,2020-04-03 06:07:44.000000000,closed,0,Added nested before test for fun/behavior/describe spec #1338
+1340,2020-04-02 09:13:03.000000000,2020-04-02 20:21:13.000000000,closed,0,Add JUnit4 support again
+1339,2020-04-02 08:30:56.000000000,2020-04-03 20:36:04.000000000,closed,5,Restored opentest4j and junit4 exceptions
+1338,2020-04-02 07:58:12.000000000,2020-04-03 07:32:15.000000000,closed,0,beforeTest / afterTest should be nestable
+1337,2020-04-02 04:18:06.000000000,2020-04-04 04:21:46.000000000,closed,2,allow_internal JUnit5 configuration is an undocumented breaking change for 4.x
+1336,2020-04-02 02:17:00.000000000,2020-04-04 04:21:54.000000000,closed,4,Stacktrace is lost when using forAll and row
+1335,2020-04-02 01:37:23.000000000,2020-06-08 05:30:23.000000000,closed,1,Support iOS
+1334,2020-04-02 00:48:25.000000000,2020-06-28 00:18:29.000000000,closed,2,Native MacOS test does not compile
+1333,2020-04-01 01:15:19.000000000,2020-04-03 07:22:06.000000000,closed,0,beforeSpec afterSpec DSL methods are not suspendable
+1332,2020-03-31 21:44:23.000000000,1970-01-01 00:00:00.000000001,open,7,"Combined use of Groovy-JSR223, Kotest, and OpenJ9 leads to NullPointerException"
+1331,2020-03-31 18:48:34.000000000,2020-03-31 19:00:38.000000000,closed,0,Make probability of DateTest failing lower
+1330,2020-03-31 16:11:59.000000000,1970-01-01 00:00:00.000000001,open,8,wrong count of tests
+1329,2020-03-31 13:42:56.000000000,2020-04-01 21:22:22.000000000,closed,3,Duplicate class AliasesKt 
+1328,2020-03-31 01:08:46.000000000,2020-04-13 06:04:05.000000000,closed,1,Check order of callbacks in ShouldSpec with when and WordsSpec with when
+1327,2020-03-30 14:30:46.000000000,2020-06-05 19:37:25.000000000,closed,1,Feature: Consider separation of test specification / test execution with compiler plugin
+1326,2020-03-30 13:15:16.000000000,2020-04-02 07:57:16.000000000,closed,3,Caching result of scanUris (#1325)
+1325,2020-03-30 12:52:45.000000000,2020-04-02 07:57:16.000000000,closed,0,Disocvery caching is defeated by Surefire
+1324,2020-03-30 11:33:10.000000000,2020-03-30 11:36:14.000000000,closed,1,Close ScanResult (#1323)
+1323,2020-03-30 10:21:22.000000000,2020-03-30 11:36:14.000000000,closed,0,Discovery.scanUris leaks resource due to not closing ScanResult
+1322,2020-03-30 09:13:58.000000000,2020-03-30 09:29:52.000000000,closed,1,Fix instant Arb
+1321,2020-03-30 08:07:06.000000000,2020-07-03 23:53:42.000000000,closed,1,Expand some matchers to Iterable
+1320,2020-03-30 05:28:38.000000000,2020-03-30 05:52:15.000000000,closed,0,Remove Android from main Kotest project
+1319,2020-03-30 04:47:08.000000000,2020-03-30 05:03:18.000000000,closed,0,Remove duplicate classes
+1318,2020-03-30 02:40:41.000000000,2020-06-24 20:32:14.000000000,closed,21,More JSON test functions
+1317,2020-03-30 02:40:21.000000000,2020-04-14 08:30:47.000000000,closed,1,Handle show for java.nio.file.Path
+1316,2020-03-29 22:34:16.000000000,2020-03-30 03:44:08.000000000,closed,3,Make JSON and pitest tests work
+1315,2020-03-28 17:39:03.000000000,2020-03-29 23:21:11.000000000,closed,6,Add String?.shouldBeInteger([Int]): Int
+1314,2020-03-27 16:57:50.000000000,2020-04-04 04:22:05.000000000,closed,3,Internal test classes not picked up
+1313,2020-03-27 08:11:48.000000000,2020-06-02 05:10:03.000000000,closed,6,Any kind of `.show()` on `java.nio.file.Path` causes a StackOverflowError
+1312,2020-03-27 00:41:12.000000000,2020-03-30 05:03:18.000000000,closed,0,Duplicate class Testable
+1311,2020-03-26 14:33:43.000000000,2020-06-02 01:21:17.000000000,closed,2,BeforeAll and etc order execution in AnnotationSpec
+1310,2020-03-26 06:23:58.000000000,2020-04-03 06:47:09.000000000,closed,1,Assertion diff not appearing in intellij
+1309,2020-03-26 06:17:06.000000000,2020-04-13 08:47:19.000000000,closed,2,New map error message doesn't include stack trace
+1308,2020-03-24 08:59:45.000000000,2020-05-10 18:51:21.000000000,closed,1,Add documentation on test factories
+1307,2020-03-24 01:38:37.000000000,2020-08-13 09:27:43.000000000,closed,4,Support config per test in AnnotationSpec
+1306,2020-03-24 01:15:08.000000000,2020-03-24 09:17:36.000000000,closed,1,Support @DataProvider in AnnotationSpec
+1305,2020-03-23 22:55:56.000000000,2020-06-04 23:57:42.000000000,closed,6,Kotest couldn't run tests parallel
+1304,2020-03-23 12:11:55.000000000,2020-03-24 09:21:45.000000000,closed,0,"Add property test Arb for (lat, long)"
+1303,2020-03-20 20:04:26.000000000,2020-03-22 08:17:30.000000000,closed,2,Annotation tests style function visibility
+1302,2020-03-20 17:20:08.000000000,2020-03-21 08:25:51.000000000,closed,2,Email generator does not generate proper emails
+1301,2020-03-20 16:58:59.000000000,2020-06-02 21:54:34.000000000,closed,5,Android: Test events were not received
+1300,2020-03-20 13:33:13.000000000,2020-03-20 16:35:36.000000000,closed,0,Change return type of buildAssertionError
+1299,2020-03-18 20:58:27.000000000,2020-03-18 21:01:06.000000000,closed,0,Updates package-lock.json  to fix security warnings
+1298,2020-03-18 14:53:42.000000000,2020-03-20 07:19:03.000000000,closed,12,How to use/run AnnotationSpec style tests?
+1297,2020-03-18 06:52:48.000000000,2020-03-19 07:28:34.000000000,closed,1,Feature/codepoints
+1296,2020-03-16 12:49:15.000000000,2020-03-16 23:50:24.000000000,closed,0,#979 Adds documentation for shouldBeEqualToUsingFields and shouldBeEqualToIgnoringFields
+1295,2020-03-16 12:25:14.000000000,2020-03-16 13:59:43.000000000,closed,1,Add missing ${value.show().value} for inverted matcher message
+1294,2020-03-16 00:58:42.000000000,2020-03-16 12:05:07.000000000,closed,5,issues/1284: Fix containInOrder matcher message
+1293,2019-10-30 03:38:12.000000000,2020-03-16 11:09:12.000000000,closed,2,Why does KotlinTest IDEA plugin only nest the first leaf when using IsolationMode.InstancePerLeaf?
+1292,2020-03-15 10:52:04.000000000,2020-03-16 07:27:43.000000000,closed,1,Updates Readme to add configration for adding kotest assertions
+1291,2020-03-15 08:17:41.000000000,2020-03-17 07:05:36.000000000,closed,4,Converted Gen to be a sealed class; moved exhaustive and arb into thi…
+1290,2020-03-15 07:32:12.000000000,2020-03-15 21:56:14.000000000,closed,0,Add checkCoverage for new property tests
+1289,2020-03-14 23:57:35.000000000,2020-03-15 08:19:36.000000000,closed,1,issues/1285: Fix containInOrder
+1288,2020-03-14 22:09:02.000000000,2020-03-14 23:53:08.000000000,closed,2,WIP: Feature/1285
+1287,2020-03-14 21:12:16.000000000,2020-05-07 20:50:31.000000000,closed,6,Data-driven tests: `row` fails when using unsigned integer types
+1286,2020-03-14 13:01:08.000000000,2020-03-15 07:54:44.000000000,closed,1,#1269 Adds shouldThrowMessage and shouldNotThrowMessage
+1285,2020-03-14 02:27:12.000000000,2020-03-15 08:19:48.000000000,closed,1,shouldContainInOrder problems with duplicates
+1284,2020-03-14 02:09:00.000000000,2020-03-16 12:05:46.000000000,closed,1,Improve error messages with vararg arguments (for string Matcher shouldContainInOrder)
+1283,2020-03-13 23:44:49.000000000,2020-04-04 04:22:18.000000000,closed,11,timeout doesn't actually stop the test
+1282,2020-03-13 21:12:19.000000000,2020-03-13 21:53:35.000000000,closed,0,Removes beforeSpecClass and afterSpecClass form TestListener docs
+1281,2020-03-12 19:45:49.000000000,2020-03-16 00:17:26.000000000,closed,0,Improve shouldBe matcher to support Regex comparison and better formatted error for map
+1280,2020-03-12 10:30:35.000000000,2020-05-20 14:32:01.000000000,closed,4,Robolectric extension with custom Application instance
+1279,2020-03-11 23:13:11.000000000,2020-06-07 05:34:18.000000000,closed,7,Property tests should report exception of running shrunk input
+1278,2020-03-11 16:54:09.000000000,2020-03-11 17:28:38.000000000,closed,0,Add extension function Gen<X>.checkAll
+1277,2020-03-11 07:34:38.000000000,2020-03-11 07:39:43.000000000,closed,1,Up to 6 generators
+1276,2020-03-11 05:00:56.000000000,2020-03-11 06:34:31.000000000,closed,0,Added property tests with up to 4 generators
+1275,2020-03-10 15:30:34.000000000,2020-05-17 02:42:22.000000000,closed,10,Add binary validator (to avoid methods loosing)
+1274,2020-03-10 13:07:39.000000000,2020-03-19 10:23:41.000000000,closed,13,Allow multiple project configs
+1273,2020-03-09 15:22:48.000000000,2020-03-09 16:08:31.000000000,closed,4,KotestEngine.execute never exits
+1272,2020-03-09 11:49:06.000000000,2020-03-16 00:53:22.000000000,closed,2,Path matchers should be implemented without a `toFile()` conversion
+1271,2020-03-09 06:43:52.000000000,2020-03-09 06:43:57.000000000,closed,0,Feature/discovery
+1270,2020-03-09 04:58:50.000000000,2020-03-09 05:29:41.000000000,closed,1,Improve support for JUnit platform test discovery #1229
+1269,2020-03-08 17:10:05.000000000,2020-03-15 07:55:09.000000000,closed,2,ShouldThrowMessage
+1268,2020-03-07 00:56:46.000000000,2020-03-09 07:31:08.000000000,closed,1,Add suspend analogs of withClue and asClue
+1267,2020-03-06 22:27:39.000000000,2020-03-07 22:10:17.000000000,closed,0,Add Arb that generates random java.time.Instant
+1266,2020-03-06 02:53:33.000000000,2020-03-07 22:24:39.000000000,closed,7,Move blocking forAll functions into commonMain
+1265,2020-03-05 12:57:55.000000000,2020-05-12 18:54:10.000000000,closed,2,Will there be support for Test Retry Gradle Plugin?
+1264,2020-03-04 21:11:02.000000000,2020-03-25 07:30:09.000000000,closed,2,Example of property-based testing does not compile in most recent version (3.4.2)
+1263,2020-03-04 20:53:39.000000000,2020-03-04 22:27:13.000000000,closed,0,Add Arb.distinctBy with a selector to pick the distinct key
+1262,2020-03-04 18:37:03.000000000,2020-03-09 07:31:22.000000000,closed,3,A problem with running tests on 1.3.70 (Error: Timeout of 2000ms exceeded.)
+1261,2020-03-04 18:32:45.000000000,2020-03-07 22:42:33.000000000,closed,0,Support @Ignored at the spec level
+1260,2020-03-04 17:15:25.000000000,2020-03-09 07:31:27.000000000,closed,2,1.3.70
+1259,2020-03-04 04:11:36.000000000,2020-03-04 08:51:18.000000000,closed,0,Update dependencies
+1258,2020-03-04 02:52:17.000000000,2020-03-04 04:08:48.000000000,closed,0,Refactor the regex arb to clarify that regex is not fully supported
+1257,2020-03-03 23:37:04.000000000,2020-03-07 22:09:34.000000000,closed,1,Kotest fails with 
+1256,2020-03-03 21:48:53.000000000,2020-03-05 01:43:03.000000000,closed,1,Add Arb chunked extensions and Arb element vararg
+1255,2020-03-03 04:15:11.000000000,2020-03-04 04:10:51.000000000,closed,0,Refactor gradle builds
+1254,2020-03-03 03:36:22.000000000,2020-03-06 17:39:40.000000000,closed,6,Improve collection comparison matchers
+1253,2020-03-02 21:24:55.000000000,2020-03-16 08:37:37.000000000,closed,12,Add arb that generates lists
+1252,2020-03-02 21:19:50.000000000,2020-03-04 04:11:51.000000000,closed,2,Deprecate/remove regex arb that accepts a Regex
+1251,2020-03-02 21:02:59.000000000,2020-03-06 17:40:46.000000000,closed,1,Fix arb bind so that it uses one sequence for each of the input arbs
+1250,2020-03-01 07:32:18.000000000,2020-03-01 09:03:38.000000000,closed,0,Remove AutoScan from KoinListener
+1249,2020-03-01 04:27:50.000000000,2020-03-01 07:28:29.000000000,closed,1,Fix the regex property generator so it produces new values
+1248,2020-02-29 21:05:45.000000000,2020-02-29 22:12:43.000000000,closed,1,Fixed Result.shouldBeSuccess matcher
+1247,2020-02-29 19:35:18.000000000,2020-03-18 08:27:55.000000000,closed,1,Create documentation page that lists useful blogs / tutorials on kotest
+1246,2020-02-28 22:09:03.000000000,2020-03-01 09:03:38.000000000,closed,2,Remove AutoScan from KoinListener
+1245,2020-02-28 00:48:50.000000000,2020-03-17 08:31:38.000000000,closed,3,Generate data class using reflection in property tests
+1244,2020-02-27 22:24:59.000000000,2020-03-21 08:33:44.000000000,closed,3,Make eventually and continually configurable with pollDelay
+1243,2020-02-27 15:24:16.000000000,2020-03-17 07:29:29.000000000,closed,0,Collection comparison matcher should print missing and unexpected elements
+1242,2020-02-27 12:50:02.000000000,2020-05-20 17:15:53.000000000,closed,2,There should be better error output when compare data classes
+1241,2020-02-27 08:33:33.000000000,2020-02-28 22:00:22.000000000,closed,1,Add infix modifier to Ktor matchers
+1240,2020-02-27 08:05:02.000000000,2020-02-28 22:00:22.000000000,closed,0,Ktor matchers should be infix
+1239,2020-02-25 12:57:09.000000000,2020-02-25 21:10:58.000000000,closed,2,Github action for pull request fails with Task 'macosX64Test' not found in root project 'kotest'
+1238,2020-02-25 12:29:05.000000000,2020-03-08 19:23:20.000000000,closed,3,#1150 Adds shouldBeEqualTo matcher for map with formatted error for map comparison
+1237,2020-02-24 17:05:51.000000000,2020-02-25 03:55:59.000000000,closed,1,1235 Add functions to call shouldContain for Array
+1236,2020-02-24 04:20:52.000000000,2020-03-16 10:59:09.000000000,closed,3,Ever so slightly verbose output when comparing two arrays
+1235,2020-02-24 04:16:52.000000000,2020-02-25 03:55:59.000000000,closed,0,We don't have Array.shouldContain
+1234,2020-02-24 02:47:58.000000000,2020-03-09 15:47:32.000000000,closed,0,"After project failure ""Class"""
+1233,2020-02-24 01:04:31.000000000,2020-02-25 03:56:07.000000000,closed,0,Support adding tags on spec.
+1232,2020-02-24 00:01:20.000000000,2020-03-10 05:32:44.000000000,closed,1,Exception when getting annotations in gradle < 6
+1231,2020-02-23 16:06:38.000000000,2020-02-23 22:53:10.000000000,closed,0,Removes beforeSpecClass and afterSpecClass from docs
+1230,2020-02-23 05:34:32.000000000,2020-04-14 06:54:40.000000000,closed,0,Improve error message in tolerance matchers
+1229,2020-02-23 01:53:38.000000000,2020-03-09 05:29:48.000000000,closed,0,Improve support for JUnit platform test discovery
+1228,2020-02-22 01:26:31.000000000,2020-02-23 22:43:02.000000000,closed,0,Adjust default values for Float and Double Arb
+1227,2020-02-21 21:09:24.000000000,2020-03-09 07:31:51.000000000,closed,4,`It` should require lambda parameter
+1226,2020-02-20 02:06:19.000000000,2020-02-20 02:18:25.000000000,closed,1,#1171 New logo
+1225,2020-02-20 00:15:57.000000000,2020-03-07 22:32:17.000000000,closed,2,Support Spec level tags
+1224,2020-02-19 22:33:01.000000000,2020-04-26 22:11:24.000000000,closed,1,Flow matchers inspired by akka testkit
+1223,2020-02-19 13:24:02.000000000,2020-04-20 19:23:40.000000000,closed,3,SpringBootTest not picking up ActiveProfiles
+1222,2020-02-19 07:23:46.000000000,2020-03-08 02:19:16.000000000,closed,1,Update eventually to return first error AND last error
+1221,2020-02-18 20:58:55.000000000,2020-02-19 17:23:39.000000000,closed,3,Add matchers for ResultSet.
+1220,2020-02-17 13:20:10.000000000,2020-02-18 21:03:01.000000000,closed,14,java.lang.NoClassDefFoundError: kotlin/time/MonoClock
+1219,2020-02-17 01:44:00.000000000,2020-02-17 01:47:29.000000000,closed,0,Feature/1131
+1218,2020-02-17 01:41:52.000000000,2020-02-17 01:42:22.000000000,closed,0,1131 Add documentation for konform matchers
+1217,2020-02-17 00:34:28.000000000,2020-03-09 07:32:31.000000000,closed,1,Allow use of framework without assertions
+1216,2020-02-16 01:41:24.000000000,2020-02-23 22:43:01.000000000,closed,4,Is usage of MIN_VALUE for floating point number generators correct?
+1215,2020-02-14 09:41:31.000000000,2020-02-16 10:18:52.000000000,closed,2,AnnotationSpec does not find tests declared in constructor
+1214,2020-02-12 00:06:06.000000000,2020-02-18 00:28:15.000000000,closed,7,Add matchers to Klock. 
+1213,2020-02-11 19:27:06.000000000,2020-02-11 20:51:18.000000000,closed,0,#1212 Corrects order of failure message for Int.shouldBeBetween matcher
+1212,2020-02-11 13:39:31.000000000,2020-02-11 20:52:15.000000000,closed,1,"Error messages for IntMatchers.between(a,b) are swapped"
+1211,2020-02-10 05:29:28.000000000,2020-02-10 06:23:38.000000000,closed,1,Add mockserver extensions
+1210,2020-02-10 03:47:48.000000000,2020-02-16 23:51:30.000000000,closed,1,Updated docs with kotest details #1209
+1209,2020-02-10 03:46:47.000000000,2020-02-17 05:17:33.000000000,closed,0,Update all docs to refer to new name
+1208,2020-02-09 22:51:51.000000000,2020-02-11 08:06:01.000000000,closed,3,#1161 Updates shouldBeEqualToIgnoringFields to compare private fields as well
+1207,2020-02-09 20:18:40.000000000,2020-02-10 01:57:18.000000000,closed,0,Add Matchers for kotlin durations
+1206,2020-02-09 20:18:31.000000000,2020-02-10 01:38:41.000000000,closed,0,Add JS matcher for JS Date
+1205,2020-02-09 19:04:33.000000000,2020-02-09 22:06:50.000000000,closed,0,Make retry MPP
+1204,2020-02-09 17:54:15.000000000,2020-02-09 18:57:14.000000000,closed,0,Add generator for js date
+1203,2020-02-09 17:22:36.000000000,2020-02-09 18:02:47.000000000,closed,0,Add isNested to spec
+1202,2020-02-09 17:11:03.000000000,2020-02-09 22:07:01.000000000,closed,0,Add assumption filter to prop test
+1201,2020-02-09 17:07:11.000000000,2020-02-09 18:02:53.000000000,closed,0,Print seed in prop tests
+1200,2020-02-08 14:59:44.000000000,2020-02-08 15:06:47.000000000,closed,1,Fix markdown link
+1199,2020-02-08 00:39:28.000000000,2020-02-09 04:27:22.000000000,closed,1,Check implementation on continually
+1198,2020-02-07 17:49:12.000000000,2020-02-08 22:33:55.000000000,closed,0,Add check coverage to prop testing
+1197,2020-02-07 05:55:34.000000000,2020-02-10 06:23:43.000000000,closed,1,Support http client in intellij
+1196,2020-02-06 23:13:39.000000000,2020-02-07 08:14:21.000000000,closed,0,Add initial android matchers
+1195,2020-02-05 12:27:41.000000000,2020-02-10 01:40:21.000000000,closed,0,Bump dokka-gradle-plugin from 0.10.0 to 0.10.1
+1194,2020-02-05 09:42:45.000000000,2020-02-05 09:46:20.000000000,closed,0,Improved shrinking code
+1193,2020-02-05 01:38:57.000000000,2020-02-09 10:12:37.000000000,closed,1,Delete dir equiv of autoclose ?
+1192,2020-02-04 19:40:21.000000000,2020-03-25 07:34:25.000000000,closed,5,"afterTest in BehaviorSpec test runs after each Given, When and Then"
+1191,2020-02-04 09:45:10.000000000,2020-02-04 09:45:23.000000000,closed,0,Improved shrinking code
+1190,2020-02-04 01:59:11.000000000,2020-02-04 02:10:00.000000000,closed,1,Fix task name for windows publication workflow
+1189,2020-02-04 01:23:44.000000000,2020-05-21 16:38:25.000000000,closed,1,Add gradle project builds for all gradle versions
+1188,2020-02-03 23:09:02.000000000,2020-02-04 01:03:52.000000000,closed,3,Publish native artifacts for all supported platforms
+1187,2020-02-01 21:34:34.000000000,2020-02-17 05:17:48.000000000,closed,0,Add typealias from io.kotlintest to io.kotest
+1186,2020-02-01 14:34:09.000000000,2020-02-10 01:40:01.000000000,closed,5,#1184 Add shouldHaveSingleElement matcher with predicate
+1185,2020-01-31 23:36:41.000000000,2020-05-24 00:28:00.000000000,closed,7,Blog / Article links for migration
+1184,2020-01-31 23:33:43.000000000,2020-02-10 01:40:01.000000000,closed,1,New collections matcher
+1183,2020-01-31 11:31:33.000000000,2020-01-31 11:39:41.000000000,closed,0,"Make eventually, until and continually cross platform"
+1182,2020-01-31 03:23:37.000000000,2020-01-31 10:35:23.000000000,closed,0,Focus should work in a test factory
+1181,2020-01-31 01:15:46.000000000,2020-01-31 10:31:07.000000000,closed,0,Autoclose to accept lazy
+1180,2020-01-30 23:02:19.000000000,2020-01-31 00:41:31.000000000,closed,4,Replace TravisCI with GitHub Actions for CI tests
+1179,2020-01-30 03:14:07.000000000,2020-01-30 21:01:43.000000000,closed,4,"Add Kotlin/Native support to kotest-assertions, kotest-fp, and kotest-properties"
+1178,2020-01-29 19:20:52.000000000,2020-04-25 01:27:57.000000000,closed,4,BehaviorSpec with junit4 runner creates test for single brace
+1177,2020-01-28 23:12:01.000000000,2020-01-29 02:44:31.000000000,closed,3,Move type matchers to commonMain
+1176,2020-01-27 18:03:03.000000000,2020-01-29 01:45:22.000000000,closed,4,Makes properties field mandatory for shouldBeEqualToUsingFields and shouldBeEqualToIgnoringFields
+1175,2020-01-24 05:53:10.000000000,2020-01-24 06:04:46.000000000,closed,1,Move TableTesting and DataDrivenTesting to commonMain
+1174,2020-01-22 17:41:59.000000000,2020-02-03 07:39:37.000000000,closed,0,"Updated property testing to move iterations out of arbs, reintroduce …"
+1173,2020-01-21 18:01:10.000000000,2020-01-22 07:03:04.000000000,closed,1,Adds matcher for Char
+1172,2020-01-21 11:44:59.000000000,2020-01-29 03:43:34.000000000,closed,1,Add allure annotations
+1171,2020-01-21 04:47:46.000000000,2020-03-07 22:43:55.000000000,closed,46,New logo
+1170,2020-01-21 00:41:03.000000000,2020-01-21 00:55:07.000000000,closed,0,Bump gradle from 3.5.0 to 3.5.3
+1169,2020-01-21 00:40:42.000000000,2020-01-29 01:45:38.000000000,closed,2,Bump net.researchgate.release from 2.8.0 to 2.8.1
+1168,2020-01-21 00:40:21.000000000,2020-01-21 00:54:18.000000000,closed,0,Bump dokka-gradle-plugin from 0.9.17 to 0.10.0
+1167,2020-01-20 19:32:09.000000000,2020-01-21 00:54:43.000000000,closed,0,Removes redundant konform repository url from kotest-assertions-compiler
+1166,2020-01-18 19:14:57.000000000,2020-01-19 05:28:23.000000000,closed,0,Add function based enabledIf to test config
+1165,2020-01-18 08:17:47.000000000,2020-02-09 23:31:25.000000000,closed,1,Add before/after invocation callbacks and restrict invocations to TestType.TEST
+1164,2020-01-17 21:48:29.000000000,2020-02-17 01:52:26.000000000,closed,0,[NEXT RELEASE] Adds documentation for kotest-assertions-compiler
+1163,2020-01-17 18:17:59.000000000,2020-04-24 18:43:09.000000000,closed,14,Type inference causes shouldBe to act in an unintended matter.
+1162,2020-01-17 17:51:40.000000000,2020-02-17 01:47:49.000000000,closed,2,[NEXT RELEASE] 1131 Add documentation for konform matchers
+1161,2020-01-17 17:08:50.000000000,2020-02-11 09:57:03.000000000,closed,17,Add alias for shouldBeEqualToUsingFields and disallow specifying NO fields
+1160,2020-01-17 11:36:54.000000000,2020-01-18 19:38:11.000000000,closed,2,Test time reported to JUnit runner is incorrect
+1159,2020-01-16 15:44:12.000000000,2020-01-21 19:48:13.000000000,closed,1,#523 Adds a retry function
+1158,2020-01-15 18:45:20.000000000,2020-01-16 08:16:23.000000000,closed,7,Provide matchers for konform
+1157,2020-01-15 17:42:47.000000000,2020-01-15 17:48:24.000000000,closed,1,Project wide default test case config
+1156,2020-01-14 22:02:18.000000000,2020-02-18 01:23:26.000000000,closed,2,Add matchers to Klock
+1155,2020-01-14 02:35:54.000000000,2020-02-08 21:33:19.000000000,closed,4,Not clear how to generate a list of arbitrary values
+1154,2020-01-14 01:17:15.000000000,2020-01-14 04:25:10.000000000,closed,1,Add support for defining which version of UUID to generate at Gen.uuid()
+1153,2020-01-13 22:42:32.000000000,2020-01-16 08:31:08.000000000,closed,2,Adding matcher to check a kotlin code compiles
+1152,2020-01-13 21:12:36.000000000,2020-05-14 20:13:50.000000000,closed,4,Improve Property-based testing documentation
+1151,2020-01-13 10:31:01.000000000,2020-02-09 21:48:52.000000000,closed,0,Consider unifying the data driven methods
+1150,2020-01-12 02:49:18.000000000,2020-03-16 00:15:23.000000000,closed,2,Better formatted error for map comparsion
+1149,2020-01-11 23:28:43.000000000,2020-01-12 09:03:27.000000000,closed,4,Remove Try matchers
+1148,2020-01-11 22:22:41.000000000,2020-02-10 17:59:14.000000000,closed,0,AssertionFailedError from opentest4j is not handled properly intellij
+1147,2020-01-10 17:37:28.000000000,2020-02-08 21:32:35.000000000,closed,1,forAll in combination with Gen.list always generates an empty list on first iteration if Gen has no constants
+1146,2020-01-10 09:52:23.000000000,2020-01-12 10:17:31.000000000,closed,2,An empty test name is not being processed correctly.
+1145,2020-01-08 05:11:56.000000000,2020-01-12 10:22:17.000000000,closed,1,Change when ready to be coroutine based and ext fun
+1144,2020-01-07 10:03:54.000000000,2020-01-12 08:02:29.000000000,closed,0,Feature/composespecs2
+1143,2020-01-05 08:53:05.000000000,2020-01-21 04:13:30.000000000,closed,13,Auto scan for project level extensions / listeners
+1142,2020-01-05 06:53:12.000000000,2020-01-07 05:05:24.000000000,closed,8,Reusable composable specs
+1141,2020-01-04 00:59:58.000000000,2020-01-04 21:08:48.000000000,closed,1,Implement android test
+1140,2020-01-02 17:10:50.000000000,2020-01-12 11:31:19.000000000,closed,1,Redundant dependency on old kotlin-reflect library
+1139,2020-01-02 14:10:45.000000000,2020-02-09 21:48:47.000000000,closed,0,Make table testing case consistent with kotlin
+1138,2019-12-30 11:10:11.000000000,2020-03-10 08:11:04.000000000,closed,1,Can't find test reports for gradle task allTests
+1137,2019-12-29 22:39:06.000000000,2019-12-30 18:25:31.000000000,closed,1,How to get invited into Kotlintest Slack Channel?
+1136,2019-12-27 23:57:54.000000000,2020-01-31 03:00:35.000000000,closed,2,enable GitHub Actions CI
+1135,2019-12-27 11:47:38.000000000,2019-12-27 21:24:36.000000000,closed,2,Property test rework
+1134,2019-12-27 02:49:24.000000000,2020-02-08 21:13:57.000000000,closed,0,Add property test gen for emails
+1133,2019-12-27 00:25:41.000000000,2020-02-17 01:46:42.000000000,closed,0,[NEXT RELEASE] Document String UUID matcher
+1132,2019-12-27 00:23:37.000000000,2020-01-14 04:25:08.000000000,closed,5,Implement String UUID matcher
+1131,2019-12-24 01:48:16.000000000,2020-01-16 08:16:23.000000000,closed,5,Integration with konform
+1130,2019-12-20 15:43:55.000000000,2019-12-20 18:11:26.000000000,closed,11,[Q] Is BehaviorSpec Given block executed for each test?
+1129,2019-12-19 20:40:29.000000000,2020-02-17 08:21:48.000000000,closed,7,[NEXT RELEASE] #1127 Adds documentation for Instant matchers
+1128,2019-12-19 20:21:36.000000000,2019-12-29 22:32:11.000000000,closed,1,#1127 Add matchers for java.time.Instant
+1127,2019-12-19 17:09:15.000000000,2019-12-29 22:32:12.000000000,closed,4,Add date matchers to java.time.Instant 
+1126,2019-12-18 20:04:37.000000000,2020-02-17 08:57:32.000000000,closed,2,[NEXT RELEASE] #1123 Adds documentation for timestamp matcher
+1125,2019-12-18 03:01:34.000000000,2019-12-18 09:19:32.000000000,closed,1,Show helpful message when comparing objects that only differ in line endings
+1124,2019-12-17 10:32:14.000000000,2020-01-02 19:01:44.000000000,closed,5,Adds matchers for java.sql.Timestamp
+1123,2019-12-16 21:10:12.000000000,2020-01-02 19:01:46.000000000,closed,0,Add date matchers to java.sql.Timestamp
+1122,2019-12-16 20:47:23.000000000,2020-03-28 08:53:38.000000000,closed,9,Cant add Robolectric expermintal support to project
+1121,2019-12-13 17:17:34.000000000,2020-02-07 18:20:36.000000000,closed,49,Property Test Discussion
+1120,2019-12-13 07:36:01.000000000,2020-02-08 21:42:28.000000000,closed,5,New generators
+1119,2019-12-12 22:02:09.000000000,2020-01-14 04:25:08.000000000,closed,0,String shouldbe UUID matcher
+1118,2019-12-11 23:32:19.000000000,2020-03-15 22:50:32.000000000,closed,2,Improve documentation on Listeners and Extensions
+1117,2019-12-11 03:17:30.000000000,2019-12-11 04:30:27.000000000,closed,2,#1036 - Fix duplicates issue when asserting containsExactlyInAnyOrder
+1116,2019-12-10 21:50:07.000000000,2020-01-17 17:34:12.000000000,closed,1,Matchers for regex to string
+1115,2019-12-10 14:16:18.000000000,2020-03-17 10:16:11.000000000,closed,4,Pitest plugin in Maven
+1114,2019-12-10 13:57:16.000000000,2020-05-16 07:57:58.000000000,closed,4,kotlintest shouldMatchJson does not show error
+1113,2019-12-09 09:02:50.000000000,2020-01-22 07:03:28.000000000,closed,1,Add Char Equivalent of IntMatchers
+1112,2019-12-08 10:10:41.000000000,2019-12-13 17:28:01.000000000,closed,1,Update Json matcher error messages
+1110,2019-12-05 17:45:59.000000000,2019-12-06 21:18:09.000000000,closed,4,Q: What is the idiomatic way to use customer generators?
+1109,2019-12-05 16:23:22.000000000,2020-03-20 21:17:50.000000000,closed,1,"""Then"" is only printed out in console"
+1108,2019-12-05 13:41:49.000000000,2020-03-30 17:02:29.000000000,closed,2,"""Received a failure event for test with unknown id 'x.y'"" (possible regression since version 3.4.1)"
+1107,2019-12-03 21:32:00.000000000,2020-06-29 00:12:41.000000000,closed,5,Exception Handling with 3.4.1
+1106,2019-12-03 18:02:57.000000000,2019-12-13 17:28:01.000000000,closed,0,"Json matcher should output errors in the intellij ""diff"" format"
+1105,2019-12-03 14:10:47.000000000,2020-05-23 08:47:01.000000000,closed,3,Document usage for Kotlin/JVM in Multiplatform projects
+1104,2019-11-29 07:53:12.000000000,2020-04-02 20:21:13.000000000,closed,8,Add support for JUnit 4 again
+1103,2019-11-28 23:05:14.000000000,2019-11-29 07:54:12.000000000,closed,1,#1102 Add a method in gen to get a Random for a given optional seed
+1102,2019-11-28 16:11:32.000000000,2020-01-26 13:04:48.000000000,closed,1,Provide a private method in Gen to get Random for a given seed
+1101,2019-11-28 01:11:11.000000000,2020-02-10 03:48:25.000000000,closed,7,Add Gen for lines from a file
+1100,2019-11-27 23:52:00.000000000,2020-02-09 10:04:47.000000000,closed,0,Create generator that poll lines from a file
+1099,2019-11-27 19:02:49.000000000,2020-01-13 21:10:28.000000000,closed,1,Error if edge cases in gens is larger than iterations
+1098,2019-11-27 01:40:09.000000000,2020-01-12 22:52:48.000000000,closed,3,Eventually should be inline to support suspension
+1097,2019-11-26 23:13:16.000000000,2020-01-13 06:15:38.000000000,closed,4,Error in spec initialization is cryptic with recent intellij
+1096,2019-11-26 20:05:12.000000000,2019-11-27 12:30:23.000000000,closed,6,Allow referencing the extension
+1095,2019-11-26 18:02:44.000000000,2020-02-08 21:55:55.000000000,closed,4,Property tests size or distribution parameter
+1094,2019-11-26 03:28:55.000000000,2019-11-27 19:27:40.000000000,closed,10,"add edge cases 0, 1, -1 to Long and Int Generator"
+1093,2019-11-25 22:26:38.000000000,2020-02-17 01:05:16.000000000,closed,0,[NEXT RELEASE] Document Comparable Matchers
+1092,2019-11-25 22:21:06.000000000,2019-12-03 18:47:25.000000000,closed,1,Improve and document ComparableMatchers
+1091,2019-11-25 10:04:34.000000000,2020-01-12 12:07:44.000000000,closed,0,Timeout as function
+1090,2019-11-25 09:52:02.000000000,2020-01-12 10:38:24.000000000,closed,3,Strip arrow `Try` from core
+1089,2019-11-25 09:06:34.000000000,2020-06-12 20:04:18.000000000,closed,0,Kotest Roadmap 4.1
+1088,2019-11-23 23:32:52.000000000,2020-03-19 07:28:33.000000000,closed,35,Property based tests for strings do not generate multi-code-unit graphemes
+1087,2019-11-22 13:55:52.000000000,2020-03-18 10:08:42.000000000,closed,5,Implement Gen.string() with Gen.char() - Closes #1078
+1086,2019-11-21 11:42:15.000000000,2019-11-21 21:07:25.000000000,closed,2,Gen.take() returns empty list on 0 - Closes #1077
+1085,2019-11-21 01:29:40.000000000,2019-11-25 09:24:19.000000000,closed,1,Why AbstractFreeSpec.FreeSpecScope String.config test function is not suspend
+1084,2019-11-20 13:46:33.000000000,2020-05-24 14:44:36.000000000,closed,3,Compare two strings and show results with diff - which allows to quickly spot the difference
+1083,2019-11-20 13:06:06.000000000,2019-11-20 15:12:09.000000000,closed,1,Fix typo
+1082,2019-11-19 12:54:59.000000000,2019-11-29 13:13:36.000000000,closed,6,Can't run any test (Gradle project)
+1081,2019-11-13 14:56:46.000000000,2019-11-14 20:18:12.000000000,closed,6,Bump Arrow version 0.10.3
+1080,2019-11-12 17:16:37.000000000,2020-02-17 01:02:41.000000000,closed,4,[NEXT RELEASE] Adds documentation for regex matchers
+1079,2019-11-12 06:44:23.000000000,2020-01-12 12:20:28.000000000,closed,5,Gen.combine
+1078,2019-11-10 20:28:46.000000000,2020-03-21 08:41:06.000000000,closed,2,Gen.string() Should Use the New Gen.char()
+1077,2019-11-10 20:27:40.000000000,2019-11-21 21:07:26.000000000,closed,5,Gen.take Should Allow Zero for Amount to Take
+1076,2019-11-08 19:04:58.000000000,2019-11-09 03:42:50.000000000,closed,0,Point Snapshot builds to io.kotest
+1075,2019-11-08 18:52:40.000000000,2019-11-09 03:42:50.000000000,closed,6,Change snapshot pointing to Kotest
+1074,2019-11-06 22:47:51.000000000,2019-11-11 22:53:36.000000000,closed,4,#1065 Add matchers for Regex
+1073,2019-11-06 19:11:01.000000000,2019-11-08 18:47:28.000000000,closed,2,Add documentation to Pitest
+1072,2019-11-06 18:02:53.000000000,2019-11-08 18:47:28.000000000,closed,0,Add documentation for Pitest integration
+1071,2019-11-05 21:22:07.000000000,2019-11-05 22:46:07.000000000,closed,0,Remove unused reference
+1070,2019-11-05 20:20:48.000000000,2019-11-05 21:15:40.000000000,closed,1,"Fix typo in documentation, no logic changes"
+1069,2019-11-04 21:28:43.000000000,2019-11-05 00:03:09.000000000,closed,2,[#1060] Added matcher for Iterator
+1068,2019-11-04 13:11:54.000000000,2019-11-04 22:12:15.000000000,closed,1,for* (forAll etc) should accept supend functions
+1067,2019-11-02 15:13:14.000000000,2020-01-21 05:53:54.000000000,closed,4,Type mismatch for haveKey: Map and (Mutable)Map
+1066,2019-11-01 20:33:35.000000000,2020-03-10 08:02:07.000000000,closed,1,Fuzz testing (json?)
+1065,2019-11-01 19:11:29.000000000,2019-11-25 09:28:43.000000000,closed,0,Add regex shouldBe
+1063,2019-10-30 18:21:12.000000000,2019-10-30 20:14:16.000000000,closed,1,shouldBeInstanceOf and shouldBeTypeOf should return typecasted instance
+1062,2019-10-30 07:48:50.000000000,2019-10-31 20:18:36.000000000,closed,3,[Documentation] - Update documentation on gens and Gen
+1061,2019-10-29 23:28:40.000000000,2020-01-14 19:56:53.000000000,closed,2,json matchers are not infix
+1060,2019-10-29 23:21:14.000000000,2019-11-05 00:03:09.000000000,closed,2,Add matcher shouldBeEmpy on Iterable/Iterator
+1059,2019-10-29 22:42:50.000000000,2020-01-13 10:33:22.000000000,closed,3,"Add ""ExecutionContext"" object to extensions"
+1058,2019-10-29 22:33:29.000000000,2020-01-13 06:21:50.000000000,closed,3,Exception in val fails discovery
+1057,2019-10-28 06:38:29.000000000,2020-02-17 01:03:44.000000000,closed,1,[NEXT RELEASE] Updated matcher description
+1056,2019-10-28 06:17:53.000000000,2019-10-28 13:19:16.000000000,closed,0,[#1006] Updated comment to reflect the correct ASCII range
+1055,2019-10-28 05:49:34.000000000,2019-10-28 13:21:04.000000000,closed,1,[TableDrivenTesting] - Add generating individual tests examples
+1054,2019-10-26 02:00:54.000000000,2019-10-29 06:36:51.000000000,closed,2,#971 unique generator values
+1053,2019-10-25 05:57:43.000000000,2019-10-25 21:23:46.000000000,closed,4,[#933] Renamed from `...ExactlyInAnyOrder` to `...AllInAnyOrder`.
+1052,2019-10-24 18:18:25.000000000,2020-01-27 17:08:17.000000000,closed,1,How to resolve No appenders could be found for logger (io.kotlintest.runner.junit5.KotlinTestEngine)?
+1051,2019-10-23 16:48:07.000000000,2020-02-17 01:45:35.000000000,closed,1,[NEXT RELEASE] Feature/jsoup docs
+1050,2019-10-23 00:18:11.000000000,2020-01-12 11:20:14.000000000,closed,0,Allow a config file for 4.0
+1049,2019-10-22 13:39:39.000000000,2020-01-13 06:27:43.000000000,closed,5,Codestyle: fix indentation
+1048,2019-10-22 07:09:18.000000000,2020-05-23 12:44:25.000000000,closed,3,Running Kotlintest specs in IntelliJ with SpringAutowireConstructorExtension leads to shared context between specs
+1047,2019-10-22 03:30:44.000000000,2020-01-16 09:33:43.000000000,closed,2,Focus and Bang are broken for DescribeSpec
+1046,2019-10-14 14:32:13.000000000,2020-02-17 01:03:23.000000000,closed,1,[NEXT RELEASE] Documentation for channel matchers
+1045,2019-10-14 08:13:25.000000000,2020-02-17 01:03:22.000000000,closed,1,Add documentation for channel matchers
+1044,2019-10-14 06:56:00.000000000,2020-01-16 08:31:36.000000000,closed,0,Release 3.4.3 with updated Arrow
+1043,2019-10-12 11:06:26.000000000,2019-10-14 08:12:31.000000000,closed,4,Channel matchers
+1042,2019-10-11 19:25:05.000000000,2019-10-11 19:30:14.000000000,closed,1,Typo
+1041,2019-10-11 17:33:30.000000000,2019-10-11 18:20:59.000000000,closed,1,Update set up with kts example
+1040,2019-10-10 20:22:21.000000000,2019-10-24 06:34:16.000000000,closed,10,#970 Adds a sentence generator
+1039,2019-10-09 18:57:18.000000000,2019-10-09 22:49:36.000000000,closed,7,Matcher to check if a list contains an item with a cetain property set to a value
+1038,2019-10-05 07:48:54.000000000,2019-10-07 07:13:00.000000000,closed,2,Change Json assertions to allow infix calls
+1037,2019-10-04 06:55:44.000000000,2019-12-27 21:24:36.000000000,closed,0,An exception in a property test doesn't show the failing values
+1036,2019-10-04 00:02:54.000000000,2019-12-11 04:30:27.000000000,closed,0,Possible error in containExactlyInAnyOrder
+1035,2019-10-03 04:07:20.000000000,2019-10-22 21:54:53.000000000,closed,2,#1028: Add Jsoup Assertions
+1034,2019-10-03 00:45:45.000000000,2020-01-12 11:43:12.000000000,closed,3,Using SkipTestException causes error in JUnitTestRunnerListener
+1033,2019-10-02 22:21:21.000000000,2019-10-03 05:46:35.000000000,closed,2,New Assertion: shouldHaveSize for map
+1032,2019-10-02 18:34:46.000000000,2019-10-03 07:55:31.000000000,closed,1,Upgrade classgraph to v4.8.47
+1031,2019-10-02 11:28:55.000000000,2019-10-17 23:26:21.000000000,closed,7,Feature Gen.char() - Closes #1005
+1030,2019-10-02 10:26:33.000000000,2019-10-07 07:12:03.000000000,closed,1,Simplify and clean up Gen.choose() weighted ratios test
+1029,2019-10-02 10:23:56.000000000,2019-10-02 15:50:03.000000000,closed,1,"Rename Package ""com.sksamuel.kotest"" to ""io.kotest""?"
+1028,2019-10-01 23:16:33.000000000,2019-11-25 09:28:49.000000000,closed,11,Add jsoup matchers
+1027,2019-10-01 23:11:01.000000000,2019-10-01 23:40:59.000000000,closed,4,Bump gradle wrapper version 5.6.2
+1026,2019-10-01 15:12:57.000000000,2020-01-12 12:22:43.000000000,closed,10,Latest arrow release
+1025,2019-10-01 13:48:08.000000000,2019-10-01 23:57:18.000000000,closed,2,Improve Gradle build
+1024,2019-10-01 13:46:23.000000000,2019-10-28 13:37:07.000000000,closed,1,docs: improve Gradle instructions
+1023,2019-10-01 07:37:20.000000000,2019-10-01 07:46:11.000000000,closed,1,Fix LocalDateTime test
+1022,2019-09-30 13:54:50.000000000,2019-10-03 07:55:31.000000000,closed,4,KotlinTest and Spek2 conflict over classgraph in Java11
+1021,2019-09-30 10:46:23.000000000,2019-10-01 23:28:32.000000000,closed,6,Fixes #1020 - Gen.choose() weighted not using seed
+1020,2019-09-30 10:10:32.000000000,2019-10-01 23:28:33.000000000,closed,0,Gen.choose() Weighted Not Using Seed
+1019,2019-09-29 11:29:29.000000000,2019-09-29 19:14:22.000000000,closed,1,Fixes #1017 - Incorrect comment for weighted Gen.choose()
+1018,2019-09-29 10:54:19.000000000,2019-11-25 09:30:59.000000000,closed,4,Reproducible property tests
+1017,2019-09-29 10:48:05.000000000,2019-09-29 19:14:23.000000000,closed,0,Weighted Gen.choose() @throws comments incorrect
+1016,2019-09-29 02:18:10.000000000,2020-02-17 01:02:56.000000000,closed,0,[NEXT RELEASE] Add documentation for truthy and falsy matchers
+1015,2019-09-27 13:19:58.000000000,2020-01-31 11:41:56.000000000,closed,7,shouldBeCalled assertion
+1014,2019-09-27 04:27:20.000000000,2019-09-29 00:29:25.000000000,closed,5,Add experimental robolectric support
+1013,2019-09-26 21:35:00.000000000,2019-09-26 21:44:54.000000000,closed,1,Test hierarchy is not visible in IntelliJ IDEA 2019.2
+1012,2019-09-25 11:06:44.000000000,2019-09-27 01:37:21.000000000,closed,5,Fix max treated as exclusive on Gen.choose() for int and long - Fixes #1011
+1011,2019-09-25 10:49:34.000000000,2019-09-27 01:37:23.000000000,closed,0,Gen.choose() for int and long - max is exclusive
+1010,2019-09-25 07:08:27.000000000,2019-12-05 01:14:29.000000000,closed,3,"For issue #790, mock now(zoneId) for ZonedDateTime, OffsetDateTime and LocalDateTime"
+1009,2019-09-24 12:44:12.000000000,2019-09-25 20:55:52.000000000,closed,10,Implement Gen.choose() for Weighted Distribution
+1008,2019-09-23 05:07:34.000000000,2019-09-24 08:44:15.000000000,closed,4,Rough POC for Custom Character Sets
+1007,2019-09-22 13:54:45.000000000,2019-09-23 04:51:18.000000000,closed,6,Implement Gen.char() - Closes #1005
+1006,2019-09-22 13:42:41.000000000,2019-10-28 13:19:16.000000000,closed,12,Random.nextPrintableChar() - Output Not Matching Comments
+1005,2019-09-22 04:43:27.000000000,2019-10-17 23:26:23.000000000,closed,3,Proposal: Gen.char()
+1004,2019-09-20 15:24:05.000000000,2019-09-22 06:59:18.000000000,closed,3,Gen.string(maxSize = 1)  - Generates Only Empty Strings
+1003,2019-09-18 16:23:16.000000000,2020-01-13 06:22:40.000000000,closed,3,Successful tests coming up as ignored
+1002,2019-09-17 21:03:40.000000000,2019-09-18 17:58:44.000000000,closed,2,Bump Arrow version 0.10.0
+1001,2019-09-17 17:42:13.000000000,2019-09-29 02:14:13.000000000,closed,4,#943 - add truthy/falsy matchers
+1000,2019-09-17 10:29:16.000000000,2019-09-18 17:58:44.000000000,closed,1,Upgrade Arrow to version 0.10.0
+999,2019-09-15 22:08:05.000000000,2020-08-10 13:51:08.000000000,closed,16,Non complete junit report when using FunSpec
+998,2019-09-15 14:46:42.000000000,2019-09-15 21:08:43.000000000,closed,2,Flexible version of shouldHaveSize assertion
+997,2019-09-15 14:31:15.000000000,2019-09-15 20:04:27.000000000,closed,0,#990 add map.shouldHaveSize assertion
+996,2019-09-15 03:03:44.000000000,2019-09-15 04:26:50.000000000,closed,1,#981 make shouldNotThrowAny return T instead of Unit
+995,2019-09-15 00:54:52.000000000,2020-02-17 01:49:26.000000000,closed,5,[NEXT RELEASE] #851 add docs to matchers.md
+994,2019-09-15 00:32:36.000000000,2019-09-15 00:51:06.000000000,closed,3,#851 stats matchers - add docs
+992,2019-09-14 22:06:10.000000000,2019-09-14 22:28:24.000000000,closed,0,#975 Adds a concat method in Gen which concatenates given gen
+991,2019-09-14 01:28:56.000000000,2019-09-29 20:42:45.000000000,closed,8,Replace Kotlintest with Kotest
+990,2019-09-13 21:24:20.000000000,2019-09-18 00:08:29.000000000,closed,4,Add map.shouldHaveSize assertion
+989,2019-09-13 19:45:15.000000000,2019-09-14 20:33:00.000000000,closed,1,#851 - create stats matchers
+988,2019-09-13 02:37:06.000000000,2020-02-17 01:04:44.000000000,closed,0,[NEXT RELEASE] Add documentation for shouldBeIn
+987,2019-09-12 13:20:38.000000000,2020-01-12 12:06:32.000000000,closed,2,autoClose can't be used when using Abstract*Spec.() -> Unit
+986,2019-09-12 11:33:58.000000000,2019-09-19 19:37:06.000000000,closed,1,Make shouldNotBe smarter by using contracts
+985,2019-09-11 21:49:14.000000000,2019-09-14 21:11:42.000000000,closed,2,#947 Adds Gen.file which randomly gives files from a given directory.
+984,2019-09-10 22:55:36.000000000,2019-09-13 02:32:37.000000000,closed,5,#937 Adds a shouldBeIn matcher
+983,2019-09-10 20:55:05.000000000,2019-09-13 15:25:16.000000000,closed,2,#973 Adds a samples type Gen which repeatably gives given samples
+982,2019-09-09 13:27:02.000000000,2019-09-24 14:01:11.000000000,closed,12,"Test with SpringListener causes ""field cannot have an existing value"" with 3.4.0+"
+981,2019-09-09 10:38:29.000000000,2019-09-15 04:27:29.000000000,closed,2,Possible error in shouldNotThrowAny
+980,2019-09-07 14:08:03.000000000,2019-09-10 17:33:39.000000000,closed,1,#945 Shows missing element in failure message of shouldContainAll.
+979,2019-09-05 17:58:49.000000000,2020-03-17 08:49:18.000000000,closed,2,Add documentation for `shouldBeEqualIgnoringField`
+978,2019-09-04 21:35:33.000000000,2019-09-07 07:10:40.000000000,closed,5,Filenames collide on a case-insensitive filesystem
+977,2019-09-04 05:09:26.000000000,2019-09-04 08:28:54.000000000,closed,1,Add roboelectric support
+976,2019-09-03 19:21:08.000000000,2019-09-04 05:48:00.000000000,closed,0,Added new spec DSL for overriding values and functions
+975,2019-09-03 02:50:33.000000000,2019-11-25 09:39:46.000000000,closed,0,Concat Gens
+974,2019-09-03 02:49:32.000000000,2020-03-17 10:16:03.000000000,closed,5,Weight choose Generators
+973,2019-09-03 02:48:45.000000000,2019-09-14 04:22:05.000000000,closed,3,Add samples Generator
+972,2019-09-03 02:45:55.000000000,2019-09-27 01:54:47.000000000,closed,4,Flat map Gen for dependencies
+971,2019-09-03 02:44:04.000000000,2019-10-29 06:36:51.000000000,closed,8,Unique modifier for Generators
+970,2019-09-03 02:42:17.000000000,2020-02-08 21:57:15.000000000,closed,4,Sentence generator
+969,2019-09-03 02:41:14.000000000,2019-12-27 09:43:54.000000000,closed,7,exhaustive generation option for property testing
+968,2019-09-03 02:32:24.000000000,2020-02-08 21:56:37.000000000,closed,2,Gen.combine with probabilistic choices
+967,2019-09-03 02:27:20.000000000,2019-12-27 21:24:36.000000000,closed,0,Option to control Shrinking
+966,2019-09-01 18:03:03.000000000,2019-09-01 18:41:03.000000000,closed,2,Fix typos in styles.md
+965,2019-08-30 21:32:15.000000000,2020-02-17 01:45:47.000000000,closed,0,[NEXT RELEASE] Implement should contain any matcher documentation
+964,2019-08-30 21:32:03.000000000,2019-09-12 04:47:42.000000000,closed,5,Implement should contain any matcher
+963,2019-08-26 21:30:15.000000000,2020-02-17 01:03:59.000000000,closed,0,[NEXT RELEASE] Documents Map Empty Matcher
+962,2019-08-26 05:50:26.000000000,2020-01-13 10:00:59.000000000,closed,3,Eventually fails for AssertionErrors
+961,2019-08-26 02:18:20.000000000,2020-02-19 17:24:01.000000000,closed,9,JDBC ResultSet matchers
+960,2019-08-25 09:45:09.000000000,2019-09-04 09:20:55.000000000,closed,11,Allow seeding of the random values in gens #815
+959,2019-08-25 08:18:49.000000000,2019-08-26 22:06:47.000000000,closed,2,Added assertion counting mode #852
+958,2019-08-24 23:03:12.000000000,2019-08-25 04:17:05.000000000,closed,1,[TableDrivenTesting] - Add an example of generating individual tests like Spock's @Unroll
+957,2019-08-24 21:16:21.000000000,2019-08-25 04:19:41.000000000,closed,2,Add generator for multiples and factors #942; Move `kotlintest-assert…
+956,2019-08-24 20:22:35.000000000,2019-08-24 20:38:30.000000000,closed,1,Using kotlin durations now they are included in 1.3.50
+955,2019-08-24 06:59:57.000000000,2019-08-24 07:05:57.000000000,closed,3,Feature/versions
+954,2019-08-24 06:00:42.000000000,2019-08-24 07:17:44.000000000,closed,0,Update to Kotlin 1.3.50
+953,2019-08-23 22:12:36.000000000,2019-08-25 04:20:19.000000000,closed,5,Enhances SpringListener to work correctly with all Spring's Listeners
+952,2019-08-22 13:32:19.000000000,2020-03-17 10:16:02.000000000,closed,4,Scoped `beforeEachTest` closure
+951,2019-08-21 19:23:56.000000000,2019-09-04 08:27:28.000000000,closed,4,KotlinTest 3.4.1 release
+950,2019-08-20 16:45:59.000000000,2020-05-13 18:36:30.000000000,closed,24,Kotlintest does not with spring data jpa
+949,2019-08-20 00:40:29.000000000,2019-08-25 04:19:41.000000000,closed,3,Move `kotlintest-assertions` tests to its module
+948,2019-08-19 01:36:48.000000000,2019-09-29 20:42:46.000000000,closed,23,New Name For Project
+947,2019-08-18 09:04:48.000000000,2019-11-25 09:39:31.000000000,closed,2,Gen.file(dir)
+946,2019-08-12 00:54:55.000000000,2019-09-12 04:47:42.000000000,closed,0,New matcher: shouldContainAny and shouldNotContainAny
+945,2019-08-12 00:51:00.000000000,2019-10-25 05:34:32.000000000,closed,2,shouldContainAll should show missing elements
+944,2019-08-10 20:29:48.000000000,2019-08-11 23:56:15.000000000,closed,1,Remove JUnit redeclarations
+943,2019-08-09 15:22:09.000000000,2019-09-29 02:14:14.000000000,closed,9,New matcher: should be truthy
+942,2019-08-09 15:20:21.000000000,2019-08-25 04:19:41.000000000,closed,3,Add generator which is a multiple of k
+941,2019-08-09 15:17:25.000000000,2019-08-18 04:14:10.000000000,closed,4,Deprecate non extension versions of inspectors
+940,2019-08-08 05:14:38.000000000,2019-08-26 21:19:52.000000000,closed,2,Implements Map beEmpty matcher
+939,2019-08-07 14:41:41.000000000,2020-01-17 08:51:05.000000000,closed,1,Add forEachAsClue extension
+938,2019-08-07 06:53:05.000000000,2020-01-27 16:10:45.000000000,closed,1,Inspectors are bugged when the message is very big
+937,2019-08-07 06:16:49.000000000,2019-09-13 02:32:38.000000000,closed,0,Matchers for elements in a collection
+936,2019-08-06 07:40:08.000000000,2019-09-12 04:48:20.000000000,closed,1,Set .kotlintest folder to be generated inside build
+935,2019-08-05 22:31:59.000000000,2019-09-04 08:27:44.000000000,closed,1,Fail parent tests when child tests fail
+934,2019-08-05 03:15:56.000000000,2019-08-05 07:18:52.000000000,closed,1,Added some BigDecimal matchers (#932)
+933,2019-08-04 22:46:54.000000000,2020-01-17 08:52:06.000000000,closed,7,New matchers alias
+932,2019-08-04 22:44:23.000000000,2019-08-05 07:18:52.000000000,closed,1,New matcher: BigDecimal.shouldBeInRange(BigDecimal..BigDecimal)
+931,2019-08-01 00:25:39.000000000,2019-08-05 07:20:09.000000000,closed,3,Add infix modifier to more Arrow matchers (#921)
+930,2019-07-31 19:32:49.000000000,2020-01-27 16:21:27.000000000,closed,8,Improve forAll method error message (#929)
+929,2019-07-30 17:14:32.000000000,2020-01-27 16:22:05.000000000,closed,1,"forAll displays all errors at once, even when they are too many"
+928,2019-07-30 06:41:26.000000000,2019-08-26 21:19:52.000000000,closed,3,empty matcher against Map
+927,2019-07-26 18:17:38.000000000,2019-08-11 23:56:15.000000000,closed,15,Duplicate class org.junit.platform.commons.annotation.Testable found in modules junit-platform-commons-1.4.0.jar (org.junit.platform:junit-platform-commons:1.4.0) and kotlintest-core-3.3.0.jar (io.kotlintest:kotlintest-core:3.3.0)
+926,2019-07-26 06:02:06.000000000,2019-09-29 00:29:25.000000000,closed,0,Add support to Robolectric
+925,2019-07-25 19:35:16.000000000,2019-08-28 15:21:28.000000000,closed,4,Missing spring dependencies: build still succeeds
+924,2019-07-25 19:08:34.000000000,2019-08-05 07:20:53.000000000,closed,2,Update doc matchers json
+923,2019-07-25 16:58:30.000000000,2019-08-25 04:19:16.000000000,closed,1,Update maven 
+922,2019-07-25 14:13:22.000000000,2019-07-26 07:08:57.000000000,closed,2,Increase and decrease seq matcher (#850)
+921,2019-07-25 11:12:17.000000000,2019-08-06 07:10:12.000000000,closed,2,Add infix modifier to arrow matchers
+920,2019-07-24 18:34:46.000000000,2019-07-24 18:53:30.000000000,closed,1,[WIP] Increasing/Decreasing list/seq matchers (#850)
+919,2019-07-24 16:32:58.000000000,2019-11-25 09:42:28.000000000,closed,6,Constant Random Listener
+917,2019-07-23 18:48:46.000000000,2019-07-24 23:04:19.000000000,closed,5,Output response body on matcher failure log
+916,2019-07-23 17:47:30.000000000,2019-07-23 19:26:03.000000000,closed,0,Fixes shouldBe and shouldNotBe comparisons
+915,2019-07-23 16:40:07.000000000,2019-07-23 17:45:27.000000000,closed,0,Add overload to Ktor shouldHaveStatus matcher
+914,2019-07-23 01:47:56.000000000,2019-07-23 17:45:27.000000000,closed,0,Ktor: shouldHaveStatus should support HttpStatusCode
+913,2019-07-22 23:53:25.000000000,2019-07-23 19:26:03.000000000,closed,8,shouldBe doesn't support ByteArray
+912,2019-07-22 15:01:47.000000000,2019-09-03 02:28:35.000000000,closed,4,New feature: add string generator from regexp
+911,2019-07-22 04:57:01.000000000,2020-05-07 20:51:47.000000000,closed,7,Add support for Micronaut
+910,2019-07-20 19:15:21.000000000,2019-07-21 05:40:52.000000000,closed,3,Timeout config fails #879 Global timeout #858
+909,2019-07-20 01:43:36.000000000,2019-07-20 19:34:57.000000000,closed,1,io.kotlintest.Result conflicts with kotlin.Result #898
+908,2019-07-20 00:22:43.000000000,2019-07-21 15:54:53.000000000,closed,0,[Next Release Only]Add support to Koin (Documentation)
+907,2019-07-19 23:57:51.000000000,2019-07-20 19:32:44.000000000,closed,0,Add support to Koin
+906,2019-07-19 20:05:48.000000000,2019-07-21 15:55:10.000000000,closed,0,[Next Release Only] Document nested describe implementation
+905,2019-07-19 20:05:25.000000000,2019-07-19 20:07:53.000000000,closed,0,Allows nested describe scope
+904,2019-07-19 19:32:09.000000000,2019-07-19 20:36:41.000000000,closed,4,Add Array overloads to collection matchers
+903,2019-07-19 19:15:56.000000000,2019-09-04 08:30:23.000000000,closed,10,Tagging tests as success when all child failed
+902,2019-07-19 16:01:44.000000000,2019-07-19 20:07:53.000000000,closed,1,Allow nested `describe` blocks in DescribeSpec
+901,2019-07-19 01:54:33.000000000,2019-08-24 21:33:44.000000000,closed,3,New collection matcher
+900,2019-07-19 01:27:14.000000000,2019-07-19 20:36:41.000000000,closed,7,Our collection matchers don't work on arrays
+899,2019-07-17 23:47:41.000000000,2019-07-19 20:10:27.000000000,closed,2,Add matcher to part of the date
+898,2019-07-17 21:58:16.000000000,2019-07-20 19:35:51.000000000,closed,6,io.kotlintest.Result conflicts with kotlin.Result
+897,2019-07-17 07:26:43.000000000,2019-07-17 14:59:37.000000000,closed,0,ShouldBeAssignableTo #615
+896,2019-07-17 01:17:15.000000000,2019-07-17 01:55:35.000000000,closed,3,Add matcher for Dates to ignore timezone #891
+895,2019-07-16 23:39:21.000000000,2019-07-17 00:15:10.000000000,closed,1,Minor correction of indentations and typos errors.
+894,2019-07-16 20:31:27.000000000,2019-07-16 22:33:16.000000000,closed,0,Reflection matchers (#614)
+893,2019-07-16 03:40:35.000000000,2019-07-16 07:20:38.000000000,closed,4,(#889) add LocalTime asserts
+892,2019-07-16 02:39:19.000000000,2019-07-16 07:43:42.000000000,closed,0,Added string matchers for single line and size between #853
+891,2019-07-16 02:21:40.000000000,2019-07-17 06:59:02.000000000,closed,0,Add matcher for Dates to ignore timezone
+890,2019-07-16 01:25:35.000000000,2019-07-16 01:41:49.000000000,closed,3,Expressive Arrow Try Asserts
+889,2019-07-15 15:14:55.000000000,2019-07-16 07:20:54.000000000,closed,8,Lack of LocalTime assertions
+888,2019-07-15 06:37:38.000000000,2019-07-16 08:07:23.000000000,closed,4,Introduced await as a more feature rich version of eventually for whe…
+887,2019-07-13 08:02:27.000000000,2019-07-16 18:19:36.000000000,closed,3,Modifies SpringListener to include Spring's Test Listeners
+886,2019-07-12 22:32:38.000000000,2019-07-16 18:19:52.000000000,closed,7,Add support to Spring Boot's TestExecutionListener
+885,2019-07-10 20:16:00.000000000,2019-10-14 08:12:31.000000000,closed,0,Channel matchers
+884,2019-07-10 16:35:29.000000000,2020-03-17 10:16:00.000000000,closed,1,Standard output is not grouped in AS/IntelliJ run window
+883,2019-07-10 14:10:38.000000000,2019-07-19 19:39:50.000000000,closed,1,"""Run Context Configuration"" command in AS runs whole test class instead of single test"
+882,2019-07-09 15:32:59.000000000,2019-07-19 19:40:26.000000000,closed,2,Run beforeTest only before last element in nested test structure
+881,2019-07-08 23:23:21.000000000,2019-07-09 02:27:25.000000000,closed,1,Remove the deprecated JUnit surefire provider from reference
+880,2019-07-08 20:53:02.000000000,2019-07-17 07:26:59.000000000,closed,3,Date comparisons fail for two equal dates but different time zones
+879,2019-07-07 19:59:12.000000000,2019-07-21 05:42:55.000000000,closed,2,Timeout config fails
+878,2019-07-05 05:31:16.000000000,2019-07-05 06:01:54.000000000,closed,1,Ignore to print empty configs (#877)
+877,2019-07-04 17:22:20.000000000,2019-07-05 06:01:54.000000000,closed,0,Improvements to ProjectConfig output
+876,2019-07-03 19:40:17.000000000,2019-07-24 23:04:22.000000000,closed,0,Improve ktor matcher
+875,2019-07-03 17:00:47.000000000,2019-07-03 17:39:32.000000000,closed,2,big decimal matchers
+874,2019-07-03 16:10:42.000000000,2019-07-03 16:10:48.000000000,closed,0,Json Matchers from resources #873
+873,2019-07-03 16:04:01.000000000,2019-07-03 16:10:58.000000000,closed,0,Json Matchers from resources
+872,2019-07-03 16:02:21.000000000,2019-09-04 09:08:48.000000000,closed,2,Add documentation for JSON matchers
+871,2019-07-03 04:55:49.000000000,2019-07-03 18:09:41.000000000,closed,3,Added shouldBeSymbolicLink and shouldHaveParent matchers for files (#817)
+870,2019-07-03 03:54:07.000000000,2019-07-03 16:45:44.000000000,closed,1,Added length from current string on shouldHaveLength matcher (#869)
+869,2019-07-02 21:11:53.000000000,2019-07-03 16:45:44.000000000,closed,4,shouldHaveLength should show the length on failure
+868,2019-07-01 22:17:59.000000000,2019-07-04 18:42:39.000000000,closed,4,Test time is being wrongly reported
+867,2019-07-01 21:19:43.000000000,2020-04-14 06:32:57.000000000,closed,11,java.lang.StackOverflowError on First Test Case Using 3.3.3
+866,2019-06-30 23:09:11.000000000,2019-07-01 05:53:26.000000000,closed,3,Print project configurations (#841)
+865,2019-06-28 22:48:53.000000000,2019-06-29 09:07:50.000000000,closed,0,Fix for before/after test listeners not failing tests #842
+864,2019-06-26 22:55:32.000000000,2019-07-05 22:50:03.000000000,closed,4,Add throwable matchers (#811)
+863,2019-06-26 00:51:54.000000000,2020-07-18 19:47:42.000000000,closed,7,Use expression for tags instead of include/exclude
+862,2019-06-24 16:37:25.000000000,2019-06-28 22:49:12.000000000,closed,3,Fix for before/after test listeners not failing tests
+861,2019-06-24 02:16:11.000000000,2019-07-03 16:46:45.000000000,closed,10,Added matchers for Result (#836)
+860,2019-06-23 20:12:55.000000000,2019-06-25 22:27:53.000000000,closed,1,Addd Show typeclass used to return display values for items under test
+859,2019-06-22 23:59:27.000000000,2019-07-14 09:35:25.000000000,closed,5,beforeProject / afterProject in TestListener is confusing
+858,2019-06-22 19:51:45.000000000,2019-07-21 05:42:33.000000000,closed,2,Global timeout
+857,2019-06-22 05:00:28.000000000,2019-06-22 19:49:22.000000000,closed,0,Added shouldContainFiles matcher for path (#854)
+856,2019-06-21 22:03:42.000000000,2020-04-05 19:26:35.000000000,closed,8,Discovering Test failed in Android Project
+855,2019-06-21 17:33:54.000000000,2019-06-26 20:16:08.000000000,closed,2,new KTor matchers
+854,2019-06-21 17:33:16.000000000,2019-06-22 19:49:22.000000000,closed,0,New file matchers
+853,2019-06-21 17:31:13.000000000,2019-07-16 07:44:08.000000000,closed,4,New string matchers
+852,2019-06-21 17:30:45.000000000,2019-08-26 22:06:47.000000000,closed,0,Assertions count
+851,2019-06-21 17:28:47.000000000,2019-12-19 03:00:12.000000000,closed,7,Stats matchers
+850,2019-06-21 17:24:12.000000000,2019-07-26 07:11:12.000000000,closed,0,Increasing/Decreasing list/seq matchers
+849,2019-06-21 11:49:19.000000000,2020-01-27 06:06:12.000000000,closed,4,Configurable location of .kotlintest dir
+848,2019-06-21 03:30:15.000000000,2019-06-24 01:58:35.000000000,closed,3,Added shouldBeZero and shouldNotBeZero matcher for number types (#819)
+847,2019-06-21 01:36:04.000000000,2019-06-21 18:00:12.000000000,closed,1,Changed autoClose to accept an AutoCloseable
+846,2019-06-20 15:26:09.000000000,2019-06-21 18:00:24.000000000,closed,1,New file matcher - containFileDeep (#838)
+845,2019-06-20 08:00:23.000000000,2019-06-21 22:37:03.000000000,closed,0,The URI matchers should also work on URLs. #818
+844,2019-06-20 07:44:37.000000000,2019-06-21 18:01:50.000000000,closed,0,Allow setting isolation mode in project config #842
+843,2019-06-20 01:28:56.000000000,2019-07-11 01:39:45.000000000,closed,7,Add possibility of configuration to Environment Listeners
+842,2019-06-20 00:14:23.000000000,2019-06-21 18:02:31.000000000,closed,0,Allow setting isolation mode in project config
+841,2019-06-19 18:10:47.000000000,2019-07-01 05:53:26.000000000,closed,4,Add print statement for config
+840,2019-06-19 07:26:11.000000000,2019-06-22 22:13:55.000000000,closed,2,Fixed test engine reporting when there is an exception in either the …
+839,2019-06-18 15:28:18.000000000,2019-08-24 07:19:50.000000000,closed,4,Ensure specs that fail in initialisation fail a Maven build (#832)
+838,2019-06-18 01:49:51.000000000,2019-06-21 18:00:24.000000000,closed,0,New file matcher for contains deep
+837,2019-06-17 19:59:05.000000000,2020-01-12 22:30:41.000000000,closed,1,Before/AfterSpec and before/afterTest should support suspendable functions
+836,2019-06-17 18:56:51.000000000,2019-07-03 16:46:45.000000000,closed,9,Add matchers for Result
+835,2019-06-15 23:43:47.000000000,2020-03-09 16:22:45.000000000,closed,0,Gradle Plugin Failure Output Improvements
+834,2019-06-15 09:13:20.000000000,2019-06-17 19:37:41.000000000,closed,2,Feature/arrowcontracts
+833,2019-06-14 21:08:07.000000000,2019-06-17 19:00:03.000000000,closed,1,Specs that fail in initialisation fail a Maven build
+832,2019-06-14 21:04:15.000000000,2019-06-17 18:59:33.000000000,closed,5,Ensure specs that fail in initialisation fail a Maven build
+831,2019-06-14 20:50:56.000000000,2019-06-14 20:51:05.000000000,closed,0,Added lambda versions of shouldBeLeft and shouldBeRight #612
+830,2019-06-13 23:45:30.000000000,2020-01-17 04:33:56.000000000,closed,5,Launching coroutine in test lambda does not attach to the correct scope
+829,2019-06-13 23:05:37.000000000,2019-07-11 01:39:45.000000000,closed,0,Add mode to SystemEnvironmentProjectListener etc
+828,2019-06-12 22:38:44.000000000,2019-09-01 18:41:32.000000000,closed,5,New date matchers
+827,2019-06-12 15:45:13.000000000,2019-09-04 08:59:06.000000000,closed,1,KotlinTest Roadmap 3.5
+826,2019-06-12 15:43:40.000000000,2020-06-11 23:58:19.000000000,closed,3,Highlight diff when comparing data classes
+825,2019-06-12 01:55:42.000000000,2019-07-16 02:41:33.000000000,closed,7,Implements ShouldBeToday Matcher
+824,2019-06-12 01:51:46.000000000,2019-06-26 18:15:58.000000000,closed,4,Coding Style
+823,2019-06-11 22:57:43.000000000,1970-01-01 00:00:00.000000001,open,6,Multi-line-string comparison for file contents
+822,2019-06-11 22:15:52.000000000,2020-04-17 18:34:04.000000000,closed,8,field extraction based matchers
+821,2019-06-11 20:20:14.000000000,2019-07-03 17:39:32.000000000,closed,1,"New matchers for BigDecimal: isZero, precision, scale, positive, negative"
+820,2019-06-10 20:30:36.000000000,2019-07-16 03:01:26.000000000,closed,0,ShouldBeToday matcher
+819,2019-06-10 20:24:17.000000000,2019-06-24 01:58:35.000000000,closed,1,ShouldBeZero matcher
+818,2019-06-10 19:25:11.000000000,2019-06-21 22:37:03.000000000,closed,0,The URI matchers should also work on URLs. 
+817,2019-06-10 19:24:22.000000000,2019-07-05 07:33:25.000000000,closed,8,Some new matchers to add
+816,2019-06-09 08:56:20.000000000,2020-01-31 11:40:04.000000000,closed,4,Figure out why kotlintest brings in logging to other projects
+815,2019-06-08 21:41:48.000000000,2019-09-04 09:20:55.000000000,closed,1,Must allow seeding of the random values in gens
+814,2019-06-08 02:48:02.000000000,2019-06-11 20:23:51.000000000,closed,0,Documents eventually functions
+813,2019-06-07 18:07:48.000000000,2020-01-12 12:07:17.000000000,closed,4,Coroutine Matchers
+812,2019-06-06 18:20:21.000000000,2020-01-12 12:28:02.000000000,closed,2,Add gatling support
+811,2019-06-06 01:29:21.000000000,2019-07-05 22:50:03.000000000,closed,4,ShouldThrow matchers should allow testing for message and cause
+810,2019-06-06 01:24:36.000000000,2019-07-15 06:38:14.000000000,closed,11,Add matchers for Throwables
+809,2019-06-05 20:58:31.000000000,2020-03-10 06:38:52.000000000,closed,6,Generate junit report even when no tests
+808,2019-06-05 20:13:50.000000000,2019-06-12 07:14:53.000000000,closed,1,Bug with discovery
+807,2019-06-04 22:00:49.000000000,2019-06-24 16:37:52.000000000,closed,9,Fixes tests passing when before test fails
+806,2019-06-04 17:52:43.000000000,2019-07-21 15:55:32.000000000,closed,1,[Next Release Only] Documents SkipTestException
+805,2019-06-04 17:45:10.000000000,2019-06-06 19:13:40.000000000,closed,0,Implements SkipTestException
+804,2019-06-04 06:59:23.000000000,2019-06-04 22:00:16.000000000,closed,1,Bugfix/771 test error beforetest
+803,2019-06-04 01:36:28.000000000,2019-07-21 15:56:20.000000000,closed,0,[Next release only] Implements Infinity and NaN Double Matchers documentation
+802,2019-06-04 01:33:22.000000000,2019-07-14 09:28:19.000000000,closed,5,use contracts for arrow matchers
+801,2019-06-04 01:27:27.000000000,2019-06-04 16:37:11.000000000,closed,0,Implements Infinity and NaN Double Matchers
+800,2019-06-04 00:56:46.000000000,2019-06-04 01:11:31.000000000,closed,1,An error with shouldRight doesn't display a useful stack trace
+799,2019-06-03 14:05:47.000000000,2020-04-15 23:32:51.000000000,closed,4,KotlinTestEngine does not obey JUnit5 extension points
+798,2019-06-02 17:23:41.000000000,2019-09-27 01:56:31.000000000,closed,18,"For issue #790, mock now(zoneId) for ZonedDateTime, OffsetDateTime and LocalDateTime"
+797,2019-05-31 23:10:51.000000000,2019-09-04 08:30:49.000000000,closed,0,Exception did not fail build
+796,2019-05-30 21:43:23.000000000,2020-01-14 05:30:37.000000000,closed,3,Split shrinker from Gen and then provide data class Gen
+795,2019-05-30 01:01:49.000000000,2020-01-27 16:38:27.000000000,closed,9,Before/After Test
+794,2019-05-30 00:50:21.000000000,2020-01-16 17:34:02.000000000,closed,13,Around advice in the spec DSL
+793,2019-05-29 23:54:01.000000000,2019-07-16 08:08:22.000000000,closed,10,Eventually should allow configuration for space between requests
+792,2019-05-29 20:28:24.000000000,2019-05-30 00:01:45.000000000,closed,2,Add infix map matchers using Pair
+791,2019-05-29 19:09:44.000000000,2019-05-30 00:01:45.000000000,closed,1,Map matcher should{Not}Contain support for Pairs
+790,2019-05-29 06:34:06.000000000,2020-04-28 22:00:52.000000000,closed,9,withConstantNow only mock the NoParameterNowFunction
+789,2019-05-28 16:32:16.000000000,2019-05-31 12:13:42.000000000,closed,17,Update to 3.3.0+ leads to test framework error
+788,2019-05-28 15:35:17.000000000,2019-08-11 23:23:44.000000000,closed,4,KotlinTest Roadmap 3.4
+787,2019-05-28 15:33:50.000000000,2019-07-21 05:42:09.000000000,closed,3,Gradle Plugin Improvements
+786,2019-05-28 11:58:41.000000000,2019-07-14 09:55:21.000000000,closed,3,Limit Parallelism for some specs
+785,2019-05-27 22:07:18.000000000,2019-05-27 22:27:46.000000000,closed,6,Added tests for Spring Boot integration
+784,2019-05-26 22:51:01.000000000,2019-06-02 18:55:56.000000000,closed,3,added `asClue` helper and rewrote `withClue` to allow nesting
+783,2019-05-25 00:53:13.000000000,2019-06-02 18:55:56.000000000,closed,1,withClue: Clues should be nestable
+782,2019-05-24 00:05:05.000000000,2019-05-27 22:27:46.000000000,closed,1,Improve and validate kotlintest works with spring boot
+781,2019-05-22 22:35:09.000000000,2019-06-11 20:23:51.000000000,closed,0,Add more docs on eventually
+780,2019-05-22 22:31:38.000000000,2019-12-27 21:24:36.000000000,closed,0,Allow min successful to be passed to property checks
+779,2019-05-22 22:29:19.000000000,2019-08-25 09:44:21.000000000,closed,1,Allow seeds to be passed to the random instance in property tests
+778,2019-05-22 21:49:48.000000000,2020-03-10 11:34:09.000000000,closed,2,Kotlin DSL + Android configuration example
+777,2019-05-22 20:17:14.000000000,2020-08-26 15:02:59.000000000,closed,1,Snapshot testing.
+776,2019-05-22 18:46:25.000000000,2019-07-25 05:49:18.000000000,closed,4,Lifecycle behaviour in combination with BehaviorSpec
+775,2019-05-21 18:02:57.000000000,2019-07-21 15:56:42.000000000,closed,0,[Next Release Only]Document exclusion/inclusion tags at runtime
+774,2019-05-20 22:36:14.000000000,2020-01-13 06:23:04.000000000,closed,15,Dependent test
+773,2019-05-16 21:18:24.000000000,2019-05-22 19:41:01.000000000,closed,4,Add more primative gens
+772,2019-05-16 07:49:42.000000000,2019-05-22 19:41:01.000000000,closed,1,"Generators for Byte, Short, and experimental unsigned types"
+771,2019-05-15 00:45:49.000000000,2019-07-25 05:50:48.000000000,closed,11,Error handling in tests
+770,2019-05-13 22:48:48.000000000,2019-05-14 03:57:45.000000000,closed,1,Spring extension not autowiring values
+769,2019-05-11 19:15:38.000000000,2019-05-13 13:30:47.000000000,closed,1,How to use dependency injection with DescribeSpec?
+768,2019-05-11 01:26:33.000000000,2019-09-04 08:36:49.000000000,closed,3,Discussion - new syntax for before / after / etc
+767,2019-05-10 22:22:19.000000000,2020-01-27 17:07:35.000000000,closed,3,Turn off logging by default
+766,2019-05-10 20:53:42.000000000,2019-07-16 03:15:06.000000000,closed,9,Release 3.3.3
+765,2019-05-09 10:42:49.000000000,2019-05-09 20:06:25.000000000,closed,2,Can't use forAll inside a given or when
+764,2019-05-08 19:42:02.000000000,2020-01-12 22:37:38.000000000,closed,4,File matchers should implicitly check File.shouldExist
+763,2019-05-08 01:10:36.000000000,2020-01-15 17:54:02.000000000,closed,4,Enhance DescribeSpec with xMethods
+762,2019-05-07 19:56:22.000000000,2019-05-10 22:24:31.000000000,closed,0,Reduce visibility on NamedThreadFactory to internal
+761,2019-05-07 00:15:59.000000000,2019-05-21 16:53:57.000000000,closed,0,Allows exclusion/inclusion tags at runtime
+760,2019-05-06 20:02:18.000000000,2019-05-06 20:10:13.000000000,closed,3,Can extensions disable or skip a testcase?
+759,2019-05-06 16:52:19.000000000,2019-05-06 22:32:56.000000000,closed,0,Implement Gen.next(predicate) function
+758,2019-05-06 07:16:59.000000000,2019-05-06 07:29:43.000000000,closed,1,Implement Gen.take(n) function
+757,2019-05-05 18:29:46.000000000,2019-05-07 18:19:56.000000000,closed,8,"added support to change sizes of generated lists, sets, maps"
+756,2019-04-30 16:02:26.000000000,2019-04-30 17:20:35.000000000,closed,6,Intellij : is it possible to run a single method of a spec ?
+755,2019-04-26 12:04:13.000000000,2019-05-10 22:24:31.000000000,closed,1,Public internal classes
+754,2019-04-19 06:02:46.000000000,2019-05-05 04:38:13.000000000,closed,17,add the ability for eventually to defaultly handle AssertionErrors
+753,2019-04-17 18:42:23.000000000,2019-05-05 04:37:44.000000000,closed,3,eventually should handle AssertionError by default
+752,2019-04-10 19:50:44.000000000,2019-07-22 20:15:46.000000000,closed,3,[Next Release Only] Document string equal ignoring case matcher
+751,2019-04-10 19:40:57.000000000,2019-04-10 19:49:21.000000000,closed,1,Implement String equalIgnoringCase matcher
+750,2019-04-10 18:19:24.000000000,2019-04-15 04:35:13.000000000,closed,1,Create matcher String.shouldBeEqualIgnoringCase
+749,2019-04-10 13:41:55.000000000,2019-04-10 18:18:41.000000000,closed,1,fix typo for collection shouldBeLargerThan
+748,2019-04-10 00:45:15.000000000,2019-05-21 16:53:57.000000000,closed,0,Allow exclusion/inclusion of tags at runtime
+747,2019-04-03 18:49:43.000000000,2019-05-06 22:32:56.000000000,closed,0,Introduce `Gen.next(boolean)` function
+746,2019-04-03 16:39:45.000000000,2019-04-03 16:51:57.000000000,closed,1,All maven sources JARs are empty since 3.3.0-RC1
+745,2019-04-02 22:36:02.000000000,2019-04-02 22:36:08.000000000,closed,0,Move Type matchers to common module
+744,2019-04-01 22:47:39.000000000,2019-04-01 22:47:46.000000000,closed,0,Move map matchers to Common
+743,2019-04-01 22:34:34.000000000,2019-04-01 22:34:41.000000000,closed,0,Move collection matchers to common
+742,2019-04-01 22:10:18.000000000,2019-04-01 22:10:37.000000000,closed,0,Move Inspectors to Common
+741,2019-04-01 16:59:01.000000000,2019-04-01 16:59:47.000000000,closed,0,Move data driven testing to Common module
+740,2019-04-01 12:46:38.000000000,2019-04-01 22:12:30.000000000,closed,1,"""start with"" example does not compile with kotlintest 3.3.0"
+739,2019-03-29 21:14:37.000000000,2019-05-06 07:29:43.000000000,closed,1,Introduce `Gen.take(int)` function
+738,2019-03-29 21:04:32.000000000,2019-03-29 21:04:41.000000000,closed,0,"Revert ""Rename matchers packages to singular case"""
+737,2019-03-29 20:32:43.000000000,2020-04-04 22:22:25.000000000,closed,7,"Can't run kotlintest-runner-junit4 in Android Studio via ""Run Tests"""
+736,2019-03-28 19:13:28.000000000,2019-03-28 20:55:24.000000000,closed,1,Rename matchers packages to singular case
+735,2019-03-28 18:12:23.000000000,2019-03-28 18:12:33.000000000,closed,0,Move int matchers to single file
+734,2019-03-28 18:11:44.000000000,2019-03-28 18:12:13.000000000,closed,0,Move int matchers to single file
+733,2019-03-28 16:27:10.000000000,2019-03-28 17:17:33.000000000,closed,0,Move float matchers to single file
+732,2019-03-28 16:23:33.000000000,2019-03-28 17:44:14.000000000,closed,3,Move String matchers to common
+731,2019-03-26 22:29:10.000000000,2019-03-29 21:30:15.000000000,closed,8,New matchers
+730,2019-03-26 21:24:04.000000000,2019-03-27 00:24:29.000000000,closed,1,Move Float matchers to common
+729,2019-03-26 21:11:02.000000000,2019-03-26 21:11:57.000000000,closed,0,Move double matchers to common
+728,2019-03-26 20:28:19.000000000,2019-03-26 21:07:04.000000000,closed,4,Move boolean matchers to common
+727,2019-03-25 16:16:33.000000000,2019-03-26 18:38:52.000000000,closed,0,Feature/move assertions dsl to common
+726,2019-03-24 06:03:15.000000000,2019-03-26 18:37:15.000000000,closed,0,Feature/move throwable handling to common
+725,2019-03-24 05:22:50.000000000,2019-03-26 18:32:24.000000000,closed,0,Modifies the Failures class to be MultiPlatform
+724,2019-03-22 05:04:31.000000000,2019-03-22 05:44:52.000000000,closed,4,Add type inference for `shouldNotBe`
+723,2019-03-19 17:38:59.000000000,2019-03-19 17:48:55.000000000,closed,1,Fix kotlintest gradle plugin version
+722,2019-03-19 15:30:59.000000000,2019-03-19 15:37:38.000000000,closed,1,Specify language as kotlin in one of styles.md examples
+721,2019-03-14 12:57:00.000000000,2020-02-09 23:30:28.000000000,closed,5,beforeTest() / afterTest() not run between test invocations
+720,2019-03-11 00:11:29.000000000,2019-04-05 09:54:23.000000000,closed,11,"Folder "".kotlintest"" created on every run"
+719,2019-03-09 23:24:47.000000000,2019-03-21 00:21:47.000000000,closed,9,`Gen` kind and type class support + Extensions + matchers for many ΛRROW datatypes
+718,2019-03-09 12:06:51.000000000,2019-03-21 17:41:03.000000000,closed,0,WIP: Tries to fix property suspension with inline
+717,2019-03-08 22:21:21.000000000,2019-12-27 21:24:36.000000000,closed,3,Property testing don't accept suspended lambdas
+716,2019-03-08 01:04:25.000000000,2019-03-08 01:51:48.000000000,closed,10,Include Kotlin sources and documentation in Maven artifacts
+715,2019-03-07 13:48:19.000000000,2019-03-08 22:07:50.000000000,closed,5,shouldBeEqualToUsingFields shouldBeEqualToIgnoringFields #711
+714,2019-03-06 23:14:19.000000000,2019-03-07 12:45:45.000000000,closed,3,Makes test blocks suspend in WordSpec
+713,2019-03-06 23:00:02.000000000,2019-03-07 12:51:09.000000000,closed,4,WordSpec doesn't fully support coroutines
+712,2019-03-06 21:37:49.000000000,2019-03-08 19:10:16.000000000,closed,0,Add suspend alternative to Data Driven Testing
+711,2019-03-05 14:47:44.000000000,2019-03-08 22:08:28.000000000,closed,9,"Matcher for ""should be ignoring given field names"""
+710,2019-03-04 19:36:05.000000000,2019-03-07 11:36:08.000000000,closed,2,`config(threads=1)` seems to have no impact on `beforeSpec`
+709,2019-03-03 21:57:31.000000000,2020-01-27 07:19:34.000000000,closed,0,Further enhance Arrow matchers
+708,2019-03-03 11:14:15.000000000,2019-03-03 12:32:33.000000000,closed,2,Standard out and standard err wire listeners
+707,2019-03-02 15:46:10.000000000,2019-03-08 19:10:16.000000000,closed,13,Data Driven tests don't work with coroutines
+706,2019-03-01 16:06:00.000000000,2019-07-14 10:22:42.000000000,closed,1,Multi line diff min line config option
+705,2019-03-01 14:30:59.000000000,2019-03-01 19:14:35.000000000,closed,3,IntelliJ plugin throws PluginException
+704,2019-03-01 06:32:29.000000000,2019-06-04 16:37:10.000000000,closed,0,Add shouldBeNaN / shouldBePositiveInfinity matcher and so on
+703,2019-03-01 01:12:10.000000000,2019-03-01 05:01:52.000000000,closed,0,Updated fun spec for 3.3 context
+702,2019-02-28 18:24:07.000000000,2019-02-28 19:18:25.000000000,closed,8,Extension for mutation testing
+701,2019-02-28 14:47:18.000000000,2020-02-08 22:18:56.000000000,closed,0,Generators for arrow types
+700,2019-02-28 03:54:21.000000000,2019-02-28 04:24:40.000000000,closed,2,Allows focusing tests with prefix
+699,2019-02-28 03:22:10.000000000,2019-02-28 04:24:40.000000000,closed,3,Feature spec not enabling focus
+698,2019-02-28 00:59:24.000000000,2020-02-09 19:06:16.000000000,closed,2,Extract invocations/threads out to the library level and add support for retry and min required passes
+697,2019-02-27 05:55:38.000000000,2019-03-01 06:07:44.000000000,closed,2,Prepare Changelog for 3.3
+696,2019-02-26 20:40:01.000000000,2019-02-28 06:06:41.000000000,closed,2,Extend FunSpec to allows contexts
+695,2019-02-25 21:13:18.000000000,2019-02-25 23:04:06.000000000,closed,3,Allows instanceOf and typeOf matchers to use the casted value
+694,2019-02-24 08:31:32.000000000,2019-02-24 08:46:17.000000000,closed,1,"Added LocalDate, LocalDateTime, ZonedDateTime and OffsetDateTime between matchers and the respective tests"
+693,2019-02-22 21:00:44.000000000,2019-02-22 21:50:04.000000000,closed,1,Feature/689 constant now listeners
+692,2019-02-22 09:51:38.000000000,2019-09-04 08:33:59.000000000,closed,5,FixtureSpec
+691,2019-02-22 01:45:46.000000000,2020-01-16 09:35:07.000000000,closed,5,new extension - algo benchmark
+689,2019-02-21 20:09:44.000000000,2019-02-22 21:50:05.000000000,closed,2,Constant `now` listeners
+688,2019-02-20 22:42:01.000000000,2019-02-21 20:01:55.000000000,closed,2,Adjust implementation of some of the extensions; Document all extensions
+687,2019-02-19 07:43:11.000000000,2019-02-19 07:43:19.000000000,closed,0,Feature/pitest
+686,2019-02-19 02:48:36.000000000,2019-02-19 03:20:56.000000000,closed,1,Feature/pitest
+685,2019-02-19 01:23:43.000000000,2019-02-19 01:33:32.000000000,closed,4,Java files compiled with version 55
+684,2019-02-18 19:06:18.000000000,2019-02-18 22:21:23.000000000,closed,10,Fix Spring mocking injection @MockBean @MockkBean
+683,2019-02-18 18:36:55.000000000,2019-02-21 20:01:54.000000000,closed,0,Add documentation for Security Manager extension
+682,2019-02-18 18:36:35.000000000,2019-02-21 20:01:54.000000000,closed,0,Add documentation for SystemEnvironment Extension
+681,2019-02-18 17:36:35.000000000,2019-06-04 02:24:04.000000000,closed,13,Split out assertions into separate project
+680,2019-02-18 17:29:42.000000000,2019-02-19 04:49:33.000000000,closed,1,Add support for PiTest
+679,2019-02-17 05:04:03.000000000,2019-02-17 05:12:18.000000000,closed,0,Update org.junit.jupiter:junit-jupiter-api to 5.4.0
+678,2019-02-17 05:03:49.000000000,2019-02-17 17:49:39.000000000,closed,0,Update org.junit.jupiter:junit-jupiter-engine to 5.4.0
+677,2019-02-17 05:03:36.000000000,2019-02-17 05:11:02.000000000,closed,0,Update org.apache.logging.log4j:log4j-slf4j-impl to 2.11.2
+676,2019-02-17 05:03:17.000000000,2019-02-17 05:12:37.000000000,closed,0,Update io.github.classgraph:classgraph to 4.8.1
+675,2019-02-17 05:03:03.000000000,2019-02-17 05:11:41.000000000,closed,0,Update org.junit.platform:junit-platform-launcher to 1.4.0
+674,2019-02-17 05:02:47.000000000,2019-02-17 17:49:59.000000000,closed,0,Update org.junit.platform:junit-platform-suite-api to 1.4.0
+673,2019-02-17 05:02:33.000000000,2019-02-17 05:11:33.000000000,closed,0,Update org.junit.platform:junit-platform-engine to 1.4.0
+672,2019-02-17 05:02:19.000000000,2019-02-17 05:10:43.000000000,closed,0,Update org.springframework:spring-context to 5.1.5-RELEASE
+671,2019-02-17 05:02:05.000000000,2019-02-17 05:10:41.000000000,closed,0,Update org.springframework:spring-test to 5.1.5-RELEASE
+670,2019-02-17 05:01:47.000000000,2019-02-17 05:11:52.000000000,closed,0,Update io.qameta.allure:allure-java-commons to 2.10.0
+669,2019-02-17 05:01:30.000000000,2019-02-17 05:12:00.000000000,closed,0,Update com.univocity:univocity-parsers to 2.8.1
+668,2019-02-17 04:24:38.000000000,2019-12-03 18:47:25.000000000,closed,9,Comparator matchers
+667,2019-02-17 04:23:42.000000000,2019-02-28 23:27:16.000000000,closed,0,digest matchers
+666,2019-02-17 04:16:06.000000000,2019-02-25 23:04:06.000000000,closed,0,isInstanceOf matcher should allow lamba for further tests
+665,2019-02-17 04:12:57.000000000,2019-02-24 08:47:14.000000000,closed,12,between matcher for dates
+664,2019-02-17 04:11:40.000000000,2019-03-03 14:09:13.000000000,closed,6,forAll and forNone matchers on collections
+663,2019-02-17 01:40:26.000000000,2019-09-04 08:34:24.000000000,closed,2,Matchers module for databases
+662,2019-02-17 01:33:20.000000000,2019-07-13 20:51:59.000000000,closed,1,Better toString with automatic support for Show for classes
+661,2019-02-17 01:11:57.000000000,2020-03-22 08:33:55.000000000,closed,1,KotlinTest Roadmap 4.0
+660,2019-02-16 20:20:07.000000000,2019-02-16 20:36:57.000000000,closed,2,fix containOnlyOnce which return true when no occurrence
+659,2019-02-14 20:13:03.000000000,2019-02-14 21:55:58.000000000,closed,3,FreeSpec Reporting Question
+658,2019-02-14 11:59:26.000000000,2019-02-14 13:21:38.000000000,closed,0,Print types when equality fails but tostring is the same
+657,2019-02-14 11:55:50.000000000,2020-01-13 06:17:08.000000000,closed,0,Matchers for java streams
+656,2019-02-14 04:15:56.000000000,2019-02-14 13:19:29.000000000,closed,0,Disabled top level tests are not marked as ignored in JUnit
+655,2019-02-14 03:57:00.000000000,2019-02-15 03:58:00.000000000,closed,1,Add project config option for `assertSoftly` #512
+654,2019-02-14 02:11:36.000000000,2019-02-14 02:37:47.000000000,closed,0,Migrate intellij plugin to new repo
+653,2019-02-14 01:39:11.000000000,2019-02-15 19:56:02.000000000,closed,4,Remove all deprecated matchers/assertions
+651,2019-02-13 03:20:52.000000000,2019-02-15 19:56:02.000000000,closed,1,Remove old shouldBe methods
+650,2019-02-12 21:58:10.000000000,2019-02-14 17:09:45.000000000,closed,8,Adding KotlinTest runner prevents tests from running
+649,2019-02-12 15:30:28.000000000,2020-01-16 14:54:10.000000000,closed,2,Fake/Sample/Test data generator
+648,2019-02-11 18:42:56.000000000,2019-02-18 04:39:19.000000000,closed,0,[3.3 only] Add documentation for #647
+647,2019-02-11 18:10:52.000000000,2019-02-11 18:35:59.000000000,closed,0,Implement shouldBeOneOf matcher and assertions
+646,2019-02-11 16:20:02.000000000,2019-02-11 16:20:15.000000000,closed,0,Add nullability matchers with Kotlin Contracts (#602)
+645,2019-02-11 15:50:32.000000000,2019-02-12 17:39:46.000000000,closed,16,Tests are broken with Gradle 5+
+644,2019-02-10 23:53:10.000000000,2019-02-17 01:06:24.000000000,closed,0,Fail build if ignored tests option
+643,2019-02-10 23:52:17.000000000,2019-02-28 23:27:37.000000000,closed,0,Continually
+642,2019-02-10 20:59:53.000000000,2019-02-14 03:21:02.000000000,closed,0,Add junit engine testkit tests 
+641,2019-02-10 20:51:20.000000000,2019-02-28 00:59:32.000000000,closed,5,Required flag for test invocations
+640,2019-02-08 23:35:01.000000000,2019-02-14 02:03:07.000000000,closed,1,Implement System Security Manager Extensions
+639,2019-02-08 16:33:35.000000000,2020-01-27 17:08:31.000000000,closed,5,SLF4J dependency issue
+638,2019-02-07 02:38:23.000000000,2019-02-07 23:29:29.000000000,closed,10,CollectionMatchers: Lazily evaluate joined string representations
+637,2019-02-05 22:40:36.000000000,2019-02-06 02:47:41.000000000,closed,0,Update io.github.classgraph:classgraph to 4.6.32
+636,2019-02-05 22:40:20.000000000,2019-02-06 02:53:30.000000000,closed,0,Update org.mockito:mockito-core to 2.24.0
+635,2019-02-05 08:47:29.000000000,2019-02-05 21:00:57.000000000,closed,8,WIP: Feature/634 Extended word spec
+634,2019-02-05 02:27:24.000000000,2019-02-05 21:00:58.000000000,closed,7,new behavior spec without parentheses
+633,2019-02-02 02:17:11.000000000,2019-02-12 19:24:26.000000000,closed,23,Implement System Environment Extension
+632,2019-02-01 17:47:06.000000000,2019-02-02 04:21:01.000000000,closed,0,Update com.univocity:univocity-parsers to 2.8.0
+631,2019-02-01 05:41:51.000000000,2019-02-01 05:46:10.000000000,closed,0,Update io.github.classgraph:classgraph to 4.6.29
+630,2019-01-31 16:41:29.000000000,2019-01-31 16:41:42.000000000,closed,0,Update io.github.classgraph:classgraph to 4.6.27
+629,2019-01-31 05:36:52.000000000,2019-01-31 19:05:38.000000000,closed,1,Move extensions to Kotlintest-Extensions module
+628,2019-01-31 01:30:19.000000000,2019-03-01 05:16:43.000000000,closed,18,KotlinTest Roadmap 3.3
+627,2019-01-30 21:49:33.000000000,2019-01-30 21:56:14.000000000,closed,1,Add an Android section for usage documentation
+626,2019-01-30 17:22:33.000000000,2019-01-30 21:56:13.000000000,closed,2,Test folder and android studio
+625,2019-01-29 22:43:15.000000000,2019-01-31 19:05:38.000000000,closed,6,Rework extensions
+624,2019-01-29 22:41:25.000000000,2019-02-14 03:21:19.000000000,closed,1,Security Manager extension
+623,2019-01-29 22:24:30.000000000,2019-02-14 03:21:17.000000000,closed,29,System Environment extensions
+622,2019-01-29 17:30:48.000000000,2019-01-30 14:17:53.000000000,closed,18,Could not find method test()
+621,2019-01-29 15:28:28.000000000,2019-01-29 16:17:46.000000000,closed,1,Fix documentation errors
+620,2019-01-29 01:57:11.000000000,2019-01-29 02:00:23.000000000,closed,0,Update io.github.classgraph:classgraph to 4.6.20
+619,2019-01-29 01:56:50.000000000,2019-01-29 02:00:32.000000000,closed,0,Update org.jetbrains.kotlinx:kotlinx-coroutines-core to 1.1.1
+618,2019-01-29 01:56:30.000000000,2019-01-29 02:00:14.000000000,closed,0,Update io.ktor:ktor-server-test-host to 1.1.2
+617,2019-01-29 01:56:15.000000000,2019-01-29 02:00:50.000000000,closed,0,Update io.ktor:ktor-server-core to 1.1.2
+616,2019-01-28 19:44:50.000000000,2019-02-11 18:35:59.000000000,closed,1,ShouldBeOneOf
+615,2019-01-28 19:43:26.000000000,2019-07-17 14:59:29.000000000,closed,6,ShouldBeAssignableTo
+614,2019-01-28 19:42:33.000000000,2019-07-16 22:33:16.000000000,closed,22,Reflection Matchers
+613,2019-01-27 09:12:18.000000000,2019-01-31 01:23:05.000000000,closed,2,Allow Arrow Either extensions to support nullable types
+612,2019-01-27 05:49:21.000000000,2019-06-26 18:13:15.000000000,closed,8,Arrow Extension - `should beRight` lambda expression support
+611,2019-01-27 05:19:54.000000000,2019-02-14 03:22:26.000000000,closed,2,Arrow Extension - null support
+610,2019-01-25 18:28:12.000000000,2019-07-25 05:46:10.000000000,closed,23,Kotlintest 3.2.0+ makes my Gradle `build` task hangs or `GC overhead limit exceeded`
+609,2019-01-25 03:52:43.000000000,2019-01-28 17:16:46.000000000,closed,2,Timezone / Locale Extension #587
+608,2019-01-25 03:42:33.000000000,2019-01-28 17:18:52.000000000,closed,4,SystemProperty Test Helpers #524
+607,2019-01-24 21:42:31.000000000,2019-02-14 03:33:22.000000000,closed,4,"Make ""condensed"" multi-line diffs configurable"
+606,2019-01-24 17:08:09.000000000,2019-01-24 17:53:51.000000000,closed,4,Enables test bang on all specs
+605,2019-01-23 20:58:06.000000000,2019-01-24 17:53:51.000000000,closed,11,Question: Bang and Focus outside of StringSpec
+604,2019-01-23 03:51:56.000000000,2019-01-24 22:50:02.000000000,closed,1,How to output the request and response when running the test in parallel
+603,2019-01-22 22:58:09.000000000,2019-01-23 00:02:55.000000000,closed,3,Implement shouldNotThrow matchers
+602,2019-01-21 19:27:14.000000000,2019-01-21 23:37:30.000000000,closed,4,Add nullability matchers with Kotlin Contracts
+601,2019-01-21 16:01:36.000000000,2019-01-21 23:39:13.000000000,closed,21,Assert not null or specific object type for further assertions on an object
+600,2019-01-21 00:26:07.000000000,2019-01-21 07:17:27.000000000,closed,0,Update io.kotlintest:kotlintest-extensions-spring to 3.2.1
+599,2019-01-21 00:25:54.000000000,2019-01-21 00:31:13.000000000,closed,0,Update io.kotlintest:kotlintest-runner-junit5 to 3.2.1
+598,2019-01-20 05:28:05.000000000,2020-01-13 04:31:48.000000000,closed,26,"[F] reuse specs, allow generic specs"
+597,2019-01-19 22:01:25.000000000,2020-03-16 00:49:08.000000000,closed,4,Documentation for test filtering via gradle
+596,2019-01-19 08:41:53.000000000,2019-01-19 08:42:12.000000000,closed,1,Add changelog documentation for version 3.2.1
+595,2019-01-19 08:31:03.000000000,2019-01-19 08:42:12.000000000,closed,0,Create 3.2.1 changelog
+594,2019-01-18 19:31:53.000000000,2020-03-21 08:38:43.000000000,closed,3,Add `And` scope to `BehaviorSpec` Then
+593,2019-01-18 17:38:02.000000000,2019-01-18 19:46:38.000000000,closed,9,Add extra scopes for BehaviorSpec
+592,2019-01-18 15:46:05.000000000,2019-01-18 15:57:31.000000000,closed,0,Clarify documentation for TestConfig.invocations
+591,2019-01-18 13:14:45.000000000,2019-01-18 15:57:31.000000000,closed,5,"Clarify the docs for the ""invocations"" config option"
+590,2019-01-18 05:21:40.000000000,2019-01-19 07:20:20.000000000,closed,19,Add cancel of TestCaseExecutor interruption job if test succeeds
+589,2019-01-16 21:46:33.000000000,2020-01-16 09:36:53.000000000,closed,8,feature request: enhancements to data-driven testing
+588,2019-01-16 17:56:21.000000000,2019-01-19 07:20:20.000000000,closed,29,Starting to see InterruptedExceptions with kotlintest 3.2.0
+587,2019-01-16 17:25:59.000000000,2019-01-31 19:14:26.000000000,closed,5,Timezone Extension
+586,2019-01-16 03:45:47.000000000,2019-01-16 17:22:52.000000000,closed,0,Update io.kotlintest:kotlintest-extensions-spring to 3.2.0
+585,2019-01-16 03:45:32.000000000,2019-01-16 05:12:43.000000000,closed,0,Update io.kotlintest:kotlintest-runner-junit5 to 3.2.0
+584,2019-01-16 03:45:15.000000000,2019-01-16 03:45:56.000000000,closed,0,Update io.github.classgraph:classgraph to 4.6.18
+583,2019-01-15 19:10:09.000000000,2020-04-29 08:39:46.000000000,closed,19,Add documentation for usage with `Mockk` and other mock libraries
+582,2019-01-15 13:35:18.000000000,2019-01-16 03:46:23.000000000,closed,0,Update io.kotlintest:kotlintest-extensions-spring to 3.1.11
+581,2019-01-15 13:35:03.000000000,2019-01-16 03:18:47.000000000,closed,0,Update com.sun.xml.bind:jaxb-core to 2.3.0.1
+580,2019-01-15 13:34:56.000000000,2019-01-15 15:18:51.000000000,closed,0,Update io.qameta.allure:allure-java-commons to 2.9.0
+579,2019-01-15 13:34:50.000000000,2019-01-16 03:09:35.000000000,closed,0,Update org.jetbrains.kotlinx:kotlinx-coroutines-core to 1.1.0
+578,2019-01-15 08:11:30.000000000,2019-01-16 03:16:21.000000000,closed,0,Update org.apache.logging.log4j:log4j-slf4j-impl to 2.11.1
+577,2019-01-15 08:11:15.000000000,2019-01-15 13:35:16.000000000,closed,0,Update io.kotlintest:kotlintest-extensions-spring to 3.1.11
+576,2019-01-15 08:11:04.000000000,2019-01-15 08:41:03.000000000,closed,0,Update io.kotlintest:kotlintest-runner-junit5 to 3.1.11
+575,2019-01-15 08:10:51.000000000,2019-01-15 08:40:04.000000000,closed,0,Update io.arrow-kt:arrow-core to 0.8.2
+574,2019-01-15 08:10:38.000000000,2019-01-16 03:17:24.000000000,closed,0,Update io.github.classgraph:classgraph to 4.6.16
+573,2019-01-15 08:10:27.000000000,2019-01-16 03:16:43.000000000,closed,0,Update com.nhaarman:mockito-kotlin to 1.6.0
+572,2019-01-15 08:10:22.000000000,2019-01-16 03:45:09.000000000,closed,0,Update org.mockito:mockito-core to 2.23.4
+571,2019-01-15 08:10:17.000000000,2019-01-15 12:51:30.000000000,closed,0,Update org.springframework:spring-context to 5.1.4-RELEASE
+570,2019-01-15 08:10:11.000000000,2019-01-15 12:51:23.000000000,closed,0,Update org.springframework:spring-test to 5.1.4-RELEASE
+569,2019-01-15 08:10:04.000000000,2019-01-15 08:40:44.000000000,closed,0,Update com.sun.xml.bind:jaxb-impl to 2.3.2
+568,2019-01-15 08:09:59.000000000,2019-01-15 13:35:00.000000000,closed,0,Update com.sun.xml.bind:jaxb-core to 2.3.0.1
+567,2019-01-15 08:09:54.000000000,2019-01-15 08:40:29.000000000,closed,0,Update javax.xml.bind:jaxb-api to 2.3.1
+566,2019-01-15 08:09:42.000000000,2019-01-15 13:34:55.000000000,closed,0,Update io.qameta.allure:allure-java-commons to 2.9.0
+565,2019-01-15 08:09:37.000000000,2019-01-15 13:34:49.000000000,closed,0,Update org.jetbrains.kotlinx:kotlinx-coroutines-core to 1.1.0
+564,2019-01-15 08:09:26.000000000,2019-01-15 12:51:43.000000000,closed,0,Update com.github.wumpz:diffutils to 3.0
+563,2019-01-15 08:09:19.000000000,2019-01-16 03:16:32.000000000,closed,0,Update com.fasterxml.jackson.module:jackson-module-kotlin to 2.9.8
+562,2019-01-15 04:50:38.000000000,2019-01-18 19:46:38.000000000,closed,6,Request for BehaviorSpec sample
+561,2019-01-14 23:44:43.000000000,2019-01-19 08:49:32.000000000,closed,6,Add support for Gherkin / Gherkin Spec
+560,2019-01-14 23:01:01.000000000,2019-01-15 20:32:17.000000000,closed,5,Schedule release for 3.2.0
+559,2019-01-14 20:49:26.000000000,2019-01-16 03:45:39.000000000,closed,3,Implement expected exception for AnnotationSpec
+558,2019-01-14 13:04:53.000000000,2019-01-14 16:28:01.000000000,closed,1,And context has invalid name as add
+557,2019-01-14 09:47:32.000000000,2019-01-14 17:47:25.000000000,closed,0,Update org.junit.platform:junit-platform-engine to 1.4.0-M1
+556,2019-01-14 09:47:29.000000000,2019-01-14 09:48:33.000000000,closed,0,Update com.nhaarman:mockito-kotlin to 1.6.0
+555,2019-01-14 09:47:25.000000000,2019-01-14 09:48:27.000000000,closed,0,Update org.mockito:mockito-core to 2.23.4
+554,2019-01-14 09:47:22.000000000,2019-01-14 09:48:22.000000000,closed,0,Update junit:junit to 4.13
+553,2019-01-14 09:47:18.000000000,2019-01-14 09:48:18.000000000,closed,0,Update org.springframework:spring-context to 5.1.4-RELEASE
+552,2019-01-14 09:47:14.000000000,2019-01-14 09:48:15.000000000,closed,0,Update org.springframework:spring-test to 5.1.4-RELEASE
+551,2019-01-14 09:47:11.000000000,2019-01-14 09:48:10.000000000,closed,0,Update com.sun.xml.bind:jaxb-impl to 2.3.2
+550,2019-01-14 09:47:07.000000000,2019-01-14 09:48:06.000000000,closed,0,Update com.sun.xml.bind:jaxb-core to 2.3.0.1
+549,2019-01-14 09:47:04.000000000,2019-01-14 09:48:03.000000000,closed,0,Update javax.xml.bind:jaxb-api to 2.4.0-b180830.0359
+548,2019-01-14 09:47:00.000000000,2019-01-14 09:47:24.000000000,closed,0,Update io.qameta.allure:allure-java-commons to 2.9.0
+547,2019-01-14 09:46:56.000000000,2019-01-14 09:48:00.000000000,closed,0,Update org.slf4j:slf4j-api to 1.8.0-beta2
+546,2019-01-14 09:46:53.000000000,2019-01-14 09:47:57.000000000,closed,0,Update com.github.wumpz:diffutils to 3.0
+545,2019-01-14 09:46:49.000000000,2019-01-14 09:47:54.000000000,closed,0,Update com.fasterxml.jackson.module:jackson-module-kotlin to 2.9.8
+544,2019-01-14 09:26:58.000000000,2019-01-14 09:27:34.000000000,closed,0,Update thingy to 2.9.8
+543,2019-01-14 01:01:56.000000000,2019-01-31 19:12:47.000000000,closed,4,Provide range-based numeric generators and javax.time generators #530
+542,2019-01-12 00:04:55.000000000,2019-01-14 17:46:32.000000000,closed,1,Update documentation to new TestListeners
+541,2019-01-11 22:06:19.000000000,2019-01-11 22:06:56.000000000,closed,1,Update CHANGELOG.md to include #539 fix
+540,2019-01-11 21:25:11.000000000,2019-01-11 21:49:26.000000000,closed,0,Add custom exception parsing for reflection call
+539,2019-01-11 20:53:43.000000000,2019-01-11 21:49:26.000000000,closed,4,AnnotationSpec throwing java.lang.reflect.InvocationTargetException instead of User Exception
+538,2019-01-11 19:07:24.000000000,2019-01-11 21:47:25.000000000,closed,2,Verify 3.2.0 release on branch release/3.2.0
+537,2019-01-10 21:38:37.000000000,2019-01-10 21:39:04.000000000,closed,1,Add documentation for release 3.1.11
+536,2019-01-10 04:29:13.000000000,2019-01-10 04:50:18.000000000,closed,9,Documentation for IsolationMode #533
+535,2019-01-09 23:15:35.000000000,2019-01-14 17:46:32.000000000,closed,3,Add documentation to Listeners
+534,2019-01-09 19:55:18.000000000,2019-01-09 21:43:14.000000000,closed,2,Adds documentation on test ordering
+533,2019-01-09 18:30:22.000000000,2019-01-10 04:53:13.000000000,closed,2,Add documentation for IsolationMode
+532,2019-01-08 18:21:11.000000000,2019-01-09 21:56:40.000000000,closed,0,Update changelog with 3.2.0 release
+531,2019-01-08 18:20:52.000000000,2019-01-10 21:39:15.000000000,closed,0,Update changelog with 3.1.11 release
+530,2019-01-08 08:23:39.000000000,2019-01-31 19:12:48.000000000,closed,8,Provide range-based numeric generators
+529,2019-01-08 00:38:02.000000000,2019-01-09 00:58:43.000000000,closed,5,Redirect kotlintest.io to Github
+528,2019-01-07 23:22:15.000000000,2019-01-08 18:21:39.000000000,closed,3,Add changelog for recent releases
+527,2019-01-07 16:37:36.000000000,2019-01-16 03:45:38.000000000,closed,1,ExpectedException for AnnotationSpec
+526,2019-01-07 11:12:05.000000000,2019-01-31 19:12:48.000000000,closed,1,Generators for javax.time
+525,2019-01-07 11:11:48.000000000,2019-02-14 03:26:55.000000000,closed,4,See / issue in config 
+524,2019-01-07 11:09:46.000000000,2019-01-29 21:14:04.000000000,closed,3,SystemProperty Test Helpers
+523,2019-01-07 11:09:03.000000000,2020-01-21 19:55:11.000000000,closed,4,Retry Helpers
+522,2019-01-06 19:35:08.000000000,2019-06-06 19:13:40.000000000,closed,8,SkipTestException
+521,2019-01-05 06:22:32.000000000,2019-01-08 18:10:15.000000000,closed,9,Test listener improvements #494 #497
+520,2019-01-03 20:09:57.000000000,2019-01-03 20:10:23.000000000,closed,1,Fixes documentation to the right annotation
+519,2019-01-03 02:41:46.000000000,2019-01-05 06:38:56.000000000,closed,1,Added output for property testing values for assert all #411
+518,2019-01-02 13:27:11.000000000,2019-01-05 05:03:55.000000000,closed,14,all spec DSLs now provide coroutine scopes for suspendable functions;…
+517,2018-12-31 22:33:41.000000000,2020-01-25 01:44:48.000000000,closed,5,Time limits
+516,2018-12-28 07:34:34.000000000,2019-01-07 17:20:43.000000000,closed,9,Should CollectionMatchers `containOnlyNulls` fail if collection is empty?
+515,2018-12-27 17:20:27.000000000,2019-07-20 19:32:44.000000000,closed,1,Add support to Koin
+514,2018-12-27 00:53:37.000000000,2019-01-03 20:01:22.000000000,closed,16,Implements annotations to execute code in AnnotationSpec
+513,2018-12-26 21:34:15.000000000,2019-01-03 20:01:22.000000000,closed,53,Support for @Before and @After in AnnotationSpec
+512,2018-12-20 16:53:58.000000000,2019-02-15 03:58:00.000000000,closed,1,Add project config option for `assertSoftly`
+511,2018-12-18 22:14:27.000000000,2019-01-10 04:08:52.000000000,closed,9,Nested TestContext should be disallowed
+510,2018-12-14 22:15:27.000000000,2019-01-14 23:39:58.000000000,closed,22,Confusing block execution with isInstancePerTest=true
+509,2018-12-13 22:32:33.000000000,2018-12-13 22:51:11.000000000,closed,0,Eventually should report what's going wrong together with the attempt…
+508,2018-12-13 22:21:51.000000000,2018-12-13 22:51:10.000000000,closed,3,Eventually should report what's going wrong together with the attempts
+507,2018-12-13 00:00:41.000000000,2018-12-14 21:25:20.000000000,closed,12,Move Collection Matchers to their own files
+506,2018-12-12 04:20:11.000000000,2019-01-23 04:40:22.000000000,closed,26,Add property testing extensions for custom generators
+505,2018-12-10 21:47:59.000000000,2020-03-17 10:16:01.000000000,closed,11,"Running with ""Test Impact Analysis"""
+504,2018-12-09 23:09:04.000000000,2019-01-05 06:23:03.000000000,closed,0,WIP: Removes Kotlin_Version override documentation
+503,2018-12-09 19:07:35.000000000,2018-12-09 20:51:09.000000000,closed,0,Upgrade Gradle to the latest 4.10.3 release
+502,2018-12-09 16:49:36.000000000,2018-12-09 16:57:11.000000000,closed,1,Update README.md
+501,2018-12-07 22:53:30.000000000,2018-12-08 16:41:36.000000000,closed,0,Deletes JavaRandoms.java file
+500,2018-12-07 02:49:34.000000000,2018-12-07 20:50:09.000000000,closed,8,Moves all assertions tests to the assertions module
+499,2018-12-06 20:00:14.000000000,2019-06-04 02:28:23.000000000,closed,7,Clicking on a test on android studio does not open the corresponding code
+498,2018-12-05 22:55:59.000000000,2019-06-04 02:14:20.000000000,closed,11,[3.4] Assertion improvements
+497,2018-12-04 03:35:34.000000000,2019-01-05 06:21:15.000000000,closed,3,WIP: Test listener improvements #494
+496,2018-12-04 00:05:24.000000000,2018-12-30 08:45:22.000000000,closed,13,"Can't run tests in Android Studio OR Gradle with kotlintest-runner-junit4 > 3.1.5, can't run tests with Gradle with kotlintest-runner-junit4:3.1.5"
+495,2018-12-03 08:37:53.000000000,2018-12-11 01:16:39.000000000,closed,0,BehaviorSpec doesn't allow config
+494,2018-12-03 02:25:48.000000000,2019-01-09 18:27:30.000000000,closed,0,Test Listener / Extension rework
+493,2018-12-03 02:01:51.000000000,2018-12-03 17:50:37.000000000,closed,2,Better support for comparing multi-line strings #402
+492,2018-12-02 23:34:15.000000000,2018-12-03 17:02:16.000000000,closed,0,Upgrade from reflections to classgraph #459
+491,2018-12-02 23:06:48.000000000,2018-12-03 21:40:27.000000000,closed,1,Added support for package selectors in test discovery; split construc…
+490,2018-12-02 23:04:55.000000000,2018-12-03 07:39:50.000000000,closed,1,Updated project config package name to be settable by system property…
+489,2018-11-30 02:23:40.000000000,2018-12-05 04:56:42.000000000,closed,17,3.1.11 bugfix and small features release
+488,2018-11-29 22:36:27.000000000,2018-11-29 23:41:06.000000000,closed,1,Improve `assertSoftly` documentation
+487,2018-11-29 14:32:23.000000000,2018-12-02 23:32:05.000000000,closed,9,Trying to fix #485
+486,2018-11-28 14:06:02.000000000,2018-11-28 15:42:54.000000000,closed,6,Kotlin version upgrade
+485,2018-11-28 13:48:37.000000000,2018-12-02 23:32:06.000000000,closed,3,Runtime JAR files in the classpath have the version 1.2
+484,2018-11-28 03:06:15.000000000,2018-12-03 17:53:19.000000000,closed,17,Fix 479 - wrong assertion on shouldThrow
+483,2018-11-27 18:01:28.000000000,2018-11-28 13:46:03.000000000,closed,1,Gradle 5.0 shows weird failed tests
+482,2018-11-27 01:33:39.000000000,2019-01-09 18:27:22.000000000,closed,45,3.2 Release Plan
+481,2018-11-22 00:09:42.000000000,2018-11-28 14:37:04.000000000,closed,2,Add asserts that the either is of type Left with a specified type A 
+480,2018-11-21 22:06:31.000000000,2018-11-23 18:59:37.000000000,closed,3,kotlintest-assertions-json and kotlintest-assertions-ktor don't seem to be published
+479,2018-11-21 15:26:10.000000000,2018-12-03 17:53:19.000000000,closed,2,Why shouldThrow<> {} always pass this check?
+478,2018-11-21 15:13:03.000000000,2019-02-22 22:09:40.000000000,closed,6,gradle test include tag 
+477,2018-11-21 04:35:17.000000000,2018-11-21 22:32:21.000000000,closed,2,Simplify `withClue` and add to readme
+476,2018-11-21 03:51:58.000000000,2019-01-22 06:42:35.000000000,closed,14,Test Case Config does not behave as I expected
+475,2018-11-21 03:09:41.000000000,2018-11-22 04:13:03.000000000,closed,3,Add 'as' support to assertions
+474,2018-11-19 22:16:18.000000000,2018-11-19 23:46:43.000000000,closed,6,gradle test -Dkotlintest.tags.exclude doesn't seem to work
+473,2018-11-16 18:40:50.000000000,2019-07-19 21:20:40.000000000,closed,3,Title for Wordspec tests is missing context
+472,2018-11-13 10:06:13.000000000,2019-12-27 23:48:55.000000000,closed,24,`map` forgets its shrinker
+471,2018-11-12 23:38:20.000000000,2018-12-03 00:00:34.000000000,closed,1,Gen.oneOf should be covariant
+470,2018-11-12 20:17:07.000000000,2020-01-13 12:36:15.000000000,closed,18,"ProjectConfig should be auto-scanned, not in the specific package"
+469,2018-11-11 23:09:44.000000000,2019-01-09 18:29:33.000000000,closed,3,Why beforeTest and afterTest parameter is not a TestCase
+468,2018-11-10 14:44:06.000000000,2019-01-09 18:28:28.000000000,closed,4,Listeners run even when tests are disabled
+467,2018-11-09 17:00:07.000000000,2018-11-09 17:31:28.000000000,closed,1,"Revert ""Fix function name in property docs examples"""
+466,2018-11-09 15:29:18.000000000,2018-11-09 16:43:27.000000000,closed,6,Fix function name in property docs examples
+465,2018-11-07 20:29:59.000000000,2018-11-13 20:23:18.000000000,closed,14,Improves Failures implementation
+464,2018-11-05 22:36:11.000000000,2018-11-07 12:01:58.000000000,closed,1,Bump Arrow to 0.80
+463,2018-11-05 18:22:25.000000000,2018-11-07 11:42:04.000000000,closed,3,Fixes CI #457
+462,2018-11-05 13:31:31.000000000,2018-11-07 11:58:19.000000000,closed,0,Make kotlin compiler happy ;)
+461,2018-11-02 02:18:35.000000000,2018-12-03 21:40:47.000000000,closed,0,Support package selectors in discovery
+460,2018-11-02 00:44:14.000000000,1970-01-01 00:00:00.000000001,open,4,How to produce Allure report and add Allure feature using BehaviorSpec
+459,2018-11-01 16:50:51.000000000,2018-12-03 17:02:51.000000000,closed,0,Upgrade from reflections to classgraph
+458,2018-11-01 11:29:54.000000000,2020-01-13 04:31:14.000000000,closed,16,Listener to run before/after a set of tests
+457,2018-10-31 21:46:44.000000000,2018-11-07 12:56:26.000000000,closed,2,Fix CI
+456,2018-10-29 20:50:08.000000000,2020-03-24 01:19:55.000000000,closed,9,"When using Data Driven Testing, separate rows are not treated as separate tests"
+455,2018-10-29 15:10:22.000000000,2018-11-07 11:58:39.000000000,closed,7,[Minor] Documentation Update 
+454,2018-10-27 22:40:53.000000000,2018-11-08 23:40:32.000000000,closed,3,"Deletes the ""matchers"" file in the ""doubles"" package and creates a separate file for each double matcher"
+453,2018-10-26 23:30:29.000000000,2018-10-27 12:58:47.000000000,closed,1,Add shouldNotBeTrue and shouldNotBeFalse matchers
+452,2018-10-26 23:26:39.000000000,2018-10-31 22:54:09.000000000,closed,1,Add shouldBeNotTrue and shouldBeNotFalse matchers
+451,2018-10-26 23:05:39.000000000,2018-11-07 22:43:49.000000000,closed,4,Implements tests for Double Matchers
+450,2018-10-26 22:58:41.000000000,2018-11-09 02:53:17.000000000,closed,1,Extract double matchers each to it's own file
+449,2018-10-22 12:09:10.000000000,2018-10-22 15:24:45.000000000,closed,2,Feature/add source to test descriptor
+448,2018-10-16 17:23:07.000000000,2018-10-22 16:49:34.000000000,closed,3,Spec and TestDescriptor modifications
+447,2018-10-14 00:22:45.000000000,2018-10-15 11:21:57.000000000,closed,5,BeforeTest/AfterTest use different threads than the actual test
+446,2018-10-13 20:42:37.000000000,2018-10-15 11:15:31.000000000,closed,1,add documentation for starts/ends with collection matchers
+445,2018-10-13 09:00:42.000000000,2018-10-15 11:15:46.000000000,closed,1,"Add remaining infix support for file, floats, sequences, types, and uri"
+444,2018-10-12 21:54:18.000000000,2018-10-15 11:16:01.000000000,closed,1,"Remove matchers ""shouldNotBePositive"" and ""shouldNotBeNegative"" from …"
+443,2018-10-12 20:10:49.000000000,2018-10-15 11:16:17.000000000,closed,1,Add infix support to string matchers
+442,2018-10-12 19:15:03.000000000,2018-10-12 20:41:42.000000000,closed,1,Fixed message in Double between matcher
+441,2018-10-12 18:47:00.000000000,2018-10-15 11:22:24.000000000,closed,0,"Double matcher has a weird message ""x should not be smaller and y and bigger than z"""
+440,2018-10-12 17:56:31.000000000,2019-01-09 18:29:01.000000000,closed,13,Extensions should be able to find out whether test case is enabled
+439,2018-10-12 17:17:35.000000000,2019-01-09 21:43:14.000000000,closed,4,Documentation on test ordering
+438,2018-10-11 21:32:06.000000000,2018-10-11 22:53:51.000000000,closed,1,Improve empty error message for collections 'shouldBeEmpty'
+437,2018-10-11 00:58:59.000000000,2018-10-11 22:54:51.000000000,closed,4,"Add unit tests for new matchers 'shouldNotBePositive', 'shouldNotBeNe…"
+436,2018-10-09 20:11:47.000000000,2018-10-15 11:24:03.000000000,closed,3,Add collection matchers to matchers.md
+435,2018-10-09 18:16:00.000000000,2018-10-11 22:54:51.000000000,closed,2,Double should have oppostive matchers for shouldBePositive and shouldBeNegative
+434,2018-10-09 17:18:53.000000000,2018-10-09 19:29:26.000000000,closed,1,Moving Double Matchers to the same file; Deprecated DoubleMatchers.kt
+433,2018-10-08 22:56:11.000000000,2018-10-09 19:29:36.000000000,closed,2,Double Matchers should be maintained in the same file
+432,2018-10-04 22:53:29.000000000,2018-10-05 00:06:26.000000000,closed,1,BugFix: Double matcher shouldNotBeExactly
+431,2018-10-04 22:38:22.000000000,2018-10-05 06:44:48.000000000,closed,0,Bug: Double shouldNotBeExactly failure
+430,2018-10-04 22:16:54.000000000,2018-11-07 22:46:33.000000000,closed,2,Add tests for Double matchers
+429,2018-10-04 22:06:46.000000000,2018-10-04 22:10:53.000000000,closed,1,Refactor double matchers to include an infix modifier
+428,2018-10-04 22:02:09.000000000,2018-10-04 23:32:14.000000000,closed,0,Add infix modification for Double matchers
+427,2018-10-04 00:10:12.000000000,2018-10-04 00:18:49.000000000,closed,1,Add arrow-assertion Failure matcher that checks underlying throwable equality
+426,2018-10-03 23:26:25.000000000,2018-10-03 23:47:21.000000000,closed,3,Add arrow-assertion Failure matcher that checks underlying throwable equality
+425,2018-10-03 09:45:33.000000000,2018-10-03 23:27:09.000000000,closed,3,Add Boolean matchers documentation and unit tests
+424,2018-10-03 09:20:15.000000000,2018-10-04 01:08:50.000000000,closed,1,Add documentation and tests for Boolean matchers
+423,2018-10-03 02:01:37.000000000,2018-10-03 05:29:33.000000000,closed,4,Matchers for shouldBeWithin duration
+422,2018-10-02 20:50:26.000000000,2018-10-04 00:19:14.000000000,closed,4,Add optional exception type parameter to beFailure arrow-assertions
+421,2018-10-02 20:18:26.000000000,2018-10-03 20:04:49.000000000,closed,3,Gradle does not execute custom StringSpec tests in custom source set
+420,2018-10-01 19:57:10.000000000,2018-10-03 05:13:59.000000000,closed,2,Add documentation to Date matchers
+419,2018-09-27 05:41:32.000000000,2018-09-27 08:10:49.000000000,closed,3,`int()` `Gen` constants do not match documentation
+418,2018-09-21 13:05:41.000000000,2018-12-15 15:09:52.000000000,closed,2,The disabled test is displayed several times
+417,2018-09-19 19:58:15.000000000,2018-09-19 20:16:19.000000000,closed,0,Add infix support to map matchers
+416,2018-09-19 17:15:58.000000000,2018-10-03 09:17:59.000000000,closed,2,"Add matcher shouldBeWithin for LocalDateTime, OffsetDateTime and ZonedDateTime that includes other units"
+415,2018-09-17 12:52:53.000000000,2018-09-17 14:46:40.000000000,closed,1,Can't generate allure report
+414,2018-09-14 20:56:16.000000000,2018-10-01 19:55:55.000000000,closed,11,Add documentation to Date matchers
+413,2018-09-14 12:17:43.000000000,2018-11-07 13:15:53.000000000,closed,2,Config with invocations > 1 stuck if test fails 
+412,2018-09-13 23:43:00.000000000,2018-09-13 23:46:50.000000000,closed,2,Add collection assert infix support
+411,2018-09-13 11:55:25.000000000,2019-01-05 06:55:05.000000000,closed,0,Config the output to show the test cased generated in Property testing or table testing
+410,2018-09-13 08:21:16.000000000,2018-10-03 05:16:23.000000000,closed,4,Add documentation to Date matchers
+409,2018-09-13 05:28:09.000000000,2018-09-13 10:04:17.000000000,closed,1,Adds the infix operator to functions
+408,2018-09-13 02:05:12.000000000,2018-09-13 11:57:15.000000000,closed,1,Add infix modifier to Date Matchers
+407,2018-09-13 01:49:09.000000000,2018-09-13 02:00:55.000000000,closed,1,Adds more tests for Date Matchers
+406,2018-09-13 01:42:34.000000000,2018-09-13 02:01:59.000000000,closed,3,Add more tests for Date Matchers
+405,2018-09-12 16:34:22.000000000,2018-09-12 16:52:11.000000000,closed,1,#404 Added infix keyword to collections matchers where it is applicable
+404,2018-09-12 15:34:08.000000000,2018-09-13 12:12:08.000000000,closed,11,Add infix modifier to collections matchers
+403,2018-09-11 11:14:39.000000000,2018-09-25 22:26:27.000000000,closed,10,WIP: Multi line string
+402,2018-09-11 10:20:45.000000000,2018-12-03 17:51:07.000000000,closed,1,Better support for comparing multi-line strings
+401,2018-09-10 18:51:29.000000000,2018-09-10 21:34:19.000000000,closed,1,Fix typo in README.md
+400,2018-09-08 00:24:09.000000000,2018-09-08 16:38:55.000000000,closed,1,Add infix support to Int/Long matchers that can support it (x shouldBeGreaterThan y)
+399,2018-08-31 18:30:17.000000000,2019-01-20 06:08:28.000000000,closed,5,[Q] How to compose specs?
+398,2018-08-28 02:34:26.000000000,2019-02-22 22:10:36.000000000,closed,5,Code coverage report configuration in Gradle
+397,2018-08-27 00:26:21.000000000,2018-08-27 16:52:20.000000000,closed,1,Fix shouldBe on arrays without static types
+396,2018-08-11 20:51:32.000000000,2018-08-13 18:26:28.000000000,closed,1,Update README.md
+395,2018-08-10 14:41:45.000000000,2020-03-17 10:15:59.000000000,closed,3,Support for automatic updates of expected values (aka quine tests)
+394,2018-08-08 13:46:26.000000000,2018-08-08 16:32:03.000000000,closed,3,Kotlintest runner spews DEBUG logs by default
+393,2018-08-08 13:32:14.000000000,2018-08-10 03:10:02.000000000,closed,0,New collection matchers
+392,2018-08-08 05:19:57.000000000,2018-08-08 16:12:32.000000000,closed,1,Use unambiguous representations in collection matchers
+391,2018-08-07 11:50:15.000000000,2018-08-07 12:03:18.000000000,closed,1,`Sequence` matchers.
+390,2018-08-03 02:33:03.000000000,2018-08-03 02:36:08.000000000,closed,1,Fix Double shouldBeBetween
+389,2018-08-02 05:24:16.000000000,2018-08-02 17:07:42.000000000,closed,1,Removed unnecessary `Comparable<T>` upper-bound from `sortedWith` matchers.
+388,2018-07-27 20:58:50.000000000,2018-07-28 14:55:51.000000000,closed,0,Remember previous failing test cases
+387,2018-07-27 17:01:56.000000000,2018-08-10 03:13:13.000000000,closed,10,Should throw should allow for assignments to throw exceptions
+386,2018-07-27 13:00:19.000000000,2019-01-05 06:55:25.000000000,closed,5,Upgrade to Kotlin 1.3 and enable co-routines 
+385,2018-07-24 06:39:04.000000000,2018-09-13 01:05:16.000000000,closed,24,Retrocess with version >3.15 JUnit 4 Runner
+384,2018-07-18 17:15:03.000000000,2018-07-20 02:06:37.000000000,closed,1,Maven sample project not working
+383,2018-07-17 15:39:21.000000000,2018-07-18 11:43:31.000000000,closed,5,`sortedWith` (and related) matchers.
+382,2018-07-17 15:00:29.000000000,2019-06-04 02:25:35.000000000,closed,21,`shouldFail` &c. in WordSpec
+381,2018-07-16 13:40:05.000000000,2018-12-21 22:32:05.000000000,closed,11,Constructor in Spring seems to be not working
+380,2018-07-16 07:10:45.000000000,2018-07-16 07:28:42.000000000,closed,1,Update: make use of `limit` argument to `List<E>.joinToString()` (sim…
+379,2018-07-16 01:52:06.000000000,2018-12-03 17:58:53.000000000,closed,12,Per-leaf test isolation
+378,2018-07-15 23:36:49.000000000,2019-02-17 01:10:53.000000000,closed,0,Parallelize data driven tests
+377,2018-07-14 01:30:31.000000000,2018-07-15 11:34:47.000000000,closed,1,Improve StringShrinker algorithm
+376,2018-07-08 21:37:31.000000000,2018-07-11 08:53:56.000000000,closed,0,Delete Interceptor documentation
+375,2018-07-03 22:59:03.000000000,2018-07-03 23:06:09.000000000,closed,3,Update testCompile to prevent copy-paste errors
+374,2018-07-02 18:03:37.000000000,2018-07-02 18:42:55.000000000,closed,2,Fix beLeft is comparing against Either.Right instead of Either.Left
+373,2018-07-02 02:59:35.000000000,2018-07-03 01:01:17.000000000,closed,5,Add soft assertions
+372,2018-06-26 21:29:26.000000000,2018-06-27 00:00:09.000000000,closed,1,Fix table testing forNone and Double between matcher
+371,2018-06-26 21:04:34.000000000,2018-06-27 01:12:08.000000000,closed,1,Fix error when running single test in kotlintest-tests
+370,2018-06-26 15:50:18.000000000,2018-06-26 16:23:05.000000000,closed,1,Updated Project Extensions section in docs
+369,2018-06-26 01:16:53.000000000,2018-06-26 20:18:59.000000000,closed,7,Remove matcher frames from stacktraces
+368,2018-06-25 21:48:30.000000000,2018-06-26 00:17:10.000000000,closed,1,Use less ambiguous string representations in equality errors
+367,2018-06-25 13:20:31.000000000,2018-06-29 16:07:05.000000000,closed,5,intellij always executes StringSpec tests
+366,2018-06-25 04:01:22.000000000,2018-06-25 11:27:11.000000000,closed,1,Improve String equality error messages
+365,2018-06-24 21:00:54.000000000,2018-06-24 21:17:03.000000000,closed,1,Update kotlin to 1.2.50
+364,2018-06-21 14:51:34.000000000,2018-06-21 14:52:55.000000000,closed,1,Correct formatting at reference.md
+363,2018-06-21 14:47:59.000000000,2018-06-21 14:53:03.000000000,closed,0,Documentation formatting
+362,2018-06-19 04:18:34.000000000,2018-06-19 04:30:13.000000000,closed,1,"Correct function name in ""Validated"" docs"
+361,2018-06-14 19:31:38.000000000,2018-06-23 02:38:38.000000000,closed,4,Add shouldContainExactly() to Collections matchers
+360,2018-06-10 02:11:35.000000000,2018-06-10 02:30:04.000000000,closed,1,Add matchers containsExactly and containsExactlyInAnyOrder
+359,2018-06-09 23:04:51.000000000,2018-06-10 03:36:04.000000000,closed,3,Optimize sorted matcher
+358,2018-06-08 02:57:28.000000000,2018-06-08 03:11:17.000000000,closed,1,Allow type matchers to match nullable values.
+357,2018-06-07 06:04:32.000000000,2018-06-08 02:37:44.000000000,closed,0,Remove duplicate kotlin gradle dependencies.
+356,2018-06-06 23:46:57.000000000,2018-06-23 02:38:57.000000000,closed,12,Running single tests with Gradle command line does not work
+355,2018-06-05 23:43:25.000000000,2018-06-12 12:16:21.000000000,closed,2,No info about a thrown exception from a code running inside 'given' or 'when' block.
+354,2018-06-04 22:39:37.000000000,2018-06-09 20:58:33.000000000,closed,4,Move tables and data packages into kotlintest-assertions package
+353,2018-06-04 12:54:08.000000000,2018-06-23 02:39:09.000000000,closed,4,`forAll(items) { x -> if(true) throw NullPointerException()` passes successfully!!!
+352,2018-06-04 04:35:06.000000000,2018-06-04 10:56:45.000000000,closed,1,Allow nullable receivers for string matchers.
+351,2018-06-03 23:57:48.000000000,2018-06-04 00:28:09.000000000,closed,3,"Run tests for all rows in a table, even after errors."
+350,2018-06-02 03:57:05.000000000,2018-06-02 15:52:11.000000000,closed,1,Allow nullable arguments to more matcher functions.
+349,2018-06-01 07:31:07.000000000,2018-06-01 21:30:14.000000000,closed,1,Add extension functions for table assertions.
+348,2018-05-31 21:23:17.000000000,2018-05-31 21:35:44.000000000,closed,1,Fix deprecation warning
+347,2018-05-31 21:18:37.000000000,2018-05-31 21:23:21.000000000,closed,1,Make new `compare` helper private.
+346,2018-05-29 14:23:37.000000000,2018-06-01 05:11:14.000000000,closed,5,shouldBe does not handle java long or Long but does handle Integer
+345,2018-05-28 23:38:55.000000000,2018-05-28 23:47:40.000000000,closed,1,Fixing function return type in documentation for forAll()
+344,2018-05-25 16:02:08.000000000,2018-05-25 16:45:06.000000000,closed,1,Fixing typos in reference.md
+343,2018-05-25 15:33:49.000000000,2018-06-01 05:11:45.000000000,closed,2,Bring back Duration extension properties
+342,2018-05-24 06:40:35.000000000,2018-05-25 00:05:03.000000000,closed,2,Make the Table & Row data classes covariant
+341,2018-05-24 02:32:44.000000000,2018-05-24 20:12:58.000000000,closed,1,Fixing argument names in ReplaceWith of deprecated matchers
+340,2018-05-23 23:18:13.000000000,2018-05-24 02:15:08.000000000,closed,3,fix eventually nanos conversion
+339,2018-05-23 21:36:42.000000000,2018-05-23 22:20:45.000000000,closed,1,Improve shouldBe array overloads
+338,2018-05-21 22:19:31.000000000,2018-05-22 02:04:37.000000000,closed,10,fix URI matchers
+337,2018-05-20 13:31:56.000000000,2019-06-04 02:12:59.000000000,closed,1,Kotlin test and spring: WithMockUser
+336,2018-05-19 11:46:00.000000000,2018-06-01 05:11:25.000000000,closed,21,gradle ignoring failing tests in a StringSpec
+335,2018-05-19 01:38:22.000000000,2018-06-23 04:14:32.000000000,closed,5,Incorrect test count
+334,2018-05-17 14:04:02.000000000,2018-05-17 14:14:45.000000000,closed,3,[Feature] Inspectors: inspecting & extracting
+333,2018-05-16 13:35:57.000000000,2018-05-16 13:41:53.000000000,closed,0,Allow tags to be added to specs for all test cases
+332,2018-05-15 21:13:59.000000000,2018-06-03 03:54:43.000000000,closed,6,Add support for coroutines
+331,2018-05-14 22:57:41.000000000,2018-05-16 01:25:37.000000000,closed,1,Improve property testing
+330,2018-05-14 15:46:32.000000000,2018-05-14 17:34:59.000000000,closed,6,Running tests on custom source sets seems to be broken in 3.1.0
+329,2018-05-14 15:35:54.000000000,2018-05-16 01:23:37.000000000,closed,24,Focus option for top level tests
+328,2018-05-14 15:33:05.000000000,2018-05-16 11:17:08.000000000,closed,2,Randomize top level tests
+327,2018-05-14 15:31:18.000000000,2019-07-20 01:18:00.000000000,closed,2,Benchmarking extension
+326,2018-05-14 15:21:24.000000000,2020-02-09 10:15:35.000000000,closed,2,Temporary file management for tests
+325,2018-05-14 15:17:24.000000000,2018-06-23 02:26:42.000000000,closed,3,New matchers for 3.2
+324,2018-05-14 14:32:49.000000000,2020-08-13 09:27:42.000000000,closed,6,Add allure documentation
+323,2018-05-11 18:41:26.000000000,2018-06-03 03:54:43.000000000,closed,2,Add ability to execute async code inside spec
+322,2018-05-10 17:27:49.000000000,2018-05-10 17:28:17.000000000,closed,0,Updated tests for java 9 / 10
+321,2018-05-09 16:13:43.000000000,2018-05-10 18:12:26.000000000,closed,4,asserting list of sealed class instances gives type inference issue
+320,2018-05-07 17:23:23.000000000,2018-05-07 17:23:54.000000000,closed,0,Oneinstance
+319,2018-05-05 22:46:56.000000000,2018-05-10 18:12:58.000000000,closed,2,Spec should fail if test case name is duplicated
+318,2018-05-05 02:55:38.000000000,2018-05-08 20:42:23.000000000,closed,4,A simple `assert(false)` test does not fail `gradle test`
+317,2018-05-03 02:17:43.000000000,2018-05-11 16:54:06.000000000,closed,11,Extra `foo()` Test Being Displayed
+316,2018-05-02 03:43:28.000000000,2018-05-14 12:23:28.000000000,closed,17,Test Events Not Received After Running Tests
+315,2018-05-01 01:22:31.000000000,2018-05-07 16:03:43.000000000,closed,1,Change jUnit 4 Runner to show nested tests.
+314,2018-04-26 17:04:16.000000000,2018-05-03 13:51:55.000000000,closed,7,StringSpec produces errors when run with spring-boot thymeleaf dependency in Intellij Idea
+313,2018-04-25 20:02:40.000000000,2018-05-16 12:14:02.000000000,closed,2,Custom generator for property-based testing
+312,2018-04-25 19:56:37.000000000,2018-05-11 16:57:47.000000000,closed,19,Wrong title for WordSpec tests
+311,2018-04-25 19:40:28.000000000,2018-05-11 16:53:11.000000000,closed,7,Alllow mixing of property forAll with table forAll
+310,2018-04-25 18:08:12.000000000,2018-04-25 20:43:13.000000000,closed,7,io.kotlintest.properties 2.0 → 3.[01]
+309,2018-04-25 18:04:17.000000000,2018-05-11 17:04:05.000000000,closed,5,Forum status
+308,2018-04-25 03:38:46.000000000,2018-05-16 16:15:46.000000000,closed,0,add `attempts` option to config
+307,2018-04-25 02:35:36.000000000,2018-04-30 19:27:11.000000000,closed,1,Exception in init block outside of test contexts is swallowed
+306,2018-04-24 11:36:27.000000000,2018-04-24 21:03:08.000000000,closed,0,Extra matchers
+305,2018-04-23 20:43:22.000000000,2018-04-23 21:27:03.000000000,closed,1,Update version in readme
+304,2018-04-23 20:03:59.000000000,2018-04-23 20:09:49.000000000,closed,3,Update version referenced in readme
+303,2018-04-23 18:36:02.000000000,2018-05-14 13:38:43.000000000,closed,5,Interceptors are deprecated and sometimes removed but are still in the documentation
+302,2018-04-23 17:48:40.000000000,2018-04-23 21:26:38.000000000,closed,1,Typo
+301,2018-04-23 10:50:12.000000000,2018-04-24 00:17:57.000000000,closed,16,Type inference failed: infix fun <T> T.shouldBe(matcher: Matcher<T>): Unit cannot be applied to receiver: Int  arguments: (Int)
+300,2018-04-23 07:41:40.000000000,2018-04-24 01:42:52.000000000,closed,6,3.1.0-RC1 failing to discover all tests
+299,2018-04-22 19:01:17.000000000,2018-05-11 16:54:23.000000000,closed,12,Kotlintest 3 with jUnit 4.
+298,2018-04-21 09:50:33.000000000,2018-04-24 00:27:55.000000000,closed,5,"""Single-level"" FreeSpec-tests broken in version 3"
+297,2018-04-20 10:07:45.000000000,2018-04-23 05:51:25.000000000,closed,7,Nested initialization code getting called on all tests
+296,2018-04-19 12:34:26.000000000,2018-04-24 00:18:22.000000000,closed,2,Make Assertions integrate with IntelliJ
+295,2018-04-18 11:49:50.000000000,2018-04-24 03:30:27.000000000,closed,0,shouldTimeout
+294,2018-04-17 14:24:22.000000000,2018-04-20 04:03:09.000000000,closed,3,The test discovery in kotlintest 3 should not get confused by global objects
+293,2018-04-15 11:40:17.000000000,2018-04-15 11:56:59.000000000,closed,2,AppVeyor: Create %HOME%\.gradle independently of the configuration
+292,2018-04-15 10:47:46.000000000,2018-04-15 11:25:40.000000000,closed,1,AppVeyor: Only create %HOME%\.gradle if it does not exist
+291,2018-04-14 15:36:55.000000000,2018-04-15 02:55:08.000000000,closed,1,Remove non-null restriction in some Gen methods
+290,2018-04-14 15:36:26.000000000,2018-04-15 15:31:59.000000000,closed,4,Add Gen.oneOf
+289,2018-04-14 09:10:49.000000000,2018-04-20 04:02:52.000000000,closed,3,ProjectConfig.beforeAll() not called before initialization
+288,2018-04-13 22:51:23.000000000,2018-04-15 03:30:17.000000000,closed,0,Add org.junit.platform.gradle.plugin in README
+287,2018-04-13 22:50:27.000000000,2018-04-15 03:29:57.000000000,closed,1,Add org.junit.platform.gradle.plugin in README
+286,2018-04-12 12:20:30.000000000,2018-04-12 17:14:58.000000000,closed,4,Add a Java 9 matrix build to AppVeyor
+285,2018-04-12 01:36:22.000000000,2018-04-12 01:36:49.000000000,closed,0,Use Java 8 on AppVeyor
+284,2018-04-12 01:14:06.000000000,2018-04-12 01:15:04.000000000,closed,20,Add an AppVeyor configuration for Windows CI
+283,2018-04-12 01:04:13.000000000,2018-04-12 01:10:24.000000000,closed,7,FileMatchersTest: Fix handling Windows paths
+282,2018-04-12 00:40:31.000000000,2018-04-12 00:47:58.000000000,closed,1,Enable the Gradle build cache to reduce build time
+281,2018-04-12 00:12:21.000000000,2018-04-12 00:17:34.000000000,closed,1,Simplify how Travis calls Gradle
+280,2018-04-11 23:14:25.000000000,2018-05-11 16:53:56.000000000,closed,58,Question: one instance per test with nested context
+279,2018-04-11 17:59:50.000000000,2018-05-11 16:53:44.000000000,closed,32,Clarify on the use of useJUnitPlatform()
+278,2018-04-10 12:09:35.000000000,2018-04-11 01:55:12.000000000,closed,0,Support skip reason in testcase interceptor.
+277,2018-04-07 18:54:47.000000000,2018-04-08 02:32:45.000000000,closed,0,Allow disjunction of multiple matchers of different types
+276,2018-04-06 00:47:02.000000000,2018-04-06 02:33:13.000000000,closed,1,Classify on Generators
+275,2018-04-05 20:52:20.000000000,2018-04-05 20:59:22.000000000,closed,1,Update custom generator to new versions
+274,2018-04-04 20:29:20.000000000,2018-04-05 14:04:06.000000000,closed,2,Only one test class is run using mvn
+273,2018-04-01 19:39:45.000000000,2019-09-04 08:34:51.000000000,closed,1,Use database of previous failures for property tests.
+272,2018-04-01 19:17:03.000000000,2018-04-07 13:43:17.000000000,closed,12,Android ~ Windows 10
+271,2018-03-29 20:09:22.000000000,2018-03-31 02:03:08.000000000,closed,33,Test not found when run from gradle
+270,2018-03-29 18:21:28.000000000,2018-04-07 15:12:23.000000000,closed,5,improve test data generator
+269,2018-03-27 21:10:03.000000000,2018-03-27 21:38:12.000000000,closed,1,Fixed a compile error
+268,2018-03-27 14:10:37.000000000,2018-03-28 07:55:50.000000000,closed,5,Additional dependencies using maven
+267,2018-03-27 05:48:01.000000000,2018-03-28 01:40:21.000000000,closed,0,Add context scope to describe spec
+266,2018-03-27 05:43:37.000000000,2018-03-28 05:32:09.000000000,closed,1,Allure adapter
+265,2018-03-24 06:59:01.000000000,2018-04-08 02:56:41.000000000,closed,27,IoU a beer
+264,2018-03-21 12:15:17.000000000,2018-03-24 06:12:11.000000000,closed,5,BehaviorSpec run parallel?
+263,2018-03-20 21:01:11.000000000,2018-03-20 21:03:58.000000000,closed,1,Tests: specify types for containExactly test case to use with shouldN…
+262,2018-03-20 20:08:27.000000000,2018-03-20 20:24:40.000000000,closed,1,containAll and containExactly map matchers with detailed diff #239
+261,2018-03-17 01:24:24.000000000,2018-03-17 01:33:42.000000000,closed,1,Fix typo
+260,2018-03-14 20:39:22.000000000,2018-03-20 15:17:42.000000000,closed,4,Gradle build doesn't run the tests
+259,2018-03-14 14:44:24.000000000,2018-03-14 18:30:18.000000000,closed,1,Add missing brackets to double comparison warning
+258,2018-03-08 04:09:59.000000000,2018-03-24 06:13:47.000000000,closed,2,Can not discover ProjectConfig in Java9
+257,2018-03-06 21:45:45.000000000,2018-03-24 06:14:18.000000000,closed,9,Lots of errors before a test is executed
+256,2018-03-02 04:29:54.000000000,2018-03-20 20:49:09.000000000,closed,7,Allowing supertypes in shouldThrow matcher
+255,2018-03-01 20:28:37.000000000,2018-03-14 17:49:03.000000000,closed,3,Gen.kt uses method from Kotlin 1.2
+254,2018-02-19 02:56:20.000000000,2018-02-19 12:08:17.000000000,closed,1,Update: minor optimization for `Gen::nats` and `Gen::negativeIntegers…
+253,2018-02-16 02:25:10.000000000,2018-02-16 08:33:54.000000000,closed,1,Allow Eventually to use a predicate for additional flexibility
+252,2018-02-05 22:15:13.000000000,2018-02-05 23:38:46.000000000,closed,1,"BehaviorSpec output only shows ""Then"" description"
+251,2018-02-05 19:53:22.000000000,2018-03-24 06:14:07.000000000,closed,2,Support Spring Autowiring
+250,2018-01-31 16:37:53.000000000,2018-03-17 21:46:34.000000000,closed,11,Bumped kotlin version to 1.2.21
+249,2018-01-29 00:58:12.000000000,2018-03-23 14:15:27.000000000,closed,0,containsAll shows assertion error using memory address
+248,2018-01-28 06:09:50.000000000,2019-01-31 01:28:28.000000000,closed,12,"Test should fail if exitProcess/System.exit called, unless explicitly expected"
+247,2018-01-27 05:09:39.000000000,2018-03-19 18:26:21.000000000,closed,0,"Add ""shouldThrowAnyException"""
+246,2018-01-04 09:03:10.000000000,2018-01-04 11:02:24.000000000,closed,1,Added double between matcher and the respective test
+245,2018-01-03 05:31:05.000000000,2018-01-03 10:38:31.000000000,closed,1,Added double matching to Matchers.md (documentation only)
+244,2017-12-21 15:59:15.000000000,2018-03-20 05:55:37.000000000,closed,7,Reflection error
+243,2017-12-20 16:23:53.000000000,2018-03-19 18:26:11.000000000,closed,2,New convenient function for Generator
+242,2017-12-12 02:59:29.000000000,2020-01-20 19:51:36.000000000,closed,15,Multi Platform - Kotlin JS
+241,2017-12-05 13:34:03.000000000,2018-03-24 06:19:48.000000000,closed,2,Multiplatform/Android support
+240,2017-12-01 16:37:29.000000000,2018-03-19 18:29:40.000000000,closed,3,Add prefixes to kotlintest system properties
+239,2017-11-27 20:39:45.000000000,2018-03-23 05:50:11.000000000,closed,6,containExactly & containAll matchers for checking Map's
+238,2017-11-22 12:07:02.000000000,2018-03-20 02:01:55.000000000,closed,3,Is it possible to modify the test name to display?
+237,2017-11-21 16:49:31.000000000,2018-01-04 11:01:32.000000000,closed,1,Clarify how includeTags/excludeTags interact with untagged tests
+236,2017-11-17 18:34:52.000000000,2018-03-23 21:07:27.000000000,closed,5,Kotlintest and Spring?
+235,2017-11-16 22:55:26.000000000,2018-11-15 04:29:56.000000000,closed,4,Selenium and Kotlintest
+234,2017-11-14 20:25:39.000000000,2017-11-14 20:41:58.000000000,closed,1,Fix code bock formatting in the reference
+233,2017-11-01 23:18:32.000000000,2017-11-01 23:23:07.000000000,closed,1,Added any() to return non-null objects
+232,2017-10-31 12:58:33.000000000,2018-03-24 06:13:36.000000000,closed,7,Reflections exceptions
+231,2017-10-21 13:36:08.000000000,2017-12-06 14:29:37.000000000,closed,5,Feature/junit5
+230,2017-10-20 04:04:54.000000000,2018-03-24 06:20:54.000000000,closed,7,"FIX: For one instance per test, interceptTestCase is called on that given instance #174"
+229,2017-10-20 02:55:12.000000000,2017-10-21 18:54:50.000000000,closed,18,MockK mocking framework
+228,2017-10-18 11:43:31.000000000,2017-10-18 15:23:40.000000000,closed,1,Fixed lambda in reference.md
+227,2017-10-14 13:42:19.000000000,2018-03-20 05:57:28.000000000,closed,6,3.0 Breaking Changes
+226,2017-10-13 03:53:00.000000000,2018-03-24 06:12:31.000000000,closed,27,"Tests pass when run from AS 2.3.3, but hang for a while and then fail when run from Gradle"
+225,2017-10-10 14:59:51.000000000,2017-10-14 09:42:02.000000000,closed,3,A lot of Reflection Exception thrown at Test startup
+224,2017-10-09 18:16:03.000000000,2018-03-17 21:46:56.000000000,closed,1,FloatMatchers
+223,2017-10-09 17:42:02.000000000,2017-10-09 23:57:17.000000000,closed,4,2.0.6 incompatible with java 7
+222,2017-10-07 22:26:48.000000000,2017-10-10 20:57:01.000000000,closed,1,Improvements in property-based testing.
+221,2017-10-07 13:10:03.000000000,2017-10-07 13:14:53.000000000,closed,1,requires double quote in the reference
+220,2017-10-05 15:48:38.000000000,2018-03-24 06:15:48.000000000,closed,2,Do exist an updated changelog with the changes by version?
+219,2017-10-04 21:30:36.000000000,2017-10-10 17:19:49.000000000,closed,3,Reflection scan startup cost
+218,2017-10-04 18:19:08.000000000,2017-10-04 18:24:47.000000000,closed,1,Fix minor typos in reference document
+217,2017-10-02 08:22:58.000000000,2017-10-06 12:12:43.000000000,closed,4,Support for Android Studio 3.0?
+216,2017-10-02 08:18:37.000000000,2017-10-02 08:25:17.000000000,closed,0,Support for Android Studio 3.0?
+215,2017-09-29 17:55:21.000000000,2017-10-02 19:43:10.000000000,closed,4,"Improve ""eventually"" syntax to allow passing custom Exception type"
+214,2017-09-19 20:20:12.000000000,2017-10-04 07:31:33.000000000,closed,15,ToleranceMatcher is unable to compare NaN doubles
+213,2017-09-15 17:17:33.000000000,2018-03-24 06:25:59.000000000,closed,4,Testing with Realm does not work for lack of Context
+212,2017-09-14 11:22:07.000000000,2018-03-21 06:07:48.000000000,closed,4,"Gen<T> should return Iterable, not single random value"
+211,2017-09-13 13:53:19.000000000,2017-09-13 13:53:28.000000000,closed,0,Bump to JUnit5
+210,2017-09-01 17:24:10.000000000,2017-09-04 18:21:45.000000000,closed,6,get context in test
+209,2017-08-31 17:28:26.000000000,2017-09-04 10:38:34.000000000,closed,0,Update the reference to say Spec instead of TestBase
+208,2017-08-30 23:06:24.000000000,2017-08-31 15:11:51.000000000,closed,1,doc typo fix: add closing double-quote
+207,2017-08-24 17:21:20.000000000,2017-08-24 17:54:06.000000000,closed,1,Upgrade Gradle and Kotlin to latest versions
+206,2017-08-23 11:39:43.000000000,2017-10-04 08:05:50.000000000,closed,2,"Inspectors (like forAll, forOne) give really small amount of feedback"
+205,2017-08-22 15:33:35.000000000,2019-01-23 00:02:55.000000000,closed,30,shouldNotThrow and shouldNotThrowAny matchers
+204,2017-08-21 21:05:32.000000000,2017-10-04 08:07:34.000000000,closed,1,CollectionMatchers should write actual values
+203,2017-08-18 12:52:19.000000000,2017-08-24 23:41:28.000000000,closed,1,haveSizeMatcher error message now indicates the actual size
+202,2017-08-18 12:35:08.000000000,2017-08-24 23:41:27.000000000,closed,0,The haveSizeMatcher in CollectionMatchers should display the actual size
+201,2017-08-11 12:14:13.000000000,2018-03-24 06:16:32.000000000,closed,5,afterAll() on project is wrong - it seems to fire once after first spec
+200,2017-08-07 15:07:38.000000000,2017-08-11 00:03:43.000000000,closed,1,Generators for maps and pairs
+199,2017-08-07 10:15:20.000000000,2017-08-07 10:49:39.000000000,closed,0,"Fix syntax, change from single to double quotes"
+198,2017-08-01 14:32:33.000000000,2017-10-04 10:19:03.000000000,closed,1,Interceptors are not working correctly
+197,2017-07-29 23:36:53.000000000,2017-07-29 23:48:20.000000000,closed,1,Several useful Gen extensions
+196,2017-07-29 23:19:32.000000000,2017-07-29 23:48:39.000000000,closed,1,Refactor mock() function
+195,2017-07-26 11:02:44.000000000,2018-03-19 18:33:56.000000000,closed,7,Separate runner and assertion library ?
+194,2017-07-26 10:51:22.000000000,2017-08-03 01:13:54.000000000,closed,2,Guava dependency
+193,2017-07-19 10:56:50.000000000,2018-03-24 06:54:58.000000000,closed,14,Consider replacing MockitoSugar with mockito-kotlin or mockito4k
+192,2017-07-16 23:43:57.000000000,2017-10-04 08:37:08.000000000,closed,2,Gen.choose() should support negative numbers
+191,2017-07-14 08:09:40.000000000,2017-10-04 08:39:05.000000000,closed,3,shouldEqual may fail on data class with ByteArray property
+190,2017-07-12 23:29:38.000000000,2018-03-24 06:52:56.000000000,closed,7,compatibility with JUnit TestRule ?
+189,2017-07-07 04:55:55.000000000,2020-07-29 12:39:54.000000000,closed,23,Android Instrumentation Tests
+188,2017-07-05 17:33:06.000000000,2018-03-20 02:06:04.000000000,closed,3,Test classes are not shown in correct package in test report
+187,2017-06-26 18:52:11.000000000,2019-07-20 18:13:27.000000000,closed,18,"Add semantics for ""expected failures"""
+186,2017-06-24 20:14:44.000000000,2017-06-24 21:57:25.000000000,closed,5,Invert expected and actual values for String comparison error message
+185,2017-06-20 17:37:05.000000000,2017-10-04 08:41:11.000000000,closed,1,Change exception.cause shouldBe beInstanceOf
+183,2017-06-06 22:05:50.000000000,2018-03-28 07:37:38.000000000,closed,12,Reflections exception thrown on test startup
+182,2017-06-04 15:26:24.000000000,2017-06-05 11:13:14.000000000,closed,1,Add shouldThrowAny method
+181,2017-05-27 14:01:26.000000000,2017-06-05 11:13:39.000000000,closed,1,Change shouldBe/shouldEqual error text to a format that IntelliJ displays more nicely.
+180,2017-05-23 05:14:28.000000000,2017-10-04 09:02:51.000000000,closed,2,Add Matcher containTheSameElementsInOrderAs
+179,2017-05-09 15:18:35.000000000,2017-10-04 07:36:12.000000000,closed,1,Change shouldBe/shouldEqual error message to a format in which IntelliJ shows the diff
+178,2017-05-08 17:09:29.000000000,2017-05-09 01:29:49.000000000,closed,1,Kotlin 1.1.2-3 support?
+177,2017-05-07 17:27:15.000000000,2017-05-08 17:39:36.000000000,closed,6,"README showing ""old style"" init-based StringSpec"
+176,2017-05-03 08:21:36.000000000,2017-05-03 13:38:04.000000000,closed,1,fix(lambda) #171: fix lambda npes: initialize attribute before init block
+175,2017-05-02 10:24:03.000000000,2017-05-02 10:30:40.000000000,closed,1,"Fixed the ""latest release"" shield image src"
+174,2017-04-28 10:08:36.000000000,2018-03-24 06:12:55.000000000,closed,15,lateinit variable doesn't work with interceptTestCase
+173,2017-04-23 05:38:40.000000000,2017-04-23 13:44:42.000000000,closed,1,Fix the document of Matchers
+172,2017-04-06 13:51:11.000000000,2017-04-06 14:34:38.000000000,closed,1,java.lang.IncompatibleClassChangeError
+171,2017-04-03 12:46:56.000000000,2017-05-03 13:38:04.000000000,closed,1,NullPointerException at ShouldSpec using lambda parameter
+170,2017-04-02 19:05:48.000000000,2017-04-09 23:48:39.000000000,closed,3,Improvement for TypeMatchers.beOfType
+169,2017-03-29 20:17:37.000000000,2017-03-29 20:53:23.000000000,closed,0,Fix typo in readme
+168,2017-03-28 00:02:01.000000000,2017-03-28 22:58:51.000000000,closed,1,Fix bugs in shouldNotBe and equalityMatcher
+167,2017-03-25 14:43:04.000000000,2017-03-31 20:29:14.000000000,closed,4,Add support for test scopes
+166,2017-03-25 00:23:28.000000000,2017-03-25 00:24:45.000000000,closed,1,Updated Kotlin version and removed unneeded sourceSets declaration
+165,2017-03-24 17:53:34.000000000,2017-03-25 00:24:55.000000000,closed,4,Updated Kotlin to stable version 1.1.1 removing unneeded eap reposito…
+164,2017-03-24 13:56:41.000000000,2017-03-27 00:11:49.000000000,closed,2,Need shouldCause<Exception>
+163,2017-03-21 03:10:21.000000000,2018-03-24 06:12:47.000000000,closed,12,"Strange ""Behavior Spec"" behavior"
+162,2017-03-19 22:22:43.000000000,2017-03-19 22:29:17.000000000,closed,1,FIX #144 - eventually returns the computation inside f()
+161,2017-03-14 04:20:14.000000000,2017-10-14 13:41:59.000000000,closed,1,Run all tests in package/whole project from IntelliJ
+160,2017-03-14 04:08:45.000000000,2017-03-16 23:37:45.000000000,closed,0,Origin/feature/#142 config for behaviorspec
+159,2017-03-14 02:12:48.000000000,2017-03-27 00:37:47.000000000,closed,3,Create a Gitter community
+158,2017-03-12 21:21:55.000000000,2017-03-13 00:43:09.000000000,closed,4,Feature/155
+157,2017-03-08 19:39:41.000000000,2017-10-24 00:19:12.000000000,closed,8,Android 2.3 not recognize tests 
+156,2017-03-08 02:39:12.000000000,2018-03-24 06:14:37.000000000,closed,16,Support status for junit 5?
+155,2017-03-05 10:18:26.000000000,2017-03-13 01:35:10.000000000,closed,0,shouldBe should give more helpful failures when comparing Strings
+154,2017-03-03 03:50:38.000000000,2017-03-13 00:43:09.000000000,closed,0,FIX #111
+153,2017-03-02 14:14:42.000000000,2017-03-02 14:16:43.000000000,closed,0,UPDATED kotlin to 1.1.0
+152,2017-02-27 00:20:01.000000000,2017-02-27 09:21:28.000000000,closed,0,FIX #148
+151,2017-02-26 22:12:38.000000000,2017-02-26 22:14:42.000000000,closed,0,FIX Merge
+150,2017-02-25 18:17:38.000000000,2017-02-26 19:10:21.000000000,closed,3,FIX #146 - Update mockito dependency to 2.X.X
+149,2017-02-20 19:51:35.000000000,2017-02-23 15:56:32.000000000,closed,6,Provide updated SNAPSHOT release
+148,2017-02-10 02:22:26.000000000,2017-03-13 02:09:08.000000000,closed,6,shouldThrow should take thunk: () -> Any?
+147,2017-02-09 21:43:41.000000000,2017-02-26 18:30:19.000000000,closed,1,"Minor testfix for ""should endWith""-tests"
+146,2017-02-09 20:57:53.000000000,2017-02-26 19:22:06.000000000,closed,1,"Upgrade ""org.mockito:mockito-core:1.10.19"" dependency to ""org.mockito:mockito-core:2.X.X"""
+145,2017-02-08 08:15:48.000000000,2017-05-11 01:47:18.000000000,closed,9,Eventually should also catch AssertionError so that you can test assertions within
+144,2017-02-08 08:00:26.000000000,2017-03-27 00:31:01.000000000,closed,1,eventually should be able to return a value that has been computed inside it
+143,2017-02-03 18:13:00.000000000,2017-02-08 13:24:30.000000000,closed,7,kotlintest does not work with 1.1-beta
+142,2017-02-03 00:37:37.000000000,2017-03-16 23:45:05.000000000,closed,13,BehaviorSpec does not allow for configuration
+141,2017-01-31 22:27:36.000000000,2018-03-24 06:23:08.000000000,closed,8,Added ability to pass annotations to JUnit`s description
+140,2017-01-30 22:25:49.000000000,2018-03-23 05:50:48.000000000,closed,1,Some external event-aware libraries failing due to incorrect Description instance for JUnit
+139,2017-01-24 17:19:02.000000000,2017-01-25 05:27:12.000000000,closed,0,updated naming convention name
+138,2017-01-17 02:31:38.000000000,2017-10-04 09:14:12.000000000,closed,40,Make matchers more consistent
+137,2017-01-14 15:37:19.000000000,2017-01-17 02:38:13.000000000,closed,9,Retrieve the string within the lambda expression
+136,2017-01-12 14:51:24.000000000,2017-01-12 18:41:05.000000000,closed,0,Implement beInstanceOf/instanceOf and beTheSameInstanceAs
+135,2017-01-12 02:29:47.000000000,2017-01-12 18:48:35.000000000,closed,1,Remove interface MatchBuilder
+134,2017-01-12 02:26:44.000000000,2017-01-12 18:42:47.000000000,closed,1,Remove all deprecated code
+133,2017-01-12 02:24:21.000000000,2017-03-25 00:27:31.000000000,closed,11,Create public beta release
+132,2017-01-12 01:43:19.000000000,2017-02-02 22:25:51.000000000,closed,9,Remove useless interfaces
+131,2017-01-12 01:36:22.000000000,2017-01-13 01:00:34.000000000,closed,2,Reorder members
+130,2017-01-12 01:33:20.000000000,2017-01-21 12:17:40.000000000,closed,2,Remove Spec.config function
+129,2017-01-07 06:45:29.000000000,2017-05-03 13:38:36.000000000,closed,5,Kotlintest Support for SBT 
+128,2017-01-06 16:29:33.000000000,2018-03-20 05:58:56.000000000,closed,5,Renaming proposal
+127,2017-01-01 18:13:16.000000000,2017-01-01 19:02:55.000000000,closed,1,Remove overhead in Gen.oneOf(vararg Gen)
+126,2016-12-19 09:41:07.000000000,2017-02-26 18:33:47.000000000,closed,11,Matcher support for any objects inheriting `Comparable<T>`
+125,2016-12-18 22:12:08.000000000,2017-01-12 18:55:48.000000000,closed,0,Rename Spec.root
+124,2016-12-18 08:22:00.000000000,2017-01-17 18:57:47.000000000,closed,4,Add a Gen for Enum values
+123,2016-12-18 07:56:50.000000000,2018-04-07 15:17:06.000000000,closed,3,Improvements to the Gen class
+122,2016-12-16 11:07:34.000000000,2016-12-19 09:44:37.000000000,closed,5,Matcher support for any objects inheriting `Comparable<T>`
+121,2016-12-01 04:25:02.000000000,2016-12-01 20:55:01.000000000,closed,2,Add Mockito sugar for creating spies.
+120,2016-11-25 16:29:47.000000000,2017-01-12 02:54:32.000000000,closed,2,Minimize visibility
+119,2016-11-24 20:14:36.000000000,2016-11-24 21:10:32.000000000,closed,1,Udpate Kotlin version to 1.0.5-2
+118,2016-11-23 14:56:13.000000000,2017-10-04 09:07:58.000000000,closed,2,RxJava Sample
+117,2016-11-20 16:30:47.000000000,2018-03-24 06:13:28.000000000,closed,2,Support table driven tests from a file.
+116,2016-11-19 21:17:24.000000000,2016-11-21 01:19:31.000000000,closed,12,Arrays equals
+115,2016-11-18 02:55:54.000000000,2016-11-18 02:56:48.000000000,closed,0,Add inteceptors to changelog
+114,2016-11-18 00:15:12.000000000,2016-11-18 02:05:02.000000000,closed,1,"Test result indicator keeps hanging with ""in progress"" in IntelliJ IDEA"
+113,2016-11-14 11:50:31.000000000,2016-11-18 03:15:23.000000000,closed,2,Add some file matchers
+112,2016-11-06 15:12:56.000000000,2016-11-18 02:55:11.000000000,closed,1,Parentheses breaks hierarchy view in Intellij IDEA 2016.2.5 
+111,2016-10-25 18:41:21.000000000,2017-03-13 01:35:06.000000000,closed,5,shouldEqual defines equality differently than kotlin
+110,2016-10-20 02:46:47.000000000,2016-10-20 23:18:55.000000000,closed,3,Run some code before all tests and after all tests
+109,2016-10-18 14:02:26.000000000,2016-10-18 14:03:56.000000000,closed,1,change `interceptors` property/parameter from Iterable to List
+108,2016-10-14 20:18:26.000000000,2018-03-24 06:13:17.000000000,closed,6,"Support ""should..."" operators with property-based testing"
+107,2016-10-12 23:02:06.000000000,2016-10-13 12:02:51.000000000,closed,5,Feature/#77 extensions
+106,2016-10-12 22:15:02.000000000,2017-01-12 19:04:10.000000000,closed,4,Pass list of test cases to spec interceptors
+105,2016-10-12 13:13:06.000000000,2016-10-18 13:57:10.000000000,closed,2,Remove config parameter `tag` (singular)
+104,2016-10-08 10:54:24.000000000,2016-10-08 11:19:01.000000000,closed,0,Add page which lists all matchers
+103,2016-10-05 11:35:57.000000000,2016-10-18 00:13:16.000000000,closed,1,Rename TestConfig to TestCaseConfig
+102,2016-10-02 15:54:42.000000000,2016-10-18 00:09:53.000000000,closed,2,Rename TestBase to Spec
+101,2016-10-02 12:12:33.000000000,2016-10-08 11:13:04.000000000,closed,2,Feature/matcherdsl
+100,2016-10-02 12:10:38.000000000,2016-10-02 12:11:41.000000000,closed,0,Release/2.0
+99,2016-10-02 12:08:45.000000000,2016-10-08 11:13:25.000000000,closed,4,Easy way to make a custom dsl for matchers
+98,2016-10-02 00:11:26.000000000,2016-10-02 15:35:11.000000000,closed,2,"Replace ""ignored"" with ""enabled"""
+97,2016-10-02 00:03:43.000000000,2016-10-18 00:14:34.000000000,closed,2,Rename TestConfig to TestCaseConfig
+96,2016-09-30 19:08:47.000000000,2016-10-08 11:13:21.000000000,closed,1,shouldNot
+95,2016-09-27 22:28:08.000000000,2016-10-01 20:10:50.000000000,closed,1,Support for kotlin 1.0.4
+94,2016-09-23 14:31:56.000000000,2018-03-25 20:25:53.000000000,closed,2,Futures / Async support
+93,2016-09-23 00:05:17.000000000,2016-09-23 00:09:34.000000000,closed,1,Allow returning null from a function parameter of shouldThrow()
+92,2016-09-22 23:48:09.000000000,2016-09-22 23:50:01.000000000,closed,4,Add Gradle wrapper to the project
+91,2016-09-22 00:11:38.000000000,2016-10-22 22:47:19.000000000,closed,19,Test conditions
+90,2016-09-20 00:41:07.000000000,2016-09-23 00:09:34.000000000,closed,2,shouldThrow should be able to accept a function that returns a nullable reference
+89,2016-08-24 15:22:39.000000000,2016-08-24 15:27:06.000000000,closed,1,remove redundant reference to object instance when calling ext. function
+88,2016-08-12 17:00:25.000000000,2016-08-12 23:38:55.000000000,closed,6,forAll and forNone examples in README use Scala syntax
+87,2016-08-06 01:46:58.000000000,2016-08-06 01:50:00.000000000,closed,1,Update Eventually section of README.md
+86,2016-08-03 15:15:41.000000000,2017-10-04 10:20:37.000000000,closed,3,Investigate how to run a single test in IntelliJ
+85,2016-07-28 13:10:36.000000000,2016-07-28 15:07:15.000000000,closed,1,Fix error in README.md (FeatureSpec sample)
+84,2016-07-26 11:46:35.000000000,2016-07-26 15:29:32.000000000,closed,1,Fix error in README.md (BehaviorSpec sample)
+83,2016-07-19 18:27:24.000000000,2016-10-08 11:41:49.000000000,closed,0,Comparing strings better error
+82,2016-07-19 16:43:39.000000000,2018-03-25 23:00:01.000000000,closed,3,Fake data generation
+81,2016-07-19 16:33:34.000000000,2016-07-19 18:24:23.000000000,closed,4,fixed that Gen.oneOf would not choose the last element and added a test for it.
+80,2016-07-19 12:39:02.000000000,2016-07-19 12:41:00.000000000,closed,1,added Gen.oneOf for Generators and tests for it
+79,2016-07-17 22:33:14.000000000,2016-08-16 12:15:32.000000000,closed,1,Parameter `tag` is not passed to TestConfig in FlatSpec
+78,2016-07-16 15:38:58.000000000,2016-07-17 23:08:51.000000000,closed,3,make FlatSpec config regular
+77,2016-07-16 15:15:58.000000000,2016-10-18 00:16:28.000000000,closed,44,Extensions like junit rules
+76,2016-07-14 00:39:50.000000000,2016-11-24 02:36:29.000000000,closed,5,IntelliJ IDEA 2016.2: 0 test classes found in package
+75,2016-07-13 16:47:05.000000000,2016-08-10 00:18:21.000000000,closed,6,Allow overriding single value of `config`
+74,2016-07-13 09:06:18.000000000,2016-07-13 13:04:21.000000000,closed,1,Correct call to beforeEach()
+73,2016-07-13 08:31:36.000000000,2016-07-13 17:42:15.000000000,closed,6,before/after Each does not run around `each` invocation of a test
+72,2016-07-13 00:15:53.000000000,2016-07-13 18:13:13.000000000,closed,1,remove deprecated code
+71,2016-07-12 14:01:15.000000000,2016-07-17 00:52:23.000000000,closed,13,Replace string tags with object tags
+70,2016-07-08 18:14:17.000000000,2016-10-08 11:43:47.000000000,closed,17,shouldThrow behaviour odd
+69,2016-07-08 09:42:49.000000000,2016-07-19 13:29:32.000000000,closed,11,Create a KotlinTest forum
+68,2016-07-08 00:08:09.000000000,2016-07-11 08:50:02.000000000,closed,6,Switched to 'java.util.Random'
+67,2016-07-07 21:04:44.000000000,2016-07-17 00:53:29.000000000,closed,4,run only tagged tests
+66,2016-07-07 20:35:55.000000000,2016-09-09 00:02:18.000000000,closed,32,Consider reducing the number of specs
+65,2016-07-06 16:26:02.000000000,2016-07-07 01:48:47.000000000,closed,2,Readme: Add constructor tests example.
+64,2016-07-06 16:24:39.000000000,2016-07-06 16:33:16.000000000,closed,1,added Tests for Generators
+63,2016-07-06 00:51:08.000000000,2016-07-07 22:14:10.000000000,closed,17,Provide a way to run a single test in isolation
+62,2016-07-05 18:58:01.000000000,2016-07-05 19:01:50.000000000,closed,0,Allow to write tests directly in the class constructors.
+61,2016-07-05 17:45:55.000000000,2016-07-05 18:56:01.000000000,closed,12,Allow to write tests directly in the class constructors.
+60,2016-07-05 16:31:25.000000000,2016-07-07 17:52:41.000000000,closed,10,Logical operators (and or) for matchers
+59,2016-07-05 16:21:22.000000000,2016-07-05 16:27:33.000000000,closed,19,"Provide a way to disable the ""Consider using a tolerance"" warning when matching exact doubles"
+58,2016-07-04 19:03:38.000000000,2016-07-05 13:22:41.000000000,closed,15,"PropertyTesting used to work, no longer does"
+57,2016-07-03 23:07:34.000000000,2016-07-03 23:53:58.000000000,closed,1,Depend on mockito-core only.
+56,2016-07-03 19:07:35.000000000,2016-07-03 19:25:31.000000000,closed,1,Bump used Kotlin version to 1.0.3
+55,2016-07-03 15:15:14.000000000,2016-07-03 15:16:40.000000000,closed,1,Always call fireTestFinished and notify from main thread only.
+54,2016-07-03 11:09:21.000000000,2016-07-19 22:51:36.000000000,closed,2,Process for testing artefact
+53,2016-07-02 21:26:37.000000000,2016-07-03 02:45:14.000000000,closed,1,Update README.md
+52,2016-07-02 21:25:15.000000000,2016-07-03 02:47:54.000000000,closed,0,FreeSpec incorrectly labelled as FlatSpec in README.md
+51,2016-06-29 19:20:19.000000000,2018-03-24 06:14:57.000000000,closed,23,Running all tests in parallel
+50,2016-06-29 15:23:21.000000000,2016-07-19 00:11:50.000000000,closed,19,Make oneInstancePerTest = true as default
+49,2016-06-28 14:48:07.000000000,2016-06-28 16:23:13.000000000,closed,11,JUnit Style Method/Function Spec
+48,2016-06-28 03:57:26.000000000,2016-07-07 02:31:10.000000000,closed,0,Add single element matchers for collections
+47,2016-06-28 03:55:42.000000000,2016-07-03 10:23:09.000000000,closed,0,Add matcher implementations of startsWith and endsWith for Strings
+46,2016-06-28 03:54:45.000000000,2016-07-07 03:02:13.000000000,closed,0,Add matcher to confirm list is sorted
+45,2016-06-28 03:44:33.000000000,2016-06-30 16:18:46.000000000,closed,3,Consider supporting pending in tests
+44,2016-06-28 00:21:51.000000000,2016-06-29 14:44:46.000000000,closed,9,Allow configuration per specification
+43,2016-06-24 23:43:30.000000000,2016-06-28 15:00:35.000000000,closed,7,Warning stops test execution
+42,2016-06-23 13:34:43.000000000,2016-07-03 16:11:47.000000000,closed,29,Failing tests reported as a success AND a failure
+41,2016-06-21 17:06:05.000000000,2018-03-26 10:26:04.000000000,closed,8,Add configuration parameters to property testing
+40,2016-06-21 15:19:36.000000000,2016-06-26 00:53:12.000000000,closed,13,Consider @AutoCleanup
+39,2016-06-18 21:46:35.000000000,2016-12-01 02:56:31.000000000,closed,26,KotlinTest not harmonious with IntelliJ IDEA
+38,2016-06-18 00:41:31.000000000,2016-06-18 03:55:43.000000000,closed,0,reintroduce config with timeout/timeoutUnit for backwards compatibility
+37,2016-06-17 21:19:05.000000000,2018-04-08 04:25:20.000000000,closed,12,Support shrinking in property-based testing
+36,2016-06-17 21:10:32.000000000,2016-06-22 02:57:33.000000000,closed,0,Support Sets in properties natively
+35,2016-06-17 21:04:48.000000000,2016-06-22 02:57:43.000000000,closed,5,Generating non-scalar values
+34,2016-06-17 01:19:21.000000000,2016-06-17 02:24:15.000000000,closed,0,reintroduce overload for eventually to keep backwards compatibility
+33,2016-06-17 00:40:07.000000000,2016-06-21 17:06:28.000000000,closed,6,Remove unnecessary interfaces
+32,2016-06-16 01:24:42.000000000,2016-06-22 02:06:45.000000000,closed,7,StringSpec
+31,2016-06-15 23:55:54.000000000,2016-06-16 00:27:17.000000000,closed,1,"Replace timeout + timeUnit with Durationl, fix code"
+30,2016-06-15 23:29:07.000000000,2016-06-15 23:38:16.000000000,closed,5,Replace timeout + timeUnit with Duration
+29,2016-06-15 23:04:27.000000000,2016-06-15 23:39:16.000000000,closed,2,replace timeout and timeoutUnit with Duration
+28,2016-06-15 01:08:10.000000000,2016-06-16 01:05:37.000000000,closed,1,Rename classes to avoid name clashes under Windows
+27,2016-06-14 15:59:14.000000000,2016-07-03 18:08:26.000000000,closed,1,Write release notes
+26,2016-06-14 15:56:37.000000000,2016-06-16 01:05:45.000000000,closed,16,create release branches
+25,2016-06-06 11:30:57.000000000,2016-06-07 13:14:14.000000000,closed,1,Document new features
+24,2016-05-29 13:00:41.000000000,2016-05-29 14:24:18.000000000,closed,2,Is there a KotlinCheck?
+23,2016-05-28 20:43:10.000000000,2016-05-30 17:44:14.000000000,closed,5,Exception trapping does not work
+22,2016-05-28 20:35:25.000000000,2016-05-30 17:44:20.000000000,closed,2,forAll should work for Array as well as Collection
+21,2016-05-28 14:03:12.000000000,2016-05-29 22:15:55.000000000,closed,5,collection matching does not work as expected
+20,2016-05-28 12:14:21.000000000,2016-05-28 14:28:10.000000000,closed,1,throwable does not cause test to fail
+19,2016-05-17 18:18:50.000000000,2016-05-17 18:19:18.000000000,closed,0,adapt description to should style
+18,2016-05-14 23:31:59.000000000,2016-05-15 14:58:19.000000000,closed,4,README.md examples should not rely on non-standard dependencies
+17,2016-05-14 16:31:36.000000000,2016-05-30 19:22:01.000000000,closed,1,"Adding params (invocations, threads, timeouts, tags, ignore) to specs…"
+16,2016-05-13 13:36:32.000000000,2016-05-13 13:40:15.000000000,closed,1,add example for checking caught exception
+15,2016-05-13 08:44:40.000000000,2016-05-13 13:39:44.000000000,closed,6,shouldThrow should provide a reference to the caught exception
+14,2016-05-09 23:24:33.000000000,2016-05-30 19:43:09.000000000,closed,25,Grouping or Tagging
+13,2016-05-09 23:19:36.000000000,2016-05-14 16:32:45.000000000,closed,3,Mark tests as ignored
+12,2016-04-22 10:25:39.000000000,2016-05-02 11:40:50.000000000,closed,0,Mockito sugar
+11,2016-04-22 10:23:07.000000000,2016-04-26 11:37:47.000000000,closed,0,New specs
+10,2016-04-22 10:20:45.000000000,2016-05-30 18:11:58.000000000,closed,5,Add tolerance matcher for doubles/floats
+9,2016-04-18 14:05:05.000000000,2016-04-22 02:46:54.000000000,closed,0,Support one instance per test
+8,2016-04-15 23:07:31.000000000,2016-04-16 15:18:37.000000000,closed,0,Gradle issue
+7,2016-04-15 22:24:33.000000000,2016-04-15 23:04:23.000000000,closed,0,moving the Maven coordinates up
+6,2016-04-15 10:32:55.000000000,2016-04-16 14:45:42.000000000,closed,8,"New style like ""fun spec"", but with ""should"""
+5,2016-04-14 19:01:19.000000000,2016-07-03 18:08:35.000000000,closed,66,Support table driven tests
+4,2016-03-20 21:06:51.000000000,2016-03-20 21:07:01.000000000,closed,0,Add fun spec
+3,2016-03-20 20:16:46.000000000,2016-03-20 21:07:04.000000000,closed,0,Add eventually trait
+2,2016-01-24 13:01:55.000000000,2016-03-20 21:07:09.000000000,closed,0,Add scalatest style timeouts
+1,2016-01-22 19:33:21.000000000,2016-03-20 18:30:05.000000000,closed,0,Add scalatest style Inspectors

@@ -1,0 +1,563 @@
+id,created_at,closed_at,state,comments,title
+592,2020-08-28 16:53:41.000000000,1970-01-01 00:00:00.000000001,open,2,Support discarding chunks
+591,2020-08-27 23:37:02.000000000,1970-01-01 00:00:00.000000001,open,4,Dtype shape deprecation
+590,2020-08-27 21:44:00.000000000,1970-01-01 00:00:00.000000001,open,2,Use Error subclasses instead of functions.
+589,2020-08-26 21:41:48.000000000,1970-01-01 00:00:00.000000001,open,0,Add some typings informations and typecheck
+588,2020-08-26 21:19:53.000000000,1970-01-01 00:00:00.000000001,open,0,Make metadata parameter mandatory in encode_group_metadata
+587,2020-08-26 05:47:34.000000000,1970-01-01 00:00:00.000000001,open,2,How to detect missing chunks in a zarr array.
+586,2020-08-21 15:57:11.000000000,1970-01-01 00:00:00.000000001,open,1,Clean up a few Python 2-isms
+585,2020-08-12 23:44:14.000000000,1970-01-01 00:00:00.000000001,open,2,Place to list all zarr implementations in the docs. 
+584,2020-08-12 01:12:00.000000000,1970-01-01 00:00:00.000000001,open,2,adds partial_decompress capabilites
+583,2020-08-11 15:01:42.000000000,1970-01-01 00:00:00.000000001,open,2,Zarr Array append method performance
+582,2020-08-05 11:57:37.000000000,1970-01-01 00:00:00.000000001,open,2,negative chunks don't work as expected
+581,2020-08-05 02:01:40.000000000,1970-01-01 00:00:00.000000001,open,0,Move metadata handling in a class.
+580,2020-08-04 21:29:42.000000000,2020-08-04 22:21:09.000000000,closed,2,Add informative error message
+579,2020-08-04 18:25:15.000000000,2020-08-12 17:42:04.000000000,closed,4,Get a zarr file in object storage via opendap
+578,2020-08-01 03:09:48.000000000,2020-08-03 11:13:52.000000000,closed,1,Correct typo in folder location
+577,2020-07-30 04:12:14.000000000,1970-01-01 00:00:00.000000001,open,1,enable arbitrary compressors for N5Store
+576,2020-07-22 14:58:01.000000000,1970-01-01 00:00:00.000000001,open,1,Conversion from .h5 file to zarr using copy_all when .h5 file consists of objects of type bytes
+575,2020-07-08 04:14:52.000000000,1970-01-01 00:00:00.000000001,open,7,Multi-threading meta-data lookups 
+574,2020-07-01 20:30:28.000000000,1970-01-01 00:00:00.000000001,open,3,Try to converge on internal types consistency.
+573,2020-07-01 10:14:34.000000000,1970-01-01 00:00:00.000000001,open,0,Optional base class for zarr Stores?
+572,2020-06-26 01:38:39.000000000,1970-01-01 00:00:00.000000001,open,1,Remove redundant Conditional imports.
+571,2020-06-24 17:42:39.000000000,2020-06-26 17:19:35.000000000,closed,2,"docs: replace usages of ""Dataset"" with ""Array"""
+570,2020-06-15 12:23:32.000000000,2020-08-29 03:53:16.000000000,closed,1,json dump can encode numpy data types
+569,2020-06-15 12:21:09.000000000,2020-08-29 03:50:48.000000000,closed,5,Bugfix: json_dump can not encode numpy data types
+568,2020-06-02 23:00:30.000000000,1970-01-01 00:00:00.000000001,open,2,[DRAFT] V3 spec implmentation.
+567,2020-05-27 13:33:26.000000000,2020-06-12 10:47:11.000000000,closed,3,How to improve random access time via dask?
+566,2020-05-20 14:23:11.000000000,1970-01-01 00:00:00.000000001,open,4,"Directly allow zarr arrays as ""out"" parameter of ufuncs (if possible)"
+565,2020-05-15 01:56:22.000000000,1970-01-01 00:00:00.000000001,open,1,Spec v2 update link to stable numpy docs
+564,2020-05-12 01:51:44.000000000,2020-05-12 04:38:24.000000000,closed,2,Always display the 10 slowest test when running pytest.
+563,2020-05-09 04:39:57.000000000,1970-01-01 00:00:00.000000001,open,1,Attempt to use os.walk to speedup reading from Directory Store
+562,2020-05-09 03:49:44.000000000,1970-01-01 00:00:00.000000001,open,6,DirectoryStore `.keys()` optimisation. 
+561,2020-05-06 22:27:59.000000000,2020-06-22 05:43:25.000000000,closed,0,modify top level description of zarr
+560,2020-05-06 01:48:28.000000000,1970-01-01 00:00:00.000000001,open,1,Update Deprecating Warning with version number.
+559,2020-04-28 00:29:53.000000000,1970-01-01 00:00:00.000000001,open,2,Rechunking zarr file on S3 becomes very slow as number of initialized chunks increase
+558,2020-04-27 13:56:38.000000000,2020-04-27 17:40:48.000000000,closed,3,Reshape with core.Array.view
+557,2020-04-21 17:41:14.000000000,2020-05-01 00:33:48.000000000,closed,3,Allow chunk_store argument in open_consolidated()
+556,2020-04-18 20:31:26.000000000,1970-01-01 00:00:00.000000001,open,7,File Chunk Store
+555,2020-04-06 14:54:50.000000000,1970-01-01 00:00:00.000000001,open,0,Google cloud storage generation numbers and preconditions
+554,2020-04-06 14:37:53.000000000,1970-01-01 00:00:00.000000001,open,3,Indexing behaviour comparison with TensorStore
+553,2020-04-05 04:16:59.000000000,1970-01-01 00:00:00.000000001,open,2,"StoreCache, a storage class to add arbitrary caches to existing stores"
+552,2020-04-01 01:25:16.000000000,1970-01-01 00:00:00.000000001,open,7,FutureWarning from zarr.open
+551,2020-03-26 08:22:06.000000000,1970-01-01 00:00:00.000000001,open,3,ZipStore fails to handle scalar arrays
+550,2020-03-26 00:07:41.000000000,2020-03-26 21:14:55.000000000,closed,4,Fix N5Store.__contains__
+549,2020-03-26 00:04:10.000000000,1970-01-01 00:00:00.000000001,open,2,Settable Array.store and lazy metadata loading
+548,2020-03-24 20:35:46.000000000,1970-01-01 00:00:00.000000001,open,16,Relocatable store support
+547,2020-03-22 19:12:21.000000000,1970-01-01 00:00:00.000000001,open,1,Allow stores to be smarter when accessing multiple chunks
+546,2020-03-17 23:21:26.000000000,1970-01-01 00:00:00.000000001,open,26,Add FSStore
+545,2020-03-09 21:57:30.000000000,1970-01-01 00:00:00.000000001,open,1,Utility to turn block-ID into equivalent slice 
+544,2020-03-03 20:43:47.000000000,2020-04-28 21:17:34.000000000,closed,15,Create Zenodo DOI for Zarr-Python
+543,2020-03-03 17:11:16.000000000,1970-01-01 00:00:00.000000001,open,2,API for direct block access
+542,2020-03-03 08:01:29.000000000,2020-03-09 02:21:14.000000000,closed,1,Maximize coverage
+541,2020-03-03 03:12:54.000000000,2020-03-03 07:40:37.000000000,closed,14,Attempt to fix coveralls
+540,2020-02-26 05:59:59.000000000,1970-01-01 00:00:00.000000001,open,15,N5Store support of cloud buckets
+539,2020-02-23 00:36:58.000000000,2020-04-17 00:07:45.000000000,closed,10,Add better ipytree error handling in jupyter notebooks
+538,2020-02-22 02:29:04.000000000,1970-01-01 00:00:00.000000001,open,1,attrs as kwarg 
+537,2020-02-17 21:56:04.000000000,2020-04-17 00:07:45.000000000,closed,6,zarr.tree() example in docs doesn't work as of 2.4.0
+536,2020-02-15 03:00:49.000000000,1970-01-01 00:00:00.000000001,open,87,async in zarr 
+535,2020-02-05 20:44:51.000000000,1970-01-01 00:00:00.000000001,open,16,Using the Zarr library to read HDF5
+534,2020-02-04 07:29:59.000000000,1970-01-01 00:00:00.000000001,open,1,WIP: Concurrent block reads and writes
+533,2020-01-24 01:54:17.000000000,1970-01-01 00:00:00.000000001,open,3,WIP: Add custom json encoder and decoder
+532,2020-01-09 09:58:48.000000000,2020-01-11 06:15:30.000000000,closed,5,Add 2.4 Changelog
+531,2020-01-09 08:21:53.000000000,2020-01-09 09:27:41.000000000,closed,1,Fix hyperlink
+530,2019-12-18 20:40:01.000000000,1970-01-01 00:00:00.000000001,open,8,zarr.open_array does not properly recognize NestedDirectoryStore
+529,2019-12-16 15:27:13.000000000,2020-01-11 10:21:41.000000000,closed,11,v2.4 release
+528,2019-12-12 17:47:51.000000000,1970-01-01 00:00:00.000000001,open,24,Problems faced while storing onto Zarr store using ABSStore
+527,2019-12-12 17:01:17.000000000,2019-12-12 18:11:30.000000000,closed,2,Using ABSStore without prefix
+526,2019-12-11 15:30:55.000000000,2019-12-12 15:01:24.000000000,closed,13,Fixed '/' prepend bug in ABSStore
+525,2019-12-11 15:03:07.000000000,2019-12-12 15:23:31.000000000,closed,2,Azure blob storage prepends a '/' to the blob names when the prefix is None
+524,2019-12-05 14:31:05.000000000,2019-12-05 17:09:40.000000000,closed,2,"cannot import name ""ensure_ndarry"""
+523,2019-12-02 19:27:18.000000000,1970-01-01 00:00:00.000000001,open,3,Recipes for loading Zarr arrays onto Spark RDD
+522,2019-11-26 06:38:55.000000000,2019-12-19 12:10:55.000000000,closed,3,Mention zarr-specs repo in the issue template
+521,2019-11-24 22:55:07.000000000,1970-01-01 00:00:00.000000001,open,6,Partial chunk read?
+520,2019-11-22 01:49:34.000000000,2019-11-25 20:02:07.000000000,closed,5,Interest in supporting image pyramid?
+519,2019-11-20 02:48:53.000000000,1970-01-01 00:00:00.000000001,open,18,"zarr slower than npy, hdf5 etc?"
+518,2019-11-20 02:00:54.000000000,1970-01-01 00:00:00.000000001,open,17,Enhancement: Chunk level access api / indexing by chunk rather than voxel
+517,2019-11-19 21:04:45.000000000,2020-01-06 17:49:55.000000000,closed,3,Fixing permissions for files inside a ZipStore
+516,2019-11-17 00:59:09.000000000,2019-11-22 03:04:52.000000000,closed,3,Add documentation build to CI
+515,2019-11-16 02:47:17.000000000,1970-01-01 00:00:00.000000001,open,8,Question/possible enhancement: Relationship to N5 + Arrow/Parquet?
+514,2019-11-15 23:26:26.000000000,1970-01-01 00:00:00.000000001,open,11,Consider moving the tutorial to a Jupyter notebook
+513,2019-11-15 10:13:00.000000000,2019-11-15 22:25:59.000000000,closed,2,Ensure contiguous data using `astype`
+512,2019-11-15 09:43:30.000000000,2019-11-15 10:06:37.000000000,closed,1,"Replace ""nuimber"" with ""number"""
+511,2019-11-15 00:22:57.000000000,2019-11-15 00:31:16.000000000,closed,7,Test against/ build for python 3.8
+510,2019-11-15 00:01:05.000000000,2019-11-25 09:28:05.000000000,closed,2,Group as context manager
+509,2019-11-14 15:40:13.000000000,2019-11-25 09:28:47.000000000,closed,6,Feature request: context manager methods for Group
+508,2019-11-14 15:18:43.000000000,1970-01-01 00:00:00.000000001,open,0,Document Group.__setitem__ or remove it
+507,2019-11-12 07:53:31.000000000,2019-11-12 22:03:19.000000000,closed,3,Fix azure link rendering in tutorial
+506,2019-11-12 00:48:53.000000000,2019-11-12 23:56:34.000000000,closed,3,Use `ensure_ndarray` in a few more places
+505,2019-11-12 00:05:57.000000000,2020-01-06 17:49:55.000000000,closed,1,permission problem in zarr.ZipStore
+504,2019-11-11 22:50:22.000000000,2020-03-03 07:34:55.000000000,closed,12,Test coverage CI
+503,2019-11-09 03:35:40.000000000,2019-11-12 08:14:29.000000000,closed,4,Refactor out `_tofile`/`_fromfile` from `DirectoryStore`
+502,2019-11-08 16:58:43.000000000,1970-01-01 00:00:00.000000001,open,4,Can't use `=` to reassign into object arrays in a group
+501,2019-11-08 06:41:26.000000000,1970-01-01 00:00:00.000000001,open,8,WIP: Provide a meta array to change array type returned
+500,2019-11-08 04:52:33.000000000,2019-11-09 05:01:07.000000000,closed,3,Use `math.ceil` for scalars
+499,2019-11-08 04:41:23.000000000,2019-12-17 06:47:07.000000000,closed,5,Support Python 3.8
+498,2019-11-08 04:24:46.000000000,2019-11-08 04:28:51.000000000,closed,0,Tweak Numcodecs 0.6.4+ release note wording          [ci skip]
+497,2019-11-08 03:00:36.000000000,2019-11-08 04:21:57.000000000,closed,1,Use `ensure_text` from Numcodecs
+496,2019-11-06 17:24:58.000000000,2019-11-08 20:04:41.000000000,closed,11,Also include required `nthreads` in compression metadata
+495,2019-10-30 02:50:40.000000000,2019-11-09 03:15:26.000000000,closed,7,Update README file to be more detailed
+494,2019-10-28 20:08:17.000000000,2019-11-09 03:36:46.000000000,closed,4,WIP: Use NumPy's `fromfile` and `tofile`
+493,2019-10-25 22:11:12.000000000,2019-10-28 19:56:43.000000000,closed,6,Fix permissions issue with DirectoryStore
+492,2019-10-25 07:58:16.000000000,2019-11-09 05:08:42.000000000,closed,2,Use pytest.importorskip in tests
+491,2019-10-25 06:48:12.000000000,2019-10-25 07:20:55.000000000,closed,1,Import blosc from numcodecs in tutorial
+490,2019-10-23 12:21:00.000000000,1970-01-01 00:00:00.000000001,open,0,Zarr not cleaning up after MetadataError
+489,2019-10-22 18:47:16.000000000,1970-01-01 00:00:00.000000001,open,2,Allow disabling filling of missing chunks
+488,2019-10-21 11:53:01.000000000,2019-10-21 11:53:57.000000000,closed,0,Add user and issue to release note
+487,2019-10-20 20:18:12.000000000,1970-01-01 00:00:00.000000001,open,3,Codec does not support buffers of > 2147483647 bytes - reason for this error message
+486,2019-10-19 15:52:54.000000000,1970-01-01 00:00:00.000000001,open,7,How to prevent Zarr from returning NaN for missing chunks?
+485,2019-10-17 21:50:43.000000000,2019-10-18 21:35:06.000000000,closed,2,undo parameter renaming for compatibility with n5-blosc
+484,2019-10-17 19:49:31.000000000,1970-01-01 00:00:00.000000001,open,0,Accessing existing array with new shape and compressor using zarr.open
+483,2019-10-14 00:09:24.000000000,2019-10-28 22:00:38.000000000,closed,3,Permissions of attributes.json file not matching umask
+482,2019-10-01 23:11:15.000000000,2019-10-24 05:59:00.000000000,closed,0,Scheduled monthly dependency update for October
+481,2019-09-30 00:51:06.000000000,2019-11-10 05:45:47.000000000,closed,2,attrs cannot store  values of type np.int32 or np.bool_ 
+480,2019-09-28 01:48:59.000000000,2019-10-24 06:24:18.000000000,closed,3,Fix N5 link in tutorial
+479,2019-09-27 07:54:51.000000000,1970-01-01 00:00:00.000000001,open,0,windows lmdb storage open error
+478,2019-09-13 11:13:44.000000000,2019-09-18 16:02:44.000000000,closed,6,Return view when slicing
+477,2019-09-05 21:24:56.000000000,1970-01-01 00:00:00.000000001,open,2,custom icons for zarr files
+476,2019-09-05 05:13:21.000000000,1970-01-01 00:00:00.000000001,open,7,adding existing group to a newly created group
+475,2019-09-01 23:11:16.000000000,2019-10-01 23:11:17.000000000,closed,1,Scheduled monthly dependency update for September
+474,2019-08-25 01:33:52.000000000,1970-01-01 00:00:00.000000001,open,4,data of array with dtype set to bytes is truncated
+473,2019-08-23 13:24:40.000000000,2019-09-19 18:04:08.000000000,closed,2,Saving data at the end of dataset (i.e. timeseries data)
+472,2019-08-21 03:13:17.000000000,2019-08-21 22:55:38.000000000,closed,1,save convenience function no compression
+471,2019-08-14 15:59:00.000000000,2020-06-26 18:57:50.000000000,closed,3,Difference between zarr creation functions
+470,2019-08-13 20:21:30.000000000,2019-10-19 08:10:45.000000000,closed,6,Drop Python 2 Support
+469,2019-08-13 19:35:20.000000000,1970-01-01 00:00:00.000000001,open,8,Zarr use case: problems in multi threaded access to in memory cache
+468,2019-08-12 20:28:20.000000000,2019-08-13 18:57:13.000000000,closed,17,"Maintenance on tests, CI and contributor docs"
+467,2019-08-12 02:53:07.000000000,2019-08-13 18:57:13.000000000,closed,1,Azure tests failing on AppVeyor CI
+466,2019-08-10 18:08:07.000000000,1970-01-01 00:00:00.000000001,open,0,can zarr support irregularity chunk size ?
+465,2019-08-09 22:53:14.000000000,1970-01-01 00:00:00.000000001,open,0,Add reproducible example to LRUStoreCache docstring
+464,2019-08-09 16:53:18.000000000,1970-01-01 00:00:00.000000001,open,3,Add require_parent and check_exists as options 
+463,2019-08-06 00:02:08.000000000,1970-01-01 00:00:00.000000001,open,4,Documenting the difference between `load` and `open`
+462,2019-08-04 03:26:28.000000000,2019-10-24 06:34:02.000000000,closed,2,Adds logo to docs
+461,2019-07-31 02:16:39.000000000,2019-08-12 02:47:21.000000000,closed,7,DOC: fix typo in code snippet
+460,2019-07-24 19:53:06.000000000,1970-01-01 00:00:00.000000001,open,7,"Storage to S3, LIST operations"
+459,2019-07-21 06:01:05.000000000,2019-11-08 20:44:56.000000000,closed,6,Add key normalization to DirectoryStore and subclass stores
+458,2019-07-20 23:33:13.000000000,2019-10-24 06:33:19.000000000,closed,1,Add recurse keyword to array_keys and arrays
+457,2019-07-20 00:06:41.000000000,1970-01-01 00:00:00.000000001,open,4,Raise informative error when chunk size 0 
+456,2019-07-18 00:58:53.000000000,2019-07-19 12:27:25.000000000,closed,9,Use uniform chunking when specifying chunks as an integer
+455,2019-07-17 18:36:43.000000000,2019-07-18 00:54:06.000000000,closed,2,Rename DictStore to MemoryStore
+454,2019-07-15 11:41:39.000000000,2019-08-02 14:34:58.000000000,closed,2,Question: When does Zarr write to disk?
+453,2019-07-09 01:49:45.000000000,2019-07-12 10:21:21.000000000,closed,0,Fix URLs to point to zarr-python
+452,2019-07-08 22:18:22.000000000,2019-07-09 01:36:09.000000000,closed,5,Drop `decode` from `ConsolidatedMetadataStore`
+451,2019-07-07 05:36:44.000000000,1970-01-01 00:00:00.000000001,open,1,Use of Zarr on HPC file systems
+450,2019-07-05 02:40:55.000000000,2020-01-09 10:02:07.000000000,closed,13,Use ipytree in `.tree` representation
+447,2019-07-01 02:24:14.000000000,1970-01-01 00:00:00.000000001,open,5,optmizaton for LRUStoreCache.__contains__
+446,2019-06-27 15:11:16.000000000,2019-06-27 16:04:26.000000000,closed,3,(Just a question)How to do something similar to numpy.where in Zarr?
+445,2019-06-26 12:33:09.000000000,2019-10-28 21:37:41.000000000,closed,12,Set file permissions in DirectoryStorage according to umask
+443,2019-06-10 08:04:17.000000000,2019-06-10 09:48:36.000000000,closed,4,Support for `np.take_along_axis`?
+442,2019-06-06 01:42:57.000000000,2020-04-20 12:10:47.000000000,closed,3,Explicitly close stores during tests.
+441,2019-05-22 17:13:18.000000000,2019-05-23 18:12:22.000000000,closed,3,Note fix for endianness in tests
+440,2019-05-15 06:04:27.000000000,2020-01-09 09:10:35.000000000,closed,5,Fix Sqlite Store Wrong Modification
+439,2019-05-14 15:34:52.000000000,2020-01-09 09:18:54.000000000,closed,3,Sqlite store delete wrong array
+438,2019-05-09 03:34:37.000000000,1970-01-01 00:00:00.000000001,open,6,Database sources where each array element is a separate database row
+436,2019-05-06 10:42:17.000000000,1970-01-01 00:00:00.000000001,open,1,Compare test data's content generally
+435,2019-05-03 07:07:38.000000000,1970-01-01 00:00:00.000000001,open,1,LZMA custom filter pipeline ValueError: Cannot specify filters except with FORMAT_RAW
+434,2019-05-01 08:21:55.000000000,2019-05-06 10:29:16.000000000,closed,2,Using Python 3 on RTD
+433,2019-05-01 03:54:41.000000000,2019-05-30 09:39:18.000000000,closed,8,Release 2.3.2?
+432,2019-04-21 09:10:10.000000000,2019-04-23 07:26:56.000000000,closed,1,Fix `collections`'s `DeprecationWarning`s
+431,2019-04-21 08:13:44.000000000,2019-05-01 03:53:02.000000000,closed,3,Use scandir in DirectoryStore.getsize
+430,2019-04-20 04:00:41.000000000,2019-04-23 05:55:14.000000000,closed,1,Collect JSON utility functions
+429,2019-04-15 07:42:32.000000000,2019-04-20 03:07:54.000000000,closed,4,Coerce data to text for JSON parsing
+428,2019-04-12 14:06:55.000000000,2019-04-17 19:57:52.000000000,closed,1,What's an intelligent way of loading a compressed array completely from disk into memory - also (identically) compressed?
+427,2019-04-02 12:39:01.000000000,2019-04-30 09:58:05.000000000,closed,2,Fix tests on big endian machines
+426,2019-04-02 07:31:42.000000000,2019-10-24 05:58:07.000000000,closed,6,DOC: Use unittest.mock on Python 3.
+425,2019-04-02 03:15:05.000000000,2019-04-30 09:58:07.000000000,closed,1,Tests with hexdigest assume little-endianness
+424,2019-04-01 10:21:38.000000000,1970-01-01 00:00:00.000000001,open,2,Interest in a zarr.sparse module?
+423,2019-03-25 23:48:21.000000000,2019-03-25 23:49:50.000000000,closed,2,Updating Readthedocs integration
+422,2019-03-25 10:24:41.000000000,1970-01-01 00:00:00.000000001,open,13,Support Numpy structured arrays containing an object
+421,2019-03-24 12:29:49.000000000,1970-01-01 00:00:00.000000001,open,2,bug: inserting a list into a two-dimensional array does not work as in numpy
+420,2019-03-23 03:49:28.000000000,2019-03-25 19:59:17.000000000,closed,0,Make azure-storage-blob optional for testing
+419,2019-03-23 03:17:05.000000000,2019-03-25 19:59:17.000000000,closed,3,Make azure-storage-blob an optional test requirement
+418,2019-03-20 12:59:40.000000000,1970-01-01 00:00:00.000000001,open,0,Support Numpy structured arrays containing an object
+417,2019-03-19 07:36:26.000000000,1970-01-01 00:00:00.000000001,open,1,Fixtureize and parametrize h5py copy tests.
+416,2019-03-19 02:05:39.000000000,2019-03-28 09:38:43.000000000,closed,4,Zarr datasets fail to deserialize when returned by dask
+415,2019-03-05 12:16:48.000000000,1970-01-01 00:00:00.000000001,open,1,Adding Memcached Store
+414,2019-03-01 20:19:24.000000000,1970-01-01 00:00:00.000000001,open,8,Refactoring stores into a separate library
+413,2019-02-28 02:40:43.000000000,2019-02-28 20:07:00.000000000,closed,2,Add Gitter badge to the README
+412,2019-02-27 17:43:22.000000000,1970-01-01 00:00:00.000000001,open,0,Special treatment of NaN in JSON user attributes
+411,2019-02-26 21:09:51.000000000,2019-02-26 22:20:58.000000000,closed,1,"Skip datetime, timedelta, and complex with N5Store"
+410,2019-02-25 23:13:28.000000000,1970-01-01 00:00:00.000000001,open,4,Implement N5Store as a transformation layer over other stores
+409,2019-02-21 10:08:17.000000000,2019-03-23 01:10:06.000000000,closed,4,Update 2.3 Release Notes
+408,2019-02-16 07:24:51.000000000,2019-02-21 01:41:28.000000000,closed,1,Test store keys are all text
+407,2019-02-15 13:08:03.000000000,2019-07-04 02:08:44.000000000,closed,8,Change name of this repo to zarr-python?
+406,2019-02-14 15:49:58.000000000,2019-02-14 15:52:57.000000000,closed,5,Test pep8speaks
+405,2019-02-13 00:16:20.000000000,2019-02-16 06:01:10.000000000,closed,2,"Test Array storing different compressors, endian and attributes"
+404,2019-02-12 15:31:33.000000000,2019-02-12 16:54:06.000000000,closed,2,conflict between synchronized multiprocess writing and overwrite argument
+403,2019-02-12 11:40:30.000000000,2019-02-14 15:46:35.000000000,closed,3,Set pycodestyle's line length limit to flake8's
+402,2019-02-12 11:34:28.000000000,2019-02-14 15:46:12.000000000,closed,6,Fix pep8speaks
+401,2019-02-12 11:29:23.000000000,2019-02-14 00:30:57.000000000,closed,7,Use binary_type in MongoDBStore.__getitem__ for Python 2 only
+400,2019-02-08 20:13:15.000000000,2019-03-07 06:12:01.000000000,closed,3,Governance and affiliation
+399,2019-02-06 01:01:41.000000000,2019-02-06 18:38:17.000000000,closed,1,Chunkwise iteration over arrays.
+398,2019-01-28 15:51:46.000000000,2019-02-06 18:38:17.000000000,closed,5,Default efficient row iteration
+397,2019-01-25 16:26:47.000000000,2019-02-16 03:37:33.000000000,closed,10,SciPy 2019 submission
+395,2019-01-21 16:00:47.000000000,1970-01-01 00:00:00.000000001,open,10,Nested cloud storage
+394,2019-01-20 02:03:22.000000000,1970-01-01 00:00:00.000000001,open,12,chunking algorithms
+393,2019-01-17 00:42:54.000000000,2019-10-19 08:10:45.000000000,closed,13,When will Zarr drop Python 2 support?
+392,2019-01-16 23:48:36.000000000,1970-01-01 00:00:00.000000001,open,5,checksums for chunks
+391,2019-01-16 08:25:11.000000000,1970-01-01 00:00:00.000000001,open,3,Handle change in dbm missing key deletion behavior
+390,2019-01-15 21:23:52.000000000,1970-01-01 00:00:00.000000001,open,3,Binary encoding of JSON?
+389,2019-01-13 03:00:36.000000000,1970-01-01 00:00:00.000000001,open,7,Supporting links and references
+387,2019-01-11 21:02:02.000000000,2019-01-14 15:21:03.000000000,closed,5,Use stale bot?
+386,2019-01-09 13:20:14.000000000,1970-01-01 00:00:00.000000001,open,0,Potential synchronization optimization
+385,2019-01-08 02:01:11.000000000,1970-01-01 00:00:00.000000001,open,18,S3 anonymous Zarr data examples...
+384,2019-01-06 05:48:20.000000000,1970-01-01 00:00:00.000000001,open,4,Optional extensions to the storage API for batch operations and transactions
+382,2019-01-05 02:29:27.000000000,1970-01-01 00:00:00.000000001,open,0,Layered data caching
+381,2019-01-05 02:17:38.000000000,1970-01-01 00:00:00.000000001,open,0,File object cache for DirectoryStore
+380,2019-01-04 08:20:46.000000000,2019-01-16 06:20:06.000000000,closed,2,Test `pop` with default argument
+379,2019-01-04 07:32:33.000000000,2019-01-16 07:11:43.000000000,closed,2,Compare test data's content generally
+378,2019-01-04 07:23:54.000000000,2019-01-16 06:08:58.000000000,closed,3,Test the `popitem` method of `MutableMapping`s too
+377,2019-01-04 06:45:18.000000000,1970-01-01 00:00:00.000000001,open,7,RFC: Optionally support memory-mapping DirectoryStore values
+376,2019-01-02 10:07:31.000000000,2019-01-03 23:45:04.000000000,closed,3,Always use `tuple`s for multidimensional indexing
+375,2019-01-02 08:37:25.000000000,2019-02-28 00:44:52.000000000,closed,4,Will Zarr have parallel IO through MPI?
+374,2019-01-01 05:51:10.000000000,2019-01-03 23:44:09.000000000,closed,4,Use `reversed` to iterate through `list` backwards
+373,2018-12-28 20:46:07.000000000,2020-02-29 01:51:41.000000000,closed,21,HTTP Store
+372,2018-12-28 03:29:25.000000000,2019-02-08 19:56:59.000000000,closed,10,MongoDB and Redis stores
+371,2018-12-25 12:38:33.000000000,2020-02-26 12:19:30.000000000,closed,4,Support arbitrary stores with tree
+370,2018-12-25 10:48:50.000000000,2018-12-26 04:58:06.000000000,closed,1,Require Xenial and sudo always
+369,2018-12-24 18:52:20.000000000,2019-11-22 03:04:52.000000000,closed,4,Add CI to build the docs
+368,2018-12-21 09:13:47.000000000,2019-01-22 17:52:54.000000000,closed,16,Add SQLiteStore
+367,2018-12-16 11:54:45.000000000,1970-01-01 00:00:00.000000001,open,2,"WIP, RFC: Optimize setitem with chunk equal to fill_value"
+366,2018-12-16 11:10:48.000000000,1970-01-01 00:00:00.000000001,open,1,Optimize storing fill_value to Array
+365,2018-12-16 07:17:57.000000000,2019-01-22 17:52:54.000000000,closed,6,Add SQLite
+364,2018-12-16 04:07:45.000000000,2019-07-19 12:27:24.000000000,closed,2,Specifying chunks with an integer
+363,2018-12-16 03:04:07.000000000,2019-02-26 13:18:27.000000000,closed,5,Encode/Decode complex fill values
+362,2018-12-10 23:56:46.000000000,1970-01-01 00:00:00.000000001,open,2,WIP: Fix `getsize` to be recursive
+361,2018-12-10 23:19:03.000000000,2018-12-16 04:32:03.000000000,closed,2,Drop temporary workaround for `get_codec`
+360,2018-12-10 10:33:38.000000000,2018-12-10 13:34:34.000000000,closed,1,Use `ensure_ndarray` to view chunk as an array
+359,2018-12-08 00:49:57.000000000,2019-02-16 06:00:51.000000000,closed,7,Special case chunk encoding for `dict` chunk store
+358,2018-12-07 21:58:52.000000000,2018-12-10 21:04:34.000000000,closed,5,Coveralls not reporting
+357,2018-12-06 22:55:33.000000000,1970-01-01 00:00:00.000000001,open,11,WIP: Include some tests of store equality
+356,2018-12-06 22:05:08.000000000,2019-07-18 00:54:03.000000000,closed,0,Renaming DictStore
+355,2018-12-04 19:57:38.000000000,2018-12-04 20:46:18.000000000,closed,0,Skip coverage of temp file cleanup
+354,2018-12-04 12:18:43.000000000,1970-01-01 00:00:00.000000001,open,2,Better handling of typed values in JSON
+353,2018-12-04 09:27:32.000000000,2018-12-04 09:27:54.000000000,closed,0,Fix missing backslash in docs
+352,2018-12-04 05:02:25.000000000,2018-12-05 03:25:45.000000000,closed,6,Bump Numcodecs requirement to 0.6.2
+351,2018-12-03 21:48:01.000000000,1970-01-01 00:00:00.000000001,open,11,WIP: Make `DictStore` the default `Array` store
+350,2018-12-03 20:57:24.000000000,2018-12-07 14:20:46.000000000,closed,11,Ensure `DictStore` contains only `bytes`
+349,2018-12-03 00:57:46.000000000,1970-01-01 00:00:00.000000001,open,9,Requirements of store data
+348,2018-12-03 00:38:33.000000000,2019-02-21 01:05:38.000000000,closed,9,"Comparison of non-trivial, uncompressed, in-memory Zarr Arrays fails"
+347,2018-11-30 22:17:43.000000000,2018-12-04 05:02:35.000000000,closed,12,Bump Numcodecs requirement to 0.6.1
+346,2018-11-30 20:16:30.000000000,2018-12-06 23:11:35.000000000,closed,1,RTD build failing
+345,2018-11-30 13:15:41.000000000,2019-03-01 08:42:31.000000000,closed,34,Mutable mapping for Azure Blob
+344,2018-11-21 23:39:32.000000000,2018-12-10 13:30:00.000000000,closed,7,Cast datetime and timedelta to signed 64-bit int
+343,2018-11-21 23:16:03.000000000,2018-12-02 10:14:27.000000000,closed,2,Mark decoding as not covered by Python 2 tests
+342,2018-11-21 21:19:11.000000000,2018-12-10 20:17:19.000000000,closed,6,OverflowError if using NaT as fill_value for mM dtypes
+341,2018-11-20 21:00:07.000000000,2018-11-21 20:40:19.000000000,closed,2,support for per-chunk compression
+340,2018-11-20 19:59:13.000000000,2018-11-27 00:11:57.000000000,closed,11,dask.distributed zarr reads slows down with additional workers
+339,2018-11-20 10:05:32.000000000,2019-03-25 23:24:02.000000000,closed,28,2.3 release planning
+338,2018-11-19 21:30:50.000000000,2018-11-19 22:11:41.000000000,closed,1,pass kwargs to consolidate
+337,2018-11-19 15:01:34.000000000,1970-01-01 00:00:00.000000001,open,1,Continuous benchmarking with ASV
+336,2018-11-18 19:20:58.000000000,2018-11-19 22:11:41.000000000,closed,3,open_consolidated doesn't accept enough kwargs
+335,2018-11-16 21:35:46.000000000,2018-11-17 01:55:56.000000000,closed,0,Configure flake8's line length as 100
+332,2018-11-14 21:31:57.000000000,2018-11-15 02:35:25.000000000,closed,3,Fix coverage for consolidated metadata store
+331,2018-11-14 20:41:58.000000000,2018-11-15 02:35:25.000000000,closed,1,Address missing test coverage for metadata consolidation
+330,2018-11-14 15:25:27.000000000,2018-11-14 23:13:05.000000000,closed,5,Performance compared to PyTables
+329,2018-11-14 04:30:11.000000000,2018-11-14 11:39:12.000000000,closed,1,bump requests version in dev environment
+328,2018-11-09 18:06:39.000000000,1970-01-01 00:00:00.000000001,open,4,Concurrent writes to the same chunk using DirectoryStore
+327,2018-11-08 21:12:44.000000000,2018-12-05 04:00:14.000000000,closed,13,avoid race condition during chunk write
+326,2018-11-08 16:16:04.000000000,2018-11-14 20:41:09.000000000,closed,7,Rework requirements for pyup.io
+325,2018-11-08 02:53:53.000000000,2019-10-28 19:56:43.000000000,closed,19,Set file permissions accoding to umask
+324,2018-11-07 04:07:06.000000000,2018-12-05 03:25:44.000000000,closed,2,MsgPack codec is broken for array of bytes objects
+322,2018-11-02 18:52:27.000000000,1970-01-01 00:00:00.000000001,open,0,Using a bot to manage requirement updates
+321,2018-11-02 18:09:59.000000000,1970-01-01 00:00:00.000000001,open,9,Provide offset for memory mapping / contiguous layout
+319,2018-10-30 01:49:52.000000000,2019-11-08 20:44:56.000000000,closed,4,Case insensitivity and DirectoryStore
+318,2018-10-25 05:25:07.000000000,2019-03-19 10:54:05.000000000,closed,4,#272 Fix race condition in DirectoryStore
+314,2018-10-22 19:33:17.000000000,2019-01-19 08:01:11.000000000,closed,11,Writing a paper
+312,2018-10-22 19:26:13.000000000,2019-01-15 23:04:17.000000000,closed,4,Creating a spec repo
+311,2018-10-22 19:20:28.000000000,2019-02-28 20:07:00.000000000,closed,2,Adding a Gitter channel
+310,2018-10-20 04:06:23.000000000,2018-10-20 12:39:30.000000000,closed,0,Fix typo in comment
+309,2018-10-19 02:09:17.000000000,2019-02-26 13:06:19.000000000,closed,45,Add N5 Support
+308,2018-10-18 17:42:07.000000000,2018-10-19 04:03:49.000000000,closed,5,Test and CI upgrades and maintenance
+306,2018-10-11 15:53:05.000000000,1970-01-01 00:00:00.000000001,open,15,LRU cache for decoded chunks 
+305,2018-10-05 11:22:26.000000000,2018-10-12 02:15:15.000000000,closed,6,Create CODE_OF_CONDUCT.md
+304,2018-10-04 02:25:08.000000000,2018-10-04 02:37:19.000000000,closed,2,ValueError: group not found at path ''
+303,2018-09-24 18:54:43.000000000,1970-01-01 00:00:00.000000001,open,1,Empty array & chunk definition
+302,2018-09-24 18:35:07.000000000,1970-01-01 00:00:00.000000001,open,1,Scalar arrays and oindex
+301,2018-09-23 22:28:54.000000000,1970-01-01 00:00:00.000000001,open,4,Refactor storage around abstract file system?
+299,2018-09-20 03:41:17.000000000,2019-02-08 19:56:59.000000000,closed,20,Add MongoDB storage backend?
+298,2018-09-04 20:35:43.000000000,1970-01-01 00:00:00.000000001,open,6,Follow symbolic links in DirectoryStore
+297,2018-08-31 20:22:42.000000000,1970-01-01 00:00:00.000000001,open,7,Links between groups
+296,2018-08-31 11:27:43.000000000,2018-10-19 16:51:59.000000000,closed,23,Add support for shapes in dtype definitions
+295,2018-08-23 20:39:43.000000000,1970-01-01 00:00:00.000000001,open,18,Optimisation for the __contains__ method of storage.LRUStoreCache
+294,2018-08-22 07:51:23.000000000,1970-01-01 00:00:00.000000001,open,2,unlistable stores
+293,2018-08-18 20:34:36.000000000,2019-02-12 23:04:12.000000000,closed,14,Abs store
+292,2018-08-16 20:53:08.000000000,2019-10-25 07:20:55.000000000,closed,0,"Update Zarr ""Configuring Blosc"" section"
+288,2018-08-03 16:01:56.000000000,2018-08-06 18:55:15.000000000,closed,10,Add ABSStore
+287,2018-08-03 01:36:22.000000000,2019-03-01 08:52:32.000000000,closed,13,Pull of ABSStore
+283,2018-07-26 00:29:31.000000000,2019-10-24 05:30:25.000000000,closed,7,Zarr error when loading group
+282,2018-07-25 04:46:48.000000000,2019-10-24 05:26:54.000000000,closed,6,Similar to h5py with zarr
+281,2018-07-23 19:12:18.000000000,1970-01-01 00:00:00.000000001,open,13,TFRecords to Zarr
+280,2018-07-23 12:38:28.000000000,1970-01-01 00:00:00.000000001,open,12,Best practices for metadata conventions
+278,2018-07-20 12:15:41.000000000,1970-01-01 00:00:00.000000001,open,14,LRU cache for decoded chunks
+277,2018-07-17 19:22:04.000000000,2018-07-18 13:13:09.000000000,closed,3,Unable to store dask array from NetCDF to zarr using DirectoryStore
+276,2018-07-16 02:32:00.000000000,1970-01-01 00:00:00.000000001,open,59,"DOC: zarr spec v3: adds optional dimensions and the ""netZDF"" format"
+275,2018-07-13 12:18:51.000000000,1970-01-01 00:00:00.000000001,open,0,Support legacy zero fill value for arrays with structured dtype
+274,2018-07-06 20:20:20.000000000,2019-01-11 20:57:43.000000000,closed,1,Spurious test failures?
+273,2018-07-06 20:08:13.000000000,2018-10-19 13:38:31.000000000,closed,2,fix pickle tests: avoid multiple simultaneous active writers
+272,2018-07-06 09:02:39.000000000,2019-03-19 10:54:05.000000000,closed,4,Race condition in storage.py for NestedDirectoryStore writes
+271,2018-07-05 07:57:31.000000000,2019-01-11 20:56:29.000000000,closed,1,Support for Subarrays
+270,2018-07-03 11:12:03.000000000,1970-01-01 00:00:00.000000001,open,5,Defining the data size of chunks
+269,2018-06-29 17:00:09.000000000,1970-01-01 00:00:00.000000001,open,5,"opening zarr ZipStore requires write access even with mode=""r"""
+268,2018-06-27 00:47:31.000000000,2018-11-14 18:03:37.000000000,closed,66,Consolidate zarr metadata into single key
+266,2018-06-05 05:15:22.000000000,2018-06-14 18:01:41.000000000,closed,4,Using Dask Array's to_zarr method with Zarr Array fails
+265,2018-06-04 17:35:35.000000000,1970-01-01 00:00:00.000000001,open,14,memmap reads from directory store
+264,2018-05-24 16:12:21.000000000,1970-01-01 00:00:00.000000001,open,0,Future of open...() functions
+263,2018-05-15 17:40:38.000000000,2018-12-05 04:00:14.000000000,closed,21,remove() before os.rename() breaks thread-safety
+262,2018-05-10 12:37:56.000000000,1970-01-01 00:00:00.000000001,open,1,zarr.tree() on h5py File in notebook renders with wrong icon for root node and datasets
+261,2018-05-10 12:30:51.000000000,1970-01-01 00:00:00.000000001,open,12,open...() functions should accept pathlib.Path
+260,2018-05-09 23:35:07.000000000,2019-10-24 06:33:18.000000000,closed,0,Adding `recurse` option for `array_keys` and `arrays`
+259,2018-05-08 01:39:14.000000000,2020-01-09 10:02:07.000000000,closed,11,HTML jstree doesn't work in jupyter lab
+258,2018-04-26 17:22:32.000000000,2018-05-03 14:22:22.000000000,closed,5,Unexpected dependence on chunks with JSON and MsgPack codecs
+257,2018-04-25 20:42:35.000000000,1970-01-01 00:00:00.000000001,open,4,empty_like for object array raises warning
+256,2018-04-20 19:23:39.000000000,2018-04-20 19:41:14.000000000,closed,7,Surprising behaviour of append on object arrays
+255,2018-04-19 23:28:31.000000000,1970-01-01 00:00:00.000000001,open,6,Itemsize cannot be zero in type
+254,2018-04-13 12:53:06.000000000,2018-12-04 09:27:54.000000000,closed,1,Backslash missing on Zarr storage spec v2 page
+253,2018-04-04 18:35:39.000000000,1970-01-01 00:00:00.000000001,open,11,Zarr DirectoryStore: getsize is wrong
+252,2018-03-30 00:33:19.000000000,1970-01-01 00:00:00.000000001,open,50,WIP: google cloud storage class
+251,2018-03-28 22:25:08.000000000,1970-01-01 00:00:00.000000001,open,0,Storing Dask Arrays directly to Zarr Group fails
+250,2018-03-26 04:44:03.000000000,2018-03-27 02:18:02.000000000,closed,0,Fix dev pip install code block
+249,2018-03-23 02:27:53.000000000,2018-05-14 01:19:51.000000000,closed,4,Use `os.renames` in `DirectoryStore`'s `rename`
+248,2018-03-22 22:34:11.000000000,1970-01-01 00:00:00.000000001,open,4,WIP: Ignore DirectoryStore dir/file ending in .partial
+247,2018-03-22 22:00:12.000000000,1970-01-01 00:00:00.000000001,open,2,Zarr DirectoryStore with temporary directory-based transaction
+246,2018-03-22 21:38:02.000000000,1970-01-01 00:00:00.000000001,open,7,WIP: Rename DirectoryStore's file/directory to delete
+244,2018-03-08 04:48:28.000000000,2019-02-26 13:18:26.000000000,closed,4,Complex dtype error  
+243,2018-03-07 05:24:53.000000000,2018-03-08 01:07:15.000000000,closed,8,Release 2.2.0
+242,2018-02-26 07:25:16.000000000,2018-03-17 00:53:37.000000000,closed,7,Status of full 2.2.0 release
+241,2018-02-09 02:05:05.000000000,2018-02-14 10:11:05.000000000,closed,4,chunks=False --> ZeroDivisionError
+240,2018-02-08 20:05:17.000000000,2018-10-19 13:43:04.000000000,closed,2,Migrate to py36-npy114 as primary test environment
+239,2018-01-31 04:32:03.000000000,2018-01-31 23:57:03.000000000,closed,6,Work around numpy 1.14 structured array changes
+238,2018-01-30 23:30:04.000000000,2018-01-31 23:57:02.000000000,closed,3,2.2.0rc2 test failures at conda-forge
+237,2018-01-29 21:17:37.000000000,2018-01-30 22:57:43.000000000,closed,4,Require numcodecs 0.5.3 and drop nose
+236,2018-01-27 18:26:43.000000000,1970-01-01 00:00:00.000000001,open,11,Accelerate coordinate selection via keysort
+235,2018-01-27 01:06:41.000000000,2018-01-27 02:06:52.000000000,closed,1,Update repo references
+234,2018-01-26 22:59:19.000000000,2018-02-02 20:16:26.000000000,closed,6,v2.2.0rc1 release
+233,2018-01-26 05:24:59.000000000,1970-01-01 00:00:00.000000001,open,3,Shortening edge chunks
+232,2018-01-26 04:02:25.000000000,1970-01-01 00:00:00.000000001,open,0,C/F ordering in naming
+230,2018-01-17 03:14:25.000000000,2018-01-19 11:04:16.000000000,closed,5,Inconsistent disk usage
+229,2018-01-04 16:00:34.000000000,2019-11-09 05:08:42.000000000,closed,0,Consider using pytest.importorskip
+227,2018-01-03 21:15:40.000000000,2018-01-29 16:01:04.000000000,closed,15,Documentation about contributing
+226,2018-01-03 07:12:59.000000000,2018-01-05 11:02:10.000000000,closed,5,Setting up AppVeyor for an org
+225,2018-01-03 05:34:18.000000000,2018-01-03 06:19:25.000000000,closed,0,Complete pytest migration
+224,2018-01-02 17:11:57.000000000,1970-01-01 00:00:00.000000001,open,9,"Tree option to omit array metadata (shape, dtype)"
+223,2017-12-31 05:08:57.000000000,2018-01-02 23:20:19.000000000,closed,1,LRU store cache
+222,2017-12-30 09:22:03.000000000,2018-01-31 23:57:02.000000000,closed,0,Handle NumPy 1.14 structured dtype changes
+221,2017-12-24 07:12:42.000000000,2018-01-25 17:38:56.000000000,closed,5,Help with slow reading speeds
+220,2017-12-24 05:19:23.000000000,2018-01-03 04:01:50.000000000,closed,7,Cache attributes
+219,2017-12-24 05:16:41.000000000,2017-12-24 05:19:08.000000000,closed,1,Cache attributes
+218,2017-12-22 23:05:02.000000000,2018-01-03 04:01:50.000000000,closed,0,Cache attributes
+217,2017-12-09 05:08:12.000000000,2018-01-02 23:18:34.000000000,closed,11,Copy functions
+216,2017-12-07 14:34:23.000000000,1970-01-01 00:00:00.000000001,open,10,Object array fill value
+215,2017-12-06 17:49:04.000000000,2017-12-08 13:43:34.000000000,closed,10,Object dtype convenience API; datetime64/timedelta64 support
+214,2017-12-06 05:28:20.000000000,1970-01-01 00:00:00.000000001,open,4,Dispatch on uri protocol
+213,2017-12-04 22:56:57.000000000,2017-12-06 18:55:39.000000000,closed,6,Add a `digest` method for Zarr Arrays
+212,2017-12-01 04:42:14.000000000,2017-12-06 06:16:12.000000000,closed,14,Object encoding
+211,2017-11-29 12:06:20.000000000,2017-12-01 05:13:17.000000000,closed,2,Drops vendored copy of py-cpuinfo
+210,2017-11-29 00:09:26.000000000,2017-12-01 05:21:37.000000000,closed,4,Test 0-length structured array
+209,2017-11-28 07:11:30.000000000,2017-11-28 22:31:11.000000000,closed,2,Fix test atexit
+208,2017-11-28 06:33:40.000000000,2017-12-06 06:16:12.000000000,closed,18,Filters for object dtype
+207,2017-11-28 05:14:19.000000000,2017-11-28 05:47:42.000000000,closed,0,Clean up dbm files properly
+206,2017-11-28 03:29:13.000000000,2017-12-08 13:43:34.000000000,closed,1,utf8 encoded variable-length strings
+205,2017-11-28 02:50:55.000000000,2017-11-28 22:31:11.000000000,closed,4,FileNotFoundError during test cleanup 
+204,2017-11-27 23:41:54.000000000,2018-01-03 04:01:50.000000000,closed,1,DOC: Attributes class
+203,2017-11-27 21:33:44.000000000,2017-11-28 22:39:24.000000000,closed,21,Method to find Zarr Array checksum
+202,2017-11-27 02:37:18.000000000,1970-01-01 00:00:00.000000001,open,12,Add __dask_tokenize__ methods to Zarr objects
+201,2017-11-24 14:48:16.000000000,2017-11-24 15:15:57.000000000,closed,1,Add note about manual parallelism with blosc
+200,2017-11-24 06:37:50.000000000,2017-11-24 15:14:24.000000000,closed,0,Lazily create .zattrs
+199,2017-11-24 06:25:44.000000000,2017-11-24 17:08:03.000000000,closed,3,Multiprocess access to Zarr groups hangs indefinetly
+198,2017-11-24 05:48:39.000000000,2018-05-26 06:50:21.000000000,closed,14,Adding to_dask/from_dask
+197,2017-11-23 12:51:30.000000000,2017-11-24 14:34:15.000000000,closed,5,Indexing on rolling slices
+196,2017-11-21 12:01:14.000000000,2017-11-24 06:51:10.000000000,closed,10,Add move
+195,2017-11-21 10:09:47.000000000,2017-11-24 05:16:57.000000000,closed,7,TestDBMStoreStdlib.test_pickle failing on macOS
+194,2017-11-21 06:31:01.000000000,2017-11-24 05:16:56.000000000,closed,3,ZipStore is not thread-safe
+193,2017-11-21 06:26:54.000000000,2017-11-24 05:37:20.000000000,closed,2,Add Store rename method
+192,2017-11-21 06:20:55.000000000,2017-11-24 05:16:56.000000000,closed,10,LMDB store
+191,2017-11-21 05:25:55.000000000,2017-11-24 06:51:10.000000000,closed,1,ENH: move method
+190,2017-11-20 16:17:16.000000000,2018-01-25 17:39:34.000000000,closed,5,Move Zarr to shared GitHub organization
+189,2017-11-20 03:49:39.000000000,2018-01-03 06:19:25.000000000,closed,2,Migrate to pytest
+188,2017-11-20 02:48:26.000000000,1970-01-01 00:00:00.000000001,open,1,"find, findall"
+187,2017-11-16 15:56:34.000000000,2017-11-16 20:21:15.000000000,closed,3,Incorrect behaviour for zero length arrays
+186,2017-11-16 06:58:23.000000000,2017-11-17 01:31:14.000000000,closed,13,DBMStore
+185,2017-11-15 06:24:07.000000000,2017-11-20 15:51:35.000000000,closed,0,WIP documentation for 2.2 release
+184,2017-11-15 06:13:21.000000000,2017-11-16 07:08:40.000000000,closed,7,Use jstree
+183,2017-11-15 03:28:27.000000000,2017-11-15 04:01:11.000000000,closed,0,No chunks
+182,2017-11-14 22:51:09.000000000,2017-11-15 03:29:05.000000000,closed,0,"Tests and fixes for zipstore bugs re mode ""w"""
+181,2017-11-14 06:45:52.000000000,2017-11-14 19:28:39.000000000,closed,0,Open/save/save/load
+180,2017-11-14 03:44:06.000000000,2017-11-14 06:46:50.000000000,closed,2,Add ipython completion support
+179,2017-11-13 14:40:29.000000000,2017-11-14 03:57:53.000000000,closed,0,Read-only
+178,2017-11-07 05:11:29.000000000,2017-12-01 05:21:37.000000000,closed,2,Further tests for structured arrays
+177,2017-11-01 05:19:20.000000000,2017-11-10 16:10:28.000000000,closed,4,Add nested directory store
+176,2017-11-01 03:53:25.000000000,2017-11-10 15:55:05.000000000,closed,0,Test and fix for bytes fill value bug
+175,2017-11-01 02:52:00.000000000,2017-11-20 15:51:34.000000000,closed,0,DOC: string (object) arrays
+174,2017-11-01 02:41:23.000000000,2017-11-10 15:05:59.000000000,closed,0,Count nchunks_initialized properly
+173,2017-10-31 20:23:50.000000000,2017-11-20 02:48:56.000000000,closed,7,Make 'r' default mode when opening anything
+172,2017-10-31 04:09:17.000000000,2017-11-13 06:39:47.000000000,closed,27,Advanced indexing
+171,2017-10-27 02:51:09.000000000,2017-10-27 03:15:16.000000000,closed,1,Coverage and Python versions
+170,2017-10-27 01:06:22.000000000,2017-11-14 06:46:50.000000000,closed,2,IPython tab-completion
+169,2017-10-26 04:08:26.000000000,2017-10-27 03:05:25.000000000,closed,2,Collect coverage on all Pythons
+168,2017-10-26 03:16:52.000000000,2017-11-10 14:40:41.000000000,closed,3,Ellipsis handling
+167,2017-10-26 02:00:34.000000000,1970-01-01 00:00:00.000000001,open,7,Dimension scales
+166,2017-10-26 02:00:08.000000000,1970-01-01 00:00:00.000000001,open,1,Parent property
+165,2017-10-26 01:58:46.000000000,2017-11-10 15:55:05.000000000,closed,0,Bytes fill value
+164,2017-10-25 18:15:57.000000000,2017-10-26 01:50:39.000000000,closed,1,Fix a typo in a comment
+163,2017-10-25 05:29:01.000000000,2017-10-26 03:37:45.000000000,closed,3,Add unicode_type to compat
+162,2017-10-25 04:40:52.000000000,2017-12-08 03:20:33.000000000,closed,2,Check data fixture included in distribution
+161,2017-10-25 03:39:52.000000000,2017-10-26 01:50:06.000000000,closed,6,0-dimensional arrays
+160,2017-10-25 01:29:30.000000000,2017-10-25 02:17:22.000000000,closed,3,Zero length dimensions
+159,2017-10-24 20:00:15.000000000,2017-11-20 15:51:34.000000000,closed,4,v2.2 release notes
+158,2017-10-18 20:39:07.000000000,2017-11-15 03:29:05.000000000,closed,1,Potential bug in ZipStore's flush in 'w' mode
+157,2017-10-18 20:05:37.000000000,1970-01-01 00:00:00.000000001,open,1,Adding `items` method to Stores
+156,2017-10-08 08:24:18.000000000,1970-01-01 00:00:00.000000001,open,9,can't have numpy datatypes in attributes
+155,2017-09-13 12:05:22.000000000,2017-11-10 16:10:28.000000000,closed,0,Directory store with nested chunk file layout
+154,2017-09-05 05:48:38.000000000,2017-10-25 03:53:57.000000000,closed,18,Update guess-chunks so that it works with zero dimensions.
+153,2017-09-05 04:40:57.000000000,2017-10-25 02:11:29.000000000,closed,1,Updated cpuinfo.py so that it can use the saved dmesg.boot information.
+152,2017-08-02 19:10:50.000000000,2018-02-14 10:17:19.000000000,closed,8,Converting sparse matrices directly to persistent zarr arrays
+151,2017-07-25 23:09:56.000000000,2017-11-14 03:57:53.000000000,closed,1,The read_only flag does not seem to be passed into the Array() constructor for in-memory array
+150,2017-07-25 20:17:06.000000000,2017-10-25 02:17:22.000000000,closed,14,Zarr can not handle 0 dimension like numpy does
+149,2017-06-23 17:19:39.000000000,1970-01-01 00:00:00.000000001,open,1,Tables/DataFrames - requirements
+148,2017-04-27 01:56:29.000000000,2017-10-25 01:03:05.000000000,closed,5,repr changes
+147,2017-04-26 20:19:26.000000000,2017-10-25 03:33:25.000000000,closed,3,Test and fix for #143 index with numpy integer item
+146,2017-04-25 02:29:29.000000000,2017-04-25 02:54:34.000000000,closed,5,Data fixture
+145,2017-04-24 11:11:07.000000000,2017-04-25 17:50:23.000000000,closed,2,Datasets don't work when dtype=object
+144,2017-03-28 17:09:15.000000000,2017-11-20 15:54:52.000000000,closed,3,Release 2.2
+143,2017-03-18 18:23:09.000000000,2017-10-25 03:33:25.000000000,closed,0,Index with numpy int64
+142,2017-03-12 13:32:04.000000000,2017-03-15 23:40:52.000000000,closed,3,unable to append numeric and unicode string records 
+141,2017-03-10 23:06:51.000000000,2017-11-14 19:28:39.000000000,closed,0,Zarr open fails on ZipStore
+140,2017-03-03 05:47:05.000000000,2017-11-15 04:23:14.000000000,closed,33,Add tree
+139,2017-03-02 16:47:25.000000000,2017-04-25 03:17:29.000000000,closed,5,Use numcodecs
+138,2017-03-02 15:55:04.000000000,2017-04-25 02:55:21.000000000,closed,1,Data fixture
+137,2017-03-01 21:55:10.000000000,2018-01-02 23:18:34.000000000,closed,9,Store conversion methods
+136,2017-03-01 03:29:38.000000000,2018-02-18 02:50:20.000000000,closed,17,AVX2 intrinsic run on non-AVX2 supporting hardware
+135,2017-02-28 02:38:59.000000000,2017-11-20 15:51:34.000000000,closed,2,Support string/byte arrays
+134,2017-02-27 21:32:35.000000000,1970-01-01 00:00:00.000000001,open,3,Question: Streaming Data
+133,2017-02-27 14:33:37.000000000,2017-11-17 01:31:14.000000000,closed,3,Key encoding for dbm-style databases
+132,2017-02-27 03:04:13.000000000,2017-10-25 01:03:05.000000000,closed,2,Group and Array repr performance
+131,2017-02-25 04:52:27.000000000,2017-11-20 15:51:34.000000000,closed,8,"Add persistence examples using shelve/dbm, lmdb"
+130,2017-02-24 23:41:19.000000000,2017-02-28 02:06:49.000000000,closed,0,Suppress warning about duplicate write to zip
+129,2017-02-24 23:17:55.000000000,2017-02-28 02:06:03.000000000,closed,20,Suppressing ZipFile duplication warning
+128,2017-02-24 23:15:24.000000000,2017-02-28 02:06:44.000000000,closed,1,Removing outdated files from zip
+127,2017-02-24 20:27:26.000000000,2017-02-25 03:43:57.000000000,closed,1,Remove .ipynb_checkpoints
+126,2017-02-24 20:20:20.000000000,2017-02-25 03:40:05.000000000,closed,3,Unpin setuptools requirements
+125,2017-02-24 18:56:58.000000000,2017-02-25 03:40:05.000000000,closed,2,CI issues related to appdirs
+124,2017-02-23 19:27:02.000000000,2017-02-23 20:43:29.000000000,closed,3,Fix CI
+123,2017-02-23 11:14:52.000000000,2017-02-23 20:46:26.000000000,closed,4,Support LZMA on Python 2 via backports.lzma
+122,2017-02-23 00:32:29.000000000,2017-02-24 18:52:44.000000000,closed,12,Add visitor pattern methods
+121,2017-02-22 23:10:08.000000000,2017-11-24 15:14:24.000000000,closed,11,Adding attrs arg to create_group and create_dataset
+120,2017-02-21 08:11:59.000000000,2017-02-21 15:10:37.000000000,closed,2,Fix representation of AsType's dtypes
+119,2017-02-20 23:04:45.000000000,2017-11-10 14:47:51.000000000,closed,4,Fix slice normalization and length determination
+118,2017-02-20 13:06:10.000000000,2017-02-21 04:46:49.000000000,closed,6,Use Coveralls
+117,2017-02-20 09:11:23.000000000,2017-02-21 04:46:49.000000000,closed,1,Reporting test coverage
+116,2017-02-20 05:21:35.000000000,2017-11-10 14:44:17.000000000,closed,9,WIP: Use kenjutsu
+115,2017-02-18 02:18:45.000000000,2017-10-25 01:03:05.000000000,closed,0,ENH: read_only in repr
+114,2017-02-14 04:17:51.000000000,2017-02-14 14:34:54.000000000,closed,0,Upgrade CI and dev environment
+113,2017-02-11 02:11:53.000000000,2018-01-02 23:18:34.000000000,closed,4,ENH: copy method
+112,2017-02-10 20:35:21.000000000,2017-11-13 06:39:47.000000000,closed,2,Loading fields and other custom slices for structured arrays
+111,2017-02-10 20:26:25.000000000,2018-10-19 16:51:59.000000000,closed,6,Supporting structured array records with non-trivial shape
+110,2017-02-10 09:42:01.000000000,2017-02-10 20:31:15.000000000,closed,2,Structured Arrays
+109,2017-01-26 20:33:12.000000000,2017-02-27 21:51:44.000000000,closed,2,Add Python 3.6 to CI
+108,2017-01-26 20:29:48.000000000,2017-01-26 20:44:10.000000000,closed,0,Micro release 2.1.4
+107,2017-01-24 23:27:17.000000000,2017-11-20 15:51:34.000000000,closed,3,DOC: chunks=True
+106,2017-01-24 21:18:45.000000000,2017-11-15 04:01:11.000000000,closed,4,ENH: chunks=None
+105,2017-01-24 21:13:38.000000000,2017-11-14 19:28:39.000000000,closed,2,ENH: Make zarr.open adaptive
+104,2017-01-24 21:12:26.000000000,2017-11-14 19:28:39.000000000,closed,0,ENH: Add a save() function similar to numpy.save/numpy.savez
+103,2017-01-24 21:10:04.000000000,2017-11-20 15:51:34.000000000,closed,1,DOC: Integrate docs on saving existing array to disk
+102,2017-01-24 21:07:12.000000000,2017-02-21 18:14:06.000000000,closed,1,Factor out AsType codec upstream to numcodecs
+101,2017-01-22 03:13:22.000000000,2017-11-20 15:51:34.000000000,closed,2,Docs: Exporting existing NumPy array to disk
+100,2017-01-20 23:26:27.000000000,2017-01-22 03:12:47.000000000,closed,2,How to store on disk an in-memory zarr
+99,2017-01-19 22:12:57.000000000,2017-02-23 11:30:34.000000000,closed,10,Region references
+98,2017-01-17 15:24:20.000000000,2017-11-28 22:39:24.000000000,closed,1,ENH: Compute hash of array
+97,2017-01-13 04:09:49.000000000,2017-11-10 15:05:59.000000000,closed,1,BUG: Don't include partial files when counting initialized chunks
+96,2016-12-07 05:50:25.000000000,2017-01-04 15:03:11.000000000,closed,20,AsType Filter
+95,2016-12-05 15:17:59.000000000,2016-12-05 17:48:28.000000000,closed,6,raise AttributeError in __getattr__ if lookup fails
+94,2016-12-01 03:30:16.000000000,2017-01-04 15:03:11.000000000,closed,12,ENH: On the fly type conversion
+93,2016-12-01 00:34:39.000000000,2017-11-13 06:39:47.000000000,closed,11,BUG: Parsing ellipsis in indexing
+92,2016-11-30 22:48:49.000000000,2017-02-24 18:52:44.000000000,closed,3,Visitor Pattern
+91,2016-11-29 21:18:01.000000000,2017-11-20 15:51:34.000000000,closed,2,DOC: Pickle support
+90,2016-11-05 22:40:02.000000000,1970-01-01 00:00:00.000000001,open,1,Filter for space-filling-curves
+89,2016-11-04 01:21:22.000000000,2017-11-13 06:39:47.000000000,closed,0,Better error message if attempt fancy indexing
+88,2016-11-04 01:13:44.000000000,2016-12-05 17:48:28.000000000,closed,3,Group __getattr__ should raise AttributeError
+87,2016-10-22 01:40:29.000000000,2018-01-02 23:18:34.000000000,closed,11,HDF5 to Zarr
+86,2016-10-18 06:53:02.000000000,2018-01-25 17:40:35.000000000,closed,7,storage size for zarr  file on disk 
+85,2016-10-16 22:11:31.000000000,2017-11-20 15:51:34.000000000,closed,2,Specification for datetime dtypes is ambiguous
+84,2016-10-16 02:46:57.000000000,2016-11-02 14:50:48.000000000,closed,12,WIP: DataFrame support
+83,2016-10-14 18:46:45.000000000,2017-10-25 01:03:05.000000000,closed,6,"Bring back ""zarr"" into repr"
+82,2016-10-07 15:05:52.000000000,2017-11-15 04:23:14.000000000,closed,9,Group print hierarchy
+81,2016-10-03 13:39:13.000000000,1970-01-01 00:00:00.000000001,open,0,Group.put()
+80,2016-09-28 01:43:13.000000000,2016-09-28 01:55:58.000000000,closed,0,"array(data, dtype=None)"
+79,2016-09-25 22:34:29.000000000,2016-09-26 00:22:25.000000000,closed,0,"None compressor, dict store, shared data"
+78,2016-09-23 14:51:58.000000000,2017-11-13 06:39:47.000000000,closed,9,Advanced indexing
+77,2016-09-23 07:43:01.000000000,2016-09-23 08:16:34.000000000,closed,2,zarr read random indices support
+76,2016-09-22 20:18:32.000000000,1970-01-01 00:00:00.000000001,open,1,Fix RTFD/setuptools_scm bad interaction
+75,2016-09-21 20:14:53.000000000,1970-01-01 00:00:00.000000001,open,1,Parallel append
+74,2016-09-21 20:12:19.000000000,2017-04-25 03:17:50.000000000,closed,1,Use numcodecs
+73,2016-09-12 17:27:17.000000000,2016-09-13 00:52:28.000000000,closed,0,V2.1.1 dev
+72,2016-09-09 15:25:48.000000000,2016-09-09 15:43:43.000000000,closed,0,Various minor fixes and improvements
+71,2016-09-09 00:24:33.000000000,2016-09-09 15:43:44.000000000,closed,0,Overwrite when creating array in group
+70,2016-09-08 23:46:51.000000000,2016-09-09 15:49:40.000000000,closed,0,blosc returns bytes; resolves #55
+69,2016-09-08 18:55:14.000000000,2016-09-09 17:13:04.000000000,closed,0,Group supports item deletion; resolves #65
+68,2016-09-08 18:21:27.000000000,2016-09-09 15:56:46.000000000,closed,0,implement TempStore; resolves #59
+67,2016-09-08 17:55:08.000000000,2016-09-09 15:54:20.000000000,closed,0,fix ZipStore performance; resolves #66
+66,2016-09-08 12:05:58.000000000,2016-09-09 15:54:21.000000000,closed,1,ZipStore performance
+65,2016-09-06 17:30:46.000000000,2016-09-09 17:13:05.000000000,closed,0,Group object support item deletion
+64,2016-09-06 17:25:13.000000000,2016-09-09 15:43:44.000000000,closed,0,"Array creation from data, chunks is None"
+62,2016-09-06 15:36:34.000000000,2016-09-21 20:09:44.000000000,closed,1,Other compressor codecs
+61,2016-09-06 15:34:23.000000000,2016-09-21 20:08:12.000000000,closed,1,RunLength codec
+60,2016-09-06 15:32:38.000000000,2016-09-09 15:43:44.000000000,closed,0,Handle both compressor and compression arguments given
+59,2016-09-06 15:31:45.000000000,2016-09-09 15:56:47.000000000,closed,0,TempStore
+58,2016-09-06 15:31:17.000000000,2016-09-09 01:18:50.000000000,closed,1,Add path argument to array creation functions
+57,2016-09-06 15:30:26.000000000,1970-01-01 00:00:00.000000001,open,0,Group list members optimization when scanning keys
+56,2016-09-06 15:29:12.000000000,2016-09-09 15:43:44.000000000,closed,1,open... functions work with any store
+55,2016-09-06 15:26:34.000000000,2016-09-09 15:49:41.000000000,closed,1,Blosc extension use bytes
+54,2016-09-06 15:23:08.000000000,2016-09-21 20:10:39.000000000,closed,1,Blosc extension factor out common buffer access code
+53,2016-09-06 01:09:39.000000000,2016-09-21 20:10:49.000000000,closed,1,Codec __eq__
+52,2016-09-06 01:03:10.000000000,2016-09-21 20:11:08.000000000,closed,1,Checksum filters
+51,2016-09-06 00:54:47.000000000,2016-09-09 15:43:44.000000000,closed,0,Array.nchunks property
+50,2016-09-06 00:53:15.000000000,2019-11-08 20:07:17.000000000,closed,5,Source links in docs
+49,2016-09-06 00:49:17.000000000,2016-09-09 15:43:44.000000000,closed,0,Default fill value zero where possible
+48,2016-09-01 00:17:42.000000000,2016-09-06 00:47:12.000000000,closed,1,v2.0 release
+47,2016-08-31 23:42:35.000000000,2016-09-03 02:14:39.000000000,closed,1,ZipStore docstring
+46,2016-08-31 22:07:47.000000000,2016-09-03 02:14:49.000000000,closed,1,Fasteners conditional import
+45,2016-08-31 22:06:41.000000000,2016-09-03 01:48:10.000000000,closed,2,Migrate v1 to v2
+44,2016-08-31 22:05:58.000000000,2016-09-03 01:47:44.000000000,closed,1,None compressor
+43,2016-08-31 22:03:17.000000000,2016-08-31 22:15:54.000000000,closed,0,Upgrade c-blosc to v1.10.2
+42,2016-08-30 18:48:34.000000000,2016-09-03 02:16:13.000000000,closed,6,Filters
+41,2016-08-01 01:13:08.000000000,2016-08-31 22:15:55.000000000,closed,0,Upgrade c-blosc to 1.10.2
+40,2016-07-27 03:57:29.000000000,1970-01-01 00:00:00.000000001,open,8,Consider support for storing chunks in z-order
+39,2016-07-26 19:15:37.000000000,2016-08-31 22:10:37.000000000,closed,1,Scale-offset filter
+38,2016-07-26 18:29:46.000000000,2016-08-31 22:09:33.000000000,closed,1,Reduce memory copies with no compression
+37,2016-07-25 17:42:50.000000000,2016-08-30 18:25:53.000000000,closed,28,Hierarchical storage
+36,2016-07-21 17:44:27.000000000,2016-07-22 15:05:24.000000000,closed,1,upgrade c-blosc to 1.10.0; change default c-blosc compressor to lz4
+35,2016-07-06 10:38:39.000000000,2016-08-31 22:10:47.000000000,closed,1,Quantize filter
+34,2016-07-06 10:38:24.000000000,2016-08-31 22:10:58.000000000,closed,1,Delta filter
+33,2016-05-19 12:45:38.000000000,2016-07-22 15:05:24.000000000,closed,0,Increase default max number of internal Blosc threads
+32,2016-05-18 11:56:37.000000000,2016-07-22 15:05:46.000000000,closed,1,Upgrade c-blosc to 1.10.0
+30,2016-05-17 21:09:13.000000000,2016-09-09 17:15:25.000000000,closed,0,Link to HDFSMap in docs
+29,2016-05-17 21:05:20.000000000,2016-08-31 22:11:22.000000000,closed,1,Skip tests that require zict if not installed
+28,2016-05-13 00:15:27.000000000,2016-05-13 00:38:43.000000000,closed,2,ensure bytes for blosc name
+27,2016-05-07 01:13:39.000000000,2016-05-17 12:01:15.000000000,closed,0,Detect main thread and adapt Blosc usage automatically
+26,2016-05-07 01:09:23.000000000,2016-08-30 18:25:53.000000000,closed,0,Hierarchical storage
+25,2016-04-28 15:30:03.000000000,2016-05-17 21:04:26.000000000,closed,0,Fall-back to pure Python installation
+24,2016-04-23 00:47:49.000000000,2016-04-27 09:07:03.000000000,closed,17,Refactor 3
+23,2016-04-21 23:36:53.000000000,2016-04-22 19:37:52.000000000,closed,1,DictStore
+22,2016-04-19 13:20:55.000000000,2016-05-17 12:01:14.000000000,closed,103,Refactoring WIP
+21,2016-04-15 03:13:36.000000000,2016-05-17 21:04:26.000000000,closed,23,Generalize to other storage systems
+20,2016-04-14 14:33:47.000000000,2016-04-14 19:43:40.000000000,closed,4,Detect AVX2
+19,2016-04-14 00:31:55.000000000,2016-04-14 19:24:56.000000000,closed,0,PY2 compatibility
+18,2016-04-13 21:39:22.000000000,2016-04-14 20:01:41.000000000,closed,0,Implement array attributes
+17,2016-04-13 19:32:27.000000000,2016-04-14 20:04:41.000000000,closed,0,"Implement empty_like, zeros_like, etc."
+16,2016-04-13 18:36:04.000000000,2016-04-14 19:55:24.000000000,closed,0,Implement support for using global blosc functions
+15,2016-04-13 15:07:18.000000000,2016-04-14 19:55:24.000000000,closed,0,Optionally use blosc in non-contextual mode
+14,2016-04-13 14:54:37.000000000,2016-04-14 19:57:54.000000000,closed,0,JSON metadata
+13,2016-04-12 13:07:46.000000000,2016-04-14 20:04:41.000000000,closed,0,"Add empty_like, zeros_like, ones_like, full_like"
+12,2016-04-12 00:54:01.000000000,2016-04-12 12:37:02.000000000,closed,0,Upgrade blosc v1.8.1
+11,2015-12-24 17:43:41.000000000,2016-04-14 20:01:40.000000000,closed,0,Persistent attributes
+10,2015-12-24 05:25:27.000000000,2016-04-12 12:37:02.000000000,closed,0,Bitshuffle single byte dtype
+9,2015-12-24 01:22:09.000000000,2015-12-24 01:31:00.000000000,closed,2,use python code blocks in readme
+8,2015-12-23 20:26:59.000000000,1970-01-01 00:00:00.000000001,open,10,Default compression settings
+7,2015-12-23 04:07:42.000000000,2016-05-17 12:01:15.000000000,closed,1,F (Fortran) order
+6,2015-12-22 17:28:34.000000000,2016-04-14 20:05:19.000000000,closed,8,Use JSON instead of pickle for array metadata
+5,2015-12-22 17:27:26.000000000,2016-04-14 19:57:54.000000000,closed,2,Describe the zarr file format in the documentation
+4,2015-12-22 04:52:44.000000000,2016-04-14 19:43:40.000000000,closed,0,Detect AVX2
+3,2015-12-17 22:51:25.000000000,2016-04-14 20:05:51.000000000,closed,1,PY2 compatibility
+2,2015-12-17 19:20:33.000000000,2015-12-18 16:27:59.000000000,closed,0,Append with axis
+1,2015-12-17 19:19:47.000000000,2015-12-22 04:10:46.000000000,closed,1,Persistence

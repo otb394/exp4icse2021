@@ -1,0 +1,1044 @@
+id,created_at,closed_at,state,comments,title
+1048,2020-08-28 17:18:58.000000000,1970-01-01 00:00:00.000000001,open,0,"Fails to compile on FreeBSD, missing once_cell"
+1047,2020-08-26 19:33:41.000000000,1970-01-01 00:00:00.000000001,open,0,Work around a Cargo bug to get AppVeyor CI/CD passing.
+1046,2020-08-23 04:48:47.000000000,1970-01-01 00:00:00.000000001,open,2,add support for illumos
+1045,2020-08-16 21:12:27.000000000,1970-01-01 00:00:00.000000001,open,0,Support post-quantum key exchange
+1044,2020-08-08 15:48:39.000000000,1970-01-01 00:00:00.000000001,open,0,"ADDED: seed_to_pkcs8, deriving an Ed25519 key pair from a seed."
+1043,2020-08-07 19:52:29.000000000,1970-01-01 00:00:00.000000001,open,5,wasm32-wasi doesn't build
+1042,2020-08-04 21:20:49.000000000,1970-01-01 00:00:00.000000001,open,2,Fix alignment of ChaCha20 keys.
+1041,2020-08-04 11:54:34.000000000,2020-08-04 21:24:51.000000000,closed,1,Fix: Hardfault on ARM targets using ChaCha
+1040,2020-07-30 05:35:12.000000000,1970-01-01 00:00:00.000000001,open,2,GCM: Remove use of `Block`.
+1039,2020-07-30 00:28:40.000000000,2020-07-30 05:31:54.000000000,closed,0,AES: Remove dead AES-192 code.
+1038,2020-07-28 12:38:33.000000000,1970-01-01 00:00:00.000000001,open,4,Support Diffie-Hellman
+1037,2020-07-25 06:02:23.000000000,1970-01-01 00:00:00.000000001,open,0,add support for the s390x arch
+1036,2020-07-23 10:33:28.000000000,2020-07-30 00:18:22.000000000,closed,1,"Remove `Block` from `aead::{aes,chacha}::new_mask`"
+1035,2020-07-22 22:37:00.000000000,1970-01-01 00:00:00.000000001,open,9,Error from computing public key
+1034,2020-07-21 09:36:44.000000000,1970-01-01 00:00:00.000000001,open,4,ring v0.16.15 compiling failed in x86_64-pc-windows-gnu
+1033,2020-07-19 03:24:46.000000000,2020-08-04 02:55:26.000000000,closed,2,Remove the use of `Block` from `aead::Tag`.
+1032,2020-07-16 21:54:43.000000000,1970-01-01 00:00:00.000000001,open,0,ld.lld: error: curve25519.c:(.debug_info+0x1B9F9): has non-ABS relocation R_386_GOTOFF against symbol 'd2' when cross compiling from x64 to i686-unknown-linux-gnu
+1031,2020-07-13 10:05:37.000000000,1970-01-01 00:00:00.000000001,open,4,Access violation in release builds of agreement_tests under MSVC 2017
+1030,2020-07-11 12:06:14.000000000,1970-01-01 00:00:00.000000001,open,0,"ECDSA (x, y) to UnparsedPublicKey"
+1029,2020-07-09 12:10:23.000000000,2020-07-27 20:50:52.000000000,closed,2,Why P256 parameter different from recommended parameter
+1028,2020-07-05 22:57:57.000000000,2020-07-06 18:07:31.000000000,closed,0,"Remove the use of `Block` and `unsafe` from `aead::{counter, iv}`."
+1027,2020-07-05 22:53:10.000000000,2020-07-05 22:54:41.000000000,closed,0,Make small arrays of `endian::Encoding` types a little easier to use.
+1026,2020-07-05 21:44:31.000000000,2020-07-05 21:46:36.000000000,closed,0,Clarify `endian`.
+1025,2020-07-05 21:33:53.000000000,2020-07-05 21:36:04.000000000,closed,0,"Split `aead::nonce` into `aead::{counter, iv, nonce}`."
+1024,2020-07-04 04:56:46.000000000,2020-07-05 21:16:45.000000000,closed,0,Simplify counter/nonce handling and endian conversions; remove use of `unsafe` in nonce.rs
+1023,2020-07-02 00:19:31.000000000,2020-07-06 13:03:34.000000000,closed,2,error: failed to run custom build command for ring v0.16.15
+1022,2020-07-01 01:20:01.000000000,1970-01-01 00:00:00.000000001,open,2,WIP: Remove `Block` from AES modules
+1021,2020-06-25 21:11:37.000000000,1970-01-01 00:00:00.000000001,open,0,Remove the internal `Block` type
+1020,2020-06-25 21:07:54.000000000,2020-06-26 00:09:10.000000000,closed,0,Remove use of `Block` from Chacha20-Poly1305.
+1019,2020-06-24 21:16:16.000000000,1970-01-01 00:00:00.000000001,open,2,Failed build with taget-cpu=native
+1018,2020-06-24 17:15:36.000000000,1970-01-01 00:00:00.000000001,open,5,"Unable to cross-compile to macOS (and iOS) from non-macOS host (cc1: error: unrecognised debug output level ""full"", etc.)"
+1017,2020-06-22 20:55:15.000000000,2020-06-22 21:22:51.000000000,closed,6,"RSASHA256 signature verifies with OpenSSL, but not with *ring*"
+1016,2020-06-21 08:32:11.000000000,2020-06-25 21:13:43.000000000,closed,4,Remove unsafe uses of core::mem::transmute
+1015,2020-06-19 23:03:17.000000000,2020-06-25 20:32:40.000000000,closed,3,Help verifying a signature
+1014,2020-06-19 03:45:26.000000000,2020-06-19 03:48:10.000000000,closed,0,Clarify `EcdsaKeyPair::from_private_key_and_public_key` key formats.
+1013,2020-06-19 03:35:00.000000000,2020-06-19 04:05:02.000000000,closed,0,Remove unused `LIMBS_copy`.
+1012,2020-06-17 19:46:53.000000000,2020-06-19 20:32:27.000000000,closed,0,Update MSVC configuration used by AppVeyor.
+1011,2020-06-16 01:34:36.000000000,1970-01-01 00:00:00.000000001,open,0,Replace P-256 arithmetic with BoringSSL's P-256 arithmetic.
+1010,2020-06-16 01:04:52.000000000,2020-06-16 01:06:05.000000000,closed,0,Add doc/link-to-readme.md to the published crate.
+1009,2020-06-12 20:45:32.000000000,2020-06-16 01:06:05.000000000,closed,1,ring is affected by a nightly Cargo regression
+1008,2020-06-10 23:29:35.000000000,2020-06-11 05:18:41.000000000,closed,0,Use `constant_time_select_w` consistently in P-256 and P-384 point selection.
+1007,2020-06-10 23:14:12.000000000,1970-01-01 00:00:00.000000001,open,0,Add arm feature detection for FreeBSD
+1006,2020-06-10 22:07:00.000000000,2020-06-10 23:26:06.000000000,closed,0,Merge BoringSSL through 49e95dc
+1005,2020-06-10 02:05:12.000000000,2020-06-10 05:59:17.000000000,closed,0,Shrink P-256 implementation for most targets.
+1004,2020-06-09 01:27:09.000000000,2020-06-09 21:59:36.000000000,closed,0,Reset MSRV to 1.36 for common platforms.
+1003,2020-06-08 23:17:52.000000000,1970-01-01 00:00:00.000000001,open,1,Ed25519: Please generalize exporting a key into PKCS#8 format
+1002,2020-06-08 20:56:14.000000000,2020-07-30 01:55:30.000000000,closed,4,Curve25519: Please provide functionality to perform scalar multiplication
+1001,2020-06-06 02:06:04.000000000,2020-06-09 21:59:49.000000000,closed,5,"Build fails with ""error: attributes cannot be applied to method arguments"""
+1000,2020-06-05 22:20:49.000000000,2020-06-09 01:02:46.000000000,closed,0,Remove commented-out code from ecp_nistz256-armv4.pl.
+999,2020-06-04 21:38:29.000000000,2020-06-19 23:04:39.000000000,closed,1,Add cross-compiling documentation
+998,2020-06-02 23:15:32.000000000,2020-06-03 03:55:38.000000000,closed,0,Merge BoringSSL through 47b1e39.
+997,2020-05-30 06:36:05.000000000,2020-05-30 08:03:55.000000000,closed,0,Update sha512-x86_64.pl to match BoringSSL in using AVX1.
+996,2020-05-30 02:06:56.000000000,2020-05-30 06:07:21.000000000,closed,0,Implement RSA signature support for WebAssembly.
+995,2020-05-29 20:54:13.000000000,1970-01-01 00:00:00.000000001,open,0,Avoid debug assertions even in debug builds.
+994,2020-05-29 20:42:49.000000000,2020-05-30 02:04:42.000000000,closed,0,Disable assertions on secret data even in debug builds.
+993,2020-05-28 01:15:25.000000000,2020-05-29 01:17:01.000000000,closed,0,Use BoringSSL's aes_nohw.c fallback AES implementation.
+992,2020-05-27 22:30:06.000000000,2020-05-27 23:59:53.000000000,closed,0,"Add new ""wasm32_c"" feature to enable more functionality for wasm32 targets."
+991,2020-05-24 22:21:14.000000000,2020-05-25 19:52:42.000000000,closed,1,Fix doc typo
+990,2020-05-21 22:47:55.000000000,2020-05-22 03:44:43.000000000,closed,0,Optimize AES on AES-NI-less ARMv7 and x86-64 targets.
+989,2020-05-18 15:46:56.000000000,2020-05-19 10:20:47.000000000,closed,2,Any example on how to extract the AAD from the ciphertext before decryption?
+988,2020-05-17 14:11:05.000000000,1970-01-01 00:00:00.000000001,open,5,Support streaming AEAD AES GCM
+987,2020-05-13 20:51:40.000000000,1970-01-01 00:00:00.000000001,open,0,PBKDF2 API does not support types that fully encapsulate secret inputs
+986,2020-05-13 14:37:40.000000000,1970-01-01 00:00:00.000000001,open,10,"""cargo build"" failed on s390x platform"
+985,2020-05-06 19:40:41.000000000,2020-05-07 01:38:43.000000000,closed,0,Fix code coverage test builds in recent Nightly Rust.
+984,2020-05-06 14:18:44.000000000,2020-05-06 22:25:34.000000000,closed,6,Recent update of cc dependency breaks compatibility with usage of other crates that restrict the version of cc
+983,2020-05-06 01:41:51.000000000,1970-01-01 00:00:00.000000001,open,0,Document and test MSRV
+982,2020-05-06 01:40:34.000000000,2020-06-19 20:47:38.000000000,closed,1,ChaCha: use `slice::copy_within` instead of `core::ptr::copy`.
+981,2020-05-05 22:39:40.000000000,2020-05-06 19:57:34.000000000,closed,0,AES-GCM: Implement fallback GCM in Rust instead of C
+980,2020-05-05 22:32:24.000000000,2020-05-05 22:38:11.000000000,closed,0,AEAD: `Block::u64s_be_to_native` doesn't mutate `self`.
+979,2020-05-05 20:47:27.000000000,2020-05-06 19:14:11.000000000,closed,4,[NOT ISSUE]   HELP NEED for ECIES implementation  
+978,2020-05-05 20:27:29.000000000,2020-05-05 22:00:42.000000000,closed,0,.gitignore: Ignore log files.
+977,2020-05-05 02:48:48.000000000,2020-05-05 20:18:01.000000000,closed,2,"AES: Replace ""aliasing pointer"" pattern with `MaybeUninit` pattern."
+976,2020-05-04 20:51:14.000000000,2020-05-05 02:40:18.000000000,closed,0,More no-op BoringSSL merges.
+975,2020-05-02 04:01:52.000000000,2020-05-02 06:59:38.000000000,closed,0,Remove more dead code.
+974,2020-05-01 04:02:32.000000000,2020-05-01 19:40:22.000000000,closed,0,Remove unused upstream code.
+973,2020-05-01 02:06:48.000000000,2020-05-04 19:54:20.000000000,closed,0,Merge BoringSSL 9855c1c: Add a constant-time fallback GHASH implementation.
+972,2020-04-30 21:32:08.000000000,2020-05-01 02:01:56.000000000,closed,0,AEAD: Reduce the amount of `unsafe` code in `Block`
+971,2020-04-30 00:54:26.000000000,2020-04-30 00:58:33.000000000,closed,2,Support AES-GCM on targets for which we do not have assembly language code.
+970,2020-04-30 00:29:42.000000000,2020-04-30 21:30:03.000000000,closed,0,Clarify GCM FFI code
+969,2020-04-28 20:36:35.000000000,2020-04-29 21:20:21.000000000,closed,0,0.16.13: Update all dependencies.
+968,2020-04-28 03:01:29.000000000,2020-04-28 20:02:55.000000000,closed,1,Fix the case where a `cargo` environment variable is set in build.rs.
+967,2020-04-25 23:02:59.000000000,2020-04-26 23:21:46.000000000,closed,2,ECDSA verify failure for signature obtained from Intel SGX SDK
+966,2020-04-25 21:10:12.000000000,1970-01-01 00:00:00.000000001,open,3,Fix compilation on DragonFly
+965,2020-04-24 19:29:33.000000000,2020-04-28 04:40:53.000000000,closed,1,[cargo] Remove no-op 'exclude' field
+964,2020-04-15 17:46:30.000000000,2020-04-28 02:30:33.000000000,closed,1,RsaKeyPair::sign is fallible?
+963,2020-04-15 17:19:36.000000000,2020-04-28 22:28:59.000000000,closed,6,Build failure if `cargo` environment variable exists
+962,2020-03-27 20:20:56.000000000,2020-03-27 20:36:07.000000000,closed,3,Stop using intra-rustdoc links until they are stable.
+961,2020-03-27 16:45:19.000000000,2020-03-27 20:40:28.000000000,closed,2,Fix intra-doc links (fixes #958)
+960,2020-03-23 18:49:51.000000000,1970-01-01 00:00:00.000000001,open,12,"Build failure on Windows UWP target (aarch64-uwp-windows-msvc, x86_64-uwp-windows-msvc, i686-uwp-windows-msvc)"
+959,2020-03-02 23:24:30.000000000,2020-03-27 21:08:09.000000000,closed,2,Allow long-lived keys for non-interactive ECDH
+958,2020-03-01 17:33:03.000000000,2020-03-27 20:45:26.000000000,closed,1,docs.rs doc build error
+957,2020-03-01 07:51:57.000000000,2020-03-05 05:25:50.000000000,closed,6,"""-Wpedantic"" not recognized as warning flag, breaking windows-gnu build."
+956,2020-02-27 23:22:01.000000000,2020-03-27 20:46:10.000000000,closed,1,Make der parser and writer public
+955,2020-02-18 13:11:05.000000000,2020-04-28 20:19:00.000000000,closed,5,"Ed25519KeyPair verification outputs ""Unspecified"" ~1/3 of the time in ring 0.16.11"
+954,2020-02-16 06:11:23.000000000,2020-02-16 07:39:57.000000000,closed,2,How to generate random numbers?
+953,2020-02-14 10:28:36.000000000,2020-02-16 07:37:27.000000000,closed,3,Where all the crypto at?
+952,2020-02-12 02:01:44.000000000,2020-04-28 20:23:01.000000000,closed,6,Support for 1024b RSA SHA-512 keys used in DNSSEC
+951,2020-02-05 00:42:51.000000000,2020-04-29 21:29:48.000000000,closed,2,Add git tags for releases
+950,2020-02-04 23:39:02.000000000,1970-01-01 00:00:00.000000001,open,0,Verify more RSA public key length edge cases
+949,2020-02-04 23:02:35.000000000,2020-02-04 23:03:13.000000000,closed,0,Fix typo in `RsaPublicKeyComponents` documentation.
+948,2020-02-04 04:52:38.000000000,2020-02-04 20:59:32.000000000,closed,0,Merge BoringSSL through commit 98f969491ce613f146087d6c694808b7d0e81d88
+947,2020-01-31 19:30:20.000000000,2020-03-27 20:47:38.000000000,closed,1,Document the ASN.1 codec
+946,2020-01-30 01:19:46.000000000,2020-01-30 04:31:45.000000000,closed,0,armv7-linux-androideabi: Re-enable CI/CD except for running tests in the emulator.
+945,2020-01-29 21:46:29.000000000,2020-01-30 01:13:09.000000000,closed,0,Temporarily disable armv7-linux-androideabi on Travis CI.
+944,2020-01-29 01:35:58.000000000,1970-01-01 00:00:00.000000001,open,0,Verify that we support non-executable stacks correctly
+943,2020-01-28 18:25:26.000000000,1970-01-01 00:00:00.000000001,open,3,Initial little-endian MIPS64 port
+942,2020-01-28 04:57:56.000000000,1970-01-01 00:00:00.000000001,open,6,Uniform random integers in specific range
+941,2020-01-26 22:11:19.000000000,2020-01-28 00:04:59.000000000,closed,1,"AES-GCM & RSA: Work around ""Illegal instruction"" in 32-bit ARM Android emulator."
+940,2020-01-25 02:00:06.000000000,2020-01-28 21:41:16.000000000,closed,4,Fail build on windows 10
+939,2020-01-24 12:41:16.000000000,2020-02-12 20:30:19.000000000,closed,6,Speed up SHA1 computation
+938,2020-01-24 05:11:13.000000000,2020-06-19 20:50:51.000000000,closed,3,Remove definitions of deprecated `Error::description()` and `Error::cause()`.
+937,2020-01-24 04:54:34.000000000,2020-01-31 02:03:49.000000000,closed,3,Fix RSA verification panic for modulus with length not evenly divisible by `LIMB_BYTES`
+936,2020-01-11 21:25:28.000000000,2020-02-04 00:48:35.000000000,closed,1,Consider enabling auto build cancel on Travis CI
+935,2020-01-11 19:57:06.000000000,2020-06-19 20:51:58.000000000,closed,5,Add musl targets to CI.
+934,2020-01-09 19:03:47.000000000,2020-06-11 19:59:36.000000000,closed,4,Add x86_64-unknown-linux-musl to CI/CD
+933,2020-01-04 23:49:42.000000000,2020-01-24 05:13:23.000000000,closed,1,Remove deprecated Error::description and Error::cause
+932,2020-01-03 21:31:05.000000000,1970-01-01 00:00:00.000000001,open,1,Code coverage reports are indicating <90% code coverage
+931,2020-01-03 02:59:44.000000000,1970-01-01 00:00:00.000000001,open,0,CPU feature detection may be racy
+930,2020-01-03 02:48:37.000000000,2020-04-28 03:51:24.000000000,closed,1,Switch `dev_urandom_fallback` to use `once_cell` instead of `lazy_static!`
+929,2020-01-02 03:36:43.000000000,2020-01-31 21:46:42.000000000,closed,5,Panic in RSA verification on real-world data
+928,2019-12-28 00:03:45.000000000,2020-05-22 01:29:15.000000000,closed,3,confusing documentation on NonceSequence
+927,2019-12-27 10:44:10.000000000,2019-12-27 13:54:01.000000000,closed,0,Fix code coverage by expanding options and using Nightly Rust.
+926,2019-12-24 19:26:53.000000000,2019-12-27 07:50:41.000000000,closed,0,Add HKDF HMAC-SHA1 for lagacy use
+925,2019-12-24 03:20:30.000000000,2019-12-24 05:41:08.000000000,closed,0,Stop disabling legacy_directory_ownership to fix Rust 1.41 beta chanel builds
+924,2019-12-24 02:28:42.000000000,2020-05-04 20:00:34.000000000,closed,2,Replace `lazy_static` and `spin` dependencies with `conquer-once`.
+923,2019-12-23 23:09:38.000000000,2019-12-24 05:41:28.000000000,closed,0,Use `#[inline(always)]` consistently in sha2.rs `rotr` functions.
+922,2019-12-23 23:04:37.000000000,2019-12-23 23:09:13.000000000,closed,1,Fix warnings emitted by rustc 1.40.
+921,2019-12-18 04:48:16.000000000,1970-01-01 00:00:00.000000001,open,30,spin-rs no longer maintained (dependency)
+920,2019-12-10 22:40:24.000000000,1970-01-01 00:00:00.000000001,open,1,Supprt VxWorks
+919,2019-12-06 03:44:02.000000000,2019-12-06 03:44:46.000000000,closed,2,Support VxWorks
+918,2019-12-02 16:02:04.000000000,1970-01-01 00:00:00.000000001,open,19,Which features work with WASM (WebAssembly)?
+917,2019-11-24 01:39:57.000000000,1970-01-01 00:00:00.000000001,open,1,SystemRandom: Fix #326 - Prefer getrandom(2) on FreeBSD
+916,2019-11-22 07:44:15.000000000,1970-01-01 00:00:00.000000001,open,1,How to use SM2/3/4 in ring
+915,2019-11-14 00:19:50.000000000,1970-01-01 00:00:00.000000001,open,0,Add sign_digest to EcdsaKeyPair to allow signing of pre-digested messages.
+914,2019-11-01 18:01:39.000000000,2019-12-23 23:05:42.000000000,closed,2,Remove `#[inline]` attributes on function prototypes
+913,2019-10-30 11:51:33.000000000,2019-12-23 23:42:50.000000000,closed,5,Use slice::iter
+912,2019-10-26 19:52:13.000000000,2020-06-19 20:54:04.000000000,closed,5,Added TestRandom: Deterministic random for testing.
+911,2019-10-19 19:28:49.000000000,1970-01-01 00:00:00.000000001,open,1,There is no way to construct hkdf::Algorithm with HMAC_SHA1_FOR_LEGACY_USE_ONLY
+910,2019-10-17 14:58:21.000000000,1970-01-01 00:00:00.000000001,open,0,Add reusable private key to agreement
+909,2019-10-17 13:38:30.000000000,1970-01-01 00:00:00.000000001,open,0,"Add {OpeningKey, LessSafeKey}::open_in_place_separate_tag"
+908,2019-10-16 21:44:05.000000000,1970-01-01 00:00:00.000000001,open,0,Add support for 128-bit AES-GCM randomly-generated nonces
+907,2019-10-15 11:15:02.000000000,2019-10-15 17:21:11.000000000,closed,3,question: How can I use openssl to calculation tag which ring append on encrypted stuff?
+906,2019-10-15 11:02:05.000000000,2020-04-30 00:56:05.000000000,closed,3,Failing to build on PPC64 Linux
+905,2019-10-12 14:16:10.000000000,1970-01-01 00:00:00.000000001,open,3,Add support for nasm
+904,2019-10-11 13:04:21.000000000,2019-11-22 21:42:13.000000000,closed,6,Feature gate web-sys
+903,2019-10-09 02:28:14.000000000,2020-06-19 21:07:03.000000000,closed,3,Fix iOS builds for 32bit arm targets (armv7/armv7s)
+902,2019-10-06 21:29:34.000000000,1970-01-01 00:00:00.000000001,open,7,Make license information machine readable
+901,2019-09-29 19:27:55.000000000,1970-01-01 00:00:00.000000001,open,11,Add support for Redox
+900,2019-09-18 10:53:20.000000000,1970-01-01 00:00:00.000000001,open,10,Support WASI
+899,2019-09-16 01:24:16.000000000,1970-01-01 00:00:00.000000001,open,5,How to use NonceSequence properly
+898,2019-09-12 08:12:42.000000000,2019-09-12 14:32:49.000000000,closed,4,website cannot access
+897,2019-09-01 20:12:21.000000000,2020-06-19 23:04:39.000000000,closed,12,Document how `TARGET_CC` (and not `CC`) must be set for Android (and other cross) targets
+896,2019-08-30 05:32:38.000000000,2019-08-31 20:01:30.000000000,closed,2,AES-256-GCM 128 bit IV?
+895,2019-08-29 12:22:45.000000000,2019-08-30 19:55:24.000000000,closed,3,0.16.8 breaks aead::LessSafeKey
+894,2019-08-27 19:16:45.000000000,1970-01-01 00:00:00.000000001,open,2,Unable to cross compile to Windows from Linux
+893,2019-08-27 04:38:40.000000000,1970-01-01 00:00:00.000000001,open,3,harden GFp_memcmp
+892,2019-08-25 18:58:26.000000000,1970-01-01 00:00:00.000000001,open,7,Add AArch64 feature detection for FreeBSD
+891,2019-08-23 17:55:36.000000000,1970-01-01 00:00:00.000000001,open,12,Add hkdf::Prk::expand_to_secret()
+890,2019-08-21 06:11:29.000000000,2019-09-19 06:12:39.000000000,closed,0,support pkcs12
+889,2019-08-20 17:54:34.000000000,1970-01-01 00:00:00.000000001,open,3,Introduce EcdsaKeyPair::from_private_key_unchecked.
+888,2019-08-15 15:31:45.000000000,2019-08-15 22:04:04.000000000,closed,1,Fix typo in hkdf: Prf -> Prk
+887,2019-08-13 21:24:55.000000000,2019-08-14 00:29:21.000000000,closed,4,AES API isn't intuitive for the uninitiated
+886,2019-08-13 15:34:19.000000000,2019-09-01 22:15:05.000000000,closed,1,"Clone for aead::UnboundKey, aes::Key, gcm::Key, chacha::Key."
+885,2019-08-11 00:27:50.000000000,1970-01-01 00:00:00.000000001,open,0,Make `RsaPublicKeyComponents` API consistent with `UnparsedPublicKey` API
+884,2019-08-06 16:35:37.000000000,2019-08-06 19:40:48.000000000,closed,1,Compiling on Ubuntu
+883,2019-08-01 05:46:49.000000000,2019-08-02 04:13:28.000000000,closed,13,Add RNG for Fortanix SGX
+882,2019-07-30 16:07:50.000000000,1970-01-01 00:00:00.000000001,open,2,EcdsaKeyPair from private key component only?
+881,2019-07-27 08:05:24.000000000,1970-01-01 00:00:00.000000001,open,3,How to use der (pem) encoded ECDSA public key?
+880,2019-07-27 00:36:58.000000000,2019-07-27 02:11:09.000000000,closed,5,Cannot make an HKDF PRK from bytes
+879,2019-07-17 01:55:17.000000000,2019-07-18 04:44:30.000000000,closed,0, Remove the libc dependency for most platforms.
+878,2019-07-16 11:49:03.000000000,2019-07-17 00:31:42.000000000,closed,2,Stop using `GFp_x25519_NEON` on iOS to match BoringSSL.
+877,2019-07-16 10:47:10.000000000,2019-07-17 00:33:44.000000000,closed,3,Undefined symbol for _GFp_x25519_NEON on ios armv7
+876,2019-07-16 07:13:46.000000000,1970-01-01 00:00:00.000000001,open,1,Use something better than `/dev/urandom` on Solaris
+875,2019-07-16 05:31:05.000000000,2019-07-16 11:33:56.000000000,closed,0,Don't require the C toolchain to provide assert.h for non-debug builds.
+874,2019-07-16 04:19:39.000000000,2019-07-16 07:30:41.000000000,closed,5,"Support FreeBSD, NetBSD, OpenBSD, and Solaris using `/dev/urandom`."
+873,2019-07-14 05:21:58.000000000,2019-07-16 12:03:18.000000000,closed,0,Make `std` a non-default feature.
+872,2019-07-13 22:51:32.000000000,2019-07-14 04:50:44.000000000,closed,0,Add a less strict AEAD API
+871,2019-07-12 04:08:32.000000000,2020-02-04 23:29:57.000000000,closed,13,Support for 1024-bit RSA
+870,2019-07-10 14:48:04.000000000,2020-02-04 23:37:47.000000000,closed,12,Support for weaker RSA keys used in DNSSEC
+869,2019-07-10 03:15:57.000000000,2019-07-10 11:15:19.000000000,closed,3,Make `std` an optional dependency. Require `alloc` instead.
+868,2019-07-08 04:53:34.000000000,2019-07-11 23:09:12.000000000,closed,2,Reduce the size of `hmac::Key` and `hmac::Context`
+867,2019-07-07 11:23:38.000000000,2019-07-08 10:36:28.000000000,closed,2,Building Ring for Docker Alpine Targets Fails
+866,2019-07-04 00:31:13.000000000,2019-07-04 01:30:50.000000000,closed,1,Download binary from tortall.net with HTTPS instead of HTTP
+865,2019-07-02 05:38:19.000000000,2019-07-02 10:13:35.000000000,closed,5,'SIZE_MAX' undeclared here
+864,2019-07-01 09:53:42.000000000,2019-07-02 11:14:55.000000000,closed,2,Asymmetric encryption with RSA
+863,2019-07-01 07:27:00.000000000,2019-07-01 14:35:28.000000000,closed,1,Add Rust SHA-2 implementation
+862,2019-07-01 03:13:46.000000000,1970-01-01 00:00:00.000000001,open,3,Inconsistencies in signing APIs
+861,2019-06-26 06:36:04.000000000,2019-07-02 07:55:47.000000000,closed,1,Add stricter check for Ed25519 signature malleability.
+860,2019-06-24 18:23:19.000000000,2019-07-12 22:45:20.000000000,closed,2,Solution for #461 and #491
+859,2019-06-20 10:18:01.000000000,1970-01-01 00:00:00.000000001,open,3,impl Clone and PartialEq for keypair types
+858,2019-06-19 05:00:31.000000000,2019-07-12 04:00:45.000000000,closed,5,Question: Can I store a nonce in the aad?
+857,2019-06-18 19:30:47.000000000,1970-01-01 00:00:00.000000001,open,4,readelf reports 7-A CPU with NEONv1 on non armv7 targets
+856,2019-06-18 13:04:15.000000000,2019-07-10 04:03:45.000000000,closed,2,Use slice::chunks on Windows
+855,2019-06-18 12:40:16.000000000,2019-06-18 22:59:48.000000000,closed,1,Use `/dev/urandom` fallback on Andorid
+854,2019-06-18 12:07:55.000000000,2019-07-17 01:15:18.000000000,closed,1,impl Clone for SystemRandom
+853,2019-06-18 09:35:37.000000000,1970-01-01 00:00:00.000000001,open,2,Only fallback to `/dev/urandom` on ENOSYS from getrandom.
+852,2019-06-18 09:02:16.000000000,2019-07-12 03:38:15.000000000,closed,4,Does Android 8.0 support the `getrandom` syscall?
+851,2019-06-17 12:30:26.000000000,2019-07-01 09:49:25.000000000,closed,3,Use modern C initialization syntax
+850,2019-06-17 08:08:44.000000000,2019-07-12 04:05:41.000000000,closed,1,Unify ring signature/verification constants
+849,2019-06-17 02:33:42.000000000,2020-04-02 01:06:20.000000000,closed,16,Version FFI symbols to allow cross-version linking
+848,2019-06-16 01:11:20.000000000,2019-06-18 05:42:12.000000000,closed,2,Add missing positive.rs to Cargo package includes
+847,2019-06-15 04:00:59.000000000,2019-06-15 04:37:01.000000000,closed,0,Replace `GFp_block128_xor` with Rust code.
+846,2019-06-15 02:38:21.000000000,2019-06-15 04:13:23.000000000,closed,1,Requesting Feedback: WIP changes to `rand.rs`
+845,2019-06-15 01:34:54.000000000,2020-06-19 20:55:12.000000000,closed,5,Adding AES_GCM_SIV implementation to Ring rust library
+844,2019-06-15 01:25:10.000000000,2019-07-02 10:22:10.000000000,closed,2,Switch to modern C initialization syntax
+843,2019-06-15 00:55:30.000000000,1970-01-01 00:00:00.000000001,open,4,"RSA 8192 is supported only for verification, not for signing"
+842,2019-06-15 00:10:51.000000000,2019-06-15 03:48:59.000000000,closed,0,Remove uses of `#include <string.h>`
+841,2019-06-14 07:00:49.000000000,2019-07-12 02:58:08.000000000,closed,2,how to setup NDK build environment and how to cross platform build for android 
+840,2019-06-14 04:17:10.000000000,2019-06-14 23:26:39.000000000,closed,1,Bring back the `ring::c` internal C types module.
+839,2019-06-14 00:54:12.000000000,2019-07-13 03:14:09.000000000,closed,7,Use libc::SYS_getrandom
+838,2019-06-14 00:28:43.000000000,1970-01-01 00:00:00.000000001,open,3,armv7-linux-androideabi tests are not being run
+837,2019-06-13 15:00:32.000000000,2019-06-13 22:56:19.000000000,closed,2,Prefer Rust types to libc types
+836,2019-06-13 13:42:15.000000000,2019-06-13 22:51:11.000000000,closed,1,Simplify core vs std usage
+835,2019-06-13 12:48:52.000000000,2019-06-13 22:43:58.000000000,closed,2,Fix bare_trait_objects warning on nightly
+834,2019-06-12 02:20:43.000000000,1970-01-01 00:00:00.000000001,open,0,Ed25519 PKCS#8 private keys with extra attributes are rejected
+833,2019-06-11 21:58:04.000000000,2019-07-12 22:41:17.000000000,closed,6,Document interoperability of Ed25519 PKCS#8 keys
+832,2019-06-06 19:40:16.000000000,2019-07-12 22:51:42.000000000,closed,5,Cross-compiling targeting macOS on a Linux host fails with GCC as the compiler
+831,2019-06-04 18:31:58.000000000,2019-06-13 23:00:31.000000000,closed,5,Generating a Nonce from random
+830,2019-05-29 13:49:44.000000000,2019-05-29 13:50:46.000000000,closed,0,failed to run custom build command for `ring v0.14.6`
+829,2019-05-29 13:49:24.000000000,2019-06-11 05:08:29.000000000,closed,5,error: failed to run custom build command for `ring v0.14.6`
+828,2019-05-28 03:10:50.000000000,2019-07-12 22:44:07.000000000,closed,4,nistp256 from Big Number
+827,2019-05-27 20:02:54.000000000,2019-07-12 04:41:35.000000000,closed,3,hmac::Key is too large
+826,2019-05-20 04:32:31.000000000,2020-06-19 20:59:50.000000000,closed,4,Allow the verification of an ECDSA signature given just a digest
+825,2019-05-19 02:20:12.000000000,1970-01-01 00:00:00.000000001,open,4,HMAC: Unify multi-part signing and verification
+824,2019-05-18 00:54:47.000000000,1970-01-01 00:00:00.000000001,open,5,NIST curve p521 SHA-512 support
+823,2019-05-16 15:23:30.000000000,2019-05-16 16:44:14.000000000,closed,1,Build fail on debian wheezy
+822,2019-05-13 02:29:13.000000000,2019-07-10 04:03:17.000000000,closed,8,Support building with Bazel
+821,2019-05-12 01:33:30.000000000,2019-06-12 02:11:09.000000000,closed,1,Document/export some of bigint
+820,2019-05-10 07:59:44.000000000,2019-05-17 05:19:54.000000000,closed,4,windwos10 cargo build --target=arm-unknown-linux-gnueabihf -vv
+819,2019-05-08 22:48:38.000000000,2020-02-06 01:44:54.000000000,closed,10,wip: ppc64/ppc support
+818,2019-05-08 02:26:18.000000000,2020-02-04 03:46:42.000000000,closed,2,Fails to compile for `mips-unknown-linux-musl` target
+817,2019-05-06 22:27:49.000000000,2019-05-06 23:52:26.000000000,closed,3,Ring 0.14.6 fails to build using VS 11.0 build tools
+816,2019-05-06 20:05:21.000000000,2019-06-14 01:10:02.000000000,closed,3,Adding AES_GCM_SIV ASM (x86_64) code to Ring
+815,2019-05-03 02:39:57.000000000,2019-05-03 21:31:13.000000000,closed,2,Failing to compile to `armv7-unknown-linux-gnueabihf` from Ubuntu 16.04 running on WSL
+814,2019-04-30 07:55:59.000000000,2019-05-09 06:18:50.000000000,closed,32,add `powerpc` target
+813,2019-04-29 14:29:22.000000000,1970-01-01 00:00:00.000000001,open,17,"""attempt to use an ARM instruction on a Thumb-only processor"" building for thumbv7em-none-eabi"
+812,2019-04-26 18:59:26.000000000,2019-05-19 00:57:59.000000000,closed,8,Provide a verify function in hmac context
+811,2019-04-21 17:15:13.000000000,2019-04-22 11:42:05.000000000,closed,1,Fix typo in docs
+810,2019-04-16 19:03:03.000000000,2019-07-04 01:30:50.000000000,closed,1,Yasm is downloaded using http in appveyor.bat
+809,2019-04-11 02:22:44.000000000,2019-04-11 22:20:16.000000000,closed,1,Compilation fix on recent libstd
+808,2019-04-10 01:41:02.000000000,2019-07-17 01:16:12.000000000,closed,4,Make SystemRandom Clone and Copy
+807,2019-03-30 21:37:06.000000000,2019-04-15 23:57:19.000000000,closed,4,Derive clone for hmac key
+806,2019-03-29 19:58:36.000000000,2019-04-15 23:57:19.000000000,closed,2,Should hmac::SigningKey (also) implement Clone?
+805,2019-03-20 07:33:33.000000000,2019-07-18 09:25:39.000000000,closed,4,Improve the usability of the AEAD API
+804,2019-03-12 02:09:55.000000000,1970-01-01 00:00:00.000000001,open,14,Add mipsel to Travis CI setup
+803,2019-03-10 06:02:01.000000000,2020-06-19 20:57:59.000000000,closed,2,Provide an easier-to-use rand API
+802,2019-03-07 10:54:22.000000000,1970-01-01 00:00:00.000000001,open,2,Remove the buildpath from debug info in files compiled by gcc and clang.
+801,2019-03-07 04:33:35.000000000,2019-08-01 05:45:55.000000000,closed,15,Add more variants of ECDSA / SHA2 signing
+800,2019-03-06 07:24:56.000000000,2019-07-12 04:22:29.000000000,closed,1,Mark SHA-1 features deprecated.
+799,2019-02-27 00:10:06.000000000,2019-03-02 01:46:12.000000000,closed,1,Add diagnostic when compiling for a non-supported platform
+798,2019-02-25 17:26:49.000000000,2019-07-12 03:00:18.000000000,closed,14,out of range immediate fixup value for ndk r18b and arm
+797,2019-02-24 20:34:08.000000000,2019-06-14 01:15:16.000000000,closed,5,"On OpenBSD, use arc4random_buf to implement SystemRandom::fill()"
+796,2019-02-23 21:39:49.000000000,2019-02-24 00:52:44.000000000,closed,1,Fix documentation around openssl RSA pkcs8 commands
+795,2019-02-22 07:10:22.000000000,2020-02-12 20:44:58.000000000,closed,8,Implement RSAKeyPair from components take #2
+794,2019-02-19 23:39:34.000000000,2019-02-20 18:57:06.000000000,closed,1,convert doc comment to regular comment
+793,2019-02-19 14:52:05.000000000,1970-01-01 00:00:00.000000001,open,3,add brainpool curves support
+792,2019-02-19 04:28:25.000000000,2019-02-28 10:22:46.000000000,closed,6,Targeting ARMv6 produces an ARMv7 binary
+791,2019-02-08 19:27:33.000000000,2019-02-11 06:19:18.000000000,closed,6,Compilation fails on MacOS
+790,2019-02-07 16:59:51.000000000,2019-06-16 11:34:42.000000000,closed,1,Use Once instead of lazy_static
+789,2019-02-07 01:39:06.000000000,2019-06-13 23:47:09.000000000,closed,1,"Stop using /dev/urandom, except on Linux, and then only when `getrandom()` isn't available"
+788,2019-02-06 23:59:02.000000000,2019-08-08 23:34:15.000000000,closed,16,Permit algorithms to be used in associated consts
+787,2019-02-06 14:52:40.000000000,2020-05-23 03:46:55.000000000,closed,18,Add support for x86_64-unknown-uefi
+786,2019-02-06 08:11:46.000000000,2019-02-06 10:41:49.000000000,closed,3,Use `winapi` and `libc` on the respective platforms for OS/platform-specific types
+785,2019-02-06 02:15:21.000000000,2019-07-12 22:27:28.000000000,closed,2,Use Rust in favor of most 32-bit x86 assembly language implementations
+784,2019-02-01 19:12:54.000000000,2019-02-06 04:07:41.000000000,closed,3,Build fails for ring v0.14.3 on Ubuntu with macOS as target (nightly).
+783,2019-02-01 11:01:26.000000000,2019-07-12 04:19:01.000000000,closed,9,Run aarch64 android tests on travis.
+782,2019-02-01 00:26:08.000000000,1970-01-01 00:00:00.000000001,open,0,Parsing encrypted pkcs#8
+781,2019-01-31 05:31:11.000000000,2019-01-31 05:50:41.000000000,closed,1,Ring version 0.8.1 not yanked
+780,2019-01-31 02:54:58.000000000,2019-01-31 05:53:16.000000000,closed,1,I can't compile
+779,2019-01-30 17:56:07.000000000,1970-01-01 00:00:00.000000001,open,0,x86_64-fortanix-unknown-sgx only built on nightly
+778,2019-01-30 17:51:16.000000000,1970-01-01 00:00:00.000000001,open,0,No Continuous Testing (CT) setup for SGX
+777,2019-01-30 09:26:16.000000000,2019-01-31 07:42:33.000000000,closed,9,Build Android targeting API 26 and test with API 24 system image.
+776,2019-01-29 09:20:16.000000000,2019-01-31 08:10:38.000000000,closed,4,Add support for fuchsia system feature detection on aarch64
+775,2019-01-29 08:15:04.000000000,1970-01-01 00:00:00.000000001,open,27,Port to SGX
+774,2019-01-27 00:23:40.000000000,2019-01-27 00:40:20.000000000,closed,30,Why were all versions prior to 0.14 of this crate yanked?
+773,2019-01-26 07:25:02.000000000,2019-01-29 05:33:32.000000000,closed,8,Redo most AEAD and Curve25519 CPU feature detection in Rust.
+772,2019-01-23 16:23:59.000000000,2019-02-06 02:20:53.000000000,closed,3,Change Sealed to be public and unsafe trait
+771,2019-01-23 16:23:33.000000000,2019-02-06 02:21:09.000000000,closed,2,Added NotRandom: A dummy random generator for testing.
+770,2019-01-23 14:56:26.000000000,2019-01-24 01:59:25.000000000,closed,1,briansmith.org/rustdoc/ring is outdated
+769,2019-01-23 08:47:15.000000000,2019-01-23 23:15:47.000000000,closed,2,Remove misplaced code block boundary in STYLE.md
+768,2019-01-23 08:23:54.000000000,2019-01-23 23:18:29.000000000,closed,2,Allow `Aad` to own its contents.
+767,2019-01-22 06:18:47.000000000,2019-01-23 01:08:18.000000000,closed,2,Incorrect lifetime for AAD in open_in_place
+766,2019-01-20 04:35:20.000000000,2019-01-31 14:15:36.000000000,closed,10,Updates to Travis CI
+765,2019-01-19 01:15:04.000000000,2019-02-02 02:57:42.000000000,closed,23,Add support for fuchsia's CPRNG source
+764,2019-01-17 19:34:00.000000000,2019-01-29 08:21:58.000000000,closed,6, Added sgx feature for rand with `no-std`
+763,2019-01-16 19:39:13.000000000,2019-01-18 05:12:21.000000000,closed,6,Use Fn bound for kdf on agree_ephemeral.
+762,2019-01-15 20:46:52.000000000,2019-01-16 15:41:51.000000000,closed,2,Reduce crate size
+761,2019-01-15 19:35:08.000000000,2019-01-15 20:09:26.000000000,closed,3,Build for arm-linux-androideabi fails
+760,2019-01-15 11:10:57.000000000,1970-01-01 00:00:00.000000001,open,2,Support conversion between X25519 and Ed25519 keypairs
+759,2019-01-15 05:33:54.000000000,2019-01-31 14:18:49.000000000,closed,9,Replace libstd with spin crate in `cpu::cache_detected_features`.
+758,2019-01-13 11:57:44.000000000,2019-02-24 06:05:42.000000000,closed,12,Unable to cross compile to OpenWrt
+757,2019-01-10 12:05:06.000000000,2019-01-15 02:40:40.000000000,closed,3,Expand QUIC header protection API
+756,2019-01-05 15:38:00.000000000,2019-01-06 00:07:22.000000000,closed,1,Add ChaCha20 support to QUIC header protection
+755,2019-01-05 06:41:46.000000000,1970-01-01 00:00:00.000000001,open,0,Consider importing BoringSSL p256-x86_64_tests.txt.
+754,2019-01-05 06:16:35.000000000,2019-07-12 04:25:43.000000000,closed,2,Deprecate SHA-1 features
+753,2019-01-04 12:14:28.000000000,2019-01-04 15:26:41.000000000,closed,11,aead encryption/decryption turns nul 0's into ASCII 0 chars
+752,2019-01-04 07:52:21.000000000,1970-01-01 00:00:00.000000001,open,0,Switch from Yasm to NASM on Windows
+751,2019-01-04 07:03:07.000000000,2019-01-04 07:22:37.000000000,closed,0,Use `RingCore_` prefix instead of `GFp_` and prefix every symbol
+750,2019-01-04 05:27:41.000000000,2019-01-04 05:57:16.000000000,closed,1,Use `lazy_static!` for CPU feature detection to work with `#[no_std]`.
+749,2019-01-03 16:52:04.000000000,2019-01-05 06:02:51.000000000,closed,7,Implement QUIC header protection API
+748,2019-01-03 06:34:55.000000000,2019-01-03 11:45:32.000000000,closed,0,Remove heap allocation & file I/O from crypto/cpu-arm-linux.c.
+747,2019-01-03 03:07:46.000000000,2019-01-03 08:01:19.000000000,closed,0,Improvements useful for Rustls to migrate to *ring* 0.14
+746,2019-01-03 03:06:13.000000000,2019-01-05 06:11:09.000000000,closed,4,Remove last SHA-1 signature algorithm (RSA SHA-1).
+745,2018-12-27 23:53:05.000000000,2019-02-06 05:45:20.000000000,closed,3,Replace the use of `std::sync::Once` with `no_std`-compatible code
+744,2018-12-27 23:46:00.000000000,1970-01-01 00:00:00.000000001,open,24,Document how to port *ring* to a `no_std`-only platform
+743,2018-12-27 13:12:31.000000000,2018-12-28 02:07:24.000000000,closed,5,build fails (0.13.5) with rust nightly 
+742,2018-12-26 21:53:44.000000000,1970-01-01 00:00:00.000000001,open,1,Consider adding assert in chacha::Key::encrypt_overlapping
+741,2018-12-22 08:45:05.000000000,2018-12-22 09:06:40.000000000,closed,3,Make 'signature::KeyPair::public_key' a public function
+740,2018-12-14 10:43:43.000000000,2018-12-14 23:37:55.000000000,closed,3,Openssl-generated PKCS#8 encoded ed25519 private key cannot be imported
+739,2018-12-13 04:24:17.000000000,2020-06-19 20:54:30.000000000,closed,12,Implement static key agreement.
+738,2018-12-12 17:23:32.000000000,1970-01-01 00:00:00.000000001,open,41,Add support for x86_64-fortanix-unknown-sgx target
+737,2018-12-12 01:54:42.000000000,2018-12-15 02:39:35.000000000,closed,0,Implement high-level AES-GCM logic to Rust.
+736,2018-12-09 20:45:38.000000000,2018-12-10 23:56:35.000000000,closed,0,Replace `slice_as_array_ref!` and `slice_as_array_ref_mut!`
+735,2018-12-09 06:20:22.000000000,2018-12-09 12:39:18.000000000,closed,0,Switch to Rust 2018 Edition.
+734,2018-12-07 02:08:33.000000000,2018-12-09 04:10:26.000000000,closed,0,Simplify ChaCha
+733,2018-12-06 13:08:54.000000000,2019-09-04 06:31:00.000000000,closed,37,[WIP]: Rsa keygen
+732,2018-12-06 02:04:52.000000000,2018-12-07 01:50:35.000000000,closed,0,Simplify Poly1305
+731,2018-12-05 19:54:20.000000000,2018-12-05 23:40:17.000000000,closed,4,[WIP] Rsa keygen
+730,2018-11-27 14:57:48.000000000,1970-01-01 00:00:00.000000001,open,3,Document maximum AAD length per IV
+729,2018-11-27 07:14:23.000000000,2018-11-30 07:01:01.000000000,closed,0,Use Rust for RSA exponentiation.
+728,2018-11-26 09:33:35.000000000,1970-01-01 00:00:00.000000001,open,2,Provide an easier-to-use rand API
+727,2018-11-18 01:16:54.000000000,2018-11-27 10:22:31.000000000,closed,5,impl Clone for keys
+726,2018-11-17 00:11:46.000000000,2018-11-17 00:15:36.000000000,closed,2,What is the 0.13.5 version?
+725,2018-11-16 21:53:27.000000000,2018-11-16 21:56:00.000000000,closed,2,0.13.5 does not compile on stable: `crate` in paths is experimental
+724,2018-11-16 04:18:28.000000000,2018-11-16 07:30:29.000000000,closed,1,Misc. C code housekeeping.
+723,2018-11-16 02:12:43.000000000,2018-11-16 13:12:22.000000000,closed,0, Refactor `limbs_minimal_bits`.
+722,2018-11-16 01:56:53.000000000,2018-11-16 02:52:01.000000000,closed,0,Simplify RSA arithmetic
+721,2018-11-14 07:48:04.000000000,2018-12-22 07:04:26.000000000,closed,2,Sync with BoringSSL's cpuinfo parser
+720,2018-11-14 03:31:13.000000000,2018-11-16 02:52:27.000000000,closed,1,Fix `--no-default-features` build.
+719,2018-11-14 02:39:24.000000000,2018-11-16 03:12:44.000000000,closed,1,"Fix out-of-date comment: ""Keep this in sync with `aead_aes_gcm_ctx` in e_aes.c."""
+718,2018-11-12 00:23:57.000000000,2018-11-17 03:39:47.000000000,closed,1,Doesn't build with --no-default-features
+717,2018-11-10 06:27:00.000000000,2018-11-13 07:51:44.000000000,closed,0,Prepare for using rustfmt.
+716,2018-11-04 22:46:04.000000000,2019-02-06 05:44:05.000000000,closed,1,How to generate a non-pkcs8 serialised keypair?
+715,2018-11-03 09:39:32.000000000,1970-01-01 00:00:00.000000001,open,8,Reproducible builds: Buildpath embedded in binaries
+714,2018-10-30 15:08:54.000000000,2018-12-15 15:19:21.000000000,closed,3,Implement RSAKeyPair from components
+713,2018-10-30 10:12:19.000000000,1970-01-01 00:00:00.000000001,open,3,Add support for statically-linked musl libc Linux targets (-unknown-linux-musl)
+712,2018-10-30 05:50:30.000000000,2018-11-06 02:42:53.000000000,closed,1,Combine the two `Once`s in `ring::rand` into one
+711,2018-10-29 08:24:06.000000000,2018-11-06 02:34:04.000000000,closed,3,rand: replace lazy_static with std::sync::Once
+710,2018-10-25 04:11:57.000000000,2019-02-06 05:57:45.000000000,closed,1,Remove 192-bit AES support in ARM assembly.
+709,2018-10-25 03:31:58.000000000,2019-07-12 23:02:17.000000000,closed,3,Replace table-based AES code with table-free implementation
+708,2018-10-25 02:13:46.000000000,2018-10-25 03:52:33.000000000,closed,2,Refactor C code for AES key expansion.
+707,2018-10-25 00:29:34.000000000,2018-10-25 10:00:58.000000000,closed,2,Remove 192-bit key support from AES-NI assembly.
+706,2018-10-23 01:38:52.000000000,2018-11-06 02:38:56.000000000,closed,1,Remove lazy_static dependency
+705,2018-10-17 23:21:02.000000000,2018-10-25 10:00:58.000000000,closed,0,Remove 192-bit AES code
+704,2018-10-16 22:35:50.000000000,2018-11-16 03:20:56.000000000,closed,3,Streaming API for AEADs
+703,2018-10-12 04:05:46.000000000,2018-10-17 23:10:23.000000000,closed,2,Use rustup on AppVeyor
+702,2018-10-12 02:10:18.000000000,2018-10-24 09:08:12.000000000,closed,8,Make caller enforce invariants when setting AES encryption key
+701,2018-10-12 01:46:00.000000000,2018-10-12 02:55:54.000000000,closed,3,"Use ""stable"" instead of an explicit version for rust on appveyor"
+700,2018-10-09 17:35:20.000000000,2018-10-10 16:01:57.000000000,closed,3,ring v0.13.2 build failing
+699,2018-10-08 15:01:12.000000000,1970-01-01 00:00:00.000000001,open,8,Construct RSAKeyPair from components
+698,2018-10-08 14:14:45.000000000,2018-10-13 04:56:43.000000000,closed,5,impl core::fmt::Debug for hmac::SigningKey and hmac::SigningContext
+697,2018-10-07 10:49:24.000000000,2018-10-10 01:05:14.000000000,closed,2,chore: implement copy trait for Context
+696,2018-10-06 22:33:08.000000000,2018-10-23 01:54:38.000000000,closed,8,Use `#[repr(transparent)]` newtype to hold FFI error codes
+695,2018-10-06 03:37:48.000000000,2019-01-03 16:52:46.000000000,closed,15,Expose unauthenticated stream cipher API
+694,2018-10-03 22:20:54.000000000,2018-10-04 07:40:45.000000000,closed,2,crypto: replace aes_block_f and aes_ctr_f
+693,2018-10-02 02:55:52.000000000,2019-07-12 04:44:23.000000000,closed,14,Expose unauthenticated AES-CTR and ChaCha20 ciphers
+692,2018-09-24 09:26:06.000000000,2018-10-05 05:01:11.000000000,closed,3,Ring 0.11.0 failing to compile as a dependency on rustc 1.30.0-nightly (f49f6e73a 2018-09-23) on Windows
+691,2018-09-19 22:03:52.000000000,1970-01-01 00:00:00.000000001,open,13,RSAES-OAEP support
+690,2018-08-30 18:24:32.000000000,2019-02-06 02:26:38.000000000,closed,2,Add more variants to `der::Tag`
+689,2018-08-15 09:53:56.000000000,2018-10-05 05:30:39.000000000,closed,7,"no such instruction: adoxq, adcxq, mulxq, etc."
+688,2018-08-15 08:21:48.000000000,2018-10-29 06:07:19.000000000,closed,1,Save a key pair to a file
+687,2018-08-14 01:09:35.000000000,2018-10-21 11:19:17.000000000,closed,5,Very small fix so the PrivateKey and EphemeralPrivateKey structs can be copied.
+686,2018-08-09 16:14:07.000000000,2018-12-03 14:03:05.000000000,closed,7,cant build with vs2017 15.8.0 preview5 on windows10 17730
+685,2018-08-02 16:16:01.000000000,2018-10-05 05:24:26.000000000,closed,1,Parseing the Ed25519 pkcs8 byte array
+684,2018-08-01 14:21:05.000000000,1970-01-01 00:00:00.000000001,open,4,Add support for MIPS architectures in Travis
+683,2018-07-30 20:33:52.000000000,2018-07-30 21:19:14.000000000,closed,3,What does signature::Ed25519KeyPair::generate_pkcs8() create exactly?
+682,2018-07-24 18:44:26.000000000,2018-10-29 06:11:33.000000000,closed,2,Support encryption of serialized keys
+681,2018-07-23 23:32:36.000000000,2018-07-24 00:27:47.000000000,closed,5,Release 0.11.1 to dismiss Spectre warning on MSVC
+680,2018-07-21 17:45:22.000000000,2018-07-28 03:48:50.000000000,closed,5,Added `RING_DISABLE_PREGENERATED` enviroment flag
+679,2018-07-16 18:06:05.000000000,2018-07-17 00:19:20.000000000,closed,1,Add 0.13.2 release tag
+678,2018-07-13 20:50:38.000000000,2019-02-06 02:19:59.000000000,closed,2,Add NotRandom
+677,2018-07-13 17:28:00.000000000,2018-07-13 23:32:45.000000000,closed,1,error: failed to run custom build command for `ring v0.12.1`
+676,2018-07-12 18:57:54.000000000,2018-07-19 00:22:50.000000000,closed,6,Export ring::signature::ECDSASigning
+675,2018-07-12 10:02:20.000000000,2018-07-13 23:33:06.000000000,closed,1,Bump untrusted version
+674,2018-07-10 22:47:48.000000000,2018-07-11 03:44:17.000000000,closed,4,Add SeededFixedRandom
+673,2018-07-07 22:10:09.000000000,1970-01-01 00:00:00.000000001,open,13,"build fails on ancient but not-yet-EOL Linux distros (e.g. CentOS 6.8) - no such instruction: adoxq, adcxq, mulxq, etc."
+672,2018-07-06 23:20:33.000000000,2019-01-05 06:29:06.000000000,closed,9,API for obtaining ECDSA public key from an ECDSAKeyPair
+671,2018-06-29 17:37:14.000000000,2019-02-06 02:23:02.000000000,closed,4,Add multi-step hmac verification context
+670,2018-06-29 16:19:08.000000000,2018-07-13 02:24:46.000000000,closed,10,Unable to build on latest MSVC 2017
+669,2018-06-28 22:59:11.000000000,2018-10-29 06:12:44.000000000,closed,4,Improve the documentation
+668,2018-06-18 08:15:09.000000000,2018-06-22 15:00:26.000000000,closed,8,Cross-compiling on macOS for FreeBSD fails
+667,2018-06-17 09:00:11.000000000,2018-06-17 09:09:21.000000000,closed,3,ring 0.12.1 does not compile on Windows
+666,2018-06-15 06:35:54.000000000,2018-06-16 07:04:40.000000000,closed,0,Stop exporting `ChaCha20_ssse3`.
+665,2018-06-14 02:55:04.000000000,2018-06-14 02:57:51.000000000,closed,2,New side-channel vulnerability in ECDSA and DSA implementations
+664,2018-06-14 02:08:54.000000000,2018-06-14 02:31:09.000000000,closed,1,Remove left-over word
+663,2018-06-12 20:04:11.000000000,2018-06-14 03:05:19.000000000,closed,5,license verifications
+662,2018-06-12 04:21:17.000000000,2020-05-30 06:43:36.000000000,closed,2,Implement ECDSA nonce hardening to protect against bad PRNG.
+661,2018-06-09 14:57:28.000000000,1970-01-01 00:00:00.000000001,open,16,Adding deterministic SecureRandom for testing
+659,2018-06-02 06:05:26.000000000,2018-06-03 00:07:43.000000000,closed,2,Faster RSA Montgomery precomputation
+658,2018-05-30 15:15:53.000000000,2018-06-01 23:05:13.000000000,closed,5,Build will fail on Windows using MSVC due to a new warning introduced in the Build Tools
+657,2018-05-27 22:28:41.000000000,2019-07-10 06:01:36.000000000,closed,9,Build fails for wasm32-unknown-unknown target
+656,2018-05-24 23:02:00.000000000,1970-01-01 00:00:00.000000001,open,4,Add AES-CTR-HMAC AEADs
+655,2018-05-21 15:58:11.000000000,2018-05-21 22:15:11.000000000,closed,1,Add PBKDF2-HMAC-SHA256 test vectors from RFC 7914
+654,2018-05-16 20:55:32.000000000,1970-01-01 00:00:00.000000001,open,0,Add ECDSA for the secp256k1 curve
+653,2018-05-16 15:57:01.000000000,2018-05-16 20:57:25.000000000,closed,2,Adding features to support already out there standards
+652,2018-05-16 13:19:05.000000000,2018-05-18 22:21:29.000000000,closed,7,Use clang on travis with Android
+651,2018-05-10 16:06:45.000000000,2019-02-06 02:18:18.000000000,closed,4,Add NIST CAVP GCMVS tests
+650,2018-05-09 15:13:38.000000000,2018-05-11 02:47:11.000000000,closed,3,ignore new C5045 VS2017 warning
+649,2018-05-08 22:50:00.000000000,1970-01-01 00:00:00.000000001,open,0,Document Spectre/Meltdown situation
+648,2018-05-08 22:09:42.000000000,2018-05-11 05:34:11.000000000,closed,6,Windows build fails with VS 2017 15.7.0
+647,2018-05-08 00:20:25.000000000,2019-07-03 01:49:27.000000000,closed,1,The s value in ed25519 signatures isn't verified to be in range (signature malleability)
+646,2018-05-05 15:16:21.000000000,2018-05-05 21:48:47.000000000,closed,1,Add missing forward declaration for |LIMBS_equal_limb|.
+645,2018-05-03 15:54:01.000000000,2018-05-04 02:46:32.000000000,closed,2,Build failure on master
+644,2018-04-27 06:53:59.000000000,2019-07-12 22:53:14.000000000,closed,0,Add a C compiler test
+643,2018-04-27 06:14:42.000000000,2019-02-06 02:17:28.000000000,closed,4,Add NIST CAVP AES-GCM tests
+642,2018-04-21 01:45:10.000000000,2018-10-29 06:16:00.000000000,closed,3,Expose ChaCha20 directly
+641,2018-04-05 07:12:35.000000000,2019-07-12 04:47:40.000000000,closed,2,Windows build requires MSVCR100.dll
+640,2018-04-03 12:40:55.000000000,2018-04-03 20:48:43.000000000,closed,1,"Is it possible to generate RSA key pair, and how?"
+639,2018-03-21 17:15:10.000000000,2018-03-21 17:16:16.000000000,closed,1,Revert the library version changes
+638,2018-03-19 21:35:20.000000000,2018-04-05 23:43:20.000000000,closed,1,Remove -fdata-sections and -ffunction-sections (let cc set these if needed)
+637,2018-03-14 19:27:21.000000000,2019-02-06 05:44:51.000000000,closed,6,re-export `untrusted` to prevent version mismatch
+636,2018-03-12 18:47:11.000000000,2018-05-11 05:36:38.000000000,closed,3,"""error: static declaration of 'strtof' follows non-static declaration"" when building for ARM Android in some configurations"
+635,2018-03-12 12:13:06.000000000,2018-03-29 03:50:22.000000000,closed,7,Cannot parse RSA private keys generated with cfssl
+634,2018-03-06 03:34:42.000000000,2018-07-23 21:16:20.000000000,closed,9,Adds rng support for Fuchsia
+633,2018-03-01 19:14:23.000000000,2018-05-15 05:51:32.000000000,closed,13,Check __ANDROID_API__ instead of defining it automatically
+632,2018-02-15 13:47:07.000000000,2018-04-05 06:47:40.000000000,closed,3,Update to rayon 1.0
+631,2018-02-15 05:53:28.000000000,2019-02-13 00:46:30.000000000,closed,4,arm iOS: invalid operand for instruction
+630,2018-02-02 20:01:00.000000000,2018-02-06 23:41:25.000000000,closed,2,Add more examples ?
+629,2018-01-27 02:06:40.000000000,1970-01-01 00:00:00.000000001,open,1,"Verify that the Rust, C, and asm code all agree on alignments and other ABI issues for all types"
+628,2018-01-26 23:49:52.000000000,2019-07-12 22:47:08.000000000,closed,7,AES test (and AES-GCM) fails on ARMv7 (RPi3)
+627,2018-01-26 03:31:08.000000000,2018-05-11 05:57:32.000000000,closed,1,Some `ring` tests fail when run using `cargo test -p ring` outside the *ring* repo
+626,2018-01-21 10:33:29.000000000,1970-01-01 00:00:00.000000001,open,1,Replace C constant-time code with Rust code built in a separate stage
+625,2018-01-20 21:14:30.000000000,2018-01-21 08:31:48.000000000,closed,2,Change verify_slices_are_equal to use the subtle crate
+624,2018-01-15 15:44:56.000000000,2018-10-29 06:20:49.000000000,closed,4,AES-OCB
+623,2018-01-15 05:28:18.000000000,2018-07-13 02:46:20.000000000,closed,2,Remove syscall(2) dependency.
+622,2018-01-09 03:50:48.000000000,2019-01-31 16:19:04.000000000,closed,3,macOS to Android cross compile error: No such file or directory
+621,2018-01-07 17:42:41.000000000,2018-01-07 18:56:30.000000000,closed,6,Compilation error with latest version on nightly
+620,2018-01-05 09:33:30.000000000,2018-12-13 14:54:39.000000000,closed,8,truncate auth tag by passing a tag length.
+619,2018-01-03 02:43:51.000000000,2019-06-19 02:18:28.000000000,closed,45,Version all C/asm symbols to enable cross-version linking.
+618,2018-01-02 16:16:34.000000000,2018-01-09 02:43:48.000000000,closed,2,Issue #540 - Adds Debug implementation for public algorithm types
+617,2018-01-02 06:54:51.000000000,2018-01-09 23:45:59.000000000,closed,2,Remove dependency on syscall(2)
+616,2017-12-31 11:56:36.000000000,2019-02-06 02:22:48.000000000,closed,2,Add VerifyingContext
+615,2017-12-30 15:25:17.000000000,1970-01-01 00:00:00.000000001,open,3,Add `ring::hmac::VerifyContext`
+614,2017-12-30 08:25:12.000000000,2018-04-05 08:03:43.000000000,closed,3,Announce Mailing List
+613,2017-12-30 04:47:33.000000000,1970-01-01 00:00:00.000000001,open,0,Reference FIPS 186-4 as the reference for RSA key handling
+612,2017-12-30 04:43:28.000000000,1970-01-01 00:00:00.000000001,open,0,"Add ""digest is too large for RSA key"" tests"
+611,2017-12-30 04:34:34.000000000,1970-01-01 00:00:00.000000001,open,0,Sync Poly1305 code with BoringSSL (on ARM and maybe other targets)
+610,2017-12-29 02:17:43.000000000,2018-01-09 23:46:28.000000000,closed,2,Make per-nonce input size limit checks for AES-GCM consistent.
+609,2017-12-27 05:57:47.000000000,2017-12-27 06:00:24.000000000,closed,2,error[E0583]: file not found for module `montgomery`
+608,2017-12-26 22:24:00.000000000,1970-01-01 00:00:00.000000001,open,3,Support reusable private key for agreement
+607,2017-12-26 21:40:57.000000000,2017-12-26 23:21:41.000000000,closed,2,Latest stable `ring` (0.12.1) does not compile with nightly rust
+606,2017-12-25 15:07:31.000000000,2017-12-25 17:55:01.000000000,closed,0,Backport nightly fixes to V0.12
+605,2017-12-25 15:06:13.000000000,2017-12-25 17:54:43.000000000,closed,1,Backport nightly fixes to V0.11
+604,2017-12-25 12:50:08.000000000,2018-05-04 22:57:39.000000000,closed,20,Add support for RSA keys where p < q
+603,2017-12-25 01:58:06.000000000,2019-01-31 07:42:33.000000000,closed,22,Travis CI Android emulator-based tests for Android are broken
+602,2017-12-24 12:04:49.000000000,2017-12-25 09:35:44.000000000,closed,2,Support reusable private key for agreement
+601,2017-12-24 11:09:36.000000000,2018-05-08 04:07:09.000000000,closed,9,"Derive Clone for KeyPair, PrivateKey and Signature"
+600,2017-12-24 10:08:35.000000000,2019-03-10 03:34:57.000000000,closed,1,Use explicitly uninitialized constants in tests.
+599,2017-12-22 23:15:44.000000000,2017-12-25 01:54:11.000000000,closed,9,Update directory structure
+598,2017-12-22 06:18:39.000000000,2017-12-25 01:53:13.000000000,closed,19,file not found for module `montgomery`
+597,2017-12-19 19:30:04.000000000,2018-01-20 19:45:32.000000000,closed,4,32-bit counter wrap-around for AES_GCM modes
+596,2017-12-13 18:28:04.000000000,2017-12-13 22:26:17.000000000,closed,1,lower some dep versions
+595,2017-12-11 18:22:13.000000000,2017-12-14 15:27:35.000000000,closed,1,Multiple party ephemeral key ECDH
+594,2017-12-03 23:16:48.000000000,2017-12-24 02:49:27.000000000,closed,3,bump lazy_static to 1.0
+593,2017-11-28 11:41:19.000000000,2017-12-25 10:06:32.000000000,closed,4,An wrap to support using X25519 with static keys
+592,2017-11-10 14:23:58.000000000,2017-12-24 02:20:33.000000000,closed,1,Blind signature support
+591,2017-11-06 13:57:08.000000000,2017-12-24 02:40:19.000000000,closed,4,Be more specific about 'MSVC 2015 or later' error
+590,2017-11-03 12:32:00.000000000,2017-12-24 02:39:19.000000000,closed,2,"""MSVC 2015 or later is required."" should be """"MSVC 2015 Update 2 or later is required."""
+589,2017-11-02 07:25:39.000000000,1970-01-01 00:00:00.000000001,open,0,"Add support for ""PEM"" base64-encoded RSA private keys"
+588,2017-10-28 20:54:41.000000000,1970-01-01 00:00:00.000000001,open,13,"Add AES 256 and AES128, both in CBC mode"
+587,2017-10-26 17:26:09.000000000,2017-11-04 04:28:13.000000000,closed,2,Give access to a validation key's digest algorithm
+586,2017-10-25 20:02:37.000000000,2019-07-12 22:53:53.000000000,closed,2,Separate DER-handling code from the main crate
+585,2017-10-20 10:35:53.000000000,2018-05-15 07:27:48.000000000,closed,3,cannot compile ring 0.11 on latest nightly on msvc
+584,2017-10-19 04:06:20.000000000,2017-11-04 04:33:42.000000000,closed,6,"Add x86-64, ios, macosx to the ASM_TARGETS array; fixes build on x86_64-apple-ios (fixes #583)"
+583,2017-10-19 02:09:39.000000000,2017-12-24 02:42:48.000000000,closed,3,Fails to build on target x86_64-apple-ios
+582,2017-10-19 00:21:17.000000000,2017-12-28 06:01:57.000000000,closed,15,Exporting all components of RSA and ED25519 secret keys
+581,2017-10-14 14:08:51.000000000,2017-12-29 02:33:44.000000000,closed,3,ring::signature documentation example is broken
+580,2017-10-13 23:56:54.000000000,2017-10-18 12:27:32.000000000,closed,2," ""x86_64-pc-windows-gnu"" targer on windows"
+579,2017-10-11 19:06:58.000000000,1970-01-01 00:00:00.000000001,open,9,Exporting components of secret keys
+578,2017-10-10 23:16:24.000000000,2019-07-12 22:32:29.000000000,closed,17,Can't compile for armv6 or v7
+577,2017-10-10 12:57:35.000000000,2017-10-25 20:03:32.000000000,closed,3,Support AES-encrypted DER-encoded private keys
+576,2017-09-21 16:19:00.000000000,2017-09-22 05:43:48.000000000,closed,1,Linking fails with mingw64
+575,2017-09-01 03:24:10.000000000,2017-12-24 02:21:18.000000000,closed,7,Allow cross-version linkage
+574,2017-08-31 03:23:29.000000000,2017-08-31 03:38:21.000000000,closed,1,Unable to build project due to build error from ring
+573,2017-08-30 02:52:47.000000000,2017-08-30 03:00:54.000000000,closed,4,How to use AES_256_CBC 
+572,2017-08-30 02:17:17.000000000,2017-08-30 02:35:50.000000000,closed,3,Salsa20 Cipher
+571,2017-08-27 23:14:01.000000000,2017-08-28 02:10:28.000000000,closed,1,Fix broken link to the Rust book
+570,2017-08-17 18:17:55.000000000,2017-08-17 18:18:23.000000000,closed,0,Doesn
+569,2017-08-17 18:17:50.000000000,2017-08-17 18:18:31.000000000,closed,0,Doesn
+568,2017-08-17 12:53:20.000000000,2017-08-17 23:15:08.000000000,closed,2,Compressed Ed25519 public points can't always be decompressed
+567,2017-08-02 02:07:56.000000000,2017-08-19 04:26:52.000000000,closed,2,Bump rayon
+566,2017-07-28 17:44:57.000000000,2017-09-23 02:19:54.000000000,closed,4,Implement custom `Drop` trait for all private keys to zero memory
+565,2017-07-28 08:38:24.000000000,2017-07-28 11:19:41.000000000,closed,2,RSA signing example error
+564,2017-07-28 00:56:48.000000000,2017-12-24 10:09:31.000000000,closed,2,Don't initialize with [0; ...] in tests.
+563,2017-07-27 23:15:02.000000000,2017-07-31 17:50:04.000000000,closed,3,Build fails for x86_64-unknown-linux-musl target
+562,2017-07-21 03:01:12.000000000,1970-01-01 00:00:00.000000001,open,38,Add support for mips
+561,2017-07-20 19:54:42.000000000,2017-07-23 11:52:03.000000000,closed,2,Partially homomorphic encryption in scope?
+560,2017-07-20 04:56:55.000000000,2019-03-20 07:30:50.000000000,closed,1,HS1-SIV
+559,2017-07-20 04:50:06.000000000,1970-01-01 00:00:00.000000001,open,3,Constant time base64
+558,2017-07-20 04:47:22.000000000,1970-01-01 00:00:00.000000001,open,8,Verify `/dev/urandom` has been seeded before using it.
+557,2017-07-13 19:00:22.000000000,2017-07-21 16:28:03.000000000,closed,2,fix mingw cross compile advapi32 linking
+556,2017-07-12 17:09:59.000000000,2017-07-21 16:29:57.000000000,closed,3,Fix typo.
+555,2017-07-05 14:27:13.000000000,2017-07-06 14:24:46.000000000,closed,3,PKCS #7 / CMS signnature support
+554,2017-06-28 04:45:49.000000000,2017-08-28 02:10:46.000000000,closed,4,Link to first version of the Rust book is broken.
+553,2017-06-23 11:46:45.000000000,2017-09-04 04:47:08.000000000,closed,6,Implement PartialEq and Eq for algorithm types
+552,2017-06-20 00:33:30.000000000,2019-07-12 22:54:33.000000000,closed,3,Use -fstack-check when compiling C code
+551,2017-05-31 13:45:20.000000000,2017-06-10 05:21:16.000000000,closed,16,Error: no such instruction: vbroadcasti128 etc.
+550,2017-05-29 23:32:36.000000000,2017-05-31 05:06:12.000000000,closed,1,Updated a comment to no longer refer to an old method
+549,2017-05-27 12:42:44.000000000,2017-06-09 16:18:50.000000000,closed,6,build: use -shared when building objects with musl
+548,2017-05-27 05:09:46.000000000,2018-12-16 09:13:27.000000000,closed,7,Improve Travis CI Android Builds
+547,2017-05-26 14:30:43.000000000,2017-05-31 05:09:23.000000000,closed,1,Remove completed TLS 1.3 project from README
+546,2017-05-24 09:46:40.000000000,2017-05-26 11:46:15.000000000,closed,2,"Could not find native static library ""ring-test"" on Alpine Linux (using Docker)"
+545,2017-05-20 19:05:07.000000000,2017-09-25 09:16:52.000000000,closed,8,Export all components of all keys (secret and public)
+544,2017-05-19 23:28:24.000000000,2017-06-10 00:05:21.000000000,closed,7,musl/amd64: relocation R_X86_64_32 against hidden symbol can not be used when making a shared object
+543,2017-05-18 12:17:22.000000000,2017-12-30 08:41:06.000000000,closed,4,Reformat/re-indent all the source code with 2-space indents
+542,2017-05-18 12:10:00.000000000,2019-02-06 05:41:05.000000000,closed,4,Implement `PartialEq` and `Eq` for all public Algorithm types
+541,2017-05-18 12:04:47.000000000,2019-04-03 11:46:20.000000000,closed,1,Implement `core::fmt::Debug` for all key types.
+540,2017-05-18 12:02:15.000000000,2019-02-06 05:40:30.000000000,closed,2,Implement `core::fmt::Debug` for all public Algorithm types
+539,2017-05-17 01:50:01.000000000,2017-05-17 01:56:10.000000000,closed,1,Remove stray spaces in comment text
+538,2017-05-16 21:05:46.000000000,2017-05-16 23:27:41.000000000,closed,1,"X25519 and Ed25519 comment, constant cleanup"
+537,2017-05-16 18:48:32.000000000,2017-05-16 20:09:01.000000000,closed,9,Unable to build on archlinux after 15 of May 2017 update
+536,2017-05-14 23:31:27.000000000,2019-02-06 05:39:15.000000000,closed,1,Provide an example of using AEAD encryption and decryption with a fixed key.
+535,2017-05-08 23:08:30.000000000,1970-01-01 00:00:00.000000001,open,15,Prevent cross-version linkage while allowing multiple versions of *ring* to be used in the same program
+534,2017-05-08 22:54:55.000000000,2017-05-08 23:02:06.000000000,closed,3,add failing elem_inverse_invertible test
+533,2017-05-08 03:17:00.000000000,1970-01-01 00:00:00.000000001,open,1,Randomize the first bit of X25519 public keys
+532,2017-05-07 03:27:40.000000000,2017-07-20 05:31:40.000000000,closed,4,PPC32 acceleration (for certain cryptographic primitives)
+531,2017-05-06 15:30:24.000000000,2019-07-12 22:54:59.000000000,closed,0,Make it easier to map values to signature algorithms using `match`
+530,2017-05-06 14:45:54.000000000,2017-05-06 15:24:05.000000000,closed,12,PKCS#8 parsing of RSA public keys
+529,2017-05-06 14:07:51.000000000,2018-11-29 02:56:48.000000000,closed,7,Replace `error::Unspecified` with something just a little more useful
+528,2017-05-02 04:26:47.000000000,1970-01-01 00:00:00.000000001,open,0,Documentation: Add PKCS#8 RSA-PSS example ahead of the RSA PKCS#1 example
+527,2017-04-30 03:36:29.000000000,2017-05-14 11:02:19.000000000,closed,3,Replace cpu-intel.c with Rust and assembly
+526,2017-04-28 15:33:36.000000000,2017-09-25 09:39:05.000000000,closed,17,Add a simple example for aead
+525,2017-04-26 07:09:56.000000000,2018-07-13 02:47:15.000000000,closed,27,Port `X25519_scalar mult()` callers
+524,2017-04-25 22:58:07.000000000,2017-04-25 23:28:09.000000000,closed,5,Add a simple Drop for aead::Key
+523,2017-04-25 18:36:11.000000000,2017-06-25 00:23:00.000000000,closed,10,build fails on ubuntu
+522,2017-04-23 02:59:31.000000000,2017-04-24 12:08:20.000000000,closed,14,Port Curve25519 encoding operations
+521,2017-04-22 20:51:07.000000000,2017-04-22 22:23:53.000000000,closed,3,Build failing - `Elem` was already imported
+520,2017-04-20 10:56:02.000000000,2017-04-20 22:43:56.000000000,closed,4,Reorganize Curve25519-related modules.
+519,2017-04-20 05:54:54.000000000,2018-07-13 02:47:33.000000000,closed,7,Port Ed25519 element inversion to Rust.
+518,2017-04-18 22:47:05.000000000,2018-05-18 22:23:00.000000000,closed,2,Android on Travis CI: Cache unmodified AVD to make Travis CI builds faster
+517,2017-04-18 07:18:10.000000000,1970-01-01 00:00:00.000000001,open,16,AES-SIV
+516,2017-04-17 16:52:34.000000000,2019-07-12 22:35:14.000000000,closed,10,Build fails on armv6
+515,2017-04-16 02:57:52.000000000,2017-04-20 23:29:18.000000000,closed,5,Use OpenSSL's assembly implementations of memcmp
+514,2017-04-15 09:11:53.000000000,2018-07-13 02:45:32.000000000,closed,7,Remove the syscall(2) dependency.
+513,2017-04-15 08:11:46.000000000,2018-05-11 06:02:29.000000000,closed,4,Do calculation of RSA Montgomery RR in Rust
+512,2017-04-15 07:24:33.000000000,2017-04-17 08:29:59.000000000,closed,11,Convert random chunk generation from C to Rust
+511,2017-04-14 15:11:47.000000000,2017-06-10 05:54:45.000000000,closed,3,Expose rsa::padding::PKCS1?
+510,2017-04-13 05:18:31.000000000,2019-04-03 11:45:41.000000000,closed,7,Replace `GFp_x25519_ecdh()` and `GFp_x25519_public_from_private()` with Rust code
+509,2017-04-10 11:21:47.000000000,1970-01-01 00:00:00.000000001,open,0,Avoid fe_frombytes/fe_tobytes conversions (and similar ones for scalars) in curve25519.c
+508,2017-04-10 10:01:44.000000000,1970-01-01 00:00:00.000000001,open,9,Fix public key comparison for X25519 and Ed25519
+507,2017-04-10 07:56:57.000000000,2017-04-13 04:54:03.000000000,closed,4,WIP: Cache private scalar and prefix
+506,2017-04-10 06:51:21.000000000,2017-04-10 10:08:48.000000000,closed,2,Split internal storage of `Ed25519KeyPair`
+505,2017-04-09 23:00:09.000000000,2017-04-12 03:58:27.000000000,closed,6,"Add utility to map boolean checks to `Result<(), error::Unspecified>`"
+504,2017-04-08 03:05:08.000000000,2017-04-08 05:50:29.000000000,closed,2,Update to rayon 0.7
+503,2017-04-06 06:04:30.000000000,2017-04-06 06:48:46.000000000,closed,2,remove non-ascii-character for msvc compilation
+502,2017-04-05 01:13:57.000000000,2017-04-06 04:15:46.000000000,closed,5,"""ignoring unknown option '/utf-8'"" causing the build to fail"
+501,2017-04-03 13:08:34.000000000,2017-04-03 23:25:44.000000000,closed,2,Correct documentation for OUTPUT_LEN constants.
+500,2017-04-03 08:58:03.000000000,1970-01-01 00:00:00.000000001,open,2,Replace Curve25519 `fe_invert()` C function with a Rust equivalent
+499,2017-04-01 19:23:52.000000000,2017-04-02 05:54:00.000000000,closed,3,Fix windows gnu build.
+498,2017-03-31 23:03:09.000000000,2017-03-31 23:53:24.000000000,closed,3,Does not compile with older versions of GCC
+497,2017-03-29 23:29:12.000000000,2017-04-02 06:28:59.000000000,closed,7,Allow C++ tests to be disabled
+496,2017-03-29 07:10:28.000000000,2017-04-15 09:08:15.000000000,closed,4,Create Android AVD after test build and use more RAM on the emulator.
+495,2017-03-25 18:32:50.000000000,2017-03-27 06:11:16.000000000,closed,3,allow implementing PBKDF2 for other digest algorithms
+494,2017-03-23 20:19:49.000000000,2017-04-02 06:29:52.000000000,closed,9,Cannot compile for 32-bit x86 musl on 32-bit ubuntu
+493,2017-03-23 19:20:44.000000000,2017-06-10 05:39:54.000000000,closed,4,"Compiling ring 0.7.3 from crates.io with  CARGO_INCREMENTAL=1 RUSTFLAGS=""-Zincremental-info"" causes compiler warnings"
+492,2017-03-21 07:30:50.000000000,1970-01-01 00:00:00.000000001,open,0,Revisit how AEAD data limits are enforced & the actual limits themselves
+491,2017-03-20 03:49:34.000000000,2017-03-24 00:09:37.000000000,closed,4,Replace digest Algorithm attribute accesses with getter methods. #461
+490,2017-03-19 23:42:53.000000000,2019-07-12 22:55:36.000000000,closed,3,Improve ARM build options
+489,2017-03-19 22:21:30.000000000,2017-06-15 05:17:30.000000000,closed,12,Speed up the build (i.e. Build faster)
+488,2017-03-16 10:05:16.000000000,2017-03-19 23:43:10.000000000,closed,4,Use armv7 for android build on travis.
+487,2017-03-14 20:13:34.000000000,2017-03-15 00:01:37.000000000,closed,1,Remove option that breaks newer android emulators.
+486,2017-03-14 00:46:33.000000000,1970-01-01 00:00:00.000000001,open,12,Test aarch64-linux-android in emulator
+485,2017-03-13 15:28:40.000000000,2017-04-13 09:36:05.000000000,closed,15,cross-compile fails from Arch Linux to i686-pc-windows-gnu
+484,2017-03-10 10:40:39.000000000,2017-03-13 23:35:41.000000000,closed,2,Use travis_wait only on ARM release builds.
+483,2017-03-10 09:46:30.000000000,2017-03-13 23:35:54.000000000,closed,3,Fix Android NDK caching. This is a directory.
+482,2017-03-10 05:13:12.000000000,2017-03-19 23:44:03.000000000,closed,5,Switch from arm-android-linuxeabi to armv7-android-linuxeabi on Travis CI
+481,2017-03-09 22:36:07.000000000,2019-07-12 03:45:30.000000000,closed,6,Speed up ARM release builds on travis
+480,2017-03-09 09:42:53.000000000,2017-03-13 23:32:42.000000000,closed,4,Use clang on android.
+479,2017-03-08 12:02:59.000000000,2017-04-04 13:08:21.000000000,closed,35,Start Ed25519 port
+478,2017-03-08 11:08:07.000000000,2017-03-09 05:03:54.000000000,closed,4,Update Android NDK.
+477,2017-03-07 20:17:47.000000000,2017-04-25 06:42:51.000000000,closed,3,Remove the C++ Dependency
+476,2017-03-07 08:17:26.000000000,1970-01-01 00:00:00.000000001,open,1,Document how to get SubjectPublicKey form from SubjectPublicKeyInfo
+475,2017-03-06 14:16:13.000000000,2017-12-24 02:42:32.000000000,closed,2,Ios simuator and new build
+474,2017-03-06 11:33:08.000000000,2017-03-09 08:33:14.000000000,closed,4,Use Android NDK 14 on Travis CI
+473,2017-03-06 11:30:45.000000000,2019-01-31 07:42:33.000000000,closed,5,Switch from GCC to clang for android builds
+472,2017-03-06 07:50:45.000000000,2017-03-06 12:46:19.000000000,closed,2,Add some example commands to generate public key
+471,2017-03-05 03:11:46.000000000,2017-09-25 09:20:09.000000000,closed,2,Clean up use of `#![deny(...)_]`
+470,2017-03-01 15:19:18.000000000,2017-03-06 11:39:42.000000000,closed,2,.der enocded RSA public key in test does not appear to be a valid key
+469,2017-03-01 07:42:32.000000000,2017-03-20 00:27:22.000000000,closed,3,Publish Documentation with all features
+468,2017-02-23 11:44:29.000000000,2017-02-23 23:25:19.000000000,closed,1,The `agreement` API has no way to load private keys
+467,2017-02-23 04:42:56.000000000,1970-01-01 00:00:00.000000001,open,1,Add tighter-bounded test case for small prime difference check
+466,2017-02-22 11:10:09.000000000,2017-03-09 05:18:39.000000000,closed,5,Adds test case
+465,2017-02-22 06:41:40.000000000,2017-04-15 08:12:07.000000000,closed,5,Faster montgomery setup
+464,2017-02-21 01:22:04.000000000,1970-01-01 00:00:00.000000001,open,4,X448 support
+463,2017-02-21 01:19:19.000000000,1970-01-01 00:00:00.000000001,open,2,Ed448 support
+462,2017-02-20 22:53:21.000000000,2017-02-21 01:13:29.000000000,closed,1,X448 / Ed448 / Ed25519 support
+461,2017-02-19 03:23:10.000000000,1970-01-01 00:00:00.000000001,open,1,Improve consistency of `Algorithm` attributes & accessors
+460,2017-02-17 07:05:53.000000000,2019-02-06 05:37:46.000000000,closed,2,Enable/disable C `assert()` based on whether Rust assertions are enabled/disabled.
+459,2017-02-17 06:17:22.000000000,2017-04-15 08:27:34.000000000,closed,5,"Rewrite `GFp_ed25519_sign()`, `GFp_ed25519_verify()`, and `GFp_ed25519_public_from_private()` in Rust"
+458,2017-02-16 09:15:35.000000000,2019-04-03 11:45:06.000000000,closed,4,"Improve use of `-march`, `-mtune`, and `-mabi` C compiler options"
+457,2017-02-16 08:06:15.000000000,2017-03-06 11:37:18.000000000,closed,1,Remove target_build_utils dependency
+456,2017-02-16 02:24:21.000000000,2017-03-06 11:50:54.000000000,closed,4,Change `aead` API to more clearly support symmetric encryption
+455,2017-02-14 09:56:31.000000000,2017-02-22 13:35:57.000000000,closed,9,Allow Ring to be built by emscripten
+454,2017-02-11 01:20:47.000000000,2017-02-14 05:04:45.000000000,closed,2,Minor documentation fix on seal_in_place
+453,2017-02-10 08:14:44.000000000,2017-02-17 03:02:32.000000000,closed,3,Implement constant-time modular left shift by 1 bit.
+452,2017-02-08 01:36:30.000000000,2017-09-25 09:24:49.000000000,closed,6,Remove rustc_serialize dependency
+451,2017-02-07 23:38:39.000000000,2018-10-23 01:54:37.000000000,closed,1,Mark C function return values as `#[must_use]`
+450,2017-02-07 23:36:09.000000000,2017-02-08 01:49:12.000000000,closed,1,Mark C function return values as `
+449,2017-02-05 04:34:23.000000000,1970-01-01 00:00:00.000000001,open,0,Investigate calling convention issues on iOS in assembly language code
+448,2017-02-04 01:44:09.000000000,1970-01-01 00:00:00.000000001,open,1,Integrate clippy into the build system and Continuous Integration (CI)
+447,2017-02-03 09:08:05.000000000,2019-07-12 22:57:29.000000000,closed,2,HMAC: Split `hmac::SigningKey::new`
+446,2017-02-03 02:45:06.000000000,2017-02-03 02:45:26.000000000,closed,0,New API for constructing public keys from components
+445,2017-02-03 02:44:14.000000000,1970-01-01 00:00:00.000000001,open,17,New API for verifying public key signatures using keys constructed by components
+444,2017-02-02 19:00:22.000000000,2017-04-15 08:29:34.000000000,closed,3,Make a Git tag when doing a new release
+443,2017-02-02 14:12:19.000000000,2017-02-03 12:34:35.000000000,closed,2,Add to https://crates.io/categories/cryptography
+442,2017-02-02 05:38:24.000000000,2017-03-06 10:52:38.000000000,closed,2,Disable _FORTIFY_SOURCE for Musl on Linux
+441,2017-02-02 01:51:14.000000000,2018-06-03 00:55:29.000000000,closed,10,Allow exporting public components of `RSAKeyPair`.
+440,2017-02-01 14:07:10.000000000,2017-02-03 03:34:16.000000000,closed,2,make c/rust 64bit alignment test pass on ios/arm
+439,2017-02-01 01:19:20.000000000,1970-01-01 00:00:00.000000001,open,1,Use Thumb2 consistently on armv7-apple-ios and armv7s-apple-ios
+438,2017-02-01 00:32:11.000000000,2017-02-04 01:39:15.000000000,closed,4,Add support for SHA224
+437,2017-01-31 17:35:40.000000000,2017-02-01 01:29:04.000000000,closed,2,discard x25519 thumb_func directive
+436,2017-01-31 08:22:45.000000000,1970-01-01 00:00:00.000000001,open,9,Generalize `ring::aead` API to support not-in-place `seal()` and `open()`.
+435,2017-01-31 06:17:00.000000000,2017-02-04 06:39:22.000000000,closed,2,`ring::aead::seal_in_place()`: replace `out_suffix_capacity` parameter.
+434,2017-01-31 05:15:50.000000000,2017-01-31 06:14:28.000000000,closed,2,`ring::aead::seal_in_place()`: replace `out_suffix_capacity` parameter
+433,2017-01-31 05:12:50.000000000,2017-02-04 06:39:40.000000000,closed,2,`ring::aead::open_in_place()`: Remove the `in_prefix_len` parameter.
+432,2017-01-30 19:30:19.000000000,2017-01-30 22:21:49.000000000,closed,3,Allow building just hash algorithms in some way
+431,2017-01-28 01:56:11.000000000,2018-06-03 00:11:00.000000000,closed,18,Suspected RSA public operations performance regression
+430,2017-01-26 22:12:54.000000000,2017-01-27 02:05:24.000000000,closed,5,Fixing a compilation problem in current nightly
+429,2017-01-26 15:56:48.000000000,2017-01-28 06:23:35.000000000,closed,4,external files in test support on iOS
+428,2017-01-26 07:28:54.000000000,2019-02-02 02:57:42.000000000,closed,2,Use Fuchsia's randomness API on Fuchsia
+427,2017-01-26 02:06:28.000000000,1970-01-01 00:00:00.000000001,open,11,Experiment with caching information needed to verify primality of RSA private key primes
+426,2017-01-26 01:48:08.000000000,2019-04-03 11:44:38.000000000,closed,1,Support armv7s-apple-ios (Apple A6+) targets
+425,2017-01-25 02:59:13.000000000,2017-01-25 13:51:37.000000000,closed,2,Allow static detection of NEON on non-Android ARMv7 targets.
+424,2017-01-24 15:26:56.000000000,2017-01-25 01:17:54.000000000,closed,2,fix C4819 error in specific Windows build environment
+423,2017-01-24 13:59:27.000000000,2017-01-25 13:55:32.000000000,closed,10,Compilation/link fixes for iOS/arm
+422,2017-01-24 13:18:29.000000000,2017-01-24 15:24:04.000000000,closed,1,fix C4819 error in specific Windows build environment
+421,2017-01-24 09:24:59.000000000,2017-01-31 05:05:01.000000000,closed,13,Improve the usability of `ring::aead`.
+420,2017-01-24 04:34:16.000000000,2017-01-25 05:29:17.000000000,closed,1,Use `#[repr(c)]` for `BIGNUM` & `BN_MONT_CTX` and allocate them in Rust by value.
+419,2017-01-23 08:15:30.000000000,1970-01-01 00:00:00.000000001,open,0,Provide an API for verifying RSA private key consistency with RSA public key
+418,2017-01-21 03:19:44.000000000,1970-01-01 00:00:00.000000001,open,14,Add examples for using the AEAD API
+417,2017-01-20 21:29:49.000000000,2017-01-22 14:39:23.000000000,closed,2, Add categories to Cargo.toml
+416,2017-01-20 01:58:09.000000000,2017-01-25 05:49:19.000000000,closed,3,Remove all use of pointers and references to empty-enum-typed values in Rust code: `enum $name {}`
+415,2017-01-17 15:47:34.000000000,2017-03-14 23:48:06.000000000,closed,9,Compile error both stand alone as within redox build
+414,2017-01-17 02:56:41.000000000,2017-01-19 07:30:10.000000000,closed,13,AES in CTR mode?
+413,2017-01-13 15:01:47.000000000,2019-03-20 07:32:50.000000000,closed,10,Implement ChaCha20-Poly1305-SIV(-ish) Nonce-Misuse-Resistant AEAD
+412,2017-01-13 13:29:48.000000000,1970-01-01 00:00:00.000000001,open,10,Add AES-GCM-SIV Nonce-Misuse-Resistant AEAD
+411,2017-01-13 12:59:51.000000000,1970-01-01 00:00:00.000000001,open,10,Add XChaCha20-Poly1305 AEAD.
+410,2017-01-13 08:04:04.000000000,2017-02-01 06:09:19.000000000,closed,4,SHA-1 is slower than system sha1sum
+409,2017-01-09 18:40:36.000000000,2017-04-17 18:16:42.000000000,closed,8,Failure building release targeting x86_64-unknown-linux-musl
+408,2017-01-08 21:28:19.000000000,2019-01-17 12:45:02.000000000,closed,39,Detect cpu features on ARM with getauxval()
+407,2017-01-08 01:25:30.000000000,2017-01-11 12:26:20.000000000,closed,2,Ignore files from JetBrains tools
+406,2017-01-07 02:21:13.000000000,2017-01-07 10:17:58.000000000,closed,4,Don't unnecessarily create owned `PathBuf`.
+405,2017-01-07 02:19:59.000000000,2017-01-07 06:24:55.000000000,closed,2,Fix function name typos in doc comments.
+404,2017-01-07 01:23:29.000000000,2017-03-06 12:03:14.000000000,closed,1,Fragment identifier broken in README.
+403,2017-01-05 00:09:12.000000000,2017-01-07 06:49:45.000000000,closed,3,"Target triple compare to exact string ""freebsd"""
+402,2017-01-04 22:17:49.000000000,2017-01-29 11:02:05.000000000,closed,6,Migrate PBKDF2 iteration count from `usize` to `u32`.
+401,2017-01-04 02:26:51.000000000,2018-11-29 02:58:19.000000000,closed,6,Restrict RSA *private* keys to public moduli that are a multiple of 1024 bits.
+400,2017-01-04 01:18:03.000000000,2017-01-05 00:00:03.000000000,closed,2,Building on FreeBSD
+399,2017-01-03 01:14:44.000000000,2019-02-02 08:11:32.000000000,closed,3,Add tests of non-aligned digest inputs
+398,2017-01-01 08:35:32.000000000,2017-01-22 17:19:29.000000000,closed,14,Use SecRandomCopyBytes on macOS
+397,2016-12-31 05:59:08.000000000,2017-01-03 00:16:51.000000000,closed,12,Add some tests of non-aligned digest inputs.
+396,2016-12-29 19:58:30.000000000,2017-01-14 02:08:48.000000000,closed,13,Add Redox support
+395,2016-12-28 14:51:56.000000000,2017-01-14 02:32:14.000000000,closed,4,WIP: Refactor bigint code to be more generic.
+394,2016-12-25 13:01:20.000000000,2017-01-02 11:19:05.000000000,closed,9,Implement RSA signing in Rust.
+393,2016-12-25 12:54:48.000000000,2017-01-02 08:36:18.000000000,closed,6,Implement variable-time exponentiation in Rust.
+392,2016-12-25 02:24:13.000000000,2017-02-01 06:06:37.000000000,closed,11,Cpu feature detection
+391,2016-12-24 03:48:58.000000000,2017-02-23 04:47:50.000000000,closed,26,Document NIST steps in RSA private key validation
+390,2016-12-24 01:38:31.000000000,2017-01-24 07:22:04.000000000,closed,3,Add tests for maximum input length for digests
+389,2016-12-22 10:02:37.000000000,1970-01-01 00:00:00.000000001,open,16,Support Power/PowerPC
+388,2016-12-22 07:20:00.000000000,1970-01-01 00:00:00.000000001,open,1,Ensure assembly language code is built with debug symbols
+387,2016-12-22 06:51:05.000000000,1970-01-01 00:00:00.000000001,open,5,Ensure crypto instructions are used on AAarch32 & AAarch64 when available.
+386,2016-12-22 06:01:22.000000000,2016-12-23 04:27:35.000000000,closed,4,Fix XCode 8.2 Compatibility and test it on Travis CI.
+385,2016-12-20 22:59:07.000000000,2016-12-21 19:47:09.000000000,closed,2,Apply rustfmt.
+384,2016-12-20 02:26:45.000000000,2019-02-06 02:45:01.000000000,closed,10,"Use a more specific error instead of unspecified::Error for DER encoding errors, as per #379"
+383,2016-12-19 23:58:26.000000000,2016-12-23 05:19:29.000000000,closed,6,Linking test code fails on macOS
+382,2016-12-16 18:58:32.000000000,2016-12-21 10:46:31.000000000,closed,1,Typo in docs.
+381,2016-12-16 02:36:25.000000000,2019-07-12 22:35:40.000000000,closed,1,Better use rust toolchain features for feature detection `cfg(target_feature=)`
+380,2016-12-15 07:22:09.000000000,2017-04-15 08:31:12.000000000,closed,1,Replace `ring::c` with use of the upcoming standard ctypes crate
+379,2016-12-15 01:09:43.000000000,2019-07-12 22:58:32.000000000,closed,1,Report ASN.1 decoding errors using a different error type than `Unspecified`
+378,2016-12-14 22:55:29.000000000,2019-02-06 02:43:55.000000000,closed,45,"Add a feature to parse SubjectPublicKeyInfo into (signature::Algorithm, SubjectPublicKey)"
+377,2016-12-13 15:46:10.000000000,2017-02-01 06:11:54.000000000,closed,2,Finish reimplementation of Montgomery multiplication setup
+376,2016-12-13 15:33:57.000000000,2017-04-25 07:11:48.000000000,closed,1,Replace GFp_BN_mod_inverse_odd
+375,2016-12-13 04:56:07.000000000,2019-03-26 02:01:13.000000000,closed,1,Remove all uses of unions
+374,2016-12-13 04:02:02.000000000,2019-07-12 22:58:49.000000000,closed,0,Replace all uses of `GFp_BN_from_montgomery_word`
+373,2016-12-13 03:10:14.000000000,2016-12-31 10:11:33.000000000,closed,7,Use Rust for RSA signature verification.
+372,2016-12-11 22:59:53.000000000,2016-12-31 10:49:44.000000000,closed,19,Do RSA Blinding in Rust.
+371,2016-12-10 00:07:14.000000000,2017-04-15 08:32:34.000000000,closed,3,Remove shift-and-overwrite-prefix logic from `ring::aead::open_in_place`
+370,2016-12-07 10:53:57.000000000,1970-01-01 00:00:00.000000001,open,17,Support loading RSA public keys from SubjectPublicKeyInfo DER
+369,2016-12-06 09:07:17.000000000,2017-03-23 23:35:33.000000000,closed,4,Prerequisite Exploration for Oxidizing AES-GCM.
+368,2016-12-04 22:26:27.000000000,2017-01-31 15:39:39.000000000,closed,7,Simplify poly1305 state handling.
+367,2016-12-04 06:27:58.000000000,2016-12-04 22:21:46.000000000,closed,6,Clarify `ring::poly1305`.
+366,2016-12-02 12:48:42.000000000,2017-01-02 11:22:30.000000000,closed,3,Replace `GFp_BN_mod_exp_mont_vartime` with Rust code
+365,2016-12-02 06:50:18.000000000,2017-01-02 11:20:44.000000000,closed,3,"Implement RSA signing (using CRT) in Rust, replacing `GFp_rsa_private_transform`"
+364,2016-12-02 06:42:18.000000000,2017-01-02 11:23:20.000000000,closed,2,Replace crypto/rsa/blinding.c with Rust code
+363,2016-11-30 06:17:46.000000000,1970-01-01 00:00:00.000000001,open,2,Add feature for getting backtraces for `ring::error::Unspecified`
+362,2016-11-29 06:24:35.000000000,1970-01-01 00:00:00.000000001,open,10,implement NIST SP-800-56B-rev1-compliant RSA private key validation.
+361,2016-11-29 05:48:25.000000000,2017-10-04 02:50:28.000000000,closed,4,Can't build for mips-unknown-linux-musl (big endian platforms)
+360,2016-11-28 19:47:27.000000000,2016-12-02 06:21:12.000000000,closed,14,Use Rust code to construct and check RSA private keys
+359,2016-11-26 05:21:30.000000000,2016-11-30 06:20:00.000000000,closed,4,Expose common crypto primitives API
+358,2016-11-23 04:35:01.000000000,2016-11-24 01:01:02.000000000,closed,3,Verify RSA PKCS#1 1.5 signatures by encode-then-check.
+357,2016-11-19 11:30:45.000000000,2019-01-26 05:40:22.000000000,closed,10,Replace C code for reading and parsing `/proc/cpuinfo` and `/proc/self/auxv` with Rust code
+356,2016-11-19 06:45:24.000000000,2017-04-15 08:33:46.000000000,closed,2,Document how to use in Windows Subsystem for Linux (Bash on Windows)
+355,2016-11-19 05:08:31.000000000,2016-12-21 12:47:55.000000000,closed,4,Allow calling `getrandom` with 257-byte buffer
+354,2016-11-18 04:54:26.000000000,2016-11-19 04:41:32.000000000,closed,6,Allow calling `getrandom` with 257-byte buffer
+353,2016-11-18 03:18:54.000000000,2016-12-21 12:48:10.000000000,closed,3,Improve performance of `ring::rand` using getrandom() for 257-byte outputs
+352,2016-11-16 16:38:12.000000000,2016-12-21 11:20:30.000000000,closed,14,Expanded PSS padding test cases
+351,2016-11-16 04:30:09.000000000,2016-12-04 06:12:39.000000000,closed,11,Port C code supporting poly1305 to Rust
+350,2016-11-16 00:45:47.000000000,1970-01-01 00:00:00.000000001,open,4,Use `BitLength` for all bit-denoted lengths
+349,2016-11-15 07:37:27.000000000,2016-11-16 03:25:01.000000000,closed,2,Expose `RSAEncoding` in the public API.
+348,2016-11-15 06:00:40.000000000,2016-11-24 03:21:17.000000000,closed,2,Factor out message digest calculation in internal RSA padding interface
+347,2016-11-15 02:42:28.000000000,2019-03-26 01:17:47.000000000,closed,1,Generalize `BitLength` to work for non-usize types
+346,2016-11-15 02:37:07.000000000,1970-01-01 00:00:00.000000001,open,4,Use `BitLength` in constant expressions when `const_fn` is stable
+345,2016-11-15 02:21:59.000000000,2019-03-26 01:16:14.000000000,closed,6,Use `BitLength` in FFI when transparent structs are supported
+344,2016-11-14 10:11:32.000000000,2016-11-16 01:47:51.000000000,closed,9,Modifications to PR #262 made during review.
+343,2016-11-14 07:11:35.000000000,2016-11-18 19:14:24.000000000,closed,4,Support bcrypt
+342,2016-11-13 13:44:26.000000000,2019-07-12 22:59:03.000000000,closed,0,Use `-og` in CPPFLAGS when building with Clang 4.0+ and with GCC
+341,2016-11-10 09:21:13.000000000,2017-01-24 07:23:00.000000000,closed,2,Enforce maximum input length for digest functions
+340,2016-11-08 06:15:45.000000000,2017-03-06 12:07:47.000000000,closed,1,Remove MSBuild dependency from build.rs for Windows targets
+339,2016-11-08 06:04:15.000000000,2017-03-05 04:18:46.000000000,closed,2,Add Windows XP target support
+338,2016-11-08 05:43:36.000000000,1970-01-01 00:00:00.000000001,open,10,Add Visual Studio 2017 builds to AppVeyor
+337,2016-11-08 05:37:40.000000000,2017-03-06 12:22:43.000000000,closed,6,"Require only Visual C++ Build Tools 2015, not the bigger Visual Studio 2015, for -msvc targets"
+336,2016-11-08 00:43:35.000000000,2016-11-08 06:25:54.000000000,closed,6,Support building with MSVC even when the Windows XP compatibility support isn't installed
+335,2016-11-08 00:35:38.000000000,2016-11-08 06:27:03.000000000,closed,2,Improve BUILDING.md regarding which Windows toolchains work
+334,2016-11-06 14:40:43.000000000,2017-03-19 06:01:29.000000000,closed,1,Don't require Perl to be installed when building from crates.io
+333,2016-11-06 12:11:40.000000000,1970-01-01 00:00:00.000000001,open,0,Make values like `ring::digest::SHA256.output_len` constant expressions.
+332,2016-11-06 11:10:20.000000000,2016-11-07 06:55:35.000000000,closed,2,"Remove ECDSA {P-256, P-384}+SHA-512 signature algorithms"
+331,2016-11-05 22:12:02.000000000,1970-01-01 00:00:00.000000001,open,13,X25519 (and/or ECDH in general) with static keys
+330,2016-11-05 16:25:38.000000000,2017-03-06 12:09:12.000000000,closed,9,Windows -gnu target (MinGW) compilation error
+329,2016-11-04 02:23:58.000000000,2016-11-07 08:22:39.000000000,closed,3,Use shared bytes-to-integer function in poly1305 (closes #133)
+328,2016-11-02 02:03:06.000000000,1970-01-01 00:00:00.000000001,open,2,Make `ring::rand` a more pure capability-style API
+327,2016-11-02 01:51:32.000000000,2019-07-12 22:59:34.000000000,closed,2,Allow applications to use RDRAND/RDSEED instead of OS PRNG on x86/x64
+326,2016-11-02 01:25:53.000000000,1970-01-01 00:00:00.000000001,open,18,Use something better than /dev/urandom on FreeBSD
+325,2016-10-29 05:15:59.000000000,2016-10-30 09:48:06.000000000,closed,3,Fix nonce encoding in chacha20-poly1305@openssh.com.
+324,2016-10-29 05:12:06.000000000,2016-11-07 08:17:23.000000000,closed,6,Fix subkey order in chacha20-poly1305@openssh.com
+323,2016-10-26 07:40:52.000000000,2016-10-26 08:47:10.000000000,closed,1,fix links for oxidation and tls-1.3 projects
+322,2016-10-26 04:45:08.000000000,2017-03-06 12:11:07.000000000,closed,2,Observe `CARGO_CFG_TARGET_*` in build.rs
+321,2016-10-25 14:37:42.000000000,2017-03-06 10:35:11.000000000,closed,65,[WIP] Port build system to use only build.rs on unix
+320,2016-10-24 13:28:08.000000000,2017-03-06 14:20:39.000000000,closed,4,Build fails when there are spaces in the path to the project
+319,2016-10-23 19:32:24.000000000,2019-03-10 03:34:19.000000000,closed,5,[WIP] Issue #316 - Replace `/dev/urandom` usage on OpenBSD
+318,2016-10-19 12:25:11.000000000,1970-01-01 00:00:00.000000001,open,1,Enable SHA-EXT asm code
+316,2016-10-17 13:03:31.000000000,1970-01-01 00:00:00.000000001,open,19,Replace `/dev/urandom` usage on OpenBSD
+315,2016-10-17 12:09:37.000000000,2016-10-17 23:24:31.000000000,closed,15,use neon on armv7
+314,2016-10-14 04:36:46.000000000,2016-10-22 04:42:33.000000000,closed,2,i686 beta builds are broken
+313,2016-10-12 15:37:21.000000000,2016-10-14 04:44:42.000000000,closed,5,"Fix issue #287, #311 - Support building on *BSD"
+312,2016-10-09 19:22:12.000000000,2017-02-01 00:48:00.000000000,closed,12,Failure to compile to armv7-apple-ios
+311,2016-10-07 10:25:44.000000000,2016-10-17 11:21:18.000000000,closed,5,FreeBSD compilation error
+310,2016-10-06 09:33:06.000000000,2016-11-19 06:15:22.000000000,closed,9,`RSAPadding` isn't accessible to users of *ring*
+309,2016-10-06 01:07:57.000000000,2016-10-06 01:25:37.000000000,closed,3,Remove use of compatibility lint `match_of_unit_variant_via_paren_dotdot`
+308,2016-10-03 00:44:58.000000000,2017-04-15 08:37:27.000000000,closed,9,Feature request: Argon2
+307,2016-09-26 05:14:46.000000000,2016-09-30 00:07:15.000000000,closed,21,Port `rsa_public_decrypt`
+306,2016-09-25 01:07:43.000000000,2016-09-28 23:46:27.000000000,closed,3,Remove last usage of <stdarg.h> and vararg by reimplement test printer
+305,2016-09-25 00:49:23.000000000,2016-09-25 00:52:29.000000000,closed,3,Remove last usage of <stdarg.h> and vararg by reimplement test printer
+304,2016-09-19 12:29:13.000000000,2019-02-06 02:37:38.000000000,closed,4,SRP protocol
+303,2016-09-16 00:57:07.000000000,2016-10-01 01:03:04.000000000,closed,7,Prehashed signature verification (closes #253).
+302,2016-09-15 01:00:58.000000000,2017-04-02 05:38:32.000000000,closed,6,Add support for verifying ECDSA signatures in PKCS#11 form r||s where r and s are fixed length
+301,2016-09-12 00:23:01.000000000,2016-11-13 03:02:05.000000000,closed,1,Deny `unused_unsafe` when Rust 1.13 reaches stable
+300,2016-09-11 23:58:32.000000000,2016-09-12 00:26:33.000000000,closed,4,Disable `unused_unsafe` (until Rust 1.13 goes stable).
+299,2016-09-11 19:41:09.000000000,2019-04-05 04:50:11.000000000,closed,4,Allow extraction of RSAKeyPair public key components
+298,2016-09-11 08:41:16.000000000,2016-11-15 05:54:58.000000000,closed,2,Minimize stack usage in RSA PSS verification
+297,2016-09-10 04:06:17.000000000,1970-01-01 00:00:00.000000001,open,5,Ensure there are no linking conflicts if OpenSSL/BoringSSL/LibreSSL are linked along with *ring*
+295,2016-09-08 06:18:13.000000000,2019-07-12 23:00:20.000000000,closed,0,Test AEAD nonce generation
+294,2016-09-06 23:43:25.000000000,2017-04-15 09:20:04.000000000,closed,1,Work around lack of stdalign.h on OpenBSD
+293,2016-09-03 19:03:35.000000000,1970-01-01 00:00:00.000000001,open,12,Add Cipher-based Message Authentication Code (CMAC)
+292,2016-09-03 06:13:35.000000000,2016-09-08 05:25:40.000000000,closed,8,Fixed #141 -- replace the fill_from_slice polyfill with copy_from_slice
+291,2016-08-29 02:05:11.000000000,2019-07-18 09:36:54.000000000,closed,7,aead::seal_in_place only accepts out_suffix_capacity exactly equal to max overhead
+290,2016-08-28 01:07:26.000000000,2016-10-06 08:49:15.000000000,closed,23,Fixes #287 (Add specification of make/gmake/&c.)
+289,2016-08-27 16:55:28.000000000,2016-10-05 07:47:24.000000000,closed,16,Rust replacements for cc tests
+288,2016-08-27 14:53:18.000000000,2016-08-27 15:05:56.000000000,closed,2,Added rust tests for ChaCha20_ctr32. Fixed #202
+287,2016-08-27 08:32:47.000000000,2016-11-11 03:40:22.000000000,closed,9,Cross compilation on *BSD
+286,2016-08-26 11:30:24.000000000,2016-08-29 07:34:00.000000000,closed,0,Reformat based on rustfmt suggestions.
+285,2016-08-26 08:59:55.000000000,2019-07-12 23:00:36.000000000,closed,8,Integrate rustfmt into the build system and/or Continuous Integration
+284,2016-08-26 08:54:35.000000000,2016-11-13 03:53:53.000000000,closed,1,Move impl Drop from `RSAKeyPair` to `RSA` after Rust 1.13 becomes stable.
+283,2016-08-24 19:29:17.000000000,2016-11-23 08:09:07.000000000,closed,25,Oxidize/restore special-case handling for `0b100...` range bounds
+282,2016-08-24 19:17:00.000000000,2016-08-24 23:50:17.000000000,closed,2,Fix strawberryperl link in BUILDING.md
+281,2016-08-24 17:42:07.000000000,2016-08-29 22:16:11.000000000,closed,11,Cannot cross compile macOS (host) to Linux
+280,2016-08-24 04:03:39.000000000,2016-09-10 04:06:55.000000000,closed,5,Rename *ring* internals to avoid conflicts with OpenSSL.
+279,2016-08-24 04:02:07.000000000,2016-08-26 08:17:14.000000000,closed,1,Remove AES Decryption
+278,2016-08-24 03:33:07.000000000,2016-08-24 03:48:29.000000000,closed,0,Remove BN_CTX.
+277,2016-08-23 02:13:32.000000000,2016-08-26 08:47:17.000000000,closed,9,fixed some clippy warnings
+276,2016-08-21 03:11:11.000000000,2016-08-21 18:46:20.000000000,closed,2,Improve mask generation for most-significant limb in `BN_rand_range_ex`.
+275,2016-08-19 17:13:30.000000000,2016-08-20 02:23:35.000000000,closed,2,Rename RAND_bytes?
+274,2016-08-19 02:01:53.000000000,2016-08-19 02:32:09.000000000,closed,3,hkdf test was not comparing actual to expected output
+273,2016-08-18 23:45:09.000000000,2016-08-28 01:03:10.000000000,closed,12,Refactor RSA signing API to allow concurrent signing with the same RSA key
+272,2016-08-18 01:34:45.000000000,2016-08-18 05:20:05.000000000,closed,5,Add `fmt::Debug` impl for `Algorithm` and `Digest`
+271,2016-08-18 00:28:00.000000000,2017-04-15 08:38:30.000000000,closed,3,Optimize SHA-1 and SHA-2 Further
+270,2016-08-17 19:44:06.000000000,2016-08-18 05:27:44.000000000,closed,3,Implement `fmt::Debug` for `Digest` and possibly `Algorithm`
+269,2016-08-17 04:42:27.000000000,2016-08-18 00:21:42.000000000,closed,3,Fix incorrect compilation flag in doc example.
+268,2016-08-16 20:54:42.000000000,2016-08-16 23:08:11.000000000,closed,1,Add 521 bit curve for equivalent security level as symmetric 256 bit
+267,2016-08-16 18:57:31.000000000,2016-08-17 00:26:09.000000000,closed,1,LLVM APT repo is back
+266,2016-08-16 18:37:32.000000000,2016-08-16 22:55:07.000000000,closed,2,Test on '1.9.0' instead of 'stable' channel.
+265,2016-08-16 16:37:33.000000000,2016-08-16 23:29:40.000000000,closed,4,Only build `test` module if we are in test mode.
+264,2016-08-12 04:05:41.000000000,1970-01-01 00:00:00.000000001,open,16,Add deterministic and/or otherwise-optimized PSS signing
+263,2016-08-11 01:20:40.000000000,2016-08-17 03:01:24.000000000,closed,1,Split up the `ring::rsa` private submodule in some useful way
+262,2016-08-02 17:37:32.000000000,2016-11-16 01:56:50.000000000,closed,43,Implement RSA PSS verification and signing.
+261,2016-07-29 13:35:30.000000000,2016-07-29 14:57:17.000000000,closed,3,Unbreak the build: add some docs for ED25519KeyPairBytes members.
+260,2016-07-28 23:19:21.000000000,2016-07-29 11:23:26.000000000,closed,8,Signing algorithm parameters trait
+259,2016-07-25 12:56:00.000000000,2016-08-28 01:57:19.000000000,closed,14,Replace chacha tests with Rust code.
+258,2016-07-25 04:01:16.000000000,2016-07-29 11:04:01.000000000,closed,19,WIP: Reuse `BN_BLINDING` multiple times in RSA signing
+257,2016-07-23 01:06:46.000000000,2016-08-11 23:16:35.000000000,closed,5,Add err.rs and the types ring::Result and ring::EmptyResult.
+256,2016-07-20 17:45:38.000000000,2019-02-06 02:06:59.000000000,closed,40,[On Hold] Add support for builds without assembly.
+255,2016-07-19 21:34:57.000000000,2016-07-29 07:13:41.000000000,closed,8,Use enum to dispatch to signature verification algorithm handlers.
+254,2016-07-19 05:22:15.000000000,2016-08-23 00:13:22.000000000,closed,52,Replace BN_rand_range C implementation with Rust
+253,2016-07-18 20:24:50.000000000,1970-01-01 00:00:00.000000001,open,14,Add API for computing RSA/ECDSA signatures from a pre-computed digest
+252,2016-07-18 06:45:53.000000000,2016-07-26 21:27:43.000000000,closed,13,Support pbkdf2 outputs larger than prf.digest_alg.output_len
+251,2016-07-18 03:44:01.000000000,2016-07-18 03:50:31.000000000,closed,1,Really fix Mac build
+250,2016-07-16 19:12:33.000000000,2016-08-11 23:15:29.000000000,closed,5,Implements err::Result
+249,2016-07-15 02:03:44.000000000,2016-08-17 04:23:16.000000000,closed,15,"Use a return type better than `Result<(), ()>`"
+248,2016-07-11 12:49:49.000000000,2016-07-24 08:00:17.000000000,closed,3,Clarify the bit shift in gfp_little_endian_bytes_from_scalar.
+247,2016-07-10 02:15:13.000000000,2016-07-24 06:40:49.000000000,closed,7,New P-384 implementation.
+246,2016-07-09 23:58:29.000000000,2017-01-02 11:27:05.000000000,closed,8,Replace RSA verification function `GFp_rsa_public_decrypt` with Rust code
+245,2016-07-09 23:35:56.000000000,2016-07-30 00:01:14.000000000,closed,2,Add `_ASN1` suffix to `ring::signature::ECDSA_*` values
+244,2016-07-09 22:51:56.000000000,2016-07-10 04:37:56.000000000,closed,3,Test and fix parse_big_endian_value
+243,2016-07-09 22:21:22.000000000,2016-08-15 01:04:51.000000000,closed,6,parse_big_endian_value wrong for inputs not a multiple of the limb length
+242,2016-07-08 02:33:44.000000000,2016-07-09 23:37:52.000000000,closed,2,New P-384 implementation.
+241,2016-07-03 08:30:56.000000000,2016-08-16 06:02:20.000000000,closed,2,Make it possible to build *ring* from crates.io without yasm and perl installed on Windows
+240,2016-07-03 06:46:30.000000000,2019-02-06 05:42:46.000000000,closed,5,Replace crypto/modes/gcm.c and crypto/cipher/e_aes.c with Rust code
+239,2016-07-03 02:49:22.000000000,2016-12-02 06:44:20.000000000,closed,4,Replace the use of `BN_rand_range` in RSA blinding with Rust code
+238,2016-07-03 02:45:35.000000000,2016-07-04 01:10:41.000000000,closed,3,Make `RSAKeyPair` conditional on a new `rsa_signing` feature.
+237,2016-07-03 01:55:35.000000000,2017-03-06 12:19:25.000000000,closed,1,Simplify and test `GFp_BN_reduce_mont`
+236,2016-07-03 00:55:27.000000000,2016-07-03 01:38:33.000000000,closed,1,Return a distinct error code for the case where an RSA key being parsed has `p` < `q` and documentation for it
+235,2016-07-03 00:51:44.000000000,2016-12-13 02:40:29.000000000,closed,4,Refactor RSA signing API to support pools of blindings
+234,2016-07-03 00:50:26.000000000,2016-07-29 11:04:30.000000000,closed,5,Reuse `BN_BLINDING` multiple times in RSA signing
+233,2016-07-02 10:36:26.000000000,2016-07-02 12:45:53.000000000,closed,2,Fix typo in rand.rs docstring
+232,2016-06-30 12:17:05.000000000,2016-07-01 10:36:55.000000000,closed,2,Improve ECDH
+231,2016-06-29 22:43:54.000000000,2016-07-03 04:26:08.000000000,closed,13,Rename RSA signature verification algorithm constants.
+230,2016-06-26 20:17:11.000000000,2016-06-29 12:56:54.000000000,closed,7,Test if *ring* compiles without default features.
+229,2016-06-25 10:51:25.000000000,2016-06-29 10:22:23.000000000,closed,6,New implementation of ECDSA verification
+228,2016-06-24 06:02:23.000000000,2016-06-24 11:06:36.000000000,closed,2,Fix typo in README.md
+227,2016-06-23 23:06:13.000000000,2016-06-25 10:51:04.000000000,closed,2,Validate ECDSA and ECDH inputs using Rust code
+226,2016-06-23 00:32:25.000000000,2016-09-11 12:37:04.000000000,closed,41,Add `signature::primitive::verify_rsa`
+225,2016-06-21 04:11:49.000000000,2019-07-12 23:01:24.000000000,closed,2,Improve RSA signing
+224,2016-06-20 10:13:36.000000000,2019-01-05 06:32:46.000000000,closed,10,Finalize private key deserialization/serialization
+223,2016-06-20 09:25:25.000000000,2016-07-03 01:07:16.000000000,closed,1,Simplify/minimize crypto/bn
+222,2016-06-20 09:05:10.000000000,1970-01-01 00:00:00.000000001,open,1,Add `--no-default-features` configurations to CI
+221,2016-06-20 08:50:50.000000000,1970-01-01 00:00:00.000000001,open,1,Improve test coverage of RSA verification
+220,2016-06-20 08:00:06.000000000,2018-05-09 04:29:33.000000000,closed,14,Deal with RSA private keys with `p < q` better
+219,2016-06-20 07:41:39.000000000,1970-01-01 00:00:00.000000001,open,40,Add RSA key generation
+218,2016-06-19 00:44:51.000000000,2016-06-23 07:45:56.000000000,closed,13,Implement RSA PKCS1 v1.5 signing (fixes #208)
+217,2016-06-17 14:31:10.000000000,2016-06-20 09:08:21.000000000,closed,7,"Change ""no_heap"" feature to ""use_heap""; enable by default"
+216,2016-06-16 15:55:48.000000000,1970-01-01 00:00:00.000000001,open,0,Verify that the result of modular inverse operations is the inverse
+215,2016-06-16 15:54:05.000000000,1970-01-01 00:00:00.000000001,open,2,Verify that the result of EC multiplication is on the curve
+213,2016-06-10 01:45:28.000000000,2016-12-21 11:22:33.000000000,closed,10,Add RSA-PSS signing
+212,2016-06-07 07:10:27.000000000,2019-02-06 02:33:26.000000000,closed,1,Use curve25519/asm/x25519-asm-x86_64.S on Windows
+211,2016-06-05 13:35:02.000000000,2016-06-06 09:52:43.000000000,closed,12,Ed25519 signing
+210,2016-05-31 05:37:45.000000000,1970-01-01 00:00:00.000000001,open,0,Add new ECC test vectors
+209,2016-05-31 04:17:34.000000000,2018-12-03 14:11:52.000000000,closed,3,Add ECDSA P-384 signing.
+208,2016-05-31 04:14:35.000000000,2016-06-22 03:38:36.000000000,closed,4,Add RSA PKCS#1 1.5 signing
+207,2016-05-31 03:56:42.000000000,2018-12-22 07:03:10.000000000,closed,35,Add ECDSA P-256 signing support
+206,2016-05-31 03:40:46.000000000,2016-06-06 10:04:58.000000000,closed,6,Add Ed25519 signing support
+205,2016-05-31 03:39:02.000000000,2019-01-05 06:34:34.000000000,closed,5,Add signing API
+204,2016-05-30 00:12:29.000000000,2016-11-16 04:24:01.000000000,closed,3,Replace crypto/aes/aes_test.cc with a Rust equivalent
+203,2016-05-30 00:08:51.000000000,2016-11-16 04:23:20.000000000,closed,3,Replace crypto/poly1305/poly1305_test.cc with a Rust equivalent
+202,2016-05-30 00:05:59.000000000,2016-09-14 23:01:59.000000000,closed,2,Replace crypto/chacha/chacha_test.cc with Rust equivalent
+201,2016-05-28 07:49:01.000000000,2019-03-26 02:13:24.000000000,closed,3,Deal with undefined behavior due to memcpy
+200,2016-05-28 07:01:16.000000000,2016-07-03 01:13:58.000000000,closed,1,"Investigate and fix yasm ""warning : value does not fit in 32 bit field"" warnings in poly1305-x86_64.asm"
+199,2016-05-27 19:47:20.000000000,2019-07-01 07:28:24.000000000,closed,46,Implement SHA2 in Rust.
+198,2016-05-27 09:33:50.000000000,2017-04-15 08:39:47.000000000,closed,1,Reformat crypto/bn/rsaz_exp.[ch] to match OpenSSL & sync
+197,2016-05-27 09:31:48.000000000,2017-04-15 08:40:39.000000000,closed,2,Consider merging OpenSSL's __chkstk stuff
+196,2016-05-27 09:30:43.000000000,2019-01-05 06:20:25.000000000,closed,1,Investigate why we're not using the `bn_get_bits5`
+195,2016-05-27 09:24:49.000000000,2017-04-17 03:03:08.000000000,closed,1,Sort out AVX2 story for RSA
+194,2016-05-27 09:21:58.000000000,2019-02-06 02:33:05.000000000,closed,1,"Enable Broadwell optimizations (adcx/adox, etc.)"
+193,2016-05-26 07:01:41.000000000,2019-02-06 02:32:55.000000000,closed,1,Compare iOS native crypto perf to *ring*'s perf on iOS
+192,2016-05-26 06:18:21.000000000,2019-02-06 05:35:00.000000000,closed,3,Figure out what to do with x86 Poly1305 AVX implementation
+191,2016-05-26 05:43:45.000000000,2016-07-03 01:17:25.000000000,closed,1,Remove the ARM ChaCha20 workaround
+190,2016-05-26 05:41:45.000000000,1970-01-01 00:00:00.000000001,open,0,Verify correctness of Poly1305 (asm) code
+189,2016-05-26 05:20:35.000000000,2016-07-03 02:05:15.000000000,closed,1,Deal with differences in OpenSSL/BoringSSL asm code
+188,2016-05-25 12:31:30.000000000,2016-05-25 23:37:37.000000000,closed,3,Fix the no-heap build.
+187,2016-05-25 06:34:15.000000000,2016-11-18 03:22:36.000000000,closed,21,Implement sha256
+186,2016-05-25 00:49:17.000000000,1970-01-01 00:00:00.000000001,open,0,Add unit tests for ASN.1 parsing primitives
+185,2016-05-24 07:48:01.000000000,1970-01-01 00:00:00.000000001,open,1,Expand testing of invalid ECDSA signatures
+184,2016-05-24 05:06:41.000000000,1970-01-01 00:00:00.000000001,open,29,Build and testing for iOS
+183,2016-05-24 03:59:41.000000000,2017-04-15 08:42:39.000000000,closed,1,"Add Ring-LWE ""Post-quantum"" key exchange"
+182,2016-05-24 01:48:27.000000000,2016-05-24 03:05:55.000000000,closed,3,Fix crash in ECDH
+181,2016-05-23 23:59:19.000000000,1970-01-01 00:00:00.000000001,open,0,Expand (NIST) ECDH and X25519 testing
+180,2016-05-23 23:24:59.000000000,2016-05-24 01:29:16.000000000,closed,2,Improve and expand ECDH
+179,2016-05-20 13:08:20.000000000,2016-05-21 02:27:44.000000000,closed,3,Documentation not accessible from Tor due to CloudFlare
+178,2016-05-20 08:15:25.000000000,1970-01-01 00:00:00.000000001,open,0,Add tests of unaligned inputs for `ring::digest`
+177,2016-05-18 07:46:31.000000000,2016-05-20 07:20:54.000000000,closed,8,Build and test on ARM Android.
+176,2016-05-18 07:31:24.000000000,2016-05-20 07:20:33.000000000,closed,4,Use `getrandom` syscall on Linux (when available)
+175,2016-05-12 19:41:45.000000000,2016-05-13 05:51:45.000000000,closed,5,Correctly set TARGET variables when building for Android.
+174,2016-05-12 09:02:22.000000000,2016-05-13 05:52:36.000000000,closed,4,Test on armhf and use ubuntu's gcc packages.
+173,2016-05-10 03:48:04.000000000,2016-05-14 01:42:02.000000000,closed,2,Cache more downloaded build prerequisites in CI
+172,2016-05-06 02:52:50.000000000,2016-05-10 03:48:37.000000000,closed,2,Speed up kcov builds
+171,2016-05-05 09:13:26.000000000,2016-05-10 03:42:06.000000000,closed,4,Build and run tests for ARM.
+170,2016-05-04 06:48:22.000000000,2019-02-06 02:39:16.000000000,closed,5,Benchmark ChaCha20 and Poly1305 vs Andrew Moon's implementations
+169,2016-05-04 06:42:27.000000000,1970-01-01 00:00:00.000000001,open,23,Support BLAKE2
+168,2016-04-30 01:21:23.000000000,2016-04-30 01:25:15.000000000,closed,1,Add code coverage measurement for Windows
+167,2016-04-20 00:14:58.000000000,2016-04-30 03:06:20.000000000,closed,5,Build kcov on travis and send reports to coveralls.
+166,2016-04-15 03:56:25.000000000,2016-04-15 04:55:41.000000000,closed,1,Add clang 3.8 to linux builds
+165,2016-04-14 11:00:44.000000000,2016-04-15 07:35:22.000000000,closed,2,Remove RSA_decrypt.
+164,2016-03-30 06:31:42.000000000,2016-04-15 01:40:28.000000000,closed,1,"Add `from_le_u32_ptr` util, remove ChaCha `U8TO32_LITTLE`."
+163,2016-03-29 23:57:25.000000000,2016-12-13 03:51:44.000000000,closed,1,Enable /RTCc in Windows MSVC debug builds
+162,2016-03-29 23:34:40.000000000,2016-03-30 01:55:15.000000000,closed,0,Enable testing on 32-bit GCC 4.9 on Travis CI.
+161,2016-03-29 07:07:01.000000000,2016-07-03 01:21:58.000000000,closed,2,Improve ECDSA nonce handling
+160,2016-03-28 15:44:01.000000000,2016-03-28 16:48:38.000000000,closed,2,"""Alternate method"" for SHA-1"
+159,2016-03-28 13:24:12.000000000,2016-06-03 03:09:18.000000000,closed,2,Extract SHA-1’s cast with `as` into a dedicated function.
+158,2016-03-28 02:55:06.000000000,2016-08-28 02:08:56.000000000,closed,5,Keep lines under 90 chars and add a script to check them.
+157,2016-03-25 17:34:58.000000000,2016-03-28 00:51:54.000000000,closed,1,Remove code that supports AES-192.
+156,2016-03-24 06:06:03.000000000,2016-03-28 13:15:48.000000000,closed,18,Rewrite SHA-1 in Rust.
+155,2016-03-21 18:35:41.000000000,2016-03-23 03:38:46.000000000,closed,1,Remove unused RSA local variables.
+154,2016-03-19 23:24:02.000000000,2016-03-30 02:35:14.000000000,closed,6,Replace usages of `BN_with_flags` with flag assignment.
+153,2016-03-19 00:07:07.000000000,2019-02-06 05:33:53.000000000,closed,1,Fix ARM CPU feature detection
+152,2016-03-15 00:08:59.000000000,2016-12-13 04:34:51.000000000,closed,2,Remove cross-type uses of memcpy.
+151,2016-03-13 03:41:07.000000000,2019-04-03 11:43:08.000000000,closed,9,Remove all pointer casts in C code
+150,2016-03-13 03:00:53.000000000,2019-03-26 01:11:00.000000000,closed,5,Fix char*/unsigned char*/int8_t*/uint8_t* casting
+149,2016-03-13 02:41:15.000000000,2017-04-15 08:43:38.000000000,closed,5,Improve random number generation on Mac OS X and iOS
+148,2016-03-13 02:34:14.000000000,2016-07-03 01:23:20.000000000,closed,3,Use the `getrandom` system call on Linux when it is available in CRYPTO_sysrand
+147,2016-03-13 02:31:24.000000000,2016-04-30 01:50:02.000000000,closed,2,Improve address-space duplication logic in `RAND_bytes`
+146,2016-03-13 02:29:44.000000000,2016-04-30 01:52:47.000000000,closed,1,Enable RDRAND-based PRNG on x86 (32-bit)
+145,2016-03-13 00:21:18.000000000,2017-01-26 06:23:44.000000000,closed,6,Improve RSA prime generation
+144,2016-03-12 04:00:23.000000000,2018-12-03 14:13:08.000000000,closed,9,Improve RSA blinding
+143,2016-03-10 02:49:51.000000000,2016-09-28 23:46:52.000000000,closed,4,Remove last usage of <stdarg> and vararg stuff
+142,2016-03-08 18:30:47.000000000,2016-04-15 05:00:26.000000000,closed,8,Add AEAD tests that test all prefix length from 0-4096 bytes.
+141,2016-03-08 13:26:43.000000000,2016-09-08 05:51:28.000000000,closed,2,Replace use of `ring::polyfill::slice::fill_from_slice` with `copy_from_slice`
+140,2016-03-08 01:31:47.000000000,2016-03-08 13:25:58.000000000,closed,8,Use `<[T]>::clone_from_slice()`.
+139,2016-03-07 15:14:31.000000000,2019-03-26 01:10:08.000000000,closed,0,Use C99 static array size specifier in C function prototypes
+138,2016-03-06 10:54:12.000000000,2017-09-25 09:28:46.000000000,closed,5,Implemengt NoPanicSlice in terms of non-panicing slicing in when it is available in Rust's standard library
+137,2016-03-04 13:44:44.000000000,2016-04-26 01:28:55.000000000,closed,1,"Use RDRAND intrinsics, enabling RDRAND on 32-bit x86 and Windows."
+136,2016-03-04 04:26:03.000000000,2016-03-08 13:24:56.000000000,closed,3,Replace `ring::polyfill::fill_from_slice` with use of `<[T]>::clone_from_slice()`
+135,2016-03-03 16:01:17.000000000,2019-02-06 02:34:17.000000000,closed,2,Add SPAKE2/Ed25519
+134,2016-03-03 15:48:43.000000000,2019-04-03 11:41:35.000000000,closed,0,Enable AVX2 code
+133,2016-03-01 12:18:38.000000000,2016-12-13 04:25:20.000000000,closed,3,Refactor `U8TO32_LITTLE` in ChaCha20 code
+132,2016-03-01 03:39:28.000000000,1970-01-01 00:00:00.000000001,open,51,Track test coverage
+131,2016-03-01 02:24:04.000000000,1970-01-01 00:00:00.000000001,open,6,"Improve platform testing, especially for AVX2-specific (and similar) code"
+130,2016-03-01 01:37:31.000000000,2019-04-03 11:41:08.000000000,closed,0,Improve conventions for passing fixed-sized arrays to FFI functions
+129,2016-03-01 01:31:54.000000000,2019-03-20 07:38:56.000000000,closed,5,Improve conventions for returning arrays from functions
+128,2016-03-01 01:02:34.000000000,1970-01-01 00:00:00.000000001,open,0,Don't use `[0; T]` to construct not-yet-initialized values
+127,2016-03-01 00:58:40.000000000,2019-04-05 02:44:40.000000000,closed,4,Expand crypto primitive tests to more diverse inputs
+126,2016-02-29 01:28:41.000000000,2016-02-29 03:35:58.000000000,closed,1,Fix typo in `ring::hmac::sign` documentation.
+125,2016-02-28 14:46:58.000000000,2016-02-29 03:36:26.000000000,closed,3,Refactor aead
+124,2016-02-28 05:00:44.000000000,2016-02-28 20:29:48.000000000,closed,3,Componentization of the 'signature' module.
+123,2016-02-28 04:40:43.000000000,2016-02-28 12:51:41.000000000,closed,1,A couple very minor style guide fixes.
+122,2016-02-28 04:07:10.000000000,2016-02-28 12:51:05.000000000,closed,1,Utilize 'unit struct' where appropriate.
+121,2016-02-27 22:02:12.000000000,2016-02-28 14:27:22.000000000,closed,1,Incomplete sentence in ring::signature documentation
+120,2016-02-26 00:52:35.000000000,2016-02-26 03:01:46.000000000,closed,1,Assertions may not be triggering on debug builds (in Travis CI only?)
+119,2016-02-25 13:02:08.000000000,2018-12-03 14:13:50.000000000,closed,1,Create an out-of-line assembly language implementation of `bn_div_words` for Windows x86-64
+118,2016-02-25 12:49:13.000000000,2016-03-28 14:35:29.000000000,closed,1,Improve and simplify timing side channel protections in RSA code
+117,2016-02-22 20:09:45.000000000,2016-02-23 01:21:52.000000000,closed,2,Remove unnecessary lower bound when slicing in digest.
+116,2016-02-22 02:15:23.000000000,2016-02-22 13:50:16.000000000,closed,1,Fix invalid syntax for inline code within doc comment.
+115,2016-02-20 07:22:03.000000000,2016-12-21 11:21:31.000000000,closed,4,Implement RSASSA-PSS signature verification
+114,2016-02-19 01:18:02.000000000,2019-02-06 02:32:22.000000000,closed,1,The compiler doesn't tell us when we ignore a return value in C code
+113,2016-02-19 01:11:21.000000000,2018-10-24 09:08:12.000000000,closed,1,"AES_set_encrypt_key and variants return error codes, but they are ignored"
+112,2016-02-19 00:53:04.000000000,2016-03-28 00:52:32.000000000,closed,4,Remove all code that supports AES-192
+111,2016-02-15 09:50:41.000000000,2016-02-17 02:26:20.000000000,closed,3,A couple minor cleanup commits for pbkdf2.
+110,2016-02-13 22:49:31.000000000,2016-02-14 06:52:34.000000000,closed,1,Utilize polyfill utility instead of manual fill.
+109,2016-02-13 07:55:44.000000000,2016-07-03 01:36:41.000000000,closed,1,Remove all threading/locking code
+108,2016-02-13 02:18:00.000000000,2016-02-14 06:51:47.000000000,closed,2,"Remove rsa_get_public_exp in blinding.c. Instead, just fail if rsa->e…"
+107,2016-02-12 01:32:10.000000000,2016-02-26 09:31:51.000000000,closed,15,Replace crypto/cipher/e_chacha20poly1305.c with Rust code
+106,2016-02-09 09:11:36.000000000,2016-02-09 11:05:22.000000000,closed,2,"Create AEAD sub-module, separate modules for algorithms."
+105,2016-02-08 06:03:57.000000000,2016-02-22 15:07:48.000000000,closed,3,Add AEAD tests where `in_prefix_len` != 0
+104,2016-02-05 02:16:12.000000000,2020-05-29 22:27:40.000000000,closed,16,Add constant-time AES-GCM that doesn't require assembly language
+103,2016-02-05 01:44:10.000000000,2016-12-13 03:58:19.000000000,closed,1,Make ECDSA signing and verification work without using the heap
+102,2016-02-05 01:43:01.000000000,1970-01-01 00:00:00.000000001,open,1,Make RSA signature verification work without using the heap
+101,2016-01-29 02:12:57.000000000,2019-04-05 02:44:56.000000000,closed,13,Remove integer arithmetic on values converted from pointers
+100,2016-01-28 11:47:24.000000000,2016-07-03 01:44:24.000000000,closed,2,Add GCC 6 support
+99,2016-01-25 14:29:31.000000000,2016-07-03 01:42:04.000000000,closed,8,Simplify RSA signing code
+98,2016-01-24 19:48:23.000000000,2016-01-24 23:07:46.000000000,closed,2,Remove unused CTR related functions.
+97,2016-01-24 09:42:10.000000000,2016-01-24 23:06:06.000000000,closed,2,A couple AES related cleanup commits
+96,2016-01-23 05:53:19.000000000,1970-01-01 00:00:00.000000001,open,0,Test wrong-key-size misuse of the API
+95,2016-01-23 02:51:52.000000000,1970-01-01 00:00:00.000000001,open,16,Improve constant-time comparison `CRYPTO_memcmp`
+94,2016-01-23 02:23:35.000000000,2016-03-28 14:38:27.000000000,closed,3,Simplify endian-specific code
+93,2016-01-22 20:01:00.000000000,2016-01-23 06:14:13.000000000,closed,4,	Utilize Rust bytestring literals where appropriate. 
+92,2016-01-22 18:46:55.000000000,2016-01-23 07:27:23.000000000,closed,5,Remove '#define asm __asm__' everywhere
+91,2016-01-22 08:44:44.000000000,2016-01-25 07:43:54.000000000,closed,7,"Remove `GETU32`, `PUTU32`, `BSWAP4`, `BSWAP8` macros. "
+90,2016-01-22 07:06:21.000000000,2016-01-22 07:15:36.000000000,closed,1,Avoid 'data' name when referring to value (not a pointer)
+89,2016-01-22 05:16:29.000000000,2016-01-22 07:02:45.000000000,closed,7,Replace usages of `ROTR` macro with `rotate_right_u64`.
+88,2016-01-22 04:37:18.000000000,2016-01-22 04:44:50.000000000,closed,2,Remove MSVC conditional checks for now-unsupported versions
+87,2016-01-22 02:13:43.000000000,2016-01-22 04:16:08.000000000,closed,3,Replace usages of `PULL64` macro with `from_be_u64`.
+86,2016-01-22 02:10:18.000000000,2016-01-22 04:02:08.000000000,closed,1,Fix typo referencing function name in comment
+85,2016-01-20 06:51:25.000000000,2018-12-03 14:15:00.000000000,closed,2,Replace crypto/cipher/e_aes.c with Rust code.
+84,2016-01-20 06:43:33.000000000,2016-02-26 09:37:20.000000000,closed,17,Replace crypto/cipher/e_chacha20poly1305.c with Rust code
+83,2016-01-20 06:42:16.000000000,2019-04-03 11:40:40.000000000,closed,5,Deal with strict aliasing issues (`-fstrict-aliasing` vs `-fno-strict-aliasing`)
+82,2016-01-17 05:09:26.000000000,2016-01-20 07:39:33.000000000,closed,11,Replace usages of `HOST_c2l` macro with `from_be_u32` function
+81,2016-01-16 23:06:04.000000000,2016-01-17 02:23:30.000000000,closed,2,Remove unused #define's related to md32_common.h
+80,2016-01-13 04:56:04.000000000,2017-04-15 08:45:00.000000000,closed,2,Replace bn_test with known-answer tests or tests against an independent implementation
+79,2016-01-10 08:11:23.000000000,2016-02-11 23:16:54.000000000,closed,2,Add support for GCC 4.6?
+78,2016-01-08 10:28:00.000000000,2019-04-03 11:40:06.000000000,closed,5,Finish up `use_heap` feature.
+77,2016-01-08 06:42:10.000000000,2016-07-03 05:22:10.000000000,closed,1,Verify that the constants generated by ecc_build.rs are correct
+76,2016-01-06 09:21:50.000000000,1970-01-01 00:00:00.000000001,open,0,Document and test Ed25519 and RSA PKCS#1 public key and signature validation
+75,2016-01-06 06:15:32.000000000,2016-01-08 11:49:38.000000000,closed,3,Re-enable build on Rust Nightly on Travis CI.
+74,2016-01-06 06:13:19.000000000,2016-01-09 03:52:10.000000000,closed,1,Remove `rand` build dependency
+73,2016-01-06 04:39:09.000000000,2019-02-06 02:31:43.000000000,closed,0,use named constants for X25519 and Ed25519 public/private key lengths
+72,2016-01-06 04:21:30.000000000,2016-07-03 05:39:08.000000000,closed,1,Remove `RSA_decrypt` and related functions
+71,2016-01-06 03:33:19.000000000,2016-01-20 07:37:36.000000000,closed,10,Replace `HOST_c2l` in md32_common.h with byteswap function
+70,2016-01-06 03:03:02.000000000,2016-03-06 12:57:52.000000000,closed,1,Remove GCC-isms like crypto/bn/asm/x86_64-gcc.c
+69,2016-01-06 03:00:28.000000000,2016-01-25 07:46:00.000000000,closed,1,Remove `#define asm __asm__` everywhere
+68,2016-01-06 02:55:09.000000000,2016-12-13 04:28:19.000000000,closed,2,Audit and fix type aliasing and alignment problems in C code
+67,2016-01-05 09:20:34.000000000,2018-12-03 14:15:28.000000000,closed,1,Reconsider how OPENSSL_SMALL works
+66,2016-01-05 07:49:03.000000000,2016-07-03 05:40:00.000000000,closed,1,Enforce that EC_KEY private key is not zero
+65,2016-01-05 06:10:04.000000000,2019-04-03 11:39:09.000000000,closed,1,Refactor HMAC API to match the design of other APIs
+64,2016-01-05 05:52:38.000000000,2016-07-03 05:40:16.000000000,closed,2,Add RSA PKCS#1 1.5 verification test vectors.
+63,2016-01-05 05:17:38.000000000,2019-07-12 23:05:03.000000000,closed,2,Add SHA512/256 and HMAC-SHA512/256
+62,2016-01-05 05:04:51.000000000,2016-12-13 04:19:15.000000000,closed,8,Replace C implementation of SHA-512 (and SHA-384) with a fast Rust implementation
+61,2016-01-05 05:03:42.000000000,2016-12-13 04:08:05.000000000,closed,4,Replace C implementation of SHA-256 with a fast Rust implementation
+60,2016-01-05 04:59:04.000000000,2016-03-28 00:50:43.000000000,closed,2,Replace C implementation of SHA-1 with a small Rust implementation
+59,2016-01-05 04:55:01.000000000,1970-01-01 00:00:00.000000001,open,6,"Add SHA3-256, SHA3-384, and SHA3-512 support"
+58,2015-12-30 10:45:38.000000000,2016-07-03 05:46:57.000000000,closed,8,Replace use of crypto/rand with more direct use of OS RNG
+57,2015-12-21 07:14:50.000000000,2016-07-03 05:49:40.000000000,closed,1,Don't decode affine public key points that are not reduced mod `q`
+56,2015-12-12 05:51:55.000000000,1970-01-01 00:00:00.000000001,open,1,Add protection against projective coordinate side channel leak
+55,2015-12-01 05:59:18.000000000,1970-01-01 00:00:00.000000001,open,0,Improve documentation/behavior about digest input size limitations
+54,2015-11-29 07:48:49.000000000,1970-01-01 00:00:00.000000001,open,0,Replace ec_test.cc
+53,2015-11-29 04:09:47.000000000,2016-02-11 23:24:19.000000000,closed,1,Clean up BN_mod_exp_mont_consttime and related code
+52,2015-11-23 04:00:41.000000000,2016-12-05 11:19:39.000000000,closed,1,Make AES-GCM side-channel-free on every platform
+51,2015-11-20 00:10:42.000000000,2016-12-25 13:28:51.000000000,closed,1,Remove RSA blinding code
+50,2015-11-18 13:58:40.000000000,2017-04-15 08:46:54.000000000,closed,2,Simplify `BN_mod_inverse_ex`
+49,2015-11-08 07:35:52.000000000,1970-01-01 00:00:00.000000001,open,1,(Re-)enable AVX and other optimizations
+48,2015-11-01 03:52:25.000000000,2019-02-06 02:30:16.000000000,closed,1,"Use |consttime_memequal|, |timingsafe_bcmp| etc. when provided by the toolchain"
+47,2015-10-29 06:57:08.000000000,1970-01-01 00:00:00.000000001,open,0,Enable assembly language optimizations in iOS builds
+46,2015-10-28 07:38:05.000000000,1970-01-01 00:00:00.000000001,open,0,Enable Intel SHA extensions in PerlAsm code
+45,2015-10-28 07:36:31.000000000,2019-02-06 02:32:04.000000000,closed,1,Build C code with LTO
+44,2015-10-27 08:27:37.000000000,1970-01-01 00:00:00.000000001,open,4,Build release builds with debug info
+43,2015-10-27 08:21:01.000000000,2019-02-06 02:29:30.000000000,closed,1,Move compilation of test executables (inherited from BoringSSL) to the test build script.
+42,2015-10-26 02:13:12.000000000,2016-02-20 07:00:22.000000000,closed,2,Make RSA API less of a footgun
+41,2015-10-24 00:54:19.000000000,2015-11-09 12:20:46.000000000,closed,4,Crashing bug using reference to digest::SHA1
+40,2015-10-23 11:18:12.000000000,2015-10-26 02:29:59.000000000,closed,1,Add `ring::hmac::verify_with_own_key`
+39,2015-10-22 10:38:58.000000000,1970-01-01 00:00:00.000000001,open,3,Remove libc dependency
+38,2015-10-22 08:38:26.000000000,2017-01-29 11:03:03.000000000,closed,1,Stop using `usize` for non-size values
+37,2015-10-22 07:58:55.000000000,2016-12-13 04:06:08.000000000,closed,1,Implement `std::marker::Send` and `std::marker::Sync` for relevant types
+36,2015-10-20 08:08:33.000000000,1970-01-01 00:00:00.000000001,open,6,Improve FFI safety w.r.t. alignment and sizing
+35,2015-10-19 08:21:57.000000000,2016-07-03 05:33:42.000000000,closed,1,Verify and document that ECDHEphemeralKeyPair::generate always returns a valid key on success
+34,2015-10-19 06:51:35.000000000,2016-07-03 05:32:46.000000000,closed,1,Add negative test vectors for ECDSA
+33,2015-10-19 05:38:33.000000000,2015-10-20 09:14:18.000000000,closed,1,Fix assertions on `Result` values
+32,2015-10-18 06:54:59.000000000,2019-02-06 02:35:10.000000000,closed,3,Take inputs to parse as `untrusted::Input` values.
+31,2015-10-18 06:06:11.000000000,1970-01-01 00:00:00.000000001,open,8,Remove all casts that use the `as` operator
+30,2015-10-18 05:43:06.000000000,2017-04-15 08:48:11.000000000,closed,1,LINK : warning LNK4098: defaultlib 'MSVCRTD' conflicts with use of other libs; use /NODEFAULTLIB:library
+29,2015-10-13 17:27:12.000000000,2016-08-17 04:22:41.000000000,closed,15,Publish on crates.io
+28,2015-10-12 01:44:10.000000000,2015-10-18 05:47:12.000000000,closed,1,Add scrypt
+27,2015-10-08 09:46:57.000000000,2016-07-03 05:38:34.000000000,closed,1,Add -fvisibility=hidden to build flags
+26,2015-10-06 14:10:12.000000000,2019-04-03 11:38:29.000000000,closed,7,Add arm64ilp32 / x32 / IL64P32 targets
+25,2015-09-30 08:36:15.000000000,1970-01-01 00:00:00.000000001,open,5,Add CCM AEAD
+24,2015-09-29 06:03:30.000000000,1970-01-01 00:00:00.000000001,open,0,Import non-cert test from https://boringssl.googlesource.com/boringssl/+/93d8cf557f371d6a4d8e4edc5670192dab021b86/crypto/evp/evp_extra_test.cc
+23,2015-09-25 12:49:10.000000000,2017-03-09 05:31:10.000000000,closed,5,Test cases where pbkdf2_hmac panics
+22,2015-09-25 02:56:27.000000000,2015-10-18 05:50:30.000000000,closed,3,Remove C code that supports AES-GCM nonces that aren't 96 bits
+21,2015-09-24 07:29:35.000000000,2019-04-03 11:38:10.000000000,closed,10,Document why *ring* does not use traits to model algorithm choice
+20,2015-09-19 07:43:22.000000000,2019-02-06 02:29:22.000000000,closed,0,rustdoc shows non-public members of public statics
+19,2015-09-19 07:38:15.000000000,2019-04-03 11:36:02.000000000,closed,1,Linkify cross-references in rustdoc
+18,2015-09-19 07:36:43.000000000,2019-02-06 02:28:50.000000000,closed,1,Add analogs to rustdoc search index
+17,2015-09-18 10:36:28.000000000,2015-11-09 07:53:18.000000000,closed,2,Refactor |ring::digest| to improve perf and reduce size.
+16,2015-09-18 10:26:42.000000000,1970-01-01 00:00:00.000000001,open,1,Ensure we have all of BoringSSL's and OpenSSL's signature test vectors
+15,2015-09-16 03:45:15.000000000,2016-03-28 14:43:26.000000000,closed,1,"Decide what zeroization, if any, we should do"
+14,2015-09-15 00:36:25.000000000,2016-02-05 14:45:43.000000000,closed,6,OPENSSL_cleanse should use memset_s
+12,2015-09-03 01:16:10.000000000,2016-03-28 14:44:34.000000000,closed,8,cargo build on Windows doesn't work out of the box
+11,2015-09-02 03:53:44.000000000,2019-02-06 02:28:26.000000000,closed,1,Add Cortex-M build configurations to continuous integration
+10,2015-09-02 03:52:20.000000000,1970-01-01 00:00:00.000000001,open,0,Add iPhone configurations to continuous integration
+9,2015-09-02 03:51:36.000000000,2016-07-03 05:29:56.000000000,closed,1,Add Android to Continuous Integration
+8,2015-09-02 03:49:34.000000000,1970-01-01 00:00:00.000000001,open,5,Add Address Sanitizer (ASAN) configuration to Continuous Integration builds
+7,2015-09-02 03:48:45.000000000,2019-02-06 02:31:21.000000000,closed,0,Add MSVC /analyze static analysis
+6,2015-09-02 03:48:25.000000000,1970-01-01 00:00:00.000000001,open,1,Add clang scan-build static analysis
+5,2015-09-02 03:47:57.000000000,2019-07-12 23:03:03.000000000,closed,1,Improve C/C++ hardening build configuration
+4,2015-08-31 00:32:25.000000000,2015-10-23 10:05:25.000000000,closed,2,Remove casts to size_t in Rust code
+3,2015-08-03 00:44:20.000000000,2015-08-03 09:07:31.000000000,closed,0,Get ring building on Mac OS X
+2,2015-08-02 09:15:29.000000000,2015-08-03 09:07:31.000000000,closed,4,Building on Mac OSX
+1,2015-07-23 09:28:35.000000000,2016-07-03 05:30:43.000000000,closed,1,Replace crypto/ecdsa's signature verification with GFp

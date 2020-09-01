@@ -1,0 +1,1353 @@
+id,created_at,closed_at,state,comments,title
+1373,2020-08-29 03:31:07.000000000,1970-01-01 00:00:00.000000001,open,3,added brakets to three macros to make them less ambiguous
+1372,2020-08-28 23:05:56.000000000,1970-01-01 00:00:00.000000001,open,1,Fix/address addl rules fps
+1371,2020-08-27 18:51:27.000000000,1970-01-01 00:00:00.000000001,open,0,Add ptrace(2) rule to Falco default rule set
+1370,2020-08-27 07:00:32.000000000,1970-01-01 00:00:00.000000001,open,2,Debug symbol support
+1369,2020-08-26 23:01:29.000000000,2020-08-28 12:02:20.000000000,closed,5,rules: Adding user.loginuid to the default falco rules
+1368,2020-08-25 16:36:42.000000000,2020-08-25 18:19:22.000000000,closed,2,docs: changelog for 0.25.0
+1367,2020-08-25 16:26:20.000000000,1970-01-01 00:00:00.000000001,open,2,Embed lua files into Falco binary
+1366,2020-08-25 14:13:22.000000000,2020-08-25 16:27:41.000000000,closed,2,fix(userspace/falco): do not always rethrow the exception
+1365,2020-08-25 13:37:43.000000000,1970-01-01 00:00:00.000000001,open,3,wip:fix(scripts): modprobe before starting Falco
+1364,2020-08-25 12:18:02.000000000,1970-01-01 00:00:00.000000001,open,3,docs: correct typos and URL
+1363,2020-08-24 21:10:40.000000000,2020-08-24 22:32:25.000000000,closed,4,Update sysdig version to ae104eb20ff0198a5dcb0c91cc36c86e7c3f25c7
+1362,2020-08-20 20:18:32.000000000,2020-08-24 22:32:25.000000000,closed,0,Restore the falco_traces.yaml suite
+1361,2020-08-19 04:39:34.000000000,2020-08-19 12:14:52.000000000,closed,4,docs(community health files): fall back to org default community heal…
+1360,2020-08-18 15:38:31.000000000,1970-01-01 00:00:00.000000001,open,0,Improve exception safety with smart pointers
+1359,2020-08-18 12:02:06.000000000,2020-08-18 13:23:25.000000000,closed,3,chore(rules): add `renameat2` to `rename` macro
+1358,2020-08-18 04:15:08.000000000,2020-08-18 11:20:43.000000000,closed,2,Update readme
+1357,2020-08-17 22:56:34.000000000,2020-08-25 03:40:10.000000000,closed,1,Falco unable load BPF probe in GKE (Marketplace deployment)
+1356,2020-08-17 21:04:34.000000000,1970-01-01 00:00:00.000000001,open,1,Azure AKS reports violations for writes under /root/.kube 
+1355,2020-08-17 19:46:55.000000000,2020-08-17 20:21:46.000000000,closed,3,update: bump sysdig to 0.27.0
+1354,2020-08-17 16:54:11.000000000,2020-08-17 20:21:46.000000000,closed,0,Can't build the kernel module for 5.8.1-arch1-1
+1353,2020-08-14 19:48:55.000000000,2020-08-20 21:26:57.000000000,closed,4,"Build Improvements, SSL, jq and gRPC"
+1352,2020-08-13 23:50:04.000000000,2020-08-25 00:24:12.000000000,closed,4,Falco.json file isn't populated
+1351,2020-08-12 19:59:09.000000000,1970-01-01 00:00:00.000000001,open,1,Falco unix socket permissions
+1350,2020-08-12 12:42:09.000000000,2020-08-13 21:43:49.000000000,closed,7,macro(exe_running_docker_save): add better support for centos
+1349,2020-08-08 03:52:14.000000000,2020-08-13 22:34:40.000000000,closed,3,macro(user_read_sensitive_file_containers): replace endswiths with ex…
+1348,2020-08-07 08:46:27.000000000,1970-01-01 00:00:00.000000001,open,1,Support cURLing remote kernel modules in values.yaml
+1347,2020-08-06 16:45:57.000000000,1970-01-01 00:00:00.000000001,open,5,Centos 7.7: Falco Will Only Start After Multiple Restarts
+1346,2020-08-06 16:07:15.000000000,1970-01-01 00:00:00.000000001,open,0,Issues with HTTP Output
+1345,2020-08-05 00:44:44.000000000,2020-08-24 22:46:59.000000000,closed,3,missing prebuilt kernel module (eks1.17.6)
+1344,2020-08-04 21:53:58.000000000,1970-01-01 00:00:00.000000001,open,2,docker: migrate falco and local images to ubuntu:bionic
+1343,2020-08-04 21:17:23.000000000,1970-01-01 00:00:00.000000001,open,3,docker-entrypoint: Match /usr/bin/gcc version to kernel /proc/version
+1342,2020-08-04 20:38:18.000000000,1970-01-01 00:00:00.000000001,open,5,Set module arguments via falco-driver-loader
+1341,2020-08-04 17:49:45.000000000,1970-01-01 00:00:00.000000001,open,3,proc.pname is empty for multiple events in Falco 0.24.0
+1340,2020-08-01 11:47:47.000000000,1970-01-01 00:00:00.000000001,open,0,Add ability to append a new priority to an existing rule
+1339,2020-08-01 02:12:32.000000000,2020-08-07 00:42:19.000000000,closed,2,Kh add rule detect ephemeral container
+1338,2020-07-31 23:45:29.000000000,1970-01-01 00:00:00.000000001,open,0,Brackets in Macro Name Prevent It From Being Referenced By A Rule
+1337,2020-07-31 23:34:27.000000000,1970-01-01 00:00:00.000000001,open,1,chore(rules): Rule exceptions for ibm cloud
+1336,2020-07-31 03:21:46.000000000,2020-07-31 12:40:49.000000000,closed,2,macro(trusted_pod): add new list k8s_image_list
+1335,2020-07-30 23:21:22.000000000,1970-01-01 00:00:00.000000001,open,0,After AMI update in EKS to 1.17.9-20200723 Falco stuck in CrashLoopBackOff
+1334,2020-07-30 18:33:47.000000000,1970-01-01 00:00:00.000000001,open,2,Can't build eBPF driver
+1333,2020-07-29 17:41:08.000000000,1970-01-01 00:00:00.000000001,open,0,The outputs throttling mechanism skips notifications without any notice
+1332,2020-07-29 16:59:15.000000000,1970-01-01 00:00:00.000000001,open,1,Improve rule files validity checking
+1331,2020-07-28 20:03:49.000000000,1970-01-01 00:00:00.000000001,open,2,Can't load eBPF probe in GKE
+1330,2020-07-27 23:22:34.000000000,2020-07-28 11:58:41.000000000,closed,2,falco-driver-loader: fix conflicting $1 argument usage
+1329,2020-07-24 19:20:51.000000000,2020-07-29 20:35:17.000000000,closed,3,curl: (22) The requested URL returned error: 404 Not Found
+1328,2020-07-24 18:42:50.000000000,2020-08-20 21:26:57.000000000,closed,1,Falco 0.24.0 build failure on CentOS 8.x using 1.1.x OpenSSL
+1327,2020-07-24 01:00:33.000000000,2020-07-25 10:53:07.000000000,closed,2,rules update(Read sensitive file untrusted): add trusted images into …
+1326,2020-07-23 18:31:28.000000000,2020-07-23 22:49:58.000000000,closed,5,rule(macro falco_privileged_images): add 'docker.io/falcosecurity/falco'
+1325,2020-07-22 18:28:24.000000000,2020-08-20 21:26:57.000000000,closed,6,Build Failure on Ubuntu 18.04
+1324,2020-07-22 14:04:18.000000000,2020-07-23 08:44:34.000000000,closed,4,Deploying falco to AWS EKS managed node group nodes causes - detected an unsupported target system
+1323,2020-07-21 14:58:54.000000000,2020-07-25 10:51:15.000000000,closed,4,"rule(list allowed_k8s_users): add ""kubernetes-admin"" user"
+1322,2020-07-21 14:53:42.000000000,1970-01-01 00:00:00.000000001,open,0,Configurable Authorization HTTP Header for HTTP outputs
+1321,2020-07-20 22:16:48.000000000,2020-07-21 01:41:48.000000000,closed,4,Exclude image analyzer
+1320,2020-07-20 21:36:22.000000000,2020-07-21 00:44:21.000000000,closed,0,Invalid type when using aliases
+1319,2020-07-16 19:51:29.000000000,2020-07-21 01:25:31.000000000,closed,2,Use ISO 8601 format for changelog dates.
+1318,2020-07-16 13:50:51.000000000,2020-07-16 18:38:16.000000000,closed,7,docs: 0.24.0 changelog entries
+1317,2020-07-16 13:49:24.000000000,2020-07-16 13:49:54.000000000,closed,1,0.24.0 changelog
+1316,2020-07-15 14:04:23.000000000,2020-07-15 20:01:58.000000000,closed,2,update(rules): disable drift detection rules by default
+1315,2020-07-14 12:36:17.000000000,2020-07-29 16:51:29.000000000,closed,3,`required_engine_version` is not working for source k8s_audit
+1314,2020-07-14 05:39:07.000000000,1970-01-01 00:00:00.000000001,open,2,Drift detected (open+create) priority does not change
+1313,2020-07-14 00:03:10.000000000,2020-07-21 00:48:01.000000000,closed,9,Improvements to the integration tests build 
+1312,2020-07-13 19:35:06.000000000,2020-07-21 00:48:01.000000000,closed,1,small adjustments to the integration test readme
+1311,2020-07-13 10:08:19.000000000,2020-07-15 17:40:02.000000000,closed,3,Does Falco provide debugging and tracing facilities?
+1310,2020-07-13 02:52:31.000000000,1970-01-01 00:00:00.000000001,open,0,"Rules exclusions for squid, snap-confine, lxc"
+1309,2020-07-09 17:51:32.000000000,1970-01-01 00:00:00.000000001,open,2,`n_drops_pf=1` about every hour on GKE
+1308,2020-07-08 13:06:41.000000000,2020-07-08 19:55:18.000000000,closed,4,fix --stats-interval flag for values >= 999 (ms)
+1307,2020-07-08 12:21:30.000000000,2020-07-08 14:11:34.000000000,closed,2,fix(docker): correct syntax error in the entrypoint script
+1306,2020-07-08 02:46:53.000000000,1970-01-01 00:00:00.000000001,open,0,"""Terminal shell in container"" producing duplicate events"
+1305,2020-07-07 21:17:12.000000000,2020-07-07 23:19:09.000000000,closed,8,Const correctness + Driver version update
+1304,2020-07-07 18:22:38.000000000,1970-01-01 00:00:00.000000001,open,5,Consice pod security policy template
+1303,2020-07-07 17:56:14.000000000,2020-07-17 00:35:57.000000000,closed,8,feat(userspace/falco): print version at startup
+1302,2020-07-07 17:19:57.000000000,2020-07-17 00:35:57.000000000,closed,0,Add the Falco version at the very beginning of the log
+1301,2020-07-07 15:37:05.000000000,2020-07-07 20:41:03.000000000,closed,6,build(cmake/modules): update driver version to 33c00f
+1300,2020-07-03 18:19:29.000000000,2020-07-03 18:37:18.000000000,closed,3,docs: add myself to owners
+1299,2020-07-03 00:34:37.000000000,2020-07-07 13:34:03.000000000,closed,3,Unable to run in eBPF least-privileged mode on COS
+1298,2020-07-02 21:36:52.000000000,1970-01-01 00:00:00.000000001,open,3,feat(docs): Updating readme to match falco.org
+1297,2020-07-02 18:21:51.000000000,2020-07-07 14:17:21.000000000,closed,3,rename `SKIP_MODULE_LOAD` to `SKIP_DRIVER_LOADER`
+1296,2020-07-02 17:18:18.000000000,2020-07-03 13:45:02.000000000,closed,6,correct stdout output buffering option
+1295,2020-07-02 13:21:51.000000000,1970-01-01 00:00:00.000000001,open,1,Usage of CONFIG_IKHEADERS to make Falco drivers easier to install
+1294,2020-07-02 01:57:08.000000000,2020-07-03 22:54:37.000000000,closed,4,rules update: create placeholder macros for customization
+1293,2020-07-01 16:38:36.000000000,2020-07-07 14:20:56.000000000,closed,6,build: stale bot adjustements
+1292,2020-07-01 12:44:08.000000000,2020-07-01 15:29:52.000000000,closed,7,fix: update k8s audit endpoint to /k8s-audit everywhere
+1291,2020-06-30 05:42:31.000000000,2020-07-03 13:45:02.000000000,closed,8,GKE - Falco Logs not appearing for up to 10 minutes
+1290,2020-06-30 00:16:24.000000000,2020-06-30 13:46:00.000000000,closed,6,Gitlab
+1289,2020-06-29 23:31:05.000000000,2020-07-10 12:04:27.000000000,closed,4,rule(Write below etc): allow snapd to write its unit files
+1288,2020-06-29 23:07:14.000000000,2020-06-30 00:23:59.000000000,closed,6,Add GitLab to ADOPTERS.md
+1287,2020-06-29 22:53:21.000000000,2020-07-02 08:01:13.000000000,closed,3,Get rid of downloads from draios S3 (build dependencies)
+1286,2020-06-29 22:08:50.000000000,2020-06-30 13:44:12.000000000,closed,6,k8s_audit_rules: kube-apiserver-healthcheck user whitelist
+1285,2020-06-29 20:28:23.000000000,2020-06-29 22:29:10.000000000,closed,1,False positive in a kops 1.17 cluster
+1284,2020-06-27 02:54:17.000000000,2020-06-29 20:17:30.000000000,closed,3,rule(list network_tool_binaries): add zmap to the list
+1283,2020-06-26 18:34:05.000000000,2020-06-26 22:49:59.000000000,closed,5,rule(Launch Package Management Process in Container): allow apk manifest
+1282,2020-06-26 15:48:30.000000000,2020-06-29 20:14:52.000000000,closed,3,docs: teal logo is svg
+1281,2020-06-25 21:56:16.000000000,1970-01-01 00:00:00.000000001,open,2,Install and manage Falco via operator in Kubernetes
+1280,2020-06-25 21:29:05.000000000,2020-07-08 19:55:18.000000000,closed,0,Failure when configuring stats
+1279,2020-06-24 17:46:37.000000000,2020-06-26 21:57:19.000000000,closed,6,rule(macro `root_dir`): correct macro to exactly match the `/root` dir and not other with just `/root` as a prefix
+1278,2020-06-24 13:10:55.000000000,1970-01-01 00:00:00.000000001,open,6,Runtime error: error opening device /dev/falco0. Make sure you have root credentials and that the falco-probe module is loaded.. Exiting.
+1277,2020-06-24 10:55:08.000000000,1970-01-01 00:00:00.000000001,open,4,Fields by engine version
+1276,2020-06-23 16:55:28.000000000,1970-01-01 00:00:00.000000001,open,10,Cannot run falco in Minikube
+1275,2020-06-23 15:39:15.000000000,1970-01-01 00:00:00.000000001,open,2,Container Drift Detected: N/A and possible false positives
+1274,2020-06-23 13:22:41.000000000,2020-06-23 14:15:51.000000000,closed,9,PROPOSAL: rules engine version scope proposal
+1273,2020-06-23 13:04:03.000000000,1970-01-01 00:00:00.000000001,open,16,rules: the required_engine_version is now on by default
+1272,2020-06-22 22:16:12.000000000,1970-01-01 00:00:00.000000001,open,6,Falco rules file should have `required_engine_version: 6`
+1271,2020-06-22 19:50:24.000000000,2020-07-07 15:42:11.000000000,closed,12,gRPC auto threadiness
+1270,2020-06-22 14:22:56.000000000,1970-01-01 00:00:00.000000001,open,4,Publish the docker images to GitHub Packages too
+1269,2020-06-22 13:31:28.000000000,1970-01-01 00:00:00.000000001,open,4,Expose the Falco Engine version through the gRPC Version API
+1268,2020-06-19 22:18:33.000000000,2020-07-02 00:20:31.000000000,closed,7,Several restarts of a client makes Falco daemon unresponsive
+1267,2020-06-18 22:54:38.000000000,2020-06-19 17:33:00.000000000,closed,2,rule update (Anonymous Request Allowed): update to checking auth deci…
+1266,2020-06-18 10:40:51.000000000,2020-06-19 17:37:57.000000000,closed,4,Add Logz.io to Falco's adopters list ADOPTERS.md (continuing commit #1235)
+1265,2020-06-17 22:38:47.000000000,1970-01-01 00:00:00.000000001,open,4,Migrate Debian packages to Systemd
+1264,2020-06-17 17:12:38.000000000,2020-06-19 14:29:10.000000000,closed,9,Event Generator is not triggering all rules to create those log events.
+1263,2020-06-15 17:46:20.000000000,2020-08-22 23:08:14.000000000,closed,3,Fail to build Falco eBPF module from source.
+1261,2020-06-12 02:47:08.000000000,2020-06-19 17:31:18.000000000,closed,7,correct k8s audit endpoint
+1260,2020-06-11 23:19:53.000000000,2020-06-22 18:19:09.000000000,closed,4,rule(macro user_known_write_below_binary_dir_activities)
+1259,2020-06-11 10:08:25.000000000,2020-06-12 20:09:35.000000000,closed,5,Missing build/release directory when running builder
+1258,2020-06-11 08:45:32.000000000,2020-06-20 22:39:14.000000000,closed,2,feat(build): Including the falco-driver-loader into the container image
+1257,2020-06-11 07:21:42.000000000,2020-06-19 17:28:43.000000000,closed,5,Log modified copy instead of original message.
+1256,2020-06-11 07:20:03.000000000,2020-06-19 17:28:43.000000000,closed,1,No separator between some console log messages.
+1254,2020-06-10 20:53:09.000000000,2020-06-22 14:25:00.000000000,closed,9,rule(Container Drift Detected): detect new exec created in a container
+1253,2020-06-10 14:13:31.000000000,1970-01-01 00:00:00.000000001,open,10,Running `falco-no-driver` container with least privilege after `falco-driver-loader` fails to create process list
+1252,2020-06-09 15:07:29.000000000,2020-07-16 21:34:41.000000000,closed,7,build: libyaml in bundled deps
+1251,2020-06-04 22:21:04.000000000,1970-01-01 00:00:00.000000001,open,7,eBPF module fails to load on Fedora 32
+1250,2020-06-04 17:51:53.000000000,2020-06-10 14:21:38.000000000,closed,4,correct rule conditions to support syscall variants 
+1249,2020-06-04 01:10:40.000000000,2020-06-22 21:03:38.000000000,closed,9,rule update (Delete or rename shell history): whitelist shell processes
+1248,2020-06-03 21:04:02.000000000,2020-06-22 14:38:14.000000000,closed,3,Container executables drift detection
+1246,2020-06-01 20:35:25.000000000,2020-06-15 16:46:34.000000000,closed,6,Falco Events not sending to Cloudwatch
+1245,2020-06-01 19:06:01.000000000,2020-06-30 15:04:05.000000000,closed,3,integration tests for bidirectional gRPC
+1244,2020-05-31 22:42:35.000000000,2020-06-01 18:13:22.000000000,closed,1,vulnerable event not firing for my docker container but does for metasploit-vulnerability-emulator container
+1243,2020-05-31 18:12:27.000000000,2020-05-31 21:52:20.000000000,closed,0,what does -pc used for could not find documentation for this
+1242,2020-05-29 21:36:13.000000000,2020-05-31 18:08:24.000000000,closed,2,error opening device /host/dev/falco0 for aws ECS 
+1241,2020-05-29 16:47:07.000000000,2020-06-29 22:42:53.000000000,closed,6,bidirectional gRPC outputs + fix server streaming gRPC outputs
+1240,2020-05-29 16:44:45.000000000,2020-06-29 22:42:52.000000000,closed,1,Bidirectional request/response streaming for the outputs
+1239,2020-05-29 15:15:33.000000000,2020-08-05 15:15:33.000000000,closed,7,Falco fails to load prebuilt falco kernel module
+1238,2020-05-29 10:09:29.000000000,2020-08-06 03:39:25.000000000,closed,2,falco deployment failing in GKE
+1237,2020-05-29 00:33:43.000000000,2020-06-10 15:26:16.000000000,closed,6,"Check keepalive first, and throttle try_pop"
+1236,2020-05-28 05:46:08.000000000,2020-08-12 07:31:12.000000000,closed,11,Consider OPA Rego
+1235,2020-05-27 10:45:54.000000000,2020-06-18 11:28:05.000000000,closed,11,Add Logz.io to Falco's adopters list ADOPTERS.md
+1234,2020-05-25 13:15:25.000000000,2020-05-26 17:01:50.000000000,closed,5,docs(test): instructions to run regression test suites locally
+1233,2020-05-21 17:01:05.000000000,1970-01-01 00:00:00.000000001,open,3,"""BPF doesn't have JIT enabled"" reported incorrectly when using docker"
+1232,2020-05-21 13:40:23.000000000,1970-01-01 00:00:00.000000001,open,1,Falco segmentation fault `double free or corruption (!prev)`
+1231,2020-05-21 03:11:41.000000000,2020-07-27 15:15:32.000000000,closed,1,Syscall events dropped exceed number of syscall events
+1230,2020-05-21 00:49:47.000000000,2020-05-21 12:57:43.000000000,closed,2,Address rules fps may
+1229,2020-05-20 23:59:26.000000000,2020-05-22 18:22:11.000000000,closed,3,falco-0.23.0 gets SIGINT after running for a minute on 4.14.171-136.231.amzn2.x86_64
+1228,2020-05-20 17:28:17.000000000,2020-05-20 20:07:52.000000000,closed,2,docs(CONTRIBUTING.md): update slack channel URL
+1227,2020-05-20 15:18:20.000000000,1970-01-01 00:00:00.000000001,open,3,API to expose ring-buffer metrics 
+1226,2020-05-20 13:01:04.000000000,2020-05-28 05:12:12.000000000,closed,1,Add Configuration in falco.yaml for the `-A` Command Line Option
+1225,2020-05-20 10:40:30.000000000,1970-01-01 00:00:00.000000001,open,6,Build Falco on ppc64le
+1224,2020-05-20 09:15:14.000000000,2020-05-21 12:55:54.000000000,closed,2,rule update: fix macro reference
+1223,2020-05-19 16:54:48.000000000,2020-05-19 18:34:59.000000000,closed,3,build: use ubuntu focal instead of bionic during the ubuntu CI step
+1222,2020-05-19 16:21:21.000000000,2020-06-24 13:02:13.000000000,closed,10,Change chread namespace
+1221,2020-05-18 19:51:34.000000000,2020-05-18 20:16:54.000000000,closed,4,fix(.circleci): correct publishing command
+1220,2020-05-18 18:29:14.000000000,2020-05-20 10:40:53.000000000,closed,7,PR to build Falco on ppc64le.
+1219,2020-05-18 17:27:46.000000000,2020-05-18 18:56:22.000000000,closed,4,docs: changelog for 0.23.0
+1218,2020-05-18 14:29:14.000000000,2020-05-18 16:08:27.000000000,closed,2,fix: kernel module name `falco-probe` => `falco`
+1217,2020-05-18 12:58:52.000000000,2020-05-21 20:15:47.000000000,closed,2,Unix socket for the gRPC server
+1216,2020-05-18 12:46:55.000000000,2020-05-18 13:41:06.000000000,closed,2,docs(RELEASE.md): correct typo
+1215,2020-05-17 21:18:27.000000000,1970-01-01 00:00:00.000000001,open,2,Consume ECS Metadata with Falco
+1213,2020-05-15 19:20:20.000000000,2020-05-26 12:23:32.000000000,closed,5,rule(macro user_known_set_setuid_or_setgid_bit_conditions): create macro
+1212,2020-05-15 18:47:05.000000000,2020-05-15 21:20:31.000000000,closed,4,fix(falco-driver-loader): target for ubuntu is ubuntu-generic
+1211,2020-05-15 10:52:43.000000000,2020-05-15 13:20:57.000000000,closed,2,fix: docker/no-driver config and aliasing
+1209,2020-05-14 15:22:39.000000000,2020-05-15 13:27:19.000000000,closed,3,update(.github): remove examples and integrations from PR template
+1208,2020-05-14 14:59:43.000000000,2020-05-14 16:09:47.000000000,closed,2,add myself to approvers (docker directory)
+1207,2020-05-14 14:38:31.000000000,2020-05-15 13:19:32.000000000,closed,6,test: add driver loader integration tests
+1205,2020-05-13 20:15:47.000000000,2020-05-14 20:59:30.000000000,closed,6,new docker image `falcosecurity/falco-no-driver`
+1204,2020-05-13 14:50:20.000000000,1970-01-01 00:00:00.000000001,open,5,FPRO: Falco profiler
+1203,2020-05-12 21:07:51.000000000,2020-05-26 18:57:42.000000000,closed,7,falco-driver-loader and stable docker images need `/etc` to be mounted
+1202,2020-05-12 12:43:33.000000000,2020-05-12 21:22:50.000000000,closed,5,test: add bin package (tar.gz) to integration test
+1200,2020-05-08 21:56:03.000000000,2020-05-18 17:17:00.000000000,closed,10,falco-driver-loader - break apart logic and improvements
+1199,2020-05-08 05:46:01.000000000,2020-05-14 17:02:17.000000000,closed,6,Docs/tests instructions
+1198,2020-05-07 14:57:19.000000000,2020-07-03 13:45:02.000000000,closed,16,Falco took so long to write a JSON output log to stdout
+1197,2020-05-07 12:59:58.000000000,2020-05-07 13:49:49.000000000,closed,1,"Nodes is forbidden falco service account to list resource ""nodes"" in API group """" at the cluster scope"
+1196,2020-05-07 12:28:20.000000000,2020-05-13 12:39:09.000000000,closed,11,update(docker): remove `minimal` image
+1195,2020-05-07 00:17:14.000000000,2020-07-15 20:33:51.000000000,closed,14,Initial userspace instrumentation implementation
+1194,2020-05-07 00:07:58.000000000,1970-01-01 00:00:00.000000001,open,6,Falco JSON logs and forwarding - not working?
+1193,2020-05-06 22:26:38.000000000,2020-05-18 17:17:00.000000000,closed,5,Break apart logic in `falco-driver-loader` or rename the script
+1192,2020-05-06 21:11:11.000000000,2020-05-08 20:08:05.000000000,closed,5,refactor(docker): driverloader to falco-driver-loader
+1191,2020-05-06 16:59:56.000000000,2020-05-14 14:54:11.000000000,closed,5,update(examples): move `/examples` to `contrib` repo
+1190,2020-05-06 16:41:26.000000000,2020-05-06 22:35:32.000000000,closed,2,update(cmake/modules): bump driver version to 96bd9bc
+1189,2020-05-06 14:35:47.000000000,2020-05-06 22:35:32.000000000,closed,0,Fix the driver build on kernels < 3.17
+1187,2020-05-05 13:00:29.000000000,1970-01-01 00:00:00.000000001,open,13,Incorrect event values for container.image.* when using image digests
+1186,2020-05-05 11:33:16.000000000,2020-07-25 10:51:14.000000000,closed,4,Rule not working: Create/Modify Configmap With Private Credentials
+1185,2020-05-05 04:46:51.000000000,2020-05-11 16:15:44.000000000,closed,3,Allow exact rule matches ruleset
+1184,2020-05-04 23:05:03.000000000,2020-05-12 20:53:48.000000000,closed,8,feat(proposal): Adding artifacts scope and proposal
+1183,2020-05-04 19:52:41.000000000,1970-01-01 00:00:00.000000001,open,5,When installing the driver from a container the dkms build fails
+1182,2020-05-04 16:13:36.000000000,2020-05-04 17:05:54.000000000,closed,6,fix driverloader dev
+1181,2020-05-04 04:32:36.000000000,2020-05-04 13:11:39.000000000,closed,1,Unix Domain Socket for gRPC outputs
+1180,2020-05-03 21:17:52.000000000,2020-08-24 04:35:31.000000000,closed,12,Falco Binary Downloads Improvements
+1179,2020-05-03 20:38:50.000000000,2020-05-04 13:13:14.000000000,closed,9,Unable to curl or wget binary tarballs
+1178,2020-05-02 17:37:22.000000000,1970-01-01 00:00:00.000000001,open,2,DRIVER_VERSION for the master docker image
+1177,2020-05-01 21:05:51.000000000,2020-07-07 14:24:32.000000000,closed,5,False positives in Azure Kubernetes Service
+1176,2020-04-30 23:55:39.000000000,2020-07-14 19:25:32.000000000,closed,6,Falco build for ARM armv7 armv6
+1175,2020-04-30 18:14:48.000000000,2020-04-30 19:31:04.000000000,closed,3,fix: grpc compilation with splitted gpr library
+1174,2020-04-30 18:08:47.000000000,2020-04-30 22:11:58.000000000,closed,9,fix(cmake/modules): update driver to support kernels 5.6.y
+1173,2020-04-30 18:07:22.000000000,2020-04-30 22:11:58.000000000,closed,0,Falco drivers does not support Linux kernel 5.6.y
+1172,2020-04-29 23:03:08.000000000,2020-05-04 13:27:39.000000000,closed,4,driverloader docker image
+1171,2020-04-29 20:25:59.000000000,2020-05-04 13:27:39.000000000,closed,5,falcosecurity/driverloader docker image
+1170,2020-04-29 20:03:02.000000000,2020-04-29 21:11:50.000000000,closed,5,fixing curl command error 0 bytes for CDN download.
+1169,2020-04-29 19:50:37.000000000,2020-07-08 10:22:34.000000000,closed,5,ADOPTERS improvements
+1168,2020-04-29 17:26:30.000000000,2020-04-29 17:51:46.000000000,closed,4,Fix falco driver loader to follow redirects
+1167,2020-04-29 14:47:00.000000000,2020-05-01 21:06:53.000000000,closed,3,fix(scripts): fix ignored calls script to use the new paths
+1165,2020-04-28 00:20:42.000000000,2020-04-28 18:32:34.000000000,closed,7,FIX blank file when curl download modules.
+1164,2020-04-27 22:40:34.000000000,2020-04-28 20:18:08.000000000,closed,4,fix rule naming following naming convention
+1163,2020-04-24 23:08:14.000000000,2020-04-27 14:01:28.000000000,closed,4,404 on pre~compiled kernel probes
+1161,2020-04-24 15:49:26.000000000,2020-04-24 17:44:09.000000000,closed,2,update(cmake/modules): catch2 version bump to v2.12.1
+1160,2020-04-24 14:51:13.000000000,2020-04-24 17:42:30.000000000,closed,3,"Correct ""drivers build gruid"" URLs"
+1159,2020-04-23 17:43:17.000000000,2020-04-24 20:17:46.000000000,closed,3,falco-driver-loader also as separate artifact
+1158,2020-04-23 16:10:35.000000000,2020-04-24 13:28:06.000000000,closed,4,Updates to the falco-driver-loader script
+1157,2020-04-23 11:40:59.000000000,2020-05-13 17:15:41.000000000,closed,8,update(integration): move `/integration` to `contrib` repo
+1156,2020-04-21 17:18:38.000000000,2020-04-24 17:40:51.000000000,closed,4,update(docker/event-generator): remove the event-generator
+1155,2020-04-20 20:38:10.000000000,2020-08-29 12:12:37.000000000,closed,3,Update k8s_binaries list to include kubelet/kubectl
+1154,2020-04-20 19:39:40.000000000,2020-06-23 23:53:43.000000000,closed,3,Create a macro to whitelist terminal usage in containers
+1153,2020-04-17 22:57:47.000000000,2020-04-22 22:57:30.000000000,closed,2,update audit level to Metadata for secrets
+1152,2020-04-17 22:52:17.000000000,2020-04-21 21:04:15.000000000,closed,5,rule update: add a rule to detect reverse shell
+1151,2020-04-17 21:48:10.000000000,2020-04-22 23:00:39.000000000,closed,2,Add secrets created deleted k8s audit rules
+1150,2020-04-17 19:08:12.000000000,2020-04-28 20:16:29.000000000,closed,6,docs: add release process
+1149,2020-04-17 15:34:26.000000000,2020-04-17 16:26:36.000000000,closed,2,docs: changelog for 0.22.1
+1148,2020-04-17 15:05:17.000000000,2020-04-17 15:30:53.000000000,closed,6,Hotfix packages scripts
+1147,2020-04-16 21:21:37.000000000,2020-04-17 12:56:50.000000000,closed,5,CHANGELOG for 0.22.0
+1146,2020-04-16 01:48:44.000000000,2020-08-15 07:17:47.000000000,closed,5,falco.yaml priority value incorrect for info logs
+1145,2020-04-15 20:53:10.000000000,2020-05-13 17:15:41.000000000,closed,0,"Move ""integrations"" to another repo"
+1144,2020-04-14 14:20:23.000000000,2020-04-28 20:16:29.000000000,closed,0,Document the release process
+1143,2020-04-14 06:54:19.000000000,2020-04-14 14:54:03.000000000,closed,4,Fix tag typos
+1142,2020-04-14 06:32:39.000000000,2020-04-14 14:54:03.000000000,closed,0,Typo in rule tags: mitre_defense_evasion vs mitre_defense_evation
+1141,2020-04-14 05:39:45.000000000,2020-06-26 21:57:19.000000000,closed,2,The root_dir macro matches /root123abc
+1140,2020-04-10 19:45:40.000000000,2020-04-16 14:47:27.000000000,closed,5,fix(integrations/k8s-using-daemonset): --cri flag correct socket path
+1139,2020-04-10 13:42:11.000000000,2020-04-10 20:04:56.000000000,closed,0,NA in container values while using system libcurl
+1138,2020-04-10 13:38:07.000000000,2020-04-10 20:04:56.000000000,closed,4,driver version bump to a259b4bf49c3
+1137,2020-04-09 04:28:19.000000000,2020-04-09 14:32:32.000000000,closed,4,rule(Write below root): use pmatch to check against known root direct…
+1136,2020-04-09 01:09:06.000000000,2020-04-16 15:18:57.000000000,closed,6,Add missing privileges for the apps Kubernetes API group
+1135,2020-04-09 00:44:18.000000000,2020-06-15 01:24:58.000000000,closed,2,Document Filters/Conditions
+1133,2020-04-08 20:24:44.000000000,2020-04-08 21:14:45.000000000,closed,2,fix: HOST_ROOT environment variable detection
+1132,2020-04-07 23:40:09.000000000,2020-04-14 16:27:15.000000000,closed,5,Documentation does not show how to load the bpf driver
+1131,2020-04-07 15:43:58.000000000,2020-04-08 21:13:16.000000000,closed,5,fix(driver/bpf): exact check on bpf_probe_read_str() return value
+1130,2020-04-06 20:28:47.000000000,2020-04-08 22:40:23.000000000,closed,8,Falco can't load BPF probe in GKE
+1129,2020-04-04 01:47:58.000000000,2020-07-07 20:41:02.000000000,closed,13,Falco bpf driver does not build from source on CentOS 8
+1128,2020-04-03 22:16:20.000000000,2020-04-07 20:41:36.000000000,closed,5,All falco builds from source failing due to wrong MD5 hash on tbb
+1127,2020-04-03 20:37:50.000000000,2020-04-22 01:58:02.000000000,closed,3,Fail to build falco module in air-gapped environment
+1126,2020-04-01 12:05:42.000000000,2020-06-29 22:42:52.000000000,closed,7,High CPU usage when grpc is enable
+1125,2020-03-30 19:53:18.000000000,2020-04-24 13:28:06.000000000,closed,2,falco-driver-loader improvements proposal
+1124,2020-03-30 18:54:02.000000000,2020-04-01 13:50:00.000000000,closed,2,Remove unsupported dockerfiles and update docs
+1123,2020-03-28 01:39:11.000000000,2020-03-31 00:46:06.000000000,closed,3,falcosecurity/falco:0.21.0 non-slim version doesn't have /usr/src/falco-latest available to build the module
+1122,2020-03-26 15:20:16.000000000,2020-04-14 15:19:17.000000000,closed,6,"Proposal for 2 new Falco rules for syscall source, and 4 for Kubernetes audit source."
+1121,2020-03-26 15:06:19.000000000,2020-04-14 15:19:17.000000000,closed,0,"Additional Falco rules, both for syscall and Kubernetes audit sources"
+1120,2020-03-25 16:37:15.000000000,1970-01-01 00:00:00.000000001,open,9,"Documenting all system dependencies (capabilities, mounts, etc.)"
+1119,2020-03-25 16:23:13.000000000,2020-03-25 20:13:38.000000000,closed,1,Create a proble-loader init container
+1118,2020-03-25 02:38:28.000000000,2020-03-27 03:34:56.000000000,closed,5,update(cmake): using sha256 instead of md5
+1117,2020-03-24 23:05:16.000000000,2020-03-27 16:02:59.000000000,closed,2,rule update: only detect sa created in kube namespace with success
+1116,2020-03-24 23:04:04.000000000,2020-04-01 21:39:28.000000000,closed,6,Falco 0.21.0 not available in stable deb
+1115,2020-03-24 22:23:37.000000000,2020-03-27 03:33:25.000000000,closed,4,falco rule update: whitelist sysdig/agent and sysdig/falco for query …
+1114,2020-03-24 22:14:31.000000000,2020-05-04 23:06:08.000000000,closed,19,Scope of Falco artifacts
+1113,2020-03-24 21:28:03.000000000,2020-04-04 02:54:26.000000000,closed,7,Doesn't support Latest EKS 1.15 Amazon Linux 2 Kernel version (4.14.171-136.231.amzn2.x86_64)
+1112,2020-03-23 23:33:33.000000000,2020-04-01 04:25:04.000000000,closed,15,Falco Rules Support
+1111,2020-03-23 17:49:29.000000000,2020-03-23 21:50:08.000000000,closed,5,Falco version and driver version are not coupled anymore
+1110,2020-03-23 17:34:57.000000000,2020-03-23 21:50:07.000000000,closed,1,Installing Falco Issue
+1109,2020-03-19 21:03:02.000000000,2020-03-19 21:36:37.000000000,closed,2,Increase robustness of the release workflow
+1108,2020-03-19 18:49:28.000000000,2020-03-19 19:15:31.000000000,closed,4,Event generator hosted on sysdig image registry
+1107,2020-03-19 16:00:40.000000000,2020-03-23 21:50:07.000000000,closed,2,Falco 0.21.0 failed to start on GKE
+1106,2020-03-18 16:24:48.000000000,2020-03-19 21:36:37.000000000,closed,0,Make the release process idempotent
+1105,2020-03-18 14:45:56.000000000,2020-03-18 15:07:48.000000000,closed,3,build: fix tbb dependency rename
+1104,2020-03-18 14:44:39.000000000,2020-03-18 15:07:48.000000000,closed,0,TBB repository was renamed
+1103,2020-03-18 09:32:23.000000000,2020-05-24 10:54:15.000000000,closed,3,Falco (0.21.0)  does not run on Bottlerocket (Kernel 5.4.16)
+1102,2020-03-17 21:25:55.000000000,2020-03-17 21:30:42.000000000,closed,2,remove --labels flag from circleci
+1101,2020-03-17 20:48:26.000000000,2020-03-17 20:57:23.000000000,closed,2,remove github tag rel nots flag from CI
+1100,2020-03-17 19:16:42.000000000,2020-03-17 19:45:19.000000000,closed,4,fix(.circleci): bintray secret and user for creating stable versions
+1099,2020-03-17 18:26:41.000000000,2020-03-18 19:23:21.000000000,closed,13,new(userspace/falco): add --disable-cri-async flag
+1098,2020-03-17 18:16:35.000000000,2020-03-18 00:48:32.000000000,closed,4,docs(readme): adding new release archive
+1097,2020-03-17 18:01:16.000000000,2020-03-17 18:34:21.000000000,closed,4,CHANGELOG for 0.21.0
+1096,2020-03-17 06:10:04.000000000,2020-05-19 17:15:34.000000000,closed,7,Falco gets SIGFPE  when compiled against the system libgrpc in Ubuntu Bionic
+1095,2020-03-16 12:46:35.000000000,2020-03-25 09:44:50.000000000,closed,2,Falco audit rules not working for Azure kubernetes Service
+1094,2020-03-13 18:16:47.000000000,2020-04-08 22:33:19.000000000,closed,4,0.20.0 Probe issue due to typo?  /usr/src//host/usr/src/debug  or   /usr/src//host/usr/src/kernels
+1093,2020-03-12 23:20:36.000000000,2020-03-18 00:24:33.000000000,closed,6,update(docker/tester): python 3 support for regression tests
+1092,2020-03-12 23:19:01.000000000,2020-03-18 00:24:32.000000000,closed,0,Migrate regression tests to Python 3
+1091,2020-03-12 18:47:48.000000000,2020-03-13 00:32:25.000000000,closed,3,Fix image for event generator deployment yaml
+1090,2020-03-12 18:36:50.000000000,2020-04-08 21:11:45.000000000,closed,8,versions table for the README
+1089,2020-03-12 18:17:13.000000000,2020-04-24 17:40:51.000000000,closed,6,Move event-generator
+1088,2020-03-11 03:19:34.000000000,2020-03-12 16:12:42.000000000,closed,4,Add k8s event generator resources
+1087,2020-03-10 20:36:39.000000000,2020-03-10 23:46:54.000000000,closed,0,Wrong Falco latest package when installing from deb-dev or rpm-dev
+1086,2020-03-10 20:34:38.000000000,2020-03-10 23:46:54.000000000,closed,7,Provide and parse FALCO_VERSION_PRERELEASE part
+1085,2020-03-10 19:51:53.000000000,2020-07-18 09:19:13.000000000,closed,4,Instructions for building release branches are incomplete
+1084,2020-03-10 18:29:53.000000000,2020-04-08 21:14:45.000000000,closed,0,Minikube falco build not alerting on rule violation 
+1083,2020-03-10 14:16:34.000000000,2020-04-24 15:12:14.000000000,closed,2,Rename kernel module from falco-probe.ko to falco.ko
+1082,2020-03-10 09:57:10.000000000,2020-03-11 01:47:13.000000000,closed,3,Invalid Field Used in Rules File (tag -> tags)
+1081,2020-03-09 23:26:35.000000000,2020-03-10 23:51:46.000000000,closed,5,"fix: use of ""tag"" instead of ""tags"" in default rules"
+1080,2020-03-09 23:02:39.000000000,2020-03-10 21:00:06.000000000,closed,6,build: PROBE_VERSION must use the driver version
+1079,2020-03-09 14:51:16.000000000,2020-04-17 15:08:14.000000000,closed,9,Falco fails to come up Error loading module: open /falco-probe.ko: no such file or directory 
+1078,2020-03-09 03:06:52.000000000,2020-04-27 14:54:18.000000000,closed,34,Helm install for falco not working on EKS - error opening device /dev/falco0. Make sure you have root credentials and that the falco-probe module is loaded
+1077,2020-03-06 22:04:22.000000000,2020-03-07 00:46:49.000000000,closed,3,fix(.circleci): fix get falco version for image build
+1076,2020-03-06 15:27:53.000000000,2020-03-06 15:53:29.000000000,closed,3,Fix/minimal dockerfile
+1075,2020-03-05 21:55:40.000000000,2020-04-08 21:14:45.000000000,closed,18,Output fields not filled with info showing N/A
+1074,2020-03-04 23:28:27.000000000,2020-03-05 14:58:44.000000000,closed,3,docs: updating branding
+1073,2020-03-04 23:13:59.000000000,2020-03-10 21:00:05.000000000,closed,2,Unable to build the eBPF driver
+1072,2020-03-03 23:52:14.000000000,2020-07-29 21:06:10.000000000,closed,9,Install on CentOS 8 does not always install kernelmodule correct
+1071,2020-03-03 15:39:30.000000000,2020-03-24 20:23:06.000000000,closed,2,Unable to start Falco with a custom eBPF Probe
+1070,2020-03-03 02:31:16.000000000,2020-04-14 15:22:11.000000000,closed,15,Add a macro to whitelist system binaries using the network
+1069,2020-03-02 16:19:04.000000000,2020-03-04 13:30:14.000000000,closed,7,docker minimal images need exact FALCO_VERSION
+1068,2020-02-29 00:56:01.000000000,2020-02-29 01:16:27.000000000,closed,3,fix(.circleci): dockerhub authentication during releasing process
+1067,2020-02-29 00:54:42.000000000,2020-02-29 01:16:27.000000000,closed,2,automatic docker image push is broken
+1066,2020-02-27 16:11:05.000000000,2020-04-27 14:31:12.000000000,closed,2,Publish pre-built kernel modules to the new repositories on bintray
+1065,2020-02-27 03:15:39.000000000,2020-04-27 14:15:02.000000000,closed,13,404 on precompiled moduel
+1064,2020-02-27 03:11:52.000000000,2020-04-16 15:18:57.000000000,closed,0,The falco-cluster-role ClusterRole is missing the watch privileges on resources in the apps API group
+1063,2020-02-26 21:37:45.000000000,2020-02-28 21:32:40.000000000,closed,1,Use new falcosecurity repositories to install Falco packages into the docker images
+1062,2020-02-26 21:25:11.000000000,2020-02-28 21:32:40.000000000,closed,1,Publish packages to public/open repositories
+1061,2020-02-26 02:45:37.000000000,2020-03-04 13:28:44.000000000,closed,3,disable cryptomining rule by default; add exception of localhost and …
+1060,2020-02-26 01:25:49.000000000,1970-01-01 00:00:00.000000001,open,5,"When Falco Rule Is Missing Fields, Only One Missing Property Is Reported At A Time"
+1059,2020-02-25 21:16:48.000000000,2020-02-28 21:32:41.000000000,closed,4,"Build, sign, and publish packages and docker images automatically"
+1058,2020-02-25 17:19:32.000000000,2020-02-28 21:32:40.000000000,closed,1,Fix the dockerfiles downloading Falco tar.gz package with ADD from URL
+1057,2020-02-25 17:13:09.000000000,2020-02-28 21:32:40.000000000,closed,1,Setup debug build on CI
+1056,2020-02-25 17:08:09.000000000,2020-02-28 21:32:39.000000000,closed,2,Setup CI to build on git tag 
+1055,2020-02-24 14:40:16.000000000,2020-02-24 15:05:17.000000000,closed,2,update: changelog 0.20.0
+1054,2020-02-23 00:08:54.000000000,2020-02-23 21:10:45.000000000,closed,6,Verify checksum after downloading sysdig tarball
+1053,2020-02-19 00:53:34.000000000,2020-04-26 13:36:22.000000000,closed,3,not able see falco service in falco helm chart 
+1052,2020-02-19 00:46:11.000000000,2020-05-02 16:37:01.000000000,closed,3,"Not able enable k8s audit logs with falco ,k8s version 1.16 and falco as daemon-set "
+1051,2020-02-18 22:22:17.000000000,2020-05-06 08:50:02.000000000,closed,6,Add Cloudwatch Logs as an event source for k8s audit logs
+1050,2020-02-18 14:49:55.000000000,2020-02-24 23:40:06.000000000,closed,12,Rename BPF_PROBE and SYSDIG_BPF_PROBE to FALCO_BPF_PROBE and make the variable consistent
+1049,2020-02-18 14:47:25.000000000,2020-02-24 23:40:05.000000000,closed,0,BPF_PROBE environment variable is not consistent
+1048,2020-02-17 14:20:06.000000000,2020-02-25 14:44:03.000000000,closed,3,Release Falco 0.20.0
+1047,2020-02-14 05:02:30.000000000,1970-01-01 00:00:00.000000001,open,7,Adding acceptance tests for Falco 
+1046,2020-02-14 04:19:59.000000000,1970-01-01 00:00:00.000000001,open,9,Enable output of Mitre Att&ck tags
+1044,2020-02-10 00:02:30.000000000,2020-04-16 14:50:36.000000000,closed,17,Support for Kubernetes >= 1.16
+1043,2020-02-08 11:22:44.000000000,2020-04-16 14:50:36.000000000,closed,6,Unable to install Falco by applying DaemonSet
+1042,2020-02-07 18:17:04.000000000,2020-06-23 16:32:41.000000000,closed,6,Unsolicited buffering of output
+1041,2020-02-06 18:38:31.000000000,2020-02-06 23:16:23.000000000,closed,6,Fix memory leaks in k8s audit and json events
+1040,2020-02-06 17:27:49.000000000,2020-02-06 23:16:23.000000000,closed,3,memory leak while processing the audit endpoint
+1039,2020-02-05 22:24:26.000000000,2020-02-07 15:28:58.000000000,closed,1,Fix the Falco version
+1038,2020-02-05 21:34:22.000000000,2020-04-12 21:39:07.000000000,closed,1,Falco with JenkinsX Proposal
+1037,2020-02-05 07:11:31.000000000,2020-02-13 22:01:41.000000000,closed,5,Add more functions to `banned.h`
+1036,2020-02-05 02:45:01.000000000,2020-02-07 15:47:07.000000000,closed,3,Add Coveo to the list of Falco adopters
+1035,2020-02-04 21:27:51.000000000,2020-02-13 22:01:41.000000000,closed,4,Ban additional functions
+1034,2020-02-04 19:18:24.000000000,1970-01-01 00:00:00.000000001,open,13,sysdig build dependency requires network access
+1033,2020-02-04 19:06:02.000000000,2020-02-05 01:00:02.000000000,closed,6,Base64 format fix
+1032,2020-02-03 20:49:23.000000000,2020-02-03 21:15:46.000000000,closed,3,docs: update references to branches into README
+1031,2020-02-03 19:05:00.000000000,2020-02-04 21:47:57.000000000,closed,5,feat(userspace): Add `banned.h` which includes banned functions.
+1030,2020-02-02 07:35:02.000000000,2020-02-25 14:47:58.000000000,closed,4,_ to - in audit-sink.yaml.in
+1029,2020-02-01 12:51:01.000000000,2020-05-07 11:12:34.000000000,closed,14,Empty values (<NA>) in JSON output fields
+1028,2020-01-31 06:18:08.000000000,2020-02-03 20:13:58.000000000,closed,8,Address rules fps
+1027,2020-01-28 23:04:54.000000000,2020-02-05 23:10:06.000000000,closed,2,Falco build service
+1026,2020-01-27 22:59:46.000000000,2020-08-31 12:41:21.000000000,closed,12,K8S audit unable to reach Falco due to invalid port in webhook endpoint
+1025,2020-01-27 18:04:43.000000000,2020-03-09 23:19:22.000000000,closed,6,fix: rules tags key is plural
+1024,2020-01-26 18:30:18.000000000,2020-04-03 10:54:45.000000000,closed,7,Installing Falco locally
+1023,2020-01-24 21:47:00.000000000,2020-02-14 21:21:02.000000000,closed,3,Reduce docker build time in circleci 
+1022,2020-01-24 21:43:55.000000000,2020-02-04 19:52:59.000000000,closed,5,Enable docker cache layer in circleci
+1021,2020-01-24 01:41:57.000000000,2020-02-27 18:16:19.000000000,closed,9,Falco can't load BPF probe in GKE
+1020,2020-01-24 00:56:59.000000000,2020-01-24 21:39:02.000000000,closed,4,Update config.yml to use docker cache layer
+1019,2020-01-23 23:36:52.000000000,2020-04-01 13:50:00.000000000,closed,8,Review and Document Dockerfiles
+1018,2020-01-23 23:27:48.000000000,2020-02-25 17:21:24.000000000,closed,7,fix(docker): tags and stable image
+1017,2020-01-23 22:53:45.000000000,2020-01-24 15:53:03.000000000,closed,3,fix(docker/minimal): libyaml
+1016,2020-01-23 22:53:19.000000000,2020-01-24 15:53:03.000000000,closed,0,Missing libyaml dep into falco minimal docker image
+1015,2020-01-23 22:11:34.000000000,2020-02-25 17:21:24.000000000,closed,4,Build of falcosecurity/falco:stable is broken because of libctf-nobfd0
+1014,2020-01-23 20:11:17.000000000,2020-01-23 20:35:35.000000000,closed,2,build: fix dep version
+1013,2020-01-23 16:16:10.000000000,2020-01-23 19:04:41.000000000,closed,4,falco-tester is failing to build docker/local inner docker image
+1012,2020-01-23 16:15:00.000000000,2020-01-23 19:04:41.000000000,closed,3,Refactor integration images
+1011,2020-01-23 02:14:59.000000000,2020-01-28 18:21:22.000000000,closed,7,Updating logo and slogan to match branding guidelines
+1010,2020-01-23 02:10:54.000000000,2020-01-28 18:23:57.000000000,closed,3,Updating community section of README.md
+1009,2020-01-22 23:18:02.000000000,2020-04-27 14:08:04.000000000,closed,11,unable to download precompiled module from https://s3.amazonaws.com/download.draios.com/stable/sysdig-probe-binaries/falco-probe-0.18.0-x86_64-4.14.138%2B-3ed0774cb82bc5c7 f3b6f5190c3b82ef.ko
+1008,2020-01-22 21:56:00.000000000,1970-01-01 00:00:00.000000001,open,6,Remove civetwebserver in favor of upcoming Input API
+1007,2020-01-22 19:23:11.000000000,2020-01-23 19:32:48.000000000,closed,7,Changelog and updates for 0.19.0
+1006,2020-01-22 04:03:03.000000000,2020-01-28 16:35:18.000000000,closed,5, Adding branding guidelines to GitHub
+1005,2020-01-22 00:13:11.000000000,2020-04-16 15:36:08.000000000,closed,13,Modifying apiVersion for daemonset and adding selectors
+1004,2020-01-21 01:40:37.000000000,2020-01-21 16:51:51.000000000,closed,5,Bring the falco-builder back to centos:7 as base image
+1003,2020-01-20 19:15:22.000000000,2020-01-21 01:44:43.000000000,closed,4,build: disable the tests of sinsp/scap deps
+1002,2020-01-20 16:42:20.000000000,2020-01-20 17:59:26.000000000,closed,7,Remove old build mechanisms
+1001,2020-01-17 22:50:49.000000000,2020-01-22 17:16:54.000000000,closed,3,"Ensure packages (deb, rmp, tar.gz) list all the dynamic dependencies"
+1000,2020-01-17 22:12:31.000000000,2020-01-20 17:59:26.000000000,closed,2,Remove TravisCI in favor of CircleCI
+999,2020-01-16 18:42:16.000000000,2020-08-19 12:14:52.000000000,closed,2,Should we remove CONTRIBUTING and CODE_OF_CONDUCT fallbacking to the org ones?
+998,2020-01-16 13:30:08.000000000,2020-04-03 22:54:44.000000000,closed,5,audit events Cannot send to Kubernetes Audit endpoint exposed by Falco
+997,2020-01-15 05:42:49.000000000,2020-01-15 13:35:29.000000000,closed,5,Add k8s event generator
+996,2020-01-14 16:30:18.000000000,2020-01-14 17:41:09.000000000,closed,3,Add Skyscanner to adopters
+995,2020-01-10 14:59:17.000000000,2020-01-11 00:46:35.000000000,closed,4,WIP: Don't merge: Test ifndef in matching branch in Sysdig
+994,2020-01-10 14:58:16.000000000,2020-02-14 13:01:15.000000000,closed,2,All builds are failing
+993,2020-01-10 00:31:50.000000000,2020-03-18 00:29:26.000000000,closed,3,Update the yaml files.
+992,2020-01-08 17:21:52.000000000,2020-04-10 21:03:02.000000000,closed,6,implementaion of pylint and flake8 for standardization python code across the repo
+991,2020-01-08 17:09:58.000000000,2020-03-16 10:09:06.000000000,closed,4,Implement pep8 / flake8 for python code in falco
+990,2020-01-06 19:45:49.000000000,2020-02-14 21:23:22.000000000,closed,6,Valid audit JSON terminates/crashes Falco 
+989,2020-01-06 06:00:09.000000000,1970-01-01 00:00:00.000000001,open,9,debian package: use systemd if available
+988,2020-01-05 06:53:39.000000000,2020-02-04 19:17:04.000000000,closed,12,Fix base64 flag
+987,2019-12-31 01:48:30.000000000,2020-02-05 01:00:02.000000000,closed,3,Falco Base64 doesn't work
+986,2019-12-21 01:05:13.000000000,2020-04-10 21:03:06.000000000,closed,4,End Users Tracking
+985,2019-12-20 12:52:29.000000000,1970-01-01 00:00:00.000000001,open,11,Connection error running Falco on Azure (aks-engine) master nodes 
+984,2019-12-19 20:11:56.000000000,2020-04-15 13:16:08.000000000,closed,12,add lib to falco engine to work with latest sysdig
+983,2019-12-18 18:04:15.000000000,2020-05-21 22:08:59.000000000,closed,39,Cutover to CNCF Slack
+982,2019-12-18 15:51:47.000000000,2020-05-29 19:58:56.000000000,closed,8,Falco test cases are failing on ppc64le platform
+981,2019-12-18 15:05:17.000000000,2020-02-26 14:02:26.000000000,closed,6,fix: use base name in docker-entrypoint.sh
+980,2019-12-18 04:34:42.000000000,2020-01-07 18:58:13.000000000,closed,4,falco rule naming convention
+979,2019-12-18 04:24:19.000000000,2019-12-18 04:32:37.000000000,closed,2,WIP:  falco rule naming convention proposal
+978,2019-12-17 13:26:45.000000000,1970-01-01 00:00:00.000000001,open,8,Publish security advisories via github
+977,2019-12-17 06:12:00.000000000,2019-12-17 13:15:43.000000000,closed,4,Publish Security Audit
+976,2019-12-17 04:00:44.000000000,1970-01-01 00:00:00.000000001,open,8,Kernel event tracing owned and maintained by Falco
+975,2019-12-16 22:13:00.000000000,2019-12-17 02:27:14.000000000,closed,3,rule(list network_tool_binaries): Add some network tools to detect suspicious network activity
+974,2019-12-16 22:04:36.000000000,2020-03-12 19:35:47.000000000,closed,16,rule(Change thread namespace): Modify condition to detect suspicious container activity
+973,2019-12-13 19:10:14.000000000,2019-12-16 22:13:57.000000000,closed,4,[Declined]rule(list network_tool_binaries): Add some network tools to detect suspicious network activity
+972,2019-12-13 15:34:04.000000000,2019-12-13 17:04:25.000000000,closed,2,Adding llvm-toolset-7 into falco-builder docker image
+971,2019-12-12 19:13:41.000000000,2019-12-13 15:17:03.000000000,closed,2,delete issue templates in favor of default ones
+970,2019-12-12 15:18:42.000000000,2019-12-13 15:17:03.000000000,closed,0,Remove custom issue templates
+969,2019-12-12 06:48:25.000000000,2020-02-17 08:25:46.000000000,closed,4,Update BPF_PROBE variable to SYSDIG_BPF_PROBE
+968,2019-12-10 21:50:39.000000000,2020-01-17 23:09:32.000000000,closed,23,Dynamic builds (mostly)
+967,2019-12-10 10:16:51.000000000,2019-12-17 06:00:51.000000000,closed,4,Allow json arrays k8s audit
+966,2019-12-09 23:08:45.000000000,2019-12-11 01:15:17.000000000,closed,2,build: add FALCO_COVERAGE CMake option
+965,2019-12-09 23:01:53.000000000,2020-04-11 23:14:19.000000000,closed,4,test: add coverage for wrap_text
+964,2019-12-07 05:33:01.000000000,2020-03-22 12:29:50.000000000,closed,19,falco failed to run in kind
+963,2019-12-07 04:52:15.000000000,2020-01-17 23:09:32.000000000,closed,4,Build improvements: Dynamic builds
+962,2019-12-06 23:32:21.000000000,2019-12-11 16:53:08.000000000,closed,7,rule(macro user_known_k8s_client_container): have more strict condition to avoid false positives
+961,2019-12-06 22:08:07.000000000,2020-02-13 02:49:18.000000000,closed,6,Frequent and noisy syscall event drops when running falco 0.17.1 helm chart
+960,2019-12-06 16:26:55.000000000,2019-12-06 17:36:17.000000000,closed,4,build: use secure grpc when it is not bundled
+959,2019-12-06 16:26:42.000000000,2019-12-06 17:36:17.000000000,closed,0,Falco does not build when using system gRPC
+957,2019-12-05 20:09:50.000000000,2019-12-05 23:27:19.000000000,closed,4,rule(Write below etc): whitelist automount writing under /etc/mtab
+956,2019-12-04 21:03:46.000000000,2019-12-04 22:41:29.000000000,closed,5,docs(README): community call + repo planning + correct mailing list URL
+955,2019-12-04 19:06:55.000000000,2019-12-05 18:32:23.000000000,closed,9,rule(The docker client is executed in a container): modify condition to reduce false positive
+954,2019-12-04 16:30:20.000000000,2019-12-04 22:09:15.000000000,closed,5,docs(CONTRIBUTING): commit convention details
+953,2019-12-04 16:30:04.000000000,2019-12-04 22:09:15.000000000,closed,0,Commit convention details
+952,2019-12-04 10:51:30.000000000,2019-12-05 14:59:07.000000000,closed,8,rule update: modify rule to detect connection to K8S API Server from a container
+951,2019-12-04 02:15:48.000000000,2019-12-04 06:20:22.000000000,closed,5,Update the exe_running_docker_save macro to support docker in docker
+950,2019-12-04 00:45:12.000000000,2019-12-04 01:58:22.000000000,closed,3,rule update: align sensitive mount macro between k8s_audit rules and …
+949,2019-12-03 22:23:30.000000000,2019-12-04 07:35:12.000000000,closed,4,"Exclude exe_running_docker_save in the ""Modify Shell Configuration File"" rule"
+948,2019-12-03 22:11:05.000000000,2019-12-04 07:36:05.000000000,closed,4,"Exclude exe_running_docker_save in the ""Update Package Repository"" rule"
+947,2019-12-03 04:04:09.000000000,2019-12-03 07:40:00.000000000,closed,5,"Exclude exe_running_docker_save in the ""Write below etc"" rule"
+946,2019-12-03 03:00:55.000000000,2019-12-03 03:54:54.000000000,closed,4,"Exclude exe_running_docker_save in the ""Set Setuid or Setgid bit"" rule"
+945,2019-12-02 23:15:59.000000000,2019-12-04 05:19:27.000000000,closed,10,rule update: Add rules to detect raw packets creation
+944,2019-12-01 20:23:47.000000000,2019-12-02 03:27:05.000000000,closed,3,rule update: Add kubelet to user_known_chmod_applications list
+943,2019-12-01 16:07:46.000000000,2019-12-04 01:15:34.000000000,closed,11,rule update: Add rules to detect access to GCE Instance Metadata
+942,2019-11-30 03:56:45.000000000,1970-01-01 00:00:00.000000001,open,8,BPF probe compile once run everywhere with BTF
+941,2019-11-30 02:56:36.000000000,2019-12-03 04:03:36.000000000,closed,6,Add a simple user_known_package_manager_in_container_conditions macro
+940,2019-11-30 02:44:59.000000000,2019-11-30 02:51:20.000000000,closed,2,Add a user_known_package_manager_in_container_conditions macro
+939,2019-11-29 08:46:28.000000000,2019-12-03 22:43:58.000000000,closed,3,wip: build: update gRPC to 1.25.0
+938,2019-11-27 15:02:47.000000000,2020-02-03 03:56:48.000000000,closed,3,falco failed to deploy in bare-metal k8s
+937,2019-11-26 20:08:13.000000000,2020-02-03 03:56:49.000000000,closed,3,Missing BPF probe for Amazon Linux 2
+936,2019-11-26 09:24:41.000000000,1970-01-01 00:00:00.000000001,open,10,Can't disable syscall event source while deploying on Kubernetes
+935,2019-11-23 00:28:31.000000000,1970-01-01 00:00:00.000000001,open,18,Falco would occasionally restart due to connection error to kubernetes api service
+934,2019-11-22 12:01:44.000000000,2020-02-01 05:40:37.000000000,closed,7,Cant get client ip and server ip
+933,2019-11-21 22:42:14.000000000,2019-11-27 22:18:08.000000000,closed,4,update: cleanup the gRPC dependency and use the url from the main project
+932,2019-11-21 17:46:43.000000000,1970-01-01 00:00:00.000000001,open,8,Code changes to support ppc64le platform
+931,2019-11-21 12:02:33.000000000,2019-12-05 17:02:30.000000000,closed,14,failed to compile using falco-builder container + eBPF
+930,2019-11-20 17:07:09.000000000,2019-12-02 16:31:41.000000000,closed,8,Multiple slack notifications
+929,2019-11-19 09:05:01.000000000,2019-12-04 00:37:02.000000000,closed,4,rules update: add more sensitive host path to sensitive_host_mount macro
+928,2019-11-19 01:06:52.000000000,2019-11-19 05:19:59.000000000,closed,2,Always catch json type errors when extracting
+927,2019-11-18 17:30:03.000000000,2019-11-28 02:23:50.000000000,closed,9,feat: add hostname field in gRPC output
+926,2019-11-17 13:48:24.000000000,2020-08-02 02:22:27.000000000,closed,6,Expose IPv6-enabled S3 instances for installation files
+925,2019-11-15 00:43:03.000000000,2020-03-18 19:23:20.000000000,closed,32,getting Null as container name
+924,2019-11-13 02:30:13.000000000,2019-12-20 18:56:50.000000000,closed,5,Remove references to Sysdig
+923,2019-11-08 19:45:23.000000000,2019-11-28 02:23:50.000000000,closed,3,Expose the node metadata in the Falco outputs API
+922,2019-11-08 19:32:53.000000000,2019-11-14 23:00:37.000000000,closed,6,Remove references
+921,2019-11-08 16:38:21.000000000,2019-12-03 22:43:58.000000000,closed,2,Falco does not compile against glibc 2.30
+920,2019-11-07 03:14:21.000000000,2020-01-24 12:18:35.000000000,closed,7,Failed to deploy falco on GKE
+919,2019-11-06 02:00:33.000000000,2020-01-31 09:40:34.000000000,closed,7,Falco versions other than 0.17.1 fail to launch Amazon Linux 2
+918,2019-11-05 22:36:03.000000000,2019-11-08 19:32:37.000000000,closed,2,Remove references
+917,2019-11-05 22:06:24.000000000,2019-11-06 13:44:56.000000000,closed,4,Many dropped system calls events due to page faults 
+916,2019-11-05 10:37:03.000000000,2019-11-06 10:52:44.000000000,closed,3,Falco 0.18.0 Build from source failure 
+915,2019-11-05 03:24:27.000000000,2019-11-08 13:49:11.000000000,closed,5,Added rule to detect docker client in container
+914,2019-11-04 12:00:57.000000000,2019-11-08 14:38:48.000000000,closed,4,rules update: add docker-runc-cur to container_entrypoint macro
+913,2019-11-04 05:20:29.000000000,2019-11-05 19:46:35.000000000,closed,5,fix the image name and tag for the linuxkit Dockerfile
+912,2019-11-02 15:22:04.000000000,2020-01-07 00:19:12.000000000,closed,5,Compile error & precompiled module not found with falco 0.18.0 on AWS
+911,2019-11-02 01:32:07.000000000,2019-11-05 22:25:47.000000000,closed,1,"remove some more unnecessary, legacy references to falco in sysdig"
+910,2019-11-01 23:04:40.000000000,2019-11-05 20:40:58.000000000,closed,2,Cleanup names
+909,2019-10-31 21:12:08.000000000,2019-10-31 22:55:13.000000000,closed,2,Adding Frame.io and SightMachine to ADOPTERS file
+908,2019-10-30 21:38:41.000000000,2019-12-09 20:46:17.000000000,closed,9,proposal: Falco API
+907,2019-10-30 05:14:27.000000000,2019-10-30 11:52:48.000000000,closed,3,Don't pop excess values from stack
+906,2019-10-29 22:01:03.000000000,2019-10-30 11:52:48.000000000,closed,1,Crash when loading many small rules files
+905,2019-10-29 03:26:18.000000000,2019-11-24 13:40:58.000000000,closed,2,Runtime Error : Falco Probe Loader(.ko) for falco 0.17.1 and kernel 4.14.146-120.181.amzn2.x86_64 results in run-time error
+904,2019-10-28 19:57:08.000000000,2019-10-31 15:32:40.000000000,closed,4,Prepare release 0.18.0
+902,2019-10-25 09:50:34.000000000,2019-10-25 17:18:34.000000000,closed,3,rules update: add calico/node to trusted privileged container list; a…
+901,2019-10-25 02:16:03.000000000,2019-11-05 20:42:22.000000000,closed,7,falco-edits
+900,2019-10-24 23:50:00.000000000,2019-12-13 17:04:24.000000000,closed,10,`falco-builder package` fails with BUILD_BPF=ON
+899,2019-10-24 21:55:00.000000000,2019-10-25 03:57:01.000000000,closed,2,Use falcoctl 0.0.4+ tests for space/dash psp names
+898,2019-10-24 01:19:22.000000000,2019-10-24 15:46:24.000000000,closed,7,rules update: expand list allowed_k8s_users
+897,2019-10-24 00:09:36.000000000,2020-06-29 17:08:02.000000000,closed,14,[Ubuntu Bionic 18.04 - AWS AMI] 404 Falco probe binary not found
+896,2019-10-23 00:40:50.000000000,2020-04-08 21:13:16.000000000,closed,27,Falco with eBPF probe locks 4.19 kernel mainline when running lsiutil
+895,2019-10-21 21:54:21.000000000,2019-10-23 21:45:05.000000000,closed,2,Use falcoctl 0.0.3 w/ unique names
+894,2019-10-20 11:37:44.000000000,2019-12-26 14:59:55.000000000,closed,3,[integrations/k8s-using-deployment] deprecated APIs removed in k8s 1.16
+893,2019-10-18 21:48:21.000000000,2019-10-21 19:09:30.000000000,closed,3,Add compat old k8s filter fields
+892,2019-10-18 18:10:16.000000000,2019-10-20 13:01:05.000000000,closed,4,Build out the new Falco infrastructure
+891,2019-10-16 23:25:45.000000000,2019-12-23 01:01:34.000000000,closed,2,implement pep8 / flake8 for python code in falco
+890,2019-10-16 18:45:22.000000000,2019-11-13 04:41:43.000000000,closed,5,Falco probeloader failed to download kernel module for KERNEL_VERSION: 4.14.137-0414137-generic
+889,2019-10-10 14:42:21.000000000,2019-10-31 21:04:16.000000000,closed,3,Release Falco 0.17.2 / 0.18.0?
+888,2019-10-10 01:35:56.000000000,2019-12-18 18:20:46.000000000,closed,2,Migrate falco Slack to CNCF Slack
+887,2019-10-10 00:37:12.000000000,2019-10-10 00:38:47.000000000,closed,0,Add SECURITY.md
+886,2019-10-10 00:20:34.000000000,2019-12-17 13:15:42.000000000,closed,10,Publish security audit
+885,2019-10-10 00:19:57.000000000,2020-04-07 21:16:59.000000000,closed,7,Add SECURITY.md + disclosure process
+884,2019-10-09 19:15:08.000000000,1970-01-01 00:00:00.000000001,open,11,gRPC outputs: stream drop alerts
+883,2019-10-09 00:29:24.000000000,2020-04-10 21:03:01.000000000,closed,9,wip: Ignore errors arising from docker extracting images
+882,2019-10-08 02:49:56.000000000,2020-02-23 15:27:52.000000000,closed,3,Pulling docker image generates lots of alerts
+881,2019-10-08 01:56:01.000000000,2019-10-09 18:30:37.000000000,closed,7,Ignore sensitive mounts from ecs-agent
+880,2019-10-08 01:01:43.000000000,2019-10-10 14:59:04.000000000,closed,6,Added more context on Sysdig Secure
+879,2019-10-08 00:53:23.000000000,2019-10-08 18:12:19.000000000,closed,2,Add explicit catch2 dependency for tests
+878,2019-10-07 20:21:28.000000000,2019-10-08 18:02:27.000000000,closed,2,docs: update COPYING
+877,2019-10-07 19:27:10.000000000,2019-10-08 18:11:44.000000000,closed,2,proposals area into PR template
+876,2019-10-07 19:24:58.000000000,2019-10-08 20:15:48.000000000,closed,4,proposal: Machinery repository
+875,2019-10-04 15:08:18.000000000,2019-10-04 15:12:16.000000000,closed,1,v0.17.1 git tag is wrong
+874,2019-10-04 13:42:25.000000000,2020-01-27 14:08:32.000000000,closed,7,Falco build from source fails for RHEL 8.0
+873,2019-10-04 05:45:22.000000000,2019-10-04 13:43:29.000000000,closed,3,Specify namespace compat w/ gcc 5
+872,2019-10-03 20:52:24.000000000,2020-02-07 15:28:58.000000000,closed,9,gRPC version service + fix falco version
+871,2019-10-03 12:57:22.000000000,2019-10-03 13:55:06.000000000,closed,2,documenting the keepalive field of the gPRC outputs API
+870,2019-10-01 12:45:14.000000000,2019-10-21 14:43:08.000000000,closed,8,Falco v0.17.1 build fails on rhel/centos
+869,2019-10-01 10:22:05.000000000,2019-12-10 16:09:10.000000000,closed,7,404 falco probe binary not found
+868,2019-09-30 18:46:32.000000000,2019-09-30 23:18:01.000000000,closed,4,removing maintainers file
+867,2019-09-30 18:00:30.000000000,2019-09-30 20:07:20.000000000,closed,4,Make lua state access thread-safe
+866,2019-09-30 13:12:59.000000000,2019-09-30 17:55:26.000000000,closed,2,gRPC fixes
+865,2019-09-27 20:39:13.000000000,2020-04-08 21:14:45.000000000,closed,10,Since upgrading EKS to 1.13 falco lost ability to detect pod name
+864,2019-09-27 04:48:23.000000000,2019-10-03 12:16:29.000000000,closed,2,rules update: add back rule Delete Bash History for backport compatib…
+863,2019-09-27 04:40:56.000000000,2019-09-27 04:46:35.000000000,closed,3,rules update: add back rule Delete Bash History for backport compatib…
+862,2019-09-27 01:03:31.000000000,2019-10-04 13:43:29.000000000,closed,6,Build falco from host failed with 0.17.1
+861,2019-09-26 17:53:42.000000000,2019-09-26 18:14:26.000000000,closed,2,update(changelog): prepare for v0.17.1
+860,2019-09-26 10:48:18.000000000,1970-01-01 00:00:00.000000001,open,20,SSL server failed to start
+859,2019-09-25 19:38:37.000000000,2019-10-04 22:37:55.000000000,closed,1,gRPC Outputs Documentation (Tracking issue)
+858,2019-09-25 19:36:18.000000000,2020-05-21 20:15:47.000000000,closed,6,GRPC Output: Also support unix domain sockets
+857,2019-09-25 17:59:22.000000000,1970-01-01 00:00:00.000000001,open,13,gRPC outputs: fanout  queuing mechanism
+856,2019-09-25 17:58:21.000000000,2020-06-29 22:42:52.000000000,closed,7,Catch and handle gRPC status and logs
+855,2019-09-25 17:55:32.000000000,1970-01-01 00:00:00.000000001,open,8,Add tags in the response message of outputs.proto
+854,2019-09-25 17:50:40.000000000,1970-01-01 00:00:00.000000001,open,8,Unit and integration tests the gRPC server
+853,2019-09-24 12:50:15.000000000,2019-09-24 15:27:28.000000000,closed,2,Compatibility array
+852,2019-09-24 02:01:00.000000000,2019-09-26 14:57:00.000000000,closed,2,rules update: add fluent/fluentd-kubernetes-daemonset to clear log tr…
+851,2019-09-21 02:12:47.000000000,2020-02-02 13:56:48.000000000,closed,3,Releases timeline
+850,2019-09-19 20:13:55.000000000,2019-10-31 21:07:55.000000000,closed,10,adding frame.io quotes
+849,2019-09-18 23:39:41.000000000,2019-09-27 00:36:33.000000000,closed,6,Release Falco 0.17.1
+848,2019-09-18 18:42:20.000000000,2019-10-31 21:11:01.000000000,closed,13,Added Sight Machine to Adopters List
+847,2019-09-18 18:38:04.000000000,2019-09-18 18:38:57.000000000,closed,4,Added Sight Machine to Adopters List
+846,2019-09-17 22:24:33.000000000,2019-09-27 18:06:03.000000000,closed,10,unable to download precompiled falco-probe-0.17.0-x86_64-4.14.138-114.102.amzn2.x86_64
+845,2019-09-17 01:45:45.000000000,1970-01-01 00:00:00.000000001,open,11,Falco rule triggering events in one cluster but not the other
+844,2019-09-17 01:44:18.000000000,2019-09-17 02:44:20.000000000,closed,3,Adding Shopify to ADOPTERS.md
+843,2019-09-17 01:05:04.000000000,2019-09-19 03:05:17.000000000,closed,9,Add League to adopters list
+842,2019-09-16 20:53:37.000000000,2019-12-18 18:48:42.000000000,closed,3,Add Incubation Proposal for CNCF Review
+841,2019-09-16 07:14:47.000000000,2019-09-16 12:12:23.000000000,closed,2,Add ADOPTERS.md
+840,2019-09-16 07:04:30.000000000,2019-09-16 07:05:00.000000000,closed,2,Mfdii/adopters
+839,2019-09-16 06:04:38.000000000,2019-09-16 12:11:26.000000000,closed,2,Automatic area/* labels
+838,2019-09-13 20:02:15.000000000,2020-02-19 21:34:43.000000000,closed,5,Remove stale docs content from Github wiki
+837,2019-09-13 18:00:17.000000000,2020-02-01 04:40:36.000000000,closed,4,Can't build the kernel module when the headers directory is symlinked
+836,2019-09-13 17:23:32.000000000,2020-02-14 18:19:42.000000000,closed,3,The --support CLI flag should work also without rule file specified 
+835,2019-09-13 17:20:25.000000000,2020-03-19 19:42:58.000000000,closed,16,Rules for miners should not resolve the address for the miner
+834,2019-09-13 16:56:42.000000000,2019-10-08 14:17:28.000000000,closed,8,fix(permissions): Restrict to RO access to /dev on underlying host
+833,2019-09-13 13:43:01.000000000,2020-04-27 14:38:57.000000000,closed,3,Code analisys tools
+832,2019-09-13 05:37:56.000000000,2019-09-13 14:57:18.000000000,closed,3,Governance and code of conduct docs as markdown docs
+831,2019-09-13 01:09:54.000000000,2019-09-16 12:12:23.000000000,closed,0,Add ADOPTERS.md
+830,2019-09-11 18:59:34.000000000,2019-09-15 12:29:42.000000000,closed,5,fix(docker/stable): fix libgcc-6-dev dependencies
+829,2019-09-11 14:33:15.000000000,2019-09-11 14:38:23.000000000,closed,1,Remove the GitHub pages for this repository
+828,2019-09-11 06:49:01.000000000,2020-02-03 02:56:45.000000000,closed,15,Add send/recv and RFC 1918 handling to in/out macro.
+827,2019-09-10 17:21:53.000000000,2020-03-17 18:29:25.000000000,closed,4,syscall_event_drops -> actions -> log: logs are not written on separated lines
+826,2019-09-10 04:34:17.000000000,2019-10-15 21:45:32.000000000,closed,26,Psp rules support
+825,2019-09-10 04:32:29.000000000,2019-10-14 15:59:16.000000000,closed,3,Proposal add psp rules support
+824,2019-09-09 12:37:18.000000000,2020-02-01 04:40:39.000000000,closed,6,To fill a proposal for a gRPC aggregation service
+823,2019-09-09 12:33:50.000000000,2019-09-11 20:24:16.000000000,closed,6,Latest Falco Docker image is still tagged to older version 0.16.0
+822,2019-09-06 20:37:54.000000000,2019-09-25 17:43:33.000000000,closed,18,gRPC server and gRPC outputs service
+821,2019-09-06 19:13:37.000000000,2019-11-12 21:05:42.000000000,closed,2,RFC1918 change description could be misleading
+820,2019-09-06 19:03:59.000000000,2019-11-16 23:11:10.000000000,closed,6,RFC1918 excluded from outbound macro but not inbound_outbound
+819,2019-09-06 07:36:34.000000000,2020-02-01 04:40:38.000000000,closed,4,Tests
+818,2019-09-06 06:57:23.000000000,2019-09-25 19:11:26.000000000,closed,3,The Falco (gRPC) API
+817,2019-09-06 00:49:38.000000000,2019-11-12 02:17:09.000000000,closed,1,"Docs error: syslog field class is a carryover from sysdig agent, not supported in falco?"
+816,2019-09-05 14:06:47.000000000,2019-12-03 03:18:35.000000000,closed,4,falco-probe module reported as having invalid module format on Ubuntu 18.04
+815,2019-09-04 17:30:22.000000000,2019-11-12 07:17:09.000000000,closed,3,Create Falco terraform provider
+814,2019-09-04 14:20:04.000000000,2019-09-15 12:29:42.000000000,closed,3,Building with stable/Dockerfile failed
+813,2019-09-04 00:29:45.000000000,1970-01-01 00:00:00.000000001,open,26,Document falco syscall buffer size adjustment described in blog
+812,2019-09-03 16:40:19.000000000,2019-11-20 08:43:34.000000000,closed,4,Falco reports almost no event details in some alerts. 
+811,2019-09-01 11:33:33.000000000,2019-11-05 22:41:57.000000000,closed,13,falcoctl
+810,2019-08-30 23:15:40.000000000,2019-11-12 22:05:40.000000000,closed,3,Falco Package Manager for Rules
+809,2019-08-30 09:42:34.000000000,2019-11-06 04:00:44.000000000,closed,10,Falco dynamic audit configuration
+808,2019-08-29 23:08:26.000000000,2019-08-30 18:25:24.000000000,closed,3,Pass the build dir along when running tests
+807,2019-08-28 22:03:26.000000000,2020-06-07 21:10:23.000000000,closed,10,Security assessment via CNCF sig-security 
+801,2019-08-28 19:57:02.000000000,2020-01-04 19:06:50.000000000,closed,3,Getting Started with Falco
+799,2019-08-28 13:17:23.000000000,2020-02-01 04:40:35.000000000,closed,6,Source code contains code specific to lua 5.2 and above
+798,2019-08-28 13:05:57.000000000,1970-01-01 00:00:00.000000001,open,16,Unable to run Regression test on host after build from source.
+797,2019-08-28 10:21:08.000000000,2019-11-03 12:06:58.000000000,closed,1,Include source IP addresses in alerts 
+796,2019-08-28 09:33:56.000000000,2019-11-03 12:06:57.000000000,closed,3,how falco determines which syscall is coming from which kubernetes pod
+795,2019-08-27 22:53:18.000000000,2019-11-06 03:00:45.000000000,closed,4,Falco + Installers Umbrella Issue
+794,2019-08-27 22:49:42.000000000,2019-11-16 06:11:10.000000000,closed,2,Scary Container
+793,2019-08-27 22:14:34.000000000,2019-09-09 18:26:33.000000000,closed,4,Migration of falcosidekick into falcosecurity organization
+792,2019-08-27 20:52:13.000000000,2019-08-28 21:25:38.000000000,closed,2,Blog regarding the memory leak observed in 0.16
+791,2019-08-27 18:25:13.000000000,2019-09-25 17:43:33.000000000,closed,2,Review the Falco signal handler
+790,2019-08-27 16:25:13.000000000,2019-10-31 03:01:15.000000000,closed,6,Consider moving to Kubernetes slack
+789,2019-08-26 20:46:56.000000000,2019-09-25 15:37:47.000000000,closed,8,Proposal: gRPC output
+788,2019-08-26 01:06:31.000000000,2020-02-04 21:47:57.000000000,closed,3,Compile time header for banned functions
+787,2019-08-24 16:50:19.000000000,2019-08-30 18:18:41.000000000,closed,3,Install script is failing for s390x
+786,2019-08-23 00:20:39.000000000,2019-12-04 21:00:03.000000000,closed,6,Adding updates around open source calls
+785,2019-08-22 01:43:05.000000000,2019-09-10 17:50:52.000000000,closed,1,Go SDK
+784,2019-08-22 00:28:49.000000000,2019-10-28 01:43:18.000000000,closed,1,Identify what problems we need prow for
+783,2019-08-21 19:14:58.000000000,2019-08-21 19:28:31.000000000,closed,2,fix: office hours are bi-weekly
+782,2019-08-21 14:57:31.000000000,2019-08-21 16:45:38.000000000,closed,2,Fix build dependencies for the local dockerfile
+781,2019-08-21 14:57:09.000000000,2019-08-21 16:45:38.000000000,closed,0,Builds failing in dev and new PRs
+780,2019-08-21 14:06:37.000000000,2019-08-21 17:39:00.000000000,closed,3,Adding OSS changes to README
+779,2019-08-21 13:55:32.000000000,2019-08-21 19:08:05.000000000,closed,4,Ability to disable event sources
+778,2019-08-21 06:24:38.000000000,1970-01-01 00:00:00.000000001,open,8,Runtime error: Socket handler (k8s_pod_handler_state): read more than 30MB of data
+777,2019-08-21 02:14:08.000000000,2019-08-21 02:21:12.000000000,closed,4,Mailing list readme
+776,2019-08-20 22:49:48.000000000,2019-10-11 21:43:58.000000000,closed,17,ROADMAP - Build slim and full Falco container images
+775,2019-08-18 12:23:07.000000000,2019-08-19 21:06:36.000000000,closed,7,"error while loading ""raw_tracepoint/filler/sys_open_x"" (no space left on device)"
+774,2019-08-16 19:36:36.000000000,2019-08-17 19:36:45.000000000,closed,5,new: download all dependencies over https
+773,2019-08-16 13:59:46.000000000,2019-12-20 19:08:24.000000000,closed,1,Ensure that the webserver is robust 
+772,2019-08-15 17:43:34.000000000,2019-08-16 20:13:43.000000000,closed,7,cleanup: fix misspelled words in readme.md
+771,2019-08-15 15:33:26.000000000,2019-08-17 00:47:14.000000000,closed,2,falco-probe seems to be still loaded
+770,2019-08-14 21:27:15.000000000,2019-10-20 22:08:51.000000000,closed,1,It appears that we are dropping syscall information?
+769,2019-08-14 02:47:22.000000000,2019-11-16 14:11:11.000000000,closed,12,Error running in Kubernetes
+768,2019-08-13 19:35:08.000000000,2019-08-14 00:42:44.000000000,closed,2,new: add Kris to owners
+767,2019-08-13 19:26:05.000000000,2019-10-27 01:04:54.000000000,closed,6,Patching the CMake to respect $FALCO_VERSION
+766,2019-08-13 17:21:25.000000000,2019-08-20 11:45:09.000000000,closed,5,rules: strict checks on hidden files and repository files that are modified
+765,2019-08-13 15:19:53.000000000,2019-08-16 12:23:30.000000000,closed,8,fix(rules/Set Setuid or Setgid bit): use chmod syscalls instead of chmod command
+764,2019-08-07 17:03:45.000000000,2019-08-07 20:15:12.000000000,closed,2,"Falco Fails with the error ""PERF_EVENT_IOC_SET_BPF: File exists"""
+763,2019-08-06 22:50:44.000000000,2019-08-12 19:37:03.000000000,closed,5,rule update: add rules for crypto mining
+762,2019-08-05 20:57:04.000000000,2019-08-07 17:38:24.000000000,closed,3,fix: make sure that when deleting shell history the system call is taken into account
+761,2019-08-02 10:18:05.000000000,2019-08-02 13:20:06.000000000,closed,1,Building Falco Civetweb.h 
+760,2019-08-02 03:41:30.000000000,2019-08-02 22:02:00.000000000,closed,2,Handle multi doc rules files
+759,2019-08-01 23:34:05.000000000,2019-08-13 17:48:07.000000000,closed,2,Fix webserver errors
+758,2019-08-01 16:59:38.000000000,1970-01-01 00:00:00.000000001,open,11,wip: module check
+757,2019-08-01 11:00:19.000000000,2019-08-18 21:19:30.000000000,closed,8,"Build failed with error ""catch.hpp: No such file or directory"""
+756,2019-08-01 03:01:47.000000000,2019-12-06 15:31:30.000000000,closed,4,"Have an easier way to specify ""all rules"" in engine api"
+755,2019-08-01 01:52:25.000000000,2019-08-01 22:07:25.000000000,closed,2,rule update: add exception for write below rpm (#745)
+754,2019-08-01 01:48:18.000000000,2019-08-01 04:11:56.000000000,closed,4,Merge missing changes in master to dev
+753,2019-08-01 01:15:19.000000000,2019-08-01 04:12:17.000000000,closed,3,Merge dev to master for 0.17.0
+752,2019-08-01 01:07:19.000000000,2019-08-01 01:07:45.000000000,closed,1,Merge dev to master for 0.17.0
+751,2019-07-31 22:03:56.000000000,2019-07-31 23:18:48.000000000,closed,3,Remove containers from empty capture file
+750,2019-07-31 21:08:59.000000000,2019-07-31 22:30:29.000000000,closed,2,Add kaizhe and lorenzo as owners
+749,2019-07-31 21:00:55.000000000,2019-08-01 01:05:14.000000000,closed,5,Prepare for 0.17.0
+748,2019-07-31 19:39:34.000000000,2019-07-31 20:57:51.000000000,closed,6,Prepare for 0.17.0
+747,2019-07-31 08:32:22.000000000,2019-07-31 13:22:39.000000000,closed,2,Fix addl rules validation errors
+746,2019-07-31 06:10:22.000000000,2019-10-08 18:47:51.000000000,closed,6,wip: Handle sinsp::next errors in the inspect loop
+745,2019-07-31 00:33:29.000000000,2019-08-01 22:07:25.000000000,closed,3,"""Write below rpm database"" rule failing in Amazon Linux 2  "
+744,2019-07-30 07:21:58.000000000,2019-07-30 17:56:05.000000000,closed,2,Fix bugs when verifying macro/rule objects.
+743,2019-07-29 23:24:38.000000000,2019-07-30 01:24:14.000000000,closed,2,Enable rules using patterns not regexes
+742,2019-07-29 23:20:24.000000000,2019-07-30 01:24:14.000000000,closed,0,Can't enable rules with regexes in falco_engine::enable_rule()
+741,2019-07-29 22:38:47.000000000,2019-12-14 16:31:09.000000000,closed,8,Suffix match operator
+740,2019-07-29 15:15:38.000000000,2019-08-29 13:38:58.000000000,closed,37,Memory leak on falco 0.16.0
+739,2019-07-27 03:44:24.000000000,2019-07-30 20:27:18.000000000,closed,6,Write below root error triggering on GKE
+738,2019-07-25 02:42:11.000000000,2019-07-30 20:27:18.000000000,closed,5,/exec.fifo below root throwing errors with base install on GKE cluster
+737,2019-07-24 05:43:35.000000000,2019-07-24 15:05:18.000000000,closed,2,Allow all lowercase priorities
+736,2019-07-23 21:26:11.000000000,2019-07-24 18:25:48.000000000,closed,9,Rules add cadvisor node exporter
+735,2019-07-23 19:44:26.000000000,2019-07-24 18:25:48.000000000,closed,2,Add node exporter and cadvisor to whitelist
+734,2019-07-23 05:46:59.000000000,2019-07-24 02:01:41.000000000,closed,6,Error Package falco-0.16.0-x86_64.rpm is not signed on Amazon Linux 2
+733,2019-07-23 03:22:58.000000000,2019-07-23 20:50:25.000000000,closed,2,rules update 07.v1
+732,2019-07-22 21:45:02.000000000,2019-08-07 19:57:09.000000000,closed,7,Add Netdata to whitelist
+731,2019-07-19 02:45:07.000000000,2019-07-23 03:13:06.000000000,closed,9,fix: do the inspector after forking for daemon mode
+730,2019-07-18 20:32:20.000000000,2019-08-21 19:08:05.000000000,closed,2,"Flag to enable/disable event sources (syscalls, k8s_audit)"
+729,2019-07-18 16:05:10.000000000,2019-10-09 18:31:05.000000000,closed,14,Add k8s deployment yaml files for audit purpose only
+728,2019-07-18 04:20:27.000000000,2019-07-22 15:43:27.000000000,closed,3,Fix shell_procs macro
+727,2019-07-17 14:41:59.000000000,2019-07-19 22:08:57.000000000,closed,1,Falco not able to capture errors related to file operation
+726,2019-07-16 21:01:18.000000000,2020-02-28 21:32:41.000000000,closed,9,Rethink and automate the release process
+725,2019-07-16 18:17:37.000000000,2019-10-09 18:31:05.000000000,closed,10,Use deployment instead of daemonset for k8s audit
+724,2019-07-16 13:56:08.000000000,2019-09-22 19:05:56.000000000,closed,2,"cmake -DSYSDIG_DIR should resolve ""~"""
+723,2019-07-15 19:30:49.000000000,2019-07-26 05:23:02.000000000,closed,0,bump minimum cmake required
+722,2019-07-12 23:49:32.000000000,2019-07-16 20:27:12.000000000,closed,1,Merge dev to master
+721,2019-07-12 21:43:12.000000000,2019-07-12 23:18:43.000000000,closed,8,CHANGELOG/README changes for 0.16.0
+720,2019-07-12 05:55:43.000000000,2020-04-07 19:28:56.000000000,closed,6,Extend filterchecks to use container labels with k8s metadata in falco rules
+719,2019-07-11 13:01:48.000000000,2019-07-26 05:23:03.000000000,closed,6,wip: new falco builder + consequent travis and regression tests refinements
+718,2019-07-10 18:21:22.000000000,2019-07-10 20:49:04.000000000,closed,3,Lua check setup
+717,2019-07-10 17:42:31.000000000,2019-07-10 18:43:42.000000000,closed,2,allow k8s.gcr.io/kube-proxy image to run privileged
+716,2019-07-10 04:44:20.000000000,2019-07-23 03:13:06.000000000,closed,14,"Falco is not showing container information. All container events are coming with name ""incomplete"""
+715,2019-07-09 23:52:25.000000000,2019-07-29 22:50:16.000000000,closed,11,Allow regex chars rule names
+714,2019-07-09 17:30:41.000000000,2019-07-10 15:00:04.000000000,closed,3,YAML linter configuration
+713,2019-07-09 13:58:19.000000000,2019-11-20 18:43:34.000000000,closed,3,Document rules/macros depending on the rule engine version and falco version
+712,2019-07-09 13:15:35.000000000,2019-07-09 16:31:51.000000000,closed,7,Add runc to the list of possible container entrypoint parents
+711,2019-07-08 23:21:48.000000000,2020-02-01 05:40:32.000000000,closed,18,ignore container probes
+710,2019-07-08 21:03:53.000000000,2019-07-09 13:45:39.000000000,closed,2,bump falco engine version
+709,2019-07-08 16:33:20.000000000,2019-07-08 19:40:42.000000000,closed,6,ka.useragent field
+708,2019-07-06 02:47:28.000000000,2019-07-11 22:24:23.000000000,closed,5,Better rules parsing errors
+707,2019-07-05 17:33:29.000000000,2019-11-19 23:48:23.000000000,closed,3,Modularize Policy/Rule Engine as service 
+706,2019-07-05 01:53:55.000000000,1970-01-01 00:00:00.000000001,open,23,Validation Error when using a macro as definition of an overwritten macro.
+705,2019-07-03 19:22:30.000000000,2020-04-27 13:46:18.000000000,closed,5,Review of external dependencies
+704,2019-07-03 19:14:38.000000000,1970-01-01 00:00:00.000000001,open,10,[UMBREALLA] Reach adequacy of automated testing
+703,2019-07-03 17:44:57.000000000,2019-07-08 21:05:07.000000000,closed,4,cmake format
+702,2019-07-03 14:08:46.000000000,2019-07-03 17:27:29.000000000,closed,2,update: sysdig dir gate in subdirectories
+701,2019-07-02 20:39:07.000000000,2019-07-03 11:07:01.000000000,closed,3,chore: clang format following the current style
+700,2019-07-02 20:20:36.000000000,2019-07-03 14:45:48.000000000,closed,3,chore: remove find catch from cmake files
+699,2019-07-01 14:37:33.000000000,2019-07-01 21:04:57.000000000,closed,2,update(.github): PR template
+698,2019-07-01 14:37:04.000000000,2019-07-08 19:40:42.000000000,closed,1,Add a new field ka.useragent
+697,2019-07-01 14:14:21.000000000,2019-07-01 16:42:19.000000000,closed,6,fix PR template for kind/rule-*
+696,2019-07-01 14:13:54.000000000,2019-07-01 16:42:19.000000000,closed,0,Fix PR template suggestion for kind/rule-* labels
+695,2019-06-30 03:10:00.000000000,2019-07-10 17:43:21.000000000,closed,5,add k8s.gcr.io/kube-proxy to falco trusted images
+694,2019-06-29 04:32:51.000000000,2019-07-06 02:29:27.000000000,closed,4,Faster rules validation
+693,2019-06-26 19:03:12.000000000,2020-01-05 17:04:34.000000000,closed,5,Opening any connection causes falco to abort when built in debug mode
+692,2019-06-25 20:21:54.000000000,2019-07-02 19:52:30.000000000,closed,5,token bucket unit tests and redesign (DI of timer function)
+691,2019-06-25 20:21:35.000000000,1970-01-01 00:00:00.000000001,open,8,Unit tests
+690,2019-06-25 19:13:57.000000000,2019-06-27 15:19:14.000000000,closed,3,Error opening device on /host/dev/falco0
+689,2019-06-25 18:57:53.000000000,2019-06-25 23:57:53.000000000,closed,4,new: initial clang format file
+688,2019-06-25 18:56:49.000000000,2020-02-29 22:52:01.000000000,closed,8,Setup a coding style convention and enforce it
+687,2019-06-25 14:48:40.000000000,2019-06-25 19:01:39.000000000,closed,3,unit test setup
+686,2019-06-25 14:43:05.000000000,2019-06-25 19:01:39.000000000,closed,0,Unit test setup
+685,2019-06-21 21:46:16.000000000,2019-07-01 12:33:21.000000000,closed,6,Rule updates 2019 06.v4
+684,2019-06-21 03:27:44.000000000,2019-06-21 03:39:13.000000000,closed,4,Exception for fluentd in 'Clear Log Activities' rule
+683,2019-06-20 23:45:37.000000000,1970-01-01 00:00:00.000000001,open,20,Crash with Invalid JSON error while parsing container info
+682,2019-06-20 21:21:52.000000000,2019-09-10 00:06:15.000000000,closed,5,WIP: Psp rules support
+681,2019-06-20 16:08:50.000000000,2019-06-20 21:11:57.000000000,closed,3,update: fields checksum
+680,2019-06-20 14:57:18.000000000,2019-10-20 12:28:29.000000000,closed,15,Falco crashing on Kubernetes with connection timeout
+679,2019-06-20 10:41:35.000000000,2019-06-20 10:47:02.000000000,closed,2,hotfix: SYSDIG_DIR not as an option but as a set
+678,2019-06-20 01:46:52.000000000,2019-06-20 23:12:07.000000000,closed,2,rule update: add exception for rule change thread namespace
+677,2019-06-19 19:52:29.000000000,2019-06-20 10:43:40.000000000,closed,2,new: SYSDIG_DIR can be passed as cmake option
+676,2019-06-19 17:57:03.000000000,1970-01-01 00:00:00.000000001,open,11,[UMBRELLA] Missing syscalls
+675,2019-06-17 23:13:33.000000000,2019-06-17 23:41:02.000000000,closed,3,rule update: add back trusted_containers list for backport compatibility
+674,2019-06-17 21:13:32.000000000,2019-06-24 13:28:26.000000000,closed,1,Falco fails to build from source because of issues with grpc cpp plugin and libcurl
+673,2019-06-17 21:01:20.000000000,2019-06-24 13:28:26.000000000,closed,5,cmake fixes
+672,2019-06-17 19:59:34.000000000,2019-12-16 07:57:35.000000000,closed,8,Falco doesn't seem to populate some fields when using OpenShift 4.0 / CRI-O containers
+671,2019-06-14 19:09:03.000000000,2019-06-17 10:44:01.000000000,closed,3,docs: remove extra words
+670,2019-06-14 01:42:19.000000000,1970-01-01 00:00:00.000000001,open,3,Documentation around Rule Operators
+669,2019-06-13 16:53:47.000000000,1970-01-01 00:00:00.000000001,open,66,Falco on GKE - dropped syscall events
+668,2019-06-13 00:31:02.000000000,2019-06-13 00:35:00.000000000,closed,2,Prepare for 0.15.3
+667,2019-06-12 22:13:55.000000000,2019-06-14 00:28:00.000000000,closed,5,rule update (mkdirat + clear log activities placeholder) 
+666,2019-06-12 20:00:31.000000000,2019-06-12 20:14:05.000000000,closed,3,Prepare for 0.15.2
+665,2019-06-12 03:31:40.000000000,2019-06-12 03:48:59.000000000,closed,2,new: improve docs for new contributors
+664,2019-06-12 02:34:49.000000000,2019-06-12 03:03:59.000000000,closed,3,Triaging issues
+663,2019-06-12 01:55:57.000000000,2019-06-12 03:03:59.000000000,closed,1,Triaging explaination in CONTRIBUTING.md
+661,2019-06-11 22:06:13.000000000,2019-12-06 20:31:31.000000000,closed,11,Precompiled kernels for DigitalOcean Kubernetes cluster
+660,2019-06-11 19:54:00.000000000,2019-07-26 05:23:03.000000000,closed,9,Failure to build Falco with builder
+659,2019-06-11 05:39:57.000000000,2019-06-11 05:40:28.000000000,closed,2,new: initial owners files for Falco
+658,2019-06-11 05:37:46.000000000,2019-06-11 05:38:14.000000000,closed,2,Initial owners files
+657,2019-06-11 03:27:34.000000000,2019-08-17 01:21:53.000000000,closed,12,"Falco probe loader build in Linuxkit (docker4mac, docker4win)"
+656,2019-06-09 03:10:50.000000000,2019-12-06 16:31:30.000000000,closed,17,Can't find configuration file after installing falco on kubernetes
+655,2019-06-08 02:15:15.000000000,2019-06-08 02:15:27.000000000,closed,0,Fix typo in changelog
+654,2019-06-08 02:08:00.000000000,2019-06-08 02:09:26.000000000,closed,1,Update docs for 0.15.1
+653,2019-06-07 22:59:37.000000000,2019-06-07 23:21:55.000000000,closed,0,Add libssl-dev as dependency
+652,2019-06-07 03:39:46.000000000,2019-06-08 00:47:01.000000000,closed,0,rule update: improve rancher macro
+651,2019-06-06 22:22:34.000000000,2019-06-11 22:06:52.000000000,closed,12,Clean up privileged/sens mount container rules
+650,2019-06-06 04:03:51.000000000,2019-06-13 22:16:13.000000000,closed,20,Failure to find a BPF probe on Container Optimized OS
+649,2019-06-06 04:00:02.000000000,2019-06-06 05:35:26.000000000,closed,0,Improve macro rancher_write_conf for process healthcheck
+648,2019-06-06 03:49:19.000000000,2019-06-06 09:08:12.000000000,closed,0,rule update: update image check from rancher_write_conf macro
+647,2019-06-05 22:13:53.000000000,2019-08-08 14:19:26.000000000,closed,2,[WIP] Azure Pipelines configuration
+646,2019-06-05 04:55:34.000000000,2019-06-05 21:53:52.000000000,closed,0,Use driver includes from binary dir
+645,2019-06-04 23:44:38.000000000,2019-06-06 00:44:51.000000000,closed,0,Better tracking of rule counts per ruleset
+644,2019-06-04 06:31:53.000000000,2019-06-11 05:24:51.000000000,closed,7,Issue templates
+643,2019-06-03 22:56:04.000000000,2019-08-11 23:29:09.000000000,closed,4,Falco probe loader build for older falco versions
+642,2019-06-01 02:31:01.000000000,2019-06-01 02:57:05.000000000,closed,0,docs: minor language edits
+641,2019-06-01 01:55:28.000000000,2019-06-01 02:31:47.000000000,closed,1,Minor Language Edits
+640,2019-06-01 00:11:08.000000000,1970-01-01 00:00:00.000000001,open,21,"Falco service ""active (exited)"" on Ubuntu 16.04 (systemd)"
+639,2019-05-31 15:22:42.000000000,2019-06-01 00:36:37.000000000,closed,1,update documentation link
+638,2019-05-31 12:25:51.000000000,2019-10-01 13:31:06.000000000,closed,20,Unable to install falco on CentOS 7.5 - add fallback mechanism if DKMS fails
+637,2019-05-31 09:29:06.000000000,2019-06-06 02:38:46.000000000,closed,0,Rule updates 2019 05.v3
+636,2019-05-31 05:32:37.000000000,2019-06-01 00:30:56.000000000,closed,0,Handle rule patterns that are invalid regexes
+635,2019-05-31 04:22:09.000000000,2019-05-31 05:31:32.000000000,closed,0,Set dropping mode after open so it is effective
+634,2019-05-30 22:27:30.000000000,2019-06-05 22:30:59.000000000,closed,1,Add rules for running with IBM Cloud Kubernetes Service
+633,2019-05-30 22:26:01.000000000,2019-05-30 22:26:19.000000000,closed,1,Add whitelisting for keeaplived config file
+632,2019-05-30 17:52:27.000000000,2019-06-19 17:51:31.000000000,closed,4,"Provide macro to whitelist ""Clear Log Activities"" Rule"
+631,2019-05-30 09:04:41.000000000,2019-05-31 23:20:00.000000000,closed,1,Markdown formatting
+630,2019-05-30 00:53:06.000000000,2019-08-07 20:13:01.000000000,closed,3,SELinux profile for Falco
+629,2019-05-29 16:33:05.000000000,2019-12-20 19:18:54.000000000,closed,18,Why are all k8s.*.* fields are null?
+628,2019-05-29 02:55:39.000000000,1970-01-01 00:00:00.000000001,open,11,Replace --privileged flag with explicit set of capabilities
+627,2019-05-28 14:20:09.000000000,2019-08-07 20:09:38.000000000,closed,4,falco-sns crashing on start
+626,2019-05-28 00:56:04.000000000,2019-06-27 15:06:35.000000000,closed,9,Pod Error: CrashLoopBackOff Deployment to K8s with RBAC enabled
+625,2019-05-27 17:42:48.000000000,2019-06-05 22:28:50.000000000,closed,2,Allow Ansible to run using Python 3
+624,2019-05-27 11:12:39.000000000,2019-05-30 00:53:24.000000000,closed,4,Permission denied for installing precompiled module in EKS (CentOS) node
+623,2019-05-26 03:43:41.000000000,2019-07-26 05:23:03.000000000,closed,1,Falco builder vsyscall disabled
+622,2019-05-26 02:41:12.000000000,2019-06-12 02:16:47.000000000,closed,2,Fix CI on dev branch
+621,2019-05-24 20:39:02.000000000,2019-08-08 15:23:06.000000000,closed,8,Implement Prow
+620,2019-05-24 18:48:59.000000000,2019-05-24 18:50:26.000000000,closed,0,docs: add lorenzo and leonardo as maintainers
+619,2019-05-24 17:37:14.000000000,2020-02-09 22:35:07.000000000,closed,5,"Docs: architecture + performance, scalability, resource consumption bounds + failure modes + coding guidelines"
+618,2019-05-24 14:26:39.000000000,2019-05-24 19:42:01.000000000,closed,1,Bot to automatically add TOC to docs
+617,2019-05-23 20:44:37.000000000,2019-06-05 22:26:22.000000000,closed,1,fix egrep rule and ncat rule
+616,2019-05-22 16:53:07.000000000,2019-05-25 19:21:56.000000000,closed,0,fix travis ci badges
+615,2019-05-21 11:37:16.000000000,2019-11-13 10:15:12.000000000,closed,14,Frequent syscall event drops when falco runs as a binary
+614,2019-05-21 08:18:11.000000000,1970-01-01 00:00:00.000000001,open,11,Falco won't load macro containing macro reference
+613,2019-05-18 04:46:55.000000000,2019-05-30 02:43:46.000000000,closed,1,rule update: add exception for write below etc 
+612,2019-05-17 23:51:46.000000000,2019-11-19 16:48:23.000000000,closed,5,"add pidmode, networkmode, ipcmode, PidsLimit as fields for docker container"
+611,2019-05-17 15:30:02.000000000,2019-05-24 20:42:27.000000000,closed,0,Document k8s audit logging for k8s >=1.13
+610,2019-05-16 07:27:48.000000000,2019-06-09 01:47:24.000000000,closed,4,Getting runtime error on latest update
+609,2019-05-16 03:33:03.000000000,2019-05-16 20:14:12.000000000,closed,2,Correction to Wiki text
+608,2019-05-15 22:59:15.000000000,2019-05-24 20:42:27.000000000,closed,0,Add instructions for k8s audit support in >= 1.13
+607,2019-05-15 22:08:59.000000000,1970-01-01 00:00:00.000000001,open,3,Integration with OPA (Open Policy Agent)
+606,2019-05-15 21:43:39.000000000,2019-05-24 22:53:41.000000000,closed,3,Json color output
+605,2019-05-15 20:27:40.000000000,2019-12-22 21:01:34.000000000,closed,7,Guidelines for Contributing Rules
+604,2019-05-14 13:48:57.000000000,2019-07-15 12:35:52.000000000,closed,2,Docs: Supported fields
+603,2019-05-14 04:06:43.000000000,2019-05-14 05:17:22.000000000,closed,0,changelog missing reference to cri-o container metadata caching
+602,2019-05-13 23:55:03.000000000,2019-05-14 00:44:07.000000000,closed,1,Prepare CHANGELOG/README for 0.15.0
+601,2019-05-13 23:00:20.000000000,2019-05-17 17:24:25.000000000,closed,4,Document falco http output
+600,2019-05-13 22:45:20.000000000,2019-05-16 03:53:11.000000000,closed,0,rule update: add launch remote file copy tool in container
+599,2019-05-13 15:21:00.000000000,2019-05-13 23:45:50.000000000,closed,1,CRI flag
+598,2019-05-13 01:57:33.000000000,2019-05-14 18:14:58.000000000,closed,2,"Containerized falco, module build fails"
+597,2019-05-12 19:41:19.000000000,2019-05-13 01:45:38.000000000,closed,0,Add `ash` to the list of shell binaries
+596,2019-05-09 19:50:05.000000000,2019-08-18 03:24:29.000000000,closed,5,Kubernetes: Node name/hostname and Kubernetes cluster name
+595,2019-05-08 22:07:24.000000000,2019-07-15 12:38:46.000000000,closed,4,Installing from source documentation
+594,2019-05-08 19:45:40.000000000,2019-06-05 22:23:30.000000000,closed,4,Add Sematext Monitoring & Logging agents to trusted k8s containers
+593,2019-05-03 20:39:30.000000000,2019-05-30 02:17:15.000000000,closed,3,Default Rule adjustments
+592,2019-05-03 18:05:47.000000000,2019-05-13 21:59:27.000000000,closed,0,Fix security issues reported by GitHub on Anchore integration
+591,2019-05-01 17:16:21.000000000,2019-05-02 03:59:34.000000000,closed,0,"Add cri to long_options, fix typo"
+590,2019-05-01 04:34:12.000000000,2019-05-01 21:40:13.000000000,closed,1,Rule updates 2019 05.v1
+589,2019-04-30 00:25:17.000000000,2019-04-30 23:46:26.000000000,closed,0,Update engine fields checksum for fd.dev.*
+588,2019-04-30 00:24:36.000000000,2019-08-30 17:28:09.000000000,closed,7,aws-cni emits excessive logs
+587,2019-04-29 20:47:14.000000000,2019-08-07 20:18:49.000000000,closed,5,Compatibility with AWS ECS Fargate
+586,2019-04-28 12:38:44.000000000,2020-07-08 10:22:33.000000000,closed,15,Issues with Falco on ARM7
+585,2019-04-25 23:43:27.000000000,2019-04-26 19:31:29.000000000,closed,0,Add containerd related flags
+584,2019-04-24 00:26:29.000000000,2019-04-26 23:24:15.000000000,closed,0,Add jenkins checks
+583,2019-04-17 15:04:44.000000000,2019-05-14 17:06:12.000000000,closed,3,falco is terminated abnormally in GKE.
+582,2019-04-16 23:04:20.000000000,2019-04-17 15:14:17.000000000,closed,1,Fix errors when building via docker from MacOS
+581,2019-04-16 22:54:38.000000000,2019-04-17 00:26:22.000000000,closed,0,fix regression that broke json output
+580,2019-04-12 21:26:29.000000000,2019-04-12 22:40:52.000000000,closed,0,Rules changes 2019 04.v6
+579,2019-04-11 23:58:21.000000000,2019-04-12 08:00:56.000000000,closed,0,Rule updates 2019 04.v5
+578,2019-04-11 03:25:33.000000000,2019-04-12 09:22:35.000000000,closed,0,Rule updates 2019 04.v4 mitre persistence
+577,2019-04-06 16:59:49.000000000,2019-08-18 05:24:29.000000000,closed,11,JSON output
+576,2019-04-06 07:43:56.000000000,2019-04-23 18:03:01.000000000,closed,1,Multiple webhook server
+575,2019-04-05 00:17:37.000000000,2019-04-11 09:48:52.000000000,closed,3,rule update: add MITRE tags for rules
+574,2019-04-04 21:56:24.000000000,2020-02-23 15:27:51.000000000,closed,10,Change stats file writer to not use setitimer()
+573,2019-04-04 20:15:34.000000000,2019-04-05 22:27:38.000000000,closed,0,Rule updates 2019 04.v2
+572,2019-04-03 04:43:45.000000000,2019-04-03 09:34:43.000000000,closed,0,rule update: exclude openshift-sdn from thread namespace change rule
+571,2019-04-03 00:19:42.000000000,2019-04-03 03:43:19.000000000,closed,0,Include addl info to syscall event drop alerts
+570,2019-04-02 20:26:13.000000000,2019-04-03 02:12:31.000000000,closed,0,Skip incomplete container info for container start
+569,2019-04-02 20:11:18.000000000,2019-04-02 21:34:54.000000000,closed,0,Define GRPC_CPP_PLUGIN
+568,2019-03-30 23:24:09.000000000,2019-04-09 06:44:33.000000000,closed,1,Timestamp in output does not include date
+567,2019-03-29 01:05:00.000000000,2019-03-29 21:07:06.000000000,closed,1,exclude oc on writing below root
+566,2019-03-26 00:58:58.000000000,2019-03-29 01:17:02.000000000,closed,1,Add user_known_write_monitored_dir_conditions
+565,2019-03-17 03:22:10.000000000,2019-04-09 06:36:49.000000000,closed,3,Fluentd went mad after installing falco
+564,2019-03-16 01:07:34.000000000,2019-03-26 03:37:51.000000000,closed,0,! Fix the prometheus_conf_writing_conf macro
+563,2019-03-15 01:38:25.000000000,2019-03-15 20:09:46.000000000,closed,1,Puppet write below /etc and new user_known_x macros!
+562,2019-03-14 03:55:01.000000000,2019-03-14 04:40:42.000000000,closed,0,Add KUBERNETES_SERVICE_HOST
+561,2019-03-13 06:10:00.000000000,2019-03-28 02:50:39.000000000,closed,1,Flag excess drops
+560,2019-03-12 23:02:29.000000000,2019-04-17 00:26:22.000000000,closed,2,"With json output, output field itself becomes json after first alert"
+559,2019-03-09 10:50:06.000000000,2019-03-15 23:57:16.000000000,closed,1,kh: exclude rancher events
+558,2019-03-09 03:48:27.000000000,2019-04-18 03:31:03.000000000,closed,5,High rate of dropped events
+557,2019-03-08 23:53:58.000000000,2019-03-09 10:50:27.000000000,closed,0,kh: exclude rancher events
+556,2019-03-08 10:38:47.000000000,2019-03-22 18:11:37.000000000,closed,3,Add docs about helm deploy
+555,2019-03-08 07:03:40.000000000,2019-03-08 07:26:31.000000000,closed,1,Support deploy with helm
+554,2019-03-08 07:03:19.000000000,2019-03-08 07:24:44.000000000,closed,1,support deploy with helm
+553,2019-03-08 07:00:45.000000000,2019-03-14 12:06:44.000000000,closed,7,Rules for sourceIP in kubernetes audit
+552,2019-03-08 04:09:12.000000000,2019-03-14 20:40:30.000000000,closed,1,"Allow exe_running_docker_save in the ""Write below rpm database"" rule"
+551,2019-03-07 21:12:12.000000000,2019-03-09 08:23:18.000000000,closed,0,Rule updates 2019.02.v1
+550,2019-03-07 09:34:46.000000000,2019-03-09 02:23:11.000000000,closed,0,Support container event to denote container starts
+549,2019-03-07 03:15:43.000000000,2019-03-12 22:55:36.000000000,closed,1,Can the rules.yaml read on Runtime?
+548,2019-03-05 18:38:06.000000000,2019-03-05 20:03:07.000000000,closed,0,fix stale.yml file extension
+547,2019-03-04 16:25:53.000000000,2019-03-05 18:55:00.000000000,closed,11,Falco &  AKS (Azure Kubernetes Service) or GKE with audit setup
+546,2019-03-01 22:41:19.000000000,2019-03-01 23:53:38.000000000,closed,0,Puppet module fixes
+545,2019-02-28 01:32:28.000000000,2019-06-11 03:15:25.000000000,closed,2,Note when alerts are correlated with system call drops
+544,2019-02-26 16:22:49.000000000,2019-02-26 20:44:21.000000000,closed,0,Adds packaging for RHEL
+543,2019-02-21 23:50:06.000000000,2019-02-21 23:50:15.000000000,closed,0,Update version to 0.3.0
+542,2019-02-21 06:53:28.000000000,2019-02-27 21:53:41.000000000,closed,0,delete all duplicate empty blanks
+541,2019-02-20 22:31:46.000000000,2019-02-20 22:32:15.000000000,closed,0,falco.yaml: change default program_output action (#507)
+540,2019-02-20 22:23:21.000000000,2019-02-20 22:23:32.000000000,closed,0,fix k8s install issue (#506)
+539,2019-02-19 20:57:06.000000000,2019-02-20 21:14:00.000000000,closed,1,Move kubernetes-response-engine to falcosecurity/kubernetes-response-engine
+538,2019-02-19 18:13:57.000000000,2019-02-28 01:24:31.000000000,closed,2,Is falco expected in Container-Optimised OS (cos) support?
+537,2019-02-16 04:01:53.000000000,2019-02-21 23:40:12.000000000,closed,0,Update the Puppet module
+536,2019-02-13 09:18:43.000000000,2019-02-13 21:18:08.000000000,closed,0,Add gcc back from manual packages
+535,2019-02-13 07:52:38.000000000,2019-02-13 07:53:21.000000000,closed,0,Add k8s audit instructions for kops
+534,2019-02-12 11:10:35.000000000,2019-11-29 07:00:59.000000000,closed,16,`k8s.ns=default k8s.pod=falco-event-generator-deployment-645444689b-wpj79 container=5d9280dfdcb2` is twice 
+533,2019-02-12 07:47:51.000000000,2019-05-14 17:55:57.000000000,closed,2,ROADMAP: Migrate docs to Falco.org
+532,2019-02-12 07:43:06.000000000,2019-10-11 21:43:57.000000000,closed,15,ROADMAP: Build slim and full Falco container images
+531,2019-02-12 07:31:03.000000000,1970-01-01 00:00:00.000000001,open,4,ROADMAP: Reduce the chance of outputs blocking
+530,2019-02-12 07:23:06.000000000,1970-01-01 00:00:00.000000001,open,5,ROADMAP: Prometheus Metrics Exporter
+529,2019-02-12 07:17:26.000000000,1970-01-01 00:00:00.000000001,open,1,ROADMAP: Additional Event Sources
+528,2019-02-12 07:15:14.000000000,2019-09-25 17:43:33.000000000,closed,6,ROADMAP: Improved Falco Outputs
+527,2019-02-11 11:41:12.000000000,2019-04-19 11:55:22.000000000,closed,1,Add time part in output
+526,2019-02-11 03:56:01.000000000,2019-02-11 03:56:09.000000000,closed,0,Remove gcc 6.
+525,2019-02-10 21:19:05.000000000,2019-02-11 04:20:25.000000000,closed,1,GPG key issue?
+524,2019-02-10 15:20:44.000000000,2019-02-12 02:22:01.000000000,closed,1,Update contribute doc
+523,2019-02-09 01:49:11.000000000,2019-02-12 03:20:20.000000000,closed,1,Add HTTP output handler
+522,2019-02-08 07:48:58.000000000,2019-02-12 02:27:48.000000000,closed,0,Docker-based way to build falco
+521,2019-02-07 21:52:12.000000000,2019-02-11 07:01:15.000000000,closed,1,"Use http for c-ares, protobuf urls"
+520,2019-02-07 06:41:00.000000000,2020-08-03 17:14:20.000000000,closed,9,ARM64 Build
+519,2019-02-07 05:36:12.000000000,2019-02-07 05:37:55.000000000,closed,1,Update for 0.14.0
+518,2019-02-07 05:14:01.000000000,2019-04-09 20:41:01.000000000,closed,3,Change log timestamp to ISO8601 w/ timezone
+517,2019-02-07 03:24:12.000000000,2019-02-07 05:36:34.000000000,closed,0,Add support bundle
+516,2019-02-06 14:42:51.000000000,2019-05-11 19:25:07.000000000,closed,2,kubectl get pods (Status: CrashLoopBackOff)
+515,2019-02-02 11:28:38.000000000,2019-02-11 11:41:20.000000000,closed,3,Sync timezone
+514,2019-02-01 22:58:46.000000000,2019-02-07 04:51:58.000000000,closed,3,Add additional k8s rbac resources
+513,2019-02-01 19:12:19.000000000,2019-02-01 23:00:27.000000000,closed,0,Update rules to use more reliable container image predicates
+512,2019-02-01 13:19:58.000000000,2019-02-02 09:47:09.000000000,closed,1,Sync timezone
+511,2019-02-01 11:54:53.000000000,2019-02-12 02:01:50.000000000,closed,3,integrations/k8s-using-daemonset/README.md: update output
+510,2019-01-31 23:09:55.000000000,2020-02-16 20:25:49.000000000,closed,6,Add support for parameterized macros
+509,2019-01-31 00:09:39.000000000,2019-01-31 03:13:19.000000000,closed,1,kh: improve mount on /var/lib/kubelet rule
+508,2019-01-30 00:12:30.000000000,2019-04-26 23:02:52.000000000,closed,16,Falco restarted hundreds of times during a week of deployment
+507,2019-01-29 12:23:52.000000000,2019-02-20 22:18:45.000000000,closed,8,update program_output example
+506,2019-01-29 11:39:22.000000000,2019-02-20 22:17:35.000000000,closed,15,fix k8s install issue
+505,2019-01-29 06:46:51.000000000,2019-01-31 01:34:11.000000000,closed,0,kh: improve kubelet mount rule
+504,2019-01-29 00:11:25.000000000,2019-07-08 16:56:17.000000000,closed,9,Custom macro expansion issues in falco_rules.local.yaml
+503,2019-01-28 06:35:31.000000000,2019-01-31 21:52:17.000000000,closed,0,Readme Changes
+502,2019-01-25 09:28:09.000000000,2019-01-26 00:46:15.000000000,closed,1,Fixed Heading Formatting
+501,2019-01-24 05:50:32.000000000,2019-01-24 07:02:04.000000000,closed,0,Add gcc 5 by hand rather than from debian unstable
+500,2019-01-24 01:47:09.000000000,2019-01-30 21:44:43.000000000,closed,0,Add Stale Issue Probot
+499,2019-01-24 01:02:29.000000000,2019-01-24 01:04:25.000000000,closed,0,add cii best practices badge
+498,2019-01-22 03:42:31.000000000,2019-01-22 04:51:33.000000000,closed,0,"Add c-ares, protobuf and grpc dependencies"
+497,2019-01-17 07:05:06.000000000,2019-01-17 20:19:50.000000000,closed,0,Update CHANGELOG/README for 0.13.1
+496,2019-01-17 06:31:56.000000000,2019-01-17 07:12:03.000000000,closed,1,Add falco service k8s
+495,2019-01-12 04:11:38.000000000,2019-01-14 23:00:44.000000000,closed,0,Only have -pc/-pk apply to syscall rules
+494,2019-01-12 04:03:58.000000000,2019-01-14 23:00:23.000000000,closed,0,Unbuffer outputs by default
+493,2019-01-07 23:22:22.000000000,2019-01-10 01:28:52.000000000,closed,1,Adding a macro for sdjagent.jar running inside agent container 
+492,2019-01-03 07:09:43.000000000,2019-01-30 01:43:16.000000000,closed,0,Rules versioning
+491,2019-01-02 20:46:03.000000000,2019-08-08 13:41:03.000000000,closed,3,osqueryd not whitelisted
+490,2018-12-28 03:41:51.000000000,2018-12-28 10:15:00.000000000,closed,0,Kh add process rules v2
+489,2018-12-27 16:14:23.000000000,2018-12-28 10:15:28.000000000,closed,4,"Expected rules from ""rule-updates-2018-11.v1"" are missing in v0.13.0"
+488,2018-12-26 20:27:44.000000000,2019-01-17 06:43:38.000000000,closed,1,Remove kubernetes-response-engine from system:masters
+487,2018-12-25 13:48:28.000000000,2019-03-13 08:43:07.000000000,closed,2,How to get the user name in container?
+486,2018-12-19 14:24:32.000000000,2019-03-13 08:43:08.000000000,closed,3,"Ubuntu 16.04 Falco 0.13.0 ""modprobe: ERROR: could not insert 'falco_probe': Exec format error"""
+485,2018-12-17 14:26:35.000000000,2019-01-17 06:42:59.000000000,closed,1,Fix missing arguments
+484,2018-12-17 01:43:15.000000000,2020-01-04 19:06:51.000000000,closed,15,Create hardened systemd config for rpm and debian packages
+483,2018-12-13 15:32:52.000000000,2019-08-14 19:17:58.000000000,closed,8,Add hostname to slack notification
+482,2018-12-13 14:27:10.000000000,2019-03-05 19:30:47.000000000,closed,1,Duplicate alerts 
+481,2018-12-07 06:25:22.000000000,2018-12-11 00:54:48.000000000,closed,0,noise suppression: calico writing config files into /etc
+480,2018-12-06 02:06:29.000000000,2019-01-29 04:59:34.000000000,closed,1,Implementing required gen_event virtual methods
+479,2018-11-28 03:50:15.000000000,2018-11-28 06:38:11.000000000,closed,1,Add optional support for -Wextra and -Werror
+478,2018-11-28 03:35:21.000000000,2018-11-28 06:34:42.000000000,closed,1,Add optional support for -Wextra and -Werror
+477,2018-11-28 00:40:51.000000000,2018-11-28 06:34:22.000000000,closed,1,SMAGENT-1175: Add -Wextra -Werror to build
+476,2018-11-27 21:02:54.000000000,2018-11-27 21:03:30.000000000,closed,0,This apiGroup is not needed on the CNCF flavor deployment
+475,2018-11-27 00:09:56.000000000,2019-01-24 08:13:05.000000000,closed,4,Add /etc mount for falco container
+474,2018-11-23 01:01:17.000000000,2019-01-24 01:25:37.000000000,closed,1,Is it possible to send mails only if certain rules are triggered?
+473,2018-11-21 11:32:04.000000000,2019-01-24 01:22:36.000000000,closed,3,Fix Kubernetes daemonset example to include /host/etc
+472,2018-11-21 09:11:34.000000000,2018-11-28 06:44:01.000000000,closed,0,Add k8s.ns.name to output when -pk flag passed
+471,2018-11-20 09:41:42.000000000,2019-01-24 09:21:38.000000000,closed,1,Allow SSL for k8s audit endpoint
+470,2018-11-20 00:03:15.000000000,2019-01-10 01:27:47.000000000,closed,0,Improved inbound/outbound macros
+469,2018-11-16 04:47:31.000000000,2018-11-16 05:42:41.000000000,closed,1,Ruletypes/event tags arrays can be indexed past array
+468,2018-11-16 04:44:27.000000000,2018-11-16 05:42:15.000000000,closed,1,Avoid going past end of ruleset/etag arrays
+467,2018-11-15 22:51:02.000000000,2019-03-13 08:43:05.000000000,closed,3,Cannot capture rename/unlink sys calls
+466,2018-11-15 04:57:06.000000000,2019-01-24 01:28:50.000000000,closed,1,Can't use -pk/-pc with k8s audit rules
+465,2018-11-12 15:51:34.000000000,2018-11-20 14:11:01.000000000,closed,1,Fix AWS permissions for Kubernetes Response Engine
+464,2018-11-10 00:48:53.000000000,2018-11-10 01:56:06.000000000,closed,0,Make k8s-audit rules and main rules compatible
+463,2018-11-10 00:23:29.000000000,2018-11-10 02:30:51.000000000,closed,0,"Update CHANGELOG, README for 0.13.0"
+462,2018-11-09 21:16:31.000000000,2018-11-20 05:39:11.000000000,closed,3,Prometheus and rule: Write below etc
+461,2018-11-07 23:29:16.000000000,2018-11-10 01:55:15.000000000,closed,1,Kh add process rules
+460,2018-11-06 22:29:22.000000000,2018-11-07 21:34:14.000000000,closed,0,Port Kubernetes Response Engine to AWS Technology
+459,2018-11-06 06:48:12.000000000,2018-11-07 02:07:51.000000000,closed,0,Load/unload kernel module on start/stop
+458,2018-11-06 05:43:54.000000000,2019-08-07 20:24:22.000000000,closed,2,Allow multiple program outputs
+457,2018-11-06 05:27:59.000000000,2018-11-07 00:14:11.000000000,closed,0,Restart falco on SIGHUP.
+456,2018-11-06 04:41:44.000000000,2018-11-06 06:50:54.000000000,closed,0,Add netcat to docker images
+455,2018-11-06 04:41:32.000000000,2018-11-10 00:51:16.000000000,closed,0,Rule updates 2018 11.v1
+454,2018-11-06 02:59:04.000000000,2018-11-06 03:14:07.000000000,closed,4,Add sensitive mount of mouting to /var/lib/kubelet*
+453,2018-11-03 03:03:02.000000000,2019-03-13 08:43:03.000000000,closed,4,Falco is dropping events.
+452,2018-11-02 22:53:36.000000000,2018-11-03 04:20:25.000000000,closed,0,fix deply_playbook option issue
+451,2018-11-02 20:11:32.000000000,2018-11-06 00:49:49.000000000,closed,1,deploybook option
+450,2018-10-29 23:56:27.000000000,2018-11-09 23:15:40.000000000,closed,2,K8s audit evts
+449,2018-10-26 15:12:55.000000000,2018-10-26 16:51:33.000000000,closed,0,Update nodejs example
+448,2018-10-25 20:10:50.000000000,2018-11-05 14:19:30.000000000,closed,0,Allow that sysdig/capturer used in Kubernetes Response Engine uses volumes
+447,2018-10-25 06:42:36.000000000,2018-11-07 21:35:11.000000000,closed,1,Update repo links.
+446,2018-10-22 17:56:29.000000000,2019-03-13 08:43:06.000000000,closed,8,Getting frequent warnings about inbound HTTP traffic rule
+445,2018-10-21 01:11:42.000000000,2018-11-09 23:25:56.000000000,closed,1,adding few executables in corresponding groups
+444,2018-10-19 14:58:25.000000000,2018-10-19 15:47:44.000000000,closed,0,Fix issues found for training session
+443,2018-10-18 02:32:02.000000000,2018-10-18 20:59:14.000000000,closed,0,Also add endswith to lua parser
+442,2018-10-17 20:11:53.000000000,2018-10-22 17:56:32.000000000,closed,0,Pull image from falcosecurity
+441,2018-10-10 01:22:40.000000000,2018-10-13 06:43:28.000000000,closed,2,feat: add weave-net to the list of k8s_binaries
+440,2018-10-09 21:51:53.000000000,2018-10-10 10:50:18.000000000,closed,1,"Clean up Readme, Add CNCF requested files for project."
+439,2018-10-08 20:13:53.000000000,2018-11-10 00:51:18.000000000,closed,1,False positives in GKE
+438,2018-10-06 00:34:46.000000000,2019-08-07 20:12:29.000000000,closed,1,Support regex within rules
+437,2018-10-05 21:38:28.000000000,2018-10-09 22:16:21.000000000,closed,1,Add and define GOVERNANCE
+436,2018-10-05 21:37:14.000000000,2018-10-09 22:16:34.000000000,closed,2,Add OWNERS or MAINTAINERS file
+435,2018-10-05 21:35:49.000000000,2018-10-09 19:44:54.000000000,closed,1,Secure CII Badge for Falco
+434,2018-10-05 21:35:25.000000000,2018-10-09 22:16:44.000000000,closed,1,Remove Sysdig reference in README/docs :)
+433,2018-10-05 19:12:36.000000000,2018-11-06 06:50:54.000000000,closed,2,Netcat doesn't exist in cluster but part of documentation for alerting
+432,2018-10-03 18:57:00.000000000,2018-11-07 00:14:11.000000000,closed,5,Feature Request: Reloading configuration without restarting Falco
+431,2018-10-02 18:24:34.000000000,2018-11-06 05:32:44.000000000,closed,9,Getting docker image ID instead of name on container.image
+430,2018-10-01 18:16:05.000000000,2018-11-06 05:36:46.000000000,closed,2,K8S example missing
+429,2018-09-28 16:30:59.000000000,2018-10-13 06:43:58.000000000,closed,2,fix deprecated statement.
+428,2018-09-28 02:15:31.000000000,2019-01-24 01:04:59.000000000,closed,1,Acquire a CII best practices badge
+427,2018-09-28 02:14:43.000000000,2019-06-12 01:53:32.000000000,closed,4,Consider moving to ALv2+DCO when in CNCF
+426,2018-09-27 03:21:52.000000000,2018-09-27 06:49:20.000000000,closed,0,Better copyright notices
+425,2018-09-25 17:41:25.000000000,2018-09-25 18:07:08.000000000,closed,9,Falco kernel module download fail
+424,2018-09-25 04:04:53.000000000,2018-09-25 23:06:21.000000000,closed,0,Add dkms+xz dependencies to falco container
+423,2018-09-24 21:49:18.000000000,2018-10-12 12:16:02.000000000,closed,1,Add k8s.cluster.name as a field
+422,2018-09-22 22:57:03.000000000,2018-11-06 05:44:18.000000000,closed,4,"program_output does not work for any command other than ""mail"""
+421,2018-09-20 15:43:02.000000000,2019-03-05 18:59:49.000000000,closed,0,Metrics exporter
+420,2018-09-20 15:23:57.000000000,2018-09-20 15:44:08.000000000,closed,2,Visualization with grafana for Falco 
+419,2018-09-18 22:11:10.000000000,2018-09-20 22:47:10.000000000,closed,0,Change license to Apache 2.0
+418,2018-09-12 20:31:33.000000000,2018-11-07 02:07:51.000000000,closed,5,Uninstall/update should rmmod (old) kernel module
+417,2018-09-12 00:33:06.000000000,2018-09-12 00:33:15.000000000,closed,0,Prepare for 0.12.1
+416,2018-09-12 00:26:49.000000000,2018-09-12 00:26:58.000000000,closed,0,Upgrade to curl 7.61.0
+415,2018-09-11 21:24:49.000000000,2018-09-11 21:25:10.000000000,closed,1,Prepare for 0.12.0
+414,2018-09-11 18:52:57.000000000,2018-10-12 03:55:41.000000000,closed,1,Add a playbook which starts to capturing data using Sysdig and uploads capture to a s3 bucket
+413,2018-09-10 18:36:14.000000000,2019-03-05 19:57:31.000000000,closed,6,Include k8s namespace in output
+412,2018-09-06 13:22:03.000000000,2018-09-11 13:59:58.000000000,closed,0,Add TBB dependency
+411,2018-09-05 19:29:49.000000000,2018-10-16 00:37:38.000000000,closed,1,Add an integration with Phantom
+410,2018-09-04 11:12:57.000000000,2018-09-25 23:44:10.000000000,closed,4,Add base64 encoding and snap length support
+409,2018-09-04 10:54:53.000000000,2018-09-04 10:56:46.000000000,closed,0,Base64 and SnapLen feature enabled
+408,2018-09-03 21:06:57.000000000,2018-10-10 21:28:36.000000000,closed,0,Add a integration with Demisto
+407,2018-08-25 12:53:40.000000000,2019-01-22 06:24:27.000000000,closed,2,Falco probe builder with Docker
+406,2018-08-13 20:26:08.000000000,2018-08-16 23:36:10.000000000,closed,0,Allow Lua sample_dir to be passed to falco_engine constructor
+405,2018-08-11 01:40:25.000000000,2019-03-07 09:53:03.000000000,closed,3,Add support for container metaevent to detect container spawning
+404,2018-08-10 16:14:04.000000000,2018-11-06 06:55:37.000000000,closed,2,Falco does support Application monitoring
+403,2018-08-10 10:01:07.000000000,2018-11-13 00:45:40.000000000,closed,1,Dynamically apply the change in rules
+402,2018-08-10 09:33:28.000000000,2018-08-13 20:43:26.000000000,closed,1,"Falco  fixes for SMBACK-1611 for vulnerability CVE-2016-9840, CVE-201…"
+401,2018-08-06 21:22:12.000000000,2018-08-20 15:30:15.000000000,closed,6,Error starting falco pods. 
+400,2018-08-01 14:49:38.000000000,2019-03-26 21:14:41.000000000,closed,13,Falco does not properly start after upgrade
+399,2018-07-31 23:04:09.000000000,2018-07-31 23:05:01.000000000,closed,1,Prepare for 0.11.1
+398,2018-07-28 03:31:05.000000000,2018-10-13 06:44:25.000000000,closed,0,Rule updates 2018 08.v1
+397,2018-07-28 02:14:28.000000000,2018-07-31 21:44:48.000000000,closed,0,Downgrade binutils in docker image
+396,2018-07-27 15:07:04.000000000,2018-09-04 10:43:15.000000000,closed,0,support base64 argument
+395,2018-07-27 09:19:40.000000000,2018-11-06 07:05:00.000000000,closed,3,Storing all events to firebase
+394,2018-07-25 18:35:35.000000000,2018-07-31 21:44:48.000000000,closed,3,Falco 0.11.0 based container fails to load kernel module
+393,2018-07-25 02:23:23.000000000,2018-07-25 04:27:17.000000000,closed,0,Prepare for 0.11.0
+392,2018-07-14 03:02:21.000000000,2018-07-17 00:42:42.000000000,closed,0,[SMAGENT-968] Ensure the /lib/modules symlink to /host/lib/modules is set correctly
+391,2018-07-13 15:16:23.000000000,2018-07-16 18:47:52.000000000,closed,0,Move existing integrations in examples directory to its own directory
+390,2018-07-12 19:59:38.000000000,2018-07-12 20:52:55.000000000,closed,0,Add integration between Falco and Anchore
+389,2018-07-10 22:33:16.000000000,2018-07-12 20:55:08.000000000,closed,3,Kubernetes response engine
+388,2018-07-09 20:03:14.000000000,2018-07-25 00:14:36.000000000,closed,0,Rule updates 2018 07.v1
+387,2018-07-06 11:44:03.000000000,2018-07-13 10:47:15.000000000,closed,2,ms_oms_writing_conf macro not working properly
+386,2018-07-03 13:05:02.000000000,2018-07-10 17:41:40.000000000,closed,2,Add datadog v6 image
+385,2018-06-24 17:35:06.000000000,2018-11-06 07:08:08.000000000,closed,2,How and where to whitelist processes and binaries in the local rule file?
+384,2018-06-21 21:45:57.000000000,2019-03-05 20:47:03.000000000,closed,5,Use alpine base image for falco container
+383,2018-06-20 17:30:36.000000000,2019-03-13 08:43:01.000000000,closed,1,Falco 0.10.0 segfaults with 2 different backtraces
+382,2018-06-12 23:07:10.000000000,2018-06-13 00:07:16.000000000,closed,1,Add gcc-6 to Dockerfiles
+381,2018-06-12 17:46:49.000000000,2019-05-17 09:48:41.000000000,closed,20,Support containerd
+380,2018-06-09 04:34:05.000000000,2018-06-18 20:44:08.000000000,closed,5,edit Falco license info so that GitHub recognizes it
+379,2018-06-07 23:00:21.000000000,2018-06-08 04:16:31.000000000,closed,1,Enable all rules
+378,2018-06-05 06:16:43.000000000,2018-06-07 20:32:21.000000000,closed,5,Problem detecting sudo usage in container when evt.type is used in condition
+377,2018-06-05 02:07:47.000000000,2018-11-06 00:41:28.000000000,closed,5,Many rules don't work on recent glibc
+376,2018-06-04 18:03:07.000000000,2018-06-07 13:07:36.000000000,closed,4,Falco with eBPF enabled failed at boot
+375,2018-06-03 12:31:31.000000000,2018-06-06 00:27:59.000000000,closed,1,filter error: invalid comparison operator: glob
+374,2018-05-31 23:05:07.000000000,2018-06-08 04:59:03.000000000,closed,2,Add libcurl include directory in CMakeLists
+373,2018-05-31 00:14:47.000000000,2018-08-22 01:26:49.000000000,closed,5,Changed container macro to is_container
+372,2018-05-30 18:31:16.000000000,2018-06-12 22:01:34.000000000,closed,5,Add gcc-6 to Dockerfiles
+371,2018-05-30 10:11:54.000000000,2018-06-13 00:07:16.000000000,closed,3,Error running in Kubernetes based on Kops AMI
+370,2018-05-29 14:13:50.000000000,2018-11-06 06:52:57.000000000,closed,1,support base64 encoding on evt.buffer
+369,2018-05-24 22:40:41.000000000,2019-03-13 08:43:02.000000000,closed,1,"falco_engine::{syscalls,evttypes}_for_ruleset could use a set argument instead of vector"
+368,2018-05-22 09:47:27.000000000,2018-05-22 09:51:35.000000000,closed,0,Test me
+367,2018-05-22 06:17:00.000000000,2019-01-22 02:01:00.000000000,closed,2,Add  kernel module/probe support for minikube
+366,2018-05-16 21:43:58.000000000,2018-07-07 00:17:18.000000000,closed,1,Rule updates 2018 04.v2
+365,2018-05-09 21:23:54.000000000,2018-05-10 01:15:12.000000000,closed,0,eBPF support for Falco
+364,2018-05-02 21:47:09.000000000,2018-05-04 01:24:33.000000000,closed,0,Conditional rules
+363,2018-05-02 11:14:26.000000000,2018-09-06 06:44:40.000000000,closed,1,Feature Request: allow custom snaplen?
+362,2018-05-01 00:18:34.000000000,2018-05-01 01:30:40.000000000,closed,3,Don't make driver compilation fail when kernel is compiled with CONFIG_ORC_UNWINDER or CONFIG_STACK_VALIDATION
+361,2018-04-30 22:05:03.000000000,2018-05-01 02:50:30.000000000,closed,1,Falco container doesn't work with latest stable CoreOS
+360,2018-04-25 04:33:56.000000000,2018-05-16 21:43:27.000000000,closed,0,Rule updates 2018 04.v2
+359,2018-04-25 00:10:04.000000000,2018-04-25 03:07:29.000000000,closed,0,Print ignored events/syscalls with -i
+358,2018-04-24 23:15:07.000000000,2018-04-25 03:20:17.000000000,closed,0,Update CHANGELOG/README for 0.10.0
+357,2018-04-24 20:44:22.000000000,2018-04-24 22:23:17.000000000,closed,0,Improve compatibility with falco 0.9.0
+356,2018-04-20 04:05:33.000000000,2018-04-25 02:23:52.000000000,closed,0,Use better way to skip falco events
+355,2018-04-19 03:59:58.000000000,2018-04-19 20:31:21.000000000,closed,0,Add tests catchall order
+354,2018-04-19 01:16:15.000000000,2018-04-19 18:59:03.000000000,closed,3,Rule order is not preserved between rules that have an event type and those that don't
+353,2018-04-12 16:55:03.000000000,2018-04-14 02:17:23.000000000,closed,0,"Fix/Expand ""Modify bin dirs"" rule"
+352,2018-04-12 07:07:06.000000000,2018-04-18 04:14:46.000000000,closed,0,Properly support syscalls in filter conditions
+351,2018-04-12 04:46:10.000000000,2018-04-12 07:07:25.000000000,closed,0,"Start setting autodrop, which filters addl events"
+350,2018-04-09 23:53:43.000000000,2018-04-24 20:24:51.000000000,closed,0,Rule updates 2018 04.v1
+349,2018-04-06 18:39:40.000000000,1970-01-01 00:00:00.000000001,open,16,"configuration support for the -A flag, or event whitelist "
+348,2018-04-06 02:25:48.000000000,2018-04-06 04:03:38.000000000,closed,0,Add ability to read rules files from directories
+347,2018-04-05 08:52:12.000000000,2018-04-06 01:31:37.000000000,closed,0,Rotate logs
+346,2018-04-05 06:11:22.000000000,2018-04-05 21:28:46.000000000,closed,0,Allow append skipped rules
+345,2018-04-03 05:55:30.000000000,2018-05-04 01:24:33.000000000,closed,0,Support conditional rule loading based on sysdig capabilities
+344,2018-04-03 04:06:24.000000000,2018-04-03 05:10:12.000000000,closed,0,Rule updates 2018 02.v3
+343,2018-04-03 01:50:25.000000000,2018-04-05 01:23:22.000000000,closed,0,Unit test for fd.net + in operator fixes
+342,2018-03-28 06:08:11.000000000,2018-03-28 22:24:10.000000000,closed,0,Skip output json format
+341,2018-03-27 19:09:37.000000000,2018-03-28 22:50:05.000000000,closed,0,Example puppet module for falco
+340,2018-03-27 00:55:23.000000000,2018-03-28 22:24:10.000000000,closed,0,"Provide an option to omit ""output"" field in JSON output events."
+339,2018-03-23 03:23:45.000000000,2018-04-05 00:08:55.000000000,closed,1,IN operators may not work with fd.snet + netmasks
+338,2018-03-22 07:10:42.000000000,2018-04-02 21:52:38.000000000,closed,16,File-related output memory growth on k8s
+337,2018-03-19 17:47:41.000000000,2019-06-19 17:50:44.000000000,closed,2,Alerts for mkdir should include mkdirat
+336,2018-03-15 20:03:12.000000000,2018-03-17 02:17:40.000000000,closed,0,Add cryptomining example
+335,2018-03-13 03:18:52.000000000,2018-04-05 09:07:00.000000000,closed,1,Use distinct names for file and program output pointers.
+334,2018-03-07 03:02:12.000000000,2018-03-09 02:03:27.000000000,closed,0,Associate --validate with -V.
+333,2018-03-07 01:06:05.000000000,2018-03-07 01:40:41.000000000,closed,5,falco-probe module reported as having invalid module format on Ubuntu 16.04
+332,2018-02-28 21:22:35.000000000,2018-03-07 01:42:30.000000000,closed,1,Unable to run falco as a container on Ubuntu 16.04
+331,2018-02-27 22:36:54.000000000,2018-02-27 22:39:14.000000000,closed,0,"Use gcc 5 by default to compile properly on Ubuntu Xenial, remove gcc…"
+330,2018-02-27 05:44:07.000000000,2018-04-03 03:56:21.000000000,closed,0,Rule updates 2018 02.v3
+329,2018-02-24 05:25:29.000000000,2018-02-27 02:59:19.000000000,closed,0,Add more validations
+328,2018-02-22 03:41:25.000000000,2018-02-24 05:28:08.000000000,closed,2,Missing 0.9.0 docker image in dockerhub
+327,2018-02-21 20:52:53.000000000,2018-04-04 01:22:33.000000000,closed,3,Crash while trying to remove thread
+326,2018-02-21 04:49:32.000000000,2018-02-26 23:26:29.000000000,closed,0,Rule updates 2018 02.v2
+325,2018-02-20 22:14:31.000000000,2018-02-20 22:58:00.000000000,closed,0,Improvements to falco daemonset configuration
+324,2018-02-20 07:32:50.000000000,2018-02-20 21:53:26.000000000,closed,1,Add user_known_change_thread_namespace_binaries
+323,2018-02-20 07:06:59.000000000,2018-02-20 21:54:14.000000000,closed,1,Add gdb in the development Docker image (sysdig/falco:dev) to help debugging
+322,2018-02-14 20:58:42.000000000,2018-03-09 02:03:27.000000000,closed,1,falco rules validation through docker
+321,2018-02-09 05:50:17.000000000,2018-02-20 20:06:14.000000000,closed,1,Rule updates 2018 02.v1
+320,2018-01-26 02:07:48.000000000,2018-04-18 21:07:22.000000000,closed,0,Add Rule for unexpected udp traffic
+319,2018-01-26 02:07:36.000000000,2018-01-26 05:06:16.000000000,closed,0,Rule updates 2018.01.v1
+318,2018-01-23 07:49:21.000000000,2020-02-17 22:03:44.000000000,closed,16,Provide parity with Linux Audit system for logging real user identity in case `sudo/sudo su` is used (%user.auid property is needed)
+317,2018-01-18 10:13:38.000000000,2018-01-18 22:04:09.000000000,closed,0,Use http dependencies
+316,2018-01-18 05:58:29.000000000,2018-01-18 05:58:45.000000000,closed,1,Update changelog/README for 0.9.0
+315,2018-01-18 05:42:54.000000000,2018-01-18 09:29:46.000000000,closed,0,Rule updates vdec2
+314,2018-01-13 11:08:10.000000000,2018-04-03 05:21:03.000000000,closed,2,Bad return status for module build on kernel
+313,2018-01-13 03:35:02.000000000,2018-01-23 07:33:34.000000000,closed,1,"Running Falco on Azure Linux Ubuntu VM: ""Unable to load the driver. Exiting."" error"
+312,2017-12-29 20:37:25.000000000,2019-03-13 08:42:59.000000000,closed,2,Suggestion: Detect kernel modules inserted
+311,2017-12-22 18:21:29.000000000,2019-03-13 08:43:00.000000000,closed,3,Detect the insertion of a USB
+310,2017-12-21 04:46:07.000000000,2019-11-16 14:11:10.000000000,closed,16,ignore k8s readiness and liveness exec probes
+309,2017-12-21 00:56:34.000000000,2017-12-21 08:58:21.000000000,closed,3,Update K8S Daemon Set for RBAC & ConfigMap
+308,2017-12-12 11:32:47.000000000,2018-01-26 00:39:56.000000000,closed,1,"""in"" operator may not be working on non-string filterchecks"
+307,2017-12-12 06:18:39.000000000,2017-12-12 11:34:50.000000000,closed,1,Rule updates vdec
+306,2017-12-12 03:47:56.000000000,2018-02-20 06:46:57.000000000,closed,0,Add gdb in the development Docker image (sysdig/falco:dev) to help debugging
+305,2017-12-09 00:39:04.000000000,2018-04-05 21:28:46.000000000,closed,0,"Can not append to a rule that was skipped (due to low priority, for example)"
+304,2017-12-02 00:30:12.000000000,2017-12-02 01:30:04.000000000,closed,0,Add ability to override shell spawning binaries
+303,2017-11-29 07:04:26.000000000,2018-03-09 04:29:28.000000000,closed,1,Getting falco to work with k8s and rbac
+302,2017-11-26 04:35:26.000000000,2018-11-07 00:20:38.000000000,closed,2,Overlap with mgmtconfig?
+301,2017-11-18 00:40:32.000000000,2017-11-28 20:04:37.000000000,closed,0,Refactor shell rules
+300,2017-11-16 21:42:18.000000000,2017-11-17 01:12:32.000000000,closed,0,Rule updates vnov
+299,2017-11-16 13:39:34.000000000,2018-04-02 22:42:17.000000000,closed,5,Regular segfaults
+298,2017-11-11 01:18:11.000000000,2017-11-11 01:58:42.000000000,closed,0,Addl rule updates
+297,2017-11-03 05:01:16.000000000,2018-04-05 06:16:38.000000000,closed,2,Kubernetes example needs the Sysdig ClusterRole
+296,2017-11-03 04:57:39.000000000,2018-02-20 22:15:26.000000000,closed,3,use https://kubernetes.default instead of just https://kubernetes
+295,2017-11-03 04:43:05.000000000,2018-02-20 22:22:00.000000000,closed,4,docker socket and /dev should not be read-only in daemonset
+294,2017-11-03 04:37:07.000000000,2017-11-06 13:46:47.000000000,closed,4,/lib/modules can't be read-only
+293,2017-10-25 21:44:06.000000000,2017-10-26 01:39:54.000000000,closed,0,Rule updates next
+292,2017-10-19 01:02:25.000000000,2017-10-20 01:38:58.000000000,closed,0,Expose evttypes for ruleset
+291,2017-10-13 22:38:25.000000000,2017-10-13 23:45:21.000000000,closed,0,"Update curl version, fixing osx build"
+290,2017-10-11 01:53:58.000000000,2017-10-11 02:59:33.000000000,closed,0,Move rules cmakefiles from engine to falco itself
+289,2017-10-10 22:21:23.000000000,2017-10-10 22:51:24.000000000,closed,0,Update README to drop mailing list
+288,2017-10-10 20:43:18.000000000,2017-10-10 21:48:09.000000000,closed,0,Fix built-in falco config location.
+287,2017-10-10 02:18:38.000000000,2017-10-10 04:15:39.000000000,closed,0,Docs changes for 0.8.0
+286,2017-10-09 23:03:55.000000000,2017-10-09 23:50:57.000000000,closed,0,Add ability to validate rules file
+285,2017-10-07 08:08:51.000000000,2017-10-07 08:51:54.000000000,closed,0,Add ability to make outputs unbuffered
+284,2017-10-07 03:01:35.000000000,2017-10-07 04:04:13.000000000,closed,0,add an absolute-path version of FALCO_SHARE_DIR
+283,2017-10-07 02:02:40.000000000,2017-10-07 03:01:47.000000000,closed,0,Long lived program output
+282,2017-10-07 00:18:06.000000000,2017-10-07 02:02:50.000000000,closed,0,Add individual event fields to json output
+281,2017-10-06 05:03:37.000000000,2017-10-06 20:08:27.000000000,closed,0,Run rules by priority
+280,2017-09-29 20:56:43.000000000,2018-04-05 19:49:21.000000000,closed,2,Optimization that search for evt.type conditionals doesn't work well with nesting
+279,2017-09-28 01:55:14.000000000,2017-10-07 03:01:47.000000000,closed,1,selective writing of falco alerts to shell + add a network channel for alerts
+278,2017-09-26 03:18:12.000000000,2017-10-06 20:08:46.000000000,closed,1,Rework config file handling
+277,2017-09-23 04:15:08.000000000,2017-09-25 21:56:24.000000000,closed,0,Add ability to append to rules/macros
+276,2017-09-20 03:16:22.000000000,2017-09-20 03:16:28.000000000,closed,0,Fix readme.
+275,2017-09-19 00:55:17.000000000,2017-09-19 00:55:23.000000000,closed,0,Switch port to 8181.
+274,2017-09-18 18:32:18.000000000,2019-03-13 08:43:04.000000000,closed,12,"Rule to alert on file renaming, deletion"
+273,2017-09-08 08:06:00.000000000,2017-09-20 03:19:49.000000000,closed,1,"Please, what's the status regarding lxc/lxd support?"
+272,2017-09-06 01:33:13.000000000,2017-09-20 03:16:28.000000000,closed,0,Wrong Slack URL in README.md
+271,2017-09-06 01:31:13.000000000,2017-09-20 03:10:14.000000000,closed,1,Typo in falco_rules.yaml
+270,2017-09-05 15:42:50.000000000,2017-09-23 04:19:14.000000000,closed,0,Add official gitlab EE docker image to list of known shell spawning images
+269,2017-09-05 00:07:15.000000000,2017-09-23 04:19:55.000000000,closed,0,Add keepalived to list of shell spawning binaries
+268,2017-08-22 16:35:35.000000000,2017-10-06 20:08:46.000000000,closed,5,falco.yaml and falco_rules.yaml overwritten during upgrade in Debian
+267,2017-08-21 23:43:36.000000000,2018-03-29 01:52:20.000000000,closed,4,K8S example does not work on Google Container Engine
+266,2017-08-13 18:43:40.000000000,2018-04-06 01:31:36.000000000,closed,2,file rotation for 'file_output' 
+265,2017-08-10 04:55:05.000000000,2017-08-10 20:44:40.000000000,closed,0,Remove trailing newlines from output
+264,2017-08-10 03:51:01.000000000,2017-08-10 22:08:37.000000000,closed,0,Mergable lists
+263,2017-08-05 00:59:25.000000000,2017-09-23 04:27:01.000000000,closed,0,adding govt CLA
+262,2017-08-04 22:10:24.000000000,2017-08-04 22:56:15.000000000,closed,0,Allow dots in paths.
+261,2017-07-18 03:12:39.000000000,2017-10-07 02:02:50.000000000,closed,2,Include tags in alerts when using json_output: true
+260,2017-07-14 20:18:17.000000000,2017-07-14 21:08:42.000000000,closed,0,Use uname -r for kernel modules
+259,2017-07-06 01:25:56.000000000,2017-10-10 02:09:10.000000000,closed,0,More beta updates
+258,2017-07-01 02:13:53.000000000,2017-07-01 03:01:06.000000000,closed,0,Better list substitution
+257,2017-06-28 03:47:40.000000000,2017-06-28 04:18:14.000000000,closed,0,Also validate macros at parse time.
+256,2017-06-27 16:18:20.000000000,2019-03-13 08:42:37.000000000,closed,2,WIP: Modify jenkins slave macros
+255,2017-06-27 00:02:06.000000000,2019-03-13 08:42:58.000000000,closed,8,Add ability to append to lists
+254,2017-06-20 22:49:28.000000000,2017-06-21 00:48:32.000000000,closed,0,Don't trim quoted strings
+253,2017-06-20 04:35:07.000000000,2017-06-21 00:48:32.000000000,closed,0,Rules parser drops trailing whitespace from strings
+252,2017-06-17 00:36:33.000000000,2017-06-19 12:09:09.000000000,closed,0,"Fix installation of falco on OS X (no driver, /usr not writable)"
+251,2017-06-16 15:06:36.000000000,2017-06-17 00:32:28.000000000,closed,0,dummy change
+250,2017-06-16 13:37:43.000000000,2017-06-16 15:05:22.000000000,closed,0,"Fix installation of falco on OS X (no driver, /usr not writable)"
+249,2017-06-16 03:31:37.000000000,2017-06-16 03:35:18.000000000,closed,0,fix SSL warning: This Page Contains Both Secure and Non-Secure Items
+248,2017-06-15 02:26:57.000000000,2017-06-15 03:12:59.000000000,closed,0,Explicitly spawn program via shell.
+247,2017-06-05 21:37:30.000000000,2017-06-19 22:28:16.000000000,closed,0,Beta rule updates
+246,2017-05-30 23:53:47.000000000,2017-05-31 00:30:40.000000000,closed,0,Merging for 0.7.0
+245,2017-05-30 20:36:19.000000000,2017-05-30 23:52:45.000000000,closed,0,Update for 0.7.0.
+244,2017-05-25 05:57:38.000000000,2017-05-26 00:51:13.000000000,closed,0,Use a wider range of priorities in rules.
+243,2017-05-24 21:25:53.000000000,2017-05-25 00:18:09.000000000,closed,0,Address some setns FPs.
+242,2017-05-24 20:44:30.000000000,2017-05-24 21:49:04.000000000,closed,0,Add rule for shell with terminal in container.
+241,2017-05-17 21:11:23.000000000,2017-05-24 21:28:22.000000000,closed,1,fix: invalid spaces in README markdown
+240,2017-05-15 22:11:14.000000000,2017-05-15 22:11:44.000000000,closed,0,Merging for 0.6.1
+239,2017-05-15 21:42:00.000000000,2017-05-15 22:07:45.000000000,closed,0,Update for 0.6.1.
+238,2017-05-03 00:38:38.000000000,2017-05-03 01:04:23.000000000,closed,0,Add ability to claim multiple tokens.
+237,2017-05-02 19:30:21.000000000,2017-05-24 21:29:29.000000000,closed,1,Add gitlab-mon command
+236,2017-04-27 22:22:57.000000000,2017-04-28 00:19:47.000000000,closed,0,Add ability to get number of tokens.
+235,2017-04-27 06:04:20.000000000,2017-04-27 19:12:25.000000000,closed,0,Fix token bucket rate
+234,2017-04-25 21:06:06.000000000,2017-04-26 04:40:51.000000000,closed,0,Allow for an external clock in token bucket.
+233,2017-04-21 03:45:39.000000000,2019-03-13 08:42:56.000000000,closed,1,"Add rule for ""detect making a file executable in a container"""
+232,2017-04-07 02:26:01.000000000,2017-04-08 00:05:31.000000000,closed,0,Don't allow apache2 to spawn shells in containers
+231,2017-04-07 02:24:12.000000000,2017-04-08 00:05:31.000000000,closed,0,Apache shouldn't be allowed to spawn shells
+230,2017-04-02 10:52:12.000000000,2017-04-04 00:52:12.000000000,closed,8,Installing Falco from Source on ubuntu
+229,2017-03-30 02:22:07.000000000,2017-03-30 03:00:06.000000000,closed,0,Merging for 0.6.0
+228,2017-03-29 23:05:56.000000000,2017-03-30 02:11:06.000000000,closed,0,Update changelog/readme for 0.6.0.
+227,2017-03-29 22:02:29.000000000,2019-03-13 08:42:57.000000000,closed,1,Allow specifying enabled/disabled tags in config file
+226,2017-03-22 01:11:51.000000000,2017-03-22 01:44:58.000000000,closed,0,Make sure entrypoint runs for docker pod.
+225,2017-03-21 23:25:24.000000000,2017-03-22 20:29:53.000000000,closed,5,Running as kubernetes daemonset failing
+224,2017-03-21 04:02:49.000000000,2017-03-25 08:35:49.000000000,closed,1,Own driver
+223,2017-03-16 22:23:14.000000000,2017-03-22 18:50:18.000000000,closed,2,Segfault in falco
+222,2017-03-07 23:47:16.000000000,2017-03-08 00:36:33.000000000,closed,0,"Add falco,event generator files for k8s."
+221,2017-03-07 01:35:37.000000000,2017-03-15 07:05:52.000000000,closed,3,Add erl_child_setup to shell spawning binaries in a container.
+220,2017-03-06 21:21:19.000000000,2017-03-07 00:13:28.000000000,closed,1,Add support for gitlab omnibus containers/pod
+219,2017-03-06 21:15:09.000000000,2017-03-06 21:16:44.000000000,closed,0,Add gitlab binaries
+218,2017-03-06 21:01:06.000000000,2017-03-07 00:07:26.000000000,closed,0,Add erl_child_setup as a shell spawner.
+217,2017-03-06 20:43:09.000000000,2017-03-07 00:31:32.000000000,closed,1,Create new list 'rabbitmq_binaries' and add it to 'shell in container' rule
+216,2017-03-06 15:10:35.000000000,2019-03-13 08:42:55.000000000,closed,2,Add default rules on proc.name changes
+215,2017-03-02 16:44:23.000000000,2017-03-25 08:37:26.000000000,closed,7,falco exits with a segfault within minutes of starting service
+214,2017-02-28 21:09:46.000000000,2017-03-29 22:33:45.000000000,closed,2,filter_check called with nonexistent field proc.pcmdline
+213,2017-02-28 10:12:30.000000000,2019-03-13 08:42:36.000000000,closed,1,Add valgrind
+212,2017-02-28 01:04:29.000000000,2017-02-28 10:10:45.000000000,closed,0,Use formatter cache
+211,2017-02-27 01:34:09.000000000,2017-10-09 22:04:54.000000000,closed,0,Option to make stdout unbuffered
+210,2017-02-22 18:43:06.000000000,2017-02-23 22:43:14.000000000,closed,1,Enable compilation on OS X
+209,2017-02-22 05:20:38.000000000,2017-02-22 05:21:19.000000000,closed,0,More changes to address FPs.
+208,2017-02-08 02:56:51.000000000,2017-03-25 08:41:00.000000000,closed,8,High CPU usage with slightly customized ruleset + enabled network services
+207,2017-02-07 05:05:06.000000000,2017-02-07 05:46:12.000000000,closed,0,Additional changes to reduce FPs.
+206,2017-02-04 07:25:39.000000000,2017-02-14 02:18:28.000000000,closed,5,Add tags
+205,2017-02-02 04:10:37.000000000,2017-02-02 05:24:06.000000000,closed,0,Demo improvements
+204,2017-02-01 03:01:13.000000000,2017-02-01 03:40:06.000000000,closed,1,CMakeLists: add dependencies to lyaml project (fix #130)
+203,2017-01-31 00:00:22.000000000,2019-03-13 08:42:50.000000000,closed,2,Allow a wider range of actions for lxc containers
+202,2017-01-28 01:10:46.000000000,2017-01-28 01:21:23.000000000,closed,0,Address more spurious alerts
+201,2017-01-27 22:05:12.000000000,2017-01-27 23:14:52.000000000,closed,0,Remove cchh image.
+200,2017-01-27 05:11:04.000000000,2017-02-02 06:37:09.000000000,closed,4,Rule updates related to other security products
+199,2017-01-26 23:17:21.000000000,2017-01-26 23:55:33.000000000,closed,0,Set -DNDEBUG for travis debug builds.
+198,2017-01-26 05:29:16.000000000,2019-03-13 08:42:52.000000000,closed,1,systemd opens network connections on coreos
+197,2017-01-26 01:06:37.000000000,2017-07-01 03:01:07.000000000,closed,1,Find-and-replace does substitution in list names
+196,2017-01-24 22:59:05.000000000,2017-01-25 21:34:54.000000000,closed,0,Several changes to reduce FPs
+195,2017-01-23 04:32:10.000000000,2017-01-27 05:12:05.000000000,closed,3,"extra rules with NIDS, HIDS, ansible, critical-stack, ..."
+194,2017-01-23 04:28:58.000000000,2017-10-09 23:50:57.000000000,closed,4,option to test falco rules before applying
+193,2017-01-17 23:15:02.000000000,2017-01-20 04:09:25.000000000,closed,0,Allow shells spawned by ansible.
+192,2017-01-16 23:38:52.000000000,2017-01-17 22:12:54.000000000,closed,0,Avoid FPs resulting from ubuntu weekly cron jobs
+191,2017-01-13 02:58:45.000000000,2019-03-13 08:42:52.000000000,closed,3,Handle tmux: client/tmux: server as acceptable shell spawning programs
+190,2017-01-12 22:19:13.000000000,2017-01-12 23:32:14.000000000,closed,0,Add exechealthz as a k8s binary.
+189,2017-01-12 02:48:06.000000000,2019-03-13 08:42:53.000000000,closed,5,Changes to package Falco into Debian
+188,2017-01-10 02:36:58.000000000,2017-03-25 08:36:41.000000000,closed,1,Add container-based tests to travis
+187,2017-01-10 02:33:54.000000000,2018-04-06 04:03:38.000000000,closed,0,Support reading rule files from a directory
+186,2017-01-10 02:31:14.000000000,1970-01-01 00:00:00.000000001,open,4,Implement CIS benchmark using falco rules
+185,2017-01-10 02:28:36.000000000,2019-05-11 18:25:07.000000000,closed,1,Add example rules showing off mesos integration
+184,2017-01-10 02:27:55.000000000,2019-03-13 08:42:54.000000000,closed,1,Add example rules highlighting k8s features
+183,2017-01-10 02:26:31.000000000,2019-03-13 08:42:49.000000000,closed,1,Bring back application-related rulesets
+182,2017-01-04 04:54:39.000000000,2017-01-17 23:24:39.000000000,closed,1,Update third party libs to address security vulnerabilities
+181,2017-01-03 23:08:02.000000000,2017-01-04 01:58:02.000000000,closed,0,Prefix outputs with * within the engine.
+180,2016-12-31 04:01:44.000000000,2017-01-06 03:59:47.000000000,closed,1,Falco engine should add '*' to the beginning of its outputs
+179,2016-12-31 00:08:12.000000000,2016-12-31 01:28:04.000000000,closed,0,Add cchh/sysdig as a trusted container.
+178,2016-12-30 23:51:19.000000000,2016-12-31 02:27:31.000000000,closed,1,Triggering a sysdig capture (in sysdig cloud) results in alerts
+177,2016-12-29 04:23:22.000000000,2016-12-30 02:32:56.000000000,closed,0,Allow overrides
+176,2016-12-29 01:33:23.000000000,2016-12-30 02:32:56.000000000,closed,0,Additional falco rules files should be able to override any macro/list/rule
+175,2016-12-29 00:42:33.000000000,2016-12-29 01:38:40.000000000,closed,0,Add confd/fleetctl as acceptable programs.
+174,2016-12-23 01:59:58.000000000,2016-12-23 02:25:33.000000000,closed,0,Merging for 0.5.0
+173,2016-12-23 01:24:52.000000000,2016-12-23 01:51:05.000000000,closed,0,Merging master back to dev
+172,2016-12-23 00:19:05.000000000,2016-12-23 00:41:23.000000000,closed,0,Updating docs for 0.5.0.
+171,2016-12-17 15:15:24.000000000,2017-02-04 07:27:06.000000000,closed,4,Add cmp as trusted binary to read sensitive files
+170,2016-12-17 15:12:48.000000000,2016-12-22 01:08:10.000000000,closed,1,Add apt and apt-get as trusted binaries to spawn shells
+169,2016-12-16 14:32:24.000000000,2016-12-17 00:43:07.000000000,closed,1,Add systemd as a login binary
+168,2016-12-16 14:23:37.000000000,2016-12-16 22:38:57.000000000,closed,1,Add fail2ban-server as trusted binary
+167,2016-12-16 04:59:28.000000000,2019-03-13 08:42:48.000000000,closed,1,Possibly start measuring system meta-resources
+166,2016-12-16 02:45:20.000000000,2016-12-16 03:05:53.000000000,closed,3,Add fail2ban as a trusted binary
+165,2016-12-15 14:19:21.000000000,2016-12-16 03:06:01.000000000,closed,0,Add systemd as login binary
+164,2016-12-15 07:29:13.000000000,2016-12-15 07:29:27.000000000,closed,0,"Revert ""Add fail2ban-server as spawn shell trusted binary"""
+163,2016-12-15 03:14:43.000000000,2016-12-15 07:28:16.000000000,closed,4,Add fail2ban-server as spawn shell trusted binary
+162,2016-12-09 00:02:16.000000000,2016-12-09 02:35:17.000000000,closed,0,Use sinsp utils version of get time.
+161,2016-12-08 05:27:02.000000000,2016-12-08 22:46:16.000000000,closed,0,Rate limit notifications
+160,2016-12-08 05:16:20.000000000,2016-12-08 05:47:44.000000000,closed,0,Add log levels.
+159,2016-12-08 04:20:48.000000000,2016-12-08 22:41:47.000000000,closed,0,Make google_containers/kube-proxy a trusted image.
+158,2016-12-07 03:04:51.000000000,2016-12-07 23:33:35.000000000,closed,0,Cache formatters.
+157,2016-12-07 00:01:13.000000000,2016-12-07 00:01:38.000000000,closed,0,Modify plotting script to handle drop stats.
+156,2016-12-06 02:56:06.000000000,2016-12-08 22:47:21.000000000,closed,7,Default ruleset does not ignore some Kubernetes containers
+155,2016-12-05 23:43:31.000000000,2016-12-06 05:56:13.000000000,closed,0,Add ability to write capture stats to a file.
+154,2016-12-02 07:56:06.000000000,2016-12-08 10:14:31.000000000,closed,4,If we're excluding the process sudo we should also ignore it's children
+153,2016-12-02 05:56:49.000000000,2016-12-02 06:51:58.000000000,closed,1,Adding DNF as non-alerting for RPM and package management
+152,2016-11-30 08:49:12.000000000,2016-12-23 04:26:15.000000000,closed,5,install-falco linux script contains MiTM opportunity via curl HTTP
+151,2016-11-29 03:48:57.000000000,2016-12-02 00:53:34.000000000,closed,0,Container info in engine
+150,2016-11-28 23:06:46.000000000,2016-11-28 23:53:36.000000000,closed,0,Improve error messages when loading rules.
+149,2016-11-15 22:40:54.000000000,2019-03-13 08:42:47.000000000,closed,1,Load sets of rules on the fly based on prior rules triggering
+148,2016-11-11 02:58:55.000000000,2016-11-11 03:51:51.000000000,closed,0,Fully specify FALCO_SHARE_DIR.
+147,2016-11-11 01:10:06.000000000,2016-11-11 02:43:25.000000000,closed,0,Honor USE_BUNDLED_DEPS option for third-party libs
+146,2016-10-28 00:23:33.000000000,2018-04-05 09:01:41.000000000,closed,1,Consider using yaml aliases instead of lists
+145,2016-10-27 00:29:16.000000000,2016-11-02 21:45:21.000000000,closed,3,Added envvar SYSDIG_SKIP_LOAD to Dockerfile to skip kernel module manipulation
+144,2016-10-27 00:23:08.000000000,2016-11-11 02:57:20.000000000,closed,1,Support the USE_BUNDLED_DEPS option from Sysdig's CMake setup
+143,2016-10-25 20:28:11.000000000,2016-10-25 20:53:54.000000000,closed,0,Updating for 0.4.0.
+142,2016-10-25 02:15:45.000000000,2016-10-25 02:56:45.000000000,closed,0,Merging for 0.4.0
+141,2016-10-25 01:47:55.000000000,2016-10-25 02:14:09.000000000,closed,0,Rule fixes for dragent.
+140,2016-10-22 02:51:44.000000000,2016-10-24 21:15:10.000000000,closed,0,Add ability to write trace files.
+139,2016-10-22 02:51:21.000000000,2016-10-24 22:02:52.000000000,closed,0,Add stats on events processed/dropped.
+138,2016-10-22 02:13:16.000000000,2016-10-22 02:55:10.000000000,closed,0,Add k8s binaries as trusted programs
+137,2016-10-15 03:53:03.000000000,2016-10-15 03:58:50.000000000,closed,0,Allow falco to spawn shells in containers.
+136,2016-10-15 00:19:56.000000000,2016-10-15 01:03:33.000000000,closed,0,Fix logic for detecting conf files.
+135,2016-10-14 22:08:11.000000000,2016-10-15 01:03:33.000000000,closed,0,logic for reading config files is backwards
+134,2016-10-14 01:40:10.000000000,2016-10-14 02:15:48.000000000,closed,0,Add k8s/mesos/container info to rule outputs.
+133,2016-10-13 04:10:44.000000000,2016-10-13 05:12:08.000000000,closed,0,Add jq to docker
+132,2016-10-13 04:02:43.000000000,2016-10-13 05:11:40.000000000,closed,0,"Add exfiltration action, env-specified actions."
+131,2016-10-13 01:10:28.000000000,2016-10-14 02:15:48.000000000,closed,0,"Add analog of sysdig's -pk, -pc, -pm to provide container/k8s/mesos specific information"
+130,2016-10-11 16:03:15.000000000,2017-02-01 03:40:07.000000000,closed,2,lyaml build shall depends upon luajit
+129,2016-10-11 06:21:30.000000000,2019-03-13 08:42:46.000000000,closed,7,[FeatureRequest] process analysis / device trajectory
+128,2016-10-11 06:21:25.000000000,2018-03-28 01:57:48.000000000,closed,4,[RFC] ansible role for falco
+127,2016-10-10 20:42:31.000000000,2017-03-25 08:42:41.000000000,closed,1,"When using program output, can't send to logger"
+126,2016-10-07 21:55:21.000000000,2016-10-07 22:40:38.000000000,closed,0,Add license comments to all source code.
+125,2016-10-03 19:35:17.000000000,2016-10-03 22:20:34.000000000,closed,2,Add the new pmatch operator.
+124,2016-09-30 20:40:45.000000000,2016-09-30 21:07:46.000000000,closed,0,Install gcc-4.9 from Debian Jessie repositories
+123,2016-09-24 02:38:05.000000000,2016-09-24 03:02:01.000000000,closed,0,Fix lua stack leak.
+122,2016-09-15 08:08:17.000000000,2016-09-16 08:38:20.000000000,closed,2,sudo user
+121,2016-09-15 00:56:03.000000000,2016-09-16 00:36:37.000000000,closed,0,Reduce FPs related to Kubernetes.
+120,2016-09-09 22:27:34.000000000,2016-09-13 00:01:52.000000000,closed,0,Addl container rules
+119,2016-09-06 23:54:24.000000000,2016-09-07 19:40:08.000000000,closed,0,Add enabled flag
+118,2016-08-24 17:44:45.000000000,2016-08-24 18:47:19.000000000,closed,2,Manually installed sysdig-probe.ko.
+117,2016-08-24 01:34:48.000000000,2016-08-24 21:06:13.000000000,closed,0,Fix outputs
+116,2016-08-23 06:38:52.000000000,2016-08-23 18:34:04.000000000,closed,0,Make rule names human readable
+115,2016-08-20 04:12:39.000000000,2018-03-28 22:50:05.000000000,closed,2,Falco under configuration management
+114,2016-08-18 00:26:05.000000000,2016-08-18 01:44:13.000000000,closed,0,Install falco rules with configurable filename.
+113,2016-08-13 01:30:01.000000000,2016-08-13 02:05:39.000000000,closed,0,Add event simulator
+112,2016-08-11 01:00:14.000000000,2016-08-11 02:55:12.000000000,closed,0,Eliminate FPs.
+111,2016-08-09 21:34:10.000000000,2016-08-09 22:00:07.000000000,closed,0,Don't run the spawned program in a shell.
+110,2016-08-06 04:52:44.000000000,2016-08-06 05:16:59.000000000,closed,0,Fix docker builds.
+109,2016-08-05 23:35:12.000000000,2016-08-05 23:35:31.000000000,closed,0,Merging for 0.3.0
+108,2016-08-05 22:18:18.000000000,2016-08-05 22:41:28.000000000,closed,0,Update docs for 0.3.0 release.
+107,2016-08-05 03:53:11.000000000,2016-08-05 19:50:47.000000000,closed,0,Add ability to run on all events.
+106,2016-08-05 03:06:39.000000000,2016-08-05 03:37:13.000000000,closed,0,Add ability to run agent for performance tests.
+105,2016-08-05 02:53:16.000000000,2016-08-05 03:20:48.000000000,closed,0,Add ability to write output to a program
+104,2016-08-03 01:32:33.000000000,2016-08-03 02:15:47.000000000,closed,0,More perf-related rule updates.
+103,2016-07-29 03:41:23.000000000,2016-08-10 21:50:09.000000000,closed,0,Falco engine
+102,2016-07-28 11:49:08.000000000,2016-08-05 19:50:47.000000000,closed,1,How to stop discarding system calls before falco processing
+101,2016-07-15 00:01:33.000000000,2016-07-19 04:56:50.000000000,closed,0,Event specific filters
+100,2016-07-11 22:45:54.000000000,2016-07-12 02:04:43.000000000,closed,0,Utilize sysdig's startswith operator.
+99,2016-07-09 13:49:19.000000000,2016-08-05 03:20:48.000000000,closed,10,Add sending alerts to one or more email addresses
+98,2016-07-09 01:14:04.000000000,2016-07-12 03:05:29.000000000,closed,1,Add list support to rules file.
+97,2016-07-08 02:39:41.000000000,2016-07-08 02:58:05.000000000,closed,0,Example showing running bash via a bad rest api.
+96,2016-06-29 00:46:36.000000000,2016-06-29 01:10:00.000000000,closed,0,Add jq library.
+95,2016-06-28 23:01:00.000000000,2016-07-12 21:07:25.000000000,closed,0,Rule perf updates
+94,2016-06-27 21:20:34.000000000,2019-03-13 08:42:45.000000000,closed,2,Add chisel-like aggregations at falco level
+93,2016-06-11 03:40:53.000000000,2016-06-11 04:13:23.000000000,closed,0,Docker-compose environment for mitm example.
+92,2016-06-09 20:58:39.000000000,2016-06-09 21:40:20.000000000,closed,0,Merging for 0.2.0
+91,2016-06-09 20:57:19.000000000,2016-06-09 20:57:25.000000000,closed,0,Add release notes for 0.2.0.
+90,2016-06-07 22:57:02.000000000,2016-06-07 22:57:11.000000000,closed,0,Migrate README contents to wiki.
+89,2016-06-07 03:57:55.000000000,2016-06-08 01:37:56.000000000,closed,0,Add more useful json output.
+88,2016-06-01 21:21:21.000000000,2019-03-13 08:42:42.000000000,closed,1,Add ability to generate lists of items dynamically
+87,2016-06-01 04:51:27.000000000,2016-06-06 21:53:59.000000000,closed,1,Update fbash rules to use proc.sname.
+86,2016-06-01 04:33:52.000000000,2019-03-13 08:42:41.000000000,closed,1,Some inbound file descriptors not fully resolved
+85,2016-05-24 04:25:25.000000000,2016-05-24 20:24:15.000000000,closed,3,Don't null-check inspector.
+84,2016-05-24 04:22:22.000000000,2016-05-24 20:44:23.000000000,closed,2,Quote path variables that may contain spaces.
+83,2016-05-24 03:10:20.000000000,2016-05-26 05:13:07.000000000,closed,1,Add correctness tests
+82,2016-05-22 20:15:43.000000000,2016-06-08 01:37:56.000000000,closed,1,Json output doesnt follow output field syntax
+81,2016-05-19 14:59:31.000000000,2019-03-13 08:42:43.000000000,closed,2,Allow access to process file descriptor table when a rule fires (flight data recorder?)
+80,2016-05-19 13:00:16.000000000,2016-05-24 20:24:15.000000000,closed,2,Remove an unnecessary null pointer check
+79,2016-05-19 12:30:20.000000000,2016-05-24 20:44:23.000000000,closed,1,Complete quoting for parameters of some CMake commands
+78,2016-05-19 01:31:35.000000000,2019-03-13 08:42:44.000000000,closed,3,Add ability to read trace files over network conns
+77,2016-05-19 01:04:49.000000000,2016-12-09 22:10:33.000000000,closed,5,"Consider documenting comparisons to alternatives (e.g. auditd), vis mandatory controls"
+76,2016-05-18 02:59:43.000000000,2016-05-18 09:43:03.000000000,closed,2,Add minimal travis support.
+75,2016-05-18 00:47:59.000000000,2016-05-18 01:17:20.000000000,closed,0,Readme tweaks
+74,2016-05-17 22:36:52.000000000,2016-05-17 22:40:12.000000000,closed,1,Remove outdated rule examples
+73,2016-05-17 22:26:59.000000000,2016-05-17 22:27:04.000000000,closed,0,Initial CHANGELOG.
+72,2016-05-17 22:14:39.000000000,2016-09-07 19:40:08.000000000,closed,0,"Consider adding an optional ""enabled"" flag to rules"
+71,2016-05-17 04:43:47.000000000,2016-05-17 22:17:04.000000000,closed,1,Additional rule cleanups to improve performance.
+70,2016-05-15 21:44:38.000000000,2016-05-15 21:48:09.000000000,closed,2,"Make default release type ""build"""
+69,2016-05-15 05:15:29.000000000,2018-04-05 09:04:20.000000000,closed,1,Macros should have a description
+68,2016-05-15 00:04:19.000000000,2016-05-16 19:47:50.000000000,closed,3,rule file improvement pass
+67,2016-05-14 22:35:19.000000000,2016-05-16 19:34:53.000000000,closed,2,fd.sockfamily not triggering
+66,2016-05-14 04:40:46.000000000,2016-05-17 20:36:01.000000000,closed,2,Add community links to README.
+65,2016-05-14 04:01:05.000000000,2017-10-06 05:39:29.000000000,closed,1,Consider unifying macros and rules
+64,2016-05-14 03:32:00.000000000,2016-05-16 23:33:45.000000000,closed,10,Add names descriptions
+63,2016-05-13 04:55:06.000000000,2016-05-13 20:39:00.000000000,closed,3,Reduce rule FPs based on more complex environments
+62,2016-05-12 22:28:17.000000000,2017-10-06 20:08:27.000000000,closed,0,Add filtering based on rule severity
+61,2016-05-12 22:11:19.000000000,2017-10-05 21:50:00.000000000,closed,1,Add ability to include a file in a rules file
+60,2016-05-12 22:03:20.000000000,2017-02-16 02:15:12.000000000,closed,1,Categorize rules into profiles
+59,2016-05-12 22:02:27.000000000,2017-02-14 02:18:28.000000000,closed,0,Add ability to run only those rules matching one or more tags
+58,2016-05-12 22:01:32.000000000,2017-03-06 19:17:16.000000000,closed,1,Add tag field to rules
+57,2016-05-12 22:00:33.000000000,2016-05-16 23:33:45.000000000,closed,2,Add fields name and description to rules
+56,2016-05-12 21:49:48.000000000,2016-05-12 22:32:00.000000000,closed,1,Remove `install-falco` script.
+55,2016-05-12 03:35:13.000000000,2016-05-12 20:24:38.000000000,closed,1,Run falco by default in containers.
+54,2016-05-12 02:29:47.000000000,2016-05-13 04:55:20.000000000,closed,2,Don't let databases spawn processes after startup.
+53,2016-05-11 07:55:53.000000000,2016-05-11 09:12:24.000000000,closed,0,Fix install path for Lua files
+52,2016-05-11 04:58:46.000000000,2016-05-11 19:54:59.000000000,closed,2,Add license
+51,2016-05-11 03:13:33.000000000,2016-05-11 08:08:25.000000000,closed,1,Fix remaining falco_rules.conf references.
+50,2016-05-11 03:03:25.000000000,2016-05-11 19:46:59.000000000,closed,1,Clean up handling cmdline options wrt config file.
+49,2016-05-11 00:52:56.000000000,2016-05-11 00:53:06.000000000,closed,0,"Config file: falco_rules.{yaml,conf}"
+48,2016-05-10 22:42:29.000000000,2016-10-27 21:38:12.000000000,closed,2,Allow glob matching on pathnames in filters
+47,2016-05-09 23:11:34.000000000,2016-05-11 00:47:59.000000000,closed,0,Fill out README.md
+46,2016-05-09 21:50:48.000000000,2016-06-11 04:13:22.000000000,closed,0,"Add a ""falco safe"" shell variant"
+45,2016-05-09 01:28:24.000000000,2016-05-09 21:30:26.000000000,closed,1,Allow missing output fields.
+44,2016-05-09 01:26:43.000000000,2016-05-10 22:43:06.000000000,closed,7,Update rules to work on demo scenarios.
+43,2016-05-07 04:35:32.000000000,2016-05-10 04:29:24.000000000,closed,2,Package as service
+42,2016-05-06 21:43:32.000000000,2016-05-09 21:30:26.000000000,closed,0,Output truncated if not all fields exist in event
+41,2016-05-06 10:30:21.000000000,2016-05-07 20:18:44.000000000,closed,2,Error on filtered syscall
+40,2016-05-06 10:25:16.000000000,2016-05-06 10:29:42.000000000,closed,1,Error on filtered syscall
+39,2016-05-06 02:54:45.000000000,2016-05-06 08:16:50.000000000,closed,1,Add docker files to create images using apt-get.
+38,2016-05-05 04:58:11.000000000,2016-05-06 07:39:34.000000000,closed,5,Change rules file format to YAML
+37,2016-05-05 02:46:32.000000000,2016-05-05 05:34:10.000000000,closed,2,Remove remaining digwatch references (really).
+36,2016-05-03 09:46:59.000000000,2016-05-05 00:07:32.000000000,closed,3,Changes related to use of kernel module.
+35,2016-05-02 22:33:33.000000000,2016-05-02 23:09:31.000000000,closed,1,Remove remaining Digwatch references.
+34,2016-05-02 03:19:26.000000000,2016-05-02 03:19:30.000000000,closed,0,More falco->digwatch renaming
+33,2016-05-01 20:10:04.000000000,2016-05-01 20:10:08.000000000,closed,0,More falco->digwatch renaming
+32,2016-04-28 07:04:10.000000000,2016-04-28 07:28:52.000000000,closed,0,Name change!
+31,2016-04-28 03:56:36.000000000,2016-04-29 02:36:33.000000000,closed,0,Drop high-volume events
+30,2016-04-23 03:01:32.000000000,2016-04-23 03:01:37.000000000,closed,0,Logging
+29,2016-04-22 03:36:11.000000000,2016-04-22 03:36:15.000000000,closed,0,Add install-digwatch script template
+28,2016-04-22 03:31:41.000000000,2016-04-22 03:31:53.000000000,closed,0,Add support for json-formatted output
+27,2016-04-13 08:36:33.000000000,2016-04-13 08:37:12.000000000,closed,0,Packaging and configuration
+26,2016-04-13 05:20:26.000000000,2016-04-13 05:20:31.000000000,closed,0,File output
+25,2016-04-13 03:15:23.000000000,2016-04-13 03:15:30.000000000,closed,0,Configuration
+24,2016-04-09 03:52:59.000000000,2016-04-09 03:53:04.000000000,closed,0,Add support for reading .scap files
+23,2016-04-08 03:28:02.000000000,2016-04-08 03:28:07.000000000,closed,0,Command-line options simplification
+22,2016-04-07 03:07:44.000000000,2016-04-07 03:07:52.000000000,closed,0,No env var
+21,2016-04-06 22:45:02.000000000,2016-04-06 22:45:38.000000000,closed,0,Remove dep on nixio by adding simple syslog lua function
+20,2016-04-01 08:30:43.000000000,2016-04-05 08:58:39.000000000,closed,0,Packaging
+19,2016-03-31 02:54:18.000000000,2016-03-31 02:54:28.000000000,closed,0,Rework outputs
+18,2016-03-30 23:55:41.000000000,2016-03-30 23:55:49.000000000,closed,0,Priorities
+17,2016-03-30 06:55:56.000000000,2016-03-30 06:56:01.000000000,closed,0,Implicit time
+16,2016-03-30 06:36:05.000000000,2016-03-30 06:36:44.000000000,closed,0,More service rules
+15,2016-03-30 06:32:08.000000000,2016-03-30 06:32:57.000000000,closed,0,Minor error handling improvements
+14,2016-03-25 01:25:14.000000000,2016-03-30 01:59:24.000000000,closed,0,Use new sysdig support for fast processing of in-exprs
+13,2016-03-19 00:11:18.000000000,2016-03-19 00:11:34.000000000,closed,0,Optimization: don't nest at every boolean op
+12,2016-03-05 06:55:53.000000000,2016-03-05 06:55:58.000000000,closed,0,Build lpeg
+11,2016-03-02 02:54:51.000000000,2016-03-02 02:55:00.000000000,closed,0,Digwatch fields
+10,2016-03-01 09:37:42.000000000,2016-03-01 09:38:45.000000000,closed,0,Support function outputs
+9,2016-02-29 03:30:20.000000000,2016-02-29 03:30:31.000000000,closed,0,Function calls in outputs (grammar only)
+8,2016-02-29 02:23:31.000000000,2016-02-29 02:23:38.000000000,closed,0,Grammar: parse array lookup in fields
+7,2016-02-25 23:55:13.000000000,2016-02-25 23:55:18.000000000,closed,0,Compiler fixes
+6,2016-02-24 23:33:04.000000000,2016-02-24 23:33:11.000000000,closed,0,Cleanups
+5,2016-02-24 21:43:18.000000000,2016-02-24 21:43:28.000000000,closed,0,Support output formats
+4,2016-02-23 02:32:05.000000000,2016-02-23 02:32:12.000000000,closed,0,Parser work
+3,2016-02-22 02:43:55.000000000,2016-02-22 02:44:01.000000000,closed,0,Lua move
+2,2016-02-21 10:27:22.000000000,2016-02-21 10:27:36.000000000,closed,0,Digwatch initial implementation
+1,2016-02-16 05:04:38.000000000,2016-02-16 05:04:51.000000000,closed,0,Digwatch compiler

@@ -1,0 +1,927 @@
+id,created_at,closed_at,state,comments,title
+926,2020-08-10 19:00:57.000000000,2020-08-10 21:01:08.000000000,closed,1,Why BUCK http cache repo is deprecated?
+925,2020-08-05 05:29:04.000000000,1970-01-01 00:00:00.000000001,open,2,Cleanup proguard in generated dependencies
+924,2020-07-21 11:19:09.000000000,2020-07-21 14:55:13.000000000,closed,0,Use treemap to keep keys sorted same in darwin & linux
+923,2020-07-21 00:46:38.000000000,2020-07-21 01:08:25.000000000,closed,0,Add robolectric 29 artifact
+922,2020-07-18 00:03:03.000000000,2020-07-18 02:32:37.000000000,closed,0,Update to latest buck version and use kotlin compiler zip
+921,2020-07-17 20:16:14.000000000,2020-07-20 22:50:45.000000000,closed,0,Make okbuck Java 11 Compatible
+920,2020-07-16 16:41:57.000000000,2020-07-16 22:05:14.000000000,closed,0,Parallelize resolution of dependencies based on projects when resolving only third party
+919,2020-07-16 16:40:36.000000000,2020-07-16 20:35:45.000000000,closed,0,Only create manifest merger target if the project has an android app or library
+918,2020-07-16 16:16:38.000000000,2020-07-16 16:39:07.000000000,closed,0,Bump robolectric & proguard
+917,2020-07-16 15:53:07.000000000,2020-07-16 16:12:52.000000000,closed,0,Add annotations.jar to the kotlin compiler to make it compatible with 1.40 or higher
+916,2020-07-16 15:40:52.000000000,2020-07-16 15:51:48.000000000,closed,0,Exclude resolved artifatcs in transforms-2/files-2 from being consumable during configuration resolution
+915,2020-07-16 15:38:40.000000000,2020-07-16 15:51:24.000000000,closed,0,Materialize kotlin_home target as part of buckw so the build works with oss buck
+914,2020-07-15 21:52:07.000000000,2020-07-15 22:43:45.000000000,closed,0,Allow substituting the new proguard namespace
+913,2020-07-15 08:23:28.000000000,2020-07-16 16:43:02.000000000,closed,1,Upgrade to Kotlin 1.3.72
+912,2020-07-15 07:13:58.000000000,2020-07-15 22:43:45.000000000,closed,0,Support Proguard 7
+911,2020-06-09 02:16:47.000000000,2020-06-09 02:21:18.000000000,closed,0,Make marking all versions of an artifact as first level configurable
+910,2020-05-14 12:57:06.000000000,2020-05-14 14:23:25.000000000,closed,0,Make OkBuck output buildifier friendly
+909,2020-05-13 02:50:34.000000000,2020-07-14 20:54:50.000000000,closed,1,Support Bill of Materials
+908,2020-04-10 22:00:16.000000000,2020-04-10 22:01:56.000000000,closed,0,Add flag to force enable jetifier
+907,2020-04-09 18:56:04.000000000,2020-07-01 20:53:11.000000000,closed,2,OkBuck is incompatible with Android Gradle Plugin 3.4.0+ (include 3.4.0)
+906,2020-04-09 15:00:13.000000000,2020-04-09 18:11:30.000000000,closed,0,does plan to support Gradle Kotlin DSL?
+905,2020-03-26 17:29:20.000000000,2020-07-16 20:46:24.000000000,closed,3,Bump android gradle plugin to 3.6.1
+904,2020-03-26 04:08:03.000000000,2020-03-26 04:08:17.000000000,closed,0,Make template output buildifier compatible
+903,2020-03-26 03:03:52.000000000,2020-03-26 03:03:57.000000000,closed,0,fix typo
+902,2020-03-26 02:50:51.000000000,2020-03-26 02:52:06.000000000,closed,0,Add visibility to manifest rules
+901,2020-03-26 02:22:37.000000000,2020-03-26 02:27:17.000000000,closed,0,Add option to not generate maven_repositories
+900,2020-01-25 16:18:14.000000000,2020-01-25 16:45:39.000000000,closed,0,Use getParentArtifacts api to populate child deps
+899,2020-01-20 20:59:48.000000000,2020-01-21 23:36:03.000000000,closed,0,Add a flag to resolve only third party deps when versoined exported deps is enabled
+898,2020-01-15 16:04:32.000000000,2020-01-15 22:04:30.000000000,closed,0,Use dependency factory instance instead of the static class
+897,2020-01-15 06:31:17.000000000,2020-01-15 06:38:44.000000000,closed,0,Use weak references for dep cache
+896,2020-01-11 22:21:05.000000000,2020-07-14 20:55:25.000000000,closed,4,:okbuck: failing to detect correct autoValueExtensions for module's first level annotation processor deps
+895,2020-01-10 17:23:46.000000000,2020-01-10 23:01:27.000000000,closed,0,Add support for strict visibility of 3rdparty deps
+894,2019-12-26 13:37:11.000000000,2020-01-05 17:25:40.000000000,closed,0,Add support for exported_deps with versioned deps
+893,2019-12-17 18:19:41.000000000,2019-12-18 18:53:16.000000000,closed,0,Rename external dependency to OExternalDependency
+892,2019-11-20 23:25:10.000000000,2019-11-20 23:39:15.000000000,closed,0,Use double quote in generated buck files where possible
+891,2019-11-08 22:48:10.000000000,2019-11-09 00:28:28.000000000,closed,0,Optimize travis builds
+890,2019-11-08 22:09:12.000000000,2019-11-08 22:45:53.000000000,closed,0,Travis ci improvements
+889,2019-11-08 21:02:42.000000000,2019-11-08 21:55:06.000000000,closed,0,Move to travis CI
+888,2019-11-07 12:01:00.000000000,2020-07-17 04:41:46.000000000,closed,2,build error
+887,2019-11-05 18:12:37.000000000,2020-07-17 04:24:22.000000000,closed,3,multiple dependencies problem
+886,2019-11-01 14:31:20.000000000,2019-11-09 03:08:30.000000000,closed,6,Populate provided deps only if the versionless artifact is not present in runtimeclasspath
+885,2019-10-24 13:46:25.000000000,2020-07-16 20:47:53.000000000,closed,2,OKBuck is failling with akamai lib (Working fine with studio)
+884,2019-10-11 20:58:13.000000000,2019-10-17 01:12:10.000000000,closed,1,"Script to create tinyjavaxtools.jar, for supporting Error Prone in Buck builds"
+883,2019-10-11 07:22:16.000000000,1970-01-01 00:00:00.000000001,open,6,Can't figure out how to use okbuck with autovalue on a Java project
+882,2019-10-01 06:03:43.000000000,2019-10-02 20:10:41.000000000,closed,0,[okbuck] Reverse assumption on standard naming of android_modules
+881,2019-09-30 21:24:34.000000000,2019-09-30 22:41:38.000000000,closed,0,Stricter check for changing dependencies
+880,2019-09-26 12:50:22.000000000,2020-07-17 04:23:18.000000000,closed,1,Troube
+879,2019-09-21 12:13:01.000000000,2020-07-17 04:05:53.000000000,closed,0,Various updates
+878,2019-09-12 13:07:50.000000000,2019-09-12 15:43:03.000000000,closed,1,Adding integration tests target to main tests
+877,2019-09-11 16:02:45.000000000,2019-09-11 17:59:45.000000000,closed,0,Added custom rules for integration tests
+876,2019-09-10 23:42:41.000000000,2020-07-16 16:42:41.000000000,closed,5,Upgrade to kotlin version 1.3.50
+875,2019-08-29 10:59:39.000000000,2020-07-17 04:24:50.000000000,closed,1,Dexguard 8.5.01 is Causing ANR
+874,2019-08-28 09:17:29.000000000,2020-07-16 18:58:29.000000000,closed,2,Account for additional artifact api transform folders in gradle 5.1.1+
+873,2019-08-28 09:01:00.000000000,2020-07-17 04:25:15.000000000,closed,1,okbuck fails with Gradle 5.1.1+ (Could not create symlink: FileAlreadyExistsException)
+872,2019-08-28 03:19:50.000000000,2020-07-17 04:27:51.000000000,closed,1,Missing runtime dependencies of external modules with Gradle 5.0+
+871,2019-08-21 14:52:36.000000000,2019-08-22 15:19:06.000000000,closed,0,Integration tests support
+870,2019-08-20 12:13:54.000000000,2019-08-20 12:17:21.000000000,closed,1,Pad version names so buck sorts them properly
+869,2019-08-10 11:27:30.000000000,2020-07-17 04:26:22.000000000,closed,1,does this support the GreenDao
+868,2019-08-09 20:20:14.000000000,2019-08-19 07:41:19.000000000,closed,2,Cannot build kotlin-app:bin_debug
+867,2019-08-09 13:11:38.000000000,2019-08-20 13:12:10.000000000,closed,0,Don't populate resources or sources in jvm rules if it doesn't contain any valid file.
+866,2019-08-09 12:43:03.000000000,2020-07-17 04:41:23.000000000,closed,1,does okbuck support  Navigation of jetpack
+865,2019-08-08 06:48:32.000000000,2020-07-17 04:41:36.000000000,closed,1,No target found for project
+864,2019-08-01 13:38:14.000000000,2020-07-17 04:28:04.000000000,closed,1,OkBuck fails - okbuck_jetifier_deps
+863,2019-07-31 18:58:54.000000000,2019-07-31 20:28:40.000000000,closed,0,Cache computed sha256 of external dependencies
+862,2019-07-31 17:27:33.000000000,2019-07-31 18:49:57.000000000,closed,0,Ensure that test env dict is printed in sorted manner.
+861,2019-07-23 04:56:31.000000000,1970-01-01 00:00:00.000000001,open,0,resolutionAction LATEST fails resolving androidx.test.services:test-services
+860,2019-07-11 17:35:24.000000000,2019-07-12 14:38:14.000000000,closed,1, Fix argument size bug while linting
+859,2019-07-09 02:45:01.000000000,2020-07-17 04:15:39.000000000,closed,1,OkBuck fails to download/compile dependencies with repackaged jars
+858,2019-07-02 04:59:24.000000000,2020-07-16 18:57:15.000000000,closed,3,Kotlin 1.3.40
+857,2019-06-10 21:57:05.000000000,2019-06-10 22:02:46.000000000,closed,0,Add option to configure legacy processor support
+856,2019-06-07 19:02:38.000000000,2019-06-10 21:32:19.000000000,closed,0,Fix typo when handling empty lint xml in pull/855
+855,2019-06-06 18:32:36.000000000,2019-06-06 18:45:20.000000000,closed,0,Handle empty lint xml config properly for unified rule
+854,2019-06-06 12:12:39.000000000,2019-06-06 12:52:45.000000000,closed,0,Partially revert #852
+853,2019-06-05 22:29:38.000000000,2019-06-06 09:12:06.000000000,closed,2,Local dependencies should be under project root. Dependencies outside the project can cause hard to reproduce builds.
+852,2019-06-05 19:28:14.000000000,2019-06-05 21:24:40.000000000,closed,0,Small fix on android module macro
+851,2019-06-04 20:19:56.000000000,2019-06-05 15:23:36.000000000,closed,0,Android modules rule
+850,2019-05-30 12:16:38.000000000,2019-05-30 18:59:36.000000000,closed,1,Why unpack arr package and check xml errror?
+849,2019-05-29 19:34:08.000000000,2019-05-29 19:36:28.000000000,closed,0,Handle empty lint xml config properly
+848,2019-05-27 21:24:30.000000000,2019-05-28 19:09:37.000000000,closed,0,Delete transform folder only if it is being created
+847,2019-05-25 00:53:34.000000000,2020-07-17 04:15:19.000000000,closed,5,Kotlin 1.3.31 support
+846,2019-05-22 06:14:28.000000000,2019-05-22 06:16:16.000000000,closed,2,Do not check for lint manifest attributes
+845,2019-05-15 18:55:54.000000000,2019-05-15 19:21:10.000000000,closed,0,Fix composing of external deps of native prebuilts
+844,2019-05-06 21:48:22.000000000,2019-05-06 22:48:39.000000000,closed,2, Compose external dependency processors in external dependency's buck file
+843,2019-04-25 00:35:23.000000000,2019-04-25 01:14:54.000000000,closed,0,Throw exception if a dep is not found in resolved dependency list when exported deps is enabled
+842,2019-04-22 03:09:07.000000000,2019-05-06 22:49:03.000000000,closed,1,okbuck does not generate test targets unless roboelctric = true
+841,2019-04-20 01:15:15.000000000,2019-04-20 12:26:06.000000000,closed,7,Bump Android Gradle Plugin to 3.4.0
+840,2019-04-18 22:22:17.000000000,2020-07-16 20:46:24.000000000,closed,12,OkBuck is incompatible with AGP 3.4.0
+839,2019-04-18 15:04:53.000000000,2020-07-17 04:14:52.000000000,closed,6,Coroutines issue on runtime
+838,2019-04-17 12:49:17.000000000,2019-04-17 21:29:22.000000000,closed,0,Cleanup versionless resolution actions handling
+837,2019-04-17 06:34:46.000000000,2019-04-17 06:45:44.000000000,closed,0,Remove redundant lib_deps declarations
+836,2019-04-11 23:39:07.000000000,2019-04-20 13:06:32.000000000,closed,1,Add support for exported_deps for aar & jar prebuilts.
+835,2019-04-10 06:11:41.000000000,2019-04-16 10:58:02.000000000,closed,6,Kotlin Dagger modules have issues with `internal` methods
+834,2019-04-10 06:03:47.000000000,1970-01-01 00:00:00.000000001,open,1,Dagger + Kapt cannot find Dagger.Generated annotation with default config
+833,2019-03-29 02:55:56.000000000,2019-03-29 04:06:09.000000000,closed,2,Plugin Marker Artifacts aren't published
+832,2019-03-26 05:29:48.000000000,2019-03-27 20:03:00.000000000,closed,0,Add support for composing api deps in external_deps.
+831,2019-03-22 15:43:14.000000000,2019-03-22 17:27:23.000000000,closed,0,Run GJF on all the java files.
+830,2019-03-21 04:51:37.000000000,2019-03-28 18:08:41.000000000,closed,1,Update instructions for listing all buck targets in README
+829,2019-03-17 17:38:00.000000000,2019-03-18 19:27:38.000000000,closed,1,[Demo diff] Added support for reading multiDexEnabled from build type based config
+828,2019-03-17 17:37:04.000000000,2019-03-18 19:27:56.000000000,closed,1,Support for multiDexEnabled in buildTypes
+827,2019-03-06 20:29:07.000000000,1970-01-01 00:00:00.000000001,open,2,Does okbuck support dynamic feature? 
+826,2019-03-06 06:13:40.000000000,2019-07-28 02:19:59.000000000,closed,1,Reproduce resource merging bug
+825,2019-03-06 06:09:18.000000000,2020-07-17 04:13:56.000000000,closed,1,Resource merging does not appear to work properly
+824,2019-03-03 22:26:06.000000000,2019-03-03 22:32:57.000000000,closed,0,Upgrade kotlin to 1.3.21
+823,2019-02-22 10:26:25.000000000,2019-02-22 10:33:29.000000000,closed,0,Update buck to latest and add a temp fix to kotlin_home for ci
+822,2019-02-19 04:56:16.000000000,2019-02-19 23:13:36.000000000,closed,1,Okbuck fetches wrong androidx artifact id after forcedOkbuck play services library
+821,2019-02-15 21:21:34.000000000,2019-02-25 11:33:05.000000000,closed,4,Add `friend_paths` to kotlin rules
+820,2019-02-15 00:48:24.000000000,2020-07-17 04:13:22.000000000,closed,3,NullPointerException when running ./buckw targets
+819,2019-02-14 04:47:30.000000000,2020-07-17 04:13:04.000000000,closed,1,Add support to now resolve configurations fully during okbuck for smaller BUCK files
+818,2019-02-14 02:08:27.000000000,2019-02-14 02:13:29.000000000,closed,0,Partially revert AGP upgrade
+817,2019-02-14 00:29:44.000000000,2019-02-25 11:33:05.000000000,closed,3,Fix broken -Xfriend-paths after kotlin 1.3.20 upgrade
+816,2019-02-13 20:24:51.000000000,2019-02-13 20:31:38.000000000,closed,0,Upgrade Gradle to 5.2.1
+815,2019-02-12 08:10:00.000000000,2019-02-12 08:14:52.000000000,closed,0,Upgrade Android Gradle Plugin to 3.3.1 and fix lint issues
+814,2019-02-12 03:46:44.000000000,2019-02-12 05:36:41.000000000,closed,1,Adding arm64-v8a as a supported ABI to okbuck
+813,2019-02-11 19:39:56.000000000,2019-02-14 02:55:07.000000000,closed,3,Support Kotlin plugin's api/implementation configurations
+812,2019-02-06 02:36:07.000000000,2019-02-12 08:14:52.000000000,closed,0,Lint job is red
+811,2019-02-06 02:24:35.000000000,2019-02-06 02:58:48.000000000,closed,1,Update Robolectric artifact coordinates for P
+810,2019-02-03 23:03:21.000000000,2019-02-12 08:18:42.000000000,closed,1,Set default user.country to prevent it from mismatch in different laptops
+809,2019-02-03 05:24:12.000000000,2019-02-03 05:24:19.000000000,closed,0,Add a generated header to okbuck generated buck files
+808,2019-02-02 00:04:47.000000000,2019-02-12 23:56:08.000000000,closed,1,Fix Windows build
+807,2019-02-01 09:31:56.000000000,2019-02-01 10:11:31.000000000,closed,0,Delete workspace subpaths at finalize dependencies step and create if metadata needs to be generated.
+806,2019-01-29 10:52:49.000000000,2019-01-29 11:28:23.000000000,closed,0,Stop forcing kotlin version
+805,2019-01-26 13:00:30.000000000,2019-01-26 13:31:24.000000000,closed,0,Infer sources using ResolvedArtifactResult instead of doing filesystem check
+804,2019-01-24 05:48:59.000000000,2019-01-26 13:32:08.000000000,closed,1,Fix rules overrides bug
+803,2019-01-24 04:07:33.000000000,2019-01-26 13:32:07.000000000,closed,0,Add ruleType for okbuck_manifest .raw
+802,2019-01-24 03:31:45.000000000,2019-02-14 00:28:51.000000000,closed,3,Kotlin 1.3.20 and fix configuration check exception
+801,2019-01-24 03:16:06.000000000,2019-02-14 00:28:50.000000000,closed,9,OkBuck throws exception with Kotlin 1.3.20
+800,2019-01-19 03:35:03.000000000,2019-01-29 11:53:01.000000000,closed,3,Created a shared ui library 
+799,2019-01-17 12:34:51.000000000,2019-02-12 08:16:56.000000000,closed,0,Update buck to latest
+798,2019-01-16 15:06:13.000000000,2019-02-15 01:53:25.000000000,closed,21,Kotlin home directory (Optional[/.okbuck/workspace/kotlin_home:kotlin_home]) specified in .buckconfig was not found.
+797,2019-01-15 21:24:46.000000000,2020-07-17 04:12:36.000000000,closed,9,Error building (mvn artifact hash mismatch) after successful OkBuck setup
+796,2019-01-14 23:23:28.000000000,2019-02-12 08:16:45.000000000,closed,0,Update AGP to 3.3.0 and kotlin to 1.3.11
+795,2019-01-09 05:15:09.000000000,2019-03-16 14:25:57.000000000,closed,9,OkBuck doesn't generate instrumentation test target in 'com.android.library' module
+794,2019-01-09 02:45:18.000000000,2019-02-12 08:16:20.000000000,closed,1,Add a test case for AndroidManifest merge error
+793,2019-01-09 00:02:23.000000000,2019-01-09 00:43:39.000000000,closed,0,Enable in_build.in_build buckconfig if downloadInBuck is set
+792,2019-01-08 22:07:12.000000000,2019-01-09 00:43:39.000000000,closed,2,Downloading files at runtime is disabled
+791,2019-01-08 08:41:23.000000000,1970-01-01 00:00:00.000000001,open,4,[Lint] Lint should not depend on compilation
+790,2019-01-08 08:40:15.000000000,2020-04-10 10:22:59.000000000,closed,5,[Lint] Lint should read from new lintChecks configurations
+789,2019-01-08 08:34:39.000000000,2020-07-17 04:12:07.000000000,closed,1,[Lint] Lint should accept jars if they have LintRegistry service
+788,2019-01-08 05:51:02.000000000,2019-01-30 07:29:30.000000000,closed,7,Gradle forced to build with kotlin 1.3.0 after applying okbuck plugin
+787,2019-01-06 11:52:15.000000000,2019-01-06 17:24:16.000000000,closed,0,Don't include any file: maven repository in the generated maven_repositories list
+786,2019-01-05 03:27:26.000000000,2019-01-05 03:33:07.000000000,closed,0,Upgrade butterknife to latest
+785,2019-01-05 02:23:52.000000000,2019-01-05 03:27:51.000000000,closed,0,Use RandomAccessFile instead of input stream for verifying zip files
+784,2019-01-04 15:17:13.000000000,2019-01-04 15:55:21.000000000,closed,0,Don't setup kotlin home if disabled
+783,2019-01-04 02:39:00.000000000,2019-01-04 02:59:36.000000000,closed,0,Make downloadInBuck optional
+782,2019-01-03 01:31:27.000000000,2019-01-03 21:29:05.000000000,closed,7,Add support for reading custom kotlin compiler args
+781,2019-01-02 19:09:59.000000000,1970-01-01 00:00:00.000000001,open,0,Add GJF check on CI
+780,2019-01-02 19:02:23.000000000,2019-01-02 19:12:12.000000000,closed,0,Run GJF on all java files
+779,2019-01-02 15:29:20.000000000,2019-01-02 18:11:36.000000000,closed,0,Remove redundant kotlin_home config param target
+778,2018-12-31 15:42:12.000000000,2019-01-03 05:20:46.000000000,closed,4,Add some information about local development to README
+777,2018-12-31 14:26:10.000000000,2019-01-02 18:57:08.000000000,closed,2,Add support for reading custom Kotlin compiler arguments
+776,2018-12-31 13:35:52.000000000,2019-01-04 03:13:04.000000000,closed,3, Add support for new LintRegistry service API in lint detection
+775,2018-12-31 12:52:27.000000000,2019-01-02 18:55:36.000000000,closed,8,Add support for Kotlin -Xfriend-paths
+774,2018-12-19 01:44:52.000000000,2019-01-09 14:25:52.000000000,closed,8,Parcelize wrong error
+773,2018-12-16 19:23:02.000000000,2018-12-16 20:35:36.000000000,closed,1,amal
+772,2018-12-16 04:24:45.000000000,2018-12-16 04:57:23.000000000,closed,0,Cache TargetCache as an extra property of the project instead of OkBuckGradlePlugin
+771,2018-12-15 03:59:28.000000000,2018-12-15 04:07:42.000000000,closed,0,Cache scope as an extra property to project instead of keeping it on the plugin object.
+770,2018-12-07 13:02:46.000000000,1970-01-01 00:00:00.000000001,open,0,generated intellij project kotlin extension issues
+769,2018-11-29 23:36:30.000000000,2018-12-29 03:05:10.000000000,closed,1,Move all local okbuck jars to jcenter.
+768,2018-11-29 04:58:51.000000000,2018-11-29 07:47:22.000000000,closed,0,Remove unused extraDefs option from okbuckExtension
+767,2018-11-29 03:55:18.000000000,2018-11-29 07:49:04.000000000,closed,0,Added option to provide custom configuration mapping file for jetifier
+766,2018-11-29 02:04:09.000000000,2018-11-30 02:02:24.000000000,closed,0,Allowing okBuck to pick oldest source jar among many if multiple source jars are present.
+765,2018-11-19 19:12:59.000000000,2018-11-22 23:43:51.000000000,closed,1,Enable jetifier for jars
+764,2018-11-16 17:27:36.000000000,2018-11-16 17:33:25.000000000,closed,0,Add ability to choose a subset of robolectric api jars to download
+763,2018-11-15 19:46:54.000000000,2018-11-15 20:09:05.000000000,closed,0,Refactored load statements generation added for skylark:
+762,2018-11-15 13:57:14.000000000,2018-11-15 14:11:52.000000000,closed,2,remove unmaintained QQ group number
+761,2018-11-12 19:44:55.000000000,2018-11-13 15:39:48.000000000,closed,2,Rewrite okbuck DEFS into SKYLARK-compatible way.
+760,2018-11-12 19:23:17.000000000,2018-11-12 19:37:55.000000000,closed,2,Run GJF on okbuck.
+759,2018-11-10 21:12:05.000000000,2018-11-29 07:57:31.000000000,closed,3,Enable resource_union but keeping the original package name
+758,2018-11-10 21:00:50.000000000,2018-11-29 07:58:25.000000000,closed,6,resource_union keeping the original package name
+757,2018-11-10 03:19:39.000000000,2018-11-14 17:05:50.000000000,closed,2,Fully switched okBuck to skylark.
+756,2018-11-09 16:01:20.000000000,2018-11-11 15:13:16.000000000,closed,5,android_instrumentation_apk and android_instrumentation_test rules generated only for `debug` build type
+755,2018-11-07 23:38:21.000000000,2018-11-29 07:59:45.000000000,closed,2,java.lang.IllegalArgumentException: Self-suppression not permitted
+754,2018-11-07 14:15:36.000000000,2018-11-07 14:44:41.000000000,closed,3,cannot find symbol
+753,2018-11-06 14:08:44.000000000,2018-11-06 14:16:50.000000000,closed,0,Gate jetifier only on android.enableJetifier
+752,2018-11-06 05:35:31.000000000,2018-11-07 06:09:31.000000000,closed,0,Added option to okBuck to configure rule overrides compatible with skylark
+751,2018-11-02 00:50:29.000000000,2018-11-02 02:52:26.000000000,closed,1,Use path relativize method and create buck files relative to root project.
+750,2018-11-01 11:10:29.000000000,2018-11-02 02:52:26.000000000,closed,5,String index out of range
+749,2018-10-31 21:06:24.000000000,2018-11-05 19:56:30.000000000,closed,1,Jetifier support
+748,2018-10-23 03:36:53.000000000,2018-12-29 06:41:00.000000000,closed,3,Add support for downloading external dependencies via buck.
+747,2018-10-23 02:41:56.000000000,2018-10-23 02:45:36.000000000,closed,0,Fix lint broken on resources
+746,2018-10-21 09:19:20.000000000,2020-07-17 04:11:27.000000000,closed,1,java.lang.NullPointerException (no error message)
+745,2018-10-20 06:48:31.000000000,2019-01-07 20:39:49.000000000,closed,20,Fix project-defined annotation processor resolution
+744,2018-10-17 00:17:47.000000000,2018-10-17 22:41:57.000000000,closed,3,Fix manifest-merger --overlays
+743,2018-10-16 03:54:48.000000000,2018-10-16 03:57:03.000000000,closed,0,Change ci to throw exit codes properly
+742,2018-10-15 19:26:05.000000000,2018-10-16 18:36:30.000000000,closed,0,Remove compilation classpath from lint targets by default
+741,2018-10-13 01:22:48.000000000,2018-10-13 05:32:27.000000000,closed,0, Add support for specifying allowLatestVersion & allowLatestForAll
+740,2018-10-12 23:08:13.000000000,2020-07-17 04:11:10.000000000,closed,4,Proguard file not found
+739,2018-10-10 13:16:48.000000000,2018-10-12 22:25:25.000000000,closed,0,Add support for skipping prebuilt jars for extra dep caches and enable versionless in okbuck
+738,2018-10-10 05:11:35.000000000,2018-10-10 05:28:35.000000000,closed,0,Set debuggable to boolean instead of string for it to be computed correctly.
+737,2018-10-07 09:04:47.000000000,2018-10-07 20:23:44.000000000,closed,1,cannot detect debug.keystore present in root folder
+736,2018-10-04 08:38:47.000000000,2018-10-04 08:47:24.000000000,closed,0,Set project_res to main res directory for android resource rules
+735,2018-10-03 04:52:02.000000000,2018-10-03 04:52:40.000000000,closed,0,Delete old .buckconfig.local file for now
+734,2018-10-03 02:49:40.000000000,2018-10-04 18:00:37.000000000,closed,1,Add support for API 28 robolectric dependencies expected by robolectric 4.0-alpha-3
+733,2018-10-03 01:40:04.000000000,2018-10-03 03:51:06.000000000,closed,0,Add disable lint template flag to turn off lint template for robolectric tests
+732,2018-10-02 10:05:17.000000000,2018-10-02 22:15:37.000000000,closed,0,Refactor package code & fix disable lint logic
+731,2018-09-29 11:43:43.000000000,2018-09-29 12:09:22.000000000,closed,0,Add ability to configure buck's resource_union package name
+730,2018-09-29 05:49:23.000000000,2018-09-29 06:08:56.000000000,closed,0,Pass application package to manifest merger.
+729,2018-09-26 22:57:13.000000000,2018-09-27 00:43:19.000000000,closed,0,Add genrule types and remove unused genrule rocker template
+728,2018-09-26 20:45:03.000000000,2018-09-26 22:30:45.000000000,closed,0,Add secondary manifest to okbuck_manifest rule
+727,2018-09-24 22:19:59.000000000,2018-09-24 22:40:53.000000000,closed,0,"Update AGP, support lib and build tools to latest"
+726,2018-09-20 09:25:55.000000000,2018-10-03 00:30:50.000000000,closed,2,./buckw targets commands fails at BUILD FAILED: The rule //.okbuck/gen/app/release:app.keystore could not be found. 
+725,2018-09-18 16:25:33.000000000,2018-09-18 19:39:39.000000000,closed,1,How to print stacktrace?
+724,2018-09-17 15:29:08.000000000,2018-09-18 03:12:02.000000000,closed,1,Fix generated exopackage android library rule
+723,2018-09-12 18:40:03.000000000,2018-09-12 18:44:07.000000000,closed,0,Move transform out of experimental and remove some dead code
+722,2018-09-12 08:57:33.000000000,2018-09-12 09:16:45.000000000,closed,4,"Rename keystore.alias to keyAlias, reorder fields for consistency"
+721,2018-09-12 04:14:12.000000000,2018-09-12 04:18:32.000000000,closed,0,Put okbuck defs before okbuckext refs.
+720,2018-09-11 22:33:54.000000000,2018-09-11 22:41:15.000000000,closed,0,Re-enable espresso for libraries and cleanup ci config
+719,2018-09-11 21:15:40.000000000,2018-09-11 21:20:52.000000000,closed,0,Move proguard config processing to buck
+718,2018-09-11 21:01:26.000000000,2018-09-11 21:05:26.000000000,closed,0,Move lint config xml processing to buck
+717,2018-09-11 19:48:36.000000000,2018-09-11 19:58:38.000000000,closed,0,Allow multiple exported files at same level
+716,2018-09-11 12:37:34.000000000,2018-09-11 19:58:38.000000000,closed,0,Make sure multiple keystores can be written to same buck file
+715,2018-09-11 11:19:22.000000000,2018-09-11 11:36:36.000000000,closed,0,Move keystore processing to buck
+714,2018-09-11 10:10:21.000000000,2018-09-11 10:11:05.000000000,closed,0,Update agp to 3.2.0-rc3
+713,2018-09-09 21:27:13.000000000,2018-09-09 22:12:55.000000000,closed,2,Setup circle ci workflow
+712,2018-09-09 20:37:55.000000000,2018-09-09 20:41:16.000000000,closed,0,Move okbuck cache to workspace
+711,2018-09-09 20:16:32.000000000,2018-09-09 20:23:07.000000000,closed,0,Turn off versionless dependencies by default
+710,2018-09-08 00:48:42.000000000,2018-09-08 01:12:43.000000000,closed,0,"Update gradle, android sdk, kotlin and agp versions"
+709,2018-09-06 02:30:13.000000000,2019-01-02 18:55:36.000000000,closed,5,Support -Xfriend-paths for kotlin internal
+708,2018-09-06 01:39:00.000000000,2018-09-07 03:35:38.000000000,closed,1,Added Visibility configuration support to OkBuck.
+707,2018-09-05 03:58:12.000000000,2018-09-05 20:00:09.000000000,closed,2,OKBuck tries to find kotlin dependencies in jitpack
+706,2018-09-03 22:37:47.000000000,2018-09-07 01:24:33.000000000,closed,3,Remove duplicated android test rules
+705,2018-08-31 03:33:38.000000000,2018-08-31 04:04:52.000000000,closed,0,Add ability to filter entries out of android lint classpath
+704,2018-08-31 02:11:02.000000000,2018-08-31 02:17:07.000000000,closed,0,Stop killing buck daemons
+703,2018-08-30 19:14:32.000000000,2018-08-31 00:59:04.000000000,closed,0,Move android lint processing from okbuck to buck
+702,2018-08-29 13:59:43.000000000,2018-08-29 15:17:18.000000000,closed,1,New Logo/Icon proposal
+701,2018-08-23 10:25:52.000000000,2018-08-23 10:30:53.000000000,closed,0,Enable strict error prone warnings and fix all existing issues
+700,2018-08-23 06:24:29.000000000,2018-08-23 06:45:49.000000000,closed,0,Move manifest merging from okbuck to buck
+699,2018-08-21 10:11:40.000000000,2018-08-21 11:07:07.000000000,closed,0,Enable errorprone and nullaway on okbuck codebase
+698,2018-08-21 08:18:05.000000000,2018-08-21 08:47:59.000000000,closed,0,Move okbuck specific buckconfig outside .buckconfig.local
+697,2018-08-21 07:49:11.000000000,2018-08-21 07:54:12.000000000,closed,0,Cleanup inspections etc.
+696,2018-08-19 15:58:20.000000000,2018-09-27 00:44:03.000000000,closed,6,"How to configure OkBuck to run simple ""Hello World"" java project with it?"
+695,2018-08-13 11:00:49.000000000,2018-08-13 11:04:44.000000000,closed,0,Remove comments from android manifests during merging
+694,2018-08-13 10:16:09.000000000,2018-08-13 10:48:12.000000000,closed,0,Do not pickup source jars which are not actually zip files
+693,2018-08-13 00:04:35.000000000,2018-08-13 10:47:21.000000000,closed,2,Usable with non-Android projects?
+692,2018-08-09 11:37:03.000000000,2018-08-21 11:07:07.000000000,closed,0,Add ErrorProne to okbuck
+691,2018-08-09 00:25:54.000000000,2019-02-14 02:15:42.000000000,closed,5,Move metadata generation required for build from okBuck to buck
+690,2018-07-27 00:11:24.000000000,2018-07-27 01:19:20.000000000,closed,1,Fix a NullPointerException happening on the use of ndkCompile.
+689,2018-07-02 12:17:06.000000000,2018-08-16 01:20:41.000000000,closed,3,Output version-less dependencies in BUCK files
+688,2018-06-25 11:08:17.000000000,2018-06-25 19:01:17.000000000,closed,1,No resource found on android support library
+687,2018-06-23 20:05:56.000000000,2018-06-23 20:11:49.000000000,closed,0,Upgrade Gradle and AGP versions
+686,2018-06-20 01:52:49.000000000,2018-06-23 20:11:49.000000000,closed,0,ConcurrentModificationException in OkBuck 0.39.X
+685,2018-06-16 08:03:33.000000000,2018-06-18 19:41:03.000000000,closed,1,android studio can't use cmake
+684,2018-06-16 04:10:31.000000000,2018-06-16 04:17:53.000000000,closed,0,Fix version removal logic to enable kotlin 1.2.50 upgrade
+683,2018-06-13 03:13:59.000000000,2018-09-10 07:17:53.000000000,closed,1,OkBuck generating same rules with difference in deps
+682,2018-06-13 01:26:13.000000000,2018-09-07 01:35:02.000000000,closed,2,implementing equals and hash code for Rule
+681,2018-06-12 15:46:29.000000000,2018-09-10 07:18:09.000000000,closed,1,how to set kapt arguments ?
+680,2018-06-08 00:31:55.000000000,2018-06-08 00:46:06.000000000,closed,0,Fixing bug introduced by pull/678
+679,2018-06-07 01:07:31.000000000,2018-06-07 03:13:59.000000000,closed,1,Does okbuck support instant app projects? (feature modules)
+678,2018-06-06 23:32:49.000000000,2018-06-07 20:25:13.000000000,closed,1,Improved classifier support for generated mvn_coords.
+677,2018-05-31 00:05:23.000000000,2018-05-31 01:04:44.000000000,closed,2,fixing skip check bug
+676,2018-05-30 23:20:42.000000000,2018-05-31 01:04:44.000000000,closed,6,Not running okbuck for mudoles that contains -h in the name
+675,2018-05-28 16:56:56.000000000,2018-05-28 18:24:43.000000000,closed,1,Logo/Icon Proposal
+674,2018-05-26 18:09:06.000000000,2018-08-13 11:04:44.000000000,closed,2,Android manifest xmls with comments cause okbuck to output bad manifest
+673,2018-05-25 15:49:14.000000000,2018-09-10 07:18:39.000000000,closed,3,No build file at common-libs/BUCK when resolving target //common-libs:res_debug.
+672,2018-05-25 06:31:39.000000000,2018-05-25 09:29:04.000000000,closed,1,Error with ./buckw targets: libs must be located inside ...
+671,2018-05-25 06:10:39.000000000,2018-05-25 06:12:34.000000000,closed,2,"Cannot add extension with name 'kotlin', as there is an extension already registered with that name."
+670,2018-05-24 22:19:35.000000000,2018-05-24 22:42:29.000000000,closed,0,Add support for kotlin allopen
+669,2018-05-24 04:21:22.000000000,2018-05-24 04:31:39.000000000,closed,0,Move kotlin compiler options to new infra
+668,2018-05-24 04:10:34.000000000,2018-05-24 04:10:45.000000000,closed,0,Add ability to inject compiler options for different jvm compilers
+667,2018-05-24 03:27:49.000000000,2018-05-24 05:59:46.000000000,closed,3,Error on running `./gradlew :buckWrapper`
+666,2018-05-24 03:22:49.000000000,2018-05-24 03:27:05.000000000,closed,0,Add Builder for Scope
+665,2018-05-23 21:21:21.000000000,2018-05-23 21:29:25.000000000,closed,0,Cleanup IJ inspections and last remaining groovy imports
+664,2018-05-23 21:09:27.000000000,2018-05-23 21:22:26.000000000,closed,0,"Fix kotlin, scala and wrapper extensions initialization."
+663,2018-05-23 20:30:47.000000000,2018-09-07 01:24:33.000000000,closed,6,Building problem in version 0.38.2
+662,2018-05-23 19:42:57.000000000,2018-05-23 21:23:51.000000000,closed,1,Okbuck extensions are not hooked up properly
+661,2018-05-19 03:09:13.000000000,2018-05-19 22:46:53.000000000,closed,1,"Move Dependency cache, buck file generator and gradle plugin to java"
+660,2018-05-18 20:21:22.000000000,2018-05-18 20:24:14.000000000,closed,1,Adding maven coords to java binary
+659,2018-05-17 09:24:56.000000000,2018-05-17 09:25:46.000000000,closed,0,Remove dependency on okio
+658,2018-05-17 08:54:52.000000000,2018-05-17 08:59:12.000000000,closed,0,Convert android composers to java
+657,2018-05-17 06:32:46.000000000,2018-05-17 08:47:52.000000000,closed,0,Move Instrumentation targets and exopackage scope to java
+656,2018-05-16 20:47:01.000000000,2018-05-16 23:05:12.000000000,closed,2,Add GJF code style pre commit hook support.
+655,2018-05-16 12:24:35.000000000,2018-05-17 02:26:45.000000000,closed,0," Move AndroidTarget, AndroidLibTarget & AndroidAppTarget from groovy to java"
+654,2018-05-16 05:18:19.000000000,2018-05-24 22:42:29.000000000,closed,0,Support for allopen in kotlin
+653,2018-05-15 20:20:39.000000000,2019-04-08 16:05:57.000000000,closed,13,Add support for jetifier
+652,2018-05-11 18:54:22.000000000,2018-05-11 19:04:10.000000000,closed,0,Add support to generate maven coordinates for jvm targets
+651,2018-05-11 09:33:26.000000000,2018-05-23 21:32:55.000000000,closed,3,Is data-binding supported for kotlin project?
+650,2018-05-08 09:30:11.000000000,2018-05-08 09:35:37.000000000,closed,0,Remove useAnnotationProcessorPlugin experimental flag
+649,2018-05-07 15:08:58.000000000,2018-05-07 18:33:41.000000000,closed,1,dbflow illegalstateexception
+648,2018-05-05 08:22:44.000000000,2018-05-05 09:03:18.000000000,closed,0,Add maven coords to scala_library.
+647,2018-05-03 01:28:58.000000000,2018-05-03 21:58:46.000000000,closed,1,Populate maven_coords attribute for prebuilt jars and aars in dep cache
+646,2018-05-02 00:45:38.000000000,2018-05-02 02:56:01.000000000,closed,1,Fix lint issue by fixing manifest of cli jar
+645,2018-04-30 18:06:39.000000000,1970-01-01 00:00:00.000000001,open,3,mixed scala + java projects leads to wrong compiler flags
+644,2018-04-30 00:42:23.000000000,1970-01-01 00:00:00.000000001,open,1,Scala compiler options
+643,2018-04-27 23:42:25.000000000,2018-04-28 00:14:44.000000000,closed,1,Kotlin internal keyword on functions breaks compilation
+642,2018-04-27 09:23:41.000000000,2018-05-23 21:34:07.000000000,closed,2,No build file at RNSound/BUCK when resolving target //RNSound:res_debug.
+641,2018-04-27 05:00:32.000000000,2018-04-27 05:05:42.000000000,closed,0,Bump to latest buck version and enable usage of annotation processor plugin
+640,2018-04-27 04:55:40.000000000,2018-04-27 04:59:21.000000000,closed,0,Fix extraBuckOpts to have more generic type.
+639,2018-04-27 04:34:50.000000000,2018-04-27 04:38:22.000000000,closed,1,Use ConcurrentHashMap in annotation processor cache to prevent any race condition
+638,2018-04-27 04:33:00.000000000,2018-04-27 04:40:22.000000000,closed,1,Keep annotation processor plugins rule name’s length small
+637,2018-04-24 01:46:54.000000000,2018-04-24 01:55:09.000000000,closed,0,Fix fetchSources for IntelliJ project.
+636,2018-04-21 12:59:04.000000000,2018-04-24 20:32:32.000000000,closed,1,BuildConfig fields in Annotation fails to parse
+635,2018-04-20 04:09:45.000000000,2018-04-27 04:59:21.000000000,closed,3,extraBuckOpts appears to be broken
+634,2018-04-20 00:23:29.000000000,2018-04-20 00:46:16.000000000,closed,0,Initialize IntelliJ & Experimental extensions with default ones
+633,2018-04-19 06:11:15.000000000,2018-04-20 00:46:15.000000000,closed,8,setupOkbuck NPE no error message
+632,2018-04-19 05:53:46.000000000,2018-04-19 05:55:10.000000000,closed,0,Fix module version computation
+631,2018-04-18 20:14:59.000000000,2018-04-18 20:20:23.000000000,closed,0,Fix issue with functional interface that extends Serializable
+630,2018-04-18 19:05:11.000000000,2018-04-18 20:20:23.000000000,closed,0,Functional interface that extends Serializable causes build to fail when using method reference
+629,2018-04-17 07:16:08.000000000,2018-04-17 09:14:10.000000000,closed,0,Remove classpath macro and make classpath_abi the default
+628,2018-04-17 02:28:45.000000000,2018-04-17 02:31:00.000000000,closed,0,Check for configuration's nullability before returning annotation processor.
+627,2018-04-16 21:15:24.000000000,2018-04-19 03:26:59.000000000,closed,0,Fix ci
+626,2018-04-15 02:22:43.000000000,2018-04-19 08:37:27.000000000,closed,1,Add support for java_annotation_processor rule.
+625,2018-04-11 03:01:13.000000000,2018-04-16 21:16:42.000000000,closed,0,Add classifier to version string when creating external dependency object from an artifact.
+624,2018-04-09 23:03:37.000000000,2018-04-09 23:03:57.000000000,closed,0,Make sdk types a string to allow values like 'P'
+623,2018-04-08 21:15:11.000000000,2018-04-08 21:15:18.000000000,closed,0,Migrate jvm composers to java
+622,2018-04-08 20:51:33.000000000,2018-04-08 20:51:42.000000000,closed,0,Move JavaTarget to JvmTarget
+621,2018-04-08 20:32:26.000000000,2018-04-08 20:32:34.000000000,closed,0,Refactor types and convert to java
+620,2018-04-08 08:06:16.000000000,2018-04-08 08:06:24.000000000,closed,0,Remove default aliases and convert BuckConfigLocalGenerator to java
+619,2018-04-08 07:58:06.000000000,2018-04-08 07:58:22.000000000,closed,0,More conversions to java
+618,2018-04-08 07:36:28.000000000,2018-04-08 07:38:18.000000000,closed,0,Move java files to correct source root and convert Target to java
+617,2018-04-08 01:10:14.000000000,2018-04-09 00:06:38.000000000,closed,1,Only get annotation processor classes from the configuration’s first level dependencies.
+616,2018-04-06 07:02:15.000000000,2018-04-10 01:59:32.000000000,closed,9,Android libraries instrumentation apks
+615,2018-04-05 22:23:35.000000000,2018-04-06 03:32:03.000000000,closed,0, Migrate Scope.groovy to java
+614,2018-04-05 22:16:30.000000000,1970-01-01 00:00:00.000000001,open,21,Databinding Support
+613,2018-04-02 22:08:03.000000000,2018-04-02 22:15:39.000000000,closed,0,Update dependencies to latest
+612,2018-03-30 20:24:14.000000000,2018-03-30 20:39:03.000000000,closed,0,Pickup all resource dirs for java and android targets
+611,2018-03-29 09:18:13.000000000,2020-07-17 04:08:03.000000000,closed,3,Unable to locate jar file from library module
+610,2018-03-28 00:41:23.000000000,2018-03-30 20:39:03.000000000,closed,0,OkBuck does not add resources on android_libraries
+609,2018-03-27 13:51:38.000000000,2018-04-02 20:21:01.000000000,closed,3,OkBuck doesn't generate instrumentation test target
+608,2018-03-23 13:39:37.000000000,1970-01-01 00:00:00.000000001,open,4,Support for the postprocessing dsl in buildtype
+607,2018-03-22 07:24:22.000000000,2018-04-19 10:16:44.000000000,closed,5,Project Structure Issues
+606,2018-03-21 10:09:50.000000000,2018-04-02 20:23:44.000000000,closed,1,No such file or directory: '/Users/ian/.gradle/caches/okbuck/buck/build/buck-info.json'
+605,2018-03-20 21:23:20.000000000,2018-03-20 22:34:42.000000000,closed,1,Using generated apt java code from Kotlin code? 
+604,2018-03-19 20:46:44.000000000,2018-03-30 18:51:51.000000000,closed,3,Enable kapt support
+603,2018-03-17 13:28:06.000000000,2018-05-07 06:44:05.000000000,closed,9,FirebaseApp initialization unsuccessful
+602,2018-03-15 14:12:20.000000000,2018-03-18 12:17:44.000000000,closed,4,Compilation failed to complete: Cannot fit requested classes in a single dex file 
+601,2018-03-14 15:50:35.000000000,2018-04-19 10:06:12.000000000,closed,3,"Failure: ""2 proguard files found. Only one can be used."""
+600,2018-03-13 18:49:17.000000000,2018-03-14 15:43:22.000000000,closed,4,groovy.lang.MissingPropertyException: No such property: ANNOTATION_PROCESSOR_CONFIGURATION_NAME
+599,2018-03-12 00:27:07.000000000,2018-03-12 01:07:18.000000000,closed,3,OkBuck sample app doesn't build
+598,2018-03-07 23:28:10.000000000,2018-11-14 17:05:50.000000000,closed,0,Switch to skylark parsing for okbuck generated BUCK files
+597,2018-03-02 09:48:43.000000000,2018-03-02 10:08:21.000000000,closed,0,Fix usage of classpath abi macro
+596,2018-03-01 08:36:52.000000000,2018-03-01 09:20:29.000000000,closed,0,Update some plugins and use double quotes in all gradle files
+595,2018-03-01 06:22:51.000000000,2018-03-01 06:32:35.000000000,closed,0,Enable lintWithClasspathAbi experimental flag and update buck to latest.
+594,2018-02-28 20:26:42.000000000,2018-02-28 21:23:47.000000000,closed,0,Add circleci
+593,2018-02-28 20:00:33.000000000,2018-02-28 20:24:44.000000000,closed,0,Update gradle to 4.6 and use built in annotationProcessor configuration
+592,2018-02-27 05:05:06.000000000,2018-04-19 10:06:35.000000000,closed,6,Incorrect cached Kotlin library versions
+591,2018-02-27 04:29:09.000000000,2018-03-10 21:21:52.000000000,closed,14,Add apt api/implementation problem sample.
+590,2018-02-23 02:09:51.000000000,2018-03-01 06:09:59.000000000,closed,0,Use classpath_abi macro instead of classpath in lint genrule.
+589,2018-02-20 22:29:04.000000000,2018-02-21 02:16:41.000000000,closed,5,Fix buckBinary configuration name: _ to CamelCase.
+588,2018-02-20 12:49:48.000000000,2018-02-20 21:16:46.000000000,closed,1,Okbuck doesn't prioritize build flavor strings over main strings
+587,2018-02-20 03:43:40.000000000,2018-02-20 05:16:48.000000000,closed,0,Delete unused Printer and FilePrinter.
+586,2018-02-19 22:26:44.000000000,2018-02-19 22:44:04.000000000,closed,1,Fix watchman config default ignores.
+585,2018-02-17 04:07:13.000000000,2018-02-28 20:24:43.000000000,closed,0,Move to gradle 4.6.0
+584,2018-02-15 10:47:54.000000000,2018-05-23 21:23:14.000000000,closed,5,./buckw build <target> failing
+583,2018-02-12 18:04:00.000000000,2018-04-19 10:07:35.000000000,closed,2,"Databinding, Windows"
+582,2018-01-31 13:34:22.000000000,2018-02-01 01:54:03.000000000,closed,1,fix broken buckconfig hyperlink in Usage.md
+581,2018-01-30 21:55:05.000000000,2018-01-30 21:56:48.000000000,closed,0,Buck version directory was incorrect.
+580,2018-01-27 19:41:10.000000000,2018-01-30 23:41:10.000000000,closed,21,'buck targets' failing with error 
+579,2018-01-25 17:17:32.000000000,2018-01-26 15:50:31.000000000,closed,3,Switch okbuck to use prebuilt buck binaries
+578,2018-01-25 15:03:10.000000000,2018-01-25 15:13:11.000000000,closed,0,Update gradle to 4.5 and stop relying on internal logic for sources
+577,2018-01-23 20:23:59.000000000,2018-01-23 20:34:22.000000000,closed,0,Make changing versions dependency check less aggressive
+576,2018-01-20 09:00:11.000000000,2018-01-23 20:34:22.000000000,closed,0,Changing dependencies checking too aggressive
+575,2018-01-16 00:18:46.000000000,2018-01-25 15:35:15.000000000,closed,2,Add better error messages for multiple proguard files
+574,2018-01-15 23:44:39.000000000,2018-01-16 17:38:58.000000000,closed,1,Add better error message when not defining a repositories block.
+573,2018-01-15 22:12:04.000000000,2018-01-26 19:29:48.000000000,closed,0,Fix Travis CI Build
+572,2018-01-13 17:46:27.000000000,2018-01-14 01:24:15.000000000,closed,7,Issue with Okbuck and proguard configuration.
+571,2018-01-12 15:44:09.000000000,2018-01-26 19:43:14.000000000,closed,2,./buckw targets failing
+570,2018-01-11 02:20:05.000000000,2019-01-05 03:33:07.000000000,closed,0,Update ButterKnife from 9.0.0-SNAPSHOT to a stable version.
+569,2018-01-10 22:24:47.000000000,2018-01-26 19:29:48.000000000,closed,6,Travis is failing.
+568,2018-01-10 06:29:31.000000000,2018-02-17 22:27:59.000000000,closed,6,Add support for AGP 3.1.x
+567,2017-12-22 07:07:46.000000000,2018-01-26 19:43:07.000000000,closed,2, Resolving configuration 'debugCompile' directly is not allowed
+566,2017-12-21 06:07:03.000000000,2017-12-22 02:40:04.000000000,closed,0,Added missing dependencies and annotation processor dependencies to exo app lib rule
+565,2017-12-20 23:09:49.000000000,2017-12-20 23:11:53.000000000,closed,0,Update to support robolectric 3.6
+564,2017-12-15 22:57:02.000000000,2017-12-15 22:57:30.000000000,closed,0,Cleanup buckw and make some usability improvements
+563,2017-12-06 03:24:58.000000000,2017-12-06 03:28:14.000000000,closed,3,Bump to kotlin 1.2.0
+562,2017-11-30 12:02:34.000000000,2018-01-26 19:32:26.000000000,closed,3,Getting error while running :buckWrapper task
+561,2017-11-25 01:48:29.000000000,2018-01-26 19:31:53.000000000,closed,4,Update buckw
+560,2017-11-22 11:30:49.000000000,2017-11-22 11:31:57.000000000,closed,0,Move okbuck to generate modern manifest skeleton based android_binary rules
+559,2017-11-22 03:35:09.000000000,2017-11-22 12:11:07.000000000,closed,2,Add dependency to repro d8 desugaring failure
+558,2017-11-21 20:00:48.000000000,2018-01-26 19:32:44.000000000,closed,2,Could not initialize class com.uber.okbuck.core.model.base.TargetCache
+557,2017-11-20 10:40:08.000000000,2017-11-20 10:40:19.000000000,closed,0,Only use apt configuration for java project annotation processors
+556,2017-11-18 07:24:49.000000000,2017-11-18 10:16:30.000000000,closed,0,Use d8 dexer for instrumentation apk.
+555,2017-11-17 22:01:53.000000000,2017-11-17 22:02:09.000000000,closed,0,Move lint error output to stderr
+554,2017-11-17 21:20:16.000000000,2017-11-17 22:02:08.000000000,closed,0,Output lint-results.xml absolute path in final error messages of lint rules
+553,2017-11-17 10:34:46.000000000,2017-11-17 10:34:56.000000000,closed,0,Always use export_file in reference mode in okbuck
+552,2017-11-17 05:00:46.000000000,2017-11-17 05:01:42.000000000,closed,0,Switch to using inbuilt consumer proguard file support in buck
+551,2017-11-12 23:39:44.000000000,2017-11-12 23:40:40.000000000,closed,0,Remove Retrolambda support in favor of D8
+550,2017-10-31 23:45:31.000000000,2017-11-01 03:00:01.000000000,closed,1,Use relative paths for lint runs.
+549,2017-10-31 02:53:53.000000000,2017-10-31 04:00:49.000000000,closed,0,Add option to disable generating build config rules for library modules
+548,2017-10-28 01:54:50.000000000,2017-10-28 21:32:08.000000000,closed,2,[AGP 3.x] Fix collection type from Configuration to String.
+547,2017-10-27 23:15:19.000000000,2017-10-31 02:40:13.000000000,closed,7,Fix Travis CI build.
+546,2017-10-27 22:32:33.000000000,2017-10-28 01:45:54.000000000,closed,0,Fix JarsTransformOutputProviderTest.
+545,2017-10-24 01:38:27.000000000,1970-01-01 00:00:00.000000001,open,0,Enable lints that use project structure and merged manifest
+544,2017-10-21 02:36:00.000000000,2017-10-21 02:55:25.000000000,closed,0,Update Kotlin Android extensions to use the new libraries location
+543,2017-10-21 01:13:06.000000000,2017-10-21 01:14:33.000000000,closed,0,Structure OkBuck's KOTLIN_HOME directory in the format it expects
+542,2017-10-19 20:05:32.000000000,2017-10-19 20:22:37.000000000,closed,0,Greatly simplify transform handling in okbuck
+541,2017-10-19 12:33:38.000000000,2017-10-19 12:34:10.000000000,closed,2,Do not use merged manifest for lint and unit tests
+540,2017-10-18 19:09:08.000000000,2017-10-18 19:09:15.000000000,closed,0,Add option to disable lint/test rules for specific build types/variants
+539,2017-10-17 13:45:55.000000000,2018-01-26 19:32:55.000000000,closed,2,Failing with lots of resource issues - IMPORTANT
+538,2017-10-17 13:05:30.000000000,2018-01-26 19:43:45.000000000,closed,4,Failing when building <targets>
+537,2017-10-14 14:58:40.000000000,2017-10-17 13:51:40.000000000,closed,1,Failing - When running <generate_resource_ids>
+536,2017-10-14 10:27:10.000000000,2017-10-16 15:26:00.000000000,closed,0,NewApi Lint test and bump to 26rc1
+535,2017-10-13 13:26:39.000000000,2017-10-13 13:26:48.000000000,closed,0,Hookup android binary test targets correctly
+534,2017-10-13 10:44:55.000000000,2017-10-13 13:00:38.000000000,closed,4,Failing -- Okbuck(0.28.9) is failing with android plugin 3.0.0-beta6
+533,2017-10-11 02:19:01.000000000,2017-10-11 17:18:26.000000000,closed,1,Fix OkBuck exception when buildscript dependency is Jar
+532,2017-10-10 14:39:37.000000000,2017-10-10 14:40:58.000000000,closed,0,Use aapt2 for okbuck samples
+531,2017-10-10 14:34:17.000000000,2018-04-19 10:13:42.000000000,closed,8,./buckw targets --stacktrace fails with java.lang.NullPointerException (no error message)
+530,2017-10-08 03:48:54.000000000,2017-10-09 16:24:12.000000000,closed,0,Add support for Lint 26.0.0-beta7
+529,2017-10-07 21:56:56.000000000,2017-10-10 23:27:20.000000000,closed,0,Lint targets fail with ClassNotFound using 26.0.0-beta7
+528,2017-10-06 01:55:13.000000000,2017-10-06 02:17:02.000000000,closed,0,Use the 8.0 version of robolectric-all instead of the O preview for API 26
+527,2017-09-28 21:24:41.000000000,2017-09-28 22:27:06.000000000,closed,0,Bump kotlin to 1.1.50
+526,2017-09-28 20:08:23.000000000,2017-09-28 22:27:18.000000000,closed,0,fix javadoc on extraDepCaches
+525,2017-09-21 23:03:04.000000000,2018-01-26 19:42:18.000000000,closed,4,Changes in AndroidManifest.xml not detected
+524,2017-09-19 21:25:48.000000000,2017-09-20 00:12:26.000000000,closed,4,Pass the merged manifest to Robolectric tests for app modules
+523,2017-09-16 00:36:39.000000000,2018-01-26 19:40:48.000000000,closed,5,NullPointerException when running the buck wrapper
+522,2017-09-09 05:20:56.000000000,2017-09-11 22:04:09.000000000,closed,1,Write kotlin compiler arg for experimental kotlin android extensions
+521,2017-09-09 02:57:49.000000000,2017-09-09 03:04:05.000000000,closed,1,Remove target validity check in TransformBuckFile.rocker.raw
+520,2017-09-08 22:49:05.000000000,2017-09-09 03:57:54.000000000,closed,2,Added integration testing for transform integration 
+519,2017-09-06 08:51:35.000000000,2017-09-06 08:51:43.000000000,closed,0,Sort deps in generated BUCK files
+518,2017-09-06 00:10:49.000000000,2017-09-06 00:55:03.000000000,closed,0,"Remove ',' after alias value in buckconfig template."
+517,2017-09-02 20:55:28.000000000,2017-09-02 20:57:26.000000000,closed,0,Add custom defs for aidl rules to simplify generated BUCK files
+516,2017-09-02 02:09:36.000000000,2017-09-02 02:17:24.000000000,closed,0,Do not consider java files for scala modules
+515,2017-09-02 01:55:25.000000000,2017-09-02 02:17:24.000000000,closed,0,Mixing Scala and Java in same project results in compilation failure
+514,2017-09-02 01:43:49.000000000,2017-09-02 02:28:29.000000000,closed,0,Convert all buck rules to templates
+513,2017-09-01 07:19:40.000000000,2017-09-01 07:48:58.000000000,closed,0,Begin migrating buck file generation to template engine
+512,2017-08-30 03:52:42.000000000,2017-08-30 04:23:48.000000000,closed,0,Add Robolectric support for API 26
+511,2017-08-29 02:13:38.000000000,2017-08-29 02:35:13.000000000,closed,0,Add support for proguard mapping files
+510,2017-08-28 21:55:45.000000000,2017-08-29 02:35:13.000000000,closed,0,Support for Custom Proguard Mapping
+509,2017-08-28 19:54:13.000000000,2017-09-05 20:10:52.000000000,closed,0,Use a templating engine to output rules instead of writing directly
+508,2017-08-24 21:24:22.000000000,2017-09-16 00:32:12.000000000,closed,8,Error when generating the buck wrapper
+507,2017-08-22 13:11:15.000000000,2018-01-26 19:33:07.000000000,closed,10,"When adding an Kotlin external library dependency, okbuck build fails."
+506,2017-08-18 06:14:49.000000000,2017-08-18 08:18:58.000000000,closed,1,Add sample custom view
+505,2017-08-15 02:24:30.000000000,2017-08-15 03:41:25.000000000,closed,0,Modify lint to not hit os limits of maximum argument length
+504,2017-08-12 04:36:44.000000000,2018-01-26 19:45:00.000000000,closed,1,Don't set resource path in generated BUCK file when resources folder doesn't exist
+503,2017-08-11 20:15:10.000000000,2018-04-19 10:15:21.000000000,closed,1,Move okbuck to moden java_annotaion_processor format
+502,2017-08-10 07:36:37.000000000,2018-02-20 21:19:43.000000000,closed,17,Support for Android Gradle Plugin 3.x
+501,2017-08-10 03:54:52.000000000,2018-01-26 19:39:49.000000000,closed,1,Unable to pass custom AST library to lint .
+500,2017-08-08 03:56:33.000000000,2017-08-08 04:10:35.000000000,closed,0,Fix some inspections
+499,2017-08-08 02:43:41.000000000,2017-08-08 03:38:46.000000000,closed,1,Fix retrolambda
+498,2017-08-07 04:17:51.000000000,2017-08-07 04:31:21.000000000,closed,0,Create dependency cache symlinks during cleanup phase
+497,2017-08-05 01:37:53.000000000,2017-08-07 04:31:21.000000000,closed,1,Duplicated retrolambda symlinks in okbuck cache
+496,2017-08-04 05:00:23.000000000,2017-08-04 06:24:49.000000000,closed,0,Cleanup some code and use immutables
+495,2017-08-04 01:35:19.000000000,2017-08-04 01:41:16.000000000,closed,0,Add unbundled resources root option to java based rules
+494,2017-08-04 00:48:59.000000000,2017-08-04 01:16:34.000000000,closed,0,Add compile classpath to the lint --libraries flag by default
+493,2017-08-03 23:49:50.000000000,2017-08-04 01:16:34.000000000,closed,0,buckLintLibrary is too restrictive
+492,2017-08-03 09:11:52.000000000,2018-01-26 19:34:24.000000000,closed,3,App not able to run in emulator although installed successfully.
+491,2017-08-03 00:45:17.000000000,2017-08-03 02:01:53.000000000,closed,0,Force Scope creation to be done only once and remove duplicate external deps
+490,2017-08-02 03:03:19.000000000,2017-08-02 03:55:35.000000000,closed,0,Add alternative approach to deal with dependency conflicts in android apps
+489,2017-08-01 05:30:35.000000000,2017-08-01 19:13:52.000000000,closed,1,Broken test dependency resolution on OkBuck v0.24.0.
+488,2017-08-01 05:26:36.000000000,2017-08-01 19:13:41.000000000,closed,2,Broken test dependency resolution
+487,2017-07-31 23:50:16.000000000,2017-08-01 06:37:35.000000000,closed,0,"Fix ""SUCCESFULLY"" typo in buckw update message."
+486,2017-07-31 23:50:01.000000000,2017-08-01 19:26:38.000000000,closed,1,buckw ignores git errors during Buck update
+485,2017-07-31 23:42:37.000000000,2017-08-01 06:37:14.000000000,closed,0,"Use ""-local"" as version for local dependencies."
+484,2017-07-31 21:36:35.000000000,2018-04-19 10:14:12.000000000,closed,1,Add tests for Store
+483,2017-07-30 21:10:49.000000000,2017-07-30 21:11:39.000000000,closed,0,Switch to using okio for writing to BUCK files
+482,2017-07-30 00:53:30.000000000,2017-07-30 07:41:09.000000000,closed,0,Overhaul Dependency Caching
+481,2017-07-28 02:48:31.000000000,2017-08-31 23:46:42.000000000,closed,3,Generate kotlinc plugin options for Kotlin Android Extensions
+480,2017-07-24 07:25:26.000000000,2017-07-25 06:55:34.000000000,closed,2,No value has been specified for property 'mainClassName'.
+479,2017-07-21 01:57:25.000000000,2017-07-21 05:58:08.000000000,closed,9,Fix DependencyCache.fetchSourcesFor() performance regression and incorrect sources jar search logic.
+478,2017-07-20 13:21:57.000000000,2017-07-25 06:56:45.000000000,closed,1,proguard -applymapping 
+477,2017-07-20 07:15:24.000000000,2017-07-25 06:58:40.000000000,closed,2,how to force use custom progurad tool
+476,2017-07-20 02:37:14.000000000,2017-07-20 02:54:23.000000000,closed,0,Make application plugin support universal
+475,2017-07-19 19:24:04.000000000,2017-07-20 02:06:41.000000000,closed,0,Add support for Scala libraries and tests
+474,2017-07-19 06:45:21.000000000,2017-08-04 08:44:48.000000000,closed,3,"error deal with debugCompile and releaseCompile by ""gradle okbuck -Dobuck.wrapper=true""?"
+473,2017-07-19 03:01:43.000000000,2017-07-21 05:58:08.000000000,closed,14,:setupOkbuck execution time regression (sometimes it takes 1m+)
+472,2017-07-15 08:05:48.000000000,1970-01-01 00:00:00.000000001,open,3,Windows Support
+471,2017-07-13 21:42:58.000000000,2017-07-13 21:51:44.000000000,closed,0,Set WORKING_DIR to the location of the buck wrapper.
+470,2017-07-12 02:52:21.000000000,2017-07-15 08:04:35.000000000,closed,2,Skip OkBuck if we just want to run buck options.
+469,2017-07-10 21:25:52.000000000,2017-07-10 21:44:38.000000000,closed,0,Add logic to buckw to update buck and build it if needed
+468,2017-07-08 02:43:21.000000000,2017-07-10 21:44:38.000000000,closed,0,Can't run basic android project
+467,2017-07-01 16:04:49.000000000,2017-07-15 08:05:26.000000000,closed,2,How to resolve InvalidVirtualFileAccessException?
+466,2017-06-30 02:47:15.000000000,2017-06-30 02:54:23.000000000,closed,0,Allow transform config to accept project dependencies
+465,2017-06-29 10:33:19.000000000,2017-06-29 21:13:11.000000000,closed,1,Could not resolve all artifacts for configuration ':proguardDepCache'.
+464,2017-06-28 01:02:54.000000000,2017-06-28 02:11:21.000000000,closed,1,Setup Kotlin home whenever the kotlin gradle plugin is on the classpath.
+463,2017-06-27 14:16:08.000000000,2017-07-15 08:06:24.000000000,closed,4,okbuck can run in windows?
+462,2017-06-26 08:38:13.000000000,2017-06-26 08:45:44.000000000,closed,0,Update several dependencies to latest
+461,2017-06-23 08:47:27.000000000,2017-06-23 18:53:20.000000000,closed,0,Add support for mixed kotlin and java in regular kotlin modules.
+460,2017-06-23 06:35:23.000000000,2017-06-23 06:35:45.000000000,closed,0,"Update kotlin, gradle and buck versions"
+459,2017-06-23 05:41:06.000000000,2017-06-23 05:54:20.000000000,closed,0,Add kotlin android integration test and fixup source detection
+458,2017-06-23 04:18:03.000000000,2017-06-23 04:25:15.000000000,closed,0,Kotlin Android Support
+457,2017-06-23 03:01:42.000000000,2017-06-23 03:12:59.000000000,closed,0,Use more abstractions
+456,2017-06-23 02:12:47.000000000,2017-06-23 02:35:38.000000000,closed,0,Prefer abstractions over implementations for upcoming kotlin refactors
+455,2017-06-23 01:05:49.000000000,2017-06-23 01:08:49.000000000,closed,0,Add option to exclude some resources from aapt
+454,2017-06-20 02:39:45.000000000,2017-06-20 21:41:35.000000000,closed,0,Bump to gradle 4.0 stable.
+453,2017-06-08 11:42:32.000000000,2017-06-26 14:50:41.000000000,closed,3,PluginApplicationException: Failed to apply plugin [id 'com.uber.okbuck']
+452,2017-06-08 05:25:53.000000000,2018-01-26 19:33:33.000000000,closed,2,Having a local classpath fails buckWrapper task
+451,2017-06-03 01:59:54.000000000,2017-06-03 02:16:26.000000000,closed,0,Change how dependencies are resolved in preparation for Android Gradle Plugin 3.x
+450,2017-05-26 22:27:25.000000000,2017-06-06 01:19:33.000000000,closed,2,Migrate to kotlin in memory compiler support in buck
+449,2017-05-26 04:04:23.000000000,2017-05-31 03:51:31.000000000,closed,0,Switch the ordering of build config fields.
+448,2017-05-25 05:28:05.000000000,2017-05-25 21:42:09.000000000,closed,1,Fix tools namespace in merged manifest
+447,2017-05-24 05:26:49.000000000,2017-05-24 06:54:43.000000000,closed,1,Do not allow snapshot/dynamic dependencies in okbuck
+446,2017-05-18 21:17:29.000000000,2017-06-20 23:19:29.000000000,closed,0,Add okbuck support for kotlin android library modules.
+445,2017-05-18 08:45:57.000000000,2017-05-25 01:19:10.000000000,closed,2,Preserve tools:overrideLibrary in <uses-sdk>
+444,2017-05-16 17:55:05.000000000,2017-06-26 08:58:12.000000000,closed,2,Issue with resources using okbuck
+443,2017-05-11 02:12:29.000000000,2017-05-11 02:37:54.000000000,closed,2,Dependency versions need to be scoped by configuration
+442,2017-05-09 14:49:37.000000000,2017-05-10 09:37:19.000000000,closed,2,ValueError: No JSON object could be decoded ater running any command
+441,2017-05-05 20:59:59.000000000,2017-05-05 21:07:12.000000000,closed,1,Move generate dotbuckconfig local in to its own task.
+440,2017-05-05 14:07:21.000000000,2017-05-11 02:52:32.000000000,closed,10,error: Error: String types not allowed (at 'versionCode' with value 'null')
+439,2017-05-05 07:20:42.000000000,2017-06-30 02:53:55.000000000,closed,0,Remove unused parameters and clean up some code.
+438,2017-05-04 06:48:41.000000000,2017-05-04 21:21:14.000000000,closed,1,Add empty resource rule if using resource union.
+437,2017-05-04 06:02:47.000000000,2017-05-05 02:42:03.000000000,closed,2,Use stream instead of parallelStream
+436,2017-04-28 10:14:55.000000000,2017-05-03 10:58:22.000000000,closed,0,Move okbuck task to its own gradle task class.
+435,2017-04-28 03:28:22.000000000,2017-04-28 03:37:47.000000000,closed,2,README fixed
+434,2017-04-28 03:20:36.000000000,2017-04-28 03:31:01.000000000,closed,3,`brew install android-ndk` no longer works.
+433,2017-04-26 20:03:16.000000000,2017-04-27 00:51:28.000000000,closed,1,Do not allow okbuck to be run without okbuck.wrapper set to true.
+432,2017-04-26 20:02:54.000000000,2017-05-02 06:24:55.000000000,closed,3,Use try-with-resources
+431,2017-04-26 20:02:31.000000000,2017-04-26 20:31:55.000000000,closed,0,Set descriptions in tasks class instead of when creating them.
+430,2017-04-26 01:40:07.000000000,2017-04-26 01:41:33.000000000,closed,0,Move cleaning the .okbuck/gen folder to the first step of setupOkbuck.
+429,2017-04-25 02:52:45.000000000,2017-04-25 03:33:48.000000000,closed,1,Running okbuck tasks without the wrapper leads to inconsistent builds.
+428,2017-04-22 14:06:14.000000000,2017-04-25 03:34:40.000000000,closed,4,OkBuck and Android Studio
+427,2017-04-22 12:31:25.000000000,2017-04-23 01:39:44.000000000,closed,2,Add support for downloading 22-25 API robolectric runtime dependencies.
+426,2017-04-19 03:49:26.000000000,2017-04-19 10:50:15.000000000,closed,0,Add option to easily publish to maven repo
+425,2017-04-18 19:46:28.000000000,2017-04-20 10:03:01.000000000,closed,3,Skip okbuck if we just want to kill the buck daemon.
+424,2017-04-18 01:44:42.000000000,2017-04-26 01:41:57.000000000,closed,4,Support invoking okbuck from a different directory
+423,2017-04-17 10:07:31.000000000,2017-04-17 10:10:30.000000000,closed,0,Do not scan for sources for gradle api jars
+422,2017-04-14 04:41:38.000000000,2017-04-15 04:21:18.000000000,closed,0,Fixed transform and added possibility to inject new jars on the fly
+421,2017-04-12 16:39:24.000000000,2017-04-17 20:47:59.000000000,closed,4,Updated readme with the new android-ndk location
+420,2017-04-08 11:06:45.000000000,2017-04-08 20:00:50.000000000,closed,0,Use sourceSets to get sources of JavaTarget
+419,2017-04-07 10:12:27.000000000,2017-04-11 06:09:55.000000000,closed,2,Move generated files out of project build directories
+418,2017-04-04 15:39:26.000000000,2017-04-04 20:47:16.000000000,closed,2,DexGuard integration?
+417,2017-04-01 02:14:02.000000000,2017-04-01 22:47:30.000000000,closed,1,Bump AGP version to 2.3.0 stable and Gradle to 3.4.1
+416,2017-03-30 01:54:48.000000000,2017-03-30 04:36:08.000000000,closed,2,Fix .okbuck folder generation
+415,2017-03-28 03:14:08.000000000,2017-03-28 04:50:24.000000000,closed,1,2017
+414,2017-03-25 02:22:41.000000000,2017-03-25 02:44:33.000000000,closed,0,Only put valid projects in the state file for okbuckclean.
+413,2017-03-22 09:10:16.000000000,2017-03-23 07:05:35.000000000,closed,5, Cannot get property 'abiFilters' on null object
+412,2017-03-20 19:39:18.000000000,2017-03-20 21:45:03.000000000,closed,3,Must set ANDROID_SDK to point to the absolute path of your Android SDK directory
+411,2017-03-18 04:28:08.000000000,2017-03-18 04:33:08.000000000,closed,0,Add support for creating extra dependency caches
+410,2017-03-15 19:12:52.000000000,2017-05-04 22:34:33.000000000,closed,3,Mockito does not work with Android-related classes
+409,2017-03-06 21:19:30.000000000,2017-03-11 12:38:43.000000000,closed,14,Compiler exception when using lambda in a unit test
+408,2017-03-04 07:53:51.000000000,2017-03-08 04:42:04.000000000,closed,1,Keep cache of generated BUCK files path to improve buck file deletion.
+407,2017-03-03 15:06:04.000000000,2017-03-07 01:58:40.000000000,closed,9,Symlinks to first party Android Support Lib sources jars are incorrect
+406,2017-03-03 02:50:36.000000000,2017-03-03 03:12:07.000000000,closed,1,Using applicationId on instrumentation tests fails compilation
+405,2017-03-02 12:19:44.000000000,2017-03-03 17:47:05.000000000,closed,3,Too many field references: 65874; max is 65536. Too many classes to fit in one dex file.
+404,2017-03-02 07:25:48.000000000,2017-03-03 03:12:19.000000000,closed,2,Add applicationId placeholder to androidTest manifest
+403,2017-02-28 06:31:30.000000000,2017-02-28 06:46:53.000000000,closed,0,Add ability to translate test environment
+402,2017-02-22 21:09:04.000000000,2017-02-23 01:49:21.000000000,closed,3,dimen values
+401,2017-02-22 13:56:32.000000000,2017-02-22 23:18:15.000000000,closed,4,Preliminary Kotlin Support
+400,2017-02-22 13:54:10.000000000,2018-04-13 03:54:06.000000000,closed,13,Kotlin Support Tracker
+399,2017-02-21 07:03:39.000000000,2017-02-22 10:51:15.000000000,closed,9,res cannot coerce
+398,2017-02-20 13:50:39.000000000,2017-02-22 14:28:57.000000000,closed,2,Okbuck Fails to build drawable-xxx in R.java
+397,2017-02-17 14:09:29.000000000,2017-02-22 10:51:33.000000000,closed,1,Android resource error
+396,2017-02-16 02:12:07.000000000,2017-02-16 10:09:23.000000000,closed,0,error: cannot find symbol public class MyApplication extends ExopackageApplication 
+395,2017-02-14 06:02:54.000000000,2017-02-15 03:16:51.000000000,closed,1,Excluded module is being referenced in the cache
+394,2017-02-14 04:26:36.000000000,2017-02-14 04:58:36.000000000,closed,3,Don't ignore the .okbuck folder in watchman
+393,2017-02-10 11:53:34.000000000,2017-02-11 04:33:56.000000000,closed,1,Possible ordering issue in merging main and flavor resources
+392,2017-02-10 11:38:08.000000000,2017-02-10 11:47:53.000000000,closed,0,Fix wrapper to have correct delimiter
+391,2017-02-10 10:30:58.000000000,2017-02-10 11:47:53.000000000,closed,4,buckw fails to run watchman
+390,2017-02-10 07:21:16.000000000,2017-02-10 08:16:16.000000000,closed,0,Cleanup debug logging
+389,2017-02-10 07:15:49.000000000,2017-02-10 07:16:04.000000000,closed,0,Merge remote-tracking branch 'uber/master'
+388,2017-02-10 04:15:16.000000000,2017-02-10 04:28:51.000000000,closed,0,Add support for classifiers in external dependencies
+387,2017-02-10 03:34:54.000000000,2017-02-10 03:47:14.000000000,closed,1,Fix file copy issues
+386,2017-02-09 12:32:37.000000000,2017-02-10 03:47:14.000000000,closed,1,Subsequent builds fail when using a signingConfig
+385,2017-02-09 08:21:13.000000000,2017-02-10 01:58:09.000000000,closed,2,Test annotationProcessor dependencies aren't added properly in 17.1
+384,2017-02-09 07:56:38.000000000,2017-02-10 02:25:51.000000000,closed,10,My debug build type fails with an OOM while dexing
+383,2017-02-08 14:10:13.000000000,2017-02-09 07:25:33.000000000,closed,2,"run ""./gradlew targets"" show error"
+382,2017-02-03 09:11:44.000000000,2017-02-10 04:15:35.000000000,closed,3,Issue #375 - Add jar classifiers to the dependency cache.
+381,2017-02-02 19:38:30.000000000,2017-02-03 21:02:10.000000000,closed,4,buckWrapper crashes on first run
+380,2017-02-02 19:30:06.000000000,2017-02-10 04:26:41.000000000,closed,4,buckw crashes if gradlew isn't found
+379,2017-02-01 14:28:13.000000000,2017-02-02 04:29:49.000000000,closed,1,Support archivesBaseName
+378,2017-02-01 14:24:29.000000000,2020-07-12 15:21:30.000000000,closed,11,OkBuck and Crashlytics don't play well together
+377,2017-02-01 12:25:48.000000000,2017-02-02 23:17:59.000000000,closed,5,Buck parsing files taking too long
+376,2017-02-01 10:27:11.000000000,2017-02-02 23:19:21.000000000,closed,2,Minor issue when parsing strings.xml files
+375,2017-02-01 01:36:40.000000000,2017-02-10 04:28:51.000000000,closed,1,OkBuck generates incorrect Buck file with test artifact
+374,2017-01-31 12:32:39.000000000,2017-01-31 12:49:28.000000000,closed,0,Cleanup transform cli client
+373,2017-01-31 01:30:04.000000000,2017-01-31 08:28:33.000000000,closed,0,Added transform-cli module to support gradle transforms in okbuck
+372,2017-01-30 17:36:13.000000000,2017-04-25 03:48:43.000000000,closed,5,Consider updating Robolectric to 3.3.1
+371,2017-01-30 17:18:44.000000000,2017-02-01 23:32:28.000000000,closed,1,Windows support?
+370,2017-01-30 02:54:08.000000000,2017-01-30 02:55:23.000000000,closed,0,Support adding custom buck include_defs via okbuck
+369,2017-01-29 23:46:10.000000000,2017-01-29 23:59:21.000000000,closed,0,Use same proguard jar as the android gradle plugin in buck
+368,2017-01-29 22:33:51.000000000,2017-01-29 22:57:09.000000000,closed,6,element value must be a constant expression when using ButterKnife
+367,2017-01-29 22:00:38.000000000,2017-01-29 23:52:27.000000000,closed,3,Added Android shortcuts to example projects
+366,2017-01-29 08:35:38.000000000,2017-01-29 09:13:59.000000000,closed,0,Only resolve subset of useful configurations during okbuck
+365,2017-01-29 07:46:44.000000000,2017-01-29 08:31:08.000000000,closed,0,Better isolation of apt and provided dependencies across targets
+364,2017-01-29 04:58:12.000000000,2017-01-30 00:45:38.000000000,closed,1,Trying to merge incompatible /manifest/application/activity[@name=cat.ereza.customactivityoncrash.activity.DefaultErrorActivity] 
+363,2017-01-28 16:40:30.000000000,2017-01-29 23:59:21.000000000,closed,4,"Can't read [/sdk/platforms/android-25/android.jar] (Can't process class [java/text/CollationElementIterator.class] (Unsupported class version number [52.0] (maximum 51.0, Java 1.7)))"
+362,2017-01-28 16:28:48.000000000,2017-01-29 09:13:59.000000000,closed,0,Add ability to only resolve a subset of configurations during okbuck
+361,2017-01-28 12:45:29.000000000,2017-01-28 13:44:07.000000000,closed,1,Add ability to reference resources between main and flavor res directories
+360,2017-01-27 18:34:19.000000000,2017-01-30 14:26:30.000000000,closed,6,OkBuck is executing Dagger on tests even if it wasn't told to do so
+359,2017-01-27 14:33:09.000000000,2017-01-28 04:18:42.000000000,closed,0,Better watchman queries in the wrapper
+358,2017-01-27 07:08:21.000000000,2017-08-15 04:37:48.000000000,closed,6,Test case for lint PSI checks not running with Buck
+357,2017-01-27 02:38:00.000000000,2017-01-27 03:37:52.000000000,closed,1,Do not create robolectric_test rules for instrumentation source sets
+356,2017-01-26 16:25:44.000000000,2017-01-30 00:47:11.000000000,closed,3,Some dependencies  don't resolve 
+355,2017-01-26 02:53:15.000000000,2017-01-26 03:05:37.000000000,closed,1,Fix a couple of bugs
+354,2017-01-26 01:03:07.000000000,2017-01-26 03:05:37.000000000,closed,14,'moduleVersion' on null object
+353,2017-01-25 12:06:03.000000000,2017-01-31 08:28:33.000000000,closed,0,Gradle Transform API support
+352,2017-01-25 11:42:27.000000000,2017-01-25 12:01:24.000000000,closed,8,Add ability to add lint libraries to genrules
+351,2017-01-24 15:33:16.000000000,2017-01-24 15:48:11.000000000,closed,0,Make sure symlinks are created correctly
+350,2017-01-24 14:55:56.000000000,2017-01-24 15:16:47.000000000,closed,0,Reduce the number of manifest merger invocations
+349,2017-01-24 12:10:37.000000000,2017-01-24 12:23:40.000000000,closed,0,Create symbolic links for dependency cache artifacts
+348,2017-01-24 06:16:50.000000000,2017-01-25 05:23:58.000000000,closed,1,Adding tests for buck lint.
+347,2017-01-24 05:23:34.000000000,2017-01-24 05:36:56.000000000,closed,4,Submodule dependency
+346,2017-01-23 15:46:11.000000000,2017-01-25 12:04:32.000000000,closed,3,App crashes on startup if built with buck and not with gradle
+345,2017-01-22 21:26:39.000000000,2017-01-24 11:02:37.000000000,closed,1,Not able to make build after ./gradlew clean
+344,2017-01-20 05:52:15.000000000,2017-01-20 06:02:30.000000000,closed,6,Does applying the plugin override the android gradle plugin version?
+343,2017-01-20 05:26:17.000000000,2017-01-24 11:03:31.000000000,closed,2,CHANGELOG.md is not being updated?
+342,2017-01-19 22:37:17.000000000,2017-01-20 01:55:56.000000000,closed,10,NullPointerException: Unknown platform type ARMV7
+341,2017-01-19 14:33:14.000000000,2017-01-20 06:02:44.000000000,closed,0,Create aidl rules per source directory
+340,2017-01-19 12:32:07.000000000,2017-01-25 11:45:36.000000000,closed,2,Add an integration test for custom lint rule modules
+339,2017-01-19 12:24:03.000000000,2017-01-19 12:36:22.000000000,closed,1,Fix regression with target deps not being picked up from buckLint configurations
+338,2017-01-19 11:49:10.000000000,2017-01-19 12:04:58.000000000,closed,1,Add project dependencies to annotation processor deps
+337,2017-01-19 07:01:36.000000000,2017-01-19 12:04:58.000000000,closed,0,Need an option to add local project dependencies to annotation processor classpath
+336,2017-01-18 02:47:42.000000000,2017-01-18 03:03:41.000000000,closed,0,Convert more classes to Java 8
+335,2017-01-16 20:30:51.000000000,2017-01-28 23:14:03.000000000,closed,10,java.lang.RuntimeException: Failed to backport class: com/myapp/android/rx/RxLogger
+334,2017-01-14 19:17:34.000000000,2017-01-24 11:04:30.000000000,closed,9,buckw test - does not run tests
+333,2017-01-14 08:27:46.000000000,2017-01-14 08:51:35.000000000,closed,0,Move more classes to java 8
+332,2017-01-14 05:47:44.000000000,2017-01-20 06:02:44.000000000,closed,9,Product flavor with duplicate exportedDeps
+331,2017-01-14 05:32:59.000000000,2017-01-14 06:18:02.000000000,closed,0,Move extensions and tasks into java 8
+330,2017-01-14 00:50:08.000000000,2017-01-14 04:30:00.000000000,closed,0,Move util classes to java 8
+329,2017-01-14 00:49:12.000000000,2018-05-19 22:46:53.000000000,closed,1,Migrate Plugin source to Java 8
+328,2017-01-13 18:51:10.000000000,2017-01-14 00:54:06.000000000,closed,1,Which Plugin should I use?
+327,2017-01-13 18:13:21.000000000,2017-01-25 12:05:14.000000000,closed,2,Main manifest has <uses-sdk android:targetSdkVersion='23'> but library uses targetSdkVersion='24'
+326,2017-01-13 06:55:24.000000000,2017-01-18 07:27:27.000000000,closed,6,ConcurrentModificationException with Gradle 3.3
+325,2017-01-13 05:44:28.000000000,2017-01-13 06:17:35.000000000,closed,1,Fix memory leak when using the gradle daemon
+324,2017-01-13 05:25:39.000000000,2017-01-13 06:08:22.000000000,closed,0,Don't pass default values to Map.get to prevent map mutation.
+323,2017-01-13 02:46:53.000000000,2017-06-20 02:20:19.000000000,closed,11,Kotlin support
+322,2017-01-11 15:00:43.000000000,2020-07-14 21:14:52.000000000,closed,13,Configuration with name 'buckLint_deps' not found.
+321,2017-01-11 14:28:02.000000000,2017-01-11 14:40:45.000000000,closed,0,Update gradle and android gradle plugin versions
+320,2017-01-11 07:11:05.000000000,2017-01-11 21:00:41.000000000,closed,5,Invalid lint jar version: null
+319,2017-01-11 00:35:02.000000000,2017-01-13 04:48:49.000000000,closed,2,Failed to notify build listener
+318,2017-01-10 01:07:14.000000000,2017-01-10 03:20:30.000000000,closed,2,"""Resources not found"" for `src/debug` code referencing `src/main` resources"
+317,2017-01-08 01:59:16.000000000,2017-01-08 12:51:30.000000000,closed,4,BUILD FAILED: Must set ANDROID_SDK
+316,2017-01-07 07:06:39.000000000,2017-01-25 11:45:10.000000000,closed,9,Add extension to specify lint libraries.
+315,2017-01-07 05:14:30.000000000,2017-01-07 06:10:58.000000000,closed,0,Break apart provided and apt scopes
+314,2017-01-06 12:30:03.000000000,2017-01-06 20:36:17.000000000,closed,2,Building fails if a library does not contain a `res` folder
+313,2017-01-05 09:37:04.000000000,2017-01-05 22:19:54.000000000,closed,2,Example of okbuck failing when Java implementation for class declared in .aidl files is provided.
+312,2017-01-05 05:02:30.000000000,2017-01-05 07:51:33.000000000,closed,3,Fix NDK environment variable name
+311,2017-01-05 04:51:19.000000000,2017-01-05 05:13:21.000000000,closed,0,Ensure AutoValue compiles in gradle builds
+310,2017-01-05 03:51:04.000000000,2017-06-30 02:54:42.000000000,closed,2,Example of custom Application class not being created when using buck
+309,2017-01-04 23:27:56.000000000,2017-01-05 02:05:12.000000000,closed,0,Fix an NPE when trying to add a project based dependency
+308,2017-01-04 04:57:15.000000000,2017-01-04 05:08:02.000000000,closed,0,Move features out of experimental
+307,2017-01-04 02:45:56.000000000,2017-01-05 02:05:12.000000000,closed,10,NullPointerException: Cannot get property 'project' on null object when running gradle okbuck
+306,2017-01-03 19:49:00.000000000,2017-01-05 02:23:31.000000000,closed,5,Package not found when use buildConfigField of enum type
+305,2017-01-01 18:42:50.000000000,2020-07-14 20:55:49.000000000,closed,16,Issue with OkBuck + Realm
+304,2016-12-24 21:12:30.000000000,2016-12-25 06:22:40.000000000,closed,3,MultiDex Issue
+303,2016-12-24 07:38:47.000000000,2017-01-30 00:48:23.000000000,closed,2,Execution failed for task ':buildDepCache'
+302,2016-12-23 13:42:05.000000000,2017-01-28 04:18:42.000000000,closed,14,watchman query fail
+301,2016-12-23 06:19:25.000000000,2016-12-23 06:21:35.000000000,closed,1,OkBuck should include lint sources
+300,2016-12-23 03:59:38.000000000,2016-12-23 04:34:16.000000000,closed,0,Surround `blacklist` property of java lib in a glob.
+299,2016-12-22 14:06:23.000000000,2016-12-22 14:18:56.000000000,closed,0,Better groovy support
+298,2016-12-22 07:37:12.000000000,2016-12-22 12:22:24.000000000,closed,0,Build updates
+297,2016-12-21 02:01:53.000000000,2016-12-21 02:32:50.000000000,closed,1,JavaLibTarget srcs
+296,2016-12-20 12:29:15.000000000,2016-12-20 14:29:41.000000000,closed,4,Not support custom projectDir
+295,2016-12-19 17:42:40.000000000,2016-12-20 02:34:27.000000000,closed,2,No R2 class for dealing with ButterKnife
+294,2016-12-18 08:27:20.000000000,2016-12-18 08:39:39.000000000,closed,0,Some buck wrapper cleanups
+293,2016-12-18 07:33:30.000000000,2016-12-18 07:47:26.000000000,closed,0,Cache computed targets of a project
+292,2016-12-17 19:16:35.000000000,2017-01-05 03:33:34.000000000,closed,7,Unable to find method (Gradle)
+291,2016-12-17 04:58:40.000000000,2016-12-17 05:34:59.000000000,closed,0,Add default configuration artifact file if external target resolves to a project dependency.
+290,2016-12-17 04:07:04.000000000,2016-12-18 07:47:26.000000000,closed,0,Create a Target Cache to keep track of existing instantiated target.
+289,2016-12-16 00:43:21.000000000,2017-01-07 03:41:10.000000000,closed,1,Add genrule support for running infer.
+288,2016-12-16 00:02:51.000000000,2016-12-16 00:15:19.000000000,closed,0,Add a check to fail build on invalid local dependencies
+287,2016-12-15 07:15:34.000000000,2016-12-15 07:28:05.000000000,closed,0,Fix regression during refactor
+286,2016-12-15 00:45:57.000000000,2016-12-15 07:09:50.000000000,closed,0,Populate projectDeps in dependency cache with all the subprojects.
+285,2016-12-14 20:36:54.000000000,2016-12-14 22:25:31.000000000,closed,0,Correctly resolve to the project dependency if both project & it's artifact are present.
+284,2016-12-14 14:19:32.000000000,2016-12-14 14:29:18.000000000,closed,0,Do not add empty list of annotation processors
+283,2016-12-14 05:49:02.000000000,2016-12-14 10:12:42.000000000,closed,0,Update android gradle plugin and buck versions
+282,2016-12-14 04:04:19.000000000,2016-12-14 04:24:12.000000000,closed,0,Improved Annotation Processor resolution
+281,2016-12-13 14:05:02.000000000,2016-12-13 14:18:59.000000000,closed,0,Cleanup scope resolution for better performance
+280,2016-12-13 11:53:20.000000000,2016-12-13 12:44:41.000000000,closed,0,Remove apt args for groovy rules
+279,2016-12-13 11:01:36.000000000,2016-12-13 11:24:50.000000000,closed,0,Cleanup old files in dependency cache
+278,2016-12-13 01:44:06.000000000,2018-05-23 21:34:52.000000000,closed,1,Explore offloading tasks from okBuck to Buck.
+277,2016-12-13 01:41:32.000000000,2018-01-26 19:38:53.000000000,closed,2,Explore making changes to rule `deps` to only add direct dependencies.
+276,2016-12-12 21:51:36.000000000,2018-01-26 21:12:19.000000000,closed,1,Explore usage of DEFS file to reduce generated boilerplate duplication
+275,2016-12-12 21:48:10.000000000,2016-12-18 07:49:46.000000000,closed,1,Consider resolving multiple configurations of a project in paralle/as single configuration
+274,2016-12-12 21:45:36.000000000,2016-12-18 08:09:24.000000000,closed,2,Pre-extract jar/aar files to improve okbuck performance
+273,2016-12-09 23:34:33.000000000,2018-01-26 19:41:04.000000000,closed,5,Lint doens't seem to work
+272,2016-12-08 16:17:58.000000000,2016-12-13 05:39:24.000000000,closed,1,Move resolution to configuration based mechanism for best performance
+271,2016-12-08 12:58:56.000000000,2016-12-08 14:12:55.000000000,closed,0,Fix buck project command due to issue in aidl
+270,2016-12-08 10:38:27.000000000,2016-12-18 07:50:11.000000000,closed,4,targetsdkversion  conflict
+269,2016-12-08 10:08:25.000000000,2016-12-17 05:35:19.000000000,closed,1,Clean up BUCK files if rm fails
+268,2016-12-07 04:15:40.000000000,2016-12-18 08:13:53.000000000,closed,1,Generate BUCK files that are independent for incremental okbuck
+267,2016-12-07 03:02:05.000000000,2016-12-07 04:17:18.000000000,closed,1,Add option to generate BUCK files in parallel
+266,2016-12-06 23:47:56.000000000,2017-01-12 10:59:16.000000000,closed,2,Add support for infer/eradicate genrules
+265,2016-12-06 23:26:08.000000000,2016-12-06 23:26:12.000000000,closed,0,Do not print extra buck opts twice for binary rules
+264,2016-12-06 14:02:12.000000000,2016-12-06 14:17:01.000000000,closed,0,Allow setting extra buck options for all supported rules of a sub project
+263,2016-12-05 07:35:30.000000000,2016-12-05 07:52:59.000000000,closed,0,Groovy Support
+262,2016-12-04 14:31:33.000000000,2016-12-04 14:45:54.000000000,closed,1,Update retrolambda to use post process classes commands
+261,2016-12-04 01:21:24.000000000,2016-12-04 02:21:39.000000000,closed,0,Update versions
+260,2016-12-02 17:28:52.000000000,2016-12-18 08:09:55.000000000,closed,2,Support for protobuf-gradle-plugin
+259,2016-11-30 02:01:23.000000000,2016-12-02 01:02:44.000000000,closed,1,Added transform gen rule configurable through okbuck extension
+258,2016-11-30 01:28:47.000000000,2016-12-06 14:17:01.000000000,closed,0,Allow custom compilers per module
+257,2016-11-27 01:29:00.000000000,2016-12-18 08:15:08.000000000,closed,6,ImportError: No module named buck_parser
+256,2016-11-25 08:17:59.000000000,2017-01-19 14:22:22.000000000,closed,6,BUILD FAILED: //app:manifest_recordDebug failed on step generate_manifest with an exception: Error generating manifest file
+255,2016-11-23 23:11:49.000000000,2016-12-18 08:39:39.000000000,closed,16,Warnings when running buck wrapper
+254,2016-11-23 17:45:10.000000000,2016-11-29 11:27:37.000000000,closed,1,Watchman not running ./gradlew okBuck automatically
+253,2016-11-23 17:42:36.000000000,2016-11-23 19:07:09.000000000,closed,0,Watchman not running *okBuck
+252,2016-11-23 12:16:26.000000000,2017-06-26 08:59:21.000000000,closed,3,is there a way to support aspectj with okbuck
+251,2016-11-21 22:13:48.000000000,2017-08-04 01:50:08.000000000,closed,17,Experimental okbazel support
+250,2016-11-21 05:22:55.000000000,2016-12-18 07:50:50.000000000,closed,7,Error: resource directory 'buck-out/bin/.okbuck/cache/__unpack_com.google.firebase...#aar_unzip__res' does not exist
+249,2016-11-19 05:07:09.000000000,2016-11-19 05:07:14.000000000,closed,2,Add tool to convert buck test report to junit format
+248,2016-11-19 02:28:35.000000000,2016-11-19 05:20:20.000000000,closed,5,Comparable dependency declaration generates different BUCK files
+247,2016-11-17 08:14:12.000000000,2016-11-17 10:22:40.000000000,closed,1,Fix typo
+246,2016-11-17 02:56:47.000000000,2016-11-19 05:07:14.000000000,closed,0,Add support for junit style output from buck test
+245,2016-11-16 12:43:57.000000000,2016-11-17 00:26:44.000000000,closed,3,Do not invoke retrolambda with empty inputDir
+244,2016-11-13 15:19:33.000000000,2016-11-13 20:25:50.000000000,closed,0,Update Usage.md
+243,2016-11-13 13:09:41.000000000,2016-11-13 14:30:17.000000000,closed,0,Cleanup project and dependencies
+242,2016-11-13 12:24:10.000000000,2016-11-13 12:47:30.000000000,closed,0,Remove gradle source gen rule
+241,2016-11-12 13:57:18.000000000,2016-11-12 14:29:38.000000000,closed,0,Refactor retrolamda support to use retrolambdac
+240,2016-11-12 03:00:05.000000000,2016-11-19 05:11:32.000000000,closed,8,Trying to merge incompatible /manifest/application/activity[@name=com.facebook.accountkit.ui.AccountKitActivity] element:
+239,2016-11-12 02:22:43.000000000,2016-11-12 04:09:49.000000000,closed,0,Remove extra boot classpath entries for retrolambda
+238,2016-11-11 07:25:15.000000000,2016-11-11 08:23:58.000000000,closed,0,Refactor gradle source gen rule to not output absolute paths
+237,2016-11-11 03:06:46.000000000,2016-11-19 05:09:00.000000000,closed,1,"Generated gradle genrules contain absolute paths, breaking caching"
+236,2016-11-10 14:50:18.000000000,2016-11-10 15:05:05.000000000,closed,0,Add support for test runner jvm args
+235,2016-11-10 05:09:32.000000000,2016-11-10 05:31:25.000000000,closed,0,Remove absolute paths from lint genrules
+234,2016-11-10 01:10:27.000000000,2016-11-10 03:52:17.000000000,closed,0,Use file path to resolve dependency name
+233,2016-11-09 18:04:40.000000000,2016-11-10 09:15:50.000000000,closed,5,buck install app not work
+232,2016-11-08 21:59:07.000000000,2018-01-26 19:37:06.000000000,closed,14,Bazel support
+231,2016-11-08 14:36:28.000000000,2016-11-08 14:50:07.000000000,closed,0,Simplify okbuck generated lint genrules
+230,2016-11-08 09:59:16.000000000,2016-11-08 11:12:38.000000000,closed,0,Fix lint genrule to not use 'DEPS'
+229,2016-11-07 09:48:26.000000000,2016-11-07 10:01:27.000000000,closed,0,Bundle lint dependencies into a fat jar
+228,2016-11-06 08:02:44.000000000,2016-11-06 14:29:11.000000000,closed,1,Android Lint Support
+227,2016-11-03 09:18:10.000000000,2017-06-26 08:55:42.000000000,closed,1,Robolectric fails to load resources from depending modules
+226,2016-11-02 22:18:03.000000000,2016-11-10 06:57:33.000000000,closed,0,Post process and project dependencies are now written in a file
+225,2016-11-02 21:35:23.000000000,2016-11-06 09:51:25.000000000,closed,6,Allow for resources to be generated via gradle (via resValue)
+224,2016-10-28 04:15:19.000000000,2016-11-19 05:12:11.000000000,closed,5,okBuck fails silently on u2020
+223,2016-10-28 01:08:54.000000000,2016-10-28 01:28:14.000000000,closed,6,okBuck does not work for a simple sample Android app
+222,2016-10-26 09:39:34.000000000,2016-10-26 09:54:46.000000000,closed,0,Download sources if enabled even if IDE plugins are not applied
+221,2016-10-21 04:19:32.000000000,2017-01-28 13:44:07.000000000,closed,4,Support for extra resource directories
+220,2016-10-18 06:13:05.000000000,2016-10-26 10:03:31.000000000,closed,1,Add support to allow multiple test runners
+219,2016-10-18 00:12:43.000000000,2016-10-18 22:22:43.000000000,closed,1,OkBuck is not working for the WordPress project
+218,2016-10-15 22:03:27.000000000,2016-12-18 08:01:47.000000000,closed,1,SCM aware wrapper support for ci
+217,2016-10-15 09:03:10.000000000,2016-10-15 09:15:04.000000000,closed,0,Add test suffix correctly for instrumentation apks
+216,2016-10-13 20:40:10.000000000,2016-10-14 03:58:01.000000000,closed,0,Generate a script for post process commands
+215,2016-10-13 03:40:06.000000000,2016-10-13 03:52:07.000000000,closed,0,Update BUCKW_TEMPLATE to use 'custom' as remote for custom buck repo as well.
+214,2016-10-13 03:33:52.000000000,2016-10-13 03:36:02.000000000,closed,1,Fix buck wrapper CUSTOM_BUCK_REPO on OSX
+213,2016-10-12 04:33:00.000000000,2016-10-12 08:30:49.000000000,closed,0,Fixed find dependencies command to exclude dummy and abi
+212,2016-10-12 04:01:16.000000000,2016-10-12 04:14:26.000000000,closed,0,Use 'custom' as remote for custom buck repo.
+211,2016-10-12 01:01:30.000000000,2016-10-12 01:11:02.000000000,closed,0,Fixed when initial boot class path is empty or null
+210,2016-10-11 10:45:54.000000000,2016-10-11 11:11:14.000000000,closed,0,Cleanup dependency structure
+209,2016-10-11 09:09:31.000000000,2016-10-11 09:50:56.000000000,closed,0,Use package instead of applicationId in build config rule
+208,2016-10-11 07:17:33.000000000,2016-10-11 09:01:37.000000000,closed,0,Don't merge manifest in the constructor
+207,2016-10-11 04:40:16.000000000,2016-10-11 04:54:01.000000000,closed,0,update buckversion
+206,2016-10-11 04:19:10.000000000,2016-10-11 04:38:52.000000000,closed,0,Fixed java class path for post process command dependencies
+205,2016-10-11 00:00:29.000000000,2016-10-11 00:59:23.000000000,closed,0,Add ability to watch any files/directories when creating the wrapper
+204,2016-10-10 06:15:07.000000000,2016-10-10 06:53:15.000000000,closed,0,Move experimental features out of incubation
+203,2016-10-09 06:34:14.000000000,2016-10-09 08:09:59.000000000,closed,1,I need help.
+202,2016-10-08 10:36:28.000000000,2016-10-08 10:47:31.000000000,closed,0,Add ability to specify additional options for gradle gen tasks
+201,2016-10-08 10:18:07.000000000,2016-10-09 02:38:06.000000000,closed,6,Use package instead of applicationId inside resource rule
+200,2016-10-08 09:31:39.000000000,2016-10-08 10:11:31.000000000,closed,0,Extract custom build config values in buildTypes
+199,2016-10-08 06:28:54.000000000,2016-10-08 06:57:37.000000000,closed,0,Cleanup inspections
+198,2016-10-08 05:43:27.000000000,2016-10-08 05:58:48.000000000,closed,0,Cleanup post process class commands logic
+197,2016-10-07 21:59:33.000000000,2016-10-07 22:14:04.000000000,closed,0,Avoid duplicate target dependencies
+196,2016-10-07 21:37:30.000000000,2016-10-07 22:23:25.000000000,closed,0,Added postprocess configuration to supply post process command jars
+195,2016-10-07 12:03:41.000000000,2016-10-07 22:14:04.000000000,closed,1,Duplicate element error
+194,2016-10-07 00:21:37.000000000,2016-10-07 00:46:39.000000000,closed,0,Add test labels
+193,2016-10-06 21:23:53.000000000,2016-10-07 00:46:39.000000000,closed,0,Add labels to unit and ui tests to distinguish them
+192,2016-10-06 05:16:38.000000000,2016-10-07 04:56:06.000000000,closed,0,Add support for post process classes command
+191,2016-10-06 01:18:03.000000000,2016-10-11 00:59:23.000000000,closed,1,Adding test resources to a project that does not have any resources should trigger OkBuck run in the buck wrapper.
+190,2016-10-04 01:30:07.000000000,2016-10-04 21:58:00.000000000,closed,3,Adds support for annotationProcessor dependencies
+189,2016-10-01 17:43:12.000000000,2016-10-08 10:47:31.000000000,closed,2,Add the `--offline` flag for gradle source gen rule
+188,2016-10-01 14:19:25.000000000,2016-10-04 06:03:54.000000000,closed,0,com.facebook.buck.util.HumanReadableException: Error generating manifest file
+187,2016-09-30 11:45:15.000000000,2016-09-30 13:24:30.000000000,closed,5,Cannot invoke method get() on null object
+186,2016-09-30 08:38:27.000000000,2016-10-08 10:11:31.000000000,closed,3,buildTypes -  Custom buildconfig fields not supported?
+185,2016-09-30 03:04:28.000000000,2016-10-04 22:00:15.000000000,closed,2,Add support for external arguments when running okbuck via buckw
+184,2016-09-29 06:14:39.000000000,2016-09-29 06:15:24.000000000,closed,0,Fix typos in README.md
+183,2016-09-28 06:27:37.000000000,2016-10-11 03:35:00.000000000,closed,2,parameter 'skeleton' && parameter 'proguardConfig' : no such file or directory
+182,2016-09-28 04:47:37.000000000,2016-09-28 07:35:14.000000000,closed,0,Fix buck wrapper by calling okbuck tasks instead of :okbuck
+181,2016-09-27 14:11:15.000000000,2016-10-08 10:48:44.000000000,closed,6,Unsupported major.minor version 52.0
+180,2016-09-27 12:39:22.000000000,2016-09-29 10:06:00.000000000,closed,5,okbuck issues
+179,2016-09-26 06:01:02.000000000,2016-09-26 07:25:17.000000000,closed,0,Update versions
+178,2016-09-26 05:06:02.000000000,2016-09-26 05:23:50.000000000,closed,0,Improvements to buckw
+177,2016-09-26 02:53:31.000000000,2016-09-26 02:56:39.000000000,closed,0,Create some default confguration files when running the wrapper task
+176,2016-09-23 11:05:41.000000000,2016-09-23 11:29:30.000000000,closed,0,Minor cleanup
+175,2016-09-23 08:56:24.000000000,2016-09-26 11:53:52.000000000,closed,4,Gradle 3.0 and android tools gralde not working 
+174,2016-09-20 08:45:36.000000000,2016-09-20 09:16:58.000000000,closed,0,Cleanup comments and empty lines in annotation processor manifest entries
+173,2016-09-20 00:35:08.000000000,2016-09-20 00:58:09.000000000,closed,0,Move buck wrapper task creation to after project evaluation
+172,2016-09-19 22:02:03.000000000,2016-09-19 22:18:46.000000000,closed,0,Update android gradle plugin to 2.2.0
+171,2016-09-17 00:02:13.000000000,2016-09-17 00:14:17.000000000,closed,0,Reduce apt jar target dependencies
+170,2016-09-16 23:09:36.000000000,2016-09-16 23:20:46.000000000,closed,0,Generate android_resource rule names based on directory name
+169,2016-09-16 21:56:49.000000000,2016-09-16 22:13:49.000000000,closed,0,Fix grep when adding remote
+168,2016-09-16 04:27:08.000000000,2016-09-16 22:13:49.000000000,closed,1,Extra output when running buckw in sample project.
+167,2016-09-15 12:29:47.000000000,2016-09-15 22:35:01.000000000,closed,1,Move BuildConfig application ID to base AndroidTarget
+166,2016-09-15 11:33:38.000000000,2016-09-15 11:44:35.000000000,closed,1,Move some build config fields to AndroidTarget
+165,2016-09-15 02:11:32.000000000,2016-09-15 08:16:47.000000000,closed,0,Add a buck wrapper to invoke buck commands
+164,2016-09-13 03:36:01.000000000,2016-09-13 06:19:01.000000000,closed,0,Vector drawables support
+163,2016-09-12 12:44:58.000000000,2016-09-15 11:05:44.000000000,closed,0,Espresso test support
+162,2016-09-12 08:41:39.000000000,2016-09-12 08:57:58.000000000,closed,0,Copy java compile options of android targets
+161,2016-09-11 02:46:44.000000000,2016-09-11 03:47:07.000000000,closed,1,Always add an android_resource rule
+160,2016-08-23 18:12:07.000000000,2016-09-12 10:20:00.000000000,closed,8,SqlDelight Support
+159,2016-08-22 03:38:10.000000000,2016-09-12 10:24:57.000000000,closed,2,Generate java_binary Rule
+158,2016-08-16 04:07:35.000000000,2016-08-16 09:07:15.000000000,closed,0,Get the okbuck extension data when running the task instead of at cre…
+157,2016-08-15 16:04:48.000000000,2016-08-16 09:08:17.000000000,closed,0,Do not extract aars for proguard if not minified
+156,2016-08-13 00:41:55.000000000,2016-08-13 00:56:18.000000000,closed,1,Fix library manifests to output min and target sdk correctly
+155,2016-08-12 19:15:14.000000000,2016-08-13 00:08:38.000000000,closed,0,Add remove property to buck extension.
+154,2016-08-11 11:33:34.000000000,2016-09-25 10:56:54.000000000,closed,11, Third party library import resource failure
+153,2016-08-10 21:56:08.000000000,2016-08-11 03:34:19.000000000,closed,11,"show ""get app's sign config fail!"""
+152,2016-08-10 15:46:44.000000000,2016-09-25 10:57:11.000000000,closed,5,Cannot get property 'apiLevel' on null object
+151,2016-08-09 07:27:05.000000000,2016-08-09 13:18:17.000000000,closed,2,gradle 2.14 build failed
+150,2016-08-08 05:21:18.000000000,2016-08-08 05:54:03.000000000,closed,0,Use project filetree instead of file name filter
+149,2016-08-08 04:14:51.000000000,2016-08-08 04:29:49.000000000,closed,2,Add support to fecth source jars
+148,2016-08-07 05:45:39.000000000,2016-08-07 11:05:59.000000000,closed,1,Update tools to latest
+147,2016-08-07 05:22:32.000000000,2016-08-07 05:33:44.000000000,closed,0,Cleanup cache structure and remove digest from rulenames when not needed
+146,2016-08-05 15:33:18.000000000,2016-08-05 20:13:54.000000000,closed,1,Fix for issue #145.
+145,2016-08-05 15:14:19.000000000,2016-08-07 05:25:23.000000000,closed,1,Http Server port not set error when used with the Buck IntelliJ plugin.
+144,2016-08-05 11:15:17.000000000,2016-08-07 05:33:44.000000000,closed,0,Simplify okbuck cache structure
+143,2016-08-02 17:28:42.000000000,2016-08-07 05:25:53.000000000,closed,1,Use soft tabs in generated BUCK files.
+142,2016-08-02 17:13:29.000000000,2016-09-25 10:57:51.000000000,closed,6,Buck randomly throws BUILD FAILED errors
+141,2016-07-29 21:53:08.000000000,2016-07-29 22:14:08.000000000,closed,3,Improve okbuckClean task
+140,2016-07-28 19:52:21.000000000,2016-08-05 11:16:45.000000000,closed,8,Proceed okbuck for project with cutom folder structure
+139,2016-07-27 11:03:47.000000000,2016-07-27 11:48:38.000000000,closed,1,Update buck to latest
+138,2016-07-27 04:25:36.000000000,2016-07-27 04:46:58.000000000,closed,2,Add support for downloading robolectric runtime dependencies to cache
+137,2016-07-27 01:25:06.000000000,2016-07-27 01:47:02.000000000,closed,1,Fix alias name when module is in a subfolder
+136,2016-07-26 06:14:11.000000000,2016-07-26 23:54:09.000000000,closed,0,Extract target dependencies and populate cache before creating rule to make sure all projects are on the same version of dependencies.
+135,2016-07-24 06:02:51.000000000,2016-07-27 10:52:08.000000000,closed,1,Add support for generating `robolectric_rule` for Android library tests.
+134,2016-07-23 20:29:33.000000000,2016-07-23 20:40:43.000000000,closed,1,Support to add extra buck options to rules
+133,2016-07-13 10:36:21.000000000,2016-07-13 10:44:46.000000000,closed,0,Fix build issues
+132,2016-07-12 01:48:01.000000000,2016-07-12 03:26:12.000000000,closed,1,Add support for Butterknife
+131,2016-07-12 01:13:04.000000000,2016-07-12 01:23:56.000000000,closed,1,Remove ':' from alias names
+130,2016-07-11 21:11:17.000000000,2016-07-12 01:23:56.000000000,closed,0,Buck aliases generated from Gradle modules in directories are not valid alias names.
+129,2016-07-08 12:32:26.000000000,2016-07-12 12:04:24.000000000,closed,4,fix local aar dependency resolve bug
+128,2016-07-07 10:25:37.000000000,2016-07-27 02:08:29.000000000,closed,2,Unsupported major.minor version 52.0
+127,2016-07-01 09:14:01.000000000,2016-07-02 01:58:01.000000000,closed,0,Add test targets to project_config generation.
+126,2016-06-30 07:52:54.000000000,2016-07-12 03:26:12.000000000,closed,0,Butterknife Support
+125,2016-06-30 07:48:08.000000000,2016-11-06 08:06:30.000000000,closed,4,Static Analysis Support
+124,2016-06-30 07:29:52.000000000,2016-09-12 10:20:22.000000000,closed,10,SqlDelight Support
+123,2016-06-30 04:28:04.000000000,2016-06-30 04:42:46.000000000,closed,0,Promote manifest placeholders support from experimental to fully supported
+122,2016-06-30 03:52:55.000000000,2016-06-30 04:00:46.000000000,closed,1,Support provided_deps for java rules
+121,2016-06-29 11:09:38.000000000,2016-06-30 04:42:11.000000000,closed,0,Add support for resources and resources_root to java_library and java_test rules.
+120,2016-06-28 04:00:33.000000000,2016-06-29 04:03:19.000000000,closed,0,Adding support for generating project_config rules.
+119,2016-06-24 22:43:11.000000000,2016-06-29 04:03:19.000000000,closed,0,IDE Project Generation Support
+118,2016-06-14 22:08:23.000000000,2016-06-14 22:19:16.000000000,closed,1,Use buck's provided_deps
+117,2016-06-14 12:09:41.000000000,2016-06-14 12:18:24.000000000,closed,0,Proper fix for provided configurations
+116,2016-06-14 03:20:09.000000000,2016-06-14 03:35:33.000000000,closed,1,Support provided/compile only configurations
+115,2016-06-13 04:36:09.000000000,2016-06-13 05:00:19.000000000,closed,0,Add new Scope Model
+114,2016-06-12 12:10:41.000000000,2016-06-12 12:20:53.000000000,closed,0,Extract common logic
+113,2016-06-12 05:47:37.000000000,2016-06-12 05:54:43.000000000,closed,0,More Cleanup
+112,2016-06-12 03:56:48.000000000,2016-06-12 04:08:05.000000000,closed,0,Cleanup and formatting
+111,2016-06-06 20:37:16.000000000,2016-06-07 11:25:40.000000000,closed,1,Add support for generating `java_test` rule.
+110,2016-05-31 05:13:00.000000000,2016-06-01 05:23:07.000000000,closed,0,Install buck via gradle for travis
+109,2016-05-30 20:05:13.000000000,2016-05-31 05:12:50.000000000,closed,5,Install buck via gradle for travis
+108,2016-05-28 19:11:43.000000000,2016-05-29 05:47:19.000000000,closed,2,Add support to install/maintain buck versions
+107,2016-05-28 17:37:37.000000000,2016-05-29 05:47:19.000000000,closed,0,Add support to install/maintain buck versions
+106,2016-05-26 09:42:27.000000000,2016-05-26 10:16:42.000000000,closed,0,Add experimental placeholder support
+105,2016-05-26 08:39:30.000000000,2016-05-26 09:25:30.000000000,closed,0,fix: wrong debuggable attr position
+104,2016-05-25 14:33:34.000000000,2016-05-26 04:02:15.000000000,closed,3,add debuggable attr into merged manifest
+103,2016-05-24 08:21:01.000000000,2016-05-24 10:49:17.000000000,closed,0,Use .buckconfig.local instead of .buckconfig
+102,2016-05-24 08:00:50.000000000,2016-05-24 08:20:48.000000000,closed,1,fix: RetroLambda classpath bug
+101,2016-05-23 11:17:15.000000000,2016-05-23 11:27:09.000000000,closed,0,Fix applicationIdSuffix in BuildConfig
+100,2016-05-23 09:29:27.000000000,2016-05-23 11:27:29.000000000,closed,0,Downgrade version to 0.1.0-alpha1
+99,2016-05-23 08:31:56.000000000,2016-05-23 09:18:59.000000000,closed,0,Add support for applicationIdSuffix
+98,2016-05-23 08:07:42.000000000,2016-05-23 08:28:36.000000000,closed,1,fix: keystore password bug
+97,2016-05-23 08:06:08.000000000,2016-05-23 08:06:36.000000000,closed,0,Bugfix/keystore password bug
+96,2016-05-23 08:03:10.000000000,2016-05-23 11:01:33.000000000,closed,0,Fix exopackage app lib deps bug
+95,2016-05-22 19:04:58.000000000,2016-05-22 19:08:22.000000000,closed,2,release of app has no signing config set!
+94,2016-05-18 09:20:01.000000000,2016-05-18 10:52:54.000000000,closed,0,Cleanup README
+93,2016-05-17 09:39:16.000000000,2016-05-17 10:05:26.000000000,closed,0,Cleanup project files
+92,2016-05-17 08:31:36.000000000,2016-05-17 08:42:04.000000000,closed,0,Rename package to okbuilds
+91,2016-05-17 08:06:23.000000000,2016-05-17 08:13:43.000000000,closed,0,Fix couple of regressions
+90,2016-05-17 07:31:29.000000000,2016-05-17 08:12:54.000000000,closed,2,Proguard Support
+89,2016-05-14 19:08:37.000000000,2016-05-14 19:36:46.000000000,closed,0,architecture clean up
+88,2016-05-14 11:41:48.000000000,2016-05-14 11:52:13.000000000,closed,0,exclude app class according to exopackage config
+87,2016-05-14 10:36:08.000000000,2016-05-14 11:39:14.000000000,closed,0,remove redundant manifest content
+86,2016-05-12 19:58:52.000000000,2016-05-26 10:16:42.000000000,closed,1,Support for Manifest Placeholders
+85,2016-05-12 06:59:48.000000000,2016-05-12 07:09:11.000000000,closed,0,Allow generating R.java of all dependent R.txt of an android_resource
+84,2016-05-12 05:48:24.000000000,2016-05-12 07:01:10.000000000,closed,13,You must specify signing config for app release build type
+83,2016-05-11 19:47:48.000000000,2016-10-11 04:18:11.000000000,closed,7,Testing Support
+82,2016-05-11 19:47:33.000000000,2016-05-17 08:12:54.000000000,closed,0,Proguard Support
+81,2016-05-11 11:14:25.000000000,2016-05-11 11:26:48.000000000,closed,0,Add rt.jar to bootstrap classpath for retrolambda
+80,2016-05-11 10:08:48.000000000,2016-05-11 11:54:05.000000000,closed,0,Feature/aidl
+79,2016-05-11 09:38:30.000000000,2016-05-11 09:38:49.000000000,closed,0,Merge Dev into master
+78,2016-05-11 07:08:15.000000000,2016-05-11 09:40:33.000000000,closed,1,support parcelable in aidl
+77,2016-05-10 14:37:48.000000000,2016-05-11 07:03:14.000000000,closed,1,add retrolambda support again
+76,2016-05-10 14:34:13.000000000,2016-05-10 14:37:19.000000000,closed,0,add retrolambda support again
+75,2016-05-10 12:50:38.000000000,2016-05-14 14:55:54.000000000,closed,1,No `versionCode` and `versionName` in merged manifest
+74,2016-05-10 12:48:26.000000000,2016-05-10 14:33:55.000000000,closed,0,add retrolambda support again
+73,2016-05-09 00:58:55.000000000,2016-05-09 19:11:11.000000000,closed,0,Plugin architecture refresh
+72,2016-05-05 16:14:53.000000000,2018-01-26 19:45:36.000000000,closed,7,Flavor Dimension Support
+71,2016-04-22 09:32:10.000000000,2016-04-22 11:12:27.000000000,closed,14,Project cleanup
+70,2016-04-21 12:04:48.000000000,2016-04-21 12:13:44.000000000,closed,1,Fix OkBuck to work with projects with '-' in their name
+69,2016-04-20 09:07:11.000000000,2016-04-21 11:13:52.000000000,closed,6,"Add a ""buckProjects"" configuration to the OkBuckExtension"
+68,2016-04-20 08:27:48.000000000,2016-04-21 12:13:44.000000000,closed,8,"Okbuck fails to process projects with ""-"" in their name"
+67,2016-04-14 07:40:39.000000000,2016-05-11 11:44:50.000000000,closed,2,there is a problem when buck install
+66,2016-04-12 06:36:03.000000000,2016-05-11 11:44:24.000000000,closed,3,what can i do?
+65,2016-04-11 09:19:17.000000000,2016-04-14 08:13:22.000000000,closed,2,There is one problem.
+64,2016-04-08 07:45:45.000000000,2016-04-08 11:22:19.000000000,closed,3,Error parsing resources to generate resource IDs 
+63,2016-03-20 01:56:49.000000000,2016-03-20 05:18:59.000000000,closed,2,BUILD FAILED: No rule found when resolving target //app:app in build file //app/BUCK
+62,2016-02-10 22:14:21.000000000,2016-06-14 03:35:33.000000000,closed,7,Provided dependencies not picked up by buck
+61,2016-01-28 15:54:16.000000000,2016-04-08 11:22:56.000000000,closed,3,error after 'buck install flavorName'
+60,2016-01-27 13:06:12.000000000,2016-02-02 16:09:02.000000000,closed,3,File name too long error
+59,2016-01-27 10:03:58.000000000,2016-01-27 11:02:31.000000000,closed,5,Gradle build tool 2.0.0
+58,2016-01-06 19:45:06.000000000,2016-01-06 19:47:39.000000000,closed,0,minimal exopackage support
+57,2016-01-06 14:28:38.000000000,2016-01-06 14:30:28.000000000,closed,0,Multidex support
+56,2016-01-05 11:45:34.000000000,2016-02-02 08:46:59.000000000,closed,9," Can not figure out sign config, please make sure you have only one sign config in your build.gradle, or set signConfigName in okbuck dsl."
+55,2015-12-23 08:16:46.000000000,2016-05-23 08:49:29.000000000,closed,4,Not support Android Data Binding now
+54,2015-12-16 11:32:29.000000000,2016-01-05 11:56:28.000000000,closed,1,OKBuck does not support Exopackage and multi-dex?
+53,2015-12-15 14:54:38.000000000,2016-05-12 07:09:11.000000000,closed,6,"In Buck, Why Module A cannot refer Module B's resources, like R.string.. R.id.."
+52,2015-12-14 14:59:32.000000000,2015-12-14 16:23:03.000000000,closed,2,"Can not figure out sign config, please make sure you have only one sign config in your build.gradle, or set signConfigName in okbuck dsl."
+51,2015-12-14 12:22:13.000000000,2016-05-23 08:49:11.000000000,closed,3,'presentation/src/main/res/.svn' is not a valid resource sub-directory.
+50,2015-11-22 16:22:41.000000000,2015-11-22 17:17:19.000000000,closed,0,manifest genrule
+49,2015-11-22 12:35:23.000000000,2015-11-22 17:17:44.000000000,closed,1,Use genrule to generate AndroidManifest.xml
+48,2015-11-17 05:46:26.000000000,2016-02-02 16:10:00.000000000,closed,5,gradle android tool 1.5找不到sign config
+47,2015-11-15 21:26:37.000000000,2015-11-15 21:31:41.000000000,closed,0,BUILD failed: failed on step symlink_assets with an exception
+46,2015-11-15 09:26:55.000000000,2016-01-05 11:55:59.000000000,closed,9,install failed: BUILD FAILED: No rule found when resolving target //app:app in build file //app/BUCK
+45,2015-11-14 23:06:29.000000000,2015-11-15 10:21:25.000000000,closed,4,build failed: AndroidLibraryRule srcs must be non-null.
+44,2015-11-14 07:45:06.000000000,2015-11-15 05:59:29.000000000,closed,5,执行buck install app 失败
+43,2015-11-10 18:29:19.000000000,2015-11-10 19:51:53.000000000,closed,1,cant't buck work with android data-binding?
+42,2015-11-03 14:04:46.000000000,2015-11-04 12:43:57.000000000,closed,1,"add VERSION_NAME, VERSION_CODE, BUILD_TYPE build config into generated BuildConfig.java"
+41,2015-11-03 11:58:00.000000000,2015-11-03 12:31:04.000000000,closed,0,Issue 29
+40,2015-11-02 19:14:46.000000000,2016-02-03 05:53:48.000000000,closed,2,Missing AIDL support
+39,2015-10-27 14:28:23.000000000,2015-10-29 04:33:57.000000000,closed,5,String index out of range
+38,2015-10-27 04:56:39.000000000,1970-01-01 00:00:00.000000001,open,1,NDK integration
+37,2015-10-26 20:40:56.000000000,2015-10-27 04:47:02.000000000,closed,0,Issue 22
+36,2015-10-25 12:35:56.000000000,2015-10-25 12:46:26.000000000,closed,0,merge and improve #35
+35,2015-10-24 11:35:33.000000000,2015-10-25 12:46:27.000000000,closed,2,support different project structure and support multi-manifest meger
+34,2015-10-21 09:24:01.000000000,2015-10-21 09:55:28.000000000,closed,6,an error happen when `gradlew okbuck`
+33,2015-10-21 04:47:09.000000000,2015-10-21 05:42:24.000000000,closed,0,try to fix #31
+32,2015-10-20 22:03:55.000000000,2016-05-03 18:56:17.000000000,closed,20,Support RetroLambda
+31,2015-10-20 17:07:49.000000000,2015-10-21 05:42:27.000000000,closed,15,:okbuck FAILED  FAILURE: Build failed with an exception.  * What went wrong: Execution failed for task ':okbuck'. > /Users/foobar/AndroidStudioProjects/mylibrary/BUCK (No such file or directory)
+30,2015-10-20 11:28:24.000000000,2015-11-03 12:31:04.000000000,closed,1,Merge resources in different configuration?
+29,2015-10-18 05:31:38.000000000,2015-11-03 12:31:04.000000000,closed,2,Multi-product flavor and build variant support?
+28,2015-10-18 05:27:55.000000000,2016-05-23 08:51:28.000000000,closed,1,Support passing parameters to annotation processor?
+27,2015-10-18 05:26:23.000000000,2015-10-25 12:50:54.000000000,closed,1,"Support non-standard gradle project structure, even custom, with configurations"
+26,2015-10-18 05:20:57.000000000,2016-05-23 08:48:01.000000000,closed,2,Let BUCK generate jar file of library module?
+25,2015-10-18 05:20:08.000000000,2015-10-25 12:46:26.000000000,closed,0,Merge dependencies' manifest
+24,2015-10-18 05:07:14.000000000,2015-12-15 14:18:14.000000000,closed,1,"Let okbuckDebug, okbuckRelease create really debug and release BUCK config"
+23,2015-10-12 12:17:33.000000000,2015-10-14 13:23:31.000000000,closed,10,Couldn't get dependency '//.okbuck/keystore:app_keystore' of target '//app:bin'
+22,2015-10-12 07:50:34.000000000,2015-10-27 04:47:02.000000000,closed,1,NDK support
+21,2015-10-12 07:33:38.000000000,2015-10-25 12:52:10.000000000,closed,8,error: 找不到符号 com.everyday.util.MyPref_(类由androidannotations生成)
+20,2015-10-11 15:59:09.000000000,2015-10-25 12:49:33.000000000,closed,4,Problem with LeakCanary
+19,2015-10-10 16:10:04.000000000,2015-10-10 16:41:45.000000000,closed,0,fix a spell error
+18,2015-10-09 15:34:20.000000000,2015-10-25 12:51:28.000000000,closed,1,Unsupported major.minor version 52.0
+17,2015-10-09 15:27:24.000000000,2015-10-25 12:51:41.000000000,closed,1,Could not find method keystore() for arguments [debug.keystore] on root project
+16,2015-10-09 15:06:10.000000000,2015-10-09 15:09:10.000000000,closed,1,这个 latest version 是具体多少呢???
+15,2015-10-09 13:31:58.000000000,2015-10-17 05:27:24.000000000,closed,1,Problems if module dir is not the direct child of rootProjectDir?
+14,2015-10-09 13:22:11.000000000,2015-10-09 18:58:24.000000000,closed,0,Multiple application module support
+13,2015-10-09 12:15:21.000000000,2015-10-09 12:25:18.000000000,closed,0,fix #12
+12,2015-10-08 14:48:49.000000000,2015-10-09 12:25:18.000000000,closed,24,"build failed when i run ""./gradlew okbuck"""
+11,2015-10-06 19:47:02.000000000,2015-10-06 20:06:42.000000000,closed,0,sub java module that only depended by application module won't build automatically when execute okbuck task
+10,2015-10-06 19:16:04.000000000,2015-10-11 19:49:33.000000000,closed,3,Problem with fabric crash report
+9,2015-10-06 16:24:58.000000000,2016-02-02 16:10:35.000000000,closed,1,buck Exopackage support
+8,2015-10-06 11:49:36.000000000,2015-11-03 12:31:04.000000000,closed,1,better solution for local jar dependency
+7,2015-10-06 11:49:18.000000000,2015-11-03 12:31:04.000000000,closed,0,better solution for dependency conflict
+6,2015-10-06 11:48:58.000000000,2015-10-15 06:45:43.000000000,closed,1,res reference on aar dependency
+5,2015-10-06 11:48:20.000000000,2015-12-15 14:15:37.000000000,closed,1,proguard support
+4,2015-10-06 11:48:04.000000000,2015-12-15 14:15:17.000000000,closed,1,test/androidTest support
+3,2015-10-06 11:47:30.000000000,2015-12-15 14:14:18.000000000,closed,1,make BUCK's output apk support debug
+2,2015-10-05 07:15:22.000000000,2015-10-05 08:42:31.000000000,closed,5,用你的配置运行build报错，麻烦帮忙看下是什么问题，谢谢
+1,2015-10-05 05:51:56.000000000,2015-10-05 09:27:11.000000000,closed,2,Problems with storio

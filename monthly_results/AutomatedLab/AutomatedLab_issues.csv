@@ -1,0 +1,991 @@
+id,created_at,closed_at,state,comments,title
+999,2020-08-20 22:55:49.000000000,1970-01-01 00:00:00.000000001,open,0,Cleanup $PSDefaultParameterValues fails if DefaultParameterValues exist but related commands don't exist
+998,2020-08-20 22:14:05.000000000,1970-01-01 00:00:00.000000001,open,0,"Remove-LWAzureVM does not remove related VM resources in Azure (NIC, OS Disk, etc.)"
+997,2020-08-20 21:33:48.000000000,1970-01-01 00:00:00.000000001,open,0,Remove-LabVM calls Remove-LWAzureVM -Name instead of Remove-LWAzureVM -ComputerName
+996,2020-08-19 22:05:17.000000000,1970-01-01 00:00:00.000000001,open,0,"Issue with CM-2002.ps1, AutomatedLab does not wait properly for machine startup"
+995,2020-08-16 22:53:24.000000000,2020-08-26 14:25:31.000000000,closed,2,FCI Shared Storage
+994,2020-08-09 19:00:22.000000000,1970-01-01 00:00:00.000000001,open,0,Configuration to CA roles setting
+993,2020-08-03 23:28:35.000000000,1970-01-01 00:00:00.000000001,open,1,"Exception at Install-Lab, running as non-elevated user on non-WinRM enabled Windows machine"
+992,2020-07-27 10:46:44.000000000,1970-01-01 00:00:00.000000001,open,1,Install-LabSqlSampleDatabases issue with SQLServer 2019
+991,2020-07-21 21:40:50.000000000,2020-07-26 13:58:07.000000000,closed,0,New SCVMM roles
+990,2020-07-20 20:16:53.000000000,2020-07-26 13:57:50.000000000,closed,0,Fixes issue 989
+989,2020-07-20 15:20:13.000000000,2020-07-26 13:57:50.000000000,closed,0,Install-LabSoftwarePackage fails if local files are used.
+988,2020-07-17 11:06:15.000000000,2020-07-17 11:06:24.000000000,closed,0,Fix issue with Linux VMs not starting
+987,2020-07-16 21:50:55.000000000,2020-07-16 21:51:34.000000000,closed,0,Renamed DSC certificate template 'DscMofEncryption' to 'DscMofFileEncryption'
+986,2020-07-16 12:52:30.000000000,2020-07-16 14:53:33.000000000,closed,2,Windows 10 client not joined to domain
+985,2020-07-15 16:57:58.000000000,2020-07-17 16:31:15.000000000,closed,0,Exchange setup fails due to missing features
+984,2020-07-13 19:36:05.000000000,1970-01-01 00:00:00.000000001,open,6,CenOS7 Lab issue boot from iso and cant get ip from virtualswitch
+983,2020-07-12 14:40:24.000000000,1970-01-01 00:00:00.000000001,open,2,Exchange roles not available
+982,2020-07-11 20:33:07.000000000,1970-01-01 00:00:00.000000001,open,3,Linux support
+981,2020-07-10 19:40:12.000000000,2020-07-26 13:57:29.000000000,closed,0,Additional tests added
+980,2020-07-10 14:05:47.000000000,2020-07-10 14:13:41.000000000,closed,0,Update readme
+979,2020-07-10 13:55:52.000000000,1970-01-01 00:00:00.000000001,open,1,Automate Changelog generation
+978,2020-07-10 13:00:42.000000000,2020-07-10 13:40:28.000000000,closed,1,Enabling config of source IP for connections
+977,2020-07-10 11:13:23.000000000,2020-07-10 14:27:47.000000000,closed,3,Question: Howto access fileshare on host from LabVM
+976,2020-07-10 11:10:22.000000000,2020-07-10 13:40:28.000000000,closed,4,NSG Rules / RDP
+975,2020-07-09 19:50:10.000000000,2020-07-09 19:52:31.000000000,closed,0,Adding support for snapshots which was missed in 917
+974,2020-07-07 12:56:42.000000000,2020-07-07 12:56:49.000000000,closed,0,Updating issue template
+973,2020-07-07 12:01:15.000000000,2020-07-07 12:19:18.000000000,closed,0,CentOS 8 support partially added
+972,2020-07-06 22:24:29.000000000,2020-07-07 12:05:53.000000000,closed,0,Install-LabRdsCertificate works also for 2012R2 now
+971,2020-07-06 20:10:39.000000000,2020-07-07 12:03:58.000000000,closed,1,LabSources can now be in SD cards or USB memory sticks
+970,2020-07-06 19:28:20.000000000,1970-01-01 00:00:00.000000001,open,6,Unable to deploy custom roles to azure
+969,2020-07-06 14:26:47.000000000,2020-07-10 13:10:10.000000000,closed,2,Install last stable edge chrominum 
+968,2020-07-05 20:09:11.000000000,2020-07-05 22:13:07.000000000,closed,0,Fixed error handling for Azure
+967,2020-07-05 05:17:35.000000000,2020-07-07 12:19:18.000000000,closed,4,Cant setting ipaddress with CentOS 8
+966,2020-07-05 00:56:01.000000000,2020-07-09 18:08:23.000000000,closed,6,Issue23
+965,2020-07-04 21:35:59.000000000,2020-07-05 22:19:08.000000000,closed,2,Ensure drive letter gets assigned when mounting an image (Fixes #874)
+964,2020-07-03 16:08:26.000000000,2020-07-07 12:03:58.000000000,closed,1,New-LabDefinition fails because ISOs can't be found.
+963,2020-07-01 17:15:39.000000000,2020-07-01 17:15:49.000000000,closed,0,Office Deployment Toolkit updated
+962,2020-06-30 22:21:11.000000000,2020-06-30 22:21:23.000000000,closed,0,[Azure] Fix Get-LabInternetFile
+961,2020-06-30 08:13:47.000000000,2020-06-30 08:14:18.000000000,closed,0,Get-LabInternetFile fixed and role Office2019 fixed for Azure
+960,2020-06-30 00:34:09.000000000,2020-07-07 13:11:56.000000000,closed,1,[Azure] Get-LabInternetFile compares wrong hashes
+959,2020-06-29 18:19:39.000000000,2020-06-30 08:14:18.000000000,closed,0,Get-LabInternetFile should work on Azure without a running lab
+958,2020-06-26 13:06:11.000000000,2020-06-28 18:54:46.000000000,closed,0,Telemetry extension
+957,2020-06-26 01:08:57.000000000,2020-06-26 13:07:27.000000000,closed,0,Added wildcard support and a filter parameter for 'Get-LabVM'
+956,2020-06-25 14:01:49.000000000,2020-06-30 17:36:54.000000000,closed,3,FriendlyName parameter support implemented
+955,2020-06-25 04:23:33.000000000,2020-06-25 05:32:24.000000000,closed,2,Basic Question - is it possible to list available labs?
+954,2020-06-23 23:13:56.000000000,2020-06-26 13:07:27.000000000,closed,9,Exclude few machines from get-labvm
+953,2020-06-23 11:58:44.000000000,2020-06-26 01:12:26.000000000,closed,0,Net Adapter Pattern fixed
+952,2020-06-23 10:22:44.000000000,2020-06-23 10:45:15.000000000,closed,0,EnableManagementAdapter never really set to false
+951,2020-06-18 16:08:31.000000000,2020-06-18 16:43:06.000000000,closed,0,Get-LabTfsParameter Local switch added
+950,2020-06-17 23:19:28.000000000,2020-08-28 18:01:48.000000000,closed,6,Get-Command Inconsistent Behavior with Many Module Commands by PSVersion
+949,2020-06-17 12:37:33.000000000,2020-06-18 16:43:39.000000000,closed,0,Removed unnecessary recreation of sessions
+948,2020-06-16 17:55:12.000000000,2020-06-16 22:08:18.000000000,closed,0,"Promoted Admin Center to real role, fixes #843"
+947,2020-06-16 12:02:27.000000000,2020-06-17 12:38:37.000000000,closed,1,New-LabReleasePipeline and Get-LabTfsFeed on Azure fixed
+946,2020-06-15 22:25:26.000000000,2020-08-25 02:09:36.000000000,closed,9,Azure public IPs not corrected correctly and not able to connect
+945,2020-06-15 16:15:13.000000000,2020-06-17 12:38:37.000000000,closed,1,[Azure] Azure DevOps New-LabReleasePipeline fails
+944,2020-06-15 00:10:31.000000000,2020-06-16 13:30:35.000000000,closed,0,Fix/get lab internet fileon azure
+943,2020-06-15 00:06:48.000000000,2020-06-16 13:30:59.000000000,closed,0,Special characters are not required
+942,2020-06-14 07:16:58.000000000,2020-06-14 20:43:21.000000000,closed,5,Simple Azure domain based labs. 
+941,2020-06-13 06:51:31.000000000,2020-06-13 12:36:06.000000000,closed,1,"Reinstated SQL Server Natice Client install step, updated README.md"
+940,2020-06-12 20:00:45.000000000,2020-06-13 12:32:51.000000000,closed,0,TFS Load-balanced port corrected
+939,2020-06-12 12:25:46.000000000,2020-06-12 12:26:00.000000000,closed,1,RDS cert settings that work everywhere
+938,2020-06-12 11:05:11.000000000,2020-06-13 12:32:51.000000000,closed,1,[Azure] Azure DevOps Build Agent cannot connect
+937,2020-06-12 11:04:24.000000000,2020-06-12 12:34:17.000000000,closed,1,[Azure] RDS Certs
+936,2020-06-12 05:29:03.000000000,2020-06-12 10:56:05.000000000,closed,2,Run a script/exe as another user
+935,2020-06-12 03:53:24.000000000,2020-06-14 20:43:55.000000000,closed,4,Error on some machines when trying to install chocalatey
+934,2020-06-11 19:38:04.000000000,2020-06-11 20:37:59.000000000,closed,3,Script to have two networks in one domain
+933,2020-06-11 18:09:10.000000000,2020-06-11 23:33:36.000000000,closed,2,Custom Product key doesn't seem to work. 
+932,2020-06-11 14:41:10.000000000,2020-06-11 14:41:32.000000000,closed,0,Fixing bugs introduced in #929 and #923
+931,2020-06-10 19:01:47.000000000,2020-06-11 14:50:47.000000000,closed,0,[CustomRoles] Enabling non-string parameters
+930,2020-06-10 17:59:40.000000000,2020-06-10 18:00:00.000000000,closed,0,Fixed typo
+929,2020-06-10 16:01:27.000000000,2020-06-10 16:11:51.000000000,closed,0,Transfer of ALCommon library for all VMs
+928,2020-06-10 11:50:06.000000000,2020-06-10 15:27:11.000000000,closed,0,Fix for Issue921
+927,2020-06-10 00:59:21.000000000,2020-06-12 22:04:47.000000000,closed,3,New/custom role cm2002
+926,2020-06-09 22:24:41.000000000,1970-01-01 00:00:00.000000001,open,21,Install Automatedlab Problem 
+925,2020-06-05 19:42:44.000000000,2020-06-11 14:50:47.000000000,closed,2,Passing non-string values in -Properties hashtable to Get-LabPostInstallationActivity
+924,2020-06-04 00:34:24.000000000,2020-06-04 08:33:38.000000000,closed,0,RDP Certs
+923,2020-06-03 19:44:13.000000000,2020-06-03 20:56:24.000000000,closed,0,Fix DSC scoping issue #561
+922,2020-06-03 01:23:42.000000000,2020-06-03 01:25:35.000000000,closed,0,mstsc uses full screen as default
+921,2020-06-01 22:36:27.000000000,2020-06-10 15:27:11.000000000,closed,3,"RDP to host fails with ""Your computer could not connect to another console session on the remote computer because you already have a console session in progress."""
+920,2020-05-30 19:23:17.000000000,2020-05-31 19:39:47.000000000,closed,0,TFS/AzDevOps Agent custom capabilities
+919,2020-05-28 18:39:20.000000000,2020-08-11 01:55:28.000000000,closed,3,Moving AD Infra into an internal network
+918,2020-05-28 14:01:49.000000000,2020-06-02 13:05:18.000000000,closed,0,Adopt Pester v5
+917,2020-05-27 15:06:33.000000000,2020-06-03 20:55:34.000000000,closed,0,Implemented resizable base disks
+916,2020-05-26 16:40:39.000000000,2020-06-04 08:33:38.000000000,closed,0,Get rid of Remote Desktop security dialog
+915,2020-05-26 00:09:25.000000000,2020-05-26 00:09:35.000000000,closed,0,Added ADWS test call
+914,2020-05-25 21:07:26.000000000,2020-05-25 21:07:42.000000000,closed,0,Added 'ActivityName' in 'Get-LabInternetFile' when on Azure
+913,2020-05-25 15:31:36.000000000,2020-05-25 21:05:58.000000000,closed,0,Make use of configurable lab sources
+912,2020-05-24 07:56:52.000000000,2020-08-03 13:26:38.000000000,closed,3,Keeps prompting for telemetry
+911,2020-05-24 01:36:16.000000000,2020-05-24 01:36:21.000000000,closed,0,BGInfo file copy went wrong
+910,2020-05-24 00:17:30.000000000,2020-05-24 00:17:36.000000000,closed,0,AL.Ships module import loop
+909,2020-05-23 22:13:22.000000000,2020-05-23 22:14:20.000000000,closed,0,Removed Ships from dependencies
+908,2020-05-22 20:39:56.000000000,2020-05-23 14:48:57.000000000,closed,0,Added tags to resources again
+907,2020-05-22 19:38:59.000000000,2020-05-23 14:48:12.000000000,closed,2,"ARM outbound connectivity, BGInfo"
+906,2020-05-22 12:59:44.000000000,2020-05-22 18:50:36.000000000,closed,0,Added config for Stale Bot
+905,2020-05-21 18:03:32.000000000,2020-05-22 00:36:56.000000000,closed,0,Include WebServer installation
+904,2020-05-21 16:07:39.000000000,2020-05-23 14:48:12.000000000,closed,0,No outbound internet access after using ARM for Azure deployments
+903,2020-05-21 15:42:11.000000000,2020-05-21 16:11:07.000000000,closed,0,"Fixed file encoding for '06 SQL Server and client, domain joined.ps1'"
+902,2020-05-21 15:02:27.000000000,2020-05-25 00:36:28.000000000,closed,3,BGinfo is not longer applied for Azure machines
+901,2020-05-21 14:52:09.000000000,2020-05-23 14:48:57.000000000,closed,0,Tags are missing on Azure VMs 
+900,2020-05-21 14:32:03.000000000,2020-05-21 18:05:08.000000000,closed,0,Updated issue templete
+899,2020-05-21 14:14:57.000000000,2020-05-21 18:10:20.000000000,closed,0,Fixes #890
+898,2020-05-21 10:49:28.000000000,2020-05-21 15:38:14.000000000,closed,3,Changed SQL1 role to Server2014 to match the rest of the script
+897,2020-05-20 19:40:32.000000000,2020-05-22 17:27:36.000000000,closed,1,Compatibility with Az module 4.1.0 object model
+896,2020-05-20 18:50:02.000000000,2020-05-22 18:39:56.000000000,closed,1,Added testing for AutomatedLab
+895,2020-05-20 18:26:06.000000000,2020-05-21 18:09:08.000000000,closed,0,Improved 'Test-LabMachineInternetConnectivity'
+894,2020-05-20 01:00:04.000000000,2020-05-20 11:12:48.000000000,closed,0,Improvements on Mounting and Dismounting ISOs on Azure
+893,2020-05-20 00:42:10.000000000,2020-05-20 11:14:32.000000000,closed,0,Improved error handline of 'Get-LabIssuingCA'
+892,2020-05-19 19:01:51.000000000,2020-05-20 00:27:41.000000000,closed,0,Issues with upcoming Windows builds
+891,2020-05-19 16:03:15.000000000,2020-05-20 00:32:59.000000000,closed,0,Azure Bastion Host implemented
+890,2020-05-19 15:46:40.000000000,2020-05-21 18:10:20.000000000,closed,0,DelayBetweenComputers calculation throws
+889,2020-05-16 00:49:21.000000000,2020-05-20 00:34:53.000000000,closed,1,"Linux path issues, TFS deployment issue, Azure SQL image issue"
+888,2020-05-07 16:42:07.000000000,2020-05-28 19:36:12.000000000,closed,4,Office 2019 Custom Role Bug
+887,2020-05-07 00:20:09.000000000,2020-05-22 00:42:53.000000000,closed,2,SOLVED: Error with WINRM
+886,2020-05-03 00:46:57.000000000,2020-05-04 12:00:56.000000000,closed,0,Fixes #884
+885,2020-05-03 00:39:03.000000000,2020-05-03 00:39:20.000000000,closed,0,Fixing an issue with telemetry user consent
+884,2020-04-30 03:59:22.000000000,2020-05-04 12:00:56.000000000,closed,2,DelayBetweenComputers param on Install-Lab does not honor passed in value
+883,2020-04-30 00:22:11.000000000,2020-05-03 01:02:49.000000000,closed,2,Fixes for CM-1902 custom role
+882,2020-04-29 17:04:32.000000000,2020-04-29 17:04:57.000000000,closed,0,Disabling CredSsp for 'Enable-LabAutoLogon'
+881,2020-04-29 00:30:14.000000000,2020-05-22 00:36:56.000000000,closed,0,"The script 'Deploy.ps1' cannot be run because the following modules that are specified by the ""#requires"" statements of the script are missing: WebAdministration."
+880,2020-04-28 20:21:27.000000000,2020-04-29 17:04:57.000000000,closed,3,SQL Server 2017 WinRM error
+879,2020-04-28 02:59:20.000000000,2020-04-29 00:16:38.000000000,closed,6,Update CM-1902.ps1
+878,2020-04-24 19:00:47.000000000,2020-05-23 22:14:20.000000000,closed,5,Installation of AutomatedLab fails because SHiPS code signature is not correct.
+877,2020-04-24 13:41:38.000000000,2020-04-29 17:25:23.000000000,closed,1,Missing Server 2008 Keys (not R2)
+876,2020-04-24 03:24:01.000000000,2020-04-25 03:52:51.000000000,closed,2,Timeout on RootDC installation
+875,2020-04-23 20:04:24.000000000,2020-04-29 01:03:46.000000000,closed,3,Implemented ARM template deployment
+874,2020-04-22 19:25:45.000000000,2020-07-05 22:19:09.000000000,closed,12,VM deploy failles due to 'file is being used by other process'
+873,2020-04-22 17:06:57.000000000,2020-04-26 17:30:20.000000000,closed,5,Added open-source NuGet Server deployment
+872,2020-04-21 18:05:25.000000000,2020-04-25 01:25:55.000000000,closed,1,Azure: Check for interactive environment before prompting lab sources sync
+871,2020-04-21 17:40:42.000000000,2020-04-22 19:46:47.000000000,closed,0,Fixed issue with Test-Connection failing
+870,2020-04-21 15:56:31.000000000,2020-04-25 01:28:14.000000000,closed,0,Updated release tagging and fixed module import loop (Fixes #869)
+869,2020-04-21 15:21:43.000000000,2020-04-25 01:28:14.000000000,closed,0,Module import recursion bug
+868,2020-04-20 19:35:28.000000000,2020-04-21 15:56:56.000000000,closed,0,Custom ScriptAnalyzer rule
+867,2020-04-18 19:59:39.000000000,2020-04-20 11:37:58.000000000,closed,1,There was a scoping issue with the variable 'doNotSkipNonNonEnglishIso'.
+866,2020-04-18 14:47:35.000000000,2020-04-20 12:16:57.000000000,closed,1,Removing 'DisableAntiSpyware' for Windows 10 1909 deployments.
+865,2020-04-17 19:05:02.000000000,2020-04-18 20:12:36.000000000,closed,0,Packages for RPM and DEB based systems
+864,2020-04-16 13:54:06.000000000,2020-04-18 20:01:52.000000000,closed,0,Removed module-breaking dependencies
+863,2020-04-15 18:27:12.000000000,2020-04-18 20:18:00.000000000,closed,0,Enable Agent Pool assignment on build worker
+862,2020-04-13 01:06:24.000000000,2020-06-03 20:55:34.000000000,closed,3,ReferenceDiskSizeInGB value larger than reference image
+861,2020-04-09 23:07:54.000000000,2020-04-09 23:09:22.000000000,closed,0,Added 'norestart' install argument to .net 4.8 installation
+860,2020-04-08 16:58:06.000000000,2020-04-20 11:37:58.000000000,closed,19,Use of other languages 
+859,2020-04-07 02:30:45.000000000,2020-06-12 20:24:10.000000000,closed,5,External Virtual Switch Problems...
+858,2020-04-07 00:24:37.000000000,2020-04-07 03:54:33.000000000,closed,2,Invoke-LabDscConfiguration throws error with the resource xPSDesiredStateConfiguration
+857,2020-04-05 20:20:25.000000000,2020-04-06 11:16:50.000000000,closed,1,Escaped backslashes in SQL configuration file
+856,2020-04-05 00:31:42.000000000,2020-04-07 13:33:44.000000000,closed,0,SSD storage support (Fixes #763)
+855,2020-04-04 22:37:42.000000000,2020-04-04 22:37:52.000000000,closed,0,SP 2016 sample (Fixes #767)
+854,2020-04-04 19:02:23.000000000,2020-04-29 17:25:43.000000000,closed,7,Best way to create labs based on custom images
+853,2020-04-03 21:30:50.000000000,2020-04-03 21:31:18.000000000,closed,0,Tfs Unknown Role Properties error
+852,2020-04-03 21:29:00.000000000,2020-04-03 21:31:18.000000000,closed,0,TFS Build Worker Parameters trip Validation
+851,2020-04-03 20:25:29.000000000,2020-04-03 20:25:36.000000000,closed,0,Sample and wiki updated (Fixes #194)
+850,2020-03-30 16:23:17.000000000,2020-04-02 17:27:19.000000000,closed,0,Moved remoting to new module
+849,2020-03-28 08:56:04.000000000,2020-04-07 14:19:00.000000000,closed,1,Errors in install Kerberos 101 with hyperv Lab 
+848,2020-03-27 20:12:45.000000000,2020-03-27 20:12:52.000000000,closed,0,Wiki content update
+847,2020-03-27 20:10:59.000000000,2020-03-27 20:11:25.000000000,closed,0,Docs on lab config management
+846,2020-03-20 22:10:18.000000000,2020-04-20 12:16:57.000000000,closed,8,Windows 10 Pro 1909 fails to install
+845,2020-03-18 15:08:16.000000000,2020-03-19 10:19:16.000000000,closed,6,HyperV with Internet Access
+844,2020-03-17 12:46:53.000000000,2020-03-17 12:57:32.000000000,closed,2,SQL Server ISO-File
+843,2020-03-16 13:00:45.000000000,2020-06-16 22:08:18.000000000,closed,0,Integration of lab VMs in Windows Admin Center
+842,2020-03-12 13:03:46.000000000,2020-03-12 13:03:53.000000000,closed,0,Updated docs with fully-offline scenario
+841,2020-03-12 09:42:19.000000000,2020-03-12 11:32:18.000000000,closed,2,Azure: Selecting Working OS Strings
+840,2020-03-11 19:11:36.000000000,2020-03-11 19:11:43.000000000,closed,0,Documented theme was not available
+839,2020-03-11 19:08:52.000000000,2020-03-11 19:08:58.000000000,closed,0,MKDocs update
+838,2020-03-11 16:58:26.000000000,2020-03-11 16:58:33.000000000,closed,0,"Documentation updated, roles added"
+837,2020-03-11 12:09:01.000000000,2020-03-11 13:57:52.000000000,closed,2,Create VMs not with BASEImage
+836,2020-03-11 03:28:43.000000000,2020-03-11 11:59:43.000000000,closed,0,Added 'AutomatedLab.Recipe' and 'AutomatedLab.Ships' to the RequiredM…
+835,2020-03-11 02:48:27.000000000,2020-03-11 02:49:54.000000000,closed,0,Cleanup
+834,2020-03-11 01:40:36.000000000,2020-03-11 02:35:09.000000000,closed,1,Improvement to CM1902 example script for CM1902 custom role
+833,2020-03-10 19:07:31.000000000,2020-03-10 19:08:58.000000000,closed,0,Additional dependencies included in installer
+832,2020-03-10 18:58:19.000000000,2020-03-10 19:08:40.000000000,closed,0,Additional validator added
+831,2020-03-10 18:53:27.000000000,2020-03-10 19:07:56.000000000,closed,0,Skip installed File Servers (Fixes #830)
+830,2020-03-10 17:24:35.000000000,2020-03-10 19:07:56.000000000,closed,0,File Server Role: Role installed detection required
+829,2020-03-10 17:14:48.000000000,2020-03-10 19:08:58.000000000,closed,0,DSC Pull Server offline: Integrate required modules in installer
+828,2020-03-10 17:11:03.000000000,2020-03-10 19:08:40.000000000,closed,0,DSC Pull Server: Validation if CA exists needs to be rolled into validator
+827,2020-03-06 21:19:16.000000000,2020-03-13 13:07:17.000000000,closed,4,Suggestion - Add Lab Name validation at beginning of the provisioning process
+826,2020-03-06 20:58:53.000000000,2020-04-20 14:45:08.000000000,closed,2,Wrong module version in some modules prevents loading 
+825,2020-03-03 04:08:25.000000000,2020-03-13 18:22:15.000000000,closed,2,How can I change the location of the .vhdx files?
+824,2020-03-02 21:36:29.000000000,2020-03-03 00:22:18.000000000,closed,1,Updated CMDLet name in install.md
+823,2020-02-29 21:24:27.000000000,2020-06-02 14:23:49.000000000,closed,2,Online documentation is out of date
+822,2020-02-29 21:21:00.000000000,2020-06-02 14:22:57.000000000,closed,4,License Keys should be a configurable item
+821,2020-02-26 09:33:05.000000000,2020-03-11 13:10:12.000000000,closed,6,AutomatedLab.Recipe issue with installation
+820,2020-02-26 08:58:53.000000000,2020-06-02 13:55:43.000000000,closed,5,Telemetry error
+819,2020-02-26 04:56:28.000000000,2020-07-02 09:11:48.000000000,closed,6,windows server 2019 workgroup mode
+818,2020-02-25 15:49:32.000000000,2020-02-26 15:59:58.000000000,closed,3,Run commands with Apartmentstate STA on AL VM
+817,2020-02-20 23:15:22.000000000,2020-02-21 17:09:41.000000000,closed,2,#Fixes #814
+816,2020-02-19 01:42:52.000000000,2020-02-21 17:31:07.000000000,closed,0,Support for multiple TFS Build Workers on one machine
+815,2020-02-17 22:19:12.000000000,2020-02-20 19:26:46.000000000,closed,3,Setup a one way trust relationship between two domains of different forests
+814,2020-02-17 18:59:45.000000000,2020-02-21 17:09:41.000000000,closed,5,DC role does not work as expected
+813,2020-02-15 23:54:14.000000000,2020-06-25 16:11:10.000000000,closed,2,Question on importing linux iso
+812,2020-02-15 01:45:29.000000000,2020-02-18 14:44:26.000000000,closed,0,Replaced 'Get-Lab' call with lab definition data already available.
+811,2020-02-13 20:08:35.000000000,2020-02-13 22:21:41.000000000,closed,0,Fixing a bug to handle download streams without a length info.
+810,2020-02-11 02:46:53.000000000,2020-02-12 14:46:56.000000000,closed,0,Optimized 'Get-LabInternetFile'
+809,2020-02-10 01:40:35.000000000,2020-02-10 14:29:25.000000000,closed,1,'Test-LabPathIsOnLabAzureLabSourcesStorage' is only called if lab's DefaultVirtualizationEngine is Azure
+808,2020-02-09 02:26:19.000000000,2020-02-10 14:25:55.000000000,closed,0,"Fixes #806: ""Invoke-Command : Specified RemoteRunspaceInfo objects have duplicates"""
+807,2020-02-09 02:04:48.000000000,2020-02-10 14:24:21.000000000,closed,1,Fixing type for parameter 'MaxMemory'
+806,2020-02-08 23:19:52.000000000,2020-02-10 14:25:55.000000000,closed,0,Invoke-Command : Specified RemoteRunspaceInfo objects have duplicates
+805,2020-02-08 19:35:54.000000000,2020-03-27 18:11:44.000000000,closed,2,LINUX! Part 1 - Azure-based lab compatibility
+804,2020-02-07 00:52:26.000000000,2020-02-07 00:55:27.000000000,closed,0,Removed 'Path' parameter from 'New-LabDefinition'
+803,2020-02-06 11:21:25.000000000,2020-02-06 15:48:37.000000000,closed,1,Fixed domain join performance
+802,2020-02-03 21:34:27.000000000,2020-07-02 09:11:47.000000000,closed,20,CredSSP Issues - Post Install Config Fails
+801,2020-01-29 14:48:11.000000000,2020-01-29 14:48:27.000000000,closed,0,"Help content updated, AD on Azure deployment updated"
+800,2020-01-28 17:24:50.000000000,2020-01-28 17:30:43.000000000,closed,0,"SQL Configuration file behavior, Lab Sources auto update"
+799,2020-01-27 02:34:45.000000000,2020-01-30 17:19:34.000000000,closed,4,FilePath Error in VMs
+798,2020-01-24 02:40:40.000000000,2020-06-22 12:14:00.000000000,closed,10,Creating Internal Network is not working
+797,2020-01-17 13:43:39.000000000,2020-01-27 20:41:17.000000000,closed,1,Removed project management dashboard
+796,2020-01-17 13:40:47.000000000,2020-01-17 14:44:50.000000000,closed,1,Removed Project Management Dashboard
+795,2020-01-16 18:49:20.000000000,2020-01-31 13:53:53.000000000,closed,4,AutomatedLab no longer working
+794,2020-01-11 21:44:53.000000000,2020-01-27 14:09:14.000000000,closed,1,Removes hardcoded SQL configuration file path
+793,2020-01-11 20:56:22.000000000,2020-01-30 17:21:25.000000000,closed,0,$configurationFileContent in AutomatedLabSQL.psm1
+792,2020-01-09 21:48:29.000000000,2020-01-28 17:30:43.000000000,closed,0,Some console output interrupting formatting for SQL2017
+791,2020-01-09 18:34:21.000000000,2020-01-28 13:47:26.000000000,closed,5,Problem adding ISO to Lab
+790,2020-01-07 03:17:03.000000000,2020-01-27 20:40:43.000000000,closed,3,New custom role for ConfigMgr 1902
+789,2020-01-05 14:33:28.000000000,2020-01-29 14:48:27.000000000,closed,1,The creation of ADDS on Azure does not work irregularly
+788,2020-01-03 16:23:33.000000000,2020-01-03 16:24:43.000000000,closed,0,Added TFS / Azure DevOps Feed functions
+787,2020-01-02 02:11:21.000000000,2020-01-07 19:39:59.000000000,closed,1,Warning from New-AzVirtualNetworkSubnetConfig cmdlet if I create a new Lab on Azure
+786,2019-12-30 17:41:25.000000000,2020-01-03 06:52:19.000000000,closed,0,Fix/#783
+785,2019-12-30 02:49:19.000000000,2019-12-30 02:50:28.000000000,closed,0,Fixes #782
+784,2019-12-30 02:35:52.000000000,2019-12-30 02:36:02.000000000,closed,0,Additional improvements following up #780
+783,2019-12-28 19:22:54.000000000,2020-01-03 06:52:21.000000000,closed,4,Multiple records in Invoke-LabCommand's errorvariable
+782,2019-12-18 21:18:56.000000000,2019-12-30 02:50:29.000000000,closed,3,Azure DSC Deployment Issues
+781,2019-12-16 19:17:12.000000000,2019-12-16 19:17:35.000000000,closed,1,Increasing performance of Remove-LabPSSession
+780,2019-12-16 19:15:44.000000000,2019-12-21 03:45:26.000000000,closed,0,SQL 2019 did not work as expected
+779,2019-12-16 02:30:42.000000000,2019-12-16 22:09:47.000000000,closed,0,Fix/auto logon
+778,2019-12-16 02:21:15.000000000,2019-12-16 02:24:35.000000000,closed,0,"Fixing links, adding VC++ 2015 runtime to SQL setup"
+777,2019-12-12 15:36:28.000000000,2019-12-15 02:22:08.000000000,closed,0,SharePoint installation overhaul
+776,2019-12-12 15:18:03.000000000,2019-12-15 02:18:49.000000000,closed,1,Improved MDT custom role and updated links
+775,2019-12-10 14:30:05.000000000,2020-05-20 00:32:59.000000000,closed,0,Azure Bastion Host
+774,2019-12-09 15:18:09.000000000,2019-12-10 16:41:19.000000000,closed,2,Added SQL 2019 support
+773,2019-12-06 01:14:28.000000000,2019-12-30 03:40:27.000000000,closed,3,"Allow cryptography algorithms compatible with Windows NT 4.0"" that prevents weaker cryptography algorithms when establishing security  channel sessions."
+772,2019-12-06 00:45:46.000000000,2020-02-12 14:46:55.000000000,closed,4,Get-LabInternetFile performance
+771,2019-12-05 17:52:48.000000000,2019-12-10 16:41:53.000000000,closed,3,Fixed an issue in *-LabAutoLogon cmdlets when running on DCs
+770,2019-12-05 17:48:46.000000000,2019-12-05 17:48:55.000000000,closed,0,Implemented File Server role
+769,2019-12-04 17:06:25.000000000,2019-12-04 18:38:08.000000000,closed,0,Adding 'RemoveExternalSwitches' switch to 'Remove-Lab'
+768,2019-12-04 04:51:03.000000000,2019-12-04 04:54:24.000000000,closed,0,Fixing issues with Exchange 2013 CU23
+767,2019-12-03 17:13:27.000000000,2020-04-04 22:37:53.000000000,closed,1,SharePoint 2016 not implemented
+766,2019-12-03 04:09:04.000000000,2019-12-03 17:11:17.000000000,closed,0,Fixes #759 and improves ProGet role
+765,2019-11-13 18:54:19.000000000,2019-12-03 17:10:57.000000000,closed,0,Auto shutdown Azure VMs
+764,2019-11-12 18:39:36.000000000,2020-02-06 15:58:28.000000000,closed,1,Enable AutoShutdown on Azure
+763,2019-11-08 23:20:30.000000000,2020-04-07 13:33:45.000000000,closed,1,Please add option to use StandardSSD_LRS as in resource groups and disks
+762,2019-11-07 21:50:13.000000000,2020-02-07 23:13:23.000000000,closed,5,Productkey parameter not found
+761,2019-10-29 07:24:55.000000000,2020-02-16 03:55:02.000000000,closed,5,New-LabDefinition -MaxMemory not working
+760,2019-10-28 02:54:16.000000000,2019-11-10 01:22:18.000000000,closed,2,Updated link to single domain-joined svr example
+759,2019-10-26 19:37:39.000000000,2019-12-03 17:11:18.000000000,closed,5,Kerberos tickets not received for primary account 
+758,2019-10-26 06:00:15.000000000,2019-10-26 06:32:20.000000000,closed,1,How do I get Show-LabDeploymentSummary to output to a file?
+757,2019-10-12 04:02:45.000000000,2019-10-12 04:03:05.000000000,closed,0,Enabling MacAddressSpoofing in HyperV role
+756,2019-10-11 09:59:18.000000000,2020-02-07 03:41:46.000000000,closed,5,When -PostInstallationActivity get executed for a VM using a RootDC role?
+755,2019-10-08 21:36:35.000000000,2019-10-08 21:37:55.000000000,closed,0,Bug fixes
+754,2019-10-05 09:14:22.000000000,2020-02-07 23:12:26.000000000,closed,6,Domain Controller timeout and DNS Setting
+753,2019-10-05 08:21:03.000000000,2019-12-03 04:18:30.000000000,closed,1,"Create external virtual switch without ""allow management os share"""
+752,2019-10-03 22:26:26.000000000,2019-10-08 21:42:58.000000000,closed,1,Change regex in CIMInstance parsing. Fixes #751
+751,2019-10-03 21:45:33.000000000,2019-10-08 21:42:59.000000000,closed,1,Test-LabAutoLogon is failing on non-alphanumeric domains or usernames
+750,2019-10-03 21:34:36.000000000,2020-02-07 23:14:12.000000000,closed,1,"Delay with ""Waiting for machines to start """
+749,2019-10-03 11:45:46.000000000,2019-10-03 12:18:48.000000000,closed,0,Correction of a typing error
+748,2019-10-02 18:51:04.000000000,2019-10-08 11:25:52.000000000,closed,2,Azure-Lab: Unable to deploy DSC configuration
+747,2019-10-02 18:41:40.000000000,2019-10-02 18:42:35.000000000,closed,1,Azure-Lab: Unable to deploy DSC config 
+746,2019-10-01 23:25:16.000000000,2019-10-04 02:26:49.000000000,closed,2,Install method different - MSI vs from PowerShell
+745,2019-10-01 03:40:55.000000000,2019-10-01 11:05:20.000000000,closed,1,Clean Up Write-PSFMessages Calls in AutomatedLabDisks.psm1 (Fixes #691)
+744,2019-09-30 14:29:02.000000000,2020-02-07 23:15:14.000000000,closed,26,How to update PowerShell ISE to show AutomatedLab syntax
+743,2019-09-30 14:21:14.000000000,2019-10-01 00:30:14.000000000,closed,3,Adding secondary drive to ADDC
+742,2019-09-26 23:44:37.000000000,2019-09-28 13:54:01.000000000,closed,0,Publish dotnet libraries
+741,2019-09-26 15:24:02.000000000,2019-09-27 00:48:11.000000000,closed,0,OS Type detection fix
+740,2019-09-25 16:13:45.000000000,2019-09-25 16:13:56.000000000,closed,0,Smaller fixes
+739,2019-09-25 15:31:21.000000000,2019-09-28 13:54:01.000000000,closed,0,AL PSCore build process
+738,2019-09-25 15:29:17.000000000,2019-09-28 14:43:10.000000000,closed,3,Auto installer
+737,2019-09-24 15:55:07.000000000,2019-09-24 15:55:18.000000000,closed,0,Fixing an issue in Azure module detection
+736,2019-09-24 13:44:26.000000000,2019-09-24 13:44:33.000000000,closed,0,Updated changelog
+735,2019-09-24 13:14:39.000000000,2019-09-24 13:15:14.000000000,closed,0,Disabling .net optimization scheduled tasks on all 2012R2+ machines
+734,2019-09-23 18:30:07.000000000,2019-09-23 18:30:30.000000000,closed,0,Fixed link to version report
+733,2019-09-23 13:41:17.000000000,2019-09-23 18:27:05.000000000,closed,0,More reliable Az module detection
+732,2019-09-22 12:56:57.000000000,2019-09-24 13:30:58.000000000,closed,0,Telemetry 'ask me later' implemented
+731,2019-09-21 10:16:27.000000000,2019-09-21 10:16:43.000000000,closed,0,Version distribution
+730,2019-09-21 09:51:38.000000000,2019-09-21 09:51:45.000000000,closed,0,"Updated usage report, SQL Management Studio 2017 download link"
+729,2019-09-20 15:25:06.000000000,2019-09-20 15:25:16.000000000,closed,0,Minor improvements
+728,2019-09-15 22:57:32.000000000,2019-09-15 22:57:39.000000000,closed,0,Some cleanup
+727,2019-09-13 08:37:09.000000000,2019-09-13 08:37:17.000000000,closed,0,Updating TFS / Azure DevOps BuildAgentUri 
+726,2019-09-05 11:17:59.000000000,2019-09-05 11:18:13.000000000,closed,0,Added Office 2019 role to installer
+725,2019-08-29 15:01:01.000000000,2019-09-05 09:16:15.000000000,closed,0,Performance improvement
+724,2019-08-29 14:51:08.000000000,2019-08-29 14:51:18.000000000,closed,0,Small fix in DSC Reporting query
+723,2019-08-29 01:23:34.000000000,2019-09-05 09:16:01.000000000,closed,1,install Office 365ProPlus Office 2019 as a Custom Role
+722,2019-08-29 01:00:10.000000000,2019-09-05 11:19:40.000000000,closed,1,Update Office installs for O365ProPlus & Office2019
+721,2019-08-28 19:41:57.000000000,2019-08-28 22:12:41.000000000,closed,2,Cannot find settings.psd1
+720,2019-08-24 20:15:24.000000000,2019-10-01 00:32:01.000000000,closed,2,HyperV Server 2019 Install-Module Error
+719,2019-08-23 12:33:38.000000000,2019-08-31 16:25:40.000000000,closed,0,Replace CimInstance in Remote Commands
+718,2019-08-22 23:19:46.000000000,2019-08-29 01:00:55.000000000,closed,2,Merge pull request #1 from AutomatedLab/develop
+717,2019-08-22 22:38:09.000000000,2019-08-22 22:41:52.000000000,closed,0,Some minor improvements to the Exchange 2019 role
+716,2019-08-20 00:46:55.000000000,2019-10-08 21:37:55.000000000,closed,15,Unable to labs to deploy to Azure
+715,2019-08-16 22:54:59.000000000,2019-08-22 10:04:59.000000000,closed,4,Feature Add Exchange 2019 CR
+714,2019-08-15 16:34:11.000000000,2019-09-30 23:37:30.000000000,closed,6,Hyper-V Role does not install
+713,2019-08-14 20:50:32.000000000,2019-08-16 14:02:55.000000000,closed,1,Unsupported os compat
+712,2019-08-13 14:07:18.000000000,2019-08-13 14:07:25.000000000,closed,0,Updating DSC sample scripts
+711,2019-08-13 11:51:58.000000000,2019-08-13 14:05:35.000000000,closed,0,Using TelemetryHelper
+710,2019-08-04 15:10:21.000000000,2019-08-15 15:26:55.000000000,closed,1,Fix here strings and sleep 10sec #709
+709,2019-08-01 02:33:21.000000000,2019-09-05 11:36:25.000000000,closed,8,Bootloader did not load an operating system
+708,2019-07-31 20:02:41.000000000,2019-07-31 20:02:48.000000000,closed,0,Fixes #704
+707,2019-07-31 16:53:51.000000000,2019-07-31 16:57:10.000000000,closed,0,"Fixes #705, DoNotLoadDefaultTemplates for CAs did not work"
+706,2019-07-30 16:25:51.000000000,2019-07-30 17:54:55.000000000,closed,5,Unable to install Windows Server 2016
+705,2019-07-27 00:08:21.000000000,2019-07-31 16:57:10.000000000,closed,1,CaRoot role deployment fails when DoNotLoadDefaultTemplates is used
+704,2019-07-26 21:35:35.000000000,2019-07-31 20:02:51.000000000,closed,0,Unnecessary restart during installation of Root DC
+703,2019-07-25 00:04:09.000000000,2019-09-09 09:10:36.000000000,closed,4,Need Exchange 2019 custom role
+702,2019-07-22 09:33:35.000000000,2019-07-24 15:28:25.000000000,closed,1,Module could not be loaded Error
+701,2019-07-18 15:02:35.000000000,2019-07-18 16:42:18.000000000,closed,4,Problem with simplest lab setup (probably Get-HostsFile cmdlet missing)
+700,2019-07-17 21:06:31.000000000,2020-07-02 09:11:46.000000000,closed,2,Bugs in ADFS deployment related to certificate request
+699,2019-07-05 01:53:37.000000000,2020-05-23 07:53:28.000000000,closed,3,VLAN Support for Private Switches
+698,2019-07-05 00:17:53.000000000,2019-07-14 02:57:44.000000000,closed,3,Any issues issues after this change : Adopted PSFramework in favor of datum 
+697,2019-07-04 14:56:57.000000000,2019-07-04 14:57:04.000000000,closed,0,Fixes an 'ParameterArgumentValidationError'
+696,2019-07-03 22:21:05.000000000,1970-01-01 00:00:00.000000001,open,3,Install-LabWindowsFeature -FeatureName RSAT  fails on windows 10
+695,2019-07-03 15:43:36.000000000,2019-07-03 17:49:23.000000000,closed,5,Operating System Key for Windows 10 Education is missing
+694,2019-07-03 12:02:17.000000000,2019-07-03 12:02:30.000000000,closed,0,Fixes #646
+693,2019-07-03 02:03:30.000000000,2019-07-03 02:10:43.000000000,closed,0,Moving code to create help from AppVeyor.yml to PreBuild.ps1 in the installer
+692,2019-07-02 17:58:54.000000000,2019-07-03 13:40:19.000000000,closed,1,Included SSRS 2017 in SQL Setup (fixes #381)
+691,2019-07-01 20:07:08.000000000,2019-10-01 11:05:20.000000000,closed,1,Write-PSFMessage Issues
+690,2019-06-27 12:50:22.000000000,2019-06-27 12:50:28.000000000,closed,0,Fix package inst again
+689,2019-06-27 09:14:13.000000000,2019-06-27 09:14:38.000000000,closed,0,Ensure current Common library is used
+688,2019-06-26 23:48:14.000000000,2019-06-26 23:48:21.000000000,closed,0,PSFileTransfer: Dependency to PSFramework reverted
+687,2019-06-26 20:55:26.000000000,2019-06-26 23:56:29.000000000,closed,0,Location of help XML updated in installer
+686,2019-06-26 18:34:33.000000000,2019-06-27 09:07:47.000000000,closed,0,Suppress error when TFS is deployed and URI is not accessible
+685,2019-06-26 18:10:34.000000000,2019-06-26 18:12:17.000000000,closed,0,Installer updated (added PSFramework)
+684,2019-06-26 17:22:11.000000000,2019-06-26 17:22:20.000000000,closed,0,Fix issue with Azure and software install
+683,2019-06-26 11:58:56.000000000,2019-06-26 11:59:02.000000000,closed,0,Software install multiple machines
+682,2019-06-26 00:35:35.000000000,2019-06-26 00:35:40.000000000,closed,0,Multiple environment support for Install-LabSoftwarePackage
+681,2019-06-25 12:55:38.000000000,2019-06-25 12:56:03.000000000,closed,0,Added voice notification to installer
+680,2019-06-25 11:51:09.000000000,2019-06-25 11:51:21.000000000,closed,0,Missing CustomRoles error fixed
+679,2019-06-24 23:37:13.000000000,2019-08-20 18:51:48.000000000,closed,2,rolling back to previous versions fails 
+678,2019-06-21 15:42:17.000000000,2019-06-25 11:24:55.000000000,closed,0,Write-PSFMessage is not available in remote scope
+677,2019-06-20 19:46:24.000000000,2019-07-04 14:57:04.000000000,closed,3,Exchange 2013 &  2016 fail on 5.10
+676,2019-06-19 13:38:32.000000000,2019-06-25 11:28:19.000000000,closed,0,Software install on PS < 5 fails
+675,2019-06-19 11:29:20.000000000,2019-06-19 11:43:08.000000000,closed,0,Remove aliases
+674,2019-06-18 17:46:07.000000000,2019-06-18 17:47:17.000000000,closed,0,Fixing syntax errors: An error occurred while creating the pipeline.
+673,2019-06-18 16:52:00.000000000,2019-06-18 17:14:29.000000000,closed,0,Fixed Exchange installation
+672,2019-06-18 12:09:32.000000000,2019-06-18 15:11:05.000000000,closed,0,Fixing cert errors on PS Core/TFS
+671,2019-06-18 11:40:25.000000000,2019-06-18 11:48:03.000000000,closed,0,Added checks to Set-LabInstallationCredential
+670,2019-06-17 17:31:55.000000000,2019-06-17 17:32:03.000000000,closed,0,Allow multiple providers for a notification
+669,2019-06-17 16:45:15.000000000,2019-06-17 16:50:32.000000000,closed,0,Added more help content
+668,2019-06-13 15:49:45.000000000,2019-06-14 00:39:08.000000000,closed,0,SSRS Setup Invoke-CimMethod used
+667,2019-06-13 12:23:02.000000000,2019-06-13 12:24:33.000000000,closed,0,New report links
+666,2019-06-13 05:12:10.000000000,2019-07-14 02:58:22.000000000,closed,8,How to create multiple version coexistence lab EX 2013 & 2016
+665,2019-06-09 10:50:42.000000000,2019-06-13 16:27:42.000000000,closed,2,bcdboot.exe not found
+664,2019-06-08 19:44:29.000000000,2019-06-08 19:44:37.000000000,closed,0,Fixing in issue with TFS worker deployment
+663,2019-06-07 16:17:44.000000000,2019-06-13 12:28:05.000000000,closed,3,.NET Core
+662,2019-06-06 19:06:41.000000000,2019-06-11 11:40:01.000000000,closed,1,Markdown help
+661,2019-06-05 03:10:34.000000000,2019-06-05 03:10:41.000000000,closed,0,"Removing Azure DNS forwarder for Hyper-V, completes #568"
+660,2019-06-03 12:14:07.000000000,2019-06-06 12:32:47.000000000,closed,1,Enable-LabHostRemoting sometimes crashes the CLI
+659,2019-06-02 21:33:34.000000000,2019-06-13 09:30:10.000000000,closed,3,Documentation problem
+658,2019-05-28 01:07:13.000000000,2019-06-05 02:20:17.000000000,closed,0,Product Key handling
+657,2019-05-26 18:40:10.000000000,2019-06-05 02:20:17.000000000,closed,2,Server 2019 v1903 - product key
+656,2019-05-17 11:50:59.000000000,2019-06-04 11:16:48.000000000,closed,3,Implemented .NET Core
+655,2019-05-16 16:51:55.000000000,2019-06-07 11:05:00.000000000,closed,5,Added deployment test to TFS environment
+654,2019-05-15 15:46:14.000000000,2019-05-15 15:46:22.000000000,closed,0,Typo fixed
+653,2019-05-15 11:22:25.000000000,2019-05-15 11:42:03.000000000,closed,0,AppVeyor build modified settings.psd1
+652,2019-05-15 02:13:35.000000000,2019-05-15 02:13:46.000000000,closed,0,Invoke-LabCommand did not work with scripts on Azure LabSources
+651,2019-05-15 00:37:15.000000000,2019-05-15 00:37:25.000000000,closed,0,File type change and path fix
+650,2019-05-14 15:44:08.000000000,2019-05-14 15:44:38.000000000,closed,0,Local setup of WAC
+649,2019-05-14 14:58:03.000000000,2019-05-14 15:45:42.000000000,closed,0,Suppressing Breaking Change Warnings for Azure cmdlets
+648,2019-05-13 16:52:23.000000000,2019-05-13 16:52:39.000000000,closed,0,Windows Admin Center Developer Mode installation added
+647,2019-05-13 02:11:06.000000000,2019-06-13 19:26:30.000000000,closed,2,Unable to delete VM names
+646,2019-05-10 18:31:32.000000000,2019-07-03 12:02:32.000000000,closed,2,Restore-LabVMSnapshot throws errors
+645,2019-05-08 17:18:58.000000000,2019-05-14 09:11:10.000000000,closed,4,Implemented new role Azure DevOps
+644,2019-05-08 11:56:05.000000000,2019-05-08 23:04:21.000000000,closed,0,Breaking changes in Az 2.0.0
+643,2019-05-06 13:15:37.000000000,2019-05-06 13:28:05.000000000,closed,0,Azure: TFS Build Worker is not installed
+642,2019-05-03 14:16:00.000000000,2019-05-03 14:17:17.000000000,closed,0,Offline env should not throw (Fixes #641)
+641,2019-05-03 09:29:25.000000000,2019-05-17 12:40:34.000000000,closed,3,Labs fail with no internet access in 5.9.0
+640,2019-05-02 16:57:00.000000000,2019-05-03 11:16:43.000000000,closed,0,Fixing certificate issues in DscWorkshop lab
+639,2019-05-01 17:07:42.000000000,2019-05-17 12:40:55.000000000,closed,5,Azure: TFS workers are not deployed properly
+638,2019-05-01 00:05:39.000000000,2019-05-01 00:08:59.000000000,closed,0,Fixes an issue downloading files from the internet in Azure labs
+637,2019-04-29 20:10:21.000000000,2019-04-29 22:16:42.000000000,closed,0,TFS on Azure fixed
+636,2019-04-27 10:54:38.000000000,2019-04-27 10:55:42.000000000,closed,0,Removing ORDER BY statement
+635,2019-04-26 14:51:04.000000000,2019-04-27 10:55:24.000000000,closed,1,[Possibly breaking change] Added proper port mapping
+634,2019-04-25 17:15:43.000000000,2019-04-25 17:16:19.000000000,closed,0,test
+633,2019-04-24 12:10:42.000000000,2019-04-26 11:51:21.000000000,closed,2,Keyboard layout
+632,2019-04-23 02:30:05.000000000,1970-01-01 00:00:00.000000001,open,2,DSC reporting - custom view error on order by
+631,2019-04-19 18:35:13.000000000,2019-04-25 21:09:33.000000000,closed,0,Get-LabAzureResourceGroup -Current returns $null
+630,2019-04-18 09:43:09.000000000,2019-06-14 12:38:37.000000000,closed,2,HostsFile module references PSLog
+629,2019-04-11 10:07:34.000000000,2019-04-19 18:36:34.000000000,closed,3,Remove-Lab not removing azure resources.
+628,2019-04-11 01:08:04.000000000,2019-04-11 07:03:24.000000000,closed,1,"New-LWHypervVM : Exception calling ""Substring"" with ""2"" argument(s): ""Index and length must refer to a location within the string."
+627,2019-04-10 11:26:12.000000000,2019-04-12 02:16:38.000000000,closed,1,QUESTION: MemoryWeight_OpsMgr
+626,2019-04-10 08:25:10.000000000,2019-04-12 02:21:19.000000000,closed,1,Custom-Roles.md Wiki misspelling
+625,2019-03-26 16:42:16.000000000,2019-04-19 18:16:01.000000000,closed,6,Added Hyper-V role (Hyper-V and Azure)
+624,2019-03-25 17:31:04.000000000,2019-03-25 17:33:20.000000000,closed,0,Test-LabHostConnected throws where it should not
+623,2019-03-25 12:34:42.000000000,2019-03-25 14:08:18.000000000,closed,0,Fix missing2019 (Fixes #622)
+622,2019-03-22 19:22:29.000000000,2019-03-26 16:43:37.000000000,closed,3,Azure VM OS - Windows 2019 Server
+621,2019-03-22 15:11:56.000000000,2019-06-18 11:48:03.000000000,closed,0,Azure Deployments should validate admin user and password before deploying
+619,2019-03-13 21:54:14.000000000,2019-06-17 17:49:53.000000000,closed,10,Server Hyper-V 2019
+618,2019-03-10 09:45:02.000000000,2019-03-10 10:10:52.000000000,closed,1,"Unable to creathe the VM ""The base image for operating system 'Windows Server 2012 R2 Datacenter Evaluation (Server with a GUI)' could not be created. The error is 2"""
+617,2019-03-08 21:26:03.000000000,2019-03-25 17:32:59.000000000,closed,0,Improving wait handling in Checkpoint / Restore-LWAzureVM
+616,2019-03-08 21:16:28.000000000,2019-03-25 17:31:51.000000000,closed,0,The repo uoload into TFS uploads all branches now
+615,2019-03-07 14:58:46.000000000,2019-07-14 02:58:48.000000000,closed,9,Get-LabAvailableOperatingSystems does not display any ISO available with 4 in \LabSources\ISOs
+614,2019-03-06 15:48:21.000000000,2019-03-06 15:48:28.000000000,closed,0,Removed AzureResourceGroup again
+613,2019-03-05 00:00:59.000000000,2019-03-06 14:54:34.000000000,closed,5,Implemented Get-LabVmSnapshot (fixes #611)
+612,2019-03-03 23:46:13.000000000,2019-03-03 23:46:20.000000000,closed,0,"Updating AGPM sample script, minor changes"
+611,2019-03-03 04:00:15.000000000,2019-03-06 14:54:36.000000000,closed,0,Introduce Get-LabVMSnapshot
+610,2019-03-01 15:51:28.000000000,2019-03-01 21:43:24.000000000,closed,0,Fixing random XML Serialization corruptions by removing the old file first
+609,2019-03-01 15:38:02.000000000,2019-10-09 18:12:30.000000000,closed,7,Default Switch With Static IP
+608,2019-02-25 22:41:17.000000000,2019-02-27 16:00:41.000000000,closed,7,Installed and ready machines not detected
+607,2019-02-25 18:46:18.000000000,2019-02-25 18:47:03.000000000,closed,0,Added powershell-yaml to required modules.
+606,2019-02-21 15:32:48.000000000,2019-02-26 15:23:01.000000000,closed,6,Network setup
+605,2019-02-19 17:48:19.000000000,2019-02-26 15:29:41.000000000,closed,1,SwitchType was incorrect in sample script
+604,2019-02-18 15:31:42.000000000,2019-02-20 16:04:46.000000000,closed,2,Increased module import speed
+603,2019-02-18 14:59:05.000000000,2019-02-18 14:59:13.000000000,closed,0,Moved PSLog settings back to the PSLog module
+602,2019-02-18 13:48:37.000000000,2019-02-18 13:48:52.000000000,closed,0,Added Enable and Disable-LabAutoLogon (fixes #601)
+601,2019-02-17 22:00:19.000000000,2019-06-17 17:46:23.000000000,closed,7,Autoadminlogon
+600,2019-02-15 05:36:08.000000000,2019-02-15 05:36:15.000000000,closed,0,readme updated
+599,2019-02-15 05:25:29.000000000,2019-02-15 05:52:32.000000000,closed,0,installer: preparations for when ALCommon has been released
+598,2019-02-15 05:18:09.000000000,2019-02-15 05:18:16.000000000,closed,0,Added error handling for missing lab cache
+597,2019-02-15 04:58:57.000000000,2019-02-15 05:01:28.000000000,closed,0,Added Get-LabCache cmdlet
+596,2019-02-15 02:44:49.000000000,2019-02-15 02:45:00.000000000,closed,0,Added check boxes
+595,2019-02-14 23:26:20.000000000,2019-02-15 04:52:15.000000000,closed,1,Implemented lab recipes
+594,2019-02-11 04:32:45.000000000,2019-02-11 04:45:56.000000000,closed,0,Custom Azure DNS Label (fixes #447)
+593,2019-02-07 05:29:17.000000000,2019-02-07 16:01:49.000000000,closed,0,"Fix for #591, incorrect version in the installer"
+592,2019-02-06 00:45:58.000000000,2019-02-06 02:42:41.000000000,closed,0,New TFS agent can use SChannel backend
+591,2019-02-01 23:30:26.000000000,2019-02-07 16:01:49.000000000,closed,1,installer does not create correct folder structure for modules
+590,2019-02-01 06:48:13.000000000,1970-01-01 00:00:00.000000001,open,0,Question regarding paramter synching for Custom Roles
+589,2019-01-31 14:21:54.000000000,2019-02-07 13:15:57.000000000,closed,0,AppVeyor updated: Proper automatic versioning of releases
+588,2019-01-30 15:46:18.000000000,2019-01-30 17:53:11.000000000,closed,0,Added default parameter to Get-LabConfigurationItem
+587,2019-01-30 15:44:53.000000000,2019-01-30 17:52:46.000000000,closed,1,Sync lab sources to Azure (Fixes #226)
+586,2019-01-29 23:11:50.000000000,2019-01-29 23:35:36.000000000,closed,1,Azure VNET handling updated
+585,2019-01-28 17:24:09.000000000,2019-01-28 18:00:14.000000000,closed,0,Fix the chaos from merging master into develop
+584,2019-01-28 17:12:28.000000000,2019-01-28 17:12:50.000000000,closed,0,Fixed issue with Azure additional disks (Fixes #583)
+583,2019-01-28 14:44:55.000000000,2019-01-30 19:51:01.000000000,closed,1,[Azure] Additional disks break automation
+582,2019-01-22 04:24:18.000000000,2019-01-28 15:27:51.000000000,closed,1,Can't install Windows 2019 Evaluation Editions 
+581,2019-01-21 23:11:24.000000000,2019-01-22 00:29:11.000000000,closed,3,Please reopen ...How to get the DSC Demo1 to work #561
+580,2019-01-19 02:07:07.000000000,2019-01-24 22:31:04.000000000,closed,0,Fixes for Exchange 2013 custom role
+579,2019-01-17 22:02:19.000000000,2019-01-19 02:02:21.000000000,closed,0,Added PassThru pattern for 'Copy-LabFileItem'
+578,2019-01-17 19:48:02.000000000,2019-01-17 22:00:50.000000000,closed,0,Minor fixes
+577,2019-01-17 19:10:12.000000000,2019-01-17 19:15:41.000000000,closed,0,New way to handle product keys
+576,2019-01-17 18:10:42.000000000,2019-01-17 18:23:08.000000000,closed,0,Some reorg of XML Serialize methods
+575,2019-01-17 17:37:14.000000000,2019-01-17 18:09:45.000000000,closed,0,Fixing validator 'MandatoryRoleProperties' and 'UnknownRoleProperties
+574,2019-01-16 20:38:35.000000000,2019-01-17 22:00:52.000000000,closed,3,Waiting for machines to start up....
+573,2019-01-15 17:40:31.000000000,2019-01-15 17:40:38.000000000,closed,0,Added support for multiple C++ runtime versions
+572,2019-01-15 04:33:03.000000000,2019-01-15 04:37:34.000000000,closed,1,Fixes #561 with DSC
+571,2019-01-11 03:42:39.000000000,2019-01-17 19:46:04.000000000,closed,2,Issue with Hyper-V
+570,2019-01-11 01:43:16.000000000,2019-01-15 17:54:38.000000000,closed,2,Increase $Timeout default value at least twice.
+569,2019-01-09 21:20:46.000000000,2019-01-15 15:32:50.000000000,closed,2,Cannot install Office 2016 in cause of broken ODT download link
+568,2019-01-09 20:53:56.000000000,2019-06-05 03:05:50.000000000,closed,4,Propose to remove DNS forwarder on Domain Controller DNS Settings on-premise
+567,2019-01-09 15:49:07.000000000,2019-01-19 02:02:21.000000000,closed,1,Feature Request: Copy-LabFileItem to support -PassThru
+566,2019-01-07 21:22:40.000000000,2019-01-15 04:47:15.000000000,closed,6,Issue with MultiForestLab and the FirstChildDC role
+565,2019-01-07 03:21:22.000000000,2019-01-17 19:46:25.000000000,closed,4,Moving product keys from source code to XML
+564,2019-01-05 13:48:21.000000000,2019-01-15 21:59:01.000000000,closed,1,Updated Exchange 2013 Custom Role
+563,2019-01-04 17:17:30.000000000,2019-01-04 17:17:38.000000000,closed,0,When downloading a file with 'Get-LabInternetFile' the filename can now be specified.
+562,2019-01-04 17:16:00.000000000,2019-01-04 17:19:17.000000000,closed,0,Added a configurable timeout for Test-Port.
+561,2019-01-04 02:52:21.000000000,2020-06-03 20:56:24.000000000,closed,12,Question: How to get the DSC Demo1 to work
+560,2019-01-03 01:32:43.000000000,2019-01-04 17:19:29.000000000,closed,0,Fixes #491
+559,2018-12-28 16:45:46.000000000,2019-01-25 14:53:56.000000000,closed,7,Issue#152 vlan support
+558,2018-12-24 06:50:32.000000000,2018-12-24 16:53:28.000000000,closed,2,Update Exchange2016  to CU11
+557,2018-12-23 08:09:04.000000000,2018-12-23 16:48:13.000000000,closed,1,Updated to Support ADK 1809
+556,2018-12-21 13:46:57.000000000,2018-12-21 13:56:17.000000000,closed,0,Fix 545 mdt
+555,2018-12-21 03:04:49.000000000,2018-12-21 03:39:51.000000000,closed,2,feature request - add OS build version labs
+554,2018-12-20 13:57:24.000000000,2018-12-21 16:04:18.000000000,closed,0,Restore-LabVMSnapshot does not error if snapshot name is wrong
+553,2018-12-20 03:43:08.000000000,2018-12-24 13:52:13.000000000,closed,1,Replaced all AzureRm cmdlet calls with Az
+552,2018-12-14 19:55:42.000000000,2018-12-20 02:35:02.000000000,closed,0,Replaced all references to Role Exchange with Custom Role
+551,2018-12-14 19:55:16.000000000,2018-12-20 02:34:44.000000000,closed,0,Fixed error message with empty disk cache
+550,2018-12-14 06:36:02.000000000,2018-12-21 13:33:23.000000000,closed,5,deployment with windows server 2019 fails with unattend.xml error
+549,2018-12-09 23:43:33.000000000,2018-12-10 00:18:07.000000000,closed,1,Update Product Keys
+548,2018-12-09 17:06:32.000000000,2018-12-11 00:38:45.000000000,closed,4,Product Keys are somehow mixed up
+547,2018-12-09 14:04:50.000000000,2018-12-11 03:19:20.000000000,closed,4,Feature Installation Server 2008 R2 not working
+546,2018-12-09 03:40:55.000000000,2018-12-21 14:32:41.000000000,closed,11,The \SampleScripts\Scenarios\SCCM Lab 1.ps1 is also broken similarly to Exchange 2016
+545,2018-12-07 18:05:27.000000000,2018-12-21 13:33:11.000000000,closed,6,"Help actualizing \SampleScripts\Scenarios\MDT Lab 1, MDT Server 1.ps1"
+544,2018-12-07 03:33:49.000000000,2018-12-11 03:31:00.000000000,closed,14,quick question - Installing in Standalone Hyper-V
+543,2018-12-07 00:17:36.000000000,2019-01-17 22:40:41.000000000,closed,7,Lots of errors trying SampleScenarios\DSC With Release Pipeline.ps1
+542,2018-12-04 21:24:29.000000000,2018-12-07 14:34:04.000000000,closed,8,Waiting for machine to start up became very aggressive 
+541,2018-12-04 19:19:55.000000000,2018-12-04 19:52:23.000000000,closed,2,Hyper-V host access from Lab VMs
+540,2018-12-04 18:22:03.000000000,2018-12-04 19:50:29.000000000,closed,1,"Install-LabSoftwarePackage hangs, and no installer activity inside the VM"
+539,2018-12-04 01:25:35.000000000,2018-12-07 15:25:57.000000000,closed,2,Azure snapshots implemented (Fixes #246)
+538,2018-12-04 00:55:53.000000000,2018-12-04 00:56:00.000000000,closed,0,Fix/#522
+537,2018-12-04 00:27:22.000000000,2018-12-04 00:30:40.000000000,closed,0,Offline work done in week of November 26
+536,2018-12-03 23:53:41.000000000,2018-12-04 01:37:53.000000000,closed,2,settings.json
+535,2018-12-03 00:33:38.000000000,2018-12-04 04:06:59.000000000,closed,1,Missing Product Keys
+534,2018-12-01 13:20:08.000000000,2018-12-04 20:54:09.000000000,closed,6,"Missing default gateway assignment on Internal network interfaces in some Router-enabled Labs, e.g. Introduction\10 ..."
+533,2018-11-30 21:58:51.000000000,2019-01-18 14:27:47.000000000,closed,19,Managing different Labs related VMs and Hosts file records on the same Hyper-V host
+532,2018-11-30 18:27:28.000000000,2018-12-04 19:52:41.000000000,closed,4,Building VMs in parallel
+531,2018-11-29 16:15:53.000000000,2020-02-07 23:16:23.000000000,closed,7,regardind Introduction\07.2 Exchange 2016... sample
+530,2018-11-29 15:21:40.000000000,2018-12-04 00:31:28.000000000,closed,2,Issuse #527 Support for Teamed Switch Interfaces
+529,2018-11-29 13:55:31.000000000,2018-12-11 03:32:38.000000000,closed,6,Reusing VMs in different Labs
+528,2018-11-28 14:53:41.000000000,2018-12-01 01:14:58.000000000,closed,2,sorry but again an existing vhdx -related question
+527,2018-11-28 01:16:39.000000000,2018-12-04 19:53:50.000000000,closed,7,Ehancement - Support for Load Balanced network interfaces in Hyper-V virtual switches
+526,2018-11-26 23:31:16.000000000,2018-11-26 23:31:32.000000000,closed,0,Updated changelog (fixes #525)
+525,2018-11-26 23:01:51.000000000,2018-11-26 23:31:35.000000000,closed,1,Update CHANGELOG.md to latest revision 
+524,2018-11-26 22:41:41.000000000,2018-11-26 22:44:23.000000000,closed,0,Next release
+523,2018-11-26 16:23:28.000000000,2018-11-26 23:21:34.000000000,closed,3,How to remove messing Labs fast?
+522,2018-11-26 02:26:11.000000000,2018-12-04 00:56:02.000000000,closed,1,Formatting does no longer work
+520,2018-11-25 18:06:29.000000000,2018-11-27 01:05:19.000000000,closed,5,Add-LabIsoImageDefinition not working with $PSDefaultParameterValues
+519,2018-11-25 13:54:52.000000000,1970-01-01 00:00:00.000000001,open,3,Lab / Demo Package management
+518,2018-11-25 13:38:20.000000000,2020-06-12 13:46:58.000000000,closed,6,[PSFramework] Implement Configuration
+517,2018-11-25 13:37:04.000000000,1970-01-01 00:00:00.000000001,open,1,[PSFramework] Implement TabExpansion
+516,2018-11-25 13:36:20.000000000,1970-01-01 00:00:00.000000001,open,0,[PSFramework] Implement Flow Control
+515,2018-11-25 13:33:01.000000000,1970-01-01 00:00:00.000000001,open,2,[PSFramework] Implement message handling
+514,2018-11-25 11:15:54.000000000,2018-11-30 14:23:16.000000000,closed,5,can't install exchange 2013
+511,2018-11-22 03:57:22.000000000,1970-01-01 00:00:00.000000001,open,4,Feature Request: -PreInstallActivity for built in Roles (SQLServer for example)
+510,2018-11-21 23:34:21.000000000,2018-12-04 01:34:17.000000000,closed,0,Configurable settings
+509,2018-11-21 17:13:31.000000000,2018-12-21 16:05:40.000000000,closed,2,Format-Volume : Invalid Parameter creating base images
+508,2018-11-19 22:19:10.000000000,2018-11-19 22:23:06.000000000,closed,0,Added  -ErrorAction SilentlyContinue to new FVE thing
+507,2018-11-19 22:12:55.000000000,2018-11-20 21:15:26.000000000,closed,0,Fix disk image calls
+506,2018-11-19 18:23:58.000000000,2018-12-21 16:06:45.000000000,closed,22,Struggling with 'developer mode' installing of the whole AL stuff including git repo
+505,2018-11-17 19:10:30.000000000,2018-11-26 23:41:39.000000000,closed,3,error building oscdimg.exe invocation inside the AutomatedLabDisks.psm1
+504,2018-11-17 17:25:14.000000000,2018-12-21 16:06:21.000000000,closed,4,Reusing previous artefacts when starting from scratch. What is suggested workflow?
+499,2018-11-10 09:08:00.000000000,2018-11-10 10:59:28.000000000,closed,1,Add BitLocker write protection check
+498,2018-11-08 23:08:30.000000000,2018-11-16 19:42:14.000000000,closed,1,Make settings great again (Fixes #484)
+497,2018-11-08 17:18:04.000000000,2018-11-09 17:29:33.000000000,closed,3,Problem with adding iso not from LabSources
+496,2018-11-08 04:39:02.000000000,2018-11-09 01:19:26.000000000,closed,3,Simple VM builds failing since recent upgrade
+495,2018-11-06 22:36:18.000000000,2019-01-31 14:42:02.000000000,closed,2,Question: Any documentation on how to use AL in a DevOps release pipeline ?
+494,2018-11-02 18:43:20.000000000,2018-12-21 16:06:09.000000000,closed,1,Question: How to create client machine without OS
+492,2018-10-29 00:00:28.000000000,2018-10-29 00:44:56.000000000,closed,1,remove end of line white space in psm1 files
+491,2018-10-25 16:44:23.000000000,2019-01-04 17:19:30.000000000,closed,4,Toasts messages throws error message
+490,2018-10-25 15:32:07.000000000,2018-10-26 17:39:03.000000000,closed,4,"Lab fails at "" - Scanning ISO file"""
+489,2018-10-23 17:43:09.000000000,2018-10-23 17:43:20.000000000,closed,0,"SQL Pull Server support, fixes"
+488,2018-10-20 00:40:50.000000000,2020-02-07 23:23:57.000000000,closed,4,What's these connection error all about
+487,2018-10-19 07:56:32.000000000,2018-11-09 00:31:51.000000000,closed,1,setting subnet on a VM
+486,2018-10-18 23:01:16.000000000,2018-10-18 23:01:23.000000000,closed,0,Fix/ps conf asia ci
+485,2018-10-18 22:40:36.000000000,2020-02-07 23:56:45.000000000,closed,4,DC on the same production network
+484,2018-10-17 21:23:26.000000000,2018-12-04 19:50:42.000000000,closed,4,Persistent settings
+483,2018-10-15 08:47:00.000000000,2019-01-18 17:17:40.000000000,closed,4,Exchange 2013 custom role needs to be updated to CU21
+482,2018-10-12 21:50:34.000000000,2018-10-12 23:49:36.000000000,closed,0,Fixes #455
+481,2018-10-11 16:27:42.000000000,2020-05-25 14:26:37.000000000,closed,3,unable to run AutomatedLabs from msi - Newtonsoft.json requried
+480,2018-10-10 18:21:37.000000000,2018-10-10 18:36:12.000000000,closed,0,Next release
+479,2018-10-10 18:02:15.000000000,2018-10-10 18:19:21.000000000,closed,0,added missing scripts to installer
+478,2018-10-10 16:05:33.000000000,2018-10-10 18:43:53.000000000,closed,4,Runspace cmdlets not found with latest AL version (5.0.4.65)
+477,2018-10-08 15:39:49.000000000,2020-05-25 21:05:58.000000000,closed,4,How to override / change the default LabSources folder?
+476,2018-10-08 12:51:02.000000000,2018-10-09 16:10:27.000000000,closed,0,Fix/tfs release pipeline git push
+475,2018-10-08 09:26:34.000000000,2018-10-08 12:54:59.000000000,closed,1,Adding support for TLS 1.2
+474,2018-10-07 22:32:05.000000000,2020-02-16 03:55:46.000000000,closed,1,"Get-LabInternetFile stops with exception calling ""GetResponse"":""The request was aborted: Could not create SSL/TLS secure channel."""
+473,2018-10-07 16:11:41.000000000,2018-10-07 16:11:47.000000000,closed,0,Updated Azure image SKU for Windows Server Datacenter to 1803
+472,2018-10-05 15:33:26.000000000,2018-10-07 16:46:10.000000000,closed,0,CredSSP activation streamlined with Invoke-AzureRmRunCommand (fixes #470)
+471,2018-10-05 14:18:46.000000000,2018-10-05 14:39:39.000000000,closed,1,implement server 2019 final GVLK keys
+470,2018-10-05 13:11:31.000000000,2018-11-08 22:25:21.000000000,closed,1,AzureRmVmExtension occasionally fails to provision
+469,2018-10-04 15:43:37.000000000,2018-10-04 15:43:44.000000000,closed,0,Added reboot to ensure that the API is ready
+468,2018-10-04 15:06:53.000000000,2018-10-04 15:18:31.000000000,closed,0,Implemented custom role WindowsAdminCenter
+467,2018-10-04 12:17:43.000000000,2018-10-04 14:52:17.000000000,closed,0, rename Windows 10 Enterprise for Remote Sessions SKU to Windows 10 Enterprise for Virtual Desktops
+466,2018-10-03 00:18:57.000000000,2018-10-03 12:14:01.000000000,closed,0,Added install of Visual C++ (Fixes #461)
+465,2018-09-29 18:38:01.000000000,2020-01-28 20:32:04.000000000,closed,7,AutomatedLab-v5.0.4.65 issue with module 'newtonsoft.json'
+464,2018-09-28 18:02:17.000000000,2018-12-21 16:12:06.000000000,closed,8,Invoke-LabCommand port issue
+463,2018-09-28 05:09:55.000000000,2020-05-23 07:53:27.000000000,closed,5,How to use InstallationUserCredential
+462,2018-09-27 21:13:19.000000000,2018-09-27 22:27:11.000000000,closed,0,CentOS: Allow passwords with special characters (Fixes #453)
+461,2018-09-27 19:03:05.000000000,2018-10-03 12:14:01.000000000,closed,2,SQL Server 2017 setup fails - member server deployment in Hyper-V
+460,2018-09-27 19:01:25.000000000,2018-10-09 11:32:29.000000000,closed,2,Centos server build and account info
+459,2018-09-27 15:46:32.000000000,2018-09-27 15:56:43.000000000,closed,0,New release
+458,2018-09-27 14:29:31.000000000,2018-09-27 14:29:38.000000000,closed,0,Updated changelog
+457,2018-09-24 19:50:33.000000000,2018-09-24 19:53:52.000000000,closed,0,LabBuilder custom role was unable to start unattended
+456,2018-09-24 13:21:45.000000000,2018-09-24 14:10:35.000000000,closed,2,update Exchange custom role to Exchange 2016 CU10
+455,2018-09-23 05:53:54.000000000,2018-10-09 11:32:52.000000000,closed,4,Centos or Ubuntu VM build
+454,2018-09-21 17:51:58.000000000,2019-06-17 17:49:13.000000000,closed,1,Validate Azure DevOps and Azure DevOps Server
+453,2018-09-20 16:44:55.000000000,2018-11-08 22:26:28.000000000,closed,4,CentOS and special characters in password
+452,2018-09-19 19:54:44.000000000,2018-09-26 19:28:42.000000000,closed,1,Linux Shutdown and Save (Fixes #450)
+451,2018-09-19 03:38:28.000000000,2020-07-02 09:11:44.000000000,closed,10,AutomatedLab stop working after Windows patching
+450,2018-09-19 01:09:04.000000000,2018-09-27 14:18:55.000000000,closed,2,"Start, Stop, Save-LabVM does not work with Linux"
+449,2018-09-18 23:44:05.000000000,2018-09-26 19:19:23.000000000,closed,1,Semi-breaking change: Azure profile handling (Fixes #437)
+448,2018-09-17 21:41:06.000000000,2018-09-19 00:52:06.000000000,closed,1,Workflows replaced
+447,2018-09-17 17:57:30.000000000,2019-02-11 04:47:58.000000000,closed,3,Azure VM DNS Name
+446,2018-09-15 13:51:20.000000000,2019-01-18 17:17:29.000000000,closed,6,Update Exchange2013 Custom role install script to Exchange 2013 CU21
+445,2018-09-14 22:25:22.000000000,2018-10-12 21:56:08.000000000,closed,4,Disk from Add-LabDiskDefinition is Read-Only
+444,2018-09-14 19:32:00.000000000,2018-10-26 03:17:42.000000000,closed,3,AutomatedLabADDS.psm questions
+443,2018-09-14 05:30:12.000000000,2018-09-23 05:01:26.000000000,closed,2,"OU, Groups, and Users"
+442,2018-09-13 03:12:22.000000000,2018-09-13 09:12:23.000000000,closed,3,"Import user, group, ou, etc"
+441,2018-09-12 23:55:00.000000000,2018-09-14 19:30:01.000000000,closed,6,Minor customization
+440,2018-09-12 15:16:17.000000000,2018-09-12 16:44:30.000000000,closed,1,implement support for Windows 10 Enterprise for Remote Sessions
+439,2018-09-12 00:55:52.000000000,2018-09-12 01:05:09.000000000,closed,0,Password for the getting started guide
+438,2018-09-06 18:18:27.000000000,2018-11-06 22:30:04.000000000,closed,6,Override AL to not use the official Azure SQL VM as SQL2016 role.
+437,2018-09-02 03:10:00.000000000,2018-11-08 22:26:03.000000000,closed,6,Problems with AL Azure Deployment
+436,2018-08-30 21:06:18.000000000,2018-08-30 21:28:50.000000000,closed,0,Fixed issue with domain join that fails on Azure
+435,2018-08-18 07:41:43.000000000,2018-09-14 11:10:09.000000000,closed,3,Feature Request - Create Vagrant images from AL VMs
+434,2018-08-16 09:21:27.000000000,2018-09-14 11:15:12.000000000,closed,7,The product key is unknown for the OS
+433,2018-08-14 17:42:11.000000000,2018-08-14 17:42:25.000000000,closed,0,Additional code to fix #422 which i
+432,2018-08-14 17:34:56.000000000,2018-08-14 17:35:04.000000000,closed,0,Fix for #422
+431,2018-08-13 15:57:55.000000000,2018-08-13 16:02:15.000000000,closed,1,Issue #415
+430,2018-08-12 04:32:05.000000000,2018-09-14 11:14:34.000000000,closed,3,System process locking my base images.
+429,2018-08-11 22:15:12.000000000,2018-08-12 01:51:13.000000000,closed,4,Joining an Existing AD
+428,2018-08-11 19:44:51.000000000,2018-08-11 21:19:07.000000000,closed,3,How to have VMs get IPs from DHCP server?
+427,2018-08-08 17:23:50.000000000,2019-02-02 15:29:56.000000000,closed,7,implement improvements regarding VMware support
+426,2018-08-08 05:34:47.000000000,2019-07-14 03:00:08.000000000,closed,7,DHCP and Roting in below code..
+425,2018-08-03 14:30:39.000000000,2018-08-03 14:31:23.000000000,closed,0,Latest changes for 5.0.4
+424,2018-08-03 12:25:12.000000000,2018-08-08 00:15:09.000000000,closed,5,implement fix to force Get-WSManCredSSP to use English language output on the Hyper-V host
+423,2018-08-03 10:17:22.000000000,2019-03-12 11:32:20.000000000,closed,5,AutomatedLab and VMware support?
+422,2018-08-02 06:13:58.000000000,2018-08-14 17:40:14.000000000,closed,11,Use of SMB Shares for Lab
+421,2018-07-17 23:59:46.000000000,2018-07-18 22:26:03.000000000,closed,9,DiskDefinition question - VM does not show the 200GB - 
+420,2018-07-17 21:34:25.000000000,2018-07-17 23:17:34.000000000,closed,1,Issue
+419,2018-07-17 15:41:26.000000000,2018-07-17 21:35:41.000000000,closed,4,ADCS Installations. 
+418,2018-07-16 17:49:35.000000000,2018-07-17 16:28:18.000000000,closed,8,Issues when deploying servers with your sample script
+417,2018-07-13 23:32:15.000000000,2018-07-14 14:40:58.000000000,closed,2,[CentOS] Added GUI environment if desktop is added as package group
+416,2018-07-13 21:18:17.000000000,2018-07-14 03:43:08.000000000,closed,3,Domain admins group added to sudoers
+415,2018-07-12 17:07:14.000000000,2020-02-07 23:57:31.000000000,closed,3,UserLocale in AutomatedLabDefinition.psm1 - en-DK not accepted
+414,2018-07-10 16:13:50.000000000,2018-08-03 14:21:47.000000000,closed,1,Update CHANGELOG.md to latest revision
+413,2018-07-10 12:35:33.000000000,2018-07-10 12:39:27.000000000,closed,0,Bug fixes
+412,2018-07-08 17:15:40.000000000,2020-07-02 09:11:42.000000000,closed,5,Reset UAC Settings to default after deployment
+411,2018-07-05 03:05:28.000000000,2018-07-05 16:06:24.000000000,closed,3,Clone VMs
+410,2018-07-04 06:47:30.000000000,2018-07-20 10:14:39.000000000,closed,2,Scripts on slower SSDs
+409,2018-07-04 01:22:43.000000000,2018-07-04 01:33:37.000000000,closed,0,Windows 7 installation issue..
+408,2018-07-04 00:16:09.000000000,2018-07-11 01:53:14.000000000,closed,1,Security that is being relaxed - Are they changed to defaults?
+407,2018-06-30 00:18:31.000000000,2018-07-11 01:52:55.000000000,closed,2,Help finding Properties of role
+406,2018-06-29 03:28:53.000000000,2018-12-22 15:09:29.000000000,closed,9,Image created with 'Offline patching' intro is not recognizable as an OS source
+405,2018-06-28 14:54:50.000000000,2018-06-29 13:17:32.000000000,closed,2,Can VMs be deployed using Dynamic memory? 
+404,2018-06-28 13:53:37.000000000,2019-06-17 17:48:50.000000000,closed,2,"The host's router is being set up as DNS forwarder, what is invalid in some environments"
+403,2018-06-26 23:19:51.000000000,2018-06-27 20:43:55.000000000,closed,2,80% Add Virtual Ethernet Switch Resources
+402,2018-06-26 22:30:28.000000000,2018-06-27 21:36:04.000000000,closed,7,Errors with 'ProGet Lab - HyperV.ps1' sample build script
+401,2018-06-26 17:08:40.000000000,2018-08-14 17:35:05.000000000,closed,2,SSL/TLS secure channel transient error on 1803
+400,2018-06-24 23:20:28.000000000,2018-06-25 00:10:46.000000000,closed,0,Merge Azure fixed
+399,2018-06-24 23:08:51.000000000,2020-02-16 03:56:05.000000000,closed,1,Unable to install .Net Framework 4.7.1 or 4.7.2 Silently
+398,2018-06-24 20:51:36.000000000,2018-06-24 23:09:47.000000000,closed,1,Specify the module for Expand-Archive in AutomatedLabInternals.psm1 line 834
+397,2018-06-23 19:54:39.000000000,2018-06-23 19:54:50.000000000,closed,0,Moving the latest fixes into master
+396,2018-06-23 15:46:16.000000000,2020-07-02 09:11:45.000000000,closed,10,prevent duplication of ISOs ans BASEs
+395,2018-06-22 22:30:30.000000000,2018-06-23 20:03:08.000000000,closed,3,Can't install Windows 2019 Standard - The product key is unknown for the OS 'Windows Server 2019 Standard' in ISO image
+394,2018-06-22 15:38:27.000000000,2020-02-16 03:56:21.000000000,closed,12,Further explanations needed
+393,2018-06-21 14:53:57.000000000,2018-06-21 18:24:14.000000000,closed,6,Not working documentation example DSC->Demo1 (both host and guest are 1803)
+392,2018-06-20 15:49:56.000000000,2018-07-19 11:56:11.000000000,closed,4,de-monolithication of Install-Lab using a build engine 
+391,2018-06-20 15:22:34.000000000,2020-07-02 09:11:43.000000000,closed,5,Please suggest a way for reusing BASE vhdx for multiple labs
+390,2018-06-06 20:30:30.000000000,2018-06-19 00:21:00.000000000,closed,4,SQL Server 2008 R2 can no longer install
+389,2018-06-06 16:18:06.000000000,2018-06-18 03:27:50.000000000,closed,1,SQL Server can only install on Windows Server 2016
+388,2018-06-04 21:56:07.000000000,2020-02-07 00:55:27.000000000,closed,19,Lab fails to complete when using -vmPath on DefaultVirtualizationEngine
+387,2018-06-04 21:49:02.000000000,2018-12-19 14:13:11.000000000,closed,12,HyperV Network Definitions unable to use existing virtual swith connected to Wi-Fi adapter 
+386,2018-06-04 21:03:16.000000000,2018-06-19 11:23:03.000000000,closed,3,SCCM Lab 1 Issue
+385,2018-06-04 17:46:39.000000000,2018-06-18 22:31:36.000000000,closed,2,ISOs are skipped
+384,2018-06-03 19:59:06.000000000,2018-06-03 19:59:28.000000000,closed,0,Fix/azure rm6.1
+383,2018-06-01 20:42:28.000000000,2018-06-01 20:42:34.000000000,closed,0,Changed the way to enable / disable SecureBoot
+382,2018-06-01 13:39:18.000000000,2018-06-18 03:36:27.000000000,closed,7,Enable-LabHostRemoting in automatedlab.psm1 not working properly
+381,2018-05-30 15:25:05.000000000,2019-07-03 13:40:19.000000000,closed,5,SQL Server 2017 not installing SQL Server Reporting Services
+380,2018-05-29 19:56:39.000000000,2020-01-28 20:54:33.000000000,closed,7,Azure error: Unable to create the VM * because the requested size Standard_D2s_v3 is not available in the current hardware cluster. The available sizes are ...
+379,2018-05-28 19:57:13.000000000,2018-06-03 20:04:21.000000000,closed,10,Disable Secure Boot in Hyper-v - not able to install CentOS
+378,2018-05-28 17:51:09.000000000,2018-05-28 17:51:25.000000000,closed,0,Fixes #375 and #164
+377,2018-05-28 06:35:06.000000000,2018-05-28 21:37:14.000000000,closed,6,silent mode Quick question 
+376,2018-05-26 10:58:36.000000000,2018-05-26 11:44:36.000000000,closed,1,Fix for Issue #375
+375,2018-05-25 13:55:40.000000000,2018-05-28 17:51:25.000000000,closed,3,Prompting for Telemetry
+374,2018-05-25 04:13:52.000000000,2018-07-04 17:03:47.000000000,closed,4,Enabling .Net Framework 3.5 on Windows Server 2012 issues
+373,2018-05-25 01:59:46.000000000,2018-05-25 02:01:43.000000000,closed,0,5.0.3
+372,2018-05-25 01:45:17.000000000,2018-05-25 01:45:23.000000000,closed,0,Fix/azure rm6.1
+371,2018-05-24 21:17:04.000000000,2018-05-24 21:17:20.000000000,closed,0,Fix kickstart desktop activation
+370,2018-05-24 19:51:50.000000000,2018-05-25 06:57:36.000000000,closed,1,Productkey option doesn't seem to work...
+369,2018-05-24 19:07:20.000000000,2018-06-08 10:58:30.000000000,closed,8,Base Images Prepared Unusable. VM Cannot start. 
+368,2018-05-24 15:57:09.000000000,2018-05-24 21:18:48.000000000,closed,0,CentOS 7.5 seems to have a slightly different file structure
+367,2018-05-23 19:45:55.000000000,2018-05-23 19:46:05.000000000,closed,0,Chaning RegEx pattern to address #366
+366,2018-05-23 11:08:40.000000000,2018-05-23 19:44:58.000000000,closed,7,AutomatedLab did not find any Operating System. Scanning 3 files for operating systems Found 0 OS images.
+365,2018-05-23 10:48:25.000000000,2018-05-23 10:57:11.000000000,closed,0,Fix Linux package groups
+364,2018-05-23 05:36:11.000000000,2018-05-24 12:22:46.000000000,closed,1,Windows Server 2012 R2 SERVERSTANDARD vs  Windows Server 2012 R2 Standard (Server with a GUI) 
+363,2018-05-22 11:23:59.000000000,2018-05-22 17:47:58.000000000,closed,5,Get-LabSourcesLocation returns 2 paths
+362,2018-05-21 18:42:52.000000000,2018-05-21 23:26:27.000000000,closed,1,small typo fix
+361,2018-05-21 17:15:07.000000000,2018-05-21 22:08:20.000000000,closed,3,Install-Lab does not finish after installation of May security updates
+360,2018-05-20 18:43:05.000000000,2018-06-03 20:05:59.000000000,closed,14,Need a basic script with following requirements to get it working. Having a lot of issues with 5.0+ versions.
+359,2018-05-20 18:02:57.000000000,1970-01-01 00:00:00.000000001,open,9,ping uses IPv6 by default
+358,2018-05-20 17:57:30.000000000,2018-05-22 00:27:23.000000000,closed,2,Subnet is set to 0.0.0.0
+357,2018-05-20 04:57:50.000000000,2018-05-24 00:36:01.000000000,closed,19,Something is wrong in latest release
+356,2018-05-19 20:14:54.000000000,2018-05-29 17:35:03.000000000,closed,1,DSC Demo#1 Fails
+355,2018-05-19 18:56:50.000000000,2018-05-23 10:53:44.000000000,closed,4,[Request] Please provide a sample script to build a small Win2k12 with Exchange 2013 Lab
+354,2018-05-19 16:35:17.000000000,2018-07-20 12:20:11.000000000,closed,4,CentOS/Suse with GUI
+353,2018-05-19 16:26:06.000000000,2018-05-22 15:16:34.000000000,closed,9,"Executing Script ""Single 2012r2 Server.ps1"" does not continue after ""PSSessionOpenFailed"""
+352,2018-05-19 09:07:29.000000000,2020-07-02 09:11:41.000000000,closed,7,Ubuntu/debian not working?
+351,2018-05-19 08:49:02.000000000,2018-05-19 16:29:19.000000000,closed,10,Computers not joining domain
+350,2018-05-19 02:16:44.000000000,2018-05-23 20:00:20.000000000,closed,10,Background details not showing up in VMs
+349,2018-05-18 16:28:47.000000000,2018-05-18 18:07:10.000000000,closed,1,Typo
+348,2018-05-18 13:45:18.000000000,2018-05-18 14:40:39.000000000,closed,1,Typo
+347,2018-05-17 17:27:32.000000000,2018-05-21 23:32:40.000000000,closed,0,Get-LabAvailableOperatingSystem should return Azure SKUs (fixes #342)
+346,2018-05-17 15:45:20.000000000,2018-05-17 15:45:29.000000000,closed,0,Fix azure public ip (fixes #345)
+345,2018-05-17 15:38:47.000000000,2018-05-17 15:45:30.000000000,closed,0,Lab deployment on Azure fails if someone has a lab with the same name and region
+344,2018-05-16 17:35:48.000000000,2018-05-19 16:35:25.000000000,closed,3,Basic Questions 
+343,2018-05-15 23:18:52.000000000,2018-05-29 17:35:52.000000000,closed,1,"New-LabPSSession returns ""The request is not supported"""
+342,2018-05-15 01:03:16.000000000,2018-05-21 19:29:39.000000000,closed,4,Unable to view available OS after sync.
+341,2018-05-13 16:44:26.000000000,2018-05-29 17:36:22.000000000,closed,7,Lab creation hangs on reboot
+340,2018-05-11 16:30:43.000000000,2018-05-14 17:06:05.000000000,closed,4,Defaulting to Asia East
+339,2018-05-03 18:12:37.000000000,2020-06-02 15:45:34.000000000,closed,7,Unable to Deploy to Azure
+338,2018-05-02 23:05:08.000000000,2018-05-29 22:27:32.000000000,closed,6,Unable to install SQL2014 role
+337,2018-04-28 14:53:32.000000000,2018-04-29 00:27:02.000000000,closed,1,Fixed link for sample scripts
+336,2018-04-28 10:05:46.000000000,2018-04-28 10:30:19.000000000,closed,1,fixed link to sample scripts
+335,2018-04-26 23:59:58.000000000,2018-04-27 10:35:18.000000000,closed,4,Windows 10 ISO can't find install.wim
+334,2018-04-26 18:24:21.000000000,2018-05-29 22:27:13.000000000,closed,10,Path in Install-LabOffice2016
+333,2018-04-26 12:26:34.000000000,2018-04-27 15:35:34.000000000,closed,0,AutomatedLab as a Service (fixes #323)
+332,2018-04-25 16:43:23.000000000,2018-04-25 17:06:30.000000000,closed,0,Removed Write-ScreenInfo in Get-LabInternetFileInternal
+331,2018-04-25 12:07:14.000000000,2018-06-01 16:39:16.000000000,closed,1,New-LabReleasePipeline with existing repository does not allow push
+330,2018-04-25 12:01:39.000000000,2018-04-29 00:33:22.000000000,closed,2,Updated Azure TFS installation (Fixes #317 and #331)
+329,2018-04-24 16:49:49.000000000,2018-04-27 17:00:17.000000000,closed,0,Modifying Copy-LabFileItem to use drive in DestinationFolderPath
+328,2018-04-23 17:39:39.000000000,2018-04-23 20:17:18.000000000,closed,0,Modified git repo path to be lab-specific
+327,2018-04-22 12:28:46.000000000,2018-04-22 22:36:23.000000000,closed,7,Fix/non english windows
+326,2018-04-21 20:37:08.000000000,2018-04-22 00:20:47.000000000,closed,2,Implementation of Get-LabWindowsFeature and Uninstall-LabWindowsfeature
+325,2018-04-20 14:53:03.000000000,2018-04-20 14:53:33.000000000,closed,0,Added cmdlet to retrieve role sizes (fixes #320)
+324,2018-04-20 13:29:37.000000000,2018-04-23 02:06:55.000000000,closed,1,Azure VM creation with -AsJob parameter
+323,2018-04-20 13:23:11.000000000,2018-04-27 15:35:35.000000000,closed,0,Investigate providing a RESTful service to deploy AutomatedLab
+322,2018-04-20 13:18:58.000000000,1970-01-01 00:00:00.000000001,open,0,AutomatedLab should be able to deploy Docker containers
+321,2018-04-20 12:33:27.000000000,2018-06-01 16:32:56.000000000,closed,1,Investigate Usage of DevTest Labs on Azure
+320,2018-04-20 12:27:15.000000000,2018-04-20 14:53:33.000000000,closed,0,There should be some functionality to return Azure SKUs 
+319,2018-04-19 16:29:20.000000000,2018-04-19 17:05:06.000000000,closed,0,Azure vm size fix
+318,2018-04-19 15:22:05.000000000,2018-04-19 17:53:08.000000000,closed,1,Azure: Reported role sizes are wrong
+317,2018-04-19 15:06:15.000000000,2018-04-29 00:33:23.000000000,closed,0,TFS2018 on Azure: Repository remoteUrl is wrong
+316,2018-04-19 12:01:23.000000000,2018-04-19 15:21:14.000000000,closed,0,Added event logging to make Telemetry transparent
+315,2018-04-19 12:01:11.000000000,2018-04-19 15:21:01.000000000,closed,0,Fixed Azure TFS port mapping
+314,2018-04-18 15:34:54.000000000,2018-04-18 15:37:15.000000000,closed,0,Bug fix release
+313,2018-04-18 15:33:49.000000000,2018-04-18 15:34:05.000000000,closed,0,Fixed Azure SQL BYOL issue
+312,2018-04-18 03:01:09.000000000,2018-04-18 03:01:24.000000000,closed,0,Some minor fixes
+311,2018-04-16 03:45:56.000000000,2018-04-27 17:35:53.000000000,closed,2,New function Get-LabWindowsFeature
+310,2018-04-15 04:46:29.000000000,2018-04-15 17:09:55.000000000,closed,15,Get-LabAvailableOperatingSystem returning incorrect OS Names
+309,2018-04-15 03:53:05.000000000,2018-04-15 03:56:16.000000000,closed,1,"Added DHCP AD Authorisation, Code Cleanup"
+308,2018-04-13 21:39:03.000000000,2018-04-13 21:40:01.000000000,closed,0,5.0.1
+307,2018-04-13 21:01:16.000000000,2018-04-13 21:01:29.000000000,closed,0,Feature/sccm custom role
+306,2018-04-13 17:19:35.000000000,1970-01-01 00:00:00.000000001,open,9,Install-LabSoftwarePackage ignoring -CopyFolder
+305,2018-04-13 13:28:04.000000000,2018-04-13 14:58:07.000000000,closed,2,The product key is unknown for the OS..
+304,2018-04-12 02:34:43.000000000,2018-06-06 16:54:29.000000000,closed,1,Building out SQLServer2016 and getting an error message
+303,2018-04-11 13:20:58.000000000,2018-04-11 13:28:52.000000000,closed,0,Fixed AutomatedLab.Ships publishing issues
+302,2018-04-11 13:19:06.000000000,2018-04-11 13:19:13.000000000,closed,0,Bug/ships does not publish
+301,2018-04-11 12:54:09.000000000,2018-04-11 12:56:10.000000000,closed,0,New release
+300,2018-04-11 12:29:05.000000000,2018-04-11 12:32:42.000000000,closed,0,Feature/ships build updated
+299,2018-04-11 12:17:05.000000000,2018-04-11 12:17:37.000000000,closed,0,Port for Tfs on Azure changed
+298,2018-04-10 20:39:17.000000000,2018-04-10 22:30:12.000000000,closed,0,New-LabReleasePipeline: Added verbose output
+297,2018-04-10 13:46:02.000000000,2018-04-10 21:14:38.000000000,closed,1,Wrapped calls in try/finally
+296,2018-04-09 21:59:36.000000000,2018-04-09 22:17:04.000000000,closed,0,Feature/exchange custom roles
+295,2018-04-09 18:30:52.000000000,2018-04-09 18:35:03.000000000,closed,0,Bug fix: CustomRole parameter and module PrivateData
+294,2018-04-09 15:25:10.000000000,2018-04-09 15:47:58.000000000,closed,0,Bug fix: Custom roles fail on Azure
+293,2018-04-09 12:35:20.000000000,2018-04-09 12:39:11.000000000,closed,0,Bug fix: PrivateData in case multiple module versions exist
+292,2018-04-07 02:26:23.000000000,2018-04-07 02:26:33.000000000,closed,0,Enhancing Register-ArgumentCompleter for Add-LabMachineDefinition
+291,2018-04-07 02:23:49.000000000,2018-04-07 02:23:55.000000000,closed,0,Fix/custom role parameter casting bug
+290,2018-04-07 02:14:01.000000000,2018-04-07 02:18:15.000000000,closed,0,Fix/no display
+289,2018-04-06 15:43:48.000000000,2018-04-06 20:53:31.000000000,closed,0,Adding SHiPS provider to create lab drive
+288,2018-04-05 15:35:58.000000000,2018-04-05 15:37:40.000000000,closed,0,Bug fixed: Post build defect hindering module loading
+287,2018-04-05 15:34:27.000000000,2018-04-05 15:34:33.000000000,closed,0,Bug with DLLs: Post build amended
+286,2018-04-05 00:49:57.000000000,2018-04-05 00:58:57.000000000,closed,0,Release 5.0.0.*
+285,2018-04-05 00:48:41.000000000,2018-04-05 00:48:48.000000000,closed,0,Preparations for next major release
+284,2018-04-05 00:36:51.000000000,2018-04-05 00:36:57.000000000,closed,0,TFS: Fixed issue with wonky FullName returned by Get-LabInternetFile
+283,2018-04-05 00:26:44.000000000,2018-04-05 00:26:52.000000000,closed,0,Simplified login to Azure
+282,2018-04-04 12:44:07.000000000,2018-04-04 12:44:16.000000000,closed,0,Added TFS2018
+281,2018-04-04 07:54:09.000000000,2020-07-02 09:11:40.000000000,closed,2,"Do we have sample script with ADFS, WebServer, CA,SQL"
+280,2018-04-04 07:26:37.000000000,2018-04-04 13:04:16.000000000,closed,2,Issue in creating lab
+279,2018-04-03 21:13:33.000000000,2018-04-03 21:13:44.000000000,closed,0,ALNotifications. Added voice notification
+278,2018-04-03 20:02:31.000000000,2018-04-03 20:04:35.000000000,closed,0,Toast messages fixed (fixes #277)
+277,2018-04-03 14:30:21.000000000,2018-04-03 20:05:02.000000000,closed,1,Toast notifications no longer shown
+276,2018-03-31 14:53:46.000000000,2020-05-22 18:39:56.000000000,closed,1,Add infrastructure tests to lab deployment
+275,2018-03-30 07:43:49.000000000,2018-04-11 02:30:53.000000000,closed,6,.Net 4.62 is required by Exchange 2013
+274,2018-03-28 00:58:30.000000000,2018-04-04 21:57:02.000000000,closed,0,Fix/no display
+273,2018-03-27 23:56:38.000000000,2018-03-28 13:49:30.000000000,closed,3,Unable to re-run deployment script when VMs has disks added
+272,2018-03-27 18:47:15.000000000,2018-03-27 22:18:21.000000000,closed,1,Base Image location
+271,2018-03-27 17:48:17.000000000,2018-03-29 10:37:50.000000000,closed,0,Added telemetry client to collect telemetry data
+270,2018-03-27 16:34:16.000000000,2018-03-27 17:50:03.000000000,closed,3,Update AutomatedLabInternals.psm1
+269,2018-03-24 22:16:22.000000000,2018-03-27 16:32:20.000000000,closed,8,How to create subnet of 255.255.255.255 in New-LabNetworkAdapterDefinition?
+268,2018-03-23 15:24:44.000000000,2018-03-23 17:54:32.000000000,closed,0,Feature/azure additional ports fixes #85
+267,2018-03-23 12:43:10.000000000,2018-03-23 12:47:19.000000000,closed,0,Fix/os name fix v50#2
+266,2018-03-20 23:05:45.000000000,2018-03-26 14:54:34.000000000,closed,2,Failed to create the virtual hard disk.
+265,2018-03-20 16:32:45.000000000,2018-03-20 18:28:00.000000000,closed,1,TFS: Added release definition to pipeline
+264,2018-03-19 03:59:07.000000000,2018-03-19 03:59:23.000000000,closed,0,Installer puts modules into version folders
+263,2018-03-18 12:03:37.000000000,2018-03-19 06:20:01.000000000,closed,1,Installer does not create correct folders (PSModulePath\ModuleName\ModuleVersion)
+262,2018-03-17 19:09:12.000000000,2018-03-17 19:14:19.000000000,closed,0,Feature/pro get custom role
+261,2018-03-17 18:20:02.000000000,2018-03-17 18:20:11.000000000,closed,0,Moved documentation and hints from txt files to md files
+260,2018-03-16 15:15:57.000000000,2018-03-19 06:18:57.000000000,closed,0,TFS Release Pipeline Implementation
+259,2018-03-14 17:23:44.000000000,2018-03-17 18:20:11.000000000,closed,5,Documentation on how to use OSUpdate folder
+258,2018-03-13 20:50:26.000000000,2018-03-13 20:50:47.000000000,closed,0,Fixed a typing error
+257,2018-03-12 15:28:49.000000000,2018-03-12 19:45:57.000000000,closed,0,Adding MDT Custom Role
+256,2018-03-09 15:00:26.000000000,2018-03-17 03:35:28.000000000,closed,7,Move AutomatedLabs Folder from Documents to another folder.
+255,2018-03-08 23:09:14.000000000,2018-03-08 23:09:25.000000000,closed,0,Fixing issues with custom roles
+254,2018-03-06 21:51:05.000000000,2018-03-06 22:22:41.000000000,closed,0,Feature/custom role extension
+253,2018-03-05 02:34:47.000000000,2018-03-05 02:37:18.000000000,closed,0,Feature/custom role extension
+252,2018-03-02 15:17:54.000000000,2018-03-05 02:32:09.000000000,closed,1,Feature/os name fix v50
+251,2018-03-01 19:59:17.000000000,2018-03-10 12:50:28.000000000,closed,5,"Linux integration (RHEL, CentOS, Fedora)"
+250,2018-03-01 00:35:13.000000000,1970-01-01 00:00:00.000000001,open,10,Implement RDS in Automated Lab
+249,2018-02-20 14:35:42.000000000,2018-03-15 03:13:47.000000000,closed,11,Issue with creating Virtual Harddisk
+248,2018-02-15 14:08:50.000000000,2018-02-16 01:29:24.000000000,closed,2,Which ISO is compatible with AutomatedLab?
+247,2018-02-12 00:11:41.000000000,2018-02-15 19:18:14.000000000,closed,0,Fixed a typing error
+246,2018-02-04 21:13:22.000000000,2018-12-07 15:26:00.000000000,closed,1,Support for Azure VM Snapshots
+245,2018-02-01 03:50:49.000000000,2018-02-08 03:13:57.000000000,closed,4,Powershell has stopped working
+244,2018-02-01 03:01:55.000000000,2018-03-20 00:07:42.000000000,closed,1,ISO Cache is being ignored if path is used with different case sensitivity
+243,2018-01-31 13:44:31.000000000,2018-01-31 19:18:09.000000000,closed,0,TFS Deployment added
+242,2018-01-25 17:13:57.000000000,2018-03-22 13:31:43.000000000,closed,6,Timer used for display and measuring time taken for lab deployment is broken
+241,2018-01-25 16:29:49.000000000,2018-01-25 16:30:26.000000000,closed,0,Azure Service imple
+240,2018-01-25 04:20:44.000000000,2018-01-25 17:46:26.000000000,closed,3,Deployment of roles that require additional features installed fail as unable to mount ISO
+239,2018-01-24 19:54:35.000000000,2018-01-25 14:07:54.000000000,closed,3,Unable to use ISO images from SMB share
+238,2018-01-23 18:55:51.000000000,2018-01-26 03:29:44.000000000,closed,4,Adding Support for Windows Server 2016 Pull Server ODBC Driver
+237,2018-01-23 15:06:26.000000000,2018-04-04 20:59:21.000000000,closed,1,"""Uncoordinated"" message on screen saying ""Lab BLA hosted on 'HyperV' imported with x machines"" during wait for machines to startup"
+236,2018-01-23 14:07:04.000000000,2018-04-04 20:59:47.000000000,closed,1,Wait-LWLabJob no longer supports progress indicator if -NoDisplay switch is used
+235,2018-01-22 01:39:55.000000000,2018-01-22 01:56:05.000000000,closed,0,Feature/azure app services
+234,2018-01-20 23:29:36.000000000,2018-01-20 23:30:17.000000000,closed,0,Merging develop into master
+233,2018-01-18 18:45:49.000000000,2018-01-18 18:54:04.000000000,closed,0,Moving all the work on the release pipeline into develop
+232,2018-01-17 22:22:36.000000000,2018-03-20 00:11:03.000000000,closed,1,AutomatedLab should be able to deploy TFS2015+
+231,2018-01-17 01:18:21.000000000,2018-01-17 01:21:40.000000000,closed,0,Feature/azure app services
+230,2018-01-15 23:32:47.000000000,2018-01-15 23:33:07.000000000,closed,0,Merge dev into master after AppVeyor modifications
+229,2018-01-15 22:09:48.000000000,2018-04-11 12:32:43.000000000,closed,2,AutomatedLab needs a Lab drive
+228,2018-01-15 22:06:14.000000000,2018-01-15 22:24:49.000000000,closed,0,Merging Develop to Master
+227,2018-01-13 00:20:40.000000000,2018-01-15 02:01:52.000000000,closed,2,Hyper-V VLAN capabilities
+226,2018-01-12 00:05:17.000000000,2019-01-30 18:30:54.000000000,closed,0,Azure LabSources folder not synced
+225,2018-01-09 02:50:45.000000000,2018-03-20 00:55:23.000000000,closed,1,Feature Request - Add machines to existing lab
+224,2018-01-08 01:42:16.000000000,2020-07-02 09:11:39.000000000,closed,2,Issue requesting machine certificate
+223,2018-01-04 19:25:58.000000000,2018-01-04 20:32:01.000000000,closed,0,Adding Update-LabBaseImage
+222,2018-01-04 03:22:19.000000000,2018-01-08 16:11:47.000000000,closed,13,Issues with Server Roles other than AD
+221,2018-01-03 22:10:23.000000000,2018-03-20 00:47:45.000000000,closed,2,Windows Server 1709
+220,2018-01-02 08:24:58.000000000,2018-03-20 00:46:46.000000000,closed,8,Weird issue in Get-labvm..
+219,2018-01-02 03:22:07.000000000,2018-01-11 02:20:50.000000000,closed,6,it completes but the scripts hangs while restarting..
+218,2018-01-02 02:40:04.000000000,2018-01-02 15:21:22.000000000,closed,1,Autostart in guest VMs
+217,2017-12-31 04:16:36.000000000,2018-01-02 15:20:16.000000000,closed,5,it worked but get a lot of errors. Can you check the below logs?
+216,2017-12-31 03:24:45.000000000,2018-01-02 09:44:49.000000000,closed,4,Is it possible to assign static IP to the router on the main interface? I get an error if i use -ipaddress
+215,2017-12-31 02:01:21.000000000,2017-12-31 03:21:01.000000000,closed,3,Protect home network from internal network
+214,2017-12-30 22:57:12.000000000,2017-12-30 23:22:22.000000000,closed,1,RDP to internal lab - Generic question
+213,2017-12-29 22:36:24.000000000,2017-12-31 01:59:17.000000000,closed,4,Windows 10 not joining domain.
+212,2017-12-25 07:15:38.000000000,2017-12-25 12:45:02.000000000,closed,1,Issues/185
+211,2017-12-24 07:12:00.000000000,2017-12-29 14:04:45.000000000,closed,7,Install software and run the process as different user on all lab machines
+210,2017-12-23 03:20:05.000000000,2017-12-23 15:23:14.000000000,closed,2,all links are broken in main Github page
+209,2017-12-21 16:41:26.000000000,2017-12-21 16:44:26.000000000,closed,0,Merging changes done in psd1 and md files in master back to develop
+208,2017-12-21 16:31:37.000000000,2017-12-22 00:51:23.000000000,closed,0,Added FQDN entry to host file entries (Fixes #206)
+207,2017-12-21 15:22:14.000000000,2018-01-11 02:21:26.000000000,closed,17,Error Trusted Host
+206,2017-12-21 14:58:57.000000000,2017-12-22 00:51:24.000000000,closed,1,Feature Request: Option to add FQDN names to hosts file
+205,2017-12-21 05:48:04.000000000,2017-12-21 18:51:15.000000000,closed,1,Domain joined Windows lab - How to switch users?
+204,2017-12-20 22:11:28.000000000,2017-12-21 00:47:46.000000000,closed,0,"Merge develop into master, AL 4.6"
+203,2017-12-19 18:40:48.000000000,2017-12-29 14:20:10.000000000,closed,5,Need instructions to install AL using only PS cmdlets or manually copy of files - trying to make it work in Standalone Hyper-V
+202,2017-12-19 18:01:12.000000000,2017-12-19 18:04:55.000000000,closed,0,"Implemented new AzureProperty ""UseByolImage"" (Fixes #139)"
+201,2017-12-18 13:33:00.000000000,2017-12-18 13:34:34.000000000,closed,1,New release 4.5.0.0 (#173)
+200,2017-12-16 01:02:15.000000000,2017-12-18 22:15:29.000000000,closed,0,Install-LabSoftwarePackage now supports $UseExplicitCredentialsForSch…
+199,2017-12-15 18:17:31.000000000,2017-12-15 18:27:38.000000000,closed,2,German
+198,2017-12-15 11:19:21.000000000,2018-03-20 00:53:37.000000000,closed,3,MDT Deployment Lab Example
+197,2017-12-15 10:44:56.000000000,2017-12-15 16:45:02.000000000,closed,2,"Update 07.2 Exchange 2016 Server and client, domain joined.ps1"
+196,2017-12-15 00:18:07.000000000,2017-12-15 00:34:19.000000000,closed,0,Feature/move sample scripts
+195,2017-12-14 17:18:32.000000000,2017-12-14 23:04:57.000000000,closed,1,Feature/publish all modules to gallery
+194,2017-12-14 16:27:45.000000000,2020-04-03 20:25:36.000000000,closed,6,Demo and Documentation required: How to add machines to a domain that is part of another lab
+193,2017-12-14 02:01:46.000000000,2017-12-15 17:33:36.000000000,closed,0,Copy-LabFileItem does not throw an error when ComputerName is wrong
+192,2017-12-13 17:24:12.000000000,2017-12-13 17:34:15.000000000,closed,1,"ALNotification updated, Fixes #191"
+191,2017-12-13 04:08:09.000000000,2017-12-13 17:34:16.000000000,closed,0,Get-ItemPropertyValue : Property ServerNano does not exist at path HKEY_LOCAL_MACHINE\software\Microsoft\Windows  NT\CurrentVersion\Server\ServerLevels.
+190,2017-12-12 18:21:18.000000000,2017-12-13 14:29:49.000000000,closed,2,Requirements in readme.md
+189,2017-12-12 10:01:25.000000000,2018-01-03 17:59:13.000000000,closed,7,Nested Virtualization
+188,2017-12-12 09:49:06.000000000,2017-12-13 22:25:28.000000000,closed,3,Homelab Setup question
+187,2017-12-12 07:07:35.000000000,2017-12-12 17:08:26.000000000,closed,7,Basic Question
+186,2017-12-10 20:21:53.000000000,2017-12-11 15:55:43.000000000,closed,1,Description of VMs in HyperV Manager is weird
+185,2017-12-10 08:48:36.000000000,2017-12-25 12:46:34.000000000,closed,12,Feature Request: Add an -InstallManagementTools option to Install-LabWindowsFeature
+184,2017-12-09 13:53:43.000000000,2017-12-10 23:38:29.000000000,closed,0,Mount-LabIsoImage does not throw an error when ComputerName is wrong
+183,2017-12-08 23:00:08.000000000,2017-12-09 03:12:06.000000000,closed,1,Feature/app veyor integration
+182,2017-12-07 15:17:17.000000000,2017-12-07 17:59:39.000000000,closed,0,Moved functionality into AutomatedLab.Common
+181,2017-12-07 02:06:29.000000000,2020-06-02 14:46:24.000000000,closed,4,Feature Request: Using Install-Lab StartRemainingMachines switch to start machines serially
+180,2017-12-06 03:41:29.000000000,2017-12-12 00:22:42.000000000,closed,5,Install-Lab Desktop Operating Systems timeout on Start-LabVM
+179,2017-12-05 19:59:11.000000000,2017-12-05 20:28:04.000000000,closed,0,SQL Server 2017 added
+178,2017-12-05 16:28:01.000000000,2017-12-05 16:30:38.000000000,closed,0,Insider build added to Lab OSses (fixes #174)
+177,2017-12-04 19:21:08.000000000,2017-12-05 20:30:43.000000000,closed,0,Feature/sql azure customizations ( Fixes #171)
+176,2017-12-03 10:21:36.000000000,2017-12-04 00:32:41.000000000,closed,1,Message text incorrect in AutomatedLabExchange2016.psm1 (AutomatedLab v4.5)
+175,2017-11-28 16:47:42.000000000,2017-11-28 17:43:55.000000000,closed,1,Installing-Windows-Feature
+174,2017-11-25 15:49:28.000000000,2017-12-05 16:36:12.000000000,closed,2,Add support for Windows Server 1709
+173,2017-11-19 14:42:56.000000000,2017-11-19 14:43:37.000000000,closed,0,New release 4.5.0.0
+172,2017-11-18 23:28:26.000000000,2017-11-18 23:30:30.000000000,closed,0,Failover Clustering feature added
+171,2017-11-15 21:33:13.000000000,2017-12-05 20:30:43.000000000,closed,0,SQL Server on Azure should support all role properties
+170,2017-11-14 16:44:58.000000000,2017-11-14 16:50:14.000000000,closed,0,Feature/update sql post install fixes #96
+169,2017-11-14 02:37:15.000000000,2017-12-29 19:45:46.000000000,closed,8,Errors in initial module import
+168,2017-11-11 13:42:36.000000000,2017-11-13 20:36:25.000000000,closed,0,Update 01 Single Win10 Client.ps1
+167,2017-11-06 22:38:33.000000000,2018-03-20 00:50:15.000000000,closed,1,Start a non-windows VM
+166,2017-11-05 05:44:31.000000000,2018-01-03 14:11:30.000000000,closed,2,Add-LabMachineDefinition Parse error when specifying subnet mask using / notation
+165,2017-11-05 04:20:32.000000000,2017-11-20 14:41:24.000000000,closed,0,Documentation Error in Add-LabMachineDefinition examples
+164,2017-11-05 04:15:38.000000000,2018-05-28 17:51:46.000000000,closed,1,Remove-VMSwitch error in 4.4.0 when using existing switch
+163,2017-11-05 03:58:47.000000000,2017-11-11 00:10:38.000000000,closed,4,Get-ItemPropertyValue error after installing 4.4.0
+162,2017-11-03 18:58:08.000000000,2017-11-04 23:05:45.000000000,closed,10,Some templates stop working on Windows 10 1709 when requiring ISO to be mounted
+161,2017-10-28 06:39:45.000000000,2017-10-28 06:39:54.000000000,closed,0,Feature/fall creators update
+160,2017-10-26 20:50:32.000000000,2017-10-26 20:50:48.000000000,closed,0,4.4.0
+159,2017-10-26 20:49:28.000000000,2017-10-26 20:49:39.000000000,closed,0,Master
+158,2017-10-26 07:25:16.000000000,2017-10-26 11:43:08.000000000,closed,0,'Windows.UI.Notifications.ToastNotification' is not registered on Server Core 2016 
+157,2017-10-24 14:29:21.000000000,2017-10-25 12:10:18.000000000,closed,5,Send-ModuleToPSSession 
+156,2017-10-23 15:00:59.000000000,2017-10-26 09:37:53.000000000,closed,0,"added ""Done"" Screen output to .Net install"
+155,2017-09-25 11:20:08.000000000,2017-09-25 18:30:50.000000000,closed,0,Fix Install-Lab -DelayBetweenComputers Parameter
+154,2017-09-17 11:36:51.000000000,2017-09-28 19:19:12.000000000,closed,1,wiki/2.-Getting-Started - Show-LabInstallationTime/Show-LabDeploymentSummary
+153,2017-09-16 23:58:11.000000000,2017-12-07 02:00:07.000000000,closed,2,Skype for business
+152,2017-09-11 10:53:58.000000000,1970-01-01 00:00:00.000000001,open,5,Feature Request - VLAN Support for Machine Definitions
+151,2017-09-05 17:35:47.000000000,2017-09-06 11:26:17.000000000,closed,5,Unwanted dependency to HyperV modules
+150,2017-09-05 17:18:27.000000000,2017-09-12 19:04:20.000000000,closed,1,Azure labs need to support Server 2016 Core
+149,2017-09-05 16:13:47.000000000,2017-09-06 13:54:33.000000000,closed,1,Change allowed labname for Azure
+148,2017-09-05 15:29:17.000000000,2017-10-26 13:07:21.000000000,closed,2,PowerShell Lab - Azure example script fails
+147,2017-08-30 02:24:42.000000000,2018-01-03 06:25:00.000000000,closed,6,Error while running Get-LabAvailableOperatingSystem
+146,2017-08-24 12:30:27.000000000,2017-08-29 10:27:33.000000000,closed,6,Feature request - Role plugin
+145,2017-08-23 17:07:36.000000000,2017-08-30 19:19:18.000000000,closed,2,Test-LabDeployment -All behavoiur
+144,2017-08-22 00:52:25.000000000,2017-08-24 19:46:27.000000000,closed,1,Example of instruction has typo
+143,2017-08-10 18:11:23.000000000,2017-08-10 18:14:01.000000000,closed,0,Feature/az deployment time fixes #125
+142,2017-08-04 15:37:38.000000000,2017-08-04 15:37:58.000000000,closed,0,Support for configurable NetBIOS domain name 
+141,2017-08-04 15:36:19.000000000,2017-08-04 15:37:11.000000000,closed,1,Support for configurable NetBIOS domain name
+140,2017-08-04 12:35:52.000000000,2017-08-04 12:37:14.000000000,closed,0,Merge new certificate functions into develop
+139,2017-07-23 20:40:38.000000000,2017-12-19 18:06:59.000000000,closed,6,In Azure with SQL server brings back BYOL images causing failure
+138,2017-07-18 05:54:13.000000000,2017-09-05 15:10:06.000000000,closed,8,Exchange2013 Role Fails if Organization Name has spaces
+137,2017-07-06 11:31:59.000000000,2018-01-03 14:01:30.000000000,closed,10, Get-LabInternetFileInternal is really slow
+136,2017-07-05 02:02:09.000000000,2017-07-05 03:53:20.000000000,closed,6,Regarding licensing..
+135,2017-07-04 23:06:40.000000000,2017-07-05 01:53:50.000000000,closed,1,Add a VM to existing lab?
+134,2017-07-03 16:04:50.000000000,2017-07-07 13:51:32.000000000,closed,5,Unable to remover reference disk with Remove-Lab cmdlet
+133,2017-06-30 02:39:30.000000000,2017-06-30 02:39:34.000000000,closed,0,Added a new global setting: MaxPSSessionsPerVM. Previously all sessio…
+132,2017-06-30 02:38:01.000000000,2017-06-30 02:38:40.000000000,closed,1,Feature/max ps sessions per vm
+131,2017-06-30 02:33:08.000000000,2017-06-30 02:33:13.000000000,closed,0,Feature/invoke dsc configuration
+130,2017-06-30 02:32:39.000000000,2017-06-30 02:32:45.000000000,closed,0,Feature/send module to ps session
+129,2017-06-28 06:34:15.000000000,2017-06-28 11:50:33.000000000,closed,1,To support Windows 10 Enterprise Evaluation ISO
+128,2017-06-27 02:29:04.000000000,2017-06-27 02:30:51.000000000,closed,0,Feature/ca template extensions
+127,2017-06-26 07:21:23.000000000,2017-06-27 00:44:20.000000000,closed,4,Added Windows 10 Enterprise Evaluation
+126,2017-06-22 03:11:33.000000000,2017-06-30 20:04:54.000000000,closed,7,.Net 4.62 is required by Exchange 2013 CU16
+125,2017-06-20 13:33:21.000000000,2017-10-26 20:50:49.000000000,closed,9,Azure virtual networks aren't created
+124,2017-06-18 03:54:17.000000000,2017-06-20 16:19:54.000000000,closed,3,Scripts get hung and not installing software packages
+123,2017-06-15 12:57:24.000000000,2020-06-02 14:39:12.000000000,closed,15,Join lab machine to existing domain
+122,2017-06-15 00:26:49.000000000,2017-06-17 22:16:23.000000000,closed,13,Windows 7 not completing in this script.
+121,2017-06-14 18:57:37.000000000,2017-06-15 18:52:43.000000000,closed,3,Utilize existing Hyper-V switch
+120,2017-06-02 11:06:53.000000000,2017-06-27 01:43:19.000000000,closed,13,bug when creating VM
+119,2017-06-01 15:49:58.000000000,2017-06-04 14:31:31.000000000,closed,0,Azure DNS settings (fixes #109)
+118,2017-05-30 18:30:19.000000000,2017-06-07 15:32:19.000000000,closed,6,Vmware support - basic functionality #106
+117,2017-05-30 15:43:33.000000000,2017-05-30 18:30:50.000000000,closed,2,Vm ware support - basic functionality #Issue 106
+116,2017-05-26 01:54:52.000000000,2017-05-27 18:30:17.000000000,closed,3,Missing evaluation versions
+115,2017-05-22 19:30:38.000000000,2017-05-24 11:49:47.000000000,closed,0,Get-DiskSpeed skips test on ReadOnly
+114,2017-05-22 02:47:18.000000000,2017-05-22 11:30:09.000000000,closed,3,SQL and PKI  question -
+113,2017-05-22 00:41:22.000000000,2017-05-22 00:41:25.000000000,closed,0,Adding new scenario
+112,2017-05-21 22:52:53.000000000,2017-05-21 22:52:58.000000000,closed,0,Adding PowerBI template and Script to create SQL DSC database.
+111,2017-05-20 20:31:20.000000000,2017-05-22 19:11:43.000000000,closed,12,Feature Request - Automatic Download and install
+110,2017-05-19 22:39:28.000000000,2017-05-20 01:11:02.000000000,closed,4,Dedicated harddisk
+109,2017-05-19 20:02:05.000000000,2017-06-01 15:50:57.000000000,closed,1,DNS Server not set correctly on Azure
+108,2017-05-19 14:02:03.000000000,2017-05-19 18:22:16.000000000,closed,0,Develop
+107,2017-05-19 12:24:09.000000000,2017-05-19 12:39:08.000000000,closed,2,function Install-VisualStudio2015 edit: 2013 corrected to 2015
+106,2017-05-19 11:47:36.000000000,2018-03-20 00:57:54.000000000,closed,19,How does VMWare support work?
+105,2017-05-19 06:14:00.000000000,2017-05-22 19:12:03.000000000,closed,10,Quick question. 
+104,2017-05-19 02:05:37.000000000,2017-05-19 04:42:12.000000000,closed,0,New Users in DC
+103,2017-05-18 17:10:26.000000000,2018-03-27 22:26:24.000000000,closed,11,Is it possible to install Linux?
+102,2017-05-18 02:30:36.000000000,2017-05-18 03:00:32.000000000,closed,2,Windows7 install issue
+101,2017-05-18 01:39:26.000000000,2017-05-18 03:00:43.000000000,closed,1,"Awesome, but few questions"
+100,2017-05-17 22:59:13.000000000,2017-05-18 01:07:29.000000000,closed,15,After installing MSI
+99,2017-05-17 01:56:42.000000000,2017-05-21 10:45:57.000000000,closed,3,Exchange Issues
+98,2017-05-15 18:55:37.000000000,2017-05-16 18:47:07.000000000,closed,1,AL needs to support Azure PowerShell 4.*
+97,2017-05-12 13:28:03.000000000,2017-05-12 13:28:10.000000000,closed,1,Add Update-LabBaseImage function
+96,2017-05-12 13:13:08.000000000,2017-11-14 16:54:54.000000000,closed,1,SampleDb outdated in LabSources\PostInstallationActivities\PrepareSqlServer
+95,2017-05-12 02:58:10.000000000,2017-05-12 13:24:54.000000000,closed,1,Add Update-LabBaseImage function
+94,2017-05-11 16:16:33.000000000,2017-05-12 13:04:31.000000000,closed,2,documentation in markdown
+93,2017-05-10 13:45:16.000000000,2017-05-10 13:45:22.000000000,closed,0,Develop
+92,2017-05-08 17:42:34.000000000,2017-05-08 22:14:38.000000000,closed,2,OSUpdate Timed out
+91,2017-05-08 13:51:43.000000000,2017-07-11 23:05:08.000000000,closed,5,Support for DSC
+90,2017-05-04 12:35:20.000000000,2017-05-04 12:35:27.000000000,closed,0,Develop
+89,2017-05-02 18:07:54.000000000,2017-08-16 19:56:48.000000000,closed,0,AutomatedLab should display toast notifications on Windows 10
+88,2017-04-28 17:58:00.000000000,2017-05-07 23:19:53.000000000,closed,10,Exchange 2016 on Windows 2016
+87,2017-04-28 16:22:15.000000000,2017-11-14 16:57:14.000000000,closed,1,AutomatedLab should be able to create hybrid labs
+86,2017-04-22 20:58:36.000000000,2017-04-22 21:41:43.000000000,closed,1,DSC setup should select most current resource module versions
+85,2017-04-18 18:14:51.000000000,2018-03-23 17:54:32.000000000,closed,0,AutomatedLab on Azure should support adding custom external-facing ports
+84,2017-04-18 18:06:19.000000000,2017-04-22 21:02:10.000000000,closed,1,AutomatedLab on Azure should support ISO mounting
+83,2017-04-14 19:55:56.000000000,2017-04-14 20:11:55.000000000,closed,1,New-LabDefinition not creating folder structure
+82,2017-04-12 18:34:24.000000000,2017-06-27 01:42:06.000000000,closed,7,Write-ScreenInfo function not found
+81,2017-04-05 00:52:23.000000000,2017-04-05 00:52:42.000000000,closed,0,Develop
+80,2017-03-14 03:03:53.000000000,2017-03-30 16:12:40.000000000,closed,8,Deploying a Visual Studio image on Azure does not work
+79,2017-03-13 02:06:37.000000000,2017-03-13 02:06:41.000000000,closed,0,Checking for modules first before downloading
+78,2017-03-13 02:06:16.000000000,2017-03-13 02:07:03.000000000,closed,1,Dsc pull server offline support
+77,2017-03-10 21:09:21.000000000,2017-03-10 21:09:28.000000000,closed,0,Dsc pull server offline support
+76,2017-03-07 07:41:11.000000000,2017-04-04 23:34:11.000000000,closed,1,Checking for ShellHWDetection Status causes nonterminating errors to show
+75,2017-03-03 04:07:30.000000000,2017-04-04 23:36:24.000000000,closed,8,Failed to run first lab
+74,2017-03-02 23:51:12.000000000,2017-03-02 23:51:43.000000000,closed,0,Merging new Office 2016 licensing option
+73,2017-03-02 21:40:45.000000000,1970-01-01 00:00:00.000000001,open,0,Feature request: Add options or script to disable Windows settings that cause issues in lab environments
+72,2017-03-02 03:53:28.000000000,2017-03-02 03:53:58.000000000,closed,0,Merging new Exchange Installation code
+71,2017-03-01 21:57:55.000000000,2017-03-06 14:12:58.000000000,closed,4,Nano Server images are not yet supported in Azure
+70,2017-03-01 18:00:52.000000000,2017-03-01 18:01:19.000000000,closed,0,Merging Deployment Summary Feature
+69,2017-03-01 02:13:41.000000000,2017-03-01 02:13:46.000000000,closed,0,Feature/deployment summary
+68,2017-02-27 23:49:47.000000000,2017-02-28 21:51:37.000000000,closed,0,Develop
+67,2017-02-25 22:59:27.000000000,2017-06-27 01:42:43.000000000,closed,7,Install-LabSoftwarePackage and MSI packages...
+66,2017-02-25 21:33:00.000000000,2017-02-26 13:07:50.000000000,closed,2,Lability and AL on same machine - some cmdlets not working...
+65,2017-02-25 18:39:07.000000000,2017-02-26 00:55:06.000000000,closed,1,Office2016 Parameter in Install-Lab not working...
+64,2017-02-25 14:26:53.000000000,2017-02-25 14:27:55.000000000,closed,0,Develop
+63,2017-02-24 21:10:32.000000000,2017-02-24 21:10:45.000000000,closed,0,Develop
+62,2017-02-23 15:09:42.000000000,2017-02-24 17:36:58.000000000,closed,0,Recognize Azure Profile expiration
+61,2017-02-23 01:08:48.000000000,2017-02-23 01:09:00.000000000,closed,0,Display a summary after successfull deployment
+60,2017-02-22 23:23:16.000000000,2017-03-02 16:38:52.000000000,closed,1,Summary after deployment
+59,2017-02-21 22:40:48.000000000,2017-02-22 16:26:35.000000000,closed,1,Start-LWAzureVM should work in parallel
+58,2017-02-21 21:29:06.000000000,2017-06-30 03:16:55.000000000,closed,1,Disks.xml cannot be found and subsequent errors
+57,2017-02-19 19:21:54.000000000,2017-02-21 17:34:57.000000000,closed,1,Load balancer does not support multiple subnets
+56,2017-02-09 23:51:22.000000000,2017-02-10 00:51:02.000000000,closed,2,not properly workig LabSourcesLocation on MSI level
+55,2017-02-04 16:35:22.000000000,2017-02-04 17:17:01.000000000,closed,0,Develop
+54,2017-02-04 00:52:23.000000000,2017-02-04 00:52:28.000000000,closed,0,Feature/installer should support upgrades
+53,2017-02-03 05:28:30.000000000,2017-02-03 05:28:51.000000000,closed,0,Develop
+52,2017-01-29 04:29:35.000000000,2017-02-21 03:14:53.000000000,closed,1,Invoke-LabCommand -AsJob should add arguments to the job
+51,2017-01-24 21:32:28.000000000,2020-02-16 04:10:28.000000000,closed,5,adding a new lab machine after re-importing a lab is not possible
+50,2017-01-24 15:22:55.000000000,2018-03-27 22:29:08.000000000,closed,2,ValidationSettings.ValidRoleProperties feature not ready
+49,2017-01-22 03:25:55.000000000,2017-01-22 12:45:14.000000000,closed,1,Remove-Lab also removes AutomatedLabSources
+48,2017-01-19 14:32:35.000000000,2017-01-28 03:36:24.000000000,closed,11,The virtual machine does not start
+47,2017-01-18 18:39:21.000000000,2017-02-08 03:41:33.000000000,closed,1,Lab sources folder should synchronize with Azure
+46,2017-01-18 02:35:46.000000000,2017-02-08 04:09:36.000000000,closed,1,Installer should support updating
+45,2017-01-17 04:17:45.000000000,2017-01-22 01:05:07.000000000,closed,1,Save-LabVM does not work
+44,2017-01-15 04:03:01.000000000,2017-02-15 20:11:22.000000000,closed,7,Auto discovery of physical volumes is ommitting MPIO devices
+43,2017-01-12 14:30:45.000000000,2017-01-12 14:30:53.000000000,closed,0,Merging latest fixes to for creating a working 3.9.0.2 build
+42,2017-01-11 12:51:40.000000000,2017-01-11 14:03:43.000000000,closed,0,implement shared computer licensing for Office 2016 installation
+41,2017-01-11 05:07:44.000000000,2017-01-11 05:07:52.000000000,closed,0,Getting latest changes from master to create a private test build
+40,2017-01-11 03:38:51.000000000,2017-01-12 19:28:23.000000000,closed,1,Adding disks to VMs does not work
+39,2017-01-10 23:54:14.000000000,2017-01-11 17:36:44.000000000,closed,1,Visual Studio images are not considered in Azure
+38,2017-01-10 22:28:24.000000000,2017-01-10 22:44:10.000000000,closed,0,Getting Exchange 2016 code
+37,2017-01-06 05:02:08.000000000,2017-01-06 05:02:17.000000000,closed,0,Merging newest changes from Master
+36,2017-01-06 04:56:04.000000000,2017-01-06 04:56:11.000000000,closed,0,Adfs
+35,2017-01-05 21:52:50.000000000,2017-01-05 21:53:02.000000000,closed,0,Merging from master to feature branch
+34,2016-12-29 03:12:23.000000000,2017-02-08 04:10:10.000000000,closed,2,Support for Configuration Manager
+33,2016-12-28 10:52:00.000000000,2016-12-29 20:43:25.000000000,closed,8,Cannot Create a Lab in Windows 10 Laptop
+32,2016-12-18 22:59:26.000000000,2016-12-21 10:55:14.000000000,closed,0,output newlines when mouting/unmounting ISOs
+31,2016-12-18 21:01:24.000000000,2016-12-18 21:01:45.000000000,closed,0,Merge remote-tracking branch 'refs/remotes/AutomatedLab/master'
+30,2016-12-13 05:15:04.000000000,2017-01-11 17:41:51.000000000,closed,3,How to troubleshoot:  Postinstallation scripts do not appear to run automatically
+29,2016-12-11 17:05:10.000000000,2016-12-12 01:52:11.000000000,closed,2,Base Image creation fails
+28,2016-12-01 02:02:26.000000000,2016-12-02 03:41:04.000000000,closed,1,Fixed DSC guid creation and PSDSCPullServer config
+27,2016-11-21 19:03:30.000000000,2016-12-13 05:03:27.000000000,closed,12,Waiting for machines to start up..
+26,2016-11-21 17:21:18.000000000,2016-11-22 23:01:37.000000000,closed,4,Postactivity seeems not to be executed
+25,2016-11-20 02:52:36.000000000,2016-11-20 17:30:07.000000000,closed,2,How to install?
+24,2016-11-18 11:02:55.000000000,2016-11-19 00:34:15.000000000,closed,2,There isn't a single operating system ISO available in the lab with AL 3.8.0.9
+23,2016-11-18 04:07:17.000000000,2020-07-09 18:08:23.000000000,closed,6,Feature request: Add option to have VM name be different than computer name
+22,2016-11-15 21:56:40.000000000,2017-01-10 23:56:14.000000000,closed,1,Installing DC on Windows Server 2016 sometimes does not work
+21,2016-11-15 15:52:28.000000000,1970-01-01 00:00:00.000000001,open,0,ISO Offline Patching should check for already applied hotfixes
+20,2016-11-07 10:56:23.000000000,2016-11-07 17:51:52.000000000,closed,2,Mount-LabIsoImage sometimes fails to pass through DVD drive letter
+19,2016-11-04 11:03:03.000000000,2016-11-04 15:14:35.000000000,closed,2,warning message during installation of SQL Server 2014 / .NET 3.5 prerequisites
+18,2016-11-03 18:01:38.000000000,2016-11-03 18:09:29.000000000,closed,1,Error calling Set-VMFirmware creating a Gen1 machine
+17,2016-11-02 18:54:38.000000000,2016-12-30 17:42:44.000000000,closed,3,Make usage of Windows Defender configurable
+16,2016-10-23 14:50:14.000000000,2016-10-23 14:50:37.000000000,closed,0,Pr/13
+15,2016-10-21 13:34:28.000000000,2016-10-21 13:34:32.000000000,closed,0,Pr/13
+14,2016-10-20 12:13:32.000000000,2016-10-20 12:15:08.000000000,closed,0,New ProGet version
+13,2016-10-20 07:57:09.000000000,2016-10-20 12:15:08.000000000,closed,1,Updated Sample-File - ProGet
+12,2016-10-17 16:36:01.000000000,2016-10-17 16:36:26.000000000,closed,8,Dummy: Resources for Wiki Pages
+11,2016-10-10 16:25:02.000000000,2017-01-11 00:03:46.000000000,closed,1,PowerCli 6
+10,2016-10-10 16:25:00.000000000,2017-01-11 00:01:26.000000000,closed,1,pending reboot detection
+9,2016-10-10 16:24:52.000000000,2017-01-18 21:07:03.000000000,closed,1,Only available Operating Systems should be shown
+8,2016-10-10 16:24:51.000000000,2017-01-10 23:56:53.000000000,closed,1,Roles enum needs an update
+7,2016-10-10 16:24:50.000000000,2017-01-17 12:46:14.000000000,closed,1,2.0.0.0: Need Documentation for Get-Help
+6,2016-10-10 16:24:49.000000000,2016-10-17 20:45:47.000000000,closed,1,2.0.0.0 - Install-LabWindowsFeature throws error
+5,2016-10-10 16:24:47.000000000,2016-10-17 20:45:00.000000000,closed,1,The AutoLogon registry keys are only set on domain controllers
+4,2016-10-10 16:24:45.000000000,2017-01-11 00:04:13.000000000,closed,1,Support for multiple network interfaces per lab scenario
+3,2016-10-10 16:24:42.000000000,1970-01-01 00:00:00.000000001,open,0,Validator should also verify DNS settings
+2,2016-10-02 21:19:25.000000000,2017-12-12 00:35:18.000000000,closed,2,Server 2016 does not offer all commonly available Windows Features
+1,2016-09-27 19:58:07.000000000,2016-09-28 16:24:58.000000000,closed,12,"remove language specific string ""Network Adapter"" from call to remove default network adapter"

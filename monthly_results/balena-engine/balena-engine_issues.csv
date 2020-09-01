@@ -1,0 +1,229 @@
+id,created_at,closed_at,state,comments,title
+228,2020-08-18 19:22:07.000000000,1970-01-01 00:00:00.000000001,open,0,ci overhaul
+227,2020-08-13 21:24:36.000000000,1970-01-01 00:00:00.000000001,open,2,Error listening to events: Error: connect ECONNREFUSED /var/run/balena-engine.sock
+226,2020-08-08 01:01:46.000000000,1970-01-01 00:00:00.000000001,open,0,balena-engine and docker-slim integration feature request
+225,2020-07-31 18:44:35.000000000,1970-01-01 00:00:00.000000001,open,1,performance problems with the journald log driver
+224,2020-07-15 14:29:15.000000000,1970-01-01 00:00:00.000000001,open,1,User would like to use gpu flag with balena engine
+223,2020-07-06 04:27:05.000000000,1970-01-01 00:00:00.000000001,open,3,SIGSEGV: segmentation violation code / Segfault from boltdb/bolt.(*Bucket).openBucket() => runtime.newobject() => runtime.mallocgc() on an Intel Edison board with long uptime
+222,2020-06-26 21:37:49.000000000,2020-07-01 13:10:26.000000000,closed,5,Errors will happen when upgrading the libraries
+221,2020-06-23 20:26:43.000000000,1970-01-01 00:00:00.000000001,open,3,Crash-looping service exhausts task limit
+220,2020-06-06 02:43:11.000000000,1970-01-01 00:00:00.000000001,open,10,Balena-engine.socket is created as a directory
+219,2020-05-23 00:56:33.000000000,2020-05-27 15:15:14.000000000,closed,1,How balena-engine data directory is protected against SD card corruption? (question)
+218,2020-05-19 16:56:35.000000000,2020-05-28 18:35:50.000000000,closed,7,Fix CLI versioning
+217,2020-05-14 18:56:25.000000000,2020-05-29 13:19:36.000000000,closed,9,meta: housekeeping
+216,2020-05-13 18:22:32.000000000,2020-05-15 14:06:59.000000000,closed,1,versionbot: Add changelog yml file
+215,2020-05-08 21:54:55.000000000,1970-01-01 00:00:00.000000001,open,1,daemon: Log cleanup events
+214,2020-05-05 20:55:24.000000000,2020-05-27 15:18:03.000000000,closed,2,Change /sys bind mount from ro to rw
+213,2020-04-27 16:12:48.000000000,2020-04-27 20:28:51.000000000,closed,6,Fix container data deletion
+212,2020-04-24 21:15:16.000000000,1970-01-01 00:00:00.000000001,open,2,User reports docker0 - balena0 interfaces being assigned the same IP
+211,2020-04-20 19:38:18.000000000,2020-04-22 19:35:47.000000000,closed,6,18.x: Clean up leaked engine data
+210,2020-04-11 09:49:46.000000000,2020-04-14 18:19:41.000000000,closed,1,Fixed typos in getting-started.md docs
+209,2020-04-11 09:40:09.000000000,2020-04-14 18:19:41.000000000,closed,0,Typos in documentation
+208,2020-04-09 13:48:48.000000000,1970-01-01 00:00:00.000000001,open,1,User wants macvlan support added again
+207,2020-04-09 04:02:26.000000000,2020-05-15 16:54:38.000000000,closed,1,"Reinstate macvlan code, taken from just before it was removed from ba…"
+206,2020-04-08 14:55:23.000000000,1970-01-01 00:00:00.000000001,open,3,Investigate behavior during push/pull
+205,2020-04-07 18:41:52.000000000,1970-01-01 00:00:00.000000001,open,0,Migration of images/containers on aufs to overlayfs
+204,2020-04-07 14:10:06.000000000,2020-04-10 15:49:05.000000000,closed,7,pkg/authorization: Fix test failures on macOS
+203,2020-04-03 20:27:56.000000000,2020-05-01 18:12:13.000000000,closed,9,Clean up leaked engine data
+202,2020-02-28 22:02:50.000000000,1970-01-01 00:00:00.000000001,open,0,Balena-enagine-shim consumes 5x more resources than docker alternative
+201,2020-02-18 16:24:54.000000000,2020-02-18 16:34:20.000000000,closed,1,Custom App using Display
+200,2020-02-01 17:13:41.000000000,1970-01-01 00:00:00.000000001,open,2,"installer: download to file, resume download"
+199,2020-02-01 16:18:17.000000000,1970-01-01 00:00:00.000000001,open,1,"Installer reports success, while it was not"
+198,2020-01-31 05:54:44.000000000,2020-05-27 15:21:37.000000000,closed,2,Continuous updates
+197,2020-01-09 16:12:26.000000000,1970-01-01 00:00:00.000000001,open,1,Investigate engine behaviour with big images (>5G)
+196,2019-12-13 23:14:45.000000000,1970-01-01 00:00:00.000000001,open,5,Healthdog checks time out during image pulls
+195,2019-12-10 00:22:19.000000000,1970-01-01 00:00:00.000000001,open,0,"wish: modify ""balena-engine save"" to stream without allocating temporal files"
+194,2019-12-07 02:58:53.000000000,2020-05-15 16:47:53.000000000,closed,2,wish: include the local log-driver
+193,2019-12-04 15:55:46.000000000,2020-05-06 17:17:58.000000000,closed,11,The engine fails to clean up unused overlays
+192,2019-11-22 02:56:23.000000000,1970-01-01 00:00:00.000000001,open,5,connecting to shim: dial unix \x00/containerd-shim/moby/0a3da4c.../shim.sock: connect: connection refused
+191,2019-11-11 15:46:32.000000000,1970-01-01 00:00:00.000000001,open,3,Balena engine goes into a reboot loop
+190,2019-10-31 14:19:33.000000000,1970-01-01 00:00:00.000000001,open,1,Puppeteer configuration can break a container
+189,2019-10-29 20:52:19.000000000,2019-11-01 14:22:54.000000000,closed,3,"build.sh: Disable btrfs,zfs,devicemapper graphdrivers"
+188,2019-10-29 20:01:36.000000000,2020-05-15 16:45:39.000000000,closed,3,Catch up with docker 19.03 CE
+187,2019-10-29 17:59:20.000000000,2019-11-01 19:38:28.000000000,closed,0,contrib: Add balena-engine version of dind container
+186,2019-10-17 02:22:13.000000000,2019-11-12 16:28:46.000000000,closed,2,"balena-engine-containerd won't start, corrupted metadata db"
+185,2019-10-09 21:00:08.000000000,1970-01-01 00:00:00.000000001,open,2,"balena-engine version 17.12.0 becomes unresponsive to certain commands, prevents updating"
+184,2019-09-16 19:25:08.000000000,2019-10-09 21:23:32.000000000,closed,3,[runc] Include upstream cleanups for CVE-2019-5736
+183,2019-08-26 20:55:20.000000000,1970-01-01 00:00:00.000000001,open,8,https://balena.io/engine/install.sh still installs 17.12 version of balena-engine
+182,2019-08-23 13:03:45.000000000,2019-09-02 14:38:13.000000000,closed,1,Bump CLI dependency to include fix for #178
+181,2019-08-14 02:43:23.000000000,1970-01-01 00:00:00.000000001,open,1,Switch dynamically linked releases to older libc for better compatibility
+180,2019-08-13 17:10:01.000000000,2019-08-22 16:14:22.000000000,closed,10,Backport journald fixes
+179,2019-08-08 14:39:55.000000000,2019-08-14 02:35:02.000000000,closed,4,Silent [xyz blob data] log messages
+178,2019-08-02 16:17:47.000000000,2019-09-09 15:28:08.000000000,closed,1,"Delta creation makes image with ""t:latest"" tag if no tag is provided"
+177,2019-07-27 00:06:54.000000000,2019-09-09 17:26:38.000000000,closed,5,error during connect: Post
+176,2019-07-26 16:55:42.000000000,1970-01-01 00:00:00.000000001,open,1,Unable to reuse path for `data-root` and `exec-root`
+175,2019-07-26 13:35:55.000000000,2019-08-22 20:16:17.000000000,closed,8,journald crash
+174,2019-07-23 17:32:34.000000000,2019-08-23 12:59:00.000000000,closed,6,Allow passing container ID to container via environment variable
+173,2019-07-19 15:35:59.000000000,1970-01-01 00:00:00.000000001,open,2,Consider allowing templating in environment variables in balena run command
+172,2019-07-17 11:38:45.000000000,2020-04-06 12:53:00.000000000,closed,8,Move to balenaCI
+171,2019-07-16 02:36:12.000000000,2019-11-12 15:31:12.000000000,closed,9,eth0: renamed from vethXXXXXXX
+170,2019-07-02 01:55:13.000000000,2019-07-15 23:34:58.000000000,closed,8,fatal error: unexpected signal during runtime execution
+169,2019-06-07 23:10:02.000000000,1970-01-01 00:00:00.000000001,open,1,Containers fail to start after host ran out of disk space
+168,2019-06-03 21:08:13.000000000,1970-01-01 00:00:00.000000001,open,11,Aufs to overlay2 migration utility
+167,2019-06-03 14:45:48.000000000,2019-06-03 19:19:00.000000000,closed,1,Bump containerd/cgroups
+166,2019-05-31 22:35:13.000000000,1970-01-01 00:00:00.000000001,open,1,Can't remove supervisor container during resinHUP
+165,2019-05-29 20:08:21.000000000,2019-05-30 12:54:18.000000000,closed,0,[17.12] dockerfile-build: move to balenalib
+164,2019-05-29 19:34:17.000000000,2019-06-26 12:47:15.000000000,closed,2,Install script improvements
+163,2019-05-21 21:41:30.000000000,2019-08-23 13:00:54.000000000,closed,1,[17.12 backport] Add containerd-ctr healthcheck command
+162,2019-04-29 21:29:43.000000000,2019-10-31 19:15:00.000000000,closed,3,integration-tests: Don't fail TestImagePullComparePullDuration
+161,2019-04-24 20:47:06.000000000,2019-04-29 21:00:11.000000000,closed,0,Add daemon flags to configure max download/upload attempts during pull/push
+160,2019-04-24 15:04:16.000000000,2019-04-29 21:04:55.000000000,closed,1,increase `max_download_attempts` to improve pulls on shaky networks.
+159,2019-04-19 22:31:09.000000000,2019-04-26 15:14:42.000000000,closed,0,Allow to turn off fs syncing on every layer diff for aufs/overlay2 storage drivers
+158,2019-04-18 17:20:26.000000000,2019-04-18 17:56:36.000000000,closed,0,Skip unsupported tests
+157,2019-04-18 14:21:12.000000000,2019-04-18 18:46:47.000000000,closed,0,Bump version file
+156,2019-04-04 03:11:54.000000000,2019-04-11 17:18:33.000000000,closed,1,Release files for arm are no longer generated
+155,2019-03-18 20:36:38.000000000,2019-03-18 22:05:04.000000000,closed,0,"[backport] Fix event filter filtering on ""or"""
+154,2019-03-16 18:36:34.000000000,2019-03-18 22:05:55.000000000,closed,6,"""unknown container"" warnings in balena-engine logs"
+153,2019-03-12 17:49:55.000000000,1970-01-01 00:00:00.000000001,open,9,balena-engine warnings while starting up
+152,2019-03-12 16:20:07.000000000,1970-01-01 00:00:00.000000001,open,0,Add containerd-ctr healthcheck command
+151,2019-03-05 00:34:15.000000000,2019-04-18 12:02:21.000000000,closed,12,Update balenaEngine to 18.09
+150,2019-02-28 20:19:15.000000000,2019-03-05 00:34:37.000000000,closed,1,Update balenaEngine to 18.09
+149,2019-02-25 20:58:56.000000000,2019-03-12 17:32:10.000000000,closed,2,[backport] Refresh containerd remotes on containerd restarted
+148,2019-02-25 18:31:25.000000000,2019-02-26 22:30:41.000000000,closed,2,balena-engine client hangs on first try if the balena-engine daemon is socket activated
+147,2019-02-25 16:39:02.000000000,2019-02-25 19:08:41.000000000,closed,0,vendor: Update runc to include fix for opencontainers/runc#1766
+146,2019-02-18 22:43:49.000000000,2019-02-21 14:19:33.000000000,closed,2,vendor: Update runc to include fix for CVE-2019-5736
+145,2019-02-08 20:39:05.000000000,1970-01-01 00:00:00.000000001,open,0,Balena inspect hangs indefinitely
+144,2019-02-07 22:54:37.000000000,2019-02-21 19:30:25.000000000,closed,2,travis: use minimal image and stages
+143,2019-02-05 17:44:47.000000000,2019-07-23 18:23:43.000000000,closed,5,Getting illegal instruction on arm6 builds when running on rpi zero w
+142,2019-02-05 02:42:41.000000000,1970-01-01 00:00:00.000000001,open,10,"If containerd dies, engine tries to reuse the old connection"
+141,2019-01-30 23:05:32.000000000,1970-01-01 00:00:00.000000001,open,0,Add ARMv5 softfp builds
+140,2019-01-28 16:19:16.000000000,1970-01-01 00:00:00.000000001,open,3,Engine crashes when container allocates all available memory (mem_limit)
+139,2019-01-21 21:37:07.000000000,2019-08-22 20:53:11.000000000,closed,2,Only sync files when applying layer diffs
+138,2019-01-16 17:59:33.000000000,2020-04-07 18:18:56.000000000,closed,7,Update balena.service
+137,2019-01-16 17:50:18.000000000,2019-01-16 17:50:43.000000000,closed,0,Update balena.service
+136,2019-01-16 16:43:34.000000000,1970-01-01 00:00:00.000000001,open,3,Installation not working. Update to #55 
+135,2019-01-15 02:37:42.000000000,2019-01-15 21:54:13.000000000,closed,1,Question: ARMv5 builds soft or hard floating point support
+134,2019-01-14 23:26:58.000000000,1970-01-01 00:00:00.000000001,open,3,Build multi-platform binaries for tags
+133,2019-01-11 20:05:35.000000000,2019-04-26 15:22:32.000000000,closed,2,[Feature] Add a flag to allow fast pulls without the sync guarentees
+132,2019-01-10 17:18:56.000000000,2019-01-14 23:15:06.000000000,closed,0,Update master to 17.12-resin
+131,2019-01-10 15:11:43.000000000,2019-01-14 16:58:03.000000000,closed,3,Enable travis-ci
+130,2019-01-08 23:41:14.000000000,2019-05-29 20:09:31.000000000,closed,2,Bump go version to v1.11.4
+129,2019-01-08 17:49:41.000000000,2019-05-29 19:31:01.000000000,closed,1,Improvements to install.sh
+128,2019-01-03 21:22:20.000000000,2019-08-22 20:56:04.000000000,closed,1,Add support for build secrets by catching up with the 18.09 Docker CE release
+127,2019-01-03 20:46:05.000000000,2019-01-08 23:24:03.000000000,closed,1,Add cli for tagging delta images
+126,2018-12-19 16:10:58.000000000,2020-05-15 16:50:26.000000000,closed,1,Integrate balenaCI
+125,2018-12-18 22:42:12.000000000,1970-01-01 00:00:00.000000001,open,3,Exposing /dev properly to the container by the Engine
+124,2018-12-14 00:15:25.000000000,2019-01-03 19:42:54.000000000,closed,0,Allow tagging of image deltas on creation
+123,2018-12-11 17:33:45.000000000,2018-12-18 21:45:28.000000000,closed,0,Backport fixes for hanging on low-entropy situations
+122,2018-11-26 15:22:59.000000000,2020-04-07 18:45:57.000000000,closed,2,Added DOCKER_RAMDISK option back
+121,2018-10-25 20:45:00.000000000,1970-01-01 00:00:00.000000001,open,6,Fix handling of separate delta store
+120,2018-10-25 20:12:21.000000000,2018-10-25 20:45:18.000000000,closed,1,Add the delta store to the daemon's store map
+119,2018-10-24 02:30:32.000000000,2018-10-24 12:02:37.000000000,closed,0,docs: Fix Docker capitalisation in balenaEngine docs
+118,2018-10-23 23:25:45.000000000,2018-10-24 00:54:14.000000000,closed,0,Update balenaEngine logo in README.md
+117,2018-10-19 01:16:00.000000000,2018-10-22 18:46:37.000000000,closed,0,Update CHANGELOG.md
+116,2018-10-17 21:29:16.000000000,1970-01-01 00:00:00.000000001,open,0,Switch to delta application mode on balena load
+115,2018-10-17 19:08:36.000000000,2018-10-17 19:33:26.000000000,closed,0,Update install.sh script for v17.12.0 release
+114,2018-10-17 14:36:24.000000000,2018-10-17 16:30:27.000000000,closed,0,Use Balena's fork of golang.org/x/sys to provide the ARM SyncFileRange syscall
+113,2018-10-16 19:28:04.000000000,2018-10-17 16:22:16.000000000,closed,0,"Have the balena-engine binary accept being called as balena, balenad..."
+112,2018-10-16 01:39:57.000000000,2018-10-16 11:39:57.000000000,closed,0,Run vndr tool for balena-cli and balena-libnetwork (balenaEngine rename)
+111,2018-10-13 07:49:46.000000000,2019-01-14 23:42:45.000000000,closed,2,Dynamically linked binaries
+110,2018-10-12 18:42:50.000000000,2018-10-30 19:37:30.000000000,closed,2,website: Redesign the layout
+109,2018-10-11 16:39:00.000000000,2018-10-12 12:26:20.000000000,closed,0,Fix daemon/cluster/executor/container unit tests
+108,2018-10-11 14:11:20.000000000,2019-01-08 18:41:46.000000000,closed,1,Update landing page design
+107,2018-10-10 21:43:36.000000000,2019-01-14 23:44:18.000000000,closed,1,"Error running image: exec: ""docker-proxy"": executable file not found in $PATH"
+106,2018-10-10 18:25:10.000000000,1970-01-01 00:00:00.000000001,open,1,Ensure balena stays responsive whilst running blocking io operations
+105,2018-10-08 21:52:13.000000000,2019-01-08 16:38:01.000000000,closed,5,balena depends on random to be initialised before starting
+104,2018-10-08 12:59:37.000000000,2018-10-11 12:12:45.000000000,closed,3,Skip integration tests that are pending balenaEngine compatibility investigation
+103,2018-10-04 16:37:25.000000000,2018-10-11 12:53:46.000000000,closed,2,Rename balena to balenaEngine
+102,2018-10-04 00:31:31.000000000,2018-10-04 20:40:42.000000000,closed,1,[WIP] [DO NOT MERGE!] Rename from balena to balenaEngine
+101,2018-09-21 04:31:36.000000000,2018-09-21 04:58:45.000000000,closed,0,console_linux: Fix race: lock Cond before Signal
+100,2018-09-20 15:09:11.000000000,1970-01-01 00:00:00.000000001,open,0,Build fails on go1.11
+99,2018-09-06 03:05:57.000000000,2018-09-06 05:21:57.000000000,closed,1,delta: use chain ids to decide whether to skip a layer
+98,2018-08-30 18:17:17.000000000,1970-01-01 00:00:00.000000001,open,1,balena delta image's pull fails when separate delta-data-root is used
+97,2018-08-29 23:15:55.000000000,2019-08-22 21:03:20.000000000,closed,1,Support flexible/wildcard device additions to non-privileged containers
+96,2018-08-28 16:28:22.000000000,2018-08-31 04:59:45.000000000,closed,0,version: fix version strings reported in the cli
+95,2018-08-27 20:50:11.000000000,2018-08-27 20:53:41.000000000,closed,0,pkg/chrootarchive: disable memory cgroups until pending issues are fixed
+94,2018-08-25 04:51:39.000000000,2018-08-27 20:46:11.000000000,closed,0,vendor: update libnetwork to include stale default bridge fix
+93,2018-08-16 15:35:57.000000000,1970-01-01 00:00:00.000000001,open,3,Failed to start service 'XXX'..  due to '(HTTP code 500) server error - driver failed programming external connectivity on endpoint ... Bind for 0.0.0.0:9000 failed: port is already allocated
+92,2018-08-01 18:03:37.000000000,2018-10-09 16:47:43.000000000,closed,0,mobynit: Add support for mounting rootfs from a custom path
+91,2018-07-25 18:45:01.000000000,1970-01-01 00:00:00.000000001,open,0,Device corruption on power failure/app reassignment during download
+90,2018-07-25 05:58:22.000000000,2019-01-15 00:11:11.000000000,closed,1,Build fails at due to `download-frozen-image-v2.sh` script.
+89,2018-07-17 21:47:56.000000000,2018-07-19 11:08:22.000000000,closed,0,pkg/ioutils: implement eager writer
+88,2018-07-06 19:31:14.000000000,2018-07-10 01:27:42.000000000,closed,1,Improve performance of balena pull using cgroups
+87,2018-07-04 00:39:00.000000000,2019-07-23 21:08:12.000000000,closed,3,no systemd
+86,2018-07-02 15:52:08.000000000,2019-04-29 21:09:19.000000000,closed,4,Slow balena pull
+85,2018-06-28 13:14:08.000000000,2018-06-28 13:34:24.000000000,closed,0,pkg/stringid: don't bother seeding math/random with crypto grade seed
+84,2018-06-12 20:29:22.000000000,2019-01-14 23:56:18.000000000,closed,2,Balena engine with Kubernetes
+83,2018-06-08 02:01:35.000000000,2019-01-08 16:48:54.000000000,closed,3,Question: docker-compose.yml support
+82,2018-06-08 01:26:17.000000000,2018-06-13 13:32:52.000000000,closed,0,vendor: update btrfs dependency
+81,2018-06-08 00:26:25.000000000,2020-04-07 17:57:36.000000000,closed,1,Use the same version name in the compressed package as the build does
+80,2018-06-05 12:43:03.000000000,2019-05-29 20:34:44.000000000,closed,3,Adding balena into buildroot
+79,2018-04-08 09:42:51.000000000,2019-08-22 21:11:31.000000000,closed,1,Graphdriver can't detect overlay driver
+78,2018-04-05 20:22:31.000000000,2019-05-29 20:35:37.000000000,closed,2,Balena did not create bind mount sources on container creation
+77,2018-03-13 19:59:21.000000000,2018-03-13 20:28:09.000000000,closed,0,container: remove extraneous lock leading to deadlocks
+76,2018-03-08 16:17:00.000000000,2019-08-22 21:00:46.000000000,closed,4,balena crash 
+75,2018-02-26 08:48:28.000000000,2018-03-06 03:34:14.000000000,closed,2,Unable to stop or remove paused container
+74,2018-02-14 05:42:05.000000000,2019-01-08 16:49:27.000000000,closed,1,"`balena -v` prints ""unknown version"""
+73,2018-02-13 09:30:17.000000000,2018-05-22 05:03:27.000000000,closed,0,Upgrade balena to 17.12
+72,2018-02-04 22:58:32.000000000,2019-01-08 16:55:34.000000000,closed,6,Cannot connect to the balena daemon at unix:///var/run/balena.sock. Is the balena daemon running?
+71,2018-01-26 01:20:59.000000000,2018-01-26 13:49:43.000000000,closed,0,daemon: add appropriate container locks to avoid races
+70,2018-01-19 20:28:42.000000000,2018-11-09 15:52:47.000000000,closed,0,Jetson TX2
+69,2018-01-19 00:13:35.000000000,1970-01-01 00:00:00.000000001,open,0,Leftover data in diff after power cut
+68,2017-12-22 20:08:11.000000000,2019-01-08 16:52:50.000000000,closed,1,Link to star on github from balena.io landing page is incorrect
+67,2017-12-11 22:05:24.000000000,2017-12-11 22:36:01.000000000,closed,0,healthcheck: fix docker segfaulting
+66,2017-11-28 22:31:43.000000000,2018-10-12 18:41:15.000000000,closed,0,landr 2.0.0-beta
+65,2017-11-27 05:34:56.000000000,2017-11-27 23:57:58.000000000,closed,0,daemon: experimental: restart container when they become unhealthy
+64,2017-11-27 05:34:25.000000000,2017-11-27 23:56:17.000000000,closed,0,vendor: update libnetwork to include balena-proxy rename
+63,2017-11-22 15:29:43.000000000,2017-11-27 05:15:47.000000000,closed,0,daemon: only attempt to prune local networks since swarm is disabled
+62,2017-11-15 16:38:53.000000000,2017-11-22 15:28:02.000000000,closed,1,Update librsync-go and circbuf
+61,2017-11-15 08:08:51.000000000,2017-12-04 06:36:31.000000000,closed,1,balena additional naming fixes 
+60,2017-11-09 04:58:34.000000000,2017-11-10 03:52:55.000000000,closed,0,vendor: update balena-cli
+59,2017-11-08 09:15:44.000000000,2017-11-16 05:46:37.000000000,closed,3,Question: where is the Moby Summit presentation slides?
+58,2017-11-07 19:10:05.000000000,1970-01-01 00:00:00.000000001,open,0,Delta progress reporting miscalculates current/total progress
+57,2017-11-06 18:39:53.000000000,2017-11-08 15:03:57.000000000,closed,0,Updated init scripts for Balena
+56,2017-11-03 01:39:30.000000000,2017-11-27 23:56:17.000000000,closed,0,"Error running image: exec: ""docker-proxy"": executable file not found in $PATH."
+55,2017-11-03 00:24:10.000000000,2019-07-23 18:11:21.000000000,closed,6,Cannot connect to the balena daemon at unix:///var/run/balena.sock. Is the balena daemon running?
+54,2017-11-02 23:56:52.000000000,2019-07-23 18:10:48.000000000,closed,1,"Install script fails without sudo, yet prints ""Installation Successful"""
+53,2017-10-30 20:19:52.000000000,2017-10-31 22:01:55.000000000,closed,0,Updated github hooks for balena
+52,2017-10-19 15:49:03.000000000,2018-10-11 11:19:41.000000000,closed,2,Support for RPi Zero
+51,2017-10-19 15:46:12.000000000,2019-07-23 18:13:33.000000000,closed,2,Expand the install script
+50,2017-10-18 10:14:36.000000000,2017-10-25 20:11:05.000000000,closed,0,updated the mock of xfer to pass unit test
+49,2017-10-17 07:48:03.000000000,2017-10-18 07:37:27.000000000,closed,0,Adjusting makefile for balena
+48,2017-10-15 16:07:50.000000000,2017-10-15 16:15:56.000000000,closed,0,fix addidental mention of balaena name instead of balena
+47,2017-10-14 02:12:23.000000000,1970-01-01 00:00:00.000000001,open,2,Update some relevant `contrib` sections to work with balena
+46,2017-10-13 16:45:44.000000000,2017-10-30 17:27:04.000000000,closed,0,Issue template should refer to balena throughout
+45,2017-10-13 16:38:59.000000000,2017-11-27 05:33:33.000000000,closed,3,Couldn't run auplink before unmount 
+44,2017-10-13 15:52:24.000000000,2019-01-08 23:53:53.000000000,closed,1,build.sh uses different version than the make script it calls
+43,2017-10-13 15:37:09.000000000,2017-10-16 21:08:39.000000000,closed,1,Typos
+42,2017-10-13 15:34:31.000000000,2017-11-01 20:02:32.000000000,closed,8,Could include homepage URL in description
+41,2017-10-13 14:59:11.000000000,2019-01-09 00:00:14.000000000,closed,6,Balena requires device-mapper 1.02.1 to be installed`
+40,2017-10-13 14:34:16.000000000,2017-10-30 17:27:31.000000000,closed,0,Update website copy
+39,2017-10-13 13:00:16.000000000,2017-10-13 13:00:26.000000000,closed,0,pkg/archive: sync files before issuing the fadvise syscall
+38,2017-10-13 02:13:32.000000000,2017-10-13 12:59:13.000000000,closed,1,Add website data
+37,2017-10-12 16:11:14.000000000,2017-10-13 00:18:46.000000000,closed,0,Minor fixes
+36,2017-10-11 06:33:22.000000000,2017-10-18 02:46:02.000000000,closed,0,Fixing integration tests
+35,2017-10-07 00:42:51.000000000,2017-10-12 05:30:13.000000000,closed,2,Image delta client support with progress reporting
+34,2017-10-06 09:41:54.000000000,2017-10-13 02:54:20.000000000,closed,0,rename container engine to balena
+33,2017-10-05 02:40:53.000000000,2017-10-05 02:43:42.000000000,closed,1,fixed docker network create -d
+32,2017-10-04 19:00:27.000000000,2017-10-04 19:04:21.000000000,closed,0,daemon: return engine name as part of the version information
+31,2017-10-04 03:17:01.000000000,2017-10-04 19:12:41.000000000,closed,0,Print combined progress when pulling
+30,2017-10-04 03:16:20.000000000,2017-10-04 03:24:22.000000000,closed,0,cmd/mobynit: get graphdriver parameter from disk
+29,2017-10-01 21:04:45.000000000,2017-10-01 22:44:37.000000000,closed,0,Vendor VERSION files
+28,2017-10-01 20:50:50.000000000,2017-10-01 22:44:34.000000000,closed,0,distribution: separate layer and image config for v1 pushes
+27,2017-10-01 20:29:37.000000000,2017-10-01 22:44:25.000000000,closed,0,Build time volumes
+26,2017-09-27 06:56:25.000000000,2017-10-11 06:20:13.000000000,closed,1,rce: Added a test for runc version
+25,2017-09-26 23:58:01.000000000,2017-10-11 06:25:09.000000000,closed,0,rce: trivial integration tests fixes
+24,2017-09-24 18:52:16.000000000,2019-01-08 18:45:01.000000000,closed,1,Delta application edge case
+23,2017-09-21 18:54:29.000000000,2017-09-25 17:33:09.000000000,closed,0,delta: remove false assumption about src image
+22,2017-09-15 16:28:25.000000000,2017-09-25 17:51:32.000000000,closed,5,Fixed runc version
+21,2017-09-08 20:08:07.000000000,2017-09-08 20:32:37.000000000,closed,0,integration: Skip plugin tests
+20,2017-09-08 19:14:58.000000000,2017-09-08 19:15:24.000000000,closed,0,Removed plugin related integration tests. 
+19,2017-09-04 11:52:03.000000000,2017-09-04 17:39:05.000000000,closed,0,Final tweaks
+18,2017-08-25 04:44:55.000000000,2017-09-07 23:28:04.000000000,closed,0,Stabilized and adjusted tests for rce-docker 17.06
+17,2017-08-19 12:36:28.000000000,2017-08-21 12:10:27.000000000,closed,0,distribution: check for nil before closing the download
+16,2017-08-19 12:36:01.000000000,2017-08-21 12:14:44.000000000,closed,0,Build improvements
+15,2017-08-19 12:35:14.000000000,2017-08-21 12:25:55.000000000,closed,1,Fix docker build for ARMv7
+14,2017-08-18 07:32:20.000000000,2017-08-19 12:11:05.000000000,closed,0,Remove swarm and plugin support
+13,2017-08-04 07:10:23.000000000,2017-08-04 09:20:02.000000000,closed,0,Mobynit improvements
+12,2017-08-04 07:01:37.000000000,2017-08-04 09:17:58.000000000,closed,0,Meta resin patches
+11,2017-08-02 04:51:44.000000000,2017-08-21 12:56:34.000000000,closed,0,Container deltas
+10,2017-08-02 04:21:09.000000000,2017-08-02 05:06:04.000000000,closed,0,Bootable containers
+9,2017-07-28 10:03:22.000000000,2017-07-28 11:55:34.000000000,closed,0,Create all appropriate symlinks after building rce
+8,2017-07-28 08:37:12.000000000,2017-07-28 11:56:56.000000000,closed,0,Streaming pull
+7,2017-07-26 11:10:31.000000000,2017-07-28 07:10:19.000000000,closed,0,RCE for 17.06
+6,2017-06-02 17:14:25.000000000,2017-06-02 17:15:42.000000000,closed,0,Changed rce target name
+5,2017-06-02 03:35:45.000000000,2017-06-02 03:40:20.000000000,closed,0,renamed rce target to rce-docker
+4,2017-06-02 03:32:50.000000000,2017-06-02 03:36:05.000000000,closed,0,Fix docker exec
+3,2017-05-11 16:51:38.000000000,2017-05-12 18:13:03.000000000,closed,2,Boxed docker 17.03 and reduced bin size
+2,2017-03-28 09:30:39.000000000,2017-04-06 11:02:51.000000000,closed,0,Created the 17.03.1-resin branch
+1,2017-03-28 09:27:08.000000000,2017-04-06 11:02:53.000000000,closed,0,Synced with docker official master

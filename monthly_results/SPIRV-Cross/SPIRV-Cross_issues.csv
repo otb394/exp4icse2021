@@ -1,0 +1,1453 @@
+id,created_at,closed_at,state,comments,title
+1452,2020-08-24 13:03:19.000000000,2020-08-24 14:13:02.000000000,closed,0,Minor nits
+1451,2020-08-22 03:35:10.000000000,2020-08-22 13:46:00.000000000,closed,2,gl_FragCoord.w is incorrectly read in HLSL
+1450,2020-08-21 18:34:02.000000000,2020-08-24 12:50:17.000000000,closed,0,Overhaul how we deal with reserved identifiers.
+1449,2020-08-20 18:23:48.000000000,2020-08-20 21:20:49.000000000,closed,0,HLSL: Fix FragCoord.w.
+1448,2020-08-20 18:09:47.000000000,2020-08-20 21:21:51.000000000,closed,0,HLSL: Fix some subtle bugs in buffer packing handling.
+1447,2020-08-14 11:12:28.000000000,2020-08-20 18:25:01.000000000,closed,2,Convert gl array of int[] to MSL int4[] 
+1446,2020-08-13 12:59:52.000000000,2020-08-13 23:05:12.000000000,closed,2,"Fix #1445: MSL: Enclose args when convert distance(a,b) to abs(a-b)"
+1445,2020-08-13 12:55:22.000000000,2020-08-13 23:05:13.000000000,closed,0,"MSL: expressions are not enclosed when converting distance(a,b) -> abs(a-b)"
+1444,2020-08-13 10:30:20.000000000,2020-08-13 23:07:46.000000000,closed,2,RWStructuredBuffer name miss important infomation
+1443,2020-08-11 18:41:32.000000000,2020-08-20 21:20:49.000000000,closed,0,HLSL: Inconsitency with gl_FragCoord
+1442,2020-08-07 06:04:59.000000000,2020-08-24 13:52:16.000000000,closed,3,SPIR-V with multiple decorations for same BuiltIn creates invalid MSL code
+1441,2020-08-04 02:21:10.000000000,2020-08-04 03:19:21.000000000,closed,0,MSL: Fix handling of matrices and structs in the output control point array.
+1440,2020-08-03 17:46:31.000000000,2020-08-24 12:50:17.000000000,closed,6,"MSL: Why do names starting with '_' followed by a digit e.g. ""_1PixelColor"" get changed to _m<num>?"
+1439,2020-08-02 06:40:58.000000000,2020-08-20 18:12:14.000000000,closed,1,"When switching from HLSL to glsl, I encountered a warning(compile error)：Used without being initialized."
+1438,2020-07-30 23:16:34.000000000,2020-08-28 11:05:06.000000000,closed,2,MSVC 2019 (Windows 10): debug assertion in xmemory on spirv_cross::Compiler destruction
+1437,2020-07-30 08:58:14.000000000,2020-08-20 21:21:51.000000000,closed,1,"exception with message ""cannot be expressed with either HLSL packing layout or packoffset."""
+1436,2020-07-29 15:06:15.000000000,2020-07-29 16:30:31.000000000,closed,1,GLSL/HLSL: Be more exhaustive with aliasing struct type declarations.
+1435,2020-07-28 20:12:51.000000000,1970-01-01 00:00:00.000000001,open,2,GLSL: I/O block array flattening
+1434,2020-07-28 17:17:38.000000000,2020-07-28 17:55:02.000000000,closed,1,GLSL: Add option to force flattening IO blocks.
+1433,2020-07-24 16:35:27.000000000,2020-08-21 15:07:55.000000000,closed,2,C api for overriding specialization constants
+1432,2020-07-23 21:13:58.000000000,2020-07-28 16:40:40.000000000,closed,1,Adding BuiltInSampleMask in HLSL
+1431,2020-07-23 07:04:46.000000000,2020-07-23 12:41:53.000000000,closed,0,"Roll GLSLang, SPIRV-Headers and SPIRV-Tools."
+1430,2020-07-23 01:52:32.000000000,2020-07-23 12:28:04.000000000,closed,0,MSL: Refactor some code
+1429,2020-07-22 22:11:48.000000000,2020-07-24 16:17:51.000000000,closed,5,Enabling setting an additional fixed sampleMask in Metal fragment shaders.
+1428,2020-07-20 09:42:57.000000000,1970-01-01 00:00:00.000000001,open,3,Component decoration support
+1427,2020-07-20 07:29:00.000000000,2020-07-28 17:55:02.000000000,closed,2,GLSL: Opt-in to flatten I/O blocks
+1426,2020-07-15 19:20:23.000000000,1970-01-01 00:00:00.000000001,open,1,CMake imported targets: create only one config file and add a namespace
+1425,2020-07-14 04:01:14.000000000,2020-07-16 05:28:06.000000000,closed,2,Mat4 attribute when targeting MSL results in attributes being used more than once
+1424,2020-07-14 01:50:44.000000000,1970-01-01 00:00:00.000000001,open,6,MSL: Reducing the number of vertex MTLBuffers consumed
+1423,2020-07-11 15:36:43.000000000,2020-07-11 16:09:56.000000000,closed,0,MSVC 2013: Fix silently broken builds.
+1422,2020-07-11 15:11:47.000000000,2020-07-11 15:32:26.000000000,closed,1,Give names to anonymous structs (VS2013 fix)
+1421,2020-07-07 09:13:49.000000000,2020-07-08 12:53:53.000000000,closed,4,MSL: Ensure OpStore source operands are marked for inclusion in function arguments
+1420,2020-07-06 19:26:30.000000000,2020-07-06 23:24:07.000000000,closed,0,Roll deps.
+1419,2020-07-06 11:53:23.000000000,2020-07-06 12:01:31.000000000,closed,1,MSL: Use input attachment index directly for resource index fallback.
+1418,2020-07-06 04:03:49.000000000,2020-07-06 12:02:08.000000000,closed,1,MSL: Fix mismatching input attachment indices
+1417,2020-07-03 16:43:06.000000000,2020-07-06 11:20:38.000000000,closed,1,GLSL: Support multi-level struct flattening for I/O.
+1416,2020-07-01 16:33:21.000000000,2020-07-06 14:08:56.000000000,closed,4,MSL: Workaround broken scalar access chain behavior in LLVM IR / AIR
+1415,2020-06-30 21:05:16.000000000,2020-07-06 14:08:56.000000000,closed,0,GLSL compute shader that writes to same vec4 from different work items fails after translation to Metal Shading Language
+1414,2020-06-30 20:55:30.000000000,2020-07-01 13:43:27.000000000,closed,8,DX9 compilation of DX9 features
+1413,2020-06-30 14:30:17.000000000,2020-07-29 15:15:36.000000000,closed,4,The GLSL findMSB function does not seem to work after translation to Metal Shading Language
+1412,2020-06-30 14:05:38.000000000,2020-06-30 17:56:08.000000000,closed,0,GLSL: Fix nested legacy switch workarounds.
+1411,2020-06-30 12:08:04.000000000,2020-06-30 17:56:07.000000000,closed,1,GLSL: SPIRV_Cross_Dummy redefinition
+1410,2020-06-29 15:38:08.000000000,2020-06-29 17:22:40.000000000,closed,0,GLSL: Support switch more properly in legacy ESSL
+1409,2020-06-29 15:36:54.000000000,2020-06-29 17:22:15.000000000,closed,0,Improve expression usage tracking
+1408,2020-06-28 14:48:44.000000000,2020-07-29 16:30:31.000000000,closed,13,A feature for flattening inside interface blocks
+1407,2020-06-27 06:45:01.000000000,2020-06-27 14:02:44.000000000,closed,3,Cross-compiling GLSL to HLSL produces invalid HLSL with overlapping register/spaces
+1406,2020-06-26 23:52:30.000000000,2020-06-29 17:22:40.000000000,closed,4,OpSwitch generated by spirv-opt
+1405,2020-06-25 23:17:48.000000000,2020-06-29 17:22:15.000000000,closed,0,spirv-cross: moves expensive constant expressions to inside loops
+1404,2020-06-23 17:40:54.000000000,2020-06-23 20:32:37.000000000,closed,0,HLSL: Workaround FXC bugs with degenerate switch blocks.
+1403,2020-06-23 03:16:20.000000000,2020-06-23 17:25:11.000000000,closed,2,Problem translating CullDistance to MSL
+1402,2020-06-23 00:30:56.000000000,2020-06-23 20:32:36.000000000,closed,0,Workaround FXC Incorrect Compilation of Some Switch Case Statements
+1401,2020-06-22 17:35:29.000000000,2020-06-22 18:10:12.000000000,closed,0,Roll deps and update tests.
+1400,2020-06-22 13:15:33.000000000,2020-06-22 18:08:54.000000000,closed,0,MSL: Remove the old VertexAttr API.
+1399,2020-06-21 23:22:48.000000000,2020-06-22 18:08:54.000000000,closed,1,SPIRV_CROSS_DEPRECATED warning spam
+1398,2020-06-19 16:28:54.000000000,2020-06-19 19:20:07.000000000,closed,0,Fix placement of SPIRV_CROSS_DEPRECATED.
+1397,2020-06-19 12:52:46.000000000,2020-06-19 18:30:29.000000000,closed,0,Fix duplicated initialization for loop variables with initializers.
+1396,2020-06-18 17:48:00.000000000,2020-06-19 18:30:28.000000000,closed,0,Invalid shader generated when using variable initializer
+1395,2020-06-18 15:02:04.000000000,2020-06-18 16:02:13.000000000,closed,0,MSL: Deal with array load-store in buffer-block structs
+1394,2020-06-17 06:29:31.000000000,2020-06-18 16:02:13.000000000,closed,2,"MSL: Assigning nested array RWStructuredBuffer causes spvUnsafeArray<T, N> errors "
+1393,2020-06-16 14:55:20.000000000,2020-06-16 18:06:48.000000000,closed,0,HLSL: Fix texProj in legacy HLSL.
+1392,2020-06-15 22:13:56.000000000,2020-06-17 11:41:05.000000000,closed,4,MSL: Fix up input variables' vector lengths in all stages.
+1391,2020-06-15 00:26:20.000000000,2020-06-16 18:06:48.000000000,closed,1,HLSL: tex2Dproj generated with wrong coordinate size
+1390,2020-06-13 00:45:00.000000000,2020-06-15 16:57:23.000000000,closed,1,GLSL: Require GL_ARB_draw_instanced for gl_InstanceID in GLSL < 1.40
+1389,2020-06-08 15:40:44.000000000,2020-06-08 15:41:06.000000000,closed,1,GLSL: Handle the rest of GL_ARB_sparse_texture_clamp.
+1388,2020-06-08 13:40:50.000000000,2020-06-08 13:41:09.000000000,closed,1,GLSL: Support uint code for sparse residency query.
+1387,2020-06-07 00:05:01.000000000,2020-06-07 18:13:14.000000000,closed,1,Fix missing switch cases in Y'CbCr conversion
+1386,2020-06-04 19:51:29.000000000,2020-06-04 22:57:47.000000000,closed,2,MSL: SubgroupSize becomes [[thread_execution_width]] instead of [[threads_per_simdgroup]] in compute shaders
+1385,2020-06-04 17:54:38.000000000,2020-06-08 13:12:01.000000000,closed,0,GLSL: Implement sparse feedback.
+1384,2020-06-04 14:44:13.000000000,2020-06-04 17:55:48.000000000,closed,0,MSL: Remove obsolete MSLVertexAttr members.
+1383,2020-06-04 14:35:50.000000000,2020-06-04 17:55:34.000000000,closed,0,HLSL: Add native support for 16-bit types.
+1382,2020-06-02 13:36:02.000000000,2020-06-02 18:26:38.000000000,closed,1,GLSL: Is there a way to avoid duplicate uniform block instance name in GLSL Compiler?
+1381,2020-06-01 14:56:24.000000000,2020-06-04 17:55:34.000000000,closed,0,HLSL: support true 16-bit float on D3D backend
+1380,2020-05-31 00:14:30.000000000,2020-06-04 17:55:48.000000000,closed,2,Clean up obsolete CompilerMSL::MSLVertexAttr content?
+1379,2020-05-28 15:25:23.000000000,2020-05-28 17:51:38.000000000,closed,0,Document CLI options.
+1378,2020-05-28 00:19:47.000000000,2020-05-28 23:20:58.000000000,closed,1,HLSL: Add option to treat certain SSBO bindings as UAV
+1377,2020-05-25 23:18:33.000000000,2020-05-28 17:51:38.000000000,closed,0,Command line arguments are not documented.
+1376,2020-05-25 13:12:32.000000000,2020-05-25 17:07:22.000000000,closed,0,Handle physical pointers in reflection API.
+1375,2020-05-25 00:34:44.000000000,2020-05-25 12:53:05.000000000,closed,2,zero length of dynamic arrays when at last offset in ubo/ssbo
+1374,2020-05-22 18:55:15.000000000,2020-05-25 17:07:22.000000000,closed,3,Wrong size of buffer-reference element returned from Reflection-API?
+1373,2020-05-22 18:47:52.000000000,2020-05-22 18:56:21.000000000,closed,1,Wrong size of buffer-reference element returned from Reflection-API
+1372,2020-05-22 14:48:21.000000000,2020-05-22 18:05:28.000000000,closed,0,GLSL: Improve support for GL_ARB_shader_draw_parameters in desktop GLSL.
+1371,2020-05-21 23:27:49.000000000,2020-05-22 13:14:44.000000000,closed,0,"Roll SPIRV-Tools, SPIRV-Headers and GLSLang."
+1370,2020-05-20 18:29:03.000000000,2020-05-21 15:18:50.000000000,closed,0,Roll dependencies
+1369,2020-05-20 17:09:51.000000000,2020-05-20 19:04:27.000000000,closed,0,GLSL: Add more tests for RT.
+1368,2020-05-19 20:26:46.000000000,2020-05-28 23:21:17.000000000,closed,5,HLSL: Support forcing readonly storage buffers to be UAV by ID
+1367,2020-05-19 16:50:18.000000000,2020-05-22 18:05:28.000000000,closed,1,Provide `SPIRV_Cross_BaseInstance` from `gl_BaseInstance` if `GL_ARB_shader_draw_parameters` is available
+1366,2020-05-19 15:53:41.000000000,2020-05-19 16:47:49.000000000,closed,0,HLSL: Implement image queries for UAV images.
+1365,2020-05-19 13:01:07.000000000,2020-05-19 16:47:49.000000000,closed,2,HLSL: Fail to translate imageSize(dstImage) when dstImage is nonreadable 
+1364,2020-05-16 23:07:10.000000000,1970-01-01 00:00:00.000000001,open,10,Implement VK_KHR_ray_tracing in HLSL
+1363,2020-05-08 15:41:07.000000000,2020-05-08 15:41:30.000000000,closed,1,Support gl_InstanceID in RT shaders.
+1362,2020-05-06 15:59:02.000000000,2020-05-07 17:25:54.000000000,closed,18,MSL: RWBuffer<uint> is translated into a texture2d and buffer of atomic_int even though SPIRV-Cross can tell the original type
+1361,2020-05-06 12:31:35.000000000,2020-05-06 13:40:09.000000000,closed,0,MSL: Avoid packed arrays in more cases.
+1360,2020-05-05 20:44:29.000000000,2020-05-06 12:09:50.000000000,closed,3,"Fix #1359: MSL: If the packed type is scalar, don't emit ""pack_"" prefix."
+1359,2020-05-04 21:07:43.000000000,2020-05-06 12:09:50.000000000,closed,5,MSL: bool array in struct is translated to packed_uint array which is not a valid type.
+1358,2020-05-03 08:02:11.000000000,2020-05-03 14:15:28.000000000,closed,1,"GLSL: generate ""hand-unrolled"" loops for OpLoopMerges with ""Unroll"""
+1357,2020-05-01 17:58:26.000000000,2020-05-01 21:16:21.000000000,closed,2,MSL: OpGroupNonUniformAllEqual erroneously calls simd_broadcast_first()
+1356,2020-04-30 13:53:20.000000000,2020-04-30 16:09:09.000000000,closed,0,MSL: Redirect member indices when buffer has been sorted by Offset.
+1355,2020-04-30 12:01:28.000000000,2020-04-30 12:51:47.000000000,closed,0,Fix -Wmicrosoft-enum-value
+1354,2020-04-28 23:08:33.000000000,2020-04-30 16:09:09.000000000,closed,1,Broken MSL code when emitting buffers with out-of-order members
+1353,2020-04-28 18:45:19.000000000,2020-04-28 20:46:46.000000000,closed,0,Update SPIR-V Headers to 1.5 rev 3
+1352,2020-04-28 17:17:03.000000000,1970-01-01 00:00:00.000000001,open,5,GLSL: Support `GL_KHR_shader_subgroup_ballot`
+1351,2020-04-28 16:57:39.000000000,1970-01-01 00:00:00.000000001,open,0,GLSL: Support `GL_KHR_shader_subgroup_basic`
+1350,2020-04-28 16:23:15.000000000,1970-01-01 00:00:00.000000001,open,0,GLSL: Support `GL_KHR_shader_subgroup_vote`
+1349,2020-04-27 18:46:11.000000000,2020-04-27 20:50:56.000000000,closed,0,Work around odd deadlock in test_shaders.py in --parallel mode.
+1348,2020-04-27 14:54:42.000000000,2020-04-27 20:50:56.000000000,closed,0,Investigate spurious hangs in test_shaders.py --parallel
+1347,2020-04-27 14:17:42.000000000,2020-04-27 17:29:21.000000000,closed,0,Implement OpAtomicLoad/OpAtomicStore.
+1346,2020-04-27 13:25:09.000000000,2020-04-27 15:26:52.000000000,closed,0,MSL: Fix case where subpassInput is passed to leaf functions.
+1345,2020-04-27 11:04:08.000000000,2020-04-27 13:31:39.000000000,closed,1,Fixed recursion in combined_decoration_for_member
+1344,2020-04-26 13:47:23.000000000,2020-04-27 14:21:04.000000000,closed,1,Use of undeclared identifier in switch-case
+1343,2020-04-25 19:30:20.000000000,2020-04-27 17:29:21.000000000,closed,0,MSL: OpAtomicStore produces an unexpected variable
+1342,2020-04-23 18:54:54.000000000,2020-04-24 21:11:24.000000000,closed,1,"Roll GLSLang, SPIRV-Tools and SPIRV-Headers."
+1341,2020-04-22 19:51:46.000000000,2020-04-22 20:00:13.000000000,closed,1,Potentially illegal GLSL ES Output for WebGL
+1340,2020-04-22 09:32:43.000000000,2020-04-27 15:26:52.000000000,closed,0,MSL: Incorrect Types Passed to Functions for Subpass Inputs
+1339,2020-04-22 01:29:24.000000000,2020-04-22 14:21:27.000000000,closed,0,GLSL: Support f16x2 <-> f32 bitcast.
+1338,2020-04-22 00:10:43.000000000,2020-04-22 14:21:27.000000000,closed,0,GLSL: Invalid code from OpBitcast float -> fp16vec2
+1337,2020-04-21 16:49:34.000000000,2020-04-21 16:49:58.000000000,closed,1,Be a bit more careful what nonuniform state is propagated.
+1336,2020-04-21 16:26:29.000000000,2020-04-21 18:31:23.000000000,closed,0,Handle RayQueryKHR type.
+1335,2020-04-21 13:52:51.000000000,2020-04-21 16:05:13.000000000,closed,0,GLSL/HLSL: Implement unpack/pack2x32Uint
+1334,2020-04-21 13:22:48.000000000,2020-04-21 14:16:29.000000000,closed,0,MSL: Deal correctly with initializers on Private variables.
+1333,2020-04-21 12:52:45.000000000,2020-04-21 18:31:23.000000000,closed,3,SPIRV: No new ray query opcodes
+1332,2020-04-21 04:30:40.000000000,2020-04-21 14:16:29.000000000,closed,0,MSL: OpVariable with default values is broken
+1331,2020-04-20 13:41:00.000000000,2020-04-21 12:50:48.000000000,closed,0,MSL: Support edge case with DX layout in scalar block layout.
+1330,2020-04-20 11:59:45.000000000,2020-04-20 15:23:20.000000000,closed,0,MSL: Allow removing clip distance user varyings.
+1329,2020-04-19 00:53:59.000000000,2020-04-19 01:34:23.000000000,closed,0,Reflection: Add specialization constant name
+1328,2020-04-18 23:23:14.000000000,2020-04-21 16:06:28.000000000,closed,11,Try and solve issue #1327
+1327,2020-04-18 23:20:40.000000000,2020-04-21 16:27:26.000000000,closed,1,GLSL: Implement `GL_EXT_nonuniform_qualifier` (basically translate to `NV_gpu_program5`)
+1326,2020-04-17 18:49:46.000000000,2020-04-21 16:05:34.000000000,closed,5,HLSL&GLSL: Support packUint2x32 and unpackUint2x32
+1325,2020-04-16 18:01:35.000000000,2020-04-21 16:05:13.000000000,closed,1,missing `unpackUint2x32` when convering uint64_t to uvec2
+1324,2020-04-16 04:26:49.000000000,2020-04-16 12:26:41.000000000,closed,1,MSL: Force disabled fragment builtins to have the right name.
+1323,2020-04-15 21:15:52.000000000,2020-04-15 22:29:40.000000000,closed,0,MSL: Only disable output variables in fragment shaders.
+1322,2020-04-15 20:33:28.000000000,2020-04-15 22:29:39.000000000,closed,3,MSL: Recent change breaks vertex shader outputs
+1321,2020-04-15 18:38:48.000000000,2020-04-21 12:50:48.000000000,closed,4,[MSL] SPIRV-Cross assumes std140 layout and fails with SPIR-V generated with DXC's -fvk-use-dx-layout option
+1320,2020-04-13 15:23:18.000000000,2020-04-20 15:23:20.000000000,closed,2,MSL: Is it possible to disable vertex shader's custom output attribute [[user(clipN)]]?
+1319,2020-04-10 21:17:58.000000000,2020-04-14 12:17:01.000000000,closed,1,MSL: Add options to control emission of fragment outputs.
+1318,2020-04-10 14:54:56.000000000,1970-01-01 00:00:00.000000001,open,0,HLSL: Implement KHR_ray_tracing
+1317,2020-04-10 07:14:22.000000000,2020-04-10 14:15:10.000000000,closed,2,MSL : spirv-cross delete unused uniform variables when converting spv into msl
+1316,2020-04-09 19:33:11.000000000,2020-04-09 20:19:54.000000000,closed,1,Improve compatibility with clang-cl
+1315,2020-04-09 18:40:05.000000000,2020-04-09 20:19:53.000000000,closed,2,Compatibility with clang-cl
+1314,2020-04-07 20:27:05.000000000,2020-04-07 21:31:46.000000000,closed,0,MSL: Do not use base expression with PhysicalTypeID OpCompositeExtract.
+1313,2020-04-07 08:33:21.000000000,2020-04-07 21:31:45.000000000,closed,4,[Metal] array of float2  in uniform block converted to float4
+1312,2020-04-06 20:18:31.000000000,2020-04-07 18:22:21.000000000,closed,2,[Question] How to tell which UBO members are actually used with the reflection API?
+1311,2020-04-05 23:03:40.000000000,2020-04-19 01:34:23.000000000,closed,2,Enhancement: Add the name of spec constants in reflection
+1310,2020-04-03 14:52:53.000000000,2020-04-03 19:41:10.000000000,closed,0,"MSL: Deal with cases where builtin is implicitly needed, declared, but unused"
+1309,2020-04-03 14:29:19.000000000,2020-04-03 19:47:23.000000000,closed,3,Expose query if a resource was used as a comparison/depth resource
+1308,2020-04-03 13:49:46.000000000,2020-04-03 19:42:57.000000000,closed,0,HLSL: Add support for treating NonWritable UAV texture as SRV instead.
+1307,2020-04-03 05:33:08.000000000,2020-04-03 14:39:31.000000000,closed,1,MSL: mark BuiltInFragCoord as implicitly used for subpass reads
+1306,2020-04-02 06:00:17.000000000,2020-04-03 19:42:57.000000000,closed,0,HLSL: Support translating non-writable images to Texture2D instead of RWTexture2D?
+1305,2020-04-02 04:25:35.000000000,2020-04-03 19:47:23.000000000,closed,1,Expose Compiler::image_is_comparison as public
+1304,2020-03-31 21:18:04.000000000,2020-04-01 10:55:34.000000000,closed,2,"Function containing ""discard"" is stripped when the return value is not used by caller"
+1303,2020-03-31 16:18:34.000000000,2020-03-31 19:25:54.000000000,closed,0,MSL: Fix access chain for deep struct hierarchy on array of buffers.
+1302,2020-03-30 19:36:43.000000000,2020-03-31 19:25:54.000000000,closed,0,struct in uniform block array caused spirv-cross to incorrectly translate to double pointer references in metal
+1301,2020-03-30 19:04:45.000000000,2020-03-30 23:58:29.000000000,closed,2,"Roll GLSLang, SPIRV-Tools and SPIRV-Headers"
+1300,2020-03-29 20:49:13.000000000,2020-03-30 07:56:48.000000000,closed,2,XPC_ERROR_CONNECTION_INTERRUPTED when convert glsl with array of ivec3 to metal
+1299,2020-03-26 15:36:16.000000000,2020-03-26 20:58:28.000000000,closed,0,Add support for forcefully zero-initialized variables.
+1298,2020-03-23 19:08:55.000000000,2020-03-26 20:58:28.000000000,closed,1,Initializing variables for webGPU
+1297,2020-03-19 17:38:24.000000000,2020-03-19 19:19:20.000000000,closed,0,GLSL: Implement GL_EXT_shader_framebuffer_fetch.
+1296,2020-03-19 15:06:36.000000000,2020-03-19 16:29:20.000000000,closed,0,Fix nonuniform qualifier with atomics
+1295,2020-03-11 22:31:32.000000000,2020-03-19 19:19:20.000000000,closed,0,add support for EXT_shader_framebuffer_fetch as an option for Vulkan's subpasses
+1294,2020-03-10 22:17:35.000000000,2020-07-24 12:36:05.000000000,closed,15,MSL: Add support for processing more than one patch per workgroup.
+1293,2020-03-10 12:37:33.000000000,2020-03-10 13:53:02.000000000,closed,1,include/spirv_cross/sampler.hpp has wrong type for wrap_t
+1292,2020-03-08 23:41:46.000000000,2020-03-19 16:29:19.000000000,closed,0,nonuniformEXT qualifier on image atomics does not work
+1291,2020-03-06 14:09:10.000000000,2020-03-08 18:38:11.000000000,closed,5,GLSL to readable HLSL
+1290,2020-03-05 14:38:43.000000000,2020-03-05 16:23:41.000000000,closed,0,HLSL: Do not emit globallycoherent for SRV ByteAddressBuffer.
+1289,2020-03-05 13:22:17.000000000,2020-03-05 16:23:41.000000000,closed,1,Fail to translate buffer with NonWritable and Coherent decorations into valid HLSL shaders
+1288,2020-03-05 05:13:31.000000000,2020-03-08 18:40:14.000000000,closed,3,2 uniform samplers are mapped to the same binding in GLSL output
+1287,2020-03-04 20:49:18.000000000,2020-03-04 21:43:14.000000000,closed,0,Improve handling of readonly/writeonly flags in some cases
+1286,2020-03-03 12:32:48.000000000,2020-03-19 15:08:16.000000000,closed,17,DecorationNonWritable and DecorationNonReadable are always set on Storage Images
+1285,2020-03-02 15:57:00.000000000,2020-03-02 18:19:52.000000000,closed,0,Add -V alias for --vulkan-semantics.
+1284,2020-02-24 17:24:43.000000000,2020-02-24 19:40:35.000000000,closed,0,MSL: Reintroduce workarounds for arrays not being value types
+1283,2020-02-19 20:51:21.000000000,2020-02-20 14:33:46.000000000,closed,0,"Roll GLSLang, SPIRV-Tools and SPIRV-Headers"
+1282,2020-02-17 21:17:37.000000000,2020-02-24 19:40:35.000000000,closed,5,MSL: Reinstate old hacks for array-as-value-types
+1281,2020-02-15 19:23:16.000000000,2020-02-16 00:25:29.000000000,closed,1,Texture Arrays?
+1280,2020-02-14 16:59:17.000000000,2020-02-14 20:30:34.000000000,closed,0,Reject SPIR-V modules with garbage ID bound.
+1279,2020-02-13 11:04:40.000000000,2020-02-13 13:57:11.000000000,closed,1,Is there any way convert legacy glsl to hlsl qucikly?
+1278,2020-02-12 00:34:49.000000000,2020-02-14 20:30:34.000000000,closed,2,glslangvalidator generated SPIRV causes infinite loop
+1277,2020-02-08 17:40:40.000000000,2020-02-08 19:03:09.000000000,closed,0,HLSL: Declare undef variables as static.
+1276,2020-02-08 16:00:55.000000000,2020-02-08 19:03:08.000000000,closed,3,"OpUndef in SPIRV yields ""free"" constant in HLSL"
+1275,2020-02-06 14:19:28.000000000,2020-02-06 16:11:08.000000000,closed,2,Remove old memory_scope flag from iOS barriers.
+1274,2020-02-05 13:05:52.000000000,2020-02-06 16:11:08.000000000,closed,0,MSL: Look into memory scope qualifiers
+1273,2020-02-02 07:14:05.000000000,2020-02-03 14:47:56.000000000,closed,1,Add GNUInstallDirs + fixes for the pkg-config file
+1272,2020-02-02 03:14:59.000000000,2020-02-03 14:54:27.000000000,closed,0,CMake: Avoid warning when parent project uses VERSION in project().
+1271,2020-02-02 00:44:40.000000000,2020-02-03 14:54:27.000000000,closed,0,cmake policy CMP0048 warns when using spirv-cross as a git submodule 
+1270,2020-01-27 17:12:21.000000000,2020-01-27 21:39:27.000000000,closed,0,GLSL: Support GL_ARB_enchanced_layouts for XFB.
+1269,2020-01-23 14:54:13.000000000,2020-01-23 16:23:14.000000000,closed,0,Make SmallVector noexcept.
+1268,2020-01-22 07:27:57.000000000,2020-01-22 19:09:26.000000000,closed,1,Typo at line 324
+1267,2020-01-21 03:18:13.000000000,2020-01-23 16:23:14.000000000,closed,0,Exception thrown in noexcept function in spirv_cross_containers.hpp
+1266,2020-01-20 19:43:43.000000000,2020-01-27 21:39:27.000000000,closed,0,GLSL: Implement decoration support for transform feedback
+1265,2020-01-19 15:53:39.000000000,2020-02-06 19:24:34.000000000,closed,2,bool uniforms and legacy ES shaders
+1264,2020-01-16 15:16:48.000000000,2020-01-16 18:44:24.000000000,closed,1,MSL: Add support for force-activating IAB resources.
+1263,2020-01-16 14:36:22.000000000,2020-01-16 15:27:19.000000000,closed,0,Deal with illegal names in types as well.
+1262,2020-01-15 21:03:32.000000000,2020-01-15 22:51:34.000000000,closed,0,Reflection: Various improvements
+1261,2020-01-15 20:22:08.000000000,2020-01-15 21:17:34.000000000,closed,0,GLSL: Implement geometry shader passthrough extension.
+1260,2020-01-13 13:55:30.000000000,2020-01-15 22:51:34.000000000,closed,0,Reflection: Add support for array stride
+1259,2020-01-13 13:46:30.000000000,2020-01-15 22:51:34.000000000,closed,0,Reflection: Incorrect array size when using spec constants
+1258,2020-01-10 02:36:17.000000000,2020-01-16 13:48:42.000000000,closed,3,[C API] Missing interface to modify specialization constants
+1257,2020-01-09 16:33:44.000000000,2020-01-09 19:35:44.000000000,closed,0,Deal with bitcasting for subgroup Min/Max operations
+1256,2020-01-09 15:24:24.000000000,2020-01-09 19:35:27.000000000,closed,0,HLSL: Add a resource remapping API similar to MSL.
+1255,2020-01-08 18:28:59.000000000,2020-01-08 19:59:45.000000000,closed,0,HLSL: Support reading and writing complex composites from/to ByteAddressBuffers
+1254,2020-01-08 00:10:57.000000000,2020-01-08 19:59:45.000000000,closed,1,HLSL: Unable to read structs from ByteAddressBuffer
+1253,2020-01-07 19:00:08.000000000,2020-01-08 02:56:25.000000000,closed,0,MSL: Partially implement support for Component decoration in complex scenarios
+1252,2020-01-06 21:47:29.000000000,2020-01-09 19:35:27.000000000,closed,4,Resource mapping overrides for HLSL
+1251,2020-01-06 17:06:13.000000000,2020-01-06 20:01:50.000000000,closed,0,Roll custom versions of isalpha/isalnum.
+1250,2020-01-06 16:47:15.000000000,2020-01-06 20:03:08.000000000,closed,0,Implement SPIR-V 1.4 OpCopyLogical
+1249,2020-01-06 15:32:03.000000000,2020-01-08 02:56:25.000000000,closed,7,SPIRV Component decorations
+1248,2020-01-03 12:59:27.000000000,2020-01-15 20:38:11.000000000,closed,7,MSL: binding is not match
+1247,2020-01-03 02:33:18.000000000,2020-01-06 20:03:08.000000000,closed,3,HLSL: crash when trying to generate msl from EShTargetSpv_1_4 SPIR-V
+1246,2019-12-30 14:25:10.000000000,2020-01-01 11:18:01.000000000,closed,4,Is there any way to unify gl_FragCoord?
+1245,2019-12-24 12:32:36.000000000,2019-12-24 18:27:39.000000000,closed,1,"Using Integrated Texture Coordinates in Metal, Vulkan, DirectX and OpenGL"
+1244,2019-12-24 08:20:40.000000000,2020-01-06 20:01:50.000000000,closed,0,Invalid identifier name (debug version)
+1243,2019-12-21 05:00:10.000000000,2019-12-22 22:07:07.000000000,closed,1,Add debug prefix on Windows
+1242,2019-12-20 16:56:17.000000000,2019-12-20 17:44:54.000000000,closed,5,MSL: Incorrect constant buffer member referenced
+1241,2019-12-20 16:38:11.000000000,1970-01-01 00:00:00.000000001,open,0,MSL: Investigate argument buffer compatibility
+1240,2019-12-20 14:49:37.000000000,2020-01-16 15:20:07.000000000,closed,6,MSL Argument Buffers: preserve all resources
+1239,2019-12-18 06:31:57.000000000,2020-01-27 15:17:48.000000000,closed,4,MSL: Support inline uniform blocks in argument buffers.
+1238,2019-12-17 02:14:38.000000000,2019-12-17 03:28:06.000000000,closed,2,Integrating with OSS-Fuzz
+1237,2019-12-11 16:26:06.000000000,2020-06-08 13:12:01.000000000,closed,0,GLSL: Implement sparse texturing
+1236,2019-12-11 16:25:48.000000000,2020-01-09 19:35:44.000000000,closed,0,Deal with sign properly in subgroup min/max
+1235,2019-12-10 16:09:02.000000000,2019-12-10 18:28:34.000000000,closed,0,GLSL: Fix array of input patch variables.
+1234,2019-12-10 02:49:30.000000000,1970-01-01 00:00:00.000000001,open,4,Memory Usage Jumps by 200MB upon first invocation of the compiler (Debug build)
+1233,2019-12-09 14:50:22.000000000,2019-12-09 17:29:50.000000000,closed,0,GLSL: Fix EmitStreamVertex/Primitive.
+1232,2019-12-06 20:38:13.000000000,2020-01-16 15:27:19.000000000,closed,3,"Handle ""linear"" name when translating to HLSL"
+1231,2019-12-06 15:27:15.000000000,2019-12-09 17:29:49.000000000,closed,0,GLSL: EmitStreamVertex and EndStreamPrimitive are incorrect
+1230,2019-12-04 19:07:43.000000000,2019-12-04 20:41:35.000000000,closed,0,Don't emit memoryBarrierShared() in workgroup control barriers.
+1229,2019-12-04 02:51:25.000000000,2019-12-04 14:21:00.000000000,closed,0,Update graphics robust access results
+1228,2019-12-04 01:22:50.000000000,2019-12-04 01:23:37.000000000,closed,1,Fix MSVC warnings when building without exceptions.
+1227,2019-12-04 01:20:36.000000000,2019-12-04 01:25:11.000000000,closed,2,Share test shader script
+1226,2019-12-03 02:19:37.000000000,2019-12-04 01:11:34.000000000,closed,1,"Roll SPIRV-Tools, SPIRV-Headers and GLSLang"
+1225,2019-12-02 21:48:30.000000000,2019-12-04 01:23:37.000000000,closed,2,Lot of warnings due to SPIRV_CROSS_THROW
+1224,2019-12-02 17:23:13.000000000,2019-12-02 21:49:46.000000000,closed,0,MSL: Support ClipDistance as an input stage variable.
+1223,2019-11-29 02:05:11.000000000,2019-12-02 21:49:46.000000000,closed,2,MSL: Fragment shader missing gl_ClipDistance (metal's clip_distance) as input 
+1222,2019-11-28 17:56:25.000000000,2019-11-28 17:56:44.000000000,closed,1,Fix sign handling for S/UToF.
+1221,2019-11-28 15:09:09.000000000,2019-11-28 17:21:05.000000000,closed,0,MSL: Fix automatic binding allocation for image atomic buffers.
+1220,2019-11-28 09:51:54.000000000,2019-11-30 02:45:59.000000000,closed,0,Added --msl-decoration-binding command line argument
+1219,2019-11-27 08:14:53.000000000,2019-11-28 17:21:05.000000000,closed,1,MSL: Fragment shader has two textures bound at the same index
+1218,2019-11-27 00:47:08.000000000,2019-11-27 15:39:54.000000000,closed,1,Add licensing header to test_shaders.py
+1217,2019-11-26 15:06:39.000000000,2019-11-26 16:48:30.000000000,closed,0,Mark loop headers as complex as early as possible.
+1216,2019-11-26 03:14:42.000000000,2019-11-26 14:34:33.000000000,closed,0,Expose as public Compiler::update_active_builtins() and has_active_builtin().
+1215,2019-11-25 10:07:39.000000000,2019-11-26 16:48:30.000000000,closed,0,MSL conversion error: Over 3 compilation loops detected. Must be a bug!
+1214,2019-11-19 22:23:13.000000000,2019-11-20 17:00:57.000000000,closed,5,HLSL StucturedBuffer has incorrect alignment
+1213,2019-11-15 06:18:27.000000000,2019-11-15 06:25:00.000000000,closed,2,"How do I query which builtins are in use (e.g. SV_Position, SV_VertexID, etc.)?"
+1212,2019-11-15 02:29:48.000000000,2019-11-19 05:25:23.000000000,closed,5,"How do I determine the array dimension for ""Texture2D foo[100];""?"
+1211,2019-11-14 03:26:17.000000000,2019-11-14 05:49:26.000000000,closed,1,GLSL produces duplicate index
+1210,2019-11-13 12:09:35.000000000,2019-11-17 17:55:47.000000000,closed,46,MSL : Translate C style array to array<T> causes regression on Dawn end2end tests
+1209,2019-11-12 14:50:46.000000000,2019-11-12 16:04:41.000000000,closed,0,HLSL: Add CLI support for --hlsl-auto-binding.
+1208,2019-11-11 15:26:36.000000000,2019-11-11 16:30:37.000000000,closed,2,HLSL: Add support to remove register() bindings.
+1207,2019-11-10 20:02:19.000000000,2019-11-10 22:45:33.000000000,closed,4,Int array reports incorrect size?
+1206,2019-11-09 04:21:34.000000000,2019-11-11 16:30:37.000000000,closed,8,Push constants do not get bound to the right resource and overlaps with others when converting to HLSL
+1205,2019-11-08 15:47:18.000000000,2019-11-13 00:03:55.000000000,closed,3,[Question] Best way to generate Vertex/Hull kernel for Metal
+1204,2019-11-07 15:39:53.000000000,2019-11-07 17:25:38.000000000,closed,0,MSL: Fix unpacking of column from padded matrix.
+1203,2019-11-06 20:28:00.000000000,2019-11-07 15:42:18.000000000,closed,4,MSL: extract vector into swizzle for matrix
+1202,2019-11-06 17:53:48.000000000,2019-11-06 18:42:32.000000000,closed,2,Add separate function for getting warnings separately from errors
+1201,2019-11-06 15:24:46.000000000,2019-11-06 18:16:45.000000000,closed,0,HLSL: Improve error reporting for cbuffer layout mismatch
+1200,2019-11-06 14:36:32.000000000,2019-11-07 17:25:37.000000000,closed,4,MSL: Incorrect convert about mat2
+1199,2019-11-06 03:23:35.000000000,2019-11-06 18:16:45.000000000,closed,6,"Error converting GLSL SPIRV to HLSL - ""cbuffer cannot be expressed with either HLSL packing layout or packoffset."""
+1198,2019-11-06 02:59:02.000000000,2019-11-06 03:16:42.000000000,closed,6,spvc_resource_type missing UNIFORM_TEXEL_BUFFER and STORAGE_TEXEL_BUFFER?
+1197,2019-11-05 21:12:24.000000000,2019-11-06 14:42:35.000000000,closed,0,Only run spirv-opt if the spirv is valid.
+1196,2019-11-05 20:08:45.000000000,2019-11-06 14:51:29.000000000,closed,1,Roll GLSLang and SPIRV-Tools
+1195,2019-11-04 14:55:07.000000000,2019-11-04 16:50:37.000000000,closed,0,C API updates
+1194,2019-11-04 14:35:15.000000000,2019-11-04 15:29:20.000000000,closed,0,GLSL: Fix issue with array-of-array inputs in tess.
+1193,2019-11-01 20:48:48.000000000,2019-11-01 22:54:56.000000000,closed,0,Avoid including stdexcept in no-exception environment
+1192,2019-11-01 06:34:05.000000000,2019-11-01 15:41:09.000000000,closed,2,Added BUILD.gn file to be used by Chromium's ANGLE project
+1191,2019-11-01 00:19:22.000000000,2019-11-01 19:17:08.000000000,closed,11,Binding decoration question
+1190,2019-10-31 19:02:59.000000000,2019-11-04 16:50:37.000000000,closed,3,No way to access struct member names and decorations via the C API?
+1189,2019-10-30 23:51:10.000000000,2019-11-01 18:07:12.000000000,closed,2,Integrate BUILD.gn file into SPIRV-Cross repository
+1188,2019-10-29 14:18:22.000000000,2019-10-29 15:36:02.000000000,closed,0,MSL: Add missing reference output.
+1187,2019-10-29 14:16:42.000000000,2019-10-29 15:16:10.000000000,closed,0,Fix broken access tracking for OpFunctionCall results.
+1186,2019-10-29 13:05:39.000000000,2019-10-29 15:16:10.000000000,closed,3,Result of OpFunctionCall gets used before result variable is declared.
+1185,2019-10-26 20:04:10.000000000,2019-10-28 18:24:02.000000000,closed,0,Merge UE4 PR branch with fixes
+1184,2019-10-24 20:34:06.000000000,2019-10-25 12:17:25.000000000,closed,0,MSL: Support option for treating 1D textures as 2D textures of height 1.
+1183,2019-10-23 19:32:03.000000000,2019-10-28 23:46:27.000000000,closed,1,MSL: Unflatten complex composite input variables.
+1182,2019-10-23 18:29:45.000000000,2019-11-04 15:29:20.000000000,closed,0,GLSL: Tessellation evaluation input array-of-array miscompiles
+1181,2019-10-21 12:59:52.000000000,2019-10-21 15:46:12.000000000,closed,0,CFG: Compute actual immediate dominators.
+1180,2019-10-18 07:07:39.000000000,2019-10-18 17:37:44.000000000,closed,3,MSL: is it possible to support function constants?
+1179,2019-10-17 13:12:46.000000000,2019-10-17 15:03:36.000000000,closed,0,Fix OpVectorExtractDynamic with spec constant op index.
+1178,2019-10-17 13:04:36.000000000,2019-10-17 15:03:35.000000000,closed,0,OpVectorExtractDynamic with spec constant index is not correct
+1177,2019-10-16 02:38:48.000000000,2019-10-16 11:26:14.000000000,closed,0,Travis: Update PATH for Python3 on Windows.
+1176,2019-10-15 07:52:51.000000000,2019-10-16 11:33:43.000000000,closed,5,"Gives 0 for struct offset and 0 for member offset, when layout(offset=16)."
+1175,2019-10-14 18:14:58.000000000,2019-10-14 21:01:01.000000000,closed,0,Implement unordered compare on GLSL/HLSL.
+1174,2019-10-14 15:05:02.000000000,2019-10-14 21:00:42.000000000,closed,0,MSL: Add opt-in support for huge IABs.
+1173,2019-10-11 13:25:08.000000000,2019-10-11 13:58:15.000000000,closed,0,MSL: Fix regression with OpCompositeConstruct from std140 float[].
+1172,2019-10-11 03:22:20.000000000,2019-10-11 13:58:15.000000000,closed,1,Regression in unpacking array of scalars
+1171,2019-10-11 02:40:30.000000000,2019-11-04 14:17:03.000000000,closed,5,MSL: argument buffer resource location assignment issue with buffer and texture array
+1170,2019-10-11 02:23:58.000000000,2019-10-14 21:00:42.000000000,closed,4,MSL: argument buffers wrong address space when > 8192 bindings
+1169,2019-10-07 21:39:16.000000000,2019-10-07 21:47:59.000000000,closed,0,Update SPV_VERSION from 1.4 to 1.5
+1168,2019-10-07 12:55:41.000000000,2019-10-07 15:41:27.000000000,closed,0,Do not consider aliased struct types if the master is not a block
+1167,2019-10-06 18:34:28.000000000,2019-10-07 15:41:27.000000000,closed,0,"Same struct names, different scope bug"
+1166,2019-10-04 13:07:50.000000000,2019-10-04 17:51:45.000000000,closed,0,Merge workgroup size support for JSON reflection
+1165,2019-10-03 20:02:50.000000000,2019-10-04 17:51:46.000000000,closed,1,Reflect workgroup size
+1164,2019-09-30 02:15:06.000000000,2019-10-14 21:01:01.000000000,closed,0,Implement Unordered compare operations
+1163,2019-09-25 14:26:19.000000000,2019-10-28 18:26:15.000000000,closed,2,GLSL compiler issue about 'imageAtomicAdd'
+1162,2019-09-20 20:49:23.000000000,2019-10-28 18:25:46.000000000,closed,27,Lots of changes and fixes with new test cases to make SPIRV-Cross work in UE4 for Metal
+1161,2019-09-19 12:41:32.000000000,2019-09-19 12:41:43.000000000,closed,1,Merge dependency update
+1160,2019-09-19 00:07:19.000000000,2019-09-19 12:41:44.000000000,closed,3,Update external/ to SPIR-V 1.5
+1159,2019-09-18 12:01:50.000000000,2019-09-18 13:41:12.000000000,closed,0,CMake: Add option to force -fPIC.
+1158,2019-09-18 04:21:10.000000000,2019-09-18 14:02:26.000000000,closed,2,Comment annotations
+1157,2019-09-17 19:25:38.000000000,2019-09-18 13:41:12.000000000,closed,3,Enable position-independent code 
+1156,2019-09-17 12:18:07.000000000,2019-09-17 14:39:14.000000000,closed,0,"Disable -Werror by default in CMake, fix -Wshorten-64-to-32 warnings."
+1155,2019-09-17 07:36:35.000000000,2019-09-17 14:39:14.000000000,closed,0,iOS build error
+1154,2019-09-16 12:21:54.000000000,2019-09-16 13:40:18.000000000,closed,0,CMake: Add option to skip installation targets.
+1153,2019-09-15 20:14:10.000000000,2019-09-16 13:40:18.000000000,closed,1,Make installation optinal
+1152,2019-09-12 16:22:28.000000000,2019-09-12 17:12:30.000000000,closed,0,Consider discard and demote as impure statements.
+1151,2019-09-12 16:20:59.000000000,2019-09-12 17:12:30.000000000,closed,0,discard and demote are not considered impure
+1150,2019-09-07 05:32:03.000000000,2019-09-09 00:31:43.000000000,closed,2,MSL: Fix array copies to/from interpolators
+1149,2019-09-06 13:40:37.000000000,2019-09-10 11:54:55.000000000,closed,5,reflect hlsl resource seems did not work well
+1148,2019-09-06 12:26:35.000000000,2019-09-06 14:25:23.000000000,closed,0,Merge dynamic offset support with some bug-fixes.
+1147,2019-09-06 08:31:42.000000000,2019-09-06 14:25:24.000000000,closed,0,MSL: Support dynamic offsets for buffers in argument buffers.
+1146,2019-09-05 15:18:59.000000000,2019-09-06 16:22:55.000000000,closed,0,Introduce stronger types for the SPIR-V ID in C++ API
+1145,2019-09-05 03:03:58.000000000,2019-09-05 12:24:46.000000000,closed,1,Fix ParsedIR::mark_used_as_array_length(uint32_t id)
+1144,2019-09-04 23:01:09.000000000,2019-09-05 23:33:26.000000000,closed,0,MSL: Force storage images on iOS to use discrete descriptors.
+1143,2019-09-04 15:12:51.000000000,2019-09-04 16:43:09.000000000,closed,0,Merge SPV_EXT_fragment_shader_interlock with fixes
+1142,2019-09-02 06:20:48.000000000,2019-11-04 14:56:22.000000000,closed,3,MSL: GLSL texture binding point is not converted correctly
+1141,2019-08-30 01:41:44.000000000,2019-08-30 13:05:05.000000000,closed,2,MSL: Inline all non-entry-point functions
+1140,2019-08-29 15:58:01.000000000,2019-08-29 18:06:33.000000000,closed,0,"MSL: Add {Base,}{Vertex,Instance}Index to bitcast_from_builtin_load."
+1139,2019-08-29 13:51:59.000000000,2019-08-29 18:06:33.000000000,closed,2,MSL: gl_VertexIndex and gl_InstanceIndex are incorrectly emitted as uint instead of int
+1138,2019-08-28 22:47:16.000000000,2019-09-04 16:43:10.000000000,closed,5,Support the SPV_EXT_fragment_shader_interlock extension.
+1137,2019-08-28 22:41:16.000000000,2019-08-29 15:11:59.000000000,closed,0,GLSL: Fix post-depth coverage for ESSL.
+1136,2019-08-27 19:17:08.000000000,2019-08-28 16:24:29.000000000,closed,0,GLSL: Assume image and sampler can be RelaxedPrecision.
+1135,2019-08-27 15:23:04.000000000,2019-08-27 17:48:08.000000000,closed,0,MSL: Deal with array copies from and to threadgroup.
+1134,2019-08-27 13:42:54.000000000,2019-08-27 17:47:34.000000000,closed,0,Do not allow base expressions for non-native row-major matrices.
+1133,2019-08-27 13:20:57.000000000,2019-08-27 15:17:44.000000000,closed,0,Deal with ldexp taking uint input.
+1132,2019-08-27 07:53:34.000000000,2019-08-28 16:24:29.000000000,closed,1,Texture2D<min16float4> gets converted to uniform highp sampler2D
+1131,2019-08-26 18:20:47.000000000,2019-08-27 15:17:32.000000000,closed,0,Remove unnecessary continue block statements
+1130,2019-08-26 13:37:42.000000000,2019-08-26 18:23:01.000000000,closed,0,Deal correctly with sign on bitfield operations.
+1129,2019-08-26 12:06:31.000000000,2019-08-26 13:39:12.000000000,closed,0,Fix variable scope when switch block exits multiple times.
+1128,2019-08-23 09:37:45.000000000,2019-08-27 18:26:51.000000000,closed,1,MSL: unexpected type name 'int2': expected expression
+1127,2019-08-22 19:25:49.000000000,2019-08-27 18:25:17.000000000,closed,2,spirv-cross yields invalid GLSL (cannot convert from ' global highp 2-component vector of int' to ' temp highp 4-component vector of int')
+1126,2019-08-22 19:23:26.000000000,2019-08-27 18:18:05.000000000,closed,1,spirv-cross yields invalid GLSL (undeclared identifier)
+1125,2019-08-22 19:20:12.000000000,2019-08-27 18:15:18.000000000,closed,1,"spirv-cross yields invalid GLSL (syntax error, unexpected MEDIUM_PRECISION)"
+1124,2019-08-22 19:17:14.000000000,2019-09-05 12:35:56.000000000,closed,2,spirv-cross yields invalid GLSL (array index out of range)
+1123,2019-08-22 19:13:02.000000000,2019-08-27 18:04:59.000000000,closed,1,spirv-cross yields invalid GLSL ('modf' : no matching overloaded function found)
+1122,2019-08-22 15:19:15.000000000,2019-08-27 18:01:22.000000000,closed,1,spirv-cross yields invalid GLSL (unexpected IDENTIFIER)
+1121,2019-08-22 15:15:43.000000000,2019-08-27 17:57:32.000000000,closed,1,Shader sends spirv-cross into seemingly infinite loop
+1120,2019-08-19 11:58:25.000000000,2019-08-27 15:29:26.000000000,closed,5,"HLSL: redundant ""continue"" statements"
+1119,2019-08-16 23:55:11.000000000,2019-08-27 17:48:08.000000000,closed,0,MSL: Type deduction fails for array copy function with groupshared float3 array
+1118,2019-08-15 22:46:34.000000000,2019-09-05 12:35:37.000000000,closed,4,Bug report: Reported spec constants IDs as array sizes are mismatched
+1117,2019-08-15 21:40:05.000000000,2019-08-27 17:47:34.000000000,closed,4,MSL: Failed assert in CompilerGLSL::build_composite_combiner
+1116,2019-08-14 20:09:07.000000000,2019-08-14 20:40:49.000000000,closed,1,Failed assertion on invalid spirv
+1115,2019-08-14 16:22:44.000000000,2019-08-27 15:17:44.000000000,closed,1,MSL: no matching function for 'ldexp' when using with uvec4
+1114,2019-08-13 21:34:21.000000000,2019-08-27 15:17:32.000000000,closed,0,MSL conversion error: Over 3 compilation loops detected. Must be a bug!
+1113,2019-08-03 00:28:36.000000000,2019-09-02 16:18:21.000000000,closed,7,MSL: Add support for sampler Y'CbCr conversion.
+1112,2019-08-01 19:11:39.000000000,2019-08-26 18:23:01.000000000,closed,1,MSL: converting ivec4 in GLSL leads to an error no matching constructor for int4  
+1111,2019-08-01 11:55:53.000000000,2019-08-01 12:01:16.000000000,closed,1,Fix severe performance issue with invariant expression invalidation.
+1110,2019-07-31 18:54:37.000000000,2019-08-26 13:39:12.000000000,closed,0,MSL: Parentheses is missing when typecasting for the optimized SPIR-V
+1109,2019-07-31 17:51:03.000000000,2019-08-01 12:02:11.000000000,closed,7,"Revert ""Do not disable temporary forwarding when we suppress usage tracking"""
+1108,2019-07-30 20:26:02.000000000,2019-08-01 12:01:16.000000000,closed,6,Performance regression with spirv-cross compilation to GLSL
+1107,2019-07-29 01:34:26.000000000,2019-07-29 02:36:27.000000000,closed,2,Renaming uniform block with an existing name
+1106,2019-07-28 08:53:56.000000000,2019-08-24 19:37:27.000000000,closed,1,SpvDecorationNoPerspective missing for Vertex Shader outputs
+1105,2019-07-26 18:43:57.000000000,2019-07-29 12:19:13.000000000,closed,1,MSL: Unify the get_*_address_space() methods.
+1104,2019-07-26 15:44:04.000000000,2019-08-26 18:23:50.000000000,closed,2,ES2 varying mismatch
+1103,2019-07-26 13:17:33.000000000,2019-07-26 16:35:19.000000000,closed,0,MSL: Cleanup temporary use with emit_uninitialized_temporary.
+1102,2019-07-26 13:04:30.000000000,2019-07-26 16:28:17.000000000,closed,0,MSL: Deal with Modf/Frexp where output is access chain to scalar.
+1101,2019-07-26 12:40:14.000000000,2019-07-26 16:27:14.000000000,closed,0,Do not force temporary unless continue-only for loop dominates.
+1100,2019-07-25 19:52:03.000000000,2019-07-26 16:35:19.000000000,closed,1,MSL: An error ResType does not refer to a value when converting GLSL to Metal shader
+1099,2019-07-25 14:32:32.000000000,2019-07-25 19:44:18.000000000,closed,0,Missed case where DoWhile continue block deals with Phi.
+1098,2019-07-25 13:09:34.000000000,2019-07-25 18:10:27.000000000,closed,0,Vulkan GLSL: Support disabling samplerless texture function EXT.
+1097,2019-07-24 17:56:39.000000000,2019-07-25 12:34:04.000000000,closed,1,MSL: Adjust BuiltInWorkgroupId for vkCmdDispatchBase().
+1096,2019-07-22 20:11:38.000000000,2019-07-26 16:28:17.000000000,closed,3,MSL: Using modf built in throws an error :non-const reference cannot bind to vector element
+1095,2019-07-22 19:45:19.000000000,2019-07-26 16:27:14.000000000,closed,0,MSL: Assertion failed - loop_header_block.merge == SPIRBlock::MergeLoop
+1094,2019-07-22 16:45:46.000000000,2019-08-26 18:24:13.000000000,closed,5,Is it possible to extract uniform buffer default value? 
+1093,2019-07-21 16:09:40.000000000,2019-09-06 16:22:55.000000000,closed,2,Compiletime type safety of SPIRV-Cross
+1092,2019-07-21 15:28:40.000000000,2019-07-21 15:38:15.000000000,closed,1,How to use spvc_type_get_array_dimension
+1091,2019-07-18 18:29:38.000000000,2019-07-25 19:44:18.000000000,closed,0,MSL: uninitialized boolean generated by SPIR-V Cross leads to an invalid shader
+1090,2019-07-18 18:16:03.000000000,2019-07-25 18:10:27.000000000,closed,2,Issue with translated texelFetch from Load and Vulkan semantics
+1089,2019-07-18 15:51:57.000000000,2019-07-24 17:35:01.000000000,closed,7,MSL: Refactor buffer packing logic from ground up.
+1088,2019-07-18 02:21:53.000000000,2019-07-24 17:35:01.000000000,closed,3,MSL: why is a std140 mat3 compiled to packed_float3x3?
+1087,2019-07-17 18:13:24.000000000,2019-07-19 12:05:54.000000000,closed,0,Support the SPV_EXT_demote_to_helper_invocation extension.
+1086,2019-07-17 13:56:12.000000000,2019-07-17 16:00:35.000000000,closed,0,Test glsl.std450 more exhaustively.
+1085,2019-07-15 21:41:15.000000000,2019-07-17 16:00:35.000000000,closed,2,MSL: no matching function for call to faceforward on macOS 10.14
+1084,2019-07-15 18:44:39.000000000,2019-07-17 11:48:56.000000000,closed,0,MSL: Support the SPV_INTEL_shader_integer_functions2 extension.
+1083,2019-07-14 01:52:58.000000000,2019-07-15 11:53:28.000000000,closed,1,Update external repos.
+1082,2019-07-14 01:49:50.000000000,2019-07-15 11:53:28.000000000,closed,0,Support the SPV_KHR_device_group extension.
+1081,2019-07-14 01:45:28.000000000,2019-07-15 11:53:27.000000000,closed,0,MSL: Support the SPV_AMD_shader_trinary_minmax extension.
+1080,2019-07-12 13:09:22.000000000,2019-07-12 14:34:13.000000000,closed,0,Deal correctly with return sign of bitscan operations.
+1079,2019-07-11 19:35:33.000000000,2019-07-12 11:52:57.000000000,closed,0,MSL: Use the select() function for OpSelect.
+1078,2019-07-11 19:30:08.000000000,2019-07-12 11:56:26.000000000,closed,2,Support the SPV_KHR_post_depth_coverage extension.
+1077,2019-07-11 19:26:37.000000000,2019-07-12 12:03:06.000000000,closed,1,"MSL: Handle coherent, volatile, and restrict."
+1076,2019-07-11 17:34:14.000000000,2019-07-11 20:06:52.000000000,closed,0,GLSL: Need extension to use bitcast on GLSL < 330.
+1075,2019-07-11 15:53:56.000000000,2019-07-11 17:09:46.000000000,closed,1,Remove unreasonable assertion for OpTypeImage Sampled parameter.
+1074,2019-07-11 15:05:20.000000000,2019-07-24 17:35:01.000000000,closed,0,Refactor MSL buffer packing implementation
+1073,2019-07-11 08:23:18.000000000,2019-07-12 14:34:13.000000000,closed,1,MSL: using findLSB() as an argument to clamp built-ins fails on macOS 10.14
+1072,2019-07-11 01:39:46.000000000,2019-07-12 20:06:33.000000000,closed,6,spirv -> MSL constant buffer bindings ignored
+1071,2019-07-10 15:04:01.000000000,2019-07-12 13:34:46.000000000,closed,0,MSVC: Fix some warnings in C wrapper.
+1070,2019-07-10 14:58:10.000000000,2019-07-10 16:04:51.000000000,closed,0,Forget loop variable enables after emitting block chain.
+1069,2019-07-10 13:21:29.000000000,2019-07-10 14:15:13.000000000,closed,0,MSL: Re-roll array expressions in initializers.
+1068,2019-07-10 12:55:37.000000000,2019-07-12 13:34:45.000000000,closed,2,MSVC Compiler Warning
+1067,2019-07-10 06:06:42.000000000,2019-07-11 15:03:04.000000000,closed,4,MSL: Support scalar block layout.
+1066,2019-07-09 21:11:40.000000000,2019-07-10 16:04:51.000000000,closed,0,MSL: Switch-case statement without break leads to use of undeclared variable after running spirv-opt 
+1065,2019-07-09 17:33:28.000000000,2019-07-09 19:25:30.000000000,closed,0,MSVC 2013: Work around another compiler bug with array init.
+1064,2019-07-08 13:56:10.000000000,2019-07-08 15:58:36.000000000,closed,0,Fall back to complex loop if non-trivial continue block is found.
+1063,2019-07-08 13:34:09.000000000,2019-07-08 15:58:37.000000000,closed,0,Propagate NonUniformEXT to dependent expressions
+1062,2019-07-08 09:36:16.000000000,2019-07-08 15:58:36.000000000,closed,0,MSL: Having a ternary operation in an increment of for loop leads to an exception 
+1061,2019-07-05 16:47:36.000000000,2019-07-08 15:58:37.000000000,closed,0,Revisit nonuniformEXT handling
+1060,2019-07-04 15:38:03.000000000,2019-07-05 12:44:45.000000000,closed,1,"Parse SPIR-V debug information extended instructions, as well as OpNoLine"
+1059,2019-07-03 14:32:39.000000000,2019-07-03 18:43:54.000000000,closed,0,MSL/HLSL: Support scalar reflect and refract.
+1058,2019-07-03 13:20:29.000000000,2019-07-03 14:28:48.000000000,closed,0,Fix variable scope when an if or else block dominates a variable.
+1057,2019-07-03 09:56:06.000000000,2019-07-05 14:17:06.000000000,closed,4,Shaders with SPV debug info
+1056,2019-07-02 21:10:37.000000000,2019-07-03 18:43:53.000000000,closed,2,MSL: using the variable identifier as an argument to refract built-ins fails on macOS 10.14
+1055,2019-07-02 21:01:30.000000000,2019-07-03 12:13:20.000000000,closed,0,MSL: Support SubgroupLocalInvocationId and SubgroupSize in all stages.
+1054,2019-07-02 05:30:03.000000000,2019-07-03 14:28:48.000000000,closed,2,bug : reference variable outside of its scope
+1053,2019-07-02 01:47:19.000000000,2019-07-10 14:15:13.000000000,closed,3,MSL initializing a struct with arrays as subobjects
+1052,2019-07-02 00:44:55.000000000,2019-07-19 12:05:54.000000000,closed,1,Support SPV_EXT_demote_to_helper_invocation
+1051,2019-07-01 13:00:58.000000000,2019-07-01 15:40:57.000000000,closed,0,MSL/HLSL: Support OpOuterProduct.
+1050,2019-06-29 21:34:51.000000000,2020-06-04 17:55:48.000000000,closed,4,MSL: Use of MSLVertexAttr
+1049,2019-06-28 16:51:06.000000000,2019-07-01 15:40:57.000000000,closed,2,MSL: using unpackUnorm4x8 as an argument to outerProduct built-ins fails on macOS 10.14
+1048,2019-06-28 13:22:16.000000000,2019-06-28 16:18:26.000000000,closed,0,Deal with scalar input values for distance/length/normalize.
+1047,2019-06-28 12:43:30.000000000,2019-06-28 16:18:26.000000000,closed,1,MSL: using the variable identifier as an argument to length built-ins fails on macOS 10.14 
+1046,2019-06-27 17:13:27.000000000,2019-06-27 17:22:58.000000000,closed,1,MSL: Fix sampling with FP16 coordinates.
+1045,2019-06-26 21:14:02.000000000,2019-06-27 17:12:14.000000000,closed,0,Add C API support for get_declared_struct_member_size
+1044,2019-06-26 21:13:17.000000000,2019-06-27 17:22:58.000000000,closed,0,HLSL does not support case fallthrough
+1043,2019-06-25 12:46:50.000000000,2019-06-25 14:08:41.000000000,closed,0,Fix declaration of loop variables with a Phi helper copy.
+1042,2019-06-25 00:04:46.000000000,2019-06-25 14:08:41.000000000,closed,1,MSL: undeclared identifier from for loop increment step
+1041,2019-06-24 14:33:41.000000000,2019-06-26 17:01:15.000000000,closed,1,MSL: Add support for SubgroupSize / SubgroupInvocationID in fragment.
+1040,2019-06-24 13:10:58.000000000,2019-06-24 18:52:42.000000000,closed,0,MSL: Support custom bindings for argument buffer itself.
+1039,2019-06-24 12:21:04.000000000,2019-06-24 13:10:13.000000000,closed,0,Workaround GCC 9 bug.
+1038,2019-06-23 23:29:57.000000000,2019-06-24 13:10:13.000000000,closed,0,Workaround compiler bugs in GCC 9.1
+1037,2019-06-23 08:20:47.000000000,2019-06-24 18:52:42.000000000,closed,3,Overriding argument buffer bindings
+1036,2019-06-21 15:23:35.000000000,2019-06-21 17:58:51.000000000,closed,0,MSL: Rewrite how resources are automatically assigned bindings.
+1035,2019-06-20 23:44:06.000000000,2019-06-21 18:25:11.000000000,closed,12,"Use the member index, not the resource ID, as the Metal argument buffer index."
+1034,2019-06-20 14:16:50.000000000,2019-06-21 17:55:34.000000000,closed,0,Deal with OpSwitch case fallthrough
+1033,2019-06-19 18:28:50.000000000,2019-06-21 17:55:34.000000000,closed,2,Converting SPIR-V to MSL leads to use of undeclared variable
+1032,2019-06-18 14:23:41.000000000,2019-06-18 21:59:01.000000000,closed,0,Make sure args.msl22 is set in test_shaders.py.
+1031,2019-06-18 12:41:15.000000000,2019-06-19 17:29:27.000000000,closed,3,MSL: Support 64-bit integers.
+1030,2019-06-18 12:38:24.000000000,2019-06-18 12:38:36.000000000,closed,0,MSL: Fix path check in test_shaders.py.
+1029,2019-06-17 18:15:45.000000000,2019-06-17 21:06:02.000000000,closed,0,Prepare for MSL 2.2 testing
+1028,2019-06-13 13:36:46.000000000,2019-06-19 17:29:15.000000000,closed,0,MSL: Support barycentrics and PrimitiveID in fragment shaders
+1027,2019-06-13 12:38:38.000000000,2019-06-13 15:45:02.000000000,closed,0,MSL: Fix regression with Private parameter declaration.
+1026,2019-06-13 04:51:50.000000000,2019-06-13 15:45:02.000000000,closed,1,SPIRV-Cross produces invalid MSL shader with duplicated type
+1025,2019-06-12 13:39:48.000000000,2019-06-19 16:07:40.000000000,closed,0,MSL: Support OpImageQueryLod.
+1024,2019-06-12 12:22:14.000000000,2019-06-12 14:48:11.000000000,closed,0,GLSL/MSL: Support stencil export
+1023,2019-06-12 11:44:05.000000000,2019-06-19 16:07:27.000000000,closed,0,MSL: Support MinLod operand.
+1022,2019-06-12 11:41:21.000000000,2019-06-12 13:35:09.000000000,closed,0,MSL: Support Invariant qualifier on position.
+1021,2019-06-11 12:47:17.000000000,2019-06-12 11:40:47.000000000,closed,1,MSL: Support misc 2.1/2.2 features.
+1020,2019-06-10 17:48:33.000000000,2019-06-11 12:11:30.000000000,closed,0,MSL: Support remapping constexpr samplers by set/binding.
+1019,2019-06-10 13:31:15.000000000,2019-06-10 16:05:38.000000000,closed,0,Employ heuristics to figure out how to emit SSBO/UAV reflection names.
+1018,2019-06-09 00:25:31.000000000,2019-06-10 16:05:38.000000000,closed,2,spirv_cross::Resource contains wrong name 
+1017,2019-06-07 21:53:53.000000000,2019-06-12 13:35:09.000000000,closed,0,[MSL] Support the invariant qualifier on position in MSL 2.1
+1016,2019-06-07 21:51:14.000000000,2019-06-12 14:48:11.000000000,closed,0,[MSL] Support SPV_EXT_shader_stencil_export in MSL 2.1
+1015,2019-06-06 23:33:35.000000000,1970-01-01 00:00:00.000000001,open,5,[MSL] Support SPV_EXT_fragment_invocation_density in MSL 2.2
+1014,2019-06-06 23:28:54.000000000,1970-01-01 00:00:00.000000001,open,7,[MSL] Support sparse image residency operations in MSL 2.2
+1013,2019-06-06 23:25:08.000000000,2019-06-19 16:07:40.000000000,closed,5,[MSL] Implement OpImageQueryLod using new MSL 2.2 functionality
+1012,2019-06-06 23:23:23.000000000,2019-06-19 16:07:27.000000000,closed,0,[MSL] Support `MinLod` image parameters with MSL 2.2
+1011,2019-06-06 23:21:34.000000000,2019-06-26 17:01:14.000000000,closed,0,[MSL] Support SubgroupLocalInvocationId and SubgroupSize in 2.2 fragment shaders
+1010,2019-06-06 23:18:59.000000000,2019-06-19 17:29:15.000000000,closed,1,[MSL] Support SPV_NV_fragment_shader_barycentric in MSL 2.2
+1009,2019-06-06 23:13:57.000000000,2019-06-19 17:29:41.000000000,closed,0,[MSL] Support OpTypeInt of width 64
+1008,2019-06-06 14:26:49.000000000,2019-06-06 16:41:51.000000000,closed,0,Deal with case where a variable is dominated by inner part of a loop.
+1007,2019-06-06 12:11:26.000000000,2019-06-06 16:41:51.000000000,closed,0,OpVariables may not be preserved across loop iterations
+1006,2019-06-05 14:40:49.000000000,2019-06-05 18:11:07.000000000,closed,0,Deal with case where a block is somehow emitted in a duplicated fashion.
+1005,2019-06-05 13:29:20.000000000,2019-06-05 18:10:40.000000000,closed,0,Add some missing features for NV_ray_tracing
+1004,2019-06-05 02:14:56.000000000,2019-09-05 13:36:43.000000000,closed,8,[MSL] Support for new Metal Shading Language 2.2 features..
+1003,2019-06-04 17:46:36.000000000,2019-06-06 16:24:01.000000000,closed,9,"[GLSL, MSL, CPP] variables are sometimes not declared in generated code"
+1002,2019-06-04 05:13:20.000000000,2019-09-04 16:43:10.000000000,closed,4,"Request [GLSL,MSL,HLSL]: Support for new SPV_EXT_fragment_shader_interlock "
+1001,2019-05-31 21:24:11.000000000,2019-07-01 12:39:26.000000000,closed,9,MSL: Support SPV_KHR_multiview.
+1000,2019-05-31 15:24:29.000000000,2019-05-31 17:52:03.000000000,closed,0,MSL: Fix declaration of unused input variables.
+999,2019-05-30 14:32:04.000000000,2019-06-05 18:10:40.000000000,closed,1,GLSL: NV_ray_tracing support seems forgot shaderRecordNV.
+998,2019-05-30 07:21:46.000000000,2019-05-31 17:52:03.000000000,closed,0,MSL: [[position]] is incorrectly added as vertex shader input
+997,2019-05-29 08:17:25.000000000,2019-05-29 16:44:13.000000000,closed,4,QUESTION: Merging UE4 SPIRV-Cross branch changes?
+996,2019-05-28 15:47:44.000000000,2019-05-28 17:53:02.000000000,closed,2,Support emitting OpLine directive.
+995,2019-05-28 14:24:24.000000000,2019-05-28 14:24:47.000000000,closed,1,GLSL: Support std430 in UBOs with scalar layout.
+994,2019-05-27 18:13:52.000000000,2019-05-28 14:03:45.000000000,closed,0,MSL: Implement OpArrayLength.
+993,2019-05-27 09:50:11.000000000,2019-05-27 09:52:07.000000000,closed,3,coherent/volatile/restrict/readonly/writeonly is not supported in GLSL ES 3.0
+992,2019-05-24 17:27:20.000000000,2019-05-24 18:39:09.000000000,closed,0,Add Git/timestamp --revision support.
+991,2019-05-23 17:07:50.000000000,2019-05-23 20:28:11.000000000,closed,0,MSL: Fix complex type alias declaration order
+990,2019-05-23 01:22:14.000000000,2019-05-29 19:59:11.000000000,closed,4,MSL: Stop exiting early from extra tesc instances.
+989,2019-05-21 21:36:21.000000000,2019-05-28 17:53:02.000000000,closed,6,Suggestion: emit #line statements for SPIR-V OpLine opcode
+988,2019-05-21 12:11:14.000000000,2019-05-24 17:10:06.000000000,closed,2,MSL code generation problem: Duplicate binding locations
+987,2019-05-21 12:02:59.000000000,2019-05-23 20:28:11.000000000,closed,1,MSL code generation problem: Undefined type
+986,2019-05-20 20:34:21.000000000,2019-05-24 18:39:09.000000000,closed,0,"Add ""--version"" switch to spirv-cross executable"
+985,2019-05-18 04:54:33.000000000,2019-05-18 12:50:28.000000000,closed,1,Add get_member_name and active_buffer_ranges to C APIs
+984,2019-05-17 21:45:54.000000000,1970-01-01 00:00:00.000000001,open,3,Request: extend SPIRV-Cross to accept OpenCL dialect of SPIR-V..
+983,2019-05-17 16:23:56.000000000,2019-05-17 19:33:19.000000000,closed,3,Fix spvc_type_get_vector_size C function.
+982,2019-05-16 02:43:57.000000000,2019-05-18 12:28:34.000000000,closed,1,MSL: Add support for subgroup operations.
+981,2019-05-15 14:16:05.000000000,2019-05-15 15:26:28.000000000,closed,13,spvc_resources_get_resource_list_for_type issue
+980,2019-05-14 13:43:28.000000000,2019-05-28 14:24:47.000000000,closed,0,GLSL: Allow std430 for UBOs with scalar block layout.
+979,2019-05-14 12:53:36.000000000,2019-05-14 13:29:59.000000000,closed,0,Add setup for Github releases via Travis.
+978,2019-05-13 17:00:09.000000000,2019-05-13 19:02:49.000000000,closed,0,HLSL/MSL: Deal correctly with nonuniformEXT qualifier.
+977,2019-05-13 13:45:48.000000000,2019-05-14 16:49:55.000000000,closed,4,Artifacts
+976,2019-05-12 17:56:40.000000000,2019-07-15 11:55:07.000000000,closed,6,Using OpImageSampleProjDrefExplicitLod emits an exception with Lod != 0
+975,2019-05-11 19:22:03.000000000,2019-05-14 11:51:40.000000000,closed,1,GLSL: Add option to disable buffer blocks regardless of version
+974,2019-05-11 07:37:06.000000000,2019-05-13 19:02:48.000000000,closed,0,MSL: use of undeclared identifier 'nonuniformEXT' with GLSL texture2D arrays
+973,2019-05-09 14:19:04.000000000,2019-05-18 12:37:05.000000000,closed,4,MSL: Support image swizzle workaround with argument buffers
+972,2019-05-09 13:39:57.000000000,2019-05-18 12:37:05.000000000,closed,0,MSL: Texture swizzle aux buffer does not work with indirect argument buffers
+971,2019-05-09 13:27:12.000000000,2019-05-09 16:26:42.000000000,closed,0,MSL: Deal with texture swizzle on arrays of images.
+970,2019-05-09 12:44:12.000000000,2019-05-09 13:01:00.000000000,closed,0,GLSL: Support OpBitcast for buffer references.
+969,2019-05-08 22:05:24.000000000,2019-05-09 11:59:24.000000000,closed,1,Set env to vulkan1.1 for spirv-as in test_shaders.py
+968,2019-05-08 22:03:11.000000000,2019-05-09 11:59:24.000000000,closed,0,Set target env consistently in test_shaders.py
+967,2019-05-08 21:45:31.000000000,2019-05-09 13:01:00.000000000,closed,1,vulkan/comp/buffer-reference.nocompat.vk.comp invalid: Drops restrict qualifier
+966,2019-05-07 17:52:55.000000000,2019-05-07 21:03:58.000000000,closed,0,HLSL: Support OpArrayLength.
+965,2019-05-07 04:31:24.000000000,2019-05-28 14:03:45.000000000,closed,5,OpArrayLength unimplemented for MSL
+964,2019-05-02 13:17:56.000000000,2019-05-02 15:28:19.000000000,closed,0,GLSL: Support GL_EXT_nonuniform_qualifier.
+963,2019-04-29 13:32:20.000000000,2019-04-30 16:22:01.000000000,closed,1,Cannot use specialized vectors to determine array size.
+962,2019-04-29 02:34:19.000000000,2019-05-03 16:03:36.000000000,closed,2,Question: evaluation of specialization constant expressions
+961,2019-04-26 23:26:39.000000000,2019-04-27 03:05:55.000000000,closed,2,Fix a copy-pasto.
+960,2019-04-26 15:13:04.000000000,2019-04-26 17:43:38.000000000,closed,0,GLSL: Implement GL_EXT_scalar_block_layout
+959,2019-04-26 12:50:23.000000000,1970-01-01 00:00:00.000000001,open,0,SPIRType does not cleanly separate array-of-pointers and pointer-to-array
+958,2019-04-25 17:09:58.000000000,2019-05-02 15:28:19.000000000,closed,0,Support GL_EXT_nonuniform_qualifier
+957,2019-04-25 15:56:54.000000000,2019-04-26 17:43:38.000000000,closed,0,Implement GL_EXT_scalar_block_layout
+956,2019-04-24 16:14:56.000000000,2019-04-26 17:43:15.000000000,closed,0,GLSL: Implement GL_EXT_buffer_reference.
+955,2019-04-24 11:41:46.000000000,2019-04-24 12:20:11.000000000,closed,0,Fix infinite loop when OpAtomic* temporaries are used in other blocks.
+954,2019-04-24 10:51:11.000000000,2019-04-24 10:51:56.000000000,closed,0,Work around false positive warning on GCC 8.3.
+953,2019-04-24 06:36:24.000000000,2019-04-24 12:20:11.000000000,closed,2,"Recompile Error on complex GLSL shader: ""Over 3 compilation loops detected. Must be a bug!"""
+952,2019-04-23 14:23:32.000000000,2019-04-23 17:43:30.000000000,closed,0,MSL: Add native texture buffer support.
+951,2019-04-22 13:40:04.000000000,2019-04-24 10:51:56.000000000,closed,3,Compilation error (stringop-overflow error)
+950,2019-04-20 00:10:19.000000000,2019-04-23 17:43:30.000000000,closed,2,MSL: Atomics with RWBuffer
+949,2019-04-12 17:07:31.000000000,2019-04-12 18:27:39.000000000,closed,0,"Support running {,update_}test_shader.sh with CMake builds."
+948,2019-04-12 13:19:29.000000000,2019-04-12 18:27:38.000000000,closed,0,Make test_shaders scripts more flexible with build systems
+947,2019-04-12 09:07:02.000000000,2019-04-12 12:50:43.000000000,closed,1,Can build SPIRV-Cross as a library (.Lib)
+946,2019-04-12 08:52:47.000000000,2019-04-12 13:12:16.000000000,closed,4,"TestShaders now looks for spirvcross, and fix clone time-out error in checkout_glslang_spirv_tools.sh"
+945,2019-04-12 08:35:27.000000000,2019-04-12 12:40:33.000000000,closed,2,Don't apply vertex attribute remapping to other interface blocks
+944,2019-04-10 18:08:00.000000000,2019-04-10 20:46:01.000000000,closed,0,Force complex loop in certain rare access chain scenarios.
+943,2019-04-10 14:35:32.000000000,2019-04-10 16:11:42.000000000,closed,1,Deal with mismatched signs in S/U/F conversion opcodes.
+942,2019-04-10 02:43:55.000000000,2019-04-10 18:50:21.000000000,closed,1,Fix guard around [[noreturn]].
+941,2019-04-10 00:56:47.000000000,2019-04-10 20:46:01.000000000,closed,1,MSL: Cannot resolve expression type.
+940,2019-04-09 22:45:03.000000000,2019-04-18 01:15:51.000000000,closed,18,Use constant address space for SPIR-V parameters when generating tessellation control shader.
+939,2019-04-09 20:46:26.000000000,2019-04-10 16:11:41.000000000,closed,1,Sign extension of 8 bit types does not extend sign bit... (from MoltenVK)
+938,2019-04-09 13:54:05.000000000,2019-04-09 17:08:54.000000000,closed,0,MSL: Fix OpLoad of array which is forced to a temporary.
+937,2019-04-08 19:43:10.000000000,2019-04-09 17:08:54.000000000,closed,0,MSL: array initializer must be initializer list
+936,2019-04-08 15:50:30.000000000,2019-04-08 16:42:50.000000000,closed,0,Add OpUndef instruction to block's instruction list for completeness.
+935,2019-04-08 12:41:25.000000000,2019-04-08 14:04:47.000000000,closed,0,Support fma() in older GLSL targets.
+934,2019-04-08 12:33:01.000000000,2019-04-08 14:49:26.000000000,closed,2,Add OpUndef instruction to block's instruction list for completeness.
+933,2019-04-08 06:38:40.000000000,2019-04-08 12:19:11.000000000,closed,0,Add OpUndef instruction to block's instruction list for completeness.
+932,2019-04-06 05:32:11.000000000,2019-04-06 15:20:43.000000000,closed,2,MSL: Fix infinite CAS loop on atomic_compare_exchange_weak_explicit().
+931,2019-04-05 19:30:00.000000000,2019-04-08 14:04:47.000000000,closed,0,fma() in GL core profile
+930,2019-04-05 14:20:20.000000000,2019-04-05 16:03:07.000000000,closed,0,Detect invalid DoWhileLoop early.
+929,2019-04-05 14:12:30.000000000,2019-04-05 16:03:06.000000000,closed,0,Do-while loops detect their failure condition too late
+928,2019-04-03 23:52:27.000000000,2019-04-04 00:44:57.000000000,closed,4,Update to latest glslang/SPIRV-Tools.
+927,2019-04-03 12:52:37.000000000,2019-04-03 14:32:43.000000000,closed,0,GLSL: Fix OpImageFetch with uint coordinates and LOD.
+926,2019-04-03 12:27:31.000000000,2019-04-03 14:32:26.000000000,closed,0,MSL: Fix depth2d 4-component fixup.
+925,2019-04-03 11:44:36.000000000,2019-04-03 14:32:43.000000000,closed,0,OpImageFetch with uint lod
+924,2019-04-02 21:20:58.000000000,2019-04-26 17:43:14.000000000,closed,0,Implement GL_EXT_buffer_reference
+923,2019-04-02 21:20:35.000000000,2019-04-10 12:16:12.000000000,closed,0,Reduce global allocation pressure
+922,2019-04-02 14:53:30.000000000,2019-04-10 12:16:12.000000000,closed,6,Improve performance by reducing global allocations.
+921,2019-03-29 13:33:35.000000000,2019-03-29 14:29:49.000000000,closed,0,Add an option to override the namespace used for spirv_cross.
+920,2019-03-28 22:24:18.000000000,2019-03-29 12:45:03.000000000,closed,1,Fix crash when backend.int16_t_literal_suffix set to null.
+919,2019-03-28 13:55:05.000000000,2019-03-28 17:00:50.000000000,closed,1,MSL: Declare gl_WorkGroupSize constant with [[maybe_unused]].
+918,2019-03-28 13:19:21.000000000,2019-03-28 16:54:21.000000000,closed,0,MSL: Fix crash where variable storage buffer pointers are passed down.
+917,2019-03-28 02:06:47.000000000,2019-03-28 02:10:36.000000000,closed,1,MSL: Duplicate buffer indices using multiple descriptor sets in tessellation evaluation shader
+916,2019-03-28 01:14:36.000000000,2019-03-28 16:54:21.000000000,closed,0,MSL: Assertion triggered in ParsedIR::get_buffer_block_flags.spv()
+915,2019-03-27 22:32:23.000000000,2019-03-28 17:00:50.000000000,closed,0,MSL: gl_WorkGroupSize warning spam
+914,2019-03-27 16:23:18.000000000,2019-03-27 17:18:13.000000000,closed,0,Make build system more modular.
+913,2019-03-27 15:25:17.000000000,2019-03-27 17:18:02.000000000,closed,0,Properly deal with sign-dependent GLSL opcodes.
+912,2019-03-27 13:53:20.000000000,2019-03-27 15:20:42.000000000,closed,0,Parser: Fix OpCompositeConstruct with OpUndef.
+911,2019-03-27 12:14:43.000000000,2019-03-27 12:54:33.000000000,closed,1,Weird uniform block size reported in reflection
+910,2019-03-27 10:05:02.000000000,2019-03-27 15:20:42.000000000,closed,0,OpConstantComposite with a source constituent of OpUndef
+909,2019-03-27 06:01:31.000000000,2019-03-27 17:18:13.000000000,closed,1,Options to selectively enable different components
+908,2019-03-27 04:49:19.000000000,2019-03-27 17:18:02.000000000,closed,0,Issue with abs(-1) yield incorrect value (from clspv)
+907,2019-03-25 19:58:23.000000000,2019-03-27 13:23:32.000000000,closed,5,GLSL: Add support for SPV_NV_ray_tracing
+906,2019-03-25 13:34:41.000000000,1970-01-01 00:00:00.000000001,open,0,HLSL: Implement domain shader
+905,2019-03-25 13:34:20.000000000,1970-01-01 00:00:00.000000001,open,0,HLSL: Implement hull shader
+904,2019-03-25 13:33:40.000000000,1970-01-01 00:00:00.000000001,open,0,HLSL: Implement geometry shaders
+903,2019-03-25 13:18:49.000000000,2019-03-25 13:50:26.000000000,closed,0,Support -1 index in OpVectorShuffle.
+902,2019-03-25 09:10:13.000000000,2019-03-29 14:29:49.000000000,closed,23,Crash in spirv_cross::Meta::~Meta() on iOS
+901,2019-03-24 18:27:31.000000000,2019-03-25 13:50:26.000000000,closed,0,Crash on OpVectorShuffle with Component Literal 0xFFFFFFFF
+900,2019-03-21 18:28:02.000000000,2019-03-21 20:17:29.000000000,closed,0,GLSL/HLSL: Implement NMin/NMax/NClamp.
+899,2019-03-21 17:10:47.000000000,2019-03-21 20:17:29.000000000,closed,0,GLSL/HLSL: Support NMin/Max/Clamp
+898,2019-03-21 14:54:06.000000000,2019-03-21 16:52:01.000000000,closed,0,GLSL: Fix some complex cases for loading arrays
+897,2019-03-21 13:53:38.000000000,2019-03-21 16:52:01.000000000,closed,0,GLSL: Copying array of gl_PerVertex builtin needs unrolling
+896,2019-03-20 13:43:33.000000000,2019-03-20 15:12:00.000000000,closed,0,Move check for structured OpSwitch to CompilerGLSL.
+895,2019-03-20 10:00:17.000000000,2019-03-20 15:12:00.000000000,closed,0,Delay reporting error for parsing unstructured multi-selection (OpSwitch)
+894,2019-03-19 14:02:26.000000000,2019-03-19 14:56:25.000000000,closed,0,GLSL: Support emitting push constant block as a plain UBO.
+893,2019-03-18 13:14:39.000000000,2019-03-18 13:15:21.000000000,closed,0,Fix build on Android API < 26.
+892,2019-03-18 07:43:29.000000000,2019-03-18 12:59:21.000000000,closed,0,Update to latest glslang/SPIRV-Tools.
+891,2019-03-18 01:23:26.000000000,2019-03-18 13:15:20.000000000,closed,3,Building on Android < 26 (nl_langinfo not available)
+890,2019-03-14 15:31:07.000000000,2019-03-16 13:31:55.000000000,closed,7,MSL: Add support for Metal 2 indirect argument buffers.
+889,2019-03-11 05:27:57.000000000,2019-03-12 12:21:06.000000000,closed,9,Unstructured control flow
+888,2019-03-09 12:50:35.000000000,2019-03-21 01:21:43.000000000,closed,27,Treat array of writable textures as individual textures when cross-compiling to MSL
+887,2019-03-08 01:43:17.000000000,2019-03-21 06:41:02.000000000,closed,4,Allow SPIRV to GLSL push_constant struct to have layout specifier
+886,2019-03-07 14:24:42.000000000,2019-03-07 18:39:32.000000000,closed,0,Gracefully fall back in test suite if we haven't built external dependencies
+885,2019-03-07 02:04:05.000000000,2019-03-07 18:39:32.000000000,closed,3,Almost all tests fail when using python3
+884,2019-03-06 16:33:10.000000000,2019-03-06 17:27:01.000000000,closed,0,Extend loop tests to cover negative tests.
+883,2019-03-06 15:56:19.000000000,2019-03-06 16:05:50.000000000,closed,1,OpFunctionCall ignored
+882,2019-03-04 13:45:07.000000000,2019-03-19 14:56:25.000000000,closed,0,Support emitting push constant block as UBO in regular GL.
+881,2019-02-28 16:36:02.000000000,2019-02-28 18:40:37.000000000,closed,0,Rewrite how we deal with locales and decimal point
+880,2019-02-28 14:03:50.000000000,2019-02-28 18:40:37.000000000,closed,0,std::locale::global is not safe
+879,2019-02-25 15:09:45.000000000,2019-02-25 16:43:34.000000000,closed,0,MSL: Emit proper name for optimized UBO/SSBO arrays.
+878,2019-02-25 14:56:18.000000000,2019-02-25 16:43:34.000000000,closed,0,MSL: Unnamed UBO/SSBO arrays generate invalid code.
+877,2019-02-24 23:18:52.000000000,2019-02-25 13:13:07.000000000,closed,0,MSL: Return early from helper tesc invocations.
+876,2019-02-23 02:28:56.000000000,2019-02-25 13:12:48.000000000,closed,0,MSL: Make sure we fix up the output position.
+875,2019-02-22 23:20:22.000000000,2019-02-25 13:12:37.000000000,closed,0,MSL: Use vectors for the tessellation level builtins in tese shaders.
+874,2019-02-22 16:31:20.000000000,2019-02-22 17:36:42.000000000,closed,0,MSL: Fix textures which are sampled and compared against.
+873,2019-02-22 15:58:37.000000000,2019-02-22 17:36:42.000000000,closed,0,MSL: Sampling from depth2d may trigger a wrong swizzle
+872,2019-02-22 10:07:01.000000000,2019-02-22 14:07:52.000000000,closed,0,Fix the signed to unsigned conversion warning
+871,2019-02-22 03:58:07.000000000,2019-02-22 14:07:22.000000000,closed,0,"MSL: Do position fixup for tessellation evaluation shaders, too."
+870,2019-02-22 00:14:31.000000000,2019-02-22 03:11:43.000000000,closed,0,MSL: Yet more tessellation fixes.
+869,2019-02-21 19:47:43.000000000,2019-03-06 14:09:54.000000000,closed,4,Add a stable C API for SPIRV-Cross.
+868,2019-02-21 09:18:03.000000000,2019-02-21 14:05:19.000000000,closed,0,MSL: More tessellation shader fixes
+867,2019-02-21 01:31:03.000000000,2019-02-21 02:36:22.000000000,closed,0,MSL: Don't bother fixing up triangle tess coords.
+866,2019-02-20 20:12:09.000000000,2019-02-20 21:07:04.000000000,closed,0,MSL: Some fixes for tessellation shaders.
+865,2019-02-20 16:31:51.000000000,2019-02-20 18:58:45.000000000,closed,0,Always value-cast FP16 constants instead of using literals.
+864,2019-02-20 16:23:09.000000000,2019-02-20 18:58:06.000000000,closed,0,Fix case where a struct is loaded which contains a row-major matrix.
+863,2019-02-20 09:48:54.000000000,2019-02-20 18:58:45.000000000,closed,0,"GLSL: half_literal_suffix is hardcoded as ""hf"", but GL_NV_gpu_shader5 doesn't have this suffix"
+862,2019-02-19 21:29:56.000000000,2019-02-20 15:49:50.000000000,closed,0,Fix edge case where opaque types can be declared on stack.
+861,2019-02-19 21:28:13.000000000,2019-02-20 18:58:06.000000000,closed,1,HLSL to MSL: Transpose() on wrong variable
+860,2019-02-19 01:33:29.000000000,2019-02-19 13:39:31.000000000,closed,2,MSL: Add an option to set the tessellation domain origin.
+859,2019-02-18 22:25:45.000000000,2019-02-19 03:15:08.000000000,closed,6,Question: what actually is composite constant?
+858,2019-02-18 21:42:44.000000000,2019-02-20 15:49:50.000000000,closed,4,Temporary sampler not generated for function parameter in MoltenVK only
+857,2019-02-14 21:01:51.000000000,2019-02-18 13:36:15.000000000,closed,5,MSL: Add support for tessellation evaluation shaders.
+856,2019-02-14 14:19:06.000000000,2019-02-14 14:19:20.000000000,closed,0,Move some interfaces out of public.
+855,2019-02-13 20:43:23.000000000,2019-02-13 21:31:10.000000000,closed,0,GLSL: Fix block name shenanigans in edge cases.
+854,2019-02-12 21:25:09.000000000,2019-02-13 21:31:10.000000000,closed,4,Shared base_type_id in RWByteAddressBuffer
+853,2019-02-11 19:44:05.000000000,2019-02-14 13:30:34.000000000,closed,2,ensure_correct_attribute_type() does not preserve pointer-type qualifiers.
+852,2019-02-07 19:52:46.000000000,2019-02-14 13:30:21.000000000,closed,7,MSL: Add support for tessellation control shaders.
+851,2019-02-06 16:06:28.000000000,2019-02-06 16:08:11.000000000,closed,1,Remove some obsolete build systems.
+850,2019-02-06 14:39:28.000000000,2019-02-06 15:34:30.000000000,closed,0,Support LUTs in single-function CFGs on Private storage class.
+849,2019-02-06 07:05:53.000000000,2019-02-06 14:41:29.000000000,closed,0,MSL: Stop passing the aux buffer around.
+848,2019-02-06 07:01:10.000000000,2019-02-07 19:11:42.000000000,closed,0,MSL: Add a setting to capture vertex shader output to a buffer.
+847,2019-02-05 19:13:52.000000000,2019-02-06 16:08:11.000000000,closed,0,"MSVC standalone build reported to fail in debug, should just be removed"
+846,2019-02-02 01:02:27.000000000,2019-02-06 15:34:30.000000000,closed,5,XPC_ERROR_CONNECTION_INTERRUPTED on a 'simple' fragment shader
+845,2019-02-01 01:28:51.000000000,2019-02-01 01:36:26.000000000,closed,1,Move assertions after the check for equal types.
+844,2019-01-30 19:53:35.000000000,2019-01-30 23:48:37.000000000,closed,0,Add support for 8-bit arithmetic in GLSL and MSL
+843,2019-01-30 14:32:51.000000000,2019-01-30 16:35:51.000000000,closed,0,Support initializers on StorageClassOutput.
+842,2019-01-28 15:37:12.000000000,2019-01-28 20:40:02.000000000,closed,0,MSL: Use correct alignment for structs which are members of other structs.
+841,2019-01-28 13:57:41.000000000,2019-01-28 15:37:37.000000000,closed,0,HLSL/MSL: Fix texture projection with Dref.
+840,2019-01-24 19:41:56.000000000,2019-01-28 15:37:37.000000000,closed,0,HLSL/MSL: PCF with textureProj is broken
+839,2019-01-23 23:48:41.000000000,2019-01-28 19:19:12.000000000,closed,2,Universal reflection api
+838,2019-01-23 21:31:37.000000000,2019-01-28 20:40:02.000000000,closed,2,MSL: Wrong packing when using nested structs
+837,2019-01-20 00:02:37.000000000,2019-01-21 23:29:42.000000000,closed,3,MSL max_total_threads_per_threadgroup attribute
+836,2019-01-18 20:29:35.000000000,2019-01-18 21:19:00.000000000,closed,0,MSL: Deal with resource name aliasing.
+835,2019-01-18 01:51:06.000000000,2019-01-28 19:16:31.000000000,closed,3,MSL atomic on textures invalid code
+834,2019-01-18 01:47:13.000000000,2019-01-18 21:19:00.000000000,closed,4,HLSL RWStructuredBuffer generates invalid MSL code
+833,2019-01-17 18:54:56.000000000,2019-01-17 19:44:35.000000000,closed,0,MSL: Fix image load/store for short vectors.
+832,2019-01-17 15:51:32.000000000,2019-01-17 18:30:06.000000000,closed,6,MSL: Support std140 packing rules for float[] and float2[] 
+831,2019-01-17 05:15:41.000000000,2019-01-17 23:42:05.000000000,closed,1,MSL: Hoist fixup hooks in entry_point_args() out of the compile loop.
+830,2019-01-17 03:23:37.000000000,2019-01-17 15:54:40.000000000,closed,1,MSL: Fix some types I missed when implementing variable pointers.
+829,2019-01-16 23:05:19.000000000,2019-01-17 19:44:35.000000000,closed,4,MSL texture write: invalid generated code
+828,2019-01-15 14:25:35.000000000,2019-01-17 18:30:06.000000000,closed,2,MSL: Invalid packing between a vec2[1] array and a float[1] array
+827,2019-01-14 22:08:03.000000000,2019-01-15 01:36:33.000000000,closed,3,MSL output missing access::write for texture
+826,2019-01-14 19:27:11.000000000,2019-01-30 16:35:51.000000000,closed,0,Need to deal with OpVariable initializer for StorageClassOutput
+825,2019-01-14 19:09:55.000000000,2019-01-14 20:34:13.000000000,closed,0,MSL: Add option to pad fragment outputs.
+824,2019-01-14 15:26:26.000000000,2019-01-14 18:24:37.000000000,closed,0,Fix deadlock on Travis with --parallel.
+823,2019-01-14 14:10:36.000000000,2019-01-14 18:24:25.000000000,closed,0,MSL: Fix case where we pass arrays to functions by value.
+822,2019-01-14 11:08:31.000000000,2019-01-14 12:57:14.000000000,closed,0,MSL: Add more illegal identifiers.
+821,2019-01-14 11:07:29.000000000,2019-01-15 13:05:55.000000000,closed,2,MSL: Fix passing a sampled image to a function.
+820,2019-01-14 08:42:28.000000000,2019-01-14 08:43:26.000000000,closed,1,fix tessellation evaluation shader input array declaration error。
+819,2019-01-14 01:39:56.000000000,2019-01-14 20:34:13.000000000,closed,2,MSL: Need to pad out fragment outputs
+818,2019-01-13 13:06:51.000000000,2019-01-14 18:24:25.000000000,closed,2,MSL Bug: Incorrect function signature generated
+817,2019-01-12 06:05:07.000000000,2019-01-22 21:15:23.000000000,closed,2,Question: specialization constants behavior under GLSLCompiler
+816,2019-01-11 14:37:50.000000000,2019-01-11 16:52:50.000000000,closed,0,HLSL: Support BaseVertex/BaseInstance offsets.
+815,2019-01-11 14:04:33.000000000,2019-01-11 16:52:27.000000000,closed,0,HLSL: Support dual-source blending.
+814,2019-01-11 03:39:46.000000000,2019-01-22 21:17:40.000000000,closed,5,Question: Getting back SPIR-V code after changes to decorations
+813,2019-01-10 18:50:03.000000000,2019-01-11 16:52:12.000000000,closed,0,"Optimize SPIR-V ID traversal, make it more correct and be more robust against large ID bounds."
+812,2019-01-10 13:08:00.000000000,2019-01-11 16:52:11.000000000,closed,0,Out of order SPIR-V IDs cause declaration order issues
+811,2019-01-09 19:15:49.000000000,2019-01-11 16:52:27.000000000,closed,1,Dual-source blending not supported on hlsl
+810,2019-01-09 14:48:00.000000000,2019-01-09 14:48:25.000000000,closed,1,Fix input array size in tessellation evaluation shaders.
+809,2019-01-08 21:15:10.000000000,2019-01-09 14:35:12.000000000,closed,0,MSL: Add support for emitting structs and arrays within I/O blocks.
+808,2019-01-07 22:20:26.000000000,2019-01-08 12:58:54.000000000,closed,0,MSL: Fix mapping of identity-swizzled components.
+807,2019-01-07 22:19:50.000000000,2019-01-09 13:07:43.000000000,closed,2,MSL: Support SPV_KHR_variable_pointers.
+806,2019-01-07 15:53:45.000000000,2019-01-07 19:36:24.000000000,closed,0,Fix case where OpPhi is used to swap values.
+805,2019-01-07 14:52:50.000000000,2019-01-07 17:52:06.000000000,closed,0,Handle FPRoundingMode decoration.
+804,2019-01-07 14:45:47.000000000,2019-01-07 15:43:43.000000000,closed,0,Forward meta information in OpCompositeExtract.
+803,2019-01-07 14:03:35.000000000,2019-01-07 14:53:12.000000000,closed,0,MSL: Workaround missing gradient2d() on macOS for typical cascaded shadow mapping
+802,2019-01-07 01:30:40.000000000,2019-01-07 13:10:06.000000000,closed,1,Support for sampler2DRect and legacy texture2DRect() sampling function
+801,2019-01-04 18:58:57.000000000,2019-01-04 20:07:57.000000000,closed,0,Register implied expression reads in OpLoad/OpAccessChain.
+800,2019-01-04 16:40:04.000000000,2019-01-04 18:16:30.000000000,closed,0,Nonfunctional: Update copyright headers for 2019.
+799,2019-01-04 16:31:43.000000000,2019-01-04 20:08:11.000000000,closed,1,Use correct block-name / other-name aliasing rules.
+798,2019-01-03 13:10:44.000000000,2019-01-30 20:04:46.000000000,closed,3,Support for OpMemoryModel Physical32 and Physical64?
+797,2019-01-03 07:12:58.000000000,2019-01-09 14:35:12.000000000,closed,2,Bug with GLSL shader compilation using varying matrix
+796,2018-12-31 06:38:25.000000000,2019-01-07 14:53:12.000000000,closed,5,[MSL] textureGrad -> sample_compare translation doesn't work on macOS
+795,2018-12-30 19:54:13.000000000,2019-01-07 14:10:48.000000000,closed,6,[MSL] RWBuffer becomes texture2d
+794,2018-12-29 02:30:42.000000000,2019-01-11 16:52:50.000000000,closed,3,Differences between in BuiltInVertexId/BuiltInVertexIndex on different targets
+793,2018-12-27 09:54:19.000000000,2019-01-07 19:36:24.000000000,closed,2,Phi operations that swap values
+792,2018-12-25 08:16:43.000000000,2018-12-25 11:51:48.000000000,closed,6,[Metal] Vertex shader buffer bindings need to be incremented?
+791,2018-12-22 19:27:35.000000000,2019-01-06 12:02:11.000000000,closed,1,Add install PHONY target in Makefile
+790,2018-12-19 16:10:14.000000000,2019-01-09 14:48:59.000000000,closed,2,fix glsl tessellation evaluation shader input array declaration error
+789,2018-12-18 05:29:25.000000000,2018-12-22 02:12:40.000000000,closed,1,Metal: texture2d becomes depth2d
+788,2018-12-14 03:31:57.000000000,2019-01-07 15:43:43.000000000,closed,0,MSL: dot product between float3 fetched from UBO and computed no longer compiles in Xcode 10
+787,2018-12-14 03:04:55.000000000,2019-01-04 20:07:57.000000000,closed,3,Texture reads are duplicated in MSL output when used multiple times
+786,2018-12-12 09:51:21.000000000,2019-01-07 17:52:06.000000000,closed,2,Need to handle FP rounding mode decoration
+785,2018-12-12 02:30:28.000000000,2018-12-12 03:57:16.000000000,closed,2,MSL don't emit memory_scope after MSL 2.0.
+784,2018-12-08 23:46:09.000000000,2018-12-12 18:35:59.000000000,closed,3,MSL compiler on iOS chokes on memory_scope_device
+783,2018-12-05 02:38:01.000000000,2019-01-30 23:48:37.000000000,closed,4,Support VK_KHR_shader_float16_int8 in Metal
+782,2018-12-05 00:55:22.000000000,2018-12-05 02:02:39.000000000,closed,0,MSL: Use an enum instead of two mutually exclusive booleans.
+781,2018-12-04 23:43:20.000000000,2019-01-11 16:52:11.000000000,closed,9,Large id bounds cause high memory usage and long initialization time
+780,2018-12-04 20:59:17.000000000,2019-01-04 20:08:11.000000000,closed,2,Error with block namespace names conflicting with block names
+779,2018-11-29 04:54:52.000000000,2018-12-04 19:37:55.000000000,closed,3,MSL: Force signedness of shader vertex attributes to match the host.
+778,2018-11-28 19:23:13.000000000,2018-11-28 21:11:20.000000000,closed,0,Support gl_HelperInvocation on GLSL and MSL.
+777,2018-11-28 15:35:02.000000000,2018-11-28 21:11:20.000000000,closed,0,Support gl_HelperInvocation
+776,2018-11-28 11:23:54.000000000,2018-11-28 15:34:33.000000000,closed,0,Fix build warning.
+775,2018-11-27 14:45:53.000000000,2018-11-27 16:39:34.000000000,closed,0,CPP: declare constants.
+774,2018-11-26 16:20:33.000000000,2018-11-26 17:35:28.000000000,closed,0,Keep track of pointer-to-pointer depth in parser.
+773,2018-11-26 16:18:06.000000000,2019-01-11 18:32:24.000000000,closed,3,Support VK_KHR_variable_pointers in MSL
+772,2018-11-26 14:36:03.000000000,2018-11-26 15:24:03.000000000,closed,0,Fix unsigned switch case selectors.
+771,2018-11-26 02:27:24.000000000,2018-11-26 15:24:03.000000000,closed,0,int/uint compatibility problem in GLSL output with #define'd constants
+770,2018-11-23 12:09:31.000000000,2018-11-26 17:35:28.000000000,closed,11,Need to handle pointer of pointer
+769,2018-11-22 15:58:27.000000000,2018-11-23 02:30:59.000000000,closed,2,Handle invariant decoration more robustly.
+768,2018-11-22 14:25:01.000000000,2018-11-22 15:17:14.000000000,closed,0,Remove old hack for dealing with HLSL counter buffers.
+767,2018-11-22 07:47:17.000000000,2018-11-23 15:07:08.000000000,closed,11,call validator from spirv-cross
+766,2018-11-21 04:05:31.000000000,2018-11-26 16:02:48.000000000,closed,9,integrate spirv-tools validation
+765,2018-11-21 04:02:08.000000000,2018-11-26 16:02:56.000000000,closed,1,use spirv-tools parser
+764,2018-11-21 03:00:04.000000000,2018-11-22 15:17:13.000000000,closed,0,Delete HLSL counter buffer name hacks
+763,2018-11-19 14:50:29.000000000,2018-11-19 14:54:16.000000000,closed,0,Adding C++ syntax coloring for missed snippet
+762,2018-11-19 12:52:55.000000000,2018-11-19 14:13:06.000000000,closed,1,Syntax coloring for C++ snippets in README.md
+761,2018-11-15 23:29:25.000000000,2018-11-23 02:30:58.000000000,closed,5,invariant qualifier is preserved but not honored
+760,2018-11-15 14:49:18.000000000,2018-11-15 16:01:51.000000000,closed,0,Parser: Handle group decorations.
+759,2018-11-15 06:07:00.000000000,2018-11-15 14:09:31.000000000,closed,0,Handle opcode OpSourceContinued.
+758,2018-11-15 05:50:33.000000000,2018-11-15 16:01:51.000000000,closed,1,"Need to handle OpDecorationGroup, OpGroupDecorate and OpGroupMemberDecorate"
+757,2018-11-14 04:34:27.000000000,2018-11-14 22:46:08.000000000,closed,0,MSL: Support extended arithmetic opcodes.
+756,2018-11-14 04:32:26.000000000,2018-11-15 14:09:10.000000000,closed,2,MSL: Also pack 2- and 4- element vectors when necessary.
+755,2018-11-13 18:47:52.000000000,2018-11-13 20:54:55.000000000,closed,0,GLSL: Support extended arithmetic opcodes.
+754,2018-11-13 11:33:17.000000000,2018-11-13 13:23:46.000000000,closed,0,Handle opcode OpModuleProcessed.
+753,2018-11-12 21:46:13.000000000,2018-11-16 20:58:13.000000000,closed,4,How to handle type_ prefix added by DXC when compiling HLSL
+752,2018-11-12 21:14:37.000000000,2018-11-12 23:35:45.000000000,closed,3,Release under a (L)GPLv2 compatible license?
+751,2018-11-12 20:22:43.000000000,2019-01-14 18:24:37.000000000,closed,0,test_shaders.py --parallel is brittle under failure
+750,2018-11-12 20:17:58.000000000,2018-11-12 21:14:38.000000000,closed,0,MSL: Split out early_fragment_tests.
+749,2018-11-12 14:32:57.000000000,2018-11-12 17:10:27.000000000,closed,1,Deal with depth_greater/depth_less qualifiers.
+748,2018-11-11 03:10:03.000000000,2018-11-12 13:57:40.000000000,closed,2,HLSL: Combine image and sampler on shader model <= 30
+747,2018-11-10 16:42:50.000000000,2018-11-12 17:10:27.000000000,closed,2,Support for SV_DepthGreaterEqual on the HLSL backend
+746,2018-11-09 08:31:29.000000000,2018-11-27 16:39:34.000000000,closed,2,[CPP] : Missing variable declarations
+745,2018-11-08 14:58:46.000000000,2018-11-13 20:54:54.000000000,closed,2,SPIRV to GLSL Exception: Cannot resolve expression type.
+744,2018-11-08 14:43:55.000000000,2018-11-13 18:13:19.000000000,closed,2,Bug : GLSL combined texture sampler
+743,2018-11-07 20:43:22.000000000,2018-11-07 23:38:57.000000000,closed,0,MSL: Also pack members at unaligned offsets.
+742,2018-11-07 19:29:33.000000000,2018-11-08 16:03:56.000000000,closed,4,MSL: Emit wrapper for SSign (sign() for int types)
+741,2018-11-07 19:02:52.000000000,2018-11-07 23:32:38.000000000,closed,1,MSL: Print early_fragment_tests specifier before fragment
+740,2018-11-02 15:41:16.000000000,2018-11-13 20:54:54.000000000,closed,4,Various widening arithmetic operations are not implemented
+739,2018-11-01 22:59:02.000000000,2018-11-02 14:09:58.000000000,closed,3,[Android] Build error
+738,2018-11-01 19:22:20.000000000,2018-11-06 23:58:45.000000000,closed,5,Add support for 8- and 16-bit types to GLSL and MSL.
+737,2018-11-01 17:58:33.000000000,2018-11-01 18:26:20.000000000,closed,1,Deal with OpSpecConstantOp used as array size.
+736,2018-11-01 14:26:29.000000000,2018-11-01 16:24:06.000000000,closed,0,Add spec constant macro support to HLSL/MSL as well
+735,2018-10-31 06:58:28.000000000,2018-11-01 12:35:57.000000000,closed,6,"MSL backend not emitting vertex function with return value, causing link error in graphics pipeline creation"
+734,2018-10-30 21:49:45.000000000,2018-10-31 00:18:52.000000000,closed,1,Fix Options::force_temporary to work with OpenGL GLSL
+733,2018-10-30 11:11:21.000000000,2018-11-01 13:32:20.000000000,closed,5,Alter the handling of spec consts in non-Vulkan GLSL
+732,2018-10-27 14:03:30.000000000,2018-10-27 16:00:47.000000000,closed,0,Try release build for Travis.
+731,2018-10-26 12:54:10.000000000,2018-10-27 03:45:11.000000000,closed,0,Add Windows support in Travis CI
+730,2018-10-25 12:41:13.000000000,2018-10-30 17:25:57.000000000,closed,3,"exception ""Unexpected resource type"" occurs when compiling SPIR-V to metal"
+729,2018-10-22 11:47:32.000000000,2018-10-23 11:10:56.000000000,closed,1,HLSL: Use same logic as GLSL for picking cbuffer block name.
+728,2018-10-21 23:02:14.000000000,2018-10-23 11:10:56.000000000,closed,4,UBO names not preserved when compiling GLSL -> SPIR-V -> HLSL
+727,2018-10-17 18:57:43.000000000,2018-10-30 17:28:40.000000000,closed,4,Glsl backend emits all resources and structs instead of only ones used by an entry point
+726,2018-10-16 04:17:37.000000000,2018-10-16 06:10:09.000000000,closed,1,error X3086: the 'sampler2D' keyword is deprecated in strict mode; use 'SamplerState' instead
+725,2018-10-15 17:17:48.000000000,2018-10-16 17:13:42.000000000,closed,9,Spirv-Cross slow for load time reflection
+724,2018-10-08 22:35:49.000000000,2018-11-01 18:26:20.000000000,closed,3,Buffer block members with OpSpecConstantOp size fails
+723,2018-10-08 14:01:22.000000000,1970-01-01 00:00:00.000000001,open,4,spirv-cross --reflect resource group namings are confusing and imprecise
+722,2018-10-05 13:32:40.000000000,2018-10-19 14:50:13.000000000,closed,0,Hoist out parsing module from spirv_cross::Compiler
+721,2018-10-05 11:51:45.000000000,2018-10-05 12:10:49.000000000,closed,0,Refactor MSL to use SPIRCombinedImageSampler.
+720,2018-10-04 20:38:56.000000000,2018-10-05 12:10:49.000000000,closed,0,Refactor MSL OpSampledImage to match HLSL implementation
+719,2018-10-03 22:31:55.000000000,1970-01-01 00:00:00.000000001,open,11,Support multiple SPIR-V modules compiled together into one MSL shader
+718,2018-10-03 20:50:02.000000000,2018-10-04 23:30:09.000000000,closed,0,MSL: Handle OpImage on OpSampledImage expressions.
+717,2018-10-03 20:48:26.000000000,2018-10-04 20:36:59.000000000,closed,0,MSL: Swizzle gathers on depth textures as well.
+716,2018-09-27 23:38:40.000000000,2018-09-28 17:57:57.000000000,closed,3,Glsl backend doesn't handle certain builtin types being int vs. uint
+715,2018-09-27 15:33:36.000000000,2018-09-27 16:05:56.000000000,closed,0,Use GL_EXT_samplerless_texture_functions in Vulkan GLSL.
+714,2018-09-27 13:09:34.000000000,2018-09-27 13:53:57.000000000,closed,0,Update glslang and SPIRV-Tools.
+713,2018-09-27 05:49:58.000000000,2018-09-27 21:57:56.000000000,closed,3,MSL: Expand arrays of buffers passed as input.
+712,2018-09-26 20:58:45.000000000,2018-10-19 14:50:12.000000000,closed,0,Hoist out SPIR-V parsing step to a separate module
+711,2018-09-26 18:03:37.000000000,2018-09-26 18:30:23.000000000,closed,2,Glsl backend doesn't support passing buffer blocks into functions
+710,2018-09-23 23:37:38.000000000,2018-09-24 12:22:16.000000000,closed,0,"MSL: Add spvTexelBufferCoord for buffer image reads, too."
+709,2018-09-21 14:50:19.000000000,2018-09-27 16:05:55.000000000,closed,0,Use GL_EXT_samplerless_texture_functions in Vulkan GLSL
+708,2018-09-21 00:11:38.000000000,2018-09-21 11:31:20.000000000,closed,0,Fix integer precision warnings on assignments.
+707,2018-09-20 08:34:42.000000000,2019-03-28 14:09:45.000000000,closed,4,"Support new ""raytracing shader types"" in HLSL (DXR) and GLSL output backends from SPIR-V NV_raytracing shaders.."
+706,2018-09-20 07:36:52.000000000,2018-09-25 12:06:04.000000000,closed,9,MSL: Add an option to insert texture swizzles into generated shaders.
+705,2018-09-18 18:55:53.000000000,2018-09-19 18:33:06.000000000,closed,1,MSL: Handle the ViewportIndex builtin.
+704,2018-09-18 12:58:15.000000000,2018-09-18 13:19:32.000000000,closed,0,Fix edge case where switch case blocks can break out of loops
+703,2018-09-18 11:58:07.000000000,2018-09-18 13:19:33.000000000,closed,5,Propagate loop dominator to switch-default block
+702,2018-09-18 10:21:19.000000000,2018-09-18 13:19:32.000000000,closed,1,Control flow: switch-cases go to loop merge
+701,2018-09-17 17:47:07.000000000,2018-09-17 18:23:42.000000000,closed,0,Implement atomic increment/decrement in GLSL and HLSL.
+700,2018-09-17 16:55:16.000000000,2018-09-17 17:06:08.000000000,closed,2,MSL: Using multi-dimensional arrays as function parameter not working
+699,2018-09-13 18:38:35.000000000,2018-09-18 11:23:32.000000000,closed,2,MSL: Handle the SamplePosition builtin.
+698,2018-09-13 18:02:22.000000000,2018-09-17 16:54:59.000000000,closed,0,MSL: Support global I/O block and struct Input/Output usage.
+697,2018-09-13 17:50:28.000000000,2018-09-17 18:23:42.000000000,closed,0,Implement AtomicIncrement/Decrement in GLSL/HLSL
+696,2018-09-13 15:41:33.000000000,2018-09-13 15:41:49.000000000,closed,0,MSL: textureQueryLod() is not supported.
+695,2018-09-12 16:02:25.000000000,2018-09-17 16:54:58.000000000,closed,3,MSL: Accessing shader input blocks uses the incorrect variable name
+694,2018-09-12 03:16:16.000000000,2018-09-13 15:41:49.000000000,closed,4,MSL: HLSL CalculateLevelOfDetail does not translate properly
+693,2018-09-12 02:31:24.000000000,2018-09-13 18:19:28.000000000,closed,1,MSL: Fix OpAtomicIIncrement and OpAtomicIDecrement.
+692,2018-09-11 23:08:49.000000000,2018-09-12 11:40:53.000000000,closed,3,Fix invalid code generation for HLSL SM 3 when fragment shader output is not a vec4
+691,2018-09-11 14:54:40.000000000,2018-09-12 12:53:13.000000000,closed,0,MSL: Support copying array of arrays.
+690,2018-09-11 11:42:34.000000000,2018-09-11 12:05:42.000000000,closed,0,GLSL: Bitcast loads from builtin compute variables.
+689,2018-09-10 22:55:52.000000000,2018-09-12 12:53:13.000000000,closed,4,MSL: nested list initialization
+688,2018-09-10 14:10:59.000000000,2018-09-10 14:36:58.000000000,closed,0,Support Component decoration in GLSL.
+687,2018-09-10 13:05:49.000000000,2018-09-10 13:51:41.000000000,closed,0,Add a helper function to improve reflection on runtime sized arrays.
+686,2018-09-10 12:19:55.000000000,2018-09-10 12:45:37.000000000,closed,1,Fix composite array declarations in MSL.
+685,2018-09-10 06:59:23.000000000,2018-09-10 12:45:37.000000000,closed,3,MSL: array initializer issue
+684,2018-09-09 06:22:00.000000000,2018-09-11 21:59:59.000000000,closed,4,MSL: Cast uses of builtin vectors to their declared SPIR-V type.
+683,2018-09-09 03:03:04.000000000,2018-09-10 13:51:40.000000000,closed,6,Invalid struct size for dynamic object array
+682,2018-09-07 18:02:17.000000000,2018-09-10 14:36:58.000000000,closed,0,Implement support for Component decoration
+681,2018-09-07 11:31:05.000000000,2018-09-07 12:04:41.000000000,closed,2,MSL: Do not emit function constants for version < 1.2.
+680,2018-09-06 22:53:42.000000000,2018-09-07 18:01:53.000000000,closed,2,MSL: Account for components when assigning locations to varyings.
+679,2018-09-06 09:59:04.000000000,2018-09-07 12:04:41.000000000,closed,5,MSL: `function_constant` not available in OS X 10.11
+678,2018-09-06 04:17:18.000000000,2018-09-06 09:37:27.000000000,closed,1,MSL: Interpolation qualifiers aren't emitted
+677,2018-09-05 21:07:37.000000000,2018-09-06 21:57:53.000000000,closed,3,MSL: Handle interpolation qualifiers.
+676,2018-09-05 19:03:26.000000000,2018-09-05 19:44:22.000000000,closed,1,MSL: Correct number of words to skip in OpImageWrite.
+675,2018-09-04 21:15:53.000000000,2018-09-05 11:19:29.000000000,closed,1,MSL: Emit spvTexelBufferCoord() on ImageWrite to a Buffer as well.
+674,2018-09-03 12:19:04.000000000,2018-09-03 14:28:10.000000000,closed,0,MSL: Implement multisampled array textures.
+673,2018-09-03 02:34:11.000000000,2018-09-04 17:15:18.000000000,closed,12,"MSL: Emit F{Min,Max,Clamp} as fast:: and N{Min,Max,Clamp} as precise::."
+672,2018-08-31 22:58:39.000000000,2018-09-01 22:04:38.000000000,closed,1,MSL: Support unordered relational operators.
+671,2018-08-31 22:01:33.000000000,2020-03-25 21:13:32.000000000,closed,16,Shared/threadgroup buffers break specialization constants in MSL
+670,2018-08-31 17:42:50.000000000,2018-09-03 14:28:10.000000000,closed,0,MSL MSAA array textures not converted properly
+669,2018-08-29 21:13:10.000000000,1970-01-01 00:00:00.000000001,open,0,MSL: Add support for gl_DrawID built-in (BuiltInDrawIndex).
+668,2018-08-28 22:54:18.000000000,2018-08-30 17:15:53.000000000,closed,6,Support the shader_draw_parameters extension.
+667,2018-08-28 22:48:33.000000000,2018-08-29 11:18:14.000000000,closed,1,[MSL] Give the FragDepth builtin a type of float.
+666,2018-08-27 11:57:41.000000000,2018-08-27 12:35:39.000000000,closed,0,MSL: Fix naming issue of aliased global variables.
+665,2018-08-27 09:45:28.000000000,2018-08-27 12:35:39.000000000,closed,3,Name clashes at function in MSL if spirv bytecode is compiled without optimization
+664,2018-08-24 20:49:10.000000000,2018-08-24 21:04:04.000000000,closed,3,Generate Buffer access code for texel buffer views
+663,2018-08-23 17:34:12.000000000,2018-08-23 18:22:49.000000000,closed,0,Use GL_NV_gpu_shader5 as a fallback for AMD_gpu_shader_half_float.
+662,2018-08-22 17:49:46.000000000,2018-08-23 15:34:08.000000000,closed,3,Compile error using array of textures
+661,2018-08-21 13:30:14.000000000,2018-08-21 14:36:44.000000000,closed,0,GLSL: Allow blocks to have their own namespace.
+660,2018-08-15 23:31:03.000000000,2018-08-23 18:22:48.000000000,closed,6,GLSL: Half types only check for AMD extension
+659,2018-08-08 18:45:30.000000000,2018-08-08 19:08:54.000000000,closed,0,MSL: Fix segfault when trying to store to an array inside struct.
+658,2018-08-08 18:37:29.000000000,2018-08-08 19:08:54.000000000,closed,2,Segfault when generating metal shader.
+657,2018-08-07 17:26:14.000000000,2018-08-07 19:28:30.000000000,closed,0,MSL: Fix support for texelFetchOffset.
+656,2018-08-07 14:19:43.000000000,2018-08-07 19:28:30.000000000,closed,1,texelFetchOffset is not supported in Metal
+655,2018-08-06 17:42:38.000000000,2018-08-06 18:02:35.000000000,closed,0,MSL: Properly support passing parameters by value.
+654,2018-08-06 16:05:03.000000000,2018-08-06 16:29:56.000000000,closed,0,Deal with continue blocks which only flush phi variables.
+653,2018-08-05 05:04:43.000000000,2018-08-05 12:41:30.000000000,closed,2,Incorrect UBO name when SPIRV is compiled with glslc
+652,2018-08-04 10:47:16.000000000,2018-08-04 18:31:21.000000000,closed,1,fix typo in CMakeLists.txt
+651,2018-08-03 15:18:59.000000000,2018-08-06 16:29:56.000000000,closed,2,Issue SPIRV->GLSL
+650,2018-08-03 07:57:18.000000000,2018-08-03 17:18:50.000000000,closed,3,Is SPIRV-Cross supports converting Metal Shader to SPIRV?
+649,2018-07-28 03:31:39.000000000,2018-07-30 21:14:18.000000000,closed,2,Reflection: storage buffer size is always 0
+648,2018-07-28 00:59:15.000000000,2018-07-29 23:22:14.000000000,closed,2,CompilerMSL disable rasterization on buffer writes in vertex shader.
+647,2018-07-27 21:30:29.000000000,2018-07-31 19:35:47.000000000,closed,2,Optimized spirv can produce an invalid global sampler
+646,2018-07-27 00:42:03.000000000,2018-07-27 13:34:56.000000000,closed,0,Add CompilerMSL::get_is_rasterization_disabled() to manage rasterization status.
+645,2018-07-26 18:04:38.000000000,2018-08-21 14:36:44.000000000,closed,3,Glsl backend doesn't allow duplicate block names in different shader interfaces
+644,2018-07-26 08:55:52.000000000,2018-07-26 18:36:54.000000000,closed,3,CompilerMSL vertex entry point return void when rasterization disabled.
+643,2018-07-26 03:24:43.000000000,2018-08-06 18:02:35.000000000,closed,4,OpFunctionCall can emit bad MSL (address space mismatch)
+642,2018-07-21 14:02:22.000000000,2018-08-07 12:52:19.000000000,closed,3,Tagging a version
+641,2018-07-16 22:06:26.000000000,2018-07-17 02:15:29.000000000,closed,4,buffer_is_packing_standard() initializer defaults conflict with windows headers.
+640,2018-07-14 10:22:38.000000000,2018-07-14 12:51:57.000000000,closed,1,No SPIR-V support for Mali G71 public drivers
+639,2018-07-09 16:00:38.000000000,2018-07-09 16:30:17.000000000,closed,0,Properly track read dependencies for UAV access chain.
+638,2018-07-09 15:36:04.000000000,2018-07-09 16:30:17.000000000,closed,4,Load is moved past store with optimised SPIR-V input
+637,2018-07-06 12:55:45.000000000,2018-07-06 13:19:39.000000000,closed,0,Fix a lot of redundant code when loading flattened composites.
+636,2018-07-04 19:48:02.000000000,2018-07-05 18:23:40.000000000,closed,0,Refactor CFG analysis to handle static const LUTs
+635,2018-07-04 16:23:22.000000000,2018-07-04 16:45:01.000000000,closed,0,Support OpTypeImage with depth == 2 (unknown) properly.
+634,2018-07-04 06:18:10.000000000,2018-07-06 11:43:36.000000000,closed,4,frame buffer fetch extension support
+633,2018-07-04 00:06:44.000000000,2018-07-05 18:23:40.000000000,closed,5,MSL: Lookup table codegen causes spilling on NVidia drivers
+632,2018-07-03 17:19:24.000000000,2018-07-03 17:23:21.000000000,closed,1,Sample code in Struct member reflection in the wiki does not compile
+631,2018-07-03 15:28:29.000000000,2018-07-04 16:45:01.000000000,closed,0,Handle OpTypeSampledImage with undecided depth
+630,2018-07-02 15:22:55.000000000,2018-07-02 16:03:30.000000000,closed,0,Fail more gracefully with some unsupported opcodes.
+629,2018-06-30 15:39:50.000000000,2018-07-02 15:13:35.000000000,closed,4,Changed OpTypeImage to only flag depth if the op is 1
+628,2018-06-29 23:10:11.000000000,2018-07-02 16:03:30.000000000,closed,0,Exception when storing the result of an unsupported instruction
+627,2018-06-29 01:02:27.000000000,2018-06-29 01:55:58.000000000,closed,1,Add basic namespace to internal macros
+626,2018-06-27 01:32:03.000000000,2018-06-27 20:03:46.000000000,closed,1,CompilerMSL support larger texel buffers by using 2D Metal textures.
+625,2018-06-26 15:30:38.000000000,2018-06-29 01:56:16.000000000,closed,2,Uniquely name macros across both files (spirv_glsl.cpp/spirv_hlsl.cpp)
+624,2018-06-25 12:31:03.000000000,2018-06-25 12:53:53.000000000,closed,0,Support branch/loop hints in HLSL.
+623,2018-06-25 12:01:22.000000000,2018-06-25 12:31:29.000000000,closed,0,Support globallycoherent in HLSL.
+622,2018-06-25 11:46:17.000000000,2018-06-25 12:31:16.000000000,closed,0,Support ternary expressions in OpSpecConstantOp.
+621,2018-06-24 23:08:51.000000000,2018-06-25 22:29:19.000000000,closed,3,CompilerMSL pass builtin struct members into functions.
+620,2018-06-23 12:46:40.000000000,2018-06-25 12:31:16.000000000,closed,5,"Unable to compile shader with ""non-trivial"" OpSelect"
+619,2018-06-22 16:11:21.000000000,2018-06-25 12:53:53.000000000,closed,0,Implement branch/loop hints like [unroll]
+618,2018-06-22 16:10:58.000000000,2018-06-25 12:31:28.000000000,closed,0,Implement globallycoherent in HLSL
+617,2018-06-22 13:37:59.000000000,2018-06-22 14:21:14.000000000,closed,0,Deal with some builtins being declared with wrong signedness.
+616,2018-06-22 12:04:13.000000000,2018-06-22 12:28:49.000000000,closed,0,Add support to remove SPIRV_Cross_BaseInstance uniform.
+615,2018-06-22 11:33:00.000000000,2018-06-25 13:52:46.000000000,closed,6,Added support for shadowXY() sample instructions in legacy GLSL
+614,2018-06-21 04:09:38.000000000,2018-06-22 12:28:49.000000000,closed,2,Option to remove SPIRV_Cross_BaseInstance
+613,2018-06-20 12:48:14.000000000,2018-06-20 13:24:23.000000000,closed,0,Deal with switch case labels which share a block.
+612,2018-06-19 16:21:48.000000000,2018-06-22 14:21:14.000000000,closed,1,glsl generated using spirv-cross can't compile
+611,2018-06-19 10:34:47.000000000,2019-03-06 14:09:54.000000000,closed,15,C Interface
+610,2018-06-18 19:26:01.000000000,2018-06-25 22:30:24.000000000,closed,5,[metal] Use of undeclared identifier in functions
+609,2018-06-18 18:48:48.000000000,2018-06-20 13:24:23.000000000,closed,5,[metal] Use of undeclared identifier in switch-case
+608,2018-06-15 08:54:19.000000000,2018-06-22 11:48:23.000000000,closed,9,Output JSON formatted reflection information for a SPIRV shader
+607,2018-06-12 19:56:23.000000000,2018-06-13 22:37:21.000000000,closed,2, CompilerMSL support matrices & arrays in stage-in & stage-out.
+606,2018-06-12 01:53:38.000000000,2018-06-12 03:07:26.000000000,closed,2,Accurate retrieval of access modifiers for uniforms?
+605,2018-06-11 18:20:13.000000000,2018-06-12 12:13:12.000000000,closed,0,Also unpack regular unary/binary operations on MSL.
+604,2018-06-11 12:48:24.000000000,2018-06-11 14:10:00.000000000,closed,0,Unpack expressions when used in functions on MSL.
+603,2018-06-08 22:38:34.000000000,2018-06-12 12:13:12.000000000,closed,8,MSL: mixing of packed and unpacked arguments to built-ins fails on macOS 10.14 beta
+602,2018-06-08 07:36:35.000000000,2018-06-12 19:58:17.000000000,closed,5,Discuss approach to supporting in/out matrices in MSL
+601,2018-06-07 13:17:22.000000000,2018-06-07 23:40:04.000000000,closed,3,[MSL] Option to generate real constants for SPIR-V specialization constants
+600,2018-06-07 01:30:05.000000000,1970-01-01 00:00:00.000000001,open,15,Support for generating (RW)StructuredBuffers
+599,2018-06-05 11:40:45.000000000,2018-06-05 12:03:36.000000000,closed,0,Emit matrix layouts in structs directly.
+598,2018-06-04 12:12:07.000000000,2018-06-04 12:33:50.000000000,closed,0,"Sanitize underscores in general, not just for members."
+597,2018-06-03 14:03:12.000000000,2018-06-03 14:22:26.000000000,closed,0,Various maintenance fixes.
+596,2018-06-03 11:58:42.000000000,2018-06-03 14:22:26.000000000,closed,1,GLSL compiler emits layout(set = #)
+595,2018-06-03 11:43:34.000000000,2018-06-03 14:22:26.000000000,closed,1,Confusion about querying read-write / read-only buffer blocks
+594,2018-06-02 02:36:53.000000000,2018-06-04 12:33:50.000000000,closed,2,Codegen produces illegal double underscores in shader names
+593,2018-05-30 22:14:35.000000000,2018-05-30 22:58:49.000000000,closed,0,Fix compile on older clang.
+592,2018-05-29 10:27:11.000000000,2018-06-03 14:22:26.000000000,closed,0,Compiler warning for tautological comparison
+591,2018-05-25 14:41:17.000000000,2018-05-25 16:27:30.000000000,closed,1,Fix image load/store on cube arrays in MSL.
+590,2018-05-25 12:56:58.000000000,2018-05-25 13:24:33.000000000,closed,0,Deal with packed expressions in more scenarios.
+589,2018-05-25 12:11:43.000000000,2018-05-25 12:45:53.000000000,closed,0,Use const device address space for readonly SSBOs in MSL.
+588,2018-05-24 12:32:36.000000000,2018-05-24 12:53:20.000000000,closed,0,Commit tests for PR #583
+587,2018-05-24 01:30:53.000000000,2018-05-24 12:14:18.000000000,closed,1,Fix textureGrad compilation for legacy targets
+586,2018-05-23 23:41:23.000000000,2018-05-24 01:01:49.000000000,closed,0,Add support for inheriting bindings for combined image samplers.
+585,2018-05-23 20:07:42.000000000,2018-05-24 13:36:08.000000000,closed,5,GLSL texelFetch() always returns vec4 value even though buffer's elements are not vec4
+584,2018-05-23 19:16:46.000000000,2018-05-24 01:01:49.000000000,closed,16,Generated GLSL samplers lose their binding points
+583,2018-05-22 08:47:30.000000000,2018-05-24 12:53:53.000000000,closed,2,no expression type for OpSRem
+582,2018-05-22 08:39:18.000000000,2018-05-24 12:54:13.000000000,closed,1,no expression type for  OpSRem
+581,2018-05-22 07:27:48.000000000,2018-05-25 13:24:33.000000000,closed,4,OpVectorShuffle emits bad MSL with packed vec3
+580,2018-05-20 13:04:15.000000000,2018-05-25 12:45:53.000000000,closed,11,Compilation error when trying to use a SSBO in a fragment shader
+579,2018-05-16 15:32:53.000000000,2018-05-20 03:39:23.000000000,closed,4,Question: What optimizer should be use with SPIRV-Cross
+578,2018-05-15 23:15:27.000000000,2018-05-25 16:27:30.000000000,closed,2,imageCubeArray appears to cause issue in generated Metal shader
+577,2018-05-15 18:02:10.000000000,2018-05-16 13:09:13.000000000,closed,0,Fix atomic_compare_exchange_weak_explicit.
+576,2018-05-15 16:22:28.000000000,2018-05-15 16:46:35.000000000,closed,0,Fix OpSpecConstantComposite if it contains a SpecConstantOp.
+575,2018-05-15 11:58:45.000000000,2018-05-16 13:09:13.000000000,closed,1,atomicCompSwap(GLSL) conversion issue
+574,2018-05-15 11:38:27.000000000,2018-05-15 16:46:35.000000000,closed,1,How to handle OpSpecConstantComposite having an sub id from OpSpecConstantOp?
+573,2018-05-14 14:15:45.000000000,2018-05-14 14:22:34.000000000,closed,1,[Question] Tessalation control and evaluation shaders
+572,2018-05-11 12:58:27.000000000,2018-05-11 13:21:52.000000000,closed,0,Use mediump on images in --vulkan-semantics as well.
+571,2018-05-11 12:12:47.000000000,2018-05-11 12:39:55.000000000,closed,0,Handle inout properly with split access chains.
+570,2018-05-11 01:45:04.000000000,2018-05-11 12:39:55.000000000,closed,0,inout parameters not properly detected on split access chains
+569,2018-05-08 17:33:08.000000000,2018-05-08 17:54:17.000000000,closed,0,Fix split access chains for builtin arrays.
+568,2018-05-08 01:42:38.000000000,2018-05-08 02:07:54.000000000,closed,0,Fix GCC 8.1 build.
+567,2018-05-08 01:26:48.000000000,2018-05-08 02:07:54.000000000,closed,0,memset warning in GCC 8.1
+566,2018-05-07 21:09:38.000000000,2018-05-08 17:54:17.000000000,closed,3,Split OpAccessChain incorrectly declares built-in variables in Geometry shader stages
+565,2018-05-05 01:55:30.000000000,2018-05-07 23:07:01.000000000,closed,2,Don't limit GLSL identifiers with HLSL keywords.
+564,2018-05-04 12:34:00.000000000,2018-05-04 12:56:40.000000000,closed,0,Do not use RMW rewrite for matrices.
+563,2018-05-03 11:20:43.000000000,2018-05-04 12:56:40.000000000,closed,1,float3x3 *= float3x3: no viable overloaded '*='
+562,2018-05-02 23:38:42.000000000,2018-05-04 12:08:14.000000000,closed,0,Do not clear spv_function_implementations on MSL.
+561,2018-05-02 23:18:05.000000000,2018-05-04 12:08:14.000000000,closed,2,Custom functions not emitted
+560,2018-05-02 12:35:54.000000000,2018-05-02 13:03:13.000000000,closed,0,Deal with fake overloads when using combined image samplers.
+559,2018-05-02 11:36:14.000000000,2018-05-02 12:18:06.000000000,closed,0,Fix OpCompositeConstruct with arrays in MSL.
+558,2018-05-01 03:04:29.000000000,2018-05-02 12:18:06.000000000,closed,1,Inline array definitions produce invalid MSL syntax
+557,2018-05-01 02:41:18.000000000,2018-05-02 13:03:13.000000000,closed,0,Invalid code generation with sampler based overloaded functions
+556,2018-05-01 00:32:28.000000000,2018-05-01 03:20:29.000000000,closed,0, Compiler MSL default gather offset when component specified.
+555,2018-04-30 14:43:51.000000000,2018-04-30 15:08:02.000000000,closed,0,Fix GatherDref on GLSL.
+554,2018-04-30 14:10:03.000000000,2018-04-30 14:34:51.000000000,closed,0,Fix OpImageFetch without explicit LOD and query functions without combined sampler.
+553,2018-04-30 11:24:14.000000000,2018-04-30 15:08:02.000000000,closed,0,textureGather with dref fails on GLSL
+552,2018-04-29 02:38:14.000000000,2018-05-01 03:20:39.000000000,closed,5,Generated Metal fragment shader with gather() fails to compile
+551,2018-04-28 22:03:24.000000000,2018-04-30 22:29:46.000000000,closed,5,More examples of exotic/unique/in-depth reflection use-cases
+550,2018-04-27 19:15:29.000000000,2018-04-30 14:34:51.000000000,closed,1,OpImageQuerySizeLod generates invalid code when no sampler/sampledImage is involved
+549,2018-04-27 19:01:27.000000000,2018-05-02 11:21:23.000000000,closed,9,OpImageQuerySize doesn't translate
+548,2018-04-27 18:38:23.000000000,2018-04-30 14:34:51.000000000,closed,0,OpImageFetch doesn't translate when no lod is provided
+547,2018-04-27 13:08:31.000000000,2018-04-27 13:29:32.000000000,closed,0,Fix usage tracking issue for OpImage.
+546,2018-04-27 12:31:10.000000000,2018-04-27 12:47:32.000000000,closed,0,Fix multiple uses of combined image samplers on Vulkan GLSL
+545,2018-04-26 19:45:28.000000000,2018-04-27 12:47:32.000000000,closed,5,Using the result of OpSampledImage in multiple expressions can result in invalid code gen
+544,2018-04-23 14:43:42.000000000,2018-06-22 11:50:22.000000000,closed,14,Uber-reflection format
+543,2018-04-23 14:34:47.000000000,2018-04-23 14:59:52.000000000,closed,0,Support combined image-sampler workaround for arrays as well.
+542,2018-04-22 19:04:40.000000000,2018-04-23 14:59:52.000000000,closed,4,SPIRV-Cross threw an exception: Attempting to use arrays or structs of separate images. This is not possible to statically remap to plain GLSL.
+541,2018-04-18 19:16:40.000000000,2018-04-18 19:23:09.000000000,closed,0,Dummy.
+540,2018-04-18 18:56:58.000000000,2018-04-18 18:58:27.000000000,closed,0,Add AppVeyor.
+539,2018-04-17 19:46:19.000000000,2018-04-18 18:53:26.000000000,closed,2,Add support for constexpr samplers in MSL.
+538,2018-04-17 16:17:24.000000000,2018-04-17 16:40:50.000000000,closed,0,Distinguish between enhanced_layouts and SSO requirements.
+537,2018-04-17 15:59:31.000000000,2018-04-17 17:30:04.000000000,closed,0,Unsigned integers are disallowed on legacy targets.
+536,2018-04-17 04:14:40.000000000,2018-04-17 16:41:34.000000000,closed,1,Strip location qualifier on in/out blocks below GLSL 4.40
+535,2018-04-17 03:57:57.000000000,2018-04-17 17:30:04.000000000,closed,1,Mapping types for older GLSL versions
+534,2018-04-16 07:13:43.000000000,2018-04-16 07:17:04.000000000,closed,1,Add version check for explicit uniform locations
+533,2018-04-13 06:46:49.000000000,2018-04-18 18:53:26.000000000,closed,8,iOS metal seems to require compile-time constant sampler for sample_compare
+532,2018-04-12 07:11:08.000000000,2018-04-12 10:11:52.000000000,closed,2,Question about Argument Buffer of Metal2
+531,2018-04-10 19:15:04.000000000,2018-04-11 19:10:17.000000000,closed,1,Vulkan 1.1 subgroup support in GLSL/HLSL
+530,2018-04-10 14:29:47.000000000,2018-04-10 14:47:44.000000000,closed,0,Fix depth-compare sampling in MSL when used as global alias argument.
+529,2018-04-10 10:41:12.000000000,2018-04-10 14:47:44.000000000,closed,3,Using depth texture for Metal
+528,2018-04-08 17:12:01.000000000,2018-04-09 10:23:47.000000000,closed,0,Fix naming of root constants
+527,2018-04-08 16:39:43.000000000,2018-11-07 00:00:22.000000000,closed,5,Question about half / mediump
+526,2018-04-07 23:19:34.000000000,2018-04-09 10:22:55.000000000,closed,1,Strip uniform locations for ESSL < 3.00 and GLSL < 4.30
+525,2018-04-07 22:43:53.000000000,2018-04-09 10:22:55.000000000,closed,0,Strip explicit uniform locations when targeting GLES 3.00
+524,2018-04-05 18:25:39.000000000,2018-04-05 19:00:50.000000000,closed,0,"Support empty structs better, fix register_extension regression"
+523,2018-04-04 10:12:09.000000000,2018-04-05 19:00:50.000000000,closed,1,--extension has no effect on glsl output
+522,2018-04-03 18:44:18.000000000,2018-04-03 22:56:31.000000000,closed,0,Emit classic uniform for UBO in GLSL 1.30.
+521,2018-04-03 17:54:12.000000000,2018-04-03 18:54:33.000000000,closed,0,Support dual-source blending on GLSL and MSL.
+520,2018-04-03 17:35:47.000000000,2018-04-03 18:04:46.000000000,closed,2,Add more illegal name replacement in MSL.
+519,2018-04-03 16:25:49.000000000,2018-04-04 14:47:41.000000000,closed,0,Fix arrays of images and samplers in MSL
+518,2018-03-27 22:36:28.000000000,2018-04-03 18:09:17.000000000,closed,4,Wrong resource name in push constant buffers.
+517,2018-03-27 18:52:23.000000000,2018-04-03 18:04:46.000000000,closed,1,Additional MSL keyword screening
+516,2018-03-26 23:40:30.000000000,2018-04-03 18:54:33.000000000,closed,1,Color index location lost during conversion
+515,2018-03-26 22:56:23.000000000,2018-04-03 22:56:31.000000000,closed,1,Should throw if compiling uniform blocks to GLSL <= 1.30
+514,2018-03-24 04:55:03.000000000,2018-03-24 07:52:19.000000000,closed,0,Fix name aliasing for temporary variables.
+513,2018-03-24 01:09:47.000000000,2018-03-27 18:48:42.000000000,closed,3,vertexFunction must not be nil
+512,2018-03-23 23:03:13.000000000,2018-04-05 19:00:50.000000000,closed,1,Empty structs don't compile in glsl
+511,2018-03-23 20:28:46.000000000,2018-04-03 19:03:17.000000000,closed,2,SPIRV_Cross_BaseInstance issue
+510,2018-03-23 20:12:06.000000000,2018-03-24 07:52:19.000000000,closed,0,Invalid glsl produced with objects sharing a name.
+509,2018-03-20 23:06:47.000000000,2018-04-04 15:23:40.000000000,closed,1,Add support for new HLSL semantic/counter buffer decorations.
+508,2018-03-20 12:39:11.000000000,2018-04-04 15:23:40.000000000,closed,3,Feature Request: Support for SPV_GOOGLE_hlsl_functionality1
+507,2018-03-16 06:39:35.000000000,2018-04-04 14:47:41.000000000,closed,5,Invalid Metal conversion for array of textures
+506,2018-03-15 12:57:54.000000000,2018-04-04 14:47:41.000000000,closed,1,[MSL] Sampling a 1D texture in compute shader results in an invalid code
+505,2018-03-13 16:14:59.000000000,2018-03-13 17:34:27.000000000,closed,0,Flatten MSL MRT outputs when used as an array.
+504,2018-03-12 21:03:11.000000000,2018-03-12 21:18:53.000000000,closed,2,Missing support for OpTypeBool in structs
+503,2018-03-12 19:52:49.000000000,2018-03-13 15:51:15.000000000,closed,0,Missing/Unsupported GLsl.std.450 instructions in MSL compiler
+502,2018-03-12 18:15:17.000000000,2018-03-13 15:51:15.000000000,closed,0,Update glslang and SPIRV-Tools and maintenance fixes
+501,2018-03-12 12:21:35.000000000,2018-03-13 15:51:15.000000000,closed,1,Control-flow dependent operations with derivatives might be emitted in a wrong block
+500,2018-03-11 21:13:53.000000000,2018-03-13 15:51:15.000000000,closed,0,Support SPIR-V 1.3 files..
+499,2018-03-11 20:12:55.000000000,2018-04-11 19:10:16.000000000,closed,4,Support HLSL output of new Vulkan 1.1 Subgroup/Wave Ops..
+498,2018-03-11 19:05:39.000000000,2018-03-12 00:11:33.000000000,closed,1,Added generation of the textureXYZGrad() legacy GLSL instruction
+497,2018-03-09 19:25:55.000000000,2018-03-09 19:37:20.000000000,closed,0,Deprecate old set_options()/get_options() interface in favor of explicit names.
+496,2018-03-09 18:49:17.000000000,2018-03-09 19:00:23.000000000,closed,0,Handle Phi expressions being invalidated at end of a block.
+495,2018-03-08 20:52:05.000000000,2018-03-09 13:04:17.000000000,closed,2,Fix cases where loops and branches merge into continue blocks.
+494,2018-03-08 19:35:56.000000000,2018-03-09 19:00:23.000000000,closed,5,Bad GLSL code generated from optimized SPIR-V
+493,2018-03-07 23:54:51.000000000,2018-03-09 13:04:17.000000000,closed,1,Complex loop fallback (when enabled) turns a loop into an infinite loop
+492,2018-03-07 18:52:47.000000000,2018-03-07 19:04:58.000000000,closed,0,Disallow arrays and structs from becoming loop variables.
+491,2018-03-07 14:40:37.000000000,2018-11-06 23:59:42.000000000,closed,5,Support 16-bit integer types.
+490,2018-03-07 02:23:44.000000000,2018-03-08 10:49:40.000000000,closed,8,Add disable_for_loops to CompilerGLSL options
+489,2018-03-07 02:13:58.000000000,2018-03-09 19:37:20.000000000,closed,1,CompilerMSL::Options shadows CompilerGLSL::Options
+488,2018-03-07 01:25:49.000000000,2018-03-07 19:04:58.000000000,closed,3,MSL: generating invalid code after updating to latest glslang/spirv-opt
+487,2018-03-06 21:35:59.000000000,2018-03-06 22:21:40.000000000,closed,3,Add builtin GLSL functions to blacklist.
+486,2018-03-06 21:06:34.000000000,2018-03-06 22:21:40.000000000,closed,4,SPIRV-Cross should handle naming conflicts on Metal output backend..
+485,2018-03-06 20:31:19.000000000,2018-03-07 15:59:13.000000000,closed,0,Add true FP16 support.
+484,2018-03-06 13:40:05.000000000,2018-03-07 15:59:13.000000000,closed,11,Support true half precision (16 bit floats) for HLSL and GLSL backends..
+483,2018-03-05 20:44:50.000000000,2018-03-06 20:41:05.000000000,closed,4,Overhaul type_alias for MSL.
+482,2018-03-04 08:35:38.000000000,2018-03-04 08:55:04.000000000,closed,1,HLSL: uniform from multiple descriptor set is not handled correctly
+481,2018-03-02 13:27:13.000000000,2018-03-02 13:45:01.000000000,closed,0,OSX travis fix test
+480,2018-03-01 17:59:53.000000000,2018-03-01 18:42:17.000000000,closed,1,Take execution model into account for entry point methods.
+479,2018-03-01 16:31:49.000000000,2018-03-01 16:53:27.000000000,closed,0,Support Invariant for BuiltInPosition.
+478,2018-03-01 01:34:34.000000000,2018-03-13 17:34:27.000000000,closed,2,MSL: The fragment function output structure may not include a matrix or array.
+477,2018-03-01 00:58:06.000000000,2018-03-01 16:53:27.000000000,closed,2,invariant qualifier not preserved on gl_Position
+476,2018-02-28 00:52:54.000000000,2018-03-01 18:42:17.000000000,closed,1,Ambiguous entry point names in `get_entry_point`
+475,2018-02-26 13:14:25.000000000,2018-02-26 13:36:43.000000000,closed,0,Fix implicit conversion bug.
+474,2018-02-25 14:59:19.000000000,2018-02-25 15:16:42.000000000,closed,0,Fix function overload when SPIR-V overloads on pointer type.
+473,2018-02-25 03:16:31.000000000,2018-03-02 13:44:53.000000000,closed,5,Move `rename_interface_variable` to util
+472,2018-02-23 20:51:02.000000000,2018-02-23 21:04:10.000000000,closed,0,Implement MatrixInverse on HLSL.
+471,2018-02-23 19:56:26.000000000,2018-02-23 20:07:28.000000000,closed,0,Add workaround for PointCoord builtin on HLSL.
+470,2018-02-23 19:09:39.000000000,2018-02-23 19:35:35.000000000,closed,0,Support spec constant array size in blocks.
+469,2018-02-23 18:15:51.000000000,2018-02-23 18:34:02.000000000,closed,0,Handle overloaded functions which share the same OpName.
+468,2018-02-23 17:08:07.000000000,2018-02-23 17:59:44.000000000,closed,0,Support special float constants (NaN/Inf).
+467,2018-02-23 10:12:43.000000000,2018-03-02 13:44:53.000000000,closed,0,Move `rename_interface_variable` into `Compiler`?
+466,2018-02-22 21:44:20.000000000,2018-03-06 20:41:05.000000000,closed,16,MSL : nested cbuffer structs have incorrectly aligned members
+465,2018-02-22 20:39:16.000000000,2018-02-22 22:02:04.000000000,closed,0,Overhaul Clip/CullDistance in GLSL and HLSL.
+464,2018-02-22 03:53:32.000000000,2018-02-22 13:35:53.000000000,closed,0,CompilerMSL remove incorrect packing of non-interface type-aliased structs.
+463,2018-02-22 02:31:29.000000000,2018-03-12 19:17:49.000000000,closed,6,HLSL: Implicit derivatives in non-uniform control flow
+462,2018-02-22 02:27:46.000000000,2018-02-23 20:07:28.000000000,closed,3,HLSL: Point coords with compat mode
+461,2018-02-22 00:04:46.000000000,2018-02-23 17:59:44.000000000,closed,2,special float constants produce invalid GLSL
+460,2018-02-21 17:09:53.000000000,2018-02-21 18:01:10.000000000,closed,0,Implement texelFetch(texture2D) workaround on GLSL.
+459,2018-02-20 19:05:27.000000000,2018-02-23 19:35:35.000000000,closed,0,HLSL: spec constants in arrays
+458,2018-02-19 22:00:45.000000000,2018-02-22 02:25:46.000000000,closed,4,HLSL: Flatten arrays inside push constant blocks
+457,2018-02-18 11:31:09.000000000,2018-02-22 13:36:06.000000000,closed,4,MSL : hlsl that has nested structs with arrays fails to convert to msl
+456,2018-02-17 04:20:19.000000000,2018-02-17 23:37:31.000000000,closed,4,Reflection is wrong in the presence of a multiple structured buffer/appendbuffer
+455,2018-02-15 17:35:12.000000000,2018-02-15 18:48:25.000000000,closed,0,Implement OpFRem.
+454,2018-02-15 17:00:14.000000000,2018-02-23 18:34:02.000000000,closed,3,Function signature name collision
+453,2018-02-15 16:41:25.000000000,2018-02-15 17:14:29.000000000,closed,0,Add IsFrontFace support to HLSL.
+452,2018-02-15 16:34:22.000000000,2018-02-15 18:48:25.000000000,closed,0,OpFRem not supported: unimplemented op 140
+451,2018-02-15 15:02:26.000000000,2018-02-15 15:16:54.000000000,closed,0,Fix case where hoisted temporaries were used before being declared.
+450,2018-02-14 23:26:16.000000000,2018-02-15 02:05:51.000000000,closed,2,Null crash fix in OpCopyMemory.
+449,2018-02-14 00:51:58.000000000,2018-02-14 13:19:21.000000000,closed,1,CompilerMSL support gl_SampleMask and convert it to scalar uint from array.
+448,2018-02-12 03:06:31.000000000,2018-02-13 13:14:45.000000000,closed,0,MSL support for smaller offsets for 3-row row-major matrices (fix issue #436).
+447,2018-02-11 06:06:34.000000000,2018-03-06 22:02:14.000000000,closed,2,MSL does not honour different alignment packing in shader struct-packing.comp. How to handle?
+446,2018-02-11 00:13:07.000000000,2018-02-23 21:04:09.000000000,closed,0,HLSL: `inverse` function not emulated
+445,2018-02-10 04:00:03.000000000,2018-02-22 22:02:04.000000000,closed,3,HLSL: ClipDistance builtin not supported
+444,2018-02-10 03:44:52.000000000,2018-02-15 17:14:29.000000000,closed,0,HLSL: FrontFacing builtin not supported
+443,2018-02-09 22:18:42.000000000,2018-02-21 18:02:37.000000000,closed,11,MSL that writes to SampleMask fails to compile
+442,2018-02-09 16:12:38.000000000,2018-02-10 15:26:14.000000000,closed,3,Implement subpassLoad in HLSL and MSL.
+441,2018-02-08 23:10:34.000000000,2019-09-06 16:22:55.000000000,closed,0,Typify uint32_t in cpp public API
+440,2018-02-08 20:53:55.000000000,2018-02-08 21:20:11.000000000,closed,2,Incorrect HLSL generated for structure construction
+439,2018-02-08 00:15:53.000000000,2018-02-10 15:26:14.000000000,closed,9,MSL (and GLSL Vulkan) from fragment shader fails to compile with several errors
+438,2018-02-07 10:45:07.000000000,2018-02-07 17:01:25.000000000,closed,0,Fix MSVC 2017 warning
+437,2018-02-06 23:33:11.000000000,2018-02-15 15:16:54.000000000,closed,6,"""Cannot resolve expression type"" while translating optimized SPIRV"
+436,2018-02-06 19:47:24.000000000,2018-02-13 13:14:58.000000000,closed,7,RowMajor float4x3 matrix in uniform buffer generates incorrect MSL
+435,2018-02-06 10:42:47.000000000,2018-02-10 15:26:14.000000000,closed,1,Subpasses in MSL and HLSL
+434,2018-02-05 14:26:52.000000000,2018-02-05 14:36:29.000000000,closed,0,Support gl_NumWorkgroups in HLSL.
+433,2018-02-05 13:33:15.000000000,2018-02-10 14:52:14.000000000,closed,3,"Support returning arrays from functions in GLSL/MSL, refactor array copies in MSL."
+432,2018-02-04 03:33:45.000000000,2018-02-05 13:18:54.000000000,closed,1,Fixes MSVC 2013 compilation
+431,2018-02-04 03:24:46.000000000,2018-02-05 13:13:15.000000000,closed,1,Uniquely name these static functions (spirv_hlsl/spirv_glsl)
+430,2018-02-03 21:15:30.000000000,2018-02-05 13:19:10.000000000,closed,2,Cannot be compiled with MSVC 2013
+429,2018-02-03 20:08:32.000000000,2018-02-05 14:36:29.000000000,closed,1,gl_NumWorkGroups in HLSL
+428,2018-02-03 01:38:37.000000000,2018-02-10 14:52:14.000000000,closed,1,Incorrect HLSL generated for array return type
+427,2018-02-02 16:57:17.000000000,2018-02-02 17:07:03.000000000,closed,6,add `matrix` to the list of illegal names.
+426,2018-02-02 14:11:12.000000000,2018-02-02 14:35:42.000000000,closed,0,Do not declare constant composites inline in HLSL.
+425,2018-02-02 03:49:38.000000000,2018-02-02 14:35:41.000000000,closed,0,Invalid HLSL generated when using static arrays.
+424,2018-02-01 16:22:52.000000000,2018-02-21 18:01:10.000000000,closed,4,Invalid glsl generated from hlsl Texture2D Load()
+423,2018-02-01 13:59:58.000000000,2019-06-06 16:41:51.000000000,closed,0,Refactor old loop_dominator tracking.
+422,2018-02-01 13:59:17.000000000,2018-02-01 14:14:13.000000000,closed,0,Fix case where loop header branches into continue block.
+421,2018-02-01 13:20:52.000000000,2018-02-01 13:33:53.000000000,closed,0,Fix OpImage on OpSampledImages in HLSL.
+420,2018-02-01 03:09:38.000000000,2018-02-01 13:02:12.000000000,closed,1,Update copyright dates to 2018 in main files.
+419,2018-01-31 23:20:10.000000000,2018-02-01 14:14:13.000000000,closed,3,std::out_of_range exception when trying to translate an optimized shader to MSL
+418,2018-01-31 21:59:39.000000000,2018-02-01 13:33:53.000000000,closed,3,textureSize fails with create sampled images
+417,2018-01-29 22:06:07.000000000,2018-02-07 20:18:03.000000000,closed,4,hlsl: Support custom root constant layout
+416,2018-01-29 14:55:27.000000000,2018-01-31 14:13:42.000000000,closed,0,Fix passing arrays of arrays to functions in MSL.
+415,2018-01-29 14:21:40.000000000,2018-01-29 14:32:36.000000000,closed,0,Need to sort declared temporaries to ensure stable output.
+414,2018-01-26 22:06:22.000000000,2018-01-31 14:13:42.000000000,closed,1,Broken multi-dimensional shared arrays on Metal
+413,2018-01-26 07:26:04.000000000,2018-02-01 13:01:35.000000000,closed,7,MSL: Order resources by type and binding index in the output
+412,2018-01-25 22:45:50.000000000,2018-01-31 14:14:43.000000000,closed,3,Missing parenthesis compile error
+411,2018-01-25 01:49:39.000000000,2018-01-25 13:13:44.000000000,closed,1,Fix for #382
+410,2018-01-24 23:49:59.000000000,2018-01-25 01:05:10.000000000,closed,1,Still getting undeclared variable issues
+409,2018-01-24 23:41:11.000000000,2018-01-25 01:05:10.000000000,closed,5,Declaring a constant buffer struct with the name of the constant buffer instead of the struct
+408,2018-01-24 01:19:54.000000000,2018-01-24 19:28:34.000000000,closed,6,Check if a loop variable candidate is actually used.
+407,2018-01-23 23:17:24.000000000,2018-01-24 19:28:34.000000000,closed,1,Recent changes have introduced OpPhi initialization issue
+406,2018-01-23 20:35:46.000000000,2018-01-23 20:54:14.000000000,closed,1,Fix HLSL regression with struct declaration.
+405,2018-01-23 20:05:36.000000000,2018-01-23 20:54:14.000000000,closed,3,[HLSL] problem with struct initialization
+404,2018-01-22 13:51:07.000000000,2018-01-23 20:53:41.000000000,closed,1,Do not merge swizzles for anything other than vectors.
+403,2018-01-19 20:41:31.000000000,2018-01-23 20:53:41.000000000,closed,4,Implicit cast and too little data in type constructor
+402,2018-01-18 16:10:51.000000000,2018-01-21 18:04:57.000000000,closed,0,Fix CFG for forwarded temporaries.
+401,2018-01-16 19:51:44.000000000,2018-01-22 19:49:29.000000000,closed,5,GLSL setting float/int precision
+400,2018-01-16 18:10:07.000000000,2018-01-21 18:04:57.000000000,closed,7,More undefined variables
+399,2018-01-16 14:41:08.000000000,2018-01-17 14:10:26.000000000,closed,1,Specialize CFG traversal for some opcodes which use literals.
+398,2018-01-16 14:26:42.000000000,2018-01-17 14:10:02.000000000,closed,1,Do not use inline for-loop initializers with different types.
+397,2018-01-15 19:04:40.000000000,2018-01-16 17:44:28.000000000,closed,5,Array out of bounds compile error
+396,2018-01-15 18:24:15.000000000,2018-01-17 14:10:02.000000000,closed,2,Implicit conversion compile errors
+395,2018-01-15 17:19:53.000000000,2018-01-16 17:05:43.000000000,closed,0,Remove cfg_analysis option.
+394,2018-01-15 14:29:15.000000000,2018-01-25 01:05:10.000000000,closed,5,Handle exponential explosion of code-gen during first phase of compile and fix CFG dominator checks.
+393,2018-01-15 13:35:04.000000000,2018-01-16 13:46:35.000000000,closed,0,Handle OpUnreachable in code-gen.
+392,2018-01-13 03:24:28.000000000,2018-01-15 13:12:14.000000000,closed,0,Use initializer list for composite initializations
+391,2018-01-12 23:13:33.000000000,2018-01-16 13:46:35.000000000,closed,1,void CompilerGLSL::emit_block_chain(SPIRBlock &block) will assert on Unreachable block
+390,2018-01-12 21:08:30.000000000,2018-01-15 17:15:41.000000000,closed,12,Loop and += invalid shader: undefined variable
+389,2018-01-12 14:56:27.000000000,2018-01-15 13:11:55.000000000,closed,1,Analyze the CFG for temporaries as well.
+388,2018-01-12 04:18:18.000000000,1970-01-01 00:00:00.000000001,open,2,support GLSL and HLSL output of new SPIR-V FullyCoveredEXT built in..
+387,2018-01-10 01:56:49.000000000,2018-01-15 13:13:27.000000000,closed,6,"MSL generation bug for SPIR-V ""candidate constructor (the implicit copy constructor) not viable: requires 1 argument, but 6 were provided"""
+386,2018-01-09 17:00:05.000000000,2018-01-09 19:27:21.000000000,closed,2,Fix naive barrier handling in GLSL and HLSL and various other fixes
+385,2018-01-09 02:23:15.000000000,2018-01-09 13:07:31.000000000,closed,0,Revert to not forcing gl_in/gl_out block for MSL.
+384,2018-01-08 22:19:47.000000000,2018-01-15 13:11:55.000000000,closed,5,Invalid MSL generated for an optimized SPIRV shader
+383,2018-01-06 17:31:43.000000000,2018-01-10 15:09:00.000000000,closed,4,Use HLSL barriers that better match SPIR-V semantics
+382,2018-01-04 21:30:26.000000000,2018-01-25 13:13:58.000000000,closed,3,Metal shared memory emit before OpFunctionCall
+381,2018-01-04 20:23:55.000000000,2018-01-04 20:44:53.000000000,closed,0,Fix tessellation control shaders from HLSL.
+380,2018-01-04 17:49:09.000000000,2018-01-04 18:09:37.000000000,closed,0,Add support for gl_ViewportIndex.
+379,2018-01-04 17:20:18.000000000,2020-01-15 21:17:34.000000000,closed,4,GL_NV_geometry_shader_passthrough extension support
+378,2018-01-04 17:16:42.000000000,2018-01-04 17:42:27.000000000,closed,0,Fix swizzling of scalar integers in HLSL.
+377,2018-01-04 16:32:06.000000000,2018-01-04 17:18:50.000000000,closed,0,Support arrays of images in HLSL
+376,2017-12-31 13:21:21.000000000,2018-01-08 13:04:24.000000000,closed,3,better? type handling when initial parsing OpStore by MSL generator
+375,2017-12-30 09:21:15.000000000,2018-01-04 20:44:53.000000000,closed,0,HLSL -> GLSL (Tess Hull Shader) : Several errors when compiling resulting GLSL code 
+374,2017-12-29 00:25:47.000000000,2018-01-25 01:05:10.000000000,closed,6,Exponentially growing redundant code on combinations of swizzles
+373,2017-12-27 04:57:30.000000000,2018-01-08 13:04:04.000000000,closed,2,CompilerMSL enhancements PLUS refactoring of MSL tests to avoid optimization crashes
+372,2017-12-24 08:11:06.000000000,2019-03-25 13:20:21.000000000,closed,3,Select/Deselect reference shaders based on platform/version being tested
+371,2017-12-23 06:20:12.000000000,2018-01-04 17:42:27.000000000,closed,2,HLSL syntax error with swizzled integer literals
+370,2017-12-21 22:17:55.000000000,2018-04-05 18:27:56.000000000,closed,4,Question: Constant buffers used in more than one shader stage
+369,2017-12-21 18:08:52.000000000,2017-12-21 18:37:06.000000000,closed,0,Question: used constant buffer members
+368,2017-12-20 21:49:37.000000000,2018-01-04 18:09:37.000000000,closed,3,GLSL gl_ViewportIndex undefined
+367,2017-12-19 04:00:21.000000000,2018-01-04 17:18:50.000000000,closed,3,Resource arrays
+366,2017-12-16 14:59:46.000000000,2018-04-05 18:31:49.000000000,closed,5,is that possible convert SPV_KHR_variable_pointers to earlier version of spirv
+365,2017-12-12 17:36:31.000000000,2017-12-12 20:06:26.000000000,closed,0,"Validate HLSL output through FXC, fix various HLSL bugs."
+364,2017-12-11 18:06:51.000000000,2017-12-11 19:04:50.000000000,closed,0,Use t-namespace for ByteAddressBuffer.
+363,2017-12-11 17:57:13.000000000,2017-12-12 20:06:26.000000000,closed,0,Validate HLSL output through FXC properly.
+362,2017-12-11 15:47:47.000000000,2018-01-04 14:41:35.000000000,closed,6,Question: Modify SPIRV decorations directly
+361,2017-12-06 14:59:59.000000000,2017-12-07 19:26:52.000000000,closed,0,Support VertexID/InstanceID in HLSL.
+360,2017-12-06 14:24:54.000000000,2017-12-07 21:40:15.000000000,closed,0,Support mediump in desktop Vulkan GLSL.
+359,2017-12-05 21:47:04.000000000,2017-12-06 13:49:37.000000000,closed,0,Lift dominator to loop header when continue block accesses variable
+358,2017-12-05 14:43:43.000000000,2017-12-14 00:01:10.000000000,closed,9,msl generator enhancements/fixes
+357,2017-12-05 14:24:07.000000000,2017-12-05 16:53:38.000000000,closed,0,Fixups for PR #353
+356,2017-12-01 19:01:00.000000000,2017-12-02 16:59:32.000000000,closed,0,"Make sure image integer coords are int, not uint."
+355,2017-12-01 18:29:54.000000000,2017-12-02 17:01:33.000000000,closed,0,Improve handling of block name declaration in GLSL.
+354,2017-12-01 17:28:47.000000000,2017-12-02 16:58:43.000000000,closed,0,Support textureQueryLod in HLSL.
+353,2017-12-01 01:05:27.000000000,2017-12-05 16:53:39.000000000,closed,4,"For MSL, use {} instead of constructors to init OpUndef values."
+352,2017-11-29 23:25:36.000000000,2017-12-02 16:59:32.000000000,closed,2,Issue with structured buffer access
+351,2017-11-29 16:21:14.000000000,2020-07-06 11:20:38.000000000,closed,1,GLSL to ES exception: Cannot flatten struct inside structs in I/O variables.
+350,2017-11-29 15:50:28.000000000,2017-11-29 17:57:45.000000000,closed,0,Fix various HLSL bugs.
+349,2017-11-28 11:39:03.000000000,2018-01-21 18:05:10.000000000,closed,4,Metal: proper tracking of read/write/readwrite textures
+348,2017-11-27 19:25:01.000000000,2017-12-07 19:26:52.000000000,closed,2,GLSL->HLSL: Unsupported builtin in HLSL: 5 (BuiltInVertexId)
+347,2017-11-27 19:05:38.000000000,2017-11-27 19:37:51.000000000,closed,0,Add packing support to HLSL
+346,2017-11-27 07:43:14.000000000,2017-12-06 13:49:37.000000000,closed,5,HLSL -> GLSL : Incorrect variable declarations when using for loop
+345,2017-11-23 17:29:56.000000000,2017-12-02 17:01:33.000000000,closed,16,Question about structured buffers
+344,2017-11-23 13:45:12.000000000,2017-12-02 16:58:43.000000000,closed,0,HLSL: incorrect translation for lod query
+343,2017-11-23 13:32:56.000000000,2017-11-29 17:57:45.000000000,closed,0,HLSL: incorrect translation of image sampling with compare for mip level 0
+342,2017-11-23 11:48:13.000000000,2017-11-29 17:57:44.000000000,closed,2,"HLSL: unhandled storage image format ""unknown"""
+341,2017-11-23 11:42:22.000000000,2017-11-29 17:57:44.000000000,closed,0,HLSL: incorrect bitfield operation translation
+340,2017-11-23 11:21:39.000000000,2017-11-27 19:37:51.000000000,closed,0,HLSL: Incorrect translation of packing/unpacking operations
+339,2017-11-22 23:35:09.000000000,2017-11-23 04:08:45.000000000,closed,0,Fixups for PR #338
+338,2017-11-21 22:03:28.000000000,2017-11-23 04:08:45.000000000,closed,2,Add support for AMD extensions.
+337,2017-11-21 18:53:10.000000000,2017-11-21 19:18:03.000000000,closed,2,HLSL: Support early_fragment_tests attribute
+336,2017-11-21 14:18:44.000000000,2017-11-23 14:21:41.000000000,closed,0,Add full testing for spirv-opt output.
+335,2017-11-21 13:31:30.000000000,2017-11-21 13:49:41.000000000,closed,0,Fix complicated Phi case.
+334,2017-11-21 01:46:45.000000000,2017-11-23 14:21:41.000000000,closed,0,Add test cases for optimized SPIR-V
+333,2017-11-21 01:34:01.000000000,2017-11-21 03:29:31.000000000,closed,0,Do not allow base expressions when extracting struct members.
+332,2017-11-21 01:17:04.000000000,2017-11-21 02:02:08.000000000,closed,0,Fixups for PR #325
+331,2017-11-21 00:59:28.000000000,2017-11-21 03:29:31.000000000,closed,4,Conditional causes odd joining of variable names in simple shader which causes compile error
+330,2017-11-20 22:09:12.000000000,2017-11-21 13:49:41.000000000,closed,1,Loop with undefined variable
+329,2017-11-20 19:11:16.000000000,2017-11-20 20:33:42.000000000,closed,8,Bug in build_combined_image_samplers
+328,2017-11-17 19:46:45.000000000,2017-11-17 19:54:17.000000000,closed,4,Adding arbitrary metadata to SPIR-V
+327,2017-11-17 17:37:40.000000000,2017-11-17 17:54:07.000000000,closed,0,Fix SSO for HLSL vertex shaders
+326,2017-11-16 08:48:52.000000000,2017-11-16 14:25:01.000000000,closed,5,CompilerMSL support and tests for OpUndef.
+325,2017-11-15 22:05:51.000000000,2017-11-21 02:02:35.000000000,closed,3,Support new hlsl 5.1 space for registers.
+324,2017-11-13 17:51:23.000000000,2017-11-13 18:19:47.000000000,closed,0,Add support for renaming entry points.
+323,2017-11-13 13:50:57.000000000,2017-11-13 14:03:51.000000000,closed,0,Fixups for PR #224
+322,2017-11-11 05:05:25.000000000,2017-11-14 00:51:16.000000000,closed,2,Add options to flip texture op Y coordinate in GLSL
+321,2017-11-07 04:01:23.000000000,2017-11-11 13:57:49.000000000,closed,8, Enhancements to MSL compute and entry point naming.
+320,2017-11-07 00:10:33.000000000,2017-11-13 14:04:05.000000000,closed,3,HLSL Vertex Attribute remap
+319,2017-11-06 23:59:03.000000000,2017-11-07 01:32:52.000000000,closed,1,Just minor warning fix when compiling under x64
+318,2017-11-06 13:49:32.000000000,2017-11-06 14:12:56.000000000,closed,0,Fix some warnings on older GCC.
+317,2017-10-30 01:37:41.000000000,1970-01-01 00:00:00.000000001,open,1,Support for multiple entry points in compilation output
+316,2017-10-29 10:24:41.000000000,2017-11-11 14:13:19.000000000,closed,10,Map from original to transformed entry point names
+315,2017-10-26 19:40:39.000000000,2017-10-30 12:22:58.000000000,closed,0,HLSL RWByteAddressBuffer support for row/column matrices
+314,2017-10-24 12:24:23.000000000,2017-10-24 12:51:20.000000000,closed,0,Rename nested Image struct type.
+313,2017-10-22 05:19:08.000000000,2017-10-24 12:51:20.000000000,closed,2,Naming conflict in spirv_common.hpp
+312,2017-10-21 12:27:30.000000000,2017-10-21 15:43:39.000000000,closed,1,Use 'static const' for spec constants in HLSL
+311,2017-10-20 17:42:59.000000000,2017-10-24 12:44:19.000000000,closed,1,"HLSL image load/store, atomics, shared memory, barriers"
+310,2017-10-19 12:47:44.000000000,2017-10-19 18:52:12.000000000,closed,5,Uniforms in GLSL ES can't be linked together
+309,2017-10-19 12:35:51.000000000,2017-10-19 18:48:38.000000000,closed,0,Do not emit layout(location) for fragment output pre-330.
+308,2017-10-19 08:17:26.000000000,2017-10-19 18:48:37.000000000,closed,6,Fragment outputs incorrectly given a layout location in some versions of GLSL
+307,2017-10-19 01:50:20.000000000,2017-11-13 14:06:14.000000000,closed,3,GLSL from SPIR-V produces copy write copy pattern
+306,2017-10-18 11:54:37.000000000,2017-10-18 13:01:25.000000000,closed,0,Only emit layout() on vertex inputs in version 330/300 es.
+305,2017-10-18 11:08:49.000000000,2017-10-18 13:01:25.000000000,closed,1,Vertex inputs incorrectly given layout location for some versions of GLSL
+304,2017-10-10 18:16:00.000000000,2017-10-11 11:27:15.000000000,closed,5,Overhaul buffer packing in HLSL and GLSL
+303,2017-10-10 15:47:18.000000000,2017-10-24 12:44:19.000000000,closed,1,HLSL: Barriers not supported
+302,2017-10-09 15:27:34.000000000,2017-10-11 11:27:15.000000000,closed,9,Support for packoffset in the HLSL backend
+301,2017-10-07 01:47:10.000000000,2018-09-26 21:02:38.000000000,closed,5,Overriding parse() behaviour?
+300,2017-10-06 23:22:31.000000000,2017-10-09 14:50:26.000000000,closed,2,Require GL_ARB_shader_image_load_store extension.
+299,2017-10-06 15:20:02.000000000,2017-10-06 15:53:07.000000000,closed,0,Stamp out all variants for mod().
+298,2017-10-06 15:04:23.000000000,2017-10-06 15:52:57.000000000,closed,0,Handle empty struct declarations with best effort.
+297,2017-10-06 14:36:33.000000000,2017-10-06 15:02:56.000000000,closed,0,Automatically rename structs as well in rename_interface_variable.
+296,2017-10-05 22:23:42.000000000,2017-10-06 22:54:52.000000000,closed,3,Invalid GLSL generated from HLSL SPIRV
+295,2017-10-05 19:23:36.000000000,2018-06-05 12:03:36.000000000,closed,11,Overhaul HLSL row-major/column-major confusion
+294,2017-10-05 18:32:19.000000000,2017-10-05 19:17:01.000000000,closed,0,HLSL: Only unroll matrices for vertex input.
+293,2017-10-03 19:41:49.000000000,2019-03-16 13:31:55.000000000,closed,20,Metal indirect argument buffers
+292,2017-10-03 19:11:35.000000000,2017-10-06 15:52:57.000000000,closed,3,spirv-cross doesn't handle empty structs [glsl]
+291,2017-10-03 11:50:43.000000000,2017-10-03 12:13:43.000000000,closed,4,[Question] How to get the array size of a decoration?
+290,2017-09-29 12:46:36.000000000,2017-10-03 11:14:21.000000000,closed,3,WIP: Specialization constant overhaul and StorageBuffer support
+289,2017-09-28 02:29:33.000000000,2017-09-28 11:44:55.000000000,closed,2,Fix compilation with clang
+288,2017-09-25 12:14:58.000000000,2017-09-25 12:30:28.000000000,closed,0,Fix case when Phi variable is a loop variable.
+287,2017-09-25 06:43:55.000000000,2018-09-26 21:03:56.000000000,closed,7,Splitting `parse` from compiler
+286,2017-09-23 21:06:31.000000000,2017-09-25 11:07:11.000000000,closed,1,Fix HLSL atan2() argument order
+285,2017-09-22 19:47:35.000000000,2017-09-25 12:30:28.000000000,closed,1,Invalid GSL shader produced after roundtrip with spirv-opt
+284,2017-09-20 12:30:42.000000000,2017-09-20 17:11:34.000000000,closed,2,Implement texture query APIs in HLSL
+283,2017-09-16 08:05:15.000000000,2017-09-20 17:11:34.000000000,closed,2,can not convert textureSize to HLSL
+282,2017-09-15 15:23:38.000000000,2017-09-16 12:28:57.000000000,closed,0,Remove some dead code.
+281,2017-09-14 16:13:08.000000000,2017-09-16 12:28:57.000000000,closed,1,A variable is modified but not used
+280,2017-09-11 17:33:36.000000000,2017-09-12 10:48:29.000000000,closed,1,Fix texture GatherRed/Green/etc. methods for HLSL SM 5.0
+279,2017-09-08 11:55:56.000000000,2017-09-08 12:15:02.000000000,closed,0,Add option to disable use of 420pack extension.
+278,2017-09-08 11:35:13.000000000,2017-09-08 11:57:02.000000000,closed,0,Ensure that exceptions are logged.
+277,2017-09-08 11:12:50.000000000,2017-09-08 11:35:27.000000000,closed,0,Merge PR #274 with Travis fixes
+276,2017-09-07 18:30:26.000000000,2017-09-08 12:15:02.000000000,closed,5,layout specifiers on uniforms are not stripped correctly
+275,2017-09-07 18:26:44.000000000,2017-09-08 11:57:02.000000000,closed,2,command line app does not output error messages
+274,2017-09-07 18:03:34.000000000,2017-09-08 11:35:28.000000000,closed,4,Use the correct cbuffer binding for HLSL SM 4.0-5.0
+273,2017-09-06 11:19:29.000000000,2017-09-06 18:50:30.000000000,closed,1,RMW optimizations tests
+272,2017-09-05 19:08:33.000000000,2017-09-06 11:13:05.000000000,closed,1,Fix assignment optimization for logical and/or.
+271,2017-09-04 12:25:54.000000000,2017-09-04 12:40:28.000000000,closed,0,Support FrexpStruct/ModfStruct.
+270,2017-08-31 21:06:49.000000000,2017-08-31 21:21:21.000000000,closed,0,Nested struct definition appears to be missing
+269,2017-08-29 17:53:27.000000000,2017-08-29 18:29:15.000000000,closed,0,Fix coherent and restrict image qualifiers for images.
+268,2017-08-29 17:43:45.000000000,2017-08-29 18:29:14.000000000,closed,0,`coherent` and `restrict` qualifiers don't propagate correctly to image uniforms
+267,2017-08-29 17:34:58.000000000,2017-08-29 18:29:15.000000000,closed,0,decorating a variable with `Coherent` adds illegal `coherent` layout option
+266,2017-08-28 11:02:53.000000000,2017-08-28 11:15:40.000000000,closed,0,Support coherent SSBO
+265,2017-08-28 05:20:26.000000000,2017-08-28 11:15:50.000000000,closed,1,`coherent` attribute missing from SSBO
+264,2017-08-23 14:37:59.000000000,2017-10-05 19:17:01.000000000,closed,5,Invalid shader after unrolling input / output variables
+263,2017-08-21 15:26:39.000000000,2017-09-01 17:54:57.000000000,closed,2,Legacy GL or GLES 2.0/3.0 attributes
+262,2017-08-21 12:00:04.000000000,2017-08-21 12:38:05.000000000,closed,0,Add sampler buffer support to HLSL.
+261,2017-08-21 11:37:18.000000000,2017-08-21 11:47:19.000000000,closed,0,Fix variable scoping when dest block only uses OpPhi to read variable.
+260,2017-08-19 10:34:56.000000000,2017-08-28 05:17:39.000000000,closed,2,functions with same name and same signature generated
+259,2017-08-19 10:26:52.000000000,2017-08-21 11:47:19.000000000,closed,1,variable declared in wrong scope
+258,2017-08-15 23:02:52.000000000,2017-08-16 19:29:14.000000000,closed,5,GLSL code uses uninitialized variables
+257,2017-08-15 17:26:40.000000000,2017-08-15 17:48:15.000000000,closed,0,Add support for querying SPIR-V Capabilities and Extensions.
+256,2017-08-15 15:29:03.000000000,2017-08-15 15:43:08.000000000,closed,0,Add support for SPV_KHR_multiview.
+255,2017-08-15 12:23:45.000000000,2017-08-15 12:43:04.000000000,closed,3,Basic HLSL compute shader support
+254,2017-08-11 23:02:07.000000000,2017-08-12 23:19:56.000000000,closed,1,Fix issues #239 & #245
+253,2017-08-11 19:02:28.000000000,2017-08-21 12:38:05.000000000,closed,3,Question about unimplemented image type
+252,2017-08-11 01:29:16.000000000,2017-08-11 14:41:24.000000000,closed,0,CompilerMSL enhancements.
+251,2017-08-09 19:05:43.000000000,2017-08-09 19:33:12.000000000,closed,0,Preserve arguments with inout unless complete writes are made.
+250,2017-08-09 09:00:28.000000000,2017-08-09 19:33:12.000000000,closed,2,Error due to out parameter instead of inout
+249,2017-08-08 14:42:53.000000000,2017-08-15 12:43:04.000000000,closed,0,Implement SSBO flattening for HLSL
+248,2017-08-06 17:23:36.000000000,2017-11-21 02:17:41.000000000,closed,3,MSL compute shader support?
+247,2017-08-03 16:31:12.000000000,2017-08-03 16:55:42.000000000,closed,0,Support OpConstantNull.
+246,2017-08-03 15:04:10.000000000,2017-08-11 14:42:11.000000000,closed,5,Unify vertex clip-coord fixups.
+245,2017-08-03 13:47:55.000000000,2017-08-12 15:47:05.000000000,closed,6,HLSL fragment shaders generated by glslangValidator fail on MSL.
+244,2017-08-02 14:22:33.000000000,2017-08-03 16:55:42.000000000,closed,0,OpConstantNull needs testing
+243,2017-08-02 13:58:50.000000000,2017-08-02 14:13:05.000000000,closed,0,Declare undefined variables (OpUndef) upfront
+242,2017-08-01 22:02:58.000000000,2017-08-02 14:13:05.000000000,closed,3,SPIRVCross seems to create invalid code after inlining multipe returns due to Undef tokens
+241,2017-08-01 13:04:17.000000000,2017-08-11 14:42:11.000000000,closed,0,"hlsl back end does not respect option ""fixup_clipspace"""
+240,2017-07-31 13:16:00.000000000,2017-07-31 13:31:47.000000000,closed,0,Do not emit layout(location) qualifiers for older GLSL targets.
+239,2017-07-31 12:17:06.000000000,2017-08-12 23:20:28.000000000,closed,2,textureProj with shadow fails on MSL
+238,2017-07-31 12:06:47.000000000,2017-07-31 12:23:20.000000000,closed,0,Fix textureProj with shadow on GLSL.
+237,2017-07-31 11:30:52.000000000,2017-07-31 14:00:30.000000000,closed,0,Fix spurious struct type aliasing in stripped binaries.
+236,2017-07-30 00:29:41.000000000,2017-07-31 14:00:30.000000000,closed,3,Input variable base_type doesn't get renamed properly
+235,2017-07-30 00:13:16.000000000,2017-07-30 08:32:21.000000000,closed,0,Declare specialization constants in HLSL.
+234,2017-07-29 23:49:59.000000000,2017-07-30 08:32:12.000000000,closed,0,Fix default member name implementation.
+233,2017-07-29 17:36:55.000000000,2017-07-30 08:32:40.000000000,closed,8,Struct inside another struct has same name as variable
+232,2017-07-29 13:01:46.000000000,2017-07-30 08:32:21.000000000,closed,2,Shader specialization constant support
+231,2017-07-27 23:02:38.000000000,2017-07-28 00:33:03.000000000,closed,1,Question about the get_active_interface_variables
+230,2017-07-26 01:05:59.000000000,2017-08-08 22:01:06.000000000,closed,2,SPIRV GLSL: Add vertex.flip_y option.
+229,2017-07-25 20:26:07.000000000,2017-07-25 23:14:00.000000000,closed,6,Optimize CFG walking
+228,2017-07-24 12:21:39.000000000,2017-07-24 12:29:09.000000000,closed,0,Various bug fixes
+227,2017-07-23 12:25:06.000000000,2019-02-06 02:40:11.000000000,closed,5,Metal computer shader from SPIRV generated by new clspv tool..
+226,2017-07-21 15:18:10.000000000,2017-07-30 00:20:02.000000000,closed,6,SPIRVCross hangs on cfg.walk_from
+225,2017-07-17 15:16:24.000000000,2017-07-24 12:29:24.000000000,closed,3,Double negation translated incorrectly
+224,2017-07-17 14:30:36.000000000,2018-02-08 17:32:17.000000000,closed,2,Add support for building a shared library
+223,2017-07-13 22:51:17.000000000,2017-07-24 12:29:34.000000000,closed,1,gl_SampleID missing
+222,2017-07-08 13:52:21.000000000,2017-07-31 13:31:47.000000000,closed,3,layout(location = 0) when converting to glsl 330
+221,2017-07-07 21:11:56.000000000,2017-07-31 12:23:20.000000000,closed,0,textureProj with Dref is handled incorrectly.
+220,2017-07-07 18:56:22.000000000,2017-08-15 12:43:52.000000000,closed,9,Basic support for HLSL compute shaders with StructuredBuffers
+219,2017-07-05 18:50:52.000000000,2017-07-24 12:29:45.000000000,closed,4,HLSL's SampleCmpLevelZero not translated correctly to GLSL when using TextureCube
+218,2017-06-30 12:33:42.000000000,2017-07-01 00:56:14.000000000,closed,0,Add support for SM5.1 ConstantBuffer<T>.
+217,2017-06-28 20:34:45.000000000,2018-02-08 17:32:02.000000000,closed,8,WIP - First incomplete attempt at supporting DecorationRelaxedPrecision in MSL.
+216,2017-06-28 18:23:05.000000000,2017-07-01 00:56:30.000000000,closed,6,Support constant buffer register names for HLSL Shader Model 5.1
+215,2017-06-27 21:28:28.000000000,2017-08-15 17:48:15.000000000,closed,0,Add support for querying extensions and capabilities
+214,2017-06-27 18:36:23.000000000,2017-06-27 20:35:01.000000000,closed,0,"Add ""texture"" to the keyword list."
+213,2017-06-27 18:32:41.000000000,2017-06-27 20:34:29.000000000,closed,2,Ignore debug instruction OpString
+212,2017-06-27 00:58:18.000000000,2017-06-27 10:06:19.000000000,closed,0,Remove remnants of old OpCompositeInsert hack.
+211,2017-06-26 21:39:06.000000000,2017-06-27 00:53:47.000000000,closed,4,Always make a copy when handling OpCompositeInsert
+210,2017-06-24 00:27:19.000000000,2017-06-26 14:47:57.000000000,closed,2,added --rename-interface-variable <in|out> <location> <new_variable_name>
+209,2017-06-23 11:45:28.000000000,2017-06-23 12:03:10.000000000,closed,0,Workaround textureLod on sampler2DArrayShadow
+208,2017-06-22 22:42:15.000000000,2018-11-07 00:01:15.000000000,closed,10,Support half precision in Metal shaders
+207,2017-06-22 21:48:42.000000000,2017-06-23 23:31:36.000000000,closed,7,HLSL's SampleCmpLevelZero is not translated correctly to GLSL when using a SamplerComparisonState and a Texture2DArray
+206,2017-06-21 11:57:25.000000000,2017-06-22 21:52:12.000000000,closed,0,Update glslang
+205,2017-06-20 16:41:04.000000000,2017-06-22 22:05:16.000000000,closed,3,Numerous test shaders failing with most recent glslang
+204,2017-06-20 15:44:21.000000000,2017-06-23 18:20:03.000000000,closed,4,[HLSL] cbuffers using a struct to access members
+203,2017-06-17 12:55:00.000000000,2017-06-17 13:06:53.000000000,closed,0,Avoid ugly workaround for separate shadow samplers in GLSL/HLSL.
+202,2017-06-17 12:17:19.000000000,2017-06-17 12:25:02.000000000,closed,0,Add basic support for : register() declaration in HLSL.
+201,2017-06-17 11:35:45.000000000,2017-06-17 11:57:14.000000000,closed,0,Fix fallthrough warning.
+200,2017-06-17 05:09:49.000000000,2017-06-17 11:29:52.000000000,closed,1,Geometry shader core since GLSL 150
+199,2017-06-16 22:30:34.000000000,2017-06-19 19:27:14.000000000,closed,6,"In HLSL output, allow setting a custom ""register"" for resources"
+198,2017-06-15 23:48:04.000000000,2017-06-16 11:18:09.000000000,closed,0,CompilerMSL add support for MSL specialization function constants.
+197,2017-06-13 15:41:55.000000000,2017-06-13 21:40:47.000000000,closed,1,Make image2dBase::load const
+196,2017-06-12 07:44:14.000000000,2017-06-26 14:48:47.000000000,closed,5,HLSL source to GLSL Vertex/Fragment interface linking error on MacOSX
+195,2017-06-10 23:27:44.000000000,1970-01-01 00:00:00.000000001,open,0,HLSL UAV reflection output does not make sense
+194,2017-05-31 18:56:15.000000000,2017-05-31 20:45:57.000000000,closed,4,Fix shader model 2/3 texture sampling
+193,2017-05-31 17:38:02.000000000,2017-05-31 18:27:48.000000000,closed,4,Shader reflection is returning incorrect byte size on float arrays 
+192,2017-05-31 12:26:17.000000000,2017-05-31 12:37:11.000000000,closed,0,Add CMake install support
+191,2017-05-30 18:18:09.000000000,2017-05-30 23:57:49.000000000,closed,2,Fix null pointer dereference
+190,2017-05-30 05:21:21.000000000,2017-06-02 17:34:07.000000000,closed,1,Emit type declarations tuned for specified SPIR-V objects + MSL builtin enhancements.
+189,2017-05-22 19:42:38.000000000,2017-05-31 12:08:03.000000000,closed,0,Add support for flattening multidimensional arrays into single dimension
+188,2017-05-22 18:01:12.000000000,2017-05-31 11:55:34.000000000,closed,0,Add support for Separate Shader Objects
+187,2017-05-22 16:00:50.000000000,2017-05-22 16:09:52.000000000,closed,0,Support SPIR-V 1.2.
+186,2017-05-20 03:46:52.000000000,2017-05-23 19:35:12.000000000,closed,16,CompilerMSL map many GLSL functions to MSL functions
+185,2017-05-17 17:09:56.000000000,2017-05-31 12:08:41.000000000,closed,14,Question: GL_ARB_separate_shader_objects not defining gl_PerVertex or gl_PerFragment
+184,2017-05-16 13:18:34.000000000,2017-05-31 12:08:53.000000000,closed,15,2D arrays in SPIR-V get translated as 2D arrays in glsl
+183,2017-05-11 14:56:43.000000000,2017-05-11 15:18:49.000000000,closed,2,[Question] Removing declaration of uniform buffers
+182,2017-05-10 21:04:19.000000000,2017-05-23 00:45:36.000000000,closed,7,"[Metal] size of vec3 in uniform blocks is 12, should be 16?"
+181,2017-05-10 01:03:12.000000000,2017-05-17 19:23:27.000000000,closed,7,GLSL < 420 not really supported?
+180,2017-05-07 19:50:10.000000000,2017-05-07 20:10:28.000000000,closed,2,[GLSL v100 + WebGL] accessing uniform arrays in vertex shader fails
+179,2017-05-07 11:13:41.000000000,2017-05-23 05:45:11.000000000,closed,2,[MSL] Variables used in interface blocks aren't resolved correctly
+178,2017-05-06 14:07:28.000000000,2017-05-23 12:30:44.000000000,closed,1,Implement more sophisticated check for point_size.
+177,2017-05-06 00:16:52.000000000,2017-05-06 13:46:29.000000000,closed,0,CompilerMSL output [[point_size]] attribute for BuiltInPointSize member by default.
+176,2017-05-04 12:49:01.000000000,2017-05-07 15:51:35.000000000,closed,5,Proper types for sampled images in HLSL4/5
+175,2017-05-04 12:29:30.000000000,2017-05-04 12:44:01.000000000,closed,0,Various HLSL fixes
+174,2017-05-03 21:51:02.000000000,2017-05-04 12:44:18.000000000,closed,5,[HLSL] what to do about gl_PointSize in HLSL
+173,2017-05-03 21:03:08.000000000,2017-10-06 15:53:07.000000000,closed,4,[HLSL] mod() function only implemented for float type
+172,2017-05-03 20:42:06.000000000,2017-05-04 12:44:28.000000000,closed,3,[HLSL] ternary operator generates invalid mix() function call
+171,2017-05-03 04:10:06.000000000,2017-05-22 21:45:21.000000000,closed,3,[msl] bit casting
+170,2017-04-29 20:57:44.000000000,2017-10-06 16:20:27.000000000,closed,9,[Question] HLSL and RowMajor/ColumnMajor matrices
+169,2017-04-29 15:20:15.000000000,2017-05-23 12:31:00.000000000,closed,9,[Metal] Metal backend doesn't know about gl_PointSize
+168,2017-04-28 07:56:36.000000000,2017-05-03 10:14:32.000000000,closed,13,OpenGL Error when linking GLSL shaders due to variables naming
+167,2017-04-26 05:13:32.000000000,2017-04-26 11:21:12.000000000,closed,1,CompilerMSL round floating point tex coords for read() and tex array index.
+166,2017-04-25 22:11:46.000000000,2017-04-26 14:06:18.000000000,closed,0,Add support for querying binary offsets of decorations in SPIR-V.
+165,2017-04-25 13:01:16.000000000,2017-05-07 15:48:36.000000000,closed,2,HLSL: Support for separate image/samplers.
+164,2017-04-21 19:54:42.000000000,2017-05-07 15:47:17.000000000,closed,8,Images and samplers inside structs
+163,2017-04-20 21:04:26.000000000,2017-05-07 15:47:52.000000000,closed,3,[Discussion] HLSL vertex shader input semantics from attribute names
+162,2017-04-19 19:32:43.000000000,2017-05-09 11:50:45.000000000,closed,1,"Add interface for reflecting ""magic"" HLSL counter buffers."
+161,2017-04-18 16:59:23.000000000,2017-04-24 14:21:23.000000000,closed,9,Shader model 4/5 style texture sampling
+160,2017-04-05 13:50:18.000000000,2017-04-26 11:27:50.000000000,closed,8,SelectionMerge / BranchConditional / Branch
+159,2017-04-03 13:47:39.000000000,2017-04-04 00:05:32.000000000,closed,0,Fix HLSL matrix unrolling
+158,2017-04-02 13:06:46.000000000,2017-04-02 13:13:28.000000000,closed,0,Fix case where samplerBuffer is emitted without combined sampler.
+157,2017-04-01 18:13:33.000000000,2017-04-05 11:10:25.000000000,closed,1,Add vector-less IR construction to subclasses as well.
+156,2017-04-01 14:40:57.000000000,2017-04-01 16:44:48.000000000,closed,1,Added a Compiler ctor that takes IR as raw array and count
+155,2017-03-25 19:31:51.000000000,2017-03-25 19:51:19.000000000,closed,0,Preserve function arguments if variable is only conditionally written.
+154,2017-03-25 18:39:29.000000000,2017-03-25 18:52:55.000000000,closed,0,Fix bitfield functions.
+153,2017-03-24 20:50:56.000000000,2017-03-25 18:53:07.000000000,closed,1,"Error on OpBitField{S,U}Extract to GLSL"
+152,2017-03-24 19:42:42.000000000,2017-03-25 19:51:28.000000000,closed,0,inout qualifier is incorrect when only conditionally writing to variable
+151,2017-03-24 17:16:24.000000000,2017-03-24 19:13:35.000000000,closed,0,Transform more functions for HLSL
+150,2017-03-24 13:04:54.000000000,2017-03-24 13:13:12.000000000,closed,1,Workaround empty I/O variable declarations
+149,2017-03-23 15:36:32.000000000,2017-03-23 16:21:20.000000000,closed,0,Make buffer decoration interface public.
+148,2017-03-23 13:16:50.000000000,2017-03-24 12:43:18.000000000,closed,7,Prefer plain texture2D in legacy es vertex shaders
+147,2017-03-23 12:52:21.000000000,2017-03-23 13:21:49.000000000,closed,0,Ensure struct members have valid identifiers.
+146,2017-03-22 20:47:12.000000000,2017-03-24 12:43:34.000000000,closed,2,Textures in vertex shaders in WebGL
+145,2017-03-22 19:17:48.000000000,2017-03-22 19:32:33.000000000,closed,0,CompilerMSL mark the legacy compile() function as deprecated
+144,2017-03-21 19:33:24.000000000,2017-03-21 19:50:13.000000000,closed,0,Do not crash on unknown extensions.
+143,2017-03-21 19:20:04.000000000,2017-03-21 19:50:24.000000000,closed,4,OpExtension doesn't get handled by Compiler::parse(const Instruction &instruction)
+142,2017-03-21 01:47:18.000000000,2017-03-21 02:04:58.000000000,closed,0,Handle vector variants of OpLogicalAnd/Or/Not.
+141,2017-03-20 23:38:22.000000000,2017-03-21 11:42:29.000000000,closed,6,isfinite() not supported
+140,2017-03-20 21:22:36.000000000,2017-03-27 12:49:45.000000000,closed,12,HLSL: SV_Position duplicates the vertex shader output structure
+139,2017-03-18 13:56:23.000000000,2017-03-27 12:53:49.000000000,closed,0,SSBO reflection fix
+138,2017-03-15 13:49:59.000000000,2017-03-15 14:11:35.000000000,closed,0,Add deprecation macro.
+137,2017-03-12 21:02:20.000000000,2017-03-15 14:11:46.000000000,closed,1,"Add ""deprecated"" macro to allow Compiler methods to be marked as deprecated"
+136,2017-03-07 20:37:02.000000000,2017-03-21 16:56:51.000000000,closed,5,Rewrite HLSL backend handling of inputs and outputs
+135,2017-03-07 14:02:17.000000000,2017-03-07 14:57:03.000000000,closed,2,Just fix a few minor warnings.
+134,2017-03-06 22:22:09.000000000,2017-03-20 12:04:13.000000000,closed,4,CompilerMSL aligns MSL struct members with SPIR-V offsets
+133,2017-03-06 18:03:30.000000000,2017-03-06 18:21:56.000000000,closed,0,Add support for flattening I/O blocks.
+132,2017-03-05 18:04:04.000000000,2017-03-05 18:55:29.000000000,closed,0,Add built-in cull distance.
+131,2017-03-05 00:50:16.000000000,2017-03-21 16:57:23.000000000,closed,5,HLSL: SV_Position becomes undefined gl_FragCoord
+130,2017-02-28 14:53:17.000000000,2017-03-12 17:24:03.000000000,closed,3,MSL - 'user' attribute cannot be applied to types
+129,2017-02-27 07:29:31.000000000,2017-03-06 18:22:31.000000000,closed,5,CompilerGLSL::layout_for_member() will output a layout qualifier for legacy targets
+128,2017-02-23 16:35:28.000000000,2017-04-26 14:04:13.000000000,closed,13,GLSL extension ops in SPIR-V do not use HLSL builtins correctly
+127,2017-02-23 00:20:51.000000000,2017-02-24 18:30:48.000000000,closed,0,WIP: Flatten varying structs in legacy targets.
+126,2017-02-20 14:31:15.000000000,2017-02-24 18:27:10.000000000,closed,13,GLSL 100 vertex output contains unflattened struct
+125,2017-02-18 17:10:11.000000000,2017-05-07 15:49:11.000000000,closed,7,"HLSL pixel shader: Even with SM5.0, old style texture sampling is used"
+124,2017-02-16 15:16:42.000000000,2017-02-18 13:29:02.000000000,closed,0,Add option to set HLSL shader model.
+123,2017-02-16 14:55:03.000000000,2017-02-18 13:02:14.000000000,closed,16,HLSL vertex shaders output to POSITION instead of SV_Position
+122,2017-02-15 12:12:17.000000000,2017-02-15 13:00:08.000000000,closed,1,Update to Xcode 8.2 on Travis and reenable Metal validation
+121,2017-02-15 00:47:30.000000000,2020-04-09 20:47:08.000000000,closed,7,"Support tesselation, geometry and compute shaders in HLSL backend"
+120,2017-02-15 00:40:13.000000000,2019-02-18 13:36:15.000000000,closed,7,Support tesselation shaders in Metal backend..
+119,2017-02-11 14:54:02.000000000,2017-02-11 15:01:17.000000000,closed,0,Update glslang to latest on Travis.
+118,2017-02-09 22:19:19.000000000,2017-02-11 23:50:59.000000000,closed,6,CompilerMSL add support for texel buffers.
+117,2017-02-08 09:14:39.000000000,2017-05-31 12:39:08.000000000,closed,6,Suppress clang warnings
+116,2017-02-04 18:33:51.000000000,2017-02-11 12:58:23.000000000,closed,2,new Microsoft DXIL format output support?
+115,2017-02-04 14:23:36.000000000,2017-02-04 14:45:53.000000000,closed,0,For loop evaluation order fix.
+114,2017-02-03 09:56:45.000000000,2017-02-03 11:40:34.000000000,closed,2,Fix build when SPIRV_CROSS_EXCEPTIONS_TO_ASSERTIONS=On.
+113,2017-02-02 11:20:20.000000000,2017-02-02 12:04:02.000000000,closed,0,Fixed 'inconsistent-missing-override' warnings
+112,2017-01-31 22:27:10.000000000,2017-02-04 14:46:02.000000000,closed,2,Several MSL tests fail in Travis but not locally due to non-optimized for(;;) loops
+111,2017-01-29 00:32:18.000000000,2017-01-30 09:37:58.000000000,closed,4,test_shaders.py on OS X: FileNotFoundError: [Errno 2] No such file or directory: 'glslangValidator'
+110,2017-01-25 13:13:10.000000000,2017-01-26 11:33:56.000000000,closed,0,Validate Metal shaders on OSX with Metal compiler
+109,2017-01-25 03:13:40.000000000,2017-02-05 15:20:50.000000000,closed,6,CompilerMSL support OpImageFetch and Metal read() function.
+108,2017-01-24 20:42:52.000000000,2017-01-24 22:47:01.000000000,closed,3,Implement flattening of row major matrix indexing
+107,2017-01-24 13:42:29.000000000,2017-01-28 12:53:25.000000000,closed,10,HLSL Support
+106,2017-01-24 05:59:42.000000000,2017-05-31 12:37:35.000000000,closed,7,Added install targets to cmake.
+105,2017-01-22 23:14:10.000000000,2017-02-05 14:57:00.000000000,closed,6,spirv_msl: Add support for gl_GlobalInvocationId
+104,2017-01-21 16:47:47.000000000,2017-01-23 13:12:20.000000000,closed,3,Legacy UBO flattening improvements
+103,2017-01-20 21:38:20.000000000,2017-01-21 00:39:22.000000000,closed,0,Remove emission of function prototypes in MSL.
+102,2017-01-19 03:38:06.000000000,2017-01-20 13:22:46.000000000,closed,5,spirv_msl: Put writable SSBOs in the 'device' address space
+101,2017-01-19 03:23:56.000000000,2017-01-19 12:03:24.000000000,closed,1,Fix compilation on some old C++11 standard libraries.
+100,2017-01-18 23:08:23.000000000,2017-01-24 18:52:02.000000000,closed,2,Add basic setup for regression testing Metal output.
+99,2017-01-18 12:41:34.000000000,2017-01-27 00:31:53.000000000,closed,0,Add mechanism to regression test MSL output.
+98,2017-01-17 14:54:34.000000000,2017-01-17 19:05:13.000000000,closed,1,Fix get_declared_struct_member_size for struct members
+97,2017-01-15 20:35:20.000000000,2017-01-27 12:07:07.000000000,closed,17,Metal additions/fixes
+96,2017-01-13 20:43:31.000000000,2017-01-18 00:06:28.000000000,closed,2,Legacy GLSL improvements
+95,2017-01-12 14:59:14.000000000,2017-01-12 16:23:06.000000000,closed,0,MSVC maintenance.
+94,2017-01-11 20:11:15.000000000,2017-01-11 23:17:37.000000000,closed,5,Use the classic locale when converting floats to string
+93,2017-01-09 22:06:51.000000000,2017-01-10 00:53:33.000000000,closed,1,Switch to GLM_FORCE_SWIZZLE from deprecated GLM_SWIZZLE
+92,2017-01-08 00:21:09.000000000,2017-01-12 16:23:16.000000000,closed,4,"Using ""unsafe"" functions floods VC compiler output with warnings"
+91,2017-01-07 00:53:04.000000000,2017-01-08 19:14:56.000000000,closed,2,Refactor emit_texture_op() function.
+90,2017-01-06 00:18:07.000000000,2017-01-06 03:07:41.000000000,closed,1,Fixes for casting\truncation
+89,2017-01-05 22:18:50.000000000,2017-01-06 00:38:00.000000000,closed,0,Fix handling of NoWrite/NoRead decoration for images.
+88,2017-01-05 20:39:44.000000000,2017-01-06 03:08:03.000000000,closed,4,DecorationNonWritable is not respected
+87,2016-12-19 09:07:08.000000000,2016-12-22 15:22:17.000000000,closed,0,MSL enhancements
+86,2016-12-16 17:33:01.000000000,2016-12-16 18:14:19.000000000,closed,0,Fix for loops for legacy ESSL.
+85,2016-12-13 22:25:52.000000000,2016-12-19 16:32:04.000000000,closed,1,Add the option to build without exceptions
+84,2016-12-11 21:05:20.000000000,2016-12-15 13:51:46.000000000,closed,2,Support row-major matrices in access chain when not natively supporte…
+83,2016-12-07 11:47:00.000000000,2016-12-09 01:36:32.000000000,closed,4,Add Travis build
+82,2016-12-07 10:12:36.000000000,2017-01-18 22:48:13.000000000,closed,15,Implement buffer block flattening
+81,2016-12-05 14:58:24.000000000,2016-12-08 13:05:59.000000000,closed,11,Defer parenthesis generation until needed.
+80,2016-12-04 22:35:30.000000000,2016-12-05 13:08:55.000000000,closed,0,MSL sort interface struct members by offset instead of location.
+79,2016-12-04 00:12:29.000000000,2017-01-18 23:17:41.000000000,closed,7,flatten_interface_block is too limited
+78,2016-11-30 04:00:33.000000000,2016-12-08 13:15:15.000000000,closed,6,Remove redundant nested parenthesis eg:  if ((x == y))
+77,2016-11-28 19:02:09.000000000,2016-11-28 19:39:15.000000000,closed,0,Fix get_declared_struct_size for nested arrays of structs.
+76,2016-11-27 22:39:30.000000000,2016-11-28 18:35:16.000000000,closed,0,CompilerMSL fix cast error & add minor feature to CompilerGLSL
+75,2016-11-25 09:27:26.000000000,2016-11-26 03:39:11.000000000,closed,0,Updated Android build
+74,2016-11-22 13:19:48.000000000,2016-11-22 18:24:48.000000000,closed,6,CompilerGLSL should flip texture coordinate Y
+73,2016-11-22 02:43:25.000000000,2016-11-22 12:19:39.000000000,closed,0,Legacy GL_ARB_shader_texture_lod support.
+72,2016-11-19 03:04:06.000000000,2016-11-19 15:37:23.000000000,closed,2,Fixed python3 detection for spirv-cross-test.
+71,2016-11-18 20:50:42.000000000,2016-11-21 13:11:54.000000000,closed,0,WIP: Add control flow graph analysis for variable scoping
+70,2016-11-18 12:02:35.000000000,2016-11-19 16:53:03.000000000,closed,4,Python3 detection not working on Windows
+69,2016-11-13 02:51:22.000000000,2016-11-13 03:50:40.000000000,closed,7,GLSL code generation throws exception in non-Vulkan semantics mode when sampling a texture (generated from HLSL)
+68,2016-11-12 13:09:20.000000000,2016-11-12 15:07:32.000000000,closed,2,Exception thrown when parsing SPIR-V with mismatched entry point
+67,2016-11-11 07:15:31.000000000,2016-11-11 13:20:09.000000000,closed,0,"When flattening global structs for MSL, don't qualify names of built-…"
+66,2016-10-29 06:14:30.000000000,2016-11-11 13:45:10.000000000,closed,5,MSL: Wrongly named point_size builtin
+65,2016-10-28 23:17:40.000000000,2016-10-31 19:03:50.000000000,closed,6,Writing readonly in variable in GLSL
+64,2016-10-28 03:06:44.000000000,2016-10-28 11:09:35.000000000,closed,0,Support MSL-specific functions
+63,2016-10-27 14:56:53.000000000,2016-10-27 15:56:24.000000000,closed,2,Added all glsl reserved keywords to replace_illegal_names
+62,2016-10-07 17:39:17.000000000,2016-10-07 18:30:30.000000000,closed,3,'flat' keyword omitted
+61,2016-10-05 21:03:08.000000000,2016-10-06 01:21:29.000000000,closed,2,Fix compilation on some old C++11 standard libraries.
+60,2016-10-03 19:32:25.000000000,2016-10-03 19:33:28.000000000,closed,0,Add more complete specialization constant support
+59,2016-10-01 10:49:07.000000000,2016-10-01 11:37:32.000000000,closed,0,MSL: Add color attribute qualifiers to fragment function outputs
+58,2016-09-28 03:16:01.000000000,2016-09-28 10:13:47.000000000,closed,1,Wrong layout for tessellation evaluation shader
+57,2016-09-19 15:07:45.000000000,2016-09-19 17:12:57.000000000,closed,2,Internal Compiler Error - VS 2013
+56,2016-09-18 08:21:17.000000000,2016-09-21 10:20:01.000000000,closed,1,Do not add layout qualifiers to variables for legacy GLSL versions
+55,2016-09-17 21:01:04.000000000,2016-12-16 18:14:53.000000000,closed,7,Loops in legacy GLES
+54,2016-09-17 17:20:02.000000000,2016-10-03 19:33:48.000000000,closed,0,Spec constant support is incomplete
+53,2016-09-17 16:47:19.000000000,2016-09-17 20:45:02.000000000,closed,2,Legacy GLES extensions.
+52,2016-09-17 12:06:01.000000000,2016-09-17 16:20:53.000000000,closed,0,"Fix for array textures in GLSL < 130, and fix for MSL sequential resource binding"
+51,2016-09-17 07:23:31.000000000,2016-09-17 10:46:29.000000000,closed,0,Emit header_lines for MSL also
+50,2016-09-16 04:17:31.000000000,2016-09-16 10:03:18.000000000,closed,1,Correct vector's size begin checked
+49,2016-09-14 23:26:47.000000000,2016-09-17 17:14:56.000000000,closed,3,How can i get uniform buffer members?
+48,2016-09-11 16:01:51.000000000,2016-09-11 21:18:17.000000000,closed,0,Support separate image samplers in GLSL/ESSL
+47,2016-09-08 13:10:44.000000000,2016-09-08 13:17:39.000000000,closed,2,SubpassData and input_attachment are ignored
+46,2016-08-30 16:18:44.000000000,2016-09-12 01:22:37.000000000,closed,10,Correct Spir-V not correctly translating to GLES due to extension
+45,2016-08-26 15:01:11.000000000,2016-08-26 15:54:14.000000000,closed,4,Implement dead variable elimination.
+44,2016-08-24 20:26:44.000000000,2016-08-26 14:57:09.000000000,closed,9,Inactive variables
+43,2016-08-18 15:01:14.000000000,2018-01-22 13:55:13.000000000,closed,1,Add test cases for debug-stripped SPIR-V files.
+42,2016-08-18 14:56:30.000000000,2016-08-18 15:06:44.000000000,closed,0,Fix legacy GLSL output with gl_FragData.
+41,2016-08-17 20:55:25.000000000,2016-08-18 15:05:34.000000000,closed,2,Fix gl_FragData transformation
+40,2016-08-16 11:47:46.000000000,2016-08-18 15:01:57.000000000,closed,4,Output interface block causes a crash when converting to metal
+39,2016-08-13 18:14:15.000000000,2016-08-14 01:41:50.000000000,closed,0,Change variable names beginning with gl_ in GLSL
+38,2016-08-13 07:54:43.000000000,2016-08-13 12:32:40.000000000,closed,1,Bad return value when debug info stripped
+37,2016-08-12 16:31:16.000000000,2016-08-14 00:32:28.000000000,closed,4,How to get array size of an array of sampled images
+36,2016-08-10 04:45:10.000000000,2016-08-12 13:52:11.000000000,closed,2,Do not try to pump OpLine instructions into a block
+35,2016-07-28 15:21:06.000000000,2016-07-29 10:03:49.000000000,closed,0,Add support for multiple entry points.
+34,2016-07-28 04:56:45.000000000,2016-07-29 10:04:03.000000000,closed,4,Ability to set entry-point name for spirv-glsl
+33,2016-07-27 13:31:04.000000000,2016-07-27 13:32:27.000000000,closed,0,Add support for FP64/INT64/UINT64
+32,2016-07-25 10:07:28.000000000,2016-10-27 18:28:29.000000000,closed,9,"For MSL, convert use of global vars inside functions to function args on both callee and caller."
+31,2016-07-25 04:10:38.000000000,2016-07-26 16:08:54.000000000,closed,2,Short Question
+30,2016-07-12 22:51:26.000000000,2016-07-12 23:33:32.000000000,closed,2,get_type() don't return real array-size
+29,2016-07-08 04:40:32.000000000,2016-07-11 19:33:20.000000000,closed,13,SPIRV-Cross dont work
+28,2016-07-06 15:37:16.000000000,2017-01-28 12:53:49.000000000,closed,9,HLSL support
+27,2016-07-06 13:28:54.000000000,2016-07-06 13:32:56.000000000,closed,0,Add support for generic remapping of variables
+26,2016-07-05 14:11:59.000000000,2016-07-05 15:38:09.000000000,closed,6,Adds unused sampler uniforms when there are functions with sampler parameters
+25,2016-06-23 15:39:33.000000000,2016-06-23 16:12:19.000000000,closed,2,"Geometry shader contains ""layout invocations"" even when version is less than #400"
+24,2016-06-23 12:58:42.000000000,2016-06-23 15:25:58.000000000,closed,3,Incorrect GLSL generated from spirv-remap -minimized shader
+23,2016-06-22 14:25:24.000000000,2016-06-22 15:03:58.000000000,closed,2,Incorrect texelFetch emitted for sampler2DMS
+22,2016-06-05 21:23:26.000000000,2016-06-05 22:32:47.000000000,closed,2,Compilation errors on Linux due to macro conflict in Xlib.h
+21,2016-05-30 23:54:27.000000000,2018-11-07 00:02:24.000000000,closed,1,Flesh out C++ backend system for images and samplers
+20,2016-05-28 15:12:05.000000000,2016-05-28 22:27:16.000000000,closed,0,Use std::array in C++ backend.
+19,2016-05-28 13:35:12.000000000,2016-05-28 22:27:27.000000000,closed,4,[CPP] Invalid syntax is generated for array variable.
+18,2016-05-28 13:25:26.000000000,2016-05-28 13:33:32.000000000,closed,1,[CPP] gl_NumWorkGroups typo
+17,2016-05-27 16:09:48.000000000,2016-05-28 13:22:04.000000000,closed,3,Wrong type is assigned to globlal variable.
+16,2016-05-25 12:01:03.000000000,2016-05-30 23:31:43.000000000,closed,0,[WIP] Initial set of C++ backend samples.
+15,2016-05-23 15:47:47.000000000,2016-05-24 12:18:15.000000000,closed,2,CPP backend does not emit struct information for writeonly buffer correctly
+14,2016-05-19 15:11:51.000000000,2016-05-19 15:52:47.000000000,closed,3,CompilerCPP now properly initializes arrays with constant expressions
+13,2016-05-18 17:55:12.000000000,2016-05-23 11:18:09.000000000,closed,5,"Flexible array member is not supported in C++11, so emit an array of …"
+12,2016-05-18 15:50:41.000000000,1970-01-01 00:00:00.000000001,open,0,Pass Vulkan CTS in GLSL backend
+11,2016-05-18 15:42:57.000000000,2018-11-07 00:01:56.000000000,closed,1,Test framework for C++ backend needed
+10,2016-05-18 14:11:29.000000000,2016-05-23 11:18:41.000000000,closed,3,Flexible array member in CPP output
+9,2016-05-18 12:10:55.000000000,2016-05-19 17:05:53.000000000,closed,3,CompilerCPP does not generate valid c++ for array constant expressions
+8,2016-05-13 17:33:25.000000000,2016-05-13 17:35:22.000000000,closed,0,Better handling of bitcasts within integer operations
+7,2016-05-11 22:07:57.000000000,2016-05-12 10:13:26.000000000,closed,1,"Improve out of tree testing, and avoid separate GL/Vulkan folders"
+6,2016-05-11 19:35:48.000000000,2016-05-12 19:37:02.000000000,closed,3,shaders/tesc/basic.tesc fails
+5,2016-05-11 19:27:13.000000000,2016-05-12 20:23:03.000000000,closed,3,"With --vulkan option, test script checks both OpenGL and Vulkan paths"
+4,2016-05-11 01:47:12.000000000,2016-05-13 17:35:36.000000000,closed,1,Integer ops do not correctly bitcast
+3,2016-05-10 01:36:58.000000000,2016-05-11 18:09:56.000000000,closed,5,"Add a CMakeLists.txt file for use by cmake, ctest"
+2,2016-05-04 20:23:54.000000000,2016-05-05 10:06:05.000000000,closed,3,Initial support for Metal Shading Language.
+1,2016-04-07 01:44:44.000000000,2016-05-05 10:06:06.000000000,closed,4,Initial support for Metal Shading Language - OBSOLETE

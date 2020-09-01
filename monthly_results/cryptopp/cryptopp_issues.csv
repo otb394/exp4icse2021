@@ -1,0 +1,960 @@
+id,created_at,closed_at,state,comments,title
+962,2020-08-25 21:54:53.000000000,1970-01-01 00:00:00.000000001,open,0,std::bad_alloc when reading file of size >255 bytes
+961,2020-07-29 20:30:31.000000000,1970-01-01 00:00:00.000000001,open,3,improve runtime exception messages
+960,2020-07-21 14:55:46.000000000,2020-07-31 07:58:53.000000000,closed,6,Failure to set CRYPTOPP_CXX17_EXCEPTIONS with clang
+959,2020-07-18 12:54:41.000000000,2020-07-18 20:22:26.000000000,closed,1,"When using ECIES to decrypt, cryptopp takes longer to calculate than Bouncy Castle"
+958,2020-07-11 11:06:45.000000000,2020-07-11 15:08:15.000000000,closed,2,des enncode and decode is not equal
+957,2020-06-25 15:01:23.000000000,2020-06-30 06:03:40.000000000,closed,1,Performance of SHA512 of CryptoPP is slower than OpenSSL.
+956,2020-06-24 15:19:55.000000000,2020-06-24 19:03:30.000000000,closed,1,Binary bloat
+955,2020-06-19 11:02:37.000000000,2020-06-19 18:09:41.000000000,closed,1,[arm_simd.h] Failed to cross-compile from x64 to ARM64
+954,2020-06-08 15:48:38.000000000,2020-07-07 09:18:22.000000000,closed,2,"AES GCM encryption with large tag size results in incorrect output, out-of-bounds reads"
+953,2020-06-08 14:56:17.000000000,1970-01-01 00:00:00.000000001,open,2,Custom allocators for VectorSink/VectorSource
+952,2020-06-03 23:43:57.000000000,2020-06-04 05:03:19.000000000,closed,1,Fixed conflicting API names on ARMv7A with OpenSSL
+951,2020-06-02 04:49:16.000000000,2020-06-04 05:04:53.000000000,closed,2,Header and source files dependencies
+950,2020-05-22 02:05:42.000000000,2020-08-07 00:17:06.000000000,closed,23,Can't compile on Android due to wrong evaluation of CRC support
+949,2020-05-15 00:48:26.000000000,2020-05-15 01:37:20.000000000,closed,2,Better shell compatibility in setenv-ios.sh
+948,2020-05-07 13:57:33.000000000,2020-05-07 15:34:02.000000000,closed,2,Problem building cryptopp library for IOS
+947,2020-05-04 20:21:45.000000000,2020-05-04 20:59:19.000000000,closed,2,Undersized SipHash key leads to buffer out-of-bounds read
+946,2020-04-26 10:21:54.000000000,2020-04-28 11:47:33.000000000,closed,3,Use of uncaught_exception
+945,2020-04-23 03:12:05.000000000,2020-07-07 12:22:00.000000000,closed,8,SPECK64 different output if input is passed in chunks
+944,2020-04-21 04:11:50.000000000,2020-06-04 05:07:57.000000000,closed,3,Problems builing Crypto++ for POWER9
+943,2020-04-10 22:44:30.000000000,1970-01-01 00:00:00.000000001,open,0,K233 failure on Power8
+942,2020-03-31 06:37:44.000000000,2020-03-31 08:23:54.000000000,closed,1,Fix compile warnings
+941,2020-03-24 22:46:02.000000000,2020-03-24 22:46:40.000000000,closed,0,Add Cirrus CI testing
+940,2020-03-24 22:00:22.000000000,2020-03-24 22:47:57.000000000,closed,1,Add Cirrus CI testing
+939,2020-03-18 17:49:10.000000000,2020-03-18 18:07:47.000000000,closed,1,CMake-based build toolchain
+938,2020-03-12 07:56:04.000000000,2020-03-12 07:56:31.000000000,closed,0,Update Travis configuration
+937,2020-03-10 03:31:58.000000000,2020-03-10 05:53:08.000000000,closed,0,Update iOS and Android scripts (GH #936)
+936,2020-03-09 17:56:11.000000000,2020-03-12 07:57:06.000000000,closed,0,Update Android and iOS builds
+935,2020-02-29 16:15:23.000000000,2020-03-03 17:02:09.000000000,closed,2,Is there any document on how to use  Crypto++ library ?
+934,2020-02-28 21:53:47.000000000,2020-03-02 05:40:13.000000000,closed,2,Macro name conflict with 3rd party library
+933,2020-02-23 14:36:32.000000000,2020-03-24 22:11:22.000000000,closed,5,Build fails for iOS
+932,2020-02-09 20:59:11.000000000,2020-07-08 01:29:27.000000000,closed,4,Speck implemententation not matching test vector from wiki
+931,2020-02-09 19:49:45.000000000,2020-02-09 20:16:26.000000000,closed,2,Illegal instruction in CryptoPP::CPU_ProbeARMv7() under armv5tel architecture
+930,2020-02-08 04:30:35.000000000,2020-02-10 14:31:51.000000000,closed,4,GCM wiki documentation error/inconsistency with regard to: iv size in bytes.
+929,2020-02-07 17:09:17.000000000,2020-02-11 09:56:41.000000000,closed,6,Add asm code to enable solution Borland/Embarcadero and Issue 500
+928,2020-01-29 04:53:54.000000000,2020-01-29 12:41:20.000000000,closed,1,files.cpp Reset file ptr rather than release on init
+927,2020-01-28 19:40:49.000000000,2020-02-08 21:47:32.000000000,closed,1,Compile cpu-features.c with CC instead of CXX
+926,2020-01-28 19:38:28.000000000,2020-02-08 21:47:32.000000000,closed,1,error caused by cpu-features.c getting compiled with CXX
+925,2020-01-22 15:39:28.000000000,2020-02-11 10:31:07.000000000,closed,4,Add vcpkg installation instructions
+924,2020-01-17 10:02:17.000000000,2020-01-17 11:08:13.000000000,closed,1,Disable RDRAND and RDSEED on AMD cpu's with family 15h or 16h
+923,2020-01-15 10:37:58.000000000,2020-01-17 11:41:07.000000000,closed,1,BLAKE2b Collision
+922,2020-01-09 04:00:57.000000000,2020-01-09 06:08:55.000000000,closed,1,MSVC version documentation inconsistencies
+921,2020-01-06 01:30:09.000000000,2020-01-10 10:05:37.000000000,closed,2,Blake2b implementation: Salt has no effect and produces an incorrect digest.
+920,2020-01-04 17:19:49.000000000,2020-01-04 21:34:16.000000000,closed,1,Build failed for android NDK r20
+918,2019-12-06 20:41:18.000000000,2019-12-06 21:14:40.000000000,closed,0,Typo in CRYPTO_ASSERT
+917,2019-12-06 00:03:38.000000000,1970-01-01 00:00:00.000000001,open,6,Expose Blake2b Compression function for Ethereum Clients
+916,2019-12-01 14:13:27.000000000,2019-12-14 05:29:51.000000000,closed,1,Tiger official test vectors fail
+915,2019-12-01 02:29:57.000000000,2019-12-01 04:50:40.000000000,closed,2,Tiger official test vectors fail
+914,2019-11-20 16:55:11.000000000,2019-12-01 05:30:53.000000000,closed,1,Compiler flag to omit the PRNG
+913,2019-11-19 18:05:59.000000000,2019-12-01 05:34:20.000000000,closed,1,"Two files for Buildroot: Config.in, libcryptopp.mk"
+912,2019-11-17 04:25:11.000000000,2019-11-17 04:26:05.000000000,closed,0,Add s390 testing for Travis
+911,2019-11-05 11:46:48.000000000,2019-11-07 01:16:13.000000000,closed,3,https://cryptopp.com/wiki/ fails to load
+910,2019-10-28 09:12:25.000000000,2019-10-28 09:12:59.000000000,closed,0,Pre-splat SIMON and SPECK keys when appropriate for Altivec
+909,2019-10-27 22:02:19.000000000,2019-10-27 22:02:42.000000000,closed,0,Enable Power7 for Simon and Speck
+908,2019-10-27 06:57:48.000000000,2019-10-27 06:57:59.000000000,closed,0,Rename VecPolyMultiplyLE to VecIntelMultiply
+907,2019-10-27 06:11:32.000000000,2019-10-27 06:11:50.000000000,closed,0,Add XLC 12 loads and stores for AIX
+906,2019-10-25 09:29:54.000000000,2019-10-29 03:44:08.000000000,closed,2,Does crypto++ provide an implementation of paillier encryption? 
+905,2019-10-25 07:29:37.000000000,2019-10-25 07:30:06.000000000,closed,0,Rework CPU_ProbePower7
+904,2019-10-25 00:48:21.000000000,2019-10-25 00:48:41.000000000,closed,0,More Clang and XLC workarounds
+903,2019-10-24 23:36:24.000000000,2019-10-24 23:36:40.000000000,closed,0,Some more workarounds for Clang and XLC on PowerPC
+902,2019-10-24 02:11:28.000000000,2019-10-24 02:15:47.000000000,closed,0,Fix AIX and Linux compiles for PowerPC
+901,2019-10-23 20:40:31.000000000,2019-10-23 20:40:46.000000000,closed,0,More Clang workarounds on PowerPC
+900,2019-10-23 16:36:35.000000000,2019-10-23 16:36:53.000000000,closed,0,Port ppc_simd.h to Clang 3.8
+899,2019-10-22 17:20:39.000000000,2019-10-22 17:21:39.000000000,closed,0,Revert to Commit 0281083
+898,2019-10-20 23:26:01.000000000,2019-10-21 05:46:06.000000000,closed,0,"Cleanup config_*.h files, update travis.yml file"
+897,2019-10-17 16:31:27.000000000,2019-10-17 16:41:31.000000000,closed,1,config_asm.h: Allow clang-tooling
+896,2019-10-17 04:59:15.000000000,2019-10-17 05:00:46.000000000,closed,0,Fix Android Aarch64 compile
+895,2019-10-17 01:10:43.000000000,2019-10-17 01:11:00.000000000,closed,0,Fix cryptest-android.sh and cryptest-ios.sh
+894,2019-10-16 15:29:39.000000000,2019-10-16 15:30:41.000000000,closed,0,Fix Android ARMv7a compile and link
+893,2019-10-16 02:04:53.000000000,2019-10-16 02:05:54.000000000,closed,1,Fix setenv-android.sh and cryptest-android.sh for NDK r19
+892,2019-10-12 15:13:54.000000000,2019-10-12 15:14:39.000000000,closed,1,Add XTS block cipher mode of operation (GH #891)
+891,2019-10-12 15:13:28.000000000,2019-10-12 15:15:20.000000000,closed,1,Add XTS block cipher mode of operation
+890,2019-10-03 11:39:55.000000000,2019-10-03 12:12:54.000000000,closed,0,Add BytePtr and ConstBytePtr overloads for SecByteBlock
+889,2019-10-02 17:03:10.000000000,2019-10-04 03:48:50.000000000,closed,2,Tiny issue with extra semicolons and gcc-9.2.0 in pedantic mode
+888,2019-09-30 11:01:18.000000000,2019-10-03 12:54:35.000000000,closed,2,blowfish: fix -Wundefined-var-template clang warning
+887,2019-09-30 09:32:16.000000000,2019-09-30 13:35:45.000000000,closed,0,clang: error: linker command failed with exit code 1 (use -v to see invocation) on MacOS
+886,2019-09-29 05:37:14.000000000,2019-09-29 05:37:59.000000000,closed,1,Fix Rijndael recursion overflow when -DCRYPTOPP_DISABLE_SSSE3 (GH #880)
+885,2019-09-29 01:02:18.000000000,2019-09-29 02:25:33.000000000,closed,1,Circular dependency between misc.h and secblock.h
+884,2019-09-28 10:51:12.000000000,2019-09-29 02:29:33.000000000,closed,1,Add Certificate interface
+883,2019-09-27 01:10:43.000000000,2019-09-27 02:07:04.000000000,closed,3,CFB_Mode_ExternalCipher does not work
+882,2019-09-25 19:21:40.000000000,2019-09-27 01:36:57.000000000,closed,2,Unable to locate program input point GetLogicalProcesserInformation
+881,2019-09-10 21:19:03.000000000,2019-09-22 07:47:46.000000000,closed,1,msvc instant crash in debug build
+880,2019-09-10 14:13:27.000000000,2019-09-29 05:43:02.000000000,closed,6,Infinite recursion in rijndael.cpp
+879,2019-09-06 10:17:01.000000000,1970-01-01 00:00:00.000000001,open,3,Project structure re-organisation
+878,2019-08-27 02:00:55.000000000,1970-01-01 00:00:00.000000001,open,14,Regression in Elliptic Curve Operation on brainpoolP256r1
+877,2019-08-24 15:37:20.000000000,2019-09-30 04:18:57.000000000,closed,13,Add support for mcrypt's blowfish-compat
+876,2019-08-24 08:18:48.000000000,2019-08-24 21:16:18.000000000,closed,24,ElGamal encryption key Load and BERDecodeErr
+875,2019-08-23 00:40:24.000000000,2019-09-27 10:40:07.000000000,closed,1,Size cannot be zero
+874,2019-08-16 13:03:29.000000000,2019-08-16 14:50:20.000000000,closed,4,PKCS5_PBKDF1 buffer overflow
+873,2019-08-07 05:01:01.000000000,2019-08-07 05:01:23.000000000,closed,0,Fix RDSEED hang on x86 (GH #872)
+872,2019-08-05 16:49:08.000000000,2019-08-07 05:03:36.000000000,closed,7,Exception 0xc0000005 in cryptest using VS2017
+871,2019-08-05 10:21:24.000000000,2019-08-05 11:51:58.000000000,closed,0,Fix ECP leakage in Add() and Double() (GH #869)
+870,2019-07-29 13:57:16.000000000,2019-07-29 18:12:14.000000000,closed,1,Fix ECDSA scalar multiplication leakage of bit-length.
+869,2019-07-26 08:49:09.000000000,1970-01-01 00:00:00.000000001,open,7,Elliptic Curve timing leaks
+868,2019-07-24 15:29:29.000000000,2019-08-05 12:23:15.000000000,closed,16,CRYPTOPP_ARM_CRC32_AVAILABLE is set even when +crc is not set in march
+867,2019-07-23 13:53:58.000000000,2019-07-23 20:39:52.000000000,closed,2,Use fixed size temporary in LC_RNG for consistency across platforms
+866,2019-07-21 10:12:15.000000000,2019-07-21 11:22:21.000000000,closed,1,Add link-library variable to Makefiles
+865,2019-07-19 01:04:26.000000000,2019-09-27 10:17:58.000000000,closed,28,"LTO build fails due to missint ""-m"" flags in linker command"
+864,2019-07-13 22:21:16.000000000,2019-07-14 08:04:55.000000000,closed,7,"Crypto++ 8.2 and misc.h:94:32: error: missing binary operator before token ""0"""
+863,2019-07-12 01:54:30.000000000,2019-09-27 10:18:52.000000000,closed,1,Android and neon_vector_type attribute is not supported for this target
+862,2019-07-10 18:04:14.000000000,2019-07-11 02:54:29.000000000,closed,0,Add GetWord64 and PutWord64
+861,2019-07-06 11:04:10.000000000,2019-07-06 11:10:00.000000000,closed,1,Use HKDF in AutoSeededX917RNG::Reseed
+860,2019-07-05 11:17:59.000000000,2019-07-14 01:38:46.000000000,closed,2,Asan finding in VMAC on i686 in inline asm
+859,2019-07-03 00:40:52.000000000,2019-07-03 21:11:46.000000000,closed,1,AMD and error: use of undeclared identifier '_mm_roti_epi64'
+858,2019-07-03 00:36:08.000000000,2019-07-03 00:45:04.000000000,closed,1,config: guard CRYPTOPP_SSE2_INTRIN_AVAILABLE with CRYPTOPP_DISABLE_SSE2
+857,2019-07-02 18:48:46.000000000,2019-07-02 19:06:29.000000000,closed,11,Use MAC::DIGESTSIZE in ECIES SymmetricEncrypt/SymmetricDecrypt
+856,2019-07-02 02:26:31.000000000,2019-07-02 19:06:29.000000000,closed,0,ECIES and GetSymmetricKeyLength no longer uses MAC::DEFAULT_KEYLENGTH
+855,2019-06-28 18:18:58.000000000,2019-07-01 19:22:50.000000000,closed,6,Possible divide by zero
+854,2019-06-27 22:57:10.000000000,2019-06-29 00:17:43.000000000,closed,5,Assembler errors when building with clang on MacOSX Mojave :  error: unknown token in expression         INTEL_NOPREFIX
+853,2019-06-10 12:42:41.000000000,2019-06-12 15:37:53.000000000,closed,3,Compilation warning fix.
+852,2019-06-07 19:24:47.000000000,2019-06-07 19:34:46.000000000,closed,5,Issue on creating CryptoPP::BERGeneralDecoder object
+851,2019-06-04 10:43:38.000000000,2019-06-04 10:53:13.000000000,closed,0,Refine ASN.1 encoders and decoders so they don't accidentally match copy ctor
+850,2019-06-01 08:00:28.000000000,2019-06-01 08:17:24.000000000,closed,1,Disable BMI2 code paths in Integer class
+849,2019-05-28 18:10:45.000000000,2019-05-30 01:52:27.000000000,closed,3,Program stuck on MUL_16 (line 1411 in integer.cpp)
+848,2019-05-28 17:13:27.000000000,2019-05-28 23:24:37.000000000,closed,3,Heap Corruption on Mingw64
+847,2019-05-27 05:36:25.000000000,2019-05-27 09:13:15.000000000,closed,0,Add Cryptogams sha_xxx_neon functions
+846,2019-05-23 02:54:36.000000000,2019-05-23 04:18:12.000000000,closed,0,"ARM and ""unexpected reloc type 0x03"" loading shared object"
+845,2019-05-21 11:14:35.000000000,2019-05-21 15:55:37.000000000,closed,0,Fix use of CRYPTOPP_CLANG_VERSION 
+844,2019-05-21 02:35:10.000000000,2019-05-21 07:12:51.000000000,closed,1,Performance is off for some algorithms on ARM with Clang
+843,2019-05-20 00:28:45.000000000,2019-05-20 00:29:46.000000000,closed,0,Add ARM SHA512 asm implementation from Cryptogams (GH #841)
+842,2019-05-19 16:28:13.000000000,2019-05-20 11:59:13.000000000,closed,1,Scrypt with blocksize = 0 segfaults
+841,2019-05-19 16:09:13.000000000,2019-05-20 00:29:59.000000000,closed,0,Add ARM SHA512 asm implementation from Cryptogams 
+840,2019-05-19 14:58:22.000000000,2019-05-19 14:59:13.000000000,closed,0,Add ARM SHA256 asm implementation from Cryptogams
+839,2019-05-19 13:27:36.000000000,2019-05-19 15:15:31.000000000,closed,0,Add ARM SHA256 asm implementation from Cryptogams
+838,2019-05-19 07:06:27.000000000,2019-05-19 07:07:18.000000000,closed,0,Add ARM SHA1 asm implementation from Cryptogams (GH #837)
+837,2019-05-18 14:39:16.000000000,2019-05-19 07:08:05.000000000,closed,0,Add ARM SHA1 asm implementation from Cryptogams
+836,2019-05-17 23:17:39.000000000,2019-05-17 23:18:17.000000000,closed,0,Make config.h more Autoconf friendly (GH #835)
+835,2019-05-16 11:00:59.000000000,2019-05-18 06:26:42.000000000,closed,1,Make config.h more autoconf friendly
+834,2019-05-16 08:45:01.000000000,2019-05-18 06:33:59.000000000,closed,15,GCC 4.9 linux x64 target crash with SIGILL
+833,2019-05-06 15:53:32.000000000,1970-01-01 00:00:00.000000001,open,5,OSS-Fuzz integration
+832,2019-05-02 17:48:19.000000000,2019-05-02 19:56:31.000000000,closed,1,static lib can't work good
+831,2019-05-01 09:27:30.000000000,2019-05-01 19:02:27.000000000,closed,1,Gracefully handle Clang triplet armv8l-unknown-linux-gnueabihf
+830,2019-05-01 07:00:37.000000000,2019-05-01 07:00:57.000000000,closed,0,Remove C++11 constexpr code for CRYPTOPP_ALIGN_DATA
+829,2019-05-01 04:28:22.000000000,2019-05-01 04:32:01.000000000,closed,1,xed25519.cpp:856:97: runtime error: reference binding to misaligned address
+828,2019-05-01 01:21:03.000000000,2019-05-01 01:53:59.000000000,closed,0,Clear alignment warnings on ARM 32-bit platforms
+827,2019-04-29 08:02:30.000000000,2019-04-29 08:16:03.000000000,closed,1,Debug asserts in TestDataNameValuePairs
+826,2019-04-28 04:34:25.000000000,2019-04-28 04:35:02.000000000,closed,0,Use PowerPC unaligned loads and stores with Power8 (GH #825)
+825,2019-04-28 04:21:55.000000000,2019-04-28 05:17:12.000000000,closed,1,Use PowerPC unaligned loads and stores with Power8
+824,2019-04-26 19:12:57.000000000,2019-04-27 08:48:41.000000000,closed,5,SKIPJACK encryption gives wrong result
+823,2019-04-20 14:32:14.000000000,2019-04-20 20:15:04.000000000,closed,0,CRC32 value is
+822,2019-04-07 14:07:58.000000000,2019-04-07 18:15:06.000000000,closed,4,cross compile for i686 (Qnap NAS failed)
+821,2019-03-25 22:35:11.000000000,2019-04-28 05:38:45.000000000,closed,1,Compiler warning in hmac.h
+820,2019-03-23 22:46:57.000000000,2019-03-24 04:11:12.000000000,closed,1,shake.h not compatible for the NaCl cimpiler (gcc) 
+819,2019-03-21 06:40:50.000000000,2019-03-21 13:27:56.000000000,closed,1,VS2013 compile error
+818,2019-03-18 15:15:50.000000000,2019-03-18 16:08:12.000000000,closed,2,compile error  when building version 810
+817,2019-03-06 21:28:45.000000000,2020-01-01 00:38:18.000000000,closed,6,AuthenticatedDecryptionFilter with AAD throws an exception when used with a FileSource
+816,2019-03-06 21:21:09.000000000,2019-03-06 21:31:47.000000000,closed,5,Add std::byte overloads
+815,2019-02-28 16:22:29.000000000,2019-02-28 16:37:19.000000000,closed,2,Use TCXXFLAGS instead of CXXFLAGS
+814,2019-02-28 15:32:59.000000000,2019-12-30 12:38:32.000000000,closed,2,GNUmakefile needs to use separate variable for CXXFLAGS
+813,2019-02-28 05:34:46.000000000,2019-02-28 05:36:30.000000000,closed,1,Remove IS_NEON from Makefile
+812,2019-02-26 22:12:18.000000000,2019-02-28 16:37:19.000000000,closed,11,Build fails on fedora30+ (CPU features miss-detected)
+809,2019-02-22 04:31:53.000000000,2019-02-22 04:34:33.000000000,closed,1,config.h: avx2 depends on gcc 4.9
+808,2019-02-15 03:09:58.000000000,2019-02-15 08:37:09.000000000,closed,30,The ARM NEON Speck optimization is wrong
+807,2019-02-14 02:41:11.000000000,2019-02-23 10:23:39.000000000,closed,15,ChaCha Algorithm changed?
+806,2019-02-13 05:50:58.000000000,2019-02-13 05:51:37.000000000,closed,0,Add SHAKE-128 and SHAKE-256 (GH #805)
+805,2019-02-13 05:15:55.000000000,2019-02-13 05:52:39.000000000,closed,1,Add SHAKE-128 and SHAKE-256
+804,2019-02-13 02:55:39.000000000,2019-02-13 02:56:01.000000000,closed,0,Latch previous ROUNDS in Salsa and ChaCha ciphers (GH #800) 
+803,2019-02-13 00:59:52.000000000,2019-02-13 01:05:40.000000000,closed,0,fix https://github.com/weidai11/cryptopp/issues/801
+802,2019-02-12 23:19:29.000000000,2019-02-13 00:40:47.000000000,closed,1,donna_64.cpp failed to compile under VC2005 with x64 target
+801,2019-02-12 22:47:08.000000000,2019-02-13 01:05:56.000000000,closed,2,"Missing method ""AlgorithmProvider"" on class ""PanamaHash"""
+800,2019-02-12 22:31:42.000000000,2019-02-13 02:56:48.000000000,closed,3,"The old ChaCha8, ChaCha12 and ChaCha20 is better then current ChaCha with ""Rounds"" parameter"
+799,2019-02-12 19:02:12.000000000,2019-02-12 20:35:10.000000000,closed,2,HexDecoder decode will cause exception on Win10 x64
+798,2019-02-12 18:32:45.000000000,2019-02-23 07:24:30.000000000,closed,8,Crash in RandomPool::GenerateIntoBufferedTransformation
+797,2019-02-11 08:57:41.000000000,2019-02-11 09:08:15.000000000,closed,0,Add ed25519 SignStream and VerifyStream functions (GH #796)
+796,2019-02-11 05:34:48.000000000,2019-02-11 20:01:47.000000000,closed,0,ed25519 needs SignStream and VerifyStream functions
+795,2019-02-06 14:04:07.000000000,2019-02-06 14:14:40.000000000,closed,0,Add IETF XChaCha20Poly1305 (GH #727)
+794,2019-02-06 11:02:55.000000000,2019-02-06 11:03:29.000000000,closed,0,Add IETF XChaCha (GH #727)
+793,2019-01-30 22:06:37.000000000,2019-02-01 05:19:56.000000000,closed,5,Including Crypto++ headers disables warnings
+792,2019-01-29 23:40:47.000000000,2019-01-30 10:36:07.000000000,closed,0,MSVC warnings
+791,2019-01-27 20:10:21.000000000,2019-02-01 05:13:35.000000000,closed,1,Warnings when generation documentation
+790,2019-01-26 05:29:06.000000000,2019-02-23 10:22:49.000000000,closed,1,ChaChaTLS results when counter block wraps
+789,2019-01-25 17:41:59.000000000,2019-01-26 06:17:19.000000000,closed,2,ECDSA signature verification examples from wiki do not work
+788,2019-01-24 12:10:53.000000000,2019-01-24 12:28:20.000000000,closed,2,[Rabbit] Decrypt same encrypted data multiple times results in different data
+787,2019-01-21 02:55:10.000000000,2019-01-21 08:52:41.000000000,closed,4,"scrypt needs OpenMP 3, MSVC only supports OpenMP 2"
+786,2019-01-18 04:15:19.000000000,2019-01-18 10:06:23.000000000,closed,3,8.0 fails to build on Xcode 10
+785,2019-01-17 21:49:42.000000000,2019-02-12 04:12:56.000000000,closed,3,ECDH Private key length incorrect with secp160r1
+784,2019-01-16 10:01:29.000000000,2019-01-16 10:02:05.000000000,closed,0,Use carryless multiplies for NIST b233 and k233 curves (GH #783)
+783,2019-01-16 09:55:57.000000000,2019-01-16 10:14:51.000000000,closed,0,Use carryless multiplies for NIST b233 and k233 curves
+782,2019-01-16 04:40:54.000000000,2019-01-24 11:36:05.000000000,closed,7,32-bits GCC/Linux debug build self test failures
+781,2019-01-14 15:36:23.000000000,2019-01-14 21:51:27.000000000,closed,6,Crypto++ build error due to <stddef.h> on Windows
+780,2019-01-12 02:37:01.000000000,2019-01-12 02:37:27.000000000,closed,0,Make AlignedAllocate available in simulator debug builds (GH #779)
+779,2019-01-11 19:11:12.000000000,2019-01-12 02:43:02.000000000,closed,3,Undefined symbols for architecture x86_64 iPhone Simulator
+778,2019-01-11 16:35:20.000000000,2019-01-12 02:40:49.000000000,closed,1," Don't add the flag ""DCRYPTOPP_DISABLE_ASM"" twice for iPhone simulator compilation"
+777,2019-01-09 23:54:10.000000000,2019-01-10 23:14:56.000000000,closed,2,Compiler warnings on clang++ for archs armv7 and armv7s
+776,2019-01-03 23:32:59.000000000,2019-01-05 06:23:24.000000000,closed,5,Compile failures using ARM and ARM64 with Microsoft tools
+775,2019-01-03 22:31:43.000000000,2019-01-05 06:21:38.000000000,closed,0,"It is not possible build cryptopp for arm64, armv7s, armv6 or armv5 using the script ""setenv-ios.sh"""
+774,2019-01-03 22:28:45.000000000,2019-01-05 02:41:48.000000000,closed,1,"Initialize ""APPLE_SDK"" if arm64, armv7, armv7s, armv6 or armv5 is pas…"
+773,2019-01-03 10:17:25.000000000,2019-01-04 07:05:01.000000000,closed,1,Argument declaration and definition mismatch.
+772,2019-01-02 21:39:34.000000000,2019-10-13 11:15:59.000000000,closed,7,Current master fails to compile on AVX512F CPU
+771,2019-01-02 17:34:58.000000000,2019-01-02 22:05:27.000000000,closed,1,Fix clang warnings
+770,2019-01-02 03:51:13.000000000,2019-01-02 03:57:33.000000000,closed,0,SunCC expects Allocator::max_size(size_type) member function
+769,2018-12-30 10:09:18.000000000,2018-12-30 10:47:02.000000000,closed,2,Avoid Clang integrated assembler on macOS PowerPC
+768,2018-12-28 03:26:03.000000000,2019-01-17 01:22:23.000000000,closed,1,32-bit MinGW self test failures
+767,2018-12-25 03:16:55.000000000,2018-12-25 03:17:33.000000000,closed,0,Add ed25519
+766,2018-12-21 20:48:22.000000000,2018-12-22 05:54:24.000000000,closed,1,Added check if VS version is 2008 or earlier to fix from 082ad86
+765,2018-12-20 20:22:38.000000000,2018-12-21 03:33:17.000000000,closed,1,add Hygon Dhyana support to enable RDRAND/RDSEED/ADX/AVX2 Feature
+764,2018-12-17 14:35:46.000000000,2018-12-25 03:50:58.000000000,closed,0,Add ed25519 for modern signatures
+763,2018-12-13 16:16:40.000000000,2019-11-17 03:54:28.000000000,closed,9,Building for Android using NDK not supported on Windows hosts
+762,2018-12-12 02:17:15.000000000,2018-12-12 02:17:56.000000000,closed,0,Add Langley's curve25519 (GH #761)
+761,2018-12-11 18:47:59.000000000,2018-12-14 13:30:11.000000000,closed,0,Add curve25519 for modern key agreement
+760,2018-12-07 18:21:08.000000000,2018-12-07 22:45:58.000000000,closed,1,Make self-tests run after install by a typical user
+759,2018-12-07 06:23:13.000000000,2018-12-23 18:49:40.000000000,closed,4,Use SSE2 intrinsics header in sse_simd.cpp only if needed
+758,2018-12-06 19:20:17.000000000,1970-01-01 00:00:00.000000001,open,3,Incorrect result when resynchronizing Panama cipher
+757,2018-12-05 23:19:47.000000000,2018-12-05 23:22:11.000000000,closed,0,Add CRYPTOPP_DISABLE_MIXED_ASM define and feature test (GH #756)
+756,2018-12-05 19:31:13.000000000,2018-12-05 23:43:31.000000000,closed,0,Add CRYPTOPP_DISABLE_MIXED_ASM define and feature test
+755,2018-12-04 13:41:32.000000000,2019-02-24 14:42:00.000000000,closed,6,Include with angle brackets
+754,2018-12-04 13:35:38.000000000,2018-12-05 17:37:53.000000000,closed,0,Global Constructor Audit
+753,2018-12-03 22:22:02.000000000,2019-10-13 11:16:47.000000000,closed,21,GNUmakefile fails to properly accommodate for AVX512f
+752,2018-12-03 02:56:02.000000000,2019-03-05 12:27:14.000000000,closed,2,Support for implementing Secret Sharing
+751,2018-12-01 16:19:38.000000000,2018-12-06 00:03:38.000000000,closed,7,SIGILL on older OS X with new Clang due to global ctor instructions
+750,2018-11-29 11:47:20.000000000,2018-11-30 10:55:21.000000000,closed,3,ED25519 API design
+749,2018-11-28 02:24:34.000000000,2018-12-10 21:05:00.000000000,closed,2,"PowerPC, GCC 8.2 and failed self tests"
+748,2018-11-27 12:53:55.000000000,2018-11-27 12:54:26.000000000,closed,0,Add Power9 Random Number Generator support (GH #747)
+747,2018-11-27 09:33:59.000000000,2018-11-27 13:02:30.000000000,closed,0,Add Power9 Random Number Generator support
+746,2018-11-26 17:35:34.000000000,2018-12-01 06:19:08.000000000,closed,2,AES CBC Decrypt crashes on some machines
+745,2018-11-22 09:01:01.000000000,2018-12-06 04:54:36.000000000,closed,2,FixedSizeAllocatorWithCleanup is not always aligned as expected
+744,2018-11-21 16:58:46.000000000,2018-11-21 21:14:31.000000000,closed,1,Importing openssl-made secp256k1 private key fails
+743,2018-11-21 10:23:08.000000000,2018-11-21 11:01:26.000000000,closed,1,BLAKE2s failure on AIX 7.1 and XLC 12.01
+742,2018-11-18 13:59:22.000000000,2018-11-25 00:22:53.000000000,closed,3,Add Clang 7.0 PowerPC support
+741,2018-11-18 09:29:59.000000000,2018-12-01 18:17:57.000000000,closed,8,Make-based cpu feature tests and language
+740,2018-11-17 06:00:55.000000000,2018-11-17 06:21:40.000000000,closed,1,Typo on HexDecoder help wiki page
+739,2018-11-14 05:16:42.000000000,2018-11-14 08:04:04.000000000,closed,2,Misc warning fixes
+738,2018-11-11 23:19:22.000000000,2018-11-12 12:03:13.000000000,closed,9,Makefile not detecting Macport compiler after cutover to feature-based tests
+737,2018-11-11 11:12:38.000000000,2018-11-11 11:14:44.000000000,closed,0,Move to feature-based availability testing in Makefile
+736,2018-11-10 17:57:06.000000000,2018-11-10 18:05:15.000000000,closed,1,Rename files with dashes to underscores
+735,2018-11-09 01:48:54.000000000,2018-11-10 18:55:20.000000000,closed,1,Add ChaCha AVX2 implementation
+734,2018-11-05 16:39:58.000000000,2018-11-05 19:01:42.000000000,closed,1, Improve Salsa20 implementation and test cases
+733,2018-11-04 21:33:23.000000000,2018-11-16 05:11:30.000000000,closed,5,android: use CC to compile cpu-features
+732,2018-11-04 17:17:51.000000000,2018-11-05 18:39:20.000000000,closed,1,Improve ChaCha20 implementation and test cases
+731,2018-11-02 23:59:30.000000000,2018-11-03 02:35:57.000000000,closed,1,Add BLAKE2s Power7 implementation
+730,2018-11-01 12:57:37.000000000,2018-11-01 14:49:05.000000000,closed,3,Add VectorSource
+729,2018-10-30 12:56:16.000000000,2018-10-30 14:22:55.000000000,closed,1,Add BLAKE2b Power8 implementation
+728,2018-10-29 16:48:37.000000000,2018-12-06 12:09:45.000000000,closed,3,test btea
+727,2018-10-26 02:24:23.000000000,2019-02-06 14:14:58.000000000,closed,3,XChaCha20 support
+726,2018-10-25 06:06:21.000000000,2018-10-25 10:17:22.000000000,closed,1,BTEA Error
+725,2018-10-24 23:10:03.000000000,2018-10-27 13:01:37.000000000,closed,4,Pure virtual function call exception
+724,2018-10-21 19:29:46.000000000,2019-01-28 18:53:20.000000000,closed,1,Need chacha20-poly1305 AEAD support
+723,2018-10-19 12:36:25.000000000,2018-10-22 15:50:05.000000000,closed,1,Fix unused variable warnings
+722,2018-10-17 04:23:06.000000000,2018-10-18 05:08:37.000000000,closed,1,compile cryptopp have a error
+721,2018-10-16 21:11:32.000000000,2018-10-25 10:02:33.000000000,closed,10,SIGSEGV thrown by RandomNumberGenerator::DiscardBytes from current Master
+720,2018-10-13 17:20:03.000000000,2018-10-17 09:09:26.000000000,closed,4,Wiki service down
+719,2018-09-29 23:47:35.000000000,2018-10-20 14:32:58.000000000,closed,7,patch for the google native client (NaCl) target 
+718,2018-09-25 02:12:10.000000000,2018-09-25 02:21:24.000000000,closed,6,Crypto++ Memory Leak and Security Hole
+717,2018-09-23 13:31:43.000000000,2018-09-23 21:17:12.000000000,closed,4,Windows compile problem
+716,2018-09-19 05:57:13.000000000,2018-09-19 07:07:53.000000000,closed,1,"Crypto++ cannot encrypt wide characters correctly,such as Chinese characters."
+715,2018-09-17 14:15:50.000000000,2018-09-22 03:02:45.000000000,closed,7,TLS Certificate of www.cryptopp.com expired - please renew!
+714,2018-09-11 05:51:32.000000000,2018-09-11 05:58:11.000000000,closed,3,LegacyDecryptor and LegacyDecryptorWithMAC use wrong MAC
+713,2018-08-28 12:01:49.000000000,2018-08-28 16:46:21.000000000,closed,7,Can't compile program using CMake with Crypto++ 7.0
+712,2018-08-25 14:07:38.000000000,2018-08-26 05:43:01.000000000,closed,4,Compiling without RTTI support
+711,2018-08-25 11:40:55.000000000,2018-08-26 06:12:03.000000000,closed,6,Android x86 build failed due to _mm_crc32_u8 requires sse4.1
+710,2018-08-24 16:12:24.000000000,2018-08-24 16:13:24.000000000,closed,0,Fix partial specializations for FixedSizeAllocatorWithCleanup
+709,2018-08-23 22:41:54.000000000,2018-08-23 22:42:30.000000000,closed,0,Fix alignment on Win32 and Solaris Sparc 
+708,2018-08-22 23:20:56.000000000,2018-09-06 03:08:04.000000000,closed,0,Move away from Singleton when possible
+707,2018-08-21 09:50:26.000000000,2018-08-21 20:55:28.000000000,closed,1,Exception when using InitializeInteger with std::call_once
+706,2018-08-20 05:26:47.000000000,2018-08-30 12:39:21.000000000,closed,5,PEM Pack missing support for PKCS#8 Private Key
+705,2018-08-18 19:16:56.000000000,2018-08-18 19:17:51.000000000,closed,1,Fix build for MinGW due to deleted winpipes.cpp
+704,2018-08-18 12:44:30.000000000,2018-08-18 12:44:54.000000000,closed,0,Disable X32 inline assembly (GH #686)
+703,2018-08-18 07:55:01.000000000,2018-08-18 07:55:40.000000000,closed,0,Remove Thread and Socket classes (GH #208)
+702,2018-08-16 15:10:05.000000000,2018-08-17 04:29:14.000000000,closed,1,Redefinition wanings in aria.cpp
+701,2018-08-15 15:37:41.000000000,2018-08-17 08:16:56.000000000,closed,2,Will be Shabal hash function available?
+700,2018-08-12 01:36:18.000000000,2018-08-18 16:26:24.000000000,closed,1,Could you convert Readme to markdown?
+699,2018-08-10 19:50:31.000000000,2018-08-11 02:54:08.000000000,closed,2,Support DER ECDSA signature output as per ANSI X9.62
+698,2018-08-09 16:06:06.000000000,2018-08-11 07:31:16.000000000,closed,1,Add Power8 GCM mode
+697,2018-08-07 07:33:07.000000000,2018-08-18 12:53:53.000000000,closed,1,ChaCha20-Poly1305 support
+696,2018-08-05 06:35:33.000000000,2018-08-05 06:54:37.000000000,closed,2,Fix build with Embarcadero C++Builder 10.2.3
+695,2018-07-31 06:00:17.000000000,2018-08-01 19:54:07.000000000,closed,1,Linux POWER8/ppc64-le compile failures on GCC112
+694,2018-07-28 04:49:59.000000000,2018-07-28 04:51:27.000000000,closed,1,"Solaris, SunCC and failed AES self tests"
+693,2018-07-27 11:37:16.000000000,2018-07-29 07:46:01.000000000,closed,1,'D': unreferenced local variable (VS 2017)
+692,2018-07-26 18:45:44.000000000,2018-09-06 03:08:20.000000000,closed,2,NuGet: Package is out of date. Current newest available version is 5.6.5.4
+691,2018-07-21 15:53:51.000000000,2018-07-21 16:11:55.000000000,closed,1,GetAlignmentOf returns 4 on Sparc when T=word64
+690,2018-07-21 03:45:32.000000000,2018-07-21 04:14:42.000000000,closed,1,Solaris 11 and Sparc crash in Tiger
+689,2018-07-20 21:01:24.000000000,2018-07-20 21:26:55.000000000,closed,1,Solaris 11 and Sparc crash in SHA384
+688,2018-07-20 14:01:00.000000000,2018-07-20 14:07:37.000000000,closed,1,create rsa key in buffer load not success(5.6.5 is success use DERDecode)
+687,2018-07-15 16:34:09.000000000,2018-07-15 16:35:15.000000000,closed,0,Add ARMv8.4 cpu feature detection support (GH #685)
+686,2018-07-14 17:47:44.000000000,2018-08-18 09:59:35.000000000,closed,5,SHA512_HashBlock_SSE2 inefficient (and potentially buggy) asm for x32.  MMX is unnecessary.
+685,2018-07-14 16:12:24.000000000,1970-01-01 00:00:00.000000001,open,0,Add ARMv8.4 cpu feature detection support
+684,2018-07-14 01:02:38.000000000,2018-07-14 01:24:18.000000000,closed,1,"GCC 5.4 and ""Error: symbol SHA512_Round is already defined"""
+683,2018-07-11 14:56:58.000000000,2018-07-11 15:04:04.000000000,closed,1,Add ARM AES asm implementation from Cryptogams
+682,2018-07-09 12:36:11.000000000,2018-07-11 23:20:35.000000000,closed,1,Remove CRYPTOPP_ALLOW_UNALIGNED_DATA_ACCESS support
+681,2018-07-06 17:23:21.000000000,2018-07-06 17:23:37.000000000,closed,0,Add algorithm provider member function to Algorithm class
+680,2018-07-05 14:11:22.000000000,2018-07-05 14:59:27.000000000,closed,1,Add HC-256 stream cipher
+679,2018-07-05 08:26:40.000000000,2018-07-05 08:30:03.000000000,closed,1,Add HC-128 stream cipher
+678,2018-07-04 11:00:14.000000000,2018-07-04 11:48:22.000000000,closed,1,Add Rabbit stream cipher
+677,2018-07-01 03:23:37.000000000,2018-07-01 19:09:05.000000000,closed,1,"Clang 5.0/6.0, CHAM-64/ECB and failed self test at -O1"
+676,2018-06-30 10:41:40.000000000,2018-06-30 10:43:12.000000000,closed,0,Add Simeck lightweight block cipher (GH #675)
+675,2018-06-30 10:41:29.000000000,2018-06-30 10:51:59.000000000,closed,1,Add Simeck lightweight block cipher
+674,2018-06-30 04:40:46.000000000,2018-06-30 14:15:28.000000000,closed,2,SHA256 x64 code is 25% slower in version 7.0.0 than 5.6.5 built with MS VS2017/VS2015 Windows
+673,2018-06-28 00:13:49.000000000,2018-06-28 09:27:57.000000000,closed,1,Public key is not passing validation
+672,2018-06-24 08:43:27.000000000,2018-06-24 08:56:00.000000000,closed,1,Add HIGHT lightweight block cipher
+671,2018-06-19 02:19:04.000000000,2018-06-19 02:37:31.000000000,closed,1,Add AVX and AVX2 detection
+670,2018-06-18 07:24:24.000000000,2018-06-18 07:24:48.000000000,closed,0,Add CHAM lightweight block cipher
+669,2018-06-18 06:30:20.000000000,2018-06-18 06:40:35.000000000,closed,1,Add LEA lightweight block cipher
+668,2018-06-15 03:48:44.000000000,2018-07-17 16:30:59.000000000,closed,4,NaCl: add default parameter for optional random generated sk
+667,2018-06-08 07:03:46.000000000,2018-06-08 07:44:51.000000000,closed,1,"decryptAES with the incorrect key throws InvalidCiphertext(""StreamTransformationFilter: invalid PKCS #7 block padding found"");"
+666,2018-06-05 14:53:08.000000000,2018-06-08 07:46:40.000000000,closed,2,Pump() causing data corruption ?
+665,2018-06-04 11:59:31.000000000,2018-06-05 23:42:03.000000000,closed,3,"Recommend & Add CHAM Block Cipher(x86,x64)"
+664,2018-06-03 11:27:37.000000000,2018-06-03 17:18:56.000000000,closed,1,Threefish512::BLOCKSIZE and Threefish1024::BLOCKSIZE are not accessible
+663,2018-05-30 22:36:58.000000000,2018-06-03 00:29:43.000000000,closed,1,Crypto++ 7 threefish.h Threefish512 and Threefish1024 potential trouble on declaration
+662,2018-05-30 22:29:16.000000000,2018-06-03 00:53:51.000000000,closed,1,kalyna.h missing public access to Kalyna512_Info
+661,2018-05-23 23:08:38.000000000,2018-07-20 21:17:41.000000000,closed,6,Memory access violation (SIGSEGV) when try to call SHA512::Restart with dynamic linked library
+660,2018-05-23 01:45:42.000000000,2018-07-12 01:11:32.000000000,closed,2,Gzip::IsolatedInitialize not propagate to its base class
+659,2018-05-15 19:58:31.000000000,2018-06-03 00:54:41.000000000,closed,4,qt build
+658,2018-05-13 22:21:44.000000000,2018-05-14 04:23:53.000000000,closed,2,cannot link cryptopp without linking errors for very simple project
+657,2018-05-13 14:48:03.000000000,2018-05-13 18:44:44.000000000,closed,7,Mac OS X and Crypto++ 7.0.0 and gcc 8.1.0 compile issues
+656,2018-05-11 18:26:33.000000000,2018-12-06 12:26:20.000000000,closed,17,"Building Crypto++ 7.0.0 fails on POWER4 ( PowerMac G5, Gentoo Linux 2.4.1, gcc 7.3.0)"
+655,2018-05-10 22:34:31.000000000,2018-05-11 03:59:22.000000000,closed,1,Fix clang warnings in headers
+654,2018-05-03 17:12:44.000000000,2018-05-04 04:12:35.000000000,closed,1,Add CRYPTOPP_ASSERT to iterhash so it matches Keccak and SHA3
+653,2018-05-03 16:11:02.000000000,2018-05-06 08:13:54.000000000,closed,11,Recipe to not install test program and test data
+652,2018-05-03 12:52:14.000000000,2018-05-04 04:14:10.000000000,closed,12,Keccak256 and SHA3 crash when input is 0 length
+651,2018-05-01 15:31:48.000000000,2018-05-01 15:40:08.000000000,closed,2,"Hashing, encrypting, basically everything failing to build, except AES::DEFAULT_KEYLENGTH print to the console"
+650,2018-04-30 23:32:23.000000000,2018-05-08 05:22:54.000000000,closed,2,"s_clmulConstants should be declared ""const"""
+649,2018-04-30 20:19:22.000000000,2018-11-06 09:47:52.000000000,closed,14,Windows and incorrect results for AES when used on CPUs without AES-NI
+648,2018-04-29 02:20:26.000000000,2018-05-06 08:37:34.000000000,closed,3,Unused parameter in Singleton
+647,2018-04-26 12:39:15.000000000,2018-06-10 21:45:57.000000000,closed,4,Feature: WASM/emscripten support
+646,2018-04-26 10:48:55.000000000,2018-04-26 14:56:27.000000000,closed,1,Fix ios build for cases where Xcode is installed in a path with spaces
+645,2018-04-23 10:23:03.000000000,2018-04-26 12:37:37.000000000,closed,3,Build failure on Android
+644,2018-04-20 08:25:48.000000000,2018-04-21 04:54:02.000000000,closed,0,Access modifiers for SIMON and SPECK changed
+643,2018-04-19 11:47:38.000000000,2018-04-21 04:54:53.000000000,closed,1,Access modifier in SIMON and SPECK
+642,2018-04-16 16:33:55.000000000,2018-04-29 02:07:07.000000000,closed,8,Memory leak in ValidateRSA()
+641,2018-04-14 13:43:32.000000000,2018-05-20 16:34:52.000000000,closed,6,scrypt: unnecessary memory allocation
+640,2018-04-12 17:59:45.000000000,2018-05-13 20:37:19.000000000,closed,7,Workaround for #636
+639,2018-04-12 16:39:41.000000000,2018-04-12 22:08:40.000000000,closed,1,AES-256-GCM: How to fill in other Test-Examples
+638,2018-04-12 13:56:28.000000000,2018-04-12 16:07:01.000000000,closed,1,Compilation through g++ form MinGW and editing data for AEAD AES-256-GCM. 
+637,2018-04-12 10:39:32.000000000,2019-02-09 17:50:47.000000000,closed,10,CLang support for android
+636,2018-04-10 18:17:38.000000000,2018-05-15 12:56:39.000000000,closed,13,OS X compile failures with Clang from Xcode 9.3 for 32-bit
+635,2018-04-05 13:19:07.000000000,2018-04-05 16:05:11.000000000,closed,3,Unable to build CrypoPP in release in Xcode 9.3
+634,2018-04-03 07:58:16.000000000,2018-04-03 07:58:23.000000000,closed,0,Rename ECGDSA_ISO15946 -> ECGDSA
+633,2018-04-02 13:23:44.000000000,2018-04-02 13:24:02.000000000,closed,0,Don't use anonymous namespace in header file (GH #631)
+632,2018-04-02 11:51:36.000000000,2018-04-02 11:51:51.000000000,closed,0,Add Salsa20_Core transform (GH #630)
+631,2018-04-02 11:09:37.000000000,2018-04-02 13:24:59.000000000,closed,0,Don't use anonymous namespace for s_nullNameValuePairs
+630,2018-04-02 10:57:51.000000000,2018-04-02 11:55:05.000000000,closed,0,Add Salsa20_Core transform
+629,2018-04-02 06:29:54.000000000,2018-04-02 06:30:04.000000000,closed,0,Update scrypt
+628,2018-04-01 14:57:44.000000000,2018-04-01 14:58:01.000000000,closed,0,Add OpenMP support to Scrypt (GH #613)
+627,2018-04-01 10:37:03.000000000,2018-04-01 10:37:33.000000000,closed,0,Re-enable OS X and iOS on Travis (GH #570) 
+626,2018-04-01 04:09:21.000000000,2018-04-01 04:09:39.000000000,closed,0,Add scrypt key derivation function (GH #613)
+625,2018-03-31 20:46:43.000000000,2018-03-31 20:59:25.000000000,closed,0,Remove extra ;s from ossig.h
+624,2018-03-31 20:44:31.000000000,2018-03-31 20:58:37.000000000,closed,0,Remove extra ;s from zinflate.cpp
+623,2018-03-31 20:37:15.000000000,2018-03-31 21:03:33.000000000,closed,0,Remove extra ; from sse-simd.cpp
+622,2018-03-31 20:30:43.000000000,2018-03-31 21:04:00.000000000,closed,0,Remove extra ; from sha-simd.cpp
+621,2018-03-31 19:09:19.000000000,2018-03-31 21:04:42.000000000,closed,0,Remove extra ; from rijndael-simd.cpp
+620,2018-03-31 19:04:24.000000000,2018-03-31 21:06:45.000000000,closed,0,Remove extra ; from ppc-simd.cpp
+619,2018-03-31 18:59:37.000000000,2018-03-31 21:07:31.000000000,closed,0,Remove extra ; from neon-simd.cpp
+618,2018-03-31 18:53:39.000000000,2018-03-31 21:05:45.000000000,closed,0,Remove extra ; from gcm-simd.cpp
+617,2018-03-31 17:30:43.000000000,2018-03-31 21:08:30.000000000,closed,0,Remove extra ;s from rsa.h
+616,2018-03-31 17:20:16.000000000,2018-03-31 21:08:57.000000000,closed,0,Remove extra ; from eccrypto.cpp
+615,2018-03-31 17:06:16.000000000,2018-03-31 21:09:42.000000000,closed,0,Remove extra ; from crc-simd.cpp
+614,2018-03-31 15:32:14.000000000,2018-03-31 21:10:12.000000000,closed,0,Remove extra ; from cpu.cpp
+613,2018-03-31 09:53:58.000000000,2018-04-01 08:54:43.000000000,closed,1,Add scrypt key derivation function
+612,2018-03-30 07:11:35.000000000,2018-03-30 07:13:56.000000000,closed,0,Cutover PBKDF to KeyDerivationFunction interface (GH #610)
+611,2018-03-30 04:16:23.000000000,2018-03-30 04:18:27.000000000,closed,1,Add KeyDerivationFunction interface (GH #610)
+610,2018-03-28 23:15:49.000000000,2018-03-30 22:05:45.000000000,closed,9,Add KeyDerivationFunction interface
+609,2018-03-28 04:17:57.000000000,2018-03-28 04:49:51.000000000,closed,1,Add typedefs for int32_t and int64_t types
+608,2018-03-28 03:08:56.000000000,2018-03-28 03:21:11.000000000,closed,1,"Windows 7, Visual Studio 2010, and ""error C2065: uint32_t: undeclared identifier"""
+607,2018-03-26 14:21:51.000000000,2018-03-27 22:15:42.000000000,closed,3,Remove extra ;s from oids.h
+606,2018-03-26 14:03:00.000000000,2018-04-03 08:01:51.000000000,closed,8,Linker error under vcpkg
+605,2018-03-26 11:01:32.000000000,2018-03-26 19:36:55.000000000,closed,1,Remove extra ;s from misc.h
+604,2018-03-26 03:15:33.000000000,2018-03-26 03:57:37.000000000,closed,1,Incorrect result when using a_exp_b_mod_c
+603,2018-03-25 08:43:06.000000000,2018-03-25 08:43:22.000000000,closed,0,Fix incorrect InverseMod (GH #602)
+602,2018-03-24 15:55:03.000000000,2018-03-25 08:44:38.000000000,closed,6,Incorrect result when using Integer::ModInverse
+601,2018-03-21 10:42:26.000000000,2018-03-22 10:57:17.000000000,closed,1,Can i recommand a new Blockcipher and my code?
+600,2018-03-20 21:07:35.000000000,2018-03-25 04:27:03.000000000,closed,4,Fix calling multiple ZlibDecompressor in parallel causes adler32 chec…
+599,2018-03-14 14:57:52.000000000,2018-03-16 18:43:18.000000000,closed,18,Error: 'forward': use of dependent type name must be prefixed with 'typename'
+598,2018-03-10 16:41:42.000000000,2018-03-10 18:38:44.000000000,closed,1,Fix GCC version for RDSEED intrinsic
+597,2018-03-09 00:50:11.000000000,2018-03-09 03:06:15.000000000,closed,1,Bus Error when running ARIA/CTR on Sparc64
+596,2018-03-07 16:43:52.000000000,2018-03-25 04:32:04.000000000,closed,21,Calling multiple ZlibDecompressor in parallel causes adler32 checksum failure
+595,2018-03-06 04:44:40.000000000,2018-03-06 04:49:10.000000000,closed,1,Allow user to set -DCRYPTOPP_ARM_NEON_AVAILABLE=0
+594,2018-03-04 16:34:09.000000000,2018-03-04 19:17:04.000000000,closed,2,Define AT_HWCAP/AT_HWCAP2 if getauxval unavailable
+593,2018-03-02 18:02:51.000000000,2018-03-09 16:51:09.000000000,closed,8,cryptest: segfault which pointed to 'dynamic_cast'
+592,2018-02-25 19:32:58.000000000,2018-02-27 23:07:34.000000000,closed,7,Compile-Error under MacOS
+591,2018-02-24 22:31:42.000000000,2018-02-25 03:02:04.000000000,closed,5,Compiler warning due to different string alignments in mqueue.cpp code
+590,2018-02-21 16:18:07.000000000,2018-02-21 20:01:48.000000000,closed,1,GCC 8 and bool std::uncaught_exception() is deprecated
+589,2018-02-20 20:01:40.000000000,2018-02-20 20:05:53.000000000,closed,4,Freeze ABI compatibility with LIB_MAJOR
+588,2018-02-19 23:32:40.000000000,2018-02-20 16:15:41.000000000,closed,12,Tests failure with cryptopp 6.0.0 on ppc64le
+587,2018-02-15 07:33:32.000000000,2018-02-15 07:35:46.000000000,closed,1,Unbreak build on FreeBSD in C++17 mode
+586,2018-02-15 04:36:22.000000000,2018-03-31 21:10:55.000000000,closed,1,"Fixed gitignore for VS, fixed RandomPool keySet flag, eliminated DMA"
+585,2018-02-13 15:18:14.000000000,2018-02-15 12:27:17.000000000,closed,3,"Speck, Android and Linux kernel interop"
+584,2018-02-06 05:39:13.000000000,2018-02-13 15:24:28.000000000,closed,2,"Aarch64, -mabi=ilp32 and Warning: large integer implicitly truncated to unsigned type"
+583,2018-02-05 19:14:42.000000000,2018-02-05 19:31:06.000000000,closed,1,LINK : fatal error LNK1181: cannot open input file 'cryptlibd.lib'
+582,2018-02-05 18:41:17.000000000,2018-02-05 19:14:01.000000000,closed,1,Use install program in Makefiles
+581,2018-02-05 11:53:47.000000000,2018-02-13 15:37:43.000000000,closed,2,Provide Conan package
+580,2018-02-01 01:19:33.000000000,2018-02-06 08:52:32.000000000,closed,1,RNG tuneup
+579,2018-01-30 20:46:51.000000000,2018-01-30 20:48:18.000000000,closed,1,Failed build on OpenBSD with eg++ compiler
+578,2018-01-28 21:32:54.000000000,2018-01-28 22:06:18.000000000,closed,1,Crash in SHA-384 and SHA-512 on X32 platforms
+577,2018-01-27 21:39:10.000000000,2018-01-27 22:23:44.000000000,closed,1,Add missing flags for SIMON and SPECK in GNUMakefile-cross
+576,2018-01-27 21:25:23.000000000,2018-01-27 23:27:41.000000000,closed,4,Instruction set compilation flags should always be enabled for SIMD implementations
+575,2018-01-25 12:01:09.000000000,2018-01-25 19:17:54.000000000,closed,1,Fix building for Linuxbrew
+574,2018-01-25 02:59:59.000000000,2018-01-30 21:50:53.000000000,closed,1,RNG tuneup
+573,2018-01-24 22:01:52.000000000,2018-01-27 23:24:49.000000000,closed,30,"i686-w64-mingw32: sha-simd: error: inlining failed in call to always_inline '__m128i _mm_sha1nexte_epu32(__m128i, __m128i)'"
+572,2018-01-24 09:57:16.000000000,2018-02-06 08:54:03.000000000,closed,3,Upgrade RandomPool IncorporateEntropy from SHA-256 to SHA-384
+571,2018-01-23 23:16:52.000000000,2018-01-23 23:22:18.000000000,closed,1,Change default DSA modulus size to 2048
+570,2018-01-21 20:57:17.000000000,2018-04-01 10:39:39.000000000,closed,1,Disable Travis OS X and iOS testing
+569,2018-01-21 18:28:00.000000000,2018-01-21 19:00:51.000000000,closed,1,Remove AsymmetricAlgorithm::BERDecode
+568,2018-01-20 20:06:05.000000000,2018-01-20 23:29:42.000000000,closed,1,Improve logic for <arm_acle.h> include
+567,2018-01-19 17:41:54.000000000,2018-01-19 18:09:20.000000000,closed,1,Remove DL_PrivateKey_GFP_OldFormat
+566,2018-01-18 08:01:14.000000000,2018-01-18 08:02:10.000000000,closed,3,Add interface to TweetNaCl library
+565,2018-01-16 22:13:53.000000000,2018-01-17 18:30:06.000000000,closed,15,Cross Compile for ARM Failure
+564,2018-01-14 18:09:16.000000000,2018-01-21 02:13:18.000000000,closed,4,LeakSanitizer crash on Travis
+563,2018-01-13 16:00:39.000000000,2018-01-13 17:31:21.000000000,closed,0,Undefined reference to BufferedTransformation
+562,2018-01-12 05:55:08.000000000,2018-02-02 00:24:49.000000000,closed,28,FreeBSD/Clang++38: AlgorithmParameters/MakeParameters throws when used
+561,2018-01-11 08:55:30.000000000,2018-08-18 16:18:52.000000000,closed,5,[Request] Donation option + bug bounty option
+560,2018-01-10 23:11:35.000000000,2018-01-11 06:18:15.000000000,closed,4,Deterministic k (RFC6979): issue in bits2octets and new test case
+559,2018-01-09 16:36:13.000000000,2018-01-12 18:38:57.000000000,closed,10,C++17 compatible lambda expressions to replace `bind2nd`
+558,2018-01-06 10:04:46.000000000,2018-01-13 20:52:08.000000000,closed,11,C++17 support
+557,2018-01-05 22:03:57.000000000,2018-01-06 05:00:56.000000000,closed,5,Minor debug text output issue - duplicated 0x in pointer values
+556,2018-01-02 22:20:45.000000000,2018-01-03 03:32:43.000000000,closed,1,How to generate AES key if I can't use std::byte since I can't use C++17?
+555,2018-01-02 13:50:32.000000000,2018-01-04 18:13:32.000000000,closed,8,Enable compiler warnings
+554,2018-01-02 13:48:32.000000000,2018-01-02 20:52:18.000000000,closed,7,Compilation error with g++: impossible register constraint in ‘asm’
+553,2017-12-31 05:33:10.000000000,2018-01-23 02:57:57.000000000,closed,1,XLC and SM3 failed self tests at -O3
+552,2017-12-30 23:56:14.000000000,2017-12-31 01:16:28.000000000,closed,1,Change ::log() to log() to work with C++Builder
+551,2017-12-29 00:23:08.000000000,2017-12-29 05:18:55.000000000,closed,1,"Solaris i86pc, GCC 5.4 and Error: no such instruction: `sha1rnds4 $0,%xmm0,%xmm7'"
+550,2017-12-19 21:06:52.000000000,2018-01-03 03:25:03.000000000,closed,11,Memory leak in Singleton::Ref()?
+549,2017-12-17 01:00:14.000000000,2017-12-17 04:26:53.000000000,closed,1,Clang 5.0 UBsan finding
+548,2017-12-16 18:55:31.000000000,2018-01-06 14:57:21.000000000,closed,5,Add pkgconfig file libcrypt++.pc
+547,2017-12-16 18:52:07.000000000,2017-12-16 19:07:24.000000000,closed,1,Build fixes
+546,2017-12-15 22:46:36.000000000,2018-01-21 19:05:35.000000000,closed,15,Apply updated android build rules
+545,2017-12-05 22:56:14.000000000,2017-12-06 00:04:15.000000000,closed,1,Enable NEON on Aarch32/Aarch64 for Simon and Speck
+544,2017-12-05 20:25:31.000000000,2018-01-21 19:05:35.000000000,closed,3,Missing compile/link flags on Android
+543,2017-11-29 16:40:29.000000000,2017-11-29 16:57:18.000000000,closed,2,"Valgrind, Salsa20 and  ""Conditional jump or move depends on uninitialised value"""
+542,2017-11-25 15:00:17.000000000,1970-01-01 00:00:00.000000001,open,3,Add SM2 public key and elliptic curve algorithms
+541,2017-11-24 05:41:45.000000000,2017-11-24 09:26:09.000000000,closed,2,Add SM3 hash function
+540,2017-11-23 20:27:04.000000000,2017-11-23 21:56:33.000000000,closed,1,Add SM4 block cipher
+539,2017-11-21 14:57:34.000000000,2017-11-24 09:26:21.000000000,closed,1,Add SIMON-64 and SIMON-128 block ciphers
+538,2017-11-20 16:28:58.000000000,2017-11-20 16:57:28.000000000,closed,1,Add SPECK-64 and SPECK-128 block ciphers
+537,2017-11-20 06:03:53.000000000,2017-11-20 07:42:07.000000000,closed,1,More semicolons to remove for gcc-7.2.0 -pedantic compatibility
+536,2017-11-19 09:16:47.000000000,2017-11-19 12:22:35.000000000,closed,1,the new version do not support cmake?
+535,2017-11-17 08:04:20.000000000,2018-01-19 06:27:51.000000000,closed,0,Remove variable block size support for block ciphers
+534,2017-11-16 13:14:05.000000000,2017-11-16 14:03:17.000000000,closed,6,Why doesn't this give correct result
+533,2017-11-13 04:26:08.000000000,2017-12-26 08:40:25.000000000,closed,2,"OS X 10.9, Clang 6.0 and RSA signature failures when using libcryptopp.dylib"
+532,2017-11-11 02:22:50.000000000,2017-11-12 11:31:54.000000000,closed,1,aes.h double semicolon
+531,2017-11-07 02:56:04.000000000,2017-11-07 06:49:16.000000000,closed,1,RFC: workarounds for original MinGW
+530,2017-11-06 22:44:54.000000000,2017-11-13 20:44:10.000000000,closed,2,Mac OS X 10.6 (g++) link failures
+529,2017-11-06 17:16:22.000000000,2017-11-06 19:14:03.000000000,closed,2,Add CRYPTOPP_NO_CXX11 for old compilers
+528,2017-11-05 14:44:37.000000000,2017-11-05 15:26:37.000000000,closed,2,Link error
+527,2017-11-04 13:42:09.000000000,2017-12-07 00:05:51.000000000,closed,19,Infinite compilation time on blake2.cpp
+526,2017-11-03 01:12:33.000000000,2017-11-03 17:33:52.000000000,closed,4,Linker warning due to global weak symbol access when using -fvisibility=hidden
+525,2017-10-31 23:50:26.000000000,2017-11-01 01:15:57.000000000,closed,4,Setting CXXFLAGS on command line prevents Makefile from adding -fPIC
+524,2017-10-30 14:10:20.000000000,2017-11-04 08:05:25.000000000,closed,7,Including dll.h on Linux raises an error
+523,2017-10-26 19:28:38.000000000,2017-10-27 18:10:09.000000000,closed,2,Does the #error directive in cryptopp/dll.h apply to non-windows systems?
+522,2017-10-24 12:13:13.000000000,2017-11-12 09:25:56.000000000,closed,17,heap-buffer-overflow in CryptoPP::ECP::SimultaneousMultiply()
+521,2017-10-13 02:12:47.000000000,2017-10-13 10:48:17.000000000,closed,2,macOS: CpuId() returns false
+520,2017-10-12 21:27:45.000000000,2017-10-18 10:18:40.000000000,closed,2,"Borland and ""E2268 Call to undefined function log"""
+519,2017-10-12 01:45:29.000000000,2017-10-12 21:24:19.000000000,closed,2,Google Group is down
+518,2017-10-08 01:45:46.000000000,1970-01-01 00:00:00.000000001,open,0,Add support for EC Korean Certificate DSA (EC-KCDSA)
+517,2017-10-04 17:33:49.000000000,2017-10-05 08:07:09.000000000,closed,1,Add SHA3 OIDs for signature schemes
+516,2017-10-04 15:02:22.000000000,2017-10-04 15:49:45.000000000,closed,2,CMake throws exception because of undefined reference in CryptoPP
+515,2017-09-29 11:44:11.000000000,2017-11-13 23:53:23.000000000,closed,1,Add OCB mode
+514,2017-09-25 18:47:39.000000000,2017-09-26 09:08:30.000000000,closed,1,mac GNUmakefile-cross distclean is some unknown action
+513,2017-09-22 15:49:20.000000000,2018-03-11 02:28:34.000000000,closed,1,Add Power8 SHA Hashing
+512,2017-09-20 22:30:24.000000000,2017-09-21 10:03:01.000000000,closed,4,borland
+511,2017-09-20 02:51:30.000000000,2017-09-20 05:10:17.000000000,closed,5,Create CRYPTOPP_NO_CPU_FEATURE_PROBES to disable SIGILL probes
+510,2017-09-19 12:15:41.000000000,2017-09-19 12:28:56.000000000,closed,3,ECIES is deprecated
+509,2017-09-17 22:59:49.000000000,2017-09-29 17:52:24.000000000,closed,4,GNUmakefile-cross: armeabi errors
+508,2017-09-17 22:46:37.000000000,2017-09-17 23:35:11.000000000,closed,1,GNUmakefile-cross on x86: compile errors
+507,2017-09-17 22:20:44.000000000,2017-09-17 22:34:06.000000000,closed,1,Make sure _SC_LEVEL1_DCACHE_LINESIZE is defined
+506,2017-09-17 05:05:48.000000000,2017-09-17 05:45:39.000000000,closed,2,Remove CMake from library sources
+505,2017-09-16 11:12:30.000000000,2017-09-16 12:09:23.000000000,closed,2,Cmake Compile Error
+504,2017-09-16 11:10:23.000000000,2017-09-16 11:10:35.000000000,closed,0,Compile Error
+503,2017-09-16 11:06:41.000000000,2017-09-16 16:38:38.000000000,closed,3,XLC and TEA hang during benchmarks at -O3
+502,2017-09-16 01:23:15.000000000,2017-09-16 02:34:36.000000000,closed,1,XLC and SHA512 failed self tests
+501,2017-09-15 16:16:05.000000000,2017-09-15 16:22:07.000000000,closed,1,CpuId
+500,2017-09-15 16:13:19.000000000,2017-09-17 02:05:12.000000000,closed,6,CpuId
+499,2017-09-15 01:38:27.000000000,2017-09-15 01:49:40.000000000,closed,1,AIX and DL_PrivateKey_GFP<GP>::~DL_PrivateKey_GFP() causes a section type conflict
+498,2017-09-14 22:57:11.000000000,2017-09-17 22:48:50.000000000,closed,14,rad studio xe10
+497,2017-09-14 04:22:45.000000000,2017-09-14 04:27:35.000000000,closed,1,Add Power8 AES Encryption
+496,2017-09-13 07:32:44.000000000,2017-09-13 08:32:43.000000000,closed,4,Visual Studio 2005 compile error
+495,2017-09-12 13:21:40.000000000,2017-09-12 14:17:38.000000000,closed,3,Linux Cmake error
+494,2017-09-12 12:56:20.000000000,2017-09-13 06:07:59.000000000,closed,6,CentOS 6.6 x64 make error
+493,2017-09-09 23:54:47.000000000,2017-09-17 02:37:36.000000000,closed,6,Android CMake Cross-compilation
+492,2017-09-09 01:24:45.000000000,2017-09-09 05:28:24.000000000,closed,1,Check for old vs new LLVM include dir
+491,2017-09-08 21:16:19.000000000,2017-09-13 15:20:24.000000000,closed,17,Android compiling doesn't seem to work with NDK r15c
+490,2017-09-08 19:57:45.000000000,2017-09-09 05:28:24.000000000,closed,4,setenv-android.sh -> Wrong path for llvm AOSP_STL_INC
+489,2017-09-08 18:25:16.000000000,2017-09-08 23:43:07.000000000,closed,0,Fix missing header for Android CPU features
+488,2017-09-04 23:33:23.000000000,2017-09-09 21:42:34.000000000,closed,3,cryptopp Undefined symbols for architecture x86_64
+487,2017-09-04 18:53:50.000000000,2017-09-12 07:51:55.000000000,closed,1,Improve under-aligned buffers for AltiVec and Power8
+486,2017-09-01 16:06:01.000000000,2017-09-17 02:37:47.000000000,closed,4,Windows CMake failure when compiler path has a space
+485,2017-08-31 19:03:41.000000000,2017-08-31 19:25:03.000000000,closed,1,GCC 6 compile failure with -std=c++03 on AIX
+484,2017-08-31 17:56:43.000000000,2018-01-21 19:31:04.000000000,closed,3,Make the debug build more closely behave like release if `CRYPTOPP_NO_TESTS` is defined.
+483,2017-08-30 23:18:53.000000000,2017-08-31 00:42:37.000000000,closed,4,Fix build on FreeBSD 10.3 x86 with clang++ 3.4.1.
+482,2017-08-30 21:40:04.000000000,2017-08-30 21:46:14.000000000,closed,0,Actually fix the VS2010 compilation bug.
+481,2017-08-30 09:59:09.000000000,2017-09-06 04:19:22.000000000,closed,13,cryptest: armv7l: failed to generate expected vector load/store instructions
+480,2017-08-30 09:55:28.000000000,2017-08-31 00:53:46.000000000,closed,3,"cryptest: armv7l: undefined references for NEON, PMULL, and DetectArmFeatures"
+479,2017-08-30 01:23:30.000000000,2017-09-18 08:45:35.000000000,closed,5,Suggestion : Could you ease interop with the windows API ?
+478,2017-08-29 19:32:27.000000000,2017-08-29 22:54:41.000000000,closed,1,Remove WORKAROUND_MS_BUG_Q258000 from the config and osrng.
+477,2017-08-29 19:26:50.000000000,2017-08-29 22:55:02.000000000,closed,0,Fix compilation of secblock.h under Visual Studio 2010.
+476,2017-08-29 01:06:14.000000000,2017-08-29 04:06:25.000000000,closed,8,"Avoid egrep when possible, remove egrep from DumpMachine"
+475,2017-08-28 17:21:59.000000000,2017-08-29 23:37:09.000000000,closed,6,secblock.h fails to compile in VS2010 (because it doesn't support strongly typed enums)
+474,2017-08-28 13:37:57.000000000,2017-08-28 13:41:25.000000000,closed,0,SSE align SecBlocks on i386 and x86_64
+473,2017-08-27 23:50:51.000000000,2017-08-28 14:21:00.000000000,closed,2,Solaris and crash in ARIA_ProcessAndXorBlock_Xor_SSSE3
+472,2017-08-27 01:16:44.000000000,2017-08-27 06:38:47.000000000,closed,2,CHECK_CXX_COMPILER_FLAG misdetects SunCC compiler features
+471,2017-08-26 06:40:04.000000000,2017-08-26 13:07:22.000000000,closed,3,CMake: create DumpMachine function for machine targeting
+470,2017-08-25 01:51:34.000000000,2017-08-25 04:27:02.000000000,closed,6,[Request] GPG-sign rebased and merge commits
+469,2017-08-24 15:25:55.000000000,2017-08-24 15:26:14.000000000,closed,0,"Rollup CMake fixes for OpenBSD, MinGW (Issues 380, 466-468)"
+468,2017-08-24 10:28:39.000000000,2017-08-24 15:27:24.000000000,closed,3,amd64: OpenBSD/Clang 3.8.0 without -march=native: error: needs target feature pclmul
+467,2017-08-24 10:24:45.000000000,2017-08-24 15:27:39.000000000,closed,3,amd64: OpenBSD/Clang 3.8.0 with -march=native: error: needs target feature sha
+466,2017-08-24 09:06:41.000000000,2017-08-26 13:19:40.000000000,closed,30,Win32/64: error: inlining failed in call with (and without) -march=native
+465,2017-08-24 00:12:41.000000000,2017-08-24 00:13:21.000000000,closed,0,Remove -march=native as default in Makefile and CMake
+464,2017-08-22 13:10:11.000000000,2017-08-22 13:10:26.000000000,closed,0,Fix benchmark selection code
+463,2017-08-21 05:54:00.000000000,2017-11-13 23:54:25.000000000,closed,3,"Utilize Intel MULX, ADCX and ADOX in Integer class"
+462,2017-08-21 05:24:37.000000000,2017-08-21 05:25:30.000000000,closed,0,Remove BOOL macro 0 value for Intel and ARM
+461,2017-08-17 20:31:43.000000000,2017-08-17 20:33:43.000000000,closed,0,Split source files to support Base Implementation + SIMD implementation
+460,2017-08-08 21:32:59.000000000,2017-08-09 00:11:49.000000000,closed,4,StreamTransformationFilter: invalid PKCS #7 block padding found error after upgrading to 5.6.5
+459,2017-08-07 23:08:52.000000000,2017-08-09 21:51:13.000000000,closed,8,Moving to CryptoPP::byte broke at least one package
+458,2017-08-07 08:01:32.000000000,2017-08-11 15:33:52.000000000,closed,1,Add AES for ARMv8
+457,2017-08-05 21:42:01.000000000,2017-08-06 02:07:56.000000000,closed,1,FileSource doesn't close the file after completing pipeliling
+456,2017-08-05 07:48:16.000000000,2017-08-05 11:20:00.000000000,closed,1,Static SHA::Transform SEGFAULT's on unaligned data
+455,2017-08-05 06:13:22.000000000,2017-08-14 00:08:21.000000000,closed,1,Static SHA::Transform fails on Intel SHA cpu's
+454,2017-08-05 02:31:09.000000000,2017-08-05 02:33:57.000000000,closed,1,Switch from -O2 to -O3 in the makefile
+453,2017-08-03 03:32:04.000000000,2017-08-03 04:37:45.000000000,closed,3,undefined symbol: _ZN8CryptoPP8Rijndael3EncC2Ev
+452,2017-08-02 01:39:40.000000000,2017-08-02 03:17:02.000000000,closed,1,Add OldRandomPool for pre-Crypto++ 5.5 compatibility
+451,2017-07-28 22:55:05.000000000,2017-07-28 23:14:30.000000000,closed,1,Enforce LF line endings for shell scripts
+450,2017-07-28 22:46:02.000000000,2017-07-28 23:15:00.000000000,closed,1,sockets: fix Windows 2000 build
+449,2017-07-28 04:26:04.000000000,2017-07-28 08:50:22.000000000,closed,1,sosemanuk.cpp and -Wsequence-point warnings
+448,2017-07-28 04:06:08.000000000,2017-07-28 04:30:05.000000000,closed,1,"SecBlock<T,A> data members are public"
+447,2017-07-23 18:20:38.000000000,2017-07-23 19:52:25.000000000,closed,1,"Windows and ""error C2872: 'byte' : ambiguous symbol"""
+446,2017-07-19 15:03:21.000000000,2017-07-19 15:17:56.000000000,closed,5,Fix Visual Studio project file issues
+445,2017-07-18 21:10:30.000000000,2017-08-09 02:37:23.000000000,closed,9,Visual Studio 64 bit builds produce /arch:SSE2 warnings
+444,2017-07-17 19:39:46.000000000,2017-07-17 20:10:39.000000000,closed,1,Fix Windows compilation issues (by RaptorFactor)
+443,2017-07-17 15:25:32.000000000,2017-07-17 16:59:27.000000000,closed,1,depreceated calls
+442,2017-07-16 23:01:55.000000000,2017-07-20 19:12:26.000000000,closed,3,Test C++17 byte change with dry runs from various projects 
+441,2017-07-16 18:19:02.000000000,2017-07-19 00:12:37.000000000,closed,1,GCC7 and -Wimplicit-fallthrough warnings
+440,2017-06-25 06:12:50.000000000,2017-07-06 18:38:20.000000000,closed,8,Impossible to provide -DCRYPTOPP_DATA_DIR in CXXFLAGS
+439,2017-06-23 18:07:47.000000000,2017-06-25 01:41:21.000000000,closed,4,Fix Windows XP support on Visual Studio 2015+
+438,2017-06-18 05:57:54.000000000,2017-07-20 18:23:01.000000000,closed,17,[C++17] Use ::byte instead of byte
+437,2017-06-18 04:32:05.000000000,2017-06-18 23:22:32.000000000,closed,1,Fix C++17 build.
+436,2017-06-14 03:51:04.000000000,2017-06-14 20:49:31.000000000,closed,5,CryptoPP library file much too large 
+435,2017-06-08 16:56:23.000000000,2017-06-11 11:16:47.000000000,closed,5,Windows Server 2003/2008 DLL loader lock deadlock
+434,2017-06-07 12:07:32.000000000,2017-06-07 22:01:34.000000000,closed,1,"I don't know whether rsa have supply the interface prikey encode, pubkey decode"
+433,2017-05-29 16:46:22.000000000,2017-05-31 04:18:52.000000000,closed,5,use cmake to create dll in widows no support
+432,2017-05-28 08:21:30.000000000,2017-05-28 09:17:28.000000000,closed,1,Define matrix exclusion
+431,2017-05-22 18:09:59.000000000,2017-05-23 14:04:44.000000000,closed,23,/root/testdir/cryptopp/rdrand.cpp:345: Error: no such instruction: `rdseed rax'
+430,2017-05-22 09:51:30.000000000,2017-08-17 20:42:52.000000000,closed,1,Add Carryless Multiply intrinsics when __PCLMUL__ is not defined
+429,2017-05-22 09:49:50.000000000,2017-08-17 20:43:08.000000000,closed,4,Add AES intrinsics when __AES__ is not defined
+428,2017-05-21 00:32:51.000000000,2017-08-17 20:43:39.000000000,closed,1,Add CRC intrinsics when __CRC__ is not defined
+427,2017-05-20 22:41:31.000000000,2017-08-17 20:43:55.000000000,closed,1,Add SHA intrinsics when __SHA__ is not defined
+426,2017-05-19 23:49:08.000000000,2017-05-20 02:34:08.000000000,closed,1,Have constant link order
+425,2017-05-18 20:39:33.000000000,2017-05-26 11:13:18.000000000,closed,4,hrtimer.cpp: fix Win32 DLL-Import build
+424,2017-05-17 02:33:40.000000000,2017-05-18 00:25:37.000000000,closed,5,CMake: build RDRAND only for X86/X32/X64
+423,2017-05-16 09:02:54.000000000,2018-01-19 20:59:30.000000000,closed,6,Polynomials for CMAC and GCM mode
+422,2017-05-14 21:50:06.000000000,2017-05-16 08:30:12.000000000,closed,1,Add Threefish block cipher
+421,2017-05-13 04:31:57.000000000,2017-05-13 07:54:00.000000000,closed,2,"Fedora, POWER7 and RoundUpToMultipleOf failures"
+420,2017-05-12 23:23:12.000000000,2017-05-13 00:47:19.000000000,closed,10,"Add Gzip Filename, Filetime and Comment support"
+419,2017-05-11 22:02:14.000000000,2017-05-18 00:24:16.000000000,closed,8,armv7l/aarch64: error: ‘HasRDRAND’ was not declared in this scope
+418,2017-05-11 10:31:56.000000000,2017-05-12 23:09:21.000000000,closed,10,Gunzip: added GetFilename() and GetComment() methods
+417,2017-05-11 08:17:34.000000000,2017-05-11 08:46:57.000000000,closed,5,NULLPTR fix for blake2 tests
+416,2017-05-11 07:51:18.000000000,2017-05-11 08:10:15.000000000,closed,4,Fixed non-keyed blake2x hashes when using non-standard digest sizes
+415,2017-05-11 05:00:53.000000000,2017-05-11 08:14:55.000000000,closed,8,BLAKE2 produces wrong hashes for non-default digest sizes
+414,2017-05-11 01:00:45.000000000,2017-08-25 18:47:06.000000000,closed,11,Zinflate and AddressSanitizer finding
+413,2017-05-10 04:11:21.000000000,2017-05-10 04:53:30.000000000,closed,2,"Just built the library, but a few questions..."
+412,2017-05-09 20:16:10.000000000,2017-08-03 07:30:59.000000000,closed,10,Crypto++ messes with user's warning config
+411,2017-05-05 23:04:07.000000000,2017-07-20 22:40:44.000000000,closed,0,Add Kalyna block cipher
+410,2017-05-05 03:47:28.000000000,2017-05-05 03:50:20.000000000,closed,1,Code Coverage recipe does not include all validation routines
+409,2017-05-03 11:42:09.000000000,2017-08-26 00:39:12.000000000,closed,2,Salsa20 sample from wiki does not decrypt original plaintext message
+408,2017-05-03 00:20:41.000000000,2018-01-04 18:16:21.000000000,closed,1,Add support for variable block sizes
+407,2017-04-30 05:42:57.000000000,2017-05-02 01:55:26.000000000,closed,3,Build Failure
+406,2017-04-28 17:40:17.000000000,2017-04-28 20:10:36.000000000,closed,1,Password hashing support / tutorial
+405,2017-04-27 23:46:32.000000000,2017-04-27 23:52:39.000000000,closed,1,Added -xmemalign=4i for Sparc
+404,2017-04-27 21:19:03.000000000,2017-04-27 23:57:05.000000000,closed,1,Compilation Warnings
+403,2017-04-22 06:08:03.000000000,2017-04-22 06:25:33.000000000,closed,7,Solaris 10 and SIGBUS crashes in cryptest.exe
+402,2017-04-22 00:34:03.000000000,2017-04-22 06:25:07.000000000,closed,3,Some fixes related to SunCC compiler bugs.
+401,2017-04-20 22:45:50.000000000,2017-04-21 12:21:28.000000000,closed,1,"[Debug ok, Release no] Help with electron native module"
+400,2017-04-19 15:10:15.000000000,2017-04-21 14:21:04.000000000,closed,5,linux Assembler error: no such instruction
+399,2017-04-18 09:36:58.000000000,1970-01-01 00:00:00.000000001,open,1,Argon2 support
+398,2017-03-29 11:08:12.000000000,2017-04-14 14:27:56.000000000,closed,6,Build: apply patch for GNU assembler errors to CMake
+397,2017-03-26 10:36:56.000000000,2017-07-17 20:12:21.000000000,closed,8,Fix Windows compilation issues
+396,2017-03-25 04:11:18.000000000,2017-03-25 04:13:15.000000000,closed,2,MAC Benchmark
+395,2017-03-21 00:04:34.000000000,2017-03-23 01:29:04.000000000,closed,9,OpenBSD (egcc/eg++): Assembler error: no such instruction
+394,2017-03-20 15:58:40.000000000,2018-01-21 19:32:07.000000000,closed,11,Improve sha256 performance on ppc64 by 4.5x
+393,2017-03-20 11:55:10.000000000,2018-07-13 17:48:26.000000000,closed,5,API/ABI changes review for Crypto++
+392,2017-03-15 15:37:17.000000000,2017-03-24 00:45:19.000000000,closed,1,Remove unnecessary static from reference to singleton
+391,2017-03-14 19:36:58.000000000,2017-03-15 14:51:19.000000000,closed,11,Crash in NonblockingRng::GenerateBlock
+390,2017-03-14 17:38:49.000000000,2017-03-15 13:54:07.000000000,closed,3,Problem building and using Crypto++ on Windows
+389,2017-03-14 10:04:03.000000000,2017-03-26 00:58:29.000000000,closed,3,Race condition in InitializeInteger::InitializeInteger
+388,2017-03-07 18:13:34.000000000,2017-03-07 20:03:12.000000000,closed,3,Build Broken
+387,2017-03-07 13:55:01.000000000,2017-03-07 14:04:58.000000000,closed,1,Improve RDRAND and RDSEED performance
+386,2017-03-07 13:34:53.000000000,2017-03-09 03:06:11.000000000,closed,1,Add Random Number Generator benchmarks
+385,2017-03-02 02:25:23.000000000,2017-03-14 18:23:46.000000000,closed,8,"Don't use WSAStringToAddress, use WSAStringToAddressA instead"
+384,2017-03-02 02:03:33.000000000,2017-03-02 04:50:46.000000000,closed,1,[BUG] VC 2005 x64: _aligned_free failed
+383,2017-03-01 14:52:39.000000000,2017-03-01 16:12:23.000000000,closed,1,Add support for C++11 nullptr
+382,2017-03-01 13:48:47.000000000,2017-03-01 15:24:12.000000000,closed,1,Remove NULL_CHANNEL and Code Warrior 8 workaround
+381,2017-02-28 19:22:20.000000000,2017-03-01 02:45:22.000000000,closed,3,ECDSA examples not working
+380,2017-02-23 21:55:14.000000000,2017-08-24 00:19:57.000000000,closed,20,Random crashes on different computers because option -march=native is active 'by default'
+379,2017-02-21 11:57:13.000000000,2017-02-22 05:58:52.000000000,closed,1,Add Test namespace within CryptoPP namespace
+378,2017-02-19 12:10:19.000000000,2017-02-19 13:16:46.000000000,closed,1,config.h: add DragonFly BSD support
+377,2017-02-19 03:11:49.000000000,2017-02-19 03:40:47.000000000,closed,1,"OS_NO_DEPENDENCE in osrng.h, NO_OS_DEPENDENCE everywhere else"
+376,2017-02-17 23:06:54.000000000,2017-03-01 12:25:31.000000000,closed,5,Intialization of base64 and other decoders are not threadsafe
+375,2017-02-17 18:25:09.000000000,2018-11-05 18:57:40.000000000,closed,9,bcrypt support
+374,2017-02-16 20:09:56.000000000,2017-02-16 20:44:04.000000000,closed,4,CMake XCode build on macOS fails
+373,2017-02-08 19:07:37.000000000,2017-03-15 14:52:31.000000000,closed,6,Hang and loader lock on WinXP
+372,2017-02-01 14:46:23.000000000,2017-03-15 14:57:18.000000000,closed,12,Singleton::Ref() crashes on VS2012/VS2013
+371,2017-01-28 10:25:04.000000000,2017-01-28 15:50:35.000000000,closed,2,Add HeaderVersion() and LibraryVersion() functions
+370,2017-01-28 00:06:53.000000000,2017-02-02 00:01:24.000000000,closed,9,Homebrew package broken
+369,2017-01-27 16:02:41.000000000,2017-01-27 16:06:02.000000000,closed,1,Remove MAINTAIN_BACKWARDS_COMPATIBILITY
+368,2017-01-24 21:50:18.000000000,2017-02-06 13:53:26.000000000,closed,15,Support for AES-256-CBC with W3C padding scheme ( http://www.w3.org/2001/04/xmlenc#aes256-cbc )
+367,2017-01-22 12:45:47.000000000,2017-01-22 23:20:39.000000000,closed,2,BLAKE2b NEON suffers poor performance on ARMv8/Aarch64 with Cortex-A57
+366,2017-01-21 01:01:33.000000000,2017-01-21 04:50:10.000000000,closed,1,"gcm.cpp and ""warning: asm operand 3 probably doesn't match constraints"""
+365,2017-01-17 10:45:50.000000000,2017-01-17 11:03:39.000000000,closed,1,Whitespace check-in for sha.cpp broke 32-bit SHA-384 and SHA-512
+364,2017-01-16 01:19:36.000000000,2017-01-16 05:20:28.000000000,closed,7,Apple Clang 6.0 and numeric_limits<word128>::max() returns 0
+363,2017-01-13 17:58:45.000000000,2017-01-13 18:39:04.000000000,closed,1,Suppress warning also for VS2017
+362,2017-01-13 16:43:52.000000000,2017-01-29 13:11:19.000000000,closed,1,Fix include logic for ARM headers under Apple and LLVM Clang
+361,2017-01-11 03:15:24.000000000,2017-01-12 03:50:33.000000000,closed,7,Crash on Windows 10 in dependent project
+360,2017-01-11 00:22:52.000000000,2017-01-11 08:11:49.000000000,closed,1,Crypto++ RoundUpToMultipleOf bug
+359,2017-01-09 02:17:49.000000000,2017-01-13 06:30:05.000000000,closed,5,Add dll export on some iterhash classes to fix CMake shared build.
+358,2017-01-08 04:12:54.000000000,2017-07-20 22:42:00.000000000,closed,13,CMake does not set CRYPTOPP_EXPORTS for shared build (and errors during building)
+357,2017-01-05 13:58:00.000000000,2017-01-12 07:07:44.000000000,closed,5,CMake: allow disabling the intermediate objects target (cryptopp-object).
+356,2017-01-04 22:47:11.000000000,2017-01-05 08:29:00.000000000,closed,5,Replace assert with void instruction
+355,2017-01-04 21:52:02.000000000,2017-01-12 07:09:34.000000000,closed,9,CMake-based Xcode build fails to build any library
+354,2016-12-31 09:08:18.000000000,2017-07-18 01:03:43.000000000,closed,16,Various Makefile fixes
+353,2016-12-29 06:46:54.000000000,2017-01-30 03:44:17.000000000,closed,3,Sourceforge link to 5.6.5 is bad: no 5.6.5 release file on sourceforge.
+352,2016-12-28 13:14:54.000000000,2016-12-28 17:31:04.000000000,closed,1,Update Readme.txt
+351,2016-12-27 22:38:52.000000000,2016-12-28 17:38:14.000000000,closed,1,spelling fixes
+350,2016-12-21 01:07:39.000000000,2016-12-24 10:14:59.000000000,closed,2,Evaluate advanced tool-assisted security checking
+349,2016-12-18 05:43:20.000000000,2016-12-24 10:17:44.000000000,closed,3,Default Socket::Listen backlog value is ancient and much too low
+348,2016-12-17 13:23:47.000000000,2016-12-17 14:00:38.000000000,closed,1,Add SipHash
+347,2016-12-14 17:20:35.000000000,2016-12-23 07:25:13.000000000,closed,2,Fix possible DoS in ASN.1 decoders (CVE-2016-9939)
+346,2016-12-13 01:42:57.000000000,2018-01-23 02:57:30.000000000,closed,15,Security issue (DoS) in Crypto++ ASN1 decoder
+345,2016-12-07 07:19:44.000000000,2016-12-11 15:11:04.000000000,closed,1,"Update DefaultEncryptor, DefaultEncryptorWithMAC and friends"
+344,2016-12-07 06:38:56.000000000,2016-12-07 06:58:17.000000000,closed,1,Add additional validate source file with additional tests
+343,2016-12-05 01:17:22.000000000,2016-12-05 02:08:58.000000000,closed,1,Crypto++ manual and empty enum values
+342,2016-12-03 07:30:14.000000000,2017-07-20 22:42:23.000000000,closed,2,Remove VC++ 5.0/6.0 support
+341,2016-12-03 04:16:16.000000000,2017-03-16 02:27:05.000000000,closed,2,Fix -Wshadow compiler warnings
+340,2016-12-03 00:18:10.000000000,2016-12-03 00:50:23.000000000,closed,1,Compiler conversion warnings
+339,2016-12-01 19:42:08.000000000,2016-12-01 19:56:40.000000000,closed,1,"Fix: GCC warning ""type qualifiers ignored on function return type""."
+338,2016-11-28 01:31:43.000000000,2016-11-28 03:09:45.000000000,closed,1,Add Poly1305 class
+337,2016-11-23 21:44:42.000000000,2018-01-23 02:57:43.000000000,closed,7,5.6.4 broke ABI of Integer::Integer()
+336,2016-11-23 18:00:12.000000000,2016-11-24 08:09:53.000000000,closed,2,"Add AND, OR and XOR bitops to Integer class"
+335,2016-11-12 23:52:57.000000000,1970-01-01 00:00:00.000000001,open,3,crypto-dev support
+334,2016-11-08 19:25:19.000000000,2018-09-05 23:56:56.000000000,closed,9,Add VectorSink
+333,2016-11-06 14:40:18.000000000,2016-11-07 01:01:57.000000000,closed,2,Undefined symbol in 5.6.5
+332,2016-11-01 09:41:42.000000000,2016-11-01 13:09:33.000000000,closed,1,"Shared object and ""undefined reference to Algorithm::Algorithm(bool)"""
+331,2016-11-01 06:20:20.000000000,2016-11-01 06:37:28.000000000,closed,1,CAST and zeroizer removal by the optimizer
+330,2016-10-28 22:21:06.000000000,2016-10-28 22:28:07.000000000,closed,3,"Debian Hurd, cpu.cpp and ""Error: character following name is not '#'"""
+329,2016-10-27 22:15:00.000000000,2016-10-27 22:23:53.000000000,closed,1,"Solaris 11 and ""error: operator '>=' has no left operand"""
+328,2016-10-23 07:40:37.000000000,2016-12-04 10:38:31.000000000,closed,6,Diffie-Hellman example code not compiling
+327,2016-10-22 01:04:20.000000000,2016-10-25 14:24:32.000000000,closed,12,Support split of build optional components and install optional components
+326,2016-10-22 00:52:27.000000000,2016-10-25 23:38:52.000000000,closed,3,build: add DISABLE_CXXFLAGS_OPTIMIZATIONS option
+325,2016-10-21 18:59:00.000000000,2016-10-22 21:20:26.000000000,closed,4,CMake build system is missing from 5.6.5 zip (cryptopp565.zip)
+324,2016-10-19 06:13:18.000000000,2016-10-19 06:50:09.000000000,closed,2,Can't BER decode RSA public key with NDK Android
+323,2016-10-19 00:26:30.000000000,2016-10-27 22:26:09.000000000,closed,2,curve25519 using old OID
+322,2016-10-14 11:31:48.000000000,2016-10-14 11:49:48.000000000,closed,1,"Cygwin and ""WSAStringToAddress was not declared in this scope"""
+321,2016-10-12 08:57:24.000000000,2016-10-12 09:01:04.000000000,closed,1,"MASM, x86 and RDRAND and Access Violation under VS2013"
+320,2016-10-11 09:52:22.000000000,2016-10-11 21:05:22.000000000,closed,3,Clang 3.6.2: gcm.cpp:143:25: error: use of undeclared identifier '_mm_clmulepi64_si128'
+319,2016-10-10 15:09:07.000000000,2016-10-18 10:16:07.000000000,closed,8,CryptoPP::memcpy_s has not been declared
+318,2016-10-09 23:38:46.000000000,2016-11-03 14:15:00.000000000,closed,7,Remove dependencies on WINVER and _WIN32_WINNT
+317,2016-10-09 01:08:43.000000000,2016-10-11 21:55:43.000000000,closed,9,Call for testers and spare cycles?
+316,2016-10-06 23:58:18.000000000,2016-10-11 10:44:46.000000000,closed,1,Visual Studio projects include X86/X64 ASM for ARM-based MSBuilds
+315,2016-10-04 05:16:49.000000000,2016-10-06 04:31:30.000000000,closed,1,Cygwin cannot compile library with <ossig.h> with option -std=XXX
+314,2016-10-02 22:18:30.000000000,2016-10-06 04:11:03.000000000,closed,1,Visual Studio 2010 project file cleanup
+313,2016-10-01 22:29:00.000000000,2016-10-02 06:16:56.000000000,closed,2,Crypto++ on omnet++
+312,2016-09-30 06:14:12.000000000,2016-09-30 08:56:37.000000000,closed,1,"Coverity finding CID 148134, 148138: Uninitialized scalar field (UNINIT_CTOR)"
+311,2016-09-29 23:11:43.000000000,2016-09-30 23:42:58.000000000,closed,1,Coverity finding CID 171230: Macro compares unsigned to 0 (NO_EFFECT)
+310,2016-09-29 22:30:18.000000000,2016-09-30 23:42:35.000000000,closed,5,Coverity findings CID 171217-171280: Resource leak (RESOURCE_LEAK)
+309,2016-09-28 00:04:59.000000000,2016-09-28 05:04:16.000000000,closed,4,Fixes #276
+308,2016-09-26 23:30:51.000000000,2016-09-27 05:12:25.000000000,closed,1,Fix Cmake (Issue 273)
+307,2016-09-25 23:05:25.000000000,2018-01-13 03:27:16.000000000,closed,1,DLIES cannot decrypt message in new context
+306,2016-09-25 02:12:03.000000000,2016-09-25 02:39:06.000000000,closed,1,Incorrect calls to _malloca() to _freea() can leak memory and/or cause crashes on Windows
+305,2016-09-24 02:51:15.000000000,2016-09-24 03:17:49.000000000,closed,6,PKCS5_PBKDF2_HMAC::DeriveKey adds a whitespace
+304,2016-09-24 00:36:11.000000000,2016-09-25 02:45:28.000000000,closed,3,"Asan and ""AddressSanitizer: SEGV on unknown address 0xfffffef0"" in VMAC"
+303,2016-09-23 19:15:09.000000000,2016-10-08 09:35:27.000000000,closed,1,Add TestScripts directory; move test fodder into it
+302,2016-09-23 05:16:51.000000000,2016-10-11 10:45:32.000000000,closed,10,AES and incorrect use or _malloca() and _freea() under Microsoft compilers
+301,2016-09-23 04:45:48.000000000,2016-09-23 10:08:00.000000000,closed,6,"When calculating the AES block cipher, allocate 4K of memory on the stack"
+300,2016-09-22 20:38:15.000000000,2016-09-23 08:01:01.000000000,closed,3,Clang 3.9 and missing member definitions for template classes
+299,2016-09-22 08:10:08.000000000,2016-09-23 18:39:06.000000000,closed,2,Coverity finding CID 12086: Use of untrusted scalar value (TAINTED_SCALAR)
+298,2016-09-22 05:13:58.000000000,2016-09-22 05:18:27.000000000,closed,1,Coverity finding CID 170382: Operands don't affect result (CONSTANT_EXPRESSION_RESULT)
+297,2016-09-21 18:21:53.000000000,1970-01-01 00:00:00.000000001,open,10,Separate AES from Rijndael; Support Rijndael 192-bit and 256-bit block sizes
+296,2016-09-21 16:20:09.000000000,2016-09-25 03:48:54.000000000,closed,1,Templated Keccak and SHA3
+295,2016-09-21 11:02:10.000000000,2016-09-22 05:51:31.000000000,closed,1,Coverity finding CID 170383 Overflowed return value (INTEGER_OVERFLOW)
+294,2016-09-21 10:40:06.000000000,2016-09-21 10:41:26.000000000,closed,1,"Revert ""Fix clang warnings about undefined variable templates in pkcspad.h"""
+293,2016-09-21 04:32:19.000000000,2016-09-21 04:56:18.000000000,closed,2,"Coverity finding CID 170385, Uninitialized scalar field (UNINIT_CTOR)"
+292,2016-09-21 02:30:56.000000000,2016-09-21 03:03:54.000000000,closed,2,Commit ccd59710 broke Keccak
+291,2016-09-20 13:35:16.000000000,2016-09-20 17:29:24.000000000,closed,2,Keccak typedef
+290,2016-09-20 12:31:44.000000000,2016-09-27 04:26:53.000000000,closed,20,Crypto++ and Commit Signing
+289,2016-09-20 04:05:21.000000000,2016-09-20 05:44:39.000000000,closed,1,"Solaris GCC and ""error: constructor priorities are not supported"""
+288,2016-09-20 02:22:21.000000000,2016-09-20 18:32:30.000000000,closed,1,Making the derived SHA3 and Keccak classes templates with typedefs instead of their own classes?
+287,2016-09-20 01:49:03.000000000,2016-09-20 01:53:26.000000000,closed,1,Cleanup VS2010 Project Files by inheriting Optimizations and PreprocessorDefinitions
+286,2016-09-19 20:37:48.000000000,2016-09-20 01:50:51.000000000,closed,6,Trivial VC10 project fixes
+285,2016-09-18 22:45:21.000000000,2016-09-19 01:33:42.000000000,closed,1,Sun Studio 12.2-12.4 and failed debug compile for ossig.h
+284,2016-09-18 19:03:16.000000000,2016-09-18 19:49:55.000000000,closed,1,SunCC 12.2 - 12.5 and incorrect results for GCM when using SSE2 ASM
+283,2016-09-18 17:18:07.000000000,2016-10-27 09:19:17.000000000,closed,2,Link failure with mismatched library and program capabilities
+282,2016-09-16 20:44:37.000000000,2016-09-16 21:16:15.000000000,closed,0,"$%^@!  448 bits is 56 bytes, not 58!!! Fixing that oversight."
+281,2016-09-16 20:21:43.000000000,2016-09-16 20:23:16.000000000,closed,1,Restore MARS capability to use 448-bit keys
+280,2016-09-16 18:38:24.000000000,2016-09-20 10:12:58.000000000,closed,10,fixed Keccak and SHA3 to support HMAC
+279,2016-09-16 18:10:32.000000000,2018-01-13 03:25:34.000000000,closed,6,"Add tweakable block ciphers, Threefish and Skein to Crypto++"
+278,2016-09-16 16:36:00.000000000,2016-09-16 21:16:03.000000000,closed,6,MARS max keysize is limited at 32 bytes - breaks CryFS
+277,2016-09-16 01:07:01.000000000,2016-10-11 10:45:43.000000000,closed,2,Cut-over to CRYPTOPP_ASSERT due to CVE-2016-7420
+276,2016-09-15 20:03:43.000000000,2016-09-28 05:04:16.000000000,closed,5,CMake produces artifacts without debugging information
+275,2016-09-15 19:45:32.000000000,2016-09-15 19:46:21.000000000,closed,1,Remove CMake from Release ZIP
+274,2016-09-15 04:43:33.000000000,2016-09-15 20:25:24.000000000,closed,1,"Solaris, integer.cpp and ""Types cannot be declared in anonymous union"""
+273,2016-09-14 19:54:32.000000000,2016-09-27 05:14:17.000000000,closed,4,Cmake lacks -march=native for compilers which support it
+272,2016-09-14 15:05:53.000000000,2018-12-28 00:05:53.000000000,closed,9,Crypto++ and Release Signing
+271,2016-09-14 13:32:54.000000000,2016-09-14 17:30:39.000000000,closed,1,Cmake and output artifacts that can't be linked due to missing PIC
+270,2016-09-13 22:30:50.000000000,2016-09-21 10:34:03.000000000,closed,8,Fix clang warnings about undefined variable templates in pkcspad.h
+269,2016-09-13 19:27:54.000000000,2016-09-13 20:58:36.000000000,closed,1,Cmake and failed link when using SunCC
+268,2016-09-13 17:43:53.000000000,2016-10-27 22:04:45.000000000,closed,1,CmakeList.txt calls out GNUInstallDirs
+267,2016-09-13 10:48:04.000000000,2016-09-13 19:31:09.000000000,closed,1,CMake fails to generate Makefiles on Solaris 11 wuth SunCC 5.14
+266,2016-09-13 04:08:23.000000000,2017-01-03 01:23:36.000000000,closed,1,Testing infrastructure lacks a Keystream test
+265,2016-09-13 04:02:48.000000000,2019-01-24 19:42:49.000000000,closed,0,ChaCha fails to validate TLS-ChaCha test vectors
+264,2016-09-12 11:40:45.000000000,2016-09-21 22:00:28.000000000,closed,1,"Clang 3.3, i686 and ""error: unknown use of instruction mnemonic without a size suffix"""
+263,2016-09-12 01:08:41.000000000,2016-09-12 01:10:48.000000000,closed,1,Changes for BouncyCastle interoperability
+262,2016-09-09 20:10:02.000000000,2018-01-21 21:56:24.000000000,closed,4,Need better design for Keccak
+261,2016-09-09 01:03:23.000000000,2016-09-09 11:24:42.000000000,closed,1,Archive VC++ 6.0 workspace and project files
+260,2016-09-08 15:29:59.000000000,2016-09-08 16:22:26.000000000,closed,1,shortened ChaCha typedefs
+259,2016-09-08 11:58:58.000000000,2016-09-08 17:44:00.000000000,closed,1,Remove integer.cpp ARMEL workarounds
+258,2016-09-07 21:20:30.000000000,2016-09-08 09:26:42.000000000,closed,1,Fix for CAST256 - Key-size
+257,2016-09-07 20:23:21.000000000,2018-01-21 21:56:12.000000000,closed,10,SHA3 HMAC Support
+256,2016-09-07 20:05:04.000000000,2016-09-09 14:35:38.000000000,closed,4,error: requested alignment is less than minimum alignment of 16 for type 'unsigned __int128 [8]'
+255,2016-09-06 06:41:36.000000000,2016-09-06 12:07:06.000000000,closed,1,OS X 10.5 and Missing symbols for FixedKeyLength<params>::KEYLENGTH
+254,2016-09-04 15:47:50.000000000,2016-09-05 09:13:30.000000000,closed,5,Update seckey.h
+253,2016-09-04 13:29:43.000000000,2016-09-04 15:48:07.000000000,closed,0,Fix Rijndael Base::UncheckedSetKey and out-of-bounds read
+252,2016-09-04 13:05:40.000000000,2016-09-05 19:43:20.000000000,closed,21,Rijndael Base::UncheckedSetKey and out-of-bounds read on rcLE
+251,2016-08-31 02:10:30.000000000,2016-09-02 08:46:51.000000000,closed,1,Make a Example of using Crypto++ as a basis of a Executable compressor.
+250,2016-08-29 16:01:03.000000000,2016-10-27 22:25:53.000000000,closed,4,Curve25519 support in Crypto++
+249,2016-08-29 06:57:29.000000000,2016-09-19 07:23:15.000000000,closed,14,How to find crypto++ package using cmake?
+248,2016-08-27 05:53:38.000000000,1970-01-01 00:00:00.000000001,open,3,Skip'ing on a Source does not work
+247,2016-08-24 10:23:42.000000000,2016-08-24 10:40:43.000000000,closed,1,Sun Studio 12.3 and BLAKE2b failures
+246,2016-08-24 08:41:21.000000000,2016-08-24 14:37:06.000000000,closed,1,The clang compiler does not support '-mfpu=neon-vfpv4'
+245,2016-08-23 02:51:24.000000000,2016-08-24 14:37:23.000000000,closed,1,"Clang and ""error: SSSE3 instruction set not enabled"""
+244,2016-08-22 12:55:56.000000000,2016-08-22 13:08:44.000000000,closed,1,Install path cannot be modified for certain targets
+243,2016-08-18 14:41:00.000000000,2016-08-19 05:33:03.000000000,closed,2,Cross compiling for android with c++11
+242,2016-08-10 23:46:29.000000000,2016-08-21 13:34:49.000000000,closed,13,Core dump in HuffmanEncoder::GenerateCodeLengths in case of only one leaf in tree.
+241,2016-08-07 16:59:57.000000000,2016-08-20 07:09:52.000000000,closed,1,Fixed install path for Windows in CMake
+240,2016-08-06 04:00:40.000000000,2016-08-06 04:05:28.000000000,closed,4,SHA3 FIPS 202 Deprecation messages
+239,2016-08-02 00:00:35.000000000,2016-08-02 00:25:37.000000000,closed,1,cpu: fix MinGW-w64 build. Closes #237
+238,2016-08-01 20:59:58.000000000,2016-08-01 22:55:36.000000000,closed,1,"GCC, ARMv8 and ""fatal error: arm_acle.h: No such file or directory"""
+237,2016-08-01 03:08:27.000000000,2016-08-02 00:25:38.000000000,closed,9,Mingw-w64: 'sigset_t' does not name a type
+236,2016-07-31 10:09:27.000000000,2016-09-08 10:20:46.000000000,closed,2,word64 compile problems due to SSE2 and NEON interfaces
+235,2016-07-31 03:08:23.000000000,2016-08-01 22:51:33.000000000,closed,8,Suggested by code analyzer
+234,2016-07-30 07:04:53.000000000,2016-07-30 07:37:59.000000000,closed,2,"Clang 3.5 and ""error: no matching function for call to vcombine_u64"""
+233,2016-07-28 16:00:36.000000000,2016-07-29 07:57:39.000000000,closed,1,"Aarch32, GCC 4.9 and internal compiler error: in expand_shift_1, at expmed.c:2318"
+232,2016-07-28 05:58:57.000000000,2016-07-31 02:21:41.000000000,closed,8,Clang link errors when linking against Kovri
+231,2016-07-27 09:46:17.000000000,2016-07-29 13:58:14.000000000,closed,1,Raspberry Pi 3 and Bus Error
+230,2016-07-20 08:57:58.000000000,2016-07-20 09:21:04.000000000,closed,1,Sun GCC and missing 64-bit BMI/BMI2 instructions
+229,2016-07-17 06:52:49.000000000,2016-07-17 07:55:40.000000000,closed,1,Sun Studio 12.1-12.3 and Error: cannot use vector unsigned long long[2] to initialize vector unsigned long long[2]
+228,2016-07-15 23:51:43.000000000,2016-07-16 01:26:36.000000000,closed,2,SunCC 12.2 and failed compile using Platform CXXFLAGS
+227,2016-07-15 23:29:47.000000000,2016-07-15 23:47:31.000000000,closed,2,SunCC 12.2-12.5 and failed compile for gcm.cpp
+226,2016-07-15 12:53:22.000000000,2016-09-12 07:26:44.000000000,closed,3,SunCC 12.2-12.4 failed compile with C++{03|11} for gcm.cpp
+225,2016-07-15 07:54:14.000000000,2016-07-15 09:40:44.000000000,closed,11,Compiling cryptopp 5.6.3 on arm64
+224,2016-07-15 07:47:40.000000000,2016-07-15 08:42:24.000000000,closed,2,SunCC and failed compile for rijndael.cpp
+223,2016-07-13 08:26:29.000000000,2016-07-13 08:43:22.000000000,closed,1,Valgrind findings on uninitialized data on OS X when using -Ofast
+222,2016-07-11 18:48:46.000000000,2016-07-15 23:21:35.000000000,closed,11,android cross compile autoconf header check 
+221,2016-07-10 16:12:10.000000000,2016-07-12 23:50:05.000000000,closed,3,Warnings in OSX GCC
+220,2016-07-09 13:57:40.000000000,2016-07-09 14:36:01.000000000,closed,1,"Sun Studio 12.5 and ""assertion failed in function pr_post_process_node() @ preopt.c:3868"""
+219,2016-07-06 20:26:39.000000000,2016-07-06 23:10:26.000000000,closed,2,"ld.gold and i686 without PIC: ""/usr/bin/ld: -f may not be used without -shared"""
+218,2016-07-05 00:57:27.000000000,2016-07-05 11:07:20.000000000,closed,2,Merge 'clang-ia' (clang integrated assembler) into Master
+217,2016-07-04 21:12:33.000000000,2016-07-04 21:15:04.000000000,closed,1,Do not re-define macros already provided by native compiler
+216,2016-07-04 21:09:17.000000000,2016-09-08 11:00:12.000000000,closed,4,Make ECIES default compatible with BouncyCastle
+215,2016-07-04 21:06:58.000000000,2016-07-07 07:15:03.000000000,closed,1,Add HMQV and merge untracked FHMQV
+214,2016-07-04 16:45:56.000000000,2018-01-21 21:55:45.000000000,closed,5,"VS2015 and multiple C4589 warnings, ""Constructor of abstract class X ignores initializer for virtual base class Y"""
+213,2016-07-03 09:30:53.000000000,2018-01-13 03:24:17.000000000,closed,3,Need to detect ARM64 for Windows
+212,2016-07-02 03:15:53.000000000,2016-07-05 19:27:49.000000000,closed,1,"ARM32, GCC 4.8 and Asan problems..."
+211,2016-07-01 22:32:18.000000000,2016-07-04 20:51:57.000000000,closed,10,Add HMQV implementation (and merge the old FHMQV into the new codebase)
+210,2016-07-01 21:34:53.000000000,2016-07-01 22:11:36.000000000,closed,1,"Coverity finding ""The wrong size value is used as an argument to a function"""
+209,2016-07-01 00:27:44.000000000,2016-07-01 04:58:00.000000000,closed,1,Blake2s fails under VS2008/Win32/Release for Validation Suite
+208,2016-06-30 02:23:56.000000000,2018-08-18 08:20:01.000000000,closed,5,Investigate moving OS specific Socket and Thread to the Patch Page
+207,2016-06-29 16:19:14.000000000,2016-07-04 18:01:41.000000000,closed,6,SONAME not found in libcryptopp.so
+206,2016-06-27 14:57:48.000000000,2016-09-19 05:13:35.000000000,closed,3,"GCC 4.8/4.9, -std=c++11 and ""error: expected ‘)’ before __builtin_ia32_pclmulqdq128"""
+205,2016-06-26 14:11:27.000000000,2016-06-26 14:29:25.000000000,closed,1,Use of undeclared identifiers '_tzcnt_u32' and '_blsr_u32'
+204,2016-06-25 11:04:20.000000000,2016-06-25 11:10:08.000000000,closed,1,"I write this code, I need to release the resources of the 'new' ？"
+203,2016-06-23 00:42:35.000000000,2016-06-23 00:43:46.000000000,closed,1,Timing Attack Counter Measure Camellia 
+202,2016-06-22 16:06:10.000000000,2016-06-22 16:07:43.000000000,closed,1,ASAN checks fail under X32
+201,2016-06-21 17:21:36.000000000,2016-06-21 17:44:12.000000000,closed,1,"CMake cryptest binary is now named ""cryptest.exe"" on all platforms."
+200,2016-06-21 14:52:22.000000000,2016-06-21 15:39:25.000000000,closed,2,Fixed multiple CMake issues and added complete support for CMake 2.8.5
+199,2016-06-21 00:23:31.000000000,2016-06-21 15:39:24.000000000,closed,4,"Cmake and ""include_directories given empty-string as include directory"""
+198,2016-06-20 23:30:29.000000000,2016-06-21 15:39:24.000000000,closed,1,"Cmake and Unknown CMake command ""write_basic_package_version_file"""
+197,2016-06-20 22:31:47.000000000,2016-06-20 22:58:41.000000000,closed,1,"MacPorts Clang and ""asan_symbolize: command not found"""
+196,2016-06-20 19:25:33.000000000,2016-06-20 19:32:37.000000000,closed,2,"ARM, Clang and ""SSE instruction set not enabled"""
+195,2016-06-20 07:28:08.000000000,2016-06-20 07:34:32.000000000,closed,1,as I can use this in C #
+194,2016-06-20 05:14:00.000000000,2016-06-20 19:36:26.000000000,closed,2,"ARM and error: ""SSE instruction set not enabled"""
+193,2016-06-19 19:41:10.000000000,2016-06-19 19:41:57.000000000,closed,1,cpu.h and error: expected unqualified-id before 'int'
+192,2016-06-19 09:28:02.000000000,2016-06-21 15:39:24.000000000,closed,13,"Cmake and ""No rule to make target 'static'.  Stop"""
+191,2016-06-16 12:37:10.000000000,2016-06-17 16:58:20.000000000,closed,2,CMake Warning: MACOSX_RPATH is not specified for the following targets...
+190,2016-06-16 10:49:05.000000000,2016-06-16 11:42:38.000000000,closed,1,"MacPorts GCC should use Clang integrated assembler via -Wa,-q"
+189,2016-06-16 07:11:12.000000000,2016-06-16 07:17:45.000000000,closed,1,MacPorts GCC engages -DCRYPTOPP_DISABLE_ASM
+188,2016-06-14 06:25:25.000000000,2016-06-14 15:34:38.000000000,closed,1,"Sun Studio 12.4 and Error: The operand ""___LKDB"" cannot be assigned to."
+187,2016-06-13 07:15:21.000000000,2016-06-13 07:56:07.000000000,closed,2,Cygwin i686/GCC 5.3 and error: ‘u_short’ was not declared in this scope
+186,2016-06-13 02:03:59.000000000,2016-09-08 10:53:04.000000000,closed,6,fix bug #185
+185,2016-06-12 20:29:48.000000000,2017-05-25 10:07:19.000000000,closed,12,CBC_CTS_Encryption::ProcessLastBlock does not work inplace
+184,2016-06-12 17:23:00.000000000,2016-09-09 17:47:12.000000000,closed,2,Clang 3.5/Apple Clang 5.0 and undeclared identifier '_mm_clmulepi64_si128'
+183,2016-06-12 16:43:31.000000000,2016-06-12 17:01:29.000000000,closed,1,Clang 3.6/Apple Clang 6.3 and undeclared identifier '_rdseed64_step'
+182,2016-06-12 14:39:53.000000000,2016-06-12 16:13:45.000000000,closed,1,Clang 3.5/Apple Clang 5.0 compiler crash
+181,2016-06-09 12:10:16.000000000,2016-06-19 06:15:14.000000000,closed,8," Unknown CMake command ""target_include_directories"""
+180,2016-06-09 09:08:56.000000000,2016-06-09 11:50:43.000000000,closed,1,Add Sun Studio specific tests to cryptest.sh
+179,2016-06-07 15:50:11.000000000,2016-06-09 05:57:59.000000000,closed,1,Solaris Studio 12.3 and 12.4 builds broken
+178,2016-06-07 05:32:18.000000000,2016-10-08 23:48:22.000000000,closed,22,Recent Windows 8 and Windows 10 support broke Windows 7/VS 2012
+177,2016-06-06 08:31:46.000000000,2016-08-24 20:44:13.000000000,closed,1,Implementing GCM on ARMv8
+176,2016-06-05 01:12:11.000000000,2016-06-06 08:30:17.000000000,closed,2,cryptest.exe reports wrong CPU features for Core2 duo
+175,2016-06-02 01:24:00.000000000,2016-06-02 01:30:13.000000000,closed,6,cmake: add BUILD_(STATIC/SHARED) to specify which flavor to build
+174,2016-05-31 14:57:10.000000000,2016-06-21 17:45:55.000000000,closed,3,Fix clang warning
+173,2016-05-17 13:19:50.000000000,2016-06-06 14:48:47.000000000,closed,4,Use std::call for singleton implementation
+172,2016-05-10 14:46:39.000000000,2016-05-12 16:17:10.000000000,closed,9,Check for SSE4 support before using SSE4.1 instruction
+171,2016-05-08 17:31:47.000000000,2016-05-09 01:45:02.000000000,closed,1,Fix _WIN32_WINNT for Windows Store Apps >= 10.*
+170,2016-05-07 20:00:57.000000000,2016-05-07 20:14:31.000000000,closed,2,Fix CMake issues for WindowsPhone build
+169,2016-05-03 11:41:03.000000000,2016-05-03 14:52:39.000000000,closed,0,Force include winapifamily.h for windows store
+168,2016-05-01 07:42:55.000000000,2016-05-17 19:10:52.000000000,closed,7,Need performance based counter for TimerBase on Windows Phone and Windows Store
+167,2016-04-29 11:01:35.000000000,2016-05-17 19:11:04.000000000,closed,4,Need to deactivate FIPS code paths for Windows Store apps
+166,2016-04-28 04:21:49.000000000,2016-09-10 21:31:51.000000000,closed,3,Windows NT and Windows 2000 version info for WINVER and _WIN32_WINNT
+165,2016-04-26 22:49:21.000000000,2016-05-17 19:11:13.000000000,closed,3,Need NO_SOCKET macro to remove sockets only for Windows
+164,2016-04-26 22:42:06.000000000,2016-05-17 19:13:23.000000000,closed,18,Need NonblockingRng based on BCryptGenRandom for Windows
+163,2016-04-26 09:34:04.000000000,2016-06-23 04:13:33.000000000,closed,3,Build break using MD mode under VS2015 with Update2
+162,2016-04-26 00:33:11.000000000,2016-04-26 00:40:14.000000000,closed,1,Compile issues for crc.cpp and blake2.cpp under ARM Developer Prompt
+161,2016-04-25 12:21:31.000000000,2016-04-25 12:39:56.000000000,closed,0,replaced special character
+160,2016-04-24 20:39:53.000000000,2016-04-24 21:28:31.000000000,closed,1,Provide iSCSI CRC-32C
+159,2016-04-24 12:07:26.000000000,2018-01-13 03:22:33.000000000,closed,25,Need cryptest.cmd for Windows testing
+158,2016-04-22 12:21:09.000000000,2016-04-24 06:14:40.000000000,closed,11,SHA3 test vector results
+157,2016-04-22 01:20:23.000000000,2016-09-08 10:47:52.000000000,closed,3,Adjusted ChaCha for dynamic round selection
+156,2016-04-07 15:02:40.000000000,2016-05-02 15:21:21.000000000,closed,2,Fix MSVC2015 (win64) CMakeLists.txt issues #99
+155,2016-04-07 12:14:24.000000000,2016-04-07 14:54:40.000000000,closed,1,CMake configure for VS 2015 x64 creates non-buildable solution
+154,2016-04-06 18:05:37.000000000,2016-04-08 02:58:36.000000000,closed,2,Fix the Rijndael timing attack counter measure
+153,2016-04-06 09:29:38.000000000,2016-04-06 09:52:58.000000000,closed,1,Failed build on Debian and m68k processor
+152,2016-04-05 13:17:14.000000000,2016-05-02 15:20:30.000000000,closed,8,Fix Visual Studio compilation with _HAS_EXCEPTIONS=0
+151,2016-03-29 21:14:36.000000000,2016-06-21 23:59:58.000000000,closed,13,Fixed linker error when using VS2015 /MD
+150,2016-03-24 13:24:04.000000000,2016-03-25 23:10:13.000000000,closed,1,Add default OS X NDK root
+149,2016-03-15 09:04:43.000000000,2016-10-31 16:52:45.000000000,closed,6,Crypto++ FIPS certificates moved to Historical Validation List
+148,2016-03-13 12:36:19.000000000,2016-04-06 19:32:14.000000000,closed,0,Failed compile for Cygwin-x64 when using std=c++03
+147,2016-03-11 20:59:10.000000000,2016-09-09 18:47:15.000000000,closed,14,Building Crypto++ with Clang on Windows results in a crash when constructing MD5 class
+146,2016-03-11 16:00:05.000000000,2016-09-10 23:34:31.000000000,closed,13,Timing Attack Counter Measure AES
+145,2016-03-10 18:21:51.000000000,2019-02-10 04:38:31.000000000,closed,4,AEAD interface doesn't support offline AEAD algorithms
+144,2016-03-09 01:30:34.000000000,2016-03-11 12:01:26.000000000,closed,4,crypto++ and crypto++-562 are in conflict
+143,2016-03-07 23:21:07.000000000,2016-05-17 19:14:00.000000000,closed,38,Support for Universal Windows Platform (UWP) 
+142,2016-03-03 19:50:45.000000000,2016-03-04 23:04:07.000000000,closed,1,Remove unwanted assert
+141,2016-03-01 23:57:48.000000000,2016-03-04 21:35:23.000000000,closed,3,File validat1.cpp compilation issue with NO_OS_DEPENDENCE defined
+140,2016-02-26 20:48:14.000000000,2016-02-27 17:06:27.000000000,closed,2,Compile error: ‘_rdseed64_step’ was not declared in this scope
+139,2016-02-21 09:24:54.000000000,2017-02-07 21:12:53.000000000,closed,10,Support for CPU instructions for hardware-accelerated SHA
+138,2016-02-21 08:44:35.000000000,2016-02-21 08:49:35.000000000,closed,1,Assert when running CMAC example on the wiki
+137,2016-02-15 10:01:01.000000000,2016-03-10 03:20:21.000000000,closed,3,'fd_set does not name a type' under Cygwin x64
+136,2016-02-12 04:31:37.000000000,2016-02-12 05:38:42.000000000,closed,1,Fixed #135
+135,2016-02-11 01:58:46.000000000,2016-02-12 05:38:42.000000000,closed,1,Change Cmake path variable to current dir
+134,2016-02-10 05:16:32.000000000,2016-02-12 09:48:33.000000000,closed,2,setenv-embedded.sh and GNUmakefile-cross
+133,2016-02-07 19:24:04.000000000,2016-02-07 22:33:51.000000000,closed,8,Provide & install a pkg-config file                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       
+132,2016-02-06 06:27:49.000000000,2016-09-10 21:33:36.000000000,closed,2,Hang in Rijndael's Enc::AdvancedProcessBlocks and AliasedWithTable
+131,2016-02-04 05:25:37.000000000,2016-09-08 10:55:34.000000000,closed,30,Add RFC 6979 support.
+130,2016-02-01 14:39:18.000000000,2016-02-01 16:04:06.000000000,closed,11,SHA-3 CalculateDigest results in Segmentation fault
+129,2016-01-30 13:25:31.000000000,2016-01-30 22:21:03.000000000,closed,2,Nuget packages
+128,2016-01-29 16:06:24.000000000,2016-01-29 19:57:33.000000000,closed,2,SHA3 CalculateDigest() results in SIGSEGV
+127,2016-01-29 02:39:31.000000000,2016-01-31 00:04:02.000000000,closed,2,Use of static inline functions in headers may violate ODR and lead to UB
+126,2016-01-28 18:03:00.000000000,2016-01-29 19:37:50.000000000,closed,9,"misc.h IncrementCounterByOne (output, input, size) "
+125,2016-01-26 14:45:18.000000000,2016-01-27 14:02:37.000000000,closed,3,"misc.h, memcpy_s assert() fails"
+124,2016-01-25 18:44:18.000000000,2016-09-10 14:41:03.000000000,closed,9,__asm__ volatile missing clobbered registers
+123,2016-01-25 07:14:53.000000000,2016-02-05 11:01:25.000000000,closed,5,C4996 warning due to std::reverse_copy on Microsoft platforms
+122,2016-01-25 00:32:34.000000000,2016-01-26 05:37:57.000000000,closed,2,Warning when using -Wcast-align with modern GCC and Clang
+121,2016-01-24 19:42:41.000000000,2016-12-11 11:04:47.000000000,closed,24,Deterministic DSA and ECDSA Signatures
+120,2016-01-24 05:39:54.000000000,2016-01-25 03:07:34.000000000,closed,2,g++: internal compiler error: Killed when using -pipe with regtest.cpp 
+119,2016-01-22 06:40:41.000000000,2016-01-24 03:44:59.000000000,closed,12,Failure on to compile for armeabi using android NDK
+118,2016-01-20 20:38:53.000000000,2016-01-20 21:15:55.000000000,closed,0,added multi-job make
+117,2016-01-17 17:49:31.000000000,2016-01-23 03:10:42.000000000,closed,13,Optimizing the test script
+116,2016-01-16 03:34:30.000000000,2016-01-16 03:39:33.000000000,closed,1,Made MeterFilter Get*() functions const
+115,2016-01-15 01:43:24.000000000,2016-01-15 01:55:18.000000000,closed,1,Fixed the DLLSRCS variable of GNUmakefile to compile without errors c…
+114,2016-01-14 03:47:59.000000000,2016-01-14 20:04:30.000000000,closed,4,Integer Patch
+113,2016-01-13 00:47:00.000000000,2017-09-19 10:53:59.000000000,closed,7,Add support for EC-GDSA and EC-KCDSA
+112,2016-01-13 00:03:38.000000000,2016-04-11 08:04:29.000000000,closed,18,Inflator throws end of compressed block on complete compressed data
+111,2016-01-12 09:35:40.000000000,2016-01-12 09:52:47.000000000,closed,3,With C++Builder we need to include stdlib.h to use wcstombs
+110,2016-01-12 09:22:36.000000000,2016-01-12 09:43:29.000000000,closed,1,Fixes a compiler error with C++Builder XE6
+109,2016-01-12 09:06:57.000000000,2016-01-12 09:43:47.000000000,closed,1,Added C++Builder section in .gitignore file
+108,2016-01-12 05:34:12.000000000,2016-01-12 09:38:08.000000000,closed,7,Crash when trying to set alternate alphabet for Base32 decoder
+107,2016-01-09 06:13:58.000000000,2016-01-12 22:59:16.000000000,closed,11,Improve C++Builder support
+106,2016-01-09 00:23:01.000000000,2016-01-09 01:37:46.000000000,closed,3,pem-com.h missing from PEM pack archive
+105,2016-01-08 08:03:57.000000000,2016-01-11 01:54:33.000000000,closed,3,Valgrind reports unintialized reads under 32-bit ARM
+104,2016-01-08 00:41:43.000000000,2016-01-08 17:33:31.000000000,closed,5,setsockopt EINVAL with cryptopp ft 9109 example.com 80
+103,2016-01-07 15:55:58.000000000,2016-01-11 18:06:28.000000000,closed,11,Heap Corruption on Windows
+102,2016-01-06 22:03:53.000000000,2016-01-12 09:50:53.000000000,closed,2,Length should be using size_t
+101,2016-01-02 18:16:30.000000000,2016-01-03 13:11:57.000000000,closed,3,eccrypto.h duplicated within itself?
+100,2016-01-02 12:08:06.000000000,2016-04-06 19:34:11.000000000,closed,5,Crash on Cygwin-x64 with -DDEBUG -Os
+99,2016-01-01 22:44:57.000000000,2016-06-22 17:28:37.000000000,closed,12,MSVC2015 (win64) CMakeLists.txt issues
+98,2016-01-01 02:08:48.000000000,2016-01-01 09:23:44.000000000,closed,2,"Fix problem, pull request #65 comment 168191115"
+97,2015-12-31 00:15:31.000000000,2017-04-15 14:35:15.000000000,closed,6,Continuous integration and testing
+96,2015-12-29 13:21:19.000000000,2016-06-21 14:44:10.000000000,closed,3,Provided compatibility with CMake 2.8.7
+95,2015-12-29 05:49:56.000000000,2015-12-29 06:02:34.000000000,closed,3,Fix an issue that caused targets to be rebuilt unnecessarily and prevented updated object files from regenerating targets.
+94,2015-12-28 21:03:43.000000000,2016-01-01 19:19:05.000000000,closed,7,CFB_ModePolicy Android
+93,2015-12-28 13:40:28.000000000,2016-01-18 06:58:11.000000000,closed,7,Need a Code Coverage tool added to the Release Process
+92,2015-12-27 18:26:34.000000000,2015-12-28 10:13:04.000000000,closed,8,secblock.h: Error inside assert()
+91,2015-12-27 00:00:10.000000000,2015-12-27 22:18:49.000000000,closed,1,Apply the same versioned solib changes as to GNUmakefile
+90,2015-12-26 16:03:35.000000000,2015-12-26 16:23:19.000000000,closed,2,Versioned shared library makefile fixes
+89,2015-12-26 13:27:25.000000000,2016-09-10 12:45:19.000000000,closed,1,Make VS2010 default sometime in 2016
+88,2015-12-26 11:18:24.000000000,2015-12-28 01:48:41.000000000,closed,2,Added CRYPTOPP_DATA_DIR option in CMakeLists.txt.
+87,2015-12-19 09:58:37.000000000,2015-12-30 22:10:17.000000000,closed,11,Issues with post build event with newer msvc
+86,2015-12-19 08:54:59.000000000,2015-12-27 11:39:08.000000000,closed,9,Incorrect paths for AdditionalLibraryDirectories in msvc for dll generation
+85,2015-12-16 08:47:03.000000000,2015-12-16 08:54:34.000000000,closed,1,CryptoPP for cross-compilation on ARM-embedded
+84,2015-12-14 19:53:22.000000000,2015-12-15 01:52:13.000000000,closed,1,Microsoft ARM support
+83,2015-12-14 18:09:17.000000000,2015-12-20 05:32:21.000000000,closed,10,zdeflate error 
+82,2015-12-12 11:19:09.000000000,2015-12-26 09:52:09.000000000,closed,3,Add Debian-style Data Directory patch
+81,2015-12-12 09:31:37.000000000,2015-12-25 20:08:43.000000000,closed,1,Makefile improvements
+80,2015-12-12 06:55:36.000000000,2015-12-25 22:12:27.000000000,closed,13,[OSX] Incorrect install_name for dynamic library
+79,2015-12-09 18:16:55.000000000,2015-12-11 19:04:00.000000000,closed,6,failiure of assert(dest != NULL); assert(src != NULL);
+78,2015-12-09 18:02:15.000000000,2015-12-10 00:07:16.000000000,closed,2,How do I install Crypto++ in Visual Studio 2013 Windows 8?
+77,2015-12-08 21:13:04.000000000,2015-12-25 22:13:46.000000000,closed,8,CMake build
+76,2015-12-08 00:07:29.000000000,2016-03-10 00:59:40.000000000,closed,1,Add setenv scripts for Makefile based cross-compiles
+75,2015-12-07 23:13:42.000000000,2015-12-07 23:24:54.000000000,closed,0,Extended .gitignore
+74,2015-12-07 21:02:37.000000000,2015-12-07 22:36:34.000000000,closed,5,Build for Android: #include <string>
+73,2015-12-07 19:00:06.000000000,2015-12-26 06:55:56.000000000,closed,4,Provide CMake build system
+72,2015-11-30 16:07:00.000000000,2015-12-03 01:57:43.000000000,closed,5,clang compilation error on cpu.cpp
+71,2015-11-24 22:51:52.000000000,2015-12-26 12:06:45.000000000,closed,6,Pick-up SONAME merge requests
+70,2015-11-24 21:19:35.000000000,2016-12-03 10:34:25.000000000,closed,7,Remove MAINTAIN_BACKWARDS_COMPATIBILITY_562
+69,2015-11-22 17:23:02.000000000,2016-03-11 12:02:40.000000000,closed,1,Need a set of tests which perform key generation
+68,2015-11-19 20:48:25.000000000,2015-11-27 01:57:18.000000000,closed,7,AutoSeededRandomPool::GenerateBlock causes Segmentation Fault/Freeze
+67,2015-11-18 17:48:02.000000000,2018-01-23 02:58:53.000000000,closed,52,No safe curves are currently supported
+66,2015-11-17 03:21:34.000000000,2015-11-19 01:20:41.000000000,closed,1,Rollup of Coverity items to be fixed before release
+65,2015-11-09 01:38:57.000000000,2015-12-26 11:42:44.000000000,closed,18,Linux shared-object library versioning
+64,2015-11-07 04:38:20.000000000,2015-11-07 10:46:25.000000000,closed,3,PolynomialMod2::operator<<= Bug
+63,2015-11-06 23:02:59.000000000,2015-11-13 19:15:47.000000000,closed,0,Override a pure virtual function inherited from WindowsPipe
+62,2015-11-06 19:57:39.000000000,2015-11-13 19:15:47.000000000,closed,6,WindowsPipeReceiver/Sender inherit a pure virtual function but do not override it
+61,2015-11-06 17:54:37.000000000,2016-01-08 18:54:18.000000000,closed,1,Hang on Debian ARM64 QEMU Chroot
+60,2015-11-06 16:17:26.000000000,2015-11-19 01:58:51.000000000,closed,12,rdrand.cpp causes the library to fail to compile when using MinGW-w64
+59,2015-11-05 19:29:44.000000000,2015-11-09 08:31:10.000000000,closed,5,Cross-compiling for android does not work anymore on OpenSUSE and Travis CI
+58,2015-11-05 16:21:49.000000000,2015-11-19 01:21:34.000000000,closed,6,Rollup of errata items to be fixed before release
+57,2015-11-02 05:32:21.000000000,2015-11-04 08:43:10.000000000,closed,2,MinGW cannot compile the library due to missing symbol MinGW _hypot
+56,2015-11-01 19:15:39.000000000,2016-07-04 16:54:44.000000000,closed,8,WaitObjectsTracer causes dirty compile under VS2015
+55,2015-11-01 04:01:09.000000000,2015-11-01 08:04:55.000000000,closed,1,_CRT_SECURE_NO_DEPRECATE is used under Windows
+54,2015-10-31 16:10:54.000000000,2015-11-19 02:31:39.000000000,closed,2,Need a strategy for dealing with OS X ported compilers
+53,2015-10-31 12:51:37.000000000,2015-11-05 18:38:24.000000000,closed,2,"Compile Failure under Debian Unstable (x64), GCC 4.9, -std=c++11"
+52,2015-10-31 07:45:37.000000000,2015-10-31 11:02:00.000000000,closed,1,StringNarrow uses wcstombs on Microsoft platforms
+51,2015-10-31 01:54:19.000000000,2015-10-31 18:05:16.000000000,closed,2,"Verify conformance with FIPS 186-4, Change Notice, Item 5"
+50,2015-10-29 19:52:00.000000000,2015-10-31 17:09:12.000000000,closed,1,GeneratePrimes is not a member of CryptoPP::DSA with CRYPTOPP_MAINTAIN_BACKWARDS_COMPATIBILITY
+49,2015-10-27 22:36:43.000000000,2015-10-31 13:41:23.000000000,closed,1,Cryptest.exe fails to build under Cygwin-i686 with sanitizer flags
+48,2015-10-27 06:00:32.000000000,2015-10-31 11:02:43.000000000,closed,3,Use of auto_ptr causes dirty compile under C++11
+47,2015-10-26 21:21:38.000000000,2015-10-31 13:37:48.000000000,closed,1,"Hang in SHA with Debian Sid, GCC 5.2 and Core2 Duo hardware"
+46,2015-10-26 06:12:44.000000000,2015-10-26 06:38:35.000000000,closed,2,Remove implementation of ResizeBuffer() from headers
+45,2015-10-25 12:00:41.000000000,2015-10-26 06:42:54.000000000,closed,6,Attempt to support GCC's -fdevirtualize
+44,2015-10-25 01:39:19.000000000,2015-10-25 11:36:50.000000000,closed,14,"Valgrind: ""Conditional jump or move depends on uninitialised value(s)"""
+43,2015-10-23 11:11:15.000000000,2015-10-31 18:01:00.000000000,closed,0,"Crash in AutoSeededRandomPool under Windows XP, VS2005, Aligned Data Access"
+42,2015-10-23 09:56:46.000000000,2015-10-24 04:14:45.000000000,closed,4,"Undefined symbol `rdtable::Te` under Visual Studio, X64, Aligned Data Access"
+41,2015-10-16 00:43:11.000000000,2016-04-24 02:41:31.000000000,closed,2,Updated SHA3 padding to NIST final FIPS 202 spec
+40,2015-10-10 20:47:27.000000000,2015-10-10 21:21:42.000000000,closed,1,Crash in DL_GroupParameters_IntegerBased::GetEncodedElementSize for Cygwin i386 at -O3
+39,2015-10-09 22:45:25.000000000,2015-10-25 12:04:12.000000000,closed,2,Feature detection issue in Debian Unstable
+38,2015-10-06 23:49:26.000000000,2015-10-10 21:21:18.000000000,closed,6,Crash in RandomNumberGenerator::GenerateWord32 due to stack recursion
+37,2015-10-03 22:19:42.000000000,2015-12-20 05:55:20.000000000,closed,4,Crash in SHA under iOS 5.1.1
+36,2015-10-03 11:35:31.000000000,2015-10-25 12:49:11.000000000,closed,1,Crypto++ should provide a pkg-config for users and distros
+35,2015-10-01 17:39:22.000000000,2015-10-26 06:50:57.000000000,closed,1,Fixes the warning on IntToString about comparison of unsigned and sig…
+34,2015-09-23 23:07:18.000000000,2016-01-07 20:30:29.000000000,closed,7,"Assert in class NullAllocator, function deallocate"
+33,2015-09-21 11:41:57.000000000,2015-09-21 11:45:28.000000000,closed,0,Configuration failure under S/390{x}
+32,2015-09-18 13:34:31.000000000,2015-10-14 00:05:57.000000000,closed,2,"Compile failures under X32 (32-bit integers, longs, pointers on x86_64)"
+31,2015-09-10 19:42:51.000000000,2015-09-19 06:15:27.000000000,closed,5,BlumBlumShub validation fails under ARMEL (likely others)
+30,2015-08-27 11:12:40.000000000,2016-01-26 12:29:14.000000000,closed,3,There are many compile warnings on GCC with '-Wabi'
+29,2015-08-13 00:56:00.000000000,2016-01-07 05:49:42.000000000,closed,18,Memory allocation not properly aligned on Windows platforms.
+28,2015-08-06 12:01:36.000000000,2015-11-06 18:36:25.000000000,closed,70,Building cryptest.exe fails on MinGW-w64
+27,2015-08-06 11:44:03.000000000,2015-12-26 07:00:16.000000000,closed,2,A problem with random generator on MinGW
+26,2015-08-06 11:40:27.000000000,2015-11-06 21:54:34.000000000,closed,3,Tests fail on MinGW-32
+25,2015-08-06 11:29:08.000000000,2015-10-25 12:51:33.000000000,closed,4,'dynamic' target fails on MinGW x32 and x64
+24,2015-08-06 11:22:36.000000000,2015-10-25 13:50:54.000000000,closed,18,Compiler warnings on GCC and MinGW
+23,2015-08-03 06:56:46.000000000,2015-10-31 17:24:12.000000000,closed,1,Zeroizer may be removed if assembler is not available
+22,2015-08-02 16:57:11.000000000,2016-01-26 12:33:31.000000000,closed,1,"counted_ptr should use atomics, if available"
+21,2015-07-30 10:50:23.000000000,2016-10-19 01:08:23.000000000,closed,18,"ECIES uses byte count, and not bit count, for label size"
+20,2015-07-30 10:32:17.000000000,2015-10-31 17:25:48.000000000,closed,11,Should FileSInk::Put2 use streamsize blocks?
+19,2015-07-28 01:53:11.000000000,2016-10-10 13:08:09.000000000,closed,1,socketft defines  _WINSOCK_DEPRECATED_NO_WARNINGS
+18,2015-07-27 19:53:27.000000000,2015-11-05 18:14:43.000000000,closed,1,Missing Git tags
+17,2015-07-27 10:13:23.000000000,2015-07-31 08:46:24.000000000,closed,3,Use of auto_ptr causes dirty compile under Cygwin with -std=c++11
+16,2015-07-27 08:36:52.000000000,2015-07-27 10:11:49.000000000,closed,1,Compile failure under Cygwin with GCC 4.8 in C++11 mode due to alloca
+15,2015-07-23 04:59:47.000000000,2015-07-23 13:03:48.000000000,closed,1,Assert fires when using rotate in CAST due to Undefined Behavior
+14,2015-07-22 14:39:05.000000000,2015-11-19 01:20:02.000000000,closed,1,"Clang integrated assembler and ""unknown token in expression"""
+13,2015-07-22 12:56:23.000000000,2015-07-22 12:56:38.000000000,closed,1,"ASM statements need a ""\n\t"" when being consumed by Clang Integrated Assembler"
+12,2015-07-22 12:50:33.000000000,2015-11-19 01:20:18.000000000,closed,1,"Clang integrated assembler and ""invalid operand for instruction"""
+11,2015-07-22 12:22:30.000000000,2015-11-19 01:20:31.000000000,closed,4,Need extensible way to handle Clang Integrated Assembler/LLVM Issues 18916 and 24200
+10,2015-07-22 12:21:20.000000000,2015-07-22 13:00:54.000000000,closed,1,"Library does not compile due to inline assembly and "".att_sytax noprefix"" and "".intel_syntax prefix"" under Clang"
+9,2015-07-22 12:13:24.000000000,2015-11-19 01:22:17.000000000,closed,1,"Library fails to detect when SSE, SSE2, SSE3 are available under Clang"
+8,2015-07-19 08:14:10.000000000,2015-07-19 15:54:02.000000000,closed,1,filters.cpp and undefined behavior
+7,2015-07-16 13:17:54.000000000,2015-10-26 06:50:31.000000000,closed,2,Remove VC6 hacks in AssignFromHelperClass.
+6,2015-07-13 14:43:30.000000000,2015-07-16 07:56:15.000000000,closed,2,simple_ptr should be non-copyable
+5,2015-07-13 14:35:59.000000000,2015-07-17 01:05:23.000000000,closed,2,AssignFromHelperClass is horrible
+4,2015-07-13 14:25:15.000000000,2015-07-19 15:55:35.000000000,closed,13,Null pointers passed to memcpy
+3,2015-06-29 05:42:49.000000000,2018-08-26 06:10:31.000000000,closed,18,Add Android.mk to build using android NDK
+2,2015-06-29 05:41:54.000000000,2015-10-31 17:46:47.000000000,closed,0,Fix compilation issue on Cygwin64
+1,2015-06-29 05:41:34.000000000,2015-06-29 21:59:35.000000000,closed,1,Static cast type narrowing

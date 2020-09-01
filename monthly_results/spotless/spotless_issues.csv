@@ -1,0 +1,679 @@
+id,created_at,closed_at,state,comments,title
+678,2020-08-29 17:40:59.000000000,2020-08-30 00:36:07.000000000,closed,2,"Added support for  eclipse-jdt 4.14.0, 4.15.0 and 4.16.0"
+677,2020-08-28 04:39:35.000000000,1970-01-01 00:00:00.000000001,open,1,updateYearWithLatest(false) is ignored/doesn't work
+676,2020-08-26 21:23:16.000000000,2020-08-30 00:51:16.000000000,closed,14,eclipse formatter break with multiline string
+675,2020-08-25 11:29:44.000000000,1970-01-01 00:00:00.000000001,open,0,prettier support for already-installed node.js packages
+674,2020-08-25 10:24:21.000000000,1970-01-01 00:00:00.000000001,open,0,Better method for managing python black package
+673,2020-08-25 10:17:23.000000000,1970-01-01 00:00:00.000000001,open,5,Better method for managing clang-format binaries
+672,2020-08-25 10:10:59.000000000,2020-08-25 10:45:31.000000000,closed,2,Make it easy to integrate native formatters
+671,2020-08-25 01:47:30.000000000,2020-08-25 09:44:12.000000000,closed,0,Fix hard-to-reproduce race condition in SpotlessCheck.
+670,2020-08-24 18:35:05.000000000,2020-08-24 21:57:27.000000000,closed,3,spotlessKotlin Gradle task appears to be blowing away generated code
+669,2020-08-22 03:09:38.000000000,2020-08-22 03:26:27.000000000,closed,1,Make ktlint's version-parsing more robust
+668,2020-08-19 08:01:21.000000000,2020-08-22 03:35:24.000000000,closed,5,Ktlint 0.38.0-alpha01 incompatibility
+667,2020-08-17 19:22:00.000000000,2020-08-17 22:36:18.000000000,closed,1,All examples seem to use old plugin without the plugin {} section with id {plugin} format
+666,2020-08-10 07:38:30.000000000,2020-08-10 07:47:26.000000000,closed,0,Fix global git ratchet for maven
+665,2020-08-10 03:04:29.000000000,2020-08-10 03:15:27.000000000,closed,0,Fix/maven import sorter
+664,2020-08-09 05:06:20.000000000,2020-08-10 07:52:20.000000000,closed,3,Maven Plugin global ratchetFrom not working with multiple formatters
+663,2020-08-09 02:57:15.000000000,2020-08-10 03:15:29.000000000,closed,1,"maven plugin ""<importOrder/>"" doesn't work"
+662,2020-08-08 01:29:28.000000000,2020-08-08 01:32:27.000000000,closed,1,Fix README link to EclipseJdtFormatterStep
+661,2020-08-05 09:55:30.000000000,2020-08-05 10:22:10.000000000,closed,0,Remove ambiguity in documentation related to groovy vs kotlin gradle buildscripts
+660,2020-08-04 23:16:05.000000000,2020-08-05 00:29:58.000000000,closed,1,Turn off unnecessary long error stack during `spotlessCheck`
+659,2020-08-04 23:07:32.000000000,2020-08-05 10:22:46.000000000,closed,5,Documentation is confusing for Kotlin (groovy vs kotlin for buildscript language)
+658,2020-08-04 13:51:01.000000000,2020-08-04 21:28:42.000000000,closed,2,How to run in java8
+657,2020-08-04 09:48:21.000000000,2020-08-05 21:56:43.000000000,closed,3,Bugfix/create server resources on function creation
+656,2020-08-01 06:15:34.000000000,2020-08-05 09:52:53.000000000,closed,2,spotlessApply no longer clobbers file permissions
+655,2020-07-31 00:42:17.000000000,1970-01-01 00:00:00.000000001,open,2,`spotlessCheck` could add comments and suggested fix to GitHub PR
+654,2020-07-30 00:41:40.000000000,2020-08-05 09:52:53.000000000,closed,4,Executing `gradle spotlessApply` changes permission on the changed files from `644` to `755`
+653,2020-07-29 02:33:19.000000000,1970-01-01 00:00:00.000000001,open,4,"Gradle plugin: `removeFormat ""java""` is broken in 5.x"
+652,2020-07-27 23:44:36.000000000,2020-07-27 23:55:44.000000000,closed,1,[google-java-format] Annotation format on Java class attributes
+651,2020-07-23 17:06:21.000000000,2020-08-10 03:07:40.000000000,closed,9,Gradle clean spotlessCheck fails when using prettier
+650,2020-07-23 12:12:24.000000000,1970-01-01 00:00:00.000000001,open,2,disable license rule for specific file
+649,2020-07-22 23:33:27.000000000,1970-01-01 00:00:00.000000001,open,3,Add remove wildcards imports when formating and ordering imports.
+648,2020-07-17 12:25:41.000000000,2020-07-18 02:33:29.000000000,closed,3,Update ktfmt version and replace duplicated formatting options logic with new public API for it
+647,2020-07-14 23:43:55.000000000,2020-07-30 01:17:09.000000000,closed,1,Indentation base for `googleJavaFormat()` is incorrect.
+646,2020-07-14 22:17:16.000000000,2020-07-15 00:59:05.000000000,closed,2,How to decrease indent level?
+645,2020-07-14 12:40:04.000000000,1970-01-01 00:00:00.000000001,open,2,Add support for JSP/JSF in eclipse WTP
+644,2020-07-14 01:04:17.000000000,1970-01-01 00:00:00.000000001,open,0,Add support for Gradle Configuration Cache
+643,2020-07-13 19:53:31.000000000,2020-07-13 20:48:34.000000000,closed,3,Conflicts on JGit transitive dependency version
+642,2020-07-10 11:34:48.000000000,2020-07-14 00:11:11.000000000,closed,3,Update ktfmt default version and add dropbox-style option
+641,2020-07-09 10:26:26.000000000,2020-07-14 01:15:30.000000000,closed,3,Adding --dropbox-style option to ktfmt (has workaround)
+640,2020-07-05 12:30:04.000000000,2020-07-13 01:18:19.000000000,closed,8,com.diffplug.spotless 5.0
+639,2020-07-04 02:04:33.000000000,2020-07-05 01:24:46.000000000,closed,3,Detect windows using `os.name` rather than `line.separator`.
+638,2020-07-02 10:14:42.000000000,2020-07-02 10:29:10.000000000,closed,1,`FormatterFunc` no longer extends `Function` or `BiFunction`
+637,2020-07-02 09:30:43.000000000,2020-07-02 10:04:48.000000000,closed,0,FormatterStep.NeedsFile
+636,2020-07-02 08:30:22.000000000,2020-07-02 08:55:59.000000000,closed,0,Rename `eclipse` to `eclipseCdt`
+635,2020-07-02 08:22:48.000000000,2020-07-02 08:28:31.000000000,closed,0,Deprecate customLazy in the gradle plugin
+634,2020-07-02 07:15:47.000000000,2020-07-02 08:19:30.000000000,closed,0,Remove questionable default targets
+633,2020-07-01 12:59:29.000000000,2020-07-02 04:33:45.000000000,closed,1,Refactor all READMEs
+632,2020-07-01 11:23:05.000000000,2020-07-02 08:16:24.000000000,closed,0,Improve docs
+631,2020-07-01 02:21:55.000000000,2020-07-01 10:35:33.000000000,closed,0,Base `ratchetFrom` on the merge base
+630,2020-06-30 10:12:16.000000000,2020-07-01 21:11:14.000000000,closed,3,"Remove deprecated features from plugin-maven, and let plugin-gradle zombie-along"
+629,2020-06-30 09:17:34.000000000,2020-06-30 09:56:18.000000000,closed,0,Remove all deprecated code which doesn't require deprecations in the plugins
+628,2020-06-30 08:43:01.000000000,2020-06-30 09:14:30.000000000,closed,1,Refactor the public API of `LicenseHeaderStep`
+627,2020-06-29 22:49:44.000000000,2020-07-01 10:35:33.000000000,closed,1,ratchetFrom 'origin/main' is confusing when 'origin/main' moves
+626,2020-06-29 22:17:16.000000000,2020-06-30 07:50:36.000000000,closed,2,Add maven support for git-based copyright headers
+625,2020-06-28 09:57:18.000000000,1970-01-01 00:00:00.000000001,open,0,Find projects that use the maven plugin
+624,2020-06-28 04:22:46.000000000,2020-06-29 01:11:00.000000000,closed,2,Remove support for -PspotlessFiles from the modern task.
+623,2020-06-25 21:16:43.000000000,1970-01-01 00:00:00.000000001,open,1,spotlessApply --staged
+622,2020-06-23 23:27:55.000000000,2020-06-24 00:44:32.000000000,closed,2,Remove all eager task creation for SpotlessModern
+621,2020-06-23 03:43:02.000000000,2020-06-29 00:49:56.000000000,closed,0,Make the the GitAttributesLineEndingsPolicy relocatable across machines
+620,2020-06-21 22:03:03.000000000,2020-06-23 23:58:21.000000000,closed,3,Feature/pass filename to prettier
+619,2020-06-19 22:41:41.000000000,1970-01-01 00:00:00.000000001,open,15,spotless/prettier - .npmrc seems to be ignored
+618,2020-06-19 11:10:43.000000000,2020-06-19 21:47:34.000000000,closed,3,Execute the configuration actions lazily
+617,2020-06-19 01:30:58.000000000,2020-06-19 03:02:06.000000000,closed,5,Avoid eager creation of tasks for Spotless plugin
+616,2020-06-18 21:22:39.000000000,2020-06-20 00:21:26.000000000,closed,2,feature parity with others klint gradle plugins
+615,2020-06-18 21:00:22.000000000,2020-06-18 21:41:01.000000000,closed,11,Why autostyle ?
+614,2020-06-18 20:18:05.000000000,1970-01-01 00:00:00.000000001,open,1,Allow passing the formatJavadoc flag to Google Java Formatter
+613,2020-06-16 08:43:56.000000000,2020-06-16 08:45:26.000000000,closed,0,Rename our main branch to 'main'
+612,2020-06-16 03:39:52.000000000,2020-06-16 04:16:25.000000000,closed,0,Fix GitRatchet for the case where a non-existent reference is specified.
+611,2020-06-16 02:40:48.000000000,2020-06-16 02:50:45.000000000,closed,0,Fix the GitRatchet problem on bare checkouts.
+610,2020-06-15 22:45:17.000000000,2020-06-23 20:43:58.000000000,closed,2,Issue with multi-project Gradle build
+609,2020-06-09 15:39:39.000000000,2020-06-09 20:32:54.000000000,closed,3,scala doc wrong
+608,2020-06-09 08:45:21.000000000,2020-06-18 22:02:42.000000000,closed,1,`ratchetFrom` fails on bare checkout
+607,2020-06-08 23:05:24.000000000,2020-06-12 03:35:04.000000000,closed,6,Convert `SpotlessTaskModern` to use `InputChanges` API
+606,2020-06-07 23:33:44.000000000,2020-06-13 03:23:08.000000000,closed,16,Feature/use native npm
+605,2020-06-06 02:37:21.000000000,2020-06-06 02:49:06.000000000,closed,0,Make it possible to set `ratchetFrom` at the per-format level
+604,2020-06-05 23:42:47.000000000,2020-06-06 02:04:18.000000000,closed,1,Add the ability to populate header years from git history.
+603,2020-06-05 08:49:22.000000000,2020-06-29 22:15:10.000000000,closed,2,Add `ratchetFrom` to maven
+602,2020-06-05 08:21:49.000000000,2020-06-05 08:37:27.000000000,closed,0,Deprecate -PspotlessFiles from gradle (still available in maven)
+601,2020-06-05 07:41:04.000000000,2020-06-29 01:23:44.000000000,closed,6,Adopt the latest Gradle APIs
+600,2020-06-05 07:20:45.000000000,2020-07-13 01:51:19.000000000,closed,6,"Spotless plugin-gradle ""modern"""
+599,2020-06-05 03:42:42.000000000,2020-06-05 06:09:04.000000000,closed,7,Adds a 'addXmlDeclaration' step to add missing xml declarations
+598,2020-06-05 03:27:39.000000000,2020-06-05 07:34:32.000000000,closed,0,Add harness to allow smooth transition for 5.x
+597,2020-06-05 01:27:04.000000000,2020-06-05 01:58:48.000000000,closed,0,Speed up `ratchetFrom` using subtree as key
+596,2020-06-04 03:25:58.000000000,2020-06-04 04:43:14.000000000,closed,0,Fix windows bug in ratchetFrom
+595,2020-06-03 11:07:04.000000000,2020-06-03 11:49:10.000000000,closed,0,Dogfood our `ratchetFrom` feature.
+594,2020-06-03 09:16:36.000000000,2020-06-03 09:39:15.000000000,closed,0,Fix a bug in GitRatchet which meant that it only worked on files in root directory
+593,2020-06-03 03:30:06.000000000,2020-06-03 10:21:14.000000000,closed,0,Make it easier to keep copyright headers up-to-date
+592,2020-06-02 03:31:38.000000000,2020-06-03 23:55:32.000000000,closed,0,A bunch of backwards-compatible cleanup
+591,2020-06-01 16:21:47.000000000,1970-01-01 00:00:00.000000001,open,3,Support Scalafix
+590,2020-05-31 11:21:24.000000000,2020-06-02 01:08:57.000000000,closed,1,Implemention of `ratchetFrom` for plugin-gradle
+589,2020-05-31 08:35:16.000000000,2020-06-01 23:30:10.000000000,closed,2,Help SpotlessTask to handle a removed directory.
+588,2020-05-31 02:18:07.000000000,2020-05-31 08:06:24.000000000,closed,1,Better error message if you try to format a file outside the project directory.
+587,2020-05-30 12:02:03.000000000,1970-01-01 00:00:00.000000001,open,6,Consider shading the JGit dependency in Grade plugin
+586,2020-05-30 11:20:09.000000000,2020-05-31 00:18:58.000000000,closed,8,Fix UnsatisfiedLinkError we've been seeing in nodejs formatters
+585,2020-05-29 17:12:06.000000000,2020-06-02 03:15:56.000000000,closed,20,Build output directory is not excluded in Windows in Spotless 4.0.x
+584,2020-05-29 02:12:27.000000000,2020-05-29 05:20:52.000000000,closed,1,Fix `check` and `apply` in the same build
+583,2020-05-29 00:02:41.000000000,2020-05-29 01:23:08.000000000,closed,2,Add ktfmt option to KotlinGradleExtension
+582,2020-05-27 17:16:37.000000000,2020-05-27 22:09:16.000000000,closed,1,Ktlint rule for disabling Import ordering is not honored
+581,2020-05-24 22:35:52.000000000,2020-05-29 05:20:52.000000000,closed,4,spotlessApply and spotlessCheck in the same build fails in 4.x
+580,2020-05-19 01:43:21.000000000,2020-05-19 01:59:24.000000000,closed,1,Fix typo referencing scala.
+579,2020-05-18 12:37:16.000000000,2020-05-20 00:48:58.000000000,closed,3,Support for other Scala versions
+578,2020-05-14 13:30:39.000000000,2020-05-15 23:19:57.000000000,closed,5,Improve gradle spotless apply suggestion
+577,2020-05-13 14:58:49.000000000,2020-05-18 09:58:21.000000000,closed,2,Cannot build following the contribution guide
+576,2020-05-13 07:53:18.000000000,2020-05-15 00:13:04.000000000,closed,3,Separate the core `SpotlessTask` from check and apply
+575,2020-05-12 16:32:38.000000000,2020-05-21 20:26:57.000000000,closed,1,Be proactive about encoding mismatch
+574,2020-05-12 00:33:48.000000000,2020-05-12 19:57:57.000000000,closed,1,README links for examples results in GCP bucket error
+573,2020-05-11 02:35:11.000000000,2020-06-24 02:02:37.000000000,closed,1,Modify `FileSignature` so that it can be relocated based on content
+572,2020-05-11 00:52:09.000000000,2020-05-31 00:22:08.000000000,closed,5,Make plugin-maven use local config files if possible
+571,2020-05-10 20:53:33.000000000,2020-06-29 21:56:06.000000000,closed,11,Fix resource leak in Maven plugin
+570,2020-05-05 07:37:43.000000000,2020-05-05 13:48:03.000000000,closed,7,Switch from Travis to CircleCI
+569,2020-05-05 00:58:30.000000000,2020-05-05 06:39:12.000000000,closed,3,feat(ktfmt): add `ktfmt` a new Kotlin formatter from Facebook Incubator
+568,2020-05-04 09:16:01.000000000,2020-05-11 21:09:04.000000000,closed,25,IDE hook
+567,2020-05-04 07:11:22.000000000,2020-05-05 02:34:16.000000000,closed,1,Publicize the new VS Code extension for Spotless Gradle.
+566,2020-05-04 04:42:12.000000000,2020-06-29 01:24:20.000000000,closed,9,Make `FileSignature` machine-independent.  
+565,2020-05-04 00:52:37.000000000,2020-05-04 01:58:46.000000000,closed,0,Integrate paddedcell into maven.
+564,2020-05-03 20:37:16.000000000,2020-05-04 00:45:52.000000000,closed,0,Dependency update
+563,2020-05-02 17:19:39.000000000,2020-05-03 19:55:29.000000000,closed,2,Support google-java-format 1.8+
+562,2020-05-02 07:32:29.000000000,2020-05-03 19:55:29.000000000,closed,4,ClassNotFoundException with google-java-format 1.8
+561,2020-05-01 02:49:56.000000000,2020-05-03 20:21:46.000000000,closed,1,Make padded cell mandatory
+560,2020-04-30 03:11:56.000000000,2020-05-01 02:18:31.000000000,closed,8,Simple spike at separating the core `SpotlessTask` from check and apply
+559,2020-04-28 00:46:06.000000000,2020-07-04 20:46:04.000000000,closed,20,Resource leak when using Maven plugin
+558,2020-04-23 13:32:16.000000000,2020-06-18 23:02:04.000000000,closed,4,ImportSorter eats comments
+557,2020-04-21 21:46:06.000000000,2020-04-28 11:53:23.000000000,closed,4,Spotless gradle is super slow and doesn't appear to respect the -PspotlessFiles flag
+556,2020-04-12 04:04:49.000000000,2020-06-13 03:23:08.000000000,closed,2,javascript engine: update J2V8 or migrate to graalvm or something else
+555,2020-04-09 21:50:31.000000000,2020-04-10 10:11:01.000000000,closed,9,Add Prettier to Maven plugin
+554,2020-04-06 17:55:55.000000000,1970-01-01 00:00:00.000000001,open,2,maven-plugin-development Gradle Plugin for Maven Plugin
+553,2020-03-29 14:37:36.000000000,2020-04-02 11:12:02.000000000,closed,10,tsfmt maven plugin
+552,2020-03-29 11:52:02.000000000,2020-03-29 19:53:19.000000000,closed,5,Add tsfmt support for maven
+551,2020-03-29 11:46:57.000000000,2020-03-29 11:47:21.000000000,closed,0,Add tsfmt to maven
+550,2020-03-28 16:23:45.000000000,2020-03-29 00:44:10.000000000,closed,0,Replaced spotless-eclipse-wtp 3.15.2 by 3.15.3. Fixes #545.
+549,2020-03-28 03:42:19.000000000,2020-03-28 07:13:45.000000000,closed,2,mandatory update for plugin portal publishing
+548,2020-03-26 18:05:37.000000000,2020-03-29 11:38:31.000000000,closed,5,Tsfmt Maven Plugin for Spotless
+547,2020-03-26 07:10:46.000000000,1970-01-01 00:00:00.000000001,open,1,Eclipse 4.17 (2020-09) will require Java 11
+546,2020-03-24 21:16:37.000000000,2020-03-26 23:30:28.000000000,closed,5,Fix Eclipse WTP encoding handling
+545,2020-03-24 02:31:38.000000000,2020-03-26 23:30:30.000000000,closed,12,Encoding issues with Eclipse WTP HTML format special chars
+544,2020-03-23 18:41:20.000000000,2020-06-05 07:44:25.000000000,closed,7,Use task configuration avoidance internally (Spotless already supports externally)
+543,2020-03-21 02:42:28.000000000,2020-08-30 00:57:43.000000000,closed,8,Add support for eclipse 4.15 formatter
+542,2020-03-20 06:01:20.000000000,2020-03-21 03:06:11.000000000,closed,5,Enable support for intelliJ placeholder for year in license header
+541,2020-03-20 01:22:03.000000000,2020-03-21 03:55:16.000000000,closed,4,Enable support for IntelliJ compatible place holders in license header templates
+540,2020-03-15 22:10:59.000000000,1970-01-01 00:00:00.000000001,open,7,"DiffPlug supports git `core.eol`, but does not support `core.autocrlf`"
+539,2020-03-10 12:50:47.000000000,2020-03-11 09:16:44.000000000,closed,1,Applied latest eclipse-wtp in Eclipse version 4.13.0
+538,2020-03-06 01:44:53.000000000,2020-03-16 07:15:52.000000000,closed,1,Remove single-config limitation from Eclipse WTP formatter
+537,2020-03-05 12:27:26.000000000,2020-03-09 13:17:54.000000000,closed,5,Added eclipse-wtp 3.15.2 to Eclipse (as pseudo Eclipse version 4.13.1).
+536,2020-03-05 10:15:14.000000000,2020-03-16 00:43:57.000000000,closed,1,Improve build (fix warnings and javadoc)
+535,2020-03-05 05:53:34.000000000,2020-03-05 09:39:30.000000000,closed,0,Fix/after evaluate
+534,2020-03-03 22:13:50.000000000,2020-03-03 22:33:30.000000000,closed,2,Eclipse disable tag ignored
+533,2020-03-02 12:48:22.000000000,2020-03-04 22:38:08.000000000,closed,7,eclipse-base and eclipse-wtp refactoring
+532,2020-02-28 22:24:01.000000000,1970-01-01 00:00:00.000000001,open,8,Apply license header to `package-info.java` and `module-info.java`
+531,2020-02-24 20:49:50.000000000,2020-05-06 22:19:36.000000000,closed,4,Relative Path Support for spotlessFiles
+530,2020-02-24 20:25:58.000000000,2020-02-27 00:46:40.000000000,closed,8,Add Tests
+529,2020-02-19 21:18:40.000000000,2020-02-27 00:46:40.000000000,closed,19,Additional Tests for SpecificFilesTest
+528,2020-02-19 21:02:12.000000000,2020-02-21 22:41:14.000000000,closed,14,Problems with SpecificFilesTest
+527,2020-02-19 19:09:20.000000000,1970-01-01 00:00:00.000000001,open,4,Command Line Application
+526,2020-02-18 20:43:53.000000000,2020-02-19 02:45:42.000000000,closed,4,Bug in google-java-format (or maybe malformed input)
+525,2020-02-18 10:52:22.000000000,2020-02-19 01:47:06.000000000,closed,5,`OutOfMemoryError: Metaspace` in `execution failed for task ':spotlessJava' java.lang.reflect.InvocationTargetException`
+524,2020-02-14 00:00:57.000000000,1970-01-01 00:00:00.000000001,open,0,Use custom source sets and compile-only dependencies instead of reflection
+523,2020-02-13 23:45:47.000000000,1970-01-01 00:00:00.000000001,open,1,Scalafmt config file error results in very unhelpful error message
+522,2020-02-06 23:05:27.000000000,1970-01-01 00:00:00.000000001,open,11,Spotless with Eclipse Import Order has different ordering than Eclipse Formatter
+521,2020-02-04 05:16:17.000000000,2020-02-19 03:03:37.000000000,closed,4,Duplicate `clean` task
+520,2020-02-01 06:11:40.000000000,2020-05-06 22:17:14.000000000,closed,3,"Maven can't locate this plugin due to ""org.apache.maven.plugin.prefix.NoPluginFoundForPrefixException: No plugin found for prefix 'spotless'"""
+519,2020-01-31 22:26:12.000000000,2020-02-04 00:24:29.000000000,closed,5,Issue 483
+518,2020-01-30 03:26:02.000000000,2020-02-19 02:46:56.000000000,closed,29,Custom Spotless Task
+517,2020-01-22 09:05:18.000000000,2020-01-22 12:48:52.000000000,closed,1,Fix scala and kotlin maven config documentation
+516,2020-01-16 16:36:26.000000000,2020-01-18 11:40:56.000000000,closed,2,[question] Prohibition of use of specified classes
+515,2020-01-16 05:14:41.000000000,2020-01-16 05:31:11.000000000,closed,3,Add `pull_request` to Wrapper Validation Triggers
+514,2020-01-15 22:48:06.000000000,2020-01-16 00:30:22.000000000,closed,6,Official Gradle Wrapper Validation GitHub Action
+513,2020-01-15 10:59:27.000000000,2020-01-29 03:03:52.000000000,closed,0,NEW PROJECT ANNOUNCEMENT: blowdryer
+512,2020-01-14 15:30:51.000000000,2020-01-29 03:03:44.000000000,closed,0,NEW PROJECT ANNOUNCEMENT: spotless-changelog
+511,2020-01-14 15:22:43.000000000,2020-06-02 03:12:25.000000000,closed,9,Formatting ratchet
+510,2020-01-14 12:59:27.000000000,2020-01-14 14:32:19.000000000,closed,0,Use spotless-changelog to manage releases
+509,2020-01-14 11:46:24.000000000,2020-01-14 12:26:24.000000000,closed,0,Spotless should use itself better
+508,2020-01-14 10:08:25.000000000,2020-01-14 11:42:50.000000000,closed,0,Cleanup the build
+507,2020-01-14 09:38:23.000000000,2020-01-14 10:03:32.000000000,closed,0,Convert changelogs to keepachangelog format
+506,2020-01-10 04:22:57.000000000,2020-03-05 09:49:52.000000000,closed,18,Spotless uses afterEvaluate
+505,2020-01-02 14:24:49.000000000,2020-01-14 14:58:12.000000000,closed,3,licenseHeaderFile shows warning when using Kotlin DSL
+504,2020-01-02 03:22:40.000000000,2020-06-05 07:34:56.000000000,closed,15,Todo list if/when we drop compat for an older Gradle version
+503,2020-01-01 11:55:03.000000000,2020-01-02 03:56:17.000000000,closed,5,Fix Gradle 6+
+502,2020-01-01 05:40:38.000000000,2020-01-01 08:17:06.000000000,closed,0,Add an environment variable to exclude maven from the build.
+501,2019-12-31 11:49:05.000000000,2020-01-01 05:29:38.000000000,closed,1,Fix bug when `gradle clean spotlessCheck` was called on parallel build
+500,2019-12-31 01:19:25.000000000,2019-12-31 11:46:25.000000000,closed,1,Added an API to allow creating independent tasks in the gradle plugin.
+499,2019-12-30 23:45:39.000000000,2019-12-31 01:09:45.000000000,closed,2,Test provisioner has been too flaky
+498,2019-12-30 21:39:37.000000000,2020-01-22 12:49:17.000000000,closed,3,EndWithNewLine not working for maven plugin and scala formatter
+497,2019-12-18 14:57:33.000000000,2019-12-18 14:59:21.000000000,closed,1,A way to disable checks with the maven plugin
+496,2019-12-13 14:40:52.000000000,1970-01-01 00:00:00.000000001,open,6,Support license header with shebang
+495,2019-12-06 22:24:32.000000000,2020-05-06 21:51:24.000000000,closed,1,Add gradle formatter to maven
+494,2019-12-06 19:33:05.000000000,2019-12-06 22:14:42.000000000,closed,4,[Question] A Few Questions
+493,2019-12-06 01:16:12.000000000,2019-12-06 22:21:53.000000000,closed,1,control ktlint defect reporting format
+492,2019-11-28 19:20:22.000000000,2020-03-11 09:16:44.000000000,closed,9,XML formatter config is sometimes not applied when running gradle --parallel
+491,2019-11-27 23:40:56.000000000,1970-01-01 00:00:00.000000001,open,1,Maven plugin should support skip
+490,2019-11-26 15:00:38.000000000,2019-11-28 05:24:49.000000000,closed,11,Fix NPE in EclipseXmlFormatterStepImpl (#489)
+489,2019-11-22 13:04:02.000000000,2019-11-28 08:17:13.000000000,closed,5,NPE in EclipseXmlFormatterStepImpl.java / PREFERENCE_FACTORY is null
+488,2019-11-13 01:23:48.000000000,2019-11-13 23:07:53.000000000,closed,7,Replace check gradle checksums with fetched script
+487,2019-11-08 19:13:06.000000000,2019-11-12 11:46:36.000000000,closed,1,Please use no-timestamps for JavaDoc generation
+486,2019-11-08 19:03:15.000000000,2019-11-12 09:10:11.000000000,closed,1,"Please specify the desired project ""import order"" via editorconfig"
+485,2019-11-08 18:39:49.000000000,2019-11-12 09:10:10.000000000,closed,12,"Make whitespace (' ', \t, \r, \n) always visible for ""changed"" lines"
+484,2019-11-07 08:18:06.000000000,2019-11-12 10:53:06.000000000,closed,10,Apply checks to buildSrc?
+483,2019-11-01 16:09:05.000000000,2020-02-04 00:25:30.000000000,closed,14,Reorganize _ext projects
+482,2019-11-01 01:46:11.000000000,2019-11-08 01:18:20.000000000,closed,17,Add support for eclipse 4.13
+481,2019-10-31 20:07:02.000000000,2019-10-31 20:07:41.000000000,closed,0,nt
+480,2019-10-31 19:45:54.000000000,2019-11-08 01:51:10.000000000,closed,7,Eclipse 4.13 support
+479,2019-10-29 01:28:02.000000000,2019-10-29 01:47:18.000000000,closed,1,Fix 404
+478,2019-10-21 10:39:35.000000000,2019-10-25 21:05:47.000000000,closed,3,fix project URLs in maven poms
+477,2019-10-19 13:04:19.000000000,2019-10-19 19:23:15.000000000,closed,1,Issue with Gradle 6 RC 1
+476,2019-10-18 21:15:58.000000000,2019-11-06 02:43:36.000000000,closed,7,Unable to disable ktlint rule
+475,2019-10-18 00:30:49.000000000,2020-08-25 11:23:37.000000000,closed,4,Custom FormatterStep with native dependencies
+474,2019-10-16 23:42:33.000000000,2019-10-18 00:42:52.000000000,closed,2,Fix crashing on empty
+473,2019-10-13 16:45:48.000000000,2019-11-07 22:53:23.000000000,closed,7,update default KtLint to 0.35.0
+472,2019-10-08 19:30:28.000000000,2019-10-08 23:37:03.000000000,closed,2,Spotless gradle plugin not working
+471,2019-10-08 02:10:22.000000000,2019-10-08 02:24:14.000000000,closed,1,Fix out-of-date problems in plugin-maven build.
+470,2019-10-07 10:05:44.000000000,2019-10-08 02:55:14.000000000,closed,3,Invalid plugin descriptor for spotless-maven-plugin:1.25.0
+469,2019-10-06 09:37:28.000000000,2019-10-07 07:17:45.000000000,closed,8,Support KtLint 0.34+
+468,2019-10-03 22:23:34.000000000,2019-11-12 11:46:54.000000000,closed,5,Add an option to automatically exclude other project directories from target(...)
+467,2019-10-02 17:22:11.000000000,2019-11-12 09:10:11.000000000,closed,1,Avoid printing (1 more lines that didn't fit)
+466,2019-10-02 15:32:32.000000000,2019-10-03 19:57:17.000000000,closed,3,spotless-maven-plugin doesn't remove duplicate imports
+465,2019-10-01 14:32:50.000000000,2019-11-12 09:10:10.000000000,closed,12,Visualize CR and LF symbols
+464,2019-10-01 03:35:17.000000000,2019-10-01 08:07:37.000000000,closed,1,Fix @Internal annotation for SpotlessTask
+463,2019-09-30 09:58:54.000000000,2019-10-06 09:53:25.000000000,closed,2,Dont break config avoidance for other tasks
+462,2019-09-25 23:10:03.000000000,2019-09-25 23:50:41.000000000,closed,1,Maven flag -DspotlessFiles= ineffective
+461,2019-09-25 22:41:10.000000000,2019-09-30 23:25:13.000000000,closed,5,SpotlessTask: mark target as task input
+460,2019-09-25 17:32:08.000000000,2019-09-28 00:24:37.000000000,closed,4,Feature request: Allow exclusions for licenseHeaderFile block
+459,2019-09-24 20:47:47.000000000,2020-06-24 02:26:35.000000000,closed,7,Add vertical-blank SQL formatter?
+458,2019-09-24 07:11:49.000000000,2019-09-24 07:54:47.000000000,closed,1,Feature/bump scalafmt default
+457,2019-09-24 05:30:15.000000000,2019-09-24 06:47:39.000000000,closed,0,Improve behavior of `target` and `targetExclude` for gradle plugin
+456,2019-09-23 22:22:30.000000000,2019-09-24 03:33:51.000000000,closed,2,Feature/improve test speed
+455,2019-09-23 20:34:57.000000000,2019-09-24 03:38:19.000000000,closed,0,Fix padded cell
+454,2019-09-17 01:45:51.000000000,2019-09-17 01:55:31.000000000,closed,2,old scalafmt version has a bug
+453,2019-09-16 17:26:07.000000000,2019-09-24 03:38:19.000000000,closed,6,Gradle: Fail Build if not formatted (with compileJava.dependsOn('spotlessApply'))
+452,2019-08-31 17:50:18.000000000,2019-09-05 07:14:33.000000000,closed,0,Enhancement of Groovy-Eclipse user documentation
+451,2019-08-31 17:02:13.000000000,2019-09-18 02:02:52.000000000,closed,7,Fix Spotless Eclipse workspace cleanup and OSGI lock
+450,2019-08-30 22:44:46.000000000,2019-09-04 07:53:21.000000000,closed,2,Require 2FA for members
+449,2019-08-30 18:17:42.000000000,2020-05-06 21:51:44.000000000,closed,1,[DRAFT] added filepath attribute to prettier config passed to prettier.format…
+448,2019-08-30 17:05:10.000000000,2020-07-02 11:09:09.000000000,closed,4,"Feature Request: Prettier: pass ""filepath"" to prettier in order to make it use the right parser"
+447,2019-08-29 13:21:24.000000000,2019-09-18 02:02:52.000000000,closed,4,Resource leak for maven plugin used with java eclipse formatter
+446,2019-08-27 18:22:27.000000000,2019-08-28 16:24:05.000000000,closed,4,google-java-format doesn't respect formatter:off
+445,2019-08-26 21:40:43.000000000,2019-09-23 03:39:24.000000000,closed,2,Bump jgit to latest.
+444,2019-08-26 20:52:42.000000000,2019-10-07 07:54:51.000000000,closed,7,Spotless is breaking configuration avoidance for other tasks
+443,2019-08-26 20:02:36.000000000,2019-08-26 21:04:50.000000000,closed,1,[Question] How to set a custom rule set jar to Ktlint?
+442,2019-08-26 15:49:56.000000000,2019-08-26 21:00:57.000000000,closed,1,Fix link to groovy eclipse formatter versions.
+441,2019-08-26 14:20:34.000000000,2019-08-28 21:47:49.000000000,closed,3,XML formatting rules
+440,2019-08-21 12:46:24.000000000,2019-08-21 18:29:31.000000000,closed,3,Incompatibility with gradle 6 (early snapshots)
+439,2019-08-20 13:06:29.000000000,2019-08-20 13:29:51.000000000,closed,0,Indentation for custom files
+438,2019-08-20 12:49:57.000000000,2019-08-20 21:54:26.000000000,closed,1,Fix typo
+437,2019-08-20 08:48:13.000000000,1970-01-01 00:00:00.000000001,open,0,Gradle does not detect java sources for `java-gradle-plugin`
+436,2019-08-20 04:16:49.000000000,2019-08-20 07:57:49.000000000,closed,3,Add checkGradleChecksum.sh to verify gradle wrapper jars on CI
+435,2019-08-20 01:12:44.000000000,2020-05-06 22:03:03.000000000,closed,3,Feature Request: Prettier for maven
+434,2019-08-15 10:14:58.000000000,2019-08-20 07:59:59.000000000,closed,7,Try fixing #427
+433,2019-08-15 09:53:45.000000000,2019-08-20 02:56:51.000000000,closed,7,Update to Gradle 5.6
+432,2019-08-13 13:18:13.000000000,2019-08-13 22:30:29.000000000,closed,1,Fix 404
+431,2019-08-13 10:53:58.000000000,2019-09-05 07:14:33.000000000,closed,5,Groovy formatter with custom config file skips most of the rules
+430,2019-08-09 23:26:22.000000000,2019-08-13 02:27:50.000000000,closed,3,Feature/build cleanup
+429,2019-08-09 11:26:12.000000000,1970-01-01 00:00:00.000000001,open,3,Build only: TestProvisioner has become very flaky
+428,2019-08-07 11:34:06.000000000,2019-08-09 06:32:14.000000000,closed,5,Modernize build
+427,2019-08-06 08:50:57.000000000,2019-08-20 07:59:59.000000000,closed,3,Gradle issue: Using the incremental task API without declaring any outputs has been deprecated.
+426,2019-08-01 10:11:07.000000000,2019-08-07 11:26:41.000000000,closed,11,feat(FeatureClassLoader): support class loading of Java 9+
+425,2019-08-01 07:21:36.000000000,2019-08-06 10:01:18.000000000,closed,6,Added Gradle 4.9 Configuration Avoidance support
+424,2019-08-01 01:55:33.000000000,2019-08-01 06:18:47.000000000,closed,4,Running test on plugin-gradle errors
+423,2019-07-25 01:43:51.000000000,2019-07-26 19:30:48.000000000,closed,6,Eclipse updates for 4 12
+422,2019-07-24 18:22:54.000000000,2019-07-30 01:29:37.000000000,closed,6,Support for eclipse formatter 4.12 / 2019-06
+421,2019-07-22 15:13:28.000000000,2019-07-24 01:56:06.000000000,closed,5,Could not find method spotless() for arguments on root project when subprojects are used
+420,2019-07-17 16:16:42.000000000,2019-07-30 01:24:42.000000000,closed,3,google-java-format and indentation settings
+419,2019-07-16 14:16:15.000000000,2019-10-07 07:17:45.000000000,closed,12,ktLint 0.34 changes not compatible with spotless
+418,2019-07-15 18:18:07.000000000,2019-07-16 12:21:53.000000000,closed,2,Spotless and Asciidoctor
+417,2019-07-11 17:40:23.000000000,2019-07-30 01:28:37.000000000,closed,1,Javadoc links are broken in readme
+416,2019-07-08 19:30:11.000000000,2019-07-10 10:34:01.000000000,closed,8,New maven coordinates for 2.0.0 release of Scalafmt
+415,2019-07-08 18:24:22.000000000,2019-07-17 02:12:08.000000000,closed,2,Spotless doesn't work with scalafmt 2.0.0
+414,2019-06-30 15:45:50.000000000,2019-07-01 22:24:02.000000000,closed,1,OSGI framework wiring support as required by latest Eclipse internal platform
+413,2019-06-26 22:28:51.000000000,2019-07-01 22:24:01.000000000,closed,2,Support Eclipse 4.12 core runtime 3.15
+412,2019-06-26 11:04:00.000000000,1970-01-01 00:00:00.000000001,open,5,"Extract blocks from a file, and apply different formatters on them than the rest of the file"
+411,2019-06-25 11:43:36.000000000,2019-06-26 12:51:35.000000000,closed,10,Continue formatting other files if one file formatting fails
+410,2019-06-24 20:09:36.000000000,2019-09-24 08:45:33.000000000,closed,5,AccessDeniedException in MinGW/ GitBash
+409,2019-06-24 19:32:06.000000000,1970-01-01 00:00:00.000000001,open,3,Allow enabling experimental and/or custom ruleset for ktlint
+408,2019-06-13 05:22:10.000000000,2019-06-13 08:46:45.000000000,closed,3,Use openjdk instead of oraclejdk on travis-ci because of license problem
+407,2019-06-13 05:02:01.000000000,2019-06-14 06:50:53.000000000,closed,15,Update jgit
+406,2019-06-10 02:26:25.000000000,2019-06-24 21:41:07.000000000,closed,2,Any way to discover which rule is being violated when using eclipse formatting file?
+405,2019-06-04 23:51:04.000000000,2019-06-06 18:16:15.000000000,closed,5,Using URI instead of URL for file lookup
+404,2019-05-31 20:22:25.000000000,2019-06-04 14:30:09.000000000,closed,11,XML formatter issue in maven plugin
+403,2019-05-23 23:29:46.000000000,2020-08-25 11:19:40.000000000,closed,5,Feature request: Add support for python Black
+402,2019-05-23 15:30:47.000000000,2020-05-06 22:05:31.000000000,closed,3,spotless:apply for Java does not format unused imports correctly 
+401,2019-05-18 07:12:53.000000000,2019-06-06 18:16:15.000000000,closed,4,org.osgi.framework.BundleException
+400,2019-05-16 11:36:35.000000000,2019-06-25 08:55:15.000000000,closed,2,Feature request: Allow processing of combined fileset
+399,2019-05-08 21:52:11.000000000,2019-10-03 22:34:49.000000000,closed,8,Gradle: can't targetExclude files in the buildDir
+398,2019-05-05 12:37:07.000000000,2019-05-06 08:58:56.000000000,closed,0,Improved Java Eclipse formatter documentation.
+397,2019-05-04 17:28:53.000000000,2020-05-06 21:53:57.000000000,closed,1,Assure Maven 3.1.0 compatibility
+396,2019-04-30 21:02:07.000000000,2019-05-02 01:22:20.000000000,closed,4,"[Gradle Plugin] when reregistering a step, NoOp instead of Throw"
+395,2019-04-25 11:26:25.000000000,2019-04-25 11:47:34.000000000,closed,3,spotless-lib-extra 1.23.0 not on maven central
+394,2019-04-23 22:47:30.000000000,2019-04-24 23:56:11.000000000,closed,8,"Upgrade Ktlint maven coordinate (com.pinterest), default version (0.32.0)"
+393,2019-04-22 10:44:36.000000000,2019-05-06 08:58:56.000000000,closed,2,Couldn't find resource eclipse-fmt.xml
+392,2019-04-11 11:29:43.000000000,2019-04-15 12:38:04.000000000,closed,2,Specify files maven
+391,2019-04-09 22:18:06.000000000,1970-01-01 00:00:00.000000001,open,13,Maven plugin incompatible with 3.3.9
+390,2019-04-04 21:44:32.000000000,2019-04-04 22:07:21.000000000,closed,4,Changed CDT default versions to v4.11.
+389,2019-03-30 19:24:53.000000000,2019-03-31 23:57:01.000000000,closed,4,Upgrade to CTD 9.7. Include SLF4J log service.
+388,2019-03-29 10:50:31.000000000,2019-03-29 21:19:35.000000000,closed,2,Invalid plugin descriptor for com.diffplug.spotless:spotless-maven-plugin:1.21.0
+387,2019-03-28 18:21:41.000000000,2019-03-29 02:28:07.000000000,closed,3,Add Apache Beam to the real-world gradle plugin configurations
+386,2019-03-28 16:46:43.000000000,2019-03-28 20:24:38.000000000,closed,4,Fix #372.  Synchronize access to rootProject.configurations to get around #372
+385,2019-03-26 22:40:19.000000000,2019-03-27 01:04:48.000000000,closed,3,Add ability to download configFile from the internet for Eclipse Java profile
+384,2019-03-26 21:21:54.000000000,2019-03-27 01:40:32.000000000,closed,3,Update eclipse to version 4.11.0 (fix #381)
+383,2019-03-26 20:25:05.000000000,2019-03-27 01:06:22.000000000,closed,1,Add Apache Avro to the example configurations
+382,2019-03-26 12:17:42.000000000,2019-03-27 01:09:21.000000000,closed,3,Changed default versions. WTP changed to v4.8. Groovy changed to v4.10.
+381,2019-03-22 13:38:10.000000000,2019-03-27 01:40:33.000000000,closed,2,Add support for Eclipse 4.11.0 auto formatter
+380,2019-03-20 11:38:56.000000000,2019-03-27 01:07:46.000000000,closed,0,"Enable the buildcache - read only for PRs, and read/write for trusted…"
+379,2019-03-19 14:55:16.000000000,2019-03-19 23:03:50.000000000,closed,0,Fix typo in README (s/incudes/includes)
+378,2019-03-17 10:38:35.000000000,2019-03-18 02:44:23.000000000,closed,2,Switch to Eclipse-WTP 3.10. Cleanup fix for #369. Add SLF4J support.
+377,2019-03-17 00:41:39.000000000,2019-03-17 03:43:24.000000000,closed,0,fix typos in release dates
+376,2019-03-17 00:32:26.000000000,2019-03-17 03:43:41.000000000,closed,1,fix typos in recent dates
+375,2019-03-16 14:42:44.000000000,2019-03-16 22:43:23.000000000,closed,4,Switch to Groovy-Eclipse release 3.2.0. Include Eclipse logging.
+374,2019-03-15 18:38:05.000000000,2019-03-15 20:44:19.000000000,closed,1,1.20.0 fails on missing artifact in central
+373,2019-03-15 16:39:04.000000000,2019-03-15 20:44:38.000000000,closed,2,gradle plugin dependencies are missing
+372,2019-03-12 13:46:52.000000000,2019-03-28 20:24:39.000000000,closed,33,Cannot add a configuration with name 'classpath' as a configuration with that name already exists (intermittent plugin-gradle concurrency bug)
+371,2019-03-11 21:43:55.000000000,2019-03-11 22:44:56.000000000,closed,2,Upgrade WTP eclipse to version 3.9.8.
+370,2019-03-11 18:45:34.000000000,2020-05-06 22:08:07.000000000,closed,7,Expose maxLineLength attribute for google-java-format
+369,2019-03-10 23:05:16.000000000,2019-03-11 02:41:41.000000000,closed,9,WTP - Ignore external URIs by default
+368,2019-03-07 20:05:28.000000000,2019-03-08 01:37:36.000000000,closed,2,Provides Eclipse 4.10 JDT
+367,2019-03-07 16:32:32.000000000,2019-03-07 23:16:51.000000000,closed,9,adding skip to apply mojo
+366,2019-03-06 19:42:40.000000000,2019-03-06 22:51:34.000000000,closed,6,Add skip parameter to AbstractSpotlessMojo
+365,2019-03-05 13:34:53.000000000,2019-06-25 08:52:47.000000000,closed,4,Built-in support for `.gitignore` patterns?
+364,2019-02-21 15:33:06.000000000,2019-02-21 23:16:32.000000000,closed,2,Create spotlessApply and spotlessCheck tasks immediately.
+363,2019-02-19 15:21:34.000000000,2019-03-12 20:23:10.000000000,closed,6,Feature/customizable tsfmt and prettier version
+362,2019-02-18 08:52:43.000000000,2019-03-12 20:23:10.000000000,closed,5,Possible to specify a newer version of prettier?
+361,2019-02-16 04:25:35.000000000,2019-02-26 05:44:55.000000000,closed,1,Feature/fix http
+360,2019-02-16 02:29:22.000000000,2019-09-10 01:32:01.000000000,closed,36,[SECURITY] CVE-2019-10753: Releases are built/executed/released in the context of insecure/untrusted code
+359,2019-02-15 02:14:31.000000000,2019-02-15 02:59:35.000000000,closed,4,Ktlint + EndWithNewLine does not end with new line
+358,2019-02-14 01:52:58.000000000,2019-03-15 21:36:23.000000000,closed,31,CVE-2019-9843: The XML parser isn't respecting resolveExternalEntities as false
+357,2019-02-13 08:32:51.000000000,2019-03-27 01:39:24.000000000,closed,13,spotless-groovy with spock where throws error
+356,2019-02-12 22:53:09.000000000,2019-03-15 00:30:02.000000000,closed,7,Configure gradle build scan plugin
+355,2019-02-12 01:33:10.000000000,2019-02-12 01:46:06.000000000,closed,1,Fixes issue #344 by replacing spotless-eclipse-wtp version
+354,2019-02-10 23:31:44.000000000,2019-02-11 01:06:00.000000000,closed,3,Issue 344
+353,2019-02-10 12:34:53.000000000,2019-02-12 11:00:16.000000000,closed,1,Added targetExclude
+352,2019-02-10 10:20:57.000000000,2019-02-10 10:38:36.000000000,closed,0,Fix #218 - `ImportOrderStep.createFromFile` is now lazy.
+351,2019-02-10 07:20:58.000000000,2019-02-10 10:19:24.000000000,closed,0,Fix #219 - Replacing a step no longer triggers early evaluation
+350,2019-02-10 06:45:12.000000000,2019-02-10 07:04:08.000000000,closed,0,Fix #335 - Update default google-java-format from 1.5 to 1.7
+349,2019-02-10 03:40:52.000000000,2019-02-10 06:42:36.000000000,closed,0,Fix #348 - Unreasonably large configuration performance overhead
+348,2019-02-08 14:03:30.000000000,2019-02-10 06:42:37.000000000,closed,5,Unreasonably large configuration performance overhead
+347,2019-02-08 06:02:32.000000000,2019-08-20 10:08:43.000000000,closed,3,KTlint reporter arguments
+346,2019-02-07 19:54:14.000000000,2019-02-08 04:28:30.000000000,closed,2,Gradle: Eclipse WTP dependency
+345,2019-02-05 19:13:05.000000000,2019-02-06 22:13:26.000000000,closed,1,Ktlint is changing hands
+344,2019-01-28 21:35:29.000000000,2019-02-12 01:47:16.000000000,closed,4,EclipseWTP JSON Formatting Issue with Arrays
+343,2019-01-28 15:07:00.000000000,2019-01-29 22:25:38.000000000,closed,3,spotless:apply for kotlin code fails and does not reformat
+342,2019-01-27 22:34:00.000000000,2019-02-11 00:57:50.000000000,closed,2,Slf4j support
+341,2019-01-23 19:53:30.000000000,2019-01-24 04:09:02.000000000,closed,2,The version 3.17.0 of the plugin is not yet published
+340,2019-01-21 14:07:34.000000000,2019-01-23 00:00:41.000000000,closed,0,fix documentation on sql formatter
+339,2019-01-21 11:12:11.000000000,2019-01-23 00:00:41.000000000,closed,2,Docs for gradle dbeaver are incomplete
+338,2019-01-16 09:46:55.000000000,2019-09-24 03:38:19.000000000,closed,8,"Using paddedCell, spotless is not idempotent (check passed but apply is not a noop)"
+337,2019-01-14 21:56:10.000000000,2019-01-18 03:31:32.000000000,closed,5,The header is updated with the new year although $YEAR is used in the template
+336,2019-01-12 04:16:43.000000000,2019-01-29 01:16:01.000000000,closed,13,How to measure performance impact of Spotless
+335,2019-01-11 01:35:04.000000000,2019-02-10 07:04:10.000000000,closed,1,Update default google-java-format version from 1.5 to 1.6 or 1.7
+334,2019-01-09 12:51:18.000000000,2019-02-10 11:10:04.000000000,closed,2,spotless-maven-plugin:1.17.0:check not ending. Freezes and does not continue
+333,2019-01-09 01:20:42.000000000,2019-01-09 06:05:23.000000000,closed,2,year format string not working as expected
+332,2019-01-06 05:41:59.000000000,2019-01-06 08:13:18.000000000,closed,1,"Fix broken link in gradle README, remove unnecessary tabsize param."
+331,2019-01-06 05:38:40.000000000,2019-01-06 08:13:18.000000000,closed,0,Broken Link in plugin-gradle README
+330,2019-01-04 02:36:52.000000000,2019-01-04 03:03:22.000000000,closed,2,Better extensibility support
+329,2019-01-03 15:08:58.000000000,2019-02-08 20:21:09.000000000,closed,6,Line wrapping of annotation parameters only for annotations on parameters
+328,2018-12-28 17:25:09.000000000,2020-07-02 00:44:43.000000000,closed,19,[WIP] Add ANTLR4 support
+327,2018-12-28 15:50:53.000000000,2018-12-28 20:35:24.000000000,closed,2,fix EclipseWtpFormatterStep link
+326,2018-12-28 13:30:21.000000000,2020-07-02 11:01:40.000000000,closed,4,Add support for Antlr4 grammars
+325,2018-12-22 13:43:24.000000000,2018-12-30 14:19:10.000000000,closed,2,Wtp integration maven gradle
+324,2018-12-20 06:18:57.000000000,2019-02-10 13:00:00.000000000,closed,5,Better support for excluding files from processing
+323,2018-12-14 14:54:42.000000000,1970-01-01 00:00:00.000000001,open,3,Support author name in LicenseHeaderStep
+322,2018-12-11 22:05:14.000000000,2018-12-13 23:52:45.000000000,closed,5,"allow ""spotlessFiles"" project property in gradle plugin to only target specific files"
+321,2018-12-11 21:09:07.000000000,2018-12-11 21:44:41.000000000,closed,0,"allow ""files"" project property in gradle plugin to only target specific files"
+320,2018-12-05 13:37:18.000000000,2018-12-08 21:40:32.000000000,closed,3,Spotless throws null java.lang.reflect.InvocationTargetException for error: Imports not contiguous (perhaps a comment separates them?)
+319,2018-11-28 00:35:22.000000000,2018-12-08 15:01:42.000000000,closed,7,how to indent multi-line XML
+318,2018-11-25 21:39:06.000000000,2020-06-24 02:37:54.000000000,closed,2,removeUnusedImports fails in file with or without imports
+317,2018-11-06 08:51:33.000000000,2018-12-08 21:42:56.000000000,closed,2,googleJavaFormat and indentWithSpaces can not work together
+316,2018-11-03 22:47:08.000000000,2018-11-03 23:50:25.000000000,closed,0,Provides Eclipse 4.9 JDT.
+315,2018-11-03 20:33:26.000000000,2018-12-30 14:21:28.000000000,closed,8,Html/JS/Json integration
+314,2018-11-02 18:43:04.000000000,2018-11-03 23:50:25.000000000,closed,0,Eclipse 4.9.0 (SimRel 2018-09) Formatter Support
+313,2018-10-30 07:49:46.000000000,2018-10-30 19:07:30.000000000,closed,1,format only locally changed files
+312,2018-10-25 07:16:58.000000000,2018-11-08 00:54:35.000000000,closed,1,Add prettier to Maven/Gradle CSS extensions
+311,2018-10-20 16:16:46.000000000,2018-10-25 07:20:00.000000000,closed,2,Eclipse-WTP CSS integration
+310,2018-10-16 14:33:54.000000000,2019-02-10 13:12:07.000000000,closed,7,Add gradle kotlin DSL usage
+309,2018-10-12 17:56:45.000000000,2018-10-16 14:31:08.000000000,closed,2,Unexpected indentation throws Exception
+308,2018-10-05 21:26:50.000000000,2019-06-27 00:13:48.000000000,closed,18,spotlessXmlApply task is never completing
+307,2018-10-03 19:17:45.000000000,2018-10-05 10:16:41.000000000,closed,1,Standardize multiple consecutive newlines check
+306,2018-10-03 18:51:58.000000000,1970-01-01 00:00:00.000000001,open,7,Control static import placement
+305,2018-10-03 18:44:08.000000000,2019-10-18 00:42:52.000000000,closed,1,StringIndexOutOfBoundsException for empty Groovy file when performing importOrder
+304,2018-10-02 00:01:57.000000000,2018-10-05 10:30:00.000000000,closed,3,Support Jenkinsfile extension
+303,2018-09-28 14:32:27.000000000,2019-01-24 10:31:57.000000000,closed,5,Gradle configuration time taking too long in windows
+302,2018-09-24 09:11:23.000000000,2020-05-31 00:18:57.000000000,closed,3,"J2V8 native library not loaded, libj2v8_macosx_x86_64.dylib already loaded in another classloader"
+301,2018-09-12 12:59:11.000000000,2019-08-20 10:07:28.000000000,closed,6,Adjust Reflective to improve readability or ease-of-use?
+300,2018-09-12 12:26:52.000000000,2018-09-12 12:42:58.000000000,closed,8,EclipseCommonTests are no longer sensitive to line-ending problems.
+299,2018-09-12 10:34:23.000000000,2019-08-20 10:05:09.000000000,closed,2,KtLintStepTest fails on windows (10)
+298,2018-09-12 09:58:26.000000000,2018-09-12 12:42:58.000000000,closed,2,GrEclipseFormatterStepTest fails on windows 10
+297,2018-09-12 00:06:56.000000000,2018-09-13 08:08:51.000000000,closed,7,Provisioner can provide dependencies without their transitives
+296,2018-09-08 17:21:52.000000000,2018-09-11 09:02:11.000000000,closed,1,Using Maven dependency mediation
+295,2018-09-04 19:11:55.000000000,2018-09-15 10:19:19.000000000,closed,3,CPP extension
+294,2018-09-04 16:46:56.000000000,2018-09-04 19:05:57.000000000,closed,0,Eclipse groovy 3.0.0 integration
+293,2018-09-04 15:55:38.000000000,2018-09-15 15:31:44.000000000,closed,3,XML Extension
+292,2018-08-31 17:31:06.000000000,1970-01-01 00:00:00.000000001,open,10,Add support for Eclipse Clean Up
+291,2018-08-31 16:26:50.000000000,2018-09-02 05:33:18.000000000,closed,0,Gradle/Groovy importOrder no longer adds semicolons
+290,2018-08-30 15:03:07.000000000,2018-09-02 05:18:42.000000000,closed,9,Extension of FormatterFunc accepting source file as parameter.
+289,2018-08-30 02:39:03.000000000,2018-08-31 22:54:13.000000000,closed,0,Include Maven version requirement in the generated POM
+288,2018-08-29 22:00:35.000000000,2018-08-29 22:38:19.000000000,closed,4,Groovy-Eclipse  3.0.0
+287,2018-08-29 21:31:48.000000000,1970-01-01 00:00:00.000000001,open,6,Don't fail after first codestyle violation
+286,2018-08-29 13:05:28.000000000,2018-08-29 22:52:36.000000000,closed,3,Spotless Eclipse CDT 9.4.4 (log service)
+285,2018-08-20 20:52:10.000000000,2018-08-21 02:08:01.000000000,closed,2,Common filter for files not supported by LicenseHeaderStep
+284,2018-08-20 09:54:48.000000000,2018-08-21 02:08:36.000000000,closed,2,"Formatter is now AutoCloseable, so that facilitates `FormatterFunc.Closeable` works."
+283,2018-08-18 10:19:56.000000000,2018-09-24 07:27:21.000000000,closed,39,Adding npm-based formatters typescript-formatter (tsfmt) and prettier
+282,2018-08-17 19:47:19.000000000,2018-08-17 22:08:15.000000000,closed,0,Fixed broken links in CONTRIBUTING.md and README.md
+281,2018-08-17 19:07:04.000000000,2018-08-17 22:09:03.000000000,closed,2,Broken link in the readme
+280,2018-08-09 23:50:42.000000000,2020-07-02 11:04:35.000000000,closed,15,Make spotless tasks all cacheable with the Gradle Build Cache
+279,2018-08-08 23:12:51.000000000,2018-08-29 22:41:13.000000000,closed,9,SpotlessCache extension for Eclipse formatters
+278,2018-08-07 22:23:27.000000000,2018-08-07 22:41:28.000000000,closed,4,Fix external p2ant proxy configuration and added documentation.
+277,2018-08-04 20:39:27.000000000,2018-12-28 22:58:01.000000000,closed,48,Task configuration avoidance (WIP) (#269)
+276,2018-08-04 15:46:36.000000000,2019-02-10 13:08:54.000000000,closed,16,Apply gradle task fail to fix Trailing spaces with ktlint
+275,2018-08-03 19:57:18.000000000,2018-08-03 20:23:55.000000000,closed,4,How to disable formatting for snippet? Java/Maven
+274,2018-08-02 08:35:57.000000000,2018-08-03 20:35:27.000000000,closed,5,Upgrade annotations
+273,2018-08-02 00:53:12.000000000,2018-08-02 03:02:31.000000000,closed,1,No license headers for package-info and module-info in Maven
+272,2018-08-01 23:35:03.000000000,2018-08-02 01:41:16.000000000,closed,1,LicenseHeaderStep exclude module-info.java
+271,2018-08-01 23:25:38.000000000,2018-08-02 01:40:59.000000000,closed,1,Findbugs -> Spotbugs (Begin updating for support for JDK 10)
+270,2018-08-01 22:47:07.000000000,2018-08-21 02:08:01.000000000,closed,5,License Header task can't find regex `^package` in module-info.java and fails
+269,2018-07-28 01:30:51.000000000,2019-08-07 11:33:34.000000000,closed,22,Consider migrating Spotless Gradle plugin to use Task Configuration Avoidance
+268,2018-07-24 23:01:01.000000000,2018-07-24 23:32:41.000000000,closed,12,Running spotless without gradle/maven
+267,2018-07-24 20:53:59.000000000,2018-07-24 21:06:47.000000000,closed,0,Update acknowledgements.
+266,2018-07-24 13:25:00.000000000,2018-07-24 20:42:37.000000000,closed,1,Update CHANGE.md
+265,2018-07-21 01:16:19.000000000,2018-07-24 20:44:35.000000000,closed,1,Provided formatter versions for JDT 4.7.3a and 4.6.2.
+264,2018-07-20 21:23:00.000000000,2018-07-24 20:46:43.000000000,closed,4,Bumped to Groovy-Eclipse version 2.9.2 (corresponds to Eclipse 4.8.0).
+263,2018-07-20 09:25:08.000000000,2018-07-24 20:44:35.000000000,closed,4,Enum bug in eclipse 4.8.0 (default should be 4.7.3)
+262,2018-07-19 22:33:56.000000000,2018-07-20 00:32:33.000000000,closed,2,Eclipse 4.8.0 (JDT)
+261,2018-07-18 08:50:15.000000000,2018-07-18 09:44:44.000000000,closed,13,Spotless Eclipse Framework Final
+260,2018-07-07 13:56:22.000000000,2018-07-24 20:47:17.000000000,closed,5,Use guaranteed binary and source compatibility between releases of Scalafmt
+259,2018-07-02 21:23:41.000000000,2018-07-02 22:20:53.000000000,closed,1,Require 3.1.0+ version of Maven for Maven plugin
+258,2018-06-29 23:46:24.000000000,2018-07-02 10:17:11.000000000,closed,2,Caused by: org.scalafmt.Error$SearchStateExploded: Search state exploded
+257,2018-06-26 18:47:09.000000000,2018-07-02 22:20:53.000000000,closed,6,NoClassDefFoundError on mvn spotless:apply
+256,2018-06-21 23:35:03.000000000,2018-06-22 21:30:31.000000000,closed,7,gradletest can't download dependency
+255,2018-06-12 11:39:30.000000000,2018-07-02 10:17:43.000000000,closed,15,scala license header
+254,2018-06-01 01:22:32.000000000,2018-06-01 19:59:02.000000000,closed,0,Fix config file as URL on Windows
+253,2018-05-31 00:15:08.000000000,2018-07-05 23:02:45.000000000,closed,8,Refactored Eclipse formatter configuration and step creation
+252,2018-05-30 13:39:35.000000000,2018-07-24 22:11:39.000000000,closed,4,Migrate scalafmt integration to the scalafmt stable API
+251,2018-05-29 18:03:06.000000000,2018-06-01 05:40:27.000000000,closed,7,Add line and column numbers to error messages in ktlint.
+250,2018-05-29 11:00:12.000000000,2018-06-01 19:59:02.000000000,closed,8,[maven] using an url as file does not work on windows.
+249,2018-05-23 16:31:37.000000000,2018-06-01 05:40:27.000000000,closed,4,SpotlessKotlin error output is missing line numbers
+248,2018-05-22 23:01:42.000000000,2018-05-23 15:39:56.000000000,closed,4,Is there a way to force update license header year?
+247,2018-05-18 00:40:01.000000000,2020-05-06 22:08:34.000000000,closed,2,[RFE] Provide a mechanism to specify a custom google-java-format JAR
+246,2018-05-16 16:59:05.000000000,2018-05-16 22:59:49.000000000,closed,1,Alternatives to groovy eclipse formatter?
+245,2018-05-09 01:00:41.000000000,1970-01-01 00:00:00.000000001,open,3,Remove Unused Import from Groovy Files
+244,2018-05-06 00:09:46.000000000,2018-07-19 09:37:07.000000000,closed,1, Applied common Spotless Eclipse framework to Groovy-Eclipse
+243,2018-05-05 02:13:21.000000000,2020-01-07 00:26:52.000000000,closed,7,Exceptions when running clean & spotlessCheck during same build with buildcache
+242,2018-05-02 00:09:33.000000000,2018-05-03 18:10:16.000000000,closed,1,Support multiple formats in Maven plugin
+241,2018-04-29 15:31:08.000000000,2018-08-05 22:20:53.000000000,closed,4,"Providing WTP formatters, excluding JSP"
+240,2018-04-28 22:02:07.000000000,2018-04-30 23:42:50.000000000,closed,6,Unused wild card imports are not removed
+239,2018-04-28 15:54:12.000000000,2018-07-18 08:23:18.000000000,closed,10,Applied common Spotless Eclipse framework to JDT
+238,2018-04-28 15:28:12.000000000,2018-08-06 10:04:34.000000000,closed,2,Applied common Spotless Eclipse framework to CDT
+237,2018-04-27 22:09:37.000000000,2018-09-02 05:33:18.000000000,closed,11,"Groovy's ""apply"" adds semicolons"
+236,2018-04-26 17:12:37.000000000,2019-02-12 12:09:45.000000000,closed,15,Common Eclipse logging support
+235,2018-04-18 01:35:36.000000000,2018-05-02 22:19:17.000000000,closed,3,Create a common interface for the license header
+234,2018-04-13 22:12:53.000000000,2018-07-15 11:53:35.000000000,closed,22,Common Spotless Eclipse Framework which can be used by most Spotless …
+233,2018-04-12 23:52:24.000000000,2018-05-02 22:19:17.000000000,closed,3,Interface for licenseHeaderFile licenseHeader
+232,2018-04-04 23:04:52.000000000,2020-07-02 11:23:59.000000000,closed,5,C/C++ support
+231,2018-04-04 22:23:11.000000000,2018-04-05 13:44:24.000000000,closed,5,Provision of Spotless Eclipse CDT formatter plugin.
+230,2018-04-04 16:22:45.000000000,2018-04-05 20:36:30.000000000,closed,9,Provision of Spotless Eclipse XML formatter plugin.
+229,2018-04-04 14:17:29.000000000,2018-04-27 08:42:44.000000000,closed,5,Add ability to pass custom options to ktlint.
+228,2018-04-03 16:36:28.000000000,2018-04-05 10:59:16.000000000,closed,0,Bump Ktlint and Gradle versions.
+227,2018-03-21 16:03:11.000000000,2018-04-05 11:27:20.000000000,closed,2,Fetch config files from remote repository/dependency/jar
+226,2018-03-21 02:16:58.000000000,2018-07-24 22:11:53.000000000,closed,19,Migration to Eclipse formatter hosted on Maven Central
+225,2018-03-13 20:23:28.000000000,2018-07-24 22:14:26.000000000,closed,2,How about adding a git hook to check
+224,2018-03-13 03:28:09.000000000,2018-03-13 09:38:12.000000000,closed,1,Correct Gradle configuration snippet
+223,2018-03-13 02:48:19.000000000,2018-03-14 00:21:30.000000000,closed,4,Kotlin support in Maven plugin
+222,2018-03-08 04:33:13.000000000,2018-03-08 11:23:47.000000000,closed,1, Fix an exception when validating license with year
+221,2018-03-08 02:36:51.000000000,2018-03-08 02:43:27.000000000,closed,0,Fix broken JavaDoc link in ImportOrderStep
+220,2018-03-08 02:33:27.000000000,2018-03-08 02:35:36.000000000,closed,1,Remove SNAPSHOT from released version
+219,2018-03-07 21:44:21.000000000,2019-02-10 10:19:25.000000000,closed,2,FormatExtension.replaceStep() forces the evaluation of steps
+218,2018-03-07 20:58:14.000000000,2019-02-10 10:38:37.000000000,closed,5,"ImportOrderStep reads its config file eagerly, rather than lazily"
+217,2018-03-06 21:51:47.000000000,2020-01-15 11:03:33.000000000,closed,9,Extracting config files from resources in jars on the classpath
+216,2018-03-02 04:57:28.000000000,2018-03-02 07:01:46.000000000,closed,1,Remove redundant null check in ResourceHarness
+215,2018-02-28 02:45:35.000000000,2018-02-28 03:55:36.000000000,closed,1,Fix typos in FormatExceptionPolicyStrict
+214,2018-02-28 02:31:58.000000000,2018-02-28 03:55:03.000000000,closed,1,Correct pull request reference in docs
+213,2018-02-27 15:54:57.000000000,2018-02-28 00:52:37.000000000,closed,0,Fixed maven plugin dependency on plexus-resources
+212,2018-02-27 12:41:40.000000000,2018-02-28 00:52:37.000000000,closed,1,maven-plugin BETA3 broken: missing ResourceManager class
+211,2018-02-27 04:44:05.000000000,2018-02-28 00:51:57.000000000,closed,0,Bugfix for Maven's FileLocatorTest on windows
+210,2018-02-23 03:57:03.000000000,2018-02-27 03:48:28.000000000,closed,3,Improved support for multi-module maven projects
+209,2018-02-21 14:03:55.000000000,2018-02-26 14:17:04.000000000,closed,12,add support for missing generic steps (closes #207)
+208,2018-02-21 00:30:33.000000000,2018-02-21 23:18:30.000000000,closed,2,Migrate away from Gradle's TaskInternal#execute to our own method
+207,2018-02-19 12:03:20.000000000,2018-02-26 14:17:05.000000000,closed,0,support generic formatter steps for maven-plugin
+206,2018-02-17 18:03:00.000000000,2019-08-07 11:26:41.000000000,closed,4,java.lang.NoClassDefFoundError: javax/script/ScriptException with freshmark on Java9
+205,2018-02-16 06:36:03.000000000,2018-02-16 06:50:13.000000000,closed,0,Fix problem where plugin-maven might be published with snapshot deps
+204,2018-02-15 22:24:15.000000000,2018-02-16 10:24:55.000000000,closed,1,initial maven setup not working
+203,2018-02-12 10:26:44.000000000,2018-02-12 15:53:21.000000000,closed,3,Refactor testing
+202,2018-02-11 08:35:30.000000000,2018-02-20 01:02:54.000000000,closed,3,Possibility to update licenses only if they match existing pattern?
+201,2018-02-10 00:46:20.000000000,2018-02-10 01:05:23.000000000,closed,0,Add note to PR template to ensure contributors can edit PRs.
+200,2018-02-08 18:01:20.000000000,1970-01-01 00:00:00.000000001,open,5,IDEA-180965: Add support for IntelliJ formatter
+199,2018-02-07 19:10:10.000000000,2018-02-10 00:15:19.000000000,closed,9,Allow custom separator for years in license header
+198,2018-02-06 18:31:05.000000000,2018-02-20 01:03:12.000000000,closed,2,[gradle] spotlessCheck.dependsOn someOtherTask doesn't work
+197,2018-02-04 23:11:42.000000000,2018-02-07 22:36:04.000000000,closed,4,Possibility to output the license header
+196,2018-02-03 02:53:13.000000000,2018-02-05 11:22:35.000000000,closed,3,Added a pull request template.
+195,2018-02-03 02:24:26.000000000,2018-02-05 11:22:24.000000000,closed,3,Added an issue template
+194,2018-02-01 10:14:39.000000000,2019-02-10 12:56:09.000000000,closed,17,"ignoreErrorForPath does not work, perhaps related to build folder"
+193,2018-02-01 03:33:10.000000000,2018-02-05 11:23:19.000000000,closed,4,Support for google-java-format's style option (AOSP style)
+192,2018-01-23 00:12:55.000000000,2018-01-23 00:13:19.000000000,closed,1,Spotless is ignoring org.eclipse.jdt.core.formatter.comment.clear_blank_lines_in_javadoc_comment
+191,2018-01-22 07:24:18.000000000,2018-07-24 22:13:01.000000000,closed,29,"""java.lang.IllegalStateException: Workspace is closed"" with eclipse('4.7.2')"
+190,2018-01-22 01:24:15.000000000,2018-02-12 15:53:28.000000000,closed,2,Unify test resources
+189,2018-01-18 23:35:53.000000000,2018-01-20 02:26:50.000000000,closed,10,Mangled Enums in 3.8.0
+188,2018-01-15 04:21:41.000000000,2018-02-12 05:12:02.000000000,closed,42,Initial version of Spotless Maven plugin
+187,2018-01-12 21:00:09.000000000,2018-01-12 22:30:20.000000000,closed,5,Remove reflection from KtLintStep test.
+186,2018-01-05 22:32:10.000000000,2018-01-08 18:50:06.000000000,closed,5,Update gradle version to 4.4.1.
+185,2018-01-05 21:54:08.000000000,2018-01-09 10:55:37.000000000,closed,1,Bump default ktlin version to 0.14.0
+184,2018-01-03 06:56:09.000000000,2018-01-03 06:56:42.000000000,closed,1,"removed, posted to wrong repo"
+183,2018-01-02 20:26:52.000000000,2018-01-02 21:30:42.000000000,closed,7,License header forces same year for all source files
+182,2018-01-01 03:55:05.000000000,2018-05-23 12:13:15.000000000,closed,5,Unable to store input properties... when upgrading from 3.6.0 to 3.7.0
+181,2017-12-29 00:50:51.000000000,2018-01-09 10:55:37.000000000,closed,1,Update default version of ktlint to 0.14.0
+180,2017-12-22 05:23:21.000000000,2017-12-25 11:28:40.000000000,closed,2,Fixed some newline issues for running tests on Windows
+179,2017-12-19 16:08:24.000000000,2018-01-03 06:11:37.000000000,closed,12,add a $YEAR as a supported variable in license
+178,2017-12-14 09:05:32.000000000,2020-06-05 08:04:07.000000000,closed,7,How to setup spotless for a git pre commit hook that only check changed files
+177,2017-12-07 07:58:15.000000000,2018-07-24 22:26:48.000000000,closed,2,Spotless task should extend org.gradle.api.tasks.SourceTask
+176,2017-12-05 01:23:39.000000000,2017-12-25 11:14:10.000000000,closed,4,Reduce visibility of SQL-related classes and improve docs a bit
+175,2017-12-05 01:01:59.000000000,2017-12-23 04:02:13.000000000,closed,7,Attempt to fix seemingly test-related bug on Windows
+174,2017-12-04 23:50:23.000000000,1970-01-01 00:00:00.000000001,open,5,idempotence problem in import sorter - fixable by `paddedCell()`
+173,2017-12-04 17:29:02.000000000,2017-12-04 22:04:02.000000000,closed,0,Preventing unnecessary load of properties.dtd for configuration
+172,2017-12-04 01:58:59.000000000,2020-05-06 21:15:09.000000000,closed,13,CI builds with log level info
+171,2017-12-03 18:06:50.000000000,2017-12-04 22:03:25.000000000,closed,1,fix readme on how to use sql extension
+170,2017-12-03 04:19:34.000000000,2017-12-04 22:04:02.000000000,closed,4,Intermittent test failure `com.diffplug.spotless.FormatterPropertiesTest`
+169,2017-12-01 14:08:45.000000000,2017-12-08 01:03:21.000000000,closed,4,encoding is not working
+168,2017-11-27 22:51:04.000000000,2017-12-02 00:35:56.000000000,closed,3,Add Android example to gradle plugin readme.
+167,2017-11-21 18:38:11.000000000,1970-01-01 00:00:00.000000001,open,7,Spotless sorts imports with uppercase package names different from eclipse
+166,2017-11-19 23:46:09.000000000,2017-12-03 03:33:39.000000000,closed,6,feat(sql): add sql formatter
+165,2017-11-17 01:42:45.000000000,2017-11-17 01:52:25.000000000,closed,0,Bumped jgit and concurrent-trees.  Might fix #164.
+164,2017-11-16 17:26:50.000000000,2020-05-06 22:10:20.000000000,closed,8,Running spotless throws git related exception due to /usr/etc not existing
+163,2017-11-11 02:33:08.000000000,2017-11-21 06:20:08.000000000,closed,1,Beginning of SQL.
+162,2017-11-10 08:50:20.000000000,2020-06-24 02:32:43.000000000,closed,6,Use JTidy for HTML
+161,2017-11-01 02:17:38.000000000,2018-01-08 18:50:06.000000000,closed,1,Update version of Gradle built with
+160,2017-10-31 08:10:04.000000000,2017-10-31 23:09:29.000000000,closed,2,clean now runs after all SpotlessTask.  Fixes #159.
+159,2017-10-25 21:29:27.000000000,2017-12-04 21:42:01.000000000,closed,11,Error from spotless after running a clean before ktlint linting
+158,2017-10-23 14:59:29.000000000,2017-10-23 22:40:37.000000000,closed,1,Gradle Plugins portal has an old link to Github repository
+157,2017-10-22 02:45:40.000000000,2017-10-22 06:30:18.000000000,closed,5,Sport for Groovy Android Plugin
+156,2017-10-21 08:42:19.000000000,2017-12-03 04:09:35.000000000,closed,6,SQL Formatter
+155,2017-10-17 19:12:23.000000000,2017-11-17 21:43:26.000000000,closed,9,Gradle: format generated sources
+154,2017-10-14 01:10:01.000000000,2017-10-18 21:11:38.000000000,closed,13,Remove use of internal gradle APIs
+153,2017-10-14 00:36:02.000000000,2019-02-10 12:36:24.000000000,closed,8,Allow for using a `PatternFilterable` to determine source processed by `JavaExtension` and `KotlinExtension`
+152,2017-10-13 21:43:13.000000000,2017-10-13 22:12:34.000000000,closed,1,Update eclipse-jdt
+151,2017-10-13 13:34:00.000000000,2017-10-13 22:12:47.000000000,closed,3,Support Eclipse formatter 4.7.0
+150,2017-09-30 02:00:47.000000000,2017-09-30 02:15:38.000000000,closed,4,Plugin applied to a common gradle script causes issues
+149,2017-09-29 23:18:51.000000000,2017-10-18 21:11:38.000000000,closed,2,Investigate removal of usage of internal Gradle APIs
+148,2017-09-29 23:15:35.000000000,2017-12-03 04:10:16.000000000,closed,9,Investigate the Gradle Worker API as a potential way to speedup large formatting jobs
+147,2017-09-25 13:10:09.000000000,2017-09-25 15:17:26.000000000,closed,5,java.lang.NoClassDefFoundError with Java 9
+146,2017-09-25 10:39:22.000000000,2017-09-26 20:19:25.000000000,closed,2,Pathological up-to-date case (fixes #144)
+145,2017-09-22 09:04:37.000000000,2017-09-22 09:14:02.000000000,closed,2,Warnings with Gradle 4.2
+144,2017-09-21 19:47:46.000000000,2017-09-26 20:19:26.000000000,closed,15,"Ktlint spotless tasks are always ""up-to-date"" even when there are changes"
+143,2017-09-21 19:33:01.000000000,1970-01-01 00:00:00.000000001,open,4,Support for Kotlin Formatter Detekt
+142,2017-09-20 21:09:56.000000000,1970-01-01 00:00:00.000000001,open,22,Add support for ktlint to respect  .editorconfig
+141,2017-09-12 23:48:23.000000000,2018-02-12 15:53:08.000000000,closed,2,JavaExtension::eclipse doesn't work in Gradle Script Kotlin for IntelliJ
+140,2017-09-08 01:04:13.000000000,2018-09-15 15:33:30.000000000,closed,13,Feature Request: Integrate/Add XML Linting
+139,2017-09-02 19:49:52.000000000,2017-09-05 21:32:37.000000000,closed,5,Fix licenseHeader for Kotlin code starting with `@file:...`
+138,2017-09-01 10:02:28.000000000,2017-09-01 21:08:09.000000000,closed,0,Point users to the plugin portal for the plugin snippet (#137)
+137,2017-09-01 06:17:57.000000000,2017-09-01 21:08:27.000000000,closed,3,Provide snippet for adding spotless to gradle
+136,2017-08-31 01:46:16.000000000,2017-09-05 21:32:37.000000000,closed,6,Kotlin file could start with `@file:...` instead of `package ...`
+135,2017-08-24 19:34:44.000000000,2017-08-30 20:50:57.000000000,closed,8,License check breaks if file has no package declaration
+134,2017-08-17 15:44:59.000000000,2017-09-08 21:38:11.000000000,closed,2,How to use line length configuration in java
+133,2017-08-14 22:01:22.000000000,2017-08-14 23:45:38.000000000,closed,7,Fix kotlinGradle throwing ParseException
+132,2017-08-14 19:57:15.000000000,2017-08-14 23:45:38.000000000,closed,1,kotlinGradle doesn't work with Gradle Kotlin DSL files
+131,2017-08-12 20:43:04.000000000,2017-08-14 04:43:44.000000000,closed,1,Provides groovyGradle formatter as agreed in #115.
+130,2017-08-10 18:20:29.000000000,2017-08-14 09:58:06.000000000,closed,1,Next release schedule?
+129,2017-07-31 22:29:51.000000000,2017-08-02 20:16:00.000000000,closed,16,Adds ktlint linting for Gradle Kotlin DSL files
+128,2017-07-29 00:44:50.000000000,2017-08-01 22:53:52.000000000,closed,1,Added missing user warnings for deprecated methods.
+127,2017-07-28 17:35:13.000000000,2017-07-31 19:01:24.000000000,closed,9,Task spotlessJava not triggering when only formatting code
+126,2017-07-27 00:27:51.000000000,2017-07-28 23:14:18.000000000,closed,1,Replaced importOrder array argument by varargs. Fixes #125.
+125,2017-07-25 20:42:47.000000000,2017-07-28 23:14:19.000000000,closed,4,Unable to specify importOrder
+124,2017-07-11 18:35:28.000000000,2017-07-11 21:38:11.000000000,closed,8,Add support for scalafmt >= v0.7.0-RC1
+123,2017-07-05 10:39:03.000000000,2017-07-11 21:48:27.000000000,closed,4,Extension requiring external libraries on demand use the buildscript of the root project for lookup
+122,2017-06-20 05:04:19.000000000,2017-06-20 05:41:56.000000000,closed,1,Wildcard targets are now tolerant of flatIncude subprojects (#121).
+121,2017-06-16 19:40:03.000000000,2017-07-11 22:44:41.000000000,closed,8,spotless error in a  multi project using includeFlat in settings.gradle
+120,2017-06-10 22:14:07.000000000,2017-06-11 07:52:49.000000000,closed,20,Cannot resolve external dependency com.google.googlejavaformat:google-java-format:1.3
+119,2017-06-01 11:16:17.000000000,2019-02-10 13:15:18.000000000,closed,12,Add support for typescript-formatter
+118,2017-05-31 07:52:20.000000000,2017-05-31 08:02:13.000000000,closed,3,Add Support For GSK
+117,2017-05-30 18:33:45.000000000,2017-05-30 20:26:04.000000000,closed,9,indentWithSpaces doesn't check the number of spaces used
+116,2017-05-28 11:55:25.000000000,2017-05-29 00:57:46.000000000,closed,3,NPE in eclipse formatter
+115,2017-05-24 17:37:45.000000000,2017-08-02 20:16:00.000000000,closed,13,Add built in support for ktlint linting of gradle script kotlin files
+114,2017-05-24 17:36:05.000000000,2018-07-24 22:25:23.000000000,closed,6,Support for maximum line length in freshmark and FormatExtension configurations 
+113,2017-05-23 11:00:48.000000000,2020-06-24 02:31:30.000000000,closed,3,Formatter for IDL and Xtend
+112,2017-05-17 08:15:20.000000000,2017-05-18 08:13:26.000000000,closed,8,Import Sorter to cope with multi-line comments and misplaced imports
+111,2017-05-15 00:56:51.000000000,1970-01-01 00:00:00.000000001,open,22,"Automatic Android support without specifying target ""src/*/java/**/*.java"""
+110,2017-05-12 15:05:14.000000000,2017-05-18 08:11:47.000000000,closed,5,Add missing groovy plugin check
+109,2017-05-05 10:13:37.000000000,2017-05-06 00:37:37.000000000,closed,11,Align Java Eclipse formatter gradle interface with greclipse/scala
+108,2017-05-04 10:19:16.000000000,2017-05-04 11:48:12.000000000,closed,1,Applied new paddedCell to gradle formatting.
+107,2017-05-02 14:26:00.000000000,2017-05-02 17:42:01.000000000,closed,5,new line difference between linux and windows breaks spotlessCheck
+106,2017-05-02 08:35:30.000000000,2017-05-04 03:24:44.000000000,closed,0,Fix for PaddedCell.check for the cycle() case.
+105,2017-04-29 15:13:18.000000000,2017-05-04 10:04:36.000000000,closed,13,Check fails after Apply using PaddedCell
+104,2017-04-26 13:42:47.000000000,2017-04-27 19:51:25.000000000,closed,1,eclipse formatting issue
+103,2017-04-18 13:37:15.000000000,2017-04-19 14:22:11.000000000,closed,5,multi module build problems
+102,2017-04-13 14:58:21.000000000,2018-08-08 19:30:16.000000000,closed,29,Start work on the maven plugin
+101,2017-04-12 17:38:53.000000000,2017-04-20 00:21:06.000000000,closed,10,Added significantly more early null checks throughout Spotless.
+100,2017-04-11 09:47:22.000000000,2017-04-11 21:16:56.000000000,closed,5,gradle: resolve plugin dependencies via buildscript repositories not …
+99,2017-04-10 20:35:14.000000000,2017-04-11 21:19:42.000000000,closed,7,spotless loads dependency from project dependencies
+98,2017-04-09 19:45:01.000000000,2017-04-09 23:32:00.000000000,closed,4,Provides a complete diff in the log in case of comparison errors.
+97,2017-04-03 14:42:25.000000000,2017-04-03 18:09:42.000000000,closed,4,Update changelog for 3.2.0.
+96,2017-04-03 14:40:08.000000000,2017-04-03 18:02:23.000000000,closed,0,"Fixed ignoreErrorForStep, ignoreErrorForPath, and strict error-reporting in general."
+95,2017-04-01 03:30:10.000000000,2017-04-03 12:51:48.000000000,closed,8,Makes dependency on Java check configurable
+94,2017-03-20 23:57:04.000000000,2017-04-10 18:57:05.000000000,closed,26,Providing explicit support for Groovy source code (fixes #13)
+93,2017-03-19 07:38:18.000000000,2017-03-19 22:15:36.000000000,closed,0,Update KtLint to latest version which fixes StandardRuleSet package name
+92,2017-03-19 07:33:41.000000000,2017-04-03 18:33:11.000000000,closed,2,[Kotlin] Can't find ruleset when specifying KtLint to v0.6.1 or above - package name changed
+91,2017-03-17 09:34:52.000000000,2017-03-18 01:19:18.000000000,closed,2,Providing common state for extra formatter
+90,2017-03-14 11:04:39.000000000,2017-03-14 23:59:15.000000000,closed,1,Get ready for greclipse to land
+89,2017-03-14 00:10:35.000000000,2017-03-17 02:01:11.000000000,closed,6,Common config-loader for Formatter using Properties.
+88,2017-03-12 23:26:54.000000000,2017-03-14 09:48:38.000000000,closed,10,Groovy-Eclipse based Groovy formatter step implementation...
+87,2017-03-12 00:48:28.000000000,2017-03-12 10:50:31.000000000,closed,5,Formatting stream API methods on multiple lines.
+86,2017-03-11 21:10:13.000000000,2017-04-25 11:36:25.000000000,closed,9,Check for nulls eagerly in parameters etc. more consistently
+85,2017-03-11 17:34:44.000000000,2017-03-13 00:17:11.000000000,closed,20,Extend FileSignature to be sensitive to file order and duplicates.
+84,2017-03-09 03:15:21.000000000,2017-03-11 01:13:28.000000000,closed,8,Feature/common property support
+83,2017-03-09 00:35:37.000000000,2019-08-20 11:13:22.000000000,closed,12,removeUnusedImports does not work on Java 9
+82,2017-03-08 16:24:06.000000000,2017-03-08 18:59:44.000000000,closed,4,Emit remainder spaces
+81,2017-03-08 15:22:49.000000000,2017-03-12 10:50:24.000000000,closed,7,indentWithTabs removes leading single space
+80,2017-03-07 03:22:00.000000000,2017-03-07 14:30:02.000000000,closed,0,Feature/groovy test enhancements
+79,2017-02-22 17:06:04.000000000,2017-04-03 18:33:55.000000000,closed,14,Add an ignoreFailures property
+78,2017-01-31 12:08:26.000000000,2017-04-25 20:57:57.000000000,closed,6,Could not read entry ':spotlessJava' from cache taskArtifacts.bin > com.diffplug.spotless.extra.GitAttributesLineEndings$Policy
+77,2017-01-26 04:20:51.000000000,2017-01-28 03:03:37.000000000,closed,11,Don't mangle complex enums
+76,2017-01-20 19:38:19.000000000,1970-01-01 00:00:00.000000001,open,11,Add plugin support for Bazel
+75,2017-01-19 00:00:05.000000000,1970-01-01 00:00:00.000000001,open,4,Spotless fails with an exception if the project is checked out using the git worktree functionality
+74,2017-01-18 18:31:15.000000000,2017-01-20 19:39:59.000000000,closed,2,Consider bumping default version of google-java-format from 1.1 to 1.2.
+73,2017-01-18 18:19:17.000000000,2017-01-20 13:53:26.000000000,closed,11,google-java-format Windows bug workaround now only runs for affected version (1.1).
+72,2017-01-18 07:58:28.000000000,2017-01-20 19:54:04.000000000,closed,1,Any exception should break the build
+71,2017-01-11 10:52:11.000000000,2017-01-11 22:53:14.000000000,closed,1,Added support for kotlin and ktlint.
+70,2017-01-11 09:02:37.000000000,2017-01-11 22:52:49.000000000,closed,1,Make gradle plugin's spotlessApply more forgiving of non-idempotent steps
+69,2017-01-11 06:31:53.000000000,2017-02-27 15:57:31.000000000,closed,3,Add support for Scala
+68,2017-01-11 05:46:39.000000000,2017-01-15 00:33:31.000000000,closed,1,Added support for scala and scalafmt.
+67,2017-01-11 00:45:05.000000000,2017-02-27 15:57:41.000000000,closed,3,Add support for Kotlin
+66,2017-01-09 18:11:46.000000000,2017-01-10 14:25:35.000000000,closed,3,spotlessCheck failed in Windows but not in linux
+65,2017-01-08 22:27:44.000000000,2017-01-20 19:40:34.000000000,closed,10,Bug in RemoveUnusedImportsStep (Windows only?)
+64,2017-01-07 00:21:53.000000000,2017-01-08 06:23:46.000000000,closed,3,licenseHeaderStep is never up to date
+63,2017-01-06 07:00:37.000000000,2017-01-20 19:45:39.000000000,closed,19,Release 3.0.0
+62,2017-01-03 15:41:21.000000000,2017-01-03 20:38:26.000000000,closed,1,"`bumpThisNumberIfACustomStepChanges(int number)` works on Windows, fails on Linux"
+61,2017-01-03 04:38:26.000000000,2017-01-06 05:29:29.000000000,closed,7,Cache classloaders to allow warmup
+60,2017-01-02 23:27:49.000000000,2017-01-03 00:28:11.000000000,closed,4,Detect all Java source by default
+59,2017-01-02 22:07:06.000000000,2017-01-03 00:28:11.000000000,closed,2,Java files under src/*/groovy aren't detected by default
+58,2016-12-27 00:26:21.000000000,2017-01-03 00:22:17.000000000,closed,6,Unexpected behaviour from `indentWithSpaces(int)`
+57,2016-12-25 20:09:51.000000000,2016-12-28 07:32:10.000000000,closed,3,Is the license header for Spotless itself correct?
+56,2016-11-29 14:04:42.000000000,2017-01-03 15:28:16.000000000,closed,18,Break into spotless-lib (reusable for other projects) and spotless-gradle
+55,2016-11-20 16:21:54.000000000,2017-01-04 06:09:38.000000000,closed,44,Proposal: replace `check` and `apply` with a single task with a CLI flag
+54,2016-11-14 03:14:08.000000000,2016-11-15 03:27:40.000000000,closed,3,Make git-diff message indentation more consistent & fix issue #52
+53,2016-11-12 05:58:35.000000000,2016-11-13 05:47:36.000000000,closed,1,Make git-diff messages prettier
+52,2016-11-08 03:44:15.000000000,2016-11-17 23:27:00.000000000,closed,2,Consider changing README to include updated error message example
+51,2016-11-08 03:20:05.000000000,2016-11-08 03:25:23.000000000,closed,5,Eclipse formatting not performed during the build
+50,2016-11-07 23:44:06.000000000,2016-11-08 00:23:44.000000000,closed,2,Upgrade to Gradle 3.1
+49,2016-11-04 21:44:26.000000000,2016-11-04 22:22:22.000000000,closed,6,Spotless does not respect line endings on Windows 10
+48,2016-11-02 02:49:41.000000000,2017-01-06 07:01:12.000000000,closed,10,GoogleJavaFormat entry point does not sort imports or remove unused
+47,2016-10-31 22:28:59.000000000,2017-01-03 15:40:05.000000000,closed,3,Quick up-to-date checking for custom rules (sub to #31)
+46,2016-10-31 15:51:54.000000000,2016-11-01 23:30:08.000000000,closed,5,Feature suggestion: Fail compile on file contents
+45,2016-10-30 02:14:03.000000000,2016-11-01 23:38:43.000000000,closed,10,Fix issue #31
+44,2016-10-27 18:47:48.000000000,2016-10-27 21:59:20.000000000,closed,0,Apply IntelliJ-suggested performance issue fix.
+43,2016-10-27 18:47:23.000000000,2016-10-27 21:57:32.000000000,closed,0,Apply IntelliJ-suggested Javadoc issue fixes.
+42,2016-10-27 18:46:45.000000000,2016-10-27 21:56:54.000000000,closed,0,Apply IntelliJ-suggested Java language migration aids.
+41,2016-10-27 18:41:08.000000000,2016-10-27 22:02:41.000000000,closed,3,"Apply many, _many_ IntelliJ-suggested declaration redundancy fixes."
+40,2016-10-27 18:39:39.000000000,2016-10-27 21:44:39.000000000,closed,0,Apply IntelliJ-suggested code style issue fixes.
+39,2016-10-25 02:16:10.000000000,2016-10-25 02:21:20.000000000,closed,1,EOL CRLF vs LF
+38,2016-10-23 03:24:08.000000000,2016-10-25 09:35:56.000000000,closed,12,Teach spotlessCheck to produce diffs for failing files
+37,2016-10-19 03:59:33.000000000,2016-10-27 12:08:45.000000000,closed,10,spotlessCheck sometimes fails even after running spotlessApply for googleJavaFormat
+36,2016-10-09 15:23:37.000000000,2016-10-27 11:41:58.000000000,closed,3,Make file encoding configurable
+35,2016-10-09 15:22:39.000000000,2016-10-09 21:39:20.000000000,closed,1,Make newline configurable
+34,2016-10-08 02:43:02.000000000,2016-10-08 03:07:39.000000000,closed,4,Removed import order from google-java-format
+33,2016-10-07 19:44:56.000000000,2016-10-08 02:21:21.000000000,closed,5,Add support for google-java-format
+32,2016-08-28 20:24:54.000000000,2017-03-09 23:49:07.000000000,closed,6,Proposal: Break existing DSL to match gradle idioms
+31,2016-08-27 13:45:47.000000000,2017-01-03 15:25:44.000000000,closed,104,Declare inputs and outputs to support up-to-date checking
+30,2016-08-25 21:56:46.000000000,2016-08-26 23:33:59.000000000,closed,8,Support license header for Java classes in default package
+29,2016-08-16 13:33:35.000000000,2016-08-16 13:35:44.000000000,closed,0,Update to neon and .gitattributes
+28,2016-06-07 19:38:59.000000000,2017-01-06 07:01:46.000000000,closed,6,Add support for removing unused imports
+27,2016-06-06 11:57:27.000000000,2016-06-06 12:26:56.000000000,closed,7,Allow configuration of when to run spotless in gradle build
+26,2016-06-03 23:19:24.000000000,2016-06-04 02:03:14.000000000,closed,9,doesn't apply import ordering to test files
+25,2016-05-28 14:56:19.000000000,2016-08-16 21:33:29.000000000,closed,0,Import sorter doesn't combine duplicate imports
+24,2016-05-20 02:06:55.000000000,2016-05-20 03:50:45.000000000,closed,3,lineEndings cannot be set
+23,2016-05-08 23:16:37.000000000,2016-08-16 23:20:21.000000000,closed,6,Add support for enforcing line endings from .gitattributes
+22,2016-05-07 11:44:10.000000000,2016-05-08 23:19:42.000000000,closed,5,Fun with line endings
+21,2016-05-05 18:05:15.000000000,2016-08-16 23:20:40.000000000,closed,1,Eclipse formatter doesn't format javadoc
+20,2016-05-05 03:50:24.000000000,2016-05-05 04:01:49.000000000,closed,0,Specify that Java 8 is required
+19,2016-05-05 02:16:20.000000000,2016-05-05 03:03:54.000000000,closed,1,Error: Unsupported major.minor version 52.
+18,2016-04-24 11:46:20.000000000,2016-04-25 09:09:26.000000000,closed,2,Imports are not in lexicographical order
+17,2016-04-09 21:17:04.000000000,2017-08-30 20:56:13.000000000,closed,11,"Add support for ""Number Of Imports Needed Imports for .*"""
+16,2016-03-26 01:14:03.000000000,2016-03-26 01:25:09.000000000,closed,1,Update badges in README.md
+15,2016-03-10 18:11:04.000000000,2016-03-10 21:17:02.000000000,closed,5,Upgrade to Eclipse 4.5.1+ regarding bug fixes in formatter
+14,2016-03-07 02:27:44.000000000,2016-08-16 23:21:49.000000000,closed,7,Formatting Java breaks long literals with underscores
+13,2016-01-14 23:20:27.000000000,2017-04-11 23:08:53.000000000,closed,22,Provide explicit support for Groovy source code
+12,2016-01-07 13:37:47.000000000,2016-03-10 21:24:30.000000000,closed,4,Does spotless support the use of regular expression for the header license?
+11,2016-01-06 20:41:54.000000000,2016-01-06 20:59:19.000000000,closed,1,Skip the spotlessCheck by default
+10,2015-09-18 22:39:26.000000000,2016-10-27 11:41:43.000000000,closed,5,"If spotlessCheck fails, the error message could include a diff"
+9,2015-08-31 12:19:53.000000000,2016-08-16 13:39:05.000000000,closed,3,Spotless can't run Spotless on itself
+8,2015-08-29 21:08:26.000000000,2015-10-20 07:34:55.000000000,closed,4,Support running with Gradle JAVA_HOME under java 7
+7,2015-08-27 15:54:37.000000000,2016-08-16 13:40:47.000000000,closed,13,Support Gradle running on Java 7
+6,2015-08-25 18:03:35.000000000,2015-08-25 22:04:38.000000000,closed,0,[GIT] Update Gitignore to support Intellij and Netbeans IDE too
+5,2015-08-25 18:03:22.000000000,2015-08-25 22:26:46.000000000,closed,0,multiproject support
+4,2015-08-25 18:02:22.000000000,2015-08-25 22:26:22.000000000,closed,0,change logging
+3,2015-08-24 23:32:28.000000000,2015-08-25 01:42:18.000000000,closed,1,Add a Gitter chat badge to README.md
+2,2015-08-24 10:39:20.000000000,2015-08-26 01:19:11.000000000,closed,2,"importOrderFile fails on ""all unmatched type imports"" group"
+1,2015-05-30 06:06:35.000000000,2015-12-17 13:49:33.000000000,closed,7,Spotless replaces package-info.java's javadoc with the license

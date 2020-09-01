@@ -1,0 +1,449 @@
+id,created_at,closed_at,state,comments,title
+740,2020-08-30 11:12:34.000000000,1970-01-01 00:00:00.000000001,open,1,Ansible+Mitogen ignores interpreter_python global variable
+739,2020-08-26 04:10:23.000000000,1970-01-01 00:00:00.000000001,open,1,Fixes RuntimeWarning for improper buffering on local connection in Python 3.8+
+738,2020-08-21 02:12:19.000000000,2020-08-23 09:47:26.000000000,closed,1,updated ansible docs to reflect ansible 2.9 support
+737,2020-08-18 16:24:17.000000000,1970-01-01 00:00:00.000000001,open,1,ansible_facts get destroyed under certain conditions
+736,2020-08-03 22:13:16.000000000,1970-01-01 00:00:00.000000001,open,2,Connection timed out
+735,2020-07-29 19:39:16.000000000,2020-07-30 12:41:02.000000000,closed,2,"ModuleNotFoundError: 'nomad' is present in the Mitogen importer blacklist, therefore this context will not attempt to request it from the master, as the request will always be refused."
+734,2020-07-23 12:00:11.000000000,1970-01-01 00:00:00.000000001,open,11,Crash with ansible in become from root to user
+733,2020-07-20 04:40:05.000000000,1970-01-01 00:00:00.000000001,open,2,Scan class definitions for import statements.  Resolves #682
+732,2020-07-16 21:13:51.000000000,1970-01-01 00:00:00.000000001,open,0,Preferred encoding between master and remote is not preserved
+731,2020-07-09 20:21:12.000000000,1970-01-01 00:00:00.000000001,open,1,ansible 2.10 support
+730,2020-06-30 17:58:21.000000000,1970-01-01 00:00:00.000000001,open,0,Added support for ansible chroot connection plugin
+729,2020-06-29 12:11:28.000000000,1970-01-01 00:00:00.000000001,open,1,AttributeError: 'NoneType' object has no attribute 'id' while attempting to create azure VM scale set
+728,2020-06-26 14:23:17.000000000,2020-06-26 22:55:33.000000000,closed,1,Fix typo in Ansible documentation
+727,2020-06-24 20:36:08.000000000,1970-01-01 00:00:00.000000001,open,9,'retrying' is present in the Mitogen importer blacklist
+726,2020-06-24 09:22:50.000000000,1970-01-01 00:00:00.000000001,open,10,sudo fails intermittently
+725,2020-06-22 05:30:14.000000000,1970-01-01 00:00:00.000000001,open,16,"UNREACHABLE! => {""changed"": false, ""msg"": ""EOF on stream; last 100 lines received: The system cannot find the path specified, ""unreachable"": true}"
+724,2020-06-12 09:56:44.000000000,1970-01-01 00:00:00.000000001,open,3,"What do ""present in the Mitogen importer blacklist"" errors mean?"
+723,2020-06-12 08:18:02.000000000,2020-07-31 07:08:51.000000000,closed,2,Fixes tests
+722,2020-06-07 19:01:12.000000000,2020-06-08 21:29:17.000000000,closed,0,Fix mitogen_ssh_keepalive_interval documentation
+721,2020-06-06 21:39:08.000000000,2020-06-07 16:53:13.000000000,closed,1,Suggestion: Force plugin cache for connection class
+720,2020-06-04 16:25:15.000000000,1970-01-01 00:00:00.000000001,open,1,RuntimeWarning: line buffering (buffering=1) isn't supported in binary mode
+719,2020-05-31 05:27:01.000000000,2020-06-15 21:42:43.000000000,closed,5,"Resolves ansible 2.9+, Mitogen, and Python 3.5 setup module issue"
+718,2020-05-27 09:35:45.000000000,2020-05-27 16:06:11.000000000,closed,7,Fails to perform docker pull via ansible
+717,2020-05-16 01:57:16.000000000,2020-05-16 02:22:30.000000000,closed,1,Handles no tmpdir in fetch command for old ansible versions
+716,2020-05-14 20:58:41.000000000,2020-05-16 02:22:30.000000000,closed,2,"Fetch fails with ""AttributeError: 'ShellModule' object has no attribute 'tmpdir'"""
+715,2020-05-08 23:31:29.000000000,1970-01-01 00:00:00.000000001,open,23,Ansible 2.10 + Collections support
+714,2020-04-28 03:54:27.000000000,1970-01-01 00:00:00.000000001,open,2,Correct latest ansible version supported
+713,2020-04-24 11:21:15.000000000,1970-01-01 00:00:00.000000001,open,1,ascii' codec can't encode characters in position 109-117: ordinal not in range(128)
+712,2020-04-22 18:58:33.000000000,1970-01-01 00:00:00.000000001,open,2,Sporadic EAGAIN errors due to non-blocking stdout
+711,2020-04-21 05:11:47.000000000,1970-01-01 00:00:00.000000001,open,8,"Mitogen is not compatible with 'become_exe = ""sudo su -"" ' in ansible.cfg"
+710,2020-04-17 06:38:38.000000000,2020-05-08 19:14:06.000000000,closed,6,Handles a `wait_for_connection` call right after a task caused a shutdown
+709,2020-04-15 11:05:49.000000000,2020-04-15 12:32:44.000000000,closed,0,#655 denone connection reset
+708,2020-04-14 12:22:57.000000000,1970-01-01 00:00:00.000000001,open,1,"""meta: reset_connection"" fails with ""become: true"" using 0.2.9"
+707,2020-04-09 02:22:14.000000000,1970-01-01 00:00:00.000000001,open,1,Add podman transport
+706,2020-04-01 17:16:47.000000000,1970-01-01 00:00:00.000000001,open,1,AttributeError: module 'os' has no attribute 'fork' when connecting from Linux machine to Windows machine
+705,2020-03-27 09:08:49.000000000,2020-05-01 03:00:08.000000000,closed,13,"Adds basic Ansible 2.9.6 support, tests use desired Ansible version now, and disabled flaky test on py3.6"
+704,2020-03-25 18:56:05.000000000,1970-01-01 00:00:00.000000001,open,5,"""Pending work still existed"" error when using running tasks on localhost"
+703,2020-03-20 16:05:21.000000000,1970-01-01 00:00:00.000000001,open,0,Make Context.call() interface similar to that of subprocess.run()
+702,2020-03-20 15:12:59.000000000,1970-01-01 00:00:00.000000001,open,0,[BUGFIX] Respect SSH host key checking settings from host
+701,2020-03-15 21:29:55.000000000,1970-01-01 00:00:00.000000001,open,0,Question about documentation
+700,2020-03-09 09:54:58.000000000,1970-01-01 00:00:00.000000001,open,0,remote_tmp causes failures on Python 2 targets
+699,2020-03-07 00:13:46.000000000,2020-03-07 00:26:04.000000000,closed,1,asible_fqdn sometimes gets set to localhost.localdomain
+698,2020-02-28 01:14:34.000000000,1970-01-01 00:00:00.000000001,open,1,"Disconnection when executing ""raw: apt-get update"""
+697,2020-02-26 16:02:28.000000000,1970-01-01 00:00:00.000000001,open,0,Error building Ansible-tower with mitogen
+696,2020-02-26 05:28:55.000000000,1970-01-01 00:00:00.000000001,open,0,Errors with `lru_one_target.yml` but works locally on python3
+695,2020-02-26 02:24:55.000000000,1970-01-01 00:00:00.000000001,open,0,errors with disconnect_cleanup.yml in CI (but works locally using python3)
+694,2020-02-21 04:26:01.000000000,1970-01-01 00:00:00.000000001,open,2,Test fail sometimes with `doas_test.py` on  Python: 2.6 MODE=mitogen DISTRO=centos7
+693,2020-02-21 04:00:21.000000000,2020-03-22 09:28:30.000000000,closed,0,[DO NOT MERGE] Verifying tests on master
+692,2020-02-21 03:28:15.000000000,1970-01-01 00:00:00.000000001,open,3,Test fail with `become_user` in make_tmp_path.yml but works locally
+691,2020-02-20 04:49:08.000000000,1970-01-01 00:00:00.000000001,open,1,Runtime warnings on Python 3.8+ local connection
+690,2020-02-19 13:59:51.000000000,1970-01-01 00:00:00.000000001,open,1,Not feeling the speed!
+689,2020-02-18 16:26:41.000000000,1970-01-01 00:00:00.000000001,open,7,mitogen.core.StreamError: invalid message: cannot unpickle Context: bad input
+688,2020-02-16 04:13:51.000000000,1970-01-01 00:00:00.000000001,open,0,Travis tests intermittently fail with an extra process error
+687,2020-02-04 19:26:42.000000000,1970-01-01 00:00:00.000000001,open,0,Encoding issue with socket.gethostname() when hostname has non-ASCII characters
+686,2020-01-27 23:45:32.000000000,1970-01-01 00:00:00.000000001,open,3,Considering moving mitogen under ansible-community organization
+685,2020-01-26 19:20:24.000000000,1970-01-01 00:00:00.000000001,open,1,Adds more dynamic installation
+684,2020-01-23 05:45:21.000000000,1970-01-01 00:00:00.000000001,open,0,mitogen doesn't work with htpasswd module in ansible 2.9
+683,2020-01-19 16:10:45.000000000,1970-01-01 00:00:00.000000001,open,0,Get mitogen.fakessh module working again
+682,2020-01-17 22:07:47.000000000,1970-01-01 00:00:00.000000001,open,14,mitogen does not deploy class level imports
+681,2020-01-14 00:16:55.000000000,1970-01-01 00:00:00.000000001,open,16,SSH connect failures on Mitogen 0.2.9 on WSL Ubuntu 18.04
+680,2020-01-10 13:13:49.000000000,1970-01-01 00:00:00.000000001,open,16,Mitogen (Ansible) completely broken on CentOS 7
+679,2020-01-02 13:15:31.000000000,1970-01-01 00:00:00.000000001,open,1,Using mitogen-0.2.3 with python 3.5.6
+678,2019-12-23 06:17:11.000000000,1970-01-01 00:00:00.000000001,open,3,Corruption detected: frame signature incorrect message
+677,2019-12-19 14:07:07.000000000,1970-01-01 00:00:00.000000001,open,1,mitogen crashed when running delegate action with iptable task and python3
+676,2019-12-17 11:49:37.000000000,2019-12-18 07:58:42.000000000,closed,1,Mitogen fail to run playbook without “/usr/bin/python” on target host
+675,2019-12-13 22:56:55.000000000,2020-01-16 03:56:10.000000000,closed,1,"mitogen show the name of the last task, instead handlers"
+674,2019-12-05 17:11:11.000000000,2019-12-05 18:10:37.000000000,closed,2,Support for Ansible 2.9
+673,2019-12-03 02:25:07.000000000,2020-03-22 09:25:33.000000000,closed,26,Mitogen fails on RHEL8 server with bash: /usr/bin/python: No such file or directory
+672,2019-11-29 14:03:37.000000000,2020-06-15 21:42:43.000000000,closed,30,Cannot perform relative import error
+671,2019-11-29 00:12:31.000000000,1970-01-01 00:00:00.000000001,open,1,ssh_connection retries seems not used
+670,2019-11-26 13:33:23.000000000,1970-01-01 00:00:00.000000001,open,0,User name for connection to bastion host
+669,2019-11-25 10:02:48.000000000,1970-01-01 00:00:00.000000001,open,0,"Can't use  async directory other than ""/home/currentuser"" when running async task via mitogen"
+668,2019-11-23 02:47:32.000000000,1970-01-01 00:00:00.000000001,open,3,Mitogen timeout for certain operations on Debian 9.9
+667,2019-11-21 18:50:49.000000000,2019-11-22 01:53:23.000000000,closed,4,"Missing ""pipe buffer full"" test on Waker since 0.2.9"
+666,2019-11-19 13:13:05.000000000,1970-01-01 00:00:00.000000001,open,1,APT install .deb file with missing xz-utils
+665,2019-11-19 04:47:18.000000000,1970-01-01 00:00:00.000000001,open,2,Error running with module not loaded
+664,2019-11-14 15:58:42.000000000,1970-01-01 00:00:00.000000001,open,3,Playbook fails if it needs a package installed by pip during the playbook
+663,2019-11-13 01:22:54.000000000,1970-01-01 00:00:00.000000001,open,1,delegate_to fails with broker already exited
+662,2019-11-12 17:25:22.000000000,1970-01-01 00:00:00.000000001,open,6,mitogen 0.2.9 with network_cli and Ansible 2.8
+661,2019-11-05 13:53:00.000000000,1970-01-01 00:00:00.000000001,open,0,Custom ansible module requiring its own module/class doesn't work
+660,2019-11-01 20:51:38.000000000,2019-11-02 22:01:55.000000000,closed,1,ERROR! Your Ansible version (2.9.0) is too recent.
+659,2019-10-31 12:34:54.000000000,1970-01-01 00:00:00.000000001,open,4,SyntaxError: invalid syntax during build
+658,2019-10-29 05:04:28.000000000,2020-03-22 09:25:33.000000000,closed,57,"Adds support for special ansible_python_interpreter values, ansible_python_interpreter discovery, and fixes tests"
+657,2019-10-29 00:36:37.000000000,1970-01-01 00:00:00.000000001,open,0,"tower_send module: TypeError: underlying read1() should have returned a bytes object, not 'unicode'"
+656,2019-10-24 05:32:13.000000000,1970-01-01 00:00:00.000000001,open,1,Mitogen realeses should not include .ci and .github folder
+655,2019-10-14 14:19:58.000000000,2020-05-08 19:14:06.000000000,closed,6,wait_for_connection gives errors
+654,2019-10-09 22:38:42.000000000,1970-01-01 00:00:00.000000001,open,0,PyVim on Mitogen blacklist with vmware_guest module
+653,2019-10-06 23:55:47.000000000,2019-11-26 06:03:26.000000000,closed,1,docs: fixes minor typo (pefectly -> perfectly)
+652,2019-10-06 04:29:20.000000000,1970-01-01 00:00:00.000000001,open,26,Support for ansible collections import hook
+651,2019-09-27 23:44:03.000000000,1970-01-01 00:00:00.000000001,open,1,"mitogen cannot handle ""PIN for"" sudo prompt"
+650,2019-09-27 17:27:39.000000000,2020-03-22 09:51:19.000000000,closed,3,ANSIBLE_PYTHON_INTERPRETER env variable not used?
+649,2019-09-22 20:26:06.000000000,1970-01-01 00:00:00.000000001,open,0,mitogen 0.2.8 fails with UnicodeEncodeError when processing ansible custom modules 
+648,2019-09-19 12:43:41.000000000,1970-01-01 00:00:00.000000001,open,5,CPU number is not correctly detected
+647,2019-09-12 20:50:52.000000000,1970-01-01 00:00:00.000000001,open,2,mitogen fails when a malformed ~/.pam_environment file is encountered
+646,2019-09-11 16:00:12.000000000,1970-01-01 00:00:00.000000001,open,8,Exception runnging ansible 2.8 and mitogen 0.2.8
+645,2019-09-11 14:34:59.000000000,2019-09-11 16:16:50.000000000,closed,1,AssertionError during connect
+644,2019-09-04 08:05:53.000000000,1970-01-01 00:00:00.000000001,open,0,Mitogen fails on cPanel Hosts
+643,2019-08-28 00:50:56.000000000,1970-01-01 00:00:00.000000001,open,1,Connection to cisco with ansible_become_method: enable fails
+642,2019-08-24 19:26:38.000000000,1970-01-01 00:00:00.000000001,open,0,tests: add test for passing user classes and instances
+640,2019-08-23 17:02:21.000000000,1970-01-01 00:00:00.000000001,open,2,"Ansible, Mitogen, Docker"
+639,2019-08-23 14:44:27.000000000,1970-01-01 00:00:00.000000001,open,7,Failed to write to file .ssh/known_hosts: [Errno 2] No such file or directory: '.ssh/tmpupg6c51q'
+636,2019-08-19 22:09:31.000000000,1970-01-01 00:00:00.000000001,open,1,os.chdir fails if the sudo/become user lacks adequate permissions to chdir prior to task
+633,2019-08-19 19:44:00.000000000,1970-01-01 00:00:00.000000001,open,11,SELinux python bindings fails on CentOS 6 even after a connection_reset meta task
+632,2019-08-19 05:32:34.000000000,1970-01-01 00:00:00.000000001,open,4,Mitogen 2.8 tmp noexec
+631,2019-08-19 04:50:57.000000000,1970-01-01 00:00:00.000000001,open,1,Ansible become plugins
+630,2019-08-19 04:29:50.000000000,1970-01-01 00:00:00.000000001,open,2,Run non-Python commands / Ansible raw module support
+622,2019-08-16 02:13:19.000000000,2019-08-16 02:14:28.000000000,closed,2,The Mitogen master process was unable to serve 'ansible.module_utils.distro._distro'
+618,2019-08-12 14:13:53.000000000,2019-08-12 14:46:50.000000000,closed,2,LGTM tweaks (test pull to see lgtm output)
+612,2019-08-08 20:56:32.000000000,2019-08-08 22:15:48.000000000,closed,6,Some smaller fixes
+611,2019-08-08 13:59:45.000000000,1970-01-01 00:00:00.000000001,open,7,Key based SSH authentication doesn't work
+610,2019-08-07 19:47:31.000000000,2019-08-07 20:04:55.000000000,closed,4,Does Mitogen need python-distro? Fails in facts gathering if python-distro is not installed.
+608,2019-07-31 12:42:37.000000000,2019-07-31 12:49:07.000000000,closed,2,Fix for sample in doc
+607,2019-07-31 12:34:53.000000000,1970-01-01 00:00:00.000000001,open,10,Update tested versions
+606,2019-07-31 12:27:03.000000000,2019-07-31 12:38:40.000000000,closed,3,Bug in sample app on doc
+602,2019-07-23 23:08:25.000000000,2019-08-02 07:41:10.000000000,closed,5,incorrect path used only during synchronize task on FreeBSD
+601,2019-07-23 15:55:50.000000000,2019-07-23 15:57:31.000000000,closed,1,"Difference in host_vars resolution, ansible_python_interpreter, ansible_playbook_python"
+600,2019-07-19 13:52:24.000000000,2019-08-01 15:44:41.000000000,closed,1,Task failed with unicode characters in /etc/environment on target host
+599,2019-07-01 13:23:52.000000000,1970-01-01 00:00:00.000000001,open,5,Mitogen does not template-expand connection variables
+598,2019-06-30 01:04:07.000000000,2019-08-11 15:39:38.000000000,closed,5,"Mitogen intermittent hangs on ""Connection timed out"" target "
+597,2019-06-13 00:48:11.000000000,2020-03-22 09:25:33.000000000,closed,12,Mitogen does not support Ansible 2.8 Python interpreter detection
+596,2019-06-12 19:09:37.000000000,2019-06-13 14:59:25.000000000,closed,1,ANSIBLE Gathering facts fail on hosts
+595,2019-06-09 08:59:35.000000000,2019-06-13 20:39:55.000000000,closed,5,Add buildah transport
+594,2019-06-04 18:25:29.000000000,1970-01-01 00:00:00.000000001,open,1,2.7/Py3.6 controller -> BSD Py2.7 target exceptions
+593,2019-06-01 04:31:12.000000000,2019-06-03 21:21:05.000000000,closed,3,Streams disconnected in network-intense Ansible task
+592,2019-05-28 19:06:33.000000000,2019-07-28 21:58:10.000000000,closed,6,Ansible 2.8 AttributeError: 'module' object has no attribute 'id'
+591,2019-05-28 06:32:22.000000000,2019-06-03 06:19:02.000000000,closed,10,Mitogen fails on `pip` module
+589,2019-05-16 15:54:09.000000000,2019-06-03 19:00:14.000000000,closed,1,mitogen.service.call not available
+587,2019-05-13 03:27:32.000000000,2019-05-28 02:09:51.000000000,closed,11,Mitogen does not support Ansible 2.8 yet
+586,2019-05-10 17:47:28.000000000,2019-08-09 07:38:26.000000000,closed,11,ModuleNotFoundError with 'ansible_mitogen.target'
+584,2019-05-04 22:48:28.000000000,1970-01-01 00:00:00.000000001,open,0,delegate_facts from a container's host to a container creates a cycle
+583,2019-04-27 05:31:06.000000000,1970-01-01 00:00:00.000000001,open,3,Please add a way to disable BatchMode=yes from the command line when using Mitogen Ansible
+582,2019-04-23 12:31:56.000000000,2019-08-12 19:12:03.000000000,closed,3,unarchive failed
+581,2019-04-16 23:42:59.000000000,2019-04-17 02:09:23.000000000,closed,2,Mitogen leaks local host information to remote host
+580,2019-04-15 13:31:15.000000000,2019-07-28 20:32:14.000000000,closed,11,"Mitogen Ansible : ""Failed to get information on remote file"" when plugin executes modules and 'become' is used"
+579,2019-04-12 00:20:55.000000000,2019-04-12 00:25:41.000000000,closed,1,No module named setuptools
+578,2019-04-10 17:08:23.000000000,2019-06-03 23:43:17.000000000,closed,8,No space on device throws interessting error message
+577,2019-04-06 19:30:55.000000000,2019-04-06 19:42:48.000000000,closed,1,Are there plans to integrate mitogen and SaltStack?
+575,2019-04-02 12:51:56.000000000,1970-01-01 00:00:00.000000001,open,12,CallError: exceptions.KeyError: u'namelist'
+574,2019-04-02 12:34:09.000000000,2019-04-02 17:11:16.000000000,closed,1,GitHub issue template contains broken link?
+572,2019-03-23 00:19:01.000000000,2019-03-23 03:04:23.000000000,closed,0,issue #570: add firewalld to always-fork list for now.
+570,2019-03-21 19:29:20.000000000,2019-06-03 06:33:07.000000000,closed,14,DBusException: org.freedesktop.DBus.Error.ServiceUnknown: The name :1.327 was not provided by any .service files
+569,2019-03-20 02:19:27.000000000,1970-01-01 00:00:00.000000001,open,9,ansible k8s fails with mitogen
+568,2019-03-19 22:29:04.000000000,1970-01-01 00:00:00.000000001,open,11,Make strategy_plugins obsolete
+567,2019-03-19 15:56:46.000000000,2019-03-19 22:49:17.000000000,closed,1,docs: removed excess word
+566,2019-03-15 16:20:52.000000000,2019-03-15 23:57:24.000000000,closed,2,docs: fixed message routing example description
+564,2019-03-13 16:04:11.000000000,2019-03-13 20:59:49.000000000,closed,1,docs: removed repeated word
+563,2019-03-13 14:22:01.000000000,2019-03-13 20:31:50.000000000,closed,1,0.2.6 not available as tag
+562,2019-03-12 08:25:06.000000000,2019-08-18 02:44:32.000000000,closed,2,"Error after restarted firewall service (CentOS 7, firewalld)"
+559,2019-03-07 02:30:53.000000000,2019-08-05 03:26:59.000000000,closed,2,Possible issue with python3 using virtualenvs and Docker?
+558,2019-03-07 00:02:21.000000000,2019-08-12 19:13:43.000000000,closed,6,unarchive moduled
+557,2019-03-06 20:47:48.000000000,2019-03-06 23:23:29.000000000,closed,10,New traceback with 0.2.5 - error: integer out of range for 'L' format code
+556,2019-03-04 20:01:12.000000000,2019-08-02 19:50:13.000000000,closed,2,Compatibility with ansible 2.8 (missing ansible facts)
+555,2019-02-28 21:56:36.000000000,2019-03-06 19:29:04.000000000,closed,7,ansible-postgresql_exec custom module error ValueError: I/O operation on closed file
+554,2019-02-27 18:35:22.000000000,2019-03-06 18:44:55.000000000,closed,7,incompatible with regpg Ansible plugin
+552,2019-02-25 18:48:50.000000000,1970-01-01 00:00:00.000000001,open,2,Waker(Broker()) crashed
+549,2019-02-21 19:13:48.000000000,2019-07-31 07:38:17.000000000,closed,5,plays with many hosts fail with `too many open files` error on macOS
+548,2019-02-19 14:05:35.000000000,2019-02-19 21:51:40.000000000,closed,3,mitogen_via + transport=smart throws KeyError: u'smart'
+545,2019-02-16 21:06:37.000000000,2019-02-16 22:16:21.000000000,closed,9,mitogen tracebacks with 0.2.4 and 0.2.5 but works fine with 0.2.3
+544,2019-02-15 18:36:12.000000000,1970-01-01 00:00:00.000000001,open,2,Error with delegate_to and 0.2.4
+542,2019-02-14 10:54:23.000000000,2019-02-14 18:19:39.000000000,closed,3,OS X 'module' object has no attribute 'POLLIN'
+540,2019-02-13 07:52:14.000000000,2019-02-13 08:59:37.000000000,closed,3,Mitogen eats stderr on async tasks
+538,2019-02-12 21:06:46.000000000,2019-02-13 08:00:10.000000000,closed,3,PyPI sdist missing license
+536,2019-02-12 01:05:50.000000000,2019-02-13 21:28:32.000000000,closed,15,`ec2_group` module doesn't work with Mitogen 0.2.4
+533,2019-02-10 23:52:23.000000000,1970-01-01 00:00:00.000000001,open,12,bad auth ID during disconnect
+531,2019-02-10 01:55:46.000000000,1970-01-01 00:00:00.000000001,open,4,Track and publish code coverage
+530,2019-02-10 01:10:14.000000000,2019-02-10 01:49:03.000000000,closed,7, Aggregate code coverage data across all tox runs 
+529,2019-02-10 00:31:35.000000000,2019-02-10 01:49:03.000000000,closed,0,Code coverage report only covers one Python version
+527,2019-02-09 22:26:53.000000000,2019-02-10 01:05:02.000000000,closed,8,Mitogen runner will sometimes mask playbook execution errors
+526,2019-02-09 19:54:44.000000000,2019-02-09 20:36:50.000000000,closed,0,Py36 deprecationwarning
+525,2019-02-09 19:53:43.000000000,2019-02-09 20:33:38.000000000,closed,2,Generate coverage report even if some tests fail
+524,2019-02-09 19:42:29.000000000,2019-02-09 20:36:50.000000000,closed,0,mitogen.utils.run_with_router: DeprecationWarning under Python 3.6+ 
+523,2019-02-09 19:40:27.000000000,2019-02-09 20:33:38.000000000,closed,0,run_tests doesn't generate coverage report if any test fails
+522,2019-02-09 06:58:27.000000000,1970-01-01 00:00:00.000000001,open,1,set 'comm' of child context to something useful
+520,2019-02-08 18:50:21.000000000,1970-01-01 00:00:00.000000001,open,7,Ansible v2.6 become recursion issue
+519,2019-02-06 04:48:39.000000000,1970-01-01 00:00:00.000000001,open,3,OpenStack-Ansible pre-release CI job
+516,2019-02-03 02:17:53.000000000,1970-01-01 00:00:00.000000001,open,0,CallChain.reset must incur full roundtrip in some cases
+515,2019-02-01 23:07:53.000000000,1970-01-01 00:00:00.000000001,open,7,Add python interpreter check and transfer
+512,2019-02-01 10:02:23.000000000,2019-02-01 10:35:02.000000000,closed,1,Add mitogen_host variable as optional target
+511,2019-02-01 04:17:05.000000000,2019-02-12 07:03:00.000000000,closed,5,"""Boto3 required for this module"" when using delegate_to"
+510,2019-02-01 01:49:36.000000000,1970-01-01 00:00:00.000000001,open,10,Openstack-Ansible integration
+499,2019-01-29 05:53:07.000000000,2019-01-29 09:36:23.000000000,closed,16,Mitogen does not implement BECOME_ALLOW_SAME_USER
+485,2019-01-27 00:09:16.000000000,1970-01-01 00:00:00.000000001,open,30,Python 3: ~100MB/sec vs. 800MB/sec FileService throughput
+481,2019-01-23 14:39:56.000000000,2019-02-11 01:17:18.000000000,closed,15,[0.2.4] Ansible with sudo results in channel disconnect
+477,2019-01-22 21:46:50.000000000,2019-01-27 11:58:00.000000000,closed,8,Python 2.4 - Stuck on gathering facts - Thread object has no attribute ident
+467,2019-01-18 18:49:56.000000000,2019-08-05 03:16:15.000000000,closed,6,Mitogen with Molecule?
+466,2019-01-18 02:34:45.000000000,1970-01-01 00:00:00.000000001,open,10,sudo password required when using shell module
+465,2019-01-12 05:28:11.000000000,2019-01-22 08:21:34.000000000,closed,4,"Error executing ""delegate_to"" task with mitogen"
+463,2019-01-04 21:45:35.000000000,2019-01-19 12:25:26.000000000,closed,2,[ansible-mitogen] When deleting a package after using mitogen it failed because mitogen don't stop the python process 
+462,2018-12-23 16:46:15.000000000,2019-01-19 12:15:03.000000000,closed,22,Failed to create a PTY. Operation not permitted [on CentOS7]
+454,2018-12-13 15:54:15.000000000,2019-01-19 12:30:35.000000000,closed,15,freeze on task with xml module
+444,2018-12-11 21:10:44.000000000,2019-01-19 12:39:14.000000000,closed,5,"Option to hide ""_build_tuple('_winapi'): could not locate source"" messages"
+443,2018-12-11 20:40:19.000000000,1970-01-01 00:00:00.000000001,open,2,Add the ability to disable mitogen per task 
+441,2018-12-11 09:29:05.000000000,1970-01-01 00:00:00.000000001,open,2,Add connection flag to require specific Python version
+440,2018-12-11 07:43:16.000000000,1970-01-01 00:00:00.000000001,open,4,Python 3.7->3.7: refusing to serve stdlib module 'pathlib'
+437,2018-12-09 04:29:20.000000000,2018-12-09 22:56:31.000000000,closed,7,Maximum message size exceeded on su in python3.7.1
+436,2018-12-07 15:39:29.000000000,2019-01-22 08:25:35.000000000,closed,10,SSH auth failure in specific case
+435,2018-12-06 22:00:55.000000000,2018-12-10 19:54:59.000000000,closed,10,On some shell script that start java cannot open shared object file: Too many open files
+434,2018-11-26 23:29:31.000000000,2019-01-22 08:53:47.000000000,closed,6,"Running with sudo says ""SSH password was requested, but none specified"""
+433,2018-11-26 12:28:16.000000000,1970-01-01 00:00:00.000000001,open,3,Mitogen causing remote host to use excessive memory
+432,2018-11-24 03:59:05.000000000,1970-01-01 00:00:00.000000001,open,0,Run Mitogen using function  as argument
+431,2018-11-19 20:22:52.000000000,2019-02-12 14:33:50.000000000,closed,2,With maven_artifact error the respondent Context has disconnected
+430,2018-11-13 20:56:28.000000000,1970-01-01 00:00:00.000000001,open,0,fakessh: exception while transfering files
+429,2018-11-13 00:47:30.000000000,2019-01-29 11:00:44.000000000,closed,10,Pass sudo password with --ask-become-pass
+421,2018-11-06 03:22:12.000000000,1970-01-01 00:00:00.000000001,open,4,fakessh: can't get it working. is it broken?
+414,2018-11-02 21:42:19.000000000,2019-01-21 07:17:10.000000000,closed,14,Service pool lock must be held and reinitialized across fork
+409,2018-10-26 22:06:46.000000000,2018-10-31 16:46:39.000000000,closed,5,Exeception with setns connection method - kubectl_path
+408,2018-10-26 19:45:08.000000000,2019-01-20 19:55:48.000000000,closed,2,Mitogen not work in python 2.4
+407,2018-10-26 18:30:36.000000000,2019-01-20 22:10:48.000000000,closed,10,"Unexpected failure during module execution: ""_is_text_encoding=False"""
+404,2018-10-25 14:39:10.000000000,2019-01-22 08:12:11.000000000,closed,6,SSH authentication is incorrect on gather_facts task
+403,2018-10-23 18:50:43.000000000,1970-01-01 00:00:00.000000001,open,3,Investigate and merge OpenStack-related LXD patches
+400,2018-10-23 11:42:53.000000000,2018-11-01 20:00:35.000000000,closed,6,Mitogen issues in AWX when used verbosity 3 and higher
+399,2018-10-22 15:34:58.000000000,2018-12-09 22:50:59.000000000,closed,2,DeprecationWarning: the imp module is deprecated
+397,2018-10-20 00:59:32.000000000,2018-10-23 17:44:56.000000000,closed,4,Lots of empty directories left in /tmp
+396,2018-10-19 14:20:27.000000000,2019-01-22 08:35:11.000000000,closed,2,Ansible setup action with delegate_to tries to use the current python interpreter.
+395,2018-10-18 16:17:39.000000000,2018-10-18 16:37:25.000000000,closed,2,Forward Agent Problem
+394,2018-10-17 16:37:25.000000000,2018-10-18 23:57:31.000000000,closed,5,Possible mitogen bug with low address space in /etc/security/limits.conf
+393,2018-10-16 08:22:19.000000000,1970-01-01 00:00:00.000000001,open,4,"Error ""some streams did not close gracefully"" after Ansible playbook run"
+392,2018-10-10 12:50:14.000000000,2018-10-23 19:29:03.000000000,closed,3,ansible 2.7
+391,2018-10-08 07:44:25.000000000,2018-11-07 07:30:24.000000000,closed,4,"error ""ok = out_fp.tell() == metadata['size']"" in ansible"
+386,2018-10-03 03:25:08.000000000,2018-10-03 03:34:49.000000000,closed,3,Documentation cleanups
+385,2018-10-03 03:17:28.000000000,2018-10-03 03:35:26.000000000,closed,0,Test with Tox on Python 3.x
+384,2018-10-01 00:37:47.000000000,2018-10-01 23:23:33.000000000,closed,0,tests: Add tests of mitogen.utils.cast()
+383,2018-10-01 00:35:22.000000000,2018-10-02 00:27:28.000000000,closed,0,Update pytz to 2018.05 (needed by babel 2.6.0)
+382,2018-10-01 00:26:58.000000000,2018-10-01 23:23:52.000000000,closed,0,Ignore built doc artifacts
+381,2018-10-01 00:23:50.000000000,2018-10-01 23:24:30.000000000,closed,1,"Match ""user@host: Permission denied ..."" messages"
+380,2018-09-28 21:42:21.000000000,2018-10-03 17:40:51.000000000,closed,2,Run Mitogen as a Module
+379,2018-09-26 13:35:08.000000000,2018-10-03 17:25:18.000000000,closed,4,How to set up two peer Mitogen processes?
+378,2018-09-20 23:52:10.000000000,2018-10-03 17:25:51.000000000,closed,7,ansible_mitogen.target: prune_tree Operation not permitted
+377,2018-09-20 23:25:57.000000000,2018-10-03 01:35:25.000000000,closed,1,[Enhancement] handle kubectl vars from Ansible connector.
+376,2018-09-19 19:00:37.000000000,2018-09-19 22:39:11.000000000,closed,2,Kubernetes connection support for mitogen.
+375,2018-09-19 04:03:57.000000000,1970-01-01 00:00:00.000000001,open,2,Cannot load native module 'Cryptodome.Cipher._raw_ecb'
+374,2018-09-18 15:26:25.000000000,2018-11-07 08:05:22.000000000,closed,5,"ansible 2.6 / python3: CallError: builtins.TypeError: the JSON object must be str, not 'bytes'"
+373,2018-09-18 14:31:21.000000000,2018-10-31 02:42:35.000000000,closed,4,Improve debugging on lxc exec failure
+372,2018-09-18 00:48:22.000000000,2018-09-19 22:37:50.000000000,closed,2,Use `lxc exec --mode=noninteractive` which is more widely compatible
+371,2018-09-18 00:44:22.000000000,2018-09-19 22:37:50.000000000,closed,0,"mitogen_lxd plugin uses incompatible ""lxc --force-noninteractive"" flag"
+370,2018-09-17 03:22:32.000000000,2018-11-02 00:36:47.000000000,closed,7,Rebooting an instance fails with Mitogen
+366,2018-09-12 07:55:15.000000000,2018-10-03 01:35:25.000000000,closed,3,Importer should warn for __main__ imports lacking execution guard
+359,2018-09-11 14:26:22.000000000,2019-01-22 08:38:51.000000000,closed,1,delagate_to ignores --user parameter
+357,2018-09-10 19:17:35.000000000,2018-09-10 20:09:43.000000000,closed,6,"Connection calls Connection.call() in exec_command(), which does not exist"
+353,2018-09-08 06:50:12.000000000,2018-09-08 06:52:54.000000000,closed,2,format string: add missing argument
+351,2018-09-06 18:19:59.000000000,2018-11-02 00:56:09.000000000,closed,13,Ansible Copy module stops (no subsequent task)
+350,2018-09-06 01:57:29.000000000,2018-09-06 19:47:00.000000000,closed,2,Python 3 support for classmethod call targets
+349,2018-08-23 23:38:45.000000000,2019-01-20 20:12:39.000000000,closed,3,Python3 related issue
+348,2018-08-22 18:10:36.000000000,2018-10-03 17:32:42.000000000,closed,8,target disconnected while in `Receiver.get()`
+345,2018-08-16 18:44:21.000000000,1970-01-01 00:00:00.000000001,open,4,Public key should not be required
+344,2018-08-16 17:07:58.000000000,2018-08-17 16:33:25.000000000,closed,2,ValueError for remote_name when using Windows AD account with the form 'DOMAIN\username'
+343,2018-08-13 14:23:46.000000000,2018-08-19 23:19:28.000000000,closed,2,Shell module within become_method sudo and become_flags error
+342,2018-08-11 22:16:40.000000000,1970-01-01 00:00:00.000000001,open,15,Cisco module not working at all
+340,2018-08-09 18:19:08.000000000,2018-08-29 17:06:05.000000000,closed,11,[ansible-mitogen] 'delegate_to' logic
+336,2018-08-03 16:53:31.000000000,2018-08-20 00:55:59.000000000,closed,3,Var is not set before a role call from a playbook
+334,2018-08-02 02:46:56.000000000,2018-10-30 19:03:22.000000000,closed,7,Unable to find identity file in home directory of user running Ansible
+333,2018-08-02 01:45:22.000000000,2018-11-02 14:06:54.000000000,closed,7,Post-run error
+332,2018-07-31 15:09:14.000000000,2018-08-11 17:51:11.000000000,closed,4,Ansible 2.6.1 'file' module error
+331,2018-07-31 14:24:54.000000000,2018-08-11 18:11:13.000000000,closed,11,"ansible: (when running an ansible playbook, the process doesn't end itself. I have to press CONTROL C to end it.)"
+330,2018-07-30 21:06:51.000000000,2018-08-11 18:09:57.000000000,closed,5,Mitogen 0.2.2 and Ansible 2.6.2
+329,2018-07-29 20:34:03.000000000,2018-10-03 17:34:04.000000000,closed,5,`Channel()` usage example request
+328,2018-07-27 18:50:02.000000000,2018-07-29 01:05:16.000000000,closed,7,Could Mitogen be merged into Ansible?
+327,2018-07-27 10:37:51.000000000,2018-07-27 10:37:59.000000000,closed,0,v0.2.2 final touches
+326,2018-07-27 06:05:52.000000000,2018-07-27 06:05:58.000000000,closed,0,"issue 319, changelog updates"
+325,2018-07-26 22:56:28.000000000,2018-07-26 22:56:34.000000000,closed,0,Dmw
+324,2018-07-26 13:14:52.000000000,2018-07-30 11:28:27.000000000,closed,5,[ansible] Imports from module_utils fail
+323,2018-07-26 02:35:06.000000000,2018-11-02 13:53:49.000000000,closed,14,ERROR! [pid 28651] 18:23:43.174203 E mitogen.ctx.local.28788: mitogen: <IoLogger stderr> crashed
+322,2018-07-26 02:08:07.000000000,2018-07-26 02:08:15.000000000,closed,0,Dmw
+319,2018-07-24 23:06:34.000000000,2018-07-27 05:35:14.000000000,closed,9,Immediate failure when running Ansible with Mitogen
+318,2018-07-24 19:31:21.000000000,2018-07-31 07:16:21.000000000,closed,10,Fixed ProcessLookupError issue when _reap_child is called.
+315,2018-07-21 19:31:30.000000000,2018-07-21 23:05:13.000000000,closed,3,Ansible 2.6 Testing Support
+314,2018-07-20 14:54:59.000000000,2018-07-20 19:09:59.000000000,closed,0,"ansible: ""error: cannot run /tmp/tmpPVsKSB: No such file or directory"""
+313,2018-07-20 04:05:57.000000000,2018-07-29 21:38:51.000000000,closed,3,cannot pass class-bound method to context call
+312,2018-07-19 19:23:14.000000000,2018-07-19 19:23:21.000000000,closed,0,issue #309: fix environment cleanup regression.
+310,2018-07-19 01:33:23.000000000,2019-01-20 22:06:47.000000000,closed,12,master: plumbum.colours installs junk in sys.modules
+309,2018-07-18 21:24:47.000000000,2018-08-19 23:44:20.000000000,closed,13,ansible: environment is not restored after module execution in v0.2.1
+308,2018-07-18 00:34:31.000000000,2018-07-18 00:34:44.000000000,closed,0,Dmw
+307,2018-07-17 13:45:00.000000000,2018-07-18 00:34:45.000000000,closed,4,Key based SSH authentication does not work when switching to mitogen_linear
+306,2018-07-16 16:50:44.000000000,2018-07-17 01:08:55.000000000,closed,3,How to use it?..
+304,2018-07-13 23:45:12.000000000,2018-07-15 23:39:50.000000000,closed,2,command-line line 0: missing argument
+303,2018-07-13 17:44:05.000000000,2018-07-18 00:34:45.000000000,closed,3,"Support for ""doas"" become_method"
+302,2018-07-12 19:42:31.000000000,2018-07-29 22:02:58.000000000,closed,1,[FR?] remote generator pattern
+301,2018-07-12 17:54:42.000000000,2018-07-26 02:12:27.000000000,closed,10,"ansible: copy and template module fails with 'source not found', works without mitogen"
+300,2018-07-12 09:42:03.000000000,2018-07-26 22:56:35.000000000,closed,21,_broker_main() crashed
+299,2018-07-11 22:38:19.000000000,2018-07-14 17:55:43.000000000,closed,7,wrap_connection_loader__get() takes exactly 3 arguments (1 given)
+298,2018-07-10 23:56:00.000000000,2018-07-10 23:56:10.000000000,closed,0,Dmw
+297,2018-07-10 09:30:27.000000000,2018-07-10 23:56:10.000000000,closed,5,ansible: env vars set in vars plugin not present in play for localhost
+296,2018-07-09 19:06:51.000000000,2018-07-09 19:06:59.000000000,closed,0,Dmw
+295,2018-07-09 01:15:59.000000000,2018-07-09 01:18:49.000000000,closed,0,Python3
+294,2018-07-08 16:03:48.000000000,2018-07-09 19:06:59.000000000,closed,4,ansible: 'module' object has no attribute 'linear' when first play doesn't use mitogen
+293,2018-07-06 03:20:32.000000000,2018-07-06 03:20:41.000000000,closed,0,docs: update & link in contributors page.
+292,2018-07-06 03:08:37.000000000,2018-07-06 03:08:48.000000000,closed,0,docs: change install docs to point at stable branch.
+291,2018-07-05 19:22:49.000000000,2018-07-29 08:31:53.000000000,closed,11,"When ansible_python_interpreter is set to search for Python in the env, mitogen fails. "
+290,2018-07-05 16:35:24.000000000,2018-10-23 19:34:14.000000000,closed,3,No noticeable performance boost with Ansible 2.2.1 with mitogen alone
+287,2018-06-25 04:37:29.000000000,2018-06-25 04:37:35.000000000,closed,0,Issue275
+285,2018-06-23 23:52:56.000000000,2018-06-23 23:53:02.000000000,closed,0,issue #272: add a blacklist for noisy target loggers
+284,2018-06-23 23:05:55.000000000,2018-06-23 23:06:05.000000000,closed,0,issue #277: core: move Darwin versioner check into first stage
+283,2018-06-23 22:30:36.000000000,2018-06-23 22:30:43.000000000,closed,0,core: race during Receiver construction.
+282,2018-06-23 20:20:26.000000000,2018-06-23 20:20:36.000000000,closed,0,Issue278
+281,2018-06-22 07:45:28.000000000,2018-06-22 07:45:34.000000000,closed,0,Issue280
+280,2018-06-21 22:44:18.000000000,2018-06-22 07:47:50.000000000,closed,10,ansible fails with too many open files on Fedora
+277,2018-06-21 00:18:54.000000000,2018-06-23 23:06:16.000000000,closed,12,ssh with password connection fails to OSX machine
+276,2018-06-20 00:20:45.000000000,2018-06-20 00:21:12.000000000,closed,0,"ssh: Only match ""permission denied"" at start of line; closes #271."
+274,2018-06-19 23:20:11.000000000,2018-06-19 23:20:17.000000000,closed,0,Get integration tests running under 2.6.
+273,2018-06-19 21:36:59.000000000,2018-06-19 23:20:17.000000000,closed,2,"invalid syntax (runner.py, line 222)"
+272,2018-06-19 19:24:47.000000000,2018-06-23 23:53:18.000000000,closed,4,package: state=present generates warning with dnf on Fedora 27/28
+271,2018-06-19 19:01:12.000000000,2018-06-20 00:21:13.000000000,closed,2,mitogen connection fails with inaccessible home directory
+270,2018-06-19 18:48:45.000000000,2018-06-19 23:20:17.000000000,closed,0,"invalid syntax (utils.py, line 115)"
+269,2018-06-18 23:09:51.000000000,2018-06-21 22:57:02.000000000,closed,2,Fix Docker image construction and Tox test invocation
+268,2018-06-18 20:13:13.000000000,2018-09-21 00:02:02.000000000,closed,13,TimeoutError to pfsense box
+267,2018-06-15 16:26:53.000000000,2019-01-21 15:16:55.000000000,closed,6,Ansible copy fails randomly
+266,2018-06-15 16:21:27.000000000,1970-01-01 00:00:00.000000001,open,10,Ansible raw fails randomly
+265,2018-06-11 04:30:20.000000000,1970-01-01 00:00:00.000000001,open,4,core: python3: need mechanism to avoid stdlib imports
+263,2018-06-10 18:41:44.000000000,2018-06-10 18:41:51.000000000,closed,0,"Stray mux process on CTRL+C, EINTR on async task timeout, temp dir cleanup race"
+262,2018-06-10 06:46:02.000000000,2018-06-10 06:46:16.000000000,closed,0,"Fully functional async tasks, minify refactor, import trimming, module/script preloading/deduplication, service framework enhancements, fix logging deadlock"
+261,2018-06-05 15:49:06.000000000,2018-07-25 14:45:15.000000000,closed,8,puppet won't run when we activate mitogen
+255,2018-05-28 09:00:49.000000000,2018-05-28 09:00:57.000000000,closed,0,Dmw
+252,2018-05-23 03:44:09.000000000,2018-07-16 00:32:44.000000000,closed,10,Unsure how to call user-defined functions in Mitogen context
+251,2018-05-18 20:44:41.000000000,2019-01-22 08:27:25.000000000,closed,7,local_action running on jump host when connection delegation is enabled?
+249,2018-05-14 20:10:35.000000000,2018-05-16 00:02:37.000000000,closed,16,ansible: ValueError: filedescriptor out of range in select()
+248,2018-05-14 15:24:10.000000000,2018-05-14 22:37:22.000000000,closed,2,fix host_keys= exception message
+247,2018-05-12 01:18:25.000000000,2018-05-12 01:18:32.000000000,closed,0,issue #179: don't reap first stage until core_src_fd is drained.
+246,2018-05-11 21:33:08.000000000,2018-05-11 21:33:14.000000000,closed,0,issue #179: ec0_receive() and connect_bootstrap() should use deadline.
+245,2018-05-08 19:24:00.000000000,2018-05-08 19:24:07.000000000,closed,0,"Log masking, unlinked contributors page, resolv.conf fix, unidirectional routing"
+244,2018-05-04 23:46:17.000000000,2018-05-04 23:46:27.000000000,closed,0,Dmw
+243,2018-05-03 18:08:20.000000000,1970-01-01 00:00:00.000000001,open,0,ability to remote call lambdas or nested functions
+242,2018-05-02 21:12:43.000000000,2018-05-02 21:12:53.000000000,closed,0,"su method, CTRL+C exception handler, real host key checking modes"
+241,2018-05-02 18:31:24.000000000,2018-07-27 07:49:53.000000000,closed,4,ansible_mitogen prints a traceback if interrupted using Ctrl-C
+240,2018-05-01 17:15:38.000000000,2018-05-01 17:15:45.000000000,closed,0,"FileService optimizations, more compatible temp dir handling"
+239,2018-04-30 20:56:00.000000000,2018-06-13 21:56:16.000000000,closed,3,ansible_mitogen requires become_user has a writable home directory
+237,2018-04-29 22:58:32.000000000,2018-04-29 22:58:37.000000000,closed,0,connection delegation fixes & issue #212
+235,2018-04-29 12:38:09.000000000,2018-04-29 12:38:16.000000000,closed,0,docs: more ansible updates
+234,2018-04-29 10:41:18.000000000,2018-04-29 10:41:24.000000000,closed,0,"Fix one Latch race, one huge leak around fork"
+233,2018-04-29 05:51:11.000000000,2018-04-29 05:51:17.000000000,closed,0,Dmw
+232,2018-04-29 03:47:52.000000000,2018-04-29 03:48:07.000000000,closed,0,"Better error messages, support username in setns"
+231,2018-04-29 01:38:19.000000000,2018-04-29 01:38:36.000000000,closed,0,"Many file transfer improvements, docs improvements."
+228,2018-04-28 10:02:14.000000000,2018-04-28 10:02:22.000000000,closed,0,setns method
+225,2018-04-27 19:48:53.000000000,2018-04-28 11:26:53.000000000,closed,1,setup: Add missing os import
+224,2018-04-27 10:38:05.000000000,2018-04-27 10:38:11.000000000,closed,0,docs: links to Ansible docs
+222,2018-04-27 09:37:28.000000000,2018-04-27 09:37:36.000000000,closed,0,FreeBSD Jail support
+221,2018-04-27 08:02:18.000000000,2018-04-27 08:02:24.000000000,closed,0,docs: typo
+220,2018-04-27 07:59:55.000000000,2018-04-27 08:00:47.000000000,closed,0,"Docker fixes, logging improvements, LXC support"
+219,2018-04-27 04:51:42.000000000,2018-04-27 04:56:52.000000000,closed,0,"Doc updates, connection delegation v1."
+211,2018-04-22 16:42:50.000000000,2018-04-22 16:42:56.000000000,closed,0,"Docstring fixes, Ansible 2.5.1 fix & CI"
+210,2018-04-22 12:18:17.000000000,2018-04-22 16:29:11.000000000,closed,1,"ansible: fails on '- apt: deb=""https://...""' rule"
+209,2018-04-22 06:00:50.000000000,2018-04-22 06:00:56.000000000,closed,0,Streaming file transfer :D
+207,2018-04-22 03:18:25.000000000,2018-04-22 03:18:33.000000000,closed,0,"Move _DEAD into header, autogenerate dead messages"
+206,2018-04-22 00:08:39.000000000,2018-04-22 00:11:48.000000000,closed,0,ansible: disable script interpreter processing for new-style
+205,2018-04-21 23:35:29.000000000,2018-04-21 23:35:35.000000000,closed,0,ansible: prevent Unicode strings leaking into sys.argv
+204,2018-04-21 22:52:28.000000000,2018-04-21 22:52:34.000000000,closed,0,parent: don't wait for SIGTERM to complete.
+203,2018-04-21 22:20:56.000000000,2018-04-21 22:21:03.000000000,closed,0,Disconnection fixes
+198,2018-04-20 23:57:18.000000000,2018-04-20 23:57:24.000000000,closed,0,issue #195: handle non-ASCII scripts in runner.py.
+197,2018-04-20 20:12:11.000000000,2018-04-20 20:12:17.000000000,closed,0,"MITOGEN_DUMP_THREAD_STACKS, better log integration, remove JobResultsService"
+195,2018-04-19 01:39:25.000000000,2018-04-20 23:47:56.000000000,closed,13,yum module hangs
+194,2018-04-19 01:09:32.000000000,2018-04-19 01:09:38.000000000,closed,0,Implement hybrid TTY/socket mode
+193,2018-04-18 20:54:25.000000000,2018-04-18 20:57:38.000000000,closed,0,Use subprocess to start child processes; closes #185.
+192,2018-04-18 19:28:40.000000000,2018-04-18 19:57:47.000000000,closed,0,Enable initial regression tests in Travis
+189,2018-04-10 18:58:45.000000000,2018-04-10 19:38:58.000000000,closed,3,Commit ec720ea breaks mitogen @ ansible 2.5.0
+187,2018-04-09 03:39:00.000000000,1970-01-01 00:00:00.000000001,open,1,ansible: forked processes do not benefit from precompiled imports
+180,2018-04-01 04:59:31.000000000,2018-04-01 13:31:50.000000000,closed,1,Switch to using unit2 test runner
+179,2018-03-31 23:38:15.000000000,2018-05-12 01:19:25.000000000,closed,34,core: startup hang due to reaping first stage before draining core_src pipe
+178,2018-03-31 17:45:17.000000000,2018-04-10 04:08:48.000000000,closed,3,Reimplement minimize_source() using tokenize
+177,2018-03-30 14:49:49.000000000,2018-04-01 19:01:05.000000000,closed,5,AttributeError: 'NoneType' object has no attribute 'endswith' in copy task
+175,2018-03-30 06:07:55.000000000,2018-03-30 10:16:21.000000000,closed,1,Use become_pass for sudo password
+174,2018-03-30 00:23:25.000000000,2018-03-30 01:19:04.000000000,closed,4,Hang from apt_repository command
+173,2018-03-30 00:15:52.000000000,2018-03-30 00:19:40.000000000,closed,5,"ERROR! Unexpected Exception, this is probably a bug: 'module' object has no attribute 'StrategyModule'"
+172,2018-03-29 22:25:45.000000000,2018-03-30 03:33:16.000000000,closed,2,verbosity=1 triggers mitogen debug logging to console
+168,2018-03-26 01:15:19.000000000,2018-03-26 10:00:08.000000000,closed,1,Ansible 2.5 Compatibility
+167,2018-03-26 01:02:36.000000000,2018-03-26 16:50:56.000000000,closed,1,Add testimonial from Clojars
+156,2018-03-18 23:28:41.000000000,2018-03-20 19:33:59.000000000,closed,24,core: Latch.get() multiple race conditions
+154,2018-03-18 19:00:18.000000000,2018-03-18 21:09:44.000000000,closed,3,yum_repository in item loops causes repo duplication when used with mitogen
+152,2018-03-17 23:09:44.000000000,2018-03-18 23:13:03.000000000,closed,9,Setting ansible_python_interpreter within a play doesn't work
+150,2018-03-16 04:02:28.000000000,2018-03-17 19:51:39.000000000,closed,21,ansible: deadlock due to forking with logging.Handler lock held
+143,2018-03-14 09:42:56.000000000,2018-04-09 18:05:02.000000000,closed,2,sudo: failure handling could be more robust
+142,2018-03-14 04:26:46.000000000,2018-03-14 18:33:33.000000000,closed,1,tests: Add Tox config for Python 2.6 and 2.7
+141,2018-03-14 00:25:20.000000000,2018-03-14 20:22:18.000000000,closed,7,ansible: sudo connection timeout parameter is not respected
+140,2018-03-13 19:10:26.000000000,2018-03-14 20:19:26.000000000,closed,13,Ansible synchronize action plug-in fails to call Connection.close()
+139,2018-03-13 16:45:49.000000000,2018-03-16 03:37:53.000000000,closed,20,core: Extremely poor IO multiplexer throughput for large messages
+137,2018-03-13 00:13:57.000000000,2018-03-14 18:34:06.000000000,closed,0,tests: Fix no such option -o running FakeSsh.test_okay()
+136,2018-03-13 00:02:18.000000000,1970-01-01 00:00:00.000000001,open,0,master: ModuleFinder.is_stdlib_name() excludes sys.exec_prefix
+134,2018-03-12 17:55:37.000000000,2018-05-02 21:12:53.000000000,closed,3,SSH connections time out when you need to accept a fingerprint
+133,2018-03-12 17:52:11.000000000,2018-03-19 20:15:44.000000000,closed,1,Fixed documentation error for async operation
+131,2018-03-11 20:36:40.000000000,2018-03-16 00:00:13.000000000,closed,21,"mitogen crashed with ""error: unpack requires a string argument of length 12"""
+130,2018-03-11 03:39:50.000000000,2018-03-12 23:43:26.000000000,closed,5,WIP: Flesh out comparisons to other projects
+129,2018-03-11 02:35:57.000000000,2018-03-11 02:53:28.000000000,closed,1,https all the things
+128,2018-03-11 02:03:05.000000000,2018-03-11 02:53:29.000000000,closed,1,docs: stats tracking fails on https://
+126,2018-03-10 23:06:38.000000000,1970-01-01 00:00:00.000000001,open,16,core: Investigate pickle and alternatives
+125,2018-03-10 22:26:38.000000000,2018-03-11 00:55:09.000000000,closed,8,TimeoutError on OSX Vagrant
+122,2018-03-10 17:38:34.000000000,1970-01-01 00:00:00.000000001,open,9,ansible: environment difference while running debops playbooks
+121,2018-03-09 04:59:10.000000000,2018-03-12 19:13:45.000000000,closed,3,ImportError: Master does not have 'termios'
+120,2018-03-09 02:42:41.000000000,2018-03-11 03:52:20.000000000,closed,1,WIP: Miscellaneous test suite fixes
+119,2018-03-09 02:13:16.000000000,2019-01-26 09:25:25.000000000,closed,2,Detect and address Python 2.4 incompatibilities
+118,2018-03-08 19:19:12.000000000,2018-03-08 19:38:57.000000000,closed,7,Permission denied in /tmp/ansible-mitogen-tmp-*
+116,2018-03-08 14:06:44.000000000,2018-03-12 17:11:40.000000000,closed,1,Place to Congregate
+115,2018-03-08 14:04:07.000000000,2018-03-23 05:18:20.000000000,closed,3,Entrypoint Suggestions for Development
+114,2018-03-07 20:51:24.000000000,2018-03-08 07:43:20.000000000,closed,6,Mitogen fails on Ubuntu 16.04
+113,2018-03-07 19:34:55.000000000,2018-03-08 05:38:45.000000000,closed,6,ansible: CookieJar / LWPCookieJar class incompatibily while using the uri module.
+110,2018-03-07 17:52:34.000000000,2018-03-10 17:42:11.000000000,closed,40,Broker thread crashes on debops playbook
+109,2018-03-07 16:52:45.000000000,2018-03-08 19:19:56.000000000,closed,26,Can't gather facts when running seperate Task.
+108,2018-03-07 14:51:20.000000000,2018-03-07 15:14:30.000000000,closed,2,Make -S Option available in sudo.py module
+107,2018-03-06 09:00:33.000000000,2018-03-12 23:45:18.000000000,closed,6,Code golf some bytes from first stage and preamble stage
+99,2018-02-27 04:40:22.000000000,2018-02-27 13:25:35.000000000,closed,2,Test and document semantics of is_blacklisted_module()
+98,2018-02-27 03:38:29.000000000,2018-02-27 13:13:49.000000000,closed,1,Clarification: Should Importer blacklist __builtin__ or __builtins__
+97,2018-02-26 04:08:23.000000000,2018-03-22 03:29:22.000000000,closed,1,LoadSubmoduleTest and other mitogen.core.Importer tests deadlock
+96,2018-02-26 03:57:48.000000000,2018-03-21 09:25:15.000000000,closed,1,Timeouts in test.sh obscure deadlocks
+95,2018-02-26 03:51:23.000000000,2018-02-27 13:27:41.000000000,closed,2,Address lgtm.com warnings
+94,2018-02-26 02:04:09.000000000,2018-02-27 13:29:58.000000000,closed,0,core: Correct naming of Stream.sent_modules
+93,2018-02-23 02:42:17.000000000,2018-02-25 20:58:11.000000000,closed,4,Use Python 2.4 compatible module import
+92,2018-02-23 02:32:41.000000000,2018-02-25 20:58:11.000000000,closed,1,import mitogen raises SyntaxError on Python 2.4.x
+91,2018-02-22 04:19:41.000000000,1970-01-01 00:00:00.000000001,open,5,"Idea: Unify mitogen.is_master, mitogen.parent_ids, ..."
+90,2018-02-20 03:01:38.000000000,2018-02-27 13:29:58.000000000,closed,0,core.Stream.modules_sent vs parent.Stream.sent_modules
+89,2018-02-20 02:13:43.000000000,2018-02-20 11:00:56.000000000,closed,1,Fixup module_finder_tests
+88,2018-02-19 04:40:41.000000000,2018-02-20 11:00:56.000000000,closed,1,FindRelatedImportsTest expect values appear to be wrong
+87,2018-02-19 02:20:23.000000000,2018-02-19 02:23:02.000000000,closed,1,"ModuleFinder: Get stdlib paths by sys.prefix, sys.real_prefix etc."
+86,2018-02-19 00:42:09.000000000,2018-02-19 02:23:02.000000000,closed,5,ModuleFinder().is_stdlib_name('email') == False inside a VirtualEnv
+85,2018-02-17 19:22:50.000000000,2018-02-18 06:57:51.000000000,closed,12,ansible_mitogen strategy not installed by pip
+83,2018-02-15 04:31:49.000000000,2018-02-15 04:39:59.000000000,closed,1,Fix lingering references to mitogen.core.Receiver.get_data()
+82,2018-02-15 04:04:39.000000000,2018-02-15 04:41:05.000000000,closed,2,Fix TypeError while initiliazing ImporterMixin
+81,2018-02-15 03:54:25.000000000,2018-02-15 04:39:49.000000000,closed,0,FIx syntax error in FindRelatedImportsTest.test_django_db_models
+80,2018-02-15 03:52:10.000000000,2018-02-15 04:41:25.000000000,closed,1,Fix/split test_master tests following split of mitogen.master -> mitogen.parent
+79,2018-02-15 02:13:15.000000000,2018-02-15 04:41:42.000000000,closed,0,Fix indentation of Router.route anchor
+71,2017-12-03 01:42:00.000000000,2018-07-27 06:05:58.000000000,closed,10,master: cfmakeraw() sets different flags to those documented for termios(3)
+70,2017-11-28 00:55:26.000000000,2017-11-28 13:03:52.000000000,closed,1,master: Why does create_child() call os.dup() in the parent process?
+69,2017-11-23 03:49:13.000000000,1970-01-01 00:00:00.000000001,open,9,fakessh: Queries/potential problems
+68,2017-11-20 00:51:39.000000000,2018-02-13 18:06:57.000000000,closed,9,mitogen.core.Router._loop_once() passes sets to select.select()
+67,2017-11-12 05:12:18.000000000,2017-11-12 10:30:45.000000000,closed,1,Should Stream._connect_bootstrap() return anything?
+66,2017-11-12 04:37:39.000000000,2017-11-12 10:08:37.000000000,closed,1,Replace all calls to file() with open()
+65,2017-11-12 04:14:01.000000000,2017-11-12 19:24:23.000000000,closed,3,Use unittest2 and specific assertX methods
+64,2017-10-30 17:44:06.000000000,2017-11-12 19:24:23.000000000,closed,1,RFC: Use unittest2 for tests?
+63,2017-10-30 16:16:19.000000000,2017-10-30 16:26:26.000000000,closed,1,Prevent MacOS exception on shutdown of closed socket.
+62,2017-10-30 16:14:52.000000000,2017-10-30 16:27:06.000000000,closed,1,[PyCon UK 2017 Sprint] Describe the installation and test process
+61,2017-10-30 14:56:48.000000000,2019-01-21 00:50:29.000000000,closed,1,Investigate alerts found by lgtm.com
+60,2017-10-30 14:39:12.000000000,2017-10-30 14:40:34.000000000,closed,1,Fix getting the directory path on Mac OS X.
+59,2017-10-24 04:10:37.000000000,2017-10-26 20:26:08.000000000,closed,1,fakessh: Remove colon causing SyntaxError
+58,2017-10-24 04:07:56.000000000,2017-10-26 20:26:08.000000000,closed,0,Syntax error in mitogen.fakessh.Process.wait()
+57,2017-10-24 00:55:45.000000000,2017-10-26 20:46:56.000000000,closed,1,cfmakeraw: TypeError: 'list' object is not callable
+56,2017-10-24 00:31:09.000000000,2017-11-12 19:31:05.000000000,closed,5,Upload a working version to pypi
+55,2017-10-23 01:25:40.000000000,2017-10-23 13:56:48.000000000,closed,2,fakessh.Process.wake() can never return on Python < 2.7
+54,2017-10-20 22:50:21.000000000,2017-10-26 20:27:13.000000000,closed,1,tests: Fix GetModuleViaPkgutilTest fetching .pyc
+53,2017-10-18 03:39:13.000000000,2017-10-18 09:27:51.000000000,closed,4,Code golf Stream._first_stage()
+52,2017-10-15 23:37:30.000000000,2017-10-16 15:44:26.000000000,closed,1,ssh_test: Fix race condition seen on Ubuntu 17.10
+51,2017-10-10 04:21:33.000000000,2017-10-16 15:44:26.000000000,closed,2,SshTest: ssh_exchange_identification: Connection closed by remote host
+50,2017-10-10 01:05:46.000000000,2017-10-16 15:46:41.000000000,closed,0,testlib: Auto negotiate Docker API version
+49,2017-10-09 02:20:01.000000000,2017-10-16 16:06:11.000000000,closed,2,Compress the bootstrap/first stage code
+48,2017-10-08 17:33:29.000000000,2017-10-08 17:37:40.000000000,closed,0,Setup: fix package name and add Trove classifiers
+47,2017-10-07 02:33:11.000000000,2017-10-07 13:55:47.000000000,closed,1,Add mock requirement
+46,2017-10-05 03:26:43.000000000,2017-10-05 03:34:10.000000000,closed,3,DockerizedSshDaemon requires Docker >= 1.13 (API >= 1.25)
+45,2017-10-05 02:31:26.000000000,2017-10-05 02:42:20.000000000,closed,1,"Fix ""hook uses deprecated __multicall__ argument"" warning"
+43,2017-09-30 01:33:42.000000000,2017-10-08 17:37:40.000000000,closed,3,installing mitogen
+41,2017-09-27 08:28:38.000000000,2017-11-12 19:33:00.000000000,closed,3,remote execution
+35,2017-09-21 23:13:17.000000000,2017-09-22 01:24:05.000000000,closed,4,Fix some PyLint errors
+32,2017-09-17 23:15:33.000000000,2017-09-18 13:04:22.000000000,closed,1,mitogen.core.Channel calls Sender.__init_ (missing underscore?)
+15,2017-09-08 21:33:52.000000000,1970-01-01 00:00:00.000000001,open,1,core: asynchronous connect

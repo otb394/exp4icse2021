@@ -1,0 +1,1011 @@
+id,created_at,closed_at,state,comments,title
+1013,2020-08-31 19:09:33.000000000,1970-01-01 00:00:00.000000001,open,0,The Connection class now implements IRequestHandler
+1012,2020-08-31 17:55:24.000000000,2020-08-31 23:51:29.000000000,closed,0,Rework generated code for return+out in C#
+1011,2020-08-28 21:14:01.000000000,2020-08-31 18:07:04.000000000,closed,1,Support for cancelling dispatch with Ice2/Slic
+1010,2020-08-28 00:55:14.000000000,2020-08-28 19:15:47.000000000,closed,0,Refactor handling of parameters and return values in slice2cs
+1009,2020-08-27 20:42:48.000000000,2020-08-28 21:05:35.000000000,closed,2,Initial implementation of the Slic transport for Ice2
+1008,2020-08-27 04:00:44.000000000,2020-08-31 22:46:28.000000000,closed,0,Unnamed return types are now implicitely named 'returnValue'.
+1007,2020-08-27 01:01:13.000000000,2020-08-28 19:22:05.000000000,closed,0,Cleanup C# TestHelper
+1006,2020-08-26 22:26:22.000000000,2020-08-27 00:32:34.000000000,closed,0,Remove Ice.Default.Transport
+1005,2020-08-26 13:15:36.000000000,2020-08-27 11:03:46.000000000,closed,0,Fixes to run service tests with SSL when --all is used
+1004,2020-08-26 13:12:13.000000000,1970-01-01 00:00:00.000000001,open,0,Service tests no longer run with SSL
+1003,2020-08-22 22:48:42.000000000,2020-08-24 20:40:41.000000000,closed,0,Simplify OutgoingFrame
+1002,2020-08-22 00:12:10.000000000,2020-08-24 20:06:18.000000000,closed,0,Protocol bridging fixes
+1001,2020-08-21 19:27:04.000000000,2020-08-21 21:55:30.000000000,closed,0,Rework Payload and Encapsulation
+1000,2020-08-20 21:27:57.000000000,2020-08-21 13:34:14.000000000,closed,7,Add factory parameter to all Clone overloads
+999,2020-08-20 07:28:08.000000000,2020-08-21 00:23:45.000000000,closed,0,Request context improvements
+998,2020-08-19 22:25:42.000000000,2020-08-21 19:13:31.000000000,closed,0,Split Object Adapter creation into two paths
+997,2020-08-19 20:27:37.000000000,1970-01-01 00:00:00.000000001,open,0,Sort communicator optional parameters in alphabetical order.
+996,2020-08-19 19:04:04.000000000,2020-08-24 19:56:14.000000000,closed,0,Added Return Tuple Syntax
+995,2020-08-19 08:24:00.000000000,2020-08-27 14:36:19.000000000,closed,2,Forward declaration of sequences
+994,2020-08-19 00:24:18.000000000,2020-08-19 18:43:13.000000000,closed,0,Add protocol bridging to ForwardAsync
+993,2020-08-18 23:06:00.000000000,2020-08-19 18:47:59.000000000,closed,0,Simplifying Grammar for Return Tuples
+992,2020-08-17 20:48:44.000000000,2020-08-19 11:57:57.000000000,closed,1,Trace cleanup
+991,2020-08-17 16:33:12.000000000,2020-08-17 18:13:58.000000000,closed,0,Make incoming request Context read write
+990,2020-08-14 22:12:47.000000000,2020-08-19 21:00:07.000000000,closed,0,Add C# dispatch/invocation interceptors
+989,2020-08-14 18:43:21.000000000,2020-08-14 22:22:04.000000000,closed,0,Remove Ice.Default.Protocol & Ice.Default.Encoding
+988,2020-08-13 00:01:04.000000000,2020-08-14 14:44:41.000000000,closed,0,Transport cleanup
+987,2020-08-12 22:16:06.000000000,2020-08-13 11:39:35.000000000,closed,2,Add StringUtil.JoinString helper method
+986,2020-08-12 18:13:32.000000000,2020-08-12 19:58:16.000000000,closed,0,Avoid copy data when coverting a single item list of ArraySegment
+985,2020-08-12 03:11:25.000000000,2020-08-13 01:50:40.000000000,closed,0,Small cleanup in C#
+984,2020-08-07 00:37:26.000000000,2020-08-11 21:12:24.000000000,closed,0,Add binary context for Ice2
+983,2020-08-05 01:48:47.000000000,2020-08-07 01:27:50.000000000,closed,0,Remove Communicator.DefaultFormat in C#
+982,2020-08-04 03:01:11.000000000,2020-08-04 17:23:12.000000000,closed,0,Removed support for tagged classes
+981,2020-08-02 15:19:41.000000000,1970-01-01 00:00:00.000000001,open,0,Should we test the various metadata combinations. Eg:
+980,2020-08-01 01:37:29.000000000,2020-08-03 21:41:37.000000000,closed,0,Replace ReplyStatus by ResultType in ice2 response frames
+979,2020-07-31 15:02:33.000000000,2020-08-04 20:00:33.000000000,closed,0,Gzip compression
+978,2020-07-29 20:26:44.000000000,2020-07-30 23:16:04.000000000,closed,0,Remove Ice.Default.Host from C#
+977,2020-07-29 00:54:45.000000000,2020-07-29 20:01:26.000000000,closed,0,New public Read API for byte buffers encoded using the Ice encoding
+976,2020-07-27 21:24:01.000000000,2020-07-31 22:43:43.000000000,closed,3,Removed ParamDecl and Simplied Data Member Containers
+975,2020-07-26 19:53:44.000000000,2020-07-27 20:16:59.000000000,closed,0,Use ReadOnlyMemory<byte> in InputStream and misc cleanup
+974,2020-07-25 02:48:07.000000000,2020-07-27 19:43:00.000000000,closed,0,Move ice1 format parsing into Ice1Format helper class
+973,2020-07-24 13:25:29.000000000,2020-07-24 23:33:47.000000000,closed,0,Cleanup endpoint timeout and compression settings
+972,2020-07-23 20:09:30.000000000,2020-07-23 22:09:40.000000000,closed,0,Read connection configuration during initialization
+971,2020-07-23 19:57:15.000000000,2020-07-24 00:54:32.000000000,closed,1,URI parsing for OA Endpoints in C#
+970,2020-07-23 19:51:38.000000000,2020-07-24 18:58:49.000000000,closed,1,Improvements to GetPropertyAsBool
+969,2020-07-23 19:35:40.000000000,2020-07-24 01:23:33.000000000,closed,0,Replace MessageSizeMax with IncomingFrameSizeMax
+968,2020-07-23 12:57:03.000000000,1970-01-01 00:00:00.000000001,open,1,C# Ice/threading test hangs on Windows
+967,2020-07-23 01:59:12.000000000,2020-07-23 12:45:04.000000000,closed,0,Test cleanup
+966,2020-07-22 17:48:32.000000000,2020-07-23 16:44:12.000000000,closed,0,Added binary connection support to split the support for ice1/ice2
+965,2020-07-21 20:45:35.000000000,2020-07-21 23:25:35.000000000,closed,1,Update C# analyzers and fix new warnings in sources
+964,2020-07-20 19:24:57.000000000,2020-07-21 18:18:17.000000000,closed,2,Enclosing name case
+963,2020-07-20 17:25:00.000000000,2020-07-21 19:42:20.000000000,closed,0,New URI format to proxy and identity ToString in C#
+962,2020-07-18 02:13:59.000000000,2020-07-18 21:50:24.000000000,closed,0,Make normalize-case the default for C#
+961,2020-07-17 00:15:33.000000000,2020-07-17 11:38:46.000000000,closed,2,shutdown deadlock
+960,2020-07-16 19:09:35.000000000,2020-07-17 02:32:28.000000000,closed,1,Add GetPropertyAsByteSize
+959,2020-07-16 14:24:55.000000000,2020-07-16 15:59:54.000000000,closed,0,Fixed the connection factories to implement IAsyncDisposable
+958,2020-07-16 00:59:35.000000000,2020-07-17 23:33:47.000000000,closed,0,Bump lodash from 4.17.15 to 4.17.19 in /js
+957,2020-07-15 23:17:58.000000000,2020-07-16 12:12:29.000000000,closed,0,Additional ACM fixes and added IConnectionFactory
+956,2020-07-15 22:36:18.000000000,2020-07-16 11:23:36.000000000,closed,0,Fix for connection reuse failure from Ice/binding test
+955,2020-07-15 19:37:14.000000000,2020-07-16 18:34:45.000000000,closed,2,New URI format for proxies in C#
+954,2020-07-15 00:41:37.000000000,2020-07-16 12:48:13.000000000,closed,0,Fix test analyzers warnings
+953,2020-07-14 15:43:00.000000000,2020-07-15 20:30:49.000000000,closed,0,Replace close and heartbeat callbacks by event handlers
+952,2020-07-13 21:33:44.000000000,2020-07-15 19:21:41.000000000,closed,0,More Parser Cleaning
+951,2020-07-11 00:45:20.000000000,2020-07-13 21:51:49.000000000,closed,1,2.0 encoding for endpoints (C#)
+950,2020-07-10 19:43:27.000000000,2020-07-13 14:23:44.000000000,closed,0,Connection timeout and compress override removal
+949,2020-07-10 00:56:28.000000000,2020-07-15 15:33:42.000000000,closed,2,Add lifecycle Async operations to Communicator and ObjetAdapter
+948,2020-07-07 21:16:15.000000000,2020-07-08 13:03:31.000000000,closed,0,Unify Connection.State and ConnectionState definitions
+947,2020-07-07 17:28:28.000000000,2020-07-07 20:34:39.000000000,closed,1,Add GetPropertyAsEnum
+946,2020-07-06 20:08:43.000000000,2020-07-08 00:57:52.000000000,closed,5,Add class cycle detection during unmarshaling
+945,2020-07-06 18:53:32.000000000,2020-07-06 19:52:18.000000000,closed,0,Moved the connection ID from the endpoint to the connection class
+944,2020-07-06 16:41:06.000000000,2020-07-06 19:30:04.000000000,closed,0,Discovery timespan
+943,2020-07-06 15:58:11.000000000,2020-07-07 13:37:03.000000000,closed,2,Use TimeSpan for ACM configuration
+942,2020-07-02 17:06:47.000000000,2020-07-03 01:57:30.000000000,closed,0,Logger cleanup
+941,2020-07-02 15:15:10.000000000,2020-07-03 14:11:44.000000000,closed,0,Preserve exception stack when unwrap InnerException
+940,2020-07-01 21:34:41.000000000,2020-07-03 18:53:54.000000000,closed,1,Rework TLS transport configuration
+939,2020-07-01 21:11:36.000000000,2020-07-03 11:06:54.000000000,closed,1,Connection factory simplifications
+938,2020-07-01 20:36:12.000000000,2020-07-01 23:05:54.000000000,closed,0,Remove Communicator from incoming frames in C#
+937,2020-06-30 19:46:43.000000000,2020-07-07 20:41:13.000000000,closed,3,Slice Parser Reworking
+936,2020-06-30 19:45:47.000000000,2020-07-01 18:41:38.000000000,closed,1,Remove ability to disable colocation optimization in C#
+935,2020-06-30 19:36:22.000000000,1970-01-01 00:00:00.000000001,open,0,Testing certificate revokation
+934,2020-06-30 18:12:34.000000000,1970-01-01 00:00:00.000000001,open,0,"JavaScript default protocol for browsers should be ""ws"""
+933,2020-06-30 00:32:34.000000000,2020-06-30 18:36:11.000000000,closed,1,Remove Current.RequestId in C#
+932,2020-06-29 21:00:22.000000000,2020-06-29 22:52:24.000000000,closed,0,Fixed issue where GracefulCloseAsync could return prematurely
+931,2020-06-27 03:12:28.000000000,2020-06-29 20:17:03.000000000,closed,0,Initial implementation of ice2 in C#
+930,2020-06-26 01:13:17.000000000,2020-06-29 20:05:08.000000000,closed,2,Ssl connection info
+929,2020-06-25 22:08:27.000000000,2020-06-25 23:57:53.000000000,closed,2,More TimeSpan conversion improvements
+928,2020-06-25 19:23:08.000000000,2020-06-30 21:45:04.000000000,closed,2,Fix to return a task with a non-nullable IncomingResponseFrame from SendRequestAsync
+927,2020-06-25 16:46:47.000000000,2020-06-25 18:10:20.000000000,closed,0,Copy python dependencies to the extension directory
+926,2020-06-25 01:43:31.000000000,2020-06-25 18:10:22.000000000,closed,1,Python3.8 Windows DLL loading
+925,2020-06-24 23:46:32.000000000,2020-06-25 21:18:14.000000000,closed,2,Merge Ssl and Tcp endpoints 
+924,2020-06-24 21:40:15.000000000,2020-06-25 17:47:46.000000000,closed,0,Request cancellation improvements and optimization for synchronous request
+923,2020-06-24 01:49:22.000000000,2020-06-24 18:47:23.000000000,closed,0,Dictionary fixes in C#
+922,2020-06-24 00:51:14.000000000,2020-06-24 20:18:03.000000000,closed,3,Connection info removal
+921,2020-06-22 18:58:06.000000000,1970-01-01 00:00:00.000000001,open,0,C# Ice/binding test failure
+920,2020-06-22 18:55:47.000000000,1970-01-01 00:00:00.000000001,open,0,C# Ice/interceptor test failure
+919,2020-06-22 18:54:01.000000000,1970-01-01 00:00:00.000000001,open,0,C# IceBox/admin shutdown failure
+918,2020-06-22 18:50:19.000000000,1970-01-01 00:00:00.000000001,open,0,C# Ice/ami test failure on master (4.0)
+917,2020-06-22 18:12:00.000000000,2020-06-23 20:52:51.000000000,closed,0,Unchecked enum
+916,2020-06-21 03:16:48.000000000,2020-06-22 17:43:30.000000000,closed,1,Restore 3.7 unmarshaling behavior for tagged data members ...
+915,2020-06-21 01:03:58.000000000,2020-06-22 23:38:25.000000000,closed,0,More Endpoint refactoring in C#
+914,2020-06-20 23:56:11.000000000,1970-01-01 00:00:00.000000001,open,9,Add read/write specializations for C# System.ArraySegment
+913,2020-06-19 16:34:01.000000000,2020-06-23 19:54:31.000000000,closed,2,LocatorInfo/RouterInfo cleanup
+912,2020-06-19 07:49:08.000000000,2020-06-19 23:57:40.000000000,closed,5,Add C# ArraySegment as an available generic container
+911,2020-06-18 22:28:28.000000000,2020-06-19 02:18:50.000000000,closed,0,Replaced some Asserts by throws
+910,2020-06-18 19:51:05.000000000,2020-06-19 22:49:09.000000000,closed,2,Add GetPropertyAsTimeSpan in C#
+909,2020-06-18 18:21:47.000000000,2020-06-23 22:15:47.000000000,closed,1,Refactor Ice metrics to not use reflection
+908,2020-06-18 18:20:15.000000000,2020-06-18 18:56:53.000000000,closed,0,Fixed connection deadlock
+907,2020-06-18 02:16:59.000000000,2020-06-18 03:32:38.000000000,closed,0,Move 11 and 20 to always be a suffix
+906,2020-06-17 16:11:37.000000000,1970-01-01 00:00:00.000000001,open,0,Bogus name for metrics Request Id filed 
+905,2020-06-17 01:28:20.000000000,2020-06-23 23:37:04.000000000,closed,4,Connection info refactoring
+904,2020-06-16 20:50:38.000000000,1970-01-01 00:00:00.000000001,open,8,C# send byte array from ArrayPool<byte>
+903,2020-06-15 23:42:25.000000000,2020-06-17 00:00:27.000000000,closed,0,Improve class marshaling with the 2.0 encoding
+902,2020-06-15 18:21:39.000000000,2020-06-22 11:41:08.000000000,closed,5,Fixed remote logger to no longer rely on serialization of Async invocations
+901,2020-06-15 14:02:23.000000000,2020-06-16 13:14:35.000000000,closed,0,Removed Outgoing classes and fixed the connection code to use async/await for sending
+900,2020-06-13 00:30:49.000000000,2020-06-15 19:43:38.000000000,closed,0,"Remove CheckCertName property, always check server certificate name"
+899,2020-06-13 00:21:39.000000000,2020-06-15 20:41:11.000000000,closed,5,Stop ignoring errors when IceSSl.VerifyPeer is set to 0
+898,2020-06-12 23:48:00.000000000,2020-06-13 00:39:31.000000000,closed,0,"Remove support for drepcated ""IceSSL.FindCert.*"" properties"
+897,2020-06-12 14:01:49.000000000,2020-06-15 20:48:30.000000000,closed,0,Add support for local certificate selection callback 
+896,2020-06-12 01:27:33.000000000,2020-06-12 19:16:35.000000000,closed,0,Remove support for old SSL/TLS protocols
+895,2020-06-11 12:47:49.000000000,2020-06-11 21:54:42.000000000,closed,2,Replace ICertificateVerifier by .NET native validation callback
+894,2020-06-11 00:43:13.000000000,2020-06-12 19:05:35.000000000,closed,0,Cleanup Glacier2 session helper classes
+893,2020-06-10 19:55:08.000000000,2020-06-10 20:06:02.000000000,closed,0,python -m slice2py does not work
+892,2020-06-10 17:56:32.000000000,2020-06-12 22:39:56.000000000,closed,3,Refactor IceLocatorDiscovery plug-in
+891,2020-06-10 01:47:52.000000000,2020-06-10 19:27:09.000000000,closed,2,Move icediscovery to core
+890,2020-06-10 00:56:16.000000000,2020-06-10 18:36:18.000000000,closed,0,Data members with optional types in C#
+889,2020-06-09 17:08:10.000000000,1970-01-01 00:00:00.000000001,open,0,Incorrect generated code for optional (tagged) data members of exceptions in C#
+888,2020-06-09 06:01:51.000000000,2020-06-09 22:19:46.000000000,closed,0,Simplify data member marshaling/unmarshaling in C#
+887,2020-06-09 00:29:28.000000000,2020-06-09 12:22:49.000000000,closed,1,Use a private class + static instance for proxy equality comparers
+886,2020-06-08 20:31:41.000000000,2020-06-09 22:19:09.000000000,closed,6,Underlying type for enum + tagged uint/varint
+885,2020-06-06 01:25:41.000000000,2020-06-10 19:29:59.000000000,closed,1,Added AnyClass keyword as replacement for Value
+884,2020-06-06 00:24:36.000000000,2020-06-06 05:17:35.000000000,closed,0,Removed 'typeid-namespace' metadata from C# mapping.
+883,2020-06-05 23:55:27.000000000,2020-06-09 18:04:47.000000000,closed,0,Finished moving C# tests into unique namespaces.
+882,2020-06-05 03:10:55.000000000,2020-06-08 19:07:45.000000000,closed,8,Icediscovery simplification
+881,2020-06-05 01:00:10.000000000,2020-06-05 01:49:26.000000000,closed,0,slice2cs Compiler Additionally Generates AMD-only Servant
+880,2020-06-04 20:07:45.000000000,2020-06-05 00:19:34.000000000,closed,0,Add support for dictionary with optional/nullable values in C#
+879,2020-06-04 14:28:45.000000000,2020-06-04 22:34:16.000000000,closed,2,Ssl plugin integration
+878,2020-06-04 01:41:17.000000000,2020-06-04 17:10:25.000000000,closed,0,Removed ofNullables/ofNullableValues dummy parameters
+877,2020-06-03 07:25:40.000000000,2020-06-04 19:08:17.000000000,closed,0,Separate C# Tests into Unique Namespaces
+876,2020-06-03 03:16:50.000000000,2020-06-03 18:05:28.000000000,closed,0,Simplify InputStream and OutputStream method names in C#
+875,2020-06-02 22:31:39.000000000,2020-06-03 19:59:12.000000000,closed,2,Transport instance removal
+874,2020-06-02 00:43:51.000000000,2020-06-02 21:46:27.000000000,closed,0,sequence<T?> marshaling in C#
+873,2020-05-30 00:14:46.000000000,1970-01-01 00:00:00.000000001,open,0,Replace 'return 0' with 'return nullptr' in the Slice compilers
+872,2020-05-30 00:14:43.000000000,1970-01-01 00:00:00.000000001,open,0,Improve Slice compiler error handling
+871,2020-05-29 14:23:13.000000000,2020-06-01 12:36:13.000000000,closed,3,Move process logger getter and setter to the Runtime static class
+870,2020-05-29 14:01:13.000000000,2020-05-29 20:56:03.000000000,closed,0,Fix Communicator to not use lock (this) pattern
+869,2020-05-29 13:07:20.000000000,2020-05-30 01:23:27.000000000,closed,1,C# IceDiscovery plug-in cleanup
+868,2020-05-28 19:51:41.000000000,2020-05-29 18:26:54.000000000,closed,1,Initial implementation of marshaling/unmarshaling for optional types in C#
+867,2020-05-28 02:04:32.000000000,2020-05-30 00:59:59.000000000,closed,4,Reduce reserved identifier errors to warnings
+866,2020-05-28 01:21:05.000000000,2020-05-28 21:22:53.000000000,closed,0,Move IceSSL plug-in to ZeroC.Ice namespace
+865,2020-05-27 14:56:40.000000000,2020-05-27 18:51:37.000000000,closed,0,Remove IceInternal and IceUtilInternal namespaces
+864,2020-05-24 19:59:11.000000000,2020-05-27 00:06:30.000000000,closed,0,Update Slice parser with Optional and InterfaceDecl/InterfaceDef
+863,2020-05-24 11:16:59.000000000,1970-01-01 00:00:00.000000001,open,6,Ice.ConnectionRefusedException when using an android emulator
+862,2020-05-24 01:26:58.000000000,2020-05-25 11:51:36.000000000,closed,2,Move IceSSL plug-in to Ice library
+861,2020-05-20 01:36:41.000000000,1970-01-01 00:00:00.000000001,open,0,JavaScript browser testing failure after restart test controller
+860,2020-05-20 00:10:37.000000000,2020-05-20 12:26:06.000000000,closed,1,IceGrid/replication failures
+859,2020-05-19 22:39:13.000000000,2020-05-20 11:41:15.000000000,closed,1,Ice/retry failure
+858,2020-05-19 20:53:30.000000000,1970-01-01 00:00:00.000000001,open,1,Connection exceptions displayed twice in the log
+857,2020-05-19 13:20:58.000000000,1970-01-01 00:00:00.000000001,open,6, what is the difference between using ice and using websocket only to receive server data
+856,2020-05-19 01:59:06.000000000,1970-01-01 00:00:00.000000001,open,0,Protocol tracing and connection information
+855,2020-05-18 21:32:10.000000000,2020-05-19 17:17:56.000000000,closed,0,Containers can share names with enclosing modules
+854,2020-05-18 15:30:55.000000000,2020-05-19 14:19:29.000000000,closed,0,Rework C# tracing
+853,2020-05-18 13:03:39.000000000,1970-01-01 00:00:00.000000001,open,0,Encoding not checked when resolving a well-known proxy from the locator cache
+852,2020-05-15 03:51:32.000000000,2020-05-15 21:23:47.000000000,closed,2,Update 2.0 encoding for encapsulation
+851,2020-05-14 12:18:28.000000000,2020-05-15 20:22:37.000000000,closed,1,Endpoint host resolver thread removal
+850,2020-05-14 01:20:24.000000000,2020-05-15 16:31:30.000000000,closed,0,Ice/retry test failure
+849,2020-05-14 00:38:19.000000000,2020-05-14 20:52:52.000000000,closed,0,Update 2.0 encoding for size
+848,2020-05-13 15:21:43.000000000,1970-01-01 00:00:00.000000001,open,0,Ice/ami test client crash
+847,2020-05-12 18:00:57.000000000,2020-05-13 22:09:03.000000000,closed,1,Generate nested namespaces in C#
+846,2020-05-12 13:02:52.000000000,2020-05-13 17:45:51.000000000,closed,2,Thread pool removal
+845,2020-05-11 22:46:32.000000000,1970-01-01 00:00:00.000000001,open,0,Quotation marks aren't parsed correctly in unquoted metadata
+844,2020-05-11 21:44:30.000000000,2020-05-12 18:48:08.000000000,closed,1,Implement marshaling of new integer types in C#
+843,2020-05-11 16:02:12.000000000,2020-05-11 16:16:22.000000000,closed,0,Glacier2/dynamicFiltering test failure
+842,2020-05-10 01:19:21.000000000,2020-05-11 00:50:17.000000000,closed,0,Optimize marshaling of small strings in C#
+841,2020-05-09 05:28:43.000000000,2020-05-12 17:36:11.000000000,closed,2,Nested Module Syntax Support
+840,2020-05-07 00:24:11.000000000,2020-05-07 18:57:57.000000000,closed,0,Refactor endpoint factory registration and lookup in C#
+839,2020-05-06 23:56:13.000000000,1970-01-01 00:00:00.000000001,open,0,Test IceDiscovery randomize proxy adapterId
+838,2020-05-06 22:02:48.000000000,2020-05-13 17:58:20.000000000,closed,6,Simplify C# random sort
+837,2020-05-06 21:19:09.000000000,1970-01-01 00:00:00.000000001,open,0,Class cycle operation metadata for languages without GC
+836,2020-05-05 22:41:56.000000000,2020-05-11 22:29:53.000000000,closed,10,Quoteless metadata
+835,2020-05-05 20:19:41.000000000,2020-05-06 00:47:13.000000000,closed,0,Fix Destroy to account for Communicator not being fully initialize
+834,2020-05-05 19:14:02.000000000,2020-05-06 23:18:46.000000000,closed,0,C# NullReferenceException in Ice/background test
+833,2020-05-05 18:56:37.000000000,1970-01-01 00:00:00.000000001,open,0,IceGrid/replicaGroup assertion failures
+832,2020-05-05 09:40:21.000000000,1970-01-01 00:00:00.000000001,open,3,Successfully built but failed to install...
+831,2020-05-04 22:40:03.000000000,2020-05-05 18:38:45.000000000,closed,1,Call Initialize after class unmarshaling
+830,2020-05-04 17:27:56.000000000,2020-05-04 19:02:23.000000000,closed,2,CPP11 Codegen puts type declarations for sequence and dictionnaries first leading to confusing errors
+829,2020-05-03 04:28:53.000000000,2020-05-04 19:17:23.000000000,closed,0,Do not always generate a parameterless constructor for class/exception in C#
+828,2020-05-02 01:26:23.000000000,1970-01-01 00:00:00.000000001,open,0,Rename global metadata to file metadata
+827,2020-05-02 00:45:16.000000000,2020-05-02 23:04:27.000000000,closed,1,Refactor generated code for class and remote exception factories in C#
+826,2020-05-01 05:21:25.000000000,2020-05-01 17:21:48.000000000,closed,0,Replace Ice/Test Collections by DictionaryExtensions
+825,2020-04-30 18:42:39.000000000,1970-01-01 00:00:00.000000001,open,0,C# Ice/metrics failures
+824,2020-04-29 22:36:56.000000000,2020-04-30 22:25:44.000000000,closed,0,Fix Intellisense warnings for C++ build
+823,2020-04-29 20:52:47.000000000,2020-04-29 23:01:46.000000000,closed,0,Gradle wrapper updates
+822,2020-04-29 18:11:51.000000000,2020-05-01 06:53:10.000000000,closed,2,icestorm  subscribe to multiple topics
+821,2020-04-28 17:50:31.000000000,2020-04-29 01:51:53.000000000,closed,0,Swift dictionary mapping dangling pointer warnings with Swift 5.2
+820,2020-04-27 20:27:53.000000000,2020-04-28 19:14:44.000000000,closed,0,Fix iceD generated writers
+819,2020-04-27 19:02:47.000000000,2020-04-27 21:55:05.000000000,closed,4,Change mapping for Slice consts in C#
+818,2020-04-26 23:26:22.000000000,2020-04-27 17:47:02.000000000,closed,0,Move all reference factory methods to Reference.cs
+817,2020-04-24 19:39:42.000000000,2020-04-24 20:38:36.000000000,closed,1,Remove redundant writer parameters in OutputStream
+816,2020-04-24 13:14:54.000000000,1970-01-01 00:00:00.000000001,open,5, swift/Ice/operations tests failure
+815,2020-04-24 05:37:24.000000000,2020-04-24 18:45:09.000000000,closed,0,InputStream refactoring in C#
+814,2020-04-23 02:08:15.000000000,2020-04-23 17:55:37.000000000,closed,0,Refactor InputStream encapsulation
+813,2020-04-22 19:37:06.000000000,2020-04-22 19:53:04.000000000,closed,0,Fix certificate IP Address to use 127.0.0.1
+812,2020-04-21 20:23:35.000000000,2020-04-21 22:13:10.000000000,closed,0,Fix C# TPC endpoint source address usage - Close #783
+811,2020-04-21 18:38:51.000000000,2020-04-27 18:39:36.000000000,closed,0,Added metadata for specifying oneway operations in Slice
+810,2020-04-21 15:56:38.000000000,2020-04-21 17:15:49.000000000,closed,2,python/Ice/blobject failure
+808,2020-04-21 01:44:13.000000000,2020-04-21 18:26:39.000000000,closed,0,Move Endpoint unmarshaling to InputStream
+807,2020-04-20 23:07:01.000000000,2020-04-21 01:51:33.000000000,closed,0,Rework implementation of InputStream.Collection<T>
+806,2020-04-20 20:53:27.000000000,2020-04-20 23:12:54.000000000,closed,0,Update npm dependencies - Close #805
+805,2020-04-20 18:58:22.000000000,2020-04-20 23:12:54.000000000,closed,0,JavaScript build errors with Node.js v13.13.0
+804,2020-04-19 00:06:39.000000000,2020-04-20 02:08:14.000000000,closed,0,OutputStream cleanup in C#
+803,2020-04-18 00:28:12.000000000,2020-04-23 21:23:39.000000000,closed,0,Bug in optional test for tagged sequence<size-1-struct>
+802,2020-04-17 20:04:16.000000000,2020-04-17 20:31:55.000000000,closed,0,Ssl certificates
+801,2020-04-17 10:14:57.000000000,2020-04-22 20:45:10.000000000,closed,7,Fix compilation errors caused by parameters not declared in this scope
+800,2020-04-17 06:19:02.000000000,2020-04-17 19:46:22.000000000,closed,0,Update C# mapping for outgoing sequences and dictionaries
+799,2020-04-16 22:33:12.000000000,2020-04-17 00:32:39.000000000,closed,5,Sslcerts
+798,2020-04-16 20:46:09.000000000,2020-04-17 19:38:40.000000000,closed,0,Fix for SecPolicyCreateSSL in Catalina and iOS 13
+797,2020-04-16 20:23:53.000000000,2020-04-17 19:38:40.000000000,closed,0,IceSSL SecureTransport issue with trusted certificates in iOS 13 and macOS 10.15
+796,2020-04-16 00:01:11.000000000,2020-04-16 14:42:39.000000000,closed,0,C# IceBox/ServiceManager cleanup
+795,2020-04-15 15:54:34.000000000,2020-04-15 18:59:14.000000000,closed,0,Test warnings
+794,2020-04-15 08:36:57.000000000,2020-04-16 00:14:01.000000000,closed,2,Communicator defaults cleanup
+793,2020-04-15 07:26:50.000000000,2020-04-15 17:50:19.000000000,closed,1,Incorrect documentation for encoding of tagged sequence<type of size 1>
+792,2020-04-14 17:38:49.000000000,2020-04-16 14:33:04.000000000,closed,0,IceSSL certificate updates
+791,2020-04-14 04:10:44.000000000,2020-04-14 15:25:35.000000000,closed,4,Inline comments in slice file triggers a syntax error in Ice 4.0
+790,2020-04-13 20:40:00.000000000,2020-04-14 22:57:37.000000000,closed,0,Default and overrides cleanup
+789,2020-04-11 04:40:36.000000000,2020-04-14 21:19:31.000000000,closed,0,Endpoint[] cleanup in C#
+788,2020-04-10 22:35:44.000000000,2020-04-13 21:46:40.000000000,closed,0,Fixes for marshaling of serializable types
+787,2020-04-10 04:41:37.000000000,2020-04-10 18:13:59.000000000,closed,1,Rework implementation of the Properties admin facet in C#
+786,2020-04-09 04:35:06.000000000,2020-04-10 01:36:52.000000000,closed,0,Endpoint cleanup in C#
+785,2020-04-09 01:36:47.000000000,2020-04-10 20:05:44.000000000,closed,0,Simplify slice2cs marshaling & unmarshalling of tagged sequences
+784,2020-04-04 00:05:22.000000000,2020-04-06 19:27:21.000000000,closed,0,"Remove secure proxy option, replace Override.Secure in C#"
+783,2020-04-03 11:10:22.000000000,2020-04-21 22:13:12.000000000,closed,1,TCP endpoint --sourceAddr option is ignored by Ice for C#
+782,2020-04-02 21:20:04.000000000,2020-04-08 19:19:23.000000000,closed,2,Rework generated code for C# proxy invoke
+781,2020-04-02 19:16:05.000000000,2020-04-02 19:55:40.000000000,closed,0,Xamarin/IceSSL deadlock because of SslStream change in Xamarin 18
+780,2020-04-02 14:11:54.000000000,1970-01-01 00:00:00.000000001,open,0,Look into how limiting the number of connections for an Ice process
+779,2020-04-02 10:59:43.000000000,2020-05-20 12:10:07.000000000,closed,1,how could I get the message count of a specific topic on the ice storm?
+778,2020-04-02 02:52:23.000000000,2020-04-02 17:57:21.000000000,closed,0,Add EndpointType enum in C#
+777,2020-04-01 21:22:26.000000000,2020-04-03 19:45:00.000000000,closed,2,Reduce copies done by Bzip2 decompression
+776,2020-04-01 19:53:10.000000000,2020-04-02 02:10:18.000000000,closed,0,"Merge Reference, FixedReference and RoutableReference into Reference"
+775,2020-04-01 19:33:04.000000000,2020-04-01 22:55:58.000000000,closed,0,Removed various obsolete cpp macros
+774,2020-03-31 22:47:37.000000000,2020-04-01 18:18:53.000000000,closed,0,Remove ICE_CPP11_MAPPING macro
+773,2020-03-31 15:58:34.000000000,2020-04-01 14:31:32.000000000,closed,1,Build failure on i586 due to trying to build 64 bits binaries
+772,2020-03-31 13:52:45.000000000,2020-04-01 15:53:39.000000000,closed,4,what should i do if i donot want to install test files? 
+771,2020-03-31 03:00:13.000000000,2020-04-01 18:05:58.000000000,closed,0,Incoming frames
+770,2020-03-30 18:04:55.000000000,2020-04-29 01:51:54.000000000,closed,0,Swift build does not error on warnings
+769,2020-03-30 03:57:22.000000000,2020-03-30 23:41:38.000000000,closed,3,Move request handler from proxy class to reference
+768,2020-03-27 15:37:22.000000000,2020-04-23 19:40:10.000000000,closed,2,ICE3.5.1 Ice::FileException: file exception: Permission denied IN VMWARE
+767,2020-03-26 22:50:14.000000000,2020-03-27 21:25:05.000000000,closed,0,Remove MarshalException
+766,2020-03-26 21:13:50.000000000,2020-04-01 19:48:23.000000000,closed,1,Removed object adapter hold support
+765,2020-03-25 23:55:01.000000000,2020-03-26 18:43:35.000000000,closed,1,Rename RequestFailedException to DispatchException in C#
+764,2020-03-25 20:26:40.000000000,2020-03-25 23:56:15.000000000,closed,1,Fix OutputStream format in C#
+763,2020-03-25 00:34:58.000000000,1970-01-01 00:00:00.000000001,open,0,C++ Ice/background failure on Arch Linux
+762,2020-03-24 19:10:15.000000000,2020-03-26 08:06:51.000000000,closed,0,"Removed cpp98 code generation logic, and outdated cpp metadata"
+761,2020-03-24 00:19:25.000000000,2020-03-25 19:37:56.000000000,closed,1,Refactor remaining local exceptions in C#
+760,2020-03-23 12:25:16.000000000,2020-04-09 23:47:29.000000000,closed,3,Make it work fine even UNICODE is defined
+759,2020-03-20 23:19:38.000000000,2020-03-23 17:28:37.000000000,closed,0,Replace C# ProtocolException and derived exception classes by
+758,2020-03-20 19:49:04.000000000,2020-03-25 18:10:59.000000000,closed,0,"Rework IcePing, IceIsA, IceId, IceIds sync and async proxy invocations for in C#"
+757,2020-03-19 03:57:10.000000000,2020-03-19 19:43:25.000000000,closed,0,More local exception refactoring
+756,2020-03-19 02:18:00.000000000,2020-03-23 17:47:21.000000000,closed,0,Adds support for new integer types to the Slice compiler.
+755,2020-03-18 02:48:35.000000000,2020-03-24 21:08:33.000000000,closed,4,Outgoing frame
+754,2020-03-18 01:20:18.000000000,2020-03-19 18:25:57.000000000,closed,1,Update remote exceptions to use Message from System.Exception
+753,2020-03-17 01:10:09.000000000,2020-03-18 18:05:41.000000000,closed,0,Removed NotRegisteredException in C#
+752,2020-03-17 00:46:17.000000000,2020-03-17 23:14:43.000000000,closed,1,Add TypeId and CompactId caches to Communicator
+751,2020-03-16 19:52:10.000000000,2020-03-16 22:28:10.000000000,closed,0,Replace InitializationException in C#
+750,2020-03-16 03:16:35.000000000,2020-03-16 19:13:25.000000000,closed,1,Refactor Ice context in C#
+749,2020-03-14 01:53:50.000000000,2020-03-16 16:24:31.000000000,closed,1,Bump acorn from 5.7.3 to 5.7.4 in /js
+748,2020-03-14 01:16:54.000000000,2020-03-16 19:15:15.000000000,closed,0,"Remove Ice.Exception, Ice.LocalException and Ice.SyscallException in C#"
+747,2020-03-13 17:47:22.000000000,1970-01-01 00:00:00.000000001,open,3,oneway operation metadata
+746,2020-03-13 02:21:36.000000000,2020-03-13 17:05:09.000000000,closed,2,Change the semantics of oneway proxies
+745,2020-03-11 23:31:05.000000000,2020-03-12 18:12:01.000000000,closed,0,Removed remaining ice_id methods in C#
+744,2020-03-11 23:06:20.000000000,2020-04-30 21:36:35.000000000,closed,0,Glacier2 SessionHelper Unhandled CommunicatorDestroyedException
+743,2020-03-11 01:14:40.000000000,2020-03-11 02:38:14.000000000,closed,2,Added support for triple-slash doc comments to the Slice compiler.
+742,2020-03-10 03:27:52.000000000,2020-03-11 13:31:29.000000000,closed,0,C# - Use Bzip2 low level API to avoid extra allocations
+741,2020-03-10 01:49:14.000000000,2020-03-11 02:38:40.000000000,closed,0,Add support for triple-slash doc comments to Slice.
+740,2020-03-10 01:18:02.000000000,2020-03-11 19:47:03.000000000,closed,0,Refactor remote exceptions in C#
+739,2020-03-06 20:35:08.000000000,1970-01-01 00:00:00.000000001,open,0,Use ArrayPool	instead of directly allocate bytes arrays
+738,2020-03-06 20:21:30.000000000,2020-03-10 22:02:51.000000000,closed,0,InputStream refactoring
+737,2020-03-06 03:08:52.000000000,2020-03-06 07:26:25.000000000,closed,0,Remove checked exceptions in C#
+736,2020-03-05 07:57:34.000000000,2020-03-05 20:11:04.000000000,closed,0,Fix generated == and != for C# structs
+735,2020-03-05 07:39:18.000000000,2020-03-06 21:34:13.000000000,closed,0,Convert Protocol to enum and refactor Encoding struct in C#
+734,2020-03-04 22:04:30.000000000,2020-03-05 19:14:57.000000000,closed,2,Unable to compile ice in Solus
+733,2020-03-04 01:41:09.000000000,2020-03-04 07:11:58.000000000,closed,0,Protocol and encoding cleanup in C#
+732,2020-03-03 03:06:55.000000000,2020-03-03 07:07:05.000000000,closed,0,Move interface IObjectPrx and class ObjectPrx into IObjectPrx.cs
+731,2020-03-02 21:44:04.000000000,2020-03-03 00:32:51.000000000,closed,4,"Update implementation of IcePing, IcePingAsync and other"
+730,2020-02-29 06:12:59.000000000,2020-03-02 21:16:58.000000000,closed,0,Removed Outgoing Frame ctors with payloadWriter action
+729,2020-02-29 01:19:55.000000000,2020-02-29 02:19:23.000000000,closed,0,Write span
+728,2020-02-27 21:06:13.000000000,2020-02-28 22:26:07.000000000,closed,0,Update Proxy Invoke and InvokeAsync API in C#
+727,2020-02-27 07:29:11.000000000,2020-05-20 12:12:16.000000000,closed,1,What happens when the total attribute of the Metrics reaches the maximum value?
+726,2020-02-27 05:56:10.000000000,2020-03-04 01:20:38.000000000,closed,0,Updated the Slice scanner to use newer Flex features
+725,2020-02-26 21:01:46.000000000,2020-02-28 00:14:40.000000000,closed,0,C# - minor fix for input stream enumerator implementation
+724,2020-02-26 20:02:32.000000000,2020-02-26 20:23:51.000000000,closed,0,Moved xxxUtil files from Slice to respective slice2xxx folders.
+723,2020-02-26 19:40:49.000000000,2020-04-29 18:35:06.000000000,closed,1,Document IceBox/ServiceObserver methods
+722,2020-02-25 02:48:53.000000000,2020-02-25 19:27:46.000000000,closed,0,Renamed protocol to transport or IP version as appropriate in C#
+721,2020-02-22 07:36:31.000000000,2020-02-24 21:45:05.000000000,closed,0,Replace OperationMode by idempotent bool in C#
+720,2020-02-22 03:17:19.000000000,2020-02-29 01:00:34.000000000,closed,0,Vectored io
+719,2020-02-21 15:15:07.000000000,2020-03-07 01:58:32.000000000,closed,0,C# Unexpected exceptions in plug-ins test
+718,2020-02-21 14:50:46.000000000,1970-01-01 00:00:00.000000001,open,0,Failure runing IceSSL/configuration with --protocol
+717,2020-02-21 02:24:54.000000000,2020-02-21 19:51:34.000000000,closed,1,Change IObjectPrx.IsOneway to match all oneway invocation modes
+716,2020-02-21 01:51:54.000000000,2020-03-04 21:43:36.000000000,closed,2,Port IceGrid to C++17
+715,2020-02-20 02:57:19.000000000,2020-02-20 18:55:08.000000000,closed,0,User exceptions are now always marshaled with the Sliced format.
+714,2020-02-20 01:21:59.000000000,2020-02-20 02:12:56.000000000,closed,0,Remove IResponseHandler in C#
+713,2020-02-17 13:34:25.000000000,2020-05-20 12:13:18.000000000,closed,3,icestorm bug
+712,2020-02-17 04:55:32.000000000,2020-02-18 21:24:31.000000000,closed,1,Refactor servant dispatch in C#
+711,2020-02-13 09:21:57.000000000,2020-02-13 13:07:50.000000000,closed,2,How should I use .net core dependency injection in icebox.service ?
+710,2020-02-13 03:13:30.000000000,2020-02-13 22:18:54.000000000,closed,0,Remove dispatcher from C#
+709,2020-02-12 07:37:38.000000000,2020-02-12 21:06:03.000000000,closed,0,Compute and cache the Reference hash code without locking
+708,2020-02-10 22:16:41.000000000,2020-02-11 02:07:29.000000000,closed,0, DeprecationWarning: invalid escape sequence in tests
+707,2020-02-10 15:02:56.000000000,2020-02-11 16:13:07.000000000,closed,0,Rework C# hash code implementation
+706,2020-02-10 11:59:55.000000000,2020-03-25 03:08:52.000000000,closed,6,Add CMake to Ice C++
+705,2020-02-10 05:36:32.000000000,2020-02-11 02:13:20.000000000,closed,0,Object Adapter cleanup
+704,2020-02-08 04:47:25.000000000,2020-02-08 05:20:06.000000000,closed,1,MATLAB tests don't handle both forms of unset optionals.
+703,2020-02-08 03:02:16.000000000,1970-01-01 00:00:00.000000001,open,0,hasMarshaledResult doesn't account for immutable structure types
+702,2020-02-08 01:52:29.000000000,2020-04-29 17:58:40.000000000,closed,2,Use C# pragma instead of SuppressMessage in generated code
+701,2020-02-07 18:59:15.000000000,2020-02-08 04:07:25.000000000,closed,0,C# - Use tuples for methods with multiple return values
+700,2020-02-07 03:03:23.000000000,2020-02-08 02:03:02.000000000,closed,0,Do not accept null collections and strings as if they were empty
+699,2020-02-06 20:14:24.000000000,2020-02-20 16:54:51.000000000,closed,1,C# Ice/background test sporadic failures
+698,2020-02-06 18:24:10.000000000,1970-01-01 00:00:00.000000001,open,0,Ignore null locator replies in IceLocatorDiscovery
+697,2020-02-06 17:45:53.000000000,2020-02-20 16:48:00.000000000,closed,1,IceDiscovery missing documentation comments
+696,2020-02-06 03:33:35.000000000,2020-02-07 01:43:02.000000000,closed,2,Fix MATLAB tests to not rely on ordering of dictionaries
+695,2020-02-06 01:32:24.000000000,2020-02-06 23:55:10.000000000,closed,0,Streamline ObjectAdapter ASM in C#
+694,2020-01-31 20:49:01.000000000,2020-02-05 22:03:31.000000000,closed,0,Marshaling updates
+693,2020-01-31 01:53:18.000000000,2020-01-31 20:17:48.000000000,closed,0,Rework servant dispatch
+692,2020-01-30 13:49:03.000000000,2020-03-27 18:03:02.000000000,closed,1,bogus optimize settings in .NET Core builds
+691,2020-01-28 17:21:03.000000000,2020-02-19 13:58:51.000000000,closed,1,javascript assertion in AsyncResult
+690,2020-01-27 20:51:06.000000000,2020-02-04 02:16:08.000000000,closed,0,Updated Ice to version 4.0.0-alpha.0
+689,2020-01-27 06:15:00.000000000,2020-01-28 00:46:47.000000000,closed,2,New Ice.TypeIdAttribute in C# (replacement for ice_id/ice_staticId)
+688,2020-01-24 21:04:52.000000000,2020-02-20 16:51:22.000000000,closed,0,Confusing variable names in MetricsAdminI
+687,2020-01-24 03:05:35.000000000,2020-01-24 22:07:24.000000000,closed,0,OutputStream refactoring in C#
+686,2020-01-23 20:03:58.000000000,2020-02-21 15:00:47.000000000,closed,0,C# SSLEngine.decodeASN1Length never used
+685,2020-01-23 00:33:25.000000000,2020-01-23 04:24:59.000000000,closed,0,Read only struct
+684,2020-01-22 22:41:52.000000000,2020-01-23 00:44:03.000000000,closed,0,C# - Communicator refactoring
+683,2020-01-22 16:49:30.000000000,2020-01-22 22:11:56.000000000,closed,0,C# communicator refactoring
+682,2020-01-21 19:07:08.000000000,2020-01-22 21:36:37.000000000,closed,0,Refactor class unmarshaling
+681,2020-01-20 13:02:44.000000000,2020-02-20 16:48:00.000000000,closed,0,RetryQueue cancel can access null _instance
+680,2020-01-19 21:46:41.000000000,2020-01-20 19:48:27.000000000,closed,0,Simplify InputStream in C#
+679,2020-01-17 22:55:52.000000000,2020-01-20 17:58:30.000000000,closed,0,C# doc comment improvements
+678,2020-01-13 21:57:05.000000000,2020-01-16 21:44:59.000000000,closed,0,Remove patching
+677,2020-01-11 01:30:01.000000000,2020-01-16 22:21:05.000000000,closed,2,Ruby 2.7 build failure
+676,2020-01-10 02:08:25.000000000,2020-01-11 00:45:46.000000000,closed,0,Port IceStorm to C++17
+675,2020-01-08 21:38:28.000000000,2020-01-13 22:17:43.000000000,closed,0,Replaced 'optional' with 'tagged' in the Java language mapping
+674,2020-01-07 11:09:24.000000000,2020-01-07 19:23:10.000000000,closed,1,What is the difference between ice and gRPC
+673,2020-01-06 11:37:33.000000000,2020-01-06 16:44:08.000000000,closed,3,"At present, after the number of server threads exceeds the maximum, processing is delayed, Can it be set to not delay processing?"
+672,2019-12-20 23:53:22.000000000,2019-12-23 16:38:38.000000000,closed,0,C# property updates
+671,2019-12-20 16:19:30.000000000,2020-02-21 15:00:47.000000000,closed,0,Don't retry invocations on fixed proxies
+670,2019-12-20 14:54:59.000000000,2019-12-20 14:57:22.000000000,closed,8,Ice.ThreadPool.Client.SizeMax  parameters are not in effect
+669,2019-12-20 02:03:57.000000000,2019-12-23 17:21:25.000000000,closed,0,C# merge PluginManager in Communicator
+668,2019-12-18 04:29:50.000000000,2020-01-07 22:31:03.000000000,closed,0,Renamed 'optional' keyword to 'tag' in the Slice compilers
+667,2019-12-17 02:53:28.000000000,2020-05-01 19:46:57.000000000,closed,1,Simplify icebox shared communicator initialization
+666,2019-12-16 16:49:11.000000000,2020-04-21 18:58:19.000000000,closed,0,C# IceBox should use TryGetValue to check if a key is set
+665,2019-12-13 14:13:12.000000000,2020-04-20 14:57:45.000000000,closed,1,Ice/ami client exit after failure to obtain C++ stack trace
+664,2019-12-13 02:03:14.000000000,2019-12-15 16:35:43.000000000,closed,0,C# mapping updates
+663,2019-12-13 00:50:21.000000000,1970-01-01 00:00:00.000000001,open,0,"Remove ""cpp:const"" metadata"
+662,2019-12-11 01:12:13.000000000,2020-04-21 18:45:17.000000000,closed,0,C# FormatType not correctly initialized
+661,2019-12-11 01:05:51.000000000,1970-01-01 00:00:00.000000001,open,0,Fix Doxygen warnings while generating C++ documentation
+660,2019-12-11 00:56:39.000000000,1970-01-01 00:00:00.000000001,open,0,Fix Checker Framework warnings in Java
+659,2019-12-09 04:38:28.000000000,2019-12-09 22:04:40.000000000,closed,0,"Changed grammar to parse T? (where T can any type, including built-in)"
+658,2019-12-06 18:32:21.000000000,2020-02-06 18:10:54.000000000,closed,1,C# marshaling sequences of built in types improvements
+657,2019-12-06 07:20:53.000000000,2019-12-06 07:52:52.000000000,closed,1,"The service cannot be stopped after the command is executed ,server stop xxx"
+656,2019-12-06 07:01:12.000000000,2019-12-06 19:47:05.000000000,closed,18,CSharp unable to load service in netcore 3.1.100
+655,2019-12-06 05:11:29.000000000,2020-04-29 18:00:14.000000000,closed,2,C# improve generated Equals
+654,2019-12-06 03:21:33.000000000,1970-01-01 00:00:00.000000001,open,0,UserExceptionHelper classes have reverse ordered constructors/destructor
+653,2019-12-05 22:48:35.000000000,2019-12-07 01:47:33.000000000,closed,0,Excessive session destruction with bi-direction connection exceptions in Glacier2 
+652,2019-12-05 08:37:35.000000000,2019-12-11 00:52:11.000000000,closed,0,Added nullable type support to the Java mapping
+651,2019-12-04 15:14:17.000000000,1970-01-01 00:00:00.000000001,open,0,C# Ice/ami test hanging on shutdown
+650,2019-12-04 15:11:21.000000000,1970-01-01 00:00:00.000000001,open,0,C# Ice/background failures
+649,2019-12-04 01:45:20.000000000,1970-01-01 00:00:00.000000001,open,1,Numerous IntelliSense C++ warnings 
+648,2019-12-04 01:25:48.000000000,2019-12-04 15:06:36.000000000,closed,0,C# Ice/background hang after receiving NullReferenceException
+647,2019-12-03 02:44:33.000000000,2019-12-07 01:23:18.000000000,closed,0,Port Glacier2 to C++11 (Fixes #629)
+646,2019-11-29 20:16:40.000000000,2020-03-07 01:28:54.000000000,closed,1,C# Bogus GetHashCode implementation for FixedReference/RoutableReference 
+645,2019-11-29 00:43:54.000000000,2020-04-21 18:34:39.000000000,closed,0,Reference.changeIdentity should clone the identity object
+644,2019-11-28 17:01:25.000000000,1970-01-01 00:00:00.000000001,open,0,Replace introspection with closures in metrics implementation
+643,2019-11-26 14:03:05.000000000,2020-04-22 23:05:19.000000000,closed,1,Ice/admin test failure on iOS
+642,2019-11-22 02:50:26.000000000,1970-01-01 00:00:00.000000001,open,2,Glacier2 SessionManager's getSessionTimeout can return incorrect value.
+641,2019-11-21 16:55:27.000000000,2020-04-18 17:18:48.000000000,closed,0,C# ice_ids collocated call not dispatch in user thread
+640,2019-11-20 13:47:21.000000000,2019-11-20 15:43:09.000000000,closed,2,cannot install zeroc-ice3.7 in Centos 7 
+639,2019-11-20 02:43:31.000000000,2020-03-07 01:24:31.000000000,closed,0,consider using C# tuples for multiple return values
+638,2019-11-19 18:43:13.000000000,2019-11-20 13:44:57.000000000,closed,0,metrics test failure with C++11
+637,2019-11-19 02:34:50.000000000,1970-01-01 00:00:00.000000001,open,0,Review Python compiler flags
+636,2019-11-15 13:15:14.000000000,2020-04-22 20:49:23.000000000,closed,0,npm-slice2js build failing
+635,2019-11-15 01:31:43.000000000,2019-11-19 02:32:04.000000000,closed,1,Linking failures with Python 3.8
+634,2019-11-14 17:38:11.000000000,2019-11-15 01:35:01.000000000,closed,0,Forward defined types not properly defined in TypeScript - Close 633
+633,2019-11-14 17:05:34.000000000,2020-05-19 17:50:00.000000000,closed,0,Forward defined types not properly defined in TypeScript
+632,2019-11-14 01:03:11.000000000,2019-11-14 22:05:06.000000000,closed,1,test/Ice/dispatcher failure on macOS Catalina
+631,2019-11-14 00:01:39.000000000,2019-12-03 02:10:49.000000000,closed,3,Unable to start C++11 Test Controller on Catalina iOS Simulator
+630,2019-11-13 01:48:43.000000000,1970-01-01 00:00:00.000000001,open,0,Glacier2 router and flow control
+629,2019-11-12 20:19:02.000000000,2019-12-07 01:24:04.000000000,closed,0,Port Glacier2 to C++11
+628,2019-11-12 14:27:49.000000000,1970-01-01 00:00:00.000000001,open,0,Remove IceStorm/repgrid workaround
+627,2019-11-10 03:48:44.000000000,1970-01-01 00:00:00.000000001,open,0,Do not use null terminate array for property names
+626,2019-11-08 22:17:04.000000000,1970-01-01 00:00:00.000000001,open,1,Consider having a separate property for enabling/disabling direct buffers
+625,2019-11-08 21:21:36.000000000,1970-01-01 00:00:00.000000001,open,0,Refactor slice2matlab CodeVisitor
+624,2019-11-08 20:34:00.000000000,2019-11-09 00:51:38.000000000,closed,0,Port IceGrid tests to C++11
+623,2019-11-07 21:36:45.000000000,2019-11-09 00:26:54.000000000,closed,1,Removed value factories in C#
+622,2019-11-06 22:11:11.000000000,2020-01-15 15:33:52.000000000,closed,1,C# Simplify build system structure
+621,2019-11-06 21:56:32.000000000,2020-02-06 18:13:13.000000000,closed,1,C# Replace ice_toString_ by ToString
+620,2019-11-06 21:38:22.000000000,2020-03-07 00:31:25.000000000,closed,0,C# should prefer string interpolation to concatenation
+619,2019-11-06 21:26:41.000000000,2020-03-07 01:25:55.000000000,closed,0,prefer using TryGetValue instead of catch KeyNotFoundException
+618,2019-11-05 20:22:46.000000000,2019-11-05 21:04:00.000000000,closed,4,slice2swift generates bogus depend output
+617,2019-11-05 03:07:13.000000000,2019-11-06 19:46:04.000000000,closed,1,Removed support for batch invocations in C# (#616)
+616,2019-11-05 00:30:59.000000000,1970-01-01 00:00:00.000000001,open,0,Remove APIs for sending batch requests
+615,2019-11-05 00:27:17.000000000,1970-01-01 00:00:00.000000001,open,0,Deprecate exception specifications in Ice
+614,2019-11-05 00:16:43.000000000,1970-01-01 00:00:00.000000001,open,0,"Remove Value factories, protected keyword and postMarshal/perUnmarshal callbacks"
+613,2019-11-05 00:14:17.000000000,1970-01-01 00:00:00.000000001,open,0,Remove ICE_CONFIG environment variable
+612,2019-11-05 00:12:26.000000000,1970-01-01 00:00:00.000000001,open,0,"Eliminate operation on classes, class inheriting interfaces and the implements keyword"
+611,2019-11-05 00:09:08.000000000,1970-01-01 00:00:00.000000001,open,1,Unify Nullable and Optional
+610,2019-11-02 00:35:45.000000000,2019-11-03 21:06:24.000000000,closed,0,"Move response, error and sent functions given to the client Async API"
+609,2019-10-30 16:56:01.000000000,2019-10-31 18:36:55.000000000,closed,0,Port IceBridge to the Ice C++11 mapping.
+608,2019-10-30 14:39:37.000000000,2019-10-31 16:43:14.000000000,closed,2,Remove __SUNPRO_CC C++ support
+607,2019-10-30 02:53:25.000000000,2019-10-30 13:14:29.000000000,closed,0,Remove checksum support
+606,2019-10-30 02:49:28.000000000,2019-10-30 18:28:50.000000000,closed,1,Remove checksum support
+605,2019-10-27 15:06:16.000000000,2019-12-05 02:22:57.000000000,closed,2,Incorrect uses of empty() instead of clear()
+604,2019-10-27 14:42:44.000000000,2019-10-27 15:06:52.000000000,closed,2,Fix incorrect uses of empty().
+603,2019-10-27 01:37:02.000000000,1970-01-01 00:00:00.000000001,open,3,Normalize case for generated identifiers
+602,2019-10-26 02:07:23.000000000,2019-10-29 22:11:27.000000000,closed,0,Remove IcePatch2
+601,2019-10-25 13:36:35.000000000,2020-02-06 18:19:30.000000000,closed,1,C# Remove Ice.CollectionComparer
+600,2019-10-25 13:13:43.000000000,2020-04-01 18:17:53.000000000,closed,1,retryException unused argument
+599,2019-10-25 13:12:16.000000000,2020-03-27 21:19:23.000000000,closed,1,C# use byte enum for ReplyStatus
+598,2019-10-24 11:46:58.000000000,2019-11-11 22:22:41.000000000,closed,1,Remove support for Slice local definitions
+597,2019-10-23 19:31:13.000000000,1970-01-01 00:00:00.000000001,open,0,Lint MATLAB code when building the toolbox
+596,2019-10-23 14:42:10.000000000,2019-10-23 18:17:07.000000000,closed,0,MATLAB invalid generated code for local interface
+595,2019-10-23 14:38:48.000000000,2019-10-23 18:17:07.000000000,closed,0,MATLAB unused argument in the generated `ice_id` method
+594,2019-10-17 19:39:59.000000000,2020-04-30 21:02:32.000000000,closed,1,IceGrid GUI warning on first launch on macOS
+593,2019-10-17 19:38:42.000000000,2020-04-27 20:02:07.000000000,closed,7,IceGrid GUI fails to load with Java 13 on macOS Catalina
+592,2019-10-17 15:29:31.000000000,2020-04-18 17:08:05.000000000,closed,1,GCC 9 crash building Ice on riscv64
+591,2019-10-17 15:25:08.000000000,2020-04-22 22:17:19.000000000,closed,1,IceGrid/distribution failure with mips64el
+590,2019-10-17 01:14:09.000000000,1970-01-01 00:00:00.000000001,open,0,PHP NuGet packages must depend on corresponding C++ package
+589,2019-10-17 00:08:12.000000000,1970-01-01 00:00:00.000000001,open,0,SPM build warnings
+588,2019-10-15 23:14:32.000000000,2020-04-22 21:29:44.000000000,closed,0,NuGet iconUrl is deprecated
+587,2019-10-15 21:00:57.000000000,2019-10-15 21:29:19.000000000,closed,0,Ice for JavaScript bogus check in WSTransceiver
+586,2019-10-14 23:53:11.000000000,2020-04-30 21:10:36.000000000,closed,1,Unreliable check for dotnet version
+585,2019-10-11 19:29:20.000000000,1970-01-01 00:00:00.000000001,open,0,Remove Resource.designer.cs from the repository
+584,2019-10-10 19:59:34.000000000,1970-01-01 00:00:00.000000001,open,1,Cache Swift Connection objects
+583,2019-10-10 19:20:06.000000000,1970-01-01 00:00:00.000000001,open,0,Autorelease objects and autorelease pools created by Ice
+582,2019-10-10 17:21:43.000000000,1970-01-01 00:00:00.000000001,open,0,Improve OutgoingAsync to no longer throw exception_ptr
+581,2019-10-09 16:00:07.000000000,2019-10-09 16:34:34.000000000,closed,0,Swift value un-marshalling leaks
+580,2019-10-09 12:29:32.000000000,2019-10-09 12:47:46.000000000,closed,1,Swift stringToProxy leak when exception raised
+579,2019-10-08 19:16:34.000000000,2019-10-09 18:38:49.000000000,closed,3,Swift dispatch and invocation leaks
+578,2019-10-08 19:14:39.000000000,2019-10-09 00:08:56.000000000,closed,0,Don't use initWithBytesNoCopy NSData bridge objects with the Swift mapping implementation.
+577,2019-10-08 14:47:42.000000000,1970-01-01 00:00:00.000000001,open,0,Run TypeScript test suite with browsers
+576,2019-10-08 13:40:32.000000000,2019-10-08 13:45:34.000000000,closed,4,Ice 3.6.5 missing in https://github.com/zeroc-ice/ice/releases
+575,2019-10-07 22:32:08.000000000,2019-10-08 14:41:17.000000000,closed,0,G++ arm cross compiler warnings
+574,2019-10-04 19:31:58.000000000,1970-01-01 00:00:00.000000001,open,0,Add test for IceSSL.Ciphers on Java
+573,2019-10-04 18:32:09.000000000,2019-10-04 19:29:45.000000000,closed,1,java-compat/IceSSL/configuration failure on rhel8
+572,2019-10-04 06:08:43.000000000,2019-10-04 18:50:09.000000000,closed,0,Warning in Ice/acm Swift test
+571,2019-10-03 18:33:13.000000000,1970-01-01 00:00:00.000000001,open,0,Python test scripts trigger lots of flake8 per-commit errors
+570,2019-10-03 15:39:00.000000000,2019-10-03 19:18:12.000000000,closed,1,IceSSL/configuration failures on iOS
+569,2019-10-03 15:35:47.000000000,2019-10-04 20:26:12.000000000,closed,0,xamarin tests  build failures on macOS mojave
+568,2019-10-03 15:29:57.000000000,2020-05-01 17:41:46.000000000,closed,4,Ice/metrics objective-c failure
+567,2019-10-02 22:40:24.000000000,1970-01-01 00:00:00.000000001,open,2,Remove cpp98 mapping
+566,2019-10-02 01:01:43.000000000,2019-10-04 20:36:37.000000000,closed,6,Yocto build should use the bitbake native/nativesdk compiler instead of g++ in PATH
+565,2019-09-30 23:15:05.000000000,2019-10-02 21:21:25.000000000,closed,0,No warning when server closes connection upon first message
+564,2019-09-30 21:30:42.000000000,2019-10-03 22:27:27.000000000,closed,3,iOS C++/Objective-C test controller doesn't respond to IceDiscovery on Catalina
+563,2019-09-30 19:17:23.000000000,2019-10-01 19:19:54.000000000,closed,1,icestorm
+562,2019-09-29 17:28:27.000000000,2019-10-02 13:10:06.000000000,closed,7,xcode11 error: 'StreamTransceiver.h' file not found
+561,2019-09-29 15:09:13.000000000,2019-09-30 13:43:49.000000000,closed,0,IceGrid/activation warnings
+560,2019-09-28 01:24:44.000000000,2019-10-01 20:39:22.000000000,closed,1,Xcode 11 swift signing warnings
+559,2019-09-27 23:04:46.000000000,2019-09-30 15:19:21.000000000,closed,0,"Update ""Writing an Ice Application with C-Sharp"""
+558,2019-09-27 19:26:26.000000000,2019-10-10 12:34:27.000000000,closed,4,java-compat/Ice/acm  failures
+557,2019-09-26 20:18:30.000000000,2019-09-27 19:57:28.000000000,closed,0,Document IceGrid node server states showed in the tracing
+556,2019-09-26 20:17:00.000000000,2019-09-27 21:42:52.000000000,closed,0,The IceGrid node should warn if the executable can't be found
+555,2019-09-26 10:45:02.000000000,2019-09-26 15:55:36.000000000,closed,0,Hang on locator lookup with IceGrid/simple test 
+554,2019-09-25 10:24:41.000000000,2019-10-07 22:44:52.000000000,closed,3,Windows 10 Chrome testing  Ice/defaultValue failure
+553,2019-09-25 10:17:00.000000000,2019-10-04 21:20:58.000000000,closed,0,C# Ice/faultTolerance failure
+552,2019-09-25 02:42:21.000000000,2019-10-03 19:08:48.000000000,closed,5,Ice/exceptions failure with Yocto BB
+551,2019-09-24 18:21:41.000000000,2019-09-27 12:54:21.000000000,closed,0,Add support for .NET Core 3.0
+550,2019-09-24 18:18:57.000000000,2019-09-25 19:46:30.000000000,closed,1,IcePy calls AMD callback response twice in case of marshal exception
+549,2019-09-23 22:08:00.000000000,2019-09-24 18:10:15.000000000,closed,1,macOS Ice/slicing/objects cross test failure
+548,2019-09-23 13:10:54.000000000,2019-09-23 16:04:27.000000000,closed,0,Swift TestDriver bogus Ice.ProgramName
+547,2019-09-23 11:38:06.000000000,2019-09-24 17:33:31.000000000,closed,0,JavaScript invocation tiemout failures
+546,2019-09-23 11:30:03.000000000,2019-10-03 18:39:53.000000000,closed,1,IceGrid/admin failure
+545,2019-09-23 08:10:25.000000000,2019-10-01 19:24:57.000000000,closed,2,js(javascript) to build an ice server?
+544,2019-09-20 22:26:24.000000000,2019-09-23 21:14:32.000000000,closed,0,Missing icon for Swift test suite
+543,2019-09-20 12:55:18.000000000,2019-09-23 11:58:59.000000000,closed,3,Ice multi-network card problem
+542,2019-09-20 12:54:35.000000000,2019-09-23 14:30:30.000000000,closed,0,Java Ice/retry failure on Windows Server 2019
+541,2019-09-20 11:04:54.000000000,2019-09-20 12:31:09.000000000,closed,0,Eclipse warnings
+540,2019-09-20 03:02:19.000000000,2019-09-20 13:14:12.000000000,closed,0,Bad objectVersion in the Objective-C and C++ test controllers
+539,2019-09-20 00:14:17.000000000,2019-09-23 14:30:31.000000000,closed,1,Ice/retry warnings with iOS simulator
+538,2019-09-19 15:03:15.000000000,2019-09-24 13:53:56.000000000,closed,0,Java Ice/exceptions end_ called more than once
+537,2019-09-19 14:16:03.000000000,2019-09-19 14:35:08.000000000,closed,0,C# package sign cause rebuilds
+536,2019-09-19 00:30:52.000000000,2019-09-30 13:08:58.000000000,closed,0,Document IceSSL SNI additon
+535,2019-09-19 00:23:23.000000000,2019-09-29 17:18:14.000000000,closed,1,Swift Ice/acm failures
+534,2019-09-18 22:00:36.000000000,2019-09-19 00:52:38.000000000,closed,1,js Ice/adapterDeactivation 
+533,2019-09-18 11:58:54.000000000,1970-01-01 00:00:00.000000001,open,3,Remove -lrt when building on Linux
+532,2019-09-17 17:20:01.000000000,2019-09-18 19:59:57.000000000,closed,0,Print out which iOS runtime is being tested
+531,2019-09-17 00:48:45.000000000,1970-01-01 00:00:00.000000001,open,17,javax.net.ssl.SSLException: closing inbound before receiving peer's close_notify
+530,2019-09-16 23:51:31.000000000,2019-09-18 02:29:10.000000000,closed,0,File permission bugs
+529,2019-09-16 23:34:31.000000000,2019-09-16 23:47:15.000000000,closed,0,UWP testsuite build failure
+528,2019-09-13 15:25:56.000000000,1970-01-01 00:00:00.000000001,open,0,Print IceGrid usage and server ready message to stdout
+527,2019-09-13 12:04:51.000000000,2019-09-13 15:27:14.000000000,closed,0,NullPointerException from Android UDP multicast transport
+526,2019-09-12 22:25:29.000000000,2019-09-13 16:44:45.000000000,closed,1,Failure running IceGrid/replicaGroup in debian Buster
+525,2019-09-12 20:01:49.000000000,2019-09-12 20:09:34.000000000,closed,1,Swift dispatch interceptor with AMD and ResponseSentException
+524,2019-09-11 11:03:21.000000000,2019-10-03 15:45:06.000000000,closed,2,Ruby Ice/slicing/objects CI failure
+523,2019-09-11 10:48:43.000000000,2019-09-11 13:45:22.000000000,closed,0,Objective-C invalid endpoint in Ice/proxy test
+522,2019-09-11 10:46:11.000000000,2019-09-11 21:37:23.000000000,closed,1,failed to get module 'xxxx' from AST context error: missing required module 'xxx'
+521,2019-09-11 10:44:07.000000000,2019-09-11 16:10:55.000000000,closed,1,Swift Ice/admin test hang
+520,2019-09-11 00:28:02.000000000,1970-01-01 00:00:00.000000001,open,0,Consider removing IceSSL.VerifyPeer 0
+519,2019-09-10 23:42:25.000000000,2019-09-11 00:03:45.000000000,closed,0,Fixes for endpoint to string conversion - Close #517
+518,2019-09-10 11:43:06.000000000,2019-09-10 15:18:56.000000000,closed,0,Dispose the X509Chain from the SSL transceiver with .NET Standard 2.0
+517,2019-09-10 02:07:33.000000000,2019-09-11 00:03:45.000000000,closed,0,Endpoint stringification and colon escaping
+516,2019-09-10 00:10:32.000000000,2019-09-12 14:55:32.000000000,closed,1,rhel8  java-compat/IceDiscovery/simple failure
+515,2019-09-09 19:28:12.000000000,2019-09-10 12:29:11.000000000,closed,0,IceSSL cert name verification fixes - Close #512
+514,2019-09-09 10:43:59.000000000,2019-09-09 11:51:39.000000000,closed,0,IceGrid/replication test hang
+513,2019-09-07 01:16:14.000000000,2019-09-09 20:21:24.000000000,closed,1,Swift Ice/ami failure
+512,2019-09-06 22:42:26.000000000,2019-09-10 12:29:12.000000000,closed,0,Built-in check cert name failures are not resulting in verified=false
+511,2019-09-06 21:02:17.000000000,2019-09-07 02:17:49.000000000,closed,0,Swift testing left keychain files behind
+510,2019-09-06 20:19:55.000000000,2019-09-06 21:48:46.000000000,closed,0,Check status return by X509_VERIFY_PARAM_set1_...
+509,2019-09-06 15:07:24.000000000,2019-09-06 18:16:25.000000000,closed,0,Building Java tests with a binary dist must not pull IceGridGUI dependencies
+508,2019-09-03 20:40:48.000000000,2019-09-04 13:48:36.000000000,closed,0,Swift driver issues
+507,2019-09-03 20:09:09.000000000,1970-01-01 00:00:00.000000001,open,0,Support collocated calls with well-known proxies in Swift
+506,2019-09-03 11:15:26.000000000,2019-09-04 10:33:05.000000000,closed,0,TODO in test/Ice/location/AllTests.swift
+505,2019-09-02 14:19:23.000000000,2019-09-02 18:22:21.000000000,closed,0,Add slice2swift to NuGet packages
+504,2019-09-01 13:57:44.000000000,2019-09-03 19:59:12.000000000,closed,1,Install from sources to /usr/local directory.
+503,2019-08-29 20:31:15.000000000,2019-09-06 17:44:53.000000000,closed,0,IceGrid locking issue
+502,2019-08-29 20:04:19.000000000,2019-09-02 13:35:34.000000000,closed,0,Set iOS/macOS deployment target in Swift project
+501,2019-08-29 17:07:06.000000000,2019-09-03 18:54:38.000000000,closed,0,Retries fail if Ice.Default.InvocationTimeout=-2
+500,2019-08-29 16:08:17.000000000,2019-09-02 20:50:41.000000000,closed,0,slice2cs generates invalid C# documentation 
+499,2019-08-28 15:01:00.000000000,2019-09-02 18:22:21.000000000,closed,0,"slice2cs produces invalid xml comment for parameter ""context"""
+498,2019-08-27 12:06:05.000000000,2019-08-29 20:13:36.000000000,closed,0,timeout test failure on el8
+497,2019-08-26 19:45:27.000000000,2019-11-05 01:08:52.000000000,closed,12,Add non-const overload to Ice::Request::getCurrent
+496,2019-08-26 16:35:24.000000000,2019-08-26 20:01:31.000000000,closed,0,Invalid thread pool warning on shutdown
+495,2019-08-26 10:53:04.000000000,2019-08-29 20:17:41.000000000,closed,2,C++ iOS build test failure
+494,2019-08-26 10:51:15.000000000,2019-08-29 17:28:14.000000000,closed,3,IceSSL/configuration test failure on bionic arm
+493,2019-08-23 21:19:58.000000000,1970-01-01 00:00:00.000000001,open,1,Consider supporting SNI on the server side
+492,2019-08-22 19:58:35.000000000,2019-08-22 20:51:24.000000000,closed,0,MATLAB Ice/timeout failure
+491,2019-08-22 19:23:12.000000000,2019-08-27 22:13:20.000000000,closed,2,Top level build hangs after finishing swift
+490,2019-08-22 11:55:15.000000000,2019-09-03 18:45:35.000000000,closed,0,slice2py: forward declaration
+489,2019-08-21 13:03:58.000000000,2019-08-21 13:21:21.000000000,closed,0,Swift tests fail to build with ICE_BIN_DIST=all
+488,2019-08-21 11:49:51.000000000,2019-08-22 23:37:54.000000000,closed,1,Java Ice communicator should override logger to use Ice.ProgramName for the logger prefix
+487,2019-08-20 21:51:57.000000000,1970-01-01 00:00:00.000000001,open,0,Reject duplicated options when parsing stringified endpoints
+486,2019-08-20 12:47:01.000000000,2019-08-30 14:06:36.000000000,closed,3,IceBox Java/C# service manager shutdown while start in progress
+485,2019-08-20 01:26:29.000000000,2019-08-20 01:47:01.000000000,closed,0,Ice/timeout script does not wait for both adapters to be ready
+484,2019-08-20 00:58:24.000000000,2019-08-22 18:15:56.000000000,closed,3,Ice/timeout occasional hang-at-exit on AIX
+483,2019-08-19 16:26:19.000000000,2019-08-19 22:28:25.000000000,closed,1,slice2js: Typescript and forward declarations
+482,2019-08-19 13:36:11.000000000,2019-09-06 21:20:29.000000000,closed,13,"Implement server name indication (SNI) for OpenSSL and SecureTransport backends (new property `IceSSL.ServerNameIndication`, default disabled)"
+481,2019-08-15 19:55:25.000000000,2019-08-20 17:42:18.000000000,closed,0,Move IceBox.PrintServicesReady output after creation of Admin object.
+480,2019-08-14 13:46:41.000000000,2019-09-03 19:27:52.000000000,closed,2,exception building .NET Core test on macOS high sierra
+479,2019-08-14 13:36:17.000000000,2019-09-04 19:56:35.000000000,closed,0,IceStorm/single test failure on debian9
+478,2019-08-09 20:03:51.000000000,2019-08-09 22:26:08.000000000,closed,4,Android Test failing for WS
+477,2019-08-09 13:49:05.000000000,2019-08-09 18:33:51.000000000,closed,1, How to support Multiple Services
+476,2019-08-09 00:54:55.000000000,2019-08-09 11:28:04.000000000,closed,0,Fix links to use Rel version for release notes and release notes children pages
+475,2019-08-08 00:23:48.000000000,2019-08-08 17:27:08.000000000,closed,2,Android tests don't build
+474,2019-08-07 20:38:00.000000000,2019-08-20 00:40:49.000000000,closed,1,We get this segfault in archlinux CI build
+473,2019-08-06 23:46:48.000000000,2019-08-07 13:05:22.000000000,closed,0,javadoc warnings on 3.6
+472,2019-08-05 20:26:31.000000000,2019-08-05 21:44:52.000000000,closed,0,JavaScript browser test Ice/ami hangs Safari
+471,2019-08-04 00:50:01.000000000,2019-08-20 17:42:17.000000000,closed,2,IceStorm test script doesn't wait for IceStorm to be fully started
+470,2019-08-03 00:56:45.000000000,2019-08-23 00:11:35.000000000,closed,2,Ice/hold hang at exit on AIX
+469,2019-08-02 21:45:14.000000000,2019-09-03 20:06:45.000000000,closed,1,Improve SocketException error description 
+468,2019-08-02 18:47:40.000000000,2019-08-02 21:18:21.000000000,closed,0,C++/Swift Ice/exception cross testing failure
+467,2019-08-01 01:15:40.000000000,2019-08-15 18:20:10.000000000,closed,6,Add (preliminary) support for macOS Catalina
+466,2019-08-01 00:01:57.000000000,2019-08-05 14:31:00.000000000,closed,1,IceSSL/configuration timeout failures with iphonesimulator
+465,2019-07-31 18:38:10.000000000,2019-08-06 18:04:15.000000000,closed,1,Do not omit param names for documented params
+464,2019-07-25 13:55:16.000000000,2019-07-25 15:19:58.000000000,closed,0,IceGrid node terminates the session with the registry on Ctrl-C
+463,2019-07-24 19:53:56.000000000,2019-08-15 23:05:52.000000000,closed,8,icegrid/icestorm freezes when network link goes down
+462,2019-07-23 22:34:30.000000000,2019-08-17 00:19:09.000000000,closed,3,C++11 lots of fields
+461,2019-07-23 21:46:15.000000000,2019-07-25 20:52:34.000000000,closed,1,Ruby IceSSL load failure on macOS mojave 
+460,2019-07-23 21:43:26.000000000,2019-07-25 19:42:00.000000000,closed,0,IceUtil/stacktrace failure with mojave 3.6 ci job
+459,2019-07-23 20:10:18.000000000,2019-07-30 00:47:46.000000000,closed,0,Fixes for #450
+458,2019-07-23 19:12:47.000000000,2019-07-31 15:13:50.000000000,closed,9,C++11  enum in struct error with compiled code
+457,2019-07-23 19:07:36.000000000,2019-08-05 15:38:25.000000000,closed,0,Fix doc.zeroc.com URLs
+456,2019-07-23 17:24:13.000000000,2019-08-15 02:28:42.000000000,closed,1,Add Ice/services tests to the Swift mapping
+455,2019-07-23 01:16:47.000000000,1970-01-01 00:00:00.000000001,open,0,Update Java build layout to work with multi-module mode
+454,2019-07-22 23:26:30.000000000,2019-07-23 00:56:35.000000000,closed,1,alljavadoc target no longer works
+453,2019-07-22 14:44:20.000000000,2019-07-23 00:54:35.000000000,closed,1,Javadoc generation issue with Java 12
+452,2019-07-22 11:36:35.000000000,2019-07-22 12:01:05.000000000,closed,1,IceGrid crypt passwords properties don't work with collocated registry
+451,2019-07-19 19:54:11.000000000,2019-07-20 00:44:27.000000000,closed,0,Rename ICEOBJC_API to ICEIMPL_API
+450,2019-07-18 22:21:36.000000000,2019-07-30 00:47:48.000000000,closed,0,Improve Swift interceptor test
+449,2019-07-18 15:18:02.000000000,2019-07-18 20:09:16.000000000,closed,1,"Fixed non-thread safe AMD dispatch, fixes #448"
+448,2019-07-17 22:40:28.000000000,2019-07-18 20:09:18.000000000,closed,0,AMD dispatch retries not thread-safe in C# and Java
+447,2019-07-16 18:03:54.000000000,2019-07-16 18:09:54.000000000,closed,0,js/objetive-c cross test failure
+446,2019-07-16 13:25:37.000000000,2019-07-16 20:54:48.000000000,closed,0,Ice/interceptor test not thread safe
+445,2019-07-16 13:07:21.000000000,1970-01-01 00:00:00.000000001,open,0,Improve Python custom mapping for memoryview/array/ndarray sequences
+444,2019-07-16 01:24:16.000000000,2019-07-16 14:50:51.000000000,closed,0,Fixes for python custom sequence mapping
+443,2019-07-12 18:59:48.000000000,2019-09-05 21:02:00.000000000,closed,3,Warnings when running testsuite with python_d
+442,2019-07-12 17:16:48.000000000,2019-07-12 18:01:03.000000000,closed,0,amzn2 --es5 unknown option
+441,2019-07-12 11:27:19.000000000,2019-07-16 13:39:05.000000000,closed,1,Tests build failure with JDK 1.7
+440,2019-07-12 00:12:53.000000000,2019-07-18 19:23:00.000000000,closed,0,Dispatch fixes for #421
+439,2019-07-11 15:39:05.000000000,2019-07-12 18:45:41.000000000,closed,4,Xamarin build failures
+438,2019-07-11 12:32:35.000000000,2019-07-11 13:31:55.000000000,closed,1,Ice/objects test build failure with Objective-C test iOS controller project
+437,2019-07-11 12:24:15.000000000,2019-07-11 18:39:25.000000000,closed,1,Android fails to build
+435,2019-07-10 20:02:57.000000000,2019-07-18 20:14:37.000000000,closed,3,Throwing exceptions from dispatch-interceptors causes UnsupportedEncodingException
+434,2019-07-10 19:13:32.000000000,2019-07-15 13:14:32.000000000,closed,0,"Port to AIX with g++, xlC_r and xlclang++"
+433,2019-07-10 18:20:07.000000000,2019-07-17 19:47:17.000000000,closed,1,TypeError from browser testing causes hang of allTests.py
+432,2019-07-09 12:43:11.000000000,2019-07-11 15:15:21.000000000,closed,1,RHEL8 Ruby crash
+431,2019-07-09 12:35:26.000000000,2019-07-11 15:15:21.000000000,closed,0,RHEL8 Java IceSSL/configuration test failure
+430,2019-07-06 12:52:58.000000000,2019-07-24 07:32:49.000000000,closed,2,Why does the Object2 and ObjectPrx generated by slice2java have static methods?
+429,2019-07-05 01:25:15.000000000,2019-07-05 15:32:44.000000000,closed,0,Remove deprecated @babel/polyfill dependency
+428,2019-07-04 16:28:01.000000000,2019-07-04 20:43:03.000000000,closed,0,Android tests no longer build against binary distribution
+427,2019-07-04 16:24:51.000000000,2019-07-09 23:45:02.000000000,closed,3,IceSSL/configuration certificate verification failure on bionic64
+426,2019-07-02 18:04:28.000000000,2019-07-05 20:21:45.000000000,closed,1,C# Glacier2/router test failure on archlinux
+425,2019-06-27 00:35:12.000000000,1970-01-01 00:00:00.000000001,open,0,Rework com.zeroc.IceMX to not create Java Split packages
+424,2019-06-26 22:57:30.000000000,1970-01-01 00:00:00.000000001,open,0,SlicedData slices should be read-only
+423,2019-06-25 17:01:37.000000000,2019-07-02 01:52:38.000000000,closed,3,Add support for the Swift Package Manager
+422,2019-06-25 16:58:22.000000000,2019-06-28 01:33:03.000000000,closed,1,clear method missing on Ice.SlicedData in Swift
+421,2019-06-22 01:18:17.000000000,2019-07-18 20:13:57.000000000,closed,1,Disp.dispatch should return a Promise
+420,2019-06-21 13:12:17.000000000,2019-07-02 14:02:09.000000000,closed,3,Check sysconf errors Close #418
+419,2019-06-21 00:47:40.000000000,2019-06-24 19:28:12.000000000,closed,1,Wconversion
+418,2019-06-19 17:00:08.000000000,2019-07-02 14:02:11.000000000,closed,0,Always check sysconf error
+417,2019-06-15 02:22:52.000000000,1970-01-01 00:00:00.000000001,open,0,Simplify DispatchInterceptor API
+416,2019-06-06 11:00:35.000000000,1970-01-01 00:00:00.000000001,open,0,"IceInternal.Instance implements Function<String, Class<?>>"
+415,2019-06-04 13:34:53.000000000,2019-06-28 11:20:22.000000000,closed,0,"Added back caching of output stream, fixes #414"
+414,2019-06-04 12:10:56.000000000,2019-06-28 11:20:23.000000000,closed,1,Add back caching of output stream for dispatch response
+413,2019-06-03 19:35:27.000000000,1970-01-01 00:00:00.000000001,open,0,Remove IPEnpointInfoI
+412,2019-05-17 11:40:32.000000000,2019-06-04 15:32:23.000000000,closed,1,"IcePHP_defineSequence() expects parameter 2 to be object, null given"
+411,2019-05-16 19:48:27.000000000,2019-06-28 17:01:35.000000000,closed,0,Make build system dependency computation issue when building against installed bin dist
+410,2019-05-13 07:52:23.000000000,2019-05-13 13:24:25.000000000,closed,4,Question: How to passing class/struct instances by reference on ice 3.7
+409,2019-05-10 07:12:25.000000000,2019-05-13 13:31:25.000000000,closed,14,Combine with spring And read old server code(even updated)
+408,2019-05-09 05:12:56.000000000,2019-05-13 12:58:25.000000000,closed,3,gcc 9 complains that it is creating an implicit copy constructor.
+407,2019-05-07 11:05:28.000000000,2019-06-04 15:34:32.000000000,closed,0,Fix the reading of the error message from the Service class
+406,2019-04-29 21:28:34.000000000,2019-06-06 23:26:12.000000000,closed,1,Incorrect generated code for class implements interface (C++11)
+405,2019-04-26 00:52:53.000000000,2019-04-26 18:21:35.000000000,closed,2,"Slice2java missing XXXPrxHelper.java, XXXPrxHolder.java etc in files generation"
+404,2019-04-24 18:14:36.000000000,2019-06-21 14:01:13.000000000,closed,0,Collocated test not run by tests/Ice/retry.py
+403,2019-04-24 12:08:10.000000000,2019-06-07 13:43:55.000000000,closed,0,bogus loop in IceGrid/Activator
+402,2019-04-23 07:39:54.000000000,2019-06-21 13:16:31.000000000,closed,3,support flutter?
+401,2019-04-22 20:52:05.000000000,2019-06-21 23:15:22.000000000,closed,0,Unnecessary registerIceWS in Ice for MATLAB
+400,2019-04-19 00:12:47.000000000,2019-06-24 15:59:44.000000000,closed,0,Ice for MATLAB doesn't check Ice.ClassGraphDepthMax
+399,2019-04-18 21:02:43.000000000,2019-06-21 14:52:23.000000000,closed,0,Ice/invoke test only run with default sync server
+398,2019-04-17 10:23:36.000000000,2019-05-31 16:50:08.000000000,closed,0,Xamarin C# controller no longer builds
+397,2019-04-17 07:18:07.000000000,2019-06-21 13:19:12.000000000,closed,9,Can support rust language？
+396,2019-04-12 18:32:04.000000000,1970-01-01 00:00:00.000000001,open,0,Change C++ APIs that accept durations to use std::chrono::duration
+395,2019-04-12 13:48:42.000000000,2019-06-27 20:47:23.000000000,closed,0,test Ice/ami should assert if hit monitor timeout
+394,2019-04-11 22:53:47.000000000,2019-06-24 19:08:48.000000000,closed,0,checkedCast with facet and MATLAB
+393,2019-04-09 23:24:12.000000000,1970-01-01 00:00:00.000000001,open,0,Replace Value's ice_postUnmarshal and ice_preMarshal
+392,2019-04-09 14:03:41.000000000,2019-07-10 01:50:00.000000000,closed,4,libzeroc-ice3.7 not co-installable
+391,2019-04-05 19:32:55.000000000,2019-06-07 14:34:29.000000000,closed,1,Fix Swift mapping for optional parameters
+390,2019-04-05 19:26:42.000000000,2019-06-06 11:57:39.000000000,closed,0,Ice/proxy failures with WSS
+389,2019-04-04 11:32:47.000000000,1970-01-01 00:00:00.000000001,open,0,Add address information to socket exception or a new exception
+388,2019-04-03 22:19:33.000000000,2019-04-03 22:59:12.000000000,closed,3,"Unmarshalling ""enumerator out of range"" when Enum has undefined 0 value in Slice definition"
+387,2019-04-03 21:04:47.000000000,2019-05-13 12:58:26.000000000,closed,0,Build failures with GCC 9
+386,2019-04-03 12:19:50.000000000,2019-06-27 20:15:55.000000000,closed,0,Typo in C# optionals test
+385,2019-04-02 20:07:15.000000000,1970-01-01 00:00:00.000000001,open,0,Remove Ice exception cloning
+384,2019-04-02 19:41:14.000000000,2019-04-02 22:42:02.000000000,closed,3,"[""swift:class""] and Hashable"
+383,2019-03-29 00:52:31.000000000,1970-01-01 00:00:00.000000001,open,0,Use switch(string) for operation dispatch in Java and C#
+382,2019-03-22 22:47:38.000000000,2020-03-07 00:32:04.000000000,closed,2,Review C# mapping for structs
+381,2019-03-22 11:43:36.000000000,2019-03-22 13:17:54.000000000,closed,1,is there a plan  to provide swift version for using in ios?
+380,2019-03-21 16:50:14.000000000,2019-06-21 14:22:53.000000000,closed,0,Review C# dictionary testing in Ice/operations
+379,2019-03-21 16:47:11.000000000,2019-06-22 01:08:56.000000000,closed,1,Fix doc comment in ice_flushBatchRequestsAsync
+378,2019-03-20 07:47:29.000000000,2019-03-20 07:47:33.000000000,closed,0,Need Swift
+377,2019-03-19 21:24:01.000000000,2019-06-21 13:52:05.000000000,closed,0,Test true is not required
+376,2019-03-19 18:38:14.000000000,2019-06-22 00:30:38.000000000,closed,5,Fixes #369 
+375,2019-03-19 17:56:32.000000000,1970-01-01 00:00:00.000000001,open,0,Revise C++ include style
+374,2019-03-19 12:49:44.000000000,1970-01-01 00:00:00.000000001,open,0,Support for custom types in the generated code
+373,2019-03-19 12:15:07.000000000,2019-06-25 15:07:13.000000000,closed,0,Performance improvements for C# streaming
+372,2019-03-15 01:17:47.000000000,2020-03-10 03:36:47.000000000,closed,1,Make colon (:) an alias for extends
+371,2019-03-15 01:08:57.000000000,1970-01-01 00:00:00.000000001,open,0,Allow anonymous sequence and dictionaries
+370,2019-03-15 00:41:30.000000000,1970-01-01 00:00:00.000000001,open,0,Remove nonmutating metadata 
+369,2019-03-15 00:29:56.000000000,2019-06-22 00:29:58.000000000,closed,0,Remove outdated nonmutating comment
+368,2019-03-14 02:18:38.000000000,2019-06-04 15:37:38.000000000,closed,0,extraneous catch in Ice/proxy C# test
+367,2019-03-12 14:01:27.000000000,2019-06-25 14:24:58.000000000,closed,0,Review missing calls to writePendingValues/readPendingValues in stream test
+366,2019-03-12 13:55:27.000000000,1970-01-01 00:00:00.000000001,open,0,Remove ValueWriter/ValueReader
+365,2019-03-12 01:54:29.000000000,2019-06-06 11:56:52.000000000,closed,0,Duplicates in ice.vcxproj.filters and iceuwp++11.vcxproj
+364,2019-03-09 04:36:41.000000000,1970-01-01 00:00:00.000000001,open,0,Move splitScopedName to Slice/SliceUtil.cpp
+363,2019-03-08 00:25:40.000000000,2019-06-22 02:23:23.000000000,closed,1,Enable -Wshorten-64-to-32 with Clang
+362,2019-03-07 12:21:19.000000000,2019-06-25 12:20:55.000000000,closed,1,Ice/exceptions failures on archlinux
+361,2019-02-28 05:09:59.000000000,2020-03-07 00:21:57.000000000,closed,1,Remove exceptions to Async Exception Semantics Rules
+360,2019-02-28 01:38:23.000000000,2019-11-04 21:54:22.000000000,closed,1,Replace `cpp:noexcept` with `noexcept`
+359,2019-02-28 01:26:46.000000000,2019-11-04 21:55:19.000000000,closed,2,nonnull keyword for proxies and classes
+358,2019-02-26 17:30:52.000000000,2019-02-26 20:48:45.000000000,closed,8,Correct warnings emitted by doxygen
+357,2019-02-25 22:37:24.000000000,2019-06-21 14:03:02.000000000,closed,0,Unused data member _modulePrefix in slice2js compiler
+356,2019-02-22 03:05:17.000000000,2019-06-22 01:11:59.000000000,closed,0,ice_isFixed missing
+355,2019-02-21 23:30:47.000000000,2019-06-24 23:38:47.000000000,closed,4,FormatMessage arguments
+354,2019-02-20 18:15:26.000000000,2019-06-21 12:09:55.000000000,closed,0,Unnecessary unsafe code in IceInternal.Network class
+353,2019-02-20 15:53:15.000000000,2019-06-25 12:52:53.000000000,closed,1,SSL interoperability issues between Java and C++ on ArchLinux
+352,2019-02-20 14:54:28.000000000,2019-06-28 17:01:35.000000000,closed,0,Ice for Python deadlock
+351,2019-02-20 01:29:42.000000000,1970-01-01 00:00:00.000000001,open,1,Custom mapping for values
+350,2019-02-19 14:24:18.000000000,2019-06-21 02:07:31.000000000,closed,0,Incorrect documentation for C++ generated structs
+349,2019-02-12 00:09:47.000000000,1970-01-01 00:00:00.000000001,open,0,Consider removing default OpenSSL DH params
+348,2019-02-08 23:36:26.000000000,2019-06-25 01:12:16.000000000,closed,0,shadows declaration warnings
+347,2019-02-08 23:25:56.000000000,2019-02-11 23:55:34.000000000,closed,1,IceSSL/configuration failure with debian SID
+346,2019-02-03 03:54:12.000000000,2019-07-08 18:02:35.000000000,closed,0,test/Slice/parser not build with linux
+345,2019-02-01 11:09:53.000000000,2019-02-01 11:22:27.000000000,closed,0,IceStorm/Election.ice:303: syntax error
+344,2019-01-30 04:07:00.000000000,2019-01-30 17:36:31.000000000,closed,1,gradle warnings building java tests
+343,2019-01-29 13:39:10.000000000,2019-08-29 20:27:28.000000000,closed,0,Ice/admin test hang on with iOS C++11 testing
+342,2019-01-26 03:53:57.000000000,2019-01-28 21:43:50.000000000,closed,3,IceBox failure testing binary compatibility
+341,2019-01-24 03:22:20.000000000,2019-01-24 03:43:52.000000000,closed,2,IceBoxNet should print version to stderr
+340,2019-01-24 01:41:50.000000000,2019-01-24 22:40:03.000000000,closed,1,C++ iOS Test Controller crash when display goes to sleep
+339,2019-01-23 23:56:29.000000000,2019-01-24 03:45:22.000000000,closed,0,icebox Java/C# command invalid argument parsing
+338,2019-01-19 00:50:48.000000000,2019-01-19 00:56:56.000000000,closed,0,Java IceSSL/configuration failure with anonymous ciphers
+337,2019-01-16 22:19:45.000000000,1970-01-01 00:00:00.000000001,open,0,Remove slice2confluence and slice2html
+336,2019-01-16 11:55:25.000000000,2019-02-08 23:38:46.000000000,closed,7,Sometime IceInternal.Outgoing.invoke method ends in infinite loop and creates high cpu utilization
+335,2019-01-15 23:02:58.000000000,1970-01-01 00:00:00.000000001,open,1,Add IceSSL interoperability test
+334,2019-01-15 14:43:45.000000000,1970-01-01 00:00:00.000000001,open,0,Allow hot reload of SSL certificates
+333,2019-01-15 08:37:34.000000000,2019-01-15 14:09:39.000000000,closed,1,How can I configure a servant run in a same thread per connection? 
+332,2019-01-15 00:33:33.000000000,1970-01-01 00:00:00.000000001,open,1,Review IceSSL protocol defaults
+331,2019-01-12 08:42:54.000000000,2019-01-12 20:37:32.000000000,closed,2,IceStorm中订阅者是否可以通过标签过滤收到的消息？
+330,2019-01-12 02:31:57.000000000,2019-01-15 23:04:33.000000000,closed,9,Enable TLS 1.3 in all IceSSL engines
+329,2019-01-12 02:29:05.000000000,2019-01-15 17:47:45.000000000,closed,1,IceSSL/configuration failure when SSLv3 is disabled in OpenSSL
+328,2019-01-10 23:39:03.000000000,2019-01-10 23:46:56.000000000,closed,0,yocto 2.6 build failure
+327,2019-01-09 02:35:38.000000000,2019-01-09 02:36:49.000000000,closed,1,Ruby 2.6 build failures
+326,2019-01-04 23:25:48.000000000,1970-01-01 00:00:00.000000001,open,2,Consider adding ssl support for NodeJS
+325,2018-12-28 18:13:59.000000000,2019-02-08 01:24:03.000000000,closed,2,Util.cpp:212:18: error: call of overloaded ‘DbEnv(int)’ is ambiguous      DbEnv dbEnv(0);
+324,2018-12-28 15:28:50.000000000,2019-01-11 00:47:50.000000000,closed,5,WIP: It was introduced cmake build system
+323,2018-12-27 07:26:50.000000000,2019-01-11 01:05:46.000000000,closed,1,Is there a plan to support golang?
+322,2018-12-21 15:26:12.000000000,2018-12-22 00:51:54.000000000,closed,1,.NET Core 3 preview
+321,2018-12-19 15:09:00.000000000,2018-12-20 01:16:37.000000000,closed,0,Global metadata code style
+320,2018-12-19 02:19:43.000000000,2018-12-19 16:50:36.000000000,closed,2,Cleanup Slice/errorDetection files
+319,2018-12-18 20:10:44.000000000,2018-12-19 17:45:08.000000000,closed,1,Update copyright notice
+318,2018-12-17 17:16:08.000000000,2018-12-17 21:47:22.000000000,closed,0,Remove Promise.prototype.finally custom implementation
+317,2018-12-14 21:47:15.000000000,2018-12-15 22:48:58.000000000,closed,0,NuGet licenseURL deprecated
+316,2018-12-14 03:09:05.000000000,2018-12-14 03:28:21.000000000,closed,0,js/Ice/adapterDeactivation failure on Safari
+315,2018-12-11 01:48:18.000000000,2018-12-13 23:28:48.000000000,closed,3,Failure running test suite on Raspberry PI 3B/Android Things
+314,2018-12-05 01:23:31.000000000,2018-12-06 00:20:49.000000000,closed,0,"Removes Ice.Application from IceBox in Java, Java-Compat, and C#"
+313,2018-11-30 16:45:04.000000000,1970-01-01 00:00:00.000000001,open,2,Look into submit Ice updates to bionic
+312,2018-11-30 16:38:49.000000000,2018-12-07 15:01:37.000000000,closed,0,Document distributions that already include Ice 
+311,2018-11-30 00:14:31.000000000,2018-12-04 00:13:24.000000000,closed,0,Compilation error when building ice php5 debug
+310,2018-11-29 20:33:32.000000000,2018-12-10 22:21:21.000000000,closed,0,Can't set MCPP_HOME
+309,2018-11-28 20:05:09.000000000,2018-12-06 04:45:02.000000000,closed,3,error TS2503: Cannot find namespace 'iceNS0'.
+308,2018-11-24 19:01:27.000000000,2018-11-27 01:30:47.000000000,closed,2,Log enhancement by renaming argv[0] to appName
+307,2018-11-24 19:00:21.000000000,2018-11-28 01:08:22.000000000,closed,3,"Add ""error"" in static text when handling IceUtilInternal::BadOptException"
+306,2018-11-24 18:45:02.000000000,2018-12-04 03:10:34.000000000,closed,4,"update consoleOut to consoleErr when handling return value of isSet(""version"")"
+305,2018-11-23 17:23:33.000000000,2018-12-06 00:22:36.000000000,closed,1,Always enable error checks for mutexes
+304,2018-11-21 21:45:03.000000000,2018-11-23 01:42:40.000000000,closed,0,Missing cause in TypeScript mapping for UserException
+303,2018-11-21 21:06:11.000000000,2018-11-21 21:55:29.000000000,closed,1,Wrong python-config used when PYTHON is is set to an absolute path
+302,2018-11-20 23:34:52.000000000,2018-11-23 01:42:39.000000000,closed,0,Class without operations should not generate Prx definiton for TypeScript 
+301,2018-11-20 22:33:09.000000000,2018-12-11 15:37:30.000000000,closed,0,ConnectionFactory assert after FD limit test
+300,2018-11-20 15:19:11.000000000,2018-11-21 20:59:10.000000000,closed,2,IcePy no longer builds with macOS system Python
+299,2018-11-20 14:43:42.000000000,2018-12-07 02:01:30.000000000,closed,1,Review Android lint warnings
+298,2018-11-19 17:31:06.000000000,2018-11-19 21:19:31.000000000,closed,0,IceGridGUI delete button not disabled after deleting last application
+297,2018-11-15 00:57:48.000000000,2018-11-15 02:59:52.000000000,closed,0,Ice/udp test kills controller on Android
+296,2018-11-13 15:40:15.000000000,2018-11-13 16:17:11.000000000,closed,0,Enable wildcard expansion for Windows executables
+295,2018-11-13 03:04:17.000000000,2018-11-13 16:53:49.000000000,closed,0,Do not compare char to EOF
+294,2018-11-12 19:09:33.000000000,2018-11-20 21:46:47.000000000,closed,1,JavaScript Ice/exception test failure
+293,2018-11-12 16:55:40.000000000,2018-11-19 18:26:43.000000000,closed,1,icegridnode service test failure
+292,2018-11-12 13:23:00.000000000,2018-11-13 19:09:49.000000000,closed,2,Fix EASession leak in iAPConnector
+291,2018-11-12 13:13:14.000000000,2018-11-15 23:14:22.000000000,closed,4,assert following FD limit test
+290,2018-11-10 00:17:46.000000000,2018-11-23 21:59:20.000000000,closed,1,Document TypeScript support
+288,2018-11-09 14:43:39.000000000,2018-11-23 21:59:31.000000000,closed,1,Document Ice for Python improvements for sequence mapping
+287,2018-11-08 22:20:33.000000000,2018-11-09 16:20:30.000000000,closed,3,Glacier2/callback NullPointerException with Java11
+286,2018-11-08 01:31:17.000000000,1970-01-01 00:00:00.000000001,open,2,Add support for Java modules
+285,2018-11-07 12:57:38.000000000,2018-11-09 02:31:15.000000000,closed,0,Look into supporting JavaFX 
+284,2018-11-07 07:47:53.000000000,2018-11-08 01:22:52.000000000,closed,1,If I use golang to develop code，what can i do using ice？
+283,2018-11-07 01:59:26.000000000,1970-01-01 00:00:00.000000001,open,0,Make serialVersionUID private
+282,2018-11-07 00:42:59.000000000,2018-11-07 02:12:06.000000000,closed,0,NodeJs deprecation warnings 
+281,2018-11-07 00:35:31.000000000,2018-11-07 01:18:23.000000000,closed,0,Remove unused IceSSL Util class
+280,2018-11-06 21:23:18.000000000,1970-01-01 00:00:00.000000001,open,4,Continue simplifying the streaming API
+279,2018-11-06 19:55:43.000000000,1970-01-01 00:00:00.000000001,open,0,_iceRead and _iceWrite on com.zeroc.Ice.Object
+278,2018-11-06 16:02:03.000000000,2018-11-09 20:28:07.000000000,closed,3,"IceGridGUI ""Connecting please wait"" popup not closed"
+277,2018-11-06 06:03:29.000000000,2018-11-08 01:22:11.000000000,closed,1,can support golang？
+276,2018-11-05 22:46:10.000000000,2018-11-06 12:03:08.000000000,closed,1,Do not create custom gradle wrapper task
+275,2018-11-05 18:49:16.000000000,2018-11-05 21:12:46.000000000,closed,0,static builds failures due to missing libsystemd
+274,2018-11-04 19:45:35.000000000,2018-11-09 00:20:53.000000000,closed,4,"Fix ""false"" in python tests"
+273,2018-11-03 23:22:25.000000000,2018-11-05 13:45:52.000000000,closed,0,Simplify Ice.PropertiesI ctor
+272,2018-11-03 21:08:57.000000000,2018-11-06 02:09:13.000000000,closed,1,JDK 11 build failures with Debian SID
+271,2018-11-03 02:09:07.000000000,2018-11-08 22:07:05.000000000,closed,0,Memoryview
+270,2018-11-03 00:53:45.000000000,2018-11-09 02:40:16.000000000,closed,0,"do not use ""false"" in python tests"
+269,2018-11-01 18:27:37.000000000,2018-11-01 22:34:33.000000000,closed,2,Bug in IceInternal::getPort UWP
+268,2018-10-31 14:22:42.000000000,2018-11-05 14:02:57.000000000,closed,0,Allow to build Xamarin tests using msbuild/ice.proj
+267,2018-10-31 13:42:58.000000000,2018-11-15 12:24:31.000000000,closed,0,Fix DWORD SOCKET_ERROR assignment
+266,2018-10-31 01:24:00.000000000,2018-11-03 00:59:13.000000000,closed,0,Enhance support for buffer objects in Python
+265,2018-10-30 20:40:49.000000000,2018-10-31 02:05:32.000000000,closed,1,slice2cpp bug with lowercase drive letter on Windows
+264,2018-10-30 18:13:11.000000000,2018-11-01 01:55:07.000000000,closed,0,Upgrade to gulp v4.0.0
+263,2018-10-30 12:56:10.000000000,2018-10-30 15:00:17.000000000,closed,0,C# build doesn't look up for the slice compiler it just built
+262,2018-10-29 23:54:58.000000000,2018-12-18 15:45:17.000000000,closed,4,JavaScript timeout test failure on Safari
+261,2018-10-29 23:53:29.000000000,2018-12-13 20:47:20.000000000,closed,0,IceGrid/activation test failure
+260,2018-10-26 18:15:15.000000000,2018-10-26 22:37:11.000000000,closed,1,"Python imp module deprecated, look into using importlib instead"
+259,2018-10-25 23:15:23.000000000,2018-10-29 21:31:36.000000000,closed,0,Add support for systemd Type=notify to Ice::Service
+258,2018-10-25 14:45:24.000000000,2018-10-25 14:49:06.000000000,closed,0,Service checkSystem no longer useful
+257,2018-10-23 17:17:06.000000000,2018-10-24 00:16:30.000000000,closed,0,Add metrics test for flushBatchRequests 
+256,2018-10-23 17:14:28.000000000,2018-10-23 17:16:13.000000000,closed,0,type conversion exception throw from slice2matlab generated code
+255,2018-10-23 16:57:07.000000000,2018-10-23 16:58:14.000000000,closed,0,Lookup of IceGrid query objects
+254,2018-10-23 13:46:42.000000000,1970-01-01 00:00:00.000000001,open,0,Improve PHP mapping for dictionaries
+253,2018-10-23 13:37:51.000000000,2018-10-26 14:29:37.000000000,closed,2,Safari test failing with workers and es5
+252,2018-10-23 05:48:10.000000000,2018-10-23 12:16:58.000000000,closed,1,Does Ice Grid provide customization of forward rule from application layer?
+251,2018-10-20 00:15:48.000000000,2018-11-02 23:46:19.000000000,closed,0,Simplify macOS dylib file names
+250,2018-10-18 18:27:38.000000000,2018-10-26 16:22:50.000000000,closed,0,Overqualification in C# generated code
+249,2018-10-18 01:24:30.000000000,2018-10-18 20:01:54.000000000,closed,0,Rework cs:namespace implementation (fix issue #239)
+248,2018-10-17 20:39:04.000000000,2018-11-21 03:20:36.000000000,closed,0,Not all local exceptions are handled in MATLAB
+247,2018-10-17 11:30:42.000000000,2018-10-26 16:31:40.000000000,closed,0,Use RangeError in JavaScript wherever we raise IllegalArgumentException in Java?
+246,2018-10-16 01:11:02.000000000,2018-10-18 22:29:02.000000000,closed,0,Empty namespaces in generated C# code
+245,2018-10-15 21:52:29.000000000,2018-10-16 00:56:24.000000000,closed,0,ServantError can result in Incomming.completed being called twice
+244,2018-10-11 20:42:10.000000000,1970-01-01 00:00:00.000000001,open,1,JS struct member not correctly escaped
+243,2018-10-10 15:15:13.000000000,2018-10-17 14:35:34.000000000,closed,0,Upgrade JS build to babel 7
+242,2018-10-10 12:08:24.000000000,2018-10-26 21:22:36.000000000,closed,1,Glacier2/router client crashes in IceSSL with stress testing
+241,2018-10-10 04:09:40.000000000,2018-10-10 18:48:38.000000000,closed,0,Missing newline in C++ generated code
+240,2018-10-10 01:47:23.000000000,2018-10-17 16:24:11.000000000,closed,1,always await communicator destroy in JS
+239,2018-10-10 00:20:07.000000000,2018-10-18 20:01:55.000000000,closed,1,Rework cs:namespace implementation
+238,2018-10-09 23:51:42.000000000,1970-01-01 00:00:00.000000001,open,1,_typeToClassMap in Java Instance
+237,2018-10-09 11:12:24.000000000,2018-10-10 18:48:38.000000000,closed,0,iOS C++98 controller not found
+236,2018-10-08 17:33:18.000000000,2018-10-17 16:48:57.000000000,closed,0,Print numeric value of ALG_ID instead of Unknown
+235,2018-10-04 18:29:07.000000000,2018-10-09 12:11:44.000000000,closed,0,CtrlCHandler's destructor does not clear callback
+234,2018-10-04 17:17:11.000000000,2018-10-19 22:22:10.000000000,closed,0,Document exception base class
+233,2018-10-02 17:36:01.000000000,2018-10-05 01:45:43.000000000,closed,1,Distribution testing: iOS controller build failure on macOS Mojave
+232,2018-10-02 17:31:55.000000000,2018-10-05 00:22:03.000000000,closed,0,IceUtil/stacktrace test fails with binary distribution testing on macOS Mojave
+231,2018-10-02 12:55:06.000000000,2019-02-08 23:38:27.000000000,closed,5,WSS on NodeJs
+230,2018-10-01 23:59:32.000000000,2018-10-02 00:09:03.000000000,closed,0,Program name not displayed with Syslog logger
+229,2018-10-01 18:26:02.000000000,1970-01-01 00:00:00.000000001,open,0,Fix JavaScript mapping for local operations out parameters
+228,2018-09-28 17:01:55.000000000,1970-01-01 00:00:00.000000001,open,0,Creating multiple successive router sessions with the same router and communicator
+227,2018-09-28 16:51:01.000000000,1970-01-01 00:00:00.000000001,open,0,Revisit Ice retries
+226,2018-09-28 16:50:30.000000000,1970-01-01 00:00:00.000000001,open,0,Improve invocation retry for replicated proxies
+225,2018-09-28 16:47:27.000000000,1970-01-01 00:00:00.000000001,open,0,Don't retry on SSL connection failure
+224,2018-09-28 16:33:54.000000000,1970-01-01 00:00:00.000000001,open,2,IceUtil exceptions converted as UnknownException in IcePy
+223,2018-09-27 19:49:17.000000000,2018-11-02 01:15:35.000000000,closed,1,Look into enabling additional compiler warnings for our source code and demos
+222,2018-09-27 11:34:20.000000000,2018-10-17 00:35:15.000000000,closed,1,modify the error that storm will only load one topic from mdb
+221,2018-09-27 05:37:06.000000000,2018-10-15 06:35:55.000000000,closed,9,using ice_secure(true) that make the first time call checkedCast() take too long
+220,2018-09-27 01:18:41.000000000,1970-01-01 00:00:00.000000001,open,0,Add noexcept to C++ proxy functions that do not throw
+219,2018-09-26 18:57:35.000000000,2018-10-24 19:51:25.000000000,closed,0,provide IceSSL::ConnectionInfo with matlab
+218,2018-09-26 15:17:31.000000000,2018-10-26 19:42:06.000000000,closed,0,Better detect debian derivatives 
+217,2018-09-26 13:04:48.000000000,2019-07-16 19:32:54.000000000,closed,6,csharp Ice/metrics test failure with .netcore
+216,2018-09-26 13:02:30.000000000,2018-09-26 14:18:46.000000000,closed,1,java-compat Ice/interrupt test failure
+215,2018-09-26 00:13:49.000000000,2018-09-26 10:21:46.000000000,closed,0,python Ice/info failure
+214,2018-09-25 00:38:18.000000000,2019-11-04 21:57:02.000000000,closed,1,Passing an interface by value is deprecated for local operations
+213,2018-09-25 00:31:14.000000000,1970-01-01 00:00:00.000000001,open,0,Deprecate Object used as Value
+212,2018-09-24 10:43:56.000000000,2018-09-24 15:36:35.000000000,closed,2,C# Ice/objects build failure
+211,2018-09-23 00:56:28.000000000,1970-01-01 00:00:00.000000001,open,0,C++ mapping for Slice deprecate metadata
+210,2018-09-23 00:43:00.000000000,1970-01-01 00:00:00.000000001,open,0,"""deprecate"" metadata"
+209,2018-09-21 22:53:57.000000000,2018-09-24 19:28:14.000000000,closed,0,clang documentation warnings
+208,2018-09-21 12:17:21.000000000,2018-11-08 22:07:06.000000000,closed,1,Enhance support for buffer objects in Python
+207,2018-09-20 00:20:29.000000000,1970-01-01 00:00:00.000000001,open,1,Eliminate Ice.Default.Package and Ice.Package.<module>
+206,2018-09-20 00:04:47.000000000,2018-09-24 19:43:49.000000000,closed,0,C++11 test in IceUtil/Config.h
+205,2018-09-19 16:58:20.000000000,1970-01-01 00:00:00.000000001,open,0,Debugging problem in Python binding?
+204,2018-09-19 14:46:01.000000000,2018-10-05 01:48:48.000000000,closed,3,Not available on Xcode10
+203,2018-09-13 11:32:50.000000000,2018-09-13 12:07:21.000000000,closed,1,Fix compiling classes with fields of type Value to JS
+202,2018-09-12 00:31:31.000000000,2018-09-12 19:06:50.000000000,closed,0,Replace `php:internal` and `matlab:internal` by compiler macro
+201,2018-09-11 19:03:13.000000000,2018-10-23 14:20:51.000000000,closed,0,"Fix icegridadmin, nodes and registries to use ACM heartbeats"
+200,2018-09-11 12:27:57.000000000,2018-10-25 12:11:43.000000000,closed,5,JavaScript Ice/timeout hang
+199,2018-09-10 22:44:33.000000000,1970-01-01 00:00:00.000000001,open,0,checkedCast optimization
+198,2018-09-06 09:24:44.000000000,2018-09-06 16:11:20.000000000,closed,2,Unable to create temporary channel from ICE interface
+197,2018-09-05 20:10:42.000000000,1970-01-01 00:00:00.000000001,open,0,Thousands separator and stringified proxies
+196,2018-09-05 19:59:59.000000000,2018-09-19 18:56:17.000000000,closed,0,Removed Application from Ice Services
+195,2018-09-04 23:37:06.000000000,2018-10-19 16:47:08.000000000,closed,1,Upgrade lmdb to 0.9.22 on EL7
+194,2018-09-04 11:15:09.000000000,2018-11-09 13:53:04.000000000,closed,20,createObjectAdapterWithEndpoints not supported in Javascript
+193,2018-09-03 14:22:17.000000000,2018-10-19 14:17:11.000000000,closed,1,Remove references to repo.zeroc.com from Java 3.6 build system
+192,2018-08-27 11:35:47.000000000,2018-12-18 13:24:27.000000000,closed,1,java Ice/faultTolerance failure
+191,2018-08-27 11:23:26.000000000,2018-09-07 13:19:24.000000000,closed,1,When will Ice supports golang?
+190,2018-08-25 00:42:48.000000000,2018-09-04 20:31:51.000000000,closed,0,Reason missing from MATLAB UnsupportedProtocolException
+189,2018-08-22 00:30:28.000000000,2020-05-12 17:37:04.000000000,closed,3,Nested module definition such as com::zeroc::Demo
+188,2018-08-21 20:10:10.000000000,2018-08-22 14:17:31.000000000,closed,2,Update or remove appbundler
+187,2018-08-18 02:54:15.000000000,2018-09-03 13:38:24.000000000,closed,0,Remove unused ICE_LITTLEBYTE_BIGWORD
+186,2018-08-14 22:09:52.000000000,2018-11-08 19:15:28.000000000,closed,1,Replace test script uwp and dotnet flags with targets option
+185,2018-08-14 22:08:09.000000000,2018-09-04 21:18:28.000000000,closed,0,Enable test workers for PHP and Ruby mappings
+184,2018-08-14 22:06:16.000000000,2018-09-12 16:54:53.000000000,closed,0,Make test controllers layout more consistent
+183,2018-08-14 13:46:07.000000000,2018-09-04 15:11:17.000000000,closed,0,Set args[0] as the program name in test controllers
+182,2018-08-13 14:58:45.000000000,2018-09-03 13:38:24.000000000,closed,0,bogus buffer resize calling getpwnam_r  
+181,2018-08-13 13:46:47.000000000,2018-11-21 21:49:42.000000000,closed,3,NullPointerException in IceBT
+180,2018-08-09 18:51:58.000000000,2018-09-07 18:48:28.000000000,closed,0,Test Ice C++ in c++17 mode
+179,2018-08-09 02:14:25.000000000,2018-08-09 18:14:46.000000000,closed,2,Use C++17 optional when available
+178,2018-08-09 02:02:49.000000000,2018-08-09 18:14:35.000000000,closed,2,Fix compilation in C++17 mode
+177,2018-08-09 01:40:34.000000000,2018-08-09 18:14:22.000000000,closed,2,Use unordered map for storing servant map on C++11 compilers
+176,2018-08-09 01:09:02.000000000,2018-08-09 18:14:09.000000000,closed,2,Optimize proxy object creation
+175,2018-08-08 20:24:34.000000000,2018-09-10 15:41:02.000000000,closed,0,Review generated code for PHP local types 
+174,2018-08-08 16:38:20.000000000,2018-08-09 12:48:29.000000000,closed,1,cannot require generated code from class method
+173,2018-08-06 20:08:08.000000000,2018-08-09 18:56:30.000000000,closed,1,Ruby Ice::loadSlice only works on global scope
+172,2018-07-27 17:45:56.000000000,2018-07-28 00:03:10.000000000,closed,0,IcePHP sequences order
+171,2018-07-27 16:27:45.000000000,1970-01-01 00:00:00.000000001,open,0,Look into use clang format to enforce code style
+170,2018-07-27 16:07:58.000000000,1970-01-01 00:00:00.000000001,open,0,Reduce IceGridGUI log window settings
+169,2018-07-26 13:02:05.000000000,2018-07-26 13:56:54.000000000,closed,1,OpenSSLEngine instanceCount not always decremented
+168,2018-07-05 21:00:22.000000000,2018-08-13 21:14:08.000000000,closed,2,IceUtil Options incorrectly paring multiple short options
+167,2018-07-04 11:52:39.000000000,2019-07-08 19:36:21.000000000,closed,1,Ice/dispatcher test failure with C# / dotnet on macOS
+166,2018-07-03 17:36:52.000000000,1970-01-01 00:00:00.000000001,open,0,cache connection failure hint
+165,2018-07-03 17:25:08.000000000,1970-01-01 00:00:00.000000001,open,1,Make it easier to secure IceGrid deployments
+164,2018-07-03 16:58:54.000000000,2019-07-10 13:04:23.000000000,closed,1,IceStorm retryCount is only support for two-way subscribers
+163,2018-07-03 16:45:31.000000000,1970-01-01 00:00:00.000000001,open,0,Connection caching timeout
+162,2018-07-03 15:51:59.000000000,1970-01-01 00:00:00.000000001,open,0,Ease certificate verifier requirements
+161,2018-07-03 15:49:27.000000000,1970-01-01 00:00:00.000000001,open,0,Support customer metrics
+160,2018-07-03 15:41:58.000000000,1970-01-01 00:00:00.000000001,open,0,Extended struct type that supports optional data members
+159,2018-07-03 15:40:11.000000000,1970-01-01 00:00:00.000000001,open,0,Preserve optional members
+158,2018-07-03 15:38:59.000000000,1970-01-01 00:00:00.000000001,open,0,Consider using Windows registered IO
+157,2018-07-03 15:34:50.000000000,1970-01-01 00:00:00.000000001,open,2,Consider providing asynchronous version of blocking Ice APIs
+156,2018-07-03 15:25:05.000000000,1970-01-01 00:00:00.000000001,open,0,Consider implementing logger inheritance in IceGrid node
+155,2018-07-03 15:16:29.000000000,1970-01-01 00:00:00.000000001,open,0,Support for endpoint filtering
+154,2018-07-03 15:11:07.000000000,2018-07-27 15:59:36.000000000,closed,0,Look into replacing use of strerror with platform specific function
+153,2018-07-03 13:46:36.000000000,2018-09-14 15:10:01.000000000,closed,3,Improve Glacier2 category randomness
+152,2018-07-03 13:32:11.000000000,1970-01-01 00:00:00.000000001,open,3,Better map C++ exceptions to Python exceptions
+151,2018-07-03 12:43:40.000000000,2019-07-20 00:49:49.000000000,closed,14,Add cross-build instructions
+150,2018-07-03 12:40:29.000000000,1970-01-01 00:00:00.000000001,open,0,Improve Ice memory and allocations
+149,2018-07-03 12:26:37.000000000,1970-01-01 00:00:00.000000001,open,1,Improve SSL testing
+148,2018-07-03 12:25:12.000000000,1970-01-01 00:00:00.000000001,open,0,IceStorm requires full participation on startup
+147,2018-07-03 12:19:22.000000000,1970-01-01 00:00:00.000000001,open,2,Add support for Linux binary wheels?
+146,2018-06-29 01:30:13.000000000,1970-01-01 00:00:00.000000001,open,0,Refactor IceSSL to be a core plug-in built-in Ice library
+145,2018-06-29 01:05:22.000000000,1970-01-01 00:00:00.000000001,open,0,NodeJS ES5 code in npm package
+144,2018-06-29 00:14:58.000000000,1970-01-01 00:00:00.000000001,open,0,Allow to add Java annotations to generated types through metadata
+143,2018-06-28 23:07:17.000000000,1970-01-01 00:00:00.000000001,open,0,Use JS modules as default module mapping
+142,2018-06-28 22:56:11.000000000,1970-01-01 00:00:00.000000001,open,0,Consider adding variables to property files
+141,2018-06-28 22:44:59.000000000,1970-01-01 00:00:00.000000001,open,0,improve loadSlice to work like require_once
+140,2018-06-28 22:42:52.000000000,1970-01-01 00:00:00.000000001,open,0,IceGridGUI: No way to import or export a connection
+139,2018-06-28 22:40:17.000000000,1970-01-01 00:00:00.000000001,open,1,Consider adding an Include directive to config files
+138,2018-06-28 22:34:12.000000000,1970-01-01 00:00:00.000000001,open,0,C++ tests should print stack traces
+137,2018-06-28 22:24:35.000000000,1970-01-01 00:00:00.000000001,open,0,Deprecate SessionFactoryHelper setRouterIdentiy
+136,2018-06-28 21:50:25.000000000,1970-01-01 00:00:00.000000001,open,0,consider replacing IllegalArgumentException with std::invalid_argument
+135,2018-06-28 21:48:22.000000000,1970-01-01 00:00:00.000000001,open,0,Add support for Ice.Config in JavaScript
+134,2018-06-28 21:26:40.000000000,1970-01-01 00:00:00.000000001,open,0,batch auto flush + compression: udp send size limit potentially exceeded
+133,2018-06-28 21:20:23.000000000,1970-01-01 00:00:00.000000001,open,0,Fix IceSSL close to respect SSL protocol close
+132,2018-06-28 21:09:14.000000000,1970-01-01 00:00:00.000000001,open,1,GetVersionEx deprecated in Windows 8.1
+131,2018-06-28 21:02:19.000000000,2018-10-26 16:35:14.000000000,closed,1,Add sha256 signatures to Windows third-party binaries
+130,2018-06-28 20:59:21.000000000,2018-09-04 20:31:51.000000000,closed,0,Add support for root key suffix other than HKLM
+129,2018-06-28 19:04:12.000000000,1970-01-01 00:00:00.000000001,open,0,"Consider adding [""cpp:noexcept""] to more local operations"
+128,2018-06-28 05:54:58.000000000,2018-07-11 16:37:18.000000000,closed,2,can ice 3.5+ work in Red Hat 7 based on architecture aarch64 ??
+127,2018-06-28 01:35:00.000000000,1970-01-01 00:00:00.000000001,open,0,Add ice version variable to IceGrid
+126,2018-06-28 01:22:25.000000000,1970-01-01 00:00:00.000000001,open,0,Replace IceGrid.Node.CollocateRegistry by IceGrid.Registry.CollocateNode?
+125,2018-06-27 17:38:04.000000000,2018-12-18 13:17:39.000000000,closed,1,Add support for running cross-built binaries from NFS mount
+124,2018-06-27 17:25:04.000000000,1970-01-01 00:00:00.000000001,open,0,Review SliceData class implementation in all language mappings
+123,2018-06-27 13:16:28.000000000,2018-06-27 14:00:57.000000000,closed,0,Ice/dispatcher test hang
+122,2018-06-27 01:07:10.000000000,2018-06-28 17:53:11.000000000,closed,0,slice2cs generates invalid namespace qualification
+121,2018-06-26 11:42:58.000000000,2018-12-19 19:47:51.000000000,closed,1,IceGrid/allocation test triggering assert
+120,2018-06-22 01:29:35.000000000,2018-06-22 01:35:17.000000000,closed,1,Run time exception propagation
+119,2018-06-21 22:21:04.000000000,1970-01-01 00:00:00.000000001,open,0,Generate doc comments in PHP?
+118,2018-06-21 22:16:25.000000000,1970-01-01 00:00:00.000000001,open,0,Add atomic IceStorm operation to create or retrieve topic?
+117,2018-06-21 22:11:34.000000000,1970-01-01 00:00:00.000000001,open,1,Improve metadata validation
+116,2018-06-21 22:08:39.000000000,2018-07-26 15:15:00.000000000,closed,11,Review __setNoDelete usage pattern
+115,2018-06-21 22:06:51.000000000,1970-01-01 00:00:00.000000001,open,0,Add compression status to Current?
+114,2018-06-21 22:01:52.000000000,1970-01-01 00:00:00.000000001,open,0,Improve password mechanism for Glacier2 authentication?
+113,2018-06-21 22:00:05.000000000,1970-01-01 00:00:00.000000001,open,0,Disable collocation optimization for multicast?
+112,2018-06-21 21:57:23.000000000,1970-01-01 00:00:00.000000001,open,0,Replace Ice.Promise with standard JS promise
+111,2018-06-20 21:24:21.000000000,1970-01-01 00:00:00.000000001,open,0,Ability to intercept in and out marshaled parameters in dispatch interceptor
+110,2018-06-20 21:00:14.000000000,1970-01-01 00:00:00.000000001,open,0,Marshal/unmarshal Ice::Value by value in C++
+109,2018-06-20 20:54:55.000000000,1970-01-01 00:00:00.000000001,open,0,Consider improving 1.1 class unmarshaling to be iterative
+108,2018-06-20 20:48:54.000000000,2020-07-07 19:56:19.000000000,closed,1,Use foreground threads in C#
+107,2018-06-19 12:30:54.000000000,2018-11-20 17:57:35.000000000,closed,2,IcePy crash on exception marshalling
+106,2018-06-15 16:12:43.000000000,2019-02-08 23:37:51.000000000,closed,4,Problem trying to find  Slice
+105,2018-06-14 19:36:25.000000000,2018-06-21 11:10:38.000000000,closed,0,SSL handshake timeout with Android
+104,2018-06-14 18:57:36.000000000,2018-06-19 16:22:25.000000000,closed,0,slice2cpp generates invalid code wrt namespace qualification
+103,2018-06-14 18:27:33.000000000,1970-01-01 00:00:00.000000001,open,0,Review the use of ICE_CPP11_COMPILER in public headers
+102,2018-06-14 01:09:53.000000000,2018-08-10 23:57:07.000000000,closed,1,Test Ice for .NET with Xamarin on iOS and Android
+101,2018-06-14 00:33:29.000000000,2018-06-14 00:36:21.000000000,closed,2,Marshaling failure with Ice 3.7.1 C# with Unity 2018 on Android
+100,2018-06-12 11:16:53.000000000,2018-06-14 14:18:14.000000000,closed,6,server startup crash on ARM Linux
+99,2018-06-09 22:03:54.000000000,2018-10-29 15:28:37.000000000,closed,7,Typescript
+98,2018-06-08 15:46:00.000000000,2018-06-08 21:46:21.000000000,closed,0,Bogus generated code for interface by value sequence
+97,2018-06-07 23:22:58.000000000,2019-07-09 21:19:35.000000000,closed,11,Forward declarations limitation in ICE 3.7
+96,2018-06-05 00:49:00.000000000,2018-06-20 22:56:19.000000000,closed,5,build failure on macOS
+95,2018-06-05 00:06:35.000000000,2018-06-05 14:25:27.000000000,closed,0,cpp/Makefile cannot handle blanks in source path
+94,2018-06-01 13:45:27.000000000,2018-06-04 10:50:35.000000000,closed,3,AMI callback in a wrong thread
+93,2018-05-31 12:50:11.000000000,2019-01-10 19:05:35.000000000,closed,1,sporadic Ice/ami test failure with Android emulator
+92,2018-05-16 12:36:23.000000000,2018-06-08 21:46:22.000000000,closed,0,Port the stream test to JavaScript
+91,2018-05-16 11:34:05.000000000,2018-06-07 19:27:54.000000000,closed,1,Better handle shutdown of IceGrid registry from the GUI
+90,2018-05-15 17:08:45.000000000,2018-06-07 13:16:29.000000000,closed,0,IceGridGUI hangs on invalid login
+89,2018-05-13 15:27:35.000000000,2018-06-04 14:52:07.000000000,closed,0,JavaScript Buffer.reset should set limit to the new capacity
+88,2018-05-12 21:57:25.000000000,2018-06-04 14:52:07.000000000,closed,0,JavaScript Buffer.reserve doesn't srink the buffer
+87,2018-05-10 17:47:05.000000000,2018-05-11 12:48:13.000000000,closed,0,Undefined variable `ml` in test suite Util.py
+86,2018-05-10 15:18:34.000000000,2018-05-10 16:39:50.000000000,closed,3,TypeError: r.abort is not a function
+85,2018-05-09 16:03:10.000000000,2018-05-11 19:43:17.000000000,closed,0,cpp IceUtil/condvar test not run
+84,2018-05-09 11:20:33.000000000,2018-05-10 12:46:38.000000000,closed,1,Remove dependency on Visual Studio Extension for C# builds
+83,2018-05-07 12:09:43.000000000,2018-05-16 13:03:11.000000000,closed,4,"why can't my vs2010 project compiled shows ""LINK : fatal error LNK1104: cannot open file 'Ice37D.lib'""?"
+82,2018-05-04 22:22:00.000000000,2018-06-07 12:28:11.000000000,closed,1,Build failures with GCC 8
+81,2018-05-03 12:25:22.000000000,2018-10-19 01:26:44.000000000,closed,0,The Objective-C mapping always sets a logger on communicator initialization
+80,2018-05-03 01:09:42.000000000,2018-06-11 13:56:36.000000000,closed,0,Add note to slice2html man page mentioning it is now deprecated
+79,2018-05-02 18:30:10.000000000,2018-05-04 00:24:25.000000000,closed,0,PHP crash with windows debug builds
+78,2018-05-01 00:48:09.000000000,2018-11-19 21:19:30.000000000,closed,1,Update IceGrid GUI delete button
+77,2018-05-01 00:43:47.000000000,2018-09-13 23:41:31.000000000,closed,1,Add JavaScript test for escaped names
+76,2018-05-01 00:36:12.000000000,2018-06-12 01:08:20.000000000,closed,0,Move IceGrid GUI configuration data to os specific directories
+75,2018-04-30 22:44:23.000000000,2018-10-29 21:33:09.000000000,closed,1,Add support for systemd '--notify' to services
+74,2018-04-30 22:15:32.000000000,1970-01-01 00:00:00.000000001,open,0,Make shutdown and deactivate non-blocking?
+73,2018-04-30 20:05:21.000000000,2018-09-14 14:24:38.000000000,closed,2,name C++ threads with pthread_setname_np
+72,2018-04-30 20:03:17.000000000,2018-06-06 12:40:45.000000000,closed,3,Set alternate Windows report mode for tests and research minidumps
+71,2018-04-30 19:57:14.000000000,2018-11-08 01:12:45.000000000,closed,2,Support for HTML5 Javadoc
+70,2018-04-30 19:46:23.000000000,2018-09-12 19:22:34.000000000,closed,0,Deprecate Ice.Voip property
+69,2018-04-30 15:51:21.000000000,2018-05-04 00:24:25.000000000,closed,1,Hit StreamSocket assert 
+68,2018-04-30 13:58:18.000000000,2018-05-03 17:34:20.000000000,closed,3,Ice.SocketException running JavaScript test suite
+67,2018-04-28 06:44:26.000000000,2018-04-30 19:52:10.000000000,closed,1,When did you support golang?
+66,2018-04-28 02:02:36.000000000,1970-01-01 00:00:00.000000001,open,0,Tidy up marshal exceptions
+65,2018-04-28 00:50:18.000000000,1970-01-01 00:00:00.000000001,open,0,IceBox start/stop and load order
+64,2018-04-28 00:44:40.000000000,1970-01-01 00:00:00.000000001,open,0,Update JavaScript test suite to use Express/Koa
+63,2018-04-28 00:25:30.000000000,1970-01-01 00:00:00.000000001,open,0,Switch to new Windows Event Log API
+62,2018-04-27 23:59:02.000000000,2018-08-10 23:54:52.000000000,closed,1,Rework test util Application
+61,2018-04-27 23:14:12.000000000,2018-11-27 00:29:10.000000000,closed,1,"Add ""version box"" to Doxygen-generated API reference"
+60,2018-04-27 19:13:13.000000000,1970-01-01 00:00:00.000000001,open,2,Allow AMD and non-AMD servants to be generated
+59,2018-04-27 19:02:21.000000000,2018-10-29 14:04:45.000000000,closed,2,Provide new Glacier2 helpers
+58,2018-04-27 19:01:19.000000000,2018-04-30 18:35:54.000000000,closed,6,Allow FileParser.Endpoints to be set via Ice::Properties
+57,2018-04-27 18:59:03.000000000,1970-01-01 00:00:00.000000001,open,0,Considering adding pkg-config support for Linux and macOS installations.
+56,2018-04-27 17:21:02.000000000,1970-01-01 00:00:00.000000001,open,0,Research /dev/urandom concurrent access
+55,2018-04-27 12:58:46.000000000,2018-09-03 15:02:14.000000000,closed,0,Call SymRefreshModuleList?
+54,2018-04-27 12:42:15.000000000,2018-06-11 12:14:52.000000000,closed,0,Add third party license to NuGet packages
+53,2018-04-27 12:23:47.000000000,2018-09-14 11:46:35.000000000,closed,0,Remove cfg files created by Glacier2/staticFiltering
+52,2018-04-27 11:41:25.000000000,2018-06-11 13:38:47.000000000,closed,0,use ifndef around OS specific headers
+51,2018-04-27 02:37:44.000000000,2018-11-14 01:53:24.000000000,closed,0,No bidir test in Objective-C
+50,2018-04-27 02:16:29.000000000,2018-09-19 18:56:18.000000000,closed,1,Replace Ice::Application in utilities
+49,2018-04-27 01:51:52.000000000,1970-01-01 00:00:00.000000001,open,0,Consider adding destroyAsync on Communicator
+48,2018-04-27 01:48:42.000000000,1970-01-01 00:00:00.000000001,open,2,Eliminate catch(const char*)
+47,2018-04-27 01:45:21.000000000,1970-01-01 00:00:00.000000001,open,0,Replica logging when icegridnode connects to icegridregistry
+46,2018-04-27 01:40:33.000000000,1970-01-01 00:00:00.000000001,open,0,Add support for weak_ptr in C++11?
+45,2018-04-27 01:37:53.000000000,1970-01-01 00:00:00.000000001,open,0,Deprecate slice2java meta option
+44,2018-04-27 01:33:38.000000000,1970-01-01 00:00:00.000000001,open,0,Optional of type class in Compact Format (Requires encoding update!)
+43,2018-04-27 01:31:26.000000000,1970-01-01 00:00:00.000000001,open,0,Add icegridadmin service status
+42,2018-04-27 01:29:17.000000000,1970-01-01 00:00:00.000000001,open,0,Use libbacktrace for release builds with GCC >= 6.1
+41,2018-04-27 01:26:29.000000000,2018-06-06 12:39:29.000000000,closed,1,Update C++ tests to use CommunicatorHolder
+40,2018-04-27 01:23:45.000000000,1970-01-01 00:00:00.000000001,open,0,Warn about sync calls in UI thread
+39,2018-04-27 01:21:47.000000000,2018-07-26 13:56:54.000000000,closed,0,slice2cpp --impl sorts generated functions in alphabetical order
+38,2018-04-27 01:13:25.000000000,1970-01-01 00:00:00.000000001,open,0,IceGrid federation
+37,2018-04-27 01:11:09.000000000,1970-01-01 00:00:00.000000001,open,0,Admin tool without IceGrid
+36,2018-04-27 01:02:07.000000000,1970-01-01 00:00:00.000000001,open,0,Need joinString with escapes
+35,2018-04-27 00:42:27.000000000,1970-01-01 00:00:00.000000001,open,0,class and deprecated in PropertyNames.xml
+34,2018-04-27 00:38:21.000000000,1970-01-01 00:00:00.000000001,open,0,Don't check Ruby proxy types when marshaling proxy parameters
+33,2018-04-27 00:32:07.000000000,1970-01-01 00:00:00.000000001,open,0,Make Ruby proxies smarter
+32,2018-04-27 00:18:37.000000000,1970-01-01 00:00:00.000000001,open,0,PermissionVerifier and SSLPermissionVerifier
+31,2018-04-27 00:08:45.000000000,1970-01-01 00:00:00.000000001,open,0,The status of a server started by hand does not show up in the IceGridGUI
+30,2018-04-26 18:17:55.000000000,2018-05-04 00:24:25.000000000,closed,0,clear reserved _con contexts on session establishment
+29,2018-04-26 17:42:10.000000000,2018-07-19 20:01:44.000000000,closed,0,Tasks to do when .NET Core 2.1 is released
+28,2018-04-26 12:03:48.000000000,2018-04-30 21:17:54.000000000,closed,0,Fix ESLint reported issues
+27,2018-04-25 22:29:16.000000000,2019-02-08 23:37:24.000000000,closed,3,Ice 3.6 for Gentoo and tests
+26,2018-04-24 10:27:09.000000000,2018-04-24 10:29:58.000000000,closed,2,Latest stable: 3.7.0 or 3.7.1?
+25,2018-04-18 23:34:32.000000000,2018-04-19 22:34:53.000000000,closed,1,fix disabling namespaces for php in travis
+24,2018-04-17 11:30:21.000000000,2018-04-19 11:24:12.000000000,closed,3,C++ code not compatible with C++17
+23,2018-01-29 04:58:35.000000000,2018-01-29 15:36:22.000000000,closed,1,Fix creating Long from negative numbers
+22,2017-12-28 12:14:05.000000000,2018-01-25 21:31:10.000000000,closed,2,Fix marshalling values with no own fields
+21,2017-11-03 23:54:58.000000000,2017-11-15 23:58:49.000000000,closed,0,Fix for ICE-8416
+20,2017-10-14 00:01:13.000000000,2017-11-03 23:54:31.000000000,closed,0,Fixed compilers reporting wrong error locations (ICE-8416)
+19,2017-09-18 06:52:41.000000000,2017-09-18 18:28:51.000000000,closed,1,3.6
+18,2017-09-06 18:40:43.000000000,2017-09-07 21:26:54.000000000,closed,6,Use existing service definition instead of loading one when operating on replica in ServerI.
+17,2017-04-28 22:27:41.000000000,2017-04-28 22:35:40.000000000,closed,1,Add a Gitter chat badge to README.md
+16,2017-02-17 18:16:12.000000000,2017-03-06 21:12:50.000000000,closed,0,apply 8e5bc0f to IceRuby
+15,2017-01-30 02:45:11.000000000,2017-04-03 22:52:46.000000000,closed,2,Fix invalid use of PyTuple_SET_ITEM (which returns void) and replace …
+14,2016-11-15 20:53:37.000000000,2016-11-16 13:02:21.000000000,closed,5,Fix updating runtime properties for services using shared communicator
+13,2016-10-24 03:47:31.000000000,2016-11-15 21:28:00.000000000,closed,5,fix building with libressl
+12,2016-10-12 03:01:25.000000000,2016-10-12 20:00:46.000000000,closed,0,Fix timed conditon on FreeBSD
+11,2016-10-12 02:38:48.000000000,2016-10-12 20:00:22.000000000,closed,0,Update CryptPermissionsVerifierI.cpp
+10,2016-05-29 05:17:56.000000000,2016-05-31 21:30:49.000000000,closed,0,Support bzip2 compression on all Apple targets
+9,2016-03-26 13:36:08.000000000,2016-03-28 22:31:36.000000000,closed,0,3.6
+8,2016-01-07 04:11:46.000000000,2016-01-07 19:31:47.000000000,closed,1,Fix twitter account
+7,2015-12-25 16:03:54.000000000,2016-01-16 00:39:10.000000000,closed,2,IceUtilInternal::freopen() ignored stream argument
+6,2015-11-30 20:58:28.000000000,2015-12-03 02:41:09.000000000,closed,2,IcePy: allow float NaN and Inf values
+5,2015-10-03 17:43:29.000000000,2015-10-05 19:49:17.000000000,closed,2,Fix compilation with LibreSSL
+4,2015-09-19 21:18:55.000000000,2015-09-21 17:47:06.000000000,closed,2,3.6.1 msvcp120.dll visual studio 2015
+3,2015-07-01 17:37:35.000000000,2015-07-01 18:37:15.000000000,closed,0,Force correct overload selection to fix compatibility with Intel C++ 2015
+2,2015-06-29 17:18:58.000000000,2015-06-30 00:35:37.000000000,closed,2,Change 'riterator' to 'itarator' in EvictorBase.java
+1,2015-06-26 20:23:07.000000000,2015-07-01 18:36:43.000000000,closed,9,Force correct overload selection to fix compatibility with Intel C++

@@ -1,0 +1,1517 @@
+id,created_at,closed_at,state,comments,title
+1517,2020-08-28 16:59:34.000000000,1970-01-01 00:00:00.000000001,open,0,compression level validation
+1516,2020-08-28 11:02:59.000000000,1970-01-01 00:00:00.000000001,open,2,FlowId filter inject tag in open tracing span
+1515,2020-08-27 11:29:00.000000000,2020-08-28 18:52:49.000000000,closed,8,Validate compression level in compress filter by comparing integers
+1514,2020-08-26 20:51:45.000000000,1970-01-01 00:00:00.000000001,open,1,enableAccessLog filter actively disable routes that are not matched
+1513,2020-08-26 16:55:12.000000000,1970-01-01 00:00:00.000000001,open,0,Adds watch_test.go error handling
+1512,2020-08-26 16:37:21.000000000,2020-08-27 15:10:20.000000000,closed,2,add state bag to tag filter
+1511,2020-08-26 00:34:40.000000000,1970-01-01 00:00:00.000000001,open,2,Drains tokeninfo response body to enable TCP connection reuse
+1510,2020-08-24 17:46:54.000000000,2020-08-27 15:10:20.000000000,closed,0,add stateBagToTag filter
+1509,2020-08-22 00:36:56.000000000,2020-08-24 12:07:06.000000000,closed,3,Fixes -insecure flag ignored by upgrade request
+1508,2020-08-20 20:41:26.000000000,2020-08-24 12:07:05.000000000,closed,1,Issue with Connection upgrade (SPDY/Websocket) since v0.11.118 (#1458)
+1507,2020-08-17 18:49:39.000000000,1970-01-01 00:00:00.000000001,open,4,feat: Add power-of-N-choices load balancing algorithm
+1506,2020-08-14 13:43:38.000000000,2020-08-14 15:03:41.000000000,closed,2,upgrade to go1.15
+1505,2020-08-12 14:40:15.000000000,1970-01-01 00:00:00.000000001,open,3,RouteGroups spec.hosts field is inconsistent with documentation
+1504,2020-08-12 05:10:15.000000000,2020-08-13 21:18:43.000000000,closed,4,Add WAF plugin to readme.md
+1503,2020-08-11 22:16:27.000000000,2020-08-12 23:16:03.000000000,closed,7,feat: Add IncGauge and DecGauge for metrics
+1502,2020-08-11 19:55:29.000000000,2020-08-12 04:55:53.000000000,closed,1,Add WAF Filter plugin
+1501,2020-08-10 23:43:17.000000000,1970-01-01 00:00:00.000000001,open,7,Make query parameter to be passed to OIDC provider on oauthOidc filters redirect
+1500,2020-08-08 05:01:50.000000000,2020-08-13 21:35:41.000000000,closed,2,Unify detection of upgrade requests.
+1499,2020-08-06 00:08:35.000000000,1970-01-01 00:00:00.000000001,open,2,Generalize backend opentracing tag
+1498,2020-08-05 21:07:42.000000000,1970-01-01 00:00:00.000000001,open,1,Can we use a startup parameters in an ingress rule?
+1497,2020-08-05 16:14:46.000000000,2020-08-05 23:47:51.000000000,closed,5,Fixes flaky TestConstantlyUpdatingRoutes
+1496,2020-08-05 13:57:25.000000000,2020-08-06 16:41:27.000000000,closed,3,Adds flag to output application logs in JSON format
+1495,2020-08-04 17:00:59.000000000,2020-08-05 20:24:55.000000000,closed,7,tracingTag with a backend name for RouteGroup-generated routes
+1494,2020-07-28 21:38:18.000000000,2020-08-06 16:41:27.000000000,closed,2,Implement ApplicationLogJSONEnabled for ApplicationLog json formatted log lines
+1493,2020-07-27 13:03:20.000000000,2020-08-17 17:30:38.000000000,closed,5,Adding an AdmissionWebhook server to validate RouteGroups
+1492,2020-07-24 16:19:35.000000000,2020-07-28 21:30:29.000000000,closed,3,setting the parentSpan for response filters
+1491,2020-07-24 15:21:25.000000000,1970-01-01 00:00:00.000000001,open,13,Fix precedence issues with prepending ^ to regex.
+1490,2020-07-16 12:33:56.000000000,2020-07-16 18:41:08.000000000,closed,12,Improve RouteGroup CRD schema
+1489,2020-07-15 23:16:24.000000000,2020-08-06 17:09:32.000000000,closed,10,Allow setting a custom Prometheus registry
+1488,2020-07-15 01:23:02.000000000,2020-07-16 13:16:48.000000000,closed,3,Fixes 'composite literal uses unkeyed fields' vetoes
+1487,2020-07-13 21:44:34.000000000,1970-01-01 00:00:00.000000001,open,0,v1 lua() script breaking changes
+1486,2020-07-13 18:11:11.000000000,2020-07-13 21:47:52.000000000,closed,4,Fixing typo in OauthState which was confusing in the log output
+1485,2020-07-10 20:53:51.000000000,2020-07-16 19:55:44.000000000,closed,9,Implements lua scripting improvements
+1484,2020-07-10 18:36:52.000000000,1970-01-01 00:00:00.000000001,open,0,RouteGroup backend type service can not specify LB algorithm
+1483,2020-07-10 14:40:39.000000000,2020-07-14 01:11:50.000000000,closed,3,Adds checks into pull request workflow
+1482,2020-07-10 13:03:47.000000000,2020-07-13 18:25:09.000000000,closed,3,Refactoring Kubernetes dataclient
+1481,2020-07-09 20:00:24.000000000,2020-08-05 23:47:50.000000000,closed,0,TestConstantlyUpdatingRoutes failing in GH actions
+1480,2020-07-09 18:31:08.000000000,2020-07-10 12:01:19.000000000,closed,4,Mitigates server startup race conditions in tests
+1479,2020-07-09 13:23:54.000000000,2020-07-09 19:59:53.000000000,closed,2,Fixes static check
+1478,2020-07-08 20:39:19.000000000,1970-01-01 00:00:00.000000001,open,3,kubernetes: Add support for IngressClass introduced in Kubernetes v1.18
+1477,2020-07-08 20:27:04.000000000,1970-01-01 00:00:00.000000001,open,1,kubernetes: Add support for new ingress resource field `pathType` added in Kubernetes v1.18
+1476,2020-07-08 19:21:24.000000000,2020-07-09 13:05:30.000000000,closed,4,Implements lua scripting optimizations
+1475,2020-07-08 13:15:55.000000000,2020-07-08 15:38:17.000000000,closed,2,fix routegroup crd schema for json validation
+1474,2020-07-08 01:52:11.000000000,2020-07-08 13:16:41.000000000,closed,2,add load balancer algorithm tests
+1473,2020-07-08 01:26:04.000000000,1970-01-01 00:00:00.000000001,open,0,retry filter
+1472,2020-07-08 00:53:32.000000000,1970-01-01 00:00:00.000000001,open,0,Log sampling filter
+1471,2020-07-07 22:11:49.000000000,2020-07-08 15:39:24.000000000,closed,2,doc: add docs to the new logHeaders feature
+1470,2020-07-07 20:18:05.000000000,1970-01-01 00:00:00.000000001,open,0,fix logHeader test
+1469,2020-07-07 18:09:08.000000000,2020-07-07 18:42:16.000000000,closed,2,Tracing/add stream body errors
+1468,2020-07-07 01:01:57.000000000,2020-07-10 12:36:38.000000000,closed,8,OIDC auth filters to return raw ID Token 
+1467,2020-07-06 23:36:04.000000000,2020-07-07 20:15:09.000000000,closed,5,"logHeader filter to have options ""request"" and ""response"""
+1466,2020-07-06 20:19:34.000000000,2020-07-07 22:05:57.000000000,closed,1,diagnostics filter to log request headers
+1465,2020-07-06 19:23:55.000000000,2020-07-06 20:14:31.000000000,closed,2,log: fix concatenation of error messages in proxy error logs
+1464,2020-07-03 13:10:13.000000000,1970-01-01 00:00:00.000000001,open,3,Wrong traffic to route while RouteGroup traffic switching a route with Traffic() predicate
+1463,2020-07-02 14:18:09.000000000,1970-01-01 00:00:00.000000001,open,0,custom metrics from filters
+1462,2020-07-02 05:19:55.000000000,1970-01-01 00:00:00.000000001,open,2,Implements variable template resolution in header filters
+1461,2020-07-01 14:36:38.000000000,1970-01-01 00:00:00.000000001,open,0,shadow traffic routing issues
+1460,2020-06-30 19:27:34.000000000,2020-07-02 10:36:46.000000000,closed,3,"Shadow Traffic: make clear what ""weight of the route"" means"
+1459,2020-06-30 13:52:58.000000000,2020-06-30 19:28:03.000000000,closed,2,doc: fix gradual traffic switching
+1458,2020-06-30 13:19:05.000000000,2020-07-01 14:24:04.000000000,closed,4,Allow to wrap http.Handler and http.RoundTripper
+1457,2020-06-29 18:25:32.000000000,2020-06-29 18:53:15.000000000,closed,2,doc: fix backend references in RouteGroup examples
+1456,2020-06-29 16:22:49.000000000,2020-07-02 10:35:25.000000000,closed,5,Filter RouteGroups via an annotation
+1455,2020-06-25 15:08:29.000000000,2020-06-25 18:18:39.000000000,closed,3,OIDC header integrity
+1454,2020-06-24 19:06:56.000000000,2020-06-26 18:04:44.000000000,closed,2,tee loopback documentation
+1453,2020-06-19 17:47:03.000000000,1970-01-01 00:00:00.000000001,open,1,Provide filters for pathParamToX()
+1452,2020-06-17 18:37:20.000000000,2020-07-02 10:35:25.000000000,closed,2,Support multiple ingress controllers with different routing requirements in RouteGroup
+1451,2020-06-17 15:51:04.000000000,2020-08-25 17:23:25.000000000,closed,3,Rename inlineContent filter to finallyInlineContent
+1450,2020-06-17 10:30:06.000000000,2020-06-17 18:17:30.000000000,closed,2,Fixing link to the routegroup CRD
+1449,2020-06-17 02:42:03.000000000,1970-01-01 00:00:00.000000001,open,2,Host+Path+Regex integrated redirect rule
+1448,2020-06-16 21:19:06.000000000,1970-01-01 00:00:00.000000001,open,5,Oauth2 OIDC return ID token as JWT
+1447,2020-06-14 20:27:12.000000000,1970-01-01 00:00:00.000000001,open,0,Fadein for new backend endpoints
+1446,2020-06-14 13:23:26.000000000,1970-01-01 00:00:00.000000001,open,0,Prefer Same zone traffic to save costs
+1445,2020-06-13 01:21:49.000000000,2020-06-16 18:58:29.000000000,closed,6,Fixes lua benchmark
+1444,2020-06-12 04:07:31.000000000,1970-01-01 00:00:00.000000001,open,3,Support filter context (state bag) value templates
+1443,2020-06-10 13:10:46.000000000,2020-06-24 13:31:29.000000000,closed,7,feat: add Tee predicate and teeLoopback for advanced shadow traffic
+1442,2020-06-09 17:53:38.000000000,2020-06-10 12:28:30.000000000,closed,4,"set outgoing host on copy request header, refactor header filters"
+1441,2020-06-08 19:15:03.000000000,2020-06-10 14:18:54.000000000,closed,2,add more context in how to use multiple backends as egress targets
+1440,2020-06-08 18:30:56.000000000,2020-07-08 01:06:35.000000000,closed,1,tee() routes for advanced shadow traffic
+1439,2020-06-08 14:18:56.000000000,2020-06-08 14:28:58.000000000,closed,2,doc: fix egress example
+1438,2020-06-06 15:19:19.000000000,2020-06-08 14:23:49.000000000,closed,0,Secrets module should log initial secret file update
+1437,2020-06-06 15:13:02.000000000,2020-06-08 14:23:49.000000000,closed,2,Logs secret update on registerSecretFile
+1436,2020-06-06 14:22:13.000000000,2020-06-08 14:29:22.000000000,closed,3,bearerinjector filter requires absolute secret path
+1435,2020-06-02 18:19:27.000000000,2020-06-04 12:02:06.000000000,closed,3,OIDC-introspection concurrency crashes
+1434,2020-06-01 16:04:47.000000000,2020-06-23 13:41:36.000000000,closed,5,Fix -ratelimit flag to accept cluster based options
+1433,2020-06-01 12:37:41.000000000,2020-06-02 17:20:05.000000000,closed,5,Deduplicate OIDC cookies
+1432,2020-05-28 17:24:46.000000000,2020-05-30 19:40:09.000000000,closed,6,flexible upstream headers
+1431,2020-05-27 22:00:38.000000000,2020-05-28 12:44:53.000000000,closed,4,fix lua() should have access to host header
+1430,2020-05-27 19:50:54.000000000,2020-05-27 20:05:04.000000000,closed,2,cleanup unused rand data
+1429,2020-05-27 18:37:31.000000000,2020-05-27 19:26:42.000000000,closed,2,use cryptographic secure random to generate random secrets
+1428,2020-05-27 16:01:21.000000000,1970-01-01 00:00:00.000000001,open,1,The flag -ratelimits doesn't accept cluster-based strategies
+1426,2020-05-15 09:18:27.000000000,2020-05-28 12:44:53.000000000,closed,9,Lua: ctx.header is empty?
+1425,2020-05-06 20:00:45.000000000,2020-05-06 20:17:18.000000000,closed,3,Traffic(): allow weight of 1.0
+1424,2020-05-04 16:10:24.000000000,2020-05-04 17:37:24.000000000,closed,5,fix measuring the connection count in TCP-LIFO
+1423,2020-04-28 22:37:21.000000000,1970-01-01 00:00:00.000000001,open,3,Decompress filter
+1422,2020-04-25 16:06:04.000000000,2020-06-02 19:26:31.000000000,closed,3,removed extra text
+1421,2020-04-24 18:55:01.000000000,1970-01-01 00:00:00.000000001,open,2,Enable Https using TLS
+1420,2020-04-19 22:38:23.000000000,1970-01-01 00:00:00.000000001,open,0,Geo ip  lookup
+1419,2020-04-12 17:47:40.000000000,2020-05-27 22:31:20.000000000,closed,3,Skipper Gitops K8s Operator
+1418,2020-04-10 16:16:14.000000000,2020-04-14 15:13:44.000000000,closed,4,Docs > Explain `True()` and `False()` predicates
+1417,2020-04-10 16:00:43.000000000,2020-08-18 11:08:48.000000000,closed,8,"Support ingress without http path to prevent ""invalid ingress item: rule missing http definitions"" warning"
+1416,2020-04-09 00:39:21.000000000,1970-01-01 00:00:00.000000001,open,0,fix builds with new builder https://github.com/docker/buildx/issues/138
+1415,2020-04-08 16:27:20.000000000,1970-01-01 00:00:00.000000001,open,2,cache duration?
+1414,2020-04-08 12:49:02.000000000,1970-01-01 00:00:00.000000001,open,1,V1/Proxying - Proxy errors/aborts and response filters
+1413,2020-04-08 12:37:38.000000000,2020-04-08 13:02:19.000000000,closed,2,fix cross compile build command
+1412,2020-04-08 12:32:37.000000000,2020-04-08 12:38:09.000000000,closed,3,fix build command
+1411,2020-04-07 19:43:41.000000000,2020-04-08 11:56:07.000000000,closed,5,fix arm docker build targets
+1410,2020-04-07 19:23:08.000000000,1970-01-01 00:00:00.000000001,open,0,Kubernetes 1.18 ingress class changes
+1409,2020-04-06 21:33:03.000000000,2020-04-07 14:12:49.000000000,closed,3,cross compile arm7 32bit and arm8 64bit containers
+1408,2020-04-04 21:16:20.000000000,2020-04-06 16:22:12.000000000,closed,10,Fix GitHub actions
+1407,2020-04-04 13:56:45.000000000,2020-04-08 13:02:30.000000000,closed,4,Log request info on proxy error
+1406,2020-04-04 13:14:53.000000000,2020-04-07 13:38:18.000000000,closed,1,V1 > Use Weight predicate to give Traffic more priority
+1405,2020-04-04 13:04:34.000000000,2020-04-08 11:59:16.000000000,closed,3,V1 > Remove deprecated Proxy.New
+1404,2020-04-04 12:55:10.000000000,2020-04-07 13:07:17.000000000,closed,1,V1 > Method / Methods
+1403,2020-04-03 20:54:37.000000000,2020-04-06 20:32:18.000000000,closed,8,Allow Traffic to receive values >= 1
+1402,2020-04-03 15:55:27.000000000,2020-04-05 15:06:02.000000000,closed,7,fix build for github actions
+1401,2020-04-03 13:51:34.000000000,2020-04-03 16:20:38.000000000,closed,2,document the conditional inline content filter
+1400,2020-04-03 12:37:52.000000000,2020-04-19 22:47:57.000000000,closed,1,New filter inlineContentIfStatus has no documentation 
+1399,2020-04-02 18:02:59.000000000,2020-04-03 13:41:07.000000000,closed,5,Github Actions
+1398,2020-04-02 17:27:04.000000000,2020-04-03 17:08:29.000000000,closed,2,fix streaming documents through the editor
+1397,2020-04-02 16:41:32.000000000,1970-01-01 00:00:00.000000001,open,2,Use ReverseSourcePredicate in access log
+1396,2020-04-02 15:31:45.000000000,2020-04-06 21:40:11.000000000,closed,3,Improvements for FastCgi
+1395,2020-04-02 11:37:23.000000000,2020-04-03 13:22:30.000000000,closed,5,Log proxy errors in access log
+1394,2020-04-01 22:49:46.000000000,2020-04-02 12:41:57.000000000,closed,2,remove early close of the response body
+1393,2020-04-01 22:46:49.000000000,2020-04-03 13:22:14.000000000,closed,2,Change default value for no flow id
+1392,2020-04-01 18:07:46.000000000,2020-04-01 22:19:09.000000000,closed,2,Log flowId on proxy error
+1391,2020-03-31 19:42:51.000000000,2020-04-01 12:39:10.000000000,closed,5,"Log call duration, backendType + backend on proxy error"
+1390,2020-03-31 19:07:10.000000000,2020-03-31 19:54:33.000000000,closed,0,Log call duration when proxying error fails
+1389,2020-03-30 22:05:26.000000000,2020-03-31 17:25:28.000000000,closed,4,Fix: Align CRD backend algorithms to those allowed by skipper
+1388,2020-03-30 19:35:07.000000000,2020-03-31 15:20:09.000000000,closed,2,Docs > Lowercase filter
+1387,2020-03-27 18:21:50.000000000,1970-01-01 00:00:00.000000001,open,1,create grant flow filter
+1386,2020-03-27 18:04:17.000000000,1970-01-01 00:00:00.000000001,open,0,v1/net/move the queue listener under the net package
+1385,2020-03-26 11:40:33.000000000,2020-03-27 16:34:07.000000000,closed,4,Docs > Route Groups > Remove important note
+1384,2020-03-26 01:18:27.000000000,2020-04-01 21:23:16.000000000,closed,5,Feature/headers from context
+1383,2020-03-26 01:13:05.000000000,2020-04-02 12:50:34.000000000,closed,2,create filter for setting the X-Forwarded-* headers
+1382,2020-03-26 01:11:57.000000000,2020-04-02 12:50:51.000000000,closed,2,Feature/decompress
+1381,2020-03-25 02:27:06.000000000,2020-07-08 00:35:17.000000000,closed,2,skipper ingress controller vs kube ingress aws controller
+1380,2020-03-24 18:52:59.000000000,2020-03-26 16:19:13.000000000,closed,4,Add `inlineContentIfStatus` filter
+1379,2020-03-23 20:51:01.000000000,2020-04-01 18:48:32.000000000,closed,9,feat: added support for multiple variables in paths (#1345)
+1378,2020-03-23 17:51:48.000000000,1970-01-01 00:00:00.000000001,open,0,V1/ find solution for disabled tests
+1377,2020-03-23 15:50:26.000000000,2020-03-25 20:59:51.000000000,closed,2,Guard against mixed usage of `Path` and `PathSubtree`
+1376,2020-03-20 15:14:52.000000000,1970-01-01 00:00:00.000000001,open,2,V1/eskip/consistent validation of special predicates
+1375,2020-03-19 19:07:40.000000000,2020-03-25 17:35:45.000000000,closed,2,Remove deprecated unused constant
+1374,2020-03-19 13:48:44.000000000,1970-01-01 00:00:00.000000001,open,0,"V1/Package structure/refactor filters builtin, extract the actual filters to their own package like the recent ones"
+1373,2020-03-19 13:48:00.000000000,1970-01-01 00:00:00.000000001,open,0,"V1/Package structure/find a better name for ""DataClient"", it's kind of cute but not meaningful"
+1372,2020-03-19 13:47:24.000000000,1970-01-01 00:00:00.000000001,open,0,V1/Package structure/move all the dataclient packages under dataclients
+1371,2020-03-19 13:45:21.000000000,1970-01-01 00:00:00.000000001,open,1,V1/Deprecated/Drop deprecated features/alternatives
+1370,2020-03-19 13:44:23.000000000,1970-01-01 00:00:00.000000001,open,0,V1/Operation/health context
+1369,2020-03-19 13:43:32.000000000,1970-01-01 00:00:00.000000001,open,0,V1/Config/group the config fields
+1368,2020-03-19 13:42:44.000000000,1970-01-01 00:00:00.000000001,open,0,V1/Configuration/make the naming of the config fields consistent (e.g. revisit the usage of enable/disable)
+1367,2020-03-19 13:41:57.000000000,1970-01-01 00:00:00.000000001,open,0,V1/Routing/Revisit templating
+1366,2020-03-19 13:40:55.000000000,1970-01-01 00:00:00.000000001,open,0,V1/Visibility/unified telemetry
+1365,2020-03-19 13:39:55.000000000,1970-01-01 00:00:00.000000001,open,0,V1/Visibility/get rid of global objects
+1364,2020-03-19 13:39:12.000000000,1970-01-01 00:00:00.000000001,open,0,V1/Visibility/smarter way to enable/disable metrics types
+1363,2020-03-19 13:38:07.000000000,1970-01-01 00:00:00.000000001,open,1,V1/Eskip/make the Host and HostRegexp predicates named like the Header and HeaderRegexp predicates
+1362,2020-03-19 13:36:27.000000000,1970-01-01 00:00:00.000000001,open,0,"V1/Eskip/refactor the Backend: a single structure field, with the type and the arguments contained"
+1361,2020-03-19 13:35:11.000000000,1970-01-01 00:00:00.000000001,open,0,"V1/Eskip/drop the legacy predicate fields like Path and PathRegexp, and use only the Predicates list field instead"
+1360,2020-03-19 13:33:53.000000000,1970-01-01 00:00:00.000000001,open,0,V1/Eskip/Support integers
+1359,2020-03-19 11:51:24.000000000,2020-03-19 13:18:17.000000000,closed,0,Always close Body
+1358,2020-03-18 22:43:29.000000000,2020-03-19 13:09:11.000000000,closed,2,Always close Body
+1357,2020-03-18 20:59:40.000000000,2020-03-18 21:59:26.000000000,closed,2,Reduce N to prevent flaky tests on MacOS
+1356,2020-03-18 20:52:45.000000000,2020-03-18 21:31:01.000000000,closed,2,reduce the flaky test
+1355,2020-03-18 20:02:17.000000000,2020-03-26 16:19:13.000000000,closed,4,Custom response body for auth reject response
+1354,2020-03-18 00:02:15.000000000,2020-03-23 12:36:37.000000000,closed,1,Remove legacy Method predicate and add support for singular/plural in Method(s) predicate
+1353,2020-03-17 21:50:57.000000000,2020-03-18 14:00:30.000000000,closed,2,refactor V1 sync
+1352,2020-03-15 18:33:20.000000000,2020-03-18 15:37:34.000000000,closed,5,Release v1 remove deprecations
+1351,2020-03-14 21:01:00.000000000,2020-03-20 14:49:00.000000000,closed,1,Release v1 move predicates
+1350,2020-03-14 20:55:06.000000000,2020-03-16 14:21:28.000000000,closed,2,Sync v1 with master
+1349,2020-03-14 19:18:26.000000000,2020-03-18 14:24:26.000000000,closed,2,Remove localRatelimit
+1348,2020-03-14 17:35:12.000000000,2020-03-16 13:43:53.000000000,closed,3,Remove Innkeeper
+1347,2020-03-14 14:02:54.000000000,1970-01-01 00:00:00.000000001,open,0,Integration branch: v1 release
+1346,2020-03-14 13:47:22.000000000,2020-03-16 15:06:47.000000000,closed,4,Fix RBAC example
+1345,2020-03-13 18:42:12.000000000,2020-04-01 18:48:32.000000000,closed,3,apiusagemonitoring does not support multiple variables in path segment
+1344,2020-03-07 23:01:39.000000000,2020-03-12 14:42:38.000000000,closed,7,Remove deprecated Route.Shunt
+1343,2020-03-07 18:51:06.000000000,2020-03-09 14:23:02.000000000,closed,2,Remove escaping backslashes
+1342,2020-03-07 18:39:21.000000000,1970-01-01 00:00:00.000000001,open,1,Flaky TestTrafficPredicateInRoutes test
+1341,2020-03-06 19:57:13.000000000,2020-03-09 14:01:59.000000000,closed,7,Support newlines in lexer
+1340,2020-03-06 18:28:13.000000000,2020-03-06 19:13:45.000000000,closed,2,Refactor/origin marker
+1339,2020-03-06 00:05:00.000000000,2020-03-06 19:57:26.000000000,closed,6,InlineContent > Replace \n with newline
+1338,2020-03-05 20:49:35.000000000,2020-03-12 14:12:51.000000000,closed,11,Introduce Weight predicate
+1337,2020-03-05 19:37:24.000000000,2020-03-06 02:25:51.000000000,closed,2,doc: add debug listener example in operations guide
+1336,2020-03-05 15:06:57.000000000,2020-03-16 14:29:08.000000000,closed,6,Feature/stream editor
+1335,2020-03-04 23:35:11.000000000,2020-03-05 18:26:14.000000000,closed,2,Support hash comments
+1334,2020-03-04 20:19:17.000000000,2020-03-05 18:41:08.000000000,closed,2,Docs > Simplify route example
+1333,2020-03-04 18:29:22.000000000,1970-01-01 00:00:00.000000001,open,1,route validation
+1332,2020-03-04 17:38:10.000000000,2020-03-04 19:53:33.000000000,closed,3,Docs > Explain content type argument
+1331,2020-03-04 15:10:44.000000000,2020-03-04 18:21:38.000000000,closed,2,Explain when using predicate as filter
+1330,2020-03-04 14:44:20.000000000,2020-03-04 18:11:17.000000000,closed,3,Docs > Fix typo in URL
+1329,2020-03-04 13:52:16.000000000,2020-03-04 18:10:18.000000000,closed,3,Docs > Fix wrong redirectTo
+1328,2020-03-03 16:53:47.000000000,2020-03-03 18:18:46.000000000,closed,3,Update kubernetes.md
+1327,2020-03-02 14:26:06.000000000,2020-03-02 15:02:24.000000000,closed,1,Updated Helm chart readme
+1326,2020-03-01 17:13:08.000000000,2020-03-02 21:48:11.000000000,closed,5,add helm chart
+1325,2020-03-01 01:33:40.000000000,2020-03-16 20:59:54.000000000,closed,20,Add FastCGI backend
+1324,2020-02-29 16:05:44.000000000,2020-03-02 18:15:20.000000000,closed,7,RedirectTo > Make location argument optional
+1323,2020-02-29 15:28:43.000000000,2020-03-04 18:18:09.000000000,closed,16,Add modRequestHeader filter
+1322,2020-02-29 13:44:24.000000000,2020-03-16 20:59:54.000000000,closed,5,Route requests directly to PHP via FastCGI
+1321,2020-02-28 18:01:47.000000000,2020-02-28 18:52:21.000000000,closed,2,remove deprecated certificate naming
+1320,2020-02-28 16:39:01.000000000,1970-01-01 00:00:00.000000001,open,0,Support cluster internal ingress 
+1319,2020-02-28 15:43:07.000000000,2020-02-28 17:51:55.000000000,closed,2,fix the build and the checks for go1.14
+1318,2020-02-28 03:29:26.000000000,2020-02-28 17:59:33.000000000,closed,2,add tests for secret readers
+1317,2020-02-27 22:34:46.000000000,2020-02-28 21:49:51.000000000,closed,2,update state of rg
+1316,2020-02-25 18:46:11.000000000,2020-02-25 19:46:29.000000000,closed,3,fixed type in ingress-usage.md
+1315,2020-02-24 16:48:44.000000000,2020-02-24 23:56:49.000000000,closed,4,Add predicate Methods to custom bundled predicates
+1314,2020-02-22 15:47:04.000000000,2020-05-27 19:52:30.000000000,closed,10,Read and discard request body on shunt
+1313,2020-02-20 18:46:33.000000000,2020-02-20 22:10:27.000000000,closed,2,close encoder before putting back to the pool
+1312,2020-02-20 18:38:25.000000000,1970-01-01 00:00:00.000000001,open,2,compress filter can panic
+1311,2020-02-19 22:04:35.000000000,2020-02-22 14:40:02.000000000,closed,1,Close request body on shunted requests
+1310,2020-02-17 21:58:43.000000000,2020-06-08 19:04:09.000000000,closed,2,Routes using tee() combined with <shunt> cause an increase in goroutines
+1309,2020-02-16 18:40:06.000000000,2020-02-18 19:08:34.000000000,closed,10,Methods predicate
+1308,2020-02-16 18:22:44.000000000,2020-02-16 18:35:03.000000000,closed,0,Methods predicate
+1307,2020-02-14 18:39:53.000000000,2020-02-26 18:44:19.000000000,closed,5,Header logger
+1306,2020-02-13 18:54:40.000000000,2020-02-14 18:45:21.000000000,closed,2,fix: SecretPaths should support symlink to file for Kubernetes secrets
+1305,2020-02-13 15:55:41.000000000,2020-02-14 18:45:21.000000000,closed,3,:bug: error while receiveing initial data;failed to load cluster state: secret not found: token
+1304,2020-02-12 22:35:38.000000000,2020-02-13 02:44:09.000000000,closed,2,Add description for stripQuery filter
+1303,2020-02-12 21:58:10.000000000,2020-02-13 18:08:09.000000000,closed,3,performance issue sync.Pool flushed by GC
+1302,2020-02-11 20:52:41.000000000,2020-02-11 21:46:08.000000000,closed,2,doc: sectioning path based predicates
+1301,2020-02-11 14:05:19.000000000,2020-02-11 18:00:59.000000000,closed,2,doc: update deployment manifests to enable routegroups via rbac.
+1300,2020-02-10 21:54:23.000000000,2020-02-11 16:03:00.000000000,closed,2,reduce log spam by logging the failed detection only once
+1299,2020-02-10 18:16:37.000000000,2020-02-10 18:59:25.000000000,closed,3,revert fixed python dependency versions
+1298,2020-02-07 18:17:02.000000000,2020-02-07 20:10:12.000000000,closed,2,attempt to fix some python versioning stuff for mkdocs
+1297,2020-02-07 17:23:47.000000000,2020-02-11 18:57:14.000000000,closed,2,Error while checking known resource types: resource not found
+1296,2020-02-05 19:48:44.000000000,2020-02-10 15:08:33.000000000,closed,11,Authorization support for OIDC
+1295,2020-02-03 20:40:23.000000000,2020-02-07 14:35:31.000000000,closed,8,Kubernetes: Refresh ServiceAccount token
+1294,2020-02-03 15:24:09.000000000,2020-02-03 16:08:28.000000000,closed,4,fix: default filters via configmap are not applied
+1293,2020-01-31 21:42:54.000000000,2020-02-04 21:52:02.000000000,closed,8,adding compression for OIDC cookies
+1292,2020-01-30 19:44:56.000000000,2020-01-30 22:43:40.000000000,closed,7,feature: add optional startup checks
+1291,2020-01-30 14:59:45.000000000,2020-01-30 21:48:54.000000000,closed,2,Forward body from backend on connection upgrade errors
+1290,2020-01-28 19:54:21.000000000,2020-02-07 17:07:23.000000000,closed,5,cancel the outgoing when the incoming request got canceled
+1289,2020-01-28 14:47:56.000000000,2020-01-28 19:08:10.000000000,closed,5,implementing cookie chunks for OIDC
+1288,2020-01-24 19:40:23.000000000,2020-01-28 20:10:39.000000000,closed,2,absorb filter for diagnostics
+1287,2020-01-24 14:46:54.000000000,1970-01-01 00:00:00.000000001,open,0,default filters in ingress should be applied to custom annotation routes
+1286,2020-01-24 14:29:13.000000000,2020-01-24 15:44:28.000000000,closed,2,doc fix oidc filters
+1285,2020-01-24 11:21:42.000000000,1970-01-01 00:00:00.000000001,open,3,[Question] skipper Ingress resources examples
+1284,2020-01-23 22:48:30.000000000,2020-01-24 15:44:28.000000000,closed,1,filter oauthOIDCUserInfo not found
+1283,2020-01-22 18:03:31.000000000,2020-02-11 18:13:42.000000000,closed,0,Kubernetes dataclient should read service account token regularly
+1282,2020-01-21 22:56:58.000000000,2020-02-11 18:11:15.000000000,closed,21,OIDC and authZ support
+1281,2020-01-21 19:52:45.000000000,1970-01-01 00:00:00.000000001,open,8,Skipper doesn't strip port portion from host header when matching routes
+1280,2020-01-21 18:08:18.000000000,1970-01-01 00:00:00.000000001,open,0,safer ingress to svc with no endpoints
+1279,2020-01-21 15:40:50.000000000,2020-01-22 16:51:51.000000000,closed,4,Question: eskip routes using ingress resources VS etcd
+1278,2020-01-20 03:47:07.000000000,2020-02-11 18:53:41.000000000,closed,5,Feature/skipper http client
+1277,2020-01-17 21:42:36.000000000,2020-02-07 14:35:31.000000000,closed,3,[Kubernetes] Refresh Service Account token before it expires
+1276,2020-01-17 13:00:03.000000000,2020-01-20 14:43:06.000000000,closed,3,Creating/updating ingress objects causes 404s in unrelated ingress objects
+1275,2020-01-16 21:25:05.000000000,1970-01-01 00:00:00.000000001,open,0,Remove the experimental status of `setPath` template operations
+1274,2020-01-16 19:37:25.000000000,2020-01-17 14:32:54.000000000,closed,2,Replace golang-sensor => go-sensor
+1273,2020-01-15 05:57:32.000000000,2020-01-15 23:11:47.000000000,closed,2,Help Requested with Inconsistent Filter Behavior
+1272,2020-01-14 18:09:48.000000000,2020-02-18 19:08:34.000000000,closed,4,Multiple methods in Method predicate
+1271,2020-01-13 17:48:53.000000000,2020-01-13 19:05:56.000000000,closed,2,expose TCP lifo runtime config via log
+1270,2020-01-11 19:57:04.000000000,1970-01-01 00:00:00.000000001,open,4,Customisable Rate Limiter
+1269,2020-01-10 21:36:56.000000000,2020-01-13 15:06:46.000000000,closed,2,TCP lifo accept rate can be reported as negative in metrics
+1268,2020-01-10 21:14:46.000000000,2020-01-13 19:05:56.000000000,closed,0,Log TCP lifo configuration information
+1267,2020-01-09 19:58:34.000000000,2020-01-13 18:53:21.000000000,closed,3,Fix/kube multicolor traffic switch
+1266,2020-01-09 16:27:02.000000000,2020-01-13 18:53:21.000000000,closed,0,rainbow traffic switching flap route matches
+1265,2020-01-07 22:16:02.000000000,2020-01-20 13:35:58.000000000,closed,5,test the full roundtrip of an OpenIDConnect request
+1264,2020-01-07 16:03:35.000000000,2020-01-07 19:51:50.000000000,closed,9,skipper ingress pod failed request error
+1263,2020-01-06 17:55:14.000000000,1970-01-01 00:00:00.000000001,open,5,Grouping of routes for metrics
+1262,2020-01-03 15:39:36.000000000,1970-01-01 00:00:00.000000001,open,0,No retries on /.well-known/openid-configuration auth filters auto configuration fetch
+1261,2019-12-31 02:56:15.000000000,2020-01-07 14:45:25.000000000,closed,6,Forward headers from webhook filter responses
+1260,2019-12-20 20:25:27.000000000,2020-01-06 23:33:37.000000000,closed,2,fix two small issues in redis usage by cluster*Ratelimit filters
+1259,2019-12-19 18:17:14.000000000,2019-12-19 21:19:07.000000000,closed,2,"Fix: CPU hot busyloop by setting a default timeout to 30s, if not set"
+1258,2019-12-17 12:30:16.000000000,2019-12-17 15:01:33.000000000,closed,3,Response caching
+1257,2019-12-16 22:08:33.000000000,2019-12-17 14:24:35.000000000,closed,2,list was no rendered correctly
+1256,2019-12-12 16:29:59.000000000,2019-12-13 20:58:35.000000000,closed,2,Remove excplict set of GOPROXY
+1255,2019-12-10 22:19:09.000000000,2019-12-16 17:59:42.000000000,closed,3,implement skipper httpclient and use it in all auth filters
+1254,2019-12-06 21:36:11.000000000,2019-12-16 21:31:39.000000000,closed,6,enhance opentracing support in auth filters 
+1253,2019-11-29 18:14:13.000000000,1970-01-01 00:00:00.000000001,open,0,implement H2C to proxy to h2 over TCP
+1252,2019-11-29 14:18:01.000000000,2019-12-04 20:33:00.000000000,closed,6,Added new filter backendIsProxy
+1251,2019-11-28 05:18:19.000000000,2019-11-28 16:45:47.000000000,closed,4,Added option to disable HTTP keepalives
+1250,2019-11-26 21:30:29.000000000,2019-11-28 18:33:16.000000000,closed,2,close unused route and group lifo queues
+1249,2019-11-25 18:58:26.000000000,2019-12-09 23:55:29.000000000,closed,5,"Support for ""slow start mode"""
+1248,2019-11-13 20:12:28.000000000,2019-11-24 21:46:42.000000000,closed,2,document security consideration
+1247,2019-11-11 16:21:13.000000000,2019-11-11 16:40:31.000000000,closed,2,improve error messages for the tracingTag filter tests
+1246,2019-11-11 13:23:41.000000000,2019-11-11 15:53:13.000000000,closed,2,add tracingTag filter
+1245,2019-11-10 14:20:59.000000000,2019-11-11 01:56:51.000000000,closed,3,doc: fix operations toc
+1244,2019-11-06 19:46:24.000000000,2019-11-06 21:25:55.000000000,closed,2,create result.csv on bench run by report.lua used in wrk
+1243,2019-11-05 22:21:13.000000000,2019-11-06 21:25:41.000000000,closed,2,fix docker command run
+1242,2019-11-05 18:32:51.000000000,2019-11-05 21:43:48.000000000,closed,2,automate changelog for GH release
+1241,2019-11-04 18:48:54.000000000,2019-11-05 19:00:10.000000000,closed,2,Experiment/queue listener
+1240,2019-11-04 18:36:49.000000000,1970-01-01 00:00:00.000000001,open,0,Feature sync for HTTP and HTTPS
+1239,2019-10-31 20:13:21.000000000,2019-11-01 00:25:23.000000000,closed,4,fix bug when having at least 3 prepend filters
+1238,2019-10-30 16:50:14.000000000,1970-01-01 00:00:00.000000001,open,0,consistent handling of the filter chain on the response path
+1237,2019-10-29 22:13:10.000000000,1970-01-01 00:00:00.000000001,open,5,"OpenTracing, proxy span not visible"
+1236,2019-10-24 23:41:14.000000000,2019-10-25 12:50:11.000000000,closed,3,doc: add redirectTo https example
+1235,2019-10-24 20:36:12.000000000,2019-10-24 20:50:21.000000000,closed,3,add major and minor from a fixed VERSION file
+1234,2019-10-24 18:49:48.000000000,2019-10-24 20:40:10.000000000,closed,4,show example yaml files and add a how to deploy all of these files
+1233,2019-10-23 19:48:56.000000000,2020-03-02 21:48:10.000000000,closed,10,Skipper Helm Chart
+1232,2019-10-23 17:44:52.000000000,2019-10-23 19:06:19.000000000,closed,7,"Allowed origin header should be a single value, not a list"
+1231,2019-10-21 22:12:38.000000000,2019-10-22 15:56:42.000000000,closed,2,Move config code to own package
+1230,2019-10-18 18:30:43.000000000,2019-10-22 15:56:42.000000000,closed,1,Move config code of Skipper into its own package
+1229,2019-10-17 21:15:03.000000000,2019-10-18 12:54:02.000000000,closed,2,Fix flaky tests
+1228,2019-10-17 15:19:41.000000000,2019-10-17 19:23:25.000000000,closed,3,doc fix typo 
+1227,2019-10-16 19:46:07.000000000,2019-10-30 22:59:47.000000000,closed,3,Allow wildcard name collision
+1226,2019-10-15 21:00:07.000000000,2019-11-24 21:46:41.000000000,closed,2,clientRatelimit filter could be avoided by supplying X-Forwarded-For header value
+1225,2019-10-15 18:45:03.000000000,2019-10-22 15:56:33.000000000,closed,2,use the version and commit hash in each build output
+1224,2019-10-15 17:34:00.000000000,2019-10-22 15:56:33.000000000,closed,0,Official Linux binaries does not include version information
+1223,2019-10-15 17:10:39.000000000,2019-10-15 20:05:56.000000000,closed,3,improve config.yaml documentation
+1222,2019-10-15 16:18:40.000000000,2019-10-16 11:03:51.000000000,closed,2,Improve config.yaml documentation
+1221,2019-10-15 13:20:34.000000000,2019-10-22 15:55:08.000000000,closed,2,remove reporting deprecated filter from startup
+1220,2019-10-09 21:40:41.000000000,2019-10-14 20:23:39.000000000,closed,6,Feature to include additional data to the access log
+1219,2019-10-09 20:22:56.000000000,2019-10-10 17:27:07.000000000,closed,2,trim origin markers after evaluated
+1218,2019-10-09 18:13:05.000000000,2019-10-09 20:24:40.000000000,closed,2,Clarify that flowIds must be of a certain format to be reusable
+1217,2019-10-09 17:19:42.000000000,1970-01-01 00:00:00.000000001,open,2,Benchmark and optimize the apiUsageMonitoring() filter
+1216,2019-10-09 16:26:23.000000000,2019-10-14 17:29:21.000000000,closed,5,set origin markers only when there were any changes to the routes
+1215,2019-10-09 12:23:57.000000000,2019-10-09 12:44:36.000000000,closed,2,set the go.mod go version to the automatically applied one
+1214,2019-10-08 22:12:02.000000000,2019-10-08 22:53:46.000000000,closed,2,update go version in go.mod
+1213,2019-10-07 19:45:02.000000000,2019-10-07 20:18:36.000000000,closed,4,update security reporting mechanism
+1212,2019-10-07 19:39:18.000000000,2019-10-07 19:42:06.000000000,closed,0,updated security reporting mechanism
+1211,2019-10-07 19:35:54.000000000,2019-10-08 15:59:13.000000000,closed,3,keep the trailing slash in the path for regexp matching
+1210,2019-10-07 18:43:53.000000000,2019-10-15 12:35:52.000000000,closed,1,PathRegexp() problem with trailing slashes in the path
+1209,2019-10-07 18:14:28.000000000,2019-10-14 20:23:39.000000000,closed,6,Add ability to expand access log
+1208,2019-10-07 16:27:05.000000000,2019-10-08 03:19:41.000000000,closed,5,Vulnerability - [tech-security@zalando.de ] report
+1207,2019-10-04 15:29:11.000000000,1970-01-01 00:00:00.000000001,open,4,Slowly ramp up traffic to new backend-ips
+1206,2019-10-03 17:43:12.000000000,2019-10-04 14:18:33.000000000,closed,1,Question - How to identify 504 errors
+1205,2019-10-02 19:33:28.000000000,2019-10-14 20:39:29.000000000,closed,12,Using YAML configuration file to pass args for skipper binary
+1204,2019-10-02 11:32:42.000000000,2019-10-02 12:59:29.000000000,closed,2,Fix broken link in docs
+1203,2019-10-02 11:11:59.000000000,2019-10-02 11:53:37.000000000,closed,4,Add regex example for modPath
+1202,2019-10-02 10:58:04.000000000,2019-10-02 11:53:57.000000000,closed,2,Note that inlineContent filter is special
+1201,2019-10-02 10:53:57.000000000,2019-10-02 11:12:43.000000000,closed,3,Fix links to dataclients docs
+1200,2019-09-30 18:17:36.000000000,2019-10-09 20:04:47.000000000,closed,2,"fix conflict between Path(""/**"") and PathSubtree(""/"")"
+1199,2019-09-30 17:39:16.000000000,2019-10-01 20:47:02.000000000,closed,2,logging auth errors
+1198,2019-09-30 16:49:20.000000000,2019-10-09 20:04:46.000000000,closed,1,"Conflict between Path(""/**"") and PathSubtree(""/"")"
+1197,2019-09-30 13:32:59.000000000,2019-09-30 14:09:39.000000000,closed,3,set origin markers only when there were any changes to the routes
+1196,2019-09-29 21:08:10.000000000,2019-09-30 12:27:19.000000000,closed,2,add more unit test coverage for scheduler filters
+1195,2019-09-26 17:04:21.000000000,2019-10-15 12:41:54.000000000,closed,1,log the original reason when the tokeninfo filters fail to make requests to the auth service
+1194,2019-09-24 23:59:33.000000000,2019-09-25 11:14:59.000000000,closed,2,increase cluster ratelimit coverage report
+1193,2019-09-22 15:59:02.000000000,2019-09-22 22:42:28.000000000,closed,2,delete routes only on ENOEXIST when using file watching
+1192,2019-09-20 19:18:24.000000000,2019-10-15 12:33:01.000000000,closed,5,monitor route creation time
+1191,2019-09-18 14:43:01.000000000,2019-09-18 15:39:19.000000000,closed,3,monitor route creation time
+1190,2019-09-18 10:37:12.000000000,2019-09-18 11:28:38.000000000,closed,6,add logging for route creation time
+1189,2019-09-16 13:03:48.000000000,2019-09-16 13:33:38.000000000,closed,2,small doc fixes
+1188,2019-09-12 15:11:03.000000000,2019-09-12 15:27:14.000000000,closed,2,fix route creation time
+1187,2019-09-12 10:58:55.000000000,2019-09-16 14:18:02.000000000,closed,5,Errors while installing skipper when using 'go get github.com/zalando/skipper/...
+1186,2019-09-11 19:28:53.000000000,2019-09-12 16:17:17.000000000,closed,2,doc: add missing annotation and some minor fixes in docs
+1185,2019-09-11 17:36:24.000000000,2019-09-11 18:01:59.000000000,closed,2,fix warning on multiple lifo filters
+1184,2019-09-10 14:24:41.000000000,1970-01-01 00:00:00.000000001,open,9,chore: Update team name in zappr
+1183,2019-09-10 14:17:06.000000000,2019-09-10 14:22:01.000000000,closed,0,Update owning team for skipper in zappr
+1182,2019-09-06 16:13:31.000000000,1970-01-01 00:00:00.000000001,open,1,"Be able to target ""dynamic"" backend containing variable extracted from PathSubtree"
+1181,2019-09-06 16:04:51.000000000,2019-09-06 19:39:29.000000000,closed,5,Use Errorf when port defition is wrong
+1180,2019-09-05 13:13:29.000000000,2020-01-28 13:58:39.000000000,closed,4,Feature/routegroup crd
+1179,2019-09-04 21:54:24.000000000,2019-09-05 00:39:14.000000000,closed,2,use fixed version of staticcheck for Go1.13
+1178,2019-09-04 20:35:25.000000000,2019-09-04 20:36:16.000000000,closed,0,Feature/routegroup crd transform
+1177,2019-09-04 20:00:48.000000000,2019-09-04 20:01:01.000000000,closed,0,Feature/routegroup crd transform
+1176,2019-09-04 15:27:32.000000000,2019-09-04 15:27:56.000000000,closed,0,Feature/routegroup crd transform
+1175,2019-09-04 12:28:28.000000000,2019-09-04 14:59:15.000000000,closed,5,Update skipper build for Go 1.13
+1174,2019-09-03 21:41:02.000000000,2019-09-03 21:41:59.000000000,closed,0,Feature/routegroup crd transform
+1173,2019-09-03 18:50:09.000000000,2019-09-03 19:29:01.000000000,closed,0,initial stubs for the CRD client
+1172,2019-08-30 14:56:19.000000000,1970-01-01 00:00:00.000000001,open,2,Make Redis Config Reusable
+1171,2019-08-30 13:38:09.000000000,2019-08-30 16:49:13.000000000,closed,2,fix: allow ratelimiting for shunt routes
+1170,2019-08-30 12:46:09.000000000,1970-01-01 00:00:00.000000001,open,0,TFO - TCP Fast Open
+1169,2019-08-30 11:41:42.000000000,1970-01-01 00:00:00.000000001,open,4,Add X-RateLimit-* headers
+1168,2019-08-29 16:41:54.000000000,2019-08-29 18:34:28.000000000,closed,4,feat: Update baggageItemToTag filter name
+1167,2019-08-29 13:34:15.000000000,2019-08-29 19:35:58.000000000,closed,1,Content-Length not set by setRequestHeader
+1166,2019-08-28 18:33:31.000000000,2019-08-29 10:09:42.000000000,closed,2,fix issues identified in a workshop
+1165,2019-08-28 18:22:03.000000000,2019-09-02 18:12:17.000000000,closed,5,Refactor lifo
+1164,2019-08-28 14:07:20.000000000,2019-08-28 18:35:02.000000000,closed,5,Fix link to auth tutorial
+1163,2019-08-27 16:59:33.000000000,2019-08-27 20:26:03.000000000,closed,5,Add support for tags in jaeger tracing implementation
+1162,2019-08-27 13:26:54.000000000,2019-08-27 20:26:03.000000000,closed,3,Add tags to jaeger tracing spans
+1161,2019-08-26 17:50:25.000000000,1970-01-01 00:00:00.000000001,open,4,Unexpected behaviour configuring ratelimit
+1160,2019-08-26 12:56:16.000000000,2019-08-26 18:04:55.000000000,closed,12,feat: Add baggageItemToTag filter
+1159,2019-08-23 18:52:29.000000000,1970-01-01 00:00:00.000000001,open,1,metrics for active connections and pending HTTP requests
+1158,2019-08-22 16:56:34.000000000,2019-09-11 17:15:48.000000000,closed,2,Unexpected error from Go stdlib net/http package during roundtrip: unexpected EOF
+1157,2019-08-21 13:49:17.000000000,1970-01-01 00:00:00.000000001,open,0,[Kubernetes] ExternalName Service is served for wrong Ingress
+1156,2019-08-20 18:41:31.000000000,2019-10-15 13:07:38.000000000,closed,1,Kubernetes external IPs
+1155,2019-08-15 17:19:30.000000000,2019-08-28 18:36:55.000000000,closed,7,refactor kube data client
+1154,2019-08-13 21:42:07.000000000,2019-08-15 15:47:05.000000000,closed,6,benchmark tokeninfo client baseline cost
+1153,2019-08-13 16:23:49.000000000,2019-08-13 17:17:51.000000000,closed,2,"Add JWTPayloadAllKVRegexp, JWTPayloadAnyKVRegexp"
+1152,2019-08-09 14:19:58.000000000,2019-08-13 19:35:36.000000000,closed,2,add option to provide a metrics backend instance (#1151)
+1151,2019-08-08 17:21:14.000000000,2019-08-13 19:35:35.000000000,closed,1,Support custom Metrics implementations
+1150,2019-08-05 11:20:21.000000000,2019-08-05 12:34:32.000000000,closed,0,dummy PR
+1149,2019-08-01 14:52:06.000000000,2019-08-30 15:31:41.000000000,closed,12,monitor route creation time
+1148,2019-08-01 14:09:12.000000000,2019-08-01 15:27:27.000000000,closed,2,update apiVersion to apps/v1
+1147,2019-07-31 19:44:30.000000000,2019-07-31 19:59:17.000000000,closed,2,fix doc build and wire egress to reference section
+1146,2019-07-31 17:59:06.000000000,2019-07-31 19:31:52.000000000,closed,2,Docs/egress features
+1145,2019-07-31 15:46:12.000000000,1970-01-01 00:00:00.000000001,open,0,opentracing reports 500 when a route was not found
+1144,2019-07-31 12:36:05.000000000,2019-08-12 13:20:35.000000000,closed,5,recognize api monitoring tag
+1143,2019-07-30 19:25:40.000000000,2019-07-31 12:59:29.000000000,closed,2,fix credentials poll should not be 0 for library users
+1142,2019-07-29 18:01:16.000000000,2019-07-29 18:46:41.000000000,closed,2,Build/improve performance
+1141,2019-07-26 19:02:07.000000000,2019-07-26 19:37:39.000000000,closed,2,fix ineffassign in throttle filter
+1140,2019-07-26 18:07:16.000000000,1970-01-01 00:00:00.000000001,open,11,Support OAuth2 Authorization Code Grant Flow
+1139,2019-07-26 17:44:16.000000000,2019-07-31 19:31:54.000000000,closed,0,Document egress specific feature
+1138,2019-07-26 11:11:12.000000000,2019-07-26 13:57:08.000000000,closed,2,make docs more clear and add links from reference to tutorial
+1137,2019-07-25 22:31:49.000000000,2019-07-26 04:45:51.000000000,closed,2,Redirect to location by using values captured from the original path
+1136,2019-07-25 22:22:49.000000000,2019-07-26 19:02:36.000000000,closed,5,Reduce delay to when throttle type is bandwidth
+1135,2019-07-25 20:28:07.000000000,2019-07-25 20:50:10.000000000,closed,2,handle string on list flags when called on nil
+1134,2019-07-25 13:36:39.000000000,1970-01-01 00:00:00.000000001,open,0,Observability: detect when EOF is logged because of invalid Content-Length in the backend response
+1133,2019-07-24 23:01:23.000000000,2019-10-12 01:54:33.000000000,closed,4,Installation instructions are not working
+1132,2019-07-23 10:15:25.000000000,2019-07-26 13:58:04.000000000,closed,3,do retries only if the request is retrieable
+1131,2019-07-19 17:48:47.000000000,1970-01-01 00:00:00.000000001,open,0,Refactor/proxy error logging
+1130,2019-07-19 17:35:47.000000000,1970-01-01 00:00:00.000000001,open,0,Ratelimiting potentially spamming the error logs
+1129,2019-07-19 16:17:38.000000000,1970-01-01 00:00:00.000000001,open,4,Question: metrics for backend retries
+1128,2019-07-17 20:00:36.000000000,2019-07-18 14:56:10.000000000,closed,2,Add option inside plugin to understand to what route is request related
+1127,2019-07-17 11:40:10.000000000,2019-07-19 21:44:24.000000000,closed,6,add route id to filter context
+1126,2019-07-16 19:38:54.000000000,2019-07-17 19:00:38.000000000,closed,2,add listflag parser
+1125,2019-07-15 19:58:14.000000000,2019-07-26 13:57:16.000000000,closed,4,Feature/secrets from files
+1124,2019-07-15 11:04:11.000000000,1970-01-01 00:00:00.000000001,open,3,Benchmarking TEST reports
+1123,2019-07-12 11:56:59.000000000,2019-07-12 21:09:05.000000000,closed,2,add armv7 and armv8 docker containers to release process
+1122,2019-07-12 00:38:04.000000000,2019-07-12 00:59:50.000000000,closed,2,fix shell var needs double $ to access
+1121,2019-07-11 22:47:04.000000000,2019-07-11 23:01:05.000000000,closed,2,fix upload flag
+1120,2019-07-11 20:55:55.000000000,2019-07-11 21:27:31.000000000,closed,2,"fix bash syntax missing ""done"""
+1119,2019-07-11 19:52:56.000000000,2019-07-11 20:18:06.000000000,closed,2,fix release version var
+1118,2019-07-11 18:54:51.000000000,2019-07-19 21:50:38.000000000,closed,3,Apiusagemonitoring context
+1117,2019-07-11 14:39:43.000000000,2019-07-11 19:34:54.000000000,closed,3,Release/automate git tag and release
+1116,2019-07-10 21:05:40.000000000,2019-07-11 13:32:54.000000000,closed,2,differentiate error from backend and error during roundtrip
+1115,2019-07-10 20:00:17.000000000,1970-01-01 00:00:00.000000001,open,3,add proxy errors to the opentracing logs
+1114,2019-07-10 11:32:00.000000000,2019-07-10 12:45:34.000000000,closed,2,Fix/build release
+1113,2019-07-10 11:07:49.000000000,2019-07-10 11:22:20.000000000,closed,2,Add the missing new line Cron predicate documentation
+1112,2019-07-09 19:05:43.000000000,2019-07-09 19:23:09.000000000,closed,2,add create flag for log output files
+1111,2019-07-07 17:52:21.000000000,2019-07-09 19:00:47.000000000,closed,5,"Add ""Cron"" pred. that supports cron-like expressions to match routes"
+1110,2019-07-05 18:11:29.000000000,2019-07-08 19:39:50.000000000,closed,4,Docs/path predicates details
+1109,2019-07-05 01:14:24.000000000,2019-10-15 12:43:47.000000000,closed,4,Different predicates on same path mess up routing
+1108,2019-06-30 22:33:25.000000000,2019-07-10 12:25:13.000000000,closed,3,refactor OIDC filters enc/dec handling into secrets module
+1107,2019-06-30 14:52:00.000000000,2019-07-08 19:37:41.000000000,closed,3,build armv7 and armv8 containers and binary releases to GH
+1106,2019-06-25 19:34:46.000000000,2019-06-26 16:51:17.000000000,closed,2,fix format check to be as strict as format
+1105,2019-06-25 16:00:24.000000000,2019-06-25 18:55:35.000000000,closed,2,fix: benchmark startup
+1104,2019-06-24 19:52:14.000000000,2019-06-25 17:25:45.000000000,closed,3,fix chunked transfer-encoding
+1103,2019-06-24 19:45:36.000000000,2019-06-25 17:25:44.000000000,closed,1,Transfer-Encoding: chunked blocks until first body was sent
+1102,2019-06-24 16:56:20.000000000,2019-06-24 17:00:50.000000000,closed,1,retry with Body payload do no work
+1101,2019-06-20 19:52:24.000000000,2019-07-04 23:43:12.000000000,closed,3,go mod tidy and update dependencies
+1100,2019-06-20 18:32:02.000000000,2019-06-21 17:41:36.000000000,closed,2,clarify ratelimit fitler docs
+1099,2019-06-20 18:24:16.000000000,2019-06-21 14:40:44.000000000,closed,3,feature: unverifiedAuditLog filter with varargs
+1098,2019-06-20 17:30:51.000000000,2019-06-20 20:06:49.000000000,closed,4,support ingress with service type ExternalName
+1097,2019-06-20 13:39:01.000000000,2019-06-20 14:17:27.000000000,closed,2,Add roundtrip start/end span logs
+1096,2019-06-20 09:19:48.000000000,2019-06-20 14:19:04.000000000,closed,1,Exclude Span if its coming to `/kube-system/healthz`
+1095,2019-06-18 17:57:49.000000000,2019-06-19 19:00:13.000000000,closed,7,fix: use path from request chain (#1094)
+1094,2019-06-18 14:23:56.000000000,2019-06-19 19:00:13.000000000,closed,3,apiusagemonitoring is using modified path from response chain
+1093,2019-06-16 14:12:33.000000000,2019-06-17 15:47:59.000000000,closed,2,Set secure directive if request is receive on https
+1092,2019-06-13 22:19:01.000000000,2019-06-17 21:34:09.000000000,closed,4,refactor error vars in proxy to be constants
+1091,2019-06-13 20:03:14.000000000,2019-06-14 13:08:03.000000000,closed,3,fix upgrade headers for kubectl exec
+1090,2019-06-12 19:14:59.000000000,2019-06-21 14:44:26.000000000,closed,1,unverifiedAuditLog should have fall back keys
+1089,2019-06-12 10:32:20.000000000,2020-01-28 19:45:02.000000000,closed,12,Cookies set by oauthOidc -filters are occasionally too big
+1088,2019-06-11 01:53:54.000000000,2019-06-11 15:44:53.000000000,closed,3,Fix/rfc patch path
+1087,2019-06-07 19:39:27.000000000,2019-06-07 19:54:06.000000000,closed,2,Fix span event name
+1086,2019-06-07 18:49:18.000000000,2019-06-07 19:05:18.000000000,closed,3,fix stuck lifo() -> done() notifications
+1085,2019-06-06 15:17:13.000000000,2019-06-17 15:47:59.000000000,closed,2,Secure flag not set for cookies stored by oauthOidc -filters
+1084,2019-06-05 18:12:15.000000000,2019-06-06 14:23:38.000000000,closed,2,"initialization order, metrics"
+1083,2019-06-05 17:12:36.000000000,2019-06-11 15:44:53.000000000,closed,3,path predicates don't handle URL escaped paths
+1082,2019-06-05 12:35:12.000000000,2019-07-09 19:11:15.000000000,closed,5,cron style predicate for time based route match
+1081,2019-06-03 17:35:58.000000000,2019-06-03 18:51:36.000000000,closed,2,fix leftovers from comments
+1080,2019-05-31 19:46:57.000000000,2019-05-31 19:53:38.000000000,closed,2,Remove X-Zalando-team from open source skipper
+1079,2019-05-31 19:46:18.000000000,2019-05-31 19:55:00.000000000,closed,1,Remove X-Zalando-team from open source skipper
+1078,2019-05-31 18:22:09.000000000,2019-06-03 13:18:43.000000000,closed,5,fix source from last predicate
+1077,2019-05-31 15:49:22.000000000,2019-06-03 12:42:32.000000000,closed,4,add init flags to pass certificates files to connect with backend
+1076,2019-05-29 17:42:43.000000000,2019-10-31 01:56:12.000000000,closed,11,Paths with named wildcards must be unique across all hosts
+1075,2019-05-28 20:47:48.000000000,2019-06-01 12:00:07.000000000,closed,3,tuple client ratelimit
+1074,2019-05-28 18:49:51.000000000,1970-01-01 00:00:00.000000001,open,1,Skipper does not find endpoints for named targetPort in service
+1073,2019-05-28 17:29:27.000000000,2019-05-31 11:36:43.000000000,closed,3,fix JWTPayloadAnyKV should have multi key assignment similar to token*AnyKV filters
+1072,2019-05-28 14:04:28.000000000,2019-05-28 21:42:41.000000000,closed,4,remove dependency
+1071,2019-05-28 14:03:52.000000000,2019-05-28 21:06:13.000000000,closed,2,add lb annotation to ingress user docs
+1070,2019-05-27 14:33:22.000000000,2019-06-03 17:32:47.000000000,closed,13,Enrich forwardToken filter
+1069,2019-05-27 14:04:37.000000000,2019-05-27 14:22:27.000000000,closed,0,MID-855: Enrich forwardToken filter with masking abilities
+1068,2019-05-25 18:58:06.000000000,1970-01-01 00:00:00.000000001,open,2,Proxy protocol support?
+1067,2019-05-24 19:45:12.000000000,2019-05-25 15:18:09.000000000,closed,2,Add missing opentracing related flags
+1066,2019-05-23 14:03:44.000000000,2019-05-24 19:32:15.000000000,closed,3,Add options to reduce the payload shipped per request
+1065,2019-05-22 16:56:04.000000000,2019-05-28 19:18:29.000000000,closed,0,Reduce the payload shipped per request for OpenTracing instrumentation
+1064,2019-05-22 16:46:13.000000000,2019-05-22 17:06:59.000000000,closed,2,Drop `skipper.route` tag to reduce the size of the messages shipped
+1063,2019-05-21 20:33:17.000000000,1970-01-01 00:00:00.000000001,open,2,Service Mesh interface
+1062,2019-05-21 19:43:21.000000000,2019-05-22 12:59:34.000000000,closed,2,add config options grpc max buffer and min/max report times
+1061,2019-05-21 18:37:37.000000000,2019-05-21 19:08:03.000000000,closed,2,Log important events emitted by LightStep tracer
+1060,2019-05-20 12:57:02.000000000,2019-05-22 19:03:11.000000000,closed,0,lightstep plugin shipping configuration
+1059,2019-05-20 12:01:34.000000000,1970-01-01 00:00:00.000000001,open,0,implement xDS v2 APIs
+1058,2019-05-17 20:01:11.000000000,2019-05-22 16:28:32.000000000,closed,3,tokenin*AnyKV filters should be able to check same keys
+1057,2019-05-17 19:57:51.000000000,2019-05-27 15:31:03.000000000,closed,4,add more operations documentation including tutorial for starters
+1056,2019-05-16 19:21:38.000000000,1970-01-01 00:00:00.000000001,open,1,Dynamic editing of HTTP headers
+1055,2019-05-15 01:16:23.000000000,1970-01-01 00:00:00.000000001,open,2,Add HDR Histograms
+1054,2019-05-14 18:54:08.000000000,2019-05-14 19:46:08.000000000,closed,2,Fix/lifo self healing
+1053,2019-05-13 14:19:37.000000000,2019-05-16 20:21:17.000000000,closed,2,Access log filters don't chain correctly
+1052,2019-05-13 11:20:46.000000000,2019-05-13 13:27:10.000000000,closed,2,remove log output in tests (#1045)
+1051,2019-05-08 12:49:34.000000000,2019-05-11 10:38:25.000000000,closed,3,Send traffic to all pods when all of them are unready
+1050,2019-05-07 18:40:26.000000000,2019-05-09 20:38:32.000000000,closed,6,fix #1049: fix potential nil dereference
+1049,2019-05-07 18:34:42.000000000,2019-05-09 20:38:32.000000000,closed,0,potential nil dereference
+1048,2019-05-07 15:35:12.000000000,1970-01-01 00:00:00.000000001,open,4,Add Custom Opentracing plugin
+1047,2019-05-07 14:17:52.000000000,2019-05-10 16:15:45.000000000,closed,5,feat: provide the first stack trace on filter panic (#1045)
+1046,2019-05-07 11:51:49.000000000,2019-05-14 13:32:34.000000000,closed,6,add tag= parameter for lightstep plugin
+1045,2019-05-07 11:34:13.000000000,2019-05-10 16:15:45.000000000,closed,3,Provide stack trace if a filter panics
+1044,2019-05-03 12:59:38.000000000,2019-05-23 17:54:24.000000000,closed,3,oauthToken* filters can not check same key with different values
+1043,2019-04-29 13:11:59.000000000,1970-01-01 00:00:00.000000001,open,0,Update metrics user docs 
+1042,2019-04-26 16:16:38.000000000,2019-04-30 16:14:38.000000000,closed,5,Set URL from Host and TLS in dynamic backend
+1041,2019-04-24 14:10:23.000000000,1970-01-01 00:00:00.000000001,open,1,More fine-grained timeout handling
+1040,2019-04-23 13:47:08.000000000,1970-01-01 00:00:00.000000001,open,2,Report Failures to generate routes to Ingress
+1039,2019-04-18 04:10:24.000000000,2019-10-14 20:39:28.000000000,closed,1,Add option to pull cli args/switches from configfile
+1038,2019-04-16 20:25:52.000000000,2019-04-17 13:51:23.000000000,closed,1,limit number of inflight requests per route
+1037,2019-04-16 18:20:42.000000000,2019-04-17 13:22:28.000000000,closed,3,Differentiate authentication and authorization issues in response codes
+1036,2019-04-16 15:00:49.000000000,2019-04-16 18:14:20.000000000,closed,2,random 502 errors on test environment. 
+1035,2019-04-16 14:46:56.000000000,2019-05-22 16:11:42.000000000,closed,3,OAuth Scope Validation is returning an incorrect response code
+1034,2019-04-16 14:16:57.000000000,1970-01-01 00:00:00.000000001,open,7,closed Body error on repeated makeBackendRequest()
+1033,2019-04-16 13:17:31.000000000,1970-01-01 00:00:00.000000001,open,0,per backend ratelimit
+1032,2019-04-16 13:13:22.000000000,2019-06-21 17:41:36.000000000,closed,0,clarify service ratelimit
+1031,2019-04-12 19:33:22.000000000,2019-04-15 11:42:51.000000000,closed,2,enhance opentracing
+1030,2019-04-12 02:12:52.000000000,2019-05-03 18:27:30.000000000,closed,8,"lifo filters, concept"
+1029,2019-04-11 14:00:28.000000000,2019-04-24 19:59:15.000000000,closed,6,chore(api-usage-monitoring filter): remove deprecated parameter (#949)
+1028,2019-04-11 06:23:09.000000000,1970-01-01 00:00:00.000000001,open,11,kubernetes: ingress class appears to be ignored in route printing
+1027,2019-04-11 01:23:43.000000000,2019-04-24 17:18:46.000000000,closed,10,Update authclient.go
+1026,2019-04-09 23:43:33.000000000,2019-05-02 01:57:23.000000000,closed,12,Oauth Token Introspection Filter
+1025,2019-04-09 19:32:20.000000000,2019-04-10 19:39:52.000000000,closed,4,increase codecoverage to 80% required by silver cii bestpractices
+1024,2019-04-09 13:12:41.000000000,1970-01-01 00:00:00.000000001,open,1,eastwest routes combined with custom-routes not working as expected
+1023,2019-04-07 15:36:15.000000000,2019-10-31 01:48:06.000000000,closed,1,Skipper subtree generation when already present
+1022,2019-04-05 19:28:02.000000000,2019-04-08 00:53:57.000000000,closed,2,define key roles and cleanup maintainers file
+1021,2019-04-04 01:26:09.000000000,2019-04-04 11:29:13.000000000,closed,0,Describe result of running eskip check
+1020,2019-04-04 01:22:52.000000000,2019-04-04 11:29:13.000000000,closed,3,Little update to the readme file concerning eskip check
+1019,2019-04-03 20:09:12.000000000,2019-04-04 16:28:36.000000000,closed,3,fix memory spike in east west route creation
+1018,2019-04-02 20:12:45.000000000,2019-10-15 12:43:19.000000000,closed,2,PathSubtree takes priority over Path with wildcard
+1017,2019-04-01 13:28:36.000000000,2019-04-01 20:46:09.000000000,closed,5,doc: fix A/B example as mentioned by @fpozzobon
+1016,2019-03-29 14:09:54.000000000,2019-04-01 20:31:46.000000000,closed,6,use hostname from host header
+1015,2019-03-28 20:10:33.000000000,2019-04-02 17:17:26.000000000,closed,5,Feature/lb algorithms
+1014,2019-03-28 19:07:21.000000000,2020-07-08 01:05:05.000000000,closed,2,Question: HW setup for linux machine
+1013,2019-03-27 16:12:05.000000000,1970-01-01 00:00:00.000000001,open,1,Question: Can i define a Fallback route ?
+1012,2019-03-27 15:58:41.000000000,2019-05-17 17:34:06.000000000,closed,2,Document default filters
+1011,2019-03-27 13:13:44.000000000,2019-03-27 13:17:23.000000000,closed,1,Question: Is there a page which explains the metrics i'm getting from 9911 listener ?
+1010,2019-03-26 17:06:40.000000000,2019-03-26 21:01:16.000000000,closed,5,"Questions: Running Skipper on windows machine, whats the HW setup?"
+1009,2019-03-26 15:52:31.000000000,1970-01-01 00:00:00.000000001,open,0,Docs for features  support like SNI
+1008,2019-03-26 13:57:29.000000000,2019-04-01 20:16:10.000000000,closed,9,Make unverifiedAuditLog configurable
+1007,2019-03-26 12:11:31.000000000,2019-04-01 13:29:07.000000000,closed,1,A / B test example
+1006,2019-03-25 20:26:50.000000000,1970-01-01 00:00:00.000000001,open,1,Add cookieToHeader filter
+1005,2019-03-25 19:52:03.000000000,1970-01-01 00:00:00.000000001,open,1,Skipper panics if swarm port occupied at start
+1004,2019-03-25 19:24:21.000000000,2019-03-26 13:46:39.000000000,closed,5,Question: Does a single Skipper instance can handle requests form multiple domains with different certificates for each domain?
+1003,2019-03-21 21:45:18.000000000,2019-03-23 09:00:27.000000000,closed,2,default filters as routing.PreProcessors
+1002,2019-03-21 19:46:10.000000000,2019-03-23 22:23:06.000000000,closed,4,apply default filter set as prefix filters
+1001,2019-03-21 14:37:53.000000000,2019-03-21 15:13:15.000000000,closed,3,Stop being graceful on SIGINT
+1000,2019-03-21 12:52:13.000000000,2019-04-01 20:31:46.000000000,closed,5,Question: Open Id Connect Cookie Domain
+999,2019-03-21 00:34:04.000000000,2019-03-23 21:20:15.000000000,closed,2,Formatting and cleanup of Ingress comparison docs
+998,2019-03-20 19:03:46.000000000,2019-03-21 14:35:19.000000000,closed,3,fix close-idle-conns-period flag
+997,2019-03-20 12:46:16.000000000,2020-07-08 01:08:44.000000000,closed,8,rate limiting support for tee()/teenf()
+996,2019-03-19 15:29:05.000000000,2019-03-20 01:19:20.000000000,closed,2,Update travis config to use Go 1.12.x
+995,2019-03-18 19:31:16.000000000,2019-03-19 14:23:38.000000000,closed,4,Log access filter
+994,2019-03-18 13:57:40.000000000,2019-03-20 14:49:25.000000000,closed,2,Create issue templates
+993,2019-03-18 00:02:38.000000000,2019-03-19 13:52:44.000000000,closed,3,Add tests for HTTP Upgrade.
+992,2019-03-17 18:59:29.000000000,1970-01-01 00:00:00.000000001,open,10,HTTPS redirect annotation does not work
+991,2019-03-15 15:48:18.000000000,2019-03-15 17:53:46.000000000,closed,1,Prometheus metrics for skipper_filter_all_combined_request_duration_seconds_ are wrong
+990,2019-03-15 15:24:15.000000000,2019-03-15 17:53:54.000000000,closed,1,Prometheus metrics for skipper_route_lookup_duration_seconds are wrong
+989,2019-03-14 20:02:03.000000000,2019-03-16 16:39:55.000000000,closed,4,Doc/comparision with other ingress ctl
+988,2019-03-12 18:12:25.000000000,2019-03-13 10:56:52.000000000,closed,2,Fix/graceful shutdown
+987,2019-03-11 02:21:11.000000000,2019-03-19 13:52:44.000000000,closed,0,Add tests for HTTP Upgrade support
+986,2019-03-11 02:15:46.000000000,2019-03-11 18:44:10.000000000,closed,7,Support loadbalancing routes for HTTP Upgrade handling.
+985,2019-03-10 03:07:14.000000000,2019-03-22 02:51:49.000000000,closed,6,OIDC filter enhancements and tutorial
+984,2019-03-07 20:04:52.000000000,2019-03-27 12:36:55.000000000,closed,1,feat: add cache for retry after value
+983,2019-03-07 13:57:44.000000000,2019-04-03 17:24:23.000000000,closed,9,k8s dataclient default filter config via config map
+982,2019-03-06 13:54:45.000000000,2019-03-11 18:44:10.000000000,closed,2,Support Websockets.
+981,2019-03-05 22:13:36.000000000,2019-03-13 17:37:33.000000000,closed,6,Feature/redis based cluster ratelimit
+980,2019-03-05 19:48:52.000000000,2019-03-05 20:34:53.000000000,closed,5,fix: reduced memory allocations for east-west-route creation (#979)
+979,2019-03-05 19:05:11.000000000,2019-03-14 14:58:16.000000000,closed,1,Unnecessary allocations when create of east-west-routes
+978,2019-03-03 22:29:37.000000000,1970-01-01 00:00:00.000000001,open,20,Add metric that exposes the name of Ingress and Service that are the source of a route
+977,2019-03-01 20:05:39.000000000,2019-03-07 14:05:36.000000000,closed,1,k8s dataclient default filter config via config map
+976,2019-03-01 18:16:34.000000000,2019-04-03 17:24:23.000000000,closed,0,[Kubernetes dataclient] Default filter configurations via ConfigMap
+975,2019-02-28 20:53:49.000000000,2019-02-28 22:18:59.000000000,closed,2,doc fix rbac
+974,2019-02-27 18:58:49.000000000,2019-03-03 23:30:29.000000000,closed,5,Fix/cluster ratelimits with central sharded redis
+973,2019-02-27 16:21:02.000000000,2019-02-28 15:48:30.000000000,closed,17,fix: protect concurrent map access in apimonitoring (#968)
+972,2019-02-26 19:20:32.000000000,2019-02-28 15:20:00.000000000,closed,1,968 fix unprotected map access in monitoring
+971,2019-02-26 16:47:02.000000000,2019-02-26 17:42:16.000000000,closed,3,sync.Map to protect `metricPrefixedPerClient` against concurrent calls
+970,2019-02-26 16:25:10.000000000,2019-03-11 21:08:22.000000000,closed,4,shortcheck: run with -race
+969,2019-02-26 16:05:15.000000000,2019-03-11 21:08:22.000000000,closed,0,enable go test -race in pipeline
+968,2019-02-26 15:57:06.000000000,2019-02-28 15:48:30.000000000,closed,0,[apiusagemonitoring] Unprotected access to map causes panic
+967,2019-02-25 19:41:04.000000000,2019-02-25 20:10:25.000000000,closed,4,fix(apiusagemonitoring): add doc entry about no-op filter in case of invalid config
+966,2019-02-25 17:10:41.000000000,2019-02-25 19:23:39.000000000,closed,2,Create noop filter in case of invalid monitoring filter config
+965,2019-02-25 00:52:28.000000000,1970-01-01 00:00:00.000000001,open,3,Prometheus route metrics still available after deleting route
+964,2019-02-22 19:51:23.000000000,2019-03-13 10:56:52.000000000,closed,8,K8s ingress: 502s from ALB when using multiple hosts 
+963,2019-02-22 15:01:35.000000000,2019-02-22 17:10:13.000000000,closed,2,Fix rendering of filter docs and add a little more description
+962,2019-02-21 18:50:37.000000000,1970-01-01 00:00:00.000000001,open,1,Ingress: Handle overlapping ingress definitions in a deterministic way
+961,2019-02-21 00:23:03.000000000,2019-03-05 22:42:38.000000000,closed,0,Fix/cluster ratelimits 
+960,2019-02-20 13:14:12.000000000,1970-01-01 00:00:00.000000001,open,0,check if we can handle websockets more efficiently
+959,2019-02-20 10:50:49.000000000,2019-02-20 18:45:07.000000000,closed,4,Fix ingress_controller.md  ClusterRole not enough settings.
+958,2019-02-19 21:48:15.000000000,2019-02-24 22:40:49.000000000,closed,4,drop not required comment
+957,2019-02-19 19:59:00.000000000,2019-02-19 20:59:33.000000000,closed,3,fix support listener not ready
+956,2019-02-19 13:09:25.000000000,1970-01-01 00:00:00.000000001,open,1,Caching algorithms 
+955,2019-02-15 21:33:34.000000000,2019-02-20 02:14:49.000000000,closed,7,Use native Mkdocs page references
+954,2019-02-15 10:46:45.000000000,2019-02-15 17:45:41.000000000,closed,3,Warning against multiple Ingresses
+953,2019-02-14 21:17:12.000000000,2019-02-14 21:46:12.000000000,closed,2,"use Debugf instead of Debug, since the message uses formatting"
+952,2019-02-14 16:30:39.000000000,2019-02-14 21:46:12.000000000,closed,3,wrong log method
+951,2019-02-12 17:58:27.000000000,2019-02-18 03:04:51.000000000,closed,11,kubernetes: fetch endpoints/services once
+950,2019-02-11 20:20:47.000000000,2019-02-13 19:13:14.000000000,closed,5,API usage monitoring filter improvements
+949,2019-02-11 20:12:55.000000000,2019-02-13 19:13:14.000000000,closed,0,API usage monitoring filter improvements
+948,2019-02-08 19:03:10.000000000,1970-01-01 00:00:00.000000001,open,5,ingress: Prevent creating ingress routes without 100% traffic
+947,2019-02-08 17:41:18.000000000,2019-02-08 17:49:02.000000000,closed,3,fix non rfc compliant websocket requests
+946,2019-02-07 21:14:05.000000000,2019-05-09 15:44:01.000000000,closed,3,Build/check gosec
+945,2019-02-07 12:54:59.000000000,1970-01-01 00:00:00.000000001,open,0,Integrate Go-fuzz for testing 
+944,2019-02-06 21:53:28.000000000,2019-02-07 18:00:35.000000000,closed,2,fix #943 clientRatelimit was registered
+943,2019-02-06 19:05:03.000000000,2019-02-07 18:00:36.000000000,closed,1,clientRatelimit is not recognised as a valid route filter
+942,2019-02-06 18:58:55.000000000,2019-03-13 17:37:33.000000000,closed,1,cluster ratelimits are not enforcing stable enough the settings
+941,2019-02-03 23:20:35.000000000,2019-02-05 17:43:57.000000000,closed,3,safe memory space and simplify code
+940,2019-02-03 18:44:05.000000000,2019-02-04 16:45:55.000000000,closed,2,"silver cii badge - coc, contributing"
+939,2019-01-30 23:33:04.000000000,1970-01-01 00:00:00.000000001,open,6,flaky tests
+938,2019-01-30 22:47:24.000000000,2019-02-06 01:22:28.000000000,closed,6,refactor loadbalancer to be a single route
+937,2019-01-30 15:39:02.000000000,2019-01-30 17:38:38.000000000,closed,4,Make proxy client TLS work with skipper.Options
+936,2019-01-29 23:36:12.000000000,2019-01-30 14:30:55.000000000,closed,4,Add command line flags for all etcd options
+935,2019-01-29 14:21:54.000000000,1970-01-01 00:00:00.000000001,open,1,"kubernetes 1.14,1.15,1.16 switch ingress apiVersion"
+934,2019-01-28 22:43:56.000000000,2019-01-31 15:10:28.000000000,closed,3,provide documentation on etcd usage
+933,2019-01-28 21:05:25.000000000,2019-01-30 14:30:55.000000000,closed,1,etcd options missing from the command line flags
+932,2019-01-25 15:33:12.000000000,2019-01-25 17:34:08.000000000,closed,2,fix static check for type switch
+931,2019-01-24 01:02:58.000000000,1970-01-01 00:00:00.000000001,open,2,Kubernetes: update Ingress status field
+930,2019-01-23 20:05:37.000000000,2019-01-24 19:31:05.000000000,closed,4,Ingress Path Matching - Default Backends - convertDefaultBackend
+929,2019-01-23 15:41:57.000000000,1970-01-01 00:00:00.000000001,open,3,Forward Proxy
+928,2019-01-21 21:59:28.000000000,2019-01-24 18:51:39.000000000,closed,2,Expose ClientTLS in skipper options for passing client TLS settings
+927,2019-01-21 21:25:42.000000000,2019-01-21 21:52:33.000000000,closed,0,Expose ClientTLS in skipper options for passing client TLS settings
+926,2019-01-21 21:07:27.000000000,2019-01-21 21:08:35.000000000,closed,0,Expose ClientTLS in skipper options for passing client TLS settings
+925,2019-01-20 21:28:51.000000000,2019-01-24 20:19:41.000000000,closed,11,Access log disable filter
+924,2019-01-20 02:50:06.000000000,2019-02-07 21:14:54.000000000,closed,1,TLS Flags to enable client/server certs (mtls)
+923,2019-01-18 22:30:09.000000000,2019-02-05 17:34:47.000000000,closed,3,Set target backend for a request from a filter based on request headers/body?
+922,2019-01-18 21:52:03.000000000,2019-01-19 16:45:35.000000000,closed,2,Remove useless JSON and String serialisation
+921,2019-01-18 21:13:35.000000000,2019-01-22 20:24:15.000000000,closed,3,Test/idle connection
+920,2019-01-18 14:59:43.000000000,2019-03-29 14:09:31.000000000,closed,2,Load balancing metrics
+919,2019-01-18 11:29:37.000000000,2019-01-18 21:02:06.000000000,closed,6,Full TLS Config for proxy server in skipper options
+918,2019-01-17 16:51:24.000000000,2019-01-28 15:48:16.000000000,closed,53,feature: support requests forwarding
+917,2019-01-17 10:59:40.000000000,2019-01-18 11:30:37.000000000,closed,2,Full TLS Config for proxy server in skipper options
+916,2019-01-17 10:28:41.000000000,2019-01-17 10:29:26.000000000,closed,0,Add files via upload
+915,2019-01-16 18:46:44.000000000,2019-01-16 18:54:53.000000000,closed,2,add passing cii badge
+914,2019-01-16 18:24:38.000000000,2019-05-09 15:44:01.000000000,closed,1,use static code analysis to catch security issues 
+913,2019-01-16 02:41:38.000000000,2019-01-25 18:53:02.000000000,closed,8,fix clusterRatelimit with more than one ratelimit instance
+912,2019-01-15 23:13:51.000000000,2019-01-25 19:14:20.000000000,closed,2,Ratelimit based on loadbalancer members / ratelimit group
+911,2019-01-15 22:00:42.000000000,2019-01-25 19:42:56.000000000,closed,9,Add ability to pass in entire tls.Config for both proxy and client isde
+910,2019-01-15 21:49:20.000000000,2019-01-16 01:21:36.000000000,closed,1,ratelimit in loadbalanced routes are counted 2 times
+909,2019-01-15 19:15:32.000000000,2019-01-24 20:19:41.000000000,closed,1,Access logging based on response code
+908,2019-01-15 14:20:19.000000000,2019-01-28 15:48:16.000000000,closed,4,Support forwarding requests
+907,2019-01-13 23:35:16.000000000,2019-01-13 23:35:24.000000000,closed,0,test dco
+906,2019-01-11 21:15:34.000000000,1970-01-01 00:00:00.000000001,open,4,grpc support
+905,2019-01-11 20:20:31.000000000,2019-01-30 16:13:59.000000000,closed,2,configurable IdleConnectionsPerHost
+904,2019-01-10 21:18:02.000000000,2019-11-13 22:02:55.000000000,closed,1,expose ratelimit information
+903,2019-01-10 16:50:23.000000000,2019-01-25 18:53:02.000000000,closed,8,Multiple Rate Limits for Same Backend are clashing
+902,2019-01-09 21:52:52.000000000,2019-01-10 00:05:48.000000000,closed,2,add PATCH method to not confuse users
+901,2019-01-09 17:21:43.000000000,1970-01-01 00:00:00.000000001,open,1,Kubernetes: notify the users about errors
+900,2019-01-07 20:40:30.000000000,2019-01-07 21:03:36.000000000,closed,2,fixed several
+899,2019-01-06 18:53:49.000000000,2019-01-07 01:39:24.000000000,closed,2,fix indentation level of oidc filters
+898,2019-01-06 18:46:54.000000000,2019-04-03 21:50:43.000000000,closed,1,add tutorial for OpenIDConnect
+897,2019-01-03 22:38:49.000000000,2019-01-07 18:22:14.000000000,closed,8,fix findings from staticcheck
+896,2019-01-03 20:22:42.000000000,2019-01-07 16:53:16.000000000,closed,5,Added opentracing spans to calls to tokeninfo and tokenintrospection endpoints
+895,2019-01-02 19:08:52.000000000,2019-01-03 15:27:48.000000000,closed,6,feature: derive default application from api usage monitoring filter configuration (#888)
+894,2019-01-02 18:52:55.000000000,2019-01-02 19:32:37.000000000,closed,2,add explanation of the path handling for custom routes
+893,2018-12-30 18:49:43.000000000,2019-01-02 18:42:11.000000000,closed,3,docs: Fix the Host predicate regex example
+892,2018-12-30 01:24:38.000000000,2018-12-30 18:49:58.000000000,closed,3,Fix the Host predicate regex example
+891,2018-12-29 05:18:29.000000000,2018-12-31 01:14:57.000000000,closed,5,Fix Docker command example
+890,2018-12-24 01:05:32.000000000,2019-01-02 21:53:06.000000000,closed,6,Added parent span to context so that it can be used in filters
+889,2018-12-21 18:08:34.000000000,2018-12-30 16:08:30.000000000,closed,2,doc fix #824
+888,2018-12-20 20:43:45.000000000,2019-01-03 15:27:48.000000000,closed,0,Add default application for non configured paths in API usage monitoring
+887,2018-12-20 18:53:01.000000000,2018-12-20 20:09:12.000000000,closed,3,enhance tracing
+886,2018-12-19 04:12:19.000000000,2018-12-21 17:28:02.000000000,closed,2,fix ratelimit filter header configuration
+885,2018-12-18 14:54:39.000000000,2018-12-21 17:56:30.000000000,closed,3,doc fix ingress-multi-routes
+884,2018-12-14 20:16:04.000000000,2018-12-17 21:28:08.000000000,closed,3,static swarm
+883,2018-12-14 20:05:51.000000000,2018-12-18 15:17:19.000000000,closed,4,doc: fix ratelimit tutorial
+882,2018-12-13 17:41:46.000000000,2018-12-14 18:34:46.000000000,closed,7,858 added flowid
+881,2018-12-13 16:10:00.000000000,2018-12-13 16:10:52.000000000,closed,1,858 added flowid
+880,2018-12-12 18:34:14.000000000,2018-12-13 19:06:14.000000000,closed,3,Fix a small typo in the docs
+879,2018-12-11 21:54:36.000000000,1970-01-01 00:00:00.000000001,open,0,Enable loading JSON
+878,2018-12-11 18:28:21.000000000,2019-07-19 21:45:46.000000000,closed,12,Update readme to install skipper
+877,2018-12-11 18:10:25.000000000,2018-12-11 18:38:21.000000000,closed,3,This bug was fixed and there is no need for the hack anymore
+876,2018-12-11 18:03:13.000000000,2018-12-11 19:25:36.000000000,closed,4,Update readme with mac-specific info on tests
+875,2018-12-09 00:35:14.000000000,2018-12-11 20:06:36.000000000,closed,3,fix swarm/clusterClient reatlimit integration
+874,2018-12-05 21:08:56.000000000,2018-12-10 22:23:46.000000000,closed,2,docs add how to create redirects in ingress usage
+873,2018-12-05 17:32:35.000000000,2018-12-21 17:56:30.000000000,closed,1,zalando.org/skipper-routes get applied to all ingress paths
+872,2018-12-05 15:51:12.000000000,2018-12-05 19:29:55.000000000,closed,3,docs: fix build
+871,2018-12-04 15:11:56.000000000,2018-12-05 20:36:44.000000000,closed,3,Skipper build fails from go get
+870,2018-12-03 20:56:45.000000000,2018-12-03 21:56:45.000000000,closed,3,add missing available in http.Transport timeouts
+869,2018-12-03 16:13:54.000000000,2018-12-10 23:41:38.000000000,closed,4,add possibility to set east west domain
+868,2018-12-01 02:01:28.000000000,2018-12-11 21:47:36.000000000,closed,2,<loopback> not behaving how expected
+867,2018-11-29 15:21:59.000000000,1970-01-01 00:00:00.000000001,open,6,Response filter to redirect if backend response has status code >=500
+866,2018-11-29 14:40:51.000000000,2018-11-29 14:41:45.000000000,closed,1,consecutiveBreaker
+865,2018-11-28 18:54:23.000000000,2018-12-04 21:25:53.000000000,closed,2,Doc/fix build example
+864,2018-11-27 19:01:46.000000000,2018-11-28 16:29:13.000000000,closed,2,fix: client timeouts should be counted as 499 errors
+863,2018-11-26 15:31:04.000000000,2018-11-28 18:17:03.000000000,closed,4,Understand 500 with v0.10.122
+862,2018-11-23 22:16:26.000000000,2018-11-26 16:22:33.000000000,closed,2,add lb test proxy bench
+861,2018-11-23 13:06:43.000000000,2018-12-04 21:25:53.000000000,closed,0,Docs fix build without go modules 
+860,2018-11-23 02:56:41.000000000,2019-04-12 21:38:27.000000000,closed,17,Add OpenTracing spans to filter req/resp
+859,2018-11-22 22:00:58.000000000,2018-11-22 23:45:52.000000000,closed,2,skptesting fix
+858,2018-11-22 14:19:55.000000000,2018-12-20 20:32:19.000000000,closed,3,add flowid to tracing span
+857,2018-11-21 18:31:52.000000000,2018-11-21 19:07:16.000000000,closed,2,preserve only the span not the entire context of the incoming request
+856,2018-11-21 18:16:16.000000000,1970-01-01 00:00:00.000000001,open,1,Expose proxy errors vs. backend errors as a metric.
+855,2018-11-19 14:22:05.000000000,2019-01-18 21:52:12.000000000,closed,4,Clearer JSON Serialization?
+854,2018-11-19 04:56:40.000000000,2018-11-22 17:48:32.000000000,closed,6,Fix kubernetes rule name hashing
+853,2018-11-17 06:57:07.000000000,2018-11-22 17:48:58.000000000,closed,3,External DNS Collision causes 404
+852,2018-11-15 16:49:06.000000000,2018-11-15 19:43:21.000000000,closed,2,Conflicting Dependencies
+851,2018-11-14 15:10:16.000000000,1970-01-01 00:00:00.000000001,open,2,Poll TLS cert and keys
+850,2018-11-14 03:37:03.000000000,1970-01-01 00:00:00.000000001,open,6,east-west routes ambiguous for multi host ingress
+849,2018-11-14 01:52:06.000000000,2018-11-14 02:29:16.000000000,closed,2,fix doc pipeline and add east-west to TOC
+848,2018-11-13 20:15:05.000000000,2018-11-13 20:54:04.000000000,closed,2,doc: fix TOC and links
+847,2018-11-13 17:43:34.000000000,2018-11-13 19:36:44.000000000,closed,2,fixing html escape sequences in code renderings
+846,2018-11-13 15:23:12.000000000,2018-11-13 17:14:15.000000000,closed,4,last step was missing to deploy on merge to master
+845,2018-11-13 15:08:12.000000000,2018-11-13 17:04:53.000000000,closed,2,fix some comments in the docs
+844,2018-11-12 15:59:14.000000000,2018-11-14 20:15:33.000000000,closed,4,API Usage Monitoring: Client Metrics
+843,2018-11-11 04:09:40.000000000,2018-11-13 12:43:04.000000000,closed,9,docs rebuild
+842,2018-11-09 14:15:02.000000000,2018-11-12 15:22:34.000000000,closed,6,API Usage Monitoring: Client Metrics
+841,2018-11-07 00:23:38.000000000,2018-11-13 22:29:30.000000000,closed,6,east-west svc-to-svc communication in kubernetes
+840,2018-11-06 22:24:35.000000000,2018-11-07 17:11:07.000000000,closed,5,replace the usage of X-Forwarded-Port for HTTPS redirects in Kubernetes
+839,2018-11-06 18:17:03.000000000,1970-01-01 00:00:00.000000001,open,0,wait for all the route sources before signalling the first load done event
+838,2018-11-06 18:05:06.000000000,2018-11-07 17:11:07.000000000,closed,4,Kubernetes HTTPS redirect doesn't work in GCP
+837,2018-11-06 17:58:37.000000000,2018-11-06 18:46:08.000000000,closed,2,wait for first routes loaded before starting the listener
+836,2018-11-06 15:10:28.000000000,2018-11-06 15:18:32.000000000,closed,2,add conference talk
+835,2018-11-05 15:11:06.000000000,2018-11-06 18:46:08.000000000,closed,0,Skipper starts serving before the routes are initialized
+834,2018-11-03 14:32:10.000000000,2018-11-05 00:30:04.000000000,closed,2,fix typo in tutorial
+833,2018-11-03 01:22:00.000000000,2018-11-03 01:43:05.000000000,closed,3,Fix/disable audit log in experimental upgrade
+832,2018-11-02 17:15:09.000000000,2018-11-03 01:37:25.000000000,closed,2,Doc/tutorial 
+831,2018-11-01 04:55:38.000000000,2019-04-03 19:59:12.000000000,closed,8,Max loopbacks reached with multiple ingresses pointing to the same hostname
+830,2018-10-31 15:34:12.000000000,2018-10-31 16:27:25.000000000,closed,2,apiUsageMonitoring: Accept '/' in path pattern variable parts
+829,2018-10-29 11:27:30.000000000,2018-10-30 01:16:05.000000000,closed,2,Updated Docker section
+828,2018-10-27 13:14:15.000000000,2018-10-30 07:42:05.000000000,closed,4,Examples of how to use Skipper in a Docker container
+827,2018-10-26 15:56:03.000000000,2018-10-29 12:17:33.000000000,closed,4,"setQuery Filter Doesn't work - zalando.org/skipper-filter: setQuery(""lang"", ""pt"") "
+826,2018-10-25 16:06:36.000000000,2018-10-29 16:17:37.000000000,closed,6,fix typo retrieable -> retrievable
+825,2018-10-24 23:37:45.000000000,2018-11-13 12:43:04.000000000,closed,0,automatically publish documentation
+824,2018-10-24 18:05:01.000000000,2018-12-30 16:08:30.000000000,closed,0,Fix documentation for deprecated -enable-prometheus-metrics flag
+823,2018-10-24 18:04:47.000000000,2018-10-29 14:40:22.000000000,closed,3,Activate compatibility defaults on Prometheus metrics
+822,2018-10-22 18:35:34.000000000,2019-01-06 18:47:57.000000000,closed,12,OAuth ingress proxy
+821,2018-10-22 18:11:34.000000000,2018-10-24 20:56:15.000000000,closed,3,Fix links to predicates
+820,2018-10-19 16:14:55.000000000,1970-01-01 00:00:00.000000001,open,7,Provide additional information for a route from Kubernetes
+819,2018-10-11 23:33:09.000000000,1970-01-01 00:00:00.000000001,open,5,Ingress Path Matching - Default Backends and Catch-All Regex's Trump All Other Path Matches
+818,2018-10-10 19:41:16.000000000,2018-10-30 14:09:43.000000000,closed,16,API Monitoring Filter: MVP
+817,2018-10-10 12:50:47.000000000,2018-10-11 14:13:20.000000000,closed,2,Route by X-Forwarded-Host
+816,2018-10-09 19:00:17.000000000,2018-10-09 19:38:44.000000000,closed,2,Fix filter documentation (bullet lists)
+815,2018-10-06 23:55:05.000000000,2018-10-09 16:57:34.000000000,closed,2, Add link to zalando tech blog
+814,2018-10-06 22:51:51.000000000,1970-01-01 00:00:00.000000001,open,0,refactor filter error handling
+813,2018-10-03 20:06:43.000000000,2018-10-04 20:07:45.000000000,closed,3,doc auditLog filter
+812,2018-10-03 16:48:52.000000000,2018-10-04 18:02:48.000000000,closed,3,fix dropRequestHeaders in kubernetes should be applied before user filters
+811,2018-10-03 16:46:38.000000000,2018-10-03 22:56:34.000000000,closed,2,Fix introspection token key 
+810,2018-10-03 14:10:38.000000000,2018-10-03 22:56:34.000000000,closed,2,Openid tokenintrospection request uses the wrong form key
+809,2018-09-27 15:44:31.000000000,2018-09-27 18:18:04.000000000,closed,3,"service__lb_group, status code 500: http: invalid Read on closed Body"
+808,2018-09-25 17:36:45.000000000,2018-10-04 18:02:48.000000000,closed,4,tee() filter between two kubernetes clusters with skipper load balancing between the endpoints
+807,2018-09-25 16:54:42.000000000,2018-09-26 16:01:16.000000000,closed,5,X-Forwarded-Proto not sent to backend services
+806,2018-09-25 13:57:19.000000000,2018-09-25 16:36:35.000000000,closed,3,Fix logging regression after #752
+805,2018-09-23 22:16:11.000000000,1970-01-01 00:00:00.000000001,open,7,OAuth2 Token Exchange Filter Request
+804,2018-09-23 21:55:07.000000000,1970-01-01 00:00:00.000000001,open,8,Use Header Values as values in Filters
+803,2018-09-23 20:51:47.000000000,2018-09-25 14:10:16.000000000,closed,1,Revert/logging filter
+802,2018-09-20 18:12:35.000000000,2018-09-25 16:36:35.000000000,closed,5,Skipper not logging 5xxs
+801,2018-09-20 16:45:51.000000000,1970-01-01 00:00:00.000000001,open,0,Potential conflict Kubernetes Ingress default backend handling
+800,2018-09-19 19:35:45.000000000,1970-01-01 00:00:00.000000001,open,0,the HTTPS redirect route may cause non-deterministic route matching in Kubernetes
+799,2018-09-19 17:59:39.000000000,2018-09-20 17:36:46.000000000,closed,3,Feature/configurable http redirect code in kubernetes
+798,2018-09-19 14:23:12.000000000,2018-10-04 20:07:45.000000000,closed,2,auditLog() filter captures the body in logs
+797,2018-09-19 13:22:17.000000000,1970-01-01 00:00:00.000000001,open,3,filters that call external endpoints should add opentracing spans
+796,2018-09-18 23:20:33.000000000,2018-09-19 00:36:08.000000000,closed,3,Skipper HTTP->HTTPS 308 redirect causes Android app crashes
+795,2018-09-18 14:07:28.000000000,2018-09-20 23:21:33.000000000,closed,16,skipper times out before clients on slow connections can finish their requests
+794,2018-09-17 17:48:34.000000000,2018-09-22 22:58:56.000000000,closed,3,Configurable status code for HTTP -> HTTPS redirect
+793,2018-09-16 23:49:52.000000000,2018-09-17 20:00:29.000000000,closed,4,Filter for fowarding tokeninfo and token introspection results.
+792,2018-09-14 16:44:29.000000000,2018-09-17 13:06:27.000000000,closed,3,Add doc for using debugger.
+791,2018-09-14 15:40:48.000000000,2018-11-13 22:29:30.000000000,closed,3,Create routes for ingress east/west communication (cluster internal svc-to-svc)
+790,2018-09-14 15:07:48.000000000,2018-09-14 16:45:58.000000000,closed,1,Added CDP build step for publishing docs.
+789,2018-09-13 23:56:23.000000000,2018-09-18 11:43:18.000000000,closed,3,Deprecate accessLogDisabled in favor of disableAccessLog and enableAccessLog filters
+788,2018-09-13 19:18:05.000000000,2018-09-13 19:33:33.000000000,closed,2,godoc link
+787,2018-09-13 19:06:26.000000000,2018-09-13 19:11:25.000000000,closed,2,Doc/gh release
+786,2018-09-11 21:10:41.000000000,2018-09-12 19:22:07.000000000,closed,5,Retry After Header
+785,2018-09-11 20:04:39.000000000,2018-09-13 11:58:01.000000000,closed,3,Docs/restructure tree
+784,2018-09-11 15:23:30.000000000,2018-09-11 15:51:39.000000000,closed,2,fix: add go modules to all tasks
+783,2018-09-11 00:09:58.000000000,2018-09-11 13:24:38.000000000,closed,2,Update prometheus library
+782,2018-09-10 15:37:43.000000000,2018-09-10 18:23:43.000000000,closed,2,Avoid re-calculation of `count-1` in the response filter loop
+781,2018-09-10 13:36:03.000000000,2018-09-11 13:24:38.000000000,closed,2,go get is broken
+780,2018-09-10 11:53:11.000000000,2018-09-10 12:10:57.000000000,closed,2,Switch back to upstream of github.com/opentracing/opentracing-go
+779,2018-09-08 12:56:04.000000000,2018-09-10 13:25:07.000000000,closed,10,Proposal: build opentracing tracers into main binary
+778,2018-09-07 15:23:35.000000000,2018-09-07 16:10:41.000000000,closed,4,fix comment that I missed in the forst PR
+777,2018-09-07 15:02:31.000000000,2018-09-07 15:31:19.000000000,closed,2,Correctly build skipper binary for lightstep image
+776,2018-09-07 14:10:29.000000000,2018-09-07 15:16:33.000000000,closed,4,doc known skipper users
+775,2018-09-07 12:24:16.000000000,2018-09-07 14:24:03.000000000,closed,3,change connection-reset-by-peer handling to be not retried
+774,2018-09-07 11:49:45.000000000,2018-09-07 12:28:26.000000000,closed,3,fix opentracing wireformat
+773,2018-09-06 18:33:45.000000000,2018-09-06 18:49:52.000000000,closed,1,"How to route traffic from ""example.com/inner-path"" on a multi-host ingress?"
+772,2018-09-05 19:00:57.000000000,2018-09-05 19:45:59.000000000,closed,3,Fix/build
+771,2018-09-05 18:19:43.000000000,2018-09-05 18:36:31.000000000,closed,2,fix build to create non dirty containers
+770,2018-09-04 22:05:22.000000000,2018-09-04 23:37:41.000000000,closed,5,Speedup CI buildtime
+769,2018-09-04 20:40:48.000000000,2018-09-05 15:45:58.000000000,closed,4,handle connection reset by peer 
+768,2018-09-04 20:30:12.000000000,2018-09-08 21:59:20.000000000,closed,1,Random 500s on Ingress
+767,2018-09-04 12:52:57.000000000,2018-11-03 01:37:25.000000000,closed,0,document auth filters
+766,2018-09-03 20:39:09.000000000,2018-09-04 18:54:03.000000000,closed,9,Go1.11 modules enabled tracer build
+765,2018-09-03 12:33:03.000000000,2018-09-09 15:10:32.000000000,closed,5,add all opentracing providers to the container build
+764,2018-09-02 12:03:14.000000000,2018-09-02 23:28:45.000000000,closed,2,Use Go 1.11 modules
+763,2018-09-01 12:45:23.000000000,2018-09-02 23:28:45.000000000,closed,1,Switch to Go 1.11 modules (and streamline build)
+762,2018-08-31 23:49:08.000000000,2018-09-02 01:51:31.000000000,closed,9,Build lightstep image based on alpine
+761,2018-08-31 00:05:40.000000000,2018-08-31 12:25:11.000000000,closed,6,Build the lightstep image with ubuntu base image.
+760,2018-08-30 13:32:47.000000000,2018-08-30 14:29:41.000000000,closed,2,simplfiy as suggested
+759,2018-08-29 17:53:33.000000000,2018-08-29 19:42:52.000000000,closed,5,add queryToHeader filter
+758,2018-08-29 17:38:20.000000000,2018-08-29 20:00:30.000000000,closed,2,Added dockerfile for building skipper with lightstep integration.
+757,2018-08-29 17:17:03.000000000,2018-08-29 17:30:03.000000000,closed,0,Added dockerfile for building skipper with lightstep integration. [WIP]
+756,2018-08-29 13:39:57.000000000,2019-07-19 21:48:37.000000000,closed,4,add RequestContext(ctx context.Context) to filtercontext
+755,2018-08-28 14:39:50.000000000,2018-08-28 15:30:46.000000000,closed,2,fix preserveHost filter documentation
+754,2018-08-26 14:37:19.000000000,2018-08-28 14:33:23.000000000,closed,3,feat: Add headerToQuery filter #748
+753,2018-08-26 02:52:55.000000000,2018-08-29 18:19:08.000000000,closed,5,developer doc: how to build a filter
+752,2018-08-25 00:43:44.000000000,2018-09-05 15:00:11.000000000,closed,16,Feature/access log filter
+751,2018-08-24 20:33:35.000000000,2018-09-02 01:52:21.000000000,closed,0,developer docs: how to create a filter
+750,2018-08-24 19:44:29.000000000,2018-09-05 15:00:11.000000000,closed,4,Kubernetes ingress: allow to reduce request logging
+749,2018-08-23 19:09:30.000000000,2018-08-27 14:09:18.000000000,closed,5,Route based on missing headers
+748,2018-08-23 01:54:24.000000000,2018-08-28 14:33:23.000000000,closed,1,Create a headerToQuery() filter
+747,2018-08-22 20:09:21.000000000,2018-08-29 17:43:20.000000000,closed,5,implment a simple webhook
+746,2018-08-20 18:48:03.000000000,2018-08-21 12:35:35.000000000,closed,2,Fix docs about PathRegexp
+745,2018-08-19 14:20:25.000000000,1970-01-01 00:00:00.000000001,open,1,Add tls1.3 support 
+744,2018-08-17 13:55:04.000000000,2018-09-02 01:53:11.000000000,closed,5,authnzWebhook filter
+743,2018-08-17 12:04:07.000000000,2018-12-18 17:39:59.000000000,closed,9,feature: openIDConnect authcode flow
+742,2018-08-16 13:49:52.000000000,2018-08-16 14:00:41.000000000,closed,2,Simplify CDP build with golang overlay
+741,2018-08-16 12:47:44.000000000,2018-08-17 16:02:08.000000000,closed,14,Add an interceptor to every incoming request
+740,2018-08-15 21:10:27.000000000,2018-08-16 13:31:24.000000000,closed,3,cache authclient per tokeninfoURL
+739,2018-08-14 20:23:31.000000000,2018-08-16 13:50:22.000000000,closed,0,oauthTokeninfo* memory leak
+738,2018-08-12 15:47:43.000000000,2018-08-12 16:36:21.000000000,closed,2,doc: fix link and build of mkdocs
+737,2018-08-07 11:04:51.000000000,2018-09-02 23:28:45.000000000,closed,1,"Use go1.11 for vendoring and go modules, once stable"
+736,2018-08-05 01:38:23.000000000,2018-08-13 16:19:40.000000000,closed,3,add request and response counters for http versions
+735,2018-08-04 22:20:24.000000000,2018-08-17 13:26:18.000000000,closed,1,Metric protocol version
+734,2018-08-02 14:49:40.000000000,2020-07-08 01:18:57.000000000,closed,1,Replace skipper route with routeID from trace
+733,2018-07-31 19:13:18.000000000,2018-08-01 12:42:12.000000000,closed,2,Fix Metrics interface
+732,2018-07-31 17:52:01.000000000,2018-07-31 19:12:27.000000000,closed,0,Fix Gauges not exposed
+731,2018-07-31 00:27:36.000000000,2018-07-31 14:00:42.000000000,closed,2, #709 Fix typo for innkeeper
+730,2018-07-30 18:58:47.000000000,2018-07-31 13:56:25.000000000,closed,2,add docs about the route matching mechanism
+729,2018-07-30 18:08:35.000000000,2018-07-30 18:36:49.000000000,closed,2,Update ingress-controller.md
+728,2018-07-28 00:35:03.000000000,1970-01-01 00:00:00.000000001,open,7,Bypass kubernetes-https-redirect
+727,2018-07-27 18:31:31.000000000,2018-07-27 18:42:18.000000000,closed,2,docs add oauth timeout
+726,2018-07-26 15:31:03.000000000,2018-07-30 15:54:21.000000000,closed,15,Adds Gauges to metrics
+725,2018-07-26 13:56:02.000000000,2018-07-26 14:07:48.000000000,closed,2,docs: link plugins and vendoring problem
+724,2018-07-25 14:34:50.000000000,2018-07-25 14:53:36.000000000,closed,2,add setQuery(string) #723
+723,2018-07-25 14:07:40.000000000,2018-07-25 15:02:44.000000000,closed,0,setQuery(string)
+722,2018-07-25 13:04:47.000000000,2018-07-25 18:41:16.000000000,closed,2,Add -histogram-metric-buckets option
+721,2018-07-25 11:47:36.000000000,2018-07-25 18:41:16.000000000,closed,0,support custom Prometheus buckets
+720,2018-07-24 20:40:36.000000000,2018-08-01 14:11:49.000000000,closed,11,fix kube dataclient: custom-routes should set path according to ingress
+719,2018-07-24 20:07:59.000000000,2018-08-01 14:15:15.000000000,closed,2,Kubernetes ingress custom-routes not setting Path() based predicates based on the ingress definition
+718,2018-07-24 20:04:46.000000000,2018-07-26 16:37:37.000000000,closed,5,docs: fix custom-routes and add auth to ingress use docs 
+717,2018-07-23 19:53:30.000000000,2018-07-23 20:41:21.000000000,closed,2,fix #714 ingress backends same svc name but different ports
+716,2018-07-23 19:33:29.000000000,2018-07-23 21:43:18.000000000,closed,2,removing old TODO item: kubernetes LB + custom filters
+715,2018-07-23 18:55:49.000000000,2018-07-23 20:42:17.000000000,closed,3,Improve the routing table information documentation
+714,2018-07-23 18:15:09.000000000,2018-07-23 20:41:21.000000000,closed,0,ingress backends can not have different ports from one service
+713,2018-07-23 15:36:34.000000000,2018-07-23 18:57:18.000000000,closed,5,Routes endpoint not giving every route loaded
+712,2018-07-23 13:57:28.000000000,2018-07-23 20:43:23.000000000,closed,2,Update readme.md
+711,2018-07-21 02:17:18.000000000,2018-07-24 16:57:18.000000000,closed,4,Fix custom routes for multiple hosts
+710,2018-07-20 18:30:38.000000000,2018-07-23 00:21:16.000000000,closed,7,add predicates to match based on jwt content
+709,2018-07-19 13:15:47.000000000,2018-07-31 14:00:42.000000000,closed,0,Typo fix: Innkeeper instead of Inkeeper
+708,2018-07-17 16:06:45.000000000,2018-07-19 13:42:13.000000000,closed,7,client closed request should not be reported as 5xx
+707,2018-07-17 03:03:39.000000000,2018-07-27 14:20:35.000000000,closed,4,Add flag for Oauth request timeout
+706,2018-07-11 16:39:58.000000000,2018-09-19 01:33:48.000000000,closed,2,Plugin usage harms Skipper as library use case
+705,2018-07-10 15:49:00.000000000,1970-01-01 00:00:00.000000001,open,1,logging filter to strip or not strip the query from access logs
+704,2018-07-09 16:41:31.000000000,1970-01-01 00:00:00.000000001,open,6,Consider: filter to put a specific header to the opentracing span as a tag
+703,2018-07-09 13:50:27.000000000,2018-12-11 18:38:20.000000000,closed,1,remove workaround in Go1.11
+702,2018-07-06 19:43:02.000000000,1970-01-01 00:00:00.000000001,open,2,redirect with lua scripts causing a memory leak
+701,2018-07-06 16:43:52.000000000,2018-11-03 01:43:58.000000000,closed,5,Ingress redirectTo doesn't keep the url suffix
+700,2018-07-04 05:46:18.000000000,2018-11-23 13:10:06.000000000,closed,3,unknown field 'DisableTimestamp' in struct literal of type logrus.JSONFormatter
+699,2018-07-03 20:10:06.000000000,2018-07-04 13:45:45.000000000,closed,2,fix invalid connection header issue reported via slack channel
+698,2018-07-03 19:08:03.000000000,2018-07-03 19:26:09.000000000,closed,3,doc: add filter documentation for tokeninfo filter
+697,2018-07-02 17:31:57.000000000,2018-07-03 16:45:26.000000000,closed,3,typo in godoc
+696,2018-07-02 12:55:34.000000000,1970-01-01 00:00:00.000000001,open,6,Brotli Support in `compress()` filter
+695,2018-06-28 14:20:03.000000000,2018-06-29 12:41:55.000000000,closed,2,use 308 in Kubernetes HTTPS redirect instead of 301
+694,2018-06-28 12:54:27.000000000,2018-06-28 13:17:51.000000000,closed,2,don't add annotation filters to LB decision routes
+693,2018-06-28 10:02:24.000000000,2018-06-28 10:36:29.000000000,closed,2,use go1.10.x in travis
+692,2018-06-27 13:35:44.000000000,2018-06-28 11:18:26.000000000,closed,8,Added ID of the matching route to open tracing span
+691,2018-06-26 17:30:40.000000000,2018-07-04 13:25:31.000000000,closed,10,K8s Service with Multiple Endpoints Not Routing
+690,2018-06-25 18:30:53.000000000,2018-06-25 20:03:41.000000000,closed,3,Fix Header and HeaderRegexp examples
+689,2018-06-24 03:57:57.000000000,2020-07-08 00:32:17.000000000,closed,18,Weight() predicate - former: https redirect with kubernetes dataclient is radomly bypassed
+688,2018-06-22 15:08:48.000000000,2018-06-25 18:54:10.000000000,closed,5,Support for Limiting Ingress Lookups to a Single Namespace
+687,2018-06-22 00:34:20.000000000,2018-07-22 23:24:14.000000000,closed,8,500s replaced with 504s since v0.10.16
+686,2018-06-21 20:55:29.000000000,2018-06-25 18:54:59.000000000,closed,6,Scope Kubernetes Dataclient to a Single Namespace
+685,2018-06-21 06:09:57.000000000,2018-07-23 20:27:17.000000000,closed,13,Kubernetes:  unwrap: context canceled
+684,2018-06-20 22:16:25.000000000,2018-06-21 15:55:40.000000000,closed,4,Testing/export test tracer
+683,2018-06-20 16:05:15.000000000,1970-01-01 00:00:00.000000001,open,10,support https endpoints in Kubernetes clusters
+682,2018-06-18 17:12:21.000000000,1970-01-01 00:00:00.000000001,open,0,metrics documentation
+681,2018-06-15 15:49:23.000000000,2018-06-15 18:09:56.000000000,closed,4,sort routing table output on support endpoint
+680,2018-06-15 07:34:04.000000000,2018-06-15 07:52:01.000000000,closed,1,Fix broken link
+679,2018-06-15 00:46:49.000000000,2018-06-15 12:29:17.000000000,closed,8,prevent multiple load balancer groups to match
+678,2018-06-13 18:40:06.000000000,2018-06-13 19:20:25.000000000,closed,2,"wire in missing connection, timeout parameters"
+677,2018-06-13 18:27:32.000000000,2018-06-13 20:16:06.000000000,closed,1,"Skipper connection, timeouts parameters not wired"
+676,2018-06-12 20:00:40.000000000,2018-06-14 13:11:12.000000000,closed,3,do less route updates
+675,2018-06-11 20:22:13.000000000,2018-06-12 13:12:22.000000000,closed,2,include the response streaming duration in the proxy span
+674,2018-06-11 19:43:56.000000000,1970-01-01 00:00:00.000000001,open,5,retry() request filter
+673,2018-06-11 19:33:14.000000000,2018-06-11 19:57:55.000000000,closed,2,refactor tracing tests
+672,2018-06-11 01:02:31.000000000,2018-06-11 13:22:24.000000000,closed,4,move the traffic predicate to the decision route
+671,2018-06-10 15:01:08.000000000,2018-06-29 12:41:54.000000000,closed,13,Allow using 308 (Permanent Redirect) instead of 301 (Moved Permanently) for HTTP to HTTPS redirects
+670,2018-06-08 15:51:42.000000000,2018-06-08 15:56:32.000000000,closed,2,fix tokeninfo filters
+669,2018-06-08 12:21:05.000000000,2018-06-08 12:44:12.000000000,closed,3,fix proper nouns
+668,2018-06-07 22:43:41.000000000,2018-10-11 00:32:50.000000000,closed,9, #32 Check if file exists and log a warning
+667,2018-06-07 19:18:07.000000000,2018-06-08 16:41:08.000000000,closed,7,provide path modes for Kubernetes ingress paths
+666,2018-06-06 01:21:59.000000000,2018-06-06 18:25:06.000000000,closed,2,document teardown strategy for applications
+665,2018-06-04 22:08:48.000000000,2018-06-06 16:13:21.000000000,closed,4,fix #654 - return gw timeout
+664,2018-06-04 18:38:04.000000000,2018-06-04 20:13:07.000000000,closed,5,Error loading an opentracing plugin
+663,2018-06-01 21:42:52.000000000,2018-06-03 23:35:59.000000000,closed,2,group command line options
+662,2018-06-01 20:38:13.000000000,2018-06-08 16:41:08.000000000,closed,9,Nondeterministic route matching ?
+661,2018-05-31 17:24:09.000000000,2018-06-01 13:37:16.000000000,closed,7,create filter for setting custom span name for distributed tracing
+660,2018-05-31 16:39:29.000000000,2020-07-08 00:33:30.000000000,closed,29,skipper route CRD
+659,2018-05-30 15:44:33.000000000,2018-05-30 17:05:29.000000000,closed,2,teardown background process
+658,2018-05-29 13:38:32.000000000,2018-05-29 16:14:47.000000000,closed,2,fix goroutine leak in kubernetes dataclient
+657,2018-05-29 09:15:07.000000000,2018-06-03 16:09:45.000000000,closed,9,Add internal ip whitelist option to healthcheck to be appended to the default
+656,2018-05-28 20:10:04.000000000,2018-05-28 23:21:33.000000000,closed,2,return proxyError after retry of a loadbalanced route 
+655,2018-05-27 21:41:46.000000000,2018-05-28 13:34:48.000000000,closed,5,Improve trace tags in ingress and proxy spans
+654,2018-05-27 18:28:40.000000000,2018-06-06 16:13:21.000000000,closed,5,Don't respond with status 500 for timeout errors
+653,2018-05-26 14:47:05.000000000,2018-06-06 18:25:08.000000000,closed,0,document kubernetes apps deployment strategy for terminating
+652,2018-05-26 00:25:10.000000000,2018-06-15 19:40:48.000000000,closed,6,Kubernetes: 5xxs when updating deployments.
+651,2018-05-21 23:32:20.000000000,2018-05-28 00:20:41.000000000,closed,5,Resolved #650 Kubernetes quickstart with Helm chart
+650,2018-05-21 16:01:17.000000000,2018-05-28 00:20:43.000000000,closed,2,Kubernetes getting started
+649,2018-05-15 14:33:49.000000000,2018-05-15 16:47:21.000000000,closed,2,set timeouts to kubernetes api access
+648,2018-05-15 14:12:15.000000000,2018-05-15 18:36:42.000000000,closed,2,enhance kubernetes ingress deployment docs
+647,2018-05-15 14:11:00.000000000,2018-05-15 16:47:21.000000000,closed,1,ingress: Skipper sometimes take long to become ready.
+646,2018-05-14 14:42:11.000000000,2018-05-14 18:13:51.000000000,closed,2,Update readme.md
+645,2018-05-11 15:25:00.000000000,2018-05-13 00:51:00.000000000,closed,2,add ignore-trailing-slash as skipper cmd arg
+644,2018-05-10 20:03:16.000000000,2018-05-14 14:19:57.000000000,closed,8,KOPS -- Readiness probe failed: HTTP probe failed with statuscode: 404
+643,2018-05-10 18:51:12.000000000,2018-05-10 19:50:45.000000000,closed,2,Docker build
+642,2018-05-09 23:49:01.000000000,2018-05-12 20:16:40.000000000,closed,3,redirect filter after failed oauthfilter
+641,2018-05-08 20:21:05.000000000,2018-05-08 20:25:25.000000000,closed,2,Fix/unverified auditlog base64 encoding
+640,2018-05-08 02:24:43.000000000,2018-05-09 18:15:43.000000000,closed,9,configuration documentation of the Oauth2 auth filters 
+639,2018-05-03 12:51:57.000000000,2018-05-03 14:01:02.000000000,closed,2,fix prepared wrong garbage in unverified auditlog
+638,2018-05-02 19:10:06.000000000,2018-08-13 13:55:47.000000000,closed,9,Feature/oauth2 token introspection RFC7662
+637,2018-04-30 11:50:40.000000000,2018-05-02 14:06:39.000000000,closed,4,unverifiedAuditLog - fix #631 
+636,2018-04-29 00:15:45.000000000,2018-05-07 15:38:01.000000000,closed,14,Document how to deploy with enabled RBAC
+635,2018-04-27 19:31:49.000000000,2018-04-27 21:28:29.000000000,closed,2,enhance filters doc
+634,2018-04-27 19:31:25.000000000,2018-04-27 21:28:04.000000000,closed,2,doc: add predicates documentation
+633,2018-04-27 12:37:23.000000000,2018-07-27 14:20:34.000000000,closed,2,Flag for timeouts to oauth filters
+632,2018-04-27 02:34:14.000000000,2018-04-27 12:33:09.000000000,closed,2,doc: multiple skipper deployments
+631,2018-04-24 17:57:26.000000000,2018-05-02 14:06:41.000000000,closed,5,"Extract and log ""sub"" claim from JWT token from Authorization header"
+630,2018-04-23 16:38:26.000000000,2018-12-18 17:39:59.000000000,closed,2,support openidc with JWT claim support 
+629,2018-04-19 12:03:07.000000000,1970-01-01 00:00:00.000000001,open,0,ratelimit by token scope/claim
+628,2018-04-19 11:57:08.000000000,1970-01-01 00:00:00.000000001,open,1,group cache
+627,2018-04-18 13:47:57.000000000,2018-04-18 14:05:19.000000000,closed,2,run the plugin compilation for the coverprofile and benchmark tasks
+626,2018-04-18 10:02:39.000000000,2018-04-27 11:47:54.000000000,closed,5,[WIP] Filter docs
+625,2018-04-17 02:17:37.000000000,2018-04-27 01:38:21.000000000,closed,6,Requests failing on VPN
+624,2018-04-16 17:04:10.000000000,1970-01-01 00:00:00.000000001,open,0,oauth filter - implicit flow 
+623,2018-04-16 16:48:59.000000000,2020-07-08 00:34:23.000000000,closed,6,Multiple methods in skipper-routes
+622,2018-04-16 15:47:22.000000000,2018-04-16 17:14:23.000000000,closed,4,Allow multiple certs
+621,2018-04-16 15:07:26.000000000,2018-04-16 17:14:23.000000000,closed,0,Allow multiple certificates / keys
+620,2018-04-16 12:00:23.000000000,2018-04-16 16:34:09.000000000,closed,3,Fix balancer route update
+619,2018-04-15 02:01:50.000000000,2018-04-15 02:08:42.000000000,closed,2,Doc: Add slack channel
+618,2018-04-14 23:04:12.000000000,2018-04-14 23:55:58.000000000,closed,3,Fix/unnecessary healthcheck updates
+617,2018-04-12 23:03:41.000000000,2018-04-14 17:06:27.000000000,closed,2,fix etcd auth header test
+616,2018-04-12 20:20:57.000000000,2018-04-15 00:04:21.000000000,closed,4,add a concurrent test case with multple routes
+615,2018-04-12 14:21:13.000000000,2018-04-13 00:17:04.000000000,closed,2,do not leak decision header to backends
+614,2018-04-12 13:25:47.000000000,2018-04-16 16:34:09.000000000,closed,2,kubernetes uneven loadbalanced members
+613,2018-04-11 17:17:47.000000000,2018-04-27 17:47:20.000000000,closed,10,Multiple Skipper Deployments
+612,2018-04-11 12:00:56.000000000,1970-01-01 00:00:00.000000001,open,0,failing build eskipfile TestWatchUpdateRecover
+611,2018-04-10 17:03:12.000000000,2018-04-10 17:11:22.000000000,closed,3,Fix wrong error message for Static filter
+610,2018-04-09 20:02:02.000000000,2020-07-08 00:37:55.000000000,closed,2,Verify unbound connection/request limit and its impact
+609,2018-04-09 15:34:11.000000000,2018-04-09 16:32:46.000000000,closed,4,document inlineContent filter in ingress-usage
+608,2018-04-04 15:19:19.000000000,2018-04-15 00:22:08.000000000,closed,4,loadbalancer does not balance load evenly
+607,2018-04-03 19:11:56.000000000,2018-04-07 01:29:31.000000000,closed,6,Add basic auth
+606,2018-04-02 19:36:03.000000000,2018-04-03 22:51:23.000000000,closed,11,HttpOnly cookies are not being set
+605,2018-03-29 11:31:35.000000000,2018-03-29 17:49:30.000000000,closed,4,Add documentation for `compress()` to usage
+604,2018-03-28 21:07:50.000000000,2018-03-29 00:22:20.000000000,closed,2,fix formatting
+603,2018-03-28 14:49:34.000000000,2018-03-28 21:04:12.000000000,closed,3,doc(doc.go) fix hello world code example
+602,2018-03-28 09:50:31.000000000,2018-03-28 15:34:38.000000000,closed,2,fix typo in ingress docs
+601,2018-03-27 20:25:17.000000000,2018-03-27 20:49:27.000000000,closed,2,fix build
+600,2018-03-27 19:32:46.000000000,2018-03-27 19:40:15.000000000,closed,1,plugins dir does not exist
+599,2018-03-27 18:55:25.000000000,2018-03-27 19:41:31.000000000,closed,3,prevent startup failure when default plugin dir is missing
+598,2018-03-26 17:07:22.000000000,2018-04-18 13:02:03.000000000,closed,5,"Multi plugins, plugin .conf filles"
+597,2018-03-26 16:07:03.000000000,2018-03-26 17:07:42.000000000,closed,1,Multi plugins
+596,2018-03-23 19:57:19.000000000,2018-09-12 19:23:55.000000000,closed,5,[WIP] Add 'Retry-After' header
+595,2018-03-22 06:10:24.000000000,2018-03-25 23:35:29.000000000,closed,3,Add cors origin filter.
+594,2018-03-21 22:09:38.000000000,2018-03-21 22:18:48.000000000,closed,2,fix flaky tests relying on etcdtest
+593,2018-03-21 18:19:19.000000000,2018-10-23 12:39:10.000000000,closed,10,Swarm ratelimiter
+592,2018-03-21 15:04:19.000000000,2018-03-26 15:55:16.000000000,closed,22,"load dataclients, filters and predicates from plugins"
+591,2018-03-20 18:09:15.000000000,2018-03-21 17:58:12.000000000,closed,2,more tracing details
+590,2018-03-20 17:18:01.000000000,2018-03-20 17:40:51.000000000,closed,2,Conn refused is bad gateway
+589,2018-03-19 00:13:10.000000000,1970-01-01 00:00:00.000000001,open,1,improve testing of concurrent functionality
+588,2018-03-18 23:50:56.000000000,2018-03-26 19:48:22.000000000,closed,2,File watch
+587,2018-03-17 23:10:35.000000000,2018-03-18 16:36:54.000000000,closed,3,remove concurrent test specs from https redirect test
+586,2018-03-17 22:17:09.000000000,2018-03-18 22:12:58.000000000,closed,5,fixing routing config recovery after differential update errors
+585,2018-03-17 11:38:50.000000000,2018-03-18 16:36:54.000000000,closed,7,Fix unstable tests: httpsredirect_test.go
+584,2018-03-17 01:16:29.000000000,1970-01-01 00:00:00.000000001,open,2,refactor: kubernetes data clients
+583,2018-03-17 01:13:27.000000000,2020-07-08 00:42:57.000000000,closed,1,refactor: kubernetes tests
+582,2018-03-16 02:58:59.000000000,2018-03-16 13:53:32.000000000,closed,2,Fix: empty group when no target endpoints + fix: id formatting for default backends with target endpoints + small improvements
+581,2018-03-16 02:10:30.000000000,2018-03-17 17:48:49.000000000,closed,8,Add annotation for specifying custom routes on ingress
+580,2018-03-15 23:33:35.000000000,2018-03-15 23:51:50.000000000,closed,2,fix test timeout in kubernetes http redirect
+579,2018-03-15 02:43:34.000000000,2018-03-16 13:38:20.000000000,closed,2,docs videos tab
+578,2018-03-14 21:26:57.000000000,2018-03-15 20:08:08.000000000,closed,2,Using regex delimiter fails in character list in eskip #134
+577,2018-03-14 10:37:49.000000000,2018-03-14 14:10:35.000000000,closed,5,pass hash based history to skipper?
+576,2018-03-14 01:24:10.000000000,2018-03-15 21:29:24.000000000,closed,5,Support legacy predicates in generic list
+575,2018-03-14 01:10:57.000000000,2018-03-14 01:38:07.000000000,closed,2,"fix formatting, use -s switch"
+574,2018-03-09 21:18:31.000000000,2019-07-19 21:44:53.000000000,closed,3,initial tests that are based on the filesystem
+573,2018-03-09 20:35:33.000000000,2018-03-09 21:30:43.000000000,closed,4,implementing the -indent option #270
+572,2018-03-08 22:03:53.000000000,2018-03-09 01:39:56.000000000,closed,2,Expose default port 9090 in the Dockerfile
+571,2018-03-07 21:42:30.000000000,2018-03-09 01:31:41.000000000,closed,2,Using regex delimiter fails in character list in eskip #134
+570,2018-03-07 17:23:31.000000000,2018-03-07 18:46:53.000000000,closed,2,Fix/groupsize check in lb filter
+569,2018-03-07 03:00:50.000000000,2018-03-08 19:19:08.000000000,closed,5,Feature/add migration path for metrics
+568,2018-03-06 21:51:48.000000000,2018-03-09 01:31:51.000000000,closed,7,implementing the -indent option #270
+567,2018-03-06 20:33:59.000000000,2018-03-09 21:40:05.000000000,closed,5,"fix dataclient part of the ""no endpoints"" problem"
+566,2018-03-06 17:46:02.000000000,2018-03-09 21:51:28.000000000,closed,5,500s because of division by 0
+565,2018-03-06 15:15:14.000000000,2018-03-08 18:55:55.000000000,closed,6,Doc/architecture
+564,2018-03-05 21:24:16.000000000,2018-03-05 22:03:11.000000000,closed,2,fix endpoint.Targets() to filter selected targets also by ports
+563,2018-03-05 20:20:38.000000000,2018-03-05 22:03:11.000000000,closed,0,loadbalancer does not filter ports in endpoints
+562,2018-03-02 19:19:55.000000000,1970-01-01 00:00:00.000000001,open,4,eskip parsing of string literals is different than expected
+561,2018-03-02 04:03:55.000000000,2018-03-02 04:20:23.000000000,closed,2,[doc] add modPath 
+560,2018-03-02 02:41:01.000000000,2018-03-02 19:03:48.000000000,closed,5,Path rewrite for Ingress
+559,2018-02-27 18:28:30.000000000,2018-03-26 18:12:47.000000000,closed,7,CORS filter
+558,2018-02-25 23:15:50.000000000,2018-03-02 20:02:04.000000000,closed,13,Remove hop headers
+557,2018-02-23 18:42:25.000000000,1970-01-01 00:00:00.000000001,open,5,loadbalancer algorithms
+556,2018-02-23 18:32:06.000000000,2019-02-06 01:22:28.000000000,closed,1,loadbalancer optimization
+555,2018-02-22 17:39:42.000000000,2018-02-27 14:32:44.000000000,closed,7,computeBackendWeights: avoid rounding issues
+554,2018-02-21 19:31:42.000000000,2018-03-06 03:39:14.000000000,closed,2,Query: Skipper Docker image and localhost (Possible issue?)
+553,2018-02-13 23:11:28.000000000,2018-02-14 01:40:20.000000000,closed,3,Fixed eskip examples to use camelCase
+552,2018-02-12 15:27:37.000000000,2018-02-13 21:01:17.000000000,closed,2,document ingress-controller deployment
+551,2018-02-12 14:00:24.000000000,1970-01-01 00:00:00.000000001,open,1,Customize access logs
+550,2018-02-07 15:55:31.000000000,2018-02-07 21:01:54.000000000,closed,2,Docs - kubernetes service types supported and oneline proxy 
+549,2018-02-07 15:43:29.000000000,2019-06-20 20:07:25.000000000,closed,20,Kubernetes service ExternalName should be possible to target from ingress
+548,2018-02-05 21:10:08.000000000,2018-02-05 21:40:57.000000000,closed,2,Docs/k8s ingress-controller deployment
+547,2018-02-03 16:15:58.000000000,2018-02-05 20:19:56.000000000,closed,2,split docs
+546,2018-01-26 01:01:15.000000000,1970-01-01 00:00:00.000000001,open,9,Session affinity/load balancing algs
+545,2018-01-23 22:01:13.000000000,2018-01-23 22:12:33.000000000,closed,2,Fix tee test typo.
+544,2018-01-22 20:23:26.000000000,1970-01-01 00:00:00.000000001,open,1,legacy style predicates from kubernetes ingress annotations don't work
+543,2018-01-19 17:17:01.000000000,2018-01-19 21:01:20.000000000,closed,4,Add scaled images
+542,2018-01-19 13:39:16.000000000,2020-07-08 00:48:06.000000000,closed,2,opencensus support
+541,2018-01-17 19:18:24.000000000,2018-01-17 19:35:49.000000000,closed,2,Fix sample demo-ing.yaml
+540,2018-01-16 17:24:47.000000000,2018-01-19 16:11:47.000000000,closed,3,Docs/operations
+539,2018-01-16 14:29:33.000000000,1970-01-01 00:00:00.000000001,open,0,add tutorial in external-dns
+538,2018-01-11 00:15:10.000000000,2018-01-15 18:24:37.000000000,closed,2,Conn handling
+537,2018-01-08 06:01:33.000000000,2018-01-09 15:09:11.000000000,closed,3,all: drop underscore if param or receiver is unused
+536,2018-01-05 22:56:24.000000000,2018-02-27 03:12:38.000000000,closed,7,LoadBalancer feature
+535,2018-01-05 14:02:01.000000000,1970-01-01 00:00:00.000000001,open,1,Allow to add distinct headers into http access log output as extension.
+534,2018-01-05 13:59:18.000000000,2020-07-08 00:53:43.000000000,closed,2,Allow to suppress http access log entries for distinct endpoints and/or sources
+533,2018-01-04 21:28:27.000000000,2018-01-18 00:58:31.000000000,closed,11,Source predicate can be by passed in AWS
+532,2018-01-04 19:06:26.000000000,2018-04-15 00:06:57.000000000,closed,1,reduce log on LoadUpdate in case nothing changed
+531,2018-01-04 16:39:22.000000000,2018-01-18 00:59:23.000000000,closed,10,hardcoded healthz check Source predicate
+530,2018-01-03 23:32:00.000000000,2018-01-04 15:11:46.000000000,closed,4,Scripts docs
+529,2018-01-03 15:04:53.000000000,2018-01-04 15:11:09.000000000,closed,5,serve's body= parameter accepts a table
+528,2018-01-03 14:13:44.000000000,2018-01-03 14:51:19.000000000,closed,0,[lua] ctx.serve() should have a body= parameter
+527,2018-01-03 13:43:09.000000000,2018-01-03 14:51:13.000000000,closed,3,"[lua] add body=""string"" to ctx.serve()"
+526,2018-01-02 21:30:33.000000000,2018-01-03 03:57:35.000000000,closed,2,Improve error logs for invalid routes
+525,2018-01-02 14:09:55.000000000,2018-03-27 17:31:42.000000000,closed,1,loadbalancer algorithm - 2 rand
+524,2017-12-29 15:52:28.000000000,2018-01-02 14:02:49.000000000,closed,3,all: simplifications
+523,2017-12-27 14:36:17.000000000,1970-01-01 00:00:00.000000001,open,5,Filters and Predicates should have a Cleanup()
+522,2017-12-24 18:05:38.000000000,2017-12-28 18:30:59.000000000,closed,7,LUA Scripting
+521,2017-12-23 05:44:19.000000000,2017-12-28 19:54:37.000000000,closed,2,proxy: simplify satisfying an interface
+520,2017-12-23 05:29:30.000000000,2017-12-28 18:38:33.000000000,closed,2,all: fix typos
+519,2017-12-22 19:47:45.000000000,2017-12-28 19:59:00.000000000,closed,5,Doc/kube use cases
+518,2017-12-22 15:59:54.000000000,2017-12-22 19:32:48.000000000,closed,3,document use cases A/B test and auth header based rate limits
+517,2017-12-20 18:07:06.000000000,2017-12-20 19:20:16.000000000,closed,2,uncenter skipper figure
+516,2017-12-20 17:51:24.000000000,2017-12-20 17:58:35.000000000,closed,2,recover skipper image
+515,2017-12-19 04:45:40.000000000,2017-12-22 14:21:22.000000000,closed,5,all: gofmt -s
+514,2017-12-19 03:20:25.000000000,2017-12-19 03:38:05.000000000,closed,3,"eskip, filters: use `fmt.Errorf` directly"
+513,2017-12-18 05:54:59.000000000,2017-12-18 14:30:32.000000000,closed,3,routing: Replace for loop with expansion in append
+512,2017-12-15 21:20:49.000000000,2018-07-23 20:28:46.000000000,closed,1,ingress requires to have a backend 
+511,2017-12-15 21:17:00.000000000,2018-11-03 01:44:17.000000000,closed,0,document <shunt>
+510,2017-12-14 14:14:20.000000000,2017-12-14 14:58:54.000000000,closed,2,doc IP whitelisting
+509,2017-12-07 13:52:02.000000000,2017-12-07 20:42:49.000000000,closed,2,Minor fixes for prometheus metrics
+508,2017-12-06 17:28:48.000000000,2017-12-14 16:32:32.000000000,closed,7,Enable eskip to handle OAuth when working with etcd
+507,2017-12-04 20:47:23.000000000,2017-12-07 01:36:51.000000000,closed,4,Prometheus metrics
+506,2017-11-30 17:40:25.000000000,2017-11-30 18:03:29.000000000,closed,2,re-add our logo..
+505,2017-11-30 02:46:56.000000000,2017-11-30 16:42:17.000000000,closed,3,doc plugins and opentracing
+504,2017-11-29 17:34:30.000000000,2017-12-07 01:36:51.000000000,closed,4,Prometheus metrics
+503,2017-11-27 20:54:14.000000000,2017-11-27 21:08:42.000000000,closed,2,show how to run skipper using the routes file
+502,2017-11-27 19:59:34.000000000,2017-11-27 20:21:39.000000000,closed,3,Remove unnecessary quotes from app name in the doc
+501,2017-11-27 18:49:57.000000000,2017-11-27 20:54:59.000000000,closed,10,(WIP) add methods DecCounter & GetOrRegister
+500,2017-11-27 03:31:58.000000000,2017-11-30 16:42:18.000000000,closed,0,godoc tracing should link plugin projects
+499,2017-11-27 03:27:51.000000000,2018-02-27 03:12:38.000000000,closed,6,Loadbalancer support
+498,2017-11-27 02:49:23.000000000,2017-11-27 17:41:41.000000000,closed,2,fix build for osx/win
+497,2017-11-21 19:57:39.000000000,2017-11-21 21:21:42.000000000,closed,2,add more links and docs
+496,2017-11-21 14:33:37.000000000,2017-11-21 14:46:51.000000000,closed,2,Added initial MkDocs structure
+495,2017-11-20 22:40:40.000000000,2017-11-21 00:39:18.000000000,closed,2,Fix link to docs 
+494,2017-11-20 19:32:45.000000000,2017-11-20 21:38:01.000000000,closed,3,initial docs
+493,2017-11-19 17:58:01.000000000,2017-11-19 18:22:55.000000000,closed,2,fix naming of new functions
+492,2017-11-18 23:30:14.000000000,2017-11-19 18:22:19.000000000,closed,4,Properly log the state of the circuits breakers.
+491,2017-11-17 21:30:12.000000000,2017-11-19 18:22:19.000000000,closed,2,incorrect application logs on  rateBreakers
+490,2017-11-15 00:37:08.000000000,1970-01-01 00:00:00.000000001,open,8,Allow user to add custom metrics
+489,2017-11-12 13:32:24.000000000,2018-11-14 14:54:20.000000000,closed,6,Metrics per ingress defined route
+488,2017-11-11 23:14:33.000000000,2017-11-13 16:53:12.000000000,closed,2,header copy filters 
+487,2017-11-10 12:42:04.000000000,2018-04-07 01:29:31.000000000,closed,5,ETCD data client doesn't support basic authentication
+486,2017-11-10 00:07:26.000000000,1970-01-01 00:00:00.000000001,open,1,document the help tasks in the contribution guidelines
+485,2017-11-10 00:06:01.000000000,1970-01-01 00:00:00.000000001,open,0,fix make deps and precommit
+484,2017-11-08 02:41:10.000000000,2017-11-10 03:27:54.000000000,closed,2,Ordering bug
+483,2017-11-07 13:31:56.000000000,2017-11-10 00:21:37.000000000,closed,4,Increase etcd index if delete the route root
+482,2017-11-06 02:50:59.000000000,2017-11-10 03:27:54.000000000,closed,2,ordering of ingress items with the same host can cause dropped filters and predicates
+481,2017-11-05 17:25:13.000000000,2017-11-05 23:33:23.000000000,closed,2,intro guides in readme
+480,2017-11-02 15:46:45.000000000,2017-11-02 16:23:22.000000000,closed,2,create a filter for inline content
+479,2017-11-01 22:04:19.000000000,2017-11-02 19:52:37.000000000,closed,2,create a data client for inline routes
+478,2017-11-01 01:13:02.000000000,2017-11-01 14:42:03.000000000,closed,2,Feature/service ratelimit
+477,2017-10-30 21:03:39.000000000,2017-10-30 21:11:54.000000000,closed,2,try to fix godoc formatting
+476,2017-10-29 16:58:59.000000000,2017-10-30 19:37:56.000000000,closed,2,Kubernetes - shadow traffic
+475,2017-10-29 16:50:57.000000000,2017-10-30 20:26:59.000000000,closed,2,changes readme.md to enable users
+474,2017-10-27 03:53:40.000000000,2017-11-10 23:07:54.000000000,closed,3,Cannot reload new routing rules from ETCD if we delete the route root 
+473,2017-10-24 17:58:22.000000000,2017-10-24 18:13:24.000000000,closed,1,Parsing backend failing
+472,2017-10-23 20:13:15.000000000,2017-10-24 13:54:28.000000000,closed,3,set predicates using ingress annotation
+471,2017-10-23 17:34:34.000000000,1970-01-01 00:00:00.000000001,open,6,add eskip json unmarshalling
+470,2017-10-23 13:21:24.000000000,2017-11-01 18:33:40.000000000,closed,0,Rate limit for service backends
+469,2017-10-23 01:25:46.000000000,2017-10-23 15:40:49.000000000,closed,4,create a flag to disable detailed route update logging
+468,2017-10-22 20:36:50.000000000,2017-10-22 21:57:07.000000000,closed,2,set arbitrary skipper filters from ingress annotation
+467,2017-10-20 21:02:10.000000000,2017-10-22 20:21:38.000000000,closed,2,function for parsing predicates individually
+466,2017-10-20 19:52:59.000000000,2017-10-22 20:37:18.000000000,closed,2,set arbitrary skipper filters from ingress annotation
+465,2017-10-20 19:47:01.000000000,2017-10-24 13:54:38.000000000,closed,0,Define arbitrary skipper predicates via Ingress
+464,2017-10-20 19:26:08.000000000,2017-10-22 20:21:38.000000000,closed,0, implement ParsePredicates similar to eskip.ParseFilters
+463,2017-10-20 19:22:52.000000000,2017-10-23 12:13:19.000000000,closed,0,Define arbitrary skipper filters via Ingress
+462,2017-10-20 16:04:35.000000000,2017-10-20 19:54:41.000000000,closed,2,Fix route printing
+461,2017-10-18 18:59:03.000000000,2017-10-18 20:49:36.000000000,closed,2,use latest go version in travis builds
+460,2017-10-18 17:03:29.000000000,2017-10-18 17:22:50.000000000,closed,2,Update readme.md
+459,2017-10-18 13:49:38.000000000,2018-11-10 03:15:22.000000000,closed,1,clusterRatelimit() - Ratelimit should adapt settings
+458,2017-10-16 15:35:56.000000000,1970-01-01 00:00:00.000000001,open,0,the cmd flag -metrics-listener doesn't work
+457,2017-10-16 15:35:23.000000000,2017-10-16 17:55:43.000000000,closed,2,metrics filtering with the request path
+456,2017-10-16 14:54:38.000000000,2017-10-16 15:10:40.000000000,closed,2,Allow using an exponentially decaying sample for histograms
+455,2017-10-15 20:57:01.000000000,2017-10-16 12:58:45.000000000,closed,3,fix metrics timing issue in metrics test check
+454,2017-10-15 19:33:27.000000000,1970-01-01 00:00:00.000000001,open,0,metrics test occasionally fail
+453,2017-10-13 20:04:18.000000000,2017-10-16 00:37:37.000000000,closed,7,rate limit support in ingress
+452,2017-10-13 17:07:21.000000000,2017-10-13 17:26:25.000000000,closed,2,compatibility fix to the public builtin.Redirect() function
+451,2017-10-13 15:52:15.000000000,2017-10-13 18:00:21.000000000,closed,2,add metrics for backend 5xx
+450,2017-10-12 22:05:19.000000000,2017-10-13 15:27:48.000000000,closed,6,Allow non-TTY applications to execute eskip commands
+449,2017-10-12 21:57:57.000000000,2017-10-13 15:39:57.000000000,closed,1,Allow non-TTY applications to execute eskip commands
+448,2017-10-12 20:52:52.000000000,2017-10-13 15:06:18.000000000,closed,2,Add redirectToLower filter for case-insensitive redirects
+447,2017-10-10 23:55:01.000000000,2017-10-11 00:09:53.000000000,closed,2,Fix broken markdown links in CONTRIBUTING.md
+446,2017-10-10 15:59:31.000000000,2017-10-10 17:52:52.000000000,closed,3,Add combined filter processing metrics
+445,2017-10-04 15:38:37.000000000,2017-10-06 17:37:05.000000000,closed,12,Add visualization Tree built from pathmux
+444,2017-10-02 21:32:10.000000000,2017-10-06 12:01:21.000000000,closed,0,Provide access to backend metrics from filters
+443,2017-10-02 21:29:51.000000000,2017-10-06 13:18:15.000000000,closed,5,Provide access to backend metrics from filters
+442,2017-10-02 18:58:29.000000000,2017-10-05 16:37:52.000000000,closed,2,Check length of flag.Args() to ensure the were parsed correctly
+441,2017-10-01 21:39:24.000000000,2017-10-01 22:36:40.000000000,closed,2,show package ratelimit docs
+440,2017-09-30 16:45:33.000000000,2017-09-30 21:46:26.000000000,closed,2,Create catchall per host instead of per ingress
+439,2017-09-27 01:51:26.000000000,2017-09-27 19:36:18.000000000,closed,7,Document rate limiters
+438,2017-09-27 01:20:29.000000000,2018-09-12 19:22:07.000000000,closed,11,rate limit should set header Retry-After
+437,2017-09-25 17:45:55.000000000,2017-09-30 16:46:25.000000000,closed,6,Remove catchAll route for kube ingress
+436,2017-09-25 17:45:30.000000000,2017-09-30 21:46:26.000000000,closed,0,Proper 404 catchall for ingress routes.
+435,2017-09-20 13:42:36.000000000,2017-09-20 13:48:30.000000000,closed,2,set default tracer to noop
+434,2017-09-19 20:57:24.000000000,2017-09-22 18:33:17.000000000,closed,4,ratelimit support via args
+433,2017-09-14 12:52:37.000000000,2017-09-19 13:04:05.000000000,closed,12,Add opentracing to skipper
+432,2017-09-07 20:02:39.000000000,1970-01-01 00:00:00.000000001,open,2,breaking release planning
+431,2017-09-07 19:38:11.000000000,2017-09-15 16:20:46.000000000,closed,3,add combined metrics for backend latency and response streaming
+430,2017-09-07 14:30:38.000000000,2018-12-11 18:22:53.000000000,closed,4,Accept integers in programmatically created filter/predicate arguments. #296
+429,2017-09-06 19:39:15.000000000,2017-09-06 20:27:10.000000000,closed,7,make route based metrics optional
+428,2017-09-04 19:02:10.000000000,2017-10-16 15:10:40.000000000,closed,11,Use exponentially decaying sample for metrics
+427,2017-09-02 17:06:17.000000000,2017-09-04 15:36:49.000000000,closed,2,add community to readme
+426,2017-08-28 18:19:07.000000000,2017-11-13 16:53:12.000000000,closed,0,copy header filter
+425,2017-08-27 12:09:52.000000000,2017-09-01 17:02:12.000000000,closed,3,Make default HTTP status configurable
+424,2017-08-20 22:30:18.000000000,2017-09-25 11:31:56.000000000,closed,1,Rate limit filter
+423,2017-08-18 13:44:04.000000000,1970-01-01 00:00:00.000000001,open,9,flowId in application logs
+422,2017-08-15 01:13:46.000000000,2018-03-05 02:55:10.000000000,closed,1,Retries with exponential backoff
+421,2017-08-15 01:12:24.000000000,2017-11-27 03:16:10.000000000,closed,6,Opentracing-API
+420,2017-08-15 01:09:47.000000000,1970-01-01 00:00:00.000000001,open,2,service mesh - service type clusterIP implementation
+419,2017-08-15 01:07:24.000000000,2017-11-27 02:53:18.000000000,closed,2,Circuit breaker for sidecars
+418,2017-08-15 00:10:03.000000000,2019-03-16 16:45:30.000000000,closed,7,OpenAPI (swagger) integration
+417,2017-08-13 22:05:52.000000000,2017-08-15 17:56:17.000000000,closed,2,update dependencies
+416,2017-08-13 22:03:06.000000000,2017-08-15 17:49:47.000000000,closed,1,remove outdated examples
+415,2017-08-13 21:53:17.000000000,2017-08-15 17:55:42.000000000,closed,2,"add Makefile target ""lint"""
+414,2017-08-11 19:12:11.000000000,2017-10-16 15:13:05.000000000,closed,1,Rate limiting support in ingress/deployment
+413,2017-08-11 17:56:59.000000000,2018-09-02 01:57:34.000000000,closed,1,OAuth/JWT validation for the proxied app
+412,2017-08-11 17:43:28.000000000,2019-07-26 17:44:31.000000000,closed,1,OAuth/JWT token injection for the proxied app
+411,2017-08-11 17:39:29.000000000,1970-01-01 00:00:00.000000001,open,0,Skipper as sidecar and features for ingress
+410,2017-08-09 22:00:59.000000000,2017-08-10 16:52:51.000000000,closed,8,Treat network errors as transient and defer updating routes
+409,2017-08-09 17:30:05.000000000,2017-08-09 18:10:03.000000000,closed,8,Error early when apiserver is unreachable
+408,2017-08-09 16:51:01.000000000,2017-09-01 17:02:12.000000000,closed,3,kubeclient: Return 502 instead of 404 if route is not configured.
+407,2017-08-09 14:10:48.000000000,1970-01-01 00:00:00.000000001,open,0,testing: replace external etcd proc with mock
+406,2017-08-09 13:01:30.000000000,2017-08-11 13:48:51.000000000,closed,7,Kubernetes: Rules get removed in case of transient API server fault
+405,2017-08-08 21:08:33.000000000,2017-08-09 13:51:14.000000000,closed,2,Routes count
+404,2017-08-08 20:34:14.000000000,2017-08-09 13:51:06.000000000,closed,2,Reduce branding
+403,2017-08-08 19:11:22.000000000,2017-08-08 19:19:15.000000000,closed,2,fix tests
+402,2017-08-08 17:03:52.000000000,1970-01-01 00:00:00.000000001,open,0,buffering payload
+401,2017-08-08 16:41:07.000000000,2017-08-08 17:52:22.000000000,closed,3,preserve incoming content length settings
+400,2017-08-07 21:50:24.000000000,2017-08-09 13:51:06.000000000,closed,2,more humble branding
+399,2017-08-07 20:52:21.000000000,2017-08-09 13:51:14.000000000,closed,0,Get number of routes on monitor port
+398,2017-08-07 20:51:11.000000000,1970-01-01 00:00:00.000000001,open,0,shunting on the response path
+397,2017-08-07 19:24:29.000000000,2017-08-08 17:07:50.000000000,closed,5,Small README edits
+396,2017-08-07 17:41:15.000000000,2017-08-07 19:10:33.000000000,closed,3,Kubernetes ingress - health check handling change
+395,2017-08-07 14:01:34.000000000,2017-08-07 19:12:49.000000000,closed,3,Kubernetes ingress healthcheck only on bootstrap and teardown
+394,2017-08-07 10:39:24.000000000,1970-01-01 00:00:00.000000001,open,1,Omit Path Paramters in Access Logs
+393,2017-08-05 00:08:06.000000000,2017-08-08 21:05:27.000000000,closed,2,add an additional new line to the pretty printing separator
+392,2017-08-04 19:27:38.000000000,2018-06-19 17:48:44.000000000,closed,10,add option to strip query strings from request URIs in the access logs
+391,2017-08-04 16:29:23.000000000,2017-08-05 01:20:40.000000000,closed,4,Readme update
+390,2017-08-04 12:00:09.000000000,1970-01-01 00:00:00.000000001,open,6,Feature request: external k8s ingress overrides
+389,2017-08-04 11:49:44.000000000,2017-08-04 14:19:11.000000000,closed,2,Fix typo in Kubernetes data client
+388,2017-08-04 11:43:32.000000000,2017-08-04 11:49:19.000000000,closed,0,fix typo
+387,2017-08-03 17:59:42.000000000,2017-08-03 18:13:47.000000000,closed,2,remove rx copying from route lookup
+386,2017-08-02 20:39:16.000000000,1970-01-01 00:00:00.000000001,open,6,"provide possibility to set exact, non-regexp host predicates"
+385,2017-08-02 15:32:25.000000000,2017-08-02 17:06:13.000000000,closed,3,use shared compiled regular expressions
+384,2017-08-01 18:58:13.000000000,2017-09-04 15:37:05.000000000,closed,7,Provide option to collect custom metrics inside filters
+383,2017-07-27 21:54:26.000000000,2017-07-31 15:29:25.000000000,closed,5,Fix subtree conflict
+382,2017-07-25 20:27:10.000000000,2017-08-11 19:14:58.000000000,closed,5,Support Rate Limiting for K8s Ingress
+381,2017-07-25 17:43:15.000000000,2017-07-28 16:42:41.000000000,closed,2,remove unnecessary logs for 404 route lookup failures
+380,2017-07-25 17:05:00.000000000,2017-07-26 00:14:46.000000000,closed,2,fix benchmark scripts
+379,2017-07-21 12:12:49.000000000,2017-07-25 19:09:10.000000000,closed,3,Fixing typo in enableBreakersUsage description
+378,2017-07-20 20:51:53.000000000,2017-07-21 00:30:52.000000000,closed,3,use proper netmasks for private subnets
+377,2017-07-20 20:50:49.000000000,2017-07-21 00:30:52.000000000,closed,0,wrong netmasks for private subnets
+376,2017-07-19 01:19:22.000000000,2017-07-21 11:47:02.000000000,closed,5,Route api calls through skipper??
+375,2017-07-18 16:43:22.000000000,2017-07-31 15:29:25.000000000,closed,0,path lookup issue when using pathsubtree() predicates
+374,2017-07-18 13:07:45.000000000,2017-07-18 13:27:51.000000000,closed,2,Fix metrics endpoint
+373,2017-07-18 13:00:24.000000000,2017-07-18 13:28:55.000000000,closed,4,Add internal tests for routing package
+372,2017-07-18 12:53:52.000000000,2017-07-18 13:31:33.000000000,closed,2,add vendoring check
+371,2017-07-17 20:02:42.000000000,2017-07-18 11:31:08.000000000,closed,2,add dependency which was not added in the PR
+370,2017-07-14 15:56:39.000000000,2017-07-21 00:35:52.000000000,closed,3,provide a shortcut flag to enable breakers without global settings
+369,2017-07-12 21:18:33.000000000,2017-07-13 10:56:43.000000000,closed,2,reference the Kubernetes route source
+368,2017-07-12 17:52:13.000000000,2017-07-12 19:56:08.000000000,closed,3,Add X-Flow-Id to the access logs
+367,2017-07-11 02:45:05.000000000,2018-04-27 23:10:17.000000000,closed,28,raw migration of the skoap code to skipper
+366,2017-07-11 01:20:45.000000000,2018-08-22 20:05:59.000000000,closed,3,migrate skoap into skipper
+365,2017-07-10 02:39:59.000000000,2017-07-25 17:08:29.000000000,closed,1,add Kubernetes to the root documentation
+364,2017-07-07 16:19:05.000000000,2017-07-13 17:47:21.000000000,closed,3,List current rules 
+363,2017-07-03 19:26:02.000000000,2017-10-16 15:10:40.000000000,closed,1,backend latency metrics don't fall back after spikes
+362,2017-07-03 14:24:09.000000000,2017-07-13 17:41:49.000000000,closed,9,Circuit breaker
+361,2017-06-30 20:38:55.000000000,2017-06-30 20:47:08.000000000,closed,5,Move pathmux
+360,2017-06-30 19:00:06.000000000,1970-01-01 00:00:00.000000001,open,5,improve Kubernetes ingress path matching
+359,2017-06-28 21:16:38.000000000,2017-06-29 10:55:25.000000000,closed,3,replace godeps with glide
+358,2017-06-27 20:58:56.000000000,1970-01-01 00:00:00.000000001,open,0,consider providing metrics for backend latency grouped by the incoming request host
+357,2017-06-23 13:24:24.000000000,2017-06-27 12:21:19.000000000,closed,6,Add flag for logs in json format #326
+356,2017-06-23 12:30:28.000000000,2017-06-26 16:23:51.000000000,closed,2,add license to the readme for compliance
+355,2017-06-23 12:29:46.000000000,2017-06-26 16:23:51.000000000,closed,0,license missing from the readme
+354,2017-06-23 12:14:34.000000000,2017-06-23 12:36:20.000000000,closed,3,fix eskip patch append
+353,2017-06-23 12:12:40.000000000,2017-06-30 18:52:31.000000000,closed,2,eskip patch -append doesn't work
+352,2017-06-21 13:57:42.000000000,1970-01-01 00:00:00.000000001,open,3,Provide an option to allow custom metrics inside filters.
+351,2017-06-20 16:24:49.000000000,2017-06-20 20:12:05.000000000,closed,2,zsh: command not found: eskip
+350,2017-06-20 16:20:37.000000000,2017-06-20 16:25:31.000000000,closed,2,provide deps for coverage generator
+349,2017-06-20 15:21:42.000000000,2017-06-20 16:08:44.000000000,closed,2,"fix license badge, provide coverage for sub packages"
+348,2017-06-20 15:21:20.000000000,2017-06-20 16:08:44.000000000,closed,0,gix github badges
+347,2017-06-20 12:56:48.000000000,2017-06-20 13:50:25.000000000,closed,3,Create SECURITY.md
+346,2017-06-20 12:54:48.000000000,2017-06-20 13:50:25.000000000,closed,0,Add security.md 
+345,2017-06-19 11:22:50.000000000,2017-06-19 11:43:31.000000000,closed,2,make Zappr compliant
+344,2017-06-17 22:20:24.000000000,2017-06-19 13:52:48.000000000,closed,6,build with CDP
+343,2017-06-16 19:02:06.000000000,2017-06-19 13:57:59.000000000,closed,2,consistency fix for metrics keys
+342,2017-06-13 19:04:41.000000000,2017-06-13 22:48:56.000000000,closed,2,use metrics keys only from known hosts and methods
+341,2017-06-13 17:24:41.000000000,2017-06-19 13:52:48.000000000,closed,0,Configure Docker image build via CDP (delivery.yaml)
+340,2017-06-13 16:04:35.000000000,2017-06-17 23:02:20.000000000,closed,1,update the logrus dependency
+339,2017-06-07 16:13:32.000000000,2017-06-07 16:54:30.000000000,closed,1,Definition of the Eskip language
+338,2017-06-02 23:15:43.000000000,2017-06-02 23:20:10.000000000,closed,1,Add ca-certificates to Docker image
+337,2017-05-29 17:37:20.000000000,2017-05-29 20:43:09.000000000,closed,1,Updating docs with loopback info
+336,2017-05-26 21:42:48.000000000,2017-06-06 16:40:21.000000000,closed,4,flag for ignoring the ingress class
+335,2017-05-26 19:00:52.000000000,2017-05-26 19:08:25.000000000,closed,1,small documentation related fixes
+334,2017-05-25 15:28:32.000000000,2017-05-26 18:26:34.000000000,closed,6,Add support for kubernetes.io/ingress.class annotation
+333,2017-05-25 14:38:38.000000000,2017-05-25 14:46:11.000000000,closed,1,add illustrator source and svg for skipper logo
+332,2017-05-23 12:50:31.000000000,2017-05-23 13:46:15.000000000,closed,1,Tiny eskip doc update for loopback
+331,2017-05-22 19:05:32.000000000,2017-05-22 19:46:53.000000000,closed,1,Loop backend
+330,2017-05-19 16:48:42.000000000,2017-05-19 19:20:07.000000000,closed,3,Implement traffic switching in kubernetes dataclient
+329,2017-05-18 17:11:54.000000000,2017-05-19 00:22:20.000000000,closed,2,Fix eskip usage text for -innkeeper-url
+328,2017-05-18 16:09:04.000000000,2017-05-26 20:03:47.000000000,closed,4,Skipper should allow URLs to be treated as case-insensitive using MatchingOption
+327,2017-05-15 22:11:44.000000000,2017-05-22 18:09:44.000000000,closed,12,Proxy refactor
+326,2017-05-11 19:54:49.000000000,2017-06-30 19:04:03.000000000,closed,4,Add flag for logs in json format
+325,2017-05-11 16:12:28.000000000,2017-05-12 15:01:19.000000000,closed,1,refresh github travis token
+324,2017-05-11 11:40:39.000000000,2017-05-19 19:20:09.000000000,closed,2,Kubernetes Ingress: Weighted Traffic Switching
+323,2017-05-10 17:21:43.000000000,2017-05-11 14:49:50.000000000,closed,1,remove failing docker build
+322,2017-05-10 17:18:05.000000000,2017-05-11 13:49:50.000000000,closed,1,update travis github key
+321,2017-05-10 16:09:25.000000000,2017-05-11 13:49:09.000000000,closed,1,Added timeout option for tee filter
+320,2017-05-10 13:28:36.000000000,2017-10-18 13:40:14.000000000,closed,3,List current rules
+319,2017-05-08 17:43:30.000000000,2017-05-08 22:33:35.000000000,closed,4,implement traffic switching based on internal code
+318,2017-05-05 15:14:50.000000000,2017-05-08 16:28:14.000000000,closed,4,tee filter does not follow redirects if user prefers so
+317,2017-04-20 19:44:29.000000000,2017-04-21 19:00:53.000000000,closed,3,Fix escaping when unmarshal json
+316,2017-04-19 20:59:40.000000000,2017-04-19 21:57:48.000000000,closed,1,silence the command expression for the format check in the Makefile
+315,2017-04-19 20:56:05.000000000,2017-04-19 21:13:07.000000000,closed,1,bump go version in travis builds
+314,2017-04-19 20:48:27.000000000,2017-04-19 21:11:33.000000000,closed,1,Etcd install script
+313,2017-04-19 16:04:41.000000000,2017-04-19 21:06:00.000000000,closed,4,Install etcd in Travis
+312,2017-04-18 20:55:50.000000000,2017-04-18 20:58:53.000000000,closed,1,Implement caching for kubernetes service endpoints
+311,2017-04-18 20:26:08.000000000,2017-04-19 20:35:14.000000000,closed,15,Implement caching for kubernetes service endpoints
+310,2017-04-13 17:33:09.000000000,2017-04-13 18:39:03.000000000,closed,2,add missing an
+309,2017-04-13 14:29:47.000000000,2017-04-13 15:43:04.000000000,closed,2,add a small section kube ingress
+308,2017-04-13 13:57:01.000000000,2017-05-08 20:27:33.000000000,closed,2,Mention K8s ingress on the main README
+307,2017-04-05 22:53:29.000000000,2017-04-06 13:18:35.000000000,closed,4,use a select for the signal in the goroutine from which the routing calls Load*
+306,2017-04-05 20:16:40.000000000,2017-04-06 11:32:04.000000000,closed,1,add sigterm handler to change the return value for kubernetes
+305,2017-04-05 18:17:15.000000000,2017-04-05 18:58:40.000000000,closed,5,Add '^' to start of path when getting them from kubernetes
+304,2017-03-31 02:03:33.000000000,2017-06-30 19:01:07.000000000,closed,12,Kubernetes dataclient race condition
+303,2017-03-24 14:11:53.000000000,2017-03-24 15:03:25.000000000,closed,1,fix-backend-host-metrics
+302,2017-03-21 20:34:02.000000000,2017-03-21 20:54:50.000000000,closed,4,Wire backend host metrics
+301,2017-03-20 15:33:30.000000000,1970-01-01 00:00:00.000000001,open,3,custom header name for the flowid
+300,2017-03-15 22:26:49.000000000,2017-03-16 14:00:05.000000000,closed,1,tee filter fixes
+299,2017-03-13 19:12:00.000000000,2017-03-13 19:13:46.000000000,closed,1,packaging in a clean directory does not work
+298,2017-03-09 22:11:37.000000000,2017-04-06 14:17:47.000000000,closed,3,Kubernetes: handle sigterm to support graceful shutdown in daemonsets
+297,2017-03-09 21:55:13.000000000,2017-03-13 17:33:23.000000000,closed,4,HTTP->HTTPS redirect for Kubernetes
+296,2017-03-09 21:34:56.000000000,1970-01-01 00:00:00.000000001,open,0,accept integers in programmatically created filter/predicate arguments
+295,2017-03-09 18:47:18.000000000,2017-03-15 22:27:02.000000000,closed,2,remove unnecessary defer
+294,2017-03-08 16:44:53.000000000,2017-03-09 17:27:47.000000000,closed,0,avoid copying unknown fields for the tee() request
+293,2017-03-07 21:52:57.000000000,2017-03-07 23:34:27.000000000,closed,1,Unit tests for kubernetes client related functions 
+292,2017-03-06 19:48:26.000000000,2017-03-06 20:15:14.000000000,closed,3,patch for stdlib profile path handling
+291,2017-03-06 18:15:12.000000000,2017-03-06 18:31:34.000000000,closed,1,expose profile info
+290,2017-03-06 17:53:23.000000000,2017-03-07 16:30:02.000000000,closed,7,Get rid of kubectl proxy in skipper
+289,2017-03-04 02:43:44.000000000,2017-03-04 03:00:36.000000000,closed,1,remove Raffo from maintainers list
+288,2017-03-03 22:29:29.000000000,2017-06-07 14:35:07.000000000,closed,10,Support HTTPS requests in the Docker image
+287,2017-03-03 18:48:35.000000000,2017-03-09 17:27:46.000000000,closed,0,tee() filter - context closed
+286,2017-03-03 17:35:41.000000000,2017-06-30 19:05:33.000000000,closed,2,update Godeps or use latest version of the deps
+285,2017-02-28 16:42:01.000000000,2017-02-28 16:47:11.000000000,closed,1,try to fix ci build
+284,2017-02-28 02:06:38.000000000,1970-01-01 00:00:00.000000001,open,3,Kubernetes: support Ingress hostname with wildcards/regexp
+283,2017-02-27 23:01:24.000000000,1970-01-01 00:00:00.000000001,open,0,"when shunting the request flow, the outgoing request body is closed"
+282,2017-02-27 20:52:27.000000000,1970-01-01 00:00:00.000000001,open,2,leak in backendBandwidth() and backendChunks() filters
+281,2017-02-23 22:00:34.000000000,2017-02-27 17:43:29.000000000,closed,1,Automatic docker on release
+280,2017-02-23 20:23:08.000000000,2017-02-23 21:37:16.000000000,closed,1,automatically create docker images on releases
+279,2017-02-22 21:23:54.000000000,2017-02-22 21:27:12.000000000,closed,2,set the default command to skipper
+278,2017-02-22 15:45:10.000000000,1970-01-01 00:00:00.000000001,open,4,"targeting a port only destination "":1234"" wont work, but passes `eskip check`"
+277,2017-02-21 23:43:51.000000000,2017-02-22 16:27:33.000000000,closed,7,"set the body to nil for outgoing requests, when the content length is zero"
+276,2017-02-21 23:24:07.000000000,2017-02-22 13:04:17.000000000,closed,2,go vet fix: check error before using response
+275,2017-02-17 22:31:06.000000000,2018-03-26 19:56:57.000000000,closed,3,Prototype for watching files & directories for routes
+274,2017-02-17 19:26:30.000000000,2017-05-31 20:35:52.000000000,closed,8,Backend type: loopback
+273,2017-02-17 17:29:19.000000000,2017-02-17 17:44:44.000000000,closed,2,Updating link to packaging readme
+272,2017-02-15 02:25:12.000000000,2017-02-17 17:45:03.000000000,closed,9,Help Requested
+271,2017-02-13 16:17:42.000000000,2018-06-09 17:50:58.000000000,closed,2,improve the tee() filter
+270,2017-02-07 22:18:57.000000000,2020-08-11 01:38:01.000000000,closed,1,implementing the -indent option
+269,2017-02-06 12:58:44.000000000,2018-03-12 12:39:41.000000000,closed,10,"Skipper produces 500 ""Internal Server Error"" HTTP status code on EOF"
+268,2017-02-03 19:32:26.000000000,1970-01-01 00:00:00.000000001,open,2,cancel the request flow on filter panics
+267,2017-02-03 01:07:42.000000000,2017-02-03 19:11:25.000000000,closed,4,Add filters and predicates from debug listener
+266,2017-02-02 19:47:29.000000000,2017-02-06 15:45:10.000000000,closed,1,add prefix to error messages where it was missing
+265,2017-02-02 19:24:17.000000000,2017-02-02 19:28:45.000000000,closed,1,Configure Zappr
+264,2017-02-02 18:54:34.000000000,2017-02-02 19:46:12.000000000,closed,0,add prefix to error messages where it was missing
+263,2017-02-02 18:19:55.000000000,2017-02-06 15:45:10.000000000,closed,0,improve error logging
+262,2017-02-02 13:52:21.000000000,2017-02-02 19:44:52.000000000,closed,2,Adding zappr config file
+261,2017-01-27 18:22:43.000000000,2017-01-27 20:08:17.000000000,closed,5,Changed handling of transient kube apiserver errors
+260,2017-01-27 18:13:36.000000000,2017-01-27 20:08:17.000000000,closed,0,Kubernetes: do not switch back the health check to false when failing to load Ingress resources
+259,2017-01-27 18:05:35.000000000,2017-01-27 18:07:52.000000000,closed,0,fix versioning variable
+258,2017-01-26 05:25:15.000000000,2017-01-27 17:59:57.000000000,closed,2,Introducing sem ver
+257,2017-01-21 23:11:07.000000000,2018-03-26 19:52:50.000000000,closed,13,first draft of fswatch on the routes file
+256,2017-01-20 18:02:36.000000000,2017-01-21 01:32:01.000000000,closed,3,Flowid generators interface
+255,2017-01-20 06:44:25.000000000,2017-01-21 01:32:38.000000000,closed,1,go vet fixes
+254,2017-01-20 03:57:36.000000000,2017-11-27 02:56:52.000000000,closed,4,Kubernetes: support authentication via serviceaccount (do not require kubectl proxy)
+253,2017-01-20 03:13:43.000000000,2017-01-21 01:31:34.000000000,closed,4,refactored flowid to support having custom generators
+252,2017-01-19 20:34:30.000000000,2017-07-22 00:17:04.000000000,closed,6,Kubernetes: HTTP -> HTTPS redirector
+251,2017-01-19 01:39:03.000000000,2017-01-21 01:33:16.000000000,closed,10,consider using ULID for flowid
+250,2017-01-18 19:06:34.000000000,2017-01-19 16:58:12.000000000,closed,2,consider trimming the hop-by-hop http headers
+249,2017-01-18 16:23:01.000000000,1970-01-01 00:00:00.000000001,open,2,preserve incoming content-length: 0
+248,2017-01-18 15:09:54.000000000,2019-01-30 14:35:16.000000000,closed,10,Watch for changes in `routes-file`
+247,2017-01-17 00:07:42.000000000,2017-01-17 04:09:33.000000000,closed,2,Service unavailable error
+246,2017-01-13 20:59:34.000000000,2018-06-09 17:40:25.000000000,closed,2,Kubernetes: warn if Ingress backend port does not match any actual service port
+245,2017-01-11 22:03:24.000000000,2017-01-21 01:32:56.000000000,closed,2,Basic per backend host metrics
+244,2017-01-06 17:40:34.000000000,2018-10-09 16:57:34.000000000,closed,0,Link tech blog articles and conference videos related to Skipper in the readme
+243,2017-01-05 21:40:58.000000000,2017-07-12 19:56:08.000000000,closed,1,FlowId support in logs
+242,2016-12-20 21:11:45.000000000,2017-01-13 21:54:53.000000000,closed,3,"Kubernetes: Skipper should keep the original ""Host"" header"
+241,2016-12-17 03:27:24.000000000,2017-01-17 04:09:33.000000000,closed,2,Kubernetes: Skipper throws Internal Server Error for service without endpoints
+240,2016-12-17 00:21:16.000000000,2016-12-17 04:02:13.000000000,closed,2,update the maintainers
+239,2016-12-16 17:58:03.000000000,1970-01-01 00:00:00.000000001,open,1,swagger -> (authenticated) routes
+238,2016-12-16 17:27:20.000000000,2016-12-16 17:31:13.000000000,closed,2,Setting Content-Type header to application/json in debug
+237,2016-12-15 20:25:53.000000000,2018-06-09 17:35:39.000000000,closed,4,travis build fails sometimes due to test calling out start an etcd process
+236,2016-12-15 02:28:21.000000000,2016-12-15 20:13:23.000000000,closed,1,Kube client
+235,2016-12-13 01:05:06.000000000,2017-02-02 19:44:52.000000000,closed,4,Configure Zappr
+234,2016-12-12 23:37:05.000000000,2016-12-13 00:57:01.000000000,closed,1,log level in cli options
+233,2016-12-09 20:25:42.000000000,2016-12-09 23:08:17.000000000,closed,0,"change dockerfile: support eskip and skipper, change to alpine base image"
+232,2016-12-08 23:33:36.000000000,2016-12-09 00:35:46.000000000,closed,1,Kube client - kubernetes flag in the skipper command
+231,2016-12-08 19:50:00.000000000,2016-12-08 20:12:13.000000000,closed,1,Non-existence predicate for query parameters
+230,2016-12-08 17:07:46.000000000,2017-06-09 15:24:19.000000000,closed,3,cookie filter(s)
+229,2016-12-07 19:59:33.000000000,2016-12-08 22:32:13.000000000,closed,2,Kube client
+228,2016-12-05 16:36:19.000000000,2016-12-05 19:39:38.000000000,closed,1,Go formatting
+227,2016-11-29 22:08:27.000000000,2017-05-08 20:07:03.000000000,closed,3,kube-skipper: data client for Kubernetes Ingress resources
+226,2016-11-22 21:27:02.000000000,2016-11-28 16:44:46.000000000,closed,0,fix the documentation of the diag filters: 
+225,2016-11-22 18:17:15.000000000,1970-01-01 00:00:00.000000001,open,0,Log a warning when  routes are racing
+224,2016-11-22 17:58:11.000000000,2016-11-22 20:00:11.000000000,closed,2,fix query param predicate documentation
+223,2016-11-22 17:47:55.000000000,2016-11-24 02:02:06.000000000,closed,1,Eskip json
+222,2016-11-22 15:41:49.000000000,1970-01-01 00:00:00.000000001,open,6,Status endpoint with list of filters and predicates
+221,2016-11-11 18:34:44.000000000,2016-11-21 19:52:33.000000000,closed,3,Decimal printing
+220,2016-11-11 17:52:04.000000000,2016-11-11 17:52:57.000000000,closed,1,force decimal notation in printin numbers
+219,2016-11-08 22:03:16.000000000,2016-11-09 15:21:54.000000000,closed,3,Added a check for repeating route ids to `eskip check`
+218,2016-11-07 01:43:59.000000000,2016-11-07 01:49:59.000000000,closed,0,bump travis go version
+217,2016-11-07 01:35:41.000000000,2016-11-08 21:50:47.000000000,closed,0,create metrics for total serve time per host and route
+216,2016-10-25 11:24:01.000000000,2016-10-26 11:54:23.000000000,closed,3,Added support for basic auth
+215,2016-10-24 11:11:54.000000000,2016-12-05 03:06:56.000000000,closed,18,Added support for transformation with path params
+214,2016-10-20 01:34:55.000000000,2016-10-25 14:49:13.000000000,closed,1,export redirect logic as a standalone function
+213,2016-10-20 00:39:49.000000000,2016-11-07 03:55:22.000000000,closed,6,rename tee to follow conventions
+212,2016-10-11 20:04:38.000000000,2016-10-18 01:51:06.000000000,closed,1,update tee filter docs
+211,2016-10-10 18:00:58.000000000,2016-10-10 19:00:24.000000000,closed,0,Replace ReplaceAll with ReplaceAllString
+210,2016-10-10 16:22:07.000000000,2016-10-10 16:42:12.000000000,closed,1,Set path filter
+209,2016-10-10 14:12:03.000000000,2016-10-10 20:08:21.000000000,closed,1,Pathsubtree
+208,2016-10-07 13:30:49.000000000,2017-01-05 21:42:57.000000000,closed,3,setPath filter
+207,2016-10-05 17:22:29.000000000,2016-10-05 18:52:32.000000000,closed,0,Fix error handling on failed tee requests
+206,2016-09-07 16:37:18.000000000,2016-09-10 19:01:54.000000000,closed,2,Tee filter
+205,2016-09-02 17:18:51.000000000,1970-01-01 00:00:00.000000001,open,0,"debug proxy, wrong uri"
+204,2016-09-01 16:26:07.000000000,2016-09-02 17:17:39.000000000,closed,1,#203 Share TLSClientConfig with upgrade protocol proxy
+203,2016-09-01 15:30:49.000000000,2016-09-02 17:17:39.000000000,closed,0,Share tls.Config between proxy and upgradeProxy
+202,2016-08-30 17:25:55.000000000,1970-01-01 00:00:00.000000001,open,2,Allow to cleanup resources for filters
+201,2016-08-24 12:10:51.000000000,2016-09-06 10:40:19.000000000,closed,3,Add replicateTo filter. Which can be used for shadow backends
+200,2016-08-24 02:37:00.000000000,2016-08-30 17:33:40.000000000,closed,1,Priority trees
+199,2016-08-24 02:35:11.000000000,2017-02-08 06:42:32.000000000,closed,2,Improve route prioritization
+198,2016-08-24 00:33:35.000000000,2017-02-08 06:40:34.000000000,closed,2,check if '/' and '' paths are handled/tested properly when ignoreTrailingSlash is on
+197,2016-08-19 17:57:20.000000000,2016-08-19 18:14:06.000000000,closed,2,Add Weights to predicates
+196,2016-08-11 15:15:38.000000000,2016-08-12 14:50:17.000000000,closed,4,Query
+195,2016-08-10 15:14:28.000000000,2016-08-11 11:19:21.000000000,closed,0,Glob standard in docs
+194,2016-08-10 14:19:46.000000000,1970-01-01 00:00:00.000000001,open,3,support negative numbers in eskip
+193,2016-08-09 20:56:07.000000000,2016-08-12 15:24:17.000000000,closed,0,apply cookie predicate
+192,2016-08-07 20:12:43.000000000,2016-08-30 17:32:56.000000000,closed,1,Close current body
+191,2016-08-07 20:11:41.000000000,2016-08-30 17:32:56.000000000,closed,0,close the actual body in the proxy
+190,2016-08-07 19:14:34.000000000,2016-08-12 15:53:36.000000000,closed,0,add warning to the docker readme
+189,2016-08-07 17:11:20.000000000,2016-08-15 19:14:00.000000000,closed,0,Fixing tests by improving resource handling
+188,2016-08-05 13:19:29.000000000,2019-04-08 01:01:47.000000000,closed,4,consider killing pooled connections when a route backend has changed
+187,2016-07-31 23:41:48.000000000,2016-08-07 01:04:02.000000000,closed,0,fix go formatting
+186,2016-07-31 23:40:40.000000000,2016-08-07 00:57:46.000000000,closed,0,remove notifications from travis file
+185,2016-07-29 20:33:31.000000000,2016-08-09 20:28:43.000000000,closed,0,create cookie predicate
+184,2016-07-29 20:27:34.000000000,2016-08-12 15:24:17.000000000,closed,0,create a Cookie() predicate
+183,2016-07-29 16:34:05.000000000,2016-07-29 16:41:38.000000000,closed,2,doc: Update Contributing.md
+182,2016-07-26 17:57:46.000000000,1970-01-01 00:00:00.000000001,open,8,RFC: Extend *.eskip format with basic abstraction facilities
+181,2016-07-22 19:17:38.000000000,2016-08-15 03:32:58.000000000,closed,0,Diag refactor
+180,2016-07-22 02:59:33.000000000,2016-08-09 23:54:59.000000000,closed,2,Added pretty print functionality
+179,2016-07-21 19:18:18.000000000,2017-02-07 20:08:04.000000000,closed,7,Add CertPool interface for dynamically updating cert pool.
+178,2016-07-12 16:51:37.000000000,2018-02-07 15:39:47.000000000,closed,2,Evaluate go-lua VM for dynamically loadable predicates/filters
+177,2016-07-08 17:20:23.000000000,2016-07-08 17:22:22.000000000,closed,1,Disable the keep alive for innkeeper connections
+176,2016-07-07 19:14:07.000000000,2016-07-08 13:30:47.000000000,closed,1,Flush in compress()
+175,2016-07-07 15:33:02.000000000,2017-02-08 06:46:27.000000000,closed,3,log spam: don't log when client connections are broken
+174,2016-07-06 15:54:38.000000000,2016-07-14 15:26:50.000000000,closed,3,Diagnostics tools - Network throttling
+173,2016-07-04 21:41:08.000000000,2016-07-05 13:47:36.000000000,closed,2,Innkeeper
+172,2016-06-24 00:09:00.000000000,2016-06-24 01:26:32.000000000,closed,1,accept innkeeper update action
+171,2016-06-22 04:10:27.000000000,2016-06-22 18:07:22.000000000,closed,1,Innkeeper
+170,2016-06-21 20:27:03.000000000,2016-06-21 20:32:22.000000000,closed,0,Fixed error handling in applyPredicates
+169,2016-06-21 18:53:56.000000000,2016-06-21 20:32:22.000000000,closed,0,Method predicate with multiple http methods is not behaving as expected
+168,2016-06-19 20:48:17.000000000,2016-06-20 00:59:23.000000000,closed,1,fix command line flags in benchmark scripts
+167,2016-06-17 19:51:40.000000000,2016-06-20 15:42:52.000000000,closed,2,Feature handle upgrade requests
+166,2016-06-16 20:07:21.000000000,2016-06-16 20:26:24.000000000,closed,1,Dockerize
+165,2016-06-13 17:32:11.000000000,2016-06-13 17:48:16.000000000,closed,2,Add filter to allow/deny certain IPs
+164,2016-06-06 14:19:51.000000000,2016-06-07 16:51:52.000000000,closed,0,Connection pooling
+163,2016-06-04 23:10:54.000000000,2016-06-06 14:11:17.000000000,closed,1,Local Benchmarking
+162,2016-06-03 16:24:43.000000000,2016-06-04 19:23:34.000000000,closed,2,Create CONTRIBUTING.md
+161,2016-06-01 20:10:54.000000000,2016-06-02 20:58:22.000000000,closed,1,Compression
+160,2016-05-30 20:02:01.000000000,2016-05-30 21:07:07.000000000,closed,0,Compression
+159,2016-05-30 15:31:08.000000000,2016-06-20 16:44:50.000000000,closed,2,Support to upgrade protocol http code 101
+158,2016-05-29 16:50:19.000000000,2016-05-30 15:38:30.000000000,closed,2,Extract delayed
+157,2016-05-26 14:57:58.000000000,2016-08-12 15:53:36.000000000,closed,15,Skipper available as docker image
+156,2016-05-25 14:34:13.000000000,2016-05-25 19:54:05.000000000,closed,0,Simplify static filter
+155,2016-05-24 18:39:13.000000000,2016-08-07 19:15:44.000000000,closed,2,Add a CONTRIBUTING.md
+154,2016-05-23 15:11:50.000000000,2016-05-23 17:05:33.000000000,closed,3,Apply Gocover.io so I can add this to Awesome Go
+153,2016-05-20 13:35:54.000000000,2016-08-10 11:41:19.000000000,closed,2,Declarative validations for filters and predicates
+152,2016-05-19 23:37:39.000000000,2016-05-20 00:31:58.000000000,closed,3,fix race condition in listener tests
+151,2016-05-19 20:11:48.000000000,1970-01-01 00:00:00.000000001,open,1,"the debug proxy seems to handle the outgoing host wrong, sending the incoming host, as if the preserve host switch was always on"
+150,2016-05-18 13:24:29.000000000,2016-05-18 18:58:37.000000000,closed,1,Implemented TLS support
+149,2016-05-17 19:08:18.000000000,2019-12-09 19:19:47.000000000,closed,8,Improve linting
+148,2016-05-13 18:50:47.000000000,2016-06-11 14:39:52.000000000,closed,7,Skipper should support SSL/TLS
+147,2016-05-02 16:15:33.000000000,2016-05-02 17:46:26.000000000,closed,1,Added write flag to log file
+146,2016-04-22 16:20:08.000000000,2016-04-29 13:47:18.000000000,closed,4,Predicates that allow temporary routes. Between predicate makes the r…
+145,2016-04-22 16:12:22.000000000,2016-04-22 16:12:30.000000000,closed,0,test
+144,2016-04-22 15:29:07.000000000,2016-04-22 15:30:38.000000000,closed,0,disable time sensitive test
+143,2016-04-21 19:28:04.000000000,2016-04-23 20:02:39.000000000,closed,0,fix developer installation in readme
+142,2016-04-21 18:36:33.000000000,2016-04-21 18:49:16.000000000,closed,1,less return arguments in matchPathTree
+141,2016-04-21 18:35:01.000000000,2016-04-21 18:56:25.000000000,closed,0,update pathmux godep entry
+140,2016-04-21 17:34:28.000000000,2016-04-21 17:37:40.000000000,closed,1,Update go version
+139,2016-04-21 13:49:16.000000000,2016-04-21 13:55:09.000000000,closed,1,provide an option to set custom data clients
+138,2016-04-13 14:58:38.000000000,2016-04-13 15:02:20.000000000,closed,0,Debug doc fieldnames
+137,2016-04-11 19:32:59.000000000,2016-04-11 20:27:16.000000000,closed,1,update readme to show the full size mascot
+136,2016-04-11 19:01:52.000000000,2016-04-11 20:26:58.000000000,closed,1,Debug endpoint
+135,2016-04-06 14:27:07.000000000,2016-04-07 14:08:24.000000000,closed,4,add served set for new shunting
+134,2016-04-05 11:48:10.000000000,2018-05-02 11:57:08.000000000,closed,3,Using regex delimiter fails in character list in eskip
+133,2016-04-02 15:54:18.000000000,2016-04-21 18:30:58.000000000,closed,3,Fix matcher
+132,2016-03-31 15:20:59.000000000,2019-04-04 19:12:36.000000000,closed,3,version output for the skipper and eskip commands
+131,2016-03-30 17:06:05.000000000,2016-04-23 20:49:08.000000000,closed,0,Small fix to filtertest mocks
+130,2016-03-21 04:07:15.000000000,2016-04-19 18:17:34.000000000,closed,2,test for #116
+129,2016-03-14 02:04:44.000000000,2016-03-14 14:43:15.000000000,closed,0,#124: add enpoints rotation tests
+128,2016-03-13 20:33:36.000000000,2016-03-14 16:32:06.000000000,closed,3,Path params
+127,2016-03-11 21:21:37.000000000,2016-06-07 14:24:29.000000000,closed,1,Eskip patch filters
+126,2016-03-11 15:26:15.000000000,2016-03-11 16:08:00.000000000,closed,0,Adding badges
+125,2016-03-10 18:42:35.000000000,2016-03-10 18:44:16.000000000,closed,0,Added requested host to the access log
+124,2016-03-10 16:11:47.000000000,2016-03-14 14:43:32.000000000,closed,0,provide tests for the etcd endpoint rotation
+123,2016-03-10 15:53:34.000000000,2016-03-14 16:06:45.000000000,closed,24,client try endpoints optimization
+122,2016-03-10 14:58:15.000000000,2016-03-10 15:09:15.000000000,closed,1,simple endpointErrors to string convertation
+121,2016-03-07 04:24:23.000000000,2016-03-08 22:29:54.000000000,closed,3,Upgrade static
+120,2016-03-07 03:34:36.000000000,2016-03-08 22:30:07.000000000,closed,2,Status filter
+119,2016-03-07 02:26:41.000000000,2016-03-09 03:50:36.000000000,closed,2,Header filters
+118,2016-03-04 00:47:08.000000000,2016-03-07 00:30:46.000000000,closed,1,Etcd authorization header
+117,2016-03-03 21:47:15.000000000,2016-03-03 22:20:10.000000000,closed,2,add test proxy
+116,2016-03-03 20:41:56.000000000,2016-04-21 18:30:58.000000000,closed,12,Surprising route behaviour with more specific sub-path routes
+115,2016-03-03 19:49:24.000000000,2016-03-03 20:04:55.000000000,closed,1,re-enable real numbers for innkeeper
+114,2016-03-02 22:47:27.000000000,2016-03-03 17:22:08.000000000,closed,1,extend innkeeper marshaling with custom predicates
+113,2016-02-19 01:33:56.000000000,2016-02-23 17:35:11.000000000,closed,0,Documentation updates
+112,2016-02-18 20:15:31.000000000,2016-02-24 20:05:58.000000000,closed,0,Update readme.md
+111,2016-02-18 20:05:10.000000000,2016-02-18 22:00:23.000000000,closed,0,Update LICENSE
+110,2016-02-10 21:49:38.000000000,1970-01-01 00:00:00.000000001,open,5,explicit types for different request/response objects during filtering and maybe predicates
+109,2016-02-10 20:08:22.000000000,2016-02-10 21:00:38.000000000,closed,2,Update the Innkeeper client to support other errors and status codes
+108,2016-02-10 19:01:19.000000000,2016-02-10 20:28:09.000000000,closed,1,Source predicate
+107,2016-02-09 20:54:36.000000000,2016-02-22 23:05:05.000000000,closed,1,Upgrade redirect header to new proxy
+106,2016-02-08 02:43:24.000000000,2016-02-08 15:19:46.000000000,closed,3,Add some useful metrics
+105,2016-02-05 02:25:23.000000000,2016-03-09 00:54:40.000000000,closed,1,Improve metrics
+104,2016-02-01 22:01:14.000000000,2016-02-02 01:57:12.000000000,closed,1,Update readme.md
+103,2016-02-01 17:19:06.000000000,2016-02-02 18:56:15.000000000,closed,2,Use the standard header for innkeeper authorization
+102,2016-01-30 19:44:23.000000000,2016-02-02 18:56:29.000000000,closed,4,add insecure flag for eskip connections
+101,2016-01-30 19:16:53.000000000,2016-02-01 15:36:03.000000000,closed,0,fix etcd timeout when etcd host in proxy mode
+100,2016-01-28 22:19:19.000000000,2016-02-02 01:53:25.000000000,closed,0,Update README URLs based on HTTP redirects
+99,2016-01-28 20:58:13.000000000,2016-03-10 18:44:16.000000000,closed,0,include the requested host in the access log
+98,2016-01-28 17:44:58.000000000,1970-01-01 00:00:00.000000001,open,3,add confirmation and force mode for more dangerous eskip operations
+97,2016-01-28 17:40:59.000000000,2017-02-07 22:19:21.000000000,closed,6,eskip pretty printing option
+96,2016-01-26 15:57:50.000000000,2016-08-10 01:25:45.000000000,closed,1,consider <shunt> symbol to be implicit
+95,2016-01-18 04:22:12.000000000,2016-01-21 19:28:18.000000000,closed,4,"Host header: revert default, support preserveHost"
+94,2016-01-17 17:32:21.000000000,2016-01-21 15:31:00.000000000,closed,1,Etcd client
+93,2016-01-15 19:59:13.000000000,2016-01-15 21:25:20.000000000,closed,0,fine tune deprected filter shunting
+92,2016-01-15 17:52:46.000000000,2016-01-15 18:51:30.000000000,closed,0,Deprecated Served() and now branding errors
+91,2016-01-15 15:00:52.000000000,2016-01-15 17:18:25.000000000,closed,2,Added possibility to break the filter chain
+90,2016-01-14 20:27:33.000000000,2016-01-21 19:23:53.000000000,closed,2,Custom predicates
+89,2016-01-14 15:26:53.000000000,1970-01-01 00:00:00.000000001,open,1,Eskip refactor: convert post-yacc processing of predicates into yacc rules.
+88,2016-01-13 19:05:38.000000000,2016-01-14 15:08:27.000000000,closed,0,Eskip lexer refactor
+87,2016-01-12 15:48:10.000000000,2016-09-28 14:14:52.000000000,closed,2,Support gzip compression when required
+86,2016-01-04 18:13:24.000000000,2016-08-10 15:59:19.000000000,closed,2,Refactor The Command Map
+85,2015-12-29 20:19:09.000000000,2018-06-09 17:28:35.000000000,closed,2,Handle all non success status codes from Innkeeper
+84,2015-12-14 18:27:46.000000000,2016-08-10 15:58:33.000000000,closed,1,r.PathRegexps should have only one path
+83,2015-12-14 18:24:36.000000000,2017-05-11 22:22:32.000000000,closed,3,Refactor RouteInfo
+82,2015-12-14 18:20:42.000000000,2016-08-10 15:46:59.000000000,closed,2,Investigate if function need pre and post route filters
+81,2015-12-14 15:54:59.000000000,2016-08-10 11:45:04.000000000,closed,3,Delete for Innkeeper
+80,2015-12-14 15:42:57.000000000,2018-06-09 17:28:28.000000000,closed,4,Make Innkeeper WriteClient secure
+79,2015-12-11 15:54:53.000000000,2015-12-11 17:26:26.000000000,closed,1,add x-forwarded-for override for access log remote addr value
+78,2015-12-08 16:44:15.000000000,2015-12-08 16:46:16.000000000,closed,1,Always set the Host header from the original request by default
+77,2015-12-08 15:57:28.000000000,2015-12-11 17:36:55.000000000,closed,2,fix header setting in the header filter
+76,2015-12-07 21:52:14.000000000,2016-01-04 18:27:54.000000000,closed,2,Add innkeeper cli
+75,2015-12-07 01:20:18.000000000,2015-12-07 04:25:54.000000000,closed,1,Route settings log
+74,2015-12-04 22:07:19.000000000,2015-12-04 22:09:36.000000000,closed,1,update godep file with zal repo
+73,2015-12-04 21:33:40.000000000,2015-12-04 21:59:20.000000000,closed,1,Added Godeps
+72,2015-12-04 18:37:35.000000000,2015-12-04 18:48:21.000000000,closed,2,fix lexer to trim comments in last position
+71,2015-12-04 18:34:14.000000000,2015-12-07 19:29:31.000000000,closed,0,eskip parsing fails when a comment is the last token
+70,2015-12-03 01:34:30.000000000,2015-12-03 17:15:20.000000000,closed,2,Fixed the bug in the metrics and switched to the UniformSample
+69,2015-12-01 20:36:20.000000000,2019-04-04 19:13:55.000000000,closed,2,Add metrics to count errors
+68,2015-12-01 20:20:02.000000000,2015-12-04 15:04:19.000000000,closed,1,Innkeeper integration
+67,2015-12-01 19:45:44.000000000,2015-12-01 23:04:32.000000000,closed,1,Refactored metrics to improve performance
+66,2015-12-01 19:28:21.000000000,2015-12-01 20:44:25.000000000,closed,2,introduce atomic for the matcher (routing table) pointer
+65,2015-11-30 15:33:19.000000000,2016-03-14 16:43:35.000000000,closed,2,"smarter header request and response header, with similar replace capabilities as modPath"
+64,2015-11-29 22:10:10.000000000,2016-08-10 15:31:29.000000000,closed,3,fine tune the proxy response streaming buffer size with benchmarks
+63,2015-11-27 21:31:08.000000000,2016-02-02 19:01:35.000000000,closed,1,eskip tool nil pointers when etcd not specified for delete command
+62,2015-11-20 22:00:16.000000000,2015-12-07 19:30:35.000000000,closed,6,introduce versioning
+61,2015-11-20 21:41:28.000000000,1970-01-01 00:00:00.000000001,open,15,provide standard proxy headers
+60,2015-11-20 15:36:08.000000000,2015-11-20 22:44:44.000000000,closed,0,Logging and monitoring
+59,2015-11-19 17:51:36.000000000,2015-11-19 20:10:32.000000000,closed,1,Added backend url to the filter context
+58,2015-11-19 01:08:55.000000000,2016-08-10 15:29:07.000000000,closed,2,handle oauth failures properly
+57,2015-11-18 22:33:44.000000000,2015-11-19 20:10:32.000000000,closed,0,Expose the backend url from the route in the FilterContext
+56,2015-11-18 19:15:57.000000000,2016-08-10 01:21:51.000000000,closed,2,chaining filters
+55,2015-11-18 01:26:07.000000000,2015-11-18 18:34:15.000000000,closed,1,"Logging: cli flags, tests and documentation. Metrics: documentation."
+54,2015-11-17 15:55:20.000000000,2015-11-18 01:22:41.000000000,closed,0,Logging options flags
+53,2015-11-15 21:10:38.000000000,2015-11-18 02:21:02.000000000,closed,1,documentation fixes
+52,2015-11-13 20:24:21.000000000,2015-11-13 21:17:55.000000000,closed,1,Access log
+51,2015-11-12 15:20:10.000000000,2016-02-02 02:04:21.000000000,closed,0,Update readme.md
+50,2015-11-11 23:02:17.000000000,2015-11-12 00:40:55.000000000,closed,1,Update readme.md
+49,2015-11-11 21:35:07.000000000,2016-08-15 19:14:00.000000000,closed,2,fix the time sensitivity of the tests
+48,2015-11-11 02:38:24.000000000,2015-11-11 21:08:44.000000000,closed,1,Application and Access log - initial version
+47,2015-11-10 21:55:35.000000000,2015-11-11 16:17:11.000000000,closed,0,Add travis integration
+46,2015-11-10 17:08:31.000000000,2015-11-10 17:26:11.000000000,closed,0,Monitoring support
+45,2015-11-10 01:11:57.000000000,2016-03-14 16:45:21.000000000,closed,1,header filter behavior and naming
+44,2015-11-10 00:34:34.000000000,2015-11-10 00:51:33.000000000,closed,1,remove default etcd dataclient
+43,2015-11-09 19:49:37.000000000,2015-11-10 17:07:48.000000000,closed,4,add monitoring info to the constructed filter instances
+42,2015-11-09 19:47:04.000000000,2015-11-09 19:48:28.000000000,closed,1,add monitoring info to the constructed filter instances
+41,2015-11-09 19:20:07.000000000,2015-11-10 00:08:28.000000000,closed,0,Fix quickstart doc
+40,2015-11-09 19:12:50.000000000,2016-08-10 01:19:55.000000000,closed,1,make the filter instances identifiable for monitoring purpose
+39,2015-11-09 00:00:46.000000000,2015-11-09 00:44:01.000000000,closed,1,fix quickstart instruction in the readme
+38,2015-11-06 04:03:48.000000000,2015-11-06 15:58:00.000000000,closed,1,preserving original request and response
+37,2015-10-30 20:26:40.000000000,2015-12-07 19:32:58.000000000,closed,1,remove default data client
+36,2015-10-30 18:28:12.000000000,2015-10-30 18:28:16.000000000,closed,0,review fixes
+35,2015-10-30 13:56:05.000000000,2015-10-30 16:51:10.000000000,closed,2,Eskip tool
+34,2015-10-27 21:58:16.000000000,2015-10-27 21:58:23.000000000,closed,0,Release cleanup review
+33,2015-10-27 21:39:08.000000000,1970-01-01 00:00:00.000000001,open,3,"Host condition naming: currently it is called Host, but it is a regexp. Make consistent with other predicates."
+32,2015-10-27 21:13:50.000000000,2018-10-11 00:32:50.000000000,closed,3,static filter: can make a log warning if the local path is not available
+31,2015-10-27 21:10:16.000000000,2016-08-10 01:15:51.000000000,closed,1,"static filter signature: file system path first, http path prefix optional"
+30,2015-10-27 21:00:55.000000000,2016-08-11 11:19:21.000000000,closed,3,glob standard for free wildcards?
+29,2015-10-27 17:56:23.000000000,2019-04-04 19:21:36.000000000,closed,11,Create a Github DataClient implementation
+28,2015-10-25 16:53:21.000000000,2015-10-27 21:56:01.000000000,closed,1,documentation
+27,2015-10-23 17:26:16.000000000,2015-10-23 17:27:16.000000000,closed,0,Update the readme to include Innkeeper
+26,2015-10-19 16:16:46.000000000,2015-10-19 17:05:50.000000000,closed,0,Release cleanup
+25,2015-10-18 21:25:35.000000000,2016-03-14 16:48:05.000000000,closed,1,"more cleanup for the tests: apply ""table-driven"" tests, where they are more expressive"
+24,2015-10-16 15:29:50.000000000,2015-10-19 12:58:02.000000000,closed,1,more flexible location settings for the redirect filter
+23,2015-10-15 23:21:13.000000000,2015-10-19 12:55:52.000000000,closed,5,Feature #18 add x flow
+22,2015-10-15 16:34:54.000000000,2015-10-19 12:56:10.000000000,closed,1,make header matching case sensitive
+21,2015-10-15 16:31:25.000000000,2015-10-28 00:47:10.000000000,closed,0,header matching is case sensitive
+20,2015-10-14 18:22:18.000000000,2015-10-14 18:22:56.000000000,closed,0,Release cleanup master merge
+19,2015-10-14 18:15:15.000000000,2015-10-16 15:48:13.000000000,closed,1,client polling fixes
+18,2015-10-13 19:11:34.000000000,2015-10-19 12:55:52.000000000,closed,0,Add a filter to generate a request id
+17,2015-10-12 16:25:41.000000000,2015-10-12 19:21:00.000000000,closed,1,Release cleanup
+16,2015-10-12 12:34:12.000000000,2015-10-12 16:17:50.000000000,closed,1,Added some basic branding (X-Powered-By and Server headers)
+15,2015-10-12 11:53:21.000000000,2015-10-12 16:17:50.000000000,closed,0,Add X-Powered-By and Server headers
+14,2015-10-07 16:36:13.000000000,1970-01-01 00:00:00.000000001,open,3,"prioritize multiple data clients (innkeeper, overridden by etcd, overridden by file source)"
+13,2015-10-07 13:40:33.000000000,2015-10-07 19:28:40.000000000,closed,0,Release cleanup data client
+12,2015-10-05 15:14:05.000000000,2015-10-07 16:37:09.000000000,closed,1,Strip query
+11,2015-10-05 12:41:21.000000000,2015-10-05 14:17:01.000000000,closed,3,Release cleanup
+10,2015-10-02 17:16:39.000000000,2015-10-03 15:19:39.000000000,closed,0,Priority route
+9,2015-10-02 12:55:58.000000000,2015-10-03 15:20:17.000000000,closed,0,Release cleanup
+8,2015-09-17 12:47:08.000000000,2015-10-12 16:38:51.000000000,closed,2,Add pre-route and post-route filters
+7,2015-09-11 17:58:37.000000000,2015-10-02 13:09:14.000000000,closed,0,Innkeeper data client
+6,2015-09-09 16:21:53.000000000,2015-09-15 18:29:45.000000000,closed,0,Added state bag to filter context
+5,2015-09-08 15:40:32.000000000,2015-09-08 17:11:32.000000000,closed,2,create redirect filter
+4,2015-09-07 12:57:13.000000000,2015-09-08 16:56:13.000000000,closed,4,Replace mailgun
+3,2015-08-21 18:47:13.000000000,2015-08-21 18:50:48.000000000,closed,0,remove temporary disabling of connection pooling
+2,2015-08-21 12:15:00.000000000,2015-08-21 12:44:36.000000000,closed,0,added ability to load routes from local file
+1,2015-08-06 17:47:56.000000000,2015-08-06 19:33:10.000000000,closed,0,Update readme.md

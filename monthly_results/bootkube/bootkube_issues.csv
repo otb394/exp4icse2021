@@ -1,0 +1,1101 @@
+id,created_at,closed_at,state,comments,title
+1100,2020-08-17 22:40:49.000000000,2020-08-18 00:57:30.000000000,closed,6,feat: allow for transformation of raw etcd value in recovery backend
+1099,2020-08-14 13:32:56.000000000,2020-08-18 00:53:31.000000000,closed,3,pkg/bootkube: fix no newline in output while waiting for the CRDs
+1098,2020-08-03 06:24:32.000000000,1970-01-01 00:00:00.000000001,open,1,Pod cannot obtain pod ip
+1097,2020-05-29 15:49:48.000000000,1970-01-01 00:00:00.000000001,open,3,pod-checkpointer: allow setting kubelet API address via HOST_IP env variable
+1096,2020-05-29 15:01:34.000000000,2020-05-29 15:48:19.000000000,closed,2,pod-checkpointer: use HOST_IP to query kubelet API
+1095,2020-05-22 18:15:44.000000000,1970-01-01 00:00:00.000000001,open,3,Bootkube - Bare-metal documentation link is broken
+1094,2020-05-19 20:02:20.000000000,1970-01-01 00:00:00.000000001,open,3,Check if tests runs properly in CI
+1093,2020-05-19 19:58:53.000000000,2020-05-27 16:32:42.000000000,closed,5,build/build-release.sh improvements and fix failing tests
+1092,2020-05-19 17:43:02.000000000,2020-05-27 16:32:42.000000000,closed,3,Don't use rkt for building images
+1091,2020-05-19 17:19:41.000000000,1970-01-01 00:00:00.000000001,open,6,"Can no longer execute ""make vendor"""
+1090,2020-04-29 00:35:26.000000000,2020-05-01 22:38:30.000000000,closed,5,refactor: use updated etcd package
+1089,2020-04-21 18:49:25.000000000,1970-01-01 00:00:00.000000001,open,2,Move Default Templates Render to 1.18.X
+1088,2020-04-17 13:18:38.000000000,2020-04-21 18:48:57.000000000,closed,2,feat: add support for watching node status
+1087,2020-04-17 12:59:22.000000000,2020-04-17 21:41:08.000000000,closed,3,fix: stop pod watcher
+1086,2020-04-17 12:44:45.000000000,2020-04-17 21:39:08.000000000,closed,2,fix: skip empty manifests
+1085,2020-04-17 12:34:30.000000000,2020-04-17 20:39:08.000000000,closed,2,feat: use client-go v0.18.2
+1084,2020-04-16 01:03:38.000000000,1970-01-01 00:00:00.000000001,open,2,Create Release
+1083,2020-04-15 19:37:29.000000000,1970-01-01 00:00:00.000000001,open,6,Add support for installing helm charts using helm 3 as a library during “bootkube start”
+1082,2020-04-10 09:11:51.000000000,2020-04-14 16:53:13.000000000,closed,2,fix: create template methods on value receiver
+1081,2020-04-10 08:57:31.000000000,2020-04-16 23:31:09.000000000,closed,7,feat: add plugin interface
+1080,2020-02-18 19:15:26.000000000,2020-03-15 18:40:36.000000000,closed,8,Add support for multiple Pod and Service subnets
+1079,2020-02-18 08:35:47.000000000,2020-03-15 19:01:23.000000000,closed,1,PodCIDR and ServiceCIDR should be multiples
+1078,2020-02-14 01:05:56.000000000,2020-02-14 07:10:18.000000000,closed,3,Remove dghubble from OWNERS list
+1077,2020-02-07 12:26:38.000000000,2020-07-06 13:24:39.000000000,closed,4,Move hack/* to flatcar linux
+1076,2020-01-24 18:55:25.000000000,2020-02-01 10:23:21.000000000,closed,6,feat: add cluster name to configs and create context name
+1075,2020-01-10 22:32:35.000000000,1970-01-01 00:00:00.000000001,open,4,Rervert coredns labels
+1074,2019-12-11 15:53:02.000000000,2020-07-13 02:57:20.000000000,closed,7,Update calico to 3.10.2
+1073,2019-12-11 00:26:12.000000000,2020-04-16 01:13:23.000000000,closed,6,update for kubernetes 1.17
+1072,2019-12-03 01:14:19.000000000,1970-01-01 00:00:00.000000001,open,11,Proposal : CNI Support
+1071,2019-12-02 14:23:59.000000000,2019-12-02 19:59:04.000000000,closed,2,CoreDNS Updates
+1070,2019-12-01 15:38:27.000000000,2019-12-02 02:27:04.000000000,closed,5,adds rbac for checkpointer secure client
+1069,2019-12-01 14:45:40.000000000,2019-12-02 02:13:04.000000000,closed,3,Enables Kubelet Auth
+1068,2019-11-27 22:36:44.000000000,2019-11-28 15:29:08.000000000,closed,2,fix: remove node selector from static manifests
+1067,2019-11-27 19:01:53.000000000,2019-11-27 21:17:21.000000000,closed,2,fix: add aggregation layer flags to API server DaemonSet
+1066,2019-11-22 00:01:51.000000000,2020-04-16 23:28:17.000000000,closed,13,enable patching for rendered manifests
+1065,2019-11-17 15:30:52.000000000,2019-11-17 19:27:41.000000000,closed,4,Fix broken link of api versioning documentation
+1064,2019-11-16 20:36:32.000000000,2019-11-27 18:41:21.000000000,closed,8,feat: enable aggregation layer
+1063,2019-11-15 21:01:38.000000000,1970-01-01 00:00:00.000000001,open,12,Add support for installing helm charts using helm 3 as a library during “bootkube start”
+1062,2019-11-13 13:05:58.000000000,2019-11-14 18:45:36.000000000,closed,2,fixes help text to show experimental-calico
+1061,2019-11-12 01:24:08.000000000,2019-11-12 18:12:07.000000000,closed,2,update coredns and config for 1.6.2
+1060,2019-11-11 23:08:50.000000000,2019-11-11 23:38:06.000000000,closed,2,updates flannel
+1059,2019-11-11 22:57:58.000000000,2019-11-12 18:12:07.000000000,closed,0,update coredns
+1058,2019-11-11 22:57:49.000000000,1970-01-01 00:00:00.000000001,open,10,Update calico
+1057,2019-11-11 22:57:37.000000000,2019-11-11 23:38:06.000000000,closed,0,Update flannel
+1056,2019-11-11 14:07:33.000000000,2019-11-11 22:50:06.000000000,closed,3,Update kubernetes to 1.16
+1055,2019-11-08 03:50:35.000000000,2019-11-09 03:01:51.000000000,closed,6,Update SECURITY_CONTACTS.
+1054,2019-11-04 23:28:19.000000000,2020-05-01 00:24:34.000000000,closed,11,Update Checklist for 1.17
+1053,2019-10-25 18:30:10.000000000,2019-12-01 16:02:02.000000000,closed,5,Enable api server aggrigation
+1052,2019-10-24 01:48:26.000000000,2019-10-28 21:08:28.000000000,closed,3,Create OWNERS_ALIASES
+1051,2019-10-24 01:46:08.000000000,2019-10-28 21:04:07.000000000,closed,3,OWNERS: Add rmenn & andrewrynhard
+1050,2019-10-24 01:14:07.000000000,2019-11-09 17:27:40.000000000,closed,20,Improve upgrading docs
+1049,2019-10-15 17:35:58.000000000,1970-01-01 00:00:00.000000001,open,12,"build,image: support building multi-arch container images"
+1048,2019-10-09 20:50:59.000000000,2019-11-11 23:14:05.000000000,closed,4,updates cri v1alpha2
+1047,2019-10-08 21:35:07.000000000,2019-11-11 23:14:05.000000000,closed,0,update CRI in checkpointer
+1046,2019-10-07 20:10:09.000000000,1970-01-01 00:00:00.000000001,open,6,Remove vendor directory
+1045,2019-10-07 19:56:17.000000000,2019-11-10 21:13:40.000000000,closed,5,chore: move to go modules
+1044,2019-09-30 21:42:47.000000000,2019-11-11 22:50:06.000000000,closed,0,Update for 1.16
+1043,2019-09-30 21:42:25.000000000,2019-11-10 21:13:40.000000000,closed,0,Move to go mod
+1042,2019-08-28 04:11:28.000000000,2019-11-11 22:53:33.000000000,closed,11,Is there a plan to release bootkube with 1.13 or higher k8s?
+1041,2019-06-02 14:17:30.000000000,2019-10-25 23:11:34.000000000,closed,5,Do you see files in `/etc/kubernetes/manifests` at all? there should be bootstrap control plane files created by bootkube.
+1040,2019-03-12 19:15:49.000000000,2019-08-01 02:28:14.000000000,closed,12,Handle AppsV1 resources inside bootkube recover
+1039,2019-02-27 21:38:44.000000000,2019-08-05 06:52:30.000000000,closed,8,Controller-manager set to use cluster+host DNS results in non-functional cluster
+1038,2019-02-27 00:50:00.000000000,2019-02-28 11:02:36.000000000,closed,2,Bump to v1.13.3
+1037,2019-02-22 01:13:42.000000000,2019-02-22 23:16:36.000000000,closed,2,"Revert ""start: wait until pods ready"""
+1036,2019-01-07 02:19:29.000000000,2019-03-01 23:40:13.000000000,closed,9,Disable ssh host checking on vagrant nodes
+1035,2018-12-18 23:05:29.000000000,2019-06-27 05:37:44.000000000,closed,8,start: remove defaulted required pods
+1034,2018-12-18 05:04:33.000000000,2019-05-01 00:24:06.000000000,closed,15,Minor docs fix to re-run master tests
+1033,2018-12-06 06:07:54.000000000,2019-06-26 22:31:04.000000000,closed,14,Kubernetes v1.12.3
+1032,2018-12-03 14:30:42.000000000,2019-01-02 08:24:05.000000000,closed,9,set default value to constant
+1031,2018-11-26 22:46:22.000000000,2018-11-29 21:55:07.000000000,closed,10,Update pod-checkpointer image to try secureClient first
+1030,2018-11-20 14:28:18.000000000,2018-11-27 03:06:35.000000000,closed,16,start: wait until pods ready
+1029,2018-11-20 14:17:40.000000000,2018-11-27 20:44:27.000000000,closed,5,start: allow --required-pods ns/name=ready or =running syntax
+1028,2018-11-16 12:25:51.000000000,2018-11-16 19:31:17.000000000,closed,8,"Fix typos: commma  -> comma, requried -> required, etc"
+1027,2018-11-13 01:37:40.000000000,2018-11-26 20:47:05.000000000,closed,13,"pkg/checkpoint: Try kubelet secureClient, fallback to read-only"
+1026,2018-11-10 20:45:45.000000000,2018-11-13 04:44:53.000000000,closed,8,"Fix typos: genereted->generated, verison->version"
+1025,2018-11-05 06:35:51.000000000,2019-06-26 12:21:07.000000000,closed,22,Disable Kubelet read-only port 10255
+1024,2018-11-02 18:21:48.000000000,2018-11-05 12:28:57.000000000,closed,7,Fix typo: resouces -> resource
+1023,2018-11-02 10:59:44.000000000,2018-11-14 04:02:53.000000000,closed,28,update coredns
+1022,2018-11-02 10:35:01.000000000,2018-11-08 06:19:12.000000000,closed,13,Update README.md
+1021,2018-11-02 10:12:02.000000000,2018-11-05 12:15:40.000000000,closed,9,Delete repeated 'the'
+1020,2018-11-02 10:09:03.000000000,2018-11-02 10:09:37.000000000,closed,6,Delete repeated 'the'
+1019,2018-11-01 14:26:54.000000000,2018-11-02 00:11:38.000000000,closed,7,Typo in the returned message in runtime_service.go
+1018,2018-10-30 13:58:02.000000000,2018-10-30 18:19:28.000000000,closed,9,fix typo Kubenetes -> Kubernetes
+1017,2018-10-26 14:38:53.000000000,2018-10-30 19:57:17.000000000,closed,7,Update README.md
+1016,2018-10-23 15:55:01.000000000,2018-11-29 03:03:12.000000000,closed,9,Make e2e test commands copy-pastable
+1015,2018-10-23 15:44:05.000000000,2019-09-05 11:33:15.000000000,closed,18,Enable PodSecurityPolicy by default
+1014,2018-10-19 18:22:55.000000000,2019-06-25 14:59:21.000000000,closed,5,Safest way to determine if not temporary control plan is running
+1013,2018-10-19 14:46:28.000000000,2018-10-19 19:44:41.000000000,closed,3,start: fix CRD wait loop
+1012,2018-10-19 13:15:19.000000000,2018-10-19 15:14:52.000000000,closed,3,start: fix wait loop for cluster scoped CRDs
+1011,2018-10-18 18:55:27.000000000,2018-10-19 19:43:37.000000000,closed,20,start: add --require-pods flag
+1010,2018-10-16 21:14:44.000000000,2018-10-16 22:42:08.000000000,closed,3,images: bump checkpointer for affinity fix
+1009,2018-10-13 01:21:47.000000000,2018-10-16 19:37:08.000000000,closed,15,checkpointer: ignore Affinity within podspec
+1008,2018-10-13 01:10:52.000000000,2018-10-13 01:22:04.000000000,closed,1,checkpointer: ignore Affinity within podspec (w/ tests)
+1007,2018-10-13 01:07:41.000000000,2018-10-13 01:10:27.000000000,closed,1,checkpointer: ignore Affinity within podspec (w/ tests)
+1006,2018-10-13 00:28:45.000000000,2018-10-13 01:06:56.000000000,closed,2,WIP testing builders
+1005,2018-10-12 20:45:12.000000000,2018-10-13 00:06:37.000000000,closed,2,WIP: test builders
+1004,2018-10-11 23:35:30.000000000,2018-10-13 01:08:03.000000000,closed,9,checkpointer: ignore Affinity within podspec
+1003,2018-10-11 18:03:06.000000000,2018-10-24 04:26:05.000000000,closed,15,Update Kubernetes from v1.11.3 to v1.12.1
+1002,2018-10-11 17:04:02.000000000,2019-01-26 16:31:28.000000000,closed,13,WIP: Bump v1.12.1
+1001,2018-10-10 12:39:04.000000000,2018-10-17 08:12:31.000000000,closed,11,Kubernetes v1.12.x doesn't restore pod-checkpointer
+1000,2018-10-03 04:45:10.000000000,2018-10-13 05:48:48.000000000,closed,10,Update OWNERS
+999,2018-08-23 04:42:18.000000000,2019-06-25 10:55:21.000000000,closed,17,Cilium CNI
+998,2018-08-16 11:53:12.000000000,2018-08-16 20:29:22.000000000,closed,7,Bump v1.11.2
+997,2018-08-14 18:16:20.000000000,2018-08-14 19:09:32.000000000,closed,0,bootkube recover fails to recover from total control plane failure
+996,2018-07-28 21:16:48.000000000,2019-06-25 10:55:23.000000000,closed,15,AWS Quickstart: mention TAG_MASTER
+995,2018-07-19 21:55:38.000000000,2018-07-20 00:19:09.000000000,closed,5,add security file
+994,2018-07-17 20:01:13.000000000,2018-07-18 01:59:19.000000000,closed,3,Unable to install metrics-server
+993,2018-07-12 22:15:53.000000000,2019-06-23 22:20:14.000000000,closed,5,Provide a default Pod security policy
+992,2018-07-11 03:58:27.000000000,2018-07-23 21:44:29.000000000,closed,6,Replace kube-dns with CoreDNS
+991,2018-07-10 01:47:38.000000000,2018-07-23 21:44:29.000000000,closed,0,Switch to CoreDNS
+990,2018-07-10 00:49:54.000000000,2018-07-11 19:30:56.000000000,closed,6,Bump v1.11.0
+989,2018-06-15 16:26:57.000000000,2018-08-17 02:51:49.000000000,closed,5,Use hostNetwork: true for controller and scheduler pods
+988,2018-05-25 12:42:57.000000000,2019-08-25 07:55:46.000000000,closed,8,bootkube fails to wait on API Server (unable to determine API server readiness)
+987,2018-05-24 18:47:15.000000000,2018-07-20 00:19:09.000000000,closed,2,Create a SECURITY_CONTACTS file.
+986,2018-05-23 23:54:14.000000000,2019-06-22 23:58:13.000000000,closed,6,Pod Checkpointer Prevents Updates to API Server
+985,2018-05-23 06:07:29.000000000,2018-05-25 02:31:26.000000000,closed,1,V1.10.3
+984,2018-05-17 21:59:26.000000000,2019-06-24 09:31:14.000000000,closed,19,pkg/asset/k8s: Evenly weight chars in newBootstrapToken
+983,2018-05-17 21:57:58.000000000,2018-05-24 18:52:11.000000000,closed,9,pkg/poll: Add a Poll helper that respects Context
+982,2018-05-15 22:31:02.000000000,2018-05-15 23:26:30.000000000,closed,2,Update flannel vxlan port to 4789
+981,2018-05-15 21:06:02.000000000,2018-05-15 21:44:39.000000000,closed,0,hack/quickstart: Use env file to keep track of master label/taint
+980,2018-05-11 20:18:07.000000000,2019-06-22 18:53:18.000000000,closed,4,Docs on how to analyze conformance tests results
+979,2018-05-08 17:24:06.000000000,2019-06-26 00:09:04.000000000,closed,15,pkg/checkpoint: support projected secret/configmap volumes
+978,2018-05-07 20:41:04.000000000,2018-05-16 01:15:40.000000000,closed,4,generate apiserver aggregation certs
+977,2018-05-07 13:36:06.000000000,2019-08-01 02:28:14.000000000,closed,8,bootkube recover fails with TemplateGeneration on 1.10.x
+976,2018-05-05 01:13:20.000000000,2018-05-11 20:20:34.000000000,closed,2,hack/jenkins: add conformance tests
+975,2018-05-04 01:47:34.000000000,2018-05-04 02:59:52.000000000,closed,1,Allow for custom Default images
+974,2018-05-03 23:53:21.000000000,2018-05-15 00:42:47.000000000,closed,3,Bootkube recover does not wait long enough for recovery in certain scenarios
+973,2018-05-02 22:58:19.000000000,2018-05-03 02:19:40.000000000,closed,4,add network provider variable to jenkins
+972,2018-05-02 22:40:08.000000000,2018-05-02 23:32:32.000000000,closed,0,Gopkg.toml: update Kubernetes dependency to 1.10
+971,2018-05-02 20:28:36.000000000,2018-05-02 22:19:04.000000000,closed,3,pkg/checkpoint: remove k8s.io/kubernetes import
+970,2018-05-01 23:52:54.000000000,2018-05-02 00:37:13.000000000,closed,0,bump to 1.10.2
+969,2018-05-01 16:12:19.000000000,2019-06-22 16:51:17.000000000,closed,6,pod-checkpointer doesn't handle a pod using projected volumes correctly
+968,2018-04-30 22:18:29.000000000,2018-05-01 00:04:57.000000000,closed,0,hack/jenkins: use quay image for bootkube-e2e test
+967,2018-04-27 22:22:36.000000000,2018-04-27 22:38:29.000000000,closed,0,remove jenkins jobs that were migrated elsewhere
+966,2018-04-13 18:48:10.000000000,2018-04-25 17:51:26.000000000,closed,9,"Unable to determine api-server readiness: API Server http status: 0, API server Error Bootkube"
+965,2018-04-13 07:13:03.000000000,2018-04-18 20:00:18.000000000,closed,3,Update kube-dns from v1.14.8 to v1.14.9
+964,2018-04-13 02:05:12.000000000,2018-04-13 02:15:15.000000000,closed,0,bump to 1.10.1
+963,2018-04-12 03:35:04.000000000,2018-04-12 20:10:18.000000000,closed,7,Remove deprecated admission plugin flag
+962,2018-04-07 01:38:12.000000000,2018-04-07 03:54:24.000000000,closed,0,use k8s.gcr.io mirror
+961,2018-04-06 19:01:15.000000000,2018-04-06 20:03:03.000000000,closed,0,fix IMAGE_TAG in hyperkube release
+960,2018-04-06 05:22:03.000000000,2018-04-06 06:30:49.000000000,closed,6,TLS errors in apiserver when running with calico
+959,2018-04-05 23:34:51.000000000,2019-06-24 10:32:12.000000000,closed,11,Makefile: Use 'go env GOOS' instead of uname
+958,2018-04-04 01:49:44.000000000,2018-04-04 02:31:35.000000000,closed,4,README: Update the Slack link
+957,2018-04-04 01:34:16.000000000,2018-04-05 23:09:38.000000000,closed,6,Replace Jenkins `sh` with a `bash` step that sets `set -euo pipefail`
+956,2018-04-03 23:12:45.000000000,2018-04-04 00:14:10.000000000,closed,6,Makefile: Actually use 'go install ...' for the install target
+955,2018-04-03 21:15:59.000000000,2018-04-03 21:23:33.000000000,closed,5,Documentation/development: Bump minimum Go version to 1.10
+954,2018-04-03 19:06:30.000000000,2018-04-06 20:04:37.000000000,closed,8,bump to 1.10.0
+953,2018-04-02 23:52:57.000000000,2018-04-03 20:33:13.000000000,closed,3,add hyperkube release scripts
+952,2018-03-29 23:49:54.000000000,2018-03-30 00:00:24.000000000,closed,0,OWNERS: update owners
+951,2018-03-29 22:36:39.000000000,2018-04-03 20:04:26.000000000,closed,5,build/git-version: Only call 'git' once
+950,2018-03-29 08:58:01.000000000,2018-08-22 00:44:46.000000000,closed,13,Makefile: Remove clean prerequisites from build targets
+949,2018-03-29 08:38:49.000000000,2018-04-03 22:59:55.000000000,closed,10,Makefile: Respect GOBIN
+948,2018-03-29 03:50:08.000000000,2018-08-17 02:33:25.000000000,closed,6,Makefile: Drop hard-coded Bash and simplify gofmt
+947,2018-03-29 03:17:29.000000000,2018-04-03 19:26:01.000000000,closed,4,Makefile: Drop GO15VENDOREXPERIMENT
+946,2018-03-28 21:06:22.000000000,2018-08-17 02:30:34.000000000,closed,7,DCO: Remove unused file
+945,2018-03-28 20:43:43.000000000,2018-05-15 20:23:07.000000000,closed,4,OWNERS: Update the doc reference
+944,2018-03-28 20:36:37.000000000,2018-03-30 00:00:24.000000000,closed,1,Is OWNERS stale?
+943,2018-03-28 20:25:30.000000000,2018-03-29 03:14:42.000000000,closed,5,Documentation/root-requirements: API server no longer needs root
+942,2018-03-28 00:06:50.000000000,2018-03-28 03:33:46.000000000,closed,4,pkg/assets: calico 3.0 rbac typo
+941,2018-03-26 02:05:45.000000000,2019-06-22 10:45:19.000000000,closed,6,Update sonobuoy and run conformance
+940,2018-03-23 03:09:34.000000000,2018-03-23 03:42:27.000000000,closed,3,pkg/asset: update checkpointer to include CRI v1alpha2 support
+939,2018-03-22 22:43:14.000000000,2018-03-23 22:52:35.000000000,closed,5,add strict mode for start
+938,2018-03-22 22:40:00.000000000,2018-03-23 03:02:34.000000000,closed,4,pkg/checkpoint: support both CRI v1alpha1 and v1alpha2
+937,2018-03-22 20:26:29.000000000,2018-03-23 22:52:35.000000000,closed,3,Surface asset creation errors to e2e tests
+936,2018-03-22 17:16:27.000000000,2019-06-22 08:43:22.000000000,closed,4,UserOutput should be replaced with a proper logger
+935,2018-03-22 04:18:44.000000000,2018-03-22 17:09:57.000000000,closed,0,upgrade to kubernetes 1.9.6 (hyperkube)
+934,2018-03-22 03:56:27.000000000,2018-03-23 03:42:27.000000000,closed,3,Checkpointer fails to get pod status using v1.10-rc1
+933,2018-03-22 03:34:21.000000000,2018-03-22 17:10:12.000000000,closed,5,pkg/bootkube: fix create always printing an error
+932,2018-03-22 03:33:04.000000000,2018-03-22 17:10:12.000000000,closed,1,"reports ""failed to create assets"", but no output about which"
+931,2018-03-22 00:07:21.000000000,2018-03-23 02:20:53.000000000,closed,0,docs: clarify 'latest' usage
+930,2018-03-21 03:28:08.000000000,2018-03-21 23:12:45.000000000,closed,0,pkg/bootkube: create namespaces before other resources
+929,2018-03-21 01:00:37.000000000,2018-03-21 01:38:55.000000000,closed,0,jenkins: prevent resource leak when log agg fails
+928,2018-03-20 01:37:57.000000000,2018-03-20 03:39:51.000000000,closed,0,jenkins: bootkube-e2e: groovy interpolate repo name at job creation time
+927,2018-03-19 23:52:19.000000000,2018-03-21 03:24:11.000000000,closed,9,pkg/asset: Migrate from Calico v2.6.6 to to 3.0.3
+926,2018-03-19 22:14:13.000000000,2018-03-21 23:12:45.000000000,closed,1,pkg/bootkube: create Namespaces before other resources
+925,2018-03-14 23:10:41.000000000,2018-03-22 17:16:40.000000000,closed,1,create: fix newlines on missing UserOutputs
+924,2018-03-14 12:59:38.000000000,2018-03-15 20:50:18.000000000,closed,0,Jenkins: Collect e2e logs & archive in public S3 bucket
+923,2018-03-13 22:26:14.000000000,2018-03-13 23:11:50.000000000,closed,0,error: SilenceErrors and tweak error output
+922,2018-03-13 19:58:54.000000000,2018-03-13 20:03:50.000000000,closed,1,bump to k8s 1.9.4
+921,2018-03-13 04:39:16.000000000,2018-03-22 01:19:18.000000000,closed,5,calico: update to version to v3.0.0
+920,2018-03-12 23:51:33.000000000,2018-03-14 12:54:36.000000000,closed,0,wip: Jenkins: Collect logs at the end of e2e jobs
+919,2018-03-12 20:48:37.000000000,2018-03-13 04:31:37.000000000,closed,5,update Kubernetes dependency to 1.9.3
+918,2018-03-09 05:13:12.000000000,2018-03-14 12:52:59.000000000,closed,4,jenkins: allow user to override repo_url
+917,2018-03-09 03:17:40.000000000,2018-03-09 05:05:07.000000000,closed,0,jenkins: update development readme with trigger information
+916,2018-03-07 22:31:43.000000000,1970-01-01 00:00:00.000000001,open,13,allow --cloud-config to be specified
+915,2018-03-06 01:13:47.000000000,2018-03-09 02:51:37.000000000,closed,6,jenkins: add initial bootkube-e2e jobs
+914,2018-02-28 06:32:51.000000000,2018-10-13 00:30:42.000000000,closed,12,*: enable PodSecurityPolicies
+913,2018-02-27 23:59:12.000000000,2019-06-22 04:39:19.000000000,closed,4,Re-enable HA tests
+912,2018-02-23 02:21:58.000000000,2018-02-28 00:25:58.000000000,closed,11,e2e: fixes the calico e2e flake
+911,2018-02-23 01:29:19.000000000,2018-02-23 02:03:50.000000000,closed,0,do not merge: debug for api servers
+910,2018-02-22 23:12:42.000000000,2018-03-13 23:11:50.000000000,closed,2,Duplicate error messages printed
+909,2018-02-22 23:00:37.000000000,2018-02-22 23:11:16.000000000,closed,1,bootkube: remove duplicate error messages
+908,2018-02-22 21:35:22.000000000,2018-02-23 23:05:38.000000000,closed,7,recover: relax verification of etcd CAPath
+907,2018-02-22 05:53:33.000000000,2018-02-22 21:39:27.000000000,closed,0,Documentation: document new e2e command
+906,2018-02-22 05:34:24.000000000,2018-03-14 07:59:02.000000000,closed,5,checkpointer: change activeGracePeriod logic.
+905,2018-02-22 05:03:05.000000000,2018-02-22 22:53:08.000000000,closed,3,bootkube/pkg/recovery/recover fix hostNetwork
+904,2018-02-22 03:29:00.000000000,2018-02-22 19:35:48.000000000,closed,1,add travis golang 1.10.x builder
+903,2018-02-22 02:20:35.000000000,2018-02-23 23:05:38.000000000,closed,0,bootkube recovery requires an etcd client cert when used with an ca cert.
+902,2018-02-22 02:00:29.000000000,2018-02-22 22:53:08.000000000,closed,1,bootkube recovery doesn't set hostNetwork: true on recovered controller-manager and scheduler assets.
+901,2018-02-17 06:53:59.000000000,2018-02-17 06:58:25.000000000,closed,1,add golang 1.10
+900,2018-02-17 03:29:18.000000000,2018-02-21 00:18:58.000000000,closed,0,e2e: better delete api wait condition.
+899,2018-02-16 22:49:38.000000000,2018-03-06 01:18:39.000000000,closed,5,jenkins: add e2e script
+898,2018-02-16 22:10:38.000000000,2018-02-16 23:38:53.000000000,closed,0,pkg/bootkube: remove global variable
+897,2018-02-16 05:32:06.000000000,2018-02-16 06:34:24.000000000,closed,0,checkpointer: add 5m grace period flag.
+896,2018-02-16 01:36:54.000000000,2018-02-16 23:49:45.000000000,closed,4,detect terraform binary or print warning message
+895,2018-02-16 00:37:29.000000000,2018-02-16 23:53:59.000000000,closed,5,update Kubernetes dependencies to 1.9.3
+894,2018-02-15 23:37:04.000000000,2018-02-16 23:49:49.000000000,closed,4,Update hyperkube image from v1.9.2 to v1.9.3
+893,2018-02-15 23:32:25.000000000,2018-02-16 23:49:06.000000000,closed,0,pkg/asset: Switch apiVersion to rbac.authorization.k8s.io/v1
+892,2018-02-14 02:21:32.000000000,2018-02-14 03:11:15.000000000,closed,0,wait for the controlPlane to be restored
+891,2018-02-14 00:19:09.000000000,2018-02-14 19:05:09.000000000,closed,0,do not merge: skip tests to speed up flake testing
+890,2018-02-13 19:01:39.000000000,2018-02-14 03:11:51.000000000,closed,0,WIP: e2e: increase test reboot timeouts
+889,2018-02-13 05:12:28.000000000,2018-02-13 08:41:01.000000000,closed,3,render: increase checkpointer grace period to 10m
+888,2018-02-13 03:31:55.000000000,2018-02-13 20:45:48.000000000,closed,3,Remove PersistentVolumeLabel admission controller flag
+887,2018-02-13 03:19:40.000000000,2018-02-13 20:46:31.000000000,closed,1,Remove remaining etcd operator components
+886,2018-02-13 00:53:25.000000000,2018-02-13 04:07:46.000000000,closed,3,assets: use MkdirAll to not error on existing dir
+885,2018-02-13 00:16:29.000000000,2018-02-13 01:18:07.000000000,closed,0,Switch Deployments and DaemonSets to apps/v1
+884,2018-02-12 19:16:20.000000000,2018-02-13 04:07:46.000000000,closed,6,bootcube doesn't allow pre-existing/mounted assets folder
+883,2018-02-09 23:42:53.000000000,2018-02-12 23:49:44.000000000,closed,5,add terraform fmt validation
+882,2018-02-09 22:33:28.000000000,2019-06-21 22:33:20.000000000,closed,7,[WIP] heptio-authenticator-aws side car with apiserver
+881,2018-02-08 09:38:47.000000000,2019-06-22 02:37:22.000000000,closed,8,checkpointer doesn't start if master is a url
+880,2018-02-08 03:04:57.000000000,2018-02-09 04:24:23.000000000,closed,3,bump to golang 1.9.4
+879,2018-02-06 11:48:14.000000000,2019-06-22 17:52:19.000000000,closed,11,add --endpoint-reconciler-type=lease starting flag for kube-apiserver.yaml
+878,2018-02-06 03:29:02.000000000,2018-02-06 09:48:23.000000000,closed,0,Better log zip directory structure
+877,2018-02-06 03:00:33.000000000,2018-02-06 09:48:21.000000000,closed,2,logging: remove set command
+876,2018-02-06 01:59:17.000000000,2018-02-06 10:12:42.000000000,closed,2, *: switch to dep for dependency management
+875,2018-02-05 23:56:00.000000000,2018-02-06 00:02:06.000000000,closed,1,logs: make sure destination dir exists
+874,2018-02-05 22:21:36.000000000,2018-02-06 00:02:29.000000000,closed,3,manifests: remove deprecated --etcd-quorum-read flag
+873,2018-02-05 22:16:35.000000000,2018-02-05 22:18:25.000000000,closed,0,"Better ""getting started"" docs"
+872,2018-02-03 09:32:33.000000000,2018-02-06 00:02:29.000000000,closed,1,Remove --etcd-quorum-read from apiserver manifests
+871,2018-01-30 20:03:39.000000000,2019-06-22 08:43:20.000000000,closed,9,kube-dns failed to resolve domain names due to lack of arg --kubecfg-file in kube-dns container starting command
+870,2018-01-30 10:28:07.000000000,2018-01-30 17:31:19.000000000,closed,1,use bash for the makefile shell
+869,2018-01-30 02:51:36.000000000,2018-02-02 00:33:55.000000000,closed,1,pkg/asset: Add flannel service account and RBAC
+868,2018-01-29 23:52:18.000000000,2018-01-30 02:16:15.000000000,closed,3,pkg/asset: Update flannel to v0.10.0
+867,2018-01-25 22:00:27.000000000,2018-01-26 03:03:35.000000000,closed,6,add a wait to make sure ssh is ready
+866,2018-01-25 15:31:51.000000000,2018-01-26 07:09:10.000000000,closed,4,Fail release build on gofmt diffs
+865,2018-01-25 04:14:44.000000000,2018-02-06 21:44:23.000000000,closed,3,CI: be able to re-run individual e2e tests
+864,2018-01-25 03:37:24.000000000,2018-01-25 04:18:21.000000000,closed,3,More TestReboot/TestSmoke flakes
+863,2018-01-25 01:09:37.000000000,2018-01-25 07:42:36.000000000,closed,3,add more bootkube recover docs
+862,2018-01-24 23:06:30.000000000,2019-06-21 19:30:52.000000000,closed,6,bootkube should determine if etcd has previous content in it. 
+861,2018-01-24 20:25:59.000000000,2018-01-25 16:27:14.000000000,closed,6,hyperkube api-server is not starting: listen tcp 0.0.0.0:443: bind: permission denied
+860,2018-01-24 20:15:11.000000000,2019-04-24 11:00:26.000000000,closed,3,"Bootkube start stuck at ""created pod-checkpointer daemonset"""
+859,2018-01-24 07:30:17.000000000,2018-01-24 10:41:31.000000000,closed,0,gitignore: ignore hack/e2e litter
+858,2018-01-24 04:17:23.000000000,2018-01-24 05:05:06.000000000,closed,1,remove self-hosted etcd recover docs
+857,2018-01-24 01:10:39.000000000,2019-06-22 08:43:21.000000000,closed,7,Extend recover command to support temp control plane.
+856,2018-01-24 00:24:58.000000000,2018-01-24 01:47:57.000000000,closed,0,Update README.md
+855,2018-01-23 23:44:28.000000000,2018-01-25 04:22:18.000000000,closed,1,e2e: remove unused test utilities
+854,2018-01-23 22:19:07.000000000,2018-02-22 21:39:40.000000000,closed,14,e2e checkpointer test: remove node reboots
+853,2018-01-23 22:00:17.000000000,2019-06-22 08:43:17.000000000,closed,7,Render should always use TLS for etcd
+852,2018-01-23 15:26:41.000000000,2018-01-24 00:06:50.000000000,closed,13,pkg/asset: Remove self hosted etcd templates
+851,2018-01-23 03:46:44.000000000,2019-06-22 02:37:20.000000000,closed,5,e2e: Re-enable disabled part of checkpointer tests
+850,2018-01-23 02:56:32.000000000,2018-01-23 20:07:00.000000000,closed,3,use the lease endpoint reconciler for the API
+849,2018-01-23 02:23:37.000000000,2018-01-23 03:21:54.000000000,closed,1,pkg/asset: Remove kubenetes-etcd-network-checkpointer
+848,2018-01-23 02:22:10.000000000,2018-01-23 22:31:12.000000000,closed,3,pkg/asset: Update Calico from 2.6.4 to 2.6.6
+847,2018-01-23 01:54:07.000000000,2018-01-24 08:12:26.000000000,closed,10,e2e: fix reboot test flakes
+846,2018-01-22 02:59:02.000000000,2018-01-22 20:52:54.000000000,closed,3,v0.10.0 is lacking a binary release tarball
+845,2018-01-19 22:17:50.000000000,2018-01-19 23:46:02.000000000,closed,2,conformance: use admin kubeconfig
+844,2018-01-19 21:28:26.000000000,2018-01-19 21:40:11.000000000,closed,0,"Revert ""Makefile: default GOFLAGS to enable build caching"""
+843,2018-01-19 21:12:03.000000000,2018-01-19 21:40:30.000000000,closed,0,bump build-release to use golang 1.9.2
+842,2018-01-19 05:06:22.000000000,2018-01-19 20:22:38.000000000,closed,0,hack: Update conformance tests to use Go 1.9.2
+841,2018-01-19 04:58:24.000000000,2018-01-19 20:22:50.000000000,closed,1,Update Kubernetes from v1.9.1 to v1.9.2
+840,2018-01-19 01:39:14.000000000,2018-01-19 04:16:35.000000000,closed,0,"hack: rearrange log messages, use correct kubeconfig"
+839,2018-01-18 03:31:36.000000000,2018-01-19 03:11:11.000000000,closed,3,migrate ktestutil internally
+838,2018-01-18 00:06:22.000000000,2018-01-18 05:04:35.000000000,closed,1,Makefile: default GOFLAGS to enable build caching
+837,2018-01-17 05:17:50.000000000,2018-01-24 08:12:26.000000000,closed,11,"e2e: TestReboot test doesn't wait for real control plane to be restored, can cause flakes in TestSmoke"
+836,2018-01-17 02:29:02.000000000,2018-01-19 04:16:25.000000000,closed,5,e2e: remove flaky checkpointer test
+835,2018-01-16 22:46:40.000000000,2018-01-19 03:11:11.000000000,closed,0,Commit github.com/coreos/ktestutil to this repo
+834,2018-01-16 20:35:42.000000000,2018-01-17 01:28:23.000000000,closed,1,Cluster Recovery: Key not found in snapshot
+833,2018-01-13 05:16:30.000000000,2018-03-13 04:32:18.000000000,closed,1,Bump vendored k8s.io repos to 1.9
+832,2018-01-13 04:18:04.000000000,2018-01-13 06:20:36.000000000,closed,1,log in UTC time
+831,2018-01-13 02:58:35.000000000,2018-01-23 03:18:14.000000000,closed,4,templates: increase API server verbosity
+830,2018-01-12 23:05:45.000000000,2018-01-25 04:32:25.000000000,closed,16,Update kube-dns and switch sidecar to probe SRV records
+829,2018-01-12 18:19:35.000000000,2018-01-22 19:47:07.000000000,closed,9,bootkube start failed
+828,2018-01-12 08:07:31.000000000,2018-01-13 02:37:22.000000000,closed,15,remove self hosted etcd functionality
+827,2018-01-09 01:50:10.000000000,2019-06-22 09:44:16.000000000,closed,4,Print node readiness and/or CNI install status during bootkube start
+826,2018-01-09 00:04:20.000000000,2018-01-09 02:52:47.000000000,closed,4,checkpointer: bump default checkpointer version.
+825,2018-01-09 00:01:22.000000000,2018-01-09 01:23:36.000000000,closed,2,bump to kubernetes 1.9.1
+824,2018-01-08 22:19:21.000000000,2018-03-21 03:20:43.000000000,closed,11,Reduce e2e test flakes
+823,2018-01-08 20:28:10.000000000,2019-06-21 16:27:54.000000000,closed,4,Remove root requirement for checkpointer
+822,2018-01-03 23:45:20.000000000,2019-06-23 04:02:20.000000000,closed,8,Apiserver doesn't survive node reboot in non HA mode
+821,2018-01-03 23:35:34.000000000,2018-01-10 01:43:45.000000000,closed,8,pkg/asset: apiserver: Update the recommended set of admission controllers for 1.9
+820,2018-01-03 00:48:05.000000000,2019-06-21 15:26:54.000000000,closed,4,Consider adding the local hack examples to automated e2e tests
+819,2017-12-22 00:15:17.000000000,2018-01-03 00:42:58.000000000,closed,7,pkg/asset: Update calico/cni to v1.11.2
+818,2017-12-21 22:47:58.000000000,2017-12-21 23:58:24.000000000,closed,0,pkg/asset: Update Calico from v2.6.3 to v2.6.4
+817,2017-12-21 00:11:08.000000000,2017-12-21 03:05:33.000000000,closed,5,Update code-of-conduct.md
+816,2017-12-21 00:01:09.000000000,2018-01-19 04:16:25.000000000,closed,0,Test flake in TestCheckpointer/UnscheduleCheckpointer
+815,2017-12-20 23:43:38.000000000,2019-06-21 23:34:21.000000000,closed,5,Log collection failures shouldn't cause tests to fail
+814,2017-12-20 11:39:20.000000000,2018-01-08 23:57:28.000000000,closed,9,checkpointer: write secrets and configmaps with uid.
+813,2017-12-20 08:13:44.000000000,2018-01-03 04:02:03.000000000,closed,11,checkpointer: make grace period a flag.
+812,2017-12-19 22:23:40.000000000,2018-01-12 22:43:06.000000000,closed,7,pass the correct flags for calico
+811,2017-12-19 19:36:05.000000000,2017-12-19 22:55:11.000000000,closed,1,Missing release tarball for bootkube v0.9.1
+810,2017-12-19 18:56:36.000000000,2018-01-09 00:04:41.000000000,closed,10,bump to 1.9
+809,2017-12-19 08:05:26.000000000,2019-06-21 19:30:51.000000000,closed,5,DNS Port migration off of privileged ports
+808,2017-12-18 23:31:20.000000000,2018-01-10 00:50:52.000000000,closed,4,add root requirements doc
+807,2017-12-17 04:49:21.000000000,2019-04-26 21:24:55.000000000,closed,15,hack/*/kubelet.service: Remove /var/log mount
+806,2017-12-15 00:44:47.000000000,2018-01-26 03:03:35.000000000,closed,3,Tests should retry ssh to workers
+805,2017-12-14 02:53:12.000000000,2017-12-15 21:51:32.000000000,closed,8,vendor: bump ktestutil for timestamp fix
+804,2017-12-14 02:53:08.000000000,2019-04-26 21:24:52.000000000,closed,32,hack/quickstart: enable setting kubelet cloud provider separately from controller manager
+803,2017-12-14 02:40:30.000000000,2019-04-26 21:24:38.000000000,closed,16,Tolerate uninitialized node
+802,2017-12-14 02:20:08.000000000,2018-05-15 21:44:57.000000000,closed,5,hack/quickstart: Use env file to keep track of master label/taint
+801,2017-12-14 01:59:36.000000000,2017-12-20 11:37:39.000000000,closed,4,quickstart/kubelet.worker: remove deprecated flag
+800,2017-12-13 04:33:00.000000000,2019-06-21 13:24:54.000000000,closed,7,bootkube should tolerate uninitialized nodes
+799,2017-12-11 23:35:26.000000000,2017-12-12 06:07:54.000000000,closed,5,"pkg,hack: Update Kubernetes from v1.8.4 to v1.8.5"
+798,2017-12-11 21:10:55.000000000,2018-02-05 22:11:58.000000000,closed,20,logging: add log gathering scripts
+797,2017-12-06 17:23:07.000000000,2017-12-12 06:09:38.000000000,closed,9,Pass ServiceCIDR to controller-manager
+796,2017-12-06 17:10:50.000000000,2017-12-11 23:15:17.000000000,closed,5,"Added calico MTU options, taken from example resources bundled with 2…"
+795,2017-12-06 17:02:07.000000000,2018-01-03 02:46:40.000000000,closed,21,Dedicated ServiceAccount for controller-manager
+794,2017-12-06 16:44:05.000000000,2017-12-18 23:30:29.000000000,closed,13,Make kubecofig-in-cluster use certificate provided by apiserver
+793,2017-12-06 16:38:07.000000000,2017-12-19 01:57:06.000000000,closed,17,kubeconfig-in-cluster is not a secret
+792,2017-12-06 16:34:22.000000000,2017-12-06 20:10:18.000000000,closed,5,Enable portmap CNI plugin
+791,2017-12-05 11:53:58.000000000,2017-12-06 00:24:26.000000000,closed,0,hack: restore multi-node.
+790,2017-12-05 10:44:47.000000000,2017-12-08 00:45:04.000000000,closed,0,Makefile: don't compile darwin by default.
+789,2017-12-05 10:39:07.000000000,2018-01-09 02:53:00.000000000,closed,11,apiserver: run as non-root user.
+788,2017-12-04 11:49:38.000000000,2017-12-05 10:55:28.000000000,closed,6,Remove unnecessary quote
+787,2017-12-04 11:45:24.000000000,2017-12-04 11:48:05.000000000,closed,4,Remove unnecessary quote in development.md
+786,2017-12-01 02:24:41.000000000,2017-12-06 00:25:00.000000000,closed,5,Update quickstart-gce.md
+785,2017-11-30 04:31:58.000000000,2017-11-30 05:41:54.000000000,closed,0,Update Calico from v2.6.1 to v2.6.3
+784,2017-11-29 02:22:38.000000000,2017-12-12 04:26:21.000000000,closed,8,e2e: make checkpointer tests more robust.
+783,2017-11-27 23:10:09.000000000,2018-02-05 22:11:58.000000000,closed,8,Improve log collection for e2e tests
+782,2017-11-27 20:53:18.000000000,1970-01-01 00:00:00.000000001,open,21,Enable podSecurityPolicy by default
+781,2017-11-22 00:06:41.000000000,2017-11-22 05:04:20.000000000,closed,4,Test bumping hyperkube to v1.8.4
+780,2017-11-21 00:29:18.000000000,2017-11-27 22:59:27.000000000,closed,3,"pkg,hack: Update Kubernetes from v1.8.3 to v1.8.4"
+779,2017-11-19 19:26:02.000000000,2019-06-24 00:22:15.000000000,closed,7,Integrate support for Cilium CNI
+778,2017-11-18 00:17:49.000000000,2017-12-12 04:29:42.000000000,closed,7,checkpointer: update image and drop permissions from ClusterRole to Role
+777,2017-11-17 05:49:18.000000000,2017-11-18 03:39:11.000000000,closed,5,pkg/assets/internal: Remove critical pod annotations
+776,2017-11-17 00:48:55.000000000,2017-11-17 04:17:38.000000000,closed,2,Bump flannel version to v0.9.1
+775,2017-11-16 23:47:52.000000000,2017-11-17 23:24:15.000000000,closed,9,Make it clear that only Go version 1.8 is supported now
+774,2017-11-16 02:17:22.000000000,2017-11-17 23:11:01.000000000,closed,4,checkpoint: only watch pods in kube-system
+773,2017-11-16 00:11:23.000000000,2018-01-13 00:37:15.000000000,closed,4,Use same certificate folder as kubeadm
+772,2017-11-15 00:07:49.000000000,2017-11-16 03:52:02.000000000,closed,1,pkg/asset: Disable Calico termination grace period
+771,2017-11-12 17:56:51.000000000,2017-11-21 13:44:56.000000000,closed,2,[Feat] add an option to allow to select the backend that is used by flannel
+770,2017-11-12 16:08:01.000000000,2018-01-13 04:50:43.000000000,closed,9,etcd migration
+769,2017-11-10 20:24:53.000000000,2017-11-12 14:12:14.000000000,closed,2,bootkube
+768,2017-11-10 03:00:42.000000000,2017-11-10 03:40:12.000000000,closed,0,Update disaster-recovery.md
+767,2017-11-10 01:43:19.000000000,2017-11-16 04:40:58.000000000,closed,11,pkg/asset: use service accounts for checkpointer and kube-proxy creds
+766,2017-11-09 05:41:06.000000000,2017-11-29 02:24:00.000000000,closed,6,e2e: remove waitForCheckpointDeactivation.
+765,2017-11-09 02:05:44.000000000,2017-11-10 00:26:51.000000000,closed,5,"hack,pkg: Update Kubernetes from v1.8.2 to v1.8.3"
+764,2017-11-02 23:05:49.000000000,2017-11-03 23:28:42.000000000,closed,15,checkpointer: two fixes (now that checkpointer tests work again)
+763,2017-11-02 11:33:41.000000000,2017-11-04 01:31:08.000000000,closed,1,*/kubelet: remove deprecated flag
+762,2017-11-02 04:19:58.000000000,2017-11-18 00:30:29.000000000,closed,5,Makefile: Cross-compile checkpointer for multiple archs
+761,2017-11-02 03:38:43.000000000,2017-11-02 06:04:11.000000000,closed,2,checkpointer: chmod before close.
+760,2017-11-02 03:21:32.000000000,2017-11-21 23:18:37.000000000,closed,1,Remove --deprecated-self-hosted-kubelet option
+759,2017-11-02 02:51:15.000000000,2017-11-04 01:27:45.000000000,closed,6,images: update pod-checkpointer.
+758,2017-11-01 04:36:46.000000000,2017-11-02 03:07:40.000000000,closed,5,Rename OWNERS assignees: to approvers:
+757,2017-10-31 22:22:44.000000000,2019-06-24 12:34:12.000000000,closed,13,validate api-servers flag contains both host:port
+756,2017-10-29 19:05:41.000000000,2017-10-31 03:29:15.000000000,closed,5,cmd: Change command suggestion message
+755,2017-10-28 04:26:39.000000000,2017-11-02 02:44:31.000000000,closed,14,checkpointer: implement state machine.
+754,2017-10-26 21:56:26.000000000,2019-06-22 11:46:14.000000000,closed,8,Update docs to refer to cloud-provider specific materials
+753,2017-10-26 20:08:32.000000000,2017-10-27 20:59:45.000000000,closed,1,travis: use the latest patch release of golang
+752,2017-10-26 20:02:03.000000000,2017-10-28 01:07:12.000000000,closed,3,assets: fix typo for Calico
+751,2017-10-26 00:50:26.000000000,2017-10-26 02:06:38.000000000,closed,0,Add --no-negcache to dnsmasq args
+750,2017-10-25 20:49:51.000000000,2017-10-28 02:02:01.000000000,closed,1,Update hyperkube from v1.8.1 to v1.8.2
+749,2017-10-25 16:04:17.000000000,2017-10-26 21:56:39.000000000,closed,8,"Bootkube start stuck at ""created pod-checkpointer daemonset"""
+748,2017-10-25 04:14:47.000000000,2018-01-13 04:50:52.000000000,closed,1,Consider re-enabling self-hosted etcd tests
+747,2017-10-25 01:49:48.000000000,2017-10-25 04:23:02.000000000,closed,10,checkpointer: factor out checkpoint lib.
+746,2017-10-25 01:45:17.000000000,2017-10-25 04:52:30.000000000,closed,2,Enable hairpinMode in flannel CNI config
+745,2017-10-25 01:28:36.000000000,2017-10-28 00:06:56.000000000,closed,8,Switch from quay.io to gcr.io hyperkube image
+744,2017-10-24 00:15:03.000000000,2017-10-28 00:06:56.000000000,closed,1,Switch to upstream gcr.io hyperkube image
+743,2017-10-23 22:42:10.000000000,2017-10-25 02:03:42.000000000,closed,0,pkg/assets: Update flannel from v0.8.0 to v0.9.0
+742,2017-10-23 22:37:01.000000000,2017-11-10 01:39:46.000000000,closed,5,Add /lib/modules mount to kube-proxy
+741,2017-10-21 03:37:29.000000000,2017-11-10 01:39:46.000000000,closed,3,kube-proxy expects to load kernel modules in v1.8.x
+740,2017-10-20 00:41:42.000000000,2017-10-21 01:24:54.000000000,closed,19,socat locks up when attempting port-forwarding
+739,2017-10-18 22:34:29.000000000,2017-10-19 00:13:43.000000000,closed,4,cmd/bootkube: Mark --self-hosted-kubelet deprecated
+738,2017-10-18 21:14:00.000000000,2018-01-13 04:51:30.000000000,closed,16,Clarify status of bootkube experimental self-hosted etcd
+737,2017-10-18 00:46:18.000000000,2017-10-18 03:56:56.000000000,closed,0,Reduce test flakiness for Kubernetes v1.8.1
+736,2017-10-14 02:58:25.000000000,2018-01-24 03:04:31.000000000,closed,5,TLS Cert deprecation warning
+735,2017-10-14 01:50:04.000000000,2017-11-21 23:44:04.000000000,closed,6,Deprecate experimental self-hosted Kubelet
+734,2017-10-11 14:11:51.000000000,2017-10-23 22:40:34.000000000,closed,9,fix system ClusterRoleBinding yaml
+733,2017-10-09 22:58:09.000000000,2017-10-09 23:52:01.000000000,closed,2,Bumped checkpointer default image
+732,2017-10-09 14:42:10.000000000,2017-10-17 12:37:52.000000000,closed,9,Controller manager fails to start when configured with vsphere cloud provider
+731,2017-10-06 22:46:12.000000000,2017-10-09 22:25:12.000000000,closed,3,Change polling frequency to reduce number of apiserver requests
+730,2017-10-05 08:13:02.000000000,2017-10-05 14:36:45.000000000,closed,0,golang: bump to 1.8.4 everywhere.
+729,2017-10-04 21:20:15.000000000,2017-10-18 22:27:13.000000000,closed,64,Bump k8s v1.8.1
+728,2017-10-04 12:53:15.000000000,2017-11-17 23:23:05.000000000,closed,5,pkg/assets/internal: remove critical pod annotations
+727,2017-10-03 09:57:21.000000000,2017-10-03 21:53:27.000000000,closed,7,README: fix link to design proposal
+726,2017-10-03 03:27:39.000000000,2017-10-04 21:24:28.000000000,closed,0,Update Calico from v2.5.1 to v2.6.1
+725,2017-09-30 04:47:40.000000000,2017-10-02 18:54:23.000000000,closed,2,Bump K8s V1.7.7
+724,2017-09-29 18:19:50.000000000,2017-10-18 22:39:12.000000000,closed,7,Calico upgrade from Kubernetes 1.7 to 1.8 - fails to start due to TPR
+723,2017-09-29 00:43:12.000000000,2017-09-29 02:58:17.000000000,closed,3,pkg: Move experimental-network-policy to network-provider canal
+722,2017-09-27 03:22:47.000000000,2017-09-27 10:01:41.000000000,closed,3,pkg/bootkube: Wait for CRD Kind rollout on create
+721,2017-09-27 03:15:43.000000000,2017-09-28 02:56:01.000000000,closed,3,Updated default checkpointer image
+720,2017-09-27 01:30:29.000000000,2017-09-30 02:50:59.000000000,closed,3,Documentation: Refresh the cluster upgrade guide
+719,2017-09-26 23:31:05.000000000,2018-05-15 23:26:45.000000000,closed,12,pkg/asset/internal/templates: Update flannel vxlan port to 4789
+718,2017-09-26 18:07:18.000000000,2017-09-30 12:32:56.000000000,closed,12,Bump k8s to 1.7.6
+717,2017-09-25 23:17:03.000000000,2017-09-26 04:11:23.000000000,closed,0,Add --network-provider option for Calico support
+716,2017-09-21 02:25:48.000000000,2017-09-22 00:30:50.000000000,closed,0,e2e: Fix network test to condition on calico-node
+715,2017-09-20 13:41:25.000000000,2019-06-21 01:12:56.000000000,closed,4,Recover: Mark all nodes as NotReady before adding pod
+714,2017-09-20 01:57:40.000000000,2017-10-02 23:00:13.000000000,closed,12,Add network provider option and Calico support
+713,2017-09-20 00:22:45.000000000,2017-09-21 02:07:47.000000000,closed,11,Moved checkpointer away from using the /runningpods endpoint
+712,2017-09-17 22:30:12.000000000,2017-10-31 04:16:35.000000000,closed,2,Add option to specify etcd prefix for kube-apiserver
+711,2017-09-15 05:00:51.000000000,2018-01-08 20:07:14.000000000,closed,46,pkg/asset: calico: Enable hostPort for calico networking & update cniVersion to 0.3.1
+710,2017-09-13 21:13:38.000000000,2018-02-05 22:33:46.000000000,closed,1,bootkube restores fails with self-hosted etcd with backup pods
+709,2017-09-13 20:55:50.000000000,2017-10-09 18:17:09.000000000,closed,10,WIP: bump k8s to 1.8.0-beta.1
+708,2017-09-13 17:12:41.000000000,2017-09-15 12:22:03.000000000,closed,13,Render optional templates
+707,2017-09-13 13:49:47.000000000,2018-05-15 21:46:28.000000000,closed,14,Add optional template files
+706,2017-09-13 01:13:36.000000000,2017-11-08 18:47:16.000000000,closed,9,[NOT TESTED] etcd-operator: bump to v0.5.2
+705,2017-09-13 00:23:17.000000000,2017-09-13 02:19:17.000000000,closed,2,pkg/asset: Update flannel-cni from v0.2.0 to v0.3.0
+704,2017-09-12 19:03:02.000000000,2018-01-29 23:55:54.000000000,closed,26,"pkg/asset: kube-{flannel,proxy}, calico-node: Tolerate all taints"
+703,2017-09-12 02:22:16.000000000,2017-09-12 20:44:38.000000000,closed,0,pkg/assets: Bump Calico image from v2.5.0 to v2.5.1
+702,2017-09-06 00:24:09.000000000,2017-09-09 02:48:10.000000000,closed,0,x509: ensure unique certificate subjects.
+701,2017-09-02 03:15:45.000000000,2017-09-02 03:58:15.000000000,closed,0,Bump k8s V1.7.5
+700,2017-08-31 16:52:20.000000000,2019-06-21 03:14:53.000000000,closed,6,Restartability of bootkube
+699,2017-08-31 05:20:13.000000000,2018-01-29 23:55:54.000000000,closed,3,Worker nodes with taints are never ready
+698,2017-08-31 01:34:03.000000000,2019-10-26 14:15:44.000000000,closed,19,Calico network policy daemonset cannot be removed
+697,2017-08-30 00:20:20.000000000,2017-09-19 22:02:55.000000000,closed,32,CNI: Enable portmap plugin by default
+696,2017-08-26 05:06:14.000000000,2017-09-09 02:48:10.000000000,closed,0,x.509 assets need unique Subjects
+695,2017-08-26 02:45:47.000000000,2017-08-29 23:02:04.000000000,closed,1,pkg/asset: Disable etcd-operator analytics
+694,2017-08-26 01:21:21.000000000,2017-09-12 00:09:40.000000000,closed,15,pkg/assets: Update Calico from v2.4.0 to v2.5.0
+693,2017-08-24 15:26:00.000000000,2017-08-26 00:44:31.000000000,closed,9,flannel-cni: bump to v0.2.0
+692,2017-08-23 01:34:42.000000000,2017-08-23 03:24:34.000000000,closed,0,pod-checkpointer: bump to 0cd390e0bc1dcdcc714b20eda3435c3d00669d0e
+691,2017-08-22 00:32:00.000000000,2017-08-23 00:07:15.000000000,closed,1,image/checkpoint: remove unused manifest
+690,2017-08-21 15:01:18.000000000,2017-08-22 00:23:53.000000000,closed,2,Latest bootkube release (0.6.1) is missing a binary release package.
+689,2017-08-17 02:57:19.000000000,2017-08-17 03:02:09.000000000,closed,1,"Remove ""critical pod"" annotations from scheduler and controller-manager"
+688,2017-08-17 00:50:47.000000000,2017-08-17 03:54:00.000000000,closed,4,Kubernetes v1.7.3
+687,2017-08-15 18:44:54.000000000,2017-08-16 20:42:14.000000000,closed,6,Update Code of Conduct
+686,2017-08-14 17:57:59.000000000,2017-08-26 01:08:13.000000000,closed,30,etcd-operator: bump to v0.5.0
+685,2017-08-13 23:26:31.000000000,2017-09-14 18:54:24.000000000,closed,9,hack/quickstart: Make it easy to use COREOS_PUBLIC_IPV4 as hostname-o…
+684,2017-08-13 23:14:48.000000000,2017-08-30 00:01:56.000000000,closed,10,hack/quickstart: Add automatic self-hosted multi-master loadbalancer
+683,2017-08-13 23:01:43.000000000,2017-08-22 04:22:40.000000000,closed,6,hack/quickstart: Fallback to bootkube binary in PATH if local binary …
+682,2017-08-13 22:51:24.000000000,2017-08-22 04:20:23.000000000,closed,7,hack/quickstart: Remove bootkube binary and kubeconfig when cleaning up
+681,2017-08-13 22:45:00.000000000,2017-08-14 22:25:46.000000000,closed,7,Fix Typo in Events Code of Conduct
+680,2017-08-13 19:24:36.000000000,2017-08-26 00:05:38.000000000,closed,1,etcd-operator error on selfhosted etcd and calico
+679,2017-08-11 21:58:22.000000000,2017-08-17 04:08:35.000000000,closed,2,Bump kubernetes to v1.7.3
+678,2017-08-11 21:56:55.000000000,2017-08-14 22:26:14.000000000,closed,0,e2e: remove requirements blurb
+677,2017-08-11 10:34:08.000000000,2017-08-16 20:43:21.000000000,closed,7,Add multiple widgets
+676,2017-08-08 18:54:47.000000000,2017-08-09 00:49:20.000000000,closed,1,run e2e locally
+675,2017-08-08 16:02:48.000000000,2017-08-14 22:27:37.000000000,closed,11,hack/quickstart: Mask locksmithd instead of update-engine
+674,2017-08-08 02:38:15.000000000,2017-08-09 04:23:21.000000000,closed,0,remove flock only
+673,2017-08-05 03:31:21.000000000,2017-09-30 02:50:59.000000000,closed,0,Upgrade instructions need to be updated
+672,2017-08-04 03:53:41.000000000,2017-08-23 00:07:03.000000000,closed,5,checkpointer: handle kubelet API denials and make kubeconfig configurable
+671,2017-08-04 02:00:59.000000000,2017-08-05 03:30:14.000000000,closed,0,bump calico v2.4; add liveness & readiness probes
+670,2017-08-02 22:42:30.000000000,2019-06-21 06:17:48.000000000,closed,4,TLS bootstrapping improvements
+669,2017-08-02 11:26:49.000000000,2018-02-06 21:51:56.000000000,closed,3,Using own SSL-Certificates / Certificate-Exchange
+668,2017-08-02 05:00:37.000000000,2017-08-17 02:41:54.000000000,closed,1,etcd-operator: 0.5.0
+667,2017-08-01 20:20:54.000000000,2017-08-02 04:04:48.000000000,closed,1,copyFile: close source and destination file handles
+666,2017-08-01 17:09:11.000000000,2017-08-26 01:12:40.000000000,closed,9,support of etcd-operator v0.5.0
+665,2017-07-29 01:51:35.000000000,2017-07-29 03:13:40.000000000,closed,2,gitignore: ignore terraform tfvars/tfstate.
+664,2017-07-28 22:41:40.000000000,2019-06-22 08:43:18.000000000,closed,6,bootkube render with ecdsa keys fails
+663,2017-07-27 23:15:53.000000000,2018-01-09 08:37:07.000000000,closed,24,Add TLS auto-approval for kubelet.
+662,2017-07-26 20:09:19.000000000,2017-09-19 22:02:55.000000000,closed,6,"CNI: Include ""portmap"" plugin by default"
+661,2017-07-25 02:08:45.000000000,2017-07-25 04:17:23.000000000,closed,1,Some kube-flannel pods fail to start
+660,2017-07-24 21:09:00.000000000,2018-03-22 00:00:55.000000000,closed,13,permission-problem rbac+psp
+659,2017-07-21 22:57:42.000000000,2017-07-22 03:27:50.000000000,closed,0,flannel: bump to v0.8.0.
+658,2017-07-21 20:44:03.000000000,2018-08-17 03:04:49.000000000,closed,8,Unable to recover Tectonic Cluster using Bootkube Recovery - etcd is not writable /Console not up
+657,2017-07-21 03:16:25.000000000,2017-07-21 04:38:15.000000000,closed,3,kenc: bump to 0.0.2
+656,2017-07-19 00:53:24.000000000,2018-03-21 03:21:49.000000000,closed,6,e2e: deflake etcd scale down tests
+655,2017-07-18 20:29:27.000000000,2017-07-19 00:07:05.000000000,closed,5,templates: enable etcd-quorum-read in apiserver
+654,2017-07-18 06:45:04.000000000,2017-07-19 02:02:13.000000000,closed,8,e2e: disable flaky etcd scale tests.
+653,2017-07-18 03:34:38.000000000,2017-07-18 20:40:47.000000000,closed,0,Update README.md
+652,2017-07-18 00:18:27.000000000,2017-07-19 05:46:48.000000000,closed,4,pod-checkpointer: remove isRunning check.
+651,2017-07-17 23:26:29.000000000,2019-06-24 12:34:13.000000000,closed,6,Recovery: must have clean docker/container state on recovery machine
+650,2017-07-14 04:55:50.000000000,2017-07-21 03:12:18.000000000,closed,7,Kubernetes v1.7.1
+649,2017-07-14 00:20:06.000000000,2017-07-14 00:51:33.000000000,closed,1,Missing release tarball for bootkube v0.5.0
+648,2017-07-13 22:40:17.000000000,2019-06-22 08:43:21.000000000,closed,5,Enable kubelet authorization
+647,2017-07-13 19:26:35.000000000,2018-03-23 02:20:53.000000000,closed,7,latest tag bootkube - docs recommend latest for recovery
+646,2017-07-12 23:33:45.000000000,2019-06-24 12:34:14.000000000,closed,6,pod checkpointer should not store ports information for hostNetwork Pod
+645,2017-07-12 04:14:27.000000000,2017-08-25 02:08:29.000000000,closed,1,Documentation: Add integration & production user tracking docs
+644,2017-07-12 04:13:06.000000000,2017-07-18 03:04:31.000000000,closed,0,Readme cleanup
+643,2017-07-12 02:55:08.000000000,2017-07-12 03:55:28.000000000,closed,1,Checkpointer debugging.
+642,2017-07-11 21:41:43.000000000,2017-07-18 03:39:08.000000000,closed,7,etcd-operator: v0.4.2
+641,2017-07-11 13:41:48.000000000,2017-07-12 11:42:04.000000000,closed,2,Build failure ../go/src/github.com/kubernetes-incubator/bootkube/pkg/asset/tls.go:216: etcdServers[i].Hostname undefined (type *url.URL has no field or method Hostname)
+640,2017-07-11 05:58:41.000000000,2017-07-18 01:27:10.000000000,closed,2,hyperkube: bump to v1.6.7_coreos.0
+639,2017-07-11 04:49:27.000000000,2017-07-12 04:55:16.000000000,closed,0,Use ktestuil:nginxworkload for random nginx deployments
+638,2017-07-11 02:26:00.000000000,2017-07-11 21:03:59.000000000,closed,1,Add license bill of materials
+637,2017-07-10 22:27:37.000000000,2017-07-19 02:01:31.000000000,closed,5,e2e improvements.
+636,2017-07-08 03:54:11.000000000,2017-07-15 10:24:50.000000000,closed,3,skip network tests when kube-calico ds doesn't exist
+635,2017-07-07 23:22:00.000000000,2017-07-18 01:28:11.000000000,closed,2,e2e: use m4.large instances.
+634,2017-07-07 04:08:10.000000000,2017-07-07 21:32:22.000000000,closed,2,Add hacky fixes to network_test behavior.
+633,2017-07-06 23:19:31.000000000,2017-07-11 21:03:21.000000000,closed,1,Update README.md
+632,2017-07-06 23:08:29.000000000,2017-07-18 01:28:37.000000000,closed,0,vendor: bump ktestutil.
+631,2017-07-06 06:42:03.000000000,2017-07-06 21:41:56.000000000,closed,1,e2e: use unique nginx app labels.
+630,2017-07-06 05:00:30.000000000,2017-07-06 22:51:34.000000000,closed,0,e2e: flake / debug improvements
+629,2017-07-06 03:30:37.000000000,2018-05-15 22:25:25.000000000,closed,6,pkg/asset/internal: allow controller-manager to use cluster+host DNS
+628,2017-07-06 03:25:18.000000000,2017-07-07 00:04:53.000000000,closed,2,pkg/asset/internal: fix antiaffinity value
+627,2017-07-06 01:15:08.000000000,2017-07-06 23:19:41.000000000,closed,3,Update README.md
+626,2017-07-05 21:47:53.000000000,2017-07-08 00:27:54.000000000,closed,18,etcd_svc: tolerate unready endpoints
+625,2017-07-03 13:43:21.000000000,2017-08-23 00:07:03.000000000,closed,2,Allow pod checkpointer to use different kubeconfig paths
+624,2017-07-01 04:02:36.000000000,2017-07-05 22:00:09.000000000,closed,0,Add more useful e2e test logging.
+623,2017-07-01 03:39:42.000000000,2019-06-20 19:06:51.000000000,closed,4,recovery might not always need a kubeconfig
+622,2017-06-30 23:19:16.000000000,2017-07-05 22:35:54.000000000,closed,2,Hack scripts: fix shebangs
+621,2017-06-30 21:21:15.000000000,2017-07-06 01:43:41.000000000,closed,10,TLS: converge asset naming of SH and non-SH etcd
+620,2017-06-30 05:09:13.000000000,2017-07-06 01:14:45.000000000,closed,1,Add roadmap doc
+619,2017-06-30 04:50:50.000000000,2017-07-05 21:29:35.000000000,closed,1,Add versioning notes to release docs
+618,2017-06-30 04:30:54.000000000,2017-07-08 03:48:08.000000000,closed,2,Design principles doc
+617,2017-06-30 00:12:58.000000000,2017-06-30 00:55:59.000000000,closed,2,KeepAlived VIP custom container during bootstrap process
+616,2017-06-29 22:54:23.000000000,2017-11-28 02:32:03.000000000,closed,10,Remove apiserver flock.
+615,2017-06-29 01:51:31.000000000,2017-06-30 06:16:45.000000000,closed,4,*: upgrade etcd-operator to 0.4.0
+614,2017-06-28 21:49:44.000000000,2017-06-30 01:36:56.000000000,closed,3,WIP: use existing generated certs to map into self-hosted etcd expects
+613,2017-06-28 13:59:47.000000000,2017-06-29 22:02:29.000000000,closed,2,Alternative API Server ports require manual patching
+612,2017-06-25 00:22:10.000000000,2018-02-05 22:35:02.000000000,closed,8,Recovery doesn't support self-hosted etcd without TLS
+611,2017-06-24 03:51:09.000000000,2017-07-06 01:43:41.000000000,closed,30,etcd TLS paths are inconsistent or disorganized
+610,2017-06-24 00:26:32.000000000,2017-06-24 00:31:37.000000000,closed,0,Update jenkins links in release process
+609,2017-06-24 00:18:57.000000000,2017-06-24 01:48:41.000000000,closed,3,image: bump etcd-operator to 0.3.3
+608,2017-06-23 03:01:00.000000000,2017-06-23 03:52:17.000000000,closed,0,e2e: bump time waiting for nodes to go down
+607,2017-06-23 01:12:06.000000000,2017-06-23 02:41:34.000000000,closed,2,templates: EtcdOperator shouldn't run as nobody
+606,2017-06-23 00:37:21.000000000,2017-06-29 03:00:09.000000000,closed,1,e2e: add ability to drop out of test and into SSH shell
+605,2017-06-22 21:53:26.000000000,2017-07-18 01:52:04.000000000,closed,3,CI matrix is larger now that we have Calico option
+604,2017-06-22 02:10:01.000000000,2017-06-23 00:33:45.000000000,closed,5,hack/terraform-quickstart: remove dependancy on default network
+603,2017-06-22 00:21:43.000000000,2017-06-22 03:29:21.000000000,closed,4,*: bootFromBackupEtcd should use `dnsPolicy: ClusterFirstWithHostNet`
+602,2017-06-21 22:55:46.000000000,2017-11-23 00:50:11.000000000,closed,5,Readme instructions for `go get` don't work
+601,2017-06-21 22:48:12.000000000,2019-06-24 12:34:15.000000000,closed,10,"After recovery, required pods could show ""running"" even though they are not"
+600,2017-06-21 22:32:18.000000000,2017-06-22 03:07:52.000000000,closed,3,*: self-hosted etcd requires kube-dns to start too
+599,2017-06-21 05:41:20.000000000,2017-07-08 00:27:54.000000000,closed,6,self hosted etcd has a circular dependency on service ip.
+598,2017-06-20 07:57:33.000000000,2017-06-22 03:20:17.000000000,closed,12,templates: EtcdOperator shouldn't run as nobody
+597,2017-06-20 03:23:42.000000000,2017-06-29 22:01:33.000000000,closed,5,Use selected API server port in manifest templates
+596,2017-06-20 02:12:37.000000000,2019-06-20 16:03:50.000000000,closed,4,Add recovery test in CI
+595,2017-06-20 00:58:45.000000000,2017-06-20 03:28:55.000000000,closed,1,Run gofmt -s.
+594,2017-06-19 04:37:49.000000000,2017-06-20 20:34:17.000000000,closed,2,"bootstrap process workflow, controller/scheduler podaffinity issue"
+593,2017-06-18 05:30:45.000000000,2017-06-19 22:09:57.000000000,closed,3,make_vendor: update etcd-operator to v0.3.2
+592,2017-06-17 08:30:43.000000000,2017-06-22 04:13:56.000000000,closed,9,selfHostedEtcd: enable TLS
+591,2017-06-17 05:04:14.000000000,2017-06-22 01:42:36.000000000,closed,11,Update hyperkube image version to v1.6.6+coreos.1
+590,2017-06-17 00:01:52.000000000,2019-06-24 12:34:15.000000000,closed,8,Bootkube PR/e2e tests take 30-40minutes
+589,2017-06-16 22:46:25.000000000,2017-06-17 01:56:21.000000000,closed,2,Change `bootkube recover` flag to --recovery-dir.
+588,2017-06-16 21:57:28.000000000,2017-06-17 01:03:18.000000000,closed,5,vendor: pin etcd to v3.1.8
+587,2017-06-16 20:43:57.000000000,2017-06-17 04:37:54.000000000,closed,8,SHE: auto-detect TLS and create secure etcd client
+586,2017-06-16 03:57:20.000000000,2017-06-16 20:28:51.000000000,closed,2,SHE: autogen secrets containing etcd tls assets
+585,2017-06-15 07:49:41.000000000,2017-06-16 03:34:44.000000000,closed,2,selfHostedEtcd: autogen certs from CA cert
+584,2017-06-15 05:07:17.000000000,2017-06-20 00:22:05.000000000,closed,5,Add disaster recovery documentation.
+583,2017-06-14 22:15:48.000000000,2017-06-15 01:56:39.000000000,closed,5,render: add flags for self-hosted etcd certs
+582,2017-06-14 21:44:52.000000000,2017-06-22 21:44:06.000000000,closed,8,Add TLS to self-hosted etcd
+581,2017-06-14 17:37:55.000000000,2018-02-05 22:35:21.000000000,closed,42,etcd-operator on aws s3 backups
+580,2017-06-14 02:45:59.000000000,2017-06-15 02:31:05.000000000,closed,2,README.md: rktbot -> coreosbot
+579,2017-06-13 22:48:04.000000000,2017-06-24 02:07:07.000000000,closed,3,Add log-collector to e2e tests
+578,2017-06-13 05:02:46.000000000,2017-10-03 00:16:25.000000000,closed,2,WIP: attempt to use hostport plugin with 1.7
+577,2017-06-09 22:11:21.000000000,2017-06-09 23:06:20.000000000,closed,0,recover: fix security contexts for bootstrap pods.
+576,2017-06-09 21:32:35.000000000,2017-06-09 23:06:20.000000000,closed,0,Recover command does not strip runAsNonRoot from bootstrap manifests 
+575,2017-06-09 18:11:26.000000000,2018-12-11 05:48:56.000000000,closed,2,Proposal: change flannel port to 4789
+574,2017-06-08 03:20:42.000000000,2017-06-14 03:31:04.000000000,closed,5,add conformance script shim for terraform setup
+573,2017-06-07 23:12:36.000000000,2017-06-12 23:40:53.000000000,closed,0,update README.md with new test cmds
+572,2017-06-07 22:13:56.000000000,2019-06-22 01:36:22.000000000,closed,4,E2E Flakes: CheckpointerUnscheduleParent
+571,2017-06-07 21:05:09.000000000,2017-06-22 20:40:18.000000000,closed,4,bootkube support for GCE as cloud provider
+570,2017-06-07 02:14:56.000000000,2017-06-07 20:58:30.000000000,closed,1,*: update etcd version to 3.1.8
+569,2017-06-07 01:47:40.000000000,2017-06-07 02:31:50.000000000,closed,0,e2e: improve error reporting in Reboot()
+568,2017-06-07 01:41:07.000000000,2019-06-20 15:03:00.000000000,closed,4,E2E tests flake: Sometimes failed to reboot node
+567,2017-06-07 00:39:25.000000000,2017-06-08 11:05:05.000000000,closed,4,*: bump etcd-operator to 0.3.2
+566,2017-06-06 22:09:47.000000000,2017-06-22 21:25:53.000000000,closed,14,SelfHostedEtcd: set resource requests
+565,2017-06-06 21:40:55.000000000,2019-06-22 08:43:22.000000000,closed,6,Use versioned config file in render/start as replacement of flags
+564,2017-06-06 05:56:59.000000000,2017-06-24 02:13:46.000000000,closed,3,Add fluentd during bootstrap
+563,2017-06-06 02:48:39.000000000,2018-01-13 04:52:42.000000000,closed,2,Set resource requirements for self-hosted etcd
+562,2017-06-06 01:49:06.000000000,2017-06-07 01:36:12.000000000,closed,5,hack/*: Put kubelet-pod.uuid into a less volatile place.
+561,2017-06-05 22:35:40.000000000,2017-06-06 00:28:32.000000000,closed,4,Change bootstrap etcd service port to 20.
+560,2017-06-03 02:54:05.000000000,2017-06-03 05:06:27.000000000,closed,0,e2e: Fix GetCluster().
+559,2017-06-01 04:37:39.000000000,2017-06-06 02:45:19.000000000,closed,7,pkg/bootkube: Fix time-of-check-to-time-of-use in copyFile
+558,2017-06-01 04:34:21.000000000,2017-06-06 02:47:39.000000000,closed,7,quickstart: Compress binary when sending to nodes
+557,2017-06-01 03:04:41.000000000,2019-06-20 15:02:57.000000000,closed,8,Enable logging during bootstrap phase
+556,2017-05-31 14:16:35.000000000,2019-06-22 08:43:19.000000000,closed,8,http_proxy support
+555,2017-05-27 08:19:08.000000000,2017-06-29 22:02:02.000000000,closed,10,Use selected API server port in manifest templates
+554,2017-05-27 01:24:12.000000000,2017-06-03 00:56:22.000000000,closed,5,Cleanups to the gce quickstart now that #543 has merged.
+553,2017-05-27 00:12:39.000000000,2017-05-27 03:17:29.000000000,closed,2,Remove apiserver flock timeout.
+552,2017-05-26 22:39:40.000000000,2017-06-21 02:14:46.000000000,closed,3,hack/terraform-quickstart flake
+551,2017-05-26 05:29:20.000000000,2017-05-26 22:38:05.000000000,closed,0,pkg/asset: Bump checkpointer version
+550,2017-05-25 22:43:32.000000000,2017-05-26 01:33:09.000000000,closed,0,hack/quickstart: add ssh reqs for quickstart-gce
+549,2017-05-25 20:18:46.000000000,2017-05-25 21:33:40.000000000,closed,1,fix example parameters
+548,2017-05-25 06:21:01.000000000,2017-05-25 21:05:51.000000000,closed,3,Only write active checkpoints when changed.
+547,2017-05-25 06:02:35.000000000,2017-05-25 21:22:44.000000000,closed,2,Add rolling update strategy to all daemonsets
+546,2017-05-25 04:29:57.000000000,2017-05-25 21:31:33.000000000,closed,1,e2e: bump smoke test timeout
+545,2017-05-25 03:18:16.000000000,2017-06-13 22:35:02.000000000,closed,2,Use tags for checkpointer releases
+544,2017-05-25 01:56:47.000000000,2017-05-25 21:05:51.000000000,closed,2,Self-checkpointed checkpointer crashloops
+543,2017-05-25 00:41:54.000000000,2017-05-26 23:16:38.000000000,closed,7,Use a variable for the username on coreos to fix the gce quickstart guide
+542,2017-05-25 00:31:18.000000000,2017-05-25 21:22:34.000000000,closed,2,pkg/asset/internal: Set rolling update strategy for DaemonSets
+541,2017-05-24 21:58:24.000000000,2017-05-31 01:12:20.000000000,closed,3,Fix pod-checkpointer container name.
+540,2017-05-24 20:19:41.000000000,2017-05-24 22:20:53.000000000,closed,1,etcdutil: factor out wait ready
+539,2017-05-24 02:54:47.000000000,2017-05-25 03:04:37.000000000,closed,7,e2e: add delete apiserver test
+538,2017-05-23 23:31:39.000000000,2017-05-24 01:18:33.000000000,closed,2,Bump checkpointer image version.
+537,2017-05-23 21:43:35.000000000,2017-05-23 22:59:55.000000000,closed,3,Write active checkpoint manifest atomically.
+536,2017-05-22 22:55:45.000000000,2017-05-22 23:49:14.000000000,closed,0,Update hack scripts and tests to v1.6.4.
+535,2017-05-22 22:52:00.000000000,2017-05-22 23:49:05.000000000,closed,0,Make as many components as possible run as non-root.
+534,2017-05-20 05:30:51.000000000,2017-05-24 04:39:10.000000000,closed,4,Use atomic writes instead of WriteFile
+533,2017-05-20 01:53:59.000000000,2017-05-20 02:38:09.000000000,closed,0,Bump Kubernetes to v1.6.4
+532,2017-05-19 23:21:51.000000000,2017-06-07 02:31:08.000000000,closed,11,e2e: Add checkpointer test
+531,2017-05-19 21:43:07.000000000,2017-06-06 00:28:32.000000000,closed,3,Bootstrap self-hosted etcd is using the 200th IP in the service range
+530,2017-05-19 06:37:38.000000000,2017-05-23 23:00:31.000000000,closed,0,*: move image assignment to asset
+529,2017-05-19 05:47:41.000000000,2017-05-24 02:49:09.000000000,closed,2,e2e reboot test
+528,2017-05-19 03:34:10.000000000,2017-06-02 05:56:39.000000000,closed,8,*: add backup file option to recover subcommand
+527,2017-05-19 03:10:50.000000000,2017-05-22 23:55:25.000000000,closed,2,e2e: add etcd scaling test
+526,2017-05-19 03:05:39.000000000,2017-05-19 06:00:45.000000000,closed,0,Add retry loop to removing bootstrap etcd service.
+525,2017-05-19 03:00:02.000000000,2017-12-05 10:40:23.000000000,closed,5,WIP: Make control plane run as non-root.
+524,2017-05-19 01:45:05.000000000,2017-06-17 03:56:04.000000000,closed,27,Calico policy support
+523,2017-05-19 00:13:36.000000000,2017-05-19 02:59:49.000000000,closed,1,asset: make it easier to load and write asset out of rendering phase
+522,2017-05-18 22:23:44.000000000,2017-05-19 20:37:53.000000000,closed,1,`kube-etcd-cluster.yaml` manifest should be rendered to manifests folder
+521,2017-05-18 06:07:27.000000000,2017-05-18 22:09:57.000000000,closed,0,e2e: Add simple cluster type to make tests migration easier.
+520,2017-05-17 23:43:53.000000000,2017-05-18 22:03:00.000000000,closed,3,*: update etcd-operator image to v0.3.0
+519,2017-05-17 23:04:38.000000000,2017-12-05 10:52:57.000000000,closed,6,Remove critical-pod annotations from scheduler & controller-manager
+518,2017-05-17 22:42:24.000000000,2017-05-25 21:22:34.000000000,closed,0,Daemonset objects should use rolling update strategy
+517,2017-05-17 22:34:13.000000000,2019-06-20 14:01:54.000000000,closed,4,Add license boilerplate for source code files?
+516,2017-05-17 04:09:37.000000000,2017-05-18 05:25:08.000000000,closed,7,e2e: Add a simple ssh client and node type
+515,2017-05-16 01:35:22.000000000,2017-05-17 02:29:21.000000000,closed,4,support bringing up more masters in terraform and quickstart scripts
+514,2017-05-16 01:04:47.000000000,2017-05-16 05:05:51.000000000,closed,0,README.md: Update bare-metal docs link to matchbox
+513,2017-05-15 22:57:56.000000000,2017-06-23 01:34:26.000000000,closed,2,Add Calico network policy support
+512,2017-05-15 22:20:01.000000000,2017-05-16 21:57:41.000000000,closed,4,templates: etcd operator should select master nodes
+511,2017-05-15 22:15:50.000000000,2017-05-17 22:22:13.000000000,closed,5,start of e2e tests
+510,2017-05-13 10:55:46.000000000,2019-06-20 13:00:47.000000000,closed,12,Avoid using host networking on self-hosted API server
+509,2017-05-13 03:12:21.000000000,2017-05-16 02:10:31.000000000,closed,10,SelfHostedEtcd: get etcd service IP from APIServer
+508,2017-05-13 02:19:30.000000000,2017-05-16 02:10:31.000000000,closed,0,recovery: do not try to infer etcd ip from service manifest 
+507,2017-05-13 02:14:13.000000000,2017-05-15 22:35:13.000000000,closed,4,pkg/bootkube: increase count when api object already exists
+506,2017-05-11 23:54:34.000000000,2017-05-12 21:11:23.000000000,closed,1,Documentation: add etcd operator info
+505,2017-05-11 22:38:36.000000000,2017-05-24 22:58:25.000000000,closed,2,WIP: support self hosted etcd recovery
+504,2017-05-11 20:21:26.000000000,2017-10-31 23:00:33.000000000,closed,14,Add more description to main readme and multi-node readme
+503,2017-05-11 19:15:49.000000000,2017-05-12 09:22:27.000000000,closed,0,bootkube can not create multilevel directory for asset insertion
+502,2017-05-10 13:27:13.000000000,2017-11-28 02:50:45.000000000,closed,8,Flock does not propagate signals
+501,2017-05-10 07:20:59.000000000,2017-05-15 22:16:02.000000000,closed,3,e2e: start of test framework
+500,2017-05-10 04:54:42.000000000,2017-05-10 08:16:08.000000000,closed,0,Add apiserver recovery backend.
+499,2017-05-10 03:23:46.000000000,2017-05-16 21:35:21.000000000,closed,4,Add tests for BootstrapControlPlane.
+498,2017-05-10 03:17:07.000000000,2017-05-10 04:02:25.000000000,closed,2,Self-hosted etcd cannot survive pod deletion
+497,2017-05-09 22:02:25.000000000,2017-05-10 03:15:30.000000000,closed,1,Add recovery support for ConfigMaps.
+496,2017-05-06 23:27:35.000000000,2017-05-18 21:03:15.000000000,closed,7,Move etcd TPR generation to render phase.
+495,2017-05-05 23:58:10.000000000,1970-01-01 00:00:00.000000001,open,22,Figure out how we can re-enable healthchecks on the kube-apiserver
+494,2017-05-05 23:11:43.000000000,2017-05-07 10:33:38.000000000,closed,3,Extract all image versions from templates.
+493,2017-05-04 03:30:15.000000000,2017-05-05 00:45:57.000000000,closed,1,templates: update etcd-operator to v0.2.6
+492,2017-05-04 02:51:36.000000000,2017-05-05 01:34:14.000000000,closed,2,pkg/asset/internal: standardize around k8s-app label
+491,2017-05-04 02:02:40.000000000,2017-05-10 01:03:37.000000000,closed,0,Preliminary recovery command for bootkube.
+490,2017-05-02 04:04:02.000000000,2017-05-02 21:01:19.000000000,closed,3,[do not merge] pkg/util: turn on antiAffinity for etcd pods
+489,2017-05-02 02:30:44.000000000,2017-05-05 00:42:41.000000000,closed,2,hack/terraform-quickstart: initial commit
+488,2017-05-02 00:44:06.000000000,2017-05-02 21:02:07.000000000,closed,1,etcd should use pod anti-affinity
+487,2017-05-01 22:58:08.000000000,2017-05-02 06:20:07.000000000,closed,6,terraform: Add terraform module for bootkube render
+486,2017-05-01 22:57:26.000000000,2019-06-22 21:56:14.000000000,closed,9,Documentation: Running bootkube from a container
+485,2017-05-01 21:46:03.000000000,2017-05-03 01:16:11.000000000,closed,0,pkg/assets/internal: Remove duplicated apiVersion
+484,2017-05-01 09:30:37.000000000,2019-05-21 20:34:05.000000000,closed,4,Wait for kube-system service account to be created 
+483,2017-04-30 11:22:51.000000000,2017-09-07 23:20:01.000000000,closed,9,kubelet is getting RBAC errors when talking to bootstrap apiserver
+482,2017-04-29 03:17:05.000000000,2017-04-29 03:52:49.000000000,closed,0,pkg/asset: bump checkpointer image
+481,2017-04-29 02:04:02.000000000,2017-04-29 03:52:36.000000000,closed,2,pkg/util/etcdutil: improve etcd migration logs
+480,2017-04-29 00:19:09.000000000,2017-04-29 00:51:26.000000000,closed,1,checkpoint: Fix garbage collection bug.
+479,2017-04-27 01:12:55.000000000,2017-04-27 01:26:52.000000000,closed,1,Change temporary etcd port to 4001.
+478,2017-04-26 05:14:18.000000000,2017-05-05 04:36:35.000000000,closed,9,"do not merge, testing only"
+477,2017-04-26 03:15:45.000000000,2017-04-26 03:42:00.000000000,closed,1,Fix up some logging configuration.
+476,2017-04-26 02:59:00.000000000,2017-05-18 21:03:15.000000000,closed,4,etcd cluster TPR should be generated as part of the render step
+475,2017-04-25 22:24:26.000000000,2018-08-17 03:06:47.000000000,closed,1,kubelet reporting CNI status hook failure warnings
+474,2017-04-25 21:55:09.000000000,2017-10-26 00:57:50.000000000,closed,2,"Deploy rescheduler to make use of ""critical pod"" annotations "
+473,2017-04-25 06:13:28.000000000,2017-04-25 22:13:41.000000000,closed,1,pkg/bootkube: Remove dependency on github.com/coreos/etcd/pkg/fileutil.
+472,2017-04-25 05:52:01.000000000,2017-04-25 05:59:55.000000000,closed,0,Fix a couple of typos.
+471,2017-04-25 05:28:03.000000000,2017-05-10 04:19:36.000000000,closed,1,WIP(vendor)
+470,2017-04-25 04:53:03.000000000,2017-04-25 05:58:56.000000000,closed,2,vendor: pin etcd-operator to v0.2.5
+469,2017-04-25 03:20:02.000000000,2017-04-25 05:06:12.000000000,closed,1,"vendor: etcd-operator v0.2.5, etcd v3.1.6"
+468,2017-04-25 03:12:39.000000000,2017-04-25 05:07:04.000000000,closed,2,*: make vendor
+467,2017-04-25 00:55:09.000000000,2017-04-25 01:34:19.000000000,closed,0,pkg/asset: Bump pod-checkpointer image version
+466,2017-04-25 00:37:48.000000000,2017-04-25 01:02:55.000000000,closed,0,Bump k8s manifests to v1.6.2
+465,2017-04-24 22:30:29.000000000,2017-04-25 00:03:58.000000000,closed,0,Switch to glide for vendoring & bump k8s v1.62 & client-go v3.0.0-beta.0
+464,2017-04-24 11:39:08.000000000,2017-04-25 22:13:11.000000000,closed,4,pkg/asset/internal: Add --cloud-provider to bootstrap manifests
+463,2017-04-24 11:28:44.000000000,2019-06-21 05:16:55.000000000,closed,14,Nodes unavailable during bootkube start when --cloud-provider=gce
+462,2017-04-22 02:08:50.000000000,2017-04-22 03:06:32.000000000,closed,2,Switch checkpointer to use client-go.
+461,2017-04-22 00:57:53.000000000,2017-04-25 01:09:57.000000000,closed,18,*: update etcd-operator and etcd version
+460,2017-04-20 03:28:47.000000000,2017-04-20 03:55:53.000000000,closed,0,Add `--advertise-address` to bootstrap-apiserver manifest.
+459,2017-04-20 03:14:14.000000000,2017-04-20 03:38:36.000000000,closed,0,Disable insecure apiserver access.
+458,2017-04-20 02:36:37.000000000,2017-04-20 03:33:07.000000000,closed,2,pkg/asset: bump flannel to v0.7.1
+457,2017-04-20 02:13:00.000000000,2017-04-20 02:46:11.000000000,closed,0,hack: remove taints from master node
+456,2017-04-20 01:05:35.000000000,2019-06-21 09:20:55.000000000,closed,10,Self hosted API server cannot resolve cluster DNS names due to hostNetworking
+455,2017-04-19 20:45:02.000000000,2019-06-20 10:58:48.000000000,closed,6,Checkpoint env vars from configmaps/secrets
+454,2017-04-19 06:47:33.000000000,2017-04-20 03:33:07.000000000,closed,0,Bump flannel version to v0.7.1
+453,2017-04-19 06:43:26.000000000,2017-04-20 03:55:53.000000000,closed,0,Add `--advertise-address` to bootstrap-apiserver manifest
+452,2017-04-19 06:19:21.000000000,2017-04-25 03:55:02.000000000,closed,12,self-hosted etcd pods need to tolerate master node taint
+451,2017-04-19 00:14:06.000000000,2017-04-19 00:49:26.000000000,closed,2,nit: Use `operator: Exists` for tolerations
+450,2017-04-18 23:44:38.000000000,2017-04-19 00:49:19.000000000,closed,0,templates: change toleration operator
+449,2017-04-18 22:48:51.000000000,2017-04-18 23:28:01.000000000,closed,3,hack: fix taint value
+448,2017-04-18 22:09:45.000000000,2017-04-18 23:24:52.000000000,closed,1,Rename kenc to kube-etcd-network-checkpointer.
+447,2017-04-18 22:00:06.000000000,2017-04-18 22:40:55.000000000,closed,0,Update APIServer admission controllers.
+446,2017-04-18 21:56:27.000000000,2017-04-18 22:22:54.000000000,closed,0,Remove deprecated --minimum-container-ttl-duration.
+445,2017-04-18 05:11:05.000000000,2017-06-25 01:49:13.000000000,closed,3,Add TLS support for self-hosted etcd clusters
+444,2017-04-18 04:08:52.000000000,2017-04-18 23:24:52.000000000,closed,0,"Rename ""kenc"" to something more descriptive"
+443,2017-04-18 02:23:28.000000000,2017-04-22 00:32:59.000000000,closed,11,Ensure labels are preserved
+442,2017-04-18 00:56:48.000000000,2018-05-02 22:19:04.000000000,closed,1,Remove kubernetes as vendor. Replace with client-go
+441,2017-04-18 00:40:29.000000000,2017-04-18 00:48:29.000000000,closed,0,Patch etcd-operator as part of vendoring process
+440,2017-04-18 00:09:46.000000000,2017-04-18 02:37:00.000000000,closed,0,templates: stop enabling alpha API groups
+439,2017-04-17 23:37:14.000000000,2017-04-18 00:48:29.000000000,closed,0,0.4.0 Release Binary reports version as `v0.4.0-dirty`
+438,2017-04-17 23:31:05.000000000,2017-04-18 22:40:54.000000000,closed,0,Use the upstream recommended admission controllers
+437,2017-04-15 05:27:34.000000000,2017-04-17 21:47:49.000000000,closed,4,Change temporary secrets path to /etc/kubernetes/bootstrap-secrets.
+436,2017-04-15 03:15:50.000000000,2017-04-15 04:38:34.000000000,closed,0,"hack,templates: rename `master` node label"
+435,2017-04-15 01:42:01.000000000,2017-04-15 02:14:44.000000000,closed,0,pkg/asset: Add critical pod annotations to control-plane
+434,2017-04-15 00:35:05.000000000,2017-04-18 22:32:53.000000000,closed,10,templates: add toleration to control-plane components
+433,2017-04-14 21:58:49.000000000,2017-04-18 04:54:44.000000000,closed,3,Add support for generating and using etcd TLS assets.
+432,2017-04-14 21:20:54.000000000,2017-06-20 00:22:05.000000000,closed,6,Documentation: Disaster recovery scenarios
+431,2017-04-14 04:12:54.000000000,2017-04-14 04:21:13.000000000,closed,0,pkg/asset: Bump pod-checkpointer
+430,2017-04-14 01:26:46.000000000,2017-04-14 03:21:42.000000000,closed,1,Use /etc/kubernetes/inactive-manifests instead of /src/kubernetes/manifests
+429,2017-04-14 00:06:55.000000000,2017-04-14 01:48:01.000000000,closed,2,hack/quickstart/init-master.sh: Fix bootkube command.
+428,2017-04-13 04:41:40.000000000,2017-04-13 06:19:51.000000000,closed,1,"hack/*, RELEASE.md: Use local static binary for quickstart and conformance test."
+427,2017-04-12 03:05:31.000000000,2017-04-14 04:36:26.000000000,closed,0,Bump build/build-release.sh Go version to 1.7.5.
+426,2017-04-11 23:18:19.000000000,2019-06-20 09:57:52.000000000,closed,4,Documentation: suggestions for rebooting node or killing pods when updating kubelet minor versions
+425,2017-04-11 22:02:01.000000000,2017-04-14 21:42:25.000000000,closed,12,Use static assets for temporary control plane.
+424,2017-04-11 20:49:45.000000000,2019-06-22 02:37:18.000000000,closed,6,Build pod-checkpointer images for multiple architectures
+423,2017-04-11 05:07:22.000000000,2017-04-25 02:05:57.000000000,closed,2,DO NOT REVIEW testing pr tests
+422,2017-04-11 02:34:21.000000000,2017-04-14 03:33:28.000000000,closed,12,templates.go: Update manifest for Kubernetes 1.6
+421,2017-04-10 22:43:57.000000000,2017-04-14 12:47:43.000000000,closed,8,templates: ensure critical components dont coexist
+420,2017-04-10 22:40:35.000000000,2017-04-10 22:44:23.000000000,closed,5,Bump conformance + manifests to v1.6.1
+419,2017-04-10 21:10:25.000000000,2017-05-05 22:53:07.000000000,closed,8,hack: Alphabetize kubelet options in hack scripts
+418,2017-04-06 05:34:32.000000000,2017-04-07 00:10:50.000000000,closed,8,Fix apiserver etcd-servers flag when self-hosting.
+417,2017-04-06 03:08:10.000000000,2017-04-07 03:38:16.000000000,closed,1,release-0.3 branch: hack/quickstart: bootkube v0.3.13 and kubelet v1.5.6
+416,2017-04-06 01:36:19.000000000,2017-04-07 03:37:42.000000000,closed,1,hack/quickstart: bootkube v0.3.13 and kubelet v1.5.6
+415,2017-04-05 00:25:31.000000000,2017-04-05 01:01:26.000000000,closed,0,conformance-gce.sh: Pin to a particular gcloud installer version.
+414,2017-04-04 23:31:53.000000000,2017-04-05 00:22:27.000000000,closed,1,conformance-gce.sh: Pin to a particular gcloud installer version.
+413,2017-04-04 22:32:31.000000000,2017-04-05 04:21:17.000000000,closed,1,RELEASING.md: Update the jenkins job name.
+412,2017-04-04 22:12:44.000000000,2017-04-04 22:44:04.000000000,closed,0,pkg/asset: bump kube-dns manifest for v1.5.6 release
+411,2017-04-04 21:45:42.000000000,2017-04-07 00:10:50.000000000,closed,0,`bootkube start` should allow specifying multiple etcd-servers
+410,2017-03-30 05:40:28.000000000,2017-04-07 03:41:58.000000000,closed,10,Bump to v1.6.1+coreos.0
+409,2017-03-30 00:58:11.000000000,2017-03-31 05:17:10.000000000,closed,5,backports to release 0.3 branch
+408,2017-03-30 00:48:03.000000000,2017-04-04 05:26:55.000000000,closed,17,*.*: Bump k8s version v1.5.6.
+407,2017-03-29 18:28:30.000000000,2017-10-02 23:00:13.000000000,closed,11,Documentation: using alternative CNI plugins
+406,2017-03-25 21:38:48.000000000,2019-06-20 22:09:46.000000000,closed,11,hack: deprecate cluster spin-up in favor of tectonic installer
+405,2017-03-25 01:35:08.000000000,2017-09-27 00:46:59.000000000,closed,9,Use CNI pod to deploy CNI plugins to host filesystem
+404,2017-03-24 22:33:47.000000000,2017-04-18 22:22:54.000000000,closed,2,v1.6.0 deprecated flag --minumum-container-ttl-duration
+403,2017-03-24 21:38:28.000000000,2017-04-18 05:10:08.000000000,closed,6,Support etcd+TLS
+402,2017-03-24 21:17:37.000000000,2019-06-20 08:56:51.000000000,closed,9,Flannel Daemon Set does not have a health check in templates.go
+401,2017-03-23 05:02:38.000000000,2017-04-25 05:08:07.000000000,closed,0,test: new sub-tree for end-to-end testing
+400,2017-03-23 03:36:12.000000000,2017-03-24 21:27:14.000000000,closed,4,docs: fix typo in quickstart-aws.md
+399,2017-03-22 22:10:56.000000000,2017-04-15 02:08:56.000000000,closed,5,hack/quickstart needs to support locally built binary & container releases
+398,2017-03-22 22:05:12.000000000,2017-03-22 22:33:07.000000000,closed,0,hack/quickstart: bump to latest bootkube release
+397,2017-03-22 20:53:40.000000000,2019-06-20 10:58:45.000000000,closed,4,Document bootkube versioning
+396,2017-03-22 07:51:17.000000000,2017-04-04 22:11:38.000000000,closed,2,backports to release 0.3 branch
+395,2017-03-22 07:15:16.000000000,2017-03-22 07:53:10.000000000,closed,2,Bump k8s version v1.5.5
+394,2017-03-22 06:43:42.000000000,2017-03-22 07:05:47.000000000,closed,2,Bump k8s version v1.5.5
+393,2017-03-22 04:29:44.000000000,2019-06-22 07:42:19.000000000,closed,5,Support for offline installs
+392,2017-03-21 01:06:23.000000000,2017-04-05 03:02:11.000000000,closed,2,pkg: Alphabetize hyperkube command options
+391,2017-03-21 00:38:12.000000000,2017-03-21 04:49:49.000000000,closed,7,Add liveness probes
+390,2017-03-20 22:16:23.000000000,2017-03-21 04:49:49.000000000,closed,0,Controller manager and scheduler should have liveness probes
+389,2017-03-17 20:49:11.000000000,2017-04-18 04:56:04.000000000,closed,2,Etcd with tls
+388,2017-03-17 19:21:49.000000000,2017-05-16 21:55:46.000000000,closed,15,Add port requirements doc
+387,2017-03-17 17:01:59.000000000,2017-04-20 12:53:04.000000000,closed,11,Ensure labels are preserved
+386,2017-03-16 21:21:25.000000000,2017-03-16 22:16:12.000000000,closed,3,etcd_operator: bump image and vendor version to 0.2.4
+385,2017-03-15 15:36:35.000000000,2017-04-14 23:50:56.000000000,closed,8,Use `podAntiAffinity` to schedule control plane pods to different nodes.
+384,2017-03-15 04:37:57.000000000,2017-03-15 21:30:21.000000000,closed,0,hack/quickstart: remove deprecated flag
+383,2017-03-14 23:06:31.000000000,2017-03-15 01:45:25.000000000,closed,2,cmd/render: Rename —self-host-kubelet to —experimental-self-hosted-kublet
+382,2017-03-14 18:39:50.000000000,2017-03-15 01:43:27.000000000,closed,2,Single node self hosted etcd
+381,2017-03-14 15:45:07.000000000,2017-04-20 12:44:42.000000000,closed,6,Disable --insecure-port flag for api-server
+380,2017-03-14 03:42:19.000000000,2017-03-14 08:20:58.000000000,closed,8,SelfHostedEtcd: update etcd-operator and kenc
+379,2017-03-14 02:04:22.000000000,2018-01-13 04:50:11.000000000,closed,5,self hosted etcd: reboot/poweroff testing
+378,2017-03-14 01:50:53.000000000,2017-04-22 00:32:59.000000000,closed,3,Checkpointer should support checkpointing pod labels
+377,2017-03-13 22:52:50.000000000,2017-03-21 00:39:36.000000000,closed,6,Disable garbage collector
+376,2017-03-13 20:59:58.000000000,2017-03-14 03:39:27.000000000,closed,9,*: fix etcd and kenc container command
+375,2017-03-13 20:50:45.000000000,2017-07-19 06:06:29.000000000,closed,1,Create a ROADMAP.md doc
+374,2017-03-11 04:09:42.000000000,2017-03-11 05:44:46.000000000,closed,0,hack/quickstart: bump to bootkube v0.3.11 & k8s v1.5.4
+373,2017-03-11 04:06:27.000000000,2017-03-14 08:20:58.000000000,closed,4,self-hosted etcd cluster will not survive master reboot
+372,2017-03-11 03:28:08.000000000,2017-04-15 02:07:29.000000000,closed,10,Bootkube prematurely exits if scheduler/controller-manager lose leader-election
+371,2017-03-11 03:06:47.000000000,2017-04-18 05:12:11.000000000,closed,2,kubernetes GC bug could cause self-hosted etcd mode to fill up disk quickly and fail
+370,2017-03-11 02:15:34.000000000,2017-03-13 22:03:54.000000000,closed,6,cmd/render: Infer etcd-servers from service-cidr for self-hosted etcd
+369,2017-03-11 02:02:27.000000000,2017-03-11 02:30:48.000000000,closed,0,Bump to kubernetes V1.5.4
+368,2017-03-10 20:52:57.000000000,2017-03-13 22:02:22.000000000,closed,5,Wait for kube-system namespace before creating assets
+367,2017-03-10 18:39:46.000000000,2017-03-13 21:06:48.000000000,closed,8,ETCD Fails to start
+366,2017-03-10 07:14:26.000000000,2017-03-30 04:23:51.000000000,closed,4,Checkpoint and activate itself.
+365,2017-03-10 06:49:37.000000000,2017-04-11 02:38:05.000000000,closed,6,WIP: DO NOT MERGE v1.6.0 updates
+364,2017-03-10 04:46:45.000000000,2017-03-10 05:15:26.000000000,closed,0,hack: ensure /etc/kubernetes dir exists
+363,2017-03-10 00:28:02.000000000,2017-03-10 02:27:32.000000000,closed,0,hack: copy ca.crt to host as part of vagrant provisioning
+362,2017-03-09 23:26:15.000000000,2017-03-11 00:06:09.000000000,closed,7,make single-node hangs
+361,2017-03-09 17:31:03.000000000,2019-06-20 07:55:51.000000000,closed,8,"Should there be a ""kubernetes-operator""?"
+360,2017-03-09 05:12:27.000000000,2017-03-09 06:18:46.000000000,closed,6,quickstart: fix for ca.crt
+359,2017-03-09 04:49:06.000000000,2017-03-09 08:57:35.000000000,closed,3,SelfHostedEtcd: etcd pods only run on master nodes
+358,2017-03-09 02:54:43.000000000,2017-03-09 06:02:48.000000000,closed,2,bootkube start attempts to create the assets too fast
+357,2017-03-09 01:01:03.000000000,2017-03-09 01:49:08.000000000,closed,3,emptyDir volume was lost after node restart
+356,2017-03-08 01:59:04.000000000,2017-03-09 05:23:21.000000000,closed,10,SelfHostedEtcd: Add kenc as DS in master nodes
+355,2017-03-07 03:10:01.000000000,2017-10-28 01:53:49.000000000,closed,12,"Pods in new cluster lack Service Account token, ca.crt & namespace when using self-hosted kubelet"
+354,2017-03-06 21:17:22.000000000,2017-05-12 06:22:11.000000000,closed,6,Allow API server port selection
+353,2017-03-06 21:17:13.000000000,2017-03-06 21:17:44.000000000,closed,0,Allow API server port selection
+352,2017-03-06 08:42:27.000000000,2017-03-06 21:50:24.000000000,closed,6,remove duplicate cloud-routes parameter
+351,2017-03-04 03:32:02.000000000,2017-03-09 01:33:30.000000000,closed,7,Replace deprecated env vars passed to the kubelet-wrapper
+350,2017-03-04 02:57:33.000000000,2017-03-11 05:44:29.000000000,closed,5,support self-hosted etcd in quickstart scripts
+349,2017-03-04 00:42:57.000000000,2017-03-08 22:48:05.000000000,closed,5,Update gce quickstart to use CLUSTER_PREFIX always
+348,2017-03-03 04:14:27.000000000,2017-03-03 23:12:27.000000000,closed,2,cmd/checkpoint: use kubelet's client certs for the kubelet API
+347,2017-03-02 20:08:12.000000000,2017-03-03 01:29:05.000000000,closed,11,"bootkube on baremetal with Container Linux, rkt and flannel"
+346,2017-03-02 06:04:52.000000000,2017-03-02 06:48:01.000000000,closed,6,unable to scale self-hosted etcd
+345,2017-03-02 03:50:35.000000000,2017-03-09 02:56:42.000000000,closed,17,use a client cert for API server to kubelet communication
+344,2017-03-02 01:20:24.000000000,2017-05-16 21:55:46.000000000,closed,0,Document the ports that we require to be open between master/worker nodes.
+343,2017-03-02 00:24:19.000000000,2018-01-13 04:52:59.000000000,closed,3,Multi-node testing of self-hosted etcd cluster
+342,2017-03-01 22:41:21.000000000,2017-03-02 00:36:41.000000000,closed,1,Multiple automated master nodes (e.g. in autoscaling group)
+341,2017-03-01 19:31:45.000000000,2017-03-07 00:12:33.000000000,closed,3,hack/multi-node example does not manage to start flannel on worker node with self-hosted etcd
+340,2017-03-01 11:53:50.000000000,2017-03-02 00:43:47.000000000,closed,1,adds k8s slack channel info to readme
+339,2017-03-01 11:00:08.000000000,2017-03-01 11:33:27.000000000,closed,2,added channel information
+338,2017-03-01 05:24:24.000000000,2017-11-23 00:44:33.000000000,closed,3,apiserver: x509 certs with multiple groups don't authenticate properly
+337,2017-03-01 03:09:39.000000000,2017-03-15 01:44:36.000000000,closed,7,Support easily launching self-hosted etcd clusters with all hack/* examples
+336,2017-02-28 23:53:29.000000000,2017-03-10 06:50:23.000000000,closed,6,TESTING 1.6: beta.0.updates
+335,2017-02-28 00:59:41.000000000,2017-02-28 02:20:58.000000000,closed,2,checkpoint/recovery iptables for self hosted etcd deployement
+334,2017-02-26 23:47:39.000000000,2019-06-24 13:35:14.000000000,closed,5,bootkube panics and exits when third party resources are present 
+333,2017-02-26 23:10:53.000000000,2018-08-17 03:05:42.000000000,closed,14,bootkube cannot recover from full control plane loss
+332,2017-02-25 05:40:44.000000000,2017-02-27 22:23:38.000000000,closed,0,cmd/checkpoint: run gofmt -w -s
+331,2017-02-25 00:26:49.000000000,2017-02-27 22:24:14.000000000,closed,0,pkg/bootkube: use full asset path in log messages
+330,2017-02-24 06:06:20.000000000,2017-02-24 22:21:02.000000000,closed,0,quickstart: bump bootkube version
+329,2017-02-24 03:37:22.000000000,2017-03-13 22:03:54.000000000,closed,3,When self-hosting etcd - we should set --etcd-servers based on service-cidr
+328,2017-02-23 06:08:53.000000000,2017-03-02 23:51:15.000000000,closed,11,pkg: re-enable RBAC
+327,2017-02-23 03:24:33.000000000,2017-02-28 00:42:29.000000000,closed,20,SelfHostedEtcd: updates to use beta of etcd operator
+326,2017-02-23 02:41:32.000000000,2017-02-24 00:53:18.000000000,closed,0,explain PR tests commands
+325,2017-02-23 01:43:25.000000000,2017-11-23 00:45:26.000000000,closed,2,URL without scheme panic when using Go 1.8
+324,2017-02-22 23:33:18.000000000,2017-04-20 03:38:36.000000000,closed,11,api-server: stop listening with insecure port
+323,2017-02-22 07:19:48.000000000,2017-02-24 00:55:58.000000000,closed,1,hack/*: GC kubelet rkt images after run.
+322,2017-02-22 05:40:22.000000000,2017-02-24 00:45:18.000000000,closed,1,pkg/assets/tls: Update organization name
+321,2017-02-22 05:26:05.000000000,2017-02-23 01:26:52.000000000,closed,6,*: revert TLS bootstrapping
+320,2017-02-18 11:15:47.000000000,2017-03-07 02:07:48.000000000,closed,15,Add support for configmap in checkpointer
+319,2017-02-18 05:55:57.000000000,2017-03-13 22:02:22.000000000,closed,6,Ensure kube-system namespace exists prior to creating cluster assets
+318,2017-02-18 01:50:44.000000000,2017-02-24 03:36:15.000000000,closed,21,"pkg,cmd: Add Kubernetes pod and service CIDR customziation"
+317,2017-02-17 13:28:01.000000000,2017-02-18 06:49:55.000000000,closed,1,hack/quickstart: bump bootkube image to v0.3.8
+316,2017-02-17 08:11:01.000000000,2017-02-17 08:15:50.000000000,closed,0,hack/quickstart: fix for conformance script
+315,2017-02-17 04:49:20.000000000,2017-02-22 12:04:07.000000000,closed,5,pkg/asset: Add a kubelet CSR auto-approver
+314,2017-02-17 04:04:41.000000000,2017-02-17 06:18:29.000000000,closed,0,hack/multi-node: remove deprecated flag
+313,2017-02-17 03:35:06.000000000,2017-02-17 08:57:59.000000000,closed,2,conformance failures
+312,2017-02-16 22:59:34.000000000,2017-03-01 02:25:54.000000000,closed,20,self-hosted etcd not working on current master
+311,2017-02-16 13:04:14.000000000,2019-06-26 15:24:07.000000000,closed,13,Instructions for multi master
+310,2017-02-16 09:30:02.000000000,2017-02-17 06:19:02.000000000,closed,0,"Revert ""self hosted etcd: bump version"""
+309,2017-02-16 07:01:45.000000000,2017-02-17 07:23:00.000000000,closed,1,hack/tests: update conformance scripts for tls-bootstraping
+308,2017-02-16 05:04:50.000000000,2017-02-16 05:49:18.000000000,closed,0,V1.5.3
+307,2017-02-16 04:54:49.000000000,2017-02-18 06:48:59.000000000,closed,8,Detect pod and service CIDR from manifests
+306,2017-02-15 23:00:21.000000000,2017-02-15 23:11:27.000000000,closed,3,self hosted etcd: bump version
+305,2017-02-15 05:10:07.000000000,2019-06-24 13:35:15.000000000,closed,5,Bootstrap timeout could be too short based on internet speed
+304,2017-02-15 05:06:11.000000000,2017-02-15 06:15:01.000000000,closed,0,pkg/bootkube: increase timeout for asset creation
+303,2017-02-15 00:09:00.000000000,2017-02-15 00:20:48.000000000,closed,0,Remove unused policy.yaml
+302,2017-02-14 23:54:35.000000000,2019-06-20 06:54:49.000000000,closed,4,"Add ""How it works"" section to README"
+301,2017-02-14 23:28:38.000000000,2017-11-27 20:45:41.000000000,closed,1,Remove need for kube-proxy kubeconfig host-mount
+300,2017-02-14 23:05:48.000000000,2017-02-14 23:19:48.000000000,closed,0,hack/quickstart: bump the bootkube image to v0.3.7
+299,2017-02-14 19:00:39.000000000,2017-05-16 21:59:29.000000000,closed,17,hack: openstack: initial commit
+298,2017-02-11 07:27:58.000000000,2017-02-15 00:02:49.000000000,closed,9,templates: ensure critical components dont coexist
+297,2017-02-09 12:57:41.000000000,2019-06-20 07:55:48.000000000,closed,8,New approach to setup Kubernetes cluster with bootkube
+296,2017-02-08 14:05:42.000000000,2017-02-14 23:58:52.000000000,closed,5,Add etcd-operator to requiredPods when selfHostedEtcd is true
+295,2017-02-07 05:04:26.000000000,2019-06-24 13:35:16.000000000,closed,4,Warn users when etcd already contains the /registry prefix 
+294,2017-02-04 19:57:50.000000000,2017-02-08 10:52:20.000000000,closed,0,Should --storage-backend option exist?
+293,2017-02-04 07:03:07.000000000,2017-02-04 07:25:39.000000000,closed,1,pkg: bump hyperkube to v1.5.2_coreos.2
+292,2017-02-03 03:58:11.000000000,2017-02-14 08:15:03.000000000,closed,5,Worker Node behind NAT gateway (external IP handling)
+291,2017-01-27 23:32:40.000000000,2017-02-03 00:40:38.000000000,closed,0,hack/quickstart: Bump Bootkube to v0.3.5
+290,2017-01-27 05:06:52.000000000,2017-02-03 00:40:54.000000000,closed,0,hack/quickstart: Bump Kubelet to 1.5.2
+289,2017-01-26 05:37:57.000000000,2017-02-08 01:24:18.000000000,closed,0,README: link to upstream self-hosted doc
+288,2017-01-21 04:08:56.000000000,2018-02-21 23:36:35.000000000,closed,2,Possibly deploy checkpointer to all nodes.
+287,2017-01-21 03:20:45.000000000,2017-01-21 04:09:43.000000000,closed,1,	 SHE: remove boot etcd manifest after migration
+286,2017-01-21 02:16:26.000000000,2017-01-21 02:58:16.000000000,closed,0,Docs: Add more detail to the release instructions
+285,2017-01-20 12:15:26.000000000,2017-01-21 02:25:11.000000000,closed,1,Node kubelet restart loop hogs CPU when using self-host-kubelet 
+284,2017-01-20 02:57:45.000000000,2017-03-16 05:01:59.000000000,closed,22,self hosted etcd: checkpoint iptables on master nodes
+283,2017-01-20 02:51:43.000000000,2017-01-21 04:09:43.000000000,closed,2,self hosted etcd: remove boot etcd manifest after migration
+282,2017-01-19 23:40:33.000000000,2017-01-20 01:40:40.000000000,closed,0,Bump hyperkube image to v1.5.2_coreos.1
+281,2017-01-19 04:57:37.000000000,2017-01-19 06:34:55.000000000,closed,0,pkg/asset: bump checkpoint image
+280,2017-01-19 04:43:03.000000000,2017-01-19 04:47:31.000000000,closed,1,checkpoint: re-use http client transport
+279,2017-01-18 06:47:11.000000000,2017-01-18 08:08:43.000000000,closed,0,V1.5.2
+278,2017-01-18 06:03:05.000000000,2017-01-18 06:06:12.000000000,closed,0,hack/multi-node: warn about self-hosted etcd option
+277,2017-01-18 04:45:19.000000000,2017-02-15 00:26:59.000000000,closed,1," ""Too many authentication failures"" when launching GCE nodes."
+276,2017-01-18 03:06:48.000000000,2017-02-03 20:17:06.000000000,closed,10,pkg/asset: Pin kube-controller-manager and kube-scheduler to masters
+275,2017-01-17 23:36:23.000000000,2017-03-15 01:45:25.000000000,closed,2,change --self-host-kubelet flag to --experimental-self-host-kubelet
+274,2017-01-17 23:29:33.000000000,2017-01-18 04:51:17.000000000,closed,1,hack/tests: add logging and a delay when launching GCE workers
+273,2017-01-16 10:57:46.000000000,2017-01-18 06:07:12.000000000,closed,1,bootkube crash: panic in kubernetes:pkg/util/runtime/runtime.go
+272,2017-01-13 05:12:03.000000000,2017-01-13 07:07:34.000000000,closed,2,pkg/asset: Bump checkpointer version
+271,2017-01-13 02:31:18.000000000,2017-01-18 05:59:03.000000000,closed,0,hack/multi-node: self hosted etcd option
+270,2017-01-13 00:51:54.000000000,2017-01-18 06:00:58.000000000,closed,6,vendor: etcd-operator
+269,2017-01-12 08:09:01.000000000,2017-01-12 22:47:11.000000000,closed,4,fixes typo: illegal space
+268,2017-01-12 07:08:54.000000000,2017-01-13 01:44:25.000000000,closed,0,checkpoint: Get local pod running state from /runningpods/ endpoint
+267,2017-01-11 06:29:26.000000000,2017-01-13 01:44:25.000000000,closed,2,Will not recover if you delete the last api-server pod
+266,2017-01-11 04:42:31.000000000,2017-01-11 05:12:57.000000000,closed,0,pkg/asset: Bump flannel image to v0.7.0
+265,2017-01-10 07:14:56.000000000,2017-01-11 00:47:37.000000000,closed,1,hack/multi-node: Add option to launch with self-hosted etcd
+264,2017-01-10 03:25:19.000000000,2017-01-10 06:36:34.000000000,closed,11,pkg/asset/internal: Introduce a Flock around the API server
+263,2017-01-07 01:04:16.000000000,2017-02-03 23:37:27.000000000,closed,4,Rename label master=true to kubernetes.io/role=master & Pin controller services
+262,2017-01-07 00:54:14.000000000,2017-01-10 07:50:44.000000000,closed,6,master reboot test is failing
+261,2017-01-06 06:42:11.000000000,2017-02-11 04:47:26.000000000,closed,27,Enable TLS Bootstrapping / RBAC
+260,2017-01-05 10:41:51.000000000,2017-02-15 23:11:57.000000000,closed,7,Bump etcd to v3.1.0-rc.1 now that it's released.
+259,2017-01-05 01:39:31.000000000,2017-01-20 04:43:55.000000000,closed,26,fix: self hosted etcd
+258,2017-01-04 10:56:27.000000000,2017-01-05 00:18:31.000000000,closed,6,cluster fails to bootstrap due to self-hosted flannel
+257,2017-01-04 07:48:13.000000000,2017-01-04 23:55:03.000000000,closed,3,asset: set the advertise address based on pod ip
+256,2017-01-04 06:22:19.000000000,2017-01-04 06:23:56.000000000,closed,1,Should we not enable clabot here?
+255,2017-01-04 06:20:28.000000000,2017-01-04 06:35:24.000000000,closed,2,Use official kubernetes documents
+254,2016-12-31 05:03:15.000000000,2017-01-03 23:48:33.000000000,closed,0,quickstart: bump to bootkube v0.3.1 release
+253,2016-12-31 01:08:11.000000000,2017-04-03 20:46:52.000000000,closed,7,checkpointer: should GC itself if installer no longer scheduled
+252,2016-12-30 06:59:39.000000000,2016-12-30 23:54:52.000000000,closed,4,checkpointer: bump to new implementation
+251,2016-12-30 01:18:30.000000000,2017-10-28 01:53:21.000000000,closed,6,Self-hosted kubelet not working correctly
+250,2016-12-29 11:57:48.000000000,2017-02-14 23:50:24.000000000,closed,6,Added service-cluster-ip-range as flag to bootkube start
+249,2016-12-29 11:49:32.000000000,2016-12-29 11:50:59.000000000,closed,2,Service cluster ip range
+248,2016-12-29 11:41:33.000000000,2016-12-29 11:43:34.000000000,closed,2,Service cluster ip range
+247,2016-12-29 07:22:54.000000000,2016-12-31 04:09:43.000000000,closed,6,Configure pod-network via flannel CNI daemonset
+246,2016-12-22 04:46:25.000000000,2017-04-18 05:23:38.000000000,closed,3,use upstream labels for member roles
+245,2016-12-22 01:22:41.000000000,2017-04-18 05:36:37.000000000,closed,8,Allow talking to secure etcd (authentication through client certs)
+244,2016-12-21 05:36:44.000000000,2017-04-18 04:54:44.000000000,closed,1,Add options to pass etcd certs to bootkube
+243,2016-12-21 03:23:06.000000000,2016-12-21 03:56:43.000000000,closed,1,hack/GCE: use --image-family for CoreOS channel
+242,2016-12-21 00:32:54.000000000,2016-12-21 01:09:31.000000000,closed,0,quickstart: bump to bootkube v0.3.0 & k8s v1.5.1
+241,2016-12-20 23:51:32.000000000,2017-02-03 02:26:22.000000000,closed,21,Use etcd3 for both the temporary and self-hosted control planes
+240,2016-12-20 23:37:26.000000000,2018-02-05 22:33:32.000000000,closed,5,Documentation: etcd Operator + bootkube
+239,2016-12-20 23:31:01.000000000,2017-02-14 23:56:00.000000000,closed,3,Documentation: add diagrams from self-hosted document
+238,2016-12-20 08:07:39.000000000,2016-12-30 05:54:02.000000000,closed,10,checkpointer: rewrite for generic pod checkpoints
+237,2016-12-16 05:38:06.000000000,2017-02-15 00:40:15.000000000,closed,2,v1.5.1 single conformance test failure
+236,2016-12-16 04:15:57.000000000,2017-02-24 22:53:38.000000000,closed,5,Add flag to pass cluster CIDR to bootkube render
+235,2016-12-16 00:23:07.000000000,2016-12-17 05:34:34.000000000,closed,0,tests: parameterize prefix for GCE assets in conformance tests
+234,2016-12-15 05:14:58.000000000,2016-12-15 05:35:36.000000000,closed,0,Bump the checkpoint image version - which also contains a namechange
+233,2016-12-15 04:49:26.000000000,2016-12-15 04:55:55.000000000,closed,1,rename api-checkpointer to pod-checkpointer
+232,2016-12-15 04:28:50.000000000,2016-12-20 08:49:38.000000000,closed,2,Add support for template overrides
+231,2016-12-15 03:33:10.000000000,2016-12-15 04:15:15.000000000,closed,2,Checkpoint revert
+230,2016-12-15 00:58:48.000000000,2016-12-15 02:30:38.000000000,closed,0,pkg/asset/internal: label key naming consistency
+229,2016-12-15 00:07:36.000000000,2016-12-15 05:44:51.000000000,closed,2,Add missing --cloud-provider parameter to kubelet
+228,2016-12-14 23:24:38.000000000,2016-12-22 05:52:29.000000000,closed,2,pkg/asset: Add OIDC flags to kube-apiserver
+227,2016-12-14 00:57:57.000000000,2016-12-14 03:53:03.000000000,closed,1,checkpointer: log to stderr
+226,2016-12-13 08:19:50.000000000,2016-12-14 00:07:41.000000000,closed,0,K8s v1.4.7
+225,2016-12-13 06:42:59.000000000,2016-12-15 05:36:46.000000000,closed,5,rename api-checkpointer to pod-checkpointer
+224,2016-12-09 04:50:42.000000000,2016-12-16 02:52:48.000000000,closed,2,1.5.1 updates
+223,2016-12-07 04:21:54.000000000,2016-12-31 01:12:05.000000000,closed,1,checkpointer should use pod healthchecks to determine if safe to checkpoint
+222,2016-12-07 03:42:23.000000000,2016-12-31 01:09:23.000000000,closed,2,checkpointer should GC checkpointed configMaps and Secrets that are no longer needed 
+221,2016-12-07 02:44:01.000000000,2016-12-21 03:56:43.000000000,closed,0,use --image-family coreos-stable instead of --image in gce guides
+220,2016-12-07 02:40:10.000000000,2016-12-31 00:28:12.000000000,closed,29,checkpoint: understand annotation
+219,2016-12-06 10:29:36.000000000,2016-12-07 01:58:32.000000000,closed,10,checkpoint: explicitly load checkpoint manifests
+218,2016-12-06 08:20:50.000000000,2017-02-24 00:55:58.000000000,closed,1,GC kubelet rkt images
+217,2016-12-06 07:13:02.000000000,2016-12-07 01:30:10.000000000,closed,1,Jenkins 2
+216,2016-12-06 07:01:24.000000000,2016-12-06 07:18:34.000000000,closed,1,Jenkins test
+215,2016-12-06 01:51:44.000000000,2016-12-06 06:23:38.000000000,closed,0,1.5 updates for testing only
+214,2016-12-06 01:11:07.000000000,2016-12-06 06:23:02.000000000,closed,1,Testing PR #213
+213,2016-12-06 00:14:00.000000000,2016-12-06 09:15:13.000000000,closed,3,checkpoint: remove template checkpoint pod spec
+212,2016-12-04 03:21:24.000000000,2017-02-15 01:13:44.000000000,closed,4,Verbose glog level for bootstrap components
+211,2016-12-03 06:53:01.000000000,2016-12-06 00:10:07.000000000,closed,0,Add initial release documentation
+210,2016-12-02 22:41:22.000000000,2016-12-31 00:29:35.000000000,closed,7,checkpoint: use Annotations for finding checkpoint pod
+209,2016-12-02 11:50:52.000000000,2017-02-14 23:51:10.000000000,closed,5,hack: openstack: initial commit
+208,2016-12-02 11:46:30.000000000,2016-12-02 22:29:33.000000000,closed,2,Using static Pod manifests instead of Golang for bootstrapping the control plane
+207,2016-12-02 11:14:27.000000000,2017-03-09 01:33:30.000000000,closed,2,kubelet-wrapper warnings
+206,2016-12-01 02:18:26.000000000,2017-04-03 20:47:07.000000000,closed,3,checkpoint installer should source manifests from api-object
+205,2016-11-30 04:07:31.000000000,2016-12-31 01:12:20.000000000,closed,1,checkpointer should use pod annotations to decide if something should be checkpointed
+204,2016-11-30 01:59:53.000000000,2016-12-31 00:28:37.000000000,closed,3,checkpoint: support etcd checkpoint
+203,2016-11-29 04:58:03.000000000,2016-11-29 05:04:22.000000000,closed,0,gitignore hack/*/ssh_config
+202,2016-11-29 04:50:12.000000000,2016-11-29 05:04:32.000000000,closed,0,Specify cluster identifier in quickstart guides
+201,2016-11-29 04:32:15.000000000,2016-11-30 02:25:45.000000000,closed,0,test PR for 199
+200,2016-11-25 22:47:04.000000000,2017-03-01 20:27:26.000000000,closed,3,Enable bootkube setup behind proxy
+199,2016-11-24 02:20:44.000000000,2016-11-29 05:08:32.000000000,closed,5,checkpoint: make run func generic
+198,2016-11-23 08:12:44.000000000,2017-02-15 01:13:44.000000000,closed,0,Allow --v to be set
+197,2016-11-23 06:49:15.000000000,2016-11-23 08:14:36.000000000,closed,1,hack: multi-node use the ssh-config
+196,2016-11-23 06:32:40.000000000,2016-11-23 23:07:39.000000000,closed,1,test
+195,2016-11-22 07:52:46.000000000,2016-11-23 10:11:08.000000000,closed,5,Set proxy hostname and cluster cidr
+194,2016-11-22 07:51:43.000000000,2016-11-23 10:11:08.000000000,closed,0,service IP to remote host-networking pod does not work in vagrant
+193,2016-11-22 05:49:30.000000000,2016-11-22 06:42:58.000000000,closed,2,render: add flag to optionally create self hosted assets
+192,2016-11-22 05:25:50.000000000,2016-11-22 06:42:58.000000000,closed,0,Only create etcd-operator when self-hosted etcd enabled
+191,2016-11-19 04:21:40.000000000,2016-11-19 04:43:11.000000000,closed,2,use self hosted spec and change static etcd pod
+190,2016-11-19 03:31:35.000000000,2016-11-19 03:52:36.000000000,closed,1,create 1.4 clientset from config and use its RESTClient
+189,2016-11-19 03:06:27.000000000,2016-11-19 03:26:19.000000000,closed,1,use etcd server from config
+188,2016-11-18 23:20:30.000000000,2016-11-18 23:37:10.000000000,closed,0,Bump checkpointer version
+187,2016-11-17 18:55:08.000000000,2016-11-23 16:45:40.000000000,closed,0,image/checkpoint: allow setting alternate mirror repo
+186,2016-11-17 12:05:21.000000000,2016-11-18 23:38:38.000000000,closed,3,pkg/asset: Add CloudProvider field to Config
+185,2016-11-16 23:26:53.000000000,2016-11-17 01:01:34.000000000,closed,0,V1.4.6
+184,2016-11-16 03:57:39.000000000,2016-11-18 22:20:52.000000000,closed,11,self hosted etcd migration
+183,2016-11-16 01:43:03.000000000,2016-12-31 01:08:14.000000000,closed,1,checkpointer needs to GC pods (and itself) when are no longer scheduled to node
+182,2016-11-16 01:32:41.000000000,2016-11-16 02:43:21.000000000,closed,0,asset: add cloud provider as config option
+181,2016-11-15 22:47:28.000000000,2016-11-16 01:36:10.000000000,closed,0,asset: Remove version info from dns addon
+180,2016-11-15 21:39:19.000000000,2017-02-15 00:46:03.000000000,closed,4,images/checkpoint: can't pull pod-checkpointer from a private proxy repo
+179,2016-11-08 18:15:30.000000000,2016-12-02 00:27:27.000000000,closed,9,expose skydns and dnsmasq metrics
+178,2016-11-07 20:52:41.000000000,2016-11-15 05:20:59.000000000,closed,2,Stripping of nonessential info prior to checkpointing
+177,2016-11-07 20:42:26.000000000,2016-11-07 20:44:12.000000000,closed,0,Strip nonessential info
+176,2016-11-05 04:45:13.000000000,2016-11-15 04:50:45.000000000,closed,2,etcd: add self hosted etcd mode
+175,2016-11-03 01:23:37.000000000,2016-11-03 01:26:08.000000000,closed,0,Allow conformance test to override bootkube version
+174,2016-11-02 04:46:05.000000000,2016-11-02 21:13:11.000000000,closed,6,Developing self hosted etcd as a feature flag
+173,2016-11-01 23:25:01.000000000,2016-11-01 23:33:22.000000000,closed,0,Bump quickstart to use bootkube v0.2.4 & k8s v1.4.5
+172,2016-11-01 06:12:21.000000000,2016-11-01 06:31:46.000000000,closed,0,V1.4.5+coreos.0
+171,2016-11-01 05:41:22.000000000,2016-11-01 06:02:41.000000000,closed,0,V1.4.4
+170,2016-11-01 00:12:08.000000000,2016-11-01 05:47:22.000000000,closed,1,Default to disabling the self-hosted kubelet
+169,2016-10-28 17:34:35.000000000,2016-11-15 04:52:28.000000000,closed,2,Deploy checkpointer independently from api-server
+168,2016-10-27 22:48:21.000000000,2017-04-14 21:42:25.000000000,closed,7,Possibly use static pods for temporary control-plane rather than compiled-in components
+167,2016-10-26 02:23:30.000000000,2016-11-01 23:42:59.000000000,closed,2,tests: add GCE based conformance test scripts
+166,2016-10-26 02:13:44.000000000,2017-04-15 02:10:04.000000000,closed,8,scheduler + controller-manager should use pod-anti-affinity
+165,2016-10-26 02:07:17.000000000,2016-10-26 02:14:50.000000000,closed,0,Run multiple copies of scheduler/controller-manager
+164,2016-10-26 02:00:29.000000000,2016-11-15 05:20:59.000000000,closed,0,checkpointer should strip service accounts from pod spec
+163,2016-10-26 01:07:57.000000000,2016-11-01 00:48:02.000000000,closed,2,Remove version labels from manifests
+162,2016-10-25 00:14:58.000000000,2017-01-19 03:44:14.000000000,closed,5,[do-not-merge] Use the containerized flag rather than nsenter
+161,2016-10-20 23:20:49.000000000,2016-11-15 04:52:28.000000000,closed,0,checkpointer should be deployed independently from api-server
+160,2016-10-20 21:23:03.000000000,2016-10-20 21:27:33.000000000,closed,1,Documentation: Add on-host kubelet upgrade
+159,2016-10-20 08:42:36.000000000,2016-10-20 21:18:35.000000000,closed,3,Add self-hosted Kubernetes upgrade guide
+158,2016-10-19 22:24:35.000000000,2016-10-19 22:26:54.000000000,closed,0,quickstart: use new bootkube container + k8s v1.4.3
+157,2016-10-19 21:53:23.000000000,2016-10-19 22:02:15.000000000,closed,0,V1.4.3
+156,2016-10-18 04:06:26.000000000,2016-10-18 21:37:51.000000000,closed,2,scheduler/controller-manager leader election identity uses hostname - but could have multiple per host
+155,2016-10-13 03:54:57.000000000,2016-10-13 04:17:53.000000000,closed,0,Bump quickstart hyperkube + bootkube image versions
+154,2016-10-13 01:29:51.000000000,2016-12-31 01:12:50.000000000,closed,0,conformance test doesn't respect ginkgo skip list
+153,2016-10-13 01:09:46.000000000,2016-10-13 01:28:02.000000000,closed,1,Install go-bindata as conformance test dependency
+152,2016-10-12 21:48:01.000000000,2016-10-13 01:03:21.000000000,closed,1,v1.4.1 + kube-dns v20
+151,2016-10-12 21:44:45.000000000,2016-12-31 00:36:50.000000000,closed,6,"Use spec.nodeName as hostname-override, not podIP"
+150,2016-10-12 12:18:50.000000000,2016-12-31 01:13:19.000000000,closed,4,Build guidelines to avoid missing P224
+149,2016-10-06 04:22:21.000000000,2016-10-07 00:26:38.000000000,closed,0,Kublet is optionally run as a self-hosted component
+148,2016-10-05 03:48:09.000000000,2016-10-05 04:09:28.000000000,closed,1,pkg/templates: bump checkpoint image
+147,2016-10-05 03:07:30.000000000,2016-10-05 03:28:18.000000000,closed,1,cmd/checkpoint: remove break statement from secret checkpoint loop
+146,2016-10-05 02:16:49.000000000,2016-10-05 03:28:18.000000000,closed,4,checkpointer doesn't checkpoint all secrets referenced by the API server
+145,2016-09-30 23:45:28.000000000,2016-10-05 00:29:04.000000000,closed,0,pkg/bootkube: remove apiserver port staggering
+144,2016-09-30 00:59:24.000000000,2016-09-30 05:05:15.000000000,closed,0,remove the need to stagger apiserver ports
+143,2016-09-27 03:07:52.000000000,2016-09-27 03:41:05.000000000,closed,0,V1.4.0
+142,2016-09-25 15:11:01.000000000,2017-05-16 21:57:15.000000000,closed,7,Initial commit: RHEL scripts
+141,2016-09-23 23:57:04.000000000,2016-12-31 00:31:10.000000000,closed,1,Run make target
+140,2016-09-22 00:54:50.000000000,2016-09-22 01:21:49.000000000,closed,0,V1.3.7
+139,2016-09-21 19:28:17.000000000,2017-05-16 21:58:36.000000000,closed,6,Prioritizing the creation of kube-dns service
+138,2016-09-21 03:33:27.000000000,2016-09-21 22:22:29.000000000,closed,2,Log on asset creation error - do not exit
+137,2016-09-20 02:45:05.000000000,2016-09-20 03:35:26.000000000,closed,1,pkg/asset/internal: update pod-checkpointer image tag
+136,2016-09-17 04:41:48.000000000,2019-06-24 13:35:17.000000000,closed,7,Another service could win race for dns service IP allocation
+135,2016-09-16 22:37:47.000000000,2017-01-19 04:27:49.000000000,closed,3,checkpointer can't find checkpointed apiserver manifest
+134,2016-09-16 19:23:49.000000000,2016-09-17 03:03:37.000000000,closed,1,Make bootkube fail when not successfully creating assets.
+133,2016-09-15 06:47:18.000000000,2016-09-16 02:11:46.000000000,closed,1,Be more verbose with stdout logs
+132,2016-09-15 06:16:07.000000000,2018-04-03 20:04:26.000000000,closed,1,hack/git-version.sh doesn't check for staged/indexed files
+131,2016-09-15 05:47:47.000000000,2016-09-21 22:22:28.000000000,closed,1,bootkube should log an error when it cannot create a manifest
+130,2016-09-14 01:55:18.000000000,2016-09-14 02:42:37.000000000,closed,2,hack/tests: Fix conformance version separator
+129,2016-09-14 00:16:52.000000000,2016-09-16 03:50:17.000000000,closed,4,refactor image build process
+128,2016-09-13 21:41:23.000000000,2016-09-13 21:42:18.000000000,closed,1,pkg/assets/internal/template.go: Fix kube-dns indentation
+127,2016-09-13 21:05:18.000000000,2016-10-05 21:04:05.000000000,closed,2,Replace bootkube insecure api port 8081 with 8080
+126,2016-09-13 05:16:12.000000000,2016-09-13 21:13:36.000000000,closed,3,pkg/asset: Update kube-dns to v17.1
+125,2016-09-13 02:18:00.000000000,2016-09-13 02:26:32.000000000,closed,1,Move to kubernetes-incubator repo
+124,2016-09-13 00:32:45.000000000,2017-03-07 02:07:48.000000000,closed,1,Support check pointing configmaps
+123,2016-09-09 09:47:49.000000000,2016-09-13 21:14:59.000000000,closed,3,pkg/bootkube: add simple stdout status info
+122,2016-09-09 09:16:21.000000000,2016-09-13 02:26:55.000000000,closed,1,bootkube: rename packages to github.com/kubernetes-incubator/bootkube
+121,2016-09-08 22:37:40.000000000,2017-02-08 01:24:58.000000000,closed,3,[WIP] Kubelet tls bootstrap
+120,2016-09-07 15:34:34.000000000,2016-09-20 02:28:30.000000000,closed,3,Bootkube checks for active checkpointer pod.
+119,2016-09-02 03:58:42.000000000,2016-09-08 22:04:44.000000000,closed,7,Move asset templates to Go source intead of generating them
+118,2016-09-01 17:15:04.000000000,2016-09-06 10:47:18.000000000,closed,1,Kube-api-checkpoint POD does not resolve localhost on single node self hosted environment
+117,2016-08-31 23:15:35.000000000,2016-09-20 02:28:30.000000000,closed,0,Have bootkube start check for active checkpointer pod
+116,2016-08-31 21:44:41.000000000,2016-09-30 22:54:37.000000000,closed,0,[wip] Remove insecure port staggering
+115,2016-08-31 20:46:01.000000000,2016-09-02 12:11:54.000000000,closed,9,unable to deploy the latest version on baremetal
+114,2016-08-31 20:42:34.000000000,2016-08-31 21:36:25.000000000,closed,1,V1.3.6 coreos.0
+113,2016-08-31 03:16:28.000000000,2016-09-30 22:54:04.000000000,closed,1,[wip] V1.4 updates & self-host flannel
+112,2016-08-31 02:43:06.000000000,2019-06-21 12:23:50.000000000,closed,23,Simple scheduler & controller-manager disaster recovery
+111,2016-08-30 04:37:51.000000000,2016-08-31 00:21:26.000000000,closed,5,kube-proxy often comes up in a broken state and does not correct itself
+110,2016-08-30 03:05:46.000000000,2017-01-19 04:25:59.000000000,closed,1,self-hosted kubelet using host mount ns can't find cni binaries
+109,2016-08-30 02:34:54.000000000,2016-10-04 20:28:58.000000000,closed,3,Cluster updater
+108,2016-08-26 12:56:43.000000000,2016-09-05 13:54:40.000000000,closed,1,[WIP] Self-host Flannel
+107,2016-08-24 05:39:13.000000000,2016-09-13 21:16:38.000000000,closed,5,pkg/asset: Update kube-dns to v17.1
+106,2016-08-20 04:59:54.000000000,2017-06-06 21:48:32.000000000,closed,5,Provide a generic mechanism for flag customizations
+105,2016-08-19 21:19:01.000000000,2016-11-18 23:37:57.000000000,closed,15,render: add --cloud-provider
+104,2016-08-16 22:15:06.000000000,2019-08-26 03:14:43.000000000,closed,8,allow CA/cert expiration to be configurable
+103,2016-08-12 02:40:55.000000000,2016-08-12 03:12:55.000000000,closed,1,bump bootkube version in quickstart
+102,2016-08-12 02:21:30.000000000,2016-08-12 03:12:46.000000000,closed,1,Use stable image in quickstart guide
+101,2016-08-12 01:11:08.000000000,2016-08-12 01:54:10.000000000,closed,1,Vendor v1.3.4
+100,2016-08-11 23:42:59.000000000,2016-08-12 00:26:14.000000000,closed,1,quickstart: Mount host resolv.conf into kubelet container
+99,2016-08-10 13:47:26.000000000,2016-08-16 12:19:52.000000000,closed,12,unable to get GCE master running
+98,2016-08-09 09:43:02.000000000,2016-10-01 01:05:26.000000000,closed,5,Fix issue #96 by modifying PATH
+97,2016-08-06 18:22:23.000000000,2017-02-15 00:58:15.000000000,closed,2,How to upstream?
+96,2016-08-06 02:09:16.000000000,2017-01-19 03:45:37.000000000,closed,16,Self-hosted kubelet breaks port-forwarding
+95,2016-08-05 02:35:23.000000000,2016-08-05 23:41:08.000000000,closed,6,Bump version to v1.3.4_coreos.0
+94,2016-08-03 22:32:57.000000000,2016-08-06 02:35:55.000000000,closed,2,hack/single-node: Update bootkube-up to add kubeconfig once
+93,2016-08-03 22:13:58.000000000,2016-09-15 05:48:35.000000000,closed,1,Use latest kube-dns
+92,2016-07-28 14:36:20.000000000,2016-08-01 23:04:20.000000000,closed,1,pkg/asset/templates/kube-proxy.yaml: fix typo in image's URL
+91,2016-07-28 02:45:47.000000000,2016-09-14 00:23:34.000000000,closed,4,simplified bootkube status output
+90,2016-07-27 01:06:30.000000000,2016-08-25 02:34:11.000000000,closed,1,DO NOT MERGE: Allow cluster members identified by DNS
+89,2016-07-27 00:55:49.000000000,2017-01-19 03:52:29.000000000,closed,2,Allow cluster members identified by DNS name
+88,2016-07-25 16:46:52.000000000,2019-06-21 23:34:21.000000000,closed,9,bootkube flag to tell which k8s version to install 
+87,2016-07-25 16:15:17.000000000,2016-10-12 01:15:38.000000000,closed,1,hacks/: add corectl guide
+86,2016-07-22 23:57:09.000000000,2016-07-23 02:32:32.000000000,closed,1,ability to configure flags on various k8s resource manifests
+85,2016-07-20 03:27:05.000000000,2019-06-20 05:53:48.000000000,closed,4,Deploy component-health services
+84,2016-07-20 02:30:11.000000000,2017-01-19 03:42:31.000000000,closed,3,bootkube --asset-dir should be able to parse k8s objects directly
+83,2016-07-19 02:30:12.000000000,2016-07-19 03:38:47.000000000,closed,1,Cleanup
+82,2016-07-14 04:57:33.000000000,2016-09-12 22:56:04.000000000,closed,19,Node agent
+81,2016-07-09 04:22:43.000000000,2016-07-12 01:55:36.000000000,closed,1,Bump version v1.3.0_coreos.1
+80,2016-07-07 01:17:44.000000000,2016-07-07 02:23:19.000000000,closed,1,image/checkpoint: bump checkpoint image version
+79,2016-07-06 03:58:09.000000000,2016-07-06 04:09:08.000000000,closed,3,Vagrant examples using out-dated user-data.sample
+78,2016-07-06 03:48:37.000000000,2016-07-07 01:10:30.000000000,closed,2,cmd/checkpoint: prefer 127.0.0.1 over localhost
+77,2016-07-02 01:43:58.000000000,2016-08-29 19:06:27.000000000,closed,3,Render add cluster dns and service cluster ip range
+76,2016-06-28 03:57:43.000000000,2016-06-28 04:37:49.000000000,closed,3,Git Tag release commits for simpler checkout/signing
+75,2016-06-28 02:12:08.000000000,2017-01-19 03:39:38.000000000,closed,2,Self-host Flannel
+74,2016-06-28 00:35:59.000000000,2016-06-28 00:54:38.000000000,closed,0,cmd/checkpoint: Add README
+73,2016-06-25 06:20:13.000000000,2016-06-28 01:01:20.000000000,closed,1,pkg/asset: mount /var/lib/rkt in kubelet container
+72,2016-06-25 05:09:25.000000000,2016-06-28 01:01:09.000000000,closed,1,Update quickstart guides
+71,2016-06-25 01:58:13.000000000,2016-06-25 02:46:22.000000000,closed,1,hack/quickstart: bump bootkube version
+70,2016-06-24 11:23:23.000000000,2016-06-24 21:10:55.000000000,closed,0,Add src behind $GOPATH
+69,2016-06-24 03:55:57.000000000,2016-06-24 03:57:00.000000000,closed,1,image & pkg: update checkpointer image SHA
+68,2016-06-24 03:46:49.000000000,2016-06-24 03:51:56.000000000,closed,1,hack/quickstart: minor install tweaks
+67,2016-06-24 02:56:43.000000000,2016-09-12 22:55:21.000000000,closed,15,Cluster update script
+66,2016-06-24 01:39:42.000000000,2016-06-24 01:43:49.000000000,closed,3,build: use full path to build script
+65,2016-06-24 01:17:15.000000000,2016-06-24 03:51:19.000000000,closed,1,cmd/checkpoint: Verify API server running
+64,2016-06-23 21:43:27.000000000,2019-06-20 05:53:47.000000000,closed,9,some k8s components report unhealthy status after cluster bootsrap
+63,2016-06-23 21:31:32.000000000,2016-06-23 21:32:28.000000000,closed,1,"Revert ""pkg/asset/templates: Name the kubeconfig context"""
+62,2016-06-23 20:49:13.000000000,2016-06-24 00:46:52.000000000,closed,3,V1.3.0 beta.2
+61,2016-06-23 03:20:00.000000000,2016-06-23 21:54:07.000000000,closed,1,pkg/asset/templates: update version metadata
+60,2016-06-22 20:45:33.000000000,2016-06-22 20:50:34.000000000,closed,1,readme: add quickstart links
+59,2016-06-22 05:37:48.000000000,2016-06-22 05:58:29.000000000,closed,1,all: Include checkpointer
+58,2016-06-22 04:44:52.000000000,2016-06-22 05:04:19.000000000,closed,1,all: Update path for checkpointed secrets
+57,2016-06-22 02:07:23.000000000,2017-02-15 00:59:30.000000000,closed,1,Link to related upstream proposals for self-hosted in README
+56,2016-06-21 09:41:07.000000000,2016-06-22 05:48:26.000000000,closed,4,pkg/asset/templates: Name the kubeconfig context
+55,2016-06-14 03:42:22.000000000,2016-06-17 22:22:02.000000000,closed,1,hack: add quickstart scripts & initial GCE guide
+54,2016-06-12 11:42:56.000000000,2016-10-08 02:43:05.000000000,closed,2,Hide log-flush-frequency
+53,2016-06-12 11:31:48.000000000,2016-10-08 02:42:53.000000000,closed,1,Remove log-flush-frequency flag
+52,2016-06-11 03:33:34.000000000,2016-06-14 00:47:15.000000000,closed,9,Cluster DNS should resolve host /etc/resolv.conf
+51,2016-06-08 05:40:01.000000000,2016-06-09 01:13:10.000000000,closed,1,Update to use v1.3.0-alpha.5
+50,2016-06-08 03:38:31.000000000,2016-06-22 02:33:54.000000000,closed,13,"all: Add ""user-space"" apiserver checkpointing"
+49,2016-06-07 02:07:06.000000000,2016-07-06 02:21:22.000000000,closed,10,Flaky bring-up: apiserver fails
+48,2016-06-04 00:30:56.000000000,2016-06-04 02:21:42.000000000,closed,1,hack: fix path to bootkube bin
+47,2016-05-31 23:41:50.000000000,2016-06-01 22:16:17.000000000,closed,7,Add release build process
+46,2016-05-27 23:44:07.000000000,2016-05-28 00:34:32.000000000,closed,1,Simple checks
+45,2016-05-27 06:38:12.000000000,2016-05-28 00:22:18.000000000,closed,2,Hack build conformance tests
+44,2016-05-26 23:05:39.000000000,2016-05-27 04:11:03.000000000,closed,1,pkg/asset/templates: Update apiserver admission-control
+43,2016-05-24 05:32:53.000000000,2016-05-24 22:23:26.000000000,closed,1,pkg/asset: Update version metadata on manifests
+42,2016-05-24 05:07:10.000000000,2016-05-25 22:13:10.000000000,closed,7,bootkube: Allow render to take an existing CA
+41,2016-05-24 01:24:41.000000000,2016-05-24 01:50:12.000000000,closed,3,pkg/asset/templates: use default service accounts
+40,2016-05-21 05:47:19.000000000,2016-05-21 06:26:57.000000000,closed,2,pkg/hack: Update to use v1.2.4 + inotify
+39,2016-05-21 02:43:44.000000000,2016-06-20 19:54:46.000000000,closed,0,Build a bootkube container image
+38,2016-05-18 04:10:04.000000000,2016-05-21 03:20:10.000000000,closed,3,pkg/asset/internal: Add generated templates
+37,2016-05-18 02:38:51.000000000,2016-05-18 04:26:44.000000000,closed,7,pkg/asset: Use go-bindata for loading assets
+36,2016-05-17 00:56:24.000000000,2016-05-18 02:38:33.000000000,closed,5,*: Refactor to run bootkube directly on-host
+35,2016-05-16 21:47:37.000000000,2016-05-18 02:39:01.000000000,closed,1,Allow a token to be provided to bootkube render
+34,2016-05-04 22:13:17.000000000,2016-06-11 02:21:10.000000000,closed,4,Upgrade from Kubernetes v1.2.2 to v1.2.3
+33,2016-05-03 01:57:27.000000000,2016-05-21 06:26:57.000000000,closed,0,Use inotify-based self-hosted kubelet
+32,2016-05-02 07:38:11.000000000,2016-06-28 01:01:09.000000000,closed,0,README: provide enough information for someone to get started
+31,2016-05-02 07:31:05.000000000,2017-03-01 03:34:29.000000000,closed,22,Support deploying self-hosted etcd
+30,2016-04-29 01:52:38.000000000,2016-05-04 00:15:07.000000000,closed,1,Add hack dirs to readme and some additional details
+29,2016-04-26 21:16:47.000000000,2016-05-18 02:40:29.000000000,closed,3,Allow an on-host mode of executing bootkube
+28,2016-04-26 09:15:41.000000000,2016-04-27 02:33:17.000000000,closed,8,pkg/asset/templates: Use podIP in kubelet hostname-override
+27,2016-04-23 02:25:10.000000000,2016-04-23 02:43:58.000000000,closed,1,Api endpoint fix
+26,2016-04-22 02:59:53.000000000,2016-05-25 22:13:10.000000000,closed,0,Allow a CA to be provided to bootkube render
+25,2016-04-22 00:20:56.000000000,2016-04-22 03:23:22.000000000,closed,2,hack: Update READMEs regarding auto-shutdown
+24,2016-04-21 03:53:14.000000000,2016-04-23 02:37:06.000000000,closed,1,Rendered kubeconfig.yaml uses wrong server value
+23,2016-04-21 03:36:04.000000000,2016-05-18 02:41:02.000000000,closed,2,SSH Agent Support
+22,2016-04-21 03:32:19.000000000,2016-04-22 03:22:57.000000000,closed,2,pkg/asset: set kubeconfig server from config values
+21,2016-04-21 01:33:12.000000000,2016-05-21 02:41:05.000000000,closed,2,Provide bootkube flags table with example arguments
+20,2016-04-19 03:43:46.000000000,2016-04-21 03:32:56.000000000,closed,1,README: just use go get
+19,2016-04-19 00:17:08.000000000,2016-04-19 03:24:06.000000000,closed,2,Have bootkube self-shutdown once control-plane running
+18,2016-04-14 03:40:44.000000000,2016-04-19 00:00:47.000000000,closed,1,hack: tweak helper scripts & add to single-node
+17,2016-04-12 02:48:42.000000000,2016-04-14 21:15:57.000000000,closed,2,docs: Update README
+16,2016-04-09 03:10:56.000000000,2016-04-21 03:32:29.000000000,closed,3,Add basic README getting started
+15,2016-04-09 00:01:02.000000000,2016-04-09 00:47:43.000000000,closed,1,hack: Add multi-node hack setup
+14,2016-04-08 23:36:21.000000000,2016-04-09 00:34:56.000000000,closed,1,pkg/bootkube: Add admission-control=ServiceAccount flag
+13,2016-04-08 23:23:46.000000000,2016-04-09 00:31:58.000000000,closed,1,assets: remove nodeSelector on kube-proxy
+12,2016-04-08 04:09:52.000000000,2016-04-08 19:49:41.000000000,closed,1,cmd/bootkube: Allow config of generated manifests
+11,2016-04-08 00:22:37.000000000,2016-04-08 01:40:59.000000000,closed,1,make: add install target
+10,2016-04-08 00:00:07.000000000,2016-04-08 00:16:09.000000000,closed,1,pkg/assets: move functionality out of cmd & shuffle some code
+9,2016-04-06 06:19:58.000000000,2016-04-07 23:20:55.000000000,closed,1,vendor: bump k8s v1.2.1 & drop docs/hack/examples/cluster dirs
+8,2016-04-06 04:26:28.000000000,2016-04-07 23:20:02.000000000,closed,1,Makefile tweaks
+7,2016-04-06 02:30:04.000000000,2016-04-06 02:47:23.000000000,closed,1,Add kube-proxy & kube-dns to assets
+6,2016-04-05 05:53:04.000000000,2016-04-06 00:50:08.000000000,closed,1,render: control-plane manifest tweaks
+5,2016-04-01 22:17:24.000000000,2016-04-04 20:54:01.000000000,closed,1,pkg/proxy: fix leaving around hung proxy goroutines
+4,2016-03-30 20:42:25.000000000,2016-04-01 04:24:57.000000000,closed,1,Add kubelet template
+3,2016-03-29 04:50:08.000000000,2016-03-30 03:45:13.000000000,closed,1,Add CoreOS project documents
+2,2016-03-23 21:56:41.000000000,2016-03-30 05:33:28.000000000,closed,2,Initial asset rendering command
+1,2016-03-16 02:08:53.000000000,2016-03-17 22:02:26.000000000,closed,2,Initial bootkube

@@ -1,0 +1,1517 @@
+id,created_at,closed_at,state,comments,title
+1522,2020-08-30 16:00:59.000000000,2020-08-31 12:20:47.000000000,closed,1,support for lnurl-pay is missing
+1521,2020-08-19 20:13:34.000000000,2020-08-20 14:08:53.000000000,closed,0,Show reminder of failed tests at the end
+1520,2020-08-19 20:09:48.000000000,1970-01-01 00:00:00.000000001,open,1,Use the `replyTo` pattern for Channel messages
+1519,2020-08-19 16:50:41.000000000,1970-01-01 00:00:00.000000001,open,0,Requested mutual close via API/RTL turned into force close
+1518,2020-08-17 19:48:08.000000000,1970-01-01 00:00:00.000000001,open,0,Set the channel version in the init msg for the fundee
+1517,2020-08-17 17:26:08.000000000,2020-08-17 19:13:00.000000000,closed,0,Remove semaphore build
+1516,2020-08-17 17:23:31.000000000,1970-01-01 00:00:00.000000001,open,0,Remove `Status.Failure` in register responses
+1515,2020-08-14 15:53:03.000000000,1970-01-01 00:00:00.000000001,open,0,Route search fix
+1514,2020-08-13 16:17:25.000000000,1970-01-01 00:00:00.000000001,open,0,Use the `replyTo` pattern for Register messages
+1513,2020-08-12 13:22:35.000000000,1970-01-01 00:00:00.000000001,open,0,Add DB entry for payment router error
+1512,2020-08-12 10:37:33.000000000,1970-01-01 00:00:00.000000001,open,1,Early payment failures are not reflected in `getsentinfo`
+1511,2020-08-11 23:54:36.000000000,1970-01-01 00:00:00.000000001,open,2,ListInvoices should return separate requested and received amounts
+1510,2020-08-10 17:52:23.000000000,1970-01-01 00:00:00.000000001,open,3,Delete Invoice RPC method
+1509,2020-08-10 17:47:52.000000000,1970-01-01 00:00:00.000000001,open,0,Channel related WS events
+1508,2020-08-10 12:55:10.000000000,1970-01-01 00:00:00.000000001,open,0,Maven Wrapper
+1507,2020-08-08 16:05:56.000000000,1970-01-01 00:00:00.000000001,open,5,Feature request: Open channel with specific relay and base fee setting
+1506,2020-08-05 20:23:11.000000000,2020-08-05 21:40:37.000000000,closed,2,Locking configuration for postgres throws java.lang.NoSuchMethodError: java.time.Duration.toSeconds()
+1505,2020-08-04 18:58:06.000000000,2020-08-04 19:55:30.000000000,closed,2,Feerate error for lightning nodes on same chain node
+1504,2020-08-03 17:53:06.000000000,2020-08-10 17:38:14.000000000,closed,0,Type fee rates info
+1503,2020-07-31 15:05:26.000000000,2020-08-10 12:49:39.000000000,closed,1,Fix typo related to pico-bitcoin conversion
+1502,2020-07-31 15:00:37.000000000,2020-08-10 12:49:39.000000000,closed,1,Small typo in code comments for amount conversion
+1501,2020-07-31 14:30:01.000000000,1970-01-01 00:00:00.000000001,open,0,Anchor output: handle unilateral close
+1500,2020-07-30 19:32:13.000000000,1970-01-01 00:00:00.000000001,open,0,Improve blockchain watchers
+1499,2020-07-30 17:38:09.000000000,2020-08-07 18:33:21.000000000,closed,0,Add API commands to sign & verify arbitrary messages
+1498,2020-07-29 17:04:17.000000000,1970-01-01 00:00:00.000000001,open,2,Remove the `override-features` conf parameter
+1497,2020-07-28 18:16:07.000000000,2020-07-29 16:55:36.000000000,closed,4,Relax relaying requirement on expiry
+1496,2020-07-28 12:38:05.000000000,2020-08-07 18:33:21.000000000,closed,2,Add `signmessage` and `verifymessage` APIs
+1495,2020-07-27 13:49:53.000000000,2020-07-30 17:42:21.000000000,closed,0,Verify feature graph in Init
+1494,2020-07-23 19:29:40.000000000,1970-01-01 00:00:00.000000001,open,2,Refactor integration tests
+1493,2020-07-21 17:13:18.000000000,2020-07-21 19:22:02.000000000,closed,0,Revive codecov.yml
+1492,2020-07-21 15:50:33.000000000,2020-07-21 16:52:39.000000000,closed,0,Use file filter for scoverage upload
+1491,2020-07-21 11:06:38.000000000,2020-07-27 22:00:54.000000000,closed,0,Activate anchor output in channels
+1490,2020-07-20 16:58:38.000000000,2020-07-21 15:05:52.000000000,closed,2,Use github action for scoverage
+1489,2020-07-17 19:10:50.000000000,2020-07-22 17:46:57.000000000,closed,2,Add delay before setting watches at startup
+1488,2020-07-17 15:09:19.000000000,2020-07-17 18:35:32.000000000,closed,0,(minor) Add debug logs to transport handler
+1487,2020-07-17 15:06:39.000000000,2020-07-17 17:09:28.000000000,closed,0,fixup! Split the `Peer` in two (#1347)
+1486,2020-07-15 19:21:58.000000000,2020-08-10 17:38:14.000000000,closed,6,Feature request: Allow higher than 144 block target for claim-main and mutual-close
+1485,2020-07-10 17:24:38.000000000,2020-07-21 18:30:04.000000000,closed,0,"Implement the KeySend feature, spontaneous payments"
+1484,2020-07-09 18:28:16.000000000,2020-07-21 13:36:03.000000000,closed,1,Anchor output transaction format
+1483,2020-07-07 17:21:16.000000000,2020-07-21 16:38:00.000000000,closed,0,Update MinFinalCltvExpiryDelta default value and activate wumbo
+1482,2020-07-07 15:13:22.000000000,2020-07-09 20:12:08.000000000,closed,0,Bitcoin Core Wallet small refactoring
+1481,2020-07-03 16:40:16.000000000,2020-07-20 14:00:02.000000000,closed,0,Release 0.4.1
+1480,2020-07-02 12:05:00.000000000,2020-07-02 14:07:07.000000000,closed,0,Handle invoices with 0 amount
+1479,2020-07-02 11:30:38.000000000,2020-07-02 12:25:24.000000000,closed,0,Fix commitments fuzz test
+1478,2020-07-01 23:53:54.000000000,2020-07-02 14:07:06.000000000,closed,2,parseinvoice API throws error for empty invoice generated by CLightning
+1477,2020-07-01 17:01:01.000000000,2020-07-02 13:02:48.000000000,closed,4,Replace Travis by Github Action
+1476,2020-06-30 17:27:27.000000000,2020-07-01 18:41:28.000000000,closed,1,Remove the command buffer
+1475,2020-06-30 17:08:19.000000000,2020-07-02 11:01:45.000000000,closed,0,Update backup handler and add DB metrics
+1474,2020-06-29 16:10:01.000000000,2020-06-29 18:31:41.000000000,closed,1,Add lower bound on to_self_delay
+1473,2020-06-26 19:22:56.000000000,2020-07-01 16:45:07.000000000,closed,0,Rework feerate mismatch
+1472,2020-06-25 14:27:11.000000000,1970-01-01 00:00:00.000000001,open,0,"Feature request: add an option for sendtoroute to specify channels, not just nodeID"
+1471,2020-06-25 01:33:50.000000000,2020-06-26 01:31:53.000000000,closed,3,Missing fee information in the findroutetonode API
+1470,2020-06-24 13:21:30.000000000,2020-06-30 19:11:05.000000000,closed,0,Fix channelstats (for real?)
+1469,2020-06-24 12:26:34.000000000,2020-06-24 13:54:09.000000000,closed,0,Add context logging to route request
+1468,2020-06-23 15:34:13.000000000,2020-06-23 17:28:49.000000000,closed,0,Update allnodes API
+1467,2020-06-22 13:45:22.000000000,2020-06-24 00:01:19.000000000,closed,1,Update relay fee API throws error with multiple channels
+1466,2020-06-22 12:46:28.000000000,2020-06-22 13:07:56.000000000,closed,0,Increase fulfill safety window
+1465,2020-06-19 17:54:10.000000000,2020-06-30 19:11:05.000000000,closed,0,`channelstats` API doesn't reflect incoming HTLCs
+1464,2020-06-19 17:48:20.000000000,2020-06-24 13:30:05.000000000,closed,0,Onion payload and HTLC in-flight metrics
+1463,2020-06-19 16:33:20.000000000,2020-06-22 12:49:40.000000000,closed,0,Static key refactoring
+1462,2020-06-19 11:59:19.000000000,2020-06-19 14:02:57.000000000,closed,0,Put back DATA_CLOSING constraints
+1461,2020-06-16 15:20:11.000000000,2020-06-19 20:02:40.000000000,closed,0,Add on-chain APIs
+1460,2020-06-15 23:18:14.000000000,2020-06-23 17:28:49.000000000,closed,0,Node Lookup API with Alias
+1459,2020-06-15 16:04:06.000000000,2020-06-19 20:02:42.000000000,closed,2,On-chain list transactions API
+1458,2020-06-15 15:52:56.000000000,2020-06-19 20:02:42.000000000,closed,4,On-chain send funds API
+1457,2020-06-15 15:45:38.000000000,2020-06-19 20:02:40.000000000,closed,0,On-chain get balance API
+1456,2020-06-12 17:51:35.000000000,2020-06-19 18:07:09.000000000,closed,0,Add friendly network name to GetInfo response
+1455,2020-06-11 19:16:04.000000000,2020-06-23 17:52:32.000000000,closed,1,Clarify trampoline route not found error
+1454,2020-06-10 15:15:58.000000000,2020-06-26 12:25:25.000000000,closed,3,Fix transaction fee test
+1453,2020-06-10 11:58:23.000000000,2020-06-18 10:59:50.000000000,closed,0,Monitor on-chain feerate mismatch
+1452,2020-06-09 19:42:49.000000000,2020-06-22 12:14:44.000000000,closed,1,Scale fulfill safety window based on amount at risk
+1451,2020-06-09 11:24:02.000000000,2020-06-09 14:22:54.000000000,closed,0,Fix channelstats API
+1450,2020-06-08 15:20:59.000000000,2020-06-22 20:31:46.000000000,closed,0,Add a fee provider getting feerates from database
+1449,2020-06-07 22:05:15.000000000,2020-06-09 14:22:54.000000000,closed,3,channelstats API call only returns data for locally opened channels
+1448,2020-06-07 13:16:19.000000000,2020-06-08 11:57:08.000000000,closed,2,Custom electrum server as a Hidden Service not working
+1447,2020-06-05 13:34:51.000000000,2020-06-22 20:31:46.000000000,closed,0,Add a `SqliteFeeProvider`
+1446,2020-06-05 12:13:23.000000000,2020-06-05 19:00:48.000000000,closed,4,Fix edges with empty capacity in the routing graph
+1445,2020-06-04 11:23:03.000000000,2020-06-23 16:57:29.000000000,closed,1,MPP preimage received event
+1444,2020-06-04 02:44:01.000000000,2020-06-15 16:47:10.000000000,closed,9,"when a funding TX takes a long time to confirm, channels get stuck in syncing"
+1443,2020-06-03 19:53:28.000000000,2020-06-23 17:23:39.000000000,closed,0,Routing hints balance
+1442,2020-06-02 20:04:33.000000000,2020-06-22 20:03:08.000000000,closed,9,"Use length-delimited, byte-aligned codecs"
+1441,2020-06-02 15:08:01.000000000,2020-06-23 17:14:12.000000000,closed,0,More aggressive channel exclusion
+1440,2020-05-28 16:10:56.000000000,2020-06-03 13:06:46.000000000,closed,1,Accept multiple channels for some API
+1439,2020-05-27 15:14:20.000000000,2020-06-23 13:44:11.000000000,closed,0,Multipart FSM v2
+1438,2020-05-27 10:44:29.000000000,2020-07-01 16:45:06.000000000,closed,3,Unusual formula for measuring the fee rate mismatch
+1437,2020-05-25 20:36:48.000000000,1970-01-01 00:00:00.000000001,open,0,Feature request: implement cookie authentication for eclair RPC
+1436,2020-05-25 20:33:48.000000000,1970-01-01 00:00:00.000000001,open,0,Feature request: Support cookie authentication for bitcoind RPC
+1435,2020-05-25 19:11:40.000000000,2020-07-27 19:02:52.000000000,closed,1,Do not merge user provided features with defaults
+1434,2020-05-25 13:32:01.000000000,2020-07-27 19:14:23.000000000,closed,1,"Configuration values that are stored as maps in configuration files are merged, not overwritten."
+1433,2020-05-25 12:01:01.000000000,2020-05-26 13:48:45.000000000,closed,1,Electrum: stop spamming logs
+1432,2020-05-23 17:18:08.000000000,2020-06-03 13:06:46.000000000,closed,7,Feature request: API call to update relay fees for bulk or all channels
+1431,2020-05-19 12:24:52.000000000,2020-05-26 18:04:11.000000000,closed,0,Correctly set new channel balance
+1430,2020-05-18 19:40:48.000000000,2020-05-19 14:45:54.000000000,closed,1,Fix race condition on early connection failure
+1429,2020-05-18 19:05:30.000000000,2020-05-18 19:20:21.000000000,closed,0,Reduce log level of backup handler
+1428,2020-05-18 17:55:47.000000000,2020-05-20 12:51:33.000000000,closed,1,Path finding standard collections
+1427,2020-05-18 14:47:16.000000000,2020-06-22 12:08:58.000000000,closed,0,Find multi part route
+1426,2020-05-16 17:30:16.000000000,2020-05-18 10:57:00.000000000,closed,2,Default expiry?
+1425,2020-05-15 14:43:11.000000000,2020-08-10 17:38:56.000000000,closed,12,eclair-core: correct a comment wrt feerate floor
+1424,2020-05-14 20:24:04.000000000,2020-05-15 10:51:23.000000000,closed,1,Fix eclair-node.sh for OSX
+1423,2020-05-14 14:20:11.000000000,2020-05-18 18:00:04.000000000,closed,1,Use shebang in first line of launcher scripts
+1422,2020-05-14 02:52:52.000000000,2020-05-18 18:00:04.000000000,closed,2,The shebang is misplaced in eclair-node.sh
+1421,2020-05-13 20:37:08.000000000,2020-05-15 10:51:23.000000000,closed,2,eclair-node.sh fails on OSX Mojave
+1420,2020-05-13 18:16:09.000000000,2020-05-18 19:12:22.000000000,closed,2,Use actor system as conf container
+1419,2020-05-13 18:04:11.000000000,2020-05-15 16:40:07.000000000,closed,0,Atomically switch to new connection
+1418,2020-05-12 21:49:44.000000000,2020-05-13 17:19:49.000000000,closed,0,Skip executing some plugins when skipping tests
+1417,2020-05-12 14:18:15.000000000,2020-05-20 12:55:44.000000000,closed,0,Compute max fee before route calculation
+1416,2020-05-12 05:48:17.000000000,2020-05-18 18:00:44.000000000,closed,4,eclair-node.sh shebang broken
+1415,2020-05-11 20:19:13.000000000,2020-05-13 17:14:10.000000000,closed,0,Feerate provider improvements
+1414,2020-05-07 20:23:31.000000000,2020-05-12 13:41:26.000000000,closed,0,Payment lifecycle refactor
+1413,2020-05-07 16:56:05.000000000,2020-05-07 18:40:01.000000000,closed,1,mvn add note about clean argument
+1412,2020-05-07 04:59:16.000000000,2020-05-12 12:39:08.000000000,closed,4,android-phoenix build broken
+1411,2020-05-06 11:22:48.000000000,2020-05-06 17:58:09.000000000,closed,4,Update kamon
+1410,2020-05-06 01:29:05.000000000,2020-05-06 17:58:09.000000000,closed,2,v0.4 upgrade to Akka 2.6 which I think broke Kamon monitoring
+1409,2020-05-05 16:09:35.000000000,2020-05-05 16:55:09.000000000,closed,0,Release 0.4
+1408,2020-05-05 14:56:12.000000000,2020-05-05 15:53:13.000000000,closed,0,Release 0.4
+1407,2020-05-05 13:04:56.000000000,2020-05-05 14:09:17.000000000,closed,3,Minor: catch harmless unhandled events
+1406,2020-05-05 11:12:05.000000000,2020-05-05 12:51:02.000000000,closed,0,Validate `channel_announcement` sigs early
+1405,2020-05-04 20:56:36.000000000,2020-05-05 13:51:40.000000000,closed,0,Update README
+1404,2020-05-04 11:17:45.000000000,2020-05-05 13:03:26.000000000,closed,0,Unlock transaction inputs if tx cannot be published
+1403,2020-04-30 18:33:30.000000000,2020-04-30 18:52:15.000000000,closed,0,`Platform.currentTime`->`System.currentTimeMillis`
+1402,2020-04-30 18:29:59.000000000,2020-05-04 19:32:26.000000000,closed,1,Monitoring documentation
+1401,2020-04-30 15:20:56.000000000,2020-04-30 17:24:44.000000000,closed,0,Fix BitcoinCoreWalletSpec
+1400,2020-04-29 19:32:05.000000000,2020-04-30 20:10:56.000000000,closed,1,Delegate client creation to a specialized actor
+1399,2020-04-29 18:38:28.000000000,2020-04-30 13:56:45.000000000,closed,1,Disable backup handler in tests
+1398,2020-04-28 14:41:57.000000000,2020-04-29 19:12:16.000000000,closed,5,Fix issue #1396 (invalid header comparison)
+1397,2020-04-27 20:13:19.000000000,2020-04-27 20:27:52.000000000,closed,0,Remove unused attribute in `Peer`
+1396,2020-04-27 20:12:51.000000000,2020-04-30 22:06:37.000000000,closed,0,Invalid comparison in `ElectrumWallet`
+1395,2020-04-27 19:58:03.000000000,2020-05-11 11:49:28.000000000,closed,1,Use channel balance in path-finding
+1394,2020-04-27 16:58:40.000000000,2020-04-27 17:22:19.000000000,closed,1,Downgrade to scala 2.13.1
+1393,2020-04-27 15:12:42.000000000,1970-01-01 00:00:00.000000001,open,1,Re-enable strict compiler parameters
+1392,2020-04-27 14:06:44.000000000,2020-04-27 14:23:51.000000000,closed,0,Fix race condition in router tests
+1391,2020-04-24 17:43:59.000000000,2020-04-24 18:54:03.000000000,closed,2," Revert ""Use sender instead of providing actor refs (#1379)"""
+1390,2020-04-22 22:58:36.000000000,2020-04-27 15:11:56.000000000,closed,2,Update to scala 2.13 and akka 2.6 (incremental)
+1389,2020-04-22 22:20:41.000000000,2020-04-24 17:31:26.000000000,closed,2,Prepare upgrade to scala 2.13 and akka 2.6
+1388,2020-04-22 20:46:10.000000000,2020-04-22 23:00:06.000000000,closed,1,Update to scala 2.13 and akka 2.6
+1387,2020-04-22 19:13:14.000000000,2020-04-27 20:22:08.000000000,closed,4,Test preimage extraction from mempool
+1386,2020-04-21 16:22:18.000000000,2020-04-21 18:12:08.000000000,closed,1,fixup! Use sender instead of providing actor refs (#1379)
+1385,2020-04-20 19:00:50.000000000,2020-05-19 15:58:20.000000000,closed,2,Use human readable features in configuration
+1384,2020-04-17 00:13:44.000000000,2020-04-17 10:46:01.000000000,closed,8,./eclair-node.sh  fatal error: No such mempool transaction. Blockchain transactions are still in the process of being indexed. Use gettransaction for wallet transactions. (code: -5)
+1383,2020-04-16 20:32:38.000000000,2020-04-20 18:23:06.000000000,closed,4,Send `update_fee` on reconnection
+1382,2020-04-16 16:50:13.000000000,2020-04-23 23:04:59.000000000,closed,3,Router channel balance
+1381,2020-04-16 16:23:54.000000000,2020-04-20 18:23:06.000000000,closed,6,Funder should refresh the `update_fee` on reconnection
+1380,2020-04-16 13:46:36.000000000,2020-04-27 18:10:46.000000000,closed,10,Support bitcoin-0.19.1
+1379,2020-04-15 19:10:20.000000000,2020-04-16 13:59:06.000000000,closed,0,Use sender instead of providing actor refs
+1378,2020-04-15 18:53:42.000000000,2020-04-15 19:05:44.000000000,closed,0,Add a rejection for update when channel is pruned
+1377,2020-04-15 12:44:59.000000000,2020-04-15 13:53:34.000000000,closed,3,Add logback config for eclair-node tests
+1376,2020-04-14 14:14:22.000000000,2020-04-14 15:45:20.000000000,closed,1,Revert Electrum Tor disable SSL
+1375,2020-04-13 09:08:40.000000000,1970-01-01 00:00:00.000000001,open,4,For more security spongycastle -> bouncycastle
+1374,2020-04-10 16:58:22.000000000,1970-01-01 00:00:00.000000001,open,0,Make router handler functions side-effect free
+1373,2020-04-10 13:11:28.000000000,2020-05-19 13:29:41.000000000,closed,1,Read akka parameters from eclair.conf
+1372,2020-04-09 19:44:35.000000000,2020-04-15 19:00:39.000000000,closed,0,Gossip metrics
+1371,2020-04-09 18:40:47.000000000,2020-04-10 15:05:23.000000000,closed,1,Do not reconnect immediately if we keep getting disconnected
+1370,2020-04-08 18:13:12.000000000,1970-01-01 00:00:00.000000001,open,0,Use actor paths + deadletters instead of `Register`
+1369,2020-04-06 15:24:09.000000000,2020-04-10 21:25:28.000000000,closed,0,Better tracking of channels count metric
+1368,2020-04-06 14:05:26.000000000,2020-04-06 15:41:18.000000000,closed,0,Release 0.3.4
+1367,2020-04-03 11:38:29.000000000,2020-04-09 12:36:31.000000000,closed,10,Support additional TLV records in SendPayentRequest
+1366,2020-04-02 19:30:59.000000000,2020-04-21 11:34:53.000000000,closed,3,Refactor transaction generation errors
+1365,2020-04-02 17:29:28.000000000,2020-04-02 18:07:30.000000000,closed,1,fixup! Split the `Peer` in two (#1347)
+1364,2020-04-02 16:50:09.000000000,1970-01-01 00:00:00.000000001,open,0,Fixup funder fee buffer
+1363,2020-04-02 15:18:59.000000000,2020-04-02 17:40:01.000000000,closed,1,fixup! Harden requirements on htlc-minimum-msat (#1339)
+1362,2020-04-02 14:00:39.000000000,2020-04-02 14:52:31.000000000,closed,0,fixup! Harden requirements on htlc-minimum-msat (#1339)
+1361,2020-03-31 20:38:47.000000000,1970-01-01 00:00:00.000000001,open,1,Separate configuration for peer-connection
+1360,2020-03-31 13:49:12.000000000,2020-03-31 20:31:47.000000000,closed,5, fixup! Use CLTV as tie-breaker for offered htlc output sorting (#790) 
+1359,2020-03-27 13:48:25.000000000,2020-05-19 15:58:20.000000000,closed,1,Human-readable features in reference.conf
+1358,2020-03-27 13:37:31.000000000,2020-03-27 13:44:17.000000000,closed,0,BUILD: mention that Docker is needed for tests
+1357,2020-03-26 00:20:59.000000000,2020-03-30 13:05:36.000000000,closed,5, fixup! Split the `Peer` in two (#1347) 
+1356,2020-03-25 23:13:34.000000000,2020-03-26 13:51:01.000000000,closed,2,fixup! Support for Tor onion services (#736)
+1355,2020-03-25 20:47:07.000000000,2020-03-30 15:41:56.000000000,closed,1,Add wallet balance metric
+1354,2020-03-25 14:47:39.000000000,2020-06-30 17:16:23.000000000,closed,11,Feature request: automatically close private channels once they are depleted 
+1353,2020-03-24 15:07:40.000000000,2020-03-24 15:24:07.000000000,closed,0,Minor: removed unused code
+1352,2020-03-20 17:12:04.000000000,2020-04-09 18:08:11.000000000,closed,4,Move router handlers to separate files
+1351,2020-03-20 13:15:19.000000000,2020-03-24 19:13:32.000000000,closed,7,Support composable behavior on payment initiator
+1350,2020-03-19 12:47:51.000000000,2020-03-19 14:35:54.000000000,closed,0,Centralize metrics per package
+1349,2020-03-17 14:34:53.000000000,2020-03-20 15:11:33.000000000,closed,5,Improve AddHtlcFailed
+1348,2020-03-16 14:43:31.000000000,2020-03-16 17:39:43.000000000,closed,1,Minor: Reduced some log levels
+1347,2020-03-11 19:11:59.000000000,2020-03-24 00:35:44.000000000,closed,12,Split the `Peer` in two
+1346,2020-03-11 19:05:16.000000000,2020-03-11 19:07:44.000000000,closed,0,Split the peer in two
+1345,2020-03-10 20:21:43.000000000,2020-06-02 12:46:59.000000000,closed,1,Router property-based testing
+1344,2020-03-10 15:20:24.000000000,2020-03-10 17:17:10.000000000,closed,1,Add more information to GetInfoResponse
+1343,2020-03-08 21:19:14.000000000,2020-03-08 23:40:24.000000000,closed,3,Timeouts on channel opening with Tor activated
+1342,2020-03-06 17:57:27.000000000,2020-03-11 18:02:04.000000000,closed,1,Re-send ChannelUpdate on reconnection (vol 2)
+1341,2020-03-05 17:56:46.000000000,2020-03-05 18:19:26.000000000,closed,1,Kanela-agent 1.0.1->1.0.5
+1340,2020-03-04 19:59:11.000000000,2020-03-05 17:07:57.000000000,closed,1,Send ping if no message received from peer for 30s
+1339,2020-03-04 14:33:41.000000000,2020-03-16 19:51:30.000000000,closed,1,Harden requirements on htlc-minimum-msat
+1338,2020-03-02 19:14:51.000000000,2020-04-01 19:51:43.000000000,closed,3,PostRestartHtlcCleaner handle channel closing
+1337,2020-03-02 13:49:26.000000000,2020-03-02 14:25:18.000000000,closed,1,Fix docker build
+1336,2020-02-29 19:14:43.000000000,2020-03-02 14:25:17.000000000,closed,0,Dockerfile does not build
+1335,2020-02-29 00:38:37.000000000,2020-03-27 13:58:06.000000000,closed,1,eclair error -5
+1334,2020-02-27 20:20:20.000000000,2020-03-09 13:32:53.000000000,closed,5,Allow users to have multiple wallets in bitcoind
+1333,2020-02-26 18:07:20.000000000,2020-02-28 14:32:16.000000000,closed,1,Make UpfrontShutdownScript a TLV record
+1332,2020-02-26 14:27:44.000000000,1970-01-01 00:00:00.000000001,open,5,Load plugins from config file
+1331,2020-02-24 20:15:48.000000000,2020-03-03 13:32:00.000000000,closed,1,Allow funder to dip into reserve if increased fee
+1330,2020-02-22 03:21:08.000000000,2020-03-09 13:32:53.000000000,closed,1,fatal error: bitcoind must have wallet support enabled when Bitcoin Core have multiple wallets
+1329,2020-02-21 03:44:16.000000000,2020-02-21 13:27:04.000000000,closed,0,"When the application exits abnormally, this log entry will be missing."
+1328,2020-02-20 21:40:32.000000000,2020-04-15 11:49:36.000000000,closed,3,"Feature request: dedicated fees for balanced, saturated and depleted channels"
+1327,2020-02-20 06:14:28.000000000,2020-02-21 03:46:39.000000000,closed,2,Notify shutdown
+1326,2020-02-18 20:42:07.000000000,2020-02-18 21:02:21.000000000,closed,0,Allow receiving non-standard payments
+1325,2020-02-17 21:50:35.000000000,2020-02-18 14:52:44.000000000,closed,1,SendToRoute with routing hints
+1324,2020-02-17 19:03:31.000000000,2020-02-27 22:33:09.000000000,closed,9,Refactor MultiPartPaymentFSM
+1323,2020-02-17 14:26:31.000000000,2020-02-28 20:19:37.000000000,closed,14,Wumbo support
+1322,2020-02-16 13:17:45.000000000,2020-02-17 14:59:04.000000000,closed,4,Error: bitcoind must have wallet support enabled
+1321,2020-02-12 22:13:09.000000000,2020-02-25 14:18:52.000000000,closed,3,Channel sends typed responses
+1320,2020-02-12 17:56:49.000000000,2020-02-12 20:05:06.000000000,closed,2,Add PaymentsDb helper to extract success
+1319,2020-02-11 21:38:49.000000000,2020-03-11 18:12:48.000000000,closed,1,Funder reserve for future fee increase
+1318,2020-02-11 18:46:40.000000000,2020-02-14 22:24:55.000000000,closed,3,Fix random trampoline test failure
+1317,2020-02-11 17:22:48.000000000,2020-02-12 14:18:01.000000000,closed,0,Always re-send ChannelUpdate to private channels
+1316,2020-02-11 15:15:09.000000000,2020-02-14 14:43:47.000000000,closed,5,Use 'getzmqnotifications' to get ZMQ addresses from bitcoind
+1315,2020-02-11 14:00:54.000000000,2020-02-11 20:57:29.000000000,closed,2,Electrum: add support for socks5 proxies
+1314,2020-02-11 05:02:13.000000000,1970-01-01 00:00:00.000000001,open,6,Feature request: Use getzmqnotifications for the ZMQ addresses
+1313,2020-02-10 23:27:22.000000000,2020-02-28 22:29:55.000000000,closed,2,Avoid illegal reflective operation during startup
+1312,2020-02-10 18:51:59.000000000,2020-03-05 17:42:41.000000000,closed,1,Payment metrics
+1311,2020-02-10 18:00:32.000000000,2020-02-24 22:17:39.000000000,closed,0,make Commitments method return Try[]
+1310,2020-02-09 23:31:39.000000000,1970-01-01 00:00:00.000000001,open,6,Add public channel hints to invoices
+1309,2020-02-09 20:59:51.000000000,2020-02-10 14:32:30.000000000,closed,0,Fix for change in Router API
+1308,2020-02-07 22:58:24.000000000,2020-02-10 17:37:23.000000000,closed,0,Payment request: ignore fields with invalid length
+1307,2020-02-07 13:06:44.000000000,2020-02-24 19:42:27.000000000,closed,8,Rework packaging
+1306,2020-02-06 19:55:06.000000000,2020-02-10 17:52:58.000000000,closed,0,Node relayer faster fulfill
+1305,2020-02-06 19:08:45.000000000,2020-02-24 22:17:39.000000000,closed,0,"Make Commitments.{sendX, receiveX} methods return a Try"
+1304,2020-02-06 14:04:33.000000000,2020-02-07 18:33:19.000000000,closed,0,Fix AuditDb flaky test
+1303,2020-02-05 21:36:24.000000000,2020-02-07 18:56:38.000000000,closed,1,Better logging for transport handler
+1302,2020-02-04 15:46:03.000000000,2020-02-10 17:25:16.000000000,closed,3,Better Bolt 11 parsing spec compliance
+1301,2020-02-03 14:24:34.000000000,2020-02-03 21:58:31.000000000,closed,3,Notify change in balance when updating network fee
+1300,2020-01-31 23:37:53.000000000,2020-02-03 15:07:27.000000000,closed,1,Release 0.3.3
+1299,2020-01-31 20:39:32.000000000,2020-01-31 20:46:01.000000000,closed,0,Fix force-close next commit then fulfill
+1298,2020-01-30 22:20:49.000000000,2020-02-03 18:43:59.000000000,closed,1,Electrum: allow watcher to watch for mempool transactions
+1297,2020-01-30 15:26:12.000000000,2020-01-31 15:52:16.000000000,closed,7,Trampoline/MPP API changes
+1296,2020-01-29 19:45:37.000000000,2020-06-30 17:33:50.000000000,closed,1,Remove backwards-compatibility workaround for Phoenix OpenChannel TLV stream
+1295,2020-01-28 15:31:03.000000000,2020-01-30 19:27:03.000000000,closed,14,Support deterministic build of eclair-core artifact on ubuntu
+1294,2020-01-28 15:03:17.000000000,2020-01-30 19:17:02.000000000,closed,2,Fix ChannelUpdate rebroadcast
+1293,2020-01-27 14:15:06.000000000,2020-01-28 18:20:05.000000000,closed,2,Fix availableForSend/Receive
+1292,2020-01-24 21:59:10.000000000,2020-01-28 17:25:49.000000000,closed,3,Channel queries: Encode empty arrays as UNCOMPRESSED
+1291,2020-01-24 19:32:28.000000000,2020-01-29 18:30:39.000000000,closed,1,Clarify ChannelsDb htlc info method
+1290,2020-01-23 23:11:18.000000000,2020-01-29 19:44:11.000000000,closed,1,UpfrontShutdownScript field
+1289,2020-01-23 19:25:14.000000000,2020-01-23 19:38:41.000000000,closed,1,Allow deactivating MPP
+1288,2020-01-22 22:28:05.000000000,2020-01-22 22:52:09.000000000,closed,0,Read fee provider timeout from config correctly
+1287,2020-01-22 18:39:53.000000000,2020-01-29 18:21:42.000000000,closed,1,Trampoline/MPP DB changes
+1286,2020-01-21 22:16:51.000000000,2020-01-23 20:43:46.000000000,closed,2,Upfront shutdown script
+1285,2020-01-21 20:23:05.000000000,2020-01-21 21:16:51.000000000,closed,0,Peer: use a minimum reconnection delay of 200 ms
+1284,2020-01-20 14:55:14.000000000,2020-01-20 19:32:44.000000000,closed,1,Broadcast gossip regardless of timestamp filters
+1283,2020-01-17 19:04:23.000000000,2020-01-17 19:11:26.000000000,closed,1,MPP: allow using unannounced channels
+1282,2020-01-17 13:46:44.000000000,2020-01-17 17:39:54.000000000,closed,0,Improve error message when invalid funding tx
+1281,2020-01-17 00:13:13.000000000,2020-01-17 17:39:54.000000000,closed,1,"""head of empty list"" after funding_locked"
+1280,2020-01-16 16:10:19.000000000,2020-01-24 22:55:41.000000000,closed,4,Do not include optional timestamp/checksum TLV if they are empty
+1279,2020-01-16 14:30:02.000000000,2020-01-20 19:33:59.000000000,closed,1,"Make sure that ids chunks strictly cover the requested range, without gaps"
+1278,2020-01-15 17:33:26.000000000,2020-01-29 15:16:10.000000000,closed,1,Turn off SSL when custom Electrum server address is a hidden service
+1277,2020-01-15 14:52:03.000000000,2020-01-15 15:10:28.000000000,closed,1,Dependencies: use bitcoin-lib 0.17
+1276,2020-01-13 19:39:10.000000000,2020-01-14 15:22:16.000000000,closed,2,Always encode empty list of scids as uncompressed
+1275,2020-01-10 22:02:44.000000000,2020-01-13 19:39:34.000000000,closed,8,Don't put the encoding type if there is no channel
+1274,2020-01-10 18:43:59.000000000,2020-01-14 18:28:52.000000000,closed,1,Fix how we split channel ids in channel queries
+1273,2020-01-10 17:51:45.000000000,2020-01-10 19:57:02.000000000,closed,0,Avoid sending PaymentSecret/MPP in Init
+1272,2020-01-10 15:28:14.000000000,2020-01-10 18:37:38.000000000,closed,2,Restore missing 'db.close()' methods
+1271,2020-01-08 20:10:22.000000000,2020-01-08 20:47:02.000000000,closed,1,Disable Trampoline-MPP to non-Phoenix recipients
+1270,2020-01-08 17:46:25.000000000,2020-01-08 18:09:19.000000000,closed,0,Fix Outpoint JSON serialization
+1269,2020-01-08 02:18:14.000000000,2020-01-14 18:28:53.000000000,closed,0,Missing replies for query_channel_range messages
+1268,2020-01-07 15:06:15.000000000,2020-01-07 20:44:52.000000000,closed,1,More consistency in sending messages during sync
+1267,2020-01-06 21:26:18.000000000,2020-01-07 20:49:38.000000000,closed,1,Remove mockito from switchboard tests
+1266,2019-12-24 20:39:19.000000000,2020-01-16 17:16:35.000000000,closed,0,Find htlc by id method
+1265,2019-12-23 20:03:04.000000000,2019-12-24 17:06:46.000000000,closed,0,Remove repeated code
+1264,2019-12-23 05:12:04.000000000,1970-01-01 00:00:00.000000001,open,0,Provide additional information to KeyManager.sign
+1263,2019-12-23 03:39:47.000000000,2020-01-20 15:42:13.000000000,closed,35,No such mempool transaction. Use -txindex or provide a block hash to enable blockchain transaction queries
+1262,2019-12-23 02:54:20.000000000,2019-12-24 13:11:25.000000000,closed,1,Added some instructions for TOR auth
+1261,2019-12-19 18:49:25.000000000,2020-01-21 21:27:26.000000000,closed,3,Improve NodeRelayer errors
+1260,2019-12-18 19:53:45.000000000,2019-12-18 20:39:20.000000000,closed,1,Improve CommandSend type
+1259,2019-12-17 13:51:34.000000000,2019-12-17 14:41:22.000000000,closed,1,Update Maven (3.6.3)
+1258,2019-12-15 22:32:36.000000000,2020-01-21 13:46:26.000000000,closed,0,Better Non-segwit UTXOs assert message.
+1257,2019-12-15 22:11:30.000000000,2020-01-21 13:47:01.000000000,closed,1,Ensure that links in error reports lead to efforts to handle the error
+1256,2019-12-15 22:07:55.000000000,2020-01-21 13:45:14.000000000,closed,0,"Provided solution to ""non-segwit UTXO found."""
+1255,2019-12-15 21:33:12.000000000,2020-05-19 17:37:07.000000000,closed,1,Error messages ought to be selectable for copy/paste
+1254,2019-12-13 21:22:19.000000000,2020-01-21 17:14:39.000000000,closed,1,Add networks to init message
+1253,2019-12-12 21:21:10.000000000,2020-01-09 17:47:44.000000000,closed,3,Flat features
+1252,2019-12-12 15:52:30.000000000,2020-01-14 20:14:22.000000000,closed,3,Add contributing instructions
+1251,2019-12-11 17:48:04.000000000,2019-12-11 19:14:04.000000000,closed,10,Allow Peer.Connect messages to force reconnection to remote.
+1250,2019-12-11 17:23:53.000000000,2019-12-11 18:16:49.000000000,closed,1,Better randomization of reconnection delay
+1249,2019-12-10 20:31:10.000000000,2020-07-01 16:52:37.000000000,closed,15,Postgresql support
+1248,2019-12-10 20:00:20.000000000,2020-04-07 11:55:41.000000000,closed,14,Use correct type for parameters in ExtendedBitcoinClient
+1247,2019-12-10 17:36:44.000000000,2020-01-15 19:48:25.000000000,closed,1,Fix Sphinx privacy leak
+1246,2019-12-10 15:32:06.000000000,2019-12-11 17:53:54.000000000,closed,0,MPP: don't retry if failure comes from final recipient
+1245,2019-12-10 13:27:32.000000000,2019-12-11 18:40:23.000000000,closed,4,Add HasHtlcIdCommand
+1244,2019-12-09 18:32:57.000000000,2019-12-09 20:18:13.000000000,closed,2,Add a configurable time-out to onchain fee provider requests
+1243,2019-12-09 18:00:31.000000000,2019-12-09 18:12:28.000000000,closed,0,Fix MPP flaky test
+1242,2019-12-09 16:21:15.000000000,2019-12-11 19:14:16.000000000,closed,0,Unable to force reconnection via /connect API
+1241,2019-12-07 22:25:19.000000000,2019-12-11 18:03:31.000000000,closed,1,Minor: missing log category in peer
+1240,2019-12-07 21:52:14.000000000,2020-03-27 16:02:27.000000000,closed,12,Postgres support
+1239,2019-12-07 19:31:43.000000000,2020-06-29 13:46:36.000000000,closed,2,Prefix all stored LN messages by their length
+1238,2019-12-07 17:02:35.000000000,2019-12-11 18:16:48.000000000,closed,7,Long series of reconnects followed by force-close
+1237,2019-12-06 21:56:05.000000000,2019-12-06 22:26:32.000000000,closed,2,Register: ShortChannelId can change because of re-orgs
+1236,2019-12-06 18:13:54.000000000,2019-12-06 18:23:57.000000000,closed,0,Added blank lines to minimize conflicts
+1235,2019-12-06 17:38:35.000000000,2019-12-06 17:57:46.000000000,closed,0,Set `akka.loglevel` to `DEBUG`
+1234,2019-12-06 16:59:56.000000000,2019-12-11 22:55:16.000000000,closed,8,Invalid commit sig on reconnection eclair-lnd
+1233,2019-12-05 15:10:25.000000000,2020-01-29 18:30:38.000000000,closed,2,Strange name and logic for `ChannelsDb.addOrUpdateHtlcInfo`
+1232,2019-12-04 19:13:58.000000000,2019-12-04 21:29:56.000000000,closed,1,Fix outgoing payments order in payments overview
+1231,2019-12-04 18:51:29.000000000,2019-12-10 17:40:38.000000000,closed,1,"Minor: ignore ""disconnecting"" message in Channel"
+1230,2019-12-04 17:23:44.000000000,2020-06-26 12:27:39.000000000,closed,2,Support pruned bitcoind
+1229,2019-12-02 15:34:39.000000000,2019-12-02 15:40:23.000000000,closed,0,Fix onion codec test
+1228,2019-12-02 14:28:04.000000000,2019-12-02 20:15:57.000000000,closed,1,Handle chain re-org in balance computation
+1227,2019-11-29 20:41:44.000000000,2019-12-04 18:17:57.000000000,closed,1,Added a 'category' in logs
+1226,2019-11-29 20:38:14.000000000,2019-11-29 21:03:27.000000000,closed,1,Extended doHandle to other messages in MultiPartHandler
+1225,2019-11-29 00:22:24.000000000,2019-12-02 15:35:34.000000000,closed,1,High level payments overview method
+1224,2019-11-28 17:59:19.000000000,2019-11-28 22:06:30.000000000,closed,0,Fix MPP post-restart HTLC clean-up
+1223,2019-11-27 19:26:52.000000000,2019-12-05 15:15:03.000000000,closed,2,Akka remote backups
+1222,2019-11-25 17:36:24.000000000,2019-11-29 14:43:24.000000000,closed,1,Avoid incoherent payment request features.
+1221,2019-11-22 13:28:53.000000000,2019-11-22 13:58:08.000000000,closed,1,add networkstats API call to allow display of network stats
+1220,2019-11-21 15:20:03.000000000,2019-12-18 18:34:53.000000000,closed,1,Relay Trampoline payments
+1219,2019-11-20 18:38:14.000000000,2019-11-21 13:29:50.000000000,closed,1,MPP routing improvements
+1218,2019-11-18 21:36:02.000000000,2019-11-22 15:57:29.000000000,closed,2,Improved tracing of single/multi-part payments
+1217,2019-11-18 19:14:49.000000000,2019-11-18 19:25:39.000000000,closed,0,PaymentLifecycle should tell the router to ignore route prefix
+1216,2019-11-18 18:27:36.000000000,2019-11-18 19:23:59.000000000,closed,0,Check TLS version support in ElectrumClient
+1215,2019-11-14 18:16:19.000000000,2019-11-14 20:40:22.000000000,closed,1,Refactor: move channel relaying to a ChannelRelayer actor.
+1214,2019-11-14 15:57:56.000000000,2019-12-10 16:44:34.000000000,closed,3,Hosted channels
+1213,2019-11-14 15:29:44.000000000,2019-11-14 20:21:33.000000000,closed,0,Update invoice test vectors
+1212,2019-11-14 15:20:23.000000000,2019-12-02 15:06:48.000000000,closed,1,Rework truncated integers codecs
+1211,2019-11-13 22:30:35.000000000,2019-11-14 13:55:10.000000000,closed,1,Ignore NPE in tests
+1210,2019-11-13 20:16:03.000000000,2019-11-13 23:27:34.000000000,closed,0,Error: No such mempool transactions
+1209,2019-11-13 15:22:53.000000000,2019-11-14 15:38:01.000000000,closed,2,Add trampoline onion support
+1208,2019-11-13 14:45:48.000000000,2019-11-13 15:05:01.000000000,closed,1,Fixed race condition in payment handler init
+1207,2019-11-13 13:43:38.000000000,2019-11-13 13:50:10.000000000,closed,0,Fixed composition of receive handlers
+1206,2019-11-11 17:08:09.000000000,1970-01-01 00:00:00.000000001,open,0,eclair-cli usage example color formatting not working in different shells
+1205,2019-11-11 02:58:54.000000000,2019-12-16 15:20:02.000000000,closed,2,Repeated failure and disconnects from one peer.
+1204,2019-11-08 20:09:03.000000000,2020-03-27 13:44:27.000000000,closed,1,Add reminder that docker has to be running before build
+1203,2019-11-08 14:48:42.000000000,2019-11-14 14:04:52.000000000,closed,1,Payment Request: speed up node id computation
+1202,2019-11-08 00:20:58.000000000,2019-12-04 14:21:34.000000000,closed,2,Multi part payments refactor
+1201,2019-11-04 22:56:27.000000000,2019-11-09 03:32:41.000000000,closed,1,More logging for LocalPaymentHandler
+1200,2019-11-04 21:38:12.000000000,2019-12-12 13:22:18.000000000,closed,1,Add synchronization when locking database connection
+1199,2019-11-04 21:20:56.000000000,2019-11-05 20:39:40.000000000,closed,1,Minor: fixed format in exception message
+1198,2019-11-02 17:35:16.000000000,2019-11-09 20:52:28.000000000,closed,1,[WIP] Status by external
+1197,2019-10-31 19:00:22.000000000,1970-01-01 00:00:00.000000001,open,5,Recovery tool
+1196,2019-10-30 19:03:30.000000000,2019-11-04 20:19:16.000000000,closed,1,More metrics
+1195,2019-10-30 18:30:13.000000000,2020-03-26 18:58:55.000000000,closed,1,[WIP] Random scid
+1192,2019-10-25 03:28:11.000000000,2019-11-25 21:03:09.000000000,closed,2,location of eclair.conf not documented for windows
+1191,2019-10-24 23:00:21.000000000,2019-10-25 12:49:50.000000000,closed,1,Update API docs
+1190,2019-10-24 19:09:52.000000000,2019-11-04 18:54:03.000000000,closed,13,Add 'getnewaddress' API
+1189,2019-10-24 01:47:06.000000000,2019-11-22 13:57:47.000000000,closed,9,add networkstats API call to allow display of network stats
+1188,2019-10-23 19:34:54.000000000,2020-08-10 17:38:14.000000000,closed,1,Type fee rates info
+1187,2019-10-23 19:18:24.000000000,2019-11-18 18:51:47.000000000,closed,1,Fix /allupdates API 
+1183,2019-10-23 12:22:25.000000000,2019-11-07 16:13:49.000000000,closed,1,Rework payment handling
+1182,2019-10-23 02:35:33.000000000,1970-01-01 00:00:00.000000001,open,0,"Implement ""stop"" method to cleanly shutdown eclair remotely"
+1181,2019-10-22 16:18:41.000000000,2019-10-23 12:04:14.000000000,closed,2,Fix codecov unknown tag
+1180,2019-10-21 17:50:52.000000000,2019-10-22 13:49:29.000000000,closed,2,Fix ignored duplicate amounts in htlc-value-in-flight
+1179,2019-10-18 15:35:07.000000000,2019-11-19 13:40:30.000000000,closed,1,Broken /allupdates API
+1178,2019-10-16 14:06:04.000000000,2019-12-04 17:23:55.000000000,closed,11,Support pruned bitcoind
+1177,2019-10-15 20:11:42.000000000,2019-10-15 21:26:43.000000000,closed,1,Release 0.3.2
+1176,2019-10-15 20:07:56.000000000,2019-10-22 16:16:51.000000000,closed,1,Refactor Upstream/Origin
+1175,2019-10-15 15:46:15.000000000,2019-10-15 18:37:20.000000000,closed,1,Check configuration for obsolete keys in startup
+1174,2019-10-15 15:12:10.000000000,2019-10-15 15:17:46.000000000,closed,1,Release 0.3.2
+1173,2019-10-15 11:43:29.000000000,1970-01-01 00:00:00.000000001,open,2,Python client library.
+1172,2019-10-14 18:35:57.000000000,2019-10-14 20:09:04.000000000,closed,0,Update assisted channels
+1171,2019-10-13 22:16:12.000000000,2020-01-20 15:51:37.000000000,closed,13,Should eclair exit on SQL Disk errors?
+1170,2019-10-10 18:12:55.000000000,1970-01-01 00:00:00.000000001,open,8,Add bech32 support for electrum wallet
+1169,2019-10-10 13:41:20.000000000,2019-11-29 00:22:45.000000000,closed,1,High level call aggregating payments
+1168,2019-10-08 12:28:18.000000000,2019-10-16 16:46:11.000000000,closed,1,[WIP] Remove txindex requirement for bitcoind backend
+1167,2019-10-08 12:27:18.000000000,2019-10-08 12:27:41.000000000,closed,0,[WIP] Use gettxout to fetch unspent transaction outputs
+1166,2019-10-07 20:00:17.000000000,2019-10-07 20:25:11.000000000,closed,0,Use guava to compute CRC32C checksums
+1165,2019-10-07 18:01:13.000000000,2019-10-07 19:08:22.000000000,closed,1,Activate extended channel range queries
+1164,2019-10-04 20:10:41.000000000,2020-01-14 20:33:37.000000000,closed,1,Electrum improvements
+1163,2019-10-03 19:53:56.000000000,2019-10-21 17:51:35.000000000,closed,11,Value in flight fix
+1162,2019-10-03 19:26:28.000000000,2019-10-08 15:21:18.000000000,closed,2,Update android branch
+1161,2019-10-03 17:32:39.000000000,2019-10-03 19:05:13.000000000,closed,7,Add execution time limit
+1160,2019-10-03 16:02:13.000000000,2019-10-03 17:01:11.000000000,closed,0,Update netty dependency to 4.1.32
+1159,2019-10-03 13:17:33.000000000,2019-10-14 13:31:21.000000000,closed,3,Sqlite: use TEXT type for strings
+1158,2019-10-03 12:30:53.000000000,2020-01-20 15:43:25.000000000,closed,6,StackOverflowError 	at scala.collection.MapLike$FilteredKeys.foreach
+1157,2019-10-03 12:20:43.000000000,2019-10-03 12:42:55.000000000,closed,1,Upgrade new unit tests to bitcoin 0.18.1 API
+1156,2019-10-03 00:56:31.000000000,2019-10-03 01:58:38.000000000,closed,0,Inaccurate open and closed timestamps on closed channel details
+1155,2019-10-03 00:48:53.000000000,2019-10-03 01:59:52.000000000,closed,0,Trouble sending to certain bech32 addresses 
+1154,2019-10-01 18:52:00.000000000,2019-10-02 18:43:59.000000000,closed,0,Extend funding key path to 256 bits
+1153,2019-10-01 17:24:28.000000000,2019-11-12 20:06:42.000000000,closed,1,Multi part payments
+1152,2019-09-30 15:41:26.000000000,2019-09-30 18:43:08.000000000,closed,0,Commitments: take HTLC fee into account
+1151,2019-09-27 19:17:31.000000000,2019-10-01 12:22:11.000000000,closed,0,Update funding pubkey path generation
+1150,2019-09-27 17:26:12.000000000,2019-10-01 12:16:30.000000000,closed,0,HTTP API: add type hints for payment status
+1149,2019-09-26 19:09:33.000000000,2019-10-02 13:20:01.000000000,closed,0,Electrum: improve coin selection (fixes #1146)
+1148,2019-09-26 18:36:47.000000000,2019-10-03 11:23:32.000000000,closed,4,Use bitcoin 0.18.1 in the test
+1147,2019-09-25 13:23:46.000000000,2019-09-25 16:29:49.000000000,closed,0,Fix and expand channel keypath
+1146,2019-09-23 21:13:28.000000000,2019-10-02 13:20:02.000000000,closed,0,Electrum wallet: cannot fund tx is amount is close to the entire wallet balance
+1145,2019-09-23 20:03:48.000000000,2019-10-02 15:22:33.000000000,closed,2,Port the API service to spray.io for ease of testing
+1144,2019-09-20 23:27:10.000000000,2019-09-24 12:41:26.000000000,closed,2,Payments broken in simverse after PR #1130
+1143,2019-09-20 22:42:24.000000000,2019-09-23 11:47:33.000000000,closed,1,Где мои 100000sat после открытия и закрытия канала? 
+1142,2019-09-20 17:53:33.000000000,2019-09-20 18:09:53.000000000,closed,0,Improve error handling for /sendtoroute
+1141,2019-09-19 13:42:16.000000000,2020-06-05 18:01:44.000000000,closed,21,Implement option_static_remotekey
+1140,2019-09-18 13:18:52.000000000,2020-06-02 13:40:25.000000000,closed,1,Native build
+1139,2019-09-17 20:02:45.000000000,2020-01-20 15:49:46.000000000,closed,13,Newbie requires Assistance
+1138,2019-09-17 12:27:16.000000000,2019-09-18 17:29:21.000000000,closed,6,Update string to match on bitcoind while it's indexing
+1137,2019-09-16 12:41:18.000000000,2019-09-18 11:39:00.000000000,closed,0,Sphinx: accept invalid downstream errors
+1136,2019-09-13 16:38:02.000000000,2020-06-30 17:22:19.000000000,closed,3,Expand certain API calls to also accept lists
+1135,2019-09-12 18:04:16.000000000,2019-09-16 13:04:11.000000000,closed,9,Drop support for Java 8
+1134,2019-09-11 13:21:47.000000000,2019-09-12 19:18:23.000000000,closed,6,Add codecov integration to semaphore CI
+1133,2019-09-10 21:47:08.000000000,2019-09-11 16:16:55.000000000,closed,2,Eclair sent bad commitment signature (w/ log from C-Lightning node)
+1132,2019-09-10 19:08:03.000000000,2019-09-17 11:57:07.000000000,closed,11,Better handling of bitcoind failures
+1131,2019-09-10 16:58:34.000000000,2019-09-10 19:12:16.000000000,closed,1,Halt on fatal validation errors
+1130,2019-09-06 18:22:44.000000000,2019-09-20 16:29:37.000000000,closed,6,Payment lifecycle refactoring
+1129,2019-09-06 17:57:58.000000000,2019-09-06 19:15:51.000000000,closed,0,Don't hardcode the channel version
+1128,2019-09-06 17:30:10.000000000,2019-09-06 18:38:38.000000000,closed,1,Check funds in millisatoshi when sending/receiving an HTLC
+1127,2019-09-05 23:22:51.000000000,2019-09-11 12:55:44.000000000,closed,1,Removed Globals class
+1126,2019-09-05 19:27:21.000000000,2019-09-06 16:37:27.000000000,closed,3,Add monitoring with Kamon (disabled by default)
+1125,2019-09-05 18:31:31.000000000,2019-09-05 20:21:09.000000000,closed,2,Add Semaphore CI
+1124,2019-09-04 20:32:27.000000000,2019-09-05 14:46:29.000000000,closed,1,Made sync params configurable
+1123,2019-09-04 15:01:29.000000000,2019-09-04 15:43:50.000000000,closed,1,Update docker build
+1122,2019-09-03 19:25:51.000000000,2019-10-14 12:42:39.000000000,closed,4,Store channel data on restore
+1121,2019-09-03 18:45:08.000000000,2019-09-04 15:38:01.000000000,closed,1,Implement Bolt 11 invoice feature bits
+1120,2019-09-03 15:01:22.000000000,2019-09-03 15:40:54.000000000,closed,2,Fix maven mirror
+1119,2019-09-03 14:03:25.000000000,2019-09-04 15:00:56.000000000,closed,1,Update docker build
+1118,2019-09-02 20:23:57.000000000,1970-01-01 00:00:00.000000001,open,8,Native CLI
+1117,2019-09-02 20:22:10.000000000,2019-09-04 16:22:22.000000000,closed,9,Api: reject expired invoices
+1116,2019-09-02 19:48:07.000000000,2019-09-06 13:39:23.000000000,closed,3,Router computes network stats
+1115,2019-09-02 12:23:42.000000000,2019-09-02 12:53:37.000000000,closed,1,Fix build
+1114,2019-08-30 16:59:13.000000000,2019-08-30 20:09:08.000000000,closed,1,Finish tests by fulfilling htlcs
+1113,2019-08-30 15:40:09.000000000,2019-09-04 15:43:50.000000000,closed,1,Dockerfile compile error: object CRC32C is not a member of package java.util.zip
+1112,2019-08-29 15:54:11.000000000,2019-09-11 15:40:47.000000000,closed,6,Make tests run in parallel
+1111,2019-08-28 21:24:35.000000000,2020-07-02 14:17:27.000000000,closed,5,Avoid pendingRelays db call each time a channel becomes operational
+1110,2019-08-28 17:10:05.000000000,2019-09-18 11:39:00.000000000,closed,5,Two expired HTLCs followed by remote force-close with testnet Eclair node
+1109,2019-08-26 15:35:44.000000000,2019-09-04 13:57:11.000000000,closed,5,Use Long to back the UInt64 type
+1108,2019-08-23 18:40:46.000000000,2019-08-26 17:18:28.000000000,closed,1,Channel range queries: send back node announcements
+1107,2019-08-22 19:51:01.000000000,2019-08-30 20:44:27.000000000,closed,2,Fix regression in `Commitments.availableForSend`
+1106,2019-08-22 16:43:12.000000000,2019-09-02 12:06:44.000000000,closed,2,Bolt4: remove final_expiry_too_soon error message
+1105,2019-08-22 16:38:33.000000000,2019-08-29 13:58:10.000000000,closed,8,Use unsigned comparison for 'maxHtlcValueInFlightMsat'
+1104,2019-08-22 11:32:28.000000000,2019-08-26 17:15:34.000000000,closed,3,Typed cltv expiry
+1103,2019-08-21 16:00:40.000000000,2019-08-29 11:19:02.000000000,closed,4,Add more numeric utilities to MilliSatoshi
+1102,2019-08-21 12:59:17.000000000,2019-08-30 11:44:25.000000000,closed,7,Move http APIs to subproject eclair-node
+1101,2019-08-20 15:13:52.000000000,2019-08-20 17:56:57.000000000,closed,1,Route computation: fix fee check
+1100,2019-08-20 02:56:02.000000000,2019-09-18 11:39:58.000000000,closed,2,Add API call to get general network statistics
+1099,2019-08-19 21:30:39.000000000,2019-09-20 16:32:18.000000000,closed,16,Client side paymentId
+1098,2019-08-16 17:41:49.000000000,2019-08-22 01:29:50.000000000,closed,5,"""Message not delivered"" probably causing flakiness in LN payments between eclair nodes"
+1097,2019-08-09 20:30:52.000000000,2019-09-23 13:44:58.000000000,closed,4,Derive channel keys from the channel funding pubkey
+1096,2019-08-08 18:55:22.000000000,2019-08-22 13:36:23.000000000,closed,1,Use MilliSatoshi to type 'maxHtlcValueInFlightMsat'
+1095,2019-08-07 05:00:44.000000000,2019-08-07 14:57:14.000000000,closed,3,findroute fails in eclair on `v0.3.1`
+1094,2019-08-04 20:10:02.000000000,2020-01-20 15:55:03.000000000,closed,5,A valid channel closed by Eclair Mobile without human intervention
+1093,2019-08-01 19:43:40.000000000,2019-08-09 12:46:28.000000000,closed,3,Derive channel keys from the channel funding pubkey
+1092,2019-07-31 15:55:09.000000000,2019-07-31 17:35:28.000000000,closed,3,Documentation update
+1091,2019-07-29 12:07:45.000000000,2019-07-29 12:32:06.000000000,closed,1,Update list of commands in eclair-cli help
+1090,2019-07-26 17:32:37.000000000,2019-07-26 19:15:09.000000000,closed,1,Use correct cost comparison when evaluating candidate channels
+1089,2019-07-25 18:06:19.000000000,2019-08-26 17:02:56.000000000,closed,3,Publish transactions during transitions
+1088,2019-07-25 12:10:12.000000000,2019-08-07 19:37:39.000000000,closed,4,Typed amounts
+1087,2019-07-23 20:38:43.000000000,2019-09-05 19:41:46.000000000,closed,4,Activate support for variable-length onion
+1086,2019-07-22 15:18:39.000000000,2019-08-26 16:27:51.000000000,closed,2,Deterministic channel keypath
+1085,2019-07-21 17:57:09.000000000,1970-01-01 00:00:00.000000001,open,2,Building eclair with graalvm native image
+1084,2019-07-21 17:43:54.000000000,2019-09-23 20:21:56.000000000,closed,6,Check if remote funder can handle an updated commit fee when sending HTLC
+1083,2019-07-20 18:30:24.000000000,2019-07-25 21:06:19.000000000,closed,7,Configurable transaction confirmation target
+1082,2019-07-18 16:55:39.000000000,2019-07-24 12:03:45.000000000,closed,2,Made using/storing/sending consistent
+1081,2019-07-17 18:05:19.000000000,2019-09-23 20:21:56.000000000,closed,0,Check if remote funder can handle updated commit fees when sending an HTLC
+1080,2019-07-17 17:35:27.000000000,2019-09-20 19:48:03.000000000,closed,5,Handle fees increases when channel is OFFLINE
+1079,2019-07-17 15:01:07.000000000,2019-07-23 13:11:41.000000000,closed,1,Handle fulfill not acked upstream
+1078,2019-07-17 01:12:44.000000000,2020-01-20 15:55:34.000000000,closed,6,Endless reconnections
+1077,2019-07-16 13:43:23.000000000,2019-07-16 13:50:32.000000000,closed,2,Setup: disable bitcoind sync when regtest
+1076,2019-07-15 16:28:33.000000000,2019-08-22 19:30:38.000000000,closed,2,Remove incorrect_payment_amount error type
+1075,2019-07-15 13:28:25.000000000,2019-07-15 13:55:41.000000000,closed,1,Switch varint codec to big-endian.
+1074,2019-07-15 02:43:18.000000000,2019-09-20 16:31:23.000000000,closed,3,Store failure messages for outgoing payments
+1073,2019-07-12 20:25:55.000000000,2019-07-15 15:11:21.000000000,closed,1,Replace traits by bitfield for ChannelVersion
+1072,2019-07-12 18:22:29.000000000,2019-08-22 20:58:14.000000000,closed,1,Extended Queries: use TLV format for optional data
+1071,2019-07-12 14:51:52.000000000,2019-07-15 13:18:07.000000000,closed,1,add in utility script to startup a regtest Network
+1070,2019-07-12 11:53:57.000000000,2019-09-20 16:31:05.000000000,closed,3,Add fee info to GetSentInfo
+1069,2019-07-11 15:36:37.000000000,2019-07-11 19:25:15.000000000,closed,1,TLV improvements and full spec compatibility
+1068,2019-07-10 21:58:18.000000000,1970-01-01 00:00:00.000000001,open,0,"Feature request: FindRouteToNode, but any 2 nodes"
+1067,2019-07-09 17:34:11.000000000,2019-07-09 18:00:19.000000000,closed,1,Electrum: update checkpoints
+1066,2019-07-08 13:20:18.000000000,2019-07-20 18:31:13.000000000,closed,10,Configurable fee target
+1065,2019-07-05 20:20:54.000000000,2019-07-08 12:05:18.000000000,closed,1,Add a few improvements to tlv.
+1064,2019-07-04 15:50:59.000000000,2019-07-04 16:06:06.000000000,closed,1,Use a `RelayResult` class instead of an `Either`
+1063,2019-07-04 12:39:09.000000000,2019-07-05 11:10:07.000000000,closed,3,Add eclair-cli to eclair's docker image
+1062,2019-07-03 20:47:14.000000000,2019-07-04 12:00:45.000000000,closed,0,Set version to 0.3.2-SNAPSHOT
+1061,2019-07-03 18:15:59.000000000,2019-07-03 19:23:12.000000000,closed,1,Set version to v0.3.1
+1060,2019-07-03 12:17:00.000000000,2019-10-11 20:38:27.000000000,closed,1,Include `feesPaid` in `GetSentInfo` output
+1059,2019-07-02 19:31:39.000000000,2019-07-12 15:36:34.000000000,closed,1,Added a channel version to `Commitments` object
+1058,2019-07-02 18:30:58.000000000,2019-07-02 19:31:54.000000000,closed,4,Enhance bitcoind checks during startup
+1057,2019-07-02 12:43:36.000000000,2019-07-03 17:52:04.000000000,closed,6,Reject payments for expired invoices
+1056,2019-07-01 20:52:49.000000000,2019-07-02 12:22:35.000000000,closed,0,Make Bitcoin Core bind on localhost in tests
+1055,2019-07-01 12:12:14.000000000,2019-07-03 17:52:04.000000000,closed,0,Fail incoming payments for expired invoices
+1054,2019-06-27 18:19:05.000000000,2019-07-01 11:31:38.000000000,closed,3,Update link for recommended JDK
+1053,2019-06-26 20:43:41.000000000,2019-07-02 13:20:03.000000000,closed,14,Add more data to `usablebalances` API method
+1052,2019-06-26 20:29:01.000000000,2019-06-26 20:31:31.000000000,closed,0,Add more data to `usablebalances` API method
+1051,2019-06-26 14:37:46.000000000,2019-07-02 14:25:08.000000000,closed,4,Strict linting
+1050,2019-06-26 14:25:23.000000000,2019-07-02 12:06:58.000000000,closed,3,Added more memory for scoverage
+1049,2019-06-26 01:14:25.000000000,2019-07-01 11:31:38.000000000,closed,1,Recommend JDK 11 isn't available anymore from jdk.java.net
+1048,2019-06-25 18:28:17.000000000,2019-09-20 16:30:37.000000000,closed,2,Store more payment info for sent payments
+1047,2019-06-25 16:39:37.000000000,2019-07-08 19:14:02.000000000,closed,7,Handle unknown fields in network announcements
+1046,2019-06-24 19:19:52.000000000,2019-06-24 19:46:56.000000000,closed,1,Remove old APIs
+1045,2019-06-21 20:22:13.000000000,2019-07-02 13:53:15.000000000,closed,3,Add TLV and TLV stream codec support
+1044,2019-06-19 18:15:40.000000000,2019-06-24 12:10:22.000000000,closed,1,getsentinfo returns timestamps in millis
+1043,2019-06-19 13:14:37.000000000,2019-06-19 13:36:31.000000000,closed,1,Minor fixes
+1042,2019-06-18 15:20:52.000000000,2019-06-20 13:40:02.000000000,closed,1,Ack unhandled lightning messages
+1041,2019-06-18 02:49:09.000000000,2019-06-19 00:03:37.000000000,closed,3,Failed to load native library:secp256k1 [UnsatisfiedLinkError]
+1040,2019-06-17 17:48:10.000000000,2019-07-03 15:15:21.000000000,closed,2,"Connect immediately on restart, then wait"
+1039,2019-06-17 00:53:16.000000000,2019-06-17 20:32:33.000000000,closed,1,Double deposit amount appears in wallet 
+1038,2019-06-14 18:05:51.000000000,2019-06-17 14:10:11.000000000,closed,5,Electrum: add data to TxIdFromPosResponse.
+1037,2019-06-14 17:31:51.000000000,2019-06-20 13:40:09.000000000,closed,7,Permanent connection drop
+1036,2019-06-13 20:58:48.000000000,2019-06-14 16:04:16.000000000,closed,1,Removed cached codec
+1035,2019-06-13 20:39:06.000000000,2019-06-14 15:25:37.000000000,closed,1,Electrum: add id_from_pos
+1034,2019-06-13 18:02:25.000000000,2019-07-03 14:00:01.000000000,closed,2,Close the channel if the funding tx never confirms
+1033,2019-06-12 16:07:45.000000000,2019-06-13 20:10:10.000000000,closed,1,Output txid and serialized tx in transaction json serializer
+1032,2019-06-12 12:32:55.000000000,2019-07-09 18:49:56.000000000,closed,8,Wrap all routes in toStrictEntity
+1031,2019-06-12 01:39:08.000000000,2019-06-14 16:04:16.000000000,closed,5,Memory Leak in cachedLightningMessageCodec
+1030,2019-06-10 14:22:59.000000000,2019-07-09 18:49:56.000000000,closed,4,Inconsistent responses to /connect API
+1029,2019-06-10 03:10:34.000000000,2019-06-15 00:18:44.000000000,closed,3,"Feature Request: Periodic Sanity Check for ""Offline"" channels"
+1028,2019-06-08 21:27:10.000000000,2019-07-25 21:06:19.000000000,closed,2,Feature request: better (manual) fee control 
+1027,2019-06-07 17:52:13.000000000,2019-06-13 20:08:35.000000000,closed,0,Clean pending htlcs db
+1026,2019-06-04 20:04:00.000000000,2019-07-22 17:28:49.000000000,closed,3,Deterministic channel keypath
+1025,2019-06-04 16:34:27.000000000,2019-06-12 11:43:18.000000000,closed,5,Actor params: small refactoring
+1024,2019-06-03 21:02:41.000000000,2019-06-04 18:20:34.000000000,closed,7,Update to V0.3 failure
+1023,2019-06-03 13:46:22.000000000,2019-06-11 17:34:48.000000000,closed,1,Add feeThresholdSat and maxFeePct parameters to payments API
+1022,2019-06-03 12:59:29.000000000,2019-06-03 15:45:52.000000000,closed,2,Electrum: update server list
+1021,2019-06-01 06:39:00.000000000,2019-06-11 17:34:48.000000000,closed,0,API Payments Feature Request: Expose Custom Parameter for fees 
+1020,2019-05-30 13:29:22.000000000,2019-06-14 17:01:11.000000000,closed,1,Correctly decode requests without multipliers
+1019,2019-05-29 18:31:30.000000000,2019-06-03 11:44:07.000000000,closed,1,Initialize global feerate with default from conf
+1018,2019-05-28 15:22:15.000000000,2019-05-28 16:14:18.000000000,closed,2,Removed `PaymentRequest.MAX_AMOUNT`
+1017,2019-05-26 20:32:57.000000000,2019-05-27 17:10:04.000000000,closed,5,No .exe in release
+1016,2019-05-24 19:21:09.000000000,2019-06-11 16:31:24.000000000,closed,6,Close channel if funding tx times out
+1015,2019-05-24 18:49:10.000000000,2019-06-12 14:29:32.000000000,closed,1,Smarter restore logic for closing channels
+1014,2019-05-23 16:32:02.000000000,2019-06-14 13:52:02.000000000,closed,1,Use compact encoding for signatures (64 bytes) instead of DER
+1013,2019-05-21 15:12:33.000000000,2019-05-21 19:36:29.000000000,closed,2,Make `htlc-reaper` a top-level actor
+1012,2019-05-20 19:33:34.000000000,2019-05-27 19:33:21.000000000,closed,1,Set `handleCommandError` to `WARN`
+1011,2019-05-20 17:10:27.000000000,2019-06-03 21:10:15.000000000,closed,2,Smarter relay logic
+1010,2019-05-20 13:50:13.000000000,2019-05-23 18:36:55.000000000,closed,1,Electrum:  consistently retrieve wallet transactions
+1009,2019-05-20 12:47:18.000000000,2019-06-11 19:39:53.000000000,closed,5,Peer reconnection address from node announcements
+1008,2019-05-17 16:42:04.000000000,2019-05-24 21:00:50.000000000,closed,1,Use 64B representation instead of DER for sigs
+1007,2019-05-16 16:18:13.000000000,2019-06-17 20:33:49.000000000,closed,1,Can't connect to any Tor node.
+1006,2019-05-16 06:14:41.000000000,2019-11-04 18:54:03.000000000,closed,4,[API] Get deposit address
+1005,2019-05-15 13:26:46.000000000,2019-08-23 18:32:02.000000000,closed,1,Exposing messaging API
+1004,2019-05-14 16:06:59.000000000,2019-05-20 16:22:10.000000000,closed,1,Increase Service and EclairImpl test coverage
+1003,2019-05-14 04:49:51.000000000,2019-06-11 19:39:53.000000000,closed,6,"Due to failed reconnection, paying an invoice incurs unnecessary fees."
+1002,2019-05-13 22:06:37.000000000,2019-05-21 19:56:48.000000000,closed,1,Merge master into Android
+1001,2019-05-13 03:34:03.000000000,1970-01-01 00:00:00.000000001,open,3,Feature request: Support query string authentication on API WebSocket endpoint
+1000,2019-05-12 13:10:22.000000000,2019-05-14 10:56:04.000000000,closed,12,Funds debited from channel but not received at destination wallet
+999,2019-05-11 17:21:09.000000000,2019-06-17 20:34:10.000000000,closed,5,"Documentation, IP address change #471 #125"
+998,2019-05-11 16:11:57.000000000,1970-01-01 00:00:00.000000001,open,4,eclair-cli suggestions
+997,2019-05-11 01:52:59.000000000,2019-05-11 17:34:49.000000000,closed,1,Configuration File  
+996,2019-05-10 19:53:22.000000000,2019-05-10 21:53:51.000000000,closed,1,Improved test coverage of `io` package
+995,2019-05-10 19:14:21.000000000,2019-10-29 14:10:48.000000000,closed,4,Recovery tool
+994,2019-05-09 19:39:29.000000000,2019-05-10 13:02:09.000000000,closed,1,Release v0.3
+993,2019-05-09 18:59:07.000000000,2019-05-09 19:18:47.000000000,closed,2,A question about the 'target' directory
+992,2019-05-09 18:02:26.000000000,2019-05-09 18:40:38.000000000,closed,1,Updated license header
+991,2019-05-09 16:05:25.000000000,2019-05-09 17:07:50.000000000,closed,2,Restrict scope of the code coverage report
+990,2019-05-09 13:11:06.000000000,2019-05-09 13:41:06.000000000,closed,1,Set tcp client timeout to 20s
+989,2019-05-09 13:06:13.000000000,2019-05-09 13:30:27.000000000,closed,0,"Set default chain to ""mainnet"""
+988,2019-05-09 13:04:53.000000000,2019-05-09 15:57:58.000000000,closed,1,Accept `commit_sig` without changes
+987,2019-05-09 12:40:40.000000000,2019-05-09 17:19:26.000000000,closed,1,Use bitcoind fee estimator first
+985,2019-05-08 12:12:30.000000000,2019-06-25 15:44:55.000000000,closed,13,Get 404 Response
+984,2019-05-07 20:17:38.000000000,2019-05-09 12:03:05.000000000,closed,0,Replace UnknownPaymentHash/IncorrectPaymentAmount with IncorrectOrUnknownPaymentDetails
+983,2019-05-07 12:36:44.000000000,2019-05-09 11:45:48.000000000,closed,0,Update bash autocompletition for eclair-cli
+982,2019-05-06 19:27:10.000000000,2019-05-09 13:42:39.000000000,closed,3,Add bot support for code coverage (codecov)
+981,2019-05-06 18:01:45.000000000,2019-05-09 12:47:58.000000000,closed,1,Wireshark dissector support
+980,2019-05-05 16:06:15.000000000,2019-10-11 20:41:02.000000000,closed,5,OneForOneStrategy error -  requirement failed: invalid mac
+979,2019-05-03 01:59:46.000000000,2019-05-06 12:50:37.000000000,closed,6,Eclair (v0.2-beta9) not compatible with Bitcoin Core v0.18
+978,2019-05-03 00:31:36.000000000,2019-05-07 00:59:12.000000000,closed,3,Flapping Channels - is this the cause of 5k update per minute?
+977,2019-04-30 21:05:36.000000000,2019-05-09 11:43:25.000000000,closed,0,Use proper closing type in `ChannelClosed` event
+976,2019-04-29 19:02:24.000000000,2019-07-23 14:22:30.000000000,closed,6,Variable-length onion payloads
+975,2019-04-29 12:10:08.000000000,2019-04-30 12:14:49.000000000,closed,1,Fixed overflow issue with max duration
+974,2019-04-28 23:28:48.000000000,2019-09-06 20:43:28.000000000,closed,4,[WIP] Add logging of database timings
+973,2019-04-28 18:10:39.000000000,2019-05-03 16:40:00.000000000,closed,2,"How to change ""ChainHash mismatch""?"
+972,2019-04-26 21:20:50.000000000,2019-08-22 16:50:20.000000000,closed,3,Extended Queries: use TLV format for optional data
+971,2019-04-26 13:06:14.000000000,2019-04-26 19:10:31.000000000,closed,1,Various fix and improvements in time/timestamp handling
+970,2019-04-26 01:57:09.000000000,2019-04-26 19:10:31.000000000,closed,0,Audit Database timestamp has inconsistent units.
+969,2019-04-25 18:17:22.000000000,2019-04-26 19:46:00.000000000,closed,0,API: support query /channel info by short channel id
+968,2019-04-25 17:49:04.000000000,2019-04-25 18:34:07.000000000,closed,0,Rename `eclair.bak` to `eclair.sqlite.bak`
+967,2019-04-25 13:38:58.000000000,2019-04-25 17:28:04.000000000,closed,0,Fix flaky test in PaymentLifecycleSpec
+966,2019-04-24 20:05:54.000000000,2019-04-25 15:16:28.000000000,closed,0,Do not print the stacktrace on stderr when there is an error at boot
+965,2019-04-24 18:29:44.000000000,2019-05-17 19:11:39.000000000,closed,2,API: optionally use a user supplied preimage when creating invoices
+964,2019-04-24 18:26:34.000000000,2019-04-24 18:50:25.000000000,closed,0,Electrum: make debug logs shorter
+963,2019-04-24 18:21:19.000000000,2019-04-24 18:45:58.000000000,closed,0,ElectrumWallet should not send ready if syncing
+962,2019-04-24 17:37:07.000000000,2019-06-26 14:05:52.000000000,closed,17,Add `balances` API endpoint
+961,2019-04-24 16:52:14.000000000,2019-04-25 20:22:29.000000000,closed,1,Fixed concurrency issue in `IndexedObservableList`
+960,2019-04-23 16:02:46.000000000,2019-04-23 19:11:54.000000000,closed,0,Backup: explicitely specify move options
+959,2019-04-21 11:03:04.000000000,2019-05-06 16:55:15.000000000,closed,6,JavaFX not found when running on OpenJDK 8
+958,2019-04-20 14:22:41.000000000,2019-04-23 18:50:40.000000000,closed,0,Update readme with bitcoin 0.17 instructions
+957,2019-04-19 13:55:37.000000000,2019-04-21 16:32:32.000000000,closed,1,resolve hostname ip in docker level
+956,2019-04-18 21:16:14.000000000,2019-04-19 17:53:14.000000000,closed,0,Fix Dockerfile Maven Sha checksum
+955,2019-04-18 20:45:14.000000000,2019-04-19 18:28:03.000000000,closed,0,Add channel errors in audit db
+954,2019-04-18 19:04:34.000000000,2019-08-29 14:50:38.000000000,closed,1,Sync whitelist
+953,2019-04-17 20:28:14.000000000,2019-04-17 21:10:14.000000000,closed,0,Electrum: do not persist transaction locks
+952,2019-04-17 17:10:26.000000000,2019-05-20 17:20:54.000000000,closed,4,Send to route
+951,2019-04-17 15:54:44.000000000,2019-04-20 00:35:13.000000000,closed,0,Live channel database backup
+950,2019-04-16 19:06:50.000000000,2019-04-29 18:40:00.000000000,closed,0,Smarter strategy for sending `channel_update`s
+949,2019-04-16 13:04:46.000000000,2019-04-24 12:23:58.000000000,closed,0,Print stack trace when crashing during boot sequence
+948,2019-04-15 19:50:42.000000000,2019-04-19 16:18:58.000000000,closed,6,"Set `MAX_BUFFERED` to 1,000,000"
+947,2019-04-14 21:46:26.000000000,1970-01-01 00:00:00.000000001,open,0,[Suggestion] Identify Eclair to Electrum servers
+946,2019-04-14 13:08:48.000000000,2019-04-26 13:08:14.000000000,closed,1,Multipart payments
+945,2019-04-13 21:23:58.000000000,2019-04-23 20:43:26.000000000,closed,2,Windows version eclair-gui node (cli) command line
+944,2019-04-12 13:52:35.000000000,2019-04-24 19:32:54.000000000,closed,1,Better handling of closed channels
+943,2019-04-12 13:46:37.000000000,2019-04-24 18:47:35.000000000,closed,0,Channel: Log additional data
+942,2019-04-12 03:27:09.000000000,2019-08-22 19:42:29.000000000,closed,17,Route not found despite direct channel
+941,2019-04-11 03:03:18.000000000,2019-08-22 19:43:37.000000000,closed,11,Channels disappear after restarting Eclair
+940,2019-04-10 17:24:39.000000000,2019-04-16 19:09:05.000000000,closed,1,BOLT11 numeric tagged field padding
+939,2019-04-10 00:55:25.000000000,2019-04-26 01:22:59.000000000,closed,1,Unable to check if timed out sent payment was paid from new API.
+938,2019-04-09 19:38:24.000000000,2019-05-09 13:01:44.000000000,closed,0,Enrich test for internal eclair API implementation (fr.acinq.eclair.Eclair.scala)
+937,2019-04-09 13:22:44.000000000,2019-04-09 16:41:54.000000000,closed,1,LN wallet on LN full node: Receive failure
+936,2019-04-08 21:12:11.000000000,2019-04-09 13:32:13.000000000,closed,0,API: fix fee rate conversion
+935,2019-04-06 04:24:24.000000000,2019-04-08 13:04:52.000000000,closed,1,A crashed bitcoin core client breaks eclair
+934,2019-04-05 19:41:06.000000000,2019-04-10 13:07:20.000000000,closed,2,Expose the websocket over HTTP GET
+933,2019-04-05 12:19:12.000000000,1970-01-01 00:00:00.000000001,open,2,Turbo channels and more websocket events
+932,2019-04-03 20:11:27.000000000,2019-04-04 13:38:12.000000000,closed,0,Make electrum tests pass on windows
+931,2019-04-03 04:56:10.000000000,2019-04-15 17:19:40.000000000,closed,4,Set max payment attempts from configuration
+930,2019-04-02 18:17:06.000000000,2019-04-03 12:58:27.000000000,closed,0,Electrum: update client name
+929,2019-04-02 18:02:46.000000000,2019-04-02 18:23:50.000000000,closed,0,Minor API fixes
+928,2019-04-01 19:09:54.000000000,2019-04-18 20:30:52.000000000,closed,1,Added a timeout for channel open request
+927,2019-04-01 19:09:38.000000000,2019-04-19 20:10:47.000000000,closed,2,Added simple plugin support
+926,2019-03-29 21:38:36.000000000,2019-04-03 21:19:57.000000000,closed,2,Fix eclair-cli to work with equal sign in arguments
+925,2019-03-29 19:42:04.000000000,2019-04-01 15:31:41.000000000,closed,0,Add random delay to rebroadcast 
+924,2019-03-29 18:40:10.000000000,2019-03-29 21:56:01.000000000,closed,0,Electrum: fixes and improvements
+923,2019-03-29 16:16:25.000000000,2019-03-30 23:28:55.000000000,closed,0,Rollback funding tx if disconnected in WAIT_FOR_FUNDING_SIGNED
+922,2019-03-28 14:56:33.000000000,2019-03-28 20:25:22.000000000,closed,0,Upgrade scala library target on travis: 2.11.12
+921,2019-03-27 20:38:25.000000000,2019-10-16 12:17:09.000000000,closed,2,Implement wumbo
+920,2019-03-27 20:36:50.000000000,2019-03-28 12:49:17.000000000,closed,0,Set version to 0.3-SNAPSHOT
+919,2019-03-27 18:21:18.000000000,2019-03-27 18:49:23.000000000,closed,0,Rename 'toRemoteNodeId' to 'nodeId' in /channels API
+918,2019-03-26 21:22:47.000000000,2019-03-26 21:29:24.000000000,closed,0,Fix the broken link to old API documentation
+917,2019-03-25 20:16:35.000000000,2019-03-26 18:47:32.000000000,closed,1,[WIP] API: New documentation
+916,2019-03-24 20:55:08.000000000,2019-03-25 21:09:31.000000000,closed,0,Check `WatchSpent` in constant time
+915,2019-03-24 17:03:49.000000000,2019-04-25 20:22:29.000000000,closed,0,IndexOutOfBounds exception when running a GUI
+914,2019-03-24 06:27:31.000000000,2019-03-24 09:46:48.000000000,closed,0,No @host:port appeared on explorer
+913,2019-03-23 03:16:48.000000000,2019-03-25 18:46:21.000000000,closed,1,"What does it mean for a node to be ""enabled"" with regard to a channel?"
+912,2019-03-22 22:38:42.000000000,2019-03-25 17:37:13.000000000,closed,0,Don't send updates if no filter has been set
+911,2019-03-21 21:01:03.000000000,2019-03-25 21:04:31.000000000,closed,0,Rework database initialization
+910,2019-03-21 18:03:54.000000000,2019-03-22 17:39:07.000000000,closed,0,Remove unused param 'randomize' from SendPayment command
+909,2019-03-21 17:22:22.000000000,1970-01-01 00:00:00.000000001,open,3,Graph fuzzy testing
+908,2019-03-21 17:10:12.000000000,2019-03-22 16:26:56.000000000,closed,0,Improve unit tests
+907,2019-03-20 21:41:50.000000000,2019-03-25 17:42:07.000000000,closed,0,Use bitcoin-lib 0.11 which embeds libsecp256k1 
+906,2019-03-20 12:53:22.000000000,2019-04-15 17:19:40.000000000,closed,0,Feature request: set max payment attempts from configuration
+905,2019-03-19 21:05:35.000000000,2019-03-26 17:00:16.000000000,closed,0,Deal with channels with fees=0 when computing a route
+904,2019-03-19 14:26:47.000000000,2019-03-20 13:43:49.000000000,closed,0,Ensure the cost function in path-finding is monotonic
+903,2019-03-19 14:10:44.000000000,2019-03-19 14:17:12.000000000,closed,3,eclair does not start
+902,2019-03-18 13:45:02.000000000,2019-08-28 18:58:50.000000000,closed,4,Rework router data structures
+901,2019-03-15 14:57:20.000000000,2019-03-15 15:54:34.000000000,closed,0,"Minor fixes (dependencies, unit tests)"
+900,2019-03-14 21:38:53.000000000,2019-03-19 14:31:09.000000000,closed,1,Disable route randomization by default
+899,2019-03-14 19:16:02.000000000,2019-08-28 17:03:56.000000000,closed,3,Extended queries optional
+898,2019-03-14 15:45:36.000000000,2019-03-14 19:53:09.000000000,closed,3,Ignore non Segwit UTXOs
+897,2019-03-14 07:49:09.000000000,2020-05-19 17:36:42.000000000,closed,1,Feature Request: Reread conf file using menu item.
+896,2019-03-13 21:50:24.000000000,2019-03-14 15:43:28.000000000,closed,0,Replace `BinaryData` by `scodec.bits.ByteVector`
+895,2019-03-13 20:33:04.000000000,2019-03-13 21:58:56.000000000,closed,0,Rework route params
+894,2019-03-13 19:39:53.000000000,2019-03-26 21:10:09.000000000,closed,1,API: replace JSON-RPC by named parameters
+893,2019-03-12 13:48:23.000000000,2019-03-12 16:37:28.000000000,closed,0,Better error logs for socks5 proxy
+892,2019-03-12 00:10:18.000000000,2019-03-12 13:13:58.000000000,closed,1,WAIT_FOR_FUNDING_CONFIRMED
+891,2019-03-11 01:26:39.000000000,2019-03-12 14:32:24.000000000,closed,4,Java version crashes under Win10 32bit
+890,2019-03-10 22:04:45.000000000,2019-03-12 14:13:04.000000000,closed,1,creation of wallet password is in clear text
+889,2019-03-10 12:31:43.000000000,2020-01-20 15:53:02.000000000,closed,3,"send buffer overrun, closing connection"
+888,2019-03-09 01:17:47.000000000,2019-03-18 17:39:30.000000000,closed,0,Better logic for sending `channel_updates`
+887,2019-03-08 17:29:36.000000000,2019-09-10 19:45:55.000000000,closed,1,Support option_simplified_commitment
+886,2019-03-07 20:32:58.000000000,2019-03-12 16:34:41.000000000,closed,0,NetworkDb: remove stale channels in batch
+885,2019-03-07 19:11:11.000000000,2019-04-16 19:03:21.000000000,closed,12,Add a proper payments database
+884,2019-03-06 21:43:35.000000000,2019-04-03 13:41:09.000000000,closed,2,Send events when HTLCs settle on-chain
+883,2019-02-25 20:48:00.000000000,2019-03-06 13:27:43.000000000,closed,2,Electrum: use current change address as channel closing address
+882,2019-02-25 16:00:12.000000000,2019-03-08 15:51:55.000000000,closed,1,"Electrum: use new ""closing addresses"" for new channels"
+881,2019-02-22 20:41:36.000000000,2019-03-01 15:15:07.000000000,closed,0,Improve instructions in the readme.
+880,2019-02-22 12:30:48.000000000,2019-02-22 14:34:23.000000000,closed,1,Force Close
+879,2019-02-21 19:18:56.000000000,2019-02-25 22:00:18.000000000,closed,1,Set default `to-remote-delay-blocks` to 720
+878,2019-02-20 19:18:24.000000000,2019-02-20 19:22:02.000000000,closed,2,Eclair on VM (Azure)
+877,2019-02-20 06:43:40.000000000,2019-02-20 06:44:06.000000000,closed,0,channels appe
+876,2019-02-20 04:34:28.000000000,2019-02-20 17:40:28.000000000,closed,8,"GUI shows OFFLINE channels, but a simple connection fixes it.  Can that be automated?"
+875,2019-02-19 21:02:23.000000000,2019-02-21 20:25:55.000000000,closed,0,Use ypub prefix for Electrum xpub
+874,2019-02-19 08:30:12.000000000,2019-02-20 10:40:45.000000000,closed,4,couldn't publish funding tx
+873,2019-02-18 21:59:44.000000000,2019-02-19 15:06:37.000000000,closed,0,Electrum fixes
+872,2019-02-18 20:31:33.000000000,2019-02-18 20:34:24.000000000,closed,0,Actively clean the routing table in payment lifecycle
+871,2019-02-18 03:00:46.000000000,2019-02-18 14:28:51.000000000,closed,2,maxValueInFlight error when opening new channel
+870,2019-02-17 12:23:03.000000000,2020-05-19 17:36:35.000000000,closed,4,Feature request: optional confirmation prompt when closing eclair
+869,2019-02-17 12:18:47.000000000,2019-02-18 14:17:28.000000000,closed,4,accidentally but successfully paid an invoice twice 
+868,2019-02-15 20:02:19.000000000,2019-02-18 22:48:02.000000000,closed,0,Fixed computation of available balance
+867,2019-02-14 17:14:15.000000000,2019-04-15 17:24:56.000000000,closed,3,Extended API for fine-grained payment tracking
+866,2019-02-14 16:55:44.000000000,2019-02-18 20:20:44.000000000,closed,7,eclair shutting itself down for no reason
+865,2019-02-14 11:08:05.000000000,2020-06-15 16:48:23.000000000,closed,3,Backup feature design
+864,2019-02-14 04:14:29.000000000,2019-02-20 17:45:15.000000000,closed,2,Excessive ChannelUpdateReceived messages
+863,2019-02-13 15:58:42.000000000,2019-02-14 19:01:20.000000000,closed,0,Faster gui startup
+862,2019-02-13 00:16:20.000000000,2019-02-13 00:37:54.000000000,closed,0,Support all-uppercase payment requests
+861,2019-02-12 19:04:42.000000000,2019-02-12 20:15:33.000000000,closed,0,Update bitcoin-lib to 0.9.19
+860,2019-02-12 14:29:51.000000000,2019-02-12 15:39:24.000000000,closed,0,Fix discrepancy between config keys
+859,2019-02-12 13:47:13.000000000,2019-02-13 19:05:06.000000000,closed,4,"Eclair forcibly closed channels keep in ""CLOSING"" state after few days"
+858,2019-02-12 00:25:58.000000000,2019-02-12 19:07:25.000000000,closed,3,Mismatch in configuration key
+857,2019-02-11 18:54:46.000000000,2019-02-12 20:49:19.000000000,closed,0,Make sure the path-finding algorithm can't use a channel twice in a route
+856,2019-02-11 01:07:20.000000000,2019-02-11 23:45:57.000000000,closed,0,Reimplemented BOLT 11 with scodec
+855,2019-02-10 18:35:19.000000000,2019-02-12 20:49:43.000000000,closed,1,"Payment successful, but used same channel twice: channels=561997x807x1->553315x816x0->553315x816x0->556630x1706x0->561177x842x1"
+854,2019-02-08 17:45:30.000000000,2019-03-06 15:10:43.000000000,closed,12,Data loss recovery does not work if channel has not been used yet
+853,2019-02-08 15:01:15.000000000,2019-02-08 19:11:22.000000000,closed,0,Increased max-to-local-delay-blocks to 2016
+852,2019-02-07 17:20:49.000000000,2019-02-21 20:02:40.000000000,closed,2,Update jeromq dependency
+851,2019-02-04 19:40:12.000000000,2019-02-05 21:35:48.000000000,closed,0,Allow to disable route randomization
+850,2019-02-04 14:15:00.000000000,2019-02-05 18:00:32.000000000,closed,0,Always select direct channel if there is one to the target
+849,2019-02-03 06:37:57.000000000,2020-05-19 17:36:09.000000000,closed,2,Node 1 (and 2) Base Fee is not sorted as a number.
+848,2019-02-02 00:50:58.000000000,2019-02-08 15:28:39.000000000,closed,0,Improve Electrum start-up time
+847,2019-02-01 18:50:35.000000000,2019-08-22 19:50:31.000000000,closed,1,Eclair fails the payment even if the error it receives is non permanent
+846,2019-01-31 20:21:27.000000000,2019-02-21 19:11:44.000000000,closed,2,Use OpenJDK 11 as default JDK
+845,2019-01-31 19:38:16.000000000,2019-02-18 20:46:45.000000000,closed,6,beta 9 still not going direct route and having major issues sending transactions while relaying just fine
+844,2019-01-31 16:24:36.000000000,2019-02-11 22:30:05.000000000,closed,4,Parametric route search
+843,2019-01-31 15:49:59.000000000,2019-01-31 22:23:44.000000000,closed,0,[WIP] Use a single link to represent multiple channels between two nodes
+842,2019-01-30 19:01:54.000000000,2019-01-30 19:21:23.000000000,closed,0,Optional route randomization
+841,2019-01-30 18:29:11.000000000,2019-01-30 18:50:36.000000000,closed,0,Optional route randomization
+840,2019-01-29 20:14:55.000000000,2019-02-08 17:29:47.000000000,closed,1,Stop disconnected peer when it has no channels
+839,2019-01-28 21:49:55.000000000,2020-01-24 19:40:51.000000000,closed,3,Eclair fails a payment on getting `FeeInsufficient` instead of retrying it with updated fees
+838,2019-01-28 20:40:11.000000000,2019-01-31 20:03:02.000000000,closed,0,Proper handling of gossiped channels being spent
+837,2019-01-28 19:27:51.000000000,2019-01-28 19:58:36.000000000,closed,0,Set timestamp filter lower bound to current time
+836,2019-01-28 09:43:00.000000000,2019-01-29 14:25:12.000000000,closed,0,Replace initialization futures Future[Boolean] by Future[Done]
+835,2019-01-24 20:36:17.000000000,2019-01-29 22:38:42.000000000,closed,0,Ignore reconnections requests to the same peer with the same address
+834,2019-01-23 23:31:26.000000000,2019-01-24 01:18:49.000000000,closed,0,ChannelSelectionSpec: use akka.event.NoLogging
+833,2019-01-22 23:22:34.000000000,2019-01-23 18:38:07.000000000,closed,1,BTC Core not running/fullysynched
+832,2019-01-22 20:19:45.000000000,2019-01-22 21:49:12.000000000,closed,0,Fix flaky test in IntegrationSpec
+831,2019-01-22 14:52:01.000000000,2019-04-18 10:57:04.000000000,closed,3,API Callback/Notifications 
+830,2019-01-21 20:05:05.000000000,2019-08-22 20:02:47.000000000,closed,6,Can't pay invoice. (Windows)
+829,2019-01-19 14:22:00.000000000,2019-01-22 01:50:06.000000000,closed,2,Beta9 No Channel Name ID 
+828,2019-01-17 16:04:02.000000000,2019-01-17 23:23:09.000000000,closed,2,Impose a max length of 32 bytes on UTF-8 encoded aliases
+827,2019-01-16 21:44:46.000000000,2019-02-08 14:41:10.000000000,closed,1,Add balance and channel lifecycle events to the audit db
+826,2019-01-16 20:54:35.000000000,2019-03-19 17:57:04.000000000,closed,2,Upgrade to bitcoin 0.17.1
+825,2019-01-16 20:49:20.000000000,2019-01-18 00:59:08.000000000,closed,0,Electrum: improve error handling
+824,2019-01-16 20:22:45.000000000,2020-05-19 17:35:55.000000000,closed,3,Feature request: show payment history in GUI even after a restart. At least optional.
+823,2019-01-16 00:19:54.000000000,2019-02-18 20:48:45.000000000,closed,6,Opened a new channel and now eclair ignores all the other channels when I try to make a payment
+822,2019-01-16 00:04:37.000000000,2019-02-18 20:46:00.000000000,closed,11,Eclair is running 24/7 but still barely available.
+821,2019-01-15 21:10:37.000000000,2019-02-22 22:43:21.000000000,closed,3,Routing heuristics
+820,2019-01-15 19:24:12.000000000,2019-01-31 20:22:06.000000000,closed,1,[WIP] JDK10/11 compatiblity: use Scala 2.11.12
+819,2019-01-13 16:11:21.000000000,2019-01-21 18:31:48.000000000,closed,5,java.lang.RuntimeException: serialization error: alias: 
+818,2019-01-11 22:44:13.000000000,2020-05-19 17:35:41.000000000,closed,3,Feature Request - Show channels in Relay tab
+817,2019-01-11 22:09:37.000000000,2019-01-16 22:35:54.000000000,closed,0,Fix findroute documentation 
+816,2019-01-11 07:20:16.000000000,2020-05-19 17:35:19.000000000,closed,1,Feature request: export data from any tab as CSV file.
+815,2019-01-10 14:48:27.000000000,2019-01-11 18:59:33.000000000,closed,0,Fix  `short_channel_id` parsing and add RPC API test
+814,2019-01-10 03:49:29.000000000,2019-01-10 21:30:32.000000000,closed,7,`FeeInsufficient` parsing failure
+813,2019-01-08 19:49:24.000000000,2019-01-18 01:15:52.000000000,closed,0,Compute the k-shortest routes
+812,2019-01-08 16:34:32.000000000,2019-08-23 18:22:17.000000000,closed,2,stuck closing (two channels to same remote node)
+811,2019-01-08 09:48:56.000000000,2019-01-18 17:45:34.000000000,closed,1,Update bash completion
+810,2019-01-08 05:01:43.000000000,2020-03-27 14:01:03.000000000,closed,2,Is it possible to use DDNS as external IP?
+809,2019-01-08 04:07:12.000000000,2019-09-06 20:43:18.000000000,closed,4,Monitoring of Eventbus and Gauges on Channels/Nodes
+808,2019-01-07 17:29:25.000000000,2019-08-23 18:21:01.000000000,closed,1,Feature Request: Force Close Block Countdown
+807,2019-01-07 00:49:37.000000000,2019-08-23 18:18:16.000000000,closed,8,Eclair v0.2-beta8 crash
+806,2019-01-06 03:11:10.000000000,2019-09-06 20:41:20.000000000,closed,3,WIP - Database Performance Monitoring
+805,2019-01-05 22:01:08.000000000,2019-01-17 18:12:49.000000000,closed,1,Allow access to audit of transactions from API
+804,2019-01-04 18:05:30.000000000,2019-08-23 18:15:53.000000000,closed,3,Electrum: publishing funding transactions sometimes fails silently
+803,2019-01-04 14:01:24.000000000,2019-01-04 14:52:26.000000000,closed,1,"Open channel fails with ""Error: Please enter the wallet passphrase with walletpassphrase first. (code: -13)""  How do I fix this? How do I submit the wallet passphrase in the ""Open new channel"" dialogue? Bitcoin Core version v0.17.1 (64-bit) and Eclair v0_2-beta 8 and everything worked until I tried to open a new channel."
+802,2019-01-04 02:39:13.000000000,2019-04-13 00:21:36.000000000,closed,1,Add more details to `checkpayment` API call
+801,2019-01-03 19:57:49.000000000,2019-01-14 20:53:53.000000000,closed,2,GUI Improvements
+800,2019-01-03 10:21:14.000000000,2019-01-07 17:44:29.000000000,closed,6,Certain characters in the Bitcoin RPC password break eclair.
+799,2019-01-03 05:44:24.000000000,2019-08-23 18:13:23.000000000,closed,1,Need time that payment was made available in API
+798,2019-01-03 05:31:38.000000000,2019-01-17 19:46:02.000000000,closed,1,Add JSON serializer for PaymentRequest
+797,2019-01-02 18:54:16.000000000,2019-01-11 21:20:02.000000000,closed,7,Compute routes backward
+796,2018-12-31 13:45:14.000000000,2019-08-23 18:11:19.000000000,closed,2,Improper use of ZMQ opts
+795,2018-12-28 14:39:09.000000000,2019-01-03 20:59:27.000000000,closed,0,Limit CLTV value to 2016
+794,2018-12-27 22:23:19.000000000,2019-01-09 22:58:43.000000000,closed,4,Crash which closed/spent all incoming channels
+793,2018-12-27 21:19:01.000000000,2019-01-02 18:40:24.000000000,closed,0,Use BOLT specific formatting for short channel id
+792,2018-12-25 17:24:56.000000000,2019-01-17 21:22:34.000000000,closed,5,Fire together wire together
+791,2018-12-22 20:53:18.000000000,2019-01-17 21:23:17.000000000,closed,1,Take channel age and capacity into account when calculating an edge weight
+790,2018-12-21 20:08:40.000000000,2020-03-30 14:15:16.000000000,closed,18,Use CLTV as tie-breaker for offered htlc output sorting
+789,2018-12-21 18:45:11.000000000,2018-12-28 17:09:41.000000000,closed,1,Should this line read 8332 ?
+788,2018-12-20 15:28:17.000000000,2018-12-20 18:14:24.000000000,closed,0,Tweak parameters to optimize ElectrumClient connections
+787,2018-12-19 19:27:06.000000000,2020-05-19 17:35:09.000000000,closed,4,Open channel ordering
+786,2018-12-18 19:20:04.000000000,2018-12-18 21:21:29.000000000,closed,0,Cleaned up mainnet electrum servers list
+785,2018-12-18 17:06:47.000000000,2018-12-18 19:48:21.000000000,closed,1,Error: Payment amount is not valid
+784,2018-12-18 15:27:35.000000000,2019-01-22 02:08:59.000000000,closed,10,Relay to channel with lowest possible balance
+783,2018-12-13 20:52:57.000000000,2018-12-14 15:44:12.000000000,closed,0,NioEventLoopGroup is shared with all clients in ElectrumClient
+782,2018-12-13 19:00:42.000000000,2019-01-11 23:16:37.000000000,closed,2,Make ping less aggressive
+781,2018-12-13 17:56:44.000000000,2019-01-03 15:01:54.000000000,closed,0,Add exclusive locks to channels sqlite db
+780,2018-12-13 00:52:45.000000000,1970-01-01 00:00:00.000000001,open,0,Subtract reserves from `htlcMaximumMsat`
+779,2018-12-12 23:20:54.000000000,2018-12-20 20:52:43.000000000,closed,2,Routing: use custom implementation for the shortest path algorithm and the graph
+778,2018-12-12 18:19:19.000000000,2018-12-12 20:02:52.000000000,closed,0,Optional per-node features in conf
+777,2018-12-12 08:46:42.000000000,2019-08-23 18:08:34.000000000,closed,5,Eclair allows payments of the same invoice multiple times
+776,2018-12-11 20:18:40.000000000,2019-01-11 18:08:46.000000000,closed,5,"Electrum: download, verify and store headers"
+775,2018-12-11 02:14:02.000000000,2019-01-14 20:53:58.000000000,closed,0,UI enhancement: Total balance
+774,2018-12-07 20:03:24.000000000,2018-12-11 22:13:39.000000000,closed,0,Use netty to connect to Electrum servers
+773,2018-12-06 03:36:42.000000000,2019-01-18 04:17:04.000000000,closed,1,checkinvoice API no longer returning useful data due to poor serialisation of PaymentRequest
+772,2018-12-06 01:45:02.000000000,2019-01-29 14:25:12.000000000,closed,0,Replace initialization futures Future[Boolean] by Future[Done]
+771,2018-12-04 18:00:05.000000000,2018-12-12 20:12:11.000000000,closed,0,[WIP] Routing improvements
+770,2018-12-03 04:41:31.000000000,2019-01-02 22:11:44.000000000,closed,14,Eclair 0.2-beta8: channel database became unreadable
+769,2018-12-01 23:39:47.000000000,2018-12-04 19:37:52.000000000,closed,0,Wait for Router to be initialized
+768,2018-11-28 13:03:27.000000000,2018-12-12 19:59:32.000000000,closed,0,Make maxHtlcValueInFlight checks directional
+767,2018-11-27 06:44:05.000000000,2018-11-27 09:59:55.000000000,closed,1,"Payment Error ""Payment expiry is too close to current block height"""
+766,2018-11-23 20:19:10.000000000,2018-11-23 20:38:08.000000000,closed,0,Watch future remote commit on restore
+765,2018-11-23 19:01:50.000000000,2018-12-12 19:12:18.000000000,closed,0,Update connection-level features at reconnection
+764,2018-11-23 15:40:06.000000000,2018-11-23 15:58:24.000000000,closed,0,Switch sttp backend async-http-client -> okhttp
+763,2018-11-19 21:59:28.000000000,2019-01-03 18:02:40.000000000,closed,0,Disable local channels below reserve
+762,2018-11-19 20:58:30.000000000,2019-01-18 18:39:07.000000000,closed,5,Auto probing of local channels
+761,2018-11-19 19:46:36.000000000,2018-12-07 18:49:52.000000000,closed,0,Disconnect peer after a timeout when waiting for revocation
+760,2018-11-19 03:51:03.000000000,2018-11-26 19:27:34.000000000,closed,4,"Stuck on ""WAIT_FOR_FUNDING_CONFIRMED"" even after 100 confirmations "
+759,2018-11-17 20:23:55.000000000,2018-11-19 14:05:02.000000000,closed,2,ACINQ does not send channel updates originating from node 038df0bd2fad1bfe42d177f18ea5e33543e2b855ef369d06bd94b81d2c87187c82
+758,2018-11-16 17:42:54.000000000,2019-08-23 18:06:38.000000000,closed,13,Constantly getting this: Payment failed - (remote) payment expiry doesn't match the value in the onion
+757,2018-11-15 18:11:49.000000000,2019-01-04 21:34:51.000000000,closed,0,Detect broken HTLC links at startup
+756,2018-11-15 17:31:16.000000000,1970-01-01 00:00:00.000000001,open,3,[WIP] Peer rate-limiting
+755,2018-11-15 17:12:26.000000000,2018-11-20 18:03:47.000000000,closed,1,Disconnect peer if it does not reply to our Ping messages
+754,2018-11-15 13:48:20.000000000,2019-01-02 20:44:06.000000000,closed,0,Relay fail messages *after* they are cross-signed
+753,2018-11-14 17:30:31.000000000,2018-11-15 17:00:46.000000000,closed,1,Fail outgoing messages if peer is not communicating
+752,2018-11-13 11:28:10.000000000,2018-11-19 14:36:02.000000000,closed,3,Expired payment in channel?
+751,2018-11-10 18:50:50.000000000,2019-08-23 18:04:29.000000000,closed,9,Compatibility issue due to #738 -  bad signature for announcement ... ChannelUpdates
+750,2018-11-03 13:09:10.000000000,2018-11-13 21:35:17.000000000,closed,2,Updated readme.md
+749,2018-10-27 18:19:33.000000000,2018-11-15 18:08:28.000000000,closed,2,Reject received payments where PaymentRequest Expiry Tag time has been exceeded.
+748,2018-10-27 01:34:51.000000000,2018-11-15 18:08:28.000000000,closed,2,Eclair accepts payments after payment request timeout period.
+747,2018-10-25 13:46:45.000000000,2019-01-05 17:27:17.000000000,closed,0,Handle on-chain refund events for HTLCs
+746,2018-10-24 21:21:18.000000000,2018-10-25 19:50:49.000000000,closed,0,Update Android branch
+745,2018-10-24 08:53:58.000000000,2018-12-07 18:49:52.000000000,closed,2,Stuck outgoing payment with ACINQ peer
+744,2018-10-23 21:18:52.000000000,2018-11-22 15:26:58.000000000,closed,3,Add payment hash to `HtlcTimeoutTx` in backwards compatible way
+743,2018-10-23 18:32:43.000000000,2018-10-25 16:28:28.000000000,closed,2,Use different ZMQ block and tx subscriptions
+742,2018-10-22 18:41:35.000000000,2018-10-23 19:31:23.000000000,closed,0,Always add 1 block to the `finalCltvExpiry`
+741,2018-10-19 22:15:40.000000000,2018-10-20 21:51:29.000000000,closed,2,channel stuck closing
+740,2018-10-19 19:36:04.000000000,2018-10-19 19:58:21.000000000,closed,0,Fix encoding of FinalIncorrectHtlcAmount error message
+739,2018-10-18 18:51:23.000000000,2018-10-23 21:07:21.000000000,closed,0,Support for custom Electrum server
+738,2018-10-17 19:47:50.000000000,2018-10-19 19:47:14.000000000,closed,0,Add `htlcMaximumMsat` field to `ChannelUpdate` message
+737,2018-10-17 15:42:24.000000000,2019-11-08 18:06:57.000000000,closed,4,Eclair does not detect that bitcoind is reindexing and not ready yet
+736,2018-10-17 09:49:21.000000000,2019-02-08 14:19:00.000000000,closed,4,Support for Tor onion services
+735,2018-10-17 08:30:28.000000000,2018-11-26 19:28:38.000000000,closed,2,Bitcoin Core 16.0 has been removed 
+734,2018-10-16 17:08:13.000000000,2018-10-17 15:20:06.000000000,closed,8,"Stuck at ""WAIT_FOR_FUNDING_CONFIRMED"" status"
+733,2018-10-11 23:12:07.000000000,2018-10-25 16:28:31.000000000,closed,2,Allow configuring different ZMQ block and tx URLS
+732,2018-10-11 18:54:19.000000000,2018-10-15 16:28:20.000000000,closed,0,Add instructions for Bitcoin Core 0.17.0 [ci skip]
+731,2018-10-11 18:36:47.000000000,2018-10-11 20:54:13.000000000,closed,0,Simplify bitcoind version check
+730,2018-10-09 20:30:32.000000000,2018-10-15 20:37:05.000000000,closed,5,Not working with latest version of Bitcoin Core
+729,2018-10-09 20:00:27.000000000,2018-10-22 16:57:38.000000000,closed,5,Routing issue: Repeatedly tries failed nodes
+728,2018-10-07 21:39:51.000000000,2018-10-11 21:01:42.000000000,closed,0,Update scalatest and remove junit runner
+727,2018-10-04 12:50:36.000000000,2018-10-09 14:24:16.000000000,closed,7,Eclair node sends an `Error` instead of local force-closing a channel in data-loss-recovery protocol
+726,2018-10-03 21:34:33.000000000,2018-10-03 21:53:43.000000000,closed,4,Eclair does not work with new BTC Core 0.17?
+725,2018-10-01 15:58:05.000000000,2018-10-02 15:50:54.000000000,closed,2,in-flight htlcs hold too much value
+724,2018-09-28 15:13:09.000000000,2018-10-15 16:46:52.000000000,closed,1,Only persist htlcs above remote's `dust_limit`
+723,2018-09-25 19:27:20.000000000,1970-01-01 00:00:00.000000001,open,3,[WIP] Handle mutual close in state `DATA_WAIT_FOR_FUNDING_CONFIRMED`
+722,2018-09-24 21:07:21.000000000,2018-09-24 21:41:27.000000000,closed,0,Fixed regression caused by 7a4f175
+721,2018-09-24 15:45:43.000000000,2018-09-24 22:00:37.000000000,closed,0,Logging: use a rolling file appender
+720,2018-09-23 21:39:42.000000000,2018-10-25 18:45:28.000000000,closed,5,Use sttp lib instead of akka-http-client
+719,2018-09-23 20:26:43.000000000,2018-09-24 15:59:02.000000000,closed,0,Handle update relay fee in OFFLINE state
+718,2018-09-22 22:23:15.000000000,2018-09-24 13:49:07.000000000,closed,1,Improved eclair-cli
+717,2018-09-20 17:17:15.000000000,2018-09-20 18:17:16.000000000,closed,0,Fix handling of born again channels
+716,2018-09-20 16:57:24.000000000,2018-09-20 17:01:54.000000000,closed,0,"Fix handling of ""born again"" channels"
+715,2018-09-20 12:09:22.000000000,2018-09-20 18:37:57.000000000,closed,0,Tests: use bitcoind 0.16.3
+714,2018-09-19 19:38:48.000000000,2019-03-06 15:10:41.000000000,closed,5,Clean channels with unexisting funding tx
+713,2018-09-19 18:14:34.000000000,2018-09-19 18:42:10.000000000,closed,0,Fixed regression in rebroadcast 
+712,2018-09-19 16:15:14.000000000,2018-09-19 19:35:22.000000000,closed,0,Routing sync fixes
+711,2018-09-18 18:43:17.000000000,2018-09-20 19:22:39.000000000,closed,0,Make `publishTransaction` idempotent
+710,2018-09-18 18:39:17.000000000,2018-09-18 19:03:51.000000000,closed,0,Improve integration tests
+709,2018-09-18 15:43:16.000000000,2018-09-20 18:18:17.000000000,closed,0,Replace `update_fee` in commitments
+708,2018-09-18 15:43:04.000000000,2018-09-20 18:12:39.000000000,closed,0,Ignore 'origin htlc not found' in CLOSING
+707,2018-09-17 17:07:45.000000000,2018-09-18 19:04:12.000000000,closed,0,Set default `max-htlc-value-in-flight-msat` to 50mBTC
+706,2018-09-17 16:01:27.000000000,2018-09-17 20:30:11.000000000,closed,0,Remember pruned channels
+705,2018-09-17 14:15:13.000000000,2018-09-17 19:12:42.000000000,closed,0,Ignore bad announcements sent by peers
+704,2018-09-17 13:04:55.000000000,2018-09-17 17:25:39.000000000,closed,0,Correctly handle multiple channel_range_replies
+703,2018-09-15 19:21:14.000000000,2018-09-21 20:15:07.000000000,closed,3,IntegrationSpec intermittently times out
+702,2018-09-13 16:44:09.000000000,2018-09-17 15:37:32.000000000,closed,1,"ShortChannelId: use block height, tx index, output index explicitely"
+701,2018-09-12 19:40:28.000000000,2018-09-17 19:09:51.000000000,closed,0,Added `LocalCommitConfirmed` event
+700,2018-09-12 16:38:27.000000000,2018-09-12 21:13:40.000000000,closed,0,Switched commitment log level to info (minor)
+699,2018-09-12 16:36:01.000000000,2018-09-12 22:25:22.000000000,closed,0,Added catch-all handler for local commit (minor)
+698,2018-09-11 21:51:05.000000000,2018-09-17 17:32:15.000000000,closed,3,StackOverflowError in ZMQActor
+697,2018-09-11 19:42:29.000000000,2018-09-12 20:24:19.000000000,closed,0,Handle overriden htlcs in remote close scenario
+696,2018-09-11 09:48:12.000000000,2018-09-17 17:29:44.000000000,closed,2,Improve startup error handling
+695,2018-09-11 04:40:25.000000000,2018-09-24 13:49:06.000000000,closed,2,eclair-cli channels     Error
+694,2018-09-11 00:19:30.000000000,2019-02-14 15:39:06.000000000,closed,12,Extend API and websocket
+693,2018-09-10 15:56:36.000000000,2018-09-11 20:07:25.000000000,closed,0,Multiple fixes in payment lifecycle
+692,2018-09-09 16:42:50.000000000,2018-09-12 07:42:39.000000000,closed,2,Custom fee confusing
+691,2018-09-09 09:38:40.000000000,2018-09-12 20:24:19.000000000,closed,2,Expired payment in ACINQ channel
+690,2018-09-06 15:25:15.000000000,2019-01-14 20:53:58.000000000,closed,6,GUI is confusing. Easy to accidentally close/force close the wrong channel
+689,2018-09-05 18:03:21.000000000,2018-10-22 22:29:35.000000000,closed,17,Payments fail without error message
+688,2018-09-05 02:25:44.000000000,2018-09-05 13:26:59.000000000,closed,2,Channel opening fee rate adjustment have no effect
+687,2018-09-03 17:16:54.000000000,2018-09-03 19:49:37.000000000,closed,0,Fixed htlc absolute expiry checks
+686,2018-08-31 17:19:21.000000000,2018-08-31 17:46:42.000000000,closed,0,Removed max body size in http client
+685,2018-08-30 13:10:32.000000000,2018-09-03 20:03:41.000000000,closed,0,Mention Docker in our build instructions (fixes #669)
+684,2018-08-29 16:07:08.000000000,2018-08-30 19:46:18.000000000,closed,0,"Add a ""smooth"" fee provider"
+683,2018-08-27 17:02:40.000000000,2018-08-27 20:11:13.000000000,closed,0,Add an issue template
+682,2018-08-27 12:33:21.000000000,2018-10-11 19:58:10.000000000,closed,8,Support for bitcoin 0.17.x
+681,2018-08-27 01:11:49.000000000,2018-08-27 11:46:03.000000000,closed,1,[GUI] fatal error: javafx/application/Application
+680,2018-08-26 20:33:45.000000000,2018-08-30 16:00:24.000000000,closed,0,Add logging customisation info
+679,2018-08-25 20:23:20.000000000,2018-10-17 19:46:38.000000000,closed,1,Add `htlcMaximumMsat` field to `ChannelUpdate` message
+678,2018-08-20 09:54:52.000000000,2018-08-20 21:04:17.000000000,closed,5,You cannot change the port 
+677,2018-08-16 18:14:50.000000000,2018-08-21 11:17:23.000000000,closed,4,Provide more details in the channels API
+676,2018-08-16 11:08:37.000000000,2018-08-27 11:43:08.000000000,closed,8,Channel stuck in CLOSING
+675,2018-08-16 04:00:09.000000000,2018-10-23 15:29:26.000000000,closed,5,Transaction Log dissappears after close.....
+674,2018-08-15 13:47:04.000000000,2018-08-15 16:39:19.000000000,closed,0,Fixed some logs and added `ChannelPersisted` event
+673,2018-08-14 13:49:53.000000000,2018-08-14 16:20:56.000000000,closed,1,Question: Lightning explorer show URI | unknown
+672,2018-08-10 18:53:00.000000000,2018-08-15 16:34:46.000000000,closed,0,Send `query_short_channel_ids` sequentially
+671,2018-08-10 17:47:07.000000000,2019-08-23 18:01:31.000000000,closed,2,Tor/HiddenService support 
+670,2018-08-10 16:25:22.000000000,2018-09-20 19:37:27.000000000,closed,2,Correctly process payment requests with amounts without multiplers
+669,2018-08-09 03:22:14.000000000,2018-09-03 20:03:42.000000000,closed,1,Build instructions have no mention of Docker?
+668,2018-08-06 11:06:40.000000000,2018-08-06 13:46:29.000000000,closed,2,Dijkstra may fail to find a shortest path with negative fees present
+667,2018-08-05 18:24:50.000000000,2018-08-10 14:27:10.000000000,closed,0,Handle unknown remote commit in recovery logic
+666,2018-08-01 18:38:24.000000000,2018-08-03 14:17:09.000000000,closed,0, Get full blocks when looking for spending tx 
+665,2018-07-24 19:29:06.000000000,2018-07-26 23:58:14.000000000,closed,24,Closing channel but no transaction back
+664,2018-07-20 11:17:32.000000000,2018-08-03 14:17:11.000000000,closed,6,Excessive calls to getrawtransaction
+663,2018-07-17 19:01:06.000000000,2018-07-18 16:45:13.000000000,closed,1,Send an event when an error occurs in a channel
+662,2018-07-17 02:02:58.000000000,1970-01-01 00:00:00.000000001,open,3,Rate limit annoncement signatures
+661,2018-07-16 19:58:01.000000000,2018-07-17 13:53:14.000000000,closed,2,Crash when receiving channel updates
+660,2018-07-16 14:23:26.000000000,2018-07-31 18:04:56.000000000,closed,1,Fail unsigned outgoing htlcs at CLOSING
+659,2018-07-16 14:06:49.000000000,2020-06-30 17:28:11.000000000,closed,6,[WIP] Rework fulfill/fail commands acknowledgements
+658,2018-07-14 20:17:50.000000000,2018-08-27 18:25:45.000000000,closed,0,Use user-provided fee rate for funding tx
+657,2018-07-14 05:28:14.000000000,2018-07-23 14:18:17.000000000,closed,1,[WIP] Update code to build with Scala 2.12
+656,2018-07-13 18:50:34.000000000,2018-07-16 14:18:39.000000000,closed,0,"Use ""unsigned long"" comparison for short channel ids"
+655,2018-07-10 17:35:05.000000000,2018-07-10 22:26:18.000000000,closed,2,"Starblocks: Remove target=""_blank"" on lightning: uri"
+654,2018-07-07 18:15:52.000000000,2018-07-25 18:47:39.000000000,closed,0,Keep track of sent/received/relayed payments and relay/network fees
+653,2018-07-04 19:43:16.000000000,2019-03-27 21:11:28.000000000,closed,3,Cleanup internal Eclair API
+652,2018-07-01 19:20:40.000000000,2018-07-16 16:25:21.000000000,closed,1,Clean up implicit execution contexts and allow ActorSystem to be pass…
+651,2018-07-01 15:22:01.000000000,2018-10-23 19:31:23.000000000,closed,1,No additional block added when taking final expiry from payment request
+650,2018-06-29 14:43:46.000000000,2018-07-09 13:17:33.000000000,closed,1,Fixed default min_final_cltv_expiry value
+649,2018-06-28 09:54:32.000000000,2018-07-31 18:04:56.000000000,closed,4,Expired payment not being failed by Endurance
+648,2018-06-27 16:43:55.000000000,2018-07-09 14:36:11.000000000,closed,0,Relay payments to preferred channels
+647,2018-06-26 21:40:46.000000000,2018-07-13 19:19:55.000000000,closed,0,Router: prune channel that our peer does not have
+646,2018-06-26 13:40:42.000000000,2018-09-10 18:49:55.000000000,closed,2,Implement 'listpayment' RPC api
+645,2018-06-26 13:19:10.000000000,2018-09-10 18:50:17.000000000,closed,0,[Feature request] As RPC api user I'd like to query eclair about received payments
+644,2018-06-26 03:58:23.000000000,2018-09-21 20:29:43.000000000,closed,2,Payments with a fresh started Eclair-Wallet sometimes takes a long time to complete
+643,2018-06-26 03:47:12.000000000,2018-06-26 21:36:50.000000000,closed,3,java.lang.NoSuchMethodError: org.spongycastle.crypto.engines.ChaCha7539Engine.packTauOrSigma(I[II)V
+642,2018-06-25 20:59:22.000000000,2018-10-25 00:01:18.000000000,closed,2,Terminating `ZMQActor` properly
+641,2018-06-25 18:30:26.000000000,2018-06-26 12:24:13.000000000,closed,1,eclair used very high fee by default to open a channel
+640,2018-06-22 13:41:19.000000000,2018-09-13 19:10:55.000000000,closed,8,Channels getting closed due to fee rate differences
+639,2018-06-21 13:02:30.000000000,2018-08-27 18:25:45.000000000,closed,0,Funding tx does not use user-provided fee rate
+638,2018-06-20 19:54:08.000000000,2018-07-02 20:25:19.000000000,closed,2,Added context to logs
+637,2018-06-20 16:32:36.000000000,2018-06-26 20:35:23.000000000,closed,0,Generate payment request with extra routing information
+636,2018-06-20 09:56:28.000000000,2018-06-24 21:42:44.000000000,closed,5,how can I get a balance?
+635,2018-06-20 08:09:16.000000000,2018-06-26 20:15:02.000000000,closed,1,Fix scala.NotImplementedError when public-ips config parameter contains invalid values
+634,2018-06-19 18:30:02.000000000,2018-06-19 18:58:41.000000000,closed,0,Check when relay fee is insufficient
+633,2018-06-19 18:10:17.000000000,2019-09-23 17:06:49.000000000,closed,5,"WIP: Adding hikari connection pool, release db connections back to pool af…"
+632,2018-06-18 00:52:42.000000000,2018-06-19 15:13:08.000000000,closed,2,Adding ability to set expiry when creating a new invoice
+631,2018-06-17 23:14:15.000000000,2018-06-19 19:11:03.000000000,closed,1,Repeated connection loss with c-lightning
+630,2018-06-17 21:13:08.000000000,2018-06-26 20:15:05.000000000,closed,2,scala.NotImplementedError: an implementation is missing
+629,2018-06-15 09:11:29.000000000,2018-10-23 15:35:20.000000000,closed,3,Prevent eclair from forceclosing [feature request]
+628,2018-06-14 13:41:11.000000000,2018-06-14 13:55:27.000000000,closed,2,Payment is fulfilled by payee but is still pending
+627,2018-06-12 18:25:11.000000000,2018-06-14 12:28:47.000000000,closed,0,Routing: remove final CLTV expiry check on outgoing HTLCs
+626,2018-06-12 18:10:36.000000000,2018-06-14 12:28:46.000000000,closed,0,Do not compute route with a final CTLV that we would reject
+625,2018-06-11 20:59:12.000000000,2018-06-11 21:23:04.000000000,closed,3,Installed with .conf files for eclair and bitcoin but cannot connect
+624,2018-06-09 02:22:23.000000000,2018-09-17 20:30:11.000000000,closed,3,Router TickPruneStaleChannels taking 3-4 mins and pruning channels many times?
+623,2018-06-08 00:50:19.000000000,2018-09-17 20:30:13.000000000,closed,1,network.sqlite is killing my HDD
+622,2018-06-07 18:15:22.000000000,2018-09-21 20:31:07.000000000,closed,2,eclair-cli help requires password
+621,2018-06-07 15:25:43.000000000,2018-06-19 16:09:39.000000000,closed,2,Are we actually sending ChannelUpdate every 7 days?
+620,2018-06-07 15:22:52.000000000,2018-06-19 16:09:38.000000000,closed,4,Add api call to update channel relay fees updatefee
+619,2018-06-07 03:34:21.000000000,2018-09-12 19:36:40.000000000,closed,4,add in api calls to allow async sends. Fixes #615
+618,2018-06-06 17:20:10.000000000,2018-06-18 21:06:15.000000000,closed,0,Add missing BOLT 2 checks (fixes #613)
+617,2018-06-06 15:15:25.000000000,2018-06-12 05:15:38.000000000,closed,3,WAIT_FOR_FUNDING_CONFIRMED and Transaction Id is invalid
+616,2018-06-06 04:05:14.000000000,2018-07-24 20:43:36.000000000,closed,0,Fix Bitcoin JSON RPC client's rounding errors
+615,2018-06-05 20:08:40.000000000,2019-06-23 14:31:05.000000000,closed,8,Send API dangerous and timeout does not mean a payment failed.
+614,2018-06-04 23:21:23.000000000,2018-06-07 20:08:26.000000000,closed,1,Replace mvn install with mvn clean install
+613,2018-06-04 12:46:08.000000000,2018-06-18 21:06:17.000000000,closed,1,"Eclair does not enforce ""Their dust is higher than our reserve"" rule on channel opening but LND does"
+612,2018-06-04 01:42:23.000000000,2018-06-07 19:57:20.000000000,closed,10,mvn install failure
+611,2018-05-31 04:31:27.000000000,2018-05-31 13:00:50.000000000,closed,2,Authentication failed using Strike 
+610,2018-05-30 15:52:28.000000000,2018-05-30 17:20:56.000000000,closed,2,Inform clients about incoming payments via websocket connection
+609,2018-05-25 12:53:22.000000000,2018-05-25 13:47:23.000000000,closed,0,"Update electrum testnet server list, and fix flaky client pool tests"
+608,2018-05-24 15:38:49.000000000,2018-05-30 15:38:41.000000000,closed,7,Set a minimum feerate-per-kw of 253 (fixes #602)
+607,2018-05-23 15:27:19.000000000,2018-05-23 18:59:06.000000000,closed,1,"How does eclair manage to open channel , send payments when bitcoin-core is locked ?"
+606,2018-05-21 05:32:10.000000000,2018-05-22 15:13:12.000000000,closed,7,Could Not Connect to Bitcoin Core using JSON-RPC
+605,2018-05-20 13:43:37.000000000,2018-05-22 14:36:02.000000000,closed,1,Filter out non-spendable outputs from bitcoind 'listunspent' call during setup 
+604,2018-05-20 13:36:46.000000000,2018-05-22 17:54:29.000000000,closed,1,Fix maven version to 3.3.9 in docker build
+603,2018-05-20 13:34:25.000000000,2018-05-22 17:54:32.000000000,closed,0,docker build fails to fetch maven binaries
+602,2018-05-19 16:13:16.000000000,2018-05-30 15:38:43.000000000,closed,24,"Channel stuck in Closing due to ""cannot publish tx: reason=66: min relay fee not met (code: -26)"""
+601,2018-05-18 15:22:34.000000000,2018-05-18 17:20:47.000000000,closed,0,Set version to 0.2-beta3
+600,2018-05-18 14:07:53.000000000,2018-05-18 14:58:49.000000000,closed,0,Electrum wallet: fix balance computation issue
+599,2018-05-18 13:43:42.000000000,2018-05-22 14:36:02.000000000,closed,2,"""Make sure that all your UTXOS are segwit UTXOS and not p2pkh"" on setup even if all spendable UTXO are P2SH (but watch-only address is not) "
+598,2018-05-17 12:01:31.000000000,2018-05-17 18:28:22.000000000,closed,6,Failing all channels due to fee out of range
+597,2018-05-16 02:56:31.000000000,2018-05-19 14:53:32.000000000,closed,3,cannot sign when there are no changes while processing msg=CommitSig in state=NORMAL
+596,2018-05-16 00:30:09.000000000,2018-07-24 21:06:06.000000000,closed,4,Fee returning code still not right!
+595,2018-05-15 11:53:14.000000000,2018-05-18 13:55:12.000000000,closed,0,Enforce min feerate per byte on regtest
+594,2018-05-15 10:38:30.000000000,2018-05-30 15:46:29.000000000,closed,3,Inform clients about incoming payments via websocket connection
+593,2018-05-14 20:50:22.000000000,2018-05-18 13:55:32.000000000,closed,0,Update Sphinx test vectors
+592,2018-05-14 20:30:02.000000000,2018-06-27 16:34:03.000000000,closed,0,Electrum: add wallet and watcher tests (via Docker)
+591,2018-05-07 14:25:02.000000000,2018-05-11 21:55:46.000000000,closed,7,can not pay to CL node from Eclair android
+590,2018-05-06 00:13:56.000000000,2018-05-18 13:55:54.000000000,closed,0,Increase startup timeout
+589,2018-05-04 19:53:14.000000000,2018-05-04 20:16:31.000000000,closed,0,Fixed conversion: 1 BTC = 1e8 satoshis
+588,2018-05-04 17:38:56.000000000,2018-05-04 19:32:04.000000000,closed,0,Cache serialized network announcements
+587,2018-05-04 16:16:01.000000000,2018-05-04 16:46:37.000000000,closed,0,Check if closing tx is known before handling it
+586,2018-05-04 15:58:06.000000000,2018-05-04 17:06:28.000000000,closed,3,Electrum wallet: export xpub
+585,2018-05-04 01:59:03.000000000,2018-05-04 20:16:31.000000000,closed,1,fundTransaction returns fee 10x too big.
+584,2018-05-04 01:25:44.000000000,2018-05-04 12:56:46.000000000,closed,0,Fixed \ instead of / in docker commands (acinq/eclair)
+583,2018-05-03 19:41:33.000000000,2018-05-04 13:31:21.000000000,closed,0,[WIP] Use latest fast sync scheme
+582,2018-05-03 12:25:16.000000000,2018-05-03 16:54:00.000000000,closed,0,Update bitcoin-lib to 0.9.17
+581,2018-05-02 12:54:56.000000000,2018-05-04 13:30:54.000000000,closed,0,Use fallbackAddress tag
+580,2018-04-30 00:01:27.000000000,2018-05-03 16:56:08.000000000,closed,1,Add configurable min funding satoshis limit
+579,2018-04-29 03:08:59.000000000,2018-05-04 16:14:02.000000000,closed,0,Remove utxo lock when call to `signrawtransaction` fails
+578,2018-04-28 12:14:27.000000000,2020-03-27 13:57:47.000000000,closed,4,Feature request: start/stop scripts
+577,2018-04-28 12:05:14.000000000,2018-05-18 13:55:54.000000000,closed,0,Failed to start node due to Logger timeout
+576,2018-04-27 18:01:31.000000000,2018-05-09 15:25:06.000000000,closed,0,Adds minor improvements to find route API
+575,2018-04-24 20:28:02.000000000,2018-09-21 20:31:51.000000000,closed,6,Invalid commitment sig received from LND
+574,2018-04-24 16:19:36.000000000,2018-04-30 21:21:52.000000000,closed,2,Retrieve and store feerate in satoshi/kB (instead of satoshi/byte)
+573,2018-04-24 12:58:26.000000000,2018-06-12 19:10:48.000000000,closed,2,"Payment is sent successfully, but check payment (from sender) always return false, and repeat send will lost money!"
+572,2018-04-22 15:12:26.000000000,2018-06-12 18:05:24.000000000,closed,9,Payment to y'alls fails after 5 attempts
+571,2018-04-22 01:18:14.000000000,2018-09-30 22:12:47.000000000,closed,8,"Can't open channels with an encrypted wallet, even if it's unlocked"
+570,2018-04-19 21:19:30.000000000,2018-04-24 00:53:06.000000000,closed,1,Add json serializers for `NodeAddress` type
+569,2018-04-19 16:14:12.000000000,2020-06-15 16:49:31.000000000,closed,1,Nodes with high CLTV deltas are not ignored when a route is recomputed
+568,2018-04-19 15:24:54.000000000,2018-05-04 16:46:37.000000000,closed,0,Duplicate `mutualClosePublished` in `CLOSING` state
+567,2018-04-19 15:23:17.000000000,2018-05-04 16:14:02.000000000,closed,1,Remove utxo lock when call to `signrawtransaction` fails
+566,2018-04-19 03:18:51.000000000,2018-04-19 13:15:36.000000000,closed,2,"LND ""Getnodeinfo"" fails when targeted at eclair wallet on Android."
+565,2018-04-17 22:00:15.000000000,2018-04-24 00:53:06.000000000,closed,2,Add json serializers for `NodeAddress` type
+564,2018-04-17 19:35:05.000000000,2018-04-17 21:21:34.000000000,closed,0,Update local `node_announcement` on startup
+563,2018-04-17 18:35:40.000000000,2018-04-17 21:21:34.000000000,closed,0,Eclair doesn't update its `node_announcement` at startup
+562,2018-04-17 00:17:24.000000000,2018-04-17 12:34:32.000000000,closed,1,https://explorer.acinq.co is not updating
+561,2018-04-16 20:22:35.000000000,2018-05-04 17:43:14.000000000,closed,1,Log feerates returned by fee providers
+560,2018-04-14 16:55:10.000000000,2018-04-23 16:46:05.000000000,closed,3,Refactor Transactions methods
+559,2018-04-13 17:31:36.000000000,2018-04-16 13:23:49.000000000,closed,0, Handle IPv4-mapped/tor2/tor3 addresses
+558,2018-04-12 17:50:27.000000000,2018-04-17 18:32:04.000000000,closed,9,Starblocks website doesn't display option for ordering
+557,2018-04-11 18:25:57.000000000,2018-04-13 15:53:31.000000000,closed,0,Update docker link
+556,2018-04-11 17:51:39.000000000,2018-05-30 20:53:08.000000000,closed,1,Add server address in ElectrumReady object
+555,2018-04-10 22:15:32.000000000,2018-04-11 14:01:52.000000000,closed,0,Correctly extract `pubkeyScript` from witness data
+554,2018-04-10 20:08:04.000000000,2018-04-10 20:49:58.000000000,closed,0,Resolve Electrum server address only when connecting
+553,2018-04-10 19:24:41.000000000,2018-04-11 17:44:40.000000000,closed,0,Support signing multiple similar/identical HTLCs
+552,2018-04-08 16:59:15.000000000,2018-04-09 16:32:31.000000000,closed,8,Payment pending for hours
+551,2018-04-07 23:03:01.000000000,2018-04-09 16:38:45.000000000,closed,2,"Can't pay invoice with Eclair, but the node can"
+550,2018-04-07 22:36:19.000000000,2018-04-07 22:40:03.000000000,closed,1,Payment failed
+549,2018-04-07 12:45:30.000000000,2018-04-10 19:24:52.000000000,closed,1,i clicked tons of testnet nodes https://explorer.acinq.co/ but it says connectin failed or wait for accept and then closed
+548,2018-04-06 19:15:06.000000000,2018-04-13 13:19:10.000000000,closed,3,"More options for fees - i.e ""Cap at 20%"""
+547,2018-04-05 22:23:06.000000000,2018-04-06 16:15:36.000000000,closed,2,Payment Failed - Remote Failure
+546,2018-04-05 20:03:44.000000000,2018-04-08 16:51:43.000000000,closed,6,Channel stuck in CLOSING state without user interaction
+545,2018-04-05 19:27:49.000000000,2018-04-11 17:44:40.000000000,closed,9,"Lightning-c sends an ""invalid sig"" error"
+544,2018-04-05 16:53:09.000000000,2018-04-13 15:53:31.000000000,closed,0,Broken link in readme to docker image
+543,2018-04-05 14:21:30.000000000,2018-04-05 17:38:38.000000000,closed,4,Mobile wallet channel goes OFFLINE when remote node is alive
+542,2018-04-05 10:22:07.000000000,2019-01-14 20:53:57.000000000,closed,1,Decimal format for bits
+541,2018-04-05 04:59:19.000000000,2018-04-07 20:47:40.000000000,closed,3,Cannot pay bitrefill with mobile wallet
+540,2018-04-05 02:59:57.000000000,2018-04-05 15:10:08.000000000,closed,1,[mobile] Receive lightning payment / create payment request
+539,2018-04-05 00:32:00.000000000,2018-04-05 16:01:02.000000000,closed,5,Cannot open channel: false insuficient funds
+538,2018-04-04 23:08:28.000000000,2018-04-22 14:17:36.000000000,closed,14,Commitment signature refused by lnd after a fee update
+537,2018-04-04 19:57:25.000000000,2018-04-04 20:22:09.000000000,closed,1,Open channel: Please enter the wallet passphrase with walletpassphrase first
+536,2018-04-04 17:49:06.000000000,2018-04-04 19:01:03.000000000,closed,4,"Can't open a channel, entry disappears after ""WAIT_FOR_ACCEPT_CHANNEL"""
+535,2018-04-04 13:52:58.000000000,2018-04-12 22:50:40.000000000,closed,3,[mobile] Send button is too subtle
+534,2018-04-04 13:49:49.000000000,2018-04-13 13:25:44.000000000,closed,3,[mobile] Confusing label on channels list
+533,2018-04-04 13:34:06.000000000,2018-04-13 13:26:45.000000000,closed,3,[mobile] Show total funds value in fiat currency
+532,2018-04-03 19:27:04.000000000,2018-04-03 21:36:02.000000000,closed,0,Send `channel_update` once every 7 days instead of every day
+531,2018-04-03 17:06:26.000000000,2018-04-03 22:35:06.000000000,closed,0,Accept bech32 addresses
+530,2018-04-03 15:31:45.000000000,2018-04-03 21:43:38.000000000,closed,0,Enforce a minimum fee rate
+529,2018-04-03 10:18:48.000000000,2018-04-03 18:24:20.000000000,closed,3,Eclair-0.2-beta1.exe Error: Futures timed out after [10 seconds]
+528,2018-03-31 15:08:56.000000000,2018-03-31 15:31:56.000000000,closed,1,Payment request has `lntb` prefix on regtest
+527,2018-03-31 10:51:14.000000000,2018-04-03 19:12:23.000000000,closed,2,Mainnet - Pay problems - channel is currently unavailable
+526,2018-03-30 02:28:42.000000000,2018-04-04 17:33:03.000000000,closed,5,"""Expiry too small"" error"
+525,2018-03-30 00:23:54.000000000,2018-04-02 20:34:35.000000000,closed,3,Tests failing
+524,2018-03-29 22:05:24.000000000,2018-03-29 22:20:40.000000000,closed,0,Electrum: fix signature bug
+523,2018-03-29 16:44:08.000000000,2018-04-26 13:03:12.000000000,closed,10,Add compatiblity with bitcoin nodes in bech32 mode
+522,2018-03-29 12:45:39.000000000,2018-03-29 16:25:14.000000000,closed,2,Cannot open cannel on Mainnet 
+521,2018-03-29 06:00:13.000000000,2018-03-29 17:59:01.000000000,closed,2,node connection issues
+520,2018-03-29 00:12:09.000000000,2018-03-29 00:12:15.000000000,closed,0,Show total amount of pending refunds on the main screen
+519,2018-03-28 22:22:13.000000000,2018-03-28 22:41:39.000000000,closed,0,Use bitcoin-lib 0.16
+518,2018-03-28 19:10:21.000000000,2018-03-29 20:51:14.000000000,closed,2,Suspicious `TemporaryNodeFailure`
+517,2018-03-28 14:24:37.000000000,2018-03-28 20:18:43.000000000,closed,0,Extend penalty to stealing HTLC outputs
+516,2018-03-27 16:43:24.000000000,2018-03-27 17:04:58.000000000,closed,0,Upgrade to bitcoin-lib 0.9.15
+515,2018-03-27 15:52:39.000000000,2018-03-27 16:06:53.000000000,closed,0,Added json serializers to handle payment failures
+514,2018-03-26 19:54:26.000000000,2018-03-26 22:56:52.000000000,closed,0,Upgrade to Bitcoin Core 0.16
+513,2018-03-26 19:36:00.000000000,2018-03-28 22:21:20.000000000,closed,3,Add support for mainnet
+512,2018-03-26 18:55:44.000000000,2018-03-26 19:36:34.000000000,closed,0,Updated dependencies
+511,2018-03-25 23:17:06.000000000,2018-03-28 19:27:20.000000000,closed,1,Update Funding tx id value in GUI when funding is signed
+510,2018-03-25 00:26:08.000000000,2018-03-25 01:09:40.000000000,closed,4,Force close channel state in 'CLOSING' for long time
+509,2018-03-24 14:35:54.000000000,2018-03-24 14:37:15.000000000,closed,0,Fixed race condition in `ElectrumClient`
+508,2018-03-23 22:39:20.000000000,2018-03-24 01:51:03.000000000,closed,0,Use `lnbcrt` prefix for regtest
+507,2018-03-23 16:02:54.000000000,2018-03-23 23:25:10.000000000,closed,0,Cleanup some TODOs
+506,2018-03-23 14:33:39.000000000,2018-03-23 19:10:20.000000000,closed,0,Electrum: add a `send all balance` method
+505,2018-03-23 03:04:50.000000000,2018-07-25 18:48:03.000000000,closed,6,Initial version of audit logger
+504,2018-03-22 16:43:30.000000000,2018-03-23 22:33:18.000000000,closed,0,Add json serializers to the API
+503,2018-03-22 12:27:45.000000000,2018-04-13 13:27:42.000000000,closed,9,In-flight pending HTLC is not displayed in channel details
+502,2018-03-21 23:20:24.000000000,2018-04-13 13:28:26.000000000,closed,4,After upgrading 0.2.5 app fails to work
+501,2018-03-21 22:57:28.000000000,2018-03-22 22:50:53.000000000,closed,5,I requested a payment from lightning-wallet and tried to pay with eclair but didn't work
+500,2018-03-21 22:29:45.000000000,2018-03-23 23:41:28.000000000,closed,0,Use a pool of Electrum servers
+499,2018-03-21 20:30:46.000000000,2018-04-13 13:30:36.000000000,closed,9,Eclair Mobile app can't pay yalls comments articles.
+498,2018-03-21 19:22:24.000000000,2018-03-23 22:26:25.000000000,closed,1,Added a 1s delay when API password check fails
+497,2018-03-21 18:12:11.000000000,2018-03-21 19:29:43.000000000,closed,0,Added copyright notice to all files
+496,2018-03-21 17:48:55.000000000,2018-03-21 22:25:20.000000000,closed,2,"[Mobile] Yalls payment requests are now triggering ""this is not a valid payment address"" when copy pasted."
+495,2018-03-21 17:47:35.000000000,2018-03-23 23:07:09.000000000,closed,0,Track version of each logical database
+494,2018-03-21 17:43:39.000000000,2018-04-13 13:32:32.000000000,closed,8,"[Mobile] possible regression, no longer a suggested app to handle LN payment requests"
+493,2018-03-21 15:13:03.000000000,2018-03-22 22:17:17.000000000,closed,6,Set a configurable `maxPaymentFee` as safety
+492,2018-03-20 19:57:46.000000000,2018-03-20 20:23:35.000000000,closed,0,Update link to latest release
+491,2018-03-20 19:38:13.000000000,2018-03-20 19:40:21.000000000,closed,0,build: Specify that we need at least 1.8u161 to build
+490,2018-03-20 19:34:04.000000000,2018-03-20 19:39:54.000000000,closed,0,Specify that we need JRE 1.8u161 or newer
+489,2018-03-19 18:44:13.000000000,2018-03-19 22:49:37.000000000,closed,0,Simplified blacklisting of nodes in case of payment failures
+488,2018-03-19 14:28:36.000000000,2018-03-19 15:55:41.000000000,closed,0,Proper cleanup of private channels
+487,2018-03-19 14:27:40.000000000,2018-03-19 15:59:48.000000000,closed,0,Close channel on `BITCOIN_FUNDING_PUBLISH_FAILED`
+486,2018-03-17 19:32:50.000000000,2018-03-18 00:42:06.000000000,closed,0,Testing - SigScript instead of scriptPubKey for defaultFinalScriptPubKey for Bob/Alice.
+485,2018-03-16 19:44:50.000000000,2018-03-21 13:17:06.000000000,closed,0,Added back pressure on TCP writes to Electrum client
+484,2018-03-15 21:01:13.000000000,2018-03-15 22:33:13.000000000,closed,0,Future timeouts should not be handled as failures in frontend
+483,2018-03-15 16:24:38.000000000,2018-03-15 21:53:15.000000000,closed,1,Better handling of force-closing of channels
+482,2018-03-15 14:01:46.000000000,2018-03-15 14:29:08.000000000,closed,0,Use default seed for electrum if none is provided
+481,2018-03-14 18:14:16.000000000,2018-03-14 21:15:08.000000000,closed,0,Restore node id key path
+480,2018-03-12 22:31:49.000000000,2018-03-13 15:09:29.000000000,closed,0,"Created a type for short channel id, and other minor improvements"
+479,2018-03-10 20:34:23.000000000,2019-08-23 17:59:23.000000000,closed,6,Payment via API failed but can see preimage in GUI!
+478,2018-03-10 02:51:19.000000000,2018-03-20 19:21:31.000000000,closed,6,Failed install on Mac
+477,2018-03-07 07:17:14.000000000,2018-03-20 19:30:27.000000000,closed,1,Please PGP sign releases
+476,2018-03-07 06:53:25.000000000,2018-03-14 09:02:16.000000000,closed,2,encrypting the JSON-RPC API connection.
+475,2018-03-06 01:31:14.000000000,2018-03-24 13:51:16.000000000,closed,9,Addition of API calls checkinvoice and findroute
+474,2018-03-04 07:39:40.000000000,2018-03-24 01:51:03.000000000,closed,1,lnbcrt bech HRP for regtest
+473,2018-03-02 22:29:02.000000000,2018-03-02 22:49:28.000000000,closed,0,Use bitgo API v2 to get network fees
+472,2018-03-02 22:18:45.000000000,2018-03-02 22:49:51.000000000,closed,0,Fixed bug in ignored channel computation
+471,2018-03-02 11:22:12.000000000,2019-08-23 17:57:25.000000000,closed,5,What happens when the IP of the node you have funded a channel to changes?
+470,2018-03-01 23:02:19.000000000,2018-03-02 15:25:05.000000000,closed,0,Added check on `to_self_delay` parameter
+469,2018-03-01 20:37:45.000000000,2018-03-01 22:48:54.000000000,closed,0,Proper management of expiry-related errors
+468,2018-03-01 12:14:17.000000000,2018-03-02 21:12:57.000000000,closed,0,Update README to work with Bitcoin Core 0.16+
+467,2018-02-28 21:51:24.000000000,2018-03-01 17:53:14.000000000,closed,0,Publish a `ChannelSignatureSent` for each outgoing commitment sig
+466,2018-02-28 19:50:34.000000000,2018-02-28 21:26:29.000000000,closed,0,Made `PaymentSucceeded.amountMsat` include fee
+465,2018-02-28 03:36:47.000000000,2018-02-28 21:32:58.000000000,closed,2,Why change LoggingFSM->FSM in commit b91e90783fa229ce8eec4eb924bdfc69b34a7546
+464,2018-02-27 19:25:29.000000000,2018-03-01 21:57:53.000000000,closed,0,Prune on rebroadcast
+463,2018-02-26 22:12:12.000000000,2018-02-27 04:49:37.000000000,closed,2,[BUG] Cannot CREATE more then one channel at same time-Android
+462,2018-02-26 21:19:34.000000000,2018-03-20 19:22:26.000000000,closed,6,Eclair Mobile Wallet - Not receiving testnet coins
+461,2018-02-26 20:50:46.000000000,2018-03-01 23:42:24.000000000,closed,0,Reworked routing algorithm
+460,2018-02-26 03:09:00.000000000,2018-03-01 07:52:52.000000000,closed,0,"Four normal channels opened, only one showing on testnet"
+459,2018-02-25 02:14:38.000000000,2018-02-27 23:36:57.000000000,closed,1,Improvements & fixes
+458,2018-02-24 21:17:40.000000000,2018-02-25 02:52:41.000000000,closed,2,"Only able to open first channel, all others disappear, tried dozens"
+457,2018-02-24 20:28:35.000000000,2019-01-18 04:18:26.000000000,closed,0,Roadmap to mainnet?
+456,2018-02-22 18:27:42.000000000,2019-08-23 17:54:42.000000000,closed,3,fatal error: database is not compatible with this version of eclair
+455,2018-02-22 15:26:53.000000000,2018-02-26 19:22:45.000000000,closed,0,Prune on `initial_routing_sync`
+454,2018-02-22 14:10:10.000000000,2018-10-22 16:33:21.000000000,closed,2,Serious delays when interacting with Eclair node
+453,2018-02-20 21:46:50.000000000,2018-07-12 23:36:58.000000000,closed,3,Improve initial routing sync
+452,2018-02-20 20:22:45.000000000,2018-02-20 22:02:29.000000000,closed,0,Minor fixes
+451,2018-02-20 19:52:18.000000000,2018-02-20 20:42:06.000000000,closed,0,Better data structures
+450,2018-02-20 03:16:35.000000000,2018-03-20 20:17:00.000000000,closed,2,How to fix javax.net.ssl.SSLHandshakeException during the build process
+449,2018-02-20 00:34:43.000000000,2018-03-02 23:12:03.000000000,closed,8,Regular crashes of eclair-node on Raspberry Pi
+448,2018-02-19 19:37:07.000000000,2020-05-19 17:34:51.000000000,closed,4,Push amount unit improvement
+447,2018-02-19 17:51:36.000000000,2018-02-20 18:26:39.000000000,closed,0,Removed bitcoinj support
+446,2018-02-19 01:26:25.000000000,2018-02-19 14:58:48.000000000,closed,2,Error starting using electrum as watcher
+445,2018-02-18 23:47:20.000000000,2018-03-20 19:31:27.000000000,closed,4,android testnet wallet: address changes between executions of the app
+444,2018-02-17 22:38:32.000000000,2018-02-19 22:38:31.000000000,closed,2,Graph of Node and Channel Growth?
+443,2018-02-17 17:43:54.000000000,2018-02-23 00:06:52.000000000,closed,2,bash completion script for eclair-cli
+442,2018-02-17 06:39:25.000000000,2018-03-02 23:22:35.000000000,closed,8,Bitcoin tx locked after opening channel --> insufficient funds error
+441,2018-02-16 21:00:18.000000000,2018-02-16 21:22:03.000000000,closed,0,Ignore 'tx already in block chain' errors when publishing a tx
+440,2018-02-16 20:23:50.000000000,2018-02-16 21:01:40.000000000,closed,0,Improved queuing of `initial_routing_sync` requests
+439,2018-02-16 20:13:51.000000000,2018-02-16 20:51:11.000000000,closed,0,Replaced `LoggingFSM` -> `FSM`
+438,2018-02-16 08:04:51.000000000,2018-02-16 20:44:14.000000000,closed,3,Not Broadcasting Public IP
+437,2018-02-14 01:01:52.000000000,2018-03-13 18:26:49.000000000,closed,2,Channel hangs on WAIT_FOR_ACCEPT_CHANNEL state
+436,2018-02-11 07:10:29.000000000,2018-02-12 17:29:03.000000000,closed,1,State: WAIT_FOR_FUNDING_CONFIRMED for long time
+435,2018-02-10 13:50:21.000000000,2018-02-10 19:30:16.000000000,closed,1,Could not connect to Bitcoin Core using ZMQ
+434,2018-02-08 21:52:01.000000000,2018-02-08 22:00:47.000000000,closed,1,mobile wallet not syncing tbtc balance--electrum server?
+433,2018-02-07 00:46:34.000000000,2018-02-16 21:15:46.000000000,closed,3,wallet does not seem to be downloading block headers from an electrum server--cannot sync
+432,2018-02-06 20:58:50.000000000,2018-02-12 16:17:10.000000000,closed,2,`addwitnessaddress` deprecated in Bitcoin core 0.16
+431,2018-02-06 19:29:10.000000000,2018-02-27 21:28:47.000000000,closed,0,Add detailed message to remote failures
+430,2018-02-05 19:20:42.000000000,2018-02-12 19:05:35.000000000,closed,0,Don't send duplicate messages to channels
+429,2018-02-05 17:46:07.000000000,2018-02-07 20:58:12.000000000,closed,0,Batch requests to bitcoind json-rpc api
+428,2018-02-05 11:28:14.000000000,2018-02-05 15:55:39.000000000,closed,1,source code android wallet
+427,2018-02-04 02:20:09.000000000,2018-02-05 18:06:05.000000000,closed,2,Double fee payment
+426,2018-02-03 19:07:46.000000000,2018-02-05 16:08:41.000000000,closed,4,eclair version alpha8 vs alpha9
+425,2018-02-03 10:30:26.000000000,2018-10-22 16:34:58.000000000,closed,5,When i open channel between eclair and c-lightning i found still state OPENINGD
+424,2018-02-01 20:50:51.000000000,2018-02-02 02:04:52.000000000,closed,0,Added an optional seed to Setup
+423,2018-02-01 01:26:34.000000000,2018-02-26 17:23:04.000000000,closed,0,Better closing tx management
+422,2018-02-01 01:25:36.000000000,2018-02-16 19:49:35.000000000,closed,0,Use TCP pull mode
+421,2018-01-29 22:02:16.000000000,2018-02-06 22:18:48.000000000,closed,2,Store channel funding txid with announcements db
+420,2018-01-29 18:58:28.000000000,2018-02-23 14:02:24.000000000,closed,1,[WIP] Faster routing table sync with bucket counters
+419,2018-01-29 11:28:50.000000000,2018-01-30 07:38:20.000000000,closed,3,Cannot acquire 512 bits from a vector that contains 0 bits
+418,2018-01-29 04:36:53.000000000,2018-01-30 21:45:19.000000000,closed,3,eclair seems to hang onto an HTLC w/o cancelling back
+417,2018-01-28 12:59:39.000000000,2018-01-29 22:42:08.000000000,closed,0,Fix typos
+416,2018-01-28 09:38:01.000000000,2018-02-12 21:28:22.000000000,closed,5,Add channel fees and capacity to Channel GUI
+415,2018-01-28 01:59:08.000000000,2018-02-06 22:18:50.000000000,closed,8,"Stuck with the same OFFLINE / CLOSING node, all payments fail"
+414,2018-01-28 01:42:58.000000000,2018-03-15 22:33:13.000000000,closed,5,`eclair-cli` fails to parse timeout errors
+413,2018-01-28 00:47:27.000000000,2018-04-13 13:35:50.000000000,closed,2,Transaction wan't broadcast from android wallet - epic confusion ensues.
+412,2018-01-27 07:34:47.000000000,2018-02-06 14:29:39.000000000,closed,4,Invalidate ports below 0 and above 65535
+411,2018-01-26 18:33:36.000000000,2018-02-05 19:48:50.000000000,closed,1,No route found when sending funds from android to PC
+410,2018-01-26 16:32:51.000000000,2018-02-23 19:46:05.000000000,closed,9,Data loss protection
+409,2018-01-25 22:37:43.000000000,2018-02-13 19:02:59.000000000,closed,5,requirement failed: invalid mac
+408,2018-01-25 12:57:37.000000000,2018-02-16 21:17:56.000000000,closed,5,"RPC become unresponsive, CPU consumes 100%"
+407,2018-01-25 10:21:30.000000000,2018-02-05 17:25:45.000000000,closed,0,Update Readme to elaborate on p2sh error after alpha 9.0 download
+406,2018-01-24 23:49:18.000000000,2018-01-24 23:56:40.000000000,closed,2,running Bitcoin Core but eclair says not...
+405,2018-01-24 23:27:08.000000000,2018-01-25 22:45:53.000000000,closed,6,Both Android and desktop gui sees channel as offline
+404,2018-01-24 21:38:37.000000000,2018-01-24 22:45:21.000000000,closed,1,Default timeout on RPC API too low
+403,2018-01-24 18:36:21.000000000,2018-01-29 10:01:50.000000000,closed,2,[Desktop] alpha9 is dieing on Windows
+402,2018-01-24 10:11:49.000000000,2018-02-13 19:30:43.000000000,closed,1,[Desktop] No closing message in log
+401,2018-01-24 05:35:05.000000000,2018-02-12 19:33:30.000000000,closed,0,TCPException message error should be defined
+400,2018-01-24 03:33:21.000000000,2018-02-05 17:25:55.000000000,closed,1,add closeall command
+399,2018-01-24 03:14:14.000000000,2018-02-12 19:33:30.000000000,closed,4,Display a proper error message in case of TCP bind failure
+398,2018-01-23 20:51:48.000000000,2018-04-13 13:38:47.000000000,closed,6,Some special characters from payment request are displayed wrong in Eclair mobile
+397,2018-01-23 16:45:33.000000000,2018-03-20 19:23:10.000000000,closed,4,[mobile] hundreds msatoshis displays as 0.00mBTC Payment
+396,2018-01-23 16:02:05.000000000,2018-01-23 19:25:54.000000000,closed,0,Various GUI Improvements
+395,2018-01-23 01:15:30.000000000,2018-01-29 22:40:25.000000000,closed,2,Updated README.me
+394,2018-01-23 00:56:39.000000000,2018-01-29 22:41:40.000000000,closed,4,Added quotes to sample parameter value in README.md
+393,2018-01-22 23:49:39.000000000,2018-03-13 18:48:52.000000000,closed,1,[question] Does it make sense to postpone uncooperative channel close for small expired HTLCs?
+392,2018-01-22 22:37:37.000000000,2018-03-20 19:32:05.000000000,closed,3,"Payments stuck on ""pending"""
+391,2018-01-22 19:58:55.000000000,2018-01-22 23:05:02.000000000,closed,0,Always check `maxAttempts` counter when receiving unparseable errors
+390,2018-01-22 00:54:03.000000000,2018-02-16 20:42:09.000000000,closed,6,Explicitely ack all relayed messages
+389,2018-01-21 21:14:58.000000000,2018-04-13 13:39:28.000000000,closed,3,"Reading the invoice, please wait STUCKED"
+388,2018-01-21 18:14:28.000000000,2018-01-21 21:04:13.000000000,closed,1,https://explorer.acinq.co/ down
+387,2018-01-21 09:21:24.000000000,2018-01-21 15:39:54.000000000,closed,2,fatal error: Futures timed out after [10 seconds]
+386,2018-01-21 07:46:02.000000000,2018-01-21 15:47:48.000000000,closed,2,Fix a comment
+385,2018-01-21 01:58:58.000000000,2018-01-22 21:59:48.000000000,closed,3,Fix 'filename too long' compilation error on encrypted file systems
+384,2018-01-20 18:01:22.000000000,2018-01-22 00:23:19.000000000,closed,3,Opening and closing a channel before it's confirmed gets it hanging
+383,2018-01-20 06:57:23.000000000,2018-01-21 15:41:07.000000000,closed,3,Add getinfo to API help
+382,2018-01-20 05:32:53.000000000,2018-01-21 03:37:22.000000000,closed,0,Make eclair-cli executable
+381,2018-01-19 18:48:43.000000000,2018-01-21 07:50:17.000000000,closed,1,Fix some comments
+380,2018-01-19 12:56:31.000000000,2018-01-22 00:43:47.000000000,closed,8,Eclair roadmap and developmental status
+379,2018-01-19 10:48:20.000000000,2018-01-22 21:59:51.000000000,closed,2,Cannot build on an encrypted file system (ecryptfs)
+378,2018-01-17 23:07:53.000000000,2018-02-16 20:42:09.000000000,closed,1,Expired payment don't get failed if sender is offline at expiration time
+377,2018-01-17 23:02:37.000000000,2018-02-16 20:42:48.000000000,closed,4,Some expired payments don't get failed on sender's side
+376,2018-01-17 17:48:39.000000000,2018-02-16 20:42:11.000000000,closed,1,We don't check for expired htlcs in next remote commitment
+375,2018-01-17 14:09:03.000000000,2018-03-20 19:24:13.000000000,closed,2,Alphanumeric QRs are not supported
+374,2018-01-16 23:36:51.000000000,2018-01-22 20:10:17.000000000,closed,0,Include payment preimage in PaymentSent event
+373,2018-01-16 21:53:10.000000000,2018-03-20 19:28:45.000000000,closed,7,[mobile] getting ERR_FUNDING_PUBLISH_FAILED when trying to connect to several nodes
+372,2018-01-16 21:06:53.000000000,2018-03-02 00:37:40.000000000,closed,0,Improve key management
+371,2018-01-13 01:05:34.000000000,2018-01-18 19:25:13.000000000,closed,2,"Updated username, password and port in readme"
+370,2018-01-13 00:20:36.000000000,2018-01-16 01:21:55.000000000,closed,1,Remove api.user
+369,2018-01-12 08:07:26.000000000,2019-08-23 17:50:44.000000000,closed,3,make checkpayment RPC method return a non-binary result
+368,2018-01-11 18:39:33.000000000,2018-01-16 20:34:10.000000000,closed,7,Indicate that wallet mode is needed before exiting
+367,2018-01-10 21:05:53.000000000,2018-01-12 00:32:30.000000000,closed,0,Handle ipv6 addresses
+366,2018-01-10 20:53:13.000000000,2018-01-11 16:08:46.000000000,closed,0,Fix encoding of failure messages (fixes #363)
+365,2018-01-09 03:24:10.000000000,2018-01-11 17:09:17.000000000,closed,0,Fix memory leak and reduce overall memory usage
+364,2018-01-08 15:44:12.000000000,2018-02-16 21:19:32.000000000,closed,3,"[mobile] Payment failed, route not found to Starblocks"
+363,2018-01-08 08:55:10.000000000,2018-01-11 16:08:48.000000000,closed,13,Unable to decode onion error message from eclair to lnd
+362,2018-01-06 21:18:56.000000000,2020-05-19 17:34:33.000000000,closed,1,[Desktop] Display how long a channel has been in its current state
+361,2018-01-06 10:41:12.000000000,2018-01-09 03:21:53.000000000,closed,4,Update README.md
+360,2018-01-05 20:16:05.000000000,2018-02-16 19:41:17.000000000,closed,3,Limit the max TCP packet size to the longest lightning message 
+359,2018-01-05 00:09:27.000000000,2018-08-01 19:34:07.000000000,closed,2,Failure to route a payment
+358,2018-01-04 15:04:51.000000000,2018-09-25 19:24:57.000000000,closed,7,Handle mutual close in state `DATA_WAIT_FOR_FUNDING_CONFIRMED`
+357,2018-01-03 07:08:27.000000000,2018-01-11 17:09:17.000000000,closed,1,Possible Memory Leak
+356,2018-01-02 22:58:44.000000000,2018-04-13 13:40:04.000000000,closed,1,"Long delay at ""Reading the invoice, please wait"""
+355,2018-01-02 22:37:46.000000000,2018-01-22 23:05:02.000000000,closed,0,[Desktop] Payment attempts stuck in infinite retry loop
+354,2018-01-02 14:55:42.000000000,2018-01-11 23:23:18.000000000,closed,0,Fixed eclair-cli
+353,2018-01-01 11:24:37.000000000,2018-03-13 18:50:25.000000000,closed,5,ERR_INFORMATION_LEAK
+352,2017-12-29 22:30:19.000000000,2017-12-29 22:31:04.000000000,closed,1,Can't set expiration for invoices
+351,2017-12-29 18:51:58.000000000,2018-01-02 14:42:48.000000000,closed,4,Opening a second channel with lightning-c causes that and the previously existing channel to be closed
+350,2017-12-28 20:53:56.000000000,2017-12-28 22:05:03.000000000,closed,0,Use same username/password in all examples.
+349,2017-12-28 18:46:08.000000000,2018-01-22 00:17:04.000000000,closed,7,Route not found (x attempts) - trying to buy me a Satoccinamon Dolce Latte.
+348,2017-12-27 20:06:30.000000000,2018-01-22 22:44:06.000000000,closed,1,[Desktop] Feature request - auto paste from clipboard
+347,2017-12-27 20:02:51.000000000,2018-01-23 19:25:55.000000000,closed,0,[Desktop] Feature request - shortcut keys
+346,2017-12-27 19:56:56.000000000,2018-01-12 00:32:31.000000000,closed,0,Assume default port as 9735
+345,2017-12-27 13:21:39.000000000,2018-01-22 19:16:36.000000000,closed,6,Don't blacklist recipient's peer
+344,2017-12-26 23:11:53.000000000,2018-01-11 23:23:19.000000000,closed,0,eclair-cli has a mistake
+343,2017-12-26 20:42:17.000000000,2018-01-12 00:32:31.000000000,closed,1,[mobile wallet] ipv6 addresses incorrectly parsed
+342,2017-12-26 11:05:37.000000000,2018-03-20 19:26:11.000000000,closed,5,Eliminated PENDING payments don't become FAILED on uncooperative close
+341,2017-12-25 23:48:30.000000000,2018-01-22 20:55:59.000000000,closed,5,Make payment request expiry configurable
+340,2017-12-25 05:30:32.000000000,2018-03-13 18:51:04.000000000,closed,4,[Mobile] RouteNotFound on every transaction attempt
+339,2017-12-25 04:16:24.000000000,2018-01-11 17:14:42.000000000,closed,2,Please list when network explorer was last updated
+338,2017-12-25 00:47:26.000000000,2018-01-02 21:04:52.000000000,closed,2,Allow binding of the API to multiple IP addresses
+337,2017-12-25 00:40:44.000000000,2018-01-02 21:00:23.000000000,closed,2,How to determine the IP address and TCP port of existing channels?
+336,2017-12-24 21:24:49.000000000,2018-03-13 18:53:00.000000000,closed,7,Channel closed and funds lost
+335,2017-12-24 19:25:32.000000000,2018-01-23 19:25:54.000000000,closed,0,Expose funding transaction ID in UI
+334,2017-12-24 19:23:00.000000000,2020-05-19 17:33:52.000000000,closed,3,Show payment failure in the send dialog
+333,2017-12-24 16:40:21.000000000,2018-01-26 16:29:23.000000000,closed,4,Data loss protection
+332,2017-12-24 07:45:11.000000000,2018-01-23 19:25:55.000000000,closed,0,[Desktop] Closed and Shutdown channels still have Close button.
+331,2017-12-23 04:25:37.000000000,2017-12-23 22:30:30.000000000,closed,1,Adding link to https://explorer.acinq.co
+330,2017-12-23 03:58:44.000000000,2017-12-23 23:15:17.000000000,closed,3,[Mobile] AmountBelowMinimum
+329,2017-12-23 03:54:41.000000000,2018-03-20 19:26:24.000000000,closed,2,"[Mobile] Improve error message: ""RemoteFailure TemporaryNodeFailure"""
+328,2017-12-23 03:43:43.000000000,2018-03-20 20:20:58.000000000,closed,2,"[Mobile] Error ""Click here for details"" button is difficult to press"
+327,2017-12-23 02:58:42.000000000,2017-12-23 03:26:30.000000000,closed,1,[GUI] Various gui fixes
+326,2017-12-23 01:29:10.000000000,2017-12-23 23:32:14.000000000,closed,1,README Bitcoin Core sample config connects to regtest instead of testnet
+325,2017-12-23 01:20:19.000000000,2017-12-23 04:04:13.000000000,closed,2,Error for opening channel doesn't respect units setting
+324,2017-12-22 22:56:40.000000000,2017-12-23 01:08:31.000000000,closed,1,Electrum Wallet: Send ready notification when reconnected
+323,2017-12-22 21:33:36.000000000,2017-12-23 02:18:18.000000000,closed,0,Pre-validation announcements pruning
+322,2017-12-22 18:59:39.000000000,2017-12-23 01:01:40.000000000,closed,0,Improve JSON RPC API error handling
+321,2017-12-22 18:00:42.000000000,2017-12-23 00:15:47.000000000,closed,0,Electrum: Use actual tx weight when estimating fees (see #303)
+320,2017-12-22 17:49:45.000000000,2017-12-23 03:32:35.000000000,closed,0,Improve logs
+319,2017-12-22 17:28:17.000000000,2017-12-23 00:39:13.000000000,closed,0,Faster search of spending tx when using bitcoind
+318,2017-12-22 17:24:26.000000000,2017-12-23 03:26:30.000000000,closed,1,.5 is invalid but 0.5 is valid
+317,2017-12-22 17:16:50.000000000,2017-12-23 03:27:00.000000000,closed,1,Not recognizing payment invoice if it has lightning: prefix
+316,2017-12-22 17:13:18.000000000,2017-12-23 03:06:35.000000000,closed,0,Reworked peer management
+315,2017-12-22 17:00:52.000000000,2018-03-13 19:07:17.000000000,closed,2,Wrong error message for payments below 10sat
+314,2017-12-22 16:51:35.000000000,2018-01-23 19:26:27.000000000,closed,3,Use same default units
+313,2017-12-21 22:16:04.000000000,2018-04-13 13:41:05.000000000,closed,1,[Mobile] Channel closed unexpectedly on app launch
+312,2017-12-21 22:14:46.000000000,2017-12-22 22:51:48.000000000,closed,2,Add an API method to check if a payment request has been paid
+311,2017-12-21 19:36:39.000000000,2017-12-21 19:41:23.000000000,closed,1,Error then eclair restarted: make sure that all your UTXOs are p2sh-of-p2wpkh (check out our README for more details)
+310,2017-12-21 16:27:48.000000000,2018-03-01 23:42:25.000000000,closed,2,It is not choosing the cheapest route
+309,2017-12-21 14:23:24.000000000,2017-12-21 14:28:36.000000000,closed,0,Clarify that `datadir`=`.eclair` in README
+308,2017-12-21 05:41:25.000000000,2017-12-21 14:00:29.000000000,closed,2,"""Open a new Lightning Channel"" dialog closes unexpectedly"
+307,2017-12-21 04:41:19.000000000,2018-03-20 19:26:32.000000000,closed,4,Eclair Android hard crash at startup on network issue
+306,2017-12-21 04:31:26.000000000,2017-12-23 03:27:14.000000000,closed,0,Feature: Eclair (desktop) should be able to generate QR codes
+305,2017-12-20 20:40:30.000000000,2019-08-23 17:52:06.000000000,closed,0,Minimal channel funding amount that consider onchain fees
+304,2017-12-20 18:01:16.000000000,2017-12-20 23:22:58.000000000,closed,0,Upgrade to bitcoin-lib 0.9.14
+303,2017-12-20 16:07:16.000000000,2017-12-23 00:15:48.000000000,closed,0,Electrum: use actual tx weight for fee calculation
+302,2017-12-20 09:22:23.000000000,2018-04-13 13:43:03.000000000,closed,3,Feature Request: Request payment via lightning in Android App
+301,2017-12-20 02:28:31.000000000,2017-12-21 00:50:57.000000000,closed,11,Trouble launching Eclair on Windows
+300,2017-12-20 01:58:51.000000000,2019-08-23 17:47:07.000000000,closed,2,Allow cooperative close before `min_depth`
+299,2017-12-20 00:19:48.000000000,2018-01-03 20:40:59.000000000,closed,4,SCAN A NODE URI appears to fail silently
+298,2017-12-20 00:17:01.000000000,2018-04-13 13:46:34.000000000,closed,6,AUTOCONNECT seems to always connect to the same node
+297,2017-12-19 23:44:22.000000000,2017-12-24 18:53:40.000000000,closed,4,Open Lightning Channel closes unexpectedly
+296,2017-12-19 20:00:00.000000000,2017-12-20 22:35:31.000000000,closed,0,Use the correct `toSelfDelay` when claiming funds
+295,2017-12-19 16:51:42.000000000,2017-12-22 23:50:51.000000000,closed,8,Error when closing channel
+294,2017-12-19 00:04:58.000000000,2018-04-13 13:48:03.000000000,closed,1,Add a fee ceiling
+293,2017-12-19 00:01:21.000000000,2018-03-20 19:27:31.000000000,closed,2,Prevent sending payments when Electrum is not synchronized
+292,2017-12-18 23:50:37.000000000,2018-03-13 18:56:59.000000000,closed,2,Make it possible to customize fee of funding transaction
+291,2017-12-18 22:48:13.000000000,2017-12-19 00:44:48.000000000,closed,1,Add a custom json serializer for `OutPoint`
+290,2017-12-17 08:22:19.000000000,2017-12-20 22:35:30.000000000,closed,8,Funds are not returned to bitcoin-qt wallet when closing channels
+289,2017-12-17 07:25:35.000000000,2017-12-17 18:54:34.000000000,closed,7,How do I broadcast my IP on the Lightning Network
+288,2017-12-17 05:34:58.000000000,2018-03-13 19:10:18.000000000,closed,3,All payments do not show up under the Activity tab of the GUI
+287,2017-12-16 23:51:20.000000000,2018-03-20 19:43:30.000000000,closed,5,How to get dust into a p2sh-of-p2wpkh?
+286,2017-12-16 23:48:25.000000000,2017-12-18 15:58:55.000000000,closed,3,Please release an .apk file and/or the source code for your mobile wallet
+285,2017-12-16 14:34:37.000000000,2017-12-17 20:37:40.000000000,closed,10,Error on startup
+284,2017-12-15 21:21:08.000000000,2017-12-22 22:28:41.000000000,closed,0,Rework `channel_update` management
+283,2017-12-15 21:19:48.000000000,2017-12-15 23:27:57.000000000,closed,0,Put `Sphinx.parse*` function in `Try` blocks
+282,2017-12-15 19:39:55.000000000,2017-12-23 01:01:40.000000000,closed,1,Bad inputs in RPC calls should not produce 500 error
+281,2017-12-15 16:19:50.000000000,2017-12-15 19:05:23.000000000,closed,0,Added more methods in API
+280,2017-12-14 23:55:39.000000000,2017-12-15 23:27:57.000000000,closed,0,Handle the case when we are unable to parse/decrypt an `ErrorPacket` in `PaymentHandler`
+279,2017-12-14 14:21:10.000000000,2017-12-20 23:14:24.000000000,closed,2,Assisted route handling
+278,2017-12-13 22:13:56.000000000,2017-12-18 03:04:17.000000000,closed,12,Eternal pending transactions with Yalls.org
+277,2017-12-13 15:44:20.000000000,2017-12-13 19:38:03.000000000,closed,2,BOLT11: Implement change in r field
+276,2017-12-12 18:00:46.000000000,2017-12-12 20:12:06.000000000,closed,0,Catch `channel` errors in `relayer`
+275,2017-12-12 14:51:05.000000000,2017-12-12 16:30:55.000000000,closed,0,Handle corner case when relaying to an unknown channel
+274,2017-12-11 19:19:34.000000000,2018-03-05 16:03:40.000000000,closed,0,Cleaned up README and moved instructions to the Wiki
+273,2017-12-10 15:24:53.000000000,2017-12-14 13:52:23.000000000,closed,0,Assisted route handling
+272,2017-12-10 07:10:58.000000000,2017-12-24 18:51:50.000000000,closed,5,Option to show bits
+271,2017-12-10 03:46:25.000000000,2018-03-20 19:29:09.000000000,closed,3,Restore from seed
+270,2017-12-09 11:20:40.000000000,2017-12-22 22:51:48.000000000,closed,6,Need a way to check for the payment of an invoice/payment request that has been issued
+269,2017-12-09 07:19:34.000000000,2017-12-09 07:20:35.000000000,closed,0,readme typo correction
+268,2017-12-08 22:22:50.000000000,2017-12-11 23:19:56.000000000,closed,0,[GUI] Default unit should be milliBTC
+267,2017-12-08 16:28:25.000000000,2017-12-08 20:24:44.000000000,closed,0,Reduce default fees
+266,2017-12-08 11:26:12.000000000,2017-12-20 21:22:33.000000000,closed,2,[Mobile Wallet] - Error messages
+265,2017-12-08 10:55:42.000000000,2017-12-17 18:05:40.000000000,closed,3,[Mobile Wallet] Assume default port as 9735
+264,2017-12-07 17:51:34.000000000,2017-12-12 20:12:06.000000000,closed,0,Outgoing HTLC gets stuck
+263,2017-12-07 16:15:32.000000000,2017-12-20 16:03:16.000000000,closed,2,Eclair mobile wallet UI
+262,2017-12-07 15:52:41.000000000,2017-12-08 22:34:08.000000000,closed,4,"Channel status on ""syncing"" even after 6 confirms"
+261,2017-12-07 15:33:40.000000000,2017-12-07 22:49:03.000000000,closed,0,[Gui] Centralize units labels from CoinUtils values
+260,2017-12-07 13:00:04.000000000,2017-12-07 22:49:04.000000000,closed,1,"""Capacity is not valid"" when trying to fund a channel using SAT as unit"
+259,2017-12-07 10:34:29.000000000,2017-12-24 18:52:14.000000000,closed,3,N/A USD amount after app restart
+258,2017-12-06 19:55:08.000000000,2017-12-06 20:10:23.000000000,closed,0,Removed default values for commitid in pom
+257,2017-12-06 19:28:43.000000000,2017-12-06 19:47:00.000000000,closed,0,Remove testnet.hsmiths.com from testnet electrum servers
+256,2017-12-05 11:59:47.000000000,2017-12-08 19:36:51.000000000,closed,15,Entrypoint for dockerfile and documentation to setup the eclair.conf
+255,2017-12-05 10:04:55.000000000,2017-12-05 21:29:47.000000000,closed,3,Docker support with repeatable builds
+254,2017-12-04 22:27:39.000000000,2017-12-04 22:41:39.000000000,closed,0,Add test on signing a single `Updatefee` with no other updates
+253,2017-12-04 21:24:24.000000000,2017-12-04 21:37:11.000000000,closed,0,Unified cltv expiry type to Long
+252,2017-12-04 15:14:03.000000000,2017-12-04 17:31:06.000000000,closed,0,Move akka configuration to eclair-node application.conf
+251,2017-12-01 20:24:18.000000000,2017-12-05 10:35:53.000000000,closed,7,Docker support with repeatable builds
+250,2017-12-01 16:07:28.000000000,2017-12-01 17:56:02.000000000,closed,0,Maven command to build eclair-node only
+249,2017-11-30 23:09:22.000000000,2017-12-01 15:18:17.000000000,closed,0,Disable dust limit checks on regtest and testnet
+248,2017-11-30 20:45:09.000000000,2017-12-06 17:32:09.000000000,closed,0,Swap `htlc_minimum_msat` in `channel_update`
+247,2017-11-30 20:12:58.000000000,2017-12-06 17:53:10.000000000,closed,0,Rework mutual closing
+246,2017-11-30 16:10:04.000000000,2017-12-06 19:30:05.000000000,closed,8,Problem with connect to dynamic IP
+245,2017-11-29 22:03:08.000000000,2017-12-06 17:53:12.000000000,closed,0,Remember all `ClosingSigned` we sent
+244,2017-11-29 17:06:24.000000000,2017-12-22 22:28:42.000000000,closed,5,Sending `ChannelUpdate` for a non-public channel
+243,2017-11-29 03:47:12.000000000,2017-12-06 17:53:11.000000000,closed,0,Closing fee should be less than last commitment fee
+242,2017-11-28 10:51:57.000000000,2017-12-04 22:41:40.000000000,closed,3,Rejects a solely update_fee commitment update 
+241,2017-11-27 23:50:21.000000000,2017-11-30 19:55:30.000000000,closed,0,Handling optional amount in a Payment Request
+240,2017-11-27 21:43:31.000000000,2017-11-29 22:18:10.000000000,closed,0,Added more checks on `open`/`accept` messages
+239,2017-11-27 18:24:48.000000000,2017-12-04 21:48:34.000000000,closed,0,[WIP] Shrink README and add detailed help to the Wiki
+238,2017-11-27 16:03:10.000000000,2017-11-28 00:46:18.000000000,closed,0,Minor improvements for the CLI
+237,2017-11-26 21:18:24.000000000,2017-11-27 22:17:38.000000000,closed,2,Added bitgo fee provider
+236,2017-11-25 21:11:08.000000000,2017-12-01 15:18:58.000000000,closed,2,Missing validations when receiving `open`/`accept` messages
+235,2017-11-24 22:29:20.000000000,2017-12-24 16:38:30.000000000,closed,2,Basic data loss protection
+234,2017-11-24 22:28:05.000000000,2017-11-29 22:18:10.000000000,closed,6,Invalid Signature in FUNDING_SIGNED
+233,2017-11-24 21:44:34.000000000,2017-11-29 21:40:08.000000000,closed,0,Fix concurrent spends with Electrum
+232,2017-11-24 21:38:31.000000000,2017-11-27 16:28:44.000000000,closed,0, Use tx-output pubkeyscript as hint for electrum watcher
+231,2017-11-24 15:19:46.000000000,2017-11-27 19:05:26.000000000,closed,0,Removed bitcoin-core parent-tx hack
+230,2017-11-24 15:05:05.000000000,2017-12-06 17:32:07.000000000,closed,0,Correctly translates and relay channels errors
+229,2017-11-23 21:00:56.000000000,2017-12-06 19:33:32.000000000,closed,2,Prevent sending an HTLC with amount lower than `htlc-minimum-msat`
+228,2017-11-23 20:58:12.000000000,2017-11-27 22:31:00.000000000,closed,1,Check that all UTXOS are p2sh on testnet
+227,2017-11-23 17:14:23.000000000,2017-12-06 17:32:09.000000000,closed,3,`TemporaryNodeFailure` instead of `TemporaryChannelFailure`
+226,2017-11-23 15:09:28.000000000,2017-11-24 15:30:37.000000000,closed,0,Bolt 11: ignore unknown tags (fixes #206)
+225,2017-11-23 02:38:38.000000000,2017-12-07 01:04:37.000000000,closed,16,"I got this error: ""chainHash mismatch"""
+224,2017-11-22 18:28:00.000000000,2017-11-22 18:32:52.000000000,closed,2,Is endurance ok?
+223,2017-11-21 23:50:34.000000000,2017-11-22 18:48:24.000000000,closed,0,bitcoin rpc client: queue requests locally
+222,2017-11-21 23:49:02.000000000,2017-11-22 00:08:16.000000000,closed,0,Reformat + optimized imports
+221,2017-11-21 23:47:00.000000000,2017-11-22 18:48:47.000000000,closed,1,bitcoin rpc client: increase the number of concurrent requests
+220,2017-11-21 22:19:16.000000000,2017-11-21 23:11:07.000000000,closed,0,Fix doc for api call `connect`/`open`
+219,2017-11-21 18:37:33.000000000,2017-11-21 20:47:03.000000000,closed,0,Prune stale network announcements
+218,2017-11-20 12:41:06.000000000,2017-11-20 14:51:12.000000000,closed,4,Node URI format for QR scanner
+217,2017-11-17 18:26:49.000000000,2017-11-17 18:52:01.000000000,closed,0,Delay `announcement_signatures` when received early
+216,2017-11-16 21:08:43.000000000,2017-11-21 19:59:02.000000000,closed,0,Improved fees management
+215,2017-11-16 17:25:13.000000000,2017-11-21 23:11:07.000000000,closed,0,connect/open inconsistency in api and documentation
+214,2017-11-15 20:28:00.000000000,2017-11-21 22:25:28.000000000,closed,0,[Android] Support for electrumx API
+213,2017-11-15 16:49:03.000000000,2017-11-17 19:44:45.000000000,closed,0,Use a separate `htlc_key` to sign 2nd stage htlc txs
+212,2017-11-13 15:56:11.000000000,2017-11-14 14:56:11.000000000,closed,0,[README] Added help for options syntax
+211,2017-11-11 01:35:50.000000000,2017-11-11 01:55:14.000000000,closed,0,Bitcoin wallet: lock utxos used by funding transactions
+210,2017-11-10 23:25:12.000000000,2017-11-10 23:45:41.000000000,closed,0,Use `min_final_cltv_expiry` included in payment request (if any)
+209,2017-11-10 20:08:12.000000000,2017-11-14 14:56:12.000000000,closed,3,Unclear arguments to parse in the conf file
+208,2017-11-09 01:41:53.000000000,2017-11-21 22:12:46.000000000,closed,0,Support for electrumx API
+207,2017-11-08 14:59:23.000000000,2017-11-21 20:47:03.000000000,closed,0,Prune stale network announcements
+206,2017-11-08 14:19:26.000000000,2017-11-24 15:30:38.000000000,closed,0,Ignore unknown fields when parsing a payment request
+205,2017-11-07 19:47:26.000000000,2017-11-14 22:44:26.000000000,closed,0,Handle remote `error` in `SYNCING` state
+204,2017-11-06 22:37:27.000000000,2017-11-14 22:43:33.000000000,closed,0,Rework channel closing logic
+203,2017-11-06 21:14:36.000000000,2017-11-14 22:44:26.000000000,closed,0,Remote `Error` in SYNCING state
+202,2017-10-30 18:00:01.000000000,2017-11-06 23:56:08.000000000,closed,0,BOLT 11: add an optional 'minimum htlc expiry' tag
+201,2017-10-26 19:03:07.000000000,2017-10-30 17:54:35.000000000,closed,0,Always store channel state when a revocation is received
+200,2017-10-25 18:26:13.000000000,2017-10-30 17:54:35.000000000,closed,5,Uncooperative channel close after node restart
+199,2017-10-25 17:09:59.000000000,2017-10-30 17:53:47.000000000,closed,0,Add primary key to channel_updates table
+198,2017-10-25 14:22:49.000000000,2017-11-07 16:08:06.000000000,closed,4,Support building payments with extra hops
+197,2017-10-25 01:29:42.000000000,2017-11-14 22:35:02.000000000,closed,2,Payment Failure with FinalIncorrectCltvExpiry when sending to lightning lab's lightning app
+196,2017-10-25 01:25:21.000000000,2017-10-25 14:23:23.000000000,closed,5,"[Mobile] Eclair can't parse payment requests that have the ""lightning://"" prefix"
+195,2017-10-24 18:40:14.000000000,2017-10-30 17:53:16.000000000,closed,1,Have channels subscribe to blockchain events at creation
+194,2017-10-24 16:43:55.000000000,2017-11-14 22:44:10.000000000,closed,0,Better handle big routing table
+193,2017-10-24 16:35:57.000000000,2017-10-24 16:43:42.000000000,closed,1,[WIP] Better handle big routing table
+192,2017-10-24 16:08:06.000000000,2017-10-24 16:30:54.000000000,closed,0,Improved performance of Android router
+191,2017-10-24 13:05:41.000000000,2017-11-30 21:09:15.000000000,closed,2,"""Open transaction in explorer"" should open the blockcypher web client"
+190,2017-10-24 13:03:30.000000000,2017-11-14 23:01:45.000000000,closed,8,Android client doesn't detect payment until it has a confirmation
+189,2017-10-24 13:02:28.000000000,2017-10-25 14:16:09.000000000,closed,2,Why are 2 confirmations necessary to create a lightning channel?
+188,2017-10-23 21:48:24.000000000,2017-10-25 12:20:50.000000000,closed,0,payment request: encode expiry as a varlen unsigned long
+187,2017-10-23 11:23:05.000000000,2017-10-30 17:53:16.000000000,closed,4,Channel does not receive `CurrentBlockCount` events after restart
+186,2017-10-22 19:31:18.000000000,2017-10-25 12:20:50.000000000,closed,1,Expiry value in PaymentRequest
+185,2017-10-19 12:06:33.000000000,2017-10-23 17:11:50.000000000,closed,0,Support multiple hops in RoutingInfoTag
+184,2017-10-18 13:13:29.000000000,2017-11-15 20:28:36.000000000,closed,1,[WIP] [Android] Switch to electrumx API
+183,2017-10-17 20:44:29.000000000,2017-11-14 21:21:02.000000000,closed,0,Rework preimage handling
+182,2017-10-17 14:41:59.000000000,2019-02-27 22:49:41.000000000,closed,10,Channel with small balance produces closing transactions without outputs
+181,2017-10-12 18:54:19.000000000,2017-10-17 15:09:59.000000000,closed,0,Store state when receiving a `CommitSig` in state SHUTDOWN
+180,2017-10-10 18:11:30.000000000,2017-10-17 15:09:16.000000000,closed,0,Base checks in `sendAdd` on the *last* sent sig
+179,2017-10-09 19:44:12.000000000,2017-10-10 00:13:32.000000000,closed,2,`DefaultDirectedGraph` can't find all available routes
+178,2017-10-05 22:13:53.000000000,2017-10-06 21:42:59.000000000,closed,1,Accepting and failing HTLCs with too small expiry
+177,2017-10-03 20:09:20.000000000,2017-10-11 18:27:26.000000000,closed,0,Added a check amount>dust on `ClaimDelayedOutputTx`
+176,2017-10-03 19:08:57.000000000,2017-10-11 19:53:24.000000000,closed,0,Reworked handling of `shutdown` messages
+175,2017-10-02 21:39:09.000000000,2017-10-17 15:09:17.000000000,closed,6,Number of HTLCs in `CommitmentSpec` in `sendAdd` and `receiveAdd` methods
+174,2017-10-02 15:26:27.000000000,2017-10-11 18:26:19.000000000,closed,0,Added ACK-based TCP write back-pressure
+173,2017-09-30 12:12:56.000000000,2017-10-17 15:09:59.000000000,closed,24,`CannotSignBeforeRevocation` on cooperative close attempt with in-flight HTLCs
+172,2017-09-26 20:57:26.000000000,2017-10-03 20:43:37.000000000,closed,0,Added an integration test on revoked tx handling
+171,2017-09-23 19:17:58.000000000,2017-11-21 23:31:15.000000000,closed,10,UnreadableWalletException after remote uncooperative close with in-flight outgoing HTLC when using bitcoinj 0.15-rc4
+170,2017-09-22 18:13:23.000000000,2017-09-25 18:13:21.000000000,closed,0,Handle `update_fail_malformed_htlc` in payment FSM
+169,2017-09-22 13:43:53.000000000,2017-09-22 18:01:18.000000000,closed,0,Re-send htlc/sigs after `funding_locked`
+168,2017-09-20 17:41:28.000000000,2017-09-22 13:50:52.000000000,closed,0,Process `update_fail_malformed_htlc` properly
+167,2017-09-20 16:48:18.000000000,2017-09-22 13:50:53.000000000,closed,0,`update_fail_malformed_htlc` is not processed properly
+166,2017-09-20 16:41:55.000000000,2017-09-20 17:16:50.000000000,closed,0,back to 0.2-SNAPHOT
+165,2017-09-19 19:02:10.000000000,2017-09-22 18:01:19.000000000,closed,2,First interrupted HTLC leads to state de-synchronization and eventual channel closing
+164,2017-09-18 17:40:10.000000000,2017-10-11 18:27:26.000000000,closed,4,`ClaimDelayedOutputTx` amount may be negative
+163,2017-09-13 20:15:02.000000000,2017-09-13 20:35:23.000000000,closed,0,Minor fixes
+162,2017-09-12 16:54:45.000000000,2017-09-12 17:07:31.000000000,closed,0,Skip `Wallet.isRelevant` when bitcoinj is used as a watcher
+161,2017-09-12 13:09:01.000000000,2017-09-12 16:49:13.000000000,closed,0,Sphinx: fix version byte
+160,2017-09-11 19:23:00.000000000,2017-09-11 20:40:58.000000000,closed,0,Set a hard-coded timestamp for bitcoinj watched scripts
+159,2017-09-08 17:48:45.000000000,2017-09-08 20:07:00.000000000,closed,0,Now requiring spv nodes to be Segwit-compatible
+158,2017-09-08 15:53:52.000000000,2017-09-08 16:43:44.000000000,closed,0,Replaced sqlite result iterators by lists
+157,2017-09-08 12:07:37.000000000,2017-09-12 16:51:43.000000000,closed,4,Make Integration tests work in macos
+156,2017-09-08 10:22:00.000000000,2017-09-08 10:28:44.000000000,closed,1,problem on performing Integration Test.
+155,2017-09-08 00:35:57.000000000,2017-09-08 16:32:29.000000000,closed,0,Better handling of connection lifecycle in Peer
+154,2017-09-07 19:28:34.000000000,2017-09-08 15:52:18.000000000,closed,1,Temporarily exclude channels from routes
+153,2017-09-07 13:34:10.000000000,2017-09-07 19:27:48.000000000,closed,0,(gui) Remove millisatoshis part from milli-bitcoin amounts
+152,2017-09-07 02:17:32.000000000,2017-09-07 19:20:37.000000000,closed,0,Add an experimental SPV mode with bitcoinj
+151,2017-09-05 18:53:47.000000000,2017-09-06 19:29:40.000000000,closed,0,Fix byte order of chain hash
+150,2017-09-03 16:57:31.000000000,2017-09-23 20:08:18.000000000,closed,3,Initial routing sync is executed after reconnect despite `localFeatures = 00`
+149,2017-08-30 13:20:24.000000000,2017-08-30 15:42:59.000000000,closed,0,Switch to java environment variables instead of command line options
+148,2017-08-28 18:10:57.000000000,2017-08-28 18:37:45.000000000,closed,0,Added a compatibility check with DB files when booting application
+147,2017-08-28 10:31:58.000000000,2017-08-28 16:59:31.000000000,closed,2,Fix 'match may not be exhaustive' warning
+146,2017-08-26 11:38:02.000000000,2017-11-14 21:21:03.000000000,closed,10,Disconnect leads to lost funds after channel reestablishment
+145,2017-08-25 20:35:01.000000000,2017-08-28 16:42:45.000000000,closed,0,"Add chain hash to gossip messages, increase max error message size"
+144,2017-08-25 19:39:18.000000000,2017-08-25 20:15:13.000000000,closed,7,Instructions to build a jar capsule
+143,2017-08-25 19:02:10.000000000,2017-08-29 17:35:29.000000000,closed,0,Use Sqlite as local database
+142,2017-08-25 17:00:37.000000000,2017-08-25 18:30:01.000000000,closed,0,Use logback's MDC to display channelId in logs
+141,2017-08-25 14:45:27.000000000,2017-09-06 22:09:30.000000000,closed,21,Can't generate receive payment
+140,2017-08-25 14:42:46.000000000,2017-09-06 22:15:25.000000000,closed,8,Encrypted Wallet doesn't work 
+139,2017-08-25 11:44:12.000000000,2017-09-07 13:16:56.000000000,closed,4,Incorrect amount displayed in UI
+138,2017-08-24 04:35:58.000000000,2017-09-06 22:08:07.000000000,closed,2,btcsuite/btcd equivalent ZeroMQ configuration
+137,2017-08-23 19:17:31.000000000,2017-08-23 21:28:19.000000000,closed,0,Renamed javafx module to `eclair-node-gui` and updated binaries name
+136,2017-08-23 18:00:40.000000000,2017-08-23 18:58:05.000000000,closed,0,Fix node announcement encoding (see #124)
+135,2017-08-23 17:35:41.000000000,2017-08-25 15:38:15.000000000,closed,2,Add API method to accept requests with custom amount
+134,2017-08-23 16:37:34.000000000,2017-08-25 15:38:16.000000000,closed,1,Can't send a payment when request contains no amount
+133,2017-08-23 15:41:37.000000000,2017-08-23 16:14:33.000000000,closed,0,(API) Added an `allchannels` API method to expose all known channels
+132,2017-08-23 14:10:59.000000000,2017-08-23 16:16:07.000000000,closed,0,Update bitcoin-lib dependency to 0.9.13
+131,2017-08-23 01:09:52.000000000,2017-08-24 13:15:14.000000000,closed,1,Replace getinfo with getnetworkinfo
+130,2017-08-21 12:06:34.000000000,2017-08-28 16:53:50.000000000,closed,8,No prompt to ask which channel to use for payment
+129,2017-08-16 20:59:18.000000000,2017-08-16 21:53:56.000000000,closed,0,Improved Configuration section in README
+128,2017-08-16 20:50:26.000000000,2017-08-20 20:20:09.000000000,closed,2,Sending same payment twice
+127,2017-08-16 19:25:47.000000000,2017-08-23 13:29:47.000000000,closed,0,Reorder features fields to match the BOLTS
+126,2017-08-16 19:13:33.000000000,2017-08-23 16:14:34.000000000,closed,0,"Expose known, non-local, channels through the RPC interface"
+125,2017-08-12 21:30:27.000000000,2017-08-17 15:04:44.000000000,closed,5,Confused about eclair.conf
+124,2017-08-12 16:38:33.000000000,2017-08-23 18:58:06.000000000,closed,0,node_announcement.addrlen should be the length of the serialized array not the number of elements in the array
+123,2017-08-04 22:21:00.000000000,2017-08-10 18:24:06.000000000,closed,0,Improved reconnection logic and fuzzy tests
+122,2017-07-31 23:31:58.000000000,2017-09-06 22:07:51.000000000,closed,3,Channel from Android wallet goest to CLOSED status immediately.
+121,2017-07-28 11:23:47.000000000,2017-07-31 14:17:40.000000000,closed,3,Storing payments in a db
+120,2017-07-27 18:15:44.000000000,2017-08-23 14:13:18.000000000,closed,0,Bugfix: regression in init
+119,2017-07-27 16:47:49.000000000,2017-08-17 15:04:43.000000000,closed,0,(gui) Fix direction icons in the list of the known channels in network
+118,2017-07-27 01:14:06.000000000,2017-09-15 13:49:45.000000000,closed,1,Eclair wallet does not recognize mainnet addresses as mainnet
+117,2017-07-26 20:44:52.000000000,2017-07-26 20:57:32.000000000,closed,0,Bugfixes and minor improvements
+116,2017-07-25 23:17:12.000000000,2017-09-15 13:49:21.000000000,closed,3,Android Eclair Wallet wrecked by a malformed incoming transaction
+115,2017-07-23 21:23:50.000000000,2017-08-23 16:18:06.000000000,closed,2,Display bugs in GUI Activity tab
+114,2017-07-22 13:18:35.000000000,2017-07-22 20:16:17.000000000,closed,0,Add description to receive in help menu
+113,2017-07-22 13:12:33.000000000,2017-07-22 20:14:53.000000000,closed,0,Update with description to receive method
+112,2017-07-21 20:20:43.000000000,2017-07-26 20:57:33.000000000,closed,3,Eclair-cli outdated
+111,2017-07-21 20:18:05.000000000,2017-07-22 20:14:54.000000000,closed,3,Method not found while struggling with params in RPC JSON
+110,2017-07-21 18:26:34.000000000,2017-08-23 16:16:07.000000000,closed,4,no secp256k1 in java.library.path
+109,2017-07-17 20:09:12.000000000,2017-07-17 21:36:49.000000000,closed,0,Parse `max_htlc_value_in_flight_msat` as an unsigned long
+108,2017-07-17 17:21:03.000000000,2017-07-17 21:18:27.000000000,closed,0,Reproduced and fixed issue with different dust limits
+107,2017-07-17 16:21:29.000000000,2017-07-17 17:11:31.000000000,closed,0,Simplified computation of closing fee
+106,2017-07-17 16:17:47.000000000,2017-07-17 17:41:46.000000000,closed,0,Added support for multiple external ip in node announcements
+105,2017-07-14 18:54:34.000000000,2017-07-17 16:28:08.000000000,closed,0,Implement state-counter retransmission
+104,2017-07-12 20:51:42.000000000,2017-07-12 22:05:52.000000000,closed,0,Fix `update_add_htlc` encoding
+103,2017-07-11 18:18:11.000000000,2017-07-17 21:36:50.000000000,closed,2,maxHtlcValueInFlightMsat being parsed as signed long
+102,2017-07-06 16:36:01.000000000,2017-07-12 22:03:42.000000000,closed,0,Added support for BOLT 11 payment request
+101,2017-06-27 12:55:52.000000000,2017-07-11 19:41:14.000000000,closed,0,Interpret feature bits as per rfc PR 156-169-178
+100,2017-06-20 15:11:15.000000000,2017-06-27 12:46:30.000000000,closed,0,api: add a simple getinfo method
+99,2017-06-19 20:35:30.000000000,2017-06-27 12:48:56.000000000,closed,0,use 8 bytes for msat amounts
+98,2017-06-17 18:24:41.000000000,2017-06-27 12:46:31.000000000,closed,1,Add an `info` JSON-RPC request
+97,2017-06-17 00:42:39.000000000,2017-07-17 21:18:28.000000000,closed,1,Dust limit in `makeRemoteTxs`
+96,2017-06-13 19:20:06.000000000,2017-06-27 12:47:35.000000000,closed,0,Use an exponential backoff timeout for connection retry
+95,2017-06-09 19:09:13.000000000,2017-06-09 19:39:03.000000000,closed,0,upgade to bitcoin-lib 0.9.11
+94,2017-06-08 20:03:56.000000000,2017-06-08 20:48:00.000000000,closed,0,Minor tweaks
+93,2017-06-08 11:45:06.000000000,2017-06-11 18:46:22.000000000,closed,1,Informing funder when fundee closes a channel in WAIT_FOR_FUNDING_CONFIRMED
+92,2017-06-07 17:31:52.000000000,2017-06-08 17:21:07.000000000,closed,0,Replaced java serialization by scodec
+91,2017-06-02 22:55:07.000000000,2017-06-06 20:37:35.000000000,closed,0,Separate code into modules
+90,2017-06-01 18:24:59.000000000,2017-06-02 22:14:22.000000000,closed,0,Added support for `channel_disabled` flag and updated failure codes
+89,2017-05-28 05:54:34.000000000,2017-10-03 20:44:59.000000000,closed,0,[feature request] Add the abstraction layer between Eclair and bitcoin-lib
+88,2017-05-28 05:46:53.000000000,2017-06-06 20:37:36.000000000,closed,2,[feature request] Support headless only artifacts.
+87,2017-05-23 16:58:25.000000000,2017-05-24 19:06:53.000000000,closed,4,Possibility of keyIndex duplicates
+86,2017-05-10 18:52:50.000000000,2017-05-16 16:57:53.000000000,closed,0,Added validation checks on CMD_UPDATE_ADD.payment hash
+85,2017-05-02 16:43:57.000000000,2017-05-12 15:27:21.000000000,closed,0,Channel id switch
+84,2017-04-30 12:28:29.000000000,2017-07-28 11:17:34.000000000,closed,0,Can check a payment request status
+83,2017-04-28 18:45:45.000000000,2017-04-28 19:16:24.000000000,closed,0,Use hash of block #0 as chain hash
+82,2017-04-28 18:15:38.000000000,2017-04-28 19:03:26.000000000,closed,0,Make router not broadcast announcements back to sender
+81,2017-04-28 18:10:20.000000000,2017-04-28 19:54:53.000000000,closed,0,Bugfixes and small improvements
+80,2017-04-28 10:22:46.000000000,2017-04-28 18:16:48.000000000,closed,1,Combine sigs in a more conscise way
+79,2017-04-26 18:19:14.000000000,2017-04-26 18:37:30.000000000,closed,0,Fixed type cast issue with `peers` rpc service
+78,2017-04-25 17:28:06.000000000,2017-04-25 20:00:43.000000000,closed,0,Client must die when transport dies
+77,2017-04-25 12:27:54.000000000,2017-04-25 15:06:14.000000000,closed,0,funding: remove redundant address test
+76,2017-04-20 13:43:29.000000000,2017-04-24 17:57:13.000000000,closed,0,BOLT4: update Sphinx to match the latest specs
+75,2017-04-18 13:09:08.000000000,2017-04-20 19:08:24.000000000,closed,0,BOLT 4: use proper cipher stream for reply messages
+74,2017-04-14 19:13:29.000000000,2017-04-20 13:12:13.000000000,closed,1,Validity of remote final script is not checked when a Shutdown was already sent
+73,2017-04-14 17:34:58.000000000,2017-04-19 18:50:02.000000000,closed,0,HTLCs in remote commit tx are not taken into account upon receiving Shutdown
+72,2017-04-12 18:48:05.000000000,2017-04-20 19:26:31.000000000,closed,0,New PaymentRequest object + HTLC verification
+71,2017-04-12 17:25:29.000000000,2017-04-20 13:47:38.000000000,closed,1,Better router/channel exception handling
+70,2017-04-12 15:01:05.000000000,2017-04-12 17:17:02.000000000,closed,0,LocalParams should not include maxFeerateMismatch
+69,2017-04-11 17:48:28.000000000,2017-04-20 19:27:53.000000000,closed,0,wire: add chainHash field to open message
+68,2017-04-10 20:29:12.000000000,2017-04-11 14:07:09.000000000,closed,0,(GUI) Added an option in the GUI to open a simple connection to a node
+67,2017-04-10 19:36:19.000000000,2017-04-11 18:43:39.000000000,closed,0,Added tests for state WAIT_FOR_FUNDING_PARENT
+66,2017-04-10 19:36:03.000000000,2017-04-11 19:05:04.000000000,closed,0,Fatal error messages are now sent to stderr in headless mode
+65,2017-04-10 19:35:48.000000000,2017-04-11 12:11:41.000000000,closed,0,Made transport actor a FSM instead of a LoggingFSM (minor)
+64,2017-04-10 19:33:37.000000000,2017-04-11 19:17:26.000000000,closed,0,Automatic reconnection
+63,2017-04-10 19:24:57.000000000,2017-04-11 18:47:09.000000000,closed,1,PaymentRequest are generated in LocalPaymentHandler
+62,2017-04-10 19:13:08.000000000,2017-04-11 18:45:04.000000000,closed,0,make max-feerate-mismatch configurable and set default value to 500%
+61,2017-04-10 18:10:40.000000000,2017-04-10 18:58:18.000000000,closed,0,Fix travis
+60,2017-04-07 18:21:31.000000000,2017-04-11 12:18:14.000000000,closed,0,Setting watches when restoring in CLOSING state
+59,2017-04-05 14:48:36.000000000,2017-04-06 19:55:17.000000000,closed,0,mitigate testnet malleability attacks
+58,2017-04-05 14:45:53.000000000,2017-04-05 16:42:15.000000000,closed,0,Added gitter badge
+57,2017-04-04 19:39:14.000000000,2017-04-05 17:24:05.000000000,closed,0,ZMQ connection monitoring
+56,2017-04-04 19:01:33.000000000,2017-04-05 20:06:10.000000000,closed,0,add ping and pong messages
+55,2017-04-03 19:50:23.000000000,2017-04-04 12:43:41.000000000,closed,0,Emphasized and shortened message in notifications
+54,2017-04-03 18:52:21.000000000,2017-04-04 13:22:40.000000000,closed,0,fix fuzzy test
+53,2017-04-03 18:09:24.000000000,2017-04-04 16:26:51.000000000,closed,0,Batch channel validation  in the router
+52,2017-03-31 20:30:07.000000000,2017-03-31 22:03:37.000000000,closed,0,Wip gui activity
+51,2017-03-31 19:30:13.000000000,2017-03-31 20:08:59.000000000,closed,0,Added integration tests on htlc relaying in on-chain scenarios
+50,2017-03-31 15:56:17.000000000,2017-03-31 22:28:52.000000000,closed,0,use CPFP to create our funding tx
+49,2017-03-30 14:58:35.000000000,2017-03-31 22:00:13.000000000,closed,2,How to use in testnet
+48,2017-03-30 13:45:17.000000000,2017-03-31 20:19:39.000000000,closed,0,Added warning for openJDK in README.md
+47,2017-03-26 11:22:48.000000000,2017-03-26 16:08:10.000000000,closed,1,CAPSULE EXCEPTION when starting eclair
+46,2017-03-25 20:12:41.000000000,2017-03-31 22:00:03.000000000,closed,2,Sending the same payment request twice fails? 
+45,2017-03-24 18:56:15.000000000,2017-03-28 16:05:53.000000000,closed,0,Use chain getblockchaininfo.chain to infer the magic value
+44,2017-03-24 18:15:38.000000000,2017-03-27 15:29:28.000000000,closed,0,Automated retry of payments
+43,2017-03-24 02:18:17.000000000,2017-03-28 16:05:53.000000000,closed,3,Eclair 0.2alpha-1 uses 100% CPU and becomes unresponsive shortly after launch
+42,2017-03-23 23:20:48.000000000,2017-03-27 13:14:55.000000000,closed,1,Access to version/commit id at runtime
+41,2017-03-22 01:48:29.000000000,2017-03-22 17:34:31.000000000,closed,6,Update README.md
+40,2017-03-21 20:31:32.000000000,2017-03-21 20:32:16.000000000,closed,0,Wip readme
+39,2017-03-21 16:35:32.000000000,2017-03-21 17:36:57.000000000,closed,0,(gui) fix issue with initial size of modals in ubuntu
+38,2017-03-21 16:04:50.000000000,2017-03-21 17:37:05.000000000,closed,0,bolt 3 fixes
+37,2017-03-21 14:59:30.000000000,2017-03-21 16:16:13.000000000,closed,0,Fixed how we interpret feature bits
+36,2017-03-20 21:26:07.000000000,2017-03-21 15:02:37.000000000,closed,0,BOLT 3: fix computation of obscured tx number
+35,2017-03-20 21:01:30.000000000,2017-03-21 14:58:59.000000000,closed,0,Wip rpc
+34,2017-03-20 18:59:21.000000000,2017-03-20 19:18:47.000000000,closed,0,Fixed non-compliant wire messages
+33,2017-03-20 18:44:36.000000000,2017-03-20 18:56:20.000000000,closed,0,Wip gui wording
+32,2017-03-17 22:06:27.000000000,2017-03-17 22:07:30.000000000,closed,0,Wip readme
+31,2017-03-17 18:34:30.000000000,2017-03-17 21:00:44.000000000,closed,0,Added a supervision strategy to all actors
+30,2017-03-15 19:41:30.000000000,2017-03-17 20:01:14.000000000,closed,0,BOLT 4: propagate htlc failures upstream
+29,2017-03-14 17:08:44.000000000,2017-03-16 20:31:39.000000000,closed,0,Added support for UpdateFee
+28,2017-03-08 18:56:25.000000000,2017-03-10 15:47:20.000000000,closed,1,Switch to 32B channel-id
+27,2017-03-06 19:53:32.000000000,2017-03-06 21:19:56.000000000,closed,0,Implemented long channel-id + delayed announcements
+26,2017-02-27 20:37:29.000000000,2017-02-28 18:10:06.000000000,closed,0,"persist peers, router and channels data"
+25,2017-02-10 22:57:36.000000000,2017-02-13 15:11:55.000000000,closed,0,Refactored fee calculation (added trim functions)
+24,2017-02-06 18:00:33.000000000,2017-02-07 19:05:00.000000000,closed,0,Close channel when an htlc times out in either commitment tx
+23,2017-01-19 19:58:49.000000000,2017-01-20 21:47:45.000000000,closed,0,use improved private/public key types from bitcoin-lib 0.9.9
+22,2017-01-16 19:36:19.000000000,2017-01-16 19:38:38.000000000,closed,0,Bolt3 -> Bolts
+21,2016-11-13 04:37:14.000000000,2016-11-14 21:20:59.000000000,closed,7,Trying to execute eclair-node_2.11-0.2-SNAPSHOT-6d7717c-capsule-fat.jar throws an error in Ubuntu 16.10 - KDE Plasma
+20,2016-09-07 12:25:06.000000000,2016-09-07 17:21:17.000000000,closed,0,Wip Alternateroute
+19,2016-09-01 14:59:17.000000000,2016-09-01 18:07:42.000000000,closed,1,travis: run interoperability test with lightnind
+18,2016-08-26 19:03:44.000000000,2016-08-26 19:21:26.000000000,closed,0,Interoperability with c-lightning
+17,2016-08-26 14:40:24.000000000,2016-08-26 15:29:45.000000000,closed,0,IRC Watcher
+16,2016-08-25 19:57:05.000000000,2016-08-26 13:02:27.000000000,closed,0,Peerwatcher
+15,2016-07-20 19:39:11.000000000,2016-07-20 19:39:19.000000000,closed,0,Wip uniclose txdb
+14,2016-07-13 15:10:09.000000000,2016-07-13 16:04:37.000000000,closed,0,Wip-scalapbc
+13,2016-07-06 14:20:38.000000000,2016-07-07 14:33:27.000000000,closed,1,compatibility with lightningd
+12,2016-06-30 18:02:58.000000000,2016-06-30 18:03:35.000000000,closed,0,Merge wip-bolt2 into master
+11,2016-06-06 15:04:24.000000000,2016-06-07 16:50:10.000000000,closed,0,create a specific data stucture for commitment data
+10,2016-05-31 13:24:16.000000000,2016-05-31 15:04:09.000000000,closed,0,Added 'send' macro in test scenario
+9,2016-05-27 20:27:57.000000000,2016-05-27 20:30:22.000000000,closed,0,Wip bolt2 nakamoto
+8,2016-05-26 16:23:22.000000000,2016-05-26 16:34:54.000000000,closed,0,Replaced 'find' by 'collect'
+7,2016-05-25 19:47:26.000000000,2016-05-25 19:47:33.000000000,closed,0,merge wip-bolt2-pm into wip-bolt2
+6,2016-05-25 18:47:53.000000000,2016-05-25 19:44:52.000000000,closed,0,bolt2 protocol implementation that stores everything
+5,2016-04-29 17:41:21.000000000,2016-04-29 17:52:33.000000000,closed,0,Replaced spray by akka-http
+4,2016-04-28 20:21:38.000000000,2016-04-29 11:43:08.000000000,closed,0,Added complete add/fulfill test and fixed various related bugs
+3,2016-04-26 20:21:12.000000000,2016-04-28 13:07:00.000000000,closed,0,Mocking bitcoinclient instead of blockchain watcher in tests
+2,2016-02-23 23:10:14.000000000,2016-02-24 19:40:53.000000000,closed,0,"random nodeid, commit and final keys"
+1,2016-02-23 00:25:29.000000000,2016-02-24 19:38:50.000000000,closed,0,Remove WatchConfirmedBasedOnOutputs and simplify flow

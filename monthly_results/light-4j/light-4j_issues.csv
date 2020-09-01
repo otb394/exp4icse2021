@@ -1,0 +1,761 @@
+id,created_at,closed_at,state,comments,title
+762,2020-08-29 06:12:09.000000000,2020-08-29 06:12:33.000000000,closed,0,fixes #761 capture the ip address and port number on server for metrics
+761,2020-08-29 06:11:05.000000000,2020-08-29 06:12:34.000000000,closed,2,capture the ip address and port number on server for metrics
+760,2020-08-26 16:21:27.000000000,2020-08-28 21:50:50.000000000,closed,0,fixes #759 skip sanitizer if the body is not JSON
+759,2020-08-26 16:19:34.000000000,2020-08-28 21:50:53.000000000,closed,0,skip sanitizer if the body is not JSON
+758,2020-08-25 22:43:25.000000000,2020-08-25 22:43:43.000000000,closed,0,fixes #757 avoid parsing the body if content-type is missing
+757,2020-08-25 22:41:05.000000000,2020-08-25 22:43:44.000000000,closed,2,avoid parsing the body if content-type is missing
+756,2020-08-25 16:58:32.000000000,2020-08-25 19:42:52.000000000,closed,0,fixes #754 Add content type text/plain header to the InfluxDbSender
+755,2020-08-25 16:58:02.000000000,2020-08-25 21:57:45.000000000,closed,3,fixes #753 handle text/plain and content type missing in BodyHandler
+754,2020-08-25 16:56:40.000000000,2020-08-25 19:42:54.000000000,closed,2,Add content type text/plain header to the InfluxDbSender
+753,2020-08-25 16:51:19.000000000,2020-08-25 21:57:48.000000000,closed,2,handle text/plain and content type missing in BodyHandler
+752,2020-08-17 07:09:05.000000000,2020-08-17 07:09:13.000000000,closed,0,fixes #751 add a method to create client credentials token in issuer …
+751,2020-08-17 07:08:15.000000000,2020-08-17 07:09:14.000000000,closed,0,add a method to create client credentials token in issuer test
+750,2020-08-17 07:06:38.000000000,2020-08-17 07:07:34.000000000,closed,0,add a new status code host is required for multi-tenancy on light-portal
+749,2020-08-17 01:47:21.000000000,2020-08-17 16:10:23.000000000,closed,1,Issue 742
+748,2020-08-11 18:50:50.000000000,2020-08-11 18:51:00.000000000,closed,0,fixes #747 Add a generic status code for 404 object not found
+747,2020-08-11 18:49:45.000000000,2020-08-11 18:51:01.000000000,closed,1,Add a generic status code for 404 object not found
+746,2020-07-30 15:43:43.000000000,2020-07-30 15:43:52.000000000,closed,0,fixes #743 Handle the limit file size for upload/download
+745,2020-07-28 23:11:44.000000000,2020-07-30 01:15:05.000000000,closed,0,Issue #744: Valuemap not pickup the values loaded from config server
+744,2020-07-28 22:53:15.000000000,2020-08-29 05:15:17.000000000,closed,7,Valuemap not pickup the values loaded from config server.
+743,2020-07-16 08:03:48.000000000,2020-07-30 15:43:53.000000000,closed,3,Handle the limit file size for upload/download
+742,2020-07-13 22:32:20.000000000,2020-08-17 16:11:30.000000000,closed,2,Add  Multipart request body & Multipart response support
+741,2020-07-04 20:58:38.000000000,2020-07-04 22:19:43.000000000,closed,0,fixes #740 check escape backslash before appy quoteReplacement config
+740,2020-07-04 20:57:11.000000000,2020-07-04 22:19:44.000000000,closed,2,check escape backslash before appy quoteReplacement config
+739,2020-07-04 00:18:44.000000000,2020-07-04 00:59:16.000000000,closed,1, fixes #710
+738,2020-07-03 23:28:09.000000000,2020-07-04 02:18:49.000000000,closed,1,fixes #723 Token replacement in config files does not allow special c…
+737,2020-07-03 21:49:40.000000000,2020-07-04 02:21:15.000000000,closed,0,Sync 710 to master branch from 1.6.x
+736,2020-07-03 02:44:46.000000000,2020-07-03 02:44:53.000000000,closed,0,fixes #735 update client.yml in test resources to disable http2 as th…
+735,2020-07-03 02:43:22.000000000,2020-07-03 02:44:55.000000000,closed,1,update client.yml in test resources to disable http2 as the URL is http
+734,2020-07-01 23:44:52.000000000,2020-07-03 00:04:31.000000000,closed,3,Bump mysql-connector-java from 6.0.5 to 8.0.16
+733,2020-07-01 23:21:01.000000000,2020-07-01 23:21:10.000000000,closed,0,fixes #732 add several status code to status.yml for reference API in…
+732,2020-07-01 23:20:11.000000000,2020-07-01 23:21:11.000000000,closed,1,add several status code to status.yml for reference API in portal
+731,2020-06-23 02:25:00.000000000,2020-06-23 06:19:11.000000000,closed,1, fixes #730
+730,2020-06-23 02:06:53.000000000,2020-06-23 06:20:40.000000000,closed,2,set serviceMap for lightCluster after first time service discovery
+729,2020-06-22 18:20:44.000000000,2020-06-22 18:22:21.000000000,closed,2, no change to index same
+728,2020-06-19 17:57:49.000000000,2020-07-03 00:05:18.000000000,closed,0,upgrade server and client to TSLv1.3 for Java 11
+727,2020-06-19 05:44:31.000000000,2020-06-19 19:21:13.000000000,closed,1,fixes #726
+726,2020-06-19 05:09:16.000000000,2020-06-19 19:23:06.000000000,closed,3,service discovery request hang-up caused by consul nodes unhealthy issue
+725,2020-06-18 22:26:03.000000000,2020-06-18 22:26:11.000000000,closed,0,fixes #724 remove the temporary version.jackson-databind in the pom.xml
+724,2020-06-18 22:23:49.000000000,2020-06-18 22:26:12.000000000,closed,2,remove the temporary version.jackson-databind in the pom.xml
+723,2020-06-09 01:43:20.000000000,2020-07-04 02:18:50.000000000,closed,2,Token replacement in config files does not allow special characters
+722,2020-06-06 16:17:26.000000000,2020-06-06 16:17:34.000000000,closed,0,fixes #721 update consul client to leverage connecction pool of Http2…
+721,2020-06-06 16:10:19.000000000,2020-07-03 00:05:37.000000000,closed,2,update consul client to leverage connecction pool of Http2Client
+720,2020-06-06 16:07:56.000000000,2020-06-06 16:08:04.000000000,closed,0,fixes #718 add borrowConnection and returnConnection to Http2Client
+719,2020-06-06 16:05:43.000000000,2020-07-03 00:06:00.000000000,closed,2,add borrowConnection and returnConnection to Http2Client
+718,2020-06-06 06:26:42.000000000,2020-06-06 06:26:49.000000000,closed,0,fixes #717 remove unused import in Http2Client in 1.6.x
+717,2020-06-06 06:24:59.000000000,2020-07-03 00:47:08.000000000,closed,2,remove unused import in Http2Client in 1.6.x
+716,2020-06-05 00:34:21.000000000,2020-06-05 20:22:00.000000000,closed,7,fix for issue #715 - ensure cached consul connections are specific to…
+715,2020-06-05 00:25:07.000000000,2020-07-03 16:44:47.000000000,closed,2,Fix Consul connection conflicts when using HTTP/1.1
+714,2020-06-01 16:42:35.000000000,2020-06-01 16:42:42.000000000,closed,0,fixes #713 reformat the BodyConverter and add the missing import
+713,2020-06-01 16:41:48.000000000,2020-06-01 16:42:43.000000000,closed,1,reformat the BodyConverter and add the missing import
+712,2020-05-31 09:00:36.000000000,2020-06-01 16:18:42.000000000,closed,4,Update BodyConverter.java
+711,2020-05-16 22:44:51.000000000,2020-05-18 01:19:46.000000000,closed,3,fixes #709
+710,2020-05-16 04:54:25.000000000,2020-07-04 01:00:39.000000000,closed,7,client module support Multipart request body
+709,2020-05-16 04:43:05.000000000,2020-05-18 01:20:34.000000000,closed,3,JwtVerifier throw NullPointerException if user remove the jwtr/certificate from openapi-security.yml
+708,2020-05-13 17:45:33.000000000,2020-05-13 17:45:48.000000000,closed,0,fixes #707 switch toByteBuffer from direct to indirect
+707,2020-05-13 17:37:48.000000000,2020-05-13 17:45:49.000000000,closed,1,switch toByteBuffer from direct to indirect
+706,2020-05-13 00:06:44.000000000,2020-07-03 16:45:01.000000000,closed,1,Docker images
+705,2020-05-06 07:11:30.000000000,2020-05-06 07:11:41.000000000,closed,0,fixes #704 add keyResolver to the security.yml with comment
+704,2020-05-06 07:10:16.000000000,2020-05-06 07:11:42.000000000,closed,1,add keyResolver to the security.yml with comment
+703,2020-05-03 06:28:08.000000000,2020-07-03 16:46:21.000000000,closed,7,enable security
+702,2020-04-28 19:42:21.000000000,2020-07-03 16:46:33.000000000,closed,2,Audit logging
+701,2020-04-23 02:57:11.000000000,2020-04-23 02:57:48.000000000,closed,0,add a new status code to status.yml for portal client
+700,2020-04-20 03:10:59.000000000,2020-04-20 03:11:07.000000000,closed,0,fixes #699 add start_time to refresh_token table with default
+699,2020-04-20 03:09:47.000000000,2020-04-20 03:11:09.000000000,closed,1,add start_time to refresh_token table with default
+698,2020-04-20 02:38:39.000000000,2020-07-03 16:47:15.000000000,closed,21,Hibernate or DBUtils
+697,2020-04-18 01:57:26.000000000,2020-04-18 01:57:33.000000000,closed,0,fixes #696 add remember to token response to handle refresh token
+696,2020-04-18 01:56:02.000000000,2020-04-18 01:57:34.000000000,closed,2,add remember to token response to handle refresh token
+695,2020-04-17 06:17:52.000000000,2020-04-17 06:18:01.000000000,closed,0,fixes #694 double check the tracer has activeSpan in the client heade…
+694,2020-04-17 06:16:27.000000000,2020-04-17 06:18:02.000000000,closed,1,double check the tracer has activeSpan in the client header propagation
+693,2020-04-14 08:38:14.000000000,2020-04-14 08:38:23.000000000,closed,0,fixes #692 add host and port to the JaegerHandler for tracing
+692,2020-04-14 08:36:38.000000000,2020-04-14 08:38:24.000000000,closed,1,add host and port to the JaegerHandler for tracing
+691,2020-04-09 20:04:28.000000000,2020-04-09 20:04:36.000000000,closed,0,fixes #690 add test case to email-sender to demo the environment vari…
+690,2020-04-09 20:02:59.000000000,2020-04-09 20:04:37.000000000,closed,2,add test case to email-sender to demo the environment variable config value
+689,2020-03-31 18:59:42.000000000,2020-03-31 18:59:51.000000000,closed,0,fixes #688 add status codes for light-portal
+688,2020-03-31 18:58:47.000000000,2020-03-31 18:59:52.000000000,closed,2,add status codes for light-portal
+687,2020-03-31 18:56:02.000000000,2020-03-31 18:56:09.000000000,closed,0,fixes #686 apply issue 679 to master branch
+686,2020-03-31 18:47:22.000000000,2020-03-31 18:56:11.000000000,closed,1,apply issue 679 to master branch
+685,2020-03-31 18:35:20.000000000,2020-03-31 18:35:27.000000000,closed,0,fixes #683 update master based on 677 and 681
+684,2020-03-31 18:28:21.000000000,2020-03-31 18:44:26.000000000,closed,1,Issue 679
+683,2020-03-31 18:18:01.000000000,2020-03-31 18:35:28.000000000,closed,1,update master based on 677 and 681
+682,2020-03-31 18:12:58.000000000,2020-03-31 18:13:06.000000000,closed,0,fixes #681 change client.yml config name to connectionExpireTime
+681,2020-03-31 18:11:16.000000000,2020-04-17 06:10:27.000000000,closed,1,change client.yml config name to connectionExpireTime
+680,2020-03-30 02:32:15.000000000,2020-03-31 18:05:10.000000000,closed,1,Issue 677
+679,2020-03-27 03:01:44.000000000,2020-04-17 06:10:44.000000000,closed,1,connection expired close issue when inflight request still running
+678,2020-03-26 18:16:20.000000000,2020-03-26 19:31:14.000000000,closed,3,update undertow to 2.0.30.Final
+677,2020-03-26 02:21:40.000000000,2020-04-17 06:11:01.000000000,closed,1,set connection expire time client.yml file and get error on service start
+676,2020-03-25 15:40:40.000000000,2020-03-25 15:40:51.000000000,closed,0,fixes #675 resolve a defect in client.yml for the oauth2 urls
+675,2020-03-25 15:36:45.000000000,2020-03-25 15:40:52.000000000,closed,1,resolve a defect in client.yml for the oauth2 urls
+674,2020-03-24 23:42:29.000000000,2020-03-24 23:42:36.000000000,closed,0,fixes #673 add replaceToken method for html email template
+673,2020-03-24 23:41:19.000000000,2020-03-24 23:42:37.000000000,closed,2,add replaceToken method for html email template
+672,2020-03-24 23:37:37.000000000,2020-03-24 23:37:46.000000000,closed,0,fixes #671 change Http2Client createClientCallback debug to trace
+671,2020-03-24 02:51:05.000000000,2020-03-24 23:37:47.000000000,closed,2,change Http2Client createClientCallback debug to trace
+670,2020-03-23 19:45:57.000000000,2020-03-23 19:46:29.000000000,closed,0,fixes #669 parameterize default client.yml in client module
+669,2020-03-23 19:34:52.000000000,2020-03-23 19:46:31.000000000,closed,2,parameterize default client.yml in client module
+668,2020-03-23 18:48:25.000000000,2020-03-23 18:48:34.000000000,closed,0,fixes #667 comment out server_url in client.yml to default to service…
+667,2020-03-23 18:46:37.000000000,2020-03-23 18:48:35.000000000,closed,2,comment out server_url in client.yml to default to service lookup
+666,2020-03-23 18:18:51.000000000,2020-03-23 18:19:05.000000000,closed,0,fixes #665 need to promote the scope token to authorization header if…
+665,2020-03-23 06:14:52.000000000,2020-03-23 18:19:07.000000000,closed,2,need to promote the scope token to authorization header if incoming token is null
+664,2020-03-21 21:19:00.000000000,2020-03-21 21:19:09.000000000,closed,0,fixes #663 update security test cases to add roles to the long-lived …
+663,2020-03-21 21:17:16.000000000,2020-03-21 21:19:10.000000000,closed,2,update security test cases to add roles to the long-lived token
+662,2020-03-18 17:44:43.000000000,2020-04-17 06:12:01.000000000,closed,4,Compared to WSO2 and Kong
+661,2020-03-17 09:17:01.000000000,2020-04-17 06:11:27.000000000,closed,1, Transaction management
+660,2020-03-02 18:37:53.000000000,2020-03-05 08:07:56.000000000,closed,5,Upload problem
+659,2020-02-29 01:48:10.000000000,2020-02-29 01:48:18.000000000,closed,0,fixes #658 add trace logging to help debug cors rejections in CorsUtil
+658,2020-02-29 01:46:56.000000000,2020-02-29 01:48:19.000000000,closed,2,add trace logging to help debug cors rejections in CorsUtil
+656,2020-02-28 04:43:50.000000000,2020-02-28 04:43:58.000000000,closed,0,fixes #655 update logging level to trace for consul module
+655,2020-02-28 04:41:28.000000000,2020-02-28 04:44:00.000000000,closed,2,update logging level to trace for consul module
+654,2020-02-25 18:13:56.000000000,2020-02-25 18:14:04.000000000,closed,0,fixes #653 update OauthHelper to allow redirectUri optional when gett…
+653,2020-02-25 18:12:59.000000000,2020-02-25 18:14:05.000000000,closed,2,update OauthHelper to allow redirectUri optional when getting tokens
+652,2020-02-25 18:06:04.000000000,2020-02-26 20:56:15.000000000,closed,3, fixes for #649
+651,2020-02-23 02:40:46.000000000,2020-02-23 02:40:55.000000000,closed,0,fixes #647 Service registration fails with the latest Consul
+650,2020-02-19 22:30:35.000000000,2020-02-23 03:02:27.000000000,closed,1,LightHttpClient Drops the inflight connections when TTL expires
+649,2020-02-15 19:57:37.000000000,2020-02-26 20:59:07.000000000,closed,4,Service discovery failure at beginning of service startup 
+648,2020-02-14 18:30:22.000000000,2020-02-14 18:30:34.000000000,closed,0,Issue645
+647,2020-02-13 04:11:08.000000000,2020-02-23 02:40:56.000000000,closed,3,Service registration fails with the latest Consul
+646,2020-02-13 03:51:26.000000000,2020-02-13 03:51:36.000000000,closed,0,fixes #645 loose the condition to apply the cors headers
+645,2020-02-13 03:50:15.000000000,2020-02-13 03:51:37.000000000,closed,2,loose the condition to apply the cors headers
+644,2020-02-09 10:53:27.000000000,2020-02-09 10:53:35.000000000,closed,0,fixes #643 Add user_type and roles constants in utility for light-spa-4j
+643,2020-02-09 10:52:19.000000000,2020-02-09 10:53:36.000000000,closed,2,Add user_type and roles constants in utility for light-spa-4j
+642,2020-02-01 02:38:21.000000000,2020-02-01 02:38:31.000000000,closed,0,fixes #641 remove oracle JDBC driver test dependency
+641,2020-02-01 02:32:27.000000000,2020-02-01 02:38:32.000000000,closed,2,remove oracle JDBC driver test dependency
+640,2020-01-19 07:15:33.000000000,2020-01-31 20:52:29.000000000,closed,1,fixes #639
+639,2020-01-14 02:22:49.000000000,2020-01-31 21:04:35.000000000,closed,2,add JVM Metrics to metrics module for  InfluxDb
+638,2019-12-31 01:20:43.000000000,2019-12-31 01:20:57.000000000,closed,0,fixes #637 refactor the LightHttpHandler to ensure the auditInfo is c…
+637,2019-12-31 01:18:59.000000000,2019-12-31 01:28:18.000000000,closed,2,refactor the LightHttpHandler to ensure the auditInfo is called by both default methods
+636,2019-12-29 01:33:43.000000000,2019-12-31 00:08:04.000000000,closed,0,fixes #635 add a test case with two generic types for service module
+635,2019-12-28 21:27:42.000000000,2019-12-31 00:08:05.000000000,closed,1,Interface with multiple generic type parameters not supported
+634,2019-12-22 21:50:35.000000000,2020-02-26 21:00:12.000000000,closed,2,HTTP/1.1 cannot be used for Consul with two discovers
+633,2019-12-19 22:20:24.000000000,2019-12-21 01:32:19.000000000,closed,2,Bug fix: ConsulRegistry keeps the first service url discovered in cache
+632,2019-12-19 21:43:54.000000000,2019-12-22 19:07:30.000000000,closed,7,ConsulRegistry keeps the first service url discovered in cache
+631,2019-12-14 05:11:02.000000000,2019-12-14 07:32:20.000000000,closed,0,"Make Http2Client.SSL public again, but deprecate it"
+630,2019-12-14 02:54:34.000000000,2019-12-14 03:03:36.000000000,closed,6,Make SSL private to prevent its usage before it is initialized. 
+629,2019-12-14 02:18:53.000000000,2019-12-21 02:00:22.000000000,closed,4,make Http2Client.SSL deprecated to prevent users from using it directly
+628,2019-12-04 20:42:12.000000000,2019-12-04 21:31:07.000000000,closed,1,Make valueMap to be static to prevent multiple warning
+627,2019-12-04 19:21:27.000000000,2019-12-04 21:32:03.000000000,closed,6,only display warning message for values.yml once
+626,2019-11-29 20:18:53.000000000,2019-12-14 07:38:42.000000000,closed,0,fixes issue #625
+625,2019-11-29 19:11:48.000000000,2019-12-31 01:16:32.000000000,closed,2,Add ByteBuffer clientCallback support at Http2Client on client module
+624,2019-11-24 08:28:25.000000000,2019-11-24 08:28:33.000000000,closed,0,fixes #623 make the getDefaultXnioSsl public from Http2Client as ligh…
+623,2019-11-24 08:27:30.000000000,2019-11-24 08:28:34.000000000,closed,2,make the getDefaultXnioSsl public from Http2Client as light-router needs it
+622,2019-11-20 16:55:20.000000000,1970-01-01 00:00:00.000000001,open,9,Feature/bom
+621,2019-11-08 01:39:15.000000000,2019-11-08 21:01:01.000000000,closed,0,fixes #620
+620,2019-11-08 00:30:00.000000000,2019-11-08 21:04:01.000000000,closed,7,data-source does not support two datasources (same type of database) with different password key
+619,2019-11-07 17:03:41.000000000,1970-01-01 00:00:00.000000001,open,4,Feat/acme client
+618,2019-10-22 00:48:00.000000000,2019-10-22 03:00:24.000000000,closed,3,Fix/Replace - to _ to match the OpenShift environment variable syntax
+617,2019-10-21 18:27:48.000000000,2019-12-31 01:17:12.000000000,closed,0,add an API to create another XnioSsl object to connect to the light-config-server
+616,2019-10-18 23:06:00.000000000,2019-11-12 23:43:47.000000000,closed,4,UT005001 Errors happen when sending metrics to influxDB
+615,2019-10-08 03:25:35.000000000,2019-11-08 22:30:57.000000000,closed,4,BodyHandler double-conversion
+614,2019-10-02 18:10:40.000000000,2019-10-02 20:22:58.000000000,closed,0,fixes #613 service throws UT005001 once the metrics/influxdb module i…
+613,2019-10-02 17:48:41.000000000,2019-10-02 20:22:59.000000000,closed,7,service throws UT005001 once the metrics/influxdb module is enabled
+612,2019-09-24 00:33:43.000000000,2019-11-23 22:23:21.000000000,closed,13,Integration with REST based Light Config Server
+611,2019-09-06 00:02:37.000000000,2019-09-16 18:30:02.000000000,closed,1,Support both DirectRegistry and Consul Registry in service discovery
+610,2019-09-02 02:23:54.000000000,2019-09-02 03:54:45.000000000,closed,1,fixed #609
+609,2019-09-02 01:57:05.000000000,2019-09-02 03:57:05.000000000,closed,4,light-4j 1.6.x build fail on Windows environment 
+608,2019-08-28 01:11:09.000000000,2019-08-29 03:03:52.000000000,closed,1,Fixes #607 Collect Status and StackTrace on Error in light-4j handlers
+607,2019-08-27 19:43:37.000000000,2019-08-29 03:39:37.000000000,closed,4,Collect Status and StackTrace on Error in light-4j handlers for auditing purposes
+606,2019-08-26 18:52:13.000000000,2019-08-26 18:52:39.000000000,closed,0,fixes #605 server exits without any error in the console
+605,2019-08-26 18:47:50.000000000,2019-08-26 18:52:39.000000000,closed,2,server exits without any error in the console
+604,2019-08-20 01:42:14.000000000,2019-08-20 23:06:18.000000000,closed,1,fixes #603 add JwtVerifier to replace JwtHelper
+603,2019-08-19 03:18:25.000000000,2019-08-20 23:06:19.000000000,closed,5,remove the dependency for security.yml for normal applications
+602,2019-08-13 23:35:21.000000000,2019-08-16 03:01:43.000000000,closed,1,fixes #509 -DskipTests does not work to skip unit tests for master
+601,2019-08-13 18:14:41.000000000,2019-08-13 18:14:49.000000000,closed,0,fixes #600 upgrade jackson-databind to 2.9.9.3
+600,2019-08-13 18:13:47.000000000,2019-08-13 18:14:51.000000000,closed,2,upgrade jackson-databind to 2.9.9.3
+599,2019-08-06 06:04:16.000000000,2019-08-06 06:42:14.000000000,closed,2,upgrade undertow to 2.0.23.Final for both 1.6.x and master
+598,2019-08-01 21:54:28.000000000,2019-08-16 02:44:30.000000000,closed,21,Feat/connection pool
+597,2019-07-31 06:00:53.000000000,2019-07-31 06:01:04.000000000,closed,0,fixes #596 useJson default to false to ensure backward compatibility
+596,2019-07-31 05:59:24.000000000,2019-07-31 06:01:06.000000000,closed,3,useJson default to false to ensure backward compatibility
+595,2019-07-29 04:13:38.000000000,2019-08-16 03:00:59.000000000,closed,1,reset connection in Http2Client after certain number of requests
+594,2019-07-28 18:25:53.000000000,2019-08-16 03:01:09.000000000,closed,0,integration test is broken in server module for Consul test cases
+593,2019-07-27 18:15:53.000000000,2019-07-27 18:16:03.000000000,closed,0,fixes #592 add a debug statement to output the discovered url in Oaut…
+592,2019-07-27 18:15:00.000000000,2019-07-27 18:16:04.000000000,closed,1,add a debug statement to output the discovered url in OauthHelper
+591,2019-07-26 20:19:17.000000000,2019-08-13 23:07:06.000000000,closed,13,Fix/#590 skip tests
+590,2019-07-25 19:09:27.000000000,2019-08-13 23:08:51.000000000,closed,3,-DskipTests doesn't work to skip unit tests
+589,2019-07-25 00:02:37.000000000,2019-07-27 18:19:02.000000000,closed,3,API-189: Return Json format result from HealthGetHandler
+588,2019-07-24 00:05:44.000000000,2019-07-27 18:21:37.000000000,closed,4,Health check handler cannot return result in Json format
+587,2019-07-19 19:02:57.000000000,2019-07-23 19:01:56.000000000,closed,1,fixes #586 FormData.FormValue cannot be handled by Jackson JSON parser
+586,2019-07-19 19:01:59.000000000,2019-07-23 19:01:58.000000000,closed,2,FormData.FormValue cannot be handled by Jackson JSON parser
+585,2019-07-19 02:39:47.000000000,2019-07-20 06:20:25.000000000,closed,0,fixes #583 Success result is returned even light-oauth2 returns an er…
+584,2019-07-18 12:04:34.000000000,1970-01-01 00:00:00.000000001,open,3,Gzip encoding: steps
+583,2019-07-17 18:57:05.000000000,2019-07-20 06:20:27.000000000,closed,2,Success result is returned even light-oauth2 returns an error message
+582,2019-07-13 00:30:25.000000000,2019-07-13 01:38:47.000000000,closed,2,fixes #578 to use a hashset to track used ports
+581,2019-07-12 20:42:52.000000000,2020-08-29 05:16:13.000000000,closed,1,refactor Consul workflow
+580,2019-07-12 20:01:49.000000000,2019-07-13 00:31:14.000000000,closed,3,"fixes #579 when all instances are down and restarted, the client disc…"
+579,2019-07-12 20:00:41.000000000,2019-07-13 00:33:33.000000000,closed,4,"when all instances are down and restarted, the client discovery might not triggered"
+578,2019-07-12 18:17:04.000000000,2019-07-12 19:35:55.000000000,closed,1,randomly pick up port number for dynamic registry
+577,2019-07-12 07:30:49.000000000,2019-07-12 18:52:47.000000000,closed,2,Fix/#573 consul registry notify
+576,2019-07-11 22:49:52.000000000,2019-07-12 04:57:36.000000000,closed,4,Fix/npe service to url
+575,2019-07-11 18:40:41.000000000,2019-08-10 00:08:54.000000000,closed,1,Feat/pluggable config loader
+574,2019-07-10 04:26:05.000000000,2019-07-16 18:51:01.000000000,closed,9,randomly pick up port number for dynamic registry
+573,2019-07-09 22:10:41.000000000,2019-07-12 19:51:05.000000000,closed,4,ConsulRegistry will not be notified when pods go down to 0
+572,2019-07-09 18:10:16.000000000,2019-08-16 02:59:57.000000000,closed,6,implement a connection pool for Http2Client in case the server is HTTP/1.1
+571,2019-07-06 01:18:39.000000000,2019-08-10 00:23:23.000000000,closed,2,Pluggable config loading strategy
+570,2019-07-04 22:02:03.000000000,2019-07-12 05:53:40.000000000,closed,4,Fix/#523 consul http https connection
+569,2019-06-30 10:11:00.000000000,2019-11-07 17:01:21.000000000,closed,1,#313 Add acme-client module
+568,2019-06-29 22:42:25.000000000,2019-06-30 10:09:54.000000000,closed,0,#313 Add acme-client module
+567,2019-06-29 21:42:25.000000000,2019-07-02 06:18:42.000000000,closed,0,add Prometheus hotspot monitor
+566,2019-06-29 21:36:09.000000000,2019-07-02 06:18:42.000000000,closed,3,add hotspot monitor for prometheus metrics middleware handler
+565,2019-06-28 00:17:17.000000000,2020-04-17 06:12:41.000000000,closed,1,switch to opentelemetry from opentracing once it is ready
+564,2019-06-26 23:26:18.000000000,2019-07-10 20:03:21.000000000,closed,1,Fixes merge to 1.6.x
+563,2019-06-21 03:44:18.000000000,2019-06-24 23:04:13.000000000,closed,5,514 sanitizer new config properties
+562,2019-06-21 00:20:57.000000000,2019-07-23 00:25:41.000000000,closed,4,Merge to 1.6.x/#547 deprecate apis
+561,2019-06-20 18:29:02.000000000,2019-07-12 05:43:15.000000000,closed,1,Fix/#547 deprecate apis - client module
+560,2019-06-20 17:20:52.000000000,2019-06-20 17:21:01.000000000,closed,0,fixes #559 update default consulUrl to http instead of https
+559,2019-06-20 17:19:08.000000000,2019-06-20 17:21:02.000000000,closed,1,update default consulUrl to http instead of https
+558,2019-06-20 01:35:34.000000000,2019-06-20 17:56:02.000000000,closed,1,reverted some values of client.yml for testing
+557,2019-06-19 21:00:30.000000000,2019-06-19 23:27:32.000000000,closed,0,fixes #556 remove dependency on secret.yml from server and email modules
+556,2019-06-19 20:35:28.000000000,2019-06-19 23:27:33.000000000,closed,1,remove dependency on secret.yml from server and email modules
+555,2019-06-19 20:32:55.000000000,2019-06-19 23:26:23.000000000,closed,1,fixes #554 move the consul token to the consul.yml from the secret.yml
+554,2019-06-19 19:49:51.000000000,2019-06-19 23:26:24.000000000,closed,1,move the consul token to the consul.yml from the secret.yml
+553,2019-06-19 19:30:50.000000000,2019-06-19 23:25:39.000000000,closed,0,fixes #552 get client_secret from client.yml instead of secret.yml
+552,2019-06-19 18:21:40.000000000,2019-06-19 23:25:41.000000000,closed,3,get client_secret from client.yml instead of secret.yml
+551,2019-06-19 02:56:05.000000000,2019-06-19 02:56:20.000000000,closed,0,fixes #550 loopback address is used when register to Consul from a st…
+550,2019-06-19 02:45:43.000000000,2019-06-19 02:56:21.000000000,closed,1,loopback address is used when register to Consul from a standalone application
+549,2019-06-17 17:01:38.000000000,2019-06-21 07:20:46.000000000,closed,2,Add OpenTracing support for observability
+548,2019-06-14 00:32:21.000000000,2019-06-14 00:32:49.000000000,closed,0,merge jdk11 to master
+547,2019-06-13 19:25:45.000000000,2019-07-16 18:51:22.000000000,closed,5,Deprecate certain public APIs across the framework
+546,2019-06-13 06:37:02.000000000,2019-06-14 00:32:49.000000000,closed,0,Limit TLS to v1.2 to work around JDK 11 bug
+545,2019-06-13 04:56:34.000000000,2019-06-14 00:32:48.000000000,closed,1,change the package name for the exceptions in jdk11
+544,2019-06-13 04:45:08.000000000,2019-06-14 00:32:48.000000000,closed,0,update metrics to sync with master
+543,2019-06-12 23:47:44.000000000,2019-06-14 00:32:48.000000000,closed,1,remove module-info.java in jdk11 branch
+542,2019-06-12 22:31:49.000000000,2019-06-12 22:32:26.000000000,closed,0,remove duplicated maven-compiler-plugin in jdk11 parent pom.xml
+541,2019-06-12 22:07:05.000000000,2019-06-14 16:15:05.000000000,closed,1,Javadoc error when using 11.0.2-open jdk
+540,2019-06-12 16:51:59.000000000,2019-06-12 18:07:10.000000000,closed,1,fixes #539 sync jdk11 branch to 1.6.x to ensure code similarity
+539,2019-06-12 16:50:02.000000000,2019-06-12 18:07:12.000000000,closed,0,sync jdk11 branch to 1.6.x to ensure code similarity
+538,2019-06-11 19:52:42.000000000,2019-06-14 00:32:48.000000000,closed,0,Move the main development to JDK 11?
+537,2019-06-11 17:33:44.000000000,2019-06-14 00:32:48.000000000,closed,0,update pom.xml in jdk11 to release 11
+536,2019-06-10 23:58:26.000000000,2019-06-21 07:20:48.000000000,closed,3,Add OpenTracing support for observability
+535,2019-06-10 04:59:33.000000000,2019-06-10 23:56:56.000000000,closed,0,update javadoc-packagelist-maven-plugin to 1.0.0
+534,2019-06-10 03:56:31.000000000,2019-06-10 23:57:05.000000000,closed,0,merge the latest master to jdk11 branch
+533,2019-06-07 18:24:47.000000000,2019-06-07 18:27:15.000000000,closed,0,fixes #532 rename logging to logger-config and clean up the dependencies
+532,2019-06-07 18:22:19.000000000,2019-06-07 18:27:16.000000000,closed,0,rename logging to logger-config and clean up the dependencies
+531,2019-06-05 05:36:45.000000000,2019-06-05 06:11:21.000000000,closed,0,Fixes #530 - Add service name to Server configuration
+530,2019-06-05 05:33:02.000000000,2019-06-05 06:11:22.000000000,closed,1,Add service name to Server configuration
+529,2019-06-04 02:01:42.000000000,2019-06-04 02:01:53.000000000,closed,0,fixes #528 The config module blindly convert string 0000 to 0 for env…
+528,2019-06-04 01:28:48.000000000,2019-06-04 02:01:55.000000000,closed,2,The config module blindly convert string 0000 to 0 for environment
+527,2019-06-03 22:02:50.000000000,2019-06-03 23:03:43.000000000,closed,1,removed io.undertow.client.http package due to classes in this package were already moved to com.networknt.client package
+526,2019-06-03 21:40:43.000000000,2019-06-03 23:04:30.000000000,closed,1,"clean up same class in different package, Http2ClientCompletableFutureNoRequest"
+525,2019-05-29 00:51:23.000000000,2019-06-17 17:20:36.000000000,closed,1,Fix/#519 keystore fall back
+524,2019-05-28 23:28:58.000000000,2019-06-03 21:02:24.000000000,closed,2,bug when using consul with http1.1
+523,2019-05-28 22:11:05.000000000,2019-06-03 23:07:14.000000000,closed,2,Consul connection freezing bug
+522,2019-05-28 18:20:57.000000000,2019-06-01 00:42:11.000000000,closed,1,Feat/#521 enbale http2 consul config
+521,2019-05-27 19:30:56.000000000,2019-06-14 19:24:18.000000000,closed,9,Make the protocol of the consul client configurable
+520,2019-05-23 22:54:06.000000000,2019-06-04 21:18:49.000000000,closed,6,Configure dependabot on project
+519,2019-05-23 21:12:07.000000000,2019-07-16 18:51:37.000000000,closed,1,Server Keystore should not fall back to default
+518,2019-05-23 18:56:00.000000000,2019-07-16 18:51:49.000000000,closed,3,NullPointerException when doing serviceToUrl
+517,2019-05-22 23:53:10.000000000,2019-06-01 01:26:24.000000000,closed,0,attention for stevehu
+516,2019-05-16 00:51:33.000000000,2019-05-17 00:24:39.000000000,closed,3,Fix/#512 config overwritten
+515,2019-05-15 17:23:05.000000000,2019-05-16 17:29:27.000000000,closed,1,fixes #513 disable sanitizer handler by default
+514,2019-05-15 17:21:12.000000000,2019-08-08 18:02:31.000000000,closed,15,make the sanitizer handler context aware by config
+513,2019-05-14 22:02:29.000000000,2019-05-16 17:29:29.000000000,closed,3,Escape char handling
+512,2019-05-14 19:46:51.000000000,2019-09-03 05:35:53.000000000,closed,1,Parameterized value in Config can not be overwritten 
+511,2019-05-13 22:47:00.000000000,2019-05-17 16:50:05.000000000,closed,1,Add JsonWebKey support in JWT key verification
+510,2019-05-13 18:55:12.000000000,2019-05-17 16:50:26.000000000,closed,1,Add support of JsonWebKey in JWT key verification
+509,2019-05-09 06:24:40.000000000,2019-05-14 20:29:42.000000000,closed,2,fixes #508 associate the correlationId with the traceabilityId when c…
+508,2019-05-09 06:05:42.000000000,2019-05-14 20:29:44.000000000,closed,1,associate the correlationId with the traceabilityId when cid is created
+507,2019-05-09 01:59:05.000000000,2019-06-03 23:05:49.000000000,closed,2,Feat/#506 add debug logging
+506,2019-05-08 21:24:42.000000000,2019-06-03 23:06:48.000000000,closed,1,"Make sure request/responses for consul, oauth, and api calls are logged with debug"
+505,2019-05-08 20:28:47.000000000,2019-05-14 21:25:03.000000000,closed,1,Fix/#504 read keystore from system property
+504,2019-05-07 23:32:11.000000000,2019-05-14 21:26:15.000000000,closed,1,Resolve differences between loading trustStore and keyStore credentials
+503,2019-05-07 00:40:52.000000000,2019-06-14 16:13:15.000000000,closed,8,Feat/#502 consul integrate test
+502,2019-05-07 00:31:02.000000000,2019-06-14 16:14:49.000000000,closed,1,Adding auto test for consul registry and discovery 
+501,2019-05-02 23:47:56.000000000,2019-05-03 18:47:29.000000000,closed,2,Feat/default decryptor
+500,2019-05-02 09:08:39.000000000,2019-05-02 22:04:35.000000000,closed,1,fixes #499 ConsulRegistry discoverService returns http always
+499,2019-05-02 09:05:26.000000000,2019-05-02 22:04:37.000000000,closed,1,ConsulRegistry discoverService returns http always
+498,2019-04-30 21:35:27.000000000,2019-04-30 21:47:34.000000000,closed,1,fixes #497 implement service discovery in OauthHelper
+497,2019-04-30 21:34:26.000000000,2019-04-30 21:47:35.000000000,closed,1,implement service discovery in OauthHelper
+496,2019-04-27 05:58:36.000000000,2019-04-27 16:14:31.000000000,closed,0,fixes #495 support multiple key servers for token and sign
+495,2019-04-27 05:41:07.000000000,2019-04-27 16:14:33.000000000,closed,1,support multiple key servers for token and sign
+494,2019-04-27 04:46:34.000000000,2019-04-27 05:34:18.000000000,closed,1,fixes #493 update timeoutCount to AtomicInteger in circuit breaker
+493,2019-04-27 04:44:43.000000000,2019-04-27 05:34:19.000000000,closed,0,update timeoutCount to AtomicInteger in circuit breaker
+492,2019-04-25 21:15:00.000000000,2019-04-25 21:35:54.000000000,closed,2,Fix/#491 direct registry with env
+491,2019-04-25 19:33:46.000000000,2019-04-25 22:56:59.000000000,closed,1,direct registry stops working as it doesn't support env tag
+490,2019-04-25 00:43:52.000000000,2019-04-25 00:44:00.000000000,closed,0,fixes #489 need to rollback the lazy init of config in Server
+489,2019-04-25 00:39:12.000000000,2019-04-25 00:44:02.000000000,closed,2,need to rollback the lazy init of config in Server
+488,2019-04-25 00:03:26.000000000,2019-04-25 00:04:19.000000000,closed,0,fixes #487 resolve test case failure in the server module
+487,2019-04-25 00:02:20.000000000,2019-04-25 00:04:21.000000000,closed,1,resolve test case failure in the server module
+486,2019-04-24 22:55:04.000000000,2019-04-25 01:40:17.000000000,closed,2,Fix/#482 consul service discovery caching
+485,2019-04-24 20:49:26.000000000,2019-04-25 03:50:45.000000000,closed,4,#240 timeout feature #241 circuit breaker
+484,2019-04-24 00:16:25.000000000,2019-04-29 18:06:52.000000000,closed,1,fix path separator - #483
+483,2019-04-23 21:24:53.000000000,2019-04-29 18:08:20.000000000,closed,2,system property light-4j-config-dir does not accept windows paths
+482,2019-04-23 19:05:19.000000000,2019-04-25 01:48:48.000000000,closed,3,Consul service discovery error when discover same services with different env_tag
+481,2019-04-22 22:10:40.000000000,2019-04-24 20:14:04.000000000,closed,1,fixes issue #480
+480,2019-04-22 22:07:18.000000000,2019-05-02 08:34:45.000000000,closed,2,client module enhancement to use CompletableFuture to handle two or more threads  asynchronous computation
+479,2019-04-22 20:54:56.000000000,2019-04-23 05:20:47.000000000,closed,1,fixes #478 service getting unregistered from consul after a while
+478,2019-04-22 19:38:37.000000000,2019-04-23 05:20:49.000000000,closed,2,service getting unregistered from consul after a while
+477,2019-04-19 02:29:17.000000000,2019-04-19 02:49:01.000000000,closed,2,Fixed the scope caching error
+476,2019-04-18 21:50:59.000000000,2019-04-18 21:53:52.000000000,closed,0,Reverting back the changes in Server.java to keep it backward compati…
+475,2019-04-18 01:38:57.000000000,2019-04-24 21:38:39.000000000,closed,7,fixes #474 register light-hybrid-4j services in Server module
+474,2019-04-18 01:34:14.000000000,2019-04-24 21:38:41.000000000,closed,0,register light-hybrid-4j services in Server module
+473,2019-04-17 23:05:48.000000000,2019-04-19 02:29:48.000000000,closed,1,Feat/oauth refactor
+472,2019-04-17 22:06:52.000000000,2019-06-08 03:39:22.000000000,closed,1,Oauth enhancement and extension / support custom claims
+471,2019-04-17 18:43:17.000000000,2019-04-25 01:22:38.000000000,closed,7,Error prone compile error with using IntelliJ
+470,2019-04-16 19:58:02.000000000,2019-05-13 18:44:05.000000000,closed,5,Do not send chunked as the TRANSFER_ENCODING header in Oauth Request
+469,2019-04-16 02:36:17.000000000,2019-04-16 02:36:24.000000000,closed,0,fixes #468 resolve backward compatible issue for server.config
+468,2019-04-16 02:35:21.000000000,2019-04-16 02:36:25.000000000,closed,0,resolve backward compatible issue for server.config
+467,2019-04-16 00:34:54.000000000,2019-04-16 00:35:02.000000000,closed,0,fixes #466 Incorrect status code
+466,2019-04-16 00:31:53.000000000,2019-04-16 00:35:04.000000000,closed,1,Incorrect status code
+465,2019-04-15 23:23:54.000000000,2019-04-15 23:24:06.000000000,closed,0,fixes #464 update license and copyright headers
+464,2019-04-15 23:22:58.000000000,2019-04-15 23:24:07.000000000,closed,1,update license and copyright headers
+463,2019-04-12 00:39:25.000000000,2019-04-12 18:05:02.000000000,closed,0, populate path params - #light-rest-4j/issues/67
+462,2019-04-11 18:01:13.000000000,2019-04-12 20:31:21.000000000,closed,5,Added new server option ALLOW_UNESCAPED_CHARACTERS_IN_URL
+461,2019-04-11 06:37:07.000000000,2019-04-12 01:26:36.000000000,closed,1,fixes #460 upgrade maven plugins to the latest versions
+460,2019-04-11 06:36:02.000000000,2019-04-12 01:26:37.000000000,closed,1,upgrade maven plugins to the latest versions
+459,2019-04-10 07:26:08.000000000,2019-04-12 22:51:47.000000000,closed,4,update pom.xml to support release of SNAPSHOT version
+458,2019-04-10 01:08:22.000000000,2019-06-03 18:47:29.000000000,closed,3,"Consul TTL check ""checkPass"" issue"
+457,2019-04-08 22:21:52.000000000,2019-04-09 17:57:29.000000000,closed,1,fixes #456 resolve warnnings from errorprone
+456,2019-04-08 22:20:56.000000000,2019-04-09 17:57:31.000000000,closed,0,resolve warnnings from errorprone
+455,2019-04-06 04:04:59.000000000,2019-04-06 04:05:08.000000000,closed,0,fixes #454 add test cases for AESDecryptor and DecryptConstructor
+454,2019-04-06 04:04:11.000000000,2019-04-06 04:05:09.000000000,closed,0,add test cases for AESDecryptor and DecryptConstructor
+453,2019-04-05 19:17:39.000000000,2019-06-03 21:41:41.000000000,closed,12,Add logging module for light 4j   RFC#29
+452,2019-04-05 19:17:02.000000000,2019-04-05 20:33:19.000000000,closed,1,fixed caching issue when initlizing multiple token request havenot been tested
+451,2019-04-04 20:14:52.000000000,2019-04-15 23:18:10.000000000,closed,12,Pluggable config server feature RFC#0019
+450,2019-04-04 20:05:53.000000000,2019-04-04 21:37:59.000000000,closed,1,Pluggable config server feature RFC#0019
+449,2019-04-02 21:20:30.000000000,2019-04-02 21:21:00.000000000,closed,0,fixes #448 remove broken import statements in Http2Client
+448,2019-04-02 21:19:35.000000000,2019-04-02 21:21:02.000000000,closed,0,remove broken import statements in Http2Client
+447,2019-04-02 00:19:20.000000000,2019-04-04 17:30:03.000000000,closed,8,Cache unparsed request body (configurable/ for application/json request)
+446,2019-04-01 06:34:22.000000000,2019-04-01 18:07:50.000000000,closed,2,fixes #445 update client module to access signing service
+445,2019-03-31 18:40:50.000000000,2019-04-01 18:07:52.000000000,closed,0,update client module to access signing service
+444,2019-03-31 06:29:12.000000000,2019-03-31 06:29:26.000000000,closed,0,fixes #443 Add a new constant in http header for service_url
+443,2019-03-31 06:28:05.000000000,2019-03-31 06:29:28.000000000,closed,0,Add a new constant in http header for service_url
+442,2019-03-30 06:13:08.000000000,2019-03-30 06:15:07.000000000,closed,0,fixes #441 detect copy/paste code with PMD 6.12.0
+441,2019-03-30 06:12:02.000000000,2019-03-30 06:15:08.000000000,closed,1,detect copy/paste code with PMD 6.12.0
+440,2019-03-30 05:12:45.000000000,2019-03-30 05:13:40.000000000,closed,0,update NOTICE.txt to add hdrhistogram-metrics-reservoir
+439,2019-03-30 03:26:40.000000000,2019-03-30 03:31:51.000000000,closed,1,fixes #438 add NOTICE.txt for all third party dependencies and licenses
+438,2019-03-29 21:39:14.000000000,2019-03-30 03:31:53.000000000,closed,1,add NOTICE.txt for all third party dependencies and licenses
+437,2019-03-29 20:06:04.000000000,2019-04-10 00:19:37.000000000,closed,5,Cache unparsed request body (configurable)
+436,2019-03-29 07:36:54.000000000,2019-03-29 07:37:09.000000000,closed,3,fixes #434 update copyright and license in source code
+435,2019-03-28 22:50:03.000000000,2019-04-02 17:54:40.000000000,closed,12,move classes in undertow package to networknet packages - #433
+434,2019-03-28 06:16:40.000000000,2019-03-29 07:37:10.000000000,closed,1,update copyright and license in source code
+433,2019-03-27 21:16:50.000000000,2019-04-10 00:20:33.000000000,closed,0,Fix SSL client so that undertow package is not conflicting
+432,2019-03-27 00:06:00.000000000,2019-04-05 18:56:50.000000000,closed,2,Feat/#351 server options configurable
+431,2019-03-26 01:44:28.000000000,2019-03-26 01:44:47.000000000,closed,0,fixes #430 add status code to status.yml for light-codegen
+430,2019-03-26 01:43:47.000000000,2019-03-26 01:44:49.000000000,closed,0,add status code to status.yml for light-codegen
+429,2019-03-21 00:47:55.000000000,2019-04-05 18:54:18.000000000,closed,14,Feat/#427 config decryption
+428,2019-03-18 23:45:35.000000000,2019-03-20 18:20:21.000000000,closed,1,Feat/light 4j/#420 fixed TTL check
+427,2019-03-08 21:05:11.000000000,2019-04-10 00:20:58.000000000,closed,4,Retrieve symmetric key for config decryption
+426,2019-03-07 02:33:17.000000000,2019-03-15 20:20:17.000000000,closed,2,Fix/#425 status merge
+425,2019-03-07 02:08:25.000000000,2019-03-20 06:02:51.000000000,closed,2,Fix status merge
+424,2019-03-06 20:38:42.000000000,2019-03-15 20:17:46.000000000,closed,0,accept defaultGroupKey in Http2Client.SSL - #423
+423,2019-03-06 20:12:45.000000000,2019-03-20 06:03:56.000000000,closed,2,accept default group key in Http2Client 
+422,2019-03-06 06:34:13.000000000,2019-03-06 19:48:05.000000000,closed,2,fixes #421 add last handler to Handler class for handler chain inject…
+421,2019-03-06 06:32:55.000000000,2019-03-20 02:44:14.000000000,closed,1,add last handler to Handler class for handler chain inject in the beginning
+420,2019-03-04 23:33:23.000000000,2019-04-12 22:52:09.000000000,closed,7,add TTL to the consul check register for ttlCheck option
+419,2019-03-03 20:22:05.000000000,2019-03-22 18:19:44.000000000,closed,9,just improvements
+418,2019-03-03 20:20:22.000000000,2019-03-03 20:21:12.000000000,closed,0,Develop
+417,2019-03-02 23:02:31.000000000,2019-03-15 20:19:00.000000000,closed,4,Fix/#415 dynamic port binding
+416,2019-03-02 05:30:16.000000000,2019-03-02 09:39:05.000000000,closed,5,Fixing binding to dynamic ports
+415,2019-03-01 02:47:34.000000000,2019-03-02 21:20:28.000000000,closed,2,Dynamic Port binding not working as expected in light4j
+414,2019-02-28 23:40:23.000000000,2019-04-02 17:48:34.000000000,closed,5,Integrate decryption module in all retrievals of config - #413
+413,2019-02-28 23:13:01.000000000,2019-04-10 00:21:25.000000000,closed,5,Integrate decryption module in all retrievals of config
+412,2019-02-28 13:25:30.000000000,2019-04-18 05:31:55.000000000,closed,3,Support configure for allowUnescapedCharactersInUrl in undertow.
+411,2019-02-27 05:16:09.000000000,2019-02-27 05:16:35.000000000,closed,0,merged from origin
+410,2019-02-27 01:12:52.000000000,2019-04-04 18:02:20.000000000,closed,9,Feat/light 4j/#391 support caching multiple Jwts
+409,2019-02-25 21:17:03.000000000,2019-02-28 19:04:46.000000000,closed,1,fix/#407 the value in values.yml can be set to empty
+408,2019-02-24 22:28:36.000000000,2019-02-26 03:50:57.000000000,closed,2,updating iteration of FormData item
+407,2019-02-23 00:18:36.000000000,2019-03-02 21:20:52.000000000,closed,7,Error happen if there is not value in values.yml for services.yml injection
+406,2019-02-20 20:07:11.000000000,2019-02-22 09:14:15.000000000,closed,7,Maven build error on eclipse
+405,2019-02-20 13:37:18.000000000,2019-03-02 21:21:04.000000000,closed,4,setup Travis cron to run integration test daily
+404,2019-02-19 21:54:22.000000000,2019-02-26 02:44:45.000000000,closed,4,add code coverage badge
+403,2019-02-19 20:25:32.000000000,2019-02-27 02:50:38.000000000,closed,24,Feat/#389 status merge
+402,2019-02-19 10:05:28.000000000,2019-02-21 22:15:38.000000000,closed,1,"add missing license info, remove unused logback setting"
+401,2019-02-18 23:00:02.000000000,2019-02-21 21:29:08.000000000,closed,0,body: update and add more unittest
+400,2019-02-18 08:51:29.000000000,2019-02-20 04:41:34.000000000,closed,1,"update basic-auth and some minor update in audit, balance"
+399,2019-02-18 07:28:25.000000000,2019-02-18 18:52:37.000000000,closed,0,Fixing backwards incompatible interface change in OauthHelper getToken and getTokenFromSaml
+398,2019-02-18 05:52:08.000000000,2019-02-21 19:42:39.000000000,closed,15,SSL error - client module - release 1.5.29
+397,2019-02-18 05:46:13.000000000,2019-02-21 19:41:08.000000000,closed,3,Backwards incompatible changes: client module - release 1.5.29
+396,2019-02-15 23:14:11.000000000,2019-02-16 07:49:09.000000000,closed,3,"fix typo, simplify RoundRobinLoadBalanceTest, add license info"
+395,2019-02-15 22:00:14.000000000,2019-02-16 01:47:59.000000000,closed,0,Fixes #394 add a default config.yml file
+394,2019-02-15 21:57:52.000000000,2019-02-16 08:06:36.000000000,closed,0,Add a default config.yml to the light-4j/Config module
+393,2019-02-15 21:55:12.000000000,2019-02-15 21:55:47.000000000,closed,0,Config Default
+392,2019-02-15 21:03:23.000000000,2019-11-13 18:45:19.000000000,closed,6,Shutdownhook not fire on Windows if Light-4j app is killed
+391,2019-02-15 18:19:31.000000000,2019-04-10 00:22:10.000000000,closed,2,Support client provided Scopes for interaction with OAuth
+390,2019-02-15 14:35:35.000000000,2019-02-15 22:18:50.000000000,closed,2,detail unit test to check content of audit log
+389,2019-02-13 21:36:38.000000000,2019-03-02 21:21:24.000000000,closed,7,"original status.yml info in light-4j is overwritten by customer, which will lose errors for light-4j"
+388,2019-02-13 01:39:17.000000000,2019-02-15 00:50:19.000000000,closed,0,Feat/#383 list config directories
+387,2019-02-12 02:04:18.000000000,2019-02-15 00:36:16.000000000,closed,0,Feat/#381 support absolute path for config file
+386,2019-02-12 01:31:57.000000000,2019-02-15 00:13:05.000000000,closed,0,Feat/#309 read config from arbitrary directories
+385,2019-02-09 23:47:12.000000000,2019-02-12 18:44:25.000000000,closed,1,fixes #384 output the stacktrace when server registration fails
+384,2019-02-09 23:39:24.000000000,2019-02-16 08:06:36.000000000,closed,1,output the stacktrace when server registration fails
+383,2019-02-09 08:33:43.000000000,2019-02-16 19:05:31.000000000,closed,0,support a list of config directories in Config module
+382,2019-02-09 08:26:35.000000000,2019-02-09 08:37:58.000000000,closed,1,support flexible config directory in Config module
+381,2019-02-09 08:15:58.000000000,2019-02-16 19:05:43.000000000,closed,0,support absolute path for the config file in Config module
+380,2019-02-08 01:17:30.000000000,2019-02-12 03:45:49.000000000,closed,3,Feat/#41 exception handling
+379,2019-02-07 20:22:21.000000000,2019-02-09 06:27:53.000000000,closed,1,fixes #378 upgrade jsonpath to 2.4.0 and exclude json-smart
+378,2019-02-07 10:03:40.000000000,2019-02-16 08:06:35.000000000,closed,3,upgrade jsonpath to 2.4.0 and exclude json-smart
+377,2019-02-07 08:41:10.000000000,2019-02-07 08:48:22.000000000,closed,0,Feat/#41 exception handling
+376,2019-02-06 04:16:27.000000000,2019-07-24 17:57:52.000000000,closed,1,"When all instances of a service are no longer available, clients maintain previous history"
+375,2019-02-06 02:38:48.000000000,2019-02-15 00:01:13.000000000,closed,6,Fix/config gaps
+374,2019-01-31 20:39:28.000000000,2019-02-14 03:59:16.000000000,closed,3,Fix/error message when fail registration
+373,2019-01-31 03:30:45.000000000,2019-02-05 01:29:33.000000000,closed,5,Allowed exclusion list of files which should not check/allow values injection
+372,2019-01-30 21:32:27.000000000,2019-02-01 21:03:37.000000000,closed,2,Fixing mutual tls on the server side
+371,2019-01-30 07:10:38.000000000,2019-02-16 19:06:58.000000000,closed,3,Config Module - addressing gaps
+370,2019-01-26 20:55:59.000000000,2019-02-16 08:06:35.000000000,closed,1,Correlation module: add ability to control the generation of the CorrelationID
+369,2019-01-26 08:36:52.000000000,2019-02-04 22:10:52.000000000,closed,1,TechEmpower benchmark
+368,2019-01-24 21:16:21.000000000,2019-02-16 19:07:13.000000000,closed,8,Allow exclusion list of files which should not check/allow for environment variable setting
+367,2019-01-24 20:37:44.000000000,2019-02-01 03:34:36.000000000,closed,1,Feature/single config for all modules
+366,2019-01-24 00:38:16.000000000,2019-01-26 00:01:51.000000000,closed,3,Fix/line endings LF
+365,2019-01-24 00:35:45.000000000,2019-02-04 22:13:49.000000000,closed,2,Standardize repo line endings on LF
+364,2019-01-23 23:58:40.000000000,2019-01-26 00:45:29.000000000,closed,3,-added an error message in status.yml for validating response content
+363,2019-01-23 21:46:29.000000000,2019-02-01 23:00:42.000000000,closed,1,Add a new constant in http header for service_url.
+362,2019-01-23 21:24:43.000000000,2019-02-04 22:15:18.000000000,closed,1,Add a new constant string in http header for service url
+361,2019-01-22 19:59:45.000000000,2019-02-01 22:31:33.000000000,closed,2,"Fixes #360 If handler path not implemented/wrong path , it will throw the 404 error code instead of 400."
+360,2019-01-22 19:56:26.000000000,2019-02-04 22:10:40.000000000,closed,2,"If handler path not implemented/wrong path , it will throw the 404 error code instead of 400."
+359,2019-01-19 01:32:45.000000000,2019-02-11 21:49:22.000000000,closed,11,Validation of server identify in a CaaS environment #358
+358,2019-01-19 01:14:05.000000000,2019-02-16 19:07:31.000000000,closed,0,Validation of server identify in a CaaS environment
+357,2019-01-15 23:40:51.000000000,1970-01-01 00:00:00.000000001,open,0,MQ Consumer in Light4j Client
+356,2019-01-15 01:38:05.000000000,2019-02-01 00:55:54.000000000,closed,2,upgrade to undertow 2.0.16.Final
+355,2019-01-14 00:13:35.000000000,2019-01-14 01:07:00.000000000,closed,0,fixes #354
+354,2019-01-14 00:03:48.000000000,2019-02-16 08:06:35.000000000,closed,0, Config module build failing on windows environment
+353,2019-01-13 21:40:49.000000000,2019-01-13 22:16:38.000000000,closed,0,Config module failing if config file has a key which is not a String
+352,2019-01-12 08:59:13.000000000,2019-01-12 21:51:06.000000000,closed,0,resolve the syntax error in java doc for dump
+351,2019-01-11 22:38:05.000000000,2019-04-10 00:22:37.000000000,closed,10,make some of the server options configurable
+350,2019-01-10 22:51:46.000000000,2019-01-12 21:51:06.000000000,closed,2,remove the check exception ConfigException
+349,2019-01-09 01:05:33.000000000,2019-01-10 22:33:25.000000000,closed,1,#321 Enhanced config injection to support injecting List and Map
+348,2019-01-07 22:04:20.000000000,2019-01-09 02:11:11.000000000,closed,1,Config Injection
+347,2019-01-07 18:23:19.000000000,2019-01-26 18:56:24.000000000,closed,2,Upgrade jackson version to 2.9.8
+345,2019-01-03 03:45:42.000000000,2019-01-12 07:32:30.000000000,closed,3,"refactored dump handler, add mask feature to it"
+344,2018-12-30 04:38:54.000000000,2019-02-04 22:16:32.000000000,closed,2,jdk11 release to maven central failed
+343,2018-12-30 01:17:04.000000000,2019-01-12 21:51:05.000000000,closed,1,add several network related utilities
+342,2018-12-27 11:43:16.000000000,2019-01-26 07:30:09.000000000,closed,6,Performance Optimizations for Max Troughput
+341,2018-12-25 10:14:58.000000000,1970-01-01 00:00:00.000000001,open,7,GraalVM Native Image
+340,2018-12-25 07:23:43.000000000,2019-01-12 21:51:05.000000000,closed,1,move JsonMapper from taiji-blockchain to light-4j
+339,2018-12-21 00:32:47.000000000,2018-12-24 19:41:42.000000000,closed,1,give wait a default value for backward compatibility
+338,2018-12-15 08:54:46.000000000,2018-12-15 08:55:57.000000000,closed,0,ignore the random number test in balance
+337,2018-12-15 00:47:29.000000000,2018-12-15 07:47:32.000000000,closed,0,"Implement an environment variable ""preprocessor"" #321"
+336,2018-12-14 17:15:20.000000000,2018-12-15 08:39:42.000000000,closed,1,add a new services method to the Cluster
+335,2018-12-14 17:10:55.000000000,2018-12-15 08:39:42.000000000,closed,1,make round robin load balance start with random number
+334,2018-12-12 21:01:19.000000000,2018-12-15 08:39:42.000000000,closed,2,A bug that shows Unknown protocol light in service discovery
+333,2018-12-11 20:36:30.000000000,2018-12-13 19:40:45.000000000,closed,4,"Issue #332, (API 6) in consul client the wait hard coded value changed through configuration "
+332,2018-12-11 20:32:12.000000000,2018-12-15 08:39:42.000000000,closed,1,In consul client the hard coded wait value changed through configuration. 
+331,2018-12-09 10:31:02.000000000,2018-12-15 08:39:42.000000000,closed,1,add a new method to get local IP for interactive queries
+330,2018-12-07 11:26:11.000000000,2019-02-04 22:16:57.000000000,closed,2,codegen-cli generated code does not compile - openapi-3
+329,2018-12-07 02:45:16.000000000,2018-12-11 20:23:13.000000000,closed,4,#326 created a form handler
+328,2018-11-27 22:08:59.000000000,2018-12-12 22:53:49.000000000,closed,2,Refactor the dump handler to support response body logging
+327,2018-11-22 21:45:36.000000000,1970-01-01 00:00:00.000000001,open,4,"Fix H2DataSource issue with data-source module and refactor, add factory construct arguments feature to SingletonServiceFactory"
+326,2018-11-13 20:17:58.000000000,2018-12-15 08:39:42.000000000,closed,3,Attachment Handler
+325,2018-11-10 02:36:40.000000000,2018-11-10 20:49:23.000000000,closed,1,add monad-result module to wrap success T and failure Status
+324,2018-11-09 10:33:19.000000000,2018-11-10 20:49:23.000000000,closed,1,add successful status code to status.yml
+323,2018-11-06 19:07:17.000000000,2018-11-10 20:49:23.000000000,closed,1,gzip and deflate encoding and decoding support in middleware handlers
+322,2018-11-06 00:36:03.000000000,1970-01-01 00:00:00.000000001,open,9,Stateless Auth Handler: Access Token Refresh in multi-threaded environment
+321,2018-11-05 22:05:35.000000000,2019-02-16 19:08:03.000000000,closed,27,Environment variable references in the light-4j yaml config files
+320,2018-11-05 19:21:40.000000000,2018-11-10 20:49:23.000000000,closed,1,add static CONFIG_NAME to serverConfig
+319,2018-11-04 07:11:19.000000000,2018-11-10 20:49:23.000000000,closed,0,add another default method in LightHttpHandler to bubble up the status
+318,2018-11-02 21:19:39.000000000,2018-11-04 07:18:20.000000000,closed,3,fixes #316 update resource and handler to support SPA from handler.yml
+317,2018-11-02 20:24:55.000000000,2018-11-10 20:49:22.000000000,closed,1,handle the situation that the alias is not server in the server.keystore
+316,2018-11-02 04:02:23.000000000,2018-11-10 20:49:22.000000000,closed,4,support default path in handler.yml for single page application
+315,2018-11-01 19:30:37.000000000,2018-11-26 21:59:11.000000000,closed,4,light-4j benchmark
+314,2018-10-31 06:26:15.000000000,2018-11-10 20:49:22.000000000,closed,2,update status.yml ERR10016 to have only one parameter
+313,2018-10-30 15:08:02.000000000,1970-01-01 00:00:00.000000001,open,4,Integrate with acme4j to get lets encrypt certificate automatically
+312,2018-10-27 23:46:02.000000000,2018-11-26 22:01:16.000000000,closed,4,Need to allow server to be embedded
+311,2018-10-27 23:44:18.000000000,2018-11-04 00:13:04.000000000,closed,4,Refactored code from main() to init() so server can be embedded.
+310,2018-10-23 23:42:15.000000000,2018-10-27 00:12:54.000000000,closed,1,Collect environment element in the Metrics Handler
+309,2018-10-17 01:22:24.000000000,2019-02-16 19:09:41.000000000,closed,4,Read configurations from arbitrary directories
+308,2018-10-16 21:55:35.000000000,2018-10-27 00:12:54.000000000,closed,1,Set correct status code if Method or URI from request could not be resolved in the handler chain
+307,2018-10-08 16:57:07.000000000,2019-07-16 18:52:20.000000000,closed,5,JDK 11 Upgrade
+306,2018-10-04 00:45:52.000000000,2018-10-05 15:58:32.000000000,closed,0,Handler needs to properly escape characters in the Status description
+305,2018-10-03 23:18:36.000000000,2018-10-05 15:58:32.000000000,closed,0,MiddlewareHandler.register is called for each endpoint
+304,2018-10-03 04:55:14.000000000,2018-10-05 15:58:31.000000000,closed,0,provide default security.yml and move providerId to jwt.yml
+303,2018-10-03 02:28:24.000000000,2019-02-16 19:48:38.000000000,closed,5,cluster.ServiceToUrl hang sometime
+302,2018-10-02 20:53:34.000000000,2018-10-05 15:58:31.000000000,closed,0,Indicate that the BufferSize is too small in client.yml if Body cannot be parsed
+301,2018-10-02 00:15:48.000000000,2018-10-03 22:06:37.000000000,closed,2,Intermittent issues with Consul API discovery
+300,2018-10-01 17:45:24.000000000,1970-01-01 00:00:00.000000001,open,8,Add conditional handler in the handler chain
+299,2018-09-30 01:36:58.000000000,2018-10-05 15:58:31.000000000,closed,3,make bufferSize configurable for default buffer pool in Http2Client
+298,2018-09-29 21:06:38.000000000,2018-09-30 20:21:54.000000000,closed,9,Develop
+297,2018-09-28 00:01:57.000000000,2018-10-05 15:58:31.000000000,closed,0,Add more debug info during startup for the Kubernetes status.hostIP
+296,2018-09-24 20:05:10.000000000,2019-04-10 00:24:32.000000000,closed,1,Add a signed token module for information exchange
+295,2018-09-24 19:24:37.000000000,2018-10-27 00:12:54.000000000,closed,1,Enhance logging in the AuditHandler
+294,2018-09-22 04:33:56.000000000,2018-10-05 15:58:31.000000000,closed,1,Update the config module output to error only when config file not found
+293,2018-09-19 18:17:38.000000000,1970-01-01 00:00:00.000000001,open,3,Adding contact information to status.yml
+292,2018-09-16 00:40:48.000000000,2018-09-21 22:38:53.000000000,closed,7,Updated oauth helper files to handle SAMLBearer grant type
+291,2018-09-16 00:23:41.000000000,2018-09-16 00:32:43.000000000,closed,0,Updated to include changes in client oath files for when SAML and JWT tokens are presented and …
+290,2018-09-13 01:05:07.000000000,2018-09-24 16:00:25.000000000,closed,6,Update OAuthHelper to include new method to support SAML grant type flow
+289,2018-09-11 06:26:29.000000000,2018-09-22 16:21:19.000000000,closed,0,move light-tokenization status codes to status.ym in light-4j
+288,2018-09-11 06:06:41.000000000,2018-09-22 16:21:19.000000000,closed,0,remove unused status code from status.yml
+287,2018-09-11 00:04:14.000000000,2018-09-22 16:21:19.000000000,closed,0,add status code for user-management in light-portal
+286,2018-09-10 17:03:18.000000000,2018-09-22 16:21:19.000000000,closed,0,fix a typo in HashUtil
+285,2018-09-09 20:39:53.000000000,2018-09-10 01:08:23.000000000,closed,2,BodyHandler Middleware to support configurable Content-Type
+284,2018-09-08 05:44:41.000000000,2018-09-08 16:20:23.000000000,closed,1,Update Readme
+283,2018-09-07 17:23:37.000000000,2018-09-22 16:21:19.000000000,closed,0,add pattern matching to differentiate email and userId in StringUtils
+282,2018-09-07 14:29:13.000000000,2018-09-11 22:31:08.000000000,closed,7,"Related to #249, adds an EndpointSource interface for injecting path,…"
+281,2018-09-06 22:02:36.000000000,2018-09-11 00:07:51.000000000,closed,1,fixes #279 Consul heartbeat stream limit being exceeded
+280,2018-09-06 17:36:57.000000000,2019-04-15 19:52:52.000000000,closed,5,need a way to serialize json map object to String for logging with mask
+279,2018-09-06 17:29:05.000000000,2018-09-22 16:21:19.000000000,closed,4,Consul heartbeat stream limit being exceeded
+278,2018-09-05 23:05:08.000000000,2018-09-22 16:21:19.000000000,closed,0,update EmailSender to trust the host from the email.yml
+277,2018-09-05 22:16:43.000000000,2018-09-22 16:21:19.000000000,closed,0,change email module name to email-sender
+276,2018-09-04 23:42:02.000000000,2018-09-22 16:21:18.000000000,closed,0,create http-url module for url related utility
+275,2018-09-04 17:33:34.000000000,2018-09-22 16:21:18.000000000,closed,0,create a new http-string module that depends on Undertow
+274,2018-09-04 16:19:49.000000000,2018-09-22 16:21:18.000000000,closed,0,add replaceOnce to StringUtil in utility module
+273,2018-09-01 23:47:37.000000000,2018-09-22 16:21:18.000000000,closed,0,set the right default port number for DirectRegistry
+272,2018-09-01 21:10:08.000000000,2018-10-06 03:44:58.000000000,closed,6,Environment config in client only applications
+271,2018-08-25 05:18:26.000000000,2018-09-22 16:21:18.000000000,closed,0,add error codes for light-config-server
+270,2018-08-21 21:38:20.000000000,2018-08-21 21:39:27.000000000,closed,0,Created by accident
+269,2018-08-20 07:44:43.000000000,2018-09-22 16:21:18.000000000,closed,0,rename datasource to data-source
+268,2018-08-20 07:28:53.000000000,2018-09-22 16:21:18.000000000,closed,0,rename deref to deref-token
+267,2018-08-20 07:27:33.000000000,2018-09-22 16:21:18.000000000,closed,0,rename limit to rate-limit
+266,2018-08-20 07:16:59.000000000,2018-09-22 16:21:18.000000000,closed,0,rename basic to basic-auth
+265,2018-08-20 03:31:38.000000000,2018-08-20 03:31:44.000000000,closed,0,enhancement for light-oauth2 provider module
+264,2018-08-16 21:31:21.000000000,2018-09-22 16:21:17.000000000,closed,0,update deregisterAfter from 90m to 2m
+263,2018-08-15 14:54:18.000000000,2018-08-16 03:57:45.000000000,closed,3,Re-starting Server no longer works
+262,2018-08-15 06:39:53.000000000,2018-08-16 03:57:45.000000000,closed,8,health endpoint with serviceId as path parameter
+261,2018-08-14 21:24:04.000000000,2018-08-16 03:57:45.000000000,closed,0,Address graceful server shutdown while encountering an exception during start-up
+260,2018-08-13 20:33:42.000000000,2018-08-16 03:57:45.000000000,closed,0,add a default consul.yml for consul client
+259,2018-08-13 18:16:45.000000000,2018-08-13 22:47:58.000000000,closed,5,Adding HandlerProvider support to list of handlers.
+258,2018-08-13 18:15:00.000000000,2018-08-15 18:13:47.000000000,closed,2,Support HandlerProvider definitions in handler.yml configuration definitions
+257,2018-08-13 05:19:07.000000000,2018-08-16 03:57:44.000000000,closed,0,flatten the config files into the same directory for k8s
+256,2018-08-13 00:59:04.000000000,2018-08-16 03:57:44.000000000,closed,1,add getJwtClaimsWithExpiresIn for digital signing only in light-oauth2 token service
+255,2018-08-11 06:49:23.000000000,2018-08-16 03:57:44.000000000,closed,0,remove description in the CorrelationHandler config file
+254,2018-08-10 19:29:01.000000000,2018-08-11 04:48:12.000000000,closed,1,Do not require ignored config
+253,2018-08-10 19:28:39.000000000,2018-08-11 04:40:26.000000000,closed,1, Descriptive Exception on unknown chain or handler in handler.yml
+252,2018-08-10 18:13:47.000000000,2018-08-16 05:19:05.000000000,closed,6,OpenAPI and GraphQL ValidatorHandlers conflict on config file names
+251,2018-08-10 18:05:58.000000000,2018-08-11 04:38:58.000000000,closed,0,Fix issue causing query params to be missing from exchange.
+250,2018-08-10 17:53:50.000000000,2018-08-11 18:07:18.000000000,closed,0,Fix issue causing path variables not to show up in query params when using new handler config
+249,2018-08-10 01:16:50.000000000,2018-09-30 04:32:07.000000000,closed,27,Feedback request to change interface of handler.yml to support multi-path/multi-method combinations
+248,2018-08-08 16:09:41.000000000,1970-01-01 00:00:00.000000001,open,4,Support for multiple server URLs in OpenAPI
+247,2018-08-07 23:44:38.000000000,2018-08-16 03:57:45.000000000,closed,1,"Reproduce issue in handler chaining, ensure that the MiddlewareHandler interface is respected"
+246,2018-08-06 02:27:39.000000000,2018-08-16 03:57:44.000000000,closed,0,enable http2 for consul client when TLS is enabled
+245,2018-08-03 13:05:13.000000000,2018-08-03 13:27:20.000000000,closed,1,Safer set exchange status
+244,2018-08-03 12:23:06.000000000,2018-08-09 23:01:53.000000000,closed,5,catastrophic setExchangeStatus calls without args
+243,2018-08-01 03:25:10.000000000,2018-08-16 03:57:44.000000000,closed,0,upgrade to undertow 2.0.11.Final
+242,2018-07-24 18:47:50.000000000,2018-08-16 03:57:44.000000000,closed,2,several enhancements for Consul registration
+241,2018-07-19 03:21:14.000000000,2019-04-25 03:50:45.000000000,closed,8,Add circuit breaker to the client module
+240,2018-07-12 19:04:45.000000000,2019-04-25 03:50:45.000000000,closed,4,Provide a handle to set connection timeout on ClientConnection object
+239,2018-07-06 23:08:39.000000000,2018-07-16 02:00:02.000000000,closed,0,update readme.md to fix the document links
+238,2018-07-06 17:34:38.000000000,2018-07-19 03:12:50.000000000,closed,6,networknt page is not working
+237,2018-07-06 00:49:16.000000000,2018-08-08 22:19:52.000000000,closed,2,Client module logging integration functionality
+236,2018-07-05 21:52:55.000000000,2018-07-05 23:51:17.000000000,closed,0,move HandlerProvider interface to handler package from server
+235,2018-06-30 00:13:04.000000000,2018-09-22 16:21:17.000000000,closed,0,add a handler for IP whitelisting
+234,2018-06-28 18:56:45.000000000,1970-01-01 00:00:00.000000001,open,4,TraceabilityHandler not being logged?
+233,2018-06-26 06:50:57.000000000,2018-07-05 23:51:17.000000000,closed,0,separate de-reference middleware handler to its own module
+232,2018-06-25 21:41:42.000000000,2018-07-05 23:51:17.000000000,closed,0,"Add ""severity"" to Status"
+231,2018-06-24 00:23:22.000000000,2018-11-28 01:44:32.000000000,closed,3,Should DecryptUtil be moved to the utility package?
+230,2018-06-23 23:08:59.000000000,2018-07-05 23:51:17.000000000,closed,0,add error status for token dereference in light-oauth2 token service
+229,2018-06-23 18:58:29.000000000,2018-07-05 23:51:16.000000000,closed,0,add an error status code for light-oauth2 client registration
+228,2018-06-23 17:00:55.000000000,2018-07-05 23:51:16.000000000,closed,0,"log the class, method, file and line number for status"
+227,2018-06-22 23:15:16.000000000,2018-06-28 17:01:52.000000000,closed,0,Feat/path middleware handler
+226,2018-06-22 18:35:57.000000000,2018-07-05 23:51:16.000000000,closed,0,move the basic authentication middleware handler from light-rest-4j
+225,2018-06-21 21:54:14.000000000,2018-07-05 23:51:16.000000000,closed,0,enhance client module to add de-reference token in OauthHelper
+224,2018-06-21 21:30:57.000000000,2018-07-05 23:51:16.000000000,closed,0,Add a middleware handler to de-reference opaque access token to JWT
+223,2018-06-20 23:23:49.000000000,2018-07-05 23:51:16.000000000,closed,0,log error if config file cannot be found in all possible locations
+222,2018-06-19 20:53:15.000000000,2018-07-05 23:51:17.000000000,closed,0,Extending handler chain configuration functionality
+221,2018-06-18 17:23:00.000000000,2018-06-19 19:04:32.000000000,closed,0,Feat/path middleware handler
+220,2018-06-18 04:40:24.000000000,2018-06-18 18:28:27.000000000,closed,0,add datasource module for most popular relational databases
+219,2018-06-14 22:54:31.000000000,2018-06-15 05:35:41.000000000,closed,1,Adding InputStream to String conversion utility
+218,2018-06-14 03:45:25.000000000,2018-06-14 03:59:54.000000000,closed,1,Fix216
+217,2018-06-13 22:50:06.000000000,2018-06-18 18:28:27.000000000,closed,0,create LightHttpHandler with default method to handle the error status
+216,2018-06-13 08:33:14.000000000,2018-06-18 18:28:27.000000000,closed,7,A default content-type is not set
+215,2018-06-11 17:33:36.000000000,2018-06-18 18:28:27.000000000,closed,0,add a new status code in status.yml for authenticate class not found
+214,2018-06-07 05:06:47.000000000,2018-06-18 18:28:27.000000000,closed,0,Add a Build Number to the server.yml
+213,2018-06-01 23:35:32.000000000,2018-06-01 23:40:38.000000000,closed,2,testing addition of graceful shutdown handler
+212,2018-05-29 19:23:52.000000000,2018-06-18 18:28:27.000000000,closed,0,add constants to utility Constants for light-router
+211,2018-05-20 02:12:21.000000000,2018-05-20 02:15:50.000000000,closed,0,update client.yml and secret.yml in other modules
+210,2018-05-18 20:42:35.000000000,2018-06-18 18:28:26.000000000,closed,0,Dynamic server  listener port configuration
+209,2018-05-18 17:26:38.000000000,2018-05-20 02:15:50.000000000,closed,0,Rename resources module to resource for consistency
+208,2018-05-17 06:02:13.000000000,2018-05-20 02:15:50.000000000,closed,0,update client module to support refresh token flow for light-spa-4j
+207,2018-05-17 05:56:13.000000000,2018-05-20 02:15:49.000000000,closed,0,update verifyJwt with ignoreExpiry flag
+206,2018-05-17 05:50:23.000000000,2018-05-20 02:15:49.000000000,closed,0,add default method setExchangeStatus into MiddlewareHandler
+205,2018-05-15 05:39:11.000000000,2018-05-20 02:15:49.000000000,closed,0,move auth and csrf to light-spa-4j repository
+204,2018-05-15 05:32:54.000000000,2018-05-20 02:15:49.000000000,closed,0,add error code for light-spa-4j stateless-token handler
+203,2018-05-14 23:36:52.000000000,2018-05-20 02:15:49.000000000,closed,0,switch StatelessAuthHandler to middleware handler
+202,2018-05-14 22:25:12.000000000,2018-05-25 05:48:56.000000000,closed,1,OAuthHelper needs to handle the error status from OAuth 2.0 provider
+201,2018-05-14 17:52:27.000000000,2018-05-20 02:15:49.000000000,closed,0,add stateless auth and csrf handlers for SPA application
+200,2018-05-14 05:26:58.000000000,2018-05-20 02:15:49.000000000,closed,1,pass csrf token in oauth token request
+199,2018-05-05 20:07:42.000000000,2018-05-20 02:15:49.000000000,closed,0,add status code for light-proxy tableau authentication handler
+198,2018-05-02 00:04:06.000000000,2018-05-20 02:15:49.000000000,closed,0,move password in jwt.yml to secret.yml
+197,2018-04-30 00:52:46.000000000,2018-04-30 00:57:11.000000000,closed,0,Feature/resource providers
+196,2018-04-29 16:53:08.000000000,2018-05-20 02:15:49.000000000,closed,0,share the connections to consul in ConsulClientImpl
+195,2018-04-19 17:37:53.000000000,2018-04-19 18:01:34.000000000,closed,0,light-codegen command line error handling
+194,2018-04-19 17:06:17.000000000,1970-01-01 00:00:00.000000001,open,0,add a new middleware handler to push metrics to Kafka topic directly
+193,2018-04-13 02:45:19.000000000,1970-01-01 00:00:00.000000001,open,3,Mapped Diagnostic Context (MDC) is not working if request is cross multiple threads
+192,2018-04-07 07:18:23.000000000,2018-04-08 21:00:41.000000000,closed,0,upgrade to prometheus 0.3.0
+191,2018-04-07 06:53:56.000000000,2018-04-08 21:00:41.000000000,closed,0,rollback zkclient to 0.3
+190,2018-04-07 06:45:59.000000000,2018-04-08 21:00:41.000000000,closed,0,remove consul client and update version for zkclient and curator
+189,2018-04-07 06:20:22.000000000,2018-04-08 21:00:41.000000000,closed,0,remove antlr4 from dependencies
+188,2018-04-05 00:42:10.000000000,2018-04-08 21:00:41.000000000,closed,0,upgrade jackson 2.9.5 remove swagger from light-4j dependencies
+187,2018-04-03 06:17:02.000000000,2018-04-11 21:56:17.000000000,closed,1,upgrade jackson library to 2.9.4
+186,2018-04-03 02:05:55.000000000,2018-04-08 21:00:40.000000000,closed,0,add two more test cases for Http2Client
+185,2018-04-03 00:28:15.000000000,2018-04-11 21:59:41.000000000,closed,2,put client credentials token into authorization header instead of X-Scope-Token header
+184,2018-03-30 23:49:53.000000000,2018-04-01 02:47:48.000000000,closed,0,add ERR11300 FAIL_TO_GET_TABLEAU_TOKEN error code in status.yml
+183,2018-03-30 23:07:56.000000000,2018-04-01 02:47:48.000000000,closed,0,check if trace is enabled in Http2Client logger
+182,2018-03-30 12:29:50.000000000,2018-04-11 22:00:12.000000000,closed,1,Using dependency injection with annotations
+181,2018-03-22 20:12:05.000000000,2018-08-11 06:05:12.000000000,closed,2,extend Http2Client to OAuth 2.0 provider communication to support arbitrary number of parameters
+180,2018-03-21 05:15:33.000000000,2018-04-01 02:47:48.000000000,closed,0,add isBlank to StringUtil in utility class
+179,2018-03-21 04:19:10.000000000,2018-04-01 02:47:48.000000000,closed,0,split JwtHelper to JwtHelper for token verification and JwtIssuer to issue token
+178,2018-03-20 22:22:31.000000000,2018-04-01 02:47:48.000000000,closed,0,JWT signing private key cannot be externalized
+177,2018-03-18 07:12:01.000000000,2018-04-01 02:47:48.000000000,closed,0,remove Apache commons-lang dependency from mask
+176,2018-03-18 06:24:46.000000000,2018-04-01 02:47:48.000000000,closed,0,remove commons-io dependencies
+175,2018-03-18 05:47:31.000000000,2018-04-01 02:47:48.000000000,closed,0,refactor CorsHttpHandlerTest to use Http2Client
+174,2018-03-18 04:58:08.000000000,2018-03-18 05:09:47.000000000,closed,3,feat(util): Add toByteBuffer overload util method to convert files.
+173,2018-03-16 21:45:15.000000000,2018-04-01 02:47:48.000000000,closed,0,add status code ERR11202 for hybrid-4j get request
+172,2018-03-15 18:14:32.000000000,2018-04-01 02:47:48.000000000,closed,0,scope encoding changes space to plus sign in OAuthHelper
+171,2018-03-07 05:12:24.000000000,2018-04-01 02:47:48.000000000,closed,0,remove unused import in DecryptUtil
+170,2018-02-28 23:09:25.000000000,2018-03-02 19:28:48.000000000,closed,0,add subject_claims and access_claims constants
+169,2018-02-28 05:57:14.000000000,2018-06-18 18:28:26.000000000,closed,2,Unexpected behavior when Status is created for non-existent status code
+168,2018-02-28 05:51:23.000000000,2018-03-02 19:28:48.000000000,closed,0,Port enabling indicator
+167,2018-02-24 14:31:11.000000000,2019-09-22 05:41:38.000000000,closed,22,provide skywalking light-4j plugin
+166,2018-02-23 05:36:33.000000000,2018-02-23 05:42:48.000000000,closed,0,prometheus metrics package and class name change
+165,2018-02-22 03:07:29.000000000,2018-04-11 22:02:08.000000000,closed,1,name convention between metrics and prometheus
+164,2018-02-22 00:08:36.000000000,2018-03-02 19:28:48.000000000,closed,0,add prometheus to the module list in parent pom.xml
+163,2018-02-21 23:48:13.000000000,2018-02-21 23:54:08.000000000,closed,0,get latest develop branch
+162,2018-02-18 23:39:04.000000000,2018-02-21 06:35:53.000000000,closed,3,Support dynamic port binding for Kubernetes hostNetwork
+161,2018-02-18 18:42:16.000000000,2019-01-26 07:34:48.000000000,closed,2,[question] - grpc adoption within light4j
+160,2018-02-14 20:10:38.000000000,2018-02-14 20:10:50.000000000,closed,0,update to latest Develop branch
+159,2018-02-08 07:25:12.000000000,2018-02-21 06:35:53.000000000,closed,0,switch light-config-server connection to HTTP 2.0
+158,2018-02-03 04:47:42.000000000,2018-02-03 06:13:51.000000000,closed,0,fix a typo in variable JwT_CLOCK_SKEW_IN_SECONDS
+157,2018-02-02 19:42:41.000000000,2018-09-24 19:50:32.000000000,closed,7,server does not create zip file from config server correctly
+156,2018-02-02 05:50:10.000000000,2018-02-03 06:13:51.000000000,closed,0,accept other optional fields in OAuth2 token response
+155,2018-01-17 01:20:44.000000000,1970-01-01 00:00:00.000000001,open,1,Add the ability to reset the connection in the Client Module by configurable discriminators
+154,2018-01-14 21:59:09.000000000,2018-02-03 06:13:51.000000000,closed,0,handle a list of string instead of list of maps in BodyHandler
+153,2018-01-14 21:56:04.000000000,2018-02-03 06:13:51.000000000,closed,0,Add a status code ERR12042 SERVICE_ENDPOINT_NOT_FOUND
+152,2018-01-10 02:28:07.000000000,2018-01-10 07:23:05.000000000,closed,1,Fix HTTP verbs
+151,2018-01-04 00:30:09.000000000,2018-01-09 06:13:56.000000000,closed,1,change secret.yml loading from SecretConfig to Map for flexibility
+150,2018-01-01 21:32:15.000000000,2018-04-11 22:02:54.000000000,closed,0,create a middleware handler for Prometheus
+149,2018-01-01 18:42:35.000000000,2018-01-09 06:13:56.000000000,closed,0,provide a utility to substitute environment variables in config 
+148,2017-12-29 04:28:07.000000000,2017-12-29 09:43:40.000000000,closed,0,some compiler warnings 
+147,2017-12-27 04:05:19.000000000,2017-12-29 09:43:40.000000000,closed,0,Add email sender module and update secret.yml
+146,2017-12-22 02:38:03.000000000,2017-12-29 09:43:40.000000000,closed,0,Get token un Http2Client line 367 is hard coded using Http2
+145,2017-12-19 04:00:51.000000000,2017-12-29 09:43:40.000000000,closed,0,Add host header for getkey in oauthHelper for HTTP 1.1
+144,2017-12-14 22:09:59.000000000,2017-12-16 03:10:40.000000000,closed,0,Find a way to propagate callback exception to the caller thread in Http2Client
+143,2017-12-13 06:28:12.000000000,2017-12-16 03:10:40.000000000,closed,1,Encrypt the values in secret.yml
+142,2017-12-13 06:22:17.000000000,2017-12-16 03:10:39.000000000,closed,0,Add two more callback functions in Http2Client to return response time
+141,2017-12-12 20:51:38.000000000,2017-12-16 03:10:39.000000000,closed,0,Adding java bean initializer and manual injection test cases for service module
+140,2017-12-09 01:30:54.000000000,2017-12-16 03:10:39.000000000,closed,2,make it configurable to  get jwt public certificates from cache or from oauth server 
+139,2017-12-08 22:46:15.000000000,2018-01-01 21:27:41.000000000,closed,0,Remove docs folder and repo specific document site once all contents are migrated
+138,2017-12-03 06:54:28.000000000,2017-12-16 03:10:39.000000000,closed,0,Add support for two or more beans initialized by one initializer class and method
+137,2017-12-03 05:36:21.000000000,2017-12-16 03:10:39.000000000,closed,0,Add an API to manipulate SingletonServiceFactory to add new entries programatically
+136,2017-12-02 06:31:52.000000000,2017-12-16 03:10:39.000000000,closed,0,Loading Java bean with initializer class and method in service module
+135,2017-11-25 06:42:56.000000000,2017-11-25 06:43:24.000000000,closed,0,Reduce token endpoint access timeout to 4 seconds
+134,2017-11-25 06:21:29.000000000,2017-11-25 06:43:23.000000000,closed,0,Remove e.printStackTrace() in the source code
+133,2017-11-22 00:36:12.000000000,2017-11-25 06:25:14.000000000,closed,2,Customized client callbacks  
+132,2017-11-20 23:31:48.000000000,2017-11-20 23:38:36.000000000,closed,0,Need to ensure that server lookup returns null if there is no entry defined in service.yml
+131,2017-11-20 08:44:41.000000000,2017-11-20 08:54:26.000000000,closed,0,Fixed the class cast exception in service module if getting an array but only one impl is configured
+130,2017-11-20 05:30:48.000000000,2017-11-20 05:44:32.000000000,closed,0,Add a new constant OPENAPI_OPERATION_STRING for OpenAPI 3.0 support
+129,2017-11-16 02:53:57.000000000,2017-11-20 05:44:32.000000000,closed,1,Improve configurability for networknt.handler.MiddlewareHandler
+128,2017-11-14 09:10:36.000000000,2017-11-20 05:32:39.000000000,closed,1,Error in travis build log for limit test
+127,2017-11-14 07:47:16.000000000,2017-11-20 05:44:32.000000000,closed,0,Add support for interface with generic type in service module
+126,2017-11-14 03:16:35.000000000,2017-11-20 05:44:32.000000000,closed,0,Update serviceMap key to interface class name instead of class in service module
+125,2017-11-11 03:22:00.000000000,2017-11-20 05:44:32.000000000,closed,0,Need to check certain section is empty for header.yml in HeaderHandler
+124,2017-11-02 01:26:16.000000000,2017-11-10 06:32:12.000000000,closed,0,Remove mockito dependencies in most modules
+123,2017-11-01 23:35:40.000000000,2017-11-10 06:32:12.000000000,closed,0,Add pre-release script to update versions
+122,2017-11-01 02:19:55.000000000,2017-11-10 06:32:12.000000000,closed,1,Customize return of the status from cross-cutting concerns
+121,2017-10-31 17:32:47.000000000,2017-11-10 06:32:12.000000000,closed,0,Add url debug output in ConsulClientImpl
+120,2017-10-28 14:03:16.000000000,2017-11-10 06:32:12.000000000,closed,0,Split integration tests from unit tests
+119,2017-10-25 12:38:03.000000000,2017-11-10 06:32:12.000000000,closed,0,Server module should only initialize client instance if config server is enabled
+118,2017-10-20 05:57:11.000000000,2017-10-21 07:30:35.000000000,closed,0,Add a header handler to manipulate request header based on the config file
+117,2017-10-16 16:32:16.000000000,2017-10-21 07:30:35.000000000,closed,0,Add SecretConfig to model properties in secret.yml instead of Map. 
+116,2017-10-14 21:58:39.000000000,2017-10-21 07:30:35.000000000,closed,0,Change server registry and client discovery to support environment tag for test segregation
+115,2017-10-07 03:29:15.000000000,2017-10-20 05:52:36.000000000,closed,1,Example of file upload via light4j
+114,2017-10-04 06:19:26.000000000,2017-10-21 07:30:35.000000000,closed,0,Add utilities classes for light-workflow-4j
+113,2017-09-29 13:44:24.000000000,2017-11-10 06:32:12.000000000,closed,1,Make Jwt token verification cache configurable.
+112,2017-09-29 06:32:23.000000000,2017-10-21 07:30:35.000000000,closed,0,Remove some dependencies as they are not being used or can be eliminated
+111,2017-09-28 06:12:26.000000000,2017-09-28 06:40:26.000000000,closed,1,"Upgraded Undertow, Added Utility Interfaces for Header, path, query extraction"
+110,2017-09-28 05:55:28.000000000,2017-09-28 06:10:38.000000000,closed,0,Resolved Issue #2 - Upgrade to Undertow 1.4.20.Final
+109,2017-09-27 00:32:36.000000000,2017-09-28 01:29:34.000000000,closed,4,How to create singleton if one bean depends on another via YML file
+108,2017-09-26 09:47:11.000000000,2017-10-25 12:33:11.000000000,closed,4,Upgrade to Undertow 1.4.20.Final
+107,2017-09-26 09:35:34.000000000,2017-09-26 17:36:24.000000000,closed,1,Resolved #1 Upgrading libraries and other changes
+106,2017-09-25 08:50:26.000000000,2017-09-28 01:30:18.000000000,closed,2,Upgrade dependency versions for commons lang + deprecate commons-codec
+105,2017-09-25 04:44:20.000000000,2017-09-28 01:30:01.000000000,closed,8,How to read JSON body from an Http POST call
+104,2017-09-24 23:00:51.000000000,2017-10-21 07:30:35.000000000,closed,8,Utility methods in server project for accessing path variables
+103,2017-09-23 22:26:22.000000000,2019-01-26 18:58:25.000000000,closed,6,Warnings with Java 9
+102,2017-09-22 19:08:24.000000000,2017-09-22 19:33:16.000000000,closed,0,Return invalid json error in body handler for malformed body
+101,2017-09-18 16:00:10.000000000,2017-09-21 01:59:28.000000000,closed,2,Update BodyHandler to parse the body and then put the stream back for subsequent handlers
+100,2017-09-14 21:56:56.000000000,2017-09-18 15:54:39.000000000,closed,1,Add a reverse proxy middleware handler
+99,2017-08-31 03:56:21.000000000,2017-08-31 05:57:02.000000000,closed,3,Update SingletonServiceFactory.java
+98,2017-08-31 02:22:13.000000000,2017-08-31 02:34:21.000000000,closed,0,Upgrade to undertow 1.4.19.Final as there an HTTP 2.0 bug in 1.4.18.Final
+97,2017-08-31 00:23:33.000000000,2017-08-31 02:34:21.000000000,closed,0,Add host head when sending requests to influxdb in InfluxDbHttpSender
+96,2017-08-30 06:32:14.000000000,2017-08-31 02:34:21.000000000,closed,1,Add enableHttp2 in client.yml to control if Http2Client will be using HTTP 2.0 protocol
+95,2017-08-27 06:39:17.000000000,2017-08-31 02:34:21.000000000,closed,0,Refactor server info component object so that it is easy to be consumed by api-certification
+94,2017-08-25 03:56:35.000000000,2017-09-10 19:45:11.000000000,closed,0,Calling consul directly with Http2Client instead of consul client
+93,2017-08-25 03:50:53.000000000,2017-08-31 02:34:21.000000000,closed,0,update default client.yml to remove the settings for http1.1
+92,2017-08-23 18:53:16.000000000,2017-08-23 19:22:58.000000000,closed,1,Update README.md
+91,2017-08-23 15:52:26.000000000,2017-08-23 17:04:36.000000000,closed,5,Update SingletonServiceFactory.java
+90,2017-08-21 00:31:05.000000000,2017-08-23 02:58:37.000000000,closed,0,Remove Client which depends on apache httpclient and replace with Http2Client
+89,2017-08-19 03:56:17.000000000,2020-07-03 16:49:26.000000000,closed,1,Pass through a list of headers from one service to another in service to service communication with http request
+88,2017-08-11 01:01:03.000000000,2017-08-12 12:17:10.000000000,closed,6,gzip compression 
+87,2017-08-10 05:40:01.000000000,2017-08-23 02:58:37.000000000,closed,0,Upgrade to undertow 1.4.18.Final to support http2
+86,2017-08-09 09:57:48.000000000,2017-08-18 22:18:02.000000000,closed,4,Any support for http2?
+85,2017-08-08 23:20:23.000000000,2017-08-23 02:58:37.000000000,closed,0,Complete the Http2Client in client module
+84,2017-08-08 20:50:36.000000000,2017-08-23 02:58:37.000000000,closed,0,Dynamically load public key certificate from OAuth2 provider
+83,2017-08-03 19:24:19.000000000,2017-08-03 19:32:06.000000000,closed,1,Config module: Added 2 extra test cases for LocalDateTime and LocalDate
+82,2017-08-03 16:41:05.000000000,2017-08-18 01:33:35.000000000,closed,3,Register JavaTimeModule for the default Jackson ObjectMapper from Config
+81,2017-08-01 06:11:03.000000000,2017-08-01 06:11:36.000000000,closed,0,Remove jsoniter dependencies in mask until it has a feature of jsonpath
+80,2017-08-01 04:44:20.000000000,2017-08-01 04:47:04.000000000,closed,0,Update validatePassword in HashUtil to accept origianlPassword as char[] instead of String
+79,2017-07-20 18:51:36.000000000,2017-08-01 04:47:04.000000000,closed,0,Add TLS certificate and OAuth2 certificate SHA1 fingerprint to the /server/info output
+78,2017-07-18 17:48:44.000000000,2017-07-18 18:07:16.000000000,closed,0,Resolve security issues reported from Fortify scanner
+77,2017-07-13 04:33:50.000000000,2017-07-18 17:45:09.000000000,closed,0,Remove JsonPath in Mask module with JsonIter to simplify dependencies
+76,2017-07-12 20:15:13.000000000,2017-07-12 20:16:12.000000000,closed,0,Add getTempDir for NioUtils and add test cases for zip file manipulation
+75,2017-07-06 18:33:51.000000000,2017-07-08 11:36:36.000000000,closed,1,InetAddress is not working in Docker for Mac as hostname is not mapped to /etc/hosts
+74,2017-07-06 08:04:40.000000000,2017-07-08 11:36:36.000000000,closed,0,Update ConsulRegistry to refactor discovery cache to one layer from two
+73,2017-07-04 02:26:34.000000000,2017-10-11 20:57:26.000000000,closed,1,Implement session manager that can support web server cluster.
+72,2017-06-23 06:55:04.000000000,2017-06-23 06:55:48.000000000,closed,0,Add CodeVerifierUtil to support PKCE in light-oauth2 implementation
+71,2017-06-14 20:18:06.000000000,2017-06-15 00:44:06.000000000,closed,0,Break the metrics tie to security for client_id
+70,2017-06-14 15:37:49.000000000,2017-06-14 15:46:57.000000000,closed,0,Make UnsafeLongAdderImpl default construction public
+69,2017-06-14 15:27:01.000000000,2017-06-14 16:50:33.000000000,closed,2,Switch to AuditInfo attachment for metrics collection
+68,2017-06-14 06:52:37.000000000,2017-06-14 15:46:57.000000000,closed,0,Add debug level log when InfluxDb reporter is call with counter size.
+67,2017-06-14 06:13:13.000000000,2017-06-14 15:46:57.000000000,closed,0,Add serviceId sId into slf4j MDC so that it can be added to all logging statement along with cId
+66,2017-06-12 18:10:44.000000000,2017-06-14 15:46:56.000000000,closed,1,Switch to undertow server and client truststore and keystore
+65,2017-06-07 04:39:18.000000000,2017-06-14 15:47:50.000000000,closed,8,microservices sample error
+64,2017-06-04 15:04:13.000000000,2017-08-25 18:26:26.000000000,closed,1,Create a websocket example in light-example-4j to demo how to use websocket endpoint.
+63,2017-06-01 00:26:32.000000000,2017-06-01 00:27:58.000000000,closed,0,Update HealthHandler to HealthGetHandler in order to inject into the light-rest-4j generator in light-codegen
+62,2017-05-08 23:59:35.000000000,2017-05-11 17:46:07.000000000,closed,0,Upgrade json-schema-validator to 0.1.7 from 0.1.5
+61,2017-05-08 03:59:15.000000000,2017-05-08 04:01:39.000000000,closed,0,Response time and status code is not shown up in audit log
+60,2017-05-07 05:28:01.000000000,2017-05-11 17:46:07.000000000,closed,0,Put more comments in source code to improve the readability
+59,2017-05-05 22:29:15.000000000,2017-05-06 15:24:49.000000000,closed,0,Change the project name to light-4j instead of light-java as java is a trademark of Oracle
+58,2017-05-04 19:51:20.000000000,2017-06-14 15:46:56.000000000,closed,0,Request and response filter implementation
+57,2017-05-04 19:49:37.000000000,1970-01-01 00:00:00.000000001,open,5,Add fine-grained authorization along with JWT and scope
+56,2017-05-02 23:16:01.000000000,2017-05-02 23:50:38.000000000,closed,1,test case need to be fix
+55,2017-05-02 20:35:04.000000000,2017-06-20 03:17:32.000000000,closed,3,test: use random port
+54,2017-04-30 03:02:03.000000000,2017-05-03 02:06:39.000000000,closed,0,Create a NioUtils with some helpers in utility module
+53,2017-04-29 05:37:33.000000000,2017-06-14 15:51:16.000000000,closed,3,quell “InfluxDbReporter report is called” ?
+52,2017-04-27 01:25:28.000000000,2017-05-03 02:06:39.000000000,closed,0,Add NIO utility and status code to support light-codegen
+51,2017-04-24 21:54:23.000000000,2018-04-20 13:52:03.000000000,closed,3,Sanitizer mangles content
+50,2017-04-18 23:59:10.000000000,2017-09-13 21:32:29.000000000,closed,1,service.yml configuration need to have entry name that is unique in order to support two or more db connection pools
+49,2017-04-15 21:52:20.000000000,2017-04-17 00:38:32.000000000,closed,6,Config server not read
+48,2017-04-12 06:01:12.000000000,2017-04-16 17:21:41.000000000,closed,0,Clean up status.yml and add comments for each segment
+47,2017-04-06 23:14:58.000000000,2017-06-20 02:49:06.000000000,closed,0,JWT token verification with cached token and expire time
+46,2017-04-06 22:39:16.000000000,2017-04-06 23:04:01.000000000,closed,0,Adding kid to the header of the JWT token issued by light-java.
+45,2017-04-06 21:10:06.000000000,2017-04-06 21:11:27.000000000,closed,1,Bump up scope mismatch log from debug to warn as it is security violation
+44,2017-04-06 06:53:27.000000000,1970-01-01 00:00:00.000000001,open,1,"logging, auditig and metrics through Kafka and console"
+43,2017-04-04 21:05:55.000000000,2017-04-16 17:21:41.000000000,closed,0,Add more debug info to metrics as people having trouble to config it right with Influxdb
+42,2017-04-04 06:08:10.000000000,2017-04-16 17:21:41.000000000,closed,0,Upgrade dependencies to the latest version
+41,2017-04-03 18:33:31.000000000,2017-04-06 06:31:13.000000000,closed,1,Client - propagateHeaders expect JWT token to be in the request header or output an error. 
+40,2017-04-03 18:30:12.000000000,2017-09-13 21:26:36.000000000,closed,2,Client - propagateHeaders is depending on the JWT token to be in the header. 
+39,2017-04-02 10:24:49.000000000,2017-06-14 15:52:28.000000000,closed,3,light-java performance
+38,2017-03-26 18:54:31.000000000,2017-03-26 18:56:37.000000000,closed,0,Add status code and a util method for light-java-graphql
+37,2017-03-20 17:18:06.000000000,2017-07-21 00:12:08.000000000,closed,7,Unable to retrieve request body
+36,2017-03-18 21:55:58.000000000,2017-03-19 05:26:06.000000000,closed,0,Upgrade to undertow 1.4.11.Final
+35,2017-03-17 21:12:09.000000000,2017-03-17 22:57:54.000000000,closed,2,Token scope and spec scope mismatch error is not clear in logs
+34,2017-03-16 19:29:51.000000000,2017-03-18 06:50:20.000000000,closed,0,Switch server and client to HTTP/2
+33,2017-03-12 19:30:56.000000000,2017-03-18 07:56:45.000000000,closed,0,Separate secrets from config files in order to support Kubernetes secrets and configmap
+32,2017-03-12 06:29:42.000000000,2017-03-18 06:50:20.000000000,closed,0,Config file support yaml format along with json
+31,2017-03-09 05:53:34.000000000,2017-06-20 03:15:25.000000000,closed,4,Need to encrypt secrets in config files so that they won't be leaked
+30,2017-03-07 23:02:38.000000000,2017-03-09 05:49:50.000000000,closed,0,NullPointerException when populating a request to call another API due to original token is missing
+29,2017-02-24 21:18:29.000000000,2017-09-13 21:41:46.000000000,closed,1,Centralize configurations to light-config-server which is backed by git repositories
+28,2017-02-19 20:35:08.000000000,2017-02-24 21:20:26.000000000,closed,2,"Alternate Config impls ... S3, http?"
+27,2017-02-17 04:39:42.000000000,2017-02-18 00:36:45.000000000,closed,0,Add rate limit in order to prevent DDOS attack for public facing services
+26,2017-02-16 18:35:04.000000000,2017-02-18 18:27:59.000000000,closed,1,Allow cors handler to specify which method is allowed.
+25,2017-02-08 08:07:28.000000000,2017-02-08 08:08:48.000000000,closed,0,Add a system property to redirect jboss logs to slf4j
+24,2017-02-07 08:36:07.000000000,2017-09-13 21:39:37.000000000,closed,1,Revisit client module for the per route connection pooling in config in cluster/load balance/discovery environment.
+23,2017-02-07 08:33:01.000000000,2018-12-15 08:39:42.000000000,closed,1,refactor the dump handler to support response body logging
+22,2017-02-04 08:25:40.000000000,2017-02-04 08:25:43.000000000,closed,0,Add TLS support for server module
+21,2017-02-04 08:25:10.000000000,2017-02-04 08:25:16.000000000,closed,0,Add cluster module to work with client module for service discovery and load balance
+20,2017-02-02 07:25:42.000000000,2018-08-11 06:45:55.000000000,closed,1,"When stopping the server, give 30 seconds grace period to let service discovery propagate to all clients"
+19,2017-02-02 07:20:30.000000000,2017-08-25 22:32:22.000000000,closed,1,Timeout when looking up from consul with ecwid client
+18,2017-01-22 20:53:09.000000000,2017-01-23 00:25:11.000000000,closed,0,"Spin off swagger, validator and security to light-java-rest repo"
+17,2017-01-19 08:23:02.000000000,2017-01-23 00:25:11.000000000,closed,0,Integrate service registry and discovery with Server and Client modules
+16,2017-01-19 05:20:46.000000000,2017-01-19 08:21:49.000000000,closed,0,service - support parameterized constructor instead of default constructor and then set properties
+15,2017-01-19 02:26:46.000000000,2017-01-19 03:13:18.000000000,closed,0,Resolve Maven Eclipse errors
+14,2017-01-14 19:16:18.000000000,2017-01-22 09:04:22.000000000,closed,0,Implement a CORS handler to support calls from Single Page Application from another domain
+13,2017-01-13 00:32:54.000000000,1970-01-01 00:00:00.000000001,open,2,Mask body in list or map format instead of string format
+12,2017-01-08 19:36:47.000000000,2017-01-08 19:38:26.000000000,closed,0,Update JwtHelper to throw JoseException instead of throwing Exception
+11,2017-01-07 08:41:37.000000000,2017-03-02 02:33:55.000000000,closed,7,Find the best location to inject server info to the routing handler
+10,2017-01-07 08:21:13.000000000,2017-01-19 08:23:13.000000000,closed,2,Implement service registry and discovery that support consul and zookeeper
+9,2017-01-06 18:29:33.000000000,2017-09-13 21:32:44.000000000,closed,0,[service module] Add support for multiple definitions and bean references
+8,2016-12-30 07:10:04.000000000,2017-03-26 19:01:54.000000000,closed,6,Implement GraphQL support with light-java-graphql
+7,2016-12-30 00:50:59.000000000,2016-12-30 00:53:15.000000000,closed,1,"Add a load balancer matching across the local host, then round-robin"
+6,2016-12-07 17:56:35.000000000,2017-11-01 23:39:49.000000000,closed,4,Implement rpc and websocket support with light-java-rpc
+5,2016-12-03 13:08:43.000000000,2017-06-14 15:54:06.000000000,closed,3,"Any plan to create tools like ""jhispter"" to help build microservices?"
+4,2016-11-11 13:53:45.000000000,2016-11-11 16:13:12.000000000,closed,1,Docs: Fix switched links
+3,2016-11-08 00:34:13.000000000,2016-11-08 00:54:31.000000000,closed,1,"Fixing small issue with documentation's example. (Changing ""clone ...…"
+2,2016-11-02 05:08:37.000000000,2016-11-04 05:58:09.000000000,closed,0,Exchange already complete in jwt token if scope is mismatched
+1,2016-10-13 05:58:07.000000000,2016-10-18 14:15:17.000000000,closed,1,Add a Gitter chat badge to README.md

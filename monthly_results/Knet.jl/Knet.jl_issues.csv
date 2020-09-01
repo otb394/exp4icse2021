@@ -1,0 +1,612 @@
+id,created_at,closed_at,state,comments,title
+611,2020-08-30 16:04:38.000000000,1970-01-01 00:00:00.000000001,open,2,libknet8 library not found
+610,2020-08-29 01:42:30.000000000,1970-01-01 00:00:00.000000001,open,0, ERROR: LoadError: MethodError: no method matching unsafe_free!(::Nothing)
+609,2020-08-28 11:56:04.000000000,2020-08-28 16:19:59.000000000,closed,0,Fix #606 gcnode issue
+608,2020-08-28 06:00:51.000000000,1970-01-01 00:00:00.000000001,open,0,Knet.Data
+607,2020-08-28 05:57:29.000000000,1970-01-01 00:00:00.000000001,open,0,Knet.Layers20
+606,2020-08-28 05:56:07.000000000,2020-08-28 16:20:01.000000000,closed,0,"gcnode is not working properly, debug and add tests"
+605,2020-08-28 05:55:34.000000000,1970-01-01 00:00:00.000000001,open,0,Knet.CUDNN: a submodule for cudnn calls
+604,2020-08-24 04:23:56.000000000,1970-01-01 00:00:00.000000001,open,0,Feature Request: Instance Normalization
+603,2020-08-24 03:00:07.000000000,1970-01-01 00:00:00.000000001,open,0,Feature request: `DataParallel` like in PyTorch
+602,2020-08-21 18:01:39.000000000,2020-08-31 04:51:14.000000000,closed,4,Knet GPU OOM with recent CUDA/Knet updates
+601,2020-08-20 18:51:55.000000000,1970-01-01 00:00:00.000000001,open,1,Feature request: checkpointing utility (trade compute for memory)
+600,2020-08-20 16:29:14.000000000,1970-01-01 00:00:00.000000001,open,2,Knet v1.4 loading v1.3.9 model: JLD2- Knet.softmax not defined in workspace
+599,2020-08-20 15:10:13.000000000,1970-01-01 00:00:00.000000001,open,0,Add equivalent PyTorch/TensorFlow examples to the tutorials.
+598,2020-08-20 05:04:52.000000000,2020-08-21 08:41:32.000000000,closed,2,Knet.randn! not defined in v1.4.0
+597,2020-08-19 04:51:44.000000000,2020-08-19 16:08:37.000000000,closed,2,RNN fails in a fresh installation of the latest Knet release
+596,2020-08-16 22:48:19.000000000,2020-08-19 14:21:53.000000000,closed,0,Ops20
+595,2020-08-16 21:04:44.000000000,2020-08-16 21:30:12.000000000,closed,2,CUDA.pool not defined
+594,2020-08-16 17:00:38.000000000,2020-08-21 12:47:51.000000000,closed,9,CPU computation (Switching off GPU computation)/@diff of Array{} values returns 0-element Array
+593,2020-08-15 13:54:30.000000000,1970-01-01 00:00:00.000000001,open,5,"Latest GPU Installation, Pkg.test(""Knet"") Failure: lib not defined"
+592,2020-08-12 02:54:01.000000000,2020-08-13 14:27:50.000000000,closed,1,Missing website
+591,2020-08-11 17:36:50.000000000,1970-01-01 00:00:00.000000001,open,2,"pool() Discrepancy between KnetArray (pass) and Arrays (fails) for shape (X,1,D,N) "
+590,2020-08-06 10:32:48.000000000,1970-01-01 00:00:00.000000001,open,3,LBFGS optimizer
+589,2020-08-03 23:02:21.000000000,2020-08-24 03:41:47.000000000,closed,18,Seg fault after upgrading to Julia 1.5
+588,2020-08-02 02:13:44.000000000,2020-08-19 08:25:22.000000000,closed,1,Create a profiling suite
+587,2020-08-02 02:12:19.000000000,1970-01-01 00:00:00.000000001,open,3,Make CuArrays work with Knet.load/save.
+586,2020-07-31 09:16:53.000000000,2020-08-19 08:31:16.000000000,closed,2,Knet GPU selection and auto device selection
+585,2020-07-25 14:20:32.000000000,1970-01-01 00:00:00.000000001,open,0,Create Knet.Models21
+584,2020-07-25 14:20:19.000000000,1970-01-01 00:00:00.000000001,open,0,Create Knet.Layers21
+583,2020-07-25 14:18:02.000000000,2020-08-19 08:29:26.000000000,closed,0,Create Knet.Ops20 and add benchmarking for operator set
+582,2020-07-25 14:14:59.000000000,1970-01-01 00:00:00.000000001,open,1,"Test CuArrays on tutorial and examples, benchmark against KnetArrays"
+581,2020-07-25 14:09:17.000000000,1970-01-01 00:00:00.000000001,open,0,"Get rid of libknet8 calls, replace with Julia kernels, CUDA calls, Torch.jl etc."
+580,2020-07-25 14:06:36.000000000,2020-08-04 00:02:27.000000000,closed,0,"Get rid of @cu calls, replace them with CUDA calls"
+579,2020-07-25 13:09:41.000000000,2020-07-25 14:02:53.000000000,closed,2,no method matching length error at model optimization
+578,2020-07-24 17:35:40.000000000,2020-07-25 08:45:15.000000000,closed,0,addtoindex! ambiguity
+577,2020-07-22 12:12:32.000000000,2020-07-24 01:22:33.000000000,closed,1,Update the example in the homepage / make it run smoothly for new users
+576,2020-07-19 11:43:43.000000000,2020-07-25 13:47:06.000000000,closed,1,Warning: Hardware is unsupported by NNPACK so falling back to default NNlib
+575,2020-07-11 15:29:30.000000000,1970-01-01 00:00:00.000000001,open,8,"""No good algo found"" error when JULIA_NUM_THREADS > 1"
+574,2020-07-09 05:30:04.000000000,2020-07-09 07:55:29.000000000,closed,2,Feature request: Depthwise and groupwise convolution
+573,2020-07-07 22:31:06.000000000,1970-01-01 00:00:00.000000001,open,5,Use CUDA.jl functions where possible
+572,2020-07-07 13:15:32.000000000,1970-01-01 00:00:00.000000001,open,4,Copy pasted example code doesn't work
+571,2020-07-04 21:45:22.000000000,2020-07-08 00:18:07.000000000,closed,1,travis does not push new docs
+570,2020-07-04 21:01:28.000000000,2020-07-07 22:30:31.000000000,closed,1,"CuArrays.jl: DEPRECATED, use CUDA.jl instead!"
+569,2020-06-26 16:10:18.000000000,2020-08-04 00:15:47.000000000,closed,7,cudnn 8.0 compatibility
+568,2020-06-21 00:41:42.000000000,2020-06-23 02:18:59.000000000,closed,4,GPU tests suggested in the documentation failing 
+567,2020-06-20 23:32:41.000000000,2020-07-25 13:54:28.000000000,closed,2,CUDAapi doesn't seem to have find_host_compiler
+566,2020-06-20 19:16:02.000000000,2020-08-19 08:13:44.000000000,closed,7,Is it possible to provide Knet GPU support in BinaryBuilder
+565,2020-06-20 19:15:17.000000000,2020-06-20 19:28:37.000000000,closed,2,Installing and `using Knet` doesn't work
+564,2020-06-16 18:40:33.000000000,1970-01-01 00:00:00.000000001,open,1,scheduler interface
+563,2020-05-23 20:45:27.000000000,2020-05-30 14:26:35.000000000,closed,6,NLL loss
+562,2020-05-22 14:28:18.000000000,2020-07-04 20:50:33.000000000,closed,14,Performance degradation
+561,2020-05-18 17:39:08.000000000,2020-05-23 09:39:58.000000000,closed,2,Loading Knet breaks Julia's copyto! on 1.5
+560,2020-05-11 15:03:04.000000000,2020-05-11 17:19:46.000000000,closed,1,"Further notes on GPU tools, especially for windows"
+559,2020-05-06 23:36:43.000000000,2020-05-08 16:07:14.000000000,closed,2,How to cite Knet in a research?
+558,2020-05-03 11:42:44.000000000,2020-07-04 20:56:26.000000000,closed,1,"collect now needs size, collect(progress()) fails"
+557,2020-04-29 19:13:32.000000000,2020-05-14 13:59:12.000000000,closed,5,Bug: Loading a model made using the Chain struct fails
+556,2020-04-29 09:16:16.000000000,1970-01-01 00:00:00.000000001,open,4,gc issue?
+555,2020-04-25 13:28:08.000000000,1970-01-01 00:00:00.000000001,open,0,[Question] Feeding 2D (N features over time T) Data into an RNN
+554,2020-04-23 21:06:32.000000000,2020-06-20 22:57:27.000000000,closed,4,Broadcasted copyto! .(+/*)= operator is undefined for AutoGrad
+553,2020-04-20 00:17:33.000000000,2020-04-21 01:02:56.000000000,closed,3,Error when testing Knet
+552,2020-04-17 14:07:18.000000000,1970-01-01 00:00:00.000000001,open,0,test/rnn.jl gives intermittent errors during testing (probably gpu memory issue)
+551,2020-04-17 13:04:37.000000000,1970-01-01 00:00:00.000000001,open,0,Pkg.installed is deprecated
+550,2020-04-15 16:56:24.000000000,2020-08-19 08:12:55.000000000,closed,2,"Use CuArrays, eliminate dependency on nvcc by implementing gpu kernels in julia"
+549,2020-04-12 23:47:07.000000000,2020-04-15 16:18:58.000000000,closed,16,GPU discoverability with CUDAapi v4.0
+548,2020-04-11 00:00:12.000000000,2020-04-15 04:10:06.000000000,closed,1,Memory allocation and deallocation of temporary variables
+547,2020-04-03 20:14:33.000000000,1970-01-01 00:00:00.000000001,open,4,Adding GELU implementation
+546,2020-03-31 13:21:46.000000000,2020-04-25 12:40:33.000000000,closed,3,add gpu install docs for azure/ubuntu18.04
+545,2020-03-22 11:03:30.000000000,2020-03-29 12:43:41.000000000,closed,1,Knet.save error in julia 1.4
+544,2020-03-10 21:35:35.000000000,2020-03-18 22:27:46.000000000,closed,5,Reading from a KNetArray within a GPU kernel function
+543,2020-03-09 20:16:57.000000000,2020-04-17 14:07:49.000000000,closed,11,test with CUDAapi v4.0
+542,2020-03-01 15:53:06.000000000,1970-01-01 00:00:00.000000001,open,0,define a reshaping general matmul rather than using mat
+541,2020-02-23 11:50:44.000000000,2020-03-29 17:28:57.000000000,closed,5,respect to CUDA_VISIBLE_DEVICES
+540,2020-02-12 16:21:57.000000000,2020-03-29 13:38:55.000000000,closed,4,"KnetArray error : expected UnionAll, got typeof(Knet.CuArray)"
+539,2020-02-08 20:40:29.000000000,2020-02-10 13:03:19.000000000,closed,0,Install TagBot as a GitHub Action
+538,2020-02-07 01:58:59.000000000,2020-02-12 14:20:22.000000000,closed,2,Cannot `convert` an object of type AutoGrad.Result{Float32} to an object of type Float64
+537,2020-02-05 17:39:50.000000000,2020-02-07 02:37:02.000000000,closed,3,AssertionError: vec(value(x)) isa WTYPE
+536,2020-02-05 14:54:43.000000000,1970-01-01 00:00:00.000000001,open,1,Feature request: Ignore padding in NLL loss.
+535,2020-01-29 22:30:57.000000000,2020-01-29 22:48:56.000000000,closed,1,Convert KnetArray to CuArray and back
+534,2020-01-28 22:17:27.000000000,2020-08-19 08:08:48.000000000,closed,6,[bug when broadcasting KnetArray] UndefVarError: lib not defined
+533,2020-01-26 20:14:23.000000000,2020-01-27 12:48:44.000000000,closed,3,aws images do not work
+532,2020-01-08 19:08:17.000000000,2020-01-08 23:14:56.000000000,closed,1,Feature Request: Compatibility with CuArrays 1.6.0
+531,2020-01-06 11:10:11.000000000,1970-01-01 00:00:00.000000001,open,1,Knet build error
+530,2020-01-05 12:42:11.000000000,2020-07-09 07:44:27.000000000,closed,10,problems on test Knet and find_host_compiler
+529,2020-01-02 16:49:47.000000000,1970-01-01 00:00:00.000000001,open,3,tutorial fixes and simplifications
+528,2019-12-23 02:25:17.000000000,2019-12-31 13:30:57.000000000,closed,1,julia1.3.0/knet132 build conf.jl gradcheck error
+527,2019-12-12 00:12:47.000000000,2020-01-02 22:11:22.000000000,closed,1,Test error on test/serialize.jl and broken tests on test/conv.jl
+526,2019-12-07 00:50:33.000000000,2019-12-17 13:47:12.000000000,closed,2,"fixed primitive for bmm, added more gradient tests for bmm"
+525,2019-11-30 02:06:55.000000000,2019-12-05 11:21:38.000000000,closed,1,A numerical example for Knet.nll for the documentation
+524,2019-11-29 08:10:21.000000000,2019-11-30 10:20:03.000000000,closed,2,the error of test for Knet in dropout.jl
+523,2019-11-28 00:13:09.000000000,2019-12-07 04:53:39.000000000,closed,1,memory usage printings
+522,2019-11-23 20:31:51.000000000,2019-11-24 11:04:53.000000000,closed,3,Alexander barth master
+521,2019-11-23 19:31:27.000000000,2019-11-26 09:36:10.000000000,closed,1,fix issue #518: conv4 allocates outside of the memory pool #518
+520,2019-11-19 23:59:11.000000000,2019-11-24 11:04:55.000000000,closed,1, xavier intializer using the same convention as TensorFlow and PyTorch
+519,2019-11-17 08:40:55.000000000,1970-01-01 00:00:00.000000001,open,0,Feature Request: Add Mish Activation Function
+518,2019-11-15 19:40:02.000000000,2019-11-25 21:01:09.000000000,closed,2,conv4 allocates outside of the memory pool 
+517,2019-11-07 12:35:22.000000000,1970-01-01 00:00:00.000000001,open,3,Feature request: Support Base.Threads.@spawn 
+516,2019-11-07 11:10:30.000000000,2019-11-07 11:41:08.000000000,closed,0,Dy/cuarrays13
+515,2019-11-07 01:08:12.000000000,2019-11-26 09:36:51.000000000,closed,2,scaling xavier intializer comparared to other frameworks 
+514,2019-10-25 00:09:59.000000000,2019-10-25 11:58:02.000000000,closed,0,solved remaining curand out of memory problem
+513,2019-10-24 09:54:06.000000000,1970-01-01 00:00:00.000000001,open,2,change Knet/data location to a central place like Conda.jl
+512,2019-10-23 10:21:09.000000000,1970-01-01 00:00:00.000000001,open,1,training API improvements
+511,2019-10-22 13:38:05.000000000,1970-01-01 00:00:00.000000001,open,0,update! ambiguity
+510,2019-10-21 22:54:46.000000000,2019-10-22 09:17:16.000000000,closed,0,fixing #506: rnn serialization and gc issues
+509,2019-10-20 14:57:57.000000000,2019-10-22 10:12:48.000000000,closed,0,progressbar should print on stderr by default
+508,2019-10-19 02:01:05.000000000,2020-08-19 08:08:05.000000000,closed,1,"Tutorial 15. quickstart fail (Knet 1.2.7, Julia 1.1.1, Windows 10)  "
+507,2019-10-18 20:15:07.000000000,1970-01-01 00:00:00.000000001,open,2,"Package Tests is failing (Julia 1.1.1, Cuda 10.1, Windows 10)"
+506,2019-10-18 10:47:10.000000000,2019-10-22 10:12:48.000000000,closed,1,RNN serialization issues
+505,2019-10-17 18:26:55.000000000,1970-01-01 00:00:00.000000001,open,3,InexactError when broadcasting two KnetArrays
+504,2019-10-17 18:08:12.000000000,1970-01-01 00:00:00.000000001,open,2,KnetArray doesn't support broadcasting for Float16
+503,2019-10-15 17:17:28.000000000,1970-01-01 00:00:00.000000001,open,1,conv4 dilation not tested or described in the CNN chapter
+502,2019-10-09 09:40:41.000000000,2020-08-04 13:33:06.000000000,closed,1,StackOverflowError when broadcast between number and KnetArray{Bool}
+501,2019-10-02 16:21:30.000000000,1970-01-01 00:00:00.000000001,open,0,isless() for Complex numbers undefined
+500,2019-09-29 22:58:05.000000000,2019-10-09 12:13:11.000000000,closed,2,im2col! incompatibility with Complex numbers
+499,2019-09-28 02:06:23.000000000,2019-09-29 16:18:42.000000000,closed,3,"fixes #495, adds transpose functionality to bmm, faster cpu kernel"
+498,2019-09-26 23:21:59.000000000,2019-09-29 16:19:19.000000000,closed,1,Fix for Element-wise power of KnetArray give NaN results #108
+497,2019-09-26 22:02:30.000000000,2019-09-29 16:15:12.000000000,closed,3,bmm! example error #495
+496,2019-09-26 02:13:58.000000000,1970-01-01 00:00:00.000000001,open,3,Nvidia Jetson Nano: conv4 error: No good algo found
+495,2019-09-25 01:21:06.000000000,2019-09-29 16:18:42.000000000,closed,1,bmm! example error
+494,2019-09-25 00:57:12.000000000,2019-09-25 06:54:38.000000000,closed,5,Switch to NNlib for CPU conv/pool in pure Julia.
+493,2019-09-23 21:01:57.000000000,2019-09-25 09:11:44.000000000,closed,4,Attempting to fix build on non-CUDA systems with has_cuda()
+492,2019-09-22 18:19:56.000000000,1970-01-01 00:00:00.000000001,open,3,Feature request: LayerNormLSTM kernel
+491,2019-09-20 08:10:21.000000000,2019-09-20 08:10:29.000000000,closed,0,Use CuArrays.usage_limit[] to improve stability
+490,2019-09-19 21:08:48.000000000,2019-09-21 10:34:47.000000000,closed,8,"Add CI for windows, freebsd, ARM"
+489,2019-09-19 20:51:05.000000000,2019-09-27 18:02:41.000000000,closed,5,Windows & ARM error in conv4: UndefVarError: lib not defined
+488,2019-09-19 07:32:52.000000000,2019-09-19 23:03:08.000000000,closed,1,"new memory manager, more KnetArray functions"
+487,2019-09-16 15:16:56.000000000,1970-01-01 00:00:00.000000001,open,0,Create vae_mnist_new_architecture.jl
+486,2019-09-07 18:04:45.000000000,2020-04-02 10:58:42.000000000,closed,11,SpecialFunctions loggamma update
+485,2019-09-07 14:15:22.000000000,1970-01-01 00:00:00.000000001,open,21,  v1.2.5 : Out of gpu memory
+484,2019-09-06 17:08:37.000000000,2019-09-26 21:55:28.000000000,closed,7,lib not defined on `using Knet`
+483,2019-09-05 07:57:30.000000000,2019-09-05 13:22:43.000000000,closed,5,"ERROR: LoadError: LoadError: ""loggamma"" is not defined in module Knet"
+482,2019-09-03 07:01:10.000000000,2019-09-06 07:02:35.000000000,closed,3,RNN ERROR: AssertionError: vec(value(x)) isa WTYPE
+481,2019-08-30 04:44:03.000000000,1970-01-01 00:00:00.000000001,open,0,Doc concerning padding for conv4 is not very clear
+480,2019-08-29 22:47:21.000000000,2019-09-04 21:53:50.000000000,closed,1,dy/comp542
+479,2019-08-26 00:22:17.000000000,1970-01-01 00:00:00.000000001,open,1,Float64 scalar Param with Float32 array Params gets Float32 gradient and breaks update!
+478,2019-08-17 09:36:03.000000000,1970-01-01 00:00:00.000000001,open,0,Support cuDNN extended RNN interface
+477,2019-08-16 04:05:40.000000000,1970-01-01 00:00:00.000000001,open,1,Feature request: Add output_padding for deconv4
+476,2019-08-08 23:08:46.000000000,2019-08-09 00:56:02.000000000,closed,2,Scalar value on GPU
+475,2019-08-08 18:49:30.000000000,1970-01-01 00:00:00.000000001,open,4,Unable to index KnetArray using KnetArray
+474,2019-08-01 08:37:38.000000000,2019-08-10 10:48:46.000000000,closed,1,Permutedims
+473,2019-07-23 07:36:32.000000000,1970-01-01 00:00:00.000000001,open,0,Feature request: cudnn Spatial Grid Generator and Sampler
+472,2019-07-06 11:22:36.000000000,2019-07-06 13:46:31.000000000,closed,1,`mat` bug for dims=3 
+471,2019-07-06 09:37:47.000000000,1970-01-01 00:00:00.000000001,open,1,Writing a kernel 
+470,2019-06-25 11:32:22.000000000,2019-08-29 22:31:56.000000000,closed,8,"""vcat"" doesnt work for 3D KnetArrays"
+469,2019-06-24 22:20:06.000000000,1970-01-01 00:00:00.000000001,open,0,cpucopy(::RNN) followed by Knet.save causes Julia segfault
+468,2019-06-24 21:36:29.000000000,1970-01-01 00:00:00.000000001,open,0,"models created and saved with gpu, loaded cpu-only give type mismatch because of reshaped/reinterpreted arrays"
+467,2019-06-21 14:34:41.000000000,1970-01-01 00:00:00.000000001,open,0,mapslice support
+466,2019-06-17 14:26:11.000000000,1970-01-01 00:00:00.000000001,open,6,Add Masked NLL interface
+465,2019-06-10 12:48:54.000000000,1970-01-01 00:00:00.000000001,open,0,Memory leakage in a custom RNN
+464,2019-05-29 09:41:01.000000000,2019-06-19 05:50:57.000000000,closed,5,Broadcast for bmm
+463,2019-05-23 18:59:14.000000000,2019-05-24 17:29:40.000000000,closed,0,rnn hidden state gradients
+462,2019-05-21 11:34:16.000000000,1970-01-01 00:00:00.000000001,open,0,limitation in deconv4?
+461,2019-05-02 14:03:44.000000000,1970-01-01 00:00:00.000000001,open,0,reduce operations produce error for KnetArray if last dimension has size 1
+460,2019-04-30 12:05:51.000000000,1970-01-01 00:00:00.000000001,open,0,RNN output inconsistent when mixing Float32 and Float64 (large numerical errors?)
+459,2019-04-29 22:13:09.000000000,1970-01-01 00:00:00.000000001,open,0,GPU mem taken at start
+458,2019-04-28 11:31:25.000000000,1970-01-01 00:00:00.000000001,open,0,2nd derivative for RNN
+457,2019-04-28 11:31:13.000000000,1970-01-01 00:00:00.000000001,open,0,2nd derivative for CNN
+456,2019-04-28 11:30:58.000000000,1970-01-01 00:00:00.000000001,open,0,2nd derivative for MLP
+455,2019-04-27 11:10:02.000000000,2019-04-27 19:01:52.000000000,closed,0,"erf, erfc are not defined for KnetArray"
+454,2019-04-19 13:55:40.000000000,1970-01-01 00:00:00.000000001,open,0,Broadcast for integer powers produce wrong array dimensions(flatten)
+453,2019-04-19 11:36:52.000000000,1970-01-01 00:00:00.000000001,open,0,Question about how backprop works for KnetArray indexing
+452,2019-04-14 02:18:16.000000000,1970-01-01 00:00:00.000000001,open,0,seed doesn't work in RNNs
+451,2019-04-01 00:42:39.000000000,2019-05-02 14:51:30.000000000,closed,0,notebook fix
+450,2019-03-31 02:01:02.000000000,1970-01-01 00:00:00.000000001,open,11,vcat of Knet.KnetArray{Float64} arrays produces Array{Float64}
+449,2019-03-25 16:44:33.000000000,1970-01-01 00:00:00.000000001,open,5,setting different optimization parameters for different layers / different epochs
+448,2019-03-25 13:49:03.000000000,2019-05-05 00:59:09.000000000,closed,5,Knet.randn! gives error: ccall: could not find function cudaGetErrorString
+447,2019-03-23 18:31:25.000000000,2019-03-23 19:21:19.000000000,closed,1,Higher order derivatives for softmax/logp
+446,2019-03-22 16:38:50.000000000,1970-01-01 00:00:00.000000001,open,0,"`a .= k` is slower than `a .= Array(k)` for `a::Array`, `k::KnetArray`"
+445,2019-03-12 15:44:01.000000000,2019-03-12 16:04:00.000000000,closed,1,Fix typo in LeNet Chain call
+444,2019-03-08 22:28:13.000000000,2019-10-15 17:17:48.000000000,closed,1,conv4 fails for upscale > 1
+443,2019-03-04 05:57:24.000000000,1970-01-01 00:00:00.000000001,open,1,"DCGAN.main("""") fails"
+442,2019-03-04 03:05:12.000000000,1970-01-01 00:00:00.000000001,open,0,gradcheck fails in ml.jl
+441,2019-02-27 14:39:02.000000000,1970-01-01 00:00:00.000000001,open,0,"KnetArray can not be converted to Float, Distribution.jl doesn't work with KnetArray"
+440,2019-02-25 18:19:33.000000000,2019-03-08 03:26:59.000000000,closed,10,UndefVarError: lib not defined
+439,2019-02-21 13:17:31.000000000,2019-03-23 19:21:19.000000000,closed,0,second derivative does not work for nll
+438,2019-02-17 15:25:52.000000000,1970-01-01 00:00:00.000000001,open,0,update! seems not working on truncted weights/gradients
+437,2019-02-16 18:20:23.000000000,2019-02-18 16:33:11.000000000,closed,1,fix link to benchmarks
+436,2019-02-16 03:10:08.000000000,1970-01-01 00:00:00.000000001,open,4,Print ETA
+435,2019-02-15 10:53:30.000000000,2019-02-18 17:47:29.000000000,closed,6,Saving Types using Knet bugged
+434,2019-02-10 14:30:07.000000000,2019-10-15 17:17:40.000000000,closed,3,rename `upscale` to `dilation`
+433,2019-02-02 19:54:00.000000000,2019-02-12 23:40:25.000000000,closed,4,fix serialize bug in #344
+432,2019-01-25 20:53:43.000000000,2019-01-25 22:49:44.000000000,closed,0,fix-serialize
+431,2019-01-22 03:11:20.000000000,1970-01-01 00:00:00.000000001,open,1,support more file formats
+430,2019-01-15 04:58:55.000000000,2019-01-15 19:43:10.000000000,closed,0,Update URL to the stable version of Julia manual
+429,2019-01-13 17:51:13.000000000,2019-05-02 15:27:10.000000000,closed,1,Knet cannot use GPU 
+428,2019-01-09 19:06:23.000000000,2019-01-10 12:48:38.000000000,closed,2,kptr tests not passing on Julia 1.1 rc1
+427,2019-01-08 19:47:29.000000000,2019-01-08 19:56:11.000000000,closed,1,updated instruction to ask for installation of cuDNN
+426,2019-01-08 19:23:20.000000000,1970-01-01 00:00:00.000000001,open,2,`skipInput` for RNN doesn't work for cuDNN 5.15 (but works for cuDNN 7.1.2)
+425,2019-01-08 04:44:08.000000000,2019-02-12 23:14:28.000000000,closed,1,Fixed serialize problem: cpucopy failed with Array of KnetArray.
+424,2019-01-08 01:13:04.000000000,2019-01-08 19:58:11.000000000,closed,8,Cannot find cudnn bug
+423,2019-01-06 10:45:32.000000000,2019-01-21 01:06:57.000000000,closed,1,Built in progress bar and callbacks for train!
+422,2019-01-05 22:42:23.000000000,1970-01-01 00:00:00.000000001,open,1,Fixing ambiguity issue #321
+421,2018-12-21 14:00:00.000000000,2019-01-04 19:47:06.000000000,closed,1,Update reference.md
+420,2018-12-19 05:36:03.000000000,1970-01-01 00:00:00.000000001,open,5,Ilkarman benchmarks
+419,2018-12-18 22:29:10.000000000,2019-01-05 08:05:30.000000000,closed,3,broadcasting user defined functions
+418,2018-12-16 23:52:28.000000000,1970-01-01 00:00:00.000000001,open,5,batchnorm interface update
+417,2018-12-14 09:06:37.000000000,1970-01-01 00:00:00.000000001,open,37,using CuArrays
+416,2018-12-14 00:21:18.000000000,2018-12-17 23:05:19.000000000,closed,7,Fixing #408 and #413
+415,2018-12-13 01:12:16.000000000,2018-12-13 21:59:46.000000000,closed,0,"Fix #412 where KnetArray(randn(Float64,4,4,4,4)).^2 gives a 1-D result"
+414,2018-12-13 00:38:17.000000000,1970-01-01 00:00:00.000000001,open,1,.deprecated folder creates confusion on GitHub search interface
+413,2018-12-13 00:26:35.000000000,2018-12-16 21:54:03.000000000,closed,2,RNN interface does not check input size on GPU devices
+412,2018-12-12 01:44:04.000000000,2018-12-13 21:59:49.000000000,closed,2,strange gc error
+411,2018-12-07 23:08:07.000000000,2019-05-25 17:54:43.000000000,closed,7,conv4 not work in CPU
+410,2018-12-07 21:39:42.000000000,2019-01-05 22:20:30.000000000,closed,2,cannot take derrivative of a scalar function
+409,2018-12-05 22:07:51.000000000,2018-12-17 23:50:34.000000000,closed,3,gradcheck is missing for modular interface
+408,2018-12-05 21:57:53.000000000,1970-01-01 00:00:00.000000001,open,7,RNN interface destroys gradient information
+407,2018-12-03 01:15:00.000000000,2020-08-07 15:12:05.000000000,closed,7,Feature request: group convolutions
+406,2018-12-01 17:04:30.000000000,1970-01-01 00:00:00.000000001,open,1,minibatch cannot support 5 dims KnetArray.
+405,2018-12-01 14:00:05.000000000,1970-01-01 00:00:00.000000001,open,1,ERROR: cudart.cudaMemcpy error 77
+404,2018-11-30 16:35:46.000000000,2018-12-01 06:50:27.000000000,closed,0,"i want to know some thing about @knet8, cause i plan to write pooling5"
+403,2018-11-30 14:42:43.000000000,1970-01-01 00:00:00.000000001,open,1,svd and qr functionality lost
+402,2018-11-30 14:10:58.000000000,2018-12-01 06:50:38.000000000,closed,0,pool(w) cannot deal 5 dims data
+401,2018-11-30 12:46:54.000000000,2018-11-30 12:53:31.000000000,closed,0,is there a tool for 3D convnet?
+400,2018-11-30 03:10:27.000000000,2020-08-19 08:09:54.000000000,closed,3,Concatenation  in 3 dimension missing 
+399,2018-11-23 16:29:29.000000000,2018-11-23 16:36:39.000000000,closed,1,update!
+398,2018-11-22 16:28:18.000000000,2018-11-23 16:36:48.000000000,closed,1,train!
+397,2018-11-21 22:26:11.000000000,2018-11-30 00:58:08.000000000,closed,1,rnn segfault
+396,2018-11-21 22:00:44.000000000,2018-12-14 09:07:25.000000000,closed,13,using CuArrays
+395,2018-11-21 16:15:47.000000000,2018-11-21 17:18:32.000000000,closed,2,ERROR: BoundsError:
+394,2018-11-21 05:06:09.000000000,1970-01-01 00:00:00.000000001,open,5,Port ilkarman benchmark examples to modular interface
+393,2018-11-19 07:32:50.000000000,2018-11-19 07:40:01.000000000,closed,0,Adam optimizer
+392,2018-11-16 13:50:08.000000000,2018-11-19 16:45:43.000000000,closed,1,how to relese the GPU memory
+391,2018-11-14 13:48:38.000000000,2018-11-19 07:40:24.000000000,closed,0,out of gpu memory 
+390,2018-11-14 12:02:10.000000000,2018-12-08 06:02:25.000000000,closed,2,An up to date function index
+389,2018-11-13 17:58:51.000000000,2018-11-23 09:46:50.000000000,closed,3,ERROR: Out of gpu memory
+388,2018-11-13 17:31:04.000000000,2018-12-17 19:24:33.000000000,closed,1,add slack channel to README
+387,2018-11-13 16:45:16.000000000,2018-11-13 17:07:46.000000000,closed,2,Documentation on RNNs are not online
+386,2018-11-12 13:59:46.000000000,2018-11-13 06:48:47.000000000,closed,0," Function callback in function converge, what’s the meaning?. And how to use it "
+385,2018-11-07 12:36:49.000000000,2019-01-05 22:24:01.000000000,closed,1,build fails on windows 10
+384,2018-10-31 03:39:08.000000000,2018-11-30 03:08:43.000000000,closed,5,iteration doesn't work on KnetArray
+383,2018-10-24 06:58:07.000000000,2018-11-12 03:35:11.000000000,closed,2,what's the meaning
+382,2018-10-22 16:15:33.000000000,2018-11-12 03:35:50.000000000,closed,6,Unable to select GPU
+381,2018-10-21 15:52:56.000000000,2018-11-12 03:36:08.000000000,closed,1,ask for question
+380,2018-10-20 16:37:32.000000000,2018-11-12 03:36:20.000000000,closed,1,update problem
+379,2018-10-19 23:05:32.000000000,2018-11-12 03:37:05.000000000,closed,5,PRUNE Implementation in Julia
+378,2018-10-17 10:58:01.000000000,2018-10-21 20:12:24.000000000,closed,0,Cap Documenter.jl to 0.19 on Travis
+377,2018-10-16 05:33:53.000000000,2018-11-12 03:37:26.000000000,closed,1,UnderVarError
+376,2018-10-15 10:52:54.000000000,2018-11-12 03:38:15.000000000,closed,3,the different usages for old knet and new knet
+375,2018-10-11 01:08:09.000000000,2018-12-17 23:41:53.000000000,closed,2,fixes gc warning
+374,2018-10-09 18:25:32.000000000,1970-01-01 00:00:00.000000001,open,7,Fix bce logistic for KnetArrays
+373,2018-10-09 11:42:11.000000000,2018-10-09 18:18:46.000000000,closed,7,julia VGGforw.jlERROR: LoadError: LoadError: UndefVarError: @knet not defined
+372,2018-10-09 10:21:52.000000000,1970-01-01 00:00:00.000000001,open,3,`bce` has different behaviors for Array and KnetArray 
+371,2018-10-05 00:33:14.000000000,2018-10-09 19:02:48.000000000,closed,1,serialization fixes for #370
+370,2018-10-04 22:47:07.000000000,2018-10-09 18:17:47.000000000,closed,4,serialization errors
+369,2018-10-04 19:12:54.000000000,2018-12-14 00:31:38.000000000,closed,1,check LSTM preserve state under new memory manager - is state deleted?
+368,2018-10-04 04:02:27.000000000,2019-09-16 19:09:22.000000000,closed,4,"Feature request for KnetArray: argmax and getindex(::KnetArray{T,3}, ::Colon, ::Array{CartesianIndex})"
+367,2018-10-03 19:53:32.000000000,2018-10-04 04:45:42.000000000,closed,0,Knet.load for non-gpu machines broken
+366,2018-10-01 07:24:55.000000000,1970-01-01 00:00:00.000000001,open,3,1.1.2 Todo List
+365,2018-09-27 16:56:52.000000000,2018-10-29 18:17:17.000000000,closed,6,Use Plots#master in tutorials
+364,2018-09-27 12:01:49.000000000,2018-11-12 03:41:15.000000000,closed,5,Trying to run examples
+363,2018-09-26 20:03:46.000000000,2018-12-18 03:45:51.000000000,closed,4,Batched Matrix Multiplication Operation
+362,2018-09-24 12:12:24.000000000,2018-11-12 03:42:03.000000000,closed,3," How can I fix :""Cannot find libknet8, please rerun Pkg.build(""Knet"").""?"
+361,2018-09-23 19:14:48.000000000,2018-09-28 06:45:21.000000000,closed,4,"Fixes #310, adds softmax,logsoftmax,logistic and bce losses"
+360,2018-09-23 15:30:02.000000000,2018-11-12 03:43:44.000000000,closed,1,Package compatibility caps
+359,2018-09-23 07:32:55.000000000,2018-09-28 19:46:57.000000000,closed,2,"serialization improvements for gpu,cpu transfers"
+358,2018-09-23 04:51:47.000000000,2018-09-23 19:07:27.000000000,closed,2,1.0 Compatible Version of #313. Fixes `logp` and adds  `softmax` functionality
+357,2018-09-21 01:53:42.000000000,2018-10-01 07:12:07.000000000,closed,1,Performance improvements for 1.1.1
+356,2018-09-17 05:45:27.000000000,1970-01-01 00:00:00.000000001,open,0,"build.jl dependencies are not accurate, should include ops.jl"
+355,2018-09-13 17:17:14.000000000,2018-09-15 06:19:44.000000000,closed,2,Got error running v1.1 example on GPU with cuda8.0
+354,2018-09-13 16:21:45.000000000,2018-09-13 16:43:37.000000000,closed,2,A weird error in v1.1
+353,2018-09-12 21:24:11.000000000,2018-09-17 19:05:08.000000000,closed,11,conv4 error : No good algo found
+352,2018-09-11 18:30:37.000000000,2018-09-11 19:13:54.000000000,closed,1,julia1 compat for rl examples
+351,2018-09-11 13:19:37.000000000,2018-09-18 19:56:39.000000000,closed,9,"when running rnnlm-batch.jl and bilstm-tagger.jl and treenn.jl with GPU,it occurs some errors about the gpu device"
+350,2018-09-07 17:49:24.000000000,2018-09-11 01:31:00.000000000,closed,1,Updated examples/overfitting/softmax.ipynb for 1.0
+349,2018-09-07 17:30:25.000000000,2018-09-07 17:49:12.000000000,closed,1,"Precompiling takes a long time, not finishing"
+348,2018-09-04 21:34:52.000000000,2018-09-12 21:20:52.000000000,closed,3,New interface for Knet-1.1
+347,2018-09-02 23:54:16.000000000,1970-01-01 00:00:00.000000001,open,5,RFC on the new interface for Knet-1.1
+346,2018-08-31 19:22:40.000000000,2018-09-10 12:46:49.000000000,closed,3,ERROR: LoadError: LoadError: UndefVarError: Rec not defined
+345,2018-08-31 07:15:32.000000000,1970-01-01 00:00:00.000000001,open,10,copy is slow in Julia1 releases
+344,2018-08-31 05:37:47.000000000,2019-02-12 23:13:50.000000000,closed,7,JLD2 vs Knet load behave differently
+343,2018-08-29 20:59:13.000000000,2018-09-23 07:40:35.000000000,closed,4,fixed IdDict case in serialization
+342,2018-08-28 03:53:17.000000000,2019-01-05 22:30:05.000000000,closed,3,custom broadcasts fails
+341,2018-08-27 20:05:52.000000000,1970-01-01 00:00:00.000000001,open,5,Interested in merging KnetLayers as a submodule?
+340,2018-08-27 09:02:11.000000000,2018-08-28 03:52:49.000000000,closed,5,Knet.save problem
+339,2018-08-23 21:12:33.000000000,2018-08-23 22:54:55.000000000,closed,1,JLD2 interface for Knet
+338,2018-08-23 19:56:46.000000000,2018-08-23 21:07:33.000000000,closed,1,JLD2 interface for Knet
+337,2018-08-23 00:22:55.000000000,2018-10-01 07:25:11.000000000,closed,0,1.1 Todo list
+336,2018-08-22 20:02:07.000000000,2018-08-22 23:51:46.000000000,closed,2,Rnnlm
+335,2018-08-21 04:06:12.000000000,2018-09-07 07:34:28.000000000,closed,4,Add broadcasted for identity
+334,2018-08-20 22:28:26.000000000,2018-08-31 17:24:21.000000000,closed,1,gitlab ci broken
+333,2018-08-20 17:54:58.000000000,2018-08-20 18:29:31.000000000,closed,2,"""Rec not defined"" on current master"
+332,2018-08-20 13:58:20.000000000,2018-08-21 12:37:31.000000000,closed,10,ERROR: ccall: could not find function add_32_16_4 (add_32_11)
+331,2018-08-20 07:26:09.000000000,2018-08-31 17:23:53.000000000,closed,0,Error tagging new release
+330,2018-08-17 17:25:01.000000000,2018-08-17 18:07:46.000000000,closed,3,Update Gitlab CI config.
+329,2018-08-17 00:19:49.000000000,2018-08-19 23:48:51.000000000,closed,0,Charlm
+328,2018-08-16 16:39:35.000000000,1970-01-01 00:00:00.000000001,open,1,is there a ctc loss function implies. for knet ?
+327,2018-08-15 22:59:10.000000000,2018-08-20 04:21:45.000000000,closed,6,logp function arguments conflict
+326,2018-08-13 19:26:37.000000000,2018-08-24 07:52:37.000000000,closed,6,Question about Building Knet under Windows10
+325,2018-08-13 14:13:37.000000000,2018-09-12 23:19:55.000000000,closed,10,can't build Knet in Julia 1.0
+324,2018-08-10 21:11:57.000000000,2018-09-12 23:19:33.000000000,closed,2,LoadError: UndefVarError: is_windows not defined
+323,2018-08-06 00:20:36.000000000,1970-01-01 00:00:00.000000001,open,0,JLD initializes RNN weights when just loading an RNN struct
+322,2018-07-25 18:32:52.000000000,2019-02-10 14:29:28.000000000,closed,1,Feature request: Dilated convolutions
+321,2018-07-20 14:12:54.000000000,2019-08-29 22:41:07.000000000,closed,0,Knet's vcat causing ambiguity with Base 
+320,2018-07-16 11:23:49.000000000,2018-07-16 11:27:27.000000000,closed,1,Convenient conversion method for KnetArray{Float32}(Rec(rand(3)))
+319,2018-07-14 14:23:06.000000000,2020-08-19 08:09:33.000000000,closed,1,cat 4D arrays along channel dimension
+318,2018-07-12 15:44:54.000000000,2018-08-18 18:47:56.000000000,closed,2,[WIP] Fixes for 0.7
+317,2018-07-11 09:02:34.000000000,2018-07-11 10:05:05.000000000,closed,0,MLP with Dropout AutoGrad MethodError
+316,2018-07-10 00:35:56.000000000,2018-08-23 00:18:21.000000000,closed,22,Julia 0.7 compatibility
+315,2018-06-25 23:00:19.000000000,2018-06-26 15:47:25.000000000,closed,1,Bad device id
+314,2018-06-22 04:50:38.000000000,2018-09-03 05:05:15.000000000,closed,3,Annoying stack-overflow error 
+313,2018-06-06 15:01:10.000000000,2018-09-28 06:46:52.000000000,closed,9,"fix for logp, add softmax and logsoftmax alias"
+312,2018-06-06 13:25:55.000000000,2018-08-15 05:28:52.000000000,closed,4,Add GitLab CI.
+311,2018-06-06 04:51:36.000000000,1970-01-01 00:00:00.000000001,open,4,"add Kaiming He initialization, fixed Xavier initialization"
+310,2018-06-01 02:13:51.000000000,2018-08-26 06:32:02.000000000,closed,6,no logp support for 3D KnetArrays 
+309,2018-05-30 05:44:59.000000000,2018-05-31 05:11:35.000000000,closed,0,Device not found on cuda 9.0 ubuntu
+308,2018-05-28 20:17:15.000000000,2018-08-23 21:58:16.000000000,closed,1,resnetlib debug fix
+307,2018-05-20 19:47:28.000000000,2019-01-05 22:47:17.000000000,closed,2,Weird behavior of the grad() function when passed an unusual model
+306,2018-05-17 11:53:52.000000000,2018-09-03 01:56:42.000000000,closed,1,optimizers for abstract arrays
+305,2018-05-16 12:27:02.000000000,1970-01-01 00:00:00.000000001,open,5,Using Knet with StaticArrays
+304,2018-05-09 09:42:57.000000000,2018-05-30 03:17:12.000000000,closed,2,ERROR: MethodError: no method matching length(::Knet.Rmsprop)
+303,2018-04-26 20:31:10.000000000,1970-01-01 00:00:00.000000001,open,0,Distributed Training
+302,2018-04-26 04:06:02.000000000,1970-01-01 00:00:00.000000001,open,10,ONNX support
+301,2018-04-22 14:58:02.000000000,1970-01-01 00:00:00.000000001,open,4,Multiple GPU Error (Core Dumped)
+300,2018-04-18 00:35:12.000000000,2018-04-18 21:14:42.000000000,closed,3,softmax axtivation
+299,2018-04-16 15:59:54.000000000,2018-12-15 00:55:03.000000000,closed,3,Ambiguity in rnnforw usage
+298,2018-04-11 18:15:42.000000000,2018-04-18 10:20:22.000000000,closed,2,"ERROR: MethodError: vcat(::Int64, ::Int64) is ambiguous. Mac OSX 10.13.4"
+297,2018-04-06 12:18:35.000000000,2019-01-05 22:48:59.000000000,closed,2,"""no compilers found, libknet8 will not be built"" on Windows 10"
+296,2018-04-04 12:11:44.000000000,2018-09-03 04:51:17.000000000,closed,3,Test error on master with cuda 9010 and cudnn 7101
+295,2018-04-04 06:02:23.000000000,2018-12-31 12:51:06.000000000,closed,8,Feature request: cuBLAS Strided Batched Matrix Multiply
+294,2018-04-01 02:33:33.000000000,2019-04-01 18:57:08.000000000,closed,23,"gamma, lgamma, digamma work with GPU"
+293,2018-03-31 19:02:21.000000000,2018-09-12 23:19:19.000000000,closed,2,Error: nvcc not found
+292,2018-03-31 12:28:07.000000000,1970-01-01 00:00:00.000000001,open,4,missing digamma kernel for KnetArray
+291,2018-03-31 12:23:15.000000000,2018-04-17 16:53:10.000000000,closed,1,add gamma and lgamma for knet array
+290,2018-03-31 05:22:19.000000000,1970-01-01 00:00:00.000000001,open,2,gamma function causes deadlock for broadcasting KnetArray
+289,2018-03-20 17:10:12.000000000,2018-04-18 20:18:02.000000000,closed,4,fix bnorm cpu back
+288,2018-03-20 14:06:04.000000000,2018-09-12 23:18:55.000000000,closed,2,Batchnorm backward on cpu doesn't seem to take care about scales
+287,2018-03-19 12:33:48.000000000,2018-03-26 12:51:49.000000000,closed,0,fix #284 - dqn-notebook
+286,2018-03-19 00:19:55.000000000,2018-03-26 12:48:11.000000000,closed,0,Add UNK constant to treebank.jl
+285,2018-03-18 16:32:17.000000000,2019-01-05 22:51:32.000000000,closed,15,trying to do a build on windows
+284,2018-03-12 11:04:46.000000000,2018-03-19 12:35:36.000000000,closed,9,Reinforcement Learning Examples
+283,2018-03-11 20:44:20.000000000,2018-03-18 21:55:33.000000000,closed,0,GPU Direct Peer Access
+282,2018-03-10 07:56:37.000000000,2018-03-21 10:08:06.000000000,closed,3,cudnn.cudnnCreate error 4
+281,2018-03-08 17:39:19.000000000,1970-01-01 00:00:00.000000001,open,4,Type conversion fails when using multiple processors
+280,2018-03-03 05:30:52.000000000,2018-03-18 14:17:57.000000000,closed,2,remove deprecated folders
+279,2018-03-03 05:25:57.000000000,2018-03-18 14:18:39.000000000,closed,1,remove <0.6 cruft
+278,2018-03-02 18:13:23.000000000,2018-03-02 22:45:20.000000000,closed,2,"MethodError: hcat(::Int64, ::Int64, ::Int64, ::Int64, ::Int64, ::Int64) is ambiguous. Candidates:   hcat(a::Union{AbstractArray, Number}, as::Union{AbstractArray, Number}...) in Knet at /home/jrun/.julia/v0.6/Knet/src/karray.jl:305"
+277,2018-02-28 18:53:19.000000000,2018-02-28 20:11:45.000000000,closed,0,dropout does not work for the input
+276,2018-02-28 11:45:15.000000000,2019-01-05 22:53:05.000000000,closed,1,quick links in readme
+275,2018-02-20 12:36:48.000000000,2018-03-18 11:30:23.000000000,closed,1,Is that error expected in maximum function ?
+274,2018-02-18 00:04:17.000000000,2018-02-25 17:56:38.000000000,closed,1,CPU and macOS fix
+273,2018-02-17 19:27:17.000000000,1970-01-01 00:00:00.000000001,open,3,missing algebra methods for KnetArray
+272,2018-02-16 13:18:49.000000000,2018-02-25 19:14:16.000000000,closed,1,machines with no gpu
+271,2018-02-14 07:14:19.000000000,2018-02-25 19:18:14.000000000,closed,2,sum performance
+270,2018-02-14 00:45:58.000000000,2018-02-14 11:57:52.000000000,closed,0,GPU problems
+269,2018-02-13 19:47:40.000000000,1970-01-01 00:00:00.000000001,open,7,L2 Decay for Optimizers
+268,2018-02-13 03:35:10.000000000,2018-02-13 12:10:32.000000000,closed,0,Shakespeare bug fix
+267,2018-02-06 18:25:44.000000000,2018-03-18 21:58:36.000000000,closed,4,add convolutional vae example
+266,2018-02-06 16:43:14.000000000,2018-02-25 19:19:25.000000000,closed,8,How to tell Knet of CUDNN libraries for non-root users with CUDNN in home directory
+265,2018-02-02 08:14:47.000000000,1970-01-01 00:00:00.000000001,open,3,Bessel functions
+264,2018-01-31 15:12:11.000000000,2018-09-12 23:18:05.000000000,closed,12,ERROR: curand.curandGenerateNormal error 102
+263,2018-01-26 19:35:56.000000000,1970-01-01 00:00:00.000000001,open,9,add elu and selu activations
+262,2018-01-23 04:21:49.000000000,2018-02-06 05:08:51.000000000,closed,2,"Cannot find library cudart, please install it and rerun Pkg.build(""Knet"")"
+261,2018-01-22 13:08:20.000000000,2018-02-12 13:32:22.000000000,closed,7,cudnn.cudnnPoolingForward error 9
+260,2018-01-17 10:11:14.000000000,1970-01-01 00:00:00.000000001,open,2,Error in backprop when accidentally converting an array to KnetArray twice
+259,2018-01-16 20:38:16.000000000,2018-03-26 12:42:59.000000000,closed,4,Knet not respecting CUDA_VISIBLE_DEVICES?
+258,2018-01-15 05:36:10.000000000,2018-01-26 12:24:36.000000000,closed,2,The control flow of  `dropout` source code maybe wrong 
+257,2018-01-13 09:45:52.000000000,2018-09-14 01:05:52.000000000,closed,1,Error building Knet in julia 0.7 
+256,2018-01-11 19:38:54.000000000,1970-01-01 00:00:00.000000001,open,3,missing conv1d and conv3d
+255,2018-01-09 14:14:55.000000000,2018-02-02 19:04:19.000000000,closed,1,cuda 9.1 cudaDeviceReset error 35
+254,2018-01-09 11:14:35.000000000,2018-02-25 20:17:04.000000000,closed,1,vcat error for numbers
+253,2018-01-06 14:09:43.000000000,2018-02-25 19:20:21.000000000,closed,0,Integrate CudaAPI v0.3
+252,2018-01-06 08:00:47.000000000,2018-02-25 20:04:11.000000000,closed,1,"Add `mean(f::Function, x::KnetArray) = sum(f, x) / length(x)`"
+251,2018-01-05 16:27:41.000000000,2020-08-19 08:06:00.000000000,closed,11,Illegal memory access with CuArrays
+250,2018-01-05 14:36:16.000000000,2018-02-13 20:27:49.000000000,closed,2,shakespear() fails with error 404
+249,2018-01-02 09:37:53.000000000,2018-02-25 19:46:00.000000000,closed,1,"MethodError: similar(::AutoGrad.Rec{Knet.KnetArray{Float32,2}}, ::Tuple{Int64,Int64}) is ambiguous"
+248,2018-01-01 04:47:30.000000000,2018-02-25 19:36:59.000000000,closed,4,"MethodError: no method matching unsafe_getindex!(::Knet.KnetArray{Int64,2}, ::Knet.KnetArray{Int64,2}, ::Colon, ::Knet.KnetArray{Int32,1})"
+247,2017-12-29 18:14:50.000000000,2019-01-05 23:00:26.000000000,closed,2,Dir Denizyuret
+246,2017-12-28 18:27:11.000000000,2018-09-23 21:07:12.000000000,closed,4,Logistic Loss
+245,2017-12-27 22:35:20.000000000,2018-02-25 19:27:57.000000000,closed,1,Why inference using Knet is slow?
+244,2017-12-27 22:21:11.000000000,2017-12-27 23:32:16.000000000,closed,0,Fix README typo
+243,2017-12-27 19:38:11.000000000,2017-12-27 22:17:00.000000000,closed,2,KnetArray newbie question
+242,2017-12-26 15:25:29.000000000,2017-12-26 18:42:58.000000000,closed,2,Make image grid procedure generic
+241,2017-12-26 01:15:15.000000000,2017-12-26 11:40:04.000000000,closed,2,Add DCGAN Example and Demo
+240,2017-12-25 16:20:37.000000000,2017-12-26 15:25:42.000000000,closed,5,"fix mnist data dependency, add Images package"
+239,2017-12-23 16:13:10.000000000,2017-12-24 02:39:13.000000000,closed,2,Use GPUArrays instead of direct cuda implementation
+238,2017-12-21 17:16:59.000000000,2017-12-24 19:22:29.000000000,closed,0,fix mac-os image problem
+237,2017-12-21 16:58:04.000000000,2018-06-14 15:42:02.000000000,closed,16,fix logp for karray
+236,2017-12-21 07:41:25.000000000,1970-01-01 00:00:00.000000001,open,2,"Feature request: isnan, isinf, isfinite for KnetArray"
+235,2017-12-21 05:03:51.000000000,2017-12-25 10:56:12.000000000,closed,2,Feature request: broadcast for 3D array
+234,2017-12-20 16:06:41.000000000,2017-12-21 13:53:19.000000000,closed,1,include batchnorm docs in function reference
+233,2017-12-19 19:25:19.000000000,2017-12-21 13:51:53.000000000,closed,0,Fix Deconvolution Operation
+232,2017-12-18 00:41:45.000000000,2017-12-21 15:25:48.000000000,closed,6,Deconvolution Issues
+231,2017-12-17 21:29:18.000000000,2017-12-24 19:22:29.000000000,closed,2,VGG example broken on MacOS
+230,2017-12-17 21:17:53.000000000,2019-01-05 23:02:21.000000000,closed,12,"Pkg.build(""CUDAdrv"") fails on Windows 10 with Pkg.build(""Knet"") "
+229,2017-12-15 19:47:19.000000000,1970-01-01 00:00:00.000000001,open,2,[WIP] more general indexing for KnetArray
+228,2017-12-15 16:25:33.000000000,2017-12-15 18:12:44.000000000,closed,0,Fix VAE Dependency
+227,2017-12-15 09:41:54.000000000,2017-12-15 16:21:48.000000000,closed,7,"Pkg.build(""Knet"") could not find nvcc version 9.1"
+226,2017-12-15 07:55:35.000000000,2017-12-15 08:01:01.000000000,closed,1,Correct way to mask embedding
+225,2017-12-14 22:31:25.000000000,2017-12-15 18:13:27.000000000,closed,1,vae demo pyplot dependency
+224,2017-12-13 18:57:07.000000000,2017-12-14 21:05:26.000000000,closed,2,DyNet Benchmark examples
+223,2017-12-10 08:07:16.000000000,2017-12-11 20:52:14.000000000,closed,6,CPU bidirectional RNN Implementation and Fixes
+222,2017-12-09 07:25:32.000000000,2017-12-09 14:03:44.000000000,closed,4,"Cannot find library ""$(libnvml)"", please install it and rerun Pkg.build(""Knet"")"
+221,2017-12-09 05:11:39.000000000,2017-12-10 06:19:33.000000000,closed,4,lossgradient returns nothing
+220,2017-12-09 00:35:04.000000000,2017-12-09 01:13:19.000000000,closed,0,CPU RNN WIP (without bidirectional support)
+219,2017-12-08 18:22:03.000000000,2017-12-12 17:04:24.000000000,closed,2,Knet doesn't work on machines without GPU
+218,2017-12-08 03:42:43.000000000,2017-12-10 06:18:57.000000000,closed,3,conv4 upscale parameter
+217,2017-12-07 17:06:44.000000000,2017-12-08 09:14:13.000000000,closed,1,ccall: could not find function dropout_64 in library~/.julia/v0.6/Knet/src/libknet8.so
+216,2017-12-07 03:35:31.000000000,2017-12-07 12:39:41.000000000,closed,1,Fused Batchnorm for CPU
+215,2017-12-07 01:29:45.000000000,2017-12-12 18:35:12.000000000,closed,0,BiLSTM Taggers
+214,2017-12-06 00:44:55.000000000,2017-12-12 18:35:22.000000000,closed,0,Add Tree-structured LSTM example
+213,2017-12-05 18:24:45.000000000,1970-01-01 00:00:00.000000001,open,8,Trying ArrayFire
+212,2017-12-05 17:15:41.000000000,1970-01-01 00:00:00.000000001,open,0,change logp  to log_softmax
+211,2017-12-05 02:05:24.000000000,1970-01-01 00:00:00.000000001,open,0,sort and sort perm for KnetArray along dimension 1
+210,2017-12-03 02:59:51.000000000,2017-12-06 15:47:26.000000000,closed,10,Generic ResNet Implementation
+209,2017-12-01 18:56:27.000000000,2017-12-01 23:07:43.000000000,closed,0,fix test
+208,2017-12-01 13:21:35.000000000,2017-12-01 17:27:47.000000000,closed,3,reshape with colon for KnetArray
+207,2017-11-30 08:35:26.000000000,2017-12-05 02:37:24.000000000,closed,11,Problems with Knet on Macbook Pro
+206,2017-11-28 14:37:14.000000000,2017-11-28 15:36:30.000000000,closed,0,fix mean ambiguity issue
+205,2017-11-28 13:49:01.000000000,1970-01-01 00:00:00.000000001,open,13,New cuDNN interface makes CPU-GPU agnostic development troublesome
+204,2017-11-28 13:25:17.000000000,2017-11-28 15:49:28.000000000,closed,3,Allow non-zero dropout in test time
+203,2017-11-27 16:20:18.000000000,2017-11-28 16:29:19.000000000,closed,1, add randn! for KnetArray 
+202,2017-11-27 03:38:12.000000000,2017-11-27 10:08:29.000000000,closed,3,"Error no method matching unsafe_copy!(::Knet.KnetArray{Float32,2}, ::Int64, ::AutoGrad.Rec{Knet.KnetArray{Float32,1}}, ::Int64, ::Int64)"
+201,2017-11-25 04:14:34.000000000,2017-11-25 12:13:36.000000000,closed,2,Feature request: view of KnetArray
+200,2017-11-24 14:16:32.000000000,2017-11-28 12:09:23.000000000,closed,0,Loop unrolling during backpropagation
+199,2017-11-24 10:04:37.000000000,2017-11-24 12:02:46.000000000,closed,2,Stack overflow error
+198,2017-11-23 08:58:32.000000000,2019-08-29 22:29:35.000000000,closed,33,Feature request: more KnetArray indexing
+197,2017-11-22 04:22:54.000000000,2017-11-28 16:26:04.000000000,closed,1,"Change sumabs2(x) -> sum(abs2, x)"
+196,2017-11-21 13:23:16.000000000,2017-11-28 16:35:02.000000000,closed,0,2 failed deconv tests on Azure
+195,2017-11-19 14:59:54.000000000,2017-11-28 16:38:16.000000000,closed,9,cudnnRNNForwardTraining 3 error in dynamic batch size mode
+194,2017-11-16 18:46:09.000000000,1970-01-01 00:00:00.000000001,open,1,Feature request: tensordot
+193,2017-11-14 22:43:44.000000000,2017-12-01 17:24:57.000000000,closed,3,Batchnorm(CUDNN + CPU) Work in Progress
+192,2017-11-14 05:13:53.000000000,2017-11-28 18:30:14.000000000,closed,3,gradcheck failed in housing.jl example
+191,2017-11-09 02:57:13.000000000,2017-11-09 15:06:59.000000000,closed,0,Parameter Init
+190,2017-11-07 21:38:03.000000000,2017-11-08 04:59:55.000000000,closed,0,Testable cudnn rnn 
+189,2017-11-07 18:27:08.000000000,2017-11-07 20:11:10.000000000,closed,1,Cudnn
+188,2017-10-30 20:58:33.000000000,2017-11-28 16:15:13.000000000,closed,1,Using _sync intrinsic for newer CUDA versions (9.0+)
+187,2017-10-28 03:13:56.000000000,2017-12-24 21:20:49.000000000,closed,2,CUDA kernel build issue
+186,2017-10-27 13:09:06.000000000,2017-12-01 23:20:43.000000000,closed,2,gpu CI failing
+185,2017-10-26 22:51:46.000000000,2017-12-02 19:26:13.000000000,closed,9,add a variational autoencoder example
+184,2017-10-26 22:15:34.000000000,2018-09-12 23:17:36.000000000,closed,1,problem with nested broadcast
+183,2017-10-26 21:19:43.000000000,2017-11-28 16:29:19.000000000,closed,0,randn! for KnetArray
+182,2017-10-25 15:19:16.000000000,2017-11-29 22:03:06.000000000,closed,3,Pooling bug
+181,2017-10-24 00:49:39.000000000,2017-11-29 21:44:54.000000000,closed,5,curand.curandCreateGenerator error 203 in notebook examples/softmax.ipynb
+180,2017-10-23 14:02:26.000000000,2019-01-05 23:25:31.000000000,closed,4,Use JLD2 instead of JLD
+179,2017-10-21 03:27:13.000000000,2019-01-05 23:24:54.000000000,closed,5,ERROR: LoadError: ccall: could not find function getrows_32 in library src/libknet8.so
+178,2017-10-20 16:10:11.000000000,2017-11-19 18:00:25.000000000,closed,10,Use CUDAapi and CUDAdrv to figure out build flags
+177,2017-10-20 13:31:07.000000000,1970-01-01 00:00:00.000000001,open,9,"Test more cudnn functions (batchnorm, lstm, etc.) and use if faster."
+176,2017-10-20 12:34:33.000000000,2019-01-05 23:21:07.000000000,closed,3,Knet can't convert arrays with more than 15 dimensions
+175,2017-10-19 19:00:21.000000000,2017-10-19 21:09:00.000000000,closed,2,Float32 and Float64 arrays concatenation problem
+174,2017-10-12 21:15:38.000000000,2017-10-19 18:20:45.000000000,closed,3,add Nesterov optimizer
+173,2017-10-06 15:37:14.000000000,2017-10-20 17:01:50.000000000,closed,2,"Elementwise functions exp.(::KnetArray),tanh.(::KnetArray),sigm.(::KnetArray) returns Array instead of KnetArray"
+172,2017-10-05 15:54:18.000000000,1970-01-01 00:00:00.000000001,open,12,Use requires for conditional JLD dependency
+171,2017-09-29 15:16:20.000000000,2017-10-19 20:59:16.000000000,closed,1,Ku dependency parser gets slower within time
+170,2017-09-27 20:49:03.000000000,2017-09-28 19:21:42.000000000,closed,0,Broadcast Refactoring
+169,2017-09-27 12:27:05.000000000,2017-10-19 18:20:45.000000000,closed,0,Missing Nesterov momentum
+168,2017-09-27 12:11:37.000000000,2017-10-19 18:43:02.000000000,closed,1,CLArrays
+167,2017-09-25 18:53:00.000000000,2017-12-24 21:19:03.000000000,closed,3,Package test fails for some functions
+166,2017-09-25 00:18:21.000000000,2017-09-25 00:54:28.000000000,closed,2,Bug in .^ for KnetArray{Float32}
+165,2017-09-23 16:08:38.000000000,2017-10-01 16:53:41.000000000,closed,6,Backward compatibility has been broken in LSTM propagation
+164,2017-09-23 15:56:19.000000000,2017-09-27 11:39:37.000000000,closed,3,Extreme slowness while using dropout layer with Julia v0.6
+163,2017-09-22 21:26:26.000000000,2017-10-19 17:47:24.000000000,closed,2,add back error functions
+162,2017-09-22 14:02:56.000000000,2017-11-14 16:17:18.000000000,closed,2,Creation of dynamic graphs for NLP
+161,2017-09-19 19:40:00.000000000,2017-10-19 18:31:01.000000000,closed,4,Update vgg.jl for newer version of Images pkg
+160,2017-09-19 14:33:01.000000000,2017-10-19 15:18:05.000000000,closed,1,Add fashion-mnist example
+159,2017-09-17 21:53:37.000000000,2017-12-01 23:35:32.000000000,closed,2,Deprecations in CUDA9.0
+158,2017-09-07 18:24:46.000000000,2017-09-07 18:25:39.000000000,closed,0,Add GPU CI badges.
+157,2017-09-05 17:26:58.000000000,2017-09-14 09:14:49.000000000,closed,9,Knet build failed on GTX 1080 ti
+156,2017-09-02 05:04:10.000000000,2017-09-28 04:29:07.000000000,closed,4,"MethodError: no method matching sumabs(::AutoGrad.Rec{Knet.KnetArray{Float64,2}}, ::Int64)"
+155,2017-08-30 17:03:58.000000000,2017-10-19 15:07:50.000000000,closed,1,Add 0.6 to travis-CI versions
+154,2017-08-24 23:47:04.000000000,2018-09-03 12:36:34.000000000,closed,4,compatibility with ubuntu 16.04
+153,2017-08-22 16:17:06.000000000,2017-10-19 15:04:13.000000000,closed,1,Argument for saving generated texts to file is added to CharLM example
+152,2017-08-16 10:09:15.000000000,2018-09-15 13:38:32.000000000,closed,4,Modular Interface
+151,2017-08-07 15:16:50.000000000,2017-08-07 21:46:51.000000000,closed,1,charlm example: unicode character error is fixed
+150,2017-08-03 17:49:15.000000000,2020-08-19 08:04:45.000000000,closed,15,Use GPUArray / KnetArray
+149,2017-08-03 11:50:45.000000000,1970-01-01 00:00:00.000000001,open,17,RAM usage increases linearly when using multidimensional broadcast 
+148,2017-08-02 08:06:40.000000000,2017-12-26 11:56:33.000000000,closed,6,Convolution Conjugate?
+147,2017-07-18 16:18:35.000000000,1970-01-01 00:00:00.000000001,open,6,Suggestion: make it easier to initialize parameters
+146,2017-07-12 21:57:58.000000000,2017-08-08 03:23:13.000000000,closed,8,[WIP] Making Knet Smaller
+145,2017-07-12 19:56:23.000000000,2017-07-18 17:47:58.000000000,closed,1,CUDA build failure
+144,2017-07-11 22:53:37.000000000,1970-01-01 00:00:00.000000001,open,14,Modular Interface
+143,2017-07-07 09:22:39.000000000,2017-12-24 20:50:00.000000000,closed,3,To minimize sum of losses from 2 or more different simple Neural Nets with same architecture.
+142,2017-07-05 19:50:25.000000000,2017-10-19 20:56:29.000000000,closed,2,Tutorial syntax
+141,2017-07-04 18:07:08.000000000,2017-10-19 20:40:53.000000000,closed,21,Knet's build assumes Julia is accessed in the path by `julia`
+140,2017-07-01 20:10:06.000000000,2017-12-02 16:00:30.000000000,closed,7,[RFC] Batch normalization + LeNet with batchnorm example
+139,2017-06-24 17:57:26.000000000,2017-12-01 23:38:16.000000000,closed,14,add batchnorm
+138,2017-06-21 22:03:17.000000000,2017-11-28 09:05:36.000000000,closed,14,KnetArray on Mac 
+137,2017-06-20 03:56:10.000000000,2017-10-19 19:43:48.000000000,closed,6,"Julia 0.6 is released, would it be supported soon?"
+136,2017-06-19 15:13:24.000000000,2017-12-24 20:49:28.000000000,closed,5,"ERROR: MethodError: no method matching getindex(::Knet.KnetArray{Float32,3}, ::Int64, ::Int64, ::UnitRange{Int64})"
+135,2017-06-14 03:15:06.000000000,2017-12-24 21:17:06.000000000,closed,5,Deconvolution
+134,2017-06-02 21:10:52.000000000,2017-06-15 21:42:41.000000000,closed,3,Gradients for KnetArray
+133,2017-05-31 21:15:49.000000000,2017-05-31 21:28:43.000000000,closed,1,Trying to add regularization
+132,2017-05-30 23:49:20.000000000,2017-05-31 20:00:55.000000000,closed,5,Tests Fail
+131,2017-05-26 14:45:28.000000000,2017-12-09 07:49:30.000000000,closed,7,"Pkg.build(""Knet"") and Pkg.test(""Knet"") fail"
+130,2017-05-24 05:54:08.000000000,2017-09-20 09:36:13.000000000,closed,10,curand.curandGenerateUniformDouble error 201 during test
+129,2017-05-23 11:22:12.000000000,1970-01-01 00:00:00.000000001,open,1,Test GPUArrays and ReverseDiff as alternatives to KnetArray and AutoGrad
+128,2017-05-22 21:13:29.000000000,2019-01-05 23:36:28.000000000,closed,2,Package is not precompile-safe
+127,2017-05-22 19:47:05.000000000,2017-05-23 21:17:41.000000000,closed,5,Fresh install of Knet on julia 0.5.2 gives wrong answer  on all examples
+126,2017-05-21 09:08:15.000000000,2017-05-21 09:45:16.000000000,closed,2,Don't define cat(::Any) on julia 0.4
+125,2017-05-21 06:14:47.000000000,2017-10-19 20:29:26.000000000,closed,25,abnormal KnetArray error
+124,2017-05-20 19:36:21.000000000,2017-05-21 07:37:13.000000000,closed,1,tag a new release on METADATA.jl ?
+123,2017-05-19 01:42:08.000000000,2017-10-20 13:52:17.000000000,closed,4,vgg.jl in EXAMPLE folder not working on certain images
+122,2017-05-18 18:04:19.000000000,2017-12-24 20:46:50.000000000,closed,0,Convolution does not work for Julia in Power with old cudnn
+121,2017-05-18 17:48:43.000000000,2017-12-24 20:44:11.000000000,closed,1,Knet precompilation fails without delete AutoGrad.ji in Power machines
+120,2017-05-11 07:28:12.000000000,2017-12-24 20:43:35.000000000,closed,4,Knet Test failing on version no.
+119,2017-05-03 03:59:14.000000000,2017-05-04 10:51:37.000000000,closed,1,Knet.knetgc() not working in cpu only machines
+118,2017-04-29 22:34:14.000000000,2017-10-19 19:44:13.000000000,closed,5,0.6 support
+117,2017-04-27 13:24:16.000000000,2017-04-27 15:52:54.000000000,closed,2,No Longer building on OSX (no CUDA)
+116,2017-04-23 17:45:57.000000000,1970-01-01 00:00:00.000000001,open,3,every getindex operation creates a new node
+115,2017-04-23 16:22:41.000000000,2017-10-19 20:07:17.000000000,closed,3,dcdims function in conv.jl
+114,2017-04-21 16:41:28.000000000,2017-05-17 15:43:22.000000000,closed,7,Momentum not working
+113,2017-04-21 15:28:44.000000000,2017-05-17 11:13:36.000000000,closed,0,Change default batch size to 128
+112,2017-04-21 09:28:05.000000000,2017-10-19 20:06:36.000000000,closed,2,vararg functions and AutoGrad
+111,2017-04-14 18:24:07.000000000,2017-04-15 10:14:46.000000000,closed,2,N-D Reductions
+110,2017-04-14 14:03:32.000000000,2019-09-16 21:15:22.000000000,closed,3,Mean of a KnetArray
+109,2017-04-06 07:58:27.000000000,2017-10-20 09:42:22.000000000,closed,3,"No method matching next(::AutoGrad.Rec{Dict{Symbol,Any}}, ::Int64)"
+108,2017-04-05 21:02:00.000000000,2019-09-30 19:06:54.000000000,closed,14,Element-wise power of KnetArray give NaN results
+107,2017-04-04 16:57:34.000000000,2017-04-14 11:35:54.000000000,closed,1,fix vector reduction correctness
+106,2017-04-03 12:43:24.000000000,1970-01-01 00:00:00.000000001,open,4,intro material recommendations
+105,2017-04-02 10:11:13.000000000,2017-04-02 11:06:27.000000000,closed,0,seed explicitly MersenneTwister(0)
+104,2017-03-27 11:46:28.000000000,2017-05-17 15:44:47.000000000,closed,5,Broadcast
+103,2017-03-23 19:56:15.000000000,2017-10-19 20:04:11.000000000,closed,3,UndefVarError: UngetIndex not defined
+102,2017-03-23 16:49:39.000000000,2017-04-14 09:54:25.000000000,closed,10,make vgg/resnet examples working on cpu
+101,2017-03-23 04:20:38.000000000,2017-10-19 20:03:32.000000000,closed,4,"In backpropagation step, the lossgradient dictionary of my model has 1 item missing."
+100,2017-03-22 02:55:28.000000000,2017-03-22 12:20:53.000000000,closed,2,fix zero division errors
+99,2017-03-18 18:42:22.000000000,2017-04-14 11:40:15.000000000,closed,0,image demos work on cpu now
+98,2017-03-17 10:04:23.000000000,2017-03-23 04:21:50.000000000,closed,2,Array order
+97,2017-03-15 11:14:23.000000000,1970-01-01 00:00:00.000000001,open,3,IJulia fixes
+96,2017-03-14 10:38:26.000000000,2018-04-03 20:59:23.000000000,closed,0,Implement Eve Optimizer
+95,2017-03-09 08:01:02.000000000,2017-04-09 15:14:01.000000000,closed,2,Suggestions on optimization methods
+94,2017-03-06 14:48:08.000000000,2018-09-17 05:39:51.000000000,closed,2,Add ELU
+93,2017-03-03 22:30:27.000000000,2017-12-24 20:56:29.000000000,closed,1,Direct Feedback Alignment
+92,2017-02-27 23:20:42.000000000,2017-02-28 09:38:25.000000000,closed,0,"fix vgg/resnet demos, use new version of Images.jl"
+91,2017-02-27 10:10:22.000000000,2017-04-14 13:42:47.000000000,closed,2,N-D permutedims
+90,2017-02-27 09:58:59.000000000,2017-02-27 09:59:25.000000000,closed,0,N-D permutedims
+89,2017-02-27 05:42:21.000000000,2017-02-28 10:11:50.000000000,closed,10,Error running examples using Knet 0.8.2 and julia 0.5.1-pre+31
+88,2017-02-26 13:50:29.000000000,2017-02-26 19:25:07.000000000,closed,6,array of optimizers
+87,2017-02-24 19:25:01.000000000,2017-03-18 18:52:12.000000000,closed,4,Performance of hyperband.jl
+86,2017-02-23 00:38:51.000000000,2017-02-23 00:46:53.000000000,closed,4,Few other comments
+85,2017-02-21 15:40:00.000000000,2017-03-18 18:47:29.000000000,closed,16,Running housing.jl in Power Machine
+84,2017-02-18 18:12:09.000000000,2017-02-19 10:14:33.000000000,closed,0,update readme [ci skip]
+83,2017-02-17 19:37:39.000000000,2017-02-24 18:26:17.000000000,closed,10,About overwriting arrays
+82,2017-02-16 19:58:29.000000000,2017-10-19 19:57:07.000000000,closed,1,Knet Julia6 compatibility
+81,2017-02-16 16:07:38.000000000,2017-03-18 18:57:25.000000000,closed,2,Question about loss function
+80,2017-02-15 19:47:25.000000000,1970-01-01 00:00:00.000000001,open,3,multi-gpu support
+79,2017-02-15 19:44:49.000000000,1970-01-01 00:00:00.000000001,open,3,more efficient cuda kernel calls
+78,2017-02-12 15:55:57.000000000,1970-01-01 00:00:00.000000001,open,73,benchmarks with other dynamic frameworks
+77,2017-02-12 15:09:40.000000000,2017-02-13 23:30:47.000000000,closed,2,unpool gradient is broken
+76,2017-02-12 13:37:52.000000000,2017-02-19 22:22:00.000000000,closed,8,better update! interface
+75,2017-02-11 13:38:36.000000000,2017-10-19 20:01:19.000000000,closed,0,"after cuda install attempt, knet no longer runs without cuda?"
+74,2017-02-11 13:31:41.000000000,2017-02-17 01:05:33.000000000,closed,3,"Cannot `convert` an object of type Array{Float32,0} to an object of type Float32"
+73,2017-02-10 04:25:37.000000000,2017-02-10 18:04:34.000000000,closed,5,Error running examples using Knet on master branch
+72,2017-02-09 13:10:37.000000000,2017-02-11 12:56:34.000000000,closed,0,KnetArray GC printing macro
+71,2017-02-08 20:48:22.000000000,2017-02-09 09:48:29.000000000,closed,0,add resnet example
+70,2017-02-06 19:05:34.000000000,2017-02-09 13:29:14.000000000,closed,8,Speed of Knet
+69,2017-02-06 01:57:38.000000000,2018-08-28 19:26:43.000000000,closed,1,Flexible input output for grad argument.
+68,2017-02-04 18:19:16.000000000,2017-02-05 18:56:53.000000000,closed,0,"deconv4, unpool primitives"
+67,2017-02-04 17:49:13.000000000,2017-02-05 14:27:22.000000000,closed,0,CUDA code generalization
+66,2017-02-04 17:39:15.000000000,2017-02-05 14:03:25.000000000,closed,0,Distributions
+65,2017-02-03 16:43:11.000000000,2017-02-05 13:57:19.000000000,closed,0,Add primitive for making transfer between KnetArray and regular array
+64,2017-02-02 06:58:49.000000000,2017-04-02 14:57:00.000000000,closed,7,Select gpu option
+63,2017-02-01 12:06:01.000000000,2017-02-12 19:44:59.000000000,closed,1,"Error: no method matching sum_outgrads(::Array{Knet.KnetArray{Float32,2},1}, ::Array{Any,1})"
+62,2017-01-31 09:24:10.000000000,2017-02-16 09:59:36.000000000,closed,7,Buffer data to GPU in a parallel CPU thread
+61,2017-01-23 13:17:55.000000000,2017-03-18 18:56:36.000000000,closed,1,pooling of matrices of different sizes
+60,2017-01-23 11:53:29.000000000,1970-01-01 00:00:00.000000001,open,5,Sparse matrix support in GPU
+59,2017-01-15 01:33:05.000000000,2017-01-15 01:55:58.000000000,closed,2,UndefVarError: @knet not defined
+58,2017-01-13 11:11:16.000000000,2017-02-12 19:11:17.000000000,closed,2,Knet uses a lot of RAM in the using statement alone
+57,2016-12-23 13:08:43.000000000,2017-02-12 17:54:11.000000000,closed,1,LSTM does not calculate gradient with dictionary implementation
+56,2016-12-20 12:50:36.000000000,1970-01-01 00:00:00.000000001,open,0,Try open source gemm implementation
+55,2016-12-17 16:18:14.000000000,2017-02-11 12:54:44.000000000,closed,6,__precompile__() warnings fixed
+54,2016-12-16 20:16:29.000000000,2016-12-19 17:46:48.000000000,closed,0,CUDA not installed error - Windows
+53,2016-12-15 11:34:53.000000000,2016-12-15 11:59:42.000000000,closed,0,padding=0
+52,2016-12-15 11:19:54.000000000,2017-02-11 12:52:39.000000000,closed,2,Warnings in using Knet in a new module
+51,2016-12-15 11:00:49.000000000,2016-12-15 18:46:09.000000000,closed,4,warnings in running examples/optimizers.jl 
+50,2016-12-14 23:54:49.000000000,2017-12-09 07:49:56.000000000,closed,11,Is Knet.jl running on Win 10 with GPU support?
+49,2016-12-10 00:35:18.000000000,2016-12-11 14:47:22.000000000,closed,6,LoadError: dir not defined
+48,2016-12-09 11:34:59.000000000,2016-12-11 02:30:07.000000000,closed,2,"run examples/charlm.jl gives error ""ERROR: LoadError: UndefVarError: axpy! not defined"""
+47,2016-12-08 05:33:30.000000000,2016-12-08 05:40:27.000000000,closed,1,"Error running examples/lenet.jl: ""could not find function add_32_12 in library"""
+46,2016-12-02 16:20:27.000000000,2017-02-11 13:03:50.000000000,closed,2,Docs should explain the need for a functional programming style.
+45,2016-12-02 16:19:45.000000000,2017-02-11 13:15:50.000000000,closed,2,Docs should list operations supported / not supported by AutoGrad and KnetArray.
+44,2016-11-25 00:50:53.000000000,2017-02-05 14:35:10.000000000,closed,0,Make VGG inference example working for both D and E models
+43,2016-11-24 17:27:11.000000000,2017-02-05 18:53:53.000000000,closed,0,"2D transpose, 3D permutedims for KnetArrays"
+42,2016-11-16 17:02:25.000000000,2017-02-05 13:38:17.000000000,closed,0,export gradloss from AutoGrad
+41,2016-11-15 01:47:07.000000000,2016-11-16 16:29:10.000000000,closed,0,gradloss implemented
+40,2016-11-14 16:19:14.000000000,2016-11-14 18:35:12.000000000,closed,0,Update doc
+39,2016-11-12 14:29:04.000000000,2019-08-10 10:48:46.000000000,closed,7,KnetArray transpose and permutedims missing.
+38,2016-11-12 14:28:20.000000000,2017-12-24 21:16:39.000000000,closed,5,KnetArray general broadcasting
+37,2016-11-12 14:24:16.000000000,2017-12-24 21:16:51.000000000,closed,14,KnetArray general reductions
+36,2016-11-10 12:37:21.000000000,2016-11-11 13:31:19.000000000,closed,2,Knet cannot check the gpu memory if it is full during the initialization
+35,2016-11-03 16:22:55.000000000,2016-11-03 19:15:28.000000000,closed,0,fix
+34,2016-11-03 07:57:14.000000000,2016-11-12 14:18:47.000000000,closed,1,mnist.jl dies on missing Knet.dir 
+33,2016-11-02 20:03:24.000000000,1970-01-01 00:00:00.000000001,open,20,Using conv and pool without CUDA
+32,2016-10-28 16:44:34.000000000,2018-12-15 00:58:04.000000000,closed,3,KnetArray linear indexing does not work
+31,2016-10-20 19:17:26.000000000,1970-01-01 00:00:00.000000001,open,4,test coverage is low
+30,2016-10-20 18:51:46.000000000,2016-10-21 21:26:35.000000000,closed,2,Allocate memory in all the available GPUs
+29,2016-10-20 18:37:12.000000000,2016-11-14 18:35:12.000000000,closed,0,update methods not documented.
+28,2016-10-20 15:49:57.000000000,2016-10-20 18:34:15.000000000,closed,2,Sgd based optimization methods
+27,2016-10-20 13:09:15.000000000,2017-02-06 01:45:24.000000000,closed,0,grad(f) does not return loss
+26,2016-10-18 01:49:29.000000000,2016-10-19 16:24:44.000000000,closed,0,update doc for v0.0.8
+25,2016-10-17 19:23:19.000000000,2016-10-21 21:27:20.000000000,closed,12,cudnn error
+24,2016-10-17 16:46:45.000000000,2016-10-19 16:58:59.000000000,closed,0,Update CNN section of documentation for Knet 8
+23,2016-09-26 14:13:50.000000000,2016-10-16 15:53:45.000000000,closed,9,function add_32_12 in library not found
+22,2016-09-02 18:13:20.000000000,2016-10-16 15:54:09.000000000,closed,28,TopNode not defined
+21,2016-07-11 14:45:20.000000000,2016-10-20 13:27:59.000000000,closed,1,empty error message
+20,2016-07-04 16:48:48.000000000,2016-10-16 15:55:52.000000000,closed,1,Memory RNN
+19,2016-06-30 07:03:11.000000000,2016-10-16 15:57:08.000000000,closed,1,Build arbitrary graph in Knet?
+18,2016-06-23 06:24:05.000000000,2016-06-29 21:40:08.000000000,closed,2,Policy Gradient Reinforcement Learning with Knet
+17,2016-06-11 02:40:02.000000000,2016-10-20 13:41:02.000000000,closed,3,Fix deprecation for julia v0.5
+16,2016-06-10 10:42:15.000000000,2016-06-10 21:32:56.000000000,closed,2,Diverging loss for simple MLP
+15,2016-05-24 12:53:57.000000000,2016-05-24 12:54:32.000000000,closed,0,Error on Amazon t2.micro instance
+14,2016-04-28 04:37:52.000000000,2016-10-20 14:25:06.000000000,closed,1,Fix 1D pooling
+13,2016-04-06 17:53:31.000000000,2016-10-20 14:24:29.000000000,closed,1,Implementation of transpose operation 
+12,2016-03-31 18:35:24.000000000,2016-04-01 16:17:09.000000000,closed,2,Add GRU
+11,2016-03-25 13:19:35.000000000,1970-01-01 00:00:00.000000001,open,0,ERROR: expecting Op or Expr got 784
+10,2016-03-24 22:58:21.000000000,2016-10-16 15:58:30.000000000,closed,1,1D vector multiplication does not work with Knet
+9,2016-02-27 13:46:30.000000000,1970-01-01 00:00:00.000000001,open,0,pool infersize problem
+8,2016-02-22 18:05:54.000000000,2016-02-26 16:25:35.000000000,closed,0,Improve error message
+7,2016-02-10 19:38:45.000000000,2016-11-12 14:17:43.000000000,closed,8,Get Knet package test error on windows machine
+6,2016-02-10 14:04:03.000000000,2016-10-16 16:01:24.000000000,closed,1,Show friendly message when gpu is not available
+5,2016-02-07 23:13:58.000000000,2016-02-26 16:26:04.000000000,closed,0,"add padding support to conv_gemm, convbackdata improved"
+4,2016-02-06 15:45:56.000000000,2016-02-06 15:53:03.000000000,closed,0,Conv cpu
+3,2016-02-05 11:32:44.000000000,1970-01-01 00:00:00.000000001,open,0,"LoadError: unrecognized keyword argument ""nrepeat"""
+2,2016-01-22 23:16:08.000000000,2016-01-23 04:39:44.000000000,closed,0,Adam for updates
+1,2016-01-17 22:56:08.000000000,2016-01-19 01:29:35.000000000,closed,0,Rmsprop option for training

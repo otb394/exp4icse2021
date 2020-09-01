@@ -1,0 +1,1377 @@
+id,created_at,closed_at,state,comments,title
+1379,2020-08-31 20:16:24.000000000,1970-01-01 00:00:00.000000001,open,0,Add opts for replication deletes
+1378,2020-08-28 14:28:17.000000000,2020-08-28 20:59:11.000000000,closed,0,Send single DELETE requests if object name has xml invalid chars
+1377,2020-08-23 04:09:07.000000000,1970-01-01 00:00:00.000000001,open,1,About the directory or file permission setting api interface in the bucket
+1376,2020-08-22 00:06:00.000000000,2020-08-22 06:02:03.000000000,closed,1,expose STSEndpoint and tokenExpiry
+1375,2020-08-21 09:49:27.000000000,2020-08-21 09:56:10.000000000,closed,2,How to set the policy of the directory in the bucket
+1374,2020-08-20 02:21:55.000000000,2020-08-20 03:18:59.000000000,closed,0,Return from functional tests on error
+1373,2020-08-19 14:52:34.000000000,2020-08-19 19:28:54.000000000,closed,0,Add missing context value to example
+1372,2020-08-18 19:52:35.000000000,2020-08-19 00:39:01.000000000,closed,0,[doc] fix presignURL Expires doc
+1371,2020-08-17 18:21:27.000000000,2020-08-17 21:18:11.000000000,closed,1,[doc] fix doc fun-index error
+1370,2020-08-15 00:21:40.000000000,2020-08-15 05:28:14.000000000,closed,0,add go1.15 to CI
+1369,2020-08-11 23:22:11.000000000,2020-08-12 01:18:23.000000000,closed,0,Add source ETag to PutObjectOptions for replication
+1368,2020-08-11 09:02:57.000000000,2020-08-11 09:26:16.000000000,closed,0,fix: context errors may be wrapped
+1367,2020-08-11 05:03:04.000000000,2020-08-12 23:18:22.000000000,closed,0,Refactor replication rule add/edit
+1365,2020-08-10 14:36:00.000000000,2020-08-10 18:30:03.000000000,closed,4,ISSUE in first sample code in the given URL https://github.com/minio/minio-go/tree/v7.0.4?
+1364,2020-08-10 06:04:12.000000000,2020-08-10 06:42:41.000000000,closed,2,Is is possible to get Presigned url without accessing minio server
+1363,2020-08-07 12:28:25.000000000,2020-08-07 12:59:57.000000000,closed,0,Add method to edit replication rules
+1362,2020-08-07 03:44:29.000000000,2020-08-07 04:00:58.000000000,closed,0,Add SetOption to edit replication rule
+1361,2020-08-06 14:40:59.000000000,2020-08-08 20:28:38.000000000,closed,2,Working with S3 accelerated
+1360,2020-08-06 01:54:16.000000000,2020-08-07 03:00:16.000000000,closed,0,fix: change AddRule method in replication
+1359,2020-08-04 20:53:38.000000000,2020-08-04 22:09:37.000000000,closed,0,fix: only SSE-C headers should be applied to destination
+1358,2020-08-04 15:05:00.000000000,2020-08-04 22:09:37.000000000,closed,1,[resolved] ComposeObject failing on Amazon S3 when using SSE
+1357,2020-08-02 07:58:31.000000000,2020-08-04 20:30:05.000000000,closed,0,fix: avoid data race by copying the buffer
+1356,2020-08-01 06:19:10.000000000,2020-08-04 23:11:55.000000000,closed,0,Add methods to set/remove replication rules
+1355,2020-07-25 21:22:38.000000000,2020-08-04 20:30:05.000000000,closed,9,PubObject - possible data race ?
+1354,2020-07-25 07:25:56.000000000,2020-07-28 01:44:31.000000000,closed,0,fix: handle readFull bug with certain readers
+1353,2020-07-24 20:00:00.000000000,2020-07-28 01:44:31.000000000,closed,4,putObjectMultipartStreamNoLength not returning (spinning) on ErrUnexpectedEOF
+1352,2020-07-24 16:18:00.000000000,2020-07-24 19:34:12.000000000,closed,0,Update README.md
+1351,2020-07-23 01:08:39.000000000,2020-07-23 22:23:11.000000000,closed,0,lifecycle: Fix marshaling expiration date/days
+1350,2020-07-22 21:59:24.000000000,2020-07-22 23:57:23.000000000,closed,1,"add replication-status, expiration headers"
+1349,2020-07-22 13:51:13.000000000,2020-07-22 20:23:09.000000000,closed,0,Return object's version id in StatObject()
+1348,2020-07-21 09:15:19.000000000,2020-07-21 19:14:45.000000000,closed,0,display appropriate funcName with nested callers
+1347,2020-07-19 07:50:05.000000000,1970-01-01 00:00:00.000000001,open,5,Range ignored with client.GetObject requests
+1346,2020-07-19 06:40:53.000000000,2020-07-19 06:44:16.000000000,closed,5,Minio always uses MD5 also for SHA256 hashes?
+1345,2020-07-19 04:28:51.000000000,2020-07-19 21:54:16.000000000,closed,0,allow KMS tests to be run in the CI/CD
+1344,2020-07-19 00:44:25.000000000,2020-07-19 03:57:22.000000000,closed,0,fix: removing lifecycle properly
+1343,2020-07-17 22:33:25.000000000,2020-07-19 02:49:29.000000000,closed,0,feat: Add ListenNotification API to listen for all events
+1342,2020-07-17 08:05:23.000000000,2020-07-17 08:20:12.000000000,closed,0,"fix: more API refactors, remove all redundant functions"
+1341,2020-07-17 03:27:33.000000000,2020-07-17 03:59:48.000000000,closed,0,fix: objectTagging APIs to follow bucketTagging
+1340,2020-07-16 22:11:58.000000000,2020-07-16 23:20:28.000000000,closed,0,marshal dest encryption params when SSE-C
+1339,2020-07-15 19:28:21.000000000,2020-07-15 20:11:19.000000000,closed,5,Provide errors to public API
+1338,2020-07-15 06:11:08.000000000,2020-07-16 01:57:18.000000000,closed,3,reimplement all Bucket config APIs
+1337,2020-07-15 03:21:58.000000000,2020-07-15 03:36:11.000000000,closed,0,set replication opts correctly
+1336,2020-07-14 11:19:15.000000000,2020-07-14 12:55:48.000000000,closed,0,Returns error instead of 'nil' when an error is hit
+1335,2020-07-14 01:46:12.000000000,2020-07-14 02:24:00.000000000,closed,0,Add `Replica` type to replication status
+1334,2020-07-10 17:32:46.000000000,2020-07-11 02:11:46.000000000,closed,0,refactor: Make StatObjectOptions as type alias to GetObjectOptions
+1333,2020-07-09 14:10:39.000000000,2020-07-14 10:37:09.000000000,closed,1,"Returns error when hit, instead of returning a nil value"
+1332,2020-07-09 04:34:01.000000000,2020-07-09 19:04:25.000000000,closed,0,re-implement CopyObject/ComposeObject API
+1331,2020-07-06 18:01:30.000000000,2020-07-06 19:13:04.000000000,closed,0,Remove doneCh from ListenBucketNotification and ListIncompleteUploads
+1330,2020-07-06 17:35:48.000000000,2020-07-09 04:41:16.000000000,closed,2,Refactor Copy/Compose API
+1329,2020-07-05 23:26:46.000000000,2020-07-06 17:41:26.000000000,closed,0,upgrade golang-lint and fix the reported issues
+1328,2020-07-02 18:33:16.000000000,2020-07-02 19:55:37.000000000,closed,0,api.PresignedPostPolicy() > Don't make request to minio if it's not needed.
+1327,2020-07-02 18:11:01.000000000,2020-07-03 21:14:46.000000000,closed,0,refactor: Single MakeBucket API with options
+1326,2020-07-02 13:43:48.000000000,2020-07-11 02:16:59.000000000,closed,5,STSWebIdentity doesn't allow overriding http.Client Transport to provide CA
+1325,2020-07-02 12:22:47.000000000,2020-07-02 18:19:11.000000000,closed,1,api.PresignedPostPolicy() > Don't make request to minio if it's not needed
+1324,2020-07-02 12:20:37.000000000,2020-07-02 18:16:44.000000000,closed,1,Big File breakpoint-upload
+1323,2020-07-02 07:18:18.000000000,2020-07-02 07:28:39.000000000,closed,1,Fix errInvalidArgument change
+1322,2020-07-01 23:07:00.000000000,2020-07-11 02:12:21.000000000,closed,0,Cache STS Web Identity Credentials
+1321,2020-07-01 22:35:20.000000000,2020-07-11 02:12:31.000000000,closed,1,STS Web Identity Credentials not cached
+1320,2020-07-01 00:26:24.000000000,2020-07-01 07:14:40.000000000,closed,0,Allow empty retention to be set
+1319,2020-06-30 20:53:23.000000000,2020-07-16 00:23:59.000000000,closed,3,Use SetBucketVersioning API style
+1318,2020-06-30 19:37:24.000000000,2020-07-03 10:36:37.000000000,closed,0,refactor: GetObjectTagging returns a map of key/value
+1317,2020-06-30 19:07:07.000000000,2020-07-01 23:05:16.000000000,closed,0,Unexport some ErrorResponse generator functions
+1316,2020-06-30 18:48:03.000000000,2020-07-01 00:11:41.000000000,closed,1,refactor: Remove WithOptions() from some functions
+1315,2020-06-30 07:02:35.000000000,2020-07-03 11:27:00.000000000,closed,3,Custom metadata copy issue
+1314,2020-06-30 00:12:44.000000000,2020-07-14 01:21:38.000000000,closed,0,Add APIs to set/get replication config
+1313,2020-06-26 13:37:17.000000000,2020-07-01 23:36:00.000000000,closed,2,"fix: add missing ""success_action_redirect"" policy condition"
+1312,2020-06-26 09:15:49.000000000,2020-06-26 23:04:29.000000000,closed,0,Document replication opts in API.md
+1311,2020-06-25 20:31:06.000000000,2020-07-01 01:31:45.000000000,closed,1,Put/Compose/Copy returns UploadInfo for uploaded/copied objects
+1310,2020-06-25 14:03:19.000000000,2020-06-25 14:43:53.000000000,closed,1,"[not our bug] Object size is ""-1"" and io.Copy does not work"
+1309,2020-06-24 15:59:28.000000000,2020-06-24 16:11:51.000000000,closed,2,"Export initiateMultipartUpload, completeMultipartUpload functions"
+1308,2020-06-23 19:14:07.000000000,2020-07-17 08:21:12.000000000,closed,1,Breaking changes to v7
+1307,2020-06-23 17:53:28.000000000,2020-06-24 01:30:18.000000000,closed,0,API refactor: Remove WithContext
+1306,2020-06-20 03:33:44.000000000,2020-06-26 05:32:19.000000000,closed,2,Add replication status and version to Put/Copy opts
+1305,2020-06-17 16:30:33.000000000,2020-07-09 04:41:34.000000000,closed,5,Deprecate Source & Destination Info
+1304,2020-06-12 03:49:34.000000000,2020-06-12 04:16:55.000000000,closed,0,Revert back RemoveObjectsWithOptionsWithContext to RemoveObjectsWithOptionsContext
+1303,2020-06-11 11:13:30.000000000,2020-06-11 11:33:32.000000000,closed,3,Record Metrics on Deleted Objects in Bulk Delete
+1302,2020-06-10 15:56:23.000000000,2020-06-12 03:37:13.000000000,closed,0,Support changes for mc global context fix
+1301,2020-06-09 22:50:58.000000000,2020-06-10 03:17:56.000000000,closed,6,remove usages of debug.FreeOSMemory()
+1300,2020-06-04 22:09:31.000000000,2020-07-09 00:01:30.000000000,closed,16,Implement Versioning support
+1299,2020-06-04 13:32:56.000000000,2020-06-05 02:21:40.000000000,closed,1,Global context fix
+1298,2020-06-04 04:30:31.000000000,2020-06-06 08:55:33.000000000,closed,0,Add CodeQL security scanning
+1297,2020-06-03 19:24:27.000000000,2020-06-04 15:12:38.000000000,closed,4,Weird bug
+1296,2020-05-30 05:58:06.000000000,2020-05-30 10:30:54.000000000,closed,0,Treat x-amz-metadata-directive as a standard header
+1295,2020-05-30 05:15:30.000000000,2020-05-30 10:30:54.000000000,closed,2,Remove metadata using CopyObject fails
+1294,2020-05-29 11:56:21.000000000,2020-05-29 14:01:36.000000000,closed,2,PutObject : The specified key does not exist.
+1293,2020-05-28 11:58:31.000000000,2020-05-28 21:34:27.000000000,closed,0,retry only if response region doesn't match cached region
+1292,2020-05-25 11:25:48.000000000,2020-05-26 20:32:26.000000000,closed,0,retry makebucket on AuthorizationHeaderMalformed code and empty location
+1291,2020-05-22 14:10:03.000000000,2020-05-22 20:49:47.000000000,closed,0,Add tagging count to known header
+1290,2020-05-21 06:12:47.000000000,2020-05-22 04:50:54.000000000,closed,1,Putobject with PutObjectOptions
+1289,2020-05-16 02:01:38.000000000,2020-06-09 16:50:40.000000000,closed,3,tag: Do not validate during marshal/unmarshal
+1288,2020-05-15 12:39:47.000000000,2020-05-15 12:59:52.000000000,closed,1,No way for closing a client connection.
+1287,2020-05-15 12:34:10.000000000,2020-05-15 13:02:13.000000000,closed,1,minio-go connection pool
+1286,2020-05-12 17:27:12.000000000,2020-05-21 12:30:16.000000000,closed,0,Add new Milan AWS Region
+1285,2020-05-09 00:13:19.000000000,2020-05-09 03:22:40.000000000,closed,0,support for new af-south-1 region
+1284,2020-05-08 00:43:55.000000000,2020-05-08 00:50:15.000000000,closed,4,[faq] Disconnect/Close connection
+1283,2020-05-04 14:15:34.000000000,2020-06-03 01:54:10.000000000,closed,4,Add custom MD5/SHA256 hasher option
+1282,2020-05-02 03:51:59.000000000,2020-05-02 05:32:58.000000000,closed,0,honor doneCh for listenBucketNotification
+1281,2020-04-30 09:39:47.000000000,2020-05-01 02:28:32.000000000,closed,1,fix to accept 204 as success
+1280,2020-04-28 08:05:14.000000000,2020-04-28 10:47:00.000000000,closed,0,"add github workflows, deprecate travis and appveyor"
+1279,2020-04-25 11:42:15.000000000,2020-04-25 12:14:28.000000000,closed,1,add Parse() in tags pkg
+1278,2020-04-25 01:13:22.000000000,2020-04-25 01:47:10.000000000,closed,6,Help building
+1277,2020-04-24 23:48:00.000000000,2020-04-25 00:28:56.000000000,closed,2,missing links
+1276,2020-04-24 08:51:40.000000000,2020-04-25 00:41:16.000000000,closed,1,fix: Use jsoniter instead of encoding/json
+1275,2020-04-23 08:50:35.000000000,2020-04-25 00:29:39.000000000,closed,0,add tags package
+1274,2020-04-22 11:03:11.000000000,2020-04-22 19:02:33.000000000,closed,4,file priority changed after downloaded from server
+1273,2020-04-19 23:42:21.000000000,2020-04-28 21:10:18.000000000,closed,1,add bucket tagging apis
+1272,2020-04-18 01:42:21.000000000,2020-04-18 03:40:47.000000000,closed,0,fix increase default BufferSize for bufio.Scanner
+1271,2020-04-17 22:09:00.000000000,2020-04-18 02:21:35.000000000,closed,6,Unable to BucketExistsWithContext() on AWS bucket if conditional IAM rules applied.
+1270,2020-04-17 09:18:07.000000000,2020-04-17 11:23:47.000000000,closed,0,preserve data after calculating md5sum
+1269,2020-04-16 21:11:47.000000000,2020-04-22 14:02:25.000000000,closed,10,Possible buffer overflow for streaming uploads
+1268,2020-04-14 14:16:03.000000000,2020-04-18 20:27:20.000000000,closed,3,sql: Add SQL API to set CSV/JSON options
+1267,2020-04-13 23:02:24.000000000,2020-04-15 03:25:55.000000000,closed,0,error when removing an event matches nothing
+1266,2020-04-09 00:06:04.000000000,2020-04-15 01:53:25.000000000,closed,5,Add get bucket versioning
+1265,2020-04-08 21:45:01.000000000,2020-04-13 23:43:09.000000000,closed,5,Add AssumeRole support for rotating credentials
+1264,2020-04-08 18:44:22.000000000,2020-04-13 22:23:40.000000000,closed,4,NoSuchBucket Error on backblaze gateway
+1263,2020-04-08 11:09:32.000000000,2020-04-15 02:38:43.000000000,closed,0,Fix AWS STS url to https when using web identity token
+1262,2020-04-08 00:24:24.000000000,2020-04-08 03:03:54.000000000,closed,1,add functions to remove notifications by prefix/suffix
+1261,2020-04-03 17:42:40.000000000,2020-04-03 23:18:53.000000000,closed,6,add DisableMultipart option in ComposeObject()
+1260,2020-04-03 13:24:43.000000000,2020-04-03 15:14:31.000000000,closed,0,retry: Quit when the context is cancelled
+1259,2020-04-03 07:02:28.000000000,2020-04-03 17:20:59.000000000,closed,10,retry.go   goroutine channel leak in v6.0.51 ?
+1258,2020-04-02 16:31:33.000000000,2020-04-03 15:14:58.000000000,closed,1,Add support for x-amz-bypass-governance-retention in RemoveObjects
+1257,2020-04-01 19:22:58.000000000,2020-04-02 23:11:59.000000000,closed,6,[resolved] downloading apk file from Go client seems to get corrupted
+1256,2020-04-01 08:45:05.000000000,2020-04-01 12:37:18.000000000,closed,0,add DisableMultipart flag in PutObjectOptions
+1255,2020-03-30 13:17:27.000000000,2020-04-03 15:15:38.000000000,closed,1,Export identifiers for shared credentials providers
+1254,2020-03-23 16:22:42.000000000,2020-03-23 22:34:53.000000000,closed,2,Add Object Retention related flags for CopyObject API
+1253,2020-03-20 16:02:36.000000000,2020-03-31 21:49:26.000000000,closed,3,add io.EOF judgement for support aliyun oss get object
+1252,2020-03-19 21:56:38.000000000,2020-03-21 19:31:10.000000000,closed,6,Different results with GetObject and FGetObject
+1251,2020-03-19 20:48:10.000000000,2020-04-06 01:46:58.000000000,closed,2,No way to set HTTP client timeout
+1250,2020-03-17 20:27:59.000000000,2020-03-19 20:15:36.000000000,closed,2,fix: Context cancellation not handled
+1249,2020-03-17 10:03:26.000000000,2020-03-19 23:21:32.000000000,closed,3,extract userTags from Get/Head request
+1248,2020-03-16 22:03:29.000000000,2020-03-18 18:37:32.000000000,closed,0,remove object tagging including status code 204/No Content
+1247,2020-03-16 12:32:04.000000000,2020-03-17 20:28:15.000000000,closed,2,fix: Context cancellation not handled
+1246,2020-03-16 12:26:00.000000000,2020-04-06 01:46:40.000000000,closed,2,Context cancelation not handled.
+1245,2020-03-12 11:10:14.000000000,2020-03-17 00:44:09.000000000,closed,0,simplify extracting metadata in Head/Get object
+1244,2020-03-11 11:24:17.000000000,2020-03-11 11:28:29.000000000,closed,1,Fix misleading comment in api.go
+1243,2020-03-10 02:08:37.000000000,2020-03-10 09:16:46.000000000,closed,0,fix: close and remove .minio.part file on errors
+1242,2020-03-10 01:47:24.000000000,2020-03-12 13:39:01.000000000,closed,1,PutObject change. Adding usertags to call. Reqd for minio PR #8901.
+1241,2020-03-09 12:36:21.000000000,2020-03-09 12:40:28.000000000,closed,1,EnableVersioning:A header you provided implies functionality that is not implemented
+1240,2020-03-06 01:29:34.000000000,2020-03-07 04:11:02.000000000,closed,1,Add (Get/Set)ObjectLockConfig API functions
+1239,2020-03-05 22:16:05.000000000,2020-03-07 01:15:50.000000000,closed,0,Add PutObjectOptions.PartSize docs
+1238,2020-03-05 03:59:37.000000000,2020-03-05 09:38:30.000000000,closed,0,list: Check EncodingType in list resp before decoding object names
+1237,2020-03-05 01:30:40.000000000,2020-03-05 03:40:22.000000000,closed,1,list: Use PathUnescape when decoding object names
+1236,2020-03-03 15:12:10.000000000,2020-03-09 13:37:19.000000000,closed,11,Possible buffer bottleneck in notification handling
+1235,2020-02-27 19:31:14.000000000,2020-02-29 09:41:42.000000000,closed,11,The provided 'x-amz-content-sha256' header does not match what was computed.
+1234,2020-02-27 19:29:58.000000000,2020-02-27 22:32:40.000000000,closed,3,The provided 'x-amz-content-sha256' header does not match what was computed
+1233,2020-02-24 12:23:28.000000000,2020-03-05 05:54:50.000000000,closed,0,Add Support for Legal-Hold
+1232,2020-02-21 19:36:04.000000000,1970-01-01 00:00:00.000000001,open,3,Minio client overwrites the endpoint configuration regardless of temporary or permanent redirect
+1231,2020-02-20 21:08:04.000000000,2020-02-21 07:54:33.000000000,closed,0,trim ending `=` for compatibility
+1230,2020-02-20 20:48:09.000000000,2020-02-21 08:02:15.000000000,closed,10,fix: make more compatible with sub-resource query string 
+1229,2020-02-18 11:47:25.000000000,2020-02-18 20:58:45.000000000,closed,0,extract userMetadata from event response
+1228,2020-02-14 09:38:51.000000000,2020-02-14 11:14:18.000000000,closed,0,fix: ignore AWS elb endpoints in region extraction
+1227,2020-02-11 13:04:58.000000000,2020-02-12 03:38:33.000000000,closed,3,Bucket and object name length error message fixes
+1226,2020-02-11 10:51:09.000000000,2020-02-18 23:46:24.000000000,closed,0,Add LegalHold API Support
+1225,2020-02-10 04:43:22.000000000,1970-01-01 00:00:00.000000001,open,3,TestIAMMalformedEndpoint fails on Go 1.14 beta1
+1224,2020-02-01 04:57:38.000000000,2020-02-01 22:18:56.000000000,closed,1,Make endpoint field of IAM public
+1223,2020-01-30 15:04:24.000000000,2020-02-01 22:18:56.000000000,closed,1,IAM credentials broken
+1222,2020-01-28 11:59:20.000000000,2020-01-28 14:15:33.000000000,closed,1,fix testListObjects functional test
+1221,2020-01-24 06:58:26.000000000,2020-01-24 22:32:27.000000000,closed,2,fix: retry AccessDenied only if Region is present
+1220,2020-01-23 03:59:50.000000000,2020-01-23 23:01:37.000000000,closed,0,Add new Amazon S3 endpoints
+1219,2020-01-23 02:14:26.000000000,2020-01-23 03:40:49.000000000,closed,0,fix: avoid shadowing inside go routine
+1218,2020-01-20 14:53:58.000000000,2020-01-20 21:47:38.000000000,closed,1,fix: let net/http handle rootCAs properly by default
+1217,2020-01-18 00:55:25.000000000,2020-02-01 23:52:32.000000000,closed,3,Adds SetBucketEncryption and GetBucketEncryption apis
+1216,2020-01-16 22:41:12.000000000,2020-01-17 19:09:07.000000000,closed,0,Remove empty X-Amz-Server-Side-Encryption-Aws-Kms-Key-Id from request headers
+1215,2020-01-16 14:47:05.000000000,2020-01-17 02:30:23.000000000,closed,1,fix: allow configurable part size with -1 content-length
+1214,2020-01-16 13:31:24.000000000,2020-01-17 02:30:23.000000000,closed,0,So this workaround with custom `PartSize` should work?
+1213,2020-01-11 08:15:36.000000000,2020-01-11 09:18:35.000000000,closed,0,detect snowball server automatically using server header
+1212,2020-01-11 05:24:19.000000000,2020-01-11 06:18:38.000000000,closed,0,return notImplemented when listObjectsV2 call fails spec
+1211,2020-01-11 03:49:40.000000000,2020-01-11 08:15:53.000000000,closed,0,Filter out X-Cache and X-Cache-Lookup from metadata
+1210,2020-01-09 19:43:11.000000000,2020-01-10 14:16:35.000000000,closed,9,Too many open files
+1209,2020-01-07 13:21:21.000000000,2020-01-07 13:44:53.000000000,closed,1,Can you public listObjectsQuery interface?
+1208,2020-01-07 02:52:55.000000000,2020-01-07 05:34:31.000000000,closed,0,fix: AWS Snowball returns 501 handle it
+1207,2019-12-31 20:05:53.000000000,2020-01-01 00:06:09.000000000,closed,7,minio-go api-list.go no longer works with NetApp's S3 Object Storage with version v6.0.14
+1206,2019-12-25 09:05:47.000000000,2020-01-11 10:30:20.000000000,closed,5,Add ObjectTagging Support
+1205,2019-12-17 04:02:31.000000000,2019-12-17 20:56:21.000000000,closed,6,SetBucketLifecycle sends no content to server
+1204,2019-12-13 17:28:30.000000000,2019-12-14 00:31:30.000000000,closed,0,Remove ListenBucketNotificationV2
+1203,2019-12-13 13:29:05.000000000,2019-12-13 16:22:34.000000000,closed,4,ListObjectsV2WithMetadata does not return metadata
+1202,2019-12-12 12:20:17.000000000,2019-12-12 19:19:53.000000000,closed,1,Policy exceeds the maximum allowed document size
+1201,2019-12-10 22:08:02.000000000,2019-12-10 22:32:19.000000000,closed,1,add maxRetry in NewWithOptions
+1200,2019-12-10 10:48:54.000000000,2020-01-02 08:45:24.000000000,closed,1,Add function to set policy parameter
+1199,2019-12-09 19:51:27.000000000,2019-12-12 23:21:51.000000000,closed,2,Add ListenBucketNotificationV2
+1198,2019-12-09 13:51:26.000000000,2019-12-09 14:27:17.000000000,closed,0,Retry for all network errors regardless
+1197,2019-12-09 12:41:15.000000000,2019-12-09 13:39:24.000000000,closed,0,Trim all etags with single function
+1196,2019-12-06 04:55:12.000000000,2019-12-06 05:16:44.000000000,closed,3,GOAWAY retry
+1195,2019-12-05 16:42:24.000000000,2019-12-05 20:19:44.000000000,closed,1,How to multiple PutObject ?
+1194,2019-12-05 13:30:39.000000000,2019-12-05 14:01:00.000000000,closed,4,ERROR! we are not support trunk upload signature
+1193,2019-12-05 01:25:00.000000000,2019-12-05 01:27:33.000000000,closed,0,Bucket Exists With Context
+1192,2019-12-05 00:20:18.000000000,2019-12-06 01:09:40.000000000,closed,0,Support for Context on Bucket Operations
+1191,2019-12-04 08:00:43.000000000,2020-01-20 21:47:37.000000000,closed,5,Not able to connect to server with SSL on Windows
+1190,2019-12-03 15:49:36.000000000,2019-12-04 20:57:53.000000000,closed,2,Add grant information in GetObjectACL
+1189,2019-11-21 08:38:02.000000000,2019-11-21 18:23:11.000000000,closed,1,Support ListObjectsWithMetadata API
+1188,2019-11-18 18:52:43.000000000,2019-11-23 20:31:50.000000000,closed,4,Implemented support for Scaleway object storage endpoints
+1187,2019-11-17 01:54:38.000000000,2019-11-20 23:11:06.000000000,closed,1,Add object retention support
+1186,2019-11-16 12:13:48.000000000,2019-11-16 20:32:30.000000000,closed,6,Multipart file upload without knowing it's size with Pause/Resume
+1185,2019-11-14 21:05:13.000000000,2019-11-25 11:37:35.000000000,closed,2,credentials: support AWS_CONTAINER_CREDENTIALS_FULL_URI
+1184,2019-11-13 07:45:55.000000000,2020-01-23 23:01:37.000000000,closed,1,"Update s3-endpoints to include me-south-1, ap-northeast-3"
+1183,2019-11-11 06:09:28.000000000,2020-01-07 16:18:05.000000000,closed,6,Credentials: Support assuming role via WebIdentityTokenFile
+1182,2019-11-06 17:56:08.000000000,2019-11-26 06:17:56.000000000,closed,4,Add owner information in GetObjectACL and add Context
+1181,2019-10-28 15:00:46.000000000,2019-10-29 00:05:14.000000000,closed,3,Set default part size
+1180,2019-10-26 01:48:07.000000000,2019-10-26 08:44:42.000000000,closed,0,Set max-keys query param only as needed
+1179,2019-10-22 10:10:20.000000000,2019-10-25 04:04:35.000000000,closed,0,Send error for json.Unmarshal for caller action
+1178,2019-10-22 09:36:45.000000000,2019-10-22 13:31:44.000000000,closed,9,Avoid changing '+' to space when request object
+1177,2019-10-22 05:40:41.000000000,2019-10-22 14:21:26.000000000,closed,11,"ListObjects api ignore plus character ""+"""
+1176,2019-10-17 21:34:52.000000000,2019-11-07 13:55:51.000000000,closed,12,Memleak-ish behavior of PutObjectWithContext
+1175,2019-10-17 07:47:48.000000000,2019-10-24 13:54:33.000000000,closed,4,"Download failed, got 410 Gone"
+1174,2019-10-16 11:06:31.000000000,2019-10-17 10:58:55.000000000,closed,14,Error occurred when stat an exist object which showed in the ListObjects result channel
+1173,2019-10-10 08:03:13.000000000,2019-10-10 16:27:57.000000000,closed,2,case-insensitive import collision with go build
+1172,2019-10-09 13:39:25.000000000,2019-10-16 03:48:34.000000000,closed,9,putobject-streaming fails with google cloud storage
+1171,2019-10-04 18:04:37.000000000,2019-10-04 21:36:10.000000000,closed,0,list: Fix encoding in listing results
+1170,2019-10-01 00:30:44.000000000,2019-10-01 04:36:29.000000000,closed,0,Export Select Result Parser
+1169,2019-09-30 15:15:01.000000000,2019-10-01 05:17:46.000000000,closed,1,list: Decode key/prefix and marker/continuation in Core layer
+1168,2019-09-28 00:58:06.000000000,2019-09-28 07:04:04.000000000,closed,0,Test
+1167,2019-09-26 05:52:10.000000000,2019-09-29 04:49:36.000000000,closed,9,how to use PutObject with stream to append?
+1166,2019-09-25 22:18:10.000000000,2019-09-29 18:49:20.000000000,closed,3,Response header returned from getObject 
+1165,2019-09-23 11:59:27.000000000,2019-09-24 00:05:40.000000000,closed,2,Fix listObjects hang when listing special characters
+1164,2019-09-22 12:00:01.000000000,2019-09-24 02:23:24.000000000,closed,0,Change LDAP XML names to follow server changes
+1163,2019-09-19 07:53:37.000000000,2019-09-19 17:28:37.000000000,closed,6,"bucketname:""model/1234/1001/1/"" but get `Bucket name contains invalid characters`"
+1162,2019-09-19 03:34:08.000000000,2019-09-19 04:48:07.000000000,closed,2,Remove validator.go inside docs
+1161,2019-09-19 01:36:08.000000000,2019-09-19 02:05:10.000000000,closed,1,set encoding type to url in listobjects API
+1160,2019-09-16 23:29:19.000000000,2019-09-17 21:52:55.000000000,closed,0,Fix functional test
+1159,2019-09-15 21:56:11.000000000,2019-09-16 01:15:31.000000000,closed,2,Solving failure
+1158,2019-09-11 22:56:32.000000000,2019-09-16 22:23:06.000000000,closed,0,Bump builds to 1.13 only
+1157,2019-09-11 06:43:59.000000000,2019-09-11 07:41:47.000000000,closed,2,Support manual pagination by exposing continuation-token in ListObjectsV2()
+1156,2019-09-09 23:35:51.000000000,2019-10-16 03:49:45.000000000,closed,6,Support Web Identity providers for IAM credentials for AWS EKS
+1155,2019-09-03 09:10:48.000000000,2019-09-03 09:17:38.000000000,closed,0,Fix documentation on minio-go download
+1154,2019-09-03 08:03:57.000000000,2019-09-03 13:57:46.000000000,closed,3,`go get -u github.com/minio/minio-go` failed to import latest minio-go with go mod
+1153,2019-08-31 08:08:44.000000000,2019-11-10 08:56:02.000000000,closed,5,add object lock configuration APIs
+1152,2019-08-23 01:34:27.000000000,2019-08-30 05:43:49.000000000,closed,0,Add LDAP client integration
+1151,2019-08-20 06:45:30.000000000,2019-11-02 02:27:40.000000000,closed,3,Add user metadata headers into ObjectInfo
+1150,2019-08-16 11:46:58.000000000,2019-08-16 11:48:19.000000000,closed,1,SignatureDoesNotMatch
+1149,2019-08-16 01:46:23.000000000,2019-08-16 02:29:06.000000000,closed,0,Fix broken link to go install docs
+1148,2019-08-09 17:42:07.000000000,2019-08-13 05:39:02.000000000,closed,0,add WithContext API in Core
+1147,2019-08-09 17:19:50.000000000,2019-08-13 05:39:02.000000000,closed,0,export *WithContext in core API
+1146,2019-08-06 21:15:27.000000000,2019-08-08 21:28:01.000000000,closed,6,PutObjectWithContext() gets stuck if reading an empty file from a progress bar io.Reader
+1145,2019-08-06 15:49:20.000000000,2019-11-02 02:27:40.000000000,closed,3,return usermeta in StatObject
+1144,2019-07-17 00:22:25.000000000,2019-07-17 01:19:29.000000000,closed,0,Remove port 9000 from play.min.io
+1143,2019-07-11 00:04:50.000000000,2019-07-11 02:28:59.000000000,closed,0,MakeBucket error in FileUploader.go example is not returned see #1142
+1142,2019-07-10 23:53:06.000000000,2019-07-11 02:29:57.000000000,closed,4,FileUploader.go example should return MakeBucket error
+1141,2019-07-10 13:22:02.000000000,2019-07-11 11:20:43.000000000,closed,1,add `EndpointURL` method to S3 client
+1140,2019-07-10 10:32:47.000000000,2019-07-10 21:04:40.000000000,closed,1,fix error message for wrong content length on putobject
+1138,2019-07-09 21:26:36.000000000,2019-07-10 02:26:57.000000000,closed,3,Fixed Object.ReadAt returns io.EOF if end of file was reached in previous call of Object.Read
+1137,2019-07-09 21:17:22.000000000,2019-07-10 02:26:57.000000000,closed,2,Object.ReadAt returns io.EOF if end of file was reached in previous call of Object.Read
+1136,2019-07-09 01:53:05.000000000,1970-01-01 00:00:00.000000001,open,0,SetCannedBucketPolicy() like APIs
+1135,2019-07-08 06:01:43.000000000,2019-07-10 21:04:40.000000000,closed,6,Provide explicit error when uploaded file size doesn't match actual size
+1134,2019-07-08 01:15:18.000000000,2019-07-11 11:20:43.000000000,closed,8,Expose server properties
+1133,2019-07-05 22:24:56.000000000,2019-07-09 19:18:30.000000000,closed,6,CopyObject does not always copy ContentType
+1132,2019-07-03 17:26:13.000000000,2019-07-03 19:18:31.000000000,closed,2,"""301 response missing Location header"" from S3 in EU bucket"
+1131,2019-07-03 09:03:48.000000000,2019-08-08 04:32:18.000000000,closed,10,Get ETag from put-object response
+1130,2019-07-02 15:09:12.000000000,2019-07-14 23:34:21.000000000,closed,19,Iterating more than 1k objects failed with ListObjectsV2 but works with ListObjects
+1129,2019-06-27 03:40:11.000000000,2019-06-27 04:20:12.000000000,closed,0,MakeBucket should always use pathStyle
+1128,2019-06-21 21:49:46.000000000,2019-06-22 01:12:23.000000000,closed,0,Prevent repeated allocation of constant value
+1127,2019-06-21 17:18:00.000000000,2019-06-22 02:10:09.000000000,closed,4,why is core.GetObject doesn't have context as first parameter
+1126,2019-06-20 22:36:00.000000000,2019-06-22 03:39:02.000000000,closed,0,Data race: Use a copy instead of a pointer to url.URL
+1125,2019-06-20 19:30:08.000000000,2019-06-22 04:11:36.000000000,closed,3,is GetObject thread safe?
+1124,2019-06-19 19:05:14.000000000,2019-06-21 01:21:25.000000000,closed,18,File corruption on S3 upload
+1123,2019-06-17 14:49:15.000000000,2019-06-18 10:12:52.000000000,closed,5,Bucket name appending when uploading file to s3
+1122,2019-06-14 14:15:47.000000000,2019-06-17 12:00:27.000000000,closed,4,Remove delimiter if empty to support recursion on NetApp StorageGrid …
+1121,2019-06-12 00:02:47.000000000,2019-06-12 00:40:49.000000000,closed,0,Retry on AccessDenied only in restricted cases
+1120,2019-06-08 00:08:36.000000000,2019-06-08 01:08:09.000000000,closed,2,Accept bucket as Option in NewWithOptions
+1119,2019-06-07 16:01:23.000000000,2019-06-07 21:20:47.000000000,closed,15,Add a new switch to explicitly control whether or not to use the virtual-hosted style
+1118,2019-06-06 11:48:36.000000000,2019-09-19 02:26:53.000000000,closed,1,Update some documents of minio-go
+1117,2019-06-03 22:04:48.000000000,2019-06-06 02:47:50.000000000,closed,1,Handle regions returned in error responses
+1116,2019-05-29 18:23:48.000000000,2019-05-29 19:25:33.000000000,closed,0,Retry errors caused by a timeout waiting for the server response
+1115,2019-05-29 18:19:24.000000000,2019-05-29 21:10:02.000000000,closed,0,Add slash to defaultIAMSecurityCredsPath
+1114,2019-05-29 18:16:16.000000000,2019-05-29 21:13:42.000000000,closed,1,Getting blank IAM security credential
+1113,2019-05-29 04:32:54.000000000,2019-05-29 21:21:09.000000000,closed,0,Listbuckets API: Retry with region returned by s3 server
+1112,2019-05-25 01:27:53.000000000,2019-05-29 02:25:00.000000000,closed,2,Increase default multipart size to 128MiB
+1111,2019-05-23 22:42:49.000000000,2019-05-25 02:35:16.000000000,closed,7,Fix go module imports properly to honor semantic versioning
+1110,2019-05-23 04:21:02.000000000,2019-05-23 23:23:48.000000000,closed,1,Allow domains with . at the end
+1109,2019-05-23 03:13:45.000000000,2019-05-23 23:23:48.000000000,closed,7, s3utils.IsValidDomain rejects fully qualified domain names
+1108,2019-05-22 19:51:13.000000000,2019-05-23 22:08:11.000000000,closed,1,Move all top level go files
+1107,2019-05-22 16:50:22.000000000,2019-05-22 18:15:49.000000000,closed,5,Go get does not get versions after v6.0.14
+1106,2019-05-22 15:02:22.000000000,2019-09-29 18:49:19.000000000,closed,7,Get the Content-Range header in (Core) GetObject
+1105,2019-05-10 21:46:45.000000000,2019-05-11 11:04:26.000000000,closed,0,support new ap-east-1 region
+1104,2019-05-08 21:51:41.000000000,2019-05-15 11:44:13.000000000,closed,3,Retry on 504 Gateway timeout http status code.
+1103,2019-05-05 12:04:47.000000000,2019-05-07 06:40:39.000000000,closed,4,How to set the speed of GetObject or PutObject?
+1102,2019-05-04 16:28:44.000000000,2019-05-04 21:25:15.000000000,closed,4,Amazon S3 is deprecating path-style request URIs
+1101,2019-04-25 03:39:10.000000000,2019-08-23 01:43:31.000000000,closed,2,Add Kerberos credentials provider
+1100,2019-04-19 05:48:40.000000000,2019-04-23 00:51:06.000000000,closed,3,fix: add missing return in optimalPartInfo
+1099,2019-04-19 05:36:35.000000000,2019-04-23 00:51:06.000000000,closed,1,Missing return statement in optimalPartInfo?
+1098,2019-04-15 18:33:22.000000000,2019-04-16 02:11:49.000000000,closed,5,Option for disabling SHA256 signatures
+1097,2019-04-09 15:05:37.000000000,2019-05-01 03:27:51.000000000,closed,3, Add check for period and dash in bucket name
+1096,2019-04-06 02:31:42.000000000,2019-04-08 02:54:46.000000000,closed,0,Replace Minio with MinIO and minio.io with min.io
+1095,2019-04-03 17:53:05.000000000,2019-04-03 19:10:48.000000000,closed,4,How to check connection?
+1094,2019-04-02 10:41:21.000000000,2019-04-03 11:30:16.000000000,closed,0,remove go-music-player-app links from docs
+1093,2019-03-25 22:24:44.000000000,2019-04-09 00:24:46.000000000,closed,4,Add configurable PartSize for PutObject
+1092,2019-03-25 15:47:59.000000000,2019-03-26 21:59:57.000000000,closed,2,tests: Add copy SSEC Multipart to SSEC use case
+1091,2019-03-24 12:29:36.000000000,2019-05-14 02:28:43.000000000,closed,2,[api] enable error tracing
+1090,2019-03-22 16:25:08.000000000,2019-05-22 18:18:23.000000000,closed,2,Expand TraceOn() to print only errors
+1089,2019-03-18 19:21:27.000000000,2019-04-05 22:07:43.000000000,closed,2,Make & exists bucket methods with context.
+1088,2019-03-13 15:43:48.000000000,2019-05-25 02:36:05.000000000,closed,8,Module incompatibility
+1087,2019-03-11 14:27:27.000000000,2019-03-12 02:17:22.000000000,closed,10,Issue with setting bucket lifecycle
+1086,2019-03-08 03:51:23.000000000,2019-03-08 06:36:37.000000000,closed,0,Omit empty CSV options for select api
+1085,2019-03-07 15:31:54.000000000,2019-03-12 04:37:00.000000000,closed,3,custom headers are not carried with further requests
+1084,2019-03-04 16:10:18.000000000,2019-03-04 16:48:53.000000000,closed,4,Error to to retrieve new notifications at ListenBucketNotification channel
+1083,2019-03-02 00:34:44.000000000,1970-01-01 00:00:00.000000001,open,1,Take multiple endpoints input in our client constructor
+1082,2019-02-28 13:23:08.000000000,2019-02-28 15:17:59.000000000,closed,7,How to check if object exists
+1081,2019-02-27 11:34:43.000000000,2019-02-28 14:48:36.000000000,closed,3,Why is minio using so much memory?
+1080,2019-02-26 03:28:20.000000000,2019-04-22 23:18:00.000000000,closed,8,Request to add Metadata API environment variables
+1079,2019-02-26 02:47:24.000000000,2019-02-26 03:25:43.000000000,closed,1,Doc: PutObject api's return value is incorrect
+1078,2019-02-22 18:34:15.000000000,2019-03-12 04:04:19.000000000,closed,6,CopyObjectPart: Add x-amz-copy-source-if-match as condition
+1077,2019-02-22 11:42:12.000000000,2019-02-23 13:46:39.000000000,closed,2,Support HTTP 2.0 in DefaultTransport for TLS requests
+1076,2019-02-22 03:37:46.000000000,2019-02-27 23:09:24.000000000,closed,1,Filter Expires from user defined metadata
+1075,2019-02-21 00:45:44.000000000,2019-02-27 05:49:15.000000000,closed,3,Allow changing the DefaultExpiryWindow for IAM credentials
+1074,2019-02-13 00:16:20.000000000,2019-02-13 11:14:51.000000000,closed,2,Retry list requests for `InvalidRegion` error responses
+1073,2019-02-12 13:28:45.000000000,2019-02-20 00:19:03.000000000,closed,1,Select error-type is now error-code
+1072,2019-02-06 21:19:41.000000000,2019-02-12 02:31:08.000000000,closed,9, If AccessKey and SecretAccessKey could not be resolved - credentials will never be cached
+1071,2019-02-06 18:30:48.000000000,2019-02-07 15:19:36.000000000,closed,3,Endless cycle if io.ReadFull returns io.ErrUnexpectedEOF? or not?
+1070,2019-02-05 01:59:49.000000000,2019-02-07 05:59:40.000000000,closed,4,Fix hook reader to seek source and hook appropriately
+1069,2019-01-30 17:18:10.000000000,2019-02-18 11:16:18.000000000,closed,7,Strip 80/443 in getBucketLocationRequest
+1068,2019-01-29 03:22:55.000000000,2019-01-29 12:17:37.000000000,closed,0,Add go modules support
+1067,2019-01-26 03:23:19.000000000,2019-01-28 11:12:31.000000000,closed,0,Make sure Token and Expiry can be set properly
+1066,2019-01-21 16:34:02.000000000,2019-01-23 07:33:00.000000000,closed,0,Remove unnecessary header field in ErrorResponse
+1065,2019-01-19 01:05:11.000000000,2019-01-24 15:19:12.000000000,closed,0,fix: Trim extra spaces in signed header values for creating canonical
+1064,2019-01-17 19:10:18.000000000,2019-01-20 15:05:30.000000000,closed,1,"Set prefix, delimiter params even when empty"
+1063,2019-01-12 04:36:03.000000000,2019-01-12 05:06:06.000000000,closed,2,Failed dep ensure with minio-go import because of github.com/minio/go-homedir dep.
+1062,2019-01-11 12:47:29.000000000,2019-01-12 07:59:16.000000000,closed,0,Select API error is a message-type handle it appropriately
+1061,2019-01-09 07:32:33.000000000,2019-01-11 12:47:54.000000000,closed,1,"Add a ""Reviewed by Hound"" badge"
+1060,2019-01-06 11:56:45.000000000,2019-01-06 21:25:26.000000000,closed,2,Support new AWS regions: eu-north-1 and us-gov-east-1
+1059,2019-01-06 03:52:26.000000000,2019-01-14 22:11:59.000000000,closed,4,Add STSClientGrants and STSWebIdentity credential provider
+1058,2019-01-04 14:57:28.000000000,2019-01-04 15:02:03.000000000,closed,4,"what is the "" go get -v github.com/minio/minio-go""   download completely operation"
+1057,2019-01-01 23:51:08.000000000,2019-01-02 08:51:39.000000000,closed,0,Cleanup fully after functional tests
+1056,2019-01-01 23:26:15.000000000,2019-01-04 11:29:09.000000000,closed,7,Document AWS S3 IAM permissions for test suite
+1055,2019-01-01 17:07:21.000000000,2019-01-06 03:14:11.000000000,closed,0,Provide AWS S3 Dual-Stack Endpoints
+1054,2018-12-31 13:55:09.000000000,2019-01-03 04:05:51.000000000,closed,3,Allow preserving cookies for proxies
+1053,2018-12-29 06:56:59.000000000,2018-12-29 08:58:35.000000000,closed,2,Enable builds with go1.11
+1052,2018-12-24 13:28:21.000000000,2018-12-24 13:30:54.000000000,closed,5,How to delete all files in a bucket?
+1051,2018-12-21 14:25:27.000000000,2018-12-21 20:56:11.000000000,closed,2,How to get minio filepath list.
+1050,2018-12-09 00:48:01.000000000,2018-12-10 11:42:10.000000000,closed,1,Correct minimum expiry time in presignURL func doc
+1049,2018-12-04 18:24:59.000000000,2018-12-04 19:14:33.000000000,closed,1,when using encrypt.NewSSE() getting error to upload
+1048,2018-11-30 06:32:21.000000000,2018-12-05 06:42:17.000000000,closed,2,Set Content-Encoding for sigv4-streaming uploads
+1047,2018-11-29 08:01:17.000000000,2018-12-05 06:42:34.000000000,closed,5,add batch presigned api
+1046,2018-11-29 07:42:46.000000000,2018-11-30 08:54:34.000000000,closed,4,SignatureDoesNotMatch
+1045,2018-11-29 03:40:32.000000000,2018-11-29 03:41:39.000000000,closed,0,no validation option on s3 endpoint boolean
+1044,2018-11-26 17:12:22.000000000,2018-11-28 02:23:33.000000000,closed,3,make fails due to unit test failure in TestCoreCopyObject 
+1043,2018-11-15 06:39:52.000000000,2019-01-04 21:08:30.000000000,closed,5,"Add tests for SSE-C,SSE-S3 encryption"
+1042,2018-11-13 14:46:32.000000000,2018-11-15 09:56:46.000000000,closed,1,Added SetUserData to run Unit Test of Post Policy
+1041,2018-10-30 21:09:34.000000000,2018-11-09 23:33:49.000000000,closed,0,improve Quick Start Example - File Uploader
+1040,2018-10-25 22:31:02.000000000,2018-11-06 02:00:45.000000000,closed,2,Add test for encrypted CopyObjectPart
+1039,2018-10-24 05:04:07.000000000,2018-10-24 05:07:11.000000000,closed,1,"Add ""Reviewed by Hound"" badge"
+1038,2018-10-12 12:38:55.000000000,2018-10-15 23:03:25.000000000,closed,0,fix https://github.com/minio/minio-go/issues/1036
+1037,2018-10-12 11:39:15.000000000,2018-10-15 18:33:05.000000000,closed,4,minio-go handles keep-alive connections weirdly
+1036,2018-10-12 11:31:15.000000000,2018-10-15 23:03:26.000000000,closed,1,"404 Not Found response from s3, function BucketExists return err!=nil,it's err should be nil, exists is false"
+1035,2018-10-10 05:34:31.000000000,2018-10-11 03:47:15.000000000,closed,0,fix https://github.com/minio/minio-go/issues/1034
+1034,2018-10-09 13:27:14.000000000,2018-10-11 03:47:16.000000000,closed,2,"missing ""."" caused func (c Client) BucketExists(bucketName string) (bool, error) return error when bucket does not exist"
+1033,2018-10-08 21:00:06.000000000,2018-10-10 02:19:30.000000000,closed,3,Missing S3 FIPS endpoints
+1032,2018-10-08 20:55:00.000000000,2018-10-09 04:28:26.000000000,closed,0,Add S3 FIPS missing endpoints
+1031,2018-10-04 01:27:55.000000000,2018-10-09 04:27:21.000000000,closed,1,Pass Etag back in core CompleteMultipartUpload call
+1030,2018-09-25 01:54:09.000000000,2018-11-06 02:00:45.000000000,closed,0,tests: Add Compose encrypted src/dst unit test
+1029,2018-09-24 01:55:19.000000000,2018-09-25 02:51:20.000000000,closed,1,Set correct etag in X-Amz-Copy-Source-If-Match for each part in ComposeObject API
+1028,2018-09-23 16:49:49.000000000,2018-09-25 02:51:20.000000000,closed,1,'At least one of the pre-conditions you specified did not hold' Error
+1027,2018-09-20 17:40:15.000000000,2018-09-25 13:12:15.000000000,closed,0,Add support to AWS ECS Task Role IAM credentials
+1026,2018-09-18 12:07:01.000000000,2018-09-18 20:35:35.000000000,closed,0,Fix multipart uploads with SSE-S3() and SSE-KMS()
+1025,2018-09-18 06:21:03.000000000,2018-09-18 20:35:35.000000000,closed,8,Multipart upload to AWS S3 does not seem to work
+1024,2018-09-13 14:07:39.000000000,2018-09-19 00:20:02.000000000,closed,2,Add new API SelectObjectContent
+1023,2018-09-08 12:50:57.000000000,2018-09-08 12:59:35.000000000,closed,2,"GetObject if bucket/object not exist return empty Object, should be error"
+1022,2018-09-04 23:04:42.000000000,2018-09-05 04:47:51.000000000,closed,0,Functional_test: Prefix string to user defined metadatakey
+1021,2018-08-31 01:52:17.000000000,2018-09-13 13:39:37.000000000,closed,4,Migrate to Go Modules
+1020,2018-08-29 21:31:43.000000000,2018-08-30 23:25:47.000000000,closed,0,enhance core.go to pass sse headers for uploads
+1019,2018-08-25 04:54:47.000000000,2018-08-25 06:01:04.000000000,closed,3,How should we skip ssl verification for self-certification?
+1018,2018-08-17 04:48:40.000000000,2018-08-24 13:20:34.000000000,closed,1,"Allow sse-s3, sse-kms headers in Put, Get and Copy operations"
+1017,2018-08-16 03:29:55.000000000,2018-08-16 11:01:32.000000000,closed,0,Remove work-around for httputil.Dump
+1016,2018-08-07 03:39:36.000000000,2018-08-07 08:01:04.000000000,closed,0,Fix retrying retryable http requests errors
+1015,2018-08-04 02:25:41.000000000,2018-08-06 22:46:17.000000000,closed,0,mc returns 'At least one of the pre-conditions you specified did not hold' during a concurrent read/write on the same object
+1014,2018-08-04 01:34:09.000000000,2018-08-06 22:46:18.000000000,closed,1,Disable ETag check when copying object < 5 Gb
+1013,2018-07-28 02:33:10.000000000,2018-09-13 13:39:02.000000000,closed,2,[WIP]Adds Client API for SelectObjectContentOperation
+1012,2018-07-23 18:15:08.000000000,2018-07-23 21:19:38.000000000,closed,0,"Add ""Expires"" to standard header"
+1011,2018-07-20 20:44:20.000000000,2018-07-27 20:32:47.000000000,closed,2,Add new method GetObjectACL()
+1010,2018-07-18 17:56:49.000000000,2018-07-20 02:43:37.000000000,closed,2,New way to update ObjectACL or Header or Meta data
+1009,2018-07-17 05:49:43.000000000,2018-07-23 22:52:17.000000000,closed,7,Redirect to correct region for Wasabi
+1008,2018-07-14 07:33:31.000000000,2018-07-15 15:58:46.000000000,closed,1,Add check for env var
+1007,2018-07-13 20:02:53.000000000,2018-07-16 22:46:20.000000000,closed,2,Respect shared credential file environment variable
+1006,2018-07-10 03:51:28.000000000,2018-07-11 16:25:12.000000000,closed,1,Fix multipart copy of a large encrypted object
+1005,2018-07-07 01:15:55.000000000,2018-07-10 03:59:02.000000000,closed,0,fix: update progress bar with correct size of recently uploaded part
+1004,2018-07-06 09:29:10.000000000,2018-07-16 18:08:35.000000000,closed,8,Add support for bucket lifecycle policies
+1003,2018-07-01 12:05:08.000000000,2018-07-02 07:40:01.000000000,closed,2,Reduce memory consumption for streamed object: https://github.com/min…
+1002,2018-06-30 02:16:03.000000000,2018-07-05 18:57:20.000000000,closed,1,pkg/policy: detect single statement policies
+1001,2018-06-28 13:26:16.000000000,2018-06-28 21:18:11.000000000,closed,0,Ignore all content-type checks in our functional tests
+1000,2018-06-26 18:11:03.000000000,2018-06-26 21:44:14.000000000,closed,4,Not able to use SSL with self-signed certificate
+999,2018-06-21 13:36:08.000000000,2018-06-21 21:58:15.000000000,closed,0,Allow application/octet-stream as a possible content-type
+998,2018-06-21 11:49:18.000000000,2018-06-21 22:06:23.000000000,closed,1,Use GCS compatible Content-Language value in functional tests
+997,2018-06-21 02:54:33.000000000,2018-06-21 21:58:15.000000000,closed,1,Error while running S3 tests on Mint
+996,2018-06-21 02:30:50.000000000,2018-06-21 20:46:50.000000000,closed,1,Error while running Azure tests on Mint
+995,2018-06-19 21:01:49.000000000,2018-06-20 09:12:26.000000000,closed,0,Fix functional tests for Gateway behaviour
+994,2018-06-19 04:57:57.000000000,2018-06-19 22:22:37.000000000,closed,0,RemoveIncompleteUpload to remove all incomplete uploads
+993,2018-06-18 16:41:52.000000000,2018-06-18 18:27:37.000000000,closed,0,Fix FGetObject API link
+992,2018-06-17 15:58:46.000000000,2018-06-19 06:55:30.000000000,closed,5,go get fails
+991,2018-06-15 06:15:17.000000000,2018-06-16 09:51:39.000000000,closed,2,failed tests when completed rpm build
+990,2018-06-12 14:48:25.000000000,2018-06-14 03:01:28.000000000,closed,0,Added support for the start-after parameter when performing a List Objects V2 query
+989,2018-06-10 15:54:54.000000000,2018-06-14 03:09:30.000000000,closed,5,"Large memory consumption when specifiying size of ""-1"" to .PutObject function"
+988,2018-05-30 01:49:37.000000000,2018-05-30 01:58:53.000000000,closed,1,Added a NewIAMProvider function
+987,2018-05-30 01:35:30.000000000,2018-05-30 01:58:23.000000000,closed,2,Expose IAM Provider to use in Chain
+986,2018-05-28 08:21:30.000000000,2018-05-29 22:10:09.000000000,closed,3,fix version naming convention to have 'v' prefix
+985,2018-05-26 13:23:30.000000000,2018-05-29 22:10:09.000000000,closed,6,"release tag format, compatibility with the Go versioning proposal"
+984,2018-05-13 17:09:06.000000000,2018-05-14 12:39:32.000000000,closed,1,Credential is mal-formed error while running in Docker Compose 
+983,2018-05-10 20:19:39.000000000,2019-05-14 01:15:19.000000000,closed,4,Cannot extract file within a zip from minio
+982,2018-05-08 01:08:36.000000000,2018-05-08 01:14:41.000000000,closed,1,Fix build for httplex package merged into httpguts
+981,2018-05-08 01:01:28.000000000,2018-05-08 01:36:33.000000000,closed,9,Change import httplex to httpguts.
+980,2018-05-07 12:33:21.000000000,2018-10-19 00:21:20.000000000,closed,1,[WIP] fix: ComposeObject supports parallel uploads
+979,2018-05-05 22:58:55.000000000,2018-05-06 22:02:50.000000000,closed,5,StatObject does not timeout
+978,2018-05-03 17:21:31.000000000,2018-05-04 12:22:01.000000000,closed,1,unsupported user defined metadata value
+977,2018-05-03 10:18:22.000000000,2018-05-03 10:20:37.000000000,closed,1,request rate logging & dropping constant from DefaultRetryCap [ch3940]
+976,2018-04-30 17:50:11.000000000,2018-05-01 13:59:35.000000000,closed,10,[Question] Set a ReadOnly policy to a bucket ?
+975,2018-04-26 04:01:20.000000000,2018-04-26 09:30:36.000000000,closed,0,Avoid returning security related header when stating an object
+974,2018-04-25 11:43:12.000000000,2018-04-29 20:13:31.000000000,closed,3,fix: remove wrong policy comparison in functional tests
+973,2018-04-25 10:43:28.000000000,2018-04-25 22:52:21.000000000,closed,0,Fix bucket policy tests to avoid verbatim match for policies
+972,2018-04-25 09:04:10.000000000,2018-04-26 09:07:27.000000000,closed,0,Added SlowDown in retryableS3Codes #971
+971,2018-04-25 08:05:18.000000000,2018-04-26 10:22:21.000000000,closed,2,retry on `SlowDown` code?
+970,2018-04-25 02:57:42.000000000,2018-04-26 09:06:44.000000000,closed,0,tests: Cleanup objects after StorageClass tests
+969,2018-04-22 12:26:53.000000000,2018-04-24 23:06:21.000000000,closed,0,Add progress bar support for ComposeObject
+968,2018-04-22 11:42:00.000000000,2018-04-24 21:50:15.000000000,closed,0,api: maximize ComposeObject to use more parts than part size
+967,2018-04-18 19:20:08.000000000,2018-04-23 12:05:28.000000000,closed,1,Support specifying redirect location for a object
+966,2018-04-13 22:37:47.000000000,2018-04-13 22:58:17.000000000,closed,0,When policy is empty delete the bucket policy
+965,2018-04-05 17:20:53.000000000,2018-04-06 01:04:51.000000000,closed,0,avoid sending SSE-S3 header during GET requests.
+964,2018-04-05 16:53:33.000000000,2018-04-06 01:04:51.000000000,closed,0,[SSE]: Avoid sending SSE-S3 header during GET
+963,2018-04-04 13:21:42.000000000,2018-04-09 23:37:42.000000000,closed,6,Add tests to check if ListObjects/V2 returns expected StorageClass
+962,2018-03-31 02:16:30.000000000,2018-04-06 21:12:40.000000000,closed,1,avoid unnecessary stat call during single copy
+961,2018-03-31 01:59:56.000000000,2018-04-06 21:12:40.000000000,closed,0,[SSE]: CopyObject fails for encrypted-to-unencrypted object
+960,2018-03-27 21:08:29.000000000,2018-04-03 01:52:10.000000000,closed,4,Fix stream SSE uploads with S3 encrypt type
+959,2018-03-23 14:53:22.000000000,2018-04-09 23:29:30.000000000,closed,4,Update get/setBucketPolicy methods to use files instead of pkg/policy
+958,2018-03-23 13:08:20.000000000,2018-03-26 20:11:12.000000000,closed,0,Allow to upload empty files in stream based uploads
+957,2018-03-21 23:44:52.000000000,2018-03-26 15:07:34.000000000,closed,0,tests: Remove partial related tests
+956,2018-03-20 01:11:57.000000000,2018-03-20 09:06:05.000000000,closed,0,Add transport connection broken error to retry list
+955,2018-03-19 18:02:57.000000000,2018-03-26 15:10:58.000000000,closed,4,Add missing doneCh in the example for removeobjects
+954,2018-03-16 23:04:45.000000000,2018-03-21 01:01:57.000000000,closed,9,`http: read on closed response body` after loading some time
+953,2018-03-15 21:35:24.000000000,2018-03-20 09:06:05.000000000,closed,0,"Put resulting in ""transport connection broken"" errors should be retried"
+952,2018-03-15 15:28:06.000000000,2018-03-19 03:53:20.000000000,closed,0,[refactor]: simplify client encryption examples
+951,2018-03-15 15:18:52.000000000,2018-03-19 03:53:20.000000000,closed,0,[refactor]: simplify put/get-client-encryption examples using latest sio version 
+950,2018-03-14 13:46:09.000000000,2018-03-15 21:16:19.000000000,closed,0,Add tests for putObjectContentLanguage
+949,2018-03-14 05:33:57.000000000,2018-03-29 22:19:33.000000000,closed,3,Fix xml parsing error for RemoveObjects API
+948,2018-03-13 23:53:10.000000000,2018-03-14 05:39:10.000000000,closed,2,Add putObject/getObject() client side encryption examples
+947,2018-03-13 11:26:25.000000000,2018-03-15 22:04:18.000000000,closed,2,Add travis-ci badge
+946,2018-03-13 07:15:55.000000000,2018-03-14 06:15:33.000000000,closed,2,Publicly Put Object
+945,2018-03-12 15:54:01.000000000,2018-03-14 05:39:10.000000000,closed,6,Issues with high memory consuption when running concurrent go routines and minio s3Client.PutEncryptedObject
+944,2018-03-09 13:48:16.000000000,2018-03-12 10:17:17.000000000,closed,1,add copyObject test changing metadata and preserving etag
+943,2018-03-09 04:49:02.000000000,2018-04-09 23:29:30.000000000,closed,0,set/getBucketPolicy should take/return policy JSON file
+942,2018-03-08 22:21:00.000000000,2018-03-13 02:59:48.000000000,closed,2,Add SSE and refactor encryption API
+941,2018-03-07 01:13:28.000000000,2018-03-07 15:59:25.000000000,closed,0,"Add SSE-C tests for multipart, copy, get range operations"
+940,2018-03-05 22:42:41.000000000,2018-03-05 23:19:53.000000000,closed,0,Removing conditional check for notificationInfoCh in api-notication
+939,2018-03-03 06:57:19.000000000,2018-03-05 09:00:32.000000000,closed,1,Add RemoveObjectsWithContext call
+938,2018-03-01 21:53:43.000000000,2018-03-05 22:36:47.000000000,closed,0,Moving doneCh handling outside of conditional check for events received
+937,2018-03-01 03:19:24.000000000,2018-03-01 21:53:04.000000000,closed,0,Moving doneCh handling outside of conditional check for events received
+936,2018-03-01 02:19:45.000000000,2018-03-05 23:20:46.000000000,closed,4,ListenBucketNotification Fails to Terminate Promptly
+935,2018-02-28 15:39:43.000000000,2018-03-01 01:21:46.000000000,closed,0,replace t.Fatal with log.Fatalln in examples
+934,2018-02-28 15:37:00.000000000,2018-02-28 23:24:36.000000000,closed,0,replace t.Fatal with log.Fatalln
+933,2018-02-27 03:28:29.000000000,2018-02-28 15:34:34.000000000,closed,0,Fix errors in file when using the Asymmetrical ver
+932,2018-02-26 23:14:31.000000000,2018-02-27 02:11:21.000000000,closed,0,Update examples to use encrypt package
+931,2018-02-26 18:07:19.000000000,2018-02-27 02:11:21.000000000,closed,4,"Error:  ""undefined: NewAsymmetricKey"" while trying to use Asymmetric encryption"
+930,2018-02-24 13:53:00.000000000,2018-02-27 06:40:31.000000000,closed,0,Encryption headers should also be set during initMultipart
+929,2018-02-24 02:04:01.000000000,2018-02-28 03:30:45.000000000,closed,1,Honor prefix parameter in ListBucketPolicies API
+928,2018-02-23 05:54:45.000000000,2018-02-23 07:40:45.000000000,closed,1,Add support for Content-Language metadata header
+927,2018-02-23 05:00:31.000000000,2018-02-27 22:56:32.000000000,closed,1,test for empty objects uploaded with SSE-C headers
+926,2018-02-20 22:46:31.000000000,2018-02-28 03:30:45.000000000,closed,1,ListBucketPolicies does not filter policy rules using objectPrefix parameter
+925,2018-02-20 06:32:52.000000000,2018-02-21 05:04:59.000000000,closed,0,allow OS to cleanup sockets in TIME_WAIT
+924,2018-02-20 02:48:01.000000000,2018-02-21 05:04:59.000000000,closed,3,Client wasting connections
+923,2018-02-17 03:22:25.000000000,2018-02-17 18:44:11.000000000,closed,7,support region detection for GET
+922,2018-02-15 22:31:09.000000000,2018-02-23 07:40:45.000000000,closed,1,support for Content-Language
+921,2018-02-11 03:12:32.000000000,2018-02-16 15:26:46.000000000,closed,1,SignV2: Fix signature calculation in virtual host style
+920,2018-02-11 01:19:43.000000000,2018-02-16 15:53:02.000000000,closed,1,Miscalculation of signature in V2 when virtual host style mode is selected
+919,2018-02-09 03:37:38.000000000,2018-02-15 22:53:52.000000000,closed,1,bucket policy: Support json string in Principal field
+918,2018-02-07 00:27:44.000000000,2018-02-07 04:07:47.000000000,closed,0,Fix copyobject failure for empty files
+917,2018-02-06 07:47:25.000000000,2018-02-22 23:02:23.000000000,closed,0,Fix check for duplicate notification configuration entries
+916,2018-02-05 06:45:55.000000000,2018-02-14 23:13:40.000000000,closed,6,Can't connect to digitalocean spaces using it's default example
+915,2018-01-26 05:29:56.000000000,2018-02-02 04:19:48.000000000,closed,0,Add new constructor NewWithOptions to SDK
+914,2018-01-25 04:27:03.000000000,2018-01-25 05:08:06.000000000,closed,4,Uploads never do checksums?
+913,2018-01-11 02:57:10.000000000,2018-01-11 05:36:12.000000000,closed,0,increase max retry 
+912,2018-01-10 23:40:43.000000000,2018-01-11 00:33:05.000000000,closed,0,Fix contentType typo while logging in testFputObject
+911,2018-01-10 06:42:00.000000000,2018-01-11 00:33:04.000000000,closed,0,"Wrong info in functional test, testFPutObject(), error messages"
+910,2018-01-09 21:39:52.000000000,2018-01-11 14:13:47.000000000,closed,4,Fix bucket region estimation process
+909,2018-01-09 05:27:56.000000000,2018-01-09 06:07:40.000000000,closed,0,Fixed misspelled mint mode env. var.
+908,2018-01-09 04:43:04.000000000,2018-01-09 06:07:40.000000000,closed,0,"Environment variable mint ""MODE"" is supposed to be ""MINT_MODE"""
+907,2018-01-09 00:22:45.000000000,2018-01-11 13:59:19.000000000,closed,6,Fail in PutObject if invalid user metadata is passed 
+906,2018-01-06 01:19:55.000000000,2018-02-27 04:46:55.000000000,closed,5,Implement WithContext methods for remove APIs
+905,2018-01-02 23:55:43.000000000,2018-01-08 23:55:08.000000000,closed,7,Add new regions for Paris and China west.
+904,2017-12-31 20:59:22.000000000,2018-01-04 11:16:27.000000000,closed,4,Update functional tests to not expect STANDARD storage class
+903,2017-12-27 14:06:59.000000000,2017-12-28 10:42:57.000000000,closed,0,Fix PutObject docs for x-amz-storage-class
+902,2017-12-23 17:44:46.000000000,2017-12-24 12:01:31.000000000,closed,2,I can't update the new sdk of minio-go
+901,2017-12-23 04:23:58.000000000,2018-01-11 22:54:43.000000000,closed,15,fix: use virtual hosted style if server supports it.
+900,2017-12-23 00:01:05.000000000,2017-12-23 05:11:13.000000000,closed,5,Fixes the timeout issue in 'GetObjectWithContext' api
+899,2017-12-22 16:48:13.000000000,2018-01-07 04:53:49.000000000,closed,13,fix s3signer to use req.Host header
+898,2017-12-22 08:30:06.000000000,2017-12-23 04:17:30.000000000,closed,1,remove functional tests for context timeout
+897,2017-12-22 04:05:49.000000000,2017-12-22 06:47:01.000000000,closed,3,functional test: server side encrypted copy object fails on mint
+896,2017-12-12 13:01:50.000000000,2017-12-24 10:09:43.000000000,closed,8,Add storage class support
+895,2017-12-08 13:01:23.000000000,2017-12-08 13:16:52.000000000,closed,2,No Metadata in ObjectInfo when using ListObjectsV2?
+894,2017-12-05 18:29:26.000000000,2017-12-14 05:40:03.000000000,closed,12,RiakCS - Making object publicly accessible
+893,2017-12-05 04:24:55.000000000,2017-12-05 05:06:50.000000000,closed,0,Migrate to mitchellh/go-homedir
+892,2017-12-05 03:07:25.000000000,2017-12-05 05:06:50.000000000,closed,4,git history rewritten in github.com/minio/go-homedir
+891,2017-12-03 18:28:30.000000000,2017-12-03 19:39:58.000000000,closed,3,"got ""The authorization mechanism you have provided (AWS4-HMAC-SHA256) is not supported"" when connecting to riak"
+890,2017-11-30 05:54:26.000000000,2017-12-04 11:46:40.000000000,closed,0,Ignore Metadata field in xml encode/decode
+889,2017-11-23 13:11:17.000000000,2017-11-23 17:17:41.000000000,closed,5,Do you have the api for getting the quotas on users and on a bucket owned by users?
+888,2017-11-22 07:43:18.000000000,2017-11-23 04:32:16.000000000,closed,0,Reduced the number of files in testRemoveMultipleObjects test
+887,2017-11-22 06:42:16.000000000,2017-11-23 04:32:16.000000000,closed,0,gateway-gcs: testRemoveMultipleObjects functional test fails (gcs server problem)
+886,2017-11-22 04:30:46.000000000,2018-01-09 15:18:04.000000000,closed,14,PutObjectOptions Header: Don't include invalid header
+885,2017-11-22 04:06:42.000000000,2018-01-11 00:03:42.000000000,closed,0,Adding X-Amz-Meta headers for macOS xattrs results in invalid headers
+884,2017-11-22 00:58:59.000000000,2017-11-22 01:11:24.000000000,closed,1,"testRemovePartiallyUploaded test in gcs gateway fails: ""The bucket you tried to delete is not empty"""
+883,2017-11-19 22:52:10.000000000,2018-02-22 01:07:09.000000000,closed,14,"add SSE-C support for GET, PUT, HEAD"
+882,2017-11-19 22:50:50.000000000,2018-03-13 02:59:48.000000000,closed,3,"Support SSE-C GET, PUT and HEAD"
+881,2017-11-18 15:40:31.000000000,2017-11-20 14:49:12.000000000,closed,4,tests: Reduce context timeout to avoid false positives
+880,2017-11-18 07:26:56.000000000,2017-11-20 14:49:11.000000000,closed,8,"FPutObject functional test fails with ""Request context cancellation failed"""
+879,2017-11-17 05:17:38.000000000,2017-11-18 01:22:56.000000000,closed,2,Fix functional tests to honor MINT_DATA_DIR properly
+878,2017-11-17 04:20:14.000000000,2017-11-21 01:37:49.000000000,closed,4,Add CopyObjectPart support for Core client
+877,2017-11-16 13:34:15.000000000,2017-11-22 19:28:21.000000000,closed,1,pkg/credentials: Credentials retrieval should prioritize credentials
+876,2017-11-16 12:29:54.000000000,2017-11-17 13:12:11.000000000,closed,0,"add support of x-amz-acl header for v2 acl (ceph server, aws s3 v2)"
+875,2017-11-16 07:45:43.000000000,2017-11-16 08:43:52.000000000,closed,0,Fix issue with incorrect size in functional test
+874,2017-11-15 13:07:14.000000000,2017-11-15 14:20:27.000000000,closed,0,Ignore SSE-C encryption tests for non-tls connections
+873,2017-11-15 03:56:23.000000000,2017-11-16 08:43:52.000000000,closed,0,Failure in testGetObjectWithContextV2 in Gateway s3 mode
+872,2017-11-14 19:34:48.000000000,2017-11-29 06:21:04.000000000,closed,1,Translate minio-go API docs to Chinese.
+871,2017-11-11 07:08:13.000000000,2017-11-15 06:32:22.000000000,closed,1,Add license section for brevity.
+870,2017-11-11 06:42:37.000000000,2017-11-15 06:32:22.000000000,closed,9,Please add copyright and license notice to README.md
+869,2017-11-10 02:56:35.000000000,2017-11-11 05:56:02.000000000,closed,3,Update Travis CI build settings
+868,2017-11-09 05:04:58.000000000,2017-11-09 05:24:42.000000000,closed,3,Re-sign signature and follow redirects
+867,2017-11-09 05:04:38.000000000,2018-02-06 03:10:20.000000000,closed,1,Redirects are being followed with the wrong signature
+866,2017-11-09 04:37:04.000000000,2017-11-11 14:35:15.000000000,closed,1,Add status code to ErrorResponse object
+865,2017-11-08 07:33:26.000000000,2017-11-22 05:27:34.000000000,closed,2,Fixes log format issues
+864,2017-11-07 22:05:17.000000000,2017-11-07 22:53:33.000000000,closed,5,Uploading files does not preserve timestamps
+863,2017-11-04 12:05:55.000000000,2018-02-22 00:37:48.000000000,closed,3,Re-implement pkg/policy package
+862,2017-11-04 06:32:31.000000000,2017-11-07 06:45:23.000000000,closed,3,Fixes log format issues
+861,2017-11-01 12:29:51.000000000,2017-11-05 12:14:05.000000000,closed,1,Allow listen bucket notification proactively return errors
+860,2017-10-31 02:47:51.000000000,2017-11-03 11:59:16.000000000,closed,2,api: Add missing prefix condition for ListMultipartUploads
+859,2017-10-27 06:17:50.000000000,2017-10-28 03:25:58.000000000,closed,0,Avoid setting server encryption headers with x-amz-meta
+858,2017-10-26 20:04:49.000000000,2017-10-26 21:16:22.000000000,closed,2,Time for a new release?
+857,2017-10-26 18:23:21.000000000,2017-10-27 18:08:47.000000000,closed,0,Remove redirectHeaders method
+856,2017-10-26 05:16:17.000000000,2017-10-27 10:01:58.000000000,closed,3,Honor file pointer set in PutObject method
+855,2017-10-26 05:11:24.000000000,2017-10-27 10:01:58.000000000,closed,0,PutObject does not honor file pointer
+854,2017-10-25 11:29:53.000000000,2017-10-25 13:07:59.000000000,closed,2,find method remove objects the start with save prfix
+853,2017-10-23 18:36:03.000000000,2017-10-28 07:50:26.000000000,closed,3,Update functional tests to handle NotImplemented error
+852,2017-10-21 10:41:44.000000000,2017-10-27 01:39:51.000000000,closed,2,requestMetadata should take the md5 and sha256 with expected encodings.
+851,2017-10-20 03:49:04.000000000,2017-10-21 04:42:30.000000000,closed,0,Add doc for GetObjectOptions and PutObjectOptions
+850,2017-10-19 13:29:44.000000000,2017-10-27 09:39:43.000000000,closed,3,Fix docs and add a validator tool for our api docs
+849,2017-10-18 10:34:42.000000000,2017-10-20 04:29:57.000000000,closed,2,Add PartSize to be configurable as part of PutObjectOptions
+848,2017-10-18 05:27:22.000000000,2017-10-21 07:51:59.000000000,closed,13,Uploading small files of unknown size uses too much memory
+847,2017-10-13 01:53:20.000000000,2017-10-17 12:09:56.000000000,closed,0,Keep API docs up to date with recent changes
+846,2017-10-12 08:47:52.000000000,2017-10-14 05:22:44.000000000,closed,0,Doc has incorrect description in RemoveObjects API
+845,2017-10-12 08:39:50.000000000,2017-10-14 05:22:44.000000000,closed,0,API doc has incorrect description of a parameter for RemoveObjects
+844,2017-10-12 04:24:58.000000000,2017-10-17 12:09:56.000000000,closed,0,PutObject example in minio-go client reference has compilation error
+843,2017-10-12 03:40:49.000000000,2017-10-13 12:43:50.000000000,closed,0,Formatting issue in docs.minio.io
+842,2017-10-12 03:38:50.000000000,2017-10-13 13:34:52.000000000,closed,1,Formatting issue in docs.minio.io site
+841,2017-10-12 03:31:16.000000000,2017-11-01 12:13:48.000000000,closed,5,API doc is missing possible values for PutObject.options
+840,2017-10-10 22:21:20.000000000,2017-10-12 22:25:54.000000000,closed,0,Update presignedPostPolicy test to validate Location header field
+839,2017-10-09 11:55:48.000000000,2017-10-17 14:00:29.000000000,closed,7,Added a new method SetUserMetadata to the PostPolicy
+838,2017-10-03 05:29:48.000000000,2017-10-07 05:15:49.000000000,closed,1,"Handle ""Not implemented"" error codes in functional test"
+837,2017-10-02 21:57:52.000000000,2018-02-15 23:07:10.000000000,closed,2,Fix handling of metadata headers in compose-object
+836,2017-09-30 21:21:51.000000000,2017-10-02 23:34:27.000000000,closed,3,Add new CopyObject API in Core client
+835,2017-09-30 20:47:27.000000000,2017-10-05 23:13:56.000000000,closed,3,Add cleanup function to remove all the objects from a bucket after tests
+834,2017-09-30 05:31:01.000000000,2017-10-07 05:15:49.000000000,closed,0,"Handle ""Not implemented"" error codes in functional test"
+833,2017-09-30 04:52:11.000000000,2017-12-05 01:17:18.000000000,closed,2,Errors in log format 
+832,2017-09-29 23:18:55.000000000,2017-10-09 09:46:20.000000000,closed,3,Do not need to strictly validate request params in Presign API.
+831,2017-09-28 05:26:06.000000000,2017-09-28 05:30:57.000000000,closed,2,Content-Md5 header should not be set when the md5 digest is empty
+830,2017-09-28 04:25:36.000000000,2017-11-19 22:53:10.000000000,closed,6,refactor client/server side encryption
+829,2017-09-28 03:51:17.000000000,2018-01-11 23:02:22.000000000,closed,13,Support redirect headers to sign again with new Host header.
+828,2017-09-27 09:20:12.000000000,2017-09-27 23:03:46.000000000,closed,0,Add Content-Md5 header only if length of md5 passed is greater than zero
+827,2017-09-26 11:24:48.000000000,2017-09-27 23:03:30.000000000,closed,1,Fix preSign signature calculation to honor resource lists.
+826,2017-09-26 06:10:42.000000000,2017-09-29 23:27:03.000000000,closed,7,functional test fails for testGetObjectClosedTwiceV2 against s3 gateway
+825,2017-09-26 05:57:33.000000000,2017-09-27 23:03:30.000000000,closed,1,pkg/s3signer: PreSignV2 is encoding all query params erroneously
+824,2017-09-26 02:37:04.000000000,2017-09-28 01:50:15.000000000,closed,7,refactor GET object operations
+823,2017-09-26 02:36:25.000000000,2017-11-19 22:52:42.000000000,closed,5,Support Client and Server side encryption
+822,2017-09-25 22:30:09.000000000,2017-09-25 23:57:33.000000000,closed,1,Reader with less data to PutObject() doesn't fail
+821,2017-09-22 22:25:24.000000000,2017-09-27 21:06:42.000000000,closed,2,Add PutEncryptedObject and FPutEncryptedObject calls
+820,2017-09-22 12:23:54.000000000,2017-09-26 22:49:22.000000000,closed,3,copy object or folder with js client api
+819,2017-09-21 11:37:05.000000000,2017-09-27 21:06:42.000000000,closed,4,API cleanup and new APIs to be added 
+818,2017-09-20 11:49:58.000000000,2017-09-23 01:02:04.000000000,closed,0,Remove Content-Encoding header follow aws-sdk-java
+817,2017-09-20 10:26:48.000000000,2017-09-21 04:53:56.000000000,closed,0,Move master branch to upcoming release version 4.0.0
+816,2017-09-20 04:21:52.000000000,2017-09-25 00:01:57.000000000,closed,3,add mint test for metadata size restrictions
+815,2017-09-20 02:41:18.000000000,2017-09-20 05:06:22.000000000,closed,2,fix examples in README
+814,2017-09-20 02:40:34.000000000,2017-09-20 05:06:22.000000000,closed,0,Non-working examples in README
+813,2017-09-20 02:39:19.000000000,2017-09-20 20:54:47.000000000,closed,0,api: Retry only request body is seekable
+812,2017-09-07 17:53:49.000000000,2017-09-13 01:12:10.000000000,closed,1,Update logging to print json as per mint log format
+811,2017-09-06 00:41:30.000000000,2017-09-20 04:43:12.000000000,closed,5,Refactor PutObject API calls to add context and additional metadata.
+810,2017-09-02 05:22:41.000000000,2017-09-07 22:10:29.000000000,closed,0,Fix for functional tests using random file sizes with static files (#809)
+809,2017-09-02 05:06:46.000000000,2017-09-07 22:10:29.000000000,closed,0,"Functional tests use existing files but size of the files is expected to be random, causing it to fail in Mint"
+808,2017-08-31 21:19:16.000000000,2017-08-31 21:57:08.000000000,closed,1,docs: show PutObjectStreaming under correct heading in ToC.
+807,2017-08-31 17:44:37.000000000,2017-09-04 00:54:09.000000000,closed,1,Move PutObjectStreaming() to the correct column in the ToC
+806,2017-08-31 17:23:53.000000000,2017-09-04 00:54:09.000000000,closed,3,Is PutObjectStreaming() listed in the wrong spot?
+805,2017-08-31 15:46:15.000000000,2017-08-31 15:57:49.000000000,closed,6,Minio Go API PutObject() reads the entire object into memory
+804,2017-08-30 17:17:04.000000000,2017-08-31 16:14:55.000000000,closed,11,ListObjectsV2 returns partial results
+803,2017-08-30 16:58:56.000000000,2017-08-30 18:32:16.000000000,closed,2,RemoveObjects works only for files but not for directories
+802,2017-08-29 18:28:29.000000000,2017-09-15 16:19:33.000000000,closed,15,Local Ceph cluster with AWS v2 Legacy Signatures no longer works with Minio-go v3.0
+801,2017-08-29 07:48:43.000000000,2017-09-18 21:37:12.000000000,closed,4,Is BucketNotification ONLY support AWS Web Server?
+800,2017-08-26 09:07:38.000000000,2017-08-26 12:08:57.000000000,closed,2,minio.Client.WGet? (Get + io.Writer Feature Request)
+799,2017-08-26 01:20:20.000000000,2017-08-29 04:11:08.000000000,closed,2,Conditionally retry HTTP calls for specific S3 errors
+798,2017-08-25 05:47:19.000000000,2017-08-29 23:07:01.000000000,closed,2,Add new API PresignedHeadObject method.
+797,2017-08-24 21:12:53.000000000,2018-02-23 00:32:04.000000000,closed,2,[feature] Parallelize downloading objects
+796,2017-08-23 12:19:55.000000000,2017-08-23 12:26:31.000000000,closed,2,I can't use direct url although  I have use SetBucketPolicy to BucketPolicyReadWrite
+795,2017-08-22 23:16:56.000000000,2017-08-29 04:11:08.000000000,closed,1,handle '/' prefixed object name properly
+794,2017-08-21 23:47:31.000000000,2017-09-06 05:44:14.000000000,closed,2,Allow number of workers used for multipart operation to be configurable
+793,2017-08-17 18:30:56.000000000,2017-08-25 07:03:14.000000000,closed,3,put object to ceph got stuck forever.
+792,2017-08-16 06:57:44.000000000,2017-08-16 07:10:00.000000000,closed,1,how can i generate it about resource share link?
+791,2017-08-16 00:40:03.000000000,2017-09-28 23:16:15.000000000,closed,16,Functional tests not passing when Minio server has a new default region
+790,2017-08-15 22:57:03.000000000,2017-09-26 22:30:30.000000000,closed,5,tests: Odd data race reproduced in tests
+789,2017-08-15 21:53:07.000000000,2017-08-15 22:42:56.000000000,closed,2,go test -v failing with Minio master
+788,2017-08-15 06:51:13.000000000,2017-08-16 21:52:55.000000000,closed,0,fix: Mutating variables within go closures should be explicit.
+787,2017-08-15 05:07:38.000000000,2017-08-17 07:05:18.000000000,closed,1,fix: Extract region from s3-<region>.amazonaws.com
+786,2017-08-15 00:01:11.000000000,2017-08-16 21:53:19.000000000,closed,0,Send logger output to stdout by default for functional tests
+785,2017-08-14 12:42:17.000000000,2017-08-17 07:05:18.000000000,closed,9,Using IAM instance profile credentials to authenticate to S3
+784,2017-08-12 02:59:52.000000000,2017-08-16 21:52:55.000000000,closed,1,functional tests fail sporadically in FPutObject()
+783,2017-08-10 09:24:34.000000000,2017-08-10 18:52:37.000000000,closed,6,how to put a string to bucket?
+782,2017-08-08 17:57:45.000000000,2017-08-09 05:22:17.000000000,closed,4,"Get https://127.0.0.1:9000/: x509: certificate is valid for 127.0.0.1, not 127.0.0.1"
+781,2017-08-08 16:40:39.000000000,2017-08-11 04:47:41.000000000,closed,16,Fix #730 by using a guaranteed reuse buffer pool.
+780,2017-08-08 02:11:13.000000000,2017-08-14 22:13:15.000000000,closed,3,fix: Implement random reader for generating data.
+779,2017-08-07 21:04:42.000000000,2017-09-14 06:00:52.000000000,closed,2,Update minio-go to output new mint log format
+778,2017-08-02 22:38:04.000000000,2017-08-04 07:06:54.000000000,closed,0,Relax bucket name validation to support existing buckets.
+777,2017-08-02 22:21:30.000000000,2017-08-04 07:07:51.000000000,closed,0,Fix bucket name handling in signature V2
+776,2017-07-31 10:08:05.000000000,2017-08-04 07:06:14.000000000,closed,3,api: Optimize multipart upload memory usage for unknown sized stream
+775,2017-07-31 09:54:12.000000000,2017-07-31 09:54:28.000000000,closed,0,[proposal] api: Optimize multipart upload memory usage for unknown sized stream
+774,2017-07-31 07:16:21.000000000,2017-08-02 06:23:09.000000000,closed,3,S3 server at wasabi.com doesn't support streaming uploads from minio
+773,2017-07-27 10:26:46.000000000,2017-07-30 19:41:22.000000000,closed,0,fix typo: upto → up to
+772,2017-07-26 18:02:54.000000000,2017-07-27 10:19:59.000000000,closed,3,added insecure mode
+771,2017-07-24 19:01:24.000000000,2017-07-26 19:25:33.000000000,closed,6,Any way to validate PutObjectStreaming data?
+770,2017-07-24 15:30:33.000000000,2017-08-29 23:10:47.000000000,closed,8,Add Client.PresignedHeadObject method
+769,2017-07-21 18:19:37.000000000,2017-07-25 05:23:15.000000000,closed,3,Correct logging call for PutObject0ByteV2
+768,2017-07-21 12:31:42.000000000,2017-07-25 05:23:15.000000000,closed,0,Functional tests don't anymore 
+767,2017-07-20 20:53:59.000000000,2017-08-02 06:03:49.000000000,closed,7,Fix typo in the readme
+766,2017-07-17 21:54:02.000000000,2017-07-21 21:28:48.000000000,closed,12,v3.0.0 breaks restic backend tests?
+765,2017-07-16 10:13:05.000000000,2017-09-06 00:42:35.000000000,closed,4,"Api: Add PutObjectWithContext, GetObjectWithContext, FPutObjectWithCo…"
+764,2017-07-15 16:19:38.000000000,2017-08-29 21:35:42.000000000,closed,1,PutObject with large metadata is incorrectly retried 
+763,2017-07-15 12:09:17.000000000,2017-08-04 07:07:51.000000000,closed,2,MakeBucketV2 with a period fails with AWS S3 upon signature mismatch
+762,2017-07-14 21:18:25.000000000,2017-07-16 20:52:04.000000000,closed,2,api: PutObjectSignV2 should support uploading 0byte objects.
+761,2017-07-14 20:12:59.000000000,2017-07-16 20:52:04.000000000,closed,0,Allow 0byte files to be uploaded with PutObject() with SignatureV2
+760,2017-07-14 13:29:48.000000000,2017-07-16 01:51:44.000000000,closed,3,docs: Fix all documentation mistakes and examples
+759,2017-07-13 13:23:21.000000000,2017-09-20 04:43:12.000000000,closed,0,Allow multipart upload workers to be configurable.
+758,2017-07-12 22:46:52.000000000,2017-09-23 01:02:04.000000000,closed,0,AWS S3 returning empty Content-Encoding when getting an object
+757,2017-07-12 17:25:20.000000000,2017-07-16 20:51:30.000000000,closed,1,Fix logging for functional tests
+756,2017-07-12 05:07:29.000000000,2017-09-19 02:55:11.000000000,closed,2,tests: Each test should be self contained avoid having single initializers
+755,2017-07-12 05:06:06.000000000,2017-07-16 20:51:30.000000000,closed,0,tests: Not all tests have logTrace() 
+754,2017-07-12 05:02:02.000000000,2017-08-14 19:20:53.000000000,closed,2,tests: testCopyObjectV2 should initialize a V2 client instead of V4. 
+753,2017-07-12 04:58:37.000000000,2017-10-13 12:00:40.000000000,closed,2,tests: PresignedPostPolicy test should perform post operation
+752,2017-07-11 10:05:06.000000000,2017-07-15 01:40:12.000000000,closed,3,Add DisableCompression in http.Transport to override auto-decompress.
+751,2017-07-10 15:23:51.000000000,2017-07-11 20:30:56.000000000,closed,1,mustParseBool should default to false when string is empty
+750,2017-07-10 09:10:44.000000000,2017-07-18 19:55:39.000000000,closed,3,PutObject streams with unknown size use streaming V4.
+749,2017-07-10 08:41:47.000000000,2017-07-11 20:30:56.000000000,closed,2,mustParseBool should return false for empty string
+748,2017-07-10 08:24:02.000000000,2017-07-10 08:36:24.000000000,closed,0,api: BucketLocation req should set auth properly under V4.
+747,2017-07-07 22:00:40.000000000,2017-09-20 04:43:12.000000000,closed,0,PutObject* refactor
+746,2017-07-07 06:14:16.000000000,2017-07-08 09:08:07.000000000,closed,5,Unexpected Etag value when upload file size is bigger than 64M
+745,2017-07-07 04:18:29.000000000,2017-07-08 05:06:07.000000000,closed,9,Expected time to CONNECT?
+744,2017-07-07 03:18:08.000000000,2017-07-11 05:03:24.000000000,closed,1,api: getObject ObjectInfo should set metadata headers.
+743,2017-07-05 11:20:06.000000000,2017-07-06 02:47:24.000000000,closed,0,Remove copyConditions unused struct
+742,2017-07-04 20:29:10.000000000,2017-08-14 22:13:15.000000000,closed,6,Functional tests should use streaming
+741,2017-07-04 04:31:27.000000000,2017-07-06 02:46:44.000000000,closed,0,Fix user-metadata copying bug in Compose API
+740,2017-07-03 23:37:21.000000000,2017-07-04 07:09:52.000000000,closed,0,Export KeyInfo.GetSSEHeaders so users can more easily generate SSE-C headers
+739,2017-07-03 09:44:11.000000000,2017-07-05 01:12:17.000000000,closed,0,Handle source objects used client side encryption for compose object.
+738,2017-07-02 15:14:14.000000000,2017-07-05 01:12:17.000000000,closed,2,Multiple sources those use client side encryption in copy object api should return error.
+737,2017-07-01 11:48:56.000000000,2017-07-06 02:43:55.000000000,closed,6,api: Upon failure abort the multipart upload.
+736,2017-07-01 05:41:47.000000000,2017-07-02 21:49:04.000000000,closed,0,api: Pass down encryption metadata to all the multipart callers.
+735,2017-06-30 23:25:33.000000000,2017-07-03 22:45:05.000000000,closed,2,api: use simple streaming upload for GetObject() reader.
+734,2017-06-30 11:58:30.000000000,2017-06-30 22:02:31.000000000,closed,1,api: Update progress bar concurrently.
+733,2017-06-30 01:24:24.000000000,2017-07-07 22:13:23.000000000,closed,6,Reduce memory consumption by staging the data locally.
+732,2017-06-29 23:09:46.000000000,2017-06-30 22:41:53.000000000,closed,5,Remove duplicate validation code in StatObject
+731,2017-06-29 13:32:47.000000000,2017-07-06 04:09:20.000000000,closed,2,Event streaming is broken when minio is running behind a Traefik proxy
+730,2017-06-28 18:54:36.000000000,2017-08-04 07:06:14.000000000,closed,14,optimalPartInfo() default partSize results in running out of memory
+729,2017-06-28 02:57:37.000000000,2017-07-02 22:22:50.000000000,closed,1,api: Allow *.amazonaws.com but not s3 endpoints
+728,2017-06-26 22:10:36.000000000,2017-06-29 20:57:56.000000000,closed,3,api: Support parallel uploads for PutObjectStreaming
+727,2017-06-24 04:51:53.000000000,2017-07-11 07:15:46.000000000,closed,9,Functional tests now run as a standalone program
+726,2017-06-23 22:40:46.000000000,2017-06-24 01:21:08.000000000,closed,0,Export CommonPrefix 
+725,2017-06-23 21:13:21.000000000,2017-11-05 12:49:28.000000000,closed,5,ListenBucketNotification doesn't show any error when wrong information are provided
+724,2017-06-23 12:26:02.000000000,2017-06-24 09:43:49.000000000,closed,1,api: objectInfo filtering should include more headers.
+723,2017-06-22 17:46:46.000000000,2017-06-26 18:05:50.000000000,closed,33,Can no longer put 0 sized objects
+722,2017-06-22 14:38:33.000000000,2017-06-26 18:05:18.000000000,closed,11,Set http.NoBody if contentLength is 0
+721,2017-06-20 22:58:48.000000000,2017-06-21 00:48:24.000000000,closed,0,api: ListObjectsV2 response should be validated strictly.
+720,2017-06-20 20:46:08.000000000,2017-06-21 22:32:49.000000000,closed,1,api: ListBuckets() should have a default region for AWS S3.
+719,2017-06-20 19:28:20.000000000,2017-06-21 00:48:24.000000000,closed,11,ListObjectsV2 causes endless loop > 1000 items
+718,2017-06-20 18:58:49.000000000,2017-06-21 06:28:03.000000000,closed,3,TestPutObjectStream is not passing with latest and master minio
+717,2017-06-20 18:42:16.000000000,2017-06-21 22:32:49.000000000,closed,4,ListBuckets() always sends a request with no region set
+716,2017-06-20 01:33:28.000000000,2017-06-20 22:53:15.000000000,closed,0,Cleanup iam role name handling.
+715,2017-06-20 01:29:11.000000000,2017-07-02 22:46:15.000000000,closed,13,Add API to compose objects through server-side copying
+714,2017-06-19 22:13:59.000000000,2017-06-20 18:06:14.000000000,closed,0,Minor fix spelling errors.
+713,2017-06-17 02:41:55.000000000,2017-06-20 18:08:32.000000000,closed,4,Update env vars to meaningful names
+712,2017-06-16 13:48:21.000000000,2017-06-21 22:34:08.000000000,closed,12,GCS via S3 compat mode: PROTOCOL ERROR via HTTP2
+711,2017-06-16 12:35:54.000000000,2017-06-17 00:28:09.000000000,closed,4,For GCS if size cannot be found use tempfile.
+710,2017-06-16 02:12:26.000000000,2017-07-02 22:50:21.000000000,closed,11,Strip leading and trailing quotes for etag in object listing
+709,2017-06-15 00:41:46.000000000,2017-06-16 19:07:24.000000000,closed,2,api: Always strip 80/443 port from host
+708,2017-06-14 12:22:00.000000000,2017-06-20 02:00:33.000000000,closed,7,Relax isValidBucketName to allow reading existing buckets.
+707,2017-06-14 07:34:08.000000000,2017-06-21 20:30:40.000000000,closed,3,api: deprecate PutObject() resuming capabilities.
+706,2017-06-13 12:35:37.000000000,2017-06-16 02:12:12.000000000,closed,1,Redact signature strings properly.
+705,2017-06-13 11:52:33.000000000,2017-06-16 02:12:12.000000000,closed,0,HTTP tracing NOT filtering out signature value from Authorization header
+704,2017-06-12 22:36:59.000000000,2017-06-12 22:53:36.000000000,closed,0,Spelling fix
+703,2017-06-11 23:47:19.000000000,2017-06-13 12:15:59.000000000,closed,1,api: Single putObject can use temporary file always.
+702,2017-06-11 23:00:59.000000000,2017-06-13 12:15:59.000000000,closed,4,PutObject() with unsizeable reader on restricted account only returns io.EOF?
+701,2017-06-07 03:39:09.000000000,2017-06-17 00:24:55.000000000,closed,16,s3utils: Support AWS S3 US GovCloud endpoint.
+700,2017-06-03 19:16:37.000000000,2017-09-20 04:43:12.000000000,closed,3,Support for context.Context?
+699,2017-06-02 03:47:33.000000000,2017-06-03 06:47:19.000000000,closed,2,api/encrypt: Get() on encrypted object should be a readCloser
+698,2017-06-02 03:36:13.000000000,2017-06-03 06:47:35.000000000,closed,7,Closing encrypted objects
+697,2017-05-31 02:26:58.000000000,2017-06-01 10:22:37.000000000,closed,2,fixes #696
+696,2017-05-31 02:25:55.000000000,2017-06-01 10:22:37.000000000,closed,3,Example code for encrypted objects is out of date
+695,2017-05-29 15:49:51.000000000,2017-06-16 19:07:24.000000000,closed,0,Strip 80/443 from url when calculating v4 signature
+694,2017-05-29 03:02:47.000000000,2017-06-02 03:50:35.000000000,closed,1,get: Fix reading an object if its size is unknown
+693,2017-05-28 05:31:31.000000000,2017-06-02 03:50:35.000000000,closed,6,Google Cloud Storage giving incorrect size and prematurely closing input reader
+692,2017-05-23 16:36:11.000000000,2017-05-24 07:07:26.000000000,closed,1,fix InvalidAccessKeyId error according to amazon documentation
+691,2017-05-23 14:58:47.000000000,2017-05-23 19:56:33.000000000,closed,8,Fill ObjectPart.LastModified time in PutObjectPart
+690,2017-05-22 19:28:59.000000000,2017-07-06 04:15:35.000000000,closed,11,CopyObject Does not support metadata
+689,2017-05-19 05:01:04.000000000,2017-05-22 22:31:00.000000000,closed,2,Add AWS S3 SSE-C example.
+688,2017-05-18 01:36:25.000000000,2017-05-18 21:18:27.000000000,closed,0,According to RFC7232 Etag should be in quotes for If-Match.
+687,2017-05-18 01:02:23.000000000,2017-05-18 21:18:27.000000000,closed,2,ETag Format 
+686,2017-05-17 21:05:38.000000000,2018-01-18 07:46:20.000000000,closed,1,Compare performance difference between parallel multi part and parallel single part uploads
+685,2017-05-16 20:15:21.000000000,2017-05-17 13:13:20.000000000,closed,9,"build fails: ""undefined: randString"""
+684,2017-05-16 19:21:46.000000000,2017-06-03 06:50:56.000000000,closed,5,use upstream go-homedir
+683,2017-05-14 17:06:12.000000000,2017-05-15 11:21:23.000000000,closed,2,tests: Use bytes.Repeat() when generating big data
+682,2017-05-14 14:29:27.000000000,2017-05-15 11:21:23.000000000,closed,0,Avoid using rand source in tests as they are slow
+681,2017-05-14 14:20:22.000000000,2017-05-15 22:40:42.000000000,closed,2,api: getReaderSize() should honor seeked file descriptors.
+680,2017-05-14 13:58:19.000000000,2017-05-15 22:40:41.000000000,closed,0,Uploading file with offset uploads the whole file
+679,2017-05-13 15:38:07.000000000,2017-05-13 23:13:14.000000000,closed,10,Get a range of bytes without supplying a buffer?
+678,2017-05-13 06:03:12.000000000,2017-05-15 04:39:25.000000000,closed,2,api: Failed call retry with region only when http.StatusBadRequest.
+677,2017-05-13 00:52:22.000000000,2017-05-15 04:39:25.000000000,closed,24,Unable to access bucket with restricted account in eu-central-1
+676,2017-05-10 20:30:07.000000000,2017-05-10 20:34:22.000000000,closed,2,Adding a timeout setter for minio http.Client
+675,2017-05-09 23:15:01.000000000,2017-06-15 00:53:48.000000000,closed,9,ConditionKeyMap 
+674,2017-05-04 09:46:03.000000000,2017-05-04 22:42:22.000000000,closed,4,Fix range header bounds check in SetRange()
+673,2017-05-03 04:30:17.000000000,2017-07-13 13:20:30.000000000,closed,2,Add streaming signature support for putobject API.
+672,2017-05-03 03:37:28.000000000,2017-06-21 22:40:15.000000000,closed,2,For all signed payloads with sha256 avoid calculating Content-Md5
+671,2017-05-02 12:10:37.000000000,2017-05-02 12:16:09.000000000,closed,0,docs: Fix PutObjectStreaming missing anchor.
+670,2017-04-26 11:49:23.000000000,2017-04-28 12:38:45.000000000,closed,1,"api, core: Add new Core API {Get,Stat}Object with pre-conditions."
+669,2017-04-26 10:18:48.000000000,2017-04-28 12:38:45.000000000,closed,2,Support new API GetObjectPartial with preconditions
+668,2017-04-26 03:42:40.000000000,2017-04-28 08:38:36.000000000,closed,3,Use UNSIGNED-PAYLOAD if sha256 is not calculated
+667,2017-04-25 11:18:51.000000000,2017-04-25 19:57:16.000000000,closed,0,Add sourcegraph badge for minio-go dependent projects.
+666,2017-04-25 07:11:03.000000000,2017-04-25 21:45:45.000000000,closed,1,core: GetBucketPolicy API should return all errors.
+665,2017-04-24 15:56:42.000000000,2017-04-26 22:23:06.000000000,closed,1,MakeBucket: Retry with correct region
+664,2017-04-24 14:41:21.000000000,2017-04-25 21:45:45.000000000,closed,0,getBucketPolicy returns policy without statements instead of error NoSuchBucketPolicy
+663,2017-04-24 14:11:40.000000000,2017-04-24 15:38:33.000000000,closed,1,readme typo
+662,2017-04-24 14:10:59.000000000,2017-05-02 10:47:45.000000000,closed,9,Validate minio.Object ETag between read requests
+661,2017-04-24 05:56:52.000000000,2017-04-26 03:43:47.000000000,closed,2,Use UNSIGNED-PAYLOAD if sha256 is not calculated
+660,2017-04-24 02:40:32.000000000,2017-04-24 03:11:25.000000000,closed,0,"core: Implement native GetBucketPolicy, PutBucketPolicy"
+659,2017-04-24 01:47:52.000000000,2017-04-24 03:11:25.000000000,closed,0,Add a new Set & GetBucketPolicies API call in minio-go 
+658,2017-04-23 10:45:58.000000000,2017-04-24 11:49:40.000000000,closed,2,api: PutObjectStreaming fails with S3 for 0byte object. 
+657,2017-04-23 10:36:30.000000000,2017-04-24 11:49:10.000000000,closed,1,Make some changes to PutObjectStreaming() API
+656,2017-04-21 04:36:04.000000000,2017-05-02 10:47:45.000000000,closed,1,minioClient.Object should validate ETag for new HTTP requests
+655,2017-04-21 04:26:53.000000000,2017-04-21 18:33:28.000000000,closed,0,error: Fallback to custom errorMap if Message string is empty.
+654,2017-04-18 14:51:43.000000000,2017-04-21 18:33:28.000000000,closed,19,GetObject not returning error for non-existent file
+653,2017-04-18 02:39:37.000000000,2017-04-26 10:11:48.000000000,closed,1,problems when server side object is replaced
+652,2017-04-17 17:25:09.000000000,2017-04-18 00:30:35.000000000,closed,3,Added length to the return values
+651,2017-04-16 05:28:53.000000000,2017-04-17 00:29:00.000000000,closed,0,build: Fix all golint errors
+650,2017-04-16 02:21:50.000000000,2017-04-18 00:33:50.000000000,closed,1,Example of suggested wording for ceph s3
+649,2017-04-14 20:51:41.000000000,2017-04-14 20:52:47.000000000,closed,1,Add streaming putobject api 
+648,2017-04-14 02:24:34.000000000,2017-04-14 03:46:55.000000000,closed,0,api: Multipart APIs are supported for anonymous requests.
+647,2017-04-13 12:50:09.000000000,2017-04-17 00:29:00.000000000,closed,0,tests: Fix all the golint errors 
+646,2017-04-13 12:45:37.000000000,2017-05-12 21:45:51.000000000,closed,5,api: Add NewWithCredentials()
+645,2017-04-10 16:31:11.000000000,2017-04-10 19:48:00.000000000,closed,4,Example for Multipart upload 
+644,2017-04-10 16:29:24.000000000,2017-06-20 06:26:14.000000000,closed,13,Add large-object support for CopyObject API
+643,2017-04-08 12:16:10.000000000,2017-05-12 21:45:51.000000000,closed,3,api: Support IAM roles for AWS S3 endpoint
+642,2017-04-08 07:21:39.000000000,2017-04-08 12:09:04.000000000,closed,0,Support sourceInfo field in notificationEvent
+641,2017-04-07 12:41:33.000000000,2017-04-10 10:33:38.000000000,closed,0,api: Create new pkg/encrypt package and use it.
+640,2017-04-05 03:31:33.000000000,2017-04-05 23:23:36.000000000,closed,4,api: Do not need Expect header.
+639,2017-04-04 22:21:34.000000000,2017-04-04 22:35:21.000000000,closed,0,api: Check for Code 'InvalidRegion' for retrying with server Region.
+638,2017-04-04 14:47:36.000000000,2017-04-05 12:16:08.000000000,closed,1,Export ListObjectV2 to core client
+637,2017-04-04 10:47:56.000000000,2017-04-04 10:54:18.000000000,closed,0,Take md5 and sha256 arguments as []byte
+636,2017-04-01 22:07:16.000000000,2017-04-02 01:28:19.000000000,closed,0,sigv2: Do not encode canonical sub-resource value
+635,2017-04-01 03:46:27.000000000,2017-04-01 03:59:00.000000000,closed,0,Core.PutObject takes md5 and sha256 sums
+634,2017-03-30 17:09:54.000000000,2017-03-30 19:54:36.000000000,closed,0,listen: Add support for HEAD/GET bucket events
+633,2017-03-30 12:54:38.000000000,2017-04-12 04:29:44.000000000,closed,11,PutObject throws error from AWS SDK
+632,2017-03-25 02:56:37.000000000,2017-03-25 03:00:31.000000000,closed,0,docs:  Remove extra space from code blocks
+631,2017-03-25 02:29:04.000000000,2017-03-25 02:41:52.000000000,closed,0,docs: Remove extra space from code blocks.
+630,2017-03-22 15:34:03.000000000,2017-04-01 02:50:51.000000000,closed,2,allow bucket location responses with empty Message (fixes #629)
+629,2017-03-22 15:19:43.000000000,2017-04-01 02:50:51.000000000,closed,0,access to buckets owned by other users not possible with ceph radosgw
+628,2017-03-20 12:44:49.000000000,2017-03-20 12:48:10.000000000,closed,0,Fix table syntax for SetBucketPolicy parameters
+627,2017-03-19 05:34:07.000000000,2017-03-22 21:19:56.000000000,closed,0,Implement a new NewWithRegion() API for static region.
+626,2017-03-17 13:04:53.000000000,2017-03-18 06:35:46.000000000,closed,1,api: Add support to override region in PostPolicy.
+625,2017-03-17 03:04:32.000000000,2017-03-17 03:06:25.000000000,closed,0,Fix typo in variable name
+624,2017-03-17 00:53:05.000000000,2017-03-30 19:54:36.000000000,closed,0,ListenBucketNotification should also support GET and HEAD
+623,2017-03-16 23:30:43.000000000,2017-03-17 11:37:18.000000000,closed,0,"Changes needed for implementing ""minio gateway s3"""
+622,2017-03-15 11:26:49.000000000,2017-03-15 14:10:14.000000000,closed,0,api/retry: Support connection retry for Dial timeout.
+621,2017-03-10 16:56:51.000000000,2017-03-10 16:59:36.000000000,closed,0,"Revert ""Revert passing content body to http request (#619)"""
+620,2017-03-10 02:53:19.000000000,2017-03-10 03:38:32.000000000,closed,0,Revert hashCopyN simplification fix
+619,2017-03-10 01:59:25.000000000,2017-03-10 02:07:10.000000000,closed,0,Revert passing content body to http request
+617,2017-02-23 19:52:33.000000000,2017-07-06 04:28:32.000000000,closed,9,api: Support CopyObject for all sizes
+616,2017-02-22 22:02:53.000000000,2017-02-24 07:00:03.000000000,closed,2,Does the client validate bucket names before attempting to use them?
+615,2017-02-17 21:27:12.000000000,2017-02-17 22:50:27.000000000,closed,1,doc: Rewrite GetObject API description
+614,2017-02-17 12:11:46.000000000,2017-02-18 01:03:46.000000000,closed,0,Make sure to pass the contentBody to NewRequest appropriately.
+613,2017-02-16 04:15:40.000000000,2017-03-16 00:38:04.000000000,closed,13,api: Support encryption for putObject and getObject
+612,2017-02-14 06:10:39.000000000,2017-03-11 04:31:12.000000000,closed,1,Error is not returned to the application
+611,2017-02-13 00:29:51.000000000,2017-03-17 11:38:06.000000000,closed,5,api: [feature] Implement a new encryption client
+610,2017-02-10 11:42:35.000000000,2017-02-10 14:04:24.000000000,closed,5,trie: new package
+609,2017-02-09 16:39:32.000000000,2017-04-22 16:50:05.000000000,closed,8,pkg/s3signer: Add signatureV4 chunked upload support.
+608,2017-02-09 15:44:18.000000000,2017-02-09 22:24:29.000000000,closed,5,"""us-east-1"" is always using in request for GetBucketLocation()"
+607,2017-02-07 15:26:31.000000000,2017-04-24 11:50:28.000000000,closed,14,signer: [feature] Implement streaming signature support in minio-go
+606,2017-02-06 15:47:16.000000000,2017-03-11 04:28:18.000000000,closed,4,multi-part upload chunk size hardcoded
+605,2017-02-06 02:05:42.000000000,2017-02-06 05:19:20.000000000,closed,5,Support for tags
+604,2017-02-05 18:24:55.000000000,2017-02-06 15:43:46.000000000,closed,4,Last-Modified time format not recognized
+603,2017-02-04 11:17:06.000000000,2017-02-04 11:46:47.000000000,closed,0,Make functions signatures idiomatic
+602,2017-02-04 10:24:08.000000000,2017-02-04 10:57:10.000000000,closed,0,Make copy conditions type simpler
+601,2017-02-03 07:59:27.000000000,2017-02-03 09:18:31.000000000,closed,0,Improve CopyObject example providing basic and advanced use cases separately.
+600,2017-02-03 00:12:13.000000000,2017-02-06 05:19:34.000000000,closed,8,generating wron HMAC for version 2
+599,2017-02-02 08:15:28.000000000,2017-02-06 02:25:24.000000000,closed,3,#593 fix GetObject seek to support http.ServeContent
+598,2017-02-02 03:17:04.000000000,2017-02-06 05:20:09.000000000,closed,5,Clarify: Is a minio Client thread-safe?
+597,2017-02-01 11:39:42.000000000,2017-02-01 13:14:54.000000000,closed,0,Add interfaces supported by ``*minio.Object``
+596,2017-01-24 00:24:07.000000000,2017-02-06 05:20:49.000000000,closed,1,README: Link to godoc for minio-go
+595,2017-01-21 07:00:13.000000000,2017-01-21 07:01:47.000000000,closed,0,slackchanges: Updated gitter badges to slack.
+594,2017-01-12 12:53:43.000000000,2017-01-13 14:17:40.000000000,closed,2,Expiry cannot be larger than 7 days
+593,2017-01-11 22:07:34.000000000,2017-02-06 05:20:25.000000000,closed,12,Use GetObject with http.ServeContent without a complete read into a buffer
+592,2017-01-07 19:53:20.000000000,2017-01-08 00:26:19.000000000,closed,1,Refer to SDK as Minio Go client SDK
+591,2017-01-06 08:47:19.000000000,2017-01-06 09:58:42.000000000,closed,2,stringset: Add new method ToSlice()
+590,2017-01-05 10:39:25.000000000,2017-01-05 12:09:41.000000000,closed,0,Improve description for SetS3TransferAccelerate
+589,2016-12-30 12:49:53.000000000,2016-12-30 12:54:15.000000000,closed,0,Rename Golang references to Go and other cleanup
+588,2016-12-29 10:49:15.000000000,2016-12-29 10:52:17.000000000,closed,0,Add parameters table to misc functions
+587,2016-12-27 11:47:53.000000000,2016-12-27 11:57:58.000000000,closed,0,Fix column markdown syntax in API reference table
+586,2016-12-27 01:24:17.000000000,2017-01-05 09:45:21.000000000,closed,1,Introduce client level custom settings with S3TransferAccelerate() API.
+585,2016-12-26 14:26:43.000000000,2017-01-05 09:45:21.000000000,closed,4,Support for Amazon Acceleration Endpoint?
+584,2016-12-26 11:45:54.000000000,2016-12-26 16:06:11.000000000,closed,0,Add docs for Client's miscellaneous methods
+583,2016-12-22 09:27:10.000000000,2016-12-22 09:46:57.000000000,closed,0,Add a note on regions when used w/ minio server
+582,2016-12-21 12:08:30.000000000,2016-12-21 22:22:44.000000000,closed,0,Use consistent jargon while describing API
+581,2016-12-21 01:41:21.000000000,2016-12-21 01:43:13.000000000,closed,0,lint: Fix golint errors in s3utils package
+580,2016-12-20 23:58:05.000000000,2016-12-21 01:00:22.000000000,closed,0,Move EncodePath() to s3utils package
+579,2016-12-19 20:40:34.000000000,2016-12-20 15:57:54.000000000,closed,0,Move functions related to s3 urls to a new pkg
+578,2016-12-18 14:19:21.000000000,2016-12-18 16:07:05.000000000,closed,6,minio on Raspberry Pi 3 Model B
+577,2016-12-17 10:52:51.000000000,2016-12-17 11:51:25.000000000,closed,4,Fix for looking up bucket locations in S3 Acceleration endpoints
+576,2016-12-16 23:18:03.000000000,2016-12-17 11:51:25.000000000,closed,3,Hard to configure bucket location for Amazon S3 Acceleration
+575,2016-12-16 20:02:57.000000000,2016-12-16 21:22:23.000000000,closed,0,Allow Amazon S3 Acceleration endpoints
+574,2016-12-16 19:47:11.000000000,2016-12-16 21:23:45.000000000,closed,0,tests: Use S3_ADDRESS and S3_SECURE env vars
+573,2016-12-16 18:32:06.000000000,2016-12-16 19:43:40.000000000,closed,1,"Add S3 Acceleration endpoint via ""accelerate"" bucket"
+572,2016-12-16 11:54:56.000000000,2016-12-16 12:12:00.000000000,closed,0,s3-endpoints: Added eu-west-2 to the endpoint list.
+571,2016-12-15 12:05:06.000000000,2016-12-15 21:22:37.000000000,closed,0,Compile regexp only once and use it as many times wanted.
+570,2016-12-14 17:33:36.000000000,2016-12-15 07:29:13.000000000,closed,2,docs: Removed $ from code block to make code copy easier.
+569,2016-12-14 00:36:23.000000000,2016-12-14 05:10:05.000000000,closed,0,client: Consolidate parsing URLs.
+568,2016-12-13 22:58:07.000000000,2016-12-14 03:32:22.000000000,closed,5,"api: GetObject, StatObject should return more metadata."
+567,2016-12-13 10:37:43.000000000,2016-12-16 19:23:15.000000000,closed,1,doc: removed ```sh from the docs.
+566,2016-12-13 02:19:34.000000000,2016-12-13 22:45:28.000000000,closed,2,Add PutObjectWithMetadata() API
+565,2016-12-12 23:08:08.000000000,2016-12-12 23:08:32.000000000,closed,0,hack in error handling when missing the message in response
+564,2016-12-10 11:38:50.000000000,2016-12-10 11:49:01.000000000,closed,0,s3-endpoints.go: Added Canada (Central) to the endpoint list.
+563,2016-12-10 03:14:38.000000000,2016-12-12 23:08:35.000000000,closed,3,"When using RadosGW, if an operation is specified on a bucket that does not exist the error string is empty"
+562,2016-12-09 22:56:16.000000000,2016-12-10 22:25:46.000000000,closed,0,Move s3 signature v4 and v2 to a separate pkg
+561,2016-12-09 00:21:58.000000000,2016-12-09 13:14:57.000000000,closed,0,api: res.Body should be closed properly
+560,2016-12-07 00:03:17.000000000,2016-12-09 13:16:41.000000000,closed,4,potential resource leak because res.Body is not closed
+559,2016-12-07 00:02:05.000000000,2016-12-07 00:34:57.000000000,closed,2,close res.Body
+558,2016-12-06 01:32:09.000000000,2016-12-08 23:10:34.000000000,closed,1,docs: Fixed a typo in ListObjectsV2
+557,2016-11-27 21:32:43.000000000,2016-11-28 00:46:41.000000000,closed,0,upload: generate a new mpart ID when NoSuchUpload
+556,2016-11-27 16:20:40.000000000,2016-11-28 00:47:22.000000000,closed,6,list: Don't send incomplete uploads info with err
+555,2016-11-22 22:28:15.000000000,2016-11-24 07:51:38.000000000,closed,2,fix max retry issue in RemoveObject()
+554,2016-11-21 23:19:04.000000000,2016-11-27 23:48:38.000000000,closed,6,return an error when max retry is reached in executeMethod()
+553,2016-11-20 13:33:16.000000000,2016-11-21 03:48:24.000000000,closed,0,Add an everlasting binomially increasing retry.
+552,2016-11-16 04:01:22.000000000,2016-11-16 04:40:35.000000000,closed,1,getReaderSize() returns wrong size for non regular files 
+551,2016-11-16 01:07:38.000000000,2016-11-16 04:40:35.000000000,closed,0,getReaderSize() returns -1 in case of read/write os.Pipe() stream
+550,2016-11-12 04:37:04.000000000,2016-11-12 05:33:29.000000000,closed,0,Copy headers when following redirect URL and process special 307 http header
+549,2016-11-10 16:08:54.000000000,2016-11-16 02:40:17.000000000,closed,1,Allow to add success_action_status to policy
+548,2016-11-10 02:15:09.000000000,2016-11-21 03:47:12.000000000,closed,7,"On RemoveObject, nil error is returned when 5xx is encountered"
+547,2016-11-07 22:14:16.000000000,2016-11-12 05:33:29.000000000,closed,0,URL CheckRedirect: test and fix eventual bugs
+546,2016-10-31 14:21:57.000000000,2016-10-31 19:51:08.000000000,closed,0,Fix wrong check in uploading multipart stream
+545,2016-10-28 14:18:49.000000000,2016-10-28 19:43:54.000000000,closed,0,RemoveObjects should not invoke MultiObjects DELETE S3 API when no ob…
+544,2016-10-27 19:58:12.000000000,2016-10-28 05:47:37.000000000,closed,0,"Code:s3-endpoints.go/Added Ohio Region, US East 2"
+543,2016-10-25 18:31:15.000000000,2016-10-25 22:06:47.000000000,closed,0,Fix parallel upload race
+542,2016-10-25 15:10:37.000000000,2016-10-25 20:08:54.000000000,closed,0,Fix presumable uploads in file/readat
+541,2016-10-25 14:04:40.000000000,2016-10-25 20:55:31.000000000,closed,1,minio-go: resumable upload doesn't work as expected
+540,2016-10-25 03:13:24.000000000,2016-12-14 21:03:30.000000000,closed,6,Race detected - stack trace causing race not clear
+539,2016-10-25 02:58:39.000000000,2016-10-25 22:06:47.000000000,closed,0,go test -race detects simultaneous writes in  api-put-object-readat.go
+538,2016-10-24 23:05:54.000000000,2016-10-25 22:06:47.000000000,closed,1,Rare crash due to a concurrent map access
+537,2016-10-24 13:10:10.000000000,2016-10-24 13:52:31.000000000,closed,0,Trivial typo fixes
+536,2016-10-24 07:04:42.000000000,2016-10-28 05:47:13.000000000,closed,2,Ohio Region (US East 2) 
+535,2016-10-23 02:56:57.000000000,2016-10-23 03:15:33.000000000,closed,0,api: relax strict Content-Length check for GCS.
+534,2016-10-22 23:48:58.000000000,2016-12-22 09:46:58.000000000,closed,6,Lack of location wording in the Golang API reference docs
+533,2016-10-20 14:25:50.000000000,2016-12-09 13:15:35.000000000,closed,2,Fixed race condition for ListenBucketNotification.
+532,2016-10-15 10:48:42.000000000,2016-10-23 02:59:09.000000000,closed,11,"mc mirror fail to copy from Google Cloud Storage, content-length is invalid"
+531,2016-10-10 14:58:41.000000000,2016-12-09 13:16:05.000000000,closed,1,Export API error codes to facilitate error inspection by developers
+530,2016-10-08 16:37:39.000000000,2016-12-14 05:10:05.000000000,closed,1,Parse endpoint URL once and save it in *minio.Client
+529,2016-10-04 21:39:22.000000000,2016-10-09 06:31:25.000000000,closed,0,examples: have descriptive object name in remove objects example.
+528,2016-10-03 13:27:36.000000000,2016-10-03 19:58:26.000000000,closed,0,More doc/example fixes for RemoveObjects
+527,2016-10-03 05:57:23.000000000,2016-10-03 06:01:02.000000000,closed,0,doc: Fix README.md point to right APIs and examples.
+526,2016-09-30 01:30:07.000000000,2016-10-01 01:13:54.000000000,closed,0,Add documentation and example of MultiRemoveObjects API
+525,2016-09-30 00:56:54.000000000,2016-10-01 01:13:46.000000000,closed,0,Rename and export RemoveObjectError struct
+524,2016-09-29 22:53:24.000000000,2016-09-30 00:31:15.000000000,closed,0,Fix BucketExists API documentation
+523,2016-09-27 23:47:21.000000000,2016-09-28 00:29:52.000000000,closed,0,api: Change API signature for ListenBucketNotification.
+522,2016-09-26 15:55:38.000000000,2016-09-29 04:12:05.000000000,closed,1,Add multi delete API
+521,2016-09-25 19:45:38.000000000,2016-09-25 21:07:02.000000000,closed,0,Fixing a minor bug in multipart upload flow.
+520,2016-09-24 11:43:28.000000000,2016-10-02 21:13:03.000000000,closed,4,Pull AWS credentials from environment
+519,2016-09-20 15:42:59.000000000,2016-09-20 21:46:28.000000000,closed,0,"Fix API examples and documentation of BucketExists(), SetBucketPolicy()"
+518,2016-09-20 13:06:06.000000000,2016-09-20 21:46:48.000000000,closed,0,Removing crand dependency from api_functional_v2_test.go
+517,2016-09-19 23:28:22.000000000,2016-09-19 23:54:42.000000000,closed,0,Improve percentEncodeSlash()
+516,2016-09-19 03:57:12.000000000,2016-09-29 04:12:20.000000000,closed,3,Add API for multi-delete
+515,2016-09-18 23:29:35.000000000,2016-09-19 01:14:44.000000000,closed,3,Percent encode '/' (forward slash) in query string
+514,2016-09-12 17:43:28.000000000,2016-09-12 20:18:29.000000000,closed,2,Add delete to subresource list
+513,2016-09-11 01:45:08.000000000,2016-09-11 01:48:42.000000000,closed,0,tests: Removing crand dependency from v4 functional tests
+512,2016-09-10 01:36:03.000000000,2016-09-10 02:35:36.000000000,closed,0,Always fetch owner when listing via ListObjects V2
+511,2016-09-08 16:59:40.000000000,2016-09-08 17:58:48.000000000,closed,0,functional test: cleanup.
+510,2016-09-08 02:56:31.000000000,2016-09-08 07:13:44.000000000,closed,2,putObject: use lastPartNumber instead for generating complete multipa…
+509,2016-09-08 00:48:48.000000000,2016-09-08 02:55:31.000000000,closed,0,getObject: ReadAt() should return response.Size for reads at io.EOF
+508,2016-09-08 00:02:50.000000000,2016-09-20 21:46:48.000000000,closed,2,"Remove usage of crand.Reader in tests, use bytes.NewReader instead"
+507,2016-09-04 04:54:23.000000000,2016-09-04 10:29:52.000000000,closed,1,Re-uploading an interrupted upload with a different object fails
+506,2016-09-03 17:41:21.000000000,2016-09-04 12:12:15.000000000,closed,2,putObject: Streaming uploads with size -1 should avoid erroring out f…
+505,2016-09-03 09:08:08.000000000,2016-09-03 12:42:23.000000000,closed,4,putObject: Relax validating number of parts during upload.
+504,2016-09-02 08:53:24.000000000,2016-09-25 21:11:13.000000000,closed,1,PutObject (Multipart): add support for parallel upload of parts in mu…
+503,2016-09-02 07:28:42.000000000,2016-12-26 16:06:11.000000000,closed,5,"Add missing docs for SetAppInfo, SetCustomTransport, TraceOn and TraceOff"
+502,2016-09-01 12:42:05.000000000,2016-09-02 05:38:31.000000000,closed,4,GetObject: Don't set objectInfo until first read/seek/stat call
+501,2016-09-01 05:22:06.000000000,2016-09-02 05:38:31.000000000,closed,0,GetObject: ReadAt fails if its the first request
+500,2016-08-30 00:04:17.000000000,2016-09-03 04:42:28.000000000,closed,1,Add Get Policy Rules API + tests
+499,2016-08-29 02:23:12.000000000,2017-05-02 12:14:58.000000000,closed,1,Support REDUCED_REDUNDANCY for PutObject() on Amazon S3
+498,2016-08-28 20:48:33.000000000,2016-09-02 07:14:41.000000000,closed,1,Limit offset pagination
+497,2016-08-26 22:18:45.000000000,2016-08-27 00:51:25.000000000,closed,0,Avoid adding duplicated entries in Add Topic/Queue/Lambda
+496,2016-08-25 22:59:14.000000000,2016-08-27 00:51:34.000000000,closed,0,Tests: prepend all minio-go created testing buckets with 'minio-go-test'
+495,2016-08-25 08:00:38.000000000,2016-08-31 10:13:20.000000000,closed,6,GetObject: allow reading only a limited range of a file
+494,2016-08-25 01:53:06.000000000,2016-08-27 00:51:33.000000000,closed,1,Tests: prepend all created buckets/objects with a known prefix 
+493,2016-08-24 03:06:52.000000000,2016-08-27 00:51:25.000000000,closed,0,Disallow setting same overlapping configurations in SetBucketNotification() 
+492,2016-08-23 03:37:33.000000000,2016-08-23 04:31:21.000000000,closed,0,Doc: Minor fix in API.md
+491,2016-08-18 01:56:03.000000000,2016-08-18 02:36:43.000000000,closed,0,Fix typo in listen bucket notification example
+490,2016-08-16 07:52:30.000000000,2016-08-16 07:55:40.000000000,closed,0,api: Update examples for ListenBucketNotification to handle region pr…
+489,2016-08-16 00:21:09.000000000,2016-08-17 02:56:51.000000000,closed,0,Code: This patch will make spelling corrections in files listed.
+488,2016-08-14 04:08:55.000000000,2016-08-14 07:38:35.000000000,closed,1,Tweaks to wording and examples
+487,2016-08-13 01:16:20.000000000,2016-08-13 09:27:05.000000000,closed,0,add south-1 and south-east-2 s3 endpoints
+486,2016-08-12 01:07:06.000000000,2016-08-12 12:48:53.000000000,closed,0,api: ListenBucketNotification should retry upon io.ErrUnexpectedEOF.
+485,2016-08-11 19:20:46.000000000,2016-08-18 04:31:21.000000000,closed,2,refactor get and set bucket policy.
+484,2016-08-10 21:12:44.000000000,2016-08-31 10:13:20.000000000,closed,1,Allow reading only a limited range of a file
+483,2016-08-10 13:20:01.000000000,2016-08-10 13:23:54.000000000,closed,0,fix dependency of pb
+482,2016-08-10 07:37:00.000000000,2016-09-25 21:22:31.000000000,closed,1,api: Enable parallel uploads for multipart in PutObject
+481,2016-08-09 20:27:16.000000000,2016-08-27 11:21:32.000000000,closed,10,Check the Server header to verify listen bucket notification support
+480,2016-08-09 04:20:09.000000000,2016-08-09 14:15:18.000000000,closed,0,BucketExists API returns a bool to indicate whether a bucket *really*…
+479,2016-08-09 03:13:08.000000000,2016-08-09 04:05:35.000000000,closed,1,Bucket location sends UNSIGNED-PAYLOAD with https connection
+478,2016-08-09 02:05:15.000000000,2016-08-09 22:35:24.000000000,closed,0,api: GetObject. Seek method should behave like os.File
+477,2016-08-08 23:19:29.000000000,2016-08-08 23:47:51.000000000,closed,1,ReadAt returns EOF error instead of io.ErrUnexpectedEOF
+476,2016-08-08 23:03:30.000000000,2016-08-09 22:35:24.000000000,closed,1,Seek with negative offset does not work
+475,2016-08-08 04:16:21.000000000,2016-12-09 13:16:28.000000000,closed,2,Client: add separate NewInsecure/NewSecure functions for client and V…
+474,2016-08-07 22:56:58.000000000,2016-08-09 02:06:06.000000000,closed,0,Doc:API.md/This patch will replace tables in existing HTML format to markdown.
+473,2016-08-05 02:06:53.000000000,2016-08-09 04:05:35.000000000,closed,2,getBucketLocation should do 'UNSIGNED-PAYLOAD' for https as well
+472,2016-08-03 04:39:23.000000000,2016-08-03 10:06:52.000000000,closed,0,"Add Remove{Topic,Queue,Lamba}ByArn to the Bucket Notification API"
+471,2016-08-03 03:56:11.000000000,2016-08-03 04:06:09.000000000,closed,0,Replace any existing prefix/suffix rules + Better API documentation
+470,2016-08-02 05:21:22.000000000,2016-08-02 21:07:11.000000000,closed,0,pkg: add set package
+469,2016-08-01 13:40:20.000000000,2016-08-02 04:00:37.000000000,closed,0,Rename one type from RemoveBucketNotification to DeleteBucketNotifica…
+468,2016-08-01 12:14:46.000000000,2016-08-05 08:40:43.000000000,closed,0,api: Add new API ListenBucketNotification.
+467,2016-07-29 19:17:10.000000000,2016-07-29 19:40:33.000000000,closed,2,httpReader can be closed when no reference on minio.Object
+466,2016-07-27 20:45:35.000000000,2016-08-10 10:44:15.000000000,closed,3,BucketExists error return is not sufficient
+465,2016-07-27 02:32:34.000000000,2016-07-27 03:27:31.000000000,closed,0,CopyObject: urlEncode the object source string
+464,2016-07-27 02:01:47.000000000,2016-10-27 12:26:37.000000000,closed,2,Tests: Running go test -race ./... causes SIGQUIT
+463,2016-07-25 10:05:10.000000000,2016-07-25 10:16:14.000000000,closed,0,Add missing return type to RemoveBucket method
+462,2016-07-25 04:34:22.000000000,2016-07-25 05:14:08.000000000,closed,0,Doc: This patch adds HTML tags inside API.md & does minor edits so that it renders correctly on docs.minio.io
+461,2016-07-25 00:33:42.000000000,2016-07-25 04:06:42.000000000,closed,0,Doc: This patch adds HTML tags inside API.md & does minor formatting so that it renders correctly on docs.minio.io
+460,2016-07-23 06:01:05.000000000,2016-07-23 07:18:39.000000000,closed,0,Doc: This patch adds HTML tags inside table in API.md so that it renders correctly on docs.minio.io 
+459,2016-07-23 04:11:14.000000000,2016-07-23 04:34:23.000000000,closed,0,doc: Fix Anchor Tags
+458,2016-07-22 06:02:44.000000000,2016-07-22 12:24:32.000000000,closed,0,"Doc: This patch removes INSTALLGO.md & modifies docs/API.md, README.md so that it renders correctly on docs.minio.io"
+457,2016-07-21 22:59:45.000000000,2016-07-22 01:39:50.000000000,closed,1,More test covers
+456,2016-07-21 17:35:35.000000000,2016-07-21 22:19:40.000000000,closed,0,"Fix update conditions which wasn't really working, coverage is 100%"
+455,2016-07-21 05:11:32.000000000,2017-03-28 21:38:58.000000000,closed,2,Implement functional tests for listObjectParts() 
+454,2016-07-21 05:10:06.000000000,2017-03-28 21:39:07.000000000,closed,2,Implement unit/functional tests for put-object-readat.go 
+453,2016-07-21 05:09:05.000000000,2016-12-09 13:19:33.000000000,closed,2,Implement unit/function tests for post-policy.go 
+452,2016-07-21 05:08:24.000000000,2016-07-21 22:19:40.000000000,closed,0,Implement unit tests for copy-conditions.go 
+451,2016-07-21 05:07:11.000000000,2016-07-21 22:20:04.000000000,closed,2,Implement functional test for PresignedPostPolicy
+450,2016-07-21 05:04:53.000000000,2016-07-21 11:13:46.000000000,closed,0,Minimal part size default value is set to 64MiB
+449,2016-07-19 02:46:37.000000000,2016-07-19 03:51:21.000000000,closed,0,Add ListObjectsV2 documentation
+448,2016-07-18 19:19:14.000000000,2016-07-25 04:07:58.000000000,closed,2,Add new API for SET/GET/REMOVE Bucket Notifications
+447,2016-07-17 14:10:43.000000000,2016-07-17 21:31:28.000000000,closed,1,Add ListObjectsV2 API
+446,2016-07-16 11:13:45.000000000,2016-07-16 11:23:54.000000000,closed,0,api/removeBucketPolicy: Remove redundant removeBucketPolicy.
+445,2016-07-16 03:19:39.000000000,2016-07-16 03:28:27.000000000,closed,0,utils: allow successive '..' in bucket names.
+444,2016-07-15 22:37:48.000000000,2016-07-15 23:40:42.000000000,closed,0,Doc: This patch modifies API.md so that it renders correcly on docs.minio.io
+443,2016-07-15 17:05:29.000000000,2016-07-17 14:42:08.000000000,closed,0,Do not compute payload sha256 with https endpoint
+442,2016-07-15 07:13:27.000000000,2016-07-25 04:08:14.000000000,closed,1,Implement S3 compatible event notification API. 
+441,2016-07-15 05:16:34.000000000,2016-07-16 10:55:01.000000000,closed,0,api/setBucketPolicy: Bucket policy should add conditions.
+440,2016-07-15 04:59:43.000000000,2016-07-16 10:55:01.000000000,closed,0,SetBucketPolicy adds conflicting policies allowing write-only prefixes to get access.
+439,2016-07-12 15:34:28.000000000,2016-08-18 04:31:38.000000000,closed,0,Current Bucket Policy implementation can cause corrupted policies
+438,2016-07-07 06:04:38.000000000,2016-07-27 03:27:31.000000000,closed,0,copyObject: x-amz-copy-source should urlEncode the object source string.
+437,2016-07-06 23:41:14.000000000,2016-07-07 02:17:45.000000000,closed,0,client: endpointURL should be saved as string and parsed as needed.
+436,2016-07-06 22:52:12.000000000,2016-10-27 12:22:37.000000000,closed,2,get-object: Encapsulate closer into safe closer.
+435,2016-07-06 12:37:34.000000000,2016-07-06 22:37:16.000000000,closed,0,"get-object: After doing a Seek, we should close any previous httpReader before getting a new one."
+434,2016-07-05 00:34:47.000000000,2016-07-06 00:54:45.000000000,closed,0,presigned: Fix broken presigned V2 PUT.
+433,2016-07-04 20:30:32.000000000,2017-03-28 21:41:01.000000000,closed,2,PresignedPutObject with Content-Type
+432,2016-07-04 13:38:27.000000000,2016-07-04 14:06:10.000000000,closed,0,Access Policy: Return ErrNoSuchBucketPolicy when trying to set 'none'
+431,2016-07-04 13:25:26.000000000,2016-07-04 14:06:10.000000000,closed,0,Access Policy: ErrNoSuchBucketPolicy should be returned when setting 'none' when no policies are present.
+430,2016-07-03 21:02:22.000000000,2016-07-04 10:36:41.000000000,closed,2,Access Policy: Fixed misleading error response when same policy set twice
+429,2016-07-03 19:30:13.000000000,2016-07-04 10:36:41.000000000,closed,0,Misleading error msg when setting a policy twice on a specific bucket
+428,2016-07-01 09:17:13.000000000,2016-07-17 14:42:08.000000000,closed,0,Disable sha256 computation for https
+427,2016-06-26 16:19:27.000000000,2016-06-27 06:51:23.000000000,closed,1,Changed LastModified to time.Time
+426,2016-06-23 15:55:04.000000000,2016-06-23 21:08:55.000000000,closed,0,Doc: This patch will fix table alignment & updates sub-sub section for list of supported cloud provider in API.md. 
+425,2016-06-23 14:22:48.000000000,2016-06-23 15:26:51.000000000,closed,1,Doc: This patch adds File Object Operations section in examples & API.md 
+424,2016-06-22 13:05:47.000000000,2016-06-23 02:07:45.000000000,closed,1,api: Skip object when on Glacier.
+423,2016-06-22 12:23:43.000000000,2016-07-28 07:25:53.000000000,closed,2,api: Implement support for ListObjectsV2. supporting new S3 list version 2 type.
+422,2016-06-22 01:30:35.000000000,2016-06-22 12:10:59.000000000,closed,0,Fix PutObject function signature in README.md
+421,2016-06-21 14:46:35.000000000,2016-06-22 23:21:57.000000000,closed,3,Doc: This patch updates README.md  with changes so that it renders correctly on docs.minio.io
+420,2016-06-21 05:09:30.000000000,2016-06-23 02:07:55.000000000,closed,0,api: ListObjects ignore StorageClass == 'glacier'
+419,2016-06-14 18:30:30.000000000,2016-06-23 04:59:27.000000000,closed,0,CompleteMultipartUpload API may contain error response in resp.Body
+418,2016-06-11 23:38:46.000000000,2016-12-23 03:05:26.000000000,closed,4,Example update: presignedgetobject.go 
+417,2016-06-09 10:56:24.000000000,2016-06-09 13:19:31.000000000,closed,0,Add return values for all functions in API.md documentation
+416,2016-06-09 10:10:30.000000000,2016-06-09 13:20:35.000000000,closed,0,Fix typo in initial example in API.md
+415,2016-06-08 09:56:17.000000000,2016-06-08 10:58:56.000000000,closed,0,Access Policy: Return error when setting 'none' on prefix w/o pre-exi…
+414,2016-06-07 13:44:07.000000000,2016-06-08 09:57:44.000000000,closed,2,Access Policy: Added Pseudo None Statements
+413,2016-06-06 21:33:05.000000000,2016-06-23 04:59:27.000000000,closed,0,multipart: complete multipart upload should process white space characters after 200 OK
+412,2016-06-01 19:43:54.000000000,2016-06-01 20:31:23.000000000,closed,0,Closing the http response.Body (ReadCloser) after close during GetObject.
+411,2016-05-27 14:09:43.000000000,2016-06-01 20:31:49.000000000,closed,0,Removed unneeded comments in bucket-policy_test.go
+410,2016-05-26 17:19:41.000000000,2016-05-27 12:59:22.000000000,closed,2,Access Policy: Resource Matching
+409,2016-05-26 08:20:57.000000000,2016-05-27 12:59:22.000000000,closed,2,Access Policy: Setting policy of subdirectory in bucket 
+408,2016-05-25 21:31:10.000000000,2016-05-26 07:20:35.000000000,closed,0,Fix a deadlock with listing objects and incomplete uploads when the p…
+407,2016-05-25 13:45:01.000000000,2016-05-26 07:20:45.000000000,closed,1,Access Policy: Policy Removal Fix
+406,2016-05-23 18:35:20.000000000,2016-05-26 07:20:45.000000000,closed,0,Access Policy: Policy not removed for multiple policies in same bucket
+405,2016-05-20 22:12:55.000000000,2016-07-28 08:29:29.000000000,closed,5,minio-go: API change to presignedURL broke gitlab-ci
+404,2016-05-20 21:01:34.000000000,2016-06-22 12:16:10.000000000,closed,8,Fixed part size
+403,2016-05-19 15:11:15.000000000,2016-05-20 07:17:21.000000000,closed,0,Removed http.Client timeout to avoid premature disconnection while st…
+402,2016-05-19 15:03:58.000000000,2016-05-20 07:17:21.000000000,closed,0,minio.Client times out prematurely during GetObject of large objects
+401,2016-05-19 14:13:26.000000000,2016-05-19 14:19:25.000000000,closed,0,api: CopyObject Etags are different from source.
+400,2016-05-18 23:01:47.000000000,2016-05-18 23:09:21.000000000,closed,4,api: getReaderSize - Supports Len() function
+399,2016-05-17 11:41:04.000000000,2016-05-17 12:21:39.000000000,closed,0,api: Change insecure to secure param for New()
+398,2016-05-16 03:38:52.000000000,2016-05-16 09:31:00.000000000,closed,0,api: Do not add 100-continue for Google Cloud Storage.
+397,2016-05-13 10:09:25.000000000,2016-12-10 07:52:02.000000000,closed,6,Change insecure variable to secure
+396,2016-05-12 12:27:40.000000000,2016-05-12 12:52:14.000000000,closed,0,Typo correction in examples
+395,2016-05-11 12:02:59.000000000,2016-05-11 12:36:08.000000000,closed,3,api: Only use Multipart if size>5MiB
+394,2016-05-11 10:47:24.000000000,2016-05-11 12:36:08.000000000,closed,0,"when exact 5MiB sized file is used to upload, multipart is used"
+393,2016-05-10 06:17:25.000000000,2016-05-11 07:04:29.000000000,closed,7,api: Change PresignedPostPolicy to return back proper URL
+392,2016-05-09 22:39:11.000000000,2016-05-11 07:04:29.000000000,closed,0,Document the URL to use with Client.PresignedPostPolicy
+391,2016-05-02 10:12:41.000000000,2016-05-02 10:42:20.000000000,closed,0,doc: update API.md
+390,2016-04-25 06:47:23.000000000,2016-04-25 12:09:41.000000000,closed,1,retry: Retry api requests for two more cases.
+389,2016-04-25 05:59:56.000000000,2016-04-25 11:47:35.000000000,closed,0,"retry: Add doneCh to retry timer, to gracefully terminate the go-rout…"
+388,2016-04-25 02:20:33.000000000,2016-04-25 11:47:35.000000000,closed,3,"ListObjects() and race: limit on 8192 ... , dying"
+387,2016-04-22 23:24:50.000000000,2016-04-23 00:18:47.000000000,closed,0,list: Fix listObjects to avoid large bufferred channels to facilitate…
+386,2016-04-22 14:46:13.000000000,2016-04-23 00:18:47.000000000,closed,12,Endless waiting in ListObjects() with doneCh
+385,2016-04-20 16:08:45.000000000,2016-04-21 02:00:25.000000000,closed,1,Tests: tests for bucket location response parsing and cache
+384,2016-04-19 10:05:44.000000000,2016-04-20 09:51:54.000000000,closed,0,build: Support go1.3
+383,2016-04-19 05:38:01.000000000,2016-04-19 08:16:19.000000000,closed,0,Tests: Api error response tests added
+382,2016-04-18 22:33:26.000000000,2016-04-20 09:51:54.000000000,closed,0,go1.3 version fails with syntax errors 'for range' is not supported without variables
+381,2016-04-18 08:39:40.000000000,2016-04-19 09:04:19.000000000,closed,0,location: Support china region fully now.
+380,2016-04-14 22:14:21.000000000,2016-04-15 01:22:01.000000000,closed,0,simplify: Minor simplification of the code.
+379,2016-04-14 01:44:12.000000000,2016-04-14 02:27:58.000000000,closed,0,formatting: gofmt fixes
+378,2016-04-12 05:45:11.000000000,2016-04-14 01:42:27.000000000,closed,0,gofmt fix
+377,2016-04-11 04:58:08.000000000,2016-04-11 07:25:33.000000000,closed,0,"Tests: Bucket policy related unit tests, functional test and code refactoring."
+376,2016-04-08 23:37:53.000000000,2016-04-09 04:16:20.000000000,closed,0,Do not sort requestList in each call and add an unit test to check if it is already correctly sorted
+375,2016-04-08 16:12:27.000000000,2016-04-09 04:16:31.000000000,closed,3,Panic in signv2
+374,2016-04-07 21:54:04.000000000,2016-04-20 09:24:15.000000000,closed,2,Resumable upload and upload-url
+373,2016-04-07 12:54:20.000000000,2016-04-07 14:25:45.000000000,closed,0,Support for S3 China added
+372,2016-04-05 14:38:09.000000000,2016-04-06 06:47:26.000000000,closed,2,Tests: Tests for MakeBucketRequest
+371,2016-03-31 06:04:04.000000000,2016-04-01 02:30:35.000000000,closed,0,tests: Remove in-effective assigns.
+370,2016-03-30 21:52:38.000000000,2016-03-30 22:55:36.000000000,closed,0,api: Implement CopyObject API
+369,2016-03-30 00:37:20.000000000,2016-03-30 01:24:27.000000000,closed,0,http-client: provide SetClientTimeout API to set HTTP client timeout.
+368,2016-03-28 07:11:42.000000000,2016-03-28 10:19:02.000000000,closed,1,Tests: tests for utils.go
+367,2016-03-25 21:33:02.000000000,2016-03-25 22:01:59.000000000,closed,0,FPutObject: Implement automatic detection of mime-type if not provided
+366,2016-03-24 23:13:22.000000000,2016-03-26 04:35:40.000000000,closed,1,putObject: using buffer.Bytes() causes memory copy. Avoid it.
+365,2016-03-24 06:10:27.000000000,2016-03-28 03:36:34.000000000,closed,0,"api: Simplify copyObject API, return only error if any"
+364,2016-03-24 02:59:19.000000000,2016-03-30 22:55:22.000000000,closed,0,api: Implement CopyObject API
+363,2016-03-23 22:48:17.000000000,2016-03-25 22:02:30.000000000,closed,1,api: Implement automatic detection of mime-type if its not provided for FPutObject()
+362,2016-03-23 21:38:30.000000000,2016-04-24 04:46:57.000000000,closed,4,"api: replicating the mc commands ? For example the ""mirror"" command"
+361,2016-03-22 22:40:45.000000000,2016-03-23 03:51:58.000000000,closed,0,examples: Remove all the redundant examples.
+360,2016-03-20 02:53:44.000000000,2016-03-21 00:52:13.000000000,closed,0,api: Rename definitions to datatypes.
+359,2016-03-20 02:49:02.000000000,2016-03-20 10:00:02.000000000,closed,0,api: set Content-Md5 when makeBucket has LocationConstraint.
+358,2016-03-19 00:12:30.000000000,2016-03-25 22:02:20.000000000,closed,1,include region specific validation for aws s3 endpoints
+357,2016-03-18 04:17:30.000000000,2016-03-18 23:16:55.000000000,closed,0,docs: Add API documentation.
+356,2016-03-17 12:43:58.000000000,2016-03-19 23:22:40.000000000,closed,0,[GH-340] api: Implement bucket policy APIs
+355,2016-03-13 14:04:56.000000000,2016-03-15 02:12:09.000000000,closed,0,tests: Remove duplicate tests for ResumablePutObject()
+354,2016-03-12 11:24:49.000000000,2016-03-12 15:27:37.000000000,closed,0,"retry: re-factor isS3CodeRetryable to use map, instead of switch."
+353,2016-03-12 08:51:05.000000000,2016-03-15 02:26:07.000000000,closed,0,Added retry handling for some standard retryable http status codes.
+352,2016-03-12 02:02:36.000000000,2016-03-12 04:55:17.000000000,closed,0,simplify exponnentialBackOffWait with closure
+351,2016-03-12 02:02:03.000000000,2016-03-12 04:53:02.000000000,closed,0,rand: Implement locked source to protect from races.
+350,2016-03-11 05:49:56.000000000,2016-03-12 01:12:34.000000000,closed,0,retry: Move random Seed() to New().
+349,2016-03-10 14:15:04.000000000,2016-03-10 23:12:11.000000000,closed,2,rand: Seed current time inside newRetryTimer
+348,2016-03-10 07:59:43.000000000,2016-03-11 05:15:14.000000000,closed,0,retry: Retry requests for errors like network EOF.
+347,2016-03-10 07:59:32.000000000,2016-03-12 05:32:29.000000000,closed,0,api: GetObject now only fetches the Reader when offset changes.
+346,2016-03-09 20:37:42.000000000,2016-03-10 07:01:31.000000000,closed,0,api: Progress bar update to be made after the validation
+345,2016-03-09 20:03:19.000000000,2016-03-09 20:42:58.000000000,closed,1,api: mc cp shows progress of upload on occurance of non critical errors
+344,2016-03-09 04:15:22.000000000,2016-03-09 04:40:05.000000000,closed,0,retry: Cleanup handling retry code
+343,2016-03-08 15:05:44.000000000,2016-03-09 03:57:33.000000000,closed,0,retry: Fill region even for http.StatusForbidden to try the request a…
+342,2016-03-07 09:53:28.000000000,2016-03-07 12:43:42.000000000,closed,0,retry: Retry for network errors.
+341,2016-03-07 01:03:37.000000000,2016-03-10 10:03:16.000000000,closed,13,Cleaned up the retry logic and introduced retry jitter.
+340,2016-03-06 14:35:29.000000000,2016-03-22 14:19:27.000000000,closed,0,api: Implement set/get bucket policy APIs
+339,2016-03-06 14:15:30.000000000,2016-03-07 12:42:38.000000000,closed,0,retry: Enhance retry to support cases of restricted bucket policy.
+338,2016-03-06 09:22:22.000000000,2016-03-06 13:25:41.000000000,closed,1,Use a trivial implementation of min for int64 instead of Math.min
+337,2016-03-05 05:25:12.000000000,2016-03-06 08:50:00.000000000,closed,0,retry: Implement transparent retry logic for all requests.
+336,2016-02-29 16:05:58.000000000,2016-03-02 01:36:46.000000000,closed,0,error: Change AmzBucketRegion to 'Region' so that we can decode XML v…
+335,2016-02-29 13:27:04.000000000,2016-03-05 03:30:12.000000000,closed,1,request: Add expect header with 100-continue
+334,2016-02-28 07:49:35.000000000,2016-03-30 23:35:01.000000000,closed,1,api: Implement CopyObject API. 
+333,2016-02-15 03:42:14.000000000,2016-02-16 06:55:49.000000000,closed,0,http/Client: Add a sensible 30sec timeout to wait for response.
+332,2016-02-11 01:38:11.000000000,2016-03-07 12:42:38.000000000,closed,4,request: Add support of redirected to the correct endpoint
+331,2016-02-08 10:57:30.000000000,2016-02-08 11:00:00.000000000,closed,0,api: Remove unnecessary interface to avoid confusion.
+330,2016-02-08 10:45:07.000000000,2016-03-06 08:50:00.000000000,closed,0,request: Add a transparent retry logic for network errors
+329,2016-02-07 14:51:43.000000000,2016-02-07 16:45:25.000000000,closed,0,api: PresignedGetObject now supports response request headers.
+328,2016-02-06 07:04:14.000000000,2016-02-06 12:03:47.000000000,closed,0,httpClient: Golang errorneously returnes EOF
+327,2016-02-06 07:00:42.000000000,2016-02-06 07:04:03.000000000,closed,0,multipart: Should verify Etag not equal to.
+326,2016-02-06 03:35:17.000000000,2016-02-08 11:03:04.000000000,closed,6,Tests fail against current master branch
+325,2016-02-06 03:34:17.000000000,2016-02-08 10:59:59.000000000,closed,4,Splitting the main interface into multiple smaller ones
+324,2016-02-02 03:10:24.000000000,2016-02-02 12:43:10.000000000,closed,0,queryEncode: Do not encode query multiple times.
+323,2016-01-30 22:54:07.000000000,2016-01-31 00:05:14.000000000,closed,1,fix endpoint typo
+322,2016-01-29 02:36:20.000000000,2016-03-12 05:32:29.000000000,closed,0,api: Re-work GetObject() to not fetch new readers for each Read() operation.
+321,2016-01-28 16:35:48.000000000,2016-02-04 14:37:47.000000000,closed,1,Example for diff & reconcilliation
+320,2016-01-28 08:23:48.000000000,2016-01-29 02:35:16.000000000,closed,1,copyBuffer: Implement copyBuffer to support old Golang versions.
+319,2016-01-28 03:23:33.000000000,2016-01-28 03:26:51.000000000,closed,0,gofmt: Enable diff with gofmt in travis.
+318,2016-01-26 20:26:54.000000000,2016-01-26 23:46:37.000000000,closed,1,Remove duplicate code
+317,2016-01-25 15:04:14.000000000,2016-01-26 05:31:02.000000000,closed,0,MakeBucket: Always perform path style requests.
+316,2016-01-25 13:07:33.000000000,2016-01-25 13:17:59.000000000,closed,0,"api: For file size of 0bytes, avoid doing multipart."
+315,2016-01-25 12:56:38.000000000,2016-01-25 13:19:13.000000000,closed,0,api: Requests for bucket names should be with '/' at the end.
+314,2016-01-22 16:49:06.000000000,2016-01-22 23:15:18.000000000,closed,1,make BucketInfo and ObjectInfo JSON-aware
+313,2016-01-22 15:19:09.000000000,2016-01-23 05:23:42.000000000,closed,0,api: Implement PutObjectWithProgress reader.
+312,2016-01-22 03:22:44.000000000,2016-01-22 03:59:12.000000000,closed,0,api: Make functions private which are not publicly usable.
+311,2016-01-20 23:15:49.000000000,2016-01-20 23:53:09.000000000,closed,0,makeBucket: don't disable make bucket for anonymous requests.
+310,2016-01-20 09:49:56.000000000,2016-01-22 00:23:26.000000000,closed,0,putObjectReadAt: use sectionReader itself rather than looping over ReadAt.
+309,2016-01-20 01:20:25.000000000,2016-01-20 06:38:35.000000000,closed,0,makeTargetURL: TargetURL is constructed based on the bucketRegion and bucketName
+308,2016-01-19 07:13:12.000000000,2016-01-19 10:13:12.000000000,closed,0,putObject: Use memory buffer over temporary files as necessary.
+307,2016-01-18 22:51:02.000000000,2016-12-09 13:18:39.000000000,closed,2,api: Remove bucket on a resource which redirects does not work with Golang http.Client
+306,2016-01-17 04:47:34.000000000,2016-01-17 15:16:00.000000000,closed,0,putObjectReadAt: Always upload parts in order.
+305,2016-01-16 13:57:02.000000000,2016-01-16 23:41:26.000000000,closed,0,"getReaderSize: Fallback to size of -1 for Stdin, Stdout and Stderr."
+304,2016-01-14 06:36:46.000000000,2016-01-15 23:11:14.000000000,closed,0,putObjectReadAt: Sparse upload support for ReadAt.
+303,2016-01-14 00:00:51.000000000,2016-01-15 23:11:15.000000000,closed,2,header inconsistencies
+302,2016-01-13 07:29:48.000000000,2016-01-14 03:51:39.000000000,closed,1,PutObject: Add part size and new changes.
+301,2016-01-10 08:17:38.000000000,2016-01-10 09:54:09.000000000,closed,2,getReaderSize: Generalize getReaderSize to use reflection over Method Names.
+300,2016-01-08 01:21:59.000000000,2016-01-08 10:10:09.000000000,closed,2,getObject: Close() should return error only on second attempt.
+299,2016-01-08 00:18:47.000000000,2016-01-08 00:28:02.000000000,closed,0,getPartsInfo: Simplify fetching parts info.
+298,2016-01-07 09:58:22.000000000,2016-01-07 12:55:35.000000000,closed,0,signaturev2: Add functional tests for signature v2 codepath
+297,2016-01-07 08:16:07.000000000,2016-01-07 08:59:46.000000000,closed,1,Add coverage
+296,2016-01-05 00:45:19.000000000,2016-01-09 01:19:46.000000000,closed,1,"Limit the amount of readable data from response body, honor content-length in response headers."
+295,2016-01-04 17:05:25.000000000,2016-01-07 10:31:24.000000000,closed,0,trace should dump xml
+294,2016-01-03 22:23:41.000000000,2016-01-08 01:30:55.000000000,closed,4,PutObject() returns error `Access Denied` when saving more than 8MiB of data
+293,2016-01-03 22:19:40.000000000,2016-01-04 00:11:42.000000000,closed,1,MakeBucket: fix virtual hostname construction
+292,2016-01-03 04:37:46.000000000,2016-01-07 03:53:30.000000000,closed,1,Implement object type.
+291,2016-01-02 23:48:03.000000000,2016-01-02 23:54:55.000000000,closed,0,Add travis for 32bit and OSX
+290,2016-01-02 20:14:09.000000000,2016-01-02 22:05:39.000000000,closed,1,Fix constants on 32 bit machines
+289,2015-12-31 23:28:02.000000000,2016-01-01 09:44:44.000000000,closed,1,"putObject: Do not uploads all parts, these were being uploaded previo…"
+288,2015-12-31 22:37:44.000000000,2015-12-31 23:36:00.000000000,closed,1,PutObject/FPutObject: increment partNumber if the part is already uploaded
+287,2015-12-31 09:55:29.000000000,2015-12-31 13:09:46.000000000,closed,1,putObjectPartial: Fix putobject partial to address anonymous and smal…
+286,2015-12-31 02:35:32.000000000,2015-12-31 11:08:34.000000000,closed,1,"putObject: PutObject loop was hanging for ""-1"" as length, use EOF to …"
+285,2015-12-30 21:26:07.000000000,2015-12-30 23:54:21.000000000,closed,1,Fix for #279 introduced new bug: Only null-bytes are returned. fixes #284
+284,2015-12-30 19:47:20.000000000,2015-12-30 23:54:21.000000000,closed,4,Fix for #279 introduced new bug: Only null-bytes are returned.
+283,2015-12-30 06:02:55.000000000,2015-12-30 09:24:20.000000000,closed,1,presigned: Add presigned URL functional tests.
+282,2015-12-30 03:07:55.000000000,2015-12-30 05:37:36.000000000,closed,0,getObjectPartial: Return io.EOF for offset equal to object size.
+281,2015-12-29 23:42:37.000000000,2015-12-30 02:24:59.000000000,closed,2,getObjectPartial: ReadAt shouldn't return io.EOF for each read operat…
+280,2015-12-29 18:40:44.000000000,2015-12-30 00:22:31.000000000,closed,0,ReadAt() returns EOF #279
+279,2015-12-29 18:00:01.000000000,2015-12-30 02:25:00.000000000,closed,3,Bug: ReadAt() returns EOF
+278,2015-12-29 03:10:25.000000000,2015-12-29 05:03:18.000000000,closed,1,tracing: Add HTTP tracing.
+277,2015-12-28 21:06:48.000000000,2016-01-02 04:07:15.000000000,closed,2,amazon keys
+276,2015-12-28 13:23:27.000000000,2015-12-29 05:03:18.000000000,closed,0,implement tracing
+275,2015-12-25 08:44:31.000000000,2015-12-27 11:36:48.000000000,closed,3,bucket-cache: Invalidate bucket location upon RemoveBucket
+274,2015-12-24 21:57:45.000000000,2015-12-24 23:42:33.000000000,closed,1,Doc: This patch implements newer convention introduced for example files configuration. 
+273,2015-12-22 10:21:35.000000000,2015-12-27 11:36:48.000000000,closed,2,region caching needs to take care cache invalidation
+272,2015-12-22 05:52:27.000000000,2015-12-25 07:11:55.000000000,closed,8,"cleanup: Fix fput object, put object and getObjectPartial behavior."
+271,2015-12-19 15:27:00.000000000,2015-12-21 21:46:00.000000000,closed,4,Implement FGetObject and FPutObject
+270,2015-12-19 05:40:46.000000000,2015-12-22 05:10:12.000000000,closed,18,    getObject: Re implement getObjectPartial as readSeeker
+269,2015-12-18 00:11:02.000000000,2015-12-19 08:23:34.000000000,closed,9,list: Add done channels for listObjects and listIncomplete uploads.
+268,2015-12-17 14:51:58.000000000,2015-12-18 09:48:58.000000000,closed,9,cleanup: listObjectPartsRecursive() was adding complexity. removing it makes code much simpler.
+267,2015-12-17 13:06:56.000000000,2015-12-21 21:45:59.000000000,closed,0,Implement fputobject fgetobject
+266,2015-12-17 13:06:23.000000000,2015-12-25 07:12:21.000000000,closed,0,Rewrite readSeeker 
+265,2015-12-15 04:30:28.000000000,2015-12-17 10:52:07.000000000,closed,2,"minio-go: Move request into Client, rename API as Client."
+264,2015-12-14 09:25:22.000000000,2015-12-14 12:15:16.000000000,closed,3,putBucket: Make bucket request should not use location constraint.
+263,2015-12-14 02:47:34.000000000,2015-12-14 03:51:17.000000000,closed,0,bucket-cache: Rewrite bucket cache with their intents properly.
+262,2015-12-13 10:26:14.000000000,2015-12-14 01:57:37.000000000,closed,0,More cleanup and restructuring.
+261,2015-12-13 02:38:34.000000000,2015-12-13 04:20:27.000000000,closed,0,pipe: In case of input size of -1 we don't need to verify totalWritten.
+260,2015-12-13 00:09:18.000000000,2015-12-14 02:14:57.000000000,closed,3,endpoint: Validate endpoint properly using isDomainName and isValidIP
+259,2015-12-12 08:58:04.000000000,2015-12-12 09:37:28.000000000,closed,0,signature: Fix signature handling for signature v2.
+258,2015-12-12 07:18:57.000000000,2015-12-12 10:09:46.000000000,closed,0,tests: Fix tests to print the errors properly
+257,2015-12-12 05:53:35.000000000,2015-12-12 06:12:45.000000000,closed,0,request: Add missing custom transport
+256,2015-12-12 03:02:51.000000000,2015-12-12 10:09:46.000000000,closed,0,"Print all errors wherever applicable rather than doing t.Fatal(""Error"") for tests. "
+255,2015-12-12 01:48:33.000000000,2015-12-12 04:23:15.000000000,closed,0,putObject: Improve PutObject to return length.
+254,2015-12-11 08:59:04.000000000,2015-12-14 09:32:52.000000000,closed,1,Retry for specific errors in case of multipart uploads. 
+253,2015-12-11 08:02:46.000000000,2015-12-16 22:39:10.000000000,closed,1,Verify multipart uploads with concatenated md5sum at the end which server sends back. 
+252,2015-12-09 03:59:14.000000000,2015-12-25 07:21:08.000000000,closed,5,google storage public share url for object ?
+251,2015-12-07 09:50:21.000000000,2015-12-11 13:06:10.000000000,closed,0,bucket name needs to be complaint with amazon s3
+250,2015-12-06 09:08:37.000000000,2015-12-11 13:06:10.000000000,closed,15,cleanup: Major rewrite - most of the components 
+249,2015-12-06 02:43:23.000000000,2015-12-06 03:06:58.000000000,closed,1,userAgent: Set userAgent to new standardized style.
+248,2015-12-05 01:01:09.000000000,2015-12-05 12:29:31.000000000,closed,2,userAgent: Rename SetUserAgent to SetAppInfo.
+247,2015-12-03 13:52:29.000000000,2015-12-04 00:48:08.000000000,closed,0,minio-go: Go API cleanup.
+246,2015-12-03 04:44:56.000000000,2015-12-03 04:46:32.000000000,closed,0,build: Do not download go1.5.1 for appveyor builds.
+245,2015-12-02 17:48:14.000000000,2015-12-02 21:25:01.000000000,closed,0,queryString was missing in the canonical request - fixes #1515
+244,2015-12-01 10:14:44.000000000,2015-12-04 00:48:08.000000000,closed,0,Implement IsValidBucketName for validating bucket names prior to HTTP call. 
+243,2015-12-01 08:09:19.000000000,2015-12-11 13:06:10.000000000,closed,0,make_bucket - needs to have location argument
+242,2015-12-01 08:08:56.000000000,2015-12-05 12:29:31.000000000,closed,0,Rename set_user_agent as set_app_info
+241,2015-12-01 08:08:40.000000000,2015-12-11 13:06:10.000000000,closed,0,Disallow any other endpoint other than https://s3.amazonaws.com 
+240,2015-12-01 08:08:05.000000000,2015-12-01 08:08:23.000000000,closed,1,putObject with length '-1' should do 5GB multipart upload 
+239,2015-12-01 08:07:04.000000000,2015-12-01 08:07:40.000000000,closed,1,Do not buffer use temporary files for individual parts before uploading
+238,2015-12-01 01:12:08.000000000,2015-12-01 01:14:59.000000000,closed,0,bucketLocation: Handle errors returned by location handler do not con…
+237,2015-11-29 15:55:50.000000000,2015-11-29 16:01:17.000000000,closed,0,examples: Fix and cleanup examples
+236,2015-11-29 11:07:57.000000000,2015-11-29 11:10:20.000000000,closed,0,"putObject: do not seek back for small objects, to avoid double reads."
+235,2015-11-29 10:58:41.000000000,2015-11-29 11:00:36.000000000,closed,0,putObject: Re-introduce size and this time with size of -1 we do mult…
+234,2015-11-28 08:30:27.000000000,2015-11-28 14:04:35.000000000,closed,0,Doc: This patch adds INSTALLGO.md with instruction on setting up Golang.
+233,2015-11-26 13:15:06.000000000,2015-12-01 08:05:57.000000000,closed,1,convert minio-go to a stateless library
+232,2015-11-24 03:01:56.000000000,2015-11-24 03:07:27.000000000,closed,0,region: Default minio region to be us-east-1
+231,2015-11-23 09:03:39.000000000,2015-11-29 00:01:09.000000000,closed,0,cleanup: Major cleanup of minio-go library
+230,2015-11-22 02:45:32.000000000,2015-11-29 00:01:09.000000000,closed,0,Convert PutObject to take input as io.ReadSeekCloser
+229,2015-11-22 02:45:03.000000000,2015-11-29 00:01:09.000000000,closed,0,Convert GetObject to return a io.ReadSeekCloser.
+228,2015-11-21 04:58:10.000000000,2015-11-21 05:01:24.000000000,closed,0,api: Fix examples with new output changes
+227,2015-11-21 04:38:09.000000000,2015-11-21 04:39:59.000000000,closed,0,"api: Simplify structs for ObjectStat, BucketStat, ObjectMultipartStat"
+226,2015-11-19 09:43:50.000000000,2015-11-19 09:45:40.000000000,closed,0,multipart: Turn-off calculating multipart aggregate size for now.
+225,2015-11-19 09:34:03.000000000,2015-11-19 09:38:28.000000000,closed,0,examples: Fix examples merge v2 with v4
+224,2015-11-17 08:58:32.000000000,2015-11-29 10:59:07.000000000,closed,1,Convert region into a bucket/region map.
+223,2015-11-17 08:35:06.000000000,2015-11-29 10:59:23.000000000,closed,1,Document region in examples and comment them out.
+222,2015-11-17 01:22:48.000000000,2015-11-17 01:27:52.000000000,closed,0,s3/redirects: Handle redirects for all APIs
+221,2015-11-16 23:49:41.000000000,2015-11-17 00:08:12.000000000,closed,0,Better policy error messages
+220,2015-11-16 23:37:25.000000000,2015-11-17 00:00:03.000000000,closed,0,error: Add error XML bucket region and send a proper readable string.
+219,2015-11-16 06:36:13.000000000,2015-11-16 06:58:48.000000000,closed,0,doc: update docs
+218,2015-11-15 12:10:45.000000000,2015-11-15 12:15:05.000000000,closed,0,putObject: Avoid multipart for size of 0bytes
+217,2015-11-14 08:51:18.000000000,2015-11-14 08:53:11.000000000,closed,0,doc: Add connection re-use documents
+216,2015-11-14 08:23:34.000000000,2015-11-14 08:31:33.000000000,closed,0,Fix to use single connection to the server
+215,2015-11-14 06:57:13.000000000,2015-11-14 07:04:38.000000000,closed,0,api-core: Cleanup code to handle deleteObject() cleanly
+214,2015-11-13 15:06:15.000000000,2015-11-13 15:09:54.000000000,closed,0,region: More simplification for bucketRegion
+213,2015-11-13 09:26:59.000000000,2015-11-13 09:28:50.000000000,closed,0,region: Do not cause redirects re-write URLs for buckets for a specif…
+212,2015-11-13 06:14:09.000000000,2015-11-13 08:11:17.000000000,closed,0,bucket: Simplify getBucketRegion
+211,2015-11-13 00:58:12.000000000,2015-11-13 01:01:49.000000000,closed,0,post-policy: Fix post policy for google cloud
+210,2015-11-13 00:18:34.000000000,2015-11-13 00:23:42.000000000,closed,0,google: Add compatibility for pre-signed URLs for google
+209,2015-11-13 00:16:06.000000000,2015-11-13 11:53:46.000000000,closed,1,virtual path style should work for all client libs
+208,2015-11-13 00:13:11.000000000,2015-11-13 11:50:48.000000000,closed,1,postpolicy content-length
+207,2015-11-12 14:55:31.000000000,2015-11-13 03:56:32.000000000,closed,0,fix to make minio-go work for endpoint <bucket>.s3.amazonaws.com
+206,2015-11-12 07:08:29.000000000,2015-11-12 07:11:20.000000000,closed,0,"Revert ""remove: remove incomplete shouldn't fail ob object being null"""
+205,2015-11-12 06:38:42.000000000,2015-11-12 06:41:30.000000000,closed,0,remove: remove incomplete shouldn't fail for object being null
+204,2015-11-10 13:20:33.000000000,2015-11-10 13:25:04.000000000,closed,0,signature: Fix a bug in signature v2 - date mismatch
+203,2015-11-10 12:34:56.000000000,2015-11-10 12:39:13.000000000,closed,0,Update README.md
+202,2015-11-10 10:08:42.000000000,2015-11-10 10:12:17.000000000,closed,0,doc: Add more documentation
+201,2015-11-10 09:54:11.000000000,2015-11-10 09:56:08.000000000,closed,0,doc: Collapse interface into one
+200,2015-11-10 09:35:49.000000000,2015-11-10 09:41:59.000000000,closed,0,doc: More simplification
+199,2015-11-10 06:51:21.000000000,2015-11-10 07:13:32.000000000,closed,0,doc: cleanup API documentation and all other functions.
+198,2015-11-09 05:36:13.000000000,2015-11-10 07:13:32.000000000,closed,0,Review all code comments and complete/clean them as necessary. 
+197,2015-11-08 13:31:26.000000000,2015-11-08 17:08:38.000000000,closed,0,"doc: Add documentation and description, new examples for Signature V2"
+196,2015-11-07 16:09:14.000000000,2015-11-07 16:10:58.000000000,closed,0,"api-core: Fix getPartialObject bug, not in accordance with rfc2616"
+195,2015-11-07 12:29:47.000000000,2015-11-07 12:34:37.000000000,closed,0,Add signature v2 support
+194,2015-11-07 10:53:56.000000000,2015-11-07 12:48:07.000000000,closed,1,Merge minio-go-legacy into this project
+193,2015-10-29 10:55:17.000000000,2015-11-07 12:30:19.000000000,closed,0,PresignedPostPolicy cleanup
+192,2015-10-29 07:34:48.000000000,2015-10-29 07:38:54.000000000,closed,0,"Add removeobject, removebucket and listincompleteuploads for play"
+191,2015-10-29 07:26:16.000000000,2015-10-29 07:31:03.000000000,closed,0,Cleanup presigned post policy
+190,2015-10-26 12:05:27.000000000,2015-11-10 09:35:58.000000000,closed,0,Review all examples and test them for their validity.
+189,2015-10-26 05:42:44.000000000,2015-10-26 05:58:21.000000000,closed,0,Update presignedpostpolicy.go
+188,2015-10-22 08:49:51.000000000,2015-10-22 09:13:15.000000000,closed,0,Rename DropIncompleteUpload to RemoveIncompleteUpload
+187,2015-10-21 04:23:53.000000000,2015-12-25 07:17:15.000000000,closed,0,Support HTTP2 across all libraries.. for all servers supporting HTTP2
+186,2015-10-20 06:35:11.000000000,2015-10-20 06:40:25.000000000,closed,0,Remove DropAllIncompleteUploads example
+185,2015-10-20 06:21:38.000000000,2015-10-20 06:32:20.000000000,closed,0,Remove DropAllIncompleteUploads API.
+184,2015-10-20 06:09:57.000000000,2015-10-20 06:12:17.000000000,closed,0,Rename function to list incomplete uploads
+183,2015-10-20 03:46:44.000000000,2015-10-20 03:58:54.000000000,closed,0,Implement list multipart objects
+182,2015-10-17 11:44:38.000000000,2015-10-17 21:23:30.000000000,closed,0,"in RemoveBucket context http.StatusConflict means ""Bucket not empty"""
+181,2015-10-17 11:23:28.000000000,2015-10-17 11:28:49.000000000,closed,0,DELETE returns http.StatusNoContent not http.StatusOK for RemoveBucket as well.
+180,2015-10-17 06:52:40.000000000,2015-10-17 10:29:51.000000000,closed,0,DELETE returns http.StatusNoContent not http.StatusOK
+179,2015-10-14 04:01:03.000000000,2015-10-14 04:03:11.000000000,closed,0,Relax missing Etag requirement
+178,2015-10-13 21:07:10.000000000,2015-10-13 21:12:54.000000000,closed,0,For virtualized buckets remove additional separator
+177,2015-10-12 21:38:51.000000000,2015-10-12 21:41:41.000000000,closed,0,All keys and marker should be encoded properly
+176,2015-10-10 04:08:05.000000000,2015-10-10 05:06:44.000000000,closed,1,PresignedPutObject() implementation for s3v4
+175,2015-10-09 02:08:21.000000000,2015-10-09 02:16:48.000000000,closed,0,Check for part length and file size only for non streaming inputs
+174,2015-10-06 22:55:45.000000000,2015-10-06 22:59:55.000000000,closed,0,Move signature generation and policy construction into api-core
+173,2015-10-06 14:11:41.000000000,2015-10-06 20:40:35.000000000,closed,0,Use Set() functions to set PostPolicy conditions
+172,2015-10-05 13:35:14.000000000,2015-10-06 01:40:18.000000000,closed,1,PresignedPostPolicy() - returns a map[string]string containing post form-data name/values
+171,2015-10-02 22:44:34.000000000,2015-10-02 23:03:54.000000000,closed,0,Simplify request handling in minio-go by removing redundant code
+170,2015-10-02 21:05:39.000000000,2015-10-02 21:14:08.000000000,closed,0,Golang net/url behaves differently when url.Opaque is set handle it
+169,2015-10-01 21:23:00.000000000,2015-10-01 21:26:02.000000000,closed,0,Do not add empty X-Amz-Content-Sha256 for presigned GetObject
+168,2015-10-01 16:29:38.000000000,2015-10-02 20:58:56.000000000,closed,7,Remove host from url.Opaque
+167,2015-10-01 00:37:20.000000000,2015-10-02 23:45:53.000000000,closed,2,Absolute paths regression with swift3 on openstack kilo
+166,2015-09-30 07:25:21.000000000,2015-09-30 08:10:56.000000000,closed,0,Add windows build
+165,2015-09-23 10:48:35.000000000,2015-09-23 10:49:08.000000000,closed,0,Fix error message for last-modified parsing
+164,2015-09-22 14:56:50.000000000,2015-12-25 07:21:15.000000000,closed,0,Implement support for storing x-amz-meta-* information
+163,2015-09-22 12:55:00.000000000,2015-09-22 12:57:40.000000000,closed,0,"Rename api-v1 to api-core, api-multipart-v1 to api-multipart-core"
+162,2015-09-21 13:26:15.000000000,2015-09-21 13:26:56.000000000,closed,0,"Remove dummy code, bump travis to Golang 1.5.1"
+161,2015-09-18 01:09:24.000000000,2015-12-25 07:21:21.000000000,closed,0,Review test cases and finish all the remaining tests
+160,2015-09-17 01:53:57.000000000,2015-09-17 01:54:23.000000000,closed,0,Remove dead code sumMD5Reader
+159,2015-09-17 01:50:33.000000000,2015-09-17 01:53:18.000000000,closed,0,Now minio-go library transfers 4 parts in parallel for large files.
+158,2015-09-10 03:05:37.000000000,2015-09-10 03:06:05.000000000,closed,0,Change Errorf to Fatal
+157,2015-09-09 10:16:48.000000000,2015-09-09 10:17:39.000000000,closed,0,Avoid variable shadowing by having unique declarations within functio…
+156,2015-09-08 20:21:27.000000000,2015-09-08 20:22:00.000000000,closed,0,"Add test for ""++"" encoding"
+155,2015-08-29 06:46:47.000000000,2015-08-29 06:47:26.000000000,closed,0,"PutObject/GetObject ACL implementation, PutObject now takes acl as ar…"
+154,2015-08-28 11:37:09.000000000,2015-08-28 11:38:53.000000000,closed,0,Use proper location from config.Region instead of re-caclulating usin…
+153,2015-08-28 11:31:20.000000000,2015-08-28 11:31:43.000000000,closed,1,"Allow anonymous requests for putObject operations, circumventing mult…"
+152,2015-08-22 07:20:36.000000000,2015-08-22 07:20:57.000000000,closed,0,Deprecate presignedGetPartialObject() API
+151,2015-08-17 07:27:14.000000000,2015-08-17 07:28:08.000000000,closed,0,Capitalize cloud storage to Cloud Storage
+150,2015-08-17 07:23:50.000000000,2015-08-17 07:24:14.000000000,closed,0,Rename MethodUnexpectedEOF to UnexpectedShortRead
+149,2015-08-17 05:03:02.000000000,2015-08-17 05:03:34.000000000,closed,0,return MethodUnexpectedEOF for short reads
+148,2015-08-12 00:39:36.000000000,2015-08-12 00:40:24.000000000,closed,0,Fix API name for DropIncompleteUpload
+147,2015-08-11 19:55:00.000000000,2015-08-11 20:05:26.000000000,closed,0,Make sure dropIncompleteUploads to drop only specified object
+146,2015-08-09 04:15:04.000000000,2015-08-09 04:16:38.000000000,closed,0,Refactor tests with private and public
+145,2015-08-08 08:35:21.000000000,2015-08-08 08:35:44.000000000,closed,0,"Optimize listing for multipart, uploads, listobjects to popular their respective channels with 1000 entires"
+144,2015-08-08 06:34:51.000000000,2015-08-08 06:38:10.000000000,closed,1,Add tests for Presign code
+143,2015-08-07 06:31:04.000000000,2015-08-07 06:35:41.000000000,closed,0,Add presigned API interface with PresignedGetObject() and PresignedGetPartialObject() implemented
+142,2015-08-05 01:55:22.000000000,2015-08-05 01:58:06.000000000,closed,0,do not replace .Path instead add .Opaque where the encoded values should be
+141,2015-08-04 11:10:20.000000000,2015-08-04 11:11:54.000000000,closed,0,Found a better solution for the previous problem
+140,2015-08-04 09:55:00.000000000,2015-08-04 10:03:34.000000000,closed,0,"http.NewRequest was removing the encoded parts back into decoded format leading to signature issues, write a custom method"
+139,2015-07-30 23:59:37.000000000,2015-07-31 00:02:01.000000000,closed,0,Add support for virtual host style
+138,2015-07-30 22:48:53.000000000,2015-07-30 22:50:46.000000000,closed,0,Add separator
+137,2015-07-25 05:17:52.000000000,2015-07-25 05:18:20.000000000,closed,0,Renaming with new product convention
+136,2015-07-24 01:42:18.000000000,2015-07-24 01:42:52.000000000,closed,0,Add secure slack notification for travis build
+135,2015-07-19 21:56:10.000000000,2015-07-19 21:57:19.000000000,closed,0,Add x-amz-id-2 as hostID
+134,2015-07-19 03:13:05.000000000,2015-07-19 03:13:32.000000000,closed,0,"Remove integration testing, use examples instead"
+133,2015-07-17 05:18:45.000000000,2015-07-17 05:19:36.000000000,closed,0,Cleanup simple_test.go and other functional naming changes
+132,2015-07-17 01:05:52.000000000,2015-07-17 01:06:23.000000000,closed,0,Remove ACCESS-KEY examples for play
+131,2015-07-16 10:30:44.000000000,2015-07-16 10:31:23.000000000,closed,0,Update README.md
+130,2015-07-16 07:39:46.000000000,2015-07-16 07:40:23.000000000,closed,0,Update simple_test
+129,2015-07-16 07:32:05.000000000,2015-07-16 07:37:19.000000000,closed,1,Adding simple test suite
+128,2015-07-16 06:48:49.000000000,2015-07-16 07:31:07.000000000,closed,0,"Revert ""Relax size mismatch error, we have no way of rightfully knowing what the final size is"""
+127,2015-07-16 06:22:24.000000000,2015-07-16 06:26:26.000000000,closed,0,Removing unnecessary ch <- nil at end of drop all uploads.
+126,2015-07-16 06:03:08.000000000,2015-07-16 06:03:46.000000000,closed,0,"Relax size mismatch error, we have no way of rightfully knowing what the final size is"
+125,2015-07-16 04:48:51.000000000,2015-07-16 07:31:08.000000000,closed,2,Multipart uploads last part even if size mismatch occurred
+124,2015-07-16 04:13:46.000000000,2015-07-16 04:14:27.000000000,closed,0,"Rename lowlevelcommon, missed from previous cleanup"
+123,2015-07-16 04:09:15.000000000,2015-07-16 04:09:42.000000000,closed,0,Return contentType for StatObject() and GetObject() - fixes #121
+122,2015-07-16 03:58:48.000000000,2015-07-16 04:00:16.000000000,closed,0,Small object putObject() now verifies for length specified v/s actual file size
+121,2015-07-16 03:49:47.000000000,2015-07-16 04:09:43.000000000,closed,0,StatObject does not return Content Type
+120,2015-07-16 03:39:49.000000000,2015-07-16 04:00:16.000000000,closed,1,PutObject does not fail when specified length mismatches length of data
+119,2015-07-16 03:29:23.000000000,2015-07-16 03:30:28.000000000,closed,1,"Non nil error messages are now returning non-empty strings. Fixes #115, Fixes #116, Fixes #118"
+118,2015-07-16 03:04:02.000000000,2015-07-16 03:30:28.000000000,closed,1,BucketExists returns a non-nil empty error when bucket is owned by another user
+117,2015-07-16 02:54:00.000000000,2015-07-16 06:25:34.000000000,closed,3,BucketACL.isAuthenticated should probably be isAuthenticatedRead
+116,2015-07-16 02:46:39.000000000,2015-07-16 03:30:28.000000000,closed,0,RemoveBucket returns a non nil empty error when bucket is owned by someone else
+115,2015-07-16 02:38:36.000000000,2015-07-16 03:30:28.000000000,closed,0,RemoveBucket does not fail on redirect errors
+114,2015-07-15 20:44:54.000000000,2015-07-15 20:50:25.000000000,closed,0,Golang api cleanup with more proper error responses.
+113,2015-07-15 03:54:06.000000000,2015-07-15 03:54:33.000000000,closed,0,"Revert ""Hold mutex for transactional operations"""
+112,2015-07-14 08:38:55.000000000,2015-07-14 08:42:02.000000000,closed,0,Hold mutex for transactional operations
+111,2015-07-12 21:58:04.000000000,2015-07-12 21:58:36.000000000,closed,0,Add tests for some error conditions
+110,2015-07-12 21:46:15.000000000,2015-07-12 21:46:52.000000000,closed,0,Add more settable useragent and also add invalid object error
+109,2015-07-10 22:18:38.000000000,2015-07-10 22:20:48.000000000,closed,1,Adding excerpts from aws developers - regarding ignored headers
+108,2015-07-10 08:10:04.000000000,2015-07-10 08:10:21.000000000,closed,0,Ignore the following headers:
+107,2015-07-10 06:07:27.000000000,2015-07-10 06:09:34.000000000,closed,0,Fix XML scheme
+106,2015-07-09 07:57:11.000000000,2015-07-09 07:58:02.000000000,closed,0,Add incompletebody{} errorResponse for short reads and overflows
+105,2015-07-09 05:13:42.000000000,2015-07-09 05:14:38.000000000,closed,0,Let's just use lowercase X-Amz headers not need for them to be camel cased
+104,2015-07-09 04:24:14.000000000,2015-07-09 04:28:38.000000000,closed,0,Abbreviate resp.Body.Close() into a simpler closeResp() function with proper validation for resp struct and resp.Body
+103,2015-07-08 09:31:59.000000000,2015-07-08 09:33:09.000000000,closed,0,"Handle cases of more than 1000 entries during a delimited, prefixed ListObjects() request"
+102,2015-07-02 07:05:56.000000000,2015-07-02 07:12:47.000000000,closed,0,Adding missing quotes to ETag in tests
+101,2015-06-24 22:34:42.000000000,2016-03-05 03:30:12.000000000,closed,2,http: Verify if we need to get http client support for 100 Continue
+100,2015-06-16 23:29:23.000000000,2015-06-16 23:31:25.000000000,closed,0,Overhaul in terms of readability and definitions are simplified
+99,2015-06-14 19:54:10.000000000,2015-06-14 19:54:46.000000000,closed,1,Remove remove examples for play
+98,2015-06-14 09:13:45.000000000,2015-06-14 09:14:16.000000000,closed,0,Update readme
+97,2015-06-12 08:29:45.000000000,2015-06-12 08:30:50.000000000,closed,0,"Make sure to avoid ""us-east-1"" with location constraint"
+96,2015-06-12 02:46:37.000000000,2015-06-12 02:49:54.000000000,closed,1,With acceptType in config use it to perform proper decoding
+95,2015-06-11 08:23:29.000000000,2015-06-11 08:26:34.000000000,closed,0,"Move Region to Advanced options, doesn't need to a default option also unexport MinimumPartSize"
+94,2015-06-11 08:11:43.000000000,2015-06-11 08:13:20.000000000,closed,0,Update test handlers to use new XML
+93,2015-06-11 07:23:05.000000000,2015-06-11 07:32:38.000000000,closed,1,Minor variable rename
+92,2015-06-11 07:12:48.000000000,2015-06-11 07:14:29.000000000,closed,1,Adding content type to put object
+91,2015-06-11 06:38:56.000000000,2015-06-11 06:50:46.000000000,closed,0,Add GetObject convenience wrapper using GetPartialObject
+90,2015-06-11 06:14:55.000000000,2015-06-11 06:16:20.000000000,closed,1,Renaming GetObject to GetPartialObject
+89,2015-06-10 11:26:01.000000000,2015-06-10 11:27:18.000000000,closed,0,Add more meaningful error responses for invalid cases
+88,2015-06-10 07:44:41.000000000,2015-06-10 07:46:58.000000000,closed,0,Setting library version to 0.1.0 until we make release
+87,2015-06-07 05:26:51.000000000,2015-06-07 05:29:02.000000000,closed,0,"Generate proper error responses for headBucket, headObject, deleteObject and deleteBucket"
+86,2015-06-07 03:55:19.000000000,2015-06-07 03:56:46.000000000,closed,0,"Fix a bug in recursive listing, use marker properly - simplify ListObjects(recusrive==true)"
+85,2015-06-05 11:30:44.000000000,2015-06-05 11:30:50.000000000,closed,1,Add s3 external-1 host
+84,2015-06-04 09:09:21.000000000,2015-06-04 09:10:29.000000000,closed,1,Change uint64 to int64
+83,2015-06-04 09:06:12.000000000,2015-06-04 09:08:55.000000000,closed,0,"Handle md5sum inside multipart, as it returns it chunks"
+82,2015-06-03 06:25:12.000000000,2015-06-03 06:26:41.000000000,closed,0,Unexport GetPartSize()
+81,2015-06-03 06:20:05.000000000,2015-06-03 06:24:55.000000000,closed,0,Fix examples to use 'minio' package name directly
+80,2015-06-03 02:18:49.000000000,2015-06-03 02:22:44.000000000,closed,0,Update README.md
+79,2015-06-03 02:13:15.000000000,2015-06-03 02:18:59.000000000,closed,1,Fix examples once more
+78,2015-06-02 09:18:03.000000000,2015-06-02 09:19:23.000000000,closed,1,Rename package client to package minio
+77,2015-06-02 08:38:40.000000000,2015-06-02 08:39:34.000000000,closed,0,Update examples to new API changes
+76,2015-06-02 07:54:42.000000000,2015-06-02 07:54:50.000000000,closed,0,incomplete pointer cleanup
+75,2015-06-02 05:07:38.000000000,2015-06-02 05:08:36.000000000,closed,0,simplify examples and update to latest API changes
+74,2015-06-01 22:34:19.000000000,2015-06-01 22:41:08.000000000,closed,1,Add API doc
+73,2015-05-31 06:51:16.000000000,2015-05-31 06:54:30.000000000,closed,1,"Exposing errors, and provide methods to extract structures"
+72,2015-05-30 07:26:50.000000000,2015-05-30 07:29:21.000000000,closed,1,Remove duplicate RemoveObject()
+71,2015-05-29 08:35:53.000000000,2015-05-29 08:37:38.000000000,closed,0,AccessControlList is an array handle it appropriately
+70,2015-05-29 06:08:30.000000000,2015-05-29 06:12:19.000000000,closed,1,Add ACL typed checks and related tests
+69,2015-05-29 05:36:38.000000000,2015-05-29 05:43:53.000000000,closed,0,Add support for GetBucketACL and related functions
+68,2015-05-27 05:01:19.000000000,2015-05-27 05:02:25.000000000,closed,1,Minior change in userAgent handling
+67,2015-05-26 07:14:40.000000000,2015-05-26 07:15:53.000000000,closed,0,Parse using http.TimeFormat not RFC1123 since we need to look for GMT not UTC
+66,2015-05-25 12:02:15.000000000,2015-05-25 12:03:39.000000000,closed,1,minio change: Add a space character test string
+65,2015-05-24 03:08:35.000000000,2015-05-24 03:09:05.000000000,closed,1,Move from objectstorage-go to minio-go
+64,2015-05-23 23:54:20.000000000,2015-05-23 23:57:55.000000000,closed,1,Fix range handling in objectstorage-go for 0byte files
+63,2015-05-23 05:07:42.000000000,2015-05-23 05:09:23.000000000,closed,1,Let space be encoded by we convert it back to meaningful character for amazon
+62,2015-05-22 04:56:41.000000000,2015-05-22 04:57:59.000000000,closed,0,"Implement more tests, now for endpoint, useragent"
+61,2015-05-21 22:58:57.000000000,2015-05-21 23:01:13.000000000,closed,0,Implement object operation tests
+60,2015-05-21 12:35:33.000000000,2015-05-21 12:37:06.000000000,closed,0,Minor change in ACL value
+59,2015-05-21 07:50:28.000000000,2015-05-21 07:52:26.000000000,closed,0,For un-authenticated requests S3 sends back TemporaryRedirect handle it since has no error response body
+58,2015-05-21 07:09:40.000000000,2015-05-21 07:23:14.000000000,closed,0,Update example test
+57,2015-05-21 06:55:16.000000000,2015-05-21 06:56:26.000000000,closed,1,Add an example test
+56,2015-05-21 03:44:09.000000000,2015-05-21 03:47:58.000000000,closed,1,Adding tests for bucketOperations and URLEncoding
+55,2015-05-21 01:20:40.000000000,2015-05-21 01:34:11.000000000,closed,0,Negate maxParts with 1 to compensate for last part overflowing
+54,2015-05-20 23:32:16.000000000,2015-05-20 23:40:31.000000000,closed,1,"Increase calculated part size for multiparts heuristically using objectsize and maximum parts allowed, rather than using default 5MB"
+53,2015-05-20 04:22:26.000000000,2015-05-20 04:22:57.000000000,closed,1,Character encoded hex strings should be in uppercase
+52,2015-05-20 02:48:35.000000000,2015-05-20 02:49:19.000000000,closed,1,"Support chinese characters, runes are larger"
+51,2015-05-20 02:03:48.000000000,2015-05-20 02:17:04.000000000,closed,1,Full utf8 support for all object operations
+50,2015-05-19 04:59:22.000000000,2015-05-19 04:59:36.000000000,closed,1,ErrUnexpectedEOF is valid case during short read for the last Chunk
+49,2015-05-19 03:55:27.000000000,2015-05-19 03:55:45.000000000,closed,1,Minio change - Rename examples from CreateObject to PutObject
+48,2015-05-19 03:47:42.000000000,2015-05-19 03:47:49.000000000,closed,1,"Attach userAgent default into Request, into request handler"
+47,2015-05-19 03:27:18.000000000,2015-05-19 03:27:26.000000000,closed,1,"Provide a new function to add user agent with appname, version and list of comments in accordance with"
+46,2015-05-18 23:25:26.000000000,2015-05-18 23:27:45.000000000,closed,1,Fix a segfault when bucket doesn't exist
+45,2015-05-18 02:39:00.000000000,2015-05-18 02:49:58.000000000,closed,1,More changes to objectstorage-go
+44,2015-05-18 00:17:33.000000000,2015-05-18 00:19:23.000000000,closed,1,Handle arguments to be empty
+43,2015-05-17 14:10:56.000000000,2015-05-17 14:11:36.000000000,closed,0,"Implement MultipartAbort(bucket, prefix) and MultipartAbortAll(bucket)"
+42,2015-05-17 12:37:21.000000000,2015-05-17 12:39:17.000000000,closed,1,Add stubs for new MultipartManagementOp code
+41,2015-05-17 07:11:35.000000000,2015-05-17 07:11:52.000000000,closed,1,Close body for all errors
+40,2015-05-17 04:08:06.000000000,2015-05-17 04:08:13.000000000,closed,1,Fix bug from previous commit
+39,2015-05-17 04:03:58.000000000,2015-05-17 04:04:06.000000000,closed,1,Handle more cases for Endpoint() detection
+38,2015-05-17 02:18:03.000000000,2015-05-17 02:18:12.000000000,closed,1,Update README.md
+37,2015-05-17 02:16:03.000000000,2015-05-17 02:16:16.000000000,closed,1,MustGetEndpoint should verify Explicity if Region doesn't exist with Endpoint
+36,2015-05-16 09:10:11.000000000,2015-05-16 09:11:01.000000000,closed,1,"HEAD object has no response body, on success just close response"
+35,2015-05-15 23:53:18.000000000,2015-05-16 00:01:52.000000000,closed,0,Break signaturev4 into simpler functions for readability
+34,2015-05-15 05:16:43.000000000,2015-05-15 05:18:09.000000000,closed,0,Support partNumberMarker for listObjectParts query
+33,2015-05-14 07:09:57.000000000,2015-05-14 07:10:11.000000000,closed,1,"Move getEndpoint a bit, prioritize Endpoint first"
+32,2015-05-14 07:00:39.000000000,2015-05-14 07:00:45.000000000,closed,1,MustGetEndpoint should return valid endpoint for custom domains
+31,2015-05-14 06:23:29.000000000,2015-05-14 06:23:39.000000000,closed,1,Reply common prefixes as well over the object channel
+30,2015-05-14 05:59:36.000000000,2015-05-14 06:01:00.000000000,closed,1,Send additional metadata after putObject()
+29,2015-05-14 01:55:02.000000000,2015-05-14 01:59:08.000000000,closed,1,"Add custom transport option, document AcceptType, UserAgent and Transport to be advanced options"
+28,2015-05-14 01:18:39.000000000,2015-05-14 01:20:07.000000000,closed,2,"Expose userAgent, before using it in minio/mc"
+27,2015-05-13 11:36:39.000000000,2015-05-13 11:37:36.000000000,closed,1,Add testing stubs for objectstorage-go
+26,2015-05-13 07:27:28.000000000,2015-05-13 07:27:30.000000000,closed,1,Save new endpoint for valid region()
+25,2015-05-13 07:24:19.000000000,2015-05-13 07:24:57.000000000,closed,1,Use Regions map and bring in multi region support
+24,2015-05-12 03:21:35.000000000,2015-05-12 03:21:49.000000000,closed,1,Change all paths from minio-io to minio
+23,2015-05-12 02:56:44.000000000,2015-05-12 02:56:51.000000000,closed,1,If accesskey and secretaccess are not provided passdown the request without signature
+22,2015-05-11 23:50:09.000000000,2015-05-11 23:52:08.000000000,closed,1,Make common functions un-exported and simplify contentMD5 to return in bytes
+21,2015-05-11 23:42:28.000000000,2015-05-11 23:48:45.000000000,closed,1,Handle a crash in putBucketRequest()
+20,2015-05-10 13:09:14.000000000,2015-05-11 02:55:59.000000000,closed,1,Start initial work towards v4 signature for objectstorage-go library
+19,2015-05-09 03:31:25.000000000,2015-05-09 03:31:33.000000000,closed,1,Add proper date header and honor X-Amz-Date
+18,2015-05-09 01:48:51.000000000,2015-05-09 01:49:55.000000000,closed,1,Update play and s3 examples
+17,2015-05-08 14:58:35.000000000,2015-05-08 14:59:37.000000000,closed,1,Return for multipart not break with in the loop
+16,2015-05-08 13:33:41.000000000,2015-05-08 13:34:05.000000000,closed,1,For brevity call packet as part in multipart
+15,2015-05-08 09:57:27.000000000,2015-05-08 09:57:32.000000000,closed,1,"Do not upload one more last part, break when we hit io.EOF"
+14,2015-05-08 04:47:13.000000000,2015-05-08 04:48:06.000000000,closed,1,Add low level getBucketLocation()
+13,2015-05-07 20:37:23.000000000,2015-05-07 20:37:29.000000000,closed,1,Call Parts - MultiPart
+12,2015-05-07 20:30:58.000000000,2015-05-07 20:32:51.000000000,closed,1,Uneeded structs are now not exposed
+11,2015-05-07 20:20:56.000000000,2015-05-17 02:20:54.000000000,closed,1,Non US standard bucket requests receive 301 error
+10,2015-05-07 19:55:17.000000000,2015-05-07 19:57:54.000000000,closed,1,Add delete API
+9,2015-05-07 08:43:25.000000000,2015-05-07 08:46:11.000000000,closed,1,"Test multipart support, fixed bugs - now multipart is working with s3"
+8,2015-05-07 06:17:46.000000000,2015-05-07 06:18:31.000000000,closed,1,Implement multipart support for CreateObject()
+7,2015-05-07 04:20:34.000000000,2015-05-07 04:22:36.000000000,closed,1,Implement GetObject()
+6,2015-05-07 02:43:33.000000000,2015-05-07 02:45:35.000000000,closed,1,Implement Bucket level operations
+5,2015-05-06 22:11:31.000000000,2015-05-06 22:12:33.000000000,closed,1,Move objectstorage API's into low level API and now bring in simple stubs at the top
+4,2015-05-05 23:28:30.000000000,2015-05-05 23:31:45.000000000,closed,2,Implement MultiPart API
+3,2015-05-05 11:01:59.000000000,2015-05-05 11:02:06.000000000,closed,1,Add documentation entry
+2,2015-05-04 08:15:59.000000000,2015-05-04 08:17:10.000000000,closed,2,Add s3 examples
+1,2015-05-04 07:49:47.000000000,2015-05-04 07:50:03.000000000,closed,1,Add travis build for objectstorage-go

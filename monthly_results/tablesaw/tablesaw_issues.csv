@@ -1,0 +1,838 @@
+id,created_at,closed_at,state,comments,title
+837,2020-08-24 13:51:24.000000000,1970-01-01 00:00:00.000000001,open,0,CsvReader depends on system default charset
+836,2020-08-19 03:37:42.000000000,1970-01-01 00:00:00.000000001,open,7,Support to execute Sql like statement 
+835,2020-08-06 02:18:08.000000000,2020-08-06 02:41:03.000000000,closed,0,Test improvement: removed sensitive equality (test smell)
+834,2020-08-05 03:51:55.000000000,1970-01-01 00:00:00.000000001,open,1,Appending Rows to Table
+833,2020-07-28 21:18:19.000000000,2020-07-28 21:18:57.000000000,closed,0,Update SawStorageTest.java
+832,2020-07-28 19:58:38.000000000,2020-07-28 19:58:52.000000000,closed,0,fixed column titles for yearWeek methods on date and datetime columns
+831,2020-07-27 21:37:15.000000000,1970-01-01 00:00:00.000000001,open,3,Support to import and export data from and into mongodb
+830,2020-07-23 12:00:18.000000000,1970-01-01 00:00:00.000000001,open,2,Is there any method to modify the Column type?
+829,2020-07-23 10:42:26.000000000,1970-01-01 00:00:00.000000001,open,2,Ambiguous Reference error when call this method tech.tablesaw.api.NumericColumn#isIn(double...)   
+828,2020-07-19 14:37:18.000000000,1970-01-01 00:00:00.000000001,open,0,Fixed javadoc links #827.
+827,2020-07-19 03:35:04.000000000,1970-01-01 00:00:00.000000001,open,1,Broken Java Docs link
+826,2020-07-16 15:51:39.000000000,2020-07-16 18:43:41.000000000,closed,1,Fixes returnType() of BooleanNumericFunction
+825,2020-07-16 15:03:59.000000000,2020-07-16 19:06:27.000000000,closed,2,BooleanNumericFunction misses a correct returnType() implementation
+824,2020-07-15 00:49:33.000000000,2020-07-17 20:10:55.000000000,closed,5,Saw enhancements
+823,2020-07-14 06:43:30.000000000,1970-01-01 00:00:00.000000001,open,3,read double/float values from BigDecimal will lose precision
+822,2020-07-14 06:20:00.000000000,1970-01-01 00:00:00.000000001,open,2,Reading data with Excel drops columns with no values.
+821,2020-07-13 17:57:46.000000000,2020-07-17 00:36:48.000000000,closed,3,Saw File Reader appears to deadlock intermittently
+820,2020-07-13 17:21:34.000000000,2020-07-13 18:24:42.000000000,closed,1,Fix #804 ohlc and candlestick plots did not supt datetime cols
+819,2020-07-13 06:41:25.000000000,2020-07-13 18:06:34.000000000,closed,1,"Merged from Master, added a comment, and removed unused code"
+818,2020-07-13 03:56:43.000000000,2020-07-13 23:27:08.000000000,closed,5,exposed the thread pool size variable so clients can set appropriate …
+817,2020-07-13 03:54:43.000000000,2020-07-13 06:04:32.000000000,closed,2,fix for saw column type issue
+816,2020-07-08 15:13:38.000000000,2020-07-10 08:39:10.000000000,closed,3,"* when table create from ResultSet ,columnName prefer sqlColumn alias…"
+815,2020-07-06 12:56:42.000000000,1970-01-01 00:00:00.000000001,open,2,No column detected from CSV with no data (header row only) 
+814,2020-07-03 00:34:25.000000000,1970-01-01 00:00:00.000000001,open,1,Unable to Format Date on Export 
+813,2020-06-19 16:03:02.000000000,2020-06-19 16:09:37.000000000,closed,1,tech.tablesaw.api.DateTimeColumn cannot be cast to tech.tablesaw.api.DateCol
+812,2020-06-11 13:38:50.000000000,1970-01-01 00:00:00.000000001,open,0,is it possible to auto fill the missing column when import csv with columns of different sizes?
+811,2020-06-04 17:05:20.000000000,1970-01-01 00:00:00.000000001,open,0,Column suffix for table join with same column names
+810,2020-06-01 08:56:40.000000000,2020-06-01 09:14:47.000000000,closed,1,Replace commons-math3 library with org.hipparchus library
+809,2020-05-29 20:04:59.000000000,1970-01-01 00:00:00.000000001,open,4,Getting java.security.AccessControlException: access denied 
+808,2020-05-20 10:52:00.000000000,2020-05-20 22:59:11.000000000,closed,2,"Revert ""Reduce code duplication"""
+807,2020-05-19 18:52:26.000000000,1970-01-01 00:00:00.000000001,open,0,leftOuter join will only join to the last table included in the list
+806,2020-05-17 17:26:04.000000000,2020-05-20 13:16:45.000000000,closed,5,added responsive attr in config
+805,2020-05-16 04:27:07.000000000,2020-06-28 22:25:38.000000000,closed,1,Java cannot access tech.tablesaw.io.source error
+804,2020-05-14 19:59:33.000000000,2020-07-13 18:24:43.000000000,closed,4,Issue Parsing DateTime in CSV file for OHLC chart
+803,2020-05-12 12:02:12.000000000,2020-05-12 16:55:47.000000000,closed,6,Display real time chart
+802,2020-05-10 01:02:24.000000000,2020-05-10 01:28:31.000000000,closed,2,LongColumn print formatter doesn't print correct long value
+801,2020-05-10 01:00:12.000000000,2020-05-10 01:29:58.000000000,closed,1,long-format-issue
+800,2020-05-10 00:51:20.000000000,2020-05-10 00:53:20.000000000,closed,1,Handle null value in set
+799,2020-05-07 20:22:40.000000000,2020-05-07 20:26:09.000000000,closed,1,Fix NPE in ColumnType.compare
+798,2020-05-07 19:23:40.000000000,2020-05-10 00:54:31.000000000,closed,4,Issues with get() methods on numeric columns.
+797,2020-04-30 22:54:37.000000000,2020-04-30 23:04:50.000000000,closed,2,Select a range of columns
+796,2020-04-27 21:29:46.000000000,2020-06-22 22:17:16.000000000,closed,1,There is not rejectColumns in table?
+795,2020-04-22 17:47:31.000000000,2020-04-22 18:03:39.000000000,closed,0,remove precondition on aggregate such that empty slices are allowed
+794,2020-04-19 21:34:16.000000000,2020-05-20 13:16:45.000000000,closed,2,responsive chart attribute in config
+793,2020-04-18 19:09:13.000000000,2020-04-19 18:55:50.000000000,closed,4,set cells like the way appendCell works would be helpful
+792,2020-04-15 16:45:56.000000000,1970-01-01 00:00:00.000000001,open,0,The zoom tool does not work for the vertical axis in candlestick charts
+791,2020-04-15 12:10:10.000000000,2020-04-15 17:53:12.000000000,closed,0,Converting Time to LocalTime in TimeColumn's appendObj()
+790,2020-04-14 12:00:19.000000000,1970-01-01 00:00:00.000000001,open,1,Mistake in userguide on reducing / binning
+789,2020-04-14 11:42:29.000000000,2020-04-15 17:53:12.000000000,closed,2,IllegalArgumentException: Cannot append java.sql.Time to TimeColumn
+788,2020-04-14 00:58:29.000000000,2020-04-14 01:02:14.000000000,closed,3,The equals implementation for BooleanColumn is dangerous
+787,2020-04-11 05:47:18.000000000,2020-04-12 01:46:36.000000000,closed,3,Added implementation and tests for column's indexOf method.
+786,2020-04-04 19:49:19.000000000,2020-04-12 01:46:50.000000000,closed,2,Column indexOf method
+785,2020-04-01 18:29:58.000000000,2020-04-22 18:03:47.000000000,closed,1,Aggregation on empty table should be allowed in some cases
+784,2020-03-30 13:25:14.000000000,1970-01-01 00:00:00.000000001,open,6,How to convert table to JSON and keep date as string not an object
+783,2020-03-20 22:06:26.000000000,2020-04-05 06:37:58.000000000,closed,2,Fix behavior of INNER and LEFT_OUTER joins with empty left table
+782,2020-03-19 00:14:37.000000000,1970-01-01 00:00:00.000000001,open,1,Grouping does not work on TimeSeriesPlot for DateTimeColumn
+781,2020-03-16 11:01:39.000000000,2020-04-20 19:46:18.000000000,closed,8,expose more config for bubble plot
+780,2020-03-11 11:11:55.000000000,2020-03-11 20:03:14.000000000,closed,2,DoubleColumn: using scala list to create
+779,2020-03-10 16:22:40.000000000,1970-01-01 00:00:00.000000001,open,1,Travis fails all builds due to broken Sonar config on fork
+778,2020-03-10 16:11:39.000000000,2020-03-10 21:52:08.000000000,closed,2,Sorts column data using fastutil .sort methods
+777,2020-03-10 14:18:25.000000000,2020-03-10 18:57:24.000000000,closed,1,Adds domain to pie trace in order to support subplots
+776,2020-03-09 22:34:03.000000000,2020-03-25 20:25:53.000000000,closed,3,Enable skipping columns of unsupported sql types during import with db.read()
+775,2020-03-08 02:30:38.000000000,2020-03-10 21:52:49.000000000,closed,3,Calling .unique then .sortAscending results in all 0s.
+774,2020-03-06 21:45:13.000000000,1970-01-01 00:00:00.000000001,open,1,Question: Suggestions for improving multi-column join performance?
+773,2020-03-04 06:38:46.000000000,2020-03-04 06:58:35.000000000,closed,1,docs: Fix broken link (404) to importing_data.
+772,2020-03-03 21:44:47.000000000,2020-04-05 06:34:59.000000000,closed,1,Standardize CSV escaping
+771,2020-03-03 14:25:25.000000000,2020-04-05 06:34:59.000000000,closed,2,Inconsistent handling of quotes when reading / writing CSV
+770,2020-02-28 18:05:28.000000000,1970-01-01 00:00:00.000000001,open,2,Link to etablesaw
+769,2020-02-28 18:01:25.000000000,1970-01-01 00:00:00.000000001,open,5,Improve SmileConverter
+768,2020-02-28 14:16:37.000000000,2020-03-03 18:46:13.000000000,closed,6,Can't read a Json file
+767,2020-02-24 02:20:56.000000000,2020-02-24 02:37:18.000000000,closed,1,Fixes issue 725
+766,2020-02-22 02:18:40.000000000,2020-02-22 02:21:13.000000000,closed,1,this is a fix for 689.
+765,2020-02-22 01:26:41.000000000,2020-02-22 01:29:29.000000000,closed,1,'fix' for issue 722
+764,2020-02-22 00:10:51.000000000,2020-02-22 00:34:21.000000000,closed,1,fixed issue in 3d scatter caused by faulty inheritance
+763,2020-02-21 23:55:24.000000000,2020-02-22 00:24:21.000000000,closed,1,Issue 740 (missing override method caused incorrect return type)
+762,2020-02-18 03:11:26.000000000,2020-02-18 03:37:05.000000000,closed,1,"Made Component.engine non-static, fixes issue #761"
+761,2020-02-17 22:04:02.000000000,2020-02-21 22:30:04.000000000,closed,3,"jsplot's TemplateUtilsTest is order sensitive, due to static field initialisation problem"
+760,2020-02-17 20:08:55.000000000,2020-02-17 21:27:22.000000000,closed,6,Fixes 0.37.4
+759,2020-02-15 15:33:19.000000000,2020-02-17 21:31:08.000000000,closed,1,Doc changes to importing_data
+758,2020-02-15 01:04:43.000000000,2020-02-18 00:24:06.000000000,closed,0,Sheet name
+757,2020-02-13 22:22:47.000000000,2020-02-21 23:08:07.000000000,closed,3,Example for using a customer ColumnType?
+756,2020-02-13 21:28:00.000000000,2020-02-18 00:24:05.000000000,closed,3,Storing/Using sheet name when reading excel
+755,2020-02-13 18:27:29.000000000,2020-02-22 00:14:31.000000000,closed,5,Example file BarExample.java resulting in multiple Errors
+754,2020-02-12 21:20:26.000000000,2020-02-12 21:48:34.000000000,closed,1,Join with an empty table adds garbage values
+753,2020-02-07 15:43:28.000000000,2020-02-10 00:20:13.000000000,closed,4,Approach to use Jackson for jsplot
+752,2020-02-07 12:08:25.000000000,1970-01-01 00:00:00.000000001,open,4,Get problem with JoinOn performance
+751,2020-02-04 21:04:50.000000000,1970-01-01 00:00:00.000000001,open,3,Column type detection fails in XlsxReader
+750,2020-02-04 16:47:33.000000000,1970-01-01 00:00:00.000000001,open,3,CSV writer always closes output streams
+749,2020-02-02 17:26:05.000000000,2020-02-22 00:52:20.000000000,closed,2,Static members in column type
+748,2020-01-31 03:22:01.000000000,2020-04-13 19:22:37.000000000,closed,6,Add ignoreZeroDecimal to ReadOptions
+747,2020-01-30 19:53:39.000000000,2020-04-13 19:22:54.000000000,closed,4,Column type detection strategy for numbers ending with .0
+746,2020-01-25 04:01:33.000000000,2020-01-25 04:26:04.000000000,closed,2,Fix apparent typo in docs: CsvReadOptionsBuilder -> CsvReadOptions.Builder
+745,2020-01-25 02:50:37.000000000,2020-01-25 03:12:52.000000000,closed,1,Add cumMin and cumMax
+744,2020-01-23 04:56:41.000000000,2020-01-24 21:17:47.000000000,closed,1,Allow queries on untyped columns
+743,2020-01-19 20:55:47.000000000,2020-01-19 21:44:08.000000000,closed,0,move useful test method into a class for reuse in other tests
+742,2020-01-19 00:59:56.000000000,2020-01-19 09:13:51.000000000,closed,1,Change StringColumn summary to a more useful fixed format #718
+741,2020-01-17 01:58:52.000000000,1970-01-01 00:00:00.000000001,open,1,No way to specify error bars on a ScatterTrace
+740,2020-01-17 01:53:48.000000000,2020-02-22 00:31:16.000000000,closed,2,BoxBuilder's name(String) method returns TraceBuilder instead of BoxBuilder
+739,2020-01-13 19:32:50.000000000,2020-01-17 00:22:51.000000000,closed,1,Implement single-pass random sampling of rows while reading input
+738,2020-01-13 00:42:45.000000000,2020-07-13 06:03:38.000000000,closed,10,Use memory mapping for reading files
+737,2020-01-10 16:38:55.000000000,2020-01-10 21:13:31.000000000,closed,5,Exporting to XLSX
+736,2020-01-09 15:20:28.000000000,2020-01-13 18:55:00.000000000,closed,2,Question : about casting InstantColumn to DateTimeColumn (& a TimeSeriesPlot weird behavior)
+735,2020-01-08 05:16:02.000000000,2020-01-08 22:24:40.000000000,closed,0,Upgrade to Smile 2.0.0
+734,2019-12-27 17:18:40.000000000,2019-12-27 18:07:27.000000000,closed,5,Getting NoClassDefFoundError on using table.joinOn()
+733,2019-12-10 18:31:45.000000000,2019-12-10 21:10:55.000000000,closed,2,Mistake in 「Introduction to Plotting with Tablesaw」
+732,2019-12-09 20:30:35.000000000,2020-04-13 19:23:01.000000000,closed,6,"CSV import: IntParser removes decimal when value ends with "".0"" during parsing"
+731,2019-12-07 22:46:59.000000000,2019-12-10 00:30:56.000000000,closed,8,"After some test the problem is still here java.lang.NoSuchMethodError: 'int it.unimi.dsi.fastutil.bytes.Byte2IntOpenHashMap.addTo(byte, int)'"
+730,2019-11-30 00:07:00.000000000,2019-11-30 23:11:40.000000000,closed,4," java.lang.NoSuchMethodError: 'int it.unimi.dsi.fastutil.bytes.Byte2IntOpenHashMap.addTo(byte, int)'"
+729,2019-11-28 15:26:27.000000000,2020-01-12 08:46:38.000000000,closed,2,Table extension (regarding Issue #728)
+728,2019-11-28 14:56:18.000000000,2020-01-12 08:45:57.000000000,closed,1,add method unique(String columnName)
+727,2019-11-27 03:05:16.000000000,2020-02-22 00:58:00.000000000,closed,2,Cumulative sum by group
+726,2019-11-26 18:10:04.000000000,2020-01-08 09:43:18.000000000,closed,2,Adds AutoCorrelation support
+725,2019-11-22 18:07:52.000000000,2020-02-24 02:37:51.000000000,closed,3,Question: How to export table data to csv with quotes?
+724,2019-11-22 15:22:27.000000000,1970-01-01 00:00:00.000000001,open,16,Added support for reading and writing Apache ORC file format
+723,2019-11-22 06:00:46.000000000,1970-01-01 00:00:00.000000001,open,3,Responsive Charts
+722,2019-11-21 03:00:29.000000000,2020-02-22 01:30:04.000000000,closed,2,Question: Timestamp in TimeSeriesPlot
+721,2019-11-20 21:57:46.000000000,2020-02-22 00:36:09.000000000,closed,2,Scatter3DPlot raises a null pointer
+720,2019-11-20 07:58:23.000000000,2019-11-22 15:20:04.000000000,closed,1,Adding support for reading Apache ORC file format
+719,2019-11-13 21:46:33.000000000,2020-01-08 09:42:44.000000000,closed,1,Pr instant column min max
+718,2019-11-11 02:31:35.000000000,2020-01-19 21:42:21.000000000,closed,5,Change Relation.summary() to return a Table #707
+717,2019-11-10 19:56:58.000000000,2020-01-25 00:09:55.000000000,closed,31,Implement transpose #696
+716,2019-11-09 23:17:44.000000000,1970-01-01 00:00:00.000000001,open,0,Simple API Changes for jsplot-plotly
+715,2019-11-08 22:33:27.000000000,2020-06-22 22:18:05.000000000,closed,2,display a table itself
+714,2019-11-05 23:21:45.000000000,2019-11-13 11:41:19.000000000,closed,2,Provide documentation via javadoc
+713,2019-11-05 22:45:22.000000000,2020-01-06 17:12:21.000000000,closed,0,Adds LayoutBuilder.autosize and only generates width: or height: to Javascript if they have been actually set
+712,2019-11-05 17:30:02.000000000,1970-01-01 00:00:00.000000001,open,9,Plotly - set autoSize in LayoutBuilder
+711,2019-11-05 00:41:48.000000000,2020-02-22 00:38:44.000000000,closed,2,Question: count rows by multiple columns
+710,2019-11-04 17:33:26.000000000,1970-01-01 00:00:00.000000001,open,8,Adds custom color scale to Marker
+709,2019-11-01 07:35:20.000000000,2019-11-14 09:54:37.000000000,closed,2,Updated Tables Documentation: Section Add and remove Rows
+708,2019-11-01 06:05:17.000000000,2019-11-14 09:54:37.000000000,closed,1,"Documentation: Adding Row to a table, dropping row and Adding row at index"
+707,2019-11-01 04:28:07.000000000,2020-01-25 00:34:01.000000000,closed,2,Suggestion: Table.summary() should ideally return a Table
+706,2019-11-01 04:17:36.000000000,2020-02-22 00:41:14.000000000,closed,4,Paging to disk ?
+705,2019-10-30 23:55:56.000000000,2019-11-02 00:48:36.000000000,closed,8,Updates the Column.mapInto javadoc and adds a new Column.map method
+704,2019-10-30 11:33:08.000000000,2019-11-12 16:01:13.000000000,closed,2,Column.mapInto does not append
+703,2019-10-30 10:44:50.000000000,1970-01-01 00:00:00.000000001,open,4,Adds ReadOptions.percentage which parses percentage-like strings as doubles
+702,2019-10-30 09:13:01.000000000,2019-11-10 12:15:24.000000000,closed,5,Escapes backslash too when creating Javascript string
+701,2019-10-30 00:30:35.000000000,2019-10-30 00:39:21.000000000,closed,0,Made two FileReader methods public (and changed their names for clarity)
+700,2019-10-29 23:55:57.000000000,2019-11-13 06:56:04.000000000,closed,0,Enhancements to Histogram
+699,2019-10-29 20:47:27.000000000,2019-10-30 00:32:57.000000000,closed,0,Escapes quotes when building Javascript string arrays from Java arrays
+698,2019-10-29 20:44:40.000000000,1970-01-01 00:00:00.000000001,open,1,"implement the ""cast"" and ""melt"" tidy operations"
+697,2019-10-29 11:51:27.000000000,2019-11-13 11:39:29.000000000,closed,15,Adds firstAsString aggregate function
+696,2019-10-28 03:40:17.000000000,2020-01-25 00:34:31.000000000,closed,5,Table transpose()?
+695,2019-10-28 02:22:02.000000000,2019-10-29 19:02:46.000000000,closed,0,#694 update documentation for Custom map functions
+694,2019-10-28 01:07:43.000000000,2019-10-30 00:10:22.000000000,closed,3,Documentation needs updating for Custom map functions
+693,2019-10-27 19:41:52.000000000,1970-01-01 00:00:00.000000001,open,6,Use Vega for charting
+692,2019-10-24 18:30:42.000000000,1970-01-01 00:00:00.000000001,open,7,"After joining two Tables, in the resulting Table the second join column is missing."
+691,2019-10-24 16:52:05.000000000,2019-10-29 18:52:21.000000000,closed,5,Adds plotly config argument. Only config.displayModeBar
+690,2019-10-23 23:49:54.000000000,2020-02-24 00:30:53.000000000,closed,11,Adds Figure.setLayout and Figure.setConfig
+689,2019-10-23 03:44:45.000000000,2020-02-22 02:21:54.000000000,closed,3,Table.removeColumns() by name or index removes all columns that contain identical data?
+688,2019-10-22 19:06:01.000000000,2019-10-29 13:16:30.000000000,closed,3,How can I join tables with different columns type?
+687,2019-10-22 16:43:47.000000000,2020-02-22 01:38:21.000000000,closed,4,Question: How do I create a calculated column?
+686,2019-10-19 23:05:02.000000000,2020-01-22 23:49:18.000000000,closed,7,Added options to ignore leading and trailing whitespaces in quoted CSV
+685,2019-10-18 14:30:41.000000000,2019-10-22 18:55:29.000000000,closed,1,“Question”: Getting 'Data type mismatch.' exception reading data from resultset of DB2 type database 
+684,2019-10-12 14:04:14.000000000,2019-10-15 09:04:57.000000000,closed,3,Reads a specific JSON subtree based on the JSON Pointer expression from path()
+683,2019-10-11 02:48:01.000000000,2019-10-17 23:54:03.000000000,closed,7,Reads a specific sheet from the Excel file based on XlsxReadOptions sheetIndex
+682,2019-10-10 12:27:42.000000000,2019-10-10 19:25:02.000000000,closed,2,Reads a specific table from the HTML page if multiple tables are pres…
+681,2019-10-09 07:49:06.000000000,2020-02-24 00:57:34.000000000,closed,6," Question: Create histogram that shows Percentage, rather than count on y axis?"
+680,2019-10-07 19:17:50.000000000,2019-10-08 06:20:33.000000000,closed,2,Add table constructor that accepting a list of columns[enhancement]
+679,2019-10-05 09:08:30.000000000,2019-10-05 10:30:38.000000000,closed,2,is there any Join Operations available?
+678,2019-10-02 06:45:47.000000000,1970-01-01 00:00:00.000000001,open,1,Exporting plots to PNG from within Java
+677,2019-10-01 23:00:42.000000000,2019-10-02 20:23:56.000000000,closed,4,[Question] Getting first row of each group using Table.splitOn() when table contains text columns?
+676,2019-10-01 08:39:40.000000000,2019-10-01 20:46:05.000000000,closed,0,Deploy getting started docs updates
+675,2019-09-29 03:46:35.000000000,2019-10-01 07:18:50.000000000,closed,4,Update gettingstarted.md
+674,2019-09-29 03:38:19.000000000,2019-09-30 00:49:19.000000000,closed,4,Is there any way to get a List<Row> from the table?
+673,2019-09-27 19:29:20.000000000,2019-09-29 20:41:41.000000000,closed,0,Add new replaceColumn method
+672,2019-09-25 03:57:14.000000000,2019-09-25 05:07:20.000000000,closed,0,Replace Airframe with Tablesaw in JavaDocs
+671,2019-09-24 22:36:44.000000000,2019-09-27 02:27:45.000000000,closed,1,Add method to apply function to column
+670,2019-09-23 10:36:00.000000000,2019-09-25 03:54:20.000000000,closed,4,Can there be a convenient way to change int column to string column without auto delete the origin value?
+669,2019-09-20 02:35:02.000000000,2019-09-24 17:32:54.000000000,closed,2,Remove hundreds of lines of type casts
+668,2019-09-18 23:42:31.000000000,2019-09-19 00:50:58.000000000,closed,0,Show columns in BeakerX
+667,2019-09-18 22:47:06.000000000,2019-09-25 05:07:20.000000000,closed,0,Replace Airframe with Tablesaw
+666,2019-09-18 22:42:51.000000000,2019-09-19 07:25:46.000000000,closed,2,Add standard deviation to rolling column
+665,2019-09-18 00:48:53.000000000,2019-09-19 00:43:48.000000000,closed,0,Remove unused code
+664,2019-09-18 00:40:34.000000000,2019-09-24 22:17:26.000000000,closed,1,Add interpolation methods
+663,2019-09-17 22:42:51.000000000,2019-09-24 22:17:25.000000000,closed,6,Backfilling data
+662,2019-09-11 18:03:44.000000000,1970-01-01 00:00:00.000000001,open,4,[Question] Ability to assign column types by column name (header) when importing CSV
+661,2019-09-11 02:56:31.000000000,2019-09-23 23:35:27.000000000,closed,0,Fix saw issue
+660,2019-09-06 05:32:48.000000000,2019-09-06 06:00:04.000000000,closed,1,Suppress Maven dependency download logging
+659,2019-09-05 16:27:47.000000000,2019-09-06 05:05:31.000000000,closed,1,fixes ArrayIndexOutOfBoundsException when reading CSV file #658
+658,2019-09-05 03:16:29.000000000,2020-01-23 00:57:01.000000000,closed,11,ArrayIndexOutOfBoundsException when reading CSV file
+657,2019-09-04 12:22:34.000000000,2019-09-04 15:38:19.000000000,closed,0,Clean up unnecessary deprecation and varargs warnings
+656,2019-09-04 00:43:25.000000000,2019-09-04 01:00:15.000000000,closed,0,fixed comment and added test for Charset detection
+655,2019-09-03 20:29:06.000000000,2019-09-03 20:57:15.000000000,closed,0,Improve getting started docs
+654,2019-09-03 15:20:56.000000000,2019-09-03 21:53:16.000000000,closed,2,partial implementation of #638
+653,2019-09-03 06:35:10.000000000,2019-09-03 15:21:35.000000000,closed,1,Auto detect text file charsets. Partial implementation of #638
+652,2019-08-31 18:24:40.000000000,1970-01-01 00:00:00.000000001,open,0,Automatically build docs when preparing for a release
+651,2019-08-31 16:17:54.000000000,2019-08-31 16:23:21.000000000,closed,0,"How to do ""Union"" in tablesaw?"
+650,2019-08-29 05:39:07.000000000,2019-09-02 20:00:07.000000000,closed,0,Improve ability to read a csv from a url
+649,2019-08-28 19:25:37.000000000,2019-08-28 20:11:09.000000000,closed,0,deprecated public data() methods that return the underlying array for…
+648,2019-08-28 05:16:29.000000000,2019-08-28 19:28:21.000000000,closed,2,Stage the built docs so they can be released explicitly
+647,2019-08-27 21:40:51.000000000,1970-01-01 00:00:00.000000001,open,0,Meta-Issue collecting enhancements for reading text files
+646,2019-08-27 21:38:55.000000000,2019-09-04 11:56:00.000000000,closed,1,Try multiple formats on parsing date/times (numbers?)
+645,2019-08-27 01:55:50.000000000,2019-08-27 02:05:44.000000000,closed,0,Fix docs
+644,2019-08-27 01:55:47.000000000,2019-08-27 02:06:57.000000000,closed,2,Docuimentation link broken
+643,2019-08-27 00:23:25.000000000,2019-08-27 04:50:13.000000000,closed,3,renamed isMissingValue test methods to valueIsMissing for consistency
+642,2019-08-26 23:20:56.000000000,2019-08-27 21:45:15.000000000,closed,1,Saw persistence implementation
+641,2019-08-26 18:50:57.000000000,2019-08-26 23:29:37.000000000,closed,0,Migrate CrossTabs docs to new docs tooling
+640,2019-08-26 17:42:45.000000000,2019-09-02 20:15:55.000000000,closed,4,Improve reading a CSV from a URL
+639,2019-08-26 17:16:19.000000000,2019-08-26 17:43:31.000000000,closed,0,Track docs/dist in git 
+638,2019-08-26 08:27:10.000000000,1970-01-01 00:00:00.000000001,open,3,Better handling of file encodings
+637,2019-08-26 02:18:54.000000000,2019-08-26 16:39:48.000000000,closed,3,Compile Tutorial docs.
+636,2019-08-26 01:33:59.000000000,2019-08-26 04:49:32.000000000,closed,3,Return null when value is missing
+635,2019-08-25 18:17:11.000000000,2019-08-25 19:01:48.000000000,closed,0,added a few map functions and tests for same.
+634,2019-08-25 08:03:24.000000000,2019-08-26 16:39:13.000000000,closed,3,Column creation from streams
+633,2019-08-25 05:03:09.000000000,2019-08-25 05:03:39.000000000,closed,1,Undo deprecation missing value methods
+632,2019-08-24 22:20:12.000000000,2019-08-24 22:20:26.000000000,closed,0,minor documentation improvements
+631,2019-08-24 19:04:09.000000000,2019-08-25 04:46:25.000000000,closed,0,Added missing value handling and getNumber() method  to Row.
+630,2019-08-23 19:11:39.000000000,2019-08-24 00:41:27.000000000,closed,1,Add slf4j-api as a dependency
+629,2019-08-23 18:25:38.000000000,2019-09-04 15:41:05.000000000,closed,1,eliminate deprecation warnings
+628,2019-08-23 18:16:34.000000000,1970-01-01 00:00:00.000000001,open,0,add logging (finally)
+627,2019-08-22 20:38:57.000000000,1970-01-01 00:00:00.000000001,open,13,Re-parse without sampling any column throwing a parse exception on import
+626,2019-08-22 20:30:05.000000000,2019-08-22 22:15:25.000000000,closed,0,Empty columns should be of type string - fixes bug #623
+625,2019-08-22 16:46:31.000000000,2019-08-28 20:15:46.000000000,closed,2,cleanup values() and iterator inconsistency
+624,2019-08-22 06:31:41.000000000,2019-08-22 18:18:32.000000000,closed,0,Provide more helpful error messages when a column cannot be found on Row
+623,2019-08-22 04:09:18.000000000,2019-08-23 04:08:30.000000000,closed,6,CSV file type inference sometimes returns LocalDateTime instead of String (again/still)
+622,2019-08-22 04:08:00.000000000,1970-01-01 00:00:00.000000001,open,3,implement dictionary encoding for date column
+621,2019-08-22 01:25:48.000000000,2019-08-25 18:16:53.000000000,closed,1,Clean up Analytic Functions
+620,2019-08-21 22:32:27.000000000,1970-01-01 00:00:00.000000001,open,3,Consider supporting Orc as a file format
+619,2019-08-20 17:18:30.000000000,2019-08-27 05:01:11.000000000,closed,4,"bring back the ""saw"" IO option"
+618,2019-08-20 05:56:56.000000000,2019-09-04 16:06:12.000000000,closed,3,consider using structure tables to specify types
+617,2019-08-20 05:54:49.000000000,2019-08-22 18:18:32.000000000,closed,1,Create Better Column Not Found Error Message for Row
+616,2019-08-19 21:57:43.000000000,2019-08-20 04:55:04.000000000,closed,1,fix for issue #609
+615,2019-08-19 06:23:36.000000000,1970-01-01 00:00:00.000000001,open,1,Add support for Plot.ly annotations
+614,2019-08-19 06:22:38.000000000,2019-08-19 19:33:46.000000000,closed,0,Remove unused variables
+613,2019-08-18 23:32:24.000000000,2019-08-19 06:29:03.000000000,closed,4,Use HashSet for Textcolumn `isIn`
+612,2019-08-18 21:20:16.000000000,2019-08-19 02:52:35.000000000,closed,0,Create abstract super class for text like columns. Move common methods there.
+611,2019-08-18 20:52:18.000000000,2019-08-19 06:29:03.000000000,closed,3,Use a faster data structure for isIn membership check on TextColumn
+610,2019-08-18 20:18:44.000000000,2019-08-19 19:33:14.000000000,closed,2,Formatting
+609,2019-08-18 20:07:44.000000000,2019-08-20 04:55:52.000000000,closed,1,Use Interface to make sure the deferred filtering methods and regular filtering methods stay in sync
+608,2019-08-18 20:05:03.000000000,2019-08-19 02:55:37.000000000,closed,0,FigureBuilder
+607,2019-08-18 18:51:47.000000000,2019-08-19 02:49:31.000000000,closed,2,Improve javaDoc for sortOn.
+606,2019-08-18 03:11:21.000000000,2019-08-19 02:55:21.000000000,closed,1,Analytic functions
+605,2019-08-17 15:17:05.000000000,2019-08-18 16:31:27.000000000,closed,3,Ignore whitespaces option added in CsvWriterOptions.
+604,2019-08-17 09:03:05.000000000,2019-08-17 21:46:33.000000000,closed,3,Move the Sort prefix logic from Table class to Sort class.
+603,2019-08-16 22:28:06.000000000,2019-08-18 16:33:08.000000000,closed,6,CsvWriter always trims strings when writing data.
+602,2019-08-16 02:07:15.000000000,2019-08-17 02:28:48.000000000,closed,2,Stop TableSliceGroup from making a copy of the source table while sorting.
+601,2019-08-15 23:19:21.000000000,2019-08-23 17:58:51.000000000,closed,2,Package/class/activity diagrams for new contributors
+600,2019-08-15 23:12:10.000000000,2019-08-15 23:30:54.000000000,closed,0,Corrected ColumnType used for checking missingValue in DateTimeColumnFormatter
+599,2019-08-15 22:42:24.000000000,2019-08-17 17:42:22.000000000,closed,5,Implementation change of AbstractColumn.asStringColumn
+598,2019-08-15 18:22:23.000000000,1970-01-01 00:00:00.000000001,open,0,Make plots handle missing values (by removing them before plotting)
+597,2019-08-15 14:18:54.000000000,2019-08-17 17:50:08.000000000,closed,3,AbstractColumn.asStringColumn() does not convert missing values
+596,2019-08-15 11:26:08.000000000,1970-01-01 00:00:00.000000001,open,3,Plot.ly Axis margin and setting layout and trace properties
+595,2019-08-15 07:07:29.000000000,2019-08-15 18:46:37.000000000,closed,0,Make countUnique and unique include missing values
+594,2019-08-14 20:21:15.000000000,2019-08-15 18:46:37.000000000,closed,2,NumberColumn and StringColumn count unique values differently
+593,2019-08-14 20:15:43.000000000,2019-08-15 03:02:41.000000000,closed,0,Add Count Unique Tests. 
+592,2019-08-14 19:28:15.000000000,2019-08-15 18:23:54.000000000,closed,5,JSON Reader Column Detection favoring Integer Column Type Over String
+591,2019-08-14 19:21:38.000000000,2019-08-15 03:03:48.000000000,closed,1,Fix NPE when reading json array with incomplete rows
+590,2019-08-14 18:43:20.000000000,2019-08-14 23:55:05.000000000,closed,3,Unique after asStringColumn() returns one more empty row
+589,2019-08-14 18:18:23.000000000,2019-08-15 18:58:46.000000000,closed,2,Improve TableSlice. Make TableSlice sortable.
+588,2019-08-14 16:30:06.000000000,2019-08-15 03:03:48.000000000,closed,1,NullPointerException when reading json array with incomplete rows
+587,2019-08-13 20:43:14.000000000,2019-08-15 15:31:02.000000000,closed,10,DoubleColumn.set only replaces first 0 when using isEqualTo(0.0)
+586,2019-08-13 20:23:43.000000000,2019-08-14 19:38:14.000000000,closed,12,DoubleColumn.unique() seems to repeat all 0's
+585,2019-08-13 19:38:20.000000000,2019-08-13 21:57:40.000000000,closed,2,NumberColumn.MISSING_VALUE does not seem to exist as per guide
+584,2019-08-10 01:20:41.000000000,2019-09-03 11:41:38.000000000,closed,8,Please hold this release for additional testing
+583,2019-08-09 20:04:42.000000000,2019-08-09 23:51:14.000000000,closed,3,Remove mapToType on Column and Table
+582,2019-08-09 18:56:00.000000000,2019-11-13 11:44:15.000000000,closed,6,Support Analytic/Window functions
+581,2019-08-09 09:00:20.000000000,2019-08-09 23:48:32.000000000,closed,4,Add rolling stream method
+580,2019-08-09 00:17:32.000000000,1970-01-01 00:00:00.000000001,open,0,improve map functions
+579,2019-08-08 21:05:20.000000000,2019-08-09 15:59:49.000000000,closed,6,Add mapToDoubleColumn on Table
+578,2019-08-08 08:16:06.000000000,2019-08-08 16:55:52.000000000,closed,0,Fix inconsistency between column and columns methods on TableSlice
+577,2019-08-08 00:01:32.000000000,2019-08-08 00:43:27.000000000,closed,1,IntColumn.asDoubleColumn() does not convert missing values
+576,2019-08-07 21:27:08.000000000,1970-01-01 00:00:00.000000001,open,11,Implement a more SQL select like query capability
+575,2019-08-07 21:23:00.000000000,2019-08-08 20:10:04.000000000,closed,2,Implement having clause on Summarizer class
+574,2019-08-07 21:18:11.000000000,2019-08-08 07:11:08.000000000,closed,5,Query1
+573,2019-08-07 20:53:27.000000000,2019-08-19 02:52:35.000000000,closed,0,Extract common methods from StringColumn and TextColumn into a common superclass
+572,2019-08-07 05:38:29.000000000,2019-08-07 21:32:00.000000000,closed,4,BigQuery support?
+571,2019-08-07 03:33:38.000000000,2019-08-08 21:41:17.000000000,closed,1,add isBefore() and isAfter() to InstantCol
+570,2019-08-06 22:39:24.000000000,2019-08-06 22:58:49.000000000,closed,0,Automatically run Google formatter at compile time
+569,2019-08-06 19:11:11.000000000,2019-08-06 21:02:03.000000000,closed,1,Fix for Make it easier to work with missing data #564
+568,2019-08-05 21:08:27.000000000,2019-08-06 01:04:32.000000000,closed,0,Format the code with Google Code Formatter
+567,2019-08-04 20:28:49.000000000,1970-01-01 00:00:00.000000001,open,4,Add Comparison with SQL section to the user guide.
+566,2019-08-04 20:24:43.000000000,2019-08-06 00:47:50.000000000,closed,3,Code format standards
+565,2019-08-04 20:22:57.000000000,2019-08-27 00:27:27.000000000,closed,4,Some Column Types do not have a static isValueMissing method 
+564,2019-08-04 19:34:41.000000000,2019-08-06 21:17:21.000000000,closed,6,Make it easier to work with missing data
+563,2019-08-03 05:25:49.000000000,2019-08-03 21:51:25.000000000,closed,6,added null support for SqlResultSetReader
+562,2019-08-03 04:52:32.000000000,2019-08-03 22:46:29.000000000,closed,6,Speed up Joins
+561,2019-08-02 20:38:07.000000000,2019-08-06 04:59:39.000000000,closed,4,Cannot set Layout.showLegend(false) due to a conditional inclusion in Layout.getContext()
+560,2019-08-02 20:07:24.000000000,2019-08-03 01:08:36.000000000,closed,2,"The range attribute (range: [low, high]) is missing in axis_template.html"
+559,2019-08-01 06:26:05.000000000,2019-08-01 06:31:44.000000000,closed,1,Fix Inner Join when one table has a single column
+558,2019-07-26 22:31:50.000000000,2019-07-27 23:08:22.000000000,closed,1,Fix bug in TableSliceGroup.aggregate when aggregating over multiple c…
+557,2019-07-26 22:17:41.000000000,2019-07-27 23:08:22.000000000,closed,0,TableSliceGroup.aggregate is failing when aggregating multiple columns
+556,2019-07-26 04:28:50.000000000,1970-01-01 00:00:00.000000001,open,0,Add Plot.ly Table support
+555,2019-07-24 15:34:59.000000000,2019-07-24 16:59:51.000000000,closed,1,Table.read().json() does not exist
+554,2019-07-16 23:48:13.000000000,2019-08-03 22:39:58.000000000,closed,1,table.splitOn fails when the categorical column is a TextColumn
+553,2019-07-15 20:49:40.000000000,2019-07-20 17:31:08.000000000,closed,2,Some DateTime map functions no longer return DateTimeColumn 
+552,2019-07-15 18:28:03.000000000,2019-07-15 19:08:26.000000000,closed,2,single column xtabs are broken for string and text columns (at least)
+551,2019-07-15 01:36:26.000000000,2019-07-15 12:09:37.000000000,closed,0,Fix tests
+550,2019-07-14 20:20:22.000000000,2019-07-14 22:15:58.000000000,closed,1,Fixed missing throw statement
+549,2019-07-14 15:32:00.000000000,2019-07-15 12:10:41.000000000,closed,3,Issues with tests
+548,2019-07-13 19:25:24.000000000,2019-07-15 19:09:28.000000000,closed,3,Subplots
+547,2019-07-12 08:49:58.000000000,2019-07-14 22:51:39.000000000,closed,2,How to set the plot's (diagram) width and height?
+546,2019-07-08 12:24:48.000000000,2019-07-09 07:48:35.000000000,closed,2,initial improvements for test outcomes on Windows - improves #441 (tests on …
+545,2019-07-06 18:59:36.000000000,2019-08-02 02:24:10.000000000,closed,4,Add mapToType Columns
+544,2019-07-01 22:49:57.000000000,2019-07-14 22:57:00.000000000,closed,3,Correct issue #541 : unique values in StringColumns
+543,2019-06-28 15:47:34.000000000,1970-01-01 00:00:00.000000001,open,5,Tool Bar in html file
+542,2019-06-25 20:10:36.000000000,2019-07-11 18:54:03.000000000,closed,0,Update Getting Started section of README
+541,2019-06-25 19:29:28.000000000,2019-07-14 22:56:59.000000000,closed,10,Column.countUnique() returns a wrong value after using Column.set()
+540,2019-06-19 19:41:19.000000000,2019-06-19 20:58:59.000000000,closed,1,Add stream() method to Table
+539,2019-06-19 00:50:28.000000000,2019-06-19 21:46:51.000000000,closed,3,Add fillWith(double)
+538,2019-06-18 19:24:31.000000000,2019-08-09 23:51:13.000000000,closed,31,Column-wise DataFrame-like operations
+537,2019-06-12 17:45:40.000000000,2019-07-15 14:38:27.000000000,closed,3,Reduce dependencies of tablesaw-core
+536,2019-06-07 20:18:34.000000000,2019-06-15 02:53:14.000000000,closed,0,Option for setting csv read quote escape char
+535,2019-06-07 18:08:40.000000000,2019-06-15 02:53:14.000000000,closed,1,Ability to set quote char in CsvReadOptions 
+534,2019-06-07 02:09:40.000000000,2019-06-15 02:52:45.000000000,closed,0,Add new dropRange and inRange methods
+533,2019-06-05 21:41:32.000000000,2019-06-15 02:52:25.000000000,closed,3,Remove duplicate map function
+532,2019-06-04 19:36:48.000000000,2019-06-15 02:53:41.000000000,closed,0,Allow using all NumberPredicates in set method
+531,2019-06-02 00:12:10.000000000,2019-06-02 22:22:33.000000000,closed,1,Rename join to joinOn to make it work in BeakerX
+530,2019-06-01 20:41:56.000000000,2019-06-04 19:09:13.000000000,closed,6,Add set via predicate method
+529,2019-05-30 21:57:47.000000000,1970-01-01 00:00:00.000000001,open,8,Add ability to write to RDBMS using JDBC
+528,2019-05-19 13:51:23.000000000,2019-06-19 21:02:54.000000000,closed,4,Fixed Smile Nominal Attribute creation and added stratified sampling
+527,2019-05-13 12:49:41.000000000,1970-01-01 00:00:00.000000001,open,5,Create table based on list of Java Object
+526,2019-05-11 19:10:14.000000000,2019-05-11 19:16:38.000000000,closed,1,Static class builder shouldn't be 'protected' in JsonWriteOptions.java
+525,2019-05-08 14:04:13.000000000,2019-08-04 21:54:50.000000000,closed,2,Trying to open specific sheet of Excel workbook
+524,2019-05-08 14:01:15.000000000,2019-05-08 14:04:24.000000000,closed,0,Trying to open Excel sheet of specific sheet
+523,2019-05-03 19:20:43.000000000,2019-05-04 04:24:07.000000000,closed,5,Workaround for precision of 0 when reading jdbc resultset
+522,2019-05-03 08:19:46.000000000,2019-05-04 04:31:36.000000000,closed,0,Add method to get row
+521,2019-05-03 08:00:38.000000000,2019-05-04 03:27:59.000000000,closed,2,More configurable column type detection
+520,2019-05-03 06:51:54.000000000,1970-01-01 00:00:00.000000001,open,0,Keep indices updated - Add column change callback
+519,2019-05-03 00:50:55.000000000,2019-05-04 04:24:07.000000000,closed,5,Reading incorrect column type
+518,2019-05-03 00:01:20.000000000,2019-05-09 02:40:25.000000000,closed,0,Add InstantColumn
+517,2019-05-02 14:45:42.000000000,2019-08-03 20:33:46.000000000,closed,4,DoubleColumn should not use Epsilon Notation while printing or written as CSV
+516,2019-05-02 10:07:16.000000000,2019-05-09 02:40:25.000000000,closed,2,Add an InstantColumn
+515,2019-05-01 06:36:27.000000000,2019-05-04 03:27:59.000000000,closed,1,Type detection improvements
+514,2019-05-01 02:30:56.000000000,2019-05-01 03:16:29.000000000,closed,0,Add a method to convert a DateColumn to a DateTimeColumn
+513,2019-05-01 01:02:47.000000000,2019-05-01 01:58:43.000000000,closed,1,Remove unused epoch conversion methods
+512,2019-04-26 20:55:59.000000000,2019-08-02 02:44:14.000000000,closed,5,add framework for processing plotly events
+511,2019-04-03 20:58:55.000000000,2019-04-04 07:26:48.000000000,closed,3,[Bug?] When Summary a table
+510,2019-04-03 09:56:48.000000000,1970-01-01 00:00:00.000000001,open,2,add support for sploms
+509,2019-04-03 09:56:03.000000000,1970-01-01 00:00:00.000000001,open,0,asd support for violin plots
+508,2019-04-03 09:54:56.000000000,1970-01-01 00:00:00.000000001,open,0,add support for 2 D Density/Contour plots
+507,2019-04-01 20:52:20.000000000,2019-04-02 03:52:52.000000000,closed,6,escaping of html content in table
+506,2019-03-31 21:13:49.000000000,2019-04-01 22:00:25.000000000,closed,5,CSV parser cannot parse all date time formats Java can
+505,2019-03-31 03:44:10.000000000,2019-03-31 21:06:59.000000000,closed,1,Switch from reflections to classgraph
+504,2019-03-29 22:50:56.000000000,2019-03-31 21:05:49.000000000,closed,2,Converting column type
+503,2019-03-28 19:57:41.000000000,2019-03-31 21:06:59.000000000,closed,2,reflections output in log file
+502,2019-03-26 06:38:51.000000000,2019-03-26 07:01:18.000000000,closed,2,"poms in html, excel, and json projects reference older version of core"
+501,2019-03-24 02:33:59.000000000,2019-03-24 02:39:34.000000000,closed,0,removed camel case and underscore help from html writer
+500,2019-03-23 09:18:37.000000000,2019-03-24 01:28:36.000000000,closed,2,Add a callback for creating HTML elements
+499,2019-03-21 23:26:34.000000000,2019-03-31 21:15:11.000000000,closed,3,Issue with exporting saw format to disk
+498,2019-03-21 06:58:18.000000000,1970-01-01 00:00:00.000000001,open,4,handling of isEmpty() and size()
+497,2019-03-20 12:42:26.000000000,2019-08-02 04:49:25.000000000,closed,5,Fixes toString exception when columns are not same size.
+496,2019-03-19 17:03:46.000000000,2019-08-02 05:00:12.000000000,closed,21,toString() should be more fault tolerant
+495,2019-03-18 19:55:18.000000000,2019-03-21 06:46:10.000000000,closed,1,Is there any possibility to develop pandas-like api ? 
+494,2019-03-16 18:31:17.000000000,2019-03-24 04:33:30.000000000,closed,9,improve html table formatting control
+493,2019-03-16 00:48:57.000000000,2019-08-27 20:58:17.000000000,closed,5,"replace strings like ""html"" in table.write().toString(""html"") to an enum"
+492,2019-03-12 04:37:52.000000000,2019-03-22 09:28:07.000000000,closed,2,CVS filename starting with number isn't read
+491,2019-03-10 10:22:24.000000000,2019-03-11 21:06:59.000000000,closed,0,Introduce ReaderRegistry and new DataFrameReader methods
+490,2019-03-10 06:17:32.000000000,2019-03-10 06:55:16.000000000,closed,0,re apply changes
+489,2019-03-10 06:04:16.000000000,2019-03-10 06:04:55.000000000,closed,0,"Revert ""Auto-detect CSV line endings"""
+488,2019-03-10 03:27:41.000000000,2019-03-10 05:57:09.000000000,closed,0,Auto-detect CSV line endings
+487,2019-03-10 02:21:12.000000000,2019-03-10 06:05:33.000000000,closed,2,Introduce HtmlReadOptions and JsonReadOptions
+486,2019-03-09 17:35:43.000000000,2019-03-10 05:57:09.000000000,closed,3,DistributionVisualizations example fails reading csv file
+485,2019-03-09 08:51:32.000000000,2019-03-12 08:49:35.000000000,closed,7,Fix NoClassDefFoundError caused by optional modules
+484,2019-03-08 02:51:42.000000000,2019-03-14 07:22:20.000000000,closed,1,table print(n) doesn't work when n = 1
+483,2019-03-07 23:30:11.000000000,2019-03-08 02:52:11.000000000,closed,0,Support comment character in CSV files
+482,2019-03-07 17:15:05.000000000,2019-03-09 05:55:01.000000000,closed,8,Issue 479 template customization
+481,2019-03-07 13:43:27.000000000,2019-03-09 05:57:13.000000000,closed,10,"Updated the shade configuration, so it creates jars that can be used for"
+480,2019-03-07 10:22:05.000000000,2019-03-08 04:39:41.000000000,closed,0,Reduce code duplication
+479,2019-03-07 03:28:11.000000000,2019-03-09 05:56:12.000000000,closed,6,Customise locating templates
+478,2019-03-06 03:42:10.000000000,2019-03-07 06:48:52.000000000,closed,0,Features/473 row setters
+477,2019-03-05 19:16:44.000000000,2019-03-06 20:06:46.000000000,closed,3,Fix Heatmap
+476,2019-03-05 08:12:05.000000000,2019-03-06 10:32:53.000000000,closed,2,Upgrade to junit 5 (junit jupiter)
+475,2019-03-04 10:36:29.000000000,2019-03-05 03:18:03.000000000,closed,13,Create optional modules
+474,2019-03-03 09:52:54.000000000,2019-03-04 21:17:45.000000000,closed,0,Make dependencies for reading data optional
+473,2019-03-01 22:22:41.000000000,2019-03-07 06:53:41.000000000,closed,3,Add set methods to Row class
+472,2019-03-01 01:15:46.000000000,2019-04-01 20:50:25.000000000,closed,2,[Announcement] Advanced regression kaggle kernel using tablesaw
+471,2019-02-25 12:48:38.000000000,2019-03-27 07:31:54.000000000,closed,2,Add new maxCharsPerColumn parameter in CsvReadOptions
+470,2019-02-24 00:04:14.000000000,2019-03-03 05:13:54.000000000,closed,8,"Initial xlsx support, as discussed in issue #466"
+469,2019-02-23 16:46:04.000000000,2019-03-03 05:55:21.000000000,closed,3,Issue 466 xslx support
+468,2019-02-20 19:51:24.000000000,2019-02-20 20:27:55.000000000,closed,0,Add <!DOCTYPE html>
+467,2019-02-20 19:49:59.000000000,2019-02-20 20:36:18.000000000,closed,3,"Add <meta charset=""UTF-8"">"
+466,2019-02-20 15:15:38.000000000,2019-03-03 05:56:35.000000000,closed,5,"Simplify support other file formats, e.g. Xslx"
+465,2019-02-16 06:56:35.000000000,2019-02-19 21:45:41.000000000,closed,8,NoClassDefFoundError when using Tablesaw jars
+464,2019-02-15 15:12:18.000000000,2019-02-16 22:42:20.000000000,closed,1,Best way to create a column by existing columns
+463,2019-02-15 07:09:51.000000000,2019-02-17 01:50:22.000000000,closed,8,Creating Table with columns of different sizes defaults size to smallest array.
+462,2019-02-14 12:25:05.000000000,2019-02-14 20:21:38.000000000,closed,0,docs: missing quotes in the example code
+461,2019-02-08 03:21:14.000000000,1970-01-01 00:00:00.000000001,open,12,Embedded graphs in Jupyter Notebook.
+460,2019-02-07 17:10:38.000000000,2019-02-16 22:52:44.000000000,closed,3,How to filter table or update rows based on another column
+459,2019-02-03 13:11:21.000000000,2019-02-07 21:19:54.000000000,closed,0,Minor cleanup to improve Codacy score
+458,2019-02-02 08:11:37.000000000,2019-02-07 21:18:56.000000000,closed,0,Remove outdated reference to javafx eclipse plugin
+457,2019-02-02 01:32:13.000000000,1970-01-01 00:00:00.000000001,open,19,Evaluate Paradox as documentation solution (was: Remove code from documentation and link to example classes)
+456,2019-02-01 08:27:08.000000000,2019-02-09 20:06:10.000000000,closed,1,Line endings
+455,2019-02-01 06:05:40.000000000,2019-02-02 01:33:53.000000000,closed,0,Documentation improvements
+454,2019-02-01 03:35:24.000000000,2019-02-02 01:33:03.000000000,closed,17,Major problems trying out plots; everything breaks.
+453,2019-02-01 02:53:41.000000000,2019-02-02 01:33:53.000000000,closed,6,What is `out()`?
+452,2019-01-31 23:45:59.000000000,2019-02-09 19:49:29.000000000,closed,4,Add JSON reader support
+451,2019-01-31 21:22:55.000000000,2019-02-16 22:52:27.000000000,closed,4,Importing db via SQLite?
+450,2019-01-31 11:22:51.000000000,2019-08-09 22:50:42.000000000,closed,13,Capability to export table to json format
+449,2019-01-28 04:14:10.000000000,2019-02-16 22:50:54.000000000,closed,11,feat(FWF): Add fixed width file IO
+448,2019-01-28 03:50:46.000000000,2019-02-17 01:53:37.000000000,closed,1,Unused variables in HistogramTrace
+447,2019-01-26 07:37:05.000000000,2019-02-02 01:46:13.000000000,closed,5,Best way to consume large data set
+446,2019-01-23 17:55:09.000000000,1970-01-01 00:00:00.000000001,open,2,add support for plotting graphs (networks) 
+445,2019-01-23 17:53:41.000000000,1970-01-01 00:00:00.000000001,open,0,add support for plotting geographic maps
+444,2019-01-22 11:11:09.000000000,2019-01-22 19:15:19.000000000,closed,2,Setting Marker Color Doesn't Work
+443,2019-01-22 04:20:51.000000000,2019-01-23 22:27:23.000000000,closed,5,NPE When Using Table.read().csv()
+442,2019-01-19 23:47:15.000000000,2019-01-20 01:22:34.000000000,closed,1,Number Column to double[]
+441,2019-01-19 20:47:02.000000000,1970-01-01 00:00:00.000000001,open,3,Some unit tests fail on Windows 
+440,2019-01-18 01:46:48.000000000,2019-01-19 02:19:42.000000000,closed,9,Removing rows which contain null values
+439,2019-01-16 15:36:21.000000000,2019-01-16 20:12:46.000000000,closed,1,Small documentation issue
+438,2019-01-16 15:20:04.000000000,2019-02-17 01:52:05.000000000,closed,4,Table.toString() throws exception when not all columns have the same length
+437,2019-01-15 19:26:45.000000000,2019-02-17 00:51:51.000000000,closed,2,default to fat columns
+436,2019-01-15 01:33:00.000000000,1970-01-01 00:00:00.000000001,open,3,Tests without asserts
+435,2019-01-14 16:22:04.000000000,2019-01-16 23:17:53.000000000,closed,4,"How to update value of the table ?I use function ""set"",but errors all the time..."
+434,2019-01-12 02:21:03.000000000,2019-01-14 01:03:44.000000000,closed,5,Support for multiple plots within single html file
+433,2019-01-09 14:00:05.000000000,2019-01-14 16:38:04.000000000,closed,4,"class SqlResultSetReader's function read use ResultSet.getObject funtion ,it makes errors."
+432,2019-01-06 16:22:38.000000000,2019-01-11 20:16:23.000000000,closed,1,Bug: TimeSeriesPlot cannot override date column name
+431,2019-01-06 15:12:57.000000000,2019-01-11 20:24:00.000000000,closed,2,PieChart only takes a categorical column as groupColName
+430,2019-01-04 19:55:24.000000000,2019-01-19 20:49:14.000000000,closed,21,Circular dependencies in Columns/ColumnTypes can lead to unpredictable behavior
+429,2018-12-31 21:55:00.000000000,2019-01-02 19:00:53.000000000,closed,0,Nicer string to number encoding
+428,2018-12-28 23:59:44.000000000,2019-02-17 01:50:58.000000000,closed,9,Add support for fixed-width files
+427,2018-12-17 14:08:10.000000000,2019-01-04 02:46:25.000000000,closed,9,Error when converting to Smile AttributeDataset
+426,2018-12-15 01:32:23.000000000,2018-12-15 03:11:42.000000000,closed,1,Reading values from Hive bigInt column fails when values do not end in a decimal
+425,2018-12-13 21:10:40.000000000,2019-07-26 04:37:08.000000000,closed,1,Add support for plot matrices 
+424,2018-12-13 18:57:36.000000000,2018-12-14 11:00:33.000000000,closed,5,"Error adding value to column duration: Value out of range. Value:""58329"" Radix:10"
+423,2018-12-03 16:18:34.000000000,2018-12-03 20:01:10.000000000,closed,1,userguide example does not work
+422,2018-12-02 04:47:40.000000000,2019-01-14 19:00:47.000000000,closed,3,Add sorting on negative indices + some refactoring
+421,2018-11-29 03:18:39.000000000,2018-12-14 01:40:35.000000000,closed,2,Converting  a StringColumn to String []
+420,2018-11-28 01:15:10.000000000,2018-11-29 01:10:00.000000000,closed,1,Add support for pivot tables
+419,2018-11-27 07:42:37.000000000,2018-11-27 21:35:43.000000000,closed,2,stringcolumn get null value or MissingValue with different input
+418,2018-11-26 19:38:29.000000000,2018-11-27 03:46:59.000000000,closed,7,Converting Table  to double[][]
+417,2018-11-26 16:18:14.000000000,2018-12-13 21:09:31.000000000,closed,5,Creating a heatmap using a Matrix
+416,2018-11-21 01:46:34.000000000,2018-11-26 22:46:58.000000000,closed,1,Add SQL date support
+415,2018-11-19 16:51:40.000000000,2018-11-28 13:48:30.000000000,closed,14,How to set data type to whole Table.
+414,2018-11-18 22:22:15.000000000,2018-11-26 22:46:58.000000000,closed,3,Teradata date format support
+413,2018-11-17 09:16:23.000000000,2019-01-28 02:32:44.000000000,closed,4,multiple y axes
+412,2018-11-13 00:35:42.000000000,2018-11-29 01:10:50.000000000,closed,4,Error reading iris and baseball csv file
+411,2018-11-10 22:15:17.000000000,2018-12-03 20:11:01.000000000,closed,4,Error while Importing data from RDBMS
+410,2018-11-09 02:24:18.000000000,2018-11-09 22:58:29.000000000,closed,4,Dropping Rows Based on Filter
+409,2018-11-06 06:05:39.000000000,2018-11-12 03:05:34.000000000,closed,3,Error loading spambase.csv
+408,2018-11-05 15:03:17.000000000,2018-11-09 22:52:49.000000000,closed,0,Default value for csv columns size
+407,2018-11-04 04:29:12.000000000,2018-11-04 08:49:55.000000000,closed,0,"make removeMissing() actually remove missing, rather than removing only non-missing, for StringColumn and TextColumn"
+406,2018-11-03 20:36:34.000000000,2018-12-09 13:00:01.000000000,closed,2,Unused values() methods
+405,2018-10-30 20:36:32.000000000,2018-10-31 05:27:58.000000000,closed,0,Fixes issue #404
+404,2018-10-30 20:01:11.000000000,2018-10-31 05:28:17.000000000,closed,1,Append of Float to FloatColumn removes decimals
+403,2018-10-30 11:37:23.000000000,2018-11-01 08:02:24.000000000,closed,4,fix for #395 It's impossible to parse CSV file with more than 512 col…
+402,2018-10-22 14:30:47.000000000,2018-10-23 05:46:54.000000000,closed,2,Can not run examples
+401,2018-10-16 12:12:55.000000000,2018-10-25 18:09:47.000000000,closed,4, Anything can be done to fill missing value with backfill method or frontfill method?
+400,2018-10-15 11:06:42.000000000,2018-11-29 01:02:47.000000000,closed,5,Sql number type mapping
+399,2018-10-07 04:44:33.000000000,2018-10-07 23:17:49.000000000,closed,1,Alternative to Column/Create in 0.20 ?
+398,2018-10-04 18:22:13.000000000,2018-10-04 19:55:04.000000000,closed,5,fix for #395 It's impossible to parse CSV file with more than 512 columns
+397,2018-10-04 04:04:55.000000000,2018-10-07 23:18:30.000000000,closed,7,Can't run examples
+396,2018-10-02 13:54:46.000000000,1970-01-01 00:00:00.000000001,open,1,Allow to read malformed CSV
+395,2018-09-26 15:38:16.000000000,2018-11-03 08:01:16.000000000,closed,7,It's impossible to parse CSV file with more than 512 columns
+394,2018-09-24 19:35:33.000000000,2018-09-30 20:35:51.000000000,closed,3,Move usage of classes from optional dependency to their own class
+393,2018-09-22 20:24:12.000000000,2018-09-30 20:35:51.000000000,closed,6,Dataframe to array?
+392,2018-09-18 17:27:31.000000000,2018-09-18 19:43:04.000000000,closed,2,StringColumn.asObjectArray() returns unexpected result
+391,2018-09-18 16:31:38.000000000,2018-09-19 18:48:52.000000000,closed,4,Fix #390
+390,2018-09-18 14:16:53.000000000,2018-09-19 18:48:53.000000000,closed,0,java.lang.OutOfMemoryError when appending a column to itself
+389,2018-09-11 20:10:20.000000000,2018-11-29 01:03:31.000000000,closed,1,Intcol2
+388,2018-09-11 09:05:34.000000000,2018-11-29 01:04:04.000000000,closed,16,Precision of number types imported from query ResultSet
+387,2018-09-10 10:04:19.000000000,2018-09-10 19:39:13.000000000,closed,6,Generalize DataFrameJoiner.java
+386,2018-09-10 01:27:24.000000000,2018-09-10 21:29:43.000000000,closed,4,Table.read().csv(...) broken starting ver 0.25.1?
+385,2018-09-08 04:53:37.000000000,2019-08-06 16:02:05.000000000,closed,4,Float vs Double
+384,2018-09-07 16:18:19.000000000,2018-09-10 22:27:45.000000000,closed,1,StringColumn isIn should use a hashset rather than array scan
+383,2018-09-07 14:48:04.000000000,2019-08-03 22:46:29.000000000,closed,17,Joins are too slow
+382,2018-09-06 20:05:10.000000000,2019-02-17 21:00:19.000000000,closed,3,[Question] Cannot change default colors 
+381,2018-09-06 18:21:41.000000000,2019-08-01 06:31:43.000000000,closed,12,Joins don't work when one table has only one column
+380,2018-09-06 15:22:03.000000000,2018-09-11 19:38:13.000000000,closed,17,Join prevented on some column types
+379,2018-09-06 13:34:13.000000000,2018-09-06 23:06:19.000000000,closed,3,com.univocity.parsers.common.TextParsingException: java.lang.ArrayIndexOutOfBoundsException - 512
+378,2018-09-06 00:55:00.000000000,2018-09-06 21:42:35.000000000,closed,8,"SQL type NUMBER(5,0) interpreted as both Double and BigDecimal"
+377,2018-09-05 11:11:29.000000000,2018-09-08 18:44:18.000000000,closed,22,Add support to join tables on multiple columns.
+376,2018-09-01 10:10:32.000000000,2018-09-10 21:25:35.000000000,closed,6,"StringColumn.create(String, int) always create a column of size 0"
+375,2018-09-01 09:57:44.000000000,2018-09-06 22:45:19.000000000,closed,3,DataFrameWriter.csv does not copy the specified separator
+374,2018-08-31 15:26:34.000000000,2019-02-09 21:18:56.000000000,closed,6,Read JSON data
+373,2018-08-30 16:18:03.000000000,2018-08-31 15:31:58.000000000,closed,2,How to join two tables by key(or colunm)？
+372,2018-08-30 06:58:22.000000000,2018-08-30 07:34:39.000000000,closed,2,Is there a easy function can add two colunms ‘s value to new colunm.
+371,2018-08-29 22:21:45.000000000,2018-09-02 20:41:27.000000000,closed,10,Fix for joining multiple tables
+370,2018-08-29 18:13:56.000000000,2018-08-29 20:02:34.000000000,closed,2,IntColumn and others are missing from latest release
+369,2018-08-29 06:18:32.000000000,2018-08-31 15:31:22.000000000,closed,6,"Is there a easy method  can convert ""list<bean>"" to a dataframe?"
+368,2018-08-27 11:32:58.000000000,2018-08-27 16:31:18.000000000,closed,5,"why ""NumberColumn"" does not have create function? "
+367,2018-08-27 11:19:59.000000000,2018-09-07 00:42:24.000000000,closed,13,add support for joining on multiple columns. 
+366,2018-08-25 08:43:49.000000000,2018-08-27 16:52:06.000000000,closed,0,Unused method
+365,2018-08-21 19:55:12.000000000,2019-02-17 02:02:21.000000000,closed,1,Specific numeric column types vs Integral and Floating Point types
+364,2018-08-21 00:55:31.000000000,2018-08-21 14:02:45.000000000,closed,2,Add converter methods to numeric columns
+363,2018-08-20 23:53:08.000000000,2018-08-21 03:15:44.000000000,closed,1,simplify use of column-specific methods (by overriding?)
+362,2018-08-20 20:41:04.000000000,1970-01-01 00:00:00.000000001,open,1,add support for formatted output in CSV write options
+361,2018-08-20 20:10:23.000000000,2018-08-20 20:41:42.000000000,closed,0,Remove need for NumberIterator
+360,2018-08-20 20:01:58.000000000,1970-01-01 00:00:00.000000001,open,6,add support for graph operations
+359,2018-08-20 19:38:37.000000000,2018-08-20 19:59:53.000000000,closed,0,Use formatted strings when printing table
+358,2018-08-20 19:13:11.000000000,2018-08-20 19:28:42.000000000,closed,3,Stick with ints for crosstabs?
+357,2018-08-20 19:03:31.000000000,2018-08-20 20:00:55.000000000,closed,2,numeric column formatting seems broken
+356,2018-08-20 18:43:56.000000000,2019-01-23 17:41:25.000000000,closed,3,implement a text column type
+355,2018-08-20 18:32:47.000000000,2018-08-22 19:37:41.000000000,closed,2,more memory improvements
+354,2018-08-20 08:18:16.000000000,2018-08-20 17:28:36.000000000,closed,3,Bug in date inference code
+353,2018-08-20 06:30:03.000000000,2018-08-20 14:42:12.000000000,closed,3,More efficient setting of cell values
+352,2018-08-20 05:20:29.000000000,2018-08-20 21:02:00.000000000,closed,1,Remove need for NumberIterator
+351,2018-08-20 00:54:23.000000000,2018-08-20 20:37:39.000000000,closed,1,cleanup raw column type warnings in jsplot code
+350,2018-08-19 09:56:43.000000000,2018-08-19 23:02:24.000000000,closed,1,Add LongColumn and remove the need for data wrappers
+349,2018-08-19 00:41:19.000000000,2018-08-19 23:02:42.000000000,closed,0,Introduce LongColumn
+348,2018-08-18 22:16:00.000000000,2018-08-19 03:06:03.000000000,closed,4,Leverage recent improvements for lightweight IntColumn and FloatColumn
+347,2018-08-18 18:31:38.000000000,2018-08-18 19:50:59.000000000,closed,0,Fix NumberIterator
+346,2018-08-18 18:23:22.000000000,2018-08-19 00:22:25.000000000,closed,0,NumberIterator doesn't work for floats
+345,2018-08-18 08:56:33.000000000,2018-08-19 03:50:12.000000000,closed,1,Reduce autoboxing
+344,2018-08-18 00:22:01.000000000,2018-08-18 08:26:20.000000000,closed,1,appendObj() implementations don't check for null values
+343,2018-08-18 00:19:30.000000000,2018-08-20 14:42:12.000000000,closed,0,Copy table rows is boxing all cells
+342,2018-08-16 21:07:59.000000000,2018-08-18 17:11:45.000000000,closed,4,Integral columns
+341,2018-08-15 19:48:46.000000000,2018-08-16 19:21:48.000000000,closed,0,Add NumberRolingColumn and fix remaining compilation warnings
+340,2018-08-15 15:55:46.000000000,2018-08-19 14:40:15.000000000,closed,2,Auto format Double columns that have only integer values in them to skip the decimal pt.
+339,2018-08-15 15:53:20.000000000,2018-08-19 23:02:52.000000000,closed,0,reduce memory requirements
+338,2018-08-15 07:27:53.000000000,2018-08-15 20:01:04.000000000,closed,2,Fix generics warnings
+337,2018-08-15 06:43:48.000000000,2018-08-15 16:56:43.000000000,closed,1,Unused class BooleanAggregateFunction
+336,2018-08-15 04:22:06.000000000,2018-08-15 07:28:51.000000000,closed,2,Fix all StringParser generics warnings
+335,2018-08-14 20:13:49.000000000,2018-08-14 23:43:47.000000000,closed,0,Fix majority of remaining generics warnings
+334,2018-08-14 19:01:43.000000000,2018-08-15 15:21:05.000000000,closed,5,Functional methods implemented and tested
+333,2018-08-14 11:49:37.000000000,2018-08-15 16:57:13.000000000,closed,2,Summarizer Bug
+332,2018-08-14 01:48:42.000000000,2018-08-14 01:49:02.000000000,closed,0,Univocity as replacement for OpenCSV
+331,2018-08-12 23:39:57.000000000,2018-08-13 00:24:14.000000000,closed,2,implemented generic typed columns
+330,2018-08-09 20:21:38.000000000,2018-08-10 17:28:27.000000000,closed,2,Fix commented out code
+329,2018-08-09 18:25:33.000000000,2018-08-10 17:23:21.000000000,closed,1,Enable summarization of non-numeric column types
+328,2018-08-08 19:17:00.000000000,2018-08-13 00:53:19.000000000,closed,11,Remove need for packed column types
+327,2018-08-05 17:57:29.000000000,2018-08-12 01:15:32.000000000,closed,2,Compilation warnings
+326,2018-08-04 17:46:14.000000000,2018-08-08 05:22:39.000000000,closed,6,Make it possible for a user to add new column types without modifying tablesaw
+325,2018-08-03 20:21:29.000000000,2018-08-03 22:19:22.000000000,closed,1,"Row should allow case-insensitive lookup of column names, just like table"
+324,2018-08-02 16:58:53.000000000,2018-08-04 01:58:44.000000000,closed,1,join should allow duplicate column names across source tables
+323,2018-08-02 16:55:27.000000000,2018-08-02 17:05:31.000000000,closed,1,Table::dropDuplicateRows() is broken
+322,2018-08-01 00:29:05.000000000,2018-08-01 00:39:17.000000000,closed,0,Issue 310
+321,2018-07-31 18:15:24.000000000,2018-07-31 18:23:00.000000000,closed,0,Javadoc typo fix
+320,2018-07-31 14:45:29.000000000,2019-08-08 07:12:27.000000000,closed,3,Implement subqueries for where statement and having clause for summarizations.
+319,2018-07-31 14:29:43.000000000,2018-08-14 01:50:02.000000000,closed,6,Remove unneeded dependencies in core
+318,2018-07-31 14:16:38.000000000,2019-08-04 21:13:25.000000000,closed,4,Make jsplots work in JavaFx web viewer
+317,2018-07-30 22:14:47.000000000,2018-08-11 23:26:53.000000000,closed,6,Code Optimization
+316,2018-07-30 15:58:09.000000000,2018-08-08 05:16:51.000000000,closed,4,write().csv() closes its writer in all circumstances
+315,2018-07-29 18:09:33.000000000,2018-07-30 14:34:44.000000000,closed,2,Made ColumnType an interface
+314,2018-07-25 17:06:45.000000000,1970-01-01 00:00:00.000000001,open,1,Add an isIn(Column) method to each column type
+313,2018-07-21 06:23:49.000000000,2018-07-21 20:07:23.000000000,closed,3,Incorrect column data and DateFormatException when using TableSlices
+312,2018-07-18 20:06:01.000000000,2018-08-13 00:54:32.000000000,closed,1,A version that compiles.
+311,2018-07-17 01:57:07.000000000,2018-07-19 01:07:57.000000000,closed,3,Provide converter to Smile's AttributeDataset
+310,2018-07-16 00:03:24.000000000,2018-07-30 14:42:06.000000000,closed,1,Make column type an interface
+309,2018-07-15 17:52:45.000000000,2018-07-15 23:20:18.000000000,closed,5,keep published javadoc consistent with releases
+308,2018-07-14 19:09:55.000000000,2018-07-15 02:56:14.000000000,closed,2,QUESTION: Are there any gotchas to using Indexes in multiple threads?
+307,2018-07-14 09:46:03.000000000,2018-07-15 16:24:23.000000000,closed,3,csv parsing > ensure file format and column number consistency
+306,2018-07-13 16:34:21.000000000,2018-07-14 17:52:04.000000000,closed,10,Removed filtering based on QueryHelper & ColumnReferences.
+305,2018-07-12 19:39:41.000000000,2018-07-15 17:48:03.000000000,closed,2,Unused variables in jsplot module
+304,2018-07-11 21:48:36.000000000,2018-07-12 18:26:02.000000000,closed,3,Merge tables via a function ?
+303,2018-07-11 20:49:14.000000000,2018-07-12 00:27:29.000000000,closed,3,Handling of Column Types when Reading from .csv Files
+302,2018-07-10 19:46:05.000000000,2018-07-12 17:00:11.000000000,closed,5,Add convenience methods to convert to double arrays for easier usage with Smile
+301,2018-07-10 09:04:18.000000000,2018-07-10 17:52:04.000000000,closed,2,Consider adding back addColumn
+300,2018-07-10 02:56:12.000000000,2018-07-12 19:23:44.000000000,closed,5,Iterator of row elements and row size
+299,2018-07-09 21:50:33.000000000,2018-07-10 18:51:19.000000000,closed,3,Link changes_in_v_0.2 from docs
+298,2018-07-09 20:54:39.000000000,2018-07-10 17:49:05.000000000,closed,3,Document CrossTab
+297,2018-07-06 18:28:53.000000000,2018-07-09 17:18:36.000000000,closed,4,ArrayIndexOutOfBounds when reading CSV file
+296,2018-07-05 18:59:49.000000000,2018-07-13 16:37:59.000000000,closed,29,Readonly data: Any equivalent in tablesaw to pandas' view vs copy?
+295,2018-07-03 18:50:03.000000000,2018-07-03 19:06:42.000000000,closed,1,API inconsistency -- adding missing values to columns
+294,2018-06-29 18:24:18.000000000,2018-07-01 15:44:50.000000000,closed,3,"Table.ColumnCollector class not public, cannot be accessed from outside package?"
+293,2018-06-28 03:26:25.000000000,2018-06-28 03:28:16.000000000,closed,0,jsplot branch 
+292,2018-06-15 15:04:32.000000000,2018-06-28 03:33:11.000000000,closed,1,why table column name is case insensitive?
+291,2018-06-07 19:51:10.000000000,2018-06-08 13:24:23.000000000,closed,3,java.time.temporal.UnsupportedTemporalTypeException: The ChronoUnit Hours is not supported for timeWindows on dates
+290,2018-05-30 13:06:59.000000000,2018-06-06 19:45:56.000000000,closed,12,How much data can tablesaw store at most?
+289,2018-05-26 18:38:02.000000000,2018-07-18 05:07:01.000000000,closed,4,tried to introduce univocity CSV reader/writer
+288,2018-04-28 00:34:21.000000000,2018-07-04 01:07:12.000000000,closed,10,Discussion: Apache Arrow
+287,2018-04-24 15:26:34.000000000,2018-07-04 01:07:26.000000000,closed,0,close off v. 0.20
+286,2018-04-24 14:48:39.000000000,2018-07-10 09:04:53.000000000,closed,2,document use of tablesaw with Beaker
+285,2018-04-24 14:01:24.000000000,2018-08-13 00:24:52.000000000,closed,15,Parameterize Column with element type
+284,2018-04-22 14:12:44.000000000,2018-08-14 01:51:05.000000000,closed,16,Replace CSV library with faster alternative
+283,2018-04-20 16:08:27.000000000,2018-08-14 04:41:06.000000000,closed,4,add min and max MAP functions
+282,2018-04-19 01:18:06.000000000,2019-08-04 21:32:13.000000000,closed,5,OSGi support
+281,2018-04-19 00:58:59.000000000,2018-04-24 18:48:53.000000000,closed,7,API for filling columns.
+280,2018-04-19 00:16:11.000000000,1970-01-01 00:00:00.000000001,open,12,Document some examples using Smile and Tablesaw together
+279,2018-04-18 19:01:13.000000000,2019-08-04 21:32:13.000000000,closed,2,IDEA support
+278,2018-04-18 18:24:48.000000000,2018-04-18 18:28:11.000000000,closed,0,fix unused name parameter in column creation
+277,2018-04-13 22:57:13.000000000,2018-04-14 01:22:15.000000000,closed,1,generalize summarization so that you can summarize calculate columns
+276,2018-04-13 17:28:24.000000000,2018-04-18 16:49:56.000000000,closed,4,Add aggregate functions that take values
+275,2018-04-13 17:26:42.000000000,2018-04-14 02:19:32.000000000,closed,1,make append() return the receiver in columns
+274,2018-04-13 15:30:33.000000000,2019-08-04 21:32:13.000000000,closed,16,Eclipse support...
+273,2018-04-13 12:01:44.000000000,2018-04-18 17:21:25.000000000,closed,7,"Make Table class serializable, so that we can just send a table object as json usin"
+272,2018-04-11 17:55:53.000000000,2018-04-12 03:55:22.000000000,closed,3,make table summarization work with non-numeric columns
+271,2018-04-08 22:49:04.000000000,2018-04-08 22:49:23.000000000,closed,0,more tests and test cleanup
+270,2018-04-08 20:58:58.000000000,2018-04-08 21:06:49.000000000,closed,0,restored some summarization functionality
+269,2018-04-07 16:57:30.000000000,2018-04-07 17:00:32.000000000,closed,1,adding code coverage (top level)
+268,2018-04-07 06:45:12.000000000,2018-04-07 06:46:30.000000000,closed,0,Table enhancements
+267,2018-04-07 00:20:57.000000000,2018-04-07 00:21:14.000000000,closed,0,More cleanup
+266,2018-04-06 17:58:40.000000000,2018-04-06 18:00:07.000000000,closed,0,Cleanup
+265,2018-04-06 15:26:59.000000000,2018-04-06 15:27:24.000000000,closed,0,Correlation
+264,2018-04-05 00:33:46.000000000,2018-04-06 03:36:32.000000000,closed,1,Broke chaining of table queries 
+263,2018-04-04 19:17:04.000000000,2018-04-04 19:21:45.000000000,closed,1,No col ref
+262,2018-04-02 16:22:19.000000000,2018-04-03 14:45:17.000000000,closed,2,apidocs in main tablesaw folder are not being updated
+261,2018-04-02 12:16:39.000000000,2018-04-07 17:27:12.000000000,closed,11,apply locale when detecting column types on csv read
+260,2018-04-02 01:29:26.000000000,2018-04-02 01:31:12.000000000,closed,3,Version1
+259,2018-04-02 01:11:11.000000000,2018-04-02 01:24:10.000000000,closed,0,Version1
+258,2018-04-01 21:12:02.000000000,2018-04-02 20:21:43.000000000,closed,1,DoubleArrays.to2dArray should work on BooleanColumn
+257,2018-04-01 08:58:21.000000000,1970-01-01 00:00:00.000000001,open,1,Add Column.stream
+256,2018-03-27 14:08:30.000000000,2018-07-16 01:18:50.000000000,closed,5,Pass the date/datetime format when setting the options for the CSV read.
+255,2018-03-23 11:42:08.000000000,2018-03-31 18:56:49.000000000,closed,2,is DateIsOnOrAfter should use long
+254,2018-03-18 04:13:24.000000000,2018-03-18 04:19:55.000000000,closed,0,Doable
+253,2018-03-15 22:03:56.000000000,2018-04-04 19:08:34.000000000,closed,4,Should be able to group table records temporally
+252,2018-03-15 22:00:03.000000000,2018-03-16 23:30:39.000000000,closed,1,provide cross-tab percent like functionality on a single column
+251,2018-03-07 08:09:10.000000000,2018-04-10 18:48:59.000000000,closed,2,Multiple Aggregate
+250,2018-02-16 00:10:40.000000000,2018-06-30 17:27:50.000000000,closed,17,Date/time formatter 
+249,2018-02-15 12:26:51.000000000,2018-02-16 21:38:45.000000000,closed,1,Import of data from Java Collections
+248,2018-02-11 11:31:17.000000000,2018-02-12 00:40:44.000000000,closed,1,Index (1) is greater than or equal to list size (1)
+247,2018-02-10 00:57:08.000000000,2018-02-12 00:43:07.000000000,closed,2,Time series forecasting
+246,2018-02-04 22:09:40.000000000,2018-02-04 22:48:26.000000000,closed,1,Fix temp paths so testing works on windows in StorageManagerTest.java
+245,2018-02-04 22:00:03.000000000,2018-02-06 21:57:36.000000000,closed,1,Add cumulative sum function to columns - cumSum()
+244,2018-02-04 21:56:49.000000000,2018-02-04 22:51:58.000000000,closed,0, Add replaceColumn() to Table
+243,2018-02-03 02:46:32.000000000,2018-02-04 22:10:33.000000000,closed,3,Add cumulative sum function to columns
+242,2018-02-03 01:13:57.000000000,2018-02-04 22:09:53.000000000,closed,2,Add replaceColumn() to Table
+241,2018-01-30 12:49:07.000000000,2018-02-01 10:41:10.000000000,closed,2,handle SKIP columnType when no header provided
+240,2018-01-30 12:37:24.000000000,2018-02-02 22:41:12.000000000,closed,1,"Cannot use SKIP in columnTypes, when no header is present"
+239,2018-01-30 09:33:11.000000000,2018-02-25 19:35:08.000000000,closed,5,Allow subtract operation between all numeric types
+238,2018-01-29 03:13:07.000000000,2018-01-29 07:12:11.000000000,closed,0,Add up-conversion methods in numeric columns
+237,2018-01-29 03:02:45.000000000,2018-02-25 22:24:08.000000000,closed,1,Allow subtraction between any two numeric columns types
+236,2018-01-26 01:03:19.000000000,2018-01-30 09:21:46.000000000,closed,5,Generic subtract
+235,2018-01-25 06:03:10.000000000,2018-02-07 04:28:57.000000000,closed,2,"Feature request: Cumulative sum, but where to put it?"
+234,2018-01-25 03:40:52.000000000,2018-03-16 04:35:57.000000000,closed,2,isBetweenIncluding // isBetweenExcluding Filter not behaving as I thought?
+233,2018-01-24 08:47:08.000000000,2018-02-11 23:59:57.000000000,closed,4,Add draft version of hclust (re #144)
+232,2018-01-24 01:27:31.000000000,2018-01-25 20:56:48.000000000,closed,2,Fix difference computation in LongColumn
+231,2018-01-24 01:24:07.000000000,2018-01-25 20:56:48.000000000,closed,0,Implementation of difference in LongColumn always returns a single value column.
+230,2018-01-23 23:11:43.000000000,2018-04-02 20:23:01.000000000,closed,3,"Standardize available column constructors to pass existing data (list, array, arrayList)"
+229,2018-01-18 22:57:23.000000000,2018-07-17 18:05:04.000000000,closed,4,CrossTab.xTabCount change column type to CategoryColumn
+228,2018-01-18 12:28:34.000000000,2018-02-12 00:47:09.000000000,closed,1,Can we support DoubleColumn filter?
+227,2018-01-15 19:17:19.000000000,2018-01-15 20:31:44.000000000,closed,1,How can I do difference or some other aggFunction with groupBy?
+226,2018-01-10 03:11:28.000000000,2018-01-16 01:53:02.000000000,closed,1,#218 Add a JavaFX TableView to display a Table.
+225,2017-12-28 06:23:43.000000000,2018-04-18 22:56:58.000000000,closed,3,Extend support for selection by relationship between two columns
+224,2017-12-27 21:12:24.000000000,2018-04-07 17:27:12.000000000,closed,3,Consider having DataFrameReader take a locale
+223,2017-12-27 17:39:11.000000000,2017-12-27 21:07:23.000000000,closed,0,polish `TypeUtils#DATE_FORMATTER`
+222,2017-12-27 08:42:35.000000000,2017-12-27 23:32:10.000000000,closed,8,Sorting on date column is broken
+221,2017-12-25 05:16:16.000000000,1970-01-01 00:00:00.000000001,open,3,Support Parquet Read/Write
+220,2017-12-25 05:11:33.000000000,2018-04-11 03:01:25.000000000,closed,2,Add CsvWriteOptions (analogous to CsvReadOptions)
+219,2017-12-23 23:29:33.000000000,2017-12-28 05:49:35.000000000,closed,2,"Add conditional update column methods: set(value, selection)"
+218,2017-12-19 19:22:27.000000000,2018-02-12 00:46:06.000000000,closed,3,Display Table in TableView
+217,2017-12-19 02:35:14.000000000,2017-12-19 05:05:08.000000000,closed,0,Change 'add' to 'set' in set methods of Columns
+216,2017-12-18 16:42:35.000000000,2017-12-25 21:36:44.000000000,closed,6,Columns 'set' methods is adding
+215,2017-12-18 02:29:42.000000000,2018-01-16 03:37:32.000000000,closed,6,MISSING float values printing as 'null' again
+214,2017-12-16 23:05:21.000000000,2017-12-19 05:10:33.000000000,closed,0,add `DoubleIndex`
+213,2017-12-16 21:31:11.000000000,2017-12-27 00:42:02.000000000,closed,7,failed 'DataFrameJoinerTest'
+212,2017-12-16 17:21:29.000000000,2017-12-17 19:16:12.000000000,closed,1,#133: Implement a Bubble Plot
+211,2017-12-08 07:37:43.000000000,2017-12-08 09:24:26.000000000,closed,1,Fix bug in min of DateColumn
+210,2017-12-07 09:25:27.000000000,2017-12-07 10:07:10.000000000,closed,0,Refactor
+209,2017-12-07 09:15:04.000000000,2017-12-08 09:26:23.000000000,closed,0,Fix bug in BooleanMapUtils
+208,2017-12-06 13:56:04.000000000,2018-03-31 19:15:06.000000000,closed,10,"CSVParser - ""OutOfMemoryError: GC overhead limit exceeded"" with large file"
+207,2017-12-03 21:15:52.000000000,2017-12-25 22:00:01.000000000,closed,2,RollingColumns should inherit from Column
+206,2017-12-03 02:49:12.000000000,1970-01-01 00:00:00.000000001,open,0,Implement difference with rolling windows
+205,2017-12-02 07:44:53.000000000,2017-12-02 15:28:27.000000000,closed,1,Should not print missing values when displaying tables
+204,2017-12-01 13:00:21.000000000,1970-01-01 00:00:00.000000001,open,3,Handle percentages and currency
+203,2017-12-01 08:43:33.000000000,2017-12-01 10:21:03.000000000,closed,3,Adding a signature to dropRows function
+202,2017-11-25 22:11:47.000000000,2018-04-10 19:01:30.000000000,closed,1,Add an AggregateFunctions.countUnique function
+201,2017-11-23 21:00:09.000000000,2017-12-17 21:10:27.000000000,closed,1,rationalize naming on methods appending a new cell to a column
+200,2017-11-18 00:37:45.000000000,1970-01-01 00:00:00.000000001,open,1,Document rolling window functions
+199,2017-11-16 00:08:51.000000000,2017-12-12 03:15:35.000000000,closed,7,Best way to insert/append single/few records?
+198,2017-11-15 08:48:19.000000000,1970-01-01 00:00:00.000000001,open,1,Add Column views
+197,2017-11-14 08:59:12.000000000,2017-11-15 08:56:43.000000000,closed,4,Remove Kotlin files
+196,2017-11-13 09:27:51.000000000,2017-11-15 08:55:16.000000000,closed,4,Consider renaming splitOn to groupBy
+195,2017-11-13 08:48:48.000000000,2017-11-15 08:57:07.000000000,closed,9,Dataframe.kt should not call deprecated APIs for createFromCsv and exportToCsv
+194,2017-11-13 08:19:34.000000000,2017-11-13 08:22:21.000000000,closed,1,Consider renaming Column to Series
+193,2017-11-13 04:38:21.000000000,2017-11-18 00:37:23.000000000,closed,3,Rolling window calculations
+192,2017-11-11 08:09:22.000000000,2017-11-12 22:23:07.000000000,closed,6,simple implementation of selectRows method
+191,2017-11-07 21:57:04.000000000,2017-11-13 04:07:37.000000000,closed,1,DateColumn should have constructor taking List or Array of dates
+190,2017-11-03 08:30:18.000000000,2017-11-14 10:02:45.000000000,closed,1,Create tablesaw-beakerx project
+189,2017-11-02 22:11:31.000000000,2017-11-05 23:29:03.000000000,closed,1,prepend each Java/Kotlin file w/ »Apache 2 License«
+188,2017-10-25 21:31:08.000000000,2017-10-27 19:04:33.000000000,closed,1,Fix | Wrong FloatPredicate values in FloatColumn.java.
+187,2017-10-25 15:14:25.000000000,2017-10-26 17:14:48.000000000,closed,3,Read csv file is very slowly when file size more than 300M
+186,2017-10-25 11:28:48.000000000,2017-11-03 07:55:37.000000000,closed,3,how to read excel
+185,2017-10-23 04:35:20.000000000,2017-11-13 00:19:51.000000000,closed,2,Add method to filter table by row index
+184,2017-10-22 11:12:29.000000000,2017-10-25 02:44:52.000000000,closed,4,Feature request > Iterate over a table
+183,2017-10-22 08:29:00.000000000,2017-10-25 02:49:09.000000000,closed,2,Feature Request > iterator method on Column class
+182,2017-10-21 12:47:01.000000000,2017-10-22 08:09:57.000000000,closed,4,Need of more code samples on http table build
+181,2017-10-18 09:04:15.000000000,2017-10-20 14:47:42.000000000,closed,3,Error when reading a CSV 
+180,2017-10-14 19:35:38.000000000,2017-10-25 21:56:55.000000000,closed,0,javadoc
+179,2017-10-06 22:22:51.000000000,2017-10-07 12:01:31.000000000,closed,2,Load Table from JSON URL
+178,2017-09-14 12:45:29.000000000,2017-11-13 00:19:07.000000000,closed,4,IntBetween is not inclusive as expected
+177,2017-09-11 00:59:50.000000000,2017-09-11 06:44:22.000000000,closed,0,Some tests for FloatColumn #47
+176,2017-09-09 02:23:00.000000000,2017-09-11 03:53:39.000000000,closed,2,locale for date parsing
+175,2017-09-08 21:05:06.000000000,2017-11-03 08:52:10.000000000,closed,5,Plotting doesn't work in BeakerX
+174,2017-09-08 06:20:27.000000000,2017-09-08 14:46:47.000000000,closed,1,Move smile code to a separate module
+173,2017-09-08 00:28:40.000000000,2017-09-09 17:30:06.000000000,closed,6,#44 tests for Table#append
+172,2017-09-03 23:38:24.000000000,2017-09-08 05:26:23.000000000,closed,9,Replace PackedLocalDate with milliseconds since epoch
+171,2017-09-03 20:39:40.000000000,2017-11-13 01:06:12.000000000,closed,2,Setup Codacy reporter for JaCoCo
+170,2017-09-02 14:25:58.000000000,2017-09-03 07:48:56.000000000,closed,3,Infra/coverage
+169,2017-08-31 18:13:02.000000000,2017-09-03 22:00:51.000000000,closed,4,error parsing csv file
+168,2017-08-31 05:44:05.000000000,2017-09-08 19:24:57.000000000,closed,6,Consider how to better support Smile
+167,2017-08-30 18:15:29.000000000,2017-11-18 06:31:22.000000000,closed,9,Should toString() of Relation include the table's name?
+166,2017-08-30 14:24:59.000000000,2017-08-31 19:31:20.000000000,closed,7,Inconsistent method naming max/minimum
+165,2017-08-28 20:07:44.000000000,2018-04-06 05:25:28.000000000,closed,1,Complete migration of docs to github
+164,2017-08-28 20:04:29.000000000,2017-08-28 22:32:33.000000000,closed,2,"What is ""outlier"" ?"
+163,2017-08-28 17:03:01.000000000,2018-04-02 03:49:04.000000000,closed,0,implement generalized support for hyperparameter optimization for ML models
+162,2017-08-28 16:27:30.000000000,2017-12-19 05:10:33.000000000,closed,0,Add indexing for DoubleColumns
+161,2017-08-28 16:05:24.000000000,2018-03-18 03:23:49.000000000,closed,6,Implement interface to DeepLearning4J as a separate module
+160,2017-08-28 05:47:11.000000000,2017-09-08 14:56:19.000000000,closed,9,Consider creating a tablesaw-ml module
+159,2017-08-27 23:39:28.000000000,2017-08-27 23:57:05.000000000,closed,3,java doc build is failing with numerous errors
+158,2017-08-27 21:51:22.000000000,2017-08-27 22:24:39.000000000,closed,4,CategoryColumn#size != CategoryColumn#toList()#size()
+157,2017-08-27 14:26:36.000000000,2017-08-27 21:47:39.000000000,closed,12,Requested array size exceeds VM limit
+156,2017-08-26 23:34:39.000000000,2017-08-27 05:48:30.000000000,closed,8,Move CONTRIBUTING.md to docs directory
+155,2017-08-26 22:22:21.000000000,2017-08-26 22:37:21.000000000,closed,1,Create aggregated javadocs
+154,2017-08-26 00:35:18.000000000,2017-08-26 22:37:33.000000000,closed,4,automate creation of javadoc in /docs/apidocs
+153,2017-08-25 10:54:04.000000000,2017-08-26 00:30:16.000000000,closed,3,Conversion of String attributes to Numbers 
+152,2017-08-23 01:31:23.000000000,2017-08-23 02:13:51.000000000,closed,1,Fluent Table creation API
+151,2017-08-22 21:22:22.000000000,2018-04-02 03:49:04.000000000,closed,0,implement gradient boost classification interface using Smile Implementation
+150,2017-08-22 20:19:48.000000000,2017-08-23 00:48:11.000000000,closed,11,Fix testReadFailure2 using UnicodeBOMInputStream
+149,2017-08-22 18:53:08.000000000,2018-04-02 03:49:04.000000000,closed,0,implement Multi-dimensional Scaling interface using Smile's implementation
+148,2017-08-22 18:37:42.000000000,2018-04-02 03:49:04.000000000,closed,0,Implement regularized regression using LASSO (wrapping Smile's implementation)
+147,2017-08-22 18:32:45.000000000,2018-04-02 03:49:38.000000000,closed,1,Implement improved methods for model cross-validation
+146,2017-08-22 18:30:18.000000000,2018-04-02 03:49:38.000000000,closed,0,Implement logic to perform ensemble techniques combining multiple ML algorithms
+145,2017-08-22 18:28:38.000000000,2018-04-02 03:49:38.000000000,closed,0,Implement an interface for Neural Net Classifiers using Smile's algorithm implementation
+144,2017-08-22 16:18:03.000000000,2018-04-02 03:49:38.000000000,closed,2,Implement interface for hierarchical clustering using Smile
+143,2017-08-22 16:16:52.000000000,2017-08-26 00:28:24.000000000,closed,4,JavaDocs link broken on Wordpress site
+142,2017-08-22 15:59:09.000000000,2018-04-02 16:30:46.000000000,closed,1,Implement Dendogram
+141,2017-08-22 15:44:25.000000000,2018-04-02 16:30:46.000000000,closed,0,Implement Heatmap interface 
+140,2017-08-22 15:44:06.000000000,2018-04-02 16:30:46.000000000,closed,0,Implement Contour Plot interface
+139,2017-08-22 05:08:24.000000000,2017-08-26 01:21:45.000000000,closed,8,"Remove hardcoded ""/Users/larrywhite"" from examples"
+138,2017-08-21 20:07:51.000000000,2017-08-21 20:13:41.000000000,closed,1,Pie chart. issue #132
+137,2017-08-21 16:06:42.000000000,2017-08-26 00:26:40.000000000,closed,8,Move user guide documentation to github so it can be maintained collaboratively
+136,2017-08-21 15:36:38.000000000,2017-08-22 05:04:09.000000000,closed,10,CSV file loading has become slow and is using too much memory
+135,2017-08-20 21:06:02.000000000,2017-08-23 16:02:51.000000000,closed,1,Remove text output from tests
+134,2017-08-20 16:20:52.000000000,2018-04-02 04:00:59.000000000,closed,4,Eliminate deprecation warnings
+133,2017-08-19 15:34:15.000000000,2017-12-17 19:17:52.000000000,closed,5,Implement a Bubble Plot
+132,2017-08-19 15:27:19.000000000,2017-08-21 22:30:54.000000000,closed,19,Implement a pie chart 
+131,2017-08-17 19:55:02.000000000,2017-08-17 21:18:56.000000000,closed,3,Rows.copyRowsToTable and TypeUtils.newColumn are not handling ColumnType.Double
+130,2017-08-17 08:42:19.000000000,2019-08-04 21:29:17.000000000,closed,1,Support for multiple backends?
+129,2017-08-16 21:15:45.000000000,2017-08-23 02:14:36.000000000,closed,7,read/write api
+128,2017-08-16 19:01:32.000000000,2017-08-16 19:16:46.000000000,closed,1,Unable to build without gpg program 
+127,2017-08-14 04:28:45.000000000,2017-11-15 08:59:06.000000000,closed,1,Document Kotlin API
+126,2017-08-14 00:12:08.000000000,2017-08-14 03:40:28.000000000,closed,5,Inconsistent Column creation API
+125,2017-08-11 02:22:31.000000000,2017-08-11 02:38:06.000000000,closed,0,Setup Travis continuous build
+124,2017-08-09 21:08:17.000000000,2017-08-09 22:37:02.000000000,closed,0,Upgrade smile
+123,2017-08-09 21:00:04.000000000,2017-08-09 22:37:16.000000000,closed,0,Upgrade Guava
+122,2017-08-09 20:52:10.000000000,2017-08-09 22:37:31.000000000,closed,0,Upgrade xchart
+121,2017-08-09 09:32:49.000000000,2017-08-09 23:53:32.000000000,closed,0,Upgrade xchart
+120,2017-08-09 09:30:03.000000000,2017-08-10 04:21:38.000000000,closed,0,Upgrade smile
+119,2017-08-09 09:20:34.000000000,2017-08-09 23:53:23.000000000,closed,0,Upgrade Guava
+118,2017-08-09 07:23:16.000000000,2017-08-10 05:55:16.000000000,closed,2,Modularize code
+117,2017-08-09 07:12:03.000000000,2017-08-11 18:28:23.000000000,closed,1,Setup continuous build
+116,2017-08-09 07:04:58.000000000,2017-08-09 22:38:16.000000000,closed,0,Fix Kotlin compilation
+115,2017-08-08 20:01:37.000000000,2017-08-09 22:38:30.000000000,closed,0,Standardize license file name
+114,2017-06-28 13:14:32.000000000,2017-08-13 02:10:49.000000000,closed,1,add Method isAfter(LocalDateTime value) to ColumnReference
+113,2017-06-19 07:06:30.000000000,2017-06-21 06:26:45.000000000,closed,2,DateTimeColumn miss isAfter filter
+112,2017-05-24 21:02:55.000000000,2017-08-13 02:17:11.000000000,closed,5,"DoubleColumn.set takes a float, not a double"
+111,2017-05-20 02:39:11.000000000,2018-03-16 05:17:33.000000000,closed,5,DictionaryMap.categoryArray does not return items in numeric order
+110,2017-05-15 12:55:38.000000000,2017-08-13 03:03:23.000000000,closed,4,BooleanColumn should be a NumericColumn
+109,2017-05-12 09:34:19.000000000,2017-08-14 00:55:33.000000000,closed,2,add one pattern for creating table from resultset which gets timestamp column in mysql
+108,2017-04-15 19:40:35.000000000,2017-08-10 17:22:45.000000000,closed,6,Don't use shade when publishing to maven central
+107,2017-03-30 10:26:59.000000000,2017-04-10 03:04:54.000000000,closed,15,Tablesaw does not recognize column
+106,2017-03-23 05:17:25.000000000,2017-03-23 17:01:47.000000000,closed,1,dateColumn could not get correct year
+105,2017-02-14 01:07:01.000000000,2017-02-18 20:50:17.000000000,closed,0,Turn the SqlResultSetReaderTest into more unit test
+104,2017-02-10 21:49:05.000000000,2017-02-19 01:20:59.000000000,closed,2,Keep column header checks for duplicates case sensitive 
+103,2017-02-10 21:37:19.000000000,2017-03-13 14:46:18.000000000,closed,15,Auto-detecting Column Type: prevent failure by reporting unknown type
+102,2017-02-09 20:04:29.000000000,2017-03-13 15:30:51.000000000,closed,2,Question: counting relative frequency
+101,2017-02-09 18:23:53.000000000,2017-03-13 15:31:09.000000000,closed,1,Intro documentaton: show required imports
+100,2017-02-03 00:52:51.000000000,2017-02-19 01:35:29.000000000,closed,2,"SQL type BIT is treated as SHORT_INT, not BOOLEAN?"
+99,2017-01-16 20:57:41.000000000,2017-01-17 18:41:53.000000000,closed,0,fix issue #92
+98,2017-01-03 17:23:58.000000000,2017-02-19 01:56:49.000000000,closed,3,Need to add the cell to the returning table.
+97,2016-12-08 09:00:25.000000000,2017-02-19 01:10:52.000000000,closed,2,"Offer  a ""thin"" jar instead of a ""fat"" jar ?"
+96,2016-12-04 23:16:36.000000000,2017-03-05 00:12:25.000000000,closed,2,Support for doubles?
+95,2016-12-04 21:08:35.000000000,2017-08-10 21:18:06.000000000,closed,3,CSV export forces quoted strings
+94,2016-11-13 00:10:58.000000000,2017-02-19 02:29:35.000000000,closed,2,Get and remove a column
+93,2016-10-22 07:53:01.000000000,2016-10-22 21:18:40.000000000,closed,1,CategoryColumn.getDummies() assigns values incorrectly
+92,2016-10-20 10:54:24.000000000,2017-08-10 21:10:25.000000000,closed,4,Pattern.compile(separator()) exception in StorageManager
+91,2016-09-27 08:37:10.000000000,2017-08-10 20:24:01.000000000,closed,5,"Fix: column type inference when values are empty; added: Parser config builder, ""wide"" csv indexer"
+90,2016-09-26 12:07:24.000000000,2016-10-01 02:18:46.000000000,closed,2,Copying a CategoryColumn breaks selectWhere statements
+89,2016-09-20 18:11:45.000000000,2016-10-01 01:34:47.000000000,closed,2,Column#copy() doesn't copy Comment field
+88,2016-09-20 18:11:08.000000000,2016-10-01 02:04:28.000000000,closed,2,Table#selectWhere() removes Column comments
+87,2016-09-08 21:22:56.000000000,2017-08-13 18:18:13.000000000,closed,1,Re-enable use of ColumnType.SKIP if it's not currently working
+86,2016-08-28 21:05:49.000000000,2016-10-01 00:57:18.000000000,closed,1,throwed java.util.regex.PatternSyntaxException for run on windows
+85,2016-08-24 19:21:54.000000000,2016-08-25 02:42:44.000000000,closed,1,Add string map utilities from Outlier to tablesaw so they can be applied to category columns
+84,2016-08-17 18:04:15.000000000,2016-08-25 02:43:30.000000000,closed,4,TemporaryView constructor ignores column names
+83,2016-08-14 07:43:01.000000000,2016-08-14 17:32:14.000000000,closed,3,large/inconsistent first cell value of columns throw exception - bug
+82,2016-08-14 07:03:23.000000000,2017-08-13 18:23:21.000000000,closed,2,Better representation of missing values across columns
+81,2016-08-12 15:29:49.000000000,2016-08-13 16:22:50.000000000,closed,0,Fix for #79
+80,2016-08-12 15:27:45.000000000,2017-08-23 02:14:36.000000000,closed,5,CSV ParsingConfiguration object
+79,2016-08-12 15:08:57.000000000,2016-08-13 16:24:06.000000000,closed,3,The colors.txt file isn't found when run from inside jar
+78,2016-08-10 04:22:31.000000000,2018-04-02 16:31:20.000000000,closed,1,Implement a Date timeseries chart
+77,2016-08-05 14:55:19.000000000,2016-08-07 18:57:08.000000000,closed,1,NullPointerException in PackedLocalDateTime
+76,2016-08-05 14:49:28.000000000,2016-08-06 22:02:57.000000000,closed,3,Throw an exception when an Exception occurs while adding a cell
+75,2016-08-02 15:32:01.000000000,2016-08-03 01:16:27.000000000,closed,2,origin of start and end
+74,2016-08-01 22:32:27.000000000,2016-08-02 02:43:13.000000000,closed,1,add LongIndex
+73,2016-07-26 12:06:07.000000000,2016-07-26 14:55:39.000000000,closed,1,AnyOf.apply doesn't work
+72,2016-07-25 09:33:11.000000000,2016-07-25 09:34:50.000000000,closed,1,Merge pull request #2 from lwhite1/master
+71,2016-07-24 12:01:25.000000000,2016-08-01 16:23:44.000000000,closed,7,Class au.com.bytecode.opencsv.CSVReader does not implement the requested interface java.lang.AutoCloseable
+70,2016-07-24 10:57:37.000000000,2016-07-24 16:44:20.000000000,closed,0,Delimiter for headers was hardcoded to comma
+69,2016-07-24 05:28:25.000000000,2016-07-24 15:29:56.000000000,closed,1,Fix failing test in LocalDateColumnTest
+68,2016-07-18 22:25:10.000000000,2016-07-22 01:00:38.000000000,closed,11,33 add difference function for numeric but  date time cols (yet)
+67,2016-07-12 02:13:52.000000000,2016-07-12 16:26:04.000000000,closed,3,test failures
+66,2016-07-11 19:23:15.000000000,2016-07-11 21:01:51.000000000,closed,3,build seems to rely on specific full paths not available everywhere 
+65,2016-07-10 20:19:38.000000000,2016-07-10 21:37:21.000000000,closed,1,Ensure all column types return good summary()'s 
+64,2016-07-09 03:51:18.000000000,2017-08-29 19:18:44.000000000,closed,1,implement indexing for non-int columns
+63,2016-07-08 19:58:28.000000000,2016-07-09 03:37:11.000000000,closed,2,15 change the sort api to support '+' and '-' in column names
+62,2016-07-06 22:42:04.000000000,2016-07-07 01:53:35.000000000,closed,2,Table.append bug
+61,2016-07-06 15:48:50.000000000,2016-07-06 16:06:47.000000000,closed,1,"Rename the apply() operations on columns to ""select"""
+60,2016-07-06 15:47:48.000000000,2016-07-11 11:58:44.000000000,closed,1,Add convenience methods to Table to provide better support for common aggregation options
+59,2016-07-06 15:44:51.000000000,2016-07-12 06:08:32.000000000,closed,3,Improve the Table API for reduce operations with Group By
+58,2016-07-06 15:37:33.000000000,2018-03-30 16:18:59.000000000,closed,1,Implement table-level filtering for table-groups (aka 'having')
+57,2016-07-05 05:40:44.000000000,2018-04-10 19:07:20.000000000,closed,2,Extend CrossTabs for different types of calculations
+56,2016-07-05 00:23:13.000000000,2016-07-06 15:28:12.000000000,closed,1,Remove RoaringBitmap from key interfaces
+55,2016-07-04 19:02:41.000000000,2018-04-11 16:45:40.000000000,closed,1,It should be possible to select a column derived from a function in a query
+54,2016-07-03 21:29:30.000000000,2018-04-02 03:53:16.000000000,closed,0,Consider making columns immutable
+53,2016-07-03 18:22:55.000000000,2018-08-14 03:38:32.000000000,closed,1,Add the ability to specify Missing-Value strings on CSV import
+52,2016-07-02 19:55:53.000000000,2016-07-03 20:01:24.000000000,closed,2,Change build process to produce a single shaded jar
+51,2016-07-02 11:57:31.000000000,2018-03-30 16:19:49.000000000,closed,2,Check column functions for correct handling of missing data
+50,2016-07-01 18:42:44.000000000,1970-01-01 00:00:00.000000001,open,2,Ensure that the names of columns are unique 
+49,2016-07-01 17:49:26.000000000,2016-07-03 21:28:03.000000000,closed,3,is there no way to copy columns or tables?
+48,2016-07-01 17:37:00.000000000,2016-07-02 11:26:48.000000000,closed,4,make column names case sensitive
+47,2016-07-01 00:14:03.000000000,2018-04-13 04:23:36.000000000,closed,2,Add tests for all float functions
+46,2016-06-30 23:56:43.000000000,2016-07-01 00:20:27.000000000,closed,5,lots of functions in FloatColumn seem to be broken
+45,2016-06-30 04:34:19.000000000,2018-02-25 18:23:16.000000000,closed,7,implement table#join()
+44,2016-06-30 04:33:53.000000000,2017-09-09 17:31:17.000000000,closed,1,Test table#append() thoroughly
+43,2016-06-30 02:25:10.000000000,2018-04-02 16:33:41.000000000,closed,2,Evaluate the use of bitmaps and int-specific compression for indexing
+42,2016-06-29 16:52:11.000000000,2017-11-05 23:29:03.000000000,closed,6,Add Apache license text to every file
+41,2016-06-29 16:27:53.000000000,2016-07-05 06:34:10.000000000,closed,3,Implement 2 dimensional cross-tabs
+40,2016-06-29 04:34:13.000000000,2018-04-02 03:53:44.000000000,closed,1,Refactor the column utils
+39,2016-06-28 01:52:05.000000000,1970-01-01 00:00:00.000000001,open,3,enable parallel query execution
+38,2016-06-28 01:48:04.000000000,2018-04-03 17:22:02.000000000,closed,1,Enable group formation from arbitrary (or nearly arbitrary) funtion results
+37,2016-06-26 19:16:42.000000000,2016-07-03 23:41:00.000000000,closed,1,Add missing value support to boolean columns
+36,2016-06-25 08:26:48.000000000,2018-07-12 18:27:20.000000000,closed,2,add support to fill columns 
+35,2016-06-25 08:25:45.000000000,2020-01-08 09:43:18.000000000,closed,1,add autocorrelation support
+34,2016-06-25 08:25:00.000000000,2018-04-06 15:27:50.000000000,closed,1,add correlation as a reduce function over two columns
+33,2016-06-25 08:22:53.000000000,1970-01-01 00:00:00.000000001,open,1,Add difference function for numeric and date-time cols
+32,2016-06-24 20:12:55.000000000,2016-06-25 05:36:03.000000000,closed,1,add method: boolean contains(x) to every column
+31,2016-06-23 09:06:44.000000000,2016-06-24 04:54:26.000000000,closed,1,Add date parsing performance improvements to LocalTime and LocalDateTime columns
+30,2016-06-22 18:42:05.000000000,2016-06-24 05:41:06.000000000,closed,1,Add asSet() method to all column types
+29,2016-06-22 05:43:42.000000000,2016-07-02 06:52:21.000000000,closed,2,CsvReader should load data from URLs via http as well as form local files
+28,2016-06-22 00:09:00.000000000,2016-06-25 06:28:28.000000000,closed,1,"Add the ability to subdivide tables on column values, independent of the aggregation logic"
+27,2016-06-20 05:37:16.000000000,2016-06-29 00:39:03.000000000,closed,1,Replace TableGroups with a version based on Views
+26,2016-06-20 04:39:17.000000000,2016-07-10 22:28:08.000000000,closed,2,Fix iteration on LocalDate columns and check other columns
+25,2016-06-19 19:50:53.000000000,2016-06-19 19:51:39.000000000,closed,0,Cleanup spewing tests lw
+24,2016-06-19 19:10:35.000000000,2016-06-19 19:51:40.000000000,closed,0,removed unneeded method row(int r) from Table. It was specified in In…
+23,2016-06-19 19:01:30.000000000,2016-06-19 19:54:15.000000000,closed,0,remove unneeded row(int) method from table. it does nothing
+22,2016-06-19 18:53:55.000000000,2016-06-19 19:53:46.000000000,closed,1,"Added constructors in Table that wrap the other CsvReader variations,…"
+21,2016-06-19 18:23:41.000000000,2016-06-19 19:54:28.000000000,closed,1,Add other CSV-based constructors to Table with all options supported
+20,2016-06-19 04:11:35.000000000,2016-06-19 04:11:49.000000000,closed,0,16 lw
+19,2016-06-19 01:42:41.000000000,2016-07-08 19:57:11.000000000,closed,1,verify direction of sort api work 
+18,2016-06-19 00:11:42.000000000,2016-06-19 00:15:31.000000000,closed,2,Issue-15 idea for making it easy for tests to access test data; 
+17,2016-06-18 22:26:30.000000000,2018-04-02 16:27:17.000000000,closed,1,Switch boolean cols to use roaringbitmaps in memory and on disk instead of boolean arrays
+16,2016-06-18 22:21:28.000000000,2016-06-19 05:37:02.000000000,closed,2,Add integration to load data from relational databases
+15,2016-06-18 22:08:58.000000000,2016-07-09 03:47:45.000000000,closed,16,"Change the sort api to allow the use of ""-columnName"" to indicate a descending sort"
+14,2016-06-18 19:07:19.000000000,1970-01-01 00:00:00.000000001,open,1,Convert operations to use indexes when they are present
+13,2016-06-18 19:01:48.000000000,2016-06-23 15:50:13.000000000,closed,2,Indexing takes too long
+12,2016-06-18 18:54:47.000000000,2016-07-13 04:16:19.000000000,closed,2,Publish to Maven Central
+11,2016-06-18 17:59:53.000000000,2016-06-18 18:30:40.000000000,closed,1,In ObservationDataTest saw is written in wrong folder
+10,2016-06-17 14:35:31.000000000,2016-06-18 07:38:26.000000000,closed,1,Store Category columns in .saw format with dictionary encoding intact 
+9,2016-06-13 15:43:12.000000000,2018-04-02 03:52:50.000000000,closed,2,Enhance .saw format compression
+8,2016-06-13 15:34:01.000000000,2016-06-26 06:07:43.000000000,closed,3,Feature: Autodetect CSV column type
+7,2016-06-13 15:32:40.000000000,1970-01-01 00:00:00.000000001,open,0,Feature: auto indexing 
+6,2016-06-13 15:30:18.000000000,1970-01-01 00:00:00.000000001,open,3,Evaluate use of specialized compression for in-memory data
+5,2016-06-13 15:26:20.000000000,2019-08-04 21:42:13.000000000,closed,2,Parallel CSV file imports
+4,2016-06-13 15:23:54.000000000,2018-04-02 03:52:49.000000000,closed,0,Feature: Streaming imports from CSV to .saw
+3,2016-06-13 15:14:46.000000000,2017-08-10 17:32:57.000000000,closed,2,Feature: Integration with Machine Learning Library
+2,2016-06-13 15:12:57.000000000,2017-08-11 04:22:19.000000000,closed,1,Feature: Integration with Units of Measure Library
+1,2016-06-13 15:11:31.000000000,2017-03-14 06:29:46.000000000,closed,1,Feature: Integration with charting library for EDA

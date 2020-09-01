@@ -1,0 +1,1064 @@
+id,created_at,closed_at,state,comments,title
+1063,2020-08-28 17:33:59.000000000,2020-08-28 17:34:05.000000000,closed,0,Version bump for a release.
+1062,2020-08-26 04:27:28.000000000,2020-08-26 16:31:15.000000000,closed,0,Factor out the common decodeJSON from all the wrappers
+1061,2020-08-25 19:56:22.000000000,1970-01-01 00:00:00.000000001,open,11,New tests from #1048 fail on linux with closer to trunk compiler
+1060,2020-08-25 14:29:15.000000000,2020-08-25 15:55:30.000000000,closed,1,Xcode12 build failure
+1059,2020-08-24 22:05:49.000000000,2020-08-25 17:13:55.000000000,closed,0,Add SPI badges
+1058,2020-08-24 21:16:06.000000000,2020-08-24 23:05:26.000000000,closed,1,Split enum visiting based on custom json support.
+1057,2020-08-24 17:49:22.000000000,2020-08-24 17:49:29.000000000,closed,0,More SPI tweaks.
+1056,2020-08-24 17:16:51.000000000,2020-08-24 17:41:33.000000000,closed,1,Attempt to fix the Swift Package Index builds/reporting.
+1055,2020-08-21 21:59:38.000000000,2020-08-21 21:59:44.000000000,closed,0,oops
+1054,2020-08-21 21:56:36.000000000,2020-08-21 21:56:42.000000000,closed,0,Add a badge for the regular conformance tests.
+1053,2020-08-21 21:43:37.000000000,2020-08-21 21:44:36.000000000,closed,0,CI: Cron triggered conformance tests.
+1052,2020-08-21 20:51:38.000000000,2020-08-21 21:23:48.000000000,closed,0,Some CI tweaks/improvements
+1051,2020-08-21 05:14:41.000000000,2020-08-24 20:32:55.000000000,closed,1,Fix JSON coding/decoding of NullValue WKT
+1050,2020-08-20 16:28:46.000000000,2020-08-20 16:28:52.000000000,closed,0,Fix file header
+1049,2020-08-19 19:04:03.000000000,2020-08-19 19:24:56.000000000,closed,0,Sync up with upstream changes
+1048,2020-08-19 19:02:56.000000000,2020-08-24 20:32:55.000000000,closed,1,Failing new upstream conformance tests
+1047,2020-08-19 18:55:57.000000000,2020-08-21 21:44:36.000000000,closed,0,Set up cron based CI for the conformance tests
+1046,2020-08-18 00:19:44.000000000,2020-08-19 18:25:33.000000000,closed,0,Revise storage decision
+1045,2020-08-17 17:50:42.000000000,2020-08-17 17:50:54.000000000,closed,0,Update protos
+1044,2020-08-17 17:49:10.000000000,2020-08-17 17:49:26.000000000,closed,0,Update protos from upstream
+1043,2020-08-12 09:48:19.000000000,2020-08-13 02:10:50.000000000,closed,9,Add .dynamic library type for SPM
+1042,2020-08-12 01:12:17.000000000,2020-08-13 18:36:03.000000000,closed,0,Work around excessive stack space in non optimized builds during oneof isInitialized
+1041,2020-08-12 00:14:16.000000000,2020-08-12 01:09:11.000000000,closed,0,Move required field support for oneof into a generated helper.
+1040,2020-08-11 21:37:48.000000000,2020-08-13 18:35:45.000000000,closed,0,Work around stack usage for non optimize build and `switch` statements
+1039,2020-08-11 18:14:15.000000000,2020-08-13 18:35:26.000000000,closed,0,Remove unneeded Package*Swift-*.swift files.
+1038,2020-08-11 00:24:31.000000000,1970-01-01 00:00:00.000000001,open,3,Carthage build fails on Xcode 12 beta 4
+1037,2020-08-10 18:56:24.000000000,2020-08-11 18:08:51.000000000,closed,6,Add 5.0.x build to coverage.
+1036,2020-08-10 16:55:47.000000000,2020-08-10 19:58:18.000000000,closed,0,Move linux CI from 5.2.1 to 5.2.4.
+1035,2020-08-10 16:50:31.000000000,2020-08-10 19:27:35.000000000,closed,0,oneof generation tweak
+1034,2020-08-08 00:31:29.000000000,2020-08-19 18:28:47.000000000,closed,28,EXC_BAD_ACCESS in decodeMessage(decoder:) due to stack overflow
+1033,2020-08-06 21:18:08.000000000,2020-08-06 22:18:04.000000000,closed,0,Version bump to do a release.
+1032,2020-07-27 20:49:30.000000000,1970-01-01 00:00:00.000000001,open,0,"README.md links to cocoadocs for the generated API, but it is old"
+1031,2020-07-27 20:44:43.000000000,2020-07-27 20:44:50.000000000,closed,0,Add .swiftpm to the git ignore.
+1030,2020-07-23 21:56:14.000000000,2020-07-23 22:17:47.000000000,closed,0,Eliminate NamingUtils's awareness of SwiftProtobufNamer
+1029,2020-07-17 22:00:24.000000000,1970-01-01 00:00:00.000000001,open,10,"Act on Messages generically (""Reflection"" support in some other languages)"
+1028,2020-07-11 02:52:25.000000000,2020-07-13 17:44:35.000000000,closed,3,Remove empty Data singleton
+1027,2020-07-10 17:59:22.000000000,2020-07-10 19:16:38.000000000,closed,1,Fixes and version bump to right api break
+1026,2020-07-10 17:40:04.000000000,1970-01-01 00:00:00.000000001,open,10,Add API validation script to CI
+1025,2020-07-10 16:32:32.000000000,2020-07-10 19:16:38.000000000,closed,3,Further API breakages in 1.10.0
+1024,2020-07-09 16:57:17.000000000,2020-07-09 17:16:45.000000000,closed,1,Version bump to do a spot release for the accidental api break.
+1023,2020-07-09 16:52:18.000000000,2020-07-09 17:12:59.000000000,closed,1,Add back the old init signatures.
+1022,2020-07-09 15:31:33.000000000,2020-07-09 17:12:58.000000000,closed,3,API-breaking change in #1002
+1021,2020-07-01 23:35:11.000000000,2020-07-01 23:42:45.000000000,closed,1,Update toolchain usage
+1020,2020-07-01 22:46:56.000000000,1970-01-01 00:00:00.000000001,open,6,Consider supporting an API for serializing a protobuf to the end of a binary buffer
+1019,2020-07-01 21:38:03.000000000,2020-07-01 21:52:00.000000000,closed,0,Update min version information.
+1018,2020-07-01 00:01:55.000000000,2020-07-01 00:21:17.000000000,closed,0,Version bump to do a release.
+1017,2020-06-30 20:47:20.000000000,2020-07-15 22:06:24.000000000,closed,8,"Factor SwiftProtobuf module name into the namer, add SwiftProtobufMod…"
+1016,2020-06-30 19:12:18.000000000,2020-07-01 00:39:44.000000000,closed,3,"Requesting XCode 12, iOS 14 Support "
+1015,2020-06-24 23:49:37.000000000,2020-06-25 17:20:34.000000000,closed,3,Don't use StaticString.utf8Start unless there is a pointer rep.
+1014,2020-06-24 22:58:59.000000000,1970-01-01 00:00:00.000000001,open,16,EXC_BAD_ACCESS on NameMap init
+1013,2020-06-24 18:35:20.000000000,2020-06-25 02:27:47.000000000,closed,7,(macOS Mojave) Minimal example does not run in Release mode.
+1012,2020-05-26 17:44:59.000000000,2020-05-26 19:20:55.000000000,closed,0,Use reduce() rather than for..in loops in calculations.
+1011,2020-05-26 17:31:56.000000000,2020-05-26 19:21:09.000000000,closed,0,Add status badges for the two workflows.
+1010,2020-05-21 23:52:08.000000000,1970-01-01 00:00:00.000000001,open,2,Consider support for `Google_Protobuf_Date` for birthdays? (and other timezone-free dates)
+1009,2020-05-20 01:14:17.000000000,2020-05-20 17:47:59.000000000,closed,5,Add visitRepeated* methods to the BinaryEncodingSizeVisitory.
+1008,2020-05-19 17:39:48.000000000,2020-05-19 18:17:51.000000000,closed,0,Add swift-format ignore markers to generated files.
+1007,2020-05-18 23:44:29.000000000,2020-05-18 23:55:01.000000000,closed,2,Add workflow to check the status of proto files.
+1006,2020-05-18 21:45:33.000000000,2020-05-18 22:12:37.000000000,closed,0,Bump version to 1.9.0 to make a release.
+1005,2020-05-15 23:25:58.000000000,2020-05-18 20:23:25.000000000,closed,2,Add a check for the upstream protos going stale.
+1004,2020-05-15 22:12:16.000000000,2020-05-18 18:00:30.000000000,closed,3,Remove the empty check since it was the only one.
+1003,2020-05-15 20:03:46.000000000,1970-01-01 00:00:00.000000001,open,5,better caching of protocolbuffers in ci
+1002,2020-05-15 03:40:24.000000000,2020-06-04 20:15:54.000000000,closed,3,Support Proto2 extensions in JSON coder/decoder
+1001,2020-05-14 22:04:42.000000000,2020-05-15 19:18:46.000000000,closed,2,ci workflow: resolve protobuf_gitref to commit sha
+1000,2020-05-14 20:35:59.000000000,1970-01-01 00:00:00.000000001,open,3,XCFramework build configuration/option?
+999,2020-05-14 19:17:35.000000000,2020-05-14 21:58:21.000000000,closed,1,Turn off fail-fast.
+998,2020-05-14 19:08:30.000000000,2020-05-15 20:08:32.000000000,closed,2,Update github actions so upstream master builds aren't pinned
+997,2020-05-14 19:05:54.000000000,2020-05-14 21:58:21.000000000,closed,2,CI cancels if one task fails
+996,2020-05-14 18:44:58.000000000,2020-05-14 19:28:08.000000000,closed,0,Update protos from upstream
+995,2020-05-14 18:42:45.000000000,2020-05-14 18:42:51.000000000,closed,0,Move the CI version of protobuf to a more recent version.
+994,2020-05-14 18:19:04.000000000,2020-05-14 18:43:02.000000000,closed,0,Add a suppression for #993 until it can be fixed.
+993,2020-05-14 04:23:58.000000000,2020-06-24 20:02:35.000000000,closed,5,Conformance failure: proto2 + JSON + extension
+992,2020-05-13 00:52:25.000000000,2020-05-13 18:39:12.000000000,closed,1,`try BookInfo(serializedData: binaryData)` in quickstart style decoding does not fail for type mismatch
+991,2020-05-12 00:37:22.000000000,2020-05-12 01:08:18.000000000,closed,0,Test commit of a test file
+990,2020-05-06 20:46:57.000000000,2020-05-06 20:47:05.000000000,closed,0,Update the version script for Xcode project/xcconfig changes.
+989,2020-05-06 20:19:15.000000000,2020-05-06 20:47:42.000000000,closed,3,Mismatched versions
+988,2020-05-05 21:15:54.000000000,2020-05-18 18:00:30.000000000,closed,1,Empty Packed Enum fails validation
+987,2020-05-03 17:31:55.000000000,1970-01-01 00:00:00.000000001,open,5,[581] Enables better error handling for JSONDecodingError
+986,2020-05-01 19:10:33.000000000,2020-05-01 21:09:32.000000000,closed,2,Move the SwiftProtobuf.xcodeproj build settings into xcconfig files
+985,2020-04-30 23:07:36.000000000,2020-04-30 23:07:43.000000000,closed,1,Add missing import.
+984,2020-04-30 22:56:45.000000000,2020-04-30 23:05:15.000000000,closed,2,Replace Version.moduleName with SwiftProtobufInfo.name.
+983,2020-04-30 03:10:40.000000000,2020-04-30 03:30:47.000000000,closed,0,Provide some more map helpers like the C++ Descriptor (take 2).
+982,2020-04-29 23:40:41.000000000,2020-04-29 23:40:48.000000000,closed,0,"Revert ""Provide some more map helpers like the C++ Descriptor."""
+981,2020-04-29 01:00:25.000000000,2020-04-29 17:39:06.000000000,closed,0,Provide some more map helpers like the C++ Descriptor.
+980,2020-04-27 23:29:06.000000000,2020-04-28 01:20:43.000000000,closed,0,Don't hardcode the `SwiftProtobuf` module name everywhere
+979,2020-04-27 18:33:07.000000000,2020-04-29 00:30:08.000000000,closed,2,Drop the 3.11.4 protobuf release from CI
+978,2020-04-24 17:51:31.000000000,2020-04-27 17:39:37.000000000,closed,1,Support for new Proto3 optional
+977,2020-04-16 17:24:32.000000000,2020-04-16 19:30:29.000000000,closed,0,Fix up docs around enum parsing.
+976,2020-04-14 07:30:59.000000000,2020-04-23 21:32:09.000000000,closed,2,tweaking the README to expose the packagename
+975,2020-04-08 20:38:41.000000000,2020-05-27 19:12:00.000000000,closed,10,var --> let to eliminate warning
+974,2020-04-03 23:10:48.000000000,2020-04-03 23:10:54.000000000,closed,0,Add a textformat failure file.
+973,2020-04-01 19:48:21.000000000,2020-04-23 21:12:14.000000000,closed,21,add github actions workflow for build and test on linux
+972,2020-04-01 02:49:51.000000000,1970-01-01 00:00:00.000000001,open,22,Issue parsing unknown enum case
+971,2020-03-29 15:54:07.000000000,2020-03-30 17:38:32.000000000,closed,2,Performance XCode 11.1 vs XCode 10.1
+970,2020-03-24 02:25:36.000000000,2020-03-24 19:59:45.000000000,closed,2,Benchmarks to understand performance differences of SwiftProtobuf over JSONDecoder?
+969,2020-03-13 01:25:59.000000000,2020-03-13 01:31:43.000000000,closed,0,Declare the MessageExtensions with the correct visibility.
+968,2020-03-07 17:28:28.000000000,2020-03-09 22:01:50.000000000,closed,6,Remove init() method from generated struts from message
+967,2020-03-05 09:48:25.000000000,2020-03-06 04:18:24.000000000,closed,4,Serialized String longer than 128 bytes cannot be deserialized in C++ ParseFromString
+966,2020-02-28 21:07:42.000000000,2020-02-28 22:06:22.000000000,closed,2,Make setting a repeated extension field to [] clear it
+965,2020-02-28 01:29:49.000000000,1970-01-01 00:00:00.000000001,open,0,`MessageExtension` should capture the default
+964,2020-02-27 22:05:53.000000000,2020-02-27 22:17:06.000000000,closed,2,Mark all generated files to be ignored by swift-format
+963,2020-02-27 02:26:03.000000000,2020-02-27 02:37:52.000000000,closed,9,[Question] How to check OneOf enum cases with associated values?
+962,2020-02-26 23:58:39.000000000,2020-02-27 00:19:37.000000000,closed,0,Followup fixes from #960
+961,2020-02-26 21:25:51.000000000,2020-02-26 23:53:41.000000000,closed,0,More generated comments around extensions
+960,2020-02-26 20:54:02.000000000,2020-02-26 21:27:06.000000000,closed,0,Try to provide some more details on extension usage.
+959,2020-02-18 22:00:38.000000000,2020-02-18 22:02:37.000000000,closed,2,"""Unknown flag: --swift-out"" when installing with brew"
+958,2020-02-15 01:59:42.000000000,2020-02-15 02:00:41.000000000,closed,0,Update CMakeLists.txt
+957,2020-02-13 21:29:06.000000000,2020-02-13 22:57:07.000000000,closed,2,build: add a CMake based build
+956,2020-02-13 02:20:51.000000000,2020-02-13 02:20:57.000000000,closed,0,"Revert ""Add test for non protobuf identifier handling."""
+955,2020-02-11 23:33:06.000000000,1970-01-01 00:00:00.000000001,open,0,Consider revisiting some naming choices
+954,2020-02-11 21:14:54.000000000,2020-02-12 20:14:49.000000000,closed,0,Reflow the camelcase apis so they can support non identifier input.
+953,2020-02-11 00:00:46.000000000,2020-02-13 00:55:15.000000000,closed,0,Tweak the template to suggest people check the old issues and the new FAQ.
+952,2020-02-10 23:39:40.000000000,2020-02-11 01:59:07.000000000,closed,0,Add a FAQ with some things that have come up a few times.
+951,2020-02-07 21:24:26.000000000,2020-02-07 21:30:28.000000000,closed,1,Memberwise initializers for objects?
+950,2020-02-07 00:26:40.000000000,2020-02-10 22:32:39.000000000,closed,5,Possible to specify a key decoding strategy similar to JSONDecoder?
+949,2020-02-06 23:51:42.000000000,2020-02-15 01:01:09.000000000,closed,2,Use withContiguousStorageIfAvailable for String encoding in BinaryEnc…
+948,2020-02-06 16:41:22.000000000,2020-02-06 19:26:03.000000000,closed,1,Support looking up enum values by string
+947,2020-02-04 23:11:14.000000000,2020-02-06 19:32:12.000000000,closed,0,Better handing of proto identifiers that start with underscores and numbers
+946,2020-02-03 20:52:39.000000000,2020-02-03 20:52:46.000000000,closed,0,Fix random Typo
+945,2020-01-30 17:50:26.000000000,2020-01-30 21:13:38.000000000,closed,3,Install 1.8.0 via Homebrew?
+944,2020-01-29 22:56:47.000000000,1970-01-01 00:00:00.000000001,open,0,Stop generating `has` and `clear` for repeated extension fields
+943,2020-01-29 01:05:29.000000000,2020-01-29 01:29:09.000000000,closed,0,Version bump to make a release.
+942,2020-01-27 15:17:22.000000000,2020-01-27 20:15:59.000000000,closed,5,Could you add extension for getter/setter properties that correspond to enum cases of one of field?
+941,2020-01-27 00:50:27.000000000,2020-01-27 20:04:37.000000000,closed,1,[Curiosity] Why don't you use swift-syntax to generate files?
+940,2020-01-21 21:07:14.000000000,2020-01-21 21:39:45.000000000,closed,1,[Implementation] Question regarding the implementation of swift-protobuf  
+939,2020-01-21 17:31:50.000000000,2020-01-27 20:24:10.000000000,closed,2,Could you add option to treat Messages with empty fields as Swift enums?
+938,2020-01-17 02:44:52.000000000,2020-05-15 22:22:40.000000000,closed,19,Could you add advanced/experimental option to ignore default initializer ( and to enable Memberwise Initializers )?
+937,2020-01-06 23:44:50.000000000,2020-01-06 23:45:38.000000000,closed,0,Oops.
+936,2020-01-06 22:41:38.000000000,2020-01-06 22:52:51.000000000,closed,0,Expand the note on why one really doesn't want to use swift_prefix.
+935,2020-01-04 03:23:07.000000000,2020-01-06 22:50:39.000000000,closed,2,Minor code cleanup for JSON additions
+934,2020-01-03 22:18:54.000000000,2020-01-03 22:37:37.000000000,closed,0,Use dictionary subscript with default.
+933,2020-01-03 14:30:07.000000000,2020-01-03 20:43:50.000000000,closed,4,Enum fields are not emitted in message
+932,2020-01-02 20:38:19.000000000,2020-01-02 21:19:50.000000000,closed,0,Xcodeproj updates
+931,2019-12-31 15:52:24.000000000,2020-02-06 19:32:12.000000000,closed,12,Camel case naming of field variables and enum cases results in invalid Swift
+930,2019-12-17 04:34:07.000000000,2020-01-27 20:24:32.000000000,closed,3,Is there a way to enable debugging output on parse errors?
+929,2019-12-17 04:11:52.000000000,2020-01-27 20:25:03.000000000,closed,2,Suggestions on handling types not in the protobuf spec?
+928,2019-12-16 23:34:22.000000000,2019-12-16 23:35:19.000000000,closed,0,Updated proto files from google/protocolbuffers.
+927,2019-12-12 23:15:08.000000000,2019-12-13 01:43:23.000000000,closed,2,Guard against TextFormat encoding of unknowns from overflowing the stack
+926,2019-12-12 19:42:58.000000000,2019-12-12 19:43:07.000000000,closed,0,Fix up the Xcode Project file for the folks that use that.
+925,2019-12-12 19:29:17.000000000,2019-12-12 19:29:28.000000000,closed,0,Update the generated_swift_names_* files.
+924,2019-12-12 00:53:23.000000000,2019-12-12 01:37:56.000000000,closed,1,Avoid collecting unknown fields while scanning for message.
+923,2019-11-26 19:58:20.000000000,2019-12-04 21:36:52.000000000,closed,1,Nested enum case iterable
+922,2019-11-26 19:30:43.000000000,2019-12-04 21:36:53.000000000,closed,6,CaseIterable conformance is not synthesized for enums nested two levels deep
+921,2019-11-25 11:40:33.000000000,2019-11-25 20:29:27.000000000,closed,1,fix swift protobuf build for swift below 5.0
+920,2019-11-22 23:48:28.000000000,2019-11-22 23:48:34.000000000,closed,0,Update the generated_swift_names_* files.
+919,2019-11-22 20:02:22.000000000,2020-02-15 01:01:39.000000000,closed,4,`BinaryEncoder` look at using `withContiguousStorageIfAvailable` for `String.utf8`
+918,2019-11-21 15:35:48.000000000,2019-12-12 01:43:58.000000000,closed,5,Use raw pointers instead of typed pointers.
+917,2019-11-20 14:58:44.000000000,2019-11-20 21:11:34.000000000,closed,2,Add Message.with to the performance suite
+916,2019-11-20 10:23:38.000000000,2019-11-23 03:44:05.000000000,closed,0,JSON/TextFormat submessage encoding performance
+915,2019-11-20 01:00:12.000000000,2019-11-20 02:04:57.000000000,closed,2,Make things generic over ContiguousBytes and @inlinable.
+914,2019-11-18 20:32:57.000000000,2019-11-18 22:58:38.000000000,closed,10,Add Message binary decoding support from ContiguousBytes.
+913,2019-11-08 03:28:33.000000000,2019-11-09 00:10:01.000000000,closed,3,Fix typo
+912,2019-11-07 22:58:54.000000000,2019-11-07 23:02:55.000000000,closed,2,Fix typo in auto-genned comment
+911,2019-09-27 22:22:24.000000000,2019-09-30 21:54:03.000000000,closed,0,Update the notes about Swift version support.
+910,2019-09-27 21:48:04.000000000,2019-09-27 21:54:09.000000000,closed,1,Version bump for doing a release.
+909,2019-09-27 20:48:01.000000000,2019-09-27 21:04:43.000000000,closed,0,Split large enums to avoid compiler error
+908,2019-09-27 19:54:03.000000000,2019-09-27 20:28:39.000000000,closed,0,"Revert ""Drop Swift 4.0 support (#905)"""
+907,2019-09-27 04:08:14.000000000,2020-05-26 06:24:38.000000000,closed,6,[861] Add default option for JSON decoding  
+906,2019-09-26 21:54:53.000000000,2019-09-26 22:06:45.000000000,closed,0,Generate one enum per enum case for the testing.
+905,2019-09-26 21:25:23.000000000,2019-09-27 00:46:40.000000000,closed,0,Drop Swift 4.0 support
+904,2019-09-26 18:22:59.000000000,2019-09-27 21:04:44.000000000,closed,8,Enum generation can make code that causes new Swift 5.1 error message
+903,2019-09-26 18:09:09.000000000,2019-09-26 18:09:22.000000000,closed,0,Remove the protoc version check from the Makefile.
+902,2019-09-25 18:35:35.000000000,2019-09-25 20:36:51.000000000,closed,0,"Fix ""documenation"" typo in generated header."
+901,2019-09-21 12:54:20.000000000,2020-01-27 20:28:16.000000000,closed,3,ignoreUnknownFields default value should be true
+900,2019-09-17 10:25:33.000000000,2019-10-11 18:35:53.000000000,closed,9,Use heap-based storage only when a Protobuf has a singular transitive recursion
+899,2019-08-27 01:11:40.000000000,2019-08-27 01:13:37.000000000,closed,0,Sync up the upstream protos (and regenerate)
+898,2019-08-13 22:48:02.000000000,2019-08-13 22:48:16.000000000,closed,0,Don't use the generated naming files in tests.
+897,2019-08-13 01:11:07.000000000,2019-08-13 15:40:21.000000000,closed,5,Move the generated source from descriptor.proto into the runtime libr…
+896,2019-07-28 17:54:50.000000000,1970-01-01 00:00:00.000000001,open,10,Add an option to ignore unknown enum cases when decoding from JSON (instead of failing)
+895,2019-07-19 18:52:18.000000000,2019-07-19 19:14:01.000000000,closed,0,Update proto files from upstream
+894,2019-07-18 17:27:49.000000000,2019-07-18 17:27:55.000000000,closed,0,Update comment about version of cocoapods needed.
+893,2019-07-18 17:24:51.000000000,2019-07-18 17:24:58.000000000,closed,0,Remove release notes about `.swift-version`.
+892,2019-07-18 16:25:06.000000000,2019-07-18 17:02:16.000000000,closed,0,Version Bump for a release.
+891,2019-07-17 22:08:49.000000000,2019-07-17 22:17:51.000000000,closed,1,Specify `swift_versions` in podspec and minimum CocoaPods 1.7.0 version.
+890,2019-07-17 20:56:04.000000000,2019-07-17 20:56:18.000000000,closed,0,Update the checked in Xcode project for #882.
+889,2019-07-06 01:00:09.000000000,2019-07-17 20:56:18.000000000,closed,0,The latest commit broke the Xcode build
+888,2019-06-29 17:34:20.000000000,2019-06-29 20:03:54.000000000,closed,2,SwiftProtobuff.framework missing at run time
+887,2019-06-28 11:44:17.000000000,2019-07-02 10:41:03.000000000,closed,7,Request failed to decode: truncated
+886,2019-06-28 11:37:24.000000000,2019-06-28 11:37:51.000000000,closed,0,MacOS 10.14.5
+885,2019-06-26 13:49:04.000000000,2019-06-26 20:01:28.000000000,closed,6,"Add Support for Google Speech ""StreamingRecognizeRequest"" delimiter format"
+884,2019-06-24 12:49:08.000000000,2019-06-24 12:58:47.000000000,closed,3,Use of unresolved identifier 'Google_Protobuf_Any'
+883,2019-06-06 19:24:00.000000000,2019-06-14 16:24:02.000000000,closed,8,Allow messages to be (de/)serialized from Unsafe[Mutable]RawBufferPointer
+882,2019-06-04 05:57:20.000000000,2019-06-04 23:43:04.000000000,closed,0,Perf: Use new float formatting code
+881,2019-06-04 03:26:09.000000000,2019-06-04 06:32:50.000000000,closed,0,Swift 5: String.characters.count => String.count
+880,2019-06-01 01:39:10.000000000,2019-06-01 01:49:00.000000000,closed,0,"Change ""var"" to ""let"" in Test_Map"
+879,2019-06-01 01:34:59.000000000,2019-06-01 01:48:19.000000000,closed,0,"Stop using old Swift 3 ""build --clean"" command"
+878,2019-05-30 15:29:01.000000000,2019-05-30 15:34:02.000000000,closed,3,"""protoc — swift_out=. UserModel.proto"" shows error Missing output directives."
+877,2019-05-28 20:35:03.000000000,2019-05-28 20:37:47.000000000,closed,0,Update notes about building for the Swift static linking changes.
+876,2019-05-28 19:54:44.000000000,2019-06-03 14:31:27.000000000,closed,9,Homebrew update to 1.5.0
+875,2019-05-23 18:00:58.000000000,2019-05-23 18:26:26.000000000,closed,3,Package name in messages declarations
+874,2019-05-15 16:17:10.000000000,2019-05-17 20:33:33.000000000,closed,6,Message field count
+873,2019-05-09 22:30:05.000000000,2019-05-09 22:32:12.000000000,closed,0,add new func in visitor protocol
+872,2019-05-09 03:04:17.000000000,1970-01-01 00:00:00.000000001,open,5,Generate enum name
+871,2019-05-04 15:17:03.000000000,2019-05-06 18:13:26.000000000,closed,4,Warning 'Hashable.hashValue' is deprecated on Swift 4.0
+870,2019-05-03 01:59:44.000000000,2019-05-03 17:55:07.000000000,closed,1,Raise a .illegalNull is the top level JSON is null.
+869,2019-05-02 23:41:52.000000000,2019-05-03 17:55:06.000000000,closed,0,ci.swift.org: JSON parser should reject top-level `null`
+868,2019-04-26 04:16:27.000000000,2019-05-10 19:26:37.000000000,closed,6,Added explicit architectures for each framework target
+867,2019-04-18 00:16:46.000000000,2019-04-18 00:29:58.000000000,closed,0,Regenerate protos from mined words.
+866,2019-04-15 18:55:18.000000000,2019-04-15 18:56:47.000000000,closed,0,Update the docs on min Swift version required.
+865,2019-04-15 18:51:41.000000000,2019-04-15 18:55:28.000000000,closed,0,Bump the version for a release
+864,2019-04-15 12:15:07.000000000,2019-07-18 17:38:01.000000000,closed,2,AnyMessageStorage internal access level
+863,2019-04-15 08:26:34.000000000,2019-04-16 19:37:11.000000000,closed,1,Update readme to point to latest release version
+862,2019-04-13 06:04:50.000000000,2019-04-15 18:38:27.000000000,closed,1,Support Swift5
+861,2019-04-03 23:15:14.000000000,1970-01-01 00:00:00.000000001,open,27,JSON Serialization with default value 
+860,2019-04-02 18:52:29.000000000,2019-04-02 22:14:07.000000000,closed,1,Upgrade to swift 5 please
+859,2019-04-01 20:45:22.000000000,2019-04-01 20:45:32.000000000,closed,0,Add TextFormatEncodingOptions.swift to the checked in Xcode project.
+858,2019-04-01 20:34:37.000000000,2019-04-01 20:46:14.000000000,closed,0,Update protos
+857,2019-04-01 18:25:15.000000000,2019-05-28 20:37:47.000000000,closed,2,Revisit docs for `--static-swift-stdlib`
+856,2019-04-01 16:51:42.000000000,2019-04-02 21:01:33.000000000,closed,3,Adding JSON encoding option: Use proto field names instead of lowerCamelCase names
+855,2019-03-30 03:09:30.000000000,2019-04-01 19:23:36.000000000,closed,0,#853: Update conformance protos
+854,2019-03-30 03:07:48.000000000,2019-04-01 19:22:39.000000000,closed,0,Swift 5.0: Switch a stray Data(bytes:) to Data(_:)
+853,2019-03-30 00:44:41.000000000,2019-04-01 20:06:37.000000000,closed,2,ci.swift.org: Failing test: Required.Proto3.JsonInput.RepeatedListValue.JsonOutput
+852,2019-03-27 13:49:04.000000000,2019-03-28 20:54:21.000000000,closed,1,#851 Fix build command to work also with Swift 5
+851,2019-03-26 16:49:00.000000000,2019-03-28 20:54:22.000000000,closed,0,Xcode 10.2 - `swift build -c release -Xswiftc -static-stdlib` failed
+850,2019-03-23 03:18:55.000000000,2019-03-25 19:28:30.000000000,closed,0,TextFormat conformance: Add option to suppress unknown field printing
+849,2019-03-22 15:52:38.000000000,2019-03-22 18:02:19.000000000,closed,4,plenty of warnings when compiling with Swift 5
+848,2019-03-22 02:01:02.000000000,2019-03-22 17:54:20.000000000,closed,3,Swift5.0: Change Data(bytes:) to Data(_:)
+847,2019-03-22 01:41:33.000000000,2019-03-22 01:57:27.000000000,closed,1,Drop the support for Swift <4.0
+846,2019-03-21 14:29:55.000000000,2019-03-21 16:25:34.000000000,closed,0,Remove printToFd logic from FileIo.
+845,2019-03-21 05:36:17.000000000,2019-03-21 06:21:03.000000000,closed,0,Update some FileIo calls to FileHandle.
+844,2019-03-21 04:14:18.000000000,2019-03-21 16:10:16.000000000,closed,0,Swift5: Fix warnings about loss of precision
+843,2019-03-16 04:35:09.000000000,2019-04-05 04:59:57.000000000,closed,21,Swift 5: adopt new Data.withUnsafeBytes API
+842,2019-03-11 23:32:46.000000000,2019-03-11 23:58:19.000000000,closed,0,Update protos
+841,2019-03-11 21:01:28.000000000,2019-03-11 21:01:39.000000000,closed,0,Bump the version to 1.4.0 to cut a release.
+840,2019-03-09 07:18:59.000000000,2019-03-11 20:45:18.000000000,closed,2,Accept too-large float values in Text format
+839,2019-03-04 16:56:10.000000000,2019-03-05 16:40:46.000000000,closed,2,support swift 4.2??
+838,2019-02-26 00:38:35.000000000,2019-09-26 18:17:21.000000000,closed,6,Enum cases as siblings
+837,2019-01-26 00:08:13.000000000,2019-02-05 21:51:08.000000000,closed,1,Deal with closed/open enum annotations
+836,2019-01-24 04:47:49.000000000,2019-02-08 20:59:40.000000000,closed,4,[DO NOT MERGE] Stress testing the formatter.
+835,2019-01-24 01:58:52.000000000,2019-01-24 02:57:27.000000000,closed,1,The empty string is a valid JSON encoding for a FieldMask.
+834,2019-01-24 00:27:09.000000000,2019-01-24 02:57:27.000000000,closed,2,ci.swift.org: Failing tests Required.Proto3.JsonInput.EmptyFieldMask.*
+833,2019-01-16 11:43:03.000000000,2019-01-17 04:37:40.000000000,closed,0,supportTVOS
+832,2019-01-16 00:05:55.000000000,2019-01-16 00:13:21.000000000,closed,1,Generate (optional) CoreData NSManagedObjects from proto files
+831,2019-01-14 22:46:12.000000000,2019-01-14 23:07:39.000000000,closed,0,Conformance updates for protobuf's master changes.
+830,2019-01-14 22:39:33.000000000,2019-01-14 23:01:27.000000000,closed,2,Remove the throwing docs.
+829,2019-01-07 23:55:27.000000000,2019-01-07 23:55:35.000000000,closed,0,Bump version to 1.3.1 for Swift <4.2 build fix
+828,2019-01-05 05:50:51.000000000,2019-01-07 23:53:27.000000000,closed,1,Correct Swift 4.1 build break
+827,2019-01-05 00:31:23.000000000,2019-01-05 00:36:21.000000000,closed,1,Update the generated protos
+826,2019-01-04 22:40:35.000000000,2019-01-04 22:43:44.000000000,closed,0,Bump the version to 1.3.0 to do a release.
+825,2019-01-04 22:13:12.000000000,2019-01-04 22:43:34.000000000,closed,0,"Swift 4.2 is the current GM, so our min is 3.2."
+824,2019-01-04 21:41:18.000000000,2019-01-04 21:45:54.000000000,closed,0,Document Swift 5 support in the Package.swift
+823,2019-01-04 20:32:21.000000000,2019-01-04 20:34:30.000000000,closed,0,Update protos
+822,2019-01-04 03:13:35.000000000,2019-01-04 20:25:45.000000000,closed,0,Enum naming
+821,2019-01-03 09:52:43.000000000,2019-01-03 10:04:19.000000000,closed,1,help wanted: Generated code doesn't contain any way to actually decode a buffer
+820,2018-12-18 18:44:53.000000000,2018-12-19 19:56:32.000000000,closed,0,Sync protos upstream and update conformance test
+819,2018-12-14 23:40:28.000000000,2018-12-17 21:31:38.000000000,closed,1,Swiftpm tweaks
+818,2018-12-14 05:43:16.000000000,2018-12-15 04:57:29.000000000,closed,4,Add Package file for Swift 5.
+817,2018-12-12 22:15:45.000000000,2019-03-21 04:48:22.000000000,closed,4,"Casing of ""Id"" changed to ""ID"""
+816,2018-12-11 01:42:17.000000000,1970-01-01 00:00:00.000000001,open,2,Investigate byte buffer based apis
+815,2018-12-07 13:59:08.000000000,2018-12-07 20:01:16.000000000,closed,1,Support proto options
+814,2018-12-03 03:30:46.000000000,2018-12-03 13:03:16.000000000,closed,1,"Incorrect has property set to true, while it must crash or set to false"
+813,2018-11-30 00:03:20.000000000,2018-11-30 00:16:58.000000000,closed,0,Proto file updates
+812,2018-11-30 00:01:15.000000000,2018-11-30 00:17:07.000000000,closed,0,Updates Xcode related parts of the Makefile
+811,2018-11-16 19:52:14.000000000,2018-11-20 18:13:10.000000000,closed,1,Update SPM Integration Instructions
+810,2018-11-13 23:39:19.000000000,2018-11-14 00:06:11.000000000,closed,0,Xcode updates
+809,2018-11-13 23:18:20.000000000,2018-11-14 00:05:51.000000000,closed,0,Be consistent about access level vs. static decls.
+808,2018-11-13 22:47:41.000000000,2018-11-13 23:09:26.000000000,closed,0,Use access modifiers directly on decls instead of on extensions.
+807,2018-10-26 05:04:31.000000000,2018-10-26 18:00:55.000000000,closed,0,Error while installing with brew
+806,2018-10-23 20:46:34.000000000,2019-09-26 22:27:07.000000000,closed,10,Is there an implementation of ByteSizeLong or ByteSize
+805,2018-10-22 14:21:38.000000000,2019-04-02 22:20:49.000000000,closed,6,missingFieldNames when I try to get JSON data object
+804,2018-10-17 01:38:57.000000000,2018-10-17 18:10:16.000000000,closed,0,"Fix Json map encoding for float, sint, fixed, sfixed"
+803,2018-10-10 04:57:05.000000000,2019-03-21 04:55:34.000000000,closed,2,Why default implementation of `traverse` check for `if self.value != false` in case of bool?
+802,2018-10-03 03:51:30.000000000,2018-10-03 22:31:50.000000000,closed,4,Using multiple .proto files
+801,2018-09-25 10:17:29.000000000,2019-03-21 04:56:41.000000000,closed,3,Swift Build Error
+800,2018-09-21 00:37:02.000000000,2018-09-24 19:00:05.000000000,closed,1,Add JSON encoding options
+799,2018-09-19 12:03:16.000000000,2018-09-24 19:02:04.000000000,closed,8,Allow to use UNKNOWN case instead of unrecognizedEnumValue
+798,2018-09-19 11:12:57.000000000,2018-09-19 11:29:00.000000000,closed,1,Method cannot be declared public because its parameter uses an internal type
+797,2018-09-18 10:46:44.000000000,2018-09-19 00:18:31.000000000,closed,5,dyld: Symbol not found: __T0Bi64_WV - Xcode 10
+796,2018-09-11 23:01:44.000000000,2018-09-12 00:50:51.000000000,closed,0,Bump the version to 1.1.2 in preparation for a release.
+795,2018-09-11 06:37:45.000000000,2018-09-14 22:18:37.000000000,closed,2,A Bug or Capitalization Rules
+794,2018-09-10 21:12:59.000000000,2018-09-11 05:42:04.000000000,closed,1,Why there is no Code about service in .pb.swift
+793,2018-09-10 21:07:22.000000000,2018-09-11 05:41:39.000000000,closed,1,.proto文件中的service怎么没有生成相应的代码
+792,2018-09-06 19:57:52.000000000,2018-09-06 20:09:14.000000000,closed,0,Update upstream protos and regenerate
+791,2018-09-03 22:32:27.000000000,2018-09-03 22:32:42.000000000,closed,0,r
+790,2018-09-01 11:17:45.000000000,2018-09-02 11:46:39.000000000,closed,10,Type 'Foo' does not conform to protocol '_MessageImplementationBase'
+789,2018-08-23 20:30:39.000000000,2018-08-26 14:47:10.000000000,closed,5,Size of message.serializedData() is zero
+788,2018-08-22 18:38:06.000000000,2018-08-22 18:41:39.000000000,closed,0,Update github references.
+787,2018-08-15 00:30:55.000000000,2018-08-15 00:34:58.000000000,closed,0,Version bump for a release.
+786,2018-08-15 00:26:06.000000000,2018-08-15 00:30:34.000000000,closed,0,Clear issue
+785,2018-08-14 22:50:24.000000000,2018-08-15 00:26:56.000000000,closed,3,Fix clearX() methods mutating the underlying storage instead of uniquing
+784,2018-08-14 16:50:47.000000000,2018-08-23 22:39:52.000000000,closed,0,Hashable conformance
+783,2018-08-13 23:09:02.000000000,2018-08-13 23:14:35.000000000,closed,0,Fix up direct equality generation for oneofs
+782,2018-08-13 22:30:00.000000000,2018-08-13 23:13:29.000000000,closed,0,"Tweak the comment to cover how to ""hook"" Hashable."
+781,2018-08-13 21:18:31.000000000,2018-08-13 22:09:52.000000000,closed,0,Directly generate equality (one less indirection)
+780,2018-08-10 14:17:23.000000000,2018-08-10 17:58:21.000000000,closed,0,Update version number in README.md
+779,2018-08-08 22:02:14.000000000,2018-08-08 23:16:21.000000000,closed,6,EXC_BAD_ACCESS while serializing the data
+778,2018-08-02 12:31:07.000000000,2018-08-07 20:24:29.000000000,closed,3,Question: How to use CodedOutputStream?
+777,2018-07-31 01:10:09.000000000,2018-07-31 23:00:40.000000000,closed,0,Relay JSONDecodingOptions along.
+776,2018-07-28 00:26:08.000000000,2018-07-28 00:37:01.000000000,closed,0,Sync with google/protobuf for conformance changes
+775,2018-07-25 15:39:45.000000000,2018-07-26 07:42:09.000000000,closed,2,# Would you update the pod  to the latest?
+774,2018-07-24 21:17:23.000000000,2018-07-24 22:17:01.000000000,closed,0,"Remove reference to api that are ""hookable""."
+773,2018-07-24 21:15:32.000000000,1970-01-01 00:00:00.000000001,open,2,Investigate helper support for less strict equality support
+772,2018-07-23 19:11:40.000000000,2018-07-23 19:22:01.000000000,closed,0,Check for unknown fields in the Conformance Requests.
+771,2018-07-17 18:22:05.000000000,2018-07-24 21:19:14.000000000,closed,5,Update JSON unknown field support
+770,2018-07-17 01:08:41.000000000,2018-07-17 01:09:05.000000000,closed,0,Pull in update protos from google/protobuf.
+769,2018-07-17 00:53:54.000000000,2018-07-24 21:19:14.000000000,closed,6,Double check unknown JSON support
+768,2018-07-13 19:29:04.000000000,2018-07-20 18:15:19.000000000,closed,7,Hashable prep
+767,2018-07-13 12:36:12.000000000,2018-08-23 22:39:52.000000000,closed,1,Swift4.2 Hasher support
+766,2018-07-12 01:44:04.000000000,2018-07-16 19:22:31.000000000,closed,3,Swift 4.2 CaseIterable support
+765,2018-07-11 23:34:40.000000000,2018-07-12 00:01:56.000000000,closed,0,Remove a Swift <3.1 check.
+764,2018-07-11 22:34:28.000000000,2018-07-12 01:06:37.000000000,closed,1,Add a 4.2 manifest to enable 4.2 support.
+763,2018-07-06 22:21:02.000000000,1970-01-01 00:00:00.000000001,open,3,Consider using @inlineable / @usableFromInline
+762,2018-07-06 21:04:00.000000000,1970-01-01 00:00:00.000000001,open,6,Messages aren't Equatable/Hashable
+761,2018-06-29 23:50:46.000000000,1970-01-01 00:00:00.000000001,open,1,"Add support for ""option"" field in protobuf message"
+760,2018-06-22 18:43:06.000000000,2018-07-11 19:01:08.000000000,closed,3,Can't find the api in the API Documentation
+759,2018-06-20 20:25:47.000000000,1970-01-01 00:00:00.000000001,open,6,Enum cases incorrectly generated when containing enum name
+758,2018-06-19 17:21:48.000000000,2018-06-20 19:36:17.000000000,closed,1,Fix outdated package syntax
+757,2018-06-18 13:38:48.000000000,2018-06-18 18:31:00.000000000,closed,1,Generated Swift file does not contain methods for serialization.
+756,2018-06-14 19:50:47.000000000,2018-06-14 20:01:09.000000000,closed,0,Clean up some stray semicolons.
+755,2018-06-14 16:55:48.000000000,2018-06-14 18:32:03.000000000,closed,1,Fix hashing issues for messages/groups in arrays.
+754,2018-06-11 11:33:45.000000000,2018-07-13 19:13:35.000000000,closed,9,Add helpers for length delimited binary format
+753,2018-06-08 01:10:37.000000000,2018-06-08 01:10:50.000000000,closed,0,Misc infra updates
+752,2018-05-29 17:04:49.000000000,2019-06-04 23:43:39.000000000,closed,1,Revisit float/double to string transforms (JSON and TextFormat)
+751,2018-05-28 19:39:23.000000000,2020-05-15 22:27:31.000000000,closed,7,Should we consider filtering away extension to file/message/field/etc. options?
+750,2018-05-25 01:38:45.000000000,1970-01-01 00:00:00.000000001,open,14,Proposal: Nest generated message types to match proto package structure
+749,2018-05-23 21:05:05.000000000,2018-05-24 18:47:45.000000000,closed,1,Equatable updates
+748,2018-05-23 20:52:28.000000000,2018-05-23 20:54:37.000000000,closed,0,Regenerate the name test files for library changes.
+747,2018-05-23 20:12:20.000000000,2018-05-23 20:25:29.000000000,closed,0,Hashing updates
+746,2018-05-23 04:13:19.000000000,2018-05-23 18:56:13.000000000,closed,1,Fix copy/paste comments to be correct.
+745,2018-05-23 03:19:54.000000000,2018-05-23 19:47:08.000000000,closed,4,"Revert ""Swap the use of IndexPath for a custom Hashable array."""
+744,2018-05-15 23:47:24.000000000,2018-05-16 02:34:33.000000000,closed,0,Issue #743: Correctly handle escaped slashes in JSON byte data
+743,2018-05-15 15:03:25.000000000,2018-05-16 02:35:12.000000000,closed,5,Malformed string when decoding from JSON
+742,2018-05-13 11:48:09.000000000,2019-09-26 22:22:20.000000000,closed,2,Custom FieldOptions going to unknownFields instead of extensionFieldValues
+741,2018-05-10 01:05:10.000000000,2018-05-10 01:50:32.000000000,closed,3,Xcode 9.3 - Basic usage fails
+740,2018-05-03 11:27:15.000000000,2018-05-03 17:23:57.000000000,closed,9,Use of undeclared type 'Google_Protobuf_FieldOptions'
+739,2018-04-24 03:18:49.000000000,2018-04-24 05:03:09.000000000,closed,0,Remove semicolon
+738,2018-04-21 21:56:21.000000000,2018-04-23 19:17:56.000000000,closed,3,Allow 0 to be used for float values in the text protobuf format.
+737,2018-04-20 03:06:15.000000000,2018-04-20 03:08:03.000000000,closed,0,Remove reference to JSONIntegerConverting.swift from the Xcode project.
+736,2018-04-11 21:57:27.000000000,2018-04-11 22:26:17.000000000,closed,0,Drop the support for Swift < 3.1.
+735,2018-04-11 21:35:42.000000000,1970-01-01 00:00:00.000000001,open,11,Revisit when to use heap based storage for messages.
+734,2018-04-08 09:32:32.000000000,2019-03-21 05:00:04.000000000,closed,2,Failed adding the SwiftProtobuf library to my Xcode project
+733,2018-04-05 10:07:25.000000000,1970-01-01 00:00:00.000000001,open,15,_StorageClass makes large arrays of non-trivial messages impractical.
+732,2018-03-26 20:37:26.000000000,2019-07-17 22:18:00.000000000,closed,18,Add swift_version to podspec
+731,2018-03-23 13:01:58.000000000,1970-01-01 00:00:00.000000001,open,14,Read access to NameMap mapping.
+730,2018-03-22 13:52:12.000000000,2018-03-22 20:30:36.000000000,closed,10,protoc-gen-swift: program not found or is not executable
+729,2018-03-15 01:46:41.000000000,2018-07-16 19:22:31.000000000,closed,5,Determine support for SE0194's CaseIterable
+728,2018-03-13 00:23:25.000000000,2018-03-14 00:30:31.000000000,closed,3,Use automatic linkage for the library product
+727,2018-03-08 18:16:12.000000000,2019-08-13 15:40:21.000000000,closed,19,Proposal:  Move `descriptor` to SwiftProtobuf library for general use
+726,2018-03-02 21:09:09.000000000,2018-03-02 21:09:22.000000000,closed,0,Bump the version number to 1.0.3.
+725,2018-02-28 00:55:48.000000000,2018-02-28 11:37:14.000000000,closed,3,Error --swift_out: protoc-gen-swift: Plugin killed by signal 6.
+724,2018-02-14 06:04:00.000000000,2018-02-14 06:48:37.000000000,closed,0,Suppress known-broken test on Swift Linux 4.1 and earlier
+723,2018-02-11 01:39:14.000000000,2018-04-08 02:57:09.000000000,closed,3,Allow static library usage from Cocoapods
+722,2018-02-10 15:34:37.000000000,2018-02-10 22:21:06.000000000,closed,0,MaxCallRecvMsgSize support for swift client?
+721,2018-02-08 01:59:08.000000000,2018-02-08 02:11:27.000000000,closed,0,"Change generation to avoid Swift 4.1 ""near miss"" warnings"
+720,2018-01-31 02:27:10.000000000,2018-01-31 22:50:40.000000000,closed,0,Add a simple warning about the prefix option.
+719,2018-01-26 03:42:34.000000000,2018-02-08 02:11:27.000000000,closed,9,"Swift 4.1 added warnings for ""near misses"" with default impls of protocols that cause build warning in generated code"
+718,2018-01-25 06:23:51.000000000,2018-01-25 21:43:58.000000000,closed,0,More Swift 4.1 cleanups
+717,2018-01-24 03:30:22.000000000,2018-01-24 20:52:15.000000000,closed,0,Xcode Project fixes/cleanups
+716,2018-01-24 03:12:37.000000000,2018-01-24 20:51:48.000000000,closed,1,Support for Swift 4.1's SE0187 changes.
+715,2018-01-20 05:59:26.000000000,2018-01-26 03:43:14.000000000,closed,5,A couple of fixes for Swift 4.1
+714,2018-01-18 20:17:04.000000000,2018-01-18 20:36:29.000000000,closed,1,Fix a typo (`generateUniqueStroage`)
+713,2018-01-18 20:07:51.000000000,1970-01-01 00:00:00.000000001,open,19,Current use of serializedDataSize() in serializedData() causes additional runtime linear in the depth of the proto hierarchy
+712,2018-01-12 11:29:45.000000000,2018-01-12 12:40:37.000000000,closed,1,How to use the msg.pb.swift like a third party?
+711,2018-01-02 22:41:07.000000000,2018-01-04 22:42:28.000000000,closed,2,Add Homebrew installation method to README
+710,2017-12-28 23:51:53.000000000,2018-03-07 20:22:16.000000000,closed,6,Avoid generating files for .protos with no messages
+709,2017-12-19 00:14:09.000000000,2017-12-19 00:17:01.000000000,closed,1,Change Default Commandline Configuration Name to Release
+708,2017-12-19 00:04:16.000000000,2018-01-02 18:15:56.000000000,closed,2,Default Configuration for Commandline Builds
+707,2017-12-09 04:34:23.000000000,2019-09-26 18:33:07.000000000,closed,6,Checking empty nested data
+706,2017-12-05 03:16:45.000000000,2018-01-16 23:53:14.000000000,closed,4,Linking ./.build/x86_64-unknown-linux/release/Conformance failed with exit code 127
+705,2017-12-04 20:39:25.000000000,2017-12-04 22:09:26.000000000,closed,0,Bump version to 1.0.2.
+704,2017-11-28 23:41:08.000000000,2019-09-26 18:33:47.000000000,closed,2,"Integrate ""Building and Installing the Code Generator Plugin"" as part of the build"
+703,2017-11-21 22:18:47.000000000,2019-09-26 18:35:40.000000000,closed,14,Use swift-protobuf on ObjC+Swift project
+702,2017-11-15 01:52:55.000000000,2017-11-16 00:53:56.000000000,closed,5,Add `SwiftProtobufPluginLibrary` product.
+701,2017-11-14 01:41:45.000000000,2017-11-14 01:41:51.000000000,closed,0,Update protos for google/protobuf master.
+700,2017-11-14 01:00:50.000000000,2017-11-14 01:08:31.000000000,closed,0,Add tests confirming the handling enum prefixes.
+699,2017-11-10 18:54:55.000000000,2017-11-10 18:55:11.000000000,closed,1,Updating from apple upstream
+698,2017-11-03 22:56:31.000000000,2017-11-03 22:56:37.000000000,closed,0,Correct docs on textformat support
+697,2017-11-03 21:59:30.000000000,2017-11-13 21:43:54.000000000,closed,0,Update docs so folks copy/pasting with package managers will get updates.
+696,2017-11-03 21:37:24.000000000,2017-11-03 21:37:30.000000000,closed,0,"Fix docs, our tags don't use a leading 'v'."
+695,2017-11-03 21:29:35.000000000,2017-11-03 21:30:22.000000000,closed,0,Bump versions to 1.0.1
+694,2017-11-03 21:10:49.000000000,2017-11-03 21:11:12.000000000,closed,0,Sync up the protos with google/protobuf.
+693,2017-11-02 20:07:36.000000000,2017-11-03 21:14:28.000000000,closed,12,Build to swift not import SwiftProtobuf
+692,2017-11-01 22:16:47.000000000,2017-11-03 21:19:23.000000000,closed,6,Support Swift 4 `characters` deprecation
+691,2017-11-01 20:03:21.000000000,2017-11-02 01:08:54.000000000,closed,2,Add internal `chars` wrapper
+690,2017-10-31 17:47:19.000000000,2017-11-03 18:11:02.000000000,closed,0,Add note about descriptors and why they aren't supported.
+689,2017-10-31 01:54:55.000000000,2017-10-31 21:37:10.000000000,closed,3,add back the Sources/PluginLibrary/ files that were removed in #31
+688,2017-10-31 01:32:46.000000000,2017-10-31 21:36:00.000000000,closed,12,Types define in Sources/PluginLibrary/ are not included in .podspec file...
+687,2017-10-30 20:22:46.000000000,2017-10-30 20:48:05.000000000,closed,4,Too many build errors
+686,2017-10-27 21:29:14.000000000,2017-10-27 21:48:00.000000000,closed,3,Generated Code ignores integer field when value is 0
+685,2017-10-25 16:58:00.000000000,2017-11-03 21:19:24.000000000,closed,10,Sources: remove now deprecated 'characters'
+684,2017-10-25 11:57:33.000000000,2017-10-26 22:05:22.000000000,closed,2,Add public convenience property representing the name of the enum value
+683,2017-10-25 03:41:47.000000000,2017-10-25 04:04:05.000000000,closed,1,swift build does not support --clean
+682,2017-10-19 16:04:22.000000000,2018-05-16 02:38:09.000000000,closed,4,Is there a support for proto Services
+681,2017-10-17 19:09:15.000000000,2017-10-17 22:33:18.000000000,closed,1,Add a template for new issues.
+680,2017-10-17 18:51:44.000000000,2017-10-18 00:42:53.000000000,closed,0,"Follow up to #678, make String conversion explicit always."
+679,2017-10-17 18:43:40.000000000,2017-11-02 22:47:53.000000000,closed,5,Add a SwiftPM 4 version of the manifest.
+678,2017-10-17 17:59:59.000000000,2017-10-17 18:28:41.000000000,closed,0,Update some plugin code for Swift 4.
+677,2017-10-16 20:06:24.000000000,2017-10-16 20:34:07.000000000,closed,1,"Fix #676, API docs have wrong signature for isEqualTo()"
+676,2017-10-15 12:57:02.000000000,2017-10-16 20:34:07.000000000,closed,6,API docs have wrong signature for isEqualTo()
+675,2017-10-12 11:22:53.000000000,2017-10-12 11:29:15.000000000,closed,0,jsonString() will put all integer data into string
+674,2017-10-10 17:07:13.000000000,2017-10-10 19:43:58.000000000,closed,2,Document the `.swift-version` file warning and working around it.
+673,2017-10-10 16:23:53.000000000,2017-10-10 16:59:58.000000000,closed,4,Cocoapods install fails?
+672,2017-10-07 01:21:29.000000000,2017-10-07 01:49:42.000000000,closed,8,Missing bytes in serializedData()
+671,2017-10-03 20:08:32.000000000,2017-10-03 20:23:25.000000000,closed,0,Let Xcode 9 update project settings.
+670,2017-09-29 09:20:01.000000000,2018-05-23 19:47:06.000000000,closed,5,[Don't merge] Repeated field decode performance for Text & JSON
+669,2017-09-29 02:23:51.000000000,2017-09-29 23:55:47.000000000,closed,0,Move generated protos into a different package
+668,2017-09-26 22:45:27.000000000,2017-09-26 23:04:13.000000000,closed,4,Carthage build failure
+667,2017-09-21 01:51:17.000000000,2017-09-23 04:25:00.000000000,closed,0,Obey common env vars to locate 'swift' and 'swiftc' commands
+666,2017-09-20 20:53:49.000000000,2017-09-20 21:11:11.000000000,closed,1,Set master to version 0.9.906 for ongoing work
+665,2017-09-20 20:49:50.000000000,2017-09-20 21:13:29.000000000,closed,7,Cocoapods and Swift versioning?
+664,2017-09-20 19:42:41.000000000,2017-09-20 21:10:03.000000000,closed,3,Xcode 9 public release build failing (with Carthage)
+663,2017-09-19 20:19:43.000000000,2017-09-19 20:24:03.000000000,closed,0,Change `extendingOrTruncating` to `truncatingIfNeeded`
+662,2017-09-18 13:14:47.000000000,2017-10-03 20:24:12.000000000,closed,6,Update Xcode project files for Xcode 9
+661,2017-09-09 07:05:43.000000000,2017-09-14 22:26:42.000000000,closed,8,Properties renamed for proto3
+660,2017-09-08 12:56:39.000000000,2017-09-08 19:11:30.000000000,closed,1,Make generated structs public
+659,2017-09-04 16:30:58.000000000,2017-09-16 01:12:09.000000000,closed,4,Generated server.pb.swift missing guard -> return.
+658,2017-08-31 23:00:06.000000000,2017-09-06 18:20:18.000000000,closed,2,1.0 RC
+657,2017-08-29 13:21:19.000000000,1970-01-01 00:00:00.000000001,open,21,Swift4 Codable support
+656,2017-08-29 05:54:02.000000000,2017-08-30 18:22:43.000000000,closed,0,Issue 653: Accept both RFC4648 Section 4 and Section 5 Base 64 encodings
+655,2017-08-28 23:05:57.000000000,2017-08-29 20:46:32.000000000,closed,0,Stop using the unittest_import_*proto3.proto files.
+654,2017-08-28 20:13:02.000000000,2017-08-28 20:15:24.000000000,closed,0,Record the failing test because of WebSafeBase64 decode.
+653,2017-08-28 20:12:02.000000000,2017-09-05 16:16:03.000000000,closed,3,Revisit WebSafe Base64 in JSON
+652,2017-08-28 19:01:54.000000000,2017-08-28 19:42:30.000000000,closed,0,Followup from sync up protos with google/protobuf.
+651,2017-08-27 22:47:59.000000000,2017-08-29 01:13:40.000000000,closed,5,Trouble compiling protos within nested tree
+650,2017-08-26 01:45:11.000000000,2017-08-28 19:41:04.000000000,closed,0,Speed up .pb.swift generation
+649,2017-08-26 01:44:13.000000000,2017-08-26 19:50:28.000000000,closed,0,Update the protos from google/protobuf.
+648,2017-08-25 23:51:49.000000000,2017-08-25 23:57:00.000000000,closed,0,Remove the specific protoc version check.
+647,2017-08-25 23:46:06.000000000,2017-08-25 23:50:32.000000000,closed,0,Update the generated_swift_names_* files.
+646,2017-08-25 23:25:26.000000000,2017-08-25 23:28:07.000000000,closed,0,Tweak to oneofs on Descriptors.
+645,2017-08-25 23:25:18.000000000,2017-08-25 23:28:17.000000000,closed,0,"Update LinuxMain, got missed at some point."
+644,2017-08-21 07:33:00.000000000,2017-08-21 09:32:30.000000000,closed,1,why  optional not work?
+643,2017-08-16 20:45:09.000000000,2017-08-16 23:44:50.000000000,closed,0,Accept duplicate entries rather than throwing an error.
+642,2017-08-15 19:25:06.000000000,2017-08-15 19:36:26.000000000,closed,2,Support logging the directory via an env variable.
+641,2017-08-15 18:44:23.000000000,2017-08-15 18:44:28.000000000,closed,0,Remove unused file/function.
+640,2017-08-15 17:01:31.000000000,2017-08-15 19:36:05.000000000,closed,0,Public imports
+639,2017-08-15 01:11:06.000000000,2017-08-15 19:36:06.000000000,closed,1,"""import public"" not handled correctly when generating import statements"
+638,2017-08-03 18:43:56.000000000,2017-08-22 18:48:35.000000000,closed,2,Add 0.9.904 version to CocoaPods
+637,2017-08-03 18:29:49.000000000,2017-10-17 21:52:23.000000000,closed,4,Add prebuilt framework archives in releases for faster Carthage installations
+636,2017-08-03 05:25:39.000000000,2017-09-12 20:19:29.000000000,closed,1,Perf:  direct parsing of bool in text format
+635,2017-08-02 06:05:58.000000000,2017-08-02 23:33:50.000000000,closed,0,Use _visitRepeated consistently for all repeated field types
+634,2017-08-02 00:18:00.000000000,2017-08-02 06:00:14.000000000,closed,1,"Document message naming, including swift_prefix"
+633,2017-08-01 23:59:49.000000000,2017-08-02 00:21:00.000000000,closed,1,Perf: pre-size arrays for binary packed fields
+632,2017-08-01 23:54:14.000000000,2017-08-01 23:54:20.000000000,closed,0,Regenerate the generated_swift_names_* files.
+631,2017-08-01 23:40:47.000000000,2017-08-01 23:46:38.000000000,closed,1,Xcode compatibility fixes...
+630,2017-08-01 23:31:21.000000000,2017-08-01 23:34:20.000000000,closed,2,Shim XCTAssertNoThrow for older versions of Swift.
+629,2017-08-01 21:36:16.000000000,2017-08-01 22:22:20.000000000,closed,0,Improve docs on Swift version support.
+628,2017-08-01 20:08:53.000000000,2017-08-01 23:55:00.000000000,closed,0,EnumValue stemming/naming improvements
+627,2017-08-01 00:33:54.000000000,2017-08-01 21:30:45.000000000,closed,0,Perf: Rework Text and JSON enum handling to take full advantage of NameMap
+626,2017-07-29 03:32:14.000000000,2017-07-29 03:32:25.000000000,closed,0,Update LinuxMain with new tests
+625,2017-07-28 12:56:41.000000000,2017-07-28 17:53:18.000000000,closed,1,Add an option to expose generated swift classes to Obj-C
+624,2017-07-28 06:27:35.000000000,2017-07-29 03:23:38.000000000,closed,6,Perf: Use DoubleFormatter.utf8ToDouble() for parsing doubles.
+623,2017-07-27 02:45:46.000000000,2017-07-28 00:03:09.000000000,closed,2,Update protos from google/protobuf and update for new conformance tests
+622,2017-07-26 22:13:05.000000000,2017-07-26 23:13:30.000000000,closed,8,"Swift proto file extension values empty, data showing up in unknown storage"
+621,2017-07-26 18:34:25.000000000,2017-08-01 23:55:00.000000000,closed,15,Enums improperly stemmed and conflicting
+620,2017-07-25 18:38:08.000000000,2017-07-25 20:08:07.000000000,closed,2,'Generator' has been renamed to 'Iterator'
+619,2017-07-24 20:56:52.000000000,1970-01-01 00:00:00.000000001,open,6,Pitch: Strong typedefs on fields
+618,2017-07-21 22:19:31.000000000,2017-07-22 05:08:11.000000000,closed,6,"When converting a certain byte sequence, python protobuf works, swift-protobuf does not"
+617,2017-07-18 23:31:22.000000000,2017-07-19 20:35:21.000000000,closed,1,"Mark all visitMapField() methods as ""throws"""
+616,2017-07-12 19:03:09.000000000,2017-07-12 23:29:06.000000000,closed,2,Fixed bad output in showHelp()
+615,2017-07-12 02:49:52.000000000,2017-07-12 03:00:47.000000000,closed,0,Simplify LinuxMain.swift
+614,2017-07-11 17:08:05.000000000,2017-07-11 21:17:24.000000000,closed,5,Update TextFormatEncodingVisitor.swift
+613,2017-07-11 06:45:02.000000000,2017-07-11 19:59:28.000000000,closed,3,descriptor.pb.swift not included when installed by cocoapods
+612,2017-07-11 00:25:31.000000000,2017-07-11 20:01:05.000000000,closed,1,Swift 4 linux compat
+611,2017-07-08 04:43:02.000000000,2017-07-10 23:40:57.000000000,closed,0,Swift4 compat
+610,2017-07-05 17:27:22.000000000,2017-07-19 20:35:21.000000000,closed,26,Xcode9b2 build failing (with Carthage)
+609,2017-07-05 11:10:35.000000000,2017-07-05 17:58:38.000000000,closed,2,Generate as class
+608,2017-06-21 21:44:10.000000000,2017-06-27 18:35:09.000000000,closed,1,"Add a helper for ""delimited message"" reading/writing."
+607,2017-06-21 14:33:56.000000000,2018-03-15 01:47:24.000000000,closed,5,Add support for case iteration in SwiftProtobuf.Enum
+606,2017-06-21 00:40:35.000000000,2017-06-22 11:11:05.000000000,closed,4,Missing fields from JSON serialization
+605,2017-06-20 21:06:38.000000000,1970-01-01 00:00:00.000000001,open,0,perf_runner seems to leave local tree in an odd state
+604,2017-06-20 18:35:06.000000000,2017-06-20 19:36:25.000000000,closed,1,Sanitycheck serialize behavior
+603,2017-06-20 18:12:31.000000000,2017-06-20 18:28:47.000000000,closed,2,Avoid extra buffering when writing out sub messages.
+602,2017-06-16 03:24:37.000000000,2017-06-16 20:20:06.000000000,closed,1,Fix Float round-trip accuracy in JSON & Text format
+601,2017-06-16 02:43:07.000000000,2017-06-16 16:04:04.000000000,closed,0,SimpleExtensionMap
+600,2017-06-15 23:58:38.000000000,2017-06-15 23:58:46.000000000,closed,0,"Remove stray "":"" in example."
+599,2017-06-15 23:18:11.000000000,2017-06-15 23:26:51.000000000,closed,1,Add a union initializer for SimpleExtensionMap
+598,2017-06-15 23:08:02.000000000,2017-06-15 23:08:08.000000000,closed,0,Regenerate the generated_swift_names_* files.
+597,2017-06-15 20:03:20.000000000,2017-06-15 22:49:08.000000000,closed,5,Make union() not return a new instance.
+596,2017-06-10 01:29:44.000000000,2017-06-12 19:29:52.000000000,closed,1,MessageSet support
+595,2017-06-09 03:37:18.000000000,2017-06-12 16:29:28.000000000,closed,5,Does it support iOS8?
+594,2017-06-08 19:55:55.000000000,2017-06-08 21:35:22.000000000,closed,1,Don't visit unknowns unless there is data.
+593,2017-06-08 17:21:45.000000000,2017-06-08 17:21:51.000000000,closed,0,Regenerate the reference files.
+592,2017-06-08 17:14:34.000000000,2017-06-08 17:14:42.000000000,closed,0,Regenerate again...
+591,2017-06-08 17:09:09.000000000,2017-06-08 17:09:15.000000000,closed,0,Regenerated test protos
+590,2017-06-08 16:58:45.000000000,2017-06-08 19:12:46.000000000,closed,0,Directly use the extension's fieldName.
+589,2017-06-08 16:56:14.000000000,2017-06-08 19:12:34.000000000,closed,0,Provide a default for Visitor.visitExtensionFields.
+588,2017-06-08 16:51:35.000000000,2017-06-08 19:20:58.000000000,closed,0,"Add a type to wrap the ""core"" of the plugin."
+587,2017-06-08 01:06:35.000000000,2017-06-08 01:08:15.000000000,closed,1,Fix typo in API.md
+586,2017-06-07 18:55:19.000000000,2017-06-08 01:59:19.000000000,closed,0,Clean up the root directory a little bit.
+585,2017-06-07 05:22:17.000000000,2017-07-11 21:20:13.000000000,closed,6,Swift 4 compatibility
+584,2017-06-07 05:21:23.000000000,2017-06-08 02:26:38.000000000,closed,0,Add Swift 4 string decoder
+583,2017-06-06 16:53:29.000000000,2017-06-06 21:32:20.000000000,closed,0,Sync with google protobuf
+582,2017-06-06 05:14:38.000000000,2017-06-08 01:54:59.000000000,closed,1,Swift 4 compat part1
+581,2017-06-02 21:38:48.000000000,1970-01-01 00:00:00.000000001,open,3,Improve JSONDecodingError
+580,2017-06-02 21:32:49.000000000,1970-01-01 00:00:00.000000001,open,0,Improve TextFormatDecodingError
+579,2017-06-02 19:49:59.000000000,2017-06-06 23:04:59.000000000,closed,0,Document a release process.
+578,2017-06-02 15:32:43.000000000,2019-09-26 20:50:51.000000000,closed,4,Question:  Using Objective-C protobuf and SwiftProtobuf in same project?
+577,2017-06-02 05:43:57.000000000,2017-06-02 21:00:26.000000000,closed,0,README.md rework
+576,2017-06-01 01:04:37.000000000,2017-06-01 17:01:24.000000000,closed,1,Move all extension generation into ExtensionSetGenerator.
+575,2017-05-31 23:37:51.000000000,2017-05-31 23:58:38.000000000,closed,0,Group the Swift Extensions for Proto Extensions
+574,2017-05-31 21:33:00.000000000,2017-05-31 22:45:57.000000000,closed,0,Add Extensions test cases for BinaryDecodingOptions tests.
+573,2017-05-31 18:55:46.000000000,2017-06-02 18:27:22.000000000,closed,1,Update the collection done for mined_words.txt.
+572,2017-05-31 18:40:18.000000000,2017-05-31 19:32:28.000000000,closed,11,documentation on parseFromBytes from binary wire format / .pb files
+571,2017-05-31 03:12:17.000000000,2017-05-31 18:20:16.000000000,closed,0,Add a BinaryDecodingOption to discard unknown fields.
+570,2017-05-31 02:46:48.000000000,2017-05-31 02:50:22.000000000,closed,1,JSONDecodingOptions.swift is missing from the XCode project
+569,2017-05-31 02:41:02.000000000,2017-05-31 02:41:22.000000000,closed,0,Add comment referring to an old Swift bug
+568,2017-05-30 22:08:48.000000000,2017-05-30 23:46:16.000000000,closed,0,Add a message depths to parsing binaries
+567,2017-05-30 20:37:25.000000000,2017-05-30 20:37:31.000000000,closed,0,Properly add the JSONDecodingOptions to all library targets.
+566,2017-05-30 20:33:51.000000000,2017-05-30 20:56:29.000000000,closed,1,Generated version bump.
+565,2017-05-30 19:48:51.000000000,2017-05-30 20:25:36.000000000,closed,0,"Fix the Xcode project, split the messageDepthTest off."
+564,2017-05-30 18:43:12.000000000,2017-05-30 19:49:50.000000000,closed,7,Move binary message decoding completely within the BinaryDecoder.
+563,2017-05-30 16:49:02.000000000,2017-05-30 19:49:19.000000000,closed,0,Remove the comments about nil since the api changed.
+562,2017-05-29 13:50:39.000000000,2017-08-02 06:01:25.000000000,closed,1,Document swift_prefix
+561,2017-05-27 03:48:51.000000000,2017-05-30 22:16:46.000000000,closed,2,Fix bytes hash with Swift 3.0.x
+560,2017-05-26 23:17:51.000000000,2017-05-26 23:43:42.000000000,closed,1,JSON Decode message nesting depth limit
+559,2017-05-26 04:53:18.000000000,1970-01-01 00:00:00.000000001,open,1,Add fuzzing tests
+558,2017-05-26 00:34:18.000000000,2017-05-26 01:27:04.000000000,closed,0,Add a few more tests for enum values as numbers.
+557,2017-05-26 00:08:21.000000000,2017-05-26 01:25:17.000000000,closed,5,protobuf message JSON stringify format error
+556,2017-05-25 23:56:56.000000000,2017-05-26 00:07:12.000000000,closed,1,"Ensure Map TextFormat parsing supports "","" and "";"" between keys."
+555,2017-05-25 23:55:24.000000000,2017-05-26 01:27:04.000000000,closed,0,Expand TextFormat enum support
+554,2017-05-25 23:15:08.000000000,2017-05-26 00:00:20.000000000,closed,2,Support field number parsing in TextFormat
+553,2017-05-25 21:28:48.000000000,2017-05-25 21:51:42.000000000,closed,0,Remove todo and validate the unknown field.
+552,2017-05-25 20:21:23.000000000,2017-05-25 23:15:27.000000000,closed,4,Add a static defaultInstance to the _StorageClasses.
+551,2017-05-25 20:08:36.000000000,2017-05-25 20:08:41.000000000,closed,1,Regenerate.  #548 likely caused some of the name shuffling.
+550,2017-05-24 18:44:40.000000000,2017-05-24 20:47:01.000000000,closed,3,Document building release and static linking the runtime.
+549,2017-05-23 18:50:12.000000000,2017-05-25 19:57:28.000000000,closed,2,Extension default handling changes
+548,2017-05-23 03:28:09.000000000,2017-05-24 20:46:00.000000000,closed,0,Performance: `bytes` fields in JSON & TextFormat
+547,2017-05-23 00:22:08.000000000,2017-05-23 20:07:36.000000000,closed,0,Rename MessageExtensionBase -> AnyMessageExtension
+546,2017-05-22 22:48:18.000000000,2017-05-23 00:25:44.000000000,closed,6,Avoid the generated code needing to capture the Extension default values twice.
+545,2017-05-22 21:12:54.000000000,2017-05-22 21:25:02.000000000,closed,0,Change bundle IDs to use org.swift.protobuf
+544,2017-05-22 21:01:47.000000000,2017-05-22 21:26:28.000000000,closed,1,Generate a fully qualified name for the extension field type.
+543,2017-05-20 04:28:14.000000000,2017-05-22 21:29:04.000000000,closed,0,Another attempt to explain why optional != Optional
+542,2017-05-19 00:01:47.000000000,2017-05-19 01:04:21.000000000,closed,0,Generator option for mapping proto files to Swift modules
+541,2017-05-17 19:26:53.000000000,2017-05-17 20:25:23.000000000,closed,1,Use backticks on some field names.
+540,2017-05-17 18:26:55.000000000,2017-05-17 18:27:02.000000000,closed,0,Use fatalError to enforce the function can't hit this state in a release build
+539,2017-05-17 14:32:57.000000000,2017-05-17 18:27:02.000000000,closed,0,Build error at release configuration.
+538,2017-05-17 01:28:09.000000000,2017-05-17 01:28:14.000000000,closed,0,Correct return type.
+537,2017-05-16 22:49:38.000000000,2017-05-17 01:21:37.000000000,closed,0,Inline oneof field decoding fix two bugs along the way.
+536,2017-05-16 18:56:17.000000000,2017-05-16 19:56:12.000000000,closed,1,Fix oneof generation to check groups for required fields.
+535,2017-05-16 17:47:15.000000000,2017-05-16 21:49:18.000000000,closed,1,Inline oneof traverse alternate
+534,2017-05-16 17:33:53.000000000,2017-05-16 21:49:01.000000000,closed,3,Inline oneof traverse
+533,2017-05-16 00:30:44.000000000,2017-05-16 20:20:54.000000000,closed,0,Trim out more unused code from the generator.
+532,2017-05-15 22:09:16.000000000,2017-05-16 00:14:52.000000000,closed,0,Fix parsing of oneofs to not set the field on decode failures.
+531,2017-05-15 21:32:41.000000000,2017-05-17 20:26:26.000000000,closed,3,Investigate using backticks on Enum and Message names as well as field names
+530,2017-05-15 21:25:46.000000000,2017-05-16 00:14:38.000000000,closed,1,Add some more doc pointers to the generated code.
+529,2017-05-15 21:01:34.000000000,2017-05-15 21:37:34.000000000,closed,0,Used dotted form for enum value defaults
+528,2017-05-15 20:45:36.000000000,2017-05-15 20:54:51.000000000,closed,1,Revisit enum name stemming.
+527,2017-05-15 20:39:01.000000000,2017-05-15 20:39:08.000000000,closed,0,Regenerate the generated_swift_names* files.
+526,2017-05-15 20:18:56.000000000,2017-05-17 20:27:05.000000000,closed,2,Oneof decoding of message fields doesn't merge
+525,2017-05-15 20:14:07.000000000,2017-05-17 01:21:37.000000000,closed,1,Oneof generated init?() likely doesn't work with wrong wire types
+524,2017-05-15 19:15:56.000000000,2017-05-15 20:06:04.000000000,closed,0,Finish the move to Descriptors and remove no longer used code
+523,2017-05-14 20:20:02.000000000,2017-05-15 18:38:09.000000000,closed,3,import Dispatch framework at header needs.
+522,2017-05-12 23:57:48.000000000,2017-05-13 00:04:54.000000000,closed,14,[FR] Rather than 'hasX' methods just use Swift optionals
+521,2017-05-12 00:23:04.000000000,2017-05-12 00:26:02.000000000,closed,3,Generate a traverse for each subgroup.
+520,2017-05-11 22:45:25.000000000,2017-05-11 23:03:58.000000000,closed,1,Add a generic FieldGenerator interface and move Oneof items to it.
+519,2017-05-11 07:09:03.000000000,2017-05-12 20:19:45.000000000,closed,3,Test and fix issues with Swift 3.0.1+ (Linux) and Xcode 8.1+ (macOS)
+518,2017-05-11 03:05:28.000000000,2017-05-11 21:34:02.000000000,closed,1,Update conformance and plugin documentation
+517,2017-05-11 02:05:19.000000000,2017-05-22 21:28:51.000000000,closed,6,Use in App Store App
+516,2017-05-11 00:58:05.000000000,2017-05-11 18:03:02.000000000,closed,2,Silence the grep used for the version check.
+515,2017-05-11 00:52:45.000000000,2017-05-11 00:58:52.000000000,closed,0,"Have Storage defer to the other generators, move a little more oneof to Descriptor/Namer"
+514,2017-05-10 18:52:45.000000000,2017-05-10 23:18:50.000000000,closed,0,Swap the use of IndexPath for a custom Hashable array.
+513,2017-05-10 06:55:47.000000000,2017-05-10 23:18:50.000000000,closed,3,IndexPath hashValue seems busted on linux
+512,2017-05-10 04:59:21.000000000,2017-05-10 04:59:40.000000000,closed,1,Use a more portable construct for testing the protoc version
+511,2017-05-09 22:24:42.000000000,2017-05-09 23:58:31.000000000,closed,0,Tbkka documentation
+510,2017-05-09 21:47:48.000000000,2017-05-09 22:02:40.000000000,closed,0,Move more details into sub generators
+509,2017-05-09 02:31:24.000000000,2017-05-09 21:02:18.000000000,closed,1,Work around https://bugs.swift.org/browse/SR-1927
+508,2017-05-09 02:18:04.000000000,2017-05-10 06:56:38.000000000,closed,14,"Fatal error, cannot generate swift files with sequential comment lines "
+507,2017-05-09 01:36:59.000000000,2017-05-09 01:37:04.000000000,closed,0,Add google/protobuf 3.3 as a tested release.
+506,2017-05-08 23:42:59.000000000,2017-05-09 01:10:23.000000000,closed,0,Naming wiring
+505,2017-05-08 21:02:36.000000000,2017-05-08 21:13:16.000000000,closed,0,Update isInitialized checks to use descriptors.
+504,2017-05-05 00:46:40.000000000,2017-05-05 01:06:28.000000000,closed,0,Add namer and update extensions
+503,2017-05-05 00:07:05.000000000,2017-05-05 00:08:03.000000000,closed,0,Fix reserved word escaping for Extension names.
+502,2017-05-04 17:17:49.000000000,2017-05-25 19:58:35.000000000,closed,1,Extension support requires the default value twice
+501,2017-05-04 16:58:38.000000000,2017-05-04 18:24:00.000000000,closed,2,Correct TextFormat for Group Extension Fields.
+500,2017-05-02 21:59:39.000000000,2017-05-02 23:29:17.000000000,closed,0,Move enum generation fully over to be Descriptor based.
+499,2017-05-01 22:58:57.000000000,2017-05-01 22:59:02.000000000,closed,0,Regenerate Protos/generated_swift_names_*.protos
+498,2017-05-01 21:47:01.000000000,2017-05-01 22:01:52.000000000,closed,0,Move naming helpers into the PluginLib
+497,2017-04-28 01:08:18.000000000,2017-05-01 21:42:58.000000000,closed,0,Start moving generation over to Descriptors
+496,2017-04-27 20:36:54.000000000,2017-04-28 00:16:42.000000000,closed,4,Add encoding/decoding for top-level Arrays of Message types from JSON
+495,2017-04-26 23:06:12.000000000,2017-04-27 21:33:37.000000000,closed,0,Print cleanup
+494,2017-04-26 20:45:21.000000000,2017-04-26 20:45:30.000000000,closed,0,Regenerate for PRs landed in parallel.
+493,2017-04-26 20:20:54.000000000,1970-01-01 00:00:00.000000001,open,0,Finish building out reserved word testing
+492,2017-04-26 20:06:52.000000000,2017-05-31 23:58:38.000000000,closed,0,Group the proto extensions by extendee
+491,2017-04-26 19:46:34.000000000,2017-04-26 20:02:27.000000000,closed,2,"Add ""id"" to the list of uppercase names."
+490,2017-04-26 19:45:25.000000000,2017-04-26 20:14:07.000000000,closed,4,Generate comments for the has*/clear* extension methods.
+489,2017-04-26 01:14:12.000000000,2017-04-26 17:55:42.000000000,closed,0,Move GenerationError and GeneratorOptions into their own files.
+488,2017-04-25 23:51:27.000000000,2017-04-26 20:21:22.000000000,closed,5,Remove the hand made naming tests.
+487,2017-04-25 22:43:55.000000000,2017-04-26 18:37:36.000000000,closed,1,Plugin lib additions and start of generation trimming
+486,2017-04-25 02:19:24.000000000,1970-01-01 00:00:00.000000001,open,2,Add SwiftProtobuf to the Swift source compatibility suite
+485,2017-04-21 22:34:10.000000000,2017-04-21 22:53:14.000000000,closed,0,Property generation tweaks
+484,2017-04-21 21:03:33.000000000,2017-05-15 19:21:25.000000000,closed,3,Extract some plugin building block into PluginLibrary
+483,2017-04-21 01:31:05.000000000,2017-04-21 21:10:30.000000000,closed,2,Clean up/speed up some Context descriptor lookups.
+482,2017-04-20 18:23:46.000000000,2017-04-20 18:23:53.000000000,closed,0,Fix project reference.
+481,2017-04-20 12:16:21.000000000,2017-04-20 16:34:15.000000000,closed,4,JSON parsing issues
+480,2017-04-19 19:20:56.000000000,2017-05-25 21:16:17.000000000,closed,1,Linux support/coverage for PluginLibraryTests
+479,2017-04-17 22:18:10.000000000,2017-04-26 02:01:50.000000000,closed,1,Announce 0.9.901
+478,2017-04-15 00:08:46.000000000,2017-04-15 00:31:34.000000000,closed,2,Don't see the buid directory
+477,2017-04-11 22:19:47.000000000,2017-04-11 23:09:22.000000000,closed,0,Oneof cleanup and generation improvements.
+476,2017-04-11 00:13:44.000000000,2017-04-11 00:17:49.000000000,closed,0,Oneof generation tuning
+475,2017-04-09 02:23:56.000000000,2017-04-10 22:37:37.000000000,closed,3,Re-add Foundation import to Google_Protobuf_Any extension
+474,2017-04-08 01:44:34.000000000,2017-04-08 02:04:19.000000000,closed,0,Include field comments on the oneof enum cases.
+473,2017-04-08 01:36:14.000000000,2017-04-08 01:38:47.000000000,closed,0,Generate the field cases in numerical order.
+472,2017-04-08 01:26:50.000000000,2017-04-08 01:38:31.000000000,closed,2,Tweak generated field order.
+471,2017-04-07 21:55:24.000000000,2017-04-07 22:00:44.000000000,closed,0,isInitialize generation improvements
+470,2017-04-07 02:34:16.000000000,2017-04-07 19:13:13.000000000,closed,0,Speed up CodePrinter a bit.
+469,2017-04-07 01:02:48.000000000,2017-04-07 19:17:35.000000000,closed,0,Tighten up more oneof generation.
+468,2017-04-07 00:48:37.000000000,2017-04-07 19:15:29.000000000,closed,0,Move the _storage property down.
+467,2017-04-06 23:35:40.000000000,2017-04-07 19:24:44.000000000,closed,0,Extension generation factoring
+466,2017-04-06 21:28:30.000000000,2017-04-06 22:01:47.000000000,closed,1,Performance improvements for String/Data empty values.
+465,2017-04-06 21:27:49.000000000,2017-04-06 22:13:27.000000000,closed,0,Move StorageClass overhead into the Swift Extension.
+464,2017-04-06 21:13:09.000000000,2017-04-06 21:13:14.000000000,closed,0,Fix Instruments in perf harness.
+463,2017-04-06 20:53:55.000000000,2017-04-06 20:56:18.000000000,closed,0,Ignore explicit defaults on strings and bytes that are the default.
+462,2017-04-06 20:17:30.000000000,2017-04-06 20:17:38.000000000,closed,0,Minor fixups
+461,2017-04-06 17:46:22.000000000,2017-04-06 19:52:12.000000000,closed,5,Fixed oneof isInitialized generation
+460,2017-04-06 05:11:55.000000000,2017-04-11 21:38:37.000000000,closed,3,Issue #40: More testing of field/enum/message names
+459,2017-04-06 02:31:21.000000000,2017-04-06 19:08:28.000000000,closed,1,Add message with different field types to perf harness.
+458,2017-04-04 22:25:27.000000000,2017-04-04 22:32:55.000000000,closed,1,Add comment marker for the Swift Extnesions
+457,2017-04-04 21:41:48.000000000,2017-05-25 23:15:37.000000000,closed,12,Investigate static values for field defaults
+456,2017-04-04 20:17:17.000000000,2017-04-04 21:39:17.000000000,closed,0,Let Xcode 8.3 do the project/scheme updates.
+455,2017-04-04 20:12:37.000000000,2017-04-04 21:42:26.000000000,closed,0,Shorten the code generated for fields in a oneof.
+454,2017-04-04 19:56:46.000000000,2017-04-04 22:03:52.000000000,closed,3,Split the oneof Enum generation.
+453,2017-04-04 19:03:50.000000000,2017-04-04 21:42:45.000000000,closed,0,Don't add spaces before the comments pulled from proto file.
+452,2017-04-04 18:43:45.000000000,2017-04-04 21:57:21.000000000,closed,0,	Move _ProtoNameProviding support for Enums into a Swift Extension.
+451,2017-04-04 18:19:42.000000000,2017-04-04 21:42:58.000000000,closed,0,Split the runtime support generation.
+450,2017-04-04 18:08:23.000000000,2017-04-04 21:10:35.000000000,closed,1,Clear doesn't return anything.
+449,2017-04-04 07:38:51.000000000,2017-04-05 05:13:43.000000000,closed,3,Convenience initializers for all required properties
+448,2017-04-04 03:26:27.000000000,2017-04-04 20:32:20.000000000,closed,3,fix floating-point handling in JSON which contains uppercase exponent E
+447,2017-04-04 02:43:49.000000000,2017-04-05 19:34:44.000000000,closed,2,Regression in floating-point handling in JSON (uppercase exponent `E`)
+446,2017-04-04 00:33:13.000000000,2017-04-04 17:23:49.000000000,closed,0,Update the .proto files from google/protobuf.
+445,2017-04-03 23:41:40.000000000,2017-04-04 18:03:58.000000000,closed,1,Hopefully start making the generated source a little more approachable
+444,2017-04-03 20:14:14.000000000,2017-05-30 23:46:16.000000000,closed,1,Add a message depths to parsing
+443,2017-04-01 21:18:16.000000000,1970-01-01 00:00:00.000000001,open,30,Problems with generated sources in multiple modules with Swift 3.1
+442,2017-03-30 23:55:53.000000000,2017-03-31 00:49:53.000000000,closed,4,How to set the visibility of the generated pb files?
+441,2017-03-30 09:51:47.000000000,2017-03-31 22:01:19.000000000,closed,1,Disable known-to-fail tests until the next version of Swift Linux is released
+440,2017-03-30 05:12:32.000000000,2017-03-30 20:49:32.000000000,closed,11,Error generating swift after updating Xcode tools
+439,2017-03-30 04:42:33.000000000,2017-03-30 05:18:47.000000000,closed,1,FLT_DIG and DBL_DIG need to be Int32 to match other C imports
+438,2017-03-30 04:36:37.000000000,2017-03-30 04:36:52.000000000,closed,0,Linux requires `import Dispatch` to use GCD functions
+437,2017-03-30 01:56:57.000000000,2017-03-30 04:16:11.000000000,closed,0,Helper script for checking/updating the library version.
+436,2017-03-30 00:24:40.000000000,2017-03-30 04:25:19.000000000,closed,1,Fix up the copyright headers and helper script.
+435,2017-03-30 00:08:02.000000000,2017-03-30 03:55:06.000000000,closed,0,Add jsonUTF8Data() for symmetry with init(jsonUTF8Data:)
+434,2017-03-28 22:13:21.000000000,2017-04-05 18:41:31.000000000,closed,1,Update JSON decoding to use UnsafeBufferPointer.
+433,2017-03-28 20:45:06.000000000,2017-03-28 20:59:48.000000000,closed,1,Xcode support
+432,2017-03-28 15:51:12.000000000,2017-03-30 00:56:49.000000000,closed,6,Swift 3.1 support
+431,2017-03-28 01:05:24.000000000,2017-03-28 16:04:28.000000000,closed,0,Fix format string for Int64.
+430,2017-03-28 00:33:52.000000000,2017-03-28 16:04:28.000000000,closed,6,Some Unittests failing for 32bit iOS
+429,2017-03-27 23:47:54.000000000,2017-03-28 16:04:54.000000000,closed,0,Swift 3.1 compile time checks.
+428,2017-03-27 22:50:56.000000000,2017-03-27 23:23:37.000000000,closed,0,Expose the library version.
+427,2017-03-27 22:08:06.000000000,2017-03-27 23:15:22.000000000,closed,0,Switch from a clone model to a copy initializer.
+426,2017-03-26 01:52:23.000000000,2017-03-27 19:12:29.000000000,closed,0,Allow perf harness to compare multiple revisions of SwiftProtobuf
+425,2017-03-25 18:40:14.000000000,2017-05-17 20:39:54.000000000,closed,4,Update Documentation/API.md before 1.0
+424,2017-03-25 18:28:25.000000000,2017-03-25 18:43:51.000000000,closed,7,Initializers are private
+423,2017-03-24 23:07:50.000000000,2017-03-25 01:13:22.000000000,closed,0,Update the comments to more completely capture naming issues.
+422,2017-03-24 22:41:33.000000000,2017-03-25 01:29:15.000000000,closed,0,Improved reserved word handing for extension names
+421,2017-03-24 21:47:38.000000000,2017-03-24 21:47:47.000000000,closed,0,Forgot to update LinuxMain in last PR.
+420,2017-03-24 21:26:44.000000000,1970-01-01 00:00:00.000000001,open,4,Support other string encodings when decoding JSON from Data?
+419,2017-03-24 21:24:57.000000000,2017-03-24 21:42:24.000000000,closed,1,Ext naming
+418,2017-03-24 20:06:18.000000000,2017-03-24 20:50:37.000000000,closed,0,Cleanup documentation for WKTs.
+417,2017-03-24 18:58:01.000000000,2017-03-24 19:03:27.000000000,closed,0,Clean up Any extension docs.
+416,2017-03-24 01:58:22.000000000,2017-03-24 02:03:28.000000000,closed,0,Helper to unpacking from contentJSON.
+415,2017-03-23 23:14:59.000000000,2017-03-23 23:52:49.000000000,closed,0,Clean up Any support of required fields.
+414,2017-03-23 22:39:09.000000000,2017-03-23 22:49:29.000000000,closed,1,Use an enum for the internal state of AnyMessageStorage.
+413,2017-03-23 21:59:27.000000000,2017-03-23 22:19:37.000000000,closed,0,Common code and general cleanups in Any's Storage
+412,2017-03-23 20:50:29.000000000,2017-03-23 21:27:05.000000000,closed,0,"Move helper to be non instance, and fix variable usage."
+411,2017-03-23 06:38:31.000000000,2017-03-24 07:33:52.000000000,closed,1,Documentation cleanup
+410,2017-03-23 03:39:44.000000000,2017-03-29 04:53:40.000000000,closed,1,Derive the reserved word lists from the Swift language spec
+409,2017-03-22 02:42:50.000000000,2017-03-22 21:56:54.000000000,closed,2,"Text encoder should never fail, improve Any formatting"
+408,2017-03-21 22:35:17.000000000,2017-03-21 23:31:27.000000000,closed,0,"Remove TODO, code below seems to do it"
+407,2017-03-21 21:59:08.000000000,2017-03-21 23:30:59.000000000,closed,0,Avoid doing a sort in hashValue.
+406,2017-03-21 21:24:38.000000000,2017-03-21 23:30:33.000000000,closed,0,Make extension lookup go through a protocol
+405,2017-03-21 21:06:11.000000000,2017-03-22 00:14:12.000000000,closed,1,Drop leading_detached_comments except where trying to get copyright.
+404,2017-03-21 20:34:05.000000000,2017-03-21 20:40:26.000000000,closed,0,Keep the lists sorted and unsorted.
+403,2017-03-21 18:19:36.000000000,2017-03-21 20:46:32.000000000,closed,0,Add constants for some field numbers.
+402,2017-03-21 18:17:56.000000000,2017-03-21 18:18:04.000000000,closed,0,Update one missed generated file
+401,2017-03-21 17:35:21.000000000,2017-03-21 17:42:44.000000000,closed,1,"Missing any.pb.swift in the iOS, tvOS and watchOS targets"
+400,2017-03-21 01:46:36.000000000,2017-03-21 21:08:35.000000000,closed,6,"Make extension field names be simple String, allow generating them dynamically"
+399,2017-03-21 01:01:59.000000000,2017-03-21 01:02:35.000000000,closed,0,Remove old/wrong comments about Extension naming
+398,2017-03-21 00:24:55.000000000,2017-03-21 01:25:53.000000000,closed,0,Use a DisptachQueue to make the registry thread safe.
+397,2017-03-20 22:26:59.000000000,2017-03-23 01:12:50.000000000,closed,3,Tweak/Document Any's hashValue and equality support.
+396,2017-03-20 20:56:18.000000000,2017-03-20 23:29:19.000000000,closed,0,Merge the common parts of Any's decodeTextFormat()
+395,2017-03-20 20:18:24.000000000,2017-03-21 00:12:30.000000000,closed,7,Turn unpackTo() as being a reset and add extension support.
+394,2017-03-20 19:43:44.000000000,2017-03-20 19:43:59.000000000,closed,0,Fix use of Swift 3.1-only API introduced in #386.
+393,2017-03-20 19:35:00.000000000,2017-03-20 23:34:38.000000000,closed,1,Add an isA() to Google_Protobuf_Any.
+392,2017-03-18 05:10:27.000000000,2019-06-12 06:06:51.000000000,closed,3,Performance:  formatting float/double for json and text formats
+391,2017-03-18 05:05:01.000000000,2017-03-29 23:35:11.000000000,closed,4,Major speedup of floating-point handling in JSON/Text
+390,2017-03-17 23:49:59.000000000,2017-03-18 03:30:57.000000000,closed,2,Performance: Text decoder infrastructure
+389,2017-03-17 19:31:09.000000000,2017-03-17 22:41:07.000000000,closed,0,Any followup tweaks.
+388,2017-03-17 06:23:37.000000000,2017-03-27 23:15:22.000000000,closed,1,StorageClass: copy initializers instead of a copy method
+387,2017-03-17 01:22:42.000000000,2017-03-17 18:47:16.000000000,closed,0,Generate Any by using a hand written storage class.
+386,2017-03-16 20:08:20.000000000,2017-03-17 23:22:45.000000000,closed,2,Compute json field names
+385,2017-03-16 02:29:45.000000000,2017-03-16 19:03:09.000000000,closed,0,Move unknowns and extension access out of ExtendedLifetime blocks
+384,2017-03-16 01:32:03.000000000,2017-03-16 19:39:21.000000000,closed,0,Simplify extension naming
+383,2017-03-15 19:34:01.000000000,2017-03-15 20:52:23.000000000,closed,0,Inline and refactor the only use of jsonFieldNameResolver
+382,2017-03-14 23:29:54.000000000,2017-03-14 23:33:26.000000000,closed,2,Track plan for preserving unknown fields in Proto3
+381,2017-03-13 21:10:07.000000000,2017-03-21 01:48:12.000000000,closed,8,Generating  Person.proto.swift - doesn't find any method/initializer/extension in this file - BUG
+380,2017-03-13 20:32:14.000000000,2017-03-13 23:57:53.000000000,closed,0,Move the registry into an extension with helpers for access.
+379,2017-03-13 20:27:21.000000000,2017-03-17 23:37:47.000000000,closed,5,Does the Google_Protobuf_Any registry work with modules/frameworks?
+378,2017-03-12 06:52:31.000000000,2017-03-13 20:42:41.000000000,closed,3,Remove decodeField methods and directly generate decodeMessage.
+377,2017-03-11 05:03:31.000000000,2017-03-13 23:39:28.000000000,closed,0,Make protoMessageName hold the fully-scoped name
+376,2017-03-11 04:31:08.000000000,2017-03-21 01:25:53.000000000,closed,0,Google_Protobuf_Any registry isn't threadsafe
+375,2017-03-11 04:23:47.000000000,2017-03-12 06:34:08.000000000,closed,0,Avoid creating a instance when registering a Message type.
+374,2017-03-11 04:17:42.000000000,2017-03-12 06:36:46.000000000,closed,1,Change how Any caches when created from JSON.
+373,2017-03-11 01:59:02.000000000,2017-03-11 03:26:10.000000000,closed,0,Remove some overhead in slowUtf8ToString
+372,2017-03-11 01:34:03.000000000,2017-03-11 01:52:46.000000000,closed,1,Linux string correctness
+371,2017-03-10 21:48:29.000000000,2017-03-10 21:48:45.000000000,closed,0,"Remove protoFieldNames, protoMessageName, protoPackageName from reserved word list"
+370,2017-03-10 20:55:20.000000000,2017-03-11 00:29:17.000000000,closed,2,Ensure generated JSON is always valid.
+369,2017-03-10 20:08:17.000000000,2017-04-11 23:09:22.000000000,closed,0,Generate better traverse() for some oneofs
+368,2017-03-09 18:35:44.000000000,2017-03-10 20:21:40.000000000,closed,2,Ensure internal state gets reset.
+367,2017-03-09 05:08:09.000000000,2017-03-10 21:45:29.000000000,closed,2,Rename metadata properties
+366,2017-03-09 03:46:19.000000000,2017-03-10 11:11:33.000000000,closed,0,"Get rid of hand-written Struct, Value, and ListValue."
+365,2017-03-09 02:50:10.000000000,2017-03-09 02:57:18.000000000,closed,0,Rename traverse and avoid indirection
+364,2017-03-09 01:52:42.000000000,2017-03-09 02:01:46.000000000,closed,0,Use isEmpty instead of comparing to a temp String object.
+363,2017-03-09 01:08:24.000000000,2017-03-09 03:24:09.000000000,closed,0,Linux fixes
+362,2017-03-08 03:19:23.000000000,2017-03-08 22:29:54.000000000,closed,0,JSON Codable tweaks
+361,2017-03-08 01:00:50.000000000,2017-03-09 01:59:42.000000000,closed,1,Update the `Message` documentation.
+360,2017-03-07 04:05:28.000000000,2017-03-11 00:51:10.000000000,closed,1,Add init/getter to Duration for TimeInterval
+359,2017-03-06 23:29:46.000000000,2017-04-04 20:22:35.000000000,closed,7,Investigate Any behaviors for consistency
+358,2017-03-06 07:56:05.000000000,2017-03-07 03:51:48.000000000,closed,0,Add convenience init/getters for Timestamp.
+357,2017-03-04 05:27:31.000000000,2017-03-06 23:31:57.000000000,closed,0,Improve enum alias handling.
+356,2017-03-04 02:01:34.000000000,2017-03-09 01:31:30.000000000,closed,1,Move anyTypePrefix and anyTypeURL off message.
+355,2017-03-03 23:29:32.000000000,2017-03-04 00:49:26.000000000,closed,0,Wrong wire types
+354,2017-03-03 08:22:35.000000000,2017-03-06 23:31:57.000000000,closed,0,Handle enum aliases correctly
+353,2017-03-02 23:37:46.000000000,2017-03-03 01:43:34.000000000,closed,1,Complete group decoding support.
+352,2017-03-02 20:34:19.000000000,2017-03-21 01:02:35.000000000,closed,4,Check/Fix Group Extension type names
+351,2017-03-02 03:05:11.000000000,2017-03-02 03:05:17.000000000,closed,0,Update LinuxMain.
+350,2017-03-02 02:58:23.000000000,2017-03-02 03:05:48.000000000,closed,0,Fold contiguous oneof field number sequences into a range.
+349,2017-03-02 02:31:52.000000000,2017-03-02 02:57:44.000000000,closed,0,Unknown enum handling.
+348,2017-03-02 00:25:12.000000000,2017-03-02 00:40:14.000000000,closed,0,Simplify generated extension range checks.
+347,2017-03-01 23:59:38.000000000,2017-03-02 01:02:03.000000000,closed,0,Drop Proto2Message/Proto3Message distinction
+346,2017-03-01 22:16:42.000000000,2017-03-01 22:31:50.000000000,closed,0,Group and Unknown fixups.
+345,2017-03-01 09:48:10.000000000,2017-03-01 09:48:16.000000000,closed,2,Help the compiler pick the right `div()` function
+344,2017-03-01 04:01:36.000000000,2017-03-01 22:35:18.000000000,closed,0,Use more-accurate JSON float and double output when appropriate.
+343,2017-03-01 00:45:04.000000000,2017-03-01 06:49:03.000000000,closed,0,Map decoding behaviors
+342,2017-03-01 00:40:17.000000000,2017-03-04 00:49:26.000000000,closed,2,Unknown fields include fields with wrong wire type
+341,2017-03-01 00:13:53.000000000,2017-03-01 09:49:16.000000000,closed,5,Compile error re: TimeUtils.swift
+340,2017-02-28 22:50:25.000000000,2017-02-28 23:09:39.000000000,closed,5,Expose UnknownStorage.data as a r/o Data.
+339,2017-02-28 20:08:03.000000000,2017-02-28 21:08:15.000000000,closed,6,protobufBytes faster than protobuf in decoding
+338,2017-02-28 08:20:00.000000000,2017-02-28 22:38:19.000000000,closed,0,Fix performance of bytes encoding
+337,2017-02-28 05:06:05.000000000,2017-03-03 00:52:56.000000000,closed,0,Make json and text decoders internal
+336,2017-02-28 04:11:11.000000000,2017-02-28 18:58:14.000000000,closed,0,Map entry decoding uses the default values if key/value are missing.
+335,2017-02-28 02:32:19.000000000,2017-02-28 18:58:14.000000000,closed,0,Map parsing handle missing key/values
+334,2017-02-28 02:30:28.000000000,2017-03-03 01:43:35.000000000,closed,3,Validate Group parsing
+333,2017-02-28 01:46:19.000000000,2017-02-28 02:46:02.000000000,closed,0,Ensure map decoding signals fields being consumed
+332,2017-02-27 23:30:56.000000000,2017-02-28 22:51:01.000000000,closed,1,Prefix some part of MessageExtensions with _protobuf_.
+331,2017-02-27 23:00:04.000000000,2017-02-28 01:23:59.000000000,closed,2,Remove ExtensionFieldValueSet being a Sequence.
+330,2017-02-27 22:50:15.000000000,2017-02-28 01:23:41.000000000,closed,1,Rename ExtensionFieldValueSet fieldNames to _protobuf_fieldNames.
+329,2017-02-27 22:48:33.000000000,2017-02-28 01:23:25.000000000,closed,0,Rename _mergeSerializedBytes -> _protobuf_mergeSerializedBytes.
+328,2017-02-27 22:14:42.000000000,2017-02-28 01:23:09.000000000,closed,0,Rename protoc generated
+327,2017-02-25 08:24:10.000000000,2017-02-28 04:29:37.000000000,closed,2,Fix copy-on-write behavior for merged messages.
+326,2017-02-25 05:55:59.000000000,1970-01-01 00:00:00.000000001,open,12,Enum.init(protoName:)
+325,2017-02-25 03:13:40.000000000,2017-02-25 03:14:50.000000000,closed,0,"Complete the ""Text"" -> ""TextFormat"" renaming of tests."
+324,2017-02-25 02:08:52.000000000,2017-02-25 02:27:56.000000000,closed,2,"Remove more ""public"" tagging of things."
+323,2017-02-25 01:43:01.000000000,2017-02-25 06:08:38.000000000,closed,1,New version
+322,2017-02-25 01:20:09.000000000,2017-02-25 01:20:18.000000000,closed,0,Add --enforce_recommended to conformance runs.
+321,2017-02-25 01:14:45.000000000,2017-02-25 01:38:04.000000000,closed,0,"Bump run_count to 1000, add autoreleasepool, support `bool` fields"
+320,2017-02-25 00:51:39.000000000,2017-02-25 01:58:17.000000000,closed,2,Rework enums to use the same name mapping as message fields.
+319,2017-02-24 21:47:45.000000000,2017-02-24 22:49:12.000000000,closed,0,"""internal"" visibility for a few more things."
+318,2017-02-24 09:03:53.000000000,2017-02-24 22:44:12.000000000,closed,0,Fix Text format decoding of an escaped backslash
+317,2017-02-24 09:03:19.000000000,2017-02-25 00:56:38.000000000,closed,0,"Make JSONEncoder internal, remove `serializeJSONValues` from `FieldType`"
+316,2017-02-24 04:05:36.000000000,2017-02-24 04:05:54.000000000,closed,0,Ensure the conformance test binary is current before running it.
+315,2017-02-24 02:29:53.000000000,2017-02-24 03:38:23.000000000,closed,0,Text encoder now writes out binary unknown fields
+314,2017-02-24 01:52:45.000000000,2017-02-24 02:14:00.000000000,closed,0,Follow convention and switch to an enum for scoping the functions.
+313,2017-02-24 01:33:50.000000000,2017-02-24 01:34:00.000000000,closed,1,XCTAssertNoThrow() hasn't hit a GMed Xcode yet.
+312,2017-02-24 01:03:14.000000000,2017-02-24 02:37:17.000000000,closed,3,Underscore prefix the ProtobufMap types.
+311,2017-02-24 00:38:24.000000000,2017-02-24 01:57:03.000000000,closed,1,Use WireFormat enum directly instead of just the rawValue.
+310,2017-02-24 00:17:06.000000000,2017-02-24 00:35:26.000000000,closed,1,Remove extra blank line; fix equality short circuiting.
+309,2017-02-23 22:48:28.000000000,2017-02-23 23:37:44.000000000,closed,2,Remove remaining methods from _StorageClass.
+308,2017-02-23 22:10:43.000000000,2017-02-24 01:04:26.000000000,closed,2,Allow `visitUnknown()` to throw errors
+307,2017-02-23 19:30:01.000000000,2017-02-23 23:28:37.000000000,closed,1,"Add a merge method, update unknown tests to use valid binary input."
+306,2017-02-23 18:32:15.000000000,2017-02-23 18:32:22.000000000,closed,0,Fix typo.
+305,2017-02-23 05:24:29.000000000,2019-09-26 20:56:11.000000000,closed,11,SwiftProtobuf as Xcode Sub Project Producing Errors
+304,2017-02-23 05:23:36.000000000,2017-02-23 18:32:22.000000000,closed,0,Typo in Version.swift help text.
+303,2017-02-23 03:41:07.000000000,2017-02-23 18:29:47.000000000,closed,0,Add partial support to binary serialization support.
+302,2017-02-23 03:30:27.000000000,2017-02-23 03:48:26.000000000,closed,0,Issue #298: Remove XCTest-based performance tests
+301,2017-02-23 03:14:46.000000000,2017-02-23 03:18:22.000000000,closed,1,Use our init(safely:) for float/double -> Int64 conversions.
+300,2017-02-23 02:57:49.000000000,2017-02-23 03:59:58.000000000,closed,0,Issue #205:  Split out encoding errors for each serializer
+299,2017-02-23 02:42:43.000000000,2017-02-23 02:43:26.000000000,closed,0,regenerate after #291
+298,2017-02-23 02:22:38.000000000,2017-02-23 04:01:02.000000000,closed,2,Remove performance XCTests?
+297,2017-02-23 02:10:04.000000000,2017-02-25 01:17:58.000000000,closed,1,Make `JSONEncoder` internal; remove `serializeJSONValue` from `FieldType`
+296,2017-02-23 00:17:11.000000000,2017-02-23 02:47:43.000000000,closed,4,Unify the naming of the +Extensions files.
+295,2017-02-23 00:02:45.000000000,2017-02-23 03:27:30.000000000,closed,0,Rename ProtoNameProviding to _ProtoNameProviding.
+294,2017-02-22 23:29:07.000000000,2017-05-19 01:04:21.000000000,closed,8,Story for generating code being used in Swift modules
+293,2017-02-22 21:25:18.000000000,2017-03-21 23:36:17.000000000,closed,3,Should most uses of `ExtensionSet` change to a protocol
+292,2017-02-22 17:17:34.000000000,2017-07-24 21:26:04.000000000,closed,13,swift ios 8 using carthage dependency manager
+291,2017-02-22 06:01:08.000000000,2017-02-23 02:05:39.000000000,closed,2,Performance overhaul for encoding API
+290,2017-02-22 02:40:13.000000000,2017-02-22 05:15:56.000000000,closed,1,Add partial support to the binary decoding initializer.
+289,2017-02-22 01:11:18.000000000,2017-02-22 01:45:41.000000000,closed,3,Remove traverse method from _StorageClass.
+288,2017-02-21 22:51:28.000000000,2017-02-21 22:51:41.000000000,closed,0,Update perf harness for new API names; tweak the build.
+287,2017-02-21 21:04:58.000000000,2017-02-21 21:05:06.000000000,closed,0,Rename some files to better reflect their contents.
+286,2017-02-21 18:22:23.000000000,2017-02-21 18:22:48.000000000,closed,0,Add MathUtils and TimeUtils to the other platform targets.
+285,2017-02-20 21:38:26.000000000,2017-02-21 18:22:48.000000000,closed,1,"TimeUtils.swift and MathUtils.swift not compiled by iOS, tvOS and watchOS targets"
+284,2017-02-18 03:08:53.000000000,2017-02-21 19:02:48.000000000,closed,0,Only generate the typealias ExtendedMessage when needed.
+283,2017-02-18 02:46:22.000000000,2017-02-22 01:14:14.000000000,closed,0,Fix extensions and unknownFields with respect to _StorageClass
+282,2017-02-17 23:21:51.000000000,2017-02-18 03:08:59.000000000,closed,0,Rename binary/text format encoding/decoding types.
+281,2017-02-17 23:20:00.000000000,2017-02-21 18:57:40.000000000,closed,0,Bring back the explicit default initializers on message and storage.
+280,2017-02-17 22:08:54.000000000,2017-02-22 23:43:27.000000000,closed,8,"Don't declare Message conformance, Proto[23]Message includes that."
+279,2017-02-17 21:34:05.000000000,2017-02-17 21:44:46.000000000,closed,0,More complete naming tests for file scoped extensions.
+278,2017-02-17 05:01:01.000000000,2017-02-22 02:52:12.000000000,closed,9,Move and tweak naming of ExtensibleMessageStorage.
+277,2017-02-17 02:59:04.000000000,2017-02-17 21:23:07.000000000,closed,0,Avoid extension collisions because of Swifty naming.
+276,2017-02-17 02:27:39.000000000,2017-02-17 21:03:53.000000000,closed,4,Rename some public APIs regarding serialization/parsing.
+275,2017-02-17 01:57:36.000000000,2017-02-17 21:23:07.000000000,closed,0,Swift naming can cause conflicts in generated code
+274,2017-02-17 01:35:21.000000000,2017-02-17 02:56:20.000000000,closed,0,Naming cleanup and tests
+273,2017-02-17 01:34:24.000000000,2017-02-17 01:34:40.000000000,closed,1,Issue #222: Duration range truncation
+272,2017-02-16 22:02:30.000000000,2017-03-17 23:39:53.000000000,closed,1,Revisit helper method naming for collisions
+271,2017-02-16 21:55:59.000000000,2017-03-27 19:44:45.000000000,closed,3,Revisit edge cases for reserved word handling and sanitizing method.
+270,2017-02-16 21:51:54.000000000,2017-02-16 22:40:48.000000000,closed,0,Fix reserved word handing on field names for proto2.
+269,2017-02-16 21:25:45.000000000,2017-02-16 21:53:44.000000000,closed,0,Delete OneofEnum protocol.
+268,2017-02-16 21:15:38.000000000,2017-02-16 21:40:23.000000000,closed,0,Message Metadata to static properties
+267,2017-02-16 21:10:13.000000000,2017-02-16 21:53:44.000000000,closed,1,OneofEnum protocol is unnecessary
+266,2017-02-16 20:16:10.000000000,2017-02-16 20:16:20.000000000,closed,0,Record new conformance failures we picked up.
+265,2017-02-16 19:24:52.000000000,2017-03-09 02:17:03.000000000,closed,2,Confirm design were Any knowledge leaks all the way into Message
+264,2017-02-16 06:12:02.000000000,2017-02-16 10:01:32.000000000,closed,1,Support for Linux
+263,2017-02-16 04:29:13.000000000,2017-02-16 21:11:12.000000000,closed,0,Make oneof fields optional and remove the .None case.
+262,2017-02-16 02:20:43.000000000,2017-02-16 02:28:20.000000000,closed,0,Use a default impl for hashValue on Enum.
+261,2017-02-15 21:38:26.000000000,2017-02-15 21:55:22.000000000,closed,0,Document the workaround for --swift_opt with 3.2.0 protoc.
+260,2017-02-15 05:40:32.000000000,2017-04-05 03:35:52.000000000,closed,16,Tests failures on Linux (6 out of 691)
+259,2017-02-15 05:36:02.000000000,2017-03-17 23:40:22.000000000,closed,9,Avoid naming conflicts
+258,2017-02-15 05:27:22.000000000,2017-02-15 21:25:44.000000000,closed,0,Rename extensionFieldValues to _extensionFieldValues.
+257,2017-02-15 05:19:09.000000000,2017-02-15 21:18:26.000000000,closed,0,Generated code cleanups
+256,2017-02-15 02:04:25.000000000,2017-02-15 02:05:41.000000000,closed,1,HashVisitor: fixed overflow
+255,2017-02-14 23:50:55.000000000,2017-02-15 23:33:53.000000000,closed,1,Remove hand-formatting from Timestamp and Duration extensions
+254,2017-02-14 20:55:18.000000000,2017-02-15 02:19:13.000000000,closed,0,Fix up some more visibility param usage
+253,2017-02-14 03:42:05.000000000,2017-02-15 21:27:43.000000000,closed,10,Update Timestamp for correct spec.
+252,2017-02-14 02:40:46.000000000,2017-02-14 02:40:59.000000000,closed,0,Allow GOOGLE_PROTOBUF_CHECKOUT to be set in the environment.
+251,2017-02-14 00:29:49.000000000,2017-04-17 22:26:27.000000000,closed,1,Text Decoder performance
+250,2017-02-13 22:09:21.000000000,2017-02-15 00:59:57.000000000,closed,2,Add isInitialized to Message
+249,2017-02-13 21:15:02.000000000,2017-02-13 21:30:53.000000000,closed,2,Fix typo in README.md
+248,2017-02-13 20:36:02.000000000,2017-02-13 20:36:08.000000000,closed,0,Drop ignore for protoc-gen-swift
+247,2017-02-11 07:24:23.000000000,2017-02-25 01:58:17.000000000,closed,1,Use `FieldNameMap` on `Enum` for textual names
+246,2017-02-11 07:09:57.000000000,2017-02-23 08:17:28.000000000,closed,3,Have simple decode methods just return values
+245,2017-02-11 01:53:23.000000000,2017-02-15 21:55:22.000000000,closed,9,Unknown flag: --swift_opt
+244,2017-02-10 21:02:32.000000000,2017-02-10 22:07:58.000000000,closed,1,Remove hack for required field serialization.
+243,2017-02-10 04:45:59.000000000,2017-02-15 20:42:12.000000000,closed,2,Performance: Decoder architecture and API changes
+242,2017-02-10 03:52:22.000000000,2017-02-10 08:13:13.000000000,closed,0,Add test-conformance to the check target.
+241,2017-02-10 03:47:41.000000000,2017-02-10 08:17:56.000000000,closed,0,Issue226 make enum json handing a little more consistent
+240,2017-02-10 03:14:01.000000000,2017-02-10 08:12:50.000000000,closed,0,Remove debugDescription for Enum.
+239,2017-02-10 02:46:59.000000000,2017-02-10 02:47:14.000000000,closed,0,Fix up the Xcode project.
+238,2017-02-10 02:24:36.000000000,2017-02-10 02:29:17.000000000,closed,0,Remove init?(name:) from Enums.
+237,2017-02-09 21:28:00.000000000,2017-02-09 23:30:24.000000000,closed,1,Remove extra Swift naming info
+236,2017-02-09 09:38:51.000000000,2017-03-08 01:01:45.000000000,closed,6,Docs update for `Message` and `Visitor`
+235,2017-02-09 04:18:58.000000000,2017-02-10 03:36:57.000000000,closed,1,"Print times for 1 operation, use tabular output, skip C++ Instruments"
+234,2017-02-08 02:00:48.000000000,2017-02-08 23:10:26.000000000,closed,1,"Add version check ""trick"" to ensure compatibility between generated code and runtime."
+233,2017-02-08 00:53:20.000000000,2017-03-13 20:51:41.000000000,closed,4,Fix location of hashValue implementation?
+232,2017-02-08 00:10:01.000000000,2017-02-09 19:27:29.000000000,closed,0,Switch debugDescription to TextFormat
+231,2017-02-07 22:53:10.000000000,2017-02-07 22:53:27.000000000,closed,0,"Revert ""Switch debugDescription to TextFormat."""
+230,2017-02-07 22:44:24.000000000,2017-02-07 22:44:38.000000000,closed,0,Add test_messages_proto3 to the project file.
+229,2017-02-07 22:41:23.000000000,2017-03-22 21:56:54.000000000,closed,6,Encoding to text format can't throw; remove spurious `throws`
+228,2017-02-07 22:36:34.000000000,2017-02-07 22:45:50.000000000,closed,2,Switch debugDescription to TextFormat.
+227,2017-02-07 22:32:11.000000000,2017-02-07 22:32:26.000000000,closed,0,Fix build for conformance proto change.
+226,2017-02-07 19:59:30.000000000,2017-02-10 08:17:57.000000000,closed,2,enum json usage seems inconsistent
+225,2017-02-07 19:38:18.000000000,2017-02-10 20:16:37.000000000,closed,8,Includes protoc and plugin version in generated sources.
+224,2017-02-06 23:27:33.000000000,2017-02-07 01:56:22.000000000,closed,1,Inspect the version of protoc during generation.
+223,2017-02-06 22:44:02.000000000,2017-02-06 22:44:18.000000000,closed,0,Update docs and Makefile to use protoc's _opt support.
+222,2017-02-06 22:26:11.000000000,2017-03-09 02:28:42.000000000,closed,18,Look into failing conformance tests
+221,2017-02-06 22:23:43.000000000,2017-02-06 22:24:18.000000000,closed,0,Correct SWIFT_VERSION in project file.
+220,2017-02-06 22:01:14.000000000,2017-02-06 22:26:38.000000000,closed,0,google/protobuf updates
+219,2017-02-06 20:16:20.000000000,2017-02-08 23:35:25.000000000,closed,1,Add version stamp to generated source
+218,2017-02-04 05:07:40.000000000,2017-02-08 20:26:29.000000000,closed,15,Customize Jazzy documentation generation
+217,2017-02-03 18:12:07.000000000,2017-02-03 20:11:55.000000000,closed,1,Add missing triple-back-ticks to GENERATED_CODE.md
+216,2017-02-01 07:09:32.000000000,2017-02-01 07:13:27.000000000,closed,0,Remove unneeded decoder methods
+215,2017-02-01 04:52:26.000000000,2017-02-01 05:18:07.000000000,closed,0,Tbkka hide unknown
+214,2017-01-31 00:59:44.000000000,2017-01-31 05:15:39.000000000,closed,0,DTRT if a particular test case is missing
+213,2017-01-28 04:33:12.000000000,2017-02-04 03:42:50.000000000,closed,0,Speed up the JSON decoder
+212,2017-01-21 02:21:06.000000000,2017-01-21 02:21:16.000000000,closed,0,Use numeric sorting when computing median
+211,2017-01-20 07:24:17.000000000,2017-01-24 22:57:34.000000000,closed,1,Make perf_runner work with Swift 3.1
+210,2017-01-20 04:57:28.000000000,2017-01-27 00:33:22.000000000,closed,2,Text decode perf
+209,2017-01-19 01:23:27.000000000,2017-01-19 01:23:39.000000000,closed,0,Regenerate conformance protos
+208,2017-01-18 05:13:12.000000000,2017-02-06 20:12:53.000000000,closed,13,"Remaining tasks to move out of ""prerelease"" state?"
+207,2017-01-13 05:41:02.000000000,2017-02-15 21:30:57.000000000,closed,1,Fix up timestamp helpers to match spec
+206,2017-01-13 01:11:52.000000000,2017-01-13 01:30:32.000000000,closed,1,"Update Message's ""with"" builder."
+205,2017-01-12 21:09:32.000000000,2017-02-24 09:08:36.000000000,closed,6,Split error enums based on operations
+204,2017-01-12 03:17:57.000000000,2017-01-12 03:18:08.000000000,closed,0,Use Data(bytes:) where appropriate instead of the generic Data<S>(_:)
+203,2017-01-09 23:59:26.000000000,2017-01-09 23:59:39.000000000,closed,0,Fix tests on Linux
+202,2017-01-09 23:19:01.000000000,2017-03-13 23:40:44.000000000,closed,2,Nested message anyTypeURL is wrong
+201,2017-01-09 09:33:14.000000000,2017-01-09 22:38:49.000000000,closed,2,Fix test suite build on Linux
+200,2017-01-09 09:31:36.000000000,2017-01-17 22:36:34.000000000,closed,1,Conformance test corrections
+199,2017-01-07 07:48:10.000000000,2017-01-18 22:34:43.000000000,closed,5,Binary decode performance improvements
+198,2017-01-06 10:43:20.000000000,2017-02-06 22:24:18.000000000,closed,4,“Use Legacy Swift Language Version” (SWIFT_VERSION) is required
+197,2017-01-06 06:34:13.000000000,2017-01-06 07:05:48.000000000,closed,3,Ability to remove package namespacing
+196,2017-01-06 04:42:00.000000000,2017-01-07 07:44:47.000000000,closed,3,Performance harness fixes...
+195,2017-01-05 07:58:11.000000000,2017-01-07 07:43:58.000000000,closed,5,Performance: Use UnicodeScalarView for text decoding
+194,2016-12-25 19:22:37.000000000,2016-12-26 08:46:29.000000000,closed,5,"how can i use swift-protobuf to generate a swift class, not struct"
+193,2016-12-23 06:02:21.000000000,2016-12-23 06:04:57.000000000,closed,0,Copyright update
+192,2016-12-23 04:05:14.000000000,2017-01-04 01:31:54.000000000,closed,1,Perf tweaks
+191,2016-12-23 02:58:54.000000000,2016-12-23 04:13:41.000000000,closed,0,Properly serialize zero-valued wrappers.
+190,2016-12-22 08:26:51.000000000,2016-12-23 04:23:25.000000000,closed,2,Tbkka JSON decoder simplification
+189,2016-12-22 06:20:21.000000000,2016-12-22 07:07:23.000000000,closed,1,Issue when running protoc
+188,2016-12-21 21:35:16.000000000,2017-01-04 01:51:37.000000000,closed,2,Visitor API cleanups
+187,2016-12-21 03:25:38.000000000,2016-12-21 03:28:20.000000000,closed,0,fix for typo
+186,2016-12-21 00:33:40.000000000,2016-12-21 00:35:43.000000000,closed,0,Fix Carthage installation snippet
+185,2016-12-21 00:22:42.000000000,2016-12-22 20:46:09.000000000,closed,2,"Add text format support, C++, and visualizations to perf harness."
+184,2016-12-20 02:25:33.000000000,2016-12-20 02:28:52.000000000,closed,1,Update README to make the protoc dependency clearer.
+183,2016-12-20 02:13:29.000000000,2016-12-20 08:46:38.000000000,closed,2,Better better case enum stemming
+182,2016-12-19 11:06:15.000000000,2016-12-20 08:32:40.000000000,closed,1,Workaround to build on Xcode 8.2
+181,2016-12-18 01:01:06.000000000,2017-01-04 01:51:37.000000000,closed,5,Visitor and related API improvements
+180,2016-12-17 12:11:30.000000000,2016-12-19 23:26:20.000000000,closed,0,Move == implementations into static methods.
+179,2016-12-17 07:19:58.000000000,2016-12-17 23:12:55.000000000,closed,2,`make test` failing: `swift_prefix` unknown?
+178,2016-12-16 04:31:45.000000000,2016-12-17 06:11:37.000000000,closed,4,"Swift and protobuf language utilities, following @dpassage"
+177,2016-12-16 01:02:57.000000000,2017-03-21 21:09:34.000000000,closed,8,Revisit Text format field and enum naming
+176,2016-12-16 00:58:47.000000000,2017-05-26 00:00:19.000000000,closed,6,Add unknown field support to Text encoder/decoder
+175,2016-12-14 01:31:18.000000000,2016-12-14 01:31:40.000000000,closed,1,Fix s/protobufs/protobuf/ for proper naming.
+174,2016-12-14 00:08:18.000000000,2016-12-15 18:54:20.000000000,closed,7,Issue97 equality
+173,2016-12-13 22:53:04.000000000,2016-12-13 22:53:09.000000000,closed,0,Regenerate the conformance sources.
+172,2016-12-13 22:02:38.000000000,2016-12-13 22:02:44.000000000,closed,0,Regen LinuxMain.swift for previous commits
+171,2016-12-12 22:02:33.000000000,2017-01-04 01:51:37.000000000,closed,0,Remove Mirror.
+170,2016-12-10 06:26:29.000000000,2016-12-12 22:06:26.000000000,closed,2,Add bundle version
+169,2016-12-10 05:20:06.000000000,2016-12-17 02:02:11.000000000,closed,11,Protobuf text format support
+168,2016-12-10 00:37:14.000000000,2016-12-10 08:58:07.000000000,closed,8,Significantly speed up JSON decoding
+167,2016-12-08 02:49:13.000000000,2016-12-08 02:49:16.000000000,closed,0,Streamline the conformance test build
+166,2016-12-08 02:05:44.000000000,2016-12-08 02:05:48.000000000,closed,0,Fix the conformance-host build.
+165,2016-12-08 01:46:20.000000000,2016-12-08 01:46:24.000000000,closed,0,Tweaks to the conformances tests support.
+164,2016-12-07 08:37:25.000000000,2016-12-07 20:07:01.000000000,closed,0,Update version of podspec
+163,2016-12-07 04:11:17.000000000,2017-09-05 23:01:48.000000000,closed,7,Improve cocoapods usage
+162,2016-12-07 03:48:04.000000000,2016-12-08 01:14:33.000000000,closed,0,Bring over conformance test runner from apple/swift-protobuf-test-conformance
+161,2016-12-07 03:43:34.000000000,2017-10-23 20:03:06.000000000,closed,6,Install via homebrew
+160,2016-12-07 01:10:43.000000000,2016-12-08 01:14:33.000000000,closed,2,Move conformance test runner into this project
+159,2016-12-06 23:36:54.000000000,2016-12-06 23:39:28.000000000,closed,0,Bump the version number on master.
+158,2016-12-06 23:26:55.000000000,2016-12-06 23:30:17.000000000,closed,2,Tag new release
+157,2016-12-06 23:09:53.000000000,2016-12-06 23:28:25.000000000,closed,1,Swift 3.0.1
+156,2016-12-06 23:05:36.000000000,2016-12-06 23:06:09.000000000,closed,0,Explain why JSON has such funky number parsing
+155,2016-12-06 13:25:41.000000000,2016-12-06 19:00:11.000000000,closed,1,Fix duplicate references in watchOS target
+154,2016-12-02 03:08:35.000000000,2016-12-10 08:58:07.000000000,closed,2,JSON decoding is very slow
+153,2016-12-02 01:21:02.000000000,2016-12-02 01:39:27.000000000,closed,0,Focus on the official swift_prefix file option.
+152,2016-12-02 00:41:27.000000000,2016-12-02 01:06:49.000000000,closed,0,Various perf harness updates.
+151,2016-12-02 00:06:41.000000000,1970-01-01 00:00:00.000000001,open,8,"Support deprecated annotation on messages, fields, enums, enum values."
+150,2016-12-01 23:10:35.000000000,2016-12-01 23:44:02.000000000,closed,0,Update the protos copied from google/protobuf.
+149,2016-12-01 04:32:37.000000000,2016-12-01 20:54:12.000000000,closed,1,Remove field names from visitor methods.
+148,2016-11-30 23:25:08.000000000,2017-02-09 23:30:43.000000000,closed,4,Replace debugDescription with text format
+147,2016-11-29 23:18:16.000000000,2016-11-29 23:21:16.000000000,closed,1,Add an instruction for usage with Carthage
+146,2016-11-29 18:42:27.000000000,2017-04-17 23:03:23.000000000,closed,3,See about removing unneeded JSON support from Extensions
+145,2016-11-29 01:58:31.000000000,2016-12-01 20:33:51.000000000,closed,2,Update generated names for Extensions
+144,2016-11-26 10:03:31.000000000,2016-11-29 21:54:55.000000000,closed,6,Assign access control by visibility option
+143,2016-11-23 00:00:56.000000000,2016-11-23 00:31:12.000000000,closed,1,Update tag version to latest one
+142,2016-11-21 22:51:19.000000000,2016-11-23 00:11:06.000000000,closed,1,Clean-up binary field skipping.
+141,2016-11-20 18:56:11.000000000,1970-01-01 00:00:00.000000001,open,12,The generated code uses 2 spaces for indentation instead of the standard 4
+140,2016-11-17 12:06:53.000000000,2016-12-20 02:12:13.000000000,closed,11,Better enum case stemming
+139,2016-11-17 08:42:33.000000000,2016-12-06 06:45:36.000000000,closed,4,Tbkka grand renaming
+138,2016-11-16 14:03:04.000000000,2016-12-20 08:46:38.000000000,closed,5,Enum case stemming can result in invalid Swift
+137,2016-11-15 06:08:27.000000000,2016-11-15 06:15:08.000000000,closed,0,Enforce minimum version of CocoaPods
+136,2016-11-13 20:15:09.000000000,2016-11-16 20:15:00.000000000,closed,6,"cant compile ""$ protoc --swift_out=. myFileName.proto"""
+135,2016-11-12 01:39:23.000000000,2016-11-12 01:43:38.000000000,closed,0,Fix typo in tag checkout
+134,2016-11-09 05:52:42.000000000,2016-11-11 23:10:15.000000000,closed,6,Rework unknown handling
+133,2016-11-04 02:06:31.000000000,2017-02-16 21:11:12.000000000,closed,6,OneOf enum None case name
+132,2016-11-02 21:08:16.000000000,2016-11-02 21:08:52.000000000,closed,0,Update GENERATED_CODE.md to track recent changes
+131,2016-11-01 19:46:46.000000000,2016-11-04 03:37:03.000000000,closed,5,"Generated code for protobuf 2 optionals, becomes non-optional fields in Swift"
+130,2016-10-31 21:57:07.000000000,1970-01-01 00:00:00.000000001,open,15,Provide something for parsing a binary stream of protobuf data
+129,2016-10-31 21:53:50.000000000,2016-11-11 23:13:03.000000000,closed,1,Data vs. [Uint8] consistency?
+128,2016-10-31 19:38:36.000000000,2016-11-11 23:12:36.000000000,closed,1,Rework the setFromXyz methods in ProtobufBinaryTypes.swift for unknown fields
+127,2016-10-31 19:31:08.000000000,2016-11-11 23:10:46.000000000,closed,1,"Proto2 syntax, packed repeated enum fields are lossy for unknown values"
+126,2016-10-30 04:26:57.000000000,2016-11-17 21:48:31.000000000,closed,5,protoc-gen-swift fails when generating Swift files on Swift version 3.0.1
+125,2016-10-29 01:04:45.000000000,2019-09-26 20:57:34.000000000,closed,15,A dependency of swift-protobuf also builds the (unwanted) protoc-gen-swift CLI utility
+124,2016-10-29 00:07:51.000000000,2016-10-29 04:06:22.000000000,closed,1,Drop backwards compatibility shims.
+123,2016-10-27 21:05:13.000000000,2016-10-28 18:10:18.000000000,closed,1,Update for the current state of version matching:
+122,2016-10-27 01:34:56.000000000,2016-10-27 01:35:14.000000000,closed,0,Bump the version number.
+121,2016-10-27 00:48:36.000000000,2017-02-06 22:44:18.000000000,closed,0,Update Makefile & docs to use protoc's new plugin options
+120,2016-10-26 11:34:04.000000000,2016-10-27 01:23:01.000000000,closed,11,Cannot pass immutable value as inout argument
+119,2016-10-26 00:40:00.000000000,2016-10-27 20:51:45.000000000,closed,0,Building out unittesting
+118,2016-10-23 04:12:44.000000000,2016-10-23 19:52:20.000000000,closed,6,Enhancement - protoc - service definitions - generate gRPC service definitions 
+117,2016-10-21 03:04:54.000000000,2016-12-15 20:10:42.000000000,closed,11,Adding text format serialization / deserialization
+116,2016-10-20 00:52:38.000000000,2016-10-27 20:45:47.000000000,closed,0,Add access option to change generation
+115,2016-10-19 22:44:35.000000000,2016-10-19 22:57:16.000000000,closed,1,Simplify ProtoFieldDecoder.
+114,2016-10-19 21:47:10.000000000,2016-10-19 22:17:40.000000000,closed,0,Add a protoc version check into the build helpers.
+113,2016-10-19 21:32:03.000000000,2017-02-06 20:27:42.000000000,closed,6,Ubuntu 14.04 cannot compile 0.9.24 with dynamic library creation in Package.swift
+112,2016-10-19 21:24:36.000000000,2016-10-19 22:57:16.000000000,closed,0,Simplify ProtobufFieldDecoder
+111,2016-10-19 21:16:15.000000000,2017-02-10 20:18:04.000000000,closed,6,Investigate if we can validate the protoc version being used
+110,2016-10-18 18:55:52.000000000,2016-10-18 20:19:06.000000000,closed,0,Comment updates
+109,2016-10-18 18:47:33.000000000,2017-03-11 02:36:17.000000000,closed,10,Look at moving message metadata into a struct
+108,2016-10-18 17:29:05.000000000,2017-03-22 00:14:12.000000000,closed,9,Should we drop the leading_detached_comments
+107,2016-10-18 12:21:20.000000000,2016-10-27 20:45:48.000000000,closed,16,Option for access control?
+106,2016-10-18 12:19:09.000000000,2016-10-18 16:26:23.000000000,closed,2,JSON serialization doesn't handle UInt64 correctly
+105,2016-10-18 00:13:29.000000000,2016-10-18 00:15:07.000000000,closed,0,Regenerate unittest and reference proto sources.
+104,2016-10-17 22:13:16.000000000,2017-03-21 00:51:47.000000000,closed,7,Should we generate field number constants?
+103,2016-10-17 21:46:29.000000000,2016-10-18 19:00:23.000000000,closed,0,Makefile improvements to hopefully make things less error prone
+102,2016-10-17 19:46:50.000000000,2016-10-19 21:08:46.000000000,closed,3,Generate non-optional properties for all fields.
+101,2016-10-17 19:11:41.000000000,2016-10-17 21:48:05.000000000,closed,0,Document the FileNaming option
+100,2016-10-17 18:46:20.000000000,2016-10-17 18:46:26.000000000,closed,0,"No content changes, reformat to 80c."
+99,2016-10-17 18:22:14.000000000,1970-01-01 00:00:00.000000001,open,8,Cleanup/complete Documentation
+98,2016-10-15 20:10:35.000000000,2017-02-23 19:37:01.000000000,closed,8,Fix required property serialization
+97,2016-10-15 06:41:27.000000000,2017-02-06 20:30:05.000000000,closed,3,Equality is inconsistent with other languages
+96,2016-10-15 01:57:35.000000000,2016-12-01 20:33:52.000000000,closed,5,Confirm proto2 extension naming conventions
+95,2016-10-15 00:28:16.000000000,2016-10-17 20:39:05.000000000,closed,0,Issue #82: Use protoc-provided name for JSON fields
+94,2016-10-15 00:13:33.000000000,2016-10-17 19:10:00.000000000,closed,2,Support an generator parameter for output FileNaming
+93,2016-10-14 23:15:40.000000000,2016-10-14 23:15:46.000000000,closed,0,Fixup things missed in other PRs
+92,2016-10-14 20:23:26.000000000,2016-10-14 20:54:21.000000000,closed,0,"Extend all messages with the ""with"" builder."
+91,2016-10-14 20:02:24.000000000,2016-10-14 22:14:51.000000000,closed,0,Update for google/protobuf master changes
+90,2016-10-14 19:32:08.000000000,2016-10-14 20:50:27.000000000,closed,0,Fileio cleanup
+89,2016-10-14 19:29:54.000000000,2016-10-14 22:14:52.000000000,closed,0,Tests failing with trunk protoc
+88,2016-10-14 03:38:02.000000000,2016-10-14 08:34:15.000000000,closed,1,"""Tried to write the same file twice."" / swift doesn't like dupe file names"
+87,2016-10-14 02:56:30.000000000,2016-10-14 20:04:57.000000000,closed,1,Remove generated convenience initializers.
+86,2016-10-14 02:48:34.000000000,2016-10-14 20:54:21.000000000,closed,11,Remove the convenience initializers on generated messages
+85,2016-10-14 00:18:33.000000000,2016-10-14 00:30:37.000000000,closed,0,Add options parsing and returning errors to protoc
+84,2016-10-13 20:46:27.000000000,2016-10-13 20:46:34.000000000,closed,0,Fix a missing part of the style guidelines.
+83,2016-10-13 20:38:43.000000000,2016-10-17 19:09:59.000000000,closed,2,File generation strips directories (unlike other languages)
+82,2016-10-13 04:22:02.000000000,2016-10-17 20:39:44.000000000,closed,5,Fix JSON field naming
+81,2016-10-13 01:37:46.000000000,2016-10-13 20:37:33.000000000,closed,0,Add coding style guidelines.
+80,2016-10-13 01:01:07.000000000,2016-10-13 16:07:31.000000000,closed,0,Tweaks the plugin about the WKTs.
+79,2016-10-12 23:48:17.000000000,2016-10-13 20:40:22.000000000,closed,0,Add wire format and tag helper types.
+78,2016-10-12 22:13:31.000000000,2016-10-12 22:15:00.000000000,closed,0,WatchOS support
+77,2016-10-12 21:50:43.000000000,2016-10-12 21:55:25.000000000,closed,0,Add tvOS support to the Xcode project
+76,2016-10-12 20:40:43.000000000,2016-10-12 20:48:46.000000000,closed,0,Last things from the project rename.
+75,2016-10-12 19:55:26.000000000,2016-10-12 20:02:41.000000000,closed,0,ProtobufGeneratedGroup followup
+74,2016-10-12 19:53:34.000000000,2016-10-12 23:20:58.000000000,closed,2,Makefile cleanup/additions.
+73,2016-10-12 19:52:15.000000000,2016-10-12 19:57:04.000000000,closed,0,Use the custom option for prefix until the option is adopted.
+72,2016-10-12 18:46:17.000000000,2016-10-12 18:59:42.000000000,closed,0,Update the min versions.
+71,2016-10-12 02:21:53.000000000,2016-10-12 18:27:45.000000000,closed,1,Fix linker errors in release builds.
+70,2016-10-12 01:09:55.000000000,2016-10-12 18:27:45.000000000,closed,8,Release builds busted
+69,2016-10-12 00:18:52.000000000,2016-10-12 00:19:58.000000000,closed,0,Warnings tweak and fix iOS build
+68,2016-10-11 23:51:32.000000000,2016-10-11 23:53:05.000000000,closed,1,Allow iOS 9 for the iOS unittest.
+67,2016-10-11 00:31:11.000000000,2016-10-11 18:30:41.000000000,closed,0,Xcode project cleanup round 2
+66,2016-10-07 23:45:41.000000000,2016-10-07 23:45:49.000000000,closed,0,Add wrappers.pb.swift to the iOS target.
+65,2016-10-07 20:37:50.000000000,2016-10-07 21:27:47.000000000,closed,2,Replace hand-written wrappers.proto messages.
+64,2016-10-07 19:05:41.000000000,2016-12-23 04:13:41.000000000,closed,4,Verify behavior of zero values in wrappers.proto
+63,2016-10-07 07:00:25.000000000,1970-01-01 00:00:00.000000001,open,4,Look at compile times for generated code
+62,2016-10-06 19:49:29.000000000,2016-10-06 19:49:40.000000000,closed,0,"Revert ""Issue57 project cleanup round1"""
+61,2016-10-06 19:23:34.000000000,2016-10-06 19:26:44.000000000,closed,0,Issue57 project cleanup round1
+60,2016-10-06 18:32:10.000000000,2017-01-09 09:44:59.000000000,closed,18,"Revisit type names (protocols, structs, etc.)"
+59,2016-10-06 02:54:58.000000000,2016-10-06 04:15:33.000000000,closed,0,Remove [UInt8]-based serialization methods.
+58,2016-10-06 02:13:42.000000000,2016-10-06 02:14:54.000000000,closed,0,Allow app extension API only
+57,2016-10-06 01:43:32.000000000,2016-10-11 18:30:41.000000000,closed,1,Clean up Xcode project
+56,2016-10-06 00:18:40.000000000,2016-10-06 01:40:07.000000000,closed,0,Remove the ProtobufGroup abstraction.
+55,2016-10-05 23:19:44.000000000,2016-10-06 02:18:42.000000000,closed,1,Restrict visibility of some types to internal.
+54,2016-10-05 23:08:36.000000000,2016-10-05 23:14:34.000000000,closed,0,Add warning to all the docs pages about project state
+53,2016-10-05 22:39:12.000000000,1970-01-01 00:00:00.000000001,open,5,Add disk and socket I/O to the performance harness?
+52,2016-10-05 22:13:50.000000000,2016-10-13 20:37:33.000000000,closed,5,"Code style/conventions (indentation, wrapping, etc.)"
+51,2016-10-05 19:38:54.000000000,2017-03-13 20:16:37.000000000,closed,5,Lock down visibility of as much of the runtime as possible
+50,2016-10-05 19:18:55.000000000,2017-04-17 22:46:26.000000000,closed,5,Explore performance of string fields
+49,2016-10-05 18:24:04.000000000,2016-10-24 20:02:44.000000000,closed,2,message fields don't have a has* property to go with them
+48,2016-10-05 17:45:30.000000000,2016-10-05 18:32:40.000000000,closed,7,Exporting to json ~> All values are strings
+47,2016-10-05 17:30:58.000000000,2016-10-05 18:26:11.000000000,closed,2,Dealing with optionals/collisions with real values
+46,2016-10-05 16:45:57.000000000,2016-10-05 18:47:42.000000000,closed,6,init(json:) missing?
+45,2016-10-05 12:36:10.000000000,2016-10-18 12:22:22.000000000,closed,6,Very large binary size
+44,2016-10-05 02:44:39.000000000,2016-10-06 04:15:33.000000000,closed,0,Do we need both [UInt8] and Data encoding/decoding?
+43,2016-10-05 02:18:06.000000000,2016-10-05 20:28:28.000000000,closed,1,Binary serialization/decoding performance improvements
+42,2016-10-05 01:35:09.000000000,2020-05-18 20:23:50.000000000,closed,3,Automate/improve the dependency on google/protobuf
+41,2016-10-05 01:28:06.000000000,2016-10-05 02:15:17.000000000,closed,0,Remove the docs references to isEmpty.
+40,2016-10-05 01:22:07.000000000,2017-04-11 21:39:07.000000000,closed,9,Validate ReservedWords.swift
+39,2016-10-05 01:07:43.000000000,2016-10-05 22:19:10.000000000,closed,0,Drop ProtobufRawMessage.
+38,2016-10-05 00:54:17.000000000,2020-05-15 22:28:45.000000000,closed,4,Set up some form of CI
+37,2016-10-04 21:17:48.000000000,2016-10-04 21:50:47.000000000,closed,3,int32 fields should not be promoted to 64-bit when varint encoding
+36,2016-10-04 02:18:08.000000000,2017-01-04 01:38:13.000000000,closed,7,Support protobuf text format serialization and deserialization
+35,2016-10-04 01:43:06.000000000,2017-04-17 23:25:57.000000000,closed,12,Generated message members should be reördered to best expose what users are interested in
+34,2016-10-04 01:35:53.000000000,2016-10-11 00:27:43.000000000,closed,4,Pre-calculate required data size for messages before serializing
+33,2016-10-03 21:48:54.000000000,2016-10-03 22:00:39.000000000,closed,1,Fix import module for Tests due to the module rename
+32,2016-10-03 15:26:36.000000000,2016-10-07 23:36:23.000000000,closed,3,Set the tag version compiling the generator
+31,2016-10-03 05:59:29.000000000,2016-10-03 18:01:10.000000000,closed,1,Fix podspec issue
+30,2016-10-02 13:22:32.000000000,2016-10-03 18:01:10.000000000,closed,0,Dependency build-time errors when using CocoaPods
+29,2016-10-02 01:56:35.000000000,2016-10-03 21:55:30.000000000,closed,4,linux-patch
+28,2016-10-01 14:50:09.000000000,2016-10-03 23:42:29.000000000,closed,1,Linux support
+27,2016-10-01 02:01:00.000000000,2016-10-03 21:57:45.000000000,closed,0,Create a performance testing script.
+26,2016-09-30 22:51:09.000000000,2016-09-30 22:58:17.000000000,closed,1,Fix dependency link in README example
+25,2016-09-30 21:05:09.000000000,2016-09-30 22:59:02.000000000,closed,1,Update Podspec
+24,2016-09-30 19:20:46.000000000,2016-10-19 21:08:46.000000000,closed,15,Fetching a optional/required field doesn't return the default value
+23,2016-09-30 19:13:04.000000000,2016-10-05 22:19:10.000000000,closed,3,Decided what to do with ProtobufRawMessage
+22,2016-09-30 19:07:56.000000000,2016-10-28 18:06:24.000000000,closed,5,Fetching a oneof doesn't return the default value (when not set)
+21,2016-09-30 07:55:06.000000000,2016-09-30 21:03:20.000000000,closed,10,Issue #10: remove isEmpty
+20,2016-09-29 19:33:18.000000000,2016-09-29 21:28:04.000000000,closed,3,Fix Xcode project after module renaming.
+19,2016-09-29 19:32:27.000000000,2016-09-29 21:28:04.000000000,closed,0,Xcode project needs to be fixed after reorganizing source files
+18,2016-09-29 02:00:31.000000000,1970-01-01 00:00:00.000000001,open,9,Look at how to factor out JSON/text support
+17,2016-09-29 01:51:02.000000000,2017-01-05 08:08:48.000000000,closed,2,Can we reduce the number of protocols?
+16,2016-09-29 01:48:27.000000000,2016-10-06 01:40:07.000000000,closed,0,Represent groups with the same protocol used for messages
+15,2016-09-29 00:48:02.000000000,2017-02-24 09:11:00.000000000,closed,9,Explore different binary encoding/decoding designs
+14,2016-09-29 00:19:06.000000000,2017-03-09 02:18:29.000000000,closed,3,Move Any support out of ProtobufMessage
+13,2016-09-28 23:43:04.000000000,2017-03-21 00:35:15.000000000,closed,7,Determine if the hand-written well-known types are necessary
+12,2016-09-28 23:38:18.000000000,2017-02-21 21:07:59.000000000,closed,14,Revisit public method/property/initializer signatures
+11,2016-09-28 23:23:02.000000000,2016-09-30 02:27:36.000000000,closed,1,Remove swift_additional_protocols message option
+10,2016-09-28 22:18:56.000000000,2016-10-05 02:15:17.000000000,closed,2,Revisit isEmpty methods
+9,2016-09-28 22:15:49.000000000,2016-12-01 20:54:12.000000000,closed,9,Split strings off visitor pattern
+8,2016-09-28 21:58:47.000000000,2016-09-30 02:25:02.000000000,closed,7,Merge runtime and plugin repositories
+7,2016-09-28 13:55:51.000000000,2017-06-06 22:27:21.000000000,closed,3,Prebuilt binaries in release
+6,2016-09-28 13:50:47.000000000,2016-10-06 02:19:55.000000000,closed,3,Fix Xcode project after rename
+5,2016-09-24 14:17:08.000000000,2016-09-28 23:10:03.000000000,closed,7,Add CocoaPods support
+4,2016-09-24 11:08:03.000000000,2016-09-26 19:47:28.000000000,closed,1,Add syntax highlighting to README.md
+3,2016-09-24 00:17:21.000000000,2016-09-28 23:36:08.000000000,closed,6,CocoaPods support
+2,2016-09-23 11:40:09.000000000,2016-09-24 04:07:14.000000000,closed,1,Specify a platform for each framework target.
+1,2016-09-23 02:24:16.000000000,2016-09-23 02:56:02.000000000,closed,2,[question] init(protobuf: )

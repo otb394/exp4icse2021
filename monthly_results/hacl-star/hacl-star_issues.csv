@@ -1,0 +1,343 @@
+id,created_at,closed_at,state,comments,title
+342,2020-08-27 13:10:30.000000000,1970-01-01 00:00:00.000000001,open,1,ARM cross builds
+341,2020-08-20 21:28:49.000000000,2020-08-25 12:26:57.000000000,closed,0,fix neon clang (make sure clang understands that r0-r3 are constants)
+340,2020-08-19 22:15:45.000000000,2020-08-20 21:28:56.000000000,closed,4,make sure clang understands that r0-r3 are constants
+339,2020-08-18 16:18:18.000000000,2020-08-25 12:26:56.000000000,closed,10,ARM builds with clang are broken
+338,2020-08-17 16:57:57.000000000,2020-08-27 13:11:01.000000000,closed,5,Allow cross-compilation for ARM
+337,2020-08-13 18:50:02.000000000,2020-08-13 21:18:38.000000000,closed,9,"Wrong position of generated include guards and extern ""C"" blocks in the Evercrypt sources"
+336,2020-08-13 18:44:57.000000000,2020-08-14 00:21:44.000000000,closed,3,ocaml bindings: fix some misquoted path
+335,2020-08-10 14:00:06.000000000,2020-08-25 12:28:19.000000000,closed,3,Allowed IV lengths for AES128 and AES256 CTR mode?
+334,2020-08-07 13:53:23.000000000,1970-01-01 00:00:00.000000001,open,2,const-correctness in Evercrypt API
+333,2020-07-30 12:40:18.000000000,2020-07-30 21:13:07.000000000,closed,0,libhaclml.cmxa
+332,2020-07-30 00:18:45.000000000,2020-08-28 01:26:06.000000000,closed,7,Incremental blake2
+331,2020-07-21 23:05:52.000000000,1970-01-01 00:00:00.000000001,open,5,ECDSA Bug in reduction
+330,2020-07-21 05:14:25.000000000,2020-07-23 20:40:40.000000000,closed,0,Enhances CPU detection for AVX/AVX512. Fixes #315
+329,2020-07-20 21:53:23.000000000,2020-07-20 22:31:04.000000000,closed,0,Removing the use_extracted_interfaces option
+328,2020-07-20 18:32:34.000000000,1970-01-01 00:00:00.000000001,open,1,Use non-zero pre-allocated vectors in Merkle tree deserialization.
+327,2020-07-14 12:54:26.000000000,1970-01-01 00:00:00.000000001,open,0,undefined behavior in gcc-compatible detected by ubsan
+326,2020-07-13 20:14:36.000000000,2020-07-13 20:55:47.000000000,closed,6,heap free support gone?
+325,2020-07-09 13:42:39.000000000,1970-01-01 00:00:00.000000001,open,2,Accessors for leaf hashes in Merkle Tree
+324,2020-07-07 19:39:29.000000000,2020-07-07 23:46:44.000000000,closed,0,"OCaml API: Minor build fix, new release"
+323,2020-07-07 03:05:07.000000000,2020-07-07 22:44:18.000000000,closed,2,Lightweight Windows CI
+322,2020-07-01 19:30:51.000000000,2020-07-13 20:41:11.000000000,closed,5,Cross-compiling v0.2.1 release to ARM
+321,2020-07-01 14:35:14.000000000,2020-07-01 17:17:14.000000000,closed,0,Proof tweaks for some F* changes
+320,2020-07-01 11:51:32.000000000,2020-07-07 13:11:12.000000000,closed,2,P256 implementation bugs
+319,2020-06-26 11:19:11.000000000,2020-06-26 20:20:48.000000000,closed,1,"Update Supported.rst (P256, Blake2)"
+318,2020-06-24 21:13:16.000000000,2020-06-25 14:49:29.000000000,closed,0,OCaml API: P-256 bindings
+317,2020-06-22 09:05:30.000000000,1970-01-01 00:00:00.000000001,open,3,Target SSE4.2/SSSE3 instead of AVX? (for 128bit vectorized impls)
+316,2020-06-21 11:00:33.000000000,2020-07-07 22:44:20.000000000,closed,4,MSVC build failed
+315,2020-06-21 05:55:23.000000000,2020-07-23 20:40:42.000000000,closed,3,AVX(2) feature detection does not check for OS support
+314,2020-06-11 15:10:40.000000000,1970-01-01 00:00:00.000000001,open,5,sha2-mb
+313,2020-06-11 00:26:45.000000000,2020-06-11 00:33:01.000000000,closed,1,Compile error with types.h and 32-bit Windows/clang
+312,2020-06-08 23:49:33.000000000,2020-06-09 00:48:06.000000000,closed,0,OCaml API: Placeholders for unsupported primitives in Hacl
+311,2020-06-05 19:07:28.000000000,2020-06-05 19:56:39.000000000,closed,0,OCaml API: Another small ARM build fix
+310,2020-06-01 17:39:52.000000000,2020-06-03 23:35:46.000000000,closed,1,Make the opam packages work on ARM
+309,2020-05-31 23:10:16.000000000,2020-06-02 00:55:23.000000000,closed,0,Fix the build on ARM
+308,2020-05-25 11:13:49.000000000,2020-05-30 00:12:30.000000000,closed,1,AEAD encryption/decryption with key expansion on the stack
+307,2020-05-13 19:38:09.000000000,2020-05-13 21:06:30.000000000,closed,0,Fix hint regeneration
+306,2020-05-13 13:11:25.000000000,2020-05-15 19:49:45.000000000,closed,1,Proof tweak for some smt pat changes in F* ulib
+305,2020-05-12 21:31:59.000000000,2020-05-12 22:54:04.000000000,closed,2,CI: do not hardcode gcc-7
+304,2020-05-12 21:05:41.000000000,2020-05-13 00:31:21.000000000,closed,0,OCaml API: Fix for opam build
+303,2020-05-12 00:14:33.000000000,2020-05-12 06:57:31.000000000,closed,0,OCaml API: Various fixes
+302,2020-05-11 22:56:41.000000000,2020-05-29 23:19:41.000000000,closed,5,Basic building blocks for adding proper treatment to zero-out memory
+301,2020-05-11 20:36:14.000000000,2020-05-11 21:33:52.000000000,closed,0,"OCaml API: Runtime feature checks, Blake2s"
+300,2020-05-10 00:30:02.000000000,2020-05-11 23:55:41.000000000,closed,0,Extend EverCrypt CPU detection to support avx512
+299,2020-05-09 20:18:40.000000000,2020-05-10 01:00:23.000000000,closed,1,Fix the nightly build so that it keeps extracted C tests under version control
+298,2020-05-08 18:59:47.000000000,2020-05-08 20:26:30.000000000,closed,2,OCaml API: Don't run unit tests which require unsupported features 
+297,2020-05-08 18:54:48.000000000,2020-05-08 18:55:42.000000000,closed,0,Vdum ocaml nits
+296,2020-05-07 21:33:22.000000000,2020-05-07 22:55:42.000000000,closed,0,Backporting libintvector.h from haclxn
+295,2020-05-03 02:35:36.000000000,2020-05-03 03:28:34.000000000,closed,1,Protect against spurious dist refreshes and also remove some old stuff from the ci script
+294,2020-05-01 15:13:51.000000000,2020-05-01 22:03:50.000000000,closed,6,F* changes in VC generation of conditionals
+293,2020-04-29 06:31:18.000000000,1970-01-01 00:00:00.000000001,open,7,Merkle tree deserialize correctness check
+292,2020-04-29 04:56:37.000000000,2020-04-29 19:37:31.000000000,closed,0,Fix docs (again)
+291,2020-04-29 01:24:34.000000000,2020-04-29 02:07:09.000000000,closed,0,Try to fix a bunch of doc issues
+290,2020-04-26 21:03:35.000000000,2020-04-28 04:21:35.000000000,closed,0,clean up C tests
+289,2020-04-26 05:01:52.000000000,2020-04-27 20:16:15.000000000,closed,0,Two lines to fix mitls
+288,2020-04-23 23:37:40.000000000,2020-04-30 02:36:09.000000000,closed,0,add new lemmas to lib
+287,2020-04-23 00:47:55.000000000,1970-01-01 00:00:00.000000001,open,0,Merkle proofs without the tree
+286,2020-04-22 16:55:52.000000000,2020-04-22 19:10:57.000000000,closed,1,Fixes for changes in F* VC generation
+285,2020-04-21 23:54:15.000000000,2020-05-09 04:56:12.000000000,closed,4,Significantly widen the testing matrix for HACL*
+284,2020-04-21 06:23:30.000000000,2020-04-21 08:39:19.000000000,closed,1,Bump Vale version to 0.3.13
+283,2020-04-20 12:34:40.000000000,2020-04-29 04:57:04.000000000,closed,1,Attempt to fix JS doc auto-publication
+282,2020-04-17 19:10:59.000000000,2020-04-17 22:55:24.000000000,closed,1,"Remove custom lemma, use FStar.Math.Lemmas instead"
+281,2020-04-14 23:18:46.000000000,2020-04-16 20:46:33.000000000,closed,1,A configure script for ARM
+280,2020-04-08 13:22:08.000000000,2020-06-17 19:10:41.000000000,closed,5,"ECDSA Update (agile, compression) PR"
+279,2020-04-07 00:10:00.000000000,2020-04-07 02:31:04.000000000,closed,3,Fix the proof of `mt_flush_to_` by using `rv_flush_inplace`
+278,2020-04-06 21:18:18.000000000,2020-04-07 03:19:11.000000000,closed,1,Removing `abstract` keyword
+277,2020-04-06 03:17:51.000000000,1970-01-01 00:00:00.000000001,open,4,Functional Verification of Rust Crypto
+276,2020-04-03 23:47:29.000000000,2020-04-04 00:41:03.000000000,closed,0,Cleanup tests and makefiles
+275,2020-04-03 18:09:44.000000000,2020-04-17 22:12:10.000000000,closed,0,OCaml API
+274,2020-04-03 17:13:32.000000000,2020-04-03 18:52:50.000000000,closed,2,Interfaces in F* ulib for IntN and UIntN modules
+273,2020-04-01 20:51:24.000000000,2020-04-03 21:35:20.000000000,closed,2,Compatibility with ARM Neon
+272,2020-04-01 02:06:26.000000000,2020-04-01 04:17:14.000000000,closed,0,Bump rlimits
+271,2020-03-31 21:22:52.000000000,2020-04-03 04:44:36.000000000,closed,3,Disable OpenSSL and BCrypt
+270,2020-03-30 22:28:11.000000000,2020-04-25 04:33:02.000000000,closed,4,A streaming functor on top of a block-based algorithm type class
+269,2020-03-30 20:19:00.000000000,2020-04-01 20:51:22.000000000,closed,1,Follow up for JS bindings
+268,2020-03-30 19:45:54.000000000,2020-04-02 13:34:03.000000000,closed,3,Some tweaks for F* Changes
+267,2020-03-30 04:15:07.000000000,1970-01-01 00:00:00.000000001,open,1,Interest of HACL team in other curve-based crypto?
+266,2020-03-27 23:33:11.000000000,2020-03-28 21:14:47.000000000,closed,1,"adding a --retry 3 to EverCrypt.Hash.Incremental.init, on consulation…"
+265,2020-03-25 13:23:17.000000000,2020-03-27 21:23:00.000000000,closed,4,Global immutable *const* buffers
+264,2020-03-24 17:46:13.000000000,2020-03-25 17:08:51.000000000,closed,1,Expose AutoConfig2_init() to libquiccrypto
+263,2020-03-23 20:41:34.000000000,2020-03-24 02:18:06.000000000,closed,3,Fix executable mode
+262,2020-03-23 15:53:33.000000000,2020-03-30 03:49:05.000000000,closed,6,Javascript bindings for HACL-Wasm
+261,2020-03-21 00:13:50.000000000,2020-03-24 19:39:32.000000000,closed,1,HPKE implementation and instantiations
+260,2020-03-20 13:46:19.000000000,2020-03-22 17:06:39.000000000,closed,0,Some proof tweaks before merging F* steel branch to master
+259,2020-03-18 06:13:04.000000000,2020-03-23 21:25:16.000000000,closed,4,"tidy up lemma_mult_{le,lt}_right calls"
+258,2020-03-18 01:48:10.000000000,2020-03-18 13:29:40.000000000,closed,4,fix build breakage in EverCrypt.Hash.Incremental
+257,2020-03-17 19:32:30.000000000,2020-03-18 13:29:53.000000000,closed,1,Anticipate fixing FStarLang/FStar#1905
+256,2020-03-17 19:10:08.000000000,2020-03-17 22:02:14.000000000,closed,8,lib: PrintSequence: remove dec_pad printing functions
+255,2020-03-17 00:37:39.000000000,2020-03-17 18:43:10.000000000,closed,4,Work around FStarLang/FStar#1651
+254,2020-03-16 16:32:09.000000000,2020-03-18 22:33:03.000000000,closed,9,Squaring for MM
+253,2020-03-15 23:15:16.000000000,2020-03-18 18:25:15.000000000,closed,2,Fixed Blake2 spec and implementation.
+252,2020-03-13 03:06:40.000000000,2020-03-13 15:12:57.000000000,closed,1,Fix HACL code following issue #1940 on F*
+251,2020-03-11 14:30:03.000000000,1970-01-01 00:00:00.000000001,open,12,Preconditions for DH on P-256
+250,2020-03-11 00:03:33.000000000,2020-03-11 02:23:27.000000000,closed,0,Use failwith in Vale assembly printer to avoid tricky corner cases leading to gcc bugs
+249,2020-03-04 21:53:02.000000000,2020-03-06 20:50:08.000000000,closed,1,revert blake2s 256
+248,2020-03-04 21:19:52.000000000,2020-03-04 21:21:14.000000000,closed,0,revert blake2s 256
+247,2020-03-03 01:54:24.000000000,2020-05-21 00:09:40.000000000,closed,2,Add the prefetch-elimination transform
+246,2020-03-02 18:57:10.000000000,2020-03-02 21:05:23.000000000,closed,1,Improve error messages in Makefile concerning Vale
+245,2020-02-25 19:17:48.000000000,2020-02-28 22:06:57.000000000,closed,2,Son blake2s 256
+244,2020-02-25 03:16:20.000000000,2020-02-25 04:07:16.000000000,closed,0,Optimisation: Using Rbx instead of R12 in Curve inline asm
+243,2020-02-25 02:42:23.000000000,2020-03-10 21:58:56.000000000,closed,25,Make the Curve25519 call-graph indexed over a predicate
+242,2020-02-23 23:52:13.000000000,2020-02-24 01:02:42.000000000,closed,1,fix Hacl.Poly1305.Field32xN.Lemmas1
+241,2020-02-21 22:45:44.000000000,2020-02-26 23:52:10.000000000,closed,0,Merkle Tree bundling issue
+240,2020-02-20 01:19:48.000000000,2020-02-21 20:28:19.000000000,closed,1,Add helpers in Lib.Buffer to ease the transition to const buffers
+239,2020-02-20 00:24:28.000000000,2020-02-20 01:17:59.000000000,closed,1,Remove custom modifies lemmas; saner rlimits in a P256 proof
+238,2020-02-19 11:16:41.000000000,2020-02-19 18:06:09.000000000,closed,0,Rename Hacl.Spec.P256/ECDSA into Spec.*
+237,2020-02-18 19:18:13.000000000,2020-03-02 18:55:39.000000000,closed,1,Improve error messages in Makefile concerning Vale
+236,2020-02-14 04:06:32.000000000,2020-02-15 00:49:35.000000000,closed,0,Peephole Transformers
+235,2020-02-13 21:43:02.000000000,2020-02-28 22:06:58.000000000,closed,0,Parameterized Merkle trees
+234,2020-02-12 17:36:25.000000000,1970-01-01 00:00:00.000000001,open,2,Mozilla: Naming conventions for vectorized modules (_Vec256 vs _256)
+233,2020-02-10 14:56:59.000000000,2020-02-10 15:16:50.000000000,closed,0,Remove trailing whitespaces
+232,2020-02-10 14:55:49.000000000,2020-02-15 22:47:20.000000000,closed,1,Mozilla: Lib.IntVector unused variable in 256-bit vectorized Poly1305
+231,2020-02-04 14:06:29.000000000,1970-01-01 00:00:00.000000001,open,2,Kyber (work in progress)
+230,2020-02-01 04:04:10.000000000,1970-01-01 00:00:00.000000001,open,4,Update in Merkle Trees
+229,2020-01-30 19:35:44.000000000,2020-03-23 20:06:24.000000000,closed,2,Lib.Sequence.Lemmas
+228,2020-01-30 01:56:43.000000000,1970-01-01 00:00:00.000000001,open,3,Support for post-quantum crypto?
+227,2020-01-29 20:02:37.000000000,2020-02-05 23:25:03.000000000,closed,14,Blake2 vectorized and verified
+226,2020-01-29 01:05:58.000000000,2020-01-29 01:06:57.000000000,closed,0,Blake2 vectorized code based on Benjamin's scalar code.
+225,2020-01-24 11:03:44.000000000,1970-01-01 00:00:00.000000001,open,0,Support for NaCL's (libsodium's) hchacha20-based box
+224,2020-01-22 18:57:43.000000000,2020-01-23 20:08:36.000000000,closed,3,Fix specs Makefile
+223,2020-01-17 18:31:16.000000000,2020-02-17 21:06:38.000000000,closed,7,ECDSA ci
+222,2020-01-16 17:52:16.000000000,2020-01-16 18:54:12.000000000,closed,0,"Passed ci, attempt to merge"
+221,2020-01-16 00:10:42.000000000,2020-01-16 01:44:40.000000000,closed,1,Replace doc source with a link to GitHub
+220,2020-01-15 21:01:31.000000000,2020-01-15 21:47:01.000000000,closed,0,Update README.md
+219,2020-01-15 04:55:51.000000000,2020-01-21 01:28:31.000000000,closed,2,Nicer inline assembly generation for Curve procedures
+218,2020-01-07 21:45:54.000000000,2020-01-08 02:58:34.000000000,closed,6,Missing return statements in `EverCrypt_Hash_copy`
+217,2020-01-05 16:10:35.000000000,2020-01-15 23:09:43.000000000,closed,0,Update README.md
+216,2020-01-05 09:07:15.000000000,2020-01-05 16:50:40.000000000,closed,0,Change ed25519 API arg names
+215,2020-01-05 06:17:20.000000000,2020-01-05 06:18:53.000000000,closed,0,documented NaCl
+214,2020-01-05 05:43:45.000000000,2020-01-05 07:02:02.000000000,closed,0,Update README
+213,2020-01-05 03:02:31.000000000,2020-01-05 05:01:17.000000000,closed,0,Karthik docs
+212,2019-12-27 23:06:12.000000000,1970-01-01 00:00:00.000000001,open,1,Dependency computation performance
+211,2019-12-20 15:28:02.000000000,2019-12-30 20:39:20.000000000,closed,0,Polubelova ci
+210,2019-12-12 23:07:10.000000000,2020-01-23 22:04:01.000000000,closed,1,Improve error messages in Makefile concerning Vale
+209,2019-12-09 18:20:54.000000000,2019-12-09 18:21:05.000000000,closed,0,Merkle paths
+208,2019-12-03 11:56:43.000000000,2019-12-11 21:21:32.000000000,closed,1,Add C snapshot to nightly builds when generating hints
+207,2019-11-29 14:27:11.000000000,2019-11-29 18:25:45.000000000,closed,2,Only add libintvector.h include when necessary for mozilla dist
+206,2019-11-28 18:16:09.000000000,1970-01-01 00:00:00.000000001,open,1,Unused variable in generated C code
+205,2019-11-11 21:29:41.000000000,2019-11-12 21:07:15.000000000,closed,3,CPU preconditions on SSE and MOVBE
+204,2019-11-08 10:15:56.000000000,2019-11-15 08:01:07.000000000,closed,2,Implementation of HPKE
+203,2019-11-06 19:17:29.000000000,2019-11-06 19:18:22.000000000,closed,0,Dev
+202,2019-11-05 20:28:14.000000000,2019-11-07 03:52:03.000000000,closed,2,HMAC_DRBG
+201,2019-10-31 20:48:42.000000000,2019-11-01 18:24:08.000000000,closed,1,Add qTESLA to experimental directory and under CI
+200,2019-10-30 01:54:41.000000000,2019-10-31 15:21:19.000000000,closed,0,Integrate Frodo
+199,2019-10-23 20:48:30.000000000,1970-01-01 00:00:00.000000001,open,1,Add path serialization to Merkle trees
+198,2019-10-23 04:22:32.000000000,2019-11-01 18:50:49.000000000,closed,1,Add qTESLA implementation to global Makefile and under CI
+197,2019-10-22 14:55:44.000000000,2019-10-22 19:20:35.000000000,closed,1,drop unused variable in update
+196,2019-10-17 17:54:27.000000000,2019-10-18 13:46:23.000000000,closed,5,Merging fstar-master into _dev
+195,2019-10-16 19:29:42.000000000,2019-10-16 20:45:02.000000000,closed,0,HKDF
+194,2019-10-15 02:14:15.000000000,2019-10-16 13:10:16.000000000,closed,0,Unification of hashes
+193,2019-10-14 14:42:31.000000000,2019-10-14 18:02:45.000000000,closed,0,Unused variable in Hacl.Impl.Chacha20.fst
+192,2019-10-11 13:15:37.000000000,2019-11-06 16:44:45.000000000,closed,14,docker image for local builds
+191,2019-10-01 01:19:21.000000000,2020-01-25 01:16:51.000000000,closed,1,SIGILL due to lack of MOVBE support on i7-3770
+190,2019-09-28 14:05:55.000000000,2019-09-28 14:10:02.000000000,closed,0,First attempt to merge p256 + ecdsa
+189,2019-09-27 19:03:02.000000000,2019-09-27 19:58:50.000000000,closed,2,EverCrypt_Hash_Incremental_free frees only partially
+188,2019-09-19 19:24:36.000000000,1970-01-01 00:00:00.000000001,open,0,Work towards a fully-verified switch for QUIC transport crypto
+187,2019-09-18 09:29:42.000000000,2019-09-27 19:59:31.000000000,closed,1,Operations on Secret Integers
+186,2019-08-27 21:21:31.000000000,2019-10-16 21:51:22.000000000,closed,1,Rewrite recursive EverCrypt.HKDF.expand_loop using C.Loops
+185,2019-08-24 05:31:46.000000000,2019-08-24 06:14:42.000000000,closed,3,Hacl_Standalone_Poly1305_64_crypto_onetimeauth stack overflow?
+184,2019-08-16 09:17:17.000000000,2019-08-20 14:01:04.000000000,closed,0,Inttypes for SHA. Do not merge
+183,2019-08-14 15:12:21.000000000,2019-08-14 15:50:10.000000000,closed,0,BuildHints- workflow
+182,2019-08-13 12:42:50.000000000,2019-08-14 01:51:12.000000000,closed,1,Port to FStar.Tactics.CanonCommSemiring in FStar@santiago_ring
+181,2019-08-09 21:10:20.000000000,2019-08-09 23:55:18.000000000,closed,3,"Stronger postconditions for AEAD: freeable, as_kv, g_is_null..."
+180,2019-08-08 21:12:56.000000000,2019-08-08 22:37:55.000000000,closed,6,Refresh in-tree versions of curve25519
+179,2019-08-06 13:59:35.000000000,2019-08-06 18:00:28.000000000,closed,1,Subtyping check fails for creating Sequence with length 8 and above
+178,2019-07-30 22:37:41.000000000,1970-01-01 00:00:00.000000001,open,0,Bringing _dev and fstar-master closer
+177,2019-07-29 07:24:25.000000000,2019-07-29 14:50:18.000000000,closed,1,Expected a Ghost Expression
+176,2019-07-27 01:39:44.000000000,1970-01-01 00:00:00.000000001,open,0,EverCrypt alpha2
+175,2019-07-15 23:54:46.000000000,2019-07-16 02:18:49.000000000,closed,1,Provide tighter arguments for extraction to OCaml
+174,2019-07-12 12:40:56.000000000,2019-07-12 13:42:40.000000000,closed,1,"Randomness: use syscall when available, don't exit on error"
+173,2019-07-08 06:36:50.000000000,2019-07-08 14:10:49.000000000,closed,1,Mismatch type in Lib.Sequence
+172,2019-07-04 02:43:28.000000000,2019-07-09 21:44:47.000000000,closed,4,Revamping CTR and AEAD specifications; a new EverCrypt.CTR
+171,2019-07-02 02:17:59.000000000,2019-07-03 06:05:03.000000000,closed,5,Ensure repo-specific config is read (if it exists)
+170,2019-06-25 18:49:30.000000000,2020-01-23 22:04:02.000000000,closed,0,EverCrypt QUIC benchmark (updated)
+169,2019-06-25 07:21:00.000000000,2019-07-29 19:22:36.000000000,closed,9,Question about loop combinators
+168,2019-06-24 18:33:06.000000000,2019-06-25 18:10:02.000000000,closed,0,Fixes for F* #1750
+167,2019-06-21 05:00:20.000000000,2019-06-21 14:38:53.000000000,closed,1,Failure to resolve implicit argument
+166,2019-06-21 04:53:38.000000000,2019-06-21 14:57:11.000000000,closed,1,Nested buffers
+165,2019-06-20 20:39:29.000000000,2019-06-20 23:32:54.000000000,closed,1,Simplify defs and lemmas about memory locations
+164,2019-06-08 08:34:57.000000000,2019-06-12 05:24:54.000000000,closed,6,"To havoc or not to havoc, that is the question. Use [option bool], that is the answer."
+163,2019-06-05 14:25:27.000000000,2019-07-24 05:17:06.000000000,closed,5,signed integers in Lib.IntTypes
+162,2019-05-28 12:36:15.000000000,2019-05-28 16:36:06.000000000,closed,27,How to do proofs using the normalizer with definitions hidden behind interfaces
+161,2019-05-06 18:17:25.000000000,2019-05-06 23:57:51.000000000,closed,0,Add a pointer to Project Everest
+160,2019-05-01 19:24:46.000000000,2019-05-01 20:16:12.000000000,closed,0,Merge improvements from _dev that remove 2 admits in lib
+159,2019-04-30 16:05:11.000000000,2019-05-07 19:24:59.000000000,closed,0,Taramana tests
+158,2019-04-28 22:18:37.000000000,2019-05-07 17:02:01.000000000,closed,0,More benchmarking improvements.
+157,2019-04-28 15:51:59.000000000,2019-04-28 19:25:41.000000000,closed,0,Ed25519 cleanup
+156,2019-04-27 14:42:01.000000000,2019-04-27 15:57:47.000000000,closed,0,Added and rewired new Ed25519 implementation.
+155,2019-04-26 23:13:20.000000000,2019-04-26 23:13:28.000000000,closed,0,Benchmarking stuff
+154,2019-04-25 11:30:21.000000000,1970-01-01 00:00:00.000000001,open,5,Hacl* library package
+153,2019-04-19 01:25:26.000000000,2019-04-19 22:18:23.000000000,closed,1,"Low* tests: restore verification, improve platform coverage"
+152,2019-04-15 01:46:28.000000000,2019-07-02 21:24:16.000000000,closed,3,Blake2 Implementations
+151,2019-04-08 14:11:33.000000000,2019-04-08 16:10:47.000000000,closed,1,Simple grammar fix
+150,2019-04-08 11:08:45.000000000,2019-04-08 16:11:15.000000000,closed,1,Correct a typo
+149,2019-04-04 01:20:30.000000000,1970-01-01 00:00:00.000000001,open,9,EverCrypt Cryptofuzz support
+148,2019-04-03 18:36:38.000000000,2019-04-03 18:39:33.000000000,closed,1,Update README.md
+147,2019-04-02 13:51:28.000000000,1970-01-01 00:00:00.000000001,open,0,Restore testing and benchmark for HACLv2
+146,2019-03-02 09:48:21.000000000,2019-03-05 23:14:13.000000000,closed,1,one-way live sub only
+145,2019-02-21 03:10:25.000000000,2019-07-27 01:42:15.000000000,closed,4,Next wave of integration from Vale & HACL*/dev
+144,2019-02-12 15:41:41.000000000,1970-01-01 00:00:00.000000001,open,7,Setting up hacl-star dependencies
+143,2019-02-02 05:28:35.000000000,2019-02-06 02:25:00.000000000,closed,3,Create a smaller --MIN-TEST for F* testing
+142,2019-01-31 14:43:53.000000000,1970-01-01 00:00:00.000000001,open,1,AES256-CBC
+141,2019-01-30 13:54:41.000000000,2019-01-30 14:42:32.000000000,closed,1,Asking questions about type mismatches
+140,2019-01-26 05:37:51.000000000,2019-01-28 00:02:45.000000000,closed,2,Use Vale binary release rather than Vale sources
+139,2019-01-23 12:37:10.000000000,2019-02-12 15:42:21.000000000,closed,7,How to generate C code
+138,2019-01-22 06:45:16.000000000,2019-01-26 05:53:17.000000000,closed,6,Tests failing
+137,2019-01-09 11:54:22.000000000,2019-06-20 18:03:06.000000000,closed,2,Using pre-compiled FStar binaries with master branch
+136,2019-01-08 00:13:57.000000000,2019-01-09 13:22:01.000000000,closed,0,Changes for no cache copy semantics in F*
+135,2018-12-29 08:59:58.000000000,2019-01-30 14:44:10.000000000,closed,3,There are some questions for testing curve25519.fst.
+134,2018-12-14 08:29:14.000000000,2018-12-14 10:36:58.000000000,closed,1,Lib.Buffer: Make b1 and b2's types and lengths unrelated in modifies3
+133,2018-12-06 13:16:47.000000000,1970-01-01 00:00:00.000000001,open,0,Single file HACL*
+132,2018-11-27 18:54:18.000000000,2018-11-27 22:07:42.000000000,closed,2,Merge _dev_frodo
+131,2018-11-13 19:01:48.000000000,2018-11-13 19:04:18.000000000,closed,1,Fixed a broken link in README.md
+130,2018-10-26 17:40:13.000000000,2018-12-06 13:07:06.000000000,closed,4,Updated AESNI detection
+129,2018-10-17 21:10:11.000000000,2018-10-17 23:15:04.000000000,closed,0,Merge lib changes in `_dev_frodo`
+128,2018-07-27 21:20:59.000000000,2018-07-27 21:35:24.000000000,closed,0,adding hacl container to be used by new ci system
+127,2018-07-27 00:14:46.000000000,2018-09-21 14:50:11.000000000,closed,4,Align convention for constants towards size_<name>
+126,2018-06-24 00:30:19.000000000,2018-12-06 02:25:57.000000000,closed,1,Return value conventions
+125,2018-06-13 20:29:54.000000000,2018-06-13 20:39:49.000000000,closed,1,quic_provider.c - warning C4456: declaration of 'nonce' hides previous local declaration
+124,2018-06-04 14:10:16.000000000,2018-06-04 14:54:56.000000000,closed,0,use fixed kremlin version
+123,2018-05-11 00:17:20.000000000,2018-05-11 13:19:25.000000000,closed,5,Crypto.AEAD.Main.fsti: cut dependency on FStar.Pointer
+122,2018-05-11 00:13:58.000000000,2018-05-11 00:14:15.000000000,closed,1,Crypto.AEAD.Main.fsti: cut dependency on FStar.Pointer
+121,2018-04-30 19:27:47.000000000,2018-12-06 02:26:13.000000000,closed,1,unable to find required file prims.fst
+120,2018-04-12 15:16:52.000000000,2018-04-12 15:56:35.000000000,closed,2,Update CMakeLists.txt to add install targets for the libraries and the header files
+119,2018-04-06 16:26:25.000000000,2018-08-11 16:58:21.000000000,closed,1,aes gcm 128 and intel fmul
+118,2018-03-28 14:12:06.000000000,2018-08-11 16:58:21.000000000,closed,0,aes-gcm 128
+117,2018-03-27 02:57:52.000000000,2018-03-27 03:35:11.000000000,closed,0,Work around unreferenced-formal errors while building with MSVC
+116,2018-03-08 13:20:27.000000000,2018-03-28 14:12:41.000000000,closed,1,gcm spec and tests
+115,2018-03-02 21:15:35.000000000,2018-03-05 20:40:18.000000000,closed,0,ChaCha20 vec128 fixes for VS2015 32-bit
+114,2018-02-28 19:44:18.000000000,2018-03-22 19:03:07.000000000,closed,3,Don't use --expose_interfaces
+113,2018-02-28 18:30:58.000000000,2018-03-01 02:14:36.000000000,closed,0,Update kremlin
+112,2018-02-27 13:39:12.000000000,2018-03-01 02:16:40.000000000,closed,0,Poly1305 32-bit for NSS
+111,2018-02-21 13:42:00.000000000,2018-02-23 15:59:54.000000000,closed,0,make vec218 compile with clang on aarch64
+110,2018-02-16 14:40:22.000000000,2018-02-16 16:44:36.000000000,closed,0,Cwasm snapshot
+109,2018-02-16 14:02:14.000000000,2018-02-16 18:40:55.000000000,closed,1,Forgotten C export bundle prefix for HACL_HMAC_256_hmac  
+108,2018-02-12 21:38:37.000000000,2018-02-16 14:21:23.000000000,closed,0,drop prefix in ed25519 sign_step_4 to avoid generating unused variables
+107,2018-02-07 19:15:42.000000000,2018-02-07 23:50:22.000000000,closed,1,sync with snaptshot/kremlib version
+106,2018-01-26 19:13:20.000000000,2018-02-07 19:16:11.000000000,closed,1,vec128 windows fixes
+105,2018-01-18 20:45:14.000000000,2018-01-26 17:27:22.000000000,closed,2,Fix ARM vec128.h code and inline ChaCha rounds
+104,2018-01-15 19:00:52.000000000,2018-01-15 19:01:12.000000000,closed,0,add ChaCha20 vec to NSS snapshot target
+103,2018-01-15 14:35:35.000000000,1970-01-01 00:00:00.000000001,open,6,Linux Kernel / Wireguard integration tasks
+102,2018-01-14 18:29:01.000000000,2018-01-15 20:27:06.000000000,closed,0,PBKDF2 spec
+101,2017-12-12 01:53:02.000000000,2018-01-15 18:45:01.000000000,closed,0,Use _mm_shuffle correctly and protect macro variables
+100,2017-12-11 07:09:45.000000000,1970-01-01 00:00:00.000000001,open,3,vec128.h issues
+99,2017-12-07 22:40:27.000000000,2017-12-07 22:43:59.000000000,closed,0,don't verify poly1305 in verify-nss for now
+98,2017-12-07 22:24:46.000000000,2017-12-07 22:40:32.000000000,closed,0,No poly1305 verification in verify-nss
+97,2017-12-07 20:08:59.000000000,2018-04-07 15:34:18.000000000,closed,3,Unable to build fstar-master
+96,2017-11-29 23:14:27.000000000,2020-01-15 23:11:00.000000000,closed,1,Implement HACLv2 API in F* and generate the main C header file
+95,2017-11-29 22:33:26.000000000,2017-11-29 23:06:41.000000000,closed,4,Update the C snapshot repository https://github.com/mitls/hacl-c
+94,2017-11-29 10:42:22.000000000,2018-04-07 15:25:33.000000000,closed,2,printf should be replaced with KRML_HOST_PRINTF
+93,2017-11-28 13:53:36.000000000,1970-01-01 00:00:00.000000001,open,0,"Build and tests more versions of the snapshots with different compilers, options..."
+92,2017-11-28 01:44:45.000000000,2017-11-29 23:07:56.000000000,closed,1,Fix warnings when compiling tests
+91,2017-11-27 16:01:25.000000000,2017-11-27 16:01:42.000000000,closed,0,P256 - Specification
+90,2017-11-24 21:06:46.000000000,2017-11-24 21:45:45.000000000,closed,0,add poly1305 verify to verify-nss
+89,2017-11-24 13:31:11.000000000,2017-12-11 22:01:17.000000000,closed,0,Check for __ARM_NEON
+88,2017-11-23 23:52:22.000000000,2018-04-07 15:20:38.000000000,closed,1,Improvement for RIOT: operators count overflow
+87,2017-11-23 23:49:21.000000000,2018-04-07 15:19:02.000000000,closed,1,Improvement for RIOT: Plateform checks in exported Makefiles
+86,2017-11-23 23:46:47.000000000,2018-04-07 15:16:46.000000000,closed,1,Improvement for RIOT: _int128 is not supported on this target
+85,2017-11-23 23:41:32.000000000,2017-11-27 19:22:59.000000000,closed,2,Improvement for RIOT: Remove unused variable
+84,2017-11-23 23:28:07.000000000,2017-11-23 23:38:05.000000000,closed,0,Improvement for RIOT: Too many arguments
+83,2017-11-23 23:22:25.000000000,2018-04-07 15:15:44.000000000,closed,1,Improvement for RIOT: Remove unused parameters
+82,2017-11-23 16:27:44.000000000,2017-11-23 16:28:33.000000000,closed,0,Inline chacha20 setup and update some names
+81,2017-11-22 21:53:20.000000000,2017-11-23 16:28:33.000000000,closed,0,ChaCha20 and Poly1305 improvements
+80,2017-11-22 16:07:22.000000000,2017-11-22 16:12:24.000000000,closed,0,Add chacha20 to nss snapshot
+79,2017-11-21 11:52:18.000000000,2018-12-06 02:22:06.000000000,closed,1,Restore CI targets
+78,2017-11-20 07:59:14.000000000,2017-11-20 14:01:25.000000000,closed,3,Update Makefile so even the static library is cleared
+77,2017-11-03 19:24:41.000000000,2017-11-03 20:03:43.000000000,closed,2,Update kremlib.h
+76,2017-11-03 17:28:32.000000000,2017-11-03 20:04:05.000000000,closed,1,Don't make functions static
+75,2017-11-03 14:37:48.000000000,2017-11-03 14:39:03.000000000,closed,0,fix nss patches
+74,2017-11-02 21:30:32.000000000,2018-04-15 17:33:50.000000000,closed,1,XSalsa20 under CI?
+73,2017-10-25 14:23:54.000000000,2017-11-02 13:36:57.000000000,closed,1,Fix some make prepare paths
+72,2017-10-17 04:00:50.000000000,1970-01-01 00:00:00.000000001,open,2,Defensive API
+71,2017-10-11 00:45:17.000000000,2017-10-11 00:45:24.000000000,closed,1,CI running extraction and tests for LowCProvider
+70,2017-10-09 22:51:19.000000000,2018-12-06 02:22:30.000000000,closed,2,New HASH/HMAC/HKDF specification and stateful code
+69,2017-10-09 22:06:48.000000000,2018-04-15 17:33:05.000000000,closed,3,CI for Chacha20 in WASM
+68,2017-10-08 15:47:08.000000000,2018-04-15 17:13:48.000000000,closed,1,Build system should provide both HACL* and NaCl libraries
+67,2017-10-08 15:44:53.000000000,2018-04-07 15:27:12.000000000,closed,4,Extend primitives: implementation of HMAC for SHA2_384 and SHA2_512
+66,2017-10-08 15:40:29.000000000,2017-11-02 21:29:40.000000000,closed,1,Discuss running the CI without using submodules
+65,2017-10-08 15:37:18.000000000,2018-02-16 19:35:40.000000000,closed,1,Review installation instructions
+64,2017-10-08 14:19:59.000000000,2018-12-06 02:21:25.000000000,closed,1,Primitives and constructions should have test vectors in F*
+63,2017-10-08 14:14:14.000000000,2018-12-06 13:14:13.000000000,closed,6,Remove all unused definitions from the extracted header files
+62,2017-10-08 14:10:54.000000000,2017-11-22 16:02:40.000000000,closed,2,Restore use of the default kremlib files
+61,2017-10-08 14:05:32.000000000,2017-11-03 19:49:47.000000000,closed,1,Extraction of the snapshot should include the License header
+60,2017-10-08 13:33:00.000000000,1970-01-01 00:00:00.000000001,open,6,CI support for extracting and testing HACL* with MSVC
+59,2017-10-08 13:27:53.000000000,2017-11-03 19:34:37.000000000,closed,1,Removing dependency of the snapshot in `testlib.h`
+58,2017-10-08 13:21:15.000000000,2018-04-07 15:27:48.000000000,closed,1,Specialize the extraction of the agile specification of SHA2
+57,2017-10-08 13:14:17.000000000,2017-11-28 01:46:03.000000000,closed,1,Removal of unnecessary Makefiles
+56,2017-10-08 13:10:05.000000000,2017-11-03 19:40:20.000000000,closed,1,Investigate potential duplicate runs of the extraction during snapshots generation
+55,2017-10-08 13:04:28.000000000,2017-11-24 14:19:50.000000000,closed,1,Refactor the names of the bundles
+54,2017-10-08 12:55:51.000000000,2017-11-24 14:21:29.000000000,closed,1,Design for building the C library
+53,2017-10-08 06:08:49.000000000,2017-10-10 08:56:40.000000000,closed,5,Inconsistent output of Chacha20Poly1305_aead_encrypt
+52,2017-10-06 08:46:05.000000000,2017-10-06 20:58:04.000000000,closed,4,A mirror repository for hacl-c snapshots
+51,2017-10-06 08:41:49.000000000,2018-04-09 09:57:54.000000000,closed,5,Excessive warnings when compiling with gcc -Wall
+50,2017-10-06 08:35:28.000000000,2017-10-06 20:12:35.000000000,closed,1,Add `attribute unused` to silence compiler warnings
+49,2017-10-06 08:30:43.000000000,2017-10-06 20:20:11.000000000,closed,1,Add static libraries in the makefile (in support of #47)
+48,2017-10-06 08:19:32.000000000,2017-11-02 14:15:51.000000000,closed,1,hacl-c compilation fixes for embedded targets
+47,2017-10-02 20:34:51.000000000,1970-01-01 00:00:00.000000001,open,14,Compilation of HACL* on bare metal targets
+46,2017-10-02 19:14:02.000000000,2017-10-03 13:38:23.000000000,closed,1,Rewrite Buffer.Utils.xor_bytes_inplace
+45,2017-09-28 23:08:20.000000000,2017-09-29 01:04:18.000000000,closed,1, (Error) 0 is not in the expected range for FStar.UInt32
+44,2017-09-26 13:47:17.000000000,2017-11-02 14:13:23.000000000,closed,0,Add targets and patches for NSS
+43,2017-09-22 22:25:57.000000000,2017-10-03 13:38:23.000000000,closed,0,rewrite Buffer.Utils.xor_inplace using a loop
+42,2017-09-20 20:11:24.000000000,2018-12-06 02:25:11.000000000,closed,1,Remove `-flto` from CCFLAGS and -lopt for compilation on Windows
+41,2017-08-29 14:23:16.000000000,2017-08-29 18:25:40.000000000,closed,1,"Eliminates recursive functions in SHA2_{256,384,512}"
+40,2017-08-20 01:22:27.000000000,2017-08-30 21:09:03.000000000,closed,0,Restructuring Makefiles
+39,2017-08-19 03:47:07.000000000,2018-12-06 02:24:11.000000000,closed,4,Replace recursive functions with iterative implementations using C.Loops
+38,2017-08-18 20:41:04.000000000,2017-08-18 20:41:38.000000000,closed,0,Link to HACS on Github
+37,2017-08-18 11:25:06.000000000,2018-06-24 00:31:12.000000000,closed,2,Removing files that don't verify or aren't used from `code`
+36,2017-08-18 11:21:25.000000000,2018-12-06 02:22:56.000000000,closed,1,Restoring the Pneutube code
+35,2017-08-18 11:19:17.000000000,2017-09-02 06:46:40.000000000,closed,4,Easy HACL* setup
+34,2017-08-18 11:15:35.000000000,1970-01-01 00:00:00.000000001,open,0,Update Tutorial
+33,2017-08-18 11:13:45.000000000,2017-09-02 06:48:15.000000000,closed,2,General pass on READMEs
+32,2017-08-18 11:09:35.000000000,2017-08-30 21:43:40.000000000,closed,5,Clean up the makefiles
+31,2017-08-18 07:16:34.000000000,2017-08-26 22:55:29.000000000,closed,4,Coding style discussion for Curve25519
+30,2017-08-18 06:37:54.000000000,2017-08-18 06:40:19.000000000,closed,0,Merging multiple improvements from dev into master
+29,2017-08-16 09:21:19.000000000,2017-08-16 09:24:19.000000000,closed,0,Production nss review
+28,2017-08-15 16:24:56.000000000,2017-08-16 09:10:01.000000000,closed,3,Add dependencies back for production nss
+27,2017-08-08 16:14:59.000000000,2017-08-15 21:55:40.000000000,closed,1,make test-snapshot includes missing
+26,2017-07-28 21:31:39.000000000,1970-01-01 00:00:00.000000001,open,4,Random Number Generation for HACL*
+25,2017-07-14 14:00:05.000000000,2018-12-06 02:27:46.000000000,closed,9,Remaining --lax flags and admitted queries
+24,2017-07-13 13:19:44.000000000,2017-07-14 13:38:06.000000000,closed,10,"Instead of converting paths back and forth, just use them as-is. "
+23,2017-07-12 21:09:24.000000000,2017-08-15 21:58:10.000000000,closed,2,Verification Performances - SHA2
+22,2017-07-12 20:30:50.000000000,2017-08-07 23:42:56.000000000,closed,4,SHA2 rotate functions allow shifts by the bitwidth
+21,2017-07-06 12:46:56.000000000,2017-07-10 16:26:03.000000000,closed,2,"Make directory name consistent, so this actually builds"
+20,2017-06-29 00:39:51.000000000,2018-12-06 02:29:03.000000000,closed,11,NSS integration tasks
+19,2017-06-15 11:59:36.000000000,2018-04-15 17:17:07.000000000,closed,16,How to use generated c code as a drop-in replacement for libsodium?
+18,2017-06-08 13:32:55.000000000,2017-06-08 14:48:11.000000000,closed,0,Use vale.a (not aes.o); Fix path to kremlib.h.
+17,2017-05-17 01:10:10.000000000,2017-09-02 06:31:44.000000000,closed,5,Clarify license for generated code
+16,2017-04-25 22:43:55.000000000,2017-04-26 00:19:29.000000000,closed,1,Aseem heap modeling
+15,2017-03-29 23:37:50.000000000,2017-05-31 21:04:46.000000000,closed,3,Put the specs tests under CI
+14,2017-03-29 23:36:08.000000000,2019-07-02 21:25:24.000000000,closed,3,Performance tests under CI
+13,2017-03-29 23:32:33.000000000,2018-04-15 17:20:33.000000000,closed,7,Document files that are not verified during CI
+12,2017-03-08 16:07:40.000000000,2017-03-08 17:09:09.000000000,closed,1,"Fixing a couple of minor spelling mistakes in tutorial READMEs, update .gitignore"
+11,2017-03-01 21:00:26.000000000,2017-03-01 21:36:55.000000000,closed,0,Spec.Secretbox.fst verification fix and small changes
+10,2017-02-16 22:10:39.000000000,2017-10-06 20:31:54.000000000,closed,0,Chacha20
+9,2017-02-16 22:09:10.000000000,2017-11-03 19:37:57.000000000,closed,4,Naming conventions should be aligned through specifications and code
+8,2017-02-16 22:08:39.000000000,2017-10-06 20:31:01.000000000,closed,0,Test & CI
+7,2017-02-16 22:07:55.000000000,2018-12-06 02:29:52.000000000,closed,3,Clean up secure_api/Makefile
+6,2017-02-16 22:07:14.000000000,2018-04-07 15:41:17.000000000,closed,0,Abstract-away integers used in secure_api
+5,2017-02-16 22:06:12.000000000,2018-02-16 15:32:59.000000000,closed,2,New primitive: implement 32-bit versions of Poly1305. 
+4,2017-02-16 22:03:50.000000000,2017-06-29 00:45:40.000000000,closed,1,move code/lib up one level 
+3,2017-02-16 22:02:06.000000000,2017-10-08 12:10:13.000000000,closed,1,Initial import : Thoughts on interfaces for secure_api primitives
+2,2017-02-16 21:59:03.000000000,2017-09-02 05:53:15.000000000,closed,1,Keep FStar history
+1,2016-11-06 21:31:06.000000000,2016-11-06 23:40:18.000000000,closed,2,ecc_star/ml build fails to find native_int/prims.ml

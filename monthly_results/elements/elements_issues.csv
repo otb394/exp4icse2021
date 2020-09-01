@@ -1,0 +1,894 @@
+id,created_at,closed_at,state,comments,title
+902,2020-08-14 14:58:42.000000000,1970-01-01 00:00:00.000000001,open,0,listaddressgroupings reports a value that aggregates all assets
+901,2020-08-14 14:57:14.000000000,1970-01-01 00:00:00.000000001,open,0,gettxoutsetinfo reports a value that aggregates all assets
+900,2020-08-13 22:30:31.000000000,1970-01-01 00:00:00.000000001,open,0,[wip] Redesign PSET
+899,2020-08-10 23:06:49.000000000,2020-08-18 22:54:20.000000000,closed,3,Use gitian infrastructure to install librsvg2-2 (in lieu of hard-coded wget)
+898,2020-08-10 01:54:05.000000000,1970-01-01 00:00:00.000000001,open,4,Make 'librsvg2-2_2.40.13-3_amd64.deb' a required input to gitian build scripts
+897,2020-08-04 01:55:03.000000000,1970-01-01 00:00:00.000000001,open,1,Documentation of Version 1 asset contracts (CBOR) format
+896,2020-07-15 12:43:42.000000000,2020-07-27 17:54:21.000000000,closed,2,Fix logic issues with randomization of outputs in [re]issueasset_base; minor refactoring.
+895,2020-07-14 19:03:37.000000000,1970-01-01 00:00:00.000000001,open,0,Window too large on small screen
+894,2020-07-14 19:02:33.000000000,1970-01-01 00:00:00.000000001,open,0,Use available balance switches in elements-qt to Bitcoin even if a different asset is selected
+893,2020-07-14 02:09:55.000000000,1970-01-01 00:00:00.000000001,open,0,Change elementsregtest default p2p port
+892,2020-07-03 20:34:08.000000000,2020-07-03 21:11:17.000000000,closed,0,Change liquid PAK list for 0.18
+891,2020-07-02 00:49:59.000000000,1970-01-01 00:00:00.000000001,open,1,Revalidating blocks that fail due to mainchain staleness appears to be broken
+890,2020-07-01 14:15:33.000000000,2020-07-03 19:32:26.000000000,closed,2,Question on fees
+889,2020-06-30 13:48:52.000000000,1970-01-01 00:00:00.000000001,open,2,Improve logging of failures during block signature validation
+888,2020-06-29 23:46:56.000000000,2020-07-06 15:16:47.000000000,closed,1,build: Fix search for brew-installed BDB 4 on OS X (backport of upstream fix)
+887,2020-06-25 01:53:42.000000000,2020-07-21 05:20:54.000000000,closed,1,Handle degenerate case of a single output
+886,2020-06-19 05:46:12.000000000,2020-06-19 06:29:05.000000000,closed,1,Add dockerfile
+885,2020-06-17 18:41:39.000000000,2020-06-26 10:27:01.000000000,closed,3,Elements daemon crashes when rawreissue a non-funded raw transaction
+884,2020-06-15 00:52:24.000000000,1970-01-01 00:00:00.000000001,open,3,Missing the asset balance after the transactions is trusted false
+883,2020-06-03 19:03:38.000000000,1970-01-01 00:00:00.000000001,open,0,Hide blinding factors for explicit outputs in gettransactoin and listunspent
+882,2020-06-02 14:36:26.000000000,2020-06-02 21:16:33.000000000,closed,2,Added force application activation on macosx with qt 5.5.1
+881,2020-05-30 01:47:31.000000000,1970-01-01 00:00:00.000000001,open,0,RPCs that need to use the wallet should check if it's unlocked
+880,2020-05-30 01:20:36.000000000,1970-01-01 00:00:00.000000001,open,3,abort when blinding very large transaction
+879,2020-05-28 20:00:03.000000000,1970-01-01 00:00:00.000000001,open,0,Add blinding role to PSET
+878,2020-05-25 20:55:22.000000000,1970-01-01 00:00:00.000000001,open,1,Awaiting mainchain RPC warmup and EXCEPTION: NSt8ios_base7failureB5cxx11E 
+877,2020-05-22 07:50:57.000000000,1970-01-01 00:00:00.000000001,open,0,converttopsbt given a funded tx produces a psbt that can't be signed
+876,2020-05-22 07:24:32.000000000,1970-01-01 00:00:00.000000001,open,0,analyzepsbt causes elementsd to crash with assertion when given a funded psbt
+875,2020-05-22 07:15:31.000000000,1970-01-01 00:00:00.000000001,open,2,createpsbt output_assets parameter not working
+874,2020-05-18 07:35:27.000000000,1970-01-01 00:00:00.000000001,open,0,About the bulletproofs
+873,2020-04-29 21:46:13.000000000,1970-01-01 00:00:00.000000001,open,0,Consider adding a CHANGELOG.md file
+872,2020-04-22 17:22:16.000000000,1970-01-01 00:00:00.000000001,open,0,Not aware of another node's issuance or reissuance unless you import address - add rpc importasset or similar?
+871,2020-04-21 20:58:48.000000000,1970-01-01 00:00:00.000000001,open,0,fixing windows installer icon
+870,2020-04-21 01:37:22.000000000,2020-04-22 13:36:15.000000000,closed,1,Update copyright year to 2020
+869,2020-04-20 16:54:45.000000000,1970-01-01 00:00:00.000000001,open,1,WIP: Fix Bitcoin name usage in Windows installer
+868,2020-04-18 03:50:10.000000000,1970-01-01 00:00:00.000000001,open,4,Windows Setup installs into Bitcoin subfolder; icon says BitCoin Core
+867,2020-04-16 15:33:33.000000000,2020-04-17 01:52:05.000000000,closed,2,[0.18 backport]  Make issuance fail for invalid addresses 
+866,2020-04-16 15:29:48.000000000,2020-04-16 20:10:11.000000000,closed,1,"[0.18 backport] Changing Elements Icon to just the graphic without text, fixing issue…"
+865,2020-04-15 00:15:49.000000000,2020-04-16 20:09:13.000000000,closed,1,Init: add elementsd.service file
+864,2020-04-14 23:59:31.000000000,2020-04-16 20:12:42.000000000,closed,0,[0.18 backport] Fix HasValidFee potential overflow
+863,2020-04-14 23:57:14.000000000,2020-04-16 20:48:42.000000000,closed,0,Fix HasValidFee potential overflow
+862,2020-04-14 11:51:13.000000000,1970-01-01 00:00:00.000000001,open,1,[WIP] added createrawtransaction rpc
+861,2020-04-13 18:17:58.000000000,2020-04-17 01:50:35.000000000,closed,3,Make issuance fail for invalid addresses 
+860,2020-04-10 21:53:16.000000000,2020-04-16 15:28:50.000000000,closed,4,Icon fixes
+859,2020-04-09 21:20:53.000000000,1970-01-01 00:00:00.000000001,open,1,Gitian makes the Elements logo in Qt monochrome
+858,2020-04-08 21:47:36.000000000,2020-04-08 22:04:58.000000000,closed,1,Bump version 0.18.1.7
+857,2020-04-08 02:30:52.000000000,2020-04-08 21:45:54.000000000,closed,1,[0.18 backport] Remove another mention of Liquid-Qt
+856,2020-04-08 02:25:02.000000000,2020-04-08 21:43:58.000000000,closed,1,[0.18 backport] Change the logo file from Liquid to Elements
+855,2020-04-08 02:23:09.000000000,2020-04-08 10:12:42.000000000,closed,1,Remove another mention of Liquid-Qt
+854,2020-04-07 23:23:33.000000000,2020-04-08 10:11:52.000000000,closed,1,Change the logo file from Liquid to Elements
+853,2020-04-07 12:57:29.000000000,2020-04-17 01:50:34.000000000,closed,4,rawissueasset with invalid address results in fee outputs
+852,2020-04-05 06:05:38.000000000,2020-04-12 08:35:26.000000000,closed,6,Discrepancy between requested and observed fee rate from fundrawtransaction
+851,2020-04-02 22:34:04.000000000,2020-04-21 20:57:24.000000000,closed,2,Replace Liquid Logo with Elements Logo in QT Application
+850,2020-04-02 12:34:38.000000000,2020-06-23 11:33:25.000000000,closed,7,About tx fee not decreased much
+849,2020-04-01 21:05:46.000000000,2020-04-15 00:00:44.000000000,closed,5,init: add SystemD elementsd.service file
+848,2020-03-31 15:46:40.000000000,2020-04-07 01:19:18.000000000,closed,1,[0.18 backport] Replace some Bitcoin mentions with Elements
+847,2020-03-31 15:42:20.000000000,2020-04-06 18:29:12.000000000,closed,1,[0.18 backport] Support fee estimation for fees lower than 1 sat/byte
+846,2020-03-31 15:27:05.000000000,2020-04-01 19:43:47.000000000,closed,2,[RFC] Remove GetNumIssuance from BlindTransaction assert
+845,2020-03-31 01:26:33.000000000,2020-03-31 13:58:36.000000000,closed,0,Update macOS build instructions to support building dmg
+844,2020-03-30 16:15:42.000000000,2020-04-07 01:18:34.000000000,closed,11,Fix some Bitcoin mentions in Qt
+843,2020-03-25 19:13:04.000000000,2020-03-31 15:39:24.000000000,closed,3,Support fee estimation for fees lower than 1 sat/byte
+842,2020-03-25 18:39:44.000000000,2020-04-23 11:39:41.000000000,closed,2,issuance blinding key vector size check in BlindTransaction: why num of issuances added ? 
+841,2020-03-25 18:37:57.000000000,2020-03-31 14:04:39.000000000,closed,2,[0.18 backport] Remove the min(max( construction for the ct_exponent argument
+840,2020-03-24 18:15:07.000000000,2020-03-25 18:36:21.000000000,closed,2,Remove the min(max( construction for the ct_exponent argument
+839,2020-03-23 22:15:14.000000000,2020-03-24 21:14:51.000000000,closed,0,[0.18 backport] Index the genesis block with txindex
+838,2020-03-23 20:42:59.000000000,2020-03-24 21:13:03.000000000,closed,0,Index the genesis block with txindex
+837,2020-03-18 22:25:45.000000000,1970-01-01 00:00:00.000000001,open,0,WIP: Add gitian-build.sh script for Gitian builds
+836,2020-03-17 21:49:23.000000000,2020-03-18 14:11:06.000000000,closed,0,Backports + version bump for v0.18.1.6
+835,2020-03-17 16:45:35.000000000,2020-03-17 21:32:35.000000000,closed,2,Reduce mintxfee to 0.1 sat/vbyte and fallback fee to 2 sat/vb
+834,2020-03-16 21:43:26.000000000,2020-03-17 21:37:14.000000000,closed,6,Switch default bits of hiding to 52
+833,2020-03-13 17:50:55.000000000,2020-03-13 19:13:09.000000000,closed,1,Allow custom fee dialog to take lower than 1 sat/vbyte rates
+832,2020-03-13 01:56:59.000000000,2020-06-26 12:08:31.000000000,closed,9,elements-qt: reduce custom transaction fee minimum to 100 sat/vKbyte
+831,2020-03-04 21:09:54.000000000,1970-01-01 00:00:00.000000001,open,0,WIP: Support _sat for satoshi level denominations
+830,2020-03-04 20:00:05.000000000,1970-01-01 00:00:00.000000001,open,0,Qt wallet should show correct precision for assets
+829,2020-03-04 00:39:28.000000000,2020-03-04 20:52:38.000000000,closed,1,initpegoutwallet: check for hardened derivation steps early
+828,2020-02-26 16:27:14.000000000,2020-03-16 19:49:14.000000000,closed,1,Add test to test unconfirmed asset balances
+827,2020-02-24 21:36:35.000000000,1970-01-01 00:00:00.000000001,open,7,Getwalletinfo does not return unconfirmed_balance for assets
+826,2020-02-24 20:45:06.000000000,1970-01-01 00:00:00.000000001,open,0,Use wallet default for address generation in issueasset RPC.
+825,2020-02-24 19:33:07.000000000,2020-02-24 20:44:05.000000000,closed,1,Create witness outputs for (re)issueasset RPC
+824,2020-02-23 00:15:19.000000000,2020-04-23 11:40:32.000000000,closed,3,"issueasset creates P2PKH addresses, it would be better to issue to P2WPKH "
+823,2020-02-22 02:02:07.000000000,1970-01-01 00:00:00.000000001,open,4,"Federated Sidechain, 2 chaintips "
+822,2020-02-19 20:06:19.000000000,1970-01-01 00:00:00.000000001,open,9,Can't know what address tx is on when blinded
+821,2020-02-19 16:00:22.000000000,1970-01-01 00:00:00.000000001,open,0,Seemingly useless assignment in reissueasset_base()
+820,2020-02-18 20:34:16.000000000,2020-02-26 20:01:51.000000000,closed,1,[0.18 backport] Include deque to fix build
+819,2020-02-18 20:32:12.000000000,2020-02-26 20:04:15.000000000,closed,1,Include deque to fix build
+818,2020-02-18 20:13:51.000000000,2020-02-26 20:07:27.000000000,closed,1,Place the mainchain RPC warmup message in a better place
+817,2020-02-14 23:59:38.000000000,1970-01-01 00:00:00.000000001,open,15,WIP: Streaming SHA256 ops.
+816,2020-02-13 22:45:42.000000000,1970-01-01 00:00:00.000000001,open,0,"In GUI, allow using ""satoshi"" decimal value (8th) when sending asset "
+815,2020-02-09 11:31:35.000000000,2020-06-15 15:50:01.000000000,closed,4,Update build docs for FreeBSD 12.1-RELEASE
+814,2020-02-09 11:27:20.000000000,2020-06-15 15:50:00.000000000,closed,4,Build fails on FreeBSD 12.1-RELEASE
+813,2020-02-07 12:16:16.000000000,2020-02-10 21:23:41.000000000,closed,3,Fix claimpegin and createrawpegin support for multiwallet.
+812,2020-02-07 06:55:25.000000000,2020-02-10 21:23:41.000000000,closed,3,claimpegin: elements-cli asks for rpcwallet option even if present
+811,2020-02-04 23:16:05.000000000,2020-03-31 14:09:16.000000000,closed,5,Add link to RPC docs in readme
+810,2020-02-01 01:13:40.000000000,2020-02-03 03:24:41.000000000,closed,1,Bump version to 0.18.1.5
+809,2020-01-29 21:07:51.000000000,2020-02-01 01:08:34.000000000,closed,0,[0.18] Backport of 'Add DEFAULT chain and set to liquidv1'
+808,2020-01-28 20:37:08.000000000,2020-01-31 23:13:01.000000000,closed,4,Add DEFAULT chain and set to liquidv1
+807,2020-01-22 23:35:16.000000000,2020-01-22 23:40:01.000000000,closed,1,Replace Greg with Steven as security contact
+806,2020-01-16 20:30:51.000000000,2020-01-16 20:45:11.000000000,closed,1,Bump version to 0.18.1.4
+805,2020-01-16 17:03:19.000000000,1970-01-01 00:00:00.000000001,open,13,Adapt BIP21 payment requests for Liquid
+804,2020-01-15 22:42:25.000000000,2020-01-16 20:14:49.000000000,closed,1,backport of 'getwalletpakinfo: Use offline counter when reporting lookahead'
+803,2020-01-13 19:30:12.000000000,2020-01-15 22:40:54.000000000,closed,0,getwalletpakinfo: Use offline counter when reporting lookahead
+802,2020-01-11 05:00:09.000000000,2020-01-15 22:40:54.000000000,closed,0,getwalletpakinfo does not add bip32_counter offset to returned address_lookahead addresses
+801,2019-12-27 15:12:31.000000000,2020-01-07 01:43:36.000000000,closed,2,Asset Tutorial: elements2.conf Doesn't have regtest mode
+800,2019-12-19 19:24:07.000000000,2020-01-15 23:34:54.000000000,closed,0,[0.18] Add current_params_root key to getblockchaininfo
+799,2019-12-17 15:14:48.000000000,2019-12-19 19:20:59.000000000,closed,1,Add current_params_root key to getblockchaininfo
+798,2019-12-12 16:18:01.000000000,2019-12-12 19:24:59.000000000,closed,0,[0.18 backport] macos: Use correct application name
+797,2019-12-05 20:20:14.000000000,2020-01-13 19:11:17.000000000,closed,0,Fix VerifyScript calls in fuzz/script_flags
+796,2019-12-05 07:23:09.000000000,2020-03-17 20:04:50.000000000,closed,2,Trivial: fix typo in error message when mainchain daemon is unavailable
+795,2019-12-04 19:28:28.000000000,2020-03-17 20:05:59.000000000,closed,0,Remove outdated information about peg-in address creation pre-HD
+794,2019-12-04 05:22:53.000000000,2020-03-17 20:05:58.000000000,closed,0,Incorrect text in help for getpeginaddress
+793,2019-12-04 02:15:03.000000000,2020-03-17 20:06:19.000000000,closed,1,Switch default bits of hiding to 51
+792,2019-12-04 00:20:28.000000000,2020-06-02 20:56:38.000000000,closed,3,Increase the number of bits of the CT rangeproofs
+791,2019-11-26 19:04:30.000000000,2019-11-26 19:50:23.000000000,closed,1,Fix address string assertions in tests
+790,2019-11-26 16:10:11.000000000,2019-11-26 21:08:34.000000000,closed,2,[0.18] Backports of various UX fixes
+789,2019-11-26 02:08:31.000000000,1970-01-01 00:00:00.000000001,open,0,make a little tool to catch API changes between commits
+788,2019-11-22 03:26:04.000000000,2019-11-26 15:50:19.000000000,closed,2,gui: Make balances scrollable on overview
+787,2019-11-21 23:36:05.000000000,2019-11-22 00:19:07.000000000,closed,1,Don't write invalid policy change position when change dropped
+786,2019-11-20 09:54:11.000000000,2019-11-20 18:31:41.000000000,closed,1,macos: Use correct application name
+785,2019-11-19 20:48:19.000000000,2019-11-26 16:01:05.000000000,closed,1,Fix QR address display for blinded base58 addrs
+784,2019-11-19 20:32:12.000000000,2019-11-26 16:03:48.000000000,closed,1,Fill out expected liquidv1 chain size
+783,2019-11-19 12:16:10.000000000,2020-03-23 17:27:17.000000000,closed,15,RPC: Does blindrawtransaction with auxiliary_generators actually work?
+782,2019-11-16 05:57:47.000000000,1970-01-01 00:00:00.000000001,open,36,Client Crashes with sendtoaddress
+781,2019-11-14 19:35:45.000000000,2019-11-14 22:58:18.000000000,closed,1,[0.18] Change elements mode to activating BIP9 signaling based on height
+780,2019-11-14 02:08:58.000000000,2019-11-14 16:39:23.000000000,closed,2,Change elements mode to activating BIP9 signaling based on height
+779,2019-11-13 23:57:40.000000000,2019-11-14 16:39:23.000000000,closed,0,Extend BIP9 to allow block-based signaling window height
+778,2019-11-13 20:56:04.000000000,2019-11-26 16:05:44.000000000,closed,1,Remove 'bitcoin' from address descriptions
+777,2019-11-13 20:47:01.000000000,2019-11-26 16:05:44.000000000,closed,0,"CLI: Confusing help output for `getnewaddress`, `sendtoaddress`"
+776,2019-11-13 20:04:59.000000000,2019-11-14 15:47:29.000000000,closed,2,commit_data is entirely optional
+775,2019-11-13 17:28:55.000000000,2019-11-14 15:47:29.000000000,closed,2,Q) getnewblockhex parameter(commit_data)
+774,2019-11-12 19:13:21.000000000,2019-11-12 23:22:46.000000000,closed,2,[0.18] HF: Dyanfed pruned header now has extra root
+773,2019-11-07 22:07:53.000000000,2019-11-11 16:33:47.000000000,closed,10,HF: Dyanfed pruned header now has extra root
+772,2019-11-06 21:42:23.000000000,2019-11-06 21:44:00.000000000,closed,1,Bump version number to 0.18.1.3
+771,2019-11-05 23:29:52.000000000,2019-11-05 23:37:03.000000000,closed,1,0.18 backports
+770,2019-11-05 22:30:14.000000000,2019-11-05 22:35:32.000000000,closed,2,Revert errant line change committed in bf66a93cbd37f0f8e2b85ca6a05b48…
+769,2019-11-05 20:40:36.000000000,2019-11-05 21:47:35.000000000,closed,1,Correctly seed the liquidv1 paklist pre-dynafed
+768,2019-11-05 19:07:50.000000000,2019-11-05 21:34:14.000000000,closed,1,"When RPC server disabled, only warn on validatepegin failure"
+767,2019-11-05 15:52:47.000000000,2019-11-06 07:27:42.000000000,closed,10,change block header after 431 blocks automatically?
+766,2019-11-05 01:53:01.000000000,2019-11-19 20:26:33.000000000,closed,2,"QT: if validatepegin fails to work, allow user to turn it off in a dialogue"
+765,2019-11-04 12:46:35.000000000,2019-11-26 16:03:48.000000000,closed,1,Blockchain size display error and hidden text (MacOS)
+764,2019-10-31 18:33:39.000000000,2019-10-31 18:46:23.000000000,closed,5,"How can I generate an address in another language, is there a related document?"
+763,2019-10-31 16:53:10.000000000,2019-11-26 16:01:05.000000000,closed,5,QR code Liquid address does not fit in window.
+762,2019-10-31 05:02:09.000000000,2019-11-01 05:23:00.000000000,closed,3,Q) How to change signblockscript
+761,2019-10-29 19:48:39.000000000,2019-10-29 19:49:29.000000000,closed,0,bump version to 0.18.1.2
+760,2019-10-29 00:02:53.000000000,2019-10-29 19:28:04.000000000,closed,0,[0.18] dynaParamsToJSON: No lock required
+759,2019-10-28 22:23:27.000000000,2019-10-29 19:27:35.000000000,closed,0,[0.18] getnewblockhex: Take data push for arbitrary data in block coinbase c…
+758,2019-10-28 22:10:21.000000000,2019-10-29 00:00:48.000000000,closed,2,dynaParamsToJSON: No lock required
+756,2019-10-24 17:55:14.000000000,2019-11-19 21:24:19.000000000,closed,2,CA PSBT: Make sure finalizepsbt doesn't work unless all blinding is finished
+755,2019-10-24 01:08:52.000000000,2019-12-05 00:58:12.000000000,closed,4,Be able to fund transactions with peg-ins specified
+754,2019-10-23 22:38:31.000000000,2019-10-28 18:00:28.000000000,closed,1,Update link from README.md to assets tutorial
+753,2019-10-22 21:31:17.000000000,2019-10-28 19:10:04.000000000,closed,1,getnewblockhex: Take data push for arbitrary data in block coinbase c…
+752,2019-10-22 20:33:18.000000000,2019-10-24 18:41:10.000000000,closed,0,[0.18] Reduce relay min rate to 100 sat/vkB
+751,2019-10-18 20:30:05.000000000,2019-12-03 21:43:08.000000000,closed,2,Peg-in fields for PSBT
+750,2019-10-16 18:02:31.000000000,2019-10-22 20:27:02.000000000,closed,0,[0.18] feature_blocksign.py: Allot for possibility of non-empty block 0.5RTT
+749,2019-10-16 18:01:15.000000000,2019-10-16 18:01:24.000000000,closed,0,[0.18] feature_blocksign.py: Allot for possibility of non-empty block 0.5RTT
+748,2019-10-16 02:39:25.000000000,2019-10-16 17:56:49.000000000,closed,1,Use bytes_to_hex_str instead of .hex()
+747,2019-10-15 19:43:43.000000000,2019-10-16 13:10:23.000000000,closed,1,feature_blocksign.py: Allot for possibility of non-empty block 0.5RTT
+746,2019-10-14 18:26:31.000000000,2019-10-14 21:13:39.000000000,closed,1,[0.18] Change Proprietary types to use the method specified in BIP 174
+745,2019-10-10 22:13:12.000000000,2019-10-11 17:24:59.000000000,closed,2,finalizecompactblock: Fix it
+744,2019-10-10 18:54:14.000000000,2019-10-10 20:04:28.000000000,closed,1,Fix finalizecompactblock filling in more found txs from mempool
+743,2019-10-10 03:44:22.000000000,1970-01-01 00:00:00.000000001,open,2,0.19 sync up checklist
+742,2019-10-10 01:17:16.000000000,2019-10-10 13:24:53.000000000,closed,2,Don't run normal functional tests twice.
+741,2019-10-09 21:29:39.000000000,2019-10-16 18:16:35.000000000,closed,6,Allow specifying peg-in data in createrawtransaction
+740,2019-10-09 21:23:50.000000000,2019-10-11 17:49:03.000000000,closed,3,Break out finalizecomaptblock errors to be more helpful
+739,2019-10-09 20:14:39.000000000,2019-10-09 21:13:24.000000000,closed,0,Take mempool locks when doing compact block RPC calls touching mempool
+738,2019-10-09 18:35:01.000000000,2019-10-09 23:05:04.000000000,closed,5,feature_fedpeg.py: just use testmempoolaccept checking blinded peg-in…
+737,2019-10-09 10:31:03.000000000,1970-01-01 00:00:00.000000001,open,2,Expose UnblindConfidentialPair as stateless RPC
+736,2019-10-08 19:09:57.000000000,2019-10-09 18:36:16.000000000,closed,2,Allow up to 30 minutes of no output from travis runs
+735,2019-10-08 18:30:03.000000000,2019-10-11 18:41:12.000000000,closed,3,[0.18] Reduce Travis errors
+734,2019-10-08 17:00:19.000000000,2019-10-08 18:18:51.000000000,closed,2,Don't run unit tests for compatibility run(which is a NOP)
+733,2019-10-08 14:35:58.000000000,2019-10-08 17:12:34.000000000,closed,0,Fix assets_tutorial.py signblock dynafed error
+732,2019-10-07 21:20:29.000000000,2019-10-14 16:37:49.000000000,closed,1,Give more descriptive error for non-WSH(OP_TRUE) block generation
+731,2019-10-03 06:44:15.000000000,2019-10-03 16:43:10.000000000,closed,1,Use with NBitcoin to add to BTCPay Server
+730,2019-10-03 02:20:32.000000000,2019-10-09 19:45:03.000000000,closed,13,Change Proprietary types to use the method specified in BIP 174
+729,2019-10-01 15:55:55.000000000,2019-10-02 21:46:39.000000000,closed,7,unblinded asset issuance
+728,2019-09-30 21:34:01.000000000,2019-10-09 23:05:03.000000000,closed,1,feature_fedpeg double-spend test is a bit racy
+727,2019-09-30 20:58:09.000000000,2019-09-30 21:57:55.000000000,closed,1,[0.18 backport] Support descriptors with checksums in initpegoutwallet
+726,2019-09-30 17:50:55.000000000,2019-09-30 20:40:06.000000000,closed,4, Support descriptors with checksums in initpegoutwallet 
+725,2019-09-30 03:20:48.000000000,2019-09-30 19:17:29.000000000,closed,0,[0.18 backport] [HF] Dynafed blocks must have sighash byte #723
+724,2019-09-27 23:20:35.000000000,2019-11-20 18:31:41.000000000,closed,1,Mac Installer alignment is off
+723,2019-09-27 18:07:43.000000000,2019-09-30 03:17:46.000000000,closed,1,[HF] Dynafed blocks must have sighash byte
+722,2019-09-27 12:40:00.000000000,2019-09-27 18:05:02.000000000,closed,0,[0.18 backport] Fix liquidv1 sync #720
+721,2019-09-26 17:49:28.000000000,1970-01-01 00:00:00.000000001,open,0,Disable some more RPC with helpful message when in bitcoin mode
+720,2019-09-26 05:06:24.000000000,2019-09-27 12:38:13.000000000,closed,2,Fix liquidv1 sync
+719,2019-09-25 20:24:46.000000000,2019-09-27 23:29:39.000000000,closed,0,Add unit test for dynafed CalculateRoot methods
+718,2019-09-25 18:09:31.000000000,2019-09-27 18:05:38.000000000,closed,3,[0.18 backport] backport of #717
+717,2019-09-25 17:10:49.000000000,2019-09-25 18:08:02.000000000,closed,1,Add legacy pak arg for custom chains
+716,2019-09-18 18:41:15.000000000,1970-01-01 00:00:00.000000001,open,0,"destroyamount ""too easy to use""?"
+715,2019-09-17 21:28:38.000000000,2019-09-17 21:33:16.000000000,closed,1,Help msg createrawreissuance fix
+714,2019-09-16 18:17:53.000000000,2019-09-17 17:38:46.000000000,closed,1,[0.17] Backport assetlabel fixes and tests
+713,2019-09-13 22:59:26.000000000,2019-10-07 18:33:11.000000000,closed,1,error in feature_fedpeg.py
+712,2019-09-13 08:56:37.000000000,2019-09-13 22:56:29.000000000,closed,5,fix len check in blech32 decode() in test framework
+711,2019-09-13 05:45:17.000000000,2019-09-26 00:40:00.000000000,closed,1,blech32 python implementation isn't complete
+710,2019-09-12 18:36:22.000000000,2019-09-12 20:45:21.000000000,closed,3,Fix feature_pak.py in light of #706
+709,2019-09-11 22:58:28.000000000,2019-10-14 19:24:46.000000000,closed,1,tweakfedpegscript: Optional fedpeg arg
+708,2019-09-11 19:22:44.000000000,2019-09-12 15:30:26.000000000,closed,1,Fix nit in blech32_hrp assignment in Bitcoin chains
+707,2019-09-11 17:46:40.000000000,2019-09-17 21:07:13.000000000,closed,4,[0.18 backport] sendtomainchain_pak: Fix minimum send amount message
+706,2019-09-11 17:32:46.000000000,2019-09-11 17:45:21.000000000,closed,1,sendtomainchain_pak: Fix minimum send amount message
+705,2019-09-10 20:56:18.000000000,2019-09-10 23:25:18.000000000,closed,1,"[0.18 backport] RPC: Fix tweakfedpegscript for dynafed, add basic test"
+704,2019-09-10 19:00:01.000000000,2019-09-10 20:54:49.000000000,closed,1,"RPC: Fix tweakfedpegscript for dynafed, add basic test"
+703,2019-09-06 18:25:14.000000000,2019-09-06 23:36:22.000000000,closed,1,[0.18] Dynafed backport
+702,2019-09-03 19:13:10.000000000,2019-09-04 11:57:54.000000000,closed,3,fix no return at end of function introduced in 172ad71988ac763227cd067bb9885306c644e073
+701,2019-09-03 18:21:26.000000000,2019-09-03 18:23:21.000000000,closed,1,[0.17 backport] sendtomainchain with pak and subtract fee from output fix
+700,2019-09-03 18:13:35.000000000,2019-09-04 11:56:00.000000000,closed,1,[0.17] sendtomainchain pak fix
+699,2019-09-02 14:33:35.000000000,2019-09-03 18:11:40.000000000,closed,1,[0.18 backport] sendtomainchain with pak and subtract fee from output fix
+698,2019-09-02 13:19:58.000000000,2019-09-03 18:10:33.000000000,closed,0,[0.18 backport]  Qt fixes post 18
+697,2019-08-31 04:57:48.000000000,1970-01-01 00:00:00.000000001,open,6,"qt/paymentrequest ""This file was generated by an older version of protoc"""
+696,2019-08-30 20:08:54.000000000,2019-09-02 14:31:09.000000000,closed,0,sendtomainchain with pak and subtract fee from output fix
+695,2019-08-30 18:22:24.000000000,2019-09-02 14:31:08.000000000,closed,0,sendtomainchain with pak enabled cannot subtract fee from output
+694,2019-08-26 23:49:12.000000000,2019-10-08 17:13:29.000000000,closed,1,initpegoutwallet should support descriptor checksums
+693,2019-08-22 23:32:33.000000000,2019-09-03 18:09:05.000000000,closed,2,Qt fixes post 18
+692,2019-08-22 23:00:28.000000000,2019-09-03 18:09:03.000000000,closed,0,QT is broken in master/0.18
+691,2019-08-21 17:06:41.000000000,2019-08-22 18:35:58.000000000,closed,1,Catch up with core v0.18 branch
+690,2019-08-20 15:16:46.000000000,2019-08-20 19:19:07.000000000,closed,1,[0.18 backport] PSBT
+689,2019-08-12 19:12:08.000000000,2019-08-20 18:37:41.000000000,closed,5,Build error on gcc 9.1 since #663
+688,2019-08-07 14:34:12.000000000,2019-08-12 17:31:17.000000000,closed,1,fix config err
+687,2019-08-06 17:55:47.000000000,2019-08-13 03:47:46.000000000,closed,4,Make Install error // Elements Tutorial
+686,2019-08-06 13:52:57.000000000,2019-08-06 17:53:17.000000000,closed,1,Config for regtest
+685,2019-08-01 19:51:06.000000000,2019-11-26 15:50:19.000000000,closed,1,elements-qt grows too large for screen once you have many assets
+684,2019-07-31 21:46:53.000000000,2019-10-14 19:22:35.000000000,closed,4,Reduce relay min rate to 100 sat/vkB
+683,2019-07-30 15:34:57.000000000,2019-08-12 19:03:37.000000000,closed,7, TxToUniv: check vchRangeproof.empty() before secp256k1_rangeproof_info()
+682,2019-07-24 17:51:01.000000000,2019-07-28 03:56:22.000000000,closed,2,Elements-Qt 0.17.0 macOS release crashes when double clicking on a tx
+681,2019-07-23 13:07:36.000000000,2019-07-23 17:20:59.000000000,closed,3,class BitcoinGUI error
+680,2019-07-18 02:50:43.000000000,2019-07-18 12:30:25.000000000,closed,0,Fix gitian descriptor major version for yml
+679,2019-07-17 20:56:41.000000000,1970-01-01 00:00:00.000000001,open,1,getwalletpakinfo should return the full pak entry
+678,2019-07-17 03:31:02.000000000,2019-07-17 03:32:54.000000000,closed,1,Bump elements version to 0.17.0.2
+677,2019-07-12 18:53:51.000000000,2019-07-16 13:49:18.000000000,closed,1,[backport 0.18] Change default chain to liquidv1
+676,2019-07-12 18:52:46.000000000,2019-07-16 13:47:45.000000000,closed,1,[backport 0.17] Change default chain to liquidv1
+675,2019-07-10 21:43:13.000000000,2019-07-12 18:45:42.000000000,closed,2,Change default chain to liquidv1
+674,2019-07-08 05:15:52.000000000,2019-07-23 18:12:25.000000000,closed,9,[rpc]blindrawtransaction accepts more commitments
+673,2019-07-01 18:08:00.000000000,2019-07-02 22:02:40.000000000,closed,1,"Shrink sidechannel array, use wallet const for size"
+672,2019-06-26 21:31:05.000000000,2019-07-01 18:59:48.000000000,closed,5,0.18.0 backports
+671,2019-06-25 13:56:09.000000000,2019-07-01 18:12:30.000000000,closed,1,Fix importmasterblindingkey help
+670,2019-06-25 00:11:36.000000000,1970-01-01 00:00:00.000000001,open,1,Difficulty in estimating fees for rawissuance
+669,2019-06-18 18:32:44.000000000,2019-07-02 20:53:48.000000000,closed,1,Disallow issuance-stuffing in tx deserialization
+668,2019-06-17 19:44:04.000000000,2019-07-02 21:55:06.000000000,closed,2,Cherry-pick Travis fix from upstream
+667,2019-06-17 18:16:51.000000000,1970-01-01 00:00:00.000000001,open,2,Inconsistent naming in the application
+666,2019-06-17 18:08:01.000000000,2020-01-07 01:41:52.000000000,closed,3,Error on opening dmg for MacOS
+665,2019-06-13 19:56:50.000000000,2019-06-13 21:18:27.000000000,closed,0,[0.17 backport] Do non-depth check for peg-in witness where possible #664
+664,2019-06-13 17:55:39.000000000,2019-06-13 19:54:22.000000000,closed,1,Do non-depth check for peg-in witness where possible
+663,2019-06-13 01:33:54.000000000,2019-06-21 19:05:33.000000000,closed,5,Add support for blinding pegins
+662,2019-06-12 19:47:32.000000000,2019-06-13 17:33:39.000000000,closed,1,[0.17 backport] FundTransaction: mark all change keys as kept #660 
+661,2019-06-12 19:40:02.000000000,2019-06-21 19:04:50.000000000,closed,3,Don't assert on user-inputed values
+660,2019-06-12 18:33:40.000000000,2019-06-13 17:36:12.000000000,closed,1,FundTransaction: mark all change keys as kept
+659,2019-06-07 23:35:35.000000000,2019-06-18 23:14:55.000000000,closed,9,"After upgradewallet, fundrawtransaction uses non change address as change"
+658,2019-06-07 13:57:06.000000000,2019-06-07 15:40:03.000000000,closed,1,Expose pegin confirmation depth parameter via getsidechaininfo
+657,2019-06-07 12:02:29.000000000,2019-06-13 17:36:47.000000000,closed,0,Better explain the 8-decimal asset issuance.
+656,2019-06-07 11:26:46.000000000,2019-09-27 23:36:05.000000000,closed,3,[WIP] Do not DoS ban peers for giving you valid headers
+655,2019-06-06 18:59:34.000000000,2019-07-01 19:01:02.000000000,closed,8,[RPC]Add assetlabel support to some commands
+654,2019-06-06 13:55:00.000000000,2019-06-07 15:24:28.000000000,closed,0,[0.17 backport] Update secp-zkp to 44db4d801fff3cd94105136cb443d603683baad2
+653,2019-06-06 13:43:08.000000000,2019-06-07 15:11:04.000000000,closed,5,Update secp-zkp to 44db4d801fff3cd94105136cb443d603683baad2
+652,2019-06-05 19:15:13.000000000,2019-06-07 11:39:32.000000000,closed,2,[0.17 backport] Properly rename liquid windows binaries
+651,2019-06-05 19:10:12.000000000,1970-01-01 00:00:00.000000001,open,1,Review the CCheckQueue logic for Thread Sanitizer issues
+650,2019-06-05 18:16:51.000000000,2019-06-06 12:17:05.000000000,closed,1,[0.17 backport] Move MainchainRPCCheck to its own schedule to avoid waiting for itself
+649,2019-06-05 18:04:26.000000000,2019-06-05 19:11:38.000000000,closed,1,rawissueasset: don't make explicit 0-value which gets blinded later
+648,2019-06-05 16:37:02.000000000,2019-06-05 19:21:34.000000000,closed,2,Properly rename liquid windows binaries
+647,2019-06-05 15:56:35.000000000,2019-06-05 19:12:32.000000000,closed,1,Move MainchainRPCCheck to its own schedule to avoid waiting for itself
+646,2019-06-05 14:32:52.000000000,2019-06-06 12:15:15.000000000,closed,2,[0.17 backport]  Disallow issuance calls in bitcoin mode
+645,2019-06-05 14:27:12.000000000,2019-06-05 14:46:35.000000000,closed,0,Fix version number to post-0.18 master
+644,2019-06-05 14:23:50.000000000,2019-06-06 12:16:22.000000000,closed,2,[0.17 backport] Fixup some QT-only credit computing code 
+643,2019-06-05 01:18:37.000000000,2019-06-05 19:11:38.000000000,closed,0,rawissueasset and issueasset have different behaviors for 
+642,2019-06-01 01:05:31.000000000,2019-09-06 15:01:53.000000000,closed,20,Dynamic federations
+641,2019-05-31 01:29:19.000000000,2019-06-06 16:03:19.000000000,closed,4,Makefile: elements-tx target doesn't work
+640,2019-05-30 19:53:29.000000000,2019-06-05 13:27:48.000000000,closed,3,"Alias ""blech32"" to ""bech32"" for address creation"
+639,2019-05-30 19:28:42.000000000,2019-06-05 13:26:05.000000000,closed,2,Rename -con_connect_coinbase to -con_connect_genesis_outputs
+638,2019-05-30 18:55:21.000000000,2019-06-05 13:26:05.000000000,closed,0,-con_connect_coinbase is misnomer
+637,2019-05-30 18:09:22.000000000,1970-01-01 00:00:00.000000001,open,0,Re-enable feature_notifications functional test
+636,2019-05-24 18:04:06.000000000,2019-06-05 13:42:01.000000000,closed,4,have peg-in witness creation strip witness for space savings
+631,2019-05-22 17:26:04.000000000,2019-06-05 13:27:48.000000000,closed,0,"alias ""blech32"" in various RPC arguments"
+630,2019-05-22 16:01:03.000000000,2019-06-05 13:39:57.000000000,closed,0,elements-qt asserts when looking at some transaction details
+629,2019-05-22 15:53:10.000000000,2019-06-05 13:39:57.000000000,closed,1,Fixup some QT-only credit computing code
+628,2019-05-21 19:13:41.000000000,2019-06-05 13:42:01.000000000,closed,1,peg-in bitcoinTx can be witness-stripped
+627,2019-05-20 22:00:07.000000000,2019-05-29 17:12:22.000000000,closed,1,kill useless mapPeginsSpentToTxid
+626,2019-05-20 15:50:30.000000000,2019-05-31 22:12:27.000000000,closed,0,Catch up with Core 0.18
+625,2019-05-20 15:46:54.000000000,2019-06-05 13:35:41.000000000,closed,5,Disallow issuance calls in bitcoin mode
+624,2019-05-20 14:50:01.000000000,2019-05-29 17:12:22.000000000,closed,1,Remove redundant pegin mempool check
+623,2019-05-18 03:21:59.000000000,2019-05-30 19:53:53.000000000,closed,2,issueasset
+622,2019-05-14 17:46:37.000000000,2019-05-14 23:56:50.000000000,closed,1,con_blocksubsidy is in satoshis
+621,2019-05-14 16:32:21.000000000,2019-05-14 17:32:24.000000000,closed,1,Make fedpeg test compatible with bitcoind v0.18.0 parent
+620,2019-05-14 16:29:37.000000000,2019-05-16 15:07:02.000000000,closed,7,Catch up with Core until commit f617e05c38c9c7e663b824fefe5329cc5cbbf26a
+619,2019-05-13 07:34:05.000000000,2019-08-20 19:22:12.000000000,closed,8,what is meaning of the transcation output?
+618,2019-05-09 21:54:45.000000000,2019-05-13 13:55:13.000000000,closed,2,Changed combineblocksigs  example text to include updated pubkey/sig fields
+617,2019-05-09 21:37:44.000000000,2019-05-13 17:26:47.000000000,closed,1,combineblocksigs example test is incorrect
+616,2019-05-09 18:09:25.000000000,2019-05-09 19:05:44.000000000,closed,1,Bump elements version to 0.17.0.1
+615,2019-05-08 15:11:46.000000000,2019-05-08 18:15:12.000000000,closed,3, Make claimpegin fail in the case of a double claim 
+614,2019-05-07 23:11:19.000000000,2019-05-08 19:11:11.000000000,closed,4,Improve double pegin claim behavior
+613,2019-05-07 23:08:17.000000000,2019-05-08 19:11:31.000000000,closed,1,claimpegin should not succeed if it is double-claiming a tx already in mempool or blockchain
+612,2019-05-07 23:07:44.000000000,2019-05-08 19:11:11.000000000,closed,0,Transaction that double-spends a pegin should not be accepted in mempool
+611,2019-05-07 21:38:33.000000000,2019-07-02 21:55:48.000000000,closed,0,[0.14.1]  Add pegin double spend test to functional test 
+610,2019-05-07 20:02:29.000000000,2019-06-05 13:28:39.000000000,closed,4,All peg-out related detection pushes should be <= OP_PUSHDATA4
+609,2019-05-06 17:44:47.000000000,2019-05-08 19:10:16.000000000,closed,1,Make MainchainRPCCheck a bit less aggressive
+608,2019-05-03 22:19:15.000000000,2019-05-08 19:10:16.000000000,closed,1,MainchainRPCCheck shouldn't spin wait on non-init call
+607,2019-05-03 17:41:26.000000000,2019-05-14 17:31:41.000000000,closed,4,Fix default permitsigdata value not working on converttopsbt command
+606,2019-05-02 19:16:07.000000000,2019-05-08 22:57:25.000000000,closed,1,[cherry-pick] [macOS] Remove DS_Store WindowBounds bytes object
+605,2019-05-02 18:42:56.000000000,2019-05-08 22:57:25.000000000,closed,2,Finder crash opening Macos DMG
+604,2019-05-02 00:08:25.000000000,2019-05-03 17:22:59.000000000,closed,2,gitian: Rename liquid windows installer to liquid
+603,2019-05-01 23:57:54.000000000,2019-06-05 19:21:34.000000000,closed,1,"gitian liquid build for windows make ""elements"" named installer"
+602,2019-05-01 17:30:44.000000000,2019-05-03 17:20:57.000000000,closed,4,refactor getpeginaddress to not call getnewaddress RPC
+601,2019-05-01 17:13:25.000000000,2019-05-01 19:04:53.000000000,closed,1,Change trusted subkey for Steven Roose
+600,2019-05-01 13:38:37.000000000,2019-07-31 23:07:12.000000000,closed,29,PSBT for Confidential Assets
+599,2019-05-01 04:29:30.000000000,2019-05-03 17:20:57.000000000,closed,2,getpeginaddress does not respect -rpcwallet when multiple wallets are open
+598,2019-04-26 00:24:45.000000000,2019-06-05 13:49:22.000000000,closed,2,IsPegout should enforce that all opcodes are ≤ OP_PUSHDATA4
+597,2019-04-24 18:41:07.000000000,2019-05-08 17:02:03.000000000,closed,3,Enforce data push minimality for peg-out detection
+596,2019-04-24 18:14:06.000000000,2019-06-05 13:49:14.000000000,closed,1,IsPegout not enforcing minimal push for genesis block hash
+595,2019-04-23 19:34:40.000000000,2019-04-24 01:43:52.000000000,closed,3,Add unit test for the PolyMod method in b(l)ech32
+594,2019-04-23 14:50:13.000000000,1970-01-01 00:00:00.000000001,open,3,empty duplicate folders blocks/ and wallets/ created at launch 
+593,2019-04-22 23:47:18.000000000,2019-04-23 00:53:58.000000000,closed,0,Liquid gitian builds: move more to liquid name
+592,2019-04-22 19:47:47.000000000,2019-04-23 00:53:58.000000000,closed,1,RC1 wrong directory when untarring
+591,2019-04-20 23:20:44.000000000,2019-04-22 15:27:41.000000000,closed,1,Add testdummy deployment for versionbits to squash warnings
+590,2019-04-19 16:41:23.000000000,1970-01-01 00:00:00.000000001,open,0,"QT ""use available balance"" switches to L-BTC instead of issued asset"
+589,2019-04-19 15:52:12.000000000,2019-04-20 23:14:19.000000000,closed,1,[cherry-pick] rpc/gui: Remove 'Unknown block versions being mined' warning
+588,2019-04-19 00:46:43.000000000,2019-04-22 13:38:01.000000000,closed,4,CreateTransaction: Place blinding pubkey into nNonce in case of fundraw
+587,2019-04-19 00:04:47.000000000,2019-04-22 13:00:00.000000000,closed,1,CreateTransaction should still print blinded tx info during fundraw etc
+586,2019-04-18 18:54:18.000000000,2019-04-18 21:17:21.000000000,closed,1,RawFillBlinds needs to push blank pubkeys if output it already blinded
+585,2019-04-17 21:53:05.000000000,2019-04-18 21:23:26.000000000,closed,2,"elements-qt 0.17 crash when sending an issued asset, without an LBTC balance "
+584,2019-04-17 21:11:24.000000000,2019-04-18 21:23:31.000000000,closed,3,QT: issued asset dropdown on send screen on start forgets known assets
+583,2019-04-17 21:02:12.000000000,2019-04-18 21:23:34.000000000,closed,3,QT: wrong amount and asset id for all outgoing transactions 
+582,2019-04-17 20:57:38.000000000,2019-04-18 21:23:38.000000000,closed,2,incoming tx notification shown for an outgoing transaction
+581,2019-04-17 20:01:46.000000000,2019-04-18 21:23:40.000000000,closed,1,"QT: ""dummy"" address in sending box is unblinded"
+580,2019-04-17 19:59:45.000000000,2019-04-18 21:24:01.000000000,closed,2,elements-qt 0.17: change amount shown in details dialog for assets other than L-BTC
+579,2019-04-17 00:56:41.000000000,2019-04-18 21:24:12.000000000,closed,7,elements-qt 0.17 crash when sending
+578,2019-04-16 20:18:30.000000000,1970-01-01 00:00:00.000000001,open,2,"[WIP] Add computeissuanceasset RPC to compute asset id, tests"
+577,2019-04-13 22:59:43.000000000,2019-04-15 13:48:19.000000000,closed,1,Add a couple comments on (re)issueasset to let users know about raw v…
+576,2019-04-12 23:05:41.000000000,2019-05-31 23:38:46.000000000,closed,1,feature_pak.py intermittant failure when restarting nodes
+575,2019-04-12 21:20:05.000000000,2019-04-15 19:02:44.000000000,closed,2,mempool_package: make sure small UTXOs aren't selected for spending c…
+574,2019-04-12 18:24:54.000000000,2019-04-18 21:20:14.000000000,closed,4,configure option --enable-liquid for default liquidv1 chain
+573,2019-04-11 21:03:15.000000000,2019-04-12 21:23:26.000000000,closed,9,"Add issuance serialization in python, tighten up DoS rules"
+572,2019-04-10 17:20:57.000000000,2019-04-12 20:48:37.000000000,closed,4,Fix some const clang complaints
+571,2019-04-10 03:40:43.000000000,2019-04-12 20:48:37.000000000,closed,0,Missing 'const' causes compiler warning
+570,2019-04-09 23:18:42.000000000,2019-05-07 19:55:15.000000000,closed,3,elements-0.17 release
+569,2019-04-09 21:43:23.000000000,2019-04-12 18:53:22.000000000,closed,3,Qt port from Liquid-qt
+568,2019-04-08 17:17:41.000000000,2019-04-11 20:21:52.000000000,closed,4,Adapt Elements default adress prefix bytes to elements-0.14 style
+567,2019-04-07 08:32:15.000000000,2019-04-11 20:21:52.000000000,closed,1,Default address prefixes when started in regtest mode on 0.17
+566,2019-04-05 21:50:49.000000000,2019-04-10 01:34:01.000000000,closed,1,Add short description of sync modes for elements in README.md
+565,2019-04-05 20:51:58.000000000,2019-04-10 22:02:02.000000000,closed,1,Turn off mempool consistency check in fedpeg test to avoid assert
+564,2019-04-05 20:44:38.000000000,1970-01-01 00:00:00.000000001,open,3,"[NO MERGE] optimize fee estimation test, re-include in regular list"
+563,2019-04-04 18:31:15.000000000,2019-04-12 18:30:57.000000000,closed,1,Some more standard pegout testing
+562,2019-04-03 23:29:10.000000000,2019-04-05 00:24:24.000000000,closed,1,Don't blind with blinding factors that aren't ours
+561,2019-04-03 22:48:57.000000000,1970-01-01 00:00:00.000000001,open,2,Include bash tutorial in repo and CI
+560,2019-04-03 01:25:46.000000000,1970-01-01 00:00:00.000000001,open,1,"[WIP] issueasset contract_hash arg, default of generated key in wallet"
+559,2019-04-02 18:10:45.000000000,1970-01-01 00:00:00.000000001,open,0,Remove potential signature malleability over issuance inputs
+558,2019-04-02 17:23:12.000000000,2019-04-03 22:56:40.000000000,closed,2,Create burn argument for createrawtransaction
+557,2019-04-02 16:46:30.000000000,2019-04-03 22:56:40.000000000,closed,2,create a raw transaction to burn assets
+556,2019-04-02 16:42:35.000000000,2019-04-03 22:51:51.000000000,closed,1,Fix a few Bitcoin server strings
+555,2019-04-02 15:44:35.000000000,2019-04-03 22:51:51.000000000,closed,1,Says Bitcoin server starting and Bitcoin server stopping
+554,2019-04-02 02:11:45.000000000,2019-04-02 16:58:52.000000000,closed,0,Update issuance.cpp
+553,2019-04-01 19:13:18.000000000,1970-01-01 00:00:00.000000001,open,0,put peg-in-ness under signature digest
+552,2019-04-01 16:18:47.000000000,2019-04-03 17:17:16.000000000,closed,2,"[backport] Blockindex compatibility fix, startup speedup"
+551,2019-03-31 05:52:10.000000000,1970-01-01 00:00:00.000000001,open,2,be more systematic in avoiding parent-child chain txid collisions
+550,2019-03-29 21:56:49.000000000,2019-04-03 22:55:15.000000000,closed,10,add code to test partial blinding functionality to qa/rpc-tests
+549,2019-03-29 21:08:55.000000000,2019-04-01 14:32:53.000000000,closed,1,"Make new actually working master blinding calls, test"
+548,2019-03-29 19:17:12.000000000,2019-04-01 13:30:42.000000000,closed,4,"Port asset tutorial, update to 0.17+ API"
+547,2019-03-29 18:50:37.000000000,2019-04-01 14:32:53.000000000,closed,0,add test for blinding master key backup/restore
+546,2019-03-29 15:04:56.000000000,2019-04-01 13:31:09.000000000,closed,0,port asset tutorial to master
+545,2019-03-29 00:59:11.000000000,2019-04-01 13:21:26.000000000,closed,2,fix vector length calculation for targets in BlindTransaction
+544,2019-03-28 21:49:20.000000000,2019-04-01 16:16:47.000000000,closed,2,"Blockindex compatibility fix, startup speedup"
+543,2019-03-28 20:09:46.000000000,1970-01-01 00:00:00.000000001,open,0,Update RPC documentation to master (0.17)
+542,2019-03-28 01:13:36.000000000,1970-01-01 00:00:00.000000001,open,0,"Would be nice to have more graceful failure of blinding on very big number of outputs (+ other cases, error descriptions)"
+541,2019-03-27 22:44:31.000000000,2019-03-28 15:39:36.000000000,closed,4,"Blockindex compatibility fix, startup speedup"
+540,2019-03-27 22:23:01.000000000,2019-06-21 19:04:50.000000000,closed,16,supplying invalid blinding factors to rawblindrawtransaction causes node to crash
+539,2019-03-26 18:55:26.000000000,2019-03-27 14:10:20.000000000,closed,1,Re-enable no wallet functional tests
+538,2019-03-25 20:12:05.000000000,2019-04-01 13:00:33.000000000,closed,1,Enforce coinbase maturity on bitcoin peg-ins
+537,2019-03-25 19:42:30.000000000,1970-01-01 00:00:00.000000001,open,0,fixup build docs
+536,2019-03-25 19:18:18.000000000,1970-01-01 00:00:00.000000001,open,0,`issueasset` should pick a non-null contract_hash
+535,2019-03-24 18:20:59.000000000,2019-03-24 18:23:33.000000000,closed,4,issueasset RPC call: blind flag not working (issuance transaction is always blinded)
+534,2019-03-22 21:54:38.000000000,1970-01-01 00:00:00.000000001,open,7,Consensus parameter commitment tracking issue
+533,2019-03-22 21:38:16.000000000,2019-03-25 17:19:36.000000000,closed,0,Add Travis fedpeg test with downloaded bitcoind
+532,2019-03-22 21:33:32.000000000,2019-05-16 15:07:02.000000000,closed,2,move bitcoin compatibility tests back to regtest
+531,2019-03-22 21:29:32.000000000,2019-03-25 17:19:36.000000000,closed,0,Test bitcoind as parent chain in fedpeg functional tests
+530,2019-03-22 18:48:52.000000000,2019-04-12 21:23:26.000000000,closed,0,Python framework support for issuance information
+529,2019-03-22 18:11:44.000000000,2019-04-18 21:25:09.000000000,closed,3,Make sure gitian builds work
+528,2019-03-22 17:12:18.000000000,2019-04-12 18:53:22.000000000,closed,0,QT support for assets
+527,2019-03-21 23:20:19.000000000,1970-01-01 00:00:00.000000001,open,0,Fix bumpfee
+526,2019-03-21 22:08:02.000000000,2019-03-21 23:09:03.000000000,closed,0,[0.17] Add test for superfulous witness record in deserialization
+525,2019-03-21 20:08:35.000000000,2019-03-21 21:37:45.000000000,closed,1,[0.17] Disallow extended encoding for non-witness transactions
+524,2019-03-21 18:40:21.000000000,2019-03-21 22:54:20.000000000,closed,2,[0.17] Make validatepegin default to true if has parent chain
+523,2019-03-21 18:30:38.000000000,2019-03-21 20:46:19.000000000,closed,1,[0.17] Fix no wallet build
+522,2019-03-21 17:03:08.000000000,2019-03-21 18:05:32.000000000,closed,1,Fix occasional mempool_packages failure
+521,2019-03-21 16:38:49.000000000,2019-03-22 20:18:34.000000000,closed,2,[0.17] Change branding from bitcoin to elements
+520,2019-03-21 15:40:13.000000000,2019-03-21 20:47:20.000000000,closed,4,"[0.17] Default to elementsregtest, when syncing liquid, find cookie"
+519,2019-03-20 20:35:33.000000000,2019-03-21 15:10:11.000000000,closed,1,"[0.17] backport ""Remove comma for `claimpegin` in command line help info """
+518,2019-03-20 20:19:56.000000000,2019-03-21 16:01:56.000000000,closed,1,[0.17] Manual pak RPC calls
+517,2019-03-20 20:09:00.000000000,2019-03-21 15:11:23.000000000,closed,1,"[0.17] backport ""Validation: stop logging fake pow data"""
+516,2019-03-20 19:44:20.000000000,2019-03-21 16:09:35.000000000,closed,1,[0.17] Fix progress reporting issue
+515,2019-03-20 16:07:19.000000000,2019-03-21 02:53:24.000000000,closed,2,[0.17] Cleaned up CA
+514,2019-03-15 13:00:20.000000000,2019-03-29 00:55:27.000000000,closed,3,fix vector length calculation for targets in BlindTransaction
+513,2019-03-14 22:56:42.000000000,2019-03-29 00:54:42.000000000,closed,0,Actually test multisig rawreissuance
+512,2019-03-06 19:09:14.000000000,2019-03-06 20:44:32.000000000,closed,4,"Add secure reporting document, link in README"
+511,2019-02-23 01:22:29.000000000,2019-02-23 01:45:31.000000000,closed,4,allow dumpblindingkey to accept unconfidential address (when invoked with special flag ?)
+510,2019-02-18 21:00:19.000000000,2019-03-29 21:28:56.000000000,closed,11,Add partial blinding test to qa/rpc-tests
+509,2019-02-18 19:10:38.000000000,2019-03-06 19:14:38.000000000,closed,3,Properly serialize surjection proof in caching checker
+508,2019-02-14 21:29:24.000000000,2019-03-21 16:40:34.000000000,closed,5,Let's try to have more builds complete within allotted time
+507,2019-02-14 17:30:12.000000000,2019-02-14 18:32:31.000000000,closed,2,Chang claimpegin depth to 102 in api docs
+506,2019-02-14 17:01:25.000000000,2019-02-14 18:31:09.000000000,closed,2,claimpegin RPC Reference says 10 confirmations needed - is it not 102?
+505,2019-02-13 22:57:36.000000000,2019-02-14 20:30:22.000000000,closed,2,[0.17] Activate CSV from genesis block for custom chains
+504,2019-02-11 23:24:25.000000000,2019-10-09 20:22:34.000000000,closed,8,"Define PSBT, Re-enable PSBT functional tests"
+503,2019-01-29 20:57:21.000000000,2019-03-21 03:04:06.000000000,closed,4,"[0.17, WIP] Confidential Assets"
+502,2019-01-28 23:17:36.000000000,2019-02-12 20:00:25.000000000,closed,13,[0.17 MERGE] Merge up to Core 3832c25f176753b7ddb724c26ee7543fb1e1819e
+501,2019-01-24 02:22:19.000000000,2019-01-24 23:29:22.000000000,closed,5,[0.17 MERGE] merge up to Core 8aa9badf5ea3ea98980f50d924e88e46c4d5ee38
+500,2019-01-23 22:58:33.000000000,2019-01-24 01:29:02.000000000,closed,2,[0.17 MERGE] test merge with upstream
+499,2019-01-23 22:27:08.000000000,1970-01-01 00:00:00.000000001,open,4,[brainstorming] git merge strategy for syncing with upstream
+498,2019-01-18 19:48:52.000000000,1970-01-01 00:00:00.000000001,open,0,Build Notes for DotNet Needs Updated wget (18.04 Ubuntu)
+497,2019-01-15 20:24:07.000000000,2019-01-25 00:22:35.000000000,closed,4,[0.17] Add Liquid v1 based script matching functionality
+496,2019-01-11 23:01:23.000000000,1970-01-01 00:00:00.000000001,open,6,Elements Hardfork Wishlist
+495,2019-01-08 19:32:43.000000000,2019-01-16 01:17:51.000000000,closed,1,[0.17] Add new Elements opcodes
+494,2019-01-05 02:45:23.000000000,2019-02-13 20:36:42.000000000,closed,11,[0.17] Add Elements-style witness structure
+493,2019-01-04 20:51:16.000000000,2019-01-11 23:23:26.000000000,closed,3,secp-zkp update to fix a couple Travis issues
+492,2019-01-04 00:36:41.000000000,2019-02-12 23:09:06.000000000,closed,2,check amount against MAX_MONEY with unsigned comparison
+491,2019-01-03 22:08:04.000000000,2019-01-03 23:00:46.000000000,closed,1,Use proper parsing API for generator comparison
+490,2019-01-03 00:14:48.000000000,2019-01-03 00:56:44.000000000,closed,1,WIP: Reimplement 0.14 ctxwitness changes
+489,2018-12-31 22:33:32.000000000,2019-01-02 23:15:19.000000000,closed,6,Fix UnblindConfidentialPair: use IsFullyValid() for ephemeral_key
+488,2018-12-31 15:00:47.000000000,2019-01-02 23:24:01.000000000,closed,7,UnblindConfidentialPair: ephemeral_key.IsValid() check should be IsFullyValid()
+487,2018-12-23 03:14:40.000000000,2018-12-24 00:52:04.000000000,closed,2,BlindTransaction() code clarity issue/question
+486,2018-12-22 21:04:57.000000000,2019-01-02 19:57:19.000000000,closed,1,add standard license header to src/blind.cpp
+485,2018-12-22 20:15:19.000000000,2019-01-02 21:49:01.000000000,closed,2,"src/blind.cpp does not have standard license header, like other .cpp files"
+484,2018-12-19 02:06:57.000000000,2019-01-24 22:23:00.000000000,closed,7,"[0.17] PAK Enforcement, as policy"
+483,2018-12-19 01:06:04.000000000,2019-04-12 20:01:48.000000000,closed,9,Race condition with failing bitcoind can result in assertion
+482,2018-12-14 23:56:47.000000000,2018-12-15 04:07:49.000000000,closed,1, update secp to secp-zkp 53ad841cafa3bcb94b65409aec91fd7043533cf7
+481,2018-12-14 03:22:48.000000000,2018-12-19 03:19:52.000000000,closed,1,[0.17] Full RBF support
+480,2018-12-13 23:09:10.000000000,2019-03-06 19:12:02.000000000,closed,3,remove redundant value validity check
+479,2018-12-12 03:02:40.000000000,2019-02-28 02:41:33.000000000,closed,3,"Moving scriptWitness back into its own witness structure we can expand with other fields, such as peg_in_witness, output witnesses, etc."
+478,2018-12-11 22:34:16.000000000,2018-12-20 00:36:52.000000000,closed,7,[0.17] Signed blocks feature
+477,2018-12-08 20:21:28.000000000,2018-12-12 21:03:02.000000000,closed,5,remove unnecessary confValue reassignment
+476,2018-12-04 22:43:38.000000000,2019-01-03 01:15:25.000000000,closed,1,Need more raw `createrawpegin`
+475,2018-12-03 20:54:20.000000000,2018-12-18 01:54:14.000000000,closed,7,rawreissuance rpc
+474,2018-11-30 02:12:40.000000000,2018-12-12 21:12:46.000000000,closed,8,rawissueasset RPC call
+473,2018-11-28 21:43:36.000000000,1970-01-01 00:00:00.000000001,open,4,Non-witness transactions cannot include issuances
+472,2018-11-27 19:08:24.000000000,2019-03-06 19:16:43.000000000,closed,2,Add comment on witness-null issuance transactions' invalidity
+471,2018-11-24 17:58:11.000000000,2019-01-03 01:15:41.000000000,closed,7,"Need ""createrawissuanceinput"" raw issuance RPC API"
+470,2018-11-18 09:09:45.000000000,2018-12-18 23:15:51.000000000,closed,11,[0.17] Block v4 mandatory
+469,2018-11-16 01:13:10.000000000,2018-11-27 18:59:28.000000000,closed,2,"Add TX_TRUE output format, accept in wallet with `anyonecanspendaremine`"
+468,2018-11-15 18:31:55.000000000,2018-11-27 19:10:12.000000000,closed,2,Replace deprecated tostring with tobytes
+467,2018-11-15 05:30:33.000000000,2018-12-19 02:01:27.000000000,closed,19,"[0.17] Add initialfreecoins option, default of 0"
+466,2018-11-14 21:05:14.000000000,2018-11-15 23:33:10.000000000,closed,4,Add basic raw pegin creation test and fixup return name in help
+465,2018-11-14 08:06:37.000000000,2018-11-14 21:42:32.000000000,closed,6,Offline raw claim peg-in transaction signing errors
+464,2018-11-13 20:14:32.000000000,2018-11-15 22:51:54.000000000,closed,1,Liquid forward ports
+463,2018-11-08 22:07:21.000000000,2018-11-08 22:09:02.000000000,closed,0,Update PGP key for stevenroose
+462,2018-11-08 21:50:40.000000000,2018-11-08 22:07:48.000000000,closed,0,Add stevenroose key to contib
+461,2018-11-08 20:14:04.000000000,2018-11-08 20:23:49.000000000,closed,2,Add Asset parameter to MutateTxAddOutData
+460,2018-11-08 20:09:43.000000000,2018-11-08 21:56:12.000000000,closed,2,"fix endianness of getrawtransaction issuance entropy, add basic test"
+459,2018-11-08 03:14:30.000000000,2018-11-08 20:51:16.000000000,closed,4,Asset entropy inconsistencies (big/little endianness)
+458,2018-11-07 22:31:04.000000000,2019-01-03 00:49:10.000000000,closed,13,[0.17] Add pegin validation
+457,2018-11-07 15:47:51.000000000,2018-11-07 17:07:41.000000000,closed,2,Error -4 reissuing default asset with anyone-can-spend reissuance token
+456,2018-11-01 22:58:08.000000000,2018-11-05 19:32:27.000000000,closed,5,[0.17] move most extended tests to normal
+455,2018-11-01 18:48:46.000000000,2018-11-07 15:38:23.000000000,closed,1,Running bitcoin v0.17 means asset_tutorial fails due to .conf format issues
+454,2018-11-01 18:44:51.000000000,2018-11-02 22:21:51.000000000,closed,1,Changed tutorial bitcoin config file to work with new core v0.17 format
+453,2018-10-31 13:34:45.000000000,2018-11-27 19:42:21.000000000,closed,6,[0.17] Add OptionsCategory::ELEMENTS
+452,2018-10-30 23:49:43.000000000,2018-12-11 22:34:31.000000000,closed,3,"[WIP, 0.17] Signed blocks"
+451,2018-10-29 20:21:14.000000000,2018-10-29 20:22:17.000000000,closed,0,"NOMERGE: [0.17] Signet implementation, take 2"
+450,2018-10-29 19:44:56.000000000,2018-10-29 23:19:05.000000000,closed,1,testing global compilation
+449,2018-10-25 22:54:43.000000000,2018-10-26 20:17:52.000000000,closed,5,Actually run the bitcoin functional tests with test_runner
+448,2018-10-25 19:55:52.000000000,1970-01-01 00:00:00.000000001,open,10,Pick a blinding key/blinding factor standard compatible with hww++
+447,2018-10-24 23:47:26.000000000,2018-10-25 20:08:15.000000000,closed,0,pin flake8 version to avoid breaking compatibilities
+446,2018-10-23 22:12:12.000000000,2018-10-24 23:28:09.000000000,closed,5,Duplicate serializations of consensus objects to use as Bitcoin seria…
+445,2018-10-23 19:49:23.000000000,2018-10-24 19:00:47.000000000,closed,2,[0.17] Duplicate bitcoin functional tests
+444,2018-10-23 14:16:24.000000000,2018-10-23 17:46:55.000000000,closed,2,elements-0.14.1 branch is using which version of the bitcoin code
+443,2018-10-22 23:26:00.000000000,2018-10-24 18:57:59.000000000,closed,2,[0.17] add block subsidy argument to allow different/non-inflation chains
+442,2018-10-22 20:08:43.000000000,2018-10-30 00:10:24.000000000,closed,3,"[0.17] MODIFIED: blockheaders include block height, nodes validate it"
+441,2018-10-22 17:49:47.000000000,2018-10-22 20:18:59.000000000,closed,0,"rename mandatory coinbase test, add it to test_runner list"
+440,2018-10-20 13:11:20.000000000,2018-10-31 21:05:31.000000000,closed,12,Updated README links to point to new elementsproject.org content.
+439,2018-10-19 06:21:25.000000000,2019-03-25 19:13:33.000000000,closed,4,"Man pages are still named bitcoind, bicoin-cli and bitcoin-tx"
+438,2018-10-18 19:45:48.000000000,2018-10-22 18:51:59.000000000,closed,8,[Feature Request] Stop depending on bitcoin-cli
+437,2018-10-17 11:05:19.000000000,2018-10-23 17:48:16.000000000,closed,5,Running the make command giving the error
+436,2018-10-17 07:20:50.000000000,2018-12-19 02:10:56.000000000,closed,7,[0.17] Chainparams: Introduce consensus.genesis_style for compatibility
+435,2018-10-15 19:34:23.000000000,2018-10-15 23:10:44.000000000,closed,1,[0.17] add jtimon/gsanders/stevenroose git signing keys
+434,2018-10-15 02:38:03.000000000,2018-10-16 19:01:15.000000000,closed,4,[0.17] Test: Fix example_test.py
+433,2018-10-14 22:19:57.000000000,2018-10-29 20:27:48.000000000,closed,3,NOMERGE: [0.17] Signet implementation
+432,2018-10-13 03:37:49.000000000,2018-10-16 22:19:59.000000000,closed,7,[0.17] QA: Use resgtest2 chain instead of regtest for rpc tests
+431,2018-10-12 22:48:58.000000000,2018-11-27 21:11:23.000000000,closed,27,"[0.17] blockheaders include block height, nodes validate it"
+430,2018-10-12 21:52:01.000000000,2018-10-22 17:22:36.000000000,closed,7,[0.17] Mandatory coinbase feature
+429,2018-10-12 21:18:49.000000000,2018-10-25 21:39:24.000000000,closed,6,"[0.17] Connect gen block tx to db, don't validate gen block"
+428,2018-10-12 19:10:51.000000000,2018-10-16 16:57:52.000000000,closed,9,"[0.17] don't do mac travis build, no support"
+427,2018-10-10 07:13:16.000000000,2018-10-13 05:17:33.000000000,closed,7,[0.17] Don't edit Chainparams after initialization
+426,2018-10-08 05:37:59.000000000,2018-10-08 12:23:26.000000000,closed,2,update secp256k1-zkp b2dca3ae19dbe47ba978a79a5022a289efbdc846
+425,2018-10-01 19:49:54.000000000,2018-10-03 13:35:42.000000000,closed,5,peg-in re-checking cleanup and fixes
+424,2018-09-29 00:42:35.000000000,2018-10-03 13:35:42.000000000,closed,3,peg-in witness invalid blocks disk at on start cause log spam/DoS 
+423,2018-09-28 05:26:56.000000000,2018-10-12 19:11:33.000000000,closed,1,Improve BitcoindRPCCheck behavior with locking/deduping/accessing blo…
+422,2018-09-27 21:54:23.000000000,2018-10-03 12:56:13.000000000,closed,5,feature_fedpeg.py bitcoind parent2 uses rpc cookie auth
+421,2018-09-27 03:59:48.000000000,2018-09-27 18:09:13.000000000,closed,2,QA: feature_fedpeg.py: Remove re-implementation of sync_all
+420,2018-09-26 23:39:17.000000000,2018-10-03 12:56:13.000000000,closed,0,Test mainchainrpccookie args in functional tests
+419,2018-09-26 04:08:16.000000000,2018-09-27 20:12:11.000000000,closed,5,fix various undefined behavior and null ptr dereferences
+418,2018-09-25 21:18:34.000000000,2018-10-03 12:42:39.000000000,closed,10,qa: Use bitcoind as parent in Travis tests
+417,2018-09-25 20:32:08.000000000,2018-09-27 18:11:43.000000000,closed,1,require 0.16.3 parent Core node
+416,2018-09-24 23:32:06.000000000,2018-09-26 23:36:51.000000000,closed,5,Fix peg functional test compatability with Core 0.17
+415,2018-09-24 20:32:33.000000000,2018-09-26 23:32:56.000000000,closed,18,qa: Support using bitcoind in fedpeg test 
+414,2018-09-21 09:50:12.000000000,1970-01-01 00:00:00.000000001,open,16,NOMERGE: Support signet as parent chain
+413,2018-09-19 19:27:57.000000000,2018-09-20 00:28:08.000000000,closed,3,[backport] Fix crash bug with duplicate inputs within a transaction
+412,2018-09-19 02:14:32.000000000,2019-04-09 23:17:46.000000000,closed,1,Qt: Enable qt tests even if the actual qt binary is not actually usable...
+411,2018-09-17 05:14:10.000000000,1970-01-01 00:00:00.000000001,open,0,`confidential_key` is a misleading name
+410,2018-09-13 00:14:27.000000000,2018-10-29 20:46:47.000000000,closed,1,compact block RPC calls
+409,2018-09-12 19:39:42.000000000,2018-09-16 23:58:13.000000000,closed,1,Set policyAsset for core unit tests
+408,2018-09-10 20:05:02.000000000,1970-01-01 00:00:00.000000001,open,6,policyAsset not set in c++ unit tests
+407,2018-09-10 17:12:39.000000000,2018-09-17 05:43:38.000000000,closed,3,Replace median fee rate with feerate percentiles
+406,2018-09-07 13:36:50.000000000,2018-10-20 11:20:29.000000000,closed,2,Slack link is outdated
+405,2018-09-05 04:41:29.000000000,2018-09-07 02:25:16.000000000,closed,1,Doc: RPC: Fix named arguments' documentation for importprivkey
+404,2018-08-26 21:01:14.000000000,1970-01-01 00:00:00.000000001,open,1,"[HF] `CProof::solution` should be a list of byte-vectors, not a script"
+403,2018-08-24 23:32:42.000000000,2018-08-27 18:02:00.000000000,closed,2,Move elementsbp-api-reference repo in doc/ dir
+402,2018-08-24 20:23:59.000000000,2019-03-25 18:47:14.000000000,closed,5,Disallow extended encoding for non-witness transactions
+401,2018-08-16 19:01:05.000000000,2018-08-20 17:59:57.000000000,closed,2,mainchainrpc* description fixes
+400,2018-08-09 17:18:22.000000000,2018-09-17 05:12:20.000000000,closed,17,2WP: Verify number of transactions in SPV proof
+399,2018-08-08 20:20:28.000000000,2019-02-14 21:25:36.000000000,closed,4,add RPC to deblind transactionwith blinding keys in wallet
+398,2018-08-08 17:22:32.000000000,2019-03-22 20:19:10.000000000,closed,13,Update elements to Bitcoin Core version 0.17.0
+397,2018-07-26 01:10:51.000000000,2018-07-26 17:54:42.000000000,closed,5,Tests: Explicitly destroy zmq object when exiting after not actually using it
+396,2018-07-19 13:48:40.000000000,2018-07-22 09:46:01.000000000,closed,2,Remove use of 'bitcoin' as hard coded default asset for sendtoaddress…
+395,2018-07-19 13:45:19.000000000,2018-09-21 18:48:48.000000000,closed,2,sendtoaddress and sendmany default to 'bitcoin' asset
+394,2018-07-18 03:18:34.000000000,2018-07-22 09:50:31.000000000,closed,4,Explicit option for disabling 2wp
+393,2018-07-16 14:27:14.000000000,2018-07-18 23:41:30.000000000,closed,1,Add ability to use listissuance with label as param. Plus tests.
+392,2018-07-11 22:37:32.000000000,2018-07-12 00:51:55.000000000,closed,1,RPC: Named arguments for signblock
+391,2018-07-11 19:43:34.000000000,2018-07-11 21:50:30.000000000,closed,2,subtract fee from reissuance token if token is fee asset during reiss…
+390,2018-07-11 19:23:48.000000000,2018-07-11 21:50:30.000000000,closed,3,"Can't use reissuancetoken as feeasset when trying to reissue an asset. Works for issuance, sendtoaddress etc."
+389,2018-07-11 05:20:53.000000000,2018-07-11 17:31:28.000000000,closed,1,RPC: Named arguments for combineblocksigs
+388,2018-07-11 03:28:24.000000000,2018-07-11 17:32:47.000000000,closed,1,Remove unused line giving a warning
+387,2018-07-10 13:41:57.000000000,2018-07-19 13:49:43.000000000,closed,3,"listissuances doesn't accept label, only hex - which is a little inconsistent"
+386,2018-07-10 04:01:35.000000000,2018-07-11 18:48:32.000000000,closed,1,NO-HF: Move block.proof.challenge to Consensus::Params::signblockscript
+385,2018-07-05 07:46:29.000000000,2018-07-05 18:14:27.000000000,closed,8,"run cmd send-to-sidechain get ""Insufficient funds"""
+384,2018-06-29 16:44:30.000000000,2018-07-13 22:47:46.000000000,closed,14,Enable setting of default asset name and initial reissuance token count
+383,2018-06-28 15:48:41.000000000,2018-06-28 17:09:38.000000000,closed,1,Fix issue #380 caused by change to initial free coins distribution
+382,2018-06-28 04:12:29.000000000,2019-03-25 18:51:58.000000000,closed,9,WIP: RPC: Make generate work with a single signer
+381,2018-06-27 19:55:44.000000000,2019-03-25 19:05:30.000000000,closed,12,Federation block signing demo
+380,2018-06-27 16:30:43.000000000,2018-06-29 14:02:38.000000000,closed,4,Append initial issuance to 1 address not 100 breaks tutorial code
+379,2018-06-27 15:45:45.000000000,2018-06-28 01:18:54.000000000,closed,2,[build] Add missing stuff to clean-local
+378,2018-06-22 19:28:47.000000000,2018-06-25 17:23:53.000000000,closed,9,"Can cause ""corrupted block database"" across nodes"
+377,2018-06-20 21:51:31.000000000,2019-03-25 18:52:24.000000000,closed,1,"[WIP] Move ""nonce"" field to witness field, rename it ""memo"""
+376,2018-06-20 03:09:39.000000000,2018-06-25 17:22:07.000000000,closed,1,QA: Elements tests first
+375,2018-06-19 10:15:03.000000000,2018-06-19 17:20:37.000000000,closed,0,Elements 0.13.1
+374,2018-06-19 02:26:43.000000000,2018-06-22 17:47:15.000000000,closed,7,Port tweakfedpegscript from liquid-deamon
+373,2018-06-18 22:31:05.000000000,2018-06-20 22:34:53.000000000,closed,4,QA: Introduce feature_blocksign.py
+372,2018-06-13 19:19:35.000000000,2019-03-25 19:06:29.000000000,closed,6,Scripts and tools: Add Docker and docker-compose files
+371,2018-06-13 17:28:53.000000000,2018-07-13 23:20:30.000000000,closed,7,Cannot change default initial asset issuance label from 'bitcoin'
+370,2018-06-13 03:25:53.000000000,2018-06-26 04:28:51.000000000,closed,5,Refactor: Validation: Make parts of IsValidPeginWitness templated
+369,2018-06-11 23:31:41.000000000,2018-09-17 05:12:20.000000000,closed,1,Need to address merkle leaf detection weakness in peg-in proof
+368,2018-06-07 01:19:44.000000000,2019-03-25 18:53:20.000000000,closed,1,"support new multisig template in wallet for Solver, signing, and sign…"
+367,2018-06-06 00:20:44.000000000,2018-06-06 20:59:38.000000000,closed,1,allow all other base58 prefix things to be set by conf file
+366,2018-06-05 05:27:10.000000000,2018-06-12 22:33:12.000000000,closed,1,RPC: Stop providing useless fake pow data
+365,2018-06-05 03:05:30.000000000,2018-06-05 04:34:22.000000000,closed,1,QA: Reactivate and improve rpc_blockchain tests
+364,2018-06-03 18:00:28.000000000,2018-06-06 20:58:56.000000000,closed,1,Non-malleable zero-knowlege proofs
+363,2018-05-31 23:23:25.000000000,2018-06-01 21:09:02.000000000,closed,5,allow setting parent chain address prefix in configuration file
+362,2018-05-25 21:39:21.000000000,2018-09-07 02:16:45.000000000,closed,16,2WP: Allow other elements chains as parent chains for pegs
+361,2018-05-25 20:52:49.000000000,2018-05-29 21:10:17.000000000,closed,1,Remove overflow checks for explicit input amounts
+360,2018-05-25 20:31:01.000000000,2018-09-07 02:16:45.000000000,closed,0,Support other elements chains as parent chains
+359,2018-05-25 18:18:40.000000000,2018-05-29 21:19:36.000000000,closed,1,Rework control flow in VerifyAmount()
+358,2018-05-23 21:54:26.000000000,2018-05-24 17:05:27.000000000,closed,1,update libsecp256k1-zkp to f1c601ed9d6c990a164305bf1b552952d16547da
+357,2018-05-19 02:23:33.000000000,2018-05-21 17:59:06.000000000,closed,2,Improve pegging test
+356,2018-05-18 18:39:24.000000000,1970-01-01 00:00:00.000000001,open,0,return both address types in RPC calls
+355,2018-05-17 17:37:43.000000000,2018-06-25 17:22:53.000000000,closed,8,Change initial issuance output to 1 
+354,2018-05-16 19:46:43.000000000,2018-06-14 17:50:25.000000000,closed,6,"Rebased clone of ""RPC: Stop providing useless fake pow data """
+353,2018-05-11 18:06:16.000000000,2018-05-16 02:39:10.000000000,closed,4,speedup and fix wallet-hd functional test for CA
+352,2018-05-11 17:41:48.000000000,2018-05-11 18:17:28.000000000,closed,1,Make the “21 m to op_true in coinbase” customizable per chain
+351,2018-05-11 17:31:54.000000000,2018-05-14 17:19:00.000000000,closed,2,Default custom chains to no free coins
+350,2018-05-11 17:27:46.000000000,2018-05-30 18:36:43.000000000,closed,0,Make block solutions more strictly validated
+349,2018-05-10 21:56:23.000000000,2018-06-25 17:35:35.000000000,closed,1,change initial free coin output amount to 1
+348,2018-05-10 21:38:44.000000000,2018-05-18 00:12:02.000000000,closed,1,Make the “21 m to op_true in coinbase” customizable per chain
+347,2018-05-10 13:48:22.000000000,2018-05-10 16:11:14.000000000,closed,1,Correct chain selection help
+346,2018-05-09 19:59:51.000000000,2018-09-08 00:58:12.000000000,closed,5,enable 20 of 20 signing/understanding
+345,2018-05-04 16:55:46.000000000,2018-09-27 18:13:09.000000000,closed,5,[WIP] elementsd travis testing reenabled
+344,2018-05-04 08:04:45.000000000,2018-06-13 06:42:18.000000000,closed,8,RPC: Signblock: Support signblock info on rpc/blockchain
+343,2018-04-30 19:24:53.000000000,2018-10-12 19:14:47.000000000,closed,2,"Cache latest successful testproposedblock txns, use in compact blocks"
+342,2018-04-28 03:10:52.000000000,2018-09-21 18:49:22.000000000,closed,2,no functional tests covering non-OP_TRUE block creation
+341,2018-04-27 19:33:16.000000000,2018-04-28 00:47:23.000000000,closed,4,fix miner block header proof accounting
+340,2018-04-26 14:53:25.000000000,2018-04-26 14:53:48.000000000,closed,0,WP1/2 Add unique prefix to address / 
+339,2018-04-25 20:26:51.000000000,2018-04-27 19:42:44.000000000,closed,4,getnewblockhex: add ability to pass over transactions based on mempoo…
+338,2018-04-23 18:31:06.000000000,2019-01-15 23:54:21.000000000,closed,3,Create compact block RPCs to allow compact passing of block proposals
+337,2018-04-20 20:43:56.000000000,2018-04-20 22:52:24.000000000,closed,1,[backport] 'Use a verbosity instead of two verbose parameters'
+336,2018-04-19 22:24:58.000000000,2018-04-19 23:14:46.000000000,closed,6,make check FAIL : PaymentServerTests::paymentServerTests() Compared values are not the same
+335,2018-04-17 20:59:10.000000000,2018-05-30 18:35:27.000000000,closed,3,Fix range/surjection proof caching
+334,2018-04-17 19:22:50.000000000,2018-05-30 18:35:26.000000000,closed,1,Unify transaction validation caching
+333,2018-04-09 22:28:29.000000000,2018-04-09 22:30:39.000000000,closed,2,Fix timing for bitcoin shutdown in pegging.py
+332,2018-04-07 01:49:24.000000000,2018-04-09 22:19:04.000000000,closed,3,Fix wallet blinding issue and test
+331,2018-04-04 15:35:22.000000000,2018-04-05 21:06:43.000000000,closed,7,[Docs] Fix to strip out problematic Windows %PATH%
+330,2018-04-03 03:42:23.000000000,2018-04-06 03:38:52.000000000,closed,3,add option to subtract fee from peg-out output amount
+329,2018-04-02 23:16:33.000000000,2018-04-03 22:24:57.000000000,closed,1,parameterize the mandatory coinbase
+328,2018-04-02 22:15:57.000000000,2018-04-03 22:24:57.000000000,closed,0,allow mandatory coinbase destination to be set as a c_* chainparam argument
+327,2018-03-29 19:59:56.000000000,2019-03-25 19:11:40.000000000,closed,2,re-introduce(and test) mempool peg-in confirmation buffer
+326,2018-03-28 19:40:55.000000000,2018-03-28 21:18:24.000000000,closed,2,make peginconfirmationdepth a chain param
+325,2018-03-28 18:02:20.000000000,2018-03-28 19:42:15.000000000,closed,1,simplify non-depth peg-in validity checking
+324,2018-03-27 07:52:31.000000000,2019-03-29 01:02:18.000000000,closed,3,Blocksign: Enter emergency mode when invalid blocks have a valid proof
+323,2018-03-27 05:14:06.000000000,2019-03-29 01:02:10.000000000,closed,5,Introduce emergency mode
+322,2018-03-27 02:12:32.000000000,2018-03-27 20:31:45.000000000,closed,1,"add better reject reason for immature peg-in, with test"
+321,2018-03-26 20:48:17.000000000,2019-03-25 18:55:47.000000000,closed,3,add command line arg to induce peg-in validation failure
+320,2018-03-26 20:30:12.000000000,2018-03-27 09:16:49.000000000,closed,1,fix segfault when block from disk has pegin failure
+319,2018-03-23 19:47:10.000000000,2018-04-02 22:07:38.000000000,closed,3,add peg test for bitcoind temporarily being down during peg validation
+318,2018-03-15 02:31:50.000000000,2018-04-09 23:16:23.000000000,closed,11,"RPC: If a scriptPubKey is a pegout, show pegout info too"
+317,2018-03-14 03:23:34.000000000,2018-03-14 19:53:41.000000000,closed,1,Tutorial: Use sendtomainchain
+316,2018-03-13 20:21:37.000000000,2018-03-15 20:33:42.000000000,closed,0,fix testproposedblock standardness issues
+315,2018-03-13 19:18:58.000000000,2018-03-15 20:33:41.000000000,closed,0,witnessEnabled in IsStandardTx defaults to false
+314,2018-03-13 05:40:38.000000000,2018-03-13 20:05:00.000000000,closed,1,Cleanup: There's no validatepegout option
+313,2018-03-13 02:04:56.000000000,2019-03-25 18:56:46.000000000,closed,5,HF: Move block.proof.challenge to Consensus::Params::signblockscript
+312,2018-03-12 23:41:53.000000000,2018-03-13 01:53:35.000000000,closed,1,Chainparams: Make parentGenesisBlockHash customizable
+311,2018-03-08 17:34:41.000000000,2018-03-08 17:34:58.000000000,closed,0,Merge pull request #1 from ElementsProject/elements-0.14.1
+310,2018-02-23 22:31:13.000000000,2018-03-12 19:31:28.000000000,closed,0,"correctly account for witness data in peg-in fee calc, add test"
+309,2018-02-21 05:14:23.000000000,2018-02-21 19:54:53.000000000,closed,1,Small fix to #306
+308,2018-02-17 14:26:17.000000000,2018-02-19 10:55:53.000000000,closed,0,"Chainparams: rename ""main"" to ""___old_main"" to avoid confusion"
+307,2018-02-17 13:30:24.000000000,2018-02-19 09:34:54.000000000,closed,1,Chainparams: Every chain has a name
+306,2018-02-17 09:06:51.000000000,2018-02-21 01:12:37.000000000,closed,2,Chainparams: Unify CRegTestParams and CCustomParams
+305,2018-02-15 19:42:05.000000000,2019-03-25 19:07:05.000000000,closed,2,split peg-in value to more private output ranges
+304,2018-01-23 19:12:47.000000000,2018-01-24 01:40:14.000000000,closed,0,commit genesis block transactions to txindex
+303,2018-01-23 02:26:01.000000000,2018-01-24 01:48:05.000000000,closed,5,Bug: getrawtransaction no longer return txs in genesis block
+302,2018-01-23 01:10:00.000000000,2018-02-05 23:00:32.000000000,closed,7,testproposedblock option to reject non-standard block
+301,2018-01-22 13:21:04.000000000,2018-01-22 22:43:11.000000000,closed,4,In pegging.py test use sidechain binary in the same repo per default
+300,2018-01-11 23:37:20.000000000,1970-01-01 00:00:00.000000001,open,1,claimpegin optional `claim_script` argument is pretty much useless
+299,2017-12-22 20:41:11.000000000,2018-01-06 00:22:56.000000000,closed,2,Make boost::multi_index comparators const
+298,2017-12-22 12:39:31.000000000,2018-01-09 14:24:51.000000000,closed,5,Build with boost-1.66.0 fails
+297,2017-12-19 00:10:19.000000000,2018-01-25 22:35:12.000000000,closed,3,remove orphaned descendents of peg-ins on block receive
+296,2017-12-13 03:40:05.000000000,2017-12-13 03:41:24.000000000,closed,1,Is this project done?
+295,2017-12-12 09:48:51.000000000,2017-12-13 00:09:52.000000000,closed,1,Fix mainchain host arg name from mainchainhost to mainchainrpchost
+294,2017-12-11 21:01:51.000000000,2017-12-13 00:11:21.000000000,closed,2,skip balance checks when assumevalid is active
+293,2017-12-11 20:21:33.000000000,2017-12-18 23:31:19.000000000,closed,0,skip rangeproof validation if chain is in assumevalid
+292,2017-11-29 21:37:25.000000000,2017-12-13 00:10:42.000000000,closed,1,callrpc: Check correct mainchainrpc field
+291,2017-11-20 22:07:40.000000000,2017-12-15 03:56:28.000000000,closed,1,fix standardness check ordering of scriptpubkey
+290,2017-11-08 23:23:22.000000000,1970-01-01 00:00:00.000000001,open,0,print nicer error when claimpegin is immature
+289,2017-11-08 21:48:56.000000000,2017-11-08 21:56:00.000000000,closed,3,bump elements version to 2.14.1.1
+288,2017-11-08 03:37:16.000000000,2017-11-08 21:32:16.000000000,closed,1,HF: peg-in outputs in parent chain are p2sh-pw2sh
+287,2017-11-08 01:49:17.000000000,2017-11-30 23:26:52.000000000,closed,2,list mainchain* commandline startup arguments
+286,2017-11-07 00:27:01.000000000,2018-02-17 04:06:03.000000000,closed,8,2WP: -mainchainrpccookiefile defaults to regtest/.cookie for all chains
+285,2017-10-26 20:26:35.000000000,2017-10-26 22:31:09.000000000,closed,2,peg in requires the funds to start on the side chain
+284,2017-10-16 16:06:47.000000000,2017-11-29 20:41:32.000000000,closed,2,fix help text for listunspent asset filter
+283,2017-10-12 01:26:24.000000000,2017-10-12 01:29:13.000000000,closed,2,minor: sendtoaddress documents the wrong default for the seventh parameter
+282,2017-10-10 20:29:57.000000000,1970-01-01 00:00:00.000000001,open,2,"feature request: Associate a string with an asset, without restarting elementds"
+281,2017-10-10 19:57:26.000000000,2018-01-06 00:23:44.000000000,closed,2,re-add transaction comments to univalue returns
+280,2017-10-10 19:49:02.000000000,2018-01-06 00:23:44.000000000,closed,0,Transaction comment printing got nixed
+279,2017-10-06 20:54:13.000000000,2017-10-06 23:43:32.000000000,closed,1,add getsidechaininfo RPC call
+278,2017-10-05 23:05:36.000000000,2018-09-08 01:19:28.000000000,closed,3,[WIP] Surjection support plus plus
+277,2017-09-30 19:45:22.000000000,2018-03-29 08:55:43.000000000,closed,3,BIP90: Make buried deployments slightly more easily extensible
+276,2017-09-30 17:33:01.000000000,2019-03-25 18:57:42.000000000,closed,2,Optimization: Remove Consensus::Params::BIP34Hash
+275,2017-09-28 09:08:49.000000000,2017-09-28 18:08:59.000000000,closed,1,QA: Modernize confidential_transactions.py
+274,2017-09-28 07:01:32.000000000,2018-07-24 05:37:59.000000000,closed,3,QA: Chainparams: Run functional tests with custom chain 
+273,2017-09-26 22:58:05.000000000,2017-09-28 18:16:51.000000000,closed,5,make replace-by-fee.py a standard functional test
+272,2017-09-26 22:46:28.000000000,2017-09-27 00:39:11.000000000,closed,1,Fix confidential test to not assume fee output will be last of 3
+271,2017-09-23 15:00:59.000000000,2017-10-01 01:35:11.000000000,closed,1,RPC: getinfo: Replace testnet with more generic chain
+270,2017-09-23 14:50:27.000000000,2017-09-28 18:14:02.000000000,closed,3,Chainparams: decouple anyonecanspend are mine from regtest
+269,2017-09-21 23:48:52.000000000,2017-09-22 17:56:49.000000000,closed,1,include the CTxWitness structure in memory usage accounting
+268,2017-09-21 19:06:30.000000000,2019-03-21 23:17:52.000000000,closed,2,Disabled tests in Elements
+267,2017-09-21 17:12:54.000000000,2017-09-22 18:32:06.000000000,closed,1,don't assert false when checking commitment types
+266,2017-09-21 14:20:48.000000000,2018-02-19 10:37:41.000000000,closed,7,Chainparams: Remove CElementsParams
+265,2017-09-21 09:02:42.000000000,2017-09-21 15:39:32.000000000,closed,1,Remove chainparamsseeds.h
+264,2017-09-21 05:56:08.000000000,2017-09-22 18:58:24.000000000,closed,1,Re-activate transaction replacement functional test
+263,2017-09-21 04:51:04.000000000,2018-02-21 04:03:09.000000000,closed,3,Chainparams: Remove CRegTestParams and use CCustomParams instead
+262,2017-09-21 03:44:27.000000000,2017-11-29 02:16:10.000000000,closed,8,Remove CHAINPARAMS_ELEMENTS 
+261,2017-09-19 23:54:38.000000000,2017-12-18 23:32:40.000000000,closed,0,Don't assert on badly formed outputs
+260,2017-09-14 22:09:58.000000000,2017-11-07 23:03:36.000000000,closed,14,Revamp peg-in transactions
+259,2017-09-13 22:25:27.000000000,1970-01-01 00:00:00.000000001,open,10,reissuance tokens can not be exercised from unblinded outputs
+258,2017-09-11 20:42:37.000000000,2017-12-18 23:32:29.000000000,closed,1,Take witness data into account with mempool usage
+257,2017-09-11 19:11:02.000000000,2017-09-13 04:45:39.000000000,closed,5,Speed up peg-in validation
+256,2017-09-11 10:58:19.000000000,2017-09-21 05:54:50.000000000,closed,3,work towards bringing mininode.py up to date with the main node
+255,2017-09-08 02:42:31.000000000,2017-09-11 16:49:15.000000000,closed,6,fix incorrect bounds check to wit.vtxinwit access in ContextualCheckBlock
+254,2017-08-31 01:23:47.000000000,2017-12-18 23:33:03.000000000,closed,1,simplify peg-in process
+253,2017-08-30 00:38:52.000000000,2017-08-30 00:53:13.000000000,closed,1,Update trusted-git-root
+252,2017-08-29 03:55:34.000000000,2017-08-30 00:29:44.000000000,closed,1,Update trusted-git-root
+251,2017-08-28 21:09:41.000000000,2019-03-25 19:03:35.000000000,closed,6,HF: Replace bip34 with simpler equivalent 
+250,2017-08-26 08:43:53.000000000,2017-10-10 13:51:59.000000000,closed,3,Wallet: Remove -walletrbf option
+249,2017-08-26 08:15:12.000000000,2017-10-01 03:06:20.000000000,closed,5,p2p: Remove opt-in part of RBF
+248,2017-08-26 07:25:40.000000000,2017-09-25 21:44:27.000000000,closed,5,p2p: Remove -mempoolreplacement
+247,2017-08-26 04:04:04.000000000,2017-08-26 05:02:30.000000000,closed,0,add gsanders(instagibbs) and jtimon to git signing list
+246,2017-08-24 14:17:54.000000000,2017-08-24 16:07:37.000000000,closed,1,"added missing label for ""output_assets"" argument to createrawtransaction rpc"
+245,2017-08-24 13:47:50.000000000,2017-08-24 16:05:52.000000000,closed,1,remove unnecessary code in IsFee() method
+244,2017-08-24 00:30:57.000000000,2017-08-29 02:38:29.000000000,closed,6,Implement hidden arg to set parent confirmation depth requirements
+243,2017-08-14 22:17:30.000000000,2017-08-24 21:23:20.000000000,closed,1,"Fix Travis, part 2"
+242,2017-08-14 21:50:06.000000000,2017-08-14 22:09:27.000000000,closed,2,Help fixing travis
+241,2017-08-14 20:56:53.000000000,2018-09-21 05:06:29.000000000,closed,10,Pending errors in travis:
+240,2017-08-11 09:16:41.000000000,2017-08-17 01:13:46.000000000,closed,1,fix SetToAsset bug where vchCommitment wasn't cleared before writing
+239,2017-08-10 22:02:48.000000000,2017-08-17 01:15:31.000000000,closed,0,python tutorial: gettransaction needs optional include_watchonly arg
+238,2017-08-10 17:44:56.000000000,2017-08-25 16:55:29.000000000,closed,6,Replace static BITCOINID with asset-derivation style generation
+237,2017-08-10 07:50:00.000000000,2017-08-10 15:12:49.000000000,closed,6,Issued asset vanishes due to chain tx limit if too many sent
+236,2017-08-09 22:30:58.000000000,2017-08-09 22:31:03.000000000,closed,0,fixup! Don't use pointers for CReserveKeys
+235,2017-08-09 05:20:35.000000000,2017-08-10 15:38:44.000000000,closed,12,"getnewblockhex would use regtest coinbase hard coded, instead of fetc…"
+234,2017-08-08 22:49:59.000000000,2019-03-25 19:00:12.000000000,closed,5,[WIP] Nakedblinder
+233,2017-08-08 21:05:48.000000000,2019-03-25 19:10:07.000000000,closed,4,import/dumpwallet needs to support blinding keys
+232,2017-08-08 20:37:04.000000000,1970-01-01 00:00:00.000000001,open,5,Support HD derivation of master blinding key
+231,2017-08-08 19:05:19.000000000,1970-01-01 00:00:00.000000001,open,4,Don't use blinders you don't control the inputs to
+230,2017-08-07 15:16:57.000000000,2017-08-09 17:47:28.000000000,closed,2,fix rpc-tests to avoid illegal termination.
+229,2017-08-04 06:17:52.000000000,2017-08-14 22:09:29.000000000,closed,0,WIP fix travis building
+228,2017-08-01 10:47:32.000000000,2017-08-04 06:46:21.000000000,closed,2,python assets tutorial clarifications and cleanup
+227,2017-07-29 13:27:39.000000000,2019-03-25 19:10:46.000000000,closed,1,Missing CHECKMULTISIGFROMSTACK
+226,2017-07-19 18:36:16.000000000,2017-07-27 06:36:36.000000000,closed,3,Fix claimpegins from mempool locks
+225,2017-07-19 16:16:51.000000000,2017-08-09 19:12:16.000000000,closed,6,FundTransaction should avoid copying CReserveKeys
+224,2017-07-19 15:37:46.000000000,2017-09-22 20:32:39.000000000,closed,0,Reverse endianness of asset field in gettxout to match everywhere else
+223,2017-07-19 09:00:20.000000000,2017-07-20 12:51:45.000000000,closed,3,fundrawtransaction appears to be broken with non-bitcoin outputs?
+222,2017-07-19 08:51:26.000000000,2017-09-22 20:32:39.000000000,closed,1,Asset type inconsistencies (big/little endianness)
+221,2017-07-19 06:37:45.000000000,2017-09-22 19:34:55.000000000,closed,0,CSurjectionCheck copies vector instead of swapping
+220,2017-07-19 05:59:29.000000000,2017-08-03 05:02:31.000000000,closed,0,"Revert ownership of CCheck to QueueCheck, return ScriptError"
+219,2017-07-18 23:05:59.000000000,2017-07-30 03:41:34.000000000,closed,4,Add python asset tutorial
+218,2017-07-18 22:43:00.000000000,2017-07-19 06:28:40.000000000,closed,1,fundrawtransaction needs to push back all outputs
+217,2017-07-18 12:00:34.000000000,2017-07-19 16:30:47.000000000,closed,3,fix listreceivedbyaddress to sum amounts for each asset.
+216,2017-07-18 10:48:31.000000000,2017-07-19 16:39:52.000000000,closed,4,listissuances should outputs asset/tokenamount as -1 if the asset is blinded.
+215,2017-07-18 03:51:29.000000000,2017-10-09 22:24:40.000000000,closed,16,[Consensus] Change Elements serialization format
+214,2017-07-17 16:21:04.000000000,2017-07-17 16:24:11.000000000,closed,1,Fix Confidential Assets link
+213,2017-07-17 04:23:09.000000000,2017-07-17 16:25:41.000000000,closed,2,Fix the link to confidential assets
+212,2017-07-15 02:56:43.000000000,2017-07-15 05:53:38.000000000,closed,1,"[trivial] remove unused variable ""amount"" in rawtransaction.cpp"
+211,2017-07-14 21:02:41.000000000,2017-07-17 22:59:24.000000000,closed,1,Miner selects any feerate no matter how small
+210,2017-07-14 20:15:54.000000000,2017-07-17 22:59:14.000000000,closed,1,"Increase default free relay for pegins, test that pegging is accepted…"
+209,2017-07-12 12:51:25.000000000,2017-07-13 16:18:48.000000000,closed,6,bad-txns-in-belowout -> bad-txns-in-ne-out
+208,2017-07-11 23:31:35.000000000,2019-03-25 19:01:50.000000000,closed,3,Update build-unix.md with elements specific changes from bitcoin
+207,2017-07-11 15:44:01.000000000,2017-07-18 15:53:41.000000000,closed,4,Mempool import fails
+206,2017-07-11 14:20:24.000000000,2017-07-18 15:53:55.000000000,closed,4,Block generation skipping chained transactions
+205,2017-07-11 12:27:13.000000000,2017-09-28 18:12:33.000000000,closed,3,f 'Add fast Merkle branch functions.'
+204,2017-07-10 18:26:40.000000000,2018-09-10 17:01:25.000000000,closed,2,[WIP] sendtoaddress named arguments work with asset args
+203,2017-07-10 16:53:34.000000000,2019-03-25 19:08:05.000000000,closed,8,CHECKSIGFROMSTACK should not have VERIFY semantics
+202,2017-07-10 08:35:35.000000000,1970-01-01 00:00:00.000000001,open,4,CHECKSIGFROMSTACK has VERIFY semantics
+201,2017-07-08 00:33:19.000000000,2017-07-13 06:41:41.000000000,closed,1,Disable QT test with hardcoded block hash values
+200,2017-07-08 00:31:04.000000000,2017-07-11 16:20:01.000000000,closed,1,change base58 prefix for script addresses
+199,2017-07-07 20:31:07.000000000,2017-07-11 18:03:22.000000000,closed,6,replace serValue with amount(commitment)
+198,2017-07-06 20:19:54.000000000,2017-07-07 17:17:16.000000000,closed,4,"rawblindraw fixes, tests"
+197,2017-07-06 17:28:00.000000000,2017-07-06 19:27:35.000000000,closed,1,Remove nValue/amount arguments from createrawtransaction
+196,2017-07-04 12:06:02.000000000,2017-07-05 16:38:48.000000000,closed,1,Remove redundant code (issueasset)
+195,2017-06-30 05:23:12.000000000,2017-06-30 16:39:23.000000000,closed,1,Fix help text in wallet/rpcwallet.cpp
+194,2017-06-23 05:32:45.000000000,2017-06-27 17:47:55.000000000,closed,1,Separate config files from assets tutorial
+193,2017-06-23 05:29:02.000000000,2017-06-24 05:58:57.000000000,closed,5,change type of vin to numeric in issueasset response.
+192,2017-06-23 04:54:26.000000000,2017-06-23 06:05:27.000000000,closed,3,elementsd -version' abort with std::runtime_error.
+191,2017-06-22 05:04:29.000000000,2017-10-01 04:51:17.000000000,closed,4,Refactor: Easier support for chains with multiple genesis assets
+190,2017-06-22 04:41:30.000000000,2017-06-22 06:16:17.000000000,closed,2,elementsd does not start on MacOS
+189,2017-06-22 04:24:21.000000000,2018-03-12 23:47:00.000000000,closed,12,HF: Move block.proof.challenge to Consensus::Params::signblockScript
+188,2017-06-22 04:21:14.000000000,2017-06-27 17:53:35.000000000,closed,1,Remove CChainParams::bitcoinID
+187,2017-06-22 03:58:10.000000000,2017-07-19 17:57:37.000000000,closed,2,HF: Genesis block includes fedpegscript and signblockscript
+186,2017-06-21 12:21:52.000000000,2017-06-22 04:46:06.000000000,closed,3,[rpc] Add getblindedaddress RPC command
+185,2017-06-21 05:13:13.000000000,2018-05-16 20:26:42.000000000,closed,6,Rpc: Introduce call for per-block fee statistics
+184,2017-06-19 06:15:06.000000000,2017-06-22 05:25:30.000000000,closed,5,[upstream #10627] fixed listunspent rpc convert parameter
+183,2017-06-16 22:44:28.000000000,2019-03-25 19:12:21.000000000,closed,1,generalize `bumpfee` to correctly support CT/assets
+182,2017-06-13 02:41:23.000000000,2017-06-16 05:11:29.000000000,closed,3,fixed gettxout rpc bug + invalidateblock.py syntax
+181,2017-06-13 02:33:58.000000000,2017-06-16 05:26:24.000000000,closed,5,reindex.py test fails in pull-tester suite
+180,2017-06-13 00:00:37.000000000,2017-07-08 00:22:38.000000000,closed,2,"""amount"" (also ""asset""?) field in transaction inputs in `createrawtransaction` is required but not actually used"
+179,2017-06-12 19:20:19.000000000,2017-06-16 00:12:55.000000000,closed,1,Use wallet to find compatible pegin sidechain_address by default duri…
+178,2017-06-06 23:53:51.000000000,2017-06-21 05:14:21.000000000,closed,4,Untested: Rpc call for per-block fee statistics
+177,2017-06-01 18:20:22.000000000,2017-06-15 23:20:37.000000000,closed,1,create elements.conf using osx build instructions
+176,2017-06-01 01:54:27.000000000,1970-01-01 00:00:00.000000001,open,2,MacOSX instructions overwrite bitcoin.conf
+175,2017-05-26 13:42:14.000000000,2017-05-26 21:26:41.000000000,closed,1,Trivial: Fix help text in rpc/rawtransaction.cpp
+174,2017-05-25 20:09:52.000000000,2017-06-15 23:20:50.000000000,closed,2,Disable claimpegin during IBD
+173,2017-05-16 22:23:38.000000000,2017-06-16 05:04:51.000000000,closed,3,have createblindedaddress use blinding pubkey instead
+172,2017-05-15 19:21:49.000000000,2017-06-15 23:32:26.000000000,closed,1,Only track locks with explicit asset types that are bitcoin
+171,2017-05-12 06:31:06.000000000,2019-03-25 19:32:25.000000000,closed,9,Min- and max-range in CT should be the same always
+170,2017-05-10 18:39:46.000000000,2017-05-10 19:17:58.000000000,closed,2,[backport] Update for OpenSSL 1.1 API
+169,2017-05-08 22:28:01.000000000,2017-05-08 22:45:36.000000000,closed,1,Fix elements-cli help: s/bitcoin-cli/elements-cli/
+168,2017-05-03 03:44:47.000000000,2017-05-08 22:48:04.000000000,closed,5,Document -signblockscript and -fedpegscript in daemon help
+167,2017-05-02 22:15:45.000000000,2017-05-10 17:50:06.000000000,closed,0,Handle TX_FEE case in IsMine
+166,2017-05-02 18:28:48.000000000,2017-06-16 05:12:25.000000000,closed,7,Separate config files from assets tutorial
+165,2017-04-27 01:22:18.000000000,1970-01-01 00:00:00.000000001,open,0,Allow multiple assets to use 2wp with different fedpeg scripts
+164,2017-04-20 04:52:21.000000000,2017-06-22 05:04:57.000000000,closed,2,Refactor: Easier support for chains with multiple genesis assets
+163,2017-04-18 17:51:43.000000000,2017-05-10 23:08:01.000000000,closed,10,blinding fixes
+162,2017-04-18 01:27:42.000000000,2019-03-25 19:32:40.000000000,closed,1,Add raw transaction API for issuances
+161,2017-04-13 20:22:13.000000000,2017-04-20 02:57:32.000000000,closed,1,give more accurate message for invalid block proof
+160,2017-04-13 19:47:23.000000000,2017-06-16 00:42:00.000000000,closed,0,"[HF] Fee output logic cleanup, allow 0-value fees"
+159,2017-04-12 17:31:41.000000000,1970-01-01 00:00:00.000000001,open,1,Support for custom decimal places
+158,2017-04-12 17:30:11.000000000,1970-01-01 00:00:00.000000001,open,0,[bitcoin-tx] value/asset args should line up between various calls
+157,2017-04-12 17:29:00.000000000,1970-01-01 00:00:00.000000001,open,0,blinding RPC enhancements
+156,2017-04-12 17:24:17.000000000,1970-01-01 00:00:00.000000001,open,0,Allow blinded fees in transactions
+155,2017-04-12 17:23:07.000000000,1970-01-01 00:00:00.000000001,open,1,Write tests for fees
+154,2017-04-12 17:22:05.000000000,2019-03-25 19:34:07.000000000,closed,1,Wallet needs to be more consistent displaying assets
+153,2017-04-12 17:21:08.000000000,1970-01-01 00:00:00.000000001,open,0,asset labels shouldn't be case-sensitive
+152,2017-04-12 17:20:00.000000000,2019-10-09 20:29:54.000000000,closed,1,BlindTransactions argument cleanup
+151,2017-04-12 17:19:01.000000000,1970-01-01 00:00:00.000000001,open,0,"change ""asset label"" to ""asset name"""
+150,2017-04-12 17:17:49.000000000,2019-03-25 19:36:08.000000000,closed,1,listreceivedby* still is autofiltering for bitcoin
+149,2017-04-12 17:05:38.000000000,1970-01-01 00:00:00.000000001,open,0,return assetCommitment in ListTransactions
+148,2017-04-12 17:03:11.000000000,1970-01-01 00:00:00.000000001,open,0,Sync up use of asset labels and RPC calls
+147,2017-04-11 21:20:49.000000000,2017-06-16 00:32:20.000000000,closed,0,rpc watchdog should take cs_main to protect the reconsiderblock queue
+146,2017-04-11 19:57:19.000000000,2017-04-12 04:57:13.000000000,closed,2,remove extraneous blinder returns for WalletTxToJSON
+145,2017-04-10 22:29:51.000000000,2017-06-15 23:57:05.000000000,closed,1,"Revert ownership of CCheck to QueueCheck, return ScriptError"
+144,2017-04-06 22:11:54.000000000,2017-04-12 17:02:56.000000000,closed,1,Tests for VerifyAmounts and VerifyCoinbaseAmounts
+143,2017-04-04 23:53:52.000000000,2017-04-12 16:51:42.000000000,closed,3,fixup disallowing 0-value spendable outputs
+142,2017-04-03 17:57:24.000000000,2017-04-03 17:59:53.000000000,closed,0,update README.md
+141,2017-04-03 17:42:30.000000000,2017-04-03 17:43:26.000000000,closed,0,f'add assets tutorial script'
+140,2017-04-03 17:15:53.000000000,2017-04-03 17:34:54.000000000,closed,1,update README.md
+139,2017-04-03 16:05:42.000000000,2017-04-03 16:05:55.000000000,closed,0,Confidential Assets support
+138,2017-04-02 23:05:53.000000000,2017-04-04 18:37:02.000000000,closed,2,"[elements-0.13.1] When reindex is called, wallet transactions aren't re-entered into mempool"
+137,2017-03-10 21:24:51.000000000,2017-05-10 23:08:01.000000000,closed,2,"[0.13.1] fundrawtransaction is moderately broken, results in blinded outputs"
+136,2017-03-10 20:38:07.000000000,2017-03-15 18:02:00.000000000,closed,1,"Fix transaction re-blinding, remove legacy static key"
+135,2017-03-01 06:39:47.000000000,2017-07-19 05:57:53.000000000,closed,1,[0.13.1] Plug memory leaks in C*Check instances
+134,2017-03-01 06:21:22.000000000,2017-07-13 04:07:57.000000000,closed,3,Update build-unix.md with elements specific changes from bitcoin
+133,2017-03-01 06:17:35.000000000,2019-03-25 19:36:54.000000000,closed,0,"[0.13.1] pegging.py should catch errors, print reason, exit and spin down nodes"
+132,2017-02-28 06:34:33.000000000,2017-03-08 02:29:28.000000000,closed,1,RPC: Introduce -rpcamountdecimals for the RPC to use other units than BTC
+131,2017-02-27 06:57:46.000000000,2017-02-27 12:30:46.000000000,closed,3,Fix claimpegin help msg
+130,2017-02-27 02:07:53.000000000,1970-01-01 00:00:00.000000001,open,2,blinding_derivation_key should be generated in HD path
+129,2017-02-24 05:07:59.000000000,2017-02-24 05:17:34.000000000,closed,0,Trivial: Move SendMoney wrapper below funcion definition
+128,2017-02-22 11:54:13.000000000,2017-02-22 20:50:36.000000000,closed,1,[Trivial] Change 'bitcoin-cli' to 'elements-cli' in error message
+127,2017-02-22 07:03:34.000000000,2018-09-27 18:05:33.000000000,closed,4,Integrate pegging.py in qa/rpc-tests/feature_fedpeg.py
+126,2017-02-22 03:27:42.000000000,2017-02-22 04:26:39.000000000,closed,1,Trivial: s/liquid-daemon/elementsd
+125,2017-02-21 05:58:01.000000000,2017-05-10 05:00:34.000000000,closed,1,"[0.13.1] ""high-hash"""
+124,2017-02-14 21:56:45.000000000,2017-03-12 01:28:39.000000000,closed,5,new createblindedaddress call to gen CT address
+123,2017-02-09 11:21:46.000000000,2017-02-14 20:14:56.000000000,closed,4,build: fix qt5.7 build under macOS
+122,2017-02-08 05:31:21.000000000,2017-03-08 01:59:13.000000000,closed,4,Adding script to generate element blocks
+121,2017-02-07 21:03:58.000000000,2017-02-14 07:47:49.000000000,closed,0,listunspent: don't list outputs with unknown amounts
+120,2017-02-07 01:03:19.000000000,2017-03-03 04:38:49.000000000,closed,0,Don't redirect audit.log output with -printtoconsole
+119,2017-02-04 01:13:00.000000000,2017-02-07 21:09:28.000000000,closed,0,Make sure we check wallet is available and unlocked for pegging
+118,2017-02-03 20:14:05.000000000,2019-03-25 19:37:15.000000000,closed,0,[0.13.1] Support multiple fedpegscript/signblockscript depending on blockheight
+117,2017-02-03 03:45:11.000000000,2017-02-03 03:48:02.000000000,closed,1,Adding python script to generate element blocks in 1 of 1 regtest mode
+116,2017-02-03 00:43:04.000000000,2017-07-19 05:25:39.000000000,closed,1,Add some safeguards for peg-ins
+115,2017-02-03 00:13:36.000000000,2019-03-25 19:37:20.000000000,closed,0,[0.13.1] fixup reindexing with new signblockscript behavior
+114,2017-02-02 23:30:21.000000000,2017-06-22 04:25:53.000000000,closed,11,HF: Move block.proof.challenge to Consensus::Params::signblockScript
+113,2017-02-02 07:14:41.000000000,2019-03-25 19:37:29.000000000,closed,2,Document Assets API
+112,2017-02-02 07:11:11.000000000,2017-02-02 21:58:25.000000000,closed,4,Migrate `elements-cli` to `elements`
+111,2017-02-01 09:16:23.000000000,2017-02-02 21:58:14.000000000,closed,3,HF: Move block.proof.challenge to Consensus::Params::signblockScript
+110,2017-01-24 22:40:53.000000000,2019-03-25 19:37:56.000000000,closed,1,Priority/Free relay disappearing
+109,2017-01-21 22:28:57.000000000,2017-02-02 21:57:44.000000000,closed,5,Adding script to generate element blocks for 1 of 1 regtest
+108,2017-01-20 19:57:53.000000000,2019-03-25 19:38:11.000000000,closed,1,pegging.py only uses generate path
+107,2017-01-19 03:00:25.000000000,2017-02-02 21:37:06.000000000,closed,9,"Add Changes From Liquid, Bitcoin"
+106,2016-10-19 18:46:20.000000000,2017-04-11 18:04:17.000000000,closed,1,typographical enhancement
+105,2016-09-22 03:09:50.000000000,2016-09-22 07:42:44.000000000,closed,4,signrawtransaction can incorrectly reserializes existing pubscript
+104,2016-09-09 16:46:49.000000000,2016-09-16 14:49:14.000000000,closed,5,Out of date dependencies prevent building on Arch
+103,2016-09-01 01:26:31.000000000,2019-03-25 19:38:46.000000000,closed,10,OP_CHECKSIGVERIFY incorrectly checks for a hash type suffix of signatures
+102,2016-08-23 18:48:04.000000000,2016-08-24 01:11:34.000000000,closed,2,Code on create Sidechain not justified.
+101,2016-07-12 18:07:18.000000000,2016-09-10 01:53:52.000000000,closed,2,remove now-unnecessary fetch-merge that was merged in PR#86
+100,2016-07-11 19:33:14.000000000,2019-03-25 19:38:52.000000000,closed,4,Issues with ./contrib/sidechain-manipulation.py after creating a New Sidechain 
+99,2016-06-17 02:34:44.000000000,2016-06-17 03:11:22.000000000,closed,2,Allow sidechain-manipulation to use RPC_USER and RPC_PASS from environment
+98,2016-05-19 01:13:00.000000000,2017-07-19 06:37:48.000000000,closed,3,Fixed sidechain-manipulation print bug when there are 0 confirmations
+97,2016-04-28 11:42:42.000000000,2017-07-19 06:38:08.000000000,closed,1,Fix LSHIFT test
+96,2016-04-20 22:07:53.000000000,2017-02-02 23:29:37.000000000,closed,1,OP_LSHIFT: MAX_SCRIPT_ELEMENT_SIZE
+95,2016-04-11 10:33:16.000000000,2019-03-25 19:39:30.000000000,closed,3,blindingdata entry in listtransactions should be removed
+94,2016-03-25 02:47:32.000000000,2016-03-25 03:46:50.000000000,closed,3,Alpha 0.10 multi asset
+93,2016-03-23 00:37:23.000000000,2017-02-03 19:38:31.000000000,closed,5,Fix an edge case when spending zero-blindingfactor inputs
+92,2016-03-22 09:07:46.000000000,2017-07-19 06:38:13.000000000,closed,1,"Dont claim peg-out withdraws, as such claims are broken (fixes #63)"
+91,2016-03-15 00:21:34.000000000,2016-03-15 01:23:52.000000000,closed,0,Assets: more fixes for asset issuance
+90,2016-03-14 19:40:59.000000000,2017-02-03 19:38:52.000000000,closed,1,Fix caching of blinding data
+89,2016-03-12 04:37:19.000000000,2016-03-14 22:42:32.000000000,closed,1,"Chainparams: Don't check the genesis block, but store its transaction…"
+88,2016-03-11 21:17:09.000000000,2016-03-11 23:47:02.000000000,closed,4,Assets: Attempts to fix regtest
+87,2016-03-01 05:01:41.000000000,2016-05-28 13:02:57.000000000,closed,10,Create fedpeg-README.md
+86,2016-02-26 21:47:05.000000000,2016-05-28 12:56:59.000000000,closed,6,Import settings from constants.py into sidechain-manipulation.py
+85,2016-02-16 23:52:00.000000000,2016-03-14 19:00:19.000000000,closed,1,Deal better with unknown amounts in balances
+84,2016-02-16 04:11:43.000000000,2016-02-29 21:52:49.000000000,closed,6,Fix broken assertion in alpha for new libsecp version.
+83,2016-02-15 18:12:07.000000000,2019-03-25 19:24:22.000000000,closed,7,Issue on claim-on-sidechain in sidechain-manipulation.py
+82,2016-02-15 09:04:41.000000000,2019-03-25 19:14:47.000000000,closed,2,Rename tracksidechain for clarity?
+81,2016-02-15 08:24:39.000000000,2019-03-25 19:24:33.000000000,closed,2,"blindtrust option name is confusing, rename and invert meaning"
+80,2016-02-11 21:20:11.000000000,2017-07-19 06:38:18.000000000,closed,4,Add Documentation for Testing and QA
+79,2016-02-10 00:16:36.000000000,2016-02-10 23:15:28.000000000,closed,3,IndexError: list index out of range (sidechain-manipulation.py line 141)
+78,2016-02-09 02:20:33.000000000,2017-02-03 19:40:55.000000000,closed,3,Multithreaded range proof checks
+77,2016-02-06 04:42:26.000000000,2017-07-19 06:38:25.000000000,closed,2,Re-enable rpc tests wallet.py and walletbackup.py
+76,2016-02-04 01:05:48.000000000,2016-02-06 03:52:43.000000000,closed,1,"Improve README, Add Documentation"
+75,2016-02-03 01:39:03.000000000,2016-02-06 01:29:47.000000000,closed,2,Update libsecp256k1
+74,2016-02-02 18:05:51.000000000,2016-02-15 09:48:53.000000000,closed,6,Use HMAC derivation for blinding keys
+73,2016-01-25 20:48:05.000000000,2019-03-25 19:15:20.000000000,closed,1,Implement cost function
+72,2016-01-14 03:36:23.000000000,2016-02-06 04:31:09.000000000,closed,2,Relay everything and dont bother with priority
+71,2015-12-31 07:16:00.000000000,2015-12-31 21:11:46.000000000,closed,0,Fix building with Qt -reduce-relocations
+70,2015-12-29 15:32:06.000000000,2017-07-19 06:38:35.000000000,closed,6,Properly builds on Mac OS X
+69,2015-12-17 16:57:34.000000000,2017-02-02 23:36:36.000000000,closed,1,Scanning key is reused
+68,2015-12-17 00:41:48.000000000,2015-12-17 21:32:04.000000000,closed,1,Minor: Fixed error message
+67,2015-12-17 00:07:45.000000000,2016-02-06 01:10:11.000000000,closed,6,Fixed errors after receiving a tx with wrong scanning key
+66,2015-12-12 00:12:36.000000000,2019-10-09 20:31:02.000000000,closed,1,RPC signblock should fail if the block can not be signed
+65,2015-11-25 20:40:25.000000000,2015-11-26 19:40:10.000000000,closed,1,Chainparams: fix the factory the #6907 way
+64,2015-11-24 03:05:19.000000000,2015-11-26 20:51:54.000000000,closed,2,Fix GUI build (broken by PR #55)
+63,2015-11-22 23:27:41.000000000,2019-03-25 19:15:46.000000000,closed,4,mandatory-script-verify-flag-failed (Withdraw proof validation failed - output does not match expected
+62,2015-11-22 21:54:29.000000000,2019-03-25 19:20:11.000000000,closed,2,Documentation question wrt alpha-README and send-to-sidechain
+61,2015-11-18 00:46:56.000000000,2015-11-19 01:03:51.000000000,closed,5,"Give a nice error for ""make bitcoind"", instead of a misleading one."
+60,2015-11-09 13:52:28.000000000,2015-11-18 23:19:46.000000000,closed,13,Add CL flag support to sidechain manipulation script
+59,2015-11-09 01:33:58.000000000,2015-11-09 07:13:21.000000000,closed,7,send-to-sidechain Aborted (core dumped)
+58,2015-11-06 01:29:13.000000000,2016-02-06 01:16:39.000000000,closed,0,Add some additional error handling in ww for slow bitcoinds
+57,2015-10-24 00:10:50.000000000,2016-02-06 01:06:43.000000000,closed,2,fixes comment in script_(in)valid.json to match content.
+56,2015-10-20 04:45:35.000000000,2015-11-06 01:28:46.000000000,closed,3,Fix overflow in priority calculation
+55,2015-09-30 22:10:45.000000000,2015-11-22 15:15:17.000000000,closed,11,Add commandline flag to set genesis block script destination
+54,2015-09-27 01:39:04.000000000,2015-11-22 15:15:17.000000000,closed,0,Regtest needs ability to change the blocksigning scriptpubkey from the command line
+53,2015-09-18 14:36:36.000000000,2015-11-06 01:28:46.000000000,closed,2,Insufficient priority when trying to claim-on-sidechain
+52,2015-09-11 23:20:15.000000000,2017-07-19 06:38:42.000000000,closed,6,Add `report_error` function for peer errors which can be overridden
+51,2015-08-28 23:47:32.000000000,2019-03-25 19:22:56.000000000,closed,1,secp256k1_rangeproof_genrand insufficient validation of signed argument
+50,2015-08-27 02:33:46.000000000,2016-02-06 01:05:16.000000000,closed,2,Disable proof checking for all blocks on load
+49,2015-08-27 02:21:40.000000000,2017-07-19 06:39:03.000000000,closed,15,Use Script-based signing for messages
+48,2015-08-22 02:04:15.000000000,2016-02-02 16:40:46.000000000,closed,3,Key tree signatures
+47,2015-08-06 21:45:36.000000000,2015-08-26 23:31:24.000000000,closed,5,Improve addrman Select() performance when buckets are nearly empty.
+46,2015-08-06 05:59:59.000000000,2015-08-07 05:02:51.000000000,closed,2,Update libsecp256k1
+45,2015-08-05 00:50:27.000000000,2015-08-05 19:58:45.000000000,closed,1,recipe for target 'bitcoind-bitcoind.o' failed
+44,2015-08-03 08:19:00.000000000,2015-11-09 13:49:16.000000000,closed,8,Support locked Bitcoin wallets in sidechain manipulation script
+43,2015-08-02 08:30:22.000000000,2019-03-25 19:21:54.000000000,closed,4,alphad maxes out the CPU while waiting for Tx confirmations?
+42,2015-07-27 09:50:34.000000000,2019-03-25 19:22:09.000000000,closed,0,withdrawwatch's sanity checks should not require being a functionary to run
+41,2015-07-27 09:49:40.000000000,2019-03-25 19:22:12.000000000,closed,0,withdrawwatch should stop processing after a large reorg for manual checks
+40,2015-07-27 08:49:53.000000000,2015-08-06 22:45:25.000000000,closed,9,cannot convert ‘unsigned char*’ to ‘secp256k1_pubkey_t*’
+39,2015-07-24 03:02:59.000000000,2015-08-06 17:31:22.000000000,closed,3,Update alpha-README to fix line formatting
+38,2015-07-21 23:44:29.000000000,2015-11-09 00:12:07.000000000,closed,2,Method not found on RPC call sidechain-manipulation.py
+37,2015-07-21 11:17:30.000000000,2019-03-25 19:22:50.000000000,closed,4,Signature hashing of transactions incorrect/surprising for multiple inputs.
+36,2015-07-17 02:43:06.000000000,2017-04-27 16:59:15.000000000,closed,6,Rebuild the database using -reindex to change -txindex.
+35,2015-07-02 01:47:43.000000000,2019-03-25 19:23:21.000000000,closed,1,"decodescript still says OP_NOP3, not OP_CSV"
+34,2015-06-24 16:35:37.000000000,2015-08-21 23:01:15.000000000,closed,3,Support creating blinded inputs without blinded output
+33,2015-06-23 18:43:04.000000000,2015-07-18 03:56:14.000000000,closed,2,"Add support for Merkle tree scripts (1-of-n multisig, with n up to 2^32)."
+32,2015-06-20 02:41:02.000000000,2015-06-24 01:32:05.000000000,closed,0,"build: if there's no recent git tag, don't spew error messages"
+31,2015-06-20 02:26:52.000000000,2019-03-25 19:23:35.000000000,closed,2,Bad invocation of 'git rev-list' during alphad build
+30,2015-06-17 20:30:08.000000000,2019-03-25 19:23:40.000000000,closed,1,Send To Sidechain fails
+29,2015-06-15 21:12:23.000000000,2019-03-25 19:23:54.000000000,closed,0,-tracksidechain needs -reindex on change
+24,2015-06-12 11:36:57.000000000,2015-08-21 22:14:24.000000000,closed,1,Fix key import while running withdrawwatch
+23,2015-06-12 05:54:41.000000000,2019-03-25 19:23:58.000000000,closed,7,windows build failure
+22,2015-06-12 05:41:07.000000000,2015-06-12 06:17:12.000000000,closed,1,Guard wallet code in pow.cpp with ENABLE_WALLET
+21,2015-06-12 02:12:43.000000000,2015-06-23 22:21:37.000000000,closed,2,Do not truncate refund amount when printing debug data to the user
+20,2015-06-11 02:34:56.000000000,2019-03-25 19:24:13.000000000,closed,0,Functionaries can be made to stop processing withdraws by an attacker
+19,2015-06-11 02:31:48.000000000,2015-06-11 04:39:58.000000000,closed,0,Fix spent_from_log formatting
+18,2015-06-10 23:42:54.000000000,2019-03-25 19:30:57.000000000,closed,0,Alpha uses bitcoin's genesis hash for its parent-chain definition instead of testnet
+17,2015-06-10 18:54:43.000000000,2015-06-12 08:53:58.000000000,closed,3,updated alpha-README instructions to include adding RPC username/pass…
+16,2015-06-10 08:30:14.000000000,2015-07-18 03:53:49.000000000,closed,2,Limit send-to-sidechain transaction size
+15,2015-06-10 07:50:20.000000000,2019-03-25 19:26:30.000000000,closed,0,Send to Sidechain can generate un-claimable transactions
+14,2015-06-10 07:26:09.000000000,2019-04-01 13:00:33.000000000,closed,4,Coinbase output maturity limits are not enforced
+13,2015-06-10 04:37:38.000000000,2019-03-25 19:24:58.000000000,closed,1,Peer finding cpu waste
+12,2015-06-10 03:57:33.000000000,2015-06-11 08:56:21.000000000,closed,3,"Default --with-libs to ""no"""
+11,2015-06-10 00:56:31.000000000,2015-06-11 10:16:10.000000000,closed,8,OS X build failure
+10,2015-06-10 00:06:31.000000000,2015-06-10 00:06:40.000000000,closed,0,Update README with different mainchain branch name
+9,2015-06-09 23:27:29.000000000,2015-06-09 23:49:24.000000000,closed,0,Be more verbose in blocksign to indicate which funcs are working
+8,2015-06-09 22:45:14.000000000,2015-07-17 16:48:25.000000000,closed,4,"Chainparams: Leave chains ""alpha"" and ""alpharegtest"", remove ""main"", ""test"" and ""unittest"""
+7,2015-06-09 22:37:26.000000000,2015-06-09 23:49:15.000000000,closed,0,Fix markdown to improve readability of alpha-README.md
+6,2015-06-09 21:11:11.000000000,2017-02-04 01:24:07.000000000,closed,3,Create new address format for confidential transactions
+5,2015-06-09 20:26:14.000000000,2015-06-11 23:40:17.000000000,closed,9,OS/X configure fails: configure: error: libdb_cxx headers missing
+4,2015-06-09 19:31:00.000000000,2015-06-09 19:44:59.000000000,closed,2,Produce confidential addresses in GUI
+3,2015-06-09 17:07:12.000000000,2015-06-09 21:00:03.000000000,closed,2,Not a Bitcoin Core fork
+2,2015-06-09 11:05:37.000000000,2015-06-11 10:13:39.000000000,closed,2,new lines to improve readability of numbered lists
+1,2015-06-09 08:00:42.000000000,2015-06-12 06:18:01.000000000,closed,1,Tags/commits aren't PGP signed
