@@ -191,7 +191,6 @@ class Miner:
                 columns=["commit_id", "committer_id", "committed_at", "committer_domain"],
             )
             self.commit_stats = stats_pd
-    #        print('Requests remaining = ' + str(self.g.rate_limiting[0]))
         print('Requests remaining = ' + str(self.g.rate_limiting[0]) + ' for token idx: ' + str(self.token_idx))
 
 
@@ -586,6 +585,7 @@ class Miner:
         totalCount = pulls.totalCount
         print(f'Number of pull requests for {self.repo_name} = {totalCount}')
 #        print('Pulls are here')
+
         def sequential_pull(pull_list):
             ret = []
             temp_counter = 0
