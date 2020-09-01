@@ -171,7 +171,7 @@ class Miner:
         print(f'Entering fetch commits for {self.repo_name}')
         csv_file_name = f"{self.repo_name.split('/')[-1]}_commits_and_comments.csv"
         stats_pd = self._read_existing_data(csv_file_name)
-        if stats_pd:
+        if stats_pd is not None:
             self.commit_stats = stats_pd
         else:
             if self.commits_stats_from_clone:
