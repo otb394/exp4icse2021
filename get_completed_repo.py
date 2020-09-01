@@ -19,3 +19,15 @@ print(repos)
 with open('completed_repos.txt', 'w') as f:
     for repo in repos:
         f.write(repo + '\n')
+
+all_repos = []
+
+with open('data/repo_list.csv', 'r') as f:
+    for repo in f:
+        all_repos.append(repo.strip())
+
+remaining_repos = [x for x in all_repos if x[19:].split('/')[1] not in repos]
+
+with open('remaining_repos.txt', 'w') as f:
+    for repo in remaining_repos:
+        f.write(repo + '\n')
