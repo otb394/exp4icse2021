@@ -132,7 +132,6 @@ class Miner:
         else:
             return None
 
-
     def _fetch_commit_data(self):
         """
         Get commits activity grouped by month.
@@ -172,6 +171,7 @@ class Miner:
         csv_file_name = f"{self.repo_name.split('/')[-1]}_commits_and_comments.csv"
         stats_pd = self._read_existing_data(csv_file_name)
         if stats_pd is not None:
+            stats_pd.committed_at = stats_pd.committed_at.astype("datetime64[ns]")
             self.commit_stats = stats_pd
         else:
             if self.commits_stats_from_clone:
