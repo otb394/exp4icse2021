@@ -487,7 +487,9 @@ class Miner:
                 counts -= 1
                 if counts == 0:
                     break
-            one = {"user_id": fork.owner.login}
+            print('Fork name = ' + str(fork.name))
+            one = {"user_id": fork.owner.login if fork.owner else None}
+            print('User id = ' + one[user_id])
             one["created_at"] = fork.created_at.astimezone(tz = timezone.utc).replace(tzinfo = None) if fork.created_at else None
             stats.append(one)
             temp_counter = temp_counter + 1
