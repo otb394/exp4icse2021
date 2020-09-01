@@ -309,7 +309,7 @@ class Miner:
         #stats_pd.date = stats_pd.date.astype("datetime64[ns]")
         print(stats_pd)
         self.results = stats_pd.copy()
-        csv_file_name = f"{self.repo_name.split('/')[-1]}_releases.csv"
+        csv_file_name = f"{self.repo_name.replace('/','-')}_releases.csv"
         path = os.path.join(self.output_folder, csv_file_name)
         stats_pd.to_csv(
                 path,
@@ -359,13 +359,12 @@ class Miner:
 
         for i in range(len(self.results)):
             if i == 0:
-                open_mask = (stats_pd.created_at <= self.results.date[i]) #& (stats_pd.state == 'open')
+                open_mask = (stats_pd.created_at <= self.results.date[i])
                 closed_mask = (stats_pd.closed_at <= self.results.date[i]) & (stats_pd.state == 'closed')
             else:
                 open_mask = (
                         (stats_pd.created_at <= self.results.date[i]) 
                         & (stats_pd.created_at > self.results.date[i-1])
-#                        & (stats_pd.state == 'open')
                 )
                 closed_mask = (
                             (stats_pd.closed_at <= self.results.date[i]) 
@@ -450,8 +449,7 @@ class Miner:
         print('Requests remaining = ' + str(self.g.rate_limiting[0]) + ' for token idx: ' + str(self.token_idx))
 #        print('Requests remaining = ' + str(self.g.rate_limiting[0]))
 
-    # TODO: What does the time here signify? Should it be the time at which the fork was created? or should it be the fork repository was created?
-    # Wait, will they be same?
+    # @profile
     def _get_forks(self):  # Total time: 2.84025 s for debug
         """
         Get monthly forks and update it in self.results, will finally save to .csv file
@@ -467,7 +465,7 @@ class Miner:
                 counts -= 1
                 if counts == 0:
                     break
-            one = {"user_id": fork.owner.login}
+            one = {"user_id": fork.owner.login if fork.owner else fork.full_name.split('/')[0]}
             one["created_at"] = fork.created_at.astimezone(tz = timezone.utc).replace(tzinfo = None) if fork.created_at else None
             stats.append(one)
             temp_counter = temp_counter + 1

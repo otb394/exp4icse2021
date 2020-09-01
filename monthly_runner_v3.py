@@ -470,8 +470,6 @@ class Miner:
 #        print('Requests remaining = ' + str(self.g.rate_limiting[0]))
 
     # @profile
-    # TODO: What does the time here signify? Should it be the time at which the fork was created? or should it be the fork repository was created?
-    # Wait, will they be same?
     def _get_forks(self):  # Total time: 2.84025 s for debug
         """
         Get monthly forks and update it in self.results, will finally save to .csv file
@@ -487,9 +485,7 @@ class Miner:
                 counts -= 1
                 if counts == 0:
                     break
-            #print('Fork name = ' + str(fork.full_name))
             one = {"user_id": fork.owner.login if fork.owner else fork.full_name.split('/')[0]}
-            #print('User id = ' + str(one['user_id']))
             one["created_at"] = fork.created_at.astimezone(tz = timezone.utc).replace(tzinfo = None) if fork.created_at else None
             stats.append(one)
             temp_counter = temp_counter + 1
